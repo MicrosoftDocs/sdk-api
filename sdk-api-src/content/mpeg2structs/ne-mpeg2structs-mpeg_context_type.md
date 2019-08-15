@@ -81,7 +81,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0030">MPEG_CONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a>
  
 
  

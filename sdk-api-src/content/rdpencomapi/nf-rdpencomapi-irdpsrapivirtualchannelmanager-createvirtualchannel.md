@@ -95,7 +95,7 @@ The priority of the channel. This parameter can be one of the following values.
 
 Type: <b>unsigned long</b>
 
-Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0004">CHANNEL_FLAGS_UNCOMPRESSED</a>.
+Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-channel_flags">CHANNEL_FLAGS_UNCOMPRESSED</a>.
 
 
 ### -param ppChannel [out]

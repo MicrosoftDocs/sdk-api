@@ -73,7 +73,7 @@ Type of reset. It can be one of the following possible values.
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDefault</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomDefault</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -84,7 +84,7 @@ Used for paragraph formatting that is defined by the RTF \pard, that is, the par
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a></dt>
 </dl>
 </td>
 <td width="60%">

@@ -107,7 +107,7 @@ Purpose ID for the new media stream.
 ### -param StreamType [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
 
 
 ## -returns

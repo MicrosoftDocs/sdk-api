@@ -61,7 +61,7 @@ The <b>ProcessOutput</b> method gets the processed output from the Device MFT ou
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
 
 
 ### -param cOutputBufferCount [in]
@@ -76,7 +76,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 ### -param pdwStatus [in]
 
-Receives a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
+Receives a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
 
 
 ## -returns

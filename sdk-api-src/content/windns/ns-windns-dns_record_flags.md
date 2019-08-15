@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>DNS_RECORD_FLAGS</b> structure is used to set flags for use in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The
 
 ### -field Section
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dnssection">DNS_SECTION</a> value that specifies the section of interest returned from the 
+A <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_section">DNS_SECTION</a> value that specifies the section of interest returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call.
 
 
@@ -93,7 +93,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

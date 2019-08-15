@@ -68,7 +68,7 @@ A reference to the  <a href="https://docs.microsoft.com/windows/desktop/api/webs
 
 ### -param flags [in]
 
-The value of this parameter determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12">WS_URL_FLAGS</a>.
+The value of this parameter determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
                 
 
 

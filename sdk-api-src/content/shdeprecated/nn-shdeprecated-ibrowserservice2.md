@@ -72,7 +72,7 @@ The <b>IBrowserService2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_cancelpendingnavigationasync">_CancelPendingNavigationAsync</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_cancelpendingnavigationasync">_CancelPendingNavigationAsync</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
@@ -81,7 +81,7 @@ Deprecated. Enables a derived class to request that the base class cancel any pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_cancelpendingview">_CancelPendingView</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_cancelpendingview">_CancelPendingView</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables a derived class to request that the base class cancel any pending views.
@@ -90,7 +90,7 @@ Deprecated. Enables a derived class to request that the base class cancel any pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_closeandreleasetoolbars">_CloseAndReleaseToolbars</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_closeandreleasetoolbars">_CloseAndReleaseToolbars</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Requests the closing of the browser toolbars hosted by the derived class.
@@ -99,7 +99,7 @@ Deprecated. Requests the closing of the browser toolbars hosted by the derived c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_disablemodeless">_DisableModeless</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_disablemodeless">_DisableModeless</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
@@ -108,7 +108,7 @@ Deprecated. Enables a derived class to ask the base class whether a modal UI is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_execchildren">_ExecChildren</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_execchildren">_ExecChildren</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables the derived class to issue a command through the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method directly, instead of relying on the base class.
@@ -117,7 +117,7 @@ Deprecated. Enables the derived class to issue a command through the <a href="ht
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_findtbar">_FindTBar</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_findtbar">_FindTBar</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Returns the index of a browser toolbar item based on COM identity rules.
@@ -126,7 +126,7 @@ Deprecated. Returns the index of a browser toolbar item based on COM identity ru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_get_itblastfocus">_get_itbLastFocus</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_get_itblastfocus">_get_itbLastFocus</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets the ID of the last toolbar or view that had focus.
@@ -135,7 +135,7 @@ Deprecated. Gets the ID of the last toolbar or view that had focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getborderdwhelper">_GetBorderDWHelper</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getborderdwhelper">_GetBorderDWHelper</a>
 </td>
 <td align="left" width="63%">
 Deprecated. A helper method for the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-idockingwindowsite-getborderdw">GetBorderDW</a>.
@@ -144,16 +144,16 @@ Deprecated. A helper method for the implementation of <a href="https://docs.micr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">_GetEffectiveClientArea</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">_GetEffectiveClientArea</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">IBrowserService2::_GetViewBorderRect</a> to negotiate the dimensions of the browser view.
+Deprecated. Used with <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">IBrowserService2::_GetViewBorderRect</a> to negotiate the dimensions of the browser view.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbarcount">_GetToolbarCount</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbarcount">_GetToolbarCount</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Returns the number of toolbars in the browser window.
@@ -162,7 +162,7 @@ Deprecated. Returns the number of toolbars in the browser window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">_GetToolbarItem</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">_GetToolbarItem</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets a specific item from a toolbar.
@@ -171,16 +171,16 @@ Deprecated. Gets a specific item from a toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">_GetViewBorderRect</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_getviewborderrect">_GetViewBorderRect</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
+Deprecated. Used with <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_initialize">_Initialize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_initialize">_Initialize</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Coordinates the initializing of state between the base and the derived classes.
@@ -189,7 +189,7 @@ Deprecated. Coordinates the initializing of state between the base and the deriv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_loadtoolbars">_LoadToolbars</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_loadtoolbars">_LoadToolbars</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Loads the saved state of the browser's toolbars.
@@ -198,7 +198,7 @@ Deprecated. Loads the saved state of the browser's toolbars.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_maysavechanges">_MaySaveChanges</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_maysavechanges">_MaySaveChanges</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables the base class to check whether the browser view needs to save changes before closing.
@@ -207,7 +207,7 @@ Deprecated. Enables the base class to check whether the browser view needs to sa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_navigatetopidl">_NavigateToPidl</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_navigatetopidl">_NavigateToPidl</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Navigates the base class to a new location synchronously.
@@ -216,7 +216,7 @@ Deprecated. Navigates the base class to a new location synchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_onfocuschange">_OnFocusChange</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_onfocuschange">_OnFocusChange</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Coordinates focus between the base and the derived class when the focus shifts between the derived class's browser toolbars and its view.
@@ -225,7 +225,7 @@ Deprecated. Coordinates focus between the base and the derived class when the fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_pauseorresumeview">_PauseOrResumeView</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_pauseorresumeview">_PauseOrResumeView</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Enables a derived class to request the base class to either pause (such as before a minimize operation) or resume the browser view.
@@ -234,7 +234,7 @@ Deprecated. Enables a derived class to request the base class to either pause (s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_put_itblastfocus">_put_itbLastFocus</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_put_itblastfocus">_put_itbLastFocus</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Sets the last toolbar or the last view with focus.
@@ -243,7 +243,7 @@ Deprecated. Sets the last toolbar or the last view with focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">_ResizeNextBorder</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">_ResizeNextBorder</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
@@ -252,25 +252,25 @@ Deprecated. Resizes the border of the browser view in response to the addition o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">_ResizeNextBorderHelper</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">_ResizeNextBorderHelper</a>
 </td>
 <td align="left" width="63%">
-Deprecated. A helper method used by the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">IBrowserService2::_ResizeNextBorder</a>.
+Deprecated. A helper method used by the implementation of <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">IBrowserService2::_ResizeNextBorder</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizeview">_ResizeView</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizeview">_ResizeView</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
+Deprecated. Calls <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_savetoolbars">_SaveToolbars</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_savetoolbars">_SaveToolbars</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Saves the state of browser toolbars.
@@ -279,7 +279,7 @@ Deprecated. Saves the state of browser toolbars.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_sendchildren">_SendChildren</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_sendchildren">_SendChildren</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Allows the derived class to send a message through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function directly instead of relying on the base class.
@@ -288,7 +288,7 @@ Deprecated. Allows the derived class to send a message through the <a href="http
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">_SetFocus</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">_SetFocus</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Sets the focus on a toolbar or on the browser's view window. Called when translating accelerators through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a> or when <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a> fails.
@@ -297,7 +297,7 @@ Deprecated. Sets the focus on a toolbar or on the browser's view window. Called 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_switchactivationnow">_SwitchActivationNow</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_switchactivationnow">_SwitchActivationNow</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Coordinates state updates while switching between current and pending browser views.
@@ -306,7 +306,7 @@ Deprecated. Coordinates state updates while switching between current and pendin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_tryshell2rename">_TryShell2Rename</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_tryshell2rename">_TryShell2Rename</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Coordinates the renaming of the current browser view when the browser is redirected.
@@ -315,7 +315,7 @@ Deprecated. Coordinates the renaming of the current browser view when the browse
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_uiactivateview">_UIActivateView</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_uiactivateview">_UIActivateView</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Allows a derived class to request that the base class update the browser view.
@@ -324,7 +324,7 @@ Deprecated. Allows a derived class to request that the base class update the bro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">_UpdateViewRectSize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">_UpdateViewRectSize</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.

@@ -134,7 +134,7 @@ This method can be used when the performance of the knowledge comparison operati
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0011">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-knowledge_cookie_comparison_result">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
  
 
  

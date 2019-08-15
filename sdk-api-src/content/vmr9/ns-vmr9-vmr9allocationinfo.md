@@ -64,7 +64,7 @@ The <b>VMR9AllocationInfo</b> structure describes the Direct3D surfaces that a V
 
 ### -field dwFlags
 
-Specifies a bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0001_0001">VMR9SurfaceAllocationFlags</a> enumeration type.
+Specifies a bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9surfaceallocationflags">VMR9SurfaceAllocationFlags</a> enumeration type.
 
 
 ### -field dwWidth

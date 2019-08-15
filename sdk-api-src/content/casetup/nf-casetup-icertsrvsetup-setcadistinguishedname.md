@@ -129,7 +129,7 @@ A value that indicates whether to allow the name in <i>bstrCADN</i>, even though
 
 
 
-Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
+Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 

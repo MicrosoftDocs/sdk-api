@@ -70,7 +70,7 @@ A PIDL that is relative to the Desktop.
 
 Type: <b>DWORD</b>
 
-Specifies enumeration flags. See the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> enumerated type.
+Specifies enumeration flags. See the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> enumerated type.
 
 
 ### -param ppEnumIDList [out]

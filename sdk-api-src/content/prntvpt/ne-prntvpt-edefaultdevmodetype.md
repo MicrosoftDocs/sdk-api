@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables users to specify which <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
+Enables users to specify which <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
 
 
 ## -enum-fields

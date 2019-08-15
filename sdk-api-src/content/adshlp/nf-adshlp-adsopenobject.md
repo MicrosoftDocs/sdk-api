@@ -84,7 +84,7 @@ The null-terminated Unicode string that specifies the password to supply to the 
 
 Type: <b>DWORD</b>
 
-Provider-specific authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>.
+Provider-specific authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
 
 
 ### -param riid [in]

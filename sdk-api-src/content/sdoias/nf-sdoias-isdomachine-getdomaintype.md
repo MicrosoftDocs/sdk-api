@@ -63,7 +63,7 @@ The <b>GetDomainType</b> retrieves the type of domain in which the SDO computer
 
 ### -param eDomainType [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a> variable that receives 
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/sdoias/ne-sdoias-iasdomaintype">IASDOMAINTYPE</a> variable that receives 
       the type of the domain in which the SDO computer resides.
 
 
@@ -94,7 +94,7 @@ Before calling this method, use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sdoias/ne-sdoias-iasdomaintype">IASDOMAINTYPE</a>
 
 
 

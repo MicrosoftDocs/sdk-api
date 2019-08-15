@@ -66,7 +66,7 @@ The <code>GetMediaType</code> method retrieves the media type of the sample. If 
 
 ### -param ppMediaType
 
-Address of a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure.
+Address of a pointer that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
 
 
 ## -returns

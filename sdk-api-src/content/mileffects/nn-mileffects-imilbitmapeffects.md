@@ -71,7 +71,7 @@ The <b>IMILBitmapEffects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffects-_newenum">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mileffects/nf-mileffects-imilbitmapeffects-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new enumeration.

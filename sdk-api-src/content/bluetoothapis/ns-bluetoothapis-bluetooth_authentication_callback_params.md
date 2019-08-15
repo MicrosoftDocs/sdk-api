@@ -61,7 +61,7 @@ The <b>BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</b> structure contains specific 
 
 ### -field deviceInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
+A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
 
 
 ### -field authenticationMethod
@@ -98,7 +98,7 @@ A <b>ULONG</b> value used as  the passkey used for authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

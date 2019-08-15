@@ -75,7 +75,7 @@ Receives the number of characters returned in <i>ppwszURL</i>, including the ter
 
 ### -param pTrustStatus [in, out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0031_0001">MF_URL_TRUST_STATUS</a> enumeration indicating whether the URL is trusted.
+Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mf_url_trust_status">MF_URL_TRUST_STATUS</a> enumeration indicating whether the URL is trusted.
 
 
 ## -returns

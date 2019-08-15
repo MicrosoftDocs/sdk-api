@@ -67,7 +67,7 @@ Specifies the IP address of the DHCP server.
 ### -param SearchInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a> structure that contains the search parameters used to select a specific DHCP client.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the search parameters used to select a specific DHCP client.
 
 
 ### -param ClientInfo [out]
@@ -128,7 +128,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
 
 
 

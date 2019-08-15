@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param pgStart [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a> value that receives the gravity of the start anchor.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a> value that receives the gravity of the start anchor.
 
 
 ### -param pgEnd [out]
@@ -132,7 +132,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
  
 
  

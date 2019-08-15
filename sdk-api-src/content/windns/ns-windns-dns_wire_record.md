@@ -61,7 +61,7 @@ The <b>DNS_WIRE_RECORD</b> structure contains information about a DNS wire recor
 
 ### -field RecordType
 
-A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Response Type</a>. <b>RecordType</b> determines the format of record data that follows the <b>DNS_WIRE_RECORD</b> structure. For example, if the value of <b>RecordType</b> is <b>DNS_TYPE_A</b>, the data type of record data  is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a>.
+A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Response Type</a>. <b>RecordType</b> determines the format of record data that follows the <b>DNS_WIRE_RECORD</b> structure. For example, if the value of <b>RecordType</b> is <b>DNS_TYPE_A</b>, the data type of record data  is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 
 ### -field RecordClass
@@ -93,7 +93,7 @@ When constructing a DNS message, the <b>DNS_WIRE_RECORD</b> structure is immedia
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

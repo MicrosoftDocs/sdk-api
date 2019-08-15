@@ -105,7 +105,7 @@ A null-terminated Unicode string that contains the password that the security de
 
 Type: <b>DWORD</b>
 
-Contains authentication flags for the conversion. This can be zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a> enumeration values.
+Contains authentication flags for the conversion. This can be zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a> enumeration values.
 
 
 ## -returns
@@ -141,7 +141,7 @@ This function is used for legacy applications to manually convert security descr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 

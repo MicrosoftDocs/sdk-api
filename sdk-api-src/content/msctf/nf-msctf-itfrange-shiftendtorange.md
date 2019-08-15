@@ -70,7 +70,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-m
 
 ### -param aPos [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor</a> values that specify which anchor of <i>pRange</i> the end anchor will get moved to.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values that specify which anchor of <i>pRange</i> the end anchor will get moved to.
 
 
 ## -returns

@@ -72,7 +72,7 @@ The GUID of the interface to be queried.
 
 ### -param OpCode [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_intf_opcode">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
+A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be queried.  The following table lists the valid constants along with the data type of the parameter in <i>ppData</i>.
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl
 <tr>
 <td>wlan_intf_opcode_interface_state </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_interface_state">WLAN_INTERFACE_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
 </td>
 </tr>
 <tr>
@@ -186,7 +186,7 @@ Pointer to the memory location that contains the queried value of the parameter 
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-If passed a non-<b>NULL</b> value, points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>. 
+If passed a non-<b>NULL</b> value, points to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the type of opcode returned. This parameter may be <b>NULL</b>. 
 
 
 ## -returns
@@ -603,15 +603,15 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_interface_state">WLAN_INTERFACE_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_intf_opcode">WLAN_INTF_OPCODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a>
 
 
 

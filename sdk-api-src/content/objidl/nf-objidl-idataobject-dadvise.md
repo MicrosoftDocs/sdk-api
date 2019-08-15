@@ -77,7 +77,7 @@ A group of flags for controlling the advisory connection. Possible values are fr
 <td>ADVF_NODATA
 </td>
 <td>
-Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
+Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
 
 </td>
 </tr>

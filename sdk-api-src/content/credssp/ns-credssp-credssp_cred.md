@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -field Type
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ne-credssp-_credssp_submit_type">CREDSPP_SUBMIT_TYPE</a> enumeration value that specifies the type of credentials contained in this structure.
+The <a href="https://docs.microsoft.com/windows/win32/api/credssp/ne-credssp-credspp_submit_type">CREDSPP_SUBMIT_TYPE</a> enumeration value that specifies the type of credentials contained in this structure.
 
 
 ### -field pSchannelCred
@@ -83,7 +83,7 @@ A pointer to a set of Negotiate credentials.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ne-credssp-_credssp_submit_type">CREDSPP_SUBMIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/credssp/ne-credssp-credspp_submit_type">CREDSPP_SUBMIT_TYPE</a>
  
 
  

@@ -70,7 +70,7 @@ An asynchronous search blocks until one row of the search results is available, 
 
 ### -field ADS_SEARCHPREF_DEREF_ALIASES
 
-Specifies that aliases of found objects are to be resolved. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0020">ADS_DEREFENUM</a> enumeration to specify how this is performed.
+Specifies that aliases of found objects are to be resolved. Use the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a> enumeration to specify how this is performed.
 
 
 ### -field ADS_SEARCHPREF_SIZE_LIMIT
@@ -92,7 +92,7 @@ Indicates that the search should obtain only the name of attributes to which val
 
 ### -field ADS_SEARCHPREF_SEARCH_SCOPE
 
-Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0021">ADS_SCOPEENUM</a> enumeration.
+Specifies the search scope that should be observed by the server. For more information about the appropriate settings, see the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a> enumeration.
 
 
 ### -field ADS_SEARCHPREF_TIMEOUT
@@ -112,7 +112,7 @@ Specifies the number of seconds that the server should wait for a page of search
 
 ### -field ADS_SEARCHPREF_CHASE_REFERRALS
 
-Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context, for example, when you have child domains and search in the parent domain, the server sends a referral message to the client which the client can choose to ignore or chase. For more information about referral chasing, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024">ADS_CHASE_REFERRALS_ENUM</a>.
+Specifies that referrals may be chased. If the root search is not specified in the naming context of the server or when the search results cross a naming context, for example, when you have child domains and search in the parent domain, the server sends a referral message to the client which the client can choose to ignore or chase. For more information about referral chasing, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>.
 
 
 ### -field ADS_SEARCHPREF_SORT_ON
@@ -127,7 +127,7 @@ Specifies if the result should be cached on the client side. By default, ADSI ca
 
 ### -field ADS_SEARCHPREF_DIRSYNC
 
-Specifies a directory synchronization (DirSync) search, which returns all changes since a specified state. In the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>. The <b>ProviderSpecific</b> member is an  <b>ADS_PROV_SPECIFIC</b> structure whose <b>lpValue</b> member specifies a cookie that indicates the state from which changes are retrieved. The first time you use the DirSync control, set the <b>dwLength</b> and <b>lpValue</b> members of the <b>ADS_PROV_SPECIFIC</b> structure to zero and <b>NULL</b> respectively. After reading the results set returned by the search until  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a> returns <b>S_ADS_NOMORE_ROWS</b>, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a> to retrieve the <b>ADS_DIRSYNC_COOKIE</b> attribute which contains a cookie to use in the next DirSync search. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/polling-for-changes-using-the-dirsync-control">Polling for Changes Using the DirSync Control</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid">LDAP_SERVER_DIRSYNC_OID</a>.
+Specifies a directory synchronization (DirSync) search, which returns all changes since a specified state. In the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a>. The <b>ProviderSpecific</b> member is an  <b>ADS_PROV_SPECIFIC</b> structure whose <b>lpValue</b> member specifies a cookie that indicates the state from which changes are retrieved. The first time you use the DirSync control, set the <b>dwLength</b> and <b>lpValue</b> members of the <b>ADS_PROV_SPECIFIC</b> structure to zero and <b>NULL</b> respectively. After reading the results set returned by the search until  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a> returns <b>S_ADS_NOMORE_ROWS</b>, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a> to retrieve the <b>ADS_DIRSYNC_COOKIE</b> attribute which contains a cookie to use in the next DirSync search. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/polling-for-changes-using-the-dirsync-control">Polling for Changes Using the DirSync Control</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid">LDAP_SERVER_DIRSYNC_OID</a>.
 
 This flag cannot be combined with <b>ADS_SEARCHPREF_PAGESIZE</b>.
 
@@ -583,19 +583,19 @@ HRESULT SetSearchPreferences2(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024">ADS_CHASE_REFERRALS_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0020">ADS_DEREFENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_derefenum">ADS_DEREFENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0021">ADS_SCOPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_scopeenum">ADS_SCOPEENUM</a>
 
 
 

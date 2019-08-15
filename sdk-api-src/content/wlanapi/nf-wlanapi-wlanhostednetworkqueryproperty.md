@@ -83,7 +83,7 @@ On output, this parameter receives a pointer to a buffer returned with the stati
 
 ### -param pWlanOpcodeValueType [out]
 
-A pointer to a value that receives the value type of the wireless Hosted Network property,  if the call to the <b>WlanHostedNetworkQueryProperty</b> function succeeds. The returned value is an enumerated type in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
+A pointer to a value that receives the value type of the wireless Hosted Network property,  if the call to the <b>WlanHostedNetworkQueryProperty</b> function succeeds. The returned value is an enumerated type in the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
 
 
 ### -param pvReserved
@@ -205,7 +205,7 @@ The <b>WlanHostedNetworkQueryProperty</b> function is an extension to native wir
 
 A client application calls the <b>WlanHostedNetworkQueryProperty</b> function to query the current static properties of the wireless Hosted Network. This function does not change the state or properties of the wireless Hosted Network.
 
-If the function succeeds, the <i>ppvData</i> parameter points to a buffer that contains the requested property. The size of this buffer is returned in a pointer returned in the <i>pwdDataSize</i>parameter. The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a> is returned in a pointer returned in the <i>pWlanOpcodeValueType</i> parameter. The memory used for the buffer in the <i>ppvData</i> parameter that is returned should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
+If the function succeeds, the <i>ppvData</i> parameter points to a buffer that contains the requested property. The size of this buffer is returned in a pointer returned in the <i>pwdDataSize</i>parameter. The <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> is returned in a pointer returned in the <i>pWlanOpcodeValueType</i> parameter. The memory used for the buffer in the <i>ppvData</i> parameter that is returned should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
 The data type associated with the buffer pointed to by the <i>ppvData</i> parameter depends upon the value of <i>OpCode</i> parameter as follows: 
 
@@ -297,7 +297,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a>
 
 
 

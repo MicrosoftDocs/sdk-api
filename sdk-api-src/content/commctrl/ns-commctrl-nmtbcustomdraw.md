@@ -61,10 +61,10 @@ Contains information specific to an <a href="https://docs.microsoft.com/windows/
 
 ### -field nmcd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
+<a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
 					<b>uItemState</b> member of this structure can be modified so that a toolbar item will be drawn in the specified state without actually changing the item's state. 
 
 

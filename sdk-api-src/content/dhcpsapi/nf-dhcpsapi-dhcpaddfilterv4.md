@@ -66,7 +66,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param AddFilterInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_add_infov4">DHCP_FILTER_ADD_INFO</a> structure that contains a link-layer address or address pattern to add to the DHCP server's allow/deny list.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a> structure that contains a link-layer address or address pattern to add to the DHCP server's allow/deny list.
 
 
 ### -param ForceFlag [in]
@@ -138,7 +138,7 @@ This API allows DHCP clients whose addresses have been added to the allow list t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_add_infov4">DHCP_FILTER_ADD_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a>
 
 
 

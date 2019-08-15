@@ -64,7 +64,7 @@ The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a
 
 ### -field dwFlags
 
-Contains a bitwise combintation of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0000_0002">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
+Contains a bitwise combintation of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9presentationflags">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
 
 
 ### -field lpSurf

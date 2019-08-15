@@ -74,7 +74,7 @@ succeed.
 
 ### -param pbtdiInout [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
 
 
 ### -param pbtOobData [in, optional]
@@ -145,7 +145,7 @@ The device in pbtdi is already been marked as authenticated.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
+The <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
 
 For all other types of  authentication, the caller should register an authentication callback using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponseex">BluetoothSendAuthenticationResponseEx</a>.
 

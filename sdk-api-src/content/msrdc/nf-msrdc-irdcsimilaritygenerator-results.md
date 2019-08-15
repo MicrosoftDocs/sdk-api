@@ -63,7 +63,7 @@ This method cannot be called until signature generation is completed. For more i
 
 ### -param similarityData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that will receive the similarity data.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that will receive the similarity data.
 
 
 ## -returns

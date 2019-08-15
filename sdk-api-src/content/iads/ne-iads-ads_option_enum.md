@@ -74,7 +74,7 @@ Gets a <b>VT_BSTR</b> that contains the host name of the server for the current 
 
 Gets or sets a <b>VT_I4</b> value that indicates how referral chasing is performed in a 
       query. This option can contain one of  the 
-      values defined by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024">ADS_CHASE_REFERRALS_ENUM</a> 
+      values defined by the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum">ADS_CHASE_REFERRALS_ENUM</a> 
       enumeration.
 
 
@@ -87,7 +87,7 @@ Gets or sets a <b>VT_I4</b> value that indicates the page size in a paged search
 
 Gets or sets a <b>VT_I4</b> value that controls the security descriptor data that can be 
       read on the object. This option can contain any combination of the values defined in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0002">ADS_SECURITY_INFO_ENUM</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a> enumeration.
 
 
 ### -field ADS_OPTION_MUTUAL_AUTH_STATUS
@@ -121,7 +121,7 @@ Retrieves or sets a <b>VT_I4</b> value that contains the port number that ADSI u
 
 Retrieves or sets a <b>VT_I4</b> value that specifies the password encoding method. 
        This option can contain one of the values defined in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0026">ADS_PASSWORD_ENCODING_ENUM</a> 
+       <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_password_encoding_enum">ADS_PASSWORD_ENCODING_ENUM</a> 
        enumeration.
 
 
@@ -163,11 +163,11 @@ If this option is set on the object, no lookups will be performed (either during
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0026">ADS_PASSWORD_ENCODING_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_password_encoding_enum">ADS_PASSWORD_ENCODING_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0002">ADS_SECURITY_INFO_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
 
 
 

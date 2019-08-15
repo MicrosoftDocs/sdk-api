@@ -167,7 +167,7 @@ Note that the fields descriptions of a structure are serialized and deserialized
 The deserialization process is also restrictive. All the content must be deserialized according
                 to the field descriptions. By default any unhandled elements and attributes will cause the deserialization
                 process to fail. However, trailing contents of the element are ignored and discarded when
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_9">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
+                <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_STRUCT_IGNORE_TRAILING_ELEMENT_CONTENT</a> flag is set. Similarly, unhandled attributes are
                 ignored and discarded when <b>WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES</b> flag is set.
             
 

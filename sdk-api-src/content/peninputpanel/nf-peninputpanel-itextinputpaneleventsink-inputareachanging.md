@@ -64,12 +64,12 @@ Occurs when the input area is about to change on the Tablet PC Input Panel.
 
 ### -param oldInputArea [in]
 
-The current input area as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
+The current input area as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 ### -param newInputArea [in]
 
-The input area the Input Panel is changing to as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
+The input area the Input Panel is changing to as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 ## -returns

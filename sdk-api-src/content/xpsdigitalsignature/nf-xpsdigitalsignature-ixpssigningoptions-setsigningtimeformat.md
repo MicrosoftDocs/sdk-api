@@ -61,7 +61,7 @@ Sets the format of the signing time string.
 
 ### -param timeFormat [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a> value that specifies the format of the signing time string.
+The <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> value that specifies the format of the signing time string.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-For more information about the format of the date-time string that is  passed in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a>.
+For more information about the format of the date-time string that is  passed in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
 
 If a signing time format has not been set,   <b>OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS</b>  will be used as the default format.
 
@@ -97,7 +97,7 @@ If a signing time format has not been set,   <b>OPC_SIGNATURE_TIME_FORMAT_MILLIS
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
 
 
 

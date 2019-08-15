@@ -66,7 +66,7 @@ The <code>SetStreamAllocatorRequirements</code> sets the allocator requirements 
 
 ### -param pProps [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure that contains the stream allocator requirements.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that contains the stream allocator requirements.
 
 
 ## -returns

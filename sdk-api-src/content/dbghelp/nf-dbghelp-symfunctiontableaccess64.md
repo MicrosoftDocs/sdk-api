@@ -92,7 +92,7 @@ The type of pointer returned is specific to the image from which symbols are loa
 <b>x86:  </b>If the image is for an x86 system, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure.
 
-<b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_runtime_function_entry">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
+<b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -138,7 +138,7 @@ SymFunctionTableAccess(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_runtime_function_entry">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
  
 
  

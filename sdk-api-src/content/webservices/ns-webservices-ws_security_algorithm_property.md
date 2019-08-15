@@ -62,7 +62,7 @@ Specifies a cryptographic algorithm setting.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_7">WS_SECURITY_ALGORITHM_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_move_to">WS_SECURITY_ALGORITHM_PROPERTY_ID</a>.
             
 
 

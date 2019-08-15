@@ -74,7 +74,7 @@ The <b>ISimilarityTraitsTable</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-append">Append</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure to the similarity traits table.
+Adds a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
 
 </td>
 </tr>

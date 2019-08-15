@@ -65,7 +65,7 @@ The <b>QueryDirection</b> method gets the direction of the pin (input or output)
 
 ### -param pPinDir [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_pindirection">PIN_DIRECTION</a> enumerated type.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-pin_direction">PIN_DIRECTION</a> enumerated type.
           
 
 

@@ -67,7 +67,7 @@ The <b>GetStatistics</b> method retrieves the current reader statistics.
 
 ### -param pStatistics [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmreaderstatistics">WM_READER_STATISTICS</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_statistics">WM_READER_STATISTICS</a> structure.
 
 
 ## -returns

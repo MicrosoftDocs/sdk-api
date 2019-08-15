@@ -82,7 +82,7 @@ This parameter is ignored and should be set to <b>NULL</b>. It is provided only 
 
 ### -param pdm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing device-specific initialization data for the device driver. The <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function retrieves this structure filled in for a specified device. The <i>lpdvmInit</i> parameter must be <b>NULL</b> if the device driver is to use the default initialization (if any) specified by the user.
 
 
 ## -returns
@@ -110,7 +110,7 @@ When you no longer need the information DC, call the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

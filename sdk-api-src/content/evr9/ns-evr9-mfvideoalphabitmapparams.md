@@ -64,7 +64,7 @@ Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the v
 
 ### -field dwFlags
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ne-evr9-__midl___midl_itf_evr9_0000_0002_0002">MFVideoAlphaBitmapFlags</a> enumeration. These flags indicate which of the other structure members contain valid information.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/evr9/ne-evr9-mfvideoalphabitmapflags">MFVideoAlphaBitmapFlags</a> enumeration. These flags indicate which of the other structure members contain valid information.
 
 
 ### -field clrSrcKey

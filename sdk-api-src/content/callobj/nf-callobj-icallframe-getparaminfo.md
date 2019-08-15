@@ -66,7 +66,7 @@ The parameter number.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0002">CALLFRAMEPARAMINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeparaminfo">CALLFRAMEPARAMINFO</a> structure.
 
 
 ## -returns

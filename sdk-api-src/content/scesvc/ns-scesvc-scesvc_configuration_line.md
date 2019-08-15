@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_CONFIGURATION_LINE</b> structure contains information about a line of configuration data. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_configuration_info_">SCESVC_CONFIGURATION_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a> structure.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Length of the data stored in <b>Value</b>, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_configuration_info_">SCESVC_CONFIGURATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
  
 
  

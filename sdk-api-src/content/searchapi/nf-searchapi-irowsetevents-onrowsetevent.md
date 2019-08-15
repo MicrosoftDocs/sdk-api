@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 

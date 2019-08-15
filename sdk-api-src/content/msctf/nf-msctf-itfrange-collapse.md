@@ -67,7 +67,7 @@ Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/ap
 ### -param aPos [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
             </a> enumeration that describes how to collapse the range.
 
 <table>
@@ -183,7 +183,7 @@ The cookie in <i>ec</i> is invalid, or the caller does not have a read-only lock
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
  
 

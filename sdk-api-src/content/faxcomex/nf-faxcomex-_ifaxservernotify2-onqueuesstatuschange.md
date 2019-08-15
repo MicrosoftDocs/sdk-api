@@ -115,7 +115,7 @@ To implement this functionality in Microsoft Visual Basic, select and implement 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

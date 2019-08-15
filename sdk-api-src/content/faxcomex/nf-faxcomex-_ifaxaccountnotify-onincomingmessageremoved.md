@@ -106,7 +106,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
  
 
  

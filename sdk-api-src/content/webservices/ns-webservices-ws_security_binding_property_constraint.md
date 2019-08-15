@@ -82,7 +82,7 @@ This property constraint may be specified when the
 </li>
 </ul>
 If this property is not specified, then the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6">WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</a> will be used.
+                        of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</a> will be used.
                     
 
 </li>

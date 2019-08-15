@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The <b>IADsNameTranslate</b>interface translates distinguished names (DNs) among various
   formats as defined in the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a> enumeration.
+   <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration.
   The feature is available to objects in Active Directory.
 
 Name
@@ -75,7 +75,7 @@ Fourth, retrieve the object name in the specified format with the <a href="https
 
 The following code example shows how to create an <b>IADsNameTranslate</b> object in Visual C++, Visual Basic, and
   VBScript/Active Server Pages.
-<div class="alert"><b>Note</b>  The format elements as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a> enumeration and used
+<div class="alert"><b>Note</b>  The format elements as defined in the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration and used
   by <b>IADsNameTranslate</b> are not equivalent and are 
   non-interchangeable with the format elements used by the
   <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackName</a> function. Do not confuse the proper use of these similarly named but non-interchangeable element
@@ -183,7 +183,7 @@ Toggles referral chasing ON or OFF.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

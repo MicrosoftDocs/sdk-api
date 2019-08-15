@@ -85,7 +85,7 @@ DVD subpicture stream.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS Structure</a>
 
 
 

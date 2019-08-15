@@ -143,7 +143,7 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0005_0001">CEPSetupProperty</a>
+<a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a>
 
 
 

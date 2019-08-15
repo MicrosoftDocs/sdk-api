@@ -212,7 +212,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
+If the  <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
 
 
 

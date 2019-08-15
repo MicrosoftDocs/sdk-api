@@ -75,7 +75,7 @@ Pointer to an <b>ITfRange</b> interface pointer that receives the requested rang
 
 ### -param aPos [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor</a> values which specifies which anchor of <i>pRange</i> is used as the point to obtain the property range for.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values which specifies which anchor of <i>pRange</i> is used as the point to obtain the property range for.
 
 
 ## -returns
@@ -201,7 +201,7 @@ TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a>
  
 
  

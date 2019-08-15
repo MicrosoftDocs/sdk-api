@@ -77,7 +77,7 @@ The base address of the mapped file.
 ### -field FileHeader
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
 
 
 ### -field LastRvaSection
@@ -332,7 +332,7 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

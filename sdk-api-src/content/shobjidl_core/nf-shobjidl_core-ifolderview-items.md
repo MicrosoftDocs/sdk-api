@@ -64,7 +64,7 @@ Gets the address of an enumeration object based on the collection of items in th
 Type: <b>UINT</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> values that limit the enumeration to certain types of items.
+<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> values that limit the enumeration to certain types of items.
 
 
 ### -param riid [in]

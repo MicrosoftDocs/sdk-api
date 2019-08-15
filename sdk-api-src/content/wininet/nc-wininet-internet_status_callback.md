@@ -134,7 +134,7 @@ Successfully closed the connection to the server. The
 Retrieving content from the cache. Contains data about past cookie events for the URL such as if cookies were accepted, rejected, downgraded, or leashed.  
 
 The 
-<i>lpvStatusInformation</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-__unnamed_struct_2">InternetCookieHistory</a> structure.
+<i>lpvStatusInformation</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/wininet/ns-wininet-internet_proxy_info">InternetCookieHistory</a> structure.
 
 </td>
 </tr>

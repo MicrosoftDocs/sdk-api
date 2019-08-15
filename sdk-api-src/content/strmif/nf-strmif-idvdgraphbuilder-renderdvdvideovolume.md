@@ -75,7 +75,7 @@ Bitwise OR of flags from <a href="https://docs.microsoft.com/previous-versions/w
 
 ### -param pStatus [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
 
 
 ## -returns
@@ -178,7 +178,7 @@ The filter graph contains more than one video renderer.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS</a> structure reflects failure codes for this method. Reasons for this method returning S_FALSE include the following:
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS</a> structure reflects failure codes for this method. Reasons for this method returning S_FALSE include the following:
 
 <ul>
 <li>The graph has been completely built, but one of the following is true.<ul>

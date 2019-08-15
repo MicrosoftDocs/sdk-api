@@ -66,7 +66,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param ClientInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The specified client lease is a reservation.
 </dl>
 </td>
 <td width="60%">
-The <b>SearchType</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
+The <b>SearchType</b> member of <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The <b>SearchType</b> member of <a href="https://docs.microsoft.com/previous-ver
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a>
  
 
  

@@ -63,7 +63,7 @@ Displays a merged property sheet for a set of files. Property values common to a
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to a data object that supplies the PIDLs of all of the files for which to display the merged property sheet. The data object must use the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> clipboard format. The parent folder's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> must return a fully qualified file system path for each item in response to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> flag.
+A pointer to a data object that supplies the PIDLs of all of the files for which to display the merged property sheet. The data object must use the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> clipboard format. The parent folder's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> must return a fully qualified file system path for each item in response to the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> flag.
 
 
 ### -param dwFlags

@@ -358,7 +358,7 @@ Specifies a function on the left of the operator in a WHERE clause. If there is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemrpnEncodedQuery</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemrpnEncodedQuery</a>
  
 
  

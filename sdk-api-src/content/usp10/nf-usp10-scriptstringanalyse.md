@@ -260,12 +260,12 @@ Width required for fitting or clipping.
 
 ### -param psControl [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
 
 
 ### -param psState [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
 
 
 ### -param piDx [in, optional]
@@ -275,7 +275,7 @@ Pointer to the requested logical dx array.
 
 ### -param pTabdef [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_tabdef">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
 
 
 ### -param pbInClass [in]
@@ -326,11 +326,11 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
 
 
 
@@ -338,7 +338,7 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_tabdef">SCRIPT_TABDEF</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_tabdef">SCRIPT_TABDEF</a>
 
 
 

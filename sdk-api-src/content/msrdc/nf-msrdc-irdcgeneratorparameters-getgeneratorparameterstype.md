@@ -63,7 +63,7 @@ The
 
 ### -param parametersType [out]
 
-The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a> that will receive the type of the parameters.
+The address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> that will receive the type of the parameters.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
 
 
 

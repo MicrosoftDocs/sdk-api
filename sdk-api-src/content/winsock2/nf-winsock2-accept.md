@@ -359,7 +359,7 @@ The following are important issues associated with connection setup, and must be
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> functions do not necessarily set the remote address and address length parameters. Therefore, when using ATM, the caller should use the 
 <b>WSAAccept</b> function and place ATM_CALLING_PARTY_NUMBER_IE in the 
 <b>ProviderSpecific</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QoS</a> structure, which itself is included in the <i>lpSQOS</i> parameter of the callback function used in accordance with 
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QoS</a> structure, which itself is included in the <i>lpSQOS</i> parameter of the callback function used in accordance with 
 <b>WSAAccept</b>.</li>
 <li>When using the 
 <b>accept</b> function, realize that the function may return before connection establishment has traversed the entire distance between sender and receiver. This is because the 

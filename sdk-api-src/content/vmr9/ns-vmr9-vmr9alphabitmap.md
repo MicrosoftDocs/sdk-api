@@ -62,7 +62,7 @@ The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://docs.micr
 
 ### -field dwFlags
 
-Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0006_0001">VMR9AlphaBitmapFlags</a> enumeration type.
+Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9alphabitmapflags">VMR9AlphaBitmapFlags</a> enumeration type.
           
 
 
@@ -106,7 +106,7 @@ Specifies the source color key. This value is used if the <b>dwFlags</b> member 
 
 ### -field dwFilterMode
 
-One of the following flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0001">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
+One of the following flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
 
 <table>
 <tr>

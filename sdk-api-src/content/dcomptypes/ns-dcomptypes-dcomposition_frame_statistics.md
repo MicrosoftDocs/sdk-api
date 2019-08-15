@@ -61,7 +61,7 @@ Describes timing and composition statistics for a frame.
 
 ### -field lastFrameTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The time stamp of the last batch of commands to be processed by the composition engine.
 
@@ -75,21 +75,21 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 ### -field currentTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The current time as computed by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The units in which the <b>lastFrameTime</b> and <b>currentTime</b> members are specified, in Hertz.
 
 
 ### -field nextEstimatedFrameTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The estimated time when the next frame will be displayed.
 

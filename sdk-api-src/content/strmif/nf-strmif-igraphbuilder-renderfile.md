@@ -283,7 +283,7 @@ Cannot play back the file: the format is not supported.
 
 If the <i>lpwstrFile</i> parameter specifies a media file, the method builds a filter graph for default playback. First it adds a source filter that can read the file, using the same process as the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-addsourcefilter">IGraphBuilder::AddSourceFilter</a> method. Then it renders the output pins on the source filter, adding intermediate filters if necessary. It tries filters in the same order as the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method.
 
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_pininfo">PIN_INFO</a>.
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info">PIN_INFO</a>.
 
 Note that the <code>RenderFile</code> method does not remove any filters from the graph. If you call <code>RenderFile</code> twice, the second call simply adds more filters to the graph. When you run the graph, both sources will play at the same time.
 

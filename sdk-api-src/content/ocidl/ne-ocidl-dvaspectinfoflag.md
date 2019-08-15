@@ -69,7 +69,7 @@ Indicates that the object can support optimized rendering of itself. Because mos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagaspectinfo">DVASPECTINFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a>
  
 
  

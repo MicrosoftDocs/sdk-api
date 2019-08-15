@@ -257,7 +257,7 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 </tr>
 <tr>
 <td>WMT_CLIENT_CONNECT</td>
-<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure.</td>
+<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.</td>
 </tr>
 <tr>
 <td>WMT_CLIENT_DISCONNECT</td>

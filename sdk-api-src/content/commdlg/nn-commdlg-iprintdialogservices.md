@@ -74,7 +74,7 @@ The <b>IPrintDialogServices</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getcurrentdevmode">GetCurrentDevMode</a>
 </td>
 <td align="left" width="63%">
-Fills a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 </td>
 </tr>

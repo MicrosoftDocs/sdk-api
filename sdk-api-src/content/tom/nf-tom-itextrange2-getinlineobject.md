@@ -274,134 +274,134 @@ The inline object alignment, which can be one of these meanings depending on the
 <th>Meaning of Align Parameter</th>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRuby</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomRuby</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyBelow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignCenter</a> (default)</dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlign010</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlign121</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignLeft</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignRight</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyBelow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyAlignCenter</a> (default)</dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyAlign010</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyAlign121</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyAlignLeft</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRubyAlignRight</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBox</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBox</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxAlignCenter</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceMask</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceDefault</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceUnary</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceBinary</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceRelational</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceSkip</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceOrd</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceDifferential</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeText</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeScript</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeScriptScript</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoBreak</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomTransparentForPositioning</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomTransparentForSpacing</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxAlignCenter</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceMask</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceDefault</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceUnary</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceBinary</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceRelational</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceSkip</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceOrd</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSpaceDifferential</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSizeText</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSizeScript</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSizeScriptScript</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoBreak</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomTransparentForPositioning</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomTransparentForSpacing</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBoxedFormula</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBoxedFormula</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideTop</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideBottom</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideLeft</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideRight</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeH</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeV</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeTLBR</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeBLTR</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxHideTop</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxHideBottom</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxHideLeft</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxHideRight</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxStrikeH</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxStrikeV</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxStrikeTLBR</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBoxStrikeBLTR</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignDefault</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignCenter</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignMatchAscentDescent</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathVariant</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignDefault</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignCenter</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignMatchAscentDescent</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathVariant</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomEquationArray</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomEquationArray</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayLayoutWidth</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignMask</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignCenter</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignTopRow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignBottomRow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEqArrayLayoutWidth</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEqArrayAlignMask</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEqArrayAlignCenter</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEqArrayAlignTopRow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomEqArrayAlignBottomRow</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomMatrix</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignMask</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignCenter</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignTopRow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignBottomRow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowMatPlaceHldr</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMatrixAlignMask</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMatrixAlignCenter</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMatrixAlignTopRow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMatrixAlignBottomRow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShowMatPlaceHldr</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomNary</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomNary</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsDefault</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsUnderOver</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsSubSup</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUpperLimitAsSuperScript</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsOpposite</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowLLimPlaceHldr</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowULimPlaceHldr</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDontGrowWithContent</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomGrowWithContent</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLimitsDefault</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLimitsUnderOver</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLimitsSubSup</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUpperLimitAsSuperScript</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLimitsOpposite</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShowLLimPlaceHldr</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShowULimPlaceHldr</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomDontGrowWithContent</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomGrowWithContent</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomPhantom</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomPhantom</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomShow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroWidth</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroAscent</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroDescent</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomPhantomShow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomPhantomZeroWidth</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomPhantomZeroAscent</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomPhantomZeroDescent</a></dt>
 <dt><a href="tomconstants.htm">tomPhantomTransparent
 </a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRadical</a></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowDegPlaceHldr</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomRadical</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShowDegPlaceHldr</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a></td>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSubSupAlign</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSubSupAlign</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStretchStack</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomStretchStack</a></td>
 <td>
 <dl>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharBelow</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharAbove</a></dt>
-<dt><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchBaseBelow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStretchCharBelow</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStretchCharAbove</a></dt>
+<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStretchBaseBelow</a></dt>
 <dt><a href="tomconstants.htm">tomStretchBaseAbove
 </a></dt>
 </dl>
@@ -425,43 +425,43 @@ The value for each object type is shown in the following table..  <table>
 <th>Meaning of align parameter</th>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomAccent</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomAccent</a></td>
 <td>Accent (U+0300—U+36F, U+20D0—U+20EF)</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBoxedFormula</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBoxedFormula</a></td>
 <td>U+25AD for rectangle enclosure</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a></td>
 <td>Opening bracket. Default: U+0028.  </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBracketsWithSeps</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBracketsWithSeps</a></td>
 <td>Opening bracket with separators. Default: U+0028</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomEquationArray</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomEquationArray</a></td>
 <td>U+2588</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomFraction</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomFraction</a></td>
 <td>Normal built-up fraction: U+002F; small numeric fraction: U+2298</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomFunctionApply</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomFunctionApply</a></td>
 <td>U+2061</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLeftSubSup</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomLeftSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLowerLimit</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomLowerLimit</a></td>
 <td>U+252C</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomMatrix</a></td>
 <td>
 <dl>
 <dt>U+25A0: no enclosing brackets
@@ -476,19 +476,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomNary</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomNary</a></td>
 <td>n-ary symbol</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomOpChar</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomOpChar</a></td>
 <td>Internal use for no-build operators</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomOverbar</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomOverbar</a></td>
 <td>U+00AF</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomPhantom</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomPhantom</a></td>
 <td>
 <dl>
 <dt>U+27E1: full or custom phantom
@@ -509,7 +509,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRadical</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomRadical</a></td>
 <td>
 <dl>
 <dt>U+221A: square or nth root
@@ -522,7 +522,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSlashedFraction</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSlashedFraction</a></td>
 <td>
 <dl>
 <dt>U+2044: skewed fraction</dt>
@@ -532,17 +532,17 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStack</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomStack</a></td>
 <td>U+00A6
 
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStretchStack</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomStretchStack</a></td>
 <td>Horizontal stretch character (see <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B for a list)</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubscript</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSubscript</a></td>
 <td>U+005E
 
 
@@ -551,19 +551,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSuperscript</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomSuperscript</a></td>
 <td>U+005F</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomUnderbar</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomUnderbar</a></td>
 <td>U+2581</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomUpperLimit</a></td>
+<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomUpperLimit</a></td>
 <td>U+2534</td>
 </tr>
 </table>

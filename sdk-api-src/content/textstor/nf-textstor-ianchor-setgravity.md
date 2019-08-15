@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param gravity [in]
 
-Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
+Contains a value from the <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The method was successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a>
+<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>MoCreateMediaType</b> function allocates a new media type structure.
 
 ### -param ppmt
 
-Receives a pointer to an allocated <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure.
+Receives a pointer to an allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
 
 
 ### -param cbFormat
@@ -123,7 +123,7 @@ Success
 
 
 
-This function allocates a new <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure on the heap. It also allocates memory for the format block. The caller must delete the structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-modeletemediatype">MoDeleteMediaType</a> function.
+This function allocates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure on the heap. It also allocates memory for the format block. The caller must delete the structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-modeletemediatype">MoDeleteMediaType</a> function.
 
 Internally, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-moinitmediatype">MoInitMediaType</a> to allocate the format block.
 

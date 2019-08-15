@@ -108,7 +108,7 @@ Reads a MOF file and outputs binary MOF data to another file.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ns-wbemcli-tag_compilestatusinfo">WBEM_COMPILE_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a>
 </td>
 <td align="left" width="63%">
 Describes an error for the <b>IMofCompiler</b> interface.

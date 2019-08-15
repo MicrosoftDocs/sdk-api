@@ -68,7 +68,7 @@ Pointer to a null-terminated Unicode string that contains the name of the attrib
 
 
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> values that indicate the type of the attribute.
+Returns one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that indicate the type of the attribute.
 
 
 
@@ -78,7 +78,7 @@ Returns one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

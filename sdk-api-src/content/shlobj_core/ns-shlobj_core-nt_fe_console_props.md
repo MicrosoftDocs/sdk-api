@@ -61,9 +61,9 @@ Holds an extra data block used by <a href="https://docs.microsoft.com/windows/de
 
 ### -field dbh
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a> structure with the <b>NT_FE_CONSOLE_PROPS</b> structure's size and signature. The signature for an <b>NT_FE_CONSOLE_PROPS</b> structure is NT_FE_CONSOLE_PROPS_SIG.
+The <a href="https://docs.microsoft.com/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DATABLOCK_HEADER</a> structure with the <b>NT_FE_CONSOLE_PROPS</b> structure's size and signature. The signature for an <b>NT_FE_CONSOLE_PROPS</b> structure is NT_FE_CONSOLE_PROPS_SIG.
 
 
 ### -field DUMMYSTRUCTNAME

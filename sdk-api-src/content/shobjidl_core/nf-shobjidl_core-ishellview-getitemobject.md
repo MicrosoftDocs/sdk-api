@@ -63,7 +63,7 @@ Gets an interface that refers to data presented in the view.
 
 Type: <b>UINT</b>
 
-The constants that refer to an aspect of the view. This parameter can be any one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> constants.
+The constants that refer to an aspect of the view. This parameter can be any one of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> constants.
 
 
 ### -param riid

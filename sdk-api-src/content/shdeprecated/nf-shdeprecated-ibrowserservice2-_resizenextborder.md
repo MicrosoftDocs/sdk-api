@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The implementation of this method calls <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">IBrowserService2::_ResizeNextBorderHelper</a>.
+The implementation of this method calls <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborderhelper">IBrowserService2::_ResizeNextBorderHelper</a>.
 
 
 

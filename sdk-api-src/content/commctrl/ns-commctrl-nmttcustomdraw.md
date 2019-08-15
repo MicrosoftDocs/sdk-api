@@ -61,7 +61,7 @@ Contains information specific to an <a href="https://docs.microsoft.com/windows/
 
 ### -field nmcd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmcustomdrawinfo">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
 
 Contains general custom draw information. 
 

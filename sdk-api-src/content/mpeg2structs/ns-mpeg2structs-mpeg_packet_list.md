@@ -69,7 +69,7 @@ Specifies the size of the <b>PacketList</b> array.
 
 ### -field PacketList
 
-Specifies a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0014">MPEG_RQST_PACKET</a> structures, which themselves contain pointers to buffers that hold the sectioned data.
+Specifies a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_rqst_packet">MPEG_RQST_PACKET</a> structures, which themselves contain pointers to buffers that hold the sectioned data.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ Specifies a pointer to an array of <a href="https://docs.microsoft.com/previous-
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0023">MPEG_STREAM_BUFFER Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_stream_buffer">MPEG_STREAM_BUFFER Structure</a>
  
 
  

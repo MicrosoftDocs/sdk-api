@@ -64,12 +64,12 @@ Occurs when the In-Place state is about to change.
 
 ### -param oldInPlaceState [in]
 
-The current state, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>.
+The current state, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 ### -param newInPlaceState [in]
 
-The new state that the Input Panel is changing to, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>.
+The new state that the Input Panel is changing to, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 ## -returns

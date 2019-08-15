@@ -61,12 +61,12 @@ The <b>GetCASetupProperty</b> method gets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a> enumeration that specifies the type of property to get.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a> enumeration that specifies the type of property to get.
 
 
 ### -param pPropertyValue [out]
 
-A <b>VARIANT</b> value that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
+A <b>VARIANT</b> value that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 ## -see-also

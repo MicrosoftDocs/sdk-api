@@ -64,7 +64,7 @@ Gets a value that specifies the current sharing mode of the sensor device, which
 
 ### -param peMode
 
-If the call succeeds, receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0003">MFSensorDeviceMode</a>, specifying the current mode of the sendsor device.
+If the call succeeds, receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a>, specifying the current mode of the sendsor device.
 
 
 ## -returns

@@ -63,7 +63,7 @@ Sets attributes of the font.
 
 Type: <b>const LOGFONTW*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dimm/ns-dimm-__midl___midl_itf_dimm_0000_0000_0003">LOGFONT</a> structure that contains the attributes to set.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dimm/ns-dimm-logfonta">LOGFONT</a> structure that contains the attributes to set.
 
 
 ### -param bRedraw [in]

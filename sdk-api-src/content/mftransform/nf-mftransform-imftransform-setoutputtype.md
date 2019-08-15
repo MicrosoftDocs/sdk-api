@@ -75,7 +75,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects
 
 ### -param dwFlags [in]
 
-Zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_set_type_flags">_MFT_SET_TYPE_FLAGS</a> enumeration.
+Zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_set_type_flags">_MFT_SET_TYPE_FLAGS</a> enumeration.
           
 
 

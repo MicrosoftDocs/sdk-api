@@ -61,7 +61,7 @@ The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory objec
 
 ### -param lnFormatType
 
-The format type of the output name. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
+The format type of the output name. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 
 ### -param pbstrADsPath
@@ -173,7 +173,7 @@ The following VBScript/ASP code example shows how to translate a distinguished n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

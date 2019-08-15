@@ -115,7 +115,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>ioMode</i> parameter is not a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0000_0002_0003">OPC_STREAM_IO_MODE</a> enumeration value.
+The value passed in the <i>ioMode</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a> enumeration value.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0000_0002_0003">OPC_STREAM_IO_MODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_stream_io_mode">OPC_STREAM_IO_MODE</a>
 
 
 

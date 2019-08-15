@@ -499,7 +499,7 @@ The preferred font options. The low-order word can be a combination of the follo
 
 #### tomMatchMathFont
 
-If the high-order word of <i>Options</i> is <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUseTwips</a>, the font heights are given in twips.
+If the high-order word of <i>Options</i> is <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUseTwips</a>, the font heights are given in twips.
 
 
 ### -param curCharRep [in]

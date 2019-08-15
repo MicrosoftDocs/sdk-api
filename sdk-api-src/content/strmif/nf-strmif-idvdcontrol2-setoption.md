@@ -65,14 +65,14 @@ The <b>SetOption</b> method enables or disables an internal behavior flag on the
 
 ### -param flag [in]
 
-Specifies which behavior to modify, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003">DVD_OPTION_FLAG</a> enumeration type. 
+Specifies which behavior to modify, as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_option_flag">DVD_OPTION_FLAG</a> enumeration type. 
 
 
 ### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 
-<div class="alert"><b>Note</b>  This parameter is a <b>BOOL</b> type, but some options treat this parameter as a numeric value, not a Boolean value. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003">DVD_OPTION_FLAG</a> reference page.
+<div class="alert"><b>Note</b>  This parameter is a <b>BOOL</b> type, but some options treat this parameter as a numeric value, not a Boolean value. For details, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_option_flag">DVD_OPTION_FLAG</a> reference page.
           </div>
 <div> </div>
 

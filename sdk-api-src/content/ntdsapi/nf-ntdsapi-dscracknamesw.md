@@ -151,7 +151,7 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 <div class="alert"><b>Note</b>  Do not confuse the values of the format elements of
     the <i>formatOffered</i> parameter used by the
     <b>DsCrackNames</b> function with the similarly
-    named format elements as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a> enumeration used by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface. The
+    named format elements as defined in the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration used by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface. The
     two sets of element formats are not equivalent and are not interchangeable.</div>
 <div> </div>
 
@@ -162,7 +162,7 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

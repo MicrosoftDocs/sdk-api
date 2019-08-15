@@ -112,7 +112,7 @@ The method succeeded.
 
 
 
-A color profile is only returned when the color type of <i>color</i> is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>.
+A color profile is only returned when the color type of <i>color</i> is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 
 

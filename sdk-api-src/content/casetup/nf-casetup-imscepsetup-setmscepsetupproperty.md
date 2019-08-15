@@ -61,12 +61,12 @@ The <b>SetMSCEPSetupProperty</b> method sets a property value for a Network Devi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0003_0001">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
 
 
 ### -param pPropertyValue [in]
 
-A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0003_0001">MSCEPSetupProperty</a>.
+A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
 
 
 ## -see-also

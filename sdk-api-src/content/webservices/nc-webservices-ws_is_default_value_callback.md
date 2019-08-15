@@ -54,7 +54,7 @@ ms.custom: 19H1
 Determines if a value is the default value. This callback is used  before a value that is handled
                 by a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
-                when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                when <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 

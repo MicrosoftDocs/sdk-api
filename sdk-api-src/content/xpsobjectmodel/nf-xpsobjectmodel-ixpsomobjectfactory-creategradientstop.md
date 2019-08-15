@@ -66,7 +66,7 @@ The color value.
 
 ### -param colorProfile [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
 
 
 ### -param offset [in]
@@ -134,7 +134,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>

@@ -88,13 +88,13 @@ A value that specifies user-provided information that is passed into
 ### -field prdch1
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
+<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
 
 
 ### -field prdch2
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
+<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
 
 
 ## -remarks
@@ -117,7 +117,7 @@ If the snap-in implements the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a>
  
 
  

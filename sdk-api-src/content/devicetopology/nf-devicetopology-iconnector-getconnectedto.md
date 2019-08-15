@@ -123,7 +123,7 @@ The device topology on the other side of the connection is not active (that is, 
 
 For code examples that call this method, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
-For information about Software_IO connections, see <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013">ConnectorType Enumeration</a>. For information about the HRESULT_FROM_WIN32 macro, see the Windows SDK documentation. For information about the DEVICE_STATE_NOTPRESENT device state, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX Constants</a>.
+For information about Software_IO connections, see <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>. For information about the HRESULT_FROM_WIN32 macro, see the Windows SDK documentation. For information about the DEVICE_STATE_NOTPRESENT device state, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX Constants</a>.
 
 
 

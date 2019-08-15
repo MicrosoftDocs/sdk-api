@@ -61,7 +61,7 @@ Enumerates log containers. Call this function repeatedly to iterate over all log
 
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
+A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
 
 
 ### -param eScanMode [in]
@@ -167,7 +167,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
 
 
 

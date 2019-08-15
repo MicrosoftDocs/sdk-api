@@ -78,7 +78,7 @@ To convert a
 <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> function.
 
 It is not recommended that you add and subtract values from the 
-<b>FILETIME</b> structure to obtain relative times. Instead, you should copy the low- and high-order parts of the file time to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a> structure, perform 64-bit arithmetic on the <b>QuadPart</b> member, and copy the <b>LowPart</b> and <b>HighPart</b> members into the <b>FILETIME</b> structure.
+<b>FILETIME</b> structure to obtain relative times. Instead, you should copy the low- and high-order parts of the file time to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure, perform 64-bit arithmetic on the <b>QuadPart</b> member, and copy the <b>LowPart</b> and <b>HighPart</b> members into the <b>FILETIME</b> structure.
 
 Do not cast a pointer to a <b>FILETIME</b> structure to either a <b>ULARGE_INTEGER*</b> or <b>__int64*</b> value because it can cause alignment faults on 64-bit Windows.
 
@@ -120,7 +120,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
  
 
  

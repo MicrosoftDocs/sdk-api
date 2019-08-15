@@ -80,7 +80,7 @@ A pointer to a buffer that receives the name of the symbol file that was updated
 ### -param NtHeaders [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
 
 
 ## -returns
@@ -101,7 +101,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>UpdateDebugInfoFile</b> function takes the information stored in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -113,7 +113,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

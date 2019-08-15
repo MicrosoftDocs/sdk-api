@@ -129,7 +129,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
+<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
  
 
  

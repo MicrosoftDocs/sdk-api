@@ -74,7 +74,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font feature tags for the appropriate font and scripts can be retrieved.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font feature tags for the appropriate font and scripts can be retrieved.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -141,7 +141,7 @@ This function hides script-required or language-required features because the sh
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

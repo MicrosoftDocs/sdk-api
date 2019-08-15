@@ -62,7 +62,7 @@ The <b>WinHttpGetDefaultProxyConfiguration</b> function retrieves the default Wi
 ### -param pProxyInfo [in, out]
 
 A pointer to a variable of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_3">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
+<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
 
 
 ## -returns

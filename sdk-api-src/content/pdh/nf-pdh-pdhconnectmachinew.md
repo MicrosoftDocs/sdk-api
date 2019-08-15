@@ -119,7 +119,7 @@ Unable to allocate a dynamic memory block. Occurs when there is a serious memory
 
 Typically, applications do not call this function and instead the connection is made when the application adds the counter to the query.
 
-However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a> structure.
+However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
 
 
 

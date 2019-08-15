@@ -158,7 +158,7 @@ An error, expressed in expanded RCODE format that covers TSIG and TKEY RR proces
 </dl>
 </td>
 <td width="60%">
-The <b>pSignature</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_37">DNS_TSIG_DATA</a> RR is bad.
+The <b>pSignature</b> of the <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Reserved. Do not use.
 
 The 
 <b>DNS_TKEY_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -222,11 +222,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_37">DNS_TSIG_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
  
 
  

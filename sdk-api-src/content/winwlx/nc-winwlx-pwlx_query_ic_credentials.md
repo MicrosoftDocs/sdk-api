@@ -66,7 +66,7 @@ Called by a replacement GINA DLL if Terminal Services is enabled.
 ### -param pCred [out]
 
 When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_client_credentials_info">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials to use for auto logon.
+<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials to use for auto logon.
 
 
 ## -returns

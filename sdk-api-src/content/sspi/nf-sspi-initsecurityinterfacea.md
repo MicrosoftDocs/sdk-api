@@ -70,7 +70,7 @@ The <b>InitSecurityInterface</b> function returns a pointer to an SSPI dispatch 
 
 
 If the function succeeds, the return value is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_security_function_table_a">SecurityFunctionTable</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-securityfunctiontablea">SecurityFunctionTable</a> structure.
 
 If the function fails, the return value is <b>NULL</b>.
 
@@ -86,7 +86,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_security_function_table_a">SecurityFunctionTable</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-securityfunctiontablea">SecurityFunctionTable</a>
  
 
  

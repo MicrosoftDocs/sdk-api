@@ -61,7 +61,7 @@ The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an 
 
 ### -param pgravity [out]
 
-Pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a> value that specifies the anchor gravity.
+Pointer that receives a <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> value that specifies the anchor gravity.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>pgravity</i> pointer is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0001">TsGravity</a>
+<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
  
 
  

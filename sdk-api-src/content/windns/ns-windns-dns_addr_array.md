@@ -66,7 +66,7 @@ Indicates, the size, in bytes,  of this structure.
 
 ### -field AddrCount
 
-Indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsaddr">DNS_ADDR</a> structures contained in the <b>AddrArray</b> member.
+Indicates the number of <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures contained in the <b>AddrArray</b> member.
 
 
 ### -field Tag
@@ -134,7 +134,7 @@ Reserved. Do not use.
 
 ### -field AddrArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsaddr">DNS_ADDR</a> structures that each contain an IP address.
+An array of <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures that each contain an IP address.
 
 
 ### -field AddrArray.size_is
@@ -154,7 +154,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsaddr">DNS_ADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a>
 
 
 

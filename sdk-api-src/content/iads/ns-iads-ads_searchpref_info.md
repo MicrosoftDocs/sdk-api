@@ -61,7 +61,7 @@ The <b>ADS_SEARCHPREF_INFO</b> structure specifies the query preferences.
 
 ### -field dwSearchPref
 
-Contains one of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> enumeration values that specifies the search option to set.
+Contains one of the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> enumeration values that specifies the search option to set.
 
 
 ### -field vValue
@@ -71,19 +71,19 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-
 
 ### -field dwStatus
 
-Receives one of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0019">ADS_STATUSENUM</a> enumeration values that indicates the status of the search preference. The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method will fill in this member when it is called.
+Receives one of the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_statusenum">ADS_STATUSENUM</a> enumeration values that indicates the status of the search preference. The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method will fill in this member when it is called.
 
 
 ## -remarks
 
 
 
-To setup a search preference, assign appropriate values to the fields of an  <b>ADS_SEARCHPREF_INFO</b> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure. The following table lists the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
+To setup a search preference, assign appropriate values to the fields of an  <b>ADS_SEARCHPREF_INFO</b> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure. The following table lists the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
 
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> Value</th>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> Value</th>
 <th><b>dwType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 </th>
 <th>
@@ -187,7 +187,7 @@ To setup a search preference, assign appropriate values to the fields of an  <b>
 </table>
  
 
-For more information and examples of how to use the <b>ADS_SEARCHPREF_INFO</b> structure, see the discussions of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method and the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> enumeration.
+For more information and examples of how to use the <b>ADS_SEARCHPREF_INFO</b> structure, see the discussions of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method and the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> enumeration.
 
 
 
@@ -205,11 +205,11 @@ For more information and examples of how to use the <b>ADS_SEARCHPREF_INFO</b> s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0019">ADS_STATUSENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_statusenum">ADS_STATUSENUM</a>
 
 
 

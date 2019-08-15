@@ -71,7 +71,7 @@ Specifies the size in bytes of the buffer pointed to by <i>pdm</i>.
 
 ### -param pdm [out, optional]
 
-Pointer to the buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
+Pointer to the buffer containing <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

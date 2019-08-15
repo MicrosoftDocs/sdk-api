@@ -82,7 +82,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0004">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
 
 
 ## -returns

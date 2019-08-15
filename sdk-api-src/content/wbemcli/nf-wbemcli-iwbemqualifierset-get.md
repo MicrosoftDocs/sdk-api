@@ -84,7 +84,7 @@ If this parameter is <b>NULL</b>, the parameter is ignored.
 ### -param plFlavor [out]
 
 Can be <b>NULL</b>. If not <b>NULL</b>, this must point to a <b>LONG</b> that receives the qualifier flavor bits for the requested qualifier. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 ## -returns

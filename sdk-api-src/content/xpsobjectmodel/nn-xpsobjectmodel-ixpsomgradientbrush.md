@@ -133,7 +133,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientbrush-setcolorinterpolationmode">SetColorInterpolationMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0002">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
             
 
 </td>

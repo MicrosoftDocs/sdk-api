@@ -66,7 +66,7 @@ The <code>SetState</code> method sets the filter state.
 
 ### -param State [in]
 
-Sets the filter's state, as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumerated type.
+Sets the filter's state, as specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE</a> enumerated type.
 
 
 ## -returns

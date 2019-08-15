@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Contains parameters used during a moniker-binding operation.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a> structure can be used in place of the <b>BIND_OPTS</b> structure.
+The <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-bind_opts2~r1">BIND_OPTS2</a> or <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-bind_opts3~r1">BIND_OPTS3</a> structure can be used in place of the <b>BIND_OPTS</b> structure.
 
 
 ## -struct-fields

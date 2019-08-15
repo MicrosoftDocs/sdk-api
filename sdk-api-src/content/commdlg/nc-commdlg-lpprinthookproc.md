@@ -88,7 +88,7 @@ A handle to the <b>Print</b> dialog box for which the message is intended.
 
 Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. 
 
-If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda">PRINTDLG</a> structure containing the values specified when the dialog box was created.
+If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure containing the values specified when the dialog box was created.
 
 
 #### - uiMsg [in]
@@ -116,7 +116,7 @@ If the hook procedure returns a nonzero value, the default dialog box procedure 
 
 
 
-When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function to create a <b>Print</b> dialog box, you can provide a <i>PrintHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda">PRINTDLG</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the  <b>lpfnPrintHook</b> member and specify the <b>PD_ENABLEPRINTHOOK</b> flag in the  <b>Flags</b> member.
+When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function to create a <b>Print</b> dialog box, you can provide a <i>PrintHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the  <b>lpfnPrintHook</b> member and specify the <b>PD_ENABLEPRINTHOOK</b> flag in the  <b>Flags</b> member.
 
 The default dialog box procedure processes the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message before passing it to the hook procedure. For all other messages, the hook procedure receives the message first. Then, the return value of the hook procedure determines whether the default dialog procedure processes the message or ignores it.
 
@@ -146,7 +146,7 @@ You can subclass the standard controls of a common dialog box. However, the dial
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpda">PRINTDLG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga">PRINTDLG</a>
 
 
 

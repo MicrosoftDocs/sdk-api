@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
    <b>RdcSignaturePointer</b> structure
    describes an array 
-    of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures. The 
+    of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures. The 
     <b>RdcSignaturePointer</b> structure is used as both input 
     and output by the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
@@ -68,7 +68,7 @@ The
 
 ### -field m_Size
 
-Contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures in 
+Contains the number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures in 
       array pointed to by <b>m_Data</b>.
 
 
@@ -77,12 +77,12 @@ Contains the number of <a href="https://docs.microsoft.com/previous-versions/win
 When the structure is passed to the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
       method, this member should be zero. On return this member will contain the number of 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures that were filled.
+      <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures that were filled.
 
 
 ### -field m_Data
 
-Address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures.
+Address of an array of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures.
 
 
 ## -see-also
@@ -94,7 +94,7 @@ Address of an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a>
 
 
 

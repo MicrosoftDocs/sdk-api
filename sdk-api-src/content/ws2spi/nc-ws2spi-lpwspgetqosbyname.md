@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <i>WSPGetQOSByName</i> function initializes a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure based on a named template, or retrieves an enumeration of the available template names.
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure based on a named template, or retrieves an enumeration of the available template names.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Specifies the QOS template name, or supplies a buffer to retrieve an enumeration
 
 ### -param lpQOS [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to be filled.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure to be filled.
 
 
 ### -param lpErrno [out]
@@ -152,7 +152,7 @@ The specified QOS template name is invalid.
 
 Clients can use 
 <i>WSPGetQOSByName</i> to initialize a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <b>buf</b> member of the 
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <b>buf</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> indicated by <i>lpQOSName</i> to point to a Unicode string of nonzero length specifying a template name. In this case the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
 
 Alternatively, the client may use 

@@ -63,7 +63,7 @@ The <b>CertSelectCertificate</b> function  presents a dialog box that allows the
 
 ### -param pCertSelectInfo [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-tagcssa">CERT_SELECT_STRUCT</a> structure that contains criteria that control the displayed certificates for selection and receives the selected certificate.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure that contains criteria that control the displayed certificates for selection and receives the selected certificate.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-tagcssa">CERT_SELECT_STRUCT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
  
 
  

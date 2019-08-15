@@ -74,7 +74,7 @@ Index of an output stream.
 
 
 
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the type is not set for this stream.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the type is not set for this stream.
 
 
 

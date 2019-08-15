@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
 
 
 ## -parameters
@@ -122,7 +122,7 @@ This notification can be used by an application to perform custom conflict resol
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0004">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

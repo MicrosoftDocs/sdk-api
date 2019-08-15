@@ -65,7 +65,7 @@ The <code>SuggestAllocatorProperties</code> method informs the pin of the applic
 
 ### -param pprop [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
 
 
 ## -returns

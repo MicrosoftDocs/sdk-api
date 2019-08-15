@@ -61,7 +61,7 @@ Creates a data collector of the specified type.
 
 ### -param Type [in]
 
-The type of data collector to create. For possible data collector types, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0001">DataCollectorType</a> enumeration.
+The type of data collector to create. For possible data collector types, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datacollectortype">DataCollectorType</a> enumeration.
 
 
 ### -param Collector [out]

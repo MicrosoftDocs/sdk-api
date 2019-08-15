@@ -63,7 +63,7 @@ Generates output from the current input data.
 
 ### -param dwFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
           
 
 
@@ -81,7 +81,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 ### -param pdwStatus [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
           
 
 
@@ -180,7 +180,7 @@ You must set the media type on one or more streams of the MFT.
 
 
 
-The size of the <i>pOutputSamples</i> array must be equal to or greater than the number of <i>selected</i> output streams. The number of selected output streams equals the total number of output streams minus the number of <i>deselected</i> streams. A stream is deselected if it has the <b>MFT_OUTPUT_STREAM_OPTIONAL</b> flag and the caller does not set a media type (or sets the media type to <b>NULL</b>). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_output_stream_info_flags">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
+The size of the <i>pOutputSamples</i> array must be equal to or greater than the number of <i>selected</i> output streams. The number of selected output streams equals the total number of output streams minus the number of <i>deselected</i> streams. A stream is deselected if it has the <b>MFT_OUTPUT_STREAM_OPTIONAL</b> flag and the caller does not set a media type (or sets the media type to <b>NULL</b>). For more information, see <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
       
 
 This method generates output samples and can also generate events. If the method succeeds, at least one of the following conditions is true:

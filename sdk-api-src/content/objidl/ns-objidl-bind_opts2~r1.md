@@ -101,7 +101,7 @@ Moniker clients (use a moniker to acquire an interface pointer to an object) typ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-bind_opts3~r1">BIND_OPTS3</a>
 
 
 

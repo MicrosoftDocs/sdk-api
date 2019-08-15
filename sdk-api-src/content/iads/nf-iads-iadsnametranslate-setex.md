@@ -61,7 +61,7 @@ The <b>IADsNameTranslate::SetEx</b> method establishes an array of objects for n
 
 ### -param lnFormatType
 
-The format type of the input names. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>.
+The format type of the input names. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
 
 ### -param pvar
@@ -190,7 +190,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

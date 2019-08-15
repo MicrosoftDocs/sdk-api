@@ -71,7 +71,7 @@ The <b>IBrowserService4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-_resizeallborders">_ResizeAllBorders</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice4-_resizeallborders">_ResizeAllBorders</a>
 </td>
 <td align="left" width="63%">
 Deprecated.

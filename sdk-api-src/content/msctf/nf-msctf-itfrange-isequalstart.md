@@ -210,7 +210,7 @@ This method is identical to, but more efficient than, <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0000_0001">TfAnchor
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
  
 

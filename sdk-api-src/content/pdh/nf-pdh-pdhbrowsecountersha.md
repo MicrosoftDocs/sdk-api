@@ -68,7 +68,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowse
 ### -param pBrowseDlgData [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_ha">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
+<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Note that the dialog
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_ha">PDH_BROWSE_DLG_CONFIG_H</a>
+<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a>
 
 
 

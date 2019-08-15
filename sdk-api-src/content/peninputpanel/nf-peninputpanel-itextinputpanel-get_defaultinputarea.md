@@ -60,7 +60,7 @@ ms.custom: 19H1
 ]
 
 
-Gets or sets the default input area as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 
@@ -74,7 +74,7 @@ This property is read/write.
 
 
 
-The system default is <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
+The system default is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
 
 
 #### Examples

@@ -99,7 +99,7 @@ Number of elements in the <b>rgOutputActions</b> array.
 
 ### -field rgOutputActions
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_action">MFINPUTTRUSTAUTHORITY_ACCESS_ACTION</a> structures. The number of elements in the array is specified in the <b>cActions</b> member.
+Array of <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ns-mfidl-mfinputtrustauthority_access_action">MFINPUTTRUSTAUTHORITY_ACCESS_ACTION</a> structures. The number of elements in the array is specified in the <b>cActions</b> member.
 
 
 ## -see-also

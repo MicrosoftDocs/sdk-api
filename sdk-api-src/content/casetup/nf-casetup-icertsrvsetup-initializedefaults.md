@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
+The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 ## -parameters

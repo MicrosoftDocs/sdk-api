@@ -70,7 +70,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 ### -param flags [in]
 
-Determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12">WS_URL_FLAGS</a>.
+Determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
                 
 
 

@@ -143,7 +143,7 @@ No more changed destinations to retrieve.
 
 
 A client is notified of changes by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
+<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
 <b>RTM_EVENT_CALLBACK</b> is only used to notify the client, not deliver the changes. After a change notification is received, the client must call 
 <b>RtmGetChangedDests</b> repeatedly to retrieve all the changes.
 
@@ -167,7 +167,7 @@ For sample code using this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
 
 
 

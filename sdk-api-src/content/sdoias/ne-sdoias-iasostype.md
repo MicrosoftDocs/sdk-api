@@ -120,7 +120,7 @@ The SDO computer is running Windows Server 2008.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sdoias/ne-sdoias-iasdomaintype">IASDOMAINTYPE</a>
 
 
 

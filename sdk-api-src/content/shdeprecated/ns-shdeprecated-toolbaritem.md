@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Data used in <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
+Deprecated. Data used in <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
 
 
 ## -struct-fields

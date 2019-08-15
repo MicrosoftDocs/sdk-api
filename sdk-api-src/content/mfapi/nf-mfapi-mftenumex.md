@@ -66,7 +66,7 @@ A GUID that specifies the category of MFTs to enumerate. For a list of MFT categ
 
 ### -param Flags [in]
 
-The bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
+The bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -param pInputType [in]

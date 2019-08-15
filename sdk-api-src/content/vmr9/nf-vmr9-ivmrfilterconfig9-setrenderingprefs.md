@@ -65,7 +65,7 @@ The <code>SetRenderingPrefs</code> method sets various application preferences r
 
 ### -param dwRenderFlags [in]
 
-Double word containing a bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0008_0001">VMR9RenderPrefs</a> values specifying the rendering preferences.
+Double word containing a bitwise OR of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> values specifying the rendering preferences.
 
 
 ## -returns

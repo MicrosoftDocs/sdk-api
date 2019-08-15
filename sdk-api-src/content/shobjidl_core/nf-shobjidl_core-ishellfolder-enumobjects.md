@@ -69,9 +69,9 @@ If user input is required to perform the enumeration, this window handle should 
 
 ### -param grfFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
 
-Flags indicating which items to include in the enumeration. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> enumerated type.
+Flags indicating which items to include in the enumeration. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> enumerated type.
 
 
 ### -param ppenumIDList [out]

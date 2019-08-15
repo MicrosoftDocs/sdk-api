@@ -70,7 +70,7 @@ Zero-based index of an input stream on the DMO.
 
 ### -param pmt [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure allocated by the caller. The method fills the structure with the media type.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure allocated by the caller. The method fills the structure with the media type.
 
 
 ## -returns

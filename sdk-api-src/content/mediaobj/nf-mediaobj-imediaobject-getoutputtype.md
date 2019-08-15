@@ -75,7 +75,7 @@ Zero-based index on the set of acceptable media types.
 
 ### -param pmt [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure allocated by the caller, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, the method fills the structure with the media type. You can use the value <b>NULL</b> to test whether the type index is in range, by checking the return code.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure allocated by the caller, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, the method fills the structure with the media type. You can use the value <b>NULL</b> to test whether the type index is in range, by checking the return code.
 
 
 ## -returns

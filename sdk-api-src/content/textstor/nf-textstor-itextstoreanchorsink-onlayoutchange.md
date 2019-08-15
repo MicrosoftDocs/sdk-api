@@ -132,7 +132,7 @@ If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode
+<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
       </a>
  
 

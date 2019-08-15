@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -field AsyncResult
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_0">WINHTTP_ASYNC_RESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a></b>
 
 The result of a WebSocket operation.
 
@@ -87,7 +87,7 @@ A <b>WINHTTP_WEB_SOCKET_ASYNC_RESULT</b> structure is passed to the completion c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_0">WINHTTP_ASYNC_RESULT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a>
 
 
 

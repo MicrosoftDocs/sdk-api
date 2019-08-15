@@ -96,7 +96,7 @@ An interim character selection is the length of one character and is visually re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0001">TsActiveSelEnd
+<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsactiveselend">TsActiveSelEnd
       </a>
  
 

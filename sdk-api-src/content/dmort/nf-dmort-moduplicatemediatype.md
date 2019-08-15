@@ -61,7 +61,7 @@ The <b>MoDuplicateMediaType</b> function duplicates a media type structure.
 
 ### -param ppmtDest
 
-Address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure that receives the duplicated structure.
+Address of a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that receives the duplicated structure.
 
 
 ### -param pmtSrc

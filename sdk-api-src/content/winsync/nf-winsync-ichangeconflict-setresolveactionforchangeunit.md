@@ -143,7 +143,7 @@ By setting this action in an event handler for <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0005">SYNC RESOLVE ACTION Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
  
 
  

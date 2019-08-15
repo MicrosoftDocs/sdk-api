@@ -66,7 +66,7 @@ Pointer to an optional buffer defined by this provider and returned by the <a hr
 
 ### -param pIdentifier [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
 
 
 ### -param dwNameType [in]
@@ -92,7 +92,7 @@ The name format of the <i>pNameBlob</i> parameter. Possible values are listed be
 
 ### -param pNameBlob [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
 
 
 ### -param *ppbContent [out]

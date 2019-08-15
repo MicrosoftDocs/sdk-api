@@ -129,7 +129,7 @@ Notify the client of changes to destinations that the client has marked. If this
 ### -param NotifyContext [in]
 
 Specifies the notification context that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
 <b>RTM_EVENT_CALLBACK</b> callback.
 
 
@@ -214,7 +214,7 @@ A client calls
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a> when it is registering for changes to a specific destination.
 
 The routing table manager uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
+<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>, to notify the client when changes have occurred; the client must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a> to receive the actual change information.
 

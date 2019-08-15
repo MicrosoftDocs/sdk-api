@@ -61,7 +61,7 @@ Sets the configuration parameters for the Microsoft DirectShow <a href="https://
 
 ### -param dwConfigFlags [in]
 
-Bitwise <b>OR</b> of  zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-_evrfilterconfig_prefs">EVRFilterConfigPrefs</a> enumeration.
+Bitwise <b>OR</b> of  zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/evr/ne-evr-evrfilterconfigprefs">EVRFilterConfigPrefs</a> enumeration.
 
 
 ## -returns

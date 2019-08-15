@@ -68,7 +68,7 @@ To use handles to data sources, use the
 ### -param pBrowseDlgData [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a> structure that specifies the behavior of the dialog box.
+<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure that specifies the behavior of the dialog box.
 
 
 ## -returns
@@ -113,7 +113,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_a">PDH_BROWSE_DLG_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a>
 
 
 

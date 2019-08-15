@@ -260,5 +260,5 @@ The request cannot be handled due to a system failure.
 
 ### -field ContentInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
+A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
 

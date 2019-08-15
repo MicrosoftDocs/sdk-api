@@ -64,7 +64,7 @@ The <b>TF_LBBALLOONINFO</b> structure contains information about a language bar 
 
 ### -field style
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle</a> values that specify the type of balloon to display.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specify the type of balloon to display.
 
 
 ### -field bstrText
@@ -90,7 +90,7 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle
+<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
  
 

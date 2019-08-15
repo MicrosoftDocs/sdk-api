@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>WSAGetQOSByName</b> function initializes a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ A pointer to a specific quality of service template.
 ### -param lpQOS [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to be filled.
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure to be filled.
 
 
 ## -returns
@@ -147,7 +147,7 @@ The <i>lpQOSName</i> or <i>lpQOS</i> parameter are not a valid part of the user 
 
 The 
 <b>WSAGetQOSByName</b> function is used by applications to initialize a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <i>buf</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure to a set of known values appropriate for a particular service class or media type. These values are stored in a template that is referenced by a well-known name. The client may retrieve these values by setting the <i>buf</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure indicated by <i>lpQOSName</i>, which points to a string of nonzero length specifying a template name. In this case, the usage of <i>lpQOSName</i> is IN only, and results are returned through <i>lpQOS</i>.
 
 Alternatively, the client may use this function to retrieve an enumeration of available template names. The client may do this by setting the <i>buf</i> parameter of the 
@@ -163,7 +163,7 @@ Alternatively, the client may use this function to retrieve an enumeration of av
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
 
 

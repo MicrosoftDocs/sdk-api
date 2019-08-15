@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function populates a ULONG parameter with  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_5">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
+This function populates a ULONG parameter with  the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
                 envelope version of the message is used to determine which attributes to return.
             
 

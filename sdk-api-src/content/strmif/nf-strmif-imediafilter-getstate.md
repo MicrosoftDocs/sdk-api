@@ -69,7 +69,7 @@ Time-out interval, in milliseconds. To block indefinitely, use the value <b>INFI
 
 ### -param State [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumerated type, indicating the filter's state.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE</a> enumerated type, indicating the filter's state.
 
 
 ## -returns

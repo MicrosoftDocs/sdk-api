@@ -314,7 +314,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 Values above 32 correspond to Unicode values for bullets. 
 
-The mobile Microsoft Office version of the rich edit control uses <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomIgnoreNumberStyle</a> to suppress setting the style.
+The mobile Microsoft Office version of the rich edit control uses <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomIgnoreNumberStyle</a> to suppress setting the style.
 
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
@@ -326,7 +326,7 @@ The following Microsoft Visual Basic for Applications (VBA) example numbers the 
 ```
 
 
-For an example of <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
+For an example of <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
 
 
 

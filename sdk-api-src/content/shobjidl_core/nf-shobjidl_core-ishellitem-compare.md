@@ -68,9 +68,9 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl
 
 ### -param hint
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
+One of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
 
 
 ### -param piOrder

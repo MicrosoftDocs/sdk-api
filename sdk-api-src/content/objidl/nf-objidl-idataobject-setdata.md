@@ -66,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 ### -param pmedium [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
 
 
 ### -param fRelease [in]

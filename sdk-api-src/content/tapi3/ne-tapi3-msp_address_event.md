@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 
 The <b>MSP_ADDRESS_EVENT</b> constant is returned within the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> struct by the 
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> struct by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004">MSP_EVENT</a> is ME_ADDRESS_EVENT.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a> is ME_ADDRESS_EVENT.
 
 
 ## -enum-fields
@@ -81,11 +81,11 @@ A terminal has been removed by PNP.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004">MSP_EVENT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
 
 
 

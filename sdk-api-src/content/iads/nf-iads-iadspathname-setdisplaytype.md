@@ -61,7 +61,7 @@ The <b>IADsPathname::SetDisplayType</b> method specifies how to display the path
 
 ### -param lnDisplayType
 
-The display type of a path  as defined in  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0003">ADS_DISPLAY_ENUM</a>.
+The display type of a path  as defined in  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method supports the standard return values, including the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0003">ADS_DISPLAY_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_display_enum">ADS_DISPLAY_ENUM</a>
 
 
 

@@ -141,7 +141,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 If the <b>NotificationSource</b> member of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_ACM</b>, then the received notification is an auto configuration module notification. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure.  For some of these notifications, a <b>WLAN_CONNECTION_NOTIFICATION_DATA</b> structure is returned in the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure. 
 
-For more information on these notifications, see the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_notification_acm">WLAN_NOTIFICATION_ACM</a> enumeration reference.
+For more information on these notifications, see the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a> enumeration reference.
 
 
 
@@ -151,7 +151,7 @@ For more information on these notifications, see the <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_notification_acm">WLAN_NOTIFICATION_ACM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
 
 
 

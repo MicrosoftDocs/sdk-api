@@ -65,9 +65,9 @@ This property is read/write.
 
 
 
-The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> enumeration is plaIndex, plaFlag or plaFlagArray.
+The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is plaIndex, plaFlag or plaFlagArray.
 
-The variant type is VT_UI4 if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> is plaValidation.
+The variant type is VT_UI4 if <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> is plaValidation.
 
 
 

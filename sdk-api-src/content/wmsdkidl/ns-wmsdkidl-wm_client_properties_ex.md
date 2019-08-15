@@ -91,7 +91,7 @@ String containing the client's name on the domain name server (DNS), if known.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a>
  
 
  

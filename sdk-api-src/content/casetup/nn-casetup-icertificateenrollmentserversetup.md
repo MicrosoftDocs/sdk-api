@@ -82,7 +82,7 @@ The <b>ICertificateEnrollmentServerSetup</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0004_0001">CESSetupProperty</a> enumeration value for the CES configuration.
+Retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Specifies user account information for the application pool in which CES runs.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0004_0001">CESSetupProperty</a> enumeration value for the CES configuration.
+Specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>

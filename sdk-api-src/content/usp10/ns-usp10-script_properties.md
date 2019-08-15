@@ -149,7 +149,7 @@ Value indicating the type of word break placement for a language. Possible value
 </dl>
 </td>
 <td width="60%">
-The language has word break placement that requires the application to call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> and that includes character positions marked by the <b>fWordStop</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_logattr">SCRIPT_LOGATTR</a>.
+The language has word break placement that requires the application to call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> and that includes character positions marked by the <b>fWordStop</b> member in <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a>.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The language has word break placement that requires the application to call <a h
 </dl>
 </td>
 <td width="60%">
-Word break placement is identified by scanning for characters marked by the <b>fWhiteSpace</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_logattr">SCRIPT_LOGATTR</a>, or for glyphs marked by the value SCRIPT_JUSTIFY_BLANK or SCRIPT_JUSTIFY_ARABIC_BLANK for the <b>uJustification</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>.
+Word break placement is identified by scanning for characters marked by the <b>fWhiteSpace</b> member in <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a>, or for glyphs marked by the value SCRIPT_JUSTIFY_BLANK or SCRIPT_JUSTIFY_ARABIC_BLANK for the <b>uJustification</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ For a new script having no character set defined, the application should typical
 
 ### -field fControl
 
-Value indicating if only control characters are used in the script. Possible values are defined in the following table. Note that every control character does not end up in a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a> structure.
+Value indicating if only control characters are used in the script. Possible values are defined in the following table. Note that every control character does not end up in a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> structure.
 
 <table>
 <tr>
@@ -277,7 +277,7 @@ Do not use a private use area.
 
 ### -field fNeedsCharacterJustify
 
-Value indicating the handling of justification for the script by increasing all the spaces between letters, not just the spaces between words. Possible values are defined in the following table. When performing inter-character justification, Uniscribe inserts extra space only after glyphs marked with the SCRIPT_JUSTIFY_CHARACTER value for the <b>uJustification</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>.
+Value indicating the handling of justification for the script by increasing all the spaces between letters, not just the spaces between words. Possible values are defined in the following table. When performing inter-character justification, Uniscribe inserts extra space only after glyphs marked with the SCRIPT_JUSTIFY_CHARACTER value for the <b>uJustification</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>.
 
 <table>
 <tr>
@@ -554,15 +554,15 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_logattr">SCRIPT_LOGATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

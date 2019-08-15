@@ -69,6 +69,6 @@ The name of the HTTP header.
 ### -field headerMappingOptions
 
 A set of flags that control how headers are mapped.  
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_1">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
+                    See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
                 
 

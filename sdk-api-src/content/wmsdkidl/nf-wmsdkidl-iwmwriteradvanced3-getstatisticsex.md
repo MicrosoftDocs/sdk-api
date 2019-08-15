@@ -72,7 +72,7 @@ The <b>GetStatisticsEx</b> method retrieves extended statistics for the writer.
 
 ### -param pStats [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmwriterstatisticsex">WM_WRITER_STATISTICS_EX</a> structure that receives the statistics.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_writer_statistics_ex">WM_WRITER_STATISTICS_EX</a> structure that receives the statistics.
 
 
 ## -returns

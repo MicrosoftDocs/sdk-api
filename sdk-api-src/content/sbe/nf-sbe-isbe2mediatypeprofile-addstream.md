@@ -61,7 +61,7 @@ Adds a stream to a media type profile.
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Invalid parameter.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 

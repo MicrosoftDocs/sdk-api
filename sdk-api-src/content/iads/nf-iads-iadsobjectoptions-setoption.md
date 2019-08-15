@@ -61,7 +61,7 @@ The <b>IADsOptions.SetOption</b> method sets a provider-specific option for mani
 
 ### -param lnOption
 
-Indicates the provider-specific option to set. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a> enumeration except <b>ADS_OPTION_SERVERNAME</b> or <b>ADS_OPTION_MUTUAL_AUTH_STATUS</b>.
+Indicates the provider-specific option to set. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration except <b>ADS_OPTION_SERVERNAME</b> or <b>ADS_OPTION_MUTUAL_AUTH_STATUS</b>.
 
 
 ### -param vValue

@@ -71,7 +71,7 @@ Pointer to an <b>MSPID</b> value that will contain the stream's purpose ID (see 
 
 ### -param pType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001">STREAM_TYPE</a> enumerated data type value that will contain the stream's media type. If this parameter is <b>NULL</b> on entry, the method won't retrieve the media type.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumerated data type value that will contain the stream's media type. If this parameter is <b>NULL</b> on entry, the method won't retrieve the media type.
 
 
 ## -returns

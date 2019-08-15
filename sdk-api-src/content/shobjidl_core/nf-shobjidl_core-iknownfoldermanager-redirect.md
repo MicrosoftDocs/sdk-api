@@ -70,14 +70,14 @@ A reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/kno
 
 Type: <b>HWND</b>
 
-The handle of the parent window used to display copy engine progress UI dialogs when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_WITH_UI</a> i passed in the <i>flags</i> parameter. If no progress dialog is needed, this value can be <b>NULL</b>.
+The handle of the parent window used to display copy engine progress UI dialogs when <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_WITH_UI</a> i passed in the <i>flags</i> parameter. If no progress dialog is needed, this value can be <b>NULL</b>.
 
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_FLAGS</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_FLAGS</a> options for redirection.
+The <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_FLAGS</a> options for redirection.
 
 
 ### -param pszTargetPath [in, optional]

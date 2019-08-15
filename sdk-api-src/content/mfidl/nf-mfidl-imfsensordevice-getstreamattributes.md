@@ -64,7 +64,7 @@ Gets the stream attribute store with the specified index.
 
 ### -param eType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0002">MFSensorStreamType</a> enumeration specifying whether the attribute store is being requested for an input or output stream.  
+A member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">MFSensorStreamType</a> enumeration specifying whether the attribute store is being requested for an input or output stream.  
 
 
 ### -param dwIndex [in]

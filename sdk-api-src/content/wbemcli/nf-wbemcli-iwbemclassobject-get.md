@@ -87,12 +87,12 @@ When successful, this parameter is assigned the correct type and value for the q
 
 ### -param pType [out, optional]
 
-Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_cimtype_enumeration">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
+Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
 
 
 ### -param plFlavor [out, optional]
 
-Can be <b>NULL</b>. If not <b>NULL</b>, the LONG value pointed to receives information about the origin of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+Can be <b>NULL</b>. If not <b>NULL</b>, the LONG value pointed to receives information about the origin of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 

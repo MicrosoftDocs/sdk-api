@@ -68,7 +68,7 @@ A handle of the local Bluetooth radio.
 
 ### -param pbtdi
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure. Must be a previously found radio address.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure. Must be a previously found radio address.
 
 
 ### -param pGuidService
@@ -148,7 +148,7 @@ If a non-supported service is enabled, a driver is not installed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

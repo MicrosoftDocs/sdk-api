@@ -61,7 +61,7 @@ The <b>IADsPropertyValue2::PutObjectProperty</b> method sets an attribute value.
 
 ### -param lnADsType [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> values that specifies the data format of the value set. This value must correspond to the <i>pvProp</i> variant type. For more information and a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that specifies the data format of the value set. This value must correspond to the <i>pvProp</i> variant type. For more information and a list of the <i>lnADsType</i> values and corresponding <i>pvProp</i> variant types, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>.
 
 
 ### -param vProp [in]
@@ -87,7 +87,7 @@ Returns <b>S_OK</b> if successful or an error code otherwise. The following are 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

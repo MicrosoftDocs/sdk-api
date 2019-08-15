@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, manages the mappings between the streams in the WTV file and the filter output pins.
 
-The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-__midl___midl_itf_sbe_0000_0015_0001">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
+The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe2_stream_desc">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
 
 
 ## -parameters

@@ -74,7 +74,7 @@ Pointer to memory containing a
 ### -param dwSendingFlowspecSize
 
 Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>SendingFlowspec</b> in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure. 
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
 
 
 ### -param lpReceivingFlowspec
@@ -84,7 +84,7 @@ Pointer to memory containing a <a href="https://docs.microsoft.com/windows/deskt
 
 ### -param dwReceivingFlowspecSize
 
-Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure. 
+Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
 
 
 ## -returns
@@ -107,7 +107,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INV
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
 
 

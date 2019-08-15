@@ -61,7 +61,7 @@ The <b>ADS_ESCAPE_MODE_ENUM</b> enumeration specifies how escape characters are 
 
 ### -field ADS_ESCAPEDMODE_DEFAULT
 
-The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
+The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
 
 <table>
 <tr>
@@ -153,7 +153,7 @@ To obtain correct behavior, the LDAP special characters must be escaped before t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 

@@ -64,7 +64,7 @@ Contains the visual (glyph) attributes that identify clusters and justification 
 
 ### -field uJustification
 
-Justification class for the glyph. See <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ne-usp10-tag_script_justify">SCRIPT_JUSTIFY</a>.
+Justification class for the glyph. See <a href="https://docs.microsoft.com/windows/win32/api/usp10/ne-usp10-script_justify">SCRIPT_JUSTIFY</a>.
 
 
 ### -field fClusterStart
@@ -181,7 +181,7 @@ Reserved; for use by shaping engines.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ne-usp10-tag_script_justify">SCRIPT_JUSTIFY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ne-usp10-script_justify">SCRIPT_JUSTIFY</a>
 
 
 

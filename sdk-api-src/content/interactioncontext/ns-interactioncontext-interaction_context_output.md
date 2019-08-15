@@ -71,7 +71,7 @@ One of the constants from <a href="https://docs.microsoft.com/previous-versions/
 
 ### -field inputType
 
-One of the constants from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a>.
+One of the constants from <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a>.
 
 
 ### -field x

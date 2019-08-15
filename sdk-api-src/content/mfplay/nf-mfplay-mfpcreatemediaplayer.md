@@ -80,7 +80,7 @@ If <i>pwszURL</i> is <b>NULL</b>, this parameter is ignored.
 
 ### -param creationOptions [in]
 
-Bitwise <b>OR</b> of zero of more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ne-mfplay-_mfp_creation_options">_MFP_CREATION_OPTIONS</a> enumeration.
+Bitwise <b>OR</b> of zero of more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options">_MFP_CREATION_OPTIONS</a> enumeration.
 
 
 ### -param pCallback [in]

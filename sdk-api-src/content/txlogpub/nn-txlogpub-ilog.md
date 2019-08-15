@@ -146,7 +146,7 @@ WAL is a technique used by certain applications, such as database management sys
 
 
 
-Writing records that use <b>ILog</b> is a sequential operation; that is, new records are always appended to the end of the log. Each record appended to the log is assigned a log sequence number (LSN), a numeric identifier which may be used to retrieve the record later. The data type LSN is a typedef for <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>, a signed 64-bit value; however, <b>ILog</b> uses only LSNs with nonnegative values. In addition, LSNs must satisfy the following conditions:
+Writing records that use <b>ILog</b> is a sequential operation; that is, new records are always appended to the end of the log. Each record appended to the log is assigned a log sequence number (LSN), a numeric identifier which may be used to retrieve the record later. The data type LSN is a typedef for <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>, a signed 64-bit value; however, <b>ILog</b> uses only LSNs with nonnegative values. In addition, LSNs must satisfy the following conditions:
 
 
 

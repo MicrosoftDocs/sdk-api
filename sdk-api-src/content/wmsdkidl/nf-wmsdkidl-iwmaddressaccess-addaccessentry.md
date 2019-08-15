@@ -72,7 +72,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl
 
 ### -param pAddrAccessEntry [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmaddressaccessentry">WM_ADDRESS_ACCESSENTRY</a> structure that specifies the IP address or range of addresses.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_address_accessentry">WM_ADDRESS_ACCESSENTRY</a> structure that specifies the IP address or range of addresses.
 
 
 ## -returns

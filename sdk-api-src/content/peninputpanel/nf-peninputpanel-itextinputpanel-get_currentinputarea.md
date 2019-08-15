@@ -58,7 +58,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the current input area as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
+Gets the current input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-The current input area is different from the default input area when the user has explicitly switched input areas. It is also different if the default input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language. When the Tablet PC Input Panel is closed or hidden, the current input areas is reset to equal the default input area, unless the default state is <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">Auto</a>, in which case, the current input area is not reset and represents the last visible input area.
+The current input area is different from the default input area when the user has explicitly switched input areas. It is also different if the default input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language. When the Tablet PC Input Panel is closed or hidden, the current input areas is reset to equal the default input area, unless the default state is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">Auto</a>, in which case, the current input area is not reset and represents the last visible input area.
 
 
 #### Examples

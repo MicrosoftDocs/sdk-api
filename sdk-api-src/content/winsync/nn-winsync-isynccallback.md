@@ -85,7 +85,7 @@ Occurs before a change is applied.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">OnConflict</a>
 </td>
 <td align="left" width="63%">
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
 
 
 </td>
@@ -128,7 +128,7 @@ Occurs when a synchronization provider sets a recoverable error while it is load
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 

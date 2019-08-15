@@ -82,7 +82,7 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/ns-documenttarget-__midl___midl_itf_documenttarget_0000_0001_0001">PrintDocumentPackageStatus</a>
+<a href="https://docs.microsoft.com/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus">PrintDocumentPackageStatus</a>
  
 
  

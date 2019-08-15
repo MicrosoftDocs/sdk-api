@@ -157,7 +157,7 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
 
 
 

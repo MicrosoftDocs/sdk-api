@@ -66,7 +66,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param SearchInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search for the client lease record on the DHCP server.
 
 
 ### -param ClientInfo [out]

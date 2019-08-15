@@ -64,7 +64,7 @@ The <b>TF_DA_COLOR</b> structure contains color data used in the display attribu
 
 ### -field type
 
-Specifies the color type as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0002">TF_DA_COLORTYPE</a> enumeration.
+Specifies the color type as defined in the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE</a> enumeration.
 
 
 ### -field nIndex
@@ -86,7 +86,7 @@ Specifies the color as an RGB value. This member is used only if <b>type</b> is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0002">TF_DA_COLORTYPE
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE
       </a>
  
 

@@ -67,7 +67,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param SearchInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a> structure that contains the parameters for the search.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the parameters for the search.
 
 
 ### -param ClientInfo [out]
@@ -106,7 +106,7 @@ This function requires host byte ordering for all <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
 
 
 

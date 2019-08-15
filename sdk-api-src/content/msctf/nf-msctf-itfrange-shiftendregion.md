@@ -65,7 +65,7 @@ Contains an edit cookie that identifies the edit context obtained from <a href="
 
 ### -param dir [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0002">TfShiftDir</a> values that specify which adjacent region the end anchor is moved to.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specify which adjacent region the end anchor is moved to.
 
 
 ### -param pfNoRegion [out]
@@ -168,7 +168,7 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0002">TfShiftDir
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
       </a>
  
 

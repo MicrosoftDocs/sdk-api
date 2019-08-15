@@ -132,7 +132,7 @@ If no progress function is to be used, set this parameter to <b>NULL</b>.
 
 ### -param ProgressInvokeSetting [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_progress_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
 
 
 ### -param Args [in, optional]

@@ -70,7 +70,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn
 
 ### -param lpFrameInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoifi">OLEINPLACEFRAMEINFO</a> structure containing the accelerator table obtained from the container.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure containing the accelerator table obtained from the container.
 
 
 ### -param lpmsg [in]

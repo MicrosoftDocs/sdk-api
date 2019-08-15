@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsPathname::Set</b> method sets up the Pathname object for parsing a directory path. The path is set with a format as defined in  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a>.
+The <b>IADsPathname::Set</b> method sets up the Pathname object for parsing a directory path. The path is set with a format as defined in  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Path of an ADSI object.
 
 ### -param lnSetType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a> option that defines the format type to be retrieved.
+An <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a> option that defines the format type to be retrieved.
 
 
 ## -returns
@@ -152,7 +152,7 @@ hr = pPathname->Set(CComBSTR("LDAP://CN=pencil/desk"),
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>
 
 
 

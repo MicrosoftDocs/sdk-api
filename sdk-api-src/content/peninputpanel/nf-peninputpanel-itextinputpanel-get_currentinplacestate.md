@@ -58,7 +58,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the current in-place state as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>.
+Gets the current in-place state as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-When the Tablet PC Input Panel is closed or hidden, the current in-place state is reset to the default state, unless the default state is <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">Auto</a>, in which case, the current in-place state is reset to <b>Hover</b>.
+When the Tablet PC Input Panel is closed or hidden, the current in-place state is reset to the default state, unless the default state is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">Auto</a>, in which case, the current in-place state is reset to <b>Hover</b>.
 
 
 #### Examples

@@ -77,10 +77,10 @@ Client coordinates of the point to test.
 
 ### -field ti
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtoolinfoa">TOOLINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtoolinfoa">TOOLINFO</a> structure. If the point specified by 
+<a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a> structure. If the point specified by 
 					<b>pt</b> is in the tool specified by 
 					<b>hwnd</b>, this structure receives information about the tool. The 
 					<b>cbSize</b> member of this structure must be filled in before sending this message. 

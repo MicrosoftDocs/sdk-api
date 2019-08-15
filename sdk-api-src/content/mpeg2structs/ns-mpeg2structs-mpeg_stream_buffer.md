@@ -88,7 +88,7 @@ Pointer to a buffer that holds the MPEG-2 data.
 
 This structure is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-supplydatabuffer">IMpeg2Stream::SupplyDataBuffer</a> method to get raw MPEG-2 data.
 
-For PSI tables and sections, set <b>pDataBuffer</b> to point to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> structure. If you also create an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0015">MPEG_PACKET_LIST</a> structure to hold a list of buffers, you can pass that list to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initializewithrawsections">ISectionList::InitializeWithRawSections</a> method.
+For PSI tables and sections, set <b>pDataBuffer</b> to point to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> structure. If you also create an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure to hold a list of buffers, you can pass that list to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-isectionlist-initializewithrawsections">ISectionList::InitializeWithRawSections</a> method.
 
 
 #### Examples

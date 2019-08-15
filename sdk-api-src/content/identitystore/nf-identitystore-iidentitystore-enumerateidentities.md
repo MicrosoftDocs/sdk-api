@@ -61,7 +61,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://docs
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/identitycommon/ne-identitycommon-_identitytype">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/identitycommon/ne-identitycommon-identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

@@ -85,7 +85,7 @@ A value that represents  the running total count of v-blanks when the scheduler 
 
 ### -field SyncQPCTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 A value that represents the high-resolution performance counter timer. 
         This value is the same as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
@@ -94,7 +94,7 @@ A value that represents the high-resolution performance counter timer.
 
 ### -field SyncGPUTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 Reserved. Always returns 0.
 

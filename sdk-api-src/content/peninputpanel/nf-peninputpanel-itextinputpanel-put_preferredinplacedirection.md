@@ -74,7 +74,7 @@ This property is read/write.
 
 
 
-An application can specify whether the in-place Input Panel defaults to appearing above or below a text entry field. To do this the application can set the <b>ITextInputPanel::PreferredInPlaceDirection Property</b> to <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0006">InPlaceDirection_Bottom</a> or <b>InPlaceDirection_Top</b>. <b>ITextInputPanel::PreferredInPlaceDirection Property</b> is a preference because the in-place Input Panel overrides the preference set by the application when necessary to keep Input Panel on the screen. The system default is to position the in-place Input Panel below a text field when possible and otherwise to position it above. Setting the <b>PreferredInPlaceDirection</b> to <b>InPlaceDirection_Auto</b> restores the system default.
+An application can specify whether the in-place Input Panel defaults to appearing above or below a text entry field. To do this the application can set the <b>ITextInputPanel::PreferredInPlaceDirection Property</b> to <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacedirection">InPlaceDirection_Bottom</a> or <b>InPlaceDirection_Top</b>. <b>ITextInputPanel::PreferredInPlaceDirection Property</b> is a preference because the in-place Input Panel overrides the preference set by the application when necessary to keep Input Panel on the screen. The system default is to position the in-place Input Panel below a text field when possible and otherwise to position it above. Setting the <b>PreferredInPlaceDirection</b> to <b>InPlaceDirection_Auto</b> restores the system default.
 
 
 #### Examples

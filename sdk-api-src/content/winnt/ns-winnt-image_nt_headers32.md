@@ -73,7 +73,7 @@ An
 ### -field OptionalHeader
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure that specifies the optional file header.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure that specifies the optional file header.
 
 
 ## -remarks
@@ -108,7 +108,7 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a>
 
 
 

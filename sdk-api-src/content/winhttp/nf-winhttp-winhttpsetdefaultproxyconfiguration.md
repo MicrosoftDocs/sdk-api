@@ -62,7 +62,7 @@ The <b>WinHttpSetDefaultProxyConfiguration</b> function sets the default WinHTTP
 ### -param pProxyInfo [in]
 
 A pointer to a variable of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_3">WINHTTP_PROXY_INFO</a> that specifies the default proxy configuration.
+<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> that specifies the default proxy configuration.
 
 
 ## -returns
@@ -119,7 +119,7 @@ The default proxy configuration set by this function can be overridden for an ex
 
 The 
 <b>dwAccessType</b> member of 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_3">WINHTTP_PROXY_INFO</a> structure pointed to by <i>pProxyInfo</i> should be set to 
+the <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> structure pointed to by <i>pProxyInfo</i> should be set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b> if a proxy is specified.  Otherwise, it should be set to 
 <b>WINHTTP_ACCESS_TYPE_DEFAULT_PROXY</b>.
 

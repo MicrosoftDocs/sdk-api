@@ -144,7 +144,7 @@ Insufficient memory.
 
 If the linearization is successful, the originally selected range is replaced by the linearized version. 
 
-If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathChangeMask</a> values.
+If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathChangeMask</a> values.
 
  The main purpose of these build-down modes is to facilitate transformations of the build-up math object as exposed by math context menus. 
 

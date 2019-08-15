@@ -67,7 +67,7 @@ The GINA DLL can use this information to fill in a logon box automatically and a
 ### -param pCred [out]
 
 Specifies a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_client_credentials_info">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials of the client on return.
+<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v1_0">WLX_CLIENT_CREDENTIALS_INFO_V1_0</a> structure that contains the credentials of the client on return.
 
 
 ## -returns

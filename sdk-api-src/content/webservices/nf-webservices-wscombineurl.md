@@ -76,7 +76,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener
 
 ### -param flags [in]
 
-Controls the  format of the resulting URL.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12">WS_URL_FLAGS</a>.
+Controls the  format of the resulting URL.  For more information, see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
 
 
 ### -param heap [in]

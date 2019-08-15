@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>RdcNeedPointer</b> structure describes an array 
-    of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures. The 
+    of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures. The 
     <b>RdcNeedPointer</b> structure is used as both input and output 
     by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method.
 
@@ -64,7 +64,7 @@ The <b>RdcNeedPointer</b> structure describes an array
 
 ### -field m_Size
 
-Contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures in array pointed 
+Contains the number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures in array pointed 
       to by <b>m_Data</b>.
 
 
@@ -73,12 +73,12 @@ Contains the number of <a href="https://docs.microsoft.com/previous-versions/win
 When the structure is passed to the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method, this member 
       should be zero. On return this member will contain the number of 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures that were filled with data.
+      <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures that were filled with data.
 
 
 ### -field m_Data
 
-Address of array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures that describe the 
+Address of array of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures that describe the 
       chunks required from the source and seed data.
 
 
@@ -91,7 +91,7 @@ Address of array of <a href="https://docs.microsoft.com/previous-versions/window
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a>
 
 
 

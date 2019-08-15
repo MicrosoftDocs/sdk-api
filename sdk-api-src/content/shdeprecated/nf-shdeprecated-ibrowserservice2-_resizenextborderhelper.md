@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. A helper method used by the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">IBrowserService2::_ResizeNextBorder</a>.
+Deprecated. A helper method used by the implementation of <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_resizenextborder">IBrowserService2::_ResizeNextBorder</a>.
 
 
 ## -parameters

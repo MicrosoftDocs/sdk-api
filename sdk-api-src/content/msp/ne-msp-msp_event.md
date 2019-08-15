@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>MSP_EVENT</b> enumerator defines the type of event information contained in 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>.
 
 
 ## -enum-fields
@@ -107,7 +107,7 @@ The event buffer is an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
 
 
 

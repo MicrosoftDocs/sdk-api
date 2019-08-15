@@ -76,7 +76,7 @@ The <b>IManipulationProcessor</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation">CompleteManipulation</a>
 </td>
 <td align="left" width="63%">
-Call this method when you want manipulation to end.  This method raises the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
+Call this method when you want manipulation to end.  This method raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
 
 </td>
 </tr>

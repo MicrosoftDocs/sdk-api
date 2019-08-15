@@ -65,7 +65,7 @@ The <code>GetCurrentUOPS</code> method retrieves a set of flags indicating which
 
 ### -param pulUOPs [out]
 
-Receives a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0001">VALID_UOP_FLAG</a> values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
+Receives a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-valid_uop_flag">VALID_UOP_FLAG</a> values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
 
 
 ## -returns

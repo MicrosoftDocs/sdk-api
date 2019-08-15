@@ -66,7 +66,7 @@ Pointer to a GINA-specific context.
 
 ### -param pCredInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_consoleswitch_credentials_info">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
 
 
 ## -returns

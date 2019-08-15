@@ -105,7 +105,7 @@ The offset of the enumeration field which controls which choice is
 
 This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
-                    field is optional (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> was specified).
+                    field is optional (<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
                 
 
 
@@ -261,7 +261,7 @@ The following restrictions apply to the field descriptions:
                 a wrapper element name and namespace has been specified.
                 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> may not be used.
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
 

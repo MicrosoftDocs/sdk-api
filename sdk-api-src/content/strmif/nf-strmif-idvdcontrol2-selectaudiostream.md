@@ -70,7 +70,7 @@ Value that specifies the audio stream. Valid stream numbers are 0 through 7, or 
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0002">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command. This parameter is currently ignored; use DVD_CMD_FLAG_None.
+Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command. This parameter is currently ignored; use DVD_CMD_FLAG_None.
 
 
 ### -param ppCmd [out]

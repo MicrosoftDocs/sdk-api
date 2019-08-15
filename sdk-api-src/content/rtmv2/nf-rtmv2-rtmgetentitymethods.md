@@ -84,7 +84,7 @@ On output, <i>NumMethods</i> receives the number of methods exported by the clie
 ### -param ExptMethods [out]
 
 Receives a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_entity_method">RTM_ENTITY_EXPORT_METHOD</a> structure that contains the set of method identifiers requested by the calling client.
+<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_entity_method">RTM_ENTITY_EXPORT_METHOD</a> structure that contains the set of method identifiers requested by the calling client.
 
 
 ## -returns

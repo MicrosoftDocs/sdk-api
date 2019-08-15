@@ -195,10 +195,10 @@ If not specified, the default value of this property is '<a href="https://docs.m
 
 Note that this property when set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_exchange_type">WS_METADATA_EXCHANGE_TYPE_HTTP_GET</a> changes the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> property 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
-                    <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_PREFIX_PATH</a>. 
+                    <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_MATCH_URL_PREFIX_PATH</a>. 
                 
 
-When setting this property to WS_METADATA_EXCHANGE_TYPE_HTTP_GET an application must not specify <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_EXACT_PATH</a> for the listener 
+When setting this property to WS_METADATA_EXCHANGE_TYPE_HTTP_GET an application must not specify <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_MATCH_URL_EXACT_PATH</a> for the listener 
                     properties <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b>for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                 
 
@@ -234,10 +234,10 @@ By default no filtering is done for WS-MetadataExchange v1.1 for MEX and all WS-
                 
 
 Note that this property changes the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> property <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
-                    <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_PREFIX_PATH</a>. 
+                    <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_MATCH_URL_PREFIX_PATH</a>. 
                 
 
-When setting this property an application must not specify <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_EXACT_PATH</a> for the listener 
+When setting this property an application must not specify <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_MATCH_URL_EXACT_PATH</a> for the listener 
                     properties <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> 
                     for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                 

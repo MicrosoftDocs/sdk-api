@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Provides information about the <b>PERF_STRING_BUFFER_HEADER</b> block that contains the structure. The <b>PERF_STRING_BUFFER_HEADER</b> block provides the names or help strings for the performance counters in a counter set, amd consists of the following items in order:<ol>
 <li>A <b>PERF_STRING_BUFFER_HEADER</b>structure</li>
-<li>A number of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_counter_header">PERF_STRING_COUNTER_HEADER</a>structures. The <b>dwCounters</b> member of the <b>PERF_STRING_BUFFER_HEADER</b> structure specifies how many <b>PERF_STRING_COUNTER_HEADER</b>structures the <b>PERF_STRING_BUFFER_HEADER</b> block contains.</li>
+<li>A number of <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a>structures. The <b>dwCounters</b> member of the <b>PERF_STRING_BUFFER_HEADER</b> structure specifies how many <b>PERF_STRING_COUNTER_HEADER</b>structures the <b>PERF_STRING_BUFFER_HEADER</b> block contains.</li>
 <li>A block of string data.</li>
 </ol>
 
@@ -66,12 +66,12 @@ Provides information about the <b>PERF_STRING_BUFFER_HEADER</b> block that conta
 
 ### -field dwSize
 
-The total size of the <b>PERF_STRING_BUFFER_HEADER</b> block, in bytes. This total size is the sum of the sizes of the <b>PERF_STRING_BUFFER_HEADER</b> structure, all of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_counter_header">PERF_STRING_COUNTER_HEADER</a> structures, and the block of string data.
+The total size of the <b>PERF_STRING_BUFFER_HEADER</b> block, in bytes. This total size is the sum of the sizes of the <b>PERF_STRING_BUFFER_HEADER</b> structure, all of the <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a> structures, and the block of string data.
 
 
 ### -field dwCounters
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_counter_header">PERF_STRING_COUNTER_HEADER</a> structures in the  <b>PERF_STRING_BUFFER_HEADER</b> block.
+The number of <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a> structures in the  <b>PERF_STRING_BUFFER_HEADER</b> block.
 
 
 ## -remarks
@@ -90,7 +90,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_counter_header">PERF_STRING_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_string_counter_header">PERF_STRING_COUNTER_HEADER</a>
 
 
 

@@ -61,7 +61,7 @@ The <b>IADs::PutEx</b> method modifies the values of an attribute in the ADSI at
 
 ### -param lnControlCode [in]
 
-Control code that  indicates the mode of modification: Append, Replace, Remove, and Delete. For more information and a list of values, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027">ADS_PROPERTY_OPERATION_ENUM</a>.
+Control code that  indicates the mode of modification: Append, Replace, Remove, and Delete. For more information and a list of values, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_property_operation_enum">ADS_PROPERTY_OPERATION_ENUM</a>.
 
 
 ### -param bstrName [in]

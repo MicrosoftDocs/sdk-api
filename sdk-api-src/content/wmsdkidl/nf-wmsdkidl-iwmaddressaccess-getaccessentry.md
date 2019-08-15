@@ -77,7 +77,7 @@ Specifies the zero-based index of the entry. Use the <a href="https://docs.micro
 
 ### -param pAddrAccessEntry [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmaddressaccessentry">WM_ADDRESS_ACCESSENTRY</a> structure that receives the access entry.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_address_accessentry">WM_ADDRESS_ACCESSENTRY</a> structure that receives the access entry.
 
 
 ## -returns

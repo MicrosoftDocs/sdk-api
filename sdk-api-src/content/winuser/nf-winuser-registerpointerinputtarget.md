@@ -72,7 +72,7 @@ Redirection can cause the foreground window to lose activation (focus). To avoid
 
 ### -param pointerType [in]
 
-Type of pointer input to be redirected to the specified  window. This is any valid and supported value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> enumeration. Note that the generic <b>PT_POINTER</b> type and the <b>PT_MOUSE</b> type are not valid in this parameter.
+Type of pointer input to be redirected to the specified  window. This is any valid and supported value from the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> enumeration. Note that the generic <b>PT_POINTER</b> type and the <b>PT_MOUSE</b> type are not valid in this parameter.
 
 
 ## -returns

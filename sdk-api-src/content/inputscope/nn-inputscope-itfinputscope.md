@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/ne-inputscope-__midl___midl_itf_inputscope_0000_0000_0001">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
+The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="https://docs.microsoft.com/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
 
 The interface ID is IID_ITfInputScope.
 

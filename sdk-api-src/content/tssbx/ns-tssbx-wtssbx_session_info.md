@@ -91,7 +91,7 @@ The time that the user disconnected from the session.
 
 ### -field SessionState
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0008">WTSSBX_SESSION_STATE</a> enumeration type that indicates the state of the session.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_session_state">WTSSBX_SESSION_STATE</a> enumeration type that indicates the state of the session.
 
 
 ## -see-also

@@ -63,7 +63,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_att
 
 ### -field dwType
 
-Data type used to interpret the union member of the structure. Values of this member are taken from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> enumeration.
+Data type used to interpret the union member of the structure. Values of this member are taken from the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration.
 
 
 ### -field DNString
@@ -103,7 +103,7 @@ Integer value, as defined by <b>ADS_INTEGER</b>, an  <a href="https://docs.micro
 
 ### -field OctetString
 
-An octet string, as defined by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0002">ADS_OCTET_STRING</a>, an ADSI-defined data type.
+An octet string, as defined by  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_octet_string">ADS_OCTET_STRING</a>, an ADSI-defined data type.
 
 
 ### -field UTCTime
@@ -123,7 +123,7 @@ Class name string, as defined by <b>ADS_OBJECT_CLASS</b>, an  <a href="https://d
 
 ### -field ProviderSpecific
 
-Provider-specific structure, as defined by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>, an ADSI-defined data type.
+Provider-specific structure, as defined by  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a>, an ADSI-defined data type.
 
 
 ### -field pCaseIgnoreList
@@ -138,67 +138,67 @@ Pointer to a list of  <a href="https://docs.microsoft.com/windows/desktop/api/ia
 
 ### -field pPath
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0005">ADS_PATH</a> name, an ADSI-defined data type.
+Pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_path">ADS_PATH</a> name, an ADSI-defined data type.
 
 
 ### -field pPostalAddress
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0006">ADS_POSTALADDRESS</a> data, an ADSI-defined data type.
+Pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_postaladdress">ADS_POSTALADDRESS</a> data, an ADSI-defined data type.
 
 
 ### -field Timestamp
 
-Time stamp of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0007">ADS_TIMESTAMP</a> type, an ADSI-defined data type.
+Time stamp of the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_timestamp">ADS_TIMESTAMP</a> type, an ADSI-defined data type.
 
 
 ### -field BackLink
 
-A link of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0008">ADS_BACKLINK</a> type, an ADSI-defined data type.
+A link of the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_backlink">ADS_BACKLINK</a> type, an ADSI-defined data type.
 
 
 ### -field pTypedName
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0009">ADS_TYPEDNAME</a> name, an ADSI-defined data type.
+Pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_typedname">ADS_TYPEDNAME</a> name, an ADSI-defined data type.
 
 
 ### -field Hold
 
-A data structure of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0010">ADS_HOLD</a> type, an ADSI-defined data type.
+A data structure of the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_hold">ADS_HOLD</a> type, an ADSI-defined data type.
 
 
 ### -field pNetAddress
 
-Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0011">ADS_NETADDRESS</a> data, an ADSI-defined data type.
+Pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_netaddress">ADS_NETADDRESS</a> data, an ADSI-defined data type.
 
 
 ### -field pReplicaPointer
 
-Pointer to a replica pointer of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0012">ADS_REPLICAPOINTER</a>, an ADSI-defined data type.
+Pointer to a replica pointer of  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_replicapointer">ADS_REPLICAPOINTER</a>, an ADSI-defined data type.
 
 
 ### -field pFaxNumber
 
-Pointer to a facsimile number of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0013">ADS_FAXNUMBER</a>, an ADSI-defined data type.
+Pointer to a facsimile number of  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_faxnumber">ADS_FAXNUMBER</a>, an ADSI-defined data type.
 
 
 ### -field Email
 
-Email address of a user of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0014">ADS_EMAIL</a>, an ADSI-defined data type.
+Email address of a user of  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_email">ADS_EMAIL</a>, an ADSI-defined data type.
 
 
 ### -field SecurityDescriptor
 
-Windows security descriptor, as defined by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0003">ADS_NT_SECURITY_DESCRIPTOR</a>, an ADSI-defined data type.
+Windows security descriptor, as defined by  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_nt_security_descriptor">ADS_NT_SECURITY_DESCRIPTOR</a>, an ADSI-defined data type.
 
 
 ### -field pDNWithBinary
 
-Pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015">ADS_DN_WITH_BINARY</a> structure that maps a distinguished name of an object to its GUID value.
+Pointer to an  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a> structure that maps a distinguished name of an object to its GUID value.
 
 
 ### -field pDNWithString
 
-Pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0016">ADS_DN_WITH_STRING</a> structure that maps a distinguished name of an object to a nonvarying string value.
+Pointer to an  <a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a> structure that maps a distinguished name of an object to a nonvarying string value.
 
 
 ## -remarks
@@ -224,7 +224,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 
@@ -232,7 +232,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0008">ADS_BACKLINK</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_backlink">ADS_BACKLINK</a>
 
 
 
@@ -240,31 +240,31 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015">ADS_DN_WITH_BINARY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_binary">ADS_DN_WITH_BINARY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0016">ADS_DN_WITH_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_DN_WITH_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0014">ADS_EMAIL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_email">ADS_EMAIL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0013">ADS_FAXNUMBER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_faxnumber">ADS_FAXNUMBER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0010">ADS_HOLD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_hold">ADS_HOLD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0011">ADS_NETADDRESS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_netaddress">ADS_NETADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0003">ADS_NT_SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_nt_security_descriptor">ADS_NT_SECURITY_DESCRIPTOR</a>
 
 
 
@@ -272,31 +272,31 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0002">ADS_OCTET_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_octet_string">ADS_OCTET_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0005">ADS_PATH</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_path">ADS_PATH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0006">ADS_POSTALADDRESS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_postaladdress">ADS_POSTALADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific">ADS_PROV_SPECIFIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0012">ADS_REPLICAPOINTER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_replicapointer">ADS_REPLICAPOINTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0007">ADS_TIMESTAMP</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_timestamp">ADS_TIMESTAMP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0009">ADS_TYPEDNAME</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_typedname">ADS_TYPEDNAME</a>
 
 
 

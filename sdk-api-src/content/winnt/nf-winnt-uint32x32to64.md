@@ -76,7 +76,7 @@ The second unsigned 32-bit integer for the multiplication operation.
 This function is implemented on all platforms by optimal inline code: a single multiply instruction that returns a 64-bit result.
 
 Please note that the function's return value is a 64-bit value, not a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure.
 
 
 

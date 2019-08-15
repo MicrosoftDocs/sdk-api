@@ -211,5 +211,5 @@ Second argument above the first.
 
 ### -field tomObjectMax
 
-The maximum value in the <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">OBJECTTYPE</a> enumeration.
+The maximum value in the <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">OBJECTTYPE</a> enumeration.
 

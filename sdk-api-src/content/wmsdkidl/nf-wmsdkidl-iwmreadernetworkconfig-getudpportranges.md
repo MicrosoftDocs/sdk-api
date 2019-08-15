@@ -67,7 +67,7 @@ The <b>GetUDPPortRanges</b> method retrieves the UDP port number ranges used for
 
 ### -param pRangeArray [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmportnumberrange">WM_PORT_NUMBER_RANGE</a> structures allocated by the caller. Pass <b>NULL</b> to get the size of the array.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_port_number_range">WM_PORT_NUMBER_RANGE</a> structures allocated by the caller. Pass <b>NULL</b> to get the size of the array.
 
 
 ### -param pcRanges [in, out]

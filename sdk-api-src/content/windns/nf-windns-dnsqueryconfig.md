@@ -62,7 +62,7 @@ The
 
 ### -param Config [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_0">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
+A <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
 
 
 ### -param Flag [in]
@@ -186,11 +186,11 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_0">DNS_CONFIG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

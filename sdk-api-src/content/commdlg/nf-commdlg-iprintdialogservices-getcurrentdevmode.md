@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Fills a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Fills a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi
 
 Type: <b>LPDEVMODE</b>
 
-A pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure containing information about the currently selected printer.
+A pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the currently selected printer.
 
 
 ### -param pcbSize
@@ -101,7 +101,7 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

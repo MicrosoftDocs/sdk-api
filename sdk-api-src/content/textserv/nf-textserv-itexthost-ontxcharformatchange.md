@@ -61,7 +61,7 @@ Sets the default character format for the text host.
 
 ### -param pCF [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>*</b>
 
 The new default-character format. 
 
@@ -114,7 +114,7 @@ Unspecified error.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

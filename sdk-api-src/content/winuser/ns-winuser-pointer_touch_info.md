@@ -88,7 +88,7 @@ Type: <b>RECT</b>
 By default, if the device does not report a contact area, this field defaults to a 0-by-0 rectangle centered around the pointer location.
 
 
-The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. 
+The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. 
 
 
 ### -field rcContactRaw

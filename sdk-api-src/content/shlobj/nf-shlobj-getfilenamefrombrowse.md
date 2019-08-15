@@ -72,7 +72,7 @@ A handle to the window that owns the dialog box. This member can be any valid wi
 
 Type: <b>PWSTR</b>
 
-A null-terminated Unicode string that contains a file name used to initialize the File Name edit control. This string corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure's <b>lpstrFile</b> member and is used in exactly the same way.
+A null-terminated Unicode string that contains a file name used to initialize the File Name edit control. This string corresponds to the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure's <b>lpstrFile</b> member and is used in exactly the same way.
 
 
 ### -param cchFilePath
@@ -86,7 +86,7 @@ The number of characters in <i>pszFilePath</i>, including the terminating null c
 
 Type: <b>PCWSTR</b>
 
-The fully qualified file path of the initial directory. This string corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure's <b>lpstrInitialDir</b> member and is used in exactly the same way.
+The fully qualified file path of the initial directory. This string corresponds to the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure's <b>lpstrInitialDir</b> member and is used in exactly the same way.
 
 
 ### -param pszDefExt [in]
@@ -100,7 +100,7 @@ A null-terminated Unicode string that contains the default file name extension. 
 
 Type: <b>PCWSTR</b>
 
-A null-terminated Unicode string that defines the filter. This string corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure's <b>lpstrFilter</b> member and is used in exactly the same way.
+A null-terminated Unicode string that defines the filter. This string corresponds to the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure's <b>lpstrFilter</b> member and is used in exactly the same way.
 
 
 ### -param pszTitle [in, optional]

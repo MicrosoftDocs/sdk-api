@@ -76,7 +76,7 @@ Minimum number of bytes of data to be mapped in the mapped view.
 
 ### -param viewInfo [out]
 
-Pointer to a location that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0011">SimilarityMappedViewInfo</a> structure containing information about the mapped view.
+Pointer to a location that receives a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritymappedviewinfo">SimilarityMappedViewInfo</a> structure containing information about the mapped view.
 
 
 ## -returns

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>DSMCC_SECTION</b> structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> pointer to a <b>DSMCC_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
+The <b>DSMCC_SECTION</b> structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> pointer to a <b>DSMCC_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
 
 
 
@@ -156,7 +156,7 @@ Contains the remaining section data, as a byte array. The length of the array is
 
 
 
-This structure extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0008">LONG_SECTION</a> structure.
+This structure extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-long_section">LONG_SECTION</a> structure.
 
 
 

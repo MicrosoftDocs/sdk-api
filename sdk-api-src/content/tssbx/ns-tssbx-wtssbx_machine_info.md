@@ -61,7 +61,7 @@ Contains information about a computer and its current state.
 
 ### -field ClientConnectInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0006">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer.
+A <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer.
 
 
 ### -field wczFarmName
@@ -71,7 +71,7 @@ A Unicode string that contains the name of the farm in RD Connection Broker tha
 
 ### -field InternalIPAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0004">WTSSBX_IP_ADDRESS</a> structure that contains the internal IP address of this computer. RD Connection Broker uses this IP address for redirection purposes.
+A <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address">WTSSBX_IP_ADDRESS</a> structure that contains the internal IP address of this computer. RD Connection Broker uses this IP address for redirection purposes.
 
 
 ### -field dwMaxSessionsLimit
@@ -86,17 +86,17 @@ The server weight value of this computer. RD Connection Broker uses this value 
 
 ### -field SingleSessionMode
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0002">WTSSBX_MACHINE_SESSION_MODE</a> enumeration type that indicates the computer's session mode.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_session_mode">WTSSBX_MACHINE_SESSION_MODE</a> enumeration type that indicates the computer's session mode.
 
 
 ### -field InDrain
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0001">WTSSBX_MACHINE_DRAIN</a> enumeration type that indicates whether the computer is accepting new user sessions.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_drain">WTSSBX_MACHINE_DRAIN</a> enumeration type that indicates whether the computer is accepting new user sessions.
 
 
 ### -field MachineState
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0005">WTSSBX_MACHINE_STATE</a> enumeration type that indicates the state of the computer.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state">WTSSBX_MACHINE_STATE</a> enumeration type that indicates the state of the computer.
 
 
 ## -see-also

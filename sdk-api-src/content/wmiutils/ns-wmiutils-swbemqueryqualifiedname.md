@@ -107,7 +107,7 @@ Unused. Always <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
  
 
  

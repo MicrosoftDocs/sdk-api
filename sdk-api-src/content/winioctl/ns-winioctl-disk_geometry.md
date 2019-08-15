@@ -60,7 +60,7 @@ Describes the geometry of disk devices and media.
 
 ### -field Cylinders
 
-The number of cylinders. See <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>.
+The number of cylinders. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
 
 
 ### -field MediaType

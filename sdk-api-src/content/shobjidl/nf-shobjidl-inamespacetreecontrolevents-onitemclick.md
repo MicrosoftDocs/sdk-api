@@ -129,7 +129,7 @@ The click was on the tab button of the <a href="https://docs.microsoft.com/windo
 
 ### -param nstceClickType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
 
 Indicates which button was clicked and the kind of click. One of the following values:
 

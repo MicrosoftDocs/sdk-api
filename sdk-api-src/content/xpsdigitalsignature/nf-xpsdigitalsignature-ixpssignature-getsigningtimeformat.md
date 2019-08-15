@@ -61,7 +61,7 @@ Gets the format of the signing time.
 
 ### -param timeFormat [out, retval]
 
-The value of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a> that describes the format of the signing time.
+The value of <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> that describes the format of the signing time.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The interface is not connected to the signature manager.
 
 
 
-For more information about the  format of the date-time string that is returned  in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a>.
+For more information about the  format of the date-time string that is returned  in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
 
 
 
@@ -129,7 +129,7 @@ For more information about the  format of the date-time string that is returned 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
 
 
 

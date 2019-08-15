@@ -210,7 +210,7 @@ Specifies the identifier of the initial EAP packet sent by the DLL. This value i
 
 Pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
+<a href="https://docs.microsoft.com/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
 
 

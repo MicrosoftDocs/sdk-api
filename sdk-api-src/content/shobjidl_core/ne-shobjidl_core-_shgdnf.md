@@ -70,7 +70,7 @@ When not combined with another flag, return the parent-relative name that identi
 
 The name is relative to the folder from which the request was made. This is the name display to the user when used in the context of the folder. For example, it is used in the view and in the address bar path segment for the folder. This name should not include disambiguation information—for instance "<b>username</b>" instead of "<b>username</b> (on <i>Machine</i>)" for a particular user's folder.
 
-Use this flag in combinations with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
+Use this flag in combinations with <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
 
 
 ### -field SHGDN_FOREDITING

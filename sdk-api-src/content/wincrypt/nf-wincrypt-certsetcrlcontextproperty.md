@@ -172,7 +172,7 @@ Sets a <b>null</b>-terminated Unicode character string that contains the display
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -201,7 +201,7 @@ The following is an example:
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -240,7 +240,7 @@ This property is explicitly set by the verify revocation functions.
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure.
+Data type for <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 
 
@@ -372,7 +372,7 @@ Sets the SHA1 hash. You can compute the hash by using
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure.
+Data type of <i>pvData</i>: Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure.
 
 Sets the L”<i>&lt;SIGNATURE&gt;</i>/<i>&lt;HASH&gt;</i>” string representing the certificate signature. The <i>&lt;SIGNATURE&gt;</i> value identifies the CNG public key algorithm. The following algorithms are supported:
 

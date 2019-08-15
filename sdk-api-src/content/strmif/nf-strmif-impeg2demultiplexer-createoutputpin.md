@@ -65,7 +65,7 @@ The <code>CreateOutputPin</code> method creates a new output pin on the Demux.
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that specifies the media type information for the new pin.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type information for the new pin.
 
 
 ### -param pszPinName [in]

@@ -114,7 +114,7 @@ The following algorithm is used to reconstruct the text of the parameters of a m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_text_flag_type">WBEM_TEXT_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_text_flag_type">WBEM_TEXT_FLAG_TYPE</a>
  
 
  

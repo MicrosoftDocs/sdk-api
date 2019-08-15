@@ -85,13 +85,13 @@ The address of the first byte of the section when loaded into memory, relative t
 ### -field SizeOfRawData
 
 The size of the initialized data on disk, in bytes. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
 
 
 ### -field PointerToRawData
 
 A file pointer to the first page within the COFF file. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
 
 
 ### -field PointerToRelocations

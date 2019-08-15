@@ -73,7 +73,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/ADSI/ads
 
 ### -field dwADsType
 
-A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> enumeration that indicates the data type of the attribute.
+A value from the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates the data type of the attribute.
 
 
 ### -field pADsValues
@@ -116,7 +116,7 @@ The value of the <b>dwControlCode</b> member is ignored when the structure is us
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

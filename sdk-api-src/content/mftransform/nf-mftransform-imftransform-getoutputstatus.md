@@ -63,7 +63,7 @@ Queries whether the Media Foundation transform (MFT) is ready to produce output 
 
 ### -param pdwFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
+Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
           
 
 

@@ -66,7 +66,7 @@ The size of the structure, in bytes.
 
 ### -field dwExtentMode
 
-Indicates whether the sizing mode is content or integral sizing. See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagextentmode">DVEXTENTMODE</a> enumeration for possible values.
+Indicates whether the sizing mode is content or integral sizing. See the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a> enumeration for possible values.
 
 
 ### -field sizelProposed
@@ -79,7 +79,7 @@ The proposed size in content sizing or the preferred size in integral sizing.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagextentmode">DVEXTENTMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvextentmode">DVEXTENTMODE</a>
 
 
 

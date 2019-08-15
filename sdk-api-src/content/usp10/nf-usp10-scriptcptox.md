@@ -89,7 +89,7 @@ Pointer to the logical clusters.
 
 ### -param psva [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a> array of visual attributes.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> array of visual attributes.
 
 
 ### -param piAdvance [in]
@@ -99,7 +99,7 @@ Pointer to an advance widths value.
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member specifies the end of the run from which to measure the offset. If the flag is set, the leading edge of the run is used. If the flag is not set, the left end of the run is used.
 
 
 ### -param piX [out]
@@ -136,11 +136,11 @@ For scripts in which the caret is conventionally snapped to the boundaries of cl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

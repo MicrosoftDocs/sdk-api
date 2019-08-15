@@ -148,7 +148,7 @@ CIM object
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_cimtype_enumeration">CIMTYPE_ENUMERATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration">CIMTYPE_ENUMERATION</a>
 
 
 

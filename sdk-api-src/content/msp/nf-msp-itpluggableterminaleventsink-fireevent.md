@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>FireEvent</b> method results in a message that notifies the client application of a change in the pluggable terminal. For example, if the terminal is no longer available, the <b>event</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> structure is set to <b>ME_ADDRESS_EVENT</b> and the <b>type</b> member is set to <b>ADDRESS_TERMINAL_UNAVAILABLE</b>.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure is set to <b>ME_ADDRESS_EVENT</b> and the <b>type</b> member is set to <b>ADDRESS_TERMINAL_UNAVAILABLE</b>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param pMspEventInfo [in]
 
 Pointer to a const cast of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
  
 
  

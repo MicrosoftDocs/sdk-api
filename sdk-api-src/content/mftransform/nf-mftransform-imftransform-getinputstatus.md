@@ -69,7 +69,7 @@ Input stream identifier. To get the list of stream identifiers, call <a href="ht
 
 ### -param pdwFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_input_status_flags">_MFT_INPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_INPUT_STATUS_ACCEPT_DATA</b>, the stream specified in <i>dwInputStreamID</i> can accept more input data.
+Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_input_status_flags">_MFT_INPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_INPUT_STATUS_ACCEPT_DATA</b>, the stream specified in <i>dwInputStreamID</i> can accept more input data.
           
 
 

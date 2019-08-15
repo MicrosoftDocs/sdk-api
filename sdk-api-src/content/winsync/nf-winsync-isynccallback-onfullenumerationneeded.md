@@ -119,7 +119,7 @@ By default, if an application callback is not registered to receive this notific
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0004">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

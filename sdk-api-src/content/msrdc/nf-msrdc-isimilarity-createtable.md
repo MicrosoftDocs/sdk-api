@@ -81,7 +81,7 @@ The size, in bytes, of each file ID to be stored in the similarity file id table
 
 ### -param isNew [out]
 
-A pointer to  a variable that receives an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0009">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to  a variable that receives an  <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdccreatedtables">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns

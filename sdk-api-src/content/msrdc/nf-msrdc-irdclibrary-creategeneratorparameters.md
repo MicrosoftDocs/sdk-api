@@ -65,7 +65,7 @@ The
 ### -param parametersType [in]
 
 Specifies the type of signature generator for the created parameters, enumerated by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a> enumeration. The initial 
+    <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> enumeration. The initial 
   release of RDC only supports one type, <b>RDCGENTYPE_FilterMax</b>.
 
 
@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
 
 
 

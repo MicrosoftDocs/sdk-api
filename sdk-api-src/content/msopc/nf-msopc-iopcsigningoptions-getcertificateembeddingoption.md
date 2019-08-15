@@ -93,7 +93,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <i>embeddingOption</i> parameter is not a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0004">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
+The <i>embeddingOption</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0004">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
 
 
 

@@ -91,7 +91,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-c
 
 ### -field DigestValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
+A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
 
 
 ### -field cTransform

@@ -84,7 +84,7 @@ Pointer to an array of logical clusters from <a href="https://docs.microsoft.com
 
 ### -param psva [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a> structure from <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and updated by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structure from <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and updated by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
 
 
 ### -param piAdvance [in]
@@ -94,7 +94,7 @@ Pointer to an array of glyph advance widths from <a href="https://docs.microsoft
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure from <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> and updated by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure from <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> and updated by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
 
 
 ### -param pABC [in, out, optional]
@@ -132,11 +132,11 @@ This function can be used to reapply logical widths obtained with <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

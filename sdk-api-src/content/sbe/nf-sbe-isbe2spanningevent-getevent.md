@@ -167,7 +167,7 @@ The following types of in-band spanning events are defined.
 </tr>
 <tr>
 <td>EVENTID_RRTSpanningEvent</td>
-<td>Contains information about a rating region table (RRT). The data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> structure.</td>
+<td>Contains information about a rating region table (RRT). The data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_SignalAndServiceStatusSpanningEvent</td>

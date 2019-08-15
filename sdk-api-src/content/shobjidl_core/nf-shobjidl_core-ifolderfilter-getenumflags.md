@@ -84,7 +84,7 @@ A pointer to the host's window handle.
 
 Type: <b>DWORD*</b>
 
-One or more <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> values that specify the classes of object to enumerate.
+One or more <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> values that specify the classes of object to enumerate.
 
 
 ## -returns

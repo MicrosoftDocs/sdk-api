@@ -61,7 +61,7 @@ The <b>IADsNameTranslate::Set</b> method directs the directory service to set up
 
 ### -param lnSetType
 
-The format of the name of a directory object. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>.
+The format of the name of a directory object. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
 
 ### -param bstrADsPath
@@ -168,7 +168,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::Set</b> m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0050_0001">ADS_NAME_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

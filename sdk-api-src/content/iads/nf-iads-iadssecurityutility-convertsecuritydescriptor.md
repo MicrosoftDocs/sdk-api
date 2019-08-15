@@ -66,7 +66,7 @@ A <b>VARIANT</b> that contains the security descriptor to convert. The format of
 
 ### -param lDataFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor in the <i>varSD</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>varSD</i> parameter.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor in the <i>varSD</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>varSD</i> parameter.
 
 
 
@@ -89,7 +89,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads
 
 ### -param lOutFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a> values which specifies the format that the security descriptor should be converted to. The following list identifies the possible values for this parameter and the format of the <i>pvResult</i> parameter.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format that the security descriptor should be converted to. The following list identifies the possible values for this parameter and the format of the <i>pvResult</i> parameter.
 
 
 
@@ -129,11 +129,11 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0001">ADS_PATHTYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0088_0002">ADS_SD_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

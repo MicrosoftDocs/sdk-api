@@ -68,7 +68,7 @@ GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of
 
 ### -param ProviderContext [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
+A <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a> structure that contains pointers to the control callback, memory management routines, and context information.  
 
 
 ### -param Provider [out]

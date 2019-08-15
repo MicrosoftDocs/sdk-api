@@ -61,21 +61,21 @@ Initializes the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
 
-A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a> values. 
+A flag that specifies how the search is to be initialized. It is typically set to zero, but it can also take one of the following <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values. 
 					
                     
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_INIT_BYEXENAME</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_BYEXENAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_INIT_DEFAULTTOFOLDER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOFOLDER</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_INIT_DEFAULTTOSTAR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_INIT_DEFAULTTOSTAR</a>
 </li>
 </ul>
 
@@ -107,7 +107,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param hkProgid [in, optional]

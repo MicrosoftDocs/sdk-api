@@ -62,7 +62,7 @@ The <b>WinHttpCreateUrl</b> function creates a URL from component parts such as 
 ### -param lpUrlComponents [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_2">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
+<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
 
 
 ### -param dwFlags [in]
@@ -80,7 +80,7 @@ Flags that control the operation of this function. This parameter can be one of 
 </dl>
 </td>
 <td width="60%">
-Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_2">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
+Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
 
 
 

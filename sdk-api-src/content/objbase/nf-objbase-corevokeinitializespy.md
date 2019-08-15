@@ -66,7 +66,7 @@ Revokes a registered implementation of the <a href="https://docs.microsoft.com/w
 
 ### -param uliCookie [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a> cookie identifying the registration.
+A <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> cookie identifying the registration.
 
 
 ## -returns

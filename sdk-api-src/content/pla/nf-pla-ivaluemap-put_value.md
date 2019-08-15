@@ -67,9 +67,9 @@ This property is read/write.
 
 Depending on the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">IValueMap::ValueMapType</a> property, this value is either one of the values in the collection or the value derived by combining all the item values in the collection with the <b>OR</b> operator.
 
-The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> enumeration is <b>plaIndex</b>, <b>plaFlag</b> or <b>plaFlagArray</b>.
+The variant type is VT_UI8 if the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaIndex</b>, <b>plaFlag</b> or <b>plaFlagArray</b>.
 
-The variant type is VT_UI4 if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0008">ValueMapType</a> enumeration is <b>plaValidation</b>.
+The variant type is VT_UI4 if the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-valuemaptype">ValueMapType</a> enumeration is <b>plaValidation</b>.
 
 
 

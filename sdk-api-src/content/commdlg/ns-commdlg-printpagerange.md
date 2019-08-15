@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpdexa">PRINTDLGEX</a> structure when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function.
+Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlgexa">PRINTDLGEX</a> structure when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function.
 
 
 ## -struct-fields

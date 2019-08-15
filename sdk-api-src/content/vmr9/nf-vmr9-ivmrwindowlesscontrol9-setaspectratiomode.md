@@ -65,7 +65,7 @@ The <code>SetAspectRatioMode</code> method sets the current aspect ratio display
 
 ### -param AspectRatioMode [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0004_0001">VMR9AspectRatioMode</a> value that specifies the aspect ratio mode.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9aspectratiomode">VMR9AspectRatioMode</a> value that specifies the aspect ratio mode.
 
 
 ## -returns

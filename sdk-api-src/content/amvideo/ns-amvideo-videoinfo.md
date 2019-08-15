@@ -116,7 +116,7 @@ Array of <b>DWORD</b> values that specify true-color bitmasks.
 ### -field TrueColorInfo
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tag_truecolorinfo">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-truecolorinfo">TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
             
 
 

@@ -61,7 +61,7 @@ The <b>MoFreeMediaType</b> function frees the allocated members of a media type 
 
 ### -param pmt
 
-Pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure.
+Pointer to an initialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Success
 
 
 
-Call this function to free a format block that was allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-moinitmediatype">MoInitMediaType</a> function. This function frees the <b>pbFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype">DMO_MEDIA_TYPE</a> structure and sets <b>pbFormat</b> to <b>NULL</b>. The function does not reset the <b>cbFormat</b> member to zero, however, so if you re-use the <b>DMO_MEDIA_TYPE</b> structure, you should set <b>cbFormat</b> to zero.
+Call this function to free a format block that was allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-moinitmediatype">MoInitMediaType</a> function. This function frees the <b>pbFormat</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure and sets <b>pbFormat</b> to <b>NULL</b>. The function does not reset the <b>cbFormat</b> member to zero, however, so if you re-use the <b>DMO_MEDIA_TYPE</b> structure, you should set <b>cbFormat</b> to zero.
 
 
 

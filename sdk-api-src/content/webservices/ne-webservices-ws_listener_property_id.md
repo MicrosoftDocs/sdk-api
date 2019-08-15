@@ -271,7 +271,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
-The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_URL_MATCHING_OPTIONS</a>) which
+The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
                     specify how to match the URL in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_TO_HEADER</a> of any received messages.
                 
 
@@ -293,7 +293,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
 
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
-The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_URL_MATCHING_OPTIONS</a>) which
+The property value contains a set of flags (see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id">WS_URL_MATCHING_OPTIONS</a>) which
                     specify how to match the transport URL of any accepted channels.  See
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_TRANSPORT_URL</a> for more information on the transport URL.
                 

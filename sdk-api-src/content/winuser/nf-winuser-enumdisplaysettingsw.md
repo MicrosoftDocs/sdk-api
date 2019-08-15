@@ -111,9 +111,9 @@ When you call <b>EnumDisplaySettings</b> with <i>iModeNum</i> set to zero, the o
 
 ### -param lpDevMode [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettings</b>, set the <b>dmSize</b> member to <code>sizeof(DEVMODE)</code>, and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettings</b>, set the <b>dmSize</b> member to <code>sizeof(DEVMODE)</code>, and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
 
-The <b>EnumDisplaySettings</b> function sets values for the following five <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> members:
+The <b>EnumDisplaySettings</b> function sets values for the following five <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members:
 
 <ul>
 <li><b>dmBitsPerPel</b></li>
@@ -167,7 +167,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

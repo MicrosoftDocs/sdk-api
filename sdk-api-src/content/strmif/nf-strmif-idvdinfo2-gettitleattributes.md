@@ -75,7 +75,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 ### -param pTitle [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_titlemainattributes">DVD_TitleAttributes</a> structure that receives the attributes of the specified title.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure that receives the attributes of the specified title.
 
 
 ## -returns

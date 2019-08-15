@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 Gets the pen-based information associated with the individual inputs, if any, that were coalesced into 
     the current message for the specified pointer (of type 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>). The most recent input is included in 
+    <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>). The most recent input is included in 
     the returned history and is the same as the most recent input returned by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
 
@@ -109,7 +109,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the application does not process pointer input messages as fast as they are generated, some moves may be 
     coalesced. When an application receives a coalescable pointer (of type 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) message, it can use the 
+    <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) message, it can use the 
     <b>GetPointerPenInfoHistory</b> function to 
     retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the 
     information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once 
@@ -135,7 +135,7 @@ If the calling thread does not own the window (where the input was originally de
     <b>ERROR_ACCESS_DENIED</b>.
 
 If the specified pointer is not of type 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last 
+    <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last 
      error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 

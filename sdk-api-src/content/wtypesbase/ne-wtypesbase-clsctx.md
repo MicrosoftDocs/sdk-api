@@ -411,7 +411,7 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-bind_opts2~r1">BIND_OPTS2</a>
 
 
 
