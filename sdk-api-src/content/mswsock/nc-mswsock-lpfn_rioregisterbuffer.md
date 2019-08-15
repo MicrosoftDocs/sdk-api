@@ -59,14 +59,14 @@ The length, in bytes, in the buffer to register.
 
 ## -returns
 
-If no error occurs, the **RIORegisterBuffer** function returns a registered buffer descriptor. Otherwise, a value of **RIO\_INVALID\_BUFFERID** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](wsagetlasterror-2.md) function.
+If no error occurs, the **RIORegisterBuffer** function returns a registered buffer descriptor. Otherwise, a value of **RIO\_INVALID\_BUFFERID** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) function.
 
 
 
 | Return code                                                                                                                             | Description                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md#wsaefault)**</dt> </dl> | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if an invalid buffer pointer is passed in *DataBuffer* parameter.<br/> |
-| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md#wsaeinval)**</dt> </dl> | An invalid parameter was passed to the function. <br/> This error is returned if the *DataLength* parameter is zero.<br/>                                                                 |
+| <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl> | The system detected an invalid pointer address in attempting to use a pointer argument in a call. This error is returned if an invalid buffer pointer is passed in *DataBuffer* parameter.<br/> |
+| <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl> | An invalid parameter was passed to the function. <br/> This error is returned if the *DataLength* parameter is zero.<br/>                                                                 |
 
 
 
@@ -84,7 +84,7 @@ A portion of a registered buffer is passed to the [**RIOSend**](riosend.md), [**
 When the buffer identifier is no longer needed, call the [**RIODeregisterBuffer**](rioderegisterbuffer.md) function to deregister the buffer identifier.
 
 > [!Note]  
-> The function pointer to the **RIORegisterBuffer** function must be obtained at run time by making a call to the [**WSAIoctl**](wsaioctl-2.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](rio-extension-function-table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIORegisterBuffer** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](rio-extension-function-table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 

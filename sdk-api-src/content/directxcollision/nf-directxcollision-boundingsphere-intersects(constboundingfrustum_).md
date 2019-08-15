@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Test the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> for intersection with a <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+Test the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) for intersection with a [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Test the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07
 
 ### -param fr [in, ref]
 
-The <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> to test for intersection.
+The [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) to test for intersection.
 
 
 ## -returns
 
 
 
-A bool value indicating whether the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> intersects the specified <b>BoundingSphere</b>.
+A bool value indicating whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) intersects the specified <b>BoundingSphere</b>.
 
 
 
@@ -87,7 +87,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
+[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the corners making up the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+Gets the corners making up the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

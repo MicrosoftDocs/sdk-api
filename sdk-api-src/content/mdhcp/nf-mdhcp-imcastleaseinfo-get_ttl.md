@@ -47,31 +47,20 @@ ms.custom: 19H1
 
 # IMcastLeaseInfo::get_TTL
 
-
 ## -description
-
 
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
- The 
-<b>get_TTL</b> method obtains the 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) value associated with this lease.
-
+The <b>get_TTL</b> method obtains the <a href="/windows/win32/tapi/t-tapgloss">time to live</a> (TTL) value associated with this lease.
 
 ## -parameters
-
-
-
 
 ### -param pTTL [out]
 
 Pointer to a <b>LONG</b> that will receive the TTL value associated with this lease.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,29 +103,13 @@ There is no TTL associated with this lease.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The TTL is more or less significant in the implementation of multicast routing. Generally, the higher the TTL value, the "larger" or more inclusive the multicast scope. Most applications need not address the TTL.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
- 
-
- 
-

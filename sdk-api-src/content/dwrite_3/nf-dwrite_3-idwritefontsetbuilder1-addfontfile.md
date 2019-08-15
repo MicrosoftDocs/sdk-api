@@ -81,16 +81,9 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
+[Creating a custom font set using font data loaded into memory](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-font-data-loaded-into-memory)
 
-
-
-<a href="directwrite.custom_font_sets_win10#creating_a_custom_font_set_using_font_data_loaded_into_memory">Creating a custom font set using font data loaded into memory</a>
-
-
-
-<a href="directwrite.custom_font_sets_win10#creating_a_font_set_using_arbitrary_fonts_in_the_local_file_system">Creating a font set using arbitrary fonts in the local file system</a>
-
-
+[Creating a font set using arbitrary fonts in the local file system](/windows/win32/directwrite/custom-font-sets-win10#creating-a-font-set-using-arbitrary-fonts-in-the-local-file-system)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1">IDWriteFontSetBuilder1</a>
  

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> contains the specified <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+Tests whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) contains the specified [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Tests whether the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0e
 
 ### -param fr [in, ref]
 
-The <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> to test against.
+The [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to test against.
 
 
 ## -returns
 
 
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> is contained in the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>.
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) is contained in the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere).
 
 
 
@@ -87,7 +87,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
+[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 
 
 

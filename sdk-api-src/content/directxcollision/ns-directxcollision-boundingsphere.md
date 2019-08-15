@@ -106,7 +106,7 @@ Creates a <b>BoundingSphere</b> that contains the two specified <b>BoundingSpher
 
 ### -field CreateFromBoundingBox
 
-Creates a <b>BoundingSphere</b> containing the specified <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+Creates a <b>BoundingSphere</b> containing the specified [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 ### -field CreateFromPoints

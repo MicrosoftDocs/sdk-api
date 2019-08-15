@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+Creates an instance of [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A **BoundingFrustum** to use to initialize the new **BoundingFrustum**.
 
 #### - fr [in, ref]
 
-A <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> to use to initialize the new <b>BoundingFrustum</b>.
+A [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to use to initialize the new <b>BoundingFrustum</b>.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

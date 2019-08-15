@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from a left-handed projection matrix.For more info, see <a href="https://msdn.microsoft.com/1ba87281-0415-45b7-bdf8-36d5be704649">BoundingFrustum::CreateFromMatrix</a>. 
+Creates an instance of [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from a left-handed projection matrix.For more info, see <a href="https://msdn.microsoft.com/1ba87281-0415-45b7-bdf8-36d5be704649">BoundingFrustum::CreateFromMatrix</a>. 
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

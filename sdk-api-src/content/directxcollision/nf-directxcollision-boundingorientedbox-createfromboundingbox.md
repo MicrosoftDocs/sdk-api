@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from a <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from a [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The new <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3
 
 ### -param box [in, ref]
 
-The <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a> the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> should contain.
+The [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> should contain.
 
 
 ## -returns

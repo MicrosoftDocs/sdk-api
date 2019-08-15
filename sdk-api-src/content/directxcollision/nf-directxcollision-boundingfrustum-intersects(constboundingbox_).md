@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Test the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> for intersection with a <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with a [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 ## -parameters
@@ -61,15 +61,15 @@ Test the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51
 ### -param box [in, ref]
 
 The 
-      <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a> to test for intersection.
+      [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) to test for intersection.
 
 
 ## -returns
 
 
 
-A boolean value indicating whether the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> intersects the 
-      specified <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+A boolean value indicating whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) intersects the 
+      specified [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 
@@ -89,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

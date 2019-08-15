@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1
 
 ### -param box [in, ref]
 
-The <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a> to test for intersection.
+The [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) to test for intersection.
 
 
 ## -returns
 
 
 
-A boolean value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> intersects the <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+A boolean value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> intersects the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 

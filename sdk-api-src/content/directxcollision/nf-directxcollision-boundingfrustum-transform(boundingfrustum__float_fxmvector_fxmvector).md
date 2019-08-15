@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Transforms the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> using the specified scale, rotation and translation vectors.
+Transforms the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) using the specified scale, rotation and translation vectors.
 
 
 ## -parameters
@@ -60,22 +60,22 @@ Transforms the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E
 
 ### -param Out [out, ref]
 
-The transformed <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+The transformed [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ### -param Scale [in]
 
-The value to scale the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> by.
+The value to scale the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
 
 
 ### -param Rotation [in]
 
-The value to rotate the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> by.
+The value to rotate the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
 
 
 ### -param Translation [in]
 
-The value to translate the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> by.
+The value to translate the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
 
 
 ## -returns
@@ -102,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

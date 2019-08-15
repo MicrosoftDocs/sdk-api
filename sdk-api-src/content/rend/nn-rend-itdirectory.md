@@ -136,7 +136,7 @@ Creates an enumeration of directory objects of a given type and name.
 </td>
 <td align="left" width="63%">
 Gets the default 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) for the objects created.
+<a href="/windows/win32/tapi/t-tapgloss">time to live</a> (TTL) for the objects created.
 
 </td>
 </tr>

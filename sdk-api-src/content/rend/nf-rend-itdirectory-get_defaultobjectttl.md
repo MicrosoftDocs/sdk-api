@@ -56,7 +56,7 @@ provides similar functionality.]
 
 The 
 <b>get_DefaultObjectTTL</b> method gets the default 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
+<a href="/windows/win32/tapi/t-tapgloss">time to live</a> (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
 
 
 ## -parameters

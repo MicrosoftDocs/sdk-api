@@ -56,7 +56,7 @@ provides similar functionality.]
 
 The 
 <b>RefreshDirectoryObject</b> method refreshes the 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) for an object on the server. Only applies to dynamic servers.
+<a href="/windows/win32/tapi/t-tapgloss">time to live</a> (TTL) for an object on the server. Only applies to dynamic servers.
 
 
 ## -parameters

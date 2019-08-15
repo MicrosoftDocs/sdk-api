@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Test the <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a> for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Test the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">Bo
 
 
 
-A boolean value indicating whether the <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a> intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A boolean value indicating whether the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 
@@ -87,7 +87,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
+[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> contains a <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>.
+Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> contains a [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere).
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Tests whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6a
 
 ### -param sh [in, ref]
 
-The <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> to test against.
+The [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) to test against.
 
 
 ## -returns
 
 
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> indicating whether the <a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a> is contained in the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> indicating whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) is contained in the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
 
 
 
