@@ -80,7 +80,7 @@ A handle to a named pipe.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -89,10 +89,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>ImpersonateNamedPipeClient</b> function allows the server end of a named pipe to impersonate the client end. When this function is called, the named-pipe file system changes the thread of the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> to start impersonating the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> of the last message read from the pipe. Only the server end of the pipe can call this function.
+The <b>ImpersonateNamedPipeClient</b> function allows the server end of a named pipe to impersonate the client end. When this function is called, the named-pipe file system changes the thread of the calling <a href="/windows/win32/SecGloss/p-gly">process</a> to start impersonating the <a href="/windows/win32/SecGloss/s-gly">security context</a> of the last message read from the pipe. Only the server end of the pipe can call this function.
 
 The server can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a> function when the impersonation is complete.
+<a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a> function when the impersonation is complete.
 
 <div class="alert"><b>Important</b>  If the <b>ImpersonateNamedPipeClient</b> function fails, the client is not impersonated, and all subsequent client requests are made in the security context of the process that called the function. If the calling process is running as a privileged account, it can perform actions that the client would not be allowed to perform. To avoid security risks, the calling process should always check the return value. If the return value indicates that the function call failed, no client requests should be executed.</div>
 <div> </div>
@@ -103,7 +103,7 @@ All impersonate functions, including <b>ImpersonateNamedPipeClient</b> allow the
 <ul>
 <li>The requested impersonation level of the token is less than <b>SecurityImpersonation</b>, such as <b>SecurityIdentification</b> or <b>SecurityAnonymous</b>.</li>
 <li>The caller has the <b>SeImpersonatePrivilege</b> privilege.</li>
-<li>A process (or another process in the caller's logon session) created the token using explicit credentials through <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.</li>
+<li>A process (or another process in the caller's logon session) created the token using explicit credentials through <a href="/windows/win32/api/winbase/nf-winbase-logonusera">LogonUser</a> or <a href="/windows/win32/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.</li>
 <li>The authenticated identity is same as the caller.</li>
 </ul>
 <b>Windows XP with SP1 and earlier:  </b>The <b>SeImpersonatePrivilege</b> privilege is not supported.
@@ -112,7 +112,7 @@ All impersonate functions, including <b>ImpersonateNamedPipeClient</b> allow the
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/verifying-client-access-with-acls-in-c--">Verifying Client Access with ACLs</a>.
+     <a href="/windows/win32/SecAuthZ/verifying-client-access-with-acls-in-c--">Verifying Client Access with ACLs</a>.
 
 <div class="code"></div>
 
@@ -123,23 +123,23 @@ For an example that uses this function, see
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="/windows/win32/secauthz/authorization-functions">Authorization functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/win32/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>
+<a href="/windows/win32/api/ddeml/nf-ddeml-ddeimpersonateclient">DdeImpersonateClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>
+<a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
+<a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
  
 
  

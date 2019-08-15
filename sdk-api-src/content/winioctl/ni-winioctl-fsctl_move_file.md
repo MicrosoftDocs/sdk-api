@@ -177,7 +177,7 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 For a list of files, streams, and stream types supported by the 
     <b>FSCTL_MOVE_FILE</b> control code, see the 
-    <a href="defragmenting_files.htm">Files, streams, and stream types supported for defragmentation</a> 
+    <a href="/windows/win32/fileio/defragmenting-files#files-streams-and-stream-types-supported-for-defragmentation">Files, streams, and stream types supported for defragmentation</a> 
     section of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a> 
     topic.
 

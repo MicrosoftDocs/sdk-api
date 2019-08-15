@@ -69,7 +69,7 @@ Disconnects the server end of a named pipe instance from a client process.
 ### -param hNamedPipe [in]
 
 A handle to an instance of a named pipe. This handle must be created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A handle to an instance of a named pipe. This handle must be created by the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,15 +90,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the client end of the named pipe is open, the 
 <b>DisconnectNamedPipe</b> function forces that end of the named pipe closed. The client receives an error the next time it attempts to access the pipe. A client that is forced off a pipe by 
-<b>DisconnectNamedPipe</b> must still use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close its end of the pipe.
+<b>DisconnectNamedPipe</b> must still use the <a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close its end of the pipe.
 
 The pipe exists as long as a server or client process has an open handle to the pipe.
 
-When the server process disconnects a pipe instance, any unread data in the pipe is discarded. Before disconnecting, the server can make sure data is not lost by calling the <a href="base.flushfilebuffers">FlushFileBuffers</a> function, which does not return until the client process has read all the data.
+When the server process disconnects a pipe instance, any unread data in the pipe is discarded. Before disconnecting, the server can make sure data is not lost by calling the <a href="/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function, which does not return until the client process has read all the data.
 
 The server process must call 
 <b>DisconnectNamedPipe</b> to disconnect a pipe handle from its previous client before the handle can be connected to another client by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function.
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function.
 
 <b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
 
@@ -106,7 +106,7 @@ The server process must call
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/multithreaded-pipe-server">Multithreaded Pipe Server</a>.
+<a href="/windows/win32/ipc/multithreaded-pipe-server">Multithreaded Pipe Server</a>.
 
 <div class="code"></div>
 
@@ -117,27 +117,27 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="base.flushfilebuffers">FlushFileBuffers</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/win32/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/win32/ipc/pipes">Pipes Overview</a>
  
 
  
