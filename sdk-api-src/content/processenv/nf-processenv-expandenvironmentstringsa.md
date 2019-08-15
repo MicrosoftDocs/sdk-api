@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 Expands environment-variable strings and replaces them with the values defined for the current user.
 
-To specify the environment block for a particular user or the system, use the <a href="_shell_expandenvironmentstringsforuser">ExpandEnvironmentStringsForUser</a> function.
+To specify the environment block for a particular user or the system, use the <a href="/windows/win32/api/userenv/nf-userenv-expandenvironmentstringsforusera">ExpandEnvironmentStringsForUser</a> function.
 
 
 ## -parameters
