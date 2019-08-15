@@ -47,16 +47,13 @@ ms.custom: 19H1
 
 # ID3D12ProtectedSession interface
 
-
 ## -description
 
-
-Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.  The different types of sessions are <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>, <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a>, and <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>.
-
+Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions. The different types of sessions is of type [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedSession</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedSession</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +68,7 @@ The <b>ID3D12ProtectedSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the protected session.
@@ -80,23 +77,15 @@ Gets the status of the protected session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
 </td>
 <td align="left" width="63%">
-Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
+Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
 
 </td>
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
- 
-
- 
-
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>

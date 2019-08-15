@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 # IDWriteInMemoryFontFileLoader interface
 
-
 ## -description
-
 
 Represents a font file loader that can access in-memory fonts. 
         The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader">IDWriteFactory5::CreateInMemoryFontFileLoader</a> method returns an instance of this interface,
@@ -96,18 +94,8 @@ Returns the number of font file references that have been created using this loa
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
-<a href="directwrite.custom_font_sets_win10#creating_a_custom_font_set_using_font_data_loaded_into_memory">Creating a custom font set using font data loaded into memory</a>
-
-
+[Creating a custom font set using font data loaded into memory](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-font-data-loaded-into-memory)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
- 
-
- 
-

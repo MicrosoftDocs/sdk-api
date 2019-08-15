@@ -47,49 +47,28 @@ ms.custom: 19H1
 
 # D3D11_SHADER_CACHE_SUPPORT_FLAGS enumeration
 
-
 ## -description
-
 
 Describes the level of support for shader caching in the current graphics driver.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_SHADER_CACHE_SUPPORT_NONE
 
 Indicates that the driver does not support shader caching.
 
-
 ### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders in memory during the current run of the application.
-
 
 ### -field D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE
 
 Indicates that the driver supports an OS-managed shader cache that stores compiled shaders on disk to accelerate future runs of the application.
 
-
 ## -remarks
 
-
-
-This enum is used by the <a href="direct3d11d3d11_feature_data_shader_cache">D3D_FEATURE_DATA_SHADER_CACHE</a> structure.
-
-
-
+This enum is used by the [D3D11_FEATURE_DATA_SHADER_CACHE](/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache) structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
- 
-
- 
-
+[Core structures](/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-structures)

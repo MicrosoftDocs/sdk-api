@@ -102,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
+[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 
 
 

@@ -48,24 +48,17 @@ ms.custom: 19H1
 
 # IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
 
-
 ## -description
-
 
 Creates a font file reference from a URL if the loader supports this capability.
 
-
 ## -parameters
-
-
-
 
 ### -param factory
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>*</b>
 
 Factory used to create the font file reference.
-
 
 ### -param baseUrl
 
@@ -74,13 +67,11 @@ Type: <b>WCHAR</b>
 Optional base URL. The base URL is used to resolve the fontFileUrl if it is relative. For example, the baseUrl might be the URL of the referring document
           that contained the fontFileUrl.
 
-
 ### -param fontFileUrl [in]
 
 Type: <b>WCHAR</b>
 
 URL of the font resource.
-
 
 ### -param fontFile [out]
 
@@ -88,38 +79,18 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrit
 
 Receives a pointer to the newly created font file reference.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
-
-
-
 ## -remarks
-
-
 
 If baseUrl is a non-empty string, then baseUrl concatenated with fontFileUrl should form a valid URL, DirectWrite will not supply any additional delimiter.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="directwrite.custom_font_sets_win10#creating_a_custom_font_set_using_known_remote_fonts_on_the_Web">Creating a custom font set using known, remote fonts on the Web</a>
-
-
+[Creating a custom font set using known, remote fonts on the Web](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>
- 
-
- 
-

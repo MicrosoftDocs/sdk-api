@@ -47,27 +47,18 @@ ms.custom: 19H1
 
 # IBackgroundCopyJob::GetState
 
-
 ## -description
-
 
 Retrieves the state of the job.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 The state of the job. For example, the state reflects whether the job is in error, transferring data, or suspended. For a list of job states, see the 
 <a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a> enumeration.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -99,43 +90,16 @@ The parameter, <i>pJobState</i>, cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you want to know when a job is in error or has transferred all the files in the job, you can use this method to poll for the state of the job or you can register to receive notification when  events occur. For details on registering to receive event notification, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
 
+## Examples
 
-#### Examples
-
-See the example code for the 
-<a href="windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
-
-<div class="code"></div>
-
-
+See the example code for the [IBackgroundCopyManager::GetJob](/windows/win32/api/bits/nf-bits-ibackgroundcopymanager-getjob) method.
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a>
-
-
-
-<a href="/windows/desktop/Bits/determining-the-status-of-a-job">Determining the Status of a Job</a>
-
-
-
-<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
- 
-
- 
-
+[BG_JOB_STATE](/windows/desktop/api/bits/ne-bits-bg_job_state), [Determining the status of a job](/windows/desktop/Bits/determining-the-status-of-a-job), [IBackgroundCopyCallback](/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback)

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from the specified projection matrix.
+Creates a [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from the specified projection matrix.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Creates a <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F5
 
 ### -param Out [out, ref]
 
-The new <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+The new [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
 
 
 ### -param Projection [in]
 
-The left-handed projection matrix to create the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from.
+The left-handed projection matrix to create the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 
 
 

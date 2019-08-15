@@ -80,7 +80,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
+[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
 
 
 

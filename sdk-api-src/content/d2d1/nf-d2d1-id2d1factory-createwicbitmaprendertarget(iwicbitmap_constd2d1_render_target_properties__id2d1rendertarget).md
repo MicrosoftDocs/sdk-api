@@ -99,17 +99,8 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d
 
 Your application should create render targets once and hold onto them for the life of the application or until the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error is received. When you receive this error, you need to recreate the render target (and any resources it created).
 
-<div class="os_icon_block">
-<ul class="os_icon_images">
-<li><img alt="Applies to Windows Phone" src="../common/phone.png"/></li>
-</ul>
-<div class="os_icon_content_block">
-<b>Note</b>    This method isn't supported on Windows Phone and will fail when called on a device with error code 0x8899000b  (“There is no hardware rendering device available for this operation”). Because the Windows Phone Emulator supports WARP rendering,  this method will fail when called on the emulator with a different error code, 0x88982f80  (wincodec_err_unsupportedpixelformat).
-
-</div>
-</div>
-
-
+> [!NOTE]
+> This method isn't supported on Windows Phone, and will fail when called on a device with error code 0x8899000b  (“There is no hardware rendering device available for this operation”). Because the Windows Phone Emulator supports WARP rendering,  this method will fail when called on the emulator with a different error code, 0x88982f80  (wincodec_err_unsupportedpixelformat).
 
 ## -see-also
 

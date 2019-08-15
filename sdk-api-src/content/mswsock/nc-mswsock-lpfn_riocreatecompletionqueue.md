@@ -67,13 +67,13 @@ If the *NotificationCompletion* parameter is NULL, this specifies no notificatio
 
 ## -returns
 
-If no error occurs, the **RIOCreateCompletionQueue** function returns a descriptor referencing a new completion queue. Otherwise, a value of **RIO\_INVALID\_CQ** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](wsagetlasterror-2.md) function.
+If no error occurs, the **RIOCreateCompletionQueue** function returns a descriptor referencing a new completion queue. Otherwise, a value of **RIO\_INVALID\_CQ** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) function.
 
 | Return code                                                                                                                               | Description                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md#wsaefault)**</dt> </dl>   | The system detected an invalid pointer address in attempting to use a pointer argument in a call.<br/>                                                                                                                 |
-| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md#wsaeinval)**</dt> </dl>   | An invalid parameter was passed to the function. <br/> This error is returned if the *QueueSize* parameter is less than 1 or greater than **RIO\_MAX\_CQ\_SIZE** defined in the *Mswsockdef.h* header file.<br/> |
-| <dl> <dt>**[WSAENOBUFS](windows-sockets-error-codes-2.md#wsaenobufs)**</dt> </dl> | Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the completion queue requested based on the *QueueSize* parameter. <br/>                                 |
+| <dl> <dt>**[WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault)**</dt> </dl>   | The system detected an invalid pointer address in attempting to use a pointer argument in a call.<br/>                                                                                                                 |
+| <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>   | An invalid parameter was passed to the function. <br/> This error is returned if the *QueueSize* parameter is less than 1 or greater than **RIO\_MAX\_CQ\_SIZE** defined in the *Mswsockdef.h* header file.<br/> |
+| <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl> | Sufficient memory could not be allocated. This error is returned if there was insufficient memory to allocate the completion queue requested based on the *QueueSize* parameter. <br/>                                 |
 
 
 ## -remarks
@@ -99,7 +99,7 @@ In terms of its usage, completion queue notification is designed to wake up a wa
  
 
 > [!Note]  
-> The function pointer to the **RIOCreateCompletionQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](wsaioctl-2.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](rio-extension-function-table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIOCreateCompletionQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](rio-extension-function-table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 

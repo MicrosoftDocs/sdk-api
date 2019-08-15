@@ -48,17 +48,11 @@ ms.custom: 19H1
 
 # IDWriteFactory5::CreateHttpFontFileLoader
 
-
 ## -description
-
 
 Creates a remote font file loader that can create font file references from HTTP or HTTPS URLs. The caller is responsible for registering and unregistering the loader.
 
-
 ## -parameters
-
-
-
 
 ### -param referrerUrl
 
@@ -66,14 +60,11 @@ Type: <b>wchar_t const*</b>
 
 Optional referrer URL for HTTP requests.
 
-
 ### -param extraHeaders
 
 Type: <b>wchar_t const*</b>
 
-Optional additional header fields to include in HTTP requests. Each header field consists of a name followed by a colon (":") and the field value,
-          as specified by RFC 2616. Multiple header fields may be separated by newlines.
-
+Optional additional header fields to include in HTTP requests. Each header field consists of a name followed by a colon (":") and the field value, as specified by RFC 2616. Multiple header fields may be separated by newlines.
 
 ### -param newLoader [out]
 
@@ -81,29 +72,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwr
 
 Receives a pointer to the newly-created loader object.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns an HRESULT success or error code.
-
-
-
+This method returns an **HRESULT** success or error code.
 
 ## -see-also
 
-
-
-
-<a href="directwrite.custom_font_sets_win10#creating_a_custom_font_set_using_known_remote_fonts_on_the_Web">Creating a custom font set using known, remote fonts on the Web</a>
-
-
+[Creating a custom font set using known, remote fonts on the Web](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a>
- 
-
- 
-

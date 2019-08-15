@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EapUsernamePasswordCredential
-title: EapUsernamePasswordCredential (eaptypes.h)
+title: EapUsernamePasswordCredential
 author: windows-sdk-content
 description: Contains the username and password that is used by the EAP method for authenticating the user.
 old-location: eaphost\eapusernamepasswordcredential.htm
@@ -8,10 +8,11 @@ tech.root: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
+ms.keywords: _EapUsernamePasswordCredential, EapUsernamePasswordCredential
 ms.topic: struct
-f1_keywords:
-- eaptypes/EapUsernamePasswordCredential
+f1_keywords: 
+ - "eaptypes/_EapUsernamePasswordCredential"
+req.construct-type: structure
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +31,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
-- APIRef
-- kbSyntax
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- eaptypes.h
+ - eaptypes.h
 api_name:
-- EapUsernamePasswordCredential
+ - _EapUsernamePasswordCredential
+ - EapUsernamePasswordCredential
 product: Windows
 targetos: Windows
 req.typenames: EapUsernamePasswordCredential
@@ -47,39 +48,22 @@ ms.custom: 19H1
 
 # EapUsernamePasswordCredential structure
 
-
 ## -description
-
 
 The <b>EapUsernamePasswordCredential</b> structure contains the username and password that is used by the EAP method for authenticating the user.
 
-
 ## -struct-fields
-
-
-
 
 ### -field username
 
 A NULL-terminated Unicode string that contains the username that needs authentication. The username uses the format user@domain or domain\user.
 
-
 ### -field password
 
 A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the <a href="EapUsernamePasswordCredential ">CredProtect</a> function. The EAP method must use the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta">CredUnprotect</a> function to retrieve the unencrypted password.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
- 
-
- 
-

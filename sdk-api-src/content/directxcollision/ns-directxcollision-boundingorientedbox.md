@@ -116,7 +116,7 @@ Tests whether the <b>BoundingOrientedBox</b> is contained by a frustum.
 
 ### -field CreateFromBoundingBox
 
-Creates a <b>BoundingOrientedBox</b> from a <a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>.
+Creates a <b>BoundingOrientedBox</b> from a [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
 
 
 ### -field CreateFromPoints

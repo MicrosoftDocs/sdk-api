@@ -47,29 +47,20 @@ ms.custom: 19H1
 
 # D3D12_STATE_OBJECT_DESC structure
 
-
 ## -description
 
-
-Description of a state object. Pass this structure into <a href="nf-d3d12-id3d12device5-createstateobject">ID3D12Device5::CreateStateObject</a>.
-
+Description of a state object. Pass a value of this structure type to [ID3D12Device5::CreateStateObject](/windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject).
 
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of the state object.
 
-
 ### -field NumSubobjects
 
 Size of the <i>pSubobjects</i> array.
 
-
 ### -field pSubobjects
 
 An array of subobject definitions.
-
