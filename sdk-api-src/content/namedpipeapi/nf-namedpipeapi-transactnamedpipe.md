@@ -69,14 +69,14 @@ Combines the functions that write a message to and read a message from the speci
 ### -param hNamedPipe [in]
 
 A handle to the named pipe returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> or 
-<a href="base.createfile">CreateFile</a> function. 
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> or 
+<a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function. 
 
 
 
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
 
 
 ### -param lpInBuffer [in]
@@ -109,26 +109,26 @@ A pointer to the variable that receives the number of bytes read from the pipe.
 If <i>lpOverlapped</i> is <b>NULL</b>, <i>lpBytesRead</i> cannot be <b>NULL</b>.
 
 If <i>lpOverlapped</i> is not <b>NULL</b>, <i>lpBytesRead</i> can be <b>NULL</b>. If this is an overlapped read operation, you can get the number of bytes read by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. If <i>hNamedPipe</i> is associated with an I/O completion port, you can get the number of bytes read by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
+<a href="/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. If <i>hNamedPipe</i> is associated with an I/O completion port, you can get the number of bytes read by calling 
+<a href="/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
 
 
 ### -param lpOverlapped [in, out, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This structure is required if <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED. 
+<a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This structure is required if <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED. 
 
 
 
 
-If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED, the <i>lpOverlapped</i> parameter must not be <b>NULL</b>. It must point to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is <b>NULL</b>, the function can incorrectly report that the operation is complete.
+If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED, the <i>lpOverlapped</i> parameter must not be <b>NULL</b>. It must point to a valid <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is <b>NULL</b>, the function can incorrectly report that the operation is complete.
 
 If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is not <b>NULL</b>, 
-<b>TransactNamedPipe</b> is executed as an overlapped operation. The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure should contain a manual-reset event object (which can be created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function). If the operation cannot be completed immediately, 
-<b>TransactNamedPipe</b> returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_IO_PENDING. In this situation, the event object is set to the nonsignaled state before 
-<b>TransactNamedPipe</b> returns, and it is set to the signaled state when the transaction has finished. Also, you can  be notified when an overlapped operation completes by using the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> or <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> functions.  In this case, you do not need to assign the manual-reset event in the <b>OVERLAPPED</b> structure, and the completion happens against <i>hNamedPipe</i> in the same way as an asynchronous read or write operation. For more information about overlapped operations, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
+<b>TransactNamedPipe</b> is executed as an overlapped operation. The <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure should contain a manual-reset event object (which can be created by using the 
+<a href="/windows/win32/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function). If the operation cannot be completed immediately, 
+<b>TransactNamedPipe</b> returns <b>FALSE</b> and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_IO_PENDING. In this situation, the event object is set to the nonsignaled state before 
+<b>TransactNamedPipe</b> returns, and it is set to the signaled state when the transaction has finished. Also, you can  be notified when an overlapped operation completes by using the <a href="/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> or <a href="/windows/win32/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> functions.  In this case, you do not need to assign the manual-reset event in the <b>OVERLAPPED</b> structure, and the completion happens against <i>hNamedPipe</i> in the same way as an asynchronous read or write operation. For more information about overlapped operations, see 
+<a href="/windows/win32/ipc/pipes">Pipes</a>.
 
 If <i>hNamedPipe</i> was not opened with FILE_FLAG_OVERLAPPED, 
 <b>TransactNamedPipe</b> does not return until the operation is complete.
@@ -141,11 +141,11 @@ If <i>hNamedPipe</i> was not opened with FILE_FLAG_OVERLAPPED,
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the message to be read is longer than the buffer specified by the <i>nOutBufferSize</i> parameter, 
-<b>TransactNamedPipe</b> returns <b>FALSE</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_MORE_DATA. The remainder of the message can be read by a subsequent call to <a href="base.readfile">ReadFile</a>, <a href="base.readfileex">ReadFileEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>.
+<b>TransactNamedPipe</b> returns <b>FALSE</b> and the <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_MORE_DATA. The remainder of the message can be read by a subsequent call to <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>, <a href="/windows/win32/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>, or 
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>.
 
 
 
@@ -155,7 +155,7 @@ If the message to be read is longer than the buffer specified by the <i>nOutBuff
 
 
 <b>TransactNamedPipe</b> fails if the server did not create the pipe as a message-type pipe or if the pipe handle is not in message-read mode. For example, if a client is running on the same machine as the server and uses the \\.\pipe\<i>pipename</i> format to open the pipe, the pipe is opened in byte mode by the named pipe file system (NPFS). If the client uses the form \\<i>server</i>\pipe\<i>pipename</i>, the redirector opens the pipe in message mode. A byte mode pipe handle can be changed to message-read mode with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
 
 The function cannot be completed successfully until data is written into the buffer specified by the <i>lpOutBuffer</i> parameter. The <i>lpOverlapped</i> parameter is available to enable the calling thread to perform other tasks while the operation is executing in the background.
 
@@ -167,7 +167,7 @@ The maximum guaranteed size of a named pipe transaction is 64 kilobytes. In some
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/transactions-on-named-pipes">Transactions on Named Pipes</a>.
+<a href="/windows/win32/ipc/transactions-on-named-pipes">Transactions on Named Pipes</a>.
 
 <div class="code"></div>
 
@@ -178,51 +178,51 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/win32/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
+<a href="/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
+<a href="/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/win32/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/win32/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="base.readfileex">ReadFileEx</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>
  
 
  

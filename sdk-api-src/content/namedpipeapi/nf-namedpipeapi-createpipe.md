@@ -79,7 +79,7 @@ A pointer to a variable that receives the write handle for the pipe.
 ### -param lpPipeAttributes [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -99,7 +99,7 @@ The size of the buffer for the pipe, in bytes. The size is only a suggestion; th
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,23 +109,23 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <b>CreatePipe</b> creates the pipe, assigning the specified pipe size to the storage buffer. 
-<b>CreatePipe</b> also creates handles that the process uses to read from and write to the buffer in subsequent calls to the <a href="base.readfile">ReadFile</a> and <a href="base.writefile">WriteFile</a> functions.
+<b>CreatePipe</b> also creates handles that the process uses to read from and write to the buffer in subsequent calls to the <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> functions.
 
-To read from the pipe, a process uses the read handle in a call to the <a href="base.readfile">ReadFile</a> function. <b>ReadFile</b> returns when one of the following is true: a write operation completes on the write end of the pipe, the number of bytes requested has been read, or an error occurs.
+To read from the pipe, a process uses the read handle in a call to the <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> function. <b>ReadFile</b> returns when one of the following is true: a write operation completes on the write end of the pipe, the number of bytes requested has been read, or an error occurs.
 
-When a process uses <a href="base.writefile">WriteFile</a> to write to an anonymous pipe, the write operation is not completed until all bytes are written. If the pipe buffer is full before all bytes are written, <b>WriteFile</b> does not return until another process or thread uses <a href="base.readfile">ReadFile</a> to make more buffer space available.
+When a process uses <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to write to an anonymous pipe, the write operation is not completed until all bytes are written. If the pipe buffer is full before all bytes are written, <b>WriteFile</b> does not return until another process or thread uses <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to make more buffer space available.
 
 Anonymous pipes are implemented using a named pipe with a unique name. Therefore, you can often pass a handle to an anonymous pipe to a function that requires a handle to a named pipe.
 
 If <b>CreatePipe</b> fails, the contents of the output parameters are indeterminate. No assumptions should be made about their contents in this event.
 
-To free resources used by a pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a pipe may have more than one handle associated with it. An instance of a pipe is always deleted when the last handle to the instance of the named pipe is closed.
+To free resources used by a pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a pipe may have more than one handle associated with it. An instance of a pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/creating-a-child-process-with-redirected-input-and-output">Creating a Child Process with Redirected Input and Output</a>.
+<a href="/windows/win32/ProcThread/creating-a-child-process-with-redirected-input-and-output">Creating a Child Process with Redirected Input and Output</a>.
 
 <div class="code"></div>
 
@@ -136,23 +136,23 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/win32/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/win32/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

@@ -69,14 +69,14 @@ Sets the read mode and the blocking mode of the specified named pipe. If the spe
 ### -param hNamedPipe [in]
 
  A handle to the named pipe instance. This parameter can be a handle to the server end of the pipe, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function, or to the client end of the pipe, as returned by the 
-<a href="base.createfile">CreateFile</a> function. The handle must have GENERIC_WRITE access to the named pipe for a write-only or read/write pipe, or it must have GENERIC_READ and FILE_WRITE_ATTRIBUTES access for a read-only pipe. 
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function, or to the client end of the pipe, as returned by the 
+<a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function. The handle must have GENERIC_WRITE access to the named pipe for a write-only or read/write pipe, or it must have GENERIC_READ and FILE_WRITE_ATTRIBUTES access for a read-only pipe. 
 
 
 
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
 
 
 ### -param lpMode [in, optional]
@@ -130,9 +130,9 @@ One of the following wait modes can be specified.
 </td>
 <td width="60%">
 Blocking mode is enabled. This mode is the default if no wait-mode flag is specified. When a blocking mode pipe handle is specified in the 
-<a href="base.readfile">ReadFile</a>, 
-<a href="base.writefile">WriteFile</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function, operations are not finished until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
+<a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>, 
+<a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> function, operations are not finished until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
 
 </td>
 </tr>
@@ -143,8 +143,8 @@ Blocking mode is enabled. This mode is the default if no wait-mode flag is speci
 </dl>
 </td>
 <td width="60%">
-Nonblocking mode is enabled. In this mode, <a href="base.readfile">ReadFile</a>, <a href="base.writefile">WriteFile</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> always return immediately. Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous input and output (I/O) with named pipes.
+Nonblocking mode is enabled. In this mode, <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>, <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>, and 
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> always return immediately. Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous input and output (I/O) with named pipes.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ The maximum number of bytes collected on the client computer before transmission
 ### -param lpCollectDataTimeout [in, optional]
 
 The maximum time, in milliseconds, that can pass before a remote named pipe transfers information over the network. This parameter must be <b>NULL</b> if the specified pipe handle is to the server end of a named pipe or if client and server processes are on the same computer. This parameter is ignored if the client process specified the FILE_FLAG_WRITE_THROUGH flag in the 
-<a href="base.createfile">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
+<a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
 
 
 ## -returns
@@ -170,7 +170,7 @@ The maximum time, in milliseconds, that can pass before a remote named pipe tran
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -185,7 +185,7 @@ If the function fails, the return value is zero. To get extended error informati
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/named-pipe-client">Named Pipe Client</a>.
+<a href="/windows/win32/ipc/named-pipe-client">Named Pipe Client</a>.
 
 <div class="code"></div>
 
@@ -196,35 +196,35 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
+<a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnamedpipehandlestatea">GetNamedPipeHandleState</a>
+<a href="/windows/win32/api/winbase/nf-winbase-getnamedpipehandlestatea">GetNamedPipeHandleState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/win32/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/win32/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

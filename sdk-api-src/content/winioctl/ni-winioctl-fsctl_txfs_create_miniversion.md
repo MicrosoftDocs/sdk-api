@@ -56,7 +56,7 @@ req.redist:
     information, and alternatives to TxF, please see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-Creates a new <a href="glossary.htm">miniversion</a> for the specified file. Miniversions allow you to refer to a snapshot of the file during a transaction.  Miniversions are discarded when a transaction is committed or rolled back.
+Creates a new <a href="/windows/win32/fileio/glossary">miniversion</a> for the specified file. Miniversions allow you to refer to a snapshot of the file during a transaction.  Miniversions are discarded when a transaction is committed or rolled back.
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
