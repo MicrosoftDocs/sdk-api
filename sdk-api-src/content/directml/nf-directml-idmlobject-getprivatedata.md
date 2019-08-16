@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets application-defined data from a DirectML device object.
+Gets application-defined data from a DirectML device object. This method is thread-safe.
 
 
 ## -parameters

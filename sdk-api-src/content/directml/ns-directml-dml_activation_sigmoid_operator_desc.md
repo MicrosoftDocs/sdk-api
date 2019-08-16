@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML operator that performs a sigmoid activation function on every element in the input, f(x) = 1 / (1 + exp(-x)).
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

@@ -70,7 +70,7 @@ An operator initializer can be reused to initialize different sets of compiled o
 
 An operator initializer can be created with no target operators. Executing such an initializer is a no-op.
         Creating an operator initializer with no target operators may be useful if you wish to create an initializer
-        up-front, but don't yet know which operators it will be used to initialize. [IDMLOperatorInitializer::Reset](/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset)can be used to reset which
+        up-front, but don't yet know which operators it will be used to initialize. [IDMLOperatorInitializer::Reset](/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset) can be used to reset which
         operators to target.
 
 

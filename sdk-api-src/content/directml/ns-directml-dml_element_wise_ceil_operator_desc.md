@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs the element-wise ceiling function f(x) = ceil(x * scale + bias), where the scale and bias terms are optional. The ceiling of x is the smallest integer that is greater than or equal to x.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

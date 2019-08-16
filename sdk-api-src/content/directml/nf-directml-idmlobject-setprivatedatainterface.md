@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Associates an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the DirectML device object, and associates that interface with an application-defined <b>GUID</b>.
+Associates an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the DirectML device object, and associates that interface with an application-defined <b>GUID</b>. This method is thread-safe.
 
 
 ## -parameters

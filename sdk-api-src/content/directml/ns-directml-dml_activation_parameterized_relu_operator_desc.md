@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML operator that performs a parameterized rectified linear unit (ReLU) activation function on every element in the input, f(x) = if x &gt;= 0 then x else slope * x.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
+
 
 ## -struct-fields
 

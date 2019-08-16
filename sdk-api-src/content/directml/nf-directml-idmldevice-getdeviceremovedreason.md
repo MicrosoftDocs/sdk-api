@@ -71,7 +71,7 @@ Retrieves the reason that the DirectML device was removed.
 
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
-An [HRESULT](/windows/desktop/winprog/windows-data-types) containing the reason that the device was removed.
+An [HRESULT](/windows/desktop/winprog/windows-data-types) containing the reason that the device was removed, or **S_OK** if the device has not been removed.
 
 
 

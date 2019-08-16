@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML trigonometric operator that performs the element-wise arctangent function f(x) = atan(x * scale + bias), where the scale and bias terms are optional.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Describes a DirectML operator that performs an element-wise scale-and-bias function  on the values in the input tensor.
+Describes a DirectML operator that performs an element-wise scale-and-bias function on the values in the input tensor. This operator is similar to using an **ELEMENT_WISE_IDENTITY** operator with a scale and bias, except that **VALUE_SCALE_2D** applies a different bias for each channel rather than a single bias for the entire tensor.
 
 
 ## -struct-fields
@@ -88,7 +88,7 @@ The scale to apply. You can use a default value of 1.0.
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-This field determines the size of the <i>Bias</i> array.
+This field determines the size of the <i>Bias</i> array. This field must be set to either 1 or 3, and must also match the size of the C dimension of the input tensor.
 
 
 ### -field Bias

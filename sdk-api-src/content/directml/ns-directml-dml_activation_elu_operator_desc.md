@@ -47,21 +47,13 @@ ms.custom: 19H1
 
 # DML_ACTIVATION_ELU_OPERATOR_DESC structure
 
-
 ## -description
 
+Describes a DirectML operator that performs an exponential linear unit (ELU) activation function on every element in the input, `f(x) = if x &gt;= 0 then x else (exp(x) - 1) * alpha`.
 
-
-
-
-
-Describes a DirectML operator that performs an exponential linear unit (ELU) activation function on every element in the input, f(x) = if x &gt;= 0 then x else (exp(x) - 1) * alpha.
-
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
 
 ## -struct-fields
-
-
-
 
 ### -field InputTensor
 
@@ -69,17 +61,14 @@ Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_te
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
 
-
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
 
-
 ### -field Alpha
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The coefficient of ELU.
-

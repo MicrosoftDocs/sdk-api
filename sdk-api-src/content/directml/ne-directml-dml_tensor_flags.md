@@ -47,54 +47,24 @@ ms.custom: 19H1
 
 # DML_TENSOR_FLAGS enumeration
 
-
 ## -description
-
-
-
-
-
 
 Specifies additional options in a tensor description. Values can be bitwise OR'd together.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DML_TENSOR_FLAG_NONE
 
 No options are specified.
 
-
 ### -field DML_TENSOR_FLAG_OWNED_BY_DML
 
-Indicates that the tensor data should be owned and managed by DirectML. The effect of this flag is that DirectML makes a copy of the tensor data during initialization of an
-      operator, storing it in the persistent resource. This allows DirectML to perform reformatting of the tensor
-      data into other, more efficient forms. Setting this flag may increase performance, but is typically only useful
-      for tensors whose data doesn't change for the lifetime of the operator (for example, weight tensors).
+Indicates that the tensor data should be owned and managed by DirectML. The effect of this flag is that DirectML makes a copy of the tensor data during initialization of an operator, storing it in the persistent resource. This allows DirectML to perform reformatting of the tensor data into other, more efficient forms. Setting this flag may increase performance, but is typically only useful for tensors whose data doesn't change for the lifetime of the operator (for example, weight tensors).
+      
+This flag can only be used on input tensors.
 
-      This flag can only be used on input tensors.
-
-When this flag is set on a particular
-      tensor description, the corresponding tensor must be bound to the binding table during operator
-      initialization, and not during execution. Attempting to bind the tensor during execution while this flag is
-      set results in an error. This is the opposite of the default behavior (the behavior without the <b>DML_TENSOR_FLAG_OWNED_BY_DML</b> flag), where
-      the tensor is expected to be bound during execution, and not during initialization.
-
-      When supplying the tensor data to an operator initializer, it's legal to bind an UPLOAD rather than a DEFAULT heap,
-      because DirectML makes a copy of the data. In all other cases, all resources bound to DirectML must be DEFAULT
-      heap resources.
-
+When this flag is set on a particular tensor description, the corresponding tensor must be bound to the binding table during operator initialization, and not during execution. Attempting to bind the tensor during execution while this flag is set results in an error. This is the opposite of the default behavior (the behavior without the <b>DML_TENSOR_FLAG_OWNED_BY_DML</b> flag), where the tensor is expected to be bound during execution, and not during initialization.
 
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
- 
-
- 
-

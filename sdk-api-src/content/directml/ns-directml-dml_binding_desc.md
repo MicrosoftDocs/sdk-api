@@ -76,7 +76,7 @@ A [DML_BINDING_TYPE](/windows/desktop/api/directml/ne-directml-dml_binding_type)
 
 Type: <b>const void*</b>
 
-A pointer to a constant structure whose type depends on the value <i>Type</i>. If <i>Type</i> is [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type), then <i>Desc</i> should point to a [DML_BUFFER_BINDING](/windows/desktop/api/directml/ns-directml-dml_buffer_binding). If <i>Type</i> is <b><b>DML_BINDING_TYPE_BUFFER_ARRAY</b></b>, then <i>Desc</i> should point to a [DML_BUFFER_ARRAY_BINDING](/windows/desktop/api/directml/ns-directml-dml_buffer_array_binding).
+A pointer to a constant structure whose type depends on the value <i>Type</i>. If <i>Type</i> is [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type), then <i>Desc</i> should point to a [DML_BUFFER_BINDING](/windows/desktop/api/directml/ns-directml-dml_buffer_binding). If <i>Type</i> is [DML_BINDING_TYPE_BUFFER_ARRAY](/windows/desktop/api/directml/ne-directml-dml_binding_type), then <i>Desc</i> should point to a [DML_BUFFER_ARRAY_BINDING](/windows/desktop/api/directml/ns-directml-dml_buffer_array_binding).
 
 
 ## -see-also

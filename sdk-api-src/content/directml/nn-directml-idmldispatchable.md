@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-Implemented by objects that can be recorded into a command list for dispatch on the GPU, using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch).The **IDMLDispatchable** interface inherits from [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable).
+Implemented by objects that can be recorded into a command list for dispatch on the GPU, using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). The **IDMLDispatchable** interface inherits from [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable).
 
 This interface is implemented by [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) and [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer).
 

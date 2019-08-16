@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs the element-wise clip function f(x) = clamp(x * scale + bias, minValue, maxValue), where the scale and bias terms are optional, and where clamp(x) = min(maxValue, max(minValue, x)). This operator clamps (or limits) every element in the input within the closed interval [min, max].
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

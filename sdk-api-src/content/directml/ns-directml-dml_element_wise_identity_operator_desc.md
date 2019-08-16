@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML generic operator that performs the element-wise identity function f(x) = x * scale + bias. The operator effectively copies its input tensor to the output, while applying optional scale and bias terms. The data types and sizes of the input and output tensors must be the same.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 
