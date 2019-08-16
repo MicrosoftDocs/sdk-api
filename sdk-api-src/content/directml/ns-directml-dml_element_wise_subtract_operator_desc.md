@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs the function of subtracting every element in <i>BTensor</i> from its corresponding element in <i>ATensor</i>, f(a, b) = a - b.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
+
 
 ## -struct-fields
 

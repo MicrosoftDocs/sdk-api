@@ -55,10 +55,11 @@ ms.custom: 19H1
 
 
 
-Describes a DirectML data reorganization operator that produces a slice of the input tensor along multiple axes.
+Describes a DirectML data reorganization operator that extracts a single subregion (a "slice") of an input tensor.
 
-The operator uses strides, offsets, and sizes attributes to specify the offset and size of the dimension for each axis in the list of axes. It uses this information to slice the input data tensor. If a negative value is passed for any of the start or end indices, it represents the number of elements before the end of that dimension. If the value passed to offset or (offset+)size is larger than n (the number of elements in the dimension), then it represents n. For slicing to the end of a dimension with unknown size, you should pass the maximum value for  a [UINT](/windows/desktop/winprog/windows-data-types). If you omit an axis, it is set to [0, ..., ndim-1].
+This operator copies elements from the input tensor in each dimension N starting from the Offset[N], and advancing Strides[N] elements on the input tensor until Sizes[N] elements are copied to the output tensor.
 
+For example a slice with Offsets [0 0 0 10], Sizes [1 1 1 5], and Strides [1 1 1 2] will copy every second element starting at the 10th element of the input tensor, until a total of 5 elements are copied to the output tensor.
 
 ## -struct-fields
 
@@ -83,26 +84,26 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of dimensions. This field determines the size of the <i>Offsets</i>,  <i>Sizes</i>, and <i>Strides</i> arrays.
+The number of dimensions. This field determines the size of the <i>Offsets</i>,  <i>Sizes</i>, and <i>Strides</i> arrays. This value must match the DimensionCount of the input and output tensors.
 
 
 ### -field Offsets
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the starting index of the corresponding axis.
+A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the starting index of each dimension to slice from the input tensor.
 
 
 ### -field Sizes
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the size of the corresponding axis.
+A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the size of each dimension of the slice, in elements. The values in this array must match the sizes specified in the output tensor.
 
 
 ### -field Strides
 
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the lengths of the strides of the tensor.
+A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the element strides for each dimension in the slice.
 

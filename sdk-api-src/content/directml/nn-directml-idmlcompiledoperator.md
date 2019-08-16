@@ -72,10 +72,9 @@ The size of the temporary and persistent resources varies per operator. Call
     resources for this compiled operator. See <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">IDMLBindingTable::BindTemporaryResource</a> and
     <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">IDMLBindingTable::BindPersistentResource</a> for more information on binding temporary and persistent resources.
 
-Because compiling an operator may be an expensive operation, you can cache an operator for later re-use. See
-        **IDMLCompiledOperator::StoreCompiledOperator** and **IDMLDevice::LoadCompiledOperator** for more info.
-
 All methods on this interface are thread-safe.
 
 ## -see-also
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+
+[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)

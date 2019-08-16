@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs a logical NOT function on every element in the input, f(x) = !x.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

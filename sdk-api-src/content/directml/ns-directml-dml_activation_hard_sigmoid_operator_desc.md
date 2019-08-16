@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML activation operator that performs a hard sigmoid function on every element in the input, f(x) = max(0, min(alpha * x + beta, 1)).
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

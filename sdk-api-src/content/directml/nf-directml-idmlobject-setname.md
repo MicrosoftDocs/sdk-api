@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Associates a name with the DirectML device object.
-          This name is for use in debug diagnostics and tools.
+          This name is for use in debug diagnostics and tools. This method is thread-safe.
         
 
 

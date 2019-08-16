@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs a reciprocal function on every element in the input, f(x) = 1 / (x * scale + bias), where the scale and bias terms are optional.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

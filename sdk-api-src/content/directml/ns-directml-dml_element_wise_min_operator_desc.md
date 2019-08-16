@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math reduction operator that performs a minimum function between every element in <i>ATensor</i> and its corresponding element in <i>BTensor</i>, f(a, b) = min(a, b).
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
+
 
 ## -struct-fields
 

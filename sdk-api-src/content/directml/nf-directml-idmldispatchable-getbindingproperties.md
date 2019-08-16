@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-       Retrieves the binding properties for a dispatchable object (an operator initializer, or a compiled operator). The binding properties
+Retrieves the binding properties for a dispatchable object (an operator initializer, or a compiled operator). The binding properties
        value contains the required size of the binding table in descriptors, as well as the required size in bytes of the
        temporary and persistent resources required to execute this object.
 

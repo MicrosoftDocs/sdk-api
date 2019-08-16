@@ -87,4 +87,6 @@ When executing an initializer, the expected bindings are as follows:
 The operator initializer itself doesn't need to be initialized—GPU initialization only applies to compiled operators.
 
 ## -see-also
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+
+[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)

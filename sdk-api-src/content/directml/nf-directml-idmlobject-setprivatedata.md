@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Sets application-defined data to a DirectML device object, and associates that data with an application-defined <b>GUID</b>.
+Sets application-defined data to a DirectML device object, and associates that data with an application-defined <b>GUID</b>. This method is thread-safe.
 
 
 ## -parameters

@@ -62,9 +62,6 @@ A compiled operator represents the efficient, baked form of an operator suitable
         implements the [IDMLPageable](/windows/desktop/api/directml/nn-directml-idmlpageable) interface, you're able to evict one from GPU memory if you wish. See
         [IDMLDevice::Evict](/windows/desktop/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident) for more info.
 
-Because compiling an operator may be an expensive operation, you can cache an operator for later re-use. See
-        **IDMLCompiledOperator::StoreCompiledOperator** and **IDMLDevice::LoadCompiledOperator** for more info.
-
 The compiled operator maintains a strong reference to the supplied [IDMLOperator](/windows/desktop/api/directml/nn-directml-idmloperator) pointer.
 
 

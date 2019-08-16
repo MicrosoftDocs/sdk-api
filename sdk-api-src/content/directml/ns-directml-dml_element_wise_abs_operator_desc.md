@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math operator that performs the element-wise absolute value function f(x) = abs(x * scale + bias), where the scale and bias terms are optional. The absolute value of x is its magnitude without regard to its sign.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

@@ -91,9 +91,7 @@ An optional pointer to a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-dir
 
 
 
-Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
-
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+This method does not return a value.
 
 
 

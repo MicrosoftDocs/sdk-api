@@ -104,7 +104,7 @@ A pointer to a support data structure that corresponds to the value of the <i>fe
 
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns **DXGI_ERROR_UNSUPPORTED** if the [DML_FEATURE](/windows/desktop/api/directml/ne-directml-dml_feature) is unrecognized or unsupported, and **E_INVALIDARG** if the parameters are incorrect.
 
 
 

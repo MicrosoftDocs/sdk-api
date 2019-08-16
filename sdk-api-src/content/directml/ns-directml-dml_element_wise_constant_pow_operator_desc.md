@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML operator that performs the element-wise constant power function f(x) = pow(x * scale + bias, exponent), where the scale and bias terms are optional. The power function raises every element in the input to the power of the exponent.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

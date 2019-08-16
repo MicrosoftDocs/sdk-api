@@ -47,43 +47,24 @@ ms.custom: 19H1
 
 # DML_BINDING_TYPE enumeration
 
-
 ## -description
 
-Defines constants that specify the nature of the resource(s) referred to by a binding description (a [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) structure).
-
+Defines constants that specify the nature of the resource(s) referred to by a binding description (a [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc) structure).
 
 ## -enum-fields
-
-
-
 
 ### -field DML_BINDING_TYPE_NONE
 
 Indicates that no resources are to be bound.
 
-
 ### -field DML_BINDING_TYPE_BUFFER
 
-Specifies a binding that binds a single buffer to the binding table.
-
+Specifies a binding that binds a single buffer to the binding table. The corresponding binding desc type is <a href="/windows/win32/api/directml/ns-directml-dml_buffer_binding">DML_BUFFER_BINDING</a>.
 
 ### -field DML_BINDING_TYPE_BUFFER_ARRAY
 
-Specifies a binding that binds an array of buffers to the binding table.
-
+Specifies a binding that binds an array of buffers to the binding table. The corresponding binding desc type is <a href="/windows/win32/api/directml/ns-directml-dml_buffer_array_binding">DML_BUFFER_ARRAY_BINDING</a>.
 
 ## -see-also
 
-
-
-
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-
-
-
-[DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc)
- 
-
- 
-
+[Binding in DirectML](/windows/desktop/direct3d12/dml-binding), [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc)

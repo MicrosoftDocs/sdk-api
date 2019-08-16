@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML math reduction operator that performs an arithmetic mean function between every element in <i>ATensor</i> and its corresponding element in <i>BTensor</i>, f(a, b) = (a + b) / 2.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
+
 
 ## -struct-fields
 

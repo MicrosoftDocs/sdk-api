@@ -57,6 +57,8 @@ ms.custom: 19H1
 
 Describes a DirectML activation operator that performs the identity function f(x) = x. The operator effectively copies its input tensor to the output.
 
+This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+
 
 ## -struct-fields
 

@@ -47,39 +47,20 @@ ms.custom: 19H1
 
 # DML_CONVOLUTION_DIRECTION enumeration
 
-
 ## -description
 
-
-
-
-
-
-Defines constants that specify a direction for the DirectML convolution operator (as described by the [DML_CONVOLUTION_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc) structure).
-
+Defines constants that specify a direction for the DirectML convolution operator (as described by the [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc) structure).
 
 ## -enum-fields
 
-
-
-
 ### -field DML_CONVOLUTION_DIRECTION_FORWARD
 
-Indicates the forward pass.
-
+Indicates a forward convolution.
 
 ### -field DML_CONVOLUTION_DIRECTION_BACKWARD
 
-Indicates the backward pass.
-
+Indicates a backward convolution. Backward convolution is also known as <em>transposed</em> convolution.
 
 ## -see-also
 
-
-
-
-[DML_CONVOLUTION_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc)
- 
-
- 
-
+[DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)

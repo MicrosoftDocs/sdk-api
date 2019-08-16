@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-       Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command
+Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command
        list.
 
 This method doesn't submit the execution to the GPU; it merely records it onto the command list. You are responsible for closing the command list and submitting it to the Direct3D 12 command queue.
