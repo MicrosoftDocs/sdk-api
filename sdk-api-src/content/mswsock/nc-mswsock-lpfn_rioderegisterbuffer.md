@@ -57,7 +57,7 @@ A descriptor identifying a registered buffer.
 
 The **RIODeregisterBuffer** function deregisters a registered buffer. When a buffer is deregistered, the application is indicating that it is done with the buffer identifier passed in the *BufferId* parameter. Any subsequent calls to other functions that try to use this buffer identifier will fail.
 
-If a buffer that is still in use is deregistered, the results are undefined. This is considered a serious error. In the [**RIORESULT**](/windows/win32/api/mswsockdef/ns-mswsockdef-rioresult) structure returned by the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nf-mswsock-riodequeuecompletion) function, the status will be unchanged from the normal status. An application developer can detect this error condition using the Application Verifier tool.
+If a buffer that is still in use is deregistered, the results are undefined. This is considered a serious error. In the [**RIORESULT**](/windows/win32/api/mswsockdef/ns-mswsockdef-rioresult) structure returned by the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) function, the status will be unchanged from the normal status. An application developer can detect this error condition using the Application Verifier tool.
 
 If an invalid buffer identifier is passed in the *BufferId* parameter, this is ignored by the **RIODeregisterBuffer** function.
 
