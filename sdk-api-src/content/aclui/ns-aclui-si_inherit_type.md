@@ -63,7 +63,7 @@ The <b>SI_INHERIT_TYPE</b> structure contains information about how <a href="htt
 ### -field pguid
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of child object. This member can be a pointer to GUID_NULL. The GUID corresponds to the <b>InheritedObjectType</b> member of an object-specific ACE.
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of child object. This member can be a pointer to GUID_NULL. The GUID corresponds to the <b>InheritedObjectType</b> member of an object-specific ACE.
 
 
 ### -field dwFlags
@@ -136,7 +136,7 @@ Alternatively, <b>pszName</b> can be a string resource identifier returned by th
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

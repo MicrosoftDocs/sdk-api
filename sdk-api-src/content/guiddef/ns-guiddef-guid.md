@@ -1,0 +1,65 @@
+---
+UID: NS:guiddef._GUID
+title: GUID
+ms.date: 4/26/2019
+ms.keywords: _GUID, GUID
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: guiddef.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: GUID
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - guiddef.h
+api_name:
+ - _GUID
+ - GUID
+---
+
+## -description
+
+A GUID identifies an object such as a COM interfaces, or a COM class object, or a manager entry-point vector (EPV). A GUID is a 128-bit value consisting of one group of 8 hexadecimal digits, followed by three groups of 4 hexadecimal digits each, followed by one group of 12 hexadecimal digits. The following example GUID shows the groupings of hexadecimal digits in a GUID: 6B29FC40-CA47-1067-B31D-00DD010662DA.
+
+The **GUID** structure stores a GUID.
+
+## -struct-fields
+
+### -field Data1
+Specifies the first 8 hexadecimal digits of the GUID.
+
+### -field Data2
+Specifies the first group of 4 hexadecimal digits.
+
+### -field Data3
+Specifies the second group of 4 hexadecimal digits.
+
+### -field Data4
+Array of 8 bytes. The first 2 bytes contain the third group of 4 hexadecimal digits. The remaining 6 bytes contain the final 12 hexadecimal digits.
+
+## -remarks
+
+GUIDs are the Microsoft implementation of the distributed computing environment (DCE) universally unique identifier ([**UUID**](aa379358\(v=vs.80\).md)). The RPC run-time libraries use UUIDs to check for compatibility between clients and servers and to select among multiple implementations of an interface. The Windows access-control functions use GUIDs to identify the type of object that an object-specific ACE in an access-control list (ACL) protects.
+
+## See also
+
+**ACCESS\_ALLOWED\_OBJECT\_ACE**  
+**ACE**  
+**ACL**  
+[**UUID**](aa379358\(v=vs.80\).md)  
+[**UUID\_VECTOR**](https://msdn.microsoft.com/en-us/library/aa379361\(v=vs.80\))

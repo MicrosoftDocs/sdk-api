@@ -68,7 +68,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/
 
 ### -param pgProviderID
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the provider.
+A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the provider.
 
 
 ## -returns

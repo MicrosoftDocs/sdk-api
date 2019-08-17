@@ -63,7 +63,7 @@ The <b>MapGeneric</b> method requests that the generic access rights in an <a hr
 ### -param pguidObjectType [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> applies. If this member is <b>NULL</b> or a pointer to GUID_NULL, the access mask applies to the object itself.
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> applies. If this member is <b>NULL</b> or a pointer to GUID_NULL, the access mask applies to the object itself.
 
 
 ### -param pAceFlags [in]
@@ -123,7 +123,7 @@ Your <b>MapGeneric</b> implementation can call the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

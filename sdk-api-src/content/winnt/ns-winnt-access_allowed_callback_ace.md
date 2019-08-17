@@ -120,7 +120,7 @@ When an <b>ACCESS_ALLOWED_CALLBACK_ACE</b> structure is created, sufficient memo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

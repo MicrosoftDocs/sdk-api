@@ -77,5 +77,5 @@ Optional. File handle to the open file to be verified. This handle must be to a 
 
 ### -field pgKnownSubject
 
-Optional. Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
+Optional. Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
 

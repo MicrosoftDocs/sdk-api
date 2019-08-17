@@ -86,7 +86,7 @@ Allows registration of  multiple sources with the same name.  Use of this flag  
 </dl>
 </td>
 <td width="60%">
-The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
+The caller is a migrated publisher that has registered a manifest with WEvtUtil.exe. The <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> of the provider specified by the <b>pProviderGuid</b> member is stored in the registry.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ This member is reserved and must be set to <b>NULL</b>.
 
 ### -field DUMMYUNIONNAME.pProviderGuid
 
-The <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
+The <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> of a migrated publisher. The value of this member is converted to a string and stored in the registry if the caller is a migrated publisher.
 
 
 ### -field dwObjectTypeNameCount

@@ -85,7 +85,7 @@ A pointer to a variable that receives a pointer to the newly allocated <a href="
 ### -param ObjectType [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object associated with the <i>CurrentSecurityDescriptor</i> parameter. If the object does not have a GUID, this parameter must be <b>NULL</b>.
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of object associated with the <i>CurrentSecurityDescriptor</i> parameter. If the object does not have a GUID, this parameter must be <b>NULL</b>.
 
 
 ### -param IsDirectoryObject [in]
@@ -163,7 +163,7 @@ This function works with ACL_REVISION and ACL_REVISION_DS ACLs.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
  
 
  
