@@ -66,12 +66,12 @@ The size, in bytes, of this structure.
 
 ### -field RoleGuid
 
-A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that represents the role or minor product name associated with a UAL session.
+A <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that represents the role or minor product name associated with a UAL session.
 
 
 ### -field TenantId
 
-A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
+A <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
 
 
 ### -field Address

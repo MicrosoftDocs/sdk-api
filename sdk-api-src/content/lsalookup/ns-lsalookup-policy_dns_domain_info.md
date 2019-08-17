@@ -81,7 +81,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalooku
 ### -field DomainGuid
 
 A 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that contains the GUID of the primary domain.
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that contains the GUID of the primary domain.
 
 
 ### -field Sid

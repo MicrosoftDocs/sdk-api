@@ -63,7 +63,7 @@ The <b>SI_ACCESS</b> structure contains information about an access right or def
 ### -field pguid
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of object to which the access right or default access mask applies. The GUID can identify a property set or property on the object, or a type of child object that can be contained by the object. 
 
 
 
@@ -199,7 +199,7 @@ Noncontainer objects contained by the primary object inherit the entry.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

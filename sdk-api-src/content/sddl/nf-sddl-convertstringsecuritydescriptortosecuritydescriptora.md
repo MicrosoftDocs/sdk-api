@@ -148,7 +148,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security i
 
 
 If <b>ace_type</b> is ACCESS_ALLOWED_OBJECT_ACE_TYPE
-and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> specified, then <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> converts <b>ace_type</b> to ACCESS_ALLOWED_ACE_TYPE. For information about the  <b>ace_type</b>,  <b>object_guid</b>, and <b>inherit_object_guid</b> fields, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-strings">Ace Strings</a>.
+and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> specified, then <b>ConvertStringSecurityDescriptorToSecurityDescriptor</b> converts <b>ace_type</b> to ACCESS_ALLOWED_ACE_TYPE. For information about the  <b>ace_type</b>,  <b>object_guid</b>, and <b>inherit_object_guid</b> fields, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-strings">Ace Strings</a>.
 
 
 

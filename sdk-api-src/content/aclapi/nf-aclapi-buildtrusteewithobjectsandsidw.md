@@ -80,13 +80,13 @@ A pointer to an
 
 ### -param pObjectGuid [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that describes the ObjectType GUID to be added to the 
+A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that describes the ObjectType GUID to be added to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ### -param pInheritedObjectGuid [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
+A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 
 ### -param pSid [in, optional]

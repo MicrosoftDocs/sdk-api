@@ -84,7 +84,7 @@ A pointer to a variable to receive a pointer to the newly allocated self-relativ
 
 ### -param ObjectTypes [in, optional]
 
-An array of pointers to <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structures that identify the object types or classes of the object associated with <i>NewDescriptor</i>. For Active Directory objects, this array contains pointers to the class GUIDs of the object's structural class and all attached auxiliary classes. Set <i>ObjectTypes</i> to <b>NULL</b> if the object does not have a GUID.
+An array of pointers to <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structures that identify the object types or classes of the object associated with <i>NewDescriptor</i>. For Active Directory objects, this array contains pointers to the class GUIDs of the object's structural class and all attached auxiliary classes. Set <i>ObjectTypes</i> to <b>NULL</b> if the object does not have a GUID.
 
 
 ### -param GuidCount [in]
@@ -411,7 +411,7 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

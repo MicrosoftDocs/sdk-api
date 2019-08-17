@@ -68,17 +68,17 @@ The size, in bytes, of the structure.
 
 ### -field RIOReceive
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)">RIOReceive</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive">RIOReceive</a> function.
 
 
 ### -field RIOReceiveEx
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)">RIOReceiveEx</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex">RIOReceiveEx</a> function.
 
 
 ### -field RIOSend
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)">RIOSend</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend">RIOSend</a> function.
 
 
 ### -field RIOSendEx
@@ -93,27 +93,27 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 ### -field RIOCreateCompletionQueue
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448841(v=vs.85)">RIOCreateCompletionQueue</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreatecompletionqueue">RIOCreateCompletionQueue</a> function.
 
 
 ### -field RIOCreateRequestQueue
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448843(v=vs.85)">RIOCreateRequestQueue</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue">RIOCreateRequestQueue</a> function.
 
 
 ### -field RIODequeueCompletion
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448845(v=vs.85)">RIODequeueCompletion</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion">RIODequeueCompletion</a> function.
 
 
 ### -field RIODeregisterBuffer
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448847(v=vs.85)">RIODeregisterBuffer</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer">RIODeregisterBuffer</a> function.
 
 
 ### -field RIONotify
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> function.
+A pointer to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function.
 
 
 ### -field RIORegisterBuffer
@@ -153,31 +153,31 @@ Winsock registered I/O extension functions must be obtained at run time by makin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448841(v=vs.85)">RIOCreateCompletionQueue</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreatecompletionqueue">RIOCreateCompletionQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448843(v=vs.85)">RIOCreateRequestQueue</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue">RIOCreateRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448845(v=vs.85)">RIODequeueCompletion</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion">RIODequeueCompletion</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448847(v=vs.85)">RIODeregisterBuffer</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer">RIODeregisterBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)">RIOReceive</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive">RIOReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)">RIOReceiveEx</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex">RIOReceiveEx</a>
 
 
 
@@ -193,7 +193,7 @@ Winsock registered I/O extension functions must be obtained at run time by makin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)">RIOSend</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend">RIOSend</a>
 
 
 

@@ -61,9 +61,9 @@ Describes a meta command.
 
 ### -field Id
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a></b>
+Type: <b><a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> uniquely identifying the meta command.
+A <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> uniquely identifying the meta command.
 
 
 ### -field Name

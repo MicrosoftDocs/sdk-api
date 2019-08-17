@@ -65,7 +65,7 @@ The <b>DS_SCHEMA_GUID_MAP</b> structure contains the results of a call to
 ### -field guid
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the object GUID.
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the object GUID.
 
 
 ### -field guidType
@@ -135,7 +135,7 @@ Pointer to a null-terminated string value that specifies the display name associ
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
  
 
  

@@ -54,7 +54,7 @@
 ### [_RIORESULT structure](../mswsockdef/ns-mswsockdef-_rioresult.md)
 ### [_RIO_BUF structure](../mswsockdef/ns-mswsockdef-_rio_buf.md)
 ## [Nsemail.h](../nsemail/index.md)
-### [napi_domain_description_blob_tag structure](../nsemail/ns-nsemail-napi_domain_description_blob_tag.md)
+### [napi_domain_description_blob_tag structure](../nsemail/ns-nsemail-napi_domain_description_blob.md)
 ### [napi_provider_installation_blob_tag structure](../nsemail/ns-nsemail-napi_provider_installation_blob_tag.md)
 ### [napi_provider_level_tag enumeration](../nsemail/ne-nsemail-napi_provider_level_tag.md)
 ### [napi_provider_type_tag enumeration](../nsemail/ne-nsemail-napi_provider_type_tag.md)

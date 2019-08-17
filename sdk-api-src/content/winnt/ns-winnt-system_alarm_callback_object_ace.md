@@ -114,7 +114,7 @@ The <b>InheritedObjectType</b> member contains a GUID.
 ### -field ObjectType
 
 A 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies a property set, property, extended right, or type of child object. 
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies a property set, property, extended right, or type of child object. 
 
 
 
@@ -174,7 +174,7 @@ The <b>ObjectType</b> GUID identifies a validated write.
 
 ### -field InheritedObjectType
 
-A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of child object that can inherit the ACE. 
+A <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of child object that can inherit the ACE. 
 
 
 

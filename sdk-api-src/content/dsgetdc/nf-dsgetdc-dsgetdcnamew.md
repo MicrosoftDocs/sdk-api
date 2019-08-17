@@ -95,7 +95,7 @@ If <i>DomainName</i> is <b>NULL</b> and the
 
 ### -param DomainGuid [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the 
+Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the 
     <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
   <b>NULL</b> and the domain specified by <i>DomainName</i> or 
   <i>ComputerName</i> cannot be found, 
@@ -857,7 +857,7 @@ Run the following command to stop the trace session:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+<a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a>
 
 
 

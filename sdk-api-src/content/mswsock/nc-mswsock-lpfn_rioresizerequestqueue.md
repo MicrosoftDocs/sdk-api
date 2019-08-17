@@ -95,7 +95,7 @@ A request queue has a required minimum size that is dependent on the current num
 
 ## Thread Safety
 
-If multiple threads attempt to access the same [**RIO\_RQ**](/windows/win32/winsock/riorqueue) using the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nf-mswsock-riodequeuecompletion) or **RIOResizeRequestQueue** function, access must be coordinated by a critical section, slim reader writer lock , or similar mutual exclusion mechanism. If the completion queues are not shared, mutual exclusion is not required.
+If multiple threads attempt to access the same [**RIO\_RQ**](/windows/win32/winsock/riorqueue) using the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) or **RIOResizeRequestQueue** function, access must be coordinated by a critical section, slim reader writer lock , or similar mutual exclusion mechanism. If the completion queues are not shared, mutual exclusion is not required.
 
 ## -see-also
 
