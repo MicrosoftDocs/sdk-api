@@ -131,6 +131,21 @@ For example, the file replication service sets this flag when it creates or upda
 
 </td>
 </tr>
+
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="USN_SOURCE_CLIENT_REPLICATION_MANAGEMENT "></a><a id="usn_source_client_replication_management"></a><dl>
+<dt><b>USN_SOURCE_CLIENT_REPLICATION_MANAGEMENT</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
+Replication is being performed on client systems either from the cloud or servers.
+</td>
+</tr>
+
 </table>
  
 
@@ -265,7 +280,84 @@ The file previously marked for read-copy behavior using the
         <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported until Windows 8 and Windows Server 2012.
+</td>
+</tr>
 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MARK_HANDLE_RETURN_PURGE_FAILURE"></a><a id="mark_handle_return_purge_failure"></a><dl>
+<dt><b>MARK_HANDLE_RETURN_PURGE_FAILURE</b></dt>
+<dt>0x00000400</dt>
+</dl>
+</td>
+<td width="60%">
+When intermixing memory mapped/cached IO with non-cached IO the system attempts, when a non-cached io is issued, 
+  to purge memory mappings for the range of the non-cached IO.  If these purges fail 
+  the system normally does not return the failure to the caller which can lead to corrupted state 
+  (which is why the documentation says to not do this). This flag tells the system to return purge failures 
+  for the given handle so the application can better handle this situation
+
+
+This flag is not supported until Windows 8 and Windows Server 2012.
+
+</td>
+</tr>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MARK_HANDLE_DISABLE_FILE_METADATA_OPTIMIZATION"></a><a id="mark_handle_disable_file_metadata_optimization"></a><dl>
+<dt><b>MARK_HANDLE_DISABLE_FILE_METADATA_OPTIMIZATION </b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+A highly fragmented file in NTFS uses multiple MFT records to describe all of the extents for a file. This 
+list of child MFT records (also known as FRS records) are controlled by a structure known as an attribute list. An 
+attribute list is limited to 128K in size. When the size of an attribute list hits a certain threshold NTFS will 
+trigger a background compaction on the extents so the minimum number of child FRS records will be used. 
+This flag disables this FRS compaction feature for the given file.
+
+This flag is not supported until Windows 10.
+
+</td>
+</tr>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MARK_HANDLE_ENABLE_USN_SOURCE_ON_PAGING_IO      "></a><a id="mark_handle_enable_usn_source_on_paging_io"></a><dl>
+<dt><b>MARK_HANDLE_ENABLE_USN_SOURCE_ON_PAGING_IO      </b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
+Tells NTFS to set the given UsnSourceInfo value on Paging writes in the USN Journal. Traditionally this was not
+done on paging writes since the system did not know what thread made the given changes. This is an override. This only works if the FileObject the memory manager is 
+using has this state associated with it.
+
+
+This flag is not supported until Windows 10.
+
+</td>
+</tr>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MARK_HANDLE_SKIP_COHERENCY_SYNC_DISALLOW_WRITES"></a><a id="mark_handle_skip_coherency_sync_disallow_writes"></a><dl>
+<dt><b>MARK_HANDLE_SKIP_COHERENCY_SYNC_DISALLOW_WRITES</b></dt>
+<dt>0x00004000</dt>
+</dl>
+</td>
+<td width="60%">
+Setting this flag tells the system that writes are not allowed on this file.  If an application tries 
+to open the file for write access, the operation is failed with STATUS_ACCESS_DENIED. 
+If a write is seen the operation is failed with STATUS_MARKED_TO_DISALLOW_WRITES
+
+
+This flag is not supported until Windows 10.
 </td>
 </tr>
 </table>
