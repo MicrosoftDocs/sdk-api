@@ -38,6 +38,7 @@ api_location:
 - setupapi.h
 api_name:
 - SP_DEVINSTALL_PARAMS
+ - sp_devinstall_params_w
 product: Windows
 targetos: Windows
 req.typenames: SP_DEVINSTALL_PARAMS_W, *PSP_DEVINSTALL_PARAMS_W

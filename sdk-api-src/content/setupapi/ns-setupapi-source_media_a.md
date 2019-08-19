@@ -38,6 +38,7 @@ api_location:
  - Setupapi.h
 api_name:
  - SOURCE_MEDIA
+ - source_media_a
 product: Windows
 targetos: Windows
 req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A

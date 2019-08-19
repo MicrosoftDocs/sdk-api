@@ -38,6 +38,7 @@ api_location:
  - setupapi.h
 api_name:
  - PSP_FILE_CALLBACK
+ - psp_file_callback_a
 product: Windows
 targetos: Windows
 req.typenames: 

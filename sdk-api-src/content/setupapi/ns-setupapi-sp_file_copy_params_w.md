@@ -38,6 +38,7 @@ api_location:
  - Setupapi.h
 api_name:
  - SP_FILE_COPY_PARAMS
+ - sp_file_copy_params_w
 product: Windows
 targetos: Windows
 req.typenames: SP_FILE_COPY_PARAMS_W, *PSP_FILE_COPY_PARAMS_W

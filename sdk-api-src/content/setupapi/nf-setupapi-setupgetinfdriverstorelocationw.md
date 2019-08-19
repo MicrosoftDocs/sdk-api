@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupGetInfDriverStoreLocation
+ - SetupGetInfDriverStoreLocationW
 product: Windows
 targetos: Windows
 req.typenames: 

@@ -38,6 +38,7 @@ api_location:
 - Setupapi.h
 api_name:
 - FILE_IN_CABINET_INFO
+ - file_in_cabinet_info_w
 product: Windows
 targetos: Windows
 req.typenames: FILE_IN_CABINET_INFO_W, *PFILE_IN_CABINET_INFO_W

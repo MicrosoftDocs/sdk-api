@@ -38,6 +38,7 @@ api_location:
  - Digitalv.h
 api_name:
  - MCI_DGV_RESERVE_PARMS
+ - MCI_DGV_RESERVE_PARMSA
 product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_RESERVE_PARMSA

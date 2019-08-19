@@ -38,6 +38,7 @@ api_location:
  - Cpl.h
 api_name:
  - NEWCPLINFO
+ - NEWCPLINFOA
 product: Windows
 targetos: Windows
 req.typenames: NEWCPLINFOA, *LPNEWCPLINFOA

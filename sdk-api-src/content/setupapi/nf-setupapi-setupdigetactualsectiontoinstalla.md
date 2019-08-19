@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiGetActualSectionToInstall
+ - SetupDiGetActualSectionToInstallA
 product: Windows
 targetos: Windows
 req.typenames: 

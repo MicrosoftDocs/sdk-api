@@ -38,6 +38,7 @@ api_location:
 - Dbt.h
 api_name:
 - DEV_BROADCAST_DEVICEINTERFACE
+ - dev_broadcast_deviceinterface_w
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_W, *PDEV_BROADCAST_DEVICEINTERFACE_W

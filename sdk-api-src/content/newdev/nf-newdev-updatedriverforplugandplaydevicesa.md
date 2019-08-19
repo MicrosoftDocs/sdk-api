@@ -39,6 +39,7 @@ api_location:
 - Newdev.dll
 api_name:
 - UpdateDriverForPlugAndPlayDevices
+ - UpdateDriverForPlugAndPlayDevicesA
 product: Windows
 targetos: Windows
 req.typenames: 

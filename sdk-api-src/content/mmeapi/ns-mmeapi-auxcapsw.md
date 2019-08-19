@@ -38,6 +38,7 @@ api_location:
  - mmeapi.h
 api_name:
  - AUXCAPS
+ - AUXCAPSW
 product: Windows
 targetos: Windows
 req.typenames: AUXCAPSW, *PAUXCAPSW, *NPAUXCAPSW, *LPAUXCAPSW

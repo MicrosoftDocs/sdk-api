@@ -38,6 +38,7 @@ api_location:
  - OleDlg.h
 api_name:
  - IOleUILinkInfo
+ - IOleUILinkInfoA
 product: Windows
 targetos: Windows
 req.typenames: 

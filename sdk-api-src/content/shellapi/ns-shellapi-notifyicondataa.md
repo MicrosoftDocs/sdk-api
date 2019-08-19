@@ -38,6 +38,7 @@ api_location:
  - Shellapi.h
 api_name:
  - NOTIFYICONDATA
+ - NOTIFYICONDATAA
 product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA

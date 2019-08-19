@@ -38,6 +38,7 @@ api_location:
  - Setupapi.h
 api_name:
  - SP_INF_SIGNER_INFO
+ - sp_inf_signer_info_v2_w
 product: Windows
 targetos: Windows
 req.typenames: SP_INF_SIGNER_INFO_V2_W, *PSP_INF_SIGNER_INFO_V2_W

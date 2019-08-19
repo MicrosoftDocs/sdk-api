@@ -38,6 +38,7 @@ api_location:
  - Ddraw.h
 api_name:
  - DDEnumCallback
+ - lpddenumcallbackw
 product: Windows
 targetos: Windows
 req.typenames: 

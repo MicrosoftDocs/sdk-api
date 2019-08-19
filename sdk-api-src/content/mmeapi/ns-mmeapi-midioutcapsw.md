@@ -38,6 +38,7 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIOUTCAPS
+ - MIDIOUTCAPSW
 product: Windows
 targetos: Windows
 req.typenames: MIDIOUTCAPSW, *PMIDIOUTCAPSW, *NPMIDIOUTCAPSW, *LPMIDIOUTCAPSW

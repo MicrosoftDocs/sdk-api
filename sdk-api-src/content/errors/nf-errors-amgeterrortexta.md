@@ -39,6 +39,7 @@ api_location:
  - Quartz.dll
 api_name:
  - AMGetErrorText
+ - AMGetErrorTextA
 product: Windows
 targetos: Windows
 req.typenames: 

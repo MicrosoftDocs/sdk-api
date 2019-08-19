@@ -38,6 +38,7 @@ api_location:
  - mmeapi.h
 api_name:
  - MIXERLINE
+ - MIXERLINEW
 product: Windows
 targetos: Windows
 req.typenames: MIXERLINEW, *PMIXERLINEW, *LPMIXERLINEW

@@ -38,6 +38,7 @@ api_location:
  - Setupapi.h
 api_name:
  - FILEPATHS
+ - filepaths_w
 product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_W, *PFILEPATHS_W

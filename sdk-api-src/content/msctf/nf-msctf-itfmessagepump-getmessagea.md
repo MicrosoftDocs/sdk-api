@@ -38,6 +38,7 @@ api_location:
  - Msctf.dll
 api_name:
  - ITfMessagePump.GetMessageA
+ - getmessagea
 product: Windows
 targetos: Windows
 req.typenames: 
