@@ -108,7 +108,7 @@ Set EAP host data for all users of this profile.
 
 A pointer to XML data used to set the user credentials. 
 
-The XML data must be based on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphostusercredentialsschema-schema">EAPHost User Credentials schema</a>. To view sample user credential XML data, see EAPHost <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/user-profiles">User Properties</a>.
+The XML data must be based on the <a href="https://docs.microsoft.com/windows/win32/eaphost/eaphostusercredentialsschema-schema">EAPHost User Credentials schema</a>. To view sample user credential XML data, see EAPHost <a href="https://docs.microsoft.com/windows/win32/eaphost/user-profiles">User Properties</a>.
 
 
 ### -param pReserved
