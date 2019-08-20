@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiGetClassImageListEx
+ - SetupDiGetClassImageListExW
 product: Windows
 targetos: Windows
 req.typenames: 

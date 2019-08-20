@@ -38,6 +38,7 @@ api_location:
  - Digitalv.h
 api_name:
  - MCI_DGV_SETVIDEO_PARMS
+ - MCI_DGV_SETVIDEO_PARMSW
 product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_SETVIDEO_PARMSW

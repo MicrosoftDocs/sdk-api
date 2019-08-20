@@ -38,6 +38,7 @@ api_location:
 - Setupapi.h
 api_name:
 - FILEPATHS_SIGNERINFO
+ - filepaths_signerinfo_a
 product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_SIGNERINFO_A, *PFILEPATHS_SIGNERINFO_A

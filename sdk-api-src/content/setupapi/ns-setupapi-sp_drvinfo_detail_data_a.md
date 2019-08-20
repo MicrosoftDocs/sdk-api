@@ -38,6 +38,7 @@ api_location:
  - setupapi.h
 api_name:
  - SP_DRVINFO_DETAIL_DATA
+ - sp_drvinfo_detail_data_a
 product: Windows
 targetos: Windows
 req.typenames: SP_DRVINFO_DETAIL_DATA_A, *PSP_DRVINFO_DETAIL_DATA_A

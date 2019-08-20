@@ -38,6 +38,7 @@ api_location:
  - cfgmgr32.h
 api_name:
  - CONFLICT_DETAILS
+ - conflict_details_w
 product: Windows
 targetos: Windows
 req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W

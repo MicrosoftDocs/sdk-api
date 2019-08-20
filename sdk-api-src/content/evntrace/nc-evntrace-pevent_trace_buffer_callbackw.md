@@ -38,6 +38,7 @@ api_location:
  - Evntrace.h
 api_name:
  - BufferCallback
+ - pevent_trace_buffer_callbackw
 product: Windows
 targetos: Windows
 req.typenames: 

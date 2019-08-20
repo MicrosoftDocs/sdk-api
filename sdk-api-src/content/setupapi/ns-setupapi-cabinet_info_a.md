@@ -38,6 +38,7 @@ api_location:
 - Setupapi.h
 api_name:
 - CABINET_INFO
+ - cabinet_info_a
 product: Windows
 targetos: Windows
 req.typenames: CABINET_INFO_A, *PCABINET_INFO_A

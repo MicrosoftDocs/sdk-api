@@ -38,6 +38,7 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Font.GetLogFontW
+ - getlogfontw
 product: Windows
 targetos: Windows
 req.typenames: 

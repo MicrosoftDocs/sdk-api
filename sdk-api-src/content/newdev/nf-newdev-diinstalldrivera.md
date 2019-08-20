@@ -39,6 +39,7 @@ api_location:
  - Newdev.dll
 api_name:
  - DiInstallDriver
+ - DiInstallDriverA
 product: Windows
 targetos: Windows
 req.typenames: 

@@ -38,6 +38,7 @@ api_location:
  - setupapi.h
 api_name:
  - SP_DEVICE_INTERFACE_DETAIL_DATA
+ - sp_device_interface_detail_data_w
 product: Windows
 targetos: Windows
 req.typenames: SP_DEVICE_INTERFACE_DETAIL_DATA_W, *PSP_DEVICE_INTERFACE_DETAIL_DATA_W

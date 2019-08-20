@@ -38,6 +38,7 @@ api_location:
  - Loadperf.dll
 api_name:
  - InstallPerfDll
+ - InstallPerfDllW
 product: Windows
 targetos: Windows
 req.typenames: 

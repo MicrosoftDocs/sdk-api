@@ -40,6 +40,7 @@ api_name:
  - TOOLINFO
  - TOOLINFOA
  - TOOLINFOW
+ - tttoolinfow
 product: Windows
 targetos: Windows
 req.typenames: TTTOOLINFOW, *PTOOLINFOW, *LPTTTOOLINFOW

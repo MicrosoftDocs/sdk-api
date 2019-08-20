@@ -40,6 +40,7 @@ api_name:
  - EnumRegisterWordProc
  - EnumRegisterWordProcA
  - EnumRegisterWordProcW
+ - registerwordenumproca
 product: Windows
 targetos: Windows
 req.typenames: 

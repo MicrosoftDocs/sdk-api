@@ -38,6 +38,7 @@ api_location:
  - mmeapi.h
 api_name:
  - MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
+ - mixercontrola
 product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLA, *PMIXERCONTROLA, *LPMIXERCONTROLA

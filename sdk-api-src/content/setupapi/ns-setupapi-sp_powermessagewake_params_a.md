@@ -38,6 +38,7 @@ api_location:
 - setupapi.h
 api_name:
 - SP_POWERMESSAGEWAKE_PARAMS
+ - sp_powermessagewake_params_a
 product: Windows
 targetos: Windows
 req.typenames: SP_POWERMESSAGEWAKE_PARAMS_A, *PSP_POWERMESSAGEWAKE_PARAMS_A

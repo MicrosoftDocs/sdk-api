@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiCreateDeviceInterface
+ - SetupDiCreateDeviceInterfaceW
 product: Windows
 targetos: Windows
 req.typenames: 

@@ -38,6 +38,7 @@ api_location:
 - Shellapi.h
 api_name:
 - SHELLEXECUTEINFO
+ - SHELLEXECUTEINFOW
 product: Windows
 targetos: Windows
 req.typenames: SHELLEXECUTEINFOW, *LPSHELLEXECUTEINFOW

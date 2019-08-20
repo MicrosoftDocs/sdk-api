@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiSetSelectedDriver
+ - SetupDiSetSelectedDriverW
 product: Windows
 targetos: Windows
 req.typenames: 

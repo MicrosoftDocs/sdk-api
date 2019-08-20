@@ -38,6 +38,7 @@ api_location:
  - setupapi.h
 api_name:
  - SP_DEVINFO_LIST_DETAIL_DATA
+ - sp_devinfo_list_detail_data_a
 product: Windows
 targetos: Windows
 req.typenames: SP_DEVINFO_LIST_DETAIL_DATA_A, *PSP_DEVINFO_LIST_DETAIL_DATA_A

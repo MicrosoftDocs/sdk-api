@@ -38,6 +38,7 @@ api_location:
 - Shellapi.h
 api_name:
 - SHFILEOPSTRUCT
+ - SHFILEOPSTRUCTW
 product: Windows
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW

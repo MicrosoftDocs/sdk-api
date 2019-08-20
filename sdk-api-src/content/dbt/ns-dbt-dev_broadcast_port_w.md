@@ -38,6 +38,7 @@ api_location:
 - Dbt.h
 api_name:
 - DEV_BROADCAST_PORT
+ - dev_broadcast_port_w
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_PORT_W, *PDEV_BROADCAST_PORT_W

@@ -38,6 +38,7 @@ api_location:
  - Shellapi.h
 api_name:
  - SHFILEINFO
+ - SHFILEINFOA
 product: Windows
 targetos: Windows
 req.typenames: SHFILEINFOA

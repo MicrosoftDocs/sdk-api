@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiOpenDeviceInterface
+ - SetupDiOpenDeviceInterfaceA
 product: Windows
 targetos: Windows
 req.typenames: 

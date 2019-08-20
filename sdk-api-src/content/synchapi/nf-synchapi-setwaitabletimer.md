@@ -68,8 +68,8 @@ Activates the specified waitable timer. When the due time arrives, the timer is 
 ### -param hTimer [in]
 
 A handle to the timer object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createwaitabletimera">CreateWaitableTimer</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openwaitabletimera">OpenWaitableTimer</a> function returns this handle. 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createwaitabletimerw">CreateWaitableTimer</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimer</a> function returns this handle. 
 
 
 
