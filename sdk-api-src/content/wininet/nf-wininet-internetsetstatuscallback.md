@@ -61,8 +61,7 @@ The InternetSetStatusCallback function sets up a callback function that WinINet 
 
 ### -param hInternet [in]
 
-The
-						handle for which the callback is set.
+The handle for which the callback is set.
 
 
 ### -param lpfnInternetCallback [in]

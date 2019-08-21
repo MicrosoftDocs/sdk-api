@@ -39,7 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiSetClassInstallParams
- - SetupDiSetClassInstallParamsW
+- SetupDiSetClassInstallParamsW
 product: Windows
 targetos: Windows
 req.typenames: 

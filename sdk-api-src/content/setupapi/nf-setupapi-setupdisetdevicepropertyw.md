@@ -39,6 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiSetDeviceProperty
+- SetupDiSetDevicePropertyW
 product: Windows
 targetos: Windows
 req.typenames: 

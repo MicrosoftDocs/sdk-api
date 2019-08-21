@@ -39,7 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiGetDeviceInstallParams
- - SetupDiGetDeviceInstallParamsW
+- SetupDiGetDeviceInstallParamsW
 product: Windows
 targetos: Windows
 req.typenames: 
