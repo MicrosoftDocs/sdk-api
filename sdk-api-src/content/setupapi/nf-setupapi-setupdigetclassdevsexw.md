@@ -39,7 +39,7 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiGetClassDevsEx
- - SetupDiGetClassDevsExW
+- SetupDiGetClassDevsExW
 product: Windows
 targetos: Windows
 req.typenames: 
