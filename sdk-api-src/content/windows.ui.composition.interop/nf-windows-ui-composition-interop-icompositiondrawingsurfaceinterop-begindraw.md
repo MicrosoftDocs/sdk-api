@@ -91,7 +91,7 @@ The offset into the surface where the application should draw updated content. T
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b>HRESULT</b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 

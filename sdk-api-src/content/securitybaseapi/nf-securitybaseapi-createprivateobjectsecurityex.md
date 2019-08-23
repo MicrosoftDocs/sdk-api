@@ -382,7 +382,7 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/win32/api/securitybaseapi/#functions">Client/Server Access Control Functions</a>
 
 
 

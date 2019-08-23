@@ -84,7 +84,7 @@ Indicates how a strongly-typed effect property maps to an underlying Direct2D ef
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b>HRESULT</b>
 
 This method returns an HRESULT success or error code.
 

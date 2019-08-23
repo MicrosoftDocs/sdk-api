@@ -70,7 +70,7 @@ When the method returns, this parameter will contain the source count for the ef
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b>HRESULT</b>
 
 This method returns an HRESULT success or error code.
 

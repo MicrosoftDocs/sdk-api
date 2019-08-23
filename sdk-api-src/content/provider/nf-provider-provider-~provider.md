@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Destructor for the [Provider](nl-provider-provider) class.
+Destructor for the [Provider](nl-provider-provider.md) class.
 
 ## -remarks
 

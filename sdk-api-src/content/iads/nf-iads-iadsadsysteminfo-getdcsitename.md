@@ -174,8 +174,7 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 
-<a href="ad.active_directory_core_concepts">Active Directory Core
-    Concepts</a>
+<a href="https://docs.microsoft.com/windows/win32/ad/core-concepts-of-active-directory-domain-services">Active Directory Core Concepts</a>
 
 
 

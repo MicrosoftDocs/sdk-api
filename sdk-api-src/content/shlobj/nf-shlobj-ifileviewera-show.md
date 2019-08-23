@@ -54,7 +54,7 @@ A pointer to an [FVSHOWINFO](https://docs.microsoft.com/windows/desktop/api/shlo
 
 ## -returns
 
-Returns S_OK if successful, or E_UNEXPECTED if the [IFileViewerA::ShowInitialize](nf-shlobj-ifileviewera-showinitialize) method was not called before **IFileViewerA::Show**.
+Returns S_OK if successful, or E_UNEXPECTED if the [ShowInitialize](nf-shlobj-ifileviewera-showinitialize.md) method was not called before **IFileViewerA::Show**.
 
 ## -remarks
 
