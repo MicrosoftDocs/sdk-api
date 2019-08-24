@@ -109,7 +109,7 @@ Copy hook handlers for printers are registered under the following key.
 
 **HKEY_CLASSES_ROOT/Printers/Shellex/CopyHookHandlers/your_copyhook/{copyhook CLSID value}**
                 
-When this method is called, the Shell initializes the [ICopyHookA](nn-shlobj-icopyhooka) interface directly without using an [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.               
+When this method is called, the Shell initializes the [ICopyHookA](nn-shlobj-icopyhooka.md) interface directly without using an [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.               
 
 ## -see-also
 

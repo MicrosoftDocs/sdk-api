@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-Exposes a method that creates a *copy hook handler*. A copy hook handler is a Shell extension that determines if a Shell folder or printer object can be moved, copied, renamed, or deleted. The Shell calls the [ICopyHookA::CopyCallback](nf-shlobj-icopyhooka-copycallback) method prior to performing one of these operations.
+Exposes a method that creates a *copy hook handler*. A copy hook handler is a Shell extension that determines if a Shell folder or printer object can be moved, copied, renamed, or deleted. The Shell calls the [ICopyHookA::CopyCallback](nf-shlobj-icopyhooka-copycallback.md) method prior to performing one of these operations.
 
 ## -remarks
 
@@ -51,11 +51,11 @@ A folder object can have multiple copy hook handlers. For example, even if the S
 
 The Shell initializes **ICopyHookA** directly, without using the [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.
 
-[CopyCallback](nf-shlobj-icopyhooka-copycallback) returns an int value that indicates whether the Shell should perform the operation. The Shell will call each copy hook handler registered for a folder object until all the handlers have been called or until one of them has returned a value other than IDYES. The handler returns IDYES to specify that the operation should be performed, or IDNO or IDCANCEL to specify that the operation should be discontinued.
+[CopyCallback](nf-shlobj-icopyhooka-copycallback.md) returns an int value that indicates whether the Shell should perform the operation. The Shell will call each copy hook handler registered for a folder object until all the handlers have been called or until one of them has returned a value other than IDYES. The handler returns IDYES to specify that the operation should be performed, or IDNO or IDCANCEL to specify that the operation should be discontinued.
 
 Implement a copy hook handler when you want to be able to control when, or if, these file system operations are performed on a given object. You might want to use a copy hook handler on shared folders, for example.
 
-You do not call this Shell extension directly. [CopyCallback](nf-shlobj-icopyhooka-copycallback) is called by the Shell prior to moving, copying, deleting, or renaming a Shell folder object.
+You do not call this Shell extension directly. [CopyCallback](nf-shlobj-icopyhooka-copycallback.md) is called by the Shell prior to moving, copying, deleting, or renaming a Shell folder object.
 		
 
 ## -see-also

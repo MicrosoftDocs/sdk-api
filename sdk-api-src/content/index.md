@@ -54,7 +54,7 @@ Using the Windows API, you can develop applications that run successfully on all
         </a>
     </li>
     <li>
-        <a href="https://developer.microsoft.com/en-us/windows/samples">
+        <a href="https://developer.microsoft.com/windows/samples">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -99,8 +99,6 @@ Using the Windows API, you can develop applications that run successfully on all
                         <h3>Audio and Video</h3>
                         <p><a href="_mf/index.md">Microsoft Media Foundation</a></p>
                         <p><a href="_multimedia/index.md">Windows Multimedia</a></p>
-                        <p><a href="_wmformat/index.md">Windows Media Format 11 SDK</a></p>
-                        <p><a href="_wmp/index.md">Windows Media Player SDK</a></p>
                         <p><a href="_xaudio2/index.md">XAudio2 APIs</a></p>
                         <p><a href="_coreaudio/index.md">Core Audio APIs</a></p>
                         <p><a href="_audio/index.md">Audio Devices DDI Reference</a></p>
@@ -143,7 +141,7 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_kernel/index.md">Kernel-Mode Driver Reference</a></p>
                         <p><a href="_netvista/index.md">Network Drivers</a></p>
                         <p><a href="_powermeter/index.md">Power Metering and Budgeting Reference</a></p>
-                        <p><a href="_print/index.md">Print DDI reference</a></p>
+                        <p><a href="https://docs.microsoft.com/windows-hardware/drivers/print/">Print DDI reference</a></p>
                         <p><a href="_sens/index.md">System Event Notification Service</a></p>
                         <p><a href="_serports/index.md">Serial Controller Driver Reference</a></p>
                         <p><a href="_storage/index.md">Storage driver DDI reference</a></p>
@@ -169,7 +167,6 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_devtest/index.md">Driver Development Tools Reference</a></p>
                         <p><a href="_etw/index.md">Event Tracing</a></p>
                         <p><a href="_ndf/index.md">Network Diagnostics Framework</a></p>
-                        <p><a href="_netmon/index.md">Network Monitor</a></p>
                         <p><a href="_perf/index.md">Performance Counters</a></p>
                         <p><a href="_psapi/index.md">Process Status API (PSAPI)</a></p>
                         <p><a href="_recovery/index.md">Application Recovery and Restart</a></p>
@@ -194,17 +191,14 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_direct3d10/index.md">Direct3D 10 Graphics</a></p>
                         <p><a href="_direct3d11/index.md">Direct3D 11 Graphics</a></p>
                         <p><a href="_direct3d12/index.md">Direct3D 12 Graphics</a></p>
-                        <p><a href="_direct3ddds/index.md">DDS</a></p>
                         <p><a href="_direct3ddxgi/index.md">DXGI</a></p>
                         <p><a href="_direct3dhlsl/index.md">HLSL</a></p>
                         <p><a href="_directcomp/index.md">DirectComposition</a></p>
                         <p><a href="_directdraw/index.md">DirectDraw</a></p>
                         <p><a href="_directwrite/index.md">DirectWrite</a></p>
-                        <p><a href="_dshow/index.md">DirectShow</a></p>
                         <p><a href="_dxmath/index.md">DirectXMath</a></p>
                         <p><a href="_gdi/index.md">Windows GDI</a></p>
                         <p><a href="_gdiplus/index.md">GDI+</a></p>
-                        <p><a href="_mediastreaming/index.md">Media Streaming API</a></p>
                         <p><a href="_monitor/index.md">Monitor Configuration</a></p>
                         <p><a href="_opengl/index.md">OpenGL</a></p>
                         <p><a href="_wic/index.md">Windows Imaging Component</a></p>
@@ -277,7 +271,6 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_nfswmi/index.md">WMI Provider for NFS</a></p>
                         <p><a href="_sr/index.md">System Restore</a></p>
                         <p><a href="_taskschd/index.md">Task Scheduler</a></p>
-                        <p><a href="_vpc/index.md">Windows Virtual PC</a></p>
                         <p><a href="_wds/index.md">Windows Deployment Services</a></p>
                         <p><a href="_winrm/index.md">Windows Remote Management</a></p>
                         <p><a href="_winsat/index.md">Windows System Assessment Tool</a></p>
@@ -296,7 +289,7 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_cmpapi/index.md">Compression API</a></p>
                         <p><a href="_com/index.md">Component Object Model (COM)</a></p>
                         <p><a href="_cos/index.md">COM+ (Component Services)</a></p>
-                        <p><a href="_midl/index.md">Microsoft Interface Definition Language (MIDL)</a></p>
+                        <p><a href="https://docs.microsoft.com/windows/win32/midl">Microsoft Interface Definition Language (MIDL)</a></p>
                         <p><a href="_stg/index.md">Structured Storage</a></p>
                     </div>
                 </div>

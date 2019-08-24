@@ -431,9 +431,7 @@ The following defaults should be used if any of the preceding messages are missi
 
 ### -param hRecord
 
-Specifies a handle to the record object. For information about record objects, see the 
-      <a href="database_functions.htm">Record Processing 
-      Functions</a>.
+Specifies a handle to the record object. For information about record objects, see the <a href="https://docs.microsoft.com/windows/win32/msi/database-functions#record-processing-functions">Record Processing Functions</a>.
 
 
 ## -returns

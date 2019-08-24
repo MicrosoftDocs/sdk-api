@@ -65,7 +65,7 @@ Suspends drawing on the surface object.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b>HRESULT</b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
