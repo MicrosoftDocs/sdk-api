@@ -33,7 +33,7 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - DllExport
 api_location:
  - MethodCo.h
 api_name:

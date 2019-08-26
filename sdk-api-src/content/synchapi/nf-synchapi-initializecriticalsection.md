@@ -42,6 +42,7 @@ api_location:
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - vertdll.dll
 api_name:
  - InitializeCriticalSection
 product: Windows

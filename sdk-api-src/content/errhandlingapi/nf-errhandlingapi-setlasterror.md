@@ -43,6 +43,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - vertdll.dll
 api_name:
  - SetLastError
 product: Windows
