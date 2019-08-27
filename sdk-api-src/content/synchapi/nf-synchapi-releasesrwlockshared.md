@@ -43,6 +43,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - ntdll.dll
+ - vertdll.dll
 api_name:
  - ReleaseSRWLockShared
  - RtlReleaseSRWLockShared

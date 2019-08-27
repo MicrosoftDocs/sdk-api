@@ -44,6 +44,7 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Libraryloader-l1-2-1.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+ - vertdll.dll
 api_name:
  - GetProcAddress
 product: Windows
