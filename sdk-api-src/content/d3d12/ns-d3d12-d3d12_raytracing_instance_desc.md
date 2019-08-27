@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_raytracing_instance_desc.htm
 tech.root: direct3d12
 ms.assetid: 816B0281-EC69-4EA1-AE32-6B3E178117DE
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 08/26/2019
 ms.keywords: D3D12_RAYTRACING_INSTANCE_DESC, D3D12_RAYTRACING_INSTANCE_DESC structure, PD3D12_RAYTRACING_INSTANCE_DESC, PD3D12_RAYTRACING_INSTANCE_DESC structure pointer, d3d12/D3D12_RAYTRACING_INSTANCE_DESC, d3d12/PD3D12_RAYTRACING_INSTANCE_DESC, direct3d12.d3d12_raytracing_instance_desc
 ms.topic: struct
 f1_keywords: 
@@ -47,57 +47,53 @@ ms.custom: 19H1
 
 # D3D12_RAYTRACING_INSTANCE_DESC structure
 
-
 ## -description
-
 
 Describes an instance of a raytracing acceleration structure used in GPU memory during the acceleration structure build process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Transform
 
-A 3x4 transform matrix in row-major layout representing the instance-to-world transformation. .  Implementations transform rays, as opposed to transforming all of the geometry or AABBs.
+Type: **[FLOAT](/windows/win32/winprog/windows-data-types) \[3\]\[4\]**
 
+A 3x4 transform matrix in row-major layout representing the instance-to-world transformation. Implementations transform rays, as opposed to transforming all of the geometry or AABBs.
+
+> [!NOTE]
+> The layout of `Transform` is a transpose of how affine matrices are typically stored in memory. Instead of four 3-vectors, `Transform` is laid out as three 4-vectors.
 
 ### -field InstanceID
 
-  An arbitrary 24-bit value that can be accessed using <b>InstanceID</b> intrinsic function in supported shader types.
+Type: **[UINT](/windows/win32/winprog/windows-data-types) : 24**
 
+An arbitrary 24-bit value that can be accessed using the `InstanceID` intrinsic function in supported shader types.
 
 ### -field InstanceMask
 
-An 8-bit mask assigned to the instance, which can be used to include/reject groups of instances on a per-ray basis. If the value is zero, the instance will never be included, so typically this should be set to some nonzero value. For more information see, the <b>InstanceInclusionMask</b> parameter to the  <b>TraceRay</b> method.
+Type: **[UINT](/windows/win32/winprog/windows-data-types) : 8**
 
+An 8-bit mask assigned to the instance, which can be used to include/reject groups of instances on a per-ray basis. If the value is zero, then the instance will never be included, so typically this should be set to some non-zero value. For more information see, the `InstanceInclusionMask` parameter to the [TraceRay](/windows/win32/direct3d12/traceray-function) function.
 
 ### -field InstanceContributionToHitGroupIndex
 
-Per-instance contribution to add into shader table indexing to select the hit group to use.  
+Type: **[UINT](/windows/win32/winprog/windows-data-types) : 24**
 
+An arbitrary 24-bit value representing per-instance contribution to add into shader table indexing to select the hit group to use.  
 
 ### -field Flags
 
-Flags to apply to the instance.
+Type: **[UINT](/windows/win32/winprog/windows-data-types) : 8**
 
+An 8-bit mask representing flags to apply to the instance.
 
 ### -field AccelerationStructure
 
-Address of the bottom-level acceleration structure that is being instanced. The address must be aligned to 256 bytes, defined as <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>. Any existing acceleration structure passed in here would was already been required to be placed with such alignment.
+Type: **[D3D12_GPU_VIRTUAL_ADDRESS](/windows/win32/direct3d12/d3d12_gpu_virtual_address)**
 
-The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>. 
+Address of the bottom-level acceleration structure that is being instanced. The address must be aligned to 256 bytes, defined as [D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT](/windows/win32/direct3d12/constants). Any existing acceleration structure passed in here would already have been required to be placed with such alignment.
 
-
-
+The memory pointed to must be in state [D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
 
 ## -remarks
 
-
-
-This C++ struct definition is useful if generating instance data on the CPU first then uploading to the GPU.  But apps are also free to generate instance descriptions directly into GPU memory from compute shaders for instance, following the same layout.
-
-
-
+This C++ struct definition is useful if you're generating instance data on the CPU first, then uploading to the GPU. But your application is also free to generate instance descriptions directly into GPU memory (from compute shaders, for instance) following the same layout.
