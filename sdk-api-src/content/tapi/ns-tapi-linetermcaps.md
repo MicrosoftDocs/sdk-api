@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINETERMCAPS</b> structure describes the capabilities of a line's terminal device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure can contain an array of 
 <b>LINETERMCAPS</b> structures.
 
 
@@ -94,7 +94,7 @@ This structure may not be extended.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

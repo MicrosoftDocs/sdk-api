@@ -61,7 +61,7 @@ The <b>PeerCollabQueryContactData</b> function retrieves the contact information
 
 ### -param pcEndpoint [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint about which to obtain contact information. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the peer endpoint about which to obtain contact information. 
 
 If this parameter is set to <b>NULL</b>, the contact information for the current peer endpoint is obtained.
 
@@ -141,7 +141,7 @@ To retrieve contact data for an endpoint  successfully, one of the following mus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 

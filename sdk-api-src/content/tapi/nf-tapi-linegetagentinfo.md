@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>lineGetAgentInfo</b> function returns a structure holding the ACD information associated with a particular agent handle. It generates a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETAGENTINFO.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETAGENTINFO.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Identifier of the agent whose information is to be retrieved.
 ### -param lpAgentInfo
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo_tag">LINEAGENTINFO</a>. If the request succeeds, this structure is filled with the agent statistics. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo">LINEAGENTINFO</a>. If the request succeeds, this structure is filled with the agent statistics. 
 
 
 ## -returns
@@ -95,7 +95,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 Prior to calling the 
 <b>lineGetAgentInfo</b> function, the application should set the <b>dwTotalSize</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo_tag">LINEAGENTINFO</a> structure to indicate the amount of memory available to TAPI for returning information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo">LINEAGENTINFO</a> structure to indicate the amount of memory available to TAPI for returning information.
 
 
 
@@ -109,11 +109,11 @@ Prior to calling the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo_tag">LINEAGENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo">LINEAGENTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 

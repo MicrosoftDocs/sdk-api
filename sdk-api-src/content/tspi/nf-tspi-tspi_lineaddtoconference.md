@@ -73,7 +73,7 @@ The handle to the conference call. The call state of <i>hdConfCall</i> can be <i
 ### -param hdConsultCall
 
 The handle to the call to be added to the conference call. This call cannot be either a parent of another conference or a participant in any conference. Depending on the device capabilities indicated in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>, the <i>hdConsultCall</i> parameter may not necessarily have been established using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>, the <i>hdConsultCall</i> parameter may not necessarily have been established using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineprepareaddtoconference">TSPI_linePrepareAddToConference</a>. The call state of <i>hdConsultCall</i> can be <i>connected</i>, <i>onHold</i>, <i>proceeding</i>, or <i>ringback</i>.
 

@@ -68,7 +68,7 @@ The line device to be configured.
 ### -param lpDeviceConfig
 
 A pointer to a data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> where the device configuration structure of the associated device is returned. Upon successful completion of the request, the service provider fills this data structure with the device configuration. The <b>dwStringFormat</b> member in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device configuration structure of the associated device is returned. Upon successful completion of the request, the service provider fills this data structure with the device configuration. The <b>dwStringFormat</b> member in the 
 <b>VARSTRING</b> structure must be set to STRINGFORMAT_BINARY. If the <b>dwTotalSize</b> member of the 
 <b>VARSTRING</b> structure pointed to by the <i>lpDeviceConfig</i> parameter is greater than or equal to the size of the fixed portion of the structure, the service provider sets the <b>dwNeededSize</b> member to the required size and returns zero.
 
@@ -147,7 +147,7 @@ The exact format of the data contained within the structure returned by this fun
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
  
 
  

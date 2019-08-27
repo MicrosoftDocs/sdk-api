@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PEER_EVENT_SYNCHRONIZED_DATA</b> is pointed to by a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a> structure's union if a PEER_GRAPH_EVENT_RECORD_CHANGE or  PEER_GROUP_EVENT_RECORD_CHANGE event is triggered. The <b>PEER_EVENT_SYNCHRONIZED_DATA</b> structure indicates the type of record that has been synchronized.
+The <b>PEER_EVENT_SYNCHRONIZED_DATA</b> is pointed to by a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure's union if a PEER_GRAPH_EVENT_RECORD_CHANGE or  PEER_GROUP_EVENT_RECORD_CHANGE event is triggered. The <b>PEER_EVENT_SYNCHRONIZED_DATA</b> structure indicates the type of record that has been synchronized.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ This event only occurs if an application has specified a record synchronization 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
  
 
  

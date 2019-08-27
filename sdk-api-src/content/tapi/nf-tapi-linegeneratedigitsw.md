@@ -91,7 +91,7 @@ The exclamation (!) is a valid character. This character causes a "hookflash" op
 ### -param dwDuration
 
 Both the duration in milliseconds of DTMF digits and pulse and DTMF inter-digit spacing. A value of 0 uses a default value. The <i>dwDuration</i> parameter must be within the range specified by <b>MinDialParams</b> and <b>MaxDialParams</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. If out of range, the actual value is set to the nearest value in the range.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. If out of range, the actual value is set to the nearest value in the range.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Depending on the service provider and hardware, the application can monitor the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

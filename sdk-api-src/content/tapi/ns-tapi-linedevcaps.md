@@ -166,7 +166,7 @@ Tones that can be generated on this line. This member uses one or more of the
 ### -field dwGenerateToneMaxNumFreq
 
 Maximum number of frequencies that can be specified in describing a general tone using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a> data structure when generating a tone using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a> data structure when generating a tone using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>. A value of 0 indicates that tone generation is not available.
 
 
@@ -179,7 +179,7 @@ Digit modes than can be generated on this line. This member uses one or more of 
 ### -field dwMonitorToneMaxNumFreq
 
 Maximum number of frequencies that can be specified in describing a general tone using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a> data structure when monitoring a general tone using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a> data structure when monitoring a general tone using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>. A value of 0 indicates that tone monitor is not available.
 
 
@@ -289,7 +289,7 @@ Maximum size of user-user information, including the <b>null</b> terminator, tha
 ### -field dwUUICallInfoSize
 
 Maximum size of user-user information, including the <b>null</b> terminator, that can be received in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. 
 
 
 ### -field MinDialParams
@@ -315,13 +315,13 @@ Number of terminals that can be set for this line device, its addresses, or its 
 ### -field dwTerminalCapsSize
 
 Size of the variably sized device field containing an array with entries of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>, in bytes.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps">LINETERMCAPS</a>, in bytes.
 
 
 ### -field dwTerminalCapsOffset
 
 Offset from the beginning of this structure to the variably sized device field containing an array with entries of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>. This array is indexed by terminal IDs, in the range from zero to <b>dwNumTerminals</b> minus one. Each entry in the array specifies the terminal device capabilities of the corresponding terminal. The size of the field is specified by <b>dwTerminalCapsSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps">LINETERMCAPS</a>. This array is indexed by terminal IDs, in the range from zero to <b>dwNumTerminals</b> minus one. Each entry in the array specifies the terminal device capabilities of the corresponding terminal. The size of the field is specified by <b>dwTerminalCapsSize</b>.
 
 
 ### -field dwTerminalTextEntrySize
@@ -429,23 +429,23 @@ The members <b>dwSettableDevStatus</b> through <b>dwDeviceClassesOffset</b> are 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps">LINETERMCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps_tag">LINETRANSLATECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a>
 
 
 

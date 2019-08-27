@@ -102,7 +102,7 @@ Pointer to the value held by the <b>pvContext</b> member of <b>DRT_SECURITY_PROV
 
 #### pRegistration
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration_tag">DRT_REGISTRATION</a> structure created by an application and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a> structure created by an application and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function.
 
 
 
@@ -324,7 +324,7 @@ Specifies what  data to free.
 
 ### -field EncryptData
 
-Called when the DRT sends a message containing data that must be encrypted. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>.
+Called when the DRT sends a message containing data that must be encrypted. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -365,7 +365,7 @@ Contains the encrypted session key that can be decrypted by the recipient of the
 
 ### -field DecryptData
 
-Called when the DRT receives a message containing encrypted data. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>.
+Called when the DRT receives a message containing encrypted data. This function is only called when the DRT is operating in the <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security mode defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -400,7 +400,7 @@ Contains the decrypted data upon completion of the function.
 
 ### -field GetSerializedCredential
 
-Called when the DRT must provide a credential used to authorize the local node. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>.
+Called when the DRT must provide a credential used to authorize the local node. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -434,7 +434,7 @@ Contains the serialized credential provided by the peer node.
 
 ### -field SignData
 
-Called when the DRT must sign a data blob for inclusion in a DRT protocol message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>.
+Called when the DRT must sign a data blob for inclusion in a DRT protocol message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -469,7 +469,7 @@ Upon completion of this function, contains the signature data.
 
 ### -field VerifyData
 
-Called when the DRT must verify a signature calculated over a block of data included in a DRT message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>.
+Called when the DRT must verify a signature calculated over a block of data included in a DRT message. This function is only called when the DRT is operating in the <b>DRT_SECURE_MEMBERSHIP</b> and <b>DRT_SECURE_CONFIDENTIALPAYLOAD</b> security modes defined by <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>.
 
 
 
@@ -513,7 +513,7 @@ Contains the signature to be verified.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode_tag">DRT_SECURITY_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_security_mode">DRT_SECURITY_MODE</a>
 
 
 

@@ -85,7 +85,7 @@ An address identifier is permanently associated with an address; the identifier 
 ### -param lpForwardList
 
 Pointer to a variably sized data structure that describes the specific forwarding instructions, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>.
 
 
 ### -param dwNumRingsNoAnswer
@@ -101,7 +101,7 @@ Pointer to an HCALL location. In some telephony environments, this location is l
 ### -param lpCallParams
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>. This pointer is ignored unless 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is ignored unless 
 <b>lineForward</b> requires the establishment of a call to the forwarding destination (and <i>lphConsultCall</i> is returned, in which case <i>lpCallParams</i> is optional). If <b>NULL</b>, default call parameters are used. Otherwise, the specified call parameters are used for establishing <i>hConsultCall</i>.
 
 
@@ -135,7 +135,7 @@ The success or failure of this operation does not depend on the previous set of 
 
 Invoking 
 <b>lineForward</b> when 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> has <i>dwNumEntries</i> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter. It cancels all forwarding currently in effect.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> has <i>dwNumEntries</i> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter. It cancels all forwarding currently in effect.
 
 
 
@@ -149,11 +149,11 @@ Invoking
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>
 
 
 

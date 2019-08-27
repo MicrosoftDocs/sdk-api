@@ -75,7 +75,7 @@ Highest version of TAPI supported by the application (not necessarily the value 
 
 ### -param lpLineCountryList
 
-Pointer to a location to which a <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a> structure is loaded. Prior to calling 
+Pointer to a location to which a <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist">LINECOUNTRYLIST</a> structure is loaded. Prior to calling 
 <b>lineGetCountry</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
@@ -105,7 +105,7 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist_tag">LINECOUNTRYLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountrylist">LINECOUNTRYLIST</a>
 
 
 

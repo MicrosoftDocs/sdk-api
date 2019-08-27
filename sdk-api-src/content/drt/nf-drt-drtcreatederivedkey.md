@@ -95,8 +95,8 @@ This function returns S_OK on success. Other possible values include:
 <ul>
 <li><i>pLocalCert</i> is <b>NULL</b>.</li>
 <li><i>pKey</i> is <b>NULL</b>.</li>
-<li>The <b>pb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure  is <b>NULL</b>.</li>
-<li>The <b>cb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure is not equal to 32 bytes.</li>
+<li>The <b>pb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure  is <b>NULL</b>.</li>
+<li>The <b>cb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure is not equal to 32 bytes.</li>
 </ul>
 </td>
 </tr>

@@ -61,7 +61,7 @@ The <b>PeerCollabGetSigninOptions</b> function obtains the peer's current signed
 
 ### -param pdwSigninOptions [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function. 
 
 
 ## -returns
@@ -130,7 +130,7 @@ The application has not signed into the peer collaboration network with a previo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a>
 
 
 

@@ -122,7 +122,7 @@ Size of the forwarding information array, in bytes.
 ### -field dwForwardOffset
 
 Offset from the beginning of the structure to the variably sized field that describes the address's forwarding information. This information is an array of <b>dwForwardNumEntries</b> elements, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> structure. The offsets <b>dwCallerAddressOffset</b> and <b>dwDestAddressOffset</b> in the variably sized field of type 
 <b>LINEFORWARD</b> pointed to by <i>dwForwardOffset</i> are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> data structure (the "root" container). The size of the array is specified by <b>dwForwardSize</b>.
@@ -169,7 +169,7 @@ This data structure is returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>
 
 
 

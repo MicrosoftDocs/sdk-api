@@ -61,12 +61,12 @@ The <b>PEER_GROUP_EVENT_TYPE</b> enumeration contains the specific peer event ty
 
 ### -field PEER_GROUP_EVENT_STATUS_CHANGED
 
-The status of the group has changed. This peer event is fired when one of the flags listed in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a> enumeration are set or changed for the group.
+The status of the group has changed. This peer event is fired when one of the flags listed in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status">PEER_GROUP_STATUS</a> enumeration are set or changed for the group.
 
 
 ### -field PEER_GROUP_EVENT_PROPERTY_CHANGED
 
-A member in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> structure has changed.   The application already has the change and must use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a> to get the updated structure. This peer event does not have associated data present in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a> to retrieve.
+A member in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure has changed.   The application already has the change and must use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a> to get the updated structure. This peer event does not have associated data present in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a> to retrieve.
 
 
 ### -field PEER_GROUP_EVENT_RECORD_CHANGED
@@ -114,7 +114,7 @@ The connection to the peer group has failed. No data is provided when this peer 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a>
  
 
  

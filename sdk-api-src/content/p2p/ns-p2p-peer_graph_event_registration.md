@@ -61,7 +61,7 @@ The <b>PEER_GRAPH_EVENT_REGISTRATION</b> structure is used during registration f
 
 ### -field eventType
 
-Specifies the type of peer event the application requires notifications for. The per events that can be registered for are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type_tag">PEER_GRAPH_EVENT_TYPE</a> enumeration.
+Specifies the type of peer event the application requires notifications for. The per events that can be registered for are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a> enumeration.
 
 
 ### -field pType
@@ -74,7 +74,7 @@ If the peer event specified by  <b>eventType</b>  relates to records, use this m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type_tag">PEER_GRAPH_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_event_type">PEER_GRAPH_EVENT_TYPE</a>
 
 
 

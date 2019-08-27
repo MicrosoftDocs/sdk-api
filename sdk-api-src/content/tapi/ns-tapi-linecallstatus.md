@@ -224,7 +224,7 @@ The members <b>dwCallFeatures2</b> and <b>tStateEntryTime</b> are available only
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 

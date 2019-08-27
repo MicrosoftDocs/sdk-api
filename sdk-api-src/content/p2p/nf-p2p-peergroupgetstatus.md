@@ -66,7 +66,7 @@ Handle to a peer group whose status is returned. This handle is returned by the 
 
 ### -param pdwStatus [out]
 
-Pointer to a set of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a> flags that describe the status of a peer group.
+Pointer to a set of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status">PEER_GROUP_STATUS</a> flags that describe the status of a peer group.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status">PEER_GROUP_STATUS</a>
 
 
 

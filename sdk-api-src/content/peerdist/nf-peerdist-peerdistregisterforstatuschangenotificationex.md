@@ -81,7 +81,7 @@ Pointer to an <a href="http://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPP
 
 ### -param pPeerDistStatus [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
 
 
 ## -returns

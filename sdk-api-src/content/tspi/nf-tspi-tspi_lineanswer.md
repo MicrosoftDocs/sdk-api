@@ -73,7 +73,7 @@ The service provider's handle to the call to be answered. The call state of <i>h
 ### -param lpsUserUserInfo
 
 A pointer to a <b>null</b>-terminated string containing user-user information to be sent to the remote party at the time of answering the call. If this pointer is <b>NULL</b>, it indicates that no user-user information is to be sent. User-user information is only sent if supported by the underlying network (as indicated in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 
 ### -param dwSize
@@ -119,7 +119,7 @@ If a call is offered at the time another call is already active, the new call is
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

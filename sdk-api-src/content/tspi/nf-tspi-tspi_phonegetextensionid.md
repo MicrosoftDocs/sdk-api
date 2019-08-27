@@ -74,7 +74,7 @@ Specifies an interface version number that is negotiated for this device using
 ### -param lpExtensionID
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid_tag">PHONEEXTENSIONID</a>. If the service provider supports provider-specific extensions, it fills this structure with the extension identifier of these extensions. If the service provider does not support extensions, it fills this structure with all zeros. An extension identifier of all zeros is not a legal extension identifier, since the all-zeros value is used to indicate that the service provider does not support extensions.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>. If the service provider supports provider-specific extensions, it fills this structure with the extension identifier of these extensions. If the service provider does not support extensions, it fills this structure with all zeros. An extension identifier of all zeros is not a legal extension identifier, since the all-zeros value is used to indicate that the service provider does not support extensions.
 
 
 ## -returns
@@ -104,7 +104,7 @@ This function is typically called by TAPI in response to an application calling 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid_tag">PHONEEXTENSIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>
 
 
 

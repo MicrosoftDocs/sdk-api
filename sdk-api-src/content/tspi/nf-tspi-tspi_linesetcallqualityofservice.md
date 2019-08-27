@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineSetCallQualityOfService</b> function service provider attempts to renegotiate the QOS on the call with the switch If the desired QOS is not available, then the function fails, but the call continues with the previous QOS. If the function succeeds, the new QOS information is stored in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>; a LINECALLINFOSTATE_QOS message is sent by the service provider to indicate the updated values.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>; a LINECALLINFOSTATE_QOS message is sent by the service provider to indicate the updated values.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ LINEERR_INVALCALLSTATE, LINEERR_INVALRATE, LINEERR_NOMEM, LINEERR_OPERATIONFAILE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
  
 
  

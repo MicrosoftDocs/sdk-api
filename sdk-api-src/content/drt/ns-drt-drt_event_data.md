@@ -61,7 +61,7 @@ The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling 
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type_tag">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
 
 
 ### -field hr
@@ -192,7 +192,7 @@ This structure appears when the event has been raised to signal a state change i
 
 ##### status
 
-Contains the current <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status_tag">DRT_STATUS</a> of the  local DRT instance.
+Contains the current <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a> of the  local DRT instance.
 
 
 
@@ -218,11 +218,11 @@ Contains an array of addresses returned by the bootstrap provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type_tag">DRT_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status_tag">DRT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a>
 
 
 

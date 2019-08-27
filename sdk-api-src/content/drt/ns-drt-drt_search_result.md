@@ -66,7 +66,7 @@ The size of the <b>DRT_SEARCH_RESULT</b> structure.
 
 ### -field type
 
-Specifies  the exactness of the search. This member corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type_tag">DRT_MATCH_TYPE</a> enumeration.
+Specifies  the exactness of the search. This member corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a> enumeration.
 
 
 ### -field pvContext
@@ -89,7 +89,7 @@ The address that the DRT protocol is bound to on the node that corresponds to th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type_tag">DRT_MATCH_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type">DRT_MATCH_TYPE</a>
 
 
 

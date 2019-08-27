@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEQUEUEENTRY</b> structure provides the information for a single queue entry. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist_tag">LINEQUEUELIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a> structure can contain an array of 
 <b>LINEQUEUEENTRY</b> structures. This structure requires TAPI 3.0 version negotiation.
 
 
@@ -86,7 +86,7 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist_tag">LINEQUEUELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>
 
 
 

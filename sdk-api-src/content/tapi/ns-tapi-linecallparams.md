@@ -91,7 +91,7 @@ Minimum data rate requested for the call's data stream, in bps (bits per second)
 ### -field dwMaxRate
 
 Maximum data rate requested for the call's data stream, in bps (bits per second). When making a call, the service provider attempts to provide the highest available rate in the requested range (<b>dwMinRate</b> to <b>dwMaxRate</b>). If a specific data rate is required, both <b>dwMinRate</b> and <b>dwMaxRate</b> should be set to that value. If an application works best with one rate but is able to degrade to lower rates, the application should specify these as the maximum and minimum rates, respectively. If <b>dwMaxRate</b> is zero, the default value is as specified by the <b>dwMaxRate</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure. This is the maximum rate supported by the device.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure. This is the maximum rate supported by the device.
 
 
 ### -field dwMediaMode
@@ -128,8 +128,8 @@ Address identifier of the originating address if <b>dwAddressMode</b> is set to 
 ### -field DialParams
 
 Dial parameters to be used on this call, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>. When a value of 0 is specified for this field, the default value for the field is used as indicated in the <b>DefaultDialParams</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure. If a nonzero value is specified for a field that is outside the range specified by the corresponding fields in <b>MinDialParams</b> and <b>MaxDialParams</b> in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. When a value of 0 is specified for this field, the default value for the field is used as indicated in the <b>DefaultDialParams</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure. If a nonzero value is specified for a field that is outside the range specified by the corresponding fields in <b>MinDialParams</b> and <b>MaxDialParams</b> in the 
 <b>LINEDEVCAPS</b> structure, the nearest value within the valid range is used instead.
 
 
@@ -152,7 +152,7 @@ Size of the displayable string including the <b>null</b> terminator, in bytes.
 
 Displayable string used for logging purposes. The content of these members is recorded in the <b>dwDisplayableAddressOffset</b> and <b>dwDisplayableAddressSize</b> members of the call's LINECALLINFO message. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> function returns appropriate information to be placed in this field in the <b>dwDisplayableAddressSize</b> and <b>dwDisplayableAddressOffset</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a> structure. The size of the field is specified by <b>dwDisplayableAddressSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a> structure. The size of the field is specified by <b>dwDisplayableAddressSize</b>.
 
 
 ### -field dwCalledPartySize
@@ -163,7 +163,7 @@ Size of the called-party information, in bytes.
 ### -field dwCalledPartyOffset
 
 Offset from the beginning of the structure to to the variably sized field holding called-party information. This information can be specified by the application that makes the call and is made available in the call's information structure for logging purposes. The format of this field is that of <b>dwStringFormat</b>, as specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. The size of the field is specified by <b>dwCalledPartySize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. The size of the field is specified by <b>dwCalledPartySize</b>.
 
 
 ### -field dwCommentSize
@@ -174,7 +174,7 @@ Size of the call comment field, in bytes.
 ### -field dwCommentOffset
 
 Offset from the beginning of the structure to the variably sized field holding comments about the call. This information can be specified by the application that makes the call and is made available in the call's information structure for logging purposes. The format of this field is that of <b>dwStringFormat</b>, as specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. The size of the field is specified by <b>dwCommentSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. The size of the field is specified by <b>dwCommentSize</b>.
 
 
 ### -field dwUserUserInfoSize
@@ -280,7 +280,7 @@ Size of the device configuration data, in bytes.
 ### -field dwDeviceConfigOffset
 
 Offset from the beginning of the structure to the opaque configuration data structure. This value is returned in the <b>dwStringSize</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>. If the size is zero, the default device configuration is used. This allows the application to set the device configuration before the call is initiated. The size of the field is specified by <b>dwDeviceConfigSize</b>.
 
 
@@ -339,15 +339,15 @@ The members <b>dwPredictiveAutoTransferStates</b> through <b>dwCallingPartyIDOff
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>
 
 
 
@@ -355,7 +355,7 @@ The members <b>dwPredictiveAutoTransferStates</b> through <b>dwCallingPartyIDOff
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
 
 
 

@@ -78,7 +78,7 @@ A button on the phone device.
 ### -param lpButtonInfo
 
 A pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo_tag">PHONEBUTTONINFO</a>. This data structure describes the mode and function, and provides additional descriptive text to be set for the button.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>. This data structure describes the mode and function, and provides additional descriptive text to be set for the button.
 
 
 ## -returns
@@ -111,11 +111,11 @@ This function sets the meaning and associated descriptive text of a phone's butt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo_tag">PHONEBUTTONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 

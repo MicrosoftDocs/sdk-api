@@ -195,7 +195,7 @@ The graph must be initialized with a call to <a href="https://docs.microsoft.com
 
 
 
-The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure must contain valid values:
+The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure must contain valid values:
 
 <ul>
 <li><b>dwSize</b>.</li>
@@ -231,7 +231,7 @@ The following members cannot be specified; any value used is overwritten by the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 

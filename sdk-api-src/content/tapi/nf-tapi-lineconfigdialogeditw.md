@@ -82,13 +82,13 @@ Pointer to a <b>null</b>-terminated string that identifies a device class name. 
 Pointer to the opaque configuration data structure that was returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> (or a previous invocation of 
 <b>lineConfigDialogEdit</b>) in the variable portion of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure.
 
 
 ### -param dwSize
 
 Number of bytes in the structure pointed to by <i>lpDeviceConfigIn</i>. This value is returned in the <b>dwStringSize</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> or a previous invocation of 
 <b>lineConfigDialogEdit</b>. 
 
@@ -96,7 +96,7 @@ Number of bytes in the structure pointed to by <i>lpDeviceConfigIn</i>. This val
 ### -param lpDeviceConfigOut
 
 Pointer to the memory location of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> where the device configuration structure is returned. Upon successful completion of the request, this location is filled with the device configuration. The <b>dwStringFormat</b> member in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device configuration structure is returned. Upon successful completion of the request, this location is filled with the device configuration. The <b>dwStringFormat</b> member in the 
 <b>VARSTRING</b> structure is set to STRINGFORMAT_BINARY. Prior to calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> (or a future invocation of 
 <b>lineConfigDialogEdit</b>), the application should set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
@@ -118,7 +118,7 @@ LINEERR_BADDEVICEID, LINEERR_OPERATIONFAILED, LINEERR_INVALDEVICECLASS, LINEERR_
 
 
 If LINEERR_STRUCTURETOOSMALL is returned, the <b>dwTotalSize</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure pointed to by <i>lpDeviceConfigOut</i> does not specify enough memory to contain the entire configuration structure. The <b>dwNeededSize</b> member has been set to the amount required. To the extent that user entries were reflected in information that could not be returned due to insufficient space, those edits are lost; applications should therefore allocate the maximum amount of space that may be needed by the device class to return its configuration structure (for more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure pointed to by <i>lpDeviceConfigOut</i> does not specify enough memory to contain the entire configuration structure. The <b>dwNeededSize</b> member has been set to the amount required. To the extent that user entries were reflected in information that could not be returned due to insufficient space, those edits are lost; applications should therefore allocate the maximum amount of space that may be needed by the device class to return its configuration structure (for more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI Device Classes</a>).
 
 The 
@@ -155,7 +155,7 @@ The difference between this function and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
 
 
 

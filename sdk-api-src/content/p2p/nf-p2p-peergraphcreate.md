@@ -61,7 +61,7 @@ The <b>PeerGraphCreate</b> function creates a  new peer graph.  An application c
 
 ### -param pGraphProperties [in]
 
-All of the properties of a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a> structure.
+All of the properties of a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a> structure.
 
 
 ### -param pwzDatabaseName [in]
@@ -71,7 +71,7 @@ The name of a record database to associate with a peer graph when it is created.
 
 ### -param pSecurityInterface [in]
 
-The information about a security provider for a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a> structure.
+The information about a security provider for a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a> structure.
 
 
 ### -param phGraph [out]
@@ -156,11 +156,11 @@ After   <b>PeerGraphCreate</b> is called, the  application can subscribe to even
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a>
 
 
 

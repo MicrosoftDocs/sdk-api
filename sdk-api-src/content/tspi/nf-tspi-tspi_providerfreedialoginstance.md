@@ -67,7 +67,7 @@ Implementation of this function is optional; it is needed only if the service pr
 ### -param hdDlgInst
 
 The opaque identifier of the association between the service provider and the dialog box in the application's context, which was passed as the <b>hdDlgInstance</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams_tag">TUISPICREATEDIALOGINSTANCEPARAMS</a> structure with the LINE_CREATEDIALOGINSTANCE message that created the dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams">TUISPICREATEDIALOGINSTANCEPARAMS</a> structure with the LINE_CREATEDIALOGINSTANCE message that created the dialog box.
 
 
 ## -returns
@@ -94,7 +94,7 @@ LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams_tag">TUISPICREATEDIALOGINSTANCEPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams">TUISPICREATEDIALOGINSTANCEPARAMS</a>
  
 
  

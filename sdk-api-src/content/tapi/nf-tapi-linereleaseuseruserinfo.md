@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>lineReleaseUserUserInfo</b> function informs the service provider that the application has processed the user-user information contained in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure, and that subsequently received user-user information can now be written into that structure. The service provider sends a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure, and that subsequently received user-user information can now be written into that structure. The service provider sends a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> message indicating LINECALLINFOSTATE_USERUSERINFO when new information is available.
 
 
@@ -87,7 +87,7 @@ The
 <b>lineReleaseUserUserInfo</b> function allows the application to control the flow of incoming user-user information on an ISDN connection. When a new, complete user-user information message is received, the service provider informs the application using a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> message (specifying LINECALLINFOSTATE_USERUSERINFO). Any number of applications can examine the information (using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>), but the application owning the call controls when the information is released so that subsequent information can be reported. The service provider will not overwrite previous user-user information in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> with newer information until after 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> with newer information until after 
 <b>lineReleaseUserUserInfo</b> has been called. It is the responsibility of the service provider to buffer subsequently received user-user information until the previous information is released by the application owning the call.
 
 
@@ -98,7 +98,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

@@ -137,7 +137,7 @@ There was insufficient memory to perform the operation.
 The <b>WSAEnumNameSpaceProvidersEx</b>  function is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function. The provider-specific data blob associated with the namespace entry
                      passed in the <i>lpProviderInfo</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a> function can be queried using <b>WSAEnumNameSpaceProvidersEx</b> function. 
 
-Currently, the only namespace provider included with Windows that sets information in the <b>ProviderSpecific</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEX</a> structure is the NS_EMAIL provider. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure. 
+Currently, the only namespace provider included with Windows that sets information in the <b>ProviderSpecific</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEX</a> structure is the NS_EMAIL provider. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure. 
 
 When UNICODE or _UNICODE is defined, <b>WSAEnumNameSpaceProvidersEx</b> is defined to <b>WSAEnumNameSpaceProvidersExW</b>, the Unicode version of this function. The <i>lpnspBuffer</i> parameter is defined to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">LPSAWSANAMESPACE_INFOEXW</a> data type and <b>WSANAMESPACE_INFOEXW</b> structures are returned on success.
 
@@ -153,7 +153,7 @@ When UNICODE or _UNICODE is not defined, <b>WSAEnumNameSpaceProvidersEx</b> is d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
 

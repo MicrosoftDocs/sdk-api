@@ -73,7 +73,7 @@ The handle to the phone to be rung.
 ### -param dwRingMode
 
 The ringing pattern with which to ring the phone. This parameter must be within the range from zero through the value of the <b>dwNumRingModes</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a> structure. If <b>dwNumRingModes</b> is zero, the ring mode of the phone cannot be controlled; if <b>dwNumRingModes</b> is 1, a value of 0 for <i>dwRingMode</i> indicates that the phone should not be rung (silence), and other values from 1 through <b>dwNumRingModes</b> are valid ring modes for the phone device.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure. If <b>dwNumRingModes</b> is zero, the ring mode of the phone cannot be controlled; if <b>dwNumRingModes</b> is 1, a value of 0 for <i>dwRingMode</i> indicates that the phone should not be rung (silence), and other values from 1 through <b>dwNumRingModes</b> are valid ring modes for the phone device.
 
 
 ### -param dwVolume
@@ -111,7 +111,7 @@ The service provider defines the actual audible ringing patterns corresponding t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 

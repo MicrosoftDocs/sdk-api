@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
+The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ This search is not an iterative search.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a>
 
 
 

@@ -71,12 +71,12 @@ Handle created by <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/gra
 
 ### -param cEventRegistrations [in]
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration_tag">PEER_GRAPH_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
+Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
 
 
 ### -param pEventRegistrations [in]
 
-Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration_tag">PEER_GRAPH_EVENT_REGISTRATION</a> structures that specify what events the application requests notifications for.
+Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a> structures that specify what events the application requests notifications for.
 
 
 ### -param phPeerEvent [out]
@@ -150,7 +150,7 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration_tag">PEER_GRAPH_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_registration">PEER_GRAPH_EVENT_REGISTRATION</a>
 
 
 

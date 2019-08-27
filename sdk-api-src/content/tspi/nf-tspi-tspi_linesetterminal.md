@@ -95,7 +95,7 @@ The class(es) of low level events to be routed to the given terminal. Use one of
 ### -param dwTerminalID
 
 The device identifier of the terminal device where the given events are to be routed. Terminal identifiers are small integers in the range from 0 through <b>dwNumTerminals</b> minus one, where <b>dwNumTerminals</b> and the terminal modes each terminal is capable of handling are indicated by the service provider in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. 
 
 
 
@@ -137,8 +137,8 @@ This operation can be called any time, even when a call is active on the given l
 This function can be called multiple times to route the same events to multiple terminals simultaneously. To reroute events to a different terminal, TAPI recommends that the application first disable routing to the existing terminal and next route the events to the new terminal. However, the service provider should make its best effort to accommodate the application's requests in any sequence.
 
 Terminal identifier assignments are made by the service provider, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> indicates which terminal identifiers the service provider has available. Service providers that don't support this type of event routing indicate that they have no terminal devices (<b>dwNumTerminals</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> is set to zero).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> indicates which terminal identifiers the service provider has available. Service providers that don't support this type of event routing indicate that they have no terminal devices (<b>dwNumTerminals</b> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> is set to zero).
 
 <b>LineSetTerminal</b> on a line or address affects all existing calls on that line or address, but does not affect calls on other addresses. It also sets the default for future calls on that line or address. A line or address that has multiple connected calls active at any one time can have different routing in effect for each call.
 

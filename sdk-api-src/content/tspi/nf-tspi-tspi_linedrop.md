@@ -74,7 +74,7 @@ The service provider's handle to the call to be dropped. The call state of <i>hd
 ### -param lpsUserUserInfo
 
 This pointer is only valid if <b>dwSize</b> is nonzero. It specifies a pointer to a <b>null</b>-terminated string containing user-user information to be sent to the remote party as part of the call disconnect. This pointer is <b>NULL</b> if no user-user information is to be sent. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 
 ### -param dwSize
@@ -124,7 +124,7 @@ TAPI has the option to send user-user information at the time of the drop. Even 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtStartSearch</b> function searches the DRT for a key using criteria specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure.
+The <b>DrtStartSearch</b> function searches the DRT for a key using criteria specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure.
 
 
 ## -parameters
@@ -66,12 +66,12 @@ The DRT handle returned by the <a href="https://docs.microsoft.com/windows/deskt
 
 ### -param pKey [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure containing the key.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure containing the key.
 
 
 ### -param pInfo [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure that specifies the properties of the search.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure that specifies the properties of the search.
 
 
 ### -param timeout
@@ -126,7 +126,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 <ul>
 <li><i>hSearchContext</i> is <b>NULL</b>.</li>
 <li><i>pKey</i> is <b>NULL</b></li>
-<li>The <b>pb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure of <i>pKey</i> is <b>NULL</b>.</li>
+<li>The <b>pb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure of <i>pKey</i> is <b>NULL</b>.</li>
 <li><i>pInfo</i> was passed in, the minimum key is set inside <i>pInfo</i> for range search, but the maximum key is <b>NULL</b>.</li>
 <li><i>pInfo</i> was passed in, the maximum key is set inside <i>pInfo</i> for range search, but the minimum key is <b>NULL</b>.</li>
 </ul>
@@ -140,7 +140,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 </td>
 <td width="60%">
 <ul>
-<li>The <b>cb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure of <i>pKey</i> is not equal to 256 bits.</li>
+<li>The <b>cb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure of <i>pKey</i> is not equal to 256 bits.</li>
 <li><i>pInfo</i> was passed in, but the key size of the minimum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
 <li><i>pInfo</i> was passed in, but the key size of the maximum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
 </ul>
@@ -153,7 +153,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 </dl>
 </td>
 <td width="60%">
-<i>pInfo</i> was passed in but the <b>dwSize</b> of <i>pInfo</i> is not equal to size of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure.
+<i>pInfo</i> was passed in but the <b>dwSize</b> of <i>pInfo</i> is not equal to size of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ An unexpected fatal error has occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a>
 
 
 

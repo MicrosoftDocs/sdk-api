@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTGROUPENTRY</b> structure provides information on ACD agent groups. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a> structure can contain an array of 
 <b>LINEAGENTGROUPENTRY</b> structures.
 
 
@@ -100,7 +100,7 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string sp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
 
 
 

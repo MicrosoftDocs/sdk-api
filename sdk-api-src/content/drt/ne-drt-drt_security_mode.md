@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DRT_SECURITY_MODE</b> enumeration defines possible security modes for the DRT. The security mode is specified by a field of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
+The <b>DRT_SECURITY_MODE</b> enumeration defines possible security modes for the DRT. The security mode is specified by a field of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 
 ## -enum-fields

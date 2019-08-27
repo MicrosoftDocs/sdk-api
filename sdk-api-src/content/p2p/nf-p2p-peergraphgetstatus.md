@@ -66,7 +66,7 @@ Handle to the peer graph.
 
 ### -param pdwStatus [out]
 
-Receives the current status of the peer graph.  Returns one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags_tag">PEER_GRAPH_STATUS_FLAGS</a> values.
+Receives the current status of the peer graph.  Returns one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags">PEER_GRAPH_STATUS_FLAGS</a> values.
 
 
 ## -returns
@@ -135,7 +135,7 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags_tag">PEER_GRAPH_STATUS_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_graph_status_flags">PEER_GRAPH_STATUS_FLAGS</a>
  
 
  

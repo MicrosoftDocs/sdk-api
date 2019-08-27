@@ -73,7 +73,7 @@ The handle to the call on which to send user-user information. The call state of
 ### -param lpsUserUserInfo
 
 A pointer to a <b>null</b>-terminated Unicode string containing user-user information to be sent to the remote party. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 
 ### -param dwSize
@@ -100,7 +100,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEER
 This function can be used to send user-user information at any time during a connected call. If the size of the specified information to be sent is larger than what can fit into a single network message (as in ISDN), the service provider is responsible for breaking the information up into a sequence of chained network messages (using "more data").
 
 User-user information can also be sent as part of call accept, call reject, call redirect, and when making calls. User-user information can also be received. The received information is reported in the call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. Whenever user-user information arrives after call offering or prior to call disconnect, a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. Whenever user-user information arrives after call offering or prior to call disconnect, a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725218(v=vs.85)">LINE_CALLINFO</a> message with a <i>UserUserInfo</i> parameter notifies TAPI that user-user information in the call-information record has changed. If multiple network messages are chained, the information is assembled by the service provider and a single message is sent to TAPI.
 
 
@@ -111,7 +111,7 @@ User-user information can also be sent as part of call accept, call reject, call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

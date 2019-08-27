@@ -66,10 +66,10 @@ Handle to the peer group whose properties are set by a peer. This handle is retu
 
 ### -param pProperties [in]
 
-Pointer to a peer-populated <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> 
+Pointer to a peer-populated <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> 
 	   structure that contains the new properties. To obtain this structure, a peer must first call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>, change the appropriate fields, and then pass it as this parameter. This parameter is required.
 
-The following members of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> cannot be changed:<ul>
+The following members of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> cannot be changed:<ul>
 <li><b>dwSize</b></li>
 <li><b>pwzCloud</b></li>
 <li><b>pwzClassifier</b></li>
@@ -178,7 +178,7 @@ For applications that utilize passwords, it is recommended the passwords are han
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a>
 
 
 

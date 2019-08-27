@@ -85,7 +85,7 @@ It is important to note that if <i>fPublish</i> is set to <b>TRUE</b>, the <i>Pu
 
 ### -param ppResolver [out]
 
-A pointer to the created PNRP bootstrap resolver which is used in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
+A pointer to the created PNRP bootstrap resolver which is used in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The default PNRP Bootstrap Resolver created by this function is specific to the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
 
 
 

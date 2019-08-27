@@ -67,7 +67,7 @@ Windows handle to the parent application signing in.
 ### -param dwSigninOptions [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. 
 
 
 ## -returns
@@ -174,7 +174,7 @@ To sign out of a peer collaborative network, call <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a>
 
 
 

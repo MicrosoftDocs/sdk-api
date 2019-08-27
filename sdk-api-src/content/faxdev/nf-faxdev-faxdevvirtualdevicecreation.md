@@ -87,7 +87,7 @@ Type: <b>HANDLE</b>
 Specifies a handle that the FSP must use to post I/O completion port packets to the fax service for asynchronous line status events. Currently the <b>FaxDevVirtualDeviceCreation</b> function supports only the event that signals an incoming call.
                 
 
-The completion port packet must be a TAPI 2.x <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a> structure. The FSP must allocate memory for the structure with <b>LocalAlloc(</b>LPTR, sizeof(LINEMESSAGE)<b>)</b>. The fax service provider must pass the size of the memory allocated (which is sizeof(LINEMESSAGE) in this case) to the <i>dwNumberOfBytesTransferred</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> method. The fax service frees any memory allocated for the completion packet structure.
+The completion port packet must be a TAPI 2.x <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a> structure. The FSP must allocate memory for the structure with <b>LocalAlloc(</b>LPTR, sizeof(LINEMESSAGE)<b>)</b>. The fax service provider must pass the size of the memory allocated (which is sizeof(LINEMESSAGE) in this case) to the <i>dwNumberOfBytesTransferred</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> method. The fax service frees any memory allocated for the completion packet structure.
 
 The FSP must set the members of the structure as follows.
 
@@ -179,7 +179,7 @@ When an FSP uses physical fax devices, the TAPI and the telephony service provid
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a>
 
 
 

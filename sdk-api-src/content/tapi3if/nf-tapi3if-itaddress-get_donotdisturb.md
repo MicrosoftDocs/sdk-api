@@ -143,8 +143,8 @@ Insufficient memory exists to perform the operation.
 
 For programmers familiar with TAPI 2.<i>x:</i> The DoNotDisturb feature is implemented using the "forward" feature, if present on the address. When 
 <b>get_DoNotDisturb</b> is called, Tapi3.dll gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a> of the address object, and looks for its 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a> entries. If one such entry is found and if its <i>dwDestAddressOffset</i> member is 0 (zero), then DoNotDisturb is considered to be turned ON, and therefore VARIANT_TRUE is returned as the value for this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a> of the address object, and looks for its 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a> entries. If one such entry is found and if its <i>dwDestAddressOffset</i> member is 0 (zero), then DoNotDisturb is considered to be turned ON, and therefore VARIANT_TRUE is returned as the value for this method.
 
 
 

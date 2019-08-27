@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>SetMediaType</b> method sets the media type(s) for the current call in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>.
 
 

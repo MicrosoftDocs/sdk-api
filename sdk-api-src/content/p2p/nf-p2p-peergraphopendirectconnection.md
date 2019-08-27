@@ -71,7 +71,7 @@ Pointer to  the unique ID of a user or node to connect to. This parameter is use
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structure that contains the address of the node to  connect to.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the address of the node to  connect to.
 
 
 ### -param pullConnectionId [out]
@@ -122,7 +122,7 @@ The graph must be  initialized with a call to <a href="https://docs.microsoft.co
 
 
 
-A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event is triggered to inform the application of the direct connection's success or failure. The actual status of the function's success or failure is given in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a> structure.
+A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event is triggered to inform the application of the direct connection's success or failure. The actual status of the function's success or failure is given in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure.
 
 
 
@@ -132,7 +132,7 @@ A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 

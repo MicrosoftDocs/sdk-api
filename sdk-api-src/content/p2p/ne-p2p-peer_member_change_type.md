@@ -76,7 +76,7 @@ A member has updated information (for example, a new address) within a peer grou
 
 ### -field PEER_MEMBER_JOINED
 
-New membership information is published for a group member. The peer name of a peer group member is obtained from the <b>pwzIdentity</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data_tag">PEER_EVENT_MEMBER_CHANGE_DATA</a>  structure. New membership information is published in one of the following three scenarios: 
+New membership information is published for a group member. The peer name of a peer group member is obtained from the <b>pwzIdentity</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data">PEER_EVENT_MEMBER_CHANGE_DATA</a>  structure. New membership information is published in one of the following three scenarios: 
 
 <ul>
 <li>An administrator calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a> with the PEER_GROUP_STORE_CREDENTIALS flag set.</li>
@@ -94,7 +94,7 @@ This peer event does not exist in the Peer Grouping Infrastructure v1.0, and mus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data_tag">PEER_EVENT_MEMBER_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data">PEER_EVENT_MEMBER_CHANGE_DATA</a>
  
 
  

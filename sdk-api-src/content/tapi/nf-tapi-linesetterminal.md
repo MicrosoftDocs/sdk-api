@@ -125,7 +125,7 @@ An application can use this function to route certain classes of low-level line 
 This function can be called at any time, even when a call is active on the given line device. This allows a user to switch from using the local phone set to another audio I/O device. This function can be called multiple times to route the same events to multiple terminals simultaneously. To reroute events to a different terminal, the application should first disable routing to the existing terminal and then route the events to the new terminal.
 
 Terminal identifier assignments are made by the line's service provider. Device capabilities indicate only which terminal identifiers the service provider has available. Service providers that do not support this type of event routing would indicate that they have no terminal devices (<b>dwNumTerminals</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> would be zero).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> would be zero).
 
 Invoking 
 <b>lineSetTerminal</b> on a line or address affects all existing calls on that line or address, but does not affect calls on other addresses. It also sets the default for future calls on that line or address. A line or address that has multiple connected calls active at one time can have different routing in effect for each call.
@@ -143,7 +143,7 @@ TAPI routes call progress tones and messages to the same location as set by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

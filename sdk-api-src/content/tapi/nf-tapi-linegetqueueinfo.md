@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>lineGetQueueInfo</b> function returns a structure holding the ACD information associated with a particular queue. It generates a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETQUEUEINFO.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETQUEUEINFO.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Identifier of the queue whose information is to be retrieved.
 ### -param lpLineQueueInfo
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo_tag">LINEQUEUEINFO</a>. Upon successful completion of the request, this structure is filled with the queue statistics. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>. Upon successful completion of the request, this structure is filled with the queue statistics. Prior to calling 
 <b>lineGetQueueInfo</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
@@ -105,11 +105,11 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo_tag">LINEQUEUEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>
 
 
 

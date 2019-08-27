@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEFORWARDLIST</b> structure describes a list of forwarding instructions. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a> structures. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineforward">TSPI_lineForward</a> functions use the 
 <b>LINEFORWARDLIST</b> structure.
@@ -77,7 +77,7 @@ Number of entries in the array specified as <b>ForwardList[]</b>.
 ### -field ForwardList
 
 Array of forwarding instruction. The array's entries are of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>.
 
 
 ## -remarks
@@ -97,7 +97,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>
 
 
 

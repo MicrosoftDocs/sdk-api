@@ -71,7 +71,7 @@ The version number of the NS_EMAIL namespace provider. This member is specific t
 
 Type: <b>DWORD</b>
 
-The type of namespace provider for the NS_EMAIL namespace. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a> enumeration type defined in the <i>Nsemail.h</i> header file. 
+The type of namespace provider for the NS_EMAIL namespace. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type">NAPI_PROVIDER_TYPE</a> enumeration type defined in the <i>Nsemail.h</i> header file. 
 
 
 ### -field fSupportsWildCard
@@ -106,7 +106,7 @@ This structure is supported on Windows Vistaand later.
 The 
 <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure contains the information required to install a namespace provider for the NS_EMAIL namespace. There may be multiple namespace providers for the NS_EMAIL namespace install on a local system.
 
-Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. As a result, there may be multiple <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures in the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for an NS_EMAIL namespace provider. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level_tag">NAPI_PROVIDER_LEVEL</a> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the level of authority provided by the provider for that domain. 
+Each namespace provider registered in the NS_EMAIL namespace can support multiple domains. As a result, there may be multiple <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_domain_description_blob">NAPI_DOMAIN_DESCRIPTION_BLOB</a> structures in the <b>NAPI_PROVIDER_INSTALLATION_BLOB</b> structure for an NS_EMAIL namespace provider. The list of supported domains is specified in the provider registration blob as a list of <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> structures. Each supported domain specification contains a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level">NAPI_PROVIDER_LEVEL</a> value in the <b>AuthLevel</b> member of the <b>NAPI_DOMAIN_DESCRIPTION_BLOB</b> that describes the level of authority provided by the provider for that domain. 
 
 Namespace providers are called in the following order to resolve or register an address in a domain. If a namespace provider registered as the primary provider for the domain, then this primary provider is called first. There are two cases depending on whether authoritative results are requested in the namespace query. The default for a query is to request authoritative results.
 
@@ -130,11 +130,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level_tag">NAPI_PROVIDER_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_level">NAPI_PROVIDER_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type">NAPI_PROVIDER_TYPE</a>
 
 
 

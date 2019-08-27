@@ -196,7 +196,7 @@ Until a peer graph is synchronized at least one time, many functions are not ava
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a>
 
 
 

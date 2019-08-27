@@ -71,12 +71,12 @@ Pointer to a Windows  event handle, which is signaled when a peer event is fire
 
 ### -param cEventRegistration [in]
 
-Contains the number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a> structures listed in <i>pEventRegistrations</i>. This parameter is required.
+Contains the number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a> structures listed in <i>pEventRegistrations</i>. This parameter is required.
 
 
 ### -param pEventRegistrations [in]
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a> 
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a> 
 		 structures that contains the peer event types for which registration  occurs. This parameter is required.
 
 
@@ -155,7 +155,7 @@ Before you close the HPEEREVENT handle, you must unregister for the peer event  
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a>
 
 
 

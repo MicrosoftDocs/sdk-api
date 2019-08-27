@@ -73,7 +73,7 @@ The handle to the initial call that identifies the first party of a conference c
 ### -param hdLine
 
 The handle to the line device on which to originate the conference call if <i>hdCall</i> is <b>NULL</b>. The <i>hdLine</i> parameter is ignored if <i>hdCall</i> is non-<b>NULL</b>. The service provider reports which model it supports through the <b>setupConfNull</b> flag of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> data structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure.
 
 
 ### -param htConfCall
@@ -108,7 +108,7 @@ The expected number of parties in the conference call. The service provider is f
 ### -param lpCallParams
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter is set to <b>NULL</b> if no special call setup parameters are desired and the service provider uses default parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter is set to <b>NULL</b> if no special call setup parameters are desired and the service provider uses default parameters.
 
 
 ## -returns
@@ -170,11 +170,11 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 

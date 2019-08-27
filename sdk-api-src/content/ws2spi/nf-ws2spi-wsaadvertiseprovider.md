@@ -159,7 +159,7 @@ The
 On Windows Vista and Windows Server 2008, the <b>WSAAdvertiseProvider</b> function can only be used for operations on NS_EMAIL namespace providers.
 
 The 
-<b>WSAAdvertiseProvider</b> function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the <b>dwProvideType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is <b>ProviderType_Application</b>), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of <b>WSAAdvertiseProvider</b>. 
+<b>WSAAdvertiseProvider</b> function advertises an instance of a NSPv2 provider for clients to find. If the instance to be advertised is an instance of an application-type provider (a namespace provider where the <b>dwProvideType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure is <b>ProviderType_Application</b>), the advertised provider instance will be visible to all the client processes running under the same user and in the same session as the caller of <b>WSAAdvertiseProvider</b>. 
 
 In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <b>WSAAdvertiseProvider</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 
@@ -186,11 +186,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type_tag">NAPI_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ne-nsemail-napi_provider_type">NAPI_PROVIDER_TYPE</a>
 
 
 

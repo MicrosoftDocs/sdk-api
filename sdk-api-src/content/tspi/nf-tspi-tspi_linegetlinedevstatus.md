@@ -68,7 +68,7 @@ The service provider's handle to the line to be queried.
 ### -param lpLineDevStatus
 
 A pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
 
 
 ## -returns
@@ -87,7 +87,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURC
 
 
 The following table indicates which members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
 
 <table>
 <tr>
@@ -201,7 +201,7 @@ The following table indicates which members of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
 
 
 

@@ -155,7 +155,7 @@ Specifies the features available for this line using the
 ### -field AC_SETTABLEDEVSTATUS
 
 Indicates 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS_</a> values that can be modified.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS_</a> values that can be modified.
 
 
 ### -field AC_PARKSUPPORT
@@ -250,7 +250,7 @@ Maximum data block size allowed.
 ### -field AC_LINEID
 
 Returns the device identifier of the line device with which this address is associated. TAPI 2.1 cross-reference: 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>.
 
 
 ### -field AC_ADDRESSID

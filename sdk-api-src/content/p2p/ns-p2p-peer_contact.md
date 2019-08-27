@@ -91,13 +91,13 @@ If true, the contact is watched by the peer; if false, it is not.
 ### -field WatcherPermissions
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission_tag">PEER_WATCH_PERMISSION</a> enumeration value that specifies the watch permissions for this contact.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission">PEER_WATCH_PERMISSION</a> enumeration value that specifies the watch permissions for this contact.
 
 
 ### -field credentials
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a> structure that contains the security credentials for the contact in an opaque byte buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure that contains the security credentials for the contact in an opaque byte buffer.
 
 
 ## -remarks
@@ -114,7 +114,7 @@ If true, the contact is watched by the peer; if false, it is not.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission_tag">PEER_WATCH_PERMISSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission">PEER_WATCH_PERMISSION</a>
 
 
 
