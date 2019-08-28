@@ -69,14 +69,14 @@ The line device to be configured.
 ### -param lpDeviceConfig
 
 A pointer to the configuration data structure that is returned in the variable portion of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>.
 
 
 ### -param dwSize
 
 The number of bytes in the structure pointed to by <i>lpDeviceConfig</i>. This value is returned in the <b>dwStringSize</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>. 
 
 
@@ -167,7 +167,7 @@ The exact format of the data contained within the structure passed to this funct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
  
 
  

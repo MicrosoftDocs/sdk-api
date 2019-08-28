@@ -92,13 +92,13 @@ This transfer procedure may not be valid for some line devices. Instead of calli
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>, to the destination of the transfer.
 
 The <b>transferHeld</b> and <b>transferMake</b> flags in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> data structure report what model the service provider uses.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure report what model the service provider uses.
 
 
 ### -param lpCallParams
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired (the service provider uses defaults).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired (the service provider uses defaults).
 
 
 ## -returns
@@ -146,11 +146,11 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 

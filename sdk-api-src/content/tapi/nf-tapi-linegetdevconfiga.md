@@ -70,7 +70,7 @@ Identifier of the line device to be configured.
 ### -param lpDeviceConfig
 
 Pointer to the memory location of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> where the device configuration structure is returned. Upon successful completion of the request, this location is filled with the device configuration. The <b>dwStringFormat</b> member in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device configuration structure is returned. Upon successful completion of the request, this location is filled with the device configuration. The <b>dwStringFormat</b> member in the 
 <b>VARSTRING</b> structure is set to STRINGFORMAT_BINARY. Prior to calling 
 <b>lineGetDevConfig</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
@@ -135,7 +135,7 @@ The exact format of the data contained within the structure is specific to the l
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
 
 
 

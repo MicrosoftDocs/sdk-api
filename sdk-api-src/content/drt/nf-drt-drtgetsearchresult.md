@@ -66,7 +66,7 @@ Handle to the search context to close. This parameter is returned by the <a href
 
 ### -param ulSearchResultSize [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a> structure containing the search result.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a> structure containing the search result.
 
 
 ### -param pSearchResult
@@ -94,7 +94,7 @@ This function returns S_OK on success. Other possible values include:
 </dl>
 </td>
 <td width="60%">
-<i>ulSearchPathSize</i>  is less than the  size of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>.
+<i>ulSearchPathSize</i>  is less than the  size of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a>.
 
 </td>
 </tr>

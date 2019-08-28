@@ -61,7 +61,7 @@ The <b>PeerCollabEnumApplications</b> function returns the handle to an enumerat
 
 ### -param pcEndpoint [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the endpoint information for a peer whose applications will be enumerated. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the endpoint information for a peer whose applications will be enumerated. 
 
 If this parameter is set to <b>NULL</b>, the published application information for the local peer's endpoint is enumerated.
 
@@ -140,7 +140,7 @@ In order to enumerate the applications for the specified endpoint  successfully,
 
 To obtain the individual peer applications, pass the returned handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-Peer application data items are returned as individual <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a> structures.
+Peer application data items are returned as individual <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application">PEER_APPLICATION</a> structures.
 
 The <b>PeerCollabEnumApplications</b> function returns an empty array for endpoints on the subnet that are not trusted contacts.
 
@@ -152,15 +152,15 @@ The <b>PeerCollabEnumApplications</b> function returns an empty array for endpoi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application">PEER_APPLICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 

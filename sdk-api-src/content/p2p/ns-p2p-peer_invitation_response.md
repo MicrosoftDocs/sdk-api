@@ -80,7 +80,7 @@ Any extended information that is part of the response. This can include an error
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_tag">PEER_INVITATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
 
 
 

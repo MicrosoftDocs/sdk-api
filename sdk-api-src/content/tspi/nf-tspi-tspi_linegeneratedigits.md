@@ -85,7 +85,7 @@ A pointer to a <b>null</b>-terminated Unicode character buffer that contains the
 ### -param dwDuration
 
 Specifies both the duration in milliseconds of DTMF digits and pulse and DTMF inter-digit spacing. A value of 0 uses a default value. The <i>dwDuration</i> parameter must be within the range specified by <b>MinDialParams</b> to <b>MaxDialParams</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. If out of range, the actual value is set by the service provider to the nearest value in the range. This parameter is not validated by TAPI when this function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. If out of range, the actual value is set by the service provider to the nearest value in the range. This parameter is not validated by TAPI when this function is called.
 
 
 ## -returns
@@ -129,7 +129,7 @@ The corresponding function at the TAPI level does not include the formal paramet
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

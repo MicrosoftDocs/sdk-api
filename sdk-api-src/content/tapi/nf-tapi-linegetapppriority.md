@@ -77,7 +77,7 @@ A media mode for which the priority data is to be obtained. The value can be one
 ### -param lpExtensionID
 
 A pointer to structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>. This parameter is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>. This parameter is ignored.
 
 
 ### -param dwRequestMode
@@ -128,7 +128,7 @@ If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>
 
 
 
@@ -140,7 +140,7 @@ If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
  
 
  

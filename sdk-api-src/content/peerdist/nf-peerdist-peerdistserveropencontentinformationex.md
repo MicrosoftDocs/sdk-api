@@ -86,7 +86,7 @@ The length, in bytes, of the content (starting from the ullContentOffset) for wh
 
 ### -param pRetrievalOptions [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options_tag">PEER_RETRIEVAL_OPTIONS</a> structure specifying additional options for retrieving content information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options">PEER_RETRIEVAL_OPTIONS</a> structure specifying additional options for retrieving content information.
 
 
 ### -param hCompletionPort [in, optional]
@@ -138,7 +138,7 @@ The <i>pRetrievalOptions</i> parameter can be used to specify the range of conte
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options_tag">PEER_RETRIEVAL_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options">PEER_RETRIEVAL_OPTIONS</a>
 
 
 

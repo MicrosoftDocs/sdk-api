@@ -110,7 +110,7 @@ LINEERR_INVALADDRESS, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUN
 
 When a call has been picked up successfully, the application is notified by the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message about call state changes. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure supplies information about the call that was picked up. It lists the reason for the call as <i>pickup</i>. This structure is available using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure supplies information about the call that was picked up. It lists the reason for the call as <i>pickup</i>. This structure is available using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>.
 
 If LINEADDRCAPFLAGS_PICKUPCALLWAIT is <b>TRUE</b>, 
@@ -123,7 +123,7 @@ After
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> function can be used to drop one (and toggle to the other), and so forth. If the user wants to drop the current call and pick up the second call, they should call 
 <b>lineDrop</b> when they get the call-waiting beep, wait for the second call to ring, and then call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a> on the new call handle. The LINEADDRFEATURE_PICKUP flag in the <b>dwAddressFeatures</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a> indicates when pickup is actually possible.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a> indicates when pickup is actually possible.
 
 
 
@@ -133,11 +133,11 @@ After
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

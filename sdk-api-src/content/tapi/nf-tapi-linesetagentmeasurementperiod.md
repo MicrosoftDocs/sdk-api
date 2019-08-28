@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>lineSetAgentMeasurementPeriod</b> function sets the measurement period associated with a particular agent. It generates a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTMEASUREMENTPERIOD.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_SETAGENTMEASUREMENTPERIOD.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 

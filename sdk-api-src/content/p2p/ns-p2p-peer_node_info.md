@@ -81,7 +81,7 @@ Specifies the number of addresses in <b>pAddresses</b>. This member is required 
 
 ### -field pAddresses
 
-Points to  an array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures that indicate which addresses and  ports this instance is listening to for group traffic. This member is required and has no default value.
+Points to  an array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures that indicate which addresses and  ports this instance is listening to for group traffic. This member is required and has no default value.
 
 
 ### -field pwzAttributes
@@ -94,7 +94,7 @@ Points to a string  that contains the  attributes that describe this particular 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 

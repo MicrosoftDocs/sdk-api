@@ -123,7 +123,7 @@ Insufficient memory exists to perform the operation.
 
 This method is a COM wrapper for the TAPI 2.1 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">LineGetTranslateCaps</a> function, and takes calling card information from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps_tag">LINETRANSLATECAPS</a> structure returned by that function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure returned by that function.
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard">IEnumCallingCard</a> interface returned by <b>ITAddressTranslation::EnumerateCallingCards</b>. The application must call <b>Release</b> on the 

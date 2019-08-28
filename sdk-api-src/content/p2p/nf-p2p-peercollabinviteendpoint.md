@@ -61,19 +61,19 @@ The <b>PeerCollabInviteEndpoint</b> function sends an invitation to a specified 
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains information about the invited peer. This peer is sent an invitation when this API is called.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains information about the invited peer. This peer is sent an invitation when this API is called.
 
 This parameter must not be set to <b>NULL</b>.
 
 
 ### -param pcInvitation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_tag">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
 
 
 ### -param ppResponse [out]
 
-Pointer to a   <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response_tag">PEER_INVITATION_RESPONSE</a> structure that receives an invited peer endpoint's responses to the invitation request.
+Pointer to a   <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a> structure that receives an invited peer endpoint's responses to the invitation request.
 
 If this call fails with an error, on output this parameter will be <b>NULL</b>.
 
@@ -152,15 +152,15 @@ The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_tag">PEER_INVITATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response_tag">PEER_INVITATION_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a>
 
 
 

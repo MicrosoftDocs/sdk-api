@@ -68,7 +68,7 @@ Handle to the call. The application must have OWNER privilege.
 ### -param dwTreatment
 
 One of the call treatments supported on the address on which the call appears, as indicated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>. LINEERR_INVALPARAM is returned if the specified treatment is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>. LINEERR_INVALPARAM is returned if the specified treatment is not supported.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The use of call treatment functionality should be limited to controlling of lega
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>lineAgentSpecific</b> function allows the application to access proprietary handler-specific functions of the agent handler associated with the address. The meaning of the extensions are specific to the agent handler. Each set of agent-related extensions is identified by a universally unique 128-bit extension ID that must be obtained, along with the specification for the extension, from the promulgator of that extension (usually the author of the agent handler software on the telephony server). The list of extensions supported by the agent handler is obtained from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps_tag">LINEAGENTCAPS</a> structure returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a> structure returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentcapsa">lineGetAgentCaps</a>.
 
 
@@ -75,7 +75,7 @@ Address on the open line device. An address identifier is permanently associated
 ### -param dwAgentExtensionIDIndex
 
 Position in the <b>ExtensionIDList</b> structure in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps_tag">LINEAGENTCAPS</a> of the agent handler extension being invoked.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a> of the agent handler extension being invoked.
 
 
 ### -param lpParams
@@ -125,7 +125,7 @@ An agent handler can provide access to handler-specific functions by defining pa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps_tag">LINEAGENTCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>
 
 
 

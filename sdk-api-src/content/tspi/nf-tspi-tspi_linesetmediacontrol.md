@@ -84,7 +84,7 @@ Specifies whether media control is requested is associated with a single call, i
 ### -param lpDigitList
 
 A pointer to the array that contains the digits that are to trigger media control actions, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit_tag">LINEMEDIACONTROLDIGIT</a>. Each time a digit listed in the digit list is detected, the specified media control action is carried out on the call's media stream. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit">LINEMEDIACONTROLDIGIT</a>. Each time a digit listed in the digit list is detected, the specified media control action is carried out on the call's media stream. 
 
 
 
@@ -100,7 +100,7 @@ The number of entries in the <i>lpDigitList</i>. TAPI does not validate this par
 ### -param lpMediaList
 
 A pointer to an array with entries of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia_tag">LINEMEDIACONTROLMEDIA</a>. The array has <i>dwMediaNumEntries</i> entries. Each entry contains a media type to be monitored, media-type specific information (such as duration), and a media control field. If a media type in the list is detected, the corresponding media control action is performed on the call's media stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia">LINEMEDIACONTROLMEDIA</a>. The array has <i>dwMediaNumEntries</i> entries. Each entry contains a media type to be monitored, media-type specific information (such as duration), and a media control field. If a media type in the list is detected, the corresponding media control action is performed on the call's media stream.
 
 
 ### -param dwMediaNumEntries
@@ -111,7 +111,7 @@ The number of entries in <i>lpMediaList</i>. TAPI does not validate this paramet
 ### -param lpToneList
 
 A pointer to an array with entries of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone_tag">LINEMEDIACONTROLTONE</a>. The array has <i>dwToneNumEntries</i> entries. Each entry contains a description of a tone to be monitored, duration of the tone, and a media control field. If a tone in the list is detected, the corresponding media control action is performed on the call's media stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone">LINEMEDIACONTROLTONE</a>. The array has <i>dwToneNumEntries</i> entries. Each entry contains a description of a tone to be monitored, duration of the tone, and a media control field. If a tone in the list is detected, the corresponding media control action is performed on the call's media stream.
 
 
 ### -param dwToneNumEntries
@@ -122,7 +122,7 @@ The number of entries in <i>lpToneList</i>. TAPI does not validate this paramete
 ### -param lpCallStateList
 
 A pointer to an array with entries of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate_tag">LINEMEDIACONTROLCALLSTATE</a>. The array has <i>dwCallStateNumEntries</i> entries. Each entry contains a call state and a media control action.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate">LINEMEDIACONTROLCALLSTATE</a>. The array has <i>dwCallStateNumEntries</i> entries. Each entry contains a call state and a media control action.
 
 
 ### -param dwCallStateNumEntries
@@ -152,7 +152,7 @@ Only a single media control request can be outstanding on a call at one time. A 
 Depending on the service provider and other activities that compete for such resources, the amount of simultaneous detections that can be made can vary over time. If service provider resources are overcommitted, it returns LINEERR_RESOURCEUNAVAIL.
 
 Whether or not media control is supported by the service provider is a device capability indicated in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>.
 
 Each time 
 <b>TSPI_lineSetMediaControl</b> is called, the new request overrides any media control currently in effect. If one or more of the parameters <i>lpDigitList</i>, <i>lpMediaList</i>, <i>lpToneList</i>, and <i>lpCallStateList</i> are <b>NULL</b>, the corresponding digit, media type, tone, or call state-triggered media control is disabled. To modify just a portion of the media control parameters while leaving the remaining settings in effect, the application should invoke 
@@ -166,7 +166,7 @@ Each time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
@@ -174,19 +174,19 @@ Each time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate_tag">LINEMEDIACONTROLCALLSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate">LINEMEDIACONTROLCALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit_tag">LINEMEDIACONTROLDIGIT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit">LINEMEDIACONTROLDIGIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia_tag">LINEMEDIACONTROLMEDIA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia">LINEMEDIACONTROLMEDIA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone_tag">LINEMEDIACONTROLTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone">LINEMEDIACONTROLTONE</a>
 
 
 

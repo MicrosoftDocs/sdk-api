@@ -107,7 +107,7 @@ The DRT infrastructure is unaware of the requested search.
 
 
 
-Calling the <b>DrtEndSearch</b> function will stop the return of search results via <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>.
+Calling the <b>DrtEndSearch</b> function will stop the return of search results via <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a>.
 
 
 
@@ -117,7 +117,7 @@ Calling the <b>DrtEndSearch</b> function will stop the return of search results 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a>
 
 
 

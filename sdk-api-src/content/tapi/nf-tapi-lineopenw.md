@@ -123,19 +123,19 @@ Privilege the application wants when notified of a call This parameter contains 
 
 
 If the LINEOPENOPTION_SINGLEADDRESS option is specified, then the application is interested only in new calls that appear on the address specified by the <b>dwAddressID</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure pointed to by the <i>lpCallParams</i> parameter (which must be specified).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure pointed to by the <i>lpCallParams</i> parameter (which must be specified).
 
 If LINEOPENOPTION_SINGLEADDRESS is specified but either <i>lpCallParams</i> is invalid or the included <b>dwAddressID</b> does not exist on the line, the open fails with LINERR_INVALADDRESSID.
 
 In addition to setting the <b>dwAddressID</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure to the desired address, the application must also set <b>dwAddressMode</b> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure to the desired address, the application must also set <b>dwAddressMode</b> in 
 <b>LINECALLPARAMS</b> to LINEADDRESSMODE_ADDRESSID.
 
 The LINEOPENOPTION_SINGLEADDRESS option affects only TAPI's assignment of initial call ownership of calls created by the service provider using a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-newcall">LINE_NEWCALL</a> message. An application that opens the line with LINECALLPRIVILEGE_MONITOR continues to receive monitoring handles to all calls created on the line. Furthermore, the application is not restricted in any way from making calls or performing other operations that affect other addresses on the opened line.
 
 When the LINEOPENOPTION_PROXY option is specified (TAPI 2.0 or higher only), the application must also indicate which specific proxy requests it is prepared to handle. It does so by passing, in the <i>lpCallParams</i> parameter, a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure in which the <b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b> members have been set to delimit an array of <b>DWORD</b>s. Each element of this array shall contain one of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure in which the <b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b> members have been set to delimit an array of <b>DWORD</b>s. Each element of this array shall contain one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/lineproxyrequest--constants">LINEPROXYREQUEST_ Constants</a>. For example, a proxy handler application that supports all five of the Agent-related functions would pass in an array of five <b>DWORD</b>s (<b>dwDevSpecificSize</b> would be 20 decimal) containing the five defined LINEPROXYREQUEST_ values.
 
 The proxy request handler application can run on any machine that has authorization to control the line device. However, requests are always routed through the server on which the service provider is executing that actually controls the line device. Thus, it is most efficient if the application handling proxy requests (such as ACD agent control) executes directly on the server along with the service provider.
@@ -157,7 +157,7 @@ The media type or modes of interest to the application. This parameter is used t
 ### -param lpCallParams
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>. This pointer is only used if LINEMAPPER or LINEOPENOPTION_PROXY is used; otherwise <i>lpCallParams</i> is ignored. It describes the call parameter that the line device should be able to provide.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is only used if LINEMAPPER or LINEOPENOPTION_PROXY is used; otherwise <i>lpCallParams</i> is ignored. It describes the call parameter that the line device should be able to provide.
 
 
 ## -returns
@@ -212,7 +212,7 @@ When an application opens a line device it must specify the negotiated API versi
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>. Version numbering allows the mixing and matching of different application versions with different API versions and service provider versions.
 
 LINEMAPPER allows an application to select a line indirectly—by means of the services it wants from it. When opening a line device using LINEMAPPER, the following is true: All members from beginning of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> data structure through <b>dwAddressMode</b> are relevant. If <b>dwAddressMode</b> is LINEADDRESSMODE_ADDRESSID it means that any address on the line is acceptable, otherwise if <b>dwAddressMode</b> is LINEADDRESSMODE_DIALABLEADDR, indicating that a specific originating address (phone number) is searched for, or if it is a provider-specific extension, then <b>dwOrigAddressSize</b>/<b>Offset</b> and the portion of the variable part they refer to are also relevant. If <b>dwAddressMode</b> is a provider-specific extension, additional information can be contained in the <b>dwDeviceSpecific</b> variably sized member.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> data structure through <b>dwAddressMode</b> are relevant. If <b>dwAddressMode</b> is LINEADDRESSMODE_ADDRESSID it means that any address on the line is acceptable, otherwise if <b>dwAddressMode</b> is LINEADDRESSMODE_DIALABLEADDR, indicating that a specific originating address (phone number) is searched for, or if it is a provider-specific extension, then <b>dwOrigAddressSize</b>/<b>Offset</b> and the portion of the variable part they refer to are also relevant. If <b>dwAddressMode</b> is a provider-specific extension, additional information can be contained in the <b>dwDeviceSpecific</b> variably sized member.
 
 
 
@@ -226,7 +226,7 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 

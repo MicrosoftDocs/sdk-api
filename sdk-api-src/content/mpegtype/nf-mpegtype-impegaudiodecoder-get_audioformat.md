@@ -65,7 +65,7 @@ Returns the audio format of the connected input pin.
 
 ### -param lpFmt [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat_tag">MPEG1WAVEFORMAT</a> structure. The method copies the format data into the structure.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat">MPEG1WAVEFORMAT</a> structure. The method copies the format data into the structure.
 
 
 ## -returns

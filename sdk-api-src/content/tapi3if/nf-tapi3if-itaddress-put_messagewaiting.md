@@ -131,7 +131,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 For programmers familiar with TAPI 2.<i>x:</i> This method turns on and off the flag LINEDEVSTATUSFLAGS_MSGWAIT in the <b>dwDevStatusFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> structure by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetlinedevstatus">lineSetLineDevStatus</a>.
 
 
@@ -150,7 +150,7 @@ For programmers familiar with TAPI 2.<i>x:</i> This method turns on and off the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
 
 
 

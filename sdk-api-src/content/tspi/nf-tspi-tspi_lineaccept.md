@@ -73,7 +73,7 @@ The handle to the call to be accepted. The call state of <i>hdCall</i> can be <i
 ### -param lpsUserUserInfo
 
 A pointer to a <b>null</b>-terminated Unicode string containing user-user information to be sent to the remote party as part of the call accept. This pointer is <b>NULL</b> if no user-user information is to be sent. User-user information is only sent if supported by the underlying network (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 
 ### -param dwSize
@@ -103,7 +103,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect">TSPI_lineRedirect</a>, answer the call using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer">TSPI_lineAnswer</a>, or accept the call using 
 <b>TSPI_lineAccept</b>. After a call has been successfully accepted, alerting at both the called and calling device begins, and typically the call state transitions to the <i>accepted</i> state. The service provider must set the flag LINEADDRCAPFLAGS_ACCEPTTOALERT in the <b>dwAddrCapFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> data structure if the application must call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> data structure if the application must call 
 <b>TSPI_lineAccept</b> for alerting to begin.
 
 To TAPI, alerting is reported using the 
@@ -125,11 +125,11 @@ The client application has the option to send user-user information at the time 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

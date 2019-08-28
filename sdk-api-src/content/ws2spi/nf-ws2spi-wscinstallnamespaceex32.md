@@ -176,7 +176,7 @@ The namespace–configuration functions do not affect applications that are alre
 The provider-specific data blob associated with namespace entry
                      passed in the <i>lpProviderInfo</i> parameter can be queried using <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> function.
 
-Currently, the only namespace provider included with Windows that uses the <i>lpProviderInfo</i> parameter is the NS_EMAIL provider. The format of the buffer pointed to by the <i>lpProviderInfo</i> parameter for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure. 
+Currently, the only namespace provider included with Windows that uses the <i>lpProviderInfo</i> parameter is the NS_EMAIL provider. The format of the buffer pointed to by the <i>lpProviderInfo</i> parameter for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure. 
 
 The <b>WSCInstallNameSpaceEx32</b>function can only be called by a user logged on as a member of the Administrators group. If <b>WSCInstallNameSpaceEx32</b> is called by a user that is not a member of the Administrators group, the function call will fail. 
  For computers running on Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
@@ -189,7 +189,7 @@ The <b>WSCInstallNameSpaceEx32</b>function can only be called by a user logged o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
 

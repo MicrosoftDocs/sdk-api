@@ -66,7 +66,7 @@ Handle to a peer graph.
 
 ### -param dwFlags [in]
 
-The  type of connection to enumerate. This parameter is required. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_connection_flags_tag">PEER_CONNECTION_FLAGS</a>.
+The  type of connection to enumerate. This parameter is required. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_connection_flags">PEER_CONNECTION_FLAGS</a>.
 
 
 ### -param phPeerEnum [out]
@@ -139,7 +139,7 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 
 
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the enumeration handle returned by <b>PeerGraphEnumConnections</b>, <b>PeerGraphGetNextItem</b> returns a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info_tag">PEER_CONNECTION_INFO</a> structure.
+When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the enumeration handle returned by <b>PeerGraphEnumConnections</b>, <b>PeerGraphGetNextItem</b> returns a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info">PEER_CONNECTION_INFO</a> structure.
 
 
 
@@ -149,7 +149,7 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info_tag">PEER_CONNECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_connection_info">PEER_CONNECTION_INFO</a>
 
 
 

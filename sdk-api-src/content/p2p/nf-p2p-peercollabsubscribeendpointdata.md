@@ -61,7 +61,7 @@ The <b>PeerCollabSubscribeEndpointData</b> function creates  a subscription to a
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint used to obtain presence information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the peer endpoint used to obtain presence information.
 
 
 ## -returns

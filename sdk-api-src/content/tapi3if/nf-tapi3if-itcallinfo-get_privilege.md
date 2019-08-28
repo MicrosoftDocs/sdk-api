@@ -121,7 +121,7 @@ Insufficient memory exists to perform the operation.
 
 
 
-<b>TAPI 2.1 Cross-Reference: </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a>
+<b>TAPI 2.1 Cross-Reference: </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 
 

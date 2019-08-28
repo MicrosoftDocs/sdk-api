@@ -135,7 +135,7 @@ The time duration in milliseconds in which the first digit is expected. If the f
 
 The maximum time duration in milliseconds between consecutive digits. If no digit is received in this timeframe, digit collection is terminated and a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85)">LINE_GATHERDIGITS</a> message is sent to TAPI. A single NULL character is written to the buffer, indicating that an interdigit timeout terminated digit gathering. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure must specify the valid range for this parameter or indicate that timeouts are not supported. This parameter is not validated by TAPI when this function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure must specify the valid range for this parameter or indicate that timeouts are not supported. This parameter is not validated by TAPI when this function is called.
 
 
 ## -returns
@@ -180,7 +180,7 @@ TAPI can use
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85)">LINE_MONITORDIGITS</a> message is sent to TAPI. Both buffered (gather digits) and unbuffered digit detection can be enabled for the same call simultaneously.
 
 The service provider is allowed some variation in the quality of timing it uses for this function, including not doing timings at all. The quality of timing is reported in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>, in the members <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>, in the members <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b>.
 
 The corresponding function at the TAPI level does not include the formal parameter <i>dwEndToEndID</i>. At that level, there is no end-to-end marking. TAPI uses end-to-end marking at the TSPI level to distinguish one 
 <b>TSPI_lineGatherDigits</b> request from another.
@@ -193,7 +193,7 @@ The corresponding function at the TAPI level does not include the formal paramet
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINECOUNTRYLIST</b> structure describes a list of countries/regions. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry">LINECOUNTRYENTRY</a> structures. 
 <b>LINECOUNTRYLIST</b> is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a> function.
 
@@ -81,7 +81,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwNumCountries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures present in the array defined by <b>dwCountryListSize</b> and <b>dwCountryListOffset</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry">LINECOUNTRYENTRY</a> structures present in the array defined by <b>dwCountryListSize</b> and <b>dwCountryListOffset</b>.
 
 
 ### -field dwCountryListSize
@@ -92,7 +92,7 @@ Size of the array of country/region information, in bytes.
 ### -field dwCountryListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures that provides the information for each country/region. The size of the field is specified by <b>dwCountryListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry">LINECOUNTRYENTRY</a> structures that provides the information for each country/region. The size of the field is specified by <b>dwCountryListSize</b>.
 
 
 ## -remarks
@@ -109,7 +109,7 @@ This structure may not be extended.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry">LINECOUNTRYENTRY</a>
 
 
 

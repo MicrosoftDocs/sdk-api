@@ -88,7 +88,7 @@ An address identifier is permanently associated with an address; the identifier 
 ### -param lpForwardList
 
 A pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> that describes the specific forwarding instructions.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> that describes the specific forwarding instructions.
 
 
 ### -param dwNumRingsNoAnswer
@@ -111,7 +111,7 @@ A pointer to an
 ### -param lpCallParams
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>. This pointer is ignored by the service provider unless 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is ignored by the service provider unless 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a> requires the establishment of a call to the forwarding destination (and <i>lphdConsultCall</i> is returned, in which case <i>lpCallParams</i> is optional). If <b>NULL</b>, default call parameters are used. Otherwise, the specified call parameters are used for establishing <i>htConsultCall</i>.
 
 
@@ -149,7 +149,7 @@ The success or failure of this operation does not depend on the previous set of 
 
 Invoking 
 <b>TSPI_lineForward</b> when 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> has <b>dwNumEntries</b> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter; it cancels all forwarding currently in effect.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> has <b>dwNumEntries</b> set to zero has the same effect as providing a <b>NULL</b><i>lpForwardList</i> parameter; it cancels all forwarding currently in effect.
 
 Because the <b>NULL</b> value returned into <i>lphdConsultCall</i> is the only way for TAPI to determine whether the service provider created a consultation call, the service provider cannot use <b>NULL</b> as a call handle.
 
@@ -168,7 +168,7 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
@@ -176,7 +176,7 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>
 
 
 

@@ -66,9 +66,9 @@ Handle to the peer group. This handle is returned by the <a href="https://docs.m
 
 ### -param pRecord [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure that is added to the peer group specified in <i>hGroup</i>. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure that is added to the peer group specified in <i>hGroup</i>. This parameter is required.
 
-The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> must be populated.
+The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> must be populated.
 
 <ul>
 <li><b>dwSize</b></li>
@@ -146,7 +146,7 @@ The peer group is not in a state where records can be added. For example, <a hre
 </dl>
 </td>
 <td width="60%">
-The XML string that contains the record attributes in the <b>pwzAttributes</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure does not comply with the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-attribute-schema">schema specification</a>.
+The XML string that contains the record attributes in the <b>pwzAttributes</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure does not comply with the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-attribute-schema">schema specification</a>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ The supplied peer name is invalid.
 </dl>
 </td>
 <td width="60%">
-One or more fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> are invalid.
+One or more fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> are invalid.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag"> PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record"> PEER_RECORD</a>
 
 
 

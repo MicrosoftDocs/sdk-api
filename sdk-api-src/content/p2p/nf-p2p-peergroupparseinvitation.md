@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGroupParseInvitation</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info_tag">PEER_INVITATION_INFO</a> structure with the details of a specific invitation.
+The <b>PeerGroupParseInvitation</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a> structure with the details of a specific invitation.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Pointer to a Unicode string that contains the specific peer group invitation. Th
 
 ### -param ppInvitationInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info_tag">PEER_INVITATION_INFO</a> structure with the details of a specific invitation. To release the resources used by this structure, pass this pointer to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a> structure with the details of a specific invitation. To release the resources used by this structure, pass this pointer to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
 
 
 ## -returns
@@ -137,7 +137,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info_tag">PEER_INVITATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a>
 
 
 

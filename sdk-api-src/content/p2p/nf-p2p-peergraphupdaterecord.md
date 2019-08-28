@@ -66,7 +66,7 @@ Handle to the peer graph.
 
 ### -param pRecord [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure that contains the  new data for the record.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure that contains the  new data for the record.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The specified record was not found.
 
 
 
-The following members of the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure can be modified:
+The following members of the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure can be modified:
 
 <ul>
 <li><b>pwzAttributes</b></li>
@@ -188,7 +188,7 @@ This code snippet shows how to update a record.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
  
 
  

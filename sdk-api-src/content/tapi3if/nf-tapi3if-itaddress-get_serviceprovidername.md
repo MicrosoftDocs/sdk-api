@@ -136,7 +136,7 @@ The application must use
 
 You can retrieve the name of the provider in a TSP-dependent format using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapabilitystring">ITAddressCapabilities::get_AddressCapabilityString</a> with <i>AddressCapString</i> set to ACS_PROVIDERSPECIFIC, which returns the string found in the <b>dwProviderInfoOffset</b> member of the TAPI 2.<i>x</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 
 
@@ -158,7 +158,7 @@ You can retrieve the name of the provider in a TSP-dependent format using
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
  
 
  

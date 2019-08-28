@@ -122,7 +122,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-The buffer pointed to by <b>pwfltr</b> contains a valid <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that the dialog box will use as the initial selection.
+The buffer pointed to by <b>pwfltr</b> contains a valid <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure that the dialog box will use as the initial selection.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Handle to the window that owns the dialog box. This member can be any valid wind
 
 ### -field pwfltr
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure. If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid filter. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns, this buffer contains the selected filter. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure. If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid filter. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns, this buffer contains the selected filter. If the user cancels the dialog box, no changes will be made to this buffer.
 
 
 ### -field cbwfltr
@@ -197,7 +197,7 @@ Optional flags for restricting the type of filters listed in the dialog box. The
 </dl>
 </td>
 <td width="60%">
-The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure pointed to by the <b>pwfltrEnum</b> member is valid. The enumerator will only enumerate a filter that conforms to this attribute.
+The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure pointed to by the <b>pwfltrEnum</b> member is valid. The enumerator will only enumerate a filter that conforms to this attribute.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows
 
 ### -field pwfltrEnum
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that will be used to restrict the filters listed in the dialog box. The <b>fdwEnum</b> member defines which members of this structure should be used for the enumeration restrictions. The <b>cbStruct</b> member of this <b>WAVEFILTER</b> structure must be initialized to the size of the <b>WAVEFILTER</b> structure. If no special restrictions are desired, this member can be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure that will be used to restrict the filters listed in the dialog box. The <b>fdwEnum</b> member defines which members of this structure should be used for the enumeration restrictions. The <b>cbStruct</b> member of this <b>WAVEFILTER</b> structure must be initialized to the size of the <b>WAVEFILTER</b> structure. If no special restrictions are desired, this member can be <b>NULL</b>.
 
 
 ### -field hInstance
@@ -263,7 +263,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a>
 
 
 

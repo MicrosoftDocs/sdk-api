@@ -80,7 +80,7 @@ The negotiated extension version number. This value has already been negotiated 
 ### -param lpLineDevCaps
 
 A pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. Upon successful completion of the request, this structure is filled with line device capabilities information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. Upon successful completion of the request, this structure is filled with line device capabilities information.
 
 
 ## -returns
@@ -105,15 +105,15 @@ The <i>dwExtVersion</i> formal parameter indicates the version number of the req
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a> function. The service provider fills in device- and vendor-specific extended information according to the extension version specified.
 
 The service provider fills in all the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 The service provider must fill in all members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a> data structure or structures embedded in the varying part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> data structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps">LINETERMCAPS</a> data structure or structures embedded in the varying part of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> data structure.
 
 After the service provider returns from the 
 <b>TSPI_lineGetDevCaps</b> function, TAPI sets the <b>dwLinesStates</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure as follows:
 
 <pre class="syntax" xml:space="preserve"><code>LINEDEVCAPS.dwLineStates |=
     LINEDEVSTATE_OPEN |
@@ -128,11 +128,11 @@ After the service provider returns from the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps">LINETERMCAPS</a>
 
 
 

@@ -68,7 +68,7 @@ Handle to the conference call. The application must be an owner of this call. An
 ### -param hConsultCall
 
 Handle to the call to be added to the conference call. The application must be an owner of this call. This call cannot be a parent of another conference or a participant in any conference. Depending on the device capabilities indicated in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>, the <i>hConsultCall</i> may not necessarily have been established using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>, the <i>hConsultCall</i> may not necessarily have been established using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineprepareaddtoconference">linePrepareAddToConference</a>. The call state of <i>hConsultCall</i> must be <i>connected</i>, <i>onHold</i>, <i>proceeding</i>, or <i>ringback</i>. Many PBXs allow calls to be added to conferences before they are actually answered.
 
@@ -113,7 +113,7 @@ The conference call is established either by
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineprepareaddtoconference">linePrepareAddToConference</a>. Some switches can allow adding arbitrary calls to the conference, and such a call can have been set up using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> and be on (hard) hold. The application can examine the <b>dwAddrCapFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a> structure to determine the permitted operations.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> structure to determine the permitted operations.
 
 
 
@@ -127,7 +127,7 @@ The conference call is established either by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps_tag">LINEADDRESSCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>
 
 
 

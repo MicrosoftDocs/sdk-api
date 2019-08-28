@@ -321,7 +321,7 @@ Call state or states upon which a call made by a predictive dialer can be set to
 ### -field dwNumCallTreatments
 
 Number of entries in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry_tag">LINECALLTREATMENTENTRY</a> structures delimited by <b>dwCallTreatmentListSize</b> and <b>dwCallTreatmentListOffset</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures delimited by <b>dwCallTreatmentListSize</b> and <b>dwCallTreatmentListOffset</b>.
 
 
 ### -field dwCallTreatmentListSize
@@ -332,7 +332,7 @@ Size of the call treatment array, in bytes.
 ### -field dwCallTreatmentListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry_tag">LINECALLTREATMENTENTRY</a> structures the specify the call treatments supported on the address (that can be selected using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a> structures the specify the call treatments supported on the address (that can be selected using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalltreatment">lineSetCallTreatment</a>). The value is <b>dwNumCallTreatments</b> times SIZEOF(LINECALLTREATMENTENTRY). The size of the field is specified by <b>dwCallTreatmentListSize</b>.
 
 
@@ -350,7 +350,7 @@ Offset from the beginning of the structure to a string consisting of the device 
 ### -field dwMaxCallDataSize
 
 Maximum number of bytes that an application can set in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcalldata">lineSetCallData</a>.
 
 
@@ -363,26 +363,26 @@ Additional switching capabilities or features available for all calls on this ad
 ### -field dwMaxNoAnswerTimeout
 
 Maximum value in seconds that can be set in the <b>dwNoAnswerTimeout</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> when making a call. A value of 0 indicates that automatic abandonment of unanswered calls is not supported by the service provider, or that the timeout value is not adjustable by applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> when making a call. A value of 0 indicates that automatic abandonment of unanswered calls is not supported by the service provider, or that the timeout value is not adjustable by applications.
 
 
 ### -field dwConnectedModes
 
 LINECONNECTEDMODE_ values that can appear in the <b>dwCallStateMode</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a> and in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> messages for calls on this address.
 
 
 ### -field dwOfferingModes
 
 LINEOFFERINGMODE_ values that can appear in the <b>dwCallStateMode</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a> and in LINE_CALLSTATE messages for calls on this address.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> and in LINE_CALLSTATE messages for calls on this address.
 
 
 ### -field dwAvailableMediaModes
 
 Media types (modes) that can be invoked on new calls created on this address, when the <b>dwAddressFeatures</b> member indicates that new calls are possible. If this member is zero, it indicates that the service provider either does not know or cannot indicate which media types are available, in which case any or all of the media types indicated in the <b>dwMediaModes</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> may be available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
 
 
 ## -remarks
@@ -411,31 +411,31 @@ The members <b>dwPredictiveAutoTransferStates</b> through <b>dwAvailableMediaMod
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry_tag">LINECALLTREATMENTENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalltreatmententry">LINECALLTREATMENTENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 

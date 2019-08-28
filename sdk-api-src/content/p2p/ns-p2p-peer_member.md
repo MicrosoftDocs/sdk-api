@@ -109,12 +109,12 @@ Specifies the number of IP addresses listed in <b>pAddress</b>.
 
 ### -field pAddresses
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures used by the member.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures used by the member.
 
 
 ### -field pCredentialInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info_tag">PEER_CREDENTIAL_INFO</a> structure that contains information about the security credentials of a member.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> structure that contains information about the security credentials of a member.
 
 
 ## -see-also
@@ -122,11 +122,11 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info_tag">PEER_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a>
  
 
  

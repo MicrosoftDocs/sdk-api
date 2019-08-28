@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineSetMediaMode</b> function changes the call's media as stored in the call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALMEDIAMODE, LINEE
 
 
 Other than changing the call's media as stored in the call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure, this procedure is simply advisory in the sense that it indicates an expected media change that is about to occur, rather than forcing a specific change to the call. Typical usage is to set a call's media type to a specific known media type, or to exclude possible media types as long as the call's media type is not fully known (the UNKNOWN media type flag is set).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure, this procedure is simply advisory in the sense that it indicates an expected media change that is about to occur, rather than forcing a specific change to the call. Typical usage is to set a call's media type to a specific known media type, or to exclude possible media types as long as the call's media type is not fully known (the UNKNOWN media type flag is set).
 
 TAPI makes the following guarantees regarding the passed media type: (1) there is at least one bit set, (2) there are no reserved bits set, and (3) if more than one bit is set, "Unknown" is also set. The service provider must perform any further validity checks on the media types, such as checking whether any media types are indeed supported by the service provider.
 
@@ -100,7 +100,7 @@ TAPI makes the following guarantees regarding the passed media type: (1) there i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

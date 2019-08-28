@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag">DRT_BOOTSTRAP_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 

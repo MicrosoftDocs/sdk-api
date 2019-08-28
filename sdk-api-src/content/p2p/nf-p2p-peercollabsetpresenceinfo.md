@@ -61,7 +61,7 @@ The <b>PeerCollabSetPresenceInfo</b> function updates the caller's presence info
 
 ### -param pcPresenceInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_presence_info_tag">PEER_PRESENCE_INFO</a> structure that contains the new presence information to publish for the calling peer application.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_presence_info">PEER_PRESENCE_INFO</a> structure that contains the new presence information to publish for the calling peer application.
 
 
 ## -returns

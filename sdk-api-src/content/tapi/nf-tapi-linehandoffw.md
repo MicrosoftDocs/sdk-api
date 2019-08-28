@@ -106,7 +106,7 @@ The second type of handoff is based on media mode. In this case, the application
 The 
 <b>lineHandoff</b> function does not change the media mode of a call. To change the media mode of a call, the application should use 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a> on the call, specifying the new media mode. This changes the call's media mode as stored in the call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure.
 
 If handoff succeeds, the receiving application receives a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message for the call. This message indicates that the receiving application has owner privilege to the call (<i>dwParam3</i>). In addition, the number of owners and/or monitors for the call may have changed. This is reported by the 
@@ -115,18 +115,18 @@ If handoff succeeds, the receiving application receives a
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> to retrieve more information about the received call.
 
 The receiving application should first check the media mode in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>. If only a single media mode flag is set, the call is officially of that media mode, and the application can act accordingly. If UNKNOWN and other media mode flags are set, then the media mode of the call is officially UNKNOWN but is assumed to be of one of the media modes for which a flag is set in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. If only a single media mode flag is set, the call is officially of that media mode, and the application can act accordingly. If UNKNOWN and other media mode flags are set, then the media mode of the call is officially UNKNOWN but is assumed to be of one of the media modes for which a flag is set in 
 <b>LINECALLINFO</b>. The application should assume that it ought to probe for the highest priority media mode.
 
 If the probe succeeds (either for that media mode or for another one), the application should set the media mode member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> to the single media mode that was recognized. If the media mode flag matches the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> to the single media mode that was recognized. If the media mode flag matches the 
 <b>LINECALLINFO</b> media mode, the application can act accordingly. If it makes a determination for another media mode, it must first hand off the call to that media mode.
 
 If the probe fails, the application should clear the corresponding media mode flag in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> and hand off the call, specifying <i>dwMediaMode</i> as LINEMEDIAMODE_UNKNOWN. It should also deallocate its call handle (or revert back to monitoring).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> and hand off the call, specifying <i>dwMediaMode</i> as LINEMEDIAMODE_UNKNOWN. It should also deallocate its call handle (or revert back to monitoring).
 
 If none of the media modes succeeded in making a determination, only the UNKNOWN flag remains set in the media mode field of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> at the time the media application attempts to hand off the call to UNKNOWN. The final 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> at the time the media application attempts to hand off the call to UNKNOWN. The final 
 <b>lineHandoff</b> fails if the application is the only remaining owner of the call. This informs the application that it should drop the call and deallocate its handle, in which case the call is abandoned. The privileges of the invoking application to the call are unchanged by this operation, but the application can change its privileges to a call with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>.
 
@@ -146,7 +146,7 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

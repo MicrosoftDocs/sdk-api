@@ -91,7 +91,7 @@ TAPI does not call
 
 If there is an active call on the line at the time of 
 <b>TSPI_lineCloseCall</b>, the call must be dropped if this behavior is indicated by the LINEDEVCAPFLAGS_CLOSEDROP bit in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 If the service provider can determine that there is another agent sharing control of the call, such as in a party line situation with a separate handset, the service provider simply lets control of the call pass to the other agent rather than forcibly dropping it.
 
@@ -108,7 +108,7 @@ This function is called when the last application with a handle to this call exe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

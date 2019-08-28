@@ -86,7 +86,7 @@ Pointer to the port utilized by the local DRT instance.
 
 ### -param phTransport [out]
 
-Pointer to a DRT transport handle specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
+Pointer to a DRT transport handle specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 
 ## -returns
@@ -179,7 +179,7 @@ When using the Distributed Routing Table API in Windows XP with Service Pack 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
 
 
 

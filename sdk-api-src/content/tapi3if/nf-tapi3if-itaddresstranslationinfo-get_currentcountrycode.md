@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 Corresponds to the <b>dwCurrentCountry</b> member of the TAPI 2 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a> structure.
 
 
 

@@ -98,7 +98,7 @@ Flags for enumerating the filters for a given filter tag. The following values a
 </tr>
 <tr>
 <td>ACM_FILTERENUMF_DWFILTERTAG</td>
-<td>The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure pointed to by the <b>pwfltr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
+<td>The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure pointed to by the <b>pwfltr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure is valid. The enumerator will enumerate only a filter that conforms to this attribute. The <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure.</td>
 </tr>
 </table>
  

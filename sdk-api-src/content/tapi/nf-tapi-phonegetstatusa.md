@@ -70,7 +70,7 @@ Handle to the open phone device to be queried.
 ### -param lpPhoneStatus
 
 Pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a>, which is loaded with the returned information about the phone's status.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>, which is loaded with the returned information about the phone's status.
 
 
 ## -returns
@@ -98,7 +98,7 @@ An application can use this function to determine the current state of an open p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
 
 
 

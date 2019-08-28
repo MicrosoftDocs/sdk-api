@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEFORWARD</b> structure describes an entry of the forwarding instructions. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a> and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a> structures can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a> structures can contain an array of 
 <b>LINEFORWARD</b> structures.
 
 
@@ -149,11 +149,11 @@ Each entry in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus_tag">LINEADDRESSSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist_tag">LINEFORWARDLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>
 
 
 

@@ -66,7 +66,7 @@ Handle to the peer group whose members are enumerated. This handle is returned b
 
 ### -param dwFlags [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_member_flags_tag">PEER_MEMBER_FLAGS</a> flags that indicate which types of members to include in the enumeration. If this value is set to zero, all members of the peer group are included.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_member_flags">PEER_MEMBER_FLAGS</a> flags that indicate which types of members to include in the enumeration. If this value is set to zero, all members of the peer group are included.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ Unicode string that contains the identity of a specific peer whose information i
 ### -param phPeerEnum [out]
 
 Pointer to the enumeration that contains the returned list of peer group members. This handle is passed to  
-	 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items, with each item represented as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a> structure. When finished, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> is called to return the memory used by the enumeration. This parameter is required.
+	 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items, with each item represented as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure. When finished, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> is called to return the memory used by the enumeration. This parameter is required.
 
 
 ## -returns
@@ -156,7 +156,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 The local node is always the very first item in the enumeration if <i>pwzIdentity</i> is <b>NULL</b>, and <i>dwFlags</i> is set to indicate that the local node is a member of the explicit subset.
 
-By default, every member publishes membership information to the peer group. If <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags_tag">PEER_MEMBER_DATA_OPTIONAL</a> is set on the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a> data for that peer, this information is only  available when a peer performs an action within the group, for example, publishing a record, updating presence, or issuing a GMC.
+By default, every member publishes membership information to the peer group. If <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_property_flags">PEER_MEMBER_DATA_OPTIONAL</a> is set on the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> data for that peer, this information is only  available when a peer performs an action within the group, for example, publishing a record, updating presence, or issuing a GMC.
 
 
 

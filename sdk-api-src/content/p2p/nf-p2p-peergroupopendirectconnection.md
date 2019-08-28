@@ -71,12 +71,12 @@ Pointer to a Unicode string that contains the identity   a peer  connects to. Th
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structure that contains the IPv6 address   the peer  connects to. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the IPv6 address   the peer  connects to. This parameter is required.
 
 
 ### -param pullConnectionId [out]
 
-Unsigned 64-bit integer that identifies the direct connection. This ID value cannot be assumed as valid until the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is raised and indicates that the connection has been accepted by the other peer. This parameter is required.
+Unsigned 64-bit integer that identifies the direct connection. This ID value cannot be assumed as valid until the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is raised and indicates that the connection has been accepted by the other peer. This parameter is required.
 
 
 ## -returns
@@ -147,7 +147,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-Every direct connection opened with this function must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclosedirectconnection">PeerGroupCloseDirectConnection</a> when the exchange has finished. If the peer refuses a connection or if the connection fails, S_OK is returned. However, a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is generated, and  the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT DATA</a> structure has the  <b>status</b> member of its component <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
+Every direct connection opened with this function must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclosedirectconnection">PeerGroupCloseDirectConnection</a> when the exchange has finished. If the peer refuses a connection or if the connection fails, S_OK is returned. However, a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is generated, and  the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT DATA</a> structure has the  <b>status</b> member of its component <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
 
 
 
@@ -157,11 +157,11 @@ Every direct connection opened with this function must be closed with <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag"> PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address"> PEER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
 
 
 
@@ -169,7 +169,7 @@ Every direct connection opened with this function must be closed with <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type">PEER_GROUP_EVENT_DIRECT_CONNECTION</a>
 
 
 

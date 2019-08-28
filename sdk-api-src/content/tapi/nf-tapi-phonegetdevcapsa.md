@@ -87,7 +87,7 @@ Version number of the service provider-specific extensions to be used. This numb
 ### -param lpPhoneCaps
 
 Pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>. Upon successful completion of the request, this structure is filled with phone device capabilities information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>. Upon successful completion of the request, this structure is filled with phone device capabilities information.
 
 
 ## -returns
@@ -120,7 +120,7 @@ TAPI and extension version numbers are those under which TAPI, Telephony DLL, an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 

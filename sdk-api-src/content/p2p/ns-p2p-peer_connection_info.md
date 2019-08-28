@@ -66,7 +66,7 @@ Specifies the size a structure.
 
 ### -field dwFlags
 
-Specifies the type of connection to a remote node. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_connection_flags_tag">PEER_CONNECTION_FLAGS</a>. 
+Specifies the type of connection to a remote node. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_connection_flags">PEER_CONNECTION_FLAGS</a>. 
 
 
 ### -field ullConnectionId
@@ -86,7 +86,7 @@ Points to a string that identifies the node on the other end of a connection.
 
 ### -field address
 
-Specifies the address of a remote node. The address is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structure.
+Specifies the address of a remote node. The address is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure.
 
 
 ## -see-also
@@ -94,7 +94,7 @@ Specifies the address of a remote node. The address is contained in a <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 

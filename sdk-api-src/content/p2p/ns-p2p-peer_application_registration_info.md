@@ -62,7 +62,7 @@ The <b>PEER_APPLICATION_REGISTRATION_INFO</b> structure contains peer applicatio
 ### -field application
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a> structure that contains the specific peer application data.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application">PEER_APPLICATION</a> structure that contains the specific peer application data.
 
 
 ### -field pwzApplicationToLaunch
@@ -78,7 +78,7 @@ Zero-terminated Unicode string that contains command-line arguments that must be
 ### -field dwPublicationScope
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_publication_scope_tag">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this application registration information. The only valid value for this member is PEER_PUBLICATION_SCOPE_INTERNET.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_publication_scope">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this application registration information. The only valid value for this member is PEER_PUBLICATION_SCOPE_INTERNET.
 
 
 ## -remarks
@@ -97,7 +97,7 @@ A peer application has a GUID representing a single specific application. When a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_tag">PEER_APPLICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application">PEER_APPLICATION</a>
 
 
 

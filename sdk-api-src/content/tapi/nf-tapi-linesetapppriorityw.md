@@ -76,7 +76,7 @@ A media type for which the priority of the application is to be set. The value c
 ### -param lpExtensionID
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>. This parameter is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>. This parameter is ignored.
 
 
 ### -param dwRequestMode
@@ -125,7 +125,7 @@ The Priorities set with <b>lineSetAppPriority</b> will persist across restarts o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>
 
 
 

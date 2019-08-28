@@ -65,13 +65,13 @@ The <b>timeGetDevCaps</b> function queries the timer device to determine its res
 
 ### -param ptc
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps_tag">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
           
 
 
 ### -param cbtc
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps_tag">TIMECAPS</a> structure.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure.
           
 
 

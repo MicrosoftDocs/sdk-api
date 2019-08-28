@@ -132,7 +132,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 The DoNotDisturb feature is implemented using forwarding. If 
 <b>put_DoNotDisturb</b> is called with VARIANT_TRUE, Tapi3.dll creates a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a> list with the mode set to LINEFORWARDMODE_UNCOND and only one LINEFORWARD item with the destination address set to <b>NULL</b>. If 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a> list with the mode set to LINEFORWARDMODE_UNCOND and only one LINEFORWARD item with the destination address set to <b>NULL</b>. If 
 <b>put_DoNotDisturb</b> is called with VARIANT_FALSE, Tapi3.dll cancels forwarding completely on this address, even those forwarding rules set with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>.
 

@@ -71,7 +71,7 @@ Highest version of TAPI supported by the application (not necessarily the value 
 ### -param lpProviderList
 
 Pointer to a memory location where TAPI can return a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist_tag">LINEPROVIDERLIST</a> structure. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a> structure. Prior to calling 
 <b>lineGetProviderList</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
@@ -97,7 +97,7 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist_tag">LINEPROVIDERLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a>
 
 
 

@@ -107,7 +107,7 @@ In some telephony environments, the switch or service provider can assign a uniq
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo_tag">LINECALLHUBTRACKINGINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo">LINECALLHUBTRACKINGINFO</a>
  
 
  

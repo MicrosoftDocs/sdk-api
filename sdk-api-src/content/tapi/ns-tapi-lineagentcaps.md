@@ -115,7 +115,7 @@ LINEAGENTSTATE_ constants that can be used in the <i>dwNextAgentState</i> parame
 ### -field dwMaxNumGroupEntries
 
 Maximum number of agent identifiers that can be logged in on the address simultaneously. Determines the highest value that can be passed in as the <b>dwNumEntries</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a> structure to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a> structure to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>.
 
 
@@ -129,7 +129,7 @@ Indicates the
 ### -field dwNumAgentExtensionIDs
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a> structures that appear in the <i>ExtensionIDList</i> array. The value is 0 if agent-handler-specific extensions are supported on the address.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a> structures that appear in the <i>ExtensionIDList</i> array. The value is 0 if agent-handler-specific extensions are supported on the address.
 
 
 ### -field dwAgentExtensionIDListSize
@@ -140,7 +140,7 @@ Size of the agent extension IDs array, in bytes.
 ### -field dwAgentExtensionIDListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a> structures. The size is <b>dwNumExtensionIDs</b> times SIZEOF(LINEEXTENSIONID). The array lists the 128-bit universally unique identifiers for all agent-handler-specific extensions supported by the agent handle for the address. The extension being used is referenced in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a> structures. The size is <b>dwNumExtensionIDs</b> times SIZEOF(LINEEXTENSIONID). The array lists the 128-bit universally unique identifiers for all agent-handler-specific extensions supported by the agent handle for the address. The extension being used is referenced in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineagentspecific">lineAgentSpecific</a> function and 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-agentspecific">LINE_AGENTSPECIFIC</a> message by its position in this table, the first entry being entry 0, so it is important that the agent handler always present extension identifiers in this array in the same order. The size of the array is specified by <b>dwAgentExtensionIDListOffset</b>.
 
@@ -155,15 +155,15 @@ GUID for ACD proxy associated with the line. This element is exposed only to app
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist_tag">LINEAGENTGROUPLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid_tag">LINEEXTENSIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest_tag">LINEPROXYREQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 

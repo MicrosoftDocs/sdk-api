@@ -66,12 +66,12 @@ Handle to the peer group  to which a peer intends to connect. This handle is ret
 
 ### -param cAddresses [in]
 
-The total number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures pointed to by <i>pAddresses</i>.
+The total number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures pointed to by <i>pAddresses</i>.
 
 
 ### -param pAddresses [in]
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structures that specify the endpoints of peers participating in the group.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structures that specify the endpoints of peers participating in the group.
 
 
 ## -returns
@@ -118,7 +118,7 @@ If  a time-out value for PeerGroupConnectByAddress is not provided in the applic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 

@@ -79,7 +79,7 @@ Selection of calls that are requested. This parameter uses one and only one of t
 ### -param lpCallList
 
 Pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist_tag">LINECALLLIST</a>. Upon successful completion of the request, call handles to all selected calls are returned in this structure. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>. Upon successful completion of the request, call handles to all selected calls are returned in this structure. Prior to calling 
 <b>lineGetNewCalls</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
@@ -124,7 +124,7 @@ The application can invoke
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist_tag">LINECALLLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecalllist">LINECALLLIST</a>
 
 
 

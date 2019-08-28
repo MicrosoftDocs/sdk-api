@@ -84,7 +84,7 @@ A pointer to <b>null</b>-terminated Unicode string that indicates the address wh
 ### -param lpNonDirAddress
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>. For nondirected park, the address where the call is parked is returned in this structure. This parameter is ignored for directed park. Within the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>. For nondirected park, the address where the call is parked is returned in this structure. This parameter is ignored for directed park. Within the 
 <b>VARSTRING</b> structure, <i>dwStringFormat</i> must be set to STRINGFORMAT_ASCII (an ASCII string buffer containing a <b>null</b>-terminated string), and the terminating <b>NULL</b> is accounted for in the <i>dwStringSize</i>. If the memory pointed to by the <i>lpNonDirAddress</i> parameter is not large enough for the requested address, the 
 <b>TSPI_linePark</b> function returns LINEERR_STRUCTURETOOSMALL.
 
@@ -106,7 +106,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALPARKMODE, LINEERR_OPERATION
 
 
 All members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure, except <b>dwTotalSize</b>, are filled in by the service provider. The <b>dwTotalSize</b> member is filled in by TAPI, and the service provider must not overwrite this value.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure, except <b>dwTotalSize</b>, are filled in by the service provider. The <b>dwTotalSize</b> member is filled in by TAPI, and the service provider must not overwrite this value.
 
 Under directed park, the client application (through TAPI) specifies the address at which it wants to park the call. Under nondirected park, the switch determines the address and provides this to TAPI. In either case, a parked call can be unparked by specifying this address.
 
@@ -145,7 +145,7 @@ Some switches can remind the user after a call has been parked for some long amo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
  
 
  

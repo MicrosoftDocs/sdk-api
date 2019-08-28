@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The value that this method returns corresponds to the <b>dwPermanentLocationID</b> member of TAPI 2's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
 
 
 
@@ -134,7 +134,7 @@ The value that this method returns corresponds to the <b>dwPermanentLocationID</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry_tag">LINELOCATIONENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a>
 
 
 

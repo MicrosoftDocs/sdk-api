@@ -65,13 +65,13 @@ The
 
 Handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. The application must have set the PHONEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure.
 
 
 ### -param lpMessage
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
 
 
 ### -param dwTimeout
@@ -107,11 +107,11 @@ If the timeout expires (or was zero) and no message could be fetched from the qu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a>
 
 
 

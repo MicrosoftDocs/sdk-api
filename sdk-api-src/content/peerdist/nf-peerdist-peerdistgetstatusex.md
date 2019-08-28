@@ -66,7 +66,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.co
 
 ### -param pPeerDistStatus [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info">PEERDIST_STATUS_INFO</a> structure that contains the current status and capabilities of the Peer Distribution service.
 
 
 ## -returns
@@ -96,7 +96,7 @@ A Group Policy change can result in the Peer Distribution service  moving to an 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag">PEERDIST_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info">PEERDIST_STATUS_INFO</a>
  
 
  

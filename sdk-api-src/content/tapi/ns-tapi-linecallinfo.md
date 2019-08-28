@@ -59,7 +59,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> message is sent to the application indicating which information item has changed.
 
 Dynamically changing information about a call, such as call progress status, is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a> structure, returned by a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a> structure, returned by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> function.
 
 
@@ -160,10 +160,10 @@ Various media types for which monitoring is currently enabled. This member is on
 ### -field DialParams
 
 Dialing parameters currently in effect on the call, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>. Unless these parameters are set by either 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. Unless these parameters are set by either 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a>, their values are the same as the defaults used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 
 ### -field dwOrigin
@@ -352,9 +352,9 @@ Size of the displayable address string including the null terminator, in bytes.
 ### -field dwDisplayableAddressOffset
 
 Displayable string is used for logging purposes. The information is obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> for functions that initiate calls. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> for functions that initiate calls. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> function returns appropriate information to be placed in this field in the <b>dwDisplayableAddressSize</b> and <b>dwDisplayableAddressOffset</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a> structure.
 
 
 ### -field dwCalledPartySize
@@ -541,19 +541,19 @@ The members <b>dwCallTreatment</b> through <b>dwReceivingFlowspecOffset</b> are 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus_tag">LINECALLSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>
 
 
 

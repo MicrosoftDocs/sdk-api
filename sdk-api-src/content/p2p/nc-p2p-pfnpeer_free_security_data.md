@@ -66,7 +66,7 @@ Specifies the peer graph associated with the specified record.
 
 ### -param pvContext [in]
 
-Pointer to the security context to free. This  parameter is set to the value of the <b>pvContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
+Pointer to the security context to free. This  parameter is set to the value of the <b>pvContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>.
 
 
 ### -param pSecurityData [in]
@@ -131,7 +131,7 @@ This callback can be invoked from any of the Peer Graphing API functions involvi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a>
 
 
 

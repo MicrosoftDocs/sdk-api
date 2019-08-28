@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineReleaseUserUserInfo</b> function informs the service provider that the user-user information contained in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure has been processed, and that subsequently received user-user information can now be written into that structure. The service provider sends a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure has been processed, and that subsequently received user-user information can now be written into that structure. The service provider sends a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725218(v=vs.85)">LINE_CALLINFO</a> message indicating LINECALLINFOSTATE_USERUSERINFO when new information is available.
 
 
@@ -91,14 +91,14 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURC
 The 
 <b>TSPI_lineReleaseUserUserInfo</b> function permits control of the flow of incoming user-user information on an ISDN connection. When a new, complete user-user information message is received, the service provider informs TAPI using a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725218(v=vs.85)">LINE_CALLINFO</a> message (specifying LINECALLINFOSTATE_USERUSERINFO). The user-user information and other fields in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> can be examined by multiple calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> can be examined by multiple calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a>. The service provider must not overwrite previous user-user information in 
 <b>LINECALLINFO</b> with newer information until after 
 <b>TSPI_lineReleaseUserUserInfo</b> has been called. The service provider must buffer subsequently received user-user information until the previous information is released. Any remaining buffered information can be discarded when 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall">TSPI_lineCloseCall</a> is invoked.
 
 If this function is invoked while there is no user-user information in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>, the service provider should nevertheless return an indication of success.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>, the service provider should nevertheless return an indication of success.
 
 For backward compatibility, TAPI automatically returns LINEERR_OPERATIONUNAVAIL if this function is invoked for a call on a line under the control of a service provider that does not export the function.
 
@@ -114,7 +114,7 @@ For backward compatibility, TAPI automatically returns LINEERR_OPERATIONUNAVAIL 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 

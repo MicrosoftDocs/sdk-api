@@ -166,7 +166,7 @@ Offset from the beginning of the structure to the device-specific field, in byte
 ### -field dwAvailableMediaModes
 
 Indicates the media types that can be invoked on new calls created on this line device, when the <b>dwLineFeatures</b> member indicates that new calls are possible. If this member is zero, it indicates that the service provider either does not know or cannot indicate which media types are available, in which case any or all of the media types indicated in the <b>dwMediaModes</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> may be available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
 
 
 ### -field dwAppInfoSize
@@ -177,7 +177,7 @@ Size of the array that identifies the applications that have the line open, in b
 ### -field dwAppInfoOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo_tag">LINEAPPINFO</a> structures. The <b>dwNumOpens</b> member indicates the number of elements in the array. Each element in the array identifies an application that has the line open. The size of the array is specified by <b>dwAppInfoSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a> structures. The <b>dwNumOpens</b> member indicates the number of elements in the array. Each element in the array identifies an application that has the line open. The size of the array is specified by <b>dwAppInfoSize</b>.
 
 
 ## -remarks
@@ -196,11 +196,11 @@ The members <b>dwAvailableMediaModes</b> through <b>dwAppInfoOffset</b> are avai
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo_tag">LINEAPPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

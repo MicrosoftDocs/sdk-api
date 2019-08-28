@@ -72,9 +72,9 @@ Specifies the identity of a peer to whom credentials will be issued. This parame
 ### -param pCredentialInfo [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info_tag">PEER_CREDENTIAL_INFO</a> structure that contains information about the credentials  of a peer whose identity is specified in <i>pwzSubjectIdentity</i>. If this parameter is <b>NULL</b>, the information stored in the peer database is used, instead. This parameter is optional.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> structure that contains information about the credentials  of a peer whose identity is specified in <i>pwzSubjectIdentity</i>. If this parameter is <b>NULL</b>, the information stored in the peer database is used, instead. This parameter is optional.
 
-If this parameter is provided, the following fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info_tag">PEER_CREDENTIAL_INFO</a> are ignored:<ul>
+If this parameter is provided, the following fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a> are ignored:<ul>
 <li><b>pwzIssuerPeerName</b></li>
 <li><b>pwzIssuerFriendlyName</b></li>
 </ul>
@@ -190,7 +190,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 This function can only be called successfully by an administrator.
 
-The credentials for a member (<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info_tag">PEER_CREDENTIAL_INFO</a>) are obtained  by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>. The credentials are located in  the <b>pCredentialInfo</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member_tag">PEER_MEMBER</a> structure for a specific member.
+The credentials for a member (<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_credential_info">PEER_CREDENTIAL_INFO</a>) are obtained  by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>. The credentials are located in  the <b>pCredentialInfo</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a> structure for a specific member.
 
 
 

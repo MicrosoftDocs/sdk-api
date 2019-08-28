@@ -96,7 +96,7 @@ The country or region code of the called party. If a value of 0 is specified, a 
 ### -param lpCallParams
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure. This structure allows TAPI to specify how it wants the call to be set up. If NULL is specified, a default 3.1kHz voice call is established, and an arbitrary origination address on the line is selected. This structure selects elements such as the call's bearer mode, data rate, expected media type, origination address, blocking of caller ID information, and dialing parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure. This structure allows TAPI to specify how it wants the call to be set up. If NULL is specified, a default 3.1kHz voice call is established, and an arbitrary origination address on the line is selected. This structure selects elements such as the call's bearer mode, data rate, expected media type, origination address, blocking of caller ID information, and dialing parameters.
 
 
 ## -returns
@@ -116,7 +116,7 @@ LINEERR_ADDRESSBLOCKED, LINEERR_INVALLINESTATE, LINEERR_BEARERMODEUNAVAIL, LINEE
 
 
 The service provider returns LINEERR_INVALLINESTATE if the line is currently not in a state in which this operation can be performed. A list of currently valid operations can be found in the <b>dwLineFeatures</b> member (of the type <b>LINEFEATURE</b>) in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> structure. (Calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure. (Calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a> updates the information in 
 <b>LINEDEVSTATUS</b>.)
 
@@ -155,7 +155,7 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 

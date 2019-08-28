@@ -84,7 +84,7 @@ Indicates that the specified record is expired and removed from the peer graph o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data_tag">PEER_EVENT_RECORD_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_EVENT_RECORD_CHANGE_DATA</a>
 
 
 

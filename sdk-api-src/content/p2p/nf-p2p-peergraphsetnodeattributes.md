@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGraphSetNodeAttributes</b> function sets the attributes of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info_tag">PEER_NODE_INFO</a> structure for the local node.
+The <b>PeerGraphSetNodeAttributes</b> function sets the attributes of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure for the local node.
 
 
 ## -parameters
@@ -144,7 +144,7 @@ To retrieve attributes for a node, call <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info_tag">PEER_NODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
 
 
 

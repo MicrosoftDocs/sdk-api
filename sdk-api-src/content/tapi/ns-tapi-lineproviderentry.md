@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEPROVIDERENTRY</b> structure provides the information for a single service provider entry. An array of these structures is returned as part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist_tag">LINEPROVIDERLIST</a> structure returned by the function 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a> structure returned by the function 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a>.
 
 
@@ -75,7 +75,7 @@ Size of the provider file name string, including the <b>null</b> terminator, in 
 ### -field dwProviderFilenameOffset
 
 Offset from the beginning of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist_tag">LINEPROVIDERLIST</a> structure to a <b>null</b>-terminated string containing the file name (path) of the service provider DLL (.TSP) file. The size of the string is specified by <b>dwProviderFilenameSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a> structure to a <b>null</b>-terminated string containing the file name (path) of the service provider DLL (.TSP) file. The size of the string is specified by <b>dwProviderFilenameSize</b>.
 
 
 ## -remarks
@@ -92,7 +92,7 @@ Not extensible.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist_tag">LINEPROVIDERLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderlist">LINEPROVIDERLIST</a>
 
 
 

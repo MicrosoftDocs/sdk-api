@@ -75,7 +75,7 @@ The media type(s) currently of interest to the calling application. This paramet
 ### -param lpCallParams
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>. It describes the call parameters that the line device should be able to provide. The only relevant fields of <i>lpCallParams</i> for the purposes of this test are the following: 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. It describes the call parameters that the line device should be able to provide. The only relevant fields of <i>lpCallParams</i> for the purposes of this test are the following: 
 
 
 
@@ -117,7 +117,7 @@ A TAPI
 <div> </div>
 The 
 <b>TSPI_lineConditionalMediaDetection</b> function checks the bits set in the <b>dwCallParamFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure and handles the following cases:
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure and handles the following cases:
 
 The 
 <b>TSPI_lineConditionalMediaDetection</b> function returns success if passing the same bit values to the 
@@ -141,7 +141,7 @@ There is no directly corresponding function at the TAPI level. This procedure co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 

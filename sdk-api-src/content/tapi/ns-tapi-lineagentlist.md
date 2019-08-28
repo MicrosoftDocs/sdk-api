@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTLIST</b> structure describes a list of ACD agents. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry_tag">LINEAGENTENTRY</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry">LINEAGENTENTRY</a> structures.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwNumEntries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry_tag">LINEAGENTENTRY</a> structures that appear in the list array. The value is zero if no agents are available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry">LINEAGENTENTRY</a> structures that appear in the list array. The value is zero if no agents are available.
 
 
 ### -field dwListSize
@@ -90,7 +90,7 @@ Size of the agent list array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry_tag">LINEAGENTENTRY</a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTENTRY). The size of the field is specified by <b>dwListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry">LINEAGENTENTRY</a> structures that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEAGENTENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -102,7 +102,7 @@ Offset from the beginning of the structure to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry_tag">LINEAGENTENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagententry">LINEAGENTENTRY</a>
  
 
  

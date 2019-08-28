@@ -61,7 +61,7 @@ The <b>PeerGroupCreate</b> function creates a new peer group.
 
 ### -param pProperties [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
 
 The following members must be set:<ul>
 <li><b>pwzCreatorPeerName</b></li>
@@ -227,7 +227,7 @@ For applications that utilize passwords, it is recommended the passwords are han
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag"> PEER_GROUP_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties"> PEER_GROUP_PROPERTIES</a>
 
 
 

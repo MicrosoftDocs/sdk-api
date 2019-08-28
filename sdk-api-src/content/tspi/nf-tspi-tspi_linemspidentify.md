@@ -86,7 +86,7 @@ Returns zero if the function succeeds, or an error number if an error occurs. Po
 Note that TAPI 3 calls 
 <b>TSPI_lineMSPIdentify</b> only if the LINEDEVCAPFLAGS_MSP flag is set in the TSP. (You can set 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevcapflags--constants">LINEDEVCAPFLAGS_constants</a> in the <b>dwDevCapFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.)
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.)
 
 If the device does not have an associated MSP, the TSP returns LINEERR_OPERATIONUNAVAIL.
 
@@ -102,7 +102,7 @@ If the device does not have an associated MSP, the TSP returns LINEERR_OPERATION
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 

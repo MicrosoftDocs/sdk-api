@@ -46,44 +46,44 @@ The <b>PEER_COLLAB_EVENT_DATA</b> union contains variant data for each possible 
 
 ### -field eventType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_collab_event_type_tag">PEER_COLLAB_EVENT_TYPE</a> enumeration value that contains the type of the event whose corresponding data structure appears in the subsequent union arm.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_collab_event_type">PEER_COLLAB_EVENT_TYPE</a> enumeration value that contains the type of the event whose corresponding data structure appears in the subsequent union arm.
 
 
 ### -field __unnamed_union_03e8_5
 
 ### -field watchListChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_watchlist_changed_data_tag">PEER_EVENT_WATCHLIST_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_WATCHLIST_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_watchlist_changed_data">PEER_EVENT_WATCHLIST_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_WATCHLIST_CHANGED.
 
 
 ### -field presenceChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_presence_changed_data_tag">PEER_EVENT_PRESENCE_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_PRESENCE_CHANGED or PEER_EVENT_MY_PRESENCE_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_presence_changed_data">PEER_EVENT_PRESENCE_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_PRESENCE_CHANGED or PEER_EVENT_MY_PRESENCE_CHANGED.
 
 
 ### -field applicationChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_application_changed_data_tag">PEER_EVENT_APPLICATION_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_APPLICATION_CHANGED or PEER_EVENT_MY_APPLICATION_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_application_changed_data">PEER_EVENT_APPLICATION_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_APPLICATION_CHANGED or PEER_EVENT_MY_APPLICATION_CHANGED.
 
 
 ### -field objectChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_object_changed_data_tag">PEER_EVENT_OBJECT_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_OBJECT_CHANGED or PEER_EVENT_MY_OBJECT_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_object_changed_data">PEER_EVENT_OBJECT_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_OBJECT_CHANGED or PEER_EVENT_MY_OBJECT_CHANGED.
 
 
 ### -field endpointChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_endpoint_changed_data_tag">PEER_EVENT_ENDPOINT_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_CHANGED or PEER_EVENT_MY_ENDPOINT_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_endpoint_changed_data">PEER_EVENT_ENDPOINT_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_ENDPOINT_CHANGED or PEER_EVENT_MY_ENDPOINT_CHANGED.
 
 
 ### -field peopleNearMeChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_people_near_me_changed_data_tag">PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_PEOPLE_NEAR_ME_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_people_near_me_changed_data">PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_PEOPLE_NEAR_ME_CHANGED.
 
 
 ### -field requestStatusChangedData
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_request_status_changed_data_tag">PEER_EVENT_REQUEST_STATUS_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_REQUEST_STATUS_CHANGED.
+A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_request_status_changed_data">PEER_EVENT_REQUEST_STATUS_CHANGED_DATA</a> structure. This data structure is present when <b>eventType</b> is set to PEER_EVENT_REQUEST_STATUS_CHANGED.
 
 
 ## -remarks

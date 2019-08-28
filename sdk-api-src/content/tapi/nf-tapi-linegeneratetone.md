@@ -99,7 +99,7 @@ Number of entries in the <i>lpTones</i> array. This parameter is ignored if <i>d
 ### -param lpTones
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for standard 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for standard 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a> tones such as LINETONEMODE_BUSY. If <i>lpTones</i> is a multifrequency tone, the various tones are played simultaneously.
 
 
@@ -134,7 +134,7 @@ If the LINEERR_INVALPOINTER error value is returned, the specified <i>lpTones</i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
 
 
 

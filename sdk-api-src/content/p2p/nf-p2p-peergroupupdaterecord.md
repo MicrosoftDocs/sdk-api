@@ -66,16 +66,16 @@ Handle to the peer group whose record is updated. This handle is returned by the
 
 ### -param pRecord [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure that contains the updated record for <i>hGroup</i>.  This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure that contains the updated record for <i>hGroup</i>.  This parameter is required.
 
-The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> can be updated.
+The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> can be updated.
 
 <ul>
 <li><b>pwzAttributes</b></li>
 <li><b>ftExpiration</b></li>
 <li><b>data</b></li>
 </ul>
-The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> must be present, but cannot be changed.
+The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> must be present, but cannot be changed.
 
 <ul>
 <li><b>dwSize</b></li>
@@ -175,7 +175,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag"> PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record"> PEER_RECORD</a>
 
 
 

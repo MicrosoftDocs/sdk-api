@@ -142,7 +142,7 @@ Driver supports hardware input, output, or both with the specified filter throug
 
 ### -field pwfltr
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that will receive the filter details. This structure requires no initialization by the application unless the ACM_FILTERDETAILSF_FILTER flag is specified with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function. In this case, the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a> structure that will receive the filter details. This structure requires no initialization by the application unless the ACM_FILTERDETAILSF_FILTER flag is specified with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a> function. In this case, the <b>dwFilterTag</b> member of the <b>WAVEFILTER</b> structure must be equal to the <b>dwFilterTag</b> member of the <b>ACMFILTERDETAILS</b> structure.
 
 
 ### -field cbwfltr
@@ -176,7 +176,7 @@ String that describes the filter for the <b>dwFilterTag</b> type. If the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter">WAVEFILTER</a>
 
 
 

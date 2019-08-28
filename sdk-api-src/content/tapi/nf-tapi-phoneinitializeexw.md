@@ -81,7 +81,7 @@ Address of a callback function that is invoked to determine status and events on
 ### -param lpszFriendlyAppName
 
 Pointer to a <b>null</b>-terminated string that contains only displayable characters. If this parameter is not <b>NULL</b>, it contains an application-supplied name for the application. This name is provided in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a> structure to indicate, in a user-friendly way, which application has ownership of the phone device. If <i>lpszFriendlyAppName</i> is <b>NULL</b>, the application's module filename is used instead (as returned by the function 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a> structure to indicate, in a user-friendly way, which application has ownership of the phone device. If <i>lpszFriendlyAppName</i> is <b>NULL</b>, the application's module filename is used instead (as returned by the function 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a>).
 
 
@@ -99,7 +99,7 @@ Pointer to a <b>DWORD</b>. The application must initialize this <b>DWORD</b>, be
 ### -param lpPhoneInitializeExParams
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> containing additional parameters used to establish the association between the application and TAPI (specifically, the application's selected event notification mechanism and associated parameters).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> containing additional parameters used to establish the association between the application and TAPI (specifically, the application's selected event notification mechanism and associated parameters).
 
 
 ## -returns
@@ -121,7 +121,7 @@ Applications must select one of three mechanisms by which TAPI notifies the appl
 
 <ul>
 <li>The <b>Hidden Window</b> mechanism is selected by specifying PHONEINITIALIZEEXOPTION_USEHIDDENWINDOW in the <b>dwOptions</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI version 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism (which is the only mechanism available to TAPI version 1.<i>x</i> applications), TAPI creates a window in the context of the application during the 
 <b>phoneInitializeEx</b> function, and subclasses the window so that all messages posted to it are handled by a WNDPROC in TAPI itself. When TAPI has a message to deliver to the application, TAPI posts a message to the hidden window. When the message is received (which can happen only when the application calls the Windows 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function), Windows switches the process context to that of the application and invokes the WNDPROC in TAPI. TAPI then delivers the message to the application by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nc-tapi-phonecallback">phoneCallbackFunc</a>, a pointer to which the application provided as a parameter in its call to 
@@ -129,8 +129,8 @@ Applications must select one of three mechanisms by which TAPI notifies the appl
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a>, for TAPI version 1.3 and 1.4 applications). This mechanism requires the application to have a message queue (which is not desirable for service processes) and to service that queue regularly to avoid delaying processing of telephony events. The hidden window is destroyed by TAPI during the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> function.</li>
 <li>The <b>Event Handle</b> mechanism is selected by specifying PHONEINITIALIZEEXOPTION_USEEVENT in the <b>dwOptions</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism, TAPI creates an event object on behalf of the application, and returns a handle to the object in the <b>hEvent</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>. The application must not manipulate this event in any manner (for example, must not call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism, TAPI creates an event object on behalf of the application, and returns a handle to the object in the <b>hEvent</b> member in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>. The application must not manipulate this event in any manner (for example, must not call 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>, and so on) or undefined behavior results; the application can only wait on this event using functions such as 
@@ -140,13 +140,13 @@ Applications must select one of three mechanisms by which TAPI notifies the appl
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> function. The application is not required to wait on the event handle that is created; the application could choose instead to call 
 <b>phoneGetMessage</b> and have it block waiting for a message to be queued.</li>
 <li>The <b>Completion Port</b> mechanism is selected by specifying PHONEINITIALIZEEXOPTION_USECOMPLETION PORT in the <b>dwOptions</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism, whenever a telephony event needs to be sent to the application, TAPI sends it to the application using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a> structure. In this mechanism, whenever a telephony event needs to be sent to the application, TAPI sends it to the application using 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> to the completion port that the application specified in the <b>hCompletionPort</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>, tagged with the completion key that the application specified in the <b>dwCompletionKey</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>. The application must have previously created the completion port using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>, tagged with the completion key that the application specified in the <b>dwCompletionKey</b> member in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>. The application must have previously created the completion port using 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>. The applications retrieves events using 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>. Upon return from <b>GetQueuedCompletionStatus</b>, the application has the specified <b>dwCompletionKey</b> written to the <b>DWORD</b> pointed to by the <i>lpCompletionKey</i> parameter, and a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a> structure returned to the location pointed to by <i>lpOverlapped</i>. After the application has processed the event, the application must call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a> structure returned to the location pointed to by <i>lpOverlapped</i>. After the application has processed the event, the application must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release the memory used to contain the 
 <b>PHONEMESSAGE</b> structure. Because the application created the completion port (thereby allowing it to be shared for other purposes), the application must close it; the application must not close the completion port until after calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>.</li>
@@ -171,15 +171,15 @@ The application can refer to individual phone devices by using phone device iden
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams">PHONEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage">PHONEMESSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus_tag">PHONESTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
 
 
 

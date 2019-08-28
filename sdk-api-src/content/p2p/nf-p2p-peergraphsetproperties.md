@@ -66,9 +66,9 @@ Handle to a graph.
 
 ### -param pGraphProperties [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a> structure that specifies new values for   the graph properties  that an application can set.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a> structure that specifies new values for   the graph properties  that an application can set.
 
-An application can set only the following fields of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a>:<ul>
+An application can set only the following fields of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>:<ul>
 <li><b>pwzFriendlyName</b></li>
 <li><b>cPresenceMax</b></li>
 <li><b>pwzComment</b></li>
@@ -147,7 +147,7 @@ The graph must be  initialized with a call to <a href="https://docs.microsoft.co
 You can modify
 the <b>pwzFriendlyName</b>,
 <b>cPresenceMax</b>, <b>pwzComment</b>and
-<b>ulPresenceLifetime</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a> structure.
+<b>ulPresenceLifetime</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a> structure.
 
 
 
@@ -157,7 +157,7 @@ the <b>pwzFriendlyName</b>,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>
 
 
 

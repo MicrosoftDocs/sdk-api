@@ -65,13 +65,13 @@ The
 
 Handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. The application must have set the LINEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams_tag">LINEINITIALIZEEXPARAMS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a> structure.
 
 
 ### -param lpMessage
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
 
 
 ### -param dwTimeout
@@ -108,11 +108,11 @@ If the timeout expires (or was zero) and no message could be fetched from the qu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams_tag">LINEINITIALIZEEXPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a>
 
 
 

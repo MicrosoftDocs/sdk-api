@@ -107,7 +107,7 @@ The number of entries in the <i>lpTones</i> array. This parameter is ignored if 
 ### -param lpTones
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for noncustom tones. If <i>lpTones</i> is a multifrequency tone, the various tones are played simultaneously.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a> array that specifies the tone's components. This parameter is ignored for noncustom tones. If <i>lpTones</i> is a multifrequency tone, the various tones are played simultaneously.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The corresponding function at the TAPI level does not include the formal paramet
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
 
 
 

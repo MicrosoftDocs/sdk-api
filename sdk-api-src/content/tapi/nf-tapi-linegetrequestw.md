@@ -78,7 +78,7 @@ A type of request to be obtained. Be aware that <i>dwRequestMode</i> can only ha
 A pointer to a memory buffer where the parameters of the request are to be placed. The size of the buffer and the interpretation of the data placed in the buffer depends on the request mode. The application-allocated buffer is assumed to be of sufficient size to hold the request.
 
 If <i>dwRequestMode</i> is LINEREQUESTMODE_MAKECALL, interpret the content of the request buffer using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall_tag">LINEREQMAKECALL</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a> structure.
 
 LINEREQUESTMODE_MEDIACALL is obsolete.  For more information, see tapiRequestMediaCall.
 
@@ -126,7 +126,7 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall_tag">LINEREQMAKECALL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a>
 
 
 

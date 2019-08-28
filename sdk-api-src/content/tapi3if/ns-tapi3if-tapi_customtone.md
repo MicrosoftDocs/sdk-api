@@ -93,7 +93,7 @@ The volume level at which to generate the tone.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone">LINEGENERATETONE</a>
  
 
  

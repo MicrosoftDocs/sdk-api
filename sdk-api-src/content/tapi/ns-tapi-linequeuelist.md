@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEQUEUELIST</b> structure describes a list of queues. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry">LINEQUEUEENTRY</a> structures. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a> function returns the 
 <b>LINEQUEUELIST</b> structure. 
 <b>LINEQUEUELIST</b> requires TAPI 3.0 version negotiation.
@@ -82,7 +82,7 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwNumEntries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structures that appear in the list array. The value is zero if no queue is available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry">LINEQUEUEENTRY</a> structures that appear in the list array. The value is zero if no queue is available.
 
 
 ### -field dwListSize
@@ -93,7 +93,7 @@ Size of the agent information array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a> structure that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEQUEUEENTRY). The size of the field is specified by <b>dwListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry">LINEQUEUEENTRY</a> structure that specify information about agents. The <b>dwListOffset</b> member is <b>dwNumEntries</b> times SIZEOF(LINEQUEUEENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 
 ## -see-also
@@ -105,7 +105,7 @@ Offset from the beginning of the structure to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry_tag">LINEQUEUEENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueentry">LINEQUEUEENTRY</a>
 
 
 

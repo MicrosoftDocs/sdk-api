@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> data structure.
+The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> data structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Pointer to zero-terminated Unicode string buffer that contains XML contact data 
 
 ### -param ppContact [out]
 
-Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
