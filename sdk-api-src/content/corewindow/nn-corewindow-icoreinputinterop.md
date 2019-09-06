@@ -2,7 +2,7 @@
 UID: NN:corewindow.ICoreInputInterop
 title: ICoreInputInterop (corewindow.h)
 author: windows-sdk-content
-description: Enables an input source on a Windows Store app's CoreInput object.
+description: Enables an input source on a Windows application's core input object.
 old-location: winrt\icoreinputinterop.htm
 tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
@@ -47,12 +47,9 @@ ms.custom: 19H1
 
 # ICoreInputInterop interface
 
-
 ## -description
 
-
-Enables an input source on a Windows Store app's <a href="w_ui_core.coreinput">CoreInput</a> object. 
-
+Enables an input source on a Windows application's core input object.
 
 ## -inheritance
 
@@ -92,7 +89,6 @@ Sets the input source for an app's <a href="https://docs.microsoft.com/dotnet/ap
 
 <a href="https://docs.microsoft.com/windows/desktop/api/corewindow/nf-corewindow-icoreinputinterop-put_messagehandled">MessageHandled</a>
 
-
 </td>
 <td align="left" width="10%">
 Write-only
@@ -105,31 +101,12 @@ Sets whether or not the message to the <a href="https://msdn.microsoft.com/60b1c
 </tr>
 </table> 
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a> object defines the basic keyboard and pointer input events  for a Windows Store app.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
-
-
 <a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
-
-
-
-<a href="w_ui_core.coreinput">CoreInput</a>
- 
-
- 
-

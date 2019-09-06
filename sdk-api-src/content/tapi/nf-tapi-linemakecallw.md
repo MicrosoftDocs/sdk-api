@@ -147,7 +147,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="../tapi3/address_ovr.htm">Dialable Addresses</a>
+<a href="/windows/win32/tapi/address-ovr#dialable-addresses">Dialable addresses</a>
 
 
 
