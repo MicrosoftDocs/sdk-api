@@ -78,7 +78,7 @@ Indicates that the machine is configured for Direct Access and that access to th
 
 
 
-These connectivity flags can be retrieved by querying  for the <i>NA_InternetConnectivityV4</i> or <i>NA_InternetConnectivityV6</i> properties using the <b>IPropertyBag</b> interface for an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a> interface.
+These connectivity flags can be retrieved by querying  for the <i>NA_InternetConnectivityV4</i> or <i>NA_InternetConnectivityV6</i> properties using the <b>IPropertyBag</b> interface for an <a href="/windows/win32/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> or <a href="/windows/win32/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a> interface.
 
 
 
@@ -88,15 +88,15 @@ These connectivity flags can be retrieved by querying  for the <i>NA_InternetCon
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
+<a href="/windows/win32/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
+<a href="/windows/win32/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
 
 
 
-<a href="com.ipropertybag">IPropertyBag</a>
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>
  
 
  

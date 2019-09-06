@@ -210,9 +210,7 @@ By default, a component's selectability for restore is <b>false</b>. A writer ca
        this default when it adds the component to its Writer Metadata Document using 
        <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>.
 
-If the component was <a href="vssgloss_e.htm">explicitly 
-       added</a> to the backup document, it can always be individually selected for restore, so this flag then has 
-       no meaning. If the component was implicitly added to the backup document, then the 
+If a component is explicitly added to the backup document (see [explicit component inclusion](/windows/win32/vss/vssgloss-e)), then it can always be individually selected for restore; so this flag then has no meaning. If a component is implicitly added to the backup document, then the 
        <b>bSelectableForRestore</b> flag determines whether the component can be individually 
        restored using 
        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent">IVssBackupComponents::AddRestoreSubcomponent</a>.
