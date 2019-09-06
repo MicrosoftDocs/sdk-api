@@ -83,7 +83,7 @@ For single-adapter operation, set this to zero.
             If there are multiple adapter nodes, set a bit to identify the node (one of the device's physical adapters) to which the descriptor heap applies.
             Each bit in the mask corresponds to a single node.
             Only one bit must be set.
-            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
           
 
 
