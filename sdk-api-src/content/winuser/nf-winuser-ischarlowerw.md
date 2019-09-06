@@ -35,6 +35,7 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
+ - mfc120u.dll mfc140u.dll
 api_name:
  - IsCharLowerW
 ---

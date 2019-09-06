@@ -63,7 +63,11 @@ Initializes a shared stream with the specified periodicity.
 
 Type: <b>DWORD</b>
 
-Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the supported  <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> or   <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-sessionflags-xxx-constants">AUDCLNT_SESSIONFLAGS_XXX Constants</a>. The supported constants for this parameter are: 
+Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the supported  <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> or   <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-sessionflags-xxx-constants">AUDCLNT_SESSIONFLAGS_XXX Constants</a>. The supported <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> for this parameter when using this method are: 
+
+- AUDCLNT_STREAMFLAGS_EVENTCALLBACK
+- AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM
+- AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY
 
 
 ### -param PeriodInFrames [in]
