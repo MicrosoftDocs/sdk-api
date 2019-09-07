@@ -100,29 +100,17 @@ Automated file rollback mechanisms of system volumes and shadow copies to be use
 
 ### -field VSS_CTX_CLIENT_ACCESSIBLE
 
-Specifies a read-only, <a href="vssgloss_c.htm">client-accessible shadow
-     copy</a> that supports Shadow Copies for Shared Folders and 
-      is created without writer involvement. Only the system provider (the default provider available on the system) can 
-      create this type of shadow copy. 
-      
+Specifies a read-only, <a href="/windows/win32/vss/vssgloss-c">client-accessible shadow copy</a> that supports Shadow Copies for Shared Folders and is created without writer involvement. Only the system provider (the default provider available on the system) can create this type of shadow copy.
 
-Most requesters will want to use the <b>VSS_CTX_NAS_ROLLBACK</b> context for persistent, 
-       non-auto-release shadow copies without writer involvement.
-
+Most requesters will want to use the <b>VSS_CTX_NAS_ROLLBACK</b> context for persistent, non-auto-release shadow copies without writer involvement.
 
 ### -field VSS_CTX_CLIENT_ACCESSIBLE_WRITERS
 
-Specifies a read-only, <a href="vssgloss_c.htm">client-accessible shadow
-     copy</a> that is 
-      created with writer involvement. Only the system provider (the default provider available on the system) can 
-      create this type of shadow copy. 
-      
+Specifies a read-only, <a href="/windows/win32/vss/vssgloss-c">client-accessible shadow copy</a> that is created with writer involvement. Only the system provider (the default provider available on the system) can create this type of shadow copy.
 
-Most requesters will want to use the <b>VSS_CTX_APP_ROLLBACK</b> context for persistent, 
-       non-auto-release shadow copies with writer involvement.
+Most requesters will want to use the <b>VSS_CTX_APP_ROLLBACK</b> context for persistent, non-auto-release shadow copies with writer involvement.
 
 <b>Windows Server 2003 and Windows XP:  </b>This context is not supported by Windows Server 2003 and Windows XP.
-
 
 ### -field VSS_CTX_ALL
 

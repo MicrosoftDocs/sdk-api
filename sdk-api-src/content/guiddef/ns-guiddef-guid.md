@@ -54,12 +54,12 @@ Array of 8 bytes. The first 2 bytes contain the third group of 4 hexadecimal dig
 
 ## -remarks
 
-GUIDs are the Microsoft implementation of the distributed computing environment (DCE) universally unique identifier ([**UUID**](aa379358\(v=vs.80\).md)). The RPC run-time libraries use UUIDs to check for compatibility between clients and servers and to select among multiple implementations of an interface. The Windows access-control functions use GUIDs to identify the type of object that an object-specific ACE in an access-control list (ACL) protects.
+GUIDs are the Microsoft implementation of the distributed computing environment (DCE) universally unique identifier ([UUID](/previous-versions/aa379358(v%3Dvs.80))). The RPC run-time libraries use UUIDs to check for compatibility between clients and servers and to select among multiple implementations of an interface. The Windows access-control functions use GUIDs to identify the type of object that an object-specific ACE in an access-control list (ACL) protects.
 
 ## See also
 
 **ACCESS\_ALLOWED\_OBJECT\_ACE**  
 **ACE**  
 **ACL**  
-[**UUID**](aa379358\(v=vs.80\).md)  
-[**UUID\_VECTOR**](https://msdn.microsoft.com/en-us/library/aa379361\(v=vs.80\))
+[UUID](/previous-versions/aa379358(v%3Dvs.80))  
+[UUID\_VECTOR](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)

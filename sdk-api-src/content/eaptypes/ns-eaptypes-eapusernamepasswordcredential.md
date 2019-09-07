@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-The <b>EapUsernamePasswordCredential</b> structure contains the username and password that is used by the EAP method for authenticating the user.
+The **EapUsernamePasswordCredential** structure contains the username and password that is used by the EAP method for authenticating the user.
 
 ## -struct-fields
 
@@ -60,10 +60,9 @@ A NULL-terminated Unicode string that contains the username that needs authentic
 
 ### -field password
 
-A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the <a href="EapUsernamePasswordCredential ">CredProtect</a> function. The EAP method must use the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunprotecta">CredUnprotect</a> function to retrieve the unencrypted password.
+A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the [CredProtect](/windows/win32/api/wincred/nf-wincred-credprotectw) function. The EAP method must use the [CredUnprotect](/windows/win32/api/wincred/nf-wincred-credunprotect) function to retrieve the unencrypted password.
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>

@@ -161,10 +161,7 @@ Use <b>FSCTL_REQUEST_FILTER_OPLOCK</b> to request
     a filter opportunistic lock on a file. A client file system can cache read data and handle data locally as long as 
     the filter lock is held, but only one client can hold the lock at a time.
 
-The filter oplock owner must acknowledge an 
-    <a href="ifsk.breaking_oplocks">oplock break</a> before any operation that is incompatible 
-    with a filter oplock can go through on another handle. After the lock is broken, the network redirector is 
-    notified not to regard as valid any cached data from the file.
+The filter oplock owner must acknowledge an oplock break (see [Breaking opportunistic locks](/windows/win32/fileio/breaking-opportunistic-locks)) before any operation that is incompatible  with a filter oplock can go through on another handle. After the lock is broken, the network redirector is notified not to regard as valid any cached data from the file.
 
 For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/types-of-opportunistic-locks">Types of Opportunistic Locks</a>.

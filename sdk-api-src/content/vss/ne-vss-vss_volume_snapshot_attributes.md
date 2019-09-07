@@ -80,7 +80,7 @@ This attribute should not be used explicitly by requesters when setting the cont
 
 ### -field VSS_VOLSNAP_ATTR_NO_AUTORECOVERY
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">Auto-recovery</a> is disabled for the shadow copy.
+<a href="/windows/win32/vss/vssgloss-a">Auto-recovery</a> is disabled for the shadow copy.
 
 A requester can modify a shadow copy context with a bitwise OR of this attribute. By doing this, the requester instructs VSS to make the shadow copy read-only immediately after it is created, without allowing writers or other applications to update components in the shadow copy.
 
@@ -90,19 +90,13 @@ Disabling auto-recovery also prevents writers from excluding files from the shad
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista.
 
-
 ### -field VSS_VOLSNAP_ATTR_CLIENT_ACCESSIBLE
 
-The specified shadow copy is a <a href="vssgloss_c.htm">client-accessible shadow
-     copy</a> that supports Shadow Copies for Shared Folders and 
-      should not be exposed.
-      
+The specified shadow copy is a <a href="/windows/win32/vss/vssgloss-c">client-accessible shadow copy</a> that supports Shadow Copies for Shared Folders, and should not be exposed.      
 
-This attribute is automatically set for <b>VSS_CTX_CLIENT_ACCESSIBLE</b> 
-       and <b>VSS_CTX_CLIENT_ACCESSIBLE_WRITERS</b>.
+This attribute is automatically set for <b>VSS_CTX_CLIENT_ACCESSIBLE</b> and <b>VSS_CTX_CLIENT_ACCESSIBLE_WRITERS</b>.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
-
 
 ### -field VSS_VOLSNAP_ATTR_NO_AUTO_RELEASE
 
@@ -248,31 +242,21 @@ This attribute should not be used explicitly by requesters when setting the cont
 
 ### -field VSS_VOLSNAP_ATTR_AUTORECOVER
 
-Indicates that the writer will need to 
-      <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> the component in 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
-      
+Indicates that the writer will need to <a href="/windows/win32/vss/vssgloss-a">auto-recover</a> the component in <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
 
-
 ### -field VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY
 
-Indicates that the writer will need to 
-      <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> the component in 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> if the shadow 
-      copy is being used for rollback (for data mining, for example).
-      
+Indicates that the writer will need to <a href="/windows/win32/vss/vssgloss-a">auto-recover</a> the component in <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> if the shadow copy is being used for rollback (for data mining, for example).
 
 A requester would set this flag in the shadow copy context to indicate that the shadow copy is being created for a non-backup purpose such as data mining.
-
 
 ### -field VSS_VOLSNAP_ATTR_DELAYED_POSTSNAPSHOT
 
 Reserved for system use.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008.
-
 
 ### -field VSS_VOLSNAP_ATTR_TXF_RECOVERY
 

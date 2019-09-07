@@ -205,15 +205,11 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 ## -remarks
 
+The <b>AddComponent</b> method has meaning only if the backup operation takes place in component mode.
 
-
-The <b>AddComponent</b> method has meaning only if 
-    the backup operation takes place in component mode.
-
-Only <a href="vssgloss_s.htm">selectable for backup 
-    components</a> and nonselectable for backup components with no selectable for backup ancestors should be added 
-    to the Backup Components Document using 
-    <b>AddComponent</b>.
+Only these kinds of components should be added to the Backup Components Document using <b>AddComponent</b>.
+- Components that are selectable for backup (see <a href="/windows/win32/vss/vssgloss-s">selectability for backup</a>).
+- Nonselectable-for-backup components with no selectable-for-backup ancestors.
 
 Nonselectable for backup components that have a selectable for backup ancestor in the hierarchy of their 
     logical paths are part of a component set defined by the selectable for backup ancestor. These components are 

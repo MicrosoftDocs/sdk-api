@@ -112,21 +112,8 @@ It is not safe to call
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>. For more information, see the Remarks section in 
 <b>DllMain</b>.
 
-
-
-<div class="os_icon_block">
-<ul class="os_icon_images">
-<li><img alt="Applies to Windows Phone" src="../common/phone.png"/></li>
-</ul>
-<div class="os_icon_content_block">
-<b>Note</b>  On Windows Phone, <b>LoadPackagedLibrary</b> must be called from <code>PhoneAppModelHost.dll</code>. Using <code>Kernel32.dll</code> is not supported.
-
-
-
-</div>
-</div>
-
-
+> [!NOTE]
+On Windows Phone, **LoadPackagedLibrary** must be called from `PhoneAppModelHost.dll`. Using `Kernel32.dll` is not supported.
 
 ## -see-also
 

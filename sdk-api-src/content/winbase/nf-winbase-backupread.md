@@ -64,19 +64,11 @@ The <b>BackupRead</b> function can be used to back up
     specified file or directory into a buffer, which can then be written to the backup medium using the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
-Handle to the file or directory to be backed up. To obtain the handle, call the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The SACLs are not read unless the 
-      file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more 
-      information, see <a href="base.file_security_and_access_rights">File Security and Access 
-      Rights</a>.
+Handle to the file or directory to be backed up. To obtain the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The SACLs are not read unless the file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more information, see [File security and access rights](/windows/win32/fileio/file-security-and-access-rights).
 
 The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 

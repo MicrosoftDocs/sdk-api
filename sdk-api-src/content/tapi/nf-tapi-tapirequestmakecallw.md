@@ -49,24 +49,16 @@ ms.custom: 19H1
 
 # tapiRequestMakeCallW function
 
-
 ## -description
 
-
-The 
-<b>tapiRequestMakeCall</b> function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
-
+The <b>tapiRequestMakeCall</b> function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
 
 ## -parameters
-
-
-
 
 ### -param lpszDestAddress
 
 Pointer to a memory location where the <b>null</b>-terminated destination address of the call request is located. The address can use the 
-<a href="../tapi3/address_ovr.htm">canonical address</a> format. Validity of the specified address is not checked by this operation. The maximum length of the address is TAPIMAXDESTADDRESSSIZE characters, which includes the <b>NULL</b> terminator.
-
+[canonical address](/windows/win32/tapi/address-ovr#canonical-addresses) format. Validity of the specified address is not checked by this operation. The maximum length of the address is TAPIMAXDESTADDRESSSIZE characters, which includes the <b>NULL</b> terminator.
 
 ### -param lpszAppName
 

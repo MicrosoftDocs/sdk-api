@@ -78,7 +78,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the packag
 
 Type: <b>BYTE*</b>
 
-The package information, represented as an array of [PACKAGE_INFO](ns-appmodel-packageinfo.md) structures.
+The package information, represented as an array of [PACKAGE_INFO](/windows/win32/api/appmodel/ns-appmodel-package_info) structures.
 
 ### -param count
 

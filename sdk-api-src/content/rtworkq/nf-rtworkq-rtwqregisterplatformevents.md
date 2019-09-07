@@ -47,28 +47,16 @@ ms.custom: 19H1
 
 # RtwqRegisterPlatformEvents function
 
-
 ## -description
-
 
 Enables an app to listen to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param platformEvents [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>  object which provides the events.
-
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a> object which provides the events.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

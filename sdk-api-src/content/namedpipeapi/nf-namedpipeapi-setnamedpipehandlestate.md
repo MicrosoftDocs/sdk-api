@@ -154,7 +154,7 @@ Nonblocking mode is enabled. In this mode, <a href="/windows/win32/api/fileapi/n
 
 ### -param lpMaxCollectionCount [in, optional]
 
-The maximum number of bytes collected on the client computer before transmission to the server. This parameter must be <b>NULL</b> if the specified pipe handle is to the server end of a named pipe or if client and server processes are on the same machine. This parameter is ignored if the client process specifies the FILE_FLAG_WRITE_THROUGH flag in the <a href="base.createfile">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
+The maximum number of bytes collected on the client computer before transmission to the server. This parameter must be <b>NULL</b> if the specified pipe handle is to the server end of a named pipe or if client and server processes are on the same machine. This parameter is ignored if the client process specifies the FILE_FLAG_WRITE_THROUGH flag in the <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
 
 
 ### -param lpCollectDataTimeout [in, optional]
