@@ -63,7 +63,7 @@ Copies the specified region from memory into the current bitmap.
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
 
-In the current bitmap, the upper-left corner of the area to which the region specified by <i>srcRect</i> is copied.
+In the current bitmap, the rectangle to which the region specified by <i>srcRect</i> is copied.
 
 
 ### -param srcData [in]
