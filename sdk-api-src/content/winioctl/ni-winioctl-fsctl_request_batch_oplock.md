@@ -46,89 +46,51 @@ req.redist:
 
 # FSCTL_REQUEST_BATCH_OPLOCK IOCTL
 
-
 ## -description
-
 
 Requests a batch opportunistic lock on a file.
 
-To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
-    function using the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl( (HANDLE) hDevice,              // handle to file
-                      FSCTL_REQUEST_BATCH_OPLOCK,    // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSizeNULL,                          // lpOutBuffer0,                             // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
-                      (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function using the following arguments.
+
+```cpp
+BOOL b = DeviceIoControl(
+  (HANDLE)hDevice,              // handle to file
+  FSCTL_REQUEST_BATCH_OPLOCK,    // dwIoControlCode
+  NULL,                          // lpInBuffer
+  0,                             // nInBufferSize
+  NULL,                          // lpOutBuffer
+  0,                             // nOutBufferSize
+  (LPDWORD) lpBytesReturned,     // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -136,12 +98,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 This operation is used only by client applications requesting an opportunistic lock (oplock) from a local 
     server. Client applications requesting opportunistic locks from remote servers must not request them directly—the 
@@ -160,10 +117,7 @@ Use <b>FSCTL_REQUEST_BATCH_OPLOCK</b> to request a
     batch opportunistic lock on a file. A client file system can cache read data, write data, and handle data locally 
     as long as the level 1 lock is held.
 
-The batch oplock owner must acknowledge an 
-    <a href="ifsk.breaking_oplocks">oplock break</a> before any operation that is incompatible 
-    with a batch oplock can go through on another handle. After the lock is broken, the network redirector is notified 
-    not to regard as valid any cached data from the file.
+The batch oplock owner must acknowledge an oplock break (see [Breaking opportunistic locks](/windows/win32/fileio/breaking-opportunistic-locks)) before any operation that is incompatible with a batch oplock can go through on another handle. After the lock is broken, the network redirector is notified not to regard as valid any cached data from the file.
 
 For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/types-of-opportunistic-locks">Types of Opportunistic Locks</a>.
@@ -236,37 +190,11 @@ Yes
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks">Opportunistic Locks</a>
- 
-
- 
-

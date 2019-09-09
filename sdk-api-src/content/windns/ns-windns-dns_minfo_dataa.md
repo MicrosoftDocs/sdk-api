@@ -47,47 +47,25 @@ ms.custom: 19H1
 
 # DNS_MINFO_DATAA structure
 
-
 ## -description
 
-
-The 
-<b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
-
+The <b>DNS_MINFO_DATA</b> structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of <a href="http://go.microsoft.com/fwlink/p/?linkid=90264">RFC 1035</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field pNameMailbox
 
-A pointer to a string that represents the <a href="f_gly.htm">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
-
+A pointer to a string that represents the <a href="/windows/win32/dns/f-gly">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
 
 ### -field pNameErrorsMailbox
 
 A pointer to a string that represents the FQDN of the mailbox to receive error messages related to the mailing list.
 
-
 ## -remarks
 
-
-
-The 
-<b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
+The <b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
 <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
-

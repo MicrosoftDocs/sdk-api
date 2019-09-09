@@ -101,7 +101,7 @@ The error codes returned by a function are not part of the Windows API specifica
 Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to one. That indicates that the error code has been defined by an application, and ensures that your error code does not conflict with any error codes defined by the system.
 
 To convert a system error into an <b>HRESULT</b> value, use the 
-<a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro.
+<a href="/windows/win32/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro.
 
 
 #### Examples
@@ -126,7 +126,7 @@ For an example, see
 
 
 
-<a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a>
+<a href="/windows/win32/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 

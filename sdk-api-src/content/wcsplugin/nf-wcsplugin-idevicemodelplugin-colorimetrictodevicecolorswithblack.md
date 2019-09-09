@@ -71,8 +71,7 @@ The number of color channels in the <i>pDeviceValues</i> arrays.
 
 ### -param pXYZColors [out]
 
-A pointer to the array of outgoing <a href="wcs.gamut_map_model_color_structures">XYZColorF structures</a>.
-
+A pointer to the array of outgoing <a href="/windows/win32/api/wcsplugin/ns-wcsplugin-xyzcolorf">XYZColorF</a> structures.
 
 ### -param pBlackInformation [in]
 
@@ -81,8 +80,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wcsplug
 
 ### -param pDeviceValues [in]
 
-A pointer to the array of incoming device colors that are to be converted to <a href="wcs.gamut_map_model_color_structures">XYZColorF structures</a>.
-
+A pointer to the array of incoming device colors that are to be converted to <a href="/windows/win32/api/wcsplugin/ns-wcsplugin-xyzcolorf">XYZColorF</a> structures.
 
 ## -returns
 

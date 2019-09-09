@@ -81,13 +81,13 @@ The return value is a pointer to the command-line string for the current process
 
 
 
-ANSI console processes written in C can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> function to access the command-line arguments. ANSI GUI applications can use the <i>lpCmdLine</i> parameter of the <a href="_win32_WinMain_cpp">WinMain</a> function to access the command-line string, excluding the program name. The <b>main</b> and <b>WinMain</b> functions cannot return Unicode strings.
+ANSI console processes written in C can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> function to access the command-line arguments. ANSI GUI applications can use the <i>lpCmdLine</i> parameter of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> function to access the command-line string, excluding the program name. The <b>main</b> and <b>WinMain</b> functions cannot return Unicode strings.
 
 Unicode console process written in C can use the <b>wmain</b> or <b>_tmain</b> function to access the command-line arguments. Unicode GUI applications must use the 
 <b>GetCommandLineW</b> function to access Unicode strings.
 
 To convert the command line to an <i>argv</i> style array of strings, call the 
-<a href="_shell_commandlinetoargvw">CommandLineToArgvW</a> function.
+<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw">CommandLineToArgv</a> function.
 
 <div class="alert"><b>Note</b>  The name of the executable in the command line that the operating system provides to a process is not necessarily identical to that in the command line that the calling process gives to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. The operating system may prepend a fully qualified path to an executable name that is provided without a fully qualified path.</div>

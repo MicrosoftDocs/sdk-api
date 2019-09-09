@@ -85,9 +85,6 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Call this function when the <a href="base.rtwqbeginregisterworkqueuewithmmcssex">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
+Call this function when the <a href="/windows/win32/api/rtworkq/nf-rtworkq-rtwqbeginregisterworkqueuewithmmcss">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
 
-To unregister the work queue from the MMCSS class, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqbeginunregisterworkqueuewithmmcss">RtwqBeginUnregisterWorkQueueWithMMCSS</a>.
-
-
-
+To unregister the work queue from the MMCSS class, call <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqbeginunregisterworkqueuewithmmcss">RtwqBeginUnregisterWorkQueueWithMMCSS</a>.

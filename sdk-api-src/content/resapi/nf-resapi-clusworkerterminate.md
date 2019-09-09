@@ -42,13 +42,13 @@ api_name:
 
 ## -description
 
-Terminates a worker thread. The [PCLUSAPI_CLUS_WORKER_TERMINATE](nc-resapi-pclusapi_clus_worker_terminate) type defines a pointer to this function.
+Terminates a worker thread. The [PCLUSAPI_CLUS_WORKER_TERMINATE](nc-resapi-pclusapi_clus_worker_terminate.md) type defines a pointer to this function.
 
 ## -parameters
 
 ### -param lpWorker
 
-Pointer to a [CLUS_WORKER](ns-resapi-clus_worker) structure describing the thread to terminate.
+Pointer to a [CLUS_WORKER](ns-resapi-clus_worker.md) structure describing the thread to terminate.
 
 ## -remarks
 
@@ -58,9 +58,9 @@ The **ClusWorkerTerminate** utility function checks the *hThread* and *Terminate
 
 ## -see-also
 
-[CLUS_WORKER](ns-resapi-clus_worker)
-[ClusWorkerCreate](nf-resapi-clusworkercreate)
-[ClusWorkerCheckTerminate](nf-resapi-clusworkercheckterminate)
-[ClusWorkerTerminateEx](nf-resapi-clusworkerterminateex)
-[ClusWorkersTerminate](nf-resapi-clusworkersterminate)
+[CLUS_WORKER](ns-resapi-clus_worker.md)
+[ClusWorkerCreate](nf-resapi-clusworkercreate.md)
+[ClusWorkerCheckTerminate](nf-resapi-clusworkercheckterminate.md)
+[ClusWorkerTerminateEx](nf-resapi-clusworkerterminateex.md)
+[ClusWorkersTerminate](nf-resapi-clusworkersterminate.md)
 
