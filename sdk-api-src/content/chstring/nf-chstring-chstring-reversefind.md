@@ -89,7 +89,7 @@ Returns the zero-based index of the last character in the <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">CHString::Find</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">CHString::Find</a>
 
 
 

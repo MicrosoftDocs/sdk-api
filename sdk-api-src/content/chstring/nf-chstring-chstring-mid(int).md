@@ -58,7 +58,7 @@ ms.custom: 19H1
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
 <b>CHString</b> string, starting at position <i>nFirst</i> (zero-based). The method returns a copy of the extracted substring.
 
 
@@ -85,7 +85,7 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">C
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
 
 
 #### Examples

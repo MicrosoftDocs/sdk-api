@@ -152,7 +152,7 @@ Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-reinterpretbasetype">ReinterpretBaseType(const *D2D1_MATRIX_3X2_F )(const D2D1_MATRIX_3X2_F)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-reinterpretbasetype(constd2d1_matrix_3x2_f)">ReinterpretBaseType(const *D2D1_MATRIX_3X2_F )(const D2D1_MATRIX_3X2_F)</a>
 </td>
 <td align="left" width="63%">
 Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> matrix to a <b>Matrix3x2F</b> without making a copy.
@@ -170,7 +170,7 @@ Creates a rotation transformation that has the specified angle and center point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale">Scale(D2D1_SIZE_F,D2D1_POINT_2F)(D2D1_SIZE_F,D2D1_POINT_2F)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)">Scale(D2D1_SIZE_F,D2D1_POINT_2F)(D2D1_SIZE_F,D2D1_POINT_2F)</a>
 </td>
 <td align="left" width="63%">
 Creates a scale transformation that has the specified scale factors and center point. 
@@ -215,7 +215,7 @@ Uses this matrix to transform the specified point and returns the result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation">Translation(D2D1_SIZE_F)(D2D1_SIZE_F)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(d2d1_size_f)">Translation(D2D1_SIZE_F)(D2D1_SIZE_F)</a>
 </td>
 <td align="left" width="63%">
 Creates a translation transformation that has the specified x and y displacements.
@@ -284,7 +284,7 @@ The <b>Matrix3x2F</b> class
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale">Scale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)">Scale</a>
 </td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale"> How to Scale an Object</a>
@@ -292,7 +292,7 @@ The <b>Matrix3x2F</b> class
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation">Translation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(d2d1_size_f)">Translation</a>
 </td>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-translate"> How to Translate an Object</a>

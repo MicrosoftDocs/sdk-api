@@ -136,7 +136,7 @@ Forces a string to have 0 (zero) length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a>
 </td>
 <td align="left" width="63%">Overloaded. Finds a character or substring inside a larger string.
 
@@ -303,7 +303,7 @@ Converts all of the characters in this string to uppercase characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid">Mid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a>
 </td>
 <td align="left" width="63%">Overloaded. Extracts the middle part of a string (like the Basic <b>MID$</b> function).
 
