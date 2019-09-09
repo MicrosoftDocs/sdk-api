@@ -270,6 +270,11 @@ Prints the document file specified by <b>lpFile</b>. If <b>lpFile</b> is not a d
 Displays the file or folder's properties.
 
 
+#### runas
+
+Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
+
+
 ### -field lpFile
 
 Type: <b>LPCTSTR</b>
