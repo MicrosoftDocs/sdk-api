@@ -125,7 +125,7 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 	instance.v =  ( (uint32_t)_a1  << 24) |
                       ( (uint32_t)_r1  << 16) |
-                      ( (uint32_t)_b1  <<  8) |
+                      ( (uint32_t)_g1  <<  8) |
                       ( (uint32_t)_b1 );
     
 ```
