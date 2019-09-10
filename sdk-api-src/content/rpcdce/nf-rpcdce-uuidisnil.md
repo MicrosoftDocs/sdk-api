@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 An application calls the  
-<b>UuidIsNil</b> function to determine whether the specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a nil-valued <b>UUID</b>.
+<b>UuidIsNil</b> function to determine whether the specified <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is a nil-valued <b>UUID</b>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ An application calls the
 ### -param Uuid
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to test for nil value.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to test for nil value.
 
 
 ### -param Status
@@ -87,7 +87,7 @@ Returns RPC_S_OK.
 
 This function acts as though the application called 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreatenil">UuidCreateNil</a>, and then called the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidequal">UuidEqual</a> to compare the returned nil-value <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to the <b>UUID</b> specified in the <i>Uuid</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidequal">UuidEqual</a> to compare the returned nil-value <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to the <b>UUID</b> specified in the <i>Uuid</i> parameter.
 
 Upon completion, one of the following values is returned.
 
@@ -98,11 +98,11 @@ Upon completion, one of the following values is returned.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <i>Uuid</i> parameter is a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.</td>
+<td>The <i>Uuid</i> parameter is a nil-valued <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The <i>Uuid</i> parameter is not a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.</td>
+<td>The <i>Uuid</i> parameter is not a nil-valued <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.</td>
 </tr>
 </table>
  

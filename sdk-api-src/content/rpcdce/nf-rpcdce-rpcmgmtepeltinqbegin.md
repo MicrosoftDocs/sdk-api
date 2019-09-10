@@ -145,7 +145,7 @@ Specifies how
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the specified interface 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>, regardless of the version numbers.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>, regardless of the version numbers.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Returns endpoint-map elements that offer the specified interface
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the same major version of the specified interface 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and a minor version greater than or equal to the minor version of the specified interface 
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and a minor version greater than or equal to the minor version of the specified interface 
 <b>UUID</b>.
 
 </td>
@@ -168,7 +168,7 @@ Returns endpoint-map elements that offer the same major version of the specified
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the specified version of the specified interface 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Returns endpoint-map elements that offer the specified version of the specified 
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer the same major version of the specified interface 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and ignores the minor version.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and ignores the minor version.
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Returns endpoint-map elements that offer the same major version of the specified
 </td>
 <td width="60%">
 Returns endpoint-map elements that offer a version of the specified interface 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> less than or equal to the specified major and minor version.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> less than or equal to the specified major and minor version.
 
 </td>
 </tr>

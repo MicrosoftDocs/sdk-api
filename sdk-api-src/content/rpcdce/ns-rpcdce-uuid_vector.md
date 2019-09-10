@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UUID_VECTOR</b> structure contains a list of <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s.
+<b>UUID_VECTOR</b> structure contains a list of <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s.
 
 
 ## -struct-fields
@@ -62,22 +62,22 @@ The
 
 ### -field Count
 
-Number of <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s present in the array <b>Uuid</b>.
+Number of <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s present in the array <b>Uuid</b>.
 					
 
 
 ### -field Uuid
 
-Array of pointers to <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s that contains <b>Count</b> elements.
+Array of pointers to <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s that contains <b>Count</b> elements.
 
 
 ## -remarks
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> vector contains a count member containing the total number of <b>UUID</b>s in the vector, followed by an array of pointers to <b>UUID</b>s.
+The <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> vector contains a count member containing the total number of <b>UUID</b>s in the vector, followed by an array of pointers to <b>UUID</b>s.
 
-An application constructs a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> vector to contain object <b>UUID</b>s to be exported or unexported from the name service.
+An application constructs a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> vector to contain object <b>UUID</b>s to be exported or unexported from the name service.
 
 
 

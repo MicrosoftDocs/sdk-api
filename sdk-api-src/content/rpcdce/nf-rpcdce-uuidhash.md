@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 An application calls the 
-<b>UuidHash</b> function to generate a hash value for a specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<b>UuidHash</b> function to generate a hash value for a specified <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ An application calls the
 ### -param Uuid
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> for which a hash value is created.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> for which a hash value is created.
 
 
 ### -param Status
@@ -86,7 +86,7 @@ Returns RPC_S_OK.
 
 
 An application calls 
-<b>UuidHash</b> to generate a hash value for a specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. The hash value returned is implementation dependent and may vary from implementation to implementation.
+<b>UuidHash</b> to generate a hash value for a specified <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>. The hash value returned is implementation dependent and may vary from implementation to implementation.
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>UuidCreateSequential</b> function creates a new 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 
 ### -param Uuid
 
-Returns a pointer to the created <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+Returns a pointer to the created <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="https://support.microsoft.com/help/981080">KB article 981080</a>.
+The <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="https://support.microsoft.com/help/981080">KB article 981080</a>.
 
 </td>
 </tr>
@@ -122,15 +122,15 @@ Cannot get Ethernet or token-ring hardware address for this computer.
 
 
 For security reasons, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s. 
 <b>UuidCreateSequential</b> was introduced to allow creation of <b>UUID</b>s using the MAC address of a machine's Ethernet card.
 
 The 
-<b>UuidCreateSequential</b> function returns RPC_S_UUID_LOCAL_ONLY when the originating computer does not have an ethernet/token ring (IEEE 802.<i>x</i>) address. In this case, the generated <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a valid identifier, and is guaranteed to be unique among all <b>UUID</b>s generated on the computer. However, the possibility exists that another computer without an ethernet/token ring address generated the identical <b>UUID</b>. Therefore you should never use this <b>UUID</b> to identify an object that is not strictly local to your computer. Computers with ethernet/token ring addresses generate <b>UUID</b>s that are guaranteed to be globally unique.
+<b>UuidCreateSequential</b> function returns RPC_S_UUID_LOCAL_ONLY when the originating computer does not have an ethernet/token ring (IEEE 802.<i>x</i>) address. In this case, the generated <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is a valid identifier, and is guaranteed to be unique among all <b>UUID</b>s generated on the computer. However, the possibility exists that another computer without an ethernet/token ring address generated the identical <b>UUID</b>. Therefore you should never use this <b>UUID</b> to identify an object that is not strictly local to your computer. Computers with ethernet/token ring addresses generate <b>UUID</b>s that are guaranteed to be globally unique.
 
 <div class="alert"><b>Note</b>  The 
 <b>UuidCreateSequential</b> function tends to be slightly faster than the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> function. When the performance of the generation of a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a significant consideration, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> function. When the performance of the generation of a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is a significant consideration, the 
 <b>UuidCreateSequential</b> function may be used.</div>
 <div> </div>
 

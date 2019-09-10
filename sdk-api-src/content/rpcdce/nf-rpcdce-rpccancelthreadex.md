@@ -47,34 +47,21 @@ ms.custom: 19H1
 
 # RpcCancelThreadEx function
 
-
 ## -description
 
-
-The 
-<b>RpcCancelThreadEx</b> function stops the execution of a thread. The 
-<b>RpcCancelThreadEx</b> function should not be used to stop the execution of an asynchronous RPC call; instead, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to stop the execution of an asynchronous RPC call.
-
+The <b>RpcCancelThreadEx</b> function stops the execution of a thread. The <b>RpcCancelThreadEx</b> function should not be used to stop the execution of an asynchronous RPC call; instead, use the <a href="/windows/win32/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to stop the execution of an asynchronous RPC call.
 
 ## -parameters
-
-
-
 
 ### -param Thread
 
 Handle of the thread to cancel.
 
-
 ### -param Timeout
 
 Number of seconds to wait for the thread to be canceled before this function returns. To specify that a client waits an indefinite amount of time, pass the value RPC_C_CANCEL_INFINITE_TIMEOUT.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -118,63 +105,30 @@ Called by an MS-DOS or Windows 3.<i>x</i> client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/win32/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
-The 
-<b>RpcCancelThreadEx</b> function allows one client thread to cancel an RPC in progress on another client thread. When the function is called, the server run-time is informed of the cancel operation. The server stub can determine if the call has been canceled by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
+The <b>RpcCancelThreadEx</b> function allows one client thread to cancel an RPC in progress on another client thread. When the function is called, the server run-time is informed of the cancel operation. The server stub can determine if the call has been canceled by calling 
+<a href="/windows/win32/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
 
 Using the <i>Timeout</i> parameter, your application can specify the number of seconds to wait for a response. If the server does not return within this interval, the call fails at the client with an RPC_S_CALL_CANCELLED exception. The server stub continues to execute.
 
-If you are using the named pipes protocol, <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a>, you must specify a finite time-out.
+If you are using the named pipes protocol, <a href="/windows/win32/midl/ncacn-np">ncacn_np</a>, you must specify a finite time-out.
 
-<div class="alert"><b>Note</b>  You can use 
-<b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
-<a href="https://msdn.microsoft.com/">ncacn_http</a>, and with any of the datagram protocols except 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a>.</div>
+<div class="alert"><b>Note</b>  You can use <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
+<a href="/windows/win32/midl/ncacn-http">ncacn_http</a>, and with any of the datagram protocols except 
+<a href="/windows/win32/midl/ncadg-mq">ncadg_mq</a> and 
+<a href="/windows/win32/midl/ncalrpc">ncalrpc</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread">RpcCancelThread</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
-
-
-
-<a href="https://msdn.microsoft.com/">ncacn_http</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a>
- 
-
- 
-
+<a href="/windows/win32/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a>
+<a href="/windows/win32/api/rpcdce/nf-rpcdce-rpccancelthread">RpcCancelThread</a>
+<a href="/windows/win32/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
+<a href="/windows/win32/midl/ncacn-http">ncacn_http</a>
+<a href="/windows/win32/midl/ncacn-np">ncacn_np</a>
+<a href="/windows/win32/midl/ncadg-mq">ncadg_mq</a>
+<a href="/windows/win32/midl/ncalrpc">ncalrpc</a>
