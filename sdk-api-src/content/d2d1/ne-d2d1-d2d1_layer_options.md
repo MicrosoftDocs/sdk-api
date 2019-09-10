@@ -85,7 +85,7 @@ A small performance hit from re-copying content occurs when <a href="https://doc
 
 #### Examples
 
-The following example shows how to use <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer">CreateLayer</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushlayer">PushLayer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>. All fields in the  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.
+The following example shows how to use <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters_id2d1layer)">CreateLayer</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushlayer">PushLayer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>. All fields in the  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.
 
 
 ```cpp

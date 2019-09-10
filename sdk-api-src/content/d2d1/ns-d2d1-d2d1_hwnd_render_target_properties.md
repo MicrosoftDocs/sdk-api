@@ -84,14 +84,14 @@ A value that specifies whether the render target retains the frame after it is p
 
 
 
-Use this structure when you call the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget">CreateHwndRenderTarget</a> method to create a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>.
+Use this structure when you call the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a> method to create a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>.
 
 For convenience, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-hwndrendertargetproperties">D2D1::HwndRenderTargetProperties</a> function for creating new <b>D2D1_HWND_RENDER_TARGET_PROPERTIES</b> structures.
 
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget">CreateHwndRenderTarget</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>. It uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-hwndrendertargetproperties">D2D1::HwndRenderTargetProperties</a> helper function to create a <b>D2D1_HWND_RENDER_TARGET_PROPERTIES</b> structure that contains a handle to a window and the size of the drawing area. Because a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options">D2D1_PRESENT_OPTIONS</a> value isn't specified, the function uses the default value, <b>D2D1_PRESENT_OPTIONS_NONE</b>.  
+The following example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>. It uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-hwndrendertargetproperties">D2D1::HwndRenderTargetProperties</a> helper function to create a <b>D2D1_HWND_RENDER_TARGET_PROPERTIES</b> structure that contains a handle to a window and the size of the drawing area. Because a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options">D2D1_PRESENT_OPTIONS</a> value isn't specified, the function uses the default value, <b>D2D1_PRESENT_OPTIONS_NONE</b>.  
 
 
 ```cpp

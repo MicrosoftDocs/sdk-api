@@ -97,7 +97,7 @@ The new scale transformation.
 
 This method creates a scale transformation for the specified <i>centerPoint</i> and the 
 	 x-axis and y-axis scale factors. If you prefer to create a  
-	 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale">Scale</a> method. 
+	 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> structure to store the scale factors, call the other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)">Scale</a> method. 
 
 The following illustration shows the size of the square increased 
 	 to 130% in both dimensions.

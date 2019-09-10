@@ -60,7 +60,7 @@ ms.custom: 19H1
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method searches a string for the first match of a substring.
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method searches a string for the first match of a substring.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A substring that the method searches for.
 
 
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
 
 
 
@@ -86,7 +86,7 @@ If the <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstr
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
+The <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
 
 
 #### Examples

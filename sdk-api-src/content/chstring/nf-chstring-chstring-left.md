@@ -93,7 +93,7 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">C
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid">CHString::Mid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">CHString::Mid</a>
 
 
 

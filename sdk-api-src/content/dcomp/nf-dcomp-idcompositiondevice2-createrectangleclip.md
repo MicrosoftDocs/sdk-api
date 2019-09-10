@@ -95,7 +95,7 @@ A newly created clip object has a static value of <a href="http://go.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip">IDCompositionVisual::SetClip</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
  
 
  

@@ -98,7 +98,7 @@ If the AngleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley">IDCompositionSkewTransform::SetAngleY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
  
 
  

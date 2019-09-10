@@ -108,8 +108,8 @@ If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a rend
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques. 
 
 <ul>
-<li>Use the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a> method and specify an opaque color, then render your text.</li>
-<li>Use <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
+<li>Use the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a> method and specify an opaque color, then render your text.</li>
+<li>Use <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
 </ul>
 
 
