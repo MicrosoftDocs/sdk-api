@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidCreateNil</b> function creates a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<b>UuidCreateNil</b> function creates a nil-valued <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param NilUuid
 
 Returns a nil-valued 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -returns

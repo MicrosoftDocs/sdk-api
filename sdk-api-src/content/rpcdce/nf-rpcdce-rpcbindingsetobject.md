@@ -68,7 +68,7 @@ Server binding into which the <i>ObjectUuid</i> is set.
 ### -param ObjectUuid
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> of the object serviced by the server specified in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> of the object serviced by the server specified in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
 
 ## -returns
@@ -128,10 +128,10 @@ This was the wrong kind of binding for the operation.
 
 An application calls the 
 <b>RpcBindingSetObject</b> function to associate an object 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> with a server binding handle. The set-object operation replaces the previously associated object UUID with the UUID in the <i>ObjectUuid</i> parameter.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> with a server binding handle. The set-object operation replaces the previously associated object UUID with the UUID in the <i>ObjectUuid</i> parameter.
 
 To set the object 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to the nil UUID, specify a null value or the nil UUID for the <i>ObjectUuid</i> parameter.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to the nil UUID, specify a null value or the nil UUID for the <i>ObjectUuid</i> parameter.
 
 
 

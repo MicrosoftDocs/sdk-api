@@ -68,7 +68,7 @@ An encoding or decoding handle.
 ### -param pInterfaceId
 
 Pointer to the address in which the identity of the interface used to encode the data will be written. The <i>pInterfaceId</i> consists of the interface universally unique identifier 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and the version number.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the version number.
 
 
 ### -param pProcNum

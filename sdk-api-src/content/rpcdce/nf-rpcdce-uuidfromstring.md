@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidFromString</b> function converts a string to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<b>UuidFromString</b> function converts a string to a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ The
 ### -param StringUuid
 
 Pointer to a string representation of a 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ### -param Uuid
 
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> in binary form.
+Returns a pointer to a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> in binary form.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The string <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is invalid.
+The string <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> is invalid.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The string <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.8
 
 
 An application calls the 
-<b>UuidFromString</b> function to convert a string <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a binary <b>UUID</b>.
+<b>UuidFromString</b> function to convert a string <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to a binary <b>UUID</b>.
 
 
 

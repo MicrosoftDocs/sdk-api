@@ -73,7 +73,7 @@ MIDL-generated structure that defines the interface to register.
 
 ### -field MgrTypeUuid
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to associate with <i>MgrEpv</i>. <b>NULL</b> or a nil <b>UUID</b> registers <i>IfSpec</i> with a nil <b>UUID</b>.
+Pointer to a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to associate with <i>MgrEpv</i>. <b>NULL</b> or a nil <b>UUID</b> registers <i>IfSpec</i> with a nil <b>UUID</b>.
 
 
 ### -field MgrEpv
@@ -107,7 +107,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc
 
 ### -field UuidVector
 
-Pointer to a vector of object <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUIDs</a> offered by the server to be registered with the RPC endpoint mapper. The server application constructs this vector.  <b>NULL</b> indicates there are no object <b>UUIDs</b> to register.
+Pointer to a vector of object <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUIDs</a> offered by the server to be registered with the RPC endpoint mapper. The server application constructs this vector.  <b>NULL</b> indicates there are no object <b>UUIDs</b> to register.
 
 
 ### -field Annotation
@@ -130,7 +130,7 @@ To register an interface, the server provides the following information:<ul>
 <li>Interface specificationThe interface specification is a data structure that the MIDL compiler generates.
 
 </li>
-<li>Manager type <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and manager EPVThe manager type <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
+<li>Manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and manager EPVThe manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
 Note that when specifying a non-nil, manager type <b>UUID</b>, the server must also call <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a> to register objects of this non-nil type.
 
 </li>

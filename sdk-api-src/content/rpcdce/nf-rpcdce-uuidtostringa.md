@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidToString</b> function converts a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a string.
+<b>UuidToString</b> function converts a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to a string.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ The
 ### -param Uuid [in]
 
 Pointer to a binary 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
 
 ### -param StringUuid [out]
 
-Pointer to the null-terminated string into which the <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
+Pointer to the null-terminated string into which the <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The system is out of memory.
 
 
 An application calls 
-<b>UuidToString</b> to convert a binary <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a string <b>UUID</b>. The RPC run-time library allocates memory for the string returned in the <i>StringUuid</i> parameter. The application is responsible for calling 
+<b>UuidToString</b> to convert a binary <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to a string <b>UUID</b>. The RPC run-time library allocates memory for the string returned in the <i>StringUuid</i> parameter. The application is responsible for calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
 
 

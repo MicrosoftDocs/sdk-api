@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 An application calls the  
-<b>UuidEqual</b> function to compare two <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s and determine whether they are equal.
+<b>UuidEqual</b> function to compare two <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s and determine whether they are equal.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ An application calls the
 ### -param Uuid1
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid2</i> parameter.
+<a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid2</i> parameter.
 
 
 ### -param Uuid2
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid1</i> parameter.
+Pointer to a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid1</i> parameter.
 
 
 ### -param Status
