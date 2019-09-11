@@ -34,7 +34,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - COM
+ - DllExport
 api_location:
  - chstring.h
 api_name:
