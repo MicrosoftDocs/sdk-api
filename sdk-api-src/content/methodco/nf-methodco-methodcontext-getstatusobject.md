@@ -33,9 +33,9 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - DllExport
 api_location:
- - MethodCo.h
+ - framedynos.dll
 api_name:
  - MethodContext.GetStatusObject
  - ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ

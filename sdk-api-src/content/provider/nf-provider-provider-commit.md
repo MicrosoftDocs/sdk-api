@@ -33,7 +33,7 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - COM
+ - DllCommit
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
