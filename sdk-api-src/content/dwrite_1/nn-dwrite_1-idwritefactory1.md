@@ -51,12 +51,12 @@ ms.custom: 19H1
 ## -description
 
 
-The root factory interface for all <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> objects.
+The root factory interface for all <a href="/windows/win32/DirectWrite/direct-write-portal">DirectWrite</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>. <b>IDWriteFactory1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>. <b>IDWriteFactory1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFactory1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefactory1-createcustomrenderingparams">CreateCustomRenderingParams</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-createcustomrenderingparams">CreateCustomRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Creates a rendering parameters object with the specified properties.
@@ -80,7 +80,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefactory1-geteudcfontcollection">GetEudcFontCollection</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-geteudcfontcollection">GetEudcFontCollection</a>
 </td>
 <td align="left" width="63%">
 Gets a font collection representing the set of EUDC (end-user defined characters) fonts.
@@ -95,7 +95,7 @@ Gets a font collection representing the set of EUDC (end-user defined characters
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

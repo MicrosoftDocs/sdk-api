@@ -63,7 +63,7 @@ ms.custom: 19H1
 
 ### -param substitutionMethod [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_number_substitution_method">DWRITE_NUMBER_SUBSTITUTION_METHOD</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_number_substitution_method">DWRITE_NUMBER_SUBSTITUTION_METHOD</a></b>
 
 A value that specifies how to apply number substitution on digits and related punctuation.
 
@@ -84,7 +84,7 @@ A Boolean flag that indicates whether to ignore user overrides.
 
 ### -param numberSubstitution [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
+Type: <b><a href="/windows/win32/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>**</b>
 
 When this method returns, contains an address to  a pointer to the number substitution object created by this method.
 
@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

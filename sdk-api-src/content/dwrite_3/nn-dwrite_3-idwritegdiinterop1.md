@@ -57,7 +57,7 @@ Provides interoperability with GDI, such as methods to convert a font face to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>. <b>IDWriteGdiInterop1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>. <b>IDWriteGdiInterop1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteGdiInterop1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-createfontfromlogfont">CreateFontFromLOGFONT</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-createfontfromlogfont">CreateFontFromLOGFONT</a>
 </td>
 <td align="left" width="63%">
 Creates a font object that matches the properties specified by the LOGFONT structure.
@@ -81,7 +81,7 @@ Creates a font object that matches the properties specified by the LOGFONT struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-getfontsignature">GetFontSignature</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-getfontsignature">GetFontSignature</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves a font signature.
 
@@ -89,7 +89,7 @@ Creates a font object that matches the properties specified by the LOGFONT struc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getmatchingfontsbylogfont">GetMatchingFontsByLOGFONT</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getmatchingfontsbylogfont">GetMatchingFontsByLOGFONT</a>
 </td>
 <td align="left" width="63%">
 Gets a list of matching fonts based on the specified LOGFONT values. Only fonts
@@ -105,7 +105,7 @@ Gets a list of matching fonts based on the specified LOGFONT values. Only fonts
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
  
 
  

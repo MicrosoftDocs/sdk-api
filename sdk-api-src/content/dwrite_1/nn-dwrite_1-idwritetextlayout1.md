@@ -56,7 +56,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>. <b>IDWriteTextLayout1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>. <b>IDWriteTextLayout1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteTextLayout1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing">GetCharacterSpacing</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing">GetCharacterSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets the spacing between characters.
@@ -80,7 +80,7 @@ Gets the spacing between characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning">GetPairKerning</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning">GetPairKerning</a>
 </td>
 <td align="left" width="63%">
 Gets whether or not pair-kerning is enabled at given position.
@@ -89,7 +89,7 @@ Gets whether or not pair-kerning is enabled at given position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing">SetCharacterSpacing</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing">SetCharacterSpacing</a>
 </td>
 <td align="left" width="63%">
 Sets the spacing between characters.
@@ -98,7 +98,7 @@ Sets the spacing between characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning">SetPairKerning</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning">SetPairKerning</a>
 </td>
 <td align="left" width="63%">
 Enables or disables pair-kerning on a given text range.
@@ -113,7 +113,7 @@ Enables or disables pair-kerning on a given text range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

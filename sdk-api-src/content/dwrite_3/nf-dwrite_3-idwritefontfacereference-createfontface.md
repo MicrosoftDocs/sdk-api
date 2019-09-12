@@ -61,7 +61,7 @@ Creates a font face from the reference for use with layout, shaping, or renderin
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>**</b>
 
 Newly created font face object, or nullptr in the case of failure.
 
@@ -91,7 +91,7 @@ This function can fail with DWRITE_E_REMOTEFONT if the font is not local.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specify whether <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>::lineGap value should be part of the line metrics
+Specify whether <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>::lineGap value should be part of the line metrics
 
 
 ## -enum-fields

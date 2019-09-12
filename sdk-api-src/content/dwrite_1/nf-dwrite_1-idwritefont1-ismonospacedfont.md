@@ -78,7 +78,7 @@ Returns true if the font is monospaced, else it returns false.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
  
 
  

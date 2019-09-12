@@ -62,9 +62,9 @@ Gets the PANOSE values from the font and is used for font selection and
 
 ### -param panose [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a> structure to fill in.
+A pointer to the <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a> structure to fill in.
 
 
 ## -returns
@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 If the font has no PANOSE values,
-    they are set to 'any' (0) and <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> doesn't simulate those values.
+    they are set to 'any' (0) and <a href="/windows/win32/DirectWrite/direct-write-portal">DirectWrite</a> doesn't simulate those values.
 
 
 
@@ -91,7 +91,7 @@ If the font has no PANOSE values,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
  
 
  

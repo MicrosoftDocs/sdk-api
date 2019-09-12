@@ -51,13 +51,13 @@ ms.custom: 19H1
 ## -description
 
 
-A built-in implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a> interface, that operates on local font files
-and exposes local font file information from the font file reference key. Font file references created using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference">CreateFontFileReference</a> use this font file loader.
+A built-in implementation of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a> interface, that operates on local font files
+and exposes local font file information from the font file reference key. Font file references created using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference">CreateFontFileReference</a> use this font file loader.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteLocalFontFileLoader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalFontFileLoader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteLocalFontFileLoader</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalFontFileLoader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteLocalFontFileLoader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritelocalfontfileloader-getfilepathfromkey">GetFilePathFromKey</a>
+<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getfilepathfromkey">GetFilePathFromKey</a>
 </td>
 <td align="left" width="63%">
 Obtains the absolute font file path from the font file reference key.
@@ -81,7 +81,7 @@ Obtains the absolute font file path from the font file reference key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritelocalfontfileloader-getfilepathlengthfromkey">GetFilePathLengthFromKey</a>
+<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getfilepathlengthfromkey">GetFilePathLengthFromKey</a>
 </td>
 <td align="left" width="63%">
 Obtains the length of the absolute file path from the font file reference key.
@@ -90,7 +90,7 @@ Obtains the length of the absolute file path from the font file reference key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritelocalfontfileloader-getlastwritetimefromkey">GetLastWriteTimeFromKey</a>
+<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getlastwritetimefromkey">GetLastWriteTimeFromKey</a>
 </td>
 <td align="left" width="63%">
 Obtains the last write time of the file from the font file reference key.

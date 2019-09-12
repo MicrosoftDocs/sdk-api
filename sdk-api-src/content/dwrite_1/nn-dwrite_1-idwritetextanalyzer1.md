@@ -56,7 +56,7 @@ Analyzes various text properties for complex script processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,17 +71,17 @@ The <b>IDWriteTextAnalyzer1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-analyzeverticalglyphorientation">AnalyzeVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-analyzeverticalglyphorientation">AnalyzeVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Analyzes a text range for script orientation, reading text and
-    attributes from the source and reporting results to the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>.
+    attributes from the source and reporting results to the sink callback <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing">ApplyCharacterSpacing</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing">ApplyCharacterSpacing</a>
 </td>
 <td align="left" width="63%">
 Applies spacing between characters, properly adjusting glyph clusters
@@ -91,7 +91,7 @@ Applies spacing between characters, properly adjusting glyph clusters
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getbaseline">GetBaseline</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getbaseline">GetBaseline</a>
 </td>
 <td align="left" width="63%">
 Retrieves the given baseline from the font.
@@ -100,7 +100,7 @@ Retrieves the given baseline from the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getglyphorientationtransform">GetGlyphOrientationTransform</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getglyphorientationtransform">GetGlyphOrientationTransform</a>
 </td>
 <td align="left" width="63%">
 Returns 2x3 transform matrix for the respective angle to draw the
@@ -110,7 +110,7 @@ Returns 2x3 transform matrix for the respective angle to draw the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">GetJustificationOpportunities</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">GetJustificationOpportunities</a>
 </td>
 <td align="left" width="63%">
 Retrieves justification opportunity information for each of the glyphs
@@ -120,7 +120,7 @@ Retrieves justification opportunity information for each of the glyphs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustifiedglyphs">GetJustifiedGlyphs</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustifiedglyphs">GetJustifiedGlyphs</a>
 </td>
 <td align="left" width="63%">
 Fills in new glyphs for complex scripts where justification increased
@@ -130,7 +130,7 @@ Fills in new glyphs for complex scripts where justification increased
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">GetScriptProperties</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">GetScriptProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for a given script.
@@ -139,17 +139,17 @@ Retrieves the properties for a given script.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-gettextcomplexity">GetTextComplexity</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-gettextcomplexity">GetTextComplexity</a>
 </td>
 <td align="left" width="63%">
-Determines the complexity of text, and whether you need to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> for full script
+Determines the complexity of text, and whether you need to call <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> for full script
     shaping. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">JustifyGlyphAdvances</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">JustifyGlyphAdvances</a>
 </td>
 <td align="left" width="63%">
 Justifies an array of glyph advances to fit the line width.
@@ -164,7 +164,7 @@ Justifies an array of glyph advances to fit the line width.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
  
 
  

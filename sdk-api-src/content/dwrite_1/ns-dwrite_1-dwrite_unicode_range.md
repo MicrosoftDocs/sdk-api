@@ -74,11 +74,11 @@ The last code point in the Unicode range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-getunicoderanges">IDWriteFont1::GetUnicodeRanges</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getunicoderanges">IDWriteFont1::GetUnicodeRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getunicoderanges">IDWriteFontFace1::GetUnicodeRanges</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getunicoderanges">IDWriteFontFace1::GetUnicodeRanges</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Registers a client-defined listener object that receives download notifications.  
-    All registered listener's DownloadCompleted will be called after <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>completes. 
+    All registered listener's DownloadCompleted will be called after <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>completes. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Registers a client-defined listener object that receives download notifications.
 
 ### -param listener
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener">IDWriteFontDownloadListener</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener">IDWriteFontDownloadListener</a>*</b>
 
 Listener object to add.
 
@@ -71,7 +71,7 @@ Listener object to add.
 
 Type: <b>UINT32*</b>
 
-Receives a token value, which the caller must subsequently pass to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-removelistener">RemoveListener</a>.
+Receives a token value, which the caller must subsequently pass to <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-removelistener">RemoveListener</a>.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener">IDWriteFontDownloadListener</a> can also be passed to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> 
+An <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener">IDWriteFontDownloadListener</a> can also be passed to <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> 
       using the context parameter, rather than globally registered to the queue.
 
 
@@ -100,7 +100,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
  
 
  

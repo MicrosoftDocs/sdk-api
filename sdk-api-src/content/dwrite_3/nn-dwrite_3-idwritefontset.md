@@ -56,7 +56,7 @@ Represents a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSet</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFontSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontface">FindFontFace</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontface">FindFontFace</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -80,7 +80,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontfacereference">FindFontFaceReference</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontfacereference">FindFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -89,7 +89,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount">GetFontCount</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount">GetFontCount</a>
 </td>
 <td align="left" width="63%">
 Get the number of total fonts in the set.
@@ -98,7 +98,7 @@ Get the number of total fonts in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontfacereference">GetFontFaceReference</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontfacereference">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a reference to the font at the specified index, which may be local or remote.
@@ -107,7 +107,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontset-getmatchingfonts-overload">GetMatchingFonts</a>
+<a href="/windows/win32/DirectWrite/idwritefontset-getmatchingfonts-overload">GetMatchingFonts</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns a subset of fonts matching the specified criteria.
 
@@ -115,7 +115,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyoccurrencecount">GetPropertyOccurrenceCount</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyoccurrencecount">GetPropertyOccurrenceCount</a>
 </td>
 <td align="left" width="63%">
 Returns how many times a given property value occurs in the set.
@@ -124,7 +124,7 @@ Returns how many times a given property value occurs in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-getpropertyvalues">GetPropertyValues</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-getpropertyvalues">GetPropertyValues</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns property values for the font set.
 

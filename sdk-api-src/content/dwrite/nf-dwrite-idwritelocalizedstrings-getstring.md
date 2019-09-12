@@ -70,7 +70,7 @@ The zero-based index of the language/string pair to be examined.
 
 Type: <b>WCHAR*</b>
 
-The null terminated array of characters that receives the string from the language/string pair.  The buffer allocated for this array should be at least the size of <i>size</i>. <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> can be used to get the size of the array before using this method.
+The null terminated array of characters that receives the string from the language/string pair.  The buffer allocated for this array should be at least the size of <i>size</i>. <a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> can be used to get the size of the array before using this method.
 
 
 ### -param size
@@ -78,7 +78,7 @@ The null terminated array of characters that receives the string from the langua
 Type: <b>UINT32</b>
 
 The size of the array in characters. The size must include space for the terminating
-     null character. <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> can be used to get the size of the array before using this method.
+     null character. <a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> can be used to get the size of the array before using this method.
 
 
 ## -returns
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The string returned must be allocated by the caller.  You can get the size of the string by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> method prior to calling <b>GetString</b>, as shown in the following example.
+The string returned must be allocated by the caller.  You can get the size of the string by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a> method prior to calling <b>GetString</b>, as shown in the following example.
 
 
 ```cpp
@@ -132,7 +132,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Begins an asynchronous download operation. The download operation executes   
-    in the background until it completes or is cancelled by a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-canceldownload">CancelDownload</a> call.
+    in the background until it completes or is cancelled by a <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-canceldownload">CancelDownload</a> call.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ BeginDownload removes all download requests from the queue, transferring them
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
  
 
  

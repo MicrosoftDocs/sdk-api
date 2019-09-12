@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -param clusterMetrics [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_cluster_metrics">DWRITE_CLUSTER_METRICS</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics">DWRITE_CLUSTER_METRICS</a>*</b>
 
 When this method returns, contains metrics, such as line-break or total advance width, for a glyph cluster.
 
@@ -107,7 +107,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

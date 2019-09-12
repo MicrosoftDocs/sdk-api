@@ -78,7 +78,7 @@ The number of entries in each color palette. All color palettes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontface2">IDWriteFontFace2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2">IDWriteFontFace2</a>
  
 
  

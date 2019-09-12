@@ -55,7 +55,7 @@ ms.custom: 19H1
  the first character in the tag is the lowest byte
  (least significant on little endian architectures),
  which can be used to compare with tags in the font file.
- This macro is compatible with <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG</a>.
+ This macro is compatible with <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag">DWRITE_FONT_FEATURE_TAG</a>.
 
 
 ## -parameters

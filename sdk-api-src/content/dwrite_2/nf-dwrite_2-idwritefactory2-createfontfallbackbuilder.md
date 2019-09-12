@@ -63,7 +63,7 @@ A font fall back builder allows you to create Unicode font fallback mappings and
 
 ### -param fontFallbackBuilder [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>**</b>
+Type: <b><a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>**</b>
 
 Contains an address of a pointer to the newly created font fallback builder object.
 
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>
+<a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>
  
 
  

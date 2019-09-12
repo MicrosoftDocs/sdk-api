@@ -56,7 +56,7 @@ This interface allows the application to enumerate through the color glyph runs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteColorGlyphRunEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteColorGlyphRunEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteColorGlyphRunEnumerator</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteColorGlyphRunEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteColorGlyphRunEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritecolorglyphrunenumerator-getcurrentrun">GetCurrentRun</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritecolorglyphrunenumerator-getcurrentrun">GetCurrentRun</a>
 </td>
 <td align="left" width="63%">
 Returns the current glyph run of the enumerator.
@@ -80,7 +80,7 @@ Returns the current glyph run of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritecolorglyphrunenumerator-movenext">MoveNext</a>
+<a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Move to the next glyph run in the enumerator.

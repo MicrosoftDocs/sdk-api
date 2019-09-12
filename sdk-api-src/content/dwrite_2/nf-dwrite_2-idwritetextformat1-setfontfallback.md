@@ -62,7 +62,7 @@ Applies the custom font fallback onto the layout. If none is set, it uses the de
 
 ### -param fontFallback
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontfallback">IDWriteFontFallback</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback">IDWriteFontFallback</a>*</b>
 
 The font fallback to apply to the layout.
 
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
  
 
  

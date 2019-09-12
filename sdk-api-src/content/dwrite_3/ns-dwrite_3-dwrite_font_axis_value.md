@@ -45,13 +45,13 @@ req.redist:
 
 ## -description
 
-Represents a value for a font axis. Used when querying and creating font instances (for example, see [IDWriteFontFace5::GetFontAxisValues](/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvalues)).
+Represents a value for a font axis. Used when querying and creating font instances (for example, see [IDWriteFontFace5::GetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvalues)).
 
 ## -struct-fields
 
 ### -field axisTag
 
-Type: **[DWRITE_FONT_AXIS_TAG](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)**
+Type: **[DWRITE_FONT_AXIS_TAG](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)**
 
 The four-character identifier of the font axis (for example, weight, width, slant, italic, and so on).
 
@@ -70,5 +70,5 @@ A value for the axis specified in `axisTag`. The meaning and range of the value 
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_TAG enumeration](/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
-[DWRITE_FONT_AXIS_RANGE structure](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
+[DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
+[DWRITE_FONT_AXIS_RANGE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)

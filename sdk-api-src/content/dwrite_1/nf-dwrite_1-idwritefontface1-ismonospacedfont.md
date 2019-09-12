@@ -78,15 +78,15 @@ Returns TRUE if the font is monospaced, otherwise it returns FALSE.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefont-issymbolfont">IDWriteFont::IsSymbolFont</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefont-issymbolfont">IDWriteFont::IsSymbolFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-issymbolfont">IDWriteFontFace::IsSymbolFont</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-issymbolfont">IDWriteFontFace::IsSymbolFont</a>
  
 
  

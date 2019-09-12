@@ -82,7 +82,7 @@ An optional array of glyph advances in DIPs. The advance of a glyph is the amoun
 
 ### -param glyphOffsets [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 An optional array of glyph offsets, each of which specifies the offset along the baseline and offset perpendicular to the baseline of a glyph relative to the current pen position.   <i>glyphOffsets</i> contains the number of elements specified by <i>glyphCount</i>.
 
@@ -114,7 +114,7 @@ The visual order of the glyphs. If this parameter is <b>FALSE</b>, then glyph ad
 
 ### -param geometrySink
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritegeometrysink">IDWriteGeometrySink</a>*</b>
+Type: <b><a href="/windows/win32/DirectWrite/idwritegeometrysink">IDWriteGeometrySink</a>*</b>
 
 A pointer to the interface that is called back to perform outline drawing operations.
 
@@ -135,7 +135,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

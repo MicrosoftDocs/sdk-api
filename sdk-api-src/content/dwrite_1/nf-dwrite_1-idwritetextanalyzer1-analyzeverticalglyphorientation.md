@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Analyzes a text range for script orientation, reading text and
-    attributes from the source and reporting results to the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>.
+    attributes from the source and reporting results to the sink callback <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Analyzes a text range for script orientation, reading text and
 
 ### -param analysisSource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalysissource1">IDWriteTextAnalysisSource1</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissource1">IDWriteTextAnalysisSource1</a>*</b>
 
 Source object to analyze.
 
@@ -83,7 +83,7 @@ Length to analyze.
 
 ### -param analysisSink
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalysissink1">IDWriteTextAnalysisSink1</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissink1">IDWriteTextAnalysisSink1</a>*</b>
 
 Length to analyze.
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
  
 
  

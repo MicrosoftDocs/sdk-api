@@ -61,7 +61,7 @@ Set line spacing.
 
 ### -param lineSpacingOptions [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_line_spacing">DWRITE_LINE_SPACING</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_line_spacing">DWRITE_LINE_SPACING</a>*</b>
 
 How to manage space between lines.
 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat2">IDWriteTextFormat2</a>
+<a href="/windows/win32/DirectWrite/idwritetextformat2">IDWriteTextFormat2</a>
  
 
  

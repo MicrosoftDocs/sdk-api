@@ -68,7 +68,7 @@ If <i>fontFiles</i> is <b>NULL</b>, receives the number of files representing th
 
 ### -param fontFiles [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>**</b>
 
 When this method returns, contains a pointer to a user-provided array that stores pointers to font files representing the font face.
      This parameter can be <b>NULL</b> if the user wants only the number of files representing the font face.
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The <b>IDWriteFontFace::GetFiles</b> method should be called twice.  The first time you call <b>GetFiles</b><i>fontFiles</i> should be <b>NULL</b>. When the method returns, <i>numberOfFiles</i> receives the number of font files that represent the font face.
 
-Then, call the method a second time, passing the <i>numberOfFiles</i> value that was output the first call, and a non-null buffer of the correct size to store the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> pointers.
+Then, call the method a second time, passing the <i>numberOfFiles</i> value that was output the first call, and a non-null buffer of the correct size to store the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> pointers.
 
 
 
@@ -103,7 +103,7 @@ Then, call the method a second time, passing the <i>numberOfFiles</i> value that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

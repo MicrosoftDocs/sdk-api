@@ -75,31 +75,31 @@ The vertical baseline origin of the original glyph run.
 
 ### -param glyphRun [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
 
 Original glyph run containing monochrome glyph IDs.
 
 
 ### -param glyphRunDescription [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run_description">DWRITE_GLYPH_RUN_DESCRIPTION</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run_description">DWRITE_GLYPH_RUN_DESCRIPTION</a>*</b>
 
 Optional glyph run description.
 
 
 ### -param measuringMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Measuring mode used to compute glyph positions if the run contains color glyphs.
 
 
 ### -param worldToDeviceTransform [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 World transform multiplied by any DPI scaling. This is needed to compute glyph positions if the run contains color glyphs and the 
-            measuring mode is not <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
+            measuring mode is not <a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
             If this parameter is <b>NULL</b>, and identity transform is assumed.
           
 
@@ -109,16 +109,16 @@ World transform multiplied by any DPI scaling. This is needed to compute glyph p
 Type: <b>UINT32</b>
 
 Zero-based index of the color palette to use. Valid indices are less than the number of palettes in the font, as 
-            returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getcolorpalettecount">IDWriteFontFace2::GetColorPaletteCount</a>.
+            returned by <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getcolorpalettecount">IDWriteFontFace2::GetColorPaletteCount</a>.
           
 
 
 ### -param colorLayers [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>**</b>
+Type: <b><a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>**</b>
 
 If the original glyph run contains color glyphs, this parameter receives a pointer to 
-            an <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a> interface. 
+            an <a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a> interface. 
             The client uses the returned interface to get information about glyph runs and associated colors to render instead of the original glyph run. 
             If the original glyph run does not contain color glyphs, this method returns <b>DWRITE_E_NOCOLOR</b> and the output pointer is <b>NULL</b>.
           
@@ -142,7 +142,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the code calls this method with a glyph run that contains no color information, the method returns <b>DWRITE_E_NOCOLOR</b> to 
           let the application know that it can just draw the original glyph run. If the glyph run contains color information, the function returns an object
           that can be enumerated through to expose runs and associated colors. The application then 
-          calls <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">DrawGlyphRun</a> with each of the returned glyph runs and foreground colors.
+          calls <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">DrawGlyphRun</a> with each of the returned glyph runs and foreground colors.
         
 
 
@@ -153,7 +153,7 @@ If the code calls this method with a glyph run that contains no color informatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>
+<a href="/windows/win32/DirectWrite/idwritefactory2">IDWriteFactory2</a>
  
 
  

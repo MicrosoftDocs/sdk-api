@@ -84,7 +84,7 @@ A value that indicates the offset of the strikethrough from the baseline.
 
 ### -field readingDirection
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION</a></b>
 
 Reading direction of the text associated with the strikethrough. 
 	  This value is used to interpret whether the width value runs horizontally 
@@ -93,7 +93,7 @@ Reading direction of the text associated with the strikethrough.
 
 ### -field flowDirection
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_flow_direction">DWRITE_FLOW_DIRECTION</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_flow_direction">DWRITE_FLOW_DIRECTION</a></b>
 
 Flow direction of the text associated with the strikethrough. 
 	  This value is used to interpret whether the thickness value advances top to 
@@ -109,7 +109,7 @@ An array of characters containing the locale of the  text that is the strikethro
 
 ### -field measuringMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 The measuring mode can be useful to the renderer to determine how underlines are rendered, such as rounding the thickness to a whole pixel in GDI-compatible modes.
 

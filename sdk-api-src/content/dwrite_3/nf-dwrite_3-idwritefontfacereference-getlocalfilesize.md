@@ -71,7 +71,7 @@ Type: <b>UINT64</b>
 
 the local size of the font face in bytes, which will always be   
      less than or equal to GetFullSize. If the locality is remote, this     
-     value is zero. If full, this value will equal <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize">GetFileSize</a>.
+     value is zero. If full, this value will equal <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize">GetFileSize</a>.
 
 
 
@@ -81,7 +81,7 @@ the local size of the font face in bytes, which will always be
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>
  
 
  

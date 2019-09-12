@@ -40,8 +40,8 @@ api_name:
 
 Represents an absolute reference to a font face. This interface contains font face type, appropriate file references, and face identification data. It adds new facilities such as comparing two font faces, retrieving font axis values, and retrieving the underlying font resource.
 
-This interface extends [IDWriteFontFace4](/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface4). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
+This interface extends [IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
 
 ## -see-also
 
-[IDWriteFontFace4](/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface4)
+[IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)

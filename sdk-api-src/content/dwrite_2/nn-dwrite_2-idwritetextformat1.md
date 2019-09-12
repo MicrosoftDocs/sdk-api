@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 
 Describes the font and paragraph properties used to format text, and it describes locale information.
-        This interface has all the same methods as <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> and  adds the ability for you to apply an explicit orientation.
+        This interface has all the same methods as <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> and  adds the ability for you to apply an explicit orientation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>. <b>IDWriteTextFormat1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>. <b>IDWriteTextFormat1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteTextFormat1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getfontfallback">GetFontFallback</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getfontfallback">GetFontFallback</a>
 </td>
 <td align="left" width="63%">
 Gets the current fallback. If none was ever set since creating the layout, it will be nullptr.
@@ -81,7 +81,7 @@ Gets the current fallback. If none was ever set since creating the layout, it wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getlastlinewrapping">GetLastLineWrapping</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getlastlinewrapping">GetLastLineWrapping</a>
 </td>
 <td align="left" width="63%">
 Gets the wrapping mode of the last line.
@@ -90,7 +90,7 @@ Gets the wrapping mode of the last line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getopticalalignment">GetOpticalAlignment</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getopticalalignment">GetOpticalAlignment</a>
 </td>
 <td align="left" width="63%">
 Gets the optical margin alignment for the text format.
@@ -99,7 +99,7 @@ Gets the optical margin alignment for the text format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getverticalglyphorientation">GetVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-getverticalglyphorientation">GetVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Get the preferred orientation of glyphs when using a vertical reading direction.
@@ -108,7 +108,7 @@ Get the preferred orientation of glyphs when using a vertical reading direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setfontfallback">SetFontFallback</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setfontfallback">SetFontFallback</a>
 </td>
 <td align="left" width="63%">
 Applies the custom font fallback onto the layout. If none is set, it uses the default system fallback list.
@@ -118,7 +118,7 @@ Applies the custom font fallback onto the layout. If none is set, it uses the de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setlastlinewrapping">SetLastLineWrapping</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setlastlinewrapping">SetLastLineWrapping</a>
 </td>
 <td align="left" width="63%">
 Sets the wrapping mode of the last line.
@@ -127,7 +127,7 @@ Sets the wrapping mode of the last line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setopticalalignment">SetOpticalAlignment</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setopticalalignment">SetOpticalAlignment</a>
 </td>
 <td align="left" width="63%">
 Sets the optical margin alignment for the text format.
@@ -136,7 +136,7 @@ Sets the optical margin alignment for the text format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setverticalglyphorientation">SetVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextformat1-setverticalglyphorientation">SetVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Sets the orientation of a text format.
@@ -151,7 +151,7 @@ Sets the orientation of a text format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

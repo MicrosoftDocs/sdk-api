@@ -56,7 +56,7 @@ Represents a physical font in a font collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>. <b>IDWriteFont1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>. <b>IDWriteFont1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFont1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-getmetrics">GetMetrics</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getmetrics">GetMetrics</a>
 </td>
 <td align="left" width="63%">
  Obtains design units and common metrics for the font face.
@@ -81,7 +81,7 @@ The <b>IDWriteFont1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-getpanose">GetPanose</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getpanose">GetPanose</a>
 </td>
 <td align="left" width="63%">
 Gets the PANOSE values from the font and is used for font selection and
@@ -91,7 +91,7 @@ Gets the PANOSE values from the font and is used for font selection and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-getunicoderanges">GetUnicodeRanges</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getunicoderanges">GetUnicodeRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of character ranges supported by a font.
@@ -100,7 +100,7 @@ Retrieves the list of character ranges supported by a font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-ismonospacedfont">IsMonospacedFont</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-ismonospacedfont">IsMonospacedFont</a>
 </td>
 <td align="left" width="63%">
 Determines if the font is monospaced, that is, the characters are the
@@ -116,7 +116,7 @@ Determines if the font is monospaced, that is, the characters are the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>
  
 
  

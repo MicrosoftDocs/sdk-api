@@ -57,7 +57,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteTextLayout3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-getlinemetrics">GetLineMetrics</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout3-getlinemetrics">GetLineMetrics</a>
 </td>
 <td align="left" width="63%">
 Retrieves properties of each line.
@@ -81,7 +81,7 @@ Retrieves properties of each line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-getlinespacing">GetLineSpacing</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout3-getlinespacing">GetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets line spacing information.
@@ -90,7 +90,7 @@ Gets line spacing information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-invalidatelayout">InvalidateLayout</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout3-invalidatelayout">InvalidateLayout</a>
 </td>
 <td align="left" width="63%">
 Invalidates the layout, forcing layout to remeasure before calling the   
@@ -102,7 +102,7 @@ Invalidates the layout, forcing layout to remeasure before calling the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-setlinespacing">SetLineSpacing</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout3-setlinespacing">SetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Set line spacing.
@@ -117,7 +117,7 @@ Set line spacing.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
  
 
  

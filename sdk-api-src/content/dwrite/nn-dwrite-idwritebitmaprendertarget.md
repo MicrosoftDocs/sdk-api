@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteBitmapRenderTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteBitmapRenderTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteBitmapRenderTarget</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteBitmapRenderTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">DrawGlyphRun</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">DrawGlyphRun</a>
 </td>
 <td align="left" width="63%">
  Draws a run of glyphs to a bitmap target at the specified position.
@@ -80,7 +80,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getcurrenttransform">GetCurrentTransform</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getcurrenttransform">GetCurrentTransform</a>
 </td>
 <td align="left" width="63%">
  Gets the transform that maps abstract coordinates to DIPs. By default this is the identity 
@@ -91,7 +91,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc">GetMemoryDC</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc">GetMemoryDC</a>
 </td>
 <td align="left" width="63%">
  Gets a handle to the memory device context.
@@ -100,7 +100,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getpixelsperdip">GetPixelsPerDip</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getpixelsperdip">GetPixelsPerDip</a>
 </td>
 <td align="left" width="63%">
  Gets the number of bitmap pixels per DIP. 
@@ -109,7 +109,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getsize">GetSize</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
  Gets the dimensions of the target bitmap.
@@ -118,7 +118,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-resize">Resize</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-resize">Resize</a>
 </td>
 <td align="left" width="63%">
  Resizes the bitmap.
@@ -127,7 +127,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setcurrenttransform">SetCurrentTransform</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setcurrenttransform">SetCurrentTransform</a>
 </td>
 <td align="left" width="63%">
  Sets the transform that maps abstract coordinate to DIPs (device-independent pixel). This does not affect the world
@@ -137,7 +137,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setpixelsperdip">SetPixelsPerDip</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-setpixelsperdip">SetPixelsPerDip</a>
 </td>
 <td align="left" width="63%">
  Sets the number of bitmap pixels per DIP (device-independent pixel). A DIP is 1/96 inch, so this value is the number
@@ -152,7 +152,7 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 
 
 
-You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">IDWriteGdiInterop::CreateBitmapRenderTarget</a> method, as shown in the following code.
+You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">IDWriteGdiInterop::CreateBitmapRenderTarget</a> method, as shown in the following code.
 
 
 ```cpp
@@ -165,10 +165,10 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">IDWriteGdiInterop::CreateBitmapRenderTarget</a> takes a handle to a DC and the desired width and height.  In the above example, the width and height given are the size of the window rect.
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">IDWriteGdiInterop::CreateBitmapRenderTarget</a> takes a handle to a DC and the desired width and height.  In the above example, the width and height given are the size of the window rect.
 
 <h3><a id="Rendering"></a><a id="rendering"></a><a id="RENDERING"></a>Rendering</h3>
-One way to use a  <b>IDWriteBitmapRenderTarget</b>, for rendering to a bitmap, is to implement a custom renderer interface derived from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a> interface.  In your implementation of  the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">DrawGlyphRun</a> method of your custom renderer, call the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">IDWriteBitmapRenderTarget::DrawGlyphRun</a> method to draw the glyphs as shown in the following code.
+One way to use a  <b>IDWriteBitmapRenderTarget</b>, for rendering to a bitmap, is to implement a custom renderer interface derived from the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a> interface.  In your implementation of  the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun">DrawGlyphRun</a> method of your custom renderer, call the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">IDWriteBitmapRenderTarget::DrawGlyphRun</a> method to draw the glyphs as shown in the following code.
 
 
 ```cpp
@@ -204,7 +204,7 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
 ```
 
 
-The <b>IDWriteBitmapRenderTarget</b> encapsulates and renders to a bitmap in memory.  The  <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc">GetMemoryDC</a> function returns a handle to the device context of this bitmap.
+The <b>IDWriteBitmapRenderTarget</b> encapsulates and renders to a bitmap in memory.  The  <a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc">GetMemoryDC</a> function returns a handle to the device context of this bitmap.
 
 
 

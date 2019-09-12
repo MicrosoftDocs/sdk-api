@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-Represents a font file loader that can access remote (i.e., downloadable) fonts. The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createhttpfontfileloader">IDWriteFactory5::CreateHttpFontFileLoader</a> method returns an instance of this interface,
+Represents a font file loader that can access remote (i.e., downloadable) fonts. The <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createhttpfontfileloader">IDWriteFactory5::CreateHttpFontFileLoader</a> method returns an instance of this interface,
         which the client can use to load remote fonts without having to implement a custom loader. 
         A client can also create its own custom implementation, however. 
-        In either case, the client is responsible for registering and unregistering the loader using IDWriteFactory::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a> 
-        and IDWriteFactory::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">UnregisterFontFileLoader</a>.
+        In either case, the client is responsible for registering and unregistering the loader using IDWriteFactory::<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a> 
+        and IDWriteFactory::<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">UnregisterFontFileLoader</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileLoader</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteRemoteFontFileLoader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileLoader</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteRemoteFontFileLoader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDWriteRemoteFontFileLoader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createfontfilereferencefromurl">CreateFontFileReferenceFromUrl</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createfontfilereferencefromurl">CreateFontFileReferenceFromUrl</a>
 </td>
 <td align="left" width="63%">
 Creates a font file reference from a URL if the loader supports this capability.
@@ -82,7 +82,7 @@ Creates a font file reference from a URL if the loader supports this capability.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createremotestreamfromkey">CreateRemoteStreamFromKey</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createremotestreamfromkey">CreateRemoteStreamFromKey</a>
 </td>
 <td align="left" width="63%">
 Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
@@ -91,7 +91,7 @@ Creates a remote font file stream object that encapsulates an open file resource
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-getlocalityfromkey">GetLocalityFromKey</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-getlocalityfromkey">GetLocalityFromKey</a>
 </td>
 <td align="left" width="63%">
 Gets the locality of the file resource identified by the unique key.
@@ -104,4 +104,4 @@ Gets the locality of the file resource identified by the unique key.
 
 [Creating a custom font set using known, remote fonts on the Web](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>

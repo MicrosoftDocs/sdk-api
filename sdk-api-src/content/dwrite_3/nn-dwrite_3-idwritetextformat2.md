@@ -57,7 +57,7 @@ Describes the font and paragraph properties used to format text, and it describe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat2</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteTextFormat2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritetextformat2-getlinespacing">GetLineSpacing</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat2-getlinespacing">GetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets the line spacing adjustment set for a multiline text paragraph.
@@ -81,7 +81,7 @@ Gets the line spacing adjustment set for a multiline text paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat2-setlinespacing">SetLineSpacing</a>
+<a href="/windows/win32/DirectWrite/idwritetextformat2-setlinespacing">SetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Set line spacing.
@@ -96,7 +96,7 @@ Set line spacing.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
  
 
  

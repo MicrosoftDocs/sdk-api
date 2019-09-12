@@ -69,9 +69,9 @@ Maximum number of character ranges passed
 
 ### -param unicodeRanges [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a> structures that are filled with the character ranges.
+An array of <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a> structures that are filled with the character ranges.
 
 
 ### -param actualRangeCount [out]
@@ -131,14 +131,14 @@ A
   list of character ranges supported by the font is
     useful for scenarios like character picking, glyph display, and
     efficient font selection lookup. This is similar to GDI's
-    <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>, except that it returns the full Unicode range,
+    <a href="/windows/win32/api/wingdi/nf-wingdi-getfontunicoderanges">GetFontUnicodeRanges</a>, except that it returns the full Unicode range,
     not just 16-bit UCS-2.
 
 These ranges are from the cmap, not the OS/2::ulCodePageRange1.
 
-If this method is unavailable, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">IDWriteFontFace::GetGlyphIndices</a> method to check for missing glyphs.  The method returns the 0 index for glyphs that aren't present in the font.
+If this method is unavailable, you can use the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">IDWriteFontFace::GetGlyphIndices</a> method to check for missing glyphs.  The method returns the 0 index for glyphs that aren't present in the font.
 
- The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefont-hascharacter">IDWriteFont::HasCharacter</a> method is often simpler in cases where you need to check a single character or a series of single characters in succession, such as in font fallback.
+ The <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefont-hascharacter">IDWriteFont::HasCharacter</a> method is often simpler in cases where you need to check a single character or a series of single characters in succession, such as in font fallback.
 
 
 
@@ -148,7 +148,7 @@ If this method is unavailable, you can use the <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

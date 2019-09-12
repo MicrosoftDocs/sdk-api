@@ -105,7 +105,7 @@ The height of the hit region.
 
 Type: <b>UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzebidi">BIDI level</a> of the text positions within the hit region.
+The <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzebidi">BIDI level</a> of the text positions within the hit region.
 
 
 ### -field isText

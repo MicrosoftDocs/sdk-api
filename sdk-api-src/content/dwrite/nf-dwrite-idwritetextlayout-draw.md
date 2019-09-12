@@ -68,7 +68,7 @@ An application-defined drawing context.
 
 ### -param renderer
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>*</b>
 
 Pointer to the set of callback functions used to draw parts of a text string.
 
@@ -102,9 +102,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To draw text with this method, a <i>textLayout</i> object needs to be created by the application using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">IDWriteFactory::CreateTextLayout</a>. 
+To draw text with this method, a <i>textLayout</i> object needs to be created by the application using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">IDWriteFactory::CreateTextLayout</a>. 
 
-After the <i>textLayout</i> object is obtained, the application calls the  <b>IDWriteTextLayout::Draw</b> method  to draw the text, decorations, and inline objects. The actual drawing is done through the callback interface passed in as the <i>textRenderer</i> argument; there, the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">DrawGlyphRun</a> API is called. 
+After the <i>textLayout</i> object is obtained, the application calls the  <b>IDWriteTextLayout::Draw</b> method  to draw the text, decorations, and inline objects. The actual drawing is done through the callback interface passed in as the <i>textRenderer</i> argument; there, the corresponding <a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun">DrawGlyphRun</a> API is called. 
 
 If you set a vertical text reading direction on IDWriteTextLayout via SetReadingDirection with DWRITE_READING_DIRECTION_TOP_TO_BOTTOM (or bottom to top), then you must pass an interface that implements IDWriteTextRenderer1. Otherwise you get the error DWRITE_E_TEXTRENDERERINCOMPATIBLE because the original IDWriteTextRenderer interface only supported horizontal text.
 
@@ -116,7 +116,7 @@ If you set a vertical text reading direction on IDWriteTextLayout via SetReading
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

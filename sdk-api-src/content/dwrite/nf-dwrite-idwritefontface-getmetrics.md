@@ -62,9 +62,9 @@ ms.custom: 19H1
 
 ### -param fontFaceMetrics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>*</b>
 
-When this method returns, a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a> structure that holds metrics (such as ascent, descent, or cap height) for the current font face element.
+When this method returns, a <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a> structure that holds metrics (such as ascent, descent, or cap height) for the current font face element.
      The metrics returned by this function are in font design units.
 
 
@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  
