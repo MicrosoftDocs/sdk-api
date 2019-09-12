@@ -77,9 +77,9 @@ The size of font file reference key, in bytes.
 
 ### -param fontFileStream [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>**</b>
 
-When this method returns, contains the address of a pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a> object.
+When this method returns, contains the address of a pointer to the newly created <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a> object.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The resource is closed when the last reference to <i>fontFileStream</i> is relea
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
  
 
  

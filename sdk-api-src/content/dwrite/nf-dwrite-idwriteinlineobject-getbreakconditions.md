@@ -62,14 +62,14 @@ ms.custom: 19H1
 
 ### -param breakConditionBefore [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_break_condition">DWRITE_BREAK_CONDITION</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_break_condition">DWRITE_BREAK_CONDITION</a>*</b>
 
 When this method returns, contains a value which indicates the line-breaking condition between the object and the content immediately preceding it.
 
 
 ### -param breakConditionAfter [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_break_condition">DWRITE_BREAK_CONDITION</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_break_condition">DWRITE_BREAK_CONDITION</a>*</b>
 
 When this method returns, contains a value which indicates the line-breaking condition between the object and the content immediately following it.
 
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>
  
 
  

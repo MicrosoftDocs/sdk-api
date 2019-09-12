@@ -61,30 +61,30 @@ ms.custom: 19H1
 
 ### -param weight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a></b>
 
 A value that is used to match a requested font weight.
 
 
 ### -param stretch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a></b>
 
 A value that is used to match a requested font stretch.
 
 
 ### -param style
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
 
 A value that is used to match a requested font style.
 
 
 ### -param matchingFonts [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>**</b>
 
-An address of a pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a> object.
+An address of a pointer to the newly created <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a> object.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
  
 
  

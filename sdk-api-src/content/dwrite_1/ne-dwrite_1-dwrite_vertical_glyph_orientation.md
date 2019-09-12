@@ -85,7 +85,7 @@ The client specifies a <b>DWRITE_VERTICAL_GLYPH_ORIENTATION</b>-typed value to t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissource1-getverticalglyphorientation">IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissource1-getverticalglyphorientation">IDWriteTextAnalysisSource1::GetVerticalGlyphOrientation</a>
  
 
  

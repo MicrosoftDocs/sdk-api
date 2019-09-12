@@ -97,7 +97,7 @@ An output flag that indicates whether the hit-test location is inside the text s
 
 ### -param hitTestMetrics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_hit_test_metrics">DWRITE_HIT_TEST_METRICS</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_hit_test_metrics">DWRITE_HIT_TEST_METRICS</a>*</b>
 
 The output geometry fully enclosing the hit-test location. When the output <i>*isInside</i> value
          is set to <b>FALSE</b>, this structure represents the geometry enclosing the edge closest to the hit-test location.
@@ -119,7 +119,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

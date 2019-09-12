@@ -53,12 +53,12 @@ ms.custom: 19H1
 
  Represents text rendering settings such as ClearType level, enhanced contrast, and gamma correction for glyph rasterization and filtering.
 
-An application typically obtains a rendering parameters object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a> method.
+An application typically obtains a rendering parameters object by calling the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteRenderingParams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteRenderingParams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDWriteRenderingParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel">GetClearTypeLevel</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel">GetClearTypeLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the ClearType level of the rendering parameters object. 
@@ -82,7 +82,7 @@ Gets the ClearType level of the rendering parameters object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getenhancedcontrast">GetEnhancedContrast</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getenhancedcontrast">GetEnhancedContrast</a>
 </td>
 <td align="left" width="63%">
 Gets the enhanced contrast property of the rendering parameters object. Valid values are greater than or equal to zero.
@@ -91,7 +91,7 @@ Gets the enhanced contrast property of the rendering parameters object. Valid va
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getgamma">GetGamma</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getgamma">GetGamma</a>
 </td>
 <td align="left" width="63%">
 Gets the gamma value used for gamma correction. Valid values must be
@@ -101,7 +101,7 @@ Gets the gamma value used for gamma correction. Valid values must be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getpixelgeometry">GetPixelGeometry</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getpixelgeometry">GetPixelGeometry</a>
 </td>
 <td align="left" width="63%">
 Gets the pixel geometry of the rendering parameters object.
@@ -110,7 +110,7 @@ Gets the pixel geometry of the rendering parameters object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getrenderingmode">GetRenderingMode</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getrenderingmode">GetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering mode of the rendering parameters object.
@@ -125,7 +125,7 @@ Gets the rendering mode of the rendering parameters object.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a>
  
 
  

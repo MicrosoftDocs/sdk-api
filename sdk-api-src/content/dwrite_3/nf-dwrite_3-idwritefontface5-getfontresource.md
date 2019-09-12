@@ -52,14 +52,14 @@ Retrieves the underlying font resource for this font face. You can use that to q
 
 ### -param fontResource [out]
 
-Type: **[IDWriteFontResource](/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
+Type: **[IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
 
-The address of a pointer to an [IDWriteFontResource](/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object.
+The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object.
 
 ## -returns
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
 
 ## -remarks
 

@@ -66,7 +66,7 @@ Gets the current locality of the file.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ne-dwrite_3-dwrite_locality">DWRITE_LOCALITY</a></b>
+Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_locality">DWRITE_LOCALITY</a></b>
 
 Returns the current locality (i.e., remote, partial, or local).
 
@@ -78,7 +78,7 @@ Returns the current locality (i.e., remote, partial, or local).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream">IDWriteRemoteFontFileStream</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream">IDWriteRemoteFontFileStream</a>
  
 
  

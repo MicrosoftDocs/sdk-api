@@ -68,7 +68,7 @@ Application-defined drawing effects that apply to the range. This data object wi
 
 ### -param textRange
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 The text range to which this change applies.
 
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>, such as a color or gradient brush, can be set as a drawing effect if you are using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout">ID2D1RenderTarget::DrawTextLayout</a> to draw text and that brush will be used to draw the specified range of text.
+An <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>, such as a color or gradient brush, can be set as a drawing effect if you are using the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout">ID2D1RenderTarget::DrawTextLayout</a> to draw text and that brush will be used to draw the specified range of text.
 
  This drawing effect is associated with the specified range and will be passed back
      to the application by way of the callback when the range is drawn at drawing time.
@@ -101,7 +101,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bru
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

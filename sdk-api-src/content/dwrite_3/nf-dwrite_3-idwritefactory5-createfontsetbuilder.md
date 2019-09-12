@@ -62,7 +62,7 @@ Creates an empty font set builder to add font face references and create a custo
 
 ### -param fontSetBuilder [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1">IDWriteFontSetBuilder1</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1">IDWriteFontSetBuilder1</a>**</b>
 
 Holds the newly created font set builder object, or NULL in case of failure.
 
@@ -71,7 +71,7 @@ Holds the newly created font set builder object, or NULL in case of failure.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -83,11 +83,11 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/custom-font-sets-win10">Custom Font Sets</a>
+<a href="/windows/win32/DirectWrite/custom-font-sets-win10">Custom Font Sets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5">IDWriteFactory5</a>
  
 
  

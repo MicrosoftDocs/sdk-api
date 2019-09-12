@@ -68,7 +68,7 @@ The zero-based index of the font feature to retrieve.
 
 ### -param fontFeature [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_feature">DWRITE_FONT_FEATURE</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_feature">DWRITE_FONT_FEATURE</a>*</b>
 
 When this method returns, contains the font feature which is at the specified index.
 
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A single run of text can be associated with more than one typographic feature. The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a> object holds a list of these font features.
+A single run of text can be associated with more than one typographic feature. The <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a> object holds a list of these font features.
 
 
 
@@ -98,7 +98,7 @@ A single run of text can be associated with more than one typographic feature. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>
  
 
  

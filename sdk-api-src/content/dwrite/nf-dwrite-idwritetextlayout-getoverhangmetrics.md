@@ -62,7 +62,7 @@ Returns the overhangs (in DIPs) of the layout and all
 
 ### -param overhangs [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_overhang_metrics">DWRITE_OVERHANG_METRICS</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_overhang_metrics">DWRITE_OVERHANG_METRICS</a>*</b>
 
 Overshoots of visible extents (in DIPs) outside the layout.
 
@@ -92,7 +92,7 @@ Underlines and strikethroughs do not contribute to the black box determination, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

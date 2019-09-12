@@ -56,7 +56,7 @@ Allows you to create Unicode font fallback mappings and create a font fall back 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallbackBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallbackBuilder</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFontFallbackBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder-addmapping">AddMapping</a>
+<a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder-addmapping">AddMapping</a>
 </td>
 <td align="left" width="63%">
 Appends a single mapping to the list. Call this once for each additional mapping.
@@ -80,7 +80,7 @@ Appends a single mapping to the list. Call this once for each additional mapping
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-addmappings">AddMappings</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-addmappings">AddMappings</a>
 </td>
 <td align="left" width="63%">
 Add all the mappings from an existing font fallback object.
@@ -89,7 +89,7 @@ Add all the mappings from an existing font fallback object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">CreateFontFallback</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">CreateFontFallback</a>
 </td>
 <td align="left" width="63%">
 Creates the finalized fallback object from the mappings added.

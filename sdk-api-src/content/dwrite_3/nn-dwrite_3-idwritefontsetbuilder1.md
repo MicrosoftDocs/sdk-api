@@ -57,7 +57,7 @@ Contains methods for building a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder">IDWriteFontSetBuilder</a>. <b>IDWriteFontSetBuilder1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder1</b> interface inherits from <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder">IDWriteFontSetBuilder</a>. <b>IDWriteFontSetBuilder1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteFontSetBuilder1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile">AddFontFile</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile">AddFontFile</a>
 </td>
 <td align="left" width="63%">
 Adds references to all the fonts in the specified font file. 

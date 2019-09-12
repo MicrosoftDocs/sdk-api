@@ -61,7 +61,7 @@ Gets a font collection representing the set of EUDC (end-user defined characters
 
 ### -param fontCollection [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>**</b>
 
 The font collection to fill.
 
@@ -100,7 +100,7 @@ Note that if no EUDC is set on the system,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>
  
 
  

@@ -65,7 +65,7 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
 
 A value which indicates the type of font style (such as  slope or incline).
 
@@ -77,7 +77,7 @@ A value which indicates the type of font style (such as  slope or incline).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

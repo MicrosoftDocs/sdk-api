@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -param typography [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>**</b>
 
 When this method returns, contains the address of  a pointer to a newly created typography object, or <b>NULL</b> in case of failure.
 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

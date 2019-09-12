@@ -76,7 +76,7 @@ The number of font features for the current text format.
 
 
 
-A single run of text can be associated with more than one typographic feature. The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a> object holds a list of these font features.
+A single run of text can be associated with more than one typographic feature. The <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a> object holds a list of these font features.
 
 
 
@@ -86,7 +86,7 @@ A single run of text can be associated with more than one typographic feature. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetypography">IDWriteTypography</a>
  
 
  

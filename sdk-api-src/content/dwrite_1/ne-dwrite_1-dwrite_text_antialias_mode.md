@@ -68,7 +68,7 @@ ClearType antialiasing computes coverage independently for the red, green, and b
 
 Grayscale antialiasing computes one coverage value for each pixel. Because the alpha value of each pixel is well-defined, text can be rendered onto a transparent bitmap, which can then be composited with other content.
 
-<div class="alert"><b>Note</b>  Grayscale rendering with <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1">IDWriteBitmapRenderTarget1</a> uses premultiplied alpha.</div>
+<div class="alert"><b>Note</b>  Grayscale rendering with <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1">IDWriteBitmapRenderTarget1</a> uses premultiplied alpha.</div>
 <div> </div>
 
 ## -see-also
@@ -76,11 +76,11 @@ Grayscale antialiasing computes one coverage value for each pixel. Because the a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-gettextantialiasmode">IDWriteBitmapRenderTarget1::GetTextAntialiasMode</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-gettextantialiasmode">IDWriteBitmapRenderTarget1::GetTextAntialiasMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-settextantialiasmode">IDWriteBitmapRenderTarget1::SetTextAntialiasMode</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-settextantialiasmode">IDWriteBitmapRenderTarget1::SetTextAntialiasMode</a>
  
 
  

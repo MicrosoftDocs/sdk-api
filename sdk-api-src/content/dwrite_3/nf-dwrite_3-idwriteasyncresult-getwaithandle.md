@@ -78,7 +78,7 @@ Returns a handle that can be used to wait for the asynchronous operation to comp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteasyncresult">IDWriteAsyncResult</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult">IDWriteAsyncResult</a>
  
 
  

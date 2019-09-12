@@ -61,9 +61,9 @@ Sets the paragraph reading direction.
 
 ### -param readingDirection
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION</a></b>
 
-The text reading direction (for example, <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION_RIGHT_TO_LEFT</a> for languages, such as 
+The text reading direction (for example, <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_reading_direction">DWRITE_READING_DIRECTION_RIGHT_TO_LEFT</a> for languages, such as 
             Arabic, that read from right to left) for a paragraph.
           
 
@@ -96,7 +96,7 @@ The reading direction and flow direction must always be set 90 degrees orthogona
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

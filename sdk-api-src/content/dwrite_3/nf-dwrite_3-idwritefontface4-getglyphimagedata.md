@@ -76,14 +76,14 @@ Requested pixels per em.
 
 ### -param glyphImageFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
 Specifies which formats are supported in the font.
 
 
 ### -param glyphData [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_glyph_image_data">DWRITE_GLYPH_IMAGE_DATA</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_glyph_image_data">DWRITE_GLYPH_IMAGE_DATA</a>*</b>
 
 On return contains data for a glyph.
 
@@ -97,7 +97,7 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
@@ -108,14 +108,14 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 
-The glyphDataContext must be released via <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontface4-releaseglyphimagedata">ReleaseGlyphImageData</a> when done if the data is not empty,
-     similar to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment">IDWriteFontFileStream::ReadFileFragment</a> 
-       and <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment">IDWriteFontFileStream::ReleaseFileFragment</a>.
-     The data pointer is valid so long as the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a> exists and <b>ReleaseGlyphImageData</b> has not
+The glyphDataContext must be released via <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-releaseglyphimagedata">ReleaseGlyphImageData</a> when done if the data is not empty,
+     similar to <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment">IDWriteFontFileStream::ReadFileFragment</a> 
+       and <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment">IDWriteFontFileStream::ReleaseFileFragment</a>.
+     The data pointer is valid so long as the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a> exists and <b>ReleaseGlyphImageData</b> has not
      been called.
      
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_glyph_image_data">DWRITE_GLYPH_IMAGE_DATA::uniqueDataId</a> is valuable for caching purposes so that if the same
+The <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_glyph_image_data">DWRITE_GLYPH_IMAGE_DATA::uniqueDataId</a> is valuable for caching purposes so that if the same
      resource is returned more than once, an existing resource can be quickly retrieved rather than
      needing to reparse or decompress the data.
      
@@ -134,7 +134,7 @@ The function only returns SVG or raster data - requesting TrueType/CFF/COLR data
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
  
 
  

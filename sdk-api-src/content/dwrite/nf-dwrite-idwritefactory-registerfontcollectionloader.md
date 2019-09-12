@@ -61,9 +61,9 @@ Registers a custom font collection loader with the factory object.
 
 ### -param fontCollectionLoader
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a> object to be registered.
+Pointer to a <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a> object to be registered.
 
 
 ## -returns

@@ -77,7 +77,7 @@ The number of fonts in the font list.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
  
 
  

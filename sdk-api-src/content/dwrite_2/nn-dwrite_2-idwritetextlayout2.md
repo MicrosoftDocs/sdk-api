@@ -56,7 +56,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>. <b>IDWriteTextLayout2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>. <b>IDWriteTextLayout2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteTextLayout2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getfontfallback">GetFontFallback</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getfontfallback">GetFontFallback</a>
 </td>
 <td align="left" width="63%">
 Get the current font fallback object.  
@@ -80,7 +80,7 @@ Get the current font fallback object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getlastlinewrapping">GetLastLineWrapping</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getlastlinewrapping">GetLastLineWrapping</a>
 </td>
 <td align="left" width="63%">
 Get whether or not the last word on the last line is wrapped.
@@ -89,7 +89,7 @@ Get whether or not the last word on the last line is wrapped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2-getmetrics">GetMetrics</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout2-getmetrics">GetMetrics</a>
 </td>
 <td align="left" width="63%">
  Retrieves overall metrics for the formatted string.
@@ -98,7 +98,7 @@ Get whether or not the last word on the last line is wrapped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getopticalalignment">GetOpticalAlignment</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getopticalalignment">GetOpticalAlignment</a>
 </td>
 <td align="left" width="63%">
 Get how the glyphs align to the edges the margin.  
@@ -107,7 +107,7 @@ Get how the glyphs align to the edges the margin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getverticalglyphorientation">GetVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getverticalglyphorientation">GetVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Get the preferred orientation of glyphs when using a vertical reading direction.
@@ -116,7 +116,7 @@ Get the preferred orientation of glyphs when using a vertical reading direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setfontfallback">SetFontFallback</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setfontfallback">SetFontFallback</a>
 </td>
 <td align="left" width="63%">
 Apply a custom font fallback onto layout.
@@ -125,7 +125,7 @@ Apply a custom font fallback onto layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setlastlinewrapping">SetLastLineWrapping</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setlastlinewrapping">SetLastLineWrapping</a>
 </td>
 <td align="left" width="63%">
 Set whether or not the last word on the last line is wrapped. 
@@ -134,7 +134,7 @@ Set whether or not the last word on the last line is wrapped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setopticalalignment">SetOpticalAlignment</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setopticalalignment">SetOpticalAlignment</a>
 </td>
 <td align="left" width="63%">
 Set how the glyphs align to the edges the margin.
@@ -143,7 +143,7 @@ Set how the glyphs align to the edges the margin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setverticalglyphorientation">SetVerticalGlyphOrientation</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setverticalglyphorientation">SetVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Set the preferred orientation of glyphs when using a vertical reading direction.
@@ -158,7 +158,7 @@ Set the preferred orientation of glyphs when using a vertical reading direction.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>
  
 
  

@@ -61,9 +61,9 @@ ms.custom: 19H1
 
 ### -param font
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a> object to be converted into a GDI-compatible <b>LOGFONT</b> structure.
+An <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a> object to be converted into a GDI-compatible <b>LOGFONT</b> structure.
 
 
 ### -param logFont [out]
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The conversion to a  <b>LOGFONT</b> by using <b>ConvertFontToLOGFONT</b> operates at the logical font level and does not guarantee that it will map to a specific physical font. It is not guaranteed that GDI will select the same physical font for displaying  text formatted by a <b>LOGFONT</b> as the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a> object that was converted.
+The conversion to a  <b>LOGFONT</b> by using <b>ConvertFontToLOGFONT</b> operates at the logical font level and does not guarantee that it will map to a specific physical font. It is not guaranteed that GDI will select the same physical font for displaying  text formatted by a <b>LOGFONT</b> as the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a> object that was converted.
 
 
 
@@ -105,7 +105,7 @@ The conversion to a  <b>LOGFONT</b> by using <b>ConvertFontToLOGFONT</b> operate
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop">IDWriteGdiInterop</a>
  
 
  

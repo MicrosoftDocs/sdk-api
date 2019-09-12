@@ -65,9 +65,9 @@ Gets the style (also known as slope) of this font.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a>-typed value that specifies the style of the font.
+Returns a <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a>-typed value that specifies the style of the font.
 
 
 
@@ -79,7 +79,7 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>
  
 
  

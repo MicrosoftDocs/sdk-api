@@ -62,9 +62,9 @@ ms.custom: 19H1
 
 ### -param factory
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a> object that was used to create the current font collection.
+Pointer to the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a> object that was used to create the current font collection.
 
 
 ### -param collectionKey [in]
@@ -84,7 +84,7 @@ The size of the font collection key, in bytes.
 
 ### -param fontFileEnumerator [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileenumerator">IDWriteFontFileEnumerator</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator">IDWriteFontFileEnumerator</a>**</b>
 
 When this method returns, contains the address of  a pointer to the newly created font file enumerator.
 
@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>
  
 
  

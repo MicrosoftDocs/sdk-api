@@ -61,7 +61,7 @@ Specifies the trimming option for text overflowing the layout box.
 
 ### -field granularity
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_trimming_granularity">DWRITE_TRIMMING_GRANULARITY</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_trimming_granularity">DWRITE_TRIMMING_GRANULARITY</a></b>
 
 A value that specifies  the text granularity used to trim text overflowing the layout box.
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters a notification handler that was previously registered using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>.
+Unregisters a notification handler that was previously registered using <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Unregisters a notification handler that was previously registered using <a href=
 
 Type: <b>UINT32</b>
 
-Token value previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>.
+Token value previously returned by <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-addlistener">AddListener</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
  
 
  

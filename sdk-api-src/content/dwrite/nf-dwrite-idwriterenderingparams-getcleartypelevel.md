@@ -86,7 +86,7 @@ The ClearType level represents the amount of ClearType – that is, the degree t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>
  
 
  

@@ -68,7 +68,7 @@ The zero-based index representation of writing system script.
 
 ### -field shapes
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_script_shapes">DWRITE_SCRIPT_SHAPES</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_script_shapes">DWRITE_SCRIPT_SHAPES</a></b>
 
 A value that indicates additional shaping requirement of text.
 
@@ -78,7 +78,7 @@ A value that indicates additional shaping requirement of text.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">IDWriteTextAnalyzer::AnalyzeScript</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">IDWriteTextAnalyzer::AnalyzeScript</a>
  
 
  

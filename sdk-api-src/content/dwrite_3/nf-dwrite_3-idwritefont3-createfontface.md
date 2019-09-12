@@ -61,9 +61,9 @@ Creates a font face object for the font.
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a> interface for the newly created font face object.
+A pointer to a memory block that receives a pointer to a <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3">IDWriteFontFace3</a> interface for the newly created font face object.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method returns <b>DWRITE_E_REMOTEFONT</b> if it could not construct a remot
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefont3">IDWriteFont3</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefont3">IDWriteFont3</a>
  
 
  

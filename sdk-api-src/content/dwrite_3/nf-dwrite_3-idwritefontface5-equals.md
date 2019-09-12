@@ -52,7 +52,7 @@ Performs an equality comparison between the font face object on which **Equals**
 
 ### -param fontFace
 
-Type: **[IDWriteFontFace](/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)\***
+Type: **[IDWriteFontFace](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)\***
 
 A pointer to a font face object to compare with the font face object on which **Equals** is being called.
 
@@ -66,4 +66,4 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 ## -see-also
 
-[IDWriteFontFace](/windows/desktop/api/dwrite/nn-dwrite-idwritefontface)
+[IDWriteFontFace](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)

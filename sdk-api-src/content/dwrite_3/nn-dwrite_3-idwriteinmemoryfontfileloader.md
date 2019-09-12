@@ -51,17 +51,17 @@ ms.custom: 19H1
 ## -description
 
 Represents a font file loader that can access in-memory fonts. 
-        The <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader">IDWriteFactory5::CreateInMemoryFontFileLoader</a> method returns an instance of this interface,
+        The <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-createinmemoryfontfileloader">IDWriteFactory5::CreateInMemoryFontFileLoader</a> method returns an instance of this interface,
         which the client can use to load in-memory fonts without having to implement a custom loader. 
         A client can also create its own custom implementation, however. In either case, the client is responsible for registering and unregistering the loader 
-        using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">IDWriteFactory::RegisterFontFileLoader</a> 
-        and <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">IDWriteFactory::UnregisterFontFileLoader</a>.
+        using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">IDWriteFactory::RegisterFontFileLoader</a> 
+        and <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">IDWriteFactory::UnregisterFontFileLoader</a>.
       
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInMemoryFontFileLoader</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteInMemoryFontFileLoader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInMemoryFontFileLoader</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>. <b>IDWriteInMemoryFontFileLoader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,16 +76,16 @@ The <b>IDWriteInMemoryFontFileLoader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-createinmemoryfontfilereference">CreateInMemoryFontFileReference</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-createinmemoryfontfilereference">CreateInMemoryFontFileReference</a>
 </td>
 <td align="left" width="63%">
-Creates a font file reference (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> object) from an array of bytes. 
+Creates a font file reference (<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> object) from an array of bytes. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-getfilecount">GetFileCount</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-getfilecount">GetFileCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of font file references that have been created using this loader instance.
@@ -98,4 +98,4 @@ Returns the number of font file references that have been created using this loa
 
 [Creating a custom font set using font data loaded into memory](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-font-data-loaded-into-memory)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>

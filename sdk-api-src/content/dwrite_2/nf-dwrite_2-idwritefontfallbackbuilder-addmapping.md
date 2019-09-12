@@ -61,7 +61,7 @@ Appends a single mapping to the list. Call this once for each additional mapping
 
 ### -param ranges
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
 
 Unicode ranges that apply to this mapping.
 
@@ -89,7 +89,7 @@ Number of target family names.
 
 ### -param fontCollection [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a></b>
 
 Optional explicit font collection for this mapping.
 
@@ -131,7 +131,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>
+<a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>
  
 
  

@@ -46,7 +46,7 @@ req.redist:
 
 ## -description
 
-Retrieves the number of axes defined by the font face. This includes both static and variable axes (see [DWRITE_FONT_AXIS_RANGE](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)).
+Retrieves the number of axes defined by the font face. This includes both static and variable axes (see [DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)).
 
 ## -returns
 
@@ -58,4 +58,4 @@ The number of axes defined by the font face.
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_RANGE](/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
+[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)

@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 ### -param glyphRun [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
 
 A structure that contains the properties of the glyph run (font face, advances, and so on).
 
@@ -76,14 +76,14 @@ Number of physical pixels per DIP (device independent pixel). For example, if re
 
 ### -param transform [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a>*</b>
 
 Optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified the <i>emSize</i> and <i>pixelsPerDip</i>.
 
 
 ### -param renderingMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode">DWRITE_RENDERING_MODE</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode">DWRITE_RENDERING_MODE</a></b>
 
 A value that specifies the rendering mode, which must be one of the raster rendering modes (that is, not default
      and not outline).
@@ -91,7 +91,7 @@ A value that specifies the rendering mode, which must be one of the raster rende
 
 ### -param measuringMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Specifies the measuring mode to use with glyphs.
 
@@ -112,7 +112,7 @@ Vertical position (Y-coordinate) of the baseline origin, in DIPs.
 
 ### -param glyphRunAnalysis [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteglyphrunanalysis">IDWriteGlyphRunAnalysis</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis">IDWriteGlyphRunAnalysis</a>**</b>
 
 When this method returns, contains an address of a pointer to the newly created glyph run analysis object.
 
@@ -195,7 +195,7 @@ HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalys
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

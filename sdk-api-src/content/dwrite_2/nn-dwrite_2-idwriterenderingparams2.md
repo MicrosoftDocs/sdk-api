@@ -56,7 +56,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>. <b>IDWriteRenderingParams2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>. <b>IDWriteRenderingParams2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteRenderingParams2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwriterenderingparams2-getgridfitmode">GetGridFitMode</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwriterenderingparams2-getgridfitmode">GetGridFitMode</a>
 </td>
 <td align="left" width="63%">
 Gets the grid fitting mode.
@@ -86,7 +86,7 @@ Gets the grid fitting mode.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>
  
 
  

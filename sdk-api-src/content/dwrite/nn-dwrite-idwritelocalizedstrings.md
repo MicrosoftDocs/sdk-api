@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteLocalizedStrings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalizedStrings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteLocalizedStrings</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalizedStrings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename">FindLocaleName</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename">FindLocaleName</a>
 </td>
 <td align="left" width="63%">
  Gets the zero-based index of the locale name/string pair with the specified locale name.
@@ -80,7 +80,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getcount">GetCount</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
  Gets the number of language/string pairs.
@@ -89,7 +89,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalename">GetLocaleName</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalename">GetLocaleName</a>
 </td>
 <td align="left" width="63%">
  Copies the locale name with the specified index to the specified array.
@@ -98,7 +98,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalenamelength">GetLocaleNameLength</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getlocalenamelength">GetLocaleNameLength</a>
 </td>
 <td align="left" width="63%">
  Gets the length in characters (not including the null terminator) of the locale name with the specified index.
@@ -107,7 +107,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstring">GetString</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
  Copies the string with the specified index to the specified array.
@@ -116,7 +116,7 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength">GetStringLength</a>
 </td>
 <td align="left" width="63%">
  Gets the length in characters (not including the null terminator) of the string with the specified index.
@@ -130,9 +130,9 @@ The <b>IDWriteLocalizedStrings</b> interface has these methods.
 
 
 
-The set of strings represented by an <b>IDWriteLocalizedStrings</b> are indexed by a zero based <i>UINT32</i> number that maps to a locale.  The numeric index for a specific locale is retreived by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename">FindLocaleName</a> method.
+The set of strings represented by an <b>IDWriteLocalizedStrings</b> are indexed by a zero based <i>UINT32</i> number that maps to a locale.  The numeric index for a specific locale is retreived by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename">FindLocaleName</a> method.
 
-A common use for the <b>IDWriteLocalizedStrings</b> interface is to hold a list of localized font family names created by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">IDWriteFontFamily::GetFamilyNames</a> method.  The following example shows how to get the family name for the "en-us" locale.
+A common use for the <b>IDWriteLocalizedStrings</b> interface is to hold a list of localized font family names created by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">IDWriteFontFamily::GetFamilyNames</a> method.  The following example shows how to get the family name for the "en-us" locale.
 
 
 ```cpp

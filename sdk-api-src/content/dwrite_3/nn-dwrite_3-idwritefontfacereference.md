@@ -61,7 +61,7 @@ Represents a reference to a font face.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFaceReference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFaceReference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFaceReference</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFaceReference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IDWriteFontFaceReference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontface">CreateFontFace</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontface">CreateFontFace</a>
 </td>
 <td align="left" width="63%">
 Creates a font face from the reference for use with layout, shaping, or rendering.
@@ -85,7 +85,7 @@ Creates a font face from the reference for use with layout, shaping, or renderin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontfacewithsimulations">CreateFontFaceWithSimulations</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontfacewithsimulations">CreateFontFaceWithSimulations</a>
 </td>
 <td align="left" width="63%">
 Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
@@ -94,43 +94,43 @@ Creates a font face with alternate font simulations, for example, to explicitly 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest">EnqueueCharacterDownloadRequest</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest">EnqueueCharacterDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefilefragmentdownloadrequest">EnqueueFileFragmentDownloadRequest</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefilefragmentdownloadrequest">EnqueueFileFragmentDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest">EnqueueFontDownloadRequest</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest">EnqueueFontDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest">EnqueueGlyphDownloadRequest</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest">EnqueueGlyphDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize">GetFileSize</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Get the total size of the font face in bytes.  
@@ -139,7 +139,7 @@ Get the total size of the font face in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfiletime">GetFileTime</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfiletime">GetFileTime</a>
 </td>
 <td align="left" width="63%">
 Get the last modified date.
@@ -148,7 +148,7 @@ Get the last modified date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfaceindex">GetFontFaceIndex</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfaceindex">GetFontFaceIndex</a>
 </td>
 <td align="left" width="63%">
 Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face,  
@@ -158,7 +158,7 @@ Obtains the zero-based index of the font face in its font file or files. If the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfile">GetFontFile</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfile">GetFontFile</a>
 </td>
 <td align="left" width="63%">
 Obtains the font file representing a font face.
@@ -167,7 +167,7 @@ Obtains the font file representing a font face.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocalfilesize">GetLocalFileSize</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocalfilesize">GetLocalFileSize</a>
 </td>
 <td align="left" width="63%">
 Get the local size of the font face in bytes, which will always be   
@@ -178,7 +178,7 @@ Get the local size of the font face in bytes, which will always be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocality">GetLocality</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocality">GetLocality</a>
 </td>
 <td align="left" width="63%">
 Get the locality of this font face reference.
@@ -187,7 +187,7 @@ Get the locality of this font face reference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getsimulations">GetSimulations</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getsimulations">GetSimulations</a>
 </td>
 <td align="left" width="63%">
 Obtains the algorithmic style simulation flags of a font face.

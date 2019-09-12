@@ -79,7 +79,7 @@ Horizontal offset of the caret, in font design units, along the baseline for goo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getcaretmetrics">IDWriteFontFace1::GetCaretMetrics</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getcaretmetrics">IDWriteFontFace1::GetCaretMetrics</a>
  
 
  

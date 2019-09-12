@@ -99,9 +99,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The retrieval uses the font's 'vert' table. This is used in
     CJK vertical layout so the correct characters are shown.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">GetGlyphIndices</a> to get the nominal glyph indices, followed by
+Call <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">GetGlyphIndices</a> to get the nominal glyph indices, followed by
     calling this to remap the to the substituted forms, when the run
-    is sideways, and the font has vertical glyph variants. See <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-hasverticalglyphvariants">HasVerticalGlyphVariants</a> for more info.
+    is sideways, and the font has vertical glyph variants. See <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-hasverticalglyphvariants">HasVerticalGlyphVariants</a> for more info.
 
 
 
@@ -112,7 +112,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-id
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInlineObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteInlineObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInlineObject</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteInlineObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IDWriteInlineObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a>
 </td>
 <td align="left" width="63%">
- The application implemented rendering callback (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject">IDWriteTextRenderer::DrawInlineObject</a>)
+ The application implemented rendering callback (<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject">IDWriteTextRenderer::DrawInlineObject</a>)
      can use this to draw the inline object without needing to cast or query the object
      type. The text layout does not call this method directly.
 
@@ -82,7 +82,7 @@ The <b>IDWriteInlineObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-getbreakconditions">GetBreakConditions</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getbreakconditions">GetBreakConditions</a>
 </td>
 <td align="left" width="63%">
  Layout uses this to determine the line-breaking behavior of the inline object
@@ -92,21 +92,21 @@ The <b>IDWriteInlineObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics">GetMetrics</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics">GetMetrics</a>
 </td>
 <td align="left" width="63%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the measurement of the inline object.
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the measurement of the inline object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwriteinlineobject-getoverhangmetrics">GetOverhangMetrics</a>
+<a href="/windows/win32/DirectWrite/idwriteinlineobject-getoverhangmetrics">GetOverhangMetrics</a>
 </td>
 <td align="left" width="63%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the visible extents (in DIPs) of the inline object. In the case of a simple bitmap, with no padding and no overhang, all the overhangs will
     simply be zeroes.
 
 </td>

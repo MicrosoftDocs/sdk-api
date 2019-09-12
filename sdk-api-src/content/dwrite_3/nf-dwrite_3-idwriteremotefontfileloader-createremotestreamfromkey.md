@@ -76,7 +76,7 @@ Size of font file reference key in bytes.
 
 ### -param fontFileStream [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream">IDWriteRemoteFontFileStream</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream">IDWriteRemoteFontFileStream</a>**</b>
 
 Pointer to the newly created font file stream.
 
@@ -85,7 +85,7 @@ Pointer to the newly created font file stream.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -96,8 +96,8 @@ This method returns an HRESULT success or error code.
 
 
 
-Unlike <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfileloader-createstreamfromkey">CreateStreamFromKey</a>, this method can be used to create a stream for a remote file. 
-        If the file is remote, the client must call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload">IDWriteRemoteFontFileStream::BeginDownload</a> with an empty array 
+Unlike <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfileloader-createstreamfromkey">CreateStreamFromKey</a>, this method can be used to create a stream for a remote file. 
+        If the file is remote, the client must call <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload">IDWriteRemoteFontFileStream::BeginDownload</a> with an empty array 
         of file fragments before the stream can be used to get the file size or access data.
 
 
@@ -108,7 +108,7 @@ Unlike <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader">IDWriteRemoteFontFileLoader</a>
  
 
  

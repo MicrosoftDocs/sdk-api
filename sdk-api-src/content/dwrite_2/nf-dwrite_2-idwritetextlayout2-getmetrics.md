@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -param textMetrics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1">DWRITE_TEXT_METRICS1</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1">DWRITE_TEXT_METRICS1</a>*</b>
 
 When this method returns, contains the measured distances of text and associated content after being formatted.
 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
  
 
  

@@ -66,7 +66,7 @@ Get the preferred orientation of glyphs when using a vertical reading direction.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
+<a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
  
 
  

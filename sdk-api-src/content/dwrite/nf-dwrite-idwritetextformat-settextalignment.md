@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> interface.
+Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the alignment of text in a paragraph, relative to the leading and trailing 
 
 ### -param textAlignment
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT</a></b>
 
 The text alignment option being set for the paragraph of type DWRITE_TEXT_ALIGNMENT.  For more information, see Remarks.
 				  
@@ -112,13 +112,13 @@ The textAlignment argument is invalid.
 
 
 
-The text can be aligned to the leading or trailing edge of the layout box, or it can be centered.  The following illustration shows text with the alignment set to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT_LEADING</a>, <b>DWRITE_TEXT_ALIGNMENT_CENTER</b>, and <b>DWRITE_TEXT_ALIGNMENT_TRAILING</b>, respectively.  
+The text can be aligned to the leading or trailing edge of the layout box, or it can be centered.  The following illustration shows text with the alignment set to <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT_LEADING</a>, <b>DWRITE_TEXT_ALIGNMENT_CENTER</b>, and <b>DWRITE_TEXT_ALIGNMENT_TRAILING</b>, respectively.  
 
 <img alt="Illustration of text paragraphs with leading, centered, and trailing alignment" src="./images/TextAlignment.png"/>
 
 <div class="alert"><b>Note</b>  The alignment is dependent on reading direction, the above is for left-to-right reading direction.  For right-to-left reading direction it would be the opposite.</div>
 <div> </div>
-See <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT</a> for more information.
+See <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT</a> for more information.
 			
 
 
@@ -142,7 +142,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>GetKerningPairAdjustments</b> isn't a direct replacement for GDI's character based
-    <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getkerningpairsa">GetKerningPairs</a>, but it serves the same role, without the client
+    <a href="/windows/win32/api/wingdi/nf-wingdi-getkerningpairsa">GetKerningPairs</a>, but it serves the same role, without the client
     needing to cache them locally. <b>GetKerningPairAdjustments</b> also uses glyph id's directly
     rather than UCS-2 characters (how the kern table actually stores
     them), which avoids glyph collapse and ambiguity, such as the dash
@@ -108,7 +108,7 @@ Newer fonts may have only GPOS kerning instead of the legacy pair-table kerning.
     adjustments. <b>GetKerningPairAdjustments</b> doesn't virtualize and flatten these
     GPOS entries into kerning pairs.
 
-You can realize a performance benefit by calling <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs">IDWriteFontFace1::HasKerningPairs</a> to determine whether you need to call  <b>GetKerningPairAdjustments</b>. If you previously called <b>IDWriteFontFace1::HasKerningPairs</b> and it returned FALSE, you can avoid calling <b>GetKerningPairAdjustments</b> because the font has no kerning pair-table entries. That is, in this situation, a call to <b>GetKerningPairAdjustments</b> would be a no-op.
+You can realize a performance benefit by calling <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs">IDWriteFontFace1::HasKerningPairs</a> to determine whether you need to call  <b>GetKerningPairAdjustments</b>. If you previously called <b>IDWriteFontFace1::HasKerningPairs</b> and it returned FALSE, you can avoid calling <b>GetKerningPairAdjustments</b> because the font has no kerning pair-table entries. That is, in this situation, a call to <b>GetKerningPairAdjustments</b> would be a no-op.
 
 
 
@@ -118,11 +118,11 @@ You can realize a performance benefit by calling <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs">IDWriteFontFace1::HasKerningPairs</a>
+<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs">IDWriteFontFace1::HasKerningPairs</a>
  
 
  

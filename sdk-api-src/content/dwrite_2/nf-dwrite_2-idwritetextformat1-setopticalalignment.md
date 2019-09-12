@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
+<a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
  
 
  

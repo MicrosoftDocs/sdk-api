@@ -59,7 +59,7 @@ Represents a collection of strings indexed by number.An IDWriteStringList is ide
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteStringList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteStringList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteStringList</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteStringList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDWriteStringList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritestringlist-getcount">GetCount</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of strings in the string list.
@@ -83,7 +83,7 @@ Gets the number of strings in the string list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalename">GetLocaleName</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalename">GetLocaleName</a>
 </td>
 <td align="left" width="63%">
 Copies the locale name with the specified index to the specified array.
@@ -92,7 +92,7 @@ Copies the locale name with the specified index to the specified array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalenamelength">GetLocaleNameLength</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getlocalenamelength">GetLocaleNameLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length in characters (not including the null terminator) of the locale name with the specified index.
@@ -101,7 +101,7 @@ Gets the length in characters (not including the null terminator) of the locale 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstring">GetString</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Copies the string with the specified index to the specified array.
@@ -110,7 +110,7 @@ Copies the string with the specified index to the specified array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstringlength">GetStringLength</a>
+<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritestringlist-getstringlength">GetStringLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length in characters (not including the null terminator) of the string with the specified index.
@@ -125,7 +125,7 @@ Gets the length in characters (not including the null terminator) of the string 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

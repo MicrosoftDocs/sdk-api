@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Determines whether the download queue is empty. Note that the queue does not    
-    include requests that are already being downloaded. Calling <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
+    include requests that are already being downloaded. Calling <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>clears the queue.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Determines whether the download queue is empty. Note that the queue does not
 
 Type: <b>BOOL</b>
 
-TRUE if the queue is empty, FALSE if there are requests pending for <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>.
+TRUE if the queue is empty, FALSE if there are requests pending for <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>.
 
 
 
@@ -78,7 +78,7 @@ TRUE if the queue is empty, FALSE if there are requests pending for <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>
  
 
  

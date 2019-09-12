@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFileStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFileStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFileStream</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFileStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize">GetFileSize</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
  Obtains the total size of a file.
@@ -80,7 +80,7 @@ The <b>IDWriteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-getlastwritetime">GetLastWriteTime</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-getlastwritetime">GetLastWriteTime</a>
 </td>
 <td align="left" width="63%">
  Obtains the last modified time of the file. 
@@ -89,7 +89,7 @@ The <b>IDWriteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment">ReadFileFragment</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment">ReadFileFragment</a>
 </td>
 <td align="left" width="63%">
  Reads a fragment from a font file.
@@ -98,7 +98,7 @@ The <b>IDWriteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment">ReleaseFileFragment</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-releasefilefragment">ReleaseFileFragment</a>
 </td>
 <td align="left" width="63%">
  Releases a fragment from a file.

@@ -56,7 +56,7 @@ Used to create all subsequent DirectWrite objects. This interface is the root fa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection">CreateCustomFontCollection</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection">CreateCustomFontCollection</a>
 </td>
 <td align="left" width="63%">
  Creates a font collection using a custom font collection loader.
@@ -80,7 +80,7 @@ The <b>IDWriteFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createcustomfontfilereference">CreateCustomFontFileReference</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontfilereference">CreateCustomFontFileReference</a>
 </td>
 <td align="left" width="63%">
  Creates a reference to an application-specific font file resource.
@@ -90,7 +90,7 @@ The <b>IDWriteFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createcustomrenderingparams">CreateCustomRenderingParams</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomrenderingparams">CreateCustomRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Creates a rendering parameters object with the specified properties.
@@ -99,7 +99,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createellipsistrimmingsign">CreateEllipsisTrimmingSign</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createellipsistrimmingsign">CreateEllipsisTrimmingSign</a>
 </td>
 <td align="left" width="63%">
  Creates an inline object for trimming, using an ellipsis as the omission sign.
@@ -109,7 +109,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createfontface">CreateFontFace</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontface">CreateFontFace</a>
 </td>
 <td align="left" width="63%">
  Creates an object that represents a font face.
@@ -118,7 +118,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference">CreateFontFileReference</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference">CreateFontFileReference</a>
 </td>
 <td align="left" width="63%">
  Creates a font file reference object from a local font file.
@@ -127,7 +127,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-creategdicompatibletextlayout">CreateGdiCompatibleTextLayout</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-creategdicompatibletextlayout">CreateGdiCompatibleTextLayout</a>
 </td>
 <td align="left" width="63%">
  Takes a string, format, and associated constraints,
@@ -138,7 +138,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
 </td>
 <td align="left" width="63%">
  Creates a glyph run analysis object, which encapsulates information
@@ -148,7 +148,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">CreateMonitorRenderingParams</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">CreateMonitorRenderingParams</a>
 </td>
 <td align="left" width="63%">
  Creates a rendering parameters object with default settings for the specified monitor.
@@ -158,7 +158,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution">CreateNumberSubstitution</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution">CreateNumberSubstitution</a>
 </td>
 <td align="left" width="63%">
  Creates a number substitution object using a locale name,
@@ -169,17 +169,17 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createrenderingparams">CreateRenderingParams</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createrenderingparams">CreateRenderingParams</a>
 </td>
 <td align="left" width="63%">
  Creates a rendering parameters object with default settings for the primary monitor.
-    Different monitors may have different rendering parameters, for more information see the <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/how-to-add-support-for-multiple-monitors">How to Add Support for Multiple Monitors</a> topic.
+    Different monitors may have different rendering parameters, for more information see the <a href="/windows/win32/DirectWrite/how-to-add-support-for-multiple-monitors">How to Add Support for Multiple Monitors</a> topic.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextanalyzer">CreateTextAnalyzer</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextanalyzer">CreateTextAnalyzer</a>
 </td>
 <td align="left" width="63%">
  Returns an interface for performing text analysis.
@@ -188,7 +188,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextformat">CreateTextFormat</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextformat">CreateTextFormat</a>
 </td>
 <td align="left" width="63%">
  Creates a text format object used for text layout.
@@ -197,7 +197,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>
 </td>
 <td align="left" width="63%">
  Takes a string, text format, and associated constraints,
@@ -208,7 +208,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtypography">CreateTypography</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtypography">CreateTypography</a>
 </td>
 <td align="left" width="63%">
  Creates a typography object for use in a text layout.
@@ -217,7 +217,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop">GetGdiInterop</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop">GetGdiInterop</a>
 </td>
 <td align="left" width="63%">
  Creates an object that is used for interoperability with GDI.
@@ -226,7 +226,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection">GetSystemFontCollection</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection">GetSystemFontCollection</a>
 </td>
 <td align="left" width="63%">
  Gets an object which represents the set of installed fonts.
@@ -235,7 +235,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>
 </td>
 <td align="left" width="63%">
 Registers a custom font collection loader with the factory object.
@@ -244,7 +244,7 @@ Registers a custom font collection loader with the factory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>
 </td>
 <td align="left" width="63%">
  Registers a font file loader with DirectWrite.
@@ -253,19 +253,19 @@ Registers a custom font collection loader with the factory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader">UnregisterFontCollectionLoader</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader">UnregisterFontCollectionLoader</a>
 </td>
 <td align="left" width="63%">
- Unregisters a custom font collection loader that was previously registered using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>.
+ Unregisters a custom font collection loader that was previously registered using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">UnregisterFontFileLoader</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">UnregisterFontFileLoader</a>
 </td>
 <td align="left" width="63%">
- Unregisters a font file loader that was previously registered with the DirectWrite font system using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>.
+ Unregisters a font file loader that was previously registered with the DirectWrite font system using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">RegisterFontFileLoader</a>.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ Registers a custom font collection loader with the factory object.
 
 
 
-Create an <b>IDWriteFactory</b> object by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-dwritecreatefactory">DWriteCreateFactory</a> function.  
+Create an <b>IDWriteFactory</b> object by using the <a href="/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory">DWriteCreateFactory</a> function.  
 
 
 ```cpp

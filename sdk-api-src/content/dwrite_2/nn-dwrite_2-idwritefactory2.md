@@ -51,12 +51,12 @@ ms.custom: 19H1
 ## -description
 
 
-The root factory interface for all <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> objects.
+The root factory interface for all <a href="/windows/win32/DirectWrite/direct-write-portal">DirectWrite</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFactory1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2-createcustomrenderingparams">CreateCustomRenderingParams</a>
+<a href="/windows/win32/DirectWrite/idwritefactory2-createcustomrenderingparams">CreateCustomRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Creates a rendering parameters object with the specified properties.
@@ -80,7 +80,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefactory2-createfontfallbackbuilder">CreateFontFallbackBuilder</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-createfontfallbackbuilder">CreateFontFallbackBuilder</a>
 </td>
 <td align="left" width="63%">
 Creates a font fallback builder object.
@@ -89,7 +89,7 @@ Creates a font fallback builder object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
+<a href="/windows/win32/DirectWrite/idwritefactory2-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
 </td>
 <td align="left" width="63%">
 Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
@@ -98,7 +98,7 @@ Creates a glyph run analysis object, which encapsulates information used to rend
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2-getsystemfontfallback">GetSystemFontFallback</a>
+<a href="/windows/win32/DirectWrite/idwritefactory2-getsystemfontfallback">GetSystemFontFallback</a>
 </td>
 <td align="left" width="63%">
 Creates a font fallback object from the system font fallback list.
@@ -107,7 +107,7 @@ Creates a font fallback object from the system font fallback list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefactory2-translatecolorglyphrun">TranslateColorGlyphRun</a>
+<a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-translatecolorglyphrun">TranslateColorGlyphRun</a>
 </td>
 <td align="left" width="63%">
 This method is called on a glyph run to translate it in to multiple color glyph runs.
@@ -122,11 +122,11 @@ This method is called on a glyph run to translate it in to multiple color glyph 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>
  
 
  

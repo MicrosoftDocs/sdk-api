@@ -64,9 +64,9 @@ A good value to use as an initial value for maxHitTestMetricsCount may be calcul
 
 
 where lineCount is obtained from the value of the output argument
-     *actualLineCount (from the function <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>::GetLineLengths),
-     and the maxBidiReorderingDepth value from the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
-     <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>).
+     *actualLineCount (from the function <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>::GetLineLengths),
+     and the maxBidiReorderingDepth value from the <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
+     <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>::<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>).
 
 
 ## -parameters
@@ -104,7 +104,7 @@ The origin pixel location Y at the top of the layout box. This offset is added t
 
 ### -param hitTestMetrics [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_hit_test_metrics">DWRITE_HIT_TEST_METRICS</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_hit_test_metrics">DWRITE_HIT_TEST_METRICS</a>*</b>
 
 When this method returns, contains a pointer to a buffer of the output geometry fully enclosing the specified position range.  The buffer must be at least as large as <i>maxHitTestMetricsCount</i>.
 
@@ -139,7 +139,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

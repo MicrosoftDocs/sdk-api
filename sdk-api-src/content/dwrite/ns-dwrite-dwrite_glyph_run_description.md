@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains additional properties related to those in <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>.
+Contains additional properties related to those in <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>.
 
 
 ## -struct-fields
@@ -91,5 +91,5 @@ An array of indices to the glyph indices array, of the first glyphs of all the g
 
 Type: <b>UINT32 </b>
 
-Corresponding text position in the string this glyph run came from.  This is relative to the beginning of the string represented by the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object.
+Corresponding text position in the string this glyph run came from.  This is relative to the beginning of the string represented by the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object.
 

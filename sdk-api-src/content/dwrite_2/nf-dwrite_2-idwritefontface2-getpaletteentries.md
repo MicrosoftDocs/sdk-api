@@ -98,7 +98,7 @@ This method can return one of these values.
 </td>
 <td width="60%">
 The sum of <i>firstEntryIndex</i> and <i>entryCount</i> is greater
-    than the actual number of palette entries that's returned by the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentrycount">GetPaletteEntryCount</a> method.
+    than the actual number of palette entries that's returned by the <a href="/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefontface2-getpaletteentrycount">GetPaletteEntryCount</a> method.
 
 
 </td>
@@ -125,7 +125,7 @@ The font doesn't have a palette with the specified palette index.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontface2">IDWriteFontFace2</a>
+<a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2">IDWriteFontFace2</a>
  
 
  

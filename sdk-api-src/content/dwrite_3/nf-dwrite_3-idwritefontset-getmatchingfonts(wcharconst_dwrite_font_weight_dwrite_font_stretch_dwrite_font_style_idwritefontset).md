@@ -81,14 +81,14 @@ TBD
 
 ### -param filteredSet [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
 
 The subset of fonts that match the properties, or nullptr on failure.
 
 
 #### - properties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
+Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
 
 List of properties to filter using.
 
@@ -127,7 +127,7 @@ If no fonts matched the filter, the subset will be empty (GetFontCount returns 0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>
+<a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>
  
 
  

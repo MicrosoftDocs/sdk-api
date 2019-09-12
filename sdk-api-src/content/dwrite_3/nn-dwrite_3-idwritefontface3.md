@@ -49,8 +49,8 @@ ms.custom: 19H1
 
 Represents an absolute reference to a font face. This interface contains font face type, appropriate file references, and face identification data.
 
-This interface extends [IDWriteFontFace2](/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontface2). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
+This interface extends [IDWriteFontFace2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
 
 ## -see-also
 
-[IDWriteFontFace2](/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontface2)
+[IDWriteFontFace2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2)

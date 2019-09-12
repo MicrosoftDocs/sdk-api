@@ -77,7 +77,7 @@ Returns <b>TRUE</b> if the font is a symbol font, otherwise <b>FALSE</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
+<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

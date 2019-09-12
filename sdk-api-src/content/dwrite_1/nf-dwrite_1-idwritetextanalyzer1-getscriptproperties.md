@@ -61,17 +61,17 @@ Retrieves the properties for a given script.
 
 ### -param scriptAnalysis
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
 
 The script for a run of text returned
-    from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">IDWriteTextAnalyzer::AnalyzeScript</a>.
+    from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalyzer-analyzescript">IDWriteTextAnalyzer::AnalyzeScript</a>.
 
 
 ### -param scriptProperties [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_script_properties">DWRITE_SCRIPT_PROPERTIES</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_script_properties">DWRITE_SCRIPT_PROPERTIES</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_script_properties">DWRITE_SCRIPT_PROPERTIES</a> structure that describes info for the script.
+A pointer to a <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_script_properties">DWRITE_SCRIPT_PROPERTIES</a> structure that describes info for the script.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Returns properties for the given script. If the script is invalid,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
+<a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
  
 
  

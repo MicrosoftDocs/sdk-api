@@ -61,7 +61,7 @@ Contains a set of typographic features to be applied during text shaping.
 
 ### -field features
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_feature">DWRITE_FONT_FEATURE</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_font_feature">DWRITE_FONT_FEATURE</a>*</b>
 
 A pointer to a structure that specifies properties used to identify and execute typographic features in the font.
 

@@ -57,7 +57,7 @@ This interface is implemented by the text analyzer's client to receive the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalysisSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalysisSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDWriteTextAnalysisSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setbidilevel">SetBidiLevel</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setbidilevel">SetBidiLevel</a>
 </td>
 <td align="left" width="63%">
 Sets a bidirectional level on the range, which is  called once per  run change (either explicit or resolved implicit).
@@ -81,7 +81,7 @@ Sets a bidirectional level on the range, which is  called once per  run change (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints">SetLineBreakpoints</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints">SetLineBreakpoints</a>
 </td>
 <td align="left" width="63%">
 Sets line-break opportunities for each character, starting from the specified position.
@@ -90,7 +90,7 @@ Sets line-break opportunities for each character, starting from the specified po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution">SetNumberSubstitution</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution">SetNumberSubstitution</a>
 </td>
 <td align="left" width="63%">
 Sets the number substitution on the text range affected by the text analysis.
@@ -99,7 +99,7 @@ Sets the number substitution on the text range affected by the text analysis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setscriptanalysis">SetScriptAnalysis</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setscriptanalysis">SetScriptAnalysis</a>
 </td>
 <td align="left" width="63%">
 Reports script analysis for the specified text range.

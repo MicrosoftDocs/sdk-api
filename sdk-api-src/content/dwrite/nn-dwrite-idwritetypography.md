@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTypography</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTypography</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTypography</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTypography</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteTypography</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetypography-addfontfeature">AddFontFeature</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature">AddFontFeature</a>
 </td>
 <td align="left" width="63%">
  Adds an OpenType font feature.
@@ -80,7 +80,7 @@ The <b>IDWriteTypography</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetypography-getfontfeature">GetFontFeature</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeature">GetFontFeature</a>
 </td>
 <td align="left" width="63%">
  Gets the font feature at the specified index.
@@ -89,7 +89,7 @@ The <b>IDWriteTypography</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetypography-getfontfeaturecount">GetFontFeatureCount</a>
+<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeaturecount">GetFontFeatureCount</a>
 </td>
 <td align="left" width="63%">
  Gets the number of OpenType font features for the current font.
