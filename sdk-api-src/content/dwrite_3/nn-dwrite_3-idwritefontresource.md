@@ -5,7 +5,7 @@ description: Provides axis information for a font resource, and is used to creat
 author: windows-sdk-content
 tech.root: DirectWrite
 ms.author: windowssdkdev
-ms.date: 09/10/2019
+ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
 ms.topic: interface
 targetos: Windows

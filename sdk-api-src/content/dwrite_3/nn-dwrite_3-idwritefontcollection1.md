@@ -47,13 +47,9 @@ ms.custom: 19H1
 
 # IDWriteFontCollection1 interface
 
-
 ## -description
 
-
- An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. 
-      The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts.
-
+An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts.
 
 ## -inheritance
 
@@ -81,14 +77,6 @@ Gets the underlying font set used by this collection.
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
- 
-
- 
-

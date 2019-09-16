@@ -64,8 +64,6 @@ The maximum number of font axis values to write into the memory block pointed to
 
 ## -returns
 
-## -returns
-
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
 If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
@@ -78,7 +76,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 The values are returned in the canonical order defined by the font, clamped to the actual range supported. It's not necessarily the same axis value array that you passed to **CreateFontFace**.
 
-## -examples
+## Examples
 
 ```cppwinrt
 // main.cpp

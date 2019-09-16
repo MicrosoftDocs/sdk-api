@@ -1,0 +1,62 @@
+---
+UID: NE:dwrite_3.DWRITE_FONT_FAMILY_MODEL
+title: DWRITE_FONT_FAMILY_MODEL
+author: windows-sdk-content
+description: Defines constants that specify how font families are grouped together.
+tech.root: DirectWrite
+ms.author: windowssdkdev
+ms.date: 09/12/2019
+ms.keywords: DWRITE_FONT_FAMILY_MODEL, DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write], directwrite.dwrite_font_family_model, dwrite_3/DWRITE_FONT_FAMILY_MODEL
+ms.topic: enum
+f1_keywords: 
+ - "dwrite_3/DWRITE_FONT_FAMILY_MODEL"
+req.construct-type: enumeration
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_FAMILY_MODEL
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+## -description
+
+Defines constants that specify how font families are grouped together. Used by [IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2), for example.
+
+## -enum-fields
+
+### -field DWRITE_FONT_FAMILY_MODEL_TYPOGRAPHIC
+
+Families are grouped by the typographic family name preferred by the font author. The family can contain as many faces as the font author wants. This corresponds to [DWRITE_FONT_PROPERTY_ID_TYPOGRAPHIC_FAMILY_NAME](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id).
+
+### -field DWRITE_FONT_FAMILY_MODEL_WEIGHT_STRETCH_STYLE
+
+Families are grouped by the weight-stretch-style family name, where all faces that differ only by those three axes are grouped into the same family, but any other axes go into a distinct family. For example, the Sitka family with six different optical sizes yields six separate families (Sitka Caption, Display, Text, Subheading, Heading, Banner...). This corresponds to [DWRITE_FONT_PROPERTY_ID_WEIGHT_STRETCH_STYLE_FAMILY_NAME](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id).
+
+## -remarks
+
+## -see-also
