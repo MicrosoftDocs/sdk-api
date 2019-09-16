@@ -75,7 +75,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_s
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) for which the compute pipeline state is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
 
 
 ### -field CachedPSO

@@ -67,7 +67,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) for which to create the command list.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
-          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
 
 
 ### -param type [in]

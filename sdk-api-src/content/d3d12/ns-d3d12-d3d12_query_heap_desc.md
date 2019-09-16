@@ -78,7 +78,7 @@ Specifies the number of queries the heap should contain.
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) to which the query heap applies.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
-          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
 
 
 ## -remarks
