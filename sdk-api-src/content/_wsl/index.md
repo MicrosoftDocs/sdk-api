@@ -20,5 +20,5 @@ To develop Windows Subsystem for Linux, you need these headers:
  * [wslapi.h](../wslapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Subsystem for Linux](/windows/desktop/wsl)
+* [Windows Subsystem for Linux](/windows/wsl)
 
