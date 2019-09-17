@@ -1,0 +1,66 @@
+---
+UID: NE:dwrite_3.DWRITE_AUTOMATIC_FONT_AXES
+title: DWRITE_AUTOMATIC_FONT_AXES
+author: windows-sdk-content
+description: Defines constants that specify certain axes that can be applied automatically in layout during font selection.
+tech.root: DirectWrite
+ms.author: windowssdkdev
+ms.date: 09/16/2019
+ms.keywords: DWRITE_AUTOMATIC_FONT_AXES, DWRITE_AUTOMATIC_FONT_AXES enumeration [Direct Write], directwrite.dwrite_automatic_font_axes, dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
+ms.topic: enum
+f1_keywords: 
+ - "dwrite_3/DWRITE_AUTOMATIC_FONT_AXES"
+req.construct-type: enumeration
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_AUTOMATIC_FONT_AXES
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+## -description
+
+Defines constants that specifies axes that can be applied automatically in layout during font selection. Values can be bitwise OR'd together.
+
+## -enum-fields
+
+### -field DWRITE_AUTOMATIC_FONT_AXES_NONE
+
+Specifies that no axes are automatically applied.
+
+### -field DWRITE_AUTOMATIC_FONT_AXES_OPTICAL_SIZE
+
+Specifies that&mdash;when no value is specified via [DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)&mdash;an appropriate optical value should be automatically chosen based on the font size (via [IDWriteTextLayout::SetFontSize](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize)). You can still apply the 'opsz' value over text ranges via [IDWriteTextFormat3::SetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues), which take priority.
+
+## -remarks
+
+## -see-also
+
+[DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
+
+[IDWriteTextFormat3::SetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues)

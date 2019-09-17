@@ -1,0 +1,59 @@
+---
+UID: NF:dwrite_3.IDWriteTextFormat3.GetAutomaticFontAxes
+title: IDWriteTextFormat3::GetAutomaticFontAxes
+author: windows-sdk-content
+description: Retrieves the automatic axis options.
+tech.root: DirectWrite
+ms.author: windowssdkdev
+ms.date: 09/16/2019
+ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes method, IDWriteTextFormat3.GetAutomaticFontAxes, IDWriteTextFormat3::GetAutomaticFontAxes, GetAutomaticFontAxes, GetAutomaticFontAxes method [Direct Write], GetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getautomaticfontaxes, dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes
+ms.topic: method
+f1_keywords: 
+ - "dwrite_3/IDWriteTextFormat3.GetAutomaticFontAxes"
+req.construct-type: function
+req.header: dwrite_3.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::GetAutomaticFontAxes
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+## -description
+
+Retrieves the automatic axis options.
+
+## -returns
+
+Type: **[DWRITE_AUTOMATIC_FONT_AXES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes)**
+
+Automatic axis options.
+
+## -remarks
+
+## -see-also

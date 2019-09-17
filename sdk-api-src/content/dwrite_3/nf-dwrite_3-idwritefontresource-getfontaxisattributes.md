@@ -1,49 +1,67 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisAttributes
 title: IDWriteFontResource::GetFontAxisAttributes
-ms.date: 4/26/2019
-ms.keywords: IDWriteFontResource::GetFontAxisAttributes
-ms.topic: language-reference
-targetos: Windows
-product: Windows
-req.assembly: 
+author: windows-sdk-content
+description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
+tech.root: DirectWrite
+ms.author: windowssdkdev
+ms.date: 09/16/2019
+ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
+ms.topic: method
+f1_keywords: 
+ - "dwrite_3/IDWriteFontResource.GetFontAxisAttributes"
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
 req.header: dwrite_3.h
-req.idl: 
 req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
-req.type-library: 
+req.kmdf-ver: 
 req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - COM
 api_location:
- - dwrite_3.h
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
  - IDWriteFontResource::GetFontAxisAttributes
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
 ---
 
 ## -description
+
+Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
 
 ## -parameters
 
 ### -param axisIndex
 
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+
 ## -returns
+
+Type: **[DWRITE_FONT_AXIS_ATTRIBUTES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes)**
+
+The attributes for the given axis, or **DWRITE_FONT_AXIS_ATTRIBUTES_NONE** if *axisIndex* is beyond the font count.
 
 ## -remarks
 
 ## -see-also
-

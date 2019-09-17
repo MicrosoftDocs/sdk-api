@@ -1,15 +1,15 @@
 ---
-UID: NF:dwrite_3.IDWriteFontResource.GetFontFile
-title: IDWriteFontResource::GetFontFile
+UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFontFile
+title: IDWriteFontSetBuilder2::AddFontFile
 author: windows-sdk-content
-description: Retrieves the font file of the resource.
+description: Adds references to all the fonts in the specified font file. The method parses the font file to determine the fonts and their properties.
 tech.root: DirectWrite
 ms.author: windowssdkdev
 ms.date: 09/16/2019
-ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFile method, IDWriteFontResource.GetFontFile, IDWriteFontResource::GetFontFile, GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfile, dwrite_3/IDWriteFontResource::GetFontFile
+ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder2.AddFontFile, IDWriteFontSetBuilder2::AddFontFile, AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfontfile, dwrite_3/IDWriteFontSetBuilder2::AddFontFile
 ms.topic: method
 f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetFontFile"
+ - "dwrite_3/IDWriteFontSetBuilder2.AddFontFile"
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -37,7 +37,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontResource::GetFontFile
+ - IDWriteFontSetBuilder2::AddFontFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -46,15 +46,15 @@ req.redist:
 
 ## -description
 
-Retrieves the font file of the resource.
+Adds references to all the fonts in the specified font file. The method parses the font file to determine the fonts and their properties.
 
 ## -parameters
 
-### -param fontFile [out]
+### -param filePath
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\*\***
+Type: **[WCHAR](/windows/win32/winprog/windows-data-types) const \***
 
-The address of a pointer to an [IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile) interface. On successful completion, the function sets the pointer to the font file object.
+Absolute file path to add to the font set.
 
 ## -returns
 
