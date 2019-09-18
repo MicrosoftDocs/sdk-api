@@ -1,45 +1,59 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontFaceIndex
 title: IDWriteFontResource::GetFontFaceIndex
-ms.date: 4/26/2019
-ms.keywords: IDWriteFontResource::GetFontFaceIndex
-ms.topic: language-reference
-targetos: Windows
-product: Windows
-req.assembly: 
+author: windows-sdk-content
+description: Retrieves the zero-based index of the font face within its font file.
+tech.root: DirectWrite
+ms.author: windowssdkdev
+ms.date: 09/16/2019
+ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFaceIndex method, IDWriteFontResource.GetFontFaceIndex, IDWriteFontResource::GetFontFaceIndex, GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFaceIndex method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfaceindex, dwrite_3/IDWriteFontResource::GetFontFaceIndex
+ms.topic: method
+f1_keywords: 
+ - "dwrite_3/IDWriteFontResource.GetFontFaceIndex"
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
 req.header: dwrite_3.h
-req.idl: 
 req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
-req.type-library: 
+req.kmdf-ver: 
 req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
  - COM
 api_location:
- - dwrite_3.h
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
  - IDWriteFontResource::GetFontFaceIndex
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
 ---
 
 ## -description
 
+Retrieves the zero-based index of the font face within its font file. If the font file contains a single face, then the return value is zero.
+
 ## -returns
+
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+The zero-based index of the font face within its font file.
 
 ## -remarks
 
 ## -see-also
-

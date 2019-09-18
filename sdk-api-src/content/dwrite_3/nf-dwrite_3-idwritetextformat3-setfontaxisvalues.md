@@ -1,15 +1,15 @@
 ---
-UID: NF:dwrite_3.IDWriteFontFamily2.GetMatchingFonts
-title: IDWriteFontFamily2::GetMatchingFonts
+UID: NF:dwrite_3.IDWriteTextFormat3.SetFontAxisValues
+title: IDWriteTextFormat3::SetFontAxisValues
 author: windows-sdk-content
-description: Retrieves a list of fonts in the font family, ranked in order of how well they match the specified axis values.
+description: Sets values for the font axes of the format.
 tech.root: DirectWrite
 ms.author: windowssdkdev
-ms.date: 09/12/2019
-ms.keywords: IDWriteFontFamily2 interface [Direct Write],GetMatchingFonts method, IDWriteFontFamily2.GetMatchingFonts, IDWriteFontFamily2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontFamily2 interface, directwrite.idwritefontfamily2_getmatchingfont, dwrite_3/IDWriteFontFamily2::GetMatchingFonts
+ms.date: 09/17/2019
+ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
 ms.topic: method
 f1_keywords: 
- - "dwrite_3/IDWriteFontFamily2.GetMatchingFonts"
+ - "dwrite_3/IDWriteTextFormat3.SetFontAxisValues"
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -37,7 +37,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontFamily2::GetMatchingFonts
+ - IDWriteTextFormat3::SetFontAxisValues
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -46,7 +46,7 @@ req.redist:
 
 ## -description
 
-Retrieves a list of fonts in the font family, ranked in order of how well they match the specified axis values.
+Sets values for the font axes of the format.
 
 ## -parameters
 
@@ -61,12 +61,6 @@ A pointer to an array containing a list of font axis values. The array should be
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
 The number of font axis values contained in the *fontAxisValues* array.
-
-### -param matchingFonts [out]
-
-Type: **[IDWriteFontList2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2)\*\***
-
-The address of a pointer to an [IDWriteFontList2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2) interface. On successful completion, the function sets the pointer to a newly created font list object.
 
 ## -returns
 

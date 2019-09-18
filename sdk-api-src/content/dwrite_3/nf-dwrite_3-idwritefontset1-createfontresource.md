@@ -1,15 +1,15 @@
 ---
-UID: NF:dwrite_3.IDWriteFontFace5.GetFontResource
-title: IDWriteFontFace5::GetFontResource
+UID: NF:dwrite_3.IDWriteFontSet1.CreateFontResource
+title: IDWriteFontSet1::CreateFontResource
 author: windows-sdk-content
-description: Retrieves the underlying font resource for this font face.
+description: Creates the font resource of a single item.
 tech.root: DirectWrite
 ms.author: windowssdkdev
-ms.date: 09/10/2019
-ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontResource method, IDWriteFontFace5.GetFontResource, IDWriteFontFace5::GetFontResource, GetFontResource, GetFontResource method [Direct Write], GetFontResource method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontresource, dwrite_3/IDWriteFontFace5::GetFontResource
+ms.date: 09/16/2019
+ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontResource method, IDWriteFontSet1.CreateFontResource, IDWriteFontSet1::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontresource, dwrite_3/IDWriteFontSet1::CreateFontResource
 ms.topic: method
 f1_keywords: 
- - "dwrite_3/IDWriteFontFace5.GetFontResource"
+ - "dwrite_3/IDWriteFontSet1.CreateFontResource"
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -37,7 +37,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontFace5::GetFontResource
+ - IDWriteFontSet1::CreateFontResource
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -46,9 +46,15 @@ req.redist:
 
 ## -description
 
-Retrieves the underlying font resource for this font face. You can use that to query information about the resource, or to recreate a new font face instance with different axis values.
+Creates the font resource of a single item.
 
 ## -parameters
+
+### -param listIndex
+
+Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
+
+Zero-based index of the font item in the set.
 
 ### -param fontResource [out]
 
@@ -61,6 +67,10 @@ The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
 If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
+
+|Return value|Description|
+|-|-|
+|DWRITE_E_REMOTEFONT|The file is not local.|
 
 ## -remarks
 
