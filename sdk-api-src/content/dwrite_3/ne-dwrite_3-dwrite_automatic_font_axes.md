@@ -55,7 +55,7 @@ Specifies that no axes are automatically applied.
 
 ### -field DWRITE_AUTOMATIC_FONT_AXES_OPTICAL_SIZE
 
-Specifies that&mdash;when no value is specified via [DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)&mdash;an appropriate optical value should be automatically chosen based on the font size (via [IDWriteTextLayout::SetFontSize](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize)). You can still apply the 'opsz' value over text ranges via [IDWriteTextFormat3::SetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues), which take priority.
+Specifies that&mdash;when no value is specified via <a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag">DWRITE_FONT_AXIS_TAG_OPTICAL_SIZE</a>&mdash;an appropriate optical value should be automatically chosen based on the font size (via <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize">IDWriteTextLayout::SetFontSize</a>). You can still apply the 'opsz' value over text ranges via <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues">IDWriteTextFormat3::SetFontAxisValues</a>, which take priority.
 
 ## -remarks
 
