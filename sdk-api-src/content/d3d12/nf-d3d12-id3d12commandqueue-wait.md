@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Waits until the specified fence reaches or exceeds the specified value.
+Instructs the GPU to wait until the specified fence reaches or exceeds the specified value.
 
 
 ## -parameters
