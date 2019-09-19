@@ -1,81 +1,82 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory~r1
-title: D2D1CreateFactory
-ms.date: 01/30/19
-ms.keywords: D2D1CreateFactory
-ms.topic: language-reference
+title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**) function
+author: windows-sdk-content
+description: Creates a factory object that can be used to create Direct2D resources.
+tech.root: Direct2D
+ms.author: windowssdkdev
+ms.date: 12/05/2018
+ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
+ms.topic: function
 f1_keywords: 
  - "d2d1/D2D1CreateFactory"
-targetos: Windows
-product: Windows
-req.assembly: 
-req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
 req.header: d2d1.h
-req.idl: 
 req.include-header: 
-req.irql: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
-req.lib: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
 req.max-support: 
 req.namespace: 
-req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
+req.assembly: 
 req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
- - apiref
+ - APIRef
+ - kbSyntax
 api_type:
- - 
+ - DllExport
 api_location:
- - d2d1.h
+ - D2d1.dll
 api_name:
  - D2D1CreateFactory
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
 ---
-
-# D2D1CreateFactory function
-
 
 ## -description
 
 Creates a factory object that can be used to create Direct2D resources.
 
-
 ## -parameters
 
-### -param factoryType
+### -param factoryType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE</a></b>
 
 The threading model of the factory and the resources it creates.
 
-
-### -param riid
+### -param riid [in]
 
 Type: <b>REFIID</b>
 
-A reference to the IID of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> that is obtained by using __uuidof(ID2D1Factory).
+A reference to the IID of <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> that is obtained by using `__uuidof(ID2D1Factory)`.
 
-
-### -param factory
+### -param ppIFactory [out]
 
 Type: <b>void**</b>
 
 When this method returns, contains the address to a pointer to the new factory.
 
-
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
 ## -remarks
+
+The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> interface provides the starting point for Direct2D. In general, an object created from a single instance of a factory object can be used with other resources created from that instance, but not with resources created by other factory instances.  
 
 ## -see-also
 
+<a href="/windows/win32/Direct2D/the-direct2d-api">Direct2D API Overview</a>

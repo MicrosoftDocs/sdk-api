@@ -1,0 +1,81 @@
+---
+UID: NS:d3d12.D3D12_FEATURE_DATA_QUERY_META_COMMAND
+title: D3D12_FEATURE_DATA_QUERY_META_COMMAND
+description: Indicates the level of support that the adapter provides for metacommands.
+ms.date: 09/19/2019
+ms.keywords: D3D12_FEATURE_DATA_QUERY_META_COMMAND
+ms.topic: language-reference
+f1_keywords: 
+ - "d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND"
+targetos: Windows
+product: Windows
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: d3d12.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: D3D12_FEATURE_DATA_QUERY_META_COMMAND
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_FEATURE_DATA_QUERY_META_COMMAND
+---
+
+## -description
+
+Indicates the level of support that the adapter provides for metacommands.
+
+## -struct-fields
+
+### -field CommandId
+
+Type: <b>[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)</b>
+
+The fixed GUID that identfies the metacommand to query about.
+
+### -field NodeMask
+
+Type: <b>[UINT](/windows/win32/winprog/windows-data-types)</b>
+
+For single GPU operation, this is zero. If there are multiple GPU nodes, a bit is set to identify a node (the device's physical adapter). Each bit in the mask corresponds to a single node. Only 1 bit must be set. Refer to [Multi-adapter](/windows/win32/direct3d12/multi-engine).
+
+### -field pQueryInputData
+
+Type: <b> const [void](/windows/win32/winprog/windows-data-types)\*</b>
+
+A pointer to a buffer containing the query input data. Allocate *QueryInputDataSizeInBytes* bytes.
+
+### -field QueryInputDataSizeInBytes
+
+Type: <b>[SIZE_T](/windows/win32/winprog/windows-data-types)</b>
+
+The size of the buffer pointed to by *pQueryInputData*, in bytes.
+
+### -field pQueryOutputData
+
+Type: <b>[void](/windows/win32/winprog/windows-data-types)\*</b>
+
+A pointer to a buffer containing the query output data.
+
+### -field QueryOutputDataSizeInBytes
+
+Type: <b>[SIZE_T](/windows/win32/winprog/windows-data-types)</b>
+
+The size of the buffer pointed to by *pQueryOutputData*, in bytes.
+
+## -remarks
+
+## -see-also
