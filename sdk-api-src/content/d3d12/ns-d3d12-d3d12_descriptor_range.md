@@ -67,9 +67,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_d
 
 ### -field NumDescriptors
 
-The number of descriptors in the range. Use -1 or UINT_MAX to specify unbounded size. Only the last entry in a table can have unbounded size.
-          
-
+The number of descriptors in the range. Use -1 or UINT_MAX to specify an unbounded size. If a given descriptor range is unbounded, then it must either be the last range in the table definition, or else the following range in the table definition must have a value for *OffsetInDescriptorsFromTableStart* that is not [D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range).
 
 ### -field BaseShaderRegister
 
