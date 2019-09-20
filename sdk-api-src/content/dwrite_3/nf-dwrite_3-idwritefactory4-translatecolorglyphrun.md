@@ -123,7 +123,7 @@ If the function succeeds, receives a pointer to an enumerator object that can be
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns DWRITE_E_NOCOLOR if the font has no color information, the glyph run
           does not contain any color glyphs, or the specified color palette index
