@@ -1,14 +1,12 @@
 ---
-UID: NF:d2d1.D2D1CreateFactory
-title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**)
+UID: NF:d2d1.D2D1CreateFactory~r2
+title: D2D1CreateFactory(D2D1_FACTORY_TYPE,void**)
 author: windows-sdk-content
-description: Creates a factory object that can be used to create Direct2D resources.
-old-location: direct2d\d2d1createfactory.htm
+description: A helper function template that creates a factory object that can be used to create Direct2D resources.
 tech.root: Direct2D
-ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
 ms.author: windowssdkdev
-ms.date: 12/05/2018
-ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS*,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
+ms.date: 09/19/2019
+ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
 ms.topic: function
 f1_keywords: 
  - "d2d1/D2D1CreateFactory"
@@ -42,12 +40,11 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
 
 ## -description
 
-Creates a factory object that can be used to create Direct2D resources.
+A helper function template that creates a factory object that can be used to create Direct2D resources.
 
 ## -parameters
 
@@ -57,19 +54,7 @@ Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTOR
 
 The threading model of the factory and the resources it creates.
 
-### -param riid [in]
-
-Type: <b>REFIID</b>
-
-A reference to the IID of <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> that is obtained by using `__uuidof(ID2D1Factory)`.
-
-### -param pFactoryOptions [in, optional]
-
-Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>*</b>
-
-The level of detail provided to the debugging layer.
-
-### -param ppIFactory [out]
+### -param factory [out]
 
 Type: <b>void**</b>
 

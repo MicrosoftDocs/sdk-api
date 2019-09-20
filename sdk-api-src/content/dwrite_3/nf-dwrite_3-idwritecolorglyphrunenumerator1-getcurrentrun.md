@@ -72,7 +72,7 @@ Receives a pointer to the color glyph run. The pointer remains valid until the n
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Standard HRESULT error code. An error is returned if there is
           no current glyph run, i.e., if MoveNext has not yet been called

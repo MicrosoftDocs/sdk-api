@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory~r1
-title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**) function
+title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**)
 author: windows-sdk-content
 description: Creates a factory object that can be used to create Direct2D resources.
 tech.root: Direct2D
@@ -69,9 +69,9 @@ When this method returns, contains the address to a pointer to the new factory.
 
 ## -returns
 
-Type: <b><a href="/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
 
 ## -remarks
 

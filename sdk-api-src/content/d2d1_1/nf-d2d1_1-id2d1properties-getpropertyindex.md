@@ -1,13 +1,13 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyIndex
-title: ID2D1Properties::GetPropertyIndex (d2d1_1.h)
+title: ID2D1Properties::GetPropertyIndex
 author: windows-sdk-content
 description: Gets the index corresponding to the given property name.
 old-location: direct2d\id2d1properties_getpropertyindex.htm
 tech.root: Direct2D
 ms.assetid: b1c7003f-b7c2-464c-8e8e-a641068b9393
 ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 09/19/2019
 ms.keywords: GetPropertyIndex, GetPropertyIndex method [Direct2D], GetPropertyIndex method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyIndex method, ID2D1Properties.GetPropertyIndex, ID2D1Properties::GetPropertyIndex, d2d1_1/ID2D1Properties::GetPropertyIndex, direct2d.id2d1properties_getpropertyindex
 ms.topic: method
 f1_keywords: 
@@ -42,22 +42,13 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 ---
-
-# ID2D1Properties::GetPropertyIndex
-
 
 ## -description
 
-
 Gets the index corresponding to the given property name. 
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
@@ -65,42 +56,20 @@ Type: <b>PCWSTR</b>
 
 The name of the property to retrieve.
 
-
 ## -returns
-
-
 
 Type: <b>UINT32</b>
 
 The index of the corresponding property name.
 
-
-
-
 ## -remarks
 
-
-
- If the property does not exist, this method returns <a href="https://docs.microsoft.com/windows/desktop/direct2d/--d2d1-invalid-property-index">D2D1_INVALID_PROPERTY_INDEX</a>. This reserved value will never map to a valid index and will cause <b>NULL</b> or sentinel values to be returned from other parts of the property interface.
-
-
-
+If the property doesn't exist, then this method returns [D2D1_INVALID_PROPERTY_INDEX](/windows/win32/direct2d/direct2d-constants#d2d1_invalid_property_index-uintmax). This reserved value will never map to a valid index, and will cause <b>NULL</b> or sentinel values to be returned from other parts of the property interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct2d/--d2d1-invalid-property-index">D2D1_INVALID_PROPERTY_INDEX</a>
-
-
+[D2D1_INVALID_PROPERTY_INDEX](/windows/win32/direct2d/direct2d-constants#d2d1_invalid_property_index-uintmax)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
- 
-
- 
-
