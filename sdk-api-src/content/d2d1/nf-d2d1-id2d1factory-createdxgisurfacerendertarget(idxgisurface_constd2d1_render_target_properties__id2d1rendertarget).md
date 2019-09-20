@@ -45,19 +45,11 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)
-
-
 ## -description
-
 
 Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface. 
 
-
 ## -parameters
-
-
-
 
 ### -param dxgiSurface [in]
 
@@ -65,13 +57,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-id
 
 The IDXGISurface to which the render target will draw.
 
-
 ### -param renderTargetProperties [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> \&</b>
 
 The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering. For information about supported pixel formats, see  <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
-
 
 ### -param renderTarget [out]
 
@@ -79,21 +69,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id
 
 When this method returns, contains the address of the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> object created by this method.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To write to a Direct3D surface, you obtain an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> and pass it to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a> method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.  
 
@@ -109,13 +91,9 @@ To work with Direct2D, the Direct3D device that provides the <a href="https://do
 
 When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the render target's <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created). 
 
+## Examples
 
-
-
-#### Examples
-
-The following example obtains a  DXGI surface  (<i>pBackBuffer</i>) from an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
-
+The following example obtains a DXGI surface (<i>pBackBuffer</i>) from an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
 
 ```cpp
 // Get a surface in the swap chain
@@ -124,15 +102,8 @@ hr = m_pSwapChain->GetBuffer(
     IID_PPV_ARGS(&pBackBuffer)
     );
 
-```
-
-```cpp
     if (SUCCEEDED(hr))
     {
-
-```
-
-```cpp
         // Create the DXGI Surface Render Target.
         FLOAT dpiX;
         FLOAT dpiY;
@@ -146,36 +117,20 @@ hr = m_pSwapChain->GetBuffer(
                 dpiY
                 );
 
-        // Create a Direct2D render target which can draw into the surface in the swap chain
+        // Create a Direct2D render target that can draw into the surface in the swap chain.
 
-```
-
-```cpp
         hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(
             pBackBuffer,
-            &props,
+            props,
             &m_pBackBufferRT
             );
-
     }
-
 ```
-
-
-
-
 
 ## -see-also
 
-
-
+[CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget)](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget))
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-and-direct3d-interoperation-overview">Direct2D and Direct3D Interoperability Overview</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
- 
-
- 
-
