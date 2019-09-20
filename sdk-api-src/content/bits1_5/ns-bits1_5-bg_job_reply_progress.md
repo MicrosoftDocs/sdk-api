@@ -1,6 +1,6 @@
 ---
 UID: NS:bits1_5._BG_JOB_REPLY_PROGRESS
-title: BG_JOB_REPLY_PROGRESS (bits1_5.h)
+title: BG_JOB_REPLY_PROGRESS
 author: windows-sdk-content
 description: Provides progress information related to the reply portion of an upload-reply job.
 old-location: bits\bg_job_reply_progress.htm

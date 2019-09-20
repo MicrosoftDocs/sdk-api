@@ -1,6 +1,6 @@
 ---
 UID: NE:bits1_5.BG_AUTH_TARGET
-title: BG_AUTH_TARGET (bits1_5.h)
+title: BG_AUTH_TARGET
 author: windows-sdk-content
 description: Defines constants that specify whether the credentials are used for proxy or server user authentication requests.
 old-location: bits\bg_auth_target.htm

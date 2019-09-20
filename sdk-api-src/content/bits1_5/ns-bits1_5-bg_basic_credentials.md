@@ -1,6 +1,6 @@
 ---
-UID: NS:bits1_5.BG_BASIC_CREDENTIALS
-title: BG_BASIC_CREDENTIALS (bits1_5.h)
+UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0001
+title: BG_BASIC_CREDENTIALS
 author: windows-sdk-content
 description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.
 old-location: bits\bg_basic_credentials.htm
