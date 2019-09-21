@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetNotifyCmdLine
-title: IBackgroundCopyJob2::GetNotifyCmdLine (bits1_5.h)
+title: IBackgroundCopyJob2::GetNotifyCmdLine
 author: windows-sdk-content
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
