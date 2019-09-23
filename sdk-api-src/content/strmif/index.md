@@ -8,7 +8,6 @@ ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mstv
-archived: true
 ---
 
 # Strmif.h header
