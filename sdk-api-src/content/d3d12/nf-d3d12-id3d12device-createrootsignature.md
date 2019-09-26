@@ -62,16 +62,16 @@ Creates a root signature layout.
 
 ### -param nodeMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT</a></b>
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) to which the root signature is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            Refer to <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
 
 
 ### -param pBlobWithRootSignature [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">void</a>*</b>
+Type: <b>const <a href="/windows/win32/WinProg/windows-data-types">void</a>*</b>
 
 A pointer to the source data for the serialized signature.
           
@@ -79,7 +79,7 @@ A pointer to the source data for the serialized signature.
 
 ### -param blobLengthInBytes [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size, in bytes, of the block of memory that <i>pBlobWithRootSignature</i> points to.
           
@@ -106,9 +106,9 @@ A pointer to a memory block that receives a pointer to the root signature.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 This method returns <b>E_INVALIDARG</b> if the blob that <i>pBlobWithRootSignature</i> points to is invalid.
@@ -121,18 +121,18 @@ This method returns <b>E_INVALIDARG</b> if the blob that <i>pBlobWithRootSignatu
 
 
 
-If an application procedurally generates a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature">D3D12SerializeRootSignature</a> to make the serialized form.
+If an application procedurally generates a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <a href="/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature">D3D12SerializeRootSignature</a> to make the serialized form.
         The application then passes the serialized form to <i>pBlobWithRootSignature</i> in a call to <b>ID3D12Device::CreateRootSignature</b>.
       
 
 The <b>REFIID</b>, or <b>GUID</b>, of the interface to the root signature layout can be obtained by using the __uuidof() macro.
-        For example, __uuidof(<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature">ID3D12RootSignature</a>) will get the <b>GUID</b> of the interface to a root signature.
+        For example, __uuidof(<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature">ID3D12RootSignature</a>) will get the <b>GUID</b> of the interface to a root signature.
       
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateRootSignature</b> as follows:
+The <a href="/windows/win32/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateRootSignature</b> as follows:
         
 
 Create an empty root signature.
@@ -158,7 +158,7 @@ ThrowIfFailed(m_device->CreateRootSignature(0, signature->GetBufferPointer(), si
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
  
 
  

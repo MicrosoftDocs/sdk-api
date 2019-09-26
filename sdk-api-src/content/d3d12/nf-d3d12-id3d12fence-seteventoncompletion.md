@@ -61,14 +61,14 @@ Specifies an event that should be fired when the fence reaches a certain value.
 
 ### -param Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
 The fence value when the event is to be signaled.
 
 
 ### -param hEvent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">HANDLE</a></b>
 
 A handle to the event object.
 
@@ -79,7 +79,7 @@ A handle to the event object.
 
 Type: <b>HRESULT</b>
 
-This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
+This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 
 
@@ -88,12 +88,12 @@ This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have s
 
 
 
-To specify multiple fences before an event is triggered, refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a>.
+To specify multiple fences before an event is triggered, refer to <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a>.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12Fence::SetEventOnCompletion</b> as follows:
+The <a href="/windows/win32/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12Fence::SetEventOnCompletion</b> as follows:
         
 
 
@@ -114,7 +114,7 @@ WaitForSingleObject(m_fenceEvent, INFINITE);
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -125,11 +125,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

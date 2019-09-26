@@ -65,7 +65,7 @@ Gets the current value of the fence.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
 Returns the current value of the fence. If the device has been removed, the return value will be <b>UINT64_MAX</b>.
 
@@ -77,11 +77,11 @@ Returns the current value of the fence. If the device has been removed, the retu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

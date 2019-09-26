@@ -53,12 +53,12 @@ ms.custom: 19H1
 
 Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 
-This interface is equivalent to the Direct3D 12 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> inteface, and is also used for synchronization between Direct3D 11 and Direct3D 12 in interop scenarios.
+This interface is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> inteface, and is also used for synchronization between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Fence</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11Fence</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Fence</b> interface inherits from <a href="/windows/win32/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11Fence</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ID3D11Fence</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11fence-createsharedhandle">CreateSharedHandle</a>
+<a href="/windows/win32/api/d3d11_3/nf-d3d11_3-id3d11fence-createsharedhandle">CreateSharedHandle</a>
 </td>
 <td align="left" width="63%">
 Creates a shared handle to a fence object.
@@ -83,7 +83,7 @@ Creates a shared handle to a fence object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11fence-getcompletedvalue">GetCompletedValue</a>
+<a href="/windows/win32/api/d3d11_3/nf-d3d11_3-id3d11fence-getcompletedvalue">GetCompletedValue</a>
 </td>
 <td align="left" width="63%">
 Gets the current value of the fence.
@@ -92,7 +92,7 @@ Gets the current value of the fence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11fence-seteventoncompletion">SetEventOnCompletion</a>
+<a href="/windows/win32/api/d3d11_3/nf-d3d11_3-id3d11fence-seteventoncompletion">SetEventOnCompletion</a>
 </td>
 <td align="left" width="63%">
 Specifies an event that should be fired when the fence reaches a certain value.
@@ -107,19 +107,19 @@ Specifies an event that should be fired when the fence reaches a certain value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/fence-based-resource-management">Fence Based Resource Management (Direct3D 12)</a>
+<a href="/windows/win32/direct3d12/fence-based-resource-management">Fence Based Resource Management (Direct3D 12)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
+<a href="/windows/win32/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine (Direct3D 12)</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

@@ -51,12 +51,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a fence. This interface extends <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>, and supports the retrieval of the flags used to create the original fence.  This new feature is useful primarily for opening shared fences.
-<div class="alert"><b>Note</b>  <b>ID3D12Fence1</b> was introduced in the Windows 10 Fall Creators Update, and is the latest version of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> interface. Applications targeting Windows 10 Fall Creators Update and later should use <b>ID3D12Fence1</b> instead of earlier versions.</div><div> </div>
+Represents a fence. This interface extends <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>, and supports the retrieval of the flags used to create the original fence.  This new feature is useful primarily for opening shared fences.
+<div class="alert"><b>Note</b>  <b>ID3D12Fence1</b> was introduced in the Windows 10 Fall Creators Update, and is the latest version of the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> interface. Applications targeting Windows 10 Fall Creators Update and later should use <b>ID3D12Fence1</b> instead of earlier versions.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Fence1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>. <b>ID3D12Fence1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Fence1</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>. <b>ID3D12Fence1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D12Fence1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence1-getcreationflags">GetCreationFlags</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence1-getcreationflags">GetCreationFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags used to create the fence represented by the current instance.
@@ -86,19 +86,19 @@ Gets the flags used to create the fence represented by the current instance.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/win32/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/fence-based-resource-management">Fence Based Resource Management</a>
+<a href="/windows/win32/direct3d12/fence-based-resource-management">Fence Based Resource Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12fence</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12fence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

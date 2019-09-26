@@ -63,7 +63,7 @@ Describes the purpose of a query heap.
 
 ### -field Type
 
-Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_heap_type">D3D12_QUERY_HEAP_TYPE</a>.
+Specifies one member of <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_query_heap_type">D3D12_QUERY_HEAP_TYPE</a>.
           
 
 
@@ -78,14 +78,14 @@ Specifies the number of queries the heap should contain.
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) to which the query heap applies.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
-          Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+          Refer to <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
 
 
 ## -remarks
 
 
 
-Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createqueryheap">CreateQueryHeap</a>.
+Use this structure with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createqueryheap">CreateQueryHeap</a>.
         
 
 
@@ -96,7 +96,7 @@ Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  
