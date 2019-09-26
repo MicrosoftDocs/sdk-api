@@ -80,7 +80,7 @@ Type: <b>UINT</b>
 
 The new width of the back buffer. 
             If you specify zero, DXGI will use the width of the client area of the target window. 
-            You can't specify the width as zero if you called the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain for a composition surface.
+            You can't specify the width as zero if you called the <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain for a composition surface.
           
 
 
@@ -90,16 +90,16 @@ Type: <b>UINT</b>
 
 The new height of the back buffer. 
             If you specify zero, DXGI will use the height of the client area of the target window. 
-            You can't specify the height as zero if you called the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain for a composition surface.
+            You can't specify the height as zero if you called the <a href="/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a> method to create the swap chain for a composition surface.
           
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
-            Set this value to <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
+A <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
+            Set this value to <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
             The flip presentation model supports a more restricted set of formats than the bit-block transfer (bitblt) model.
           
 
@@ -108,7 +108,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiform
 
 Type: <b>UINT</b>
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation.
+A combination of <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation.
             The resulting value specifies options for swap-chain behavior.
           
 
@@ -126,7 +126,7 @@ An array of UINTs, of total size <i>BufferCount</i>, where the value indicates w
 
 Type: <b>IUnknown*</b>
 
-An array of command queues (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a> instances), of total size <i>BufferCount</i>.
+An array of command queues (<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a> instances), of total size <i>BufferCount</i>.
             Each queue provided must match the corresponding creation node mask specified in the <i>pCreationNodeMask</i> array.
             When <b>Present()</b> is called, in addition to rotating to the next buffer for the next frame, the swapchain will also rotate through these command queues.
             This allows the app to control which queue requires synchronization for a given present operation.
@@ -137,10 +137,10 @@ An array of command queues (<a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="/windows/win32/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
           
 
 
@@ -150,22 +150,22 @@ Returns S_OK if successful; an error code otherwise.
 
 
 
-This method is only valid to call when the swapchain was created using a D3D12 command queue (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>) as an input device.
+This method is only valid to call when the swapchain was created using a D3D12 command queue (<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>) as an input device.
         
 
 When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported.
           <b>ResizeBuffers1</b> enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each node.
           These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain.
-          See <a href="/windows/desktop/direct3d12/multi-engine">Direct3D 12 Multi-Adapters</a>.
+          See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
         
 
-The only difference between <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with
-          flip presentation model swap chains that you create with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
+The only difference between <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with
+          flip presentation model swap chains that you create with the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
           In Windows 8, you must call <b>ResizeBuffers</b> to realize a transition between full-screen mode and windowed mode;
-          otherwise, your next call to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> method fails.
+          otherwise, your next call to the <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> method fails.
         
 
-Also see the Remarks section in <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a>, all of which is relevant to <b>ResizeBuffers1</b>.
+Also see the Remarks section in <a href="/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a>, all of which is relevant to <b>ResizeBuffers1</b>.
         
 
 
@@ -176,7 +176,7 @@ Also see the Remarks section in <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3">IDXGISwapChain3</a>
+<a href="/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3">IDXGISwapChain3</a>
  
 
  

@@ -50,7 +50,7 @@ The fixed GUID that identfies the metacommand to query about.
 
 Type: <b>[UINT](/windows/win32/winprog/windows-data-types)</b>
 
-For single GPU operation, this is zero. If there are multiple GPU nodes, a bit is set to identify a node (the device's physical adapter). Each bit in the mask corresponds to a single node. Only 1 bit must be set. Refer to [Multi-adapter](/windows/win32/direct3d12/multi-engine).
+For single GPU operation, this is zero. If there are multiple GPU nodes, a bit is set to identify a node (the device's physical adapter). Each bit in the mask corresponds to a single node. Only 1 bit must be set. Refer to [Multi-adapter systems](/windows/win32/direct3d12/multi-engine).
 
 ### -field pQueryInputData
 

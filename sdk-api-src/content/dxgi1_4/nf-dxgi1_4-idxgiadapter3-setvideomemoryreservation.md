@@ -67,13 +67,13 @@ Type: <b>UINT</b>
 Specifies the device's physical adapter for which the video memory information is being set.
             For single-GPU operation, set this to zero.
             If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is being set.
-            See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
           
 
 
 ### -param MemorySegmentGroup [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group">DXGI_MEMORY_SEGMENT_GROUP</a></b>
+Type: <b><a href="/windows/win32/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group">DXGI_MEMORY_SEGMENT_GROUP</a></b>
 
 Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
           
@@ -91,10 +91,10 @@ Specifies a UINT64 that sets the minimum required physical memory, in bytes.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="/windows/win32/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
           
 
 
@@ -116,7 +116,7 @@ Applications are encouraged to set a video reservation to denote the amount of p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
+<a href="/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
  
 
  

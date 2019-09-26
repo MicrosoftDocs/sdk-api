@@ -61,13 +61,13 @@ Describes a compute pipeline state object.
 
 ### -field pRootSignature
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignature">ID3D12RootSignature</a> object.
+A pointer to the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature">ID3D12RootSignature</a> object.
           
 
 
 ### -field CS
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_bytecode">D3D12_SHADER_BYTECODE</a> structure that describes the compute shader.
+A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode">D3D12_SHADER_BYTECODE</a> structure that describes the compute shader.
           
 
 
@@ -75,18 +75,18 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_s
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) for which the compute pipeline state is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            Refer to <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
 
 
 ### -field CachedPSO
 
-A cached pipeline state object, as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state">D3D12_CACHED_PIPELINE_STATE</a> structure.
+A cached pipeline state object, as a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state">D3D12_CACHED_PIPELINE_STATE</a> structure.
           
 
 
 ### -field Flags
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_pipeline_state_flags">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
+A <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_pipeline_state_flags">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
           
 
 
@@ -94,7 +94,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_p
 
 
 
-This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate">CreateComputePipelineState</a>.
+This structure is used by <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate">CreateComputePipelineState</a>.
       
 
 
@@ -105,7 +105,7 @@ This structure is used by <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

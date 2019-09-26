@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Specifies an event that should be fired when the fence reaches a certain value.
 
-This member function is equivalent to the Direct3D 12 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">ID3D12Fence::SetEventOnCompletion</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">ID3D12Fence::SetEventOnCompletion</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ This member function is equivalent to the Direct3D 12 <a href="https://docs.micr
 
 ### -param Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
 The fence value when the event is to be signaled.
 
 
 ### -param hEvent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HANDLE</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">HANDLE</a></b>
 
 A handle to the event object.
 
@@ -81,7 +81,7 @@ A handle to the event object.
 
 Type: <b>HRESULT</b>
 
-This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have sufficient memory to store the event in a list. See <a href="/windows/win32/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -91,11 +91,11 @@ This method returns <b>E_OUTOFMEMORY</b> if the kernel components don’t have s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>
+<a href="/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine (Direct3D 12)</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

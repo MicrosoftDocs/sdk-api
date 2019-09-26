@@ -65,7 +65,7 @@ Opens a handle for shared resources, shared heaps, and shared fences, by using H
 Type: <b>HANDLE</b>
 
 The handle that was output by the call to 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
+            <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
           
 
 
@@ -78,13 +78,13 @@ The globally unique identifier (<b>GUID</b>) for one of the following interfaces
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
 </li>
 </ul>
 The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro.
@@ -101,13 +101,13 @@ A pointer to a memory block that receives a pointer to one of the following inte
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12heap">ID3D12Heap</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
 </li>
 </ul>
 
@@ -115,9 +115,9 @@ A pointer to a memory block that receives a pointer to one of the following inte
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -128,11 +128,11 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>
+<a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>
  
 
  

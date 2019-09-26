@@ -68,7 +68,7 @@ Applications should only transition to this state for accessing a resource acros
 Specifically, a resource must be in the COMMON state before being used on a COPY queue (when previous used on DIRECT/COMPUTE), and before being used on DIRECT/COMPUTE (when previously used on COPY). This restriction does not exist when accessing data between DIRECT and COMPUTE queues.
 
 The COMMON state can be used for all usages on a Copy queue using the implicit state transitions.
-            For more information, in <a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>, find "common".
+            For more information, in <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>, find "common".
           
 
 Additionally, textures must be in the COMMON state for CPU access to be legal, assuming the texture was created in a CPU-visible heap in the first place.
@@ -94,7 +94,7 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
 
             The resource is used as a render target.
-            A subresource must be in this state when it is rendered to or when it is cleared with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview">ID3D12GraphicsCommandList::ClearRenderTargetView</a>.
+            A subresource must be in this state when it is rendered to or when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview">ID3D12GraphicsCommandList::ClearRenderTargetView</a>.
             This is a write-only state. To read from a render target as a shader resource the resource must be in either  D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE or D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE.
 
 
@@ -103,20 +103,20 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
             The resource is used for unordered access.
             A subresource must be in this state when it is accessed by the 3D pipeline via an unordered access view.
-            A subresource must also be in this state when it is cleared with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>.
+            A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>.
             This is a read/write state.
           
 
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_WRITE
 
-DEPTH_WRITE is a state which is mutually exclusive with other states. It should be used for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview">ID3D12GraphicsCommandList::ClearDepthStencilView</a> when the flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a>) indicate a given subresource should be cleared (otherwise the subresource state doesn't matter), or when using it in a writable depth stencil view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_dsv_flags">D3D12_DSV_FLAGS</a>) when the PSO has depth write enabled (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a>).
+DEPTH_WRITE is a state which is mutually exclusive with other states. It should be used for <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview">ID3D12GraphicsCommandList::ClearDepthStencilView</a> when the flags (see <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a>) indicate a given subresource should be cleared (otherwise the subresource state doesn't matter), or when using it in a writable depth stencil view (see <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_dsv_flags">D3D12_DSV_FLAGS</a>) when the PSO has depth write enabled (see <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a>).
 
 
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_READ
 
-DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when the <i>DepthEnable</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> is false. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
+DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when the <i>DepthEnable</i> parameter of <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> is false. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
 
 
 ### -field D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
@@ -150,7 +150,7 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 
             The resource is used as an indirect argument.
-            Subresources must be in this state when they are used as the argument buffer passed to the indirect drawing method <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect">ID3D12GraphicsCommandList::ExecuteIndirect</a>.
+            Subresources must be in this state when they are used as the argument buffer passed to the indirect drawing method <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect">ID3D12GraphicsCommandList::ExecuteIndirect</a>.
             This is a read-only state.
           
 
@@ -191,7 +191,7 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 ### D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE
 
-Starting with Windows 10, version 1903 (10.0; Build 18362), indicates that the resource is a screen-space shading-rate image for variable-rate shading (VRS). For more info, see [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs).
+Starting with Windows 10, version 1903 (10.0; Build 18362), indicates that the resource is a screen-space shading-rate image for variable-rate shading (VRS). For more info, see [Variable-rate shading (VRS)](/windows/win32/direct3d12/vrs).
 
 ### -field D3D12_RESOURCE_STATE_GENERIC_READ
 
@@ -207,7 +207,7 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 ### -field D3D12_RESOURCE_STATE_PREDICATION
 
 
-            The resource is used for <a href="https://docs.microsoft.com/windows/desktop/direct3d12/predication">Predication</a>.
+            The resource is used for <a href="/windows/win32/direct3d12/predication">Predication</a>.
           
 
 
@@ -257,13 +257,13 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">CreateCommittedResource</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">CreateCommittedResource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource">CreateReservedResource</a>
 </li>
 </ul>
 
@@ -274,11 +274,11 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+<a href="/windows/win32/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
  
 
  

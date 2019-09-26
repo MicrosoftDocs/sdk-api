@@ -61,7 +61,7 @@ Describes the descriptor heap.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the types of descriptors in the heap.
+A <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the types of descriptors in the heap.
           
 
 
@@ -73,7 +73,7 @@ The number of descriptors in the heap.
 
 ### -field Flags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags">D3D12_DESCRIPTOR_HEAP_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for the heap.
+A combination of <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags">D3D12_DESCRIPTOR_HEAP_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for the heap.
           
 
 
@@ -83,7 +83,7 @@ For single-adapter operation, set this to zero.
             If there are multiple adapter nodes, set a bit to identify the node (one of the device's physical adapters) to which the descriptor heap applies.
             Each bit in the mask corresponds to a single node.
             Only one bit must be set.
-            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
           
 
 
@@ -96,10 +96,10 @@ This structure is used by the following:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc">ID3D12DescriptorHeap::GetDesc</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc">ID3D12DescriptorHeap::GetDesc</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap">ID3D12Device::CreateDescriptorHeap</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap">ID3D12Device::CreateDescriptorHeap</a>
 </li>
 </ul>
 
@@ -110,15 +110,15 @@ This structure is used by the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
+<a href="/windows/win32/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
+<a href="/windows/win32/direct3d12/descriptor-heaps">Descriptor Heaps</a>
  
 
  

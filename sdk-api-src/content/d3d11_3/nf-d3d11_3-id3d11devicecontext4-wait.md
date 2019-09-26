@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Waits until the specified fence reaches or exceeds the specified value before future work can begin.
 
-This member function is equivalent to the Direct3D 12 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 <div class="alert"><b>Note</b>  This method only applies to immediate-mode contexts.</div><div> </div>
 
 ## -parameters
@@ -64,26 +64,26 @@ This member function is equivalent to the Direct3D 12 <a href="https://docs.micr
 
 ### -param pFence
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a> object.
+A pointer to the <a href="/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a> object.
           
 
 
 ### -param Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
-The value that the device context is waiting for the fence to reach or exceed.  So when  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11fence-getcompletedvalue">ID3D11Fence::GetCompletedValue</a> is greater than or equal to <i>Value</i>, the wait is terminated.
+The value that the device context is waiting for the fence to reach or exceed.  So when  <a href="/windows/win32/api/d3d11_3/nf-d3d11_3-id3d11fence-getcompletedvalue">ID3D11Fence::GetCompletedValue</a> is greater than or equal to <i>Value</i>, the wait is terminated.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="/windows/win32/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
           
 
 
@@ -94,11 +94,11 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4">ID3D11DeviceContext4</a>
+<a href="/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4">ID3D11DeviceContext4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine (Direct3D 12)</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

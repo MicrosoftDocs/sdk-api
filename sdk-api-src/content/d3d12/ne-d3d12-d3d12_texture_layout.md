@@ -67,7 +67,7 @@ Indicates that the layout is unknown, and is likely adapter-dependent.
               Prefer this choice unless certain functionality is required from another texture layout.
             
 
-Zero-copy texture upload optimizations exist for UMA architectures; see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">ID3D12Resource::WriteToSubresource</a>.
+Zero-copy texture upload optimizations exist for UMA architectures; see <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">ID3D12Resource::WriteToSubresource</a>.
             
 
 
@@ -94,7 +94,7 @@ Many restrictions apply, because this layout is generally not efficient for exte
 <li>Only the following texture properties are supported:
                 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE_2D.
+<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE_2D.
                   </li>
 <li>A single mip level.
                   </li>
@@ -104,33 +104,33 @@ Many restrictions apply, because this layout is generally not efficient for exte
                   </li>
 <li>Non-MSAA.
                   </li>
-<li>No <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL.
+<li>No <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL.
                   </li>
 <li>The format cannot be a YUV format.
                   </li>
 </ul>
 </li>
-<li>The texture must be created on a heap with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAG</a>_SHARED_CROSS_ADAPTER.
+<li>The texture must be created on a heap with <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAG</a>_SHARED_CROSS_ADAPTER.
               </li>
 </ul>
-Buffers are created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout">D3D12_TEXTURE_LAYOUT</a>_ROW_MAJOR, because row-major texture data can be located in them without creating a texture object.
+Buffers are created with <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_texture_layout">D3D12_TEXTURE_LAYOUT</a>_ROW_MAJOR, because row-major texture data can be located in them without creating a texture object.
               This is commonly used for uploading or reading back texture data, especially for discrete/NUMA adapters.
               However, <b>D3D12_TEXTURE_LAYOUT</b>_ROW_MAJOR can also be used when marshaling texture data between GPUs or adapters.
-              For examples of usage with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">ID3D12GraphicsCommandList::CopyTextureRegion</a>, see some of the following topics:
+              For examples of usage with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">ID3D12GraphicsCommandList::CopyTextureRegion</a>, see some of the following topics:
             
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/default-texture-mapping">Default Texture Mapping and Standard Swizzle</a>
+<a href="/windows/win32/direct3d12/default-texture-mapping">Default Texture Mapping and Standard Swizzle</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/predication">Predication</a>
+<a href="/windows/win32/direct3d12/predication">Predication</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/upload-and-readback-of-texture-data">Uploading Texture Data</a>
+<a href="/windows/win32/direct3d12/upload-and-readback-of-texture-data">Uploading Texture Data</a>
 </li>
 </ul>
 
@@ -146,25 +146,25 @@ This texture layout is arranged into contiguous 64KB regions, also known as tile
               The layout of texels within the tile is undefined.
               Each subresource immediately follows where the previous subresource end, and the subresource order follows the same sequence as subresource ordinals.
               However, tail mip packing is adapter-specific.
-              For more details, see tiled resource tier and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">ID3D12Device::GetResourceTiling</a>.
+              For more details, see tiled resource tier and <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">ID3D12Device::GetResourceTiling</a>.
             
 
 This texture layout enables partially resident or sparse texture scenarios when used together with virtual memory page mapping functionality.
-              This texture layout must be used together with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a>to enable the usage of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings">ID3D12CommandQueue::UpdateTileMappings</a>.
+              This texture layout must be used together with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a>to enable the usage of <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings">ID3D12CommandQueue::UpdateTileMappings</a>.
             
 
 Some restrictions apply to textures with this layout:
             
 
 <ul>
-<li>The adapter must support <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier">D3D12_TILED_RESOURCES_TIER</a> 1 or greater.
+<li>The adapter must support <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier">D3D12_TILED_RESOURCES_TIER</a> 1 or greater.
               </li>
 <li>64KB alignment must be used.
               </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE1D is not supported, nor are all formats.
+<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE1D is not supported, nor are all formats.
               </li>
-<li>The tiled resource tier indicates whether textures with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE3D is supported.
+<li>The tiled resource tier indicates whether textures with <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE3D is supported.
               </li>
 </ul>
 
@@ -188,14 +188,14 @@ The restrictions for this layout are that the following aren't supported:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE1D
+<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>_TEXTURE1D
               </li>
 <li>Multi-sample anti-aliasing (MSAA)
               </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL
+<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL
               </li>
-<li>Formats within the <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
+<li>Formats within the <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
               </li>
 </ul>
 
@@ -203,11 +203,11 @@ The restrictions for this layout are that the following aren't supported:
 
 
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> structure.
+This enum is used by the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> structure.
       
 
 This enumeration controls the swizzle pattern of default textures and enable map support on default textures.
-          Callers must query <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> to ensure that each option is supported.
+          Callers must query <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> to ensure that each option is supported.
         
 
 The standard swizzle formats applies within each page-sized chunk, and pages are laid out in linear order with respect to one another.
@@ -235,15 +235,15 @@ To compute the swizzled address, the following code could be used (where the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
+<a href="/windows/win32/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/default-texture-mapping">UMA Optimizations: CPU Accessible Textures and Standard Swizzle</a>
+<a href="/windows/win32/direct3d12/default-texture-mapping">UMA Optimizations: CPU Accessible Textures and Standard Swizzle</a>
  
 
  

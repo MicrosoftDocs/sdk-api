@@ -68,15 +68,15 @@ For single-GPU operation, set this to zero.
           If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter).
           Each bit in the mask corresponds to a single node.
           Only 1 bit must be set.
-          See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+          See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
         
 
 
 ### -param heapType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE</a>-typed value that specifies the heap to get properties for.
+A <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE</a>-typed value that specifies the heap to get properties for.
           D3D12_HEAP_TYPE_CUSTOM is not supported as a parameter value.
         
 
@@ -85,13 +85,13 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_h
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a></b>
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a> structure that provides properties for the specified heap.
+Returns a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a> structure that provides properties for the specified heap.
             The <b>Type</b> member of the returned D3D12_HEAP_PROPERTIES is always D3D12_HEAP_TYPE_CUSTOM.
           
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>::UMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
+When <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>::UMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
           
 
 <table>
@@ -177,7 +177,7 @@ When D3D12_FEATURE_DATA_ARCHITECTURE::UMA is TRUE and D3D12_FEATURE_DATA_ARCHITE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
  
 
  

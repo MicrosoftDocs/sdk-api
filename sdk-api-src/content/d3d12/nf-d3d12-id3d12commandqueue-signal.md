@@ -61,15 +61,15 @@ Updates a fence to a specified value.
 
 ### -param pFence
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> object.
+A pointer to the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> object.
           
 
 
 ### -param Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
 The value to set the fence to.
 
@@ -78,9 +78,9 @@ The value to set the fence to.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -90,7 +90,7 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-Use this method to set a fence value from the GPU side. Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-signal">ID3D12Fence::Signal</a> to set a fence from the CPU side.
+Use this method to set a fence value from the GPU side. Use <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal">ID3D12Fence::Signal</a> to set a fence from the CPU side.
 
 
 #### Examples
@@ -121,7 +121,7 @@ m_renderContextFenceValue++;
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -132,11 +132,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  

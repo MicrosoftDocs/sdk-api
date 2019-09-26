@@ -81,10 +81,10 @@ This barrier completes a transition, setting a new state and restoring active ac
 
 
 
-Split barriers allow a single transition to be split into begin and end halves (refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>).
+Split barriers allow a single transition to be split into begin and end halves (refer to <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>).
 
 This enum is used by the <i>Flags</i> member of the
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_barrier">D3D12_RESOURCE_BARRIER</a>structure.
+          <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier">D3D12_RESOURCE_BARRIER</a>structure.
          
 
 
@@ -95,15 +95,15 @@ This enum is used by the <i>Flags</i> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier">ResourceBarrier</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier">ResourceBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+<a href="/windows/win32/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
  
 
  

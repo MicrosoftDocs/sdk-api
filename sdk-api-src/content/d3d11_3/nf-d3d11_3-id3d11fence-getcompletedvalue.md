@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Gets the current value of the fence.
 
-This member function is equivalent to the Direct3D 12 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ This member function is equivalent to the Direct3D 12 <a href="https://docs.micr
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT64</a></b>
 
 Returns the current value of the fence.
 
@@ -79,11 +79,11 @@ Returns the current value of the fence.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>
+<a href="/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11fence">ID3D11Fence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine (Direct3D 12)</a>
+<a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
  
 
  
