@@ -6,6 +6,7 @@
     "d3d11.h",
     "d3d11_1.h",
     "d3d11_4.h",
+    "d3d12video.h",
     "d3d9.h",
     "d3d9types.h",
     "d3d9caps.h",

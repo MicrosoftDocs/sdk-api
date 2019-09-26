@@ -1,0 +1,62 @@
+---
+UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
+title: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
+author: windows-sdk-content
+description: Retrieves the list of supported profiles.
+tech.root: mf
+ms.assetid: a6721430-bde7-473f-87de-8257bf621a8e
+ms.author: windowssdkdev
+ms.date: 05/28/2019 
+ms.topic: struct
+ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES, D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES, 
+req.header: d3d12video.h
+req.include-header:
+req.redist:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll: d3d12.dll
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
+topic_type: 
+ - apiref
+api_type: 
+ - HeaderDef
+api_location: 
+ - d3d12video.h
+api_name: 
+ - D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
+product: Windows
+targetos: Windows
+---
+
+# D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES structure
+
+## -description
+
+Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILES](ne-d3d12video-d3d12_feature_video). Retrieves the list of supported profiles.
+
+## -struct-fields
+
+### -field NodeIndex
+ 
+In multi-adapter operation, identifies the physical adapter of the device this operation applies to.
+
+### -field ProfileCount
+
+The number of profiles to retrieve.  This number must match the value returned from a call [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport) when the feature specified is [D3D12\_FEATURE\_VIDEO\_DECODE\_PROFILE\_COUNT](ne-d3d12video-d3d12_feature_video).
+ 
+### -field pProfiles
+
+A list of GUIDs representing the supported profiles.  The calling application must allocate storage for the profile list before calling **CheckFeatureSupport**.
+
+## -remarks
+
+## -see-also
+
+[D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_video)

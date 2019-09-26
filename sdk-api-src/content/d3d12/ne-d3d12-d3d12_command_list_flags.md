@@ -1,0 +1,49 @@
+---
+UID: NE:d3d12.D3D12_COMMAND_LIST_FLAGS
+title: D3D12_COMMAND_LIST_FLAGS
+author: windows-sdk-content
+description: 
+tech.root:
+ms.assetid: e9f512c9-32f5-46a4-a6a1-a0f203ec527b
+ms.author: windowssdkdev
+ms.date: 
+ms.topic: enum
+ms.keywords: D3D12_COMMAND_LIST_FLAGS, D3D12_COMMAND_LIST_FLAGS, 
+req.header: d3d12.h
+req.include-header:
+req.redist:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: D3D12_COMMAND_LIST_FLAGS
+topic_type: 
+ - apiref
+api_type: 
+ - HeaderDef
+api_location: 
+ - d3d12.h
+api_name: 
+ - D3D12_COMMAND_LIST_FLAGS
+product: Windows
+targetos: Windows
+---
+
+# D3D12_COMMAND_LIST_FLAGS enumeration
+
+## -description
+
+Specifies flags to be used when creating a command list.
+
+## -enum-fields
+
+### -field D3D12_COMMAND_LIST_FLAG_NONE 
+
+No flags specified.
+
+## -remarks
+
+## -see-also

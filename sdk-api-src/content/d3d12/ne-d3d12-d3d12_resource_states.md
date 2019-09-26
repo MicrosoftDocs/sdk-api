@@ -214,14 +214,14 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 ### -field D3D12_RESOURCE_STATE_VIDEO_DECODE_READ
 
 
-            The resource is used to read compressed video data during video decoding; that is, the resource is used as the source in a decode operation.
+            The resource is used as a source in a decode operation. Examples include reading the compressed bitstream and reading from decode references,
           
 
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE
 
 
-            The resource is used to write decompressed video data during video decoding; that is, the resource is used as the destination in a decode operation.
+            The resource is used as a destination in the decode operation. This state is used for decode output and histograms.
           
 
 
@@ -240,11 +240,13 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_READ
+        
+            The resource is used as the source in an encode operation. This state is used for the input and reference of motion estimation.
 
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_WRITE
 
-
+            This resource is used as the destination in an encode operation. This state is used for the destination texture of a resolve motion vector heap operation.
 
 
 ## -remarks
