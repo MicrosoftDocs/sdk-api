@@ -1,0 +1,67 @@
+---
+UID: NN:d3d12video.ID3D12VideoDecodeCommandList1
+title: ID3D12VideoDecodeCommandList1
+author: windows-sdk-content
+description: Encapsulates a list of graphics commands for video decoding.
+tech.root: mf
+ms.assetid: 31a1f145-9be2-4d05-8a20-4d9906471fb6
+ms.author: windowssdkdev
+ms.date: 05/28/2019 
+ms.topic: interface
+req.header: d3d12video.h
+req.include-header:
+req.redist:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topic_type: 
+ - apiref
+api_type: 
+ - COM
+api_location: 
+ - d3d12video.h
+api_name: 
+ - ID3D12VideoDecodeCommandList1
+product: Windows
+targetos: Windows
+---
+
+# ID3D12VideoDecodeCommandList1 interface
+
+## -description
+
+Encapsulates a list of graphics commands for video decoding.
+
+
+## -inheritance
+
+ID3D12VideoDecodeCommandList1 interits from [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist.md). 
+
+## -members
+
+<p>ID3D12VideoDecodeCommandList1 has these methods.</p>
+<table>
+	<tr>
+		<td>Method</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>DecodeFrame1</td>
+		<td>TBD</td>
+	</tr>
+</table>
+
+## -remarks
+
+## -see-also
+
+- [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist)
+- [ID3D12VideoDecodeCommandList2](nn-d3d12video-id3d12videodecodecommandlist2)
