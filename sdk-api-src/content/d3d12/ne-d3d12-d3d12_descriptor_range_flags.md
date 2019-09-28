@@ -90,7 +90,7 @@ Both descriptors and data are static. This maximizes the potential for driver op
 
 ### -field D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_STATIC_KEEPING_BUFFER_BOUNDS_CHECKS
 
-
+Provides the same benefits as static descriptors (see **D3D12_DESCRIPTOR_RANGE_FLAG_NONE**), except that the driver is not allowed to promote buffers to root descriptors as an optimization, because they must maintain bounds checks and root descriptors do not have those.
 
 
 ## -remarks
