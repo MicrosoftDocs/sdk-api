@@ -38,7 +38,6 @@ api_location:
  - rometadataapi.h
 api_name:
  - IMetaDataImport.CloseEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

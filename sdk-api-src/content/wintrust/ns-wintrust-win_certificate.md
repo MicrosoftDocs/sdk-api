@@ -38,7 +38,6 @@ api_location:
  - Wintrust.h
 api_name:
  - WIN_CERTIFICATE
-product: Windows
 targetos: Windows
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Avrfsdk.h
 api_name:
  - eUserAllocationState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

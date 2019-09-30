@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.IsFirstAssignment
  - ITsSbClientConnection.get_IsFirstAssignment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

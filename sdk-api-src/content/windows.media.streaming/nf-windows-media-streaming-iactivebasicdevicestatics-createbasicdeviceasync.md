@@ -38,7 +38,6 @@ api_location:
  - PlayToDevice.dll
 api_name:
  - IActiveBasicDeviceStatics.CreateBasicDeviceAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

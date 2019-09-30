@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_MEDIA_WRITE_PROTECT_STATE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_MEDIA_WRITE_PROTECT_STATE, *PIMAPI_MEDIA_WRITE_PROTECT_STATE
 req.redist: 

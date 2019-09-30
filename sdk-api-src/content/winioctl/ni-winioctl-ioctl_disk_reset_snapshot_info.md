@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - IOCTL_DISK_RESET_SNAPSHOT_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

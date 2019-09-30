@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_FULL_ENUMERATION_ACTION
-product: Windows
 targetos: Windows
 req.typenames: SYNC_FULL_ENUMERATION_ACTION
 req.redist: 

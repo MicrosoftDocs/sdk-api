@@ -38,7 +38,6 @@ api_location:
  - RdpEncom.dll
 api_name:
  - IRDPSRAPITransportStreamEvents.OnStreamClosed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

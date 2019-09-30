@@ -38,7 +38,6 @@ api_location:
 - Advapi32.dll
 api_name:
 - MSChapSrvChangePassword2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

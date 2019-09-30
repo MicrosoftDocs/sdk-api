@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.Debug
  - IFaxDeviceProvider.get_Debug
  - IFaxDeviceProvider.get_Debug
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_READ_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: OPC_READ_FLAGS
 req.redist: 

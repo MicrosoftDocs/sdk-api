@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - INetDiagHelper.GetHigherHypotheses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

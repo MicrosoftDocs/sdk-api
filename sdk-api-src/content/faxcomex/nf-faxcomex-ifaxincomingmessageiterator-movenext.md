@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxIncomingMessageIterator.MoveNext
  - IFaxIncomingMessageIterator.MoveNext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

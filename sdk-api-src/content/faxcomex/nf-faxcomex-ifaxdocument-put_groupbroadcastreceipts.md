@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_GroupBroadcastReceipts
  - IFaxDocument.get_GroupBroadcastReceipts
  - IFaxDocument.put_GroupBroadcastReceipts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

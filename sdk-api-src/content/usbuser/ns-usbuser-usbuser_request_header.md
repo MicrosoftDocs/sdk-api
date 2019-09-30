@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USBUSER_REQUEST_HEADER
-product: Windows
 targetos: Windows
 req.typenames: USBUSER_REQUEST_HEADER, *PUSBUSER_REQUEST_HEADER
 req.redist: 

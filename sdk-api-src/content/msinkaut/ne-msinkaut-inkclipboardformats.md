@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkClipboardFormatFlags
-product: Windows
 targetos: Windows
 req.typenames: InkClipboardFormats
 req.redist: 

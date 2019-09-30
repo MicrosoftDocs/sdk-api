@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_SYSTEM_STORE_RELOCATE_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_SYSTEM_STORE_RELOCATE_PARA, *PCERT_SYSTEM_STORE_RELOCATE_PARA
 req.redist: 

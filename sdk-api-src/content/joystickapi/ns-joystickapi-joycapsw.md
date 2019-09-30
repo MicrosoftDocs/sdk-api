@@ -40,7 +40,6 @@ api_name:
  - JOYCAPS
  - JOYCAPSA
  - JOYCAPSW
-product: Windows
 targetos: Windows
 req.typenames: JOYCAPSW, *PJOYCAPSW, *NPJOYCAPSW, *LPJOYCAPSW
 req.redist: 

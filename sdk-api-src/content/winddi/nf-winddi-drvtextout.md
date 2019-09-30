@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DrvTextOut
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

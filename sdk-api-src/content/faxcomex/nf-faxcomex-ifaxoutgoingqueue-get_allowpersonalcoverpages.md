@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingQueue.AllowPersonalCoverPages
  - IFaxOutgoingQueue.get_AllowPersonalCoverPages
  - IFaxOutgoingQueue.put_AllowPersonalCoverPages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

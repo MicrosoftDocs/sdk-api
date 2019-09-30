@@ -43,7 +43,6 @@ api_location:
 api_name:
 - ILFree
 - HashTable_CoTaskMemFreeCB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

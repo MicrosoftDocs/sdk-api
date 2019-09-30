@@ -38,7 +38,6 @@ api_location:
 - d3d9caps.h
 api_name:
 - D3DCONTENTPROTECTIONCAPS
-product: Windows
 targetos: Windows
 req.typenames: D3DCONTENTPROTECTIONCAPS
 req.redist: 

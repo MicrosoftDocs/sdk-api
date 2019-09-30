@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_WMI_STATUS_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_STATUS_CHANGE, *PBATTERY_WMI_STATUS_CHANGE
 req.redist: 

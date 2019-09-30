@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMUDECN4.XMUDECN4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DDHAL_WAITFORVERTICALBLANKDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA'
 req.redist: 

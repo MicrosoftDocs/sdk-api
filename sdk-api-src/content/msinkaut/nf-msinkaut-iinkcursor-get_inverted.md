@@ -41,7 +41,6 @@ api_name:
  - IInkCursor.Inverted
  - IInkCursor.get_Inverted
  - IInkCursor.get_Inverted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

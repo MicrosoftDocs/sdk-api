@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWbemObjectSink.Indicate
  - IWbemObjectSinkEx.Indicate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

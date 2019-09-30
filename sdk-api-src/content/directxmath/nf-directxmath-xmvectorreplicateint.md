@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorReplicateInt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

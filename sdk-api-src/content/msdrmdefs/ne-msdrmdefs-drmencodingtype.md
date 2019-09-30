@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMENCODINGTYPE
-product: Windows
 targetos: Windows
 req.typenames: DRMENCODINGTYPE
 req.redist: 

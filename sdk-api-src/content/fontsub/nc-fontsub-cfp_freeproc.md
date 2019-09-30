@@ -38,7 +38,6 @@ api_location:
  - FontSub.h
 api_name:
  - CFP_FREEPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

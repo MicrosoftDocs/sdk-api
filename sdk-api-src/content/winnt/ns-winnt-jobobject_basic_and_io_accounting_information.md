@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, *PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 req.redist: 

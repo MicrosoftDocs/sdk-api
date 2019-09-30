@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
 req.redist: 

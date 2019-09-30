@@ -38,7 +38,6 @@ api_location:
  - CallObj.h
 api_name:
  - CALLFRAME_COPY
-product: Windows
 targetos: Windows
 req.typenames: CALLFRAME_COPY
 req.redist: 

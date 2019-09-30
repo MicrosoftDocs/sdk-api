@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_PUSH_BYTES_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

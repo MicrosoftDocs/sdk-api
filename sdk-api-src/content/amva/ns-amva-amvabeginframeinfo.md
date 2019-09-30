@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVABeginFrameInfo
-product: Windows
 targetos: Windows
 req.typenames: AMVABeginFrameInfo, *LPAMVABeginFrameInfo
 req.redist: 

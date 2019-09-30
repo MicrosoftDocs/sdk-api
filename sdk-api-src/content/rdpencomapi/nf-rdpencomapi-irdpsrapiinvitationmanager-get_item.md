@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitationManager.Item
  - IRDPSRAPIInvitationManager.get_Item
  - RDPSRAPIInvitationManager.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - GdiplusColorMatrix.h
 api_name:
  - HistogramFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

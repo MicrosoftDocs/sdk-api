@@ -38,7 +38,6 @@ api_location:
  - mscandui.dll
 api_name:
  - ITfContextKeyEventSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -40,7 +40,6 @@ api_name:
  - IRunningTask.EnginePID
  - IRunningTask.get_EnginePID
  - TBD.EnginePID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

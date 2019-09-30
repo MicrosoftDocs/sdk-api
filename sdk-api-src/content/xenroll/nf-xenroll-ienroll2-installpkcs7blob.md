@@ -38,7 +38,6 @@ api_location:
  - Xenroll.dll
 api_name:
  - IEnroll2.InstallPKCS7Blob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyClrCompat
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyClrCompat
 req.redist: 

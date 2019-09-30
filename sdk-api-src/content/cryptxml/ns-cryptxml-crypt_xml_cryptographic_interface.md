@@ -38,7 +38,6 @@ api_location:
  - Cryptxml.h
 api_name:
  - CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 req.redist: 

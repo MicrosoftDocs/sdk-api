@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnIncomingJobRemoved
  - IFaxServerNotify2.OnIncomingJobRemoved
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

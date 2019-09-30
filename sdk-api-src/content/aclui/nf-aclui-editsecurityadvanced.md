@@ -38,7 +38,6 @@ api_location:
 - Aclui.dll
 api_name:
 - EditSecurityAdvanced
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

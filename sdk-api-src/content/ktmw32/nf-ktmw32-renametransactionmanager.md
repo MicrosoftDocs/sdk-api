@@ -38,7 +38,6 @@ api_location:
  - KtmW32.dll
 api_name:
  - RenameTransactionManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

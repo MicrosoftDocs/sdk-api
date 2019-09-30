@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - DSA_SetItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - gdipluscolor.h
 api_name:
  - Color
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

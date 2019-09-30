@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - WAVEFORMAT
-product: Windows
 targetos: Windows
 req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
 req.redist: 

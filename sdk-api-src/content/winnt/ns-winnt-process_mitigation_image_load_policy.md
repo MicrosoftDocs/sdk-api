@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESS_MITIGATION_IMAGE_LOAD_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_IMAGE_LOAD_POLICY, *PPROCESS_MITIGATION_IMAGE_LOAD_POLICY
 req.redist: 

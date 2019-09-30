@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.SecurityDescriptor
  - IRegistrationInfo.get_SecurityDescriptor
  - IRegistrationInfo.put_SecurityDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

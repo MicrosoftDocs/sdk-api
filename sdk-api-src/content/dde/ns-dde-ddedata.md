@@ -38,7 +38,6 @@ api_location:
  - Dde.h
 api_name:
  - DDEDATA
-product: Windows
 targetos: Windows
 req.typenames: DDEDATA
 req.redist: 

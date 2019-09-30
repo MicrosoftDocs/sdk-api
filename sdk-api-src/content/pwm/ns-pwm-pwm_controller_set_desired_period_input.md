@@ -38,7 +38,6 @@ api_location:
  - Pwm.h
 api_name:
  - PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
-product: Windows
 targetos: Windows
 req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 req.redist: 

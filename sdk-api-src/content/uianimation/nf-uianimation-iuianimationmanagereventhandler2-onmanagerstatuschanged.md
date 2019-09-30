@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationManagerEventHandler2.OnManagerStatusChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

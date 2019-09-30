@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_IgnorePressure
  - InkDrawingAttributes.get_IgnorePressure
  - InkDrawingAttributes.put_IgnorePressure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

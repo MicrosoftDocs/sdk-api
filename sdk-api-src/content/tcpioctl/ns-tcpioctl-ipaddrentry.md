@@ -38,7 +38,6 @@ api_location:
  - Tcpioctl.h
 api_name:
  - IPAddrEntry
-product: Windows
 targetos: Windows
 req.typenames: IPAddrEntry
 req.redist: 

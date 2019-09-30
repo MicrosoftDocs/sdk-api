@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPPlayState
-product: Windows
 targetos: Windows
 req.typenames: WMPPlayState
 req.redist: 

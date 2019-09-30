@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IWriteEngine2EventArgs.get_UsedSystemBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

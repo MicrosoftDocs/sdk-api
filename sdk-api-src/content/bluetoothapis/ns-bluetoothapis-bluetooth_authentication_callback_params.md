@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, *PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Imepad.h
 api_name:
  - IMEAPPLETUI
-product: Windows
 targetos: Windows
 req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
 req.redist: 

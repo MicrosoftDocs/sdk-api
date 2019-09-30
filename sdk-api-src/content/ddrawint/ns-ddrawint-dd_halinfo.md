@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_HALINFO
-product: Windows
 targetos: Windows
 req.typenames: DD_HALINFO, *PDD_HALINFO
 req.redist: 

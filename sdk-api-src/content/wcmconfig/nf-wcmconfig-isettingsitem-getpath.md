@@ -38,7 +38,6 @@ api_location:
  - SMIEngine.dll
 api_name:
  - ISettingsItem.GetPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

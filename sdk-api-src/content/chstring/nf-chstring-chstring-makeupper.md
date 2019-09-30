@@ -41,7 +41,6 @@ api_name:
  - CHString.MakeUpper
  - ?MakeUpper@CHString@@QAEXXZ
  - ?MakeUpper@CHString@@QEAAXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

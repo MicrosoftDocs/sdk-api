@@ -38,7 +38,6 @@ api_location:
  - Wtsprotocol.h
 api_name:
  - IWTSProtocolConnectionCallback.StopScreenUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

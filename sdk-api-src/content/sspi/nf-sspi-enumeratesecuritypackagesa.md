@@ -40,7 +40,6 @@ api_name:
 - EnumerateSecurityPackages
 - EnumerateSecurityPackagesA
 - EnumerateSecurityPackagesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

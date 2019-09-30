@@ -40,7 +40,6 @@ api_name:
  - IRegisteredTask.Enabled
  - IRegisteredTask.get_Enabled
  - IRegisteredTask.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

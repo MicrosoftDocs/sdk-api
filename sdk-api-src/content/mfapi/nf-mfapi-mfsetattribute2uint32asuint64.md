@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFSetAttribute2UINT32asUINT64
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

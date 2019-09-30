@@ -38,7 +38,6 @@ api_location:
  - Mfidl.h
 api_name:
  - MF_MEDIASOURCE_STATUS_INFO
-product: Windows
 targetos: Windows
 req.typenames: MF_MEDIASOURCE_STATUS_INFO
 req.redist: 

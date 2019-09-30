@@ -38,7 +38,6 @@ api_location:
  - CallObj.h
 api_name:
  - CALLFRAME_NULL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

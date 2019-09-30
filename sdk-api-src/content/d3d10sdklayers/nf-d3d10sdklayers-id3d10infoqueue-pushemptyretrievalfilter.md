@@ -38,7 +38,6 @@ api_location:
  - D3D10SDKLayers.h
 api_name:
  - ID3D10InfoQueue.PushEmptyRetrievalFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

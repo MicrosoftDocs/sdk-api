@@ -42,7 +42,6 @@ api_name:
  - CryptAcquireContext
  - CryptAcquireContextA
  - CryptAcquireContextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDREGISTERCALLBACK
-product: Windows
 targetos: Windows
 req.typenames: DDREGISTERCALLBACK, *LPDDREGISTERCALLBACK
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ISCSI_CONNECTION_INFO
  - ISCSI_CONNECTION_INFOA
  - ISCSI_CONNECTION_INFOW
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_CONNECTION_INFOW, *PISCSI_CONNECTION_INFOW
 req.redist: 

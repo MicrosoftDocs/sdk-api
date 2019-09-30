@@ -38,7 +38,6 @@ api_location:
  - recapis.h
 api_name:
  - GetUnicodeRanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

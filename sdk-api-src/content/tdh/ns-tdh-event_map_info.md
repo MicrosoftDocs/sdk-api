@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - EVENT_MAP_INFO
-product: Windows
 targetos: Windows
 req.typenames: EVENT_MAP_INFO
 req.redist: 

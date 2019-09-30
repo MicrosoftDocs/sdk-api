@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_PUBLIC_KEY_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_PUBLIC_KEY_INFO, *PCERT_PUBLIC_KEY_INFO
 req.redist: 

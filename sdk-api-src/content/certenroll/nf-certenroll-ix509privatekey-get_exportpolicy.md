@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.ExportPolicy
  - IX509PrivateKey.get_ExportPolicy
  - IX509PrivateKey.put_ExportPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

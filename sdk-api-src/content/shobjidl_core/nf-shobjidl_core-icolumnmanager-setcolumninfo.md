@@ -38,7 +38,6 @@ api_location:
 - Shell32.dll
 api_name:
 - IColumnManager.SetColumnInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

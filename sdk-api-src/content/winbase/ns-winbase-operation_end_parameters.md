@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - OPERATION_END_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPERATION_END_PARAMETERS, *POPERATION_END_PARAMETERS
 req.redist: 

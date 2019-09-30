@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_AUTH_RESTART_REASON
-product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON
 req.redist: 

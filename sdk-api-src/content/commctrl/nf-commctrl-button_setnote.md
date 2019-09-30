@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Button_SetNote
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - X509KeyUsageFlags
-product: Windows
 targetos: Windows
 req.typenames: X509KeyUsageFlags
 req.redist: 

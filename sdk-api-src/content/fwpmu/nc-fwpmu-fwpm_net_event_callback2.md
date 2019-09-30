@@ -38,7 +38,6 @@ api_location:
  - fwpmu.h
 api_name:
  - FWPM_NET_EVENT_CALLBACK2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

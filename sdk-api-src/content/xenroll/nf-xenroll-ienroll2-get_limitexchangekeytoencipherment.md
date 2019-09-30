@@ -43,7 +43,6 @@ api_name:
  - IEnroll4.LimitExchangeKeyToEncipherment
  - IEnroll4.get_LimitExchangeKeyToEncipherment
  - IEnroll4.put_LimitExchangeKeyToEncipherment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - CLASS_MEDIA_CHANGE_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
 req.redist: 

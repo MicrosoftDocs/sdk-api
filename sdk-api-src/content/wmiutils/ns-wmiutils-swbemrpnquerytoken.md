@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.h
 api_name:
  - SWbemRpnQueryToken
-product: Windows
 targetos: Windows
 req.typenames: SWbemRpnQueryToken
 req.redist: 

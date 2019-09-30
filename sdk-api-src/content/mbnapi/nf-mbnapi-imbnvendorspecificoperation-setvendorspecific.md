@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnVendorSpecificOperation.SetVendorSpecific
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

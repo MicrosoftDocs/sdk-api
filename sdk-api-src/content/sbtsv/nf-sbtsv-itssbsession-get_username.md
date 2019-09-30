@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbSession.Username
  - ITsSbSession.get_Username
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

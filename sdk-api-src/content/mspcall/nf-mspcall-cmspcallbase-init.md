@@ -38,7 +38,6 @@ api_location:
  - Mspcall.h
 api_name:
  - CMSPCallBase.Init
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

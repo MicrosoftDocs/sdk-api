@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CM_Delete_Device_Interface_Key
  - CM_Delete_Device_Interface_KeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

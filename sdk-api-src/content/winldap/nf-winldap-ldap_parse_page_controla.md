@@ -40,7 +40,6 @@ api_name:
  - ldap_parse_page_control
  - ldap_parse_page_controlA
  - ldap_parse_page_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

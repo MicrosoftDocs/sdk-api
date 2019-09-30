@@ -40,7 +40,6 @@ api_name:
  - IEnroll4.ThumbPrintWStr
  - IEnroll4.get_ThumbPrintWStr
  - IEnroll4.put_ThumbPrintWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

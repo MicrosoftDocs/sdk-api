@@ -47,7 +47,6 @@ api_name:
 - FindFirstFileEx
 - FindFirstFileExA
 - FindFirstFileExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POLICY_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POLICY_ARRAY, *PDHCP_POLICY_ARRAY, *LPDHCP_POLICY_ARRAY
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerExit.EnumerateExtensionsClose
  - CCertServerExit.EnumerateExtensionsClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

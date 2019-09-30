@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 req.redist: 

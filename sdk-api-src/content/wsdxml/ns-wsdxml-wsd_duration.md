@@ -38,7 +38,6 @@ api_location:
  - WsdXml.h
 api_name:
  - WSD_DURATION
-product: Windows
 targetos: Windows
 req.typenames: WSD_DURATION
 req.redist: 

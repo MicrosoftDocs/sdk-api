@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRROUNDRECT
-product: Windows
 targetos: Windows
 req.typenames: EMRROUNDRECT, *PEMRROUNDRECT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREXCLUDECLIPRECT
-product: Windows
 targetos: Windows
 req.typenames: EMREXCLUDECLIPRECT, *PEMREXCLUDECLIPRECT, EMRINTERSECTCLIPRECT, *PEMRINTERSECTCLIPRECT
 req.redist: 

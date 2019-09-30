@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - IATSC_VCT.GetVersionNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

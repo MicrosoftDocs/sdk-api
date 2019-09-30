@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.HeaderFields
  - IEmailAction.get_HeaderFields
  - IEmailAction.put_HeaderFields
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

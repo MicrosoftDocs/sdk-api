@@ -38,7 +38,6 @@ api_location:
  - Mmreg.h
 api_name:
  - WAVEFORMATEXTENSIBLE
-product: Windows
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 req.redist: 

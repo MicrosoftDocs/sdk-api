@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeClientId.ProcessName
  - IX509AttributeClientId.get_ProcessName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lmshare.h
 api_name:
  - CONNECTION_INFO_1
-product: Windows
 targetos: Windows
 req.typenames: CONNECTION_INFO_1, *PCONNECTION_INFO_1, *LPCONNECTION_INFO_1
 req.redist: 

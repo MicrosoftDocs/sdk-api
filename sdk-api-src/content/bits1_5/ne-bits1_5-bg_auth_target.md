@@ -38,7 +38,6 @@ api_location:
  - Bits1_5.h
 api_name:
  - BG_AUTH_TARGET
-product: Windows
 targetos: Windows
 req.typenames: BG_AUTH_TARGET
 req.redist: BITS 1.5 on  Windows XP

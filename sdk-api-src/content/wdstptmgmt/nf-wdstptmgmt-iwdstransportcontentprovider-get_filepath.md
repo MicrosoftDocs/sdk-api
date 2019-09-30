@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportContentProvider.FilePath
  - IWdsTransportContentProvider.get_FilePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

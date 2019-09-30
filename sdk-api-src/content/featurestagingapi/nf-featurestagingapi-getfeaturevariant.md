@@ -38,7 +38,6 @@ api_location:
  - api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
  - GetFeatureVariant
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

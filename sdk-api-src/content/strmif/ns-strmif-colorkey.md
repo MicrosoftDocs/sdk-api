@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - COLORKEY
-product: Windows
 targetos: Windows
 req.typenames: COLORKEY
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - InitiateShutdown
  - InitiateShutdownA
  - InitiateShutdownW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

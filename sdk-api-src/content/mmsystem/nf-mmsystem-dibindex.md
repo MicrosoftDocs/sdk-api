@@ -38,7 +38,6 @@ api_location:
  - Mmsystem.h
 api_name:
  - DIBINDEX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

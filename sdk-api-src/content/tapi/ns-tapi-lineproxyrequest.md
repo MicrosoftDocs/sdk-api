@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEPROXYREQUEST
-product: Windows
 targetos: Windows
 req.typenames: LINEPROXYREQUEST, *LPLINEPROXYREQUEST
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_SERVICE_BINDING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_BINDING_TYPE
 req.redist: 

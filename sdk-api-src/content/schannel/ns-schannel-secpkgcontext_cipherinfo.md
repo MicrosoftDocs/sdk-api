@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_CipherInfo
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_CipherInfo, *PSecPkgContext_CipherInfo
 req.redist: 

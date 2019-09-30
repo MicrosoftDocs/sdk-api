@@ -40,7 +40,6 @@ api_name:
  - OleUIChangeIcon
  - OleUIChangeIconA
  - OleUIChangeIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

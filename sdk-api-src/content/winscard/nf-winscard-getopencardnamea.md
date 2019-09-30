@@ -40,7 +40,6 @@ api_name:
  - GetOpenCardName
  - GetOpenCardNameA
  - GetOpenCardNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

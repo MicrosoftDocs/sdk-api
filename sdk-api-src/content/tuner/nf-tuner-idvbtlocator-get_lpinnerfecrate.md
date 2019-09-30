@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBTLocator.get_LPInnerFECRate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

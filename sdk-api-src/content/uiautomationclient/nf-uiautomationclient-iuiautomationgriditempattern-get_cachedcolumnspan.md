@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CachedColumnSpan
  - IUIAutomationGridItemPattern.get_CachedColumnSpan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

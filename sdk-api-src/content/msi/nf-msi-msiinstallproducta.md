@@ -41,7 +41,6 @@ api_name:
  - MsiInstallProduct
  - MsiInstallProductA
  - MsiInstallProductW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

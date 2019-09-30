@@ -43,7 +43,6 @@ api_name:
  - IInkDivider.put_LineHeight
  - InkDivider.get_LineHeight
  - InkDivider.put_LineHeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DdpBackup.h
 api_name:
  - DDP_FILE_EXTENT
-product: Windows
 targetos: Windows
 req.typenames: DDP_FILE_EXTENT
 req.redist: 

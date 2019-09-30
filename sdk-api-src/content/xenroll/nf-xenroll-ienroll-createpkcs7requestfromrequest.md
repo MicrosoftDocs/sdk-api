@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IEnroll.CreatePKCS7RequestFromRequest
 - IEnroll2.CreatePKCS7RequestFromRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

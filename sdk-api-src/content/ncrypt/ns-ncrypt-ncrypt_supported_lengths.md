@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.h
 api_name:
  - NCRYPT_SUPPORTED_LENGTHS
-product: Windows
 targetos: Windows
 req.typenames: NCRYPT_SUPPORTED_LENGTHS
 req.redist: 

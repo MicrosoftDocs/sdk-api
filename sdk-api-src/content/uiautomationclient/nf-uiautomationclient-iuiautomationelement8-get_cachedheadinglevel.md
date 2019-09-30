@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement8.CachedHeadingLevel
  - IUIAutomationElement8.get_CachedHeadingLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

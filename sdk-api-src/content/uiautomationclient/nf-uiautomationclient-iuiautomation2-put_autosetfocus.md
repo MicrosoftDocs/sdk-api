@@ -40,7 +40,6 @@ api_name:
  - IUIAutomation2.AutoSetFocus
  - IUIAutomation2.get_AutoSetFocus
  - IUIAutomation2.put_AutoSetFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

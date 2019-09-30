@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientOffice
  - IFaxDoc.get_RecipientOffice
  - IFaxDoc.put_RecipientOffice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

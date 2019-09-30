@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.Attachments
  - IEmailAction.get_Attachments
  - IEmailAction.put_Attachments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

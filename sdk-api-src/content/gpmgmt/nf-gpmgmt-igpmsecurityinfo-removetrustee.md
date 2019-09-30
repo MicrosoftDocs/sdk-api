@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSecurityInfo.RemoveTrustee
  - GPMSecurityInfo.RemoveTrustee
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

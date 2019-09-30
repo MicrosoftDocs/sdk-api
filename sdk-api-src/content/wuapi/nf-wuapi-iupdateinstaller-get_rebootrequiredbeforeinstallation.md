@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateInstaller.RebootRequiredBeforeInstallation
  - IUpdateInstaller.get_RebootRequiredBeforeInstallation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

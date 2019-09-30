@@ -38,7 +38,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerRegisterIf3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - ServerInformation
-product: Windows
 targetos: Windows
 req.typenames: ServerInformation, *PServerInformation
 req.redist: 

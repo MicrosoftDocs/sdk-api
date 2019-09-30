@@ -48,7 +48,6 @@ api_name:
  - GetComputerName
  - GetComputerNameA
  - GetComputerNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

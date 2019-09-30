@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_EraserWidth
  - InkOverlay.get_EraserWidth
  - InkOverlay.put_EraserWidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

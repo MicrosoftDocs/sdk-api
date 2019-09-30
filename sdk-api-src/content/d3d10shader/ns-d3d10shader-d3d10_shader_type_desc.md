@@ -38,7 +38,6 @@ api_location:
 - D3D10Shader.h
 api_name:
 - D3D10_SHADER_TYPE_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_TYPE_DESC
 req.redist: 

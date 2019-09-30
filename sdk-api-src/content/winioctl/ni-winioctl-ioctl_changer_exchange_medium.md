@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_CHANGER_EXCHANGE_MEDIUM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

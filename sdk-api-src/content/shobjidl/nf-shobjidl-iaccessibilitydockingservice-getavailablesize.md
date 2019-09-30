@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - IAccessibilityDockingService.GetAvailableSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

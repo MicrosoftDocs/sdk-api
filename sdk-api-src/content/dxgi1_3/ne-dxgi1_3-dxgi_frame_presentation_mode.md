@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - DXGI_FRAME_PRESENTATION_MODE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_FRAME_PRESENTATION_MODE
 req.redist: 

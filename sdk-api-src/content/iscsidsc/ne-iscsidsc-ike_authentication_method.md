@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - IKE_AUTHENTICATION_METHOD
-product: Windows
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_METHOD, *PIKE_AUTHENTICATION_METHOD
 req.redist: 

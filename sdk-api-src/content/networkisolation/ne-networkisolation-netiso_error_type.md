@@ -38,7 +38,6 @@ api_location:
  - networkisolation.h
 api_name:
  - NETISO_ERROR_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NETISO_ERROR_TYPE
 req.redist: 

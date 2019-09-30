@@ -39,7 +39,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - ICMP6_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ICMP6_TYPE, *PICMP6_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxSender.Company
  - IFaxSender.get_Company
  - IFaxSender.put_Company
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

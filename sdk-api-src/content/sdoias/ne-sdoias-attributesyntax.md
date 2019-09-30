@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - ATTRIBUTESYNTAX
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTESYNTAX
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - ChangeResourceProcessForDumps callback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

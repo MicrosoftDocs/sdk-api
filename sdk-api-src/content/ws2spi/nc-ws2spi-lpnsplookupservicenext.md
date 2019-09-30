@@ -38,7 +38,6 @@ api_location:
 - Ws2spi.h
 api_name:
 - NSPLookupServiceNext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

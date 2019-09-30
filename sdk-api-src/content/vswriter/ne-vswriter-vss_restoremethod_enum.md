@@ -38,7 +38,6 @@ api_location:
  - VsWriter.h
 api_name:
  - VSS_RESTOREMETHOD_ENUM
-product: Windows
 targetos: Windows
 req.typenames: VSS_RESTOREMETHOD_ENUM
 req.redist: 

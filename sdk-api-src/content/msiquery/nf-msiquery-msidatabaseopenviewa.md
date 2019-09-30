@@ -41,7 +41,6 @@ api_name:
  - MsiDatabaseOpenView
  - MsiDatabaseOpenViewA
  - MsiDatabaseOpenViewW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

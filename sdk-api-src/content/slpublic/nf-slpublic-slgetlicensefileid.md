@@ -38,7 +38,6 @@ api_location:
  - Slc.dll
 api_name:
  - SLGetLicenseFileId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcns4.dll
 api_name:
  - RpcNsBindingImportDone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

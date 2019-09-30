@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Button_SetTextMargin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

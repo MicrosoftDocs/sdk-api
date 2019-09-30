@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - DDGAMMARAMP
-product: Windows
 targetos: Windows
 req.typenames: DDGAMMARAMP
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - ACCOUNTINGPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: ACCOUNTINGPROPERTIES
 req.redist: 

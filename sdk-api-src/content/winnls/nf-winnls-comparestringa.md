@@ -48,7 +48,6 @@ api_name:
  - CompareString
  - CompareStringA
  - CompareStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

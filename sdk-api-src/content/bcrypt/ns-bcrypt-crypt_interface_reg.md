@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - CRYPT_INTERFACE_REG
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
 req.redist: 

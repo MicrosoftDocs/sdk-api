@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_EXTERNAL_TICKET
-product: Windows
 targetos: Windows
 req.typenames: KERB_EXTERNAL_TICKET, *PKERB_EXTERNAL_TICKET
 req.redist: 

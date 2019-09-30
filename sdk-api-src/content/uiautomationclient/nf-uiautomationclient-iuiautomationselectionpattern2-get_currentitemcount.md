@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionPattern2.CurrentItemCount
  - IUIAutomationSelectionPattern2.get_CurrentItemCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

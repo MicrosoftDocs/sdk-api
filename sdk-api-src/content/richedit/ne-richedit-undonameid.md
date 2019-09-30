@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - UNDONAMEID
-product: Windows
 targetos: Windows
 req.typenames: UNDONAMEID
 req.redist: 

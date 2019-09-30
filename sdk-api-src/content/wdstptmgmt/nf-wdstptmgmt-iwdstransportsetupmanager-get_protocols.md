@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSetupManager.Protocols
  - IWdsTransportSetupManager.get_Protocols
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

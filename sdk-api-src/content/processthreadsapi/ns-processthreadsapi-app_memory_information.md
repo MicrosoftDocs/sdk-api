@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - APP_MEMORY_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: APP_MEMORY_INFORMATION, *PAPP_MEMORY_INFORMATION
 req.redist: 

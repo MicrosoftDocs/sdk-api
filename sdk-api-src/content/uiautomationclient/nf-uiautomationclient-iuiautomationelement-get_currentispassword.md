@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsPassword
  - IUIAutomationElement.get_CurrentIsPassword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

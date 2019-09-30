@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - SEARCH_QUERY_SYNTAX
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_QUERY_SYNTAX
 req.redist: Windows Desktop Search (WDS) 3.0

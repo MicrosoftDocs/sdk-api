@@ -38,7 +38,6 @@ api_location:
  - d2d1.h
 api_name:
  - D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 req.redist: 

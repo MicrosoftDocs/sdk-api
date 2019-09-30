@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - DllGetClassObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

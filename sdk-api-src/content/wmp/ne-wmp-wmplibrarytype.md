@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPLibraryType
-product: Windows
 targetos: Windows
 req.typenames: WMPLibraryType
 req.redist: 

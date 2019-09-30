@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IAnalogAudioComponentType.put_AnalogAudioMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

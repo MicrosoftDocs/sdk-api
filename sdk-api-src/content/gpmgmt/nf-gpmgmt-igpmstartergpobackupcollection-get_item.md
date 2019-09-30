@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMStarterGPOBackupCollection.Item
  - IGPMStarterGPOBackupCollection.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Server 2008 or Windows Vista

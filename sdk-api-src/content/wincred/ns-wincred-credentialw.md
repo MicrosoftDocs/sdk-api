@@ -40,7 +40,6 @@ api_name:
  - CREDENTIAL
  - CREDENTIALA
  - CREDENTIALW
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIALW, *PCREDENTIALW
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - Provider.Commit
  - ?Commit@Provider@@IAEJPAVCInstance@@_N@Z
  - ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.WakeToRun
  - ITaskSettings.get_WakeToRun
  - ITaskSettings.put_WakeToRun
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

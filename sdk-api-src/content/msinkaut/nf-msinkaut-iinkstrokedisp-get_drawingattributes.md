@@ -43,7 +43,6 @@ api_name:
  - IInkStrokeDisp.put_DrawingAttributes
  - IInkStrokeDisp.get_DrawingAttributes
  - IInkStrokeDisp.put_DrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

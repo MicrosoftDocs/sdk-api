@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - Pack2UINT32AsUINT64
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

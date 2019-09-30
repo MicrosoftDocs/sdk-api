@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PROVIDER_FIELD_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROVIDER_FIELD_INFO
 req.redist: 

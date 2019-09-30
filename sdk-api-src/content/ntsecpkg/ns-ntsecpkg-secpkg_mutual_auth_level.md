@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_MUTUAL_AUTH_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
 req.redist: 

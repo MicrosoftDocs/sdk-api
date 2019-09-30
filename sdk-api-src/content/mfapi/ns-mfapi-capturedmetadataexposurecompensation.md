@@ -38,7 +38,6 @@ api_location:
  - Mfapi.h
 api_name:
  - CapturedMetadataExposureCompensation
-product: Windows
 targetos: Windows
 req.typenames: CapturedMetadataExposureCompensation
 req.redist: 

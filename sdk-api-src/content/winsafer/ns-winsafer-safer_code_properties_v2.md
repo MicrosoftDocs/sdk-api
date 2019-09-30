@@ -38,7 +38,6 @@ api_location:
 - WinSafer.h
 api_name:
 - SAFER_CODE_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: SAFER_CODE_PROPERTIES_V2, *PSAFER_CODE_PROPERTIES_V2
 req.redist: 

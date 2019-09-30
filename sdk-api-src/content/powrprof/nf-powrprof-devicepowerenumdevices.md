@@ -38,7 +38,6 @@ api_location:
  - PowrProf.dll
 api_name:
  - DevicePowerEnumDevices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

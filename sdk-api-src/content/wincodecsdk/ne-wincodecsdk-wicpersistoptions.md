@@ -38,7 +38,6 @@ api_location:
  - Wincodecsdk.h
 api_name:
  - WICPersistOptions
-product: Windows
 targetos: Windows
 req.typenames: WICPersistOptions
 req.redist: 

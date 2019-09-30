@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_STATUS_MSG
-product: Windows
 targetos: Windows
 req.typenames: DRM_STATUS_MSG
 req.redist: 

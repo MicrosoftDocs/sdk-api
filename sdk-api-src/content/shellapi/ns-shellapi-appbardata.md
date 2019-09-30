@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - APPBARDATA
-product: Windows
 targetos: Windows
 req.typenames: APPBARDATA, *PAPPBARDATA
 req.redist: 

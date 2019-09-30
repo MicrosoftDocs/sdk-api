@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - VERIFY_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 req.redist: 

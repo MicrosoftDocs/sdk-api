@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_OUTPUT_DESC
-product: Windows
 targetos: Windows
 req.typenames: DXGI_OUTPUT_DESC
 req.redist: 

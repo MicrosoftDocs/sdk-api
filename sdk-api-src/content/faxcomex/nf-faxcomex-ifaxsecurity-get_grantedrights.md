@@ -40,7 +40,6 @@ api_name:
  - IFaxSecurity.GrantedRights
  - IFaxSecurity.get_GrantedRights
  - IFaxSecurity.get_GrantedRights
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

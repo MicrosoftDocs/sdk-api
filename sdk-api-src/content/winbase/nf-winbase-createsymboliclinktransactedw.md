@@ -44,7 +44,6 @@ api_name:
  - CreateSymbolicLinkTransacted
  - CreateSymbolicLinkTransactedA
  - CreateSymbolicLinkTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

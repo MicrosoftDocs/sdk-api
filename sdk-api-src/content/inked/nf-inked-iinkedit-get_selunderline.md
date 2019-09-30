@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelUnderline
  - InkEdit.get_SelUnderline
  - InkEdit.put_SelUnderline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

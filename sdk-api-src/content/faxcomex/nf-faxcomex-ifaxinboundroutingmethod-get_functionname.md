@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingMethod.FunctionName
  - IFaxInboundRoutingMethod.get_FunctionName
  - IFaxInboundRoutingMethod.get_FunctionName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

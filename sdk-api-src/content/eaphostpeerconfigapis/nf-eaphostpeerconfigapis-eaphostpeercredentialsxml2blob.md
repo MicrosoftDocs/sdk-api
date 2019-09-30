@@ -38,7 +38,6 @@ api_location:
 - eappcfg.dll
 api_name:
 - EapHostPeerCredentialsXml2Blob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

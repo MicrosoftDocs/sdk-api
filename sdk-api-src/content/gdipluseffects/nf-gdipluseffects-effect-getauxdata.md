@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Effect.GetAuxData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

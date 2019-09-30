@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - IViewObject.GetColorSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

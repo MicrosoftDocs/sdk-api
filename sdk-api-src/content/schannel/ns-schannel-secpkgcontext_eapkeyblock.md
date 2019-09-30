@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_EapKeyBlock
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
 req.redist: 

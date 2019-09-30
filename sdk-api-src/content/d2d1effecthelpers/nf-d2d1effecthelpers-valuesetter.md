@@ -38,7 +38,6 @@ api_location:
  - d2d1.dll
 api_name:
  - ValueSetter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

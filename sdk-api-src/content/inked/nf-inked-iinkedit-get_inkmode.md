@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_InkMode
  - InkEdit.get_InkMode
  - InkEdit.put_InkMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

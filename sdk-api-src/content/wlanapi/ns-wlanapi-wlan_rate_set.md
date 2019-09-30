@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_RATE_SET
-product: Windows
 targetos: Windows
 req.typenames: WLAN_RATE_SET, *PWLAN_RATE_SET
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - RESOURCE_STATUS_EX
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
 req.redist: 

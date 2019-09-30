@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_IPMCAST_BOUNDARY_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_BOUNDARY_TABLE, *PMIB_IPMCAST_BOUNDARY_TABLE
 req.redist: 

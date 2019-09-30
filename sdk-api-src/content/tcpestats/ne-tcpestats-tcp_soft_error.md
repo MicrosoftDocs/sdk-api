@@ -38,7 +38,6 @@ api_location:
  - Tcpestats.h
 api_name:
  - TCP_SOFT_ERROR
-product: Windows
 targetos: Windows
 req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingExtension.UniqueName
  - IFaxInboundRoutingExtension.get_UniqueName
  - IFaxInboundRoutingExtension.get_UniqueName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - vptype.h
 api_name:
  - AMVP_MODE
-product: Windows
 targetos: Windows
 req.typenames: AMVP_MODE
 req.redist: 

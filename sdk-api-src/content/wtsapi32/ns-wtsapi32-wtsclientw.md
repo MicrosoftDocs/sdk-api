@@ -40,7 +40,6 @@ api_name:
 - WTSCLIENT
 - WTSCLIENTA
 - WTSCLIENTW
-product: Windows
 targetos: Windows
 req.typenames: WTSCLIENTW, *PWTSCLIENTW
 req.redist: 

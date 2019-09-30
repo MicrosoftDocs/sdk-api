@@ -39,7 +39,6 @@ api_location:
 api_name:
 - CABINET_INFO
  - cabinet_info_w
-product: Windows
 targetos: Windows
 req.typenames: CABINET_INFO_W, *PCABINET_INFO_W
 req.redist: 

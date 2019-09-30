@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentFrameworkId
  - IUIAutomationElement.get_CurrentFrameworkId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

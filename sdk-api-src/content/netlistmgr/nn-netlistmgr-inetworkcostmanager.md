@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetworkCostManager
  - INetworkCostManager.GetCost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

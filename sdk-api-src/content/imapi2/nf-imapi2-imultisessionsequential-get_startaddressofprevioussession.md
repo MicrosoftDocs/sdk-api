@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMultisessionSequential.get_StartAddressOfPreviousSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FunDisc.dll
 api_name:
  - IFunctionDiscovery.GetInstanceCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SCardReadCache
  - SCardReadCacheA
  - SCardReadCacheW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

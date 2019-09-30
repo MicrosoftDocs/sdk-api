@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - INPUT
-product: Windows
 targetos: Windows
 req.typenames: INPUT, *PINPUT, *LPINPUT
 req.redist: 

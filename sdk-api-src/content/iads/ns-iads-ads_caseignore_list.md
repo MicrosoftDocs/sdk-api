@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_CASEIGNORE_LIST
-product: Windows
 targetos: Windows
 req.typenames: ADS_CASEIGNORE_LIST, *PADS_CASEIGNORE_LIST
 req.redist: 

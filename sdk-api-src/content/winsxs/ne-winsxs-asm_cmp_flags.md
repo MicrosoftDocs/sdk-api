@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - ASM_CMP_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: ASM_CMP_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windows.UI.Xaml.dll
 api_name:
  - IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSensorStreamType
-product: Windows
 targetos: Windows
 req.typenames: MFSensorStreamType
 req.redist: 

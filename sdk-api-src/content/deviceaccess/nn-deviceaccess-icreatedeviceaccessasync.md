@@ -39,7 +39,6 @@ api_location:
  - Deviceaccess.dll
 api_name:
  - ICreateDeviceAccessAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

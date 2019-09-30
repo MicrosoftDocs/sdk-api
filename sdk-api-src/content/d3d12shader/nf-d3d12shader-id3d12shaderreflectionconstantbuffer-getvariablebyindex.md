@@ -38,7 +38,6 @@ api_location:
  - d3d12shader.h
 api_name:
  - ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_PACK_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_PACK_PROP, *PVDS_PACK_PROP
 req.redist: 

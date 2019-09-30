@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_IPMCAST_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_SCOPE, *PMIB_IPMCAST_SCOPE
 req.redist: 

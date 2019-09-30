@@ -38,7 +38,6 @@ api_location:
  - ddrawint.h
 api_name:
  - DD_CLIPPER_LOCAL
-product: Windows
 targetos: Windows
 req.typenames: "*PDD_CLIPPER_LOCAL, DD_CLIPPER_LOCAL"
 req.redist: 

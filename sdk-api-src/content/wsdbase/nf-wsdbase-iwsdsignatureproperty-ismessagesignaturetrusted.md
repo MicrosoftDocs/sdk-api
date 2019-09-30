@@ -38,7 +38,6 @@ api_location:
  - wsdapi.dll
 api_name:
  - IWSDSignatureProperty.IsMessageSignatureTrusted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

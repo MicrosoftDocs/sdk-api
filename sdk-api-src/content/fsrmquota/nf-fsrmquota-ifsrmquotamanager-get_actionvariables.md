@@ -42,7 +42,6 @@ api_name:
  - IFsrmQuotaManagerEx.ActionVariables
  - IFsrmQuotaManagerEx.get_ActionVariables
  - FsrmQuotaManager.ActionVariables
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

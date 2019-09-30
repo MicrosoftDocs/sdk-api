@@ -39,7 +39,6 @@ api_location:
 api_name:
  - _IFaxAccountNotify.OnOutgoingMessageAdded
  - IFaxAccountNotify.OnOutgoingMessageAdded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

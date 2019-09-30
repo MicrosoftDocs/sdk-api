@@ -38,7 +38,6 @@ api_location:
  - dmusics.h
 api_name:
  - IDirectMusicSynthSink.SetMasterClock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetCAPropertyFlags
  - ICertRequest.GetCAPropertyFlags
  - CCertRequest.GetCAPropertyFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

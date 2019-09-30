@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - D3D11_DRAW_INSTANCED_INDIRECT_ARGS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_DRAW_INSTANCED_INDIRECT_ARGS
 req.redist: 

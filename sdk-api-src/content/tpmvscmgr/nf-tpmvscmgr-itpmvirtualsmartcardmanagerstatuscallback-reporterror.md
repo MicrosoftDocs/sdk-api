@@ -39,7 +39,6 @@ api_location:
  - Vscmgr.dll
 api_name:
  - ITpmVirtualSmartCardManagerStatusCallback.ReportError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

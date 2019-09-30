@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.PacketCount
  - IInkStrokeDisp.get_PacketCount
  - IInkStrokeDisp.get_PacketCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

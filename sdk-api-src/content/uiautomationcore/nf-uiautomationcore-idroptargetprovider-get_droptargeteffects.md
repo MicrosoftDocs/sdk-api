@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDropTargetProvider.DropTargetEffects
  - IDropTargetProvider.get_DropTargetEffects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

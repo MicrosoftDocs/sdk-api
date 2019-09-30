@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_PRESHARED_KEY_AUTHENTICATION1
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 req.redist: 

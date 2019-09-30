@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - RSVP_FILTERSPEC_V4
-product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4
 req.redist: 

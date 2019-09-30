@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - ProgressNotificationCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

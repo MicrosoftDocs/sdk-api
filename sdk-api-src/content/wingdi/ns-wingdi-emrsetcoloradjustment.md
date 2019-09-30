@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETCOLORADJUSTMENT
-product: Windows
 targetos: Windows
 req.typenames: EMRSETCOLORADJUSTMENT, *PEMRSETCOLORADJUSTMENT
 req.redist: 

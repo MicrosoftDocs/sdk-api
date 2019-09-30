@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - PFNCALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

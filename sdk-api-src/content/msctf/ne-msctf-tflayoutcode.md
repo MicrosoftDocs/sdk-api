@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TfLayoutCode
-product: Windows
 targetos: Windows
 req.typenames: TfLayoutCode
 req.redist: TSF 1.0 on Windows 2000 Professional

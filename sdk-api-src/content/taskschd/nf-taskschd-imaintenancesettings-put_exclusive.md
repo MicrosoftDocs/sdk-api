@@ -40,7 +40,6 @@ api_name:
  - IMaintenanceSettings.Exclusive
  - IMaintenanceSettings.get_Exclusive
  - IMaintenanceSettings.put_Exclusive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

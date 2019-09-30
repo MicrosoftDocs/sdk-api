@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - DSDISPLAYSPECOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 req.redist: 

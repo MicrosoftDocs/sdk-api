@@ -38,7 +38,6 @@ api_location:
  - Msapofxproxy.h
 api_name:
  - KSPROPERTY_AUDIOEFFECTSDISCOVERY
-product: Windows
 targetos: Windows
 req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
 req.redist: 

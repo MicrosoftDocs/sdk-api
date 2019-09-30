@@ -38,7 +38,6 @@ api_location:
 - wtypesbase.h
 api_name:
 - CLSCTX
-product: Windows
 targetos: Windows
 req.typenames: CLSCTX
 req.redist: 

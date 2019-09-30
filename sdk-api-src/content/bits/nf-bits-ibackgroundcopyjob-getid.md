@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyJob.GetId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

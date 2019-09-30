@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmFileScreenManager.EnumFileScreenExceptions
 - FsrmFileScreenManager.EnumFileScreenExceptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

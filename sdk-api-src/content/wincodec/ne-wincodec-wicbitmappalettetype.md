@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapPaletteType
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapPaletteType
 req.redist: 

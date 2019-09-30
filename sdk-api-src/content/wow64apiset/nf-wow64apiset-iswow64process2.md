@@ -45,7 +45,6 @@ api_location:
  - bcrypt.dll
 api_name:
  - IsWow64Process2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

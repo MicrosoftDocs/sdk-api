@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationManager.ClearFileProperty
  - IFsrmClassificationManager2.ClearFileProperty
  - FsrmClassificationManager.ClearFileProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

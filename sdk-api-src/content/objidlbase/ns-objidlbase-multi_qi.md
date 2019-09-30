@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - MULTI_QI
-product: Windows
 targetos: Windows
 req.typenames: MULTI_QI
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wmsecure.h
 api_name:
  - IWMAuthorizer.GetSharedData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

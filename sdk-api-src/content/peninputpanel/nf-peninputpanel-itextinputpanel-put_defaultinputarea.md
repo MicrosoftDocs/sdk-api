@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_DefaultInputArea
  - ITextInputPanel.get_DefaultInputArea
  - ITextInputPanel.put_DefaultInputArea
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

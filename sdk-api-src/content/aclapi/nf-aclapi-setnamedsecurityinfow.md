@@ -45,7 +45,6 @@ api_name:
 - SetNamedSecurityInfo
 - SetNamedSecurityInfoA
 - SetNamedSecurityInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

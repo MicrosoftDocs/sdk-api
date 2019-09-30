@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ISearchCrawlScopeManager2.GetVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

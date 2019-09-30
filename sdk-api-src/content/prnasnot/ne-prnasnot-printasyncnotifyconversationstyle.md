@@ -38,7 +38,6 @@ api_location:
  - prnasnot.h
 api_name:
  - PrintAsyncNotifyConversationStyle
-product: Windows
 targetos: Windows
 req.typenames: PrintAsyncNotifyConversationStyle
 req.redist: 

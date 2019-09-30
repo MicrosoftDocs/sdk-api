@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IManagedPoolAction.LastRelease
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

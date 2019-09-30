@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFAudioConstriction
-product: Windows
 targetos: Windows
 req.typenames: MFAudioConstriction
 req.redist: 

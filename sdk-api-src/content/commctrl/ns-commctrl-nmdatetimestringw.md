@@ -40,7 +40,6 @@ api_name:
 - NMDATETIMESTRING
 - NMDATETIMESTRINGA
 - NMDATETIMESTRINGW
-product: Windows
 targetos: Windows
 req.typenames: NMDATETIMESTRINGW, *LPNMDATETIMESTRINGW
 req.redist: 

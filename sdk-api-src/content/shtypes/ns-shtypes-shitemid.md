@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - SHITEMID
-product: Windows
 targetos: Windows
 req.typenames: SHITEMID
 req.redist: 

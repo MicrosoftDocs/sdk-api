@@ -46,7 +46,6 @@ api_name:
  - CreateEvent
  - CreateEventA
  - CreateEventW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

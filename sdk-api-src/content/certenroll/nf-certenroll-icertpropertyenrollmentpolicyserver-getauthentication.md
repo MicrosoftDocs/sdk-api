@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - ICertPropertyEnrollmentPolicyServer.GetAuthentication
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

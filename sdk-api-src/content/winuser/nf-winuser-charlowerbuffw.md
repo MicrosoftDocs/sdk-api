@@ -46,7 +46,6 @@ api_name:
  - CharLowerBuff
  - CharLowerBuffA
  - CharLowerBuffW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

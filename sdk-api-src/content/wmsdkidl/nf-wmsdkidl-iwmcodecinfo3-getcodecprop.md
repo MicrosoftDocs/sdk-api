@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMCodecInfo3.GetCodecProp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WIC8BIMIptcProperties
-product: Windows
 targetos: Windows
 req.typenames: WIC8BIMIptcProperties
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POL_LOGIC_OPER
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_LOGIC_OPER
 req.redist: 

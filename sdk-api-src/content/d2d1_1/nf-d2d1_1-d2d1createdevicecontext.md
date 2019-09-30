@@ -38,7 +38,6 @@ api_location:
  - d2d1.dll
 api_name:
  - D2D1CreateDeviceContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

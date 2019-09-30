@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509NameValuePair.Value
  - IX509NameValuePair.get_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_SOAP_MESSAGE
-product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_MESSAGE
 req.redist: 

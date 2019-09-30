@@ -38,7 +38,6 @@ api_location:
  - ime.h
 api_name:
  - IMESTRUCT
-product: Windows
 targetos: Windows
 req.typenames: IMESTRUCT, *PIMESTRUCT, *NPIMESTRUCT, *LPIMESTRUCT
 req.redist: 

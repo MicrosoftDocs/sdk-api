@@ -38,7 +38,6 @@ api_location:
  - D2d1_1.h
 api_name:
  - D2D1_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: D2D1_PROPERTY
 req.redist: 

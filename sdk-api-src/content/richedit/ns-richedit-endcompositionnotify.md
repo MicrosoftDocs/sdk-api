@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENDCOMPOSITIONNOTIFY
-product: Windows
 targetos: Windows
 req.typenames: ENDCOMPOSITIONNOTIFY
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.IssueDate
  - IUpdateService.get_IssueDate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

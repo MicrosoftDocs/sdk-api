@@ -38,7 +38,6 @@ api_location:
  - RTSCom.h
 api_name:
  - StylusInfo
-product: Windows
 targetos: Windows
 req.typenames: StylusInfo
 req.redist: 

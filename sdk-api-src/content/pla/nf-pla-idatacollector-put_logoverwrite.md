@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.LogOverwrite
  - IDataCollector.get_LogOverwrite
  - IDataCollector.put_LogOverwrite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

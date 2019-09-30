@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ITransactionProperty.GetTransactionResourcePool
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

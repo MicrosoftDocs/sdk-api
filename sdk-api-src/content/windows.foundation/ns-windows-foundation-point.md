@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - Point
-product: Windows
 targetos: Windows
 req.typenames: Point
 req.redist: 

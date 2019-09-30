@@ -42,7 +42,6 @@ api_name:
  - RasDial
  - RasDialA
  - RasDialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

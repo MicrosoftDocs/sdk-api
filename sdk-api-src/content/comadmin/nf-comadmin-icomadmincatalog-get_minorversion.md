@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog.MinorVersion
  - ICOMAdminCatalog.get_MinorVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

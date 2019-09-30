@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PROPERTY_DATA_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: PROPERTY_DATA_DESCRIPTOR
 req.redist: 

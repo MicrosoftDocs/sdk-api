@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - ListView_SetExtendedListViewStyleEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

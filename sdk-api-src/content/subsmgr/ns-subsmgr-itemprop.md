@@ -38,7 +38,6 @@ api_location:
  - subsmgr.h
 api_name:
  - ITEMPROP
-product: Windows
 targetos: Windows
 req.typenames: ITEMPROP, *LPITEMPROP
 req.redist: Windows Desktop Search (WDS) 3.0

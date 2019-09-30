@@ -40,7 +40,6 @@ api_name:
  - GROUP_POLICY_OBJECT
  - GROUP_POLICY_OBJECTA
  - GROUP_POLICY_OBJECTW
-product: Windows
 targetos: Windows
 req.typenames: GROUP_POLICY_OBJECTA, *PGROUP_POLICY_OBJECTA
 req.redist: 

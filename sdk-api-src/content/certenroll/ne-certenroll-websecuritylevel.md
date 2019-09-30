@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - WebSecurityLevel
-product: Windows
 targetos: Windows
 req.typenames: WebSecurityLevel
 req.redist: 

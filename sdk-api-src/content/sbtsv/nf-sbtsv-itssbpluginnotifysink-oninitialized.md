@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - ITsSbPluginNotifySink.OnInitialized
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

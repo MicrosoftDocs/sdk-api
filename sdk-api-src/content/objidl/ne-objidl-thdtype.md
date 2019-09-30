@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - THDTYPE
-product: Windows
 targetos: Windows
 req.typenames: THDTYPE
 req.redist: 

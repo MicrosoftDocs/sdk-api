@@ -38,7 +38,6 @@ api_location:
 - winsvc.h
 api_name:
 - SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, *PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 req.redist: 

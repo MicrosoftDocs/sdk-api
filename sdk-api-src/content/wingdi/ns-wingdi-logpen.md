@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LOGPEN
-product: Windows
 targetos: Windows
 req.typenames: LOGPEN, *PLOGPEN, *NPLOGPEN, *LPLOGPEN
 req.redist: 

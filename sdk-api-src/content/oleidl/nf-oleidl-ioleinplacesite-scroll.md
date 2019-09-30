@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IOleInPlaceSite.Scroll
  - IOleInPlaceSiteWindowless.Scroll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

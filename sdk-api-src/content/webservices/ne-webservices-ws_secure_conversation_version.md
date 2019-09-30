@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SECURE_CONVERSATION_VERSION
-product: Windows
 targetos: Windows
 req.typenames: WS_SECURE_CONVERSATION_VERSION
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingJob.Restart
  - IFaxOutgoingJob.Restart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

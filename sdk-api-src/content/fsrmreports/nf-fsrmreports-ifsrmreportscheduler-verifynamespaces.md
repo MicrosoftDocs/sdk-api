@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportScheduler.VerifyNamespaces
  - FsrmReportScheduler.VerifyNamespaces
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

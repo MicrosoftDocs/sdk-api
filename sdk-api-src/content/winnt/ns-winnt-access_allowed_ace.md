@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACCESS_ALLOWED_ACE
-product: Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_ACE
 req.redist: 

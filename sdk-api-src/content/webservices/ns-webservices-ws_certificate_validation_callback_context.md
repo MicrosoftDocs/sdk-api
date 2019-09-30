@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 req.redist: 

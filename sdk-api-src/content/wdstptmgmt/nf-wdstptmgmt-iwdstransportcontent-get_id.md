@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportContent.Id
  - IWdsTransportContent.get_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

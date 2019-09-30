@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapDecoderCapabilities
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapDecoderCapabilities
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SetupDuplicateDiskSpaceList
  - SetupDuplicateDiskSpaceListA
  - SetupDuplicateDiskSpaceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

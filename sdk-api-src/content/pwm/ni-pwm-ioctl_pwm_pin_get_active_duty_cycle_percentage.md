@@ -38,7 +38,6 @@ api_location:
 - Pwm.h
 api_name:
 - IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

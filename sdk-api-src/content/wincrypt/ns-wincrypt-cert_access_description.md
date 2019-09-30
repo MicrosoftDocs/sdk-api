@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_ACCESS_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: CERT_ACCESS_DESCRIPTION, *PCERT_ACCESS_DESCRIPTION
 req.redist: 

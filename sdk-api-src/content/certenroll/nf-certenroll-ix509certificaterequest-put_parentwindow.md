@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.ParentWindow
  - IX509CertificateRequest.get_ParentWindow
  - IX509CertificateRequest.put_ParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

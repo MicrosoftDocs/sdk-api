@@ -40,7 +40,6 @@ api_name:
  - ICONMETRICS
  - ICONMETRICSA
  - ICONMETRICSW
-product: Windows
 targetos: Windows
 req.typenames: ICONMETRICSW, *PICONMETRICSW, *LPICONMETRICSW
 req.redist: 

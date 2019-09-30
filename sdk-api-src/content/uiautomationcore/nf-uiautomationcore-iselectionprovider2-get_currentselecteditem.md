@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionProvider2.CurrentSelectedItem
  - ISelectionProvider2.get_CurrentSelectedItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsolePower.ResetIdleTimer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

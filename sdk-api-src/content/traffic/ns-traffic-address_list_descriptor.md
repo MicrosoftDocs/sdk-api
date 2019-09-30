@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - ADDRESS_LIST_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
 req.redist: 

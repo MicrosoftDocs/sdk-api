@@ -38,7 +38,6 @@ api_location:
 - SrmSvc.dll
 api_name:
 - IFsrmFileScreenBase.CreateAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

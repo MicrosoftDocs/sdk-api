@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - MSGFILTER
-product: Windows
 targetos: Windows
 req.typenames: MSGFILTER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Bits5_0.h
 api_name:
  - BITS_FILE_PROPERTY_VALUE
-product: Windows
 targetos: Windows
 req.typenames: BITS_FILE_PROPERTY_VALUE
 req.redist: 

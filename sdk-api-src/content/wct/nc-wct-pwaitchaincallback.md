@@ -38,7 +38,6 @@ api_location:
 - Wct.h
 api_name:
 - PWAITCHAINCALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

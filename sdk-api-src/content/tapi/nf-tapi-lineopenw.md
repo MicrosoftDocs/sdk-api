@@ -40,7 +40,6 @@ api_name:
  - lineOpen
  - lineOpenA
  - lineOpenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

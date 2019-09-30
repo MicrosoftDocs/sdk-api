@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MSG
-product: Windows
 targetos: Windows
 req.typenames: MSG, *PMSG, *NPMSG, *LPMSG
 req.redist: 

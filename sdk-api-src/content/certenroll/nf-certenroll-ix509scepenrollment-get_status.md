@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SCEPEnrollment.Status
  - IX509SCEPEnrollment.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - websocket.dll
 api_name:
 - WebSocketCompleteAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

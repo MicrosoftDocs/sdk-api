@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportNamespace.TombstoneTime
  - IWdsTransportNamespace.get_TombstoneTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

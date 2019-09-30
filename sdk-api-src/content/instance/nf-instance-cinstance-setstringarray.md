@@ -41,7 +41,6 @@ api_name:
  - CInstance.SetStringArray
  - ?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z
  - ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

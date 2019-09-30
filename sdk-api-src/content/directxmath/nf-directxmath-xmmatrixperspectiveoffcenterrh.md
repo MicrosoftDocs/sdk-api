@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMMatrixPerspectiveOffCenterRH
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Credssp.h
 api_name:
  - SecPkgContext_ClientCreds
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
 req.redist: 

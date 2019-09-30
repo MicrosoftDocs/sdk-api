@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientCity
  - IFaxDoc.get_RecipientCity
  - IFaxDoc.put_RecipientCity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

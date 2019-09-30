@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_MANDATORY_LABEL
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_MANDATORY_LABEL, *PTOKEN_MANDATORY_LABEL
 req.redist: 

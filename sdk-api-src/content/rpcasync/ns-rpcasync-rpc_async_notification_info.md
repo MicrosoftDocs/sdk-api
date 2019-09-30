@@ -38,7 +38,6 @@ api_location:
 - Rpcasync.h
 api_name:
 - RPC_ASYNC_NOTIFICATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: RPC_ASYNC_NOTIFICATION_INFO, *PRPC_ASYNC_NOTIFICATION_INFO
 req.redist: 

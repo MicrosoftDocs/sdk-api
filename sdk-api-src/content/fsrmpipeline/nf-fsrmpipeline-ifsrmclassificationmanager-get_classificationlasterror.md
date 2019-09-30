@@ -42,7 +42,6 @@ api_name:
  - IFsrmClassificationManager2.ClassificationLastError
  - IFsrmClassificationManager2.get_ClassificationLastError
  - FsrmClassificationManager.ClassificationLastError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

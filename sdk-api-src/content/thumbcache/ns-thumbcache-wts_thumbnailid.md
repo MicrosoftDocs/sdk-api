@@ -38,7 +38,6 @@ api_location:
  - Thumbcache.h
 api_name:
  - WTS_THUMBNAILID
-product: Windows
 targetos: Windows
 req.typenames: WTS_THUMBNAILID
 req.redist: 

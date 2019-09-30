@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_AUTHORITY_KEY_ID2_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_AUTHORITY_KEY_ID2_INFO, *PCERT_AUTHORITY_KEY_ID2_INFO
 req.redist: 

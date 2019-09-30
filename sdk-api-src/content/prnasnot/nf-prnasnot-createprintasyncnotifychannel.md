@@ -38,7 +38,6 @@ api_location:
  - Spoolss.dll
 api_name:
  - CreatePrintAsyncNotifyChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

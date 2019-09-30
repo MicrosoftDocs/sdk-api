@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
  - UiaRaiseTextEditTextChangedEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wsdbase.h
 api_name:
 - IWSDHttpAuthParameters.GetAuthType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

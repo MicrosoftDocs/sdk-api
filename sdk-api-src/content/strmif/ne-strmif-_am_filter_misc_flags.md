@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AM_FILTER_MISC_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

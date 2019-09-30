@@ -38,7 +38,6 @@ api_location:
  - winmm.dll
 api_name:
  - mmTaskCreate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

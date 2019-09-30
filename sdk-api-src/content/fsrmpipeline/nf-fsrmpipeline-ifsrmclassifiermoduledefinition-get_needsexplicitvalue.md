@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassifierModuleDefinition.NeedsExplicitValue
  - IFsrmClassifierModuleDefinition.get_NeedsExplicitValue
  - IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

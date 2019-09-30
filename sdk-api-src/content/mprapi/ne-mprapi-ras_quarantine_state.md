@@ -38,7 +38,6 @@ api_location:
  - Mprapi.h
 api_name:
  - RAS_QUARANTINE_STATE
-product: Windows
 targetos: Windows
 req.typenames: RAS_QUARANTINE_STATE
 req.redist: 

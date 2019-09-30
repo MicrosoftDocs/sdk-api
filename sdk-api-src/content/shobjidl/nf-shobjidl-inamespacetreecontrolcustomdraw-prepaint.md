@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - INameSpaceTreeControlCustomDraw.PrePaint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

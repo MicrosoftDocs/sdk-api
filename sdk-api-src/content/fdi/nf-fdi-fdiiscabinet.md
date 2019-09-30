@@ -38,7 +38,6 @@ api_location:
  - Cabinet.dll
 api_name:
  - FDIIsCabinet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

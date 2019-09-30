@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - ATTRIBUTEINFO
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEINFO
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkRectangle.put_Top
  - InkRectangle.get_Top
  - InkRectangle.put_Top
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

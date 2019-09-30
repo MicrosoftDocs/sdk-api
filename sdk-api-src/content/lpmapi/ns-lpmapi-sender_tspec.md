@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - SENDER_TSPEC
-product: Windows
 targetos: Windows
 req.typenames: SENDER_TSPEC
 req.redist: 

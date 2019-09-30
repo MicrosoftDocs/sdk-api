@@ -39,7 +39,6 @@ api_location:
 - srvcli.dll
 api_name:
 - NetSessionEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

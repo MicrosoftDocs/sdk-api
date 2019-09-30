@@ -40,7 +40,6 @@ api_name:
 - SymEnumSymbolsProc
 - PSYM_ENUMERATESYMBOLS_CALLBACK
 - PSYM_ENUMERATESYMBOLS_CALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

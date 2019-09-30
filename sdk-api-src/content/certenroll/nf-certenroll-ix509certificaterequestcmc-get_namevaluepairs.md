@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.NameValuePairs
  - IX509CertificateRequestCmc.get_NameValuePairs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

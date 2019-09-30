@@ -40,7 +40,6 @@ api_name:
 - STARTUPINFOEX
 - STARTUPINFOEXA
 - STARTUPINFOEXW
-product: Windows
 targetos: Windows
 req.typenames: STARTUPINFOEXW, *LPSTARTUPINFOEXW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - VbInterf.h
 api_name:
  - IVBFormat.Format
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - DTTOPTS
-product: Windows
 targetos: Windows
 req.typenames: DTTOPTS, *PDTTOPTS
 req.redist: 

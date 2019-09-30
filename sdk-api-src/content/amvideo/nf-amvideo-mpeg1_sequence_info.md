@@ -38,7 +38,6 @@ api_location:
  - Amvideo.h
 api_name:
  - MPEG1_SEQUENCE_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

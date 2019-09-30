@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_OfficeLocation
  - IFaxSender.get_OfficeLocation
  - IFaxSender.put_OfficeLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

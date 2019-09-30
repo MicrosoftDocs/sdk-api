@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICOMAdminCatalog.GetCollectionByQuery
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

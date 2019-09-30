@@ -38,7 +38,6 @@ api_location:
 - Cryptuiapi.h
 api_name:
 - CRYPTUI_INITDIALOG_STRUCT
-product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_INITDIALOG_STRUCT, *PCRYPTUI_INITDIALOG_STRUCT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MEASUREITEMSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, *LPMEASUREITEMSTRUCT
 req.redist: 

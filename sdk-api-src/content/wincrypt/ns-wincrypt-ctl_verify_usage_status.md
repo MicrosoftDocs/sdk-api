@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_VERIFY_USAGE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: CTL_VERIFY_USAGE_STATUS, *PCTL_VERIFY_USAGE_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - windowsstoragecom.h
 api_name:
  - HANDLE_CREATION_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: HANDLE_CREATION_OPTIONS
 req.redist: 

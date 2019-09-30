@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.PreferredPacketDescription
  - IInkRecognizer.get_PreferredPacketDescription
  - IInkRecognizer.get_PreferredPacketDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

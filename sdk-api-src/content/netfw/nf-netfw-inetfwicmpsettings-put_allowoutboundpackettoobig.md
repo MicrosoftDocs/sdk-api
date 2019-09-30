@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowOutboundPacketTooBig
  - INetFwIcmpSettings.get_AllowOutboundPacketTooBig
  - INetFwIcmpSettings.put_AllowOutboundPacketTooBig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

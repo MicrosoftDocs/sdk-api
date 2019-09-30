@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - IDeviceModelPlugIn.DeviceToColorimetricColors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

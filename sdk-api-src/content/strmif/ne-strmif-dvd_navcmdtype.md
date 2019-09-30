@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_NavCmdType
-product: Windows
 targetos: Windows
 req.typenames: DVD_NavCmdType
 req.redist: 

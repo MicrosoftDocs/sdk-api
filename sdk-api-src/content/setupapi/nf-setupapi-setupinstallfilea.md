@@ -40,7 +40,6 @@ api_name:
 - SetupInstallFile
 - SetupInstallFileA
 - SetupInstallFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

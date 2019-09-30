@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CurrentZoomMaximum
  - IUIAutomationTransformPattern2.get_CurrentZoomMaximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

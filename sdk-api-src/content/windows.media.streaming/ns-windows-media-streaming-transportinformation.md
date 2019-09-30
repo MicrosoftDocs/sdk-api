@@ -38,7 +38,6 @@ api_location:
  - windows.media.streaming.h
 api_name:
  - TransportInformation
-product: Windows
 targetos: Windows
 req.typenames: TransportInformation
 req.redist: 

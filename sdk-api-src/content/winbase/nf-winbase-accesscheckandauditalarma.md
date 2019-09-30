@@ -47,7 +47,6 @@ api_name:
 - AccessCheckAndAuditAlarm
 - AccessCheckAndAuditAlarmA
 - AccessCheckAndAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

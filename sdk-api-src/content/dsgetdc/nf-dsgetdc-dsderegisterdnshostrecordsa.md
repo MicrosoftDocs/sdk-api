@@ -40,7 +40,6 @@ api_name:
  - DsDeregisterDnsHostRecords
  - DsDeregisterDnsHostRecordsA
  - DsDeregisterDnsHostRecordsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

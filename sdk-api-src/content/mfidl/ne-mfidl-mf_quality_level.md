@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_QUALITY_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: MF_QUALITY_LEVEL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - PROCESSOR_GROUP_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
 req.redist: 

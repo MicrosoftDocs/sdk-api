@@ -38,7 +38,6 @@ api_location:
 - winhttp.h
 api_name:
 - WINHTTP_WEB_SOCKET_STATUS
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_SCHEDULING_RESULT
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_SCHEDULING_RESULT
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - midiInGetErrorText
  - midiInGetErrorTextA
  - midiInGetErrorTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

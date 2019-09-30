@@ -38,7 +38,6 @@ api_location:
  - Rend.h
 api_name:
  - RND_ADVERTISING_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: RND_ADVERTISING_SCOPE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.Notifications
  - IFsrmFileManagementJob.get_Notifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

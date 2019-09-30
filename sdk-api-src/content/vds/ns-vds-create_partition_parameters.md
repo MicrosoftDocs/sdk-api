@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - CREATE_PARTITION_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CREATE_PARTITION_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dvbsiparser.h
 api_name:
  - IIsdbDatacontentDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

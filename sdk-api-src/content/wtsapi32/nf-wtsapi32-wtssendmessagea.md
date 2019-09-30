@@ -40,7 +40,6 @@ api_name:
  - WTSSendMessage
  - WTSSendMessageA
  - WTSSendMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

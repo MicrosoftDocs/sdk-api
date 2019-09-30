@@ -43,7 +43,6 @@ api_name:
  - GetEnhMetaFile
  - GetEnhMetaFileA
  - GetEnhMetaFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

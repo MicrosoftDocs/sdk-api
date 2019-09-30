@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509EnrollmentPolicyServer.GetLastUpdateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

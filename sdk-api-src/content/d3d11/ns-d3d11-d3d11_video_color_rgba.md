@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - D3D11_VIDEO_COLOR_RGBA
-product: Windows
 targetos: Windows
 req.typenames: D3D11_VIDEO_COLOR_RGBA
 req.redist: 

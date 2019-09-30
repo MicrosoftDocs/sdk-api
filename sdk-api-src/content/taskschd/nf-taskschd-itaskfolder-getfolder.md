@@ -38,7 +38,6 @@ api_location:
  - taskschd.dll
 api_name:
  - ITaskFolder.GetFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

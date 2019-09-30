@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLUSTER_QUORUM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_TYPE
 req.redist: 

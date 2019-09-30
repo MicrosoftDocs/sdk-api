@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETAVAILDRIVERMEMORYDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA'
 req.redist: 

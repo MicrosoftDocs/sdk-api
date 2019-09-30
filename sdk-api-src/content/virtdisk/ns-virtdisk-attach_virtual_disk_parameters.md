@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - ATTACH_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: ATTACH_VIRTUAL_DISK_PARAMETERS, *PATTACH_VIRTUAL_DISK_PARAMETERS
 req.redist: 

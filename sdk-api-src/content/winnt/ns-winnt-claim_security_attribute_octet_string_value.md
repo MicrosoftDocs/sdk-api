@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
-product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, *PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
 req.redist: 

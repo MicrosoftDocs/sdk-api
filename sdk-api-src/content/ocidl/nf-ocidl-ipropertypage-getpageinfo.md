@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IPropertyPage.GetPageInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

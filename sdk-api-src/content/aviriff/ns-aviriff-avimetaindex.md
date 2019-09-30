@@ -38,7 +38,6 @@ api_location:
 - aviriff.h
 api_name:
 - AVIMETAINDEX
-product: Windows
 targetos: Windows
 req.typenames: AVIMETAINDEX
 req.redist: 

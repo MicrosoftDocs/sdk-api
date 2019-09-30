@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CurrentCanMinimize
  - IUIAutomationWindowPattern.get_CurrentCanMinimize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

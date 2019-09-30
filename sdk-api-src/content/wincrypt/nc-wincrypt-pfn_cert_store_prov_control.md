@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CertStoreProvControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

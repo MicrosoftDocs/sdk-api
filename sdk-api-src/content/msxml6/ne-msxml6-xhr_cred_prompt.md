@@ -38,7 +38,6 @@ api_location:
  - msxml6.h
 api_name:
  - XHR_CRED_PROMPT
-product: Windows
 targetos: Windows
 req.typenames: XHR_CRED_PROMPT
 req.redist: 

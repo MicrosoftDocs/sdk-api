@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbTaskInfo.Deadline
  - ITsSbTaskInfo.get_Deadline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

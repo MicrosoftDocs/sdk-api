@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.EventsLost
  - ITraceDataCollector.get_EventsLost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

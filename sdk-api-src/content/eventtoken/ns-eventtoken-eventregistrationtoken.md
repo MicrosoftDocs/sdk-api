@@ -38,7 +38,6 @@ api_location:
  - eventtoken.h
 api_name:
  - EventRegistrationToken
-product: Windows
 targetos: Windows
 req.typenames: EventRegistrationToken
 req.redist: 

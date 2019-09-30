@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - UpdateOperation
-product: Windows
 targetos: Windows
 req.typenames: UpdateOperation
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ole32.dll
 api_name:
  - IPropertyStorage.DeletePropertyNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

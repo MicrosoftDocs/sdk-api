@@ -39,7 +39,6 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_DISPOSITION_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_DISPOSITION_INFO, *PFILE_DISPOSITION_INFO
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

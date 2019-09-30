@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - IP_PATTERN
-product: Windows
 targetos: Windows
 req.typenames: IP_PATTERN, *PIP_PATTERN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Clfsmgmt.h
 api_name:
 - CLFS_MGMT_POLICY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE
 req.redist: 

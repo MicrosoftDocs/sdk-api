@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetworkCostManagerEvents
  - INetworkCostManagerEvents.CostChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

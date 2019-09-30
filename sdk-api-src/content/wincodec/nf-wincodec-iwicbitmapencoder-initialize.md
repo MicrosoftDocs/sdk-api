@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICBitmapEncoder.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

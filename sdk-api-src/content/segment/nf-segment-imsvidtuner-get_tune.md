@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidTuner.get_Tune
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

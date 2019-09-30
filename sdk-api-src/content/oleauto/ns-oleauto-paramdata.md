@@ -38,7 +38,6 @@ api_location:
  - OleAuto.h
 api_name:
  - PARAMDATA
-product: Windows
 targetos: Windows
 req.typenames: PARAMDATA, *LPPARAMDATA
 req.redist: 

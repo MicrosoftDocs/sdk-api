@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - FILE_ALIGNMENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_ALIGNMENT_INFO, *PFILE_ALIGNMENT_INFO
 req.redist: 

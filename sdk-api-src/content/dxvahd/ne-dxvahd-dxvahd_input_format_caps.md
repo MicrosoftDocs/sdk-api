@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_INPUT_FORMAT_CAPS
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_INPUT_FORMAT_CAPS
 req.redist: 

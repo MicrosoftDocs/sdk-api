@@ -41,7 +41,6 @@ api_location:
  - MinUser.dll
 api_name:
  - QueryDisplayConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsConfiguration.MaxMessageIndex
  - IMbnSmsConfiguration.get_MaxMessageIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

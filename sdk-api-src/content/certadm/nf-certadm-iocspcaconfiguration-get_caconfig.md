@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.CAConfig
  - IOCSPCAConfiguration.get_CAConfig
  - IOCSPCAConfiguration.put_CAConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

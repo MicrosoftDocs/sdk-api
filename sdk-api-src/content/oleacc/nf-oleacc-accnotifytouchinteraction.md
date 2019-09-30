@@ -38,7 +38,6 @@ api_location:
  - Oleacc.dll
 api_name:
  - AccNotifyTouchInteraction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

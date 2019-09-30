@@ -38,7 +38,6 @@ api_location:
  - d3d10_1shader.h
 api_name:
  - D3D10_SHADER_DEBUG_FILE_INFO
-product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_FILE_INFO
 req.redist: 

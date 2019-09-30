@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TBADDBITMAP
-product: Windows
 targetos: Windows
 req.typenames: TBADDBITMAP, *LPTBADDBITMAP
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CM_Set_Device_Interface_Property
  - CM_Set_Device_Interface_PropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMU555.XMU555
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

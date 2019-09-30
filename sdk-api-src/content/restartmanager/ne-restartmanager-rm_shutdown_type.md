@@ -38,7 +38,6 @@ api_location:
  - RestartManager.h
 api_name:
  - RM_SHUTDOWN_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RM_SHUTDOWN_TYPE
 req.redist: 

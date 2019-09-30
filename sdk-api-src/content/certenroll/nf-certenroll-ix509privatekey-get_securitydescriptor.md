@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.SecurityDescriptor
  - IX509PrivateKey.get_SecurityDescriptor
  - IX509PrivateKey.put_SecurityDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

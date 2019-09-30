@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMDRMWriter.GenerateKeyID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

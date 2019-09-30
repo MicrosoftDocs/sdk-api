@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEPROVIDERLIST
-product: Windows
 targetos: Windows
 req.typenames: LINEPROVIDERLIST, *LPLINEPROVIDERLIST
 req.redist: 

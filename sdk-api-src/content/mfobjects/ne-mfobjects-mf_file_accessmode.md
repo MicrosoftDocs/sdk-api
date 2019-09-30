@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_FILE_ACCESSMODE
-product: Windows
 targetos: Windows
 req.typenames: MF_FILE_ACCESSMODE
 req.redist: 

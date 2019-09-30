@@ -40,7 +40,6 @@ api_location:
 api_name:
  - ITypeInfo.GetIDsOfNames
  - ITypeInfo2.GetIDsOfNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationManager.CreateStoryboard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

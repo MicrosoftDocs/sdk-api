@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLUS_WORKER
-product: Windows
 targetos: Windows
 req.typenames: CLUS_WORKER, *PCLUS_WORKER
 req.redist: 

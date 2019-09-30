@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - ACTIVATEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: ACTIVATEFLAGS
 req.redist: 

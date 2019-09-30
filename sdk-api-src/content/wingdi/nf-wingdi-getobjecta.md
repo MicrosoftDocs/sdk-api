@@ -44,7 +44,6 @@ api_name:
  - GetObject
  - GetObjectA
  - GetObjectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFTIMER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFTIMER_FLAGS
 req.redist: 

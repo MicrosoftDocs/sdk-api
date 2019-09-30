@@ -44,7 +44,6 @@ api_name:
  - CopyFileTransacted
  - CopyFileTransactedA
  - CopyFileTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

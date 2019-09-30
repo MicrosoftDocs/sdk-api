@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.RemoteAddresses
  - INetFwRule.get_RemoteAddresses
  - INetFwRule.put_RemoteAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

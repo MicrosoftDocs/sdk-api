@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - SourceSizeList
-product: Windows
 targetos: Windows
 req.typenames: SourceSizeList
 req.redist: 

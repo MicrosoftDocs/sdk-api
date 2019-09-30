@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoSurfaceInfo
-product: Windows
 targetos: Windows
 req.typenames: MFVideoSurfaceInfo
 req.redist: 

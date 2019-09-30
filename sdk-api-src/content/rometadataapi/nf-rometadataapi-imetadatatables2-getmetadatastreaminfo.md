@@ -38,7 +38,6 @@ api_location:
  - rometadataapi.h
 api_name:
  - IMetaDataTables2.GetMetaDataStreamInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

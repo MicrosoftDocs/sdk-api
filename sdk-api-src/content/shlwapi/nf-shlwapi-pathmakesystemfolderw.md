@@ -42,7 +42,6 @@ api_name:
  - PathMakeSystemFolder
  - PathMakeSystemFolderA
  - PathMakeSystemFolderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

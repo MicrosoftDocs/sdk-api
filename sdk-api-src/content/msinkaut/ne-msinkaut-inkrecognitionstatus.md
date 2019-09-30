@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRecognitionStatus
-product: Windows
 targetos: Windows
 req.typenames: InkRecognitionStatus
 req.redist: 

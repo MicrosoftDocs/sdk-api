@@ -38,7 +38,6 @@ api_location:
 - Winperf.h
 api_name:
 - PERF_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListClearAllEx
  - MsiSourceListClearAllExA
  - MsiSourceListClearAllExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

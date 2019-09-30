@@ -39,7 +39,6 @@ api_location:
 api_name:
 - ADDRESS64
 - ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: ADDRESS64, *LPADDRESS64
 req.redist: DbgHelp.dll 5.1 or later

@@ -41,7 +41,6 @@ api_name:
 - WNetDisconnectDialog1
 - WNetDisconnectDialog1A
 - WNetDisconnectDialog1W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

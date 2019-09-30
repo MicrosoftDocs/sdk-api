@@ -38,7 +38,6 @@ api_location:
  - RdpEncom.dll
 api_name:
  - IRDPSRAPISharingSession2.ConnectUsingTransportStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

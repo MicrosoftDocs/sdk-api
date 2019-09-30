@@ -40,7 +40,6 @@ api_name:
  - MIMEAssociationDialog
  - MIMEAssociationDialogA
  - MIMEAssociationDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

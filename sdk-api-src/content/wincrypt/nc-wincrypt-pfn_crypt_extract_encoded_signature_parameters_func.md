@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

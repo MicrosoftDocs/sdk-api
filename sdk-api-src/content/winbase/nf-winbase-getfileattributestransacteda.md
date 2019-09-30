@@ -47,7 +47,6 @@ api_name:
 - GetFileAttributesTransacted
 - GetFileAttributesTransactedA
 - GetFileAttributesTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

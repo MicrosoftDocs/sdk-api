@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - CAUUID
-product: Windows
 targetos: Windows
 req.typenames: CAUUID, *LPCAUUID
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - SHChangeDWORDAsIDList
-product: Windows
 targetos: Windows
 req.typenames: SHChangeDWORDAsIDList, *LPSHChangeDWORDAsIDList
 req.redist: 

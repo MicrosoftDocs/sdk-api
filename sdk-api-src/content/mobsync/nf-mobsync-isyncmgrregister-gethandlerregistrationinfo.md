@@ -38,7 +38,6 @@ api_location:
 - Mobsync.dll
 api_name:
 - ISyncMgrRegister.GetHandlerRegistrationInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

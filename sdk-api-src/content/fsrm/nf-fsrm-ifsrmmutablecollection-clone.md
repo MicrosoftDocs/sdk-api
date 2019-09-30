@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmMutableCollection.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

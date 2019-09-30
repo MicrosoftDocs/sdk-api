@@ -39,7 +39,6 @@ api_location:
  - d3dcsx.dll
 api_name:
  - D3DX11CreateFFT2DComplex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

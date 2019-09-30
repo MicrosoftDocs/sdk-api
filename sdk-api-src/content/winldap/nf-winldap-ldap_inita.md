@@ -40,7 +40,6 @@ api_name:
  - ldap_init
  - ldap_initA
  - ldap_initW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - HELPWININFO
-product: Windows
 targetos: Windows
 req.typenames: HELPWININFOA, *PHELPWININFOA, *LPHELPWININFOA
 req.redist: 

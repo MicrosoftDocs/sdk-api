@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - PCLUSAPI_CLUS_WORKER_TERMINATE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

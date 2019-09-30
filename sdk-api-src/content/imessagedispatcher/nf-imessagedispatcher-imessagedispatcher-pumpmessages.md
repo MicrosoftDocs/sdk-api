@@ -38,7 +38,6 @@ api_location:
  - imessagedispatcher.h
 api_name:
  - IMessageDispatcher.PumpMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

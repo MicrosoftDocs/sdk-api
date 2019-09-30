@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFGetAttributeSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

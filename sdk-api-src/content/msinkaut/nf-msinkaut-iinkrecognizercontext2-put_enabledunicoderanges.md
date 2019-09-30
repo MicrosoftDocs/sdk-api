@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext2.put_EnabledUnicodeRanges
  - IInkRecognizerContext2.get_EnabledUnicodeRanges
  - IInkRecognizerContext2.put_EnabledUnicodeRanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mswsock.h
 api_name:
  - TRANSMIT_PACKETS_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: TRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, *LPTRANSMIT_PACKETS_ELEMENT
 req.redist: 

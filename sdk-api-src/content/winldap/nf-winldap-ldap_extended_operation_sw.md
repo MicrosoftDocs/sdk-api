@@ -40,7 +40,6 @@ api_name:
  - ldap_extended_operation_s
  - ldap_extended_operation_sA
  - ldap_extended_operation_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

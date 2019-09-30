@@ -38,7 +38,6 @@ api_location:
  - d3d10effect.h
 api_name:
  - ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

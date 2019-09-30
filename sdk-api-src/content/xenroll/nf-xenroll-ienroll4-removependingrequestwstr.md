@@ -38,7 +38,6 @@ api_location:
  - Xenroll.dll
 api_name:
  - IEnroll4.removePendingRequestWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

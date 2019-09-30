@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CSC_Binding
-product: Windows
 targetos: Windows
 req.typenames: CSC_Binding
 req.redist: 

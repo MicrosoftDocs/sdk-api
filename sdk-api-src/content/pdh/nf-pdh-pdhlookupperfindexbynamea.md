@@ -40,7 +40,6 @@ api_name:
  - PdhLookupPerfIndexByName
  - PdhLookupPerfIndexByNameA
  - PdhLookupPerfIndexByNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

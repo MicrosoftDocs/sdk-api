@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.MachineContext
  - IX509PrivateKey.get_MachineContext
  - IX509PrivateKey.put_MachineContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.SenderOffice
  - IFaxDoc.get_SenderOffice
  - IFaxDoc.put_SenderOffice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

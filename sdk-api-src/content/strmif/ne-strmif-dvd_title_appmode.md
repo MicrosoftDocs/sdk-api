@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TITLE_APPMODE
-product: Windows
 targetos: Windows
 req.typenames: DVD_TITLE_APPMODE
 req.redist: 

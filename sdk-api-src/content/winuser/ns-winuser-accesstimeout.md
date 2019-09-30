@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - ACCESSTIMEOUT
-product: Windows
 targetos: Windows
 req.typenames: ACCESSTIMEOUT, *LPACCESSTIMEOUT
 req.redist: 

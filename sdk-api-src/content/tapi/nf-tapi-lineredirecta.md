@@ -40,7 +40,6 @@ api_name:
  - lineRedirect
  - lineRedirectA
  - lineRedirectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

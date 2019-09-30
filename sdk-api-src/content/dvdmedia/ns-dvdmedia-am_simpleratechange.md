@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_SimpleRateChange
-product: Windows
 targetos: Windows
 req.typenames: AM_SimpleRateChange
 req.redist: 

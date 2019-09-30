@@ -38,7 +38,6 @@ api_location:
  - Winsvc.h
 api_name:
  - SERVICE_SID_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
 req.redist: 

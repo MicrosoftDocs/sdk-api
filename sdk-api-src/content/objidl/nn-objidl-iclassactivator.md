@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IClassActivator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.SetNameOf
 - IShellFolder2.SetNameOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

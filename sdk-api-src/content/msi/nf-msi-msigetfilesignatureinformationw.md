@@ -40,7 +40,6 @@ api_name:
  - MsiGetFileSignatureInformation
  - MsiGetFileSignatureInformationA
  - MsiGetFileSignatureInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

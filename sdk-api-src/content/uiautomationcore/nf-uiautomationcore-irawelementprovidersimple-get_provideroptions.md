@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRawElementProviderSimple.ProviderOptions
  - IRawElementProviderSimple.get_ProviderOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

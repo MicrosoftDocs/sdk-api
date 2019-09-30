@@ -38,7 +38,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - _DMO_SET_TYPE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - OLEDCFLAGS
-product: Windows
 targetos: Windows
 req.typenames: OLEDCFLAGS
 req.redist: 

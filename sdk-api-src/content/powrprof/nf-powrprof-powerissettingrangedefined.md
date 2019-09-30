@@ -38,7 +38,6 @@ api_location:
  - Powrprof.dll
 api_name:
  - PowerIsSettingRangeDefined
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

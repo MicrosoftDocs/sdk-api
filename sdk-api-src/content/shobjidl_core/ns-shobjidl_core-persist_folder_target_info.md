@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - PERSIST_FOLDER_TARGET_INFO
-product: Windows
 targetos: Windows
 req.typenames: PERSIST_FOLDER_TARGET_INFO
 req.redist: 

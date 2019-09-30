@@ -40,7 +40,6 @@ api_name:
  - GetIscsiTargetInformation
  - GetIscsiTargetInformationA
  - GetIscsiTargetInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

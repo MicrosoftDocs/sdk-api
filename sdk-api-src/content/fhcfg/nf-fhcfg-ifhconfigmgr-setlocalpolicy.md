@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFhConfigMgr.SetLocalPolicy
 - FhConfigMgr.SetLocalPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

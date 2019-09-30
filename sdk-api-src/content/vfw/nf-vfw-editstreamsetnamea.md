@@ -40,7 +40,6 @@ api_name:
  - EditStreamSetName
  - EditStreamSetNameA
  - EditStreamSetNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

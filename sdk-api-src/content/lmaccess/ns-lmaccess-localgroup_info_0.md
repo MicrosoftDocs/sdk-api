@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - LOCALGROUP_INFO_0
-product: Windows
 targetos: Windows
 req.typenames: LOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, *LPLOCALGROUP_INFO_0
 req.redist: 

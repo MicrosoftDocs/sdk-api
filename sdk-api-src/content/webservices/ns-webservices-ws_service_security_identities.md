@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SERVICE_SECURITY_IDENTITIES
-product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_SECURITY_IDENTITIES
 req.redist: 

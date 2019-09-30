@@ -38,7 +38,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMBackup.GenerateReportToFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Faultrep.dll
 api_name:
  - WerReportHang
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

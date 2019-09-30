@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - IMFDRMNetHelper
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

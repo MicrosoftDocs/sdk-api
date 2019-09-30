@@ -40,7 +40,6 @@ api_name:
 - GetTrusteeForm
 - GetTrusteeFormA
 - GetTrusteeFormW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

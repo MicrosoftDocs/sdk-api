@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_KeySpec
  - ICEnroll.put_KeySpec
  - CEnroll.KeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

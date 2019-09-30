@@ -40,7 +40,6 @@ api_name:
  - IUIAutomation2.TransactionTimeout
  - IUIAutomation2.get_TransactionTimeout
  - IUIAutomation2.put_TransactionTimeout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - ASSEMBLY_INFO
-product: Windows
 targetos: Windows
 req.typenames: ASSEMBLY_INFO
 req.redist: 

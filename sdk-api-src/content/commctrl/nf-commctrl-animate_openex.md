@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Animate_OpenEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

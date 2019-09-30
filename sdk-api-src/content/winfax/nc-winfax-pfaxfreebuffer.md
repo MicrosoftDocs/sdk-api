@@ -40,7 +40,6 @@ api_name:
  - PFAXFREEBUFFER
  - FaxFreeBufferA
  - FaxFreeBufferW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

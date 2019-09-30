@@ -10,7 +10,6 @@ ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DRED_FLAGS"
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3d12.h

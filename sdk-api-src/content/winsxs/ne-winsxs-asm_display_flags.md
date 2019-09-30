@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - ASM_DISPLAY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: ASM_DISPLAY_FLAGS
 req.redist: 

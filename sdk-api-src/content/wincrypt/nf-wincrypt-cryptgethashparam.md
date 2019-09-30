@@ -40,7 +40,6 @@ api_location:
  - cryptsp.dll
 api_name:
  - CryptGetHashParam
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

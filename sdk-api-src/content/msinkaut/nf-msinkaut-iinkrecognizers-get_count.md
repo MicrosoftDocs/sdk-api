@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizers.Count
  - IInkRecognizers.get_Count
  - InkRecognizers.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

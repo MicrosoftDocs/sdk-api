@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientState
  - IFaxDoc.get_RecipientState
  - IFaxDoc.put_RecipientState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

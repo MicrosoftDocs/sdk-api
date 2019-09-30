@@ -46,7 +46,6 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
  - RegNotifyChangeKeyValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

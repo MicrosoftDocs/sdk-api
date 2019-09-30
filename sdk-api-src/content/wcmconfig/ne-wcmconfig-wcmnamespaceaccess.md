@@ -38,7 +38,6 @@ api_location:
  - WcmConfig.h
 api_name:
  - WcmNamespaceAccess
-product: Windows
 targetos: Windows
 req.typenames: WcmNamespaceAccess
 req.redist: 

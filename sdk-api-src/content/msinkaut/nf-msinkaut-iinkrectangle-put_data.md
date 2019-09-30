@@ -43,7 +43,6 @@ api_name:
  - IInkRectangle.put_Data
  - InkRectangle.get_Data
  - InkRectangle.put_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_TXFS_WRITE_BACKUP_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -48,7 +48,6 @@ api_name:
  - GetModuleFileName
  - GetModuleFileNameA
  - GetModuleFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

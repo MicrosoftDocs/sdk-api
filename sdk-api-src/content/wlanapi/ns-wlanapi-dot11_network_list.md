@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - DOT11_NETWORK_LIST
-product: Windows
 targetos: Windows
 req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
 req.redist: 

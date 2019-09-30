@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CLIENTCREATESTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CLIENTCREATESTRUCT, *LPCLIENTCREATESTRUCT
 req.redist: 

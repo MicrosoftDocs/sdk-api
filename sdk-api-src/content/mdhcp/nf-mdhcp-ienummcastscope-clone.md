@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IEnumMcastScope.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - KEYBDINPUT
-product: Windows
 targetos: Windows
 req.typenames: KEYBDINPUT, *PKEYBDINPUT, *LPKEYBDINPUT
 req.redist: 

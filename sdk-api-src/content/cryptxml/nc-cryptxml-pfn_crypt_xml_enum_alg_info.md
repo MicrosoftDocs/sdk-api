@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - PFN_CRYPT_XML_ENUM_ALG_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

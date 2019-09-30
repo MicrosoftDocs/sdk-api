@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.dll
 api_name:
  - IMFTimedText.RemoveTrack
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

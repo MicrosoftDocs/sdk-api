@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.ServiceID
  - IUpdateHistoryEntry.get_ServiceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

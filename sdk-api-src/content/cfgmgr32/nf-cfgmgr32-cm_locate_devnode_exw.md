@@ -40,7 +40,6 @@ api_location:
 api_name:
 - CM_Locate_DevNode_Ex
 - CM_Locate_DevNode_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

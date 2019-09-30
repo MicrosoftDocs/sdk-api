@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - PrimaryJabColors
-product: Windows
 targetos: Windows
 req.typenames: PrimaryJabColors
 req.redist: 

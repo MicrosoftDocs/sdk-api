@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - IOleCommandTarget
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

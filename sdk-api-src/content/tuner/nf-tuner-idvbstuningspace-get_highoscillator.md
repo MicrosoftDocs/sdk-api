@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBSTuningSpace.get_HighOscillator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

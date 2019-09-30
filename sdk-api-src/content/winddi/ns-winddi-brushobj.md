@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - BRUSHOBJ
-product: Windows
 targetos: Windows
 req.typenames: BRUSHOBJ
 req.redist: 

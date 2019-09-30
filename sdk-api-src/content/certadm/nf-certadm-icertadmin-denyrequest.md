@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.DenyRequest
  - ICertAdmin.DenyRequest
  - CCertAdmin.DenyRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - windows.data.pdf.interop.h
 api_name:
  - PDF_RENDER_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: PDF_RENDER_PARAMS
 req.redist: 

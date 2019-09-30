@@ -38,7 +38,6 @@ api_location:
  - OleDlg.dll
 api_name:
  - OleUICanConvertOrActivateAs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

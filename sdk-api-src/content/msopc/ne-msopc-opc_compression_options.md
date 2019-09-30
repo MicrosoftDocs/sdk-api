@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_COMPRESSION_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: OPC_COMPRESSION_OPTIONS
 req.redist: 

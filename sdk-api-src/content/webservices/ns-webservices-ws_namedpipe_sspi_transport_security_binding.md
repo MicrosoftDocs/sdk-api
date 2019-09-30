@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
-product: Windows
 targetos: Windows
 req.typenames: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 req.redist: 

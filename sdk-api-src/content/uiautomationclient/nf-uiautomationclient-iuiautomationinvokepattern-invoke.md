@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.h
 api_name:
  - IUIAutomationInvokePattern.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

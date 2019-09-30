@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_SYNCHRONISED_LYRICS
-product: Windows
 targetos: Windows
 req.typenames: WM_SYNCHRONISED_LYRICS
 req.redist: 

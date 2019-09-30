@@ -38,7 +38,6 @@ api_location:
 - Madcapcl.h
 api_name:
 - MCAST_LEASE_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: MCAST_LEASE_RESPONSE, *PMCAST_LEASE_RESPONSE
 req.redist: 

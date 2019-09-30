@@ -40,7 +40,6 @@ api_name:
  - INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
  - INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
  - INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

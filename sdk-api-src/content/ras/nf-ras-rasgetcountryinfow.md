@@ -40,7 +40,6 @@ api_name:
  - RasGetCountryInfo
  - RasGetCountryInfoA
  - RasGetCountryInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

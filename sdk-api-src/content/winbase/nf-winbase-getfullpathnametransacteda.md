@@ -44,7 +44,6 @@ api_name:
  - GetFullPathNameTransacted
  - GetFullPathNameTransactedA
  - GetFullPathNameTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

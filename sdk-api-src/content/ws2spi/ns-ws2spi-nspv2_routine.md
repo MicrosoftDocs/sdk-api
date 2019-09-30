@@ -38,7 +38,6 @@ api_location:
 - Ws2spi.h
 api_name:
 - NSPV2_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: NSPV2_ROUTINE, *PNSPV2_ROUTINE, *LPNSPV2_ROUTINE
 req.redist: 

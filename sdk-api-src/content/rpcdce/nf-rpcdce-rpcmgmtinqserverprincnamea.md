@@ -40,7 +40,6 @@ api_name:
  - RpcMgmtInqServerPrincName
  - RpcMgmtInqServerPrincNameA
  - RpcMgmtInqServerPrincNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

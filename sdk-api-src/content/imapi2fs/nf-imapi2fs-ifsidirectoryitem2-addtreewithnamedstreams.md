@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFsiDirectoryItem2.AddTreeWithNamedStreams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

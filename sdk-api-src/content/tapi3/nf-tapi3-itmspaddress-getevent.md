@@ -38,7 +38,6 @@ api_location:
  - msp.h
 api_name:
  - ITMSPAddress.GetEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

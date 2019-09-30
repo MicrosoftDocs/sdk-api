@@ -40,7 +40,6 @@ api_name:
  - MapFileAndCheckSum
  - MapFileAndCheckSumA
  - MapFileAndCheckSumW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

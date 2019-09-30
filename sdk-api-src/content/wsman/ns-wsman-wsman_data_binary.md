@@ -38,7 +38,6 @@ api_location:
 - Wsman.h
 api_name:
 - WSMAN_DATA_BINARY
-product: Windows
 targetos: Windows
 req.typenames: WSMAN_DATA_BINARY
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

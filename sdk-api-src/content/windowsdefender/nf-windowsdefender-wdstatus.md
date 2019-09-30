@@ -38,7 +38,6 @@ api_location:
  - MpClient.dll
 api_name:
  - WDStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

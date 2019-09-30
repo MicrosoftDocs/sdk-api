@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 req.redist: 

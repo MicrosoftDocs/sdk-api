@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - TBINFO
-product: Windows
 targetos: Windows
 req.typenames: TBINFO
 req.redist: 

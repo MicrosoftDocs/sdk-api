@@ -40,7 +40,6 @@ api_name:
 - WTSUSERCONFIG
 - WTSUSERCONFIGA
 - WTSUSERCONFIGW
-product: Windows
 targetos: Windows
 req.typenames: WTSUSERCONFIGA, *PWTSUSERCONFIGA
 req.redist: 

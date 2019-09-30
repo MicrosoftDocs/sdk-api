@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - SOUNDSENTRY
-product: Windows
 targetos: Windows
 req.typenames: SOUNDSENTRYA, *LPSOUNDSENTRYA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - IMarshalingStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

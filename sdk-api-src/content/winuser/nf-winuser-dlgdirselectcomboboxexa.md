@@ -40,7 +40,6 @@ api_name:
  - DlgDirSelectComboBoxEx
  - DlgDirSelectComboBoxExA
  - DlgDirSelectComboBoxExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

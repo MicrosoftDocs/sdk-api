@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - IVdsHbaPort.SetAllPathStatuses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - gamingtcui.h
 api_name:
  - KnownGamingPrivileges
-product: Windows
 targetos: Windows
 req.typenames: KnownGamingPrivileges
 req.redist: 

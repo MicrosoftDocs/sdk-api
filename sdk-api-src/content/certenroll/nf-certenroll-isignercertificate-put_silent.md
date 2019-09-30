@@ -40,7 +40,6 @@ api_name:
  - ISignerCertificate.Silent
  - ISignerCertificate.get_Silent
  - ISignerCertificate.put_Silent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBGROUPINFO
-product: Windows
 targetos: Windows
 req.typenames: DBGROUPINFO
 req.redist: 

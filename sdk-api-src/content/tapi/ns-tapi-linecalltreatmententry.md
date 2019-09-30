@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECALLTREATMENTENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINECALLTREATMENTENTRY, *LPLINECALLTREATMENTENTRY
 req.redist: 

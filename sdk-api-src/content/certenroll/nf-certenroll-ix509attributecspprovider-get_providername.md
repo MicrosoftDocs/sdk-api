@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeCspProvider.ProviderName
  - IX509AttributeCspProvider.get_ProviderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

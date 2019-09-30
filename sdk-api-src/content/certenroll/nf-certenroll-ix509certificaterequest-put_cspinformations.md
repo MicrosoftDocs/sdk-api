@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.CspInformations
  - IX509CertificateRequest.get_CspInformations
  - IX509CertificateRequest.put_CspInformations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

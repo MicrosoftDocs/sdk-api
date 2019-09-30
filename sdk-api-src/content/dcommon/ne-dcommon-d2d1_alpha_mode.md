@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D1_ALPHA_MODE
-product: Windows
 targetos: Windows
 req.typenames: D2D1_ALPHA_MODE
 req.redist: 

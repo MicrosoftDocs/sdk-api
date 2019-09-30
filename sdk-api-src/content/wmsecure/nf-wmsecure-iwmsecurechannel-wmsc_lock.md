@@ -38,7 +38,6 @@ api_location:
  - Wmsecure.h
 api_name:
  - IWMSecureChannel.WMSC_Lock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

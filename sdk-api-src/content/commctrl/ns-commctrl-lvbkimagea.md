@@ -40,7 +40,6 @@ api_name:
  - LVBKIMAGE
  - LVBKIMAGEA
  - LVBKIMAGEW
-product: Windows
 targetos: Windows
 req.typenames: LVBKIMAGEA, *LPLVBKIMAGEA
 req.redist: 

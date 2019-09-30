@@ -38,7 +38,6 @@ api_location:
  - gdiplusstringformat.h
 api_name:
  - StringFormat.StringFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

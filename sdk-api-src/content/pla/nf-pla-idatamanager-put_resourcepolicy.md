@@ -40,7 +40,6 @@ api_name:
  - IDataManager.ResourcePolicy
  - IDataManager.get_ResourcePolicy
  - IDataManager.put_ResourcePolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

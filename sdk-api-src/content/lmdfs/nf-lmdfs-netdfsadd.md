@@ -38,7 +38,6 @@ api_location:
  - NetApi32.dll
 api_name:
  - NetDfsAdd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

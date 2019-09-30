@@ -38,7 +38,6 @@ api_location:
  - Wsnmp32.dll
 api_name:
  - SnmpFreePdu
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Bdatif.h
 api_name:
  - IEnumTuneRequests
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

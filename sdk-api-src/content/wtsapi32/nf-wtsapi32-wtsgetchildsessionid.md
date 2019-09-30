@@ -38,7 +38,6 @@ api_location:
  - Wtsapi32.dll
 api_name:
  - WTSGetChildSessionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

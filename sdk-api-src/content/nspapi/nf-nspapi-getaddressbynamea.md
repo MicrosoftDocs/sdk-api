@@ -40,7 +40,6 @@ api_name:
 - GetAddressByName
 - GetAddressByNameA
 - GetAddressByNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

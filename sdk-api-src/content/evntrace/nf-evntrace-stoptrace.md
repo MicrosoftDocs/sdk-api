@@ -46,7 +46,6 @@ api_name:
  - StopTrace
  - StopTraceA
  - StopTraceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

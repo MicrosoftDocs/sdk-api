@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_FLOWRATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_FLOWRATE_INFO, *PHTTP_FLOWRATE_INFO
 req.redist: 

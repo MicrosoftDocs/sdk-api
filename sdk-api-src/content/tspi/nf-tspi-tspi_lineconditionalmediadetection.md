@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TSPI_lineConditionalMediaDetection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

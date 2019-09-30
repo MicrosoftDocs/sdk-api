@@ -40,7 +40,6 @@ api_name:
  - LoadMenuIndirect
  - LoadMenuIndirectA
  - LoadMenuIndirectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

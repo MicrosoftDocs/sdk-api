@@ -38,7 +38,6 @@ api_location:
  - mf.dll
 api_name:
  - MFCreateAudioRenderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

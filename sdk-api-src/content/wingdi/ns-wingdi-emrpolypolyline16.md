@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRPOLYPOLYLINE16
-product: Windows
 targetos: Windows
 req.typenames: EMRPOLYPOLYLINE16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, *PEMRPOLYPOLYGON16
 req.redist: 

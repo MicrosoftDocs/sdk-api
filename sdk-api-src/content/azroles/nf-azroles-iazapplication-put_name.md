@@ -41,7 +41,6 @@ api_name:
  - IAzApplication.get_Name
  - IAzApplication.put_Name
  - AzApplication.Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

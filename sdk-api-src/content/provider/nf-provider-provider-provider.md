@@ -41,7 +41,6 @@ api_name:
  - Provider.Provider
  - ??0Provider@@QAE@PBG0@Z
  - ??0Provider@@QEAA@PEBG0@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

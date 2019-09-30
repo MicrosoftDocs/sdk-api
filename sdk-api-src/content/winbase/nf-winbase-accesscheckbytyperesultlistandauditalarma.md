@@ -47,7 +47,6 @@ api_name:
 - AccessCheckByTypeResultListAndAuditAlarm
 - AccessCheckByTypeResultListAndAuditAlarmA
 - AccessCheckByTypeResultListAndAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

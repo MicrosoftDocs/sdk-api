@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.ResubmitRequest
  - ICertAdmin.ResubmitRequest
  - CCertAdmin.ResubmitRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - FLICKDIRECTION
-product: Windows
 targetos: Windows
 req.typenames: FLICKDIRECTION
 req.redist: 

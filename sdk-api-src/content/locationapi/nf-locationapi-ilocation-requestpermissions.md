@@ -38,7 +38,6 @@ api_location:
  - LocationAPI.dll
 api_name:
  - ILocation.RequestPermissions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

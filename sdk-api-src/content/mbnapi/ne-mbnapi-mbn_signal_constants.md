@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_SIGNAL_CONSTANTS
-product: Windows
 targetos: Windows
 req.typenames: MBN_SIGNAL_CONSTANTS
 req.redist: 

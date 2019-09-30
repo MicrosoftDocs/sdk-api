@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - VIDEOINFOHEADER2
-product: Windows
 targetos: Windows
 req.typenames: VIDEOINFOHEADER2
 req.redist: 

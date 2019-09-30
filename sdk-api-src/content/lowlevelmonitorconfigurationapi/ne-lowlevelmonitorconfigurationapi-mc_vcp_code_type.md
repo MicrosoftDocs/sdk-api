@@ -38,7 +38,6 @@ api_location:
  - LowLevelMonitorConfigurationAPI.h
 api_name:
  - MC_VCP_CODE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MC_VCP_CODE_TYPE, *LPMC_VCP_CODE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_FIND_USAGE_PARA
-product: Windows
 targetos: Windows
 req.typenames: CTL_FIND_USAGE_PARA, *PCTL_FIND_USAGE_PARA
 req.redist: 

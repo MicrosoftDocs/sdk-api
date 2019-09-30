@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CertSrvBackupGetDatabaseNames
  - CertSrvBackupGetDatabaseNamesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

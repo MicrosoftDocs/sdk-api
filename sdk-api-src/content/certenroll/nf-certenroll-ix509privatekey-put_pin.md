@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PrivateKey.Pin
  - IX509PrivateKey.put_Pin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

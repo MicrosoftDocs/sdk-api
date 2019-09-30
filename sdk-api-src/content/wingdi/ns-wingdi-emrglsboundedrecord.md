@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRGLSBOUNDEDRECORD
-product: Windows
 targetos: Windows
 req.typenames: EMRGLSBOUNDEDRECORD, *PEMRGLSBOUNDEDRECORD
 req.redist: 

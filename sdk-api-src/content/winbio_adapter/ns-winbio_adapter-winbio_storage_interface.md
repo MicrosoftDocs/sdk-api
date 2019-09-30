@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WINBIO_STORAGE_INTERFACE
-product: Windows
 targetos: Windows
 req.typenames: "*PWINBIO_STORAGE_INTERFACE, WINBIO_STORAGE_INTERFACE"
 req.redist: 

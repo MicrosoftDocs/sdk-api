@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUS_MAINTENANCE_MODE_INFOEX
-product: Windows
 targetos: Windows
 req.typenames: CLUS_MAINTENANCE_MODE_INFOEX, *PCLUS_MAINTENANCE_MODE_INFOEX
 req.redist: 

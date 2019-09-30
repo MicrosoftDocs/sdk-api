@@ -40,7 +40,6 @@ api_name:
  - IAzApplication.DelegatedPolicyUsers
  - IAzApplication.get_DelegatedPolicyUsers
  - AzApplication.DelegatedPolicyUsers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

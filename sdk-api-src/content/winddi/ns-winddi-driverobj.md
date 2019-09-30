@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - DRIVEROBJ
-product: Windows
 targetos: Windows
 req.typenames: DRIVEROBJ
 req.redist: 

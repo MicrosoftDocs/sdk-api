@@ -38,7 +38,6 @@ api_location:
  - Rasdlg.h
 api_name:
  - RasCustomEntryDlg
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

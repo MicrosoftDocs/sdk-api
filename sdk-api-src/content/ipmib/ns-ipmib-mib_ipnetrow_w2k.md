@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IPNETROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPNETROW_W2K, *PMIB_IPNETROW_W2K
 req.redist: 

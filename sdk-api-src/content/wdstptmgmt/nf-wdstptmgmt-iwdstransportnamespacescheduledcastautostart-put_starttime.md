@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportNamespaceScheduledCastAutoStart.StartTime
  - IWdsTransportNamespaceScheduledCastAutoStart.get_StartTime
  - IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

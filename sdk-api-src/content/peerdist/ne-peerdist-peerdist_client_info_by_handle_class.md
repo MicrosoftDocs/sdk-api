@@ -38,7 +38,6 @@ api_location:
 - peerdist.h
 api_name:
 - PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 req.redist: 

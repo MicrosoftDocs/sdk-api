@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMDATETIMECHANGE
-product: Windows
 targetos: Windows
 req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
 req.redist: 

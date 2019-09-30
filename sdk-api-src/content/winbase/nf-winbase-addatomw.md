@@ -43,7 +43,6 @@ api_name:
  - AddAtom
  - AddAtomA
  - AddAtomW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

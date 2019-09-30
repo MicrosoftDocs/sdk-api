@@ -40,7 +40,6 @@ api_name:
  - SHGetIconOverlayIndex
  - SHGetIconOverlayIndexA
  - SHGetIconOverlayIndexW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

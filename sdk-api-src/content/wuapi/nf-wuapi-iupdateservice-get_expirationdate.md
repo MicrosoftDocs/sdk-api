@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.ExpirationDate
  - IUpdateService.get_ExpirationDate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

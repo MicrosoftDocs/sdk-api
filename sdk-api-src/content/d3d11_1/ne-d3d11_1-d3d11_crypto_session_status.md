@@ -38,7 +38,6 @@ api_location:
  - d3d11_1.h
 api_name:
  - D3D11_CRYPTO_SESSION_STATUS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_CRYPTO_SESSION_STATUS
 req.redist: 

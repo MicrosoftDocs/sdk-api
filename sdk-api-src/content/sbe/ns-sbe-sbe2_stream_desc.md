@@ -38,7 +38,6 @@ api_location:
  - sbe.h
 api_name:
  - SBE2_STREAM_DESC
-product: Windows
 targetos: Windows
 req.typenames: SBE2_STREAM_DESC
 req.redist: 

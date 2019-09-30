@@ -48,7 +48,6 @@ api_name:
  - EnumResourceLanguagesEx
  - EnumResourceLanguagesExA
  - EnumResourceLanguagesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

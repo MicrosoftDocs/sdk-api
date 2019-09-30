@@ -46,7 +46,6 @@ api_location:
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
  - SizeofResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

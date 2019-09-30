@@ -38,7 +38,6 @@ api_location:
 - Fhcfg.h
 api_name:
 - FH_LOCAL_POLICY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
 req.redist: 

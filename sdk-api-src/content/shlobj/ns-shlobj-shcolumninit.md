@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - SHCOLUMNINIT
-product: Windows
 targetos: Windows
 req.typenames: SHCOLUMNINIT, *LPSHCOLUMNINIT
 req.redist: 

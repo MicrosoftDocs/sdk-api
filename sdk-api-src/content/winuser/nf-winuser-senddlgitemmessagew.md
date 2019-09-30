@@ -43,7 +43,6 @@ api_name:
  - SendDlgItemMessage
  - SendDlgItemMessageA
  - SendDlgItemMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

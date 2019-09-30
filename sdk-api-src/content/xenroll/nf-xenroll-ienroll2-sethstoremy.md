@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.SetHStoreMy
  - IEnroll2.SetHStoreMy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmReport.Name
  - IFsrmReport.get_Name
  - IFsrmReport.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

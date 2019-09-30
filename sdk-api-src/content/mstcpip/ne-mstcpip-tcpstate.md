@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - TCPSTATE
-product: Windows
 targetos: Windows
 req.typenames: TCPSTATE
 req.redist: 

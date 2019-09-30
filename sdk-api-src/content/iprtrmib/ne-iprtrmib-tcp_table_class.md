@@ -39,7 +39,6 @@ api_location:
 - Iphlpapi.h
 api_name:
 - TCP_TABLE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
 req.redist: 

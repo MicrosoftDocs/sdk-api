@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingMessage.Sender
  - IFaxOutgoingMessage.get_Sender
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

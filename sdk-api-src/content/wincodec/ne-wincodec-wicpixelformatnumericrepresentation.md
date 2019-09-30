@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPixelFormatNumericRepresentation
-product: Windows
 targetos: Windows
 req.typenames: WICPixelFormatNumericRepresentation
 req.redist: 

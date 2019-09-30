@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TRANSACTION_OUTCOME
-product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_OUTCOME
 req.redist: 

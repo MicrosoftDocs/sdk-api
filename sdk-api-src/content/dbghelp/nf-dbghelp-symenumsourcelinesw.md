@@ -40,7 +40,6 @@ api_name:
  - SymEnumSourceLines
  - SymEnumSourceLines
  - SymEnumSourceLinesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.4 or later

@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITForwardInformation.get_NumRingsNoAnswer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

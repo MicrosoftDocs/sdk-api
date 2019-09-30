@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_CACHE_TIMESTAMPS
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS
 req.redist: 

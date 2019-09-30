@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelFontName
  - InkEdit.get_SelFontName
  - InkEdit.put_SelFontName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

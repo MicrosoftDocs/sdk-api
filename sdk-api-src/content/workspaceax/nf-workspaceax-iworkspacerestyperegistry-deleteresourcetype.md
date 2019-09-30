@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWorkspaceResTypeRegistry.DeleteResourceType
  - Workspace.DeleteResourceType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

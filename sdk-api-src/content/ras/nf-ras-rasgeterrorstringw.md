@@ -40,7 +40,6 @@ api_name:
  - RasGetErrorString
  - RasGetErrorStringA
  - RasGetErrorStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFRR_COMPONENT_HASH_INFO
-product: Windows
 targetos: Windows
 req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
 req.redist: 

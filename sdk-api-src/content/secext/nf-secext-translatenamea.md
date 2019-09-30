@@ -40,7 +40,6 @@ api_name:
  - TranslateName
  - TranslateNameA
  - TranslateNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

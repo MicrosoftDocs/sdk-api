@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - CAPINFOCHUNK
-product: Windows
 targetos: Windows
 req.typenames: CAPINFOCHUNK, *PCAPINFOCHUNK, *LPCAPINFOCHUNK
 req.redist: 

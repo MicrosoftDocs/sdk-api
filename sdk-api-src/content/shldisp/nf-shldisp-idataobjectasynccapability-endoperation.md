@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IDataObjectAsyncCapability.EndOperation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

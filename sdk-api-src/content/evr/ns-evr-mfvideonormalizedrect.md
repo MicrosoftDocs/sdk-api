@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFVideoNormalizedRect
-product: Windows
 targetos: Windows
 req.typenames: MFVideoNormalizedRect
 req.redist: 

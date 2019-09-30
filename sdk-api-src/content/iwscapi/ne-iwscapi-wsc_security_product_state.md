@@ -38,7 +38,6 @@ api_location:
  - Wscapi.lib
 api_name:
  - WSC_SECURITY_PRODUCT_STATE
-product: Windows
 targetos: Windows
 req.typenames: WSC_SECURITY_PRODUCT_STATE
 req.redist: 

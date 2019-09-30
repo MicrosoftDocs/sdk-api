@@ -41,7 +41,6 @@ api_name:
  - VerInstallFile
  - VerInstallFileA
  - VerInstallFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

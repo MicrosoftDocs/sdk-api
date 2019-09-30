@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - USN_RECORD_V3
-product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_V3, *PUSN_RECORD_V3
 req.redist: 

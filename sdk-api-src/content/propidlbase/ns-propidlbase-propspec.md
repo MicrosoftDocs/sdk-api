@@ -38,7 +38,6 @@ api_location:
  - propidlbase.h
 api_name:
  - PROPSPEC
-product: Windows
 targetos: Windows
 req.typenames: PROPSPEC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - MsRdc.dll
 api_name:
  - IRdcGeneratorParameters.GetParametersVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

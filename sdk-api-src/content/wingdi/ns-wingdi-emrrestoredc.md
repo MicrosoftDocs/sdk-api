@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRRESTOREDC
-product: Windows
 targetos: Windows
 req.typenames: EMRRESTOREDC, *PEMRRESTOREDC
 req.redist: 

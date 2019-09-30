@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CachedAnnotationTypeId
  - IUIAutomationAnnotationPattern.get_CachedAnnotationTypeId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

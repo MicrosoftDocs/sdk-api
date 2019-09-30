@@ -38,7 +38,6 @@ api_location:
  - lpmapi.h
 api_name:
  - CBADMITRESULT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wbemsvc.dll
 api_name:
  - IWbemProviderIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

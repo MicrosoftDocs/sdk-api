@@ -40,7 +40,6 @@ api_location:
 api_name:
  - ITypeInfo.Invoke
  - ITypeInfo2.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithm.MinLength
  - ICspAlgorithm.get_MinLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

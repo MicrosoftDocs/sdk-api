@@ -40,7 +40,6 @@ api_name:
  - SendIMEMessageEx
  - SendIMEMessageExA
  - SendIMEMessageExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

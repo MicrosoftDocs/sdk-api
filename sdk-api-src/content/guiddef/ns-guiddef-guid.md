@@ -5,7 +5,6 @@ ms.date: 4/26/2019
 ms.keywords: _GUID, GUID
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

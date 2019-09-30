@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.h
 api_name:
  - RTWQ_WORKQUEUE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RTWQ_WORKQUEUE_TYPE
 req.redist: 

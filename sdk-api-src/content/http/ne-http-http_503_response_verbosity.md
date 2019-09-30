@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_503_RESPONSE_VERBOSITY
-product: Windows
 targetos: Windows
 req.typenames: HTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY
 req.redist: 

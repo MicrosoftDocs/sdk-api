@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - IKE_AUTHENTICATION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
 req.redist: 

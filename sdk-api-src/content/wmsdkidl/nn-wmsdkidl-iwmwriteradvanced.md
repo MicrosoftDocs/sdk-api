@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - IWMWriterAdvanced
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

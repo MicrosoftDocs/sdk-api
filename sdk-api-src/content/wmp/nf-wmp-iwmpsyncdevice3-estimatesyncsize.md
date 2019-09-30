@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPSyncDevice3.estimateSyncSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

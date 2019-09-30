@@ -39,7 +39,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteColorGlyphRunEnumerator1.GetCurrentRun
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

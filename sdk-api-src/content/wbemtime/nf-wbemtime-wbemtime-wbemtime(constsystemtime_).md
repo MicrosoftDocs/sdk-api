@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.WBEMTime
  - ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z
  - ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

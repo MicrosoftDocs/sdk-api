@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - SMCSHCHANGENOTIFYSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: SMCSHCHANGENOTIFYSTRUCT, *PSMCSHCHANGENOTIFYSTRUCT
 req.redist: 

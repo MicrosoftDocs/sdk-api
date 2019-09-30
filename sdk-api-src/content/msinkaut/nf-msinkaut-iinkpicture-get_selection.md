@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_Selection
  - InkPicture.get_Selection
  - InkPicture.put_Selection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

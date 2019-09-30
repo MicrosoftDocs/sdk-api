@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPSyncDevice.get_connected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

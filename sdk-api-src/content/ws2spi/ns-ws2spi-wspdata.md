@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WSPDATA
-product: Windows
 targetos: Windows
 req.typenames: WSPDATA, *LPWSPDATA
 req.redist: 

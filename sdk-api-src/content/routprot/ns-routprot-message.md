@@ -38,7 +38,6 @@ api_location:
 - Routprot.h
 api_name:
 - MESSAGE
-product: Windows
 targetos: Windows
 req.typenames: MESSAGE, *PMESSAGE
 req.redist: 

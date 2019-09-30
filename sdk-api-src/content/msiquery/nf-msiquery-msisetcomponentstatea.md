@@ -40,7 +40,6 @@ api_name:
  - MsiSetComponentState
  - MsiSetComponentStateA
  - MsiSetComponentStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

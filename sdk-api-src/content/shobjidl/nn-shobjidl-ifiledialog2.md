@@ -38,7 +38,6 @@ api_location:
  - Comdlg32.dll
 api_name:
  - IFileDialog2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

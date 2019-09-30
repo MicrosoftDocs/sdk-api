@@ -39,7 +39,6 @@ api_location:
 - sspicli.dll
 api_name:
 - DecryptMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

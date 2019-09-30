@@ -38,7 +38,6 @@ api_location:
  - Oleaut32.dll
 api_name:
  - SysAddRefString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

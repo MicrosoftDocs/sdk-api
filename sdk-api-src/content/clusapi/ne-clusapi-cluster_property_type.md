@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_PROPERTY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_PROPERTY_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenTemplate.Name
  - IFsrmFileScreenTemplate.get_Name
  - IFsrmFileScreenTemplate.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

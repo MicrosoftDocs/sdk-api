@@ -42,7 +42,6 @@ api_name:
  - SetupFindFirstLine
  - SetupFindFirstLineA
  - SetupFindFirstLineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

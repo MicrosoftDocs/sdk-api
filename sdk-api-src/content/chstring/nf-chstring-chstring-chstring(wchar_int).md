@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CHString.CHString
  - ??0CHString@@QAE@GH@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

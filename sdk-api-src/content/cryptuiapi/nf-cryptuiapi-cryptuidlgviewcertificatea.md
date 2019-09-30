@@ -43,7 +43,6 @@ api_name:
  - CryptUIDlgViewCertificate
  - CryptUIDlgViewCertificateA
  - CryptUIDlgViewCertificateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

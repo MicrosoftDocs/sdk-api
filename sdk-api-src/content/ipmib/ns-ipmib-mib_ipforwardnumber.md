@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IPFORWARDNUMBER
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPFORWARDNUMBER, *PMIB_IPFORWARDNUMBER
 req.redist: 

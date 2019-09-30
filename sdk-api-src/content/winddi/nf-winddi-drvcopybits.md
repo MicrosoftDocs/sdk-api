@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DrvCopyBits
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

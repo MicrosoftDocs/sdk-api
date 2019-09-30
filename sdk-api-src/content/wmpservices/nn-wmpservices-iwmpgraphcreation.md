@@ -38,7 +38,6 @@ api_location:
  - wmpservices.h
 api_name:
  - IWMPGraphCreation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

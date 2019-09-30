@@ -38,7 +38,6 @@ api_location:
  - Ntmsapi.h
 api_name:
  - NTMS_ALLOCATION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NTMS_ALLOCATION_INFORMATION, *LPNTMS_ALLOCATION_INFORMATION
 req.redist: 

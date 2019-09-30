@@ -38,7 +38,6 @@ api_location:
  - DXGIFormat.h
 api_name:
  - DXGI_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: DXGI_FORMAT
 req.redist: 

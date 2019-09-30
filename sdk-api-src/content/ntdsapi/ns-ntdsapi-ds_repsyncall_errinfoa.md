@@ -40,7 +40,6 @@ api_name:
  - DS_REPSYNCALL_ERRINFO
  - DS_REPSYNCALL_ERRINFOA
  - DS_REPSYNCALL_ERRINFOW
-product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_ERRINFOA, *PDS_REPSYNCALL_ERRINFOA
 req.redist: 

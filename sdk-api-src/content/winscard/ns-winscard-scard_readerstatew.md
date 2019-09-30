@@ -40,7 +40,6 @@ api_name:
  - SCARD_READERSTATE
  - SCARD_READERSTATEA
  - SCARD_READERSTATEW
-product: Windows
 targetos: Windows
 req.typenames: SCARD_READERSTATEW, *PSCARD_READERSTATEW, *LPSCARD_READERSTATEW
 req.redist: 

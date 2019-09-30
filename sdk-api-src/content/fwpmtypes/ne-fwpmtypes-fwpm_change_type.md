@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWPM_CHANGE_TYPE
 req.redist: 

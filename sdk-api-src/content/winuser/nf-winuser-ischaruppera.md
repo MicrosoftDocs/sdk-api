@@ -46,7 +46,6 @@ api_name:
  - IsCharUpper
  - IsCharUpperA
  - IsCharUpperW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - EventSys.h
 api_name:
  - COMEVENTSYSCHANGEINFO
-product: Windows
 targetos: Windows
 req.typenames: COMEVENTSYSCHANGEINFO
 req.redist: 

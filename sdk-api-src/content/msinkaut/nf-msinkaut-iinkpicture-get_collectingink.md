@@ -41,7 +41,6 @@ api_name:
  - IInkPicture.CollectingInk
  - IInkPicture.get_CollectingInk
  - InkPicture.get_CollectingInk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

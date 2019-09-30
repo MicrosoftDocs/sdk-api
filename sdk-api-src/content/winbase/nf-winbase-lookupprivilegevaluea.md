@@ -47,7 +47,6 @@ api_name:
  - LookupPrivilegeValue
  - LookupPrivilegeValueA
  - LookupPrivilegeValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

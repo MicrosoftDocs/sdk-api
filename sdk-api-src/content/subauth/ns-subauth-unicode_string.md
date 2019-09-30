@@ -39,7 +39,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - LSA_UNICODE_STRING
-product: Windows
 targetos: Windows
 req.typenames: UNICODE_STRING, *PUNICODE_STRING
 req.redist: 

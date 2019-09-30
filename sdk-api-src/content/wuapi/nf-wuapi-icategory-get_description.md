@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.Description
  - ICategory.get_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

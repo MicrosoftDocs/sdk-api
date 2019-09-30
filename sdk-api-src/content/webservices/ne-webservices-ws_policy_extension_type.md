@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_POLICY_EXTENSION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_EXTENSION_TYPE
 req.redist: 

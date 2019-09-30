@@ -43,7 +43,6 @@ api_name:
  - DsUnBind
  - DsUnBindA
  - DsUnBindW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

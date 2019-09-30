@@ -5,7 +5,6 @@ ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderEnabled
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

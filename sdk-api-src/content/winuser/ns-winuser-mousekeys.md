@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MOUSEKEYS
-product: Windows
 targetos: Windows
 req.typenames: MOUSEKEYS, *LPMOUSEKEYS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - WAVEINCAPS
-product: Windows
 targetos: Windows
 req.typenames: WAVEINCAPS, *PWAVEINCAPS, *NPWAVEINCAPS, *LPWAVEINCAPS
 req.redist: 

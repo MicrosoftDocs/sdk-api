@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_Selection
  - InkOverlay.get_Selection
  - InkOverlay.put_Selection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

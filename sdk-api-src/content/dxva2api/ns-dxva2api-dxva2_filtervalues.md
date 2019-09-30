@@ -38,7 +38,6 @@ api_location:
 - dxva2api.h
 api_name:
 - DXVA2_FilterValues
-product: Windows
 targetos: Windows
 req.typenames: DXVA2_FilterValues
 req.redist: 

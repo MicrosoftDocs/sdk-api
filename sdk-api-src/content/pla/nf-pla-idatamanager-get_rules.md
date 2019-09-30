@@ -40,7 +40,6 @@ api_name:
  - IDataManager.Rules
  - IDataManager.get_Rules
  - IDataManager.put_Rules
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

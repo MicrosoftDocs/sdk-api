@@ -39,7 +39,6 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_NAME_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_NAME_INFO, *PFILE_NAME_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

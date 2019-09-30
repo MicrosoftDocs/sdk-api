@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.dll
 api_name:
  - NCryptFreeBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

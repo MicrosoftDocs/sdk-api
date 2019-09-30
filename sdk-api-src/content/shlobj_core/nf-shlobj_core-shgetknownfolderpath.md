@@ -44,7 +44,6 @@ api_location:
  - Windows.Storage.dll
 api_name:
  - SHGetKnownFolderPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

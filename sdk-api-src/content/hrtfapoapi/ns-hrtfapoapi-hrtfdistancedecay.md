@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfDistanceDecay
-product: Windows
 targetos: Windows
 req.typenames: HrtfDistanceDecay
 req.redist: 

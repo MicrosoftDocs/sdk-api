@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - IShellFolderViewDual3.FilterView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

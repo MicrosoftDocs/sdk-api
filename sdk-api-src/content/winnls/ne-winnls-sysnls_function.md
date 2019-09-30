@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - SYSNLS_FUNCTION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

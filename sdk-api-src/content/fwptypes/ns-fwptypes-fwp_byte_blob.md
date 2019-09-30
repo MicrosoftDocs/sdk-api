@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_BYTE_BLOB
-product: Windows
 targetos: Windows
 req.typenames: FWP_BYTE_BLOB
 req.redist: 

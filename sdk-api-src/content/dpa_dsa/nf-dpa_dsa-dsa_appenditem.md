@@ -38,7 +38,6 @@ api_location:
  - dpa_dsa.h
 api_name:
  - DSA_AppendItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

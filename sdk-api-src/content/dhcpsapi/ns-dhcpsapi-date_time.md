@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DATE_TIME
-product: Windows
 targetos: Windows
 req.typenames: DATE_TIME, *PDATE_TIME, *LPDATE_TIME
 req.redist: 

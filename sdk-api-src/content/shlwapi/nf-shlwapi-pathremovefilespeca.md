@@ -44,7 +44,6 @@ api_name:
  - PathRemoveFileSpec
  - PathRemoveFileSpecA
  - PathRemoveFileSpecW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

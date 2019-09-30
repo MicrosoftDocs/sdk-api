@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_MOTIONCOMP_LOCAL
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL'
 req.redist: 

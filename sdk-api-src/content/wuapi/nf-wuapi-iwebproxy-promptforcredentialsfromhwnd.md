@@ -38,7 +38,6 @@ api_location:
  - Wuapi.dll
 api_name:
  - IWebProxy.PromptForCredentialsFromHwnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D10.dll
 api_name:
  - D3D10GetInputAndOutputSignatureBlob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

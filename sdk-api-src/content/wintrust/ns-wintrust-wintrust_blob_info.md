@@ -38,7 +38,6 @@ api_location:
  - Wintrust.h
 api_name:
  - WINTRUST_BLOB_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_BLOB_INFO, *PWINTRUST_BLOB_INFO
 req.redist: 

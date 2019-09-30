@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.dll
 api_name:
  - DwmGetGraphicsStreamTransformHint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

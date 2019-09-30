@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_SET_DEFECT_MGMT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
 req.redist: 

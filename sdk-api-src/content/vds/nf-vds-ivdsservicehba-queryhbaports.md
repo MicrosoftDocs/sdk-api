@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - IVdsServiceHba.QueryHbaPorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

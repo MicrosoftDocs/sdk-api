@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_BLT_STATE
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - ITTerminalControl.get_AddressHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

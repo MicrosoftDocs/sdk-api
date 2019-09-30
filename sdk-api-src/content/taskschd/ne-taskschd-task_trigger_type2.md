@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_TRIGGER_TYPE2
-product: Windows
 targetos: Windows
 req.typenames: TASK_TRIGGER_TYPE2
 req.redist: 

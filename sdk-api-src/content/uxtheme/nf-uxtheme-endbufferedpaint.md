@@ -40,7 +40,6 @@ api_location:
  - xamlpalwp.dll
 api_name:
  - EndBufferedPaint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

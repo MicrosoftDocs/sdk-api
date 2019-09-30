@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, *PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 req.redist: 

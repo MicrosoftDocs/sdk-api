@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_SIGNATURE_VALIDATION_RESULT
-product: Windows
 targetos: Windows
 req.typenames: OPC_SIGNATURE_VALIDATION_RESULT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - INTERNET_PER_CONN_OPTION
  - INTERNET_PER_CONN_OPTIONA
  - INTERNET_PER_CONN_OPTIONW
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_PER_CONN_OPTIONA, *LPINTERNET_PER_CONN_OPTIONA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 req.redist: 

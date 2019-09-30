@@ -38,7 +38,6 @@ api_location:
  - Mgm.h
 api_name:
  - ROUTING_PROTOCOL_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - slpublic.h
 api_name:
 - SL_AD_ACTIVATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: SL_AD_ACTIVATION_INFO
 req.redist: 

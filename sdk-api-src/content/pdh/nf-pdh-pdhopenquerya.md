@@ -40,7 +40,6 @@ api_name:
 - PdhOpenQuery
 - PdhOpenQueryA
 - PdhOpenQueryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

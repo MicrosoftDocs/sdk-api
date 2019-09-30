@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.RecommendedHardDiskSpace
  - IUpdate.get_RecommendedHardDiskSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

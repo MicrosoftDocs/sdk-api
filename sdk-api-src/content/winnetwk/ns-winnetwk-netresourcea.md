@@ -40,7 +40,6 @@ api_name:
  - NETRESOURCE
  - NETRESOURCEA
  - NETRESOURCEW
-product: Windows
 targetos: Windows
 req.typenames: NETRESOURCEA, *LPNETRESOURCEA
 req.redist: 

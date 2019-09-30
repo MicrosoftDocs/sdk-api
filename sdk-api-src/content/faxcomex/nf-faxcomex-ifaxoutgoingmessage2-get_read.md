@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingMessage2.put_Read
  - IFaxOutgoingMessage2.get_Read
  - IFaxOutgoingMessage2.put_Read
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

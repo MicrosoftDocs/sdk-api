@@ -41,7 +41,6 @@ api_location:
  - mfplat.dll.dll
 api_name:
  - IMFHttpDownloadRequest.EndSendRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

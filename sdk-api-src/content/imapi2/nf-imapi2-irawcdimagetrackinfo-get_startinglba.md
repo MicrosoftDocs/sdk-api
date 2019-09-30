@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IRawCDImageTrackInfo.get_StartingLba
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - SMMCObjectTypes
-product: Windows
 targetos: Windows
 req.typenames: SMMCObjectTypes
 req.redist: 

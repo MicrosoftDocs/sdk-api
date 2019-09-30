@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPI_DETECTTONE
-product: Windows
 targetos: Windows
 req.typenames: TAPI_DETECTTONE, *LPTAPI_DETECTTONE
 req.redist: 

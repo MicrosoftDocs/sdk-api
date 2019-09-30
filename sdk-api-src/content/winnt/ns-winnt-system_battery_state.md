@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - SYSTEM_BATTERY_STATE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_BATTERY_STATE, *PSYSTEM_BATTERY_STATE
 req.redist: 

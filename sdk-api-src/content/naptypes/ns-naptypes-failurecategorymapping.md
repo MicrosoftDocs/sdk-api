@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - FailureCategoryMapping
-product: Windows
 targetos: Windows
 req.typenames: FailureCategoryMapping
 req.redist: 

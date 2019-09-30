@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - HOSTENT
-product: Windows
 targetos: Windows
 req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 req.redist: 

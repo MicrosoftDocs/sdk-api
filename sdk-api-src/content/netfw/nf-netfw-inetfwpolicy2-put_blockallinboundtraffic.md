@@ -40,7 +40,6 @@ api_name:
  - INetFwPolicy2.BlockAllInboundTraffic
  - INetFwPolicy2.get_BlockAllInboundTraffic
  - INetFwPolicy2.put_BlockAllInboundTraffic
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

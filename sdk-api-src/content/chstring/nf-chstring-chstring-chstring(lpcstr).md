@@ -41,7 +41,6 @@ api_name:
  - CHString.CHString
  - ??0CHString@@QAE@PBD@Z
  - ??0CHString@@QEAA@PEBD@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Pen.GetCompoundArrayCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

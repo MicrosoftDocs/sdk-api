@@ -40,7 +40,6 @@ api_name:
  - MsiGetShortcutTarget
  - MsiGetShortcutTargetA
  - MsiGetShortcutTargetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

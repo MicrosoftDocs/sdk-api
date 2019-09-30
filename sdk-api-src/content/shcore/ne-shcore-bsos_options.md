@@ -38,7 +38,6 @@ api_location:
  - shcore.h
 api_name:
  - BSOS_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: BSOS_OPTIONS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_ALLOW_EXTENDED_DASD_IO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

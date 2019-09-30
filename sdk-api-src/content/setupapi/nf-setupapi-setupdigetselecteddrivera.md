@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetSelectedDriver
  - SetupDiGetSelectedDriverA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

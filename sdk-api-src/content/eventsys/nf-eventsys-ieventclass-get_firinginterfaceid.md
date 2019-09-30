@@ -40,7 +40,6 @@ api_name:
  - IEventClass.FiringInterfaceID
  - IEventClass.get_FiringInterfaceID
  - IEventClass.put_FiringInterfaceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

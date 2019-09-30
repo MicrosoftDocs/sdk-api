@@ -40,7 +40,6 @@ api_name:
  - IFaxDocument.Body
  - IFaxDocument.get_Body
  - IFaxDocument.put_Body
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

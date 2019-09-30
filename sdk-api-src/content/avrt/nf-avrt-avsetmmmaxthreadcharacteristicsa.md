@@ -40,7 +40,6 @@ api_name:
  - AvSetMmMaxThreadCharacteristics
  - AvSetMmMaxThreadCharacteristicsA
  - AvSetMmMaxThreadCharacteristicsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

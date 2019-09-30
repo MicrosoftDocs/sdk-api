@@ -41,7 +41,6 @@ api_name:
  - IMAGEHLP_MODULE64
  - IMAGEHLP_MODULEW64
  - IMAGEHLP_MODULE
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_MODULE64, *PIMAGEHLP_MODULE64
 req.redist: DbgHelp.dll 5.1 or later

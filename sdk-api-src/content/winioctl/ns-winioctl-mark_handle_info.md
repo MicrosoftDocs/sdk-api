@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - MARK_HANDLE_INFO
-product: Windows
 targetos: Windows
 req.typenames: MARK_HANDLE_INFO, *PMARK_HANDLE_INFO
 req.redist: 

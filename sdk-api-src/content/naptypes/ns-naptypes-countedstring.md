@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - CountedString
-product: Windows
 targetos: Windows
 req.typenames: CountedString
 req.redist: 

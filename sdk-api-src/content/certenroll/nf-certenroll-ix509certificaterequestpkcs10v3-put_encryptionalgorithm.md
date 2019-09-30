@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10V3.EncryptionAlgorithm
  - IX509CertificateRequestPkcs10V3.get_EncryptionAlgorithm
  - IX509CertificateRequestPkcs10V3.put_EncryptionAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.Image
  - IUpdate.get_Image
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

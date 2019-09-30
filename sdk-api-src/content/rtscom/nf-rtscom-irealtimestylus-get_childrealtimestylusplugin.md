@@ -42,7 +42,6 @@ api_name:
  - IRealTimeStylus.put_ChildRealTimeStylusPlugin
  - IRealTimeStylus.get_ChildRealTimeStylusPlugin
  - IRealTimeStylus.put_ChildRealTimeStylusPlugin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

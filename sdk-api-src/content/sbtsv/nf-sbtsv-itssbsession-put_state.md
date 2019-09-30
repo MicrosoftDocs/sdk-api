@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.State
  - ITsSbSession.get_State
  - ITsSbSession.put_State
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

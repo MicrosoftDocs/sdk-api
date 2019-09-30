@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICTiffCompressionOption
-product: Windows
 targetos: Windows
 req.typenames: WICTiffCompressionOption
 req.redist: 

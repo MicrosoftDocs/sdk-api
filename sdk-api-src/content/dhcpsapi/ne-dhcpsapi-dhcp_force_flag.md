@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_FORCE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG
 req.redist: 

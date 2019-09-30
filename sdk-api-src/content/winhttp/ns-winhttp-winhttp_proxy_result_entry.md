@@ -38,7 +38,6 @@ api_location:
 - winhttp.h
 api_name:
 - WINHTTP_PROXY_RESULT_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_PROXY_RESULT_ENTRY
 req.redist: 

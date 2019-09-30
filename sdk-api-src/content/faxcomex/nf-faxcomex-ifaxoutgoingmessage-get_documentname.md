@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.DocumentName
  - IFaxOutgoingMessage.get_DocumentName
  - IFaxOutgoingMessage.get_DocumentName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - D3D12_INFO_QUEUE_FILTER
-product: Windows
 targetos: Windows
 req.typenames: D3D12_INFO_QUEUE_FILTER
 req.redist: 

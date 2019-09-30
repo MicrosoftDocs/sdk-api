@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IXpsOMPackageWriter.AddPage
  - IXpsOMPackageWriter3D.AddPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

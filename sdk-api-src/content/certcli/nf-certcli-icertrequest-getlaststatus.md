@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetLastStatus
  - ICertRequest.GetLastStatus
  - CCertRequest.GetLastStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.HashAlgorithm
  - IOCSPCAConfiguration.get_HashAlgorithm
  - IOCSPCAConfiguration.put_HashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10.OldCertificate
  - IX509CertificateRequestPkcs10.get_OldCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

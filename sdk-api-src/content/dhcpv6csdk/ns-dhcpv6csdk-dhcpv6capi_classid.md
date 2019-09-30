@@ -38,7 +38,6 @@ api_location:
  - Dhcpv6csdk.h
 api_name:
  - DHCPV6CAPI_CLASSID
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, *LPDHCPV6CAPI_CLASSID
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingQueue.put_UseDeviceTSID
  - IFaxOutgoingQueue.get_UseDeviceTSID
  - IFaxOutgoingQueue.put_UseDeviceTSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

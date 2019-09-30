@@ -38,7 +38,6 @@ api_location:
  - Authz.h
 api_name:
  - AUTHZ_SOURCE_SCHEMA_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

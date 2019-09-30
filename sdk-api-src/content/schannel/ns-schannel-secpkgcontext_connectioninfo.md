@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_ConnectionInfo
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo
 req.redist: 

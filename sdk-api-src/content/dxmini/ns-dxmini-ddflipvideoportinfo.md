@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDFLIPVIDEOPORTINFO
-product: Windows
 targetos: Windows
 req.typenames: DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Width
  - IPenInputPanel.get_Width
  - PenInputPanel.get_Width
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBSETFUNC
-product: Windows
 targetos: Windows
 req.typenames: DBSETFUNC
 req.redist: 

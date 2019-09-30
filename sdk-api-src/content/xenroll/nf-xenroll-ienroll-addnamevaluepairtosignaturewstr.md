@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.AddNameValuePairToSignatureWStr
  - IEnroll4.AddNameValuePairToSignatureWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

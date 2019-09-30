@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_QUERY_COMPLETION_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

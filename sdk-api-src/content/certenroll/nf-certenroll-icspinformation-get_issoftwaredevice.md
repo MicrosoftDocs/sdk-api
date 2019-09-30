@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.IsSoftwareDevice
  - ICspInformation.get_IsSoftwareDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CrmLogRecordRead
-product: Windows
 targetos: Windows
 req.typenames: CrmLogRecordRead
 req.redist: 

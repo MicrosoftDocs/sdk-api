@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND"
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

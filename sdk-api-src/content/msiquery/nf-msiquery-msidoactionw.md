@@ -40,7 +40,6 @@ api_name:
  - MsiDoAction
  - MsiDoActionA
  - MsiDoActionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

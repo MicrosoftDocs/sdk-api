@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFASYNCRESULT
-product: Windows
 targetos: Windows
 req.typenames: MFASYNCRESULT
 req.redist: 

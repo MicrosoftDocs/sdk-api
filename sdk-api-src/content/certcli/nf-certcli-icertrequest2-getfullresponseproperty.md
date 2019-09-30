@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetFullResponseProperty
  - ICertRequest.GetFullResponseProperty
  - CCertRequest.GetFullResponseProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

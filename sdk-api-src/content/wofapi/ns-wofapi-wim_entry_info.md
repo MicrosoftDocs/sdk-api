@@ -38,7 +38,6 @@ api_location:
  - wofapi.h
 api_name:
  - WIM_ENTRY_INFO
-product: Windows
 targetos: Windows
 req.typenames: WIM_ENTRY_INFO, *PWIM_ENTRY_INFO
 req.redist: 

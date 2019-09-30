@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRMode
-product: Windows
 targetos: Windows
 req.typenames: VMRMode
 req.redist: 

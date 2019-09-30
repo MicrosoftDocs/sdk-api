@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - STRUCTURED_QUERY_MULTIOPTION
-product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_MULTIOPTION
 req.redist: Windows Desktop Search (WDS) 3.0

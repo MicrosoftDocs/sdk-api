@@ -40,7 +40,6 @@ api_name:
  - OleUIEditLinks
  - OleUIEditLinksA
  - OleUIEditLinksW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

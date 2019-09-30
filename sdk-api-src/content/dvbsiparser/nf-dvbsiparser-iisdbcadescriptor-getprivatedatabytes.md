@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbCADescriptor.GetPrivateDataBytes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

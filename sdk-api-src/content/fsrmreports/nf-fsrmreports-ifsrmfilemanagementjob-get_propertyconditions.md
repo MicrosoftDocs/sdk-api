@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.PropertyConditions
  - IFsrmFileManagementJob.get_PropertyConditions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

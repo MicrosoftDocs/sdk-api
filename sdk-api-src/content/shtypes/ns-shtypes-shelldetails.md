@@ -38,7 +38,6 @@ api_location:
 - Shtypes.h
 api_name:
 - SHELLDETAILS
-product: Windows
 targetos: Windows
 req.typenames: SHELLDETAILS, *LPSHELLDETAILS
 req.redist: 

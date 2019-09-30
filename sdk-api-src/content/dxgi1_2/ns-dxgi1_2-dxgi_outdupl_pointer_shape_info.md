@@ -38,7 +38,6 @@ api_location:
  - DXGI1_2.h
 api_name:
  - DXGI_OUTDUPL_POINTER_SHAPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: DXGI_OUTDUPL_POINTER_SHAPE_INFO
 req.redist: 

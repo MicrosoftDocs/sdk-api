@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnDeviceServicesContext.MaxDataSize
  - IMbnDeviceServicesContext.get_MaxDataSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

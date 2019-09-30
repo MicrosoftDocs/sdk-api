@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREOF
-product: Windows
 targetos: Windows
 req.typenames: EMREOF, *PEMREOF
 req.redist: 

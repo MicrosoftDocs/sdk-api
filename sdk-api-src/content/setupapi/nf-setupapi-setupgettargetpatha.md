@@ -40,7 +40,6 @@ api_name:
  - SetupGetTargetPath
  - SetupGetTargetPathA
  - SetupGetTargetPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ICertView2.GetColumnCount
  - ICertView.GetColumnCount
  - CCertView.GetColumnCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

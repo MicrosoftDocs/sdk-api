@@ -41,7 +41,6 @@ api_name:
  - MsiFormatRecord
  - MsiFormatRecordA
  - MsiFormatRecordW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

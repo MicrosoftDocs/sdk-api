@@ -39,7 +39,6 @@ api_location:
  - MSClus.h
 api_name:
  - CLUSTER_NODE_DRAIN_STATUS
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NODE_DRAIN_STATUS
 req.redist: 

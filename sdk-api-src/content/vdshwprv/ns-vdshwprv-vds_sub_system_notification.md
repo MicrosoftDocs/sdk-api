@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_SUB_SYSTEM_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_NOTIFICATION
 req.redist: 

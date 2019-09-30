@@ -38,7 +38,6 @@ api_location:
 - Shell32.dll
 api_name:
 - IAutoComplete2.SetOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

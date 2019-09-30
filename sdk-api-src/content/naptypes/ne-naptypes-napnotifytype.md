@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - NapNotifyType
-product: Windows
 targetos: Windows
 req.typenames: NapNotifyType
 req.redist: 

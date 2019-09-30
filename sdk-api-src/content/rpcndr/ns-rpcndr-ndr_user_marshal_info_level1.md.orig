@@ -36,7 +36,6 @@ api_location:
  - Rpcndr.h
 api_name:
  - NDR_USER_MARSHAL_INFO_LEVEL1
-product: Windows
 targetos: Windows
 req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
 req.redist: 

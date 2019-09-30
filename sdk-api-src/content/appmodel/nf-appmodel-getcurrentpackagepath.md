@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
  - GetCurrentPackagePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

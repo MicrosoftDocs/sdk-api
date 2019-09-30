@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_PROGRESS_STAGE
-product: Windows
 targetos: Windows
 req.typenames: SYNC_PROGRESS_STAGE
 req.redist: 

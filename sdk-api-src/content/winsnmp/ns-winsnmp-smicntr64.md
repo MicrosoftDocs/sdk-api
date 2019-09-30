@@ -38,7 +38,6 @@ api_location:
  - Winsnmp.h
 api_name:
  - smiCNTR64
-product: Windows
 targetos: Windows
 req.typenames: smiCNTR64, *smiLPCNTR64
 req.redist: 

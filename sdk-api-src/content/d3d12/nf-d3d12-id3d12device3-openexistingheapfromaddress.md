@@ -38,7 +38,6 @@ api_location:
  - d3d12.dll
 api_name:
  - Id3d12device3.OpenExistingHeapFromAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

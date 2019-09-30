@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.LineNumber
  - IInkRecognitionAlternate.get_LineNumber
  - IInkRecognitionAlternate.get_LineNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - iwscapi.h
 api_name:
  - IWSCProductList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

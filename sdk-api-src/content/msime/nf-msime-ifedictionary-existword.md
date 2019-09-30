@@ -38,7 +38,6 @@ api_location:
 - Msime.h
 api_name:
 - IFEDictionary.ExistWord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

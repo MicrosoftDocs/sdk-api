@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.h
 api_name:
  - DXGI_DEBUG_RLO_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DXGI_DEBUG_RLO_FLAGS
 req.redist: 

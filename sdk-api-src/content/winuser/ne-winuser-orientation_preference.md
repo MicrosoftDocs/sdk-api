@@ -38,7 +38,6 @@ api_location:
  - WinUser.h
 api_name:
  - ORIENTATION_PREFERENCE
-product: Windows
 targetos: Windows
 req.typenames: ORIENTATION_PREFERENCE
 req.redist: 

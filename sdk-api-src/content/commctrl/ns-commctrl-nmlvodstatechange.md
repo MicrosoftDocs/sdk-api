@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLVODSTATECHANGE
-product: Windows
 targetos: Windows
 req.typenames: NMLVODSTATECHANGE, *LPNMLVODSTATECHANGE
 req.redist: 

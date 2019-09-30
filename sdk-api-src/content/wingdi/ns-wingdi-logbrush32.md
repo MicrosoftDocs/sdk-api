@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LOGBRUSH32
-product: Windows
 targetos: Windows
 req.typenames: LOGBRUSH32, *PLOGBRUSH32, *NPLOGBRUSH32, *LPLOGBRUSH32
 req.redist: 

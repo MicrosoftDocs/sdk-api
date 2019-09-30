@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_ROUTING_RULE_CODE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTING_RULE_CODE_ENUM
 req.redist: 

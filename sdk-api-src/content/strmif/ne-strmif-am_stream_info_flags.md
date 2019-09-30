@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_STREAM_INFO_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: AM_STREAM_INFO_FLAGS
 req.redist: 

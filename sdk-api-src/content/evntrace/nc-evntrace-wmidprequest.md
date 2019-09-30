@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - ControlCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RasGetAutodialParam
  - RasGetAutodialParamA
  - RasGetAutodialParamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

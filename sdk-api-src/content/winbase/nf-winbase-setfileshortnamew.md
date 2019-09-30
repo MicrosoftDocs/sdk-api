@@ -40,7 +40,6 @@ api_name:
  - SetFileShortName
  - SetFileShortNameA
  - SetFileShortNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

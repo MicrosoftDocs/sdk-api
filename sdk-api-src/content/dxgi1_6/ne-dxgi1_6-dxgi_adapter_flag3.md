@@ -38,7 +38,6 @@ api_location:
  - DXGI1_6.h
 api_name:
  - DXGI_ADAPTER_FLAG3
-product: Windows
 targetos: Windows
 req.typenames: DXGI_ADAPTER_FLAG3
 req.redist: 

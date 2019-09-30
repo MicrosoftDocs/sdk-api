@@ -41,7 +41,6 @@ api_name:
  - INetFwProfile.NotificationsDisabled
  - INetFwProfile.get_NotificationsDisabled
  - INetFwProfile.put_NotificationsDisabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

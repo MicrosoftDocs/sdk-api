@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10.PrivateKey
  - IX509CertificateRequestPkcs10.get_PrivateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

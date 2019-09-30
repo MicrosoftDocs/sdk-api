@@ -38,7 +38,6 @@ api_location:
  - HolographicSpaceInterop.h
 api_name:
  - IHolographicSpaceInterop.CreateForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

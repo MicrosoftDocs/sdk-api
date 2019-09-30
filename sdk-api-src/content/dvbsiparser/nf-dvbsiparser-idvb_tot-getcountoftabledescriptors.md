@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_TOT.GetCountOfTableDescriptors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_HANDLE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PSS_HANDLE_FLAGS
 req.redist: 

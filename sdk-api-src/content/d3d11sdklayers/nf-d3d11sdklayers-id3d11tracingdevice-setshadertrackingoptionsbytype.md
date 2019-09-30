@@ -39,7 +39,6 @@ api_location:
  - D3DCompiler.dll
 api_name:
  - ID3D11TracingDevice.SetShaderTrackingOptionsByType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

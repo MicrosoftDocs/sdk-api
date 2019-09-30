@@ -38,7 +38,6 @@ api_location:
  - DirectML.dll
 api_name:
  - IDMLObject.GetPrivateData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

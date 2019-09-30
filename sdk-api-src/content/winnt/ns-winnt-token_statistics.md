@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 req.redist: 

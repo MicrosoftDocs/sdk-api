@@ -40,7 +40,6 @@ api_name:
  - StringCchPrintf_l
  - StringCchPrintf_lA
  - StringCchPrintf_lW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

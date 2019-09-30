@@ -38,7 +38,6 @@ api_location:
  - Azroles.dll
 api_name:
  - IAzAuthorizationStore3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

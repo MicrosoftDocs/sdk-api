@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_NAPTR_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_NAPTR_DATAW, *PDNS_NAPTR_DATAW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - GUIDKIND
-product: Windows
 targetos: Windows
 req.typenames: GUIDKIND
 req.redist: 

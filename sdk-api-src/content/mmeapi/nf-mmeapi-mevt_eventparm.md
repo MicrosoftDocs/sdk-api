@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MEVT_EVENTPARM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Font
  - InkEdit.get_Font
  - InkEdit.putref_Font
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

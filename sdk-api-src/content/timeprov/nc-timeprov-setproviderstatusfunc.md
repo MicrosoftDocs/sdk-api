@@ -38,7 +38,6 @@ api_location:
  - Timeprov.h
 api_name:
  - SetProviderStatusFunc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

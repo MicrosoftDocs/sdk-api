@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PROVIDER_FILTER_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROVIDER_FILTER_INFO, *PPROVIDER_FILTER_INFO
 req.redist: 

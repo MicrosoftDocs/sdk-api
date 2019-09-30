@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoChromaSubsampling
-product: Windows
 targetos: Windows
 req.typenames: MFVideoChromaSubsampling
 req.redist: 

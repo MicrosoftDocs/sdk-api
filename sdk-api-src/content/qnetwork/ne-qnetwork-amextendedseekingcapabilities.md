@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - AMExtendedSeekingCapabilities
-product: Windows
 targetos: Windows
 req.typenames: AMExtendedSeekingCapabilities
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
  - IInspectable .CreateFromWin32Handle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

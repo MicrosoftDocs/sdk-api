@@ -41,7 +41,6 @@ api_name:
 - FaxSetJob
 - FaxSetJobA
 - FaxSetJobW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

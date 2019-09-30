@@ -38,7 +38,6 @@ api_location:
  - eaphostpeertypes.h
 api_name:
  - ISOLATION_STATE
-product: Windows
 targetos: Windows
 req.typenames: ISOLATION_STATE
 req.redist: 

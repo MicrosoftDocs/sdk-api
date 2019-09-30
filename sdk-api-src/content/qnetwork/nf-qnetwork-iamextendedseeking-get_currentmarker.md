@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMExtendedSeeking.get_CurrentMarker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

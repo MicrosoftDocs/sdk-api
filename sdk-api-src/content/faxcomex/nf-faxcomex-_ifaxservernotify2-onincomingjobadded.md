@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnIncomingJobAdded
  - IFaxServerNotify2.OnIncomingJobAdded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

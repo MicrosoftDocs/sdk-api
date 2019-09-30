@@ -47,7 +47,6 @@ api_name:
 - FindNextFile
 - FindNextFileA
 - FindNextFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

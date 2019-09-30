@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MPRAPI_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_TYPE, *PMPRAPI_OBJECT_TYPE
 req.redist: 

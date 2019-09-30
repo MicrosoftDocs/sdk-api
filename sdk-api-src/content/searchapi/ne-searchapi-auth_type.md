@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - AUTH_TYPE
-product: Windows
 targetos: Windows
 req.typenames: AUTH_TYPE
 req.redist: Windows Desktop Search (WDS) 3.0

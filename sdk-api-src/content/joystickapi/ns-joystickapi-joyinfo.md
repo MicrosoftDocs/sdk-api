@@ -38,7 +38,6 @@ api_location:
  - joystickapi.h
 api_name:
  - JOYINFO
-product: Windows
 targetos: Windows
 req.typenames: JOYINFO, *PJOYINFO, *NPJOYINFO, *LPJOYINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESOURCE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_STATUS, *PRESOURCE_STATUS
 req.redist: 

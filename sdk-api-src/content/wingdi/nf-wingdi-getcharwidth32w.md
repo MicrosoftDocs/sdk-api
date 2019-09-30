@@ -45,7 +45,6 @@ api_name:
  - GetCharWidth32
  - GetCharWidth32A
  - GetCharWidth32W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

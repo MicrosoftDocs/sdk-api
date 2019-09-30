@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_PKCS12_PBE_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PKCS12_PBE_PARAMS
 req.redist: 

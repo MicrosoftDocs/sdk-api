@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_EVENT_NOTIFY
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
 req.redist: 

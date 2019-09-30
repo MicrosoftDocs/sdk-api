@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - ADAPTER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
 req.redist: 

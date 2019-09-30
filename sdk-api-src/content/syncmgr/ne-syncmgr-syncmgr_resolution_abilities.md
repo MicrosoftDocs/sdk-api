@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_RESOLUTION_ABILITIES
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_RESOLUTION_ABILITIES
 req.redist: 

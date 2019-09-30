@@ -42,7 +42,6 @@ api_name:
  - IFaxReceiptOptions.put_UseForInboundRouting
  - IFaxReceiptOptions.get_UseForInboundRouting
  - IFaxReceiptOptions.put_UseForInboundRouting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

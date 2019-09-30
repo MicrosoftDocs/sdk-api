@@ -38,7 +38,6 @@ api_location:
  - fwpstypes.h
 api_name:
  - FWPS_ALE_ENDPOINT_PROPERTIES0
-product: Windows
 targetos: Windows
 req.typenames: FWPS_ALE_ENDPOINT_PROPERTIES0
 req.redist: 

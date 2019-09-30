@@ -40,7 +40,6 @@ api_name:
  - INetFwPolicy2.NotificationsDisabled
  - INetFwPolicy2.get_NotificationsDisabled
  - INetFwPolicy2.put_NotificationsDisabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

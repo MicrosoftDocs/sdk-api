@@ -41,7 +41,6 @@ api_name:
  - INetFwAuthorizedApplication.Enabled
  - INetFwAuthorizedApplication.get_Enabled
  - INetFwAuthorizedApplication.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

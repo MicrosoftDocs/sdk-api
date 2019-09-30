@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.MaxDisconnectionTime
  - IADsTSUserEx.get_MaxDisconnectionTime
  - IADsTSUserEx.put_MaxDisconnectionTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

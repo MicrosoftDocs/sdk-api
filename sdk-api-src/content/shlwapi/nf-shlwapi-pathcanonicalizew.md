@@ -44,7 +44,6 @@ api_name:
  - PathCanonicalize
  - PathCanonicalizeA
  - PathCanonicalizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

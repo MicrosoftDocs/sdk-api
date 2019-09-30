@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.Hidden
  - ITaskSettings.get_Hidden
  - ITaskSettings.put_Hidden
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.Data
  - ITaskDefinition.get_Data
  - ITaskDefinition.put_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

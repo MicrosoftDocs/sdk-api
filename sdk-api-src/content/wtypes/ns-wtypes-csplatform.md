@@ -38,7 +38,6 @@ api_location:
 - WTypes.h
 api_name:
 - CSPLATFORM
-product: Windows
 targetos: Windows
 req.typenames: CSPLATFORM
 req.redist: 

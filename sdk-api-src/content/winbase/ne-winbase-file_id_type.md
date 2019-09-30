@@ -39,7 +39,6 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_ID_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FILE_ID_TYPE, *PFILE_ID_TYPE
 req.redist: Windows SDK on Windows Server 2003     and Windows XP.

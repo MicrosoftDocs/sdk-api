@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CHANGER_ELEMENT_STATUS_EX
-product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
 req.redist: 

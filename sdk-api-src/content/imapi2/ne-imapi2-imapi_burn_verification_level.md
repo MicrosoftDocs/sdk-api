@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_BURN_VERIFICATION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
 req.redist: 

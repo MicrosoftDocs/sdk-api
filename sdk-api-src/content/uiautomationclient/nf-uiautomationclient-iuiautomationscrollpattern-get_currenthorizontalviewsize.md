@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CurrentHorizontalViewSize
  - IUIAutomationScrollPattern.get_CurrentHorizontalViewSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

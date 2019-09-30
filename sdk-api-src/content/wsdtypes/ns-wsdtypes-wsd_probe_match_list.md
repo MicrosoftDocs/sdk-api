@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_PROBE_MATCH_LIST
-product: Windows
 targetos: Windows
 req.typenames: WSD_PROBE_MATCH_LIST
 req.redist: 

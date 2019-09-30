@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.ClockType
  - ITraceDataCollector.get_ClockType
  - ITraceDataCollector.put_ClockType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

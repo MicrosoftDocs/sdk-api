@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - QualTspecParms
-product: Windows
 targetos: Windows
 req.typenames: QualTspecParms
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - ShellMessageBox
  - ShellMessageBoxA
  - ShellMessageBoxW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IShellLinkW.GetArguments
  - IShellLinkW.GetArguments
  - IShellLinkA.GetArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

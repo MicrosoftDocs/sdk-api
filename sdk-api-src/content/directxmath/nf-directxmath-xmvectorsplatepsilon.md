@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorSplatEpsilon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

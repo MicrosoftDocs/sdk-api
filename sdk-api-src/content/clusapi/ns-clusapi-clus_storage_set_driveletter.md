@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_STORAGE_SET_DRIVELETTER
-product: Windows
 targetos: Windows
 req.typenames: CLUS_STORAGE_SET_DRIVELETTER, *PCLUS_STORAGE_SET_DRIVELETTER
 req.redist: 

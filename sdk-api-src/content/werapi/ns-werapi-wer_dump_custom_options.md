@@ -38,7 +38,6 @@ api_location:
 - Werapi.h
 api_name:
 - WER_DUMP_CUSTOM_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
 req.redist: 

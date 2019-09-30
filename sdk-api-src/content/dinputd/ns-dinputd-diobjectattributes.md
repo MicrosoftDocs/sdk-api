@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIOBJECTATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: DIOBJECTATTRIBUTES, *LPDIOBJECTATTRIBUTES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEREQMAKECALL
-product: Windows
 targetos: Windows
 req.typenames: LINEREQMAKECALL, *LPLINEREQMAKECALL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IContextMenuCB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

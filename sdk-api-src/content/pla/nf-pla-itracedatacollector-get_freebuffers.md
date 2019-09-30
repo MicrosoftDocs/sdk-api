@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.FreeBuffers
  - ITraceDataCollector.get_FreeBuffers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

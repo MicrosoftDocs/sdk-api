@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_DEFAULT_VALUE
-product: Windows
 targetos: Windows
 req.typenames: WS_DEFAULT_VALUE
 req.redist: 

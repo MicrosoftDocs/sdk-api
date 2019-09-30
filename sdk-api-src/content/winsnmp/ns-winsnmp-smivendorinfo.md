@@ -38,7 +38,6 @@ api_location:
  - Winsnmp.h
 api_name:
  - smiVENDORINFO
-product: Windows
 targetos: Windows
 req.typenames: smiVENDORINFO, *smiLPVENDORINFO
 req.redist: 

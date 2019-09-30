@@ -48,7 +48,6 @@ api_name:
  - MoveFile
  - MoveFileA
  - MoveFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWbemDecoupledBasicEventProvider.GetService
  - WbemDecoupledBasicEventProvider.GetService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

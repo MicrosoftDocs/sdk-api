@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TIMESPAN_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_TIMESPAN_DESCRIPTION
 req.redist: 

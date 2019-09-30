@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.GetKeyLen
  - ICEnroll3.GetKeyLen
  - CEnroll.GetKeyLen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

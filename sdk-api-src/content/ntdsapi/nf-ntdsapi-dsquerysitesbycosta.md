@@ -40,7 +40,6 @@ api_name:
  - DsQuerySitesByCost
  - DsQuerySitesByCostA
  - DsQuerySitesByCostW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

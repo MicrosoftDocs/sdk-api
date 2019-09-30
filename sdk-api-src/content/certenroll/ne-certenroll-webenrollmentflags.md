@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - WebEnrollmentFlags
-product: Windows
 targetos: Windows
 req.typenames: WebEnrollmentFlags
 req.redist: 

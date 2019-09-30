@@ -38,7 +38,6 @@ api_location:
  - shidfact.h
 api_name:
  - CItemIDFactory.GetDataFromIDList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

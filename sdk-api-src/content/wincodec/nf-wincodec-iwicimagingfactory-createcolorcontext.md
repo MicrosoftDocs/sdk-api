@@ -39,7 +39,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICImagingFactory.CreateColorContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

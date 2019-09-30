@@ -38,7 +38,6 @@ api_location:
  - Winmm.dll
 api_name:
  - mmTaskBlock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

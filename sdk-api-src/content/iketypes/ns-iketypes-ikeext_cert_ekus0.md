@@ -38,7 +38,6 @@ api_location:
  - iketypes.h
 api_name:
  - IKEEXT_CERT_EKUS0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CERT_EKUS0
 req.redist: 

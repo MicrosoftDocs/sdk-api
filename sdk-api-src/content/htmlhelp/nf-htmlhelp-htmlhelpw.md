@@ -40,7 +40,6 @@ api_name:
  - HtmlHelp
  - HtmlHelpA
  - HtmlHelpW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

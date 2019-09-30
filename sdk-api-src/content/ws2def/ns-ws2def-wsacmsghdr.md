@@ -38,7 +38,6 @@ api_location:
  - ws2def.h
 api_name:
  - CMSGHDR
-product: Windows
 targetos: Windows
 req.typenames: WSACMSGHDR, *PWSACMSGHDR, *LPWSACMSGHDR
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - EnumProps
  - EnumPropsA
  - EnumPropsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

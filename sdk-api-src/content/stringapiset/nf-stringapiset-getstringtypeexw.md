@@ -55,7 +55,6 @@ api_name:
  - GetStringTypeEx
  - GetStringTypeExA
  - GetStringTypeExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

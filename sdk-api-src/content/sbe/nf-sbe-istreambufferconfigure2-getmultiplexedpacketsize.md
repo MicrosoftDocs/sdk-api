@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferConfigure2.GetMultiplexedPacketSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

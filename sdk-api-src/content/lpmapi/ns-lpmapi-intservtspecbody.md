@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - IntServTspecBody
-product: Windows
 targetos: Windows
 req.typenames: IntServTspecBody
 req.redist: 

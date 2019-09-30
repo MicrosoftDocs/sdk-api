@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.GetFileProperty
 - IFsrmClassificationManager2.GetFileProperty
 - FsrmClassificationManager.GetFileProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

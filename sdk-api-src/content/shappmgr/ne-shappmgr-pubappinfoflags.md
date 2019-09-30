@@ -38,7 +38,6 @@ api_location:
 - Shappmgr.h
 api_name:
 - PUBAPPINFOFLAGS
-product: Windows
 targetos: Windows
 req.typenames: PUBAPPINFOFLAGS
 req.redist: 

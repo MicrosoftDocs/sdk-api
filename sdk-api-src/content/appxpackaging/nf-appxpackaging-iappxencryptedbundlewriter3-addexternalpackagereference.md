@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxEncryptedBundleWriter3.AddExternalPackageReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

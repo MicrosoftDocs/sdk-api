@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MENUINFO
-product: Windows
 targetos: Windows
 req.typenames: MENUINFO, *LPMENUINFO
 req.redist: 

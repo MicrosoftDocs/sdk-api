@@ -46,7 +46,6 @@ api_name:
 - ConvertSidToStringSid
 - ConvertSidToStringSidA
 - ConvertSidToStringSidW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

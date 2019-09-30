@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - IResultsFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dcomptypes.h
 api_name:
  - DCOMPOSITION_OPACITY_MODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

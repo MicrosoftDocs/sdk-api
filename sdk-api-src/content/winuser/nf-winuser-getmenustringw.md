@@ -44,7 +44,6 @@ api_name:
  - GetMenuString
  - GetMenuStringA
  - GetMenuStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

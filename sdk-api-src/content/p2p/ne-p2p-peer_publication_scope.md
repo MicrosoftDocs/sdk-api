@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_PUBLICATION_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: PEER_PUBLICATION_SCOPE
 req.redist: 

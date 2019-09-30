@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPStatusInput
-product: Windows
 targetos: Windows
 req.typenames: AMCOPPStatusInput, *LPAMCOPPStatusInput
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMUBYTE2.operator =
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

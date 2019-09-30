@@ -40,7 +40,6 @@ api_name:
  - IFsrmAutoApplyQuota.ExcludeFolders
  - IFsrmAutoApplyQuota.get_ExcludeFolders
  - IFsrmAutoApplyQuota.put_ExcludeFolders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

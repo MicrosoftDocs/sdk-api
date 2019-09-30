@@ -40,7 +40,6 @@ api_name:
  - DeleteSecurityPackage
  - DeleteSecurityPackageA
  - DeleteSecurityPackageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

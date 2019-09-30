@@ -40,7 +40,6 @@ api_name:
  - IFaxTiff.Image
  - IFaxTiff.get_Image
  - IFaxTiff.put_Image
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

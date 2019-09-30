@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - LIBRARYOPTIONFLAGS
-product: Windows
 targetos: Windows
 req.typenames: LIBRARYOPTIONFLAGS
 req.redist: 

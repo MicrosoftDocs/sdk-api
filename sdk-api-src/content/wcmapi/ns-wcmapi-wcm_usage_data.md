@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_USAGE_DATA
-product: Windows
 targetos: Windows
 req.typenames: WCM_USAGE_DATA, *PWCM_USAGE_DATA
 req.redist: 

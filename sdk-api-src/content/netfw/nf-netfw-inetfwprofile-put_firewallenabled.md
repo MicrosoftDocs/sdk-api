@@ -41,7 +41,6 @@ api_name:
  - INetFwProfile.FirewallEnabled
  - INetFwProfile.get_FirewallEnabled
  - INetFwProfile.put_FirewallEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

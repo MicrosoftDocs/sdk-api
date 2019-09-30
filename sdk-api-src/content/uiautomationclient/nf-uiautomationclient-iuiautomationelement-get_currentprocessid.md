@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentProcessId
  - IUIAutomationElement.get_CurrentProcessId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

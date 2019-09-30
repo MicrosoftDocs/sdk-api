@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_VIDEO_COMPRESSION
-product: Windows
 targetos: Windows
 req.typenames: DVD_VIDEO_COMPRESSION
 req.redist: 

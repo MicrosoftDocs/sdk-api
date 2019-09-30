@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_ROUTE_INFO
-product: Windows
 targetos: Windows
 req.typenames: RTM_ROUTE_INFO, *PRTM_ROUTE_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgi1_6.h
 api_name:
  - DXGI_GPU_PREFERENCE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_GPU_PREFERENCE
 req.redist: 

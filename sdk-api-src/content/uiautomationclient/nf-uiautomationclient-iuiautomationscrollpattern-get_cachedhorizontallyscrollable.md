@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CachedHorizontallyScrollable
  - IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

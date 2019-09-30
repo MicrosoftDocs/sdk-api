@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - AE_CURRENT_POSITION
-product: Windows
 targetos: Windows
 req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
 req.redist: 

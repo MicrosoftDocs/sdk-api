@@ -40,7 +40,6 @@ api_name:
 - SecPkgContext_NegotiationInfo
 - SecPkgContext_NegotiationInfoA
 - SecPkgContext_NegotiationInfoW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NegotiationInfoA, *PSecPkgContext_NegotiationInfoA
 req.redist: 

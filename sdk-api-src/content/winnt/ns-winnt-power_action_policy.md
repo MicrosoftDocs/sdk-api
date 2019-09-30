@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - POWER_ACTION_POLICY
-product: Windows
 targetos: Windows
 req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
 req.redist: 

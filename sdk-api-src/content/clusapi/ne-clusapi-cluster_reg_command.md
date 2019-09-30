@@ -39,7 +39,6 @@ api_location:
 - MsClus.h
 api_name:
 - CLUSTER_REG_COMMAND
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_REG_COMMAND
 req.redist: 

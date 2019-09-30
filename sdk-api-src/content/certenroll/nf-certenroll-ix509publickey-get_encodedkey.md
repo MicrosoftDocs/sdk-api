@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PublicKey.EncodedKey
  - IX509PublicKey.get_EncodedKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

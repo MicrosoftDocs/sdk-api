@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_AUTH_STATUS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS
 req.redist: 

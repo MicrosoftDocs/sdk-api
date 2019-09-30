@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - ORASADFunc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

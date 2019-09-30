@@ -40,7 +40,6 @@ api_name:
  - IntlStrEqN
  - IntlStrEqNA
  - IntlStrEqNW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

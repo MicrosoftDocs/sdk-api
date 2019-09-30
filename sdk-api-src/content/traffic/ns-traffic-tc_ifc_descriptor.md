@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - TC_IFC_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
 req.redist: 

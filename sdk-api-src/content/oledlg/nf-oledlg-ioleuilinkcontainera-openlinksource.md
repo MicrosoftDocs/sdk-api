@@ -40,7 +40,6 @@ api_name:
  - IOleUILinkContainer.OpenLinkSource
  - IOleUILinkContainerA.OpenLinkSource
  - IOleUILinkContainerW.OpenLinkSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

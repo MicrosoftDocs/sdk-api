@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - InstancingType
-product: Windows
 targetos: Windows
 req.typenames: InstancingType
 req.redist: 

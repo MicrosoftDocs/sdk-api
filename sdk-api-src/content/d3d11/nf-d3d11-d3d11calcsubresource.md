@@ -38,7 +38,6 @@ api_location:
  - d3d11.lib
 api_name:
  - D3D11CalcSubresource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

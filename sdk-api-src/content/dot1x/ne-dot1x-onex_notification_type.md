@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_NOTIFICATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
 req.redist: 

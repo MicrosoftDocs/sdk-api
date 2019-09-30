@@ -40,7 +40,6 @@ api_name:
  - PDH_COUNTER_PATH_ELEMENTS
  - PDH_COUNTER_PATH_ELEMENTS_A
  - PDH_COUNTER_PATH_ELEMENTS_W
-product: Windows
 targetos: Windows
 req.typenames: PDH_COUNTER_PATH_ELEMENTS_W, *PPDH_COUNTER_PATH_ELEMENTS_W
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RpcNsMgmtBindingUnexport
  - RpcNsMgmtBindingUnexportA
  - RpcNsMgmtBindingUnexportW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

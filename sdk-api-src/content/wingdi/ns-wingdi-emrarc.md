@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRARC
-product: Windows
 targetos: Windows
 req.typenames: EMRARC, *PEMRARC, EMRARCTO, *PEMRARCTO, EMRCHORD, *PEMRCHORD, EMRPIE, *PEMRPIE
 req.redist: 

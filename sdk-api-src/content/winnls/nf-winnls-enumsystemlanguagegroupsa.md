@@ -48,7 +48,6 @@ api_name:
  - EnumSystemLanguageGroups
  - EnumSystemLanguageGroupsA
  - EnumSystemLanguageGroupsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

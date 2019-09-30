@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_TKEY_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_TKEY_DATAA, *PDNS_TKEY_DATAA
 req.redist: 

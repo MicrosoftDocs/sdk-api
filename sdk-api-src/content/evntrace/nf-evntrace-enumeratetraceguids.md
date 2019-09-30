@@ -40,7 +40,6 @@ api_location:
  - advapi32legacy.dll
 api_name:
  - EnumerateTraceGuids
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

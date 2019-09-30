@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - InterleavingMode
-product: Windows
 targetos: Windows
 req.typenames: InterleavingMode
 req.redist: 

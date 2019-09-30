@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - SECURITY_LOGON_SESSION_DATA
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_LOGON_SESSION_DATA, *PSECURITY_LOGON_SESSION_DATA
 req.redist: 

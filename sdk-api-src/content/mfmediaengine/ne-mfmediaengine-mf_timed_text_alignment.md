@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - MF_TIMED_TEXT_ALIGNMENT
-product: Windows
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_ALIGNMENT
 req.redist: 

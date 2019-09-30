@@ -43,7 +43,6 @@ api_name:
  - INSNetSourceCreator.GetNetSourceSharedNamespace
  - INSNetSourceCreator.GetNumProtocolsSupported
  - INSNetSourceCreator.GetProtocolName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

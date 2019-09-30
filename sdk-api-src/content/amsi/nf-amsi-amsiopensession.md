@@ -38,7 +38,6 @@ api_location:
  - amsi.dll
 api_name:
  - AmsiOpenSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

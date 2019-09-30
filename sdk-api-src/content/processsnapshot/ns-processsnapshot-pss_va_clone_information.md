@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_VA_CLONE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PSS_VA_CLONE_INFORMATION
 req.redist: 

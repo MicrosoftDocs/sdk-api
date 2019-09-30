@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_ACTUAL_OUTPUT_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: OPM_ACTUAL_OUTPUT_FORMAT
 req.redist: 

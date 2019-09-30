@@ -38,7 +38,6 @@ api_location:
  - Dshowasf.h
 api_name:
  - IConfigAsfWriter2.SetParam
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

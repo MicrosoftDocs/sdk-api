@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_PROPOSAL0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_PROPOSAL0
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPCAConfigurationCollection.Count
  - IOCSPCAConfigurationCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

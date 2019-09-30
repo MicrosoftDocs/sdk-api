@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMQuaternionDot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

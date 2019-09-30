@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - ReplyMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - FILE_ID_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_ID_INFO, *PFILE_ID_INFO
 req.redist: 

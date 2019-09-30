@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoArea
-product: Windows
 targetos: Windows
 req.typenames: MFVideoArea
 req.redist: 

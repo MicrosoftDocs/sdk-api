@@ -38,7 +38,6 @@ api_location:
 - Qos.h
 api_name:
 - FLOWSPEC
-product: Windows
 targetos: Windows
 req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
 req.redist: 

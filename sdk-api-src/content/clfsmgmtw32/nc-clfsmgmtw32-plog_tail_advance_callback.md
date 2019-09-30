@@ -38,7 +38,6 @@ api_location:
  - Clfsmgmtw32.h
 api_name:
  - LOG_TAIL_ADVANCE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDLOCKOUTINFO
-product: Windows
 targetos: Windows
 req.typenames: DDLOCKOUTINFO, *PDDLOCKOUTINFO
 req.redist: 

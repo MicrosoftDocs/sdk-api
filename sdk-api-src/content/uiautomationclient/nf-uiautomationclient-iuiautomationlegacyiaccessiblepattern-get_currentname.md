@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CurrentName
  - IUIAutomationLegacyIAccessiblePattern.get_CurrentName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

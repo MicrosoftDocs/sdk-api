@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - PROCESSOR_RELATIONSHIP
-product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_RELATIONSHIP, *PPROCESSOR_RELATIONSHIP
 req.redist: 

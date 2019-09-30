@@ -38,7 +38,6 @@ api_location:
  - Wiavideo.dll
 api_name:
  - IWiaVideo.DestroyVideo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

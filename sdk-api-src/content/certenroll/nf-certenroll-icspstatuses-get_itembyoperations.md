@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspStatuses.ItemByOperations
  - ICspStatuses.get_ItemByOperations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PROPERTY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PROPERTY_FLAGS
 req.redist: 

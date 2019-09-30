@@ -43,7 +43,6 @@ api_name:
  - PathFindOnPath
  - PathFindOnPathA
  - PathFindOnPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

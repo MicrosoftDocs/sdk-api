@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TVSORTCB
-product: Windows
 targetos: Windows
 req.typenames: TVSORTCB, *LPTVSORTCB
 req.redist: 

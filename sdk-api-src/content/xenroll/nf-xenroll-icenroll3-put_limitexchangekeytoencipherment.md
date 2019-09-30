@@ -44,7 +44,6 @@ api_name:
  - ICEnroll3.get_LimitExchangeKeyToEncipherment
  - ICEnroll3.put_LimitExchangeKeyToEncipherment
  - CEnroll.LimitExchangeKeyToEncipherment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

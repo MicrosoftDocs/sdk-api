@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_PACKAGE_WRITER_PAYLOAD_STREAM
-product: Windows
 targetos: Windows
 req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 req.redist: 

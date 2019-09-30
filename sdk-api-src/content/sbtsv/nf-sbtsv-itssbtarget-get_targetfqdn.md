@@ -43,7 +43,6 @@ api_name:
  - ITsSbTargetEx.TargetFQDN
  - ITsSbTargetEx.get_TargetFQDN
  - ITsSbTargetEx.put_TargetFQDN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

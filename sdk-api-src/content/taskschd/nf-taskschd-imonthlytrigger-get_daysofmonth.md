@@ -40,7 +40,6 @@ api_name:
  - IMonthlyTrigger.DaysOfMonth
  - IMonthlyTrigger.get_DaysOfMonth
  - IMonthlyTrigger.put_DaysOfMonth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

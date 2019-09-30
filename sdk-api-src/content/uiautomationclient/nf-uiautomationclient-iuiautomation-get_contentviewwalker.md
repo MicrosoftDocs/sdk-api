@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomation.ContentViewWalker
  - IUIAutomation.get_ContentViewWalker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

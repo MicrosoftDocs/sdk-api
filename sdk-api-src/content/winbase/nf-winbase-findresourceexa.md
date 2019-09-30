@@ -58,7 +58,6 @@ api_name:
  - FindResourceEx
  - FindResourceExA
  - FindResourceExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

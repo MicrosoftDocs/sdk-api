@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - EnumModesCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

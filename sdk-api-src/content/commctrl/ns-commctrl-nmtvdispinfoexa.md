@@ -40,7 +40,6 @@ api_name:
 - NMTVDISPINFOEX
 - NMTVDISPINFOEXA
 - NMTVDISPINFOEXW
-product: Windows
 targetos: Windows
 req.typenames: NMTVDISPINFOEXA, *LPNMTVDISPINFOEXA
 req.redist: 

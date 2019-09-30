@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_Factoid
  - PenInputPanel.get_Factoid
  - PenInputPanel.put_Factoid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

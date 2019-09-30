@@ -38,7 +38,6 @@ api_location:
 - Wlanapi.dll
 api_name:
 - WlanHostedNetworkQueryProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

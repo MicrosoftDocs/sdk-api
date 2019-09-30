@@ -40,7 +40,6 @@ api_name:
  - GetPrivateProfileSectionNames
  - GetPrivateProfileSectionNamesA
  - GetPrivateProfileSectionNamesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

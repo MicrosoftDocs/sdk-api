@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSubscriberInformation.SimIccID
  - IMbnSubscriberInformation.get_SimIccID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

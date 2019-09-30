@@ -38,7 +38,6 @@ api_location:
  - waasapitypes.h
 api_name:
  - OSUpdateAssessment
-product: Windows
 targetos: Windows
 req.typenames: OSUpdateAssessment
 req.redist: 

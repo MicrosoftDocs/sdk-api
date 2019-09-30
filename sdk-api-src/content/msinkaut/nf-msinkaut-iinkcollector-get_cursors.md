@@ -41,7 +41,6 @@ api_name:
  - IInkCollector.Cursors
  - IInkCollector.get_Cursors
  - InkCollector.get_Cursors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

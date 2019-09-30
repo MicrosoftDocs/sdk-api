@@ -38,7 +38,6 @@ api_location:
  - Sens.dll
 api_name:
  - ISensNetwork.ConnectionMade
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

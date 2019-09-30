@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_CLIENT_INFO_V6
-product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_V6, *LPDHCP_CLIENT_INFO_V6
 req.redist: 

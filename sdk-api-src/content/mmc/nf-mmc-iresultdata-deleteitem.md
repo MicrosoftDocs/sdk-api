@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.DeleteItem
  - IResultData2.DeleteItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

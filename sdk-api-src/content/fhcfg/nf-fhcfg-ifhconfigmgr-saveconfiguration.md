@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFhConfigMgr.SaveConfiguration
  - FhConfigMgr.SaveConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngHistProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngHistProperties
 req.redist: 

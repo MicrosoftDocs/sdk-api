@@ -40,7 +40,6 @@ api_name:
  - SetupGetSourceFileLocation
  - SetupGetSourceFileLocationA
  - SetupGetSourceFileLocationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

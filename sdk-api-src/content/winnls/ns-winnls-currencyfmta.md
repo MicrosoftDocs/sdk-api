@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - CURRENCYFMT
-product: Windows
 targetos: Windows
 req.typenames: CURRENCYFMTA, *LPCURRENCYFMTA
 req.redist: 

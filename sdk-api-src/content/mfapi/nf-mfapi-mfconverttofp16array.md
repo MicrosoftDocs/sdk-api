@@ -38,7 +38,6 @@ api_location:
  - mfplat.dll
 api_name:
  - MFConvertToFP16Array
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

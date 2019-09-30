@@ -40,7 +40,6 @@ api_name:
  - CreateStatusWindow
  - CreateStatusWindowA
  - CreateStatusWindowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

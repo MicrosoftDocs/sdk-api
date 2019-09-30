@@ -40,7 +40,6 @@ api_name:
  - ldap_explode_dn
  - ldap_explode_dnA
  - ldap_explode_dnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

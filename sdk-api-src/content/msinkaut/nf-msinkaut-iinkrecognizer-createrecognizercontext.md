@@ -39,7 +39,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkRecognizer.CreateRecognizerContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

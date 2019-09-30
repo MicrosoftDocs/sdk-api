@@ -38,7 +38,6 @@ api_location:
  - audioenginebaseapo.h
 api_name:
  - APO_FLAG
-product: Windows
 targetos: Windows
 req.typenames: APO_FLAG
 req.redist: 

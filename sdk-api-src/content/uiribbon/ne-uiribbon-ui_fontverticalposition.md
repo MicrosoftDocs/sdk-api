@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_FONTVERTICALPOSITION
-product: Windows
 targetos: Windows
 req.typenames: UI_FONTVERTICALPOSITION
 req.redist: 

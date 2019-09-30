@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT
-product: Windows
 targetos: Windows
 req.typenames: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 req.redist: 

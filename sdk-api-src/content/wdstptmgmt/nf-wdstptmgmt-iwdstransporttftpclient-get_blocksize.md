@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportTftpClient.BlockSize
  - IWdsTransportTftpClient.get_BlockSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

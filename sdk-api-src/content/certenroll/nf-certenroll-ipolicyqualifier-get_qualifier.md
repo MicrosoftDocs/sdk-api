@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IPolicyQualifier.Qualifier
  - IPolicyQualifier.get_Qualifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

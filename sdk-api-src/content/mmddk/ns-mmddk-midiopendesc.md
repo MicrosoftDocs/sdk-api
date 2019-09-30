@@ -38,7 +38,6 @@ api_location:
  - mmddk.h
 api_name:
  - MIDIOPENDESC
-product: Windows
 targetos: Windows
 req.typenames: MIDIOPENDESC
 req.redist: 

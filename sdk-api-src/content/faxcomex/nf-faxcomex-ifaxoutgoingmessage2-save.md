@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingMessage2.Save
  - IFaxOutgoingMessage2.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

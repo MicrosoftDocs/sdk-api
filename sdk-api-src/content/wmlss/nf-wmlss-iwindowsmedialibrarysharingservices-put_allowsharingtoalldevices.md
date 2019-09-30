@@ -38,7 +38,6 @@ api_location:
  - WMPMediaSharing.dll
 api_name:
  - IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

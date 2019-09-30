@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IISDB_BIT.GetRecordDescriptorByTag
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

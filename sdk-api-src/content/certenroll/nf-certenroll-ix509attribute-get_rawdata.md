@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Attribute.RawData
  - IX509Attribute.get_RawData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

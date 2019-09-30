@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - HEAP_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: HEAP_INFORMATION_CLASS
 req.redist: 

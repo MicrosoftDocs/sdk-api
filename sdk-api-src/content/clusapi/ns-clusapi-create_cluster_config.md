@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CREATE_CLUSTER_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: CREATE_CLUSTER_CONFIG, *PCREATE_CLUSTER_CONFIG
 req.redist: 

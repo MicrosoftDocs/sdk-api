@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - FH_RETENTION_TYPES
-product: Windows
 targetos: Windows
 req.typenames: FH_RETENTION_TYPES
 req.redist: 

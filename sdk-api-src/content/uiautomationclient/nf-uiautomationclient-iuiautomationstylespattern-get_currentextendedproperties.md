@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CurrentExtendedProperties
  - IUIAutomationStylesPattern.get_CurrentExtendedProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

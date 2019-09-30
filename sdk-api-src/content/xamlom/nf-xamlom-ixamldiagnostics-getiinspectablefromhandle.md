@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - IXamlDiagnostics.GetIInspectableFromHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWMSInternalAdminNetSource2
  - IWMSInternalAdminNetSource2.FindProxyForURLEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

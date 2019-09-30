@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
 req.redist: 

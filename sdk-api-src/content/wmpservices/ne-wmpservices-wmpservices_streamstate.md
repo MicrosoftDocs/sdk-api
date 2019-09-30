@@ -38,7 +38,6 @@ api_location:
  - wmpservices.h
 api_name:
  - WMPServices_StreamState
-product: Windows
 targetos: Windows
 req.typenames: WMPServices_StreamState
 req.redist: 

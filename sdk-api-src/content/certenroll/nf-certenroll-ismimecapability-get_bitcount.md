@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISmimeCapability.BitCount
  - ISmimeCapability.get_BitCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdipluscolor.h
 api_name:
  - ColorChannelFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

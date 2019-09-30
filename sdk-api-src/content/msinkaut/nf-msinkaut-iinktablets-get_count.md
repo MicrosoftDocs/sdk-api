@@ -41,7 +41,6 @@ api_name:
  - IInkTablets.Count
  - IInkTablets.get_Count
  - InkTablets.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

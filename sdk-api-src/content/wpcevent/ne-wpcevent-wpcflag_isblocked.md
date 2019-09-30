@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPCFLAG_ISBLOCKED
-product: Windows
 targetos: Windows
 req.typenames: WPCFLAG_ISBLOCKED
 req.redist: 

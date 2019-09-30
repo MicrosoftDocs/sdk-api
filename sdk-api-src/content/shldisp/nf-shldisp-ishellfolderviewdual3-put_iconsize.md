@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - IShellFolderViewDual3.put_IconSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

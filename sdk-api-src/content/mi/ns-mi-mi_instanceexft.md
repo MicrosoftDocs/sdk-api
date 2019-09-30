@@ -38,7 +38,6 @@ api_location:
 - mi.h
 api_name:
 - MI_InstanceExFT
-product: Windows
 targetos: Windows
 req.typenames: MI_InstanceExFT
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USB_USER_ERROR_CODE
-product: Windows
 targetos: Windows
 req.typenames: USB_USER_ERROR_CODE
 req.redist: 

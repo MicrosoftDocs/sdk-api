@@ -47,7 +47,6 @@ api_name:
  - FindFirstVolumeMountPoint
  - FindFirstVolumeMountPointA
  - FindFirstVolumeMountPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

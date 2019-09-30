@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate2.CveIDs
  - IWindowsDriverUpdate2.get_CveIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

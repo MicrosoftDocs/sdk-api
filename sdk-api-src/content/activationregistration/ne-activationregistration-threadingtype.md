@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - ThreadingType
-product: Windows
 targetos: Windows
 req.typenames: ThreadingType
 req.redist: 

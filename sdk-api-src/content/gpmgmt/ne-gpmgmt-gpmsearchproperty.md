@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.h
 api_name:
  - GPMSearchProperty
-product: Windows
 targetos: Windows
 req.typenames: GPMSearchProperty
 req.redist: 

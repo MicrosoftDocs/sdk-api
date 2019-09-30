@@ -40,7 +40,6 @@ api_name:
  - IGPMCSECollection.Item
  - IGPMCSECollection.get_Item
  - GPMCSECollection.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

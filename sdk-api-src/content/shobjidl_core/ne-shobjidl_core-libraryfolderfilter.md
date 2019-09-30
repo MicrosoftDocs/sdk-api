@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - LIBRARYFOLDERFILTER
-product: Windows
 targetos: Windows
 req.typenames: LIBRARYFOLDERFILTER
 req.redist: 

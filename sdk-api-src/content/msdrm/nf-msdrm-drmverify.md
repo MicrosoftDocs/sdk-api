@@ -38,7 +38,6 @@ api_location:
  - Msdrm.dll
 api_name:
  - DRMVerify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - propsys.h
 api_name:
  - IPropertyEnumTypeList.GetConditionAt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

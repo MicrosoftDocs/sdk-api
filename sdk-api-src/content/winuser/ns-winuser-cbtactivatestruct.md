@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CBTACTIVATESTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CBTACTIVATESTRUCT, *LPCBTACTIVATESTRUCT
 req.redist: 

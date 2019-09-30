@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - TOUCH_COORD_TO_PIXEL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

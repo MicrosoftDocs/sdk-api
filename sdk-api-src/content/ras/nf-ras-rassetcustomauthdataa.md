@@ -40,7 +40,6 @@ api_name:
  - RasSetCustomAuthData
  - RasSetCustomAuthDataA
  - RasSetCustomAuthDataW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

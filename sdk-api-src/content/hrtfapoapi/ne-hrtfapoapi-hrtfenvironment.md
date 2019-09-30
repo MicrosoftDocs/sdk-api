@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfEnvironment
-product: Windows
 targetos: Windows
 req.typenames: HrtfEnvironment
 req.redist: 

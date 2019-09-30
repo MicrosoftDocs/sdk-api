@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - FDE_OVERWRITE_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: FDE_OVERWRITE_RESPONSE
 req.redist: 

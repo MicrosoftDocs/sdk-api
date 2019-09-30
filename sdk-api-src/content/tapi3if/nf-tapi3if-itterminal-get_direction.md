@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITTerminal.get_Direction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetProcessDefaultLayout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

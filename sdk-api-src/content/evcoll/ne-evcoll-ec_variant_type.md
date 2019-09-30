@@ -38,7 +38,6 @@ api_location:
  - Evcoll.h
 api_name:
  - EC_VARIANT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: EC_VARIANT_TYPE
 req.redist: 

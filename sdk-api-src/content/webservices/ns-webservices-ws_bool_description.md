@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_BOOL_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_BOOL_DESCRIPTION
 req.redist: 

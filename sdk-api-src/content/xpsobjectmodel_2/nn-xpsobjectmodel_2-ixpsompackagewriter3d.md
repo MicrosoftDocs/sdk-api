@@ -38,7 +38,6 @@ api_location:
  - XpsObjectModel_2.h
 api_name:
  - IXpsOMPackageWriter3D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

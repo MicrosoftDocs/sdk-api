@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - PasswordFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

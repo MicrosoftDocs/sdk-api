@@ -38,7 +38,6 @@ api_location:
  - ShellScalingAPI.h
 api_name:
  - SCALE_CHANGE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SCALE_CHANGE_FLAGS
 req.redist: 

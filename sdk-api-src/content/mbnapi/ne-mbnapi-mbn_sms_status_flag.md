@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_SMS_STATUS_FLAG
-product: Windows
 targetos: Windows
 req.typenames: MBN_SMS_STATUS_FLAG
 req.redist: 

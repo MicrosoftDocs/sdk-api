@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVEncDDPreferredStereoDownMixMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

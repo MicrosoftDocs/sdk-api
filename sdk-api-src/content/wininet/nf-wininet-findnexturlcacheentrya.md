@@ -40,7 +40,6 @@ api_name:
 - FindNextUrlCacheEntry
 - FindNextUrlCacheEntryA
 - FindNextUrlCacheEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

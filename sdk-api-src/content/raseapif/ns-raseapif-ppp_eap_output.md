@@ -38,7 +38,6 @@ api_location:
 - Raseapif.h
 api_name:
 - PPP_EAP_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: PPP_EAP_OUTPUT, *PPPP_EAP_OUTPUT
 req.redist: 

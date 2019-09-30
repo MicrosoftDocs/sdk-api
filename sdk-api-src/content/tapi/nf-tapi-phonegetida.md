@@ -40,7 +40,6 @@ api_name:
  - phoneGetID
  - phoneGetIDA
  - phoneGetIDW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

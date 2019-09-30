@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.AddEnvironmentToStore
  - ITsSbResourcePluginStoreEx.AddEnvironmentToStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

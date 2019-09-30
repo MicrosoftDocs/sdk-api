@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - NSTCCUSTOMDRAW
-product: Windows
 targetos: Windows
 req.typenames: NSTCCUSTOMDRAW
 req.redist: 

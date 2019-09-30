@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIDEVICESTATE
-product: Windows
 targetos: Windows
 req.typenames: DIDEVICESTATE, *LPDIDEVICESTATE
 req.redist: 

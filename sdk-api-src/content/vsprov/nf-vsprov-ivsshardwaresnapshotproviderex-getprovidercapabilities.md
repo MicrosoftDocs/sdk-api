@@ -38,7 +38,6 @@ api_location:
  - VsProv.h
 api_name:
  - IVssHardwareSnapshotProviderEx.GetProviderCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

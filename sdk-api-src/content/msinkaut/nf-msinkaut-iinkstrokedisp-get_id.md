@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.ID
  - IInkStrokeDisp.get_ID
  - IInkStrokeDisp.get_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

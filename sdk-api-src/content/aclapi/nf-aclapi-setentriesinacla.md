@@ -45,7 +45,6 @@ api_name:
 - SetEntriesInAcl
 - SetEntriesInAclA
 - SetEntriesInAclW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

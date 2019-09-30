@@ -38,7 +38,6 @@ api_location:
  - RpcAsync.h
 api_name:
  - RpcCallClientLocality
-product: Windows
 targetos: Windows
 req.typenames: RpcCallClientLocality
 req.redist: 

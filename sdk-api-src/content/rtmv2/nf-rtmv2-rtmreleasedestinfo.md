@@ -38,7 +38,6 @@ api_location:
 - Rtm.dll
 api_name:
 - RtmReleaseDestInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

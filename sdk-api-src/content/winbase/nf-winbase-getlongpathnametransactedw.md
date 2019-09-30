@@ -44,7 +44,6 @@ api_name:
  - GetLongPathNameTransacted
  - GetLongPathNameTransactedA
  - GetLongPathNameTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.RecommendedMemory
  - IUpdate.get_RecommendedMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

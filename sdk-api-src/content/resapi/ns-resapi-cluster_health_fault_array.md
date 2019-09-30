@@ -38,7 +38,6 @@ api_location:
  - Resapi.h
 api_name:
  - CLUSTER_HEALTH_FAULT_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT_ARRAY, *PCLUSTER_HEALTH_FAULT_ARRAY
 req.redist: 

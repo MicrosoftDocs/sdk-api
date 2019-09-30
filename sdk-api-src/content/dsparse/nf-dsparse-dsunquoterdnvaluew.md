@@ -40,7 +40,6 @@ api_name:
  - DsUnquoteRdnValue
  - DsUnquoteRdnValueA
  - DsUnquoteRdnValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

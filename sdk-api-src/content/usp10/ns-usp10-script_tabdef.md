@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - SCRIPT_TABDEF
-product: Windows
 targetos: Windows
 req.typenames: SCRIPT_TABDEF
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

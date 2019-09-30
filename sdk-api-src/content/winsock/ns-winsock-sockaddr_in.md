@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - sockaddr
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN, *LPSOCKADDR_IN
 req.redist: 

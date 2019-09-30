@@ -38,7 +38,6 @@ api_location:
  - batclass.h
 api_name:
  - BATTERY_NOTIFY
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
 req.redist: 

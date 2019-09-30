@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - ID3D11VideoContext.VideoProcessorSetStreamColorSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CHString.GetAllocLength
  - ?GetAllocLength@CHString@@QBEHXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

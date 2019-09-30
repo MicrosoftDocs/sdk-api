@@ -38,7 +38,6 @@ api_location:
  - vptype.h
 api_name:
  - AMVPDATAINFO
-product: Windows
 targetos: Windows
 req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
 req.redist: 

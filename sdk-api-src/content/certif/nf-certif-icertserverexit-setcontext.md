@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerExit.SetContext
  - CCertServerExit.SetContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

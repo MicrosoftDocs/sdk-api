@@ -39,7 +39,6 @@ api_location:
  - Cfgmgr32.dll
 api_name:
  - CM_Get_Device_Interface_Property_Keys_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

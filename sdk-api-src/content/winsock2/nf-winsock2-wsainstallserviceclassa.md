@@ -40,7 +40,6 @@ api_name:
 - WSAInstallServiceClass
 - WSAInstallServiceClassA
 - WSAInstallServiceClassW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

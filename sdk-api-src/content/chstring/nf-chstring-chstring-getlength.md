@@ -41,7 +41,6 @@ api_name:
  - CHString.GetLength
  - ?GetLength@CHString@@QBEHXZ
  - ?GetLength@CHString@@QEBAHXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

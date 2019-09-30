@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_CREATEPALETTEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA'
 req.redist: 

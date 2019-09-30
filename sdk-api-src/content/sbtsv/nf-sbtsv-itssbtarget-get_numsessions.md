@@ -41,7 +41,6 @@ api_name:
  - ITsSbTarget.get_NumSessions
  - ITsSbTargetEx.NumSessions
  - ITsSbTargetEx.get_NumSessions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

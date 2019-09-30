@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.Tsid
  - IFaxDoc.get_Tsid
  - IFaxDoc.put_Tsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

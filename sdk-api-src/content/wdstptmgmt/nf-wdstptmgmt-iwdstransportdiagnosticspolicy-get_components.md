@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportDiagnosticsPolicy.Components
  - IWdsTransportDiagnosticsPolicy.get_Components
  - IWdsTransportDiagnosticsPolicy.put_Components
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

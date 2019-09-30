@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - GLOBALOPT_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: GLOBALOPT_PROPERTIES
 req.redist: 

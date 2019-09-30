@@ -38,7 +38,6 @@ api_location:
  - Certocm.dll
 api_name:
  - IMSCEPSetup.SetMSCEPSetupProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

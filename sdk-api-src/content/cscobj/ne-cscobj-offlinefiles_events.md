@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_EVENTS
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_EVENTS
 req.redist: 

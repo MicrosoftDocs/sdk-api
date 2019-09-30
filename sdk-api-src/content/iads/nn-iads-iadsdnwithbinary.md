@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsDNWithBinary
  - DNWithBinary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

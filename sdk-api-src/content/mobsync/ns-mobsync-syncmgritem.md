@@ -38,7 +38,6 @@ api_location:
 - Mobsync.h
 api_name:
 - SYNCMGRITEM
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
 req.redist: 

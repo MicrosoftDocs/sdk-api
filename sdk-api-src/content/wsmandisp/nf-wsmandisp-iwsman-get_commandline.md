@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWSMan.CommandLine
  - IWSMan.get_CommandLine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

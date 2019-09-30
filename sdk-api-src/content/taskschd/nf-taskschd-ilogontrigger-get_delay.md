@@ -40,7 +40,6 @@ api_name:
  - ILogonTrigger.Delay
  - ILogonTrigger.get_Delay
  - ILogonTrigger.put_Delay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

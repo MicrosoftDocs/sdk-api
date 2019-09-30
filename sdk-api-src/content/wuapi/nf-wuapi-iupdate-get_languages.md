@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.Languages
  - IUpdate.get_Languages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

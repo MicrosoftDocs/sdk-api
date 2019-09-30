@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAutomaticUpdatesSettings.Required
  - IAutomaticUpdatesSettings.get_Required
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

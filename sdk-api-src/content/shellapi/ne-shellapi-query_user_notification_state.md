@@ -38,7 +38,6 @@ api_location:
 - Shellapi.h
 api_name:
 - QUERY_USER_NOTIFICATION_STATE
-product: Windows
 targetos: Windows
 req.typenames: QUERY_USER_NOTIFICATION_STATE
 req.redist: 

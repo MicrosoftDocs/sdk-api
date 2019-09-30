@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_MOTION_TYPES
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_MOTION_TYPES
 req.redist: 

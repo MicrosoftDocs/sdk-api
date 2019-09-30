@@ -38,7 +38,6 @@ api_location:
  - Objbase.h
 api_name:
  - COMSD
-product: Windows
 targetos: Windows
 req.typenames: COMSD
 req.redist: 

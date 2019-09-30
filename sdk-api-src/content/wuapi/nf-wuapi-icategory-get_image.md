@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.Image
  - ICategory.get_Image
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

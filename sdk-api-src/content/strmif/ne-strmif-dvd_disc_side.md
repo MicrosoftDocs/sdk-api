@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DISC_SIDE
-product: Windows
 targetos: Windows
 req.typenames: DVD_DISC_SIDE
 req.redist: 

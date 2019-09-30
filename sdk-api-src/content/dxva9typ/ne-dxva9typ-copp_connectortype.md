@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - COPP_ConnectorType
-product: Windows
 targetos: Windows
 req.typenames: COPP_ConnectorType
 req.redist: 

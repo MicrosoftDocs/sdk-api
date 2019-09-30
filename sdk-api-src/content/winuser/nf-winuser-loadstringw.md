@@ -51,7 +51,6 @@ api_name:
  - LoadString
  - LoadStringA
  - LoadStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

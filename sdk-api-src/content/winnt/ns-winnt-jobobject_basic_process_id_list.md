@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - JOBOBJECT_BASIC_PROCESS_ID_LIST
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_PROCESS_ID_LIST, *PJOBOBJECT_BASIC_PROCESS_ID_LIST
 req.redist: 

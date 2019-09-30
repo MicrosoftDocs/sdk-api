@@ -39,7 +39,6 @@ api_location:
  - Netutils.dll
 api_name:
  - NetApiBufferFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

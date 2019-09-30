@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWCOLUMN.GetMaxLength
  - IEnumCERTVIEWCOLUMN.GetMaxLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

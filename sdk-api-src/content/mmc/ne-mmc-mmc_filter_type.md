@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_FILTER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MMC_FILTER_TYPE
 req.redist: 

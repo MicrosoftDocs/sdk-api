@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - MonthCal_GetMonthDelta
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mstcpip.h
 api_name:
  - REAL_TIME_NOTIFICATION_SETTING_INPUT
-product: Windows
 targetos: Windows
 req.typenames: REAL_TIME_NOTIFICATION_SETTING_INPUT, *PREAL_TIME_NOTIFICATION_SETTING_INPUT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Pwm.h
 api_name:
 - IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

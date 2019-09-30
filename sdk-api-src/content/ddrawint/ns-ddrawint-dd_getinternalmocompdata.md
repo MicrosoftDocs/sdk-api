@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETINTERNALMOCOMPDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA'
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wsman.h
 api_name:
 - WSMAN_SHELL_STARTUP_INFO
-product: Windows
 targetos: Windows
 req.typenames: WSMAN_SHELL_STARTUP_INFO_V10
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

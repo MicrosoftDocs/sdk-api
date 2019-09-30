@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_FAILURE_POINT
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_FAILURE_POINT
 req.redist: 

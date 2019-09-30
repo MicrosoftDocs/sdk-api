@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_ETHER_ENCAP_METHOD
-product: Windows
 targetos: Windows
 req.typenames: FWP_ETHER_ENCAP_METHOD
 req.redist: 

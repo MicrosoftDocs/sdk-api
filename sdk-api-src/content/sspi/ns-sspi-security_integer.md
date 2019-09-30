@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SECURITY_INTEGER
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_INTEGER, *PSECURITY_INTEGER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIApplication.Flags
  - IRDPSRAPIApplication.get_Flags
  - RDPSRAPIApplication.Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

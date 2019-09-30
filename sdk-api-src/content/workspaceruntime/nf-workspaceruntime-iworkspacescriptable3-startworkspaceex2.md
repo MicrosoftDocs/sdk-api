@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - IWorkspaceScriptable3::StartWorkspaceEx2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

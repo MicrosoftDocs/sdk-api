@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_COLOR_YCbCrA
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_COLOR_YCbCrA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - PRINTDLG
 - PRINTDLGA
 - PRINTDLGW
-product: Windows
 targetos: Windows
 req.typenames: PRINTDLGW, *LPPRINTDLGW
 req.redist: 

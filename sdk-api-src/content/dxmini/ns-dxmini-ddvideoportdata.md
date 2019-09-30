@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDVIDEOPORTDATA
-product: Windows
 targetos: Windows
 req.typenames: DDVIDEOPORTDATA, *LPDDVIDEOPORTDATA
 req.redist: 

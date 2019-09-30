@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_NAME_PAIR
-product: Windows
 targetos: Windows
 req.typenames: PEER_NAME_PAIR, *PPEER_NAME_PAIR
 req.redist: 

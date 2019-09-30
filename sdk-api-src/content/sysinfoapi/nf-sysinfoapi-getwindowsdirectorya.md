@@ -48,7 +48,6 @@ api_name:
  - GetWindowsDirectory
  - GetWindowsDirectoryA
  - GetWindowsDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

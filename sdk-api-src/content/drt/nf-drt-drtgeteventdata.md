@@ -38,7 +38,6 @@ api_location:
  - drt.dll
 api_name:
  - DrtGetEventData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - COMPCOLOR
-product: Windows
 targetos: Windows
 req.typenames: COMPCOLOR
 req.redist: 

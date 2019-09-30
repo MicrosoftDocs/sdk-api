@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTOOLTIPSCREATED
-product: Windows
 targetos: Windows
 req.typenames: NMTOOLTIPSCREATED, *LPNMTOOLTIPSCREATED
 req.redist: 

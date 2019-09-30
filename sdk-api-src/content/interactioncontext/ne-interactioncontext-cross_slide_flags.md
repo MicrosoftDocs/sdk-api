@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - CROSS_SLIDE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CROSS_SLIDE_FLAGS
 req.redist: 

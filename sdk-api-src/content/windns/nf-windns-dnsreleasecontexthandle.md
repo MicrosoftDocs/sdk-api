@@ -38,7 +38,6 @@ api_location:
  - Dnsapi.dll
 api_name:
  - DnsReleaseContextHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

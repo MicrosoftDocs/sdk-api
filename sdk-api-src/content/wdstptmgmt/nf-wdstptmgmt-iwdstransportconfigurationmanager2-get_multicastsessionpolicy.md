@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportConfigurationManager2.MulticastSessionPolicy
  - IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

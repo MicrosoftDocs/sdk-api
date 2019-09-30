@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TITLEBARINFOEX
-product: Windows
 targetos: Windows
 req.typenames: TITLEBARINFOEX, *PTITLEBARINFOEX, *LPTITLEBARINFOEX
 req.redist: 

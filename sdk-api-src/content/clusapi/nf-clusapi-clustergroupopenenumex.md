@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
  - ClusterGroupOpenEnumEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

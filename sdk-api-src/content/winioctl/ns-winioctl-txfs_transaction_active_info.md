@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - TXFS_TRANSACTION_ACTIVE_INFO
-product: Windows
 targetos: Windows
 req.typenames: TXFS_TRANSACTION_ACTIVE_INFO, *PTXFS_TRANSACTION_ACTIVE_INFO
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
 - ILCreateFromPath
 - ILCreateFromPathA
 - ILCreateFromPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

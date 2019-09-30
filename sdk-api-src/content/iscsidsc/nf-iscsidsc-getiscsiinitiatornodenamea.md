@@ -40,7 +40,6 @@ api_name:
  - GetIscsiInitiatorNodeName
  - GetIscsiInitiatorNodeNameA
  - GetIscsiInitiatorNodeNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

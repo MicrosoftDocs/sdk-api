@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_DesiredPacketDescription
  - InkOverlay.get_DesiredPacketDescription
  - InkOverlay.put_DesiredPacketDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

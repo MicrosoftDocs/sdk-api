@@ -40,7 +40,6 @@ api_name:
  - IX509Enrollment.CertificateDescription
  - IX509Enrollment.get_CertificateDescription
  - IX509Enrollment.put_CertificateDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

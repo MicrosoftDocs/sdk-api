@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - IImageList.DragMove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

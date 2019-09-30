@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleImplementation.OnLoad
  - IFsrmStorageModuleImplementation.OnLoad
  - IFsrmClassifierModuleImplementation.OnLoad
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

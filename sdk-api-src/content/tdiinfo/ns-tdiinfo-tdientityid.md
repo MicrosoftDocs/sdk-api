@@ -38,7 +38,6 @@ api_location:
  - tdiinfo.h
 api_name:
  - TDIEntityID
-product: Windows
 targetos: Windows
 req.typenames: TDIEntityID
 req.redist: 

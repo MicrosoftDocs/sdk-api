@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ComponentHangMonitorInfo
-product: Windows
 targetos: Windows
 req.typenames: ComponentHangMonitorInfo
 req.redist: 

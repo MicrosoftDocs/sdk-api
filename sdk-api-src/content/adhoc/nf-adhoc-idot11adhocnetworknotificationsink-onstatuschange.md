@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - IDot11AdHocNetworkNotificationSink.OnStatusChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

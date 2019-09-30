@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_MousePointer
  - InkOverlay.get_MousePointer
  - InkOverlay.put_MousePointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

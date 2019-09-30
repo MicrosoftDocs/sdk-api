@@ -38,7 +38,6 @@ api_location:
  - corewindow.h
 api_name:
  - ICoreInputInterop.SetInputSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

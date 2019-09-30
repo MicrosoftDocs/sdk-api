@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTextPattern.DocumentRange
  - IUIAutomationTextPattern.get_DocumentRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

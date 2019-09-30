@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_CONSOLE_VERB
-product: Windows
 targetos: Windows
 req.typenames: MMC_CONSOLE_VERB
 req.redist: 

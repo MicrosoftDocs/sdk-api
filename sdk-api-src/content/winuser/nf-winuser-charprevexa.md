@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CharPrevExA
  - CharPrevExA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

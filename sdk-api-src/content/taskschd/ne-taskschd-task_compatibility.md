@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_COMPATIBILITY
-product: Windows
 targetos: Windows
 req.typenames: TASK_COMPATIBILITY
 req.redist: 

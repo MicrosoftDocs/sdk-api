@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.SecureFlags
  - INetFwRule3.get_SecureFlags
  - INetFwRule3.put_SecureFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

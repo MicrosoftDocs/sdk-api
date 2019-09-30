@@ -40,7 +40,6 @@ api_name:
  - IAzApplicationGroup.NonMembersName
  - IAzApplicationGroup.get_NonMembersName
  - AzApplicationGroup.NonMembersName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

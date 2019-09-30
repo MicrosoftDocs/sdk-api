@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendeeManager._NewEnum
  - IRDPSRAPIAttendeeManager.get__NewEnum
  - RDPSRAPIAttendeeManager._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - PHONECAPS_STRING
-product: Windows
 targetos: Windows
 req.typenames: PHONECAPS_STRING
 req.redist: 

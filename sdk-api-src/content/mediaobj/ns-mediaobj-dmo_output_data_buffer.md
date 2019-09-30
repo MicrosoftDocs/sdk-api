@@ -38,7 +38,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - DMO_OUTPUT_DATA_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
 req.redist: 

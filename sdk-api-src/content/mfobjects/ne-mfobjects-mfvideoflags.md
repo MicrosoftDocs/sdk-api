@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoFlags
-product: Windows
 targetos: Windows
 req.typenames: MFVideoFlags
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - audiomediatype.h
 api_name:
  - IAudioMediaType.IsEqual
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

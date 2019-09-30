@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesFileItem.IsEncrypted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

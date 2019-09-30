@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - FD_XFORM
-product: Windows
 targetos: Windows
 req.typenames: FD_XFORM, *PFD_XFORM
 req.redist: 

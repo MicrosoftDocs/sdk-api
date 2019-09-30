@@ -40,7 +40,6 @@ api_name:
  - WTS_PROCESS_INFO
  - WTS_PROCESS_INFOA
  - WTS_PROCESS_INFOW
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROCESS_INFOA, *PWTS_PROCESS_INFOA
 req.redist: 

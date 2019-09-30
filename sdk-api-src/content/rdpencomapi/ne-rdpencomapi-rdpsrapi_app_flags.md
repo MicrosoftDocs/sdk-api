@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - RDPSRAPI_APP_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_APP_FLAGS
 req.redist: 

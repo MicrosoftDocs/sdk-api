@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IProgressItems
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

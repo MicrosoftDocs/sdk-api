@@ -39,7 +39,6 @@ api_location:
 - ext-ms-win-advapi32-msi-l1-1-0.dll
 api_name:
 - InstallApplication
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

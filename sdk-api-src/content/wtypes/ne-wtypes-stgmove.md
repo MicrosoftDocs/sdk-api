@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - STGMOVE
-product: Windows
 targetos: Windows
 req.typenames: STGMOVE
 req.redist: 

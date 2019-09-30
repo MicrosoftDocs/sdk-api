@@ -38,7 +38,6 @@ api_location:
  - cloneviewhelper.h
 api_name:
  - DisplayMode
-product: Windows
 targetos: Windows
 req.typenames: DisplayMode
 req.redist: 

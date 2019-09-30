@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_NET_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: RTM_NET_ADDRESS, *PRTM_NET_ADDRESS
 req.redist: 

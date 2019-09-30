@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WsOffsetOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

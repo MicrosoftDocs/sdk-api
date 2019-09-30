@@ -41,7 +41,6 @@ api_name:
 - FaxEnumGlobalRoutingInfo
 - FaxEnumGlobalRoutingInfoA
 - FaxEnumGlobalRoutingInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - SECURITY_LOGON_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
 req.redist: 

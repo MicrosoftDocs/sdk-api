@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbLogoTransmissionDescriptor.GetTag
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

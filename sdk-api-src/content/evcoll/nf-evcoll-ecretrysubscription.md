@@ -38,7 +38,6 @@ api_location:
  - Wecapi.dll
 api_name:
  - EcRetrySubscription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

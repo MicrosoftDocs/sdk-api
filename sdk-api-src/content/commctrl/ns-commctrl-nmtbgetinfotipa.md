@@ -40,7 +40,6 @@ api_name:
 - NMTBGETINFOTIP
 - NMTBGETINFOTIPA
 - NMTBGETINFOTIPW
-product: Windows
 targetos: Windows
 req.typenames: NMTBGETINFOTIPA, *LPNMTBGETINFOTIPA
 req.redist: 

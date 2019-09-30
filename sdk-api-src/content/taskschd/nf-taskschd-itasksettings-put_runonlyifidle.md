@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.RunOnlyIfIdle
  - ITaskSettings.get_RunOnlyIfIdle
  - ITaskSettings.put_RunOnlyIfIdle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

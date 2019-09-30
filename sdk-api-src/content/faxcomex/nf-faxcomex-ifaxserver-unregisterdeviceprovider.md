@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.UnregisterDeviceProvider
  - IFaxServer.UnregisterDeviceProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

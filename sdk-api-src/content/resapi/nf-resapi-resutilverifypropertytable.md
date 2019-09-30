@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
 api_name:
  - ResUtilVerifyPropertyTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

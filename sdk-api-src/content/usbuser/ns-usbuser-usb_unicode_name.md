@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USB_UNICODE_NAME
-product: Windows
 targetos: Windows
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 req.redist: 

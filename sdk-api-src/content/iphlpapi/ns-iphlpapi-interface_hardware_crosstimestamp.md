@@ -38,7 +38,6 @@ api_location:
  - iphlpapi.h
 api_name:
  - INTERFACE_HARDWARE_CROSSTIMESTAMP
-product: Windows
 targetos: Windows
 req.typenames: INTERFACE_HARDWARE_CROSSTIMESTAMP, *PINTERFACE_HARDWARE_CROSSTIMESTAMP
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWebApplicationHost.Document
  - IWebApplicationHost.get_Document
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

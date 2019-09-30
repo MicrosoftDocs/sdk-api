@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMGPOLink.Delete
  - GPMGPOLink.Delete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

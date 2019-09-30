@@ -38,7 +38,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - gethostbyaddr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IEnumFORMATETC.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

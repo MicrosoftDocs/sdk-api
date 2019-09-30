@@ -38,7 +38,6 @@ api_location:
  - D3D12sdklayers.h
 api_name:
  - ID3D12Debug2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_VERB
-product: Windows
 targetos: Windows
 req.typenames: HTTP_VERB, *PHTTP_VERB
 req.redist: 

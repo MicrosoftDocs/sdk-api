@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
 req.redist: 

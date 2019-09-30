@@ -38,7 +38,6 @@ api_location:
  - Mileffects.h
 api_name:
  - MILMatrixF
-product: Windows
 targetos: Windows
 req.typenames: MILMatrixF
 req.redist: Microsoft .Net 3.0

@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.TaskRunAsSelf
  - IAlertDataCollector.get_TaskRunAsSelf
  - IAlertDataCollector.put_TaskRunAsSelf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

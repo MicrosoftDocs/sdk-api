@@ -38,7 +38,6 @@ api_location:
  - Ntquery.dll
 api_name:
  - CITextToSelectTreeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

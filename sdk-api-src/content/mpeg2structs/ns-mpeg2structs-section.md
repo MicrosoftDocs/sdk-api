@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - SECTION
-product: Windows
 targetos: Windows
 req.typenames: SECTION, *PSECTION
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - AddFontResource
  - AddFontResourceA
  - AddFontResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

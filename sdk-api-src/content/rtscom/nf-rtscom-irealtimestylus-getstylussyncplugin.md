@@ -38,7 +38,6 @@ api_location:
  - RTSCom.dll
 api_name:
  - IRealTimeStylus.GetStylusSyncPlugin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

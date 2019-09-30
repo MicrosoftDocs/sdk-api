@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement4.CurrentPositionInSet
  - IUIAutomationElement4.get_CurrentPositionInSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

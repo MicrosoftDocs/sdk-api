@@ -40,7 +40,6 @@ api_name:
 - WNetGetNetworkInformation
 - WNetGetNetworkInformationA
 - WNetGetNetworkInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

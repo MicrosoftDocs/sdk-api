@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - TOUCH_HIT_TESTING_PROXIMITY_EVALUATION
-product: Windows
 targetos: Windows
 req.typenames: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION, *PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 req.redist: 

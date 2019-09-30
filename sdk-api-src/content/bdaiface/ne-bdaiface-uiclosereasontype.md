@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - UICloseReasonType
-product: Windows
 targetos: Windows
 req.typenames: UICloseReasonType
 req.redist: 

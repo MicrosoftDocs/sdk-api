@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_MULTIPLE_KNOWN_HEADERS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS
 req.redist: 

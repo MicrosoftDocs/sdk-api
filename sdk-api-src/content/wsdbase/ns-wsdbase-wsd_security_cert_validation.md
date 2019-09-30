@@ -38,7 +38,6 @@ api_location:
 - wsdbase.h
 api_name:
 - WSD_SECURITY_CERT_VALIDATION
-product: Windows
 targetos: Windows
 req.typenames: WSD_SECURITY_CERT_VALIDATION
 req.redist: 

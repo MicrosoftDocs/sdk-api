@@ -40,7 +40,6 @@ api_name:
  - DsBindToISTG
  - DsBindToISTGA
  - DsBindToISTGW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

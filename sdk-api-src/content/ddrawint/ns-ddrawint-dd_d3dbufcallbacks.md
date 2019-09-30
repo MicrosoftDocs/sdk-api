@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_D3DBUFCALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
 req.redist: 

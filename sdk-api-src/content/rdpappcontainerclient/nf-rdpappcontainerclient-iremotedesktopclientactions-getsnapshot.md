@@ -38,7 +38,6 @@ api_location:
  - MsTscAx.dll
 api_name:
  - IRemoteDesktopClientActions.GetSnapshot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - READ_ELEMENT_ADDRESS_INFO
-product: Windows
 targetos: Windows
 req.typenames: READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISearchJob.IsCompleted
  - ISearchJob.get_IsCompleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

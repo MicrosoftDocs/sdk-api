@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmPropertyBagFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyBagFlags
 req.redist: 

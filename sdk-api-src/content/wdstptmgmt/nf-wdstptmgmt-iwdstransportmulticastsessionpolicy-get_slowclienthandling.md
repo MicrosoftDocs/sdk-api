@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportMulticastSessionPolicy.SlowClientHandling
  - IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
  - IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

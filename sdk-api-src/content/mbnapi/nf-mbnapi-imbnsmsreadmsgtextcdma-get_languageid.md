@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgTextCdma.LanguageID
  - IMbnSmsReadMsgTextCdma.get_LanguageID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

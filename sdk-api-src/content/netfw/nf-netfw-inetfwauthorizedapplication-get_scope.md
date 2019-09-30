@@ -42,7 +42,6 @@ api_name:
  - INetFwAuthorizedApplication.Scope
  - INetFwAuthorizedApplication.get_Scope
  - INetFwAuthorizedApplication.put_Scope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: WMT_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - dvp.h
 api_name:
 - DDVIDEOPORTBANDWIDTH
-product: Windows
 targetos: Windows
 req.typenames: '*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH'
 req.redist: 

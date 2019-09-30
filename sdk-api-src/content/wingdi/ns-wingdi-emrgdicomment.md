@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRGDICOMMENT
-product: Windows
 targetos: Windows
 req.typenames: EMRGDICOMMENT, *PEMRGDICOMMENT
 req.redist: 

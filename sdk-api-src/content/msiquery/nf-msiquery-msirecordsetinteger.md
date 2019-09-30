@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
  - MsiRecordSetInteger
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

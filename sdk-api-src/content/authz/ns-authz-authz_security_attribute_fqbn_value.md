@@ -38,7 +38,6 @@ api_location:
 - Authz.h
 api_name:
 - AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, *PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
 req.redist: 

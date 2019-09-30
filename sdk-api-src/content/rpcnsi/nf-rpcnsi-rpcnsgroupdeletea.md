@@ -40,7 +40,6 @@ api_name:
  - RpcNsGroupDelete
  - RpcNsGroupDeleteA
  - RpcNsGroupDeleteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

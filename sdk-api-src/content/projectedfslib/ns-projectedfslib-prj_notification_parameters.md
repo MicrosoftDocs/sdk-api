@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_NOTIFICATION_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION_PARAMETERS
 req.redist: 

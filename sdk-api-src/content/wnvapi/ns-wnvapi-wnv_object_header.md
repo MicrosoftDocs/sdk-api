@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_OBJECT_HEADER
-product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_HEADER, *PWNV_OBJECT_HEADER
 req.redist: 

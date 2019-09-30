@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.SessionId
  - ITraceDataCollector.get_SessionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

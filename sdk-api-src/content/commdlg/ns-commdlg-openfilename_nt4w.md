@@ -40,7 +40,6 @@ api_name:
  - OPENFILENAME_NT4
  - OPENFILENAME_NT4A
  - OPENFILENAME_NT4W
-product: Windows
 targetos: Windows
 req.typenames: OPENFILENAME_NT4W, *LPOPENFILENAME_NT4W
 req.redist: 

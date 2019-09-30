@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IMPEG2ComponentType.put_StreamType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

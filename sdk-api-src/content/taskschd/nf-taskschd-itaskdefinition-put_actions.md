@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.Actions
  - ITaskDefinition.get_Actions
  - ITaskDefinition.put_Actions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wsccapi.lib
 api_name:
  - IWscProduct
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - IN6_PKTINFO
-product: Windows
 targetos: Windows
 req.typenames: IN6_PKTINFO, *PIN6_PKTINFO
 req.redist: 

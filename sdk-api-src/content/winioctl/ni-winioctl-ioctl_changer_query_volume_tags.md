@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_CHANGER_QUERY_VOLUME_TAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

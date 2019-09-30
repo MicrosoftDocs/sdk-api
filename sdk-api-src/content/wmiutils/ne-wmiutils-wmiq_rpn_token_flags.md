@@ -38,7 +38,6 @@ api_location:
  - WMIUtils.h
 api_name:
  - WMIQ_RPN_TOKEN_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WMIQ_RPN_TOKEN_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
 req.redist: 

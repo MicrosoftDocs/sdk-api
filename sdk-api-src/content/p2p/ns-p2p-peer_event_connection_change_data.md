@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_EVENT_CONNECTION_CHANGE_DATA
-product: Windows
 targetos: Windows
 req.typenames: PEER_EVENT_CONNECTION_CHANGE_DATA, *PPEER_EVENT_CONNECTION_CHANGE_DATA
 req.redist: 

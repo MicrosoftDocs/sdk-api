@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9DeinterlaceCaps
-product: Windows
 targetos: Windows
 req.typenames: VMR9DeinterlaceCaps
 req.redist: 

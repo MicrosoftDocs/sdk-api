@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPDevice.GetVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

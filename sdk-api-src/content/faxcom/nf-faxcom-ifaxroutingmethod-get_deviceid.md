@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxRoutingMethod.DeviceId
  - IFaxRoutingMethod.get_DeviceId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

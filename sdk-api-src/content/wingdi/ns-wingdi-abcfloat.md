@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - ABCFLOAT
-product: Windows
 targetos: Windows
 req.typenames: ABCFLOAT, *PABCFLOAT, *NPABCFLOAT, *LPABCFLOAT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - ITfInputProcessorProfileActivationSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

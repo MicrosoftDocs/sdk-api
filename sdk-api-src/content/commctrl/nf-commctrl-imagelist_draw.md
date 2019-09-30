@@ -40,7 +40,6 @@ api_location:
  - ext-ms-win-shell-comctl32-init-l1-1-1.dll
 api_name:
  - ImageList_Draw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

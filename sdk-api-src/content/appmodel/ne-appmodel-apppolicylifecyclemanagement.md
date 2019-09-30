@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyLifecycleManagement
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyLifecycleManagement
 req.redist: 

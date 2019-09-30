@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_PROXY_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WMT_PROXY_SETTINGS
 req.redist: 

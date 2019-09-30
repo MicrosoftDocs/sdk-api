@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelFontSize
  - InkEdit.get_SelFontSize
  - InkEdit.put_SelFontSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

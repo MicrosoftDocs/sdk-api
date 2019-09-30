@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - HARDWAREINPUT
-product: Windows
 targetos: Windows
 req.typenames: HARDWAREINPUT, *PHARDWAREINPUT, *LPHARDWAREINPUT
 req.redist: 

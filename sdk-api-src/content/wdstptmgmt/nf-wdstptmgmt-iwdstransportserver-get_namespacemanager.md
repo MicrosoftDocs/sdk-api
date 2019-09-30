@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportServer.NamespaceManager
  - IWdsTransportServer.get_NamespaceManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

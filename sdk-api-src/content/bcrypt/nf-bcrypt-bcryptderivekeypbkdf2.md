@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.dll
 api_name:
  - BCryptDeriveKeyPBKDF2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

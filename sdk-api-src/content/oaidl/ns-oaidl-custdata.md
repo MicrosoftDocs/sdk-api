@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - CUSTDATA
-product: Windows
 targetos: Windows
 req.typenames: CUSTDATA, *LPCUSTDATA
 req.redist: 

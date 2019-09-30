@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - TpSetCallbackPriority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

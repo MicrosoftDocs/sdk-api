@@ -41,7 +41,6 @@ api_name:
  - ImageList_LoadImage
  - ImageList_LoadImageA
  - ImageList_LoadImageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

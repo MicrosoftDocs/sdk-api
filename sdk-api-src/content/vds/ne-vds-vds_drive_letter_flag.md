@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_DRIVE_LETTER_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_DRIVE_LETTER_FLAG
 req.redist: 

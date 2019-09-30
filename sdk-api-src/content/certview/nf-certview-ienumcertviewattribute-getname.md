@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWATTRIBUTE.GetName
  - IEnumCERTVIEWATTRIBUTE.GetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

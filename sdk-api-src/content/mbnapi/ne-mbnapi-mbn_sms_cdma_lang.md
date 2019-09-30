@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_SMS_CDMA_LANG
-product: Windows
 targetos: Windows
 req.typenames: MBN_SMS_CDMA_LANG
 req.redist: 

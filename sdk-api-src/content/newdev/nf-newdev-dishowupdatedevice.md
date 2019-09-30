@@ -38,7 +38,6 @@ api_location:
 - Newdev.dll
 api_name:
 - DiShowUpdateDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

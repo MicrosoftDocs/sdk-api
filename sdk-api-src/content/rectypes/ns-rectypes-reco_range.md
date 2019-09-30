@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - RECO_RANGE
-product: Windows
 targetos: Windows
 req.typenames: RECO_RANGE
 req.redist: 

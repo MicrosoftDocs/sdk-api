@@ -38,7 +38,6 @@ api_location:
  - twinapi.dll
 api_name:
  - IApplicationDesignModeSettings2.GetApplicationSizeBounds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

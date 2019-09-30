@@ -46,7 +46,6 @@ api_name:
  - RegLoadAppKey
  - RegLoadAppKeyA
  - RegLoadAppKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

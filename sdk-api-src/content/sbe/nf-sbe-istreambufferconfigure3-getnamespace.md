@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferConfigure3.GetNamespace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

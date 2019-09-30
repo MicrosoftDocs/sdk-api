@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateTemplateWritable.Property
  - IX509CertificateTemplateWritable.get_Property
  - IX509CertificateTemplateWritable.put_Property
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

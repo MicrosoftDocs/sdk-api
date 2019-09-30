@@ -40,7 +40,6 @@ api_name:
  - ITrigger.Enabled
  - ITrigger.get_Enabled
  - ITrigger.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

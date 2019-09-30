@@ -38,7 +38,6 @@ api_location:
 - filtereg.h
 api_name:
 - ILoadFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

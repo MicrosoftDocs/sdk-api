@@ -38,7 +38,6 @@ api_location:
  - DXGI1_6.h
 api_name:
  - DXGI_ADAPTER_DESC3
-product: Windows
 targetos: Windows
 req.typenames: DXGI_ADAPTER_DESC3
 req.redist: 

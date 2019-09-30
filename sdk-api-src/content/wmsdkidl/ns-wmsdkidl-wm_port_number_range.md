@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_PORT_NUMBER_RANGE
-product: Windows
 targetos: Windows
 req.typenames: WM_PORT_NUMBER_RANGE
 req.redist: 

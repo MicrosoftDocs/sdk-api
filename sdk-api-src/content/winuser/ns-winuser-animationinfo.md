@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - ANIMATIONINFO
-product: Windows
 targetos: Windows
 req.typenames: ANIMATIONINFO, *LPANIMATIONINFO
 req.redist: 

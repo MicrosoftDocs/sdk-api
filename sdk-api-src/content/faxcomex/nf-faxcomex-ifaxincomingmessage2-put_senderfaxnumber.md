@@ -42,7 +42,6 @@ api_name:
  - IFaxIncomingMessage2.put_SenderFaxNumber
  - IFaxIncomingMessage2.get_SenderFaxNumber
  - IFaxIncomingMessage2.put_SenderFaxNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

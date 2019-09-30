@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - ListBox_GetTextLen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

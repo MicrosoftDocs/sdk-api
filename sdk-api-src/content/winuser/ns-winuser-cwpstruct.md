@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CWPSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CWPSTRUCT, *PCWPSTRUCT, *NPCWPSTRUCT, *LPCWPSTRUCT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidAudioRendererDevices.Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

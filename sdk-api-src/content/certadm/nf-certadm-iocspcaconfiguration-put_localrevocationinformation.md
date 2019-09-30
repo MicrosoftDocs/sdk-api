@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.LocalRevocationInformation
  - IOCSPCAConfiguration.get_LocalRevocationInformation
  - IOCSPCAConfiguration.put_LocalRevocationInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

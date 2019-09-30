@@ -38,7 +38,6 @@ api_location:
  - D2D1.dll
 api_name:
  - ID2D1EffectContext1.CreateLookupTable3D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

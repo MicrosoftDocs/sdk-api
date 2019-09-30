@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - DETACH_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DETACH_VIRTUAL_DISK_FLAG
 req.redist: 

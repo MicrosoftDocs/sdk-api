@@ -38,7 +38,6 @@ api_location:
 - WinEfs.h
 api_name:
 - ENCRYPTION_CERTIFICATE_LIST
-product: Windows
 targetos: Windows
 req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
 req.redist: 

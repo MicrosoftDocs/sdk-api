@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDGETPOLARITYOUTINFO
-product: Windows
 targetos: Windows
 req.typenames: DDGETPOLARITYOUTINFO, *PDDGETPOLARITYOUTINFO
 req.redist: 

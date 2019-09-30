@@ -38,7 +38,6 @@ api_location:
 - ksopmapi.h
 api_name:
 - OPM_REQUESTED_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: OPM_REQUESTED_INFORMATION
 req.redist: 

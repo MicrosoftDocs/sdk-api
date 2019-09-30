@@ -38,7 +38,6 @@ api_location:
 - Authz.dll
 api_name:
 - AuthzInitializeRemoteResourceManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

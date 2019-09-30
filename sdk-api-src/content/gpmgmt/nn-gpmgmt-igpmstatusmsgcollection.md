@@ -43,7 +43,6 @@ api_name:
  - IGPMStatusMsgCollection.Item
  - IGPMStatusMsgCollection.get_Item
  - GPMStatusMsgCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

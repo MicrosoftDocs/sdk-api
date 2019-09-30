@@ -40,7 +40,6 @@ api_name:
 - WSASetService
 - WSASetServiceA
 - WSASetServiceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

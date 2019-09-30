@@ -39,7 +39,6 @@ api_location:
  - ntdll.dll
 api_name:
  - IsWindowsServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

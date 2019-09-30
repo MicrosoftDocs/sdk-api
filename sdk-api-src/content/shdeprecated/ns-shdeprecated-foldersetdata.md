@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - FOLDERSETDATA
-product: Windows
 targetos: Windows
 req.typenames: FOLDERSETDATA, *LPFOLDERSETDATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Madcapcl.h
 api_name:
 - MCAST_SCOPE_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
 req.redist: 

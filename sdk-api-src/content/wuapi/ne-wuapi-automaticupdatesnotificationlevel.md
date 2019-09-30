@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutomaticUpdatesNotificationLevel
-product: Windows
 targetos: Windows
 req.typenames: AutomaticUpdatesNotificationLevel
 req.redist: 

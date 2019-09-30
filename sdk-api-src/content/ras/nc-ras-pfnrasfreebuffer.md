@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - RasFreeBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -49,7 +49,6 @@ api_name:
  - PeekMessage
  - PeekMessageA
  - PeekMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

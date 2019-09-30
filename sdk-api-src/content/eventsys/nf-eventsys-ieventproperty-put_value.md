@@ -40,7 +40,6 @@ api_name:
  - IEventProperty.Value
  - IEventProperty.get_Value
  - IEventProperty.put_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

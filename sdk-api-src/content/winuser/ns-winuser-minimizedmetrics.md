@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MINIMIZEDMETRICS
-product: Windows
 targetos: Windows
 req.typenames: MINIMIZEDMETRICS, *PMINIMIZEDMETRICS, *LPMINIMIZEDMETRICS
 req.redist: 

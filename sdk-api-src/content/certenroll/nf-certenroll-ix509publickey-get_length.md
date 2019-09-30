@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PublicKey.Length
  - IX509PublicKey.get_Length
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS
-product: Windows
 targetos: Windows
 ---
 

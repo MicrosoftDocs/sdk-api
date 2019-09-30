@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionItemProvider.SelectionContainer
  - ISelectionItemProvider.get_SelectionContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

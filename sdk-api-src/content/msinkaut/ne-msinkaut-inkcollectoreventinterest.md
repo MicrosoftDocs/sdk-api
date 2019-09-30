@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkCollectorEventInterest
-product: Windows
 targetos: Windows
 req.typenames: InkCollectorEventInterest
 req.redist: 

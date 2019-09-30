@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_Renderer
  - InkPicture.get_Renderer
  - InkPicture.put_Renderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

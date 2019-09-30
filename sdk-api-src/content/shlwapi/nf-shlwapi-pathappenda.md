@@ -44,7 +44,6 @@ api_name:
  - PathAppend
  - PathAppendA
  - PathAppendW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

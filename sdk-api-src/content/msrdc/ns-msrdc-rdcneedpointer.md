@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RdcNeedPointer
-product: Windows
 targetos: Windows
 req.typenames: RdcNeedPointer
 req.redist: 

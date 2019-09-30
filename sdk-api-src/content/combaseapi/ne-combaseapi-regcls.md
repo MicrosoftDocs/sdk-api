@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - REGCLS
-product: Windows
 targetos: Windows
 req.typenames: REGCLS
 req.redist: 

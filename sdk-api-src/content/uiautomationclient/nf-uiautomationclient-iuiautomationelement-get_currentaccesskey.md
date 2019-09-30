@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentAccessKey
  - IUIAutomationElement.get_CurrentAccessKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

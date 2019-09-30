@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDragPattern.CurrentDropEffect
  - IUIAutomationDragPattern.get_CurrentDropEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

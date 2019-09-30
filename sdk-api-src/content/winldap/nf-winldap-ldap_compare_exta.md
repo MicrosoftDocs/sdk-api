@@ -40,7 +40,6 @@ api_name:
  - ldap_compare_ext
  - ldap_compare_extA
  - ldap_compare_extW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - EnumProtocols
 - EnumProtocolsA
 - EnumProtocolsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

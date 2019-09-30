@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SP_POWERMESSAGEWAKE_PARAMS
  - sp_powermessagewake_params_w
-product: Windows
 targetos: Windows
 req.typenames: SP_POWERMESSAGEWAKE_PARAMS_W, *PSP_POWERMESSAGEWAKE_PARAMS_W
 req.redist: 

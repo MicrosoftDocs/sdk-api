@@ -38,7 +38,6 @@ api_location:
  - Httpapi.dll
 api_name:
  - HttpCreateRequestQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

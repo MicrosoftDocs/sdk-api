@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Enrollment.Certificate
  - IX509Enrollment.get_Certificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

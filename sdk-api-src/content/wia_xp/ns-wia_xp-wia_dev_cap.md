@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DEV_CAP
-product: Windows
 targetos: Windows
 req.typenames: WIA_DEV_CAP, *PWIA_DEV_CAP, WIA_EVENT_HANDLER, *PWIA_EVENT_HANDLER
 req.redist: 

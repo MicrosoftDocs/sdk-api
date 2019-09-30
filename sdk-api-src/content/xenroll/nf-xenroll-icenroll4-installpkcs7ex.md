@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICEnroll4.InstallPKCS7Ex
  - CEnroll.InstallPKCS7Ex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

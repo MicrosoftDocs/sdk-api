@@ -37,7 +37,6 @@ api_location:
 - 
 api_name:
 - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
 req.redist: 

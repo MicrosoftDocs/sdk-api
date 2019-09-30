@@ -38,7 +38,6 @@ api_location:
  - Fwpmu.h
 api_name:
  - FWPM_SYSTEM_PORTS_CALLBACK0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

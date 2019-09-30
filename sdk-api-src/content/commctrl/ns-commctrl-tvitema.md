@@ -40,7 +40,6 @@ api_name:
  - TVITEM
  - TVITEMA
  - TVITEMW
-product: Windows
 targetos: Windows
 req.typenames: TVITEMA, *LPTVITEMA
 req.redist: 

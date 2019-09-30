@@ -40,7 +40,6 @@ api_name:
 - GetUrlCacheEntryInfoEx
 - GetUrlCacheEntryInfoExA
 - GetUrlCacheEntryInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

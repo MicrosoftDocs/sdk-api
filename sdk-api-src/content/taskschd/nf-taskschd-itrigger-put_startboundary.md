@@ -40,7 +40,6 @@ api_name:
  - ITrigger.StartBoundary
  - ITrigger.get_StartBoundary
  - ITrigger.put_StartBoundary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_BorderStyle
  - InkEdit.get_BorderStyle
  - InkEdit.put_BorderStyle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

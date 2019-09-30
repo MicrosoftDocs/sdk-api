@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIApplicationList._NewEnum
  - IRDPSRAPIApplicationList.get__NewEnum
  - RDPSRAPIApplicationList._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

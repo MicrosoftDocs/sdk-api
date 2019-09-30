@@ -40,7 +40,6 @@ api_name:
  - FtpPutFile
  - FtpPutFileA
  - FtpPutFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

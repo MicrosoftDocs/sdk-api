@@ -38,7 +38,6 @@ api_location:
  - timezoneapi.h
 api_name:
  - TIME_ZONE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, *LPTIME_ZONE_INFORMATION
 req.redist: 

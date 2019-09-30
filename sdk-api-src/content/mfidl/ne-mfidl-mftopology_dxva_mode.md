@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFTOPOLOGY_DXVA_MODE
-product: Windows
 targetos: Windows
 req.typenames: MFTOPOLOGY_DXVA_MODE
 req.redist: 

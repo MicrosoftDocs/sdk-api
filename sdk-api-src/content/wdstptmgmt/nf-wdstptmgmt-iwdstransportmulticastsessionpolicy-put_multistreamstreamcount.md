@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
  - IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
  - IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

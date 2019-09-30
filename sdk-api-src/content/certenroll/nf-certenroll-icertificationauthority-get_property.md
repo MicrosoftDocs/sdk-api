@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertificationAuthority.Property
  - ICertificationAuthority.get_Property
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

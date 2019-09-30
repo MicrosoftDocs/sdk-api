@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_TextRTF
  - InkEdit.get_TextRTF
  - InkEdit.put_TextRTF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

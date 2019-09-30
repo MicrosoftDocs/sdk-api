@@ -39,7 +39,6 @@ api_location:
 - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
 - BluetoothGATTGetDescriptorValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

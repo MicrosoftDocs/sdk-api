@@ -50,7 +50,6 @@ api_name:
  - SetProp
  - SetPropA
  - SetPropW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

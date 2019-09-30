@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentOrientation
  - IUIAutomationElement.get_CurrentOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

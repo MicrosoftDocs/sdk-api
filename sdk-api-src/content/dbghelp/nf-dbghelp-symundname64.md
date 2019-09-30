@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SymUnDName64
 - SymUnDName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

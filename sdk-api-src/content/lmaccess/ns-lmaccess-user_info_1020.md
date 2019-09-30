@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - USER_INFO_1020
-product: Windows
 targetos: Windows
 req.typenames: USER_INFO_1020, *PUSER_INFO_1020, *LPUSER_INFO_1020
 req.redist: 

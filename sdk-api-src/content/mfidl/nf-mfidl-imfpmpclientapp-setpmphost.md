@@ -39,7 +39,6 @@ api_location:
  - Mfidl.idl
 api_name:
  - IMFPMPClientApp.SetPMPHost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComCat.h
 api_name:
  - ICatInformation.EnumImplCategoriesOfClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

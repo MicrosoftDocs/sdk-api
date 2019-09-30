@@ -39,7 +39,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetFwAuthorizedApplications.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - CHARRANGE
-product: Windows
 targetos: Windows
 req.typenames: CHARRANGE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - CTRL_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: CTRL_LEVEL
 req.redist: 

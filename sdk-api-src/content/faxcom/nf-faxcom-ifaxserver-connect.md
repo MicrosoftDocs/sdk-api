@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.Connect
  - IFaxServer.Connect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

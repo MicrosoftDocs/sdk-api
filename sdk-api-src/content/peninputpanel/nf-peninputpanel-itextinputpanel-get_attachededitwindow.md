@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_AttachedEditWindow
  - ITextInputPanel.get_AttachedEditWindow
  - ITextInputPanel.put_AttachedEditWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

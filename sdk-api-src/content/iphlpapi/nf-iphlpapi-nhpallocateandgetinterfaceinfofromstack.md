@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - NhpAllocateAndGetInterfaceInfoFromStack
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

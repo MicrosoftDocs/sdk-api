@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - PKU2U_LOGON_SUBMIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PKU2U_LOGON_SUBMIT_TYPE, *PPKU2U_LOGON_SUBMIT_TYPE
 req.redist: 

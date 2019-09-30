@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - SYSTEM_POWER_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_CAPABILITIES, *PSYSTEM_POWER_CAPABILITIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msp.h
 api_name:
  - ITMSPAddress.ReceiveTSPData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

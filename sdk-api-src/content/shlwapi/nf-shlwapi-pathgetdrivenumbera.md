@@ -44,7 +44,6 @@ api_name:
  - PathGetDriveNumber
  - PathGetDriveNumberA
  - PathGetDriveNumberW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - NMTBCUSTOMDRAW
-product: Windows
 targetos: Windows
 req.typenames: NMTBCUSTOMDRAW, *LPNMTBCUSTOMDRAW
 req.redist: 

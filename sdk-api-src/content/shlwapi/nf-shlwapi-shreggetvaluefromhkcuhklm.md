@@ -41,7 +41,6 @@ api_location:
  - ShCore.dll
 api_name:
  - SHRegGetValueFromHKCUHKLM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MPRAPI_ADMIN_DLL_CALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: MPRAPI_ADMIN_DLL_CALLBACKS, *PMPRAPI_ADMIN_DLL_CALLBACKS
 req.redist: 

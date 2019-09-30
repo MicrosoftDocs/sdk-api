@@ -40,7 +40,6 @@ api_name:
 - NTMS_PMIDINFORMATION
 - NTMS_PMIDINFORMATIONA
 - NTMS_PMIDINFORMATIONW
-product: Windows
 targetos: Windows
 req.typenames: NTMS_PMIDINFORMATIONA
 req.redist: 

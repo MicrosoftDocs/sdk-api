@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBCONTENTSCOPE
-product: Windows
 targetos: Windows
 req.typenames: DBCONTENTSCOPE
 req.redist: 

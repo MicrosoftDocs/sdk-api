@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRangeValueProvider.SmallChange
  - IRangeValueProvider.get_SmallChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

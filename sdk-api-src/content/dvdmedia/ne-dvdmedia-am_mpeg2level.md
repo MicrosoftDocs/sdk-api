@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_MPEG2Level
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

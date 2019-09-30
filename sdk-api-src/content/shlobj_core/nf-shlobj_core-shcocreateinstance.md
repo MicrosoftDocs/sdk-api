@@ -40,7 +40,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - SHCoCreateInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

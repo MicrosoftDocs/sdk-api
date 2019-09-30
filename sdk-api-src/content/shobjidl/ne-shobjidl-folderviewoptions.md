@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - FOLDERVIEWOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: FOLDERVIEWOPTIONS
 req.redist: 

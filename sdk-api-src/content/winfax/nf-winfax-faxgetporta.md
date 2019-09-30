@@ -41,7 +41,6 @@ api_name:
 - FaxGetPort
 - FaxGetPortA
 - FaxGetPortW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

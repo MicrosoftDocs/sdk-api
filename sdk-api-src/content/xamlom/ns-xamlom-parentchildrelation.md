@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - ParentChildRelation
-product: Windows
 targetos: Windows
 req.typenames: ParentChildRelation
 req.redist: 

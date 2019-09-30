@@ -41,7 +41,6 @@ api_name:
  - IInkDivider.RecognizerContext
  - IInkDivider.get_RecognizerContext
  - InkDivider.get_RecognizerContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

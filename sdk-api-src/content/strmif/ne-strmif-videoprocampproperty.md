@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VideoProcAmpProperty
-product: Windows
 targetos: Windows
 req.typenames: VideoProcAmpProperty
 req.redist: 

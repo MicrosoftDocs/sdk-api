@@ -40,7 +40,6 @@ api_name:
  - IRepetitionPattern.Interval
  - IRepetitionPattern.get_Interval
  - IRepetitionPattern.put_Interval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

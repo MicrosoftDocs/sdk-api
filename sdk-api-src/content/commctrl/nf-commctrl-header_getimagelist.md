@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Header_GetImageList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

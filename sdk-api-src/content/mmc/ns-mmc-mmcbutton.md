@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMCBUTTON
-product: Windows
 targetos: Windows
 req.typenames: MMCBUTTON
 req.redist: 

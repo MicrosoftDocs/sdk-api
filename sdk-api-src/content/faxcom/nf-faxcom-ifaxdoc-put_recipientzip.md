@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientZip
  - IFaxDoc.get_RecipientZip
  - IFaxDoc.put_RecipientZip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

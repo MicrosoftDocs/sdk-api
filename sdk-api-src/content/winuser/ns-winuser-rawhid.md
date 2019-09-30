@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RAWHID
-product: Windows
 targetos: Windows
 req.typenames: RAWHID, *PRAWHID, *LPRAWHID
 req.redist: 

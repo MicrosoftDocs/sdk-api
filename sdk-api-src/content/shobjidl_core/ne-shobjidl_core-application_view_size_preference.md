@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - APPLICATION_VIEW_SIZE_PREFERENCE
-product: Windows
 targetos: Windows
 req.typenames: APPLICATION_VIEW_SIZE_PREFERENCE
 req.redist: 

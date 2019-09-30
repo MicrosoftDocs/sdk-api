@@ -39,7 +39,6 @@ api_location:
  - dxgi.dll
 api_name:
  - IDXGISwapChain2.GetMaximumFrameLatency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

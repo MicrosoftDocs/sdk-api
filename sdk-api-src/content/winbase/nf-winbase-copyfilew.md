@@ -50,7 +50,6 @@ api_name:
  - CopyFile
  - CopyFileA
  - CopyFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

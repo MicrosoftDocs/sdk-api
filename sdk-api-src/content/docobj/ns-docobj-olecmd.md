@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - OLECMD
-product: Windows
 targetos: Windows
 req.typenames: OLECMD
 req.redist: 

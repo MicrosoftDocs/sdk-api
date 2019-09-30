@@ -38,7 +38,6 @@ api_location:
  - RendezvousSession.tlb
 api_name:
  - DRendezvousSessionEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

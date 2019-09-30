@@ -38,7 +38,6 @@ api_location:
  - EhStorAPI.h
 api_name:
  - IEnhancedStorageACT.GetMatchingVolume
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

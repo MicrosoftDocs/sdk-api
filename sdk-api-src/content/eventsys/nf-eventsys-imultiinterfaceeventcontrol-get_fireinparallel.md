@@ -40,7 +40,6 @@ api_name:
  - IMultiInterfaceEventControl.FireInParallel
  - IMultiInterfaceEventControl.get_FireInParallel
  - IMultiInterfaceEventControl.put_FireInParallel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - KNOWNFOLDER_DEFINITION
-product: Windows
 targetos: Windows
 req.typenames: KNOWNFOLDER_DEFINITION
 req.redist: 

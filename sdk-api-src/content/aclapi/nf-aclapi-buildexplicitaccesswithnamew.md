@@ -42,7 +42,6 @@ api_name:
 - BuildExplicitAccessWithName
 - BuildExplicitAccessWithNameA
 - BuildExplicitAccessWithNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - CreateNtmsMediaPool
  - CreateNtmsMediaPoolA
  - CreateNtmsMediaPoolW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

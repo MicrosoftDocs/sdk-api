@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.Descender
  - IInkRecognitionAlternate.get_Descender
  - IInkRecognitionAlternate.get_Descender
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

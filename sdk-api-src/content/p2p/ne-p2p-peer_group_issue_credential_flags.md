@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_GROUP_ISSUE_CREDENTIAL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS
 req.redist: 

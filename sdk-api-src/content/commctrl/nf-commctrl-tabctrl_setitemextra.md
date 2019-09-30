@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TabCtrl_SetItemExtra
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

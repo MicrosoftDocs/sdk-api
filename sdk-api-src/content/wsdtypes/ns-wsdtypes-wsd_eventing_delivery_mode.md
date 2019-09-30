@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_EVENTING_DELIVERY_MODE
-product: Windows
 targetos: Windows
 req.typenames: WSD_EVENTING_DELIVERY_MODE
 req.redist: 

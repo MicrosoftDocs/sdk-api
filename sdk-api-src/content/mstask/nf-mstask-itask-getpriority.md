@@ -38,7 +38,6 @@ api_location:
  - Mstask.dll
 api_name:
  - ITask.GetPriority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
 - IMFAttributes.GetDouble
 - IMFActivate.GetDouble
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

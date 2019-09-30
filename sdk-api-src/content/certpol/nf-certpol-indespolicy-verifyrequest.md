@@ -38,7 +38,6 @@ api_location:
  - certpol.h
 api_name:
  - INDESPolicy.VerifyRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

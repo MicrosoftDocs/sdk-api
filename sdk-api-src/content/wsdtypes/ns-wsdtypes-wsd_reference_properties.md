@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_REFERENCE_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: WSD_REFERENCE_PROPERTIES
 req.redist: 

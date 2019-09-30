@@ -38,7 +38,6 @@ api_location:
  - sbe.h
 api_name:
  - ISBE2StreamMap.MapStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

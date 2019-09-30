@@ -44,7 +44,6 @@ api_name:
  - UrlGetPart
  - UrlGetPartA
  - UrlGetPartW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

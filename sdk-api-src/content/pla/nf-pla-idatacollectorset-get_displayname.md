@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.DisplayName
  - IDataCollectorSet.get_DisplayName
  - IDataCollectorSet.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

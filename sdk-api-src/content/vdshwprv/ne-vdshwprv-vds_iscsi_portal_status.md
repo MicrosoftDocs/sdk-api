@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_ISCSI_PORTAL_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VDS_ISCSI_PORTAL_STATUS
 req.redist: VDS 1.1

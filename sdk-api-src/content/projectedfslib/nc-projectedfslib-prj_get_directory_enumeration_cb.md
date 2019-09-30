@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_GET_DIRECTORY_ENUMERATION_CB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

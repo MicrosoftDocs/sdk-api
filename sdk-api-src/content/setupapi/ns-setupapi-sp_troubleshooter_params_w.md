@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SP_TROUBLESHOOTER_PARAMS
  - sp_troubleshooter_params_w
-product: Windows
 targetos: Windows
 req.typenames: SP_TROUBLESHOOTER_PARAMS_W, *PSP_TROUBLESHOOTER_PARAMS_W
 req.redist: 

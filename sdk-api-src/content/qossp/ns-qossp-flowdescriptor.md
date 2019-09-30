@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - FLOWDESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: FLOWDESCRIPTOR, *LPFLOWDESCRIPTOR
 req.redist: 

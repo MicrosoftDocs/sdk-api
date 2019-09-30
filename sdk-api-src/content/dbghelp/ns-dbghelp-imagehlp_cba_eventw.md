@@ -40,7 +40,6 @@ api_name:
  - IMAGEHLP_CBA_EVENT
  - IMAGEHLP_CBA_EVENT
  - IMAGEHLP_CBA_EVENTW
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_EVENTW, *PIMAGEHLP_CBA_EVENTW
 req.redist: DbgHelp.dll 6.1 or later

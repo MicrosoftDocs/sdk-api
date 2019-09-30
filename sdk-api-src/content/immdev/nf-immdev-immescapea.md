@@ -42,7 +42,6 @@ api_name:
  - ImmEscape
  - ImmEscapeA
  - ImmEscapeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

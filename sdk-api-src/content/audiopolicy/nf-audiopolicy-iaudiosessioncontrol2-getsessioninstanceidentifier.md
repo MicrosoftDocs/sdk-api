@@ -38,7 +38,6 @@ api_location:
  - audiopolicy.h
 api_name:
  - IAudioSessionControl2.GetSessionInstanceIdentifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

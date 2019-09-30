@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_DefaultInPlaceState
  - ITextInputPanel.get_DefaultInPlaceState
  - ITextInputPanel.put_DefaultInPlaceState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.Baseline
  - IInkRecognitionAlternate.get_Baseline
  - IInkRecognitionAlternate.get_Baseline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

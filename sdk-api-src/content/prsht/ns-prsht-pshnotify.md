@@ -38,7 +38,6 @@ api_location:
 - Prsht.h
 api_name:
 - PSHNOTIFY
-product: Windows
 targetos: Windows
 req.typenames: PSHNOTIFY, *LPPSHNOTIFY
 req.redist: 

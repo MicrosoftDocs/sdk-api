@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.ApplicationName
  - INetFwRule.get_ApplicationName
  - INetFwRule.put_ApplicationName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

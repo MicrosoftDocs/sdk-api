@@ -40,7 +40,6 @@ api_name:
  - IUpdateCollection.Item
  - IUpdateCollection.get_Item
  - IUpdateCollection.put_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

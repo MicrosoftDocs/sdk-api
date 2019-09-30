@@ -38,7 +38,6 @@ api_location:
  - intsafe.h
 api_name:
  - LongLongToUInt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

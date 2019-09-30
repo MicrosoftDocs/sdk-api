@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - SmartCardStatusType
-product: Windows
 targetos: Windows
 req.typenames: SmartCardStatusType
 req.redist: 

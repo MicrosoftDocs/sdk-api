@@ -38,7 +38,6 @@ api_location:
  - ddrawint.h
 api_name:
  - VIDEOMEMORYINFO
-product: Windows
 targetos: Windows
 req.typenames: VIDEOMEMORYINFO
 req.redist: 

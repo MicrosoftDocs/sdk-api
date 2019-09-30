@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HHNTRACK
-product: Windows
 targetos: Windows
 req.typenames: HHNTRACK
 req.redist: 

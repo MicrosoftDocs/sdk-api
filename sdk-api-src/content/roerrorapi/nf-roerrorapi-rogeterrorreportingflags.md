@@ -44,7 +44,6 @@ api_location:
 api_name:
  - RoGetErrorReportingFlags
  - WinRTGetErrorReportingFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

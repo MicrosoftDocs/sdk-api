@@ -38,7 +38,6 @@ api_location:
  - Txlogpub.h
 api_name:
  - ILog.ReadRecord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendee.RemoteName
  - IRDPSRAPIAttendee.get_RemoteName
  - RDPSRAPIAttendee.RemoteName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

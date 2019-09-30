@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - MEM_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: MEM_RESOURCE, *PMEM_RESOURCE
 req.redist: 

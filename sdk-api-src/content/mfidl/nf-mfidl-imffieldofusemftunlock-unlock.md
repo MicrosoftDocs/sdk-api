@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFFieldOfUseMFTUnlock.Unlock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

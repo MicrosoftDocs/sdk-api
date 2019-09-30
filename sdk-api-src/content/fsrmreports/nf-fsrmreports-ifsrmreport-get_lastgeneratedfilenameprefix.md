@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReport.LastGeneratedFileNamePrefix
  - IFsrmReport.get_LastGeneratedFileNamePrefix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

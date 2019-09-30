@@ -40,7 +40,6 @@ api_name:
  - TTHITTESTINFO
  - TTHITTESTINFOA
  - TTHITTESTINFOW
-product: Windows
 targetos: Windows
 req.typenames: TTHITTESTINFOW, *LPTTHITTESTINFOW
 req.redist: 

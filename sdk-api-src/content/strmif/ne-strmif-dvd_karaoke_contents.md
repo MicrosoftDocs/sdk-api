@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_KARAOKE_CONTENTS
-product: Windows
 targetos: Windows
 req.typenames: DVD_KARAOKE_CONTENTS
 req.redist: 

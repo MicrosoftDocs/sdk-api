@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_FONTUNDERLINE
-product: Windows
 targetos: Windows
 req.typenames: UI_FONTUNDERLINE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRecognitionModes
-product: Windows
 targetos: Windows
 req.typenames: InkRecognitionModes
 req.redist: 

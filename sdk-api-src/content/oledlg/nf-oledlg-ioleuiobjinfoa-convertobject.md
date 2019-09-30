@@ -40,7 +40,6 @@ api_name:
  - IOleUIObjInfo.ConvertObject
  - IOleUIObjInfoW.ConvertObject
  - IOleUIObjInfoA.ConvertObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

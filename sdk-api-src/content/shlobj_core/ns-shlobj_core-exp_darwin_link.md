@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - EXP_DARWIN_LINK
-product: Windows
 targetos: Windows
 req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
 req.redist: 

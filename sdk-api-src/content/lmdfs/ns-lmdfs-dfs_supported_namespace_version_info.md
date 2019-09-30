@@ -38,7 +38,6 @@ api_location:
  - LmDfs.h
 api_name:
  - DFS_SUPPORTED_NAMESPACE_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: DFS_SUPPORTED_NAMESPACE_VERSION_INFO, *PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
 req.redist: 

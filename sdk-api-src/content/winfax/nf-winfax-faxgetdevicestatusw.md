@@ -41,7 +41,6 @@ api_name:
 - FaxGetDeviceStatus
 - FaxGetDeviceStatusA
 - FaxGetDeviceStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

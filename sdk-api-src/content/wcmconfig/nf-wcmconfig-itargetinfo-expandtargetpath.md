@@ -38,7 +38,6 @@ api_location:
  - SMIEngine.dll
 api_name:
  - ITargetInfo.ExpandTargetPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

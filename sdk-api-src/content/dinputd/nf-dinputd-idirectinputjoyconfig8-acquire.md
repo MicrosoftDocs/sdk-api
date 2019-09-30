@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - IDirectInputJoyConfig8.Acquire
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

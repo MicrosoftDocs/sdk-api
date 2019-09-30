@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - IRequestFilteredSync.SpecifyFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

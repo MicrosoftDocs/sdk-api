@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelInksDisplayMode
  - InkEdit.get_SelInksDisplayMode
  - InkEdit.put_SelInksDisplayMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

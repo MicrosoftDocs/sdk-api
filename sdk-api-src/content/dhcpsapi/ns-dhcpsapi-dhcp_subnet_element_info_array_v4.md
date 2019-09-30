@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, *LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - GlobalAddAtomEx
  - GlobalAddAtomExA
  - GlobalAddAtomExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

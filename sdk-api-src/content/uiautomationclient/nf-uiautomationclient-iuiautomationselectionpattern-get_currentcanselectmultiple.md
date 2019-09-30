@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionPattern.CurrentCanSelectMultiple
  - IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

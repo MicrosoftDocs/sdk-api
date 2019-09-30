@@ -40,7 +40,6 @@ api_name:
 - PFAXOPENPORT
 - FaxOpenPortA
 - FaxOpenPortW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, *PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 req.redist: 

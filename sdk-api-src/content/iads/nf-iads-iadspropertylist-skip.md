@@ -38,7 +38,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsPropertyList.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

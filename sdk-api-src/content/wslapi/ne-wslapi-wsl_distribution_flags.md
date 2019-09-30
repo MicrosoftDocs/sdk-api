@@ -38,7 +38,6 @@ api_location:
  - wslapi.h
 api_name:
  - WSL_DISTRIBUTION_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WSL_DISTRIBUTION_FLAGS
 req.redist: 

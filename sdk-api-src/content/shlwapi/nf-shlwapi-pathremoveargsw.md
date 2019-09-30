@@ -42,7 +42,6 @@ api_name:
  - PathRemoveArgs
  - PathRemoveArgsA
  - PathRemoveArgsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

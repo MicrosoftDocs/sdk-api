@@ -38,7 +38,6 @@ api_location:
 - VsMgmt.h
 api_name:
 - IVssEnumMgmtObject.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

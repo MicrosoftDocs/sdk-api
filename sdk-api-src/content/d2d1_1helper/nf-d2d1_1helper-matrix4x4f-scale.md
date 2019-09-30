@@ -38,7 +38,6 @@ api_location:
  - d2d1_1helper.h
 api_name:
  - Matrix4x4F.Scale
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

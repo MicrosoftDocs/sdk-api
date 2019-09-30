@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_FLOW_FUNDAMENTALS
-product: Windows
 targetos: Windows
 req.typenames: QOS_FLOW_FUNDAMENTALS, *PQOS_FLOW_FUNDAMENTALS
 req.redist: 

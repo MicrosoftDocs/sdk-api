@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IMcastLeaseInfo.get_TTL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

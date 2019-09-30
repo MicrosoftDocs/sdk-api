@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADAPTER_PREFIX
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_PREFIX_XP, *PIP_ADAPTER_PREFIX_XP
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - NapComponentRegistrationInfo
-product: Windows
 targetos: Windows
 req.typenames: NapComponentRegistrationInfo
 req.redist: 

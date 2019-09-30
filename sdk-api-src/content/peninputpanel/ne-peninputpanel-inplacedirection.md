@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - InPlaceDirection
-product: Windows
 targetos: Windows
 req.typenames: InPlaceDirection
 req.redist: 

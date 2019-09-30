@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - EXPAND_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: EXPAND_VIRTUAL_DISK_FLAG
 req.redist: 

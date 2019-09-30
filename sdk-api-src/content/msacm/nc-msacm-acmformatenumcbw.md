@@ -40,7 +40,6 @@ api_name:
  - ACMFORMATENUMCB
  - ACMFORMATENUMCBA
  - ACMFORMATENUMCBW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRMixerPrefs
-product: Windows
 targetos: Windows
 req.typenames: VMRMixerPrefs
 req.redist: 

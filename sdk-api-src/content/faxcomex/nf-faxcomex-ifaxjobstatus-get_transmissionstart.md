@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.TransmissionStart
  - IFaxJobStatus.get_TransmissionStart
  - IFaxJobStatus.get_TransmissionStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

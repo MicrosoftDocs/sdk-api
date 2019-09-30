@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - TS_SB_SORT_BY
-product: Windows
 targetos: Windows
 req.typenames: TS_SB_SORT_BY
 req.redist: 

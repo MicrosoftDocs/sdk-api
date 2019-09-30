@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBSLocator.get_SignalPolarisation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

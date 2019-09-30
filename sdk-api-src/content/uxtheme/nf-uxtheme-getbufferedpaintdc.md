@@ -38,7 +38,6 @@ api_location:
  - UxTheme.dll
 api_name:
  - GetBufferedPaintDC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

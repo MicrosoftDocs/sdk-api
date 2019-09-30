@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WSPAccept
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

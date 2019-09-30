@@ -38,7 +38,6 @@ api_location:
  - mfcaptureengine.h
 api_name:
  - IMFCaptureEngineOnSampleCallback.OnSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

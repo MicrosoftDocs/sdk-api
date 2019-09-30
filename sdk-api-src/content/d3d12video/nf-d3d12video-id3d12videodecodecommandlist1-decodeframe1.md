@@ -35,7 +35,6 @@ api_location:
  - d3d12.dll
 api_name:
  - ID3D12VideoDecodeCommandList1::DecodeFrame1
-product: Windows
 targetos: Windows
 
 ---

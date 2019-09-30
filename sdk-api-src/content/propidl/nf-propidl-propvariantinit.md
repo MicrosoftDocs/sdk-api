@@ -38,7 +38,6 @@ api_location:
  - PropIdl.h
 api_name:
  - PropVariantInit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

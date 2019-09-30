@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - REPAIR_COPIES_INPUT
-product: Windows
 targetos: Windows
 req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
 req.redist: 

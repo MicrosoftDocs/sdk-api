@@ -38,7 +38,6 @@ api_location:
 - EapTypes.h
 api_name:
 - EAP_METHOD_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY
 req.redist: 

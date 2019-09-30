@@ -38,7 +38,6 @@ api_location:
  - Tuner.h
 api_name:
  - IScanningTunerEx.SetScanSignalTypeFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

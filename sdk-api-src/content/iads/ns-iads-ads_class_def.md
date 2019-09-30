@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_CLASS_DEF
-product: Windows
 targetos: Windows
 req.typenames: ADS_CLASS_DEF, *PADS_CLASS_DEF
 req.redist: 

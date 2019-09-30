@@ -40,7 +40,6 @@ api_name:
  - ICertExit2.Initialize
  - ICertExit.Initialize
  - CCertExit.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

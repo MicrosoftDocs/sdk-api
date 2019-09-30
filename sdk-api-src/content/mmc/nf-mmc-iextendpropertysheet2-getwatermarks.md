@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - IExtendPropertySheet2.GetWatermarks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

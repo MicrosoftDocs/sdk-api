@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - ID3D11VideoDevice.CreateVideoDecoder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

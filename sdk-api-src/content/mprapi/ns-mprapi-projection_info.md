@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - PROJECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROJECTION_INFO, *PPROJECTION_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - VbInterf.h
 api_name:
  - IGetOleObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

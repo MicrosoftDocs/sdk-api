@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_LM20_LOGON_PROFILE
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LM20_LOGON_PROFILE, *PMSV1_0_LM20_LOGON_PROFILE
 req.redist: 

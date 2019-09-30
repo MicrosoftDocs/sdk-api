@@ -38,7 +38,6 @@ api_location:
  - msxml6.h
 api_name:
  - XHR_COOKIE_STATE
-product: Windows
 targetos: Windows
 req.typenames: XHR_COOKIE_STATE
 req.redist: 

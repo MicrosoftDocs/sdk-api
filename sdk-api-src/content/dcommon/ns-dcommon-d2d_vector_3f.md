@@ -39,7 +39,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D1_VECTOR_3F
-product: Windows
 targetos: Windows
 req.typenames: D2D_VECTOR_3F
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WdsPxe.dll
 api_name:
  - PxeDhcpv6CreateRelayRepl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

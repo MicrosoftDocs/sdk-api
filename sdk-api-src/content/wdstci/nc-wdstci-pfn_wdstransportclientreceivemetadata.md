@@ -38,7 +38,6 @@ api_location:
  - Wdstci.h
 api_name:
  - PFN_WdsTransportClientReceiveMetadata
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

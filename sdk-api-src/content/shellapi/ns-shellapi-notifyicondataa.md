@@ -39,7 +39,6 @@ api_location:
 api_name:
  - NOTIFYICONDATA
  - NOTIFYICONDATAA
-product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - TCP_CONNECTION_OFFLOAD_STATE
-product: Windows
 targetos: Windows
 req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
 req.redist: 

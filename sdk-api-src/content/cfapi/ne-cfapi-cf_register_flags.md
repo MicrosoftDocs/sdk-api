@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_REGISTER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_REGISTER_FLAGS
 req.redist: 

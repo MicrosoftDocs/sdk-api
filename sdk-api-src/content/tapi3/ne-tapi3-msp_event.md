@@ -38,7 +38,6 @@ api_location:
  - msp.h
 api_name:
  - MSP_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MSP_EVENT
 req.redist: 

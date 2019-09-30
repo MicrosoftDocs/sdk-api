@@ -38,7 +38,6 @@ api_location:
  - tiptsf.dll
 api_name:
  - ITextInputPanelEventSink.TextInserted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

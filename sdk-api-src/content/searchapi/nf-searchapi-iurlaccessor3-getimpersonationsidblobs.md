@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUrlAccessor3.GetImpersonationSidBlobs
  - IUrlAccessor4.GetImpersonationSidBlobs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

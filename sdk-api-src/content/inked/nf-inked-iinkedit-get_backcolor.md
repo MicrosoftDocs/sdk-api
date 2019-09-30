@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_BackColor
  - InkEdit.get_BackColor
  - InkEdit.put_BackColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

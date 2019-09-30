@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITAgentHandler.CreateAgentWithID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

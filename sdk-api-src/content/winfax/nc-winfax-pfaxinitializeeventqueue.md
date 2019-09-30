@@ -40,7 +40,6 @@ api_name:
 - PFAXINITIALIZEEVENTQUEUE
 - FaxInitializeEventQueueA
 - FaxInitializeEventQueueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

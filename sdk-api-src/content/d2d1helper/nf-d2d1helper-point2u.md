@@ -38,7 +38,6 @@ api_location:
  - D2d1.dll
 api_name:
  - Point2U
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

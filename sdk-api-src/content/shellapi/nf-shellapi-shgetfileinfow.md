@@ -45,7 +45,6 @@ api_name:
 - SHGetFileInfo
 - SHGetFileInfoA
 - SHGetFileInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

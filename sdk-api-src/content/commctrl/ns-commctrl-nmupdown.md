@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMUPDOWN
-product: Windows
 targetos: Windows
 req.typenames: NMUPDOWN, *LPNMUPDOWN
 req.redist: 

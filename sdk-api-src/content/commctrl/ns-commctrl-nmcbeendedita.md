@@ -40,7 +40,6 @@ api_name:
 - NMCBEENDEDIT
 - NMCBEENDEDITA
 - NMCBEENDEDITW
-product: Windows
 targetos: Windows
 req.typenames: NMCBEENDEDITA, *LPNMCBEENDEDITA, *PNMCBEENDEDITA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_COOKED_URL
-product: Windows
 targetos: Windows
 req.typenames: HTTP_COOKED_URL, *PHTTP_COOKED_URL
 req.redist: 

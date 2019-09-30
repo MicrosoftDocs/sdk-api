@@ -44,7 +44,6 @@ api_name:
  - PathCreateFromUrl
  - PathCreateFromUrlA
  - PathCreateFromUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

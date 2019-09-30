@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - HistogramGrid
-product: Windows
 targetos: Windows
 req.typenames: HistogramGrid
 req.redist: 

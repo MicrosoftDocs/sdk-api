@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TF_DA_ATTR_INFO
-product: Windows
 targetos: Windows
 req.typenames: TF_DA_ATTR_INFO
 req.redist: TSF 1.0 on Windows 2000 Professional

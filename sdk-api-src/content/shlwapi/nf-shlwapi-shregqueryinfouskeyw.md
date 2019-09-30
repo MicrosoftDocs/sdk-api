@@ -42,7 +42,6 @@ api_name:
  - SHRegQueryInfoUSKey
  - SHRegQueryInfoUSKeyA
  - SHRegQueryInfoUSKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

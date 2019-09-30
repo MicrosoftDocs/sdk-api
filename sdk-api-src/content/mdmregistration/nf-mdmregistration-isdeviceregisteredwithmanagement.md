@@ -39,7 +39,6 @@ api_location:
  - MDMRegistration2.dll
 api_name:
  - IsDeviceRegisteredWithManagement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

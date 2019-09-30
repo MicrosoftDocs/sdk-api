@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - FLICKACTION_COMMANDCODE
-product: Windows
 targetos: Windows
 req.typenames: FLICKACTION_COMMANDCODE
 req.redist: 

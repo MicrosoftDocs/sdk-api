@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationStoryboard2.RepeatBetweenKeyframes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - wingdi.h
 api_name:
 - DEVMODEW
-product: Windows
 targetos: Windows
 req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
 req.redist: 

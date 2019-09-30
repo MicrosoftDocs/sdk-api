@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdCreateDirectDrawObject
  - GdiEntry1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

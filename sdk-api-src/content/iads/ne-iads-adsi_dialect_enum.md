@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADSI_DIALECT_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADSI_DIALECT_ENUM
 req.redist: 

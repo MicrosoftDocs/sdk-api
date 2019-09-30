@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Direction
  - INetFwRule.get_Direction
  - INetFwRule.put_Direction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

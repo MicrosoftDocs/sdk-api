@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - INET_PORT_RESERVATION_INSTANCE
-product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RESERVATION_INSTANCE, *PINET_PORT_RESERVATION_INSTANCE
 req.redist: 

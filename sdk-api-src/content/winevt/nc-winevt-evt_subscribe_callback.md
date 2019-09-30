@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_SUBSCRIBE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

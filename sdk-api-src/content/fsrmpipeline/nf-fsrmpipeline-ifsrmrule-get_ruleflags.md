@@ -40,7 +40,6 @@ api_name:
  - IFsrmRule.RuleFlags
  - IFsrmRule.get_RuleFlags
  - IFsrmRule.put_RuleFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

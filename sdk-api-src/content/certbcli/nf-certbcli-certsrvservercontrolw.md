@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CertSrvServerControl
  - CertSrvServerControlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

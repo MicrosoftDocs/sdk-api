@@ -38,7 +38,6 @@ api_location:
  - Winsnmp.h
 api_name:
  - smiOCTETS
-product: Windows
 targetos: Windows
 req.typenames: smiOCTETS, *smiLPOCTETS
 req.redist: 

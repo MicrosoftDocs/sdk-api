@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Scope_list_ipv4
-product: Windows
 targetos: Windows
 req.typenames: Scope_list_ipv4
 req.redist: 

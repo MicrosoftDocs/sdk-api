@@ -38,7 +38,6 @@ api_location:
 - Madcapcl.h
 api_name:
 - MCAST_CLIENT_UID
-product: Windows
 targetos: Windows
 req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
 req.redist: 

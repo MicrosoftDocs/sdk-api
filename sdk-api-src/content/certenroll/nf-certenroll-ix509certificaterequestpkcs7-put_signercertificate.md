@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs7.SignerCertificate
  - IX509CertificateRequestPkcs7.get_SignerCertificate
  - IX509CertificateRequestPkcs7.put_SignerCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CachedIsTopmost
  - IUIAutomationWindowPattern.get_CachedIsTopmost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

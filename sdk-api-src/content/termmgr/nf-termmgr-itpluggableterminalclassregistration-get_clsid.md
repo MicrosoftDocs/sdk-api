@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITPluggableTerminalClassRegistration.get_CLSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

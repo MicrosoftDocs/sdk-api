@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTVITEMCHANGE
-product: Windows
 targetos: Windows
 req.typenames: NMTVITEMCHANGE
 req.redist: 

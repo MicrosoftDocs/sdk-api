@@ -38,7 +38,6 @@ api_location:
  - vidcap.h
 api_name:
  - KSTOPOLOGY_CONNECTION
-product: Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 req.redist: 

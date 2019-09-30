@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - DRM_PLAY_OPL
-product: Windows
 targetos: Windows
 req.typenames: DRM_PLAY_OPL
 req.redist: 

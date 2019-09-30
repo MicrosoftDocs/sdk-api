@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

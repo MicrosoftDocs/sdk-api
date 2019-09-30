@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomation.ReservedNotSupportedValue
  - IUIAutomation.get_ReservedNotSupportedValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

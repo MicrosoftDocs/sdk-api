@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D_MATRIX_5X4_F
-product: Windows
 targetos: Windows
 req.typenames: D2D_MATRIX_5X4_F
 req.redist: 

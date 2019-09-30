@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_HINTS2
-product: Windows
 targetos: Windows
 req.typenames: VDS_HINTS2, *PVDS_HINTS2
 req.redist: 

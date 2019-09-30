@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_MousePointer
  - InkEdit.get_MousePointer
  - InkEdit.put_MousePointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

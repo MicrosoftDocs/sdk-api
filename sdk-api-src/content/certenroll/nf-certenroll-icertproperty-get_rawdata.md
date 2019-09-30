@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertProperty.RawData
  - ICertProperty.get_RawData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

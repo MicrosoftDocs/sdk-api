@@ -38,7 +38,6 @@ api_location:
  - Dciman32.dll
 api_name:
  - DCIBeginAccess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

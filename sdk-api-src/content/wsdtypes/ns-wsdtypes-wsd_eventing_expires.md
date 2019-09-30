@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_EVENTING_EXPIRES
-product: Windows
 targetos: Windows
 req.typenames: WSD_EVENTING_EXPIRES
 req.redist: 

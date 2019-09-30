@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - CONTROLINFO
-product: Windows
 targetos: Windows
 req.typenames: CONTROLINFO, *LPCONTROLINFO
 req.redist: 

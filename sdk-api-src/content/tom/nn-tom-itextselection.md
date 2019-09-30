@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

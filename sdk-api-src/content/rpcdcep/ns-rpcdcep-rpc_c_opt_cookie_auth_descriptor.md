@@ -40,7 +40,6 @@ api_name:
  - RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
  - RPC_CALL_ATTRIBUTES_V1_A
  - RPC_CALL_ATTRIBUTES_V1_W
-product: Windows
 targetos: Windows
 req.typenames: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 req.redist: 

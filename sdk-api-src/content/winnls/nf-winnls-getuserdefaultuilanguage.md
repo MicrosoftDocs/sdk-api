@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
  - GetUserDefaultUILanguage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-power-setting-l1-1-0.dll
 api_name:
  - PowerWriteACValueIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

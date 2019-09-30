@@ -38,7 +38,6 @@ api_location:
 - Winnls.h
 api_name:
 - FILEMUIINFO_GET_MAIN_TYPEIDS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

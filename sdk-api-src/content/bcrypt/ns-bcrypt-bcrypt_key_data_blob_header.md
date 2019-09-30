@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_KEY_DATA_BLOB_HEADER
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_KEY_DATA_BLOB_HEADER, *PBCRYPT_KEY_DATA_BLOB_HEADER
 req.redist: 

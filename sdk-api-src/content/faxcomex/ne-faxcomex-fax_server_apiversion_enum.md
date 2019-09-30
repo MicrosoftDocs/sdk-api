@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_SERVER_APIVERSION_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_SERVER_APIVERSION_ENUM
 req.redist: the value used)

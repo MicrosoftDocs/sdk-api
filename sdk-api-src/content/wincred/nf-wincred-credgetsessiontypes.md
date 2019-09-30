@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
  - CredGetSessionTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wcsplugin.h
 api_name:
  - IDeviceModelPlugIn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Websocket.dll
 api_name:
 - WebSocketGetGlobalProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

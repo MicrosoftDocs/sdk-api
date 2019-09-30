@@ -47,7 +47,6 @@ api_name:
  - Module32Next
  - Module32Next
  - Module32NextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

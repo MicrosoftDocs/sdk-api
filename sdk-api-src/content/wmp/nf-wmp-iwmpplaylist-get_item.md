@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPPlaylist.get_item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMMigrationTable.Save
  - GPMMigrationTable.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

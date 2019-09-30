@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - CustomLineCap.GetBaseCap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

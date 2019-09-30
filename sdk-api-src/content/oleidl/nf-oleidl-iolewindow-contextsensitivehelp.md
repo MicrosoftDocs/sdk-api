@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IOleWindow.ContextSensitiveHelp
  - IOleInPlaceSiteWindowless.ContextSensitiveHelp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

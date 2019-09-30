@@ -40,7 +40,6 @@ api_name:
 - OFNOTIFYEX
 - OFNOTIFYEXA
 - OFNOTIFYEXW
-product: Windows
 targetos: Windows
 req.typenames: OFNOTIFYEXA, *LPOFNOTIFYEXA
 req.redist: 

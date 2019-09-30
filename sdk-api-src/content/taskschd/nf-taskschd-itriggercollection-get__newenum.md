@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITriggerCollection._NewEnum
  - ITriggerCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

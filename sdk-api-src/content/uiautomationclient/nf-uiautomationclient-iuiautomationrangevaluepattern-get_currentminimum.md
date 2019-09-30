@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CurrentMinimum
  - IUIAutomationRangeValuePattern.get_CurrentMinimum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

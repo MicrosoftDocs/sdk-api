@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - INTERACTION_CONTEXT_OUTPUT_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

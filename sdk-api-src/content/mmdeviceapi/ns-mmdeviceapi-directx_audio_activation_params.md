@@ -38,7 +38,6 @@ api_location:
  - Mmdeviceapi.h
 api_name:
  - DIRECTX_AUDIO_ACTIVATION_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
 req.redist: 

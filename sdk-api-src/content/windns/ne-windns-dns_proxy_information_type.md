@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_PROXY_INFORMATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DNS_PROXY_INFORMATION_TYPE
 req.redist: 

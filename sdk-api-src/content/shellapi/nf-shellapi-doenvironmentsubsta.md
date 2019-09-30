@@ -40,7 +40,6 @@ api_name:
  - DoEnvironmentSubst
  - DoEnvironmentSubstA
  - DoEnvironmentSubstW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Evntrace.h
 api_name:
 - TRACE_LOGFILE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: TRACE_LOGFILE_HEADER, *PTRACE_LOGFILE_HEADER
 req.redist: 

@@ -49,7 +49,6 @@ api_name:
  - SetCalendarInfo
  - SetCalendarInfoA
  - SetCalendarInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

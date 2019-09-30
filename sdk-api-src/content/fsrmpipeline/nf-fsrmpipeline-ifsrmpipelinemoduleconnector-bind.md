@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPipelineModuleConnector.Bind
  - FsrmPipelineModuleConnector.Bind
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

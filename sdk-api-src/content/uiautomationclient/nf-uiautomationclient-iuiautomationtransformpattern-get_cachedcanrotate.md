@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern.CachedCanRotate
  - IUIAutomationTransformPattern.get_CachedCanRotate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

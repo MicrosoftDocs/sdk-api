@@ -38,7 +38,6 @@ api_location:
  - dxva2.dll
 api_name:
  - DXVA2CreateDirect3DDeviceManager9
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

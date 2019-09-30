@@ -45,7 +45,6 @@ api_name:
  - CallWindowProc
  - CallWindowProcA
  - CallWindowProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IPipeDouble.Pull
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

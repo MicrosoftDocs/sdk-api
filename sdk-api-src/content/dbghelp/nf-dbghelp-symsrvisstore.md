@@ -40,7 +40,6 @@ api_name:
  - SymSrvIsStore
  - SymSrvIsStore
  - SymSrvIsStoreW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

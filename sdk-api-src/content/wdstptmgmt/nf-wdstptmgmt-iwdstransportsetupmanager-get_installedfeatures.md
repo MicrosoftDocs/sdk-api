@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportSetupManager.InstalledFeatures
  - IWdsTransportSetupManager.get_InstalledFeatures
  - IWdsTransportSetupManager.put_InstalledFeatures
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

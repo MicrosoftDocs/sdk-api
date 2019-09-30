@@ -38,7 +38,6 @@ api_location:
  - gdiplusmatrix.h
 api_name:
  - Matrix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - WMT_PROP_DATATYPE
-product: Windows
 targetos: Windows
 req.typenames: WMT_PROP_DATATYPE
 req.redist: 

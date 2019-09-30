@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_TCPROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCPROW_W2K, *PMIB_TCPROW_W2K
 req.redist: 

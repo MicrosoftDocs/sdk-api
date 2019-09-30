@@ -38,7 +38,6 @@ api_location:
  - Wtsprotocol.h
 api_name:
  - IWTSProtocolLogonErrorRedirector.RedirectLogonError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

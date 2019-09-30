@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - IClosable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellChecker.LocalizedName
  - ISpellChecker.get_LocalizedName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

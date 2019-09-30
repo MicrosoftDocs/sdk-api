@@ -38,7 +38,6 @@ api_location:
  - audioenginebaseapo.h
 api_name:
  - IAudioSystemEffects2.GetEffectsList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

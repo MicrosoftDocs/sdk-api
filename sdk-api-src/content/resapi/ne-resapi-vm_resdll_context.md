@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - VM_RESDLL_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
 req.redist: 

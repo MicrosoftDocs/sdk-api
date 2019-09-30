@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaManager.CreateAutoApplyQuota
  - IFsrmQuotaManagerEx.CreateAutoApplyQuota
  - FsrmQuotaManager.CreateAutoApplyQuota
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

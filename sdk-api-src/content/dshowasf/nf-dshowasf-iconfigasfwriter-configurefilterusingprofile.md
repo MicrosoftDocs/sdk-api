@@ -38,7 +38,6 @@ api_location:
  - Dshowasf.h
 api_name:
  - IConfigAsfWriter.ConfigureFilterUsingProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

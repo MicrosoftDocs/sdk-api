@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMProfileManager2.SetSystemProfileVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

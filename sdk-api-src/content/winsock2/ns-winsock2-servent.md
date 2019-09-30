@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - SERVENT
-product: Windows
 targetos: Windows
 req.typenames: SERVENT, *PSERVENT, *LPSERVENT
 req.redist: 

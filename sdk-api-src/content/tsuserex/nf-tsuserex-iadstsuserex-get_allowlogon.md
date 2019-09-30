@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.AllowLogon
  - IADsTSUserEx.get_AllowLogon
  - IADsTSUserEx.put_AllowLogon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

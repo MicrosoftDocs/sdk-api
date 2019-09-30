@@ -43,7 +43,6 @@ api_name:
  - PathFindSuffixArray
  - PathFindSuffixArrayA
  - PathFindSuffixArrayW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

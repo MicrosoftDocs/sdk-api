@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_REGISTER_ACTIONID
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_REGISTER_ACTIONID, *PCRYPT_REGISTER_ACTIONID
 req.redist: 

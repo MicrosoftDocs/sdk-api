@@ -38,7 +38,6 @@ api_location:
 - httpapi.dll
 api_name:
 - HttpDeclarePush
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - D3D11_TEX1D_RTV
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TEX1D_RTV
 req.redist: 

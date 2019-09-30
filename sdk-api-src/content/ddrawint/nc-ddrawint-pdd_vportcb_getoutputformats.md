@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DdVideoPortGetOutputFormats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

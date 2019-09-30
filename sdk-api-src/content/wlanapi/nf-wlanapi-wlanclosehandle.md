@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
  - WlanCloseHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

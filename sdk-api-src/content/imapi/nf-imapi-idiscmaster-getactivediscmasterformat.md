@@ -38,7 +38,6 @@ api_location:
  - Actxprxy.dll
 api_name:
  - IDiscMaster.GetActiveDiscMasterFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

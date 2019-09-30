@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IATSCLocator2.put_ProgramNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

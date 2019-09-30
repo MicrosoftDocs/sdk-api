@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.FileMaxRecursiveDepth
  - IConfigurationDataCollector.get_FileMaxRecursiveDepth
  - IConfigurationDataCollector.put_FileMaxRecursiveDepth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

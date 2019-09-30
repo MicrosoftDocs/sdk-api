@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.OffersWindowsUpdates
  - IUpdateService.get_OffersWindowsUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

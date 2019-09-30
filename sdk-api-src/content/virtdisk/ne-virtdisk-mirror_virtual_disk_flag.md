@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MIRROR_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: MIRROR_VIRTUAL_DISK_FLAG
 req.redist: 

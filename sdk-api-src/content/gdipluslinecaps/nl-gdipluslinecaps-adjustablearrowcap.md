@@ -38,7 +38,6 @@ api_location:
  - gdipluslinecaps.h
 api_name:
  - AdjustableArrowCap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

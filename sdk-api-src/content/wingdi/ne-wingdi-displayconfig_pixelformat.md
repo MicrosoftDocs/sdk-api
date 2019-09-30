@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_PIXELFORMAT
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PIXELFORMAT
 req.redist: 

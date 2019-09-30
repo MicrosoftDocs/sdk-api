@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_MultiLine
  - InkEdit.get_MultiLine
  - InkEdit.put_MultiLine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

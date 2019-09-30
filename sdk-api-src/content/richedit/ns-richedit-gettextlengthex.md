@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - GETTEXTLENGTHEX
-product: Windows
 targetos: Windows
 req.typenames: GETTEXTLENGTHEX
 req.redist: 

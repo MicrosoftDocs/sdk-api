@@ -40,7 +40,6 @@ api_name:
  - PROFILEINFO
  - PROFILEINFOA
  - PROFILEINFOW
-product: Windows
 targetos: Windows
 req.typenames: PROFILEINFOW, *LPPROFILEINFOW
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ImmGetCompositionFont
  - ImmGetCompositionFontA
  - ImmGetCompositionFontW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

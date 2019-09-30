@@ -38,7 +38,6 @@ api_location:
 - windef.h
 api_name:
 - SIZE
-product: Windows
 targetos: Windows
 req.typenames: SIZE, *PSIZE, *LPSIZE
 req.redist: 

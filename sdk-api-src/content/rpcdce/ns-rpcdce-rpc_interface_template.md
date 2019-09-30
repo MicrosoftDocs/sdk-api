@@ -40,7 +40,6 @@ api_name:
  - RPC_INTERFACE_TEMPLATE
  - RPC_INTERFACE_TEMPLATEA
  - RPC_INTERFACE_TEMPLATEW
-product: Windows
 targetos: Windows
 req.typenames: RPC_INTERFACE_TEMPLATE, *PRPC_INTERFACE_TEMPLATE
 req.redist: 

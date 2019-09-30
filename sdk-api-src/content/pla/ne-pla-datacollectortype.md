@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - DataCollectorType
-product: Windows
 targetos: Windows
 req.typenames: DataCollectorType
 req.redist: 

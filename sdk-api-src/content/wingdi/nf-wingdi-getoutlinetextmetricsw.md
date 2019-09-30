@@ -44,7 +44,6 @@ api_name:
 - GetOutlineTextMetrics
 - GetOutlineTextMetricsA
 - GetOutlineTextMetricsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

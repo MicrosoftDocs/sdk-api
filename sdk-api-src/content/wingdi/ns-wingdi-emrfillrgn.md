@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMRFILLRGN
-product: Windows
 targetos: Windows
 req.typenames: EMRFILLRGN, *PEMRFILLRGN
 req.redist: 

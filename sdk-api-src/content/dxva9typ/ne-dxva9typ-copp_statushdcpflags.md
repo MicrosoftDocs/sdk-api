@@ -38,7 +38,6 @@ api_location:
 - dxva9typ.h
 api_name:
 - COPP_StatusHDCPFlags
-product: Windows
 targetos: Windows
 req.typenames: COPP_StatusHDCPFlags
 req.redist: 

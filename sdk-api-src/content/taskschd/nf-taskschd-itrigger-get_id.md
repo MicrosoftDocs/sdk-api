@@ -40,7 +40,6 @@ api_name:
  - ITrigger.Id
  - ITrigger.get_Id
  - ITrigger.put_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

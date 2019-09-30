@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteGdiInterop.CreateFontFaceFromHdc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCore.dll
 api_name:
  - IUIAutomationWindowPattern
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

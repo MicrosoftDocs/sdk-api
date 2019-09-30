@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - THEME_SIZE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

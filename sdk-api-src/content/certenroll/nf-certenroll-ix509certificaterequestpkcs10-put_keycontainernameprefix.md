@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10.KeyContainerNamePrefix
  - IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
  - IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

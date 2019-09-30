@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFMediaEngineProtectedContent.GetRequiredProtections
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

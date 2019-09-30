@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxBlockMapBlocksEnumerator.GetHasCurrent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

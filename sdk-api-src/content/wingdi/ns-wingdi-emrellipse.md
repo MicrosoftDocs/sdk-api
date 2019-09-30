@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRELLIPSE
-product: Windows
 targetos: Windows
 req.typenames: EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fxsutility.dll
 api_name:
  - SendToFaxRecipient
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

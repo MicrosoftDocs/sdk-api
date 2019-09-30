@@ -12,7 +12,6 @@ ms.topic: interface
 f1_keywords: 
  - "bits10_3/IBackgroundCopyServerCertificateValidationCallback"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

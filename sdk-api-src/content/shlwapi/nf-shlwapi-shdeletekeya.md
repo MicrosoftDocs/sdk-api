@@ -45,7 +45,6 @@ api_name:
  - SHDeleteKey
  - SHDeleteKeyA
  - SHDeleteKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shappmgr.h
 api_name:
  - APPACTIONFLAGS
-product: Windows
 targetos: Windows
 req.typenames: APPACTIONFLAGS
 req.redist: 

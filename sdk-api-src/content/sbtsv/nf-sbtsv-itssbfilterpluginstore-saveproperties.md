@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - ITsSbFilterPluginStore.SaveProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATResultsInfo.SystemRating
  - IProvideWinSATResultsInfo.get_SystemRating
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

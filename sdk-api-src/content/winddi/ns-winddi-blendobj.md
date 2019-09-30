@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - BLENDOBJ
-product: Windows
 targetos: Windows
 req.typenames: BLENDOBJ, *PBLENDOBJ
 req.redist: 

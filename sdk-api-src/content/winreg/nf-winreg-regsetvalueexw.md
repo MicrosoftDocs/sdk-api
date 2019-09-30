@@ -47,7 +47,6 @@ api_name:
  - RegSetValueEx
  - RegSetValueExA
  - RegSetValueExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - ICEnroll3.addCertTypeToRequest
  - ICEnroll2.addCertTypeToRequest
  - CEnroll.addCertTypeToRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - QUERY_SERVICE_CONFIG
  - QUERY_SERVICE_CONFIGA
  - QUERY_SERVICE_CONFIGW
-product: Windows
 targetos: Windows
 req.typenames: QUERY_SERVICE_CONFIGA, *LPQUERY_SERVICE_CONFIGA
 req.redist: 

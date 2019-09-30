@@ -39,7 +39,6 @@ api_location:
  - Mswsock.h
 api_name:
  - WSAMSG
-product: Windows
 targetos: Windows
 req.typenames: WSAMSG, *PWSAMSG, *LPWSAMSG
 req.redist: 

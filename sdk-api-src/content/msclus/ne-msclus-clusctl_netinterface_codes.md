@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSCTL_NETINTERFACE_CODES
-product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_NETINTERFACE_CODES
 req.redist: 

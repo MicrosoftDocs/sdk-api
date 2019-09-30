@@ -40,7 +40,6 @@ api_name:
  - FtpCreateDirectory
  - FtpCreateDirectoryA
  - FtpCreateDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Dxgi.dll
 api_name:
  - IDXGIOutput4.CheckOverlayColorSpaceSupport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

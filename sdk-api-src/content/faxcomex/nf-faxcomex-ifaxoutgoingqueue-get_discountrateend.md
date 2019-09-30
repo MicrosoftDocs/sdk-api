@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingQueue.put_DiscountRateEnd
  - IFaxOutgoingQueue.get_DiscountRateEnd
  - IFaxOutgoingQueue.put_DiscountRateEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

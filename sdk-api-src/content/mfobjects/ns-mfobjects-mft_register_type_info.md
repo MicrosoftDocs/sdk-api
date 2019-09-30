@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFT_REGISTER_TYPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: MFT_REGISTER_TYPE_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

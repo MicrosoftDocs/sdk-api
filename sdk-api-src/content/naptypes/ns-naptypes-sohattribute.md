@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - SoHAttribute
-product: Windows
 targetos: Windows
 req.typenames: SoHAttribute
 req.redist: 

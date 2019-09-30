@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - EmulationType
-product: Windows
 targetos: Windows
 req.typenames: EmulationType
 req.redist: 

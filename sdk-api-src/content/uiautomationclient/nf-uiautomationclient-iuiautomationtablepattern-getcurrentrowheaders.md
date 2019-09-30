@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.h
 api_name:
  - IUIAutomationTablePattern.GetCurrentRowHeaders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

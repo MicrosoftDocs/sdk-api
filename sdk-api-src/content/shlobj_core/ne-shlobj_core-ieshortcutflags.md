@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - IESHORTCUTFLAGS
-product: Windows
 targetos: Windows
 req.typenames: IESHORTCUTFLAGS
 req.redist: 

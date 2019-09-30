@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - ScrollItemPattern_ScrollIntoView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

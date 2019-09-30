@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.AllowDemandStart
  - ITaskSettings.get_AllowDemandStart
  - ITaskSettings.put_AllowDemandStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

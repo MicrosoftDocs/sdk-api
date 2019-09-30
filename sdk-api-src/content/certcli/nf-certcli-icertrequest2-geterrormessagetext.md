@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetErrorMessageText
  - ICertRequest.GetErrorMessageText
  - CCertRequest.GetErrorMessageText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmQuotaBase.Thresholds
  - IFsrmQuotaBase.get_Thresholds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

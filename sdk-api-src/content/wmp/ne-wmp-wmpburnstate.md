@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPBurnState
-product: Windows
 targetos: Windows
 req.typenames: WMPBurnState
 req.redist: 

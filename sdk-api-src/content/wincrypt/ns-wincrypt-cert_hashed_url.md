@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_HASHED_URL
-product: Windows
 targetos: Windows
 req.typenames: CERT_HASHED_URL, *PCERT_HASHED_URL
 req.redist: 

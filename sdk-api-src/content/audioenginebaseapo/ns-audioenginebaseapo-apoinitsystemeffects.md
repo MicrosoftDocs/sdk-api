@@ -38,7 +38,6 @@ api_location:
  - Audioenginebaseapo.h
 api_name:
  - APOInitSystemEffects
-product: Windows
 targetos: Windows
 req.typenames: APOInitSystemEffects
 req.redist: 

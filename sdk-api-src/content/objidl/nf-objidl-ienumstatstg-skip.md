@@ -38,7 +38,6 @@ api_location:
  - Ole32.dll
 api_name:
  - IEnumSTATSTG.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Cfgmgr32.h
 api_name:
 - CM_NOTIFY_FILTER
-product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_FILTER, *PCM_NOTIFY_FILTER
 req.redist: 

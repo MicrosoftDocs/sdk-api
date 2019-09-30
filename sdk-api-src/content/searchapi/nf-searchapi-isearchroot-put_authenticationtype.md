@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - ISearchRoot.put_AuthenticationType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

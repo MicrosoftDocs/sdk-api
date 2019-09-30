@@ -38,7 +38,6 @@ api_location:
  - Bthdef.h
 api_name:
  - BTH_HCI_EVENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: BTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_SizeMode
  - InkPicture.get_SizeMode
  - InkPicture.put_SizeMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

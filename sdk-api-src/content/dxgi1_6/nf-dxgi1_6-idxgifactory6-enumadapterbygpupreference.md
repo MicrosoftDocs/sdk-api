@@ -39,7 +39,6 @@ api_location:
  - dxgi.dll
 api_name:
  - IDXGIFactory6.EnumAdapterByGpuPreference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

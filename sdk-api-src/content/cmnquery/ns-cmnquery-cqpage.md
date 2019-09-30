@@ -38,7 +38,6 @@ api_location:
  - Cmnquery.h
 api_name:
  - CQPAGE
-product: Windows
 targetos: Windows
 req.typenames: CQPAGE, *LPCQPAGE
 req.redist: 

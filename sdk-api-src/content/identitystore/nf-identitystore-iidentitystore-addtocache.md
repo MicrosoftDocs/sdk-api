@@ -38,7 +38,6 @@ api_location:
  - Identitystore.h
 api_name:
  - IIdentityStore.AddToCache
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

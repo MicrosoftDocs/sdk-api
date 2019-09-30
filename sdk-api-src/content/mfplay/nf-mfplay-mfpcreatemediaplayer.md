@@ -38,7 +38,6 @@ api_location:
  - mfplay.dll
 api_name:
  - MFPCreateMediaPlayer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

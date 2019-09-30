@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelAlignment
  - InkEdit.get_SelAlignment
  - InkEdit.put_SelAlignment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

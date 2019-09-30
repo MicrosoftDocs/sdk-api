@@ -38,7 +38,6 @@ api_location:
  - Slcext.dll
 api_name:
  - SLAcquireGenuineTicket
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwAuthorizedApplications.Count
  - INetFwAuthorizedApplications.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

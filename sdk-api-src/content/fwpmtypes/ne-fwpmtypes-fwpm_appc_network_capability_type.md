@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_APPC_NETWORK_CAPABILITY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
 req.redist: 

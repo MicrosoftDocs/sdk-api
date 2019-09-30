@@ -40,7 +40,6 @@ api_name:
  - IAzApplicationGroup.Writable
  - IAzApplicationGroup.get_Writable
  - AzApplicationGroup.Writable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

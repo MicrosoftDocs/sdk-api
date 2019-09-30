@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - VisualElement
-product: Windows
 targetos: Windows
 req.typenames: VisualElement
 req.redist: 

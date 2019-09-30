@@ -41,7 +41,6 @@ api_location:
 api_name:
 - MI_Application_InitializeV1
 - MI_Application_Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2

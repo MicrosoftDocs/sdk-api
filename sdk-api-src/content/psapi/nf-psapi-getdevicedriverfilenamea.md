@@ -48,7 +48,6 @@ api_name:
  - K32GetDeviceDriverFileName
  - K32GetDeviceDriverFileNameW
  - K32GetDeviceDriverFileNameA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

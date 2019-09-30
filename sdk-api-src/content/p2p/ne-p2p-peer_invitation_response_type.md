@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_INVITATION_RESPONSE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PEER_INVITATION_RESPONSE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidTuner.put_TuningSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

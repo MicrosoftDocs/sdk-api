@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDFLIPOVERLAY
-product: Windows
 targetos: Windows
 req.typenames: DDFLIPOVERLAY, *LPDDFLIPOVERLAY
 req.redist: 

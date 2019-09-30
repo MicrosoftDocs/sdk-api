@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIXERLINE
  - MIXERLINEW
-product: Windows
 targetos: Windows
 req.typenames: MIXERLINEW, *PMIXERLINEW, *LPMIXERLINEW
 req.redist: 

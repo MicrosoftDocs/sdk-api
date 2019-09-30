@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate4.PerUser
  - IWindowsDriverUpdate4.get_PerUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

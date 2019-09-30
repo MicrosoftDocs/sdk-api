@@ -38,7 +38,6 @@ api_location:
  - evr.dll
 api_name:
  - MFIsFormatYUV
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

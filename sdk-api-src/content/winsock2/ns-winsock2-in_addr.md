@@ -39,7 +39,6 @@ api_location:
  - Winsock2.h
 api_name:
  - IN_ADDR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

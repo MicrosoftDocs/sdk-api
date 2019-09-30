@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxIncomingMessage2.Reassign
  - IFaxIncomingMessage2.Reassign
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

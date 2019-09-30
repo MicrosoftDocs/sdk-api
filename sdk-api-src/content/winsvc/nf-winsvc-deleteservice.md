@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Service-management-l1-1-0.dll
 api_name:
  - DeleteService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

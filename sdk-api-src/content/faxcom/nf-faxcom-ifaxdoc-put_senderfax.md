@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.SenderFax
  - IFaxDoc.get_SenderFax
  - IFaxDoc.put_SenderFax
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

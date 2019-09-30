@@ -38,7 +38,6 @@ api_location:
 - fileapi.h
 api_name:
 - STREAM_INFO_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: STREAM_INFO_LEVELS
 req.redist: 

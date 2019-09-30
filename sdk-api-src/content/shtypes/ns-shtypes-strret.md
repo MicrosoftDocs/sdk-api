@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - STRRET
-product: Windows
 targetos: Windows
 req.typenames: STRRET
 req.redist: 

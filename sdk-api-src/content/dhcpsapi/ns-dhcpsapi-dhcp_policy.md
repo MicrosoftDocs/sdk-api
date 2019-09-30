@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POLICY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POLICY, *PDHCP_POLICY, *LPDHCP_POLICY
 req.redist: 

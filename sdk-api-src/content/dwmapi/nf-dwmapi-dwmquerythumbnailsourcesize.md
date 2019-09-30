@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.dll
 api_name:
  - DwmQueryThumbnailSourceSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

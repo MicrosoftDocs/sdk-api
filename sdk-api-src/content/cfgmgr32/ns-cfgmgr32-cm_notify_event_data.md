@@ -38,7 +38,6 @@ api_location:
 - Cfgmgr32.h
 api_name:
 - CM_NOTIFY_EVENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_EVENT_DATA, *PCM_NOTIFY_EVENT_DATA
 req.redist: 

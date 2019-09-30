@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - DXGI_FRAME_STATISTICS_MEDIA
-product: Windows
 targetos: Windows
 req.typenames: DXGI_FRAME_STATISTICS_MEDIA
 req.redist: 

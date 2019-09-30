@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - IBrowserService2._put_itbLastFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

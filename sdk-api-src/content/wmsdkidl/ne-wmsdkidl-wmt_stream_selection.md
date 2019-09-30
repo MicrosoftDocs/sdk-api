@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_STREAM_SELECTION
-product: Windows
 targetos: Windows
 req.typenames: WMT_STREAM_SELECTION
 req.redist: 

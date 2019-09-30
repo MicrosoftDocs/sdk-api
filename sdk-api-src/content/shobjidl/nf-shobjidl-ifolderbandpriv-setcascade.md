@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IFolderBandPriv.SetCascade
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

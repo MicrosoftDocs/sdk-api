@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - ASSEMBLY_FILE_DETAILED_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ASSEMBLY_FILE_DETAILED_INFORMATION, *PASSEMBLY_FILE_DETAILED_INFORMATION
 req.redist: 

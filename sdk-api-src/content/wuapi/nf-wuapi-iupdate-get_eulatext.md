@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.EulaText
  - IUpdate.get_EulaText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

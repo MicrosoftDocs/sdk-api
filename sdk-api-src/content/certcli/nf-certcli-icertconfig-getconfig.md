@@ -40,7 +40,6 @@ api_name:
  - ICertConfig2.GetConfig
  - ICertConfig.GetConfig
  - CCertConfig.GetConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

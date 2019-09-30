@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPRipState
-product: Windows
 targetos: Windows
 req.typenames: WMPRipState
 req.redist: 

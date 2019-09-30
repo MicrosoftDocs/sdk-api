@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_DISTRIBUTION_POINT_INFO
-product: Windows
 targetos: Windows
 req.typenames: DRM_DISTRIBUTION_POINT_INFO
 req.redist: 

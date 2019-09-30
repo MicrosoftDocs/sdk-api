@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_MULTICASTIPADDRESS_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_MULTICASTIPADDRESS_TABLE, *PMIB_MULTICASTIPADDRESS_TABLE
 req.redist: 

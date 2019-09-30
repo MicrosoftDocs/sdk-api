@@ -45,7 +45,6 @@ api_name:
  - StartService
  - StartServiceA
  - StartServiceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

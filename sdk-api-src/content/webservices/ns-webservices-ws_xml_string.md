@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_XML_STRING
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_STRING
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaBase.QuotaFlags
  - IFsrmQuotaBase.get_QuotaFlags
  - IFsrmQuotaBase.put_QuotaFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

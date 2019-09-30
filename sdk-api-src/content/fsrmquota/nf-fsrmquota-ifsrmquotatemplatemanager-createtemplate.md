@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmQuotaTemplateManager.CreateTemplate
  - FsrmQuotaTemplateManager.CreateTemplate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

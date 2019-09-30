@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDOPENSURFACEOUT
-product: Windows
 targetos: Windows
 req.typenames: DDOPENSURFACEOUT, *LPDDOPENSURFACEOUT
 req.redist: 

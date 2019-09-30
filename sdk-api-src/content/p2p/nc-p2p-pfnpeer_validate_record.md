@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PFNPEER_VALIDATE_RECORD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

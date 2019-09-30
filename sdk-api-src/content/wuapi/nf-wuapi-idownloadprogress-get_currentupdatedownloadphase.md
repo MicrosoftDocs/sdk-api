@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDownloadProgress.CurrentUpdateDownloadPhase
  - IDownloadProgress.get_CurrentUpdateDownloadPhase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Httpapi.dll
 api_name:
  - HttpWaitForDisconnectEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

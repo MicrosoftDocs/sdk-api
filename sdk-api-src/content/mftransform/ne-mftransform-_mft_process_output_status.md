@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - _MFT_PROCESS_OUTPUT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

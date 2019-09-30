@@ -40,7 +40,6 @@ api_name:
  - OPENCARDNAME
  - OPENCARDNAMEA
  - OPENCARDNAMEW
-product: Windows
 targetos: Windows
 req.typenames: OPENCARDNAMEA, *POPENCARDNAMEA, *LPOPENCARDNAMEA
 req.redist: 

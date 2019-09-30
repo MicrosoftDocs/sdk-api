@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MF_LEAKY_BUCKET_PAIR
-product: Windows
 targetos: Windows
 req.typenames: MF_LEAKY_BUCKET_PAIR
 req.redist: 

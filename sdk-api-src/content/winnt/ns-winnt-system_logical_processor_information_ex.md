@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 req.redist: 

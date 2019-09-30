@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCOLORCORRECTPALETTE
-product: Windows
 targetos: Windows
 req.typenames: EMRCOLORCORRECTPALETTE, *PEMRCOLORCORRECTPALETTE
 req.redist: 

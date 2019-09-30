@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.PacketSize
  - IInkStrokeDisp.get_PacketSize
  - IInkStrokeDisp.get_PacketSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

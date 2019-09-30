@@ -38,7 +38,6 @@ api_location:
 - setupapi.h
 api_name:
 - SP_CLASSINSTALL_HEADER
-product: Windows
 targetos: Windows
 req.typenames: SP_CLASSINSTALL_HEADER, *PSP_CLASSINSTALL_HEADER
 req.redist: 

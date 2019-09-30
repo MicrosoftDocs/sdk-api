@@ -40,7 +40,6 @@ api_location:
  - VssAPI.dll
 api_name:
  - CreateWriterEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CInstance.SetEmbeddedObject
  - ?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

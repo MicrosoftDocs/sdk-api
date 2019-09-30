@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMFRemoteAsyncCallback
  - IMFRemoteAsyncCallback.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

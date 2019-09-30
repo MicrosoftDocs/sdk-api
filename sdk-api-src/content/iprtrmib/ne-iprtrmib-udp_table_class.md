@@ -39,7 +39,6 @@ api_location:
 - Iphlpapi.h
 api_name:
 - UDP_TABLE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
 req.redist: 

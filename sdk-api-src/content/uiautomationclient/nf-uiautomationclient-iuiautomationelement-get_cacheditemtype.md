@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedItemType
  - IUIAutomationElement.get_CachedItemType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

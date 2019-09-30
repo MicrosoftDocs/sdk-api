@@ -38,7 +38,6 @@ api_location:
 - Elscore.h
 api_name:
 - MappingCallbackProc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

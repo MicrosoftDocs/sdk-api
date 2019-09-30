@@ -43,7 +43,6 @@ api_name:
  - IInkDisp.put_Dirty
  - InkDisp.get_Dirty
  - InkDisp.put_Dirty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Activation.h
 api_name:
  - IActivationFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

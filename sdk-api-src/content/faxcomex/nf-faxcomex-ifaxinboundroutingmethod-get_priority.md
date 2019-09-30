@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingMethod.Priority
  - IFaxInboundRoutingMethod.get_Priority
  - IFaxInboundRoutingMethod.put_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

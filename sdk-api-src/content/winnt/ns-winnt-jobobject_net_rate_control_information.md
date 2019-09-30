@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - JOBOBJECT_NET_RATE_CONTROL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 req.redist: 

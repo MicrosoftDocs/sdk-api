@@ -38,7 +38,6 @@ api_location:
  - Wmsecure.h
 api_name:
  - IWMAuthorizer.GetCertCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

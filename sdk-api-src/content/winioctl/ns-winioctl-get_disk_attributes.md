@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - GET_DISK_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
 req.redist: 

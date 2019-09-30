@@ -40,7 +40,6 @@ api_name:
  - ldap_create_page_control
  - ldap_create_page_controlA
  - ldap_create_page_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - InternetSetOptionEx
  - InternetSetOptionExA
  - InternetSetOptionExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

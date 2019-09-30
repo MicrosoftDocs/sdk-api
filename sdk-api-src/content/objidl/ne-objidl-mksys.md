@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - MKSYS
-product: Windows
 targetos: Windows
 req.typenames: MKSYS
 req.redist: 

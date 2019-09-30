@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - COLORSCHEME
-product: Windows
 targetos: Windows
 req.typenames: COLORSCHEME, *LPCOLORSCHEME
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngChrmProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngChrmProperties
 req.redist: 

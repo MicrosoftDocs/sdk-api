@@ -38,7 +38,6 @@ api_location:
  - Comdlg32.dll
 api_name:
  - IPrintDialogServices.GetCurrentPrinterName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

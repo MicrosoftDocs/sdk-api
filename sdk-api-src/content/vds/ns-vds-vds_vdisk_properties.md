@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_VDISK_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: VDS_VDISK_PROPERTIES, *PVDS_VDISK_PROPERTIES
 req.redist: 

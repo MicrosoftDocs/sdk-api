@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MprAdminAcceptNewConnectionEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

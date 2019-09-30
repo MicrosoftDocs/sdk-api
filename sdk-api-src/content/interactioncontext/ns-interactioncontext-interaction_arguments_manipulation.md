@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - INTERACTION_ARGUMENTS_MANIPULATION
-product: Windows
 targetos: Windows
 req.typenames: INTERACTION_ARGUMENTS_MANIPULATION
 req.redist: 

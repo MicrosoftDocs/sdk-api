@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - CONTEXTMENUITEM2
-product: Windows
 targetos: Windows
 req.typenames: CONTEXTMENUITEM2
 req.redist: 

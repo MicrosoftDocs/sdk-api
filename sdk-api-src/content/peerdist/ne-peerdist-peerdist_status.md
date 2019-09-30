@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PEERDIST_STATUS
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_STATUS
 req.redist: 

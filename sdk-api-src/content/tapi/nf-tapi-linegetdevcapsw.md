@@ -40,7 +40,6 @@ api_name:
  - lineGetDevCaps
  - lineGetDevCapsA
  - lineGetDevCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

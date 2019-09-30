@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SYSTEM_AUDIT_CALLBACK_ACE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_AUDIT_CALLBACK_ACE, *PSYSTEM_AUDIT_CALLBACK_ACE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ResApi.h
 api_name:
 - WitnessTagUpdateHelper
-product: Windows
 targetos: Windows
 req.typenames: WitnessTagUpdateHelper
 req.redist: 

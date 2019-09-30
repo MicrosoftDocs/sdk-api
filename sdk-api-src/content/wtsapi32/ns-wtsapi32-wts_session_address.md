@@ -38,7 +38,6 @@ api_location:
 - Wtsapi32.h
 api_name:
 - WTS_SESSION_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_ADDRESS, *PWTS_SESSION_ADDRESS
 req.redist: 

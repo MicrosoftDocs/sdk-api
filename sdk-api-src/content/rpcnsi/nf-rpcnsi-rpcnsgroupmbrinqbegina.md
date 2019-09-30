@@ -40,7 +40,6 @@ api_name:
  - RpcNsGroupMbrInqBegin
  - RpcNsGroupMbrInqBeginA
  - RpcNsGroupMbrInqBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

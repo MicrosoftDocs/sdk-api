@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_VIDEOIMAGE_SAMPLE2
-product: Windows
 targetos: Windows
 req.typenames: WMT_VIDEOIMAGE_SAMPLE2
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IGPMSecurityInfo.Item
  - IGPMSecurityInfo.get_Item
  - GPMSecurityInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

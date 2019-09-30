@@ -67,7 +67,6 @@ api_name:
  - IAccessible.get_accSelection
  - IAccessible.accState
  - IAccessible.get_accState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

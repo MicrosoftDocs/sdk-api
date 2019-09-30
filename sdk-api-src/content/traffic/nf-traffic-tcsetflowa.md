@@ -40,7 +40,6 @@ api_name:
  - TcSetFlow
  - TcSetFlowA
  - TcSetFlowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

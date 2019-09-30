@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - DataFlow
-product: Windows
 targetos: Windows
 req.typenames: DataFlow
 req.redist: 

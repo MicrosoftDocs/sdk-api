@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_KERBEROS_AUTHENTICATION0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_KERBEROS_AUTHENTICATION0
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.Priority
  - IFaxOutgoingMessage.get_Priority
  - IFaxOutgoingMessage.get_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

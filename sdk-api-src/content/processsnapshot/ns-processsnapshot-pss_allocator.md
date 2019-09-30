@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_ALLOCATOR
-product: Windows
 targetos: Windows
 req.typenames: PSS_ALLOCATOR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_INFO
-product: Windows
 targetos: Windows
 req.typenames: CTL_INFO, *PCTL_INFO
 req.redist: 

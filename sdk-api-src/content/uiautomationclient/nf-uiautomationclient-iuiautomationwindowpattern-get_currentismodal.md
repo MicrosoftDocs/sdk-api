@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CurrentIsModal
  - IUIAutomationWindowPattern.get_CurrentIsModal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

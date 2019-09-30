@@ -41,7 +41,6 @@ api_name:
  - MsiDeterminePatchSequence
  - MsiDeterminePatchSequenceA
  - MsiDeterminePatchSequenceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

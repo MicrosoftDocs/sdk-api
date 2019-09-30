@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WMI_OBJ_TEXT
-product: Windows
 targetos: Windows
 req.typenames: WMI_OBJ_TEXT
 req.redist: 

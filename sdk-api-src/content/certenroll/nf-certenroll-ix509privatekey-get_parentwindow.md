@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.ParentWindow
  - IX509PrivateKey.get_ParentWindow
  - IX509PrivateKey.put_ParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

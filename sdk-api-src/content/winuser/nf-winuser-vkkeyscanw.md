@@ -46,7 +46,6 @@ api_name:
  - VkKeyScan
  - VkKeyScanA
  - VkKeyScanW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

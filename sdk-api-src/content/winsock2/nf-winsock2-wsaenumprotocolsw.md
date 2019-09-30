@@ -40,7 +40,6 @@ api_name:
 - WSAEnumProtocols
 - WSAEnumProtocolsA
 - WSAEnumProtocolsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 req.redist: 

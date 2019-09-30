@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_LEAKY_BUCKET_PAIR
-product: Windows
 targetos: Windows
 req.typenames: WM_LEAKY_BUCKET_PAIR
 req.redist: 

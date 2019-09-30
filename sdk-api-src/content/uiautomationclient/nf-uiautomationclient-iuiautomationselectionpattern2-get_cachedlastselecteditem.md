@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionPattern2.CachedLastSelectedItem
  - IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

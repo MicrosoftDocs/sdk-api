@@ -39,7 +39,6 @@ api_location:
  - PhotoAcquireUID.dll
 api_name:
  - IPhotoAcquireOptionsDialog.Create
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

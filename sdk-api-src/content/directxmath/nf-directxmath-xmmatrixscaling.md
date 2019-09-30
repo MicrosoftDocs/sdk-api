@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMMatrixScaling
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winsvc.h
 api_name:
  - SERVICE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_STATUS, *LPSERVICE_STATUS
 req.redist: 

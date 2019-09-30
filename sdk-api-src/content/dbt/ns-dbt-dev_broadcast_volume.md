@@ -38,7 +38,6 @@ api_location:
 - Dbt.h
 api_name:
 - DEV_BROADCAST_VOLUME
-product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_VOLUME
 req.redist: 

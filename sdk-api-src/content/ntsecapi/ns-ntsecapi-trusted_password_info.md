@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - TRUSTED_PASSWORD_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRUSTED_PASSWORD_INFO, *PTRUSTED_PASSWORD_INFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSubscriberInformation.TelephoneNumbers
  - IMbnSubscriberInformation.get_TelephoneNumbers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

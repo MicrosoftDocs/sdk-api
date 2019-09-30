@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_VLV
-product: Windows
 targetos: Windows
 req.typenames: ADS_VLV, *PADS_VLV
 req.redist: 

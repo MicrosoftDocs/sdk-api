@@ -40,7 +40,6 @@ api_name:
  - RasEnumDevices
  - RasEnumDevicesA
  - RasEnumDevicesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

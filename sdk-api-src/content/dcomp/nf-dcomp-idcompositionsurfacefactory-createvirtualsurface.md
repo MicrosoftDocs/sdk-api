@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionSurfaceFactory.CreateVirtualSurface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

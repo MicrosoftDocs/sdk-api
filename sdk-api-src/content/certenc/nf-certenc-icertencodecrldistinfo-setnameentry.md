@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeCRLDistInfo.SetNameEntry
  - CCertEncodeCRLDistInfo.SetNameEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - SPropTagArray
-product: Windows
 targetos: Windows
 req.typenames: SPropTagArray, *LPSPropTagArray
 req.redist: 

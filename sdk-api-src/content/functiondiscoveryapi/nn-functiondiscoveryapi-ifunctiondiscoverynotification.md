@@ -38,7 +38,6 @@ api_location:
  - functiondiscoveryapi.h
 api_name:
  - IFunctionDiscoveryNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

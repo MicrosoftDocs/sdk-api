@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSecurityInfo.Add
  - GPMSecurityInfo.Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

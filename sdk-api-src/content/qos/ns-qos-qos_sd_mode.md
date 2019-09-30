@@ -38,7 +38,6 @@ api_location:
 - Qos.h
 api_name:
 - QOS_SD_MODE
-product: Windows
 targetos: Windows
 req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
 req.redist: 

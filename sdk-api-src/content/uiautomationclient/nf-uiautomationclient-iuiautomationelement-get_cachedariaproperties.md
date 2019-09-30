@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedAriaProperties
  - IUIAutomationElement.get_CachedAriaProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

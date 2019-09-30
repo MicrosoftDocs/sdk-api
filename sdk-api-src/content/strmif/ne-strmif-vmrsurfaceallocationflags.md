@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRSurfaceAllocationFlags
-product: Windows
 targetos: Windows
 req.typenames: VMRSurfaceAllocationFlags
 req.redist: 

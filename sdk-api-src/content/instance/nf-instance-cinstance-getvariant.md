@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CInstance.GetVariant
  - ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

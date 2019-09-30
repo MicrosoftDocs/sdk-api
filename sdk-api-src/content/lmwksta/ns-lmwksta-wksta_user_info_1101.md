@@ -38,7 +38,6 @@ api_location:
  - Lmwksta.h
 api_name:
  - WKSTA_USER_INFO_1101
-product: Windows
 targetos: Windows
 req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
 req.redist: 

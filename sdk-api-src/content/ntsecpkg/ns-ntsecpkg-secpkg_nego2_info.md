@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_NEGO2_INFO
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO
 req.redist: 

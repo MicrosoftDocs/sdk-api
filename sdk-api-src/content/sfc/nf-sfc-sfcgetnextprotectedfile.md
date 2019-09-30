@@ -38,7 +38,6 @@ api_location:
  - Sfc.dll
 api_name:
  - SfcGetNextProtectedFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

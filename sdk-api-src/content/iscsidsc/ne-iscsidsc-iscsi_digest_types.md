@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - ISCSI_DIGEST_TYPES
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
 req.redist: 

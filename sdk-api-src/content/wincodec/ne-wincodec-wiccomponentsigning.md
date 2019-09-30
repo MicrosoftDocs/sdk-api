@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICComponentSigning
-product: Windows
 targetos: Windows
 req.typenames: WICComponentSigning
 req.redist: 

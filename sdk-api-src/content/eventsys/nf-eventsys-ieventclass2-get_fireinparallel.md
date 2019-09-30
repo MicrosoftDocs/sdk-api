@@ -40,7 +40,6 @@ api_name:
  - IEventClass2.FireInParallel
  - IEventClass2.get_FireInParallel
  - IEventClass2.put_FireInParallel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

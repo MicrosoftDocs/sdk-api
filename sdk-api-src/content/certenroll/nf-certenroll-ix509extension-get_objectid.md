@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Extension.ObjectId
  - IX509Extension.get_ObjectId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

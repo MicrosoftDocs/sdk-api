@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspStatuses.ItemByOrdinal
  - ICspStatuses.get_ItemByOrdinal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

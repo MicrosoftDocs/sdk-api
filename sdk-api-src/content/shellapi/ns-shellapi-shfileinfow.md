@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SHFILEINFO
  - SHFILEINFOW
-product: Windows
 targetos: Windows
 req.typenames: SHFILEINFOW
 req.redist: 

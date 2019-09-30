@@ -37,7 +37,6 @@ api_location:
  - d2d1effects_2.h
 api_name:
  - D2D1_HDRTONEMAP_PROP
-product: Windows
 targetos: Windows
 req.typenames: D2D1_HDRTONEMAP_PROP
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - Wspiapi.h
 api_name:
  - ADDRINFOA
-product: Windows
 targetos: Windows
 req.typenames: ADDRINFOA, *PADDRINFOA
 req.redist: 

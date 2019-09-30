@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ContextInfo.IsInTransaction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

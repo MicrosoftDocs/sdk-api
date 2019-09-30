@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - ITsSbPlacement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - ICertificationAuthority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

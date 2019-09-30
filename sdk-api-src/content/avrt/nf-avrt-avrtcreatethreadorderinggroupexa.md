@@ -40,7 +40,6 @@ api_name:
  - AvRtCreateThreadOrderingGroupEx
  - AvRtCreateThreadOrderingGroupExA
  - AvRtCreateThreadOrderingGroupExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

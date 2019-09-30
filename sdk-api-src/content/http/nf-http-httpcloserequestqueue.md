@@ -38,7 +38,6 @@ api_location:
  - Httpapi.dll
 api_name:
  - HttpCloseRequestQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wintrust.h
 api_name:
  - WINTRUST_FILE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_FILE_INFO, *PWINTRUST_FILE_INFO
 req.redist: 

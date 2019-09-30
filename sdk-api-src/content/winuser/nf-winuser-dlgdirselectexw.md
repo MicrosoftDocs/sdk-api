@@ -40,7 +40,6 @@ api_name:
  - DlgDirSelectEx
  - DlgDirSelectExA
  - DlgDirSelectExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

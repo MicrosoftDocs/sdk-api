@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSTREAMSINK_MARKER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MFSTREAMSINK_MARKER_TYPE
 req.redist: 

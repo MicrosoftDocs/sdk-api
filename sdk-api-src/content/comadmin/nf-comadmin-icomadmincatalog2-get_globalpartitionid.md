@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog2.GlobalPartitionID
  - ICOMAdminCatalog2.get_GlobalPartitionID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_DASH
-product: Windows
 targetos: Windows
 req.typenames: XPS_DASH
 req.redist: 

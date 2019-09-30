@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMMPEG2VIDEOINFO
-product: Windows
 targetos: Windows
 req.typenames: WMMPEG2VIDEOINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IGuideDataEvent.GuideDataAcquired
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

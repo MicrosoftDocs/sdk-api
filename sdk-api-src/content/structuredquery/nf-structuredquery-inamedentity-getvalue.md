@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - INamedEntity.GetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

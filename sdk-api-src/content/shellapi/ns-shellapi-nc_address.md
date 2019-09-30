@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - NC_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: NC_ADDRESS, *PNC_ADDRESS
 req.redist: 

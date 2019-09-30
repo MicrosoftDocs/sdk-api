@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IDShowPlugin.get_URL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

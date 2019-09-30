@@ -41,7 +41,6 @@ api_name:
  - ICEnroll4.get_ThumbPrint
  - ICEnroll4.put_ThumbPrint
  - CEnroll.ThumbPrint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

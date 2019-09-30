@@ -38,7 +38,6 @@ api_location:
  - Cfgmgr32.h
 api_name:
  - IRQ_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: IRQ_RESOURCE_64, *PIRQ_RESOURCE_64
 req.redist: 

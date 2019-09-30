@@ -40,7 +40,6 @@ api_location:
 api_name:
  - ICertPolicy2.GetManageModule
  - CCertPolicy.GetManageModule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.h
 api_name:
  - SWbemAssocQueryInf
-product: Windows
 targetos: Windows
 req.typenames: SWbemAssocQueryInf
 req.redist: 

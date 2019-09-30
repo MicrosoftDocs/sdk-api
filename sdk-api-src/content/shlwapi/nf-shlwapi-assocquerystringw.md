@@ -45,7 +45,6 @@ api_name:
  - AssocQueryString
  - AssocQueryStringA
  - AssocQueryStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

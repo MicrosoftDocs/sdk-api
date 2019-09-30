@@ -38,7 +38,6 @@ api_location:
  - shldisp.h
 api_name:
  - IShellFolderViewDual.get_Parent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

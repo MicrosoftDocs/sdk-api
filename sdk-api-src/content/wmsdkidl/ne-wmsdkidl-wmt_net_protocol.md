@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_NET_PROTOCOL
-product: Windows
 targetos: Windows
 req.typenames: WMT_NET_PROTOCOL
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - GetMonitorInfo
  - GetMonitorInfoA
  - GetMonitorInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

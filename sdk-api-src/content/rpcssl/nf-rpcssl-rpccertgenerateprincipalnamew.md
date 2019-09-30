@@ -40,7 +40,6 @@ api_name:
  - RpcCertGeneratePrincipalName
  - RpcCertGeneratePrincipalNameA
  - RpcCertGeneratePrincipalNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Cryptui.dll
 api_name:
  - CryptUIWizFreeDigitalSignContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

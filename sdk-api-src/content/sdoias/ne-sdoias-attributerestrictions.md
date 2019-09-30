@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - ATTRIBUTERESTRICTIONS
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTERESTRICTIONS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - LVITEM
  - LVITEMA
  - LVITEMW
-product: Windows
 targetos: Windows
 req.typenames: LVITEMA, *LPLVITEMA
 req.redist: 

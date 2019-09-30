@@ -41,7 +41,6 @@ api_location:
  - api-ms-win-shcore-scaling-l1.dll
 api_name:
  - RegisterScaleChangeEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

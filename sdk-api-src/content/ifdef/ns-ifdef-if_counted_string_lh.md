@@ -38,7 +38,6 @@ api_location:
  - Ifdef.h
 api_name:
  - IF_COUNTED_STRING
-product: Windows
 targetos: Windows
 req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
 req.redist: 

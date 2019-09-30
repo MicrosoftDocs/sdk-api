@@ -38,7 +38,6 @@ api_location:
  - Mprapi.h
 api_name:
  - MPR_CREDENTIALSEX_0
-product: Windows
 targetos: Windows
 req.typenames: MPR_CREDENTIALSEX_0, *PMPR_CREDENTIALSEX_0
 req.redist: 

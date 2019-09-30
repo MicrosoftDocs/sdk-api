@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMPGCALCSIZE
-product: Windows
 targetos: Windows
 req.typenames: NMPGCALCSIZE, *LPNMPGCALCSIZE
 req.redist: 

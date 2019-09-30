@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEGETMONIKER
-product: Windows
 targetos: Windows
 req.typenames: OLEGETMONIKER
 req.redist: 

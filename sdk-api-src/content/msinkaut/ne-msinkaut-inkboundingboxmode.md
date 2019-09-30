@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkBoundingBoxMode
-product: Windows
 targetos: Windows
 req.typenames: InkBoundingBoxMode
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Icftypes.h
 api_name:
  - NET_FW_RULE_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: NET_FW_RULE_CATEGORY
 req.redist: 

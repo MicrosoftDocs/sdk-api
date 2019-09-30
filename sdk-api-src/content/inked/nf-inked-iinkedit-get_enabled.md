@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Enabled
  - InkEdit.get_Enabled
  - InkEdit.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext.put_RecognitionFlags
  - InkRecognizerContext.get_RecognitionFlags
  - InkRecognizerContext.put_RecognitionFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ntenclv.h
 api_name:
  - VBS_ENCLAVE_REPORT_VARDATA_HEADER
-product: Windows
 targetos: Windows
 req.typenames: VBS_ENCLAVE_REPORT_VARDATA_HEADER
 req.redist: 

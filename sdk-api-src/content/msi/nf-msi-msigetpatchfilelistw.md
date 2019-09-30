@@ -40,7 +40,6 @@ api_name:
  - MsiGetPatchFileList
  - MsiGetPatchFileListA
  - MsiGetPatchFileListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

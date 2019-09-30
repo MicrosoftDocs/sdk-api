@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFGetAttributeDouble
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

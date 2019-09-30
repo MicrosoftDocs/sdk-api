@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxPort.Name
  - IFaxPort.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

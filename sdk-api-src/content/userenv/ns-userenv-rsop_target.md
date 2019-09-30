@@ -38,7 +38,6 @@ api_location:
 - Userenv.h
 api_name:
 - RSOP_TARGET
-product: Windows
 targetos: Windows
 req.typenames: RSOP_TARGET, *PRSOP_TARGET
 req.redist: 

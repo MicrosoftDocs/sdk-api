@@ -38,7 +38,6 @@ api_location:
  - emi.h
 api_name:
  - EMI_METADATA_SIZE
-product: Windows
 targetos: Windows
 req.typenames: EMI_METADATA_SIZE
 req.redist: 

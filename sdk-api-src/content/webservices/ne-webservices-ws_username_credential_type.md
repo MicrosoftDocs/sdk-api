@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_USERNAME_CREDENTIAL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_USERNAME_CREDENTIAL_TYPE
 req.redist: 

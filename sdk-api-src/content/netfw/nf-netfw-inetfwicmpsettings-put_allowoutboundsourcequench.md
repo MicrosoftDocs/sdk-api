@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowOutboundSourceQuench
  - INetFwIcmpSettings.get_AllowOutboundSourceQuench
  - INetFwIcmpSettings.put_AllowOutboundSourceQuench
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

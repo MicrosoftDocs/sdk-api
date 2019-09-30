@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SECURITY_TOKEN_REFERENCE_MODE
-product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_TOKEN_REFERENCE_MODE
 req.redist: 

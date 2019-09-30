@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_CONNECTION_COST
-product: Windows
 targetos: Windows
 req.typenames: WCM_CONNECTION_COST, *PWCM_CONNECTION_COST
 req.redist: 

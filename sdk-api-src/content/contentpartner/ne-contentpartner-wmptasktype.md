@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPTaskType
-product: Windows
 targetos: Windows
 req.typenames: WMPTaskType
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PolicyServerListManager._NewEnum
  - IX509PolicyServerListManager.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

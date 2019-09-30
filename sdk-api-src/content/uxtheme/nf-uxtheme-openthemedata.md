@@ -41,7 +41,6 @@ api_location:
  - ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
  - OpenThemeData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

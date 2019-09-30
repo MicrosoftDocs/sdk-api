@@ -38,7 +38,6 @@ api_location:
  - wmpservices.h
 api_name:
  - WMPPlugin_Caps
-product: Windows
 targetos: Windows
 req.typenames: WMPPlugin_Caps
 req.redist: 

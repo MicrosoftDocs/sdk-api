@@ -38,7 +38,6 @@ api_location:
  - CredentialProvider.h
 api_name:
  - CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.ServerSelection
  - IUpdateHistoryEntry.get_ServerSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_VIDEO_SIZE_RANGE
-product: Windows
 targetos: Windows
 ---
 

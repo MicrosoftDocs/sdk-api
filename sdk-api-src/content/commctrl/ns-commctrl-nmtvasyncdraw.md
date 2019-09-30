@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTVASYNCDRAW
-product: Windows
 targetos: Windows
 req.typenames: NMTVASYNCDRAW
 req.redist: 

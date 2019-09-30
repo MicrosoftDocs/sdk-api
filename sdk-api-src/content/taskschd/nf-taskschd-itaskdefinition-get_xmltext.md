@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.XmlText
  - ITaskDefinition.get_XmlText
  - ITaskDefinition.put_XmlText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

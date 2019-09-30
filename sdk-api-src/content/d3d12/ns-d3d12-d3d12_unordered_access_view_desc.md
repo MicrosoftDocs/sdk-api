@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_UNORDERED_ACCESS_VIEW_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D12_UNORDERED_ACCESS_VIEW_DESC
 req.redist: 

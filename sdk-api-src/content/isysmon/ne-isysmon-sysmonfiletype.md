@@ -38,7 +38,6 @@ api_location:
  - ISysmon.h
 api_name:
  - SysmonFileType
-product: Windows
 targetos: Windows
 req.typenames: SysmonFileType
 req.redist: 

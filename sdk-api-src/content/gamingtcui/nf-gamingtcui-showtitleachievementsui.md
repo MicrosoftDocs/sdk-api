@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
  - ShowTitleAchievementsUI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

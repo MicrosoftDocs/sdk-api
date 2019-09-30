@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher.IncludePotentiallySupersededUpdates
  - IUpdateSearcher.get_IncludePotentiallySupersededUpdates
  - IUpdateSearcher.put_IncludePotentiallySupersededUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

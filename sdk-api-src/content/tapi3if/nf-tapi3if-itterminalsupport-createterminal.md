@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITTerminalSupport.CreateTerminal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

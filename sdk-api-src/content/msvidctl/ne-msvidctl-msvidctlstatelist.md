@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - MSVidCtlStateList
-product: Windows
 targetos: Windows
 req.typenames: MSVidCtlStateList
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_PROBE
-product: Windows
 targetos: Windows
 req.typenames: WSD_PROBE
 req.redist: 

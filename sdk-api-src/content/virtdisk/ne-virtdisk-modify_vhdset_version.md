@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MODIFY_VHDSET_VERSION
-product: Windows
 targetos: Windows
 req.typenames: MODIFY_VHDSET_VERSION, *PMODIFY_VHDSET_VERSION
 req.redist: 

@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdSwapTextureHandles
  - GdiEntry16
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

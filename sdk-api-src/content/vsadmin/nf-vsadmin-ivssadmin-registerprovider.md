@@ -38,7 +38,6 @@ api_location:
 - VsAdmin.h
 api_name:
 - IVssAdmin.RegisterProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

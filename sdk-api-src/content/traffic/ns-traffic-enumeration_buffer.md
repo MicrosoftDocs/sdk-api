@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - ENUMERATION_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
 req.redist: 

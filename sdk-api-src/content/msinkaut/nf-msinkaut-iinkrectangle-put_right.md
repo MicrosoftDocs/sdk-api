@@ -43,7 +43,6 @@ api_name:
  - IInkRectangle.put_Right
  - InkRectangle.get_Right
  - InkRectangle.put_Right
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

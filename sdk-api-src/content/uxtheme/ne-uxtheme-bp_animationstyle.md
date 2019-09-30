@@ -38,7 +38,6 @@ api_location:
 - Uxtheme.h
 api_name:
 - BP_ANIMATIONSTYLE
-product: Windows
 targetos: Windows
 req.typenames: BP_ANIMATIONSTYLE
 req.redist: 

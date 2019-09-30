@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerGuide.put_WritingBox
  - InkRecognizerGuide.get_WritingBox
  - InkRecognizerGuide.put_WritingBox
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

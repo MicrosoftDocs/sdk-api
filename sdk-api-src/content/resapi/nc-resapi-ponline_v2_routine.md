@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - OnlineV2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

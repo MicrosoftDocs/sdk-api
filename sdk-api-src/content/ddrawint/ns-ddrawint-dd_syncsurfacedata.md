@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SYNCSURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SYNCSURFACEDATA, DD_SYNCSURFACEDATA'
 req.redist: 

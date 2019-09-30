@@ -38,7 +38,6 @@ api_location:
 - Mobsync.h
 api_name:
 - SYNCMGRPROGRESSITEM
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
 req.redist: 

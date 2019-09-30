@@ -38,7 +38,6 @@ api_location:
  - Cfgmgr32.dll
 api_name:
  - CM_Enumerate_Classes_Ex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

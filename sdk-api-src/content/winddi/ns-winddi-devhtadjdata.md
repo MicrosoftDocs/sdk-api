@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DEVHTADJDATA
-product: Windows
 targetos: Windows
 req.typenames: DEVHTADJDATA, *PDEVHTADJDATA
 req.redist: 

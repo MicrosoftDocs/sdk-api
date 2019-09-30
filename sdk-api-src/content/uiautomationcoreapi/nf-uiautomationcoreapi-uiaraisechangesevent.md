@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
  - UiaRaiseChangesEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRendererDevices.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

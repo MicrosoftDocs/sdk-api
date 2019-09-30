@@ -38,7 +38,6 @@ api_location:
  - SRRestorePtAPI.h
 api_name:
  - STATEMGRSTATUS
-product: Windows
 targetos: Windows
 req.typenames: STATEMGRSTATUS, *PSTATEMGRSTATUS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.ArchiveLocation
  - IFaxConfiguration.get_ArchiveLocation
  - IFaxConfiguration.put_ArchiveLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - TRACE_PROVIDER_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_PROVIDER_INFO
 req.redist: 

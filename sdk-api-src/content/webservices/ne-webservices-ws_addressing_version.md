@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ADDRESSING_VERSION
-product: Windows
 targetos: Windows
 req.typenames: WS_ADDRESSING_VERSION
 req.redist: 

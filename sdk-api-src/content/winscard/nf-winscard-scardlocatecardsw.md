@@ -40,7 +40,6 @@ api_name:
  - SCardLocateCards
  - SCardLocateCardsA
  - SCardLocateCardsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

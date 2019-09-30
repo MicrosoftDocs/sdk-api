@@ -40,7 +40,6 @@ api_name:
  - IEnroll4.IncludeSubjectKeyID
  - IEnroll4.get_IncludeSubjectKeyID
  - IEnroll4.put_IncludeSubjectKeyID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

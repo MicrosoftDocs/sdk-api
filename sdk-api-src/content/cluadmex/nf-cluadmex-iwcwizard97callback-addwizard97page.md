@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IWCWizard97Callback.AddWizard97Page
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

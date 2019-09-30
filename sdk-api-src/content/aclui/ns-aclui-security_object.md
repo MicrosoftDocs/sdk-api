@@ -38,7 +38,6 @@ api_location:
  - Aclui.h
 api_name:
  - SECURITY_OBJECT
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_OBJECT, *PSECURITY_OBJECT
 req.redist: 

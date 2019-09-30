@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DLGTEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: DLGTEMPLATE
 req.redist: 

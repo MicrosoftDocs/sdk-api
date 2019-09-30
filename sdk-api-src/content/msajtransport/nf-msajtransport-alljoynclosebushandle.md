@@ -38,7 +38,6 @@ api_location:
  - MSAJApi.dll
 api_name:
  - AllJoynCloseBusHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

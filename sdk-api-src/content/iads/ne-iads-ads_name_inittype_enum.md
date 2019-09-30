@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_NAME_INITTYPE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_NAME_INITTYPE_ENUM
 req.redist: 

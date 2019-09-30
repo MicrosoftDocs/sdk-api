@@ -40,7 +40,6 @@ api_name:
  - ITrigger.EndBoundary
  - ITrigger.get_EndBoundary
  - ITrigger.put_EndBoundary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

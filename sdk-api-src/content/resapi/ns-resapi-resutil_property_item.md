@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_PROPERTY_ITEM
-product: Windows
 targetos: Windows
 req.typenames: RESUTIL_PROPERTY_ITEM, *PRESUTIL_PROPERTY_ITEM
 req.redist: 

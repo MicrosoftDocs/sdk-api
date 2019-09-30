@@ -40,7 +40,6 @@ api_location:
  - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
 api_name:
  - DwmShowContact
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

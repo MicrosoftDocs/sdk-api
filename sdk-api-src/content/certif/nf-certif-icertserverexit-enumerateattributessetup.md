@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerExit.EnumerateAttributesSetup
  - CCertServerExit.EnumerateAttributesSetup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - IDXGIFactory3.GetCreationFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

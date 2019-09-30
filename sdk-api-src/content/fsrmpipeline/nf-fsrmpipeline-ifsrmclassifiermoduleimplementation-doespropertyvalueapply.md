@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmClassifierModuleImplementation.DoesPropertyValueApply
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

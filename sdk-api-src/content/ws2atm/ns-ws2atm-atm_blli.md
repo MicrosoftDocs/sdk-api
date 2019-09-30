@@ -38,7 +38,6 @@ api_location:
  - Ws2atm.h
 api_name:
  - ATM_BLLI
-product: Windows
 targetos: Windows
 req.typenames: ATM_BLLI
 req.redist: 

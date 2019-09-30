@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.ModifyItemState
  - IResultData2.ModifyItemState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

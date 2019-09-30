@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.h
 api_name:
  - MF_SINK_WRITER_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: MF_SINK_WRITER_STATISTICS
 req.redist: 

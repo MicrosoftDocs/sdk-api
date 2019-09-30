@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMMOUSE
-product: Windows
 targetos: Windows
 req.typenames: NMMOUSE, *LPNMMOUSE
 req.redist: 

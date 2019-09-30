@@ -45,7 +45,6 @@ api_name:
  - StrCmpIC
  - StrCmpICA
  - StrCmpICW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

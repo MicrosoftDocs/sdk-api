@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRVIDEOSTREAMINFO
-product: Windows
 targetos: Windows
 req.typenames: VMRVIDEOSTREAMINFO
 req.redist: 

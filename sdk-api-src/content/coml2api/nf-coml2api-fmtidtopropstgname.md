@@ -40,7 +40,6 @@ api_location:
  - coml2.dll
 api_name:
  - FmtIdToPropStgName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

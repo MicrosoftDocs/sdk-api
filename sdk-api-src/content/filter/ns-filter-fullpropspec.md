@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - FULLPROPSPEC
-product: Windows
 targetos: Windows
 req.typenames: FULLPROPSPEC
 req.redist: 

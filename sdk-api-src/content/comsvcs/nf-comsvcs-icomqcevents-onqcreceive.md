@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComQCEvents.OnQCReceive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

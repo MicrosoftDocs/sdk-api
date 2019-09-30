@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUPnPDevices
  - IUPnPDevices.This interface has no methods.
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

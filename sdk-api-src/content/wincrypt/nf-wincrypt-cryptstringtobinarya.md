@@ -40,7 +40,6 @@ api_name:
  - CryptStringToBinary
  - CryptStringToBinaryA
  - CryptStringToBinaryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

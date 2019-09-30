@@ -38,7 +38,6 @@ api_location:
  - Winsock2.h
 api_name:
  - htond
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

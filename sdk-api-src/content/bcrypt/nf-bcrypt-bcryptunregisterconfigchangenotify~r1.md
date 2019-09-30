@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "bcrypt/BCryptUnregisterConfigChangeNotify"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -35,7 +34,6 @@ api_location:
  - bcrypt.h
 api_name:
  - BCryptUnregisterConfigChangeNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

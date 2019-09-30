@@ -38,7 +38,6 @@ api_location:
  - Npapi.h
 api_name:
  - NOTIFYADD
-product: Windows
 targetos: Windows
 req.typenames: NOTIFYADD, *LPNOTIFYADD
 req.redist: 

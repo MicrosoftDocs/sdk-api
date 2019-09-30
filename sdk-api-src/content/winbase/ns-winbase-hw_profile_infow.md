@@ -40,7 +40,6 @@ api_name:
  - HW_PROFILE_INFO
  - HW_PROFILE_INFOA
  - HW_PROFILE_INFOW
-product: Windows
 targetos: Windows
 req.typenames: HW_PROFILE_INFOW, *LPHW_PROFILE_INFOW
 req.redist: 

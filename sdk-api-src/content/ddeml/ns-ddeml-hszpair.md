@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - HSZPAIR
-product: Windows
 targetos: Windows
 req.typenames: HSZPAIR, *PHSZPAIR
 req.redist: 

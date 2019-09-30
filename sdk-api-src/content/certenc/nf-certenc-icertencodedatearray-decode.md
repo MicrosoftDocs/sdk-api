@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeDateArray.Decode
  - CCertEncodeDateArray.Decode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

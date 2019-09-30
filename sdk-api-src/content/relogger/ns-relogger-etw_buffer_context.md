@@ -38,7 +38,6 @@ api_location:
 - relogger.h
 api_name:
 - ETW_BUFFER_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: ETW_BUFFER_CONTEXT, *PETW_BUFFER_CONTEXT
 req.redist: 

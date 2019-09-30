@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CHStringArray.GetSize
  - ?GetSize@CHStringArray@@QEBAHXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

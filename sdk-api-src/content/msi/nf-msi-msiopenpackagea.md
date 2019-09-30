@@ -40,7 +40,6 @@ api_name:
  - MsiOpenPackage
  - MsiOpenPackageA
  - MsiOpenPackageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

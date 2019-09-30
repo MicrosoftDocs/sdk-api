@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.dll
 api_name:
  - IGPMStarterGPO.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

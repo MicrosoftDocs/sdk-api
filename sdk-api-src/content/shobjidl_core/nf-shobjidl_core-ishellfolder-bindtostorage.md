@@ -40,7 +40,6 @@ api_location:
 api_name:
 - IShellFolder.BindToStorage
 - IShellFolder2.BindToStorage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - LmDfs.h
 api_name:
 - DFS_STORAGE_INFO_1
-product: Windows
 targetos: Windows
 req.typenames: DFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, *LPDFS_STORAGE_INFO_1
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - EVENT_MAP_ENTRY, *PEVENT_MAP_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: EVENT_MAP_ENTRY
 req.redist: 

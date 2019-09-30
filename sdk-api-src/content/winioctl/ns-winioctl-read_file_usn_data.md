@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - READ_FILE_USN_DATA
-product: Windows
 targetos: Windows
 req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
 req.redist: 

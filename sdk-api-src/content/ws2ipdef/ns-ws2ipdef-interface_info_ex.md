@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
-product: Windows
 targetos: Windows
 req.typenames: INTERFACE_INFO_EX, *LPINTERFACE_INFO_EX
 req.redist: 

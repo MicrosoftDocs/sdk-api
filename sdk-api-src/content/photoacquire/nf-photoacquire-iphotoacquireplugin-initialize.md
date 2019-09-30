@@ -39,7 +39,6 @@ api_location:
  - PhotoAcquireUID.dll
 api_name:
  - IPhotoAcquirePlugin.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

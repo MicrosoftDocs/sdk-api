@@ -41,7 +41,6 @@ api_name:
  - INetFwService.Enabled
  - INetFwService.get_Enabled
  - INetFwService.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

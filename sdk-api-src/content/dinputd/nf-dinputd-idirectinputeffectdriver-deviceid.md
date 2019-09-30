@@ -38,7 +38,6 @@ api_location:
  - dinputd.h
 api_name:
  - IDirectInputEffectDriver.DeviceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

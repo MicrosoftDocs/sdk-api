@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - _WS_NETPIPE_URL
-product: Windows
 targetos: Windows
 req.typenames: WS_NETPIPE_URL
 req.redist: 

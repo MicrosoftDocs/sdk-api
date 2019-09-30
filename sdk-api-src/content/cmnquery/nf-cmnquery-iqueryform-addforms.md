@@ -38,7 +38,6 @@ api_location:
  - Dsquery.dll
 api_name:
  - IQueryForm.AddForms
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

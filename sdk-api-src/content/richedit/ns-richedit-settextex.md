@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - SETTEXTEX
-product: Windows
 targetos: Windows
 req.typenames: SETTEXTEX
 req.redist: 

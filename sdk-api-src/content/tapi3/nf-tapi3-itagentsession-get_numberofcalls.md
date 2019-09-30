@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITAgentSession.get_NumberOfCalls
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

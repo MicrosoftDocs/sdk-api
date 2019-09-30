@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.ClientId
  - IX509CertificateRequest.get_ClientId
  - IX509CertificateRequest.put_ClientId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher2.IgnoreDownloadPriority
  - IUpdateSearcher2.get_IgnoreDownloadPriority
  - IUpdateSearcher2.put_IgnoreDownloadPriority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

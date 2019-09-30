@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_CLIENT_FILTER_STATUS_INFO
-product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO, *LPDHCP_CLIENT_FILTER_STATUS_INFO
 req.redist: 

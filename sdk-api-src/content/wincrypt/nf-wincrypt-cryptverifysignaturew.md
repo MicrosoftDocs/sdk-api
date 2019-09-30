@@ -42,7 +42,6 @@ api_name:
  - CryptVerifySignature
  - CryptVerifySignatureA
  - CryptVerifySignatureW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

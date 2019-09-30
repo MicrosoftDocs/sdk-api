@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - ISpatialAudioObjectForHrtf.SetOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

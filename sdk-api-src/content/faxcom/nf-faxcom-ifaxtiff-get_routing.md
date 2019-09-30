@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxTiff.Routing
  - IFaxTiff.get_Routing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

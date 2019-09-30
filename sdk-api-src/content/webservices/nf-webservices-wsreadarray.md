@@ -38,7 +38,6 @@ api_location:
  - WebServices.dll
 api_name:
  - WsReadArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

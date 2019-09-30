@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CREATE_DISK_GPT
-product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
 req.redist: 

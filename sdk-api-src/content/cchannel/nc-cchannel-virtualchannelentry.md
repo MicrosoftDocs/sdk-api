@@ -38,7 +38,6 @@ api_location:
  - Cchannel.h
 api_name:
  - VirtualChannelEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

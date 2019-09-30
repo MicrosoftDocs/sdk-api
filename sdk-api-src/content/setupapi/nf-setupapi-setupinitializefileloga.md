@@ -40,7 +40,6 @@ api_name:
  - SetupInitializeFileLog
  - SetupInitializeFileLogA
  - SetupInitializeFileLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

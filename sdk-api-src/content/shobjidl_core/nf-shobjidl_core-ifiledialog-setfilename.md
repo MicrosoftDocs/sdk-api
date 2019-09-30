@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IFileDialog.SetFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

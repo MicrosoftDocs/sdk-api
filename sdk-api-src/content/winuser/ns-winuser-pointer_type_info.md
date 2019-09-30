@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - POINTER_TYPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: POINTER_TYPE_INFO, *PPOINTER_TYPE_INFO
 req.redist: 

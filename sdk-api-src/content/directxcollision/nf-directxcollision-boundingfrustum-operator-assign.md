@@ -38,7 +38,6 @@ api_location:
  - DirectXCollision.h
 api_name:
  - BoundingFrustum.op_Assignment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

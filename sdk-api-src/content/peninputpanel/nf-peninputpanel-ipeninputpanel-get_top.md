@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Top
  - IPenInputPanel.get_Top
  - PenInputPanel.get_Top
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

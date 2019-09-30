@@ -44,7 +44,6 @@ api_name:
  - PathIsDirectory
  - PathIsDirectoryA
  - PathIsDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

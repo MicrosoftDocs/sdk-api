@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmFileScreenFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmFileScreenFlags
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - WBEM_CONNECT_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: WBEM_CONNECT_OPTIONS
 req.redist: 

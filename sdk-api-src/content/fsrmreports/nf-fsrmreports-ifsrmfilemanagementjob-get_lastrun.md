@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.LastRun
  - IFsrmFileManagementJob.get_LastRun
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

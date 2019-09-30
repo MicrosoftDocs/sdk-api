@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_SERIALIZED_OID
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
 req.redist: 

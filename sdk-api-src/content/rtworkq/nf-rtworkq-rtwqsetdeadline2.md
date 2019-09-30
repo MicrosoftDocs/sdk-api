@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqSetDeadline2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

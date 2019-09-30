@@ -38,7 +38,6 @@ api_location:
  - CredentialProvider.h
 api_name:
  - ICredentialProviderSetUserArray.SetUserArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

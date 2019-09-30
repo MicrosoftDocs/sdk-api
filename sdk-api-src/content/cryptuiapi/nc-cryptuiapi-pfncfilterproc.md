@@ -38,7 +38,6 @@ api_location:
 - Cryptuiapi.h
 api_name:
 - PFNCFILTERPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

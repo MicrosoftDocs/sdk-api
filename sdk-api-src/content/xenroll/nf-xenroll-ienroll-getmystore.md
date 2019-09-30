@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.getMyStore
  - IEnroll2.getMyStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

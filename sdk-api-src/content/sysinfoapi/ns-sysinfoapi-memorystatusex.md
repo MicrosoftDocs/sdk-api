@@ -38,7 +38,6 @@ api_location:
  - sysinfoapi.h
 api_name:
  - MEMORYSTATUSEX
-product: Windows
 targetos: Windows
 req.typenames: MEMORYSTATUSEX, *LPMEMORYSTATUSEX
 req.redist: 

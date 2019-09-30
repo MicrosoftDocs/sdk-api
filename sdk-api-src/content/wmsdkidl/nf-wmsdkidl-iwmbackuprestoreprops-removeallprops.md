@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMBackupRestoreProps.RemoveAllProps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

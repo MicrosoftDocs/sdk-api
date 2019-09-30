@@ -38,7 +38,6 @@ api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
  - IReferenceTracker.DisconnectFromTrackerSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

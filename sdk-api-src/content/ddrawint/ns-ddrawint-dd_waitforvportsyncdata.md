@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_WAITFORVPORTSYNCDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA'
 req.redist: 

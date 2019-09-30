@@ -45,7 +45,6 @@ api_name:
  - GetGlyphIndices
  - GetGlyphIndicesA
  - GetGlyphIndicesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

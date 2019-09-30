@@ -38,7 +38,6 @@ api_location:
  - Snmpapi.dll
 api_name:
  - SnmpSvcGetUptime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

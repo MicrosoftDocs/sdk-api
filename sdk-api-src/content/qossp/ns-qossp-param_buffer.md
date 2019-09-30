@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - PARAM_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
 req.redist: 

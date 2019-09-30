@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - PDXVAHDSW_GetVideoProcessorDeviceCaps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

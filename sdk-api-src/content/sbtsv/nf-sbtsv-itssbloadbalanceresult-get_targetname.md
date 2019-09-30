@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbLoadBalanceResult.TargetName
  - ITsSbLoadBalanceResult.get_TargetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

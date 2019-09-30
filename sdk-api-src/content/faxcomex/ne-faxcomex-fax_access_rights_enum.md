@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_ACCESS_RIGHTS_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_ACCESS_RIGHTS_ENUM
 req.redist: 

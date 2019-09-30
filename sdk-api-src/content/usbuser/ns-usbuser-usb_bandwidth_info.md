@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USB_BANDWIDTH_INFO
-product: Windows
 targetos: Windows
 req.typenames: USB_BANDWIDTH_INFO, *PUSB_BANDWIDTH_INFO
 req.redist: 

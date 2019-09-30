@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SymGetSymPrev64
 - SymGetSymPrev
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

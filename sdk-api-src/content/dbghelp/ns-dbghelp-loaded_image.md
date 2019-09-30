@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - LOADED_IMAGE
-product: Windows
 targetos: Windows
 req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
 req.redist: DbgHelp.dll 5.1 or later

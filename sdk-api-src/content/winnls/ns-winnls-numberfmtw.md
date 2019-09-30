@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - NUMBERFMT
-product: Windows
 targetos: Windows
 req.typenames: NUMBERFMTW, *LPNUMBERFMTW
 req.redist: 

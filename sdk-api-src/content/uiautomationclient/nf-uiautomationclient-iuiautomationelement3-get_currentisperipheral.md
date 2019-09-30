@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement3.CurrentIsPeripheral
  - IUIAutomationElement3.get_CurrentIsPeripheral
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - User32.dll
 api_name:
  - GetScrollRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

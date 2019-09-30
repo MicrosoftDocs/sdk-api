@@ -38,7 +38,6 @@ api_location:
  - Mspstrm.h
 api_name:
  - CMSPStream.Init
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

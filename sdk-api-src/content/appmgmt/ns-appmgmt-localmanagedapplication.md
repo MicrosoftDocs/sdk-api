@@ -38,7 +38,6 @@ api_location:
  - Appmgmt.h
 api_name:
  - LOCALMANAGEDAPPLICATION
-product: Windows
 targetos: Windows
 req.typenames: LOCALMANAGEDAPPLICATION, *PLOCALMANAGEDAPPLICATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Lmserver.h
 api_name:
 - SERVER_TRANSPORT_INFO_0
-product: Windows
 targetos: Windows
 req.typenames: SERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, *LPSERVER_TRANSPORT_INFO_0
 req.redist: 

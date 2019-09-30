@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - EVENTMSG
-product: Windows
 targetos: Windows
 req.typenames: EVENTMSG, *PEVENTMSGMSG, *NPEVENTMSGMSG, *LPEVENTMSGMSG, *PEVENTMSG, *NPEVENTMSG, *LPEVENTMSG
 req.redist: 

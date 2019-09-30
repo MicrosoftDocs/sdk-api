@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - CD3D11_TEXTURE1D_DESC.operator const D3D11_TEXTURE1D_DESC&
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

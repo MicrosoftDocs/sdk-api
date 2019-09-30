@@ -38,7 +38,6 @@ api_location:
  - waasapi.h
 api_name:
  - IWaaSAssessor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

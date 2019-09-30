@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate5.AutoDownload
  - IUpdate5.get_AutoDownload
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

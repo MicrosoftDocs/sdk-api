@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - DEFCONTEXTMENU
-product: Windows
 targetos: Windows
 req.typenames: DEFCONTEXTMENU
 req.redist: 

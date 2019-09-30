@@ -44,7 +44,6 @@ api_name:
  - PathIsRoot
  - PathIsRootA
  - PathIsRootW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

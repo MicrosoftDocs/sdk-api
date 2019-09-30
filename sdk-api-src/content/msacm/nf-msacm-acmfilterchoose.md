@@ -41,7 +41,6 @@ api_name:
  - acmFilterChoose
  - acmFilterChooseA
  - acmFilterChooseW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

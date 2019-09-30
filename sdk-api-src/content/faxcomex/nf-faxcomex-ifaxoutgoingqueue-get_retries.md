@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingQueue.put_Retries
  - IFaxOutgoingQueue.get_Retries
  - IFaxOutgoingQueue.put_Retries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

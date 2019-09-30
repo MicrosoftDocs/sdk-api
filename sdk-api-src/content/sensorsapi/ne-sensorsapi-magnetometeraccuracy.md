@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.h
 api_name:
  - MagnetometerAccuracy
-product: Windows
 targetos: Windows
 req.typenames: MagnetometerAccuracy
 req.redist: 

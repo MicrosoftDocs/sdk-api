@@ -38,7 +38,6 @@ api_location:
 - Ddraw.dll
 api_name:
 - IDirectDrawClipper.GetClipList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

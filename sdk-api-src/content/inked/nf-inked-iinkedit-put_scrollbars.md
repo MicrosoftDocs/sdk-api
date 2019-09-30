@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_ScrollBars
  - InkEdit.get_ScrollBars
  - InkEdit.put_ScrollBars
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

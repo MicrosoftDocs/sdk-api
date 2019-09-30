@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CRYPT_XML_KEY_DSA_KEY_VALUE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_KEY_DSA_KEY_VALUE
 req.redist: 

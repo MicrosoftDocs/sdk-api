@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - NMTTCUSTOMDRAW
-product: Windows
 targetos: Windows
 req.typenames: NMTTCUSTOMDRAW, *LPNMTTCUSTOMDRAW
 req.redist: 

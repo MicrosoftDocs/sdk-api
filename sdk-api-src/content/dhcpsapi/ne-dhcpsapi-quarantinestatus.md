@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - QuarantineStatus
-product: Windows
 targetos: Windows
 req.typenames: QuarantineStatus
 req.redist: 

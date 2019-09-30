@@ -40,7 +40,6 @@ api_name:
  - IFaxLoggingOptions.EventLogging
  - IFaxLoggingOptions.get_EventLogging
  - IFaxLoggingOptions.get_EventLogging
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

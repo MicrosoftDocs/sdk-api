@@ -40,7 +40,6 @@ api_name:
 - DsGetDcName
 - DsGetDcNameA
 - DsGetDcNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

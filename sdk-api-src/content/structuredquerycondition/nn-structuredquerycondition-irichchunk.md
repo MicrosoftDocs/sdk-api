@@ -38,7 +38,6 @@ api_location:
  - Structuredquerycondition.h
 api_name:
  - IRichChunk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessage.DeviceName
  - IFaxIncomingMessage.get_DeviceName
  - IFaxIncomingMessage.get_DeviceName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

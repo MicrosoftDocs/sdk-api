@@ -38,7 +38,6 @@ api_location:
  - winsvc.h
 api_name:
  - SERVICE_PREFERRED_NODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
 req.redist: 

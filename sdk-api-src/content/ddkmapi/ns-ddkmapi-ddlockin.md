@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDLOCKIN
-product: Windows
 targetos: Windows
 req.typenames: DDLOCKIN, *LPDDLOCKIN
 req.redist: 

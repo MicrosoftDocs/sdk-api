@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidClosedCaptioning3.get_TeleTextFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

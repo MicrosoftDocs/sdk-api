@@ -38,7 +38,6 @@ api_location:
 - Adsprop.h
 api_name:
 - ADSPROPINITPARAMS
-product: Windows
 targetos: Windows
 req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_LAYER_ENUM_TEMPLATE0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_LAYER_ENUM_TEMPLATE0
 req.redist: 

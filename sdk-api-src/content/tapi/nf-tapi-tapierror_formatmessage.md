@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - TAPIERROR_FORMATMESSAGE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

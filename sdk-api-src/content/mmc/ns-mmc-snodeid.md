@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - SNodeID
-product: Windows
 targetos: Windows
 req.typenames: SNodeID
 req.redist: 

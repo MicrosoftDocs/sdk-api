@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBRELEVANTDOCUMENT
-product: Windows
 targetos: Windows
 req.typenames: DBRELEVANTDOCUMENT
 req.redist: 

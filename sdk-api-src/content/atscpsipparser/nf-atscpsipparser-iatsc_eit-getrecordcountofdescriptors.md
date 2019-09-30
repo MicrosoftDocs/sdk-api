@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - IATSC_EIT.GetRecordCountOfDescriptors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

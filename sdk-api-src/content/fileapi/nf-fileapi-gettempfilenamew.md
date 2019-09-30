@@ -47,7 +47,6 @@ api_name:
  - GetTempFileName
  - GetTempFileNameA
  - GetTempFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

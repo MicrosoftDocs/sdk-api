@@ -40,7 +40,6 @@ api_name:
  - IX509SCEPEnrollment.OldCertificate
  - IX509SCEPEnrollment.get_OldCertificate
  - IX509SCEPEnrollment.put_OldCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -49,7 +49,6 @@ api_name:
  - GetLogicalDriveStrings
  - GetLogicalDriveStringsA
  - GetLogicalDriveStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

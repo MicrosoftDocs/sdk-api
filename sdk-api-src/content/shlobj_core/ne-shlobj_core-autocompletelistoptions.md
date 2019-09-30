@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - AUTOCOMPLETELISTOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: AUTOCOMPLETELISTOPTIONS
 req.redist: 

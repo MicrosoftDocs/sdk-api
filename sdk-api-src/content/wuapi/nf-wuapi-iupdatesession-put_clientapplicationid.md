@@ -40,7 +40,6 @@ api_name:
  - IUpdateSession.ClientApplicationID
  - IUpdateSession.get_ClientApplicationID
  - IUpdateSession.put_ClientApplicationID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

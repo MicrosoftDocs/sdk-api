@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - DEVICE_SELECTION_DEVICE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_SELECTION_DEVICE_TYPE
 req.redist: 

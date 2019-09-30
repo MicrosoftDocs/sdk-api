@@ -40,7 +40,6 @@ api_name:
  - IPrincipal.RunLevel
  - IPrincipal.get_RunLevel
  - IPrincipal.put_RunLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

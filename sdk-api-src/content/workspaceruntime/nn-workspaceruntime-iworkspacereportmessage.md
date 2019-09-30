@@ -38,7 +38,6 @@ api_location:
  - WkspRt.exe
 api_name:
  - IWorkspaceReportMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

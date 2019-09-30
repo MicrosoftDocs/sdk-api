@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IMcastLeaseInfo.put_LeaseStopTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

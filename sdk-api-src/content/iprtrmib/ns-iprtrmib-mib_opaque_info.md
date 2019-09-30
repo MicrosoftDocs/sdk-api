@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_OPAQUE_INFO
-product: Windows
 targetos: Windows
 req.typenames: MIB_OPAQUE_INFO, *PMIB_OPAQUE_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_NETWORK_PROFILE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_NETWORK_PROFILE_TYPE, *PWDSTRANSPORT_NETWORK_PROFILE_TYPE
 req.redist: 

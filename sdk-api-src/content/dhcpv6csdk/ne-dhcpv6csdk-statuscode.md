@@ -38,7 +38,6 @@ api_location:
  - Dhcpv6csdk.h
 api_name:
  - StatusCode
-product: Windows
 targetos: Windows
 req.typenames: StatusCode
 req.redist: 

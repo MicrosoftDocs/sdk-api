@@ -38,7 +38,6 @@ api_location:
  - Imm32.dll
 api_name:
  - ImmSimulateHotKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

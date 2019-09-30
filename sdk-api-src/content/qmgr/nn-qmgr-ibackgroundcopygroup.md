@@ -41,7 +41,6 @@ api_name:
  - IBackgroundCopyGroup.InternalSetProp
  - IBackgroundCopyGroup.QueryNewJobInterface
  - IBackgroundCopyGroup.SetNotificationPointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

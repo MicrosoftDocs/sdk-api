@@ -38,7 +38,6 @@ api_location:
  - Fwpuclnt.dll
 api_name:
  - FwpmSubLayerDeleteByKey0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

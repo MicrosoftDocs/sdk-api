@@ -38,7 +38,6 @@ api_location:
  - evntrace.h
 api_name:
  - ETW_PROCESS_HANDLE_INFO_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ETW_PROCESS_HANDLE_INFO_TYPE
 req.redist: 

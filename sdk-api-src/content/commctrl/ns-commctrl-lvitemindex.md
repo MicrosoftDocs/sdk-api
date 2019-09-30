@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVITEMINDEX
-product: Windows
 targetos: Windows
 req.typenames: LVITEMINDEX, *PLVITEMINDEX
 req.redist: 

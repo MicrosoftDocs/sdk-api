@@ -38,7 +38,6 @@ api_location:
  - wcndevice.h
 api_name:
  - WCN_PASSWORD_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WCN_PASSWORD_TYPE
 req.redist: 

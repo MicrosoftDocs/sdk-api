@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - ClusterGroupSetCloseEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

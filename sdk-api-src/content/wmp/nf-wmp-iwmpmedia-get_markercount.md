@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_markerCount
  - IWMPMedia2.get_markerCount
  - IWMPMedia3.get_markerCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

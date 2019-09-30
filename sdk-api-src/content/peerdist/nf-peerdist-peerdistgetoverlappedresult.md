@@ -38,7 +38,6 @@ api_location:
 - peerdist.h
 api_name:
 - PeerDistGetOverlappedResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

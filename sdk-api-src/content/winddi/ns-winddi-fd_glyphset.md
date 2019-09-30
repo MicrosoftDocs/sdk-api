@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - FD_GLYPHSET
-product: Windows
 targetos: Windows
 req.typenames: FD_GLYPHSET, *PFD_GLYPHSET
 req.redist: 

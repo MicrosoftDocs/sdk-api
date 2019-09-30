@@ -38,7 +38,6 @@ api_location:
  - AdvApi32.dll
 api_name:
  - RegQueryReflectionKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

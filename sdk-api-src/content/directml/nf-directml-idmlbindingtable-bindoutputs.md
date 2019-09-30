@@ -38,7 +38,6 @@ api_location:
  - DirectML.dll
 api_name:
  - IDMLBindingTable.BindOutputs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

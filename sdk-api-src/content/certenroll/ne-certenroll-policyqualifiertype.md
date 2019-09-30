@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - PolicyQualifierType
-product: Windows
 targetos: Windows
 req.typenames: PolicyQualifierType
 req.redist: 

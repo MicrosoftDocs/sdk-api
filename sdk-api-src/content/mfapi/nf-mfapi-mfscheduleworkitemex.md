@@ -38,7 +38,6 @@ api_location:
  - mfplat.dll
 api_name:
  - MFScheduleWorkItemEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

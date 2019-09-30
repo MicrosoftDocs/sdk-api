@@ -38,7 +38,6 @@ api_location:
  - windows.media.streaming.h
 api_name:
  - RenderingParameters
-product: Windows
 targetos: Windows
 req.typenames: RenderingParameters
 req.redist: 

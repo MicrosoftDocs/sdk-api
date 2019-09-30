@@ -38,7 +38,6 @@ api_location:
  - Shlobj_core.h
 api_name:
  - IShellFolderView.SetPoints
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - SHChangeProductKeyAsIDList
-product: Windows
 targetos: Windows
 req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
 req.redist: 

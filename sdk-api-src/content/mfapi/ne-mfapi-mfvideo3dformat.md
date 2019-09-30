@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFVideo3DFormat
-product: Windows
 targetos: Windows
 req.typenames: MFVideo3DFormat
 req.redist: 

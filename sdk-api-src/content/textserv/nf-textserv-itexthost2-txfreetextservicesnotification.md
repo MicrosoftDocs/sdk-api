@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextHost2.TxFreeTextServicesNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

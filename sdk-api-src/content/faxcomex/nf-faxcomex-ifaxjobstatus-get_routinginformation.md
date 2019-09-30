@@ -40,7 +40,6 @@ api_name:
 - IFaxJobStatus.RoutingInformation
 - IFaxJobStatus.get_RoutingInformation
 - IFaxJobStatus.get_RoutingInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

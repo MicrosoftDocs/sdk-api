@@ -38,7 +38,6 @@ api_location:
 - LsaLookup.h
 api_name:
 - POLICY_ACCOUNT_DOMAIN_INFO
-product: Windows
 targetos: Windows
 req.typenames: POLICY_ACCOUNT_DOMAIN_INFO, *PPOLICY_ACCOUNT_DOMAIN_INFO
 req.redist: 

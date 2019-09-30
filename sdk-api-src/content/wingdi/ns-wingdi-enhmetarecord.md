@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - ENHMETARECORD
-product: Windows
 targetos: Windows
 req.typenames: ENHMETARECORD, *PENHMETARECORD, *LPENHMETARECORD
 req.redist: 

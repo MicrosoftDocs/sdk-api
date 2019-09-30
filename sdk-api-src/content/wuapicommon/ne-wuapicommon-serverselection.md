@@ -38,7 +38,6 @@ api_location:
  - wuapicommon.h
 api_name:
  - ServerSelection
-product: Windows
 targetos: Windows
 req.typenames: ServerSelection
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Urlmon.dll
 api_name:
  - CreateAsyncBindCtx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

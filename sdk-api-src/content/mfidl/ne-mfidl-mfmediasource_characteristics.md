@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFMEDIASOURCE_CHARACTERISTICS
-product: Windows
 targetos: Windows
 req.typenames: MFMEDIASOURCE_CHARACTERISTICS
 req.redist: 

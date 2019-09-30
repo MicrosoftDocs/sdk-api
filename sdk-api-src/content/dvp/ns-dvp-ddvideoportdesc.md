@@ -38,7 +38,6 @@ api_location:
 - dvp.h
 api_name:
 - DDVIDEOPORTDESC
-product: Windows
 targetos: Windows
 req.typenames: '*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC'
 req.redist: 

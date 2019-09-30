@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CRYPT_SIGN_AND_ENCODE_HASH_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

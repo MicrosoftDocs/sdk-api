@@ -38,7 +38,6 @@ api_location:
  - Tcpestats.h
 api_name:
  - TCP_ESTATS_SND_CONG_ROS_v0
-product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_SND_CONG_ROS_v0, *PTCP_ESTATS_SND_CONG_ROS_v0
 req.redist: 

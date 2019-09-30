@@ -38,7 +38,6 @@ api_location:
  - vertdll.dll
 api_name:
  - EnclaveVerifyAttestationReport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

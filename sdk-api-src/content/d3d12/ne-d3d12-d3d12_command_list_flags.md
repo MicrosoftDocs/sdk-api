@@ -28,7 +28,6 @@ api_location:
  - d3d12.h
 api_name: 
  - D3D12_COMMAND_LIST_FLAGS
-product: Windows
 targetos: Windows
 ---
 

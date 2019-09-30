@@ -38,7 +38,6 @@ api_location:
  - Tcpestats.h
 api_name:
  - TCP_ESTATS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
 req.redist: 

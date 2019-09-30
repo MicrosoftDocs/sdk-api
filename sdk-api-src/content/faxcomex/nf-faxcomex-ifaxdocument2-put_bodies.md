@@ -40,7 +40,6 @@ api_name:
  - IFaxDocument2.Bodies
  - IFaxDocument2.get_Bodies
  - IFaxDocument2.put_Bodies
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

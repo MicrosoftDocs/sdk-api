@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPIFrameBuffer.Width
  - IRDPSRAPIFrameBuffer.get_Width
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

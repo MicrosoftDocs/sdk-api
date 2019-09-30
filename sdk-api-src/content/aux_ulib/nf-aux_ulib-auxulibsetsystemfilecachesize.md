@@ -38,7 +38,6 @@ api_location:
  - Aux_ulib.lib
 api_name:
  - AuxUlibSetSystemFileCacheSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 1.0 or later

@@ -38,7 +38,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - PolicyAttributeType
-product: Windows
 targetos: Windows
 req.typenames: PolicyAttributeType
 req.redist: 

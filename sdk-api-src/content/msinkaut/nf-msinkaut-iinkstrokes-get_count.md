@@ -41,7 +41,6 @@ api_name:
  - IInkStrokes.Count
  - IInkStrokes.get_Count
  - InkStrokes.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

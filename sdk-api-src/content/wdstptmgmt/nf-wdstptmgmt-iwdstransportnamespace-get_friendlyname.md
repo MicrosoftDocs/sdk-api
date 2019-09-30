@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportNamespace.FriendlyName
  - IWdsTransportNamespace.get_FriendlyName
  - IWdsTransportNamespace.put_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

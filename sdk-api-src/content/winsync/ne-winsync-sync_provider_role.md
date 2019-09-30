@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_PROVIDER_ROLE
-product: Windows
 targetos: Windows
 req.typenames: SYNC_PROVIDER_ROLE
 req.redist: 

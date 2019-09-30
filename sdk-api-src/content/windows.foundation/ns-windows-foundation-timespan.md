@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - TimeSpan
-product: Windows
 targetos: Windows
 req.typenames: TimeSpan
 req.redist: 

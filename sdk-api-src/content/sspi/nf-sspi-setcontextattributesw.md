@@ -40,7 +40,6 @@ api_name:
 - SetContextAttributes
 - SetContextAttributesA
 - SetContextAttributesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

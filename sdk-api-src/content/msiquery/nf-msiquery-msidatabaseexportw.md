@@ -40,7 +40,6 @@ api_name:
  - MsiDatabaseExport
  - MsiDatabaseExportA
  - MsiDatabaseExportW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

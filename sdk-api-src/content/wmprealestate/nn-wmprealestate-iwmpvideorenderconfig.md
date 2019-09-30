@@ -38,7 +38,6 @@ api_location:
  - wmprealestate.h
 api_name:
  - IWMPVideoRenderConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

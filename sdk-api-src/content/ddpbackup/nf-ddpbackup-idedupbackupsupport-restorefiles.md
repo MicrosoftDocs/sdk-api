@@ -38,7 +38,6 @@ api_location:
  - DdpBackup.h
 api_name:
  - IDedupBackupSupport.RestoreFiles
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

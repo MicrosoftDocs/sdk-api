@@ -38,7 +38,6 @@ api_location:
  - winioctl.h
 api_name:
  - STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, *PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 req.redist: 

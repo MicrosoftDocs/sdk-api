@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.UIContextMessage
  - IX509CertificateRequest.get_UIContextMessage
  - IX509CertificateRequest.put_UIContextMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

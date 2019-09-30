@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_OBJECT_PROP
-product: Windows
 targetos: Windows
 req.typenames: VSS_OBJECT_PROP, *PVSS_OBJECT_PROP
 req.redist: 

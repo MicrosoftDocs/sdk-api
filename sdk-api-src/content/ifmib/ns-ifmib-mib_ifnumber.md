@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IFNUMBER
-product: Windows
 targetos: Windows
 req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
 req.redist: 

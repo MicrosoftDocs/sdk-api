@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - DataManagerSteps
-product: Windows
 targetos: Windows
 req.typenames: DataManagerSteps
 req.redist: 

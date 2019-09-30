@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLECONTF
-product: Windows
 targetos: Windows
 req.typenames: OLECONTF
 req.redist: 

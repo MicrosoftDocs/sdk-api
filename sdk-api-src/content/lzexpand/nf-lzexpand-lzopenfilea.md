@@ -40,7 +40,6 @@ api_name:
 - LZOpenFile
 - LZOpenFileA
 - LZOpenFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

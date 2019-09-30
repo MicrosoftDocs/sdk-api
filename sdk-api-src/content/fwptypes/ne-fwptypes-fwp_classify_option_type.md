@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_CLASSIFY_OPTION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWP_CLASSIFY_OPTION_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mpeg2PsiParser.h
 api_name:
  - IPMT.GetRecordElementaryPid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

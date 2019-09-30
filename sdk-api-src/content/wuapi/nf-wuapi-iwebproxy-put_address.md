@@ -40,7 +40,6 @@ api_name:
  - IWebProxy.Address
  - IWebProxy.get_Address
  - IWebProxy.put_Address
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

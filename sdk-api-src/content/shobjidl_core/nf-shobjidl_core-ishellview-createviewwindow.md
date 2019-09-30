@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IShellView.CreateViewWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

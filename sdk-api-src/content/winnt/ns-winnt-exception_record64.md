@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - EXCEPTION_RECORD
-product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_RECORD64, *PEXCEPTION_RECORD64
 req.redist: 

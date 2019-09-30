@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PERF_MULTI_INSTANCES
-product: Windows
 targetos: Windows
 req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
 req.redist: 

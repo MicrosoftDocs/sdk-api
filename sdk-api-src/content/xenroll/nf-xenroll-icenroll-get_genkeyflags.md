@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_GenKeyFlags
  - ICEnroll.put_GenKeyFlags
  - CEnroll.GenKeyFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

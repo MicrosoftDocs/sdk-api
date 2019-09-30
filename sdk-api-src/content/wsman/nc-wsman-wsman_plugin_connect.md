@@ -38,7 +38,6 @@ api_location:
 - WsMan.h
 api_name:
 - WSMAN_PLUGIN_CONNECT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 and Windows Vista

@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.SenderHomePhone
  - IFaxDoc.get_SenderHomePhone
  - IFaxDoc.put_SenderHomePhone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

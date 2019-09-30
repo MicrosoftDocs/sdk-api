@@ -44,7 +44,6 @@ api_location:
 api_name:
  - StrCatChainW
  - StrCatChainW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

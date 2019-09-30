@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - FILESHARE_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: FILESHARE_CHANGE, *PFILESHARE_CHANGE
 req.redist: 

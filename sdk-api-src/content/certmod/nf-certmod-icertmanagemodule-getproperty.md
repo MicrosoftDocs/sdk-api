@@ -40,7 +40,6 @@ api_location:
 api_name:
  - ICertManageModule.GetProperty
  - CCertManageModule.GetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

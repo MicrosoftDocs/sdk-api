@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDENABLEIRQINFO
-product: Windows
 targetos: Windows
 req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
 req.redist: 

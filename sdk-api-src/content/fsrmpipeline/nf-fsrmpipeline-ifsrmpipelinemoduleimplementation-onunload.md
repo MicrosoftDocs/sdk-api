@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleImplementation.OnUnload
  - IFsrmStorageModuleImplementation.OnUnload
  - IFsrmClassifierModuleImplementation.OnUnload
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

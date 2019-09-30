@@ -38,7 +38,6 @@ api_location:
  - Winbio.h
 api_name:
  - PWINBIO_EVENT_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

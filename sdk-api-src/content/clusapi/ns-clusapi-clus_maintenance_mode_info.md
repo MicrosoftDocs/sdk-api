@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_MAINTENANCE_MODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_MAINTENANCE_MODE_INFO, *PCLUS_MAINTENANCE_MODE_INFO
 req.redist: 

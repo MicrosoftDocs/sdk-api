@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - FULLDUPLEX_SUPPORT
-product: Windows
 targetos: Windows
 req.typenames: FULLDUPLEX_SUPPORT
 req.redist: 

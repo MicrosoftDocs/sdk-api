@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_TIME
-product: Windows
 targetos: Windows
 req.typenames: MPEG_TIME
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Userenv.h
 api_name:
  - POLICYSETTINGSTATUSINFO
-product: Windows
 targetos: Windows
 req.typenames: POLICYSETTINGSTATUSINFO, *LPPOLICYSETTINGSTATUSINFO
 req.redist: 

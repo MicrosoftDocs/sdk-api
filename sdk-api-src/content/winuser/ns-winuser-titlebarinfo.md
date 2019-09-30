@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TITLEBARINFO
-product: Windows
 targetos: Windows
 req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
 req.redist: 

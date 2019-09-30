@@ -42,7 +42,6 @@ api_name:
  - IGestureRecognizer.put_MaxStrokeCount
  - IGestureRecognizer.get_MaxStrokeCount
  - IGestureRecognizer.put_MaxStrokeCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

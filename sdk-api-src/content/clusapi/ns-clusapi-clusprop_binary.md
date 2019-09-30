@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_BINARY
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_BINARY, *PCLUSPROP_BINARY
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - LDAPMod
  - ldapmodA
  - ldapmodW
-product: Windows
 targetos: Windows
 req.typenames: LDAPModA, *PLDAPModA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Header_GetItemRect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

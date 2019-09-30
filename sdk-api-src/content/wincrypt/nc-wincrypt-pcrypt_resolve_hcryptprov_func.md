@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PCRYPT_RESOLVE_HCRYPTPROV_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

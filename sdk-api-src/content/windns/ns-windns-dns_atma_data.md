@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_ATMA_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
 req.redist: 

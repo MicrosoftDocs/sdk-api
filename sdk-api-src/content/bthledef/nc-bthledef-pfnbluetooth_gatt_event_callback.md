@@ -38,7 +38,6 @@ api_location:
 - bthledef.h
 api_name:
 - BluetoothGattEventCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

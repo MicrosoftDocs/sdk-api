@@ -46,7 +46,6 @@ api_location:
  - API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
  - GetSystemTimeAdjustment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

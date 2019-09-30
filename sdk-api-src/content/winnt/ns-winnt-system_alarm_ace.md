@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - SYSTEM_ALARM_ACE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_ALARM_ACE
 req.redist: 

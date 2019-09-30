@@ -40,7 +40,6 @@ api_name:
  - IEnroll.ProviderFlags
  - IEnroll.get_ProviderFlags
  - IEnroll.put_ProviderFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - NtQuery.dll
 api_name:
  - LoadIFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

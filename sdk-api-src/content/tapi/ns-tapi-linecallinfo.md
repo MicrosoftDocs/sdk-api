@@ -38,7 +38,6 @@ api_location:
 - Tapi.h
 api_name:
 - LINECALLINFO
-product: Windows
 targetos: Windows
 req.typenames: LINECALLINFO, *LPLINECALLINFO
 req.redist: 

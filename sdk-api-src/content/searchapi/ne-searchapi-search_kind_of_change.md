@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - SEARCH_KIND_OF_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_KIND_OF_CHANGE
 req.redist: Windows Desktop Search (WDS) 3.0

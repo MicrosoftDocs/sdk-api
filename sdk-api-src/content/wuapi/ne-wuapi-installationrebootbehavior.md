@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - InstallationRebootBehavior
-product: Windows
 targetos: Windows
 req.typenames: InstallationRebootBehavior
 req.redist: 

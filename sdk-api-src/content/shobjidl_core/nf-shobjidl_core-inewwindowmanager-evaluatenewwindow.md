@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - INewWindowManager.EvaluateNewWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

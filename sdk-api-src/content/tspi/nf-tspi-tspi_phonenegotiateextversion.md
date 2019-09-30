@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TSPI_phoneNegotiateExtVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

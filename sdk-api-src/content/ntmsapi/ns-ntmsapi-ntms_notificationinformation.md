@@ -38,7 +38,6 @@ api_location:
  - Ntmsapi.h
 api_name:
  - NTMS_NOTIFICATIONINFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NTMS_NOTIFICATIONINFORMATION, *LPNTMS_NOTIFICATIONINFORMATION
 req.redist: 

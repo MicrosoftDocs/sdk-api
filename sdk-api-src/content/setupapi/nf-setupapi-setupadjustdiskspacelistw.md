@@ -40,7 +40,6 @@ api_name:
  - SetupAdjustDiskSpaceList
  - SetupAdjustDiskSpaceListA
  - SetupAdjustDiskSpaceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

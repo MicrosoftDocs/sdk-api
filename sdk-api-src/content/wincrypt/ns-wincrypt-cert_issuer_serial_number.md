@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_ISSUER_SERIAL_NUMBER
-product: Windows
 targetos: Windows
 req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - ATTACHMENT_ACTION
-product: Windows
 targetos: Windows
 req.typenames: ATTACHMENT_ACTION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - ISCTE_EAS.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

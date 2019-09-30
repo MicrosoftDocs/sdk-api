@@ -38,7 +38,6 @@ api_location:
  - ntdll.dll
 api_name:
  - NtSetInformationKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

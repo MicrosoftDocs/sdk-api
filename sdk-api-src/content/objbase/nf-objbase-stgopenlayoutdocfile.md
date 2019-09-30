@@ -38,7 +38,6 @@ api_location:
  - DfLayout.dll
 api_name:
  - StgOpenLayoutDocfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

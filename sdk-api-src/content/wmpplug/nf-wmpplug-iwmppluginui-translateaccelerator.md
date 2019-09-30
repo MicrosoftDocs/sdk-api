@@ -38,7 +38,6 @@ api_location:
  - wmpplug.h
 api_name:
  - IWMPPluginUI.TranslateAccelerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

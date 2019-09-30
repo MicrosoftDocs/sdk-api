@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_SWAP_CHAIN_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_FLAG
 req.redist: 

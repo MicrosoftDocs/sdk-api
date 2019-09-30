@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, *PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - micaut.h
 api_name:
  - IMathInputControl.AddFunctionName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

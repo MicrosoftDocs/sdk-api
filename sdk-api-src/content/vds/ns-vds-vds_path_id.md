@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_PATH_ID
-product: Windows
 targetos: Windows
 req.typenames: VDS_PATH_ID
 req.redist: VDS 1.1

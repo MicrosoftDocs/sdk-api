@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.DiscountRateEnd
  - IFaxConfiguration.get_DiscountRateEnd
  - IFaxConfiguration.put_DiscountRateEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

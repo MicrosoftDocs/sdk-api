@@ -6,7 +6,6 @@ ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

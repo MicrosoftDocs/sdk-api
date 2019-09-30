@@ -38,7 +38,6 @@ api_location:
 - Mmcndmgr.dll
 api_name:
 - IContextMenuCallback.AddItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

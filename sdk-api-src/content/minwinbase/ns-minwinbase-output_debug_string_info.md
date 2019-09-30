@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - OUTPUT_DEBUG_STRING_INFO
-product: Windows
 targetos: Windows
 req.typenames: OUTPUT_DEBUG_STRING_INFO, *LPOUTPUT_DEBUG_STRING_INFO
 req.redist: 

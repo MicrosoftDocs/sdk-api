@@ -38,7 +38,6 @@ api_location:
 - Evntrace.h
 api_name:
 - ENABLE_TRACE_PARAMETERS_V1
-product: Windows
 targetos: Windows
 req.typenames: ENABLE_TRACE_PARAMETERS_V1, *PENABLE_TRACE_PARAMETERS_V1
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - audioengineendpoint.h
 api_name:
  - IAudioEndpointLastBufferControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

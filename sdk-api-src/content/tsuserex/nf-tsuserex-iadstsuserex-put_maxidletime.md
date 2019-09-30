@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.MaxIdleTime
  - IADsTSUserEx.get_MaxIdleTime
  - IADsTSUserEx.put_MaxIdleTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

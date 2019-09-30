@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.UninstallationNotes
  - IUpdate.get_UninstallationNotes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

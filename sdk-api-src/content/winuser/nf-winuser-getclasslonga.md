@@ -42,7 +42,6 @@ api_name:
  - GetClassLong
  - GetClassLongA
  - GetClassLongW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

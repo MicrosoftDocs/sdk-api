@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfApoInit
-product: Windows
 targetos: Windows
 req.typenames: HrtfApoInit
 req.redist: 

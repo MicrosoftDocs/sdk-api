@@ -41,7 +41,6 @@ api_location:
  - coml2.dll
 api_name:
  - StgOpenStorage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

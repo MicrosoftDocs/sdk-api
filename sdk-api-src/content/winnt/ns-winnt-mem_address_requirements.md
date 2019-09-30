@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - MEM_ADDRESS_REQUIREMENTS
-product: Windows
 targetos: Windows
 req.typenames: MEM_ADDRESS_REQUIREMENTS, *PMEM_ADDRESS_REQUIREMENTS
 req.redist: 

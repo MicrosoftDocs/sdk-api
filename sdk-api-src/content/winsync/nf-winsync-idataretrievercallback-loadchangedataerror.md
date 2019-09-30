@@ -38,7 +38,6 @@ api_location:
  - Winsync.h
 api_name:
  - IDataRetrieverCallback.LoadChangeDataError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.ArchiveAgeLimit
  - IFaxConfiguration.get_ArchiveAgeLimit
  - IFaxConfiguration.put_ArchiveAgeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

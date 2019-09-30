@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmQuotaFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmQuotaFlags
 req.redist: 

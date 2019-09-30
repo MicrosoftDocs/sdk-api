@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_PROTOCOL_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
 req.redist: 

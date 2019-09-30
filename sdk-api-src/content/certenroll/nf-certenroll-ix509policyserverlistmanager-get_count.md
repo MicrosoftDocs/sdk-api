@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PolicyServerListManager.Count
  - IX509PolicyServerListManager.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

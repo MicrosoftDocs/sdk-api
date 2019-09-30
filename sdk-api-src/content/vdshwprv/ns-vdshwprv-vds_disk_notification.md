@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_DISK_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_NOTIFICATION
 req.redist: 

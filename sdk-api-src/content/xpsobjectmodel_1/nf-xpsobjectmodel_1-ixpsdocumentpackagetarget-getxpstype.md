@@ -38,7 +38,6 @@ api_location:
  - Xpsobjectmodel_1.h
 api_name:
  - IXpsDocumentPackageTarget.GetXpsType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

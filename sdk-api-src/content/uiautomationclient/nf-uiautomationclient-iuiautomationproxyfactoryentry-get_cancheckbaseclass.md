@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationProxyFactoryEntry.CanCheckBaseClass
  - IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass
  - IUIAutomationProxyFactoryEntry.put_CanCheckBaseClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

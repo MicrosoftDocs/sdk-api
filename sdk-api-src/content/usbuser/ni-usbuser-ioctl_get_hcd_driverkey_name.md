@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - IOCTL_GET_HCD_DRIVERKEY_NAME
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.h
 api_name:
  - XMLoadUByteN4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

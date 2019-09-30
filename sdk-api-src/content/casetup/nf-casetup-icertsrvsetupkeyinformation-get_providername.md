@@ -40,7 +40,6 @@ api_name:
  - ICertSrvSetupKeyInformation.ProviderName
  - ICertSrvSetupKeyInformation.get_ProviderName
  - ICertSrvSetupKeyInformation.put_ProviderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

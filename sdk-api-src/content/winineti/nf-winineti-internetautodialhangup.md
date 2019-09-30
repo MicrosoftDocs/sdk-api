@@ -38,7 +38,6 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetAutodialHangup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

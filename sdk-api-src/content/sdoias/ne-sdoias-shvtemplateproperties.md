@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - SHVTEMPLATEPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: SHVTEMPLATEPROPERTIES
 req.redist: 

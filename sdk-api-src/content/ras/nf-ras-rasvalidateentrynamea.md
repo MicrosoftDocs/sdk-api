@@ -40,7 +40,6 @@ api_name:
  - RasValidateEntryName
  - RasValidateEntryNameA
  - RasValidateEntryNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

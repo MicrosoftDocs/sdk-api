@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - MEM_DES
-product: Windows
 targetos: Windows
 req.typenames: MEM_DES, *PMEM_DES
 req.redist: 

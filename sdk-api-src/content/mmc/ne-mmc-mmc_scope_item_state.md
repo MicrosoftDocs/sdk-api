@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - MMC_SCOPE_ITEM_STATE
-product: Windows
 targetos: Windows
 req.typenames: MMC_SCOPE_ITEM_STATE
 req.redist: 

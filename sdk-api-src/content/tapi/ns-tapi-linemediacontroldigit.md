@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEMEDIACONTROLDIGIT
-product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLDIGIT, *LPLINEMEDIACONTROLDIGIT
 req.redist: 

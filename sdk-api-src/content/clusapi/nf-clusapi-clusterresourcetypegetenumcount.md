@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
 api_name:
  - ClusterResourceTypeGetEnumCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - WIN32_STREAM_ID
-product: Windows
 targetos: Windows
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 req.redist: 

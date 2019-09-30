@@ -48,7 +48,6 @@ api_name:
  - MapVirtualKeyEx
  - MapVirtualKeyExA
  - MapVirtualKeyExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

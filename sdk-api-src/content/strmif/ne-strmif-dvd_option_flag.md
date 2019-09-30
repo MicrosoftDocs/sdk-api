@@ -38,7 +38,6 @@ api_location:
 - strmif.h
 api_name:
 - DVD_OPTION_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DVD_OPTION_FLAG
 req.redist: 

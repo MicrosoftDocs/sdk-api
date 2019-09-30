@@ -42,7 +42,6 @@ api_name:
  - SCardGetCardTypeProviderName
  - SCardGetCardTypeProviderNameA
  - SCardGetCardTypeProviderNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Instrsa5.dll
 api_name:
  - GetEncSChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

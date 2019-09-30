@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmRuleFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmRuleFlags
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawi.h
 api_name:
 - DDCORECAPS
-product: Windows
 targetos: Windows
 req.typenames: DDCORECAPS
 req.redist: 

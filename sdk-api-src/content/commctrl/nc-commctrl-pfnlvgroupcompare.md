@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - PFNLVGROUPCOMPARE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

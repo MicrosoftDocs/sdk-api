@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_CONTEXTAVAILABILITY
-product: Windows
 targetos: Windows
 req.typenames: UI_CONTEXTAVAILABILITY
 req.redist: 

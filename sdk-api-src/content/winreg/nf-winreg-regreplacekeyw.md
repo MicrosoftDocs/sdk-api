@@ -43,7 +43,6 @@ api_name:
  - RegReplaceKey
  - RegReplaceKeyA
  - RegReplaceKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

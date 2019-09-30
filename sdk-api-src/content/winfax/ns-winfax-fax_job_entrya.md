@@ -40,7 +40,6 @@ api_name:
 - FAX_JOB_ENTRY
 - FAX_JOB_ENTRYA
 - FAX_JOB_ENTRYW
-product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_ENTRYA, *PFAX_JOB_ENTRYA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PERF_COUNTER_HEADER
-product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_HEADER, *PPERF_COUNTER_HEADER
 req.redist: 

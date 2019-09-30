@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_INVERTEDIFSTACK_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_INVERTEDIFSTACK_TABLE, *PMIB_INVERTEDIFSTACK_TABLE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winnls.h
 api_name:
 - FILEMUIINFO_GET_CULTURE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

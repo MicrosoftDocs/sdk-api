@@ -38,7 +38,6 @@ api_location:
  - dpa_dsa.h
 api_name:
  - PFNDACOMPARECONST
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

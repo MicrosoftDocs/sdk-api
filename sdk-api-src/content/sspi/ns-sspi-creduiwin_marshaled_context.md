@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - CREDUIWIN_MARSHALED_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CREDUIWIN_MARSHALED_CONTEXT, *PCREDUIWIN_MARSHALED_CONTEXT
 req.redist: 

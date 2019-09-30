@@ -40,7 +40,6 @@ api_name:
  - lineGetAddressStatus
  - lineGetAddressStatusA
  - lineGetAddressStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

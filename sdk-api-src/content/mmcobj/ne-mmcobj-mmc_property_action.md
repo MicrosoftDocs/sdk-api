@@ -38,7 +38,6 @@ api_location:
 - Mmcobj.h
 api_name:
 - MMC_PROPERTY_ACTION
-product: Windows
 targetos: Windows
 req.typenames: MMC_PROPERTY_ACTION
 req.redist: 

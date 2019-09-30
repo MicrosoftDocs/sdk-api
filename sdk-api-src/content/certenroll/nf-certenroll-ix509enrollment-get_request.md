@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Enrollment.Request
  - IX509Enrollment.get_Request
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

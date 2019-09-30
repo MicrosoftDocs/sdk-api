@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFTOPOLOGY_HARDWARE_MODE
-product: Windows
 targetos: Windows
 req.typenames: MFTOPOLOGY_HARDWARE_MODE
 req.redist: 

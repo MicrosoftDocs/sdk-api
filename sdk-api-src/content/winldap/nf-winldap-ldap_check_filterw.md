@@ -40,7 +40,6 @@ api_name:
  - ldap_check_filter
  - ldap_check_filterA
  - ldap_check_filterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

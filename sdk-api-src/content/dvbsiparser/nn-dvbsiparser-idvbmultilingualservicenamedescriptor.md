@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbMultilingualServiceNameDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

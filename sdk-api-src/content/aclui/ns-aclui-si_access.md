@@ -38,7 +38,6 @@ api_location:
  - Aclui.h
 api_name:
  - SI_ACCESS
-product: Windows
 targetos: Windows
 req.typenames: SI_ACCESS, *PSI_ACCESS
 req.redist: 

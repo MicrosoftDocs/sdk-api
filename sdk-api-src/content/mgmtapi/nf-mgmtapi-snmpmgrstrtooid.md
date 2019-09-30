@@ -38,7 +38,6 @@ api_location:
  - Mgmtapi.dll
 api_name:
  - SnmpMgrStrToOid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

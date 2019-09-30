@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IISDB_BIT.GetVersionHash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

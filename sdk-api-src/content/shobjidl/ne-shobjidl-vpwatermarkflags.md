@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - VPWATERMARKFLAGS
-product: Windows
 targetos: Windows
 req.typenames: VPWATERMARKFLAGS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_attributeCount
  - IWMPMedia2.get_attributeCount
  - IWMPMedia3.get_attributeCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

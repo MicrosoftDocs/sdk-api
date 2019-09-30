@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IP_ADAPTER_ORDER_MAP
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
 req.redist: 

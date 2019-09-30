@@ -38,7 +38,6 @@ api_location:
 - WinSafer.h
 api_name:
 - SAFER_IDENTIFICATION_TYPES
-product: Windows
 targetos: Windows
 req.typenames: SAFER_IDENTIFICATION_TYPES
 req.redist: 

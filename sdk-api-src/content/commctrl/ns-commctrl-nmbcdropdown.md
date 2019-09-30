@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMBCDROPDOWN
-product: Windows
 targetos: Windows
 req.typenames: NMBCDROPDOWN, *LPNMBCDROPDOWN
 req.redist: 

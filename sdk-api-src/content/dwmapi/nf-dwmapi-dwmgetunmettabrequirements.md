@@ -38,7 +38,6 @@ api_location:
  - dwmapi.dll
 api_name:
  - DwmGetUnmetTabRequirements
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

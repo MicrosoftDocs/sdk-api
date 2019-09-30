@@ -38,7 +38,6 @@ api_location:
  - Ntdll.dll
 api_name:
  - NtWaitForSingleObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

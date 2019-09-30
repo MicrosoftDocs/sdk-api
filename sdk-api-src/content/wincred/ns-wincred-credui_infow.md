@@ -38,7 +38,6 @@ api_location:
  - WinCred.h
 api_name:
  - CREDUI_INFO
-product: Windows
 targetos: Windows
 req.typenames: CREDUI_INFOW, *PCREDUI_INFOW
 req.redist: 

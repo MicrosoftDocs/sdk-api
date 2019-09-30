@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowInboundEchoRequest
  - INetFwIcmpSettings.get_AllowInboundEchoRequest
  - INetFwIcmpSettings.put_AllowInboundEchoRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

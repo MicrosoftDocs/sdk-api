@@ -45,7 +45,6 @@ api_name:
  - FreeEnvironmentStrings
  - FreeEnvironmentStringsA
  - FreeEnvironmentStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

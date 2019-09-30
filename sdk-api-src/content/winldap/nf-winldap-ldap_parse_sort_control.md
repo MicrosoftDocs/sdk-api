@@ -40,7 +40,6 @@ api_name:
  - ldap_parse_sort_control
  - ldap_parse_sort_controlA
  - ldap_parse_sort_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

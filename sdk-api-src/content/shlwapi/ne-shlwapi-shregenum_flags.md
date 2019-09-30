@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - SHREGENUM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SHREGENUM_FLAGS
 req.redist: 

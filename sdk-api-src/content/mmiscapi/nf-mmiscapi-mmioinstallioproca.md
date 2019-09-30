@@ -43,7 +43,6 @@ api_name:
  - mmioInstallIOProc
  - mmioInstallIOProcA
  - mmioInstallIOProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

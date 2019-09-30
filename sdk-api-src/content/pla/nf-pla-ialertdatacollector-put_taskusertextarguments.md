@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.TaskUserTextArguments
  - IAlertDataCollector.get_TaskUserTextArguments
  - IAlertDataCollector.put_TaskUserTextArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

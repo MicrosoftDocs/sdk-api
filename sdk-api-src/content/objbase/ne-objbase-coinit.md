@@ -38,7 +38,6 @@ api_location:
  - Objbase.h
 api_name:
  - COINIT
-product: Windows
 targetos: Windows
 req.typenames: COINIT
 req.redist: 

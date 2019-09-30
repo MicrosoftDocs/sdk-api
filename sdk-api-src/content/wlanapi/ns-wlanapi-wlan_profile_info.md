@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_PROFILE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO
 req.redist: Wireless LAN API for Windows XP with SP2

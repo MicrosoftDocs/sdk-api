@@ -37,7 +37,6 @@ api_location:
  - appmodel.h
 api_name:
  - GetPackagePathByFullName2
-product: Windows
 targetos: Windows
 ms.custom: 19H1
 ---

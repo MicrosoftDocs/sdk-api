@@ -39,7 +39,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteRemoteFontFileLoader.GetLocalityFromKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

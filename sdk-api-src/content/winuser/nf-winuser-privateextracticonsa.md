@@ -41,7 +41,6 @@ api_name:
  - PrivateExtractIcons
  - PrivateExtractIconsA
  - PrivateExtractIconsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

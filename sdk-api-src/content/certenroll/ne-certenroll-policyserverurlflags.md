@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - PolicyServerUrlFlags
-product: Windows
 targetos: Windows
 req.typenames: PolicyServerUrlFlags
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.TraceDataProviders
  - ITraceDataCollector.get_TraceDataProviders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dhcpsapi.h
 api_name:
  - DHCPV6_STATELESS_STATS
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, *LPDHCPV6_STATELESS_STATS
 req.redist: 

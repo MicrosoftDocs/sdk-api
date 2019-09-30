@@ -38,7 +38,6 @@ api_location:
  - Gdipluscolormatrix.h
 api_name:
  - ColorMatrix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

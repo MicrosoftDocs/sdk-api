@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyBackedUp.BackedUpValue
  - ICertPropertyBackedUp.get_BackedUpValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

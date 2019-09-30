@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_INTERFACE_CAPS
-product: Windows
 targetos: Windows
 req.typenames: MBN_INTERFACE_CAPS
 req.redist: 

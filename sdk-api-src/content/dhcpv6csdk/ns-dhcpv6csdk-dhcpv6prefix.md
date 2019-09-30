@@ -38,7 +38,6 @@ api_location:
  - Dhcpv6csdk.h
 api_name:
  - DHCPV6Prefix
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6Prefix, *PDHCPV6Prefix, *LPDHCPV6Prefix
 req.redist: 

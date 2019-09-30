@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - COMPPOS
-product: Windows
 targetos: Windows
 req.typenames: COMPPOS
 req.redist: 

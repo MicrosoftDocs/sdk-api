@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - IEnumDialableAddrs.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

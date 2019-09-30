@@ -43,7 +43,6 @@ api_name:
  - mmioStringToFOURCC
  - mmioStringToFOURCCA
  - mmioStringToFOURCCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

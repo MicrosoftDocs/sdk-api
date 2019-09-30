@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PROPDESC_SEARCHINFO_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PROPDESC_SEARCHINFO_FLAGS
 req.redist: 

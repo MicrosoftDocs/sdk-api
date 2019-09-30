@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - DEPENDENT_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DEPENDENT_DISK_FLAG
 req.redist: 

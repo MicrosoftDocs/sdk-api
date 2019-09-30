@@ -38,7 +38,6 @@ api_location:
  - Fdi.h
 api_name:
  - FDICABINETINFO FAR *PFDICABINETINFO
-product: Windows
 targetos: Windows
 req.typenames: FDICABINETINFO
 req.redist: 

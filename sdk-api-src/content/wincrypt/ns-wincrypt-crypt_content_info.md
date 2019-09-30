@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_CONTENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTENT_INFO, *PCRYPT_CONTENT_INFO
 req.redist: 

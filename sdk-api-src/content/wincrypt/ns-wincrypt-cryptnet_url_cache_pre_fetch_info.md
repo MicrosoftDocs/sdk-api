@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPTNET_URL_CACHE_PRE_FETCH_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_PRE_FETCH_INFO, *PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
 req.redist: 

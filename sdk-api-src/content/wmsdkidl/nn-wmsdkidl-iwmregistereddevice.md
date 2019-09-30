@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - IWMRegisteredDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_MENU_COMMAND_IDS
-product: Windows
 targetos: Windows
 req.typenames: MMC_MENU_COMMAND_IDS
 req.redist: 

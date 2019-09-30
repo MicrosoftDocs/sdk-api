@@ -40,7 +40,6 @@ api_name:
  - TcQueryFlow
  - TcQueryFlowA
  - TcQueryFlowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_BINDING_HANDLE_OPTIONS_V1
-product: Windows
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_OPTIONS_V1, *PRPC_BINDING_HANDLE_OPTIONS_V1
 req.redist: 

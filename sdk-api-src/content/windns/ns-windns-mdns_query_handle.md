@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "windns/_MDNS_QUERY_HANDLE"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

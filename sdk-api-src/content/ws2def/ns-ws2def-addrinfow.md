@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - ADDRINFOW
-product: Windows
 targetos: Windows
 req.typenames: ADDRINFOW, *PADDRINFOW
 req.redist: 

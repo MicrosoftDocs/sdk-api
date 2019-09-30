@@ -38,7 +38,6 @@ api_location:
  - FltLib.dll
 api_name:
  - FilterReplyMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

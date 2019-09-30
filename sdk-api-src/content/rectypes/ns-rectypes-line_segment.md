@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - LINE_SEGMENT
-product: Windows
 targetos: Windows
 req.typenames: LINE_SEGMENT
 req.redist: 

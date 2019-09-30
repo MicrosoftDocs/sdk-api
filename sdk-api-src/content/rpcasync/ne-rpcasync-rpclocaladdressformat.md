@@ -38,7 +38,6 @@ api_location:
 - Rpcasync.h
 api_name:
 - RpcLocalAddressFormat
-product: Windows
 targetos: Windows
 req.typenames: RpcLocalAddressFormat
 req.redist: 

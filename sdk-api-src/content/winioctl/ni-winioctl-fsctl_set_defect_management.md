@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_SET_DEFECT_MANAGEMENT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_VOLUME_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_VOLUME_TYPE
 req.redist: 

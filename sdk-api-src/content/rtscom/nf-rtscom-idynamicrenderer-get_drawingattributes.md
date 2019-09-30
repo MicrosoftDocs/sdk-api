@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_DrawingAttributes
  - IDynamicRenderer.get_DrawingAttributes
  - IDynamicRenderer.put_DrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

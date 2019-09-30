@@ -40,7 +40,6 @@ api_name:
  - IOleUIObjInfo.SetViewInfo
  - IOleUIObjInfoW.SetViewInfo
  - IOleUIObjInfoA.SetViewInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

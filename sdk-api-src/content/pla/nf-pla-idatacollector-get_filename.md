@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.FileName
  - IDataCollector.get_FileName
  - IDataCollector.put_FileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - fdi.h
 api_name:
  - FNFDINOTIFY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

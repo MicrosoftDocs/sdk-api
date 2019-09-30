@@ -41,7 +41,6 @@ api_name:
  - IInkTablet3.IsMultiTouch
  - IInkTablet3.get_IsMultiTouch
  - IInkTablet3.get_IsMultiTouch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_ADAPTER_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_ADAPTER_STATS, *PPS_ADAPTER_STATS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - OLEUICONVERT
  - OLEUICONVERTA
  - OLEUICONVERTW
-product: Windows
 targetos: Windows
 req.typenames: OLEUICONVERTW, *POLEUICONVERTW, *LPOLEUICONVERTW
 req.redist: 

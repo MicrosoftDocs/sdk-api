@@ -38,7 +38,6 @@ api_location:
  - ksopmapi.h
 api_name:
  - OPM_RANDOM_NUMBER
-product: Windows
 targetos: Windows
 req.typenames: OPM_RANDOM_NUMBER, *POPM_RANDOM_NUMBER
 req.redist: 

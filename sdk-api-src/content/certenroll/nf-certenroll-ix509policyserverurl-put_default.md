@@ -40,7 +40,6 @@ api_name:
  - IX509PolicyServerUrl.Default
  - IX509PolicyServerUrl.get_Default
  - IX509PolicyServerUrl.put_Default
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

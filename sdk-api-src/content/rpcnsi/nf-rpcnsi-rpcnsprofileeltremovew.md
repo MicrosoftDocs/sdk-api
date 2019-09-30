@@ -40,7 +40,6 @@ api_name:
  - RpcNsProfileEltRemove
  - RpcNsProfileEltRemoveA
  - RpcNsProfileEltRemoveW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

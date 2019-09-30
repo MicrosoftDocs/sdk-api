@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleConnector.HostingProcessPid
  - IFsrmPipelineModuleConnector.get_HostingProcessPid
  - FsrmPipelineModuleConnector.HostingProcessPid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - AASHELLMENUFILENAME
-product: Windows
 targetos: Windows
 req.typenames: AASHELLMENUFILENAME, *LPAASHELLMENUFILENAME
 req.redist: 

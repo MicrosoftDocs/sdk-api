@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcSigningOptions.GetDefaultDigestMethod
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

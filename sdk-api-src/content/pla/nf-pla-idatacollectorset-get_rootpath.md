@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.RootPath
  - IDataCollectorSet.get_RootPath
  - IDataCollectorSet.put_RootPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

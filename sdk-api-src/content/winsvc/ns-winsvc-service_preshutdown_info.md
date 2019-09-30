@@ -38,7 +38,6 @@ api_location:
  - Winsvc.h
 api_name:
  - SERVICE_PRESHUTDOWN_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_PRESHUTDOWN_INFO, *LPSERVICE_PRESHUTDOWN_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - MmcObj.h
 api_name:
  - _ExportListOptions
-product: Windows
 targetos: Windows
 req.typenames: "_ExportListOptions, EXPORTLISTOPTIONS"
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_KEYMODULE_STATISTICS1
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_KEYMODULE_STATISTICS1
 req.redist: 

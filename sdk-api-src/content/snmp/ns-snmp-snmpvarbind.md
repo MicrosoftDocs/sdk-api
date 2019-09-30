@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - SnmpVarBind
-product: Windows
 targetos: Windows
 req.typenames: SnmpVarBind
 req.redist: 

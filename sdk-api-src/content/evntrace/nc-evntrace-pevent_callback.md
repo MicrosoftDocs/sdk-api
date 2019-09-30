@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - EventCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

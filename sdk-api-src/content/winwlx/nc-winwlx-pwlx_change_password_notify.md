@@ -38,7 +38,6 @@ api_location:
 - winwlx.h
 api_name:
 - WlxChangePasswordNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

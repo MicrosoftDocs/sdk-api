@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ERROR_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: WS_ERROR_PROPERTY
 req.redist: 

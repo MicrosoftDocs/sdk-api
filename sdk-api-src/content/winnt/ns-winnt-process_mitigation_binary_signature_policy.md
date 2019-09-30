@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, *PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 req.redist: 

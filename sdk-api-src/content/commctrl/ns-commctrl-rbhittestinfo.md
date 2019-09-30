@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - RBHITTESTINFO
-product: Windows
 targetos: Windows
 req.typenames: RBHITTESTINFO, *LPRBHITTESTINFO
 req.redist: 

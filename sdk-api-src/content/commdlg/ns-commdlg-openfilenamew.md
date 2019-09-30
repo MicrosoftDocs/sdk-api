@@ -40,7 +40,6 @@ api_name:
  - OPENFILENAME
  - OPENFILENAMEA
  - OPENFILENAMEW
-product: Windows
 targetos: Windows
 req.typenames: OPENFILENAMEW, *LPOPENFILENAMEW
 req.redist: 

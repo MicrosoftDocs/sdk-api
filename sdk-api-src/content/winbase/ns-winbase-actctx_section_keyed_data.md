@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - ACTCTX_SECTION_KEYED_DATA
-product: Windows
 targetos: Windows
 req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
 req.redist: 

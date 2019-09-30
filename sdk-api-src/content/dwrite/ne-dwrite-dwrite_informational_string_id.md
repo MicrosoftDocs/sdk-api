@@ -38,7 +38,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_INFORMATIONAL_STRING_ID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

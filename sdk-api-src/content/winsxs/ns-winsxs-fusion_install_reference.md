@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - FUSION_INSTALL_REFERENCE
-product: Windows
 targetos: Windows
 req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
 req.redist: 

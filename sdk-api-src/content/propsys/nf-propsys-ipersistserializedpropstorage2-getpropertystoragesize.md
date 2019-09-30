@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPersistSerializedPropStorage2.GetPropertyStorageSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

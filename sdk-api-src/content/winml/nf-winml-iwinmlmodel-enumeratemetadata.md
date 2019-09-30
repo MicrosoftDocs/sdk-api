@@ -38,7 +38,6 @@ api_location:
  - winml.dll
 api_name:
  - IWinMLModel.EnumerateMetadata
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

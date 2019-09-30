@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - MARGINS
-product: Windows
 targetos: Windows
 req.typenames: MARGINS, *PMARGINS
 req.redist: 

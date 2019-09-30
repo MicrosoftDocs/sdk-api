@@ -38,7 +38,6 @@ api_location:
  - Wsdtypes.h
 api_name:
  - WSDEventType
-product: Windows
 targetos: Windows
 req.typenames: WSDEventType
 req.redist: 

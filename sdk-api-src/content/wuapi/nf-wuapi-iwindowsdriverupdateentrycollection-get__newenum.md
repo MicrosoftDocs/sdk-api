@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdateEntryCollection._NewEnum
  - IWindowsDriverUpdateEntryCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -51,7 +51,6 @@ api_name:
  - GetSystemWow64Directory
  - GetSystemWow64DirectoryA
  - GetSystemWow64DirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

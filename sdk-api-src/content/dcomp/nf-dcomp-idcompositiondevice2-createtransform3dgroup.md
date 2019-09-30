@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionDevice2.CreateTransform3DGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

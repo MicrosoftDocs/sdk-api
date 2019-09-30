@@ -40,7 +40,6 @@ api_name:
  - DISPLAY_DEVICE
  - DISPLAY_DEVICEA
  - DISPLAY_DEVICEW
-product: Windows
 targetos: Windows
 req.typenames: DISPLAY_DEVICEA, *PDISPLAY_DEVICEA, *LPDISPLAY_DEVICEA
 req.redist: 

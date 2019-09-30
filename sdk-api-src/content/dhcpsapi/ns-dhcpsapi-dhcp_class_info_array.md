@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_CLASS_INFO_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_CLASS_INFO_ARRAY, *LPDHCP_CLASS_INFO_ARRAY
 req.redist: 

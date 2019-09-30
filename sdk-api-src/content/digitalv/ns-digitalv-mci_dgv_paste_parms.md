@@ -38,7 +38,6 @@ api_location:
  - Digitalv.h
 api_name:
  - MCI_DGV_PASTE_PARMS
-product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_PASTE_PARMS
 req.redist: 

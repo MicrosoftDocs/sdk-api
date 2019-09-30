@@ -38,7 +38,6 @@ api_location:
 - lsalookup.h
 api_name:
 - LSA_TRUST_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: LSA_TRUST_INFORMATION, *PLSA_TRUST_INFORMATION
 req.redist: 

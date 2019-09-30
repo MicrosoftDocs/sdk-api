@@ -39,7 +39,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkRecognitionAlternates.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.CurrentPage
  - IFaxJobStatus.get_CurrentPage
  - IFaxJobStatus.get_CurrentPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

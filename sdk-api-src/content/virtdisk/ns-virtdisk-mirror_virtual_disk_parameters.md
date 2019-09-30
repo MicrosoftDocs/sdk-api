@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MIRROR_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: MIRROR_VIRTUAL_DISK_PARAMETERS, *PMIRROR_VIRTUAL_DISK_PARAMETERS
 req.redist: 

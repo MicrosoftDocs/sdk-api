@@ -41,7 +41,6 @@ api_name:
  - IInkDivider.Strokes
  - IInkDivider.get_Strokes
  - InkDivider.get_Strokes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

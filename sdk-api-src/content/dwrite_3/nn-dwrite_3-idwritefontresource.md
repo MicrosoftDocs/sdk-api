@@ -9,7 +9,6 @@ ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
 ms.topic: interface
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

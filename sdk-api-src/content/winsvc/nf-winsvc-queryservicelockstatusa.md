@@ -40,7 +40,6 @@ api_name:
 - QueryServiceLockStatus
 - QueryServiceLockStatusA
 - QueryServiceLockStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

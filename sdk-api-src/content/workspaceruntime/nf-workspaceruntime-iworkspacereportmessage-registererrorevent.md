@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWorkspaceReportMessage.RegisterErrorEvent
  - Workspace.RegisterErrorEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

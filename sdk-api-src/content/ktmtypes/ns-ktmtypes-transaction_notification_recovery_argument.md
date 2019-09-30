@@ -38,7 +38,6 @@ api_location:
 - KtmTypes.h
 api_name:
 - TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
-product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 req.redist: 

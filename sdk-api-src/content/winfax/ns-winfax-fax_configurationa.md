@@ -40,7 +40,6 @@ api_name:
 - FAX_CONFIGURATION
 - FAX_CONFIGURATIONA
 - FAX_CONFIGURATIONW
-product: Windows
 targetos: Windows
 req.typenames: FAX_CONFIGURATIONA, *PFAX_CONFIGURATIONA
 req.redist: 

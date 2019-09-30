@@ -40,7 +40,6 @@ api_name:
  - INetFwPolicy2.DefaultInboundAction
  - INetFwPolicy2.get_DefaultInboundAction
  - INetFwPolicy2.put_DefaultInboundAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

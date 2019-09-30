@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - NTFS_FILE_RECORD_INPUT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: NTFS_FILE_RECORD_INPUT_BUFFER, *PNTFS_FILE_RECORD_INPUT_BUFFER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.ExecutionTimeLimit
  - ITaskSettings.get_ExecutionTimeLimit
  - ITaskSettings.put_ExecutionTimeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

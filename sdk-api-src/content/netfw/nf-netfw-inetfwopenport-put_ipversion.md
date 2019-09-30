@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.IpVersion
  - INetFwOpenPort.get_IpVersion
  - INetFwOpenPort.put_IpVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

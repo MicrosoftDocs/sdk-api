@@ -43,7 +43,6 @@ api_name:
  - IEnroll4.HashAlgID
  - IEnroll4.get_HashAlgID
  - IEnroll4.put_HashAlgID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

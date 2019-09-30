@@ -42,7 +42,6 @@ api_location:
  - advapi32.dll
 api_name:
  - GetDynamicTimeZoneInformationEffectiveYears
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

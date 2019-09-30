@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DISK_EX_INT13_INFO
-product: Windows
 targetos: Windows
 req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 req.redist: 

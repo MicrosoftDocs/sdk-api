@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.StopOnCompletion
  - IDataCollectorSet.get_StopOnCompletion
  - IDataCollectorSet.put_StopOnCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

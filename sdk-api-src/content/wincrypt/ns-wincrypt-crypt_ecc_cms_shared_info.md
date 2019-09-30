@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_ECC_CMS_SHARED_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_ECC_CMS_SHARED_INFO, *PCRYPT_ECC_CMS_SHARED_INFO
 req.redist: 

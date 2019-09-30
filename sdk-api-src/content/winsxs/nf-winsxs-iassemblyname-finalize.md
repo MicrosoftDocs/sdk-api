@@ -38,7 +38,6 @@ api_location:
  - sxs.dll
 api_name:
  - IAssemblyName.Finalize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

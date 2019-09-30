@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - IX509CertificateRequestPkcs10.InitializeFromCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

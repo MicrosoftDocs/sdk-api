@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextServices2.TxDrawD2D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

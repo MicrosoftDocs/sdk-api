@@ -38,7 +38,6 @@ api_location:
  - Wsrm.h
 api_name:
  - eWINDOW_ADVANCE_METHOD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

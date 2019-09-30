@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferSink2.UnlockProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

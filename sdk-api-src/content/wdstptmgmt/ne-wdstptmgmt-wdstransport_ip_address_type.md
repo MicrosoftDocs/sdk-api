@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_IP_ADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_IP_ADDRESS_TYPE, *PWDSTRANSPORT_IP_ADDRESS_TYPE
 req.redist: 

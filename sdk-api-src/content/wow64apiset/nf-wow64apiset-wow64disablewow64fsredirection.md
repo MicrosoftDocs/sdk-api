@@ -44,7 +44,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - Wow64DisableWow64FsRedirection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

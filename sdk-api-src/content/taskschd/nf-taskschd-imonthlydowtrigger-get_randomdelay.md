@@ -40,7 +40,6 @@ api_name:
  - IMonthlyDOWTrigger.RandomDelay
  - IMonthlyDOWTrigger.get_RandomDelay
  - IMonthlyDOWTrigger.put_RandomDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

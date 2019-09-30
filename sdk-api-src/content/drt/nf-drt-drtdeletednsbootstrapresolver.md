@@ -38,7 +38,6 @@ api_location:
  - drt.dll
 api_name:
  - DrtDeleteDnsBootstrapResolver
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

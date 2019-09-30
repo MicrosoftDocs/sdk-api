@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - CO_MARSHALING_CONTEXT_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
 req.redist: 

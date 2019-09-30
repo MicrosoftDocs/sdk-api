@@ -40,7 +40,6 @@ api_name:
  - IDataManager.MinFreeDisk
  - IDataManager.get_MinFreeDisk
  - IDataManager.put_MinFreeDisk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

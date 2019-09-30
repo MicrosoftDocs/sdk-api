@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - KeyIdentifierHashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: KeyIdentifierHashAlgorithm
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lmjoin.h
 api_name:
  - NETSETUP_PROVISIONING_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 req.redist: 

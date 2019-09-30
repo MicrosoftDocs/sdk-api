@@ -38,7 +38,6 @@ api_location:
  - Msi.dll
 api_name:
  - MsiGetActiveDatabase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

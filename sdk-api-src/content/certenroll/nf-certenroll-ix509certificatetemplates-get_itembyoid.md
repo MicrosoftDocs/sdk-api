@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateTemplates.ItemByOid
  - IX509CertificateTemplates.get_ItemByOid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

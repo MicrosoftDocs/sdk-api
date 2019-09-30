@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IMPEG2TuneRequest.get_TSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

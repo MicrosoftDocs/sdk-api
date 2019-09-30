@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnPin.PinLengthMax
  - IMbnPin.get_PinLengthMax
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

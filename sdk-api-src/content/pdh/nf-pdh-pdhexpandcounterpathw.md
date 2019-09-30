@@ -40,7 +40,6 @@ api_name:
  - PdhExpandCounterPath
  - PdhExpandCounterPathA
  - PdhExpandCounterPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

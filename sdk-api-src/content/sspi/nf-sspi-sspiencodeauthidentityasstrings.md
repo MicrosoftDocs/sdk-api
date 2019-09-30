@@ -40,7 +40,6 @@ api_name:
 - SspiEncodeAuthIdentityAsStrings
 - SspiEncodeAuthIdentityAsStringsA
 - SspiEncodeAuthIdentityAsStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

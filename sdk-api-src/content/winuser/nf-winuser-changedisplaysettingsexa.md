@@ -43,7 +43,6 @@ api_name:
  - ChangeDisplaySettingsEx
  - ChangeDisplaySettingsExA
  - ChangeDisplaySettingsExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

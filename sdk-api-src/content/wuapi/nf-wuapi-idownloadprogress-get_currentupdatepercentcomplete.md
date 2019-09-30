@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDownloadProgress.CurrentUpdatePercentComplete
  - IDownloadProgress.get_CurrentUpdatePercentComplete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

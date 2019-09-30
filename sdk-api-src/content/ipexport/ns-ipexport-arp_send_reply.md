@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - ARP_SEND_REPLY
-product: Windows
 targetos: Windows
 req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
 req.redist: 

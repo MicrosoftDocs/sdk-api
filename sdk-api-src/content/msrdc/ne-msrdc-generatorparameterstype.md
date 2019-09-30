@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - GeneratorParametersType
-product: Windows
 targetos: Windows
 req.typenames: GeneratorParametersType
 req.redist: 

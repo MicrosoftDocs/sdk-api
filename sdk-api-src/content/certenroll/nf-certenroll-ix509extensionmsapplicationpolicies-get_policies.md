@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionMSApplicationPolicies.Policies
  - IX509ExtensionMSApplicationPolicies.get_Policies
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

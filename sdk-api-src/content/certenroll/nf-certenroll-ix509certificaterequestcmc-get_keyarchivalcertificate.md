@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.KeyArchivalCertificate
  - IX509CertificateRequestCmc.get_KeyArchivalCertificate
  - IX509CertificateRequestCmc.put_KeyArchivalCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

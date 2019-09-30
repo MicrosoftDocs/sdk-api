@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetShowConfig.get_EnableAutoProxy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

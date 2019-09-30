@@ -38,7 +38,6 @@ api_location:
  - Eventsys.h
 api_name:
  - IEventControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

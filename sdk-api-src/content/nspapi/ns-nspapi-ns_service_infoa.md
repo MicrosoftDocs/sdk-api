@@ -40,7 +40,6 @@ api_name:
 - NS_SERVICE_INFO
 - NS_SERVICE_INFOA
 - NS_SERVICE_INFOW
-product: Windows
 targetos: Windows
 req.typenames: NS_SERVICE_INFOA, *PNS_SERVICE_INFOA, *LPNS_SERVICE_INFOA
 req.redist: 

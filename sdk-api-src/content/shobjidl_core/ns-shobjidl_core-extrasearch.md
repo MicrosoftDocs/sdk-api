@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - EXTRASEARCH
-product: Windows
 targetos: Windows
 req.typenames: EXTRASEARCH, *LPEXTRASEARCH
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_BAT.GetTableDescriptorByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

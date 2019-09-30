@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellingError.StartIndex
  - ISpellingError.get_StartIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

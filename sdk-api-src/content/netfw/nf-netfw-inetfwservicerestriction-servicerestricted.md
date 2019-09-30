@@ -38,7 +38,6 @@ api_location:
  - FirewallAPI.dll
 api_name:
  - INetFwServiceRestriction.ServiceRestricted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

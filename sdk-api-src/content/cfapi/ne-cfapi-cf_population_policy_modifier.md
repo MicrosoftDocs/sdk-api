@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_POPULATION_POLICY_MODIFIER
-product: Windows
 targetos: Windows
 req.typenames: CF_POPULATION_POLICY_MODIFIER
 req.redist: 

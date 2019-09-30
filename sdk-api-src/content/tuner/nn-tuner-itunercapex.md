@@ -39,7 +39,6 @@ api_location:
  - Tuner.idl
 api_name:
  - ITunerCapEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

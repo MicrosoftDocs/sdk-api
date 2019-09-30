@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.UninstallationSteps
  - IUpdate.get_UninstallationSteps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

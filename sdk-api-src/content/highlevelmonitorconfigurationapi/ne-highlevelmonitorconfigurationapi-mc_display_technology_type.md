@@ -38,7 +38,6 @@ api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
  - MC_DISPLAY_TECHNOLOGY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MC_DISPLAY_TECHNOLOGY_TYPE, *LPMC_DISPLAY_TECHNOLOGY_TYPE
 req.redist: 

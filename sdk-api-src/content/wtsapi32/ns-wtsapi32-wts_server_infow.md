@@ -40,7 +40,6 @@ api_name:
  - WTS_SERVER_INFO
  - WTS_SERVER_INFOA
  - WTS_SERVER_INFOW
-product: Windows
 targetos: Windows
 req.typenames: WTS_SERVER_INFOW, *PWTS_SERVER_INFOW
 req.redist: 

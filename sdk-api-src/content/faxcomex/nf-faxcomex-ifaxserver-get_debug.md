@@ -40,7 +40,6 @@ api_name:
  - IFaxServer.Debug
  - IFaxServer.get_Debug
  - IFaxServer.get_Debug
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

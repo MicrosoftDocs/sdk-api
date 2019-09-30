@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - IAudioDeviceEndpoint.SetBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

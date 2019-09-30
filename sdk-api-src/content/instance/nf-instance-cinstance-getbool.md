@@ -41,7 +41,6 @@ api_name:
  - CInstance.Getbool
  - ?Getbool@CInstance@@QBE_NPBGAA_N@Z
  - ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - AdsLdpc.dll
 api_name:
  - AllocADsMem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CldApi.dll
 api_name:
  - CfConvertToPlaceholder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

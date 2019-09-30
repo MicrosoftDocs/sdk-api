@@ -41,7 +41,6 @@ api_name:
  - MsiSourceListClearSource
  - MsiSourceListClearSourceA
  - MsiSourceListClearSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

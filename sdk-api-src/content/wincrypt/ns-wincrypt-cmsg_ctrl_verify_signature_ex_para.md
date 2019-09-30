@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
-product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, *PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 req.redist: 

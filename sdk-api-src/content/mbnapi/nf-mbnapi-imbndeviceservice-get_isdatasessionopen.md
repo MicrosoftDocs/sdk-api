@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnDeviceService.IsDataSessionOpen
  - IMbnDeviceService.get_IsDataSessionOpen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

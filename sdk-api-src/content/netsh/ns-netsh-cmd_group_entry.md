@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - CMD_GROUP_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
 req.redist: 

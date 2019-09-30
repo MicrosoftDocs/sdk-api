@@ -38,7 +38,6 @@ api_location:
  - D3D11ShaderTracing.h
 api_name:
  - D3D11_TRACE_GS_INPUT_PRIMITIVE
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TRACE_GS_INPUT_PRIMITIVE
 req.redist: 

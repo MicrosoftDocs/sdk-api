@@ -40,7 +40,6 @@ api_location:
  - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
  - SetProcessValidCallTargets
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenTemplateImported.OverwriteOnCommit
  - IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
  - IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

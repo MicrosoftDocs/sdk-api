@@ -40,7 +40,6 @@ api_name:
  - MsiEnumComponentQualifiers
  - MsiEnumComponentQualifiersA
  - MsiEnumComponentQualifiersW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

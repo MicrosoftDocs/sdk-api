@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFVideoLighting
-product: Windows
 targetos: Windows
 req.typenames: MFVideoLighting
 req.redist: 

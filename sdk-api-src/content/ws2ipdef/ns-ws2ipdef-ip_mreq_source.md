@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - IP_MREQ_SOURCE
-product: Windows
 targetos: Windows
 req.typenames: IP_MREQ_SOURCE, *PIP_MREQ_SOURCE
 req.redist: 

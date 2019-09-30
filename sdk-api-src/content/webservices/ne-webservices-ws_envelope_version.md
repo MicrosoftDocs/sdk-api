@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ENVELOPE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: WS_ENVELOPE_VERSION
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_Email
  - IFaxSender.get_Email
  - IFaxSender.put_Email
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

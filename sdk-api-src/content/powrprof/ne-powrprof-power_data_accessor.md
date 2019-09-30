@@ -38,7 +38,6 @@ api_location:
  - PowrProf.h
 api_name:
  - POWER_DATA_ACCESSOR
-product: Windows
 targetos: Windows
 req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CurrentContainingGrid
  - IUIAutomationGridItemPattern.get_CurrentContainingGrid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

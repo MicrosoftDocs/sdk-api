@@ -38,7 +38,6 @@ api_location:
 - Wsdapi.dll
 api_name:
 - IWSDiscoveryPublisher.MatchResolve
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

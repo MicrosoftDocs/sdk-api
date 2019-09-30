@@ -38,7 +38,6 @@ api_location:
 - WinCred.h
 api_name:
 - CRED_MARSHAL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
 req.redist: 

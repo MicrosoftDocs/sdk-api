@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - SYSTEM_POWER_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_LEVEL, *PSYSTEM_POWER_LEVEL
 req.redist: 

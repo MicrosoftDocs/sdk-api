@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Profiles
  - INetFwRule.get_Profiles
  - INetFwRule.put_Profiles
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

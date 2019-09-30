@@ -42,7 +42,6 @@ api_name:
 - SHFileOperation
 - SHFileOperationA
 - SHFileOperationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

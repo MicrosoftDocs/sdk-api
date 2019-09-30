@@ -40,7 +40,6 @@ api_location:
  - shlwapi.dll
 api_name:
  - SHRegGetBoolValueFromHKCUHKLM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

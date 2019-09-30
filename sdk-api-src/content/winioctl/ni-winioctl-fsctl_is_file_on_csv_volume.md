@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_IS_FILE_ON_CSV_VOLUME
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

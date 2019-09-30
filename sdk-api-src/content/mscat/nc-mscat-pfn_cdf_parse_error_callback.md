@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - PFN_CDF_PARSE_ERROR_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

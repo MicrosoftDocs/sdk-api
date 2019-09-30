@@ -41,7 +41,6 @@ api_name:
  - IAzTask.get_Description
  - IAzTask.put_Description
  - AzTask.Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

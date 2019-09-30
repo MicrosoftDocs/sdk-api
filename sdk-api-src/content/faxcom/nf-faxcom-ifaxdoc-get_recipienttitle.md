@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientTitle
  - IFaxDoc.get_RecipientTitle
  - IFaxDoc.put_RecipientTitle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

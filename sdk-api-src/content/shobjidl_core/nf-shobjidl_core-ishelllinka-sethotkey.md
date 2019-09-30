@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetHotkey
  - IShellLinkA.SetHotkey
  - IShellLinkW.SetHotkey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

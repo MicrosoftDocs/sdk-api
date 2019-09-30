@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_close_extended_op
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxIncomingMessage2.put_Subject
  - IFaxIncomingMessage2.get_Subject
  - IFaxIncomingMessage2.put_Subject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - PortableDeviceGuids.dll
 api_name:
  - IPortableDeviceConnector.SetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

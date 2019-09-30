@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - Edit_SearchWeb
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

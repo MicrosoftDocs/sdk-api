@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - DEFAULTSAVEFOLDERTYPE
-product: Windows
 targetos: Windows
 req.typenames: DEFAULTSAVEFOLDERTYPE
 req.redist: 

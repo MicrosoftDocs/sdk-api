@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.Logging
  - IFsrmFileManagementJob.get_Logging
  - IFsrmFileManagementJob.put_Logging
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

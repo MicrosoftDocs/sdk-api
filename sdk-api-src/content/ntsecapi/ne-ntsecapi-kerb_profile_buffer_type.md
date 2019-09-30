@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_PROFILE_BUFFER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: KERB_PROFILE_BUFFER_TYPE, *PKERB_PROFILE_BUFFER_TYPE
 req.redist: 

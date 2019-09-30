@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MPR_DEVICE_0
-product: Windows
 targetos: Windows
 req.typenames: MPR_DEVICE_0, *PMPR_DEVICE_0
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRenderer.put_ClippedSourceRect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

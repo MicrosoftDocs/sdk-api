@@ -38,7 +38,6 @@ api_location:
  - Aclui.h
 api_name:
  - SI_OBJECT_INFO
-product: Windows
 targetos: Windows
 req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
 req.redist: 

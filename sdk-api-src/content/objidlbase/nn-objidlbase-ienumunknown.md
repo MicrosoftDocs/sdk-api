@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IEnumUnknown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

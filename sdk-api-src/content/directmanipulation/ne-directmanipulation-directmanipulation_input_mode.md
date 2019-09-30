@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_INPUT_MODE
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_INPUT_MODE
 req.redist: 

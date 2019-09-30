@@ -38,7 +38,6 @@ api_location:
  - Amvideo.h
 api_name:
  - SIZE_MPEG1VIDEOINFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

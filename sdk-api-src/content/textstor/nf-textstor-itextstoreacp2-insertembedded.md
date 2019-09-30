@@ -38,7 +38,6 @@ api_location:
  - msctf.dll
 api_name:
  - ITextStoreACP2.InsertEmbedded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

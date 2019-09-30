@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIVirtualChannel.Priority
  - IRDPSRAPIVirtualChannel.get_Priority
  - RDPSRAPIVirtualChannel.Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

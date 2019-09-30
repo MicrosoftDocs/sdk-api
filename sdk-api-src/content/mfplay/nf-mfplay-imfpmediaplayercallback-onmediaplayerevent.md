@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - IMFPMediaPlayerCallback.OnMediaPlayerEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

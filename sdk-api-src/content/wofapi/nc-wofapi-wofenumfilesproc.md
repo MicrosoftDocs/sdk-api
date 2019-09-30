@@ -38,7 +38,6 @@ api_location:
  - wofapi.h
 api_name:
  - WofEnumFilesProc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

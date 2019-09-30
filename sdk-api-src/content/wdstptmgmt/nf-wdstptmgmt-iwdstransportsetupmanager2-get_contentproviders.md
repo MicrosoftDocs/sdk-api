@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSetupManager2.ContentProviders
  - IWdsTransportSetupManager2.get_ContentProviders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

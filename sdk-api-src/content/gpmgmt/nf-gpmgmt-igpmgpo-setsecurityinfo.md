@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMGPO.SetSecurityInfo
  - GPMGPO.SetSecurityInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

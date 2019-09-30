@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - TunerInputType
-product: Windows
 targetos: Windows
 req.typenames: TunerInputType
 req.redist: 

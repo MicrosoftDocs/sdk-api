@@ -44,7 +44,6 @@ api_name:
  - ExtTextOut
  - ExtTextOutA
  - ExtTextOutW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

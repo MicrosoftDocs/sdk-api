@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - MPR50_ROUTING_CHARACTERISTICS
-product: Windows
 targetos: Windows
 req.typenames: MPR50_ROUTING_CHARACTERISTICS
 req.redist: 

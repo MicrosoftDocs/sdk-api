@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetDriverInstallParams
  - SetupDiGetDriverInstallParamsA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

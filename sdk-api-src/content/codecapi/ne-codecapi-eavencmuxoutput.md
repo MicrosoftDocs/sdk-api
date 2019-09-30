@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVEncMuxOutput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

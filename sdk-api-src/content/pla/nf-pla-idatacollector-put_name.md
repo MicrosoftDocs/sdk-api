@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.Name
  - IDataCollector.get_Name
  - IDataCollector.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

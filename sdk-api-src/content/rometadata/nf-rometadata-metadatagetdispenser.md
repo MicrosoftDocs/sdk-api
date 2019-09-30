@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-rometadata-dispenser-l1-1-0.dll
 api_name:
  - MetaDataGetDispenser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

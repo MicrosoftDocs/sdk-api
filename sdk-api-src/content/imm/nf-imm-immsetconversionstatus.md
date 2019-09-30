@@ -40,7 +40,6 @@ api_location:
  - ext-ms-win-imm-l1-1-1.dll
 api_name:
  - ImmSetConversionStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

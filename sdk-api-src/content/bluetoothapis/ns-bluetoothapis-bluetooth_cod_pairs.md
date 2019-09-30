@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_COD_PAIRS
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_COD_PAIRS
 req.redist: 

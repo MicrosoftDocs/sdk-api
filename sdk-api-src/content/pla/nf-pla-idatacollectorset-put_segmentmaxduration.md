@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.SegmentMaxDuration
  - IDataCollectorSet.get_SegmentMaxDuration
  - IDataCollectorSet.put_SegmentMaxDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

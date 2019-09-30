@@ -38,7 +38,6 @@ api_location:
 - qwave.dll
 api_name:
 - QOSNotifyFlow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

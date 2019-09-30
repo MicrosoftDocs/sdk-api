@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - MKRREDUCE
-product: Windows
 targetos: Windows
 req.typenames: MKRREDUCE
 req.redist: 

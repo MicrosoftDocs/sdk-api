@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - _DVRESOLUTION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

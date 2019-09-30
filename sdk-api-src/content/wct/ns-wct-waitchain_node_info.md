@@ -38,7 +38,6 @@ api_location:
  - Wct.h
 api_name:
  - WAITCHAIN_NODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 req.redist: 

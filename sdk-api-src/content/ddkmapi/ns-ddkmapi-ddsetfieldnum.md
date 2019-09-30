@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDSETFIELDNUM
-product: Windows
 targetos: Windows
 req.typenames: DDSETFIELDNUM, *LPDDSETFIELDNUM
 req.redist: 

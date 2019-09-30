@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.h
 api_name:
  - NCryptKeyName
-product: Windows
 targetos: Windows
 req.typenames: NCryptKeyName
 req.redist: 

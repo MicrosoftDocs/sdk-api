@@ -38,7 +38,6 @@ api_location:
  - cloneviewhelper.h
 api_name:
  - IViewHelper.SetActiveTopology
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

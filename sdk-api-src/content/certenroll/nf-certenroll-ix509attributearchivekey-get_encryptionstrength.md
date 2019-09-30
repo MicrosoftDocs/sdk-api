@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeArchiveKey.EncryptionStrength
  - IX509AttributeArchiveKey.get_EncryptionStrength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

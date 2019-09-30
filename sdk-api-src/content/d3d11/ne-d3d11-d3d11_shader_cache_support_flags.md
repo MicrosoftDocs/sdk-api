@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - D3D11_SHADER_CACHE_SUPPORT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_SHADER_CACHE_SUPPORT_FLAGS
 req.redist: 

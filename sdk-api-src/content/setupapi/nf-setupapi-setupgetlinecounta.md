@@ -41,7 +41,6 @@ api_name:
  - SetupGetLineCount
  - SetupGetLineCountA
  - SetupGetLineCountW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.dll
 api_name:
  - BCryptRegisterConfigChangeNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

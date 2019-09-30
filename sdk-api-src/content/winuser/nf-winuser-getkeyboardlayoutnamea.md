@@ -48,7 +48,6 @@ api_name:
  - GetKeyboardLayoutName
  - GetKeyboardLayoutNameA
  - GetKeyboardLayoutNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - CHARSETINFO
-product: Windows
 targetos: Windows
 req.typenames: CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO
 req.redist: 

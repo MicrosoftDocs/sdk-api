@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_SA_ENUM_TEMPLATE0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_SA_ENUM_TEMPLATE0
 req.redist: 

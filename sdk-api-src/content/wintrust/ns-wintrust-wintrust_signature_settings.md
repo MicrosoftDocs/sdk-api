@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - WINTRUST_SIGNATURE_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_SIGNATURE_SETTINGS, *PWINTRUST_SIGNATURE_SETTINGS
 req.redist: 

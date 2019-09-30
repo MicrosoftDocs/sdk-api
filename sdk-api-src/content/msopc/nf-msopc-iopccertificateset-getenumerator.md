@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcCertificateSet.GetEnumerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

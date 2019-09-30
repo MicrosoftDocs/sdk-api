@@ -40,7 +40,6 @@ api_name:
  - IDataManager.CheckBeforeRunning
  - IDataManager.get_CheckBeforeRunning
  - IDataManager.put_CheckBeforeRunning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_V1_FUNCTION_TABLE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

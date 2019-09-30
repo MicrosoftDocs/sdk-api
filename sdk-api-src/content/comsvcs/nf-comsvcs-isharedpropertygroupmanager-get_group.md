@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ISharedPropertyGroupManager.get_Group
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

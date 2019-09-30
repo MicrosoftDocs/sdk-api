@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.AddMarker
  - IWMHeaderInfo2.AddMarker
  - IWMHeaderInfo3.AddMarker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

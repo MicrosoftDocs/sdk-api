@@ -38,7 +38,6 @@ api_location:
 - Tcpmib.h
 api_name:
 - MIB_TCPSTATS2
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
 req.redist: 

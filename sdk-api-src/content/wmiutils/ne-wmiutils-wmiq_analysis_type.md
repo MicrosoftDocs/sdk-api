@@ -38,7 +38,6 @@ api_location:
  - WMIUtils.h
 api_name:
  - WMIQ_ANALYSIS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WMIQ_ANALYSIS_TYPE
 req.redist: 

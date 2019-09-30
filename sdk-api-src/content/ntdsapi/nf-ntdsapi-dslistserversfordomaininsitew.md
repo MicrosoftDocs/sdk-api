@@ -40,7 +40,6 @@ api_name:
  - DsListServersForDomainInSite
  - DsListServersForDomainInSiteA
  - DsListServersForDomainInSiteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

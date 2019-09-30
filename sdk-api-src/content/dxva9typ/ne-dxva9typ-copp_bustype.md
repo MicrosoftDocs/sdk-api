@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - COPP_BusType
-product: Windows
 targetos: Windows
 req.typenames: COPP_BusType
 req.redist: 

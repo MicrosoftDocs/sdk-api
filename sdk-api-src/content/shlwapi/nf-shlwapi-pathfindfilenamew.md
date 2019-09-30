@@ -44,7 +44,6 @@ api_name:
  - PathFindFileName
  - PathFindFileNameA
  - PathFindFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

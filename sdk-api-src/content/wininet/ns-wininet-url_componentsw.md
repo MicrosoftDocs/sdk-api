@@ -40,7 +40,6 @@ api_name:
  - URL_COMPONENTS
  - URL_COMPONENTSA
  - URL_COMPONENTSW
-product: Windows
 targetos: Windows
 req.typenames: URL_COMPONENTSW, *LPURL_COMPONENTSW
 req.redist: 

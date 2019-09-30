@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SCHANNEL_CLIENT_SIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
 req.redist: 

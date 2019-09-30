@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerGuide.put_Midline
  - InkRecognizerGuide.get_Midline
  - InkRecognizerGuide.put_Midline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_SNAPPOINT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_SNAPPOINT_TYPE
 req.redist: 

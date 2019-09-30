@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_SET_FLOW
-product: Windows
 targetos: Windows
 req.typenames: QOS_SET_FLOW, *PQOS_SET_FLOW
 req.redist: 

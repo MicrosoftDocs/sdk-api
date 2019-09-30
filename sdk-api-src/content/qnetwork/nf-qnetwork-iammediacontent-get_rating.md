@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMMediaContent.get_Rating
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

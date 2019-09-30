@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_POLICY
-product: Windows
 targetos: Windows
 req.typenames: RPC_POLICY, *PRPC_POLICY
 req.redist: 

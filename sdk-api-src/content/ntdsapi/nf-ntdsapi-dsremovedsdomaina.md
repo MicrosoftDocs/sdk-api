@@ -40,7 +40,6 @@ api_name:
  - DsRemoveDsDomain
  - DsRemoveDsDomainA
  - DsRemoveDsDomainW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

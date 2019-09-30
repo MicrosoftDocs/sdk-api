@@ -38,7 +38,6 @@ api_location:
  - Endpointvolume.h
 api_name:
  - IAudioMeterInformation.GetMeteringChannelCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

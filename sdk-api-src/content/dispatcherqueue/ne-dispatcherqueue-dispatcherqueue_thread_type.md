@@ -38,7 +38,6 @@ api_location:
  - DispatcherQueue.h
 api_name:
  - DISPATCHERQUEUE_THREAD_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IForegroundTransfer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

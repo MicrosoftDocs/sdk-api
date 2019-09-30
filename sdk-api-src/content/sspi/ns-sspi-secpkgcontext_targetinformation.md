@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_TargetInformation
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
 req.redist: 

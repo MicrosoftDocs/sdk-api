@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9PresentationInfo
-product: Windows
 targetos: Windows
 req.typenames: VMR9PresentationInfo
 req.redist: 

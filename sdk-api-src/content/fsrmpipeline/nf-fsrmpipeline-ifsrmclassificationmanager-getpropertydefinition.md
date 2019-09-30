@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationManager.GetPropertyDefinition
  - IFsrmClassificationManager2.GetPropertyDefinition
  - FsrmClassificationManager.GetPropertyDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

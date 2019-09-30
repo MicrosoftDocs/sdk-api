@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_TRANSPORT_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
 req.redist: 

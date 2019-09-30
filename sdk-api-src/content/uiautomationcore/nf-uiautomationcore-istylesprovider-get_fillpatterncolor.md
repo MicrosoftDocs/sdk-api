@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IStylesProvider.FillPatternColor
  - IStylesProvider.get_FillPatternColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

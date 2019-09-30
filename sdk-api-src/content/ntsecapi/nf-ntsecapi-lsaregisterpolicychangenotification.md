@@ -38,7 +38,6 @@ api_location:
  - Secur32.dll
 api_name:
  - LsaRegisterPolicyChangeNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

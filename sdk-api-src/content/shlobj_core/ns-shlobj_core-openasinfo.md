@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - OPENASINFO
-product: Windows
 targetos: Windows
 req.typenames: OPENASINFO, *POPENASINFO
 req.redist: 

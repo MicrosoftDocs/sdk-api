@@ -38,7 +38,6 @@ api_location:
  - Inspectable.h
 api_name:
  - TrustLevel
-product: Windows
 targetos: Windows
 req.typenames: TrustLevel
 req.redist: 

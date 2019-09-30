@@ -38,7 +38,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - AAAccountingData
-product: Windows
 targetos: Windows
 req.typenames: AAAccountingData
 req.redist: 

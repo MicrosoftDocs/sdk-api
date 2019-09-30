@@ -40,7 +40,6 @@ api_name:
 - ITaskSettings3.MaintenanceSettings
 - ITaskSettings3.get_MaintenanceSettings
 - ITaskSettings3.put_MaintenanceSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

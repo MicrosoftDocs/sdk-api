@@ -40,7 +40,6 @@ api_name:
  - InstallHinfSection
  - InstallHinfSectionA
  - InstallHinfSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

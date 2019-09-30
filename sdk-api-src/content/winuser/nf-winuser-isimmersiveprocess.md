@@ -41,7 +41,6 @@ api_location:
  - api-ms-win-ntuser-uicontext-l1-1-0.dll
 api_name:
  - IsImmersiveProcess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

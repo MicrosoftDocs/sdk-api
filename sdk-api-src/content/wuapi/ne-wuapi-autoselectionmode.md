@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutoSelectionMode
-product: Windows
 targetos: Windows
 req.typenames: AutoSelectionMode
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - SetFileAttributesTransacted
  - SetFileAttributesTransactedA
  - SetFileAttributesTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

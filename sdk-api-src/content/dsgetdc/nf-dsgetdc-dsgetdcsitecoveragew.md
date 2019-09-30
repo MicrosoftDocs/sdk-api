@@ -40,7 +40,6 @@ api_name:
  - DsGetDcSiteCoverage
  - DsGetDcSiteCoverageA
  - DsGetDcSiteCoverageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

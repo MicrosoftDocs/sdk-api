@@ -38,7 +38,6 @@ api_location:
  - Msi.h
 api_name:
  - INSTALLUI_HANDLER
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

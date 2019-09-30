@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_STREAM_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: MPEG_STREAM_BUFFER, *PMPEG_STREAM_BUFFER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - WSAQUERYSET
 - WSAQUERYSETA
 - WSAQUERYSETW
-product: Windows
 targetos: Windows
 req.typenames: WSAQUERYSETA, *PWSAQUERYSETA, *LPWSAQUERYSETA
 req.redist: 

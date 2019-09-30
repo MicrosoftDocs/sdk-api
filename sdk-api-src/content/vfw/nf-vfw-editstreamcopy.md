@@ -38,7 +38,6 @@ api_location:
  - Avifil32.dll
 api_name:
  - EditStreamCopy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

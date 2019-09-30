@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_REPSYNCALL_EVENT
-product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_EVENT
 req.redist: 

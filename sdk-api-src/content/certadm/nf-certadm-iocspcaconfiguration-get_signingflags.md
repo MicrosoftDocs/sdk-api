@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.SigningFlags
  - IOCSPCAConfiguration.get_SigningFlags
  - IOCSPCAConfiguration.put_SigningFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

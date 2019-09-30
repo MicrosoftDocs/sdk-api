@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationStoryboard.AddKeyframeAfterTransition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

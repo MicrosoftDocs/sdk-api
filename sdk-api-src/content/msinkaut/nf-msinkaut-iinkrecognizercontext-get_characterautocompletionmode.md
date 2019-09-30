@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext.put_CharacterAutoCompletionMode
  - InkRecognizerContext.get_CharacterAutoCompletion
  - InkRecognizerContext.put_CharacterAutoCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mprapi.h
 api_name:
  - IKEV2_PROJECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
 req.redist: 

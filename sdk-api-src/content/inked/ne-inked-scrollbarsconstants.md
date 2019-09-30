@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - ScrollBarsConstants
-product: Windows
 targetos: Windows
 req.typenames: ScrollBarsConstants
 req.redist: 

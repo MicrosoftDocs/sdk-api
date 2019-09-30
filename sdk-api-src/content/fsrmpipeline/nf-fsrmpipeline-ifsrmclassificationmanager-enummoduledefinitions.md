@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.EnumModuleDefinitions
 - IFsrmClassificationManager2.EnumModuleDefinitions
 - FsrmClassificationManager.EnumModuleDefinitions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - WTSINFO
 - WTSINFOA
 - WTSINFOW
-product: Windows
 targetos: Windows
 req.typenames: WTSINFOW, *PWTSINFOW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - LIBRARYSAVEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: LIBRARYSAVEFLAGS
 req.redist: 

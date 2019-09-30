@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_SERVER_AUTHENTICATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO
 req.redist: 

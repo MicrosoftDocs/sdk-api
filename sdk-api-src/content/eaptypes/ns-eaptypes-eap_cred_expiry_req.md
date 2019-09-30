@@ -38,7 +38,6 @@ api_location:
 - eaptypes.h
 api_name:
 - EAP_CRED_EXPIRY_REQ
-product: Windows
 targetos: Windows
 req.typenames: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_RESP
 req.redist: 

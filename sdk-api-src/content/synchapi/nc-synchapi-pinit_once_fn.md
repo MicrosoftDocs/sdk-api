@@ -38,7 +38,6 @@ api_location:
  - synchapi.h
 api_name:
  - PINIT_ONCE_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

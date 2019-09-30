@@ -40,7 +40,6 @@ api_name:
 - DsCrackUnquotedMangledRdn
 - DsCrackUnquotedMangledRdnA
 - DsCrackUnquotedMangledRdnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FtpGetFile
  - FtpGetFileA
  - FtpGetFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DSSec.dll
 api_name:
  - DSCreateSecurityPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

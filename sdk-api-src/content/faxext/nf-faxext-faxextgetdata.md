@@ -38,7 +38,6 @@ api_location:
  - FaxExt.h
 api_name:
  - FaxExtGetData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

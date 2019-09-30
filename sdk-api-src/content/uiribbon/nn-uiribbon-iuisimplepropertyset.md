@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.dll
 api_name:
  - IUISimplePropertySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

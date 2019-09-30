@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_DynamicRendering
  - InkPicture.get_DynamicRendering
  - InkPicture.put_DynamicRendering
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextRange2.GetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - PRINT_OTHER_INFO
-product: Windows
 targetos: Windows
 req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
 req.redist: 

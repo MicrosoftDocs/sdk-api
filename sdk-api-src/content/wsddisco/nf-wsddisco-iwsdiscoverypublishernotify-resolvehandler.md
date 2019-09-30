@@ -38,7 +38,6 @@ api_location:
 - Wsdapi.dll
 api_name:
 - IWSDiscoveryPublisherNotify.ResolveHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

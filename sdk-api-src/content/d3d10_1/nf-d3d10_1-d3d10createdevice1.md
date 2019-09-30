@@ -38,7 +38,6 @@ api_location:
  - D3D10_1.dll
 api_name:
  - D3D10CreateDevice1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SpApplyControlToken
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

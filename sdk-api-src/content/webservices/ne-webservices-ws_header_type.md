@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_HEADER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_HEADER_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - deviceaccess.h
 api_name:
  - IDeviceRequestCompletionCallback.RequestCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

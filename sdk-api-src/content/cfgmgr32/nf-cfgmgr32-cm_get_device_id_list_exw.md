@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Get_Device_ID_List_Ex
  - CM_Get_Device_ID_List_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

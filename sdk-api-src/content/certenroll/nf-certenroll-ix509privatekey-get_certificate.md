@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Certificate
  - IX509PrivateKey.get_Certificate
  - IX509PrivateKey.put_Certificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

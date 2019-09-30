@@ -38,7 +38,6 @@ api_location:
  - Certenroll.dll
 api_name:
  - IX509EndorsementKey.AddCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

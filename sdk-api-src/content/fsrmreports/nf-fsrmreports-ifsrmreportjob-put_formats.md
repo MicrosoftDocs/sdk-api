@@ -40,7 +40,6 @@ api_name:
  - IFsrmReportJob.Formats
  - IFsrmReportJob.get_Formats
  - IFsrmReportJob.put_Formats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

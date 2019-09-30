@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - QUERYCONTEXT
-product: Windows
 targetos: Windows
 req.typenames: QUERYCONTEXT
 req.redist: 

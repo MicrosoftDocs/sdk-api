@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.SuppressOids
  - IX509CertificateRequestCmc.get_SuppressOids
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

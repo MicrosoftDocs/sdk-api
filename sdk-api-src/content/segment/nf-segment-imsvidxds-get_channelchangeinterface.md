@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidXDS.get_ChannelChangeInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - RasHangUp
  - RasHangUpA
  - RasHangUpW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

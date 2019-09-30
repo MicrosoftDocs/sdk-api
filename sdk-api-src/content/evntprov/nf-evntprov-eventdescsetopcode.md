@@ -38,7 +38,6 @@ api_location:
 - Evntprov.h
 api_name:
 - EventDescSetOpcode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

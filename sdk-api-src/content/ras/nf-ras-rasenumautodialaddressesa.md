@@ -40,7 +40,6 @@ api_name:
  - RasEnumAutodialAddresses
  - RasEnumAutodialAddressesA
  - RasEnumAutodialAddressesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

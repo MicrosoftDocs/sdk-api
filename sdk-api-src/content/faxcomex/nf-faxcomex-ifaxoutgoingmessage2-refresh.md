@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingMessage2.Refresh
  - IFaxOutgoingMessage2.Refresh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

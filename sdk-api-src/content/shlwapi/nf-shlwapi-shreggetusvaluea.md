@@ -44,7 +44,6 @@ api_name:
  - SHRegGetUSValue
  - SHRegGetUSValueA
  - SHRegGetUSValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

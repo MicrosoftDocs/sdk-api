@@ -43,7 +43,6 @@ api_location:
 api_name:
 - GetPerformanceInfo
 - K32GetPerformanceInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

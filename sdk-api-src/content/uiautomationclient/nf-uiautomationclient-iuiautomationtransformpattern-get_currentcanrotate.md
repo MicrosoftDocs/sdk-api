@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern.CurrentCanRotate
  - IUIAutomationTransformPattern.get_CurrentCanRotate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

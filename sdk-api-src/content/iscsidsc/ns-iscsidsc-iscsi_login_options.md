@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - ISCSI_LOGIN_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
 req.redist: 

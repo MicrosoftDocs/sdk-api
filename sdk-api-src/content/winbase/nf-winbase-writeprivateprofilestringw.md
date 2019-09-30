@@ -44,7 +44,6 @@ api_name:
  - WritePrivateProfileString
  - WritePrivateProfileStringA
  - WritePrivateProfileStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

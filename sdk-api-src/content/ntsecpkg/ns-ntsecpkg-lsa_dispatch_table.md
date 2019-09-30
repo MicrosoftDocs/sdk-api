@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - LSA_DISPATCH_TABLE
-product: Windows
 targetos: Windows
 req.typenames: LSA_DISPATCH_TABLE, *PLSA_DISPATCH_TABLE
 req.redist: 

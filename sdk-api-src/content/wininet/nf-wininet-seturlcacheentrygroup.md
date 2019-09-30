@@ -40,7 +40,6 @@ api_name:
  - SetUrlCacheEntryGroup
  - SetUrlCacheEntryGroupA
  - SetUrlCacheEntryGroupW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

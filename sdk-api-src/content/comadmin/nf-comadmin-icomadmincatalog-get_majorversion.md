@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog.MajorVersion
  - ICOMAdminCatalog.get_MajorVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_DigitalDemodulator2.get_Pilot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

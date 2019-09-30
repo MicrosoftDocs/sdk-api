@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWATTRIBUTE.Clone
  - IEnumCERTVIEWATTRIBUTE.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

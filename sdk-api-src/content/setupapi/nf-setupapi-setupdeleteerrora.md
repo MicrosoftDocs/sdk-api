@@ -40,7 +40,6 @@ api_name:
  - SetupDeleteError
  - SetupDeleteErrorA
  - SetupDeleteErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

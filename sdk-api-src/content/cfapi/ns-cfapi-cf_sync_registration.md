@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_SYNC_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: CF_SYNC_REGISTRATION
 req.redist: 

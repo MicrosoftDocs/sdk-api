@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - MEDIA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MEDIA_TYPE, *PMEDIA_TYPE
 req.redist: 

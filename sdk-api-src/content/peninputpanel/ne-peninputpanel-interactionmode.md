@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - InteractionMode
-product: Windows
 targetos: Windows
 req.typenames: InteractionMode
 req.redist: 

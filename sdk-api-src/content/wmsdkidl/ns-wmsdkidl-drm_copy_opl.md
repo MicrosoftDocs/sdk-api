@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - DRM_COPY_OPL
-product: Windows
 targetos: Windows
 req.typenames: DRM_COPY_OPL
 req.redist: 

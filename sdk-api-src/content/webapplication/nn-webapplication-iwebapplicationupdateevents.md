@@ -38,7 +38,6 @@ api_location:
  - webapplication.h
 api_name:
  - IWebApplicationUpdateEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

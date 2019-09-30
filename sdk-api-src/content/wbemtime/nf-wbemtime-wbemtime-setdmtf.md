@@ -40,7 +40,6 @@ api_location:
 api_name:
  - WBEMTime.SetDMTF
  - ?SetDMTF@WBEMTime@@QAEHQAG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

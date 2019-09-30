@@ -40,7 +40,6 @@ api_location:
  - Api-ms-win-core-windowserrorreporting-l1.dll
 api_name:
  - WerRegisterAppLocalDump
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

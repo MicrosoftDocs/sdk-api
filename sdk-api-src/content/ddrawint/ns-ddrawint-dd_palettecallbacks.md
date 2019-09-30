@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_PALETTECALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_PALETTECALLBACKS
 req.redist: 

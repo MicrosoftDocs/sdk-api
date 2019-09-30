@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenException.AllowedFileGroups
  - IFsrmFileScreenException.get_AllowedFileGroups
  - IFsrmFileScreenException.put_AllowedFileGroups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

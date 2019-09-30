@@ -38,7 +38,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSManResourceLocator.AddSelector
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_FILETIME_DATA
-product: Windows
 targetos: Windows
 req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - AssocQueryKey
  - AssocQueryKeyA
  - AssocQueryKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

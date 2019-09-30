@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10.Subject
  - IX509CertificateRequestPkcs10.get_Subject
  - IX509CertificateRequestPkcs10.put_Subject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

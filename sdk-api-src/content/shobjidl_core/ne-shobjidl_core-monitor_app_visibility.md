@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - MONITOR_APP_VISIBILITY
-product: Windows
 targetos: Windows
 req.typenames: MONITOR_APP_VISIBILITY
 req.redist: 

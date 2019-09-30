@@ -40,7 +40,6 @@ api_location:
  - sfc_os.dll
 api_name:
  - SfcIsFileProtected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

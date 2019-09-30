@@ -38,7 +38,6 @@ api_location:
 - Ntdsapi.dll
 api_name:
 - DsReplicaFreeInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

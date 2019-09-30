@@ -38,7 +38,6 @@ api_location:
  - mfcaptureengine.h
 api_name:
  - IMFCaptureEngine.GetSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

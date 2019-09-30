@@ -38,7 +38,6 @@ api_location:
  - Api-ms-win-core-version-l1-2-3.dll
 api_name:
  - GetSystemTimeAdjustmentPrecise
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

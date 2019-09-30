@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPITcpConnectionInfo.Protocol
  - IRDPSRAPITcpConnectionInfo.get_Protocol
  - RDPSRAPITcpConnectionInfo.Protocol
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CachedHelp
  - IUIAutomationLegacyIAccessiblePattern.get_CachedHelp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

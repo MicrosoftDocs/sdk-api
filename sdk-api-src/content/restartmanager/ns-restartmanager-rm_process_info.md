@@ -38,7 +38,6 @@ api_location:
 - RestartManager.h
 api_name:
 - RM_PROCESS_INFO
-product: Windows
 targetos: Windows
 req.typenames: RM_PROCESS_INFO, *PRM_PROCESS_INFO
 req.redist: 

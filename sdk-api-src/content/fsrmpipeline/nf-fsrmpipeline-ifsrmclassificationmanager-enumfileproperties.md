@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.EnumFileProperties
 - IFsrmClassificationManager2.EnumFileProperties
 - FsrmClassificationManager.EnumFileProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

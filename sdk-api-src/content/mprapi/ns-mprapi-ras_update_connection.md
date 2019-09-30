@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - RAS_UPDATE_CONNECTION
-product: Windows
 targetos: Windows
 req.typenames: RAS_UPDATE_CONNECTION, *PRAS_UPDATE_CONNECTION
 req.redist: 

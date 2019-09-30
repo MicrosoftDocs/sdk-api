@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - ADSPEC
-product: Windows
 targetos: Windows
 req.typenames: ADSPEC
 req.redist: 

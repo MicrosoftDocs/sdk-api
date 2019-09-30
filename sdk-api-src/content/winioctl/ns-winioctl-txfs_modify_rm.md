@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - TXFS_MODIFY_RM
-product: Windows
 targetos: Windows
 req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vpnotify.h
 api_name:
  - IVPBaseNotify.RenegotiateVPParameters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

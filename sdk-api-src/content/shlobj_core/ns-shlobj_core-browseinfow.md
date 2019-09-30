@@ -40,7 +40,6 @@ api_name:
  - BROWSEINFO
  - BROWSEINFOA
  - BROWSEINFOW
-product: Windows
 targetos: Windows
 req.typenames: BROWSEINFOW, *PBROWSEINFOW, *LPBROWSEINFOW
 req.redist: 

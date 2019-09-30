@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHDSW_CALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DXVAHDSW_CALLBACKS
 req.redist: 

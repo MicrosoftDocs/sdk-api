@@ -47,7 +47,6 @@ api_name:
 - GetFileAttributesEx
 - GetFileAttributesExA
 - GetFileAttributesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

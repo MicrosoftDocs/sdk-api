@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_CALLOUT_ENUM_TEMPLATE0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_CALLOUT_ENUM_TEMPLATE0
 req.redist: 

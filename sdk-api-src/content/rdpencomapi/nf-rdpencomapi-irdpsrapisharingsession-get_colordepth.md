@@ -44,7 +44,6 @@ api_name:
  - IRDPSRAPISharingSession.get_ColorDepth
  - IRDPSRAPISharingSession.put_ColorDepth
  - RDPSession.ColorDepth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

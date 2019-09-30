@@ -38,7 +38,6 @@ api_location:
  - wofutil.dll
 api_name:
  - WofGetDriverVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

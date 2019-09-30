@@ -38,7 +38,6 @@ api_location:
  - searchapi.h
 api_name:
  - SEARCH_COLUMN_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_COLUMN_PROPERTIES
 req.redist: Windows Desktop Search (WDS) 3.0

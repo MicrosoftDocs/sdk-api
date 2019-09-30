@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMBCHOTITEM
-product: Windows
 targetos: Windows
 req.typenames: NMBCHOTITEM, *LPNMBCHOTITEM
 req.redist: 

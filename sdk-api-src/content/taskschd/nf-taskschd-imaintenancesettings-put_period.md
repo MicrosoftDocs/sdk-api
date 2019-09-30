@@ -40,7 +40,6 @@ api_name:
  - IMaintenanceSettings.Period
  - IMaintenanceSettings.get_Period
  - IMaintenanceSettings.put_Period
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

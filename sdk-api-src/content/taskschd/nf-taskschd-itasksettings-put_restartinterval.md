@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.RestartInterval
  - ITaskSettings.get_RestartInterval
  - ITaskSettings.put_RestartInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

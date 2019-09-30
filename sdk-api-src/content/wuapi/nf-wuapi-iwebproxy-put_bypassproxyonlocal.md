@@ -40,7 +40,6 @@ api_name:
  - IWebProxy.BypassProxyOnLocal
  - IWebProxy.get_BypassProxyOnLocal
  - IWebProxy.put_BypassProxyOnLocal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

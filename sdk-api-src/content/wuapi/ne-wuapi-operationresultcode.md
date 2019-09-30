@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - OperationResultCode
-product: Windows
 targetos: Windows
 req.typenames: OperationResultCode
 req.redist: 

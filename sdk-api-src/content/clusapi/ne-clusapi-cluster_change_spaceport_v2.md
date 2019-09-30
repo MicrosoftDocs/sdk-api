@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLUSTER_CHANGE_SPACEPORT_V2
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_SPACEPORT_V2
 req.redist: 

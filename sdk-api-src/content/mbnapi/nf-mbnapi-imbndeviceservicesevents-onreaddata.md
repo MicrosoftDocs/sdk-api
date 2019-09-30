@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnDeviceServicesEvents.OnReadData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

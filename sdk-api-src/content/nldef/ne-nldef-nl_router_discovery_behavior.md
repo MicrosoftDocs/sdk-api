@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_ROUTER_DISCOVERY_BEHAVIOR
-product: Windows
 targetos: Windows
 req.typenames: NL_ROUTER_DISCOVERY_BEHAVIOR
 req.redist: 

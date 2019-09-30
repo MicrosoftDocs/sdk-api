@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_TAGGED_OTHER_MSG
-product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_OTHER_MSG, *PCMC_TAGGED_OTHER_MSG
 req.redist: 

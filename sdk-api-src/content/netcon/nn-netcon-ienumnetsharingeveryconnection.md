@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - IEnumNetSharingEveryConnection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

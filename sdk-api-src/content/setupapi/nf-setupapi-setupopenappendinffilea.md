@@ -40,7 +40,6 @@ api_name:
  - SetupOpenAppendInfFile
  - SetupOpenAppendInfFileA
  - SetupOpenAppendInfFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

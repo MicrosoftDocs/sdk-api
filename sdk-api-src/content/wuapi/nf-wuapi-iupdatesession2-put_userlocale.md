@@ -40,7 +40,6 @@ api_name:
  - IUpdateSession2.UserLocale
  - IUpdateSession2.get_UserLocale
  - IUpdateSession2.put_UserLocale
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

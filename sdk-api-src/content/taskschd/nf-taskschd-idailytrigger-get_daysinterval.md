@@ -40,7 +40,6 @@ api_name:
  - IDailyTrigger.DaysInterval
  - IDailyTrigger.get_DaysInterval
  - IDailyTrigger.put_DaysInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

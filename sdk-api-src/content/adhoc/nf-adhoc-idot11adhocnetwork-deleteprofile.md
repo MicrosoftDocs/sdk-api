@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - IDot11AdHocNetwork.DeleteProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - spatialaudioclient.h
 api_name:
  - ISpatialAudioObjectRenderStreamBase.GetService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

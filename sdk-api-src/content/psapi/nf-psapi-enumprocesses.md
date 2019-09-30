@@ -43,7 +43,6 @@ api_location:
 api_name:
  - EnumProcesses
  - K32EnumProcesses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

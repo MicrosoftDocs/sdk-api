@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsTimestamp
  - Timestamp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

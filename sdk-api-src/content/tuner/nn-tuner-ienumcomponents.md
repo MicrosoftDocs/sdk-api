@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IEnumComponents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

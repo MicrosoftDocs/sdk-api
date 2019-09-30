@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - URL_SCHEME
-product: Windows
 targetos: Windows
 req.typenames: URL_SCHEME
 req.redist: 

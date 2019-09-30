@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_KCC_TASKID
-product: Windows
 targetos: Windows
 req.typenames: DS_KCC_TASKID
 req.redist: 

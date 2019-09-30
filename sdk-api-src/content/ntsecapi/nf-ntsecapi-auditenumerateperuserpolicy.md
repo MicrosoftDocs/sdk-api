@@ -40,7 +40,6 @@ api_location:
 - sechost.dll
 api_name:
 - AuditEnumeratePerUserPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

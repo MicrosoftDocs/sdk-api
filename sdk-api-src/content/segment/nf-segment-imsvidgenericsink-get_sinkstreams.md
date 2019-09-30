@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidGenericSink.get_SinkStreams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

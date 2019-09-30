@@ -38,7 +38,6 @@ api_location:
  - Azroles.h
 api_name:
  - IAzAuthorizationStore3.BizruleGroupSupported
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

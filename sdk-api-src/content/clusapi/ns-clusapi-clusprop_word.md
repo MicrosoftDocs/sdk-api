@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_WORD
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_WORD, *PCLUSPROP_WORD
 req.redist: 

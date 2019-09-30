@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomation.ControlViewCondition
  - IUIAutomation.get_ControlViewCondition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

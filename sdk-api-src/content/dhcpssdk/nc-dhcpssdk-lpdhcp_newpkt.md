@@ -38,7 +38,6 @@ api_location:
 - Dhcpssdk.h
 api_name:
 - DhcpNewPktHook
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

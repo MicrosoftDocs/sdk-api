@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CUSTOM_HTTP_PROXY
-product: Windows
 targetos: Windows
 req.typenames: WS_CUSTOM_HTTP_PROXY
 req.redist: 

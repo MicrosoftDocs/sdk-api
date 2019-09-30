@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdDeleteDirectDrawObject
  - GdiEntry3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

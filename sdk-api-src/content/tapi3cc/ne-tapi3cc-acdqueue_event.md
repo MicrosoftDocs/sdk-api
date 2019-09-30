@@ -38,7 +38,6 @@ api_location:
  - tapi3cc.h
 api_name:
  - ACDQUEUE_EVENT
-product: Windows
 targetos: Windows
 req.typenames: ACDQUEUE_EVENT
 req.redist: 

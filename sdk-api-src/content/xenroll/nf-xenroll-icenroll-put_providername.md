@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_ProviderName
  - ICEnroll.put_ProviderName
  - CEnroll.ProviderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

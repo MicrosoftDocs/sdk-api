@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - JabColorF
-product: Windows
 targetos: Windows
 req.typenames: JabColorF
 req.redist: 

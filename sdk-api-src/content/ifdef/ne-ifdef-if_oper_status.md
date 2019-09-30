@@ -38,7 +38,6 @@ api_location:
  - Ifdef.h
 api_name:
  - IF_OPER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: IF_OPER_STATUS
 req.redist: 

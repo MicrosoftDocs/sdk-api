@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_META_COMMAND_PARAMETER_STAGE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_META_COMMAND_PARAMETER_STAGE
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IRDPSRAPISharingSession.VirtualChannelManager
  - IRDPSRAPISharingSession.get_VirtualChannelManager
  - RDPSession.VirtualChannelManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

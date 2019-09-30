@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - CreateClusterNotifyPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

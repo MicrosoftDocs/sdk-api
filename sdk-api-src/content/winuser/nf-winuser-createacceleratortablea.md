@@ -44,7 +44,6 @@ api_name:
  - CreateAcceleratorTable
  - CreateAcceleratorTableA
  - CreateAcceleratorTableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

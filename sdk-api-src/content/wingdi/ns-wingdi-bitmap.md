@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - BITMAP
-product: Windows
 targetos: Windows
 req.typenames: BITMAP, *PBITMAP, *NPBITMAP, *LPBITMAP
 req.redist: 

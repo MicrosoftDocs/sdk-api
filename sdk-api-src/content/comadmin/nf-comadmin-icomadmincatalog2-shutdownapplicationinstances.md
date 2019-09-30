@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICOMAdminCatalog2.ShutdownApplicationInstances
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

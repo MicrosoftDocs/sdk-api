@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwProfile.IcmpSettings
  - INetFwProfile.get_IcmpSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

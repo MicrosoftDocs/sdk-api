@@ -40,7 +40,6 @@ api_name:
  - CREATESTRUCT
  - CREATESTRUCTA
  - CREATESTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: CREATESTRUCTW, *LPCREATESTRUCTW
 req.redist: 

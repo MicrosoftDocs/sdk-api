@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.FileName
  - IFaxDoc.get_FileName
  - IFaxDoc.put_FileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - STACKFRAME_EX
-product: Windows
 targetos: Windows
 req.typenames: STACKFRAME_EX, *LPSTACKFRAME_EX
 req.redist: DbgHelp.dll 6.2 or later

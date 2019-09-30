@@ -40,7 +40,6 @@ api_name:
 - BuildCommDCB
 - BuildCommDCBA
 - BuildCommDCBW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

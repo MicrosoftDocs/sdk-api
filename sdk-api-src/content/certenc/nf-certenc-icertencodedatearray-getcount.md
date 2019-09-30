@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeDateArray.GetCount
  - CCertEncodeDateArray.GetCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

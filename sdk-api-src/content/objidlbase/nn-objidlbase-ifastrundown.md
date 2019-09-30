@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - IFastRundown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

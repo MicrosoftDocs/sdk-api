@@ -38,7 +38,6 @@ api_location:
  - Intsafe.h
 api_name:
  - ULongToUChar
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

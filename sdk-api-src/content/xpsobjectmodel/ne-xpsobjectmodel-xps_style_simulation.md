@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_STYLE_SIMULATION
-product: Windows
 targetos: Windows
 req.typenames: XPS_STYLE_SIMULATION
 req.redist: 

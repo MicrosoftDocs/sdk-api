@@ -40,7 +40,6 @@ api_name:
  - IEnroll.PVKFileNameWStr
  - IEnroll.get_PVKFileNameWStr
  - IEnroll.put_PVKFileNameWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_SORTKEY
-product: Windows
 targetos: Windows
 req.typenames: ADS_SORTKEY, *PADS_SORTKEY
 req.redist: 

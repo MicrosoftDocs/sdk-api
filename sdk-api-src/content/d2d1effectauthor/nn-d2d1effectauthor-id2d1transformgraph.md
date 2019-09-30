@@ -39,7 +39,6 @@ api_location:
  - d2d1.dll
 api_name:
  - ID2D1TransformGraph
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

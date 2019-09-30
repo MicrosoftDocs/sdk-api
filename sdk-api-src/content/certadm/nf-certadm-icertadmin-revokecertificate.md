@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.RevokeCertificate
  - ICertAdmin.RevokeCertificate
  - CCertAdmin.RevokeCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - BitsPrx2.dll
 api_name:
 - IBackgroundCopyJob2.GetReplyProgress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_INTEGRITY_ALGORITHM0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_INTEGRITY_ALGORITHM0
 req.redist: 

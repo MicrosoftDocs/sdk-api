@@ -42,7 +42,6 @@ api_name:
  - GetFirmwareEnvironmentVariableEx
  - GetFirmwareEnvironmentVariableExA
  - GetFirmwareEnvironmentVariableExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

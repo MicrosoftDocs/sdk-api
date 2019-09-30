@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - MAKELANGID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - SrmSvc.dll
 api_name:
 - IFsrmQuotaBase.CreateThresholdAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - UrlUnescape
  - UrlUnescapeA
  - UrlUnescapeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

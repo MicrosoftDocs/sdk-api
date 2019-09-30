@@ -38,7 +38,6 @@ api_location:
  - Wmvcore.dll
 api_name:
  - WMCreateSyncReader
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

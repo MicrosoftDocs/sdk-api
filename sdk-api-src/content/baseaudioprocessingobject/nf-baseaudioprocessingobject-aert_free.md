@@ -38,7 +38,6 @@ api_location:
  - Audioeng.dll
 api_name:
  - AERT_Free
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

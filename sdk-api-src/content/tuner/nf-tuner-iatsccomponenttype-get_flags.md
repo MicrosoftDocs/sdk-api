@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IATSCComponentType.get_Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

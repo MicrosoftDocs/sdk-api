@@ -38,7 +38,6 @@ api_location:
  - Wmsecure.h
 api_name:
  - IWMGetSecureChannel.GetPeerSecureChannelInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

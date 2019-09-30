@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - BANDSITEINFO
-product: Windows
 targetos: Windows
 req.typenames: BANDSITEINFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.SaveEnvironment
  - ITsSbResourcePluginStoreEx.SaveEnvironment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

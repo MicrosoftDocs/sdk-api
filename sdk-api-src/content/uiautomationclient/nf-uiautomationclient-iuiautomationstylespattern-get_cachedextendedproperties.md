@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CachedExtendedProperties
  - IUIAutomationStylesPattern.get_CachedExtendedProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

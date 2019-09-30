@@ -39,7 +39,6 @@ api_location:
  - Uuid.dll
 api_name:
  - IVdsRemovable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

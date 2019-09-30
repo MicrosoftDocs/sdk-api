@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - BIND_OPTS
-product: Windows
 targetos: Windows
 req.typenames: BIND_OPTS, *LPBIND_OPTS
 req.redist: 

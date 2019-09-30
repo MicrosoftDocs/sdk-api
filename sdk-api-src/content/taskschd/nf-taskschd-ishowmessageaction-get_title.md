@@ -40,7 +40,6 @@ api_name:
  - IShowMessageAction.Title
  - IShowMessageAction.get_Title
  - IShowMessageAction.put_Title
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

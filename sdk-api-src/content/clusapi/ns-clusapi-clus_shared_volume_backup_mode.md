@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUS_SHARED_VOLUME_BACKUP_MODE
-product: Windows
 targetos: Windows
 req.typenames: CLUS_SHARED_VOLUME_BACKUP_MODE, *PCLUS_SHARED_VOLUME_BACKUP_MODE
 req.redist: 

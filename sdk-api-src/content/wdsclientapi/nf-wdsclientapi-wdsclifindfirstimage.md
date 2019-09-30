@@ -38,7 +38,6 @@ api_location:
  - WdsClientAPI.dll
 api_name:
  - WdsCliFindFirstImage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

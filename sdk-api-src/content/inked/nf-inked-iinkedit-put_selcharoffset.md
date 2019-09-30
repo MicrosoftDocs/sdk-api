@@ -42,7 +42,6 @@ api_name:
  - IInkEdit.put_SelCharOffset
  - InkEdit.get_SelCharOffset
  - InkEdit.put_SelCharOffset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

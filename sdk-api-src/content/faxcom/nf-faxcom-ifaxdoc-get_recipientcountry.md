@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.RecipientCountry
  - IFaxDoc.get_RecipientCountry
  - IFaxDoc.put_RecipientCountry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

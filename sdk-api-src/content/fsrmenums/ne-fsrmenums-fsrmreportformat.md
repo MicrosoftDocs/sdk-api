@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmReportFormat
-product: Windows
 targetos: Windows
 req.typenames: FsrmReportFormat
 req.redist: 

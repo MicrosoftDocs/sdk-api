@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - USER_MODALS_INFO_1001
-product: Windows
 targetos: Windows
 req.typenames: USER_MODALS_INFO_1001, *PUSER_MODALS_INFO_1001, *LPUSER_MODALS_INFO_1001
 req.redist: 

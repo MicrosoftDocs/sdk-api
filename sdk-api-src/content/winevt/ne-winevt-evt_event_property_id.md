@@ -38,7 +38,6 @@ api_location:
  - WinEvt.h
 api_name:
  - EVT_EVENT_PROPERTY_ID
-product: Windows
 targetos: Windows
 req.typenames: EVT_EVENT_PROPERTY_ID
 req.redist: 

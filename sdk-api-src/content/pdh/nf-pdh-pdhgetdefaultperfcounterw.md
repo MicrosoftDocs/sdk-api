@@ -40,7 +40,6 @@ api_name:
  - PdhGetDefaultPerfCounter
  - PdhGetDefaultPerfCounterA
  - PdhGetDefaultPerfCounterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

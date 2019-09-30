@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.AlertThresholds
  - IAlertDataCollector.get_AlertThresholds
  - IAlertDataCollector.put_AlertThresholds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

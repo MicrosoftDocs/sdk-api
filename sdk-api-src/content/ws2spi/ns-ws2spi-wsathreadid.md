@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WSATHREADID
-product: Windows
 targetos: Windows
 req.typenames: WSATHREADID, *LPWSATHREADID
 req.redist: 

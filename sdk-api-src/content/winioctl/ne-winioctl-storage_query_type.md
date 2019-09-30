@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - STORAGE_QUERY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
 req.redist: 

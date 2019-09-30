@@ -39,7 +39,6 @@ api_location:
  - imagehlp.dll
 api_name:
  - MakeSureDirectoryPathExists
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

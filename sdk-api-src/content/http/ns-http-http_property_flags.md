@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_PROPERTY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
 req.redist: 

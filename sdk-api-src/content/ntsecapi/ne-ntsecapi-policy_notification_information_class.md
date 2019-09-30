@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - POLICY_NOTIFICATION_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: POLICY_NOTIFICATION_INFORMATION_CLASS, *PPOLICY_NOTIFICATION_INFORMATION_CLASS
 req.redist: 

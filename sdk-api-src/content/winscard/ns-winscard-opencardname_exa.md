@@ -40,7 +40,6 @@ api_name:
  - OPENCARDNAME_EX
  - OPENCARDNAME_EXA
  - OPENCARDNAME_EXW
-product: Windows
 targetos: Windows
 req.typenames: OPENCARDNAME_EXA, *POPENCARDNAME_EXA, *LPOPENCARDNAME_EXA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - SetUnicastIpAddressEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

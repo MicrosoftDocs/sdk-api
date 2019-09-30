@@ -40,7 +40,6 @@ api_name:
  - FILEDESCRIPTOR
  - FILEDESCRIPTORA
  - FILEDESCRIPTORW
-product: Windows
 targetos: Windows
 req.typenames: FILEDESCRIPTORA, *LPFILEDESCRIPTORA
 req.redist: 

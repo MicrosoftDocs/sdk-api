@@ -39,7 +39,6 @@ api_location:
  - mfobjects.dll
 api_name:
  - IMFSpatialAudioObjectBuffer.SetID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationResult.HResult
  - IInstallationResult.get_HResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

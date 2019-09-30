@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.isReadOnlyItem
  - IWMPMedia2.isReadOnlyItem
  - IWMPMedia3.isReadOnlyItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

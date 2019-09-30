@@ -39,7 +39,6 @@ api_location:
  - Audiomediatype.idl.dll
 api_name:
  - IAudioMediaType.GetAudioFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

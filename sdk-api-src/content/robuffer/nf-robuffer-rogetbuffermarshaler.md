@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-Core-Winrt-robuffer-l1-1-0.dll
 api_name:
  - RoGetBufferMarshaler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

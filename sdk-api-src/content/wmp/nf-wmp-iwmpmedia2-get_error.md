@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWMPMedia2.get_error
  - IWMPMedia3.get_error
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

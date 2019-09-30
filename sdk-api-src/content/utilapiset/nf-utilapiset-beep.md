@@ -43,7 +43,6 @@ api_location:
  - api-ms-win-core-util-l1-1-1.dll
 api_name:
  - Beep
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

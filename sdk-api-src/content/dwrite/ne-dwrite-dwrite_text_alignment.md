@@ -38,7 +38,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_TEXT_ALIGNMENT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

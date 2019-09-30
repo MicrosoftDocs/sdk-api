@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - FN_HANDLE_CMD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

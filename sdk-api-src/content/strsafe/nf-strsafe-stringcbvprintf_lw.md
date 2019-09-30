@@ -40,7 +40,6 @@ api_name:
  - StringCbVPrintf_l
  - StringCbVPrintf_lA
  - StringCbVPrintf_lW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

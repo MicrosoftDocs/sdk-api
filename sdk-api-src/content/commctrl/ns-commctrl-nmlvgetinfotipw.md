@@ -40,7 +40,6 @@ api_name:
 - NMLVGETINFOTIP
 - NMLVGETINFOTIPA
 - NMLVGETINFOTIPW
-product: Windows
 targetos: Windows
 req.typenames: NMLVGETINFOTIPW, *LPNMLVGETINFOTIPW
 req.redist: 

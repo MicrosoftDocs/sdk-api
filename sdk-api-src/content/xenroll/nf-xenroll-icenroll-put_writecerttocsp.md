@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_WriteCertToCSP
  - ICEnroll.put_WriteCertToCSP
  - CEnroll.WriteCertToCSP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - IASDOMAINTYPE
-product: Windows
 targetos: Windows
 req.typenames: IASDOMAINTYPE, *PIASDOMAINTYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - robuffer.h
 api_name:
  - IBufferByteAccess.Buffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

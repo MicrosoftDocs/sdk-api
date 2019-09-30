@@ -45,7 +45,6 @@ api_location:
  - rtmpal.dll
 api_name:
  - EventUnregister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

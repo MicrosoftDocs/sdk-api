@@ -38,7 +38,6 @@ api_location:
  - InkPresenterDesktop.h
 api_name:
  - IInkCommitRequestHandler.OnCommitRequested
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

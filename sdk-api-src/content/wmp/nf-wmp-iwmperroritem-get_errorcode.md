@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPErrorItem.get_errorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

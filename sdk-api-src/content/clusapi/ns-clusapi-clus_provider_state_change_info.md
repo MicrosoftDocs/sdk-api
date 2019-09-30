@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_PROVIDER_STATE_CHANGE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
 req.redist: 

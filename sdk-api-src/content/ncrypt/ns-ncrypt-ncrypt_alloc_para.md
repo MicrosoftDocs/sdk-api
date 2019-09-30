@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.h
 api_name:
  - NCRYPT_ALLOC_PARA
-product: Windows
 targetos: Windows
 req.typenames: NCRYPT_ALLOC_PARA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyEnumType.GetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

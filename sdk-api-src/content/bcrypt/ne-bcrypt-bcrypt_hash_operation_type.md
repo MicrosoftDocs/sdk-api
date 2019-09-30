@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_HASH_OPERATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_HASH_OPERATION_TYPE
 req.redist: 

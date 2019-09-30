@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - CANDIDATELIST
-product: Windows
 targetos: Windows
 req.typenames: CANDIDATELIST, *PCANDIDATELIST, *NPCANDIDATELIST, *LPCANDIDATELIST
 req.redist: 

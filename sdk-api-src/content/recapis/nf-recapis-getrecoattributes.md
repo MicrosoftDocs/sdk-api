@@ -38,7 +38,6 @@ api_location:
  - recapis.h
 api_name:
  - GetRecoAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IPhraseSink
  - IPhraseSink.PutSmallPhrase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

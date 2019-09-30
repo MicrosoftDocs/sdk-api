@@ -38,7 +38,6 @@ api_location:
  - WsbOnline.dll
 api_name:
  - DeregisterOnlineBackupFromWindowsServerBackup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

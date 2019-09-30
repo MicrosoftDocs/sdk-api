@@ -38,7 +38,6 @@ api_location:
  - EncDec.h
 api_name:
  - IETFilter.GetCurrRating
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

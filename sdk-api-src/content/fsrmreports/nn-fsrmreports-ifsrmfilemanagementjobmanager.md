@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmFileManagementJobManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

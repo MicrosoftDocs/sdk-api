@@ -41,7 +41,6 @@ api_name:
  - IInkExtendedProperties.Count
  - IInkExtendedProperties.get_Count
  - IInkExtendedProperties.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

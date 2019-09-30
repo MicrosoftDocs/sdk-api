@@ -45,7 +45,6 @@ api_name:
  - TextOut
  - TextOutA
  - TextOutW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

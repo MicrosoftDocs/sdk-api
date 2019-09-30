@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.Silent
  - IX509CertificateRequest.get_Silent
  - IX509CertificateRequest.put_Silent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

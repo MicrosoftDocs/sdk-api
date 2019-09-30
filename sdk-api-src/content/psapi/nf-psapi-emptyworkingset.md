@@ -43,7 +43,6 @@ api_location:
 api_name:
  - EmptyWorkingSet
  - K32EmptyWorkingSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

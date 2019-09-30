@@ -38,7 +38,6 @@ api_location:
  - VsMgmt.h
 api_name:
  - IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

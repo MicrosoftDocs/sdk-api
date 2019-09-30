@@ -40,7 +40,6 @@ api_name:
  - CONNECTDLGSTRUCT
  - CONNECTDLGSTRUCTA
  - CONNECTDLGSTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: CONNECTDLGSTRUCTA, *LPCONNECTDLGSTRUCTA
 req.redist: 

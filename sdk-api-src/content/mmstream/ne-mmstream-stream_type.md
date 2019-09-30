@@ -38,7 +38,6 @@ api_location:
  - Mmstream.h
 api_name:
  - STREAM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: STREAM_TYPE
 req.redist: 

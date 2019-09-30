@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - CSecureChannelClient.fIsAuthenticated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

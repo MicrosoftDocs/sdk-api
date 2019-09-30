@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d11on12/ID3D11On12Device1::GetD3D12Device"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

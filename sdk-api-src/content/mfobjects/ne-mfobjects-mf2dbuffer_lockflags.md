@@ -38,7 +38,6 @@ api_location:
  - mfobjects.idl
 api_name:
  - MF2DBuffer_LockFlags
-product: Windows
 targetos: Windows
 req.typenames: MF2DBuffer_LockFlags
 req.redist: 

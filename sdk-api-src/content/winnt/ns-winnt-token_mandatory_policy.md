@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_MANDATORY_POLICY
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_MANDATORY_POLICY, *PTOKEN_MANDATORY_POLICY
 req.redist: 

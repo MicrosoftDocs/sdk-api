@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DESTROYSURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA'
 req.redist: 

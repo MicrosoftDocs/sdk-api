@@ -38,7 +38,6 @@ api_location:
  - Mobsync.h
 api_name:
  - SYNCMGRSTATUS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRSTATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - windows.media.streaming.h
 api_name:
  - PositionInformation
-product: Windows
 targetos: Windows
 req.typenames: PositionInformation
 req.redist: 

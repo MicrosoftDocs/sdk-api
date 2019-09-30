@@ -46,7 +46,6 @@ api_name:
  - OpenSCManager
  - OpenSCManagerA
  - OpenSCManagerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

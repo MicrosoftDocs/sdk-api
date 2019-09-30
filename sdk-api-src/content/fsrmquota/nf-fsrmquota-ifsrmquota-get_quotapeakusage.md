@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmQuota.QuotaPeakUsage
  - IFsrmQuota.get_QuotaPeakUsage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDrawVideoImage.DrawVideoImageEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

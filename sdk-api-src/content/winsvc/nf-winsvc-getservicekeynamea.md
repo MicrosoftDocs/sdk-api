@@ -45,7 +45,6 @@ api_name:
  - GetServiceKeyName
  - GetServiceKeyNameA
  - GetServiceKeyNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

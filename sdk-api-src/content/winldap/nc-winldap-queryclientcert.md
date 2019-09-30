@@ -38,7 +38,6 @@ api_location:
 - Winldap.h
 api_name:
 - QUERYCLIENTCERT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

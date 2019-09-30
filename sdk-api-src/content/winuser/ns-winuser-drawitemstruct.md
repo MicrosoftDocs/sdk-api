@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DRAWITEMSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: DRAWITEMSTRUCT, *PDRAWITEMSTRUCT, *LPDRAWITEMSTRUCT
 req.redist: 

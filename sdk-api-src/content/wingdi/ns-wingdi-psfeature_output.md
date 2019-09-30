@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - PSFEATURE_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
 req.redist: 

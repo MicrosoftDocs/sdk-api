@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement2.CurrentOptimizeForVisualContent
  - IUIAutomationElement2.get_CurrentOptimizeForVisualContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

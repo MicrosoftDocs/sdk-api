@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMDevice3.GetFormatCapability
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

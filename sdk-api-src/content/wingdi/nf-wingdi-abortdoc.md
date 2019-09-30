@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
 api_name:
  - AbortDoc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

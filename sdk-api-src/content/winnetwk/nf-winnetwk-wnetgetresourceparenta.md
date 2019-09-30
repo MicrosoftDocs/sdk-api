@@ -40,7 +40,6 @@ api_name:
  - WNetGetResourceParent
  - WNetGetResourceParentA
  - WNetGetResourceParentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

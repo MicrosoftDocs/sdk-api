@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - HARDWARE_COUNTER_DATA
-product: Windows
 targetos: Windows
 req.typenames: HARDWARE_COUNTER_DATA, *PHARDWARE_COUNTER_DATA
 req.redist: 

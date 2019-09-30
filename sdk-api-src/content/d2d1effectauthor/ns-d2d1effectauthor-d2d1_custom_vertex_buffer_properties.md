@@ -38,7 +38,6 @@ api_location:
  - d2d1effectauthor.h
 api_name:
  - D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
 req.redist: 

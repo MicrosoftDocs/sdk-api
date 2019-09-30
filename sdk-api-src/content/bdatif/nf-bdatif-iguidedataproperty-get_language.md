@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IGuideDataProperty.get_Language
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

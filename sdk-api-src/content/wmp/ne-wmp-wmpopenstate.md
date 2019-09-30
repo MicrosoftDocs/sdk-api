@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPOpenState
-product: Windows
 targetos: Windows
 req.typenames: WMPOpenState
 req.redist: 

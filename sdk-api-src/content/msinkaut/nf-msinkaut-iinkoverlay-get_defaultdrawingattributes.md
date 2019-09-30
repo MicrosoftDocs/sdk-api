@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_DefaultDrawingAttributes
  - InkOverlay.get_DefaultDrawingAttributes
  - InkOverlay.put_DefaultDrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

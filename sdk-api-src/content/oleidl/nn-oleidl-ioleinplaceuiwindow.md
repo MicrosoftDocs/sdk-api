@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - IOleInPlaceUIWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

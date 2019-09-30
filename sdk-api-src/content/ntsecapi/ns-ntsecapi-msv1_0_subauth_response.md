@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_SUBAUTH_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_SUBAUTH_RESPONSE, *PMSV1_0_SUBAUTH_RESPONSE
 req.redist: 

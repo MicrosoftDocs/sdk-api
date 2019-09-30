@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_Retries
  - IFaxServer.get_Retries
  - IFaxServer.put_Retries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

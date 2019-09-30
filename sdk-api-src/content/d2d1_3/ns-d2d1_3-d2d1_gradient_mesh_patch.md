@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.h
 api_name:
  - D2D1_GRADIENT_MESH_PATCH
-product: Windows
 targetos: Windows
 req.typenames: D2D1_GRADIENT_MESH_PATCH
 req.redist: 

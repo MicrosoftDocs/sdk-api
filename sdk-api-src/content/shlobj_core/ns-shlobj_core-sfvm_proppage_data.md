@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SFVM_PROPPAGE_DATA
-product: Windows
 targetos: Windows
 req.typenames: SFVM_PROPPAGE_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqPutWorkItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

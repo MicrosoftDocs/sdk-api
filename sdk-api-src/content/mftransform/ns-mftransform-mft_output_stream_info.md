@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - MFT_OUTPUT_STREAM_INFO
-product: Windows
 targetos: Windows
 req.typenames: MFT_OUTPUT_STREAM_INFO
 req.redist: 

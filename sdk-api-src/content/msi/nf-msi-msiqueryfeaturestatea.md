@@ -40,7 +40,6 @@ api_name:
  - MsiQueryFeatureState
  - MsiQueryFeatureStateA
  - MsiQueryFeatureStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

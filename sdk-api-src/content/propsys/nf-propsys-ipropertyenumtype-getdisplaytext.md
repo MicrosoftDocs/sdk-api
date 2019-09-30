@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyEnumType.GetDisplayText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -48,7 +48,6 @@ api_name:
  - SetWindowLong
  - SetWindowLongA
  - SetWindowLongW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_COMPARE
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_COMPARE
 req.redist: 

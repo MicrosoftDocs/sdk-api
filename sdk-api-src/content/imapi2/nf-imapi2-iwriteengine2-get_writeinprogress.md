@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IWriteEngine2.get_WriteInProgress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

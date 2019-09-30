@@ -43,7 +43,6 @@ api_name:
  - IInkCollector.put_DesiredPacketDescription
  - InkCollector.get_DesiredPacketDescription
  - InkCollector.put_DesiredPacketDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeAltName.Reset
  - CCertEncodeAltName.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

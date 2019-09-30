@@ -50,7 +50,6 @@ api_name:
  - SetWindowText
  - SetWindowTextA
  - SetWindowTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

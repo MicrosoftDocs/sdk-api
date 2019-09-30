@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferRecComp.Cancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

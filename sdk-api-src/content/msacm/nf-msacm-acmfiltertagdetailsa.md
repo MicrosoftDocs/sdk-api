@@ -41,7 +41,6 @@ api_name:
  - acmFilterTagDetails
  - acmFilterTagDetailsA
  - acmFilterTagDetailsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

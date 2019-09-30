@@ -40,7 +40,6 @@ api_name:
  - WNetAddConnection3
  - WNetAddConnection3A
  - WNetAddConnection3W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

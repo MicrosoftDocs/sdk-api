@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportContentProvider.InitializationRoutine
  - IWdsTransportContentProvider.get_InitializationRoutine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

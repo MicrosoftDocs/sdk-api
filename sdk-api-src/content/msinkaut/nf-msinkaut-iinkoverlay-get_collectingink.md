@@ -41,7 +41,6 @@ api_name:
  - IInkOverlay.CollectingInk
  - IInkOverlay.get_CollectingInk
  - InkOverlay.get_CollectingInk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

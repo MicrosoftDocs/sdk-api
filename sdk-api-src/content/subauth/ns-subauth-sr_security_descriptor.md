@@ -38,7 +38,6 @@ api_location:
  - Subauth.h
 api_name:
  - SR_SECURITY_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
 req.redist: 

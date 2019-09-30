@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - METAFILEPICT
-product: Windows
 targetos: Windows
 req.typenames: METAFILEPICT, *LPMETAFILEPICT
 req.redist: 

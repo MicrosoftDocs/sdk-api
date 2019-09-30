@@ -40,7 +40,6 @@ api_name:
  - OPEN_PRINTER_PROPS_INFO
  - OPEN_PRINTER_PROPS_INFOA
  - OPEN_PRINTER_PROPS_INFOW
-product: Windows
 targetos: Windows
 req.typenames: OPEN_PRINTER_PROPS_INFOA, *POPEN_PRINTER_PROPS_INFOA
 req.redist: 

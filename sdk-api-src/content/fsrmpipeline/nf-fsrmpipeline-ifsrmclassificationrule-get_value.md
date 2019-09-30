@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationRule.Value
  - IFsrmClassificationRule.get_Value
  - IFsrmClassificationRule.put_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

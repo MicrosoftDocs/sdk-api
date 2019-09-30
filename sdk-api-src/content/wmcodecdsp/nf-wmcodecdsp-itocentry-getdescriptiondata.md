@@ -38,7 +38,6 @@ api_location:
  - wmvdspa.dll
 api_name:
  - ITocEntry.GetDescriptionData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

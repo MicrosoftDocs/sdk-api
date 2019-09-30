@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsBackLink
  - BackLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

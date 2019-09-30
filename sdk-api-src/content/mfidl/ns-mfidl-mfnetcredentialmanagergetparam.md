@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNetCredentialManagerGetParam
-product: Windows
 targetos: Windows
 req.typenames: MFNetCredentialManagerGetParam
 req.redist: 

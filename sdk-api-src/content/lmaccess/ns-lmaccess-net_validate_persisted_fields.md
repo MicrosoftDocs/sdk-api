@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - NET_VALIDATE_PERSISTED_FIELDS
-product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
 req.redist: 

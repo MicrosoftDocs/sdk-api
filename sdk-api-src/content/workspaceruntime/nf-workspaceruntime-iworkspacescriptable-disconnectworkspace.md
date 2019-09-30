@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.DisconnectWorkspace
  - IWorkspaceScriptable3.DisconnectWorkspace
  - Workspace.DisconnectWorkspace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - AecQualityMetrics_Struct
-product: Windows
 targetos: Windows
 req.typenames: AecQualityMetrics_Struct
 req.redist: 

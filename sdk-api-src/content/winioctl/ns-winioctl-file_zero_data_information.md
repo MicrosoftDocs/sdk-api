@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_ZERO_DATA_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - GLYPHPOS
-product: Windows
 targetos: Windows
 req.typenames: GLYPHPOS, *PGLYPHPOS
 req.redist: 

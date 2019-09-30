@@ -40,7 +40,6 @@ api_name:
 - NMCOMBOBOXEX
 - NMCOMBOBOXEXA
 - NMCOMBOBOXEXW
-product: Windows
 targetos: Windows
 req.typenames: NMCOMBOBOXEXA, *PNMCOMBOBOXEXA
 req.redist: 

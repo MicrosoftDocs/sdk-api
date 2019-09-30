@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMIPADDRESS
-product: Windows
 targetos: Windows
 req.typenames: NMIPADDRESS, *LPNMIPADDRESS
 req.redist: 

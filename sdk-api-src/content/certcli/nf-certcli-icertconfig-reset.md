@@ -40,7 +40,6 @@ api_name:
  - ICertConfig2.Reset
  - ICertConfig.Reset
  - CCertConfig.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

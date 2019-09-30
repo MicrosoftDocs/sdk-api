@@ -39,7 +39,6 @@ api_location:
 - Wiaguid.dll
 api_name:
 - IWiaDataCallback.BandedDataCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

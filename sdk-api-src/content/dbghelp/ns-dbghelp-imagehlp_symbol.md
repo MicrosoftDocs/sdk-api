@@ -41,7 +41,6 @@ api_name:
  - IMAGEHLP_SYMBOL64
  - IMAGEHLP_SYMBOLW64
  - IMAGEHLP_SYMBOL
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_SYMBOL, *PIMAGEHLP_SYMBOL
 req.redist: DbgHelp.dll 5.1 or later

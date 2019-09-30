@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_AUTH_TRANSFORM0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_AUTH_TRANSFORM0
 req.redist: 

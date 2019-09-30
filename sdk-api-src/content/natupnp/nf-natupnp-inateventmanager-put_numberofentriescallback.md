@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INATEventManager.put_NumberOfEntriesCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

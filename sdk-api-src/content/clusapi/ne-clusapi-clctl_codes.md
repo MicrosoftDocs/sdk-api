@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLCTL_CODES
-product: Windows
 targetos: Windows
 req.typenames: CLCTL_CODES
 req.redist: 

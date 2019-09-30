@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_NXT_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 req.redist: 

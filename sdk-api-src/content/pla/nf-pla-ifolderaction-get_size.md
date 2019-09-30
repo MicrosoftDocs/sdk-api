@@ -40,7 +40,6 @@ api_name:
  - IFolderAction.Size
  - IFolderAction.get_Size
  - IFolderAction.put_Size
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

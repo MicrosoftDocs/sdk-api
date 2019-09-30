@@ -39,7 +39,6 @@ api_location:
 - Stm.h
 api_name:
 - MPR_SERVICE_CHARACTERISTICS
-product: Windows
 targetos: Windows
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 req.redist: 

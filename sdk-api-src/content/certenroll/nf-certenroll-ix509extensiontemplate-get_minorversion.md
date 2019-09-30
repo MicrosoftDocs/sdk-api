@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionTemplate.MinorVersion
  - IX509ExtensionTemplate.get_MinorVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

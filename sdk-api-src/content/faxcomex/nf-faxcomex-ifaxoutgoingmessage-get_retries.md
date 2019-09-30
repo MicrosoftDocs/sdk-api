@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.Retries
  - IFaxOutgoingMessage.get_Retries
  - IFaxOutgoingMessage.get_Retries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

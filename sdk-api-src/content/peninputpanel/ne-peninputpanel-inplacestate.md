@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - InPlaceState
-product: Windows
 targetos: Windows
 req.typenames: InPlaceState
 req.redist: 

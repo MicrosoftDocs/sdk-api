@@ -38,7 +38,6 @@ api_location:
  - sysinfoapi.h
 api_name:
  - COMPUTER_NAME_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: COMPUTER_NAME_FORMAT
 req.redist: 

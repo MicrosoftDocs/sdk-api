@@ -40,7 +40,6 @@ api_name:
 - FreeGPOList
 - FreeGPOListA
 - FreeGPOListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

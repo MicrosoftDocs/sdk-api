@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICDRAW
-product: Windows
 targetos: Windows
 req.typenames: ICDRAW
 req.redist: 

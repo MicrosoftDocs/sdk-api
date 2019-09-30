@@ -41,7 +41,6 @@ api_name:
 - FaxEnumPorts
 - FaxEnumPortsA
 - FaxEnumPortsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

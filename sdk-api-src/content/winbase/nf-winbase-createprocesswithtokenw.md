@@ -40,7 +40,6 @@ api_location:
 - API-MS-Win-Security-Cpwl-L1-1-0.dll
 api_name:
 - CreateProcessWithTokenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

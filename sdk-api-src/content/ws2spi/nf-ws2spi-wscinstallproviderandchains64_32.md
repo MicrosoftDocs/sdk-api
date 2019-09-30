@@ -38,7 +38,6 @@ api_location:
 - Ws2_32.dll
 api_name:
 - WSCInstallProviderAndChains64_32
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

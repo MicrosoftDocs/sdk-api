@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsAccessControlEntry
  - AccessControlEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

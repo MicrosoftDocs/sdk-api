@@ -43,7 +43,6 @@ api_name:
  - ITsSbTargetEx.FarmName
  - ITsSbTargetEx.get_FarmName
  - ITsSbTargetEx.put_FarmName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

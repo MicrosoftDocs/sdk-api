@@ -40,7 +40,6 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - Heap32First
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

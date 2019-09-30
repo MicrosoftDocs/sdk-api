@@ -38,7 +38,6 @@ api_location:
  - mpeg2psiparser.h
 api_name:
  - ICAT.RegisterForNextTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

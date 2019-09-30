@@ -40,7 +40,6 @@ api_name:
 - SetService
 - SetServiceA
 - SetServiceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

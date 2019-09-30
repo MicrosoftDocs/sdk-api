@@ -38,7 +38,6 @@ api_location:
  - VsWriter.h
 api_name:
  - VSS_SUBSCRIBE_MASK
-product: Windows
 targetos: Windows
 req.typenames: VSS_SUBSCRIBE_MASK
 req.redist: 

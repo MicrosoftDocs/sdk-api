@@ -38,7 +38,6 @@ api_location:
 - Winsvc.h
 api_name:
 - SC_ACTION
-product: Windows
 targetos: Windows
 req.typenames: SC_ACTION, *LPSC_ACTION
 req.redist: 

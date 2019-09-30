@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - RGBTRIPLE
-product: Windows
 targetos: Windows
 req.typenames: RGBTRIPLE, *PRGBTRIPLE, *NPRGBTRIPLE, *LPRGBTRIPLE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFCameraExtrinsics
-product: Windows
 targetos: Windows
 req.typenames: MFCameraExtrinsics
 req.redist: 

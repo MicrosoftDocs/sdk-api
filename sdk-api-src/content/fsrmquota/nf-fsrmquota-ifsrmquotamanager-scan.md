@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaManager.Scan
  - IFsrmQuotaManagerEx.Scan
  - FsrmQuotaManager.Scan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

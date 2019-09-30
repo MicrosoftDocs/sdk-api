@@ -45,7 +45,6 @@ api_location:
 - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
 - GetIconInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICatalogCollection.DataStoreMinorVersion
  - ICatalogCollection.get_DataStoreMinorVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

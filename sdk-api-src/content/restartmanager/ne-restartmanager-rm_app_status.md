@@ -38,7 +38,6 @@ api_location:
 - RestartManager.h
 api_name:
 - RM_APP_STATUS
-product: Windows
 targetos: Windows
 req.typenames: RM_APP_STATUS
 req.redist: 

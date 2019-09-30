@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - EXP_SPECIAL_FOLDER
-product: Windows
 targetos: Windows
 req.typenames: EXP_SPECIAL_FOLDER, *LPEXP_SPECIAL_FOLDER
 req.redist: 

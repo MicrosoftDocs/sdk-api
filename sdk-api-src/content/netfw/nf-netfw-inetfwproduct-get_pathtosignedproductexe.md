@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwProduct.PathToSignedProductExe
  - INetFwProduct.get_PathToSignedProductExe
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

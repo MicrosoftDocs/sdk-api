@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_USAGE_MATCH
-product: Windows
 targetos: Windows
 req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
 req.redist: 

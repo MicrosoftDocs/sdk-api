@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_EXTENDED_TRANSFER_INFO
-product: Windows
 targetos: Windows
 req.typenames: WIA_EXTENDED_TRANSFER_INFO, *PWIA_EXTENDED_TRANSFER_INFO
 req.redist: 

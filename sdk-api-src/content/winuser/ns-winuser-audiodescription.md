@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - AUDIODESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: AUDIODESCRIPTION, *LPAUDIODESCRIPTION
 req.redist: 

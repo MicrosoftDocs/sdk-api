@@ -40,7 +40,6 @@ api_name:
  - wvnsprintf
  - wvnsprintfA
  - wvnsprintfW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

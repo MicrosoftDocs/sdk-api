@@ -39,7 +39,6 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - PrintWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

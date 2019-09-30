@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_SEQUENCE_VARIABLE_DESC
-product: Windows
 targetos: Windows
 req.typenames: WINML_SEQUENCE_VARIABLE_DESC
 req.redist: 

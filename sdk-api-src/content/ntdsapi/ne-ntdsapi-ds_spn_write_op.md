@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_SPN_WRITE_OP
-product: Windows
 targetos: Windows
 req.typenames: DS_SPN_WRITE_OP
 req.redist: 

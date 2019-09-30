@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - IMultipleViewProvider.SetCurrentView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

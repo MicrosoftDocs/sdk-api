@@ -41,7 +41,6 @@ api_name:
 - FaxEnumRoutingMethods
 - FaxEnumRoutingMethodsA
 - FaxEnumRoutingMethodsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

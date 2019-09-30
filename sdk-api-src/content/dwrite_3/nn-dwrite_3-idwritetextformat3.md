@@ -9,7 +9,6 @@ ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3, IDWriteTextFormat3 interface [Direct Write], IDWriteTextFormat3 interface [Direct Write],described, directwrite.idwritetextformat3, dwrite_3/IDWriteTextFormat3
 ms.topic: interface
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

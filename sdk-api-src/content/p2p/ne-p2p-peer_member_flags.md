@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_MEMBER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PEER_MEMBER_FLAGS
 req.redist: 

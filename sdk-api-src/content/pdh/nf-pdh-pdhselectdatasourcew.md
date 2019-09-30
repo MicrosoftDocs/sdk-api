@@ -40,7 +40,6 @@ api_name:
  - PdhSelectDataSource
  - PdhSelectDataSourceA
  - PdhSelectDataSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

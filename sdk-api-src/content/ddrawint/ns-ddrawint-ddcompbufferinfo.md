@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DDCOMPBUFFERINFO
-product: Windows
 targetos: Windows
 req.typenames: DDCOMPBUFFERINFO, *LPDDCOMPBUFFERINFO
 req.redist: 

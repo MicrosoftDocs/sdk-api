@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_ROLLFORWARD_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_ROLLFORWARD_TYPE, *PVSS_ROLLFORWARD_TYPE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.RealTimeBuffersLost
  - ITraceDataCollector.get_RealTimeBuffersLost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

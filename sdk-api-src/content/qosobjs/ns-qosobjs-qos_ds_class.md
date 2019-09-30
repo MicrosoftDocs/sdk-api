@@ -38,7 +38,6 @@ api_location:
 - QosObjs.h
 api_name:
 - QOS_DS_CLASS
-product: Windows
 targetos: Windows
 req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferSinkEvent3.LicenseChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

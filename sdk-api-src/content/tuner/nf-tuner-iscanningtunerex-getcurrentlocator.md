@@ -38,7 +38,6 @@ api_location:
  - Tuner.h
 api_name:
  - IScanningTunerEx.GetCurrentLocator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

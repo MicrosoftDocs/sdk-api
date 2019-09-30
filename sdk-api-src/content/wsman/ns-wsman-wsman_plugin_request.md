@@ -38,7 +38,6 @@ api_location:
 - Wsman.h
 api_name:
 - WSMAN_PLUGIN_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: WSMAN_PLUGIN_REQUEST
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - ATTRIBUTEPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEPROPERTIES
 req.redist: 

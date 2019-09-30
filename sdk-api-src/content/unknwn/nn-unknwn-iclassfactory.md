@@ -38,7 +38,6 @@ api_location:
  - unknwnbase.h
 api_name:
  - IClassFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

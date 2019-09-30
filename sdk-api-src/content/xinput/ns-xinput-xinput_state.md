@@ -38,7 +38,6 @@ api_location:
 - XInput.h
 api_name:
 - XINPUT_STATE
-product: Windows
 targetos: Windows
 req.typenames: XINPUT_STATE, *PXINPUT_STATE
 req.redist: 

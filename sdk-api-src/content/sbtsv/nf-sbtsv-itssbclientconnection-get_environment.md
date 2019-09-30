@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.Environment
  - ITsSbClientConnection.get_Environment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

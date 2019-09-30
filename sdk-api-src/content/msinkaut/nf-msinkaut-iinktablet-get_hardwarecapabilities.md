@@ -41,7 +41,6 @@ api_name:
  - IInkTablet.HardwareCapabilities
  - IInkTablet.get_HardwareCapabilities
  - IInkTablet.get_HardwareCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

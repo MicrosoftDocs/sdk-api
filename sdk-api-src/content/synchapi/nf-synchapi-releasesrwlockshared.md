@@ -47,7 +47,6 @@ api_location:
 api_name:
  - ReleaseSRWLockShared
  - RtlReleaseSRWLockShared
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

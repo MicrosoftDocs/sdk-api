@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.MinimumBuffers
  - ITraceDataCollector.get_MinimumBuffers
  - ITraceDataCollector.put_MinimumBuffers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

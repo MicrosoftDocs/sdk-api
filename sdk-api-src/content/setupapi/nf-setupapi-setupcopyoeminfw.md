@@ -41,7 +41,6 @@ api_name:
  - SetupCopyOEMInf
  - SetupCopyOEMInfA
  - SetupCopyOEMInfW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

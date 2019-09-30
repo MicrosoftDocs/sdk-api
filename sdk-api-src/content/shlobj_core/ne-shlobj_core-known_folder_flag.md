@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - KNOWN_FOLDER_FLAG
-product: Windows
 targetos: Windows
 req.typenames: KNOWN_FOLDER_FLAG
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspStatus.CspInformation
  - ICspStatus.get_CspInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

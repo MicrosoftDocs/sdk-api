@@ -40,7 +40,6 @@ api_name:
  - SetupAddInstallSectionToDiskSpaceList
  - SetupAddInstallSectionToDiskSpaceListA
  - SetupAddInstallSectionToDiskSpaceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

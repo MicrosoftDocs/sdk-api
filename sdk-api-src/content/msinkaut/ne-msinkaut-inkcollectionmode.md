@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkCollectionMode
-product: Windows
 targetos: Windows
 req.typenames: InkCollectionMode
 req.redist: 

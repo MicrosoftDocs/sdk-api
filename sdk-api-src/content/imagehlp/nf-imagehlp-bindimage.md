@@ -38,7 +38,6 @@ api_location:
  - Imagehlp.dll
 api_name:
  - BindImage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

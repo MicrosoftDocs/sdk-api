@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.SessionName
  - ITraceDataCollector.get_SessionName
  - ITraceDataCollector.put_SessionName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

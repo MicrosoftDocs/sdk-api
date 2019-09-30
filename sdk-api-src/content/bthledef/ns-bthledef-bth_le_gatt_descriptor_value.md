@@ -38,7 +38,6 @@ api_location:
 - BthLEDef.h
 api_name:
 - BTH_LE_GATT_DESCRIPTOR_VALUE
-product: Windows
 targetos: Windows
 req.typenames: BTH_LE_GATT_DESCRIPTOR_VALUE, *PBTH_LE_GATT_DESCRIPTOR_VALUE
 req.redist: 

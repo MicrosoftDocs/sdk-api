@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TSPI_lineSetDefaultMediaDetection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

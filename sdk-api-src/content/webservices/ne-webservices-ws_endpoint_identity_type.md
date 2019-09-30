@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_ENDPOINT_IDENTITY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_IDENTITY_TYPE
 req.redist: 

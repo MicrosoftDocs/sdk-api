@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationProxyFactoryEntry.AllowSubstringMatch
  - IUIAutomationProxyFactoryEntry.get_AllowSubstringMatch
  - IUIAutomationProxyFactoryEntry.put_AllowSubstringMatch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - ICEnroll2.get_EnableT61DNEncoding
  - ICEnroll2.put_EnableT61DNEncoding
  - CEnroll.EnableT61DNEncoding
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

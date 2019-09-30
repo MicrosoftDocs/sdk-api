@@ -40,7 +40,6 @@ api_name:
  - IEnroll.DeleteRequestCert
  - IEnroll.get_DeleteRequestCert
  - IEnroll.put_DeleteRequestCert
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

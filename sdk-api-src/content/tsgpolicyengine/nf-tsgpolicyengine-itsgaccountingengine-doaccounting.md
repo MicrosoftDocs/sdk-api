@@ -38,7 +38,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - ITSGAccountingEngine.DoAccounting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

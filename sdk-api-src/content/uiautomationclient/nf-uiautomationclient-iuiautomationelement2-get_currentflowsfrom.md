@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationElement2.CurrentFlowsFrom
  - IUIAutomationElement2.get_CurrentFlowsFrom
  - IUIAutomationElement2.put_CurrentFlowsFrom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

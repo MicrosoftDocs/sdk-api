@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITStream.get_Direction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

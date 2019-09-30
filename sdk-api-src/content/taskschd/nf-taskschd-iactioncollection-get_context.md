@@ -40,7 +40,6 @@ api_name:
  - IActionCollection.Context
  - IActionCollection.get_Context
  - IActionCollection.put_Context
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

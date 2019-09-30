@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_PREF_INFO
-product: Windows
 targetos: Windows
 req.typenames: RTM_PREF_INFO, *PRTM_PREF_INFO
 req.redist: 

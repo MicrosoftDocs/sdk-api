@@ -38,7 +38,6 @@ api_location:
 - Wsman.h
 api_name:
 - WSManDataType
-product: Windows
 targetos: Windows
 req.typenames: WSManDataType
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

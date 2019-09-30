@@ -38,7 +38,6 @@ api_location:
 - Dvdmedia.h
 api_name:
 - AM_PROPERTY_SPPAL
-product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_SPPAL, *PAM_PROPERTY_SPPAL
 req.redist: 

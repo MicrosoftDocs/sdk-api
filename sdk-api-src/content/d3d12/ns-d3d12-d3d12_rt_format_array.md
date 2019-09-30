@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_RT_FORMAT_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

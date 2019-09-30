@@ -44,7 +44,6 @@ api_name:
 - ConvertStringSecurityDescriptorToSecurityDescriptor
 - ConvertStringSecurityDescriptorToSecurityDescriptorA
 - ConvertStringSecurityDescriptorToSecurityDescriptorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

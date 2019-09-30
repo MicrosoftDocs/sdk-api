@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTERVERSIONINFO
-product: Windows
 targetos: Windows
 req.typenames: CLUSTERVERSIONINFO, *LPCLUSTERVERSIONINFO, *PCLUSTERVERSIONINFO
 req.redist: 

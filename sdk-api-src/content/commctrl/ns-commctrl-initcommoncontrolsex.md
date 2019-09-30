@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - INITCOMMONCONTROLSEX
-product: Windows
 targetos: Windows
 req.typenames: INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX
 req.redist: 

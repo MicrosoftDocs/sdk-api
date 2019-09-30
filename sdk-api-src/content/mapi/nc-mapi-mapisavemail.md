@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MAPISaveMail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

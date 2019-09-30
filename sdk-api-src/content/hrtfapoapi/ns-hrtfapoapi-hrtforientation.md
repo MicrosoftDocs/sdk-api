@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfOrientation
-product: Windows
 targetos: Windows
 req.typenames: HrtfOrientation
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoctl.h
 api_name:
  - FSCTL_QUERY_STORAGE_CLASSES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

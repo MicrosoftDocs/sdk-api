@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmReportManager.GetDefaultFilter
 - FsrmReportManager.GetDefaultFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

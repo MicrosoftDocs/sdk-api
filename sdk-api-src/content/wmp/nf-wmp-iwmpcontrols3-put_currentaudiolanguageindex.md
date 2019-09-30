@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPControls3.put_currentAudioLanguageIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

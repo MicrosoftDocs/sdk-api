@@ -44,7 +44,6 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - _lclose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

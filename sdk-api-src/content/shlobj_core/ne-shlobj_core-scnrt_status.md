@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SCNRT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SCNRT_STATUS
 req.redist: 

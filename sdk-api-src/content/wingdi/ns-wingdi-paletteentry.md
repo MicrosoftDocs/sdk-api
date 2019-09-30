@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - PALETTEENTRY
-product: Windows
 targetos: Windows
 req.typenames: PALETTEENTRY, *PPALETTEENTRY, *LPPALETTEENTRY
 req.redist: 

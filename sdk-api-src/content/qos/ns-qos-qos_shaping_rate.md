@@ -38,7 +38,6 @@ api_location:
 - Qos.h
 api_name:
 - QOS_SHAPING_RATE
-product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING_RATE, *LPQOS_SHAPING_RATE
 req.redist: 

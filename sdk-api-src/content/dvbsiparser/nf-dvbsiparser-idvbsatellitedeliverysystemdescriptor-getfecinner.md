@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbSatelliteDeliverySystemDescriptor.GetFECInner
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

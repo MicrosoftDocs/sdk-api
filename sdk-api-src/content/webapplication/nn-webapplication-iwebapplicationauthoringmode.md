@@ -38,7 +38,6 @@ api_location:
  - webapplication.h
 api_name:
  - IWebApplicationAuthoringMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

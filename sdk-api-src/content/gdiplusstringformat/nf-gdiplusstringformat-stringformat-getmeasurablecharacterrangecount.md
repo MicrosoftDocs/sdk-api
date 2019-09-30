@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - StringFormat.GetMeasurableCharacterRangeCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

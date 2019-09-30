@@ -38,7 +38,6 @@ api_location:
  - Evntcons.h
 api_name:
  - EVENTSECURITYOPERATION
-product: Windows
 targetos: Windows
 req.typenames: EVENTSECURITYOPERATION
 req.redist: 

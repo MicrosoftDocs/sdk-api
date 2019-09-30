@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.dll
 api_name:
 - DhcpServerQueryAttribute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

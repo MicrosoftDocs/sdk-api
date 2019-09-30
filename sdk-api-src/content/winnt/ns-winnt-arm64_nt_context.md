@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
 req.redist: 

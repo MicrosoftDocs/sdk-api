@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_BUNDLE_FOOTPRINT_FILE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: APPX_BUNDLE_FOOTPRINT_FILE_TYPE
 req.redist: 

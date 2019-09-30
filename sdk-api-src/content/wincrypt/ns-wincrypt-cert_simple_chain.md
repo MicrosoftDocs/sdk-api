@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_SIMPLE_CHAIN
-product: Windows
 targetos: Windows
 req.typenames: CERT_SIMPLE_CHAIN, *PCERT_SIMPLE_CHAIN
 req.redist: 

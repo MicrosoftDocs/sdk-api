@@ -40,7 +40,6 @@ api_name:
  - IChannelIDTuneRequest.ChannelID
  - IChannelIDTuneRequest.get_ChannelID
  - IChannelIDTuneRequest.put_ChannelID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

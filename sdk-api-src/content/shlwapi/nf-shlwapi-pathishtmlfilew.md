@@ -40,7 +40,6 @@ api_name:
  - PathIsHTMLFile
  - PathIsHTMLFileA
  - PathIsHTMLFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

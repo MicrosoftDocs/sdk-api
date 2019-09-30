@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - IMAGEHLP_GET_TYPE_INFO_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
 req.redist: DbgHelp.dll 6.3 or later

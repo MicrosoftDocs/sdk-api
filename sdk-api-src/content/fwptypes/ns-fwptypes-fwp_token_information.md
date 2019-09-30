@@ -38,7 +38,6 @@ api_location:
 - Fwptypes.h
 api_name:
 - FWP_TOKEN_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: FWP_TOKEN_INFORMATION
 req.redist: 

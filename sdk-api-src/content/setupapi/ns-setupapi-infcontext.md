@@ -38,7 +38,6 @@ api_location:
  - Setupapi.h
 api_name:
  - INFCONTEXT
-product: Windows
 targetos: Windows
 req.typenames: INFCONTEXT, *PINFCONTEXT
 req.redist: 

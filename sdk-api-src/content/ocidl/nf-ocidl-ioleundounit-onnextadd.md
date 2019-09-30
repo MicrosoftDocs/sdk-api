@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IOleUndoUnit.OnNextAdd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

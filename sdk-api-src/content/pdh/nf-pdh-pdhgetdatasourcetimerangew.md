@@ -40,7 +40,6 @@ api_name:
 - PdhGetDataSourceTimeRange
 - PdhGetDataSourceTimeRangeA
 - PdhGetDataSourceTimeRangeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

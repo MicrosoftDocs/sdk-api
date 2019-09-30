@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.SetDescBarText
  - IResultData2.SetDescBarText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

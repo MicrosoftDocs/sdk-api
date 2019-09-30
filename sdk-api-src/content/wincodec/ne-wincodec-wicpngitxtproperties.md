@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngItxtProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngItxtProperties
 req.redist: 

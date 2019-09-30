@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_REPEATING_HEADER_OPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_REPEATING_HEADER_OPTION
 req.redist: 

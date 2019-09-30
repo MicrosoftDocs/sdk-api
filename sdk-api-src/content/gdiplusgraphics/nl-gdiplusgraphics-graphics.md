@@ -38,7 +38,6 @@ api_location:
  - gdiplusgraphics.h
 api_name:
  - Graphics
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

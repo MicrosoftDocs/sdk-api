@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - MFCARD_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: MFCARD_RESOURCE, *PMFCARD_RESOURCE
 req.redist: 

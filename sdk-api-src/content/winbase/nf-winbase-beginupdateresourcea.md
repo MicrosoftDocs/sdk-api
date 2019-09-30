@@ -40,7 +40,6 @@ api_name:
  - BeginUpdateResource
  - BeginUpdateResourceA
  - BeginUpdateResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

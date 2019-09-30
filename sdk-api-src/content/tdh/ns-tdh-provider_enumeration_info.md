@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PROVIDER_ENUMERATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROVIDER_ENUMERATION_INFO
 req.redist: 

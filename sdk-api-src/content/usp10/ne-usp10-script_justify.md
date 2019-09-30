@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - SCRIPT_JUSTIFY
-product: Windows
 targetos: Windows
 req.typenames: SCRIPT_JUSTIFY
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

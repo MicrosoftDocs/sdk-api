@@ -38,7 +38,6 @@ api_location:
 - BluetoothAPIs.h
 api_name:
 - BLUETOOTH_PASSKEY_INFO
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_PASSKEY_INFO, *PBLUETOOTH_PASSKEY_INFO
 req.redist: 

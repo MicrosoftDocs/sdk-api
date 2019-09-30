@@ -40,7 +40,6 @@ api_name:
  - IEnroll.RootStoreTypeWStr
  - IEnroll.get_RootStoreTypeWStr
  - IEnroll.put_RootStoreTypeWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

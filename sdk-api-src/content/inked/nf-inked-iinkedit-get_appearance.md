@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Appearance
  - InkEdit.get_Appearance
  - InkEdit.put_Appearance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

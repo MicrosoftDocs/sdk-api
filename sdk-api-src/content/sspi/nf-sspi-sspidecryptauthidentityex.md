@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SspiDecryptAuthIdentityEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

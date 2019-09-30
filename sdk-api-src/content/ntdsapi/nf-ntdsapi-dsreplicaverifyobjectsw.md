@@ -40,7 +40,6 @@ api_name:
  - DsReplicaVerifyObjects
  - DsReplicaVerifyObjectsA
  - DsReplicaVerifyObjectsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

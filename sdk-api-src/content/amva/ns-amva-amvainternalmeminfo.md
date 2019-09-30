@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVAInternalMemInfo
-product: Windows
 targetos: Windows
 req.typenames: AMVAInternalMemInfo, *LPAMVAInternalMemInfo
 req.redist: 

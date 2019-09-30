@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.RunClassification
 - IFsrmClassificationManager2.RunClassification
 - FsrmClassificationManager.RunClassification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

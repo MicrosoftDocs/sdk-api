@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionTableTransferEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

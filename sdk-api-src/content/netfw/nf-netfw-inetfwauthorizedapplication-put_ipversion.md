@@ -41,7 +41,6 @@ api_name:
  - INetFwAuthorizedApplication.IpVersion
  - INetFwAuthorizedApplication.get_IpVersion
  - INetFwAuthorizedApplication.put_IpVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

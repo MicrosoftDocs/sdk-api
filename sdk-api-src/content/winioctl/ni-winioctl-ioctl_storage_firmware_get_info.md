@@ -38,7 +38,6 @@ api_location:
 - WinIoctl.h
 api_name:
 - IOCTL_STORAGE_FIRMWARE_GET_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RID_DEVICE_INFO_MOUSE
-product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_MOUSE, *PRID_DEVICE_INFO_MOUSE
 req.redist: 

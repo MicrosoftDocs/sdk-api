@@ -42,7 +42,6 @@ api_name:
  - IRealTimeStylus.put_WindowInputRectangle
  - IRealTimeStylus.get_WindowInputRectangle
  - IRealTimeStylus.put_WindowInputRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

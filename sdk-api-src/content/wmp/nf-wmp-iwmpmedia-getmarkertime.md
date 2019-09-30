@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.getMarkerTime
  - IWMPMedia2.getMarkerTime
  - IWMPMedia3.getMarkerTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

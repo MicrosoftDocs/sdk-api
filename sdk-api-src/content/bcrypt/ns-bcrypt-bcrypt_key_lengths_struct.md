@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_KEY_LENGTHS_STRUCT
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_KEY_LENGTHS_STRUCT
 req.redist: 

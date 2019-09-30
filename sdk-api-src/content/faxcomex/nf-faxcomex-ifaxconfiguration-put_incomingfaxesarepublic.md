@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.IncomingFaxesArePublic
  - IFaxConfiguration.get_IncomingFaxesArePublic
  - IFaxConfiguration.put_IncomingFaxesArePublic
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

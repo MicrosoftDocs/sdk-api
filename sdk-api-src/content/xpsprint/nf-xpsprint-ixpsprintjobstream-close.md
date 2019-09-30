@@ -38,7 +38,6 @@ api_location:
  - XpsPrint.h
 api_name:
  - IXpsPrintJobStream.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

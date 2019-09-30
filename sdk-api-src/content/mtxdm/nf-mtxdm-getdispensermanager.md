@@ -38,7 +38,6 @@ api_location:
  - MtxDM.dll
 api_name:
  - GetDispenserManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

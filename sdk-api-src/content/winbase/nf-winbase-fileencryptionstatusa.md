@@ -40,7 +40,6 @@ api_name:
  - FileEncryptionStatus
  - FileEncryptionStatusA
  - FileEncryptionStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

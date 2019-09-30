@@ -40,7 +40,6 @@ api_name:
  - MsiReinstallProduct
  - MsiReinstallProductA
  - MsiReinstallProductW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

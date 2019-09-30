@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CurrentZoomMinimum
  - IUIAutomationTransformPattern2.get_CurrentZoomMinimum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

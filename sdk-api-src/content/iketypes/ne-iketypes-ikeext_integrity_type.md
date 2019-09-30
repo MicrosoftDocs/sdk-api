@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_INTEGRITY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_INTEGRITY_TYPE
 req.redist: 

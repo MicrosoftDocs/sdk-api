@@ -42,7 +42,6 @@ api_name:
  - GetDllDirectory
  - GetDllDirectoryA
  - GetDllDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

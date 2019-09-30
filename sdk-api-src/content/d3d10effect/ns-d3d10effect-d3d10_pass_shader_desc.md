@@ -38,7 +38,6 @@ api_location:
  - d3d10effect.h
 api_name:
  - D3D10_PASS_SHADER_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D10_PASS_SHADER_DESC
 req.redist: 

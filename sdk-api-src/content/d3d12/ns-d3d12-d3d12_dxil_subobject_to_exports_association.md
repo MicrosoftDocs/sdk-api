@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
-product: Windows
 targetos: Windows
 req.typenames: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - AddPersistentIscsiDevice
  - AddPersistentIscsiDeviceA
  - AddPersistentIscsiDeviceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

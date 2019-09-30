@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_BYTE_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_BYTE_VECTOR, *PSECPKG_BYTE_VECTOR
 req.redist: 

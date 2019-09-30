@@ -40,7 +40,6 @@ api_name:
  - IX509SignatureInformation.PublicKeyAlgorithm
  - IX509SignatureInformation.get_PublicKeyAlgorithm
  - IX509SignatureInformation.put_PublicKeyAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

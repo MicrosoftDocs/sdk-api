@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_MEDIAITEM_CLEARED_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_MEDIAITEM_CLEARED_EVENT
 req.redist: 

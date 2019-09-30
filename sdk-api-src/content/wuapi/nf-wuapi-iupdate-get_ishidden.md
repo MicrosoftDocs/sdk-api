@@ -40,7 +40,6 @@ api_name:
  - IUpdate.IsHidden
  - IUpdate.get_IsHidden
  - IUpdate.put_IsHidden
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - GET_CHANGER_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 req.redist: 

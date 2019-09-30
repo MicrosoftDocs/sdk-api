@@ -38,7 +38,6 @@ api_location:
  - Gdiplustypes.h
 api_name:
  - Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

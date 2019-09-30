@@ -40,7 +40,6 @@ api_name:
  - IGPMConstants.SecurityFlags
  - IGPMConstants.get_SecurityFlags
  - GPMConstants.SecurityFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

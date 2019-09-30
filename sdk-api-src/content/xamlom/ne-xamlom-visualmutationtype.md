@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - VisualMutationType
-product: Windows
 targetos: Windows
 req.typenames: VisualMutationType
 req.redist: 

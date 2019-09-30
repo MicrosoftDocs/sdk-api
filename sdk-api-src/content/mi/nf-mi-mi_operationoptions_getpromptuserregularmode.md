@@ -37,7 +37,6 @@ api_location:
 - 
 api_name:
 - MI_OperationOptions_GetPromptUserRegularMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

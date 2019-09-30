@@ -38,7 +38,6 @@ api_location:
  - Rpcproxy.h
 api_name:
  - ProxyFileInfo
-product: Windows
 targetos: Windows
 req.typenames: ProxyFileInfo
 req.redist: 

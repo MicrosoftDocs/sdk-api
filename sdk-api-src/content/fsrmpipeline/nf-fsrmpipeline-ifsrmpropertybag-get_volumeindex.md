@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.VolumeIndex
  - IFsrmPropertyBag.get_VolumeIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

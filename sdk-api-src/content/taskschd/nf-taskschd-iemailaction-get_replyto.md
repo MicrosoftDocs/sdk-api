@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.ReplyTo
  - IEmailAction.get_ReplyTo
  - IEmailAction.put_ReplyTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

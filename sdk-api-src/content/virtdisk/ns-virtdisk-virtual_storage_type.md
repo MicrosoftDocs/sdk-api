@@ -39,7 +39,6 @@ api_location:
 - vdssys.h
 api_name:
 - VIRTUAL_STORAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
 req.redist: 

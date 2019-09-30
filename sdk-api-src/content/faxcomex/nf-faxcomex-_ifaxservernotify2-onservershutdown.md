@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnServerShutDown
  - IFaxServerNotify2.OnServerShutDown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

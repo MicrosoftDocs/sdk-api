@@ -41,7 +41,6 @@ api_location:
  - DComp.dll
 api_name:
  - DwmFlush
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

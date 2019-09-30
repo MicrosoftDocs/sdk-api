@@ -41,7 +41,6 @@ api_location:
  - mfplat.dll.dll
 api_name:
  - IMFSensorGroup.GetFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

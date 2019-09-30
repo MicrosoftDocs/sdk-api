@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SEC_WINNT_AUTH_DATA_PASSWORD
-product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD
 req.redist: 

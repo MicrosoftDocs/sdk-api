@@ -40,7 +40,6 @@ api_name:
  - ldap_memfree
  - ldap_memfreeA
  - ldap_memfreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

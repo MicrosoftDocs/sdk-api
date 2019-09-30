@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - FPO_DATA
-product: Windows
 targetos: Windows
 req.typenames: FPO_DATA, *PFPO_DATA
 req.redist: DbgHelp.dll 5.1 or later

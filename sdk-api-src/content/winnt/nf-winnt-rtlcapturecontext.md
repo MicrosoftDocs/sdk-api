@@ -41,7 +41,6 @@ api_location:
 - API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
 - RtlCaptureContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

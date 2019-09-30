@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.Scope
  - INetFwOpenPort.get_Scope
  - INetFwOpenPort.put_Scope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_FILTER_ADD_INFO
-product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_ADD_INFO, *LPDHCP_FILTER_ADD_INFO
 req.redist: 

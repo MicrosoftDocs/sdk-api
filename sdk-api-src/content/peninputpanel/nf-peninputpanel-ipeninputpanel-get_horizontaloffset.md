@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_HorizontalOffset
  - PenInputPanel.get_HorizontalOffset
  - PenInputPanel.put_HorizontalOffset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

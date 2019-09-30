@@ -38,7 +38,6 @@ api_location:
  - Mfidl.h
 api_name:
  - MF_TRANSFER_VIDEO_FRAME_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MF_TRANSFER_VIDEO_FRAME_FLAGS
 req.redist: 

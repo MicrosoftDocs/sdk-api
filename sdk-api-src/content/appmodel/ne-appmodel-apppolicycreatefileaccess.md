@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyCreateFileAccess
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyCreateFileAccess
 req.redist: 

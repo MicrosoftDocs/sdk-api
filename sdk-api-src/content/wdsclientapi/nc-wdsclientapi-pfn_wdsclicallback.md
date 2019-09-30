@@ -38,7 +38,6 @@ api_location:
  - WdsClientAPI.h
 api_name:
  - PFN_WdsCliCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

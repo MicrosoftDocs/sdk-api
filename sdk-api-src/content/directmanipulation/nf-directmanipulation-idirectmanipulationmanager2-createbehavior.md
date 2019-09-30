@@ -38,7 +38,6 @@ api_location:
  - DirectManipulation.h
 api_name:
  - IDirectManipulationManager2.CreateBehavior
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

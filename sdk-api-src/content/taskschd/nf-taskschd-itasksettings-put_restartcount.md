@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.RestartCount
  - ITaskSettings.get_RestartCount
  - ITaskSettings.put_RestartCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

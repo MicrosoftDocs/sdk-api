@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - DHPRIVKEY_VER3
-product: Windows
 targetos: Windows
 req.typenames: DHPRIVKEY_VER3, DSSPRIVKEY_VER3
 req.redist: 

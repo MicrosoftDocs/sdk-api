@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, *PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 req.redist: 

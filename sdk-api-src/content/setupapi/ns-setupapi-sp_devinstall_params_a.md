@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SP_DEVINSTALL_PARAMS
  - sp_devinstall_params_a
-product: Windows
 targetos: Windows
 req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
 req.redist: 

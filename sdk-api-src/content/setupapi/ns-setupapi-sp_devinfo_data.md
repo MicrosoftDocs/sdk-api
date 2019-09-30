@@ -38,7 +38,6 @@ api_location:
 - setupapi.h
 api_name:
 - SP_DEVINFO_DATA
-product: Windows
 targetos: Windows
 req.typenames: SP_DEVINFO_DATA, *PSP_DEVINFO_DATA
 req.redist: 

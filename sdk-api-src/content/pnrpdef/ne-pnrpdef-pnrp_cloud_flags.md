@@ -38,7 +38,6 @@ api_location:
 - Pnrpdef.h
 api_name:
 - PNRP_CLOUD_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PNRP_CLOUD_FLAGS
 req.redist: 

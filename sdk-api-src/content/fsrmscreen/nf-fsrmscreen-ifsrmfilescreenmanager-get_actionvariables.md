@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenManager.ActionVariables
  - IFsrmFileScreenManager.get_ActionVariables
  - FsrmFileScreenManager.ActionVariables
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

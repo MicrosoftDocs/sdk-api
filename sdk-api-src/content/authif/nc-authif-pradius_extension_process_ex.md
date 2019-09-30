@@ -38,7 +38,6 @@ api_location:
 - Authif.h
 api_name:
 - PRADIUS_EXTENSION_PROCESS_EX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

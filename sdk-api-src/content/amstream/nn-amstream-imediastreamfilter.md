@@ -38,7 +38,6 @@ api_location:
  - amstream.h
 api_name:
  - IMediaStreamFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

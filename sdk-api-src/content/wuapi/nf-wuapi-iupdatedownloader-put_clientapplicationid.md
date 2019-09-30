@@ -40,7 +40,6 @@ api_name:
  - IUpdateDownloader.ClientApplicationID
  - IUpdateDownloader.get_ClientApplicationID
  - IUpdateDownloader.put_ClientApplicationID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

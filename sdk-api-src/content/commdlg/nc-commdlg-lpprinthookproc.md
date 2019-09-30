@@ -38,7 +38,6 @@ api_location:
  - Commdlg.h
 api_name:
  - LPPRINTHOOKPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

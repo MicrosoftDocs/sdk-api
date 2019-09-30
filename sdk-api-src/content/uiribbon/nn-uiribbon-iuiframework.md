@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.dll
 api_name:
  - IUIFramework
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateIdentity.RevisionNumber
  - IUpdateIdentity.get_RevisionNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

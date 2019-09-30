@@ -38,7 +38,6 @@ api_location:
  - WinEvt.h
 api_name:
  - EVT_RENDER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EVT_RENDER_FLAGS
 req.redist: 

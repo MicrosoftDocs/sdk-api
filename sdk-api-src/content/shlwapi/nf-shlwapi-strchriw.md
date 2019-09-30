@@ -45,7 +45,6 @@ api_name:
  - StrChrI
  - StrChrIA
  - StrChrIW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

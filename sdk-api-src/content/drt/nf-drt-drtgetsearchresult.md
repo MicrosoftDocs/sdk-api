@@ -38,7 +38,6 @@ api_location:
  - drt.dll
 api_name:
  - DrtGetSearchResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

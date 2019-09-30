@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_FLIPVPORTDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA'
 req.redist: 

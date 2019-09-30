@@ -38,7 +38,6 @@ api_location:
  - shobjidl.h
 api_name:
  - IShellRunDll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICRawParameterSet
-product: Windows
 targetos: Windows
 req.typenames: WICRawParameterSet
 req.redist: 

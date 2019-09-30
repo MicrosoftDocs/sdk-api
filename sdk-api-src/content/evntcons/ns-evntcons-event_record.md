@@ -38,7 +38,6 @@ api_location:
 - relogger.h
 api_name:
 - EVENT_RECORD
-product: Windows
 targetos: Windows
 req.typenames: EVENT_RECORD, *PEVENT_RECORD
 req.redist: 

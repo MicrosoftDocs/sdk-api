@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST
 req.redist: 

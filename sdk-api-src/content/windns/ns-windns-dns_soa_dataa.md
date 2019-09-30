@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_SOA_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_SOA_DATAA, *PDNS_SOA_DATAA
 req.redist: 

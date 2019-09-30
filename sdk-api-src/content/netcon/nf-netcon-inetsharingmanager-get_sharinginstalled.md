@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetSharingManager.get_SharingInstalled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ImmGetConversionList
  - ImmGetConversionListA
  - ImmGetConversionListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

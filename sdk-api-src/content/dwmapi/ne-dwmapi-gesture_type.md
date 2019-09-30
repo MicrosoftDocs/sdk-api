@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - GESTURE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

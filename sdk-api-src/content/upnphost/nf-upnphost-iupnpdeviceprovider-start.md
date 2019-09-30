@@ -38,7 +38,6 @@ api_location:
  - Upnphost.dll
 api_name:
  - IUPnPDeviceProvider.Start
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

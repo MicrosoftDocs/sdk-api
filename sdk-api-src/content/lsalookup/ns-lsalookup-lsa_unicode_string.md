@@ -38,7 +38,6 @@ api_location:
  - lsalookup.h
 api_name:
  - LSA_UNICODE_STRING
-product: Windows
 targetos: Windows
 req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
 req.redist: 

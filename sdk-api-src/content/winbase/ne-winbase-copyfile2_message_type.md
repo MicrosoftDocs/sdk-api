@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - COPYFILE2_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_MESSAGE_TYPE
 req.redist: 

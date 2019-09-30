@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_RESTORE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_RESTORE_TYPE, *PVSS_RESTORE_TYPE
 req.redist: 

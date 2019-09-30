@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingExtension.Methods
  - IFaxInboundRoutingExtension.get_Methods
  - IFaxInboundRoutingExtension.get_Methods
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMWriterAdvanced3.SetNonBlocking
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

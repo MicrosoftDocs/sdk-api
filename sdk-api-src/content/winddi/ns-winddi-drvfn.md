@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - DRVFN
-product: Windows
 targetos: Windows
 req.typenames: DRVFN, *PDRVFN
 req.redist: 

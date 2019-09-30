@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_MIB_INFO
-product: Windows
 targetos: Windows
 req.typenames: DHCP_MIB_INFO, *LPDHCP_MIB_INFO
 req.redist: 

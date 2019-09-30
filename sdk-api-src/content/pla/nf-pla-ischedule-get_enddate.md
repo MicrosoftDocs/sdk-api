@@ -40,7 +40,6 @@ api_name:
  - ISchedule.EndDate
  - ISchedule.get_EndDate
  - ISchedule.put_EndDate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

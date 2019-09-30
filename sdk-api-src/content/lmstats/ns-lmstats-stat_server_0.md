@@ -38,7 +38,6 @@ api_location:
  - Lmstats.h
 api_name:
  - STAT_SERVER_0
-product: Windows
 targetos: Windows
 req.typenames: STAT_SERVER_0, *PSTAT_SERVER_0, *LPSTAT_SERVER_0
 req.redist: 

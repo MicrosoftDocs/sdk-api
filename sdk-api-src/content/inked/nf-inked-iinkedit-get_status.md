@@ -41,7 +41,6 @@ api_name:
  - IInkEdit.Status
  - IInkEdit.get_Status
  - InkEdit.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

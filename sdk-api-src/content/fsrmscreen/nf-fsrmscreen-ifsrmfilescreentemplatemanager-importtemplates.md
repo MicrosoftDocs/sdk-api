@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileScreenTemplateManager.ImportTemplates
  - FsrmFileScreenTemplateManager.ImportTemplates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

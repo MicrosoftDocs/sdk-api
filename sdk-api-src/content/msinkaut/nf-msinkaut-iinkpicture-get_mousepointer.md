@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_MousePointer
  - InkPicture.get_MousePointer
  - InkPicture.put_MousePointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

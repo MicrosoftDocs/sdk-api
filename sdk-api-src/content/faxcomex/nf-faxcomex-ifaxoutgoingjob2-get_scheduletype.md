@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob2.ScheduleType
  - IFaxOutgoingJob2.get_ScheduleType
  - IFaxOutgoingJob2.get_ScheduleType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

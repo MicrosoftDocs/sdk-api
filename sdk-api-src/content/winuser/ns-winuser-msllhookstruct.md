@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MSLLHOOKSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MSLLHOOKSTRUCT, *LPMSLLHOOKSTRUCT, *PMSLLHOOKSTRUCT
 req.redist: 

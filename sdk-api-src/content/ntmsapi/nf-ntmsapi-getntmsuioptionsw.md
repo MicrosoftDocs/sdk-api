@@ -40,7 +40,6 @@ api_name:
  - GetNtmsUIOptions
  - GetNtmsUIOptionsA
  - GetNtmsUIOptionsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

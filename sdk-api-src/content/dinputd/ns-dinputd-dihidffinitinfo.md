@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIHIDFFINITINFO
-product: Windows
 targetos: Windows
 req.typenames: DIHIDFFINITINFO, *LPDIHIDFFINITINFO
 req.redist: 

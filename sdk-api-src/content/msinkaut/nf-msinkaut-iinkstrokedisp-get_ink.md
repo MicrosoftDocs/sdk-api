@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.Ink
  - IInkStrokeDisp.get_Ink
  - IInkStrokeDisp.get_Ink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

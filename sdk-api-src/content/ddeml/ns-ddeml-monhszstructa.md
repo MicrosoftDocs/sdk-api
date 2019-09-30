@@ -40,7 +40,6 @@ api_name:
  - MONHSZSTRUCT
  - MONHSZSTRUCTA
  - MONHSZSTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: MONHSZSTRUCTA, *PMONHSZSTRUCTA
 req.redist: 

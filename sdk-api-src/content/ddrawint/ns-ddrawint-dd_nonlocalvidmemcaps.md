@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_NONLOCALVIDMEMCAPS
-product: Windows
 targetos: Windows
 req.typenames: DD_NONLOCALVIDMEMCAPS, *PDD_NONLOCALVIDMEMCAPS
 req.redist: 

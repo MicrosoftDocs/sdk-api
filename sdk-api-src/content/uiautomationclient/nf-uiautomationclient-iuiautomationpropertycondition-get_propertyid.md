@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationPropertyCondition.PropertyId
  - IUIAutomationPropertyCondition.get_PropertyId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

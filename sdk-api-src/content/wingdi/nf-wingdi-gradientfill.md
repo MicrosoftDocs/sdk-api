@@ -39,7 +39,6 @@ api_location:
 - ext-ms-win-msimg-draw-l1-1-0.dll
 api_name:
 - GradientFill
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

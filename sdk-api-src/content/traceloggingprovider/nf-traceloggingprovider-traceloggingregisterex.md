@@ -38,7 +38,6 @@ api_location:
  - N/A
 api_name:
  - TraceLoggingRegisterEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Certenc.dll
 api_name:
  - ICertEncodeLongArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

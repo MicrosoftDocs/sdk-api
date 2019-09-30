@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutomaticUpdatesPermissionType
-product: Windows
 targetos: Windows
 req.typenames: AutomaticUpdatesPermissionType
 req.redist: 

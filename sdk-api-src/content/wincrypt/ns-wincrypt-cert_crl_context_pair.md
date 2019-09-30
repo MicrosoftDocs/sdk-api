@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_CRL_CONTEXT_PAIR
-product: Windows
 targetos: Windows
 req.typenames: CERT_CRL_CONTEXT_PAIR, *PCERT_CRL_CONTEXT_PAIR
 req.redist: 

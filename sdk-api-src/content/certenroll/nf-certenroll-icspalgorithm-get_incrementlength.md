@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithm.IncrementLength
  - ICspAlgorithm.get_IncrementLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

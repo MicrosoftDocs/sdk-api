@@ -40,7 +40,6 @@ api_name:
  - lineCreateAgent
  - lineCreateAgentA
  - lineCreateAgentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

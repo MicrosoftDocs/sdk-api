@@ -39,7 +39,6 @@ api_location:
  - onecore.lib
 api_name:
  - MapViewOfFile3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgicommon.h
 api_name:
  - DXGI_SAMPLE_DESC
-product: Windows
 targetos: Windows
 req.typenames: DXGI_SAMPLE_DESC
 req.redist: 

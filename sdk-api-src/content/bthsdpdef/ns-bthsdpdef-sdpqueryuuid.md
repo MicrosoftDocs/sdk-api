@@ -38,7 +38,6 @@ api_location:
 - Bthsdpdef.h
 api_name:
 - SdpQueryUuid
-product: Windows
 targetos: Windows
 req.typenames: SdpQueryUuid
 req.redist: 

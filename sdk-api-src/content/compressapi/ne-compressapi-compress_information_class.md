@@ -38,7 +38,6 @@ api_location:
  - compressapi.h
 api_name:
  - COMPRESS_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: COMPRESS_INFORMATION_CLASS
 req.redist: 

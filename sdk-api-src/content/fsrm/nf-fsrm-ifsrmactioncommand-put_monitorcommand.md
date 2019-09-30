@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.MonitorCommand
  - IFsrmActionCommand.get_MonitorCommand
  - IFsrmActionCommand.put_MonitorCommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

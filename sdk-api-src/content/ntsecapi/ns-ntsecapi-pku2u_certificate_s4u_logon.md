@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - PKU2U_CERTIFICATE_S4U_LOGON
-product: Windows
 targetos: Windows
 req.typenames: PKU2U_CERTIFICATE_S4U_LOGON, *PPKU2U_CERTIFICATE_S4U_LOGON
 req.redist: 

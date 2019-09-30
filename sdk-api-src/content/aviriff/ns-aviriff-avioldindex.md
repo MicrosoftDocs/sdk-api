@@ -38,7 +38,6 @@ api_location:
  - Aviriff.h
 api_name:
  - AVIOLDINDEX
-product: Windows
 targetos: Windows
 req.typenames: AVIOLDINDEX
 req.redist: 

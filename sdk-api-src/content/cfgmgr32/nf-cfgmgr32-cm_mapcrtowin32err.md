@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-devices-config-L1-1-1.dll
 api_name:
  - CM_MapCrToWin32Err
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

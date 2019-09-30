@@ -38,7 +38,6 @@ api_location:
  - Winscard.h
 api_name:
  - SCARD_ATRMASK
-product: Windows
 targetos: Windows
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 req.redist: 

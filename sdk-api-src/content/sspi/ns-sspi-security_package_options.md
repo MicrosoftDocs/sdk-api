@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SECURITY_PACKAGE_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
 req.redist: 

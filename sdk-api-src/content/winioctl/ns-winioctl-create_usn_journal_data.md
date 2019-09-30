@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - CREATE_USN_JOURNAL_DATA
-product: Windows
 targetos: Windows
 req.typenames: CREATE_USN_JOURNAL_DATA, *PCREATE_USN_JOURNAL_DATA
 req.redist: 

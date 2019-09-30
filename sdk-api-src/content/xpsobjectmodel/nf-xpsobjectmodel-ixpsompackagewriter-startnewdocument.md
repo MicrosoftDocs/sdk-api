@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IXpsOMPackageWriter.StartNewDocument
  - IXpsOMPackageWriter3D.StartNewDocument
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

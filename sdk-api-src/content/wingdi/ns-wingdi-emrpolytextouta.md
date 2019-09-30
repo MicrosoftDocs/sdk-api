@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRPOLYTEXTOUTA
-product: Windows
 targetos: Windows
 req.typenames: EMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTA, EMRPOLYTEXTOUTW, *PEMRPOLYTEXTOUTW
 req.redist: 

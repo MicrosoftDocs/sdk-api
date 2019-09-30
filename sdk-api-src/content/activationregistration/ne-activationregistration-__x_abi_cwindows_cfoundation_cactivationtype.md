@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - ActivationType
-product: Windows
 targetos: Windows
 req.typenames: "__x_ABI_CWindows_CFoundation_CActivationType"
 req.redist: 

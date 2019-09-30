@@ -38,7 +38,6 @@ api_location:
  - dshowasf.h
 api_name:
  - IAMWMBufferPass.SetNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

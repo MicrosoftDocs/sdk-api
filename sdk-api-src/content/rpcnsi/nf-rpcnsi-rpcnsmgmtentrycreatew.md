@@ -40,7 +40,6 @@ api_name:
  - RpcNsMgmtEntryCreate
  - RpcNsMgmtEntryCreateA
  - RpcNsMgmtEntryCreateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

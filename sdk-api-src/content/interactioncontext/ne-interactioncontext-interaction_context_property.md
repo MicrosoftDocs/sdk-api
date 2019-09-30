@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - INTERACTION_CONTEXT_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: INTERACTION_CONTEXT_PROPERTY
 req.redist: 

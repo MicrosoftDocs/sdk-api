@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CHANGEFILTERSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CHANGEFILTERSTRUCT, *PCHANGEFILTERSTRUCT
 req.redist: 

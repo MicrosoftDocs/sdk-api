@@ -38,7 +38,6 @@ api_location:
  - WinCred.h
 api_name:
  - CRED_PROTECTION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.ScheduledTime
  - IFaxJobStatus.get_ScheduledTime
  - IFaxJobStatus.get_ScheduledTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

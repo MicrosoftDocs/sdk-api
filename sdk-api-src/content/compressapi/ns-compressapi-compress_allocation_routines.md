@@ -38,7 +38,6 @@ api_location:
  - compressapi.h
 api_name:
  - COMPRESS_ALLOCATION_ROUTINES
-product: Windows
 targetos: Windows
 req.typenames: COMPRESS_ALLOCATION_ROUTINES, *PCOMPRESS_ALLOCATION_ROUTINES
 req.redist: 

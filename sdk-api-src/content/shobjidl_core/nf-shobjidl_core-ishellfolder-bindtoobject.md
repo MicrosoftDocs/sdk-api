@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.BindToObject
 - IShellFolder2.BindToObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDockProvider.DockPosition
  - IDockProvider.get_DockPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - RESV_STYLE
-product: Windows
 targetos: Windows
 req.typenames: RESV_STYLE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - GamutShell
-product: Windows
 targetos: Windows
 req.typenames: GamutShell
 req.redist: 

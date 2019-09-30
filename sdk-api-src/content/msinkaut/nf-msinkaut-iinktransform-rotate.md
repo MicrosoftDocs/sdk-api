@@ -39,7 +39,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkTransform.Rotate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

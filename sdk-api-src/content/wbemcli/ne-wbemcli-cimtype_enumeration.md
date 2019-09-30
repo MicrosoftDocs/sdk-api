@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - CIMTYPE_ENUMERATION
-product: Windows
 targetos: Windows
 req.typenames: CIMTYPE_ENUMERATION
 req.redist: 

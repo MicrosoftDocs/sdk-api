@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_ContainerName
  - ICEnroll.put_ContainerName
  - CEnroll.ContainerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

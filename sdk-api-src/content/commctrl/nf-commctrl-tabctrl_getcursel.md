@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TabCtrl_GetCurSel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

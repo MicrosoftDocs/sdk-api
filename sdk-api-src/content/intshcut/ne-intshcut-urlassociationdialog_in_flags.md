@@ -38,7 +38,6 @@ api_location:
  - Intshcut.h
 api_name:
  - URLASSOCIATIONDIALOG_IN_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Dmoguids.dll
 api_name:
  - IMediaObject.Discontinuity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

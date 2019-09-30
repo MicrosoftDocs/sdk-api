@@ -38,7 +38,6 @@ api_location:
 - rpcasync.h
 api_name:
 - RPCNOTIFICATION_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

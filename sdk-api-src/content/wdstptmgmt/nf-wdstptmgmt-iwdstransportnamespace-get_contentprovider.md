@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportNamespace.ContentProvider
  - IWdsTransportNamespace.get_ContentProvider
  - IWdsTransportNamespace.put_ContentProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

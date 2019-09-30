@@ -38,7 +38,6 @@ api_location:
 - winhttp.h
 api_name:
 - WINHTTP_WEB_SOCKET_ASYNC_RESULT
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_ASYNC_RESULT
 req.redist: 

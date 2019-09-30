@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedIsOffscreen
  - IUIAutomationElement.get_CachedIsOffscreen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

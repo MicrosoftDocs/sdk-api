@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmExportImport.ExportFileScreenTemplates
  - FsrmExportImport.ExportFileScreenTemplates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

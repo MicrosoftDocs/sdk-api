@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.SetupPrefix
  - IUpdateService.get_SetupPrefix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

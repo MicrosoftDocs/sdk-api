@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_PROVUI_DATA
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVUI_DATA, *PCRYPT_PROVUI_DATA
 req.redist: 

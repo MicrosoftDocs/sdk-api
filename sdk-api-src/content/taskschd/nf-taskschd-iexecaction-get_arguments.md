@@ -40,7 +40,6 @@ api_name:
  - IExecAction.Arguments
  - IExecAction.get_Arguments
  - IExecAction.put_Arguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

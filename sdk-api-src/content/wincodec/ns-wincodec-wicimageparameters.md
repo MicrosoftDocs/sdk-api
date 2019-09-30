@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICImageParameters
-product: Windows
 targetos: Windows
 req.typenames: WICImageParameters
 req.redist: 

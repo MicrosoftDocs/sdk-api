@@ -40,7 +40,6 @@ api_name:
  - DrawState
  - DrawStateA
  - DrawStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkCursorButton.State
  - IInkCursorButton.get_State
  - IInkCursorButton.get_State
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

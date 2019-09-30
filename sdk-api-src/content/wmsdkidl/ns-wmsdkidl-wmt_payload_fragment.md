@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_PAYLOAD_FRAGMENT
-product: Windows
 targetos: Windows
 req.typenames: WMT_PAYLOAD_FRAGMENT
 req.redist: 

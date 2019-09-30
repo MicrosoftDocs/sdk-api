@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.EnumRules
 - IFsrmClassificationManager2.EnumRules
 - FsrmClassificationManager.EnumRules
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - subscriptionservices.h
 api_name:
  - IWMPSubscriptionServiceCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

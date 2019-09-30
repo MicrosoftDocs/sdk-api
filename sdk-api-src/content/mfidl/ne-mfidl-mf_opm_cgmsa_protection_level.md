@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_OPM_CGMSA_PROTECTION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: MF_OPM_CGMSA_PROTECTION_LEVEL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_AUTHENTICATION_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_AUTHENTICATION_ENUM
 req.redist: 

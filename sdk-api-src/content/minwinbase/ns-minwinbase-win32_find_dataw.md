@@ -41,7 +41,6 @@ api_name:
  - WIN32_FIND_DATA
  - WIN32_FIND_DATAA
  - WIN32_FIND_DATAW
-product: Windows
 targetos: Windows
 req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
 req.redist: 

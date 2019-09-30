@@ -38,7 +38,6 @@ api_location:
  - featurestagingapi.h
 api_name:
  - FEATURE_ERROR
-product: Windows
 targetos: Windows
 req.typenames: FEATURE_ERROR
 req.redist: 

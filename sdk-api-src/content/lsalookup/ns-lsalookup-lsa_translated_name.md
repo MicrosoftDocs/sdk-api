@@ -38,7 +38,6 @@ api_location:
 - LsaLookup.h
 api_name:
 - LSA_TRANSLATED_NAME
-product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
 req.redist: 

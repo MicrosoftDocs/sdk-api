@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - ID3D12DebugDevice1.GetDebugParameter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

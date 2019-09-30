@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_CHAIN_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_CONTEXT, *PCERT_CHAIN_CONTEXT
 req.redist: 

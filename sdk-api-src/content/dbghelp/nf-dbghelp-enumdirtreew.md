@@ -40,7 +40,6 @@ api_name:
  - EnumDirTree
  - EnumDirTree
  - EnumDirTreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_HTTP_PROXY_SETTING_MODE
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_PROXY_SETTING_MODE
 req.redist: 

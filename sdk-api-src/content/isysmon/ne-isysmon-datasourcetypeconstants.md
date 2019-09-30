@@ -38,7 +38,6 @@ api_location:
  - ISysmon.h
 api_name:
  - DataSourceTypeConstants
-product: Windows
 targetos: Windows
 req.typenames: DataSourceTypeConstants
 req.redist: 

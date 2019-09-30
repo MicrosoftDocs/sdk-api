@@ -47,7 +47,6 @@ api_name:
  - RegDeleteValue
  - RegDeleteValueA
  - RegDeleteValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

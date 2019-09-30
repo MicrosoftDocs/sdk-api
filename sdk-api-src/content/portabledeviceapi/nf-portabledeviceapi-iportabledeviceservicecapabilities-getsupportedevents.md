@@ -38,7 +38,6 @@ api_location:
  - PortableDeviceAPI.h
 api_name:
  - IPortableDeviceServiceCapabilities.GetSupportedEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - IWMCodecProps.GetCodecProp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

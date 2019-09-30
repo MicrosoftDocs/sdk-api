@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_ENABLED_STATE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE
 req.redist: 

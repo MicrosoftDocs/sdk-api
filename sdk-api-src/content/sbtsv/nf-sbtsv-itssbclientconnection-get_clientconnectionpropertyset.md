@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.ClientConnectionPropertySet
  - ITsSbClientConnection.get_ClientConnectionPropertySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

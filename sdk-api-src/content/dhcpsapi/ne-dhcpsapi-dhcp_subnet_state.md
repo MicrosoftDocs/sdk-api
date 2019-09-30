@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_SUBNET_STATE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_STATE, *LPDHCP_SUBNET_STATE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
 - PDH_RAW_COUNTER_ITEM_A
 - PDH_RAW_COUNTER_ITEM_W
-product: Windows
 targetos: Windows
 req.typenames: PDH_RAW_COUNTER_ITEM_W, *PPDH_RAW_COUNTER_ITEM_W
 req.redist: 

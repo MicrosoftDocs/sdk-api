@@ -38,7 +38,6 @@ api_location:
  - windows.graphics.imaging.interop.h
 api_name:
  - ISoftwareBitmapNative
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

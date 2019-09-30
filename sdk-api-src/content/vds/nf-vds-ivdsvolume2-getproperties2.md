@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsVolume2.GetProperties2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

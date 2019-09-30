@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

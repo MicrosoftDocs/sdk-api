@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - GET_X_LPARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

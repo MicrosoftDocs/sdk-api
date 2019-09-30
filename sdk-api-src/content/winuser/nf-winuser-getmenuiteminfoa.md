@@ -44,7 +44,6 @@ api_name:
  - GetMenuItemInfo
  - GetMenuItemInfoA
  - GetMenuItemInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

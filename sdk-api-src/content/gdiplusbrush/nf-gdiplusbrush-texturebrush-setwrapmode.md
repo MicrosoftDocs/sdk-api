@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - TextureBrush.SetWrapMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

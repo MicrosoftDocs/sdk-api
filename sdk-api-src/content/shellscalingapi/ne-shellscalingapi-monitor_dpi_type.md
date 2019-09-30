@@ -38,7 +38,6 @@ api_location:
  - ShellScalingApi.h
 api_name:
  - MONITOR_DPI_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MONITOR_DPI_TYPE
 req.redist: 

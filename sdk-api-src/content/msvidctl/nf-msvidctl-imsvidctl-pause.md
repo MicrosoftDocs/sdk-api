@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.Pause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

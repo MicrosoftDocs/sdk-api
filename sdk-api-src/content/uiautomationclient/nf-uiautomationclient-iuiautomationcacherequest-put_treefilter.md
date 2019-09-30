@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationCacheRequest.TreeFilter
  - IUIAutomationCacheRequest.get_TreeFilter
  - IUIAutomationCacheRequest.put_TreeFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

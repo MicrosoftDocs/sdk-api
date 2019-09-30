@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - GetInterface
-product: Windows
 targetos: Windows
 ---
 

@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - LANA_ENUM
-product: Windows
 targetos: Windows
 req.typenames: LANA_ENUM, *PLANA_ENUM
 req.redist: 

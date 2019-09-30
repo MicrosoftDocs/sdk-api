@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - COMMTIMEOUTS
-product: Windows
 targetos: Windows
 req.typenames: COMMTIMEOUTS, *LPCOMMTIMEOUTS
 req.redist: 

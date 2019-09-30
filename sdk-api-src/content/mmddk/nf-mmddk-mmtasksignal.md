@@ -38,7 +38,6 @@ api_location:
  - mmtasksignal.dll
 api_name:
  - mmTaskSignal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

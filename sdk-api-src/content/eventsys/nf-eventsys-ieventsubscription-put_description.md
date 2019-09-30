@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.Description
  - IEventSubscription.get_Description
  - IEventSubscription.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

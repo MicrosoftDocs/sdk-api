@@ -40,7 +40,6 @@ api_name:
  - ICertSrvSetupKeyInformation.ExistingCACertificate
  - ICertSrvSetupKeyInformation.get_ExistingCACertificate
  - ICertSrvSetupKeyInformation.put_ExistingCACertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

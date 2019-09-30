@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - SelectionHitResult
-product: Windows
 targetos: Windows
 req.typenames: SelectionHitResult
 req.redist: 

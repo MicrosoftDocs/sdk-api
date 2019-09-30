@@ -47,7 +47,6 @@ api_location:
  - Wmipiprt.dll
 api_name:
  - IWbemClassObject.SpawnInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - IAudioOutputSelector.GetSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

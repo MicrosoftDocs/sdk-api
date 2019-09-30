@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DEVICE_MEDIA_INFO
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
 req.redist: 

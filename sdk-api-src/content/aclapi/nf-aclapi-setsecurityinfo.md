@@ -43,7 +43,6 @@ api_location:
 - ntmarta.dll
 api_name:
 - SetSecurityInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

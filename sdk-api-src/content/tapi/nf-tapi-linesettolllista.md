@@ -40,7 +40,6 @@ api_name:
  - lineSetTollList
  - lineSetTollListA
  - lineSetTollListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

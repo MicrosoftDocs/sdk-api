@@ -40,7 +40,6 @@ api_name:
  - DsWriteAccountSpn
  - DsWriteAccountSpnA
  - DsWriteAccountSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

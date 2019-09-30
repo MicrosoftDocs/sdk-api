@@ -40,7 +40,6 @@ api_name:
  - PdhEnumObjectItems
  - PdhEnumObjectItemsA
  - PdhEnumObjectItemsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinEvt.h
 api_name:
  - EVT_EXPORTLOG_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EVT_EXPORTLOG_FLAGS
 req.redist: 

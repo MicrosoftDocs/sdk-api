@@ -38,7 +38,6 @@ api_location:
  - Pla.dll
 api_name:
  - ITraceDataProviderCollection.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

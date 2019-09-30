@@ -38,7 +38,6 @@ api_location:
  - XblIdpAuthManager.h
 api_name:
  - XBL_IDP_AUTH_TOKEN_STATUS
-product: Windows
 targetos: Windows
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.DisconnectWorkspaceByFriendlyName
  - IWorkspaceScriptable3.DisconnectWorkspaceByFriendlyName
  - Workspace.DisconnectWorkspaceByFriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

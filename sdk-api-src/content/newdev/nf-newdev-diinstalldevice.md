@@ -39,7 +39,6 @@ api_location:
 - Ext-MS-Win-Newdev-Config-L1-1-1.dll
 api_name:
 - DiInstallDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

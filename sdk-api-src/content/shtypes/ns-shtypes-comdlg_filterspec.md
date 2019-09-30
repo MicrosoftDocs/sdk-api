@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - COMDLG_FILTERSPEC
-product: Windows
 targetos: Windows
 req.typenames: COMDLG_FILTERSPEC
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.CreationTime
  - IFsrmPropertyBag.get_CreationTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

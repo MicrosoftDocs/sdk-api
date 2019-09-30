@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - TARGETPROTOCOLTYPE
-product: Windows
 targetos: Windows
 req.typenames: TARGETPROTOCOLTYPE, *PTARGETPROTOCOLTYPE
 req.redist: 

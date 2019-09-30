@@ -40,7 +40,6 @@ api_location:
  - wsock32.dll
 api_name:
  - WSAStartup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

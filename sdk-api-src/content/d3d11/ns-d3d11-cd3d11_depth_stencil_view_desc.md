@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - CD3D11_DEPTH_STENCIL_VIEW_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
 req.redist: 

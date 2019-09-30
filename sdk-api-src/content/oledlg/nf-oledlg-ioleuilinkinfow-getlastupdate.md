@@ -40,7 +40,6 @@ api_name:
  - IOleUILinkInfo.GetLastUpdate
  - IOleUILinkInfoA.GetLastUpdate
  - IOleUILinkInfow.GetLastUpdate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

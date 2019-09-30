@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IMPEG2Component.put_ProgramNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

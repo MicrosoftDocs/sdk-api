@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.SubscriberInterface
  - IEventSubscription.get_SubscriberInterface
  - IEventSubscription.put_SubscriberInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

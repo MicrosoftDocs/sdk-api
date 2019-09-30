@@ -32,7 +32,6 @@ api_location:
  - tuner.h
 api_name: 
  - IAuxInTuningSpace
-product: Windows
 targetos: Windows
 ms.custom: 19H1
 ---

@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - QOS_SERVICE_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: QOS_SERVICE_LEVEL
 req.redist: 

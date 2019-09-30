@@ -39,7 +39,6 @@ api_location:
 api_name:
 - FileIOCompletionRoutine
 - LPOVERLAPPED_COMPLETION_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

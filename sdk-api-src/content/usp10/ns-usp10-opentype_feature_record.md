@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - OPENTYPE_FEATURE_RECORD
-product: Windows
 targetos: Windows
 req.typenames: OPENTYPE_FEATURE_RECORD
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

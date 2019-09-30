@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DxTransfer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

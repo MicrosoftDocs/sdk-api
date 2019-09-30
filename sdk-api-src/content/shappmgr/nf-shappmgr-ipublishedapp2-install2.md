@@ -38,7 +38,6 @@ api_location:
  - Shappmgr.h
 api_name:
  - IPublishedApp2.Install2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

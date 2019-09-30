@@ -38,7 +38,6 @@ api_location:
  - Upnp.dll
 api_name:
  - IUPnPServiceAsync.EndQueryStateVariable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

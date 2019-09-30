@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IAnalogTVTuningSpace.put_MaxChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

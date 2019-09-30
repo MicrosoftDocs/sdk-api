@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITPrivateEvent.get_EventCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

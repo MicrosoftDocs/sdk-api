@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - OLECMDID_WINDOWSTATE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: OLECMDID_WINDOWSTATE_FLAG
 req.redist: 

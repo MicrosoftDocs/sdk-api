@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - MCGRIDINFO
-product: Windows
 targetos: Windows
 req.typenames: MCGRIDINFO, *PMCGRIDINFO
 req.redist: 

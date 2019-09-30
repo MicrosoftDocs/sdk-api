@@ -40,7 +40,6 @@ api_name:
 - InternetOpenUrl
 - InternetOpenUrlA
 - InternetOpenUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

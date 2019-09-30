@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CERT_STORE_PROV_WRITE_CRL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

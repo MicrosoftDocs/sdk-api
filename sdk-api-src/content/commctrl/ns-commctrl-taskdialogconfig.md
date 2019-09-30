@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - TASKDIALOGCONFIG
-product: Windows
 targetos: Windows
 req.typenames: TASKDIALOGCONFIG
 req.redist: 

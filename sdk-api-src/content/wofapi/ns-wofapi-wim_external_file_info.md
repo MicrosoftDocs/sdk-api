@@ -38,7 +38,6 @@ api_location:
  - wofapi.h
 api_name:
  - WIM_EXTERNAL_FILE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
 req.redist: 

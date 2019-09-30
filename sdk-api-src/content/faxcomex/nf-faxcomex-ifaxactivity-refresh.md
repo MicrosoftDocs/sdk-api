@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxActivity.Refresh
  - IFaxActivity.Refresh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_USER_WEB_URL
-product: Windows
 targetos: Windows
 req.typenames: WM_USER_WEB_URL
 req.redist: 

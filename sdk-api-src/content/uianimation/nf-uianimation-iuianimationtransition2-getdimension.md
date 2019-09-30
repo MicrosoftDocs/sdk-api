@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationTransition2.GetDimension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

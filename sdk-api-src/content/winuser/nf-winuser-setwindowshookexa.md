@@ -47,7 +47,6 @@ api_name:
  - SetWindowsHookEx
  - SetWindowsHookExA
  - SetWindowsHookExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

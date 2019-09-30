@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_CONFLICT_ITEM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CONFLICT_ITEM_TYPE
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - GetWindowTextLength
  - GetWindowTextLengthA
  - GetWindowTextLengthW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
  - IdnToUnicode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1

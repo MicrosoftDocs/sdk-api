@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - GET_KEYSTATE_LPARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

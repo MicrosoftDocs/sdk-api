@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_GUID_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: TRACE_GUID_PROPERTIES, *PTRACE_GUID_PROPERTIES
 req.redist: 

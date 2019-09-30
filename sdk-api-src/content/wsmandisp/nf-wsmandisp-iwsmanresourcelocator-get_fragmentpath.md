@@ -40,7 +40,6 @@ api_name:
  - IWSManResourceLocator.FragmentPath
  - IWSManResourceLocator.get_FragmentPath
  - IWSManResourceLocator.put_FragmentPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

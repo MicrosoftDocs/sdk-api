@@ -38,7 +38,6 @@ api_location:
  - Url.dll
 api_name:
  - InetIsOffline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

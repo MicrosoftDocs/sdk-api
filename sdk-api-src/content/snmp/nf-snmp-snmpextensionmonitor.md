@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - SnmpExtensionMonitor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

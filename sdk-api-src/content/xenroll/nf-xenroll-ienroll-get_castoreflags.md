@@ -40,7 +40,6 @@ api_name:
  - IEnroll.CAStoreFlags
  - IEnroll.get_CAStoreFlags
  - IEnroll.put_CAStoreFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

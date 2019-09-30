@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IBlockRangeList
  - IBlockRangeList.get_BlockRanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

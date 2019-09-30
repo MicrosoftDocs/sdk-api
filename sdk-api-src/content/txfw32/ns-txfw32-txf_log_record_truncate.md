@@ -38,7 +38,6 @@ api_location:
 - TxfW32.h
 api_name:
 - TXF_LOG_RECORD_TRUNCATE
-product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
 req.redist: 

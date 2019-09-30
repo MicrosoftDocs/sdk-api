@@ -38,7 +38,6 @@ api_location:
  - Perflib.h
 api_name:
  - AllocateMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

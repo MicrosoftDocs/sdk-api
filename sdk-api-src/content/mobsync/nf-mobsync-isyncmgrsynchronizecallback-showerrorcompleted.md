@@ -38,7 +38,6 @@ api_location:
  - Mobsync.dll
 api_name:
  - ISyncMgrSynchronizeCallback.ShowErrorCompleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

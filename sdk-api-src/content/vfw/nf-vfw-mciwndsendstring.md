@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - MCIWndSendString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

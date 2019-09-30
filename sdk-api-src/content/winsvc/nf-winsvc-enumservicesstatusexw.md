@@ -47,7 +47,6 @@ api_name:
 - EnumServicesStatusEx
 - EnumServicesStatusExA
 - EnumServicesStatusExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
  - GetAutoRotationState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

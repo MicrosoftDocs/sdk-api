@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_LUN_RESERVE_MODE
-product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_RESERVE_MODE
 req.redist: 

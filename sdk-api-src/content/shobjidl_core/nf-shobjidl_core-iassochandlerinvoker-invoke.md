@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IAssocHandlerInvoker.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

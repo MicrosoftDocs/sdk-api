@@ -40,7 +40,6 @@ api_name:
  - IMonthlyTrigger.RandomDelay
  - IMonthlyTrigger.get_RandomDelay
  - IMonthlyTrigger.put_RandomDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

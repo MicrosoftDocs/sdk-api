@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - LPDSENUMATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

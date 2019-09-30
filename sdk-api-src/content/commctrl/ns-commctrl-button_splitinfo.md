@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - BUTTON_SPLITINFO
-product: Windows
 targetos: Windows
 req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
 req.redist: 

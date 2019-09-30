@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - TYSPEC
-product: Windows
 targetos: Windows
 req.typenames: TYSPEC
 req.redist: 

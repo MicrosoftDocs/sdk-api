@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIInfoQueue.GetRetrievalFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

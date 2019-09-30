@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - SHCOLSTATE
-product: Windows
 targetos: Windows
 req.typenames: SHCOLSTATE
 req.redist: 

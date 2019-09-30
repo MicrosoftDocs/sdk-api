@@ -40,7 +40,6 @@ api_name:
  - WNDCLASS
  - WNDCLASSA
  - WNDCLASSW
-product: Windows
 targetos: Windows
 req.typenames: WNDCLASSA, *PWNDCLASSA, *NPWNDCLASSA, *LPWNDCLASSA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - IP_ADAPTER_BINDING_INFO
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_BINDING_INFO, *PIP_ADAPTER_BINDING_INFO
 req.redist: 

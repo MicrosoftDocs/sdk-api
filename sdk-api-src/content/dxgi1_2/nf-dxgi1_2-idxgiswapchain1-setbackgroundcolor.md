@@ -39,7 +39,6 @@ api_location:
  - Dxgi.dll
 api_name:
  - IDXGISwapChain1.SetBackgroundColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

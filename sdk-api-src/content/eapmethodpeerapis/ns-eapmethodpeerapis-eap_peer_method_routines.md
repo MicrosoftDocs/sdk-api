@@ -38,7 +38,6 @@ api_location:
 - eapmethodpeerapis.h
 api_name:
 - EAP_PEER_METHOD_ROUTINES
-product: Windows
 targetos: Windows
 req.typenames: EAP_PEER_METHOD_ROUTINES
 req.redist: 

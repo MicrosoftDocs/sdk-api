@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMF2DBuffer2.Copy2DTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

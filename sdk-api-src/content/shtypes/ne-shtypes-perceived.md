@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - PERCEIVED
-product: Windows
 targetos: Windows
 req.typenames: PERCEIVED
 req.redist: 

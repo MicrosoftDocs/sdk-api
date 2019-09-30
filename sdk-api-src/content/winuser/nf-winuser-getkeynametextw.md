@@ -44,7 +44,6 @@ api_name:
  - GetKeyNameText
  - GetKeyNameTextA
  - GetKeyNameTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

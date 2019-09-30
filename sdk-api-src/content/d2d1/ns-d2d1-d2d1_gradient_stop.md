@@ -38,7 +38,6 @@ api_location:
  - d2d1.h
 api_name:
  - D2D1_GRADIENT_STOP
-product: Windows
 targetos: Windows
 req.typenames: D2D1_GRADIENT_STOP
 req.redist: 

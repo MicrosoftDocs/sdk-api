@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients
  - IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients
  - IWdsTransportNamespaceScheduledCastAutoStart.put_MinimumClients
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

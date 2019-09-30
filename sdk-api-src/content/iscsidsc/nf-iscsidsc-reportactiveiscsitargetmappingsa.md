@@ -40,7 +40,6 @@ api_name:
  - ReportActiveIscsiTargetMappings
  - ReportActiveIscsiTargetMappingsA
  - ReportActiveIscsiTargetMappingsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

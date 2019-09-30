@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentAriaProperties
  - IUIAutomationElement.get_CurrentAriaProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

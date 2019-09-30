@@ -38,7 +38,6 @@ api_location:
  - ctffunc.h
 api_name:
  - TfIntegratableCandidateListSelectionStyle
-product: Windows
 targetos: Windows
 req.typenames: TfIntegratableCandidateListSelectionStyle
 req.redist: 

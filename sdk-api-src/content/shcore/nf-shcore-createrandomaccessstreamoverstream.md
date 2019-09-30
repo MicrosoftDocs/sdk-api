@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-ShCore-Stream-WinRT-l1-1-0.dll
 api_name:
  - CreateRandomAccessStreamOverStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

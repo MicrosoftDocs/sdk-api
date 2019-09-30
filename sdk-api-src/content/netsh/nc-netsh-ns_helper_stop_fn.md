@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - NS_HELPER_STOP_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

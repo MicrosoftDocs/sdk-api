@@ -40,7 +40,6 @@ api_name:
  - IMultiInterfaceEventControl.AllowInprocActivation
  - IMultiInterfaceEventControl.get_AllowInprocActivation
  - IMultiInterfaceEventControl.put_AllowInprocActivation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

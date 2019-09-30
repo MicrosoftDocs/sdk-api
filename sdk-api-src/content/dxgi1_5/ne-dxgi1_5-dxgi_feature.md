@@ -38,7 +38,6 @@ api_location:
  - DXGI1_5.h
 api_name:
  - DXGI_FEATURE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_FEATURE
 req.redist: 

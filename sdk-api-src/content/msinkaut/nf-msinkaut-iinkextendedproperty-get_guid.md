@@ -41,7 +41,6 @@ api_name:
  - IInkExtendedProperty.Guid
  - IInkExtendedProperty.get_Guid
  - IInkExtendedProperty.get_Guid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

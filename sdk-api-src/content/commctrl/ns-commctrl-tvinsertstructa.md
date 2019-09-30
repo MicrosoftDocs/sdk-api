@@ -40,7 +40,6 @@ api_name:
  - TVINSERTSTRUCT
  - TVINSERTSTRUCTA
  - TVINSERTSTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: TVINSERTSTRUCTA, *LPTVINSERTSTRUCTA
 req.redist: 

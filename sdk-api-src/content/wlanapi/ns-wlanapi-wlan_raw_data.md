@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_RAW_DATA
-product: Windows
 targetos: Windows
 req.typenames: WLAN_RAW_DATA, *PWLAN_RAW_DATA
 req.redist: 

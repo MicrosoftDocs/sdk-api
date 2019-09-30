@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - OLECMDID
-product: Windows
 targetos: Windows
 req.typenames: OLECMDID
 req.redist: 

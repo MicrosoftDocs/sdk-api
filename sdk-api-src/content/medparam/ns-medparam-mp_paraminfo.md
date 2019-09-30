@@ -38,7 +38,6 @@ api_location:
 - Medparam.h
 api_name:
 - MP_PARAMINFO
-product: Windows
 targetos: Windows
 req.typenames: MP_PARAMINFO
 req.redist: 

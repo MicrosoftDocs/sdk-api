@@ -38,7 +38,6 @@ api_location:
  - WcmConfig.h
 api_name:
  - WcmUserStatus
-product: Windows
 targetos: Windows
 req.typenames: WcmUserStatus
 req.redist: 

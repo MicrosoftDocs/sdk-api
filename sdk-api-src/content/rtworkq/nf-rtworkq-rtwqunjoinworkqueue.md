@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqUnjoinWorkQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxServer.ServerName
  - IFaxServer.get_ServerName
  - IFaxServer.get_ServerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

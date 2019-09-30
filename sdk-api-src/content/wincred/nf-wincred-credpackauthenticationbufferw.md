@@ -43,7 +43,6 @@ api_name:
 - CredPackAuthenticationBuffer
 - CredPackAuthenticationBufferA
 - CredPackAuthenticationBufferW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - COMBase.dll
 api_name:
  - CStdAsyncStubBuffer2_Disconnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

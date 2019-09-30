@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_STREAM_INFO
-product: Windows
 targetos: Windows
 req.typenames: AM_STREAM_INFO
 req.redist: 

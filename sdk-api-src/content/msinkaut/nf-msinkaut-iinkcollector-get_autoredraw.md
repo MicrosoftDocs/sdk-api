@@ -43,7 +43,6 @@ api_name:
  - IInkCollector.put_AutoRedraw
  - InkCollector.get_AutoRedraw
  - InkCollector.put_AutoRedraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

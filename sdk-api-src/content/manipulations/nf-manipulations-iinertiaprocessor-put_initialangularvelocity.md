@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.InitialAngularVelocity
  - IInertiaProcessor.get_InitialAngularVelocity
  - IInertiaProcessor.put_InitialAngularVelocity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

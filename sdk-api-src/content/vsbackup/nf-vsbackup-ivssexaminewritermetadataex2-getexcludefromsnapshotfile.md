@@ -39,7 +39,6 @@ api_location:
  - VssApi.dll
 api_name:
  - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

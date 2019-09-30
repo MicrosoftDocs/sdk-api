@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IConsoleNameSpace.SetItem
 - IConsoleNameSpace2.SetItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

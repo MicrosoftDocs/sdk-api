@@ -38,7 +38,6 @@ api_location:
 - Npapi.h
 api_name:
 - NPLogonNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

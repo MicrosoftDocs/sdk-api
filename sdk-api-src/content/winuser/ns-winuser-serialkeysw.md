@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - SERIALKEYS
-product: Windows
 targetos: Windows
 req.typenames: SERIALKEYSW, *LPSERIALKEYSW
 req.redist: 

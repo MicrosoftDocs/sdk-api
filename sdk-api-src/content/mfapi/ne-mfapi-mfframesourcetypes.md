@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFFrameSourceTypes
-product: Windows
 targetos: Windows
 req.typenames: MFFrameSourceTypes
 req.redist: 

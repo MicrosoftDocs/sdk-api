@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - ADMIN_OTHER_INFO
-product: Windows
 targetos: Windows
 req.typenames: ADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, *LPADMIN_OTHER_INFO
 req.redist: 

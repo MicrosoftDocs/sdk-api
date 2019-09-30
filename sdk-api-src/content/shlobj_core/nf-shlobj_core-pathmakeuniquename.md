@@ -41,7 +41,6 @@ api_location:
  - windows.storage.dll
 api_name:
  - PathMakeUniqueName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

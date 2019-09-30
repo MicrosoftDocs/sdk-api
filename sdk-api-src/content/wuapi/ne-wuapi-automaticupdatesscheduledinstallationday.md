@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutomaticUpdatesScheduledInstallationDay
-product: Windows
 targetos: Windows
 req.typenames: AutomaticUpdatesScheduledInstallationDay
 req.redist: 

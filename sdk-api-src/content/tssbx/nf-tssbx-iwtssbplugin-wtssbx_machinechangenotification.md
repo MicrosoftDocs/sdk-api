@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - IWTSSBPlugin.WTSSBX_MachineChangeNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - IS_FLOWSPEC
-product: Windows
 targetos: Windows
 req.typenames: IS_FLOWSPEC
 req.redist: 

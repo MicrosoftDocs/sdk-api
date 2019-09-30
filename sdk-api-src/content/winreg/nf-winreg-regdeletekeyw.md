@@ -44,7 +44,6 @@ api_name:
  - RegDeleteKey
  - RegDeleteKeyA
  - RegDeleteKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

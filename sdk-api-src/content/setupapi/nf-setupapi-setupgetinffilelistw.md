@@ -40,7 +40,6 @@ api_name:
  - SetupGetInfFileList
  - SetupGetInfFileListA
  - SetupGetInfFileListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

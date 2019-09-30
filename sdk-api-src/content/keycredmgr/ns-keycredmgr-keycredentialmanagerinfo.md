@@ -38,7 +38,6 @@ api_location:
  - keycredmgr.h
 api_name:
  - KeyCredentialManagerInfo
-product: Windows
 targetos: Windows
 req.typenames: KeyCredentialManagerInfo
 req.redist: 

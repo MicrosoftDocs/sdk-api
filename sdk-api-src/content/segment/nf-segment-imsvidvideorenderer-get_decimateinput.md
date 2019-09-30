@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRenderer.get_DecimateInput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

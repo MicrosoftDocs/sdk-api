@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - AsnAny
-product: Windows
 targetos: Windows
 req.typenames: AsnAny
 req.redist: 

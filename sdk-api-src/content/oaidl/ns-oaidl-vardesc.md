@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - VARDESC
-product: Windows
 targetos: Windows
 req.typenames: VARDESC, *LPVARDESC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - NAMED_ENTITY_CERTAINTY
-product: Windows
 targetos: Windows
 req.typenames: NAMED_ENTITY_CERTAINTY
 req.redist: 

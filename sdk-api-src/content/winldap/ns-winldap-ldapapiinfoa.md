@@ -40,7 +40,6 @@ api_name:
  - LDAPAPIInfo
  - LDAPAPIInfoA
  - LDAPAPIInfoW
-product: Windows
 targetos: Windows
 req.typenames: LDAPAPIInfoA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - InnerRequestLevel
-product: Windows
 targetos: Windows
 req.typenames: InnerRequestLevel
 req.redist: 

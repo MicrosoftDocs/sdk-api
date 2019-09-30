@@ -40,7 +40,6 @@ api_name:
  - phoneGetIcon
  - phoneGetIconA
  - phoneGetIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

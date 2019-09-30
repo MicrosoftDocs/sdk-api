@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - RESULT_VIEW_TYPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: RESULT_VIEW_TYPE_INFO, *PRESULT_VIEW_TYPE_INFO
 req.redist: 

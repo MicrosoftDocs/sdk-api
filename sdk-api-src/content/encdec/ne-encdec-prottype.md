@@ -38,7 +38,6 @@ api_location:
  - encdec.h
 api_name:
  - ProtType
-product: Windows
 targetos: Windows
 req.typenames: ProtType
 req.redist: 

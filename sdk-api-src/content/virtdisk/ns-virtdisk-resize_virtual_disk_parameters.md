@@ -38,7 +38,6 @@ api_location:
 - VirtDisk.h
 api_name:
 - RESIZE_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS
 req.redist: 

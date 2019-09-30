@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - CADWORD
-product: Windows
 targetos: Windows
 req.typenames: CADWORD, *LPCADWORD
 req.redist: 

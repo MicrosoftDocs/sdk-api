@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DESTROYMOCOMPDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA'
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.UserIdentity
  - IWdsTransportClient.get_UserIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

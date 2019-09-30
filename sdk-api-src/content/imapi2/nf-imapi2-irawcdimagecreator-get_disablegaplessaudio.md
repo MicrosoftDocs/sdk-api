@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IRawCDImageCreator.get_DisableGaplessAudio
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

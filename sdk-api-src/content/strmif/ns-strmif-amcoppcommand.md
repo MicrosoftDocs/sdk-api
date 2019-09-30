@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPCommand
-product: Windows
 targetos: Windows
 req.typenames: AMCOPPCommand, *LPAMCOPPCommand
 req.redist: 

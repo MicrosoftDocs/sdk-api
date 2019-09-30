@@ -38,7 +38,6 @@ api_location:
  - Wpcapi.h
 api_name:
  - IWPCWebSettings.RequestURLOverride
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

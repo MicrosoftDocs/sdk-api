@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFFOLDDOWN_MATRIX
-product: Windows
 targetos: Windows
 req.typenames: MFFOLDDOWN_MATRIX
 req.redist: 

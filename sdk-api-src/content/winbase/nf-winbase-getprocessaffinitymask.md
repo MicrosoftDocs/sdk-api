@@ -42,7 +42,6 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - GetProcessAffinityMask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

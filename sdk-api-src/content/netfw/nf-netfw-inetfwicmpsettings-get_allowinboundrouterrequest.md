@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowInboundRouterRequest
  - INetFwIcmpSettings.get_AllowInboundRouterRequest
  - INetFwIcmpSettings.put_AllowInboundRouterRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

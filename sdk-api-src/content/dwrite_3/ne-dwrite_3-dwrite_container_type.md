@@ -38,7 +38,6 @@ api_location:
  - dwrite_3.h
 api_name:
  - DWRITE_CONTAINER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

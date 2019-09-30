@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsAccessControlList
  - AccessControlList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

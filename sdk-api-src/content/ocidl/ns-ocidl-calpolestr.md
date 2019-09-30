@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - CALPOLESTR
-product: Windows
 targetos: Windows
 req.typenames: CALPOLESTR, *LPCALPOLESTR
 req.redist: 

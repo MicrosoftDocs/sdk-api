@@ -40,7 +40,6 @@ api_name:
 - GetTrusteeType
 - GetTrusteeTypeA
 - GetTrusteeTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

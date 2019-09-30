@@ -46,7 +46,6 @@ api_name:
  - CreateMutex
  - CreateMutexA
  - CreateMutexW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

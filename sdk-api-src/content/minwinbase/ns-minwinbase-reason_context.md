@@ -39,7 +39,6 @@ api_location:
  - WinBase.h
 api_name:
  - REASON_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
 req.redist: 

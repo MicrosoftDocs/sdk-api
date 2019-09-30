@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - SPC_INDIRECT_DATA_CONTENT
-product: Windows
 targetos: Windows
 req.typenames: SPC_INDIRECT_DATA_CONTENT, *PSPC_INDIRECT_DATA_CONTENT
 req.redist: 

@@ -6,7 +6,6 @@ ms.date: 4/26/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

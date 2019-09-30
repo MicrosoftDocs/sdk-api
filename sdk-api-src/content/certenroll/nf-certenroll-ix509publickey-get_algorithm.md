@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PublicKey.Algorithm
  - IX509PublicKey.get_Algorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

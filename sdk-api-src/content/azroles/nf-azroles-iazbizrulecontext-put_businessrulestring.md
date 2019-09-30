@@ -41,7 +41,6 @@ api_name:
  - IAzBizRuleContext.get_BusinessRuleString
  - IAzBizRuleContext.put_BusinessRuleString
  - AzBizRuleContext.BusinessRuleString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

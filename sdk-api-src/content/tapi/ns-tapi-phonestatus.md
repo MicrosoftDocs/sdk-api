@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONESTATUS
-product: Windows
 targetos: Windows
 req.typenames: PHONESTATUS, *LPPHONESTATUS
 req.redist: 

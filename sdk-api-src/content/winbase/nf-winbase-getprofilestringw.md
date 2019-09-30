@@ -44,7 +44,6 @@ api_name:
  - GetProfileString
  - GetProfileStringA
  - GetProfileStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

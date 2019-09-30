@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - PFREEMEM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

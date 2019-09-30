@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMFLOAT3PK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

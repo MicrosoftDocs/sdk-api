@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeAltName.GetNameCount
  - CCertEncodeAltName.GetNameCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

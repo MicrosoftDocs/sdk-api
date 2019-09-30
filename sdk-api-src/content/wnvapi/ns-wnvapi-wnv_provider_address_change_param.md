@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_PROVIDER_ADDRESS_CHANGE_PARAM
-product: Windows
 targetos: Windows
 req.typenames: WNV_PROVIDER_ADDRESS_CHANGE_PARAM, *PWNV_PROVIDER_ADDRESS_CHANGE_PARAM
 req.redist: 

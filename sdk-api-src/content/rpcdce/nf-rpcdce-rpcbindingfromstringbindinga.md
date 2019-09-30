@@ -40,7 +40,6 @@ api_name:
  - RpcBindingFromStringBinding
  - RpcBindingFromStringBindingA
  - RpcBindingFromStringBindingW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

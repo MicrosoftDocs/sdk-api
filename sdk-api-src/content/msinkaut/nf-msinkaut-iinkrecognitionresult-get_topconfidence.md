@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionResult.TopConfidence
  - IInkRecognitionResult.get_TopConfidence
  - IInkRecognitionResult.get_TopConfidence
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

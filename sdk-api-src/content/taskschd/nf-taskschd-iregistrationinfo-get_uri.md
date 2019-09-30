@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.URI
  - IRegistrationInfo.get_URI
  - IRegistrationInfo.put_URI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

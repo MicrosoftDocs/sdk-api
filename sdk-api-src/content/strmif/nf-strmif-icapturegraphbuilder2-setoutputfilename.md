@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICaptureGraphBuilder2.SetOutputFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

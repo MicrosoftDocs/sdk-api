@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTablePattern.CurrentRowOrColumnMajor
  - IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

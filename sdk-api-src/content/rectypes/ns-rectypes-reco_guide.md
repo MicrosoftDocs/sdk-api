@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - RECO_GUIDE
-product: Windows
 targetos: Windows
 req.typenames: RECO_GUIDE
 req.redist: 

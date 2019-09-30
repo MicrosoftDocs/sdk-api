@@ -38,7 +38,6 @@ api_location:
  - Certadm.dll
 api_name:
  - IOCSPCAConfigurationCollection.DeleteCAConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

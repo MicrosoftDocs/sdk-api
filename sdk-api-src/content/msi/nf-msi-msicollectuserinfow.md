@@ -40,7 +40,6 @@ api_name:
  - MsiCollectUserInfo
  - MsiCollectUserInfoA
  - MsiCollectUserInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

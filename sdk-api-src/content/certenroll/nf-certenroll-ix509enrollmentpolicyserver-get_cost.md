@@ -40,7 +40,6 @@ api_name:
  - IX509EnrollmentPolicyServer.Cost
  - IX509EnrollmentPolicyServer.get_Cost
  - IX509EnrollmentPolicyServer.put_Cost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

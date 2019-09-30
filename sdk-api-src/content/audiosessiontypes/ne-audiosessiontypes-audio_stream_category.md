@@ -38,7 +38,6 @@ api_location:
  - audiosessiontypes.h
 api_name:
  - AUDIO_STREAM_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: AUDIO_STREAM_CATEGORY
 req.redist: 

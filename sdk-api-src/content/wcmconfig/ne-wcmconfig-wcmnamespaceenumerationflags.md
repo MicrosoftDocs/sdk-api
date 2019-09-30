@@ -38,7 +38,6 @@ api_location:
  - WcmConfig.h
 api_name:
  - WcmNamespaceEnumerationFlags
-product: Windows
 targetos: Windows
 req.typenames: WcmNamespaceEnumerationFlags
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportCollection.Item
  - IWdsTransportCollection.get_Item
  - IWdsTransportCollection.put_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

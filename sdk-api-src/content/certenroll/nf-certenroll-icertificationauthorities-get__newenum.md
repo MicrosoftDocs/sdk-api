@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertificationAuthorities._NewEnum
  - ICertificationAuthorities.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

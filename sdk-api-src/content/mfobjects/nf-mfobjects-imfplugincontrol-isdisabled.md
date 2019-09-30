@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - IMFPluginControl.IsDisabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
 api_name:
  - RegisterPowerSettingNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

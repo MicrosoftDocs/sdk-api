@@ -38,7 +38,6 @@ api_location:
  - Winsync.h
 api_name:
  - ISyncSessionState2.SetProviderWithError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

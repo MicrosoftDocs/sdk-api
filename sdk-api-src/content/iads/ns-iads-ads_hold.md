@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_HOLD
-product: Windows
 targetos: Windows
 req.typenames: ADS_HOLD, *PADS_HOLD
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADDR_STRING
-product: Windows
 targetos: Windows
 req.typenames: IP_ADDR_STRING, *PIP_ADDR_STRING
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
 - CredRead
 - CredReadA
 - CredReadW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

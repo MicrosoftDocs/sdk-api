@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRemoteDesktopClient.Settings
  - IRemoteDesktopClient.get_Settings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

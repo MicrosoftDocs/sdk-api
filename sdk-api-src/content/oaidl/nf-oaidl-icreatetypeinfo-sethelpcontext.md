@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ICreateTypeInfo.SetHelpContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

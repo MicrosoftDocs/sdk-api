@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRRESIZEPALETTE
-product: Windows
 targetos: Windows
 req.typenames: EMRRESIZEPALETTE, *PEMRRESIZEPALETTE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_IS_DEFAULT_VALUE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

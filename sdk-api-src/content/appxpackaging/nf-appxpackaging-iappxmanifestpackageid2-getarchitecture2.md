@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxManifestPackageId2.GetArchitecture2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

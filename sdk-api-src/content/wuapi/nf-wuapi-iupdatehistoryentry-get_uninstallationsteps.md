@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.UninstallationSteps
  - IUpdateHistoryEntry.get_UninstallationSteps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

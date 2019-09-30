@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog2.IsApplicationInstanceDumpSupported
  - ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

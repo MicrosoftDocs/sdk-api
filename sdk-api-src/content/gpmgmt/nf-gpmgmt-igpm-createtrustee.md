@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.CreateTrustee
  - GPM.CreateTrustee
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

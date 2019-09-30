@@ -45,7 +45,6 @@ api_name:
  - IMsmError.get_DatabaseKeys
  - IMsmError.get_ModuleTable
  - IMsmError.get_ModuleKeys
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

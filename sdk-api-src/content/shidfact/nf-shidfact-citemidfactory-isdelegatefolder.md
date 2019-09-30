@@ -38,7 +38,6 @@ api_location:
  - shidfact.h
 api_name:
  - CItemIDFactory.IsDelegateFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Extensions.Count
  - IX509Extensions.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - ROI_AREA
-product: Windows
 targetos: Windows
 req.typenames: ROI_AREA, *PROI_AREA
 req.redist: 

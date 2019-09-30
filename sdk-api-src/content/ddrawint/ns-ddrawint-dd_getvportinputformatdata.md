@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETVPORTINPUTFORMATDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA'
 req.redist: 

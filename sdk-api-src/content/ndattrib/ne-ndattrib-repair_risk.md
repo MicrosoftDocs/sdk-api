@@ -38,7 +38,6 @@ api_location:
  - Ndattrib.h
 api_name:
  - REPAIR_RISK
-product: Windows
 targetos: Windows
 req.typenames: REPAIR_RISK
 req.redist: 

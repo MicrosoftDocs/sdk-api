@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_DNN_SODAFS_CLONE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
 req.redist: 

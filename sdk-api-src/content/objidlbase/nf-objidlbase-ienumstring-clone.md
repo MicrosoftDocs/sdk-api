@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IEnumString.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

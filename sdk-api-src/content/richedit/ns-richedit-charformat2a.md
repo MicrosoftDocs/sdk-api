@@ -40,7 +40,6 @@ api_name:
  - CHARFORMAT2
  - CHARFORMAT2A
  - CHARFORMAT2W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

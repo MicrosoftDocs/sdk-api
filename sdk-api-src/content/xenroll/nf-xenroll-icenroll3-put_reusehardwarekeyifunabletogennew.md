@@ -44,7 +44,6 @@ api_name:
  - ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
  - ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
  - CEnroll.ReuseHardwareKeyIfUnableToGenNew
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

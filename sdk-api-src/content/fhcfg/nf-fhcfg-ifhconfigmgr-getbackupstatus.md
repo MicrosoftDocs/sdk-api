@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFhConfigMgr.GetBackupStatus
 - FhConfigMgr.GetBackupStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

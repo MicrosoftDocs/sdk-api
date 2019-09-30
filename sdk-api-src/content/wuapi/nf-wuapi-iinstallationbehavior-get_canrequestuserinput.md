@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationBehavior.CanRequestUserInput
  - IInstallationBehavior.get_CanRequestUserInput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

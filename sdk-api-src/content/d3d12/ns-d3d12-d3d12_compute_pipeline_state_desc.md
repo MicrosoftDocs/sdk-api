@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_COMPUTE_PIPELINE_STATE_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D12_COMPUTE_PIPELINE_STATE_DESC
 req.redist: 

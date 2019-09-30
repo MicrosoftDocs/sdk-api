@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - DOT11_NETWORK
-product: Windows
 targetos: Windows
 req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
 req.redist: Wireless LAN API for Windows XP with SP2

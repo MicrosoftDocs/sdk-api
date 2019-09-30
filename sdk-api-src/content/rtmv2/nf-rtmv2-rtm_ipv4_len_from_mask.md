@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_IPV4_LEN_FROM_MASK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

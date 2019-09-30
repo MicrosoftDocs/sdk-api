@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_sourceURL
  - IWMPMedia2.get_sourceURL
  - IWMPMedia3.get_sourceURL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

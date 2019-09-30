@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - Offline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

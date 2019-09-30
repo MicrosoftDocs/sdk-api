@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_STRONG_SIGN_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
 req.redist: 

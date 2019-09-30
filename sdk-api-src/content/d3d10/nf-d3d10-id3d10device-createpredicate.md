@@ -39,7 +39,6 @@ api_location:
  - D3D10.dll
 api_name:
  - ID3D10Device.CreatePredicate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

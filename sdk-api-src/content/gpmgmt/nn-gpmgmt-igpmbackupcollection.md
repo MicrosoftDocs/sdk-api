@@ -43,7 +43,6 @@ api_name:
  - IGPMBackupCollection.Item
  - IGPMBackupCollection.get_Item
  - GPMBackupCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

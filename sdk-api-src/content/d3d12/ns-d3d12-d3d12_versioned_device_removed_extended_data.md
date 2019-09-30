@@ -36,7 +36,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA
-product: Windows
 targetos: Windows
 req.typenames: D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA
 req.redist: 

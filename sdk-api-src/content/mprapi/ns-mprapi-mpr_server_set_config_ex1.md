@@ -40,7 +40,6 @@ api_name:
 - MPR_SERVER_SET_CONFIG_EX
 - MPR_SERVER_SET_CONFIG_EX0
 - MPR_SERVER_SET_CONFIG_EX1
-product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_SET_CONFIG_EX1, *PMPR_SERVER_SET_CONFIG_EX1
 req.redist: 

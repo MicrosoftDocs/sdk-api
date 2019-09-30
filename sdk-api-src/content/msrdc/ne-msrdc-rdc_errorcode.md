@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RDC_ErrorCode
-product: Windows
 targetos: Windows
 req.typenames: RDC_ErrorCode
 req.redist: 

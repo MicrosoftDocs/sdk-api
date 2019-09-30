@@ -38,7 +38,6 @@ api_location:
 - Raseapif.h
 api_name:
 - RasEapInvokeInteractiveUI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

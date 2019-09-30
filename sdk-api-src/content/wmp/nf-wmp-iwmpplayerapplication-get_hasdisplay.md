@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPPlayerApplication.get_hasDisplay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

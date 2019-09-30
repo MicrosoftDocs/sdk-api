@@ -44,7 +44,6 @@ api_name:
  - IFsrmClassificationManager2.get_ClassificationReportMailTo
  - IFsrmClassificationManager2.put_ClassificationReportMailTo
  - FsrmClassificationManager.ClassificationReportMailTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

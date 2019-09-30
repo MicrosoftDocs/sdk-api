@@ -40,7 +40,6 @@ api_name:
  - IFaxDocument.AttachFaxToReceipt
  - IFaxDocument.get_AttachFaxToReceipt
  - IFaxDocument.put_AttachFaxToReceipt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

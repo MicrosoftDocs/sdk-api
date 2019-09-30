@@ -43,7 +43,6 @@ api_name:
  - DsFreeNameResult
  - DsFreeNameResultA
  - DsFreeNameResultW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MDINEXTMENU
-product: Windows
 targetos: Windows
 req.typenames: MDINEXTMENU, *PMDINEXTMENU, *LPMDINEXTMENU
 req.redist: 

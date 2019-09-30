@@ -38,7 +38,6 @@ api_location:
 - Avrfsdk.h
 api_name:
 - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileGroup.Name
  - IFsrmFileGroup.get_Name
  - IFsrmFileGroup.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

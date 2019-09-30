@@ -38,7 +38,6 @@ api_location:
 - relogger.h
 api_name:
 - EVENT_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
 req.redist: 

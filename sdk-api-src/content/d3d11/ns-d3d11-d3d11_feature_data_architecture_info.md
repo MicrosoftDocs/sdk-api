@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - D3D11_FEATURE_DATA_ARCHITECTURE_INFO
-product: Windows
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 req.redist: 

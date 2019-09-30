@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmReportManager.IsFilterValidForReportType
 - FsrmReportManager.IsFilterValidForReportType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

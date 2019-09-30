@@ -44,7 +44,6 @@ api_name:
  - GetFileVersionInfoSize
  - GetFileVersionInfoSizeA
  - GetFileVersionInfoSizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_PreferredInPlaceDirection
  - ITextInputPanel.get_PreferredInPlaceDirection
  - ITextInputPanel.put_PreferredInPlaceDirection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

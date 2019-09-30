@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_DATAPLAN_STATUS
-product: Windows
 targetos: Windows
 req.typenames: NLM_DATAPLAN_STATUS
 req.redist: 

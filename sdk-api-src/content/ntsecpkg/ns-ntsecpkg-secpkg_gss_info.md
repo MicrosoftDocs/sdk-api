@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_GSS_INFO
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - photoacquire.h
 api_name:
  - IPhotoAcquirePlugin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

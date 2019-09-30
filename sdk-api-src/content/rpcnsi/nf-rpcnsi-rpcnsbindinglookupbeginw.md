@@ -40,7 +40,6 @@ api_name:
  - RpcNsBindingLookupBegin
  - RpcNsBindingLookupBeginA
  - RpcNsBindingLookupBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Nsemail.h
 api_name:
  - NAPI_DOMAIN_DESCRIPTION_BLOB
-product: Windows
 targetos: Windows
 req.typenames: NAPI_DOMAIN_DESCRIPTION_BLOB
 req.redist: 

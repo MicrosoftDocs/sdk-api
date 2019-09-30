@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsole2.SetStatusText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

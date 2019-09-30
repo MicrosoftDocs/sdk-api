@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MOUSEINPUT
-product: Windows
 targetos: Windows
 req.typenames: MOUSEINPUT, *PMOUSEINPUT, *LPMOUSEINPUT
 req.redist: 

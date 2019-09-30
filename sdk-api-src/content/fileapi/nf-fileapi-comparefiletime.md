@@ -45,7 +45,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - CompareFileTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkDivisionUnit.DivisionType
  - IInkDivisionUnit.get_DivisionType
  - IInkDivisionUnit.get_DivisionType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - IWMPError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IEnroll.GenKeyFlags
  - IEnroll.get_GenKeyFlags
  - IEnroll.put_GenKeyFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

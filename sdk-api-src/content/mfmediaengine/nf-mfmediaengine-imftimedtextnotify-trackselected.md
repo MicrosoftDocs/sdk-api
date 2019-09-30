@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFTimedTextNotify.TrackSelected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ClusPartitionEx
  - ISClusPartitionEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dbt.h
 api_name:
 - _DEV_BROADCAST_USERDEFINED
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

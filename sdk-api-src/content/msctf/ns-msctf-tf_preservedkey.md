@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TF_PRESERVEDKEY
-product: Windows
 targetos: Windows
 req.typenames: TF_PRESERVEDKEY
 req.redist: TSF 1.0 on Windows 2000 Professional

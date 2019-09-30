@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - CHUNKSTATE
-product: Windows
 targetos: Windows
 req.typenames: CHUNKSTATE
 req.redist: 

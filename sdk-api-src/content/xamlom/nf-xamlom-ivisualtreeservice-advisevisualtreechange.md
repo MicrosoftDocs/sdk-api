@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - IVisualTreeService.AdviseVisualTreeChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

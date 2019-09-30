@@ -38,7 +38,6 @@ api_location:
  - Wininet.dll
 api_name:
  - DeleteUrlCacheGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

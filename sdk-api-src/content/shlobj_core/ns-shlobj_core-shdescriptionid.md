@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SHDESCRIPTIONID
-product: Windows
 targetos: Windows
 req.typenames: SHDESCRIPTIONID, *LPSHDESCRIPTIONID
 req.redist: 

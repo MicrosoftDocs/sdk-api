@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - TC_GEN_FLOW
-product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
 req.redist: 

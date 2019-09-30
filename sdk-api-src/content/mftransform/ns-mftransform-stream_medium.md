@@ -38,7 +38,6 @@ api_location:
  - Mftransform.h
 api_name:
  - STREAM_MEDIUM
-product: Windows
 targetos: Windows
 req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
 req.redist: 

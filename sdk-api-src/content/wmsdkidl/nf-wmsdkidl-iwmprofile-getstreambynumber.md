@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.GetStreamByNumber
  - IWMProfile2.GetStreamByNumber
  - IWMProfile3.GetStreamByNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

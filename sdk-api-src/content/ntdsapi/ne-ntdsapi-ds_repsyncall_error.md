@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_REPSYNCALL_ERROR
-product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_ERROR
 req.redist: 

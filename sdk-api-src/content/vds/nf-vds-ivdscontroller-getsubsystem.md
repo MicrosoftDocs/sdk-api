@@ -39,7 +39,6 @@ api_location:
  - Uuid.dll
 api_name:
  - IVdsController.GetSubSystem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - NSTCSTYLE2
-product: Windows
 targetos: Windows
 req.typenames: NSTCSTYLE2
 req.redist: 

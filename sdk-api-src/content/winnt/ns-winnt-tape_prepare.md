@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_PREPARE
-product: Windows
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 req.redist: 

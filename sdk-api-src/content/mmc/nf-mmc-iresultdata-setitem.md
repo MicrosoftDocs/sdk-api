@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IResultData.SetItem
 - IResultData2.SetItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

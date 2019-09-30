@@ -38,7 +38,6 @@ api_location:
  - MethodCo.h
 api_name:
  - MethodContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

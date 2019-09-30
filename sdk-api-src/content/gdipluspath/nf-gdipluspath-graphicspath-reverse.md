@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - GraphicsPath.Reverse
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

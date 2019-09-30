@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HH_POPUP
-product: Windows
 targetos: Windows
 req.typenames: HH_POPUP
 req.redist: 

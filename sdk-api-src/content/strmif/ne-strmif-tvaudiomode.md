@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - TVAudioMode
-product: Windows
 targetos: Windows
 req.typenames: TVAudioMode
 req.redist: 

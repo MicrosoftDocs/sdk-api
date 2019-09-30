@@ -40,7 +40,6 @@ api_name:
  - FAX_PORT_INFO
  - FAX_PORT_INFOA
  - FAX_PORT_INFOW
-product: Windows
 targetos: Windows
 req.typenames: FAX_PORT_INFOA, *PFAX_PORT_INFOA
 req.redist: 

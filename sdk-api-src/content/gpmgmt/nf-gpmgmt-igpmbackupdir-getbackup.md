@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMBackupDir.GetBackup
  - GPMBackupDir.GetBackup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

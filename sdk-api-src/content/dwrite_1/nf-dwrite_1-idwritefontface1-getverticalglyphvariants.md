@@ -38,7 +38,6 @@ api_location:
  - dwrite_1.dll
 api_name:
  - IDWriteFontFace1.GetVerticalGlyphVariants
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

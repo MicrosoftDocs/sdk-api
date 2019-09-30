@@ -38,7 +38,6 @@ api_location:
  - mmiscapi.h
 api_name:
  - MMCKINFO
-product: Windows
 targetos: Windows
 req.typenames: MMCKINFO, *PMMCKINFO, *NPMMCKINFO, *LPMMCKINFO
 req.redist: 

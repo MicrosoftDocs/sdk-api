@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICatalogCollection.SaveChanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

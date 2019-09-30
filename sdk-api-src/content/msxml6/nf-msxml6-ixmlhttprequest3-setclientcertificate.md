@@ -38,7 +38,6 @@ api_location:
  - msxml6.h
 api_name:
  - IXMLHTTPRequest3.SetClientCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

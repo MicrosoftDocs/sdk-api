@@ -38,7 +38,6 @@ api_location:
  - Gdipluspixelformats.h
 api_name:
  - PaletteFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

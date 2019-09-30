@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgTextCdma.EncodingID
  - IMbnSmsReadMsgTextCdma.get_EncodingID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

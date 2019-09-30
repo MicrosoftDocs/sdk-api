@@ -42,7 +42,6 @@ api_name:
  - SHRegDeleteEmptyUSKey
  - SHRegDeleteEmptyUSKeyA
  - SHRegDeleteEmptyUSKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

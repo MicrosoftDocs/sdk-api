@@ -38,7 +38,6 @@ api_location:
 - Msdrmdefs.h
 api_name:
 - DRMBOUNDLICENSEPARAMS
-product: Windows
 targetos: Windows
 req.typenames: DRMBOUNDLICENSEPARAMS
 req.redist: 

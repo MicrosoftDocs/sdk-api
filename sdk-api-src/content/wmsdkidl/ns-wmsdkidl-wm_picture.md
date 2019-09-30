@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_PICTURE
-product: Windows
 targetos: Windows
 req.typenames: WM_PICTURE
 req.redist: 

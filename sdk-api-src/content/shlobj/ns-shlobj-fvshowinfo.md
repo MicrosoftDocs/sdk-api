@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - FVSHOWINFO
-product: Windows
 targetos: Windows
 req.typenames: FVSHOWINFO, *LPFVSHOWINFO
 req.redist: 

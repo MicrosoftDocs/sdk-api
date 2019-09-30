@@ -39,7 +39,6 @@ api_location:
  - Audioenginebaseapo.idl.dll
 api_name:
  - IAudioProcessingObject.GetLatency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

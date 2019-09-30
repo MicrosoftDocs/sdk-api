@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SpGetCredUIContextFn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

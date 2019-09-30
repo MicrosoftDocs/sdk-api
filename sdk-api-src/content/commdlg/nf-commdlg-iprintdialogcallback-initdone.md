@@ -38,7 +38,6 @@ api_location:
  - Comdlg32.dll
 api_name:
  - IPrintDialogCallback.InitDone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

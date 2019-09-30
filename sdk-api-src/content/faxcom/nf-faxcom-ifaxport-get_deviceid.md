@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxPort.DeviceId
  - IFaxPort.get_DeviceId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

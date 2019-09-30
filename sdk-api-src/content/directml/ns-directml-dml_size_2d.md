@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_SIZE_2D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.MajorBuild
  - IFaxDeviceProvider.get_MajorBuild
  - IFaxDeviceProvider.get_MajorBuild
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

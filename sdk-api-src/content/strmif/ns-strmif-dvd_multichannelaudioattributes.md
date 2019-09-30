@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MultichannelAudioAttributes
-product: Windows
 targetos: Windows
 req.typenames: DVD_MultichannelAudioAttributes
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - amvideo.h
 api_name:
  - AM_FRAMESTEP_STEP
-product: Windows
 targetos: Windows
 req.typenames: AM_FRAMESTEP_STEP
 req.redist: 

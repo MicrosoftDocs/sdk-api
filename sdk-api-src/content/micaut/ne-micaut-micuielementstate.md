@@ -38,7 +38,6 @@ api_location:
  - micaut.h
 api_name:
  - MICUIELEMENTSTATE
-product: Windows
 targetos: Windows
 req.typenames: MICUIELEMENTSTATE
 req.redist: 

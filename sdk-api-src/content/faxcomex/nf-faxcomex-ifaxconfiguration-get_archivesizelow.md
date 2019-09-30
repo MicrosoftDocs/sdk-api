@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxConfiguration.ArchiveSizeLow
  - IFaxConfiguration.get_ArchiveSizeLow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

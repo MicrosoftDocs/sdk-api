@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.h
 api_name:
  - NCRYPT_KEY_BLOB_HEADER
-product: Windows
 targetos: Windows
 req.typenames: NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER
 req.redist: 

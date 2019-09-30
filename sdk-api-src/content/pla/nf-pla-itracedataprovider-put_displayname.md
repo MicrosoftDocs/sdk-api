@@ -40,7 +40,6 @@ api_name:
  - ITraceDataProvider.DisplayName
  - ITraceDataProvider.get_DisplayName
  - ITraceDataProvider.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

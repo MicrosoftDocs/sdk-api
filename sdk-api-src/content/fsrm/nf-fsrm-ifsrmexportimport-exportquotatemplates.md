@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmExportImport.ExportQuotaTemplates
  - FsrmExportImport.ExportQuotaTemplates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

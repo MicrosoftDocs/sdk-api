@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - RequestClientInfoClientId
-product: Windows
 targetos: Windows
 req.typenames: RequestClientInfoClientId
 req.redist: 

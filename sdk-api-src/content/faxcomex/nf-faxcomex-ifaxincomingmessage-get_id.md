@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessage.Id
  - IFaxIncomingMessage.get_Id
  - IFaxIncomingMessage.get_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - WTSSBX_MACHINE_STATE
-product: Windows
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_STATE
 req.redist: 

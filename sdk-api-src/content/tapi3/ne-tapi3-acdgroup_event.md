@@ -38,7 +38,6 @@ api_location:
  - tapi3cc.h
 api_name:
  - ACDGROUP_EVENT
-product: Windows
 targetos: Windows
 req.typenames: ACDGROUP_EVENT
 req.redist: 

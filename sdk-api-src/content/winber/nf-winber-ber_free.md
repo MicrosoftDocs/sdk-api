@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ber_free
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

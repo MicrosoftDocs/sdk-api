@@ -40,7 +40,6 @@ api_name:
  - DefFrameProc
  - DefFrameProcA
  - DefFrameProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

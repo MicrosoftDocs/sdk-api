@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - DELETE_SNAPSHOT_VHDSET_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: DELETE_SNAPSHOT_VHDSET_PARAMETERS, *PDELETE_SNAPSHOT_VHDSET_PARAMETERS
 req.redist: 

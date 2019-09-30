@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - STARTING_LCN_INPUT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
 req.redist: 

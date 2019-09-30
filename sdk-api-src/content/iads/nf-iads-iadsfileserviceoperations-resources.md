@@ -38,7 +38,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsFileServiceOperations.Resources
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

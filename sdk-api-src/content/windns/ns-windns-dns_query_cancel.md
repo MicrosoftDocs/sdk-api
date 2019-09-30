@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_QUERY_CANCEL
-product: Windows
 targetos: Windows
 req.typenames: DNS_QUERY_CANCEL, *PDNS_QUERY_CANCEL
 req.redist: 

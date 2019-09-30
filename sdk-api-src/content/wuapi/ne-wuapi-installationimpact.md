@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - InstallationImpact
-product: Windows
 targetos: Windows
 req.typenames: InstallationImpact
 req.redist: 

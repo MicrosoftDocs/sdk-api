@@ -40,7 +40,6 @@ api_name:
  - IOleUILinkContainer.CancelLink
  - IOleUILinkContainerA.CancelLink
  - IOleUILinkContainerW.CancelLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - DS_REPSYNCALL_UPDATE
  - DS_REPSYNCALL_UPDATEA
  - DS_REPSYNCALL_UPDATEW
-product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_UPDATEW, *PDS_REPSYNCALL_UPDATEW
 req.redist: 

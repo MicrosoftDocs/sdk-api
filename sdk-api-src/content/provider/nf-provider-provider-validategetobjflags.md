@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidateGetObjFlags
  - ?ValidateGetObjFlags@Provider@@MAEJJ@Z
  - ?ValidateGetObjFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

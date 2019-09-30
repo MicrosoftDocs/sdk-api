@@ -38,7 +38,6 @@ api_location:
  - Certcli.dll
 api_name:
  - ICertConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

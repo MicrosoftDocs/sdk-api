@@ -38,7 +38,6 @@ api_location:
  - wofapi.h
 api_name:
  - WOF_FILE_COMPRESSION_INFO_V1
-product: Windows
 targetos: Windows
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 req.redist: 

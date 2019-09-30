@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICNamedWhitePoint
-product: Windows
 targetos: Windows
 req.typenames: WICNamedWhitePoint
 req.redist: 

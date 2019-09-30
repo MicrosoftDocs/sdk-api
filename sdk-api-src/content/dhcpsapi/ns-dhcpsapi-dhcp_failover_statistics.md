@@ -38,7 +38,6 @@ api_location:
  - dhcpsapi.h
 api_name:
  - DHCP_FAILOVER_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: DHCP_FAILOVER_STATISTICS, *LPDHCP_FAILOVER_STATISTICS
 req.redist: 

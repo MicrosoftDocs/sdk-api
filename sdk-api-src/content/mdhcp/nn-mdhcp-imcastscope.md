@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IMcastScope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

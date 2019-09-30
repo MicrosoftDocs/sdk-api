@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - MESSAGE_RESOURCE_BLOCK
-product: Windows
 targetos: Windows
 req.typenames: MESSAGE_RESOURCE_BLOCK, *PMESSAGE_RESOURCE_BLOCK
 req.redist: 

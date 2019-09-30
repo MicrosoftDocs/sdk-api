@@ -38,7 +38,6 @@ api_location:
  - Commdlg.h
 api_name:
  - DEVNAMES
-product: Windows
 targetos: Windows
 req.typenames: DEVNAMES
 req.redist: 

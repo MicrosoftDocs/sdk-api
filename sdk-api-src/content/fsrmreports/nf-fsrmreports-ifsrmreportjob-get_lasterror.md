@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportJob.LastError
  - IFsrmReportJob.get_LastError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - COMPARTMENT_ID
-product: Windows
 targetos: Windows
 req.typenames: COMPARTMENT_ID, *PCOMPARTMENT_ID
 req.redist: 

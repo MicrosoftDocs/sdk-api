@@ -38,7 +38,6 @@ api_location:
  - Certocm.dll
 api_name:
  - ICertSrvSetup.PreUnInstall
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

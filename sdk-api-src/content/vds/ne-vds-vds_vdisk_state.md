@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_VDISK_STATE
-product: Windows
 targetos: Windows
 req.typenames: VDS_VDISK_STATE
 req.redist: 

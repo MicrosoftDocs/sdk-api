@@ -38,7 +38,6 @@ api_location:
  - Tvratings.h
 api_name:
  - IXDSToRat.ParseXDSBytePair
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

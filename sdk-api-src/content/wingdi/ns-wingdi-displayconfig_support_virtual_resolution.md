@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 req.redist: 

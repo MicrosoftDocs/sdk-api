@@ -38,7 +38,6 @@ api_location:
  - Dsquery.h
 api_name:
  - DSQUERYINITPARAMS
-product: Windows
 targetos: Windows
 req.typenames: DSQUERYINITPARAMS, *LPDSQUERYINITPARAMS
 req.redist: 

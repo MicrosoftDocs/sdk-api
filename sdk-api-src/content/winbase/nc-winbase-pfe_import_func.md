@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ImportCallback
  - PFE_IMPORT_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ws2ipdef.h
 api_name:
  - SOCKADDR_IN6
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN6_LH, *PSOCKADDR_IN6_LH, *LPSOCKADDR_IN6_LH
 req.redist: 

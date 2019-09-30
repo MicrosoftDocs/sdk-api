@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_PLAYBACK_ENDED_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_PLAYBACK_ENDED_EVENT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNETSOURCE_CACHE_STATE
-product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_CACHE_STATE
 req.redist: 

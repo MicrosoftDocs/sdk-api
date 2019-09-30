@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - PAYLOAD_FILTER_PREDICATE
-product: Windows
 targetos: Windows
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
 req.redist: 

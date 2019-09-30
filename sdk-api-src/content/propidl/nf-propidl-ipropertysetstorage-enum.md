@@ -38,7 +38,6 @@ api_location:
  - Ole32.dll
 api_name:
  - IPropertySetStorage.Enum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

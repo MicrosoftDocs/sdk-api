@@ -40,7 +40,6 @@ api_location:
 api_name:
  - SetupGetInfPublishedName
  - SetupGetInfPublishedNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

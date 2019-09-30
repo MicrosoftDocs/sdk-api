@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.dll
 api_name:
  - IGPMStarterGPO.GenerateReport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

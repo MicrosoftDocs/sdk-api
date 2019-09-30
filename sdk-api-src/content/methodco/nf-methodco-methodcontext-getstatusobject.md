@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MethodContext.GetStatusObject
  - ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

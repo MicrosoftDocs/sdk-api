@@ -38,7 +38,6 @@ api_location:
  - prnasnot.h
 api_name:
  - PrintAsyncNotifyError
-product: Windows
 targetos: Windows
 req.typenames: PrintAsyncNotifyError
 req.redist: 

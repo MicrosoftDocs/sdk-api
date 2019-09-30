@@ -45,7 +45,6 @@ api_location:
  - vertdll.dll
 api_name:
  - InitializeCriticalSection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

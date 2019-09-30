@@ -38,7 +38,6 @@ api_location:
  - Rpc.h
 api_name:
  - RpcExcept
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

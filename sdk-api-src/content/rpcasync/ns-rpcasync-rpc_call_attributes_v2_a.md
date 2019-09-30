@@ -40,7 +40,6 @@ api_name:
 - RPC_CALL_ATTRIBUTES_V2
 - RPC_CALL_ATTRIBUTES_V2_A
 - RPC_CALL_ATTRIBUTES_V2_W
-product: Windows
 targetos: Windows
 req.typenames: RPC_CALL_ATTRIBUTES_V2_A
 req.redist: 

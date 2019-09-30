@@ -42,7 +42,6 @@ api_name:
  - RasSetEntryDialParams
  - RasSetEntryDialParamsA
  - RasSetEntryDialParamsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

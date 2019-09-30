@@ -38,7 +38,6 @@ api_location:
  - Upnp.dll
 api_name:
  - IUPnPDescriptionDocumentCallback.LoadComplete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

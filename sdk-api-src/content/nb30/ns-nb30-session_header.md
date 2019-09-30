@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - SESSION_HEADER
-product: Windows
 targetos: Windows
 req.typenames: SESSION_HEADER, *PSESSION_HEADER
 req.redist: 

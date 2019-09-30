@@ -44,7 +44,6 @@ api_name:
  - EnumDateFormats
  - EnumDateFormatsA
  - EnumDateFormatsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

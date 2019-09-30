@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPEvents.PlaylistCollectionPlaylistAdded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

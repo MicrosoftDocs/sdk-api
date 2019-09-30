@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemImpersonationLevelEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemImpersonationLevelEnum
 req.redist: 

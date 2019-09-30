@@ -40,7 +40,6 @@ api_name:
  - IPrincipal.Id
  - IPrincipal.get_Id
  - IPrincipal.put_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

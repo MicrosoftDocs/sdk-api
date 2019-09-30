@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_MANAGER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_MANAGER_STATUS
 req.redist: 

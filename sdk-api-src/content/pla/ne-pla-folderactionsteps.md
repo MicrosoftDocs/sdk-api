@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - FolderActionSteps
-product: Windows
 targetos: Windows
 req.typenames: FolderActionSteps
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mmdeviceapi.h
 api_name:
  - IActivateAudioInterfaceAsyncOperation.GetActivateResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - PropertyChainSource
-product: Windows
 targetos: Windows
 req.typenames: PropertyChainSource
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IF_ROW2
-product: Windows
 targetos: Windows
 req.typenames: MIB_IF_ROW2, *PMIB_IF_ROW2
 req.redist: 

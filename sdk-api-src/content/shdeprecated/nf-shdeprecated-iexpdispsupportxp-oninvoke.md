@@ -38,7 +38,6 @@ api_location:
  - shdeprecated.h
 api_name:
  - IExpDispSupportXP.OnInvoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Shobjidl_core.h
 api_name:
 - SORTCOLUMN
-product: Windows
 targetos: Windows
 req.typenames: SORTCOLUMN
 req.redist: 

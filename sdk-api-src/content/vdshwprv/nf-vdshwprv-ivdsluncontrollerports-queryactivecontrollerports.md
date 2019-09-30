@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - IVdsLunControllerPorts.QueryActiveControllerPorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

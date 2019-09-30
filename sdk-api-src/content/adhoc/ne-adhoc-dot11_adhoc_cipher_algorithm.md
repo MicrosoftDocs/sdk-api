@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - DOT11_ADHOC_CIPHER_ALGORITHM
-product: Windows
 targetos: Windows
 req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
 req.redist: 

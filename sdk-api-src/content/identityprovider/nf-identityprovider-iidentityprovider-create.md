@@ -38,7 +38,6 @@ api_location:
  - Identityprovider.h
 api_name:
  - IIdentityProvider.Create
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

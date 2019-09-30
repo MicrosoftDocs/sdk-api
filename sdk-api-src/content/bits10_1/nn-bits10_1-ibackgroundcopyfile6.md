@@ -38,7 +38,6 @@ api_location:
  - bits10_1.h
 api_name:
  - IBackgroundCopyFile6
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

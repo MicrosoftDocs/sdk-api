@@ -39,7 +39,6 @@ api_location:
  - Vfw32.dll
 api_name:
  - IAVIStream.WriteData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

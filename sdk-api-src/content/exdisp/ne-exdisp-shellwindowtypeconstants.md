@@ -38,7 +38,6 @@ api_location:
  - Exdisp.h
 api_name:
  - ShellWindowTypeConstants
-product: Windows
 targetos: Windows
 req.typenames: ShellWindowTypeConstants
 req.redist: 

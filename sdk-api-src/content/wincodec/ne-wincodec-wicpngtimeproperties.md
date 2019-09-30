@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngTimeProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngTimeProperties
 req.redist: 

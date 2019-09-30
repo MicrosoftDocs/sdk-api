@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_GROUP_EVENT_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: PEER_GROUP_EVENT_REGISTRATION, *PPEER_GROUP_EVENT_REGISTRATION
 req.redist: 

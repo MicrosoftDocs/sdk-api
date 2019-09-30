@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzApplication.CreateTask
  - AzApplication.CreateTask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - LINEATTRS
-product: Windows
 targetos: Windows
 req.typenames: LINEATTRS, *PLINEATTRS
 req.redist: 

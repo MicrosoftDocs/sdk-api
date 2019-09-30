@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.BufferSize
  - ITraceDataCollector.get_BufferSize
  - ITraceDataCollector.put_BufferSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

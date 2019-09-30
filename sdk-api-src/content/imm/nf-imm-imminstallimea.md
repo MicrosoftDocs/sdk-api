@@ -40,7 +40,6 @@ api_name:
  - ImmInstallIME
  - ImmInstallIMEA
  - ImmInstallIMEW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - imm32.dll
 api_name:
  - IMMDisableLegacyIME
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

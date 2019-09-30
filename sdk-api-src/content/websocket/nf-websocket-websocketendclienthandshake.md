@@ -38,7 +38,6 @@ api_location:
 - websocket.dll
 api_name:
 - WebSocketEndClientHandshake
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

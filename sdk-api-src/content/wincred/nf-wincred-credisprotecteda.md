@@ -43,7 +43,6 @@ api_name:
 - CredIsProtected
 - CredIsProtectedA
 - CredIsProtectedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

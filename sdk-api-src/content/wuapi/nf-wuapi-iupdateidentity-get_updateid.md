@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateIdentity.UpdateID
  - IUpdateIdentity.get_UpdateID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

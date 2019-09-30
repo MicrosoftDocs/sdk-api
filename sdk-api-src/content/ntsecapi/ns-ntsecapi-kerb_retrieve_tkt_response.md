@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_RETRIEVE_TKT_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: KERB_RETRIEVE_TKT_RESPONSE, *PKERB_RETRIEVE_TKT_RESPONSE
 req.redist: 

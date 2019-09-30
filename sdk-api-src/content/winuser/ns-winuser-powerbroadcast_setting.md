@@ -38,7 +38,6 @@ api_location:
  - WinUser.h
 api_name:
  - POWERBROADCAST_SETTING
-product: Windows
 targetos: Windows
 req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
 req.redist: 

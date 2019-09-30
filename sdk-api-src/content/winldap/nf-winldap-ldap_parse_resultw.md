@@ -40,7 +40,6 @@ api_name:
  - ldap_parse_result
  - ldap_parse_resultA
  - ldap_parse_resultW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

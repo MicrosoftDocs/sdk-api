@@ -38,7 +38,6 @@ api_location:
  - setupapi.h
 api_name:
  - SP_DRVINSTALL_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
 req.redist: 

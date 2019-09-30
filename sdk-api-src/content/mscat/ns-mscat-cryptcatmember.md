@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - CRYPTCATMEMBER
-product: Windows
 targetos: Windows
 req.typenames: CRYPTCATMEMBER
 req.redist: 

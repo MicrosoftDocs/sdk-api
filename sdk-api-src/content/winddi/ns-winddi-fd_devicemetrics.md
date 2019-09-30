@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - FD_DEVICEMETRICS
-product: Windows
 targetos: Windows
 req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
 req.redist: 

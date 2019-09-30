@@ -38,7 +38,6 @@ api_location:
  - opmapi.h
 api_name:
  - OPM_HDCP_KEY_SELECTION_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: OPM_HDCP_KEY_SELECTION_VECTOR
 req.redist: 

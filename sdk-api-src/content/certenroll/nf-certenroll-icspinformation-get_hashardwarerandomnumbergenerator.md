@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.HasHardwareRandomNumberGenerator
  - ICspInformation.get_HasHardwareRandomNumberGenerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

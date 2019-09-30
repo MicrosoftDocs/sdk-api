@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.ImageName
  - IFaxDeviceProvider.get_ImageName
  - IFaxDeviceProvider.get_ImageName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

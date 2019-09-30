@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - RPCOLEMESSAGE
-product: Windows
 targetos: Windows
 req.typenames: RPCOLEMESSAGE
 req.redist: 

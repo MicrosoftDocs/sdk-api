@@ -40,7 +40,6 @@ api_name:
  - ModifyMenu
  - ModifyMenuA
  - ModifyMenuW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

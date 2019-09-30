@@ -40,7 +40,6 @@ api_name:
  - IFaxServer.MajorBuild
  - IFaxServer.get_MajorBuild
  - IFaxServer.get_MajorBuild
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

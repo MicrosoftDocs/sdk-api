@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkPersistenceFormat
-product: Windows
 targetos: Windows
 req.typenames: InkPersistenceFormat
 req.redist: 

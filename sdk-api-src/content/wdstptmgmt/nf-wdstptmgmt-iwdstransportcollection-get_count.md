@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportCollection.Count
  - IWdsTransportCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

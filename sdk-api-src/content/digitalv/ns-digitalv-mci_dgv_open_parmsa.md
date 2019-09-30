@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MCI_DGV_OPEN_PARMS
  - MCI_DGV_OPEN_PARMSA
-product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_OPEN_PARMSA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - DATADIR
-product: Windows
 targetos: Windows
 req.typenames: DATADIR
 req.redist: 

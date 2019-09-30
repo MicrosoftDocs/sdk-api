@@ -39,7 +39,6 @@ api_location:
  - mfobjects.dll
 api_name:
  - IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

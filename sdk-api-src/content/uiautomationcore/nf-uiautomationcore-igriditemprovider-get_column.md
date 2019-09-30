@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridItemProvider.Column
  - IGridItemProvider.get_Column
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

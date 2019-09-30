@@ -40,7 +40,6 @@ api_name:
  - ReportIsnsServerList
  - ReportIsnsServerListA
  - ReportIsnsServerListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - advpack.dll
 api_name:
  - RegInstallA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

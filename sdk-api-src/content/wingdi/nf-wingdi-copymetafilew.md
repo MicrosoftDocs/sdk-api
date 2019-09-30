@@ -42,7 +42,6 @@ api_name:
  - CopyMetaFile
  - CopyMetaFileA
  - CopyMetaFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

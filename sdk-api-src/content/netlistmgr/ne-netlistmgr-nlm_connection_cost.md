@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_CONNECTION_COST
-product: Windows
 targetos: Windows
 req.typenames: NLM_CONNECTION_COST
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.TaskArguments
  - IAlertDataCollector.get_TaskArguments
  - IAlertDataCollector.put_TaskArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

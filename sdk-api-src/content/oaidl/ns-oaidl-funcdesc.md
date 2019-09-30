@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - FUNCDESC
-product: Windows
 targetos: Windows
 req.typenames: FUNCDESC, *LPFUNCDESC
 req.redist: 

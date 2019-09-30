@@ -42,7 +42,6 @@ api_location:
 - API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
 - EventWriteEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

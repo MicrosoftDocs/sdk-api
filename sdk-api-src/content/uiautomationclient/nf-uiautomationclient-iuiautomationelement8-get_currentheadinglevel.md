@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement8.CurrentHeadingLevel
  - IUIAutomationElement8.get_CurrentHeadingLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.EncryptionStrength
  - IX509CertificateRequestCmc.get_EncryptionStrength
  - IX509CertificateRequestCmc.put_EncryptionStrength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

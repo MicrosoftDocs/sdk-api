@@ -38,7 +38,6 @@ api_location:
  - Ifdef.h
 api_name:
  - NET_PHYSICAL_LOCATION
-product: Windows
 targetos: Windows
 req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
 req.redist: 

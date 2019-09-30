@@ -41,7 +41,6 @@ api_name:
  - CHString.Find
  - ?Find@CHString@@QBEHPBG@Z
  - ?Find@CHString@@QEBAHPEBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

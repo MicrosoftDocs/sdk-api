@@ -40,7 +40,6 @@ api_name:
  - IQuery
  - IQuery.AddPostProcessing
  - IQuery.GetCardinalityEstimate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

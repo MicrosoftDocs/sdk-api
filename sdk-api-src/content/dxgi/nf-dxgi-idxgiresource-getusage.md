@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIResource.GetUsage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

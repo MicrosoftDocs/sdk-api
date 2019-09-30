@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxTiff.RecipientNumber
  - IFaxTiff.get_RecipientNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

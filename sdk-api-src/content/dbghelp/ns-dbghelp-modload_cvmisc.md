@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - MODLOAD_CVMISC
-product: Windows
 targetos: Windows
 req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
 req.redist: DbgHelp.dll 6.8 or later

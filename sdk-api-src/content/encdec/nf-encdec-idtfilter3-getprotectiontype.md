@@ -38,7 +38,6 @@ api_location:
  - encdec.h
 api_name:
  - IDTFilter3.GetProtectionType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

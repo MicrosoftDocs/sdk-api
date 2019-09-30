@@ -38,7 +38,6 @@ api_location:
  - user32.dll
 api_name:
  - CloseTouchInputHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

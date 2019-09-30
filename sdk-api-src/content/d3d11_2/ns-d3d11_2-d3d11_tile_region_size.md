@@ -38,7 +38,6 @@ api_location:
  - D3D11_2.h
 api_name:
  - D3D11_TILE_REGION_SIZE
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TILE_REGION_SIZE
 req.redist: 

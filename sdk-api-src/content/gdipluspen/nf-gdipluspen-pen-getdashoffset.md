@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Pen.GetDashOffset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

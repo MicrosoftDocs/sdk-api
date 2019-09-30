@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgCredentials_Cert
-product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_Cert, *PSecPkgCredentials_Cert
 req.redist: 

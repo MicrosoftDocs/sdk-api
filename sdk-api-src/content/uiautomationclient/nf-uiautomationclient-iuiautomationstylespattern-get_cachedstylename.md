@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CachedStyleName
  - IUIAutomationStylesPattern.get_CachedStyleName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

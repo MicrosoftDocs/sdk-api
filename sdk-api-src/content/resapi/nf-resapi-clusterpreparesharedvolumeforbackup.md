@@ -38,7 +38,6 @@ api_location:
  - ResUtils.Dll
 api_name:
  - ClusterPrepareSharedVolumeForBackup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

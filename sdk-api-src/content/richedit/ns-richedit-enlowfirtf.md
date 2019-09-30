@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENLOWFIRTF
-product: Windows
 targetos: Windows
 req.typenames: ENLOWFIRTF
 req.redist: 

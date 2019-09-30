@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_ADD_ATTRIBUTES_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_ADD_ATTRIBUTES_INFO, *PCMC_ADD_ATTRIBUTES_INFO
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - GetPrivateProfileString
  - GetPrivateProfileStringA
  - GetPrivateProfileStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

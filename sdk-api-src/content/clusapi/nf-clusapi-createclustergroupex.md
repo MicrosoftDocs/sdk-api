@@ -39,7 +39,6 @@ api_location:
  - ext-ms-win-cluster-clusapi-l1-1-2.dll
 api_name:
  - CreateClusterGroupEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

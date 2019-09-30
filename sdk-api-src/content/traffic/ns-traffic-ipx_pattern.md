@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - IPX_PATTERN
-product: Windows
 targetos: Windows
 req.typenames: IPX_PATTERN, *PIPX_PATTERN
 req.redist: 

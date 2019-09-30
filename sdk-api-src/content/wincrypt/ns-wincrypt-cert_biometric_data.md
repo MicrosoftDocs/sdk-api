@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_BIOMETRIC_DATA
-product: Windows
 targetos: Windows
 req.typenames: CERT_BIOMETRIC_DATA, *PCERT_BIOMETRIC_DATA
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.Date
  - IUpdateHistoryEntry.get_Date
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcSigningOptions.GetCertificateSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

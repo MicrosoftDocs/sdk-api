@@ -38,7 +38,6 @@ api_location:
  - Unsecapp.exe
 api_name:
  - IWbemUnsecuredApartment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

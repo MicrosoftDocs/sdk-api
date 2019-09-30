@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_AUTHENTICATION_METHOD
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_METHOD, *PBLUETOOTH_AUTHENTICATION_METHOD
 req.redist: 

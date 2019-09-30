@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
-product: Windows
 targetos: Windows
 req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 req.redist: 

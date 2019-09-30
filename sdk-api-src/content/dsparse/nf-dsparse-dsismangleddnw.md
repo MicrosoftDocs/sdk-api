@@ -40,7 +40,6 @@ api_name:
 - DsIsMangledDn
 - DsIsMangledDnA
 - DsIsMangledDnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

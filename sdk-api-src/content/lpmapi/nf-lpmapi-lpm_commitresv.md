@@ -38,7 +38,6 @@ api_location:
 - Lpmapi.h
 api_name:
 - LPM_CommitResv
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

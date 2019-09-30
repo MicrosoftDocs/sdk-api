@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECALLSTATUS
-product: Windows
 targetos: Windows
 req.typenames: LINECALLSTATUS, *LPLINECALLSTATUS
 req.redist: 

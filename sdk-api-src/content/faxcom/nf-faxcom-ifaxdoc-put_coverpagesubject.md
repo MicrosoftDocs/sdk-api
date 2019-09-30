@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.CoverpageSubject
  - IFaxDoc.get_CoverpageSubject
  - IFaxDoc.put_CoverpageSubject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

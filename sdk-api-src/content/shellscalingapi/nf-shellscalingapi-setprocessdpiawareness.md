@@ -40,7 +40,6 @@ api_location:
  - API-MS-Win-ShCore-Scaling-L1-1-2.dll
 api_name:
  - SetProcessDpiAwareness
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xinput9_1_0.dll
 api_name:
  - XInputGetDSoundAudioDeviceGuids
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

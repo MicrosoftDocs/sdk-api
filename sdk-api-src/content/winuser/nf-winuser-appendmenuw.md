@@ -44,7 +44,6 @@ api_name:
  - AppendMenu
  - AppendMenuA
  - AppendMenuW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

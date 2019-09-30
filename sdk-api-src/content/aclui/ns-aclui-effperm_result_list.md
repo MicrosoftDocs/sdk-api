@@ -38,7 +38,6 @@ api_location:
 - Aclui.h
 api_name:
 - EFFPERM_RESULT_LIST
-product: Windows
 targetos: Windows
 req.typenames: EFFPERM_RESULT_LIST, *PEFFPERM_RESULT_LIST
 req.redist: 

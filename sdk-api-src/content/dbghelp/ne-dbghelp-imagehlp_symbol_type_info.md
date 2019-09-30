@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - IMAGEHLP_SYMBOL_TYPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 req.redist: DbgHelp.dll 5.1 or later

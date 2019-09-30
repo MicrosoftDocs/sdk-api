@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_DASH_CAP
-product: Windows
 targetos: Windows
 req.typenames: XPS_DASH_CAP
 req.redist: 

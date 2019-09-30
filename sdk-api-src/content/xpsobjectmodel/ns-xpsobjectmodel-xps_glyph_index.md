@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_GLYPH_INDEX
-product: Windows
 targetos: Windows
 req.typenames: XPS_GLYPH_INDEX
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - lineSetAppPriority
  - lineSetAppPriorityA
  - lineSetAppPriorityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

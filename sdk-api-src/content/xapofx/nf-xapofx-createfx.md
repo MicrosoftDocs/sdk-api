@@ -38,7 +38,6 @@ api_location:
  - Windows.Media.Audio.dll
 api_name:
  - CreateFX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

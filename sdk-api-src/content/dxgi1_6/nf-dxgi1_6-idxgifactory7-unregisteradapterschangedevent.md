@@ -39,7 +39,6 @@ api_location:
  - dxgi.dll
 api_name:
  - IDXGIFactory7.UnregisterAdaptersChangedEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

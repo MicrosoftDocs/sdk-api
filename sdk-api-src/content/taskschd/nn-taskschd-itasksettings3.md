@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - ITaskSettings3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

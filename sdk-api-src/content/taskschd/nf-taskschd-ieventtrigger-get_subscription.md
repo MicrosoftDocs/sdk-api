@@ -40,7 +40,6 @@ api_name:
  - IEventTrigger.Subscription
  - IEventTrigger.get_Subscription
  - IEventTrigger.put_Subscription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_MGMT_AUTHORIZATION_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

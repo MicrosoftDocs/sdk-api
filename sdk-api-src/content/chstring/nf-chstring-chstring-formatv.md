@@ -41,7 +41,6 @@ api_name:
  - CHString.FormatV
  - ?FormatV@CHString@@QAEXPBGPAD@Z
  - ?FormatV@CHString@@QEAAXPEBGPEAD@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

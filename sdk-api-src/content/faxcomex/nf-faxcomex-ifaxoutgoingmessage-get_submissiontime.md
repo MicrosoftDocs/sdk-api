@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.SubmissionTime
  - IFaxOutgoingMessage.get_SubmissionTime
  - IFaxOutgoingMessage.get_SubmissionTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

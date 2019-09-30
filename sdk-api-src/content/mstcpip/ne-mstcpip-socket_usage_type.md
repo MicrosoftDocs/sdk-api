@@ -38,7 +38,6 @@ api_location:
  - Mstcpip.h
 api_name:
  - SOCKET_USAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SOCKET_USAGE_TYPE
 req.redist: 

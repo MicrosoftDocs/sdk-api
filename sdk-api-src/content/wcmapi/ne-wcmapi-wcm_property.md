@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_PROPERTY_OPERATION_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_PROPERTY_OPERATION_ENUM
 req.redist: 

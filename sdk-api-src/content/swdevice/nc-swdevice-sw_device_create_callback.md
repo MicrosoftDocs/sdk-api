@@ -38,7 +38,6 @@ api_location:
  - Swdevice.h
 api_name:
  - SW_DEVICE_CREATE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

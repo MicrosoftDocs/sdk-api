@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_VISIBLE_COLUMNS
-product: Windows
 targetos: Windows
 req.typenames: MMC_VISIBLE_COLUMNS
 req.redist: 

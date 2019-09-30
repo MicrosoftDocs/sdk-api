@@ -38,7 +38,6 @@ api_location:
  - vfw.h
 api_name:
  - mmioFOURCC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

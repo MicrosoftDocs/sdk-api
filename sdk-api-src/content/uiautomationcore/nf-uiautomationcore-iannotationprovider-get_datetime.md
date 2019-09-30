@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAnnotationProvider.DateTime
  - IAnnotationProvider.get_DateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

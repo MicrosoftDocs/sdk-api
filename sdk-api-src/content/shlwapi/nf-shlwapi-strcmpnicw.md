@@ -45,7 +45,6 @@ api_name:
  - StrCmpNIC
  - StrCmpNICA
  - StrCmpNICW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

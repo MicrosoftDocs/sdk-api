@@ -38,7 +38,6 @@ api_location:
  - indexsrv.h
 api_name:
  - IColumnMapperCreator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

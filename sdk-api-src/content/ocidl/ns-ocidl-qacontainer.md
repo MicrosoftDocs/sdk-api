@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - QACONTAINER
-product: Windows
 targetos: Windows
 req.typenames: QACONTAINER
 req.redist: 

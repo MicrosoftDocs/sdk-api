@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - NET_DISPLAY_GROUP
-product: Windows
 targetos: Windows
 req.typenames: NET_DISPLAY_GROUP, *PNET_DISPLAY_GROUP
 req.redist: 

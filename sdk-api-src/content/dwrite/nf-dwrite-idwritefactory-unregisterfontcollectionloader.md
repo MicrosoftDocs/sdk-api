@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteFactory.UnregisterFontCollectionLoader
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_RPC_LOGIN_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EVT_RPC_LOGIN_FLAGS
 req.redist: 

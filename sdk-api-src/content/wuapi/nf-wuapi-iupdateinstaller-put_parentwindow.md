@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller.ParentWindow
  - IUpdateInstaller.get_ParentWindow
  - IUpdateInstaller.put_ParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IEventClass2.MultiInterfacePublisherFilterCLSID
  - IEventClass2.get_MultiInterfacePublisherFilterCLSID
  - IEventClass2.put_MultiInterfacePublisherFilterCLSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

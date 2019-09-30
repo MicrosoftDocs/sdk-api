@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_V4_UDP_ENCAPSULATION0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_V4_UDP_ENCAPSULATION0
 req.redist: 

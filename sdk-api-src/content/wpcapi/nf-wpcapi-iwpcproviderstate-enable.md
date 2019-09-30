@@ -38,7 +38,6 @@ api_location:
  - Wpcapi.h
 api_name:
  - IWPCProviderState.Enable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

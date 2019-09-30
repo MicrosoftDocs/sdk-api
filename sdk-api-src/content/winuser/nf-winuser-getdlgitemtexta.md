@@ -43,7 +43,6 @@ api_name:
  - GetDlgItemText
  - GetDlgItemTextA
  - GetDlgItemTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - lmaccess.h
 api_name:
  - NetLocalGroupDelMember
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rtmv2.h
 api_name:
  - RTM_ENTITY_METHOD_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_METHOD_OUTPUT, *PRTM_ENTITY_METHOD_OUTPUT
 req.redist: 

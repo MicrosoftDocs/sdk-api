@@ -38,7 +38,6 @@ api_location:
  - VsBackup.h
 api_name:
  - IVssBackupComponentsEx4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

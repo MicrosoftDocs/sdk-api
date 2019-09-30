@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_PROPERTY_VALUE
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 req.redist: 

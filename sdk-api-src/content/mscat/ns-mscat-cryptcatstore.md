@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - CRYPTCATSTORE
-product: Windows
 targetos: Windows
 req.typenames: CRYPTCATSTORE
 req.redist: 

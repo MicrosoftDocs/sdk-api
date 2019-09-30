@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_OPEN_FILE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_OPEN_FILE_FLAGS
 req.redist: 

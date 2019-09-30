@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - IXAudio2EngineCallback.OnCriticalError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

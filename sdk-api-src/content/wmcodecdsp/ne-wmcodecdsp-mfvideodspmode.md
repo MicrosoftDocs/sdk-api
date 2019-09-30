@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - MFVideoDSPMode
-product: Windows
 targetos: Windows
 req.typenames: MFVideoDSPMode
 req.redist: 

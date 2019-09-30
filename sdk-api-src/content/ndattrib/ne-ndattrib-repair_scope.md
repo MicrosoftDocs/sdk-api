@@ -38,7 +38,6 @@ api_location:
  - Ndattrib.h
 api_name:
  - REPAIR_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
 req.redist: 

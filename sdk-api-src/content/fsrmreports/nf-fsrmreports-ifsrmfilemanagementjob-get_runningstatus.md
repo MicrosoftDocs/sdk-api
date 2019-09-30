@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.RunningStatus
  - IFsrmFileManagementJob.get_RunningStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

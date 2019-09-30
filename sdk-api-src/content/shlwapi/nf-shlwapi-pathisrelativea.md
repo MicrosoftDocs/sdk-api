@@ -44,7 +44,6 @@ api_name:
  - PathIsRelative
  - PathIsRelativeA
  - PathIsRelativeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

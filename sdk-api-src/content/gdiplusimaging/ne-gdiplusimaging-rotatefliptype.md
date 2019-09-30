@@ -38,7 +38,6 @@ api_location:
  - Gdiplusimaging.h
 api_name:
  - RotateFlipType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CWbemProviderGlue.SetStatusObject
  - ?SetStatusObject@CWbemProviderGlue@@SA_NPEAVMethodContext@@PEBG1JPEBUtagSAFEARRAY@@2@Z
  - ?SetStatusObject@CWbemProviderGlue@@SG_NPAVMethodContext@@PBG1JPBUtagSAFEARRAY@@2@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

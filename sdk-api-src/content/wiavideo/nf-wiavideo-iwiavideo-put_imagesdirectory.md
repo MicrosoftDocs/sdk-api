@@ -40,7 +40,6 @@ api_name:
  - IWiaVideo.ImagesDirectory
  - IWiaVideo.get_ImagesDirectory
  - IWiaVideo.put_ImagesDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

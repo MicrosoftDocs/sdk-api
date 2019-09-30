@@ -38,7 +38,6 @@ api_location:
  - spatialaudiometadata.h
 api_name:
  - SpatialAudioObjectRenderStreamForMetadataActivationParams
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioObjectRenderStreamForMetadataActivationParams
 req.redist: 

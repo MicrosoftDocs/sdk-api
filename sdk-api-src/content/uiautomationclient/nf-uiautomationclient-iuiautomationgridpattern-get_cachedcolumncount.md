@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridPattern.CachedColumnCount
  - IUIAutomationGridPattern.get_CachedColumnCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

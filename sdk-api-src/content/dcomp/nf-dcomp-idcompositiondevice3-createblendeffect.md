@@ -38,7 +38,6 @@ api_location:
  - dcomp.dll
 api_name:
  - IDCompositionDevice3.CreateBlendEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

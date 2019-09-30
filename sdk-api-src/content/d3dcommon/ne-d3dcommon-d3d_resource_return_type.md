@@ -39,7 +39,6 @@ api_location:
  - d3dcommon.h
 api_name:
  - D3D11_RESOURCE_RETURN_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D_RESOURCE_RETURN_TYPE
 req.redist: 

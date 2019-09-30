@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowInboundTimestampRequest
  - INetFwIcmpSettings.get_AllowInboundTimestampRequest
  - INetFwIcmpSettings.put_AllowInboundTimestampRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

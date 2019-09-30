@@ -38,7 +38,6 @@ api_location:
  - Wsecedit.dll
 api_name:
  - ISceSvcAttachmentData.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

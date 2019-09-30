@@ -40,7 +40,6 @@ api_name:
  - IEventPublisher.PublisherType
  - IEventPublisher.get_PublisherType
  - IEventPublisher.put_PublisherType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

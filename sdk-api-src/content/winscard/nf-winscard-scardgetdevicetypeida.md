@@ -40,7 +40,6 @@ api_name:
  - SCardGetDeviceTypeId
  - SCardGetDeviceTypeIdA
  - SCardGetDeviceTypeIdW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

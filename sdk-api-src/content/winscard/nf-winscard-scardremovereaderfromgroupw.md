@@ -40,7 +40,6 @@ api_name:
  - SCardRemoveReaderFromGroup
  - SCardRemoveReaderFromGroupA
  - SCardRemoveReaderFromGroupW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

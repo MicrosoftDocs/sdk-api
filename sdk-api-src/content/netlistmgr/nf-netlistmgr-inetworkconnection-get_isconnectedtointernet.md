@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - INetworkConnection.get_IsConnectedToInternet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

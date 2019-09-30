@@ -38,7 +38,6 @@ api_location:
  - Winsock2.h
 api_name:
  - WSAPROTOCOLCHAIN
-product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOLCHAIN, *LPWSAPROTOCOLCHAIN
 req.redist: 

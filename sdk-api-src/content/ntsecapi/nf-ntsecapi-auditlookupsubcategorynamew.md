@@ -42,7 +42,6 @@ api_name:
  - AuditLookupSubCategoryName
  - AuditLookupSubCategoryNameA
  - AuditLookupSubCategoryNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

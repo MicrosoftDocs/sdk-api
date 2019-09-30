@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFByteStreamProxyClassFactory.CreateByteStreamProxy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

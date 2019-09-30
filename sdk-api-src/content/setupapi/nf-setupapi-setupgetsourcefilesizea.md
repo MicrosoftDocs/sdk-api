@@ -40,7 +40,6 @@ api_name:
  - SetupGetSourceFileSize
  - SetupGetSourceFileSizeA
  - SetupGetSourceFileSizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

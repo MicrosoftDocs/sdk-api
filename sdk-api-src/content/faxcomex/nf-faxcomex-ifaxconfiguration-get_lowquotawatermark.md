@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.LowQuotaWaterMark
  - IFaxConfiguration.get_LowQuotaWaterMark
  - IFaxConfiguration.put_LowQuotaWaterMark
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

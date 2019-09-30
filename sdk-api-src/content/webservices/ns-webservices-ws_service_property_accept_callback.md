@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 req.redist: 

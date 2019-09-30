@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDBOBNEXTFIELDINFO
-product: Windows
 targetos: Windows
 req.typenames: DDBOBNEXTFIELDINFO, *PDDBOBNEXTFIELDINFO
 req.redist: 

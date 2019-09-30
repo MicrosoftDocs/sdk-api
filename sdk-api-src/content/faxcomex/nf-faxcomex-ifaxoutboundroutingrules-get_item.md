@@ -38,7 +38,6 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxOutboundRoutingRules.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

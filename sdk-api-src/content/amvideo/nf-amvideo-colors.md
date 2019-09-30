@@ -41,7 +41,6 @@ api_location:
  - Strmbasd.dll
 api_name:
  - COLORS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

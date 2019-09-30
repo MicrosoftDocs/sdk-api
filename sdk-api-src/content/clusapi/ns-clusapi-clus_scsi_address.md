@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_SCSI_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_SCSI_ADDRESS, *PCLUS_SCSI_ADDRESS
 req.redist: 

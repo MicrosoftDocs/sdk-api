@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.InitErrorCode
  - IFaxDeviceProvider.get_InitErrorCode
  - IFaxDeviceProvider.get_InitErrorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

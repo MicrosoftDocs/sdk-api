@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - LOCKTYPE
-product: Windows
 targetos: Windows
 req.typenames: LOCKTYPE
 req.redist: 

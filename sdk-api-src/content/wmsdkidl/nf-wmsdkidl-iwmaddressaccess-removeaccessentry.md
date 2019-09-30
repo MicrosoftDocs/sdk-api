@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMAddressAccess.RemoveAccessEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

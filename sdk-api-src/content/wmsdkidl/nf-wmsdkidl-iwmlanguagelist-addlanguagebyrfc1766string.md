@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMLanguageList.AddLanguageByRFC1766String
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

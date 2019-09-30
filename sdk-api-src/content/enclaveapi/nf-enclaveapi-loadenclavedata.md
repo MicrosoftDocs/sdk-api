@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
  - LoadEnclaveData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

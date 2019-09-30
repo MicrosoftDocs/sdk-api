@@ -38,7 +38,6 @@ api_location:
  - systemmediatransportcontrolsinterop.h
 api_name:
  - ISystemMediaTransportControlsInterop.GetForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

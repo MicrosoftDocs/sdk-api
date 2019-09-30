@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmClassificationLoggingFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmClassificationLoggingFlags
 req.redist: 

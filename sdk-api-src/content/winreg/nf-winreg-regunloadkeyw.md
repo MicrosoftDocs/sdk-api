@@ -47,7 +47,6 @@ api_name:
  - RegUnLoadKey
  - RegUnLoadKeyA
  - RegUnLoadKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

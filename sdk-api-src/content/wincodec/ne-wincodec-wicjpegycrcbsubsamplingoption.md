@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICJpegYCrCbSubsamplingOption
-product: Windows
 targetos: Windows
 req.typenames: WICJpegYCrCbSubsamplingOption
 req.redist: 

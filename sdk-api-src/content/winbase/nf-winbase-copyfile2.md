@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-Core-File-l2-1-2.dll
 api_name:
  - CopyFile2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

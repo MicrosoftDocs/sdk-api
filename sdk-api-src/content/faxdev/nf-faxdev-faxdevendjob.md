@@ -38,7 +38,6 @@ api_location:
  - FaxDev.h
 api_name:
  - FaxDevEndJob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

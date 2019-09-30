@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_SYNC_CONTROL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
 req.redist: 

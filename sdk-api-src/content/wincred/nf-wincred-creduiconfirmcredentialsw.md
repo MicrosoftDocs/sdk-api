@@ -43,7 +43,6 @@ api_name:
  - CredUIConfirmCredentials
  - CredUIConfirmCredentialsA
  - CredUIConfirmCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

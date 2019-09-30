@@ -38,7 +38,6 @@ api_location:
  - wtypesbase.h
 api_name:
  - MSHCTX
-product: Windows
 targetos: Windows
 req.typenames: MSHCTX
 req.redist: 

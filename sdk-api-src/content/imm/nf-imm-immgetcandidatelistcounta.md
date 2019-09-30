@@ -40,7 +40,6 @@ api_name:
  - ImmGetCandidateListCount
  - ImmGetCandidateListCountA
  - ImmGetCandidateListCountW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

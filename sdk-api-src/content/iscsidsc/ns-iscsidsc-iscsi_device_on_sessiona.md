@@ -40,7 +40,6 @@ api_name:
  - ISCSI_DEVICE_ON_SESSION
  - ISCSI_DEVICE_ON_SESSIONA
  - ISCSI_DEVICE_ON_SESSIONW
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_DEVICE_ON_SESSIONA, *PISCSI_DEVICE_ON_SESSIONA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_TIMESTAMP_ACCURACY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_ACCURACY, *PCRYPT_TIMESTAMP_ACCURACY
 req.redist: 

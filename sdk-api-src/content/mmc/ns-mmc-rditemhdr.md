@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - RDITEMHDR
-product: Windows
 targetos: Windows
 req.typenames: RDITEMHDR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - InstallResponseRestrictionFlags
-product: Windows
 targetos: Windows
 req.typenames: InstallResponseRestrictionFlags
 req.redist: 

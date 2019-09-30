@@ -38,7 +38,6 @@ api_location:
  - windows.storage.dll
 api_name:
  - IRandomAccessStreamFileAccessMode.GetMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

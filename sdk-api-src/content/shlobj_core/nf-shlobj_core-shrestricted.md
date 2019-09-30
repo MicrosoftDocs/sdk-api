@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHRestricted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

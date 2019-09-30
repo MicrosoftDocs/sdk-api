@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FORMAT_EX_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
 req.redist: 

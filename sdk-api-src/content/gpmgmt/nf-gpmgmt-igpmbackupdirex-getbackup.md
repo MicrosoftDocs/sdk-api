@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.dll
 api_name:
  - IGPMBackupDirEx.GetBackup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

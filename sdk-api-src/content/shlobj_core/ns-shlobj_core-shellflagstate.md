@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SHELLFLAGSTATE
-product: Windows
 targetos: Windows
 req.typenames: SHELLFLAGSTATE, *LPSHELLFLAGSTATE
 req.redist: 

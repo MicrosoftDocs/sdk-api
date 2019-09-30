@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVINSERTMARK
-product: Windows
 targetos: Windows
 req.typenames: LVINSERTMARK, *LPLVINSERTMARK
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - ICEnroll2.get_WriteCertToUserDS
  - ICEnroll2.put_WriteCertToUserDS
  - CEnroll.WriteCertToUserDS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

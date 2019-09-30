@@ -38,7 +38,6 @@ api_location:
  - d3d12.dll
 api_name:
  - D3D12CreateVersionedRootSignatureDeserializer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

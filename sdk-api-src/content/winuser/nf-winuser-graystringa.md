@@ -40,7 +40,6 @@ api_name:
  - GrayString
  - GrayStringA
  - GrayStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

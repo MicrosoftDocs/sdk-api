@@ -45,7 +45,6 @@ api_name:
  - InitiateSystemShutdownEx
  - InitiateSystemShutdownExA
  - InitiateSystemShutdownExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

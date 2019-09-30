@@ -43,7 +43,6 @@ api_name:
  - IInkCollector.put_MarginY
  - InkCollector.get_MarginY
  - InkCollector.put_MarginY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

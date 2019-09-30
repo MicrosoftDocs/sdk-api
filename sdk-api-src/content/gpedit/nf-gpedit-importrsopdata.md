@@ -38,7 +38,6 @@ api_location:
  - Gpedit.dll
 api_name:
  - ImportRSoPData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

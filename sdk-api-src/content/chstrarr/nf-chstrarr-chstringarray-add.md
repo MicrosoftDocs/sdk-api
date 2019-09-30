@@ -41,7 +41,6 @@ api_name:
  - CHStringArray.Add
  - ?Add@CHStringArray@@QAEHPBG@Z
  - ?Add@CHStringArray@@QEAAHPEBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

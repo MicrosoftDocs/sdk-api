@@ -40,7 +40,6 @@ api_name:
  - IFaxActivity.OutgoingMessages
  - IFaxActivity.get_OutgoingMessages
  - IFaxActivity.get_OutgoingMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

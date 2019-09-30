@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_V1_FUNCTIONS
-product: Windows
 targetos: Windows
 req.typenames: CLRES_V1_FUNCTIONS, *PCLRES_V1_FUNCTIONS
 req.redist: 

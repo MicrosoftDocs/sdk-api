@@ -39,7 +39,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_IPSTATS
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPSTATS_LH, *PMIB_IPSTATS_LH
 req.redist: 

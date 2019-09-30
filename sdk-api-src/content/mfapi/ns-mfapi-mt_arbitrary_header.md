@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MT_ARBITRARY_HEADER
-product: Windows
 targetos: Windows
 req.typenames: MT_ARBITRARY_HEADER
 req.redist: 

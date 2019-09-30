@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.GetSitesContainer
  - GPM.GetSitesContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

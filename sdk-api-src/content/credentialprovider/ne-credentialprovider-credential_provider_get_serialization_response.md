@@ -38,7 +38,6 @@ api_location:
  - Credentialprovider.h
 api_name:
  - CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 req.redist: 

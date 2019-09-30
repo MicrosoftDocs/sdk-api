@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - SHCOLUMNINFO
-product: Windows
 targetos: Windows
 req.typenames: SHCOLUMNINFO, *LPSHCOLUMNINFO
 req.redist: 

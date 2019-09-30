@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - TabletHardwareCapabilities
-product: Windows
 targetos: Windows
 req.typenames: TabletHardwareCapabilities
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWorkspaceRegistration.RemoveResource
  - IWorkspaceRegistration2.RemoveResource
  - Workspace.RemoveResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

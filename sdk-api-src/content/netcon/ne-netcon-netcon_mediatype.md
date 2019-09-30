@@ -38,7 +38,6 @@ api_location:
  - NetCon.h
 api_name:
  - NETCON_MEDIATYPE
-product: Windows
 targetos: Windows
 req.typenames: NETCON_MEDIATYPE
 req.redist: 

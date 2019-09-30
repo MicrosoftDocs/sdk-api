@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CurrentZoomLevel
  - IUIAutomationTransformPattern2.get_CurrentZoomLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

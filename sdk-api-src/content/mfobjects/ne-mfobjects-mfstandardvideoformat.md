@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFStandardVideoFormat
-product: Windows
 targetos: Windows
 req.typenames: MFStandardVideoFormat
 req.redist: 

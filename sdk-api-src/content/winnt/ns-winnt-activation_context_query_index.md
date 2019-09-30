@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACTIVATION_CONTEXT_QUERY_INDEX
-product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_QUERY_INDEX, *PACTIVATION_CONTEXT_QUERY_INDEX
 req.redist: 

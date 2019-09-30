@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_PARTITION_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_PARTITION_INFO, *PCLUSPROP_PARTITION_INFO
 req.redist: 

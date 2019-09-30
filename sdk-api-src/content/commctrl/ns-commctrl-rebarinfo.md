@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - REBARINFO
-product: Windows
 targetos: Windows
 req.typenames: REBARINFO, *LPREBARINFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionKeyUsage.KeyUsage
  - IX509ExtensionKeyUsage.get_KeyUsage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

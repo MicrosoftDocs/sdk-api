@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMProfile3.GetStreamPrioritization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

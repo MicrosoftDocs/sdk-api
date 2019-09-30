@@ -38,7 +38,6 @@ api_location:
  - Rpcasync.h
 api_name:
  - RPC_ERROR_ENUM_HANDLE
-product: Windows
 targetos: Windows
 req.typenames: RPC_ERROR_ENUM_HANDLE
 req.redist: 

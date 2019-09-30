@@ -38,7 +38,6 @@ api_location:
 - Evntrace.h
 api_name:
 - EVENT_TRACE
-product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE, *PEVENT_TRACE
 req.redist: 

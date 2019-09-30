@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListForceResolutionEx
  - MsiSourceListForceResolutionExA
  - MsiSourceListForceResolutionExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

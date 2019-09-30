@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - ISpatialAudioObjectForHrtf.SetGain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

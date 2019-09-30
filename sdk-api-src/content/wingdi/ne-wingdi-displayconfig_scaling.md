@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_SCALING
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SCALING
 req.redist: 

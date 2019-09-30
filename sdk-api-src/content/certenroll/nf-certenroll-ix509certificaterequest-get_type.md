@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequest.Type
  - IX509CertificateRequest.get_Type
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

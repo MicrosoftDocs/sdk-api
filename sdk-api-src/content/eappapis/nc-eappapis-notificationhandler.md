@@ -38,7 +38,6 @@ api_location:
  - eappapis.h
 api_name:
  - NotificationHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

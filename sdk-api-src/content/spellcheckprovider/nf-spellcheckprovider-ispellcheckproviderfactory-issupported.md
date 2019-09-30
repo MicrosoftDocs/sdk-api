@@ -38,7 +38,6 @@ api_location:
  - Spellcheckprovider.h
 api_name:
  - ISpellCheckProviderFactory.IsSupported
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

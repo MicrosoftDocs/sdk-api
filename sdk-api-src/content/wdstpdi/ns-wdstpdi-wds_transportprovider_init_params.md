@@ -38,7 +38,6 @@ api_location:
  - Wdstpdi.h
 api_name:
  - WDS_TRANSPORTPROVIDER_INIT_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: WDS_TRANSPORTPROVIDER_INIT_PARAMS, *PWDS_TRANSPORTPROVIDER_INIT_PARAMS
 req.redist: 

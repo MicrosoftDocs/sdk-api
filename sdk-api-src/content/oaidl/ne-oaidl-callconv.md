@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - CALLCONV
-product: Windows
 targetos: Windows
 req.typenames: CALLCONV
 req.redist: 

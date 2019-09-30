@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - X509EnrollmentPolicyExportFlags
-product: Windows
 targetos: Windows
 req.typenames: X509EnrollmentPolicyExportFlags
 req.redist: 

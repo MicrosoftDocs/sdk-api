@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRawElementProviderFragment.BoundingRectangle
  - IRawElementProviderFragment.get_BoundingRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

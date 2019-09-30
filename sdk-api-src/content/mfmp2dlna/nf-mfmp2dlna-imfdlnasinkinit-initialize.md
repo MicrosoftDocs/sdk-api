@@ -38,7 +38,6 @@ api_location:
  - mfmp2dlna.h
 api_name:
  - IMFDLNASinkInit.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

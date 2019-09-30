@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - ID3D12Heap.GetDesc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

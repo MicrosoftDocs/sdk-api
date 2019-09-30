@@ -40,7 +40,6 @@ api_name:
  - IGPMGPOLinksCollection.Item
  - IGPMGPOLinksCollection.get_Item
  - GPMGPOLinksCollection.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

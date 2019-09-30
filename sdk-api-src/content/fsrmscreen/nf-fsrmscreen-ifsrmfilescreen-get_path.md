@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileScreen.Path
  - IFsrmFileScreen.get_Path
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

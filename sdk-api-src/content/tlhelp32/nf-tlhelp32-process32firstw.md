@@ -47,7 +47,6 @@ api_name:
  - Process32First
  - Process32First
  - Process32FirstW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

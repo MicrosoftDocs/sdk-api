@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPCAConfiguration.ErrorCode
  - IOCSPCAConfiguration.get_ErrorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

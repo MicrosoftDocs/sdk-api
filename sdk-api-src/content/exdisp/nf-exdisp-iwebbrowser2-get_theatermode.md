@@ -43,7 +43,6 @@ api_name:
  - IWebBrowser2.put_TheaterMode
  - IWebBrowser2.put_TheaterMode
  - IWebBrowser2.get_TheaterMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

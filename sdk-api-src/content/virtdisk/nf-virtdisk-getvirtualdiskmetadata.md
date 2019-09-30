@@ -38,7 +38,6 @@ api_location:
  - VirtDisk.dll
 api_name:
  - GetVirtualDiskMetadata
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

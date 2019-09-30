@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyJob.GetNotifyInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - OpenBackupEventLog
  - OpenBackupEventLogA
  - OpenBackupEventLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

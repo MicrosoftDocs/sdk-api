@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_UNSECAPP_FLAG_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WBEM_UNSECAPP_FLAG_TYPE
 req.redist: 

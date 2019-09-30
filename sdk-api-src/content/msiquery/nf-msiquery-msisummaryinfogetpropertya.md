@@ -41,7 +41,6 @@ api_name:
  - MsiSummaryInfoGetProperty
  - MsiSummaryInfoGetPropertyA
  - MsiSummaryInfoGetPropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

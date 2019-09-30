@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesConnectionInfo.GetConnectState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

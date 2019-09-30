@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - BCRYPT_OID_LIST
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_OID_LIST
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Cryptui.dll
 api_name:
  - CryptUIDlgViewContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

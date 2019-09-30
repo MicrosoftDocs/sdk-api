@@ -38,7 +38,6 @@ api_location:
 - Propsys.h
 api_name:
 - IPropertyStoreFactory.GetPropertyStoreForKeys
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

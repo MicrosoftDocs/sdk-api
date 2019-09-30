@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - PDOPSTATUS
-product: Windows
 targetos: Windows
 req.typenames: PDOPSTATUS
 req.redist: 

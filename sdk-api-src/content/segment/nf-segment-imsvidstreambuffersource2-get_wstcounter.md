@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferSource2.get_WSTCounter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

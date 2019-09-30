@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.PercentCompletion
  - IWdsTransportClient.get_PercentCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

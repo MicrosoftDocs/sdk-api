@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVTILEINFO
-product: Windows
 targetos: Windows
 req.typenames: LVTILEINFO, *PLVTILEINFO
 req.redist: 

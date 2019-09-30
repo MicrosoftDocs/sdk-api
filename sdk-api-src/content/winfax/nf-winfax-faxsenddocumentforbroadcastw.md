@@ -41,7 +41,6 @@ api_name:
 - FaxSendDocumentForBroadcast
 - FaxSendDocumentForBroadcastA
 - FaxSendDocumentForBroadcastW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - FILE_REMOTE_PROTOCOL_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_REMOTE_PROTOCOL_INFO, *PFILE_REMOTE_PROTOCOL_INFO
 req.redist: 

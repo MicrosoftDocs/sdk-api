@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFVideoRotationFormat
-product: Windows
 targetos: Windows
 req.typenames: MFVideoRotationFormat
 req.redist: 

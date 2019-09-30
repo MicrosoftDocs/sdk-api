@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportJob.RunningStatus
  - IFsrmReportJob.get_RunningStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

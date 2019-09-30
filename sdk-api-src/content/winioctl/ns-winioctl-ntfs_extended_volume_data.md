@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - NTFS_VOLUME_DATA_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IManipulationProcessor.SupportedManipulations
  - IManipulationProcessor.get_SupportedManipulations
  - IManipulationProcessor.put_SupportedManipulations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

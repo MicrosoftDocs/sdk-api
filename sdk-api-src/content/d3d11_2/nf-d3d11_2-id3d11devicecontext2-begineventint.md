@@ -38,7 +38,6 @@ api_location:
  - d3d11_2.h
 api_name:
  - ID3D11DeviceContext2.BeginEventInt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

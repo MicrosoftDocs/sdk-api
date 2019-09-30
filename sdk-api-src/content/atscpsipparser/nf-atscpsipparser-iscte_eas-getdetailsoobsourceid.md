@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - ISCTE_EAS.GetDetailsOOBSourceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

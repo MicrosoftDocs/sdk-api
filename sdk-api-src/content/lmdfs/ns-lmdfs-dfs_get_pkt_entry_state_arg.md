@@ -38,7 +38,6 @@ api_location:
 - LmDfs.h
 api_name:
 - DFS_GET_PKT_ENTRY_STATE_ARG
-product: Windows
 targetos: Windows
 req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUSTER_NODE_RESUME_FAILBACK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 req.redist: 

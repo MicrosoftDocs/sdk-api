@@ -43,7 +43,6 @@ api_name:
  - IInkRectangle.put_Bottom
  - InkRectangle.get_Bottom
  - InkRectangle.put_Bottom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

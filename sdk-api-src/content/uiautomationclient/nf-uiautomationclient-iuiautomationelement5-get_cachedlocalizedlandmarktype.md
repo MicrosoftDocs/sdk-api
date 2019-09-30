@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement5.CachedLocalizedLandmarkType
  - IUIAutomationElement5.get_CachedLocalizedLandmarkType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComSecurityEvents.OnAuthenticate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

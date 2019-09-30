@@ -40,7 +40,6 @@ api_name:
  - StringCbCopyNEx
  - StringCbCopyNExA
  - StringCbCopyNExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

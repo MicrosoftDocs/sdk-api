@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIOutput6.CheckHardwareCompositionSupport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

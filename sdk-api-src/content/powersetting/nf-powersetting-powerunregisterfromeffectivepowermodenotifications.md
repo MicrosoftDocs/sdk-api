@@ -38,7 +38,6 @@ api_location:
  - Powrprof.dll
 api_name:
  - PowerUnregisterFromEffectivePowerModeNotifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

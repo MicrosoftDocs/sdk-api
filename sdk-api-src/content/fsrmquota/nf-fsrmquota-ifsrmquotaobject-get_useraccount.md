@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmQuotaObject.UserAccount
  - IFsrmQuotaObject.get_UserAccount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

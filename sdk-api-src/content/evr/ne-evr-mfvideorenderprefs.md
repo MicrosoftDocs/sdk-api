@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFVideoRenderPrefs
-product: Windows
 targetos: Windows
 req.typenames: MFVideoRenderPrefs
 req.redist: 

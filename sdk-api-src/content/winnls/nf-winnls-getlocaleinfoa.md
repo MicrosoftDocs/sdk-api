@@ -47,7 +47,6 @@ api_name:
  - GetLocaleInfo
  - GetLocaleInfoA
  - GetLocaleInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

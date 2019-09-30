@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CurrentValue
  - IUIAutomationRangeValuePattern.get_CurrentValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

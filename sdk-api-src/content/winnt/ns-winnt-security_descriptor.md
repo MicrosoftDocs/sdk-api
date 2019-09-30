@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - SECURITY_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
  - EvtSaveChannelConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

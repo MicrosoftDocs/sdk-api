@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_imageSourceWidth
  - IWMPMedia2.get_imageSourceWidth
  - IWMPMedia3.get_imageSourceWidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

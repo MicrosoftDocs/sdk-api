@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - MAINTENANCE_MODE_TYPE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
 req.redist: 

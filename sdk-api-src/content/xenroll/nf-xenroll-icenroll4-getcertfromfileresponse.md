@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICEnroll4.getCertFromFileResponse
  - CEnroll.getCertFromFileResponse
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

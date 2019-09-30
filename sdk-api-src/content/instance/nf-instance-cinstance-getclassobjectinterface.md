@@ -41,7 +41,6 @@ api_name:
  - CInstance.GetClassObjectInterface
  - ?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ
  - ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

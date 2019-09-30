@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnInterfaceManagerEvents.OnInterfaceRemoval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

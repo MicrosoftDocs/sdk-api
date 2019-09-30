@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_HARDWARE_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: VSS_HARDWARE_OPTIONS, *PVSS_HARDWARE_OPTIONS
 req.redist: 

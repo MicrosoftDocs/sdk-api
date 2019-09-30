@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

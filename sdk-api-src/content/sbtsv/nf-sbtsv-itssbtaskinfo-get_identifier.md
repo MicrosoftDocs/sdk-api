@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbTaskInfo.Identifier
  - ITsSbTaskInfo.get_Identifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

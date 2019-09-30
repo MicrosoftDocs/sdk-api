@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAP_TIMEVAL
-product: Windows
 targetos: Windows
 req.typenames: LDAP_TIMEVAL, *PLDAP_TIMEVAL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - taskschd.dll
 api_name:
  - IRegistrationInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

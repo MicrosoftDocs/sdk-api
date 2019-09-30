@@ -38,7 +38,6 @@ api_location:
  - WinIoctl.h
 api_name:
  - FILE_STORAGE_TIER_MEDIA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
 req.redist: 

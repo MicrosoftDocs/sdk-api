@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCPV6_BIND_ELEMENT_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6_BIND_ELEMENT_ARRAY, *LPDHCPV6_BIND_ELEMENT_ARRAY
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IPolicyQualifiers._NewEnum
  - IPolicyQualifiers.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

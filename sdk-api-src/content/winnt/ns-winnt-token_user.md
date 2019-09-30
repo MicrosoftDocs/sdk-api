@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_USER
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_USER, *PTOKEN_USER
 req.redist: 

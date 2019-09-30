@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - RepairInfoEx
-product: Windows
 targetos: Windows
 req.typenames: RepairInfoEx, *PRepairInfoEx
 req.redist: 

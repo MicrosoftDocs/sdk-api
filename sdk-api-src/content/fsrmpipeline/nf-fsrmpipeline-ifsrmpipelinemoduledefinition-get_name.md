@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.Name
  - IFsrmPipelineModuleDefinition.get_Name
  - IFsrmPipelineModuleDefinition.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

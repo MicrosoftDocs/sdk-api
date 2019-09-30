@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.KeySpec
  - IX509PrivateKey.get_KeySpec
  - IX509PrivateKey.put_KeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
 api_name:
 - CM_Get_Class_Property
 - CM_Get_Class_PropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

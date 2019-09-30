@@ -38,7 +38,6 @@ api_location:
  - Fwpmu.h
 api_name:
  - FWPM_VSWITCH_EVENT_CALLBACK0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

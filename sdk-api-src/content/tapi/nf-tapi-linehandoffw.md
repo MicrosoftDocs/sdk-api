@@ -40,7 +40,6 @@ api_name:
  - lineHandoff
  - lineHandoffA
  - lineHandoffW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

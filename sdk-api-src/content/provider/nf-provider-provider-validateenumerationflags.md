@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidateEnumerationFlags
  - ?ValidateEnumerationFlags@Provider@@MAEJJ@Z
  - ?ValidateEnumerationFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

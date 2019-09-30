@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - TRIVERTEX
-product: Windows
 targetos: Windows
 req.typenames: TRIVERTEX, *PTRIVERTEX, *LPTRIVERTEX
 req.redist: 

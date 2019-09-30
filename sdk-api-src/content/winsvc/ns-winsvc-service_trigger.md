@@ -38,7 +38,6 @@ api_location:
 - winsvc.h
 api_name:
 - SERVICE_TRIGGER
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
 req.redist: 

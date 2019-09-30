@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - USN_RECORD_COMMON_HEADER
-product: Windows
 targetos: Windows
 req.typenames: USN_RECORD_COMMON_HEADER, *PUSN_RECORD_COMMON_HEADER
 req.redist: 

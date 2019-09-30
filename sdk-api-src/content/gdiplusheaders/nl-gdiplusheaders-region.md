@@ -38,7 +38,6 @@ api_location:
  - gdiplusheaders.h
 api_name:
  - Region
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

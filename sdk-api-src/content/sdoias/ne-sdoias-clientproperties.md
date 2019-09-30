@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - CLIENTPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: CLIENTPROPERTIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONEMESSAGE
-product: Windows
 targetos: Windows
 req.typenames: PHONEMESSAGE, *LPPHONEMESSAGE
 req.redist: 

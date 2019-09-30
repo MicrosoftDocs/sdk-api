@@ -38,7 +38,6 @@ api_location:
  - Authz.h
 api_name:
  - AUTHZ_RPC_INIT_INFO_CLIENT
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_RPC_INIT_INFO_CLIENT, *PAUTHZ_RPC_INIT_INFO_CLIENT
 req.redist: 

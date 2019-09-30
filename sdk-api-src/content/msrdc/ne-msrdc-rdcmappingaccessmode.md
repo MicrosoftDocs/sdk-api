@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RdcMappingAccessMode
-product: Windows
 targetos: Windows
 req.typenames: RdcMappingAccessMode
 req.redist: 

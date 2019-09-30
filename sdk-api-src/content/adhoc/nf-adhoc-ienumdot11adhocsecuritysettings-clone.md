@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - IEnumDot11AdHocSecuritySettings.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

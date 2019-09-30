@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - Quality
-product: Windows
 targetos: Windows
 req.typenames: Quality
 req.redist: 

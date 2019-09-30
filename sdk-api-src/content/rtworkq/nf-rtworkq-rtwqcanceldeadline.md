@@ -38,7 +38,6 @@ api_location:
  - rtworkq.h
 api_name:
  - RtwqCancelDeadline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

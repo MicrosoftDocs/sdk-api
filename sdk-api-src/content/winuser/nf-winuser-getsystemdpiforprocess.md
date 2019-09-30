@@ -38,7 +38,6 @@ api_location:
  - User32.dll
 api_name:
  - GetSystemDpiForProcess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

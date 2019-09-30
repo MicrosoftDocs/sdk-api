@@ -38,7 +38,6 @@ api_location:
  - StorProp.dll
 api_name:
  - CdromEnableDigitalPlayback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

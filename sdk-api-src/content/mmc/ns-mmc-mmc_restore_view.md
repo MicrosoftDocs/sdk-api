@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_RESTORE_VIEW
-product: Windows
 targetos: Windows
 req.typenames: MMC_RESTORE_VIEW
 req.redist: 

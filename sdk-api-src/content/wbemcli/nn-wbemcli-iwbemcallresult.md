@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - IWbemCallResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

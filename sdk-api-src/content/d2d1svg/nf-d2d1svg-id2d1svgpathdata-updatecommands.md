@@ -38,7 +38,6 @@ api_location:
  - direct2d.dll
 api_name:
  - ID2D1SvgPathData.UpdateCommands
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
 - AuditSetGlobalSacl
 - AuditSetGlobalSaclA
 - AuditSetGlobalSaclW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

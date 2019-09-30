@@ -38,7 +38,6 @@ api_location:
 - Dnsapi.dll
 api_name:
 - DnsRecordCopyEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

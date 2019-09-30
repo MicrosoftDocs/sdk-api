@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - STREAMBUFFER_ATTR_DATATYPE
-product: Windows
 targetos: Windows
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl.h
 api_name:
  - INameSpaceTreeControlEvents.OnItemStateChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - FILE_ATTRIBUTES_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: FILE_ATTRIBUTES_ARRAY
 req.redist: 

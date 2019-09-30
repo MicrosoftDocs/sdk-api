@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
  - SetupCloseLog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

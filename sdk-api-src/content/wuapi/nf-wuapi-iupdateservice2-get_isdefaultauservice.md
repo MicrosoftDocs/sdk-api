@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService2.IsDefaultAUService
  - IUpdateService2.get_IsDefaultAUService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

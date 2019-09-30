@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - ITsSbClientConnection.PutContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

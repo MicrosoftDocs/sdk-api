@@ -38,7 +38,6 @@ api_location:
 - Wdstptc.dll
 api_name:
 - WdsTransportClientRegisterCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

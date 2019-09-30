@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IPrincipal2.RequiredPrivilegeCount
  - IPrincipal2.get_RequiredPrivilegeCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

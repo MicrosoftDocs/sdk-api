@@ -38,7 +38,6 @@ api_location:
  - Syncregistration.h
 api_name:
  - ISyncProviderConfigUI.GetRegisteredProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

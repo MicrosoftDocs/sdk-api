@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
 req.redist: 

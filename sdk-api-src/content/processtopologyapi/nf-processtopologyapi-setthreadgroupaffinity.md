@@ -42,7 +42,6 @@ api_location:
 - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
 - SetThreadGroupAffinity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

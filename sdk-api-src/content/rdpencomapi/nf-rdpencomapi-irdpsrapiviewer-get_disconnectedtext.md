@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIViewer.get_DisconnectedText
  - IRDPSRAPIViewer.put_DisconnectedText
  - RDPViewer.DisconnectedText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

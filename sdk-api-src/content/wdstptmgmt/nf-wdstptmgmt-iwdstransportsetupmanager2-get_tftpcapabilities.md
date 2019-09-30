@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSetupManager2.TftpCapabilities
  - IWdsTransportSetupManager2.get_TftpCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

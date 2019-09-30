@@ -38,7 +38,6 @@ api_location:
  - searchapi.h
 api_name:
  - ISearchRoot.get_User
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxRecipient.put_FaxNumber
  - IFaxRecipient.get_FaxNumber
  - IFaxRecipient.put_FaxNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

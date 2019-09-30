@@ -38,7 +38,6 @@ api_location:
  - Ddraw.dll
 api_name:
  - IDirectDraw7.GetDisplayMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

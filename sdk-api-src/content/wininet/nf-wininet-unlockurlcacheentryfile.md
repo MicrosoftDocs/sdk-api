@@ -40,7 +40,6 @@ api_name:
  - UnlockUrlCacheEntryFile
  - UnlockUrlCacheEntryFileA
  - UnlockUrlCacheEntryFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

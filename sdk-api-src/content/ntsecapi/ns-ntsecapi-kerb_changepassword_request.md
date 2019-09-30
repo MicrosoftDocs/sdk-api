@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_CHANGEPASSWORD_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: KERB_CHANGEPASSWORD_REQUEST, *PKERB_CHANGEPASSWORD_REQUEST
 req.redist: 

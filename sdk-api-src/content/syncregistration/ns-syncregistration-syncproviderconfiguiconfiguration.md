@@ -38,7 +38,6 @@ api_location:
  - Syncregistration.h
 api_name:
  - SyncProviderConfigUI
-product: Windows
 targetos: Windows
 req.typenames: SyncProviderConfigUIConfiguration
 req.redist: 

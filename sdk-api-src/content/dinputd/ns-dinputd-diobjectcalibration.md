@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIOBJECTCALIBRATION
-product: Windows
 targetos: Windows
 req.typenames: DIOBJECTCALIBRATION, *LPDIOBJECTCALIBRATION
 req.redist: 

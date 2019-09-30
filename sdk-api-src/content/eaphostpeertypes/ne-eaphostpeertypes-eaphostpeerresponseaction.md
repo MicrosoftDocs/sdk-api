@@ -38,7 +38,6 @@ api_location:
  - eaphostpeertypes.h
 api_name:
  - EapHostPeerResponseAction
-product: Windows
 targetos: Windows
 req.typenames: EapHostPeerResponseAction
 req.redist: 

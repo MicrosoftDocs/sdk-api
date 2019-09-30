@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WFD_OPEN_SESSION_COMPLETE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

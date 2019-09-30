@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - DMA_DES
-product: Windows
 targetos: Windows
 req.typenames: DMA_DES, *PDMA_DES
 req.redist: 

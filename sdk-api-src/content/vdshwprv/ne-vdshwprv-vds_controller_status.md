@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_CONTROLLER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_STATUS, *PVDS_CONTROLLER_STATUS
 req.redist: 

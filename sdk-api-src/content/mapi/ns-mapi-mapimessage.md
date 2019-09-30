@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MapiMessage
-product: Windows
 targetos: Windows
 req.typenames: MapiMessage, *lpMapiMessage
 req.redist: 

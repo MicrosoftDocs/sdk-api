@@ -38,7 +38,6 @@ api_location:
  - Upnphost.dll
 api_name:
  - IUPnPRegistrar.RegisterDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

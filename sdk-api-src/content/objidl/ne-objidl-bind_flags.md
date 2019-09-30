@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - BIND_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: BIND_FLAGS
 req.redist: 

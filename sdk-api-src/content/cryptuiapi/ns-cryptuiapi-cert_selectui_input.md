@@ -38,7 +38,6 @@ api_location:
 - Cryptuiapi.h
 api_name:
 - CERT_SELECTUI_INPUT
-product: Windows
 targetos: Windows
 req.typenames: CERT_SELECTUI_INPUT, *PCERT_SELECTUI_INPUT
 req.redist: 

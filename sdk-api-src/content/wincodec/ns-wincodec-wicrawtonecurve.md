@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICRawToneCurve
-product: Windows
 targetos: Windows
 req.typenames: WICRawToneCurve
 req.redist: 

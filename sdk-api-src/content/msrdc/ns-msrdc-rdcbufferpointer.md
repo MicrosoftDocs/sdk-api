@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RdcBufferPointer
-product: Windows
 targetos: Windows
 req.typenames: RdcBufferPointer
 req.redist: 

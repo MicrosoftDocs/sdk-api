@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.RoutingString
  - IFaxStatus.get_RoutingString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

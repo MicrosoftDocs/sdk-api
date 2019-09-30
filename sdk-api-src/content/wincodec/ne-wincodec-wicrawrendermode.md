@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICRawRenderMode
-product: Windows
 targetos: Windows
 req.typenames: WICRawRenderMode
 req.redist: 

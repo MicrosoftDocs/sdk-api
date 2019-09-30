@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - CONTROL_SERVICE
-product: Windows
 targetos: Windows
 req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
 req.redist: 

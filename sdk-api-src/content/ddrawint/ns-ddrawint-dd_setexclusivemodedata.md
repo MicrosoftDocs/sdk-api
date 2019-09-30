@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SETEXCLUSIVEMODEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA'
 req.redist: 

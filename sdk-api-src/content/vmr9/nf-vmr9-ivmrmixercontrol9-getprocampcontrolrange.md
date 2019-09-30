@@ -39,7 +39,6 @@ api_location:
 - Strmiids.dll
 api_name:
 - IVMRMixerControl9.GetProcAmpControlRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

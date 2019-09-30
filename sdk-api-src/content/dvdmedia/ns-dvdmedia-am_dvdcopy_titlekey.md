@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPY_TITLEKEY
-product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_TITLEKEY, *PAM_DVDCOPY_TITLEKEY
 req.redist: 

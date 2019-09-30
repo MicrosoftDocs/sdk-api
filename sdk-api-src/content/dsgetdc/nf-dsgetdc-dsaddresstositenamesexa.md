@@ -40,7 +40,6 @@ api_name:
  - DsAddressToSiteNamesEx
  - DsAddressToSiteNamesExA
  - DsAddressToSiteNamesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

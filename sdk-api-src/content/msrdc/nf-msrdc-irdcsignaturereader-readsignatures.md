@@ -38,7 +38,6 @@ api_location:
  - MsRdc.dll
 api_name:
  - IRdcSignatureReader.ReadSignatures
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

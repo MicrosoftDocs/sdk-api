@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextStrings.EncodeFunction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

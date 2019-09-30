@@ -39,7 +39,6 @@ api_location:
  - MSClus.h
 api_name:
  - RESOURCE_FAILURE_INFO_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO_BUFFER, *PRESOURCE_FAILURE_INFO_BUFFER
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
  - CreateToolhelp32Snapshot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

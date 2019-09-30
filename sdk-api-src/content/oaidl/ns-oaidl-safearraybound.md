@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - SAFEARRAYBOUND
-product: Windows
 targetos: Windows
 req.typenames: SAFEARRAYBOUND, *LPSAFEARRAYBOUND
 req.redist: 

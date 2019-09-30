@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITextChildProvider.TextContainer
  - ITextChildProvider.get_TextContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - DOCMISC
-product: Windows
 targetos: Windows
 req.typenames: DOCMISC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - SPropValue
-product: Windows
 targetos: Windows
 req.typenames: SPropValue, *LPSPropValue
 req.redist: 

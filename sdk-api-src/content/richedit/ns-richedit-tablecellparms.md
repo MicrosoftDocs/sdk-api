@@ -38,7 +38,6 @@ api_location:
 - Richedit.h
 api_name:
 - TABLECELLPARMS
-product: Windows
 targetos: Windows
 req.typenames: TABLECELLPARMS
 req.redist: 

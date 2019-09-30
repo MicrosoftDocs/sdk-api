@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_FILL_RULE
-product: Windows
 targetos: Windows
 req.typenames: XPS_FILL_RULE
 req.redist: 

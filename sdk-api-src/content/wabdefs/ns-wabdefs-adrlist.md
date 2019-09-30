@@ -38,7 +38,6 @@ api_location:
 - Wabdefs.h
 api_name:
 - Gender
-product: Windows
 targetos: Windows
 req.typenames: ADRLIST, *LPADRLIST
 req.redist: 

@@ -47,7 +47,6 @@ api_location:
  - Wmipiprt.dll
 api_name:
  - IWbemClassObject.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

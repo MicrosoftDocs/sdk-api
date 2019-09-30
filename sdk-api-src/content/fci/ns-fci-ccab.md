@@ -38,7 +38,6 @@ api_location:
  - Fci.h
 api_name:
  - CCAB
-product: Windows
 targetos: Windows
 req.typenames: CCAB
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_FS_METADATA
-product: Windows
 targetos: Windows
 req.typenames: CF_FS_METADATA
 req.redist: 

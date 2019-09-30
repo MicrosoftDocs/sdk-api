@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - IntServParmHdr
-product: Windows
 targetos: Windows
 req.typenames: IntServParmHdr
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HH_WINTYPE
-product: Windows
 targetos: Windows
 req.typenames: HH_WINTYPE, *PHH_WINTYPE
 req.redist: 

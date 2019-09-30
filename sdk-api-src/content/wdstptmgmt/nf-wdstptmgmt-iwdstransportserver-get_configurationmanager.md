@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportServer.ConfigurationManager
  - IWdsTransportServer.get_ConfigurationManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

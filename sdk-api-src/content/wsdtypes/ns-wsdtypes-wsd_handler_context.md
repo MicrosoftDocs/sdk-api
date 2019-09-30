@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_HANDLER_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: WSD_HANDLER_CONTEXT
 req.redist: 

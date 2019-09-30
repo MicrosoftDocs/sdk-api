@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - FT_STATE_EVENT_CAUSE
-product: Windows
 targetos: Windows
 req.typenames: FT_STATE_EVENT_CAUSE
 req.redist: 

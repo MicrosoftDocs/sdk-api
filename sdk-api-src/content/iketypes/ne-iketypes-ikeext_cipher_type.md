@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_CIPHER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CIPHER_TYPE
 req.redist: 

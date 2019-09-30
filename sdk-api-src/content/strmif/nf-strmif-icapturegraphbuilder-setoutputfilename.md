@@ -38,7 +38,6 @@ api_location:
  - Quartz.dll
 api_name:
  - ICaptureGraphBuilder.SetOutputFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

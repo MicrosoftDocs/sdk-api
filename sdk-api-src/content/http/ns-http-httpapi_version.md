@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTPAPI_VERSION
-product: Windows
 targetos: Windows
 req.typenames: HTTPAPI_VERSION, *PHTTPAPI_VERSION
 req.redist: 

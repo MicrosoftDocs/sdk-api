@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.h
 api_name:
  - SensorConnectionType
-product: Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IQueryRecentWinSATAssessment.Info
  - IQueryRecentWinSATAssessment.get_Info
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

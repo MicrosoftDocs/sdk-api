@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AnalogVideoStandard
-product: Windows
 targetos: Windows
 req.typenames: AnalogVideoStandard
 req.redist: 

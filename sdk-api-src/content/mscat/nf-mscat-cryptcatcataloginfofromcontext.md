@@ -39,7 +39,6 @@ api_location:
  - mscat32.dll
 api_name:
  - CryptCATCatalogInfoFromContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

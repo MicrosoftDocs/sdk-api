@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.UpdateIdentity
  - IUpdateHistoryEntry.get_UpdateIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

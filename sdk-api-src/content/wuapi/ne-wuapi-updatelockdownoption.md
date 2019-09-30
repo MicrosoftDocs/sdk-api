@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - UpdateLockdownOption
-product: Windows
 targetos: Windows
 req.typenames: UpdateLockdownOption
 req.redist: 

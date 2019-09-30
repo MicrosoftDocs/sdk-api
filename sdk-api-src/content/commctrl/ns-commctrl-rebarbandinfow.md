@@ -40,7 +40,6 @@ api_name:
  - REBARBANDINFO
  - REBARBANDINFOA
  - REBARBANDINFOW
-product: Windows
 targetos: Windows
 req.typenames: REBARBANDINFOW, *LPREBARBANDINFOW
 req.redist: 

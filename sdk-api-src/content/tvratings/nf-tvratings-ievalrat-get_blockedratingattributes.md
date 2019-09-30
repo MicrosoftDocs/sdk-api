@@ -38,7 +38,6 @@ api_location:
  - Tvratings.h
 api_name:
  - IEvalRat.get_BlockedRatingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

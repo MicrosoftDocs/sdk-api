@@ -38,7 +38,6 @@ api_location:
  - CoreMessaging.dll
 api_name:
  - CreateDispatcherQueueController
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

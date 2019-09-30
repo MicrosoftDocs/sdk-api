@@ -38,7 +38,6 @@ api_location:
  - Dsadmin.dll
 api_name:
  - IDsDisplaySpecifier.SetLanguageID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

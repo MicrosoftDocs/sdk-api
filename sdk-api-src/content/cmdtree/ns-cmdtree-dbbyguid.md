@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBBYGUID
-product: Windows
 targetos: Windows
 req.typenames: DBBYGUID
 req.redist: 

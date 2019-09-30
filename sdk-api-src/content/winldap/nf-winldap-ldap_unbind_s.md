@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_unbind_s
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

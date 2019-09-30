@@ -40,7 +40,6 @@ api_name:
  - PdhEnumMachines
  - PdhEnumMachinesA
  - PdhEnumMachinesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

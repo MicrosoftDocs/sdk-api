@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSELECTOBJECT
-product: Windows
 targetos: Windows
 req.typenames: EMRSELECTOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, *PEMRDELETEOBJECT
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIInvitation.get_Revoked
  - IRDPSRAPIInvitation.put_Revoked
  - RDPSRAPIInvitation.Revoked
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

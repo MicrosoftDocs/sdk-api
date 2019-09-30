@@ -42,7 +42,6 @@ api_name:
  - IFaxIncomingArchive.put_HighQuotaWaterMark
  - IFaxIncomingArchive.get_HighQuotaWaterMark
  - IFaxIncomingArchive.put_HighQuotaWaterMark
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

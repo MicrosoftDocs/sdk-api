@@ -38,7 +38,6 @@ api_location:
  - Mspcall.h
 api_name:
  - CMSPCallMultiGraph.HandleGraphEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

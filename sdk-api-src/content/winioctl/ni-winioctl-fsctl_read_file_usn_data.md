@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_READ_FILE_USN_DATA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

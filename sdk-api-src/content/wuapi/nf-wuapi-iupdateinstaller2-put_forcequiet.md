@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller2.ForceQuiet
  - IUpdateInstaller2.get_ForceQuiet
  - IUpdateInstaller2.put_ForceQuiet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

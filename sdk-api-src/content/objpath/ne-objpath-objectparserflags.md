@@ -38,7 +38,6 @@ api_location:
  - Objpath.h
 api_name:
  - ObjectParserFlags
-product: Windows
 targetos: Windows
 req.typenames: ObjectParserFlags
 req.redist: 

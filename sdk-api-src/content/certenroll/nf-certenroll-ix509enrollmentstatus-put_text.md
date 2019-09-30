@@ -40,7 +40,6 @@ api_name:
  - IX509EnrollmentStatus.Text
  - IX509EnrollmentStatus.get_Text
  - IX509EnrollmentStatus.put_Text
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

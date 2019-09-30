@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - NOTIFY_FILTER_AND_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
 req.redist: 

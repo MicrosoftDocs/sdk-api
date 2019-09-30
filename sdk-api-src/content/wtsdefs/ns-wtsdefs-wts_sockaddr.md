@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_SOCKADDR
-product: Windows
 targetos: Windows
 req.typenames: WTS_SOCKADDR, *PWTS_SOCKADDR
 req.redist: 

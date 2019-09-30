@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_COLOR_TYPE
-product: Windows
 targetos: Windows
 req.typenames: XPS_COLOR_TYPE
 req.redist: 

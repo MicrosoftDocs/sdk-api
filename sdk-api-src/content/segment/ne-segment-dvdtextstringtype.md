@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - DVDTextStringType
-product: Windows
 targetos: Windows
 req.typenames: DVDTextStringType
 req.redist: 

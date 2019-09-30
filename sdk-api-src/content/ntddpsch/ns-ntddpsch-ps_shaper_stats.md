@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_SHAPER_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_SHAPER_STATS, *PPS_SHAPER_STATS
 req.redist: 

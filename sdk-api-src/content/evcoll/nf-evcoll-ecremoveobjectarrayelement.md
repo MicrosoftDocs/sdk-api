@@ -38,7 +38,6 @@ api_location:
  - Wecapi.dll
 api_name:
  - EcRemoveObjectArrayElement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

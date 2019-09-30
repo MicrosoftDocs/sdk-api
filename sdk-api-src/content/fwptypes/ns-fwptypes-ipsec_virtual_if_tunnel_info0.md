@@ -38,7 +38,6 @@ api_location:
  - fwptypes.h
 api_name:
  - IPSEC_VIRTUAL_IF_TUNNEL_INFO0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_VIRTUAL_IF_TUNNEL_INFO0
 req.redist: 

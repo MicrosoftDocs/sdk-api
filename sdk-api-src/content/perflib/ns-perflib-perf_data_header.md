@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PERF_DATA_HEADER
-product: Windows
 targetos: Windows
 req.typenames: PERF_DATA_HEADER, *PPERF_DATA_HEADER
 req.redist: 

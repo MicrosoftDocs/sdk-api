@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - MF3DVideoOutputType
-product: Windows
 targetos: Windows
 req.typenames: MF3DVideoOutputType
 req.redist: 

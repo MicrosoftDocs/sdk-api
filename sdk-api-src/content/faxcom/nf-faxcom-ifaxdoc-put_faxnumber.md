@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.FaxNumber
  - IFaxDoc.get_FaxNumber
  - IFaxDoc.put_FaxNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

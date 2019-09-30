@@ -41,7 +41,6 @@ api_name:
  - ICertPolicy2.GetDescription
  - ICertPolicy.GetDescription
  - CCertPolicy.GetDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

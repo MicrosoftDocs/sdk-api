@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MF_TOPOSTATUS
-product: Windows
 targetos: Windows
 req.typenames: MF_TOPOSTATUS
 req.redist: 

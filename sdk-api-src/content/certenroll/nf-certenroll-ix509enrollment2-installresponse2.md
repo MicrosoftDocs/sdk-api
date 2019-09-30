@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509Enrollment2.InstallResponse2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

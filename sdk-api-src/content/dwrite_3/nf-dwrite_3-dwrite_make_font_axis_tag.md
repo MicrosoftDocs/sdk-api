@@ -36,7 +36,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_MAKE_FONT_AXIS_TAG
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

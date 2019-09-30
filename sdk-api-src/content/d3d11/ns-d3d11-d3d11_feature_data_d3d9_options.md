@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - D3D11_FEATURE_DATA_D3D9_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D9_OPTIONS
 req.redist: 

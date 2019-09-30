@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TSPI_lineCreateMSPInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

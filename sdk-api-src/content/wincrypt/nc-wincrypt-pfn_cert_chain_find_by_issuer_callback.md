@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

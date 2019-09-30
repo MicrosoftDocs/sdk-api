@@ -38,7 +38,6 @@ api_location:
 - winioctl.h
 api_name:
 - STORAGE_DEVICE_POWER_CAP
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
 req.redist: 

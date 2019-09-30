@@ -38,7 +38,6 @@ api_location:
 - eapmethodauthenticatorapis.h
 api_name:
 - EAP_AUTHENTICATOR_METHOD_ROUTINES
-product: Windows
 targetos: Windows
 req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
 req.redist: 

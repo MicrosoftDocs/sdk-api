@@ -43,7 +43,6 @@ api_name:
  - IFsrmActionEmail.MessageText
  - IFsrmActionEmail.get_MessageText
  - IFsrmActionEmail.put_MessageText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

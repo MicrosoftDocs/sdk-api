@@ -38,7 +38,6 @@ api_location:
  - Cryptxml.h
 api_name:
  - CRYPT_XML_TRANSFORM_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_TRANSFORM_INFO, *PCRYPT_XML_TRANSFORM_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - MOUSE_WHEEL_PARAMETER
-product: Windows
 targetos: Windows
 req.typenames: MOUSE_WHEEL_PARAMETER
 req.redist: 

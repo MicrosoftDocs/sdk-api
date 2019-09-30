@@ -38,7 +38,6 @@ api_location:
  - xpsdigitalsignature.h
 api_name:
  - IXpsSignatureManager.CreateSigningOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDvdControl2.PlayAtTimeInTitle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

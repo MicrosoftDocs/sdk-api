@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - OPEN_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
 req.redist: 

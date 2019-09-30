@@ -42,7 +42,6 @@ api_location:
  - kernelbase.dll
 api_name:
  - EventAccessQuery
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

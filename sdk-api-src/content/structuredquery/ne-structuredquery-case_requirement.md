@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - CASE_REQUIREMENT
-product: Windows
 targetos: Windows
 req.typenames: CASE_REQUIREMENT
 req.redist: 

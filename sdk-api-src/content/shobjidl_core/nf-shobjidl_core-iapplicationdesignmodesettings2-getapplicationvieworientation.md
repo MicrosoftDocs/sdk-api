@@ -38,7 +38,6 @@ api_location:
  - twinapi.dll
 api_name:
  - IApplicationDesignModeSettings2.GetApplicationViewOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

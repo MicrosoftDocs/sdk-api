@@ -38,7 +38,6 @@ api_location:
  - audiopolicy.h
 api_name:
  - IAudioSessionNotification.OnSessionCreated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

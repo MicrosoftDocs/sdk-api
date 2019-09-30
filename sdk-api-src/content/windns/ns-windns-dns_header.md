@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_HEADER
-product: Windows
 targetos: Windows
 req.typenames: DNS_HEADER, *PDNS_HEADER
 req.redist: 

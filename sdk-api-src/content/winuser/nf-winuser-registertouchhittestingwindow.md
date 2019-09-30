@@ -40,7 +40,6 @@ api_location:
  - MinUser.dll
 api_name:
  - RegisterTouchHitTestingWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

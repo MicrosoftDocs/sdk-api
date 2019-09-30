@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - USN_RANGE_TRACK_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SETENTRIESDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SETENTRIESDATA, DD_SETENTRIESDATA'
 req.redist: 

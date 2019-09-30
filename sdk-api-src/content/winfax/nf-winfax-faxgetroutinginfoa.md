@@ -41,7 +41,6 @@ api_name:
 - FaxGetRoutingInfo
 - FaxGetRoutingInfoA
 - FaxGetRoutingInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

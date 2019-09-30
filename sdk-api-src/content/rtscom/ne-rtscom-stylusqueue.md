@@ -38,7 +38,6 @@ api_location:
  - RTSCom.h
 api_name:
  - StylusQueue
-product: Windows
 targetos: Windows
 req.typenames: StylusQueue
 req.redist: 

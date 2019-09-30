@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - MMC_TASK
-product: Windows
 targetos: Windows
 req.typenames: MMC_TASK
 req.redist: 

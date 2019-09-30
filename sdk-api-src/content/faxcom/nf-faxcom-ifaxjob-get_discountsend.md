@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.DiscountSend
  - IFaxJob.get_DiscountSend
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

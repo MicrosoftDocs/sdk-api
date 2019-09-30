@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - CHANGE_ATTRIBUTES_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CHANGE_ATTRIBUTES_PARAMETERS
 req.redist: 

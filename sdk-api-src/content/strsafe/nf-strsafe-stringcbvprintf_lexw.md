@@ -40,7 +40,6 @@ api_name:
  - StringCbVPrintf_lEx
  - StringCbVPrintf_lExA
  - StringCbVPrintf_lExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

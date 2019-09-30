@@ -38,7 +38,6 @@ api_location:
  - Wabapi.h
 api_name:
  - WABIMPORTPARAM
-product: Windows
 targetos: Windows
 req.typenames: WABIMPORTPARAM, *LPWABIMPORTPARAM
 req.redist: 

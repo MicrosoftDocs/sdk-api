@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPI_GATHERTERM
-product: Windows
 targetos: Windows
 req.typenames: TAPI_GATHERTERM
 req.redist: 

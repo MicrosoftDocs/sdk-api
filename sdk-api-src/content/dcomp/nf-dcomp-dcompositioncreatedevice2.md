@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-OneCore-DComp-L1-1-0.dll
 api_name:
  - DCompositionCreateDevice2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

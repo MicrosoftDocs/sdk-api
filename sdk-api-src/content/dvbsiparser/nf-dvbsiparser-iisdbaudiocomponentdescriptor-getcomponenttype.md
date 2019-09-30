@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbAudioComponentDescriptor.GetComponentType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - protoent
-product: Windows
 targetos: Windows
 req.typenames: PROTOENT, *PPROTOENT, *LPPROTOENT
 req.redist: 

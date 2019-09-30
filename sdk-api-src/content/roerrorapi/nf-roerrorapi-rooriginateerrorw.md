@@ -45,7 +45,6 @@ api_location:
 api_name:
  - RoOriginateErrorW
  - WinRTOriginateErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

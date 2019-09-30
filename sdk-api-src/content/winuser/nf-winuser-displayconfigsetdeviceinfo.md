@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
  - DisplayConfigSetDeviceInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - IWTSSBPlugin.Terminated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

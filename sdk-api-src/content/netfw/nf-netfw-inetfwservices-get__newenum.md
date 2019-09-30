@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwServices._NewEnum
  - INetFwServices.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

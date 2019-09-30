@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnPin.Enable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

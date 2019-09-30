@@ -38,7 +38,6 @@ api_location:
  - iwstdec.h
 api_name:
  - AM_WST_PAGE
-product: Windows
 targetos: Windows
 req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
 req.redist: 

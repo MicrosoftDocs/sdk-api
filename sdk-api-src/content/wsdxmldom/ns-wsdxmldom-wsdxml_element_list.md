@@ -38,7 +38,6 @@ api_location:
 - WsdXmldom.h
 api_name:
 - WSDXML_ELEMENT_LIST
-product: Windows
 targetos: Windows
 req.typenames: WSDXML_ELEMENT_LIST
 req.redist: 

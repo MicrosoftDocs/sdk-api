@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - RegisterClusterResourceTypeNotifyV2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D12.dll
 api_name:
  - ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - SCRIPT_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: SCRIPT_PROPERTIES
 req.redist: 

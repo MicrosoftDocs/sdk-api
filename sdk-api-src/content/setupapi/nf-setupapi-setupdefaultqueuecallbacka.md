@@ -41,7 +41,6 @@ api_name:
  - SetupDefaultQueueCallback
  - SetupDefaultQueueCallbackA
  - SetupDefaultQueueCallbackW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

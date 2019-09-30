@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyDefinitionValue.DisplayName
  - IFsrmPropertyDefinitionValue.get_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

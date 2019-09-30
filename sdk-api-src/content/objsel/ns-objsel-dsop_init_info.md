@@ -38,7 +38,6 @@ api_location:
 - Objsel.h
 api_name:
 - DSOP_INIT_INFO
-product: Windows
 targetos: Windows
 req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnPin.PinType
  - IMbnPin.get_PinType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

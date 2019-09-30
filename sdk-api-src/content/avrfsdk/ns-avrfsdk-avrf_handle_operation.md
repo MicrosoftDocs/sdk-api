@@ -38,7 +38,6 @@ api_location:
 - Avrfsdk.h
 api_name:
 - AVRF_HANDLE_OPERATION
-product: Windows
 targetos: Windows
 req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - STREAM_SEEK
-product: Windows
 targetos: Windows
 req.typenames: STREAM_SEEK
 req.redist: 

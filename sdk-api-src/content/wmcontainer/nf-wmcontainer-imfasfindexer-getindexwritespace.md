@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFASFIndexer.GetIndexWriteSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - VsMgmt.h
 api_name:
 - VSS_VOLUME_PROTECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
 req.redist: 

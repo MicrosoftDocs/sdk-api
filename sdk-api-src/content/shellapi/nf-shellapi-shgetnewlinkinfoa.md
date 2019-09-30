@@ -40,7 +40,6 @@ api_name:
  - SHGetNewLinkInfo
  - SHGetNewLinkInfoA
  - SHGetNewLinkInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

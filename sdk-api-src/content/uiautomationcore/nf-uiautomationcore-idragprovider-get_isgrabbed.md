@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDragProvider.IsGrabbed
  - IDragProvider.get_IsGrabbed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

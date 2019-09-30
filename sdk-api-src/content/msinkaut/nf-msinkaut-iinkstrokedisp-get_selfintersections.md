@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.SelfIntersections
  - IInkStrokeDisp.get_SelfIntersections
  - IInkStrokeDisp.get_SelfIntersections
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

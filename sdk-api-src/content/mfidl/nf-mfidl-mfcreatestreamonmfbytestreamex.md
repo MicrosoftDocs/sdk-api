@@ -38,7 +38,6 @@ api_location:
  - mfplat.dll
 api_name:
  - MFCreateStreamOnMFByteStreamEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

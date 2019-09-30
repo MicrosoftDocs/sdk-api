@@ -42,7 +42,6 @@ api_name:
  - ExtractAssociatedIcon
  - ExtractAssociatedIconA
  - ExtractAssociatedIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

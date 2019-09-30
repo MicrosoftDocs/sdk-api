@@ -38,7 +38,6 @@ api_location:
  - Websocket.h
 api_name:
  - WEB_SOCKET_HTTP_HEADER
-product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_HTTP_HEADER, *PWEB_SOCKET_HTTP_HEADER
 req.redist: 

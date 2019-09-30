@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMStreamSelect.Enable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

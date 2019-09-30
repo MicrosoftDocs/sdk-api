@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - PERFORMANCE_DATA
-product: Windows
 targetos: Windows
 req.typenames: PERFORMANCE_DATA, *PPERFORMANCE_DATA
 req.redist: 

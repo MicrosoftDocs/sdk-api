@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVAUncompDataInfo
-product: Windows
 targetos: Windows
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 req.redist: 

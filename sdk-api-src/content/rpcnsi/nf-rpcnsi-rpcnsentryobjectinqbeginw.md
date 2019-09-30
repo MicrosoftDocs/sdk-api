@@ -40,7 +40,6 @@ api_name:
  - RpcNsEntryObjectInqBegin
  - RpcNsEntryObjectInqBeginA
  - RpcNsEntryObjectInqBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

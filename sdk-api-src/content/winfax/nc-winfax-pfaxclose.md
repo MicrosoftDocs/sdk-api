@@ -40,7 +40,6 @@ api_name:
  - PFAXCLOSE
  - FaxCloseA
  - FaxCloseW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

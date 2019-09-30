@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_ALGORITHM_IDENTIFIER
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_ALGORITHM_IDENTIFIER, *PCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 

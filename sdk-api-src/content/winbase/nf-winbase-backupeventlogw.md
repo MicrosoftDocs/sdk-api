@@ -41,7 +41,6 @@ api_name:
  - BackupEventLog
  - BackupEventLogA
  - BackupEventLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

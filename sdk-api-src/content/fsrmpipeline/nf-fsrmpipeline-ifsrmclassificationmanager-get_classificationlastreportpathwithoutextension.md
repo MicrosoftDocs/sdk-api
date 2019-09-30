@@ -41,7 +41,6 @@ api_name:
  - IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
  - IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
  - IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

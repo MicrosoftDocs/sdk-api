@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportServer2.TftpManager
  - IWdsTransportServer2.get_TftpManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

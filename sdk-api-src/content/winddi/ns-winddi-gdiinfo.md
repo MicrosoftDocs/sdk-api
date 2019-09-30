@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - GDIINFO
-product: Windows
 targetos: Windows
 req.typenames: GDIINFO, *PGDIINFO
 req.redist: 

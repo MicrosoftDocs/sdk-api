@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - SHChangeUpdateImageIDList
-product: Windows
 targetos: Windows
 req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
 req.redist: 

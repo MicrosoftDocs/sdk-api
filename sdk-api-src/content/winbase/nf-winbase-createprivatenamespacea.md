@@ -45,7 +45,6 @@ api_name:
  - CreatePrivateNamespace
  - CreatePrivateNamespaceA
  - CreatePrivateNamespaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

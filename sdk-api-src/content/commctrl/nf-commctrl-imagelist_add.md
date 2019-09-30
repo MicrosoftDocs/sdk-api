@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - ImageList_Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

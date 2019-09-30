@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PFNPEER_SECURE_RECORD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

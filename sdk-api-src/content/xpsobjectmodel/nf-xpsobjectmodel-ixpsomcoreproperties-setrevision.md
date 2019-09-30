@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMCoreProperties.SetRevision
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - lineMakeCall
  - lineMakeCallA
  - lineMakeCallW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

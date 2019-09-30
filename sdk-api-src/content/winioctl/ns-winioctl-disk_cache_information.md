@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - DISK_CACHE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 req.redist: 

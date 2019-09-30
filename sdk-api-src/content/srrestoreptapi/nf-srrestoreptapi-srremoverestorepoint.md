@@ -38,7 +38,6 @@ api_location:
  - SrClient.dll
 api_name:
  - SRRemoveRestorePoint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICDecodeOptions
-product: Windows
 targetos: Windows
 req.typenames: WICDecodeOptions
 req.redist: 

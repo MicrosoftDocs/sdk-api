@@ -38,7 +38,6 @@ api_location:
  - Evntprov.h
 api_name:
  - EVENT_INFO_CLASS
-product: Windows
 targetos: Windows
 req.typenames: EVENT_INFO_CLASS
 req.redist: 

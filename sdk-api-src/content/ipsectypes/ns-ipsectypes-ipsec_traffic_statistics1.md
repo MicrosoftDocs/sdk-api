@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_TRAFFIC_STATISTICS1
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC_STATISTICS1
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - PeerDist.dll
 api_name:
 - PeerDistServerPublishCompleteStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

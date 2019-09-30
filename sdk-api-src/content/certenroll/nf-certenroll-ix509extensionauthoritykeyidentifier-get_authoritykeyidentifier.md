@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionAuthorityKeyIdentifier.AuthorityKeyIdentifier
  - IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

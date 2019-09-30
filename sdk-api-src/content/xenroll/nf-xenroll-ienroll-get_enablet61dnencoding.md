@@ -40,7 +40,6 @@ api_name:
  - IEnroll.EnableT61DNEncoding
  - IEnroll.get_EnableT61DNEncoding
  - IEnroll.put_EnableT61DNEncoding
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - HIGHCONTRAST
-product: Windows
 targetos: Windows
 req.typenames: HIGHCONTRASTA, *LPHIGHCONTRASTA
 req.redist: 

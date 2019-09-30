@@ -38,7 +38,6 @@ api_location:
  - Amvideo.h
 api_name:
  - RESET_PALETTE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

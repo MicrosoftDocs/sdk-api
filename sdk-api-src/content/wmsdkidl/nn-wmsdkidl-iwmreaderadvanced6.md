@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - IWMReaderAdvanced6
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

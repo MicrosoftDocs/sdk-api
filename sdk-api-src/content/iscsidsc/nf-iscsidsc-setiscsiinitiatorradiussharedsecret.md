@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.dll
 api_name:
  - SetIscsiInitiatorRADIUSSharedSecret
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

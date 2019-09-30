@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxAccount.Folders
  - IFaxAccount.get_Folders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

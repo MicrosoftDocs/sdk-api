@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - POINTFX
-product: Windows
 targetos: Windows
 req.typenames: POINTFX, *LPPOINTFX
 req.redist: 

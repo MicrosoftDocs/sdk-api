@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - IMECOMPTEXT
-product: Windows
 targetos: Windows
 req.typenames: IMECOMPTEXT
 req.redist: 

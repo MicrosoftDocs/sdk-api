@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ComponentStatistics
-product: Windows
 targetos: Windows
 req.typenames: ComponentStatistics
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - _CERT_CHAIN_FIND_BY_ISSUER_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_FIND_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_BY_ISSUER_PARA
 req.redist: 

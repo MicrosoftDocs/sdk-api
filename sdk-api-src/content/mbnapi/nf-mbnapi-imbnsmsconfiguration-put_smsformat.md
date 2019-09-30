@@ -40,7 +40,6 @@ api_name:
  - IMbnSmsConfiguration.SmsFormat
  - IMbnSmsConfiguration.get_SmsFormat
  - IMbnSmsConfiguration.put_SmsFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_EVENTTYPE
-product: Windows
 targetos: Windows
 req.typenames: UI_EVENTTYPE
 req.redist: 

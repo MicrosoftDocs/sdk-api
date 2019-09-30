@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DEVHTINFO
-product: Windows
 targetos: Windows
 req.typenames: DEVHTINFO, *PDEVHTINFO
 req.redist: 

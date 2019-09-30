@@ -38,7 +38,6 @@ api_location:
  - storageprovider.h
 api_name:
  - IStorageProviderPropertyHandler.RetrieveProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

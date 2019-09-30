@@ -38,7 +38,6 @@ api_location:
  - Powrprof.dll
 api_name:
  - PowerRegisterForEffectivePowerModeNotifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

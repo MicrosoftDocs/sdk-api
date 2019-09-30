@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWM_PRESENT_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: DWM_PRESENT_PARAMETERS
 req.redist: 

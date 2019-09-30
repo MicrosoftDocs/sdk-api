@@ -39,7 +39,6 @@ api_location:
 api_name:
 - PropSheetProc
 - PFNPROPSHEETCALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IAzTask.Tasks
  - IAzTask.get_Tasks
  - AzTask.Tasks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

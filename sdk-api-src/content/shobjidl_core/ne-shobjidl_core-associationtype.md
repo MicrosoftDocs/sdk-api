@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - ASSOCIATIONTYPE
-product: Windows
 targetos: Windows
 req.typenames: ASSOCIATIONTYPE
 req.redist: 

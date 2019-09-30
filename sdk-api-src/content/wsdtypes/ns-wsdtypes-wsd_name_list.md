@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_NAME_LIST
-product: Windows
 targetos: Windows
 req.typenames: WSD_NAME_LIST
 req.redist: 

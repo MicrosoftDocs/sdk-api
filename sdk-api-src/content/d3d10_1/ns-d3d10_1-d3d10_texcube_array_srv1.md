@@ -38,7 +38,6 @@ api_location:
  - d3d10_1.h
 api_name:
  - D3D10_TEXCUBE_ARRAY_SRV1
-product: Windows
 targetos: Windows
 req.typenames: D3D10_TEXCUBE_ARRAY_SRV1
 req.redist: 

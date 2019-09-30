@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.GetAlgName
  - ICEnroll3.GetAlgName
  - CEnroll.GetAlgName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SETPALETTEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SETPALETTEDATA, DD_SETPALETTEDATA'
 req.redist: 

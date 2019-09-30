@@ -40,7 +40,6 @@ api_name:
  - SecPkgCredentials_SSIProvider
  - SecPkgCredentials_SSIProviderA
  - SecPkgCredentials_SSIProviderW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_SSIProviderW, *PSecPkgCredentials_SSIProviderW
 req.redist: 

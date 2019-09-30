@@ -38,7 +38,6 @@ api_location:
  - Ifdef.h
 api_name:
  - NET_LUID
-product: Windows
 targetos: Windows
 req.typenames: NET_LUID_LH, *PNET_LUID_LH
 req.redist: 

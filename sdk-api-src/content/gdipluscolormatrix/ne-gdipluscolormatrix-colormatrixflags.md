@@ -38,7 +38,6 @@ api_location:
  - Gdipluscolormatrix.h
 api_name:
  - ColorMatrixFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

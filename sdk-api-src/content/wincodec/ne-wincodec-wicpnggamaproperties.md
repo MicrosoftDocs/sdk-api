@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngGamaProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngGamaProperties
 req.redist: 

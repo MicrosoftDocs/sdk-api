@@ -40,7 +40,6 @@ api_name:
  - GopherOpenFile
  - GopherOpenFileA
  - GopherOpenFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

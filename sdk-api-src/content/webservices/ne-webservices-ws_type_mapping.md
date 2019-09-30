@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TYPE_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: WS_TYPE_MAPPING
 req.redist: 

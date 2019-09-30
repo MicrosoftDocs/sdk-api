@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMStorage.GetRights
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

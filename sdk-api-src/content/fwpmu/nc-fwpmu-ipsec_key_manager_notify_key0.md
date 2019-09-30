@@ -38,7 +38,6 @@ api_location:
  - fwpmu.h
 api_name:
  - IPSEC_KEY_MANAGER_NOTIFY_KEY0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

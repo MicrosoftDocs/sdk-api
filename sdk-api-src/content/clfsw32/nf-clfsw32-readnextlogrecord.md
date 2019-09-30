@@ -38,7 +38,6 @@ api_location:
 - Clfsw32.dll
 api_name:
 - ReadNextLogRecord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

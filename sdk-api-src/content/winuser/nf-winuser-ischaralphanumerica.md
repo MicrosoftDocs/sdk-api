@@ -46,7 +46,6 @@ api_name:
  - IsCharAlphaNumeric
  - IsCharAlphaNumericA
  - IsCharAlphaNumericW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

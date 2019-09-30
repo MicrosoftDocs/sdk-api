@@ -47,7 +47,6 @@ api_name:
 - StartServiceCtrlDispatcher
 - StartServiceCtrlDispatcherA
 - StartServiceCtrlDispatcherW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_SRV_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_SRV_DATAW, *PDNS_SRV_DATAW
 req.redist: 

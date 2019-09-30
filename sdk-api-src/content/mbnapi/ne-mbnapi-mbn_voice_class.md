@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_VOICE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: MBN_VOICE_CLASS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.dll
 api_name:
  - DwmModifyPreviousDxFrameDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

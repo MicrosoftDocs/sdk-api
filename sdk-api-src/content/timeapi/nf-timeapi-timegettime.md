@@ -41,7 +41,6 @@ api_location:
  - Kernel32legacy.dll
 api_name:
  - timeGetTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

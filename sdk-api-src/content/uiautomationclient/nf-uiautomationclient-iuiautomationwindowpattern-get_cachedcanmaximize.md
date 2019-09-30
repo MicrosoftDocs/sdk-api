@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CachedCanMaximize
  - IUIAutomationWindowPattern.get_CachedCanMaximize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

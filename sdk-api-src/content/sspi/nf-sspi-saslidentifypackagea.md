@@ -40,7 +40,6 @@ api_name:
 - SaslIdentifyPackage
 - SaslIdentifyPackageA
 - SaslIdentifyPackageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

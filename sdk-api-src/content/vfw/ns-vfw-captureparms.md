@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - CAPTUREPARMS
-product: Windows
 targetos: Windows
 req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
 req.redist: 

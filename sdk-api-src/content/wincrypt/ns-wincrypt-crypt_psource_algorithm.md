@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_PSOURCE_ALGORITHM
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM
 req.redist: 

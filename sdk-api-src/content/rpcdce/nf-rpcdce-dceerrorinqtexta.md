@@ -40,7 +40,6 @@ api_name:
  - DceErrorInqText
  - DceErrorInqTextA
  - DceErrorInqTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - MessageBoxEx
  - MessageBoxExA
  - MessageBoxExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

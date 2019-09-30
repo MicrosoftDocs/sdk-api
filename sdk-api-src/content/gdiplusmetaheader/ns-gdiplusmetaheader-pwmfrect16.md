@@ -38,7 +38,6 @@ api_location:
  - Gdiplusmetaheader.h
 api_name:
  - PWMFRect16
-product: Windows
 targetos: Windows
 req.typenames: PWMFRect16
 req.redist: 

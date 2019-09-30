@@ -38,7 +38,6 @@ api_location:
  - CompPkgSup.dll
 api_name:
  - GetMediaComponentPackageInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfmp2dlna.h
 api_name:
  - MFMPEG2DLNASINKSTATS
-product: Windows
 targetos: Windows
 req.typenames: MFMPEG2DLNASINKSTATS
 req.redist: 

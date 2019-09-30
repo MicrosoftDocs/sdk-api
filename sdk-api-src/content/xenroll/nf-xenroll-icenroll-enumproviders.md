@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.enumProviders
  - ICEnroll.enumProviders
  - CEnroll.enumProviders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

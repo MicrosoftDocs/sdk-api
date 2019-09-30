@@ -40,7 +40,6 @@ api_name:
  - SetupQuerySourceList
  - SetupQuerySourceListA
  - SetupQuerySourceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

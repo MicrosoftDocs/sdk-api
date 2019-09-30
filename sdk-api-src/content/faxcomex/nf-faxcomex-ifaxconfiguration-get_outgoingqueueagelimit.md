@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.OutgoingQueueAgeLimit
  - IFaxConfiguration.get_OutgoingQueueAgeLimit
  - IFaxConfiguration.put_OutgoingQueueAgeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

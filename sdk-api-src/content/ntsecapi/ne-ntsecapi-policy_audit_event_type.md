@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - POLICY_AUDIT_EVENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_EVENT_TYPE, *PPOLICY_AUDIT_EVENT_TYPE
 req.redist: 

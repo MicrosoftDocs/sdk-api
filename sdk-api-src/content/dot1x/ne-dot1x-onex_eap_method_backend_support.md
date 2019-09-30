@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_EAP_METHOD_BACKEND_SUPPORT
-product: Windows
 targetos: Windows
 req.typenames: ONEX_EAP_METHOD_BACKEND_SUPPORT
 req.redist: 

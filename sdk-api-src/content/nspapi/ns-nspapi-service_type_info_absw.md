@@ -40,7 +40,6 @@ api_name:
 - SERVICE_TYPE_INFO_ABS
 - SERVICE_TYPE_INFO_ABSA
 - SERVICE_TYPE_INFO_ABSW
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, *LPSERVICE_TYPE_INFO_ABSW
 req.redist: 

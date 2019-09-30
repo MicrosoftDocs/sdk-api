@@ -40,7 +40,6 @@ api_name:
  - SetIscsiIKEInfo
  - SetIscsiIKEInfoA
  - SetIscsiIKEInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

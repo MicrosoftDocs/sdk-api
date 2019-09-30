@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - AdrEmailFlags
-product: Windows
 targetos: Windows
 req.typenames: AdrEmailFlags
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWiaVideo.PreviewVisible
  - IWiaVideo.get_PreviewVisible
  - IWiaVideo.put_PreviewVisible
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - AVIFileOpen
  - AVIFileOpenA
  - AVIFileOpenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

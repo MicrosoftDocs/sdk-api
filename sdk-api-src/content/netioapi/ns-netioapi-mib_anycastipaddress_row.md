@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_ANYCASTIPADDRESS_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_ANYCASTIPADDRESS_ROW, *PMIB_ANYCASTIPADDRESS_ROW
 req.redist: 

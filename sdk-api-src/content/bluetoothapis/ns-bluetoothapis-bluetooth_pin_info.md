@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_PIN_INFO
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_PIN_INFO, *PBLUETOOTH_PIN_INFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_imageSourceHeight
  - IWMPMedia2.get_imageSourceHeight
  - IWMPMedia3.get_imageSourceHeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

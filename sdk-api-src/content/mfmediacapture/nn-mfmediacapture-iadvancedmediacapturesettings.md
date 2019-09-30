@@ -38,7 +38,6 @@ api_location:
  - Mfmediacapture.h
 api_name:
  - IAdvancedMediaCaptureSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - tom.h
 api_name:
  - OBJECTTYPE
-product: Windows
 targetos: Windows
 req.typenames: OBJECTTYPE
 req.redist: 

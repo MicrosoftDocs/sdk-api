@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - WINTRUST_CATALOG_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
 req.redist: 

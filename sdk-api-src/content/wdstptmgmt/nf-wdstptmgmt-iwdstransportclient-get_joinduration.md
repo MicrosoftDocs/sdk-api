@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.JoinDuration
  - IWdsTransportClient.get_JoinDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

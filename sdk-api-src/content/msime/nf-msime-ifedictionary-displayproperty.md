@@ -38,7 +38,6 @@ api_location:
  - msime.h
 api_name:
  - IFEDictionary.DisplayProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

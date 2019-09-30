@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.Children
  - ICategory.get_Children
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

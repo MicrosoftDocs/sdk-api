@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfDirectivityCone
-product: Windows
 targetos: Windows
 req.typenames: HrtfDirectivityCone
 req.redist: 

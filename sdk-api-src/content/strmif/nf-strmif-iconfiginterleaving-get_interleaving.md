@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IConfigInterleaving.get_Interleaving
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

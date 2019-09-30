@@ -38,7 +38,6 @@ api_location:
  - Ntdef.h
 api_name:
  - LUID
-product: Windows
 targetos: Windows
 req.typenames: LUID, *PLUID
 req.redist: 

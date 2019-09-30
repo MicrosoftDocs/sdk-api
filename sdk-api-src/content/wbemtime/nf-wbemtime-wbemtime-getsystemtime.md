@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.GetSYSTEMTIME
  - ?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z
  - ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

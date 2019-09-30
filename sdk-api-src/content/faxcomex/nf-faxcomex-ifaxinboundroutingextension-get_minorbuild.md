@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingExtension.MinorBuild
  - IFaxInboundRoutingExtension.get_MinorBuild
  - IFaxInboundRoutingExtension.get_MinorBuild
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

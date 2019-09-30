@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - IBrowserService3._PositionViewWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

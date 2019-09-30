@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_COLORSPACEINFO_EXTENSION_DATA
-product: Windows
 targetos: Windows
 req.typenames: WMT_COLORSPACEINFO_EXTENSION_DATA
 req.redist: 

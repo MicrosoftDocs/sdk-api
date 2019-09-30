@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMVIEWCHANGE
-product: Windows
 targetos: Windows
 req.typenames: NMVIEWCHANGE, *LPNMVIEWCHANGE
 req.redist: 

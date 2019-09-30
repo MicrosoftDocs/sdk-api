@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCoreApi.h
 api_name:
  - UiaProviderCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

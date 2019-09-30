@@ -38,7 +38,6 @@ api_location:
  - Documenttarget.h
 api_name:
  - PrintDocumentPackageStatus
-product: Windows
 targetos: Windows
 req.typenames: PrintDocumentPackageStatus
 req.redist: 

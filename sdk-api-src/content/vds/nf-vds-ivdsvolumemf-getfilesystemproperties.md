@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsVolumeMF.GetFileSystemProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

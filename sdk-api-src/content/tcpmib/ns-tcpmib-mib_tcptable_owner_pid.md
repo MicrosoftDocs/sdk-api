@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_TCPTABLE_OWNER_PID
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCPTABLE_OWNER_PID, *PMIB_TCPTABLE_OWNER_PID
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITAddressTranslationInfo.get_TranslationResults
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

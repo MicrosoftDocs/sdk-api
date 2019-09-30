@@ -38,7 +38,6 @@ api_location:
  - isolatedapplauncher.h
 api_name:
  - IIsolatedAppLauncher
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

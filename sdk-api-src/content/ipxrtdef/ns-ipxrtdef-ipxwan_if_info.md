@@ -38,7 +38,6 @@ api_location:
 - Ipxrtdef.h
 api_name:
 - IPXWAN_IF_INFO
-product: Windows
 targetos: Windows
 req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
 req.redist: 

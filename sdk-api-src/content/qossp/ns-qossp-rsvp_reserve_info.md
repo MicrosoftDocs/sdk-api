@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - RSVP_RESERVE_INFO
-product: Windows
 targetos: Windows
 req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
 req.redist: 

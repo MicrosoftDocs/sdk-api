@@ -39,7 +39,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMRegisteredDevice.GetAttributeByName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

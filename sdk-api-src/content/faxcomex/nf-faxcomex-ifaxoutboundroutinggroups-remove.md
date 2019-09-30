@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutboundRoutingGroups.Remove
  - IFaxOutboundRoutingGroups.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

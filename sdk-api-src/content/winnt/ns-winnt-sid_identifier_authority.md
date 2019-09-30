@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SID_IDENTIFIER_AUTHORITY
-product: Windows
 targetos: Windows
 req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
 req.redist: 

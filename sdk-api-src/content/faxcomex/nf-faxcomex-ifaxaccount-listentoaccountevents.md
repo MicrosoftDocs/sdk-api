@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxAccount.ListenToAccountEvents
  - IFaxAccount.ListenToAccountEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

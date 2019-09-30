@@ -42,7 +42,6 @@ api_location:
 api_name:
  - SHChangeNotifyDeregister
  - NTSHChangeNotifyDeregister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

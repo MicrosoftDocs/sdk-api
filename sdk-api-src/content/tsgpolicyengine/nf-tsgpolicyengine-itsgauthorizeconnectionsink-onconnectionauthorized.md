@@ -38,7 +38,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - ITSGAuthorizeConnectionSink.OnConnectionAuthorized
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

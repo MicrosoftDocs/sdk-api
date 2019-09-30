@@ -41,7 +41,6 @@ api_name:
  - SetupEnumInfSections
  - SetupEnumInfSectionsA
  - SetupEnumInfSectionsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

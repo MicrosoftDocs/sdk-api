@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREXTCREATEFONTINDIRECTW
-product: Windows
 targetos: Windows
 req.typenames: EMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW
 req.redist: 

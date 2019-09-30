@@ -47,7 +47,6 @@ api_name:
  - RegLoadMUIString
  - RegLoadMUIStringA
  - RegLoadMUIStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

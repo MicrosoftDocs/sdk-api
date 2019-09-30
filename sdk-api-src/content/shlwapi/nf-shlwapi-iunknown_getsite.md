@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-ShCore-comhelpers-l1-1-0.dll
 api_name:
  - IUnknown_GetSite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - StrIsIntlEqual
  - StrIsIntlEqualA
  - StrIsIntlEqualW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

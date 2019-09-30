@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - MONTHLYDATE
-product: Windows
 targetos: Windows
 req.typenames: MONTHLYDATE
 req.redist: 

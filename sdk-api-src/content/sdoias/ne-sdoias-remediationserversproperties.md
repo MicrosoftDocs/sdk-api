@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - REMEDIATIONSERVERSPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: REMEDIATIONSERVERSPROPERTIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wiavideo.dll
 api_name:
  - IWiaVideo.CreateVideoByWiaDevID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

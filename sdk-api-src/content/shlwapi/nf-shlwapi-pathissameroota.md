@@ -44,7 +44,6 @@ api_name:
  - PathIsSameRoot
  - PathIsSameRootA
  - PathIsSameRootW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

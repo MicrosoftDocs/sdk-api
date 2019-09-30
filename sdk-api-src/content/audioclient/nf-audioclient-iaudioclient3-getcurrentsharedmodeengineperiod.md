@@ -38,7 +38,6 @@ api_location:
  - audioclient.h
 api_name:
  - IAudioClient3.GetCurrentSharedModeEnginePeriod
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

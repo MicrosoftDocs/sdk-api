@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_LONG
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_LONG, *PCLUSPROP_LONG
 req.redist: 

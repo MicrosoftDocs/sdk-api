@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITPhoneDeviceSpecificEvent.get_lParam2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

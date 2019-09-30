@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_BCS_DEMUX
-product: Windows
 targetos: Windows
 req.typenames: MPEG_BCS_DEMUX
 req.redist: 

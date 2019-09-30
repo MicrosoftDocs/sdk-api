@@ -38,7 +38,6 @@ api_location:
  - Structuredquerycondition.h
 api_name:
  - ICondition2.GetLocale
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

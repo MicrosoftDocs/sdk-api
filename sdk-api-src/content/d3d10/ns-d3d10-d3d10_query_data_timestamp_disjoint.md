@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - D3D10_QUERY_DATA_TIMESTAMP_DISJOINT
-product: Windows
 targetos: Windows
 req.typenames: D3D10_QUERY_DATA_TIMESTAMP_DISJOINT
 req.redist: 

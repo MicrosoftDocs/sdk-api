@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.CreateTime
  - ITsSbSession.get_CreateTime
  - ITsSbSession.put_CreateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

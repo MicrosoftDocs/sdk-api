@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_POLICY_STATE
-product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_STATE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyDescription.Description
  - ICertPropertyDescription.get_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

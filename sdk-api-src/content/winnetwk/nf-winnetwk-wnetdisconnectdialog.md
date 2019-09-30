@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
  - WNetDisconnectDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

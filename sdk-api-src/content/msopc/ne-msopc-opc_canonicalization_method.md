@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_CANONICALIZATION_METHOD
-product: Windows
 targetos: Windows
 req.typenames: OPC_CANONICALIZATION_METHOD
 req.redist: 

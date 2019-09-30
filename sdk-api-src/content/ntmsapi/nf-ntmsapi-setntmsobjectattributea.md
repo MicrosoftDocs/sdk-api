@@ -40,7 +40,6 @@ api_name:
  - SetNtmsObjectAttribute
  - SetNtmsObjectAttributeA
  - SetNtmsObjectAttributeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

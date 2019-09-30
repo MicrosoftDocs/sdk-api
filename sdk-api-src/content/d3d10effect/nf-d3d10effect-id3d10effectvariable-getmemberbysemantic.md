@@ -38,7 +38,6 @@ api_location:
  - D3D10Effect.h
 api_name:
  - ID3D10EffectVariable.GetMemberBySemantic
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

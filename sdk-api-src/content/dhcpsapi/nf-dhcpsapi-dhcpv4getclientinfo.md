@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.dll
 api_name:
 - DhcpV4GetClientInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

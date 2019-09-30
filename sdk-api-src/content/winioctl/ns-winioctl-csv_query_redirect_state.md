@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CSV_QUERY_REDIRECT_STATE
-product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - XAUDIO2_EFFECT_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_EFFECT_DESCRIPTOR
 req.redist: 

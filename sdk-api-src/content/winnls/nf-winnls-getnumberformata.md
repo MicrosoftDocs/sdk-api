@@ -48,7 +48,6 @@ api_name:
 - GetNumberFormat
 - GetNumberFormatA
 - GetNumberFormatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

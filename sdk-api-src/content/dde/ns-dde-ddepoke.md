@@ -38,7 +38,6 @@ api_location:
  - Dde.h
 api_name:
  - DDEPOKE
-product: Windows
 targetos: Windows
 req.typenames: DDEPOKE
 req.redist: 

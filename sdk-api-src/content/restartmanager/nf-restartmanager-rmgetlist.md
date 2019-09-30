@@ -38,7 +38,6 @@ api_location:
 - Rstrtmgr.dll
 api_name:
 - RmGetList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

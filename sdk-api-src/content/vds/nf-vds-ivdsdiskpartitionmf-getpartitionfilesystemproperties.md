@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsDiskPartitionMF.GetPartitionFileSystemProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

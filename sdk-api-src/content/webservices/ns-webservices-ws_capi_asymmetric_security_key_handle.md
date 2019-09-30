@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
-product: Windows
 targetos: Windows
 req.typenames: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 req.redist: 

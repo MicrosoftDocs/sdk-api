@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFRR_COMPONENTS
-product: Windows
 targetos: Windows
 req.typenames: MFRR_COMPONENTS, *PMFRR_COMPONENTS
 req.redist: 

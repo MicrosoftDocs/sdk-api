@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - ITTerminalManager2.GetPluggableTerminalClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

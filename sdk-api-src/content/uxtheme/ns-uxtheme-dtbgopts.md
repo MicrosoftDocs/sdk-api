@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - DTBGOPTS
-product: Windows
 targetos: Windows
 req.typenames: DTBGOPTS, *PDTBGOPTS
 req.redist: 

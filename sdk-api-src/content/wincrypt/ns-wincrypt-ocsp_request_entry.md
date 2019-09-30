@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - OCSP_REQUEST_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: OCSP_REQUEST_ENTRY, *POCSP_REQUEST_ENTRY
 req.redist: 

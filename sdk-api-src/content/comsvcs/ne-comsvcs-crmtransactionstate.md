@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CrmTransactionState
-product: Windows
 targetos: Windows
 req.typenames: CrmTransactionState
 req.redist: 

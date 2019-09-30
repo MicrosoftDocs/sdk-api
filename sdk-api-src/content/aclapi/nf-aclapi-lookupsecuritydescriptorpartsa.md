@@ -40,7 +40,6 @@ api_name:
 - LookupSecurityDescriptorParts
 - LookupSecurityDescriptorPartsA
 - LookupSecurityDescriptorPartsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

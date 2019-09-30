@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CHPtrArray
  - ??1CHPtrArray@@QAE@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

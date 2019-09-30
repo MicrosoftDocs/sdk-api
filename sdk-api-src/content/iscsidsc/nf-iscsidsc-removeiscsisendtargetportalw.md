@@ -40,7 +40,6 @@ api_name:
  - RemoveIscsiSendTargetPortal
  - RemoveIscsiSendTargetPortalA
  - RemoveIscsiSendTargetPortalW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

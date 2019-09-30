@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - INTERVAL_LIMIT_KIND
-product: Windows
 targetos: Windows
 req.typenames: INTERVAL_LIMIT_KIND
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -38,7 +38,6 @@ api_location:
  - Dmoreg.h
 api_name:
  - DMO_ENUM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SP_DRVINFO_DATA
  - sp_drvinfo_data_v1_w
-product: Windows
 targetos: Windows
 req.typenames: SP_DRVINFO_DATA_V1_W, *PSP_DRVINFO_DATA_V1_W
 req.redist: 

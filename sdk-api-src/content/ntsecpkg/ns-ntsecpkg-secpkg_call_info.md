@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_CALL_INFO
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
 req.redist: 

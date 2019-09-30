@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.Pages
  - IFaxOutgoingMessage.get_Pages
  - IFaxOutgoingMessage.get_Pages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

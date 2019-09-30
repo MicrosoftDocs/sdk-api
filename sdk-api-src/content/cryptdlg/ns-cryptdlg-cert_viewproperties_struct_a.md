@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CERT_VIEWPROPERTIES_STRUCT
  - cert_viewproperties_struct_a
-product: Windows
 targetos: Windows
 req.typenames: CERT_VIEWPROPERTIES_STRUCT_A, *PCERT_VIEWPROPERTIES_STRUCT_A
 req.redist: 

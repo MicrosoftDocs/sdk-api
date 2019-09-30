@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingArchive.ArchiveFolder
  - IFaxIncomingArchive.get_ArchiveFolder
  - IFaxIncomingArchive.put_ArchiveFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

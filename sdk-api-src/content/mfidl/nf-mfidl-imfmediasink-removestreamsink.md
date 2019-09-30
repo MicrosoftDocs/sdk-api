@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFMediaSink.RemoveStreamSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

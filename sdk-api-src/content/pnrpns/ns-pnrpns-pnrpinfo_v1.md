@@ -38,7 +38,6 @@ api_location:
 - Pnrpns.h
 api_name:
 - PNRPINFO_V1
-product: Windows
 targetos: Windows
 req.typenames: PNRPINFO_V1, *PPNRPINFO_V1
 req.redist: 

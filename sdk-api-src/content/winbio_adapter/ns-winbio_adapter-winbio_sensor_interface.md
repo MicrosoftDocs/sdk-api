@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WINBIO_SENSOR_INTERFACE
-product: Windows
 targetos: Windows
 req.typenames: "*PWINBIO_SENSOR_INTERFACE, WINBIO_SENSOR_INTERFACE"
 req.redist: 

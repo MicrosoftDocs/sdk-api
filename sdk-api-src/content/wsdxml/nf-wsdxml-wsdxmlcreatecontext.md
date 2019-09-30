@@ -38,7 +38,6 @@ api_location:
  - WsdApi.dll
 api_name:
  - WSDXMLCreateContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

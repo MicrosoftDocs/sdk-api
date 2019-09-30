@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - CounterPathCallBack
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

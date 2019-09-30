@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CurrentRole
  - IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

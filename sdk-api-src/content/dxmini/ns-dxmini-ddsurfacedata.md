@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDSURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: DDSURFACEDATA, *LPDDSURFACEDATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Netsh.h
 api_name:
  - NS_HELPER_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: NS_HELPER_ATTRIBUTES, *PNS_HELPER_ATTRIBUTES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - POLICY_MODIFICATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: POLICY_MODIFICATION_INFO, *PPOLICY_MODIFICATION_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - tvout.h
 api_name:
  - VIDEOPARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: VIDEOPARAMETERS, *PVIDEOPARAMETERS, *LPVIDEOPARAMETERS
 req.redist: 

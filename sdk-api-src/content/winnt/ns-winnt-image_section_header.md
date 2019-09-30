@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - IMAGE_SECTION_HEADER
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
 req.redist: 

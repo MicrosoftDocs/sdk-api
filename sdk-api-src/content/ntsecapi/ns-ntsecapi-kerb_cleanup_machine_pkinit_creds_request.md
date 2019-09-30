@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, *PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 req.redist: 

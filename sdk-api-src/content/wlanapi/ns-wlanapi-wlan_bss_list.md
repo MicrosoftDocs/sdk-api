@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_BSS_LIST
-product: Windows
 targetos: Windows
 req.typenames: WLAN_BSS_LIST, *PWLAN_BSS_LIST
 req.redist: Wireless LAN API for Windows XP with SP2

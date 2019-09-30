@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - COPYDATASTRUCT
-product: Windows
 targetos: Windows
 req.typenames: COPYDATASTRUCT, *PCOPYDATASTRUCT
 req.redist: 

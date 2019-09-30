@@ -40,7 +40,6 @@ api_name:
  - ldap_get_dn
  - ldap_get_dnA
  - ldap_get_dnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

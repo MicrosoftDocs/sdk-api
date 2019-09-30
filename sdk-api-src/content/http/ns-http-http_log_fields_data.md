@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_LOG_FIELDS_DATA
-product: Windows
 targetos: Windows
 req.typenames: HTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - StringCchLength
  - StringCchLengthA
  - StringCchLengthW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

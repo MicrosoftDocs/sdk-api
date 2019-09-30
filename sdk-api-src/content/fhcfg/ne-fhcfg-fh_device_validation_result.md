@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - FH_DEVICE_VALIDATION_RESULT
-product: Windows
 targetos: Windows
 req.typenames: FH_DEVICE_VALIDATION_RESULT, *PFH_DEVICE_VALIDATION_RESULT
 req.redist: 

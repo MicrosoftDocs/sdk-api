@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorEvents.OnStateChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

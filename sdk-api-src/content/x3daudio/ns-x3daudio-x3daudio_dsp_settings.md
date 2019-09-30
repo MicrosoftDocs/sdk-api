@@ -38,7 +38,6 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_DSP_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_DSP_SETTINGS, *LPX3DAUDIO_DSP_SETTINGS
 req.redist: 

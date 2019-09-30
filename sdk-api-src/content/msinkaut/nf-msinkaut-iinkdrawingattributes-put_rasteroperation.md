@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_RasterOperation
  - InkDrawingAttributes.get_RasterOperation
  - InkDrawingAttributes.put_RasterOperation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

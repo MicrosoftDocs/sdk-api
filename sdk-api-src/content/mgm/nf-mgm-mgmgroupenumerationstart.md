@@ -38,7 +38,6 @@ api_location:
 - Rtm.dll
 api_name:
 - MgmGroupEnumerationStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

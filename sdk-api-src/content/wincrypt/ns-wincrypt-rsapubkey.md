@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - RSAPUBKEY
-product: Windows
 targetos: Windows
 req.typenames: RSAPUBKEY
 req.redist: 

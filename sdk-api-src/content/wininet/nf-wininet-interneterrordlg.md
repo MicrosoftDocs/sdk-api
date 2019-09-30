@@ -38,7 +38,6 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetErrorDlg
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - TDH_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: TDH_CONTEXT
 req.redist: 

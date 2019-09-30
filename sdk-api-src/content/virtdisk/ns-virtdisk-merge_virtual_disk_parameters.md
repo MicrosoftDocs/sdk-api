@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MERGE_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: MERGE_VIRTUAL_DISK_PARAMETERS, *PMERGE_VIRTUAL_DISK_PARAMETERS
 req.redist: 

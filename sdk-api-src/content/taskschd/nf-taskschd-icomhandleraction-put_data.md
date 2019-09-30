@@ -40,7 +40,6 @@ api_name:
  - IComHandlerAction.Data
  - IComHandlerAction.get_Data
  - IComHandlerAction.put_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

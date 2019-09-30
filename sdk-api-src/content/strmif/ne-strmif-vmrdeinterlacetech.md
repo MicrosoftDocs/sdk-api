@@ -38,7 +38,6 @@ api_location:
 - strmif.h
 api_name:
 - VMRDeinterlaceTech
-product: Windows
 targetos: Windows
 req.typenames: VMRDeinterlaceTech
 req.redist: 

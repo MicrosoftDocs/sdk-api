@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.GetDMTF
  - ?GetDMTF@WBEMTime@@QBEPAGH@Z
  - ?GetDMTF@WBEMTime@@QEBAPEAGH@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

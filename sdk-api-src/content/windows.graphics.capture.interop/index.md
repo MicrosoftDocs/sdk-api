@@ -5,7 +5,6 @@ ms.date: 6/24/2019
 ms.keywords: windows.graphics.capture.interop
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

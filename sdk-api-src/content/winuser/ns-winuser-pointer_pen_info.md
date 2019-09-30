@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - POINTER_PEN_INFO
-product: Windows
 targetos: Windows
 req.typenames: POINTER_PEN_INFO
 req.redist: 

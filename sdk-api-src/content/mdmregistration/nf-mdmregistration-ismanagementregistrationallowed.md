@@ -38,7 +38,6 @@ api_location:
  - MDMRegistration.dll
 api_name:
  - IsManagementRegistrationAllowed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

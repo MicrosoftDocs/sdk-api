@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_RDN
-product: Windows
 targetos: Windows
 req.typenames: CERT_RDN, *PCERT_RDN
 req.redist: 

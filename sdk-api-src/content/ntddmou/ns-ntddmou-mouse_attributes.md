@@ -38,7 +38,6 @@ api_location:
  - ntddmou.h
 api_name:
  - MOUSE_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: MOUSE_ATTRIBUTES, *PMOUSE_ATTRIBUTES
 req.redist: 

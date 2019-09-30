@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsi_Get_OwnerAuth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

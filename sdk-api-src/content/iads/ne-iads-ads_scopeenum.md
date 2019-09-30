@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_SCOPEENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_SCOPEENUM
 req.redist: 

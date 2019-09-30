@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportNamespace.Registered
  - IWdsTransportNamespace.get_Registered
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

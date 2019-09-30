@@ -40,7 +40,6 @@ api_name:
  - SetupRemoveFileLogEntry
  - SetupRemoveFileLogEntryA
  - SetupRemoveFileLogEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

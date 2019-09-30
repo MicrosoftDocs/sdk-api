@@ -38,7 +38,6 @@ api_location:
  - wincodec.h
 api_name:
  - IWICBitmapEncoder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

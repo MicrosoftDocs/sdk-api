@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - SYSTEM_CPU_SET_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.FileMaxCount
  - IConfigurationDataCollector.get_FileMaxCount
  - IConfigurationDataCollector.put_FileMaxCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

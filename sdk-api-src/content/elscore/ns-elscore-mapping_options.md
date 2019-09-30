@@ -38,7 +38,6 @@ api_location:
 - Elscore.h
 api_name:
 - MAPPING_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: MAPPING_OPTIONS, *PMAPPING_OPTIONS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IMPEG2_TIF_CONTROL.UnregisterTIF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

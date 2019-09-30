@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_VA_SPACE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PSS_VA_SPACE_INFORMATION
 req.redist: 

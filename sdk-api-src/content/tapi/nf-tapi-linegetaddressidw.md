@@ -40,7 +40,6 @@ api_name:
  - lineGetAddressID
  - lineGetAddressIDA
  - lineGetAddressIDW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

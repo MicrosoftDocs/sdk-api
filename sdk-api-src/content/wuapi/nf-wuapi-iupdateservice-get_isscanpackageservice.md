@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.IsScanPackageService
  - IUpdateService.get_IsScanPackageService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

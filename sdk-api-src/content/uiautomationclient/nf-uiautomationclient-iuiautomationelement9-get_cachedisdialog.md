@@ -38,7 +38,6 @@ api_location:
 api_name:
  - IUIAutomationElement9.CachedIsDialog
  - IUIAutomationElement9.get_CachedIsDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

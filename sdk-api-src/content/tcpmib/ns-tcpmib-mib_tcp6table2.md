@@ -38,7 +38,6 @@ api_location:
 - Tcpmib.h
 api_name:
 - MIB_TCP6TABLE2
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6TABLE2, *PMIB_TCP6TABLE2
 req.redist: 

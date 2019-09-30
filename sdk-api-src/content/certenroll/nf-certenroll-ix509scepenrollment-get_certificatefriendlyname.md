@@ -40,7 +40,6 @@ api_name:
  - IX509SCEPEnrollment.CertificateFriendlyName
  - IX509SCEPEnrollment.get_CertificateFriendlyName
  - IX509SCEPEnrollment.put_CertificateFriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - RegQueryMultipleValues
  - RegQueryMultipleValuesA
  - RegQueryMultipleValuesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

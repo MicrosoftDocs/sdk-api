@@ -38,7 +38,6 @@ api_location:
  - Azroles.h
 api_name:
  - IAzBizRuleParameters.AddParameter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

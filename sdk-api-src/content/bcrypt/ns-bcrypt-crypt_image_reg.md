@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - CRYPT_IMAGE_REG
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_IMAGE_REG, *PCRYPT_IMAGE_REG
 req.redist: 

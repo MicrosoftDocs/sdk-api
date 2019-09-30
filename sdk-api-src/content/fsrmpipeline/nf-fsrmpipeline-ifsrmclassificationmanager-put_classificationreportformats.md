@@ -44,7 +44,6 @@ api_name:
  - IFsrmClassificationManager2.get_ClassificationReportFormats
  - IFsrmClassificationManager2.put_ClassificationReportFormats
  - FsrmClassificationManager.ClassificationReportFormats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

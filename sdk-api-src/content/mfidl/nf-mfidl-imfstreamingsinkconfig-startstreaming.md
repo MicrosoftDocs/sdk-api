@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFStreamingSinkConfig.StartStreaming
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

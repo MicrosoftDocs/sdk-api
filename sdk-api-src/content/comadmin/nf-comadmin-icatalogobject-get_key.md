@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICatalogObject.Key
  - ICatalogObject.get_Key
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

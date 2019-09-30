@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - PDH_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
 req.redist: 

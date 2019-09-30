@@ -40,7 +40,6 @@ api_name:
 - RpcServerRegisterAuthInfo
 - RpcServerRegisterAuthInfoA
 - RpcServerRegisterAuthInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

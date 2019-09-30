@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSOM.CreateGPOLink
  - GPMSOM.CreateGPOLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

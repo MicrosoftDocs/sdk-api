@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IOleControl.GetControlInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider2.ZoomLevel
  - ITransformProvider2.get_ZoomLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

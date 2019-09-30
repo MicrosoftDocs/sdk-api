@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.Date
  - IRegistrationInfo.get_Date
  - IRegistrationInfo.put_Date
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher.Online
  - IUpdateSearcher.get_Online
  - IUpdateSearcher.put_Online
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - emi.h
 api_name:
  - EMI_MEASUREMENT_UNIT
-product: Windows
 targetos: Windows
 req.typenames: EMI_MEASUREMENT_UNIT
 req.redist: 

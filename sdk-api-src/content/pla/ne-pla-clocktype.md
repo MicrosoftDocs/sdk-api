@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - ClockType
-product: Windows
 targetos: Windows
 req.typenames: ClockType
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVDecAudioDualMono
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

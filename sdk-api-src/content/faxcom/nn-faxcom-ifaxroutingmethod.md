@@ -38,7 +38,6 @@ api_location:
  - Faxcom.dll
 api_name:
  - IFaxRoutingMethod
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

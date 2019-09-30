@@ -38,7 +38,6 @@ api_location:
  - keycredmgr.h
 api_name:
  - KeyCredentialManagerOperationErrorStates
-product: Windows
 targetos: Windows
 req.typenames: KeyCredentialManagerOperationErrorStates
 req.redist: 

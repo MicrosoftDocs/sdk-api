@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - ISCTE_EAS.GetDetailsMinor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

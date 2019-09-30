@@ -38,7 +38,6 @@ api_location:
  - subscriptionservices.h
 api_name:
  - IWMPSubscriptionService2.serviceEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

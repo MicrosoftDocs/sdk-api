@@ -38,7 +38,6 @@ api_location:
  - GdiplusPixelFormats.h
 api_name:
  - PaletteType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

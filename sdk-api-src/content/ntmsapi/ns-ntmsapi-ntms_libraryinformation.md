@@ -38,7 +38,6 @@ api_location:
 - Ntmsapi.h
 api_name:
 - NTMS_LIBRARYINFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NTMS_LIBRARYINFORMATION
 req.redist: 

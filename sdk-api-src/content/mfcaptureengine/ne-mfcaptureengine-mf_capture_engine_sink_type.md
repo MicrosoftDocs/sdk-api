@@ -38,7 +38,6 @@ api_location:
  - mfcaptureengine.h
 api_name:
  - MF_CAPTURE_ENGINE_SINK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MF_CAPTURE_ENGINE_SINK_TYPE
 req.redist: 

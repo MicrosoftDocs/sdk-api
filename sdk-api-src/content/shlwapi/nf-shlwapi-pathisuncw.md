@@ -44,7 +44,6 @@ api_name:
  - PathIsUNC
  - PathIsUNCA
  - PathIsUNCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesEvents2.BackgroundSyncEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

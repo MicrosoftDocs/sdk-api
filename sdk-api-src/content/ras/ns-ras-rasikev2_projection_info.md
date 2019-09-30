@@ -38,7 +38,6 @@ api_location:
 - Ras.h
 api_name:
 - RASIKEV2_PROJECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
 req.redist: 

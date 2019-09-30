@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_MEDIA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WCM_MEDIA_TYPE, *PWCM_MEDIA_TYPE
 req.redist: 

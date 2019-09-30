@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMConvertVectorUIntToFloat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

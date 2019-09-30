@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICProgressNotification
-product: Windows
 targetos: Windows
 req.typenames: WICProgressNotification
 req.redist: 

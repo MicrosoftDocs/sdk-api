@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - TASK_TRIGGER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
 req.redist: 

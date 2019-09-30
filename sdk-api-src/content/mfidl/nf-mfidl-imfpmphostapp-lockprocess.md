@@ -38,7 +38,6 @@ api_location:
  - Mfidl.h
 api_name:
  - IMFPMPHostApp.LockProcess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

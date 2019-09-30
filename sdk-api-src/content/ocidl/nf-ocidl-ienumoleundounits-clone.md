@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IEnumOleUndoUnits.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

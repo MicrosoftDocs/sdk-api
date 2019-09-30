@@ -38,7 +38,6 @@ api_location:
  - Mstask.dll
 api_name:
  - GetNetScheduleAccountInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

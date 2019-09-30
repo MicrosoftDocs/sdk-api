@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVFOOTERINFO
-product: Windows
 targetos: Windows
 req.typenames: LVFOOTERINFO, *LPLVFOOTERINFO
 req.redist: 

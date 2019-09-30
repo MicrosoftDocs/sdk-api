@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
  - WindowsCompareStringOrdinal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

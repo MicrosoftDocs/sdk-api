@@ -38,7 +38,6 @@ api_location:
 - Winefs.h
 api_name:
 - EFS_CERTIFICATE_BLOB
-product: Windows
 targetos: Windows
 req.typenames: EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB
 req.redist: 

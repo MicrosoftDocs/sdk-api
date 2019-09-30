@@ -38,7 +38,6 @@ api_location:
  - ClfsW32.dll
 api_name:
  - RegisterForLogWriteNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

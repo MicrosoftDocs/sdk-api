@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - CreateIpForwardEntry2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

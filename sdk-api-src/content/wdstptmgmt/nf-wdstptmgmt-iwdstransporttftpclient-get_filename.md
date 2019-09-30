@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportTftpClient.FileName
  - IWdsTransportTftpClient.get_FileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mileffects.dll
 api_name:
  - IMILBitmapEffectEvents.PropertyChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

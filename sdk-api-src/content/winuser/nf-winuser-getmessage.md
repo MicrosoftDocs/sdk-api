@@ -49,7 +49,6 @@ api_name:
  - GetMessage
  - GetMessageA
  - GetMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

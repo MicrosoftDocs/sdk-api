@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_AutoShow
  - PenInputPanel.get_AutoShow
  - PenInputPanel.put_AutoShow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

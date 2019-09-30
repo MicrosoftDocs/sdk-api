@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_POLICY_VALUE
-product: Windows
 targetos: Windows
 req.typenames: WCM_POLICY_VALUE, *PWCM_POLICY_VALUE
 req.redist: 

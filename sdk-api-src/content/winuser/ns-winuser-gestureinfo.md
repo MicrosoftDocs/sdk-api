@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - GESTUREINFO
-product: Windows
 targetos: Windows
 req.typenames: GESTUREINFO, *PGESTUREINFO
 req.redist: 

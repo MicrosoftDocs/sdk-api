@@ -40,7 +40,6 @@ api_name:
  - IMonthlyTrigger.RunOnLastDayOfMonth
  - IMonthlyTrigger.get_RunOnLastDayOfMonth
  - IMonthlyTrigger.put_RunOnLastDayOfMonth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFolderAction.Actions
  - IFolderAction.get_Actions
  - IFolderAction.put_Actions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

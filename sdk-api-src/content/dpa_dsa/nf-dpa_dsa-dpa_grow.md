@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - DPA_Grow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

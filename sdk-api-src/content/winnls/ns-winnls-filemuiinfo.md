@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - FILEMUIINFO
-product: Windows
 targetos: Windows
 req.typenames: FILEMUIINFO, *PFILEMUIINFO
 req.redist: 

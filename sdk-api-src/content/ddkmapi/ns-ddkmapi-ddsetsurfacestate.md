@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDSETSURFACESTATE
-product: Windows
 targetos: Windows
 req.typenames: DDSETSURFACESTATE, *LPDDSETSURFACESTATE
 req.redist: 

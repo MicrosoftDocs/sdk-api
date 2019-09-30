@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationTimer.SetTimerEventHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

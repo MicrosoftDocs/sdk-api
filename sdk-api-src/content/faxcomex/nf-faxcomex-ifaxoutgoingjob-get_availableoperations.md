@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingJob.AvailableOperations
  - IFaxOutgoingJob.get_AvailableOperations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

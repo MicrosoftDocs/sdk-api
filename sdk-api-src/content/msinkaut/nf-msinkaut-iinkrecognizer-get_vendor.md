@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.Vendor
  - IInkRecognizer.get_Vendor
  - IInkRecognizer.get_Vendor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

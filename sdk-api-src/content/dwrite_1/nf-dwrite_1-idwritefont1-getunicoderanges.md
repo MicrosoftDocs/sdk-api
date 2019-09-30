@@ -38,7 +38,6 @@ api_location:
  - dwrite_1.dll
 api_name:
  - IDWriteFont1.GetUnicodeRanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

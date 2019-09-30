@@ -38,7 +38,6 @@ api_location:
  - Secur32.dll
 api_name:
  - DeleteSecurityContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

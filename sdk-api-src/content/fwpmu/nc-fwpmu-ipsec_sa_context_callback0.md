@@ -38,7 +38,6 @@ api_location:
  - fwpmu.h
 api_name:
  - IPSEC_SA_CONTEXT_CALLBACK0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

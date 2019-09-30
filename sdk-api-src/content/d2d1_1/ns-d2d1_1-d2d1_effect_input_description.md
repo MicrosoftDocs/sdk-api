@@ -38,7 +38,6 @@ api_location:
  - D2D1.lib
 api_name:
  - D2D1_EFFECT_INPUT_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: D2D1_EFFECT_INPUT_DESCRIPTION
 req.redist: 

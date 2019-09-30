@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - ConvertLengthToIpv4Mask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

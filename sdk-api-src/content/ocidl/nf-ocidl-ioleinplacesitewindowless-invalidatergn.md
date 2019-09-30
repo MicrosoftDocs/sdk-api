@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IOleInPlaceSiteWindowless.InvalidateRgn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

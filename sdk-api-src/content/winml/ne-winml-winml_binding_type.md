@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_BINDING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINML_BINDING_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - COMPONENTSOPT
-product: Windows
 targetos: Windows
 req.typenames: COMPONENTSOPT
 req.redist: 

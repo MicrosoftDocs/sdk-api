@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITAMMediaFormat.put_MediaFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

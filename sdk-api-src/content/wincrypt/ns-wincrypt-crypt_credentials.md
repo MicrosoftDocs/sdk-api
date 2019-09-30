@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_CREDENTIALS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_CREDENTIALS, *PCRYPT_CREDENTIALS
 req.redist: 

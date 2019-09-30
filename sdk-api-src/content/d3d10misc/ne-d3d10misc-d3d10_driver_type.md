@@ -38,7 +38,6 @@ api_location:
  - D3D10misc.h
 api_name:
  - D3D10_DRIVER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D10_DRIVER_TYPE
 req.redist: 

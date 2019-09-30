@@ -41,7 +41,6 @@ api_name:
  - IInkStrokes.Ink
  - IInkStrokes.get_Ink
  - InkStrokes.get_Ink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

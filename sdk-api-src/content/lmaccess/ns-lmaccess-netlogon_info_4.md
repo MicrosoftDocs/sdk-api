@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - NETLOGON_INFO_4
-product: Windows
 targetos: Windows
 req.typenames: NETLOGON_INFO_4, *PNETLOGON_INFO_4
 req.redist: 

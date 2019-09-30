@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_USAGE_DATA
-product: Windows
 targetos: Windows
 req.typenames: NLM_USAGE_DATA
 req.redist: 

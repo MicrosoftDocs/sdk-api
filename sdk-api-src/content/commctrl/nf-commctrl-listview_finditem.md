@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - ListView_FindItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

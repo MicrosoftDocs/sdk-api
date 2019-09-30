@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Error_Spec_IPv4
-product: Windows
 targetos: Windows
 req.typenames: Error_Spec_IPv4
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgi.dll
 api_name:
  - CreateDXGIFactory1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

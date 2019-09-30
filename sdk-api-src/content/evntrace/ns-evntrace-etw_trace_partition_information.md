@@ -38,7 +38,6 @@ api_location:
  - evntrace.h
 api_name:
  - ETW_TRACE_PARTITION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
 req.redist: 

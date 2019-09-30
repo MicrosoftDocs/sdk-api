@@ -38,7 +38,6 @@ api_location:
 - ddkmapi.h
 api_name:
 - DDCAPBUFFINFO
-product: Windows
 targetos: Windows
 req.typenames: DDCAPBUFFINFO, *LPDDCAPBUFFINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - STD_ALERT
-product: Windows
 targetos: Windows
 req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
 req.redist: 

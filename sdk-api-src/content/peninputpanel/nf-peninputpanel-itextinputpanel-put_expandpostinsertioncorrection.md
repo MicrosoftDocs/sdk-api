@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_ExpandPostInsertionCorrection
  - ITextInputPanel.get_ExpandPostInsertionCorrection
  - ITextInputPanel.put_ExpandPostInsertionCorrection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -50,7 +50,6 @@ api_name:
  - DefWindowProc
  - DefWindowProcA
  - DefWindowProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

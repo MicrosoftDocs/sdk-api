@@ -48,7 +48,6 @@ api_name:
  - K32GetMappedFileName
  - K32GetMappedFileNameW
  - K32GetMappedFileNameA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

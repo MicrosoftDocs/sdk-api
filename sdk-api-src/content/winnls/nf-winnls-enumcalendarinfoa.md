@@ -44,7 +44,6 @@ api_name:
  - EnumCalendarInfo
  - EnumCalendarInfoA
  - EnumCalendarInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

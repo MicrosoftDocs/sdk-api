@@ -38,7 +38,6 @@ api_location:
  - tapi3cc.h
 api_name:
  - AGENT_EVENT
-product: Windows
 targetos: Windows
 req.typenames: AGENT_EVENT
 req.redist: 

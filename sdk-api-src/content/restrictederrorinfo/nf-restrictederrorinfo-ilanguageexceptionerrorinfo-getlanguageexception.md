@@ -38,7 +38,6 @@ api_location:
  - restrictederrorinfo.h
 api_name:
  - ILanguageExceptionErrorInfo.GetLanguageException
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

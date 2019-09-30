@@ -40,7 +40,6 @@ api_name:
  - ICertSrvSetupKeyInformation.Existing
  - ICertSrvSetupKeyInformation.get_Existing
  - ICertSrvSetupKeyInformation.put_Existing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

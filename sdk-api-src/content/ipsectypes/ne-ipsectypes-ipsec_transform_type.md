@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_TRANSFORM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_TRANSFORM_TYPE
 req.redist: 

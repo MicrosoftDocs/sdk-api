@@ -40,7 +40,6 @@ api_name:
  - RpcEpRegister
  - RpcEpRegisterA
  - RpcEpRegisterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

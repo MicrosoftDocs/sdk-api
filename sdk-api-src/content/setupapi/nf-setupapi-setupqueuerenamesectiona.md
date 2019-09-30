@@ -40,7 +40,6 @@ api_name:
  - SetupQueueRenameSection
  - SetupQueueRenameSectionA
  - SetupQueueRenameSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

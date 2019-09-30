@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmTemplateApplyOptions
-product: Windows
 targetos: Windows
 req.typenames: FsrmTemplateApplyOptions
 req.redist: 

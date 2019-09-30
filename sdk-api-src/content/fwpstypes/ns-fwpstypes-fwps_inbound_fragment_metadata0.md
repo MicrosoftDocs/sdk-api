@@ -38,7 +38,6 @@ api_location:
  - fwpstypes.h
 api_name:
  - FWPS_INBOUND_FRAGMENT_METADATA0
-product: Windows
 targetos: Windows
 req.typenames: FWPS_INBOUND_FRAGMENT_METADATA0
 req.redist: 

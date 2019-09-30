@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - HITRESULT
-product: Windows
 targetos: Windows
 req.typenames: HITRESULT
 req.redist: 

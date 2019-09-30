@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDSETSTATEOUTINFO
-product: Windows
 targetos: Windows
 req.typenames: DDSETSTATEOUTINFO, *PDDSETSTATEOUTINFO
 req.redist: 

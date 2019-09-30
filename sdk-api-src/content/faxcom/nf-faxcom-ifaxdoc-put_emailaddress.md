@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.EmailAddress
  - IFaxDoc.get_EmailAddress
  - IFaxDoc.put_EmailAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

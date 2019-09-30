@@ -38,7 +38,6 @@ api_location:
  - D3D11_1.h
 api_name:
  - D3D11_COPY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_COPY_FLAGS
 req.redist: 

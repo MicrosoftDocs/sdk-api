@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_KEYGEN_REQUEST_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_KEYGEN_REQUEST_INFO, *PCERT_KEYGEN_REQUEST_INFO
 req.redist: 

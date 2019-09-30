@@ -38,7 +38,6 @@ api_location:
  - Msapofxproxy.h
 api_name:
  - KSP_PINMODE
-product: Windows
 targetos: Windows
 req.typenames: KSP_PINMODE, *PKSP_PINMODE
 req.redist: 

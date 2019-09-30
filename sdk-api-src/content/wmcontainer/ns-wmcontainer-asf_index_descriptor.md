@@ -38,7 +38,6 @@ api_location:
 - wmcontainer.h
 api_name:
 - ASF_INDEX_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: ASF_INDEX_DESCRIPTOR
 req.redist: 

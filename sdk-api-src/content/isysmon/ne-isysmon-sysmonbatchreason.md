@@ -38,7 +38,6 @@ api_location:
  - ISysmon.h
 api_name:
  - SysmonBatchReason
-product: Windows
 targetos: Windows
 req.typenames: SysmonBatchReason
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapDitherType
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapDitherType
 req.redist: 

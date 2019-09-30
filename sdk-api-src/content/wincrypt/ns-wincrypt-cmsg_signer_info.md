@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_SIGNER_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_SIGNER_INFO, *PCMSG_SIGNER_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_CELLULAR_CLASS
-product: Windows
 targetos: Windows
 req.typenames: MBN_CELLULAR_CLASS
 req.redist: 

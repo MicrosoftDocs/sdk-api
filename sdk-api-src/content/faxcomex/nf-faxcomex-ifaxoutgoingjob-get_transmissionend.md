@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.TransmissionEnd
  - IFaxOutgoingJob.get_TransmissionEnd
  - IFaxOutgoingJob.get_TransmissionEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

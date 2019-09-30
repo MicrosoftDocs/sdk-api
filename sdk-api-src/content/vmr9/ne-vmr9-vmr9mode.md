@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9Mode
-product: Windows
 targetos: Windows
 req.typenames: VMR9Mode
 req.redist: 

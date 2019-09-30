@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - WSAPROTOCOL_INFOW
-product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOW, *LPWSAPROTOCOL_INFOW
 req.redist: 

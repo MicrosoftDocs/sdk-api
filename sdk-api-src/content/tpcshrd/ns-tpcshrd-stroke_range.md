@@ -38,7 +38,6 @@ api_location:
  - tpcshrd.h
 api_name:
  - STROKE_RANGE
-product: Windows
 targetos: Windows
 req.typenames: STROKE_RANGE
 req.redist: 

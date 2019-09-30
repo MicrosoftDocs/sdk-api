@@ -47,7 +47,6 @@ api_name:
  - FindNextVolumeMountPoint
  - FindNextVolumeMountPointA
  - FindNextVolumeMountPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

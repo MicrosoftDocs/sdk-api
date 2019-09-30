@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyDefinition.ValueDescriptions
  - IFsrmPropertyDefinition.get_ValueDescriptions
  - IFsrmPropertyDefinition.put_ValueDescriptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

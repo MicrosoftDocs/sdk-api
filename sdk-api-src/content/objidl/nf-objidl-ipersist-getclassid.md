@@ -40,7 +40,6 @@ api_name:
  - IPersist.GetClassID
  - IPersistFolder.GetClassID
  - IBaseFilter.GetClassID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

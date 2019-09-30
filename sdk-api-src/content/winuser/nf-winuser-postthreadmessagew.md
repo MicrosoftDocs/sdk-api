@@ -49,7 +49,6 @@ api_name:
  - PostThreadMessage
  - PostThreadMessageA
  - PostThreadMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

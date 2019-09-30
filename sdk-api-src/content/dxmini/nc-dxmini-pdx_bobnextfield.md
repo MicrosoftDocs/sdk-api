@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DxBobNextField
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

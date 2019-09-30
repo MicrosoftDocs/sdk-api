@@ -38,7 +38,6 @@ api_location:
  - Certocm.dll
 api_name:
  - ICertSrvSetup.InitializeDefaults
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

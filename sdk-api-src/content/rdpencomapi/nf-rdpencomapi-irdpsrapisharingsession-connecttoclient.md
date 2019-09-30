@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPISharingSession2.ConnectToClient
  - IRDPSRAPISharingSession.ConnectToClient
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

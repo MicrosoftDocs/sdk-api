@@ -38,7 +38,6 @@ api_location:
  - Gdiplusmetaheader.h
 api_name:
  - WmfPlaceableFileHeader
-product: Windows
 targetos: Windows
 req.typenames: WmfPlaceableFileHeader
 req.redist: 

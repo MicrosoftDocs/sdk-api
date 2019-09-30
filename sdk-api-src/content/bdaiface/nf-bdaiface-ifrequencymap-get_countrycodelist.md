@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IFrequencyMap.get_CountryCodeList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

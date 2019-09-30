@@ -38,7 +38,6 @@ api_location:
  - Mmreg.h
 api_name:
  - WAVEFILTER
-product: Windows
 targetos: Windows
 req.typenames: WAVEFILTER
 req.redist: 

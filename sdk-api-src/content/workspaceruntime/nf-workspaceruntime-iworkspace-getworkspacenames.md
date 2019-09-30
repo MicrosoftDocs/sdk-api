@@ -41,7 +41,6 @@ api_name:
  - IWorkspace2.GetWorkspaceNames
  - IWorkspace3.GetWorkspaceNames
  - Workspace.GetWorkspaceNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

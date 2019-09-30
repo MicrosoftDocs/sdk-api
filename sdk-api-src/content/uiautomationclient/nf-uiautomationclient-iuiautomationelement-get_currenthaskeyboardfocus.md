@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentHasKeyboardFocus
  - IUIAutomationElement.get_CurrentHasKeyboardFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

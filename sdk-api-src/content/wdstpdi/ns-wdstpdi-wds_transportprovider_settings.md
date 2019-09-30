@@ -38,7 +38,6 @@ api_location:
  - Wdstpdi.h
 api_name:
  - WDS_TRANSPORTPROVIDER_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WDS_TRANSPORTPROVIDER_SETTINGS, *PWDS_TRANSPORTPROVIDER_SETTINGS
 req.redist: 

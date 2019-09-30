@@ -47,7 +47,6 @@ api_name:
  - CharLower
  - CharLowerA
  - CharLowerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

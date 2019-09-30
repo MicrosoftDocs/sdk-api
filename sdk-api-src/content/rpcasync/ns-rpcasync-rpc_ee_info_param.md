@@ -38,7 +38,6 @@ api_location:
  - Rpcasync.h
 api_name:
  - RPC_EE_INFO_PARAM
-product: Windows
 targetos: Windows
 req.typenames: RPC_EE_INFO_PARAM
 req.redist: 

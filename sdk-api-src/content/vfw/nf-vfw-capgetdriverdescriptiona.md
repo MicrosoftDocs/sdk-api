@@ -40,7 +40,6 @@ api_name:
  - capGetDriverDescription
  - capGetDriverDescriptionA
  - capGetDriverDescriptionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - PROCESSOR_CACHE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_CACHE_TYPE
 req.redist: 

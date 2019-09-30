@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.TriggerDataCollectorSet
  - IAlertDataCollector.get_TriggerDataCollectorSet
  - IAlertDataCollector.put_TriggerDataCollectorSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

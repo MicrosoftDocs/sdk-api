@@ -38,7 +38,6 @@ api_location:
  - Txlogpub.h
 api_name:
  - IFileBasedLogInit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

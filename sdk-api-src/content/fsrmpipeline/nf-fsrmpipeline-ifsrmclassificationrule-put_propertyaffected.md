@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationRule.PropertyAffected
  - IFsrmClassificationRule.get_PropertyAffected
  - IFsrmClassificationRule.put_PropertyAffected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

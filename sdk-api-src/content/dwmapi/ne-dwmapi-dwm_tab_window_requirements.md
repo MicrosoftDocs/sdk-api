@@ -38,7 +38,6 @@ api_location:
  - dwmapi.h
 api_name:
  - DWM_TAB_WINDOW_REQUIREMENTS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

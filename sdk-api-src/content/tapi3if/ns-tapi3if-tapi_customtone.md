@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPI_CUSTOMTONE
-product: Windows
 targetos: Windows
 req.typenames: TAPI_CUSTOMTONE, *LPTAPI_CUSTOMTONE
 req.redist: 

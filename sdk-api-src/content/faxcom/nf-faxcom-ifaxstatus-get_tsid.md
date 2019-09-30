@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.Tsid
  - IFaxStatus.get_Tsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

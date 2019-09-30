@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.CreateModuleDefinition
 - IFsrmClassificationManager2.CreateModuleDefinition
 - FsrmClassificationManager.CreateModuleDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

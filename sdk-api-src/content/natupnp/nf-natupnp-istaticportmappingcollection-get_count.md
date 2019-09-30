@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - IStaticPortMappingCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

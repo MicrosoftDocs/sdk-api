@@ -42,7 +42,6 @@ api_name:
  - IFaxReceiptOptions.put_SMTPPort
  - IFaxReceiptOptions.get_SMTPPort
  - IFaxReceiptOptions.put_SMTPPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

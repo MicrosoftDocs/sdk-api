@@ -38,7 +38,6 @@ api_location:
 - Dhcpv6csdk.h
 api_name:
 - DHCPV6CAPI_PARAMS_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, *LPDHCPV6CAPI_PARAMS_ARRAY
 req.redist: 

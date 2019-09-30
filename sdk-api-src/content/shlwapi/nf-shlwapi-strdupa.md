@@ -45,7 +45,6 @@ api_name:
  - StrDup
  - StrDupA
  - StrDupW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IEnroll.CAStoreTypeWStr
  - IEnroll.get_CAStoreTypeWStr
  - IEnroll.put_CAStoreTypeWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

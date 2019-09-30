@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - DELETE_USN_JOURNAL_DATA
-product: Windows
 targetos: Windows
 req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
 req.redist: 

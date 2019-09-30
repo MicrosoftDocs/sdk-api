@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - PPP_NBFCP_INFO
-product: Windows
 targetos: Windows
 req.typenames: PPP_NBFCP_INFO
 req.redist: 

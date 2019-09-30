@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_POLICY_CONSTRAINTS
-product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_CONSTRAINTS
 req.redist: 

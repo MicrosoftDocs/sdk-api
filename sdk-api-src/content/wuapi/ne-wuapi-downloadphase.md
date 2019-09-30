@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - DownloadPhase
-product: Windows
 targetos: Windows
 req.typenames: DownloadPhase
 req.redist: 

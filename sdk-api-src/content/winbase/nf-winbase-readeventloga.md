@@ -43,7 +43,6 @@ api_name:
 - ReadEventLog
 - ReadEventLogA
 - ReadEventLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

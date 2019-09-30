@@ -38,7 +38,6 @@ api_location:
 - FsrmEnums.h
 api_name:
 - FsrmReportLimit
-product: Windows
 targetos: Windows
 req.typenames: FsrmReportLimit
 req.redist: 

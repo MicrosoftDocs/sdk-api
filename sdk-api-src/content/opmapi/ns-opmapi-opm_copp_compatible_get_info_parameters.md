@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 req.redist: 

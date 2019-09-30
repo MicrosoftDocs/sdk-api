@@ -39,7 +39,6 @@ api_location:
  - Iptypes.h
 api_name:
  - SCOPE_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: SCOPE_LEVEL
 req.redist: 

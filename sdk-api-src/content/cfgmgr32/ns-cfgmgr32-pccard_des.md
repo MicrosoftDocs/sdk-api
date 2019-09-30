@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - PCCARD_DES
-product: Windows
 targetos: Windows
 req.typenames: PCCARD_DES, *PPCCARD_DES
 req.redist: 

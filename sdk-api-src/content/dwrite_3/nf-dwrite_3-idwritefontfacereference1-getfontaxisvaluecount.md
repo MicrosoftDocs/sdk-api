@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFontFaceReference1::GetFontAxisValueCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

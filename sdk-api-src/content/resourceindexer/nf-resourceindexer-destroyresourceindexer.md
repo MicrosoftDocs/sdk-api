@@ -38,7 +38,6 @@ api_location:
  - mrmsupport.dll
 api_name:
  - DestroyResourceIndexer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

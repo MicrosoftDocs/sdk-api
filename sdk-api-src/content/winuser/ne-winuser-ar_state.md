@@ -38,7 +38,6 @@ api_location:
  - WinUser.h
 api_name:
  - AR_STATE
-product: Windows
 targetos: Windows
 req.typenames: AR_STATE, *PAR_STATE
 req.redist: 

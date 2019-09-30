@@ -38,7 +38,6 @@ api_location:
  - mi.h
 api_name:
  - MI_Value
-product: Windows
 targetos: Windows
 req.typenames: MI_Value
 req.redist: 

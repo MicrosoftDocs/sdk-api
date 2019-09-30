@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.OwnerSid
  - IFsrmPropertyBag.get_OwnerSid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

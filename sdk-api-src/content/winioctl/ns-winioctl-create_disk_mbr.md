@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CREATE_DISK_MBR
-product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
 req.redist: 

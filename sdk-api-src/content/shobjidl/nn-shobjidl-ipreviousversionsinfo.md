@@ -38,7 +38,6 @@ api_location:
  - Twext.dll
 api_name:
  - IPreviousVersionsInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

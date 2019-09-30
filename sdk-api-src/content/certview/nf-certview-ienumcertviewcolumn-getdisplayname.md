@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWCOLUMN.GetDisplayName
  - IEnumCERTVIEWCOLUMN.GetDisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - GetProfilesDirectory
  - GetProfilesDirectoryA
  - GetProfilesDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

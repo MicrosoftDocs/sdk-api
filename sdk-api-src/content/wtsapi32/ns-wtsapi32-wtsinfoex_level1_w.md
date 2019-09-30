@@ -40,7 +40,6 @@ api_name:
 - WTSINFOEX_LEVEL1
 - WTSINFOEX_LEVEL1_A
 - WTSINFOEX_LEVEL1_W
-product: Windows
 targetos: Windows
 req.typenames: WTSINFOEX_LEVEL1_W, *PWTSINFOEX_LEVEL1_W
 req.redist: 

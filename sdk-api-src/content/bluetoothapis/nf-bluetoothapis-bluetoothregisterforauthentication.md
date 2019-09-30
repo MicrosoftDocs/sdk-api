@@ -38,7 +38,6 @@ api_location:
  - Bthprops.dll
 api_name:
  - BluetoothRegisterForAuthentication
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

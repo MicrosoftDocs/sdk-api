@@ -38,7 +38,6 @@ api_location:
  - gdipluseffects.h
 api_name:
  - BrightnessContrast
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

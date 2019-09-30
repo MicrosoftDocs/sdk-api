@@ -38,7 +38,6 @@ api_location:
  - Scesvc.h
 api_name:
  - PFSCE_FREE_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

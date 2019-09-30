@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIHDR
-product: Windows
 targetos: Windows
 req.typenames: MIDIHDR, *PMIDIHDR, *NPMIDIHDR, *LPMIDIHDR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ndattrib.h
 api_name:
  - UI_INFO_TYPE
-product: Windows
 targetos: Windows
 req.typenames: UI_INFO_TYPE
 req.redist: 

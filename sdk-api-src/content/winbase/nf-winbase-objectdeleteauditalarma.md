@@ -46,7 +46,6 @@ api_name:
  - ObjectDeleteAuditAlarm
  - ObjectDeleteAuditAlarmA
  - ObjectDeleteAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

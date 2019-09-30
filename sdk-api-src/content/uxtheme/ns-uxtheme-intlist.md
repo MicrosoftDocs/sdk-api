@@ -38,7 +38,6 @@ api_location:
  - UxTheme.h
 api_name:
  - INTLIST
-product: Windows
 targetos: Windows
 req.typenames: INTLIST, *PINTLIST
 req.redist: 

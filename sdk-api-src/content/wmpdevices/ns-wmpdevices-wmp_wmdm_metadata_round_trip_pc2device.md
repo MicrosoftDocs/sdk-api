@@ -38,7 +38,6 @@ api_location:
  - wmpdevices.h
 api_name:
  - WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
-product: Windows
 targetos: Windows
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 req.redist: 

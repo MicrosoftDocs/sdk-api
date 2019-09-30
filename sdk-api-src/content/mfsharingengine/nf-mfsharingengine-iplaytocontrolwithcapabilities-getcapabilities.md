@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - IPlayToControlWithCapabilities.GetCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CHString.CompareNoCase
  - ?CompareNoCase@CHString@@QBEHPBG@Z
  - ?CompareNoCase@CHString@@QEBAHPEBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

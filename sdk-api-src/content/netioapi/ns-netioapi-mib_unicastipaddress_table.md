@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_UNICASTIPADDRESS_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_TABLE, *PMIB_UNICASTIPADDRESS_TABLE
 req.redist: 

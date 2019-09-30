@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRemoteDesktopClient.Actions
  - IRemoteDesktopClient.get_Actions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

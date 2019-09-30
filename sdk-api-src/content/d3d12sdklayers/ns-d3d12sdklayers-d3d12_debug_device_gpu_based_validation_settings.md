@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS
 req.redist: 

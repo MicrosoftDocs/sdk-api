@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUS_CHARACTERISTICS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_CHARACTERISTICS
 req.redist: 

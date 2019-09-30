@@ -38,7 +38,6 @@ api_location:
  - Wmdxva.h
 api_name:
  - IWMPlayerTimestampHook.MapTimestamp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

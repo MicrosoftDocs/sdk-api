@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.SetDescription
  - IWMProfile2.SetDescription
  - IWMProfile3.SetDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mswsockdef.h
 api_name:
  - RIORESULT
-product: Windows
 targetos: Windows
 req.typenames: RIORESULT, *PRIORESULT
 req.redist: 

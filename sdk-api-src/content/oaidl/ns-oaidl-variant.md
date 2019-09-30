@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - VARIANT
-product: Windows
 targetos: Windows
 req.typenames: VARIANT
 req.redist: 

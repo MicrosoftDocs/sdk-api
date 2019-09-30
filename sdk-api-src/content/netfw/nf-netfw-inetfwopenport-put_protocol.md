@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.Protocol
  - INetFwOpenPort.get_Protocol
  - INetFwOpenPort.put_Protocol
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

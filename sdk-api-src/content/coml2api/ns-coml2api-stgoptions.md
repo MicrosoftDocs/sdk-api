@@ -38,7 +38,6 @@ api_location:
  - coml2api.h
 api_name:
  - STGOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: STGOPTIONS
 req.redist: 

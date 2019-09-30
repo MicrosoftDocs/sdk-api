@@ -38,7 +38,6 @@ api_location:
  - photoacquire.h
 api_name:
  - IPhotoAcquireProgressCB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

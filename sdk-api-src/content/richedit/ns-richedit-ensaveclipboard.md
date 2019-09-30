@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENSAVECLIPBOARD
-product: Windows
 targetos: Windows
 req.typenames: ENSAVECLIPBOARD
 req.redist: 

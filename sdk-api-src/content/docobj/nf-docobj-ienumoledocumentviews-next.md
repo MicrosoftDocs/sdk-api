@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - IEnumOleDocumentViews.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

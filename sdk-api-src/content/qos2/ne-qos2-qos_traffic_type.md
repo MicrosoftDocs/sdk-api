@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_TRAFFIC_TYPE
-product: Windows
 targetos: Windows
 req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
 req.redist: 

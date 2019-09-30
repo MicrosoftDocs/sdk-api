@@ -38,7 +38,6 @@ api_location:
  - SpatialAudioMetadata.h
 api_name:
  - ISpatialAudioMetadataWriter.WriteNextItemCommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

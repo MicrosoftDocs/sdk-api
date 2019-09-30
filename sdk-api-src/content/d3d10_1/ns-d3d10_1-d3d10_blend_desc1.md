@@ -38,7 +38,6 @@ api_location:
  - D3D10_1.h
 api_name:
  - D3D10_BLEND_DESC1
-product: Windows
 targetos: Windows
 req.typenames: D3D10_BLEND_DESC1
 req.redist: 

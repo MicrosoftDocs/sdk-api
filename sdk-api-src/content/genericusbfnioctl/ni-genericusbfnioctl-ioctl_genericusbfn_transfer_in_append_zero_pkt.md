@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - UpdateServiceRegistrationState
-product: Windows
 targetos: Windows
 req.typenames: UpdateServiceRegistrationState
 req.redist: 

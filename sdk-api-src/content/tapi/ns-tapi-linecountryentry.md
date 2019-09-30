@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECOUNTRYENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINECOUNTRYENTRY, *LPLINECOUNTRYENTRY
 req.redist: 

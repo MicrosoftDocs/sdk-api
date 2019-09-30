@@ -38,7 +38,6 @@ api_location:
  - Upnp.dll
 api_name:
  - IUPnPDeviceDocumentAccessEx.GetDocument
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

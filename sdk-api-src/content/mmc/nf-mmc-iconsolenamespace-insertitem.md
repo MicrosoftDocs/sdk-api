@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IConsoleNameSpace.InsertItem
 - IConsoleNameSpace2.InsertItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

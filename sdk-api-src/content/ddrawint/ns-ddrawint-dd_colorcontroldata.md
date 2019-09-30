@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_COLORCONTROLDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA'
 req.redist: 

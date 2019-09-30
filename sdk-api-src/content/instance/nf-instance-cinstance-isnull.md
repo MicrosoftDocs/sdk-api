@@ -41,7 +41,6 @@ api_name:
  - CInstance.IsNull
  - ?IsNull@CInstance@@QBE_NPBG@Z
  - ?IsNull@CInstance@@QEBA_NPEBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

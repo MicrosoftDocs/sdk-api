@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkSystemGesture
-product: Windows
 targetos: Windows
 req.typenames: InkSystemGesture
 req.redist: 

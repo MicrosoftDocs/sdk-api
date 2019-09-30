@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, *PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
 req.redist: 

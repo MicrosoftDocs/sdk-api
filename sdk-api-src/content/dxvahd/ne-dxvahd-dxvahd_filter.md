@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_FILTER
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FILTER
 req.redist: 

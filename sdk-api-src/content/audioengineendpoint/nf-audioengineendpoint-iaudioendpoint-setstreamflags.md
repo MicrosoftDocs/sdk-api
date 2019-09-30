@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - IAudioEndpoint.SetStreamFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

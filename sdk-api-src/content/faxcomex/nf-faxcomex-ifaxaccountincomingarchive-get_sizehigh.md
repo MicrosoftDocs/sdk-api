@@ -40,7 +40,6 @@ api_name:
  - IFaxAccountIncomingArchive.SizeHigh
  - IFaxAccountIncomingArchive.get_SizeHigh
  - IFaxAccountIncomingArchive.get_SizeHigh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

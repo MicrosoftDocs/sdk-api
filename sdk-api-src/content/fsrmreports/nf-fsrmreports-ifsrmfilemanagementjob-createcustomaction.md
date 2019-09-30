@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmFileManagementJob.CreateCustomAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

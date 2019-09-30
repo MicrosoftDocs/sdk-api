@@ -38,7 +38,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMRSOP.GenerateReport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - DsQuoteRdnValue
  - DsQuoteRdnValueA
  - DsQuoteRdnValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

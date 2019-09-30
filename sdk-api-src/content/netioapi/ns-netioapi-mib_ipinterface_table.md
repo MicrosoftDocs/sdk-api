@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IPINTERFACE_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_TABLE, *PMIB_IPINTERFACE_TABLE
 req.redist: 

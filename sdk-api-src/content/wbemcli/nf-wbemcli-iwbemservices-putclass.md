@@ -52,7 +52,6 @@ api_location:
  - Wmiprvsd.dll
 api_name:
  - IWbemServices.PutClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

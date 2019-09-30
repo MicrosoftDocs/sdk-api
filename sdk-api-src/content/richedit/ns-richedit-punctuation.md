@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - PUNCTUATION
-product: Windows
 targetos: Windows
 req.typenames: PUNCTUATION
 req.redist: 

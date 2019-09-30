@@ -40,7 +40,6 @@ api_location:
 - MinTdh.dll
 api_name:
 - TdhEnumerateProviderFieldInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

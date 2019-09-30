@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMClientConnections2.GetClientInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

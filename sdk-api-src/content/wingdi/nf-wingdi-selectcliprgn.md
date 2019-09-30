@@ -43,7 +43,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - SelectClipRgn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

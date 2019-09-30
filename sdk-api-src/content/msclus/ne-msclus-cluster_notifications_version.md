@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_NOTIFICATIONS_VERSION
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NOTIFICATIONS_VERSION
 req.redist: 

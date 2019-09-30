@@ -40,7 +40,6 @@ api_name:
  - ICertExit2.Notify
  - ICertExit.Notify
  - CCertExit.Notify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

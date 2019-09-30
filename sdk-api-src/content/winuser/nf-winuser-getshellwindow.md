@@ -47,7 +47,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - GetShellWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

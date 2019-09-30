@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - PANOSE
-product: Windows
 targetos: Windows
 req.typenames: PANOSE, *LPPANOSE
 req.redist: 

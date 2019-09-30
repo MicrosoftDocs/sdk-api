@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_EditingMode
  - InkOverlay.get_EditingMode
  - InkOverlay.put_EditingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

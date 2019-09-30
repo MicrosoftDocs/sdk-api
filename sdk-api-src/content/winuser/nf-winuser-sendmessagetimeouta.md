@@ -49,7 +49,6 @@ api_name:
  - SendMessageTimeout
  - SendMessageTimeoutA
  - SendMessageTimeoutW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

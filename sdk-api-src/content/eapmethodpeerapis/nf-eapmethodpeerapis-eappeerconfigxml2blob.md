@@ -38,7 +38,6 @@ api_location:
 - eapmethodpeerapis.h
 api_name:
 - EapPeerConfigXml2Blob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

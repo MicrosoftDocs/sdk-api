@@ -38,7 +38,6 @@ api_location:
  - dxgi1_5.dll
 api_name:
  - IDXGISwapChain4.SetHDRMetaData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IObjectContextInfo.GetTransactionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

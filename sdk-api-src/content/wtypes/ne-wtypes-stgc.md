@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - STGC
-product: Windows
 targetos: Windows
 req.typenames: STGC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_PRESENTER_CHOICE
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_PRESENTER_CHOICE
 req.redist: 

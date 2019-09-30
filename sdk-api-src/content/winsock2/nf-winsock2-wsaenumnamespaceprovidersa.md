@@ -40,7 +40,6 @@ api_name:
 - WSAEnumNameSpaceProviders
 - WSAEnumNameSpaceProvidersA
 - WSAEnumNameSpaceProvidersW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

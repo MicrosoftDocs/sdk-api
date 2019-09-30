@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - TLIBATTR
-product: Windows
 targetos: Windows
 req.typenames: TLIBATTR, *LPTLIBATTR
 req.redist: 

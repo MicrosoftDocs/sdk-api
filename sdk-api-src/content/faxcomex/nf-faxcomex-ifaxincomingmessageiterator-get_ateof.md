@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxIncomingMessageIterator.AtEOF
  - IFaxIncomingMessageIterator.get_AtEOF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

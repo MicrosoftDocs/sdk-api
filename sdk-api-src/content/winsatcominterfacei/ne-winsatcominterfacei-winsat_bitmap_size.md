@@ -38,7 +38,6 @@ api_location:
  - Winsatcominterfacei.h
 api_name:
  - WINSAT_BITMAP_SIZE
-product: Windows
 targetos: Windows
 req.typenames: WINSAT_BITMAP_SIZE
 req.redist: 

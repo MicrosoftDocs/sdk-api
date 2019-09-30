@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IInkExtendedProperties
  - IInkExtendedProperties._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

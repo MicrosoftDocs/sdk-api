@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DOMAIN
-product: Windows
 targetos: Windows
 req.typenames: DVD_DOMAIN
 req.redist: 

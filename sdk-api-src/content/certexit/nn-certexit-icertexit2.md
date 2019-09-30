@@ -38,7 +38,6 @@ api_location:
  - Certexit.h
 api_name:
  - ICertExit2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

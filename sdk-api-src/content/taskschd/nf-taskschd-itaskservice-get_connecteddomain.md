@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskService.ConnectedDomain
  - ITaskService.get_ConnectedDomain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

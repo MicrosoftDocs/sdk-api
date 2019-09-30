@@ -38,7 +38,6 @@ api_location:
  - firewallapi.dll
 api_name:
  - NetworkIsolationGetEnterpriseIdAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDOPENVPCAPTUREDEVICEOUT
-product: Windows
 targetos: Windows
 req.typenames: DDOPENVPCAPTUREDEVICEOUT, *LPDDOPENVPCAPTUREDEVICEOUT
 req.redist: 

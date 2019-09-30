@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - GuarRspec
-product: Windows
 targetos: Windows
 req.typenames: GuarRspec
 req.redist: 

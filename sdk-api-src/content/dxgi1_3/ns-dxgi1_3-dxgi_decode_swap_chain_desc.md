@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - DXGI_DECODE_SWAP_CHAIN_DESC
-product: Windows
 targetos: Windows
 req.typenames: DXGI_DECODE_SWAP_CHAIN_DESC
 req.redist: 

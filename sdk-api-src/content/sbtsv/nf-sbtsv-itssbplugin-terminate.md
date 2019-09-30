@@ -44,7 +44,6 @@ api_name:
  - ITsSbProvisioning.Terminate
  - ITsSbResourcePlugin.Terminate
  - ITsSbTaskPlugin.Terminate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

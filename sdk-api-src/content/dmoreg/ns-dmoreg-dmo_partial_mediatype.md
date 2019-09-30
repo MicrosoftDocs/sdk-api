@@ -38,7 +38,6 @@ api_location:
  - Dmoreg.h
 api_name:
  - DMO_PARTIAL_MEDIATYPE
-product: Windows
 targetos: Windows
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 req.redist: 

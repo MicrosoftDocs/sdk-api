@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - PROCESS_LEAP_SECOND_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_LEAP_SECOND_INFO, *PPROCESS_LEAP_SECOND_INFO
 req.redist: 

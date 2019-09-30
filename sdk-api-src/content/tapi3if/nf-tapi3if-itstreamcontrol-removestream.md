@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITStreamControl.RemoveStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

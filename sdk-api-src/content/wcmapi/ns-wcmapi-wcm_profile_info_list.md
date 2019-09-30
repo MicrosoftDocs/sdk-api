@@ -38,7 +38,6 @@ api_location:
 - Wcmapi.h
 api_name:
 - WCM_PROFILE_INFO_LIST
-product: Windows
 targetos: Windows
 req.typenames: WCM_PROFILE_INFO_LIST, *PWCM_PROFILE_INFO_LIST
 req.redist: 

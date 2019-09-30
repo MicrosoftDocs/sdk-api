@@ -39,7 +39,6 @@ api_location:
  - MSClus.h
 api_name:
  - CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 req.redist: 

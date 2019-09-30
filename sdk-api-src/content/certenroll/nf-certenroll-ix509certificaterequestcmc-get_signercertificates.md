@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.SignerCertificates
  - IX509CertificateRequestCmc.get_SignerCertificates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

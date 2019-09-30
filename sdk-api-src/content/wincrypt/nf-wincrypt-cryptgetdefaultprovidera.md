@@ -42,7 +42,6 @@ api_name:
  - CryptGetDefaultProvider
  - CryptGetDefaultProviderA
  - CryptGetDefaultProviderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

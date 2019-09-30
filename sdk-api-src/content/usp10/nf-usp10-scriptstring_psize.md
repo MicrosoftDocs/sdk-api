@@ -41,7 +41,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - ScriptString_pSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

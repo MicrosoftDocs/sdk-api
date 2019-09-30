@@ -49,7 +49,6 @@ api_name:
  - SendMessage
  - SendMessageA
  - SendMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

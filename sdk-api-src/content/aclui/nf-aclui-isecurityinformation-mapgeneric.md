@@ -38,7 +38,6 @@ api_location:
 - Aclui.h
 api_name:
 - ISecurityInformation.MapGeneric
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - fwpuclnt.dll
 api_name:
 - FwpmIPsecTunnelAdd2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_TEXTURE_COPY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_TEXTURE_COPY_TYPE
 req.redist: 

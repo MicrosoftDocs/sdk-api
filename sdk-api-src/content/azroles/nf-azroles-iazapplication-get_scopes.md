@@ -40,7 +40,6 @@ api_name:
  - IAzApplication.Scopes
  - IAzApplication.get_Scopes
  - AzApplication.Scopes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

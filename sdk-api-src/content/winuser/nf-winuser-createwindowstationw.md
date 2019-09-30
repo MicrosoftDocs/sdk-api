@@ -44,7 +44,6 @@ api_name:
  - CreateWindowStation
  - CreateWindowStationA
  - CreateWindowStationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

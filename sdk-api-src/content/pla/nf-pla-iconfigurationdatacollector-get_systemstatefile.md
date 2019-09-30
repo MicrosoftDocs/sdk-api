@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.SystemStateFile
  - IConfigurationDataCollector.get_SystemStateFile
  - IConfigurationDataCollector.put_SystemStateFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

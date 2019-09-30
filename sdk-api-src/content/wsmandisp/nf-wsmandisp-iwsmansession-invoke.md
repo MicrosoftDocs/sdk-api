@@ -38,7 +38,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSManSession.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

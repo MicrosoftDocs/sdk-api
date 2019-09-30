@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - ATTRIBUTEID
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEID
 req.redist: 

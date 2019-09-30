@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_AVAILABLE_NETWORK_LIST
-product: Windows
 targetos: Windows
 req.typenames: WLAN_AVAILABLE_NETWORK_LIST, *PWLAN_AVAILABLE_NETWORK_LIST
 req.redist: Wireless LAN API for Windows XP with SP2

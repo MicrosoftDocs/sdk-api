@@ -43,7 +43,6 @@ api_name:
 - SspiPromptForCredentials
 - SspiPromptForCredentialsA
 - SspiPromptForCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

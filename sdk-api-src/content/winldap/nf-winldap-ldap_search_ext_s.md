@@ -40,7 +40,6 @@ api_name:
  - ldap_search_ext_s
  - ldap_search_ext_sA
  - ldap_search_ext_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

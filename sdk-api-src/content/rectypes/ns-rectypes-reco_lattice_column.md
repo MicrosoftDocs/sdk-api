@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - RECO_LATTICE_COLUMN
-product: Windows
 targetos: Windows
 req.typenames: RECO_LATTICE_COLUMN
 req.redist: 

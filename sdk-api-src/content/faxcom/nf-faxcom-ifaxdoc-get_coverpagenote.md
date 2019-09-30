@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.CoverpageNote
  - IFaxDoc.get_CoverpageNote
  - IFaxDoc.put_CoverpageNote
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

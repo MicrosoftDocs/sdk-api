@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionSmimeCapabilities.SmimeCapabilities
  - IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

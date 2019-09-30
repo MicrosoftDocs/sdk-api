@@ -40,7 +40,6 @@ api_name:
  - IAzRoles.Count
  - IAzRoles.get_Count
  - AzRoles.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

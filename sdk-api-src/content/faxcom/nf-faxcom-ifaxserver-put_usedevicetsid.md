@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_UseDeviceTsid
  - IFaxServer.get_UseDeviceTsid
  - IFaxServer.put_UseDeviceTsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

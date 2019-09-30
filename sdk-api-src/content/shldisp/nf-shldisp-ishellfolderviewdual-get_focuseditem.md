@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - IShellFolderViewDual.get_FocusedItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

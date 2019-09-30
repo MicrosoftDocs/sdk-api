@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - CONDITIONPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: CONDITIONPROPERTIES
 req.redist: 

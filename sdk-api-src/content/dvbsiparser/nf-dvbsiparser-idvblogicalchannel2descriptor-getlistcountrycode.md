@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbLogicalChannel2Descriptor.GetListCountryCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

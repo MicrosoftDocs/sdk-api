@@ -38,7 +38,6 @@ api_location:
  - Gdiplusenums.h
 api_name:
  - StringAlignment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

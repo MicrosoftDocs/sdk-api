@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - GetIfTable2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

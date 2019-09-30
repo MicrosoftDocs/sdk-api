@@ -38,7 +38,6 @@ api_location:
  - printmanagerinterop.h
 api_name:
  - IPrintManagerInterop.GetForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

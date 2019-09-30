@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - TRACKING_COLL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TRACKING_COLL_TYPE
 req.redist: 

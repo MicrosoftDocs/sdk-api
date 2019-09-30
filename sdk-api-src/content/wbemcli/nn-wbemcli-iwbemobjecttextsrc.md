@@ -40,7 +40,6 @@ api_name:
  - IWbemObjectTextSrc
  - IWbemObjectTextSrc.CreateFromText
  - WbemObjectTextSrc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

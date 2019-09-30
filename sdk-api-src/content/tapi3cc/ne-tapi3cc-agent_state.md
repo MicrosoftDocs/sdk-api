@@ -38,7 +38,6 @@ api_location:
  - tapi3cc.h
 api_name:
  - AGENT_STATE
-product: Windows
 targetos: Windows
 req.typenames: AGENT_STATE
 req.redist: 

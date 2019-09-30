@@ -40,7 +40,6 @@ api_location:
  - Windows.Storage.dll
 api_name:
  - SHCreateItemWithParent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

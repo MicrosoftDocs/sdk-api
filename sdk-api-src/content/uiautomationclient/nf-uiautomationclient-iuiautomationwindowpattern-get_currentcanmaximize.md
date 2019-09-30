@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CurrentCanMaximize
  - IUIAutomationWindowPattern.get_CurrentCanMaximize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

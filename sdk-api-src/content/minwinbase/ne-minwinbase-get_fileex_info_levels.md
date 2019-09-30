@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - GET_FILEEX_INFO_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: GET_FILEEX_INFO_LEVELS
 req.redist: 

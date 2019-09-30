@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_OCTET_LIST
-product: Windows
 targetos: Windows
 req.typenames: ADS_OCTET_LIST, *PADS_OCTET_LIST
 req.redist: 

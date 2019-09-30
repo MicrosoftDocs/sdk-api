@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - WDMUSB_POWER_STATE
-product: Windows
 targetos: Windows
 req.typenames: WDMUSB_POWER_STATE
 req.redist: 

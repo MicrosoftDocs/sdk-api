@@ -38,7 +38,6 @@ api_location:
  - Ualapi.dll
 api_name:
  - UalStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

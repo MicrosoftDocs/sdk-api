@@ -38,7 +38,6 @@ api_location:
  - Gdipluseffects.h
 api_name:
  - ColorLUTParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - GenAdspecParams
-product: Windows
 targetos: Windows
 req.typenames: GenAdspecParams
 req.redist: 

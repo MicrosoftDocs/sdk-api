@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - DIALOG_SCALING_BEHAVIOR
-product: Windows
 targetos: Windows
 req.typenames: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
 req.redist: 

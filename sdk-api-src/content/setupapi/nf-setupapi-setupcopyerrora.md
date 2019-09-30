@@ -40,7 +40,6 @@ api_name:
  - SetupCopyError
  - SetupCopyErrorA
  - SetupCopyErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

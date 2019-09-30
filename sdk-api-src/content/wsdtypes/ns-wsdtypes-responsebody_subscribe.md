@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - RESPONSEBODY_Subscribe
-product: Windows
 targetos: Windows
 req.typenames: RESPONSEBODY_Subscribe
 req.redist: 

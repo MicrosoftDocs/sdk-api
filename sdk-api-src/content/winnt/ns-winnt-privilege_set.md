@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - PRIVILEGE_SET
-product: Windows
 targetos: Windows
 req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - GetCurrentDirectory
  - GetCurrentDirectoryA
  - GetCurrentDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

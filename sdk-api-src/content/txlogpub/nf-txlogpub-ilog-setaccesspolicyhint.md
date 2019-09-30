@@ -38,7 +38,6 @@ api_location:
  - Txlogpub.h
 api_name:
  - ILog.SetAccessPolicyHint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

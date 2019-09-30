@@ -42,7 +42,6 @@ api_location:
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
  - DeregisterEventSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

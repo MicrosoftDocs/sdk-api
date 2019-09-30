@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFCreateVideoRenderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ISysmon.h
 api_name:
  - DisplayTypeConstants
-product: Windows
 targetos: Windows
 req.typenames: DisplayTypeConstants
 req.redist: 

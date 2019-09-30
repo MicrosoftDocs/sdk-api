@@ -38,7 +38,6 @@ api_location:
 - DocObj.h
 api_name:
 - OLECMDF
-product: Windows
 targetos: Windows
 req.typenames: OLECMDF
 req.redist: 

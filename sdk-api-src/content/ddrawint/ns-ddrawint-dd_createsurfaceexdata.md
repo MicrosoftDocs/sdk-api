@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_CREATESURFACEEXDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA'
 req.redist: 

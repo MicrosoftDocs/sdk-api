@@ -38,7 +38,6 @@ api_location:
  - Ws2bth.h
 api_name:
  - BTH_QUERY_DEVICE
-product: Windows
 targetos: Windows
 req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
 req.redist: 

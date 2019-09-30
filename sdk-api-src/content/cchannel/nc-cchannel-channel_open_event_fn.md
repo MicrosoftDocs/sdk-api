@@ -38,7 +38,6 @@ api_location:
  - Cchannel.h
 api_name:
  - CHANNEL_OPEN_EVENT_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

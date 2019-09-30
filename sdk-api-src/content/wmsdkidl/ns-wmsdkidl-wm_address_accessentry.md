@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_ADDRESS_ACCESSENTRY
-product: Windows
 targetos: Windows
 req.typenames: WM_ADDRESS_ACCESSENTRY
 req.redist: 

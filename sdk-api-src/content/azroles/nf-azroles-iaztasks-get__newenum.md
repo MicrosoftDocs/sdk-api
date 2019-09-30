@@ -40,7 +40,6 @@ api_name:
  - IAzTasks._NewEnum
  - IAzTasks.get__NewEnum
  - AzTasks._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

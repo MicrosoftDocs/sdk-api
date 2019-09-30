@@ -44,7 +44,6 @@ api_name:
  - SetMenuItemInfo
  - SetMenuItemInfoA
  - SetMenuItemInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

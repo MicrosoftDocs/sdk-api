@@ -38,7 +38,6 @@ api_location:
  - Imepad.h
 api_name:
  - IImeSpecifyApplets
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

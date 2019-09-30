@@ -38,7 +38,6 @@ api_location:
  - Werapi.h
 api_name:
  - WER_REPORT_METADATA_V2
-product: Windows
 targetos: Windows
 req.typenames: WER_REPORT_METADATA_V2, *PWER_REPORT_METADATA_V2
 req.redist: 

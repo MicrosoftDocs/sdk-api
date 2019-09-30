@@ -38,7 +38,6 @@ api_location:
  - D3D11SDKLayers.h
 api_name:
  - D3D11_SHADER_TRACKING_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_SHADER_TRACKING_OPTIONS
 req.redist: 

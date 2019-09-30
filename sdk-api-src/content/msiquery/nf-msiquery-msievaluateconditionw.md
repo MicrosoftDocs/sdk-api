@@ -40,7 +40,6 @@ api_name:
  - MsiEvaluateCondition
  - MsiEvaluateConditionA
  - MsiEvaluateConditionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

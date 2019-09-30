@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10.SmimeCapabilities
  - IX509CertificateRequestPkcs10.get_SmimeCapabilities
  - IX509CertificateRequestPkcs10.put_SmimeCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

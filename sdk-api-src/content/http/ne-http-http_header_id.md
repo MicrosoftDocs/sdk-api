@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_HEADER_ID
-product: Windows
 targetos: Windows
 req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
 req.redist: 

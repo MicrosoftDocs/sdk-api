@@ -38,7 +38,6 @@ api_location:
  - LocationAPI.dll
 api_name:
  - ICivicAddressReport.GetCity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

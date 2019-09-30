@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.SizeAllocated
  - IFsrmPropertyBag.get_SizeAllocated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

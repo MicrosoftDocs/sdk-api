@@ -40,7 +40,6 @@ api_name:
  - AddERExcludedApplication
  - AddERExcludedApplicationA
  - AddERExcludedApplicationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

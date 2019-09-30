@@ -38,7 +38,6 @@ api_location:
  - gamemode.dll
 api_name:
  - HasExpandedResources
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

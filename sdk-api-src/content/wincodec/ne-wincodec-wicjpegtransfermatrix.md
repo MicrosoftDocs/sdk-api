@@ -38,7 +38,6 @@ api_location:
  - wincodec.h
 api_name:
  - WICJpegTransferMatrix
-product: Windows
 targetos: Windows
 req.typenames: WICJpegTransferMatrix
 req.redist: 

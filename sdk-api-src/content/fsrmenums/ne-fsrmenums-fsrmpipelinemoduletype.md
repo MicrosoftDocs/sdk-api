@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmPipelineModuleType
-product: Windows
 targetos: Windows
 req.typenames: FsrmPipelineModuleType
 req.redist: 

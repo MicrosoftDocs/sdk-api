@@ -38,7 +38,6 @@ api_location:
  - tom.h
 api_name:
  - MANCODE
-product: Windows
 targetos: Windows
 req.typenames: MANCODE
 req.redist: 

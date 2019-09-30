@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.PreallocateFile
  - ITraceDataCollector.get_PreallocateFile
  - ITraceDataCollector.put_PreallocateFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

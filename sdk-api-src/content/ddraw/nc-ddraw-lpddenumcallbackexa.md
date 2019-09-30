@@ -39,7 +39,6 @@ api_location:
 api_name:
  - DDEnumCallbackEx
  - lpddenumcallbackexa
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OleAuto.h
 api_name:
  - REGKIND
-product: Windows
 targetos: Windows
 req.typenames: REGKIND
 req.redist: 

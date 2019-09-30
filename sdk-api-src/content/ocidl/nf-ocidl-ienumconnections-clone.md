@@ -38,7 +38,6 @@ api_location:
  - ocidl.h
 api_name:
  - IEnumConnections.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

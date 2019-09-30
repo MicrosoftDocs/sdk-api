@@ -40,7 +40,6 @@ api_name:
  - IFaxAccountFolders.OutgoingArchive
  - IFaxAccountFolders.get_OutgoingArchive
  - IFaxAccountFolders.get_OutgoingArchive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

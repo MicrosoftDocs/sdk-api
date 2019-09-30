@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement4.CachedPositionInSet
  - IUIAutomationElement4.get_CachedPositionInSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IITPropList.SaveData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

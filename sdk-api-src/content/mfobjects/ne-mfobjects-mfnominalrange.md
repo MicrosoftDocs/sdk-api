@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFNominalRange
-product: Windows
 targetos: Windows
 req.typenames: MFNominalRange
 req.redist: 

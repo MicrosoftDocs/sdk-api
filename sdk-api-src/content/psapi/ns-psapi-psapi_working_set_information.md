@@ -38,7 +38,6 @@ api_location:
 - Psapi.h
 api_name:
 - PSAPI_WORKING_SET_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_INFORMATION, *PPSAPI_WORKING_SET_INFORMATION
 req.redist: 

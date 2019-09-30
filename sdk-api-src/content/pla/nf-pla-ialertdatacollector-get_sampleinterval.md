@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.SampleInterval
  - IAlertDataCollector.get_SampleInterval
  - IAlertDataCollector.put_SampleInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

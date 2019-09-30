@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SpVerifySignature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

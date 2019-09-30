@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINETRANSLATECAPS
-product: Windows
 targetos: Windows
 req.typenames: LINETRANSLATECAPS, *LPLINETRANSLATECAPS
 req.redist: 

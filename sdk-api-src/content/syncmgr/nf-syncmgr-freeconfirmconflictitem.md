@@ -38,7 +38,6 @@ api_location:
  - None
 api_name:
  - FreeConfirmConflictItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

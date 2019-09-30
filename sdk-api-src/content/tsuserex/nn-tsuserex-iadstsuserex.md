@@ -38,7 +38,6 @@ api_location:
  - Tsuserex.dll
 api_name:
  - IADsTSUserEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - CLIPBOARDFORMAT
-product: Windows
 targetos: Windows
 req.typenames: CLIPBOARDFORMAT
 req.redist: 

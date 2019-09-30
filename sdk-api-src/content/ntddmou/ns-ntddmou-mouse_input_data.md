@@ -38,7 +38,6 @@ api_location:
  - ntddmou.h
 api_name:
  - MOUSE_INPUT_DATA
-product: Windows
 targetos: Windows
 req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
 req.redist: 

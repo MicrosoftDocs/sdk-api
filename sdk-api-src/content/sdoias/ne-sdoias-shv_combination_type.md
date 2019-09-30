@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - SHV_COMBINATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SHV_COMBINATION_TYPE
 req.redist: 

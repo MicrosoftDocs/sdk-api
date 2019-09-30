@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext.put_Factoid
  - InkRecognizerContext.get_Factoid
  - InkRecognizerContext.put_Factoid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

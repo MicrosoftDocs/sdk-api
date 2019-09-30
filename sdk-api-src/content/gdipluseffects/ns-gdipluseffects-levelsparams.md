@@ -38,7 +38,6 @@ api_location:
  - Gdipluseffects.h
 api_name:
  - LevelsParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

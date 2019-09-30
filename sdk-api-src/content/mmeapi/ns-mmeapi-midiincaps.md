@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIINCAPS
-product: Windows
 targetos: Windows
 req.typenames: MIDIINCAPS, *PMIDIINCAPS, *NPMIDIINCAPS, *LPMIDIINCAPS
 req.redist: 

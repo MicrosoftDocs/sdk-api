@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - NS_CONTEXT_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
 req.redist: 

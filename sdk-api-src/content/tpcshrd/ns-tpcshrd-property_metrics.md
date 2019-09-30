@@ -38,7 +38,6 @@ api_location:
 - tpcshrd.h
 api_name:
 - PROPERTY_METRICS
-product: Windows
 targetos: Windows
 req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
 req.redist: 

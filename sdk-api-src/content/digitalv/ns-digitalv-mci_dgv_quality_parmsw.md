@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MCI_DGV_QUALITY_PARMS
  - MCI_DGV_QUALITY_PARMSW
-product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_QUALITY_PARMSW
 req.redist: 

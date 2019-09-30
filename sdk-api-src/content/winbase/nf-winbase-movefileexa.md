@@ -53,7 +53,6 @@ api_name:
  - MoveFileEx
  - MoveFileExA
  - MoveFileExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

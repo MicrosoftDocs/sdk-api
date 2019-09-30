@@ -40,7 +40,6 @@ api_name:
  - MsiDatabaseGenerateTransform
  - MsiDatabaseGenerateTransformA
  - MsiDatabaseGenerateTransformW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

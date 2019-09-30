@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - SColumnSetID
-product: Windows
 targetos: Windows
 req.typenames: SColumnSetID
 req.redist: 

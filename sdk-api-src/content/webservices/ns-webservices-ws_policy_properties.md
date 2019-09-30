@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_POLICY_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_PROPERTIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

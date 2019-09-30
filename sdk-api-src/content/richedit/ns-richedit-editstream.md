@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - EDITSTREAM
-product: Windows
 targetos: Windows
 req.typenames: EDITSTREAM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shappmgr.h
 api_name:
  - IAppPublisher.EnumApps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

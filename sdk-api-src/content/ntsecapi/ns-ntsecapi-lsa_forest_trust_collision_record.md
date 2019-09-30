@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - LSA_FOREST_TRUST_COLLISION_RECORD
-product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD, *PLSA_FOREST_TRUST_COLLISION_RECORD
 req.redist: 

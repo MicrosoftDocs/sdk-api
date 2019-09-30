@@ -41,7 +41,6 @@ api_location:
 - API-MS-Win-Service-management-l2-1-0.dll
 api_name:
 - SetServiceObjectSecurity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

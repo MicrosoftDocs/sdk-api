@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRendezvousSession.RemoteUser
  - IRendezvousSession.get_RemoteUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

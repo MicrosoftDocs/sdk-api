@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_CLIENT_INFO_ARRAY_VQ
-product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_ARRAY_VQ, *LPDHCP_CLIENT_INFO_ARRAY_VQ
 req.redist: 

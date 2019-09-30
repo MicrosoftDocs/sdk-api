@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - RSVP_HOP
-product: Windows
 targetos: Windows
 req.typenames: RSVP_HOP
 req.redist: 

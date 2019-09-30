@@ -38,7 +38,6 @@ api_location:
  - msime.h
 api_name:
  - CreateIFECommonInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

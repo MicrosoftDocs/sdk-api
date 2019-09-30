@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - SET_VIRTUAL_DISK_INFO
-product: Windows
 targetos: Windows
 req.typenames: SET_VIRTUAL_DISK_INFO, *PSET_VIRTUAL_DISK_INFO
 req.redist: 

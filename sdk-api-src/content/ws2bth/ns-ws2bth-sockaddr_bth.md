@@ -38,7 +38,6 @@ api_location:
  - Ws2bth.h
 api_name:
  - SOCKADDR_BTH
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_BTH, *PSOCKADDR_BTH
 req.redist: 

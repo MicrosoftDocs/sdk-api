@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellingError.CorrectiveAction
  - ISpellingError.get_CorrectiveAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

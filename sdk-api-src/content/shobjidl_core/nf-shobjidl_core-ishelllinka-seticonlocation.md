@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetIconLocation
  - IShellLinkA.SetIconLocation
  - IShellLinkW.SetIconLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

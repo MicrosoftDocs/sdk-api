@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_DEVICE_SEARCH_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_DEVICE_SEARCH_PARAMS
 req.redist: 

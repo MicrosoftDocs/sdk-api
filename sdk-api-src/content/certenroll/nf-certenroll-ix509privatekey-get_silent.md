@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Silent
  - IX509PrivateKey.get_Silent
  - IX509PrivateKey.put_Silent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

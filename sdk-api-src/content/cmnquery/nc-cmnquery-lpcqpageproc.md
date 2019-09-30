@@ -38,7 +38,6 @@ api_location:
 - Cmnquery.h
 api_name:
 - LPCQPAGEPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

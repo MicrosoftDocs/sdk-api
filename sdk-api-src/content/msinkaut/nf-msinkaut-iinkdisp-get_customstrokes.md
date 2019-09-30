@@ -41,7 +41,6 @@ api_name:
  - IInkDisp.CustomStrokes
  - IInkDisp.get_CustomStrokes
  - InkDisp.get_CustomStrokes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

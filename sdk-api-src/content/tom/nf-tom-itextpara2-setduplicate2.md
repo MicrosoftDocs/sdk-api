@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextPara2.SetDuplicate2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

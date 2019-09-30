@@ -40,7 +40,6 @@ api_name:
  - IDataManager.ReportSchema
  - IDataManager.get_ReportSchema
  - IDataManager.put_ReportSchema
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

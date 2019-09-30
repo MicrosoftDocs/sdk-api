@@ -45,7 +45,6 @@ api_name:
  - SHQueryInfoKey
  - SHQueryInfoKeyA
  - SHQueryInfoKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

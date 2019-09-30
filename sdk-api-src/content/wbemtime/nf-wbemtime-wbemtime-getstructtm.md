@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.GetStructtm
  - ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
  - ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

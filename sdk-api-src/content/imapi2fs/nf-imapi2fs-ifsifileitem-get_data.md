@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFsiFileItem.get_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

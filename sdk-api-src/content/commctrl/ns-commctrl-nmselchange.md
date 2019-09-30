@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMSELCHANGE
-product: Windows
 targetos: Windows
 req.typenames: NMSELCHANGE, *LPNMSELCHANGE
 req.redist: 

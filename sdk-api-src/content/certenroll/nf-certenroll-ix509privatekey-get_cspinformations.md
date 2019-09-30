@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.CspInformations
  - IX509PrivateKey.get_CspInformations
  - IX509PrivateKey.put_CspInformations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

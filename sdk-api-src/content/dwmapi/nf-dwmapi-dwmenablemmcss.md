@@ -40,7 +40,6 @@ api_location:
  - DComp.dll
 api_name:
  - DwmEnableMMCSS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

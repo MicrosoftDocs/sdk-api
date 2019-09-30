@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_AUTH_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_PARAMS, *PONEX_AUTH_PARAMS
 req.redist: 

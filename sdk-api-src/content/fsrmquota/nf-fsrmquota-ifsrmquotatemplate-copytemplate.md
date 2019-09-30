@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmQuotaTemplate.CopyTemplate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MODIFY_VHDSET_FLAG
-product: Windows
 targetos: Windows
 req.typenames: MODIFY_VHDSET_FLAG, *PMODIFY_VHDSET_FLAG
 req.redist: 

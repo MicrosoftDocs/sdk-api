@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComObjectConstruction2Events.OnObjectConstruct2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellCheckProvider.LanguageTag
  - ISpellCheckProvider.get_LanguageTag
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

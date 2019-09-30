@@ -40,7 +40,6 @@ api_name:
  - IsDestinationReachable
  - IsDestinationReachableA
  - IsDestinationReachableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

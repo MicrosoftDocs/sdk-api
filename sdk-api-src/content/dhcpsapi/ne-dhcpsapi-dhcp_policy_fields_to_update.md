@@ -38,7 +38,6 @@ api_location:
  - dhcpsapi.h
 api_name:
  - DHCP_POLICY_FIELDS_TO_UPDATE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
 req.redist: 

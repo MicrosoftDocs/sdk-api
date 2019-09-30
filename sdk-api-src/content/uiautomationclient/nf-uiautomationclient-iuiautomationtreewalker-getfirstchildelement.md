@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.h
 api_name:
  - IUIAutomationTreeWalker.GetFirstChildElement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

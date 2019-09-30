@@ -40,7 +40,6 @@ api_name:
  - CertOpenSystemStore
  - CertOpenSystemStoreA
  - CertOpenSystemStoreW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

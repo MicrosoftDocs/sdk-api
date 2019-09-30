@@ -40,7 +40,6 @@ api_name:
  - PdhValidatePathEx
  - PdhValidatePathExA
  - PdhValidatePathExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

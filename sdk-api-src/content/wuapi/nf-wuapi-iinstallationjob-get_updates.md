@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationJob.Updates
  - IInstallationJob.get_Updates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

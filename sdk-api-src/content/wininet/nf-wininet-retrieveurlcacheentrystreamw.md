@@ -40,7 +40,6 @@ api_name:
 - RetrieveUrlCacheEntryStream
 - RetrieveUrlCacheEntryStreamA
 - RetrieveUrlCacheEntryStreamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

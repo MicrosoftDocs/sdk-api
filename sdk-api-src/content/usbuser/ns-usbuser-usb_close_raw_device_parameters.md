@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USB_CLOSE_RAW_DEVICE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: USB_CLOSE_RAW_DEVICE_PARAMETERS, *PUSB_CLOSE_RAW_DEVICE_PARAMETERS
 req.redist: 

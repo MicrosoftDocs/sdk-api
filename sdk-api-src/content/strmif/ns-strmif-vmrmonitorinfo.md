@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRMONITORINFO
-product: Windows
 targetos: Windows
 req.typenames: VMRMONITORINFO
 req.redist: 

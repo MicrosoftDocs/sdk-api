@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFProtectedEnvironmentAccess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, *PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 req.redist: DbgHelp.dll 6.5 or later

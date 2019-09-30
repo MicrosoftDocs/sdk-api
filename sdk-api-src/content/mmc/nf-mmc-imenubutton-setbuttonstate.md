@@ -38,7 +38,6 @@ api_location:
 - Mmcndmgr.dll
 api_name:
 - IMenuButton.SetButtonState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

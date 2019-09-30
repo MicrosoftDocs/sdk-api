@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECURITY_USER_DATA
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_USER_DATA, *PSECURITY_USER_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CURSORINFO
-product: Windows
 targetos: Windows
 req.typenames: CURSORINFO, *PCURSORINFO, *LPCURSORINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmClassificationRule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

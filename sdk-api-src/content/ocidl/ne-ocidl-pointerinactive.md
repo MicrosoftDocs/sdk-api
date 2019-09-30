@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - POINTERINACTIVE
-product: Windows
 targetos: Windows
 req.typenames: POINTERINACTIVE
 req.redist: 

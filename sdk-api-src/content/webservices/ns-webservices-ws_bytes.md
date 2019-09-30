@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_BYTES
-product: Windows
 targetos: Windows
 req.typenames: WS_BYTES
 req.redist: 

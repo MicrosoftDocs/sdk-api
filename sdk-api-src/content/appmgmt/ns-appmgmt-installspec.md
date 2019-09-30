@@ -38,7 +38,6 @@ api_location:
 - Appmgmt.h
 api_name:
 - INSTALLSPEC
-product: Windows
 targetos: Windows
 req.typenames: INSTALLSPEC
 req.redist: 

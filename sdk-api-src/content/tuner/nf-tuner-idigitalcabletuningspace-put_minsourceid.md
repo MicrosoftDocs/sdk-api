@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDigitalCableTuningSpace.put_MinSourceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

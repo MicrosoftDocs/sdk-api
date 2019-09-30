@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - EXP_SZ_LINK
-product: Windows
 targetos: Windows
 req.typenames: EXP_SZ_LINK, *LPEXP_SZ_LINK
 req.redist: 

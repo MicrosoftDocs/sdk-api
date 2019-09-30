@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.NeedsFileContent
  - IFsrmPipelineModuleDefinition.get_NeedsFileContent
  - IFsrmPipelineModuleDefinition.put_NeedsFileContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

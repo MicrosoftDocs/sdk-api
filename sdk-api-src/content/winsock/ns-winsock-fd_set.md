@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - fd_set
-product: Windows
 targetos: Windows
 req.typenames: fd_set, FD_SET, *PFD_SET, *LPFD_SET
 req.redist: 

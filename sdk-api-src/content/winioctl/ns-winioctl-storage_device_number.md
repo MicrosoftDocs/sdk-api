@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - STORAGE_DEVICE_NUMBER
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
 req.redist: 

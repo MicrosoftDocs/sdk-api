@@ -40,7 +40,6 @@ api_name:
 - InternetFindNextFile
 - InternetFindNextFileA
 - InternetFindNextFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_DefaultDrawingAttributes
  - InkPicture.get_DefaultDrawingAttributes
  - InkPicture.put_DefaultDrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

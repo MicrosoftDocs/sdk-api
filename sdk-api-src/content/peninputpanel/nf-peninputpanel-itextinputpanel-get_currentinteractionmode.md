@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.CurrentInteractionMode
  - ITextInputPanel.get_CurrentInteractionMode
  - ITextInputPanel.get_CurrentInteractionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

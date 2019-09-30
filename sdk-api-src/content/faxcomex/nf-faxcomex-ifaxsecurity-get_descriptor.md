@@ -40,7 +40,6 @@ api_name:
  - IFaxSecurity.Descriptor
  - IFaxSecurity.get_Descriptor
  - IFaxSecurity.put_Descriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationManager2.GetVariableFromTag
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_UseExistingKeySet
  - ICEnroll.put_UseExistingKeySet
  - CEnroll.UseExistingKeySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

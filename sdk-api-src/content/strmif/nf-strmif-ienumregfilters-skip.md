@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - IEnumRegFilters.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

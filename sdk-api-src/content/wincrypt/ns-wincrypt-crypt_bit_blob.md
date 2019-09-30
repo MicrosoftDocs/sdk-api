@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_BIT_BLOB
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_BIT_BLOB, *PCRYPT_BIT_BLOB
 req.redist: 

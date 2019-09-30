@@ -38,7 +38,6 @@ api_location:
  - Snmpapi.dll
 api_name:
  - SnmpUtilIdsToA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

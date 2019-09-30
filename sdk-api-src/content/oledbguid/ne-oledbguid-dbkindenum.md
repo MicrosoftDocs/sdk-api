@@ -38,7 +38,6 @@ api_location:
  - oledbguid.h
 api_name:
  - DBKINDENUM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

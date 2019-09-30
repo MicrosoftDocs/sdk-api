@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MprAdminInitializeDllEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

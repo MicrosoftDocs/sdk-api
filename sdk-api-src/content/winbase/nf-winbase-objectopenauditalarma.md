@@ -46,7 +46,6 @@ api_name:
 - ObjectOpenAuditAlarm
 - ObjectOpenAuditAlarmA
 - ObjectOpenAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.JobId
  - IFaxJob.get_JobId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

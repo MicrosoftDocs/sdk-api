@@ -38,7 +38,6 @@ api_location:
  - Winsock2.h
 api_name:
  - WSAECOMPARATOR
-product: Windows
 targetos: Windows
 req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
 req.redist: 

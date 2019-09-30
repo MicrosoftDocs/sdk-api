@@ -38,7 +38,6 @@ api_location:
  - tdiinfo.h
 api_name:
  - TCP_REQUEST_QUERY_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_W2K, *PTCP_REQUEST_QUERY_INFORMATION_EX_W2K
 req.redist: 

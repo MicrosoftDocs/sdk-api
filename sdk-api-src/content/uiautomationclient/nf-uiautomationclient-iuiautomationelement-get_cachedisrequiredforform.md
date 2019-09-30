@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedIsRequiredForForm
  - IUIAutomationElement.get_CachedIsRequiredForForm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

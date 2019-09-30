@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxDocument.Submit
  - IFaxDocument.Submit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

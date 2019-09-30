@@ -38,7 +38,6 @@ api_location:
  - TlHelp32.h
 api_name:
  - HEAPLIST32
-product: Windows
 targetos: Windows
 req.typenames: HEAPLIST32
 req.redist: 

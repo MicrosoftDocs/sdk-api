@@ -38,7 +38,6 @@ api_location:
  - D3D11_3.h
 api_name:
  - D3D11_CONTEXT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D11_CONTEXT_TYPE
 req.redist: 

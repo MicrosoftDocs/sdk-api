@@ -39,7 +39,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_BEST_IF
-product: Windows
 targetos: Windows
 req.typenames: MIB_BEST_IF, *PMIB_BEST_IF
 req.redist: 

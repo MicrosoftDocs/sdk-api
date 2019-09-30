@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_VALUE
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_VALUE, *PCLUSPROP_VALUE
 req.redist: 

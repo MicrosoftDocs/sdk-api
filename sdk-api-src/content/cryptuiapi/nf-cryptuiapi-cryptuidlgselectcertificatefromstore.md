@@ -41,7 +41,6 @@ api_location:
  - CertCredProviderOneCore.dll
 api_name:
  - CryptUIDlgSelectCertificateFromStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

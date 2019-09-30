@@ -40,7 +40,6 @@ api_name:
  - PdhBrowseCounters
  - PdhBrowseCountersA
  - PdhBrowseCountersW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

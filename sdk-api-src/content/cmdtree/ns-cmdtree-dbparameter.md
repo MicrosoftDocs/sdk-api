@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBPARAMETER
-product: Windows
 targetos: Windows
 req.typenames: DBPARAMETER
 req.redist: 

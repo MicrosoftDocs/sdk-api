@@ -38,7 +38,6 @@ api_location:
  - inputpanelconfiguration.h
 api_name:
  - IInputPanelConfiguration.EnableFocusTracking
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

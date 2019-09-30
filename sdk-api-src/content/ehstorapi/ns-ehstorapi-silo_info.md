@@ -38,7 +38,6 @@ api_location:
  - EhStorAPI.h
 api_name:
  - SILO_INFO
-product: Windows
 targetos: Windows
 req.typenames: SILO_INFO
 req.redist: 

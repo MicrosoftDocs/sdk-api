@@ -38,7 +38,6 @@ api_location:
  - mpconfig.h
 api_name:
  - AM_ASPECT_RATIO_MODE
-product: Windows
 targetos: Windows
 req.typenames: AM_ASPECT_RATIO_MODE
 req.redist: 

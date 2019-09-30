@@ -41,7 +41,6 @@ api_name:
  - INetFwAuthorizedApplication.RemoteAddresses
  - INetFwAuthorizedApplication.get_RemoteAddresses
  - INetFwAuthorizedApplication.put_RemoteAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

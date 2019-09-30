@@ -48,7 +48,6 @@ api_name:
  - GetWindowLongPtr
  - GetWindowLongPtrA
  - GetWindowLongPtrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

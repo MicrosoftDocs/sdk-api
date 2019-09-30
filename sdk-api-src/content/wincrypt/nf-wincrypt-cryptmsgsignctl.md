@@ -38,7 +38,6 @@ api_location:
 - Crypt32.dll
 api_name:
 - CryptMsgSignCTL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

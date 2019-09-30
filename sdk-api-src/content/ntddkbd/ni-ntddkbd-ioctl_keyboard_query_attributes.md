@@ -38,7 +38,6 @@ api_location:
 - ntddkbd.h
 api_name:
 - IOCTL_KEYBOARD_QUERY_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

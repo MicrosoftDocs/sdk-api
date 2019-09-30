@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFPMPHostApp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

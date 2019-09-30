@@ -38,7 +38,6 @@ api_location:
  - wmpplug.h
 api_name:
  - IWMPPluginUI.GetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

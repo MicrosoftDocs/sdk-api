@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxSecurity.Save
  - IFaxSecurity.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

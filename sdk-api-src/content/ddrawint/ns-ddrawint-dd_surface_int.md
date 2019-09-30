@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SURFACE_INT
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SURFACE_INT, DD_SURFACE_INT'
 req.redist: 

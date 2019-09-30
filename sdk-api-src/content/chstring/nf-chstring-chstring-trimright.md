@@ -41,7 +41,6 @@ api_name:
  - CHString.TrimRight
  - ?TrimRight@CHString@@QAEXXZ
  - ?TrimRight@CHString@@QEAAXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

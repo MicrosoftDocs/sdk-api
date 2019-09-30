@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - TextPattern_RangeFromPoint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

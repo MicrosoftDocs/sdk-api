@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IFTABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_IFTABLE, *PMIB_IFTABLE
 req.redist: 

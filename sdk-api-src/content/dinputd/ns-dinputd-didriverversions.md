@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIDRIVERVERSIONS
-product: Windows
 targetos: Windows
 req.typenames: DIDRIVERVERSIONS, *LPDIDRIVERVERSIONS
 req.redist: 

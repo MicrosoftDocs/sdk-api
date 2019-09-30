@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionEventLog.EventType
  - IFsrmActionEventLog.get_EventType
  - IFsrmActionEventLog.put_EventType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

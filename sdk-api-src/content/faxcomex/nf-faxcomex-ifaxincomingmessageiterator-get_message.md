@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessageIterator.Message
  - IFaxIncomingMessageIterator.get_Message
  - IFaxIncomingMessageIterator.get_Message
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

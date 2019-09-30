@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComThreadEvents.OnThreadTerminate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

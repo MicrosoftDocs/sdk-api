@@ -43,7 +43,6 @@ api_name:
  - GetAtomName
  - GetAtomNameA
  - GetAtomNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

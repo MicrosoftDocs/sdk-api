@@ -38,7 +38,6 @@ api_location:
 - VsProv.h
 api_name:
 - IVssHardwareSnapshotProvider.GetTargetLuns
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

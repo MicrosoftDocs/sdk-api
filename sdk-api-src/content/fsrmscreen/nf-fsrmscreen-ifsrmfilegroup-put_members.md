@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileGroup.Members
  - IFsrmFileGroup.get_Members
  - IFsrmFileGroup.put_Members
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

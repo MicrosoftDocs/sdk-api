@@ -38,7 +38,6 @@ api_location:
 - ksopmapi.h
 api_name:
 - OPM_GET_CODEC_INFO_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: OPM_GET_CODEC_INFO_INFORMATION
 req.redist: 

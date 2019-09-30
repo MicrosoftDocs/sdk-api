@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkMousePointer
-product: Windows
 targetos: Windows
 req.typenames: InkMousePointer
 req.redist: 

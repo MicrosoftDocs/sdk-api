@@ -49,7 +49,6 @@ api_name:
  - RegCopyTree
  - RegCopyTreeA
  - RegCopyTreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

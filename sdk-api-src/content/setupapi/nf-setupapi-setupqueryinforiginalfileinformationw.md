@@ -40,7 +40,6 @@ api_name:
 - SetupQueryInfOriginalFileInformation
 - SetupQueryInfOriginalFileInformationA
 - SetupQueryInfOriginalFileInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

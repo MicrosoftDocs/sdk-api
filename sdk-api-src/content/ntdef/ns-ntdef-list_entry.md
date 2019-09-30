@@ -38,7 +38,6 @@ api_location:
  - Ntdef.h
 api_name:
  - LIST_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
 req.redist: 

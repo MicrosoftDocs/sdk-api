@@ -40,7 +40,6 @@ api_name:
  - INewShortcutHook.SetFolder
  - INewShortcutHookA::SetFolder
  - INewShortcutHookW::SetFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

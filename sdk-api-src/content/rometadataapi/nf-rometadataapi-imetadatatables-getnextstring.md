@@ -38,7 +38,6 @@ api_location:
  - rometadataapi.h
 api_name:
  - IMetaDataTables.GetNextString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

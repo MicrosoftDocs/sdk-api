@@ -38,7 +38,6 @@ api_location:
  - Rpcasync.h
 api_name:
  - RPC_EXTENDED_ERROR_INFO
-product: Windows
 targetos: Windows
 req.typenames: RPC_EXTENDED_ERROR_INFO
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
 - FindFirstFileTransacted
 - FindFirstFileTransactedA
 - FindFirstFileTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

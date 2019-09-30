@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.RegistrationInfo
  - ITaskDefinition.get_RegistrationInfo
  - ITaskDefinition.put_RegistrationInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

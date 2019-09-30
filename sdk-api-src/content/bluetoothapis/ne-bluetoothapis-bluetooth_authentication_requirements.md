@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_AUTHENTICATION_REQUIREMENTS
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 req.redist: 

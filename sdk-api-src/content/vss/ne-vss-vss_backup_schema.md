@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_BACKUP_SCHEMA
-product: Windows
 targetos: Windows
 req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
 req.redist: 

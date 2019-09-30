@@ -47,7 +47,6 @@ api_name:
 - GetVolumeInformation
 - GetVolumeInformationA
 - GetVolumeInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

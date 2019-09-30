@@ -40,7 +40,6 @@ api_name:
  - ldap_encode_sort_control
  - ldap_encode_sort_controlA
  - ldap_encode_sort_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -28,7 +28,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE
-product: Windows
 targetos: Windows
 ---
 

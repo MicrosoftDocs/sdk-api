@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSubscriberInformation.SubscriberID
  - IMbnSubscriberInformation.get_SubscriberID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

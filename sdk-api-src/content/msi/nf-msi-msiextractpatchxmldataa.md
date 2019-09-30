@@ -40,7 +40,6 @@ api_name:
  - MsiExtractPatchXMLData
  - MsiExtractPatchXMLDataA
  - MsiExtractPatchXMLDataW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winbio.h
 api_name:
  - WINBIO_ASYNC_RESULT
-product: Windows
 targetos: Windows
 req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
 req.redist: 

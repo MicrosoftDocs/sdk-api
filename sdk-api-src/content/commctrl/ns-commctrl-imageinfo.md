@@ -38,7 +38,6 @@ api_location:
  - commoncontrols.h
 api_name:
  - IMAGEINFO
-product: Windows
 targetos: Windows
 req.typenames: IMAGEINFO, *LPIMAGEINFO
 req.redist: 

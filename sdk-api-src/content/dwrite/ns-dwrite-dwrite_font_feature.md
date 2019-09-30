@@ -38,7 +38,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_FONT_FEATURE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

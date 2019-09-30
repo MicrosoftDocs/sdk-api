@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - EDITBALLOONTIP
-product: Windows
 targetos: Windows
 req.typenames: EDITBALLOONTIP, *PEDITBALLOONTIP
 req.redist: 

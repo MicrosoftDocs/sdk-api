@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DLGITEMTEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: DLGITEMTEMPLATE
 req.redist: 

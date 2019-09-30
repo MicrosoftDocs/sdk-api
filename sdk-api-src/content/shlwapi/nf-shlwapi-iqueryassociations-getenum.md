@@ -38,7 +38,6 @@ api_location:
  - shlwapi.h
 api_name:
  - IQueryAssociations.GetEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

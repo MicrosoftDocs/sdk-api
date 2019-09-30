@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIApplicationFilter.Windows
  - IRDPSRAPIApplicationFilter.get_Windows
  - RDPSRAPIApplicationFilter.Windows
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

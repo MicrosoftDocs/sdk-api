@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - WAVEHDR
-product: Windows
 targetos: Windows
 req.typenames: WAVEHDR, *PWAVEHDR, *NPWAVEHDR, *LPWAVEHDR
 req.redist: 

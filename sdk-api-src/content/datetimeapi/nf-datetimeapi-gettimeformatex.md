@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-Core-DateTime-L1-1-2.dll
 api_name:
  - GetTimeFormatEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

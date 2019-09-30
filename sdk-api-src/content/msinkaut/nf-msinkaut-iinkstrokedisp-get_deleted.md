@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.Deleted
  - IInkStrokeDisp.get_Deleted
  - IInkStrokeDisp.get_Deleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_STATUSENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_STATUSENUM
 req.redist: 

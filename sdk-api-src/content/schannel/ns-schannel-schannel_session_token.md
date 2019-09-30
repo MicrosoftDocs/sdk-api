@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SCHANNEL_SESSION_TOKEN
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_SESSION_TOKEN
 req.redist: 

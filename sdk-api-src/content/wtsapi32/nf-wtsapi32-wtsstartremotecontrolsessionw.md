@@ -40,7 +40,6 @@ api_name:
  - WTSStartRemoteControlSession
  - WTSStartRemoteControlSessionA
  - WTSStartRemoteControlSessionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

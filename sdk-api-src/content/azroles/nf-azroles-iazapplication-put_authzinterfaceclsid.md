@@ -41,7 +41,6 @@ api_name:
  - IAzApplication.get_AuthzInterfaceClsid
  - IAzApplication.put_AuthzInterfaceClsid
  - AzApplication.AuthzInterfaceClsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

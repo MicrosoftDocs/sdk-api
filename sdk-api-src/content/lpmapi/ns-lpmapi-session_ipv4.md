@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Session_IPv4
-product: Windows
 targetos: Windows
 req.typenames: Session_IPv4
 req.redist: 

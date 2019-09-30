@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitationManager._NewEnum
  - IRDPSRAPIInvitationManager.get__NewEnum
  - RDPSRAPIInvitationManager._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

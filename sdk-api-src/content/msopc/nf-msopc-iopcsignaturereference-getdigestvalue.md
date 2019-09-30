@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcSignatureReference.GetDigestValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

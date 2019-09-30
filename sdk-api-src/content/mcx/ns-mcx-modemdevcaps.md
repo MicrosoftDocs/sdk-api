@@ -38,7 +38,6 @@ api_location:
 - Mcx.h
 api_name:
 - MODEMDEVCAPS
-product: Windows
 targetos: Windows
 req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmsbuffer.h
 api_name:
  - IWMSBufferAllocator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

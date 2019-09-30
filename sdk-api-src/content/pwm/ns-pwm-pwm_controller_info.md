@@ -38,7 +38,6 @@ api_location:
  - Pwm.h
 api_name:
  - PWM_CONTROLLER_INFO
-product: Windows
 targetos: Windows
 req.typenames: PWM_CONTROLLER_INFO
 req.redist: 

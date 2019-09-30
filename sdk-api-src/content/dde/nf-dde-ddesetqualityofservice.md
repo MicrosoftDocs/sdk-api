@@ -38,7 +38,6 @@ api_location:
 - User32.dll
 api_name:
 - DdeSetQualityOfService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

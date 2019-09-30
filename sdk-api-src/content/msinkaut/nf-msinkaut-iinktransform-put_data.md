@@ -43,7 +43,6 @@ api_name:
  - IInkTransform.put_Data
  - InkTransform.get_Data
  - InkTransform.put_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

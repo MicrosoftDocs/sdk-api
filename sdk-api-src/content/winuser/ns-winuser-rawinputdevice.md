@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RAWINPUTDEVICE
-product: Windows
 targetos: Windows
 req.typenames: RAWINPUTDEVICE, *PRAWINPUTDEVICE, *LPRAWINPUTDEVICE
 req.redist: 

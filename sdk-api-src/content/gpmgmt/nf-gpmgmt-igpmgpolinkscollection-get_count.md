@@ -40,7 +40,6 @@ api_name:
  - IGPMGPOLinksCollection.Count
  - IGPMGPOLinksCollection.get_Count
  - GPMGPOLinksCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

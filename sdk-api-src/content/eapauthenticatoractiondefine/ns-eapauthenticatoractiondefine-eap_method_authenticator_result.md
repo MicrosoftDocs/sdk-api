@@ -38,7 +38,6 @@ api_location:
 - EapAuthenticatorActionDefine.h
 api_name:
 - EAP_METHOD_AUTHENTICATOR_RESULT
-product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_AUTHENTICATOR_RESULT
 req.redist: 

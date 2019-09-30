@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - DETAILSINFO
-product: Windows
 targetos: Windows
 req.typenames: DETAILSINFO
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowOutboundDestinationUnreachable
  - INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
  - INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

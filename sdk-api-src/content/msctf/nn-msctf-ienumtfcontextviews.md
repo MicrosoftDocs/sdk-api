@@ -38,7 +38,6 @@ api_location:
  - msctf.h
 api_name:
  - IEnumTfContextViews
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
  - SHGetInverseCMAP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

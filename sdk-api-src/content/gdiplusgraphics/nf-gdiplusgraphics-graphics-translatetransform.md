@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Graphics.TranslateTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

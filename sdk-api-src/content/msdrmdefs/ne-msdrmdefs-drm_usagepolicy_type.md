@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_USAGEPOLICY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DRM_USAGEPOLICY_TYPE
 req.redist: 

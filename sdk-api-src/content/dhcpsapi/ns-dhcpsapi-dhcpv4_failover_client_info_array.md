@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, *LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY
 req.redist: 

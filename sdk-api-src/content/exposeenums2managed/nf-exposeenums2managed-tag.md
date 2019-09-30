@@ -172,7 +172,6 @@ api_name:
  - TAG_TAG
  - TAG_INDEX_TAG
  - TAG_INDEX_KEY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

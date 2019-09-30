@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - SearchScope
-product: Windows
 targetos: Windows
 req.typenames: SearchScope
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - phoneGetButtonInfo
  - phoneGetButtonInfoA
  - phoneGetButtonInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - PIXELFORMATDESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.LegacyCsp
  - IX509PrivateKey.get_LegacyCsp
  - IX509PrivateKey.put_LegacyCsp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

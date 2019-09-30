@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - IS_ADSPEC_BODY
-product: Windows
 targetos: Windows
 req.typenames: IS_ADSPEC_BODY
 req.redist: 

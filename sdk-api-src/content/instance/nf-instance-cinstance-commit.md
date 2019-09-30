@@ -41,7 +41,6 @@ api_name:
  - CInstance.Commit
  - ?Commit@CInstance@@QAEJXZ
  - ?Commit@CInstance@@QEAAJXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

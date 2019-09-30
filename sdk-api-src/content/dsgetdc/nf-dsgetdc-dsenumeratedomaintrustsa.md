@@ -40,7 +40,6 @@ api_name:
 - DsEnumerateDomainTrusts
 - DsEnumerateDomainTrustsA
 - DsEnumerateDomainTrustsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

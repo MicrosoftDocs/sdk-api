@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - RSVP_ADSPEC
-product: Windows
 targetos: Windows
 req.typenames: RSVP_ADSPEC, *LPRSVP_ADSPEC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Audioapotypes.h
 api_name:
  - APO_CONNECTION_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: APO_CONNECTION_PROPERTY
 req.redist: 

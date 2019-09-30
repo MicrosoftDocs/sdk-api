@@ -38,7 +38,6 @@ api_location:
 - Wsrm.h
 api_name:
 - RM_SENDER_STATS
-product: Windows
 targetos: Windows
 req.typenames: RM_SENDER_STATS
 req.redist: 

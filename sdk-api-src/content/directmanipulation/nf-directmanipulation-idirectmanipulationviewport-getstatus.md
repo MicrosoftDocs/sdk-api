@@ -38,7 +38,6 @@ api_location:
  - DirectManipulation.h
 api_name:
  - IDirectManipulationViewport.GetStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

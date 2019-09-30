@@ -38,7 +38,6 @@ api_location:
 - tpcshrd.h
 api_name:
 - PACKET_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: PACKET_DESCRIPTION, *PPACKET_DESCRIPTION
 req.redist: 

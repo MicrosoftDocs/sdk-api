@@ -49,7 +49,6 @@ api_name:
  - FindFirstVolume
  - FindFirstVolumeA
  - FindFirstVolumeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - CameraControlProperty
-product: Windows
 targetos: Windows
 req.typenames: CameraControlProperty
 req.redist: 

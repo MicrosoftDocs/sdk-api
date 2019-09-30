@@ -41,7 +41,6 @@ api_name:
 - SymGetLineNext64
 - SymGetLineNextW64
 - SymGetLineNext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TRACKMOUSEEVENT
-product: Windows
 targetos: Windows
 req.typenames: TRACKMOUSEEVENT, *LPTRACKMOUSEEVENT
 req.redist: 

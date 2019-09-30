@@ -43,7 +43,6 @@ api_name:
  - RegEnumKey
  - RegEnumKeyA
  - RegEnumKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

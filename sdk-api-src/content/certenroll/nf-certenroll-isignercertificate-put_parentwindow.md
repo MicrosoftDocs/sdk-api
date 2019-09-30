@@ -40,7 +40,6 @@ api_name:
  - ISignerCertificate.ParentWindow
  - ISignerCertificate.get_ParentWindow
  - ISignerCertificate.put_ParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

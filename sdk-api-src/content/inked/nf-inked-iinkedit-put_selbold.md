@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelBold
  - InkEdit.get_SelBold
  - InkEdit.put_SelBold
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

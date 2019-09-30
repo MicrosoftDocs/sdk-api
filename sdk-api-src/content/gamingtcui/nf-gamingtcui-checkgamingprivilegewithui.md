@@ -38,7 +38,6 @@ api_location:
  - gamingtcui.dll
 api_name:
  - CheckGamingPrivilegeWithUI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

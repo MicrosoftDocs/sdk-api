@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_CLIENT_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: DRM_CLIENT_VERSION_INFO
 req.redist: 

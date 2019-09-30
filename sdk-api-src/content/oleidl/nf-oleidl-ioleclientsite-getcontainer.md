@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - IOleClientSite.GetContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

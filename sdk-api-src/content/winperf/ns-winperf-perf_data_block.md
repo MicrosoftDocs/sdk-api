@@ -38,7 +38,6 @@ api_location:
 - Winperf.h
 api_name:
 - PERF_DATA_BLOCK
-product: Windows
 targetos: Windows
 req.typenames: PERF_DATA_BLOCK, *PPERF_DATA_BLOCK
 req.redist: 

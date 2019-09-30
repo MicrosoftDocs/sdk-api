@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidateDeletionFlags
  - ?ValidateDeletionFlags@Provider@@MAEJJ@Z
  - ?ValidateDeletionFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

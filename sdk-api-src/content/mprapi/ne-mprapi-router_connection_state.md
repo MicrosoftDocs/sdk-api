@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - ROUTER_CONNECTION_STATE
-product: Windows
 targetos: Windows
 req.typenames: ROUTER_CONNECTION_STATE
 req.redist: 

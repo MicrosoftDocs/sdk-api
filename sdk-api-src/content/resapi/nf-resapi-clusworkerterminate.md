@@ -8,7 +8,6 @@ tech.root: MsCS
 ms.keywords: ClusWorkerTerminate
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 f1_keywords: 
  - "resapi/ClusWorkerTerminate"
 req.assembly: 

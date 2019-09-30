@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_Sizes
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Sizes, *PSecPkgContext_Sizes
 req.redist: 

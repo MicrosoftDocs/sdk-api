@@ -40,7 +40,6 @@ api_name:
  - IAzRoles.Item
  - IAzRoles.get_Item
  - AzRoles.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

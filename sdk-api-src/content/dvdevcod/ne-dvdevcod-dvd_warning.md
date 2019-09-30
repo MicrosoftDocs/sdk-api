@@ -38,7 +38,6 @@ api_location:
 - dvdevcod.h
 api_name:
 - DVD_WARNING
-product: Windows
 targetos: Windows
 req.typenames: DVD_WARNING
 req.redist: 

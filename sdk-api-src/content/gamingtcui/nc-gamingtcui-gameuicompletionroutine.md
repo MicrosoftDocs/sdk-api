@@ -38,7 +38,6 @@ api_location:
  - gamingtcui.h
 api_name:
  - GameUICompletionRoutine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

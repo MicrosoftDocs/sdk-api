@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - PathGradientBrush.SetGraphicsPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - SERVERCALL
-product: Windows
 targetos: Windows
 req.typenames: SERVERCALL
 req.redist: 

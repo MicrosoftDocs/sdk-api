@@ -45,7 +45,6 @@ api_location:
  - API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
  - LocalAlloc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

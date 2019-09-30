@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - ImageList_ReplaceIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - linger
-product: Windows
 targetos: Windows
 req.typenames: LINGER, *PLINGER, *LPLINGER
 req.redist: 

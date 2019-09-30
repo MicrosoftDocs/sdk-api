@@ -38,7 +38,6 @@ api_location:
  - Upnphost.dll
 api_name:
  - IUPnPEventSource.Unadvise
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

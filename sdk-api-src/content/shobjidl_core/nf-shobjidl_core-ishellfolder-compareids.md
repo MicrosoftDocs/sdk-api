@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.CompareIDs
 - IShellFolder2.CompareIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

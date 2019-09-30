@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.DesiredDisplacement
  - IInertiaProcessor.get_DesiredDisplacement
  - IInertiaProcessor.put_DesiredDisplacement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - EnumRegisterWordProcA
  - EnumRegisterWordProcW
  - registerwordenumprocw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

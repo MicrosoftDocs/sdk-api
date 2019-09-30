@@ -38,7 +38,6 @@ api_location:
  - VdmDbg.h
 api_name:
  - TASKENUMPROCEX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

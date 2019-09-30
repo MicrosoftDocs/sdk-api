@@ -40,7 +40,6 @@ api_name:
  - EnumResNameProc
  - EnumResNameProcA
  - EnumResNameProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

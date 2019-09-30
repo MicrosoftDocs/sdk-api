@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - IShellFolderViewDual2.put_CurrentViewMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

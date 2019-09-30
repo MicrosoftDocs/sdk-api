@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRecognitionAlternatesSelection
-product: Windows
 targetos: Windows
 req.typenames: InkRecognitionAlternatesSelection
 req.redist: 

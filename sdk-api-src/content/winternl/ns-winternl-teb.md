@@ -38,7 +38,6 @@ api_location:
  - Winternl.h
 api_name:
  - TEB
-product: Windows
 targetos: Windows
 req.typenames: TEB, *PTEB
 req.redist: 

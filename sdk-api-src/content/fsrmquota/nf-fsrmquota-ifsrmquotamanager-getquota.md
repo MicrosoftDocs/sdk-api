@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaManager.GetQuota
  - IFsrmQuotaManagerEx.GetQuota
  - FsrmQuotaManager.GetQuota
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

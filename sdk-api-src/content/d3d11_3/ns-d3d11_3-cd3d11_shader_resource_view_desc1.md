@@ -38,7 +38,6 @@ api_location:
  - D3D11_3.h
 api_name:
  - D3D11_SHADER_RESOURCE_VIEW_DESC1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

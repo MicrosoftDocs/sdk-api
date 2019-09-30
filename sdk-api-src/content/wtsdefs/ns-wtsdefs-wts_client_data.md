@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_CLIENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_DATA, *PWTS_CLIENT_DATA
 req.redist: 

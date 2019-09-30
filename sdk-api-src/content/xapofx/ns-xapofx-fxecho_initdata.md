@@ -38,7 +38,6 @@ api_location:
  - xapofx.h
 api_name:
  - FXECHO_INITDATA
-product: Windows
 targetos: Windows
 req.typenames: FXECHO_INITDATA
 req.redist: 

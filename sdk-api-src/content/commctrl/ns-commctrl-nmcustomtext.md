@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMCUSTOMTEXT
-product: Windows
 targetos: Windows
 req.typenames: NMCUSTOMTEXT, *LPNMCUSTOMTEXT
 req.redist: 

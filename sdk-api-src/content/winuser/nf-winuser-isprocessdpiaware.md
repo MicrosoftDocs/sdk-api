@@ -40,7 +40,6 @@ api_location:
  - minuser.dll
 api_name:
  - IsProcessDPIAware
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

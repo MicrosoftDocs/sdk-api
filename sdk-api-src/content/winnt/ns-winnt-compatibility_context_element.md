@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - COMPATIBILITY_CONTEXT_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: COMPATIBILITY_CONTEXT_ELEMENT, *PCOMPATIBILITY_CONTEXT_ELEMENT
 req.redist: 

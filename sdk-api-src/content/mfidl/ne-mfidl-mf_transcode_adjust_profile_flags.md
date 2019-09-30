@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - MsiGetProductInfoEx
  - MsiGetProductInfoExA
  - MsiGetProductInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

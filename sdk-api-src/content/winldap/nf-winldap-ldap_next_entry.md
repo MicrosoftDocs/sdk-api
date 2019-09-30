@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_next_entry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

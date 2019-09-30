@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsi_Revoke_Attestation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

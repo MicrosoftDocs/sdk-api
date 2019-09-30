@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IServiceTransactionConfigBase.IsolationLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

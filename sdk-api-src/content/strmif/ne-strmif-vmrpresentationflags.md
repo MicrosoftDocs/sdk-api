@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRPresentationFlags
-product: Windows
 targetos: Windows
 req.typenames: VMRPresentationFlags
 req.redist: 

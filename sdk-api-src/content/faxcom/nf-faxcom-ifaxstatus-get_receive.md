@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.Receive
  - IFaxStatus.get_Receive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

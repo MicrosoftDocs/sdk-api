@@ -38,7 +38,6 @@ api_location:
  - Clfsmgmtw32.h
 api_name:
  - LOG_MANAGEMENT_CALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
 req.redist: 

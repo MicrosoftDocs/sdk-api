@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.Enabled
  - IFsrmPipelineModuleDefinition.get_Enabled
  - IFsrmPipelineModuleDefinition.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

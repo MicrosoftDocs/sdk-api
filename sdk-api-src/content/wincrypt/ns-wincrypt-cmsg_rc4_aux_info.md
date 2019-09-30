@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_RC4_AUX_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_RC4_AUX_INFO, *PCMSG_RC4_AUX_INFO
 req.redist: 

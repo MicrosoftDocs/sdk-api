@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_OFFSET_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: WMT_OFFSET_FORMAT
 req.redist: 

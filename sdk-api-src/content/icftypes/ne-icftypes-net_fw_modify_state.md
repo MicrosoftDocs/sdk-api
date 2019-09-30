@@ -38,7 +38,6 @@ api_location:
  - Icftypes.h
 api_name:
  - NET_FW_MODIFY_STATE
-product: Windows
 targetos: Windows
 req.typenames: NET_FW_MODIFY_STATE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IComHandlerAction.ClassId
  - IComHandlerAction.get_ClassId
  - IComHandlerAction.put_ClassId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

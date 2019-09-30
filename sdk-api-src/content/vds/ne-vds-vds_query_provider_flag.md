@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_QUERY_PROVIDER_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_QUERY_PROVIDER_FLAG
 req.redist: 

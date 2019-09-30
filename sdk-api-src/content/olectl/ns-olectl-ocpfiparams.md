@@ -38,7 +38,6 @@ api_location:
  - Olectl.h
 api_name:
  - OCPFIPARAMS
-product: Windows
 targetos: Windows
 req.typenames: OCPFIPARAMS, *LPOCPFIPARAMS
 req.redist: 

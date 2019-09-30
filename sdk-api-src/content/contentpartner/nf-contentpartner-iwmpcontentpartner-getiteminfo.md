@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - IWMPContentPartner.GetItemInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

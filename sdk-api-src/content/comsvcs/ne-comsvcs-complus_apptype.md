@@ -38,7 +38,6 @@ api_location:
 - ComSvcs.h
 api_name:
 - COMPLUS_APPTYPE
-product: Windows
 targetos: Windows
 req.typenames: COMPLUS_APPTYPE
 req.redist: 

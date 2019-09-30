@@ -42,7 +42,6 @@ api_name:
  - CredUIParseUserName
  - CredUIParseUserNameA
  - CredUIParseUserNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

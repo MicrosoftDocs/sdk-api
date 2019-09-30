@@ -39,7 +39,6 @@ api_location:
  - twinapi.dll
 api_name:
  - IAppVisibilityEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

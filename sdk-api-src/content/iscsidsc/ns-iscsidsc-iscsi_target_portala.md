@@ -40,7 +40,6 @@ api_name:
  - ISCSI_TARGET_PORTAL
  - ISCSI_TARGET_PORTALA
  - ISCSI_TARGET_PORTALW
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTALA, *PISCSI_TARGET_PORTALA
 req.redist: 

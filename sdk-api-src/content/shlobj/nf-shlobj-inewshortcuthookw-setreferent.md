@@ -42,7 +42,6 @@ api_name:
  - INewShortcutHook.SetReferent
  - INewShortcutHookA::SetReferent
  - INewShortcutHookW::SetReferent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

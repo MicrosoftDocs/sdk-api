@@ -42,7 +42,6 @@ api_name:
  - DecryptFile
  - DecryptFileA
  - DecryptFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

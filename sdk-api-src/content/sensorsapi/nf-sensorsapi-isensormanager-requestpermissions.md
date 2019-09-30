@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorManager.RequestPermissions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

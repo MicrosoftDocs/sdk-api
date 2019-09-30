@@ -41,7 +41,6 @@ api_name:
  - CWbemProviderGlue.FrameworkLoginDLL
  - ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
  - ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

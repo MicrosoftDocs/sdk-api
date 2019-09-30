@@ -38,7 +38,6 @@ api_location:
  - VsWriter.h
 api_name:
  - VSS_RESTORE_TARGET
-product: Windows
 targetos: Windows
 req.typenames: VSS_RESTORE_TARGET
 req.redist: 

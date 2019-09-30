@@ -46,7 +46,6 @@ api_name:
  - GetTextMetrics
  - GetTextMetricsA
  - GetTextMetricsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

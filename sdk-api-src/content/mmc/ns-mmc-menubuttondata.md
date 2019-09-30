@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MENUBUTTONDATA
-product: Windows
 targetos: Windows
 req.typenames: MENUBUTTONDATA
 req.redist: 

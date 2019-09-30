@@ -38,7 +38,6 @@ api_location:
  - d2d1.h
 api_name:
  - D2D1_OPACITY_MASK_CONTENT
-product: Windows
 targetos: Windows
 req.typenames: D2D1_OPACITY_MASK_CONTENT
 req.redist: 

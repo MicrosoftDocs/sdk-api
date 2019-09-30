@@ -38,7 +38,6 @@ api_location:
  - opengl32.dll
 api_name:
  - wglGetLayerPaletteEntries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

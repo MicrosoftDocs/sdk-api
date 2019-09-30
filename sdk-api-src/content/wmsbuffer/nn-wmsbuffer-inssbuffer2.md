@@ -40,7 +40,6 @@ api_name:
  - INSSBuffer2
  - INSSBuffer2.GetSampleProperties
  - INSSBuffer2.SetSampleProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

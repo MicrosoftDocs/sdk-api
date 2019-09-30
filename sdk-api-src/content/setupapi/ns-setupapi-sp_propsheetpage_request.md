@@ -38,7 +38,6 @@ api_location:
 - setupapi.h
 api_name:
 - SP_PROPSHEETPAGE_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
 req.redist: 

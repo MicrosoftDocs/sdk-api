@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRangeValueProvider.Maximum
  - IRangeValueProvider.get_Maximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

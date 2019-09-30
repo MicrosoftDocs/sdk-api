@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MONITORINFOEX
-product: Windows
 targetos: Windows
 req.typenames: MONITORINFOEXA, *LPMONITORINFOEXA
 req.redist: 

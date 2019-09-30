@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationProgressChangedCallbackArgs.Progress
  - IInstallationProgressChangedCallbackArgs.get_Progress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

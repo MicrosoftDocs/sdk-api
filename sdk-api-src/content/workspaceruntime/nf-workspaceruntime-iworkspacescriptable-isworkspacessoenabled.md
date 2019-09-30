@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.IsWorkspaceSSOEnabled
  - IWorkspaceScriptable3.IsWorkspaceSSOEnabled
  - Workspace.IsWorkspaceSSOEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winbase.h
 api_name:
 - COMMCONFIG
-product: Windows
 targetos: Windows
 req.typenames: COMMCONFIG, *LPCOMMCONFIG
 req.redist: 

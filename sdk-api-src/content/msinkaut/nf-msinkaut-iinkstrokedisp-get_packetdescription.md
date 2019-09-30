@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.PacketDescription
  - IInkStrokeDisp.get_PacketDescription
  - IInkStrokeDisp.get_PacketDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

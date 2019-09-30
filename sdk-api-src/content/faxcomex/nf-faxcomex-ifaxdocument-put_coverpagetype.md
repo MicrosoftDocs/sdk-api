@@ -40,7 +40,6 @@ api_name:
  - IFaxDocument.CoverPageType
  - IFaxDocument.get_CoverPageType
  - IFaxDocument.put_CoverPageType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

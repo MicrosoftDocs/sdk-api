@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - ID3D12CommandQueue.SetMarker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

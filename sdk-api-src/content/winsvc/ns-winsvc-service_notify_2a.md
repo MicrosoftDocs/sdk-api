@@ -40,7 +40,6 @@ api_name:
 - SERVICE_NOTIFY
 - SERVICE_NOTIFYA
 - SERVICE_NOTIFYW
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_NOTIFY_2A, *PSERVICE_NOTIFY_2A
 req.redist: 

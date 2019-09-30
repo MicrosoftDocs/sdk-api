@@ -41,7 +41,6 @@ api_name:
  - IFsrmSetting.get_DisableCommandLine
  - IFsrmSetting.put_DisableCommandLine
  - FsrmSetting.DisableCommandLine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

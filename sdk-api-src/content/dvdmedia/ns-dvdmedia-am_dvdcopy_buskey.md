@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPY_BUSKEY
-product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_BUSKEY, *PAM_DVDCOPY_BUSKEY
 req.redist: 

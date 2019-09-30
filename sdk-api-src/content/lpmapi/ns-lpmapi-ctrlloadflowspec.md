@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - CtrlLoadFlowspec
-product: Windows
 targetos: Windows
 req.typenames: CtrlLoadFlowspec
 req.redist: 

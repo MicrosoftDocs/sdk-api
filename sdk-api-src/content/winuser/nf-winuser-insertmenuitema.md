@@ -43,7 +43,6 @@ api_name:
  - InsertMenuItem
  - InsertMenuItemA
  - InsertMenuItemW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

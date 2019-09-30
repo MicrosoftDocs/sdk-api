@@ -40,7 +40,6 @@ api_name:
  - IFaxServer.RegisteredEvents
  - IFaxServer.get_RegisteredEvents
  - IFaxServer.get_RegisteredEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

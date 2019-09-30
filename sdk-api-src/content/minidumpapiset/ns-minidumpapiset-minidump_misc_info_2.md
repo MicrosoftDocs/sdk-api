@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_MISC_INFO_2
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
 req.redist: DbgHelp.dll 6.5 or later

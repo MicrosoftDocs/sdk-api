@@ -10,7 +10,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/PathGradientBrush::SetCenterPoint"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

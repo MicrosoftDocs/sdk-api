@@ -38,7 +38,6 @@ api_location:
 - Objsel.dll
 api_name:
 - IDsObjectPicker.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

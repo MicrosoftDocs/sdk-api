@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - STARTING_VCN_INPUT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
 req.redist: 

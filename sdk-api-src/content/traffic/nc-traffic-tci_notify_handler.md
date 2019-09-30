@@ -38,7 +38,6 @@ api_location:
  - Traffic.h
 api_name:
  - TCI_NOTIFY_HANDLER
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - WRITE_CACHE_ENABLE
-product: Windows
 targetos: Windows
 req.typenames: WRITE_CACHE_ENABLE
 req.redist: 

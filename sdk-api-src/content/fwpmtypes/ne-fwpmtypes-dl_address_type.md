@@ -38,7 +38,6 @@ api_location:
  - netiodef.h
 api_name:
  - DL_ADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
 req.redist: 

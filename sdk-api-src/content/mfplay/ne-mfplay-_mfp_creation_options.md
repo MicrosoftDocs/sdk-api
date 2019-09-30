@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - _MFP_CREATION_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: "_MFP_CREATION_OPTIONS"
 req.redist: 

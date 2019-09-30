@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_NTPRIVATEDRIVERCAPS
-product: Windows
 targetos: Windows
 req.typenames: DD_NTPRIVATEDRIVERCAPS
 req.redist: 

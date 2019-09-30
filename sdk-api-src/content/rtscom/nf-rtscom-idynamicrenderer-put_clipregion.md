@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_ClipRegion
  - IDynamicRenderer.get_ClipRegion
  - IDynamicRenderer.put_ClipRegion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

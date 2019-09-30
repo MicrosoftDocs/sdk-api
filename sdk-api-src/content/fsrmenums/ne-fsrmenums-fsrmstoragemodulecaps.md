@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmStorageModuleCaps
-product: Windows
 targetos: Windows
 req.typenames: FsrmStorageModuleCaps
 req.redist: 

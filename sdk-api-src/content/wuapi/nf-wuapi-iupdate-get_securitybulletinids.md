@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.SecurityBulletinIDs
  - IUpdate.get_SecurityBulletinIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

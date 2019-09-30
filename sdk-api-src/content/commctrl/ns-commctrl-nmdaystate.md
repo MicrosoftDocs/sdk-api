@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMDAYSTATE
-product: Windows
 targetos: Windows
 req.typenames: NMDAYSTATE, *LPNMDAYSTATE
 req.redist: 

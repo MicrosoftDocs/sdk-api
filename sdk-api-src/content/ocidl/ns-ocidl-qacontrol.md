@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - QACONTROL
-product: Windows
 targetos: Windows
 req.typenames: QACONTROL
 req.redist: 

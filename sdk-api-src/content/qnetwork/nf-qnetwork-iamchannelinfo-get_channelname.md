@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMChannelInfo.get_ChannelName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

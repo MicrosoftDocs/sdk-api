@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d12/D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3d12.h

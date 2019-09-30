@@ -38,7 +38,6 @@ api_location:
 - TxfW32.h
 api_name:
 - TXF_ID
-product: Windows
 targetos: Windows
 req.typenames: TXF_ID, *PTXF_ID
 req.redist: 

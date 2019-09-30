@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller.ClientApplicationID
  - IUpdateInstaller.get_ClientApplicationID
  - IUpdateInstaller.put_ClientApplicationID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

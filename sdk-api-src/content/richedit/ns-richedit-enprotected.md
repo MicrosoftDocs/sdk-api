@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENPROTECTED
-product: Windows
 targetos: Windows
 req.typenames: ENPROTECTED
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - davclnt.dll
 api_name:
  - DavGetTheLockOwnerOfTheFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

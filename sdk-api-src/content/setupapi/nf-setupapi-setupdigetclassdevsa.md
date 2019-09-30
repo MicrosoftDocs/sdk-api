@@ -6,7 +6,6 @@ ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 f1_keywords:
 - setupapi/SetupDiGetClassDevs
 req.header: setupapi.h

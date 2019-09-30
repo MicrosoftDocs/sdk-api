@@ -42,7 +42,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - ProcessTrace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

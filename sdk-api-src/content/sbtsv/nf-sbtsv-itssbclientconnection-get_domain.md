@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.Domain
  - ITsSbClientConnection.get_Domain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

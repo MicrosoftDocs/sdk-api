@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TCP_POLICY_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_TCP_POLICY_DESCRIPTION
 req.redist: 

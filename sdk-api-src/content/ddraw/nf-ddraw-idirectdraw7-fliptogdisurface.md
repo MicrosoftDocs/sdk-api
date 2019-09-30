@@ -38,7 +38,6 @@ api_location:
 - Ddraw.dll
 api_name:
 - IDirectDraw7.FlipToGDISurface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

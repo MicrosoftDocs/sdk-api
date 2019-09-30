@@ -38,7 +38,6 @@ api_location:
  - RendezvousSession.tlb
 api_name:
  - IRendezvousSession.SendContextData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

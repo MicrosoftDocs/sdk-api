@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CSC_IISIntrinsicsConfig
-product: Windows
 targetos: Windows
 req.typenames: CSC_IISIntrinsicsConfig
 req.redist: 

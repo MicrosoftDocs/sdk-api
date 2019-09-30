@@ -38,7 +38,6 @@ api_location:
  - DXGI1_2.h
 api_name:
  - DXGI_GRAPHICS_PREEMPTION_GRANULARITY
-product: Windows
 targetos: Windows
 req.typenames: DXGI_GRAPHICS_PREEMPTION_GRANULARITY
 req.redist: 

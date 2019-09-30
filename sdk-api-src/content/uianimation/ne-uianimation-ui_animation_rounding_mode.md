@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_ROUNDING_MODE
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_ROUNDING_MODE
 req.redist: 

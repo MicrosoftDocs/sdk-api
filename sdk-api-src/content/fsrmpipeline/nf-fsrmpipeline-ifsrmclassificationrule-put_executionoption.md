@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationRule.ExecutionOption
  - IFsrmClassificationRule.get_ExecutionOption
  - IFsrmClassificationRule.put_ExecutionOption
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

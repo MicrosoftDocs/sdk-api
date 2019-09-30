@@ -38,7 +38,6 @@ api_location:
  - Ntquery.dll
 api_name:
  - CIBuildQueryNode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

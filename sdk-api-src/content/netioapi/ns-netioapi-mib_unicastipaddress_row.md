@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_UNICASTIPADDRESS_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FAX_ROUTING_METHOD
  - FAX_ROUTING_METHODA
  - FAX_ROUTING_METHODW
-product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTING_METHODA, *PFAX_ROUTING_METHODA
 req.redist: 

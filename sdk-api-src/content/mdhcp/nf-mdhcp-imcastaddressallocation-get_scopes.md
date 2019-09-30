@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IMcastAddressAllocation.get_Scopes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

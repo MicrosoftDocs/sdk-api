@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnActivityLoggingConfigChange
  - IFaxServerNotify2.OnActivityLoggingConfigChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

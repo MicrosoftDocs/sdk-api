@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - ERRLOG_OTHER_INFO
-product: Windows
 targetos: Windows
 req.typenames: ERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, *LPERRLOG_OTHER_INFO
 req.redist: 

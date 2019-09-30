@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationElement2.CachedFlowsFrom
  - IUIAutomationElement2.get_CachedFlowsFrom
  - IUIAutomationElement2.put_CachedFlowsFrom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

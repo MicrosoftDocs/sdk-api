@@ -40,7 +40,6 @@ api_name:
  - EnumDesktops
  - EnumDesktopsA
  - EnumDesktopsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

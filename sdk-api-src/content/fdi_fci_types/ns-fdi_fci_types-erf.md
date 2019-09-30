@@ -38,7 +38,6 @@ api_location:
  - fdi_fci_types.h
 api_name:
  - ERF FAR *PERF
-product: Windows
 targetos: Windows
 req.typenames: ERF
 req.redist: 

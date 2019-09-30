@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - FLICK_POINT
-product: Windows
 targetos: Windows
 req.typenames: FLICK_POINT
 req.redist: 

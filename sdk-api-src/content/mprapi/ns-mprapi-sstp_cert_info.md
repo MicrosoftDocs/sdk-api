@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - SSTP_CERT_INFO
-product: Windows
 targetos: Windows
 req.typenames: SSTP_CERT_INFO, *PSSTP_CERT_INFO
 req.redist: 

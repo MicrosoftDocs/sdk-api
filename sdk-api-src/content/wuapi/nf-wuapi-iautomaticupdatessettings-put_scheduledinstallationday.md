@@ -40,7 +40,6 @@ api_name:
  - IAutomaticUpdatesSettings.ScheduledInstallationDay
  - IAutomaticUpdatesSettings.get_ScheduledInstallationDay
  - IAutomaticUpdatesSettings.put_ScheduledInstallationDay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

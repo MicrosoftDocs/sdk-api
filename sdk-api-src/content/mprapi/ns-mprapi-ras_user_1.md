@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - RAS_USER_1
-product: Windows
 targetos: Windows
 req.typenames: RAS_USER_1, *PRAS_USER_1
 req.redist: 

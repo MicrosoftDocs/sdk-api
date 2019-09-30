@@ -38,7 +38,6 @@ api_location:
  - photoacquire.h
 api_name:
  - IPhotoAcquireOptionsDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

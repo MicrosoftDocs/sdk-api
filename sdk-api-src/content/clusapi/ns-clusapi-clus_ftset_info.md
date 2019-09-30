@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_FTSET_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_FTSET_INFO, *PCLUS_FTSET_INFO
 req.redist: 

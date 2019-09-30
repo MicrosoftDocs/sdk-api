@@ -38,7 +38,6 @@ api_location:
  - ddkernel.h
 api_name:
  - DDKERNELCAPS
-product: Windows
 targetos: Windows
 req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_CLEAR_VALUE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_CLEAR_VALUE
 req.redist: 

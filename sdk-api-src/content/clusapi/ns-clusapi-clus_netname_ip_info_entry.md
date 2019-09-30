@@ -38,7 +38,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUS_NETNAME_IP_INFO_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
 req.redist: 

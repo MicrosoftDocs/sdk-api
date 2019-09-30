@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D1_PIXEL_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: D2D1_PIXEL_FORMAT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IX509EndorsementKey.ProviderName
  - IX509EndorsementKey.get_ProviderName
  - IX509EndorsementKey.put_ProviderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - WNetGetResourceInformation
  - WNetGetResourceInformationA
  - WNetGetResourceInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

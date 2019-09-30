@@ -40,7 +40,6 @@ api_name:
  - SetupRemoveSectionFromDiskSpaceList
  - SetupRemoveSectionFromDiskSpaceListA
  - SetupRemoveSectionFromDiskSpaceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

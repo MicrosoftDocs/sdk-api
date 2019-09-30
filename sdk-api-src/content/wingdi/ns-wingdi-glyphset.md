@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - GLYPHSET
-product: Windows
 targetos: Windows
 req.typenames: GLYPHSET, *PGLYPHSET, *LPGLYPHSET
 req.redist: 

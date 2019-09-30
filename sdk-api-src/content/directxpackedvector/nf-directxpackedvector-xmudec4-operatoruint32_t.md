@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMUDEC4.operator uint32_t
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

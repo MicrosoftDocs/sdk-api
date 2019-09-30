@@ -38,7 +38,6 @@ api_location:
  - Mprapi.h
 api_name:
  - RAS_HARDWARE_CONDITION
-product: Windows
 targetos: Windows
 req.typenames: RAS_HARDWARE_CONDITION
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CachedLargeChange
  - IUIAutomationRangeValuePattern.get_CachedLargeChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

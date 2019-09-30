@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_STATUS_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FontSub.h
 api_name:
  - CFP_REALLOCPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

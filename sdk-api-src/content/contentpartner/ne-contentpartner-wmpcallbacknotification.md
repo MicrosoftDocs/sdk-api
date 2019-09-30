@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPCallbackNotification
-product: Windows
 targetos: Windows
 req.typenames: WMPCallbackNotification
 req.redist: 

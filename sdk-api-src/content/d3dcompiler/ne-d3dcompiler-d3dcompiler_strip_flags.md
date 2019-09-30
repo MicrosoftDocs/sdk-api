@@ -38,7 +38,6 @@ api_location:
  - D3Dcompiler.h
 api_name:
  - D3DCOMPILER_STRIP_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3DCOMPILER_STRIP_FLAGS
 req.redist: 

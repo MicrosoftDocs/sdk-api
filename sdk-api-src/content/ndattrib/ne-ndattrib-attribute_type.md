@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - ATTRIBUTE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_TYPE
 req.redist: 

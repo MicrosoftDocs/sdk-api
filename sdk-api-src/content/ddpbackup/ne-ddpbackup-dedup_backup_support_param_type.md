@@ -38,7 +38,6 @@ api_location:
  - DdpBackup.h
 api_name:
  - DEDUP_BACKUP_SUPPORT_PARAM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 req.redist: 

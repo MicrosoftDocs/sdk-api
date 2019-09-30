@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_SupportHighContrastInk
  - InkPicture.get_SupportHighContrastInk
  - InkPicture.put_SupportHighContrastInk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

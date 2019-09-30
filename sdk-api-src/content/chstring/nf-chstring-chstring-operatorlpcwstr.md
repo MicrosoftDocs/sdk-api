@@ -41,7 +41,6 @@ api_name:
  - CHString.operator LPCWSTR
  - ??BCHString@@QBEPBGXZ
  - ??BCHString@@QEBAPEBGXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

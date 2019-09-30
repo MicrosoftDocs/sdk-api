@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.ContainerName
  - IX509PrivateKey.get_ContainerName
  - IX509PrivateKey.put_ContainerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

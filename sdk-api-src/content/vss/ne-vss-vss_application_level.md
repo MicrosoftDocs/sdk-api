@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_APPLICATION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
 req.redist: 

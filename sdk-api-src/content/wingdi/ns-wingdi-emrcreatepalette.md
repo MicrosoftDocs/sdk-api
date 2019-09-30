@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATEPALETTE
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATEPALETTE, *PEMRCREATEPALETTE
 req.redist: 

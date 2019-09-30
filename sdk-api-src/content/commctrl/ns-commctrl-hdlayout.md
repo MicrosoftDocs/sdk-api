@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - HDLAYOUT
-product: Windows
 targetos: Windows
 req.typenames: HDLAYOUT, *LPHDLAYOUT
 req.redist: 

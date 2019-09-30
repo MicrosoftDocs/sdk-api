@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMRFRAMERGN
-product: Windows
 targetos: Windows
 req.typenames: EMRFRAMERGN, *PEMRFRAMERGN
 req.redist: 

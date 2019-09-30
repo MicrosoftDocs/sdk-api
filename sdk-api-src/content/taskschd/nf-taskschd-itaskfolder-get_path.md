@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskFolder.Path
  - ITaskFolder.get_Path
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

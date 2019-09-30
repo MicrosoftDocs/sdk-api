@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_MOTIONCOMPCALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_MOTIONCOMPCALLBACKS
 req.redist: 

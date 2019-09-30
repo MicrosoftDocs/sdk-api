@@ -38,7 +38,6 @@ api_location:
 - processsnapshot.h
 api_name:
 - PSS_CAPTURE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PSS_CAPTURE_FLAGS
 req.redist: 

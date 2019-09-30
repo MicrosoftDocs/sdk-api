@@ -40,7 +40,6 @@ api_name:
  - SecurityFunctionTable
  - SecurityFunctionTableA
  - SecurityFunctionTableW
-product: Windows
 targetos: Windows
 req.typenames: SecurityFunctionTableW, *PSecurityFunctionTableW
 req.redist: 

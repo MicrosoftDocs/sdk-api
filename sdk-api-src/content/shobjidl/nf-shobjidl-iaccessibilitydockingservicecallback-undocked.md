@@ -38,7 +38,6 @@ api_location:
  - shobjidl.h
 api_name:
  - IAccessibilityDockingServiceCallback.Undocked
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

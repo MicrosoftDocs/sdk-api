@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_HashAlgorithm
  - ICEnroll.put_HashAlgorithm
  - CEnroll.HashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

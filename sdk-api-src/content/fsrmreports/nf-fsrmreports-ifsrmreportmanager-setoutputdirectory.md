@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmReportManager.SetOutputDirectory
 - FsrmReportManager.SetOutputDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

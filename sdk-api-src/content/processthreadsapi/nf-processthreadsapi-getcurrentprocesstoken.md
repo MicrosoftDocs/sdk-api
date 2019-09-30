@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - GetCurrentProcessToken
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmdmlog.h
 api_name:
  - IWMDMLogger
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

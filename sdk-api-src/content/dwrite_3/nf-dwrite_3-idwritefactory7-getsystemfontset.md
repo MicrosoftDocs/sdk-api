@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFactory7::GetSystemFontSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

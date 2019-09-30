@@ -41,7 +41,6 @@ api_name:
  - IInkCursor.Buttons
  - IInkCursor.get_Buttons
  - IInkCursor.get_Buttons
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

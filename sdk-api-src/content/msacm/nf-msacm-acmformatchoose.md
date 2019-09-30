@@ -41,7 +41,6 @@ api_name:
  - acmFormatChoose
  - acmFormatChooseA
  - acmFormatChooseW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

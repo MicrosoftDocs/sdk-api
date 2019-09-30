@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - MFASF_SPLITTERFLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFASF_SPLITTERFLAGS
 req.redist: 

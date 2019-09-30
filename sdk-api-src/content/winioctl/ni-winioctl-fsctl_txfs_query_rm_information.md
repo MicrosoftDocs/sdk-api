@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_TXFS_QUERY_RM_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

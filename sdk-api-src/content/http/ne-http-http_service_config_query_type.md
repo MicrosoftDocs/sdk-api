@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_SERVICE_CONFIG_QUERY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_QUERY_TYPE, *PHTTP_SERVICE_CONFIG_QUERY_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_EthernetFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

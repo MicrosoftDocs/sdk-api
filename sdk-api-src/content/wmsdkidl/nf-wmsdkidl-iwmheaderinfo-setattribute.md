@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.SetAttribute
  - IWMHeaderInfo2.SetAttribute
  - IWMHeaderInfo3.SetAttribute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETMAPPERFLAGS
-product: Windows
 targetos: Windows
 req.typenames: EMRSETMAPPERFLAGS, *PEMRSETMAPPERFLAGS
 req.redist: 

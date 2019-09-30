@@ -40,7 +40,6 @@ api_name:
  - RpcServerInqCallAttributes
  - RpcServerInqCallAttributesA
  - RpcServerInqCallAttributesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
 - GetAuditedPermissionsFromAcl
 - GetAuditedPermissionsFromAclA
 - GetAuditedPermissionsFromAclW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

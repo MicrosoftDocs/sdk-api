@@ -38,7 +38,6 @@ api_location:
 - Wabdefs.h
 api_name:
 - SRow
-product: Windows
 targetos: Windows
 req.typenames: SRow, *LPSRow
 req.redist: 

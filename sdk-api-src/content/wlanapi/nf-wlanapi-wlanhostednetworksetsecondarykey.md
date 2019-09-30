@@ -38,7 +38,6 @@ api_location:
 - Wlanapi.dll
 api_name:
 - WlanHostedNetworkSetSecondaryKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

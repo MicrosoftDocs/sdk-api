@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IATSCTuningSpace.get_MinPhysicalChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

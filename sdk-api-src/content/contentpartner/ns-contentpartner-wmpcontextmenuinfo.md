@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPContextMenuInfo
-product: Windows
 targetos: Windows
 req.typenames: WMPContextMenuInfo
 req.redist: 

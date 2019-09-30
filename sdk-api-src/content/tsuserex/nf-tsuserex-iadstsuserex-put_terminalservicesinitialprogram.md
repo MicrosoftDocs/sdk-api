@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.TerminalServicesInitialProgram
  - IADsTSUserEx.get_TerminalServicesInitialProgram
  - IADsTSUserEx.put_TerminalServicesInitialProgram
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

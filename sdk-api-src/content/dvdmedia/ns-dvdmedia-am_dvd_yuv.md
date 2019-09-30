@@ -38,7 +38,6 @@ api_location:
 - Dvdmedia.h
 api_name:
 - AM_DVD_YUV
-product: Windows
 targetos: Windows
 req.typenames: AM_DVD_YUV, *PAM_DVD_YUV
 req.redist: 

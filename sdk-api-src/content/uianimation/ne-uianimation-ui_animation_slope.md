@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_SLOPE
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_SLOPE
 req.redist: 

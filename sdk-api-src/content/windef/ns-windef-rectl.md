@@ -38,7 +38,6 @@ api_location:
  - windef.h
 api_name:
  - RECTL
-product: Windows
 targetos: Windows
 req.typenames: RECTL, *PRECTL, *LPRECTL
 req.redist: 

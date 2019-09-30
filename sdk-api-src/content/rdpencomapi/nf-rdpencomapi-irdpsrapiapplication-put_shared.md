@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIApplication.get_Shared
  - IRDPSRAPIApplication.put_Shared
  - RDPSRAPIApplication.Shared
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

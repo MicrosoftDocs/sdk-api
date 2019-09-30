@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - MODLOAD_DATA
-product: Windows
 targetos: Windows
 req.typenames: MODLOAD_DATA, *PMODLOAD_DATA
 req.redist: DbgHelp.dll 6.0 or later

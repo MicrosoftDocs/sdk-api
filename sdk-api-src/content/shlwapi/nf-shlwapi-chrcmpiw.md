@@ -40,7 +40,6 @@ api_name:
  - ChrCmpI
  - ChrCmpIA
  - ChrCmpIW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

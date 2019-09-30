@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_DRAG_DROP_STATUS
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_DRAG_DROP_STATUS
 req.redist: 

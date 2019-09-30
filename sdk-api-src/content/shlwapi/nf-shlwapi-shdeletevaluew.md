@@ -45,7 +45,6 @@ api_name:
  - SHDeleteValue
  - SHDeleteValueA
  - SHDeleteValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

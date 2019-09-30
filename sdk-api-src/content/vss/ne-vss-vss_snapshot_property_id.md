@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_SNAPSHOT_PROPERTY_ID
-product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_PROPERTY_ID, *PVSS_SNAPSHOT_PROPERTY_ID
 req.redist: 

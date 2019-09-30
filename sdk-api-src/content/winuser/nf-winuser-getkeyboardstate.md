@@ -45,7 +45,6 @@ api_location:
  - MinUser.dll
 api_name:
  - GetKeyboardState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

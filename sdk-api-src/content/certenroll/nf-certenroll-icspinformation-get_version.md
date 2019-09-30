@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.Version
  - ICspInformation.get_Version
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

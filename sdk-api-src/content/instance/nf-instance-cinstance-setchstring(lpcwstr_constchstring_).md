@@ -41,7 +41,6 @@ api_name:
  - CInstance.SetCHString
  - ?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z
  - ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

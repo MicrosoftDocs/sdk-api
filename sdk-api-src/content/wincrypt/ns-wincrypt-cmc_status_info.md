@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_STATUS_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
 req.redist: 

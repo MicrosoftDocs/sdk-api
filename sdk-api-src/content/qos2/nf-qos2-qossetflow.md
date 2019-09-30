@@ -38,7 +38,6 @@ api_location:
 - qwave.dll
 api_name:
 - QOSSetFlow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

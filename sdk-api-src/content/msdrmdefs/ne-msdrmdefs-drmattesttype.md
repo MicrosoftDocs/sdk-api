@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMATTESTTYPE
-product: Windows
 targetos: Windows
 req.typenames: DRMATTESTTYPE
 req.redist: 

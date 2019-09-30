@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRRenderPrefs
-product: Windows
 targetos: Windows
 req.typenames: VMRRenderPrefs
 req.redist: 

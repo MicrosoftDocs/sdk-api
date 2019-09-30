@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - LIBRARYMANAGEDIALOGOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: LIBRARYMANAGEDIALOGOPTIONS
 req.redist: 

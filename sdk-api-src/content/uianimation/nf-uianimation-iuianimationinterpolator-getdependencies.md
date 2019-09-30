@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationInterpolator.GetDependencies
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

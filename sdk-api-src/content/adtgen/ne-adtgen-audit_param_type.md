@@ -38,7 +38,6 @@ api_location:
  - Adtgen.h
 api_name:
  - AUDIT_PARAM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: AUDIT_PARAM_TYPE
 req.redist: 

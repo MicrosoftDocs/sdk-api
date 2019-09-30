@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIVirtualChannelManager._NewEnum
  - IRDPSRAPIVirtualChannelManager.get__NewEnum
  - RDPSRAPIVirtualChannelManager._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

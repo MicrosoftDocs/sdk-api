@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICDecompressSetPalette
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

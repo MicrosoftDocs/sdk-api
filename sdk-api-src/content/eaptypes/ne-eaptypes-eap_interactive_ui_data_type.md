@@ -38,7 +38,6 @@ api_location:
  - eaptypes.h
 api_name:
  - EAP_INTERACTIVE_UI_DATA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: EAP_INTERACTIVE_UI_DATA_TYPE
 req.redist: 

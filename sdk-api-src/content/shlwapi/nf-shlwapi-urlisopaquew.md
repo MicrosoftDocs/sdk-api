@@ -42,7 +42,6 @@ api_name:
  - UrlIsOpaque
  - UrlIsOpaqueA
  - UrlIsOpaqueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

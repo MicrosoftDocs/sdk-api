@@ -49,7 +49,6 @@ api_name:
  - RegisterWindowMessage
  - RegisterWindowMessageA
  - RegisterWindowMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

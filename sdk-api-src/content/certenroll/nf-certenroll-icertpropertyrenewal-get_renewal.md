@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyRenewal.Renewal
  - ICertPropertyRenewal.get_Renewal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

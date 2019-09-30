@@ -44,7 +44,6 @@ api_name:
  - SHRegOpenUSKey
  - SHRegOpenUSKeyA
  - SHRegOpenUSKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

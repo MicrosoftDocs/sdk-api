@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - IConnector.IsConnected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

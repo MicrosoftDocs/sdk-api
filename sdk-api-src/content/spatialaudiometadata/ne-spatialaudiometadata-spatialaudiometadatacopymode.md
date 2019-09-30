@@ -38,7 +38,6 @@ api_location:
  - SpatialAudioMetadata.h
 api_name:
  - SpatialAudioMetadataWriterCopyMode
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioMetadataCopyMode
 req.redist: 

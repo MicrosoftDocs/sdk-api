@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - DockPattern_SetDockPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

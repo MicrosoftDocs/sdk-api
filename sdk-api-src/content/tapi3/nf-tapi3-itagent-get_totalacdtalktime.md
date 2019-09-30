@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITAgent.get_TotalACDTalkTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorDataReport.GetSensorValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.h
 api_name:
  - DXGI_INFO_QUEUE_FILTER_DESC
-product: Windows
 targetos: Windows
 req.typenames: DXGI_INFO_QUEUE_FILTER_DESC
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUpdateDownloader.IsForced
  - IUpdateDownloader.get_IsForced
  - IUpdateDownloader.put_IsForced
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

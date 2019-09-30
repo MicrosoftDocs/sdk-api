@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnPin.PinMode
  - IMbnPin.get_PinMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

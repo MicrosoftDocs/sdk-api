@@ -38,7 +38,6 @@ api_location:
  - Ntquery.h
 api_name:
  - CIPROPERTYDEF
-product: Windows
 targetos: Windows
 req.typenames: CIPROPERTYDEF
 req.redist: 

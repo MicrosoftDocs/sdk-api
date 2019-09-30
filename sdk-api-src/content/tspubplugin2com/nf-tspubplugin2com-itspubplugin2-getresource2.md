@@ -38,7 +38,6 @@ api_location:
  - tspubplugin2com.h
 api_name:
  - ItsPubPlugin2.GetResource2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FILESYSTEM_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: FILESYSTEM_STATISTICS, *PFILESYSTEM_STATISTICS
 req.redist: 

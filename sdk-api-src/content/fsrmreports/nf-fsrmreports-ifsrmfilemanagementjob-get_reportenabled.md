@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.ReportEnabled
  - IFsrmFileManagementJob.get_ReportEnabled
  - IFsrmFileManagementJob.put_ReportEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

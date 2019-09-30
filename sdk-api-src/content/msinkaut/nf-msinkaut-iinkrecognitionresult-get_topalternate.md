@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionResult.TopAlternate
  - IInkRecognitionResult.get_TopAlternate
  - IInkRecognitionResult.get_TopAlternate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

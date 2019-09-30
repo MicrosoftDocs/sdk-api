@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATEPEN
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATEPEN, *PEMRCREATEPEN
 req.redist: 

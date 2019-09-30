@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.ReminderDuration
  - IOCSPCAConfiguration.get_ReminderDuration
  - IOCSPCAConfiguration.put_ReminderDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

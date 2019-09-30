@@ -44,7 +44,6 @@ api_name:
 - CredWrite
 - CredWriteA
 - CredWriteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

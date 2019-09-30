@@ -38,7 +38,6 @@ api_location:
  - wcntypes.h
 api_name:
  - WCN_ATTRIBUTE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WCN_ATTRIBUTE_TYPE
 req.redist: 

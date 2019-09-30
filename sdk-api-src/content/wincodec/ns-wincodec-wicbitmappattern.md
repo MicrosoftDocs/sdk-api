@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapPattern
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapPattern
 req.redist: 

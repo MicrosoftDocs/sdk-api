@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - DESCKIND
-product: Windows
 targetos: Windows
 req.typenames: DESCKIND
 req.redist: 

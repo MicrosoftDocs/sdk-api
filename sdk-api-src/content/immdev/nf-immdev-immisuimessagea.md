@@ -40,7 +40,6 @@ api_name:
  - ImmIsUIMessage
  - ImmIsUIMessageA
  - ImmIsUIMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

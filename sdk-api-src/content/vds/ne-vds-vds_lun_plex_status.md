@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_LUN_PLEX_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_PLEX_STATUS
 req.redist: 

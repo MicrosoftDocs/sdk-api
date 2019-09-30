@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
-product: Windows
 targetos: Windows
 req.typenames: WS_ISSUED_TOKEN_MESSAGE_SECURITY_BINDING_CONSTRAINT
 req.redist: 

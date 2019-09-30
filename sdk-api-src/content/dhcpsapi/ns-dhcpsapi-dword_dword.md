@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DWORD_DWORD
-product: Windows
 targetos: Windows
 req.typenames: DWORD_DWORD, *LPDWORD_DWORD
 req.redist: 

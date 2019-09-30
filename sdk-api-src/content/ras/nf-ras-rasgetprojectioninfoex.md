@@ -38,7 +38,6 @@ api_location:
 - Rasapi32.dll
 api_name:
 - RasGetProjectionInfoEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETPALETTEENTRIES
-product: Windows
 targetos: Windows
 req.typenames: EMRSETPALETTEENTRIES, *PEMRSETPALETTEENTRIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_PROFILE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_PROFILE_TYPE, *PIMAPI_PROFILE_TYPE
 req.redist: 

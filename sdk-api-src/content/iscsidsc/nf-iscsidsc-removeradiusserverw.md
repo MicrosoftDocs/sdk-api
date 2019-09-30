@@ -40,7 +40,6 @@ api_name:
  - RemoveRadiusServer
  - RemoveRadiusServerA
  - RemoveRadiusServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

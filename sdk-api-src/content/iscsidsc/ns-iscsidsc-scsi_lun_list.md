@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - SCSI_LUN_LIST
-product: Windows
 targetos: Windows
 req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
 req.redist: 

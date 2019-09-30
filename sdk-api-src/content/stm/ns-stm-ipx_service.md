@@ -38,7 +38,6 @@ api_location:
 - Stm.h
 api_name:
 - IPX_SERVICE
-product: Windows
 targetos: Windows
 req.typenames: IPX_SERVICE, *PIPX_SERVICE
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  - dwrite_3.h
 api_name:
  - DWRITE_FONT_AXIS_RANGE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

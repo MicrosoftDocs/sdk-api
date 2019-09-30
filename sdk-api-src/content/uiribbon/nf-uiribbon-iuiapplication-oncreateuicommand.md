@@ -38,7 +38,6 @@ api_location:
  - Mshtml.dll
 api_name:
  - IUIApplication.OnCreateUICommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: DRT_SCOPE
 req.redist: 

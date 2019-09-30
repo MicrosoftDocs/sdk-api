@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RAWINPUTHEADER
-product: Windows
 targetos: Windows
 req.typenames: RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER
 req.redist: 

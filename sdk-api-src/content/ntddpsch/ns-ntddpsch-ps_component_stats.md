@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_COMPONENT_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_COMPONENT_STATS, *PPS_COMPONENT_STATS
 req.redist: 

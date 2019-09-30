@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFTOPONODE_ATTRIBUTE_UPDATE
-product: Windows
 targetos: Windows
 req.typenames: MFTOPONODE_ATTRIBUTE_UPDATE
 req.redist: 

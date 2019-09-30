@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_durationString
  - IWMPMedia2.get_durationString
  - IWMPMedia3.get_durationString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

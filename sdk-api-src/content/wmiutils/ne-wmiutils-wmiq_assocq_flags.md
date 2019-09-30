@@ -38,7 +38,6 @@ api_location:
  - WMIUtils.h
 api_name:
  - WMIQ_ASSOCQ_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WMIQ_ASSOCQ_FLAGS
 req.redist: 

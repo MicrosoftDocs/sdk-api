@@ -38,7 +38,6 @@ api_location:
 - Subauth.h
 api_name:
 - USER_ALL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: USER_ALL_INFORMATION, *PUSER_ALL_INFORMATION
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - PFAXABORT
  - FaxAbortA
  - FaxAbortW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

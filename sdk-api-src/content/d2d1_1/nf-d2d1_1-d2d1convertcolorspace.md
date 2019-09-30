@@ -38,7 +38,6 @@ api_location:
  - D2D1.dll
 api_name:
  - D2D1ConvertColorSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

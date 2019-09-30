@@ -38,7 +38,6 @@ api_location:
  - XAudio2.h
 api_name:
  - IXAudio2Voice.EnableEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

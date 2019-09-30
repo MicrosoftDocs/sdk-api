@@ -38,7 +38,6 @@ api_location:
  - D3DCommon.h
 api_name:
  - D3D_REGISTER_COMPONENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D_REGISTER_COMPONENT_TYPE
 req.redist: 

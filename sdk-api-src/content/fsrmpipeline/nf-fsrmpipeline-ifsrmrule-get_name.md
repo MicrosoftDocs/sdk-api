@@ -40,7 +40,6 @@ api_name:
  - IFsrmRule.Name
  - IFsrmRule.get_Name
  - IFsrmRule.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tsworkspace.dll
 api_name:
  - IWorkspaceResTypeRegistry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

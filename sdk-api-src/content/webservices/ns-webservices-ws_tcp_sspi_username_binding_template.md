@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 req.redist: 

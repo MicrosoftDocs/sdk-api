@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICINFO
-product: Windows
 targetos: Windows
 req.typenames: ICINFO
 req.redist: 

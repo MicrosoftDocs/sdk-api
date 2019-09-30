@@ -38,7 +38,6 @@ api_location:
  - comsvcs.h
 api_name:
  - IComAppEvents.OnAppForceShutdown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

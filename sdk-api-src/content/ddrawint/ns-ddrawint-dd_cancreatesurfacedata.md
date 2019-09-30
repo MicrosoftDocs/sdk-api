@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_CANCREATESURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA'
 req.redist: 

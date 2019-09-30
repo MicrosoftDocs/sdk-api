@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9AlphaBitmap
-product: Windows
 targetos: Windows
 req.typenames: VMR9AlphaBitmap
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - IMFPMediaPlayer.SetBalance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

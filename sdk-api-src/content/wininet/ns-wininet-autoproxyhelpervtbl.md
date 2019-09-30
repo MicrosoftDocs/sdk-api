@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - AutoProxyHelperVtbl
-product: Windows
 targetos: Windows
 req.typenames: AutoProxyHelperVtbl
 req.redist: 

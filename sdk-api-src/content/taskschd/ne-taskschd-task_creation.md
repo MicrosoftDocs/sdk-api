@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_CREATION
-product: Windows
 targetos: Windows
 req.typenames: TASK_CREATION
 req.redist: 

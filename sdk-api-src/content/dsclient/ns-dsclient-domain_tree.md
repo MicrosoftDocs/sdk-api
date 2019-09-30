@@ -38,7 +38,6 @@ api_location:
 - Dsclient.h
 api_name:
 - DOMAINTREE
-product: Windows
 targetos: Windows
 req.typenames: DOMAIN_TREE, DOMAINTREE, *PDOMAIN_TREE, *LPDOMAINTREE
 req.redist: 

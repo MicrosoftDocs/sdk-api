@@ -50,7 +50,6 @@ api_name:
 - CreateProcessAsUser
 - CreateProcessAsUserA
 - CreateProcessAsUserW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

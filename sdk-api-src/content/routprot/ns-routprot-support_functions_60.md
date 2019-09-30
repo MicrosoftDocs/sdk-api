@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - SUPPORT_FUNCTIONS
-product: Windows
 targetos: Windows
 req.typenames: SUPPORT_FUNCTIONS_60
 req.redist: 

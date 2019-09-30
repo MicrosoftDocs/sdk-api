@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_S4U_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_S4U_LOGON, *PKERB_S4U_LOGON
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CInstance.SetDateTime
  - ?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z
  - ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

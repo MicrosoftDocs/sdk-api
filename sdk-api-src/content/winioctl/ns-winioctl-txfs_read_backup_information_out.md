@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - TXFS_READ_BACKUP_INFORMATION_OUT
-product: Windows
 targetos: Windows
 req.typenames: TXFS_READ_BACKUP_INFORMATION_OUT, *PTXFS_READ_BACKUP_INFORMATION_OUT
 req.redist: 

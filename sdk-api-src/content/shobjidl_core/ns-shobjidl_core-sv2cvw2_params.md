@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - SV2CVW2_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: SV2CVW2_PARAMS, *LPSV2CVW2_PARAMS
 req.redist: 

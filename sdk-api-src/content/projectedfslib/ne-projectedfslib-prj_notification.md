@@ -38,7 +38,6 @@ api_location:
  - ProjectedFSLib.h
 api_name:
  - PRJ_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION
 req.redist: 

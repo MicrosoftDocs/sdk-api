@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_QUERY_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: DNS_QUERY_REQUEST, *PDNS_QUERY_REQUEST
 req.redist: 

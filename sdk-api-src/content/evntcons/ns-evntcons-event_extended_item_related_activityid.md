@@ -38,7 +38,6 @@ api_location:
 - Evntcons.h
 api_name:
 - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
-product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, *PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 req.redist: 

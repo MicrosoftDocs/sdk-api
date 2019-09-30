@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DX_IRQDATA
-product: Windows
 targetos: Windows
 req.typenames: DX_IRQDATA, *PDX_IRQDATA
 req.redist: 

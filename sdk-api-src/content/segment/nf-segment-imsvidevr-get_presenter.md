@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidEVR.get_Presenter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

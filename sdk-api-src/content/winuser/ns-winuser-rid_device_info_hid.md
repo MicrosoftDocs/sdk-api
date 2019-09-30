@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RID_DEVICE_INFO_HID
-product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_HID, *PRID_DEVICE_INFO_HID
 req.redist: 

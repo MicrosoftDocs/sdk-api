@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - WTSSBX_MACHINE_DRAIN
-product: Windows
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_DRAIN
 req.redist: 

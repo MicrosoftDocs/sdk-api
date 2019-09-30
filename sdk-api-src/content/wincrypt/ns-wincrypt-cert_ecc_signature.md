@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_ECC_SIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: CERT_ECC_SIGNATURE, *PCERT_ECC_SIGNATURE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPC_MEDIA_EXPLICIT
-product: Windows
 targetos: Windows
 req.typenames: WPC_MEDIA_EXPLICIT
 req.redist: 

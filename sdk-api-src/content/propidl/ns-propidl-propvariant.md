@@ -38,7 +38,6 @@ api_location:
  - propidlbase.h
 api_name:
  - PROPVARIANT
-product: Windows
 targetos: Windows
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 req.redist: 

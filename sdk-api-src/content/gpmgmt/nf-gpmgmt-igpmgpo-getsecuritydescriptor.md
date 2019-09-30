@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMGPO.GetSecurityDescriptor
  - GPMGPO.GetSecurityDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

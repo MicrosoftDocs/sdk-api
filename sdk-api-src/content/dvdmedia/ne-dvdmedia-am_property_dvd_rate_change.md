@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_PROPERTY_DVD_RATE_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_DVD_RATE_CHANGE
 req.redist: 

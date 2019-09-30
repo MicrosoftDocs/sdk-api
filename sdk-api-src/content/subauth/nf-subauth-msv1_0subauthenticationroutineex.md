@@ -38,7 +38,6 @@ api_location:
 - Subauth.h
 api_name:
 - Msv1_0SubAuthenticationRoutineEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

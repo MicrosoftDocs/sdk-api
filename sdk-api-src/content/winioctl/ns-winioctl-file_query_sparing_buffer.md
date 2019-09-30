@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_QUERY_SPARING_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_QUERY_SPARING_BUFFER, *PFILE_QUERY_SPARING_BUFFER
 req.redist: 

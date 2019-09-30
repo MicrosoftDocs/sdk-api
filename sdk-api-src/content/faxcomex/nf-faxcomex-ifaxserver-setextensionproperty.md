@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.SetExtensionProperty
  - IFaxServer.SetExtensionProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - eaphostpeertypes.h
 api_name:
  - EapHostPeerAuthParams
-product: Windows
 targetos: Windows
 req.typenames: EapHostPeerAuthParams
 req.redist: 

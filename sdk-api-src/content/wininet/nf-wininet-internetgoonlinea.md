@@ -40,7 +40,6 @@ api_name:
  - InternetGoOnline
  - InternetGoOnlineA
  - InternetGoOnlineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_POLICY_MAPPINGS_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_POLICY_MAPPINGS_INFO, *PCERT_POLICY_MAPPINGS_INFO
 req.redist: 

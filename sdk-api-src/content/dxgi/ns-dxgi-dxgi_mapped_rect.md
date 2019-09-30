@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_MAPPED_RECT
-product: Windows
 targetos: Windows
 req.typenames: DXGI_MAPPED_RECT
 req.redist: 

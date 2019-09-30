@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Length
  - IX509PrivateKey.get_Length
  - IX509PrivateKey.put_Length
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

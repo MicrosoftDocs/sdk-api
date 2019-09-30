@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut
  - IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

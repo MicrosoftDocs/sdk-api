@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBCONTENTPROXIMITY
-product: Windows
 targetos: Windows
 req.typenames: DBCONTENTPROXIMITY
 req.redist: 

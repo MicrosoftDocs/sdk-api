@@ -40,7 +40,6 @@ api_name:
 - MsiGetFileHash
 - MsiGetFileHashA
 - MsiGetFileHashW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

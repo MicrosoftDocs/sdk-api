@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D_SHADER_MODEL
-product: Windows
 targetos: Windows
 req.typenames: D3D_SHADER_MODEL
 req.redist: 

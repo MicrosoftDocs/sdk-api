@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Filter_Spec_IPv4GPI
-product: Windows
 targetos: Windows
 req.typenames: Filter_Spec_IPv4GPI
 req.redist: 

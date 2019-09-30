@@ -40,7 +40,6 @@ api_location:
  - cryptsp.dll
 api_name:
  - CryptHashSessionKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

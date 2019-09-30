@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IGetClusterObjectInfo.GetObjectName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

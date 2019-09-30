@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorGetIntXPtr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

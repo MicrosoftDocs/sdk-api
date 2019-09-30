@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - DSSSEED
-product: Windows
 targetos: Windows
 req.typenames: DSSSEED
 req.redist: 

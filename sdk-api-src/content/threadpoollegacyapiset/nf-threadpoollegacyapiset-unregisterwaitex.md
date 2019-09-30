@@ -43,7 +43,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - UnregisterWaitEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

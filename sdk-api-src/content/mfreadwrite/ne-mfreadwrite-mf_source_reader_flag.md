@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.h
 api_name:
  - MF_SOURCE_READER_FLAG
-product: Windows
 targetos: Windows
 req.typenames: MF_SOURCE_READER_FLAG
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RpcNsEntryExpandName
  - RpcNsEntryExpandNameA
  - RpcNsEntryExpandNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

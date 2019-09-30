@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - PFXExportOptions
-product: Windows
 targetos: Windows
 req.typenames: PFXExportOptions
 req.redist: 

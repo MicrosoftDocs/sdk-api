@@ -38,7 +38,6 @@ api_location:
  - Mfmediaengine.h
 api_name:
  - IMFMediaEngineEx.GetRealTimeMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

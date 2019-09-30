@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_CONTEXT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MBN_CONTEXT_TYPE
 req.redist: 

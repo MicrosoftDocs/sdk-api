@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_CONFORMER_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
 req.redist: 

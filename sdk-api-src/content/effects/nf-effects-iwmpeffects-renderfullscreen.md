@@ -38,7 +38,6 @@ api_location:
  - effects.h
 api_name:
  - IWMPEffects.RenderFullScreen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

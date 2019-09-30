@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CurrentColumn
  - IUIAutomationGridItemPattern.get_CurrentColumn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

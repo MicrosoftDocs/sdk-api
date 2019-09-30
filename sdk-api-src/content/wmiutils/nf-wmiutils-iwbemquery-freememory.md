@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemQuery.FreeMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

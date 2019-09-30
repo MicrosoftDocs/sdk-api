@@ -41,7 +41,6 @@ api_name:
  - IFsrmSetting.get_EnableScreeningAudit
  - IFsrmSetting.put_EnableScreeningAudit
  - FsrmSetting.EnableScreeningAudit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

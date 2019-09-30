@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxRoutingMethod.ImageName
  - IFaxRoutingMethod.get_ImageName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

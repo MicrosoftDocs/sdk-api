@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBSORTINFO
-product: Windows
 targetos: Windows
 req.typenames: DBSORTINFO
 req.redist: 

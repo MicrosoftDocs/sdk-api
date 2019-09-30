@@ -38,7 +38,6 @@ api_location:
  - Msctf.dll
 api_name:
  - ITfInputScope.GetXML
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

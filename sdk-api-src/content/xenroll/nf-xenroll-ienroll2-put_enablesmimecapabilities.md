@@ -40,7 +40,6 @@ api_name:
  - IEnroll2.EnableSMIMECapabilities
  - IEnroll2.get_EnableSMIMECapabilities
  - IEnroll2.put_EnableSMIMECapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

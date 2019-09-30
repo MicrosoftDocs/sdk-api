@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - IDENTITY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IDENTITY_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - SURFOBJ
-product: Windows
 targetos: Windows
 req.typenames: SURFOBJ
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SECPKG_EXTRA_OIDS
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
 req.redist: 

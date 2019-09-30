@@ -41,7 +41,6 @@ api_name:
 - StrRetToBuf
 - StrRetToBufA
 - StrRetToBufW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

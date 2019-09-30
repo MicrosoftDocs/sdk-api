@@ -38,7 +38,6 @@ api_location:
  - FunctionDiscoveryAPI.h
 api_name:
  - SystemVisibilityFlags
-product: Windows
 targetos: Windows
 req.typenames: SystemVisibilityFlags
 req.redist: 

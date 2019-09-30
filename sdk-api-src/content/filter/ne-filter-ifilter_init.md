@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - IFILTER_INIT
-product: Windows
 targetos: Windows
 req.typenames: IFILTER_INIT
 req.redist: 

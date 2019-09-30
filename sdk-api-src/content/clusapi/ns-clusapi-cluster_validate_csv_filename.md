@@ -38,7 +38,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUSTER_VALIDATE_CSV_FILENAME
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_VALIDATE_CSV_FILENAME, *PCLUSTER_VALIDATE_CSV_FILENAME
 req.redist: 

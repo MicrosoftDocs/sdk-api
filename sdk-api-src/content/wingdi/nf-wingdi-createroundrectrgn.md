@@ -42,7 +42,6 @@ api_location:
  - GDI32Min.dll
 api_name:
  - CreateRoundRectRgn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

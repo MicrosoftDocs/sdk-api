@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - IE4COMPONENT
-product: Windows
 targetos: Windows
 req.typenames: IE4COMPONENT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMVIDEOINFOHEADER
-product: Windows
 targetos: Windows
 req.typenames: WMVIDEOINFOHEADER
 req.redist: 

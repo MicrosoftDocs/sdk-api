@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.APIVersion
  - IFaxServer.get_APIVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

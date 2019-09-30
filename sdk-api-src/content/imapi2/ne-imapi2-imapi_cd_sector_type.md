@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_CD_SECTOR_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_CD_SECTOR_TYPE, *PIMAPI_CD_SECTOR_TYPE
 req.redist: 

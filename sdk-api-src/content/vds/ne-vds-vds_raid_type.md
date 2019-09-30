@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_RAID_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_RAID_TYPE, *PVDS_RAID_TYPE
 req.redist: 

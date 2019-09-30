@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IBDA_TIF_REGISTRATION.RegisterTIFEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

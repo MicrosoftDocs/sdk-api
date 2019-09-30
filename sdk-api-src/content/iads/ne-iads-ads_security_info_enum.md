@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_SECURITY_INFO_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_SECURITY_INFO_ENUM
 req.redist: 

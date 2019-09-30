@@ -38,7 +38,6 @@ api_location:
  - mf.dll
 api_name:
  - MFCreateASFContentInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

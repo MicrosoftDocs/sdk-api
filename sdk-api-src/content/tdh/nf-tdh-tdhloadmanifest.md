@@ -40,7 +40,6 @@ api_location:
  - MinTdh.dll
 api_name:
  - TdhLoadManifest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

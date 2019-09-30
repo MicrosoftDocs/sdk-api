@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: APPX_CAPABILITIES
 req.redist: 

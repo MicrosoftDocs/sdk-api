@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmClassifierModuleImplementation.LastModified
  - IFsrmClassifierModuleImplementation.get_LastModified
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

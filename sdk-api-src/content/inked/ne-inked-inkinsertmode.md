@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - InkInsertMode
-product: Windows
 targetos: Windows
 req.typenames: InkInsertMode
 req.redist: 

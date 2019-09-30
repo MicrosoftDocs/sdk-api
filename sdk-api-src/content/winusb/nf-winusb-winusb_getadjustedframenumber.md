@@ -38,7 +38,6 @@ api_location:
  - Winusb.dll
 api_name:
  - WinUsb_GetAdjustedFrameNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

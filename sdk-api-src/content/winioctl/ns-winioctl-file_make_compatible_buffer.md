@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_MAKE_COMPATIBLE_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_MAKE_COMPATIBLE_BUFFER, *PFILE_MAKE_COMPATIBLE_BUFFER
 req.redist: 

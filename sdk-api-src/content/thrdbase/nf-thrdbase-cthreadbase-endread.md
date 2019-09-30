@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CThreadBase.EndRead
  - ?EndRead@CThreadBase@@QAEXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

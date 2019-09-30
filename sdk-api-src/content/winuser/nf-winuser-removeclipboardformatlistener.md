@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - RemoveClipboardFormatListener
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

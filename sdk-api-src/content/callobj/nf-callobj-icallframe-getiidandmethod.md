@@ -38,7 +38,6 @@ api_location:
  - Callobj.h
 api_name:
  - ICallFrame.GetIIDAndMethod
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

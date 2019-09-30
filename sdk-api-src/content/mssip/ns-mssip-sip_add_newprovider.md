@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - SIP_ADD_NEWPROVIDER
-product: Windows
 targetos: Windows
 req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
 req.redist: 

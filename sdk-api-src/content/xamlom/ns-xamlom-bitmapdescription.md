@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - BitmapDescription
-product: Windows
 targetos: Windows
 req.typenames: BitmapDescription
 req.redist: 

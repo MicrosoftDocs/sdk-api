@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.CanRegisterWithAU
  - IUpdateService.get_CanRegisterWithAU
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

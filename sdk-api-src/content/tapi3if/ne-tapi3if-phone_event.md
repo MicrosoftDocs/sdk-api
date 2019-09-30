@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - PHONE_EVENT
-product: Windows
 targetos: Windows
 req.typenames: PHONE_EVENT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - cldap_open
  - cldap_openA
  - cldap_openW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

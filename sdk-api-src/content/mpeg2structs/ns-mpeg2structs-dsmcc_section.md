@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - DSMCC_SECTION
-product: Windows
 targetos: Windows
 req.typenames: DSMCC_SECTION, *PDSMCC_SECTION
 req.redist: 

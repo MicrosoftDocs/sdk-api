@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSeeking.IsUsingTimeFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

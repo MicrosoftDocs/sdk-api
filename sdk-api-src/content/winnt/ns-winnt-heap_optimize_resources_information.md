@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - HEAP_OPTIMIZE_RESOURCES_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: HEAP_OPTIMIZE_RESOURCES_INFORMATION, *PHEAP_OPTIMIZE_RESOURCES_INFORMATION
 req.redist: 

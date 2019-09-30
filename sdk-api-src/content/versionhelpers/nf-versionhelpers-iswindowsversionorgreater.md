@@ -38,7 +38,6 @@ api_location:
  - VersionHelpers.h
 api_name:
  - IsWindowsVersionOrGreater
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

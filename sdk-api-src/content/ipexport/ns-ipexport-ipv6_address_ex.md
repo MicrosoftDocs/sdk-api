@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IPV6_ADDRESS_EX
-product: Windows
 targetos: Windows
 req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
 req.redist: 

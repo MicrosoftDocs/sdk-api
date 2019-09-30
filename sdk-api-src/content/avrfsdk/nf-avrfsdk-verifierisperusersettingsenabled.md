@@ -38,7 +38,6 @@ api_location:
  - Verifier.dll
 api_name:
  - VerifierIsPerUserSettingsEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

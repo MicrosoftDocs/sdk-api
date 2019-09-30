@@ -40,7 +40,6 @@ api_name:
  - IWMPAudioRenderConfig
  - IWMPAudioRenderConfig.get_audioOutputDevice
  - IWMPAudioRenderConfig.put_audioOutputDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

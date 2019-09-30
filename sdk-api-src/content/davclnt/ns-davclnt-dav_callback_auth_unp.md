@@ -38,7 +38,6 @@ api_location:
 - Davclnt.h
 api_name:
 - DAV_CALLBACK_AUTH_UNP
-product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_AUTH_UNP, *PDAV_CALLBACK_AUTH_UNP
 req.redist: 

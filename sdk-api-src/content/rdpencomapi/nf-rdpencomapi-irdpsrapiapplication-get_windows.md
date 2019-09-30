@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIApplication.Windows
  - IRDPSRAPIApplication.get_Windows
  - RDPSRAPIApplication.Windows
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

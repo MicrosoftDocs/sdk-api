@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "dpa_dsa/DSA_Sort"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

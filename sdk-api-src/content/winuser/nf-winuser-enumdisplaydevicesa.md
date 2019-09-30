@@ -43,7 +43,6 @@ api_name:
 - EnumDisplayDevices
 - EnumDisplayDevicesA
 - EnumDisplayDevicesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

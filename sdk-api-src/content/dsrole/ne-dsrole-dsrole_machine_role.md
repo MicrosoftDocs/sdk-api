@@ -38,7 +38,6 @@ api_location:
 - Dsrole.h
 api_name:
 - DSROLE_MACHINE_ROLE
-product: Windows
 targetos: Windows
 req.typenames: DSROLE_MACHINE_ROLE
 req.redist: 

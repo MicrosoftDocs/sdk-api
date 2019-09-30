@@ -38,7 +38,6 @@ api_location:
  - Clfs.h
 api_name:
  - CLFS_IOSTATS_CLASS
-product: Windows
 targetos: Windows
 req.typenames: CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS
 req.redist: 

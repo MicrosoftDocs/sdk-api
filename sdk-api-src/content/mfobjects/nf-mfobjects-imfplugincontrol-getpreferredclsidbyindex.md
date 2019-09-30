@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - IMFPluginControl.GetPreferredClsidByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

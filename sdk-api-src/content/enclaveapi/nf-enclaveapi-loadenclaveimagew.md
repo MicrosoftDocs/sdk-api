@@ -41,7 +41,6 @@ api_name:
  - LoadEnclaveImage
  - LoadEnclaveIUmageA
  - LoadEnclaveImageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

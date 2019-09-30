@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_BUFFERS
-product: Windows
 targetos: Windows
 req.typenames: WS_BUFFERS
 req.redist: 

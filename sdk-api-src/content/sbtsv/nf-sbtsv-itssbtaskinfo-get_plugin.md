@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbTaskInfo.Plugin
  - ITsSbTaskInfo.get_Plugin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

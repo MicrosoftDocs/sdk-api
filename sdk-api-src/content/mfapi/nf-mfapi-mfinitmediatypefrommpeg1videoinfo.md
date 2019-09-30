@@ -38,7 +38,6 @@ api_location:
  - mfplat.dll
 api_name:
  - MFInitMediaTypeFromMPEG1VideoInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

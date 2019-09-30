@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
  - RoResolveRestrictedErrorInfoReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

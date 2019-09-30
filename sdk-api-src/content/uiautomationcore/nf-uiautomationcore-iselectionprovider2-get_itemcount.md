@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionProvider2.ItemCount
  - ISelectionProvider2.get_ItemCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

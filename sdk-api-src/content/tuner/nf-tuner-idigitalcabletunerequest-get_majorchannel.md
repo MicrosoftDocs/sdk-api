@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDigitalCableTuneRequest.get_MajorChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

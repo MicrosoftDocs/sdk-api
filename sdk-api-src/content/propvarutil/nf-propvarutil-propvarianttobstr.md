@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-shell-propsys-l1-1-0.dll
 api_name:
  - PropVariantToBSTR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

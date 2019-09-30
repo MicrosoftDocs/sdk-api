@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Description
  - IX509PrivateKey.get_Description
  - IX509PrivateKey.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

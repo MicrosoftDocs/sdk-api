@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog2.CurrentPartitionName
  - ICOMAdminCatalog2.get_CurrentPartitionName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

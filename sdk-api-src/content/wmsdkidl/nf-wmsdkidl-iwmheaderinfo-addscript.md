@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.AddScript
  - IWMHeaderInfo2.AddScript
  - IWMHeaderInfo3.AddScript
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

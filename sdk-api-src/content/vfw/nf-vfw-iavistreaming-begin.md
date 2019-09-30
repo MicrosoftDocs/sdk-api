@@ -39,7 +39,6 @@ api_location:
  - Vfw32.dll
 api_name:
  - IAVIStreaming.Begin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

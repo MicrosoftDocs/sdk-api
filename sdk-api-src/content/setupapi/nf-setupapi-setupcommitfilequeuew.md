@@ -40,7 +40,6 @@ api_name:
  - SetupCommitFileQueue
  - SetupCommitFileQueueA
  - SetupCommitFileQueueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

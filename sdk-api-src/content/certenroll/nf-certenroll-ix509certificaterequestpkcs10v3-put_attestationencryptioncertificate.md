@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate
  - IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate
  - IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher.ServerSelection
  - IUpdateSearcher.get_ServerSelection
  - IUpdateSearcher.put_ServerSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

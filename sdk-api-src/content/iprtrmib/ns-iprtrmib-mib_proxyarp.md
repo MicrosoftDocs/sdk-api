@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_PROXYARP
-product: Windows
 targetos: Windows
 req.typenames: MIB_PROXYARP, *PMIB_PROXYARP
 req.redist: 

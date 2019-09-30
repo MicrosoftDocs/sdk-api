@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CERT_SIGNED_SAML_AUTHENTICATOR
-product: Windows
 targetos: Windows
 req.typenames: WS_CERT_SIGNED_SAML_AUTHENTICATOR
 req.redist: 

@@ -48,7 +48,6 @@ api_name:
  - LoadLibraryEx
  - LoadLibraryExA
  - LoadLibraryExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

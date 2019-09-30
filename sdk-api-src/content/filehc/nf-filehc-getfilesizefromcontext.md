@@ -38,7 +38,6 @@ api_location:
  - Fcachdll.dll
 api_name:
  - GetFileSizeFromContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

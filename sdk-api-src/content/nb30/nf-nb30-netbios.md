@@ -38,7 +38,6 @@ api_location:
 - netapi32.dll
 api_name:
 - Netbios
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

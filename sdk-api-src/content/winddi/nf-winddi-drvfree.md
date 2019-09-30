@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DrvFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

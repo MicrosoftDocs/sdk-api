@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - ICommDlgBrowser2.GetDefaultMenuText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

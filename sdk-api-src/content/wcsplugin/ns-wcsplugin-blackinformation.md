@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - BlackInformation
-product: Windows
 targetos: Windows
 req.typenames: BlackInformation
 req.redist: 

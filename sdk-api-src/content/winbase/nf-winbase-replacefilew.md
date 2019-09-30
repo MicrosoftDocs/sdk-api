@@ -47,7 +47,6 @@ api_name:
  - ReplaceFile
  - ReplaceFileA
  - ReplaceFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

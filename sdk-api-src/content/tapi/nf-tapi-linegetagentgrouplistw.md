@@ -40,7 +40,6 @@ api_name:
  - lineGetAgentGroupList
  - lineGetAgentGroupListA
  - lineGetAgentGroupListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

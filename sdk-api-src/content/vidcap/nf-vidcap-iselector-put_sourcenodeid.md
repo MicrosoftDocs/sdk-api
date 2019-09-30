@@ -38,7 +38,6 @@ api_location:
  - Vidcap.h
 api_name:
  - ISelector.put_SourceNodeId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

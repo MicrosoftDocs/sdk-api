@@ -44,7 +44,6 @@ api_name:
  - PathSkipRoot
  - PathSkipRootA
  - PathSkipRootW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

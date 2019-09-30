@@ -54,7 +54,6 @@ api_name:
  - GetTempPath
  - GetTempPathA
  - GetTempPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

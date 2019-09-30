@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFBYTESTREAM_SEEK_ORIGIN
-product: Windows
 targetos: Windows
 req.typenames: MFBYTESTREAM_SEEK_ORIGIN
 req.redist: 

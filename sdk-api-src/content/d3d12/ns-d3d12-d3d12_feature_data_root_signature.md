@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_FEATURE_DATA_ROOT_SIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_ROOT_SIGNATURE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - CryptDlg.dll
 api_name:
 - CertModifyCertificatesToTrust
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

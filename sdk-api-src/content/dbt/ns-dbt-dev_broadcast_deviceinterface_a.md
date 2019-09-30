@@ -39,7 +39,6 @@ api_location:
 api_name:
 - DEV_BROADCAST_DEVICEINTERFACE
  - dev_broadcast_deviceinterface_a
-product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
 req.redist: 

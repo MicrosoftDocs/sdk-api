@@ -38,7 +38,6 @@ api_location:
  - Mpeg2PsiParser.h
 api_name:
  - ITSDT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

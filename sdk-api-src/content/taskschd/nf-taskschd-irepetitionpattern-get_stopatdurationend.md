@@ -40,7 +40,6 @@ api_name:
  - IRepetitionPattern.StopAtDurationEnd
  - IRepetitionPattern.get_StopAtDurationEnd
  - IRepetitionPattern.put_StopAtDurationEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

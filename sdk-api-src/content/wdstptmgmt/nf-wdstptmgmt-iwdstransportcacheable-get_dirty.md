@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportCacheable.Dirty
  - IWdsTransportCacheable.get_Dirty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

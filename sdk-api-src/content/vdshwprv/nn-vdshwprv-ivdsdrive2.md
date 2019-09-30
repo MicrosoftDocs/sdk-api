@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - IVdsDrive2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

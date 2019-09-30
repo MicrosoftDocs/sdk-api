@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_TIMESTAMP
-product: Windows
 targetos: Windows
 req.typenames: ADS_TIMESTAMP, *PADS_TIMESTAMP
 req.redist: 

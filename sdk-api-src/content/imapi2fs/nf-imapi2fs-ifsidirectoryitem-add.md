@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFsiDirectoryItem.Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - ACTION_HEADER
-product: Windows
 targetos: Windows
 req.typenames: ACTION_HEADER, *PACTION_HEADER
 req.redist: 

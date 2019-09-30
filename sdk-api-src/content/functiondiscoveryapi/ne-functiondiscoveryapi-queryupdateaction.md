@@ -38,7 +38,6 @@ api_location:
  - FunctionDiscoveryAPI.h
 api_name:
  - QueryUpdateAction
-product: Windows
 targetos: Windows
 req.typenames: QueryUpdateAction
 req.redist: 

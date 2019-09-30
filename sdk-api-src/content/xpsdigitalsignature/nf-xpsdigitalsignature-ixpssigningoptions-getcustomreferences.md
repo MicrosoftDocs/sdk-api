@@ -38,7 +38,6 @@ api_location:
  - xpsdigitalsignature.h
 api_name:
  - IXpsSigningOptions.GetCustomReferences
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

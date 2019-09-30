@@ -40,7 +40,6 @@ api_name:
  - IOleUIObjInfo.GetObjectInfo
  - IOleUIObjInfoW.GetObjectInfo
  - IOleUIObjInfoA.GetObjectInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

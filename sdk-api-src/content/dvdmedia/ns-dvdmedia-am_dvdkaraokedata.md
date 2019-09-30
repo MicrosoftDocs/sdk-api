@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DvdKaraokeData
-product: Windows
 targetos: Windows
 req.typenames: AM_DvdKaraokeData
 req.redist: 

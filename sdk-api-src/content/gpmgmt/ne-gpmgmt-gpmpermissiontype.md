@@ -38,7 +38,6 @@ api_location:
  - Gpmgmt.h
 api_name:
  - GPMPermissionType
-product: Windows
 targetos: Windows
 req.typenames: GPMPermissionType
 req.redist: 

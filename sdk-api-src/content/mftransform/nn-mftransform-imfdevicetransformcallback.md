@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - IMFDeviceTransformCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

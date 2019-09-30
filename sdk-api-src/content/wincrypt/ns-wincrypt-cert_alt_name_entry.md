@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_ALT_NAME_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CERT_ALT_NAME_ENTRY, *PCERT_ALT_NAME_ENTRY
 req.redist: 

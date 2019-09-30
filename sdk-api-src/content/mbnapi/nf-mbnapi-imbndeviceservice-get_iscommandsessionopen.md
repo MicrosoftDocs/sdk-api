@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnDeviceService.IsCommandSessionOpen
  - IMbnDeviceService.get_IsCommandSessionOpen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CHString.GetBuffer
  - ?GetBuffer@CHString@@QAEPAGH@Z
  - ?GetBuffer@CHString@@QEAAPEAGH@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingMethod.ExtensionFriendlyName
  - IFaxInboundRoutingMethod.get_ExtensionFriendlyName
  - IFaxInboundRoutingMethod.get_ExtensionFriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

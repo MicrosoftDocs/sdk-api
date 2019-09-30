@@ -40,7 +40,6 @@ api_name:
  - IWeeklyTrigger.DaysOfWeek
  - IWeeklyTrigger.get_DaysOfWeek
  - IWeeklyTrigger.put_DaysOfWeek
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_SendEnabled
  - IFaxDevice.get_SendEnabled
  - IFaxDevice.put_SendEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

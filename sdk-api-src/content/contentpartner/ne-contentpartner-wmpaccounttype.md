@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPAccountType
-product: Windows
 targetos: Windows
 req.typenames: WMPAccountType
 req.redist: 

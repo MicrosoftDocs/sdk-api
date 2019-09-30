@@ -48,7 +48,6 @@ api_name:
  - TranslateAccelerator
  - TranslateAcceleratorA
  - TranslateAcceleratorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

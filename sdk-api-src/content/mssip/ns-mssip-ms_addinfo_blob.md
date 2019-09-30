@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - MS_ADDINFO_BLOB
-product: Windows
 targetos: Windows
 req.typenames: MS_ADDINFO_BLOB, *PMS_ADDINFO_BLOB
 req.redist: 

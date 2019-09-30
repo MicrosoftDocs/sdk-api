@@ -40,7 +40,6 @@ api_name:
 - WTS_PROCESS_INFO_EX
 - WTS_PROCESS_INFO_EXA
 - WTS_PROCESS_INFO_EXW
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROCESS_INFO_EXA, *PWTS_PROCESS_INFO_EXA
 req.redist: 

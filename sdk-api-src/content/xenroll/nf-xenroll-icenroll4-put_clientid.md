@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.ClientID
  - ICEnroll4.get_ClientID
  - ICEnroll4.put_ClientID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

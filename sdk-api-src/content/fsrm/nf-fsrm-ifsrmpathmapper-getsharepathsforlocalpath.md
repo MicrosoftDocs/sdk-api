@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPathMapper.GetSharePathsForLocalPath
  - FsrmPathMapper.GetSharePathsForLocalPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

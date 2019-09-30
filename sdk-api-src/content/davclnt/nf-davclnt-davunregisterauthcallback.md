@@ -38,7 +38,6 @@ api_location:
  - Davclnt.dll
 api_name:
  - DavUnregisterAuthCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

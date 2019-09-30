@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - MEMORYSTATUS
-product: Windows
 targetos: Windows
 req.typenames: MEMORYSTATUS, *LPMEMORYSTATUS
 req.redist: 

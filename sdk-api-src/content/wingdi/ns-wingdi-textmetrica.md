@@ -40,7 +40,6 @@ api_name:
  - TEXTMETRIC
  - TEXTMETRICA
  - TEXTMETRICW
-product: Windows
 targetos: Windows
 req.typenames: TEXTMETRICA, *PTEXTMETRICA, *NPTEXTMETRICA, *LPTEXTMETRICA
 req.redist: 

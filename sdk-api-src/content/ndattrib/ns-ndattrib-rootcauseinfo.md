@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - RootCauseInfo
-product: Windows
 targetos: Windows
 req.typenames: RootCauseInfo, *PRootCauseInfo
 req.redist: 

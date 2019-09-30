@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.ServiceName
  - INetFwRule.get_ServiceName
  - INetFwRule.put_ServiceName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

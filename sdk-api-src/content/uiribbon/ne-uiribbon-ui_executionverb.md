@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_EXECUTIONVERB
-product: Windows
 targetos: Windows
 req.typenames: UI_EXECUTIONVERB
 req.redist: 

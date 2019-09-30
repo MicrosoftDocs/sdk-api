@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ApplicationProcessRecycleInfo
-product: Windows
 targetos: Windows
 req.typenames: ApplicationProcessRecycleInfo
 req.redist: 

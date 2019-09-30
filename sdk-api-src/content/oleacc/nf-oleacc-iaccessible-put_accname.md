@@ -39,7 +39,6 @@ api_location:
  - srchctls.dll
 api_name:
  - IAccessible.put_accName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

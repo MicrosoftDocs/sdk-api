@@ -40,7 +40,6 @@ api_name:
  - IManipulationProcessor.PivotPointX
  - IManipulationProcessor.get_PivotPointX
  - IManipulationProcessor.put_PivotPointX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

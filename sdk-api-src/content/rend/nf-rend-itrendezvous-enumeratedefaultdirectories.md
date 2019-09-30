@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - ITRendezvous.EnumerateDefaultDirectories
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

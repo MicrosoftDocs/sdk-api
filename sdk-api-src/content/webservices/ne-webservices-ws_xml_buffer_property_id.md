@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_XML_BUFFER_PROPERTY_ID
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_BUFFER_PROPERTY_ID
 req.redist: 

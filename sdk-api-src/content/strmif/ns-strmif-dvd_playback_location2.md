@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PLAYBACK_LOCATION2
-product: Windows
 targetos: Windows
 req.typenames: DVD_PLAYBACK_LOCATION2
 req.redist: 

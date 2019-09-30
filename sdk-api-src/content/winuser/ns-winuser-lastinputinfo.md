@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - LASTINPUTINFO
-product: Windows
 targetos: Windows
 req.typenames: LASTINPUTINFO, *PLASTINPUTINFO
 req.redist: 

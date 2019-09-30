@@ -38,7 +38,6 @@ api_location:
 - BluetoothAPIs.h
 api_name:
 - BLUETOOTH_AUTHENTICATE_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATE_RESPONSE, *PBLUETOOTH_AUTHENTICATE_RESPONSE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SCardAddReaderToGroup
  - SCardAddReaderToGroupA
  - SCardAddReaderToGroupW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

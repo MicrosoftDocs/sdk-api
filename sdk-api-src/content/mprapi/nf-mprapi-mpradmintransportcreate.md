@@ -38,7 +38,6 @@ api_location:
  - Mprapi.dll
 api_name:
  - MprAdminTransportCreate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

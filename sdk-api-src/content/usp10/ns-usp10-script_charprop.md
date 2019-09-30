@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - SCRIPT_CHARPROP
-product: Windows
 targetos: Windows
 req.typenames: SCRIPT_CHARPROP
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

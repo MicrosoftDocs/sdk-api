@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICDdsAlphaMode
-product: Windows
 targetos: Windows
 req.typenames: WICDdsAlphaMode
 req.redist: 

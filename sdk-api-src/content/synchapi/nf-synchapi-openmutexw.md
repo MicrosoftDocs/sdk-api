@@ -52,7 +52,6 @@ api_name:
  - OpenMutex
  - OpenMutexA
  - OpenMutexW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

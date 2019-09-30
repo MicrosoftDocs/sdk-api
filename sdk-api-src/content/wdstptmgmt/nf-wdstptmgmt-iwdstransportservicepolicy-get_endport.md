@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy.EndPort
  - IWdsTransportServicePolicy.get_EndPort
  - IWdsTransportServicePolicy.put_EndPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

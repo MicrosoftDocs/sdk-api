@@ -44,7 +44,6 @@ api_location:
  - vertdll.dll
 api_name:
  - InitializeConditionVariable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

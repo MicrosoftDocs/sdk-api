@@ -38,7 +38,6 @@ api_location:
  - Dsadmin.dll
 api_name:
  - IDsDisplaySpecifier.GetAttributeADsType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

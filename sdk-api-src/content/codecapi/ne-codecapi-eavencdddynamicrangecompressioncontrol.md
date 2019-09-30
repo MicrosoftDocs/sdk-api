@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVEncDDDynamicRangeCompressionControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

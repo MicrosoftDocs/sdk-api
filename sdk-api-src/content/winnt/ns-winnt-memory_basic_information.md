@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - MEMORY_BASIC_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 req.redist: 

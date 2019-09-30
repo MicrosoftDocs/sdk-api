@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - IResultDataCompareEx.Compare
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

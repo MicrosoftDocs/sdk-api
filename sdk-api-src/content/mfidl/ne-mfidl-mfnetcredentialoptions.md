@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNetCredentialOptions
-product: Windows
 targetos: Windows
 req.typenames: MFNetCredentialOptions
 req.redist: 

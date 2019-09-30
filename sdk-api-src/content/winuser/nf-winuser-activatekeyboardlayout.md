@@ -44,7 +44,6 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
  - ActivateKeyboardLayout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

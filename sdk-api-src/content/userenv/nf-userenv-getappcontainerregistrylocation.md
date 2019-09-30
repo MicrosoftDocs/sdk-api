@@ -38,7 +38,6 @@ api_location:
  - Userenv.dll
 api_name:
  - GetAppContainerRegistryLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

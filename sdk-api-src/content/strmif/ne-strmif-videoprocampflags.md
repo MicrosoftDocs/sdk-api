@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VideoProcAmpFlags
-product: Windows
 targetos: Windows
 req.typenames: VideoProcAmpFlags
 req.redist: 

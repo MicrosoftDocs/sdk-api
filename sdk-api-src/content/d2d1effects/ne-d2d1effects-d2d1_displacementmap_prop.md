@@ -38,7 +38,6 @@ api_location:
  - d2d1effects.h
 api_name:
  - D2D1_DISPLACEMENTMAP_PROP
-product: Windows
 targetos: Windows
 req.typenames: D2D1_DISPLACEMENTMAP_PROP
 req.redist: 

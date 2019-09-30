@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - WindowPattern_SetWindowVisualState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mmreg.h
 api_name:
  - HEAACWAVEINFO
-product: Windows
 targetos: Windows
 req.typenames: HEAACWAVEINFO
 req.redist: 

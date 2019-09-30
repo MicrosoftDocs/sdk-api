@@ -38,7 +38,6 @@ api_location:
  - Shtypes.h
 api_name:
  - DEVICE_SCALE_FACTOR
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_SCALE_FACTOR
 req.redist: 

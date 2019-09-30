@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_TIMEOUT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WBEM_TIMEOUT_TYPE
 req.redist: 

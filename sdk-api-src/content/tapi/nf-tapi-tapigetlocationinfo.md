@@ -40,7 +40,6 @@ api_name:
  - tapiGetLocationInfo
  - tapiGetLocationInfoA
  - tapiGetLocationInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADAPTER_DNS_SUFFIX
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX
 req.redist: 

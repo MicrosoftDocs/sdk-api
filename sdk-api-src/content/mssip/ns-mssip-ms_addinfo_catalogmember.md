@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - MS_ADDINFO_CATALOGMEMBER
-product: Windows
 targetos: Windows
 req.typenames: MS_ADDINFO_CATALOGMEMBER, *PMS_ADDINFO_CATALOGMEMBER
 req.redist: 

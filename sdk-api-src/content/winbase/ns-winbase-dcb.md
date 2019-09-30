@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - DCB
-product: Windows
 targetos: Windows
 req.typenames: DCB, *LPDCB
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTogglePattern.CurrentToggleState
  - IUIAutomationTogglePattern.get_CurrentToggleState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

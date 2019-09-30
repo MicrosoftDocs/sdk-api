@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - POINTER_INPUT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

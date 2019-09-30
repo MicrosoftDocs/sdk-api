@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_LOGON_SUBMIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LOGON_SUBMIT_TYPE, *PMSV1_0_LOGON_SUBMIT_TYPE
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
 - CreateFile
 - CreateFileA
 - CreateFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

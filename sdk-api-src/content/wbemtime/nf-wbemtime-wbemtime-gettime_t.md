@@ -40,7 +40,6 @@ api_location:
 api_name:
  - WBEMTime.Gettime_t
  - ?Gettime_t@WBEMTime@@QBEHPAJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

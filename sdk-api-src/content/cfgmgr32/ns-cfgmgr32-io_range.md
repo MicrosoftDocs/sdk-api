@@ -38,7 +38,6 @@ api_location:
  - Cfgmgr32.h
 api_name:
  - IO_RANGE
-product: Windows
 targetos: Windows
 req.typenames: IO_RANGE, *PIO_RANGE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.h
 api_name:
  - XMConvertFloatToHalfStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

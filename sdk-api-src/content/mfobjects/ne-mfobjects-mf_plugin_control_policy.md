@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_PLUGIN_CONTROL_POLICY
-product: Windows
 targetos: Windows
 req.typenames: MF_PLUGIN_CONTROL_POLICY
 req.redist: 

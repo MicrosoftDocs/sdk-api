@@ -40,7 +40,6 @@ api_name:
 - FAX_TIME
 - FAX_TIMEA
 - FAX_TIMEW
-product: Windows
 targetos: Windows
 req.typenames: FAX_TIME, *PFAX_TIME
 req.redist: 

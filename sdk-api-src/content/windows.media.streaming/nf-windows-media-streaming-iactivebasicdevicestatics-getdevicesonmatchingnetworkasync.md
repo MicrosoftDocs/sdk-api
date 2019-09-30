@@ -38,7 +38,6 @@ api_location:
  - PlayToDevice.dll
 api_name:
  - IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

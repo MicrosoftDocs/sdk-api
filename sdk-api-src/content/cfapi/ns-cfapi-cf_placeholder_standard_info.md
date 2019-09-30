@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_PLACEHOLDER_STANDARD_INFO
-product: Windows
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_STANDARD_INFO
 req.redist: 

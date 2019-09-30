@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_PADDING_MODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

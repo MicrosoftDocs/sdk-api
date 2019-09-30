@@ -38,7 +38,6 @@ api_location:
  - Wscapi.h
 api_name:
  - WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
-product: Windows
 targetos: Windows
 req.typenames: WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
 req.redist: 

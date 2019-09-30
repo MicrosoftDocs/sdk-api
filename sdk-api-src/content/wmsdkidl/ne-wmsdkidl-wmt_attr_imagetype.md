@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_ATTR_IMAGETYPE
-product: Windows
 targetos: Windows
 req.typenames: WMT_ATTR_IMAGETYPE
 req.redist: 

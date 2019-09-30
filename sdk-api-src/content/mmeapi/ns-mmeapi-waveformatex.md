@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - WAVEFORMATEX
-product: Windows
 targetos: Windows
 req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
 req.redist: 

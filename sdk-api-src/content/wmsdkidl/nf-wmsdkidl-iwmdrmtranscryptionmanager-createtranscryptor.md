@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - IWMDRMTranscryptionManager.CreateTranscryptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

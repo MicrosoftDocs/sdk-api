@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - capCaptureSequenceNoFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

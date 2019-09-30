@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_HBAPORT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_HBAPORT_TYPE
 req.redist: 

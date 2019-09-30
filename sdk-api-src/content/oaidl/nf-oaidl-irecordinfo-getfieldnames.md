@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - IRecordInfo.GetFieldNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

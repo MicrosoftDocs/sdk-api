@@ -40,7 +40,6 @@ api_name:
  - FtpGetCurrentDirectory
  - FtpGetCurrentDirectoryA
  - FtpGetCurrentDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - ISyncChangeBatchAdvanced
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

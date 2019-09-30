@@ -38,7 +38,6 @@ api_location:
  - DcompTypes.h
 api_name:
  - DCOMPOSITION_BORDER_MODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

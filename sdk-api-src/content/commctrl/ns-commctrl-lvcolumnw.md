@@ -40,7 +40,6 @@ api_name:
  - LVCOLUMN
  - LVCOLUMNA
  - LVCOLUMNW
-product: Windows
 targetos: Windows
 req.typenames: LVCOLUMNW, *LPLVCOLUMNW
 req.redist: 

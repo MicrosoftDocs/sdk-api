@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_REPL_QUEUE_STATISTICSW
-product: Windows
 targetos: Windows
 req.typenames: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW_BLOB
 req.redist: 

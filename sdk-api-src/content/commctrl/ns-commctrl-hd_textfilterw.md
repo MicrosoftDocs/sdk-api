@@ -40,7 +40,6 @@ api_name:
  - HDTEXTFILTER
  - HD_TEXTFILTERA
  - HD_TEXTFILTERW
-product: Windows
 targetos: Windows
 req.typenames: HD_TEXTFILTERW, *LPHD_TEXTFILTERW
 req.redist: 

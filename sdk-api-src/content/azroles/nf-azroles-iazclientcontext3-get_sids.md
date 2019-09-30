@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzClientContext3.Sids
  - IAzClientContext3.get_Sids
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

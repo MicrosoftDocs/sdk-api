@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_LICENSE_ACQ_DATA
-product: Windows
 targetos: Windows
 req.typenames: DRM_LICENSE_ACQ_DATA
 req.redist: 

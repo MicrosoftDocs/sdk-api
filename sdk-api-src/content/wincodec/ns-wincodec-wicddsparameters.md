@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICDdsParameters
-product: Windows
 targetos: Windows
 req.typenames: WICDdsParameters
 req.redist: 

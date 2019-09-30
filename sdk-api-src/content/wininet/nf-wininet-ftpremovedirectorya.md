@@ -40,7 +40,6 @@ api_name:
  - FtpRemoveDirectory
  - FtpRemoveDirectoryA
  - FtpRemoveDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

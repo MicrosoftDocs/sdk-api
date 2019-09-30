@@ -38,7 +38,6 @@ api_location:
 - wlanapi.dll
 api_name:
 - WlanDisconnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

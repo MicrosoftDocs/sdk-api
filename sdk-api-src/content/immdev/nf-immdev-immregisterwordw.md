@@ -40,7 +40,6 @@ api_name:
  - ImmRegisterWord
  - ImmRegisterWordA
  - ImmRegisterWordW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

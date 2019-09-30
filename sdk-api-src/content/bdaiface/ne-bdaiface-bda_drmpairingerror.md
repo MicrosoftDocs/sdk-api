@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - BDA_DrmPairingError
-product: Windows
 targetos: Windows
 req.typenames: BDA_DrmPairingError
 req.redist: 

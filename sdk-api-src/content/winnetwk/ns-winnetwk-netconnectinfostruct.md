@@ -38,7 +38,6 @@ api_location:
  - Winnetwk.h
 api_name:
  - NETCONNECTINFOSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: NETCONNECTINFOSTRUCT, *LPNETCONNECTINFOSTRUCT
 req.redist: 

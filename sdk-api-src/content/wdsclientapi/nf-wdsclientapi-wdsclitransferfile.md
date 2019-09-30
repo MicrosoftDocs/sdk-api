@@ -38,7 +38,6 @@ api_location:
  - WdsClientAPI.dll
 api_name:
  - WdsCliTransferFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

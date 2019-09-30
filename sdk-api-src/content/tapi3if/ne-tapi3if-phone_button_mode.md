@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - PHONE_BUTTON_MODE
-product: Windows
 targetos: Windows
 req.typenames: PHONE_BUTTON_MODE
 req.redist: 

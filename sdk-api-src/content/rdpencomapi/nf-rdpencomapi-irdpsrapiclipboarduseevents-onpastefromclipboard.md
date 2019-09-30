@@ -38,7 +38,6 @@ api_location:
  - RdpEncomAPI.h
 api_name:
  - IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

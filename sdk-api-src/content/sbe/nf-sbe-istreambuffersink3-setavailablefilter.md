@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferSink3.SetAvailableFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - WWAEXT_SMS_CONSTANTS
-product: Windows
 targetos: Windows
 req.typenames: WWAEXT_SMS_CONSTANTS
 req.redist: 

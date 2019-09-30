@@ -38,7 +38,6 @@ api_location:
  - Cfgmgr32.dll
 api_name:
  - CM_Get_Resource_Conflict_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

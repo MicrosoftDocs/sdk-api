@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - TOUCH_HIT_TESTING_INPUT
-product: Windows
 targetos: Windows
 req.typenames: TOUCH_HIT_TESTING_INPUT, *PTOUCH_HIT_TESTING_INPUT
 req.redist: 

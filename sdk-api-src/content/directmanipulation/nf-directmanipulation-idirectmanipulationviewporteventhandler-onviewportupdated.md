@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - IDirectManipulationViewportEventHandler.OnViewportUpdated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ICspStatus.Ordinal
  - ICspStatus.get_Ordinal
  - ICspStatus.put_Ordinal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

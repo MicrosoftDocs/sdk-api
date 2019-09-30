@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IPBDASiParser.GetServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

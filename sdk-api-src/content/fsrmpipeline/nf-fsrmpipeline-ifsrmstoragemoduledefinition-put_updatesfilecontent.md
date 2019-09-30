@@ -40,7 +40,6 @@ api_name:
  - IFsrmStorageModuleDefinition.UpdatesFileContent
  - IFsrmStorageModuleDefinition.get_UpdatesFileContent
  - IFsrmStorageModuleDefinition.put_UpdatesFileContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

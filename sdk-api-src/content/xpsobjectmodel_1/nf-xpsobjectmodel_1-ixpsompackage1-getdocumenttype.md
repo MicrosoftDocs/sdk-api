@@ -39,7 +39,6 @@ api_location:
  - none.dll
 api_name:
  - IXpsOMPackage1.GetDocumentType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry2.Categories
  - IUpdateHistoryEntry2.get_Categories
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

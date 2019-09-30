@@ -38,7 +38,6 @@ api_location:
  - Drt.h
 api_name:
  - DRT_SECURITY_PROVIDER
-product: Windows
 targetos: Windows
 req.typenames: DRT_SECURITY_PROVIDER, *PDRT_SECURITY_PROVIDER
 req.redist: 

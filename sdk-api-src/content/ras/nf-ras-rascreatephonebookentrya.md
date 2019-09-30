@@ -40,7 +40,6 @@ api_name:
  - RasCreatePhonebookEntry
  - RasCreatePhonebookEntryA
  - RasCreatePhonebookEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

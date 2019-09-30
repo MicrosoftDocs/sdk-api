@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate4.WindowsDriverUpdateEntries
  - IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

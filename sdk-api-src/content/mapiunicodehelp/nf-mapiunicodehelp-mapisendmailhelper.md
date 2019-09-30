@@ -38,7 +38,6 @@ api_location:
  - mapi32.dll
 api_name:
  - MAPISendMailHelper
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

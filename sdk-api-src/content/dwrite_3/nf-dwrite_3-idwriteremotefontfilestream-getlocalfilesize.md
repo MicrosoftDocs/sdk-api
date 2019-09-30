@@ -39,7 +39,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteRemoteFontFileStream.GetLocalFileSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

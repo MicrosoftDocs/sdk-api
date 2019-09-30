@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWMPCore.get_currentPlaylist
  - IWMPPlayer4.get_currentPlaylist
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

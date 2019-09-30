@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMAGE_ENCLAVE_CONFIG32
  - IMAGE_ENCLAVE_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_CONFIG32, *PIMAGE_ENCLAVE_CONFIG32
 req.redist: 

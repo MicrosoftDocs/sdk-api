@@ -43,7 +43,6 @@ api_name:
  - DsBindWithSpnEx
  - DsBindWithSpnExA
  - DsBindWithSpnExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

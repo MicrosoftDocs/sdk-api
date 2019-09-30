@@ -44,7 +44,6 @@ api_name:
 - ShellExecute
 - ShellExecuteA
 - ShellExecuteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

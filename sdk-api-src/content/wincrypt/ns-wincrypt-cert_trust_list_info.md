@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_TRUST_LIST_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_TRUST_LIST_INFO, *PCERT_TRUST_LIST_INFO
 req.redist: 

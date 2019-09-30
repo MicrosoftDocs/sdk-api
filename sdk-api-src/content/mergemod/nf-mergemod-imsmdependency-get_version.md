@@ -38,7 +38,6 @@ api_location:
  - Mergemod.dll
 api_name:
  - IMsmDependency.get_Version
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

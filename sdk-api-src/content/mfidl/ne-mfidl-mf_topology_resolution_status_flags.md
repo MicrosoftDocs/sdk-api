@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
 req.redist: 

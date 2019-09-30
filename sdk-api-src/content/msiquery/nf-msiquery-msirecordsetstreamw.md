@@ -40,7 +40,6 @@ api_name:
  - MsiRecordSetStream
  - MsiRecordSetStreamA
  - MsiRecordSetStreamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

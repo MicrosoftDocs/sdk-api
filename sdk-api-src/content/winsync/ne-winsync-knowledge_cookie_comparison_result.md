@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - KNOWLEDGE_COOKIE_COMPARISON_RESULT
-product: Windows
 targetos: Windows
 req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
 req.redist: 

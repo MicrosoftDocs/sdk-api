@@ -38,7 +38,6 @@ api_location:
 - eaptypes.h
 api_name:
 - EapCredential
-product: Windows
 targetos: Windows
 req.typenames: EapCredential
 req.redist: 

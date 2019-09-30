@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - ROUTER_INTERFACE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ROUTER_INTERFACE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - FLASHWINFO
-product: Windows
 targetos: Windows
 req.typenames: FLASHWINFO, *PFLASHWINFO
 req.redist: 

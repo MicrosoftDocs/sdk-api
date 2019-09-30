@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmRule.RuleType
  - IFsrmRule.get_RuleType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

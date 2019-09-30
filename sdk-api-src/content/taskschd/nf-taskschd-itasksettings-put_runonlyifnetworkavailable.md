@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.RunOnlyIfNetworkAvailable
  - ITaskSettings.get_RunOnlyIfNetworkAvailable
  - ITaskSettings.put_RunOnlyIfNetworkAvailable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

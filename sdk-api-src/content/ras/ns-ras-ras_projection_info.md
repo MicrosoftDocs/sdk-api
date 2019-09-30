@@ -38,7 +38,6 @@ api_location:
 - Ras.h
 api_name:
 - RAS_PROJECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: RAS_PROJECTION_INFO, *PRAS_PROJECTION_INFO
 req.redist: 

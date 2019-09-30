@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - PLEX_READ_DATA_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
 req.redist: 

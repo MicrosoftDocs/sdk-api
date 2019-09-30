@@ -41,7 +41,6 @@ api_name:
  - Provider.Flush
  - ?Flush@Provider@@MAEXXZ
  - ?Flush@Provider@@MEAAXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

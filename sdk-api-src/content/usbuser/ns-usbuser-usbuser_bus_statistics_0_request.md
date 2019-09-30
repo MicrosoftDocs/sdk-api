@@ -38,7 +38,6 @@ api_location:
 - usbuser.h
 api_name:
 - USBUSER_BUS_STATISTICS_0_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: USBUSER_BUS_STATISTICS_0_REQUEST, *PUSBUSER_BUS_STATISTICS_0_REQUEST
 req.redist: 

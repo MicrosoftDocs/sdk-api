@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - CONFIDENCE_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: CONFIDENCE_LEVEL
 req.redist: 

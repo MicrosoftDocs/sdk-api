@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, *PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 req.redist: 

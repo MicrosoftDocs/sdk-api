@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_CANCEL_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_CANCEL_REQUEST
 req.redist: 

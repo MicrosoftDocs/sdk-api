@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - ITTerminalControl.ConnectTerminal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

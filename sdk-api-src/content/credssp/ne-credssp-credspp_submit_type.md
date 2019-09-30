@@ -38,7 +38,6 @@ api_location:
 - Credssp.h
 api_name:
 - CREDSPP_SUBMIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CREDSPP_SUBMIT_TYPE
 req.redist: 

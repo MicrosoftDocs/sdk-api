@@ -42,7 +42,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetEnhMetaFileBits
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

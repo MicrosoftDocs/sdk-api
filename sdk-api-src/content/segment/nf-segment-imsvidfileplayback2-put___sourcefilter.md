@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidFilePlayback2.put___SourceFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

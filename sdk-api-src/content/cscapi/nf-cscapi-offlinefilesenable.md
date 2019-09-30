@@ -38,7 +38,6 @@ api_location:
  - CscApi.dll
 api_name:
  - OfflineFilesEnable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

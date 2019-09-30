@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMFORMATDETAILS
-product: Windows
 targetos: Windows
 req.typenames: ACMFORMATDETAILS, *PACMFORMATDETAILS, *LPACMFORMATDETAILS
 req.redist: 

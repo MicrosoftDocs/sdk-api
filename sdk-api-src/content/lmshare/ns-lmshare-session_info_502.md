@@ -38,7 +38,6 @@ api_location:
  - Lmshare.h
 api_name:
  - SESSION_INFO_502
-product: Windows
 targetos: Windows
 req.typenames: SESSION_INFO_502, *PSESSION_INFO_502, *LPSESSION_INFO_502
 req.redist: 

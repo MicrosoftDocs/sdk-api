@@ -42,7 +42,6 @@ api_name:
  - SHDefExtractIcon
  - SHDefExtractIconA
  - SHDefExtractIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

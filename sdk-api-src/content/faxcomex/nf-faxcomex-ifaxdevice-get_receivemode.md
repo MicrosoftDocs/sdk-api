@@ -40,7 +40,6 @@ api_name:
  - IFaxDevice.ReceiveMode
  - IFaxDevice.get_ReceiveMode
  - IFaxDevice.put_ReceiveMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

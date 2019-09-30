@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.TerminalServicesHomeDirectory
  - IADsTSUserEx.get_TerminalServicesHomeDirectory
  - IADsTSUserEx.put_TerminalServicesHomeDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

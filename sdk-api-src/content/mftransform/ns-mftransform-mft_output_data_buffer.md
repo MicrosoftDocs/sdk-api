@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - MFT_OUTPUT_DATA_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: MFT_OUTPUT_DATA_BUFFER, *PMFT_OUTPUT_DATA_BUFFER
 req.redist: 

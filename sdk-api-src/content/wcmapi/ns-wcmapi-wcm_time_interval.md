@@ -38,7 +38,6 @@ api_location:
  - Wcmapi.h
 api_name:
  - WCM_TIME_INTERVAL
-product: Windows
 targetos: Windows
 req.typenames: WCM_TIME_INTERVAL
 req.redist: 

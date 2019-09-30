@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_ATTRIB
-product: Windows
 targetos: Windows
 req.typenames: DHCP_ATTRIB, *PDHCP_ATTRIB, *LPDHCP_ATTRIB
 req.redist: 

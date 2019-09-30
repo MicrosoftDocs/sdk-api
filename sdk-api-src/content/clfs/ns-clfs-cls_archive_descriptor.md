@@ -38,7 +38,6 @@ api_location:
 - Clfs.h
 api_name:
 - CLFS_ARCHIVE_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: CLS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, PPCLS_ARCHIVE_DESCRIPTOR
 req.redist: 

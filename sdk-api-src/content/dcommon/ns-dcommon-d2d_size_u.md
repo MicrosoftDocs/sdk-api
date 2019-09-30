@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D_SIZE_U
-product: Windows
 targetos: Windows
 req.typenames: D2D_SIZE_U
 req.redist: 

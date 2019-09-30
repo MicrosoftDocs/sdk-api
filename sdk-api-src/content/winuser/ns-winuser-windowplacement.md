@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - WINDOWPLACEMENT
-product: Windows
 targetos: Windows
 req.typenames: WINDOWPLACEMENT
 req.redist: 

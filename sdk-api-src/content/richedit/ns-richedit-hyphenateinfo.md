@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - HYPHENATEINFO
-product: Windows
 targetos: Windows
 req.typenames: HYPHENATEINFO
 req.redist: 

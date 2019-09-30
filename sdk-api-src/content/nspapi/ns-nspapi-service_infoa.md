@@ -40,7 +40,6 @@ api_name:
 - SERVICE_INFO
 - SERVICE_INFOA
 - SERVICE_INFOW
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_INFOA, *PSERVICE_INFOA, *LPSERVICE_INFOA
 req.redist: 

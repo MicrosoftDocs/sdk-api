@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - TXFS_WRITE_BACKUP_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TXFS_WRITE_BACKUP_INFORMATION, *PTXFS_WRITE_BACKUP_INFORMATION
 req.redist: 

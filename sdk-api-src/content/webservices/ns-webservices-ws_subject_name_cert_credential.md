@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SUBJECT_NAME_CERT_CREDENTIAL
-product: Windows
 targetos: Windows
 req.typenames: WS_SUBJECT_NAME_CERT_CREDENTIAL
 req.redist: 

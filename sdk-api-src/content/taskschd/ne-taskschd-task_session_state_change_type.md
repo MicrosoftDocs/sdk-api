@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_SESSION_STATE_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TASK_SESSION_STATE_CHANGE_TYPE
 req.redist: 

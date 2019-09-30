@@ -40,7 +40,6 @@ api_name:
  - DSBITEM
  - DSBITEMA
  - DSBITEMW
-product: Windows
 targetos: Windows
 req.typenames: DSBITEMA, *PDSBITEMA
 req.redist: 

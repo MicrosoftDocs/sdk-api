@@ -40,7 +40,6 @@ api_name:
  - LocateCatalogs
  - LocateCatalogsA
  - LocateCatalogsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

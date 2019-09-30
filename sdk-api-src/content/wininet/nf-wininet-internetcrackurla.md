@@ -40,7 +40,6 @@ api_name:
  - InternetCrackUrl
  - InternetCrackUrlA
  - InternetCrackUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

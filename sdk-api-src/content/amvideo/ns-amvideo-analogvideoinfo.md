@@ -38,7 +38,6 @@ api_location:
  - amvideo.h
 api_name:
  - ANALOGVIDEOINFO
-product: Windows
 targetos: Windows
 req.typenames: ANALOGVIDEOINFO
 req.redist: 

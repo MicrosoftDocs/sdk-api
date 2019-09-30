@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate5.AutoSelection
  - IUpdate5.get_AutoSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

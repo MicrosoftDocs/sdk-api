@@ -38,7 +38,6 @@ api_location:
  - Winwlx.h
 api_name:
  - WlxGetStatusMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

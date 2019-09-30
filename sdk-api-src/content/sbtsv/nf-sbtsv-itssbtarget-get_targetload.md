@@ -41,7 +41,6 @@ api_name:
  - ITsSbTarget.get_TargetLoad
  - ITsSbTargetEx.TargetLoad
  - ITsSbTargetEx.get_TargetLoad
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

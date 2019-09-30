@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - OCSP_BASIC_RESPONSE_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
 req.redist: 

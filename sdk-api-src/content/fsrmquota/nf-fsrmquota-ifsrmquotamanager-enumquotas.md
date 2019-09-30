@@ -40,7 +40,6 @@ api_name:
 - IFsrmQuotaManager.EnumQuotas
 - IFsrmQuotaManagerEx.EnumQuotas
 - FsrmQuotaManager.EnumQuotas
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

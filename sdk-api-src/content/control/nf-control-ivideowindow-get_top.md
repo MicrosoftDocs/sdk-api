@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVideoWindow.get_Top
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

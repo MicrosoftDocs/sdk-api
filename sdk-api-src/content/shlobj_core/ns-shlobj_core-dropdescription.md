@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - DROPDESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: DROPDESCRIPTION
 req.redist: 

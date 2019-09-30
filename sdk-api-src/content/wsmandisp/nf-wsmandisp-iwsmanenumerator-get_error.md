@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWSManEnumerator.Error
  - IWSManEnumerator.get_Error
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

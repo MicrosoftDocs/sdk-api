@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_QUERY_BINDING_CACHE_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_BINDING_CACHE_RESPONSE, *PKERB_QUERY_BINDING_CACHE_RESPONSE
 req.redist: 

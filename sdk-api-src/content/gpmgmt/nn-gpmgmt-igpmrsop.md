@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMRSOP
  - GPMRSOP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

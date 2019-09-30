@@ -43,7 +43,6 @@ api_name:
  - IInkTransform.put_eM11
  - InkTransform.get_eM11
  - InkTransform.put_eM11
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

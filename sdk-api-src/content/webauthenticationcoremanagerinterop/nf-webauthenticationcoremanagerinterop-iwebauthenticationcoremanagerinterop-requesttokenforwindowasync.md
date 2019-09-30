@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

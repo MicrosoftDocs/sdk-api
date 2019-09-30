@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_DATA_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_DATA_INFO, *PCMC_DATA_INFO
 req.redist: 

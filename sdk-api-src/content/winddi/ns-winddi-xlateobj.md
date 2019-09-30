@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - XLATEOBJ
-product: Windows
 targetos: Windows
 req.typenames: XLATEOBJ
 req.redist: 

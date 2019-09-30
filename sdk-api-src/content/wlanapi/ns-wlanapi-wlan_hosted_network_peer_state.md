@@ -38,7 +38,6 @@ api_location:
 - Wlanapi.h
 api_name:
 - WLAN_HOSTED_NETWORK_PEER_STATE
-product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_PEER_STATE, *PWLAN_HOSTED_NETWORK_PEER_STATE
 req.redist: 

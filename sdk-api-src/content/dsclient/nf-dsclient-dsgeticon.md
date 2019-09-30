@@ -38,7 +38,6 @@ api_location:
  - Dsuiext.dll
 api_name:
  - DsGetIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

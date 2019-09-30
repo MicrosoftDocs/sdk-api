@@ -42,7 +42,6 @@ api_name:
  - CryptEnumProviderTypes
  - CryptEnumProviderTypesA
  - CryptEnumProviderTypesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

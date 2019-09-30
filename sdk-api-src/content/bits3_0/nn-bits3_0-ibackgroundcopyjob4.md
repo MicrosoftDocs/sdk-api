@@ -38,7 +38,6 @@ api_location:
  - BitsPrx4.dll
 api_name:
  - IBackgroundCopyJob4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP

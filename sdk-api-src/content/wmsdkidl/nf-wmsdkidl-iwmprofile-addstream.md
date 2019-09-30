@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.AddStream
  - IWMProfile2.AddStream
  - IWMProfile3.AddStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

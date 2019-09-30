@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.SchedulesEnabled
  - IDataCollectorSet.get_SchedulesEnabled
  - IDataCollectorSet.put_SchedulesEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

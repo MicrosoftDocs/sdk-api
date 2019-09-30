@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - DEBUG_EVENT
-product: Windows
 targetos: Windows
 req.typenames: DEBUG_EVENT, *LPDEBUG_EVENT
 req.redist: 

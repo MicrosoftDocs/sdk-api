@@ -38,7 +38,6 @@ api_location:
  - Workspaceruntimeclientext.h
 api_name:
  - IWorkspaceClientExt.IssueDisconnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

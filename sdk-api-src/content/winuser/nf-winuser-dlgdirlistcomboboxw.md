@@ -40,7 +40,6 @@ api_name:
  - DlgDirListComboBox
  - DlgDirListComboBoxA
  - DlgDirListComboBoxW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

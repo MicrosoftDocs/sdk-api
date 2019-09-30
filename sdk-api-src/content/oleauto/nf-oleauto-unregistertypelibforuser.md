@@ -38,7 +38,6 @@ api_location:
  - OleAut32.dll
 api_name:
  - UnRegisterTypeLibForUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

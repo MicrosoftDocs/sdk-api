@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRenderer2.get_Allocator_ID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

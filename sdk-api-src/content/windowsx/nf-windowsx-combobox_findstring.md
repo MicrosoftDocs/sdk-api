@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - ComboBox_FindString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

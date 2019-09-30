@@ -38,7 +38,6 @@ api_location:
  - Rasman.dll
 api_name:
  - RasSecurityDialogSend
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

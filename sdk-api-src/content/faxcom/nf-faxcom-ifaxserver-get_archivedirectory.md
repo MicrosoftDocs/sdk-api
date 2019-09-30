@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_ArchiveDirectory
  - IFaxServer.get_ArchiveDirectory
  - IFaxServer.put_ArchiveDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_NETWORK_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: NLM_NETWORK_CATEGORY
 req.redist: 

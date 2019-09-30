@@ -41,7 +41,6 @@ api_name:
  - FaxConnectFaxServer
  - FaxConnectFaxServerA
  - FaxConnectFaxServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

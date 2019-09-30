@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TOKEN_ELEVATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_ELEVATION_TYPE, *PTOKEN_ELEVATION_TYPE
 req.redist: 

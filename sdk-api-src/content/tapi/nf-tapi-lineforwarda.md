@@ -40,7 +40,6 @@ api_name:
  - lineForward
  - lineForwardA
  - lineForwardW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

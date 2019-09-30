@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmSetting.EmailTest
  - FsrmSetting.EmailTest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

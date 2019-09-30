@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CSV_QUERY_FILE_REVISION
-product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
 req.redist: 

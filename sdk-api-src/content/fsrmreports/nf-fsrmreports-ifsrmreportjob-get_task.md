@@ -40,7 +40,6 @@ api_name:
  - IFsrmReportJob.Task
  - IFsrmReportJob.get_Task
  - IFsrmReportJob.put_Task
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

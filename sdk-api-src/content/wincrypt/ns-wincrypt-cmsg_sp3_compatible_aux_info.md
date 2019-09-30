@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CMSG_SP3_COMPATIBLE_AUX_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_SP3_COMPATIBLE_AUX_INFO, *PCMSG_SP3_COMPATIBLE_AUX_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_CHANNEL_REFERENCE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_REFERENCE_FLAGS
 req.redist: 

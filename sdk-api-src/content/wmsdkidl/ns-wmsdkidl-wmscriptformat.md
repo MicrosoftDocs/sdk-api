@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMSCRIPTFORMAT
-product: Windows
 targetos: Windows
 req.typenames: WMSCRIPTFORMAT
 req.redist: 

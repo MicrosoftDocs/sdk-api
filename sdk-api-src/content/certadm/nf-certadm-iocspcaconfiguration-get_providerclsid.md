@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.ProviderCLSID
  - IOCSPCAConfiguration.get_ProviderCLSID
  - IOCSPCAConfiguration.put_ProviderCLSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferDataCounters.GetData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

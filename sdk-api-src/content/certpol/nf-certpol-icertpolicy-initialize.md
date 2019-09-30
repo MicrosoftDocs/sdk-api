@@ -41,7 +41,6 @@ api_name:
  - ICertPolicy2.Initialize
  - ICertPolicy.Initialize
  - CCertPolicy.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

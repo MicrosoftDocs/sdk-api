@@ -41,7 +41,6 @@ api_name:
  - IInkDivisionUnits.Count
  - IInkDivisionUnits.get_Count
  - IInkDivisionUnits.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

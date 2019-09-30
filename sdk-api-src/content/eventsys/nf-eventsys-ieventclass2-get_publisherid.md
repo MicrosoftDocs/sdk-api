@@ -40,7 +40,6 @@ api_name:
  - IEventClass2.PublisherID
  - IEventClass2.get_PublisherID
  - IEventClass2.put_PublisherID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

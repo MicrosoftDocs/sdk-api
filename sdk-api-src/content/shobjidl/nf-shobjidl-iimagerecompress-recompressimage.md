@@ -38,7 +38,6 @@ api_location:
  - Shimgvw.dll
 api_name:
  - IImageRecompress.RecompressImage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

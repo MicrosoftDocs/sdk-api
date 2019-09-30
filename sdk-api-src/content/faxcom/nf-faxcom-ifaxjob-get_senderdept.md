@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.SenderDept
  - IFaxJob.get_SenderDept
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMRINVERTRGN
-product: Windows
 targetos: Windows
 req.typenames: EMRINVERTRGN, *PEMRINVERTRGN, EMRPAINTRGN, *PEMRPAINTRGN
 req.redist: 

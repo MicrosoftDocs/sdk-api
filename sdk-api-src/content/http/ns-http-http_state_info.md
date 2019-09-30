@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_STATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_STATE_INFO, *PHTTP_STATE_INFO
 req.redist: 

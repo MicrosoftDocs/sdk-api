@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedIsPassword
  - IUIAutomationElement.get_CachedIsPassword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - dxgi.dll
 api_name:
 - IDXGIDevice4.ReclaimResources1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

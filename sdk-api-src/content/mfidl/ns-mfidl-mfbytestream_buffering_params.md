@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFBYTESTREAM_BUFFERING_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
 req.redist: 

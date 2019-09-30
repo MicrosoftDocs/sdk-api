@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - DWRITE_MEASURING_MODE
-product: Windows
 targetos: Windows
 req.typenames: DWRITE_MEASURING_MODE
 req.redist: 

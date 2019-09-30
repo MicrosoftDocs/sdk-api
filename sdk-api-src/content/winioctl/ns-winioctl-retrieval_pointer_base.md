@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - RETRIEVAL_POINTER_BASE
-product: Windows
 targetos: Windows
 req.typenames: RETRIEVAL_POINTER_BASE, *PRETRIEVAL_POINTER_BASE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - audioenginebaseapo.h
 api_name:
  - IAudioProcessingObjectConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

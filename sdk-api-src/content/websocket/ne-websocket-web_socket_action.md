@@ -38,7 +38,6 @@ api_location:
 - Websocket.h
 api_name:
 - WEB_SOCKET_ACTION
-product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_ACTION, *PWEB_SOCKET_ACTION
 req.redist: 

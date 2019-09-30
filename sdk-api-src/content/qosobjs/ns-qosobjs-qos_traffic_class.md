@@ -38,7 +38,6 @@ api_location:
 - QosObjs.h
 api_name:
 - QOS_TRAFFIC_CLASS
-product: Windows
 targetos: Windows
 req.typenames: QOS_TRAFFIC_CLASS, *LPQOS_TRAFFIC_CLASS
 req.redist: 

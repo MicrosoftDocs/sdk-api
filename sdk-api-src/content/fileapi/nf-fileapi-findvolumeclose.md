@@ -45,7 +45,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - FindVolumeClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

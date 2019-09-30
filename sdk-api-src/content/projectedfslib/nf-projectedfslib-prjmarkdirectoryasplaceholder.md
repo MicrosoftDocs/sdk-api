@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PrjMarkDirectoryAsPlaceholder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_ENUM_KEYID_PROP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

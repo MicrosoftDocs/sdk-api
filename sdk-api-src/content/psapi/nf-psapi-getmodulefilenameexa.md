@@ -49,7 +49,6 @@ api_name:
  - K32GetModuleFileNameEx
  - K32GetModuleFileNameExW
  - K32GetModuleFileNameExA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

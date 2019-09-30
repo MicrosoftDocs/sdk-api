@@ -38,7 +38,6 @@ api_location:
  - Aclui.h
 api_name:
  - SI_PAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SI_PAGE_TYPE
 req.redist: 

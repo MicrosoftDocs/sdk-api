@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - MF_MEDIA_ENGINE_EXTENSION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_EXTENSION_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - CIDA
-product: Windows
 targetos: Windows
 req.typenames: CIDA, *LPIDA
 req.redist: 

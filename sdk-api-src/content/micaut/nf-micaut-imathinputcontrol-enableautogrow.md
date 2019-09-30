@@ -38,7 +38,6 @@ api_location:
  - micaut.h
 api_name:
  - IMathInputControl.EnableAutoGrow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - X509EnrollmentPolicyLoadOption
-product: Windows
 targetos: Windows
 req.typenames: X509EnrollmentPolicyLoadOption
 req.redist: 

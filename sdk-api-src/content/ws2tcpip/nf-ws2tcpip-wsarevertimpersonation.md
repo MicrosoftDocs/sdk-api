@@ -38,7 +38,6 @@ api_location:
  - Fwpuclnt.dll
 api_name:
  - WSARevertImpersonation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

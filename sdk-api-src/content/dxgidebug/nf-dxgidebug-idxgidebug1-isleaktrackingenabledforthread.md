@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIDebug1.IsLeakTrackingEnabledForThread
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

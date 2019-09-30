@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.GetBSTR
  - ?GetBSTR@WBEMTime@@QBEPAGXZ
  - ?GetBSTR@WBEMTime@@QEBAPEAGXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

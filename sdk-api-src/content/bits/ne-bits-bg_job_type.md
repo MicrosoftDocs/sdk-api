@@ -38,7 +38,6 @@ api_location:
  - Bits.h
 api_name:
  - BG_JOB_TYPE
-product: Windows
 targetos: Windows
 req.typenames: BG_JOB_TYPE
 req.redist: 

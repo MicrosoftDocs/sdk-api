@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_INFO_CLASS, TRACE_QUERY_INFO_CLASS
-product: Windows
 targetos: Windows
 req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
 req.redist: 

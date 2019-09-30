@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyEnrollment.FriendlyName
  - ICertPropertyEnrollment.get_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

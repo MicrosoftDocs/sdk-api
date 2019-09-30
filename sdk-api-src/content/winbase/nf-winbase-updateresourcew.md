@@ -40,7 +40,6 @@ api_name:
  - UpdateResource
  - UpdateResourceA
  - UpdateResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

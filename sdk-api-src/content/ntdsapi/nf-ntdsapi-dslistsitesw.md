@@ -40,7 +40,6 @@ api_name:
  - DsListSites
  - DsListSitesA
  - DsListSitesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

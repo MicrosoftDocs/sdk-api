@@ -40,7 +40,6 @@ api_name:
  - PARSEDURL
  - PARSEDURLA
  - PARSEDURLW
-product: Windows
 targetos: Windows
 req.typenames: PARSEDURLA, *PPARSEDURLA
 req.redist: 

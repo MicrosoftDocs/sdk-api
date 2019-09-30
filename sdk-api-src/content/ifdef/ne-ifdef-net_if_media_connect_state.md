@@ -38,7 +38,6 @@ api_location:
  - ifdef.h
 api_name:
  - NET_IF_MEDIA_CONNECT_STATE
-product: Windows
 targetos: Windows
 req.typenames: NET_IF_MEDIA_CONNECT_STATE, *PNET_IF_MEDIA_CONNECT_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - slpublic.h
 api_name:
  - SLIDTYPE
-product: Windows
 targetos: Windows
 req.typenames: SLIDTYPE
 req.redist: 

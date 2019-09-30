@@ -38,7 +38,6 @@ api_location:
  - MmcObj.h
 api_name:
  - _ViewOptions
-product: Windows
 targetos: Windows
 req.typenames: "_ViewOptions, VIEWOPTIONS, *PVIEWOPTIONS"
 req.redist: 

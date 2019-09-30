@@ -38,7 +38,6 @@ api_location:
  - UxTheme.dll
 api_name:
  - DrawThemeIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

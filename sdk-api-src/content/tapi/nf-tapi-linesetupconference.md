@@ -40,7 +40,6 @@ api_name:
  - lineSetupConference
  - lineSetupConferenceA
  - lineSetupConferenceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

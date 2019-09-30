@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
 api_name:
  - RemoveVectoredExceptionHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

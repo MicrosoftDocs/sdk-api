@@ -40,7 +40,6 @@ api_name:
  - INTERNET_BUFFERS
  - INTERNET_BUFFERSA
  - INTERNET_BUFFERSW
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_BUFFERSA, *LPINTERNET_BUFFERSA
 req.redist: 

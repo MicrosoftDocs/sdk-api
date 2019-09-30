@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_MEDIAPLAYER_STATE
-product: Windows
 targetos: Windows
 req.typenames: MFP_MEDIAPLAYER_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_POINT
-product: Windows
 targetos: Windows
 req.typenames: XPS_POINT
 req.redist: 

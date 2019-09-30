@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

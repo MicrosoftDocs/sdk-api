@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - STREAMBUFFER_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: STREAMBUFFER_ATTRIBUTE
 req.redist: 

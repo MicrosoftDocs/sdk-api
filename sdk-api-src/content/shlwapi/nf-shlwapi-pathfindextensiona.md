@@ -44,7 +44,6 @@ api_name:
  - PathFindExtension
  - PathFindExtensionA
  - PathFindExtensionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

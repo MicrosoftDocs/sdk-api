@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_SCAN_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
 req.redist: 

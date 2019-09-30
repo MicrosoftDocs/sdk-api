@@ -39,7 +39,6 @@ api_location:
 api_name:
 - FILE_IN_CABINET_INFO
  - file_in_cabinet_info_a
-product: Windows
 targetos: Windows
 req.typenames: FILE_IN_CABINET_INFO_A, *PFILE_IN_CABINET_INFO_A
 req.redist: 

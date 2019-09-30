@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - ERROR_SPEC
-product: Windows
 targetos: Windows
 req.typenames: ERROR_SPEC
 req.redist: 

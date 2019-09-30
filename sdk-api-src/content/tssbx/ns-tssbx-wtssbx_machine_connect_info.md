@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - WTSSBX_MACHINE_CONNECT_INFO
-product: Windows
 targetos: Windows
 req.typenames: WTSSBX_MACHINE_CONNECT_INFO
 req.redist: 

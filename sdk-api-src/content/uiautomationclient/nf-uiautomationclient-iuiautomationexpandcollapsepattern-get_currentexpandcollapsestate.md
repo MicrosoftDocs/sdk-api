@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState
  - IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

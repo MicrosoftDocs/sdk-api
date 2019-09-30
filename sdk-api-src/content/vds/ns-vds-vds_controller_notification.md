@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_CONTROLLER_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_NOTIFICATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - DiagnosticsInfo, *PDiagnosticsInfo
-product: Windows
 targetos: Windows
 req.typenames: DiagnosticsInfo, *PDiagnosticsInfo
 req.redist: 

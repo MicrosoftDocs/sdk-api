@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DATA_CALLBACK_HEADER
-product: Windows
 targetos: Windows
 req.typenames: WIA_DATA_CALLBACK_HEADER, *PWIA_DATA_CALLBACK_HEADER
 req.redist: 

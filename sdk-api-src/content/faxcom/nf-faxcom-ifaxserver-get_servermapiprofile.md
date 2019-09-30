@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_ServerMapiProfile
  - IFaxServer.get_ServerMapiProfile
  - IFaxServer.put_ServerMapiProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

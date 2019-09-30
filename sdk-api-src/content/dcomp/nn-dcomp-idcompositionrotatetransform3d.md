@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionRotateTransform3D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

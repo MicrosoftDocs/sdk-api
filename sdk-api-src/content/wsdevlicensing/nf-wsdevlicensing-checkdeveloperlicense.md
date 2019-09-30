@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
 api_name:
  - CheckDeveloperLicense
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

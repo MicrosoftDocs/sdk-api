@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyKeyProvInfo.PrivateKey
  - ICertPropertyKeyProvInfo.get_PrivateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

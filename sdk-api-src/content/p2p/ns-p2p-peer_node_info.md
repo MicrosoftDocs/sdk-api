@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_NODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEER_NODE_INFO, *PPEER_NODE_INFO
 req.redist: 

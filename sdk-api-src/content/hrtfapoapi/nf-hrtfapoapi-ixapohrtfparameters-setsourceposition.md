@@ -38,7 +38,6 @@ api_location:
  - HrtfApo.dll
 api_name:
  - IXAPOHrtfParameters.SetSourcePosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

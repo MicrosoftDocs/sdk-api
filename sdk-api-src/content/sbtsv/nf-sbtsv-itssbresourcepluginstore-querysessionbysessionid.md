@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.QuerySessionBySessionId
  - ITsSbResourcePluginStoreEx.QuerySessionBySessionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

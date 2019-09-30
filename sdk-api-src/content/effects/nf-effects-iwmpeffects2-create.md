@@ -38,7 +38,6 @@ api_location:
  - effects.h
 api_name:
  - IWMPEffects2.Create
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

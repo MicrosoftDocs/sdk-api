@@ -38,7 +38,6 @@ api_location:
 - Medparam.h
 api_name:
 - MP_ENVELOPE_SEGMENT
-product: Windows
 targetos: Windows
 req.typenames: MP_ENVELOPE_SEGMENT
 req.redist: 

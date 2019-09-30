@@ -40,7 +40,6 @@ api_name:
  - RasGetEapUserIdentity
  - RasGetEapUserIdentityA
  - RasGetEapUserIdentityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

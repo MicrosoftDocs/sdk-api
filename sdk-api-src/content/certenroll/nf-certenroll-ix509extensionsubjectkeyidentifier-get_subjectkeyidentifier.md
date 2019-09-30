@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionSubjectKeyIdentifier.SubjectKeyIdentifier
  - IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

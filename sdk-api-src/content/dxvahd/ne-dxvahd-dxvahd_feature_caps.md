@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_FEATURE_CAPS
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FEATURE_CAPS
 req.redist: 

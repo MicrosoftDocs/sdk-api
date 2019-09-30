@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Keywords
  - IDataCollectorSet.get_Keywords
  - IDataCollectorSet.put_Keywords
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

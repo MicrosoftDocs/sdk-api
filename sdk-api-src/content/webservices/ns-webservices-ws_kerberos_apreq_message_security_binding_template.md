@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
 req.redist: 

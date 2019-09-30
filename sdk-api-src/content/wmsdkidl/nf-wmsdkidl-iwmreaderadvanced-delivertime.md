@@ -43,7 +43,6 @@ api_location:
 api_name:
  - IWMReaderAdvanced.DeliverTime
  - IWMReaderAdvanced2.DeliverTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

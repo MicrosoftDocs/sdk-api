@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSequencerTopologyFlags
-product: Windows
 targetos: Windows
 req.typenames: MFSequencerTopologyFlags
 req.redist: 

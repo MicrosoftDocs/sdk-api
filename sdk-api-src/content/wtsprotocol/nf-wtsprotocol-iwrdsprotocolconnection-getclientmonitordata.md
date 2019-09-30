@@ -38,7 +38,6 @@ api_location:
  - wtsprotocol.h
 api_name:
  - IWRdsProtocolConnection.GetClientMonitorData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Slpublic.h
 api_name:
  - SL_GENUINE_STATE
-product: Windows
 targetos: Windows
 req.typenames: SL_GENUINE_STATE
 req.redist: 

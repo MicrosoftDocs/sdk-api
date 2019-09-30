@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_INT16_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_INT16_DESCRIPTION
 req.redist: 

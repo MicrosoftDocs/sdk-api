@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OBJECTDESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: OBJECTDESCRIPTOR, *POBJECTDESCRIPTOR, *LPOBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, *PLINKSRCDESCRIPTOR, *LPLINKSRCDESCRIPTOR
 req.redist: 

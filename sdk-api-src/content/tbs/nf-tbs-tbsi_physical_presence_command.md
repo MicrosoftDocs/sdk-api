@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsi_Physical_Presence_Command
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

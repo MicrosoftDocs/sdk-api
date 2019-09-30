@@ -38,7 +38,6 @@ api_location:
  - Audiomediatype.h
 api_name:
  - UNCOMPRESSEDAUDIOFORMAT
-product: Windows
 targetos: Windows
 req.typenames: UNCOMPRESSEDAUDIOFORMAT
 req.redist: 

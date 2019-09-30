@@ -38,7 +38,6 @@ api_location:
 - networkisolation.h
 api_name:
 - INET_FIREWALL_AC_CREATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CREATION_TYPE
 req.redist: 

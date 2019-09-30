@@ -38,7 +38,6 @@ api_location:
  - Lmremutl.h
 api_name:
  - TIME_OF_DAY_INFO
-product: Windows
 targetos: Windows
 req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - MMC_COLUMN_DATA
-product: Windows
 targetos: Windows
 req.typenames: MMC_COLUMN_DATA
 req.redist: 

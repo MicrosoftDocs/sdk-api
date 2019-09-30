@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Tsid
  - IFaxPort.get_Tsid
  - IFaxPort.put_Tsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

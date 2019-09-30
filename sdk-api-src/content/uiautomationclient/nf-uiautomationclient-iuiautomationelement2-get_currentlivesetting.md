@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement2.CurrentLiveSetting
  - IUIAutomationElement2.get_CurrentLiveSetting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

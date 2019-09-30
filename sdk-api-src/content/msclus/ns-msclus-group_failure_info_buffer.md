@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - GROUP_FAILURE_INFO_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
 req.redist: 

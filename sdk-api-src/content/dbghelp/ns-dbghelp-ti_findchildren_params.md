@@ -38,7 +38,6 @@ api_location:
  - DbgHelp.h
 api_name:
  - TI_FINDCHILDREN_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: TI_FINDCHILDREN_PARAMS
 req.redist: DbgHelp.dll 5.1 or later

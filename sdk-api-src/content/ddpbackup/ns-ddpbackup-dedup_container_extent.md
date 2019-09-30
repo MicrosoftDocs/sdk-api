@@ -38,7 +38,6 @@ api_location:
  - DdpBackup.h
 api_name:
  - DEDUP_CONTAINER_EXTENT
-product: Windows
 targetos: Windows
 req.typenames: DEDUP_CONTAINER_EXTENT
 req.redist: 

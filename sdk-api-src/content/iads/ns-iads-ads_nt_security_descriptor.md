@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_NT_SECURITY_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: ADS_NT_SECURITY_DESCRIPTOR, *PADS_NT_SECURITY_DESCRIPTOR
 req.redist: 

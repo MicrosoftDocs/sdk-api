@@ -40,7 +40,6 @@ api_name:
  - ITrigger.ExecutionTimeLimit
  - ITrigger.get_ExecutionTimeLimit
  - ITrigger.put_ExecutionTimeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

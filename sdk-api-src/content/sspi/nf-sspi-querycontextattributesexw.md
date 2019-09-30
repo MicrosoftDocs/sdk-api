@@ -40,7 +40,6 @@ api_name:
 - QueryContextAttributesEx
 - QueryContextAttributesExA
 - QueryContextAttributesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

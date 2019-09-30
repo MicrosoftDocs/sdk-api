@@ -39,7 +39,6 @@ api_location:
  - ntdll.dll
 api_name:
  - IsWindows10OrGreater
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

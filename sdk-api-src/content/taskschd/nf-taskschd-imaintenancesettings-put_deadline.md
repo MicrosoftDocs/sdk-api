@@ -40,7 +40,6 @@ api_name:
  - IMaintenanceSettings.Deadline
  - IMaintenanceSettings.get_Deadline
  - IMaintenanceSettings.put_Deadline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

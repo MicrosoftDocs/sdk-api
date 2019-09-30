@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.SetSessionState
  - ITsSbResourcePluginStoreEx.SetSessionState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

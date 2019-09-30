@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TF_PERSISTENT_PROPERTY_HEADER_ACP
-product: Windows
 targetos: Windows
 req.typenames: TF_PERSISTENT_PROPERTY_HEADER_ACP
 req.redist: TSF 1.0 on Windows 2000 Professional

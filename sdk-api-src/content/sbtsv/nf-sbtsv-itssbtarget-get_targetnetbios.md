@@ -43,7 +43,6 @@ api_name:
  - ITsSbTargetEx.TargetNetbios
  - ITsSbTargetEx.get_TargetNetbios
  - ITsSbTargetEx.put_TargetNetbios
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

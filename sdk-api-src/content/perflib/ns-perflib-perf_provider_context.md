@@ -38,7 +38,6 @@ api_location:
  - Perflib.h
 api_name:
  - PERF_PROVIDER_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: PERF_PROVIDER_CONTEXT, *PPERF_PROVIDER_CONTEXT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rasshost.h
 api_name:
  - SECURITY_MESSAGE
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
 req.redist: 

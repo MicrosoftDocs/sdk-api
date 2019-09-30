@@ -38,7 +38,6 @@ api_location:
  - xapofx.h
 api_name:
  - FXMASTERINGLIMITER_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: FXMASTERINGLIMITER_PARAMETERS
 req.redist: 

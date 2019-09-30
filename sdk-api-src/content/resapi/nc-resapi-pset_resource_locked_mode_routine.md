@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - SetResourceLockedMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

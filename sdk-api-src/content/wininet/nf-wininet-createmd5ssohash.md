@@ -38,7 +38,6 @@ api_location:
  - Wininet.dll
 api_name:
  - CreateMD5SSOHash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

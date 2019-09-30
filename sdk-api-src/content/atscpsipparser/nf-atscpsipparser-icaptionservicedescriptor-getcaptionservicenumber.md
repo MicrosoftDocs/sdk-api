@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - ICaptionServiceDescriptor.GetCaptionServiceNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_SET_IN_SYNC_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_SET_IN_SYNC_FLAGS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ldap_dn2ufn
  - ldap_dn2ufnA
  - ldap_dn2ufnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

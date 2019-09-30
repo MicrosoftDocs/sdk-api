@@ -40,7 +40,6 @@ api_name:
  - MsiGetComponentPath
  - MsiGetComponentPathA
  - MsiGetComponentPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

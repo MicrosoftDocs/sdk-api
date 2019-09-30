@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller.Updates
  - IUpdateInstaller.get_Updates
  - IUpdateInstaller.put_Updates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.MinDownloadSize
  - IUpdate.get_MinDownloadSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - HistogramDataHeader
-product: Windows
 targetos: Windows
 req.typenames: HistogramDataHeader
 req.redist: 

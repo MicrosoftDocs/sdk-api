@@ -46,7 +46,6 @@ api_name:
  - IDirectorySchemaMgmt.CreateClassDefinition
  - IDirectorySchemaMgmt.WriteClassDefinition
  - IDirectorySchemaMgmt.DeleteClassDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

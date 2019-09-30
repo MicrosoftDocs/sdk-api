@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWbemDecoupledRegistrar.UnRegister
  - WbemDecoupledRegistrar.UnRegister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

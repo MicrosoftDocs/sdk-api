@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - DSPROPERTYPAGEINFO
-product: Windows
 targetos: Windows
 req.typenames: DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO
 req.redist: 

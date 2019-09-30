@@ -40,7 +40,6 @@ api_name:
  - InternetDial
  - InternetDialA
  - InternetDialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

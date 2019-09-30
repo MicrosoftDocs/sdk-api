@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - PackSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

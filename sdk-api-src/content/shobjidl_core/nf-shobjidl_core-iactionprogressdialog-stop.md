@@ -38,7 +38,6 @@ api_location:
  - Browseui.dll
 api_name:
  - IActionProgressDialog.Stop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

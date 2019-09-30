@@ -40,7 +40,6 @@ api_name:
 - NMCBEDRAGBEGIN
 - NMCBEDRAGBEGINA
 - NMCBEDRAGBEGINW
-product: Windows
 targetos: Windows
 req.typenames: NMCBEDRAGBEGINW, *LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW
 req.redist: 

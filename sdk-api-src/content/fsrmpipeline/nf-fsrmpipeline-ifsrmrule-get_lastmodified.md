@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmRule.LastModified
  - IFsrmRule.get_LastModified
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

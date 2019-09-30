@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_PRIVATE_KEY_VALIDITY
-product: Windows
 targetos: Windows
 req.typenames: CERT_PRIVATE_KEY_VALIDITY, *PCERT_PRIVATE_KEY_VALIDITY
 req.redist: 

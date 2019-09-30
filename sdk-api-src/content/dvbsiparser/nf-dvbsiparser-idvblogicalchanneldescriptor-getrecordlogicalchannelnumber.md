@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

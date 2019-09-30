@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONEBUTTONINFO
-product: Windows
 targetos: Windows
 req.typenames: PHONEBUTTONINFO, *LPPHONEBUTTONINFO
 req.redist: 

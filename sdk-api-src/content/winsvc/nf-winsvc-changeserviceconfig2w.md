@@ -45,7 +45,6 @@ api_name:
 - ChangeServiceConfig2
 - ChangeServiceConfig2A
 - ChangeServiceConfig2W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - DEFAULT_FOLDER_MENU_RESTRICTIONS
-product: Windows
 targetos: Windows
 req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
 req.redist: 

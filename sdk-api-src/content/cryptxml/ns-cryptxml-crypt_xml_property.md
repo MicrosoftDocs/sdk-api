@@ -38,7 +38,6 @@ api_location:
  - Cryptxml.h
 api_name:
  - CRYPT_XML_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_PROPERTY, *PCRYPT_XML_PROPERTY
 req.redist: 

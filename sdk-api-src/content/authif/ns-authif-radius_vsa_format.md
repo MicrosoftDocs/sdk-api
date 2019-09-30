@@ -38,7 +38,6 @@ api_location:
 - AuthIf.h
 api_name:
 - RADIUS_VSA_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: RADIUS_VSA_FORMAT
 req.redist: 

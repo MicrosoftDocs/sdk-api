@@ -42,7 +42,6 @@ api_name:
  - IRDPSRAPISharingSession.ApplicationFilter
  - IRDPSRAPISharingSession.get_ApplicationFilter
  - RDPSession.ApplicationFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

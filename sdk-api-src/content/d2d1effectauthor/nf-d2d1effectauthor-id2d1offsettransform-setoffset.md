@@ -39,7 +39,6 @@ api_location:
  - D2D1.dll
 api_name:
  - ID2D1OffsetTransform.SetOffset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

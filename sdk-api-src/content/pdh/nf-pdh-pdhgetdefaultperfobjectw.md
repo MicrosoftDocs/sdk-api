@@ -40,7 +40,6 @@ api_name:
  - PdhGetDefaultPerfObject
  - PdhGetDefaultPerfObjectA
  - PdhGetDefaultPerfObjectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

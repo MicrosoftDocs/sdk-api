@@ -38,7 +38,6 @@ api_location:
  - windows.ui.composition.interop.h
 api_name:
  - ICompositionDrawingSurfaceInterop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

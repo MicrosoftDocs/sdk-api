@@ -40,7 +40,6 @@ api_name:
  - StringCchCopyEx
  - StringCchCopyExA
  - StringCchCopyExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

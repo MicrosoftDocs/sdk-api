@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRL_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CRL_ENTRY, *PCRL_ENTRY
 req.redist: 

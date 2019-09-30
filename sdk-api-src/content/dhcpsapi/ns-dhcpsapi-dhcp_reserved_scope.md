@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_RESERVED_SCOPE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_RESERVED_SCOPE, *LPDHCP_RESERVED_SCOPE
 req.redist: 

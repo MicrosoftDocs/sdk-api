@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - DOMAIN_DESC
-product: Windows
 targetos: Windows
 req.typenames: DOMAIN_DESC, DOMAINDESC, *PDOMAIN_DESC, *LPDOMAINDESC
 req.redist: 

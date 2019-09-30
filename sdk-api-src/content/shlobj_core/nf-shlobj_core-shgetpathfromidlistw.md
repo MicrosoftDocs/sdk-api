@@ -43,7 +43,6 @@ api_name:
  - SHGetPathFromIDList
  - SHGetPathFromIDListA
  - SHGetPathFromIDListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

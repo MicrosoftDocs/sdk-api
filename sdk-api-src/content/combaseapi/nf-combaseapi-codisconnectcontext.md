@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
  - CoDisconnectContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

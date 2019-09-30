@@ -48,7 +48,6 @@ api_name:
 - GetVersionEx
 - GetVersionExA
 - GetVersionExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - IWSMan.get_CommandLine
  - IWSMan.Error
  - IWSMan.get_Error
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

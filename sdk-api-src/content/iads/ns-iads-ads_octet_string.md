@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_OCTET_STRING
-product: Windows
 targetos: Windows
 req.typenames: ADS_OCTET_STRING, *PADS_OCTET_STRING
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - ImageHlp.dll
 api_name:
  - SymGetExtendedOption
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.16232.1000 or later

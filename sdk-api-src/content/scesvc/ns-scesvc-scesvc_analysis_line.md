@@ -38,7 +38,6 @@ api_location:
  - Scesvc.h
 api_name:
  - SCESVC_ANALYSIS_LINE
-product: Windows
 targetos: Windows
 req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
 req.redist: 

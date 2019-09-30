@@ -41,7 +41,6 @@ api_name:
  - ICertPolicy2.ShutDown
  - ICertPolicy.ShutDown
  - CCertPolicy.ShutDown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

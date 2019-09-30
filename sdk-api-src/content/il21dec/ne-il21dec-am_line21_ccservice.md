@@ -38,7 +38,6 @@ api_location:
  - il21dec.h
 api_name:
  - AM_LINE21_CCSERVICE
-product: Windows
 targetos: Windows
 req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
 req.redist: 

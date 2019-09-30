@@ -44,7 +44,6 @@ api_name:
  - GetKerningPairs
  - GetKerningPairsA
  - GetKerningPairsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

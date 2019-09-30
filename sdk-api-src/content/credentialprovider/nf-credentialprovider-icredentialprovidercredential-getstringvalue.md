@@ -38,7 +38,6 @@ api_location:
  - Credentialprovider.h
 api_name:
  - ICredentialProviderCredential.GetStringValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

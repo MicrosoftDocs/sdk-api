@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
 api_name:
  - RegisterPointerDeviceNotifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

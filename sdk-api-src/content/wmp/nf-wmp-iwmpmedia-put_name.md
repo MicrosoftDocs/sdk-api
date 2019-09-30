@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.put_name
  - IWMPMedia2.put_name
  - IWMPMedia3.put_name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

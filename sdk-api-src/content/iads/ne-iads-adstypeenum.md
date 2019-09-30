@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADSTYPEENUM
-product: Windows
 targetos: Windows
 req.typenames: ADSTYPEENUM
 req.redist: 

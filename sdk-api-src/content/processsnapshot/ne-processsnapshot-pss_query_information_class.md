@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_QUERY_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: PSS_QUERY_INFORMATION_CLASS
 req.redist: 

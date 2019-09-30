@@ -40,7 +40,6 @@ api_name:
  - ENUMTEXTMETRIC
  - ENUMTEXTMETRICA
  - ENUMTEXTMETRICW
-product: Windows
 targetos: Windows
 req.typenames: ENUMTEXTMETRICW, *PENUMTEXTMETRICW, *LPENUMTEXTMETRICW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - ObjectIdPublicKeyFlags
-product: Windows
 targetos: Windows
 req.typenames: ObjectIdPublicKeyFlags
 req.redist: 

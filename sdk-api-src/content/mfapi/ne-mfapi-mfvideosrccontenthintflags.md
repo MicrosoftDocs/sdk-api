@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFVideoSrcContentHintFlags
-product: Windows
 targetos: Windows
 req.typenames: MFVideoSrcContentHintFlags
 req.redist: 

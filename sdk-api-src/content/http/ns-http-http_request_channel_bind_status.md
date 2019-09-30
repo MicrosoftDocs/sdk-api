@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_REQUEST_CHANNEL_BIND_STATUS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_CHANNEL_BIND_STATUS, *PHTTP_REQUEST_CHANNEL_BIND_STATUS
 req.redist: 

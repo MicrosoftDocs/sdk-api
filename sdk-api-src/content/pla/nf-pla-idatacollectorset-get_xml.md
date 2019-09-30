@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.Xml
  - IDataCollectorSet.get_Xml
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

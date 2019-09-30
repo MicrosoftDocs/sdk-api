@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSESSION_SETTOPOLOGY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
 - GetGlyphOutline
 - GetGlyphOutlineA
 - GetGlyphOutlineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

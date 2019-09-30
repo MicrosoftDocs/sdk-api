@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMConstants
  - GPMConstants
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

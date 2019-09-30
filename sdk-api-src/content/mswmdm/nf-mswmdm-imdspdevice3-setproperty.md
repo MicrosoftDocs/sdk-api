@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPDevice3.SetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

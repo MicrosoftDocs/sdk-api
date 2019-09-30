@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_FORMAT2_DATA_MEDIA_STATE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_FORMAT2_DATA_MEDIA_STATE, *PIMAPI_FORMAT2_DATA_MEDIA_STATE
 req.redist: 

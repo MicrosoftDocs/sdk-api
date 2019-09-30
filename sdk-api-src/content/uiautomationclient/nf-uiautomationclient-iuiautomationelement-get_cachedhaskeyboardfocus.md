@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedHasKeyboardFocus
  - IUIAutomationElement.get_CachedHasKeyboardFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

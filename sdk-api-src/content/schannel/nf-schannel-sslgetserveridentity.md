@@ -38,7 +38,6 @@ api_location:
  - Schannel.dll
 api_name:
  - SslGetServerIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Evalcom2.dll
 api_name:
  - IValidate.SetStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

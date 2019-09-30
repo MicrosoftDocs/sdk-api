@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_MINFO_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_MINFO_DATAW, *PDNS_MINFO_DATAW
 req.redist: 

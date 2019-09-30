@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - POLICYPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: POLICYPROPERTIES
 req.redist: 

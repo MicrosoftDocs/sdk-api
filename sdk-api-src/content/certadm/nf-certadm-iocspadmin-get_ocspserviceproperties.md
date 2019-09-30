@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPAdmin.OCSPServiceProperties
  - IOCSPAdmin.get_OCSPServiceProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

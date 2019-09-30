@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIEFFECTATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
 req.redist: 

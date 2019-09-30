@@ -38,7 +38,6 @@ api_location:
  - netioapi.h
 api_name:
  - MIB_IF_TABLE_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
 req.redist: 

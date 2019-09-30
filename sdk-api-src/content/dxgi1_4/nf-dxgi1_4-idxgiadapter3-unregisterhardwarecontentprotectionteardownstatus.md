@@ -38,7 +38,6 @@ api_location:
  - dxgi.dll
 api_name:
  - IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

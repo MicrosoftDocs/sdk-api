@@ -38,7 +38,6 @@ api_location:
  - Verifier.dll
 api_name:
  - VerifierEnumerateResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

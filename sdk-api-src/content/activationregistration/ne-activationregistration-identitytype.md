@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - IdentityType
-product: Windows
 targetos: Windows
 req.typenames: IdentityType
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - DsReplicaAdd
 - DsReplicaAddA
 - DsReplicaAddW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

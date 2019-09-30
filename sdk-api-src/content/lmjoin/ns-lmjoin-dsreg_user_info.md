@@ -38,7 +38,6 @@ api_location:
  - lmjoin.h
 api_name:
  - DSREG_USER_INFO
-product: Windows
 targetos: Windows
 req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
 req.redist: 

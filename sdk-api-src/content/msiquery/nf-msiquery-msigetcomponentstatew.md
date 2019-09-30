@@ -40,7 +40,6 @@ api_name:
  - MsiGetComponentState
  - MsiGetComponentStateA
  - MsiGetComponentStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

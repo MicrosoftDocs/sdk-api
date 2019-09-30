@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CRYPT_XML_SIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_SIGNATURE, *PCRYPT_XML_SIGNATURE
 req.redist: 

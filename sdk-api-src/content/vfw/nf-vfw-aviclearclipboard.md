@@ -38,7 +38,6 @@ api_location:
  - Avifil32.dll
 api_name:
  - AVIClearClipboard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

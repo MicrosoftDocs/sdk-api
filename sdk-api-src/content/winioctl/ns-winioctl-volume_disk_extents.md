@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - VOLUME_DISK_EXTENTS
-product: Windows
 targetos: Windows
 req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
 req.redist: 

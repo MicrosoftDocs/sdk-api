@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICGifImageDescriptorProperties
-product: Windows
 targetos: Windows
 req.typenames: WICGifImageDescriptorProperties
 req.redist: 

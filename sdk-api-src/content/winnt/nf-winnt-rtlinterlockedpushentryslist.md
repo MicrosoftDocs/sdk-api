@@ -38,7 +38,6 @@ api_location:
  - Ntdll.dll
 api_name:
  - RtlInterlockedPushEntrySList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

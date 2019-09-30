@@ -40,7 +40,6 @@ api_name:
  - WNetCancelConnection
  - WNetCancelConnectionA
  - WNetCancelConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

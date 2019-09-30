@@ -38,7 +38,6 @@ api_location:
  - wtypesbase.h
 api_name:
  - MSHLFLAGS
-product: Windows
 targetos: Windows
 req.typenames: MSHLFLAGS
 req.redist: 

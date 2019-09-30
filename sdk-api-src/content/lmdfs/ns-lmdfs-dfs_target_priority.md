@@ -38,7 +38,6 @@ api_location:
 - LmDfs.h
 api_name:
 - DFS_TARGET_PRIORITY
-product: Windows
 targetos: Windows
 req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
 req.redist: 

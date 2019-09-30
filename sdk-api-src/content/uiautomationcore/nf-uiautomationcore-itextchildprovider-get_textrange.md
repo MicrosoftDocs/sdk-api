@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITextChildProvider.TextRange
  - ITextChildProvider.get_TextRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

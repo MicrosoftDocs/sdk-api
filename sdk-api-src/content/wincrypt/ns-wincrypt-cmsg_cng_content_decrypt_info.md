@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_CNG_CONTENT_DECRYPT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_CNG_CONTENT_DECRYPT_INFO, *PCMSG_CNG_CONTENT_DECRYPT_INFO
 req.redist: 

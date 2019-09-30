@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_MATCH_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWP_MATCH_TYPE
 req.redist: 

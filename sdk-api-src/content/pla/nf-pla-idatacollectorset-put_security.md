@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Security
  - IDataCollectorSet.get_Security
  - IDataCollectorSet.put_Security
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - GOPHER_ATTRIBUTE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - ISCPSecureQuery3.MakeDecisionOnClearChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

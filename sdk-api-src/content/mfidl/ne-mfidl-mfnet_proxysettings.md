@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNET_PROXYSETTINGS
-product: Windows
 targetos: Windows
 req.typenames: MFNET_PROXYSETTINGS
 req.redist: 

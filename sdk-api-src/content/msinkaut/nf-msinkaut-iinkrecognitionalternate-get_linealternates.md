@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.LineAlternates
  - IInkRecognitionAlternate.get_LineAlternates
  - IInkRecognitionAlternate.get_LineAlternates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

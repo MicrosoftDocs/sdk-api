@@ -40,7 +40,6 @@ api_name:
  - StringCbLength
  - StringCbLengthA
  - StringCbLengthW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - SHEmptyRecycleBin
  - SHEmptyRecycleBinA
  - SHEmptyRecycleBinW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_TEX1D_ARRAY_RTV
-product: Windows
 targetos: Windows
 req.typenames: D3D12_TEX1D_ARRAY_RTV
 req.redist: 

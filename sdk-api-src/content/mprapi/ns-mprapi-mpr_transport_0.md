@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MPR_TRANSPORT_0
-product: Windows
 targetos: Windows
 req.typenames: MPR_TRANSPORT_0, *PMPR_TRANSPORT_0
 req.redist: 

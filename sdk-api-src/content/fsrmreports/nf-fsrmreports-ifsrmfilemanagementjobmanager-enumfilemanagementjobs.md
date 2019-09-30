@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmFileManagementJobManager.EnumFileManagementJobs
 - FsrmFileManagementJobManager.EnumFileManagementJobs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_IPADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_IPADDRESS_TYPE
 req.redist: VDS 1.1

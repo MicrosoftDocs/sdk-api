@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInspectable.GetTrustLevel
  - IInputPaneInterop.GetTrustLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

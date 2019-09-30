@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - POLICY_AUDIT_SID_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
 req.redist: 

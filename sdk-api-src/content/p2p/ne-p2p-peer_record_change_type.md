@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_RECORD_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PEER_RECORD_CHANGE_TYPE
 req.redist: 

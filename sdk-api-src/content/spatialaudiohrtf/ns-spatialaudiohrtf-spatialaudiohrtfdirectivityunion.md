@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - SpatialAudioHrtfDirectivityUnion
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityUnion
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoTransferFunction
-product: Windows
 targetos: Windows
 req.typenames: MFVideoTransferFunction
 req.redist: 

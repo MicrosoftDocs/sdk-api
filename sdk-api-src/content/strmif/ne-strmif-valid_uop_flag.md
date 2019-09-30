@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VALID_UOP_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VALID_UOP_FLAG
 req.redist: 

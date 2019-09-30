@@ -38,7 +38,6 @@ api_location:
  - Clfs.h
 api_name:
  - CLFS_LOG_ARCHIVE_MODE
-product: Windows
 targetos: Windows
 req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
 req.redist: 

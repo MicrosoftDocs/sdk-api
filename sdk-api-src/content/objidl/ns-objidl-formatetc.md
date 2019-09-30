@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - FORMATETC
-product: Windows
 targetos: Windows
 req.typenames: FORMATETC, *LPFORMATETC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - VdmDbg.dll
 api_name:
  - VDMEnumTaskWOWEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

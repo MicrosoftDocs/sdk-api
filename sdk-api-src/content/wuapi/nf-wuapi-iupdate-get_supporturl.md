@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.SupportUrl
  - IUpdate.get_SupportUrl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

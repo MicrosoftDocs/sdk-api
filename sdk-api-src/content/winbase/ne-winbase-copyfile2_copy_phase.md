@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - COPYFILE2_COPY_PHASE
-product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_COPY_PHASE
 req.redist: 

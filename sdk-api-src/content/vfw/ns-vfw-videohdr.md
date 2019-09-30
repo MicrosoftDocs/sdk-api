@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - VIDEOHDR
-product: Windows
 targetos: Windows
 req.typenames: VIDEOHDR, *PVIDEOHDR, *LPVIDEOHDR
 req.redist: 

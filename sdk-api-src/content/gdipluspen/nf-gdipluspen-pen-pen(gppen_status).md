@@ -38,7 +38,6 @@ api_location:
  - gdipluspen.h
 api_name:
  - Pen.Pen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

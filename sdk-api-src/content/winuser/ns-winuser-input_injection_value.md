@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - INPUT_INJECTION_VALUE
-product: Windows
 targetos: Windows
 req.typenames: INPUT_INJECTION_VALUE, *PINPUT_INJECTION_VALUE
 req.redist: 

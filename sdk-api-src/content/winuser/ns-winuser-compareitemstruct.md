@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - COMPAREITEMSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: COMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, *LPCOMPAREITEMSTRUCT
 req.redist: 

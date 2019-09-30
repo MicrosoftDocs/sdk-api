@@ -41,7 +41,6 @@ api_name:
  - CInstance.GetWBEMINT16
  - ?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z
  - ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

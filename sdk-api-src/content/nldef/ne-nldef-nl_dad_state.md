@@ -39,7 +39,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_DAD_STATE
-product: Windows
 targetos: Windows
 req.typenames: NL_DAD_STATE
 req.redist: 

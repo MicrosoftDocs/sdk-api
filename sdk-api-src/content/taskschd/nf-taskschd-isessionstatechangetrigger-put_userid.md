@@ -40,7 +40,6 @@ api_name:
  - ISessionStateChangeTrigger.UserId
  - ISessionStateChangeTrigger.get_UserId
  - ISessionStateChangeTrigger.put_UserId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

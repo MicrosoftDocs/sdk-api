@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - SIP_CAP_SET
-product: Windows
 targetos: Windows
 req.typenames: SIP_CAP_SET_V3, *PSIP_CAP_SET_V3
 req.redist: 

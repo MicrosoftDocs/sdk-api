@@ -38,7 +38,6 @@ api_location:
  - tiptsf.dll
 api_name:
  - ITfCreatePropertyStore.IsStoreSerializable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

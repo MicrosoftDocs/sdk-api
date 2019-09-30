@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACCESS_ALLOWED_CALLBACK_ACE
-product: Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_CALLBACK_ACE, *PACCESS_ALLOWED_CALLBACK_ACE
 req.redist: 

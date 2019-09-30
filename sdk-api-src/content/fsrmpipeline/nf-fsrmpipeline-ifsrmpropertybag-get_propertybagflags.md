@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.PropertyBagFlags
  - IFsrmPropertyBag.get_PropertyBagFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

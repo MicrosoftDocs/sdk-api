@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMGLOBALOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: DRMGLOBALOPTIONS
 req.redist: 

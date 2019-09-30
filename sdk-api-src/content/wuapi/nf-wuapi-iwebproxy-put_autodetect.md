@@ -40,7 +40,6 @@ api_name:
  - IWebProxy.AutoDetect
  - IWebProxy.get_AutoDetect
  - IWebProxy.put_AutoDetect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

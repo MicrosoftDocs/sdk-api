@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSpreadsheetItemPattern.CurrentFormula
  - IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

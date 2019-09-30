@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - GROUP_AFFINITY
-product: Windows
 targetos: Windows
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 req.redist: 

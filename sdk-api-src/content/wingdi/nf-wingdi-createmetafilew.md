@@ -44,7 +44,6 @@ api_name:
  - CreateMetaFile
  - CreateMetaFileA
  - CreateMetaFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

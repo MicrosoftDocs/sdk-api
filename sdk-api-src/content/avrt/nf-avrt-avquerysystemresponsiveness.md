@@ -38,7 +38,6 @@ api_location:
  - Avrt.dll
 api_name:
  - AvQuerySystemResponsiveness
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

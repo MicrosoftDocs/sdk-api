@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.MaxConnectionTime
  - IADsTSUserEx.get_MaxConnectionTime
  - IADsTSUserEx.put_MaxConnectionTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

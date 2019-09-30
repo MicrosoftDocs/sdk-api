@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - WINHTTP_CONNECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CONNECTION_INFO
 req.redist: 

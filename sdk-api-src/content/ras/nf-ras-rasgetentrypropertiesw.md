@@ -42,7 +42,6 @@ api_name:
  - RasGetEntryProperties
  - RasGetEntryPropertiesA
  - RasGetEntryPropertiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

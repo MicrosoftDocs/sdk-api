@@ -38,7 +38,6 @@ api_location:
  - LowLevelMonitorConfigurationAPI.h
 api_name:
  - MC_TIMING_REPORT
-product: Windows
 targetos: Windows
 req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
 req.redist: 

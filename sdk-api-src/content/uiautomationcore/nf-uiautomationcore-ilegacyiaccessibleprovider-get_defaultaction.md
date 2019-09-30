@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ILegacyIAccessibleProvider.DefaultAction
  - ILegacyIAccessibleProvider.get_DefaultAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

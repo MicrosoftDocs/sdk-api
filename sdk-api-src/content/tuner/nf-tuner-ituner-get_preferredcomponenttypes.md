@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - ITuner.get_PreferredComponentTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

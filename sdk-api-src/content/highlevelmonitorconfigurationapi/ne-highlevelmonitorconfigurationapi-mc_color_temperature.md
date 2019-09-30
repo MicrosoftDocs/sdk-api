@@ -38,7 +38,6 @@ api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
  - MC_COLOR_TEMPERATURE
-product: Windows
 targetos: Windows
 req.typenames: MC_COLOR_TEMPERATURE, *LPMC_COLOR_TEMPERATURE
 req.redist: 

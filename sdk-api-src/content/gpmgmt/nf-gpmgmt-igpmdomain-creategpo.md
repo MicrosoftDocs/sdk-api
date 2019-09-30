@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMDomain.CreateGPO
  - GPMDomain.CreateGPO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

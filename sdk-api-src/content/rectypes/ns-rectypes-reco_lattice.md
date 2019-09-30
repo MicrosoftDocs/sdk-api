@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - RECO_LATTICE
-product: Windows
 targetos: Windows
 req.typenames: RECO_LATTICE
 req.redist: 

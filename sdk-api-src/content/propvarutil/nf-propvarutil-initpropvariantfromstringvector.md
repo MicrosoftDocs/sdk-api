@@ -38,7 +38,6 @@ api_location:
  - Propsys.dll
 api_name:
  - InitPropVariantFromStringVector
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -38,7 +38,6 @@ api_location:
  - SpatialAudioMetadata.h
 api_name:
  - SpatialAudioMetadataItemsInfo
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioMetadataItemsInfo
 req.redist: 

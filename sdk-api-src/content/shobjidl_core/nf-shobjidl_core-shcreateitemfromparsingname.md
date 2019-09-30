@@ -43,7 +43,6 @@ api_location:
 - Windows.Storage.Dll
 api_name:
 - SHCreateItemFromParsingName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

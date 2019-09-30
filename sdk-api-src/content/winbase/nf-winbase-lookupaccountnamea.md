@@ -46,7 +46,6 @@ api_name:
 - LookupAccountName
 - LookupAccountNameA
 - LookupAccountNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

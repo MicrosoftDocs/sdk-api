@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider2.ZoomMaximum
  - ITransformProvider2.get_ZoomMaximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

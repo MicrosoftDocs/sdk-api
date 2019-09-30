@@ -40,7 +40,6 @@ api_name:
  - SecPkgContext_EarlyStart
  - SecPkgContext_EarlyStartA
  - SecPkgContext_EarlyStartW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_EarlyStart, *PSecPkgContext_EarlyStart
 req.redist: 

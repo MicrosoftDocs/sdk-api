@@ -38,7 +38,6 @@ api_location:
  - Mmsystem.h
 api_name:
  - DRIVERPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

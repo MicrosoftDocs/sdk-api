@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CONTRACT_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_CONTRACT_DESCRIPTION
 req.redist: 

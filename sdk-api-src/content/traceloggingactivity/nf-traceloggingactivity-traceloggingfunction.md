@@ -38,7 +38,6 @@ api_location:
  - traceloggingactivity.h
 api_name:
  - TraceLoggingFunction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

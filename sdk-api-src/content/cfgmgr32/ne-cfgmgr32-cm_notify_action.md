@@ -38,7 +38,6 @@ api_location:
 - Cfgmgr32.h
 api_name:
 - CM_NOTIFY_ACTION
-product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 req.redist: 

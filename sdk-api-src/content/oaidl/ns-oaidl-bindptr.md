@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - BINDPTR
-product: Windows
 targetos: Windows
 req.typenames: BINDPTR, *LPBINDPTR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensor.GetData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

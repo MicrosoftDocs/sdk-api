@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_POLICY_ID
-product: Windows
 targetos: Windows
 req.typenames: CERT_POLICY_ID, *PCERT_POLICY_ID
 req.redist: 

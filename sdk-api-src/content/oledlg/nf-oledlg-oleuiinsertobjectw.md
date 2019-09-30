@@ -40,7 +40,6 @@ api_name:
  - OleUIInsertObject
  - OleUIInsertObjectA
  - OleUIInsertObjectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

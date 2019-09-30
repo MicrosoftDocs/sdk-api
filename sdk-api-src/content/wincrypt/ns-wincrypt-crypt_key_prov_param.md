@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_KEY_PROV_PARAM
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_PROV_PARAM, *PCRYPT_KEY_PROV_PARAM
 req.redist: 

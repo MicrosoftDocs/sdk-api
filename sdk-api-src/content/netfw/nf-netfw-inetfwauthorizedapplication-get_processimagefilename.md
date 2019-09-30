@@ -41,7 +41,6 @@ api_name:
  - INetFwAuthorizedApplication.ProcessImageFileName
  - INetFwAuthorizedApplication.get_ProcessImageFileName
  - INetFwAuthorizedApplication.put_ProcessImageFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

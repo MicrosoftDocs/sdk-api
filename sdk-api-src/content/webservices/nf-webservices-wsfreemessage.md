@@ -38,7 +38,6 @@ api_location:
  - WebServices.dll
 api_name:
  - WsFreeMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

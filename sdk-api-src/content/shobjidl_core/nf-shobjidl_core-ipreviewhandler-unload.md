@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IPreviewHandler.Unload
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

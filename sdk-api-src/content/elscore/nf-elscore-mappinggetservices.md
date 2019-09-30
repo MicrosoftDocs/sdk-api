@@ -39,7 +39,6 @@ api_location:
 - ext-ms-win-els-elscore-l1-1-0.dll
 api_name:
 - MappingGetServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

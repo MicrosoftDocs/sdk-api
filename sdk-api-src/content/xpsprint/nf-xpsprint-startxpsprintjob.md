@@ -38,7 +38,6 @@ api_location:
  - XpsPrint.dll
 api_name:
  - StartXpsPrintJob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

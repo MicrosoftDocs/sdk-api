@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - IBDA_ConditionalAccess.RemoveProgram
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

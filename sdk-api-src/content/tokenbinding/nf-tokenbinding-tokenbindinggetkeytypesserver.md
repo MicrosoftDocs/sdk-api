@@ -39,7 +39,6 @@ api_location:
  - Ksecdd.sys
 api_name:
  - TokenBindingGetKeyTypesServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

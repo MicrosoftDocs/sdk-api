@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509NameValuePairs.ItemByIndex
  - IX509NameValuePairs.get_ItemByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

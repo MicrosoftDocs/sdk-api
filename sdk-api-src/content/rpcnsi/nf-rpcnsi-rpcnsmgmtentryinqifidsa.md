@@ -40,7 +40,6 @@ api_name:
  - RpcNsMgmtEntryInqIfIds
  - RpcNsMgmtEntryInqIfIdsA
  - RpcNsMgmtEntryInqIfIdsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

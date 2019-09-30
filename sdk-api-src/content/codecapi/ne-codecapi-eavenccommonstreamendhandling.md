@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVEncCommonStreamEndHandling
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

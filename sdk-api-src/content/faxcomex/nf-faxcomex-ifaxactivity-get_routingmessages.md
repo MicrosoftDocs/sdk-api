@@ -40,7 +40,6 @@ api_name:
  - IFaxActivity.RoutingMessages
  - IFaxActivity.get_RoutingMessages
  - IFaxActivity.get_RoutingMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

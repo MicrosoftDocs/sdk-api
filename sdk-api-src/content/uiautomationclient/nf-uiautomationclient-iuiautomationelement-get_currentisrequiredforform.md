@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsRequiredForForm
  - IUIAutomationElement.get_CurrentIsRequiredForForm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

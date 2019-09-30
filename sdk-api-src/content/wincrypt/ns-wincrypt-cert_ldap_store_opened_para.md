@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_LDAP_STORE_OPENED_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_LDAP_STORE_OPENED_PARA, *PCERT_LDAP_STORE_OPENED_PARA
 req.redist: 

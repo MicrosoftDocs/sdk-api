@@ -38,7 +38,6 @@ api_location:
  - Intshcut.h
 api_name:
  - MIMEASSOCIATIONDIALOG_IN_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MIMEASSOCIATIONDIALOG_IN_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - drt.dll
 api_name:
  - DrtUnregisterKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

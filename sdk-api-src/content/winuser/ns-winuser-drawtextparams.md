@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DRAWTEXTPARAMS
-product: Windows
 targetos: Windows
 req.typenames: DRAWTEXTPARAMS, *LPDRAWTEXTPARAMS
 req.redist: 

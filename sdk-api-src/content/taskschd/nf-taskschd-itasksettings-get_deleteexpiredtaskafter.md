@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.DeleteExpiredTaskAfter
  - ITaskSettings.get_DeleteExpiredTaskAfter
  - ITaskSettings.put_DeleteExpiredTaskAfter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

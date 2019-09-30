@@ -38,7 +38,6 @@ api_location:
  - Wsecedit.dll
 api_name:
  - ISceSvcAttachmentPersistInfo.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

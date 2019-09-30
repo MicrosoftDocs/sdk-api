@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

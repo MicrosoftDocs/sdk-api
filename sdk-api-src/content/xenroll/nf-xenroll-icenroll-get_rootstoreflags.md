@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_RootStoreFlags
  - ICEnroll.put_RootStoreFlags
  - CEnroll.RootStoreFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

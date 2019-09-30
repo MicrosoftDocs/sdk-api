@@ -38,7 +38,6 @@ api_location:
  - T2embed.dll
 api_name:
  - TTEnableEmbeddingForFacename
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

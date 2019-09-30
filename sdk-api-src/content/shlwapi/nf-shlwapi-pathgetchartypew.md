@@ -43,7 +43,6 @@ api_name:
  - PathGetCharType
  - PathGetCharTypeA
  - PathGetCharTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

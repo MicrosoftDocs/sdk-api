@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqLockWorkQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Azroles.h
 api_name:
 - IAzObjectPicker.GetPrincipals
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

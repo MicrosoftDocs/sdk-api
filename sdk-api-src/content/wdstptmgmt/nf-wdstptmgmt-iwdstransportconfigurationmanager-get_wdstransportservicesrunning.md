@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportConfigurationManager.WdsTransportServicesRunning
  - IWdsTransportConfigurationManager.get_WdsTransportServicesRunning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

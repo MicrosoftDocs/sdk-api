@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADAPTER_GATEWAY_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_GATEWAY_ADDRESS_LH, *PIP_ADAPTER_GATEWAY_ADDRESS_LH
 req.redist: 

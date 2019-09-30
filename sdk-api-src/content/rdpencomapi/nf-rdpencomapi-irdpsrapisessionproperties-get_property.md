@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPISessionProperties.get_Property
  - IRDPSRAPISessionProperties.put_Property
  - RDPSRAPISessionProperties.Property
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

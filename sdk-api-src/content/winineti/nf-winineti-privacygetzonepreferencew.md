@@ -39,7 +39,6 @@ api_location:
 api_name:
  - PrivacyGetZonePreferenceW
  - PrivacyGetZonePreferenceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

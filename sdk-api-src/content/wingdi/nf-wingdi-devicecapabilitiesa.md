@@ -43,7 +43,6 @@ api_name:
 - DeviceCapabilities
 - DeviceCapabilitiesA
 - DeviceCapabilitiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_DIAGNOSTIC_SOCKET_INFO
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_DIAGNOSTIC_SOCKET_INFO, *LPINTERNET_DIAGNOSTIC_SOCKET_INFO
 req.redist: 

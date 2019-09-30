@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileScreen.UserSid
  - IFsrmFileScreen.get_UserSid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

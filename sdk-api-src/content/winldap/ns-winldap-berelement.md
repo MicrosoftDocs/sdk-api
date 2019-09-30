@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - BerElement
-product: Windows
 targetos: Windows
 req.typenames: BerElement
 req.redist: 

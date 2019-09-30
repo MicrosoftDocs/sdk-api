@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - InkDisplayMode
-product: Windows
 targetos: Windows
 req.typenames: InkDisplayMode
 req.redist: 

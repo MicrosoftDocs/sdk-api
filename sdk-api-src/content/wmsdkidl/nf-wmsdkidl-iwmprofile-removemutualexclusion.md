@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.RemoveMutualExclusion
  - IWMProfile2.RemoveMutualExclusion
  - IWMProfile3.RemoveMutualExclusion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

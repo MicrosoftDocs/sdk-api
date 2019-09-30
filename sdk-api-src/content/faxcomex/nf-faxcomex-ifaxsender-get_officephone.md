@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_OfficePhone
  - IFaxSender.get_OfficePhone
  - IFaxSender.put_OfficePhone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - opmapi.h
 api_name:
  - OPM_VIDEO_OUTPUT_SEMANTICS
-product: Windows
 targetos: Windows
 req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
 req.redist: 

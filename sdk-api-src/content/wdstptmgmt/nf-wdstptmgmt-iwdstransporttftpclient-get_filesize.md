@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportTftpClient.FileSize
  - IWdsTransportTftpClient.get_FileSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

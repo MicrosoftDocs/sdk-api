@@ -44,7 +44,6 @@ api_location:
 api_name:
 - GetModuleInformation
 - K32GetModuleInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

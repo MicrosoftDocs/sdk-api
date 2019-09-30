@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - TASKDIALOG_BUTTON
-product: Windows
 targetos: Windows
 req.typenames: TASKDIALOG_BUTTON
 req.redist: 

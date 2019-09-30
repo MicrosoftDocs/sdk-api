@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPEnumStorage.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

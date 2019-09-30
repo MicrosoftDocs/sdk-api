@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWSMan.Error
  - IWSMan.get_Error
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_SERVICE_STATE
-product: Windows
 targetos: Windows
 req.typenames: FWPM_SERVICE_STATE
 req.redist: 

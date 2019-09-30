@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferV2SourceEvent.RateChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

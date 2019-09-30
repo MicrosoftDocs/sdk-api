@@ -48,7 +48,6 @@ api_name:
  - SendNotifyMessage
  - SendNotifyMessageA
  - SendNotifyMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

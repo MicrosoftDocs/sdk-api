@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_PLACEHOLDER_RANGE_INFO_CLASS
-product: Windows
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_RANGE_INFO_CLASS
 req.redist: 

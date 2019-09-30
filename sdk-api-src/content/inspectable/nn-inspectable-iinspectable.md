@@ -38,7 +38,6 @@ api_location:
  - Inspectable.h
 api_name:
  - IInspectable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

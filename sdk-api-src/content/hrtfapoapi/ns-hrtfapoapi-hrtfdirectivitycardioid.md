@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfDirectivityCardioid
-product: Windows
 targetos: Windows
 req.typenames: HrtfDirectivityCardioid
 req.redist: 

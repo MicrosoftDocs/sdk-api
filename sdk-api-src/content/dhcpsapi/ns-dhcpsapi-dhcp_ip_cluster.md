@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_IP_CLUSTER
-product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_CLUSTER, *LPDHCP_IP_CLUSTER
 req.redist: 

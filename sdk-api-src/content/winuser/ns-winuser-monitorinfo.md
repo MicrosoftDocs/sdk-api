@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MONITORINFO
-product: Windows
 targetos: Windows
 req.typenames: MONITORINFO, *LPMONITORINFO
 req.redist: 

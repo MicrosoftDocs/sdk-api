@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSearchCriteria
  - GPMSearchCriteria
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

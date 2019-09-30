@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDLOCKININFO
-product: Windows
 targetos: Windows
 req.typenames: DDLOCKININFO, *PDDLOCKININFO
 req.redist: 

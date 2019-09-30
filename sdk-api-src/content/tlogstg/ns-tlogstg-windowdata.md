@@ -38,7 +38,6 @@ api_location:
  - Tlogstg.h
 api_name:
  - WINDOWDATA
-product: Windows
 targetos: Windows
 req.typenames: WINDOWDATA
 req.redist: 

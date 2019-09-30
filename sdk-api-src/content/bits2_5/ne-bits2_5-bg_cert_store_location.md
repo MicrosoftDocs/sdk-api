@@ -38,7 +38,6 @@ api_location:
  - Bits2_5.h
 api_name:
  - BG_CERT_STORE_LOCATION
-product: Windows
 targetos: Windows
 req.typenames: BG_CERT_STORE_LOCATION
 req.redist: 

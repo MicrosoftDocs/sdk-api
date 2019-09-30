@@ -38,7 +38,6 @@ api_location:
  - Nsemail.h
 api_name:
  - NAPI_PROVIDER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NAPI_PROVIDER_TYPE
 req.redist: 

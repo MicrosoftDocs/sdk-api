@@ -40,7 +40,6 @@ api_name:
  - ISchedule.StartTime
  - ISchedule.get_StartTime
  - ISchedule.put_StartTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

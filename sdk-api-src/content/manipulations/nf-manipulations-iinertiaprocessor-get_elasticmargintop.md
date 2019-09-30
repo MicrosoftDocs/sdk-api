@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.ElasticMarginTop
  - IInertiaProcessor.get_ElasticMarginTop
  - IInertiaProcessor.put_ElasticMarginTop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

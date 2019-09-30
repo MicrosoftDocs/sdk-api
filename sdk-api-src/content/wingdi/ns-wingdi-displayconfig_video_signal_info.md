@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 req.redist: 

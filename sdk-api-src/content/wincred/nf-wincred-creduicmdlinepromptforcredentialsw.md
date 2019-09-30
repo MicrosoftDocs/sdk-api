@@ -43,7 +43,6 @@ api_name:
 - CredUICmdLinePromptForCredentials
 - CredUICmdLinePromptForCredentialsA
 - CredUICmdLinePromptForCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

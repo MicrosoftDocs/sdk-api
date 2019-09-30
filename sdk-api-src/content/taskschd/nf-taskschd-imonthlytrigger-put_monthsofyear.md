@@ -40,7 +40,6 @@ api_name:
  - IMonthlyTrigger.MonthsOfYear
  - IMonthlyTrigger.get_MonthsOfYear
  - IMonthlyTrigger.put_MonthsOfYear
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

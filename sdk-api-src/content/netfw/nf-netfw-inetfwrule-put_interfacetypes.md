@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.InterfaceTypes
  - INetFwRule.get_InterfaceTypes
  - INetFwRule.put_InterfaceTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

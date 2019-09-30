@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_GET_MEDIA_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - pnpxassoc.h
 api_name:
  - IPNPXAssociation.Delete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

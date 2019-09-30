@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - CUSTDATAITEM
-product: Windows
 targetos: Windows
 req.typenames: CUSTDATAITEM, *LPCUSTDATAITEM
 req.redist: 

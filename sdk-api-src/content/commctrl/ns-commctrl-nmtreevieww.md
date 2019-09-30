@@ -40,7 +40,6 @@ api_name:
 - NMTREEVIEW
 - NMTREEVIEWA
 - NMTREEVIEWW
-product: Windows
 targetos: Windows
 req.typenames: NMTREEVIEWW, *LPNMTREEVIEWW
 req.redist: 

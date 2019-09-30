@@ -41,7 +41,6 @@ api_name:
  - IInkOverlay.Cursors
  - IInkOverlay.get_Cursors
  - InkOverlay.get_Cursors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

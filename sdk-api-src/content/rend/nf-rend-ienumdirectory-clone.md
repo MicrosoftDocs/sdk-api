@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - IEnumDirectory.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

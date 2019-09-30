@@ -38,7 +38,6 @@ api_location:
  - Mstcpip.h
 api_name:
  - ASSOCIATE_NAMERES_CONTEXT_INPUT
-product: Windows
 targetos: Windows
 req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
 req.redist: 

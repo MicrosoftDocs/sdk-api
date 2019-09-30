@@ -47,7 +47,6 @@ api_name:
  - Module32First
  - Module32First
  - Module32FirstW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwProfile.RemoteAdminSettings
  - INetFwProfile.get_RemoteAdminSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

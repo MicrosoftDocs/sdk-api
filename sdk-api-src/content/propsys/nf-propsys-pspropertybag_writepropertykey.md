@@ -38,7 +38,6 @@ api_location:
 - Propsys.dll
 api_name:
 - PSPropertyBag_WritePropertyKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

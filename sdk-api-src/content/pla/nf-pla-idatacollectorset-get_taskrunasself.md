@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.TaskRunAsSelf
  - IDataCollectorSet.get_TaskRunAsSelf
  - IDataCollectorSet.put_TaskRunAsSelf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

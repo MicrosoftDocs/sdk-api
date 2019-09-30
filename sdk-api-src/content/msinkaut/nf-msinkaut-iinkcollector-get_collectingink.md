@@ -43,7 +43,6 @@ api_name:
  - get_CollectingInk
  - IInkCollector.get_CollectingInk
  - InkCollector.get_CollectingInk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

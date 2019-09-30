@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUSTER_IP_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_IP_ENTRY, *PCLUSTER_IP_ENTRY
 req.redist: 

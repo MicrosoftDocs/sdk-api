@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_BLTDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_BLTDATA, DD_BLTDATA'
 req.redist: 

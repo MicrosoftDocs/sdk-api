@@ -38,7 +38,6 @@ api_location:
  - tspubplugin2com.h
 api_name:
  - TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 req.redist: 

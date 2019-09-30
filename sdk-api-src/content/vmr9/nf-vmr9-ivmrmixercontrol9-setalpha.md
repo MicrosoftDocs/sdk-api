@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRMixerControl9.SetAlpha
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

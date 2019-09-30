@@ -38,7 +38,6 @@ api_location:
  - dmerror.h
 api_name:
  - MAKE_HRESULT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

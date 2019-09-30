@@ -41,7 +41,6 @@ api_location:
  - AnalogCredUI.dll
 api_name:
  - SspiIsPromptingNeeded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

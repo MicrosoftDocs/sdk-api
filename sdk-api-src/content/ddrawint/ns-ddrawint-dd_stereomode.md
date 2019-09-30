@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_STEREOMODE
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_STEREOMODE, DD_STEREOMODE'
 req.redist: 

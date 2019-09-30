@@ -38,7 +38,6 @@ api_location:
  - MsChapp.h
 api_name:
  - SAMPR_ENCRYPTED_USER_PASSWORD
-product: Windows
 targetos: Windows
 req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
 req.redist: 

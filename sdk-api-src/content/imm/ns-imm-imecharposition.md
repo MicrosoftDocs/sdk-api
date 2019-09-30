@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - IMECHARPOSITION
-product: Windows
 targetos: Windows
 req.typenames: IMECHARPOSITION, *PIMECHARPOSITION, *NPIMECHARPOSITION, *LPIMECHARPOSITION
 req.redist: 

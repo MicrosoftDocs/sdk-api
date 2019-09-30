@@ -38,7 +38,6 @@ api_location:
 - Fhcfg.h
 api_name:
 - FH_TARGET_PROPERTY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
 req.redist: 

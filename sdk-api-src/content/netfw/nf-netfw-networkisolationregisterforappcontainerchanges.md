@@ -41,7 +41,6 @@ api_location:
  - wfapihost.dll
 api_name:
  - NetworkIsolationRegisterForAppContainerChanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

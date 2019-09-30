@@ -40,7 +40,6 @@ api_name:
 - SymPrev
 - SymPrev
 - SymPrevW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

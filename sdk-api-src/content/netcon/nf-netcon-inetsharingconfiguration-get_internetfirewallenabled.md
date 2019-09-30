@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetSharingConfiguration.get_InternetFirewallEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

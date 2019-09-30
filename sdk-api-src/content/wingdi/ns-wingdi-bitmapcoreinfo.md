@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - BITMAPCOREINFO
-product: Windows
 targetos: Windows
 req.typenames: BITMAPCOREINFO, *LPBITMAPCOREINFO, *PBITMAPCOREINFO
 req.redist: 

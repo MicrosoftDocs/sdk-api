@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - RDPENCOMAPI_ATTENDEE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: RDPENCOMAPI_ATTENDEE_FLAGS
 req.redist: 

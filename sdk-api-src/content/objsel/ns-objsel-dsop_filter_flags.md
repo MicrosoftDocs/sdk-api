@@ -38,7 +38,6 @@ api_location:
 - Objsel.h
 api_name:
 - DSOP_FILTER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DSOP_FILTER_FLAGS
 req.redist: 

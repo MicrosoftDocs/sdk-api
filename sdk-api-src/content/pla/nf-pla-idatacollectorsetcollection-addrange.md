@@ -38,7 +38,6 @@ api_location:
  - Pla.dll
 api_name:
  - IDataCollectorSetCollection.AddRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

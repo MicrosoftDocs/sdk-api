@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_CACHE_STATS
-product: Windows
 targetos: Windows
 req.typenames: WTS_CACHE_STATS, *PWTS_CACHE_STATS
 req.redist: 

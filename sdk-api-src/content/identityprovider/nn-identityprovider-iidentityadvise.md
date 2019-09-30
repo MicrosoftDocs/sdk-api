@@ -39,7 +39,6 @@ api_location:
  - Identitystore.h
 api_name:
  - IIdentityAdvise
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

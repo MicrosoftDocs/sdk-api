@@ -43,7 +43,6 @@ api_location:
 api_name:
 - GetProcessMemoryInfo
 - K32GetProcessMemoryInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

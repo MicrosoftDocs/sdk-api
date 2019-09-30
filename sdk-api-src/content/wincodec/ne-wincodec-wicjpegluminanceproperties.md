@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICJpegLuminanceProperties
-product: Windows
 targetos: Windows
 req.typenames: WICJpegLuminanceProperties
 req.redist: 

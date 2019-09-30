@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDownloadJob.AsyncState
  - IDownloadJob.get_AsyncState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

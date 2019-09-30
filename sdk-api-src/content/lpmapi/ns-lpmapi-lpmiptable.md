@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - LPMIPTABLE
-product: Windows
 targetos: Windows
 req.typenames: LPMIPTABLE
 req.redist: 

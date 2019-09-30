@@ -40,7 +40,6 @@ api_name:
  - capErrorCallback
  - CAPERRORCALLBACKA
  - CAPERRORCALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MUA_Coeff
-product: Windows
 targetos: Windows
 req.typenames: DVD_MUA_Coeff
 req.redist: 

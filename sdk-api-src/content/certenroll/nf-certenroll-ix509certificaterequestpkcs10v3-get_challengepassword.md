@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10V3.ChallengePassword
  - IX509CertificateRequestPkcs10V3.get_ChallengePassword
  - IX509CertificateRequestPkcs10V3.put_ChallengePassword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

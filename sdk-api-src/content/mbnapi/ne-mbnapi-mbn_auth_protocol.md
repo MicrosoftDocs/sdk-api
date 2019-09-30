@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_AUTH_PROTOCOL
-product: Windows
 targetos: Windows
 req.typenames: MBN_AUTH_PROTOCOL
 req.redist: 

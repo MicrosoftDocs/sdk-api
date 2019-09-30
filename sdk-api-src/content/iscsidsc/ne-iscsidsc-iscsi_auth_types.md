@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - ISCSI_AUTH_TYPES
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 req.redist: 

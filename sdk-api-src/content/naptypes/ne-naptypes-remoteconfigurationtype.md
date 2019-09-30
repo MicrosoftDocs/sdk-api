@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - RemoteConfigurationType
-product: Windows
 targetos: Windows
 req.typenames: RemoteConfigurationType
 req.redist: 

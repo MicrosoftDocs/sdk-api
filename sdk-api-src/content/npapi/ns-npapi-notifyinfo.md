@@ -38,7 +38,6 @@ api_location:
  - Npapi.h
 api_name:
  - NOTIFYINFO
-product: Windows
 targetos: Windows
 req.typenames: NOTIFYINFO, *LPNOTIFYINFO
 req.redist: 

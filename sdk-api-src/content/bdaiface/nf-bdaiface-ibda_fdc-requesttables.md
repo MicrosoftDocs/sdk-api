@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_FDC.RequestTables
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

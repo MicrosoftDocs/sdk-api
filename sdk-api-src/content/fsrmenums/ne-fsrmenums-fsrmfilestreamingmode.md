@@ -38,7 +38,6 @@ api_location:
 - FsrmEnums.h
 api_name:
 - FsrmFileStreamingMode
-product: Windows
 targetos: Windows
 req.typenames: FsrmFileStreamingMode
 req.redist: 

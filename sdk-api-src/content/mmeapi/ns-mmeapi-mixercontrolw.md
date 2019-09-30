@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
  - mixercontrolw
-product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLW, *PMIXERCONTROLW, *LPMIXERCONTROLW
 req.redist: 

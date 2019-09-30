@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.RelativeNamespaceRoot
  - IFsrmPropertyBag.get_RelativeNamespaceRoot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - CreateActCtx
  - CreateActCtxA
  - CreateActCtxW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Swdevicedef.h
 api_name:
 - SW_DEVICE_CREATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: SW_DEVICE_CREATE_INFO, *PSW_DEVICE_CREATE_INFO
 req.redist: 

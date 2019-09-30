@@ -40,7 +40,6 @@ api_name:
  - RpcServerUseProtseqIf
  - RpcServerUseProtseqIfA
  - RpcServerUseProtseqIfW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

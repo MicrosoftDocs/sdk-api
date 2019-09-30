@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.h
 api_name:
  - SWbemQueryQualifiedName
-product: Windows
 targetos: Windows
 req.typenames: SWbemQueryQualifiedName
 req.redist: 

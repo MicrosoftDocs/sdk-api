@@ -38,7 +38,6 @@ api_location:
  - DirectXCollision.h
 api_name:
  - BoundingFrustum.CreateFromMatrix
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

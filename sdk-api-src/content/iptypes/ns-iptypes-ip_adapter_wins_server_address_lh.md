@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADAPTER_WINS_SERVER_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_WINS_SERVER_ADDRESS_LH, *PIP_ADAPTER_WINS_SERVER_ADDRESS_LH
 req.redist: 

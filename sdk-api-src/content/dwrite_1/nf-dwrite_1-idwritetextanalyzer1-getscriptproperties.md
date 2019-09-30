@@ -38,7 +38,6 @@ api_location:
  - dwrite_1.dll
 api_name:
  - IDWriteTextAnalyzer1.GetScriptProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

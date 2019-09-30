@@ -43,7 +43,6 @@ api_name:
  - PathMatchSpecEx
  - PathMatchSpecExA
  - PathMatchSpecExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

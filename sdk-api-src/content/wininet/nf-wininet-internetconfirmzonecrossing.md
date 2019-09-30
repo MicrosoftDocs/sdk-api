@@ -40,7 +40,6 @@ api_name:
  - InternetConfirmZoneCrossing
  - InternetConfirmZoneCrossingA
  - InternetConfirmZoneCrossingW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

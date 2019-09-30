@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICComponentEnumerateOptions
-product: Windows
 targetos: Windows
 req.typenames: WICComponentEnumerateOptions
 req.redist: 

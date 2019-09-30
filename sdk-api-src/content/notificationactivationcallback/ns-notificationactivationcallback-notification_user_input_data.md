@@ -38,7 +38,6 @@ api_location:
  - NotificationActivationCallback.h
 api_name:
  - NOTIFICATION_USER_INPUT_DATA
-product: Windows
 targetos: Windows
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 req.redist: 

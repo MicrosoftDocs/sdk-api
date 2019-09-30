@@ -40,7 +40,6 @@ api_name:
  - DeleteUrlCacheEntry
  - DeleteUrlCacheEntryA
  - DeleteUrlCacheEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

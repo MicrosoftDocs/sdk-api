@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TBMETRICS
-product: Windows
 targetos: Windows
 req.typenames: TBMETRICS, *LPTBMETRICS
 req.redist: 

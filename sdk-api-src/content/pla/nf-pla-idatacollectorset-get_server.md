@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.Server
  - IDataCollectorSet.get_Server
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

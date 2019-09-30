@@ -38,7 +38,6 @@ api_location:
  - combase.dll
 api_name:
  - CoRegisterChannelHook
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

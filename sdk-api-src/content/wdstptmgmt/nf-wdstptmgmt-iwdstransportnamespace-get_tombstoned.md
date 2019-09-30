@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportNamespace.Tombstoned
  - IWdsTransportNamespace.get_Tombstoned
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

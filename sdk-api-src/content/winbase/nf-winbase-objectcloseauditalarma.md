@@ -46,7 +46,6 @@ api_name:
  - ObjectCloseAuditAlarm
  - ObjectCloseAuditAlarmA
  - ObjectCloseAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

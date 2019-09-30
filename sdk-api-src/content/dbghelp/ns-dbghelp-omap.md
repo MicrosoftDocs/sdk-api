@@ -38,7 +38,6 @@ api_location:
  - Dbghelp.h
 api_name:
  - OMAP
-product: Windows
 targetos: Windows
 req.typenames: OMAP, *POMAP
 req.redist: DbgHelp.dll 6.8 or later

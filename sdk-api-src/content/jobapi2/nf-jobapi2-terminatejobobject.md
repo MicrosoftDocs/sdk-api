@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Core-Job-L2-1-1.dll
 api_name:
  - TerminateJobObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

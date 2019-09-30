@@ -38,7 +38,6 @@ api_location:
  - spatialaudioclient.h
 api_name:
  - AudioObjectType
-product: Windows
 targetos: Windows
 req.typenames: AudioObjectType
 req.redist: 

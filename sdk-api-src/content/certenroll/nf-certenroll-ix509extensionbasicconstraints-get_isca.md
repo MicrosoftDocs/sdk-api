@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionBasicConstraints.IsCA
  - IX509ExtensionBasicConstraints.get_IsCA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

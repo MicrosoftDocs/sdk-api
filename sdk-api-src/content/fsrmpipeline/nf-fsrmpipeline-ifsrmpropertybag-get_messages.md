@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.Messages
  - IFsrmPropertyBag.get_Messages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

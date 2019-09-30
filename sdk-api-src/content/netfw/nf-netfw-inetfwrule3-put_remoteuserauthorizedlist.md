@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.RemoteUserAuthorizedList
  - INetFwRule3.get_RemoteUserAuthorizedList
  - INetFwRule3.put_RemoteUserAuthorizedList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

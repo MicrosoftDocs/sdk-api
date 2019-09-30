@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFVideoAspectRatioMode
-product: Windows
 targetos: Windows
 req.typenames: MFVideoAspectRatioMode
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mobsync.h
 api_name:
 - SYNCMGRHANDLERINFO
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRHANDLERINFO, *LPSYNCMGRHANDLERINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Npapi.h
 api_name:
  - NOTIFYCANCEL
-product: Windows
 targetos: Windows
 req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFNETSOURCE_PROTOCOL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_PROTOCOL_TYPE
 req.redist: 

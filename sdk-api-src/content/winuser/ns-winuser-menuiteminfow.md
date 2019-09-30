@@ -40,7 +40,6 @@ api_name:
  - MENUITEMINFO
  - MENUITEMINFOA
  - MENUITEMINFOW
-product: Windows
 targetos: Windows
 req.typenames: MENUITEMINFOW, *LPMENUITEMINFOW
 req.redist: 

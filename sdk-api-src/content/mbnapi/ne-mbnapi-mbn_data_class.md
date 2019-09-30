@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_DATA_CLASS
-product: Windows
 targetos: Windows
 req.typenames: MBN_DATA_CLASS
 req.redist: 

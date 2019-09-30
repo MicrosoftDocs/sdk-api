@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBTEXT
-product: Windows
 targetos: Windows
 req.typenames: DBTEXT
 req.redist: 

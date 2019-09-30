@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESOURCE_MONITOR_STATE
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_MONITOR_STATE
 req.redist: 

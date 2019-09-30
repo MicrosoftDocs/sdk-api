@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPDevice2.GetSpecifyPropertyPages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

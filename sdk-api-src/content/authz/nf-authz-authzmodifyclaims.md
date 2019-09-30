@@ -38,7 +38,6 @@ api_location:
 - Authz.dll
 api_name:
 - AuthzModifyClaims
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

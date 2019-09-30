@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TOKEN_DEVICE_CLAIMS
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_DEVICE_CLAIMS, *PTOKEN_DEVICE_CLAIMS
 req.redist: 

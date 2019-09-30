@@ -42,7 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - GetCommMask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

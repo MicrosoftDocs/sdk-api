@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - FORMATRANGE
-product: Windows
 targetos: Windows
 req.typenames: FORMATRANGE
 req.redist: 

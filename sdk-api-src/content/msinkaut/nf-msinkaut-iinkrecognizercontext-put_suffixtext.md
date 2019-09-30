@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext.put_SuffixText
  - InkRecognizerContext.get_SuffixText
  - InkRecognizerContext.put_SuffixText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

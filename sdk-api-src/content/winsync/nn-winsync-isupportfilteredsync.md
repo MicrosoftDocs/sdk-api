@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - ISupportFilteredSync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

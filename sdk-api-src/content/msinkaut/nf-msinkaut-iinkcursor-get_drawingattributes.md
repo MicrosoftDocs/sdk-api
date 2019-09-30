@@ -41,7 +41,6 @@ api_name:
  - IInkCursor.DrawingAttributes
  - IInkCursor.get_DrawingAttributes
  - IInkCursor.get_DrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

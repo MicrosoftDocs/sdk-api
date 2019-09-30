@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMSPECTYPE
-product: Windows
 targetos: Windows
 req.typenames: DRMSPECTYPE
 req.redist: 

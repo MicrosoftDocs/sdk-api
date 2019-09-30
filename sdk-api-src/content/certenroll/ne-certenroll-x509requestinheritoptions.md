@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - X509RequestInheritOptions
-product: Windows
 targetos: Windows
 req.typenames: X509RequestInheritOptions
 req.redist: 

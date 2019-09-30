@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SpQueryMetaDataFn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

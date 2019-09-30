@@ -38,7 +38,6 @@ api_location:
 - Shlwapi.h
 api_name:
 - ASSOCKEY
-product: Windows
 targetos: Windows
 req.typenames: ASSOCKEY
 req.redist: 

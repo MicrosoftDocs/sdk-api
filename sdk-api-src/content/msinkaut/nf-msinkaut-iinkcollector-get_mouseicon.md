@@ -41,7 +41,6 @@ api_name:
  - IInkCollector.MouseIcon
  - IInkCollector.get_MouseIcon
  - InkCollector.get_MouseIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Wiaguid.dll
 api_name:
  - IEnumWiaItem.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

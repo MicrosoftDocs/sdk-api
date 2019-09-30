@@ -38,7 +38,6 @@ api_location:
  - D2D1.lib
 api_name:
  - D2D1_IMAGE_BRUSH_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: D2D1_IMAGE_BRUSH_PROPERTIES
 req.redist: 

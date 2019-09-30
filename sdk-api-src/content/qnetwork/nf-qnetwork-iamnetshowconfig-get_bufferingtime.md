@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetShowConfig.get_BufferingTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - TEXTMODE
-product: Windows
 targetos: Windows
 req.typenames: TEXTMODE
 req.redist: 

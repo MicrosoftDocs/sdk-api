@@ -38,7 +38,6 @@ api_location:
  - D3D10_1.h
 api_name:
  - ID3D10Device1.GetFeatureLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

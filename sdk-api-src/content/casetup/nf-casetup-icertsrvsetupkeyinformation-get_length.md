@@ -40,7 +40,6 @@ api_name:
  - ICertSrvSetupKeyInformation.Length
  - ICertSrvSetupKeyInformation.get_Length
  - ICertSrvSetupKeyInformation.put_Length
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

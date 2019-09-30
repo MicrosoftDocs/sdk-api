@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - CONFLICT_RESOLUTION_POLICY
-product: Windows
 targetos: Windows
 req.typenames: CONFLICT_RESOLUTION_POLICY
 req.redist: 

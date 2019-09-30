@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.SubdirectoryFormatPattern
  - IDataCollectorSet.get_SubdirectoryFormatPattern
  - IDataCollectorSet.put_SubdirectoryFormatPattern
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

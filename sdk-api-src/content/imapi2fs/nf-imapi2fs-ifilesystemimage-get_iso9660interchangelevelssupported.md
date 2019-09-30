@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFileSystemImage.get_ISO9660InterchangeLevelsSupported
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

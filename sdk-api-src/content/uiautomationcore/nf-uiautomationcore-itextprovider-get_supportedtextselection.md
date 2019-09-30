@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITextProvider.SupportedTextSelection
  - ITextProvider.get_SupportedTextSelection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

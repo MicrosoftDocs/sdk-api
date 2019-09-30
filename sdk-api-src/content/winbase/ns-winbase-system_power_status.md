@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - SYSTEM_POWER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATUS, *LPSYSTEM_POWER_STATUS
 req.redist: 

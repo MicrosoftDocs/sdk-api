@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFASFSplitter.GetNextSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

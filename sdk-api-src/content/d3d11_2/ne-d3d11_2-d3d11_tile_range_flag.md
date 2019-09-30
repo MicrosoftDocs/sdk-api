@@ -38,7 +38,6 @@ api_location:
  - d3d11_2.h
 api_name:
  - D3D11_TILE_RANGE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TILE_RANGE_FLAG
 req.redist: 

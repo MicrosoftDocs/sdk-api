@@ -42,7 +42,6 @@ api_location:
  - api-ms-win-ntuser-sysparams-l1-1-0.dll
 api_name:
  - GetSystemMetrics
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnIncomingMessageRemoved
  - IFaxServerNotify2.OnIncomingMessageRemoved
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

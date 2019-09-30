@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_get_paged_count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

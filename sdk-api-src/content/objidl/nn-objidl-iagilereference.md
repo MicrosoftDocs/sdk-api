@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - IAgileReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - minuser.dll
 api_name:
  - MonitorFromWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

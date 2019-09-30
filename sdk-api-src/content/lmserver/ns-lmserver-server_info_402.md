@@ -38,7 +38,6 @@ api_location:
  - Lmserver.h
 api_name:
  - SERVER_INFO_402
-product: Windows
 targetos: Windows
 req.typenames: SERVER_INFO_402, *PSERVER_INFO_402, *LPSERVER_INFO_402
 req.redist: 

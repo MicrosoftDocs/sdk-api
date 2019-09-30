@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_HWND
  - IDynamicRenderer.get_HWND
  - IDynamicRenderer.put_HWND
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

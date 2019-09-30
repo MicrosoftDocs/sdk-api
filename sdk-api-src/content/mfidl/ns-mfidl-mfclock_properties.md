@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFCLOCK_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_PROPERTIES
 req.redist: 

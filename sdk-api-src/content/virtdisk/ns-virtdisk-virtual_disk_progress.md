@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - VIRTUAL_DISK_PROGRESS
-product: Windows
 targetos: Windows
 req.typenames: VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS
 req.redist: 

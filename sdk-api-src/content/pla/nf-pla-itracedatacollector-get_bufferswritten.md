@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.BuffersWritten
  - ITraceDataCollector.get_BuffersWritten
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

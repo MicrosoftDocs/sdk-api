@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.EnumAlgs
  - ICEnroll3.EnumAlgs
  - CEnroll.EnumAlgs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

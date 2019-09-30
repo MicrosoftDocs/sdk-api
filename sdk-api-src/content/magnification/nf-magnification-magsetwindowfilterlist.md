@@ -38,7 +38,6 @@ api_location:
  - Magnification.dll
 api_name:
  - MagSetWindowFilterList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

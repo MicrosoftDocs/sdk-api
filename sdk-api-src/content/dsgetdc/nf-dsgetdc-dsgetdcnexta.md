@@ -40,7 +40,6 @@ api_name:
  - DsGetDcNext
  - DsGetDcNextA
  - DsGetDcNextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

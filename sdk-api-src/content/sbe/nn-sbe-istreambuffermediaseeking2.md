@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferMediaSeeking2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

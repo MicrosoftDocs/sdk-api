@@ -38,7 +38,6 @@ api_location:
  - Casetup.h
 api_name:
  - MSCEPSetupProperty
-product: Windows
 targetos: Windows
 req.typenames: MSCEPSetupProperty
 req.redist: 

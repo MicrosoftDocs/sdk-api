@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - VIEWSTATUS
-product: Windows
 targetos: Windows
 req.typenames: VIEWSTATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - IExeServerRegistration.get_Instancing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

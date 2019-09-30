@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISignerCertificate.Certificate
  - ISignerCertificate.get_Certificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

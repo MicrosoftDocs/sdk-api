@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_GET_NTFS_VOLUME_DATA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - PROV_ENUMALGS_EX
-product: Windows
 targetos: Windows
 req.typenames: PROV_ENUMALGS_EX
 req.redist: 

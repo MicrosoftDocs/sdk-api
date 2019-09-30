@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - GETPROPERTYSTOREFLAGS
-product: Windows
 targetos: Windows
 req.typenames: GETPROPERTYSTOREFLAGS
 req.redist: 

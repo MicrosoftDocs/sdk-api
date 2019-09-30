@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBSLocator.put_Elevation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

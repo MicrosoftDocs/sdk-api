@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcRelationshipSet.GetRelationshipsContentStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

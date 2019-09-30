@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_VOLUME_SNAPSHOT_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_SNAPSHOT_ATTRIBUTES, *PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WsbApp.h
 api_name:
  - IWsbApplicationAsync.Abort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECALLHUBTRACKINGINFO
-product: Windows
 targetos: Windows
 req.typenames: LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO
 req.redist: 

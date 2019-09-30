@@ -38,7 +38,6 @@ api_location:
  - KtmTypes.h
 api_name:
  - TRANSACTION_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_NOTIFICATION, *PTRANSACTION_NOTIFICATION
 req.redist: 

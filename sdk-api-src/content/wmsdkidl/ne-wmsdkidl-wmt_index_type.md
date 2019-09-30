@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_INDEX_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WMT_INDEX_TYPE
 req.redist: 

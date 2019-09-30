@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - PreFetchCacheLine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

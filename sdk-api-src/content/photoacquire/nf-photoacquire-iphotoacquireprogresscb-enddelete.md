@@ -39,7 +39,6 @@ api_location:
  - PhotoAcquireUID.dll
 api_name:
  - IPhotoAcquireProgressCB.EndDelete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

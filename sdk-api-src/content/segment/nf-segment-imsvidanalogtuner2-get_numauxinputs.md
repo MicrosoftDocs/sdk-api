@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidAnalogTuner2.get_NumAuxInputs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

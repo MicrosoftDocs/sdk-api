@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_TAGGED_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_ATTRIBUTE, *PCMC_TAGGED_ATTRIBUTE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - SAFEARRAY
-product: Windows
 targetos: Windows
 req.typenames: SAFEARRAY
 req.redist: 

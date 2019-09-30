@@ -40,7 +40,6 @@ api_name:
  - SHEnumerateUnreadMailAccounts
  - SHEnumerateUnreadMailAccountsA
  - SHEnumerateUnreadMailAccountsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

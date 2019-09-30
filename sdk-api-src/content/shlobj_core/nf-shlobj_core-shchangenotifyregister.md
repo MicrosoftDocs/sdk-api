@@ -42,7 +42,6 @@ api_location:
 api_name:
 - SHChangeNotifyRegister
 - NTSHChangeNotifyRegister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

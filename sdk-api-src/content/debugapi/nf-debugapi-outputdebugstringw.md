@@ -47,7 +47,6 @@ api_name:
  - OutputDebugString
  - OutputDebugStringA
  - OutputDebugStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

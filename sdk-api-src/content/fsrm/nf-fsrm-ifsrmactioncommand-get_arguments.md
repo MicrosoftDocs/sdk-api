@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.Arguments
  - IFsrmActionCommand.get_Arguments
  - IFsrmActionCommand.put_Arguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

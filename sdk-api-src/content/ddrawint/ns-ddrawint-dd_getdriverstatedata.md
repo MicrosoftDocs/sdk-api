@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETDRIVERSTATEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA'
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IConsoleNameSpace.GetChildItem
  - IConsoleNameSpace2.GetChildItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

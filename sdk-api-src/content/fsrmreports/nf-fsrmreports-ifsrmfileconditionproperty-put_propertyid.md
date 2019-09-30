@@ -40,7 +40,6 @@ api_name:
 - IFsrmFileConditionProperty.PropertyId
 - IFsrmFileConditionProperty.get_PropertyId
 - IFsrmFileConditionProperty.put_PropertyId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

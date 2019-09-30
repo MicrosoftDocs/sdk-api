@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListGetInfo
  - MsiSourceListGetInfoA
  - MsiSourceListGetInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

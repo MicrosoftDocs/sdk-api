@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - IP_MSFILTER
-product: Windows
 targetos: Windows
 req.typenames: IP_MSFILTER, *PIP_MSFILTER
 req.redist: 

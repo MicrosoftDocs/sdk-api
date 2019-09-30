@@ -38,7 +38,6 @@ api_location:
  - xpsdigitalsignature.h
 api_name:
  - XPS_SIGNATURE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: XPS_SIGNATURE_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - VirtualizedItemPattern_Realize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

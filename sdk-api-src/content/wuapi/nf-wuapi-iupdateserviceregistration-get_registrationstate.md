@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateServiceRegistration.RegistrationState
  - IUpdateServiceRegistration.get_RegistrationState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

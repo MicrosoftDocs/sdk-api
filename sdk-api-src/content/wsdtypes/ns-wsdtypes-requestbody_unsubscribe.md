@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - REQUESTBODY_Unsubscribe
-product: Windows
 targetos: Windows
 req.typenames: REQUESTBODY_Unsubscribe
 req.redist: 

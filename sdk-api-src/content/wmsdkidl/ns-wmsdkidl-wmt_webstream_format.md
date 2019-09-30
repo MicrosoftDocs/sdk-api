@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_WEBSTREAM_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: WMT_WEBSTREAM_FORMAT
 req.redist: 

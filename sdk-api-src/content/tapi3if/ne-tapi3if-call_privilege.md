@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - CALL_PRIVILEGE
-product: Windows
 targetos: Windows
 req.typenames: CALL_PRIVILEGE
 req.redist: 

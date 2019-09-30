@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IITWordWheel.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

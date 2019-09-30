@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CachedHorizontalScrollPercent
  - IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

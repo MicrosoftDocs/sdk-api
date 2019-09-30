@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - DRM_VAL16
-product: Windows
 targetos: Windows
 req.typenames: DRM_VAL16
 req.redist: 

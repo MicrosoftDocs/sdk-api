@@ -40,7 +40,6 @@ api_name:
  - MsiGetProductCode
  - MsiGetProductCodeA
  - MsiGetProductCodeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

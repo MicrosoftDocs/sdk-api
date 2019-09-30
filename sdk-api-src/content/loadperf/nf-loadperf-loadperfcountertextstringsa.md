@@ -40,7 +40,6 @@ api_name:
  - LoadPerfCounterTextStrings
  - LoadPerfCounterTextStringsA
  - LoadPerfCounterTextStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

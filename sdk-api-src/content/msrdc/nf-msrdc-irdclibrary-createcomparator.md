@@ -38,7 +38,6 @@ api_location:
  - MsRdc.dll
 api_name:
  - IRdcLibrary.CreateComparator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

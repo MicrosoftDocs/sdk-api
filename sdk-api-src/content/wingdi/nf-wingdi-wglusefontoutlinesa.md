@@ -40,7 +40,6 @@ api_name:
 - wglUseFontOutlines
 - wglUseFontOutlinesA
 - wglUseFontOutlinesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

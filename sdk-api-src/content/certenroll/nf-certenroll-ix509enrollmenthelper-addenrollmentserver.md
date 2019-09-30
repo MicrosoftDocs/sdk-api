@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509EnrollmentHelper.AddEnrollmentServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

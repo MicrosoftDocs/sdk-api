@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - TAKE_SNAPSHOT_VHDSET_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: TAKE_SNAPSHOT_VHDSET_PARAMETERS, *PTAKE_SNAPSHOT_VHDSET_PARAMETERS
 req.redist: 

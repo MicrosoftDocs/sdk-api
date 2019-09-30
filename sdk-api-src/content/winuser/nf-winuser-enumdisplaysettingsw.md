@@ -44,7 +44,6 @@ api_name:
 - EnumDisplaySettings
 - EnumDisplaySettingsA
 - EnumDisplaySettingsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

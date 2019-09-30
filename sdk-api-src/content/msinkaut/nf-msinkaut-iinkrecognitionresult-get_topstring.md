@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionResult.TopString
  - IInkRecognitionResult.get_TopString
  - IInkRecognitionResult.get_TopString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

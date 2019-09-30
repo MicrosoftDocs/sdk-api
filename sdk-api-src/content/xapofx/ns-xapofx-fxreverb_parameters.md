@@ -38,7 +38,6 @@ api_location:
  - xapofx.h
 api_name:
  - FXREVERB_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: FXREVERB_PARAMETERS
 req.redist: 

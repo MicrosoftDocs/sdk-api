@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - DXVACompBufferInfo
-product: Windows
 targetos: Windows
 req.typenames: DXVACompBufferInfo
 req.redist: 

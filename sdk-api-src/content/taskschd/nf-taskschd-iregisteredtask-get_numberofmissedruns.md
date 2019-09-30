@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRegisteredTask.NumberOfMissedRuns
  - IRegisteredTask.get_NumberOfMissedRuns
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

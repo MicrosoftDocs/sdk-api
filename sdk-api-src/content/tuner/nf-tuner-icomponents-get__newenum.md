@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IComponents.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

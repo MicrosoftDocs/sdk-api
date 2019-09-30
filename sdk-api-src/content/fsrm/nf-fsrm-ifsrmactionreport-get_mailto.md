@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionReport.MailTo
  - IFsrmActionReport.get_MailTo
  - IFsrmActionReport.put_MailTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

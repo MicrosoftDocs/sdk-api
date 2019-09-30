@@ -38,7 +38,6 @@ api_location:
  - Olectl.h
 api_name:
  - FONTDESC
-product: Windows
 targetos: Windows
 req.typenames: FONTDESC, *LPFONTDESC
 req.redist: 

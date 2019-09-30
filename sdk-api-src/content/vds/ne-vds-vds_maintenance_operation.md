@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_MAINTENANCE_OPERATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_MAINTENANCE_OPERATION
 req.redist: 

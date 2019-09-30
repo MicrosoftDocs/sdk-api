@@ -38,7 +38,6 @@ api_location:
 - dxva2.dll
 api_name:
 - DXVAHD_CreateDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

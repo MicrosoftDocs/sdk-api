@@ -39,7 +39,6 @@ api_location:
  - Dxgi.dll
 api_name:
  - IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

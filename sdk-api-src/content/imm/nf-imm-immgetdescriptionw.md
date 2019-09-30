@@ -40,7 +40,6 @@ api_name:
  - ImmGetDescription
  - ImmGetDescriptionA
  - ImmGetDescriptionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

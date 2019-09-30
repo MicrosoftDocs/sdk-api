@@ -38,7 +38,6 @@ api_location:
 - ipsectypes.h
 api_name:
 - IPSEC_KEY_MANAGER0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEY_MANAGER0
 req.redist: 

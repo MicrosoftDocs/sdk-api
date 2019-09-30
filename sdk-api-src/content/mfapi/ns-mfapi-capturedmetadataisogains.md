@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - CapturedMetadataISOGains
-product: Windows
 targetos: Windows
 req.typenames: CapturedMetadataISOGains
 req.redist: 

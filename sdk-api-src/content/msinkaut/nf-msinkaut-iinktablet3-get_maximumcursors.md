@@ -41,7 +41,6 @@ api_name:
  - IInkTablet3.MaximumCursors
  - IInkTablet3.get_MaximumCursors
  - IInkTablet3.get_MaximumCursors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

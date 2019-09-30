@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - IOCTL_USB_DIAGNOSTIC_MODE_ON
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

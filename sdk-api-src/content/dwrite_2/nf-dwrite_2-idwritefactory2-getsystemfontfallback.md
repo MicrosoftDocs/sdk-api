@@ -38,7 +38,6 @@ api_location:
  - dwrite_2.h
 api_name:
  - IDWriteFactory2.GetSystemFontFallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

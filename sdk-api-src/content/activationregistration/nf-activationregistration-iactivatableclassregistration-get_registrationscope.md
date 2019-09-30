@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - IActivatableClassRegistration.get_RegistrationScope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

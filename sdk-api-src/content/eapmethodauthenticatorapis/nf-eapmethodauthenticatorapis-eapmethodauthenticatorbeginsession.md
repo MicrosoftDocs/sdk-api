@@ -38,7 +38,6 @@ api_location:
 - eapmethodauthenticatorapis.h
 api_name:
 - EapMethodAuthenticatorBeginSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

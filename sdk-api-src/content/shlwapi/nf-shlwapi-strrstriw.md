@@ -45,7 +45,6 @@ api_name:
  - StrRStrI
  - StrRStrIA
  - StrRStrIW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

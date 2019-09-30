@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_READER_CLIENTINFO
-product: Windows
 targetos: Windows
 req.typenames: WM_READER_CLIENTINFO
 req.redist: 

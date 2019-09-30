@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IAutoComplete.Init
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

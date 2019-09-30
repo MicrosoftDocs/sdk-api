@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkOverlayEditingMode
-product: Windows
 targetos: Windows
 req.typenames: InkOverlayEditingMode
 req.redist: 

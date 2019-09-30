@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_AutoRedraw
  - InkOverlay.get_AutoRedraw
  - InkOverlay.put_AutoRedraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

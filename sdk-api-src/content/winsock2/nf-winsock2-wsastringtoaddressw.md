@@ -40,7 +40,6 @@ api_name:
 - WSAStringToAddress
 - WSAStringToAddressA
 - WSAStringToAddressW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

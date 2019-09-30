@@ -40,7 +40,6 @@ api_name:
  - IAzClientContext.UserSamCompat
  - IAzClientContext.get_UserSamCompat
  - AzClientContext.UserSamCompat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

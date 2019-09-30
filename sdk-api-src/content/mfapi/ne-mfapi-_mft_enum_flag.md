@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - _MFT_ENUM_FLAG
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RPC_CALL_LOCAL_ADDRESS_V1
  - RPC_CALL_LOCAL_ADDRESS_V1_A
  - RPC_CALL_LOCAL_ADDRESS_V1_W
-product: Windows
 targetos: Windows
 req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
 req.redist: 

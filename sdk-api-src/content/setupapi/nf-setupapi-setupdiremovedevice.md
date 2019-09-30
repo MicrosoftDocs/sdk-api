@@ -38,7 +38,6 @@ api_location:
 - Setupapi.dll
 api_name:
 - SetupDiRemoveDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - MSVidSinkStreams
-product: Windows
 targetos: Windows
 req.typenames: MSVidSinkStreams
 req.redist: 

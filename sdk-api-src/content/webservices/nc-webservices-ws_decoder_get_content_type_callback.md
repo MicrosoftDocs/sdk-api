@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_DECODER_GET_CONTENT_TYPE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

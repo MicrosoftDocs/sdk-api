@@ -38,7 +38,6 @@ api_location:
  - dinputd.h
 api_name:
  - IDirectInputJoyConfig8.GetUserValues
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

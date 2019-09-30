@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - FONTOBJ
-product: Windows
 targetos: Windows
 req.typenames: FONTOBJ
 req.redist: 

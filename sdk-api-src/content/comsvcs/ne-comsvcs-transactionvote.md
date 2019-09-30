@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - TransactionVote
-product: Windows
 targetos: Windows
 req.typenames: TransactionVote
 req.redist: 

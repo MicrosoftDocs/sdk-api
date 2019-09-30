@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

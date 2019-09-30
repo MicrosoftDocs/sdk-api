@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJobManager.ActionVariables
  - IFsrmFileManagementJobManager.get_ActionVariables
  - FsrmFileManagementJobManager.ActionVariables
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

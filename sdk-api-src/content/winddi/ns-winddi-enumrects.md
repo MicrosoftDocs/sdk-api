@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - ENUMRECTS
-product: Windows
 targetos: Windows
 req.typenames: ENUMRECTS
 req.redist: 

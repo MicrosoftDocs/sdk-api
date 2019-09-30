@@ -38,7 +38,6 @@ api_location:
  - Traffic.dll
 api_name:
  - TcDeleteFlow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

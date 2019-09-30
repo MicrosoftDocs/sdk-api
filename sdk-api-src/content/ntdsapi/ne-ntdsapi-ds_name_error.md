@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_NAME_ERROR
-product: Windows
 targetos: Windows
 req.typenames: DS_NAME_ERROR
 req.redist: 

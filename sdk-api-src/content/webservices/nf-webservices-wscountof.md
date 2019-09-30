@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WsCountOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

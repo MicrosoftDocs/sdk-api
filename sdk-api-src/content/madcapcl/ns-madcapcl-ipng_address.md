@@ -38,7 +38,6 @@ api_location:
 - Madcapcl.h
 api_name:
 - IPNG_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
 req.redist: 

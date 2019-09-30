@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
-product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, *PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 req.redist: 

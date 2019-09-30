@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_HEAP_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: D3D12_HEAP_PROPERTIES
 req.redist: 

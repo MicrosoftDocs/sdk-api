@@ -38,7 +38,6 @@ api_location:
  - TxLogpub.h
 api_name:
  - RECORD_READING_POLICY
-product: Windows
 targetos: Windows
 req.typenames: RECORD_READING_POLICY
 req.redist: 

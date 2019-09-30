@@ -40,7 +40,6 @@ api_name:
 - SHQueryRecycleBin
 - SHQueryRecycleBinA
 - SHQueryRecycleBinW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

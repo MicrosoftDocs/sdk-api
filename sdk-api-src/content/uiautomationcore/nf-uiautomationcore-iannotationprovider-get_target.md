@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAnnotationProvider.Target
  - IAnnotationProvider.get_Target
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

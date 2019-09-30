@@ -40,7 +40,6 @@ api_name:
  - FAX_GLOBAL_ROUTING_INFO
  - FAX_GLOBAL_ROUTING_INFOA
  - FAX_GLOBAL_ROUTING_INFOW
-product: Windows
 targetos: Windows
 req.typenames: FAX_GLOBAL_ROUTING_INFOA, *PFAX_GLOBAL_ROUTING_INFOA
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUS_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_FLAGS
 req.redist: 

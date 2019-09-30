@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - FaceCharacterization
-product: Windows
 targetos: Windows
 req.typenames: FaceCharacterization
 req.redist: 

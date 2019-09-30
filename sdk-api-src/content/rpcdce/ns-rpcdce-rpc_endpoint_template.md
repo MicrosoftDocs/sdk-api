@@ -40,7 +40,6 @@ api_name:
  - RPC_ENDPOINT_TEMPLATE
  - RPC_ENDPOINT_TEMPLATEA
  - RPC_ENDPOINT_TEMPLATEW
-product: Windows
 targetos: Windows
 req.typenames: RPC_ENDPOINT_TEMPLATE, *PRPC_ENDPOINT_TEMPLATE
 req.redist: 

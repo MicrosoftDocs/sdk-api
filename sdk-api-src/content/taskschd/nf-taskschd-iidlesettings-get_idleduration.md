@@ -40,7 +40,6 @@ api_name:
  - IIdleSettings.IdleDuration
  - IIdleSettings.get_IdleDuration
  - IIdleSettings.put_IdleDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

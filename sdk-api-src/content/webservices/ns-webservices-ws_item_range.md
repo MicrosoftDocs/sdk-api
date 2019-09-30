@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_ITEM_RANGE
-product: Windows
 targetos: Windows
 req.typenames: WS_ITEM_RANGE
 req.redist: 

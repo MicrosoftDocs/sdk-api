@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IMallocSpy.PreHeapMinimize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

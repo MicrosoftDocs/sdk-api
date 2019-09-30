@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - ICertificationAuthorities.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

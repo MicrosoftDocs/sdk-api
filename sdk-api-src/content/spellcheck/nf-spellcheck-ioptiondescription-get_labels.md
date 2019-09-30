@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOptionDescription.Labels
  - IOptionDescription.get_Labels
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

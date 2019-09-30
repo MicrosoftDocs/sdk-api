@@ -38,7 +38,6 @@ api_location:
  - oledbguid.h
 api_name:
  - DBID
-product: Windows
 targetos: Windows
 req.typenames: DBID
 req.redist: 

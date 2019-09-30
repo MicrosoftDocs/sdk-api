@@ -38,7 +38,6 @@ api_location:
  - iphlpapi.h
 api_name:
  - INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

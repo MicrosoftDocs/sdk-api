@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SCEPEnrollment.ServerCapabilities
  - IX509SCEPEnrollment.put_ServerCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

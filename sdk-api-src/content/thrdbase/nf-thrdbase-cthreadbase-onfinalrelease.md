@@ -41,7 +41,6 @@ api_name:
  - CThreadBase.OnFinalRelease
  - ?OnFinalRelease@CThreadBase@@MAEXXZ
  - ?OnFinalRelease@CThreadBase@@MEAAXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

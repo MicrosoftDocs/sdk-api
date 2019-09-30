@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwProfile.AuthorizedApplications
  - INetFwProfile.get_AuthorizedApplications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

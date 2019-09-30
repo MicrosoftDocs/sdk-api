@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_ADDR_PATTERN
-product: Windows
 targetos: Windows
 req.typenames: DHCP_ADDR_PATTERN, *LPDHCP_ADDR_PATTERN
 req.redist: 

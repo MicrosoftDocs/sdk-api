@@ -40,7 +40,6 @@ api_name:
  - IUIAutomation6.CoalesceEvents
  - IUIAutomation6.get_CoalesceEvents
  - IUIAutomation6.put_CoalesceEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

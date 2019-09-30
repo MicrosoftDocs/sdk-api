@@ -40,7 +40,6 @@ api_name:
  - IFaxAccountOutgoingArchive.SizeLow
  - IFaxAccountOutgoingArchive.get_SizeLow
  - IFaxAccountOutgoingArchive.get_SizeLow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

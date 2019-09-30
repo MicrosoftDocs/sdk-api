@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_COMMON_STATISTICS0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_COMMON_STATISTICS0
 req.redist: 

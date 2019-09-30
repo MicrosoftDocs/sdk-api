@@ -38,7 +38,6 @@ api_location:
  - Qospol.h
 api_name:
  - IDPE_ATTR
-product: Windows
 targetos: Windows
 req.typenames: IDPE_ATTR, *LPIDPE_ATTR
 req.redist: 

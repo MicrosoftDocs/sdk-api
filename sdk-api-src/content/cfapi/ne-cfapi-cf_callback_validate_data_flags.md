@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_CALLBACK_VALIDATE_DATA_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_CALLBACK_VALIDATE_DATA_FLAGS
 req.redist: 

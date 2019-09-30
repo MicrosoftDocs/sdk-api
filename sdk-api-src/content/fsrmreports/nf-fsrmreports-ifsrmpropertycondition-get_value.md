@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyCondition.Value
  - IFsrmPropertyCondition.get_Value
  - IFsrmPropertyCondition.put_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

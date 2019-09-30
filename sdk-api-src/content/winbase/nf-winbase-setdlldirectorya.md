@@ -47,7 +47,6 @@ api_name:
  - SetDllDirectory
  - SetDllDirectoryA
  - SetDllDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

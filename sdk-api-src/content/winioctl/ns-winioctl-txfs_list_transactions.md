@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - TXFS_LIST_TRANSACTIONS
-product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
 req.redist: 

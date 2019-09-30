@@ -39,7 +39,6 @@ api_location:
  - Bits.dll
 api_name:
  - IBackgroundCopyFile6.UpdateDownloadPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

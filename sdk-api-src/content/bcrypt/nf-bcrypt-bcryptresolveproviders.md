@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.dll
 api_name:
 - BCryptResolveProviders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

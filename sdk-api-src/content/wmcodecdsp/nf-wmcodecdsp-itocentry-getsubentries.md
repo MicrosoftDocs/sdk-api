@@ -38,7 +38,6 @@ api_location:
  - wmvdspa.dll
 api_name:
  - ITocEntry.GetSubEntries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqGetWorkQueueMMCSSTaskId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

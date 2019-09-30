@@ -38,7 +38,6 @@ api_location:
  - EapAuthenticatorActionDefine.h
 api_name:
  - EapPeerMethodResultReason
-product: Windows
 targetos: Windows
 req.typenames: EapPeerMethodResultReason, EapPeerMethodResultReasonOle
 req.redist: 

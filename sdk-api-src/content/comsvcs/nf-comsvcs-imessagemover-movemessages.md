@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IMessageMover.MoveMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

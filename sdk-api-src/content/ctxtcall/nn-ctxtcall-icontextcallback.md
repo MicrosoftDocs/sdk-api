@@ -38,7 +38,6 @@ api_location:
  - Ctxtcall.h
 api_name:
  - IContextCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

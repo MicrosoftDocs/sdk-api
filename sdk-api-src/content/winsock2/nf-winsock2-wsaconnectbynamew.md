@@ -40,7 +40,6 @@ api_name:
  - WSAConnectByName
  - WSAConnectByNameA
  - WSAConnectByNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IPMCAST_IF_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_IF_ENTRY, *PMIB_IPMCAST_IF_ENTRY
 req.redist: 

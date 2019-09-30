@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - ID_ERROR_OBJECT
-product: Windows
 targetos: Windows
 req.typenames: ID_ERROR_OBJECT
 req.redist: 

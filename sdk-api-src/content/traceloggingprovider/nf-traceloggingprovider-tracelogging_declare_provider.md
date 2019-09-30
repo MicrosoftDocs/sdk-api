@@ -38,7 +38,6 @@ api_location:
  - traceloggingprovider.h
 api_name:
  - TRACELOGGING_DECLARE_PROVIDER
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

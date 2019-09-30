@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.GetUIObjectOf
 - IShellFolder2.GetUIObjectOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

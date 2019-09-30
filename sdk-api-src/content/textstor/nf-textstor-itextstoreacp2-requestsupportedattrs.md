@@ -38,7 +38,6 @@ api_location:
  - msctf.dll
 api_name:
  - ITextStoreACP2.RequestSupportedAttrs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

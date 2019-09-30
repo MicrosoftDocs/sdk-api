@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFCameraIntrinsic_DistortionModel
-product: Windows
 targetos: Windows
 req.typenames: MFCameraIntrinsic_DistortionModel
 req.redist: 

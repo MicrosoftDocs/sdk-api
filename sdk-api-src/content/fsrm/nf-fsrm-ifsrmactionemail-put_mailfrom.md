@@ -43,7 +43,6 @@ api_name:
  - IFsrmActionEmail.MailFrom
  - IFsrmActionEmail.get_MailFrom
  - IFsrmActionEmail.put_MailFrom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

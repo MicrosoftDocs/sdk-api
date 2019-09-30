@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - AUTHENTICATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: AUTHENTICATION_INFO
 req.redist: Windows Desktop Search (WDS) 3.0

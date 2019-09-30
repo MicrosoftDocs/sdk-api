@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.GetModuleDefinition
 - IFsrmClassificationManager2.GetModuleDefinition
 - FsrmClassificationManager.GetModuleDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

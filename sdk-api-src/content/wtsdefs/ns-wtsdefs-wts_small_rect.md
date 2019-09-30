@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_SMALL_RECT
-product: Windows
 targetos: Windows
 req.typenames: WTS_SMALL_RECT, *PWTS_SMALL_RECT
 req.redist: 

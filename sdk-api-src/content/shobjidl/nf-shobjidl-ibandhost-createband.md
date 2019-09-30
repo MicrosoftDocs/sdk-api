@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - IBandHost.CreateBand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

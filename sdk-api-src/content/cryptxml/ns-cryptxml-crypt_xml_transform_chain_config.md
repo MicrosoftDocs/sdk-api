@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CRYPT_XML_TRANSFORM_CHAIN_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
 req.redist: 

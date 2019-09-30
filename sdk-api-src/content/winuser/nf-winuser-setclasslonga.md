@@ -41,7 +41,6 @@ api_name:
  - SetClassLong
  - SetClassLongA
  - SetClassLongW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

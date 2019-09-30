@@ -38,7 +38,6 @@ api_location:
  - Winscard.h
 api_name:
  - SCardGetReaderDeviceInstanceId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodecsdk.h
 api_name:
  - WICMetadataCreationOptions
-product: Windows
 targetos: Windows
 req.typenames: WICMetadataCreationOptions
 req.redist: 

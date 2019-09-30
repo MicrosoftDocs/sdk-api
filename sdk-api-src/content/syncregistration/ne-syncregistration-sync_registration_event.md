@@ -38,7 +38,6 @@ api_location:
  - Syncregistration.h
 api_name:
  - SYNC_REGISTRATION_EVENT
-product: Windows
 targetos: Windows
 req.typenames: SYNC_REGISTRATION_EVENT
 req.redist: 

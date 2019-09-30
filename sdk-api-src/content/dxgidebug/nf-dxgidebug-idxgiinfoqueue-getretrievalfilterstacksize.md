@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIInfoQueue.GetRetrievalFilterStackSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

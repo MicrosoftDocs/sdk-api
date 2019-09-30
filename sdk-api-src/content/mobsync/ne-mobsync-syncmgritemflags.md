@@ -38,7 +38,6 @@ api_location:
 - Mobsync.h
 api_name:
 - SYNCMGRITEMFLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRITEMFLAGS
 req.redist: 

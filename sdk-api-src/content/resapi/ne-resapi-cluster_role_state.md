@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLUSTER_ROLE_STATE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_ROLE_STATE
 req.redist: 

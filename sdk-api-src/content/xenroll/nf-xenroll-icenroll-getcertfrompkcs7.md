@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.getCertFromPKCS7
  - ICEnroll.getCertFromPKCS7
  - CEnroll.getCertFromPKCS7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

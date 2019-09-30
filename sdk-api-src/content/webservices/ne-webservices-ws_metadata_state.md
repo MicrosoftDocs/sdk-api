@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_METADATA_STATE
-product: Windows
 targetos: Windows
 req.typenames: WS_METADATA_STATE
 req.redist: 

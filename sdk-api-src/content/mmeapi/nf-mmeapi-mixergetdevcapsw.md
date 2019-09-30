@@ -42,7 +42,6 @@ api_name:
  - mixerGetDevCaps
  - mixerGetDevCapsA
  - mixerGetDevCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

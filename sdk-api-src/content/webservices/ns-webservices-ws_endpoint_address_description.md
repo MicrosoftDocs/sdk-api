@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_ENDPOINT_ADDRESS_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS_DESCRIPTION
 req.redist: 

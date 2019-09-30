@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - EnrollmentEnrollStatus
-product: Windows
 targetos: Windows
 req.typenames: EnrollmentEnrollStatus
 req.redist: 

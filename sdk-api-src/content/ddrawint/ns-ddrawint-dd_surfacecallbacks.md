@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SURFACECALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_SURFACECALLBACKS
 req.redist: 

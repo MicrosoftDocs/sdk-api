@@ -40,7 +40,6 @@ api_name:
  - CreateDesktopEx
  - CreateDesktopExA
  - CreateDesktopExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

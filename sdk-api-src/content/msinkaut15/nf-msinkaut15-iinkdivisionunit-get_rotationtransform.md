@@ -41,7 +41,6 @@ api_name:
  - IInkDivisionUnit.RotationTransform
  - IInkDivisionUnit.get_RotationTransform
  - IInkDivisionUnit.get_RotationTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

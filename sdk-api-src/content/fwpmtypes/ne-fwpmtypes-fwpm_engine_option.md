@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_ENGINE_OPTION
-product: Windows
 targetos: Windows
 req.typenames: FWPM_ENGINE_OPTION
 req.redist: 

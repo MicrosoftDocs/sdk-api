@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - CATSORT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CATSORT_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RdpEncom.dll
 api_name:
  - IRDPSRAPIPerfCounterLoggingManager.CreateLogger
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

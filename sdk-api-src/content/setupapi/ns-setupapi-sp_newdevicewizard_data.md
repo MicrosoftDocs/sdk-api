@@ -38,7 +38,6 @@ api_location:
 - setupapi.h
 api_name:
 - SP_NEWDEVICEWIZARD_DATA
-product: Windows
 targetos: Windows
 req.typenames: SP_NEWDEVICEWIZARD_DATA, *PSP_NEWDEVICEWIZARD_DATA
 req.redist: 

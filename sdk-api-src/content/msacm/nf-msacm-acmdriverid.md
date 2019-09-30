@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmDriverID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

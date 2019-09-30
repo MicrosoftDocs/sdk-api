@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDTRANSFERININFO
-product: Windows
 targetos: Windows
 req.typenames: DDTRANSFERININFO, *PDDTRANSFERININFO
 req.redist: 

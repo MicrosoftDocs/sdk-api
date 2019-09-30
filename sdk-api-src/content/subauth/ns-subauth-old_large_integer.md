@@ -38,7 +38,6 @@ api_location:
  - Subauth.h
 api_name:
  - OLD_LARGE_INTEGER
-product: Windows
 targetos: Windows
 req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
 req.redist: 

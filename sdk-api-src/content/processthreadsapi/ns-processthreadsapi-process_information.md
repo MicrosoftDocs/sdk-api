@@ -39,7 +39,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - PROCESS_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_INFORMATION, *PPROCESS_INFORMATION, *LPPROCESS_INFORMATION
 req.redist: 

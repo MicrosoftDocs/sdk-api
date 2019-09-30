@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_CONTROLLER_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP
 req.redist: 

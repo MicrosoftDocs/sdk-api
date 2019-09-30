@@ -40,7 +40,6 @@ api_name:
 - SetNtmsObjectInformation
 - SetNtmsObjectInformationA
 - SetNtmsObjectInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

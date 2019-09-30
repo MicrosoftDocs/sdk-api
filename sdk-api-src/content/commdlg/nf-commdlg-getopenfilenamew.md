@@ -41,7 +41,6 @@ api_name:
  - GetOpenFileName
  - GetOpenFileNameA
  - GetOpenFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mssip.h
 api_name:
 - SIP_INDIRECT_DATA
-product: Windows
 targetos: Windows
 req.typenames: SIP_INDIRECT_DATA, *PSIP_INDIRECT_DATA
 req.redist: 

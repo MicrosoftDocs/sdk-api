@@ -38,7 +38,6 @@ api_location:
 - Evntrace.h
 api_name:
 - EVENT_TRACE_PROPERTIES_V2
-product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2
 req.redist: 

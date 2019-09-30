@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.InitialOriginY
  - IInertiaProcessor.get_InitialOriginY
  - IInertiaProcessor.put_InitialOriginY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

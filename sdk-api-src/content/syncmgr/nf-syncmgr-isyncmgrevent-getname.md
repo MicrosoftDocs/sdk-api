@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - ISyncMgrEvent.GetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

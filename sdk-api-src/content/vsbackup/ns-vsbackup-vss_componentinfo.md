@@ -38,7 +38,6 @@ api_location:
  - VsBackup.h
 api_name:
  - VSS_COMPONENTINFO
-product: Windows
 targetos: Windows
 req.typenames: VSS_COMPONENTINFO
 req.redist: 

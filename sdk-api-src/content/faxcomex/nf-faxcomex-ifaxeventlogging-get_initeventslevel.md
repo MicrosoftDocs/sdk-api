@@ -42,7 +42,6 @@ api_name:
  - IFaxEventLogging.put_InitEventsLevel
  - IFaxEventLogging.get_InitEventsLevel
  - IFaxEventLogging.put_InitEventsLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

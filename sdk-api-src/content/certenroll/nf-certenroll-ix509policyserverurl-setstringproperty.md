@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509PolicyServerUrl.SetStringProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

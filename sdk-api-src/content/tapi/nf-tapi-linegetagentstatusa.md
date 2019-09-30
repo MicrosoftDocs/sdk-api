@@ -40,7 +40,6 @@ api_name:
  - lineGetAgentStatus
  - lineGetAgentStatusA
  - lineGetAgentStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

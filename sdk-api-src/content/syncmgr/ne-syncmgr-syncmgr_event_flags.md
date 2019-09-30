@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_EVENT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_EVENT_FLAGS
 req.redist: 

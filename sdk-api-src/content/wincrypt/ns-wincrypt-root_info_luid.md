@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - ROOT_INFO_LUID
-product: Windows
 targetos: Windows
 req.typenames: ROOT_INFO_LUID, *PROOT_INFO_LUID
 req.redist: 

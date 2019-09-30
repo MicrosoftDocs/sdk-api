@@ -40,7 +40,6 @@ api_name:
  - INetFwProduct.DisplayName
  - INetFwProduct.get_DisplayName
  - INetFwProduct.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

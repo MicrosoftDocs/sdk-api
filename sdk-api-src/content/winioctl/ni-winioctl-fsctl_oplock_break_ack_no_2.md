@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_OPLOCK_BREAK_ACK_NO_2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - lineTranslateAddress
  - lineTranslateAddressA
  - lineTranslateAddressW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

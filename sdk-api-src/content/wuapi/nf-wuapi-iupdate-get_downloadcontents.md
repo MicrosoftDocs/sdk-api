@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.DownloadContents
  - IUpdate.get_DownloadContents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

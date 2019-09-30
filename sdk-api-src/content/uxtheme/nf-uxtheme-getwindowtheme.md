@@ -40,7 +40,6 @@ api_location:
  - xamlpalwp.dll
 api_name:
  - GetWindowTheme
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

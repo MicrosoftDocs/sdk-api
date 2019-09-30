@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern.CurrentCanMove
  - IUIAutomationTransformPattern.get_CurrentCanMove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

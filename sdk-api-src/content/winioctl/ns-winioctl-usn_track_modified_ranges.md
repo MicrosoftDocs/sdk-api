@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - USN_TRACK_MODIFIED_RANGES
-product: Windows
 targetos: Windows
 req.typenames: USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES
 req.redist: 

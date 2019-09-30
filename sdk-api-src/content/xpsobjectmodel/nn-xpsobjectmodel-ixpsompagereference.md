@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMPageReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

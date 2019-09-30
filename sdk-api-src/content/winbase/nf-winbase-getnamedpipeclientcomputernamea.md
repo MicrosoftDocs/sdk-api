@@ -50,7 +50,6 @@ api_name:
  - GetNamedPipeClientComputerName
  - GetNamedPipeClientComputerNameA
  - GetNamedPipeClientComputerNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

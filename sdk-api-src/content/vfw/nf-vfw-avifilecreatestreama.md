@@ -40,7 +40,6 @@ api_name:
  - AVIFileCreateStream
  - AVIFileCreateStreamA
  - AVIFileCreateStreamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

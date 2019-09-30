@@ -41,7 +41,6 @@ api_name:
  - IInkTablets.DefaultTablet
  - IInkTablets.get_DefaultTablet
  - InkTablets.get_DefaultTablet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

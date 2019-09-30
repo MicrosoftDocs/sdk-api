@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.GetSupportedKeySpec
  - ICEnroll3.GetSupportedKeySpec
  - CEnroll.GetSupportedKeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

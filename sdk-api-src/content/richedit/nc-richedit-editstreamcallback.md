@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - EditStreamCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

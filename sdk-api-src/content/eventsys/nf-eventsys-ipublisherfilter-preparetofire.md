@@ -38,7 +38,6 @@ api_location:
  - EventSys.h
 api_name:
  - IPublisherFilter.PrepareToFire
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - RemoveDirectory
  - RemoveDirectoryA
  - RemoveDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

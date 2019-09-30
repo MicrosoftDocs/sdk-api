@@ -38,7 +38,6 @@ api_location:
  - DWrite_2.h
 api_name:
  - DWRITE_COLOR_GLYPH_RUN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

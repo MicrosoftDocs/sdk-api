@@ -44,7 +44,6 @@ api_name:
  - ICEnroll3.get_EnableSMIMECapabilities
  - ICEnroll3.put_EnableSMIMECapabilities
  - CEnroll.EnableSMIMECapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

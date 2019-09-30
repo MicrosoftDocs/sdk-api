@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - QACONTAINERFLAGS
-product: Windows
 targetos: Windows
 req.typenames: QACONTAINERFLAGS
 req.redist: 

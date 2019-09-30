@@ -41,7 +41,6 @@ api_name:
  - MsiGetSummaryInformation
  - MsiGetSummaryInformationA
  - MsiGetSummaryInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

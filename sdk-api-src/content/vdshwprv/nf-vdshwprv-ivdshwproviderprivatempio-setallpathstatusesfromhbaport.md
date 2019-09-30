@@ -38,7 +38,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

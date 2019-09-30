@@ -38,7 +38,6 @@ api_location:
  - OleAuto.h
 api_name:
  - METHODDATA
-product: Windows
 targetos: Windows
 req.typenames: METHODDATA, *LPMETHODDATA
 req.redist: 

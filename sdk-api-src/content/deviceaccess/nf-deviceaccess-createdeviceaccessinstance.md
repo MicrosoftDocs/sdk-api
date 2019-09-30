@@ -38,7 +38,6 @@ api_location:
  - deviceaccess.dll
 api_name:
  - CreateDeviceAccessInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

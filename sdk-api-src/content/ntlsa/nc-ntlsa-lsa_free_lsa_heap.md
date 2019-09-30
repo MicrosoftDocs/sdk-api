@@ -38,7 +38,6 @@ api_location:
 - ntlsa.h
 api_name:
 - FreeLsaHeap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

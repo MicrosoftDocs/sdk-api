@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_PROVIDER_SGNR
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_SGNR, *PCRYPT_PROVIDER_SGNR
 req.redist: 

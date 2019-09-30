@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IComponents.put_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

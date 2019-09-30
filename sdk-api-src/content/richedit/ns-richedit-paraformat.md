@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - PARAFORMAT
-product: Windows
 targetos: Windows
 req.typenames: PARAFORMAT
 req.redist: 

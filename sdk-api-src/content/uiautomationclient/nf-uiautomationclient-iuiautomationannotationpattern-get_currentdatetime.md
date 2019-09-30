@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CurrentDateTime
  - IUIAutomationAnnotationPattern.get_CurrentDateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

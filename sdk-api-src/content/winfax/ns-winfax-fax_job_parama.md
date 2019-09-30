@@ -40,7 +40,6 @@ api_name:
  - FAX_JOB_PARAM
  - FAX_JOB_PARAMA
  - FAX_JOB_PARAMW
-product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_PARAMA, *PFAX_JOB_PARAMA
 req.redist: 

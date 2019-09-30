@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - GRADIENT_RECT
-product: Windows
 targetos: Windows
 req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
 req.redist: 

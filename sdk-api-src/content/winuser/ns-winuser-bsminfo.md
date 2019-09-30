@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - BSMINFO
-product: Windows
 targetos: Windows
 req.typenames: BSMINFO, *PBSMINFO
 req.redist: 

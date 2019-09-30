@@ -40,7 +40,6 @@ api_name:
  - FINDREPLACE
  - FINDREPLACEA
  - FINDREPLACEW
-product: Windows
 targetos: Windows
 req.typenames: FINDREPLACEW, *LPFINDREPLACEW
 req.redist: 

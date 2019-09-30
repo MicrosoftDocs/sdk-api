@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - ITDirectory.Bind
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

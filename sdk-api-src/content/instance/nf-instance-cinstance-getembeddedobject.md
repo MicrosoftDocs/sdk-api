@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CInstance.GetEmbeddedObject
  - ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

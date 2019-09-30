@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - DAILY
-product: Windows
 targetos: Windows
 req.typenames: DAILY
 req.redist: 

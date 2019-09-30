@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.MailTo
  - IFsrmFileManagementJob.get_MailTo
  - IFsrmFileManagementJob.put_MailTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

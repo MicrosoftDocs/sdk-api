@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_Plugin_Type
-product: Windows
 targetos: Windows
 req.typenames: MF_Plugin_Type
 req.redist: 

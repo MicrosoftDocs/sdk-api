@@ -39,7 +39,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeStringToAnsiString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

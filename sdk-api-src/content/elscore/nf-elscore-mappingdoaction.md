@@ -38,7 +38,6 @@ api_location:
 - Elscore.dll
 api_name:
 - MappingDoAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - MsiCreateTransformSummaryInfo
  - MsiCreateTransformSummaryInfoA
  - MsiCreateTransformSummaryInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Iphlpapi.dll
 api_name:
 - SetIpStatisticsEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

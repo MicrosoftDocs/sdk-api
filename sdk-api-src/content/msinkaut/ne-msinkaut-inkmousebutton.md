@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkMouseButton
-product: Windows
 targetos: Windows
 req.typenames: InkMouseButton
 req.redist: 

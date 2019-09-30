@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.addNameValuePairToRequestWStr
  - IEnroll4.addNameValuePairToRequestWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

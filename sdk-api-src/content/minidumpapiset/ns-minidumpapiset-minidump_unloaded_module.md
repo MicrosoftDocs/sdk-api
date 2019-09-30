@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_UNLOADED_MODULE
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_UNLOADED_MODULE, *PMINIDUMP_UNLOADED_MODULE
 req.redist: DbgHelp.dll 6.0 or later

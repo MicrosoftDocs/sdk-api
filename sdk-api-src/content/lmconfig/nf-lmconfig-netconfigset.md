@@ -38,7 +38,6 @@ api_location:
  - lmconfig.h
 api_name:
  - NetConfigSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

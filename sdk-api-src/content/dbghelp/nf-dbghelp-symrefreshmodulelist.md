@@ -38,7 +38,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymRefreshModuleList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.5 or later

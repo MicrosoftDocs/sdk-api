@@ -39,7 +39,6 @@ api_location:
  - browsewm.dll
 api_name:
  - IOleInPlaceSite.OnInPlaceDeactivate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

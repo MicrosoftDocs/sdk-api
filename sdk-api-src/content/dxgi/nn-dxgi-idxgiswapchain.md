@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGISwapChain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_SERVER_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
 req.redist: 

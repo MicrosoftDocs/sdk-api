@@ -38,7 +38,6 @@ api_location:
 - XInput.h
 api_name:
 - XINPUT_BATTERY_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: XINPUT_BATTERY_INFORMATION, *PXINPUT_BATTERY_INFORMATION
 req.redist: 

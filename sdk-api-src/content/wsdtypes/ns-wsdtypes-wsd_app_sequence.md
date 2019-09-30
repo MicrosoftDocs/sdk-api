@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_APP_SEQUENCE
-product: Windows
 targetos: Windows
 req.typenames: WSD_APP_SEQUENCE
 req.redist: 

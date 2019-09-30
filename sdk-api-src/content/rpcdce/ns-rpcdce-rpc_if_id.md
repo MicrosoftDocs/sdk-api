@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_IF_ID
-product: Windows
 targetos: Windows
 req.typenames: RPC_IF_ID
 req.redist: 

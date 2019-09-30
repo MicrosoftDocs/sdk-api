@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteTextLayout2.SetLastLineWrapping
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

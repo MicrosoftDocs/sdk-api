@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.InitialProgram
  - ITsSbSession.get_InitialProgram
  - ITsSbSession.put_InitialProgram
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

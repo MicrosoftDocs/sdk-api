@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEREQMEDIACALL
-product: Windows
 targetos: Windows
 req.typenames: LINEREQMEDIACALL, *LPLINEREQMEDIACALL
 req.redist: 

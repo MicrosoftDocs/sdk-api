@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AUDIO_STREAM_CONFIG_CAPS
-product: Windows
 targetos: Windows
 req.typenames: AUDIO_STREAM_CONFIG_CAPS
 req.redist: 

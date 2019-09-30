@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - ClientCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

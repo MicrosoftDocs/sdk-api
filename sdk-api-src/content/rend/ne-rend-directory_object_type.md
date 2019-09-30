@@ -38,7 +38,6 @@ api_location:
  - Rend.h
 api_name:
  - DIRECTORY_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DIRECTORY_OBJECT_TYPE
 req.redist: 

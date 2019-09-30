@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ILegacyIAccessibleProvider.KeyboardShortcut
  - ILegacyIAccessibleProvider.get_KeyboardShortcut
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

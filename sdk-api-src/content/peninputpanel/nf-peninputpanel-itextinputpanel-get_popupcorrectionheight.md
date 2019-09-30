@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.PopUpCorrectionHeight
  - ITextInputPanel.get_PopUpCorrectionHeight
  - ITextInputPanel.get_PopUpCorrectionHeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_Picture
  - InkPicture.get_Picture
  - InkPicture.put_Picture
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPClosedCaption2.getSAMILangName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

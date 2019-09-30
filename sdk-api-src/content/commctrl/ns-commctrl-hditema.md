@@ -40,7 +40,6 @@ api_name:
 - HDITEM
 - HDITEMA
 - HDITEMW
-product: Windows
 targetos: Windows
 req.typenames: HDITEMA, *LPHDITEMA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PEERDIST_RETRIEVAL_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_RETRIEVAL_OPTIONS, *PPEERDIST_RETRIEVAL_OPTIONS
 req.redist: 

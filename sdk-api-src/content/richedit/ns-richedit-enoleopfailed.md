@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENOLEOPFAILED
-product: Windows
 targetos: Windows
 req.typenames: ENOLEOPFAILED
 req.redist: 

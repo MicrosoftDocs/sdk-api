@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IPersistTuneXmlUtility2.Serialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

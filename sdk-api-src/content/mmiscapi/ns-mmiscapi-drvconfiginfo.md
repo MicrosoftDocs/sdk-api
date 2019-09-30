@@ -38,7 +38,6 @@ api_location:
  - Mmsystem.h
 api_name:
  - DRVCONFIGINFO
-product: Windows
 targetos: Windows
 req.typenames: DRVCONFIGINFO, *PDRVCONFIGINFO, *NPDRVCONFIGINFO, *LPDRVCONFIGINFO
 req.redist: 

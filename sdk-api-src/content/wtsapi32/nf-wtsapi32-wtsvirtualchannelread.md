@@ -38,7 +38,6 @@ api_location:
  - Wtsapi32.Dll
 api_name:
  - WTSVirtualChannelRead
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

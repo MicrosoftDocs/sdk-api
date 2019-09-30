@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - SynchronizedInputPattern_StartListening
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

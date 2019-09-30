@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_RATE_SET_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_RATE_SET_EVENT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAsyncInfo.Status
  - IAsyncInfo.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

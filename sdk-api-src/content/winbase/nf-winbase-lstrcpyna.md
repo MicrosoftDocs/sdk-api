@@ -47,7 +47,6 @@ api_name:
  - lstrcpyn
  - lstrcpynA
  - lstrcpynW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

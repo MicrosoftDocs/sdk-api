@@ -38,7 +38,6 @@ api_location:
  - TSGAuthenticationEngine.h
 api_name:
  - ITSGAuthenticateUserSink.ReauthenticateUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

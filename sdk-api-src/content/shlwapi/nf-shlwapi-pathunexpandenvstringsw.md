@@ -43,7 +43,6 @@ api_name:
  - PathUnExpandEnvStrings
  - PathUnExpandEnvStringsA
  - PathUnExpandEnvStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

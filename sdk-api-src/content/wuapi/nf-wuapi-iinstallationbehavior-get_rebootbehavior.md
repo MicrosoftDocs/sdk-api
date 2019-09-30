@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationBehavior.RebootBehavior
  - IInstallationBehavior.get_RebootBehavior
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - GetLongPathName
  - GetLongPathNameA
  - GetLongPathNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

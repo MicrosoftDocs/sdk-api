@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICOMAdminCatalog2.Is64BitCatalogServer
  - ICOMAdminCatalog2.get_Is64BitCatalogServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

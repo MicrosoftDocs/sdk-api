@@ -38,7 +38,6 @@ api_location:
  - windef.h
 api_name:
  - DPI_AWARENESS
-product: Windows
 targetos: Windows
 req.typenames: DPI_AWARENESS
 req.redist: 

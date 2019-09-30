@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_FILE_LEVEL_TRIM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

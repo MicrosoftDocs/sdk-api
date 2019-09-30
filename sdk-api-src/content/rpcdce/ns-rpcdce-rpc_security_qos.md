@@ -38,7 +38,6 @@ api_location:
 - Rpcdce.h
 api_name:
 - RPC_SECURITY_QOS
-product: Windows
 targetos: Windows
 req.typenames: RPC_SECURITY_QOS, *PRPC_SECURITY_QOS
 req.redist: 

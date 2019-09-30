@@ -38,7 +38,6 @@ api_location:
  - celib.h
 api_name:
  - ENUM_PERIOD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

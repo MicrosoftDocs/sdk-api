@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICJpegFrameDecode.GetQuantizationTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

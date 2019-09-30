@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RID_DEVICE_INFO_KEYBOARD
-product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_KEYBOARD, *PRID_DEVICE_INFO_KEYBOARD
 req.redist: 

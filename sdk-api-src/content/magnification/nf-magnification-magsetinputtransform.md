@@ -38,7 +38,6 @@ api_location:
  - Magnification.dll
 api_name:
  - MagSetInputTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

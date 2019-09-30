@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ICreateErrorInfo.SetDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWorkspaceScriptable2.StartWorkspaceEx
  - IWorkspaceScriptable3.StartWorkspaceEx
  - Workspace.StartWorkspaceEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

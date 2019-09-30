@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - ShiftRight128
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

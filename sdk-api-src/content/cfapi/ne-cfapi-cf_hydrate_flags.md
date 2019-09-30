@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_HYDRATE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_HYDRATE_FLAGS
 req.redist: 

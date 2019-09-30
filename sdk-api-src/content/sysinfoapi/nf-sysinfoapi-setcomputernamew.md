@@ -42,7 +42,6 @@ api_name:
  - SetComputerName
  - SetComputerNameA
  - SetComputerNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_PROTSEQ_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: RPC_PROTSEQ_VECTOR
 req.redist: 

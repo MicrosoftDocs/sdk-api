@@ -38,7 +38,6 @@ api_location:
  - sbe.h
 api_name:
  - DVR_STREAM_DESC
-product: Windows
 targetos: Windows
 req.typenames: DVR_STREAM_DESC
 req.redist: 

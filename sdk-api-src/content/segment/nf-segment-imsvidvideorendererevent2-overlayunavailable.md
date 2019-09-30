@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRendererEvent2.OverlayUnavailable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

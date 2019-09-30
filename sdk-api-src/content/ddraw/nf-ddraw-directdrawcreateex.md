@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-DX-DDraw-L1-1-0.dll
 api_name:
  - DirectDrawCreateEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

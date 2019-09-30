@@ -38,7 +38,6 @@ api_location:
  - Bits.h
 api_name:
  - BG_ERROR_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: BG_ERROR_CONTEXT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - CERTENROLL_OBJECTID
-product: Windows
 targetos: Windows
 req.typenames: CERTENROLL_OBJECTID
 req.redist: 

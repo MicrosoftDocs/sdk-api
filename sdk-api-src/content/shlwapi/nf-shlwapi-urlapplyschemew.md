@@ -44,7 +44,6 @@ api_name:
  - UrlApplyScheme
  - UrlApplySchemeA
  - UrlApplySchemeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

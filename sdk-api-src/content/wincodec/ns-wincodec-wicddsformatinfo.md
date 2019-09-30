@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICDdsFormatInfo
-product: Windows
 targetos: Windows
 req.typenames: WICDdsFormatInfo
 req.redist: 

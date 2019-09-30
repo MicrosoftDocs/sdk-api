@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.IsMandatory
  - IUpdate.get_IsMandatory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

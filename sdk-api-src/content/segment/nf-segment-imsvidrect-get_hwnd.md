@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidRect.get_HWnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

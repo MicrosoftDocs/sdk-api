@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPDeviceStatus
-product: Windows
 targetos: Windows
 req.typenames: WMPDeviceStatus
 req.redist: 

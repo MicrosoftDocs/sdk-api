@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_CONNECTED_INFO
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
 req.redist: 

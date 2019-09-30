@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - STORAGE_DEPENDENCY_INFO_VERSION
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEPENDENCY_INFO_VERSION
 req.redist: 

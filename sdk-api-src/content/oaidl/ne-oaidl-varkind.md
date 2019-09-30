@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - VARKIND
-product: Windows
 targetos: Windows
 req.typenames: VARKIND
 req.redist: 

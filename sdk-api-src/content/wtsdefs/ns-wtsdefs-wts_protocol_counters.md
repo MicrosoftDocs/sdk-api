@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_PROTOCOL_COUNTERS
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_COUNTERS, *PWTS_PROTOCOL_COUNTERS
 req.redist: 

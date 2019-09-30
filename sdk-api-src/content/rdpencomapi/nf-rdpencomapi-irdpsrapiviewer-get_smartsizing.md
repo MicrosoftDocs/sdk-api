@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIViewer.get_SmartSizing
  - IRDPSRAPIViewer.put_SmartSizing
  - RDPViewer.SmartSizing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

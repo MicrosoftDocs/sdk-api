@@ -38,7 +38,6 @@ api_location:
 - WsbOnline.dll
 api_name:
 - UpdateOBStatusInWindowsServerBackup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

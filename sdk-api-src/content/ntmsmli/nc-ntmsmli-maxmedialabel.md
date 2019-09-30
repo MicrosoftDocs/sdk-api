@@ -38,7 +38,6 @@ api_location:
  - NtmsMli.h
 api_name:
  - MaxMediaLabel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

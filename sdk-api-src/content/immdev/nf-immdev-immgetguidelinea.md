@@ -40,7 +40,6 @@ api_name:
  - ImmGetGuideLine
  - ImmGetGuideLineA
  - ImmGetGuideLineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

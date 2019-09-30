@@ -38,7 +38,6 @@ api_location:
  - JSProxy.dll
 api_name:
  - InternetInitializeAutoProxyDll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

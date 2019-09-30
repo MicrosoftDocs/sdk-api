@@ -38,7 +38,6 @@ api_location:
  - Dwrite_1.h
 api_name:
  - DWRITE_JUSTIFICATION_OPPORTUNITY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

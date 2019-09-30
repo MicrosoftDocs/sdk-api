@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnPin.PinLengthMin
  - IMbnPin.get_PinLengthMin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

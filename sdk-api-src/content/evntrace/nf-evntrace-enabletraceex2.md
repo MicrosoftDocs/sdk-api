@@ -42,7 +42,6 @@ api_location:
 - KernelBase.dll
 api_name:
 - EnableTraceEx2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - batclass.h
 api_name:
  - BATTERY_MINIPORT_INFO
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_MINIPORT_INFO, *PBATTERY_MINIPORT_INFO
 req.redist: 

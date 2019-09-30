@@ -43,7 +43,6 @@ api_location:
 api_name:
 - CM_Query_And_Remove_SubTree
 - CM_Query_And_Remove_SubTreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

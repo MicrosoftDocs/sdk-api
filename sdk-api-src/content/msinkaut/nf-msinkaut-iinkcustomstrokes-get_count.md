@@ -41,7 +41,6 @@ api_name:
  - IInkCustomStrokes.Count
  - IInkCustomStrokes.get_Count
  - IInkCustomStrokes.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SetupQueueCopySection
  - SetupQueueCopySectionA
  - SetupQueueCopySectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

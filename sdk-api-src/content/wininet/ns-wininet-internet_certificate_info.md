@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_CERTIFICATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO
 req.redist: 

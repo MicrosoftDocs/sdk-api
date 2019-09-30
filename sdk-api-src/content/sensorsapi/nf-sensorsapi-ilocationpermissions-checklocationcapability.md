@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.h
 api_name:
  - ILocationPermissions.CheckLocationCapability
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Cmnquery.h
 api_name:
  - CQFORM
-product: Windows
 targetos: Windows
 req.typenames: CQFORM, *LPCQFORM
 req.redist: 

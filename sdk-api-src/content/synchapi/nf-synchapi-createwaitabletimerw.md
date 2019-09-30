@@ -44,7 +44,6 @@ api_name:
  - CreateWaitableTimer
  - CreateWaitableTimerA
  - CreateWaitableTimerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

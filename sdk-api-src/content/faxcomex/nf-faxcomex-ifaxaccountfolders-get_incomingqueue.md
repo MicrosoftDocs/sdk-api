@@ -40,7 +40,6 @@ api_name:
  - IFaxAccountFolders.IncomingQueue
  - IFaxAccountFolders.get_IncomingQueue
  - IFaxAccountFolders.get_IncomingQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

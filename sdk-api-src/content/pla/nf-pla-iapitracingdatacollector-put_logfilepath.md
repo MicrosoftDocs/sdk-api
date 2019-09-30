@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.LogFilePath
  - IApiTracingDataCollector.get_LogFilePath
  - IApiTracingDataCollector.put_LogFilePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

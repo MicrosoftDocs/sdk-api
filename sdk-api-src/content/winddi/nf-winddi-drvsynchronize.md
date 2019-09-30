@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DrvSynchronize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

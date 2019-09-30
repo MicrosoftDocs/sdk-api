@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_CONDITION_FLAG_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WBEM_CONDITION_FLAG_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Oleacc.h
 api_name:
  - MSAAMENUINFO
-product: Windows
 targetos: Windows
 req.typenames: MSAAMENUINFO, *LPMSAAMENUINFO
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

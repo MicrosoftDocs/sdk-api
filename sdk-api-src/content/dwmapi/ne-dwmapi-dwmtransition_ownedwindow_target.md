@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWMTRANSITION_OWNEDWINDOW_TARGET
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFactory6::CreateFontFaceReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

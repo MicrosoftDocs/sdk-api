@@ -42,7 +42,6 @@ api_name:
  - PolyTextOut
  - PolyTextOutA
  - PolyTextOutW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

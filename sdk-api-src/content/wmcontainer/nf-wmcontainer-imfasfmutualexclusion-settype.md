@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFASFMutualExclusion.SetType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

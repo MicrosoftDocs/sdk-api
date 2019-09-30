@@ -38,7 +38,6 @@ api_location:
  - DbgHelp.h
 api_name:
  - IMAGEHLP_EXTENDED_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_EXTENDED_OPTIONS
 req.redist: DbgHelp.dll 10.0.16232.1000 or later

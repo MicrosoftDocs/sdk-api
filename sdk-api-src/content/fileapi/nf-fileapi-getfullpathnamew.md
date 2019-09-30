@@ -47,7 +47,6 @@ api_name:
  - GetFullPathName
  - GetFullPathNameA
  - GetFullPathNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

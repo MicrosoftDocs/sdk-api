@@ -38,7 +38,6 @@ api_location:
  - Aclui.dll
 api_name:
  - CreateSecurityPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

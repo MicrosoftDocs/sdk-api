@@ -47,7 +47,6 @@ api_name:
  - DrawText
  - DrawTextA
  - DrawTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

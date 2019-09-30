@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_PATHFILTER_MATCH
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_PATHFILTER_MATCH
 req.redist: 

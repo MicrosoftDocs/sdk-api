@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_FEATURE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_FEATURE_FLAGS, *PWDSTRANSPORT_FEATURE_FLAGS
 req.redist: 

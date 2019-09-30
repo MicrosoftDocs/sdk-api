@@ -38,7 +38,6 @@ api_location:
  - Dskquota.h
 api_name:
  - DISKQUOTA_USER_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
 req.redist: 

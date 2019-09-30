@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
-product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS, *PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 req.redist: 

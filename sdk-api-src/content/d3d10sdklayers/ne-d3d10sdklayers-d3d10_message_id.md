@@ -38,7 +38,6 @@ api_location:
  - d3d10sdklayers.h
 api_name:
  - D3D10_MESSAGE_ID
-product: Windows
 targetos: Windows
 req.typenames: D3D10_MESSAGE_ID
 req.redist: 

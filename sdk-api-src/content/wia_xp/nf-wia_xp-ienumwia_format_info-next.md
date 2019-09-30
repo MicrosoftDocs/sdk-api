@@ -39,7 +39,6 @@ api_location:
 - Wiaguid.dll
 api_name:
 - IEnumWIA_FORMAT_INFO.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

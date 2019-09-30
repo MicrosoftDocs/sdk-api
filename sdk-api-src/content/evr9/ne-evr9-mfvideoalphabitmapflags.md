@@ -38,7 +38,6 @@ api_location:
  - evr9.h
 api_name:
  - MFVideoAlphaBitmapFlags
-product: Windows
 targetos: Windows
 req.typenames: MFVideoAlphaBitmapFlags
 req.redist: 

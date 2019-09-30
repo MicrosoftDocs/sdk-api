@@ -40,7 +40,6 @@ api_name:
  - IFaxDevice.SendingNow
  - IFaxDevice.get_SendingNow
  - IFaxDevice.get_SendingNow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

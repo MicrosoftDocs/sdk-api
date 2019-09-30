@@ -44,7 +44,6 @@ api_name:
  - PathAddBackslash
  - PathAddBackslashA
  - PathAddBackslashW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

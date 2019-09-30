@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - AUTO_PROXY_SCRIPT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: AUTO_PROXY_SCRIPT_BUFFER, *LPAUTO_PROXY_SCRIPT_BUFFER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - FAX_DEVICE_STATUS
 - FAX_DEVICE_STATUSA
 - FAX_DEVICE_STATUSW
-product: Windows
 targetos: Windows
 req.typenames: FAX_DEVICE_STATUSA, *PFAX_DEVICE_STATUSA
 req.redist: 

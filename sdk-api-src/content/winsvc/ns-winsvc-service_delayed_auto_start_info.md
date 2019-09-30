@@ -38,7 +38,6 @@ api_location:
  - Winsvc.h
 api_name:
  - SERVICE_DELAYED_AUTO_START_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_DELAYED_AUTO_START_INFO, *LPSERVICE_DELAYED_AUTO_START_INFO
 req.redist: 

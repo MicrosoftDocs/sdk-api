@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IP_MCAST_COUNTER_INFO
-product: Windows
 targetos: Windows
 req.typenames: IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO
 req.redist: 

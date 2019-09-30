@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_SECURITY_ALGORITHM_SUITE
-product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_ALGORITHM_SUITE
 req.redist: 

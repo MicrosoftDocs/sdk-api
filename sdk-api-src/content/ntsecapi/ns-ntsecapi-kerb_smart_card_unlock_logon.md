@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_SMART_CARD_UNLOCK_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_SMART_CARD_UNLOCK_LOGON, *PKERB_SMART_CARD_UNLOCK_LOGON
 req.redist: 

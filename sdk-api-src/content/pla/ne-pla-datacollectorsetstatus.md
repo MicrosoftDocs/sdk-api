@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - DataCollectorSetStatus
-product: Windows
 targetos: Windows
 req.typenames: DataCollectorSetStatus
 req.redist: 

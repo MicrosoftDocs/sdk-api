@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.Principal
  - ITaskDefinition.get_Principal
  - ITaskDefinition.put_Principal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

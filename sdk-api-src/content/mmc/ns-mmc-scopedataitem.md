@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - SCOPEDATAITEM
-product: Windows
 targetos: Windows
 req.typenames: SCOPEDATAITEM
 req.redist: 

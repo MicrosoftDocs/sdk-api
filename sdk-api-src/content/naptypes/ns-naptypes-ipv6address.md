@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - Ipv6Address
-product: Windows
 targetos: Windows
 req.typenames: Ipv6Address
 req.redist: 

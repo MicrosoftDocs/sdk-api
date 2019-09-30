@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.FileId
  - IFsrmPropertyBag.get_FileId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

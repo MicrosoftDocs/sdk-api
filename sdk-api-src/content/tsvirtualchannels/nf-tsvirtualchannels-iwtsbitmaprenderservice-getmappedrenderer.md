@@ -38,7 +38,6 @@ api_location:
  - tsvirtualchannels.h
 api_name:
  - IWTSBitmapRenderService.GetMappedRenderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SubmitNtmsOperatorRequest
  - SubmitNtmsOperatorRequestA
  - SubmitNtmsOperatorRequestW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

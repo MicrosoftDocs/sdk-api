@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.Title
  - IUpdate.get_Title
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - SpellCheck.h
 api_name:
  - CORRECTIVE_ACTION
-product: Windows
 targetos: Windows
 req.typenames: CORRECTIVE_ACTION
 req.redist: 

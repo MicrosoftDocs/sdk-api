@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_BackColor
  - InkPicture.get_BackColor
  - InkPicture.put_BackColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ReportRadiusServerList
  - ReportRadiusServerListA
  - ReportRadiusServerListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windows.Networking.dll
 api_name:
  - SetSocketMediaStreamingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

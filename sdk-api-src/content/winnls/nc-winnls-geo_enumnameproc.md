@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - Geo_EnumNameProc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

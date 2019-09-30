@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_Enabled
  - IDynamicRenderer.get_Enabled
  - IDynamicRenderer.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESOURCE_EXIT_STATE
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_EXIT_STATE
 req.redist: 

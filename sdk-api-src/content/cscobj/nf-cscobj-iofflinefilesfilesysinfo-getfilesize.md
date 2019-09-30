@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesFileSysInfo.GetFileSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

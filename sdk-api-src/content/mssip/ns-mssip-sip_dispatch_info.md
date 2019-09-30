@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - SIP_DISPATCH_INFO
-product: Windows
 targetos: Windows
 req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
 req.redist: 

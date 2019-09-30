@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.DiscountSend
  - IFaxDoc.get_DiscountSend
  - IFaxDoc.put_DiscountSend
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dmemmgr.h
 api_name:
  - VMEMHEAP
-product: Windows
 targetos: Windows
 req.typenames: VMEMHEAP
 req.redist: 

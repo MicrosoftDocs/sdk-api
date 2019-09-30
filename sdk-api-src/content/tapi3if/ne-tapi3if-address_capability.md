@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - ADDRESS_CAPABILITY
-product: Windows
 targetos: Windows
 req.typenames: ADDRESS_CAPABILITY
 req.redist: 

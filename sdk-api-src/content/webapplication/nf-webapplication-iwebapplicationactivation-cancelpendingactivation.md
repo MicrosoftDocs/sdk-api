@@ -39,7 +39,6 @@ api_location:
  - WWAHost.exe.dll
 api_name:
  - IWebApplicationActivation.CancelPendingActivation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

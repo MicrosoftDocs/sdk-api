@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_ScheduleTime
  - IFaxDocument.get_ScheduleTime
  - IFaxDocument.put_ScheduleTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

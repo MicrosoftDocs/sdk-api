@@ -42,7 +42,6 @@ api_name:
 - CM_Get_Device_ID_List
 - CM_Get_Device_ID_ListA
 - CM_Get_Device_ID_ListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

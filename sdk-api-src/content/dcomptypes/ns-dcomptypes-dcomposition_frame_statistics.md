@@ -38,7 +38,6 @@ api_location:
  - DcompTypes.h
 api_name:
  - DCOMPOSITION_FRAME_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 req.redist: 

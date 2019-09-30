@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkShiftKeyModifierFlags
-product: Windows
 targetos: Windows
 req.typenames: InkShiftKeyModifierFlags
 req.redist: 

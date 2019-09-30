@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PROPDESC_CONDITION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PROPDESC_CONDITION_TYPE
 req.redist: 

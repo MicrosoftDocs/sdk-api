@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - CALLTYPE
-product: Windows
 targetos: Windows
 req.typenames: CALLTYPE
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerGuide.put_DrawnBox
  - InkRecognizerGuide.get_DrawnBox
  - InkRecognizerGuide.put_DrawnBox
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

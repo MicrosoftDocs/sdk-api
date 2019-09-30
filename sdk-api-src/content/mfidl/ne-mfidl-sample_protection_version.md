@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - SAMPLE_PROTECTION_VERSION
-product: Windows
 targetos: Windows
 req.typenames: SAMPLE_PROTECTION_VERSION
 req.redist: 

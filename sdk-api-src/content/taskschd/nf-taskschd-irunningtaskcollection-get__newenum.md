@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRunningTaskCollection._NewEnum
  - IRunningTaskCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - FaxRoute.h
 api_name:
 - FaxRouteDeleteFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

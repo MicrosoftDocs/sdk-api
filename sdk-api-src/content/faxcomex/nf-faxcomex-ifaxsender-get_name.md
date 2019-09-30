@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_Name
  - IFaxSender.get_Name
  - IFaxSender.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

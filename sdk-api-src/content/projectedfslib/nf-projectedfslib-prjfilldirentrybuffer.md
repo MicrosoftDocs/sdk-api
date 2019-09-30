@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PrjFillDirEntryBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

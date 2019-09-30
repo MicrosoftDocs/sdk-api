@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDockPattern.CurrentDockPosition
  - IUIAutomationDockPattern.get_CurrentDockPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

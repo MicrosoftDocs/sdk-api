@@ -41,7 +41,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - ScriptGetFontScriptTags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP

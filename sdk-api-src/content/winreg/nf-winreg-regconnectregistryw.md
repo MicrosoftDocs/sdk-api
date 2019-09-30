@@ -43,7 +43,6 @@ api_name:
  - RegConnectRegistry
  - RegConnectRegistryA
  - RegConnectRegistryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

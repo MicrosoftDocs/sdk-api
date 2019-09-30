@@ -40,7 +40,6 @@ api_name:
  - MsiPreviewDialog
  - MsiPreviewDialogA
  - MsiPreviewDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTCKEYDOWN
-product: Windows
 targetos: Windows
 req.typenames: NMTCKEYDOWN
 req.redist: 

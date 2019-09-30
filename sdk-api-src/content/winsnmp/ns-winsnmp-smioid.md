@@ -38,7 +38,6 @@ api_location:
  - Winsnmp.h
 api_name:
  - smiOID
-product: Windows
 targetos: Windows
 req.typenames: smiOID, *smiLPOID
 req.redist: 

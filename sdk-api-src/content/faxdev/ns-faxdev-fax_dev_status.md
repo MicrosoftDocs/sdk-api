@@ -38,7 +38,6 @@ api_location:
  - FaxDev.h
 api_name:
  - FAX_DEV_STATUS
-product: Windows
 targetos: Windows
 req.typenames: FAX_DEV_STATUS, *PFAX_DEV_STATUS
 req.redist: 

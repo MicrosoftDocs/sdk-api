@@ -38,7 +38,6 @@ api_location:
 - BluetoothAPIs.h
 api_name:
 - SDP_STRING_TYPE_DATA
-product: Windows
 targetos: Windows
 req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
 req.redist: 

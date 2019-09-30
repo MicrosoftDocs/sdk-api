@@ -38,7 +38,6 @@ api_location:
  - msclus.h
 api_name:
  - CLUSCTL_GROUPSET_CODES
-product: Windows
 targetos: Windows
 req.typenames: CLUSCTL_GROUPSET_CODES
 req.redist: 

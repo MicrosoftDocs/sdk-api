@@ -45,7 +45,6 @@ api_name:
  - SetCurrentDirectory
  - SetCurrentDirectoryA
  - SetCurrentDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

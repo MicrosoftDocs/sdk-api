@@ -38,7 +38,6 @@ api_location:
  - Mspaddr.h
 api_name:
  - CMSPAddress.PostEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

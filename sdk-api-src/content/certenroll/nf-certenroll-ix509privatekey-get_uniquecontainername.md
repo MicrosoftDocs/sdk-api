@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509PrivateKey.UniqueContainerName
  - IX509PrivateKey.get_UniqueContainerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

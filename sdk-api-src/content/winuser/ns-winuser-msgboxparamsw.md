@@ -40,7 +40,6 @@ api_name:
  - MSGBOXPARAMS
  - MSGBOXPARAMSA
  - MSGBOXPARAMSW
-product: Windows
 targetos: Windows
 req.typenames: MSGBOXPARAMSW, *PMSGBOXPARAMSW, *LPMSGBOXPARAMSW
 req.redist: 

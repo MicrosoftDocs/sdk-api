@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_DOSP_OPTIONS0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_DOSP_OPTIONS0
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyArchived.Archived
  - ICertPropertyArchived.get_Archived
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IShellItem2.GetPropertyStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

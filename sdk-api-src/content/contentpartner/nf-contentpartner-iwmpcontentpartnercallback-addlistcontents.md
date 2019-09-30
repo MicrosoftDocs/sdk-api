@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - IWMPContentPartnerCallback.AddListContents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

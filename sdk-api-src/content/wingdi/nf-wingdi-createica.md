@@ -44,7 +44,6 @@ api_name:
  - CreateIC
  - CreateICA
  - CreateICW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

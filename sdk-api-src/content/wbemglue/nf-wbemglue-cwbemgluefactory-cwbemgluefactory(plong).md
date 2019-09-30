@@ -41,7 +41,6 @@ api_name:
  - CWbemGlueFactory.CWbemGlueFactory
  - ??0CWbemGlueFactory@@QAE@XZ
  - ??0CWbemGlueFactory@@QEAA@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

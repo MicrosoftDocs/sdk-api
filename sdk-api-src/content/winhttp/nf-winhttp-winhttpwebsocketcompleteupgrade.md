@@ -38,7 +38,6 @@ api_location:
  - Winhttp.dll
 api_name:
  - WinHttpWebSocketCompleteUpgrade
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

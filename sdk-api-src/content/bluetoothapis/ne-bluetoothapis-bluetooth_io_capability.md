@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_IO_CAPABILITY
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_IO_CAPABILITY
 req.redist: 

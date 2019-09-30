@@ -40,7 +40,6 @@ api_name:
 - NMLVFINDITEM
 - NMLVFINDITEMA
 - NMLVFINDITEMW
-product: Windows
 targetos: Windows
 req.typenames: NMLVFINDITEMA, *LPNMLVFINDITEMA
 req.redist: 

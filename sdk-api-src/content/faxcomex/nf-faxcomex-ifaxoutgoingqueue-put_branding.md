@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingQueue.Branding
  - IFaxOutgoingQueue.get_Branding
  - IFaxOutgoingQueue.put_Branding
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

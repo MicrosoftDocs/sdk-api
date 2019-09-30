@@ -38,7 +38,6 @@ api_location:
  - Ndfapi.dll
 api_name:
  - NdfCreateConnectivityIncident
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

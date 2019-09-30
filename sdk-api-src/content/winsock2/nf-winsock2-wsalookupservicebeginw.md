@@ -40,7 +40,6 @@ api_name:
 - WSALookupServiceBegin
 - WSALookupServiceBeginA
 - WSALookupServiceBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

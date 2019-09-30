@@ -38,7 +38,6 @@ api_location:
  - Cfgmgr32.dll
 api_name:
  - CM_Free_Resource_Conflict_Handle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

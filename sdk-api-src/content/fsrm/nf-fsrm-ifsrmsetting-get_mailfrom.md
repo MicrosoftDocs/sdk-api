@@ -41,7 +41,6 @@ api_name:
  - IFsrmSetting.get_MailFrom
  - IFsrmSetting.put_MailFrom
  - FsrmSetting.MailFrom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

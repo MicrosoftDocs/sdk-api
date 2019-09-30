@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_GROUP_ENUM_ITEM
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_GROUP_ENUM_ITEM, *PCLUSTER_GROUP_ENUM_ITEM
 req.redist: 

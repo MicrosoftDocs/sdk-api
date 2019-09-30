@@ -47,7 +47,6 @@ api_name:
  - lstrcmp
  - lstrcmpA
  - lstrcmpW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

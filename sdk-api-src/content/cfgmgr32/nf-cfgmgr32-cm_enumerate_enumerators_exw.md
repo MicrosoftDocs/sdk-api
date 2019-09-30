@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Enumerate_Enumerators_Ex
  - CM_Enumerate_Enumerators_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

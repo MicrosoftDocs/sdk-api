@@ -38,7 +38,6 @@ api_location:
  - dpa_dsa.h
 api_name:
  - DPASTREAMINFO
-product: Windows
 targetos: Windows
 req.typenames: DPASTREAMINFO
 req.redist: 

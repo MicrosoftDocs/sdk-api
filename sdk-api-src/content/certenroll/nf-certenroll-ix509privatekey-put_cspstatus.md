@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.CspStatus
  - IX509PrivateKey.get_CspStatus
  - IX509PrivateKey.put_CspStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

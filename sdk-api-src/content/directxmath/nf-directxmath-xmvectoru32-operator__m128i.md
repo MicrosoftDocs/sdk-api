@@ -10,7 +10,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "directxmath/XMVECTORU32::operator __m128i"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -42,7 +42,6 @@ api_name:
 - Shell_NotifyIcon
 - Shell_NotifyIconA
 - Shell_NotifyIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

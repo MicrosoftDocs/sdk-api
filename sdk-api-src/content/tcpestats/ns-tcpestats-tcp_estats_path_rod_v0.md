@@ -38,7 +38,6 @@ api_location:
  - Tcpestats.h
 api_name:
  - TCP_ESTATS_PATH_ROD_v0
-product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_PATH_ROD_v0, *PTCP_ESTATS_PATH_ROD_v0
 req.redist: 

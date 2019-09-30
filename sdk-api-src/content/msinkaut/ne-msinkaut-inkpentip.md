@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkPenTip
-product: Windows
 targetos: Windows
 req.typenames: InkPenTip
 req.redist: 

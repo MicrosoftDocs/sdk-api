@@ -40,7 +40,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - waveOutPause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

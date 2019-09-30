@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_USAGE_MATCH
-product: Windows
 targetos: Windows
 req.typenames: CTL_USAGE_MATCH, *PCTL_USAGE_MATCH
 req.redist: 

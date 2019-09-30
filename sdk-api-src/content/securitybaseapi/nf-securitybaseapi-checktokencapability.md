@@ -42,7 +42,6 @@ api_location:
 - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
 - CheckTokenCapability
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

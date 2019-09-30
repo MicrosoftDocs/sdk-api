@@ -40,7 +40,6 @@ api_name:
  - lineGetCallInfo
  - lineGetCallInfoA
  - lineGetCallInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -12,7 +12,6 @@ ms.topic: method
 f1_keywords: 
  - "bits10_3/IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

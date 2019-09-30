@@ -38,7 +38,6 @@ api_location:
 - ntddkbd.h
 api_name:
 - KEYBOARD_TYPEMATIC_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_TYPEMATIC_PARAMETERS, *PKEYBOARD_TYPEMATIC_PARAMETERS
 req.redist: 

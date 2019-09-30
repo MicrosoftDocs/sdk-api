@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_THREAD_EX_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_THREAD_EX_CALLBACK, *PMINIDUMP_THREAD_EX_CALLBACK
 req.redist: DbgHelp.dll 5.1 or later

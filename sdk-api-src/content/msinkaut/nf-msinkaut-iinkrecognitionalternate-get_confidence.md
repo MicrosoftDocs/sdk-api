@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.Confidence
  - IInkRecognitionAlternate.get_Confidence
  - IInkRecognitionAlternate.get_Confidence
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

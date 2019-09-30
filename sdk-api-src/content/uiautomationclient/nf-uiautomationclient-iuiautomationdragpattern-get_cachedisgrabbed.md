@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDragPattern.CachedIsGrabbed
  - IUIAutomationDragPattern.get_CachedIsGrabbed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

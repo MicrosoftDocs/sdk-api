@@ -40,7 +40,6 @@ api_name:
  - ldap_start_tls_s
  - ldap_start_tls_sA
  - ldap_start_tls_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

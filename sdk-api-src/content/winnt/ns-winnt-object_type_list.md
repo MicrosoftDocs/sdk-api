@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - OBJECT_TYPE_LIST
-product: Windows
 targetos: Windows
 req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - IWMPContentPartnerCallback.VerifyPermissionComplete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CachedTarget
  - IUIAutomationAnnotationPattern.get_CachedTarget
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

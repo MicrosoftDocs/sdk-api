@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISdoMachine.GetDomainType
  - SdoMachine.GetDomainType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

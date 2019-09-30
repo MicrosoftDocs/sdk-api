@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellCheckProviderFactory.SupportedLanguages
  - ISpellCheckProviderFactory.get_SupportedLanguages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

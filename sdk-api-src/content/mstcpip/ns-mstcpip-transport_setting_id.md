@@ -38,7 +38,6 @@ api_location:
  - transportsettingcommon.h
 api_name:
  - TRANSPORT_SETTING_ID
-product: Windows
 targetos: Windows
 req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 req.redist: 

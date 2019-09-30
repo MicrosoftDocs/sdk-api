@@ -38,7 +38,6 @@ api_location:
  - Mobsync.h
 api_name:
  - SYNCMGRREGISTERFLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRREGISTERFLAGS
 req.redist: 

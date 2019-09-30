@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETFLIPSTATUSDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA'
 req.redist: 

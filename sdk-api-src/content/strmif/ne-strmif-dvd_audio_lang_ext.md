@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_AUDIO_LANG_EXT
-product: Windows
 targetos: Windows
 req.typenames: DVD_AUDIO_LANG_EXT
 req.redist: 

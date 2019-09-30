@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - ITDirectoryObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
 api_name:
  - SHRegGetIntW
  - SHRegGetIntW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

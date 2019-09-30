@@ -38,7 +38,6 @@ api_location:
  - windows.media.core.interop.h
 api_name:
  - IVideoFrameNativeFactory.CreateFromMFSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

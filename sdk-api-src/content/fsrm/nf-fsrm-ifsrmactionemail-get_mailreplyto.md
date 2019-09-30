@@ -43,7 +43,6 @@ api_name:
  - IFsrmActionEmail.MailReplyTo
  - IFsrmActionEmail.get_MailReplyTo
  - IFsrmActionEmail.put_MailReplyTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

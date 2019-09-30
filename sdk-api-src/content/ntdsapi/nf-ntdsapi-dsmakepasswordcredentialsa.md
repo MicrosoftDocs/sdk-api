@@ -43,7 +43,6 @@ api_name:
  - DsMakePasswordCredentials
  - DsMakePasswordCredentialsA
  - DsMakePasswordCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

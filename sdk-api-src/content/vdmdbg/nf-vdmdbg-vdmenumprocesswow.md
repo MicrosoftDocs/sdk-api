@@ -38,7 +38,6 @@ api_location:
  - VdmDbg.dll
 api_name:
  - VDMEnumProcessWOW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

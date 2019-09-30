@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Extensions._NewEnum
  - IX509Extensions.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

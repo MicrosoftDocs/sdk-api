@@ -40,7 +40,6 @@ api_name:
 - NMDATETIMEFORMAT
 - NMDATETIMEFORMATA
 - NMDATETIMEFORMATW
-product: Windows
 targetos: Windows
 req.typenames: NMDATETIMEFORMATA, *LPNMDATETIMEFORMATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Rpcndr.h
 api_name:
 - MIDL_STUB_MESSAGE
-product: Windows
 targetos: Windows
 req.typenames: MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE
 req.redist: 

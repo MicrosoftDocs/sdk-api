@@ -38,7 +38,6 @@ api_location:
 - eaptypes.h
 api_name:
 - EAP_CONFIG_INPUT_FIELD_DATA
-product: Windows
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_DATA, *PEAP_CONFIG_INPUT_FIELD_DATA
 req.redist: 

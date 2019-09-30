@@ -38,7 +38,6 @@ api_location:
  - ntdll.dll
 api_name:
  - NtRenameKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

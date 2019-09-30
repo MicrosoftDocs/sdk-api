@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - TRIGGER_TYPE_UNION
-product: Windows
 targetos: Windows
 req.typenames: TRIGGER_TYPE_UNION
 req.redist: 

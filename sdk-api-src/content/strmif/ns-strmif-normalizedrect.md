@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - NORMALIZEDRECT
-product: Windows
 targetos: Windows
 req.typenames: NORMALIZEDRECT, *PNORMALIZEDRECT
 req.redist: 

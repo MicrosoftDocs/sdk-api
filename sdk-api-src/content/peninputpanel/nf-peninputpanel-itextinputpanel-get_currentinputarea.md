@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.CurrentInputArea
  - ITextInputPanel.get_CurrentInputArea
  - ITextInputPanel.get_CurrentInputArea
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

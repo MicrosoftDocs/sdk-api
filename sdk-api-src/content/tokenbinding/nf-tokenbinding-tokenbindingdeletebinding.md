@@ -38,7 +38,6 @@ api_location:
  - tokenbinding.dll
 api_name:
  - TokenBindingDeleteBinding
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

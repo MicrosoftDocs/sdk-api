@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVFOOTERITEM
-product: Windows
 targetos: Windows
 req.typenames: LVFOOTERITEM, *LPLVFOOTERITEM
 req.redist: 

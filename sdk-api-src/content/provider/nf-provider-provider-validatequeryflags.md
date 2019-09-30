@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidateQueryFlags
  - ?ValidateQueryFlags@Provider@@MAEJJ@Z
  - ?ValidateQueryFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

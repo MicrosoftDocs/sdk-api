@@ -41,7 +41,6 @@ api_name:
  - IWorkspace2.StartRemoteApplication
  - IWorkspace3.StartRemoteApplication
  - Workspace.StartRemoteApplication
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

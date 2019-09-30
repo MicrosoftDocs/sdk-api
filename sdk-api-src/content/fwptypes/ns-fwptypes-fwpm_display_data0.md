@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWPM_DISPLAY_DATA0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_DISPLAY_DATA0
 req.redist: 

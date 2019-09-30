@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateDownloadContentCollection.Count
  - IUpdateDownloadContentCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

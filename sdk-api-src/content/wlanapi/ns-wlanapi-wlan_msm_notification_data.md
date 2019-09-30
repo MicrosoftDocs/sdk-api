@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_MSM_NOTIFICATION_DATA
-product: Windows
 targetos: Windows
 req.typenames: WLAN_MSM_NOTIFICATION_DATA, *PWLAN_MSM_NOTIFICATION_DATA
 req.redist: 

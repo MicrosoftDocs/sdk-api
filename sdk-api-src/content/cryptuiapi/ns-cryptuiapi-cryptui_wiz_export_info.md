@@ -38,7 +38,6 @@ api_location:
 - Cryptuiapi.h
 api_name:
 - CRYPTUI_WIZ_EXPORT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_EXPORT_INFO, *PCRYPTUI_WIZ_EXPORT_INFO
 req.redist: 

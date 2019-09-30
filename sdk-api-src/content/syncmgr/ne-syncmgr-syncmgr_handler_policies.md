@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_HANDLER_POLICIES
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_HANDLER_POLICIES
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - xamlpalwp.dll
 api_name:
  - GetThemeAppProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

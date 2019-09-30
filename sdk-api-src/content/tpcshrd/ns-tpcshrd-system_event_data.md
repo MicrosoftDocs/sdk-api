@@ -38,7 +38,6 @@ api_location:
  - tpcshrd.h
 api_name:
  - SYSTEM_EVENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_EVENT_DATA
 req.redist: 

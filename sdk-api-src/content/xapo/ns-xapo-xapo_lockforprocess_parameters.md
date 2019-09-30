@@ -38,7 +38,6 @@ api_location:
  - xapo.h
 api_name:
  - XAPO_LOCKFORPROCESS_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: XAPO_LOCKFORPROCESS_PARAMETERS
 req.redist: 

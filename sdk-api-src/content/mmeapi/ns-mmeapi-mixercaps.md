@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIXERCAPS
-product: Windows
 targetos: Windows
 req.typenames: MIXERCAPS, *PMIXERCAPS, *LPMIXERCAPS
 req.redist: 

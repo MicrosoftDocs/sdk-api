@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFWorkQueueServicesEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

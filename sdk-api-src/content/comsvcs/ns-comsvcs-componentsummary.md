@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ComponentSummary
-product: Windows
 targetos: Windows
 req.typenames: ComponentSummary
 req.redist: 

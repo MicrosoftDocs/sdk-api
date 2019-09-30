@@ -41,7 +41,6 @@ api_location:
  - Msdmo.dll
 api_name:
  - IMediaObjectImpl.InputTypeSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_CAStoreFlags
  - ICEnroll.put_CAStoreFlags
  - CEnroll.CAStoreFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmPropertyDefinition2.PropertyDefinitionFlags
 - IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

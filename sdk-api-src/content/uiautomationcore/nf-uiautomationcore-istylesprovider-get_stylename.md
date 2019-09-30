@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IStylesProvider.StyleName
  - IStylesProvider.get_StyleName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

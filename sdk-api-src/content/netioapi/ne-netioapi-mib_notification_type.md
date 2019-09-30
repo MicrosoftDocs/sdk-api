@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_NOTIFICATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 req.redist: 

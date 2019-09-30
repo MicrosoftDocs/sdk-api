@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.freeRequestInfo
  - ICEnroll.freeRequestInfo
  - CEnroll.freeRequestInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

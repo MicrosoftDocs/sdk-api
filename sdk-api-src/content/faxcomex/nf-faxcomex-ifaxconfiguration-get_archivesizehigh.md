@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxConfiguration.ArchiveSizeHigh
  - IFaxConfiguration.get_ArchiveSizeHigh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_SUBNET_ELEMENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_TYPE, *LPDHCP_SUBNET_ELEMENT_TYPE
 req.redist: 

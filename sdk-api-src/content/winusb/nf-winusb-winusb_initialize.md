@@ -38,7 +38,6 @@ api_location:
  - Winusb.dll
 api_name:
  - WinUsb_Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

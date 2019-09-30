@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_EapPrfInfo
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
 req.redist: 

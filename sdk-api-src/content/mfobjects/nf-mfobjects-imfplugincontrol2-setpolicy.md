@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFPluginControl2.SetPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

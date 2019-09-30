@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_TIME_ZONE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: WTS_TIME_ZONE_INFORMATION, *PWTS_TIME_ZONE_INFORMATION
 req.redist: 

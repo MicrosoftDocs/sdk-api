@@ -38,7 +38,6 @@ api_location:
  - tspubplugincom.h
 api_name:
  - ItsPubPlugin.ResolveResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

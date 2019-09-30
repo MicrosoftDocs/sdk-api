@@ -43,7 +43,6 @@ api_name:
  - CreateEnhMetaFile
  - CreateEnhMetaFileA
  - CreateEnhMetaFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

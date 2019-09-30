@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SECPKG_SUPPLEMENTAL_CRED
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_SUPPLEMENTAL_CRED, *PSECPKG_SUPPLEMENTAL_CRED
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - XpsPrint.h
 api_name:
  - IXpsPrintJob.GetJobStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

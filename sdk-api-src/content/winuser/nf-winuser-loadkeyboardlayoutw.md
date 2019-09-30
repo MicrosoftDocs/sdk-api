@@ -40,7 +40,6 @@ api_name:
  - LoadKeyboardLayout
  - LoadKeyboardLayoutA
  - LoadKeyboardLayoutW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

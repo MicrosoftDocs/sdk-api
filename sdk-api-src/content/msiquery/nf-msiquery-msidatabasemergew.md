@@ -40,7 +40,6 @@ api_name:
  - MsiDatabaseMerge
  - MsiDatabaseMergeA
  - MsiDatabaseMergeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

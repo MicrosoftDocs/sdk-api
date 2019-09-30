@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - LOG_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: LOG_LEVEL, *PLOG_LEVEL
 req.redist: 

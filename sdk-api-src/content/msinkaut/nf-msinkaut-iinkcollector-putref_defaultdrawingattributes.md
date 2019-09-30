@@ -48,7 +48,6 @@ api_name:
  - IInkCollector.put_DefaultDrawingAttributes
  - InkCollector.get_DefaultDrawingAttributes
  - InkCollector.put_DefaultDrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

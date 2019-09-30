@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.CreateDocument
  - IFaxServer.CreateDocument
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

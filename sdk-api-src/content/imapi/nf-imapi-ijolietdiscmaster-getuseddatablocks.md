@@ -38,7 +38,6 @@ api_location:
  - Actxprxy.dll
 api_name:
  - IJolietDiscMaster.GetUsedDataBlocks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, *PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 req.redist: 

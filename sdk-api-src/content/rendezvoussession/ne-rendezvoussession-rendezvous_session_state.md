@@ -38,7 +38,6 @@ api_location:
  - RendezvousSession.h
 api_name:
  - RENDEZVOUS_SESSION_STATE
-product: Windows
 targetos: Windows
 req.typenames: RENDEZVOUS_SESSION_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d2d1.h
 api_name:
  - D2D1_DRAWING_STATE_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: D2D1_DRAWING_STATE_DESCRIPTION
 req.redist: 
