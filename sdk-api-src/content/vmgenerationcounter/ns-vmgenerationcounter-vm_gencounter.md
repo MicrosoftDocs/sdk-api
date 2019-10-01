@@ -38,7 +38,6 @@ api_location:
  - Vmgenerationcounter.h
 api_name:
  - VM_GENCOUNTER
-product: Windows
 targetos: Windows
 req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
 req.redist: 

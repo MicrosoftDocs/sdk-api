@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedAriaRole
  - IUIAutomationElement.get_CachedAriaRole
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

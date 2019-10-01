@@ -38,7 +38,6 @@ api_location:
  - Lz32.dll
 api_name:
  - LZSeek
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

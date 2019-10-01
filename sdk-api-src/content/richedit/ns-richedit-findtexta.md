@@ -40,7 +40,6 @@ api_name:
  - FINDTEXT
  - FINDTEXTA
  - FINDTEXTW
-product: Windows
 targetos: Windows
 req.typenames: FINDTEXTA
 req.redist: 

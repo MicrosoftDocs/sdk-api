@@ -40,7 +40,6 @@ api_name:
  - MsiNotifySidChange
  - MsiNotifySidChangeA
  - MsiNotifySidChangeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

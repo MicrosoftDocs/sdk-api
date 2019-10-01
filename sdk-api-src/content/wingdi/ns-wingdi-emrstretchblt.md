@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSTRETCHBLT
-product: Windows
 targetos: Windows
 req.typenames: EMRSTRETCHBLT, *PEMRSTRETCHBLT
 req.redist: 

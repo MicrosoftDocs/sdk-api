@@ -38,7 +38,6 @@ api_location:
  - d3d10_1.h
 api_name:
  - ID3D10ShaderResourceView1.GetDesc1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

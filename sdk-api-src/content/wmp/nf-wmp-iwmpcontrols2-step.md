@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPControls2.step
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - STAT_CHUNK
-product: Windows
 targetos: Windows
 req.typenames: STAT_CHUNK
 req.redist: 

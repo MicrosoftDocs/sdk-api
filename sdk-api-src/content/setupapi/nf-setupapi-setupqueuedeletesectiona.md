@@ -40,7 +40,6 @@ api_name:
  - SetupQueueDeleteSection
  - SetupQueueDeleteSectionA
  - SetupQueueDeleteSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextHost.TxScreenToClient
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

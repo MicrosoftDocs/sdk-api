@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.DefaultToMainPrinter
  - IADsTSUserEx.get_DefaultToMainPrinter
  - IADsTSUserEx.put_DefaultToMainPrinter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITMediaPlayback.get_PlayList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

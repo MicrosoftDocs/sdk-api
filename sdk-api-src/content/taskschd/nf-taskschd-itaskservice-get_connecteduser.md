@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskService.ConnectedUser
  - ITaskService.get_ConnectedUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

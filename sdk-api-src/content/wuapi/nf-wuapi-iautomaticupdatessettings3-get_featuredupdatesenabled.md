@@ -40,7 +40,6 @@ api_name:
  - IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled
  - IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
  - IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

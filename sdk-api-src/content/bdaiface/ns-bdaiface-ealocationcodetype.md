@@ -38,7 +38,6 @@ api_location:
  - bdaiface_enums.h
 api_name:
  - EALocationCodeType
-product: Windows
 targetos: Windows
 req.typenames: EALocationCodeType
 req.redist: 

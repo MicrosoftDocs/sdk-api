@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - INKMETRIC
-product: Windows
 targetos: Windows
 req.typenames: INKMETRIC, *PINKMETRIC
 req.redist: 

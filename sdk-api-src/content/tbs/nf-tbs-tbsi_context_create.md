@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsi_Context_Create
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

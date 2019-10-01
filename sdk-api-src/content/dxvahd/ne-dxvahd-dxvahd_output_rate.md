@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_OUTPUT_RATE
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_OUTPUT_RATE
 req.redist: 

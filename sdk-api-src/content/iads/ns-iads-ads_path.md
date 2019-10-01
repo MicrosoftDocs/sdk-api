@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_PATH
-product: Windows
 targetos: Windows
 req.typenames: ADS_PATH, *PADS_PATH
 req.redist: 

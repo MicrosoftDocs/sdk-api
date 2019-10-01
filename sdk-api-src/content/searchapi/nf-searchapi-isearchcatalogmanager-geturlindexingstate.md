@@ -38,7 +38,6 @@ api_location:
  - searchapi.h
 api_name:
  - ISearchCatalogManager.GetURLIndexingState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

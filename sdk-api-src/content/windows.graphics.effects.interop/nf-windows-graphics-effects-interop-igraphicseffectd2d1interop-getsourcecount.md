@@ -38,7 +38,6 @@ api_location:
  - windows.graphics.effects.interop.h
 api_name:
  - IGraphicsEffectD2D1Interop.GetSourceCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

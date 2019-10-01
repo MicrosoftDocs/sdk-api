@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - CSV_NAMESPACE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
 req.redist: 

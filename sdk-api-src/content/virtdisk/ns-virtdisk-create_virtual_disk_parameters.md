@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - CREATE_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS
 req.redist: 

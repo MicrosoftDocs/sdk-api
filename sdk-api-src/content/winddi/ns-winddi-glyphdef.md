@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - GLYPHDEF
-product: Windows
 targetos: Windows
 req.typenames: GLYPHDEF
 req.redist: 

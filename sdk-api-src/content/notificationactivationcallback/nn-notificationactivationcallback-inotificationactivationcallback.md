@@ -38,7 +38,6 @@ api_location:
  - NotificationActivationCallback.h
 api_name:
  - INotificationActivationCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

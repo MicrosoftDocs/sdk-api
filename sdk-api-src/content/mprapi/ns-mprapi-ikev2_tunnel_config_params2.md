@@ -38,7 +38,6 @@ api_location:
  - mprapi.h
 api_name:
  - IKEV2_TUNNEL_CONFIG_PARAMS2
-product: Windows
 targetos: Windows
 req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS2, *PIKEV2_TUNNEL_CONFIG_PARAMS2
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RdpEncomAPI.tlb
 api_name:
  - RDPSRAPI_MOUSE_BUTTON_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_MOUSE_BUTTON_TYPE
 req.redist: 

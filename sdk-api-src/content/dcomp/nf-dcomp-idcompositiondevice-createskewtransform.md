@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionDevice.CreateSkewTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

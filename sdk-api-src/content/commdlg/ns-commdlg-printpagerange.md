@@ -38,7 +38,6 @@ api_location:
  - Commdlg.h
 api_name:
  - PRINTPAGERANGE
-product: Windows
 targetos: Windows
 req.typenames: PRINTPAGERANGE
 req.redist: 

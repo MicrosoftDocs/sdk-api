@@ -41,7 +41,6 @@ api_name:
  - CHString.Right
  - ?Right@CHString@@QBE?AV1@H@Z
  - ?Right@CHString@@QEBA?AV1@H@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

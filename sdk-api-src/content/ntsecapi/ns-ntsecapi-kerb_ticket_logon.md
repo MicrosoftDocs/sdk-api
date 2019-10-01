@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_TICKET_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_LOGON, *PKERB_TICKET_LOGON
 req.redist: 

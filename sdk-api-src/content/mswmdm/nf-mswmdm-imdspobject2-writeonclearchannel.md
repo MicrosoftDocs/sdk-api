@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPObject2.WriteOnClearChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

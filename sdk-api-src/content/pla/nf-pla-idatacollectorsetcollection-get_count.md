@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSetCollection.Count
  - IDataCollectorSetCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

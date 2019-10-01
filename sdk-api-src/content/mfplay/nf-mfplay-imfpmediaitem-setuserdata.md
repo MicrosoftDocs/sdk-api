@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - IMFPMediaItem.SetUserData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

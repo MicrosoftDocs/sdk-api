@@ -40,7 +40,6 @@ api_name:
  - DlgDirList
  - DlgDirListA
  - DlgDirListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

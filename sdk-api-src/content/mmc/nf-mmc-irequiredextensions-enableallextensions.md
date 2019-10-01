@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - IRequiredExtensions.EnableAllExtensions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

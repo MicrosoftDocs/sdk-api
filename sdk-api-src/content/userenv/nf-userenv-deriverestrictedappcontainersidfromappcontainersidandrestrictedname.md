@@ -38,7 +38,6 @@ api_location:
  - userenv.dll
 api_name:
  - DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

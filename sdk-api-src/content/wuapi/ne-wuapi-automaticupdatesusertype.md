@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutomaticUpdatesUserType
-product: Windows
 targetos: Windows
 req.typenames: AutomaticUpdatesUserType
 req.redist: 

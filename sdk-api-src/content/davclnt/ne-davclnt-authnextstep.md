@@ -38,7 +38,6 @@ api_location:
  - davclnt.h
 api_name:
  - AUTHNEXTSTEP
-product: Windows
 targetos: Windows
 req.typenames: AUTHNEXTSTEP
 req.redist: 

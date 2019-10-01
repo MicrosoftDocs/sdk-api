@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - RSVP_SESSION
-product: Windows
 targetos: Windows
 req.typenames: RSVP_SESSION
 req.redist: 

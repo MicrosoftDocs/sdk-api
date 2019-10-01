@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CHPtrArray.GetAt
  - ?GetAt@CHPtrArray@@QBEPAXH@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

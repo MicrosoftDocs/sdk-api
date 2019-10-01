@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CachedVerticallyScrollable
  - IUIAutomationScrollPattern.get_CachedVerticallyScrollable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

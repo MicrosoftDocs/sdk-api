@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_MaxLength
  - InkEdit.get_MaxLength
  - InkEdit.put_MaxLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

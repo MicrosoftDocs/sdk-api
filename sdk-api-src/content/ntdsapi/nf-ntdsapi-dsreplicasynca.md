@@ -40,7 +40,6 @@ api_name:
  - DsReplicaSync
  - DsReplicaSyncA
  - DsReplicaSyncW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

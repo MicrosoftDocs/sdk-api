@@ -38,7 +38,6 @@ api_location:
  - XblIdpAuthManager.h
 api_name:
  - IXblIdpAuthManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

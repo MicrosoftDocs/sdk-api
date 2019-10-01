@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.TransactionId
  - IX509CertificateRequestCmc.get_TransactionId
  - IX509CertificateRequestCmc.put_TransactionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

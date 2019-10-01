@@ -38,7 +38,6 @@ api_location:
  - Fwpmu.h
 api_name:
  - IPSEC_KEY_MANAGER_DICTATE_KEY0
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

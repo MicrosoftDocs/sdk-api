@@ -38,7 +38,6 @@ api_location:
 - Psapi.h
 api_name:
 - PSAPI_WS_WATCH_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
 req.redist: 

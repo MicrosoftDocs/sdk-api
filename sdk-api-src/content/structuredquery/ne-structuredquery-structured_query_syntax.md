@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - STRUCTURED_QUERY_SYNTAX
-product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_SYNTAX
 req.redist: 

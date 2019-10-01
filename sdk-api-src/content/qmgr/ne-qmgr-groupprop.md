@@ -38,7 +38,6 @@ api_location:
  - Qmgr.h
 api_name:
  - GROUPPROP
-product: Windows
 targetos: Windows
 req.typenames: GROUPPROP
 req.redist: 

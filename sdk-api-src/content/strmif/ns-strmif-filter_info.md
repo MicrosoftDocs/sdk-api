@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - FILTER_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILTER_INFO
 req.redist: 

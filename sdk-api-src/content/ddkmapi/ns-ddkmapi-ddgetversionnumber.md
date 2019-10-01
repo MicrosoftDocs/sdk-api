@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETVERSIONNUMBER
-product: Windows
 targetos: Windows
 req.typenames: DDGETVERSIONNUMBER, *LPDDGETVERSIONNUMBER
 req.redist: 

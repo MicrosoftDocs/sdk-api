@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_TAGGED_CERT_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_CERT_REQUEST, *PCMC_TAGGED_CERT_REQUEST
 req.redist: 

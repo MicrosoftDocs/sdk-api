@@ -38,7 +38,6 @@ api_location:
  - slpublic.h
 api_name:
  - SLLICENSINGSTATUS
-product: Windows
 targetos: Windows
 req.typenames: SLLICENSINGSTATUS
 req.redist: 

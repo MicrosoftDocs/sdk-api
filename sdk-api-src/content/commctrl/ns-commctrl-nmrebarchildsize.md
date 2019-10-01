@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMREBARCHILDSIZE
-product: Windows
 targetos: Windows
 req.typenames: NMREBARCHILDSIZE, *LPNMREBARCHILDSIZE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_OID_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_OID_INFO, *PCRYPT_OID_INFO
 req.redist: 

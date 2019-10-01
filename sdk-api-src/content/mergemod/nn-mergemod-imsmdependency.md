@@ -41,7 +41,6 @@ api_name:
  - IMsmDependency.get_Module
  - IMsmDependency.get_Language
  - IMsmDependency.get_Version
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

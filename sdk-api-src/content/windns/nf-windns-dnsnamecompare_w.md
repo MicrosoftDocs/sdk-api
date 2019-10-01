@@ -41,7 +41,6 @@ api_name:
  - DnsNameCompare_A
  - DnsNameCompare_W
  - DnsNameCompare_UTF8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

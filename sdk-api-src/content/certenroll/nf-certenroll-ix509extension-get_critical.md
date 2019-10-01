@@ -40,7 +40,6 @@ api_name:
  - IX509Extension.Critical
  - IX509Extension.get_Critical
  - IX509Extension.put_Critical
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

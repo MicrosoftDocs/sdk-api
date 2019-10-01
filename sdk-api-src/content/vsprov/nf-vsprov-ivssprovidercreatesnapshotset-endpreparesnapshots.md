@@ -38,7 +38,6 @@ api_location:
  - VsProv.h
 api_name:
  - IVssProviderCreateSnapshotSet.EndPrepareSnapshots
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

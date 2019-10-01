@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDFLIPVIDEOPORT
-product: Windows
 targetos: Windows
 req.typenames: DDFLIPVIDEOPORT, *LPDDFLIPVIDEOPORT
 req.redist: 

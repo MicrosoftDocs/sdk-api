@@ -38,7 +38,6 @@ api_location:
 - Shellapi.h
 api_name:
 - SHNAMEMAPPING
-product: Windows
 targetos: Windows
 req.typenames: SHNAMEMAPPINGW, *LPSHNAMEMAPPINGW
 req.redist: 

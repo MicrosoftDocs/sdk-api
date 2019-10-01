@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_KaraokeAttributes
-product: Windows
 targetos: Windows
 req.typenames: DVD_KaraokeAttributes
 req.redist: 

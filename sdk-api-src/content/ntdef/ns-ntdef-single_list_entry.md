@@ -38,7 +38,6 @@ api_location:
  - ntdef.h
 api_name:
  - SINGLE_LIST_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY
 req.redist: 

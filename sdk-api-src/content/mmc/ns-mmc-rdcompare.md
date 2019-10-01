@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - RDCOMPARE
-product: Windows
 targetos: Windows
 req.typenames: RDCOMPARE
 req.redist: 

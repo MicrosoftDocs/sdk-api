@@ -38,7 +38,6 @@ api_location:
  - clusapi.h
 api_name:
  - PLACEMENT_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: PLACEMENT_OPTIONS
 req.redist: 

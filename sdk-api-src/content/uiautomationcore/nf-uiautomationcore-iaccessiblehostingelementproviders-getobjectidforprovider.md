@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCore.h
 api_name:
  - IAccessibleHostingElementProviders.GetObjectIdForProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

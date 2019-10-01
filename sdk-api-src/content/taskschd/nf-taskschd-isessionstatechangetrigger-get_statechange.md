@@ -40,7 +40,6 @@ api_name:
  - ISessionStateChangeTrigger.StateChange
  - ISessionStateChangeTrigger.get_StateChange
  - ISessionStateChangeTrigger.put_StateChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

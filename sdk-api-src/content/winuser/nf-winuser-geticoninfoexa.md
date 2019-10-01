@@ -40,7 +40,6 @@ api_name:
 - GetIconInfoEx
 - GetIconInfoExA
 - GetIconInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

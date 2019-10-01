@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POL_COND_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IStylesProvider.Shape
  - IStylesProvider.get_Shape
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

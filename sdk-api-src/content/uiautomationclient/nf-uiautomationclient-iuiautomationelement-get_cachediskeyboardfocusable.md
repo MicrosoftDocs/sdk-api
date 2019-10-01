@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedIsKeyboardFocusable
  - IUIAutomationElement.get_CachedIsKeyboardFocusable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - UMS_CREATE_THREAD_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
 req.redist: 

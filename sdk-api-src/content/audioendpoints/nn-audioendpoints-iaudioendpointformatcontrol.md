@@ -38,7 +38,6 @@ api_location:
  - AudioEndpoints.h
 api_name:
  - IAudioEndpointFormatControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

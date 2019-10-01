@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithm.LongName
  - ICspAlgorithm.get_LongName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

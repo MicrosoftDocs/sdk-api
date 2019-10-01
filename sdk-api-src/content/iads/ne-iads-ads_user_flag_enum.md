@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_USER_FLAG_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_USER_FLAG_ENUM
 req.redist: 

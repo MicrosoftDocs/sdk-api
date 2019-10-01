@@ -38,7 +38,6 @@ api_location:
  - BitsPrx4.dll
 api_name:
  - IBackgroundCopyJobHttpOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

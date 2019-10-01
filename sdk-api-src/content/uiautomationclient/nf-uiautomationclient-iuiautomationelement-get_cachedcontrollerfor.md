@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedControllerFor
  - IUIAutomationElement.get_CachedControllerFor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

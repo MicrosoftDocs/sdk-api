@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_FEATURE_DATA_FORMAT_INFO
-product: Windows
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_FORMAT_INFO
 req.redist: 

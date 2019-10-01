@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_DEVICE_RECEIVE_MODE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_DEVICE_RECEIVE_MODE_ENUM
 req.redist: 

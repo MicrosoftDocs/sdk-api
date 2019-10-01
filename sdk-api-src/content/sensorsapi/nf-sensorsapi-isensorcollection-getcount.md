@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorCollection.GetCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

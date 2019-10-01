@@ -38,7 +38,6 @@ api_location:
 - Routprot.h
 api_name:
 - UPDATE_COMPLETE_MESSAGE
-product: Windows
 targetos: Windows
 req.typenames: UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE
 req.redist: 

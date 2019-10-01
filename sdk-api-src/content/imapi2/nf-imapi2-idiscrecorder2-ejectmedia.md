@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IDiscRecorder2.EjectMedia
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

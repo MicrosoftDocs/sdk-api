@@ -38,7 +38,6 @@ api_location:
  - VsMgmt.h
 api_name:
  - IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

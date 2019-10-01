@@ -40,7 +40,6 @@ api_name:
  - IAzClientContext.UserDisplay
  - IAzClientContext.get_UserDisplay
  - AzClientContext.UserDisplay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

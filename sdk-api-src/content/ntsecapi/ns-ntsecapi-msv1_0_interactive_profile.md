@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_INTERACTIVE_PROFILE
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_INTERACTIVE_PROFILE, *PMSV1_0_INTERACTIVE_PROFILE
 req.redist: 

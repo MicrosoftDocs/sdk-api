@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelInks
  - InkEdit.get_SelInks
  - InkEdit.put_SelInks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

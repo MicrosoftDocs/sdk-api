@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_UPDATENONLOCALHEAPDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_UPDATENONLOCALHEAPDATA, DD_UPDATENONLOCALHEAPDATA'
 req.redist: 

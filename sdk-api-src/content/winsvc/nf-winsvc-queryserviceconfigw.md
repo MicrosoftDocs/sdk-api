@@ -46,7 +46,6 @@ api_name:
 - QueryServiceConfig
 - QueryServiceConfigA
 - QueryServiceConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

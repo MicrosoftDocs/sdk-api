@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - WELL_KNOWN_SID_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WELL_KNOWN_SID_TYPE
 req.redist: 

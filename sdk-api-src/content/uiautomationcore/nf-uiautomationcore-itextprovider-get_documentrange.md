@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITextProvider.DocumentRange
  - ITextProvider.get_DocumentRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

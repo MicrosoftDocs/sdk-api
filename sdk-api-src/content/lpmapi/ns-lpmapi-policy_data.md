@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - POLICY_DATA
-product: Windows
 targetos: Windows
 req.typenames: POLICY_DATA
 req.redist: 

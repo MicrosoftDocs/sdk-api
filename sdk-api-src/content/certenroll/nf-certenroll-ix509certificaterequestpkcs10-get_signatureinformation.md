@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10.SignatureInformation
  - IX509CertificateRequestPkcs10.get_SignatureInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

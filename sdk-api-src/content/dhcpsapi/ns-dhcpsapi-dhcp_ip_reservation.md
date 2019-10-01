@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_IP_RESERVATION
-product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION
 req.redist: 

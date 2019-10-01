@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.BoundaryLeft
  - IInertiaProcessor.get_BoundaryLeft
  - IInertiaProcessor.put_BoundaryLeft
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

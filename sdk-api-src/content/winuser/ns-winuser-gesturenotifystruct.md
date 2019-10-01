@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - GESTURENOTIFYSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: GESTURENOTIFYSTRUCT, *PGESTURENOTIFYSTRUCT
 req.redist: 

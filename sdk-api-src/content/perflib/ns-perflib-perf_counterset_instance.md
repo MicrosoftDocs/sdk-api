@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
-product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
 req.redist: 

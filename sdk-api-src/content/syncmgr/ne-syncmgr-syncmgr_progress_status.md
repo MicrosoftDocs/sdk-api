@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_PROGRESS_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_PROGRESS_STATUS
 req.redist: 

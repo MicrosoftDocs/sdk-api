@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.DesiredExpansionDeceleration
  - IInertiaProcessor.get_DesiredExpansionDeceleration
  - IInertiaProcessor.put_DesiredExpansionDeceleration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

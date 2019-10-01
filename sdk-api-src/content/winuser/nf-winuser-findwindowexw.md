@@ -49,7 +49,6 @@ api_name:
  - FindWindowEx
  - FindWindowExA
  - FindWindowExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
 - CopyFile2ProgressRoutine
 - PCOPYFILE2_PROGRESS_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

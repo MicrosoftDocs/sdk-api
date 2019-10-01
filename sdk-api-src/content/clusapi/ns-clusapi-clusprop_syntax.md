@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUSPROP_SYNTAX
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_SYNTAX, *PCLUSPROP_SYNTAX
 req.redist: 

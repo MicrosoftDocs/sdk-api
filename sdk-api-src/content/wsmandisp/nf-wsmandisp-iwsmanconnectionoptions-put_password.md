@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWSManConnectionOptions.Password
  - IWSManConnectionOptions.put_Password
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

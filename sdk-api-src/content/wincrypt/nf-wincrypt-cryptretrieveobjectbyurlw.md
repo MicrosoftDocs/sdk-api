@@ -40,7 +40,6 @@ api_name:
 - CryptRetrieveObjectByUrl
 - CryptRetrieveObjectByUrlA
 - CryptRetrieveObjectByUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertificateAttestationChallenge.RequestID
  - ICertificateAttestationChallenge.get_RequestID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

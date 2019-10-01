@@ -40,7 +40,6 @@ api_name:
  - SymFindExecutableImage
  - SymFindExecutableImage
  - SymFindExecutableImageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.6 or later

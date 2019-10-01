@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - REPARSE_GUID_DATA_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
 req.redist: 

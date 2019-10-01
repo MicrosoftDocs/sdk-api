@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 req.redist: 

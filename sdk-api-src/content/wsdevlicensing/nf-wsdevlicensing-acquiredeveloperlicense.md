@@ -38,7 +38,6 @@ api_location:
  - WSClient.dll
 api_name:
  - AcquireDeveloperLicense
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

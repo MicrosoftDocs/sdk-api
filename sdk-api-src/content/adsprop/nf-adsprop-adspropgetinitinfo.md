@@ -38,7 +38,6 @@ api_location:
 - Dsprop.dll
 api_name:
 - ADsPropGetInitInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

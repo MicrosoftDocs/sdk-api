@@ -38,7 +38,6 @@ api_location:
  - winsock2.h
 api_name:
  - WSACancelBlockingCall
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

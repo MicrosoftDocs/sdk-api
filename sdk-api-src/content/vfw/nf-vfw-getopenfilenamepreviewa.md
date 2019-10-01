@@ -40,7 +40,6 @@ api_name:
  - GetOpenFileNamePreview
  - GetOpenFileNamePreviewA
  - GetOpenFileNamePreviewW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

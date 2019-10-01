@@ -40,7 +40,6 @@ api_name:
  - IGPMWMIFilterCollection.Item
  - IGPMWMIFilterCollection.get_Item
  - GPMWMIFilterCollection.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

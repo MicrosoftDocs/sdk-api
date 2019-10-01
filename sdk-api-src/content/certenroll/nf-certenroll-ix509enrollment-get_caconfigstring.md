@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509Enrollment.CAConfigString
  - IX509Enrollment.get_CAConfigString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

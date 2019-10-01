@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingArchive.AgeLimit
  - IFaxIncomingArchive.get_AgeLimit
  - IFaxIncomingArchive.put_AgeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

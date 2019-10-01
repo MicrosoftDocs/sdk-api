@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_READ_TRACK_ADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
 req.redist: 

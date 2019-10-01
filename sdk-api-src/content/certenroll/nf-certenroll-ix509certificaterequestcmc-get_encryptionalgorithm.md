@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.EncryptionAlgorithm
  - IX509CertificateRequestCmc.get_EncryptionAlgorithm
  - IX509CertificateRequestCmc.put_EncryptionAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - VOLUME_BITMAP_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: VOLUME_BITMAP_BUFFER, *PVOLUME_BITMAP_BUFFER
 req.redist: 

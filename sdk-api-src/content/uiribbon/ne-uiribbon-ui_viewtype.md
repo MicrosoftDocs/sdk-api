@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_VIEWTYPE
-product: Windows
 targetos: Windows
 req.typenames: UI_VIEWTYPE
 req.redist: 

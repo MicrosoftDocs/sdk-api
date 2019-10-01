@@ -40,7 +40,6 @@ api_name:
 - ISCSI_SESSION_INFO
 - ISCSI_SESSION_INFOA
 - ISCSI_SESSION_INFOW
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_SESSION_INFOA, *PISCSI_SESSION_INFOA
 req.redist: 

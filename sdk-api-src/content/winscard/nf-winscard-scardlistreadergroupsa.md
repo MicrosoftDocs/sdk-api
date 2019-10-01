@@ -40,7 +40,6 @@ api_name:
  - SCardListReaderGroups
  - SCardListReaderGroupsA
  - SCardListReaderGroupsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.RdFarmType
  - ITsSbClientConnection.get_RdFarmType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

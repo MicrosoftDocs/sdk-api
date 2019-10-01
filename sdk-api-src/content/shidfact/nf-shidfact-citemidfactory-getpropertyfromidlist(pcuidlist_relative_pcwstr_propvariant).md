@@ -39,7 +39,6 @@ api_location:
 api_name:
  - GetPropertyFromIDList.GetPropertyFromIDList
  - CItemIDFactory.GetPropertyFromIDList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

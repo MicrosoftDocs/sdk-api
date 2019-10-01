@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - IFhScopeIterator.GetItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

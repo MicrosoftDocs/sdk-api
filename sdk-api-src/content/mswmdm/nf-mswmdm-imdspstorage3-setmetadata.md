@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPStorage3.SetMetadata
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

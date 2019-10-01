@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - RAS_STATS
-product: Windows
 targetos: Windows
 req.typenames: RAS_STATS, *PRAS_STATS
 req.redist: 

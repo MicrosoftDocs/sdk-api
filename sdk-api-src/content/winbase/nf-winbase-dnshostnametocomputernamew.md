@@ -48,7 +48,6 @@ api_name:
  - DnsHostnameToComputerName
  - DnsHostnameToComputerNameA
  - DnsHostnameToComputerNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

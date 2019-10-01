@@ -40,7 +40,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GdiSetBatchLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

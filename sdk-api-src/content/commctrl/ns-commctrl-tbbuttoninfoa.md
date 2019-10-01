@@ -40,7 +40,6 @@ api_name:
  - TBBUTTONINFO
  - TBBUTTONINFOA
  - TBBUTTONINFOW
-product: Windows
 targetos: Windows
 req.typenames: TBBUTTONINFOA, *LPTBBUTTONINFOA
 req.redist: 

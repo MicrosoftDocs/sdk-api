@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMpegAudioDecoder.put_DecoderAccuracy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

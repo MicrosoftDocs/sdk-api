@@ -38,7 +38,6 @@ api_location:
  - Netapi32.dll
 api_name:
  - NetRequestOfflineDomainJoin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

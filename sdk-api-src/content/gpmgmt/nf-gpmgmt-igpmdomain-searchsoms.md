@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMDomain.SearchSOMs
  - GPMDomain.SearchSOMs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

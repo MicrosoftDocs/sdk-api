@@ -40,7 +40,6 @@ api_name:
  - IUpdateDownloader.Priority
  - IUpdateDownloader.get_Priority
  - IUpdateDownloader.put_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

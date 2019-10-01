@@ -38,7 +38,6 @@ api_location:
  - emi.h
 api_name:
  - EMI_CHANNEL_V2
-product: Windows
 targetos: Windows
 req.typenames: EMI_CHANNEL_V2
 req.redist: 

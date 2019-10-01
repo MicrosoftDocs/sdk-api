@@ -40,7 +40,6 @@ api_location:
  - D3D11_2SDKLayers.dll
 api_name:
  - ID3D11ShaderTrace.GetInitialRegisterContents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

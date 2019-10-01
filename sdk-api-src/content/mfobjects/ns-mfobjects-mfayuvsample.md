@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFAYUVSample
-product: Windows
 targetos: Windows
 req.typenames: MFAYUVSample
 req.redist: 

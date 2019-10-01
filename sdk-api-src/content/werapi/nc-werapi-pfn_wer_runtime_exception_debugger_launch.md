@@ -38,7 +38,6 @@ api_location:
 - Werapi.h
 api_name:
 - OutOfProcessExceptionEventDebuggerLaunchCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkGesture.Confidence
  - IInkGesture.get_Confidence
  - IInkGesture.get_Confidence
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

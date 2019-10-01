@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_PEOPLE_NEAR_ME
-product: Windows
 targetos: Windows
 req.typenames: PEER_PEOPLE_NEAR_ME, *PPEER_PEOPLE_NEAR_ME
 req.redist: 

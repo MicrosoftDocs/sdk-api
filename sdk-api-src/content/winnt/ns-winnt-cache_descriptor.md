@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - CACHE_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: CACHE_DESCRIPTOR, *PCACHE_DESCRIPTOR
 req.redist: 

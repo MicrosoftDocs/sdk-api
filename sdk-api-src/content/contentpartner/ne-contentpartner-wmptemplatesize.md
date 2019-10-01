@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPTemplateSize
-product: Windows
 targetos: Windows
 req.typenames: WMPTemplateSize
 req.redist: 

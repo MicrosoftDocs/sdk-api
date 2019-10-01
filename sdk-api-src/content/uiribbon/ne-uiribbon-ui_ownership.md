@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_OWNERSHIP
-product: Windows
 targetos: Windows
 req.typenames: UI_OWNERSHIP
 req.redist: 

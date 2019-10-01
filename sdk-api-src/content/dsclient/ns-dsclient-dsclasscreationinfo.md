@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - DSCLASSCREATIONINFO
-product: Windows
 targetos: Windows
 req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_LOCAL_SERVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
 req.redist: 

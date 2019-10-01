@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - KHYPH
-product: Windows
 targetos: Windows
 req.typenames: KHYPH
 req.redist: 

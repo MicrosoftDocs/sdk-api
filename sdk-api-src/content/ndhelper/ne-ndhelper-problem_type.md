@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - PROBLEM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PROBLEM_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmsinternaladminnetsource.h
 api_name:
  - NETSOURCE_URLCREDPOLICY_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
 req.redist: 

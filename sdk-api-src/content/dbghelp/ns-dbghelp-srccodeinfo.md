@@ -40,7 +40,6 @@ api_name:
  - SRCCODEINFO
  - SRCCODEINFO
  - SRCCODEINFOW
-product: Windows
 targetos: Windows
 req.typenames: SRCCODEINFO, *PSRCCODEINFO
 req.redist: DbgHelp.dll 6.1 or later

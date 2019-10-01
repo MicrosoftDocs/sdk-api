@@ -38,7 +38,6 @@ api_location:
  - Ntquery.dll
 api_name:
  - CITextToFullTreeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

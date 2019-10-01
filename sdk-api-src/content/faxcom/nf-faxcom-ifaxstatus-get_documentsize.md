@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.DocumentSize
  - IFaxStatus.get_DocumentSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

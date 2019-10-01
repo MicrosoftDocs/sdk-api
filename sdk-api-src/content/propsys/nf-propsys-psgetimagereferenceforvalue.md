@@ -38,7 +38,6 @@ api_location:
 - Propsys.dll
 api_name:
 - PSGetImageReferenceForValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

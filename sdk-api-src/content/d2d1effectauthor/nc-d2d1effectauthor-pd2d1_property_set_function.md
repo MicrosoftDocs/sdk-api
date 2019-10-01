@@ -38,7 +38,6 @@ api_location:
  - D2d1effectauthor.h
 api_name:
  - PD2D1_PROPERTY_SET_FUNCTION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

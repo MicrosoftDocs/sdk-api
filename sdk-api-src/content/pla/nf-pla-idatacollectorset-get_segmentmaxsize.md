@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.SegmentMaxSize
  - IDataCollectorSet.get_SegmentMaxSize
  - IDataCollectorSet.put_SegmentMaxSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

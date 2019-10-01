@@ -38,7 +38,6 @@ api_location:
 - QosObjs.h
 api_name:
 - QOS_TCP_TRAFFIC
-product: Windows
 targetos: Windows
 req.typenames: QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - NTEVENTLOGPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: NTEVENTLOGPROPERTIES
 req.redist: 

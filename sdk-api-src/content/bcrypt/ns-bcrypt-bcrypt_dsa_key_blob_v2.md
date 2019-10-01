@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_DSA_KEY_BLOB_V2
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_DSA_KEY_BLOB_V2, *PBCRYPT_DSA_KEY_BLOB_V2
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SERVICE_TABLE_ENTRY
  - SERVICE_TABLE_ENTRYA
  - SERVICE_TABLE_ENTRYW
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TABLE_ENTRYA, *LPSERVICE_TABLE_ENTRYA
 req.redist: 

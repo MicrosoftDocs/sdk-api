@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_COMPRESSION_OPTION
-product: Windows
 targetos: Windows
 req.typenames: APPX_COMPRESSION_OPTION
 req.redist: 

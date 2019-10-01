@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - ID3D11Device.CheckCounter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

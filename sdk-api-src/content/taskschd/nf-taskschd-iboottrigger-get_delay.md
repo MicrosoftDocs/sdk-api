@@ -40,7 +40,6 @@ api_name:
  - IBootTrigger.Delay
  - IBootTrigger.get_Delay
  - IBootTrigger.put_Delay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
-product: Windows
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER
 req.redist: 

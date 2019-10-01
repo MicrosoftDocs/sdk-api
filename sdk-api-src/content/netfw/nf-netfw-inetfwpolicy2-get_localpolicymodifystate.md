@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwPolicy2.LocalPolicyModifyState
  - INetFwPolicy2.get_LocalPolicyModifyState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_EIT2.GetSegmentInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

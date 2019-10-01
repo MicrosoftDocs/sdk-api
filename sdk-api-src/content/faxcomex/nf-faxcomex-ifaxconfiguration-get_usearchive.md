@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.UseArchive
  - IFaxConfiguration.get_UseArchive
  - IFaxConfiguration.put_UseArchive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

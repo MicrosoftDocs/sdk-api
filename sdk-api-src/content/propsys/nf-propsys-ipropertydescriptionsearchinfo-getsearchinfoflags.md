@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyDescriptionSearchInfo.GetSearchInfoFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - FINDEX_INFO_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: FINDEX_INFO_LEVELS
 req.redist: 

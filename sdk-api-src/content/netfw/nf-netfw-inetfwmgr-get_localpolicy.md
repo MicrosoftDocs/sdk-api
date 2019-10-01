@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwMgr.LocalPolicy
  - INetFwMgr.get_LocalPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

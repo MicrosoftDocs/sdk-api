@@ -38,7 +38,6 @@ api_location:
  - windows.graphics.imaging.interop.dll
 api_name:
  - ISoftwareBitmapNative.GetData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

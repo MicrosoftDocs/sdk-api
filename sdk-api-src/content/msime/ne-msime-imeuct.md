@@ -38,7 +38,6 @@ api_location:
 - Msime.h
 api_name:
 - IMEUCT
-product: Windows
 targetos: Windows
 req.typenames: IMEUCT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - ASF_SELECTION_STATUS
-product: Windows
 targetos: Windows
 req.typenames: ASF_SELECTION_STATUS
 req.redist: 

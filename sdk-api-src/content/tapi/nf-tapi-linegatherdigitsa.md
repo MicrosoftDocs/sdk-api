@@ -40,7 +40,6 @@ api_name:
  - lineGatherDigits
  - lineGatherDigitsA
  - lineGatherDigitsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

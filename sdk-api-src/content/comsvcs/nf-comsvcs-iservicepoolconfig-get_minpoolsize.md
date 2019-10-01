@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IServicePoolConfig.get_MinPoolSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

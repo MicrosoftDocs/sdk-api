@@ -40,7 +40,6 @@ api_location:
  - ole32_wp.dll
 api_name:
  - CoFileTimeNow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

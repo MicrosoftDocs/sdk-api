@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVHITTESTINFO
-product: Windows
 targetos: Windows
 req.typenames: LVHITTESTINFO, *LPLVHITTESTINFO
 req.redist: 

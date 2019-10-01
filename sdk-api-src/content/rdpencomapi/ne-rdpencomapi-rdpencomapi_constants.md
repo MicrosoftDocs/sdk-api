@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - RDPENCOMAPI_CONSTANTS
-product: Windows
 targetos: Windows
 req.typenames: RDPENCOMAPI_CONSTANTS
 req.redist: 

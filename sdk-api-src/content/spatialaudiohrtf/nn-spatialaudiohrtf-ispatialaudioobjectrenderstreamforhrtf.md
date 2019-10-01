@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - ISpatialAudioObjectRenderStreamForHrtf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

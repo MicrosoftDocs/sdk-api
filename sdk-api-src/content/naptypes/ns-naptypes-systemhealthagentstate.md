@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - SystemHealthAgentState
-product: Windows
 targetos: Windows
 req.typenames: SystemHealthAgentState
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - GetAllUsersProfileDirectory
  - GetAllUsersProfileDirectoryA
  - GetAllUsersProfileDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

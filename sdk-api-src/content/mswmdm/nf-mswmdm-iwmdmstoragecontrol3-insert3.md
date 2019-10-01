@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMStorageControl3.Insert3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

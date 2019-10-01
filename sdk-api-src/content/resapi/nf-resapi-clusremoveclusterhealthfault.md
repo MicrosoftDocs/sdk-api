@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - ClusRemoveClusterHealthFault
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Visible
  - IPenInputPanel.get_Visible
  - PenInputPanel.get_Visible
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

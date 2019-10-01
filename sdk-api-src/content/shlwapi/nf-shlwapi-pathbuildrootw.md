@@ -40,7 +40,6 @@ api_name:
  - PathBuildRoot
  - PathBuildRootA
  - PathBuildRootW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -28,7 +28,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_VIDEO_DECODE_TIER
-product: Windows
 targetos: Windows
 ---
 

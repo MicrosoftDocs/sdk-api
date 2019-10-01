@@ -38,7 +38,6 @@ api_location:
  - Winbio.h
 api_name:
  - WINBIO_ASYNC_NOTIFICATION_METHOD
-product: Windows
 targetos: Windows
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 req.redist: 

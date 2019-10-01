@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - DISCONNECT_CODE
-product: Windows
 targetos: Windows
 req.typenames: DISCONNECT_CODE
 req.redist: 

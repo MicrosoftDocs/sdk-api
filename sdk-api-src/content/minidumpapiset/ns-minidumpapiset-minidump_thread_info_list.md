@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_THREAD_INFO_LIST
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_THREAD_INFO_LIST, *PMINIDUMP_THREAD_INFO_LIST
 req.redist: DbgHelp.dll 6.3 or later

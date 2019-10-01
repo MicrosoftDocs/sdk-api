@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_INVALIDATIONS
-product: Windows
 targetos: Windows
 req.typenames: UI_INVALIDATIONS
 req.redist: 

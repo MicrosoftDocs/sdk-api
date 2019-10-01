@@ -38,7 +38,6 @@ api_location:
 - Aclui.h
 api_name:
 - SI_INHERIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SI_INHERIT_TYPE, *PSI_INHERIT_TYPE
 req.redist: 

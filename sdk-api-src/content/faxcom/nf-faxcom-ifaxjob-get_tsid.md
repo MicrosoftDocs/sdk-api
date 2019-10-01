@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.Tsid
  - IFaxJob.get_Tsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

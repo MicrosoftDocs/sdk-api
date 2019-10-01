@@ -43,7 +43,6 @@ api_name:
  - CreateDialogIndirectParam
  - CreateDialogIndirectParamA
  - CreateDialogIndirectParamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - roparameterizediid.h
 api_name:
  - IRoSimpleMetaDataBuilder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xapo.h
 api_name:
  - XAPO_REGISTRATION_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 req.redist: 

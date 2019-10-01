@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendee.Flags
  - IRDPSRAPIAttendee.get_Flags
  - RDPSRAPIAttendee.Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

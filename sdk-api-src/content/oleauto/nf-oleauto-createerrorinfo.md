@@ -40,7 +40,6 @@ api_location:
  - ComBase.dll
 api_name:
  - CreateErrorInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

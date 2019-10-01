@@ -38,7 +38,6 @@ api_location:
  - aviriff.h
 api_name:
  - AVISUPERINDEX
-product: Windows
 targetos: Windows
 req.typenames: AVISUPERINDEX
 req.redist: 

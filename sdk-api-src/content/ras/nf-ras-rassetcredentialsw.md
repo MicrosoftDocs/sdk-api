@@ -40,7 +40,6 @@ api_name:
  - RasSetCredentials
  - RasSetCredentialsA
  - RasSetCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

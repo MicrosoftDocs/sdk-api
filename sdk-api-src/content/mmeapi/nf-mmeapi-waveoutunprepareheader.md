@@ -40,7 +40,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - waveOutUnprepareHeader
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

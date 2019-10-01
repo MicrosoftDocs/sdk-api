@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_SZ_DECLARE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - StringCchGets
  - StringCchGetsA
  - StringCchGetsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

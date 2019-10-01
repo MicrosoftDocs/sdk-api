@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - IBrowserService.IEGetDisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

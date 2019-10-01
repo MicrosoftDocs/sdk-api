@@ -38,7 +38,6 @@ api_location:
  - Tbs.h
 api_name:
  - TPM_DEVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
 req.redist: 

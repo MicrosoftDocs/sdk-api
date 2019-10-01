@@ -38,7 +38,6 @@ api_location:
  - User32.dll
 api_name:
  - SetProcessDpiAwarenessContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

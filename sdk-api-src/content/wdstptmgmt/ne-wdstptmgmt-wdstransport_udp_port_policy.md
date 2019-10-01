@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY
 req.redist: 

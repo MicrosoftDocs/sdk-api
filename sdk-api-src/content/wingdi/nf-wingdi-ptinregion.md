@@ -42,7 +42,6 @@ api_location:
  - GDI32Min.dll
 api_name:
  - PtInRegion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

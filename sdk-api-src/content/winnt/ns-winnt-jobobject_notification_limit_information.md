@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, *PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
 req.redist: 

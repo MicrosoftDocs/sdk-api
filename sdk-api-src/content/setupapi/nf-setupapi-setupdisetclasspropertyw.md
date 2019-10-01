@@ -41,7 +41,6 @@ api_name:
 - SetupDiSetClassProperty
 - SetupDiSetClassPropertyA
 - SetupDiSetClassPropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

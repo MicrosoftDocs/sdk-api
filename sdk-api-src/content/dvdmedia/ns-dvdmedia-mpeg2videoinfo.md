@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - MPEG2VIDEOINFO
-product: Windows
 targetos: Windows
 req.typenames: MPEG2VIDEOINFO
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
 - RegisterDeviceNotification
 - RegisterDeviceNotificationA
 - RegisterDeviceNotificationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

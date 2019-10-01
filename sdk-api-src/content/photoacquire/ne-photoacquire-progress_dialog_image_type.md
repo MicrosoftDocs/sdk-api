@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - PROGRESS_DIALOG_IMAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_IMAGE_TYPE
 req.redist: 

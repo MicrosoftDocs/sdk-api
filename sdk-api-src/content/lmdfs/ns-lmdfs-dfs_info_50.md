@@ -38,7 +38,6 @@ api_location:
  - LmDfs.h
 api_name:
  - DFS_INFO_50
-product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_50, *PDFS_INFO_50, *LPDFS_INFO_50
 req.redist: 

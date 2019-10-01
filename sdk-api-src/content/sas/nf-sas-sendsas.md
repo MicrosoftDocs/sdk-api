@@ -38,7 +38,6 @@ api_location:
  - Sas.dll
 api_name:
  - SendSAS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

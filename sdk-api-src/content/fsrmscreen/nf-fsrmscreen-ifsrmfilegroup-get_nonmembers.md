@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileGroup.NonMembers
  - IFsrmFileGroup.get_NonMembers
  - IFsrmFileGroup.put_NonMembers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

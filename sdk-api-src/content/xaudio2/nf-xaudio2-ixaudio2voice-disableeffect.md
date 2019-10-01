@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - IXAudio2Voice.DisableEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

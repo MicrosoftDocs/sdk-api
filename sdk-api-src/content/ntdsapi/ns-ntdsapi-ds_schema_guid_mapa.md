@@ -40,7 +40,6 @@ api_name:
  - DS_SCHEMA_GUID_MAP
  - DS_SCHEMA_GUID_MAPA
  - DS_SCHEMA_GUID_MAPW
-product: Windows
 targetos: Windows
 req.typenames: DS_SCHEMA_GUID_MAPA, *PDS_SCHEMA_GUID_MAPA
 req.redist: 

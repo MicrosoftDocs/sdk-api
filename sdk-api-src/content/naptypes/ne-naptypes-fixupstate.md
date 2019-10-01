@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - FixupState
-product: Windows
 targetos: Windows
 req.typenames: FixupState
 req.redist: 

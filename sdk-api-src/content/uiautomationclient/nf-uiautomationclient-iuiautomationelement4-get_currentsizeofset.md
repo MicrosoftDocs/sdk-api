@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement4.CurrentSizeOfSet
  - IUIAutomationElement4.get_CurrentSizeOfSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

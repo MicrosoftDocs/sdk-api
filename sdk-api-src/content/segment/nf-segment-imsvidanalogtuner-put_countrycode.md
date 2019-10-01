@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidAnalogTuner.put_CountryCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

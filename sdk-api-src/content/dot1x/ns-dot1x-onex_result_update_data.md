@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_RESULT_UPDATE_DATA
-product: Windows
 targetos: Windows
 req.typenames: ONEX_RESULT_UPDATE_DATA, *PONEX_RESULT_UPDATE_DATA
 req.redist: 

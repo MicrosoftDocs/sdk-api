@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - ITravelLog.Revert
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

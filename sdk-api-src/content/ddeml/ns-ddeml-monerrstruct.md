@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - MONERRSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MONERRSTRUCT, *PMONERRSTRUCT
 req.redist: 

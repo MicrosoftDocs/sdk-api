@@ -38,7 +38,6 @@ api_location:
  - portabledeviceapi.h
 api_name:
  - IPortableDeviceCapabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

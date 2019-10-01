@@ -42,7 +42,6 @@ api_name:
  - mixerGetLineInfo
  - mixerGetLineInfoA
  - mixerGetLineInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

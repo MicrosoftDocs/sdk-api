@@ -41,7 +41,6 @@ api_location:
 - API-MS-Win-ShCore-SysInfo-l1-1-0.dll
 api_name:
 - IsOS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

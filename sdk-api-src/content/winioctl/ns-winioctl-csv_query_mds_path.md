@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CSV_QUERY_MDS_PATH
-product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
 req.redist: 

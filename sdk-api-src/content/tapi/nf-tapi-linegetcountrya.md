@@ -40,7 +40,6 @@ api_name:
  - lineGetCountry
  - lineGetCountryA
  - lineGetCountryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

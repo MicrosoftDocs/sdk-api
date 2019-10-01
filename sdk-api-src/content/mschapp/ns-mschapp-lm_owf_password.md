@@ -38,7 +38,6 @@ api_location:
 - MsChapp.h
 api_name:
 - LM_OWF_PASSWORD
-product: Windows
 targetos: Windows
 req.typenames: LM_OWF_PASSWORD
 req.redist: 

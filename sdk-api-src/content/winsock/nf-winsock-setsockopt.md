@@ -39,7 +39,6 @@ api_location:
  - wsock32.dll
 api_name:
  - setsockopt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

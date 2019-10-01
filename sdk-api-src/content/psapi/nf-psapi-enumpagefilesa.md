@@ -48,7 +48,6 @@ api_name:
  - K32EnumPageFiles
  - K32EnumPageFilesW
  - K32EnumPageFilesA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

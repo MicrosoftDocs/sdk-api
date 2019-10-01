@@ -46,7 +46,6 @@ api_name:
  - OpenTrace
  - OpenTraceA
  - OpenTraceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

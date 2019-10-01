@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITBasicAudioTerminal.get_Volume
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

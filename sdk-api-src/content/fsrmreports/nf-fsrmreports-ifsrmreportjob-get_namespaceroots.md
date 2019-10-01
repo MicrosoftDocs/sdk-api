@@ -40,7 +40,6 @@ api_name:
  - IFsrmReportJob.NamespaceRoots
  - IFsrmReportJob.get_NamespaceRoots
  - IFsrmReportJob.put_NamespaceRoots
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

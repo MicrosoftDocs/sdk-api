@@ -38,7 +38,6 @@ api_location:
  - Mmdeviceapi.h
 api_name:
  - IMMNotificationClient.OnDeviceRemoved
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequest.RawData
  - IX509CertificateRequest.get_RawData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

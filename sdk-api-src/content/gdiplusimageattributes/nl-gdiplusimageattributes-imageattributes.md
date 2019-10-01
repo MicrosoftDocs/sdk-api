@@ -38,7 +38,6 @@ api_location:
  - gdiplusimageattributes.h
 api_name:
  - ImageAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

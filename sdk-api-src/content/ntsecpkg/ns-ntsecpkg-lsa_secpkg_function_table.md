@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - LSA_SECPKG_FUNCTION_TABLE
-product: Windows
 targetos: Windows
 req.typenames: LSA_SECPKG_FUNCTION_TABLE, *PLSA_SECPKG_FUNCTION_TABLE
 req.redist: 

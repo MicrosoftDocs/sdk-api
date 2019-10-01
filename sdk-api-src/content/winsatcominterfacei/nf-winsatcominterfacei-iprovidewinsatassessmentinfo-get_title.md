@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATAssessmentInfo.Title
  - IProvideWinSATAssessmentInfo.get_Title
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETBKCOLOR
-product: Windows
 targetos: Windows
 req.typenames: EMRSETBKCOLOR, *PEMRSETBKCOLOR, EMRSETTEXTCOLOR, *PEMRSETTEXTCOLOR
 req.redist: 

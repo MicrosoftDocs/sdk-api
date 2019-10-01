@@ -38,7 +38,6 @@ api_location:
  - Dhcpcsdk.h
 api_name:
  - DHCPAPI_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: DHCPAPI_PARAMS, *PDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS, DHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS
 req.redist: 

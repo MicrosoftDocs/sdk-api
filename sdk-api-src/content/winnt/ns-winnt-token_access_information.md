@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_ACCESS_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_ACCESS_INFORMATION, *PTOKEN_ACCESS_INFORMATION
 req.redist: 

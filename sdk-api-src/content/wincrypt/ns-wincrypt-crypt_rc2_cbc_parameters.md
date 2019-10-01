@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_RC2_CBC_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_RC2_CBC_PARAMETERS, *PCRYPT_RC2_CBC_PARAMETERS
 req.redist: 

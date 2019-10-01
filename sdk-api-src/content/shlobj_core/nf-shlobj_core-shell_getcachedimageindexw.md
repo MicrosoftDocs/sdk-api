@@ -42,7 +42,6 @@ api_name:
  - Shell_GetCachedImageIndex
  - Shell_GetCachedImageIndexA
  - Shell_GetCachedImageIndexW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

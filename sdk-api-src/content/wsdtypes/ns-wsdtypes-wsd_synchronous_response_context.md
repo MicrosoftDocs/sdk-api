@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_SYNCHRONOUS_RESPONSE_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 req.redist: 

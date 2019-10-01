@@ -38,7 +38,6 @@ api_location:
  - Avrt.dll
 api_name:
  - AvRtLeaveThreadOrderingGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

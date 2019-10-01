@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFRatio
-product: Windows
 targetos: Windows
 req.typenames: MFRatio
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - LSA_FOREST_TRUST_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_INFORMATION, *PLSA_FOREST_TRUST_INFORMATION
 req.redist: 

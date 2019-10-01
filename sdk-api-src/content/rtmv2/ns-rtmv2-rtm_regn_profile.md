@@ -38,7 +38,6 @@ api_location:
  - Rtmv2.h
 api_name:
  - RTM_REGN_PROFILE
-product: Windows
 targetos: Windows
 req.typenames: RTM_REGN_PROFILE, *PRTM_REGN_PROFILE
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - SHRegEnumUSKey
  - SHRegEnumUSKeyA
  - SHRegEnumUSKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

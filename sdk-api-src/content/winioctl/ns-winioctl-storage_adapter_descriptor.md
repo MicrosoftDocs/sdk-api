@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - STORAGE_ADAPTER_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_ADAPTER_DESCRIPTOR, *PSTORAGE_ADAPTER_DESCRIPTOR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - VdsLun.h
 api_name:
 - VDS_STORAGE_IDENTIFIER_CODE_SET
-product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_IDENTIFIER_CODE_SET
 req.redist: 

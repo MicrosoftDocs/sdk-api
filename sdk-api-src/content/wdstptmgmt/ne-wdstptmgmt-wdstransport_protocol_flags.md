@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_PROTOCOL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_PROTOCOL_FLAGS, *PWDSTRANSPORT_PROTOCOL_FLAGS
 req.redist: 

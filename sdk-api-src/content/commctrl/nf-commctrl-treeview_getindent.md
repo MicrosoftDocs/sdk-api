@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TreeView_GetIndent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

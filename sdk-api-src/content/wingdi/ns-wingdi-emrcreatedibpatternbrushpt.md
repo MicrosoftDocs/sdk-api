@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATEDIBPATTERNBRUSHPT
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT
 req.redist: 

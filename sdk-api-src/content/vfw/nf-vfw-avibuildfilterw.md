@@ -40,7 +40,6 @@ api_name:
  - AVIBuildFilter
  - AVIBuildFilterA
  - AVIBuildFilterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

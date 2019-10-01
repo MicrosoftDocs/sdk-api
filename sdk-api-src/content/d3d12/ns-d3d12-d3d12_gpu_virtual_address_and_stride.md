@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 req.redist: 

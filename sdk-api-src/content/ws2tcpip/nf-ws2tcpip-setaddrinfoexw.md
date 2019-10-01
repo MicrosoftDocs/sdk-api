@@ -40,7 +40,6 @@ api_name:
  - SetAddrInfoEx
  - SetAddrInfoExA
  - SetAddrInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

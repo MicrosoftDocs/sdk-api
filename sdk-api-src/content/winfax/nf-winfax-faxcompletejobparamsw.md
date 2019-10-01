@@ -41,7 +41,6 @@ api_name:
 - FaxCompleteJobParams
 - FaxCompleteJobParamsA
 - FaxCompleteJobParamsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

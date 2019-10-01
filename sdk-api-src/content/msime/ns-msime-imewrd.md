@@ -38,7 +38,6 @@ api_location:
  - Msime.h
 api_name:
  - IMEWRD
-product: Windows
 targetos: Windows
 req.typenames: IMEWRD, *PIMEWRD
 req.redist: 

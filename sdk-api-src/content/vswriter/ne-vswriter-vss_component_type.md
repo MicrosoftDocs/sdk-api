@@ -38,7 +38,6 @@ api_location:
 - VsWriter.h
 api_name:
 - VSS_COMPONENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_COMPONENT_TYPE
 req.redist: 

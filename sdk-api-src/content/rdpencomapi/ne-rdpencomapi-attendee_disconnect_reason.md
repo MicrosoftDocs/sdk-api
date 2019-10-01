@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - ATTENDEE_DISCONNECT_REASON
-product: Windows
 targetos: Windows
 req.typenames: ATTENDEE_DISCONNECT_REASON
 req.redist: 

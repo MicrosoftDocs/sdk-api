@@ -38,7 +38,6 @@ api_location:
  - mrmsupport.dll
 api_name:
  - CreateResourceIndexer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

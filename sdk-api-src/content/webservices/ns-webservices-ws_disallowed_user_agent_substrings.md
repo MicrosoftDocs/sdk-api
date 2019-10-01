@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_DISALLOWED_USER_AGENT_SUBSTRINGS
-product: Windows
 targetos: Windows
 req.typenames: WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 req.redist: 

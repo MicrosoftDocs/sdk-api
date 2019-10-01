@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_DECODER_CAPS
-product: Windows
 targetos: Windows
 req.typenames: DVD_DECODER_CAPS
 req.redist: 

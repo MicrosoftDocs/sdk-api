@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate2.IsPresent
  - IUpdate2.get_IsPresent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

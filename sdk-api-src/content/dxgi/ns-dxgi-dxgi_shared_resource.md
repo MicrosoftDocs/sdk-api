@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_SHARED_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_SHARED_RESOURCE
 req.redist: 

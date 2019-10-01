@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_ADDATTACHEDSURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA'
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ICreateTypeLib.SetLcid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

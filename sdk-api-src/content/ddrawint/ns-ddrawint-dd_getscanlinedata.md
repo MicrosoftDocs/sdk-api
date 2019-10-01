@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETSCANLINEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA'
 req.redist: 

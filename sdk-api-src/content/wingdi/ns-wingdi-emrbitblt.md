@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRBITBLT
-product: Windows
 targetos: Windows
 req.typenames: EMRBITBLT, *PEMRBITBLT
 req.redist: 

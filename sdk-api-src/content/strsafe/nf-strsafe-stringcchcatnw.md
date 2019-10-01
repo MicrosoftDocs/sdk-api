@@ -40,7 +40,6 @@ api_name:
  - StringCchCatN
  - StringCchCatNA
  - StringCchCatNW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

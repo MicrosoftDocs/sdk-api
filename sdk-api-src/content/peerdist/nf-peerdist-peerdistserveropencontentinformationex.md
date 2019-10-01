@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PeerDistServerOpenContentInformationEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -46,7 +46,6 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
  - SetMailslotInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

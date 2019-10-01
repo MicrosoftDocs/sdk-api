@@ -40,7 +40,6 @@ api_name:
  - IBackgroundCopyCallback1
  - IBackgroundCopyCallback1.OnProgress
  - IBackgroundCopyCallback1.OnProgressEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

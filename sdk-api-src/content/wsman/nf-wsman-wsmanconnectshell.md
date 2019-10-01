@@ -38,7 +38,6 @@ api_location:
 - WsmSvc.dll
 api_name:
 - WSManConnectShell
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: WinRM on Windows Server 2012.

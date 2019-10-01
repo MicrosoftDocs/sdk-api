@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - ISyncMgrConflict.GetItemsArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

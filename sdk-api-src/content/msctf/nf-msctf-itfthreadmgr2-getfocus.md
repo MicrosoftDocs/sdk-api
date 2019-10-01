@@ -38,7 +38,6 @@ api_location:
  - msctf.h
 api_name:
  - ITfThreadMgr2.GetFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

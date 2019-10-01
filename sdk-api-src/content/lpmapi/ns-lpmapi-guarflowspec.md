@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - GuarFlowSpec
-product: Windows
 targetos: Windows
 req.typenames: GuarFlowSpec
 req.redist: 

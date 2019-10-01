@@ -41,7 +41,6 @@ api_name:
  - MsiConfigureProductEx
  - MsiConfigureProductExA
  - MsiConfigureProductExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

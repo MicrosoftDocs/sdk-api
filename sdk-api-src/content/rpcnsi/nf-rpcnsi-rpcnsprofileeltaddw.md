@@ -40,7 +40,6 @@ api_name:
  - RpcNsProfileEltAdd
  - RpcNsProfileEltAddA
  - RpcNsProfileEltAddW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

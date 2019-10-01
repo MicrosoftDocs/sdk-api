@@ -40,7 +40,6 @@ api_name:
  - IActionCollection.XmlText
  - IActionCollection.get_XmlText
  - IActionCollection.put_XmlText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

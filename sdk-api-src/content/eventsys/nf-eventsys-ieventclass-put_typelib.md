@@ -40,7 +40,6 @@ api_name:
  - IEventClass.TypeLib
  - IEventClass.get_TypeLib
  - IEventClass.put_TypeLib
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

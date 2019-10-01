@@ -38,7 +38,6 @@ api_location:
 - shlobj_core.h
 api_name:
 - IShellFolderView.GetItemSpacing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

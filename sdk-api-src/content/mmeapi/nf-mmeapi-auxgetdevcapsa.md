@@ -42,7 +42,6 @@ api_name:
  - auxGetDevCaps
  - auxGetDevCapsA
  - auxGetDevCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

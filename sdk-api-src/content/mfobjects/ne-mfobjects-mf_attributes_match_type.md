@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_ATTRIBUTES_MATCH_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MF_ATTRIBUTES_MATCH_TYPE
 req.redist: 

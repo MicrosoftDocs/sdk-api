@@ -40,7 +40,6 @@ api_name:
  - SCardForgetReader
  - SCardForgetReaderA
  - SCardForgetReaderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

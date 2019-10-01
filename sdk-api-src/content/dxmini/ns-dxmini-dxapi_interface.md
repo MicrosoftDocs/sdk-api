@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DXAPI_INTERFACE
-product: Windows
 targetos: Windows
 req.typenames: DXAPI_INTERFACE, *PDXAPI_INTERFACE
 req.redist: 

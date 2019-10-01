@@ -38,7 +38,6 @@ api_location:
  - msxml6.h
 api_name:
  - IXMLHTTPRequest3Callback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

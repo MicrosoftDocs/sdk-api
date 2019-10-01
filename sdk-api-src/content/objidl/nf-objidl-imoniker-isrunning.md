@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IMoniker.IsRunning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

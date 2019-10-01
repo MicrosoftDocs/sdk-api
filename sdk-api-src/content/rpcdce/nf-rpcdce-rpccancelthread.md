@@ -38,7 +38,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcCancelThread
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

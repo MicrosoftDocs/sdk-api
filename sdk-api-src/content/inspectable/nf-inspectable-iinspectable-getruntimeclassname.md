@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInspectable.GetRuntimeClassName
  - IInputPaneInterop.GetRuntimeClassName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

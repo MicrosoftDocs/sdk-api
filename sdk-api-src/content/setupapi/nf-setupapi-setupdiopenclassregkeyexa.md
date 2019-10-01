@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiOpenClassRegKeyEx
  - SetupDiOpenClassRegKeyExA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

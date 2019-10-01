@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesShareInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

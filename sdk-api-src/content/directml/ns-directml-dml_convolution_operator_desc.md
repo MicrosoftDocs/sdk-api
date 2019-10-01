@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_CONVOLUTION_OPERATOR_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

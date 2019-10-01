@@ -40,7 +40,6 @@ api_name:
  - IX509SignatureInformation.HashAlgorithm
  - IX509SignatureInformation.get_HashAlgorithm
  - IX509SignatureInformation.put_HashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

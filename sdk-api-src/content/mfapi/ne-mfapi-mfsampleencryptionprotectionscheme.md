@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFSampleEncryptionProtectionScheme
-product: Windows
 targetos: Windows
 req.typenames: MFSampleEncryptionProtectionScheme
 req.redist: 

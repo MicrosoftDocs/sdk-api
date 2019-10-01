@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.SigningCertificate
  - IOCSPCAConfiguration.get_SigningCertificate
  - IOCSPCAConfiguration.put_SigningCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEMESSAGE
-product: Windows
 targetos: Windows
 req.typenames: LINEMESSAGE, *LPLINEMESSAGE
 req.redist: 

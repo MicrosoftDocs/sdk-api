@@ -40,7 +40,6 @@ api_name:
  - MsiUseFeatureEx
  - MsiUseFeatureExA
  - MsiUseFeatureExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

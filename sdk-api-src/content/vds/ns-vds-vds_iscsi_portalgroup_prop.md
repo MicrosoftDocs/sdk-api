@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_ISCSI_PORTALGROUP_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_ISCSI_PORTALGROUP_PROP, *PVDS_ISCSI_PORTALGROUP_PROP
 req.redist: VDS 1.1

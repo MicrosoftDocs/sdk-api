@@ -38,7 +38,6 @@ api_location:
 - Lmshare.h
 api_name:
 - FILE_INFO_2
-product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_2, *PFILE_INFO_2, *LPFILE_INFO_2
 req.redist: 

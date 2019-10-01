@@ -38,7 +38,6 @@ api_location:
 - Appmgmt.h
 api_name:
 - APPCATEGORYINFO
-product: Windows
 targetos: Windows
 req.typenames: APPCATEGORYINFO
 req.redist: 

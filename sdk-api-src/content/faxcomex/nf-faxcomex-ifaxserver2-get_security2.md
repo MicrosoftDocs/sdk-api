@@ -40,7 +40,6 @@ api_name:
  - IFaxServer2.Security2
  - IFaxServer2.get_Security2
  - IFaxServer2.get_Security2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - timeval
-product: Windows
 targetos: Windows
 req.typenames: TIMEVAL, *PTIMEVAL, *LPTIMEVAL
 req.redist: 

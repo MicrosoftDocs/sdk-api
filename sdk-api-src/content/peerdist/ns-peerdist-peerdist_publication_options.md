@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PEERDIST_PUBLICATION_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Scesvc.h
 api_name:
 - SCESVC_CONFIGURATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
 req.redist: 

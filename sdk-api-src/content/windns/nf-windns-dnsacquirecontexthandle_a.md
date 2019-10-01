@@ -40,7 +40,6 @@ api_name:
 - DnsAcquireContextHandle
 - DnsAcquireContextHandle_A
 - DnsAcquireContextHandle_W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

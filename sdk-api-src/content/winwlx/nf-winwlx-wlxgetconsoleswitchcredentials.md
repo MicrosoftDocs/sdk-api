@@ -38,7 +38,6 @@ api_location:
  - Winwlx.h
 api_name:
  - WlxGetConsoleSwitchCredentials
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

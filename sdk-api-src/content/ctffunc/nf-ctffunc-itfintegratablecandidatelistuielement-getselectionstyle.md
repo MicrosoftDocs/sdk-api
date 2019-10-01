@@ -38,7 +38,6 @@ api_location:
  - Ctffunc.h
 api_name:
  - ITfIntegratableCandidateListUIElement.GetSelectionStyle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

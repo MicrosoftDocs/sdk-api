@@ -38,7 +38,6 @@ api_location:
 - FsrmEnums.h
 api_name:
 - FsrmAccountType
-product: Windows
 targetos: Windows
 req.typenames: FsrmAccountType
 req.redist: 

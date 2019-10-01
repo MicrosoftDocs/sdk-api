@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - ISCPSecureExchange3.TransferCompleteForDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

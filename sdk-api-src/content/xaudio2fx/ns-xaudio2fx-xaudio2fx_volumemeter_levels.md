@@ -38,7 +38,6 @@ api_location:
  - xaudio2fx.h
 api_name:
  - XAUDIO2FX_VOLUMEMETER_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2FX_VOLUMEMETER_LEVELS
 req.redist: 

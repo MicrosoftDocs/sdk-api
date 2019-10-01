@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - RUN
-product: Windows
 targetos: Windows
 req.typenames: RUN, *PRUN
 req.redist: 

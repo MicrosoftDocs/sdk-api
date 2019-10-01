@@ -38,7 +38,6 @@ api_location:
 - Wcmapi.h
 api_name:
 - WCM_BILLING_CYCLE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WCM_BILLING_CYCLE_INFO
 req.redist: 

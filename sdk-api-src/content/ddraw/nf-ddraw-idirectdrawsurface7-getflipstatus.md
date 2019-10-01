@@ -38,7 +38,6 @@ api_location:
  - Ddraw.dll
 api_name:
  - IDirectDrawSurface7.GetFlipStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wer.dll
 api_name:
  - WerAddExcludedApplication
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

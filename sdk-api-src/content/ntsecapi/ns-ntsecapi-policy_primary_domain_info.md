@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - POLICY_PRIMARY_DOMAIN_INFO
-product: Windows
 targetos: Windows
 req.typenames: POLICY_PRIMARY_DOMAIN_INFO, *PPOLICY_PRIMARY_DOMAIN_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Color.ToCOLORREF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

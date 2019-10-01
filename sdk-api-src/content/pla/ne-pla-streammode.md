@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - StreamMode
-product: Windows
 targetos: Windows
 req.typenames: StreamMode
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - D3D10_TEXTURE1D_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

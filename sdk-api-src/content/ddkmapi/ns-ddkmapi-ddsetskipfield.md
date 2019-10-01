@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDSETSKIPFIELD
-product: Windows
 targetos: Windows
 req.typenames: DDSETSKIPFIELD, *LPDDSETSKIPFIELD
 req.redist: 

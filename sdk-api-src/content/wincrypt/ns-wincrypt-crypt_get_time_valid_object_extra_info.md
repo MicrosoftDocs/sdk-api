@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 req.redist: 

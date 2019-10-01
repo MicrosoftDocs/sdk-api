@@ -38,7 +38,6 @@ api_location:
 - d3d12shader.h
 api_name:
 - D3D12_SHADER_VERSION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_SHADER_VERSION_TYPE
 req.redist: 

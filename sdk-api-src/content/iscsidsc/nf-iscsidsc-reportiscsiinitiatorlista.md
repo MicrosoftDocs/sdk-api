@@ -40,7 +40,6 @@ api_name:
  - ReportIscsiInitiatorList
  - ReportIscsiInitiatorListA
  - ReportIscsiInitiatorListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

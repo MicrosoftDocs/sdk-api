@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMRGRADIENTFILL
-product: Windows
 targetos: Windows
 req.typenames: EMRGRADIENTFILL, *PEMRGRADIENTFILL
 req.redist: 

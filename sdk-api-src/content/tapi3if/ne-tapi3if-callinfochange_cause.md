@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - CALLINFOCHANGE_CAUSE
-product: Windows
 targetos: Windows
 req.typenames: CALLINFOCHANGE_CAUSE
 req.redist: 

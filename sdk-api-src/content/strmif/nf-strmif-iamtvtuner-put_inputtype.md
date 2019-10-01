@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTVTuner.put_InputType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

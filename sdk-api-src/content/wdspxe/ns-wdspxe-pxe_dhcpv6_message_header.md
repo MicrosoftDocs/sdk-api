@@ -38,7 +38,6 @@ api_location:
  - WdsPxe.h
 api_name:
  - PXE_DHCPV6_MESSAGE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: PXE_DHCPV6_MESSAGE_HEADER, *PPXE_DHCPV6_MESSAGE_HEADER
 req.redist: 

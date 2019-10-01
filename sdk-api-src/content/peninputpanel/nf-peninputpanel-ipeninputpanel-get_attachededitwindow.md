@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_AttachedEditWindow
  - PenInputPanel.get_AttachedEditWindow
  - PenInputPanel.put_AttachedEditWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

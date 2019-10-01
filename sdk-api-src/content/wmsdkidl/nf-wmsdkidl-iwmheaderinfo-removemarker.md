@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.RemoveMarker
  - IWMHeaderInfo2.RemoveMarker
  - IWMHeaderInfo3.RemoveMarker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

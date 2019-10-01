@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMMigrationTable.AddEntry
  - GPMMigrationTable.AddEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

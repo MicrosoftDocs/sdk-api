@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - COPP_ImageAspectRatio_EN300294
-product: Windows
 targetos: Windows
 req.typenames: COPP_ImageAspectRatio_EN300294
 req.redist: 

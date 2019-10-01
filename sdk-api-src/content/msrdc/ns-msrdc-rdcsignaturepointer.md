@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RdcSignaturePointer
-product: Windows
 targetos: Windows
 req.typenames: RdcSignaturePointer
 req.redist: 

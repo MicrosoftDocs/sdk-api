@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEMEDIACONTROLTONE
-product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLTONE, *LPLINEMEDIACONTROLTONE
 req.redist: 

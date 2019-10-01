@@ -38,7 +38,6 @@ api_location:
  - mmreg.h
 api_name:
  - MPEG1WAVEFORMAT
-product: Windows
 targetos: Windows
 req.typenames: MPEG1WAVEFORMAT
 req.redist: 

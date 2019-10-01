@@ -40,7 +40,6 @@ api_name:
  - MODULEENTRY32
  - MODULEENTRY32
  - MODULEENTRY32W
-product: Windows
 targetos: Windows
 req.typenames: MODULEENTRY32W
 req.redist: 

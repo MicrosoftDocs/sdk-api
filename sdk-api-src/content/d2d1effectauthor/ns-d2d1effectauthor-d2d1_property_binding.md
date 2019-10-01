@@ -38,7 +38,6 @@ api_location:
  - d2d1effectauthor.h
 api_name:
  - D2D1_PROPERTY_BINDING
-product: Windows
 targetos: Windows
 req.typenames: D2D1_PROPERTY_BINDING
 req.redist: 

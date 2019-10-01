@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - ENCLAVE_INIT_INFO_VBS
-product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_INIT_INFO_VBS, *PENCLAVE_INIT_INFO_VBS
 req.redist: 

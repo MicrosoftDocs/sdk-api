@@ -38,7 +38,6 @@ api_location:
  - Ocidl.h
 api_name:
  - CONNECTDATA
-product: Windows
 targetos: Windows
 req.typenames: CONNECTDATA, *PCONNECTDATA, *LPCONNECTDATA
 req.redist: 

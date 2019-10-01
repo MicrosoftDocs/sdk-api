@@ -40,7 +40,6 @@ api_name:
  - linePrepareAddToConference
  - linePrepareAddToConferenceA
  - linePrepareAddToConferenceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

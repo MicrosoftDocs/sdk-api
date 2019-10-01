@@ -40,7 +40,6 @@ api_name:
  - WNetGetUniversalName
  - WNetGetUniversalNameA
  - WNetGetUniversalNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

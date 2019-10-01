@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRALLOCATIONINFO
-product: Windows
 targetos: Windows
 req.typenames: VMRALLOCATIONINFO
 req.redist: 

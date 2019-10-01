@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmCommitOptions
-product: Windows
 targetos: Windows
 req.typenames: FsrmCommitOptions
 req.redist: 

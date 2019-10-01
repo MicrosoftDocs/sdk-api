@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_PVKFileName
  - ICEnroll.put_PVKFileName
  - CEnroll.PVKFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

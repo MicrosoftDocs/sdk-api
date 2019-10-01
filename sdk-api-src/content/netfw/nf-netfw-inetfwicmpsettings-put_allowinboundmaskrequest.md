@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowInboundMaskRequest
  - INetFwIcmpSettings.get_AllowInboundMaskRequest
  - INetFwIcmpSettings.put_AllowInboundMaskRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

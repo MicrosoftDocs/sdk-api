@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - ERROR_ADVISE_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ERROR_ADVISE_MESSAGE_TYPE
 req.redist: 

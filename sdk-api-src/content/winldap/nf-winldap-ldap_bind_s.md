@@ -40,7 +40,6 @@ api_name:
 - ldap_bind_s
 - ldap_bind_sA
 - ldap_bind_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

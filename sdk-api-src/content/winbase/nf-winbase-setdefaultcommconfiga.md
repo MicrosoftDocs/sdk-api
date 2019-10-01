@@ -40,7 +40,6 @@ api_name:
 - SetDefaultCommConfig
 - SetDefaultCommConfigA
 - SetDefaultCommConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

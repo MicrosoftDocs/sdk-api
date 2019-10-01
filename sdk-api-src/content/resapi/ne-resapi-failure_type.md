@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - FAILURE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
 req.redist: 

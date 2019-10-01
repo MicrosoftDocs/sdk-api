@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller.AllowSourcePrompts
  - IUpdateInstaller.get_AllowSourcePrompts
  - IUpdateInstaller.put_AllowSourcePrompts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

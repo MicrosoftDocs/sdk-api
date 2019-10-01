@@ -38,7 +38,6 @@ api_location:
  - Documenttarget.h
 api_name:
  - IPrintDocumentPackageStatusEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

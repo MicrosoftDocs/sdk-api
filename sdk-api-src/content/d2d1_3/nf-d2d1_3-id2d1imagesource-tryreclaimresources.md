@@ -38,7 +38,6 @@ api_location:
  - D2D1.dll
 api_name:
  - ID2D1ImageSource.TryReclaimResources
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

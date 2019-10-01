@@ -45,7 +45,6 @@ api_name:
  - StrCmpNC
  - StrCmpNCA
  - StrCmpNCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

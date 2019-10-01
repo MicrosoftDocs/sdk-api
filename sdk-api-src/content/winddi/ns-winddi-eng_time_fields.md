@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - ENG_TIME_FIELDS
-product: Windows
 targetos: Windows
 req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
 req.redist: 

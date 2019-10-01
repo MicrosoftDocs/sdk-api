@@ -39,7 +39,6 @@ api_location:
 - API-MS-Win-power-base-l1-1-0.dll
 api_name:
 - PowerDeterminePlatformRoleEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

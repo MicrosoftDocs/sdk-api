@@ -47,7 +47,6 @@ api_name:
  - CharNext
  - CharNextA
  - CharNextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

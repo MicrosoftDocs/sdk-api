@@ -49,7 +49,6 @@ api_name:
  - DeleteVolumeMountPoint
  - DeleteVolumeMountPointA
  - DeleteVolumeMountPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

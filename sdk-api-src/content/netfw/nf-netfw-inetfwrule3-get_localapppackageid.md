@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.LocalAppPackageId
  - INetFwRule3.get_LocalAppPackageId
  - INetFwRule3.put_LocalAppPackageId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

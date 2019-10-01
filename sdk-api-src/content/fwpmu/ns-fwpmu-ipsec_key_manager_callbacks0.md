@@ -38,7 +38,6 @@ api_location:
 - fwpmu.h
 api_name:
 - IPSEC_KEY_MANAGER_CALLBACKS0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEY_MANAGER_CALLBACKS0
 req.redist: 

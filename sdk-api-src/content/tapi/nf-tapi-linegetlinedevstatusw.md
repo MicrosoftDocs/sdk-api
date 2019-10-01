@@ -40,7 +40,6 @@ api_name:
  - lineGetLineDevStatus
  - lineGetLineDevStatusA
  - lineGetLineDevStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

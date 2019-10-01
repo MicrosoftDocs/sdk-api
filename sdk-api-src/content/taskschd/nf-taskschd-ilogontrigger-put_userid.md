@@ -40,7 +40,6 @@ api_name:
  - ILogonTrigger.UserId
  - ILogonTrigger.get_UserId
  - ILogonTrigger.put_UserId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

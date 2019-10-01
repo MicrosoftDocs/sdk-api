@@ -40,7 +40,6 @@ api_name:
  - ISessionStateChangeTrigger.Delay
  - ISessionStateChangeTrigger.get_Delay
  - ISessionStateChangeTrigger.put_Delay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

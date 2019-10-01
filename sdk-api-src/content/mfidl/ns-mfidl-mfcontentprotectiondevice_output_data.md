@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
-product: Windows
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 req.redist: 

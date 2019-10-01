@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataCollector.IsKernelTrace
  - ITraceDataCollector.get_IsKernelTrace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

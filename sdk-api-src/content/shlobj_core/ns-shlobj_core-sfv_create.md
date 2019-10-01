@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SFV_CREATE
-product: Windows
 targetos: Windows
 req.typenames: SFV_CREATE
 req.redist: 

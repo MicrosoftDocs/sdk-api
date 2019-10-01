@@ -40,7 +40,6 @@ api_name:
  - FAX_COVERPAGE_INFO
  - FAX_COVERPAGE_INFOA
  - FAX_COVERPAGE_INFOW
-product: Windows
 targetos: Windows
 req.typenames: FAX_COVERPAGE_INFOA, *PFAX_COVERPAGE_INFOA
 req.redist: 

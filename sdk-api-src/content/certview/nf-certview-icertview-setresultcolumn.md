@@ -40,7 +40,6 @@ api_name:
  - ICertView2.SetResultColumn
  - ICertView.SetResultColumn
  - CCertView.SetResultColumn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

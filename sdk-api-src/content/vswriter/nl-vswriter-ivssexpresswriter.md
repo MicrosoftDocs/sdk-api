@@ -38,7 +38,6 @@ api_location:
  - VsWriter.h
 api_name:
  - IVssExpressWriter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

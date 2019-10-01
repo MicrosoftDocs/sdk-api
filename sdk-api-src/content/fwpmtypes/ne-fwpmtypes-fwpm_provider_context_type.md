@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_PROVIDER_CONTEXT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWPM_PROVIDER_CONTEXT_TYPE
 req.redist: 

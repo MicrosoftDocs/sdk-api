@@ -38,7 +38,6 @@ api_location:
  - Wabtags.h
 api_name:
  - Gender
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

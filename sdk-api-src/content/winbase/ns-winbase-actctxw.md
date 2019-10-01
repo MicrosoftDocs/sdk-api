@@ -40,7 +40,6 @@ api_name:
  - ACTCTX
  - ACTCTXW
  - ACTCTXW
-product: Windows
 targetos: Windows
 req.typenames: ACTCTXW, *PACTCTXW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_CERTIFICATE_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_LOGON, *PKERB_CERTIFICATE_LOGON
 req.redist: 

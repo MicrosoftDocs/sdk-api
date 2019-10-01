@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_SEEKING_SEEKING_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: AM_SEEKING_SEEKING_CAPABILITIES
 req.redist: 

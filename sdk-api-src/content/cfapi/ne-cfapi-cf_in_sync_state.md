@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_IN_SYNC_STATE
-product: Windows
 targetos: Windows
 req.typenames: CF_IN_SYNC_STATE
 req.redist: 

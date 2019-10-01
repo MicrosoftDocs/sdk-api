@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - MF_MSE_ERROR
-product: Windows
 targetos: Windows
 req.typenames: MF_MSE_ERROR
 req.redist: 

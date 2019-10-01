@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIXERCONTROLDETAILS
  - mixercontroldetails_listtextw
-product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_LISTTEXTW, *PMIXERCONTROLDETAILS_LISTTEXTW, *LPMIXERCONTROLDETAILS_LISTTEXTW
 req.redist: 

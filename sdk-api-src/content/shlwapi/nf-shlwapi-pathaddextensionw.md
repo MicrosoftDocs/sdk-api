@@ -44,7 +44,6 @@ api_name:
  - PathAddExtension
  - PathAddExtensionA
  - PathAddExtensionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

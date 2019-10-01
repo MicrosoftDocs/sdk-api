@@ -38,7 +38,6 @@ api_location:
  - Winsock2.h
 api_name:
  - ntohd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_SNAPSHOT_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
 req.redist: 

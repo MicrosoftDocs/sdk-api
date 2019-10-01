@@ -43,7 +43,6 @@ api_name:
  - FindAtom
  - FindAtomA
  - FindAtomW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

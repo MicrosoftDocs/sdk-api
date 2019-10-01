@@ -38,7 +38,6 @@ api_location:
  - EventSys.h
 api_name:
  - IEventPublisher.GetDefaultPropertyCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

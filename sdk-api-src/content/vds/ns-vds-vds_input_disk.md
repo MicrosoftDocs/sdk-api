@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_INPUT_DISK
-product: Windows
 targetos: Windows
 req.typenames: VDS_INPUT_DISK
 req.redist: 

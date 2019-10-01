@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbTaskInfo.StartTime
  - ITsSbTaskInfo.get_StartTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

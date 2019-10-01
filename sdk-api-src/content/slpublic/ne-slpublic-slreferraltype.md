@@ -38,7 +38,6 @@ api_location:
  - slpublic.h
 api_name:
  - SLREFERRALTYPE
-product: Windows
 targetos: Windows
 req.typenames: SLREFERRALTYPE
 req.redist: 

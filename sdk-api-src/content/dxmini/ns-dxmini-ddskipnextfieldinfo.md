@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDSKIPNEXTFIELDINFO
-product: Windows
 targetos: Windows
 req.typenames: DDSKIPNEXTFIELDINFO, *PDDSKIPNEXTFIELDINFO
 req.redist: 

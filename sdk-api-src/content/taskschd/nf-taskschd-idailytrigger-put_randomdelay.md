@@ -40,7 +40,6 @@ api_name:
  - IDailyTrigger.RandomDelay
  - IDailyTrigger.get_RandomDelay
  - IDailyTrigger.put_RandomDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

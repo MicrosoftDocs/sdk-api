@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_ENDPOINT
-product: Windows
 targetos: Windows
 req.typenames: PEER_ENDPOINT, *PPEER_ENDPOINT
 req.redist: 

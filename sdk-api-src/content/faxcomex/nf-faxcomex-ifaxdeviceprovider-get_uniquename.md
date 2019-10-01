@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.UniqueName
  - IFaxDeviceProvider.get_UniqueName
  - IFaxDeviceProvider.get_UniqueName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

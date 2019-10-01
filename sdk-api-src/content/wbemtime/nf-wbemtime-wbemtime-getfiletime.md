@@ -40,7 +40,6 @@ api_location:
 api_name:
  - WBEMTime.GetFILETIME
  - ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

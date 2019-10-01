@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SHELLEXECUTEINFO
  - SHELLEXECUTEINFOA
-product: Windows
 targetos: Windows
 req.typenames: SHELLEXECUTEINFOA, *LPSHELLEXECUTEINFOA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ldap_get_option
  - ldap_get_option
  - ldap_get_optionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

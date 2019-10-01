@@ -38,7 +38,6 @@ api_location:
  - portabledeviceconnectapi.h
 api_name:
  - IPortableDeviceConnector
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

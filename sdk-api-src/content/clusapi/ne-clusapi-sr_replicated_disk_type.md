@@ -39,7 +39,6 @@ api_location:
 - ClusApi.h
 api_name:
 - SR_REPLICATED_DISK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
 req.redist: 

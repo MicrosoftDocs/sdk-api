@@ -40,7 +40,6 @@ api_name:
 - WTSGetListenerSecurity
 - WTSGetListenerSecurityA
 - WTSGetListenerSecurityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

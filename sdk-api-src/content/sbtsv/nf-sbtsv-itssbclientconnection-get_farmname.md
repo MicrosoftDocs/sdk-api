@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.FarmName
  - ITsSbClientConnection.get_FarmName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

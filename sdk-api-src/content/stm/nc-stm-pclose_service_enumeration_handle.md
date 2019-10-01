@@ -38,7 +38,6 @@ api_location:
  - Stm.h
 api_name:
  - CloseServiceEnumerationHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

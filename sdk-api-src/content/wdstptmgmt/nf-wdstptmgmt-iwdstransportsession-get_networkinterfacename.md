@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSession.NetworkInterfaceName
  - IWdsTransportSession.get_NetworkInterfaceName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

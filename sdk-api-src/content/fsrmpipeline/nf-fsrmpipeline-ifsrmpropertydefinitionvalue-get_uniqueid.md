@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyDefinitionValue.UniqueID
  - IFsrmPropertyDefinitionValue.get_UniqueID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

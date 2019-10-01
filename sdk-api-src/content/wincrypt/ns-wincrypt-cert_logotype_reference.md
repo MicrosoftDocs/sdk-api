@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_LOGOTYPE_REFERENCE
-product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_REFERENCE, *PCERT_LOGOTYPE_REFERENCE
 req.redist: 

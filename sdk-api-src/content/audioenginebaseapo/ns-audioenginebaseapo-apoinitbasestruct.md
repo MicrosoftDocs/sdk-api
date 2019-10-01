@@ -38,7 +38,6 @@ api_location:
  - Audioenginebaseapo.h
 api_name:
  - APOInitBaseStruct
-product: Windows
 targetos: Windows
 req.typenames: APOInitBaseStruct
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - WinFax.dll
 api_name:
  - FaxRegisterServiceProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

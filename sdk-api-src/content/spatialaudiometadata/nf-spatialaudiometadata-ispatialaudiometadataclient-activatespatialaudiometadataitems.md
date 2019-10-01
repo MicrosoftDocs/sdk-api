@@ -38,7 +38,6 @@ api_location:
  - spatialaudiometadata.h
 api_name:
  - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

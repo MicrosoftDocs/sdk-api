@@ -39,7 +39,6 @@ api_location:
 - samcli.dll
 api_name:
 - NetValidatePasswordPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

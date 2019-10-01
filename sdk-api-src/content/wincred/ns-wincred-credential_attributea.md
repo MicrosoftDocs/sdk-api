@@ -38,7 +38,6 @@ api_location:
  - WinCred.h
 api_name:
  - CREDENTIAL_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA
 req.redist: 

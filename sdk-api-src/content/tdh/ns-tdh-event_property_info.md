@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - EVENT_PROPERTY_INFO
-product: Windows
 targetos: Windows
 req.typenames: EVENT_PROPERTY_INFO
 req.redist: 

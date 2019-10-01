@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_TUNNEL_POLICY1
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_POLICY1
 req.redist: 

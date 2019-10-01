@@ -40,7 +40,6 @@ api_name:
  - PdhExpandWildCardPath
  - PdhExpandWildCardPathA
  - PdhExpandWildCardPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

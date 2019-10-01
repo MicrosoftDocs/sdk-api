@@ -38,7 +38,6 @@ api_location:
  - Msdmo.dll
 api_name:
  - MoDeleteMediaType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - PACKAGE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: PACKAGE_VERSION
 req.redist: 

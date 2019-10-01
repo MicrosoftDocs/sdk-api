@@ -40,7 +40,6 @@ api_name:
  - ReportIscsiSendTargetPortalsEx
  - ReportIscsiSendTargetPortalsExA
  - ReportIscsiSendTargetPortalsExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

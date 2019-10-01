@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorSelect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

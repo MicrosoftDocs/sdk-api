@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.GetAttributesOf
 - IShellFolder2.GetAttributesOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

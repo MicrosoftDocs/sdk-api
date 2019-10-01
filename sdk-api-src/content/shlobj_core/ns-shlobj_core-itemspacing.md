@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - ITEMSPACING
-product: Windows
 targetos: Windows
 req.typenames: ITEMSPACING
 req.redist: 

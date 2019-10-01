@@ -38,7 +38,6 @@ api_location:
 - wlanui.dll
 api_name:
 - WlanUIEditProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

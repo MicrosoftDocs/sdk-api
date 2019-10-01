@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PREFERRED_DISPLAY_MODE
-product: Windows
 targetos: Windows
 req.typenames: DVD_PREFERRED_DISPLAY_MODE
 req.redist: 

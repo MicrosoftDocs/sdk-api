@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SECPKG_SUPPLIED_CREDENTIAL
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_SUPPLIED_CREDENTIAL, *PSECPKG_SUPPLIED_CREDENTIAL
 req.redist: 

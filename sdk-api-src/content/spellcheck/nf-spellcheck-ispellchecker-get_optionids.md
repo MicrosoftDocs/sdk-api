@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellChecker.OptionIds
  - ISpellChecker.get_OptionIds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

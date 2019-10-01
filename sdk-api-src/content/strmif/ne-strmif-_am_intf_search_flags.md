@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - _AM_INTF_SEARCH_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

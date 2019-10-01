@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiEnumDriverInfo
  - SetupDiEnumDriverInfoA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

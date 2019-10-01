@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DECIMATION_USAGE
-product: Windows
 targetos: Windows
 req.typenames: DECIMATION_USAGE
 req.redist: 

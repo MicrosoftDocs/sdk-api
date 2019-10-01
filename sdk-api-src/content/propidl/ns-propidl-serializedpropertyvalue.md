@@ -38,7 +38,6 @@ api_location:
  - Propidl.h
 api_name:
  - SERIALIZEDPROPERTYVALUE
-product: Windows
 targetos: Windows
 req.typenames: SERIALIZEDPROPERTYVALUE
 req.redist: 

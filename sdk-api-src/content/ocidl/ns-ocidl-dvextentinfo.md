@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - DVEXTENTINFO
-product: Windows
 targetos: Windows
 req.typenames: DVEXTENTINFO
 req.redist: 

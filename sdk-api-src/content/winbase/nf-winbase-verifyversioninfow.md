@@ -46,7 +46,6 @@ api_name:
 - VerifyVersionInfo
 - VerifyVersionInfoA
 - VerifyVersionInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

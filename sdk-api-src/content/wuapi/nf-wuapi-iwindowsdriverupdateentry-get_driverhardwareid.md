@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdateEntry.DriverHardwareID
  - IWindowsDriverUpdateEntry.get_DriverHardwareID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

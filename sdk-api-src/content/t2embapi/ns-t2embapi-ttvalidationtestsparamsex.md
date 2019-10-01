@@ -38,7 +38,6 @@ api_location:
  - T2embapi.h
 api_name:
  - TTVALIDATIONTESTSPARAMSEX
-product: Windows
 targetos: Windows
 req.typenames: TTVALIDATIONTESTSPARAMSEX
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msctf.dll
 api_name:
  - ITfInputScope.GetRegularExpression
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

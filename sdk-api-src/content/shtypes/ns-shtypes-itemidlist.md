@@ -38,7 +38,6 @@ api_location:
 - Shtypes.h
 api_name:
 - ITEMIDLIST
-product: Windows
 targetos: Windows
 req.typenames: ITEMIDLIST
 req.redist: 

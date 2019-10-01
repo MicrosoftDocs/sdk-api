@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IGuideData.GetServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

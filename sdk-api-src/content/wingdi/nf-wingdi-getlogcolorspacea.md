@@ -42,7 +42,6 @@ api_name:
  - GetLogColorSpace
  - GetLogColorSpaceA
  - GetLogColorSpaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMWriterAdvanced2.GetInputSetting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

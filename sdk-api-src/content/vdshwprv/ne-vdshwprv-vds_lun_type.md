@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_LUN_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_TYPE, *PVDS_LUN_TYPE
 req.redist: 

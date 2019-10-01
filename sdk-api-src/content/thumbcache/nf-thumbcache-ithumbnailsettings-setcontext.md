@@ -38,7 +38,6 @@ api_location:
  - Thumbcache.h
 api_name:
  - IThumbnailSettings.SetContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

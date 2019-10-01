@@ -38,7 +38,6 @@ api_location:
  - XpsObjectModel_2.h
 api_name:
  - IXpsDocumentPackageTarget3D.GetXpsOMFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

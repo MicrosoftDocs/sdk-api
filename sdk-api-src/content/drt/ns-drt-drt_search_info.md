@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_SEARCH_INFO
-product: Windows
 targetos: Windows
 req.typenames: DRT_SEARCH_INFO, *PDRT_SEARCH_INFO
 req.redist: 

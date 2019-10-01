@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - CommitTemplateFlags
-product: Windows
 targetos: Windows
 req.typenames: CommitTemplateFlags
 req.redist: 

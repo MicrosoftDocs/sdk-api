@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.InstallPKCS7
  - ICEnroll3.InstallPKCS7
  - CEnroll.InstallPKCS7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

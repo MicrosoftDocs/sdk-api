@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_OPTION_SCOPE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_SCOPE_TYPE, *LPDHCP_OPTION_SCOPE_TYPE
 req.redist: 

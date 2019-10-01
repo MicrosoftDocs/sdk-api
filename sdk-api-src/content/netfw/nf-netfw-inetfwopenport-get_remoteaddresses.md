@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.RemoteAddresses
  - INetFwOpenPort.get_RemoteAddresses
  - INetFwOpenPort.put_RemoteAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

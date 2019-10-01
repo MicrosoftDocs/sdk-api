@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CM_Open_Class_Key
  - CM_Open_Class_KeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

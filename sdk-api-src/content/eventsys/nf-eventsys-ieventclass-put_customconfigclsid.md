@@ -40,7 +40,6 @@ api_name:
  - IEventClass.CustomConfigCLSID
  - IEventClass.get_CustomConfigCLSID
  - IEventClass.put_CustomConfigCLSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - DnsModifyRecordsInSet_A
  - DnsModifyRecordsInSet_W
  - DnsModifyRecordsInSet_UTF8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

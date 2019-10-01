@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.MemoryUtilization
  - IWdsTransportClient.get_MemoryUtilization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

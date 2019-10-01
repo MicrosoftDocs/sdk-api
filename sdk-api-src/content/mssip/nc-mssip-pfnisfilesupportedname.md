@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - pfnIsFileSupportedName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

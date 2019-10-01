@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - GESTURECONFIG
-product: Windows
 targetos: Windows
 req.typenames: GESTURECONFIG, *PGESTURECONFIG
 req.redist: 

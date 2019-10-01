@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.OriginalScheduledTime
  - IFaxOutgoingMessage.get_OriginalScheduledTime
  - IFaxOutgoingMessage.get_OriginalScheduledTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

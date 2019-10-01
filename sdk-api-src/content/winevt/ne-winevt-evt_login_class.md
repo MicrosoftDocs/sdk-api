@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_LOGIN_CLASS
-product: Windows
 targetos: Windows
 req.typenames: EVT_LOGIN_CLASS
 req.redist: 

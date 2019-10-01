@@ -40,7 +40,6 @@ api_name:
  - WTSOpenServerEx
  - WTSOpenServerExA
  - WTSOpenServerExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_INSTANCES_POLICY
-product: Windows
 targetos: Windows
 req.typenames: TASK_INSTANCES_POLICY
 req.redist: 

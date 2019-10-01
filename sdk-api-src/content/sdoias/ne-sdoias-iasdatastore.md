@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - IASDATASTORE
-product: Windows
 targetos: Windows
 req.typenames: IASDATASTORE, *PIASDATASTORE
 req.redist: 

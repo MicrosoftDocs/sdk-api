@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.DeploymentAction
  - IUpdate.get_DeploymentAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_VIEWPORT_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
 req.redist: 

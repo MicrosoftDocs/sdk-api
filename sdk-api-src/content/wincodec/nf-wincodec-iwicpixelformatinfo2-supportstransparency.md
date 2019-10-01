@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICPixelFormatInfo2.SupportsTransparency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

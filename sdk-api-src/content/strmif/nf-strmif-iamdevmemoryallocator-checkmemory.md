@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - IAMDevMemoryAllocator.CheckMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

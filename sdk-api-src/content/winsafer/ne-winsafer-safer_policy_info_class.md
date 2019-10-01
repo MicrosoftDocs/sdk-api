@@ -38,7 +38,6 @@ api_location:
  - WinSafer.h
 api_name:
  - SAFER_POLICY_INFO_CLASS
-product: Windows
 targetos: Windows
 req.typenames: SAFER_POLICY_INFO_CLASS
 req.redist: 

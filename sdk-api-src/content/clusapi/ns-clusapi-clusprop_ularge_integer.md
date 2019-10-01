@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_ULARGE_INTEGER
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_ULARGE_INTEGER
 req.redist: 

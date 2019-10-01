@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.LocalSpectralInversionOverride
  - IDVBSLocator2.get_LocalSpectralInversionOverride
  - IDVBSLocator2.put_LocalSpectralInversionOverride
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

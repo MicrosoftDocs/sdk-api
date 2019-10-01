@@ -38,7 +38,6 @@ api_location:
  - Audioenginebaseapo.h
 api_name:
  - AudioFXExtensionParams
-product: Windows
 targetos: Windows
 req.typenames: AudioFXExtensionParams
 req.redist: 

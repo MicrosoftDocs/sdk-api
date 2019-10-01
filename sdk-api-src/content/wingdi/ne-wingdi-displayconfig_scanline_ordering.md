@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_SCANLINE_ORDERING
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
 req.redist: 

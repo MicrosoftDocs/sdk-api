@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - SYSKIND
-product: Windows
 targetos: Windows
 req.typenames: SYSKIND
 req.redist: 

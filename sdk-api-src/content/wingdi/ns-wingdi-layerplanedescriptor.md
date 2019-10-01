@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LAYERPLANEDESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
 req.redist: 

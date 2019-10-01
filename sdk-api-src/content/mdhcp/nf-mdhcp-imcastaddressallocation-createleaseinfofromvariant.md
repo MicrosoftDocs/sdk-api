@@ -38,7 +38,6 @@ api_location:
  - Mdhcp.dll
 api_name:
  - IMcastAddressAllocation.CreateLeaseInfoFromVariant
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

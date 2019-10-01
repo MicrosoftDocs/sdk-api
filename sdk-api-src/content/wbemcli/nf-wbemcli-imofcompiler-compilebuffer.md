@@ -38,7 +38,6 @@ api_location:
  - Mofd.dll
 api_name:
  - IMofCompiler.CompileBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMITEMACTIVATE
-product: Windows
 targetos: Windows
 req.typenames: NMITEMACTIVATE, *LPNMITEMACTIVATE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - MsiIsProductElevated
  - MsiIsProductElevatedA
  - MsiIsProductElevatedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CInstance.GetMethodContext
  - ?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ
  - ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

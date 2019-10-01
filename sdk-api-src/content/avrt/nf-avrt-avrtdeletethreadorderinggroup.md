@@ -38,7 +38,6 @@ api_location:
  - Avrt.dll
 api_name:
  - AvRtDeleteThreadOrderingGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

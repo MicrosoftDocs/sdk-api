@@ -38,7 +38,6 @@ api_location:
  - D2d1.dll
 api_name:
  - ID2D1VertexBuffer.Map
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

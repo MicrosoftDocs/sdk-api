@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_LISTEN_ENDPOINT_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_LISTEN_ENDPOINT_INFO, *PHTTP_LISTEN_ENDPOINT_INFO
 req.redist: 

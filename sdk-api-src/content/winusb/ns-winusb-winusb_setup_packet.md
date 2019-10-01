@@ -38,7 +38,6 @@ api_location:
  - winusb.h
 api_name:
  - WINUSB_SETUP_PACKET
-product: Windows
 targetos: Windows
 req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
 req.redist: 

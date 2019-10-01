@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DEBUGHOOKINFO
-product: Windows
 targetos: Windows
 req.typenames: DEBUGHOOKINFO, *PDEBUGHOOKINFO, *NPDEBUGHOOKINFO, *LPDEBUGHOOKINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Netplwiz.dll
 api_name:
  - IPublishingWizard.GetTransferManifest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

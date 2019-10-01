@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - ITuningSpaceContainer.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ExplorerFrame.dll
 api_name:
  - IFolderViewOptions.GetFolderViewOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

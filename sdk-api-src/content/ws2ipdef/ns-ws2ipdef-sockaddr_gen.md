@@ -39,7 +39,6 @@ api_location:
  - Ws2tcpip.h
 api_name:
  - sockaddr_gen
-product: Windows
 targetos: Windows
 req.typenames: sockaddr_gen
 req.redist: 

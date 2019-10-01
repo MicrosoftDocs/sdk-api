@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - UNSIGNED_RATIO
-product: Windows
 targetos: Windows
 req.typenames: UNSIGNED_RATIO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_ENCODING
-product: Windows
 targetos: Windows
 req.typenames: WS_ENCODING
 req.redist: 

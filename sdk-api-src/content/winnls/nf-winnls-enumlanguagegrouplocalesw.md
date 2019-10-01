@@ -48,7 +48,6 @@ api_name:
  - EnumLanguageGroupLocales
  - EnumLanguageGroupLocalesA
  - EnumLanguageGroupLocalesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

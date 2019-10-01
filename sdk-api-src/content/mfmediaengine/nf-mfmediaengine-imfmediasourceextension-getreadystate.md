@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFMediaSourceExtension.GetReadyState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

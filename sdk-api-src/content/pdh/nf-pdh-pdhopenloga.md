@@ -40,7 +40,6 @@ api_name:
  - PdhOpenLog
  - PdhOpenLogA
  - PdhOpenLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

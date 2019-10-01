@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Factoid
  - InkEdit.get_Factoid
  - InkEdit.put_Factoid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

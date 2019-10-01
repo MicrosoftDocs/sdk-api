@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowProvider.CanMaximize
  - IWindowProvider.get_CanMaximize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

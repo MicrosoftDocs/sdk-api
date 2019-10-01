@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmCollection.State
  - IFsrmCollection.get_State
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

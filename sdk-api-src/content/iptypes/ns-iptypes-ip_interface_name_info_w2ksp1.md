@@ -38,7 +38,6 @@ api_location:
 - Iptypes.h
 api_name:
 - IP_INTERFACE_NAME_INFO
-product: Windows
 targetos: Windows
 req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
 req.redist: 

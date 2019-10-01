@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_QUERY_FLOW
-product: Windows
 targetos: Windows
 req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
 req.redist: 

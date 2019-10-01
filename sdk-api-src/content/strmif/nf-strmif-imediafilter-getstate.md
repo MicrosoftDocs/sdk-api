@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IMediaFilter.GetState
  - IBaseFilter.GetState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

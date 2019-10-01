@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.SupersededUpdateIDs
  - IUpdate.get_SupersededUpdateIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

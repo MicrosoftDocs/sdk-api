@@ -38,7 +38,6 @@ api_location:
  - Wtsapi32.Dll
 api_name:
  - WTSVirtualChannelWrite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

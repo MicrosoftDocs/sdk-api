@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETSURFACESTATEIN
-product: Windows
 targetos: Windows
 req.typenames: DDGETSURFACESTATEIN, *LPDDGETSURFACESTATEIN
 req.redist: 

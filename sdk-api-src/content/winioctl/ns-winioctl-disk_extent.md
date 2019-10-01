@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DISK_EXTENT
-product: Windows
 targetos: Windows
 req.typenames: DISK_EXTENT, *PDISK_EXTENT
 req.redist: 

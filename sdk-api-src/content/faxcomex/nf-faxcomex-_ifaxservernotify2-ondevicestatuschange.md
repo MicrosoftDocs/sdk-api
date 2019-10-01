@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnDeviceStatusChange
  - IFaxServerNotify2.OnDeviceStatusChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

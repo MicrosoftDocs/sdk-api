@@ -40,7 +40,6 @@ api_name:
  - OLEUIPASTEENTRY
  - OLEUIPASTEENTRYA
  - OLEUIPASTEENTRYW
-product: Windows
 targetos: Windows
 req.typenames: OLEUIPASTEENTRYA, *POLEUIPASTEENTRYA, *LPOLEUIPASTEENTRYA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.FileNameFormatPattern
  - IDataCollector.get_FileNameFormatPattern
  - IDataCollector.put_FileNameFormatPattern
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

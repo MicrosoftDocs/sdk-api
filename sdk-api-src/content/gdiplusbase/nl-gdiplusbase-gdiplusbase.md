@@ -38,7 +38,6 @@ api_location:
  - gdiplusbase.h
 api_name:
  - GdiplusBase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

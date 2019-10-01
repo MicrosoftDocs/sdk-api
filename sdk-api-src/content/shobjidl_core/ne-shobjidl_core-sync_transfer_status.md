@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - SYNC_TRANSFER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SYNC_TRANSFER_STATUS
 req.redist: 

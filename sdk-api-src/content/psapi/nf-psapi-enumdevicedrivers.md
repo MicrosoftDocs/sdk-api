@@ -43,7 +43,6 @@ api_location:
 api_name:
  - EnumDeviceDrivers
  - K32EnumDeviceDrivers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - DELETE_SNAPSHOT_VHDSET_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DELETE_SNAPSHOT_VHDSET_FLAG, *PDELETE_SNAPSHOT_VHDSET_FLAG
 req.redist: 

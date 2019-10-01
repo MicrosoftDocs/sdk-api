@@ -38,7 +38,6 @@ api_location:
  - Query.dll
 api_name:
  - CIShutdown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

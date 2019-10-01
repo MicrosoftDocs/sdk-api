@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_USN_TRACK_MODIFIED_RANGES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

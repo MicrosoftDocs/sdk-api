@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - FILE_FULL_DIR_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_FULL_DIR_INFO, *PFILE_FULL_DIR_INFO
 req.redist: 

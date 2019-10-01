@@ -38,7 +38,6 @@ api_location:
 - Dsrole.h
 api_name:
 - DSROLE_PRIMARY_DOMAIN_INFO_BASIC
-product: Windows
 targetos: Windows
 req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_BASIC, *PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
 req.redist: 

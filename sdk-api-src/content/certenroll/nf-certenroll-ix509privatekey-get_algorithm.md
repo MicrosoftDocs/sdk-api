@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Algorithm
  - IX509PrivateKey.get_Algorithm
  - IX509PrivateKey.put_Algorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

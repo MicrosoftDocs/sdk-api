@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCore.h
 api_name:
  - IAccessibleEx.ConvertReturnedElement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Priority
  - IFaxPort.get_Priority
  - IFaxPort.put_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

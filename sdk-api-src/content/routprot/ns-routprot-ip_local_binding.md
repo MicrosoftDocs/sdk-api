@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - IP_LOCAL_BINDING
-product: Windows
 targetos: Windows
 req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
 req.redist: 

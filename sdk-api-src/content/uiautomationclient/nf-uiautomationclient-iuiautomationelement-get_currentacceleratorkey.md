@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentAcceleratorKey
  - IUIAutomationElement.get_CurrentAcceleratorKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

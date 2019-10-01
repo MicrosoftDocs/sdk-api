@@ -40,7 +40,6 @@ api_name:
  - SaslEnumerateProfiles
  - SaslEnumerateProfilesA
  - SaslEnumerateProfilesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

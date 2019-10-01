@@ -38,7 +38,6 @@ api_location:
  - DirectXCollision.h
 api_name:
  - BoundingOrientedBox.CreateFromBoundingBox
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

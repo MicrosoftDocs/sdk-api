@@ -38,7 +38,6 @@ api_location:
  - Winsock2.h
 api_name:
  - WSANETWORKEVENTS
-product: Windows
 targetos: Windows
 req.typenames: WSANETWORKEVENTS, *LPWSANETWORKEVENTS
 req.redist: 

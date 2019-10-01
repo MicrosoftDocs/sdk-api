@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.AutoCreateAccountOnConnect
  - IFaxConfiguration.get_AutoCreateAccountOnConnect
  - IFaxConfiguration.put_AutoCreateAccountOnConnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

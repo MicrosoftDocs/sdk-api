@@ -38,7 +38,6 @@ api_location:
 - processsnapshot.h
 api_name:
 - PSS_WALK_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: PSS_WALK_INFORMATION_CLASS
 req.redist: 

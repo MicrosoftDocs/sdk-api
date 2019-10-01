@@ -38,7 +38,6 @@ api_location:
  - Winwlx.h
 api_name:
  - WLX_TERMINAL_SERVICES_DATA
-product: Windows
 targetos: Windows
 req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
 req.redist: 

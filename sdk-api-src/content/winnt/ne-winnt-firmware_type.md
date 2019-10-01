@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - FIRMWARE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FIRMWARE_TYPE, *PFIRMWARE_TYPE
 req.redist: 

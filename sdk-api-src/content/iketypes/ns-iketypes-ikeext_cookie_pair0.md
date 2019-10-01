@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_COOKIE_PAIR0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_COOKIE_PAIR0
 req.redist: 

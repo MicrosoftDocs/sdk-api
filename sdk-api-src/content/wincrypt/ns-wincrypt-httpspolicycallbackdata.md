@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - HTTPSPolicyCallbackData
-product: Windows
 targetos: Windows
 req.typenames: HTTPSPolicyCallbackData, *PHTTPSPolicyCallbackData, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemPrivilegeEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemPrivilegeEnum
 req.redist: 

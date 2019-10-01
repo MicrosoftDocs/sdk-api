@@ -40,7 +40,6 @@ api_name:
  - ICMENUMPROC
  - ICMENUMPROCA
  - ICMENUMPROCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

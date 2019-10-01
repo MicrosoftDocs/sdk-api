@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
-product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RdpEncom.dll
 api_name:
  - IRDPSRAPITransportStream.Open
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

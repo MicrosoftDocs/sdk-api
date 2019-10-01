@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_Priority
  - IFaxDocument.get_Priority
  - IFaxDocument.put_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

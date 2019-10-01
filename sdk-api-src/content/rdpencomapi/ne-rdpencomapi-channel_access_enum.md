@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - CHANNEL_ACCESS_ENUM
-product: Windows
 targetos: Windows
 req.typenames: CHANNEL_ACCESS_ENUM
 req.redist: 

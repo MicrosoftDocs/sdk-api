@@ -38,7 +38,6 @@ api_location:
  - EhStorExtensions.h
 api_name:
  - ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 req.redist: 

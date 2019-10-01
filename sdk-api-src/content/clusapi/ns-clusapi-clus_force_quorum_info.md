@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_FORCE_QUORUM_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
 req.redist: 

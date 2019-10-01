@@ -38,7 +38,6 @@ api_location:
  - Rpcasync.h
 api_name:
  - RpcCallType
-product: Windows
 targetos: Windows
 req.typenames: RpcCallType
 req.redist: 

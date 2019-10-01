@@ -39,7 +39,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_PREFIX_ORIGIN
-product: Windows
 targetos: Windows
 req.typenames: NL_PREFIX_ORIGIN
 req.redist: 

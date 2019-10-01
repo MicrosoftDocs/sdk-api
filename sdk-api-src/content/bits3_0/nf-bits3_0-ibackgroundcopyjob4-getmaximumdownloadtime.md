@@ -39,7 +39,6 @@ api_location:
  - Bits.dll
 api_name:
  - IBackgroundCopyJob4.GetMaximumDownloadTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

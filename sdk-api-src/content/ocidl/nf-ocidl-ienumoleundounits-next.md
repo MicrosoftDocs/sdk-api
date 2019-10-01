@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IEnumOleUndoUnits.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

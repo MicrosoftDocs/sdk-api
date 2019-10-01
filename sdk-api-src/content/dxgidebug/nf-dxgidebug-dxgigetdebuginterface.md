@@ -38,7 +38,6 @@ api_location:
  - Dxgidebug.dll
 api_name:
  - DXGIGetDebugInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

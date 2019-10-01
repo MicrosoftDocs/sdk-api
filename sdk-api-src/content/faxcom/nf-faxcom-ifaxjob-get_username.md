@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.UserName
  - IFaxJob.get_UserName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

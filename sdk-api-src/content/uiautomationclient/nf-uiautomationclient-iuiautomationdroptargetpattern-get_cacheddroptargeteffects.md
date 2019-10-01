@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDropTargetPattern.CachedDropTargetEffects
  - IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

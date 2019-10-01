@@ -38,7 +38,6 @@ api_location:
  - Prsht.h
 api_name:
  - PropSheet_EnableWizButtons
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.ManagementQueries
  - IConfigurationDataCollector.get_ManagementQueries
  - IConfigurationDataCollector.put_ManagementQueries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

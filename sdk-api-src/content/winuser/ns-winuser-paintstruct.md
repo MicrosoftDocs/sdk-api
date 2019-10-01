@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - PAINTSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: PAINTSTRUCT, *PPAINTSTRUCT, *NPPAINTSTRUCT, *LPPAINTSTRUCT
 req.redist: 

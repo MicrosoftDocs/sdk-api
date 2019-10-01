@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionReport.ReportTypes
  - IFsrmActionReport.get_ReportTypes
  - IFsrmActionReport.put_ReportTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

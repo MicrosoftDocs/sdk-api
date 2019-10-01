@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMSCEPSetup.MSCEPErrorId
  - IMSCEPSetup.get_MSCEPErrorId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RESTOREPOINTINFO
  - RESTOREPOINTINFOA
  - RESTOREPOINTINFOW
-product: Windows
 targetos: Windows
 req.typenames: RESTOREPOINTINFOW, *PRESTOREPOINTINFOW
 req.redist: 

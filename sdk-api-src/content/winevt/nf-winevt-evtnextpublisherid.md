@@ -38,7 +38,6 @@ api_location:
  - Wevtapi.dll
 api_name:
  - EvtNextPublisherId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

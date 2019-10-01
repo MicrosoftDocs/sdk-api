@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETAUTOFLIPOUT
-product: Windows
 targetos: Windows
 req.typenames: DDGETAUTOFLIPOUT, *LPDDGETAUTOFLIPOUT
 req.redist: 

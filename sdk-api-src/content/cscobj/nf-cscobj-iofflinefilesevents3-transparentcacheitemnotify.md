@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesEvents3.TransparentCacheItemNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

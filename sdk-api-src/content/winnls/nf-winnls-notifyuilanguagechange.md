@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Kernel32-localization-l1-1-0.dll
 api_name:
  - NotifyUILanguageChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

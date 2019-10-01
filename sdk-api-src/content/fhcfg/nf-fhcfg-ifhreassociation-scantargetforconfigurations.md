@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFhReassociation.ScanTargetForConfigurations
  - FhReassociation.ScanTargetForConfigurations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileScreenManager.GetFileScreen
  - FsrmFileScreenManager.GetFileScreen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

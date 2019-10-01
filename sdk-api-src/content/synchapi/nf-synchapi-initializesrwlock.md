@@ -44,7 +44,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - InitializeSRWLock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

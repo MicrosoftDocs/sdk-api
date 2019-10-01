@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.LastAccessTime
  - IFsrmPropertyBag.get_LastAccessTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

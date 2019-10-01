@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.RemoveStream
  - IWMProfile2.RemoveStream
  - IWMProfile3.RemoveStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

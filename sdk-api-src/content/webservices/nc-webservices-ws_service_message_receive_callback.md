@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

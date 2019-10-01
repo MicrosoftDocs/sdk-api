@@ -40,7 +40,6 @@ api_name:
  - PdhUpdateLog
  - PdhUpdateLogA
  - PdhUpdateLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

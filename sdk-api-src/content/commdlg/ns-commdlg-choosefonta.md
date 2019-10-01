@@ -40,7 +40,6 @@ api_name:
  - CHOOSEFONT
  - CHOOSEFONTA
  - CHOOSEFONTW
-product: Windows
 targetos: Windows
 req.typenames: CHOOSEFONTA
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.DeviceName
  - IFaxStatus.get_DeviceName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

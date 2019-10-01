@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
-product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, *PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 req.redist: 

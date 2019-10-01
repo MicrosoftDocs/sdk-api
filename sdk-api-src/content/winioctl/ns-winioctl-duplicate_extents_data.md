@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - DUPLICATE_EXTENTS_DATA
-product: Windows
 targetos: Windows
 req.typenames: DUPLICATE_EXTENTS_DATA, *PDUPLICATE_EXTENTS_DATA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - RPC_SECURITY_QOS_V4
 - RPC_SECURITY_QOS_V4_A
 - RPC_SECURITY_QOS_V4_W
-product: Windows
 targetos: Windows
 req.typenames: RPC_SECURITY_QOS_V4_A, *PRPC_SECURITY_QOS_V4_A
 req.redist: 

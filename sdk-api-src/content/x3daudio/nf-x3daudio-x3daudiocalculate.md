@@ -39,7 +39,6 @@ api_location:
  - xaudio2.dll
 api_name:
  - X3DAudioCalculate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSpreadsheetItemPattern.CachedFormula
  - IUIAutomationSpreadsheetItemPattern.get_CachedFormula
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - ADMINISTRATOR_POWER_POLICY
-product: Windows
 targetos: Windows
 req.typenames: ADMINISTRATOR_POWER_POLICY, *PADMINISTRATOR_POWER_POLICY
 req.redist: 

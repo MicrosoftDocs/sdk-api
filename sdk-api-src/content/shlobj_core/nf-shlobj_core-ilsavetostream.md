@@ -41,7 +41,6 @@ api_location:
 - Windows.Storage.dll
 api_name:
 - ILSaveToStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OleAuto.h
 api_name:
  - INTERFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: INTERFACEDATA, *LPINTERFACEDATA
 req.redist: 

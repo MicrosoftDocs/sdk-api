@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - AgileReferenceOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

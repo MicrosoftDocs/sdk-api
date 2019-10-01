@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

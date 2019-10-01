@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_SWAP_EFFECT
-product: Windows
 targetos: Windows
 req.typenames: DXGI_SWAP_EFFECT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IDataManager.Enabled
  - IDataManager.get_Enabled
  - IDataManager.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

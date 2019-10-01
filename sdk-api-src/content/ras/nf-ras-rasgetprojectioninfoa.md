@@ -42,7 +42,6 @@ api_name:
  - RasGetProjectionInfo
  - RasGetProjectionInfoA
  - RasGetProjectionInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

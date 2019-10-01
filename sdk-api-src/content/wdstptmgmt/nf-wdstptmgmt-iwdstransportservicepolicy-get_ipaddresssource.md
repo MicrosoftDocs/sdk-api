@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy.IpAddressSource
  - IWdsTransportServicePolicy.get_IpAddressSource
  - IWdsTransportServicePolicy.put_IpAddressSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

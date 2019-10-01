@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - SHSTOCKICONID
-product: Windows
 targetos: Windows
 req.typenames: SHSTOCKICONID
 req.redist: 

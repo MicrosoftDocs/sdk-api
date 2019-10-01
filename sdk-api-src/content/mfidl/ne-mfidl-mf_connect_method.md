@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_CONNECT_METHOD
-product: Windows
 targetos: Windows
 req.typenames: MF_CONNECT_METHOD
 req.redist: 

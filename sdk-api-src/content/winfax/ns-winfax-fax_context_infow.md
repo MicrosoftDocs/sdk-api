@@ -40,7 +40,6 @@ api_name:
  - FAX_CONTEXT_INFO
  - FAX_CONTEXT_INFOA
  - FAX_CONTEXT_INFOW
-product: Windows
 targetos: Windows
 req.typenames: FAX_CONTEXT_INFOW, *PFAX_CONTEXT_INFOW
 req.redist: 

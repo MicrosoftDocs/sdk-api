@@ -41,7 +41,6 @@ api_name:
  - ICEnroll4.get_PrivateKeyArchiveCertificate
  - ICEnroll4.put_PrivateKeyArchiveCertificate
  - CEnroll.PrivateKeyArchiveCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

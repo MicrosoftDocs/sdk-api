@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - TOUCHINPUT
-product: Windows
 targetos: Windows
 req.typenames: TOUCHINPUT, *PTOUCHINPUT
 req.redist: 

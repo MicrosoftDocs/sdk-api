@@ -38,7 +38,6 @@ api_location:
  - Mfobjects.h
 api_name:
  - IMFAsyncCallbackLogging.GetObjectPointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

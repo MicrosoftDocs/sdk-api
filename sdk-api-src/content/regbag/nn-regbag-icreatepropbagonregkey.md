@@ -38,7 +38,6 @@ api_location:
  - regbag.h
 api_name:
  - ICreatePropBagOnRegKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

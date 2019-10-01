@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_NET_EVENT2
-product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT2
 req.redist: 

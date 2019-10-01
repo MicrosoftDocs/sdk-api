@@ -38,7 +38,6 @@ api_location:
  - xapofx.h
 api_name:
  - FXEQ_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: FXEQ_PARAMETERS
 req.redist: 

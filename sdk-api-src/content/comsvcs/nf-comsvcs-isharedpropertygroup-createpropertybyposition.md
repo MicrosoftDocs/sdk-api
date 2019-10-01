@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ISharedPropertyGroup.CreatePropertyByPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

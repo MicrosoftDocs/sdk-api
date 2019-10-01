@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - IFilter.BindRegion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

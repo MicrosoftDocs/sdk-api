@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CurrentAnnotationTypeId
  - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

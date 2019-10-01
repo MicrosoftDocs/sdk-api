@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - CD3D11_BOX.operator const D3D11_BOX&
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

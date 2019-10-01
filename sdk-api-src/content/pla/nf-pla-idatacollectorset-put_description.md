@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Description
  - IDataCollectorSet.get_Description
  - IDataCollectorSet.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

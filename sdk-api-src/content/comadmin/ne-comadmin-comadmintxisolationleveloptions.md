@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - COMAdminTxIsolationLevelOptions
-product: Windows
 targetos: Windows
 req.typenames: COMAdminTxIsolationLevelOptions
 req.redist: 

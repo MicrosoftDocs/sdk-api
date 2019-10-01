@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_CONTROL_OBJECT
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CONTROL_OBJECT
 req.redist: 

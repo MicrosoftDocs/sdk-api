@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_CALLBACK_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: CF_CALLBACK_REGISTRATION
 req.redist: 

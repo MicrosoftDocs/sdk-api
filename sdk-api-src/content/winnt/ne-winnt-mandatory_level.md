@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - MANDATORY_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
 req.redist: 

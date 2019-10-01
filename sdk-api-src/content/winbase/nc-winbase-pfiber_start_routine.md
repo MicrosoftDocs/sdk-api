@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - PFIBER_START_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_DiseqCommand.put_DiseqSendCommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - SENSORPROFILEID
-product: Windows
 targetos: Windows
 req.typenames: SENSORPROFILEID
 req.redist: 

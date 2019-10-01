@@ -38,7 +38,6 @@ api_location:
  - Aclui.h
 api_name:
  - IEffectivePermission
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

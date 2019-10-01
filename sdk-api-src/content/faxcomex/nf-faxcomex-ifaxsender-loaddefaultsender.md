@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxSender.LoadDefaultSender
  - IFaxSender.LoadDefaultSender
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

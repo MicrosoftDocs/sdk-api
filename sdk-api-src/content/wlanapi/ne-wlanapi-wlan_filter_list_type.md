@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_FILTER_LIST_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
 req.redist: 

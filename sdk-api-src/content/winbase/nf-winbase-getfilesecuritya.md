@@ -49,7 +49,6 @@ api_name:
 - GetFileSecurity
 - GetFileSecurityA
 - GetFileSecurityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

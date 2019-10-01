@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.isMemberOf
  - IWMPMedia2.isMemberOf
  - IWMPMedia3.isMemberOf
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

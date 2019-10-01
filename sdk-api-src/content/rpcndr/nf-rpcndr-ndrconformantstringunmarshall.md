@@ -38,7 +38,6 @@ api_location:
 - RpcRT4.dll
 api_name:
 - NdrConformantStringUnmarshall
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

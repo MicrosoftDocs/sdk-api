@@ -38,7 +38,6 @@ api_location:
  - Syncregistration.h
 api_name:
  - ISyncRegistrationChange.GetEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

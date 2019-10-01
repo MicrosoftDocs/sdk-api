@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_XML_UNIQUE_ID_TEXT
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_UNIQUE_ID_TEXT
 req.redist: 

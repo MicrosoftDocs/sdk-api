@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Text
  - InkEdit.get_Text
  - InkEdit.put_Text
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

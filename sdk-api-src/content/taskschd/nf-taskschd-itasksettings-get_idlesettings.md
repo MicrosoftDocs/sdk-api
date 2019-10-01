@@ -40,7 +40,6 @@ api_name:
 - ITaskSettings.IdleSettings
 - ITaskSettings.get_IdleSettings
 - ITaskSettings.put_IdleSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

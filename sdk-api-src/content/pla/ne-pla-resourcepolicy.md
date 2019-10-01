@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - ResourcePolicy
-product: Windows
 targetos: Windows
 req.typenames: ResourcePolicy
 req.redist: 

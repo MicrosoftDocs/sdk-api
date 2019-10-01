@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - NWMF
-product: Windows
 targetos: Windows
 req.typenames: NWMF
 req.redist: 

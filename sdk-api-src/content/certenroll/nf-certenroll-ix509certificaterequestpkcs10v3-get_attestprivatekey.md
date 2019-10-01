@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestPkcs10V3.AttestPrivateKey
  - IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
  - IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

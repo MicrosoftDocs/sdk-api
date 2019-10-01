@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - IAudioEndpointRT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

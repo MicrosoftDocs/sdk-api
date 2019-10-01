@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRenderer.get_FramesPerSecond
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

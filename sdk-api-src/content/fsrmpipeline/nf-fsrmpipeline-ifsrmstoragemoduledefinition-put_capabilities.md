@@ -40,7 +40,6 @@ api_name:
  - IFsrmStorageModuleDefinition.Capabilities
  - IFsrmStorageModuleDefinition.get_Capabilities
  - IFsrmStorageModuleDefinition.put_Capabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

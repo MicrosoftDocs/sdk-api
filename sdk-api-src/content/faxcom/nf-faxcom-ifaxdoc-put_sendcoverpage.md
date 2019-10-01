@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.SendCoverpage
  - IFaxDoc.get_SendCoverpage
  - IFaxDoc.put_SendCoverpage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

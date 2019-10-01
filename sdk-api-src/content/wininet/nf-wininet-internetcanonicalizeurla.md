@@ -40,7 +40,6 @@ api_name:
  - InternetCanonicalizeUrl
  - InternetCanonicalizeUrlA
  - InternetCanonicalizeUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - VER_SET_CONDITION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

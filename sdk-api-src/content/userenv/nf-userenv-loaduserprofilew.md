@@ -40,7 +40,6 @@ api_name:
 - LoadUserProfile
 - LoadUserProfileA
 - LoadUserProfileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

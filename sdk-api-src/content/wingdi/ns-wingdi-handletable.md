@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - HANDLETABLE
-product: Windows
 targetos: Windows
 req.typenames: HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mswsock.dll
 api_name:
  - WSARecvEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

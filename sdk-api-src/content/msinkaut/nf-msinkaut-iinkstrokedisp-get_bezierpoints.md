@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.BezierPoints
  - IInkStrokeDisp.get_BezierPoints
  - IInkStrokeDisp.get_BezierPoints
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

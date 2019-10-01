@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFT_REGISTRATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: MFT_REGISTRATION_INFO
 req.redist: 

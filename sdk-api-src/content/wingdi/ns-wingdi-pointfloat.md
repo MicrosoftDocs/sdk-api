@@ -38,7 +38,6 @@ api_location:
 - wingdi.h
 api_name:
 - POINTFLOAT
-product: Windows
 targetos: Windows
 req.typenames: POINTFLOAT, *PPOINTFLOAT
 req.redist: 

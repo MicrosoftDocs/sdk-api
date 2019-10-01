@@ -43,7 +43,6 @@ api_name:
  - IInkTransform.put_eDy
  - InkTransform.get_eDy
  - InkTransform.put_eDy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

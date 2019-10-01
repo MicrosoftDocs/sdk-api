@@ -40,7 +40,6 @@ api_name:
  - InternetGetLastResponseInfo
  - InternetGetLastResponseInfoA
  - InternetGetLastResponseInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_GRAPH_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: PEER_GRAPH_PROPERTIES, *PPEER_GRAPH_PROPERTIES
 req.redist: 

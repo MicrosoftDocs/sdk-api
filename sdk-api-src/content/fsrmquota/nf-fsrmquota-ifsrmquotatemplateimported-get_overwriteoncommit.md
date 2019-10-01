@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaTemplateImported.OverwriteOnCommit
  - IFsrmQuotaTemplateImported.get_OverwriteOnCommit
  - IFsrmQuotaTemplateImported.put_OverwriteOnCommit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

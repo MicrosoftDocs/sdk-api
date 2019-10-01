@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_STREAM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_STREAM_TYPE
 req.redist: DbgHelp.dll 5.1 or later

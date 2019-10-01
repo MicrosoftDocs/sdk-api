@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.dll
 api_name:
  - IUICommandHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

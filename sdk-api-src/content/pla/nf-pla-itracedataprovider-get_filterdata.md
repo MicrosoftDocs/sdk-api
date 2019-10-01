@@ -40,7 +40,6 @@ api_name:
  - ITraceDataProvider.FilterData
  - ITraceDataProvider.get_FilterData
  - ITraceDataProvider.put_FilterData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IExtractIcon.Extract
  - IExtractIconA::Extract
  - IExtractIconW::Extract
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

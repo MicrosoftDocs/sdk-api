@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetDescription
  - IShellLinkA.SetDescription
  - IShellLinkW.SetDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

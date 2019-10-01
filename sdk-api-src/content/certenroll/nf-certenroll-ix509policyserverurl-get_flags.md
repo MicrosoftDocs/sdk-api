@@ -40,7 +40,6 @@ api_name:
  - IX509PolicyServerUrl.Flags
  - IX509PolicyServerUrl.get_Flags
  - IX509PolicyServerUrl.put_Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

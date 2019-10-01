@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IPFORWARDROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPFORWARDROW, *PMIB_IPFORWARDROW
 req.redist: 

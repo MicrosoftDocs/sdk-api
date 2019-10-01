@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEventSystem.EventObjectChangeEventClassID
  - IEventSystem.get_EventObjectChangeEventClassID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

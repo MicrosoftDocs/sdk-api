@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_UDPROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_UDPROW, *PMIB_UDPROW
 req.redist: 

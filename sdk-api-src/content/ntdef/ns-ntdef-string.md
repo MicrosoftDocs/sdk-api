@@ -38,7 +38,6 @@ api_location:
  - Ntdef.h
 api_name:
  - ANSI_STRING
-product: Windows
 targetos: Windows
 req.typenames: STRING
 req.redist: 

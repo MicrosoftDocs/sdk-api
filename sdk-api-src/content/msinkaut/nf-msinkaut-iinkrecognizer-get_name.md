@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.Name
  - IInkRecognizer.get_Name
  - IInkRecognizer.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

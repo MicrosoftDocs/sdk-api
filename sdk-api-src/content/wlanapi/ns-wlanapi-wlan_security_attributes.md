@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_SECURITY_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: WLAN_SECURITY_ATTRIBUTES, *PWLAN_SECURITY_ATTRIBUTES
 req.redist: Wireless LAN API for Windows XP with SP2

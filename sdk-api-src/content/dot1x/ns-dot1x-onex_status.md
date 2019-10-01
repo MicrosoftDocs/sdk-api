@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_STATUS
-product: Windows
 targetos: Windows
 req.typenames: ONEX_STATUS, *PONEX_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Audiosessiontypes.h
 api_name:
  - AudioSessionState
-product: Windows
 targetos: Windows
 req.typenames: AudioSessionState
 req.redist: 

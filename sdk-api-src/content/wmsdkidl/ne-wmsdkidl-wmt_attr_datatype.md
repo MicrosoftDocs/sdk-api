@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_ATTR_DATATYPE
-product: Windows
 targetos: Windows
 req.typenames: WMT_ATTR_DATATYPE
 req.redist: 

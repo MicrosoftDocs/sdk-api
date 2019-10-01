@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_LOGGING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE
 req.redist: 

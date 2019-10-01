@@ -38,7 +38,6 @@ api_location:
  - prntvpt.dll
 api_name:
  - PTReleaseMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

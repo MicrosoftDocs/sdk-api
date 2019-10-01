@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - MAT2
-product: Windows
 targetos: Windows
 req.typenames: MAT2, *LPMAT2
 req.redist: 

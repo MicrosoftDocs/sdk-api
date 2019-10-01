@@ -41,7 +41,6 @@ api_location:
  - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
  - DsFreePasswordCredentials
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

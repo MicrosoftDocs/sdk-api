@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateServiceCollection.Item
  - IUpdateServiceCollection.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

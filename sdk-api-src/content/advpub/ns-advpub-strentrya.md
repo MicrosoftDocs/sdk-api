@@ -38,7 +38,6 @@ api_location:
  - advpack.lib
 api_name:
  - STRENTRYA
-product: Windows
 targetos: Windows
 req.typenames: STRENTRYA, *LPSTRENTRYA
 req.redist: 

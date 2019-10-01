@@ -50,7 +50,6 @@ api_name:
  - GetWindowText
  - GetWindowTextA
  - GetWindowTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - SHRegDeleteUSValue
  - SHRegDeleteUSValueA
  - SHRegDeleteUSValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

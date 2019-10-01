@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ATTRIBUTE_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_ATTRIBUTE_DESCRIPTION
 req.redist: 

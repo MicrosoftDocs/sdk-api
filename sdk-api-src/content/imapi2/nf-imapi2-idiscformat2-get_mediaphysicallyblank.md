@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IDiscFormat2.get_MediaPhysicallyBlank
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

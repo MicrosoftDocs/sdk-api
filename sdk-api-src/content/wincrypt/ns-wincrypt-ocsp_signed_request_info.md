@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - OCSP_SIGNED_REQUEST_INFO
-product: Windows
 targetos: Windows
 req.typenames: OCSP_SIGNED_REQUEST_INFO, *POCSP_SIGNED_REQUEST_INFO
 req.redist: 

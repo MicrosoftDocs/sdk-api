@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFPOLICYMANAGER_ACTION
-product: Windows
 targetos: Windows
 req.typenames: MFPOLICYMANAGER_ACTION
 req.redist: 

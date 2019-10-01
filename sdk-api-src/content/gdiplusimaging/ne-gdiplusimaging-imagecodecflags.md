@@ -38,7 +38,6 @@ api_location:
  - Gdiplusimaging.h
 api_name:
  - ImageCodecFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

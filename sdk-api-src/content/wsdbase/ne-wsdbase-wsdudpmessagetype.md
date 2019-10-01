@@ -38,7 +38,6 @@ api_location:
  - Wsdbase.h
 api_name:
  - WSDUdpMessageType
-product: Windows
 targetos: Windows
 req.typenames: WSDUdpMessageType
 req.redist: 

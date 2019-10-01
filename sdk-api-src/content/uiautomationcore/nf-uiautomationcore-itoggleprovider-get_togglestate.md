@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IToggleProvider.ToggleState
  - IToggleProvider.get_ToggleState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

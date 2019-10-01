@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RAWKEYBOARD
-product: Windows
 targetos: Windows
 req.typenames: RAWKEYBOARD, *PRAWKEYBOARD, *LPRAWKEYBOARD
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IShellFolder.ParseDisplayName
 - IShellFolder2.ParseDisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

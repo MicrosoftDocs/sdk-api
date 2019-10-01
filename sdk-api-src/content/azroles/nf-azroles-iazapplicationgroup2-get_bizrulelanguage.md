@@ -40,7 +40,6 @@ api_name:
  - IAzApplicationGroup2.BizRuleLanguage
  - IAzApplicationGroup2.get_BizRuleLanguage
  - IAzApplicationGroup2.put_BizRuleLanguage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

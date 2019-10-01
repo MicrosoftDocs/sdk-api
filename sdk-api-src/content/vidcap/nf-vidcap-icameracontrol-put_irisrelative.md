@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICameraControl.put_IrisRelative
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

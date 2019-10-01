@@ -38,7 +38,6 @@ api_location:
  - fwpmtypes.h
 api_name:
  - FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_CLASSIFY_DROP_MAC0
 req.redist: 

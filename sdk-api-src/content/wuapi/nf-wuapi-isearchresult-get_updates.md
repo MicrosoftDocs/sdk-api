@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISearchResult.Updates
  - ISearchResult.get_Updates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

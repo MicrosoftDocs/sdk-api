@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.SetRequestAttributes
  - ICertAdmin.SetRequestAttributes
  - CCertAdmin.SetRequestAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

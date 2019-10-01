@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ROWSETEVENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ROWSETEVENT_TYPE
 req.redist: 

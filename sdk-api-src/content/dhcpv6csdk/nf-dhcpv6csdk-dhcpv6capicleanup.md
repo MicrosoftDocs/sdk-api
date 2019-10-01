@@ -38,7 +38,6 @@ api_location:
  - Dhcpv6csdk.h
 api_name:
  - Dhcpv6CApiCleanup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_INCLUDE_MODULE_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_INCLUDE_MODULE_CALLBACK, *PMINIDUMP_INCLUDE_MODULE_CALLBACK
 req.redist: DbgHelp.dll 5.1 or later

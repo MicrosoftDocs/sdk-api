@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECARDENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINECARDENTRY, *LPLINECARDENTRY
 req.redist: 

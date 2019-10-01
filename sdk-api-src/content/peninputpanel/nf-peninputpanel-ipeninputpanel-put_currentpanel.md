@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_CurrentPanel
  - PenInputPanel.get_CurrentPanel
  - PenInputPanel.put_CurrentPanel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

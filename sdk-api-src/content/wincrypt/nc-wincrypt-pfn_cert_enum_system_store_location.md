@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CertEnumSystemStoreLocationCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

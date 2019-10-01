@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_RELATIONSHIPS_SIGNING_OPTION
-product: Windows
 targetos: Windows
 req.typenames: OPC_RELATIONSHIPS_SIGNING_OPTION
 req.redist: 

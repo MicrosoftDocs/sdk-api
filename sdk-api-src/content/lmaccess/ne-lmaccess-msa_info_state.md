@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - MSA_INFO_STATE
-product: Windows
 targetos: Windows
 req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRFilterConfig.SetRenderingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

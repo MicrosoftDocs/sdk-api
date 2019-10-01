@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - PrimaryXYZColors
-product: Windows
 targetos: Windows
 req.typenames: PrimaryXYZColors
 req.redist: 

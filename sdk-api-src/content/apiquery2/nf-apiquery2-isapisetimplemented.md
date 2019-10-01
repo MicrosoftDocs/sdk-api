@@ -38,7 +38,6 @@ api_location:
  - apiquery2.h
 api_name:
  - IsApiSetImplemented
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

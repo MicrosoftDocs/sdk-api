@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_CollectionMode
  - InkOverlay.get_CollectionMode
  - InkOverlay.put_CollectionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FirewallAPI.dll
 api_name:
  - INetFwPolicy2.EnableRuleGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

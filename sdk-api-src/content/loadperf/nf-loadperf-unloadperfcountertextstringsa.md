@@ -40,7 +40,6 @@ api_name:
  - UnloadPerfCounterTextStrings
  - UnloadPerfCounterTextStringsA
  - UnloadPerfCounterTextStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

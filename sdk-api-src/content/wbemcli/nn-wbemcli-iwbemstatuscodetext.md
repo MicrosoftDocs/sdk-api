@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWbemStatusCodeText
  - WbemStatusCodeText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

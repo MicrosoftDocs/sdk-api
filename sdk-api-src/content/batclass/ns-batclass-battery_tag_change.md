@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_TAG_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - KSJACK_SINK_CONNECTIONTYPE
-product: Windows
 targetos: Windows
 req.typenames: KSJACK_SINK_CONNECTIONTYPE
 req.redist: 

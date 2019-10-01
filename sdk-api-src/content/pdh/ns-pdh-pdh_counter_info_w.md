@@ -40,7 +40,6 @@ api_name:
 - PDH_COUNTER_INFO
 - PDH_COUNTER_INFO_A
 - PDH_COUNTER_INFO_W
-product: Windows
 targetos: Windows
 req.typenames: PDH_COUNTER_INFO_W, *PPDH_COUNTER_INFO_W
 req.redist: 

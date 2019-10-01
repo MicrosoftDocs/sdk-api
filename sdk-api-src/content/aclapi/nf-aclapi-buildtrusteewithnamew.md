@@ -42,7 +42,6 @@ api_name:
  - BuildTrusteeWithName
  - BuildTrusteeWithNameA
  - BuildTrusteeWithNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

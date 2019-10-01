@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VfwCaptureDialogs
-product: Windows
 targetos: Windows
 req.typenames: VfwCaptureDialogs
 req.redist: 

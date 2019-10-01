@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_MUSICSPEECH_CLASS_MODE
-product: Windows
 targetos: Windows
 req.typenames: WMT_MUSICSPEECH_CLASS_MODE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - richedit.h
 api_name:
  - NMHDR
-product: Windows
 targetos: Windows
 req.typenames: NMHDR
 req.redist: 

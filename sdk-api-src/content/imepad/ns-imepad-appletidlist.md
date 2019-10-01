@@ -38,7 +38,6 @@ api_location:
  - Imepad.h
 api_name:
  - APPLETIDLIST
-product: Windows
 targetos: Windows
 req.typenames: APPLETIDLIST, *LPAPPLETIDLIST
 req.redist: 

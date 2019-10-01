@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - DHPUBKEY_VER3
-product: Windows
 targetos: Windows
 req.typenames: DHPUBKEY_VER3, DSSPUBKEY_VER3
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxDevice.UsedRoutingMethods
  - IFaxDevice.get_UsedRoutingMethods
  - IFaxDevice.get_UsedRoutingMethods
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

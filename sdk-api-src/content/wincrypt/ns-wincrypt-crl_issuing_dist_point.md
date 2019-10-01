@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRL_ISSUING_DIST_POINT
-product: Windows
 targetos: Windows
 req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
 req.redist: 

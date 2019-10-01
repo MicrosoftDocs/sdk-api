@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertConfig2.SetSharedFolder
  - CCertConfig.SetSharedFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

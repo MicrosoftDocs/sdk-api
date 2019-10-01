@@ -38,7 +38,6 @@ api_location:
  - wincodec.h
 api_name:
  - WICJpegFrameHeader
-product: Windows
 targetos: Windows
 req.typenames: WICJpegFrameHeader
 req.redist: 

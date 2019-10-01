@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_OBJECTID_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
 req.redist: 

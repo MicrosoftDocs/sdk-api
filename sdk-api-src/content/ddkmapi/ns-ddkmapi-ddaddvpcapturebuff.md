@@ -38,7 +38,6 @@ api_location:
 - ddkmapi.h
 api_name:
 - DDADDVPCAPTUREBUFF
-product: Windows
 targetos: Windows
 req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
 req.redist: 

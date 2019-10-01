@@ -5,7 +5,6 @@ ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_RPMB_COMMAND
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 
 req.dll: 

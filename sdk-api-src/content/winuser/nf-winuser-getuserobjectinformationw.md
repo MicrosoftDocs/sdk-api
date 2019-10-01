@@ -46,7 +46,6 @@ api_name:
 - GetUserObjectInformation
 - GetUserObjectInformationA
 - GetUserObjectInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

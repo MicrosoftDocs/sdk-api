@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - DICTIONARYPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: DICTIONARYPROPERTIES
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspStatus.DisplayName
  - ICspStatus.get_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

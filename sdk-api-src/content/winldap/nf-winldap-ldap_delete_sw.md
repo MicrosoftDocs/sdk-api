@@ -40,7 +40,6 @@ api_name:
  - ldap_delete_s
  - ldap_delete_sA
  - ldap_delete_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

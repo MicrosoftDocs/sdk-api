@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMReaderAdvanced4.GetMaxSpeedFactor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

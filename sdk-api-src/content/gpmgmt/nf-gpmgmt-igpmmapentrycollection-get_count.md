@@ -40,7 +40,6 @@ api_name:
  - IGPMMapEntryCollection.Count
  - IGPMMapEntryCollection.get_Count
  - GPMMapEntryCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

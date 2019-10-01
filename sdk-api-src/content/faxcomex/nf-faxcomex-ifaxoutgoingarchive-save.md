@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingArchive.Save
  - IFaxOutgoingArchive.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

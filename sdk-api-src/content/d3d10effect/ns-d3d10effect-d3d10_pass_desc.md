@@ -38,7 +38,6 @@ api_location:
  - d3d10effect.h
 api_name:
  - D3D10_PASS_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D10_PASS_DESC
 req.redist: 

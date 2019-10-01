@@ -41,7 +41,6 @@ api_name:
  - IWSManResourceLocator.get_ResourceURI
  - IWSManResourceLocator.put_ResourceURI
  - WSMan.ResourceURI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

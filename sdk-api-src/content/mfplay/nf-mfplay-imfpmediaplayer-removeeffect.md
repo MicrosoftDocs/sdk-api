@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - IMFPMediaPlayer.RemoveEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

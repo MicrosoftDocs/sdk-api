@@ -38,7 +38,6 @@ api_location:
  - wcntypes.h
 api_name:
  - WCN_VALUE_TYPE_RF_BANDS
-product: Windows
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_RF_BANDS
 req.redist: 

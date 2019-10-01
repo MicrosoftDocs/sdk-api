@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IObjectId.Value
  - IObjectId.get_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

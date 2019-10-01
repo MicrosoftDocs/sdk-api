@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.LogApisRecursively
  - IApiTracingDataCollector.get_LogApisRecursively
  - IApiTracingDataCollector.put_LogApisRecursively
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

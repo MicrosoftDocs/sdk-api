@@ -38,7 +38,6 @@ api_location:
  - Wininet.dll
 api_name:
  - CreateUrlCacheGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

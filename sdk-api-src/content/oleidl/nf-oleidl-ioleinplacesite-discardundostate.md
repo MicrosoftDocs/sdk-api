@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IOleInPlaceSite.DiscardUndoState
  - IOleInPlaceSiteWindowless.DiscardUndoState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

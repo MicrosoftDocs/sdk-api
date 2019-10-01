@@ -38,7 +38,6 @@ api_location:
  - Ntquery.h
 api_name:
  - CI_STATE
-product: Windows
 targetos: Windows
 req.typenames: CI_STATE
 req.redist: 

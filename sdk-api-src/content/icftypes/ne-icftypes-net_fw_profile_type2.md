@@ -38,7 +38,6 @@ api_location:
  - Icftypes.h
 api_name:
  - NET_FW_PROFILE_TYPE2
-product: Windows
 targetos: Windows
 req.typenames: NET_FW_PROFILE_TYPE2
 req.redist: 

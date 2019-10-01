@@ -38,7 +38,6 @@ api_location:
  - audevcod.h
 api_name:
  - SNDDEV_ERR
-product: Windows
 targetos: Windows
 req.typenames: SNDDEV_ERR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IMTSActivity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

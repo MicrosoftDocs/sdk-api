@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - Pkcs10AllowedSignatureTypes
-product: Windows
 targetos: Windows
 req.typenames: Pkcs10AllowedSignatureTypes
 req.redist: 

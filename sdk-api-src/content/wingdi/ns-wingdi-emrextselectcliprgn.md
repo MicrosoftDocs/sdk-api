@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMREXTSELECTCLIPRGN
-product: Windows
 targetos: Windows
 req.typenames: EMREXTSELECTCLIPRGN, *PEMREXTSELECTCLIPRGN
 req.redist: 

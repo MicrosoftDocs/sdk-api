@@ -38,7 +38,6 @@ api_location:
  - Bthdef.h
 api_name:
  - BTH_L2CAP_EVENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: BTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO
 req.redist: 

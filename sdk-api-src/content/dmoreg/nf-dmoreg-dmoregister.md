@@ -38,7 +38,6 @@ api_location:
 - Msdmo.dll
 api_name:
 - DMORegister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

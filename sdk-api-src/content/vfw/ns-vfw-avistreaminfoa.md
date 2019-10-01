@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - AVISTREAMINFO
-product: Windows
 targetos: Windows
 req.typenames: AVISTREAMINFOA, *LPAVISTREAMINFOA
 req.redist: 

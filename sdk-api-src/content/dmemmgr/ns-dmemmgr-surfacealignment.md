@@ -38,7 +38,6 @@ api_location:
  - dmemmgr.h
 api_name:
  - SURFACEALIGNMENT
-product: Windows
 targetos: Windows
 req.typenames: SURFACEALIGNMENT, *LPSURFACEALIGNMENT
 req.redist: 

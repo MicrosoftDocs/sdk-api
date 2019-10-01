@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_EXCEPTION_CODE
-product: Windows
 targetos: Windows
 req.typenames: WS_EXCEPTION_CODE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICMetadataReader.GetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

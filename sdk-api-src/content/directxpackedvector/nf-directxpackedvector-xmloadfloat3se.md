@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.inl
 api_name:
  - XMLoadFloat3SE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

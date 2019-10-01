@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWCOLUMN.Next
  - IEnumCERTVIEWCOLUMN.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

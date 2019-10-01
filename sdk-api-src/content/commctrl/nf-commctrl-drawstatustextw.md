@@ -40,7 +40,6 @@ api_name:
  - DrawStatusText
  - DrawStatusTextA
  - DrawStatusTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

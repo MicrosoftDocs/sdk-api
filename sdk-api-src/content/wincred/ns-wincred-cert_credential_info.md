@@ -38,7 +38,6 @@ api_location:
  - WinCred.h
 api_name:
  - CERT_CREDENTIAL_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_CREDENTIAL_INFO, *PCERT_CREDENTIAL_INFO
 req.redist: 

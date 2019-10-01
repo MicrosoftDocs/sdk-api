@@ -45,7 +45,6 @@ api_name:
  - GetRawInputDeviceInfo
  - GetRawInputDeviceInfoA
  - GetRawInputDeviceInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

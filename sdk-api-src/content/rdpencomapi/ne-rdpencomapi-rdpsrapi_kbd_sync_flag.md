@@ -38,7 +38,6 @@ api_location:
  - RdpEncomAPI.tlb
 api_name:
  - RDPSRAPI_KBD_SYNC_FLAG
-product: Windows
 targetos: Windows
 req.typenames: RDPSRAPI_KBD_SYNC_FLAG
 req.redist: 

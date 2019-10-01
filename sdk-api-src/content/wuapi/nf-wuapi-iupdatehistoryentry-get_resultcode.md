@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.ResultCode
  - IUpdateHistoryEntry.get_ResultCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

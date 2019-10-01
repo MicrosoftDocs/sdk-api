@@ -40,7 +40,6 @@ api_name:
  - IEnroll.RequestStoreFlags
  - IEnroll.get_RequestStoreFlags
  - IEnroll.put_RequestStoreFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - EOLE_AUTHENTICATION_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: EOLE_AUTHENTICATION_CAPABILITIES
 req.redist: 

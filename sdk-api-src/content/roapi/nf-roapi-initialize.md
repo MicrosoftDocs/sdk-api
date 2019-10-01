@@ -38,7 +38,6 @@ api_location:
  - ROApi.h
 api_name:
  - Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SetupQueueCopy
  - SetupQueueCopyA
  - SetupQueueCopyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

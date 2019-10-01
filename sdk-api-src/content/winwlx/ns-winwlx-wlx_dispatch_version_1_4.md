@@ -38,7 +38,6 @@ api_location:
  - Winwlx.h
 api_name:
  - WLX_DISPATCH_VERSION_1_4
-product: Windows
 targetos: Windows
 req.typenames: WLX_DISPATCH_VERSION_1_4, *PWLX_DISPATCH_VERSION_1_4
 req.redist: 

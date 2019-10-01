@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRawElementProviderSimple.HostRawElementProvider
  - IRawElementProviderSimple.get_HostRawElementProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

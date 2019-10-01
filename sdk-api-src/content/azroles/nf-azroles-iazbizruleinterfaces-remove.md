@@ -38,7 +38,6 @@ api_location:
  - Azroles.h
 api_name:
  - IAzBizRuleInterfaces.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

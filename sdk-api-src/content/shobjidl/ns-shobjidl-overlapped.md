@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - OVERLAPPED
-product: Windows
 targetos: Windows
 req.typenames: OVERLAPPED, *LPOVERLAPPED
 req.redist: 

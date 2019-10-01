@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - if_indextoname
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

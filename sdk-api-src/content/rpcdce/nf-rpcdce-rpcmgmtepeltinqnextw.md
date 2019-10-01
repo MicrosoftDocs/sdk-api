@@ -40,7 +40,6 @@ api_name:
  - RpcMgmtEpEltInqNext
  - RpcMgmtEpEltInqNextA
  - RpcMgmtEpEltInqNextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - LVFINDINFO
  - LVFINDINFOA
  - LVFINDINFOW
-product: Windows
 targetos: Windows
 req.typenames: LVFINDINFOA, *LPFINDINFOA
 req.redist: 

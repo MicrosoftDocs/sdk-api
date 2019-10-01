@@ -40,7 +40,6 @@ api_name:
  - IFsrmReport.Description
  - IFsrmReport.get_Description
  - IFsrmReport.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

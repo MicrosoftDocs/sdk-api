@@ -38,7 +38,6 @@ api_location:
  - Avrfsdk.h
 api_name:
  - AVRF_BACKTRACE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
 req.redist: 

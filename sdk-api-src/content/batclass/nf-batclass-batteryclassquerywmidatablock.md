@@ -39,7 +39,6 @@ api_location:
  - Battc.dll
 api_name:
  - BatteryClassQueryWmiDataBlock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

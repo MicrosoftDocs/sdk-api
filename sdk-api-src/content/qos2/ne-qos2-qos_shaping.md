@@ -38,7 +38,6 @@ api_location:
 - Qos2.h
 api_name:
 - QOS_SHAPING
-product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING, *PQOS_SHAPING
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - QUOTA_LIMITS
-product: Windows
 targetos: Windows
 req.typenames: QUOTA_LIMITS, *PQUOTA_LIMITS
 req.redist: 

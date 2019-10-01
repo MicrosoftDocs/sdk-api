@@ -40,7 +40,6 @@ api_name:
 - AcquireCredentialsHandle
 - AcquireCredentialsHandleA
 - AcquireCredentialsHandleW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

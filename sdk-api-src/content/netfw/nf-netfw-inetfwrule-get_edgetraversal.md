@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.EdgeTraversal
  - INetFwRule.get_EdgeTraversal
  - INetFwRule.put_EdgeTraversal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

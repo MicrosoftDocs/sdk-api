@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.LatestOutputLocation
  - IDataCollectorSet.get_LatestOutputLocation
  - IDataCollectorSet.put_LatestOutputLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

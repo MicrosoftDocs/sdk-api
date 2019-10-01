@@ -38,7 +38,6 @@ api_location:
  - Cryptuiapi.h
 api_name:
  - CRYPTUI_CERT_MGR_STRUCT
-product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_CERT_MGR_STRUCT, *PCRYPTUI_CERT_MGR_STRUCT
 req.redist: 

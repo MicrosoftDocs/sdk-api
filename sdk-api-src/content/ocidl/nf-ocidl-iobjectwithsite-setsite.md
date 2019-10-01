@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IObjectWithSite.SetSite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

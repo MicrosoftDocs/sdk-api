@@ -39,7 +39,6 @@ api_location:
  - D3D9.dll
 api_name:
  - IDirect3DBaseTexture9.GetLOD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

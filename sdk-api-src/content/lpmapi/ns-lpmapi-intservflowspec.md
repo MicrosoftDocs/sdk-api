@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - IntServFlowSpec
-product: Windows
 targetos: Windows
 req.typenames: IntServFlowSpec
 req.redist: 

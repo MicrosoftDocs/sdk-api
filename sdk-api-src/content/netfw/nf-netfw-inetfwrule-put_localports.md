@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.LocalPorts
  - INetFwRule.get_LocalPorts
  - INetFwRule.put_LocalPorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - QUERY_CHANGES_VIRTUAL_DISK_RANGE
-product: Windows
 targetos: Windows
 req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
 req.redist: 

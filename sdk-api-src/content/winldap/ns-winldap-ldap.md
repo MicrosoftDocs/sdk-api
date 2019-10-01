@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAP
-product: Windows
 targetos: Windows
 req.typenames: LDAP, *PLDAP
 req.redist: 

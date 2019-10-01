@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendee.ConnectivityInfo
  - IRDPSRAPIAttendee.get_ConnectivityInfo
  - RDPSRAPIAttendee.ConnectivityInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

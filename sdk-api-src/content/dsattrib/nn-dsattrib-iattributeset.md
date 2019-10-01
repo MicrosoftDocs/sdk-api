@@ -38,7 +38,6 @@ api_location:
  - dsattrib.h
 api_name:
  - IAttributeSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

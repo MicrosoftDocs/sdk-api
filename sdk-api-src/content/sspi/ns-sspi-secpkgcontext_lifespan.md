@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_Lifespan
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Lifespan, *PSecPkgContext_Lifespan
 req.redist: 

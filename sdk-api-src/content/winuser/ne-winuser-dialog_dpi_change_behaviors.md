@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - DIALOG_DPI_CHANGE_BEHAVIORS
-product: Windows
 targetos: Windows
 req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
 req.redist: 

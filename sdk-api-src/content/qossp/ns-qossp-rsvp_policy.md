@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - RSVP_POLICY
-product: Windows
 targetos: Windows
 req.typenames: RSVP_POLICY, *LPRSVP_POLICY
 req.redist: 

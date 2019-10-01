@@ -40,7 +40,6 @@ api_name:
  - ITaskService.HighestVersion
  - ITaskService.get_HighestVersion
  - TBD.HighestVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

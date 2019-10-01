@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DxSetState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IGPMStatusMsgCollection.Count
  - IGPMStatusMsgCollection.get_Count
  - GPMStatusMsgCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

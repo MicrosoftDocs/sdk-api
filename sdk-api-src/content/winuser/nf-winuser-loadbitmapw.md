@@ -42,7 +42,6 @@ api_name:
  - LoadBitmap
  - LoadBitmapA
  - LoadBitmapW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

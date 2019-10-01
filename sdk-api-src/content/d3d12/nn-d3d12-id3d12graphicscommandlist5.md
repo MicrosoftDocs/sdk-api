@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList5"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

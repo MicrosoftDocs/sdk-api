@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_PACKET_LIST
-product: Windows
 targetos: Windows
 req.typenames: MPEG_PACKET_LIST, *PMPEG_PACKET_LIST
 req.redist: 

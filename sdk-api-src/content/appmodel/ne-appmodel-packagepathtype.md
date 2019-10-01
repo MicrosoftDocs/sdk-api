@@ -29,7 +29,6 @@ api_location:
  - appmodel.h
 api_name:
  - PackagePathType
-product: Windows
 targetos: Windows
 ms.custom: 19H1
 ---

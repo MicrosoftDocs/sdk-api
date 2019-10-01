@@ -45,7 +45,6 @@ api_name:
  - OpenPrivateNamespace
  - OpenPrivateNamespaceA
  - OpenPrivateNamespaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

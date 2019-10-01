@@ -40,7 +40,6 @@ api_name:
  - RpcNsGroupMbrAdd
  - RpcNsGroupMbrAddA
  - RpcNsGroupMbrAddW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

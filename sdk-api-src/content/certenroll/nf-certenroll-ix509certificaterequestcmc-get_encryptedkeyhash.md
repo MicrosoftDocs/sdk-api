@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.EncryptedKeyHash
  - IX509CertificateRequestCmc.get_EncryptedKeyHash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

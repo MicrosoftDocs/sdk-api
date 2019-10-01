@@ -39,7 +39,6 @@ api_location:
  - Certidl.dll
 api_name:
  - ICertPolicy2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

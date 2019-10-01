@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - SYSTEM_POWER_STATE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 req.redist: 

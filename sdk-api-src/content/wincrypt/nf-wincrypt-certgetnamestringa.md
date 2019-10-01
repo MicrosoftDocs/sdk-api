@@ -40,7 +40,6 @@ api_name:
 - CertGetNameString
 - CertGetNameStringA
 - CertGetNameStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

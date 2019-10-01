@@ -38,7 +38,6 @@ api_location:
  - Imagehlp.h
 api_name:
  - DigestFunction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

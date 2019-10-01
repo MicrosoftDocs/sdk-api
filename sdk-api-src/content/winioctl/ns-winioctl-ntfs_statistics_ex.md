@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - NTFS_STATISTICS_EX
-product: Windows
 targetos: Windows
 req.typenames: NTFS_STATISTICS_EX, *PNTFS_STATISTICS_EX
 req.redist: 

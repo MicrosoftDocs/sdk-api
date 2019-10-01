@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - RAW_SCSI_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: RAW_SCSI_VIRTUAL_DISK_FLAG, *PRAW_SCSI_VIRTUAL_DISK_FLAG
 req.redist: 

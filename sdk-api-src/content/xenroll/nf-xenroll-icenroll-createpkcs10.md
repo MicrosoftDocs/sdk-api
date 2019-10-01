@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.createPKCS10
  - ICEnroll.createPKCS10
  - CEnroll.createPKCS10
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

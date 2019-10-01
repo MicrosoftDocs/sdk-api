@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CMSG_EXPORT_KEY_TRANS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

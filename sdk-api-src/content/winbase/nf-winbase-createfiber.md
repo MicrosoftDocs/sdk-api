@@ -43,7 +43,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - CreateFiber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

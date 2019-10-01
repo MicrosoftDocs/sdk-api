@@ -40,7 +40,6 @@ api_name:
  - IPerformanceCounterDataCollector.DataSourceName
  - IPerformanceCounterDataCollector.get_DataSourceName
  - IPerformanceCounterDataCollector.put_DataSourceName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

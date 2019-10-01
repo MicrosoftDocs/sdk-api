@@ -40,7 +40,6 @@ api_name:
  - DS_NAME_RESULT_ITEM
  - DS_NAME_RESULT_ITEMA
  - DS_NAME_RESULT_ITEMW
-product: Windows
 targetos: Windows
 req.typenames: DS_NAME_RESULT_ITEMA, *PDS_NAME_RESULT_ITEMA
 req.redist: 

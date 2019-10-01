@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_MODEL_DESC
-product: Windows
 targetos: Windows
 req.typenames: WINML_MODEL_DESC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComMethod2Events.OnMethodCall2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

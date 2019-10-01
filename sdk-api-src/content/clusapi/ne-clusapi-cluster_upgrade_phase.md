@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_UPGRADE_PHASE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_UPGRADE_PHASE
 req.redist: 

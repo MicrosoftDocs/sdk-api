@@ -38,7 +38,6 @@ api_location:
  - Wscapi.dll
 api_name:
  - IWscProduct.get_ProductName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

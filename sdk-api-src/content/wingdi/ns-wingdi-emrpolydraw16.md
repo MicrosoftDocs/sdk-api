@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRPOLYDRAW16
-product: Windows
 targetos: Windows
 req.typenames: EMRPOLYDRAW16, *PEMRPOLYDRAW16
 req.redist: 

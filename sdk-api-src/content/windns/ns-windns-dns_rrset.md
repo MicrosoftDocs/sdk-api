@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_RRSET
-product: Windows
 targetos: Windows
 req.typenames: DNS_RRSET, *PDNS_RRSET
 req.redist: 

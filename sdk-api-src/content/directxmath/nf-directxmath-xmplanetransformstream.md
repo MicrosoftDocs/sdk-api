@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMPlaneTransformStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

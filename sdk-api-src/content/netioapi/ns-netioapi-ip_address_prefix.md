@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - IP_ADDRESS_PREFIX
-product: Windows
 targetos: Windows
 req.typenames: IP_ADDRESS_PREFIX, *PIP_ADDRESS_PREFIX
 req.redist: 

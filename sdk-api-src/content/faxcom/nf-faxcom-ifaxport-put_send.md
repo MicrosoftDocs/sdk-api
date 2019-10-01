@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Send
  - IFaxPort.get_Send
  - IFaxPort.put_Send
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

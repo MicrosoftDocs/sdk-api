@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - AEC_SYSTEM_MODE
-product: Windows
 targetos: Windows
 req.typenames: AEC_SYSTEM_MODE
 req.redist: 

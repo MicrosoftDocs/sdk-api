@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_OOB_DATA_INFO
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_OOB_DATA_INFO, *PBLUETOOTH_OOB_DATA_INFO
 req.redist: 

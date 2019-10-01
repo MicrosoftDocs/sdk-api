@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPSyncState
-product: Windows
 targetos: Windows
 req.typenames: WMPSyncState
 req.redist: 

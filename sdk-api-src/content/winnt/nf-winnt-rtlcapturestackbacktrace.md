@@ -42,7 +42,6 @@ api_location:
 api_name:
  - RtlCaptureStackBackTrace
  - CaptureStackBackTrace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

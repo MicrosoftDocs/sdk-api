@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.RecommendedCPUSpeed
  - IUpdate.get_RecommendedCPUSpeed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

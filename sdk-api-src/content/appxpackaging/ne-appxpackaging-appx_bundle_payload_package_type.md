@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 req.redist: 

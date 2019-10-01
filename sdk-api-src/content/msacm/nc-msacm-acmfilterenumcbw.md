@@ -40,7 +40,6 @@ api_name:
  - ACMFILTERENUMCB
  - ACMFILTERENUMCBA
  - ACMFILTERENUMCBW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

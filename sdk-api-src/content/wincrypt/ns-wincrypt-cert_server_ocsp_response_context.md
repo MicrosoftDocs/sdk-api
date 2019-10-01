@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_SERVER_OCSP_RESPONSE_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
 req.redist: 

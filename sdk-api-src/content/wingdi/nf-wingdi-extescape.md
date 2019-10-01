@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
  - ExtEscape
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

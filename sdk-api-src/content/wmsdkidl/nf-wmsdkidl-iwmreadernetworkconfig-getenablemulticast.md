@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMReaderNetworkConfig.GetEnableMulticast
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

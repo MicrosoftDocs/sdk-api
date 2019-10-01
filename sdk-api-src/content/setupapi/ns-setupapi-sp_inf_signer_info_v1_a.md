@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SP_INF_SIGNER_INFO
  - sp_inf_signer_info_v1_a
-product: Windows
 targetos: Windows
 req.typenames: SP_INF_SIGNER_INFO_V1_A, *PSP_INF_SIGNER_INFO_V1_A
 req.redist: 

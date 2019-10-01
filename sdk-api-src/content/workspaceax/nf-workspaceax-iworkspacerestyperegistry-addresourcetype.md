@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWorkspaceResTypeRegistry.AddResourceType
  - Workspace.AddResourceType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

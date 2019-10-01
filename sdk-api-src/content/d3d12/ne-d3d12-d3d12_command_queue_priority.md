@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_COMMAND_QUEUE_PRIORITY
-product: Windows
 targetos: Windows
 req.typenames: D3D12_COMMAND_QUEUE_PRIORITY
 req.redist: 

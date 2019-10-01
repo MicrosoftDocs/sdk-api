@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CachedContainingGrid
  - IUIAutomationGridItemPattern.get_CachedContainingGrid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

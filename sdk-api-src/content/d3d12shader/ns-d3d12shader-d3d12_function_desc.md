@@ -38,7 +38,6 @@ api_location:
  - d3d12shader.h
 api_name:
  - D3D12_FUNCTION_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D12_FUNCTION_DESC
 req.redist: 

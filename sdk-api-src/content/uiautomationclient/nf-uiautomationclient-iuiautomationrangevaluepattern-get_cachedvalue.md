@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CachedValue
  - IUIAutomationRangeValuePattern.get_CachedValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

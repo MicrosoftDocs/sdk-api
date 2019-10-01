@@ -41,7 +41,6 @@ api_name:
  - IInkPicture.Tablet
  - IInkPicture.get_Tablet
  - InkPicture.get_Tablet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

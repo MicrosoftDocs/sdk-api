@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CHANGER_SET_ACCESS
-product: Windows
 targetos: Windows
 req.typenames: CHANGER_SET_ACCESS, *PCHANGER_SET_ACCESS
 req.redist: 

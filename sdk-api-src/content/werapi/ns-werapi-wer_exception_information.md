@@ -38,7 +38,6 @@ api_location:
 - Werapi.h
 api_name:
 - WER_EXCEPTION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION
 req.redist: 

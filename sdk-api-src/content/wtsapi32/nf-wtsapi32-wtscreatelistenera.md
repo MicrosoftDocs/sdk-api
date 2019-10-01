@@ -40,7 +40,6 @@ api_name:
 - WTSCreateListener
 - WTSCreateListenerA
 - WTSCreateListenerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

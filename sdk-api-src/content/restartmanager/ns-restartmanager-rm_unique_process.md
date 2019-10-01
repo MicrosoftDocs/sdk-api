@@ -38,7 +38,6 @@ api_location:
 - RestartManager.h
 api_name:
 - RM_UNIQUE_PROCESS
-product: Windows
 targetos: Windows
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
 req.redist: 

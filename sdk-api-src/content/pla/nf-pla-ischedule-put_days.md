@@ -40,7 +40,6 @@ api_name:
  - ISchedule.Days
  - ISchedule.get_Days
  - ISchedule.put_Days
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

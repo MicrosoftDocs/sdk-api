@@ -46,7 +46,6 @@ api_name:
  - IWebBrowser2.put_ToolBar
  - IWebBrowser2.get_ToolBar
  - IWebBrowser2.put_ToolBar
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

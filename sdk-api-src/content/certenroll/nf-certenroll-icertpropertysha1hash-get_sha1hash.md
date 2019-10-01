@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertySHA1Hash.SHA1Hash
  - ICertPropertySHA1Hash.get_SHA1Hash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

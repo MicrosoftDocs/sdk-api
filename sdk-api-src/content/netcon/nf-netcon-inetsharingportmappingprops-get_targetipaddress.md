@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetSharingPortMappingProps.get_TargetIPAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

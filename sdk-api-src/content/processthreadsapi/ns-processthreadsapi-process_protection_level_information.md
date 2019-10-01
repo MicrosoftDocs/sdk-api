@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - PROCESS_PROTECTION_LEVEL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_PROTECTION_LEVEL_INFORMATION
 req.redist: 

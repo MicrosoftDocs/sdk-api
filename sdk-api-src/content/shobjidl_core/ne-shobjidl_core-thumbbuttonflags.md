@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - THUMBBUTTONFLAGS
-product: Windows
 targetos: Windows
 req.typenames: THUMBBUTTONFLAGS
 req.redist: 

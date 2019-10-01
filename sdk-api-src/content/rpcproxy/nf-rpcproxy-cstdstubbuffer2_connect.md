@@ -40,7 +40,6 @@ api_location:
  - COMBase.dll
 api_name:
  - CStdStubBuffer2_Connect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

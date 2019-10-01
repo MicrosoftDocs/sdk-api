@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsPropertyEntry
  - PropertyEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

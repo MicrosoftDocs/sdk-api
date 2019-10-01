@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - LICINFO
-product: Windows
 targetos: Windows
 req.typenames: LICINFO, *LPLICINFO
 req.redist: 

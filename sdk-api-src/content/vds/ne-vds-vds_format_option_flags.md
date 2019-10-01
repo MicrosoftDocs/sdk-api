@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_FORMAT_OPTION_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: VDS_FORMAT_OPTION_FLAGS
 req.redist: 

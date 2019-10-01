@@ -38,7 +38,6 @@ api_location:
 - SessDirPublicTypes.h
 api_name:
 - CLIENT_DISPLAY
-product: Windows
 targetos: Windows
 req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
 req.redist: 

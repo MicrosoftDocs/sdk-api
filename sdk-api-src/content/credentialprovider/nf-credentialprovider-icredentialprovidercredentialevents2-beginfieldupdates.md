@@ -38,7 +38,6 @@ api_location:
  - CredentialProvider.h
 api_name:
  - ICredentialProviderCredentialEvents2.BeginFieldUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

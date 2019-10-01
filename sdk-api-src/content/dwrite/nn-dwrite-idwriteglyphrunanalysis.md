@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteGlyphRunAnalysis
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

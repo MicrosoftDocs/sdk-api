@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - QUERY_PARSER_MANAGER_OPTION
-product: Windows
 targetos: Windows
 req.typenames: QUERY_PARSER_MANAGER_OPTION
 req.redist: Windows Desktop Search (WDS) 3.0

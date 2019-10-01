@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - IDXVAHD_VideoProcessor.VideoProcessBltHD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

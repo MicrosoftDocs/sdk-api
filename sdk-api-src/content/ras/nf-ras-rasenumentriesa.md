@@ -42,7 +42,6 @@ api_name:
  - RasEnumEntries
  - RasEnumEntriesA
  - RasEnumEntriesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

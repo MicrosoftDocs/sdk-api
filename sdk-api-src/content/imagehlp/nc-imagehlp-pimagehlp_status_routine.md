@@ -38,7 +38,6 @@ api_location:
  - Imagehlp.h
 api_name:
  - StatusRoutine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

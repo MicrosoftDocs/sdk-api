@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - Size
-product: Windows
 targetos: Windows
 req.typenames: Size
 req.redist: 

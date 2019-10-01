@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.get_InputActive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

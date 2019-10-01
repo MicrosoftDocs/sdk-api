@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRMASKBLT
-product: Windows
 targetos: Windows
 req.typenames: EMRMASKBLT, *PEMRMASKBLT
 req.redist: 

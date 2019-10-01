@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - PARTITION_INFORMATION_GPT
-product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 req.redist: 

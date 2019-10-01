@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.Deadline
  - IUpdate.get_Deadline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

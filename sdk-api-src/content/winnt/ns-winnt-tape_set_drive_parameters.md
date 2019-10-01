@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_SET_DRIVE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - HELPINFO
-product: Windows
 targetos: Windows
 req.typenames: HELPINFO, *LPHELPINFO
 req.redist: 

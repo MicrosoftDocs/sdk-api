@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.ReaderName
  - IX509PrivateKey.get_ReaderName
  - IX509PrivateKey.put_ReaderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

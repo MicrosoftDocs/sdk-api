@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_ASYNC_STATE
-product: Windows
 targetos: Windows
 req.typenames: WS_ASYNC_STATE
 req.redist: 

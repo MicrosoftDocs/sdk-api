@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VIDEOENCODER_BITRATE_MODE
-product: Windows
 targetos: Windows
 req.typenames: VIDEOENCODER_BITRATE_MODE
 req.redist: 

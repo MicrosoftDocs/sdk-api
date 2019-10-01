@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.SetItemCount
  - IResultData2.SetItemCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

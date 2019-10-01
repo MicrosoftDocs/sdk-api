@@ -48,7 +48,6 @@ api_name:
  - OpenSemaphore
  - OpenSemaphoreA
  - OpenSemaphoreW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

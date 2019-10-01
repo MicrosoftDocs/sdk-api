@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_SUPPLEMENTAL_CRED_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_SUPPLEMENTAL_CRED_ARRAY, *PSECPKG_SUPPLEMENTAL_CRED_ARRAY
 req.redist: 

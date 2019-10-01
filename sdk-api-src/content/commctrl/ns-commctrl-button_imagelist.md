@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - BUTTON_IMAGELIST
-product: Windows
 targetos: Windows
 req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
 req.redist: 

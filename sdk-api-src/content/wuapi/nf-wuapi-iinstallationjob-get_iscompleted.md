@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationJob.IsCompleted
  - IInstallationJob.get_IsCompleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

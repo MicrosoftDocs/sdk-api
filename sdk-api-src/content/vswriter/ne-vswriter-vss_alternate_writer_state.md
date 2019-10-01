@@ -38,7 +38,6 @@ api_location:
 - VsWriter.h
 api_name:
 - VSS_ALTERNATE_WRITER_STATE
-product: Windows
 targetos: Windows
 req.typenames: VSS_ALTERNATE_WRITER_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectXCollision.h
 api_name:
  - BoundingSphere.Transform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

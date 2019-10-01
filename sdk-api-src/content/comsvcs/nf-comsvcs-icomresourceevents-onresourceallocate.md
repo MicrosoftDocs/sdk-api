@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComResourceEvents.OnResourceAllocate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

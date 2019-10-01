@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Connect_Machine
  - CM_Connect_MachineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

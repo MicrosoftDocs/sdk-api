@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdateEntry.DeviceStatus
  - IWindowsDriverUpdateEntry.get_DeviceStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - THUMBBUTTONMASK
-product: Windows
 targetos: Windows
 req.typenames: THUMBBUTTONMASK
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - InternetTimeFromSystemTime
  - InternetTimeFromSystemTimeA
  - InternetTimeFromSystemTimeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

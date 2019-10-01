@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - PGET_INTERFACE_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

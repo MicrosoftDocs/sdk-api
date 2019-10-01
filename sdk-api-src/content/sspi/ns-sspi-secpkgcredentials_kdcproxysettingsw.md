@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SecPkgCredentials_KdcProxySettings
  - SecPkgCredentials_KdcProxySettingsW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_KdcProxySettingsW, *PSecPkgCredentials_KdcProxySettingsW
 req.redist: 

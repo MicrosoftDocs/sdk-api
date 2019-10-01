@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IBasicVideo.get_BitRate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

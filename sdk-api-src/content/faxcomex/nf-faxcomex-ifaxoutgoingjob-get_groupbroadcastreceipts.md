@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.GroupBroadcastReceipts
  - IFaxOutgoingJob.get_GroupBroadcastReceipts
  - IFaxOutgoingJob.get_GroupBroadcastReceipts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

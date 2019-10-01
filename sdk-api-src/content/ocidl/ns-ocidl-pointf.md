@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - POINTF
-product: Windows
 targetos: Windows
 req.typenames: POINTF, *LPPOINTF
 req.redist: 

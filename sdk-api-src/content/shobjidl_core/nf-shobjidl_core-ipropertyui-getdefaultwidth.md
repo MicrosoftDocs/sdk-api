@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - IPropertyUI.GetDefaultWidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

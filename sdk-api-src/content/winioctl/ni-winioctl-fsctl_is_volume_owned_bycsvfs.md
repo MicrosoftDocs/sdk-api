@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_IS_VOLUME_OWNED_BYCSVFS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

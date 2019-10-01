@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsole2.IsTaskpadViewPreferred
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

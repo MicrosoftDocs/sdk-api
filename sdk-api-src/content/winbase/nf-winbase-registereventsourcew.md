@@ -44,7 +44,6 @@ api_name:
  - RegisterEventSource
  - RegisterEventSourceA
  - RegisterEventSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

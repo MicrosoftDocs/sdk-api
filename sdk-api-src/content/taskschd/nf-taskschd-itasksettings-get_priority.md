@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.Priority
  - ITaskSettings.get_Priority
  - ITaskSettings.put_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationManager.WaitForClassificationCompletion
  - IFsrmClassificationManager2.WaitForClassificationCompletion
  - FsrmClassificationManager.WaitForClassificationCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sens.dll
 api_name:
  - ISensLogon.Logoff
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

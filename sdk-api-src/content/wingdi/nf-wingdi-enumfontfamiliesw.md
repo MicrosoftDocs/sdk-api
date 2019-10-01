@@ -46,7 +46,6 @@ api_name:
  - EnumFontFamilies
  - EnumFontFamiliesA
  - EnumFontFamiliesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

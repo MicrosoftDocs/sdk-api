@@ -38,7 +38,6 @@ api_location:
  - EapTypes.h
 api_name:
  - EAP_METHOD_PROPERTY_VALUE_BOOL
-product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_BOOL
 req.redist: 

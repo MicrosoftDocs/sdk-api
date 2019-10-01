@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

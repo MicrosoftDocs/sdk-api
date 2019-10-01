@@ -38,7 +38,6 @@ api_location:
  - winsvc.h
 api_name:
  - SERVICE_TIMECHANGE_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TIMECHANGE_INFO, *PSERVICE_TIMECHANGE_INFO
 req.redist: 

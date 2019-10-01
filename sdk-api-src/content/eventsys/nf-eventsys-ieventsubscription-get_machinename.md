@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.MachineName
  - IEventSubscription.get_MachineName
  - IEventSubscription.put_MachineName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

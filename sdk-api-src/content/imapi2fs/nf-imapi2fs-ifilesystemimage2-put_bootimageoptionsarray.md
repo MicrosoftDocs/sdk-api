@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFileSystemImage2.put_BootImageOptionsArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

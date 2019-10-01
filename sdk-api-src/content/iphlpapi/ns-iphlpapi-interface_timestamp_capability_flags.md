@@ -38,7 +38,6 @@ api_location:
  - iphlpapi.h
 api_name:
  - INTERFACE_TIMESTAMP_CAPABILITY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: INTERFACE_TIMESTAMP_CAPABILITY_FLAGS, *PINTERFACE_TIMESTAMP_CAPABILITY_FLAGS
 req.redist: 

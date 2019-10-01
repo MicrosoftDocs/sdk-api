@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_RESOURCE_CREATE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
 req.redist: 

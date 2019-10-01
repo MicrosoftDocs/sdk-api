@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy2.UdpPortPolicy
  - IWdsTransportServicePolicy2.get_UdpPortPolicy
  - IWdsTransportServicePolicy2.put_UdpPortPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

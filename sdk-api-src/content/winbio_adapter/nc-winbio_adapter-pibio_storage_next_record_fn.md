@@ -38,7 +38,6 @@ api_location:
 - Winbio_adapter.h
 api_name:
 - StorageAdapterNextRecord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENDROPFILES
-product: Windows
 targetos: Windows
 req.typenames: ENDROPFILES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - gamemode.dll
 api_name:
  - ReleaseExclusiveCpuSets
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

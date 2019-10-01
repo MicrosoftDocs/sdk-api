@@ -38,7 +38,6 @@ api_location:
  - WcmConfig.h
 api_name:
  - WcmRestrictionFacets
-product: Windows
 targetos: Windows
 req.typenames: WcmRestrictionFacets
 req.redist: 

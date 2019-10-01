@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - AsnObjectIdentifier
-product: Windows
 targetos: Windows
 req.typenames: AsnObjectIdentifier
 req.redist: 

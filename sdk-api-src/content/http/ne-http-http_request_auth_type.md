@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_REQUEST_AUTH_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - METAHEADER
-product: Windows
 targetos: Windows
 req.typenames: METAHEADER, *PMETAHEADER, *LPMETAHEADER
 req.redist: 

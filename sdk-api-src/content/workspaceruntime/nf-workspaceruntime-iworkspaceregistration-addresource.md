@@ -40,7 +40,6 @@ api_name:
  - IWorkspaceRegistration.AddResource
  - IWorkspaceRegistration2.AddResource
  - Workspace.AddResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

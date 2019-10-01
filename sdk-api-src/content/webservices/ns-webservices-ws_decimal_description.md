@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_DECIMAL_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_DECIMAL_DESCRIPTION
 req.redist: 

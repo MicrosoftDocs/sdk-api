@@ -38,7 +38,6 @@ api_location:
  - objidl.h
 api_name:
  - GLOBALOPT_UNMARSHALING_POLICY_VALUES
-product: Windows
 targetos: Windows
 req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
 req.redist: 

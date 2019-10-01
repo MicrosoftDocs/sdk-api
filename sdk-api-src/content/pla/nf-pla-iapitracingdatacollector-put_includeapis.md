@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.IncludeApis
  - IApiTracingDataCollector.get_IncludeApis
  - IApiTracingDataCollector.put_IncludeApis
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

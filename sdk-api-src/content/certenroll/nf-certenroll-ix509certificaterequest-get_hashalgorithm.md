@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.HashAlgorithm
  - IX509CertificateRequest.get_HashAlgorithm
  - IX509CertificateRequest.put_HashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

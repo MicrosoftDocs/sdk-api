@@ -40,7 +40,6 @@ api_name:
  - InternetSetCookie
  - InternetSetCookieA
  - InternetSetCookieW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

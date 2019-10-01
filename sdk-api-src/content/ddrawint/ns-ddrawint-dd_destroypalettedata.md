@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DESTROYPALETTEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA'
 req.redist: 

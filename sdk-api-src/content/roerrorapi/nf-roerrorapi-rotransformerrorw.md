@@ -44,7 +44,6 @@ api_location:
 api_name:
  - RoTransformErrorW
  - WinRTTransformErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

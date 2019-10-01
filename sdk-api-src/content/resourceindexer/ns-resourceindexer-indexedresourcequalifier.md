@@ -38,7 +38,6 @@ api_location:
  - resourceindexer.h
 api_name:
  - IndexedResourceQualifier
-product: Windows
 targetos: Windows
 req.typenames: IndexedResourceQualifier
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_FIND_FILES_BY_SID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

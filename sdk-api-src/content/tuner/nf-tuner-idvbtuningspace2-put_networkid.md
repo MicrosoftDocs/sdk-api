@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBTuningSpace2.put_NetworkID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

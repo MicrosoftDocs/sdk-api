@@ -38,7 +38,6 @@ api_location:
  - dsattrib.h
 api_name:
  - IAttributeGet.GetAttribIndexed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

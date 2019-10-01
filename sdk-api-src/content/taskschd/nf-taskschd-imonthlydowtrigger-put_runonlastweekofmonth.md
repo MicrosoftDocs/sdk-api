@@ -40,7 +40,6 @@ api_name:
  - IMonthlyDOWTrigger.RunOnLastWeekOfMonth
  - IMonthlyDOWTrigger.get_RunOnLastWeekOfMonth
  - IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

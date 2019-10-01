@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmPropertyDefinitionAppliesTo
-product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionAppliesTo
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PerfRegInfoType
-product: Windows
 targetos: Windows
 req.typenames: PerfRegInfoType
 req.redist: 

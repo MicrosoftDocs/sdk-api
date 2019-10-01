@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskFolderCollection.Count
  - ITaskFolderCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMKEY
-product: Windows
 targetos: Windows
 req.typenames: NMKEY, *LPNMKEY
 req.redist: 

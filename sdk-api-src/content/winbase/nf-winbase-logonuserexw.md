@@ -43,7 +43,6 @@ api_name:
 - LogonUserEx
 - LogonUserExA
 - LogonUserExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

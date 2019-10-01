@@ -38,7 +38,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - IPhraseSink.PutPhrase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

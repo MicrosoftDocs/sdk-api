@@ -38,7 +38,6 @@ api_location:
  - indexsrv.h
 api_name:
  - ISimpleCommandCreator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

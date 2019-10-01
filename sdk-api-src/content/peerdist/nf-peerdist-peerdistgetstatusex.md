@@ -38,7 +38,6 @@ api_location:
  - PeerDist.h
 api_name:
  - PeerDistGetStatusEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

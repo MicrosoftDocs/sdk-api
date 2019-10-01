@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - LUID
-product: Windows
 targetos: Windows
 req.typenames: LUID, *PLUID
 req.redist: 

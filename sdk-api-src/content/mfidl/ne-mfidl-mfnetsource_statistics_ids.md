@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFNETSOURCE_STATISTICS_IDS
-product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_STATISTICS_IDS
 req.redist: 

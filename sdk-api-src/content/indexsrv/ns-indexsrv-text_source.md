@@ -38,7 +38,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - TEXT_SOURCE
-product: Windows
 targetos: Windows
 req.typenames: TEXT_SOURCE
 req.redist: the Windows NT 4.0 Option Pack

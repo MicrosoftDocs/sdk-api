@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.StopIfGoingOnBatteries
  - ITaskSettings.get_StopIfGoingOnBatteries
  - ITaskSettings.put_StopIfGoingOnBatteries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

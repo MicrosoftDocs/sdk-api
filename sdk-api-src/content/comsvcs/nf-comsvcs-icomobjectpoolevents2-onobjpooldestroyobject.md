@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComObjectPoolEvents2.OnObjPoolDestroyObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdResetVisrgn
  - GdiEntry6
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

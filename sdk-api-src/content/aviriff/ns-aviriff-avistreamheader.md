@@ -38,7 +38,6 @@ api_location:
 - avifmt.h
 api_name:
 - AVISTREAMHEADER
-product: Windows
 targetos: Windows
 req.typenames: AVISTREAMHEADER
 req.redist: 

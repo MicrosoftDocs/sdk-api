@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_WEBSTREAM_SAMPLE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: WMT_WEBSTREAM_SAMPLE_HEADER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Shlobj.h
 api_name:
 - SFV_SETITEMPOS
-product: Windows
 targetos: Windows
 req.typenames: SFV_SETITEMPOS
 req.redist: 

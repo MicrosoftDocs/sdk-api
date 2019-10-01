@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIPROPTEMPO
-product: Windows
 targetos: Windows
 req.typenames: MIDIPROPTEMPO, *LPMIDIPROPTEMPO
 req.redist: 

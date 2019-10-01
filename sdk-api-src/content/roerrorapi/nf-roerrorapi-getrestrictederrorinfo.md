@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-Core-Winrt-error-l1-1-1.dll
 api_name:
  - GetRestrictedErrorInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

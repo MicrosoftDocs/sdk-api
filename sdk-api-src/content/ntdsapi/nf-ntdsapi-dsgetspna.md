@@ -40,7 +40,6 @@ api_name:
  - DsGetSpn
  - DsGetSpnA
  - DsGetSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

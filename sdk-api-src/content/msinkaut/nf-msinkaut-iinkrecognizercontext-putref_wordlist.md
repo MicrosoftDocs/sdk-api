@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizerContext.WordList
  - IInkRecognizerContext.get_WordList
  - InkRecognizerContext.get_WordList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

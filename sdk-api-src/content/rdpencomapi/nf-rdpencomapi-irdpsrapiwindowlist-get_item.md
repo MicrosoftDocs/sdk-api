@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIWindowList.Item
  - IRDPSRAPIWindowList.get_Item
  - RDPSRAPIWindowList.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

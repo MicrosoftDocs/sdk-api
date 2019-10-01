@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEventPublisher.PublisherID
  - IEventPublisher.put_PublisherID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

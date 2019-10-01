@@ -42,7 +42,6 @@ api_name:
  - WbemAdministrativeLocator.ConnectServer
  - WbemUnauthenticatedLocator.ConnectServer
  - WbemLocator.ConnectServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Evntcons.h
 api_name:
 - EVENT_EXTENDED_ITEM_STACK_TRACE64
-product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE64, *PEVENT_EXTENDED_ITEM_STACK_TRACE64
 req.redist: 

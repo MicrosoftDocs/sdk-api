@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_TICKET_CACHE_INFO
-product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
 req.redist: 

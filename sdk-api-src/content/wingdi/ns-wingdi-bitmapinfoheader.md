@@ -38,7 +38,6 @@ api_location:
  - WinGDI.h
 api_name:
  - BITMAPINFOHEADER
-product: Windows
 targetos: Windows
 req.typenames: BITMAPINFOHEADER, *LPBITMAPINFOHEADER, *PBITMAPINFOHEADER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLINK
-product: Windows
 targetos: Windows
 req.typenames: NMLINK, *PNMLINK
 req.redist: 

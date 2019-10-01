@@ -38,7 +38,6 @@ api_location:
  - oleacc.h
 api_name:
  - IAccPropServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

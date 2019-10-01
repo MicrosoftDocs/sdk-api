@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelItalic
  - InkEdit.get_SelItalic
  - InkEdit.put_SelItalic
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

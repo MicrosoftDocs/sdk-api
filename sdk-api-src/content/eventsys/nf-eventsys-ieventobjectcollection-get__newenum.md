@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEventObjectCollection._NewEnum
  - IEventObjectCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTablePattern.CachedRowOrColumnMajor
  - IUIAutomationTablePattern.get_CachedRowOrColumnMajor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

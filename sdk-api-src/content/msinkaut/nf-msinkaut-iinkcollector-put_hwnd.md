@@ -45,7 +45,6 @@ api_name:
  - IInkCollector.put_hWnd
  - InkCollector.get_hWnd
  - InkCollector.put_hWnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

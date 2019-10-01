@@ -43,7 +43,6 @@ api_location:
 api_name:
 - QueryWorkingSet
 - K32QueryWorkingSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

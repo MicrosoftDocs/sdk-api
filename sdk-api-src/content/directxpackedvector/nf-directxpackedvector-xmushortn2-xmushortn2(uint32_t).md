@@ -38,7 +38,6 @@ api_location:
  - DirectXPackedVector.h
 api_name:
  - XMUSHORTN2.XMUSHORTN2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

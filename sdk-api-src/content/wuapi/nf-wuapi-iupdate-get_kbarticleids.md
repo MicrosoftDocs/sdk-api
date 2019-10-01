@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.KBArticleIDs
  - IUpdate.get_KBArticleIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

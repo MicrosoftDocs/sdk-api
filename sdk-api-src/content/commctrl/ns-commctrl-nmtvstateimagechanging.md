@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTVSTATEIMAGECHANGING
-product: Windows
 targetos: Windows
 req.typenames: NMTVSTATEIMAGECHANGING, *LPNMTVSTATEIMAGECHANGING
 req.redist: 

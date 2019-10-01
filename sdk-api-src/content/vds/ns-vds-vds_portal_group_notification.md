@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_PORTAL_GROUP_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_PORTAL_GROUP_NOTIFICATION
 req.redist: VDS 1.1

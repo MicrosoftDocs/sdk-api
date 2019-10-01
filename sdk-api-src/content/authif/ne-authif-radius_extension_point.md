@@ -38,7 +38,6 @@ api_location:
 - AuthIf.h
 api_name:
 - RADIUS_EXTENSION_POINT
-product: Windows
 targetos: Windows
 req.typenames: RADIUS_EXTENSION_POINT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Syncmgr.h
 api_name:
  - SYNCMGR_RESOLUTION_FEEDBACK
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGR_RESOLUTION_FEEDBACK
 req.redist: 

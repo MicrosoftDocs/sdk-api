@@ -39,7 +39,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - AAAuthSchemes
-product: Windows
 targetos: Windows
 req.typenames: AAAuthSchemes
 req.redist: 

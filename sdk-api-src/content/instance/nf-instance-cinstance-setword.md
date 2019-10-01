@@ -41,7 +41,6 @@ api_name:
  - CInstance.SetWORD
  - ?SetWORD@CInstance@@QAE_NPBGG@Z
  - ?SetWORD@CInstance@@QEAA_NPEBGG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

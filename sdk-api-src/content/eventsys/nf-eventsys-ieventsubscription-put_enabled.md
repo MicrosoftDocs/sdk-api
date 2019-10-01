@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.Enabled
  - IEventSubscription.get_Enabled
  - IEventSubscription.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

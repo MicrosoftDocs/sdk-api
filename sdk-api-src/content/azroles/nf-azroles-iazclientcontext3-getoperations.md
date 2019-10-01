@@ -38,7 +38,6 @@ api_location:
  - Azroles.h
 api_name:
  - IAzClientContext3.GetOperations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

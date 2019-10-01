@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - INTERFACEINFO
-product: Windows
 targetos: Windows
 req.typenames: INTERFACEINFO, *LPINTERFACEINFO
 req.redist: 

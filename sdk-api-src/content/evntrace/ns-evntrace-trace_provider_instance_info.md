@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_PROVIDER_INSTANCE_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_PROVIDER_INSTANCE_INFO, *PTRACE_PROVIDER_INSTANCE_INFO
 req.redist: 

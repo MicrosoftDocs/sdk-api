@@ -38,7 +38,6 @@ api_location:
  - intsafe.h
 api_name:
  - LongPtrSub
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

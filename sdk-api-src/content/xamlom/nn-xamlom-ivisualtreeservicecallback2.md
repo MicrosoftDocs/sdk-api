@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - IVisualTreeServiceCallback2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

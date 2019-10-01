@@ -40,7 +40,6 @@ api_name:
  - IAction.Id
  - IAction.get_Id
  - IAction.put_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

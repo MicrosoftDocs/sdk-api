@@ -39,7 +39,6 @@ api_location:
 api_name:
 - KDHELP64
 - KDHELP
-product: Windows
 targetos: Windows
 req.typenames: KDHELP64, *PKDHELP64
 req.redist: DbgHelp.dll 5.1 or later

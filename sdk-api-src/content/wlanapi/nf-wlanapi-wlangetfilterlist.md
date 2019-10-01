@@ -38,7 +38,6 @@ api_location:
 - wlanapi.dll
 api_name:
 - WlanGetFilterList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxOutgoingMessage2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

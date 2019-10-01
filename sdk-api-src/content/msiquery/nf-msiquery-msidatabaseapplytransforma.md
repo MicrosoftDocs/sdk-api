@@ -40,7 +40,6 @@ api_name:
  - MsiDatabaseApplyTransform
  - MsiDatabaseApplyTransformA
  - MsiDatabaseApplyTransformW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

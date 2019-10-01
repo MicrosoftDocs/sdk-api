@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_FEATURE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINML_FEATURE_TYPE
 req.redist: 

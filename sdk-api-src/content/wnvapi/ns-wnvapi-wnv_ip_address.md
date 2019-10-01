@@ -38,7 +38,6 @@ api_location:
  - wnvapi.h
 api_name:
  - WNV_IP_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: WNV_IP_ADDRESS, *PWNV_IP_ADDRESS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - camerauicontrol.h
 api_name:
  - ICameraUIControlEventCallback.OnItemDeleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

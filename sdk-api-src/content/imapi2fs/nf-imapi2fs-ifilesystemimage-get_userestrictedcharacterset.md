@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFileSystemImage.get_UseRestrictedCharacterSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

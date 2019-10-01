@@ -40,7 +40,6 @@ api_name:
  - MsiGetFeatureValidStates
  - MsiGetFeatureValidStatesA
  - MsiGetFeatureValidStatesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

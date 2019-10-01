@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIEVENT
-product: Windows
 targetos: Windows
 req.typenames: MIDIEVENT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MapiFileTagExt
-product: Windows
 targetos: Windows
 req.typenames: MapiFileTagExt, *lpMapiFileTagExt
 req.redist: 

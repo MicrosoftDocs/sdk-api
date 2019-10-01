@@ -40,7 +40,6 @@ api_name:
  - GopherGetLocatorType
  - GopherGetLocatorTypeA
  - GopherGetLocatorTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

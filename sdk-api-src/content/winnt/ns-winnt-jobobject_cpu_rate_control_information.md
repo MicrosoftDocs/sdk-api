@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, *PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - lmerrlog.h
 api_name:
  - NetErrorLogRead
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

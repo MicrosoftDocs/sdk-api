@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_COMPILER_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: WBEM_COMPILER_OPTIONS
 req.redist: 

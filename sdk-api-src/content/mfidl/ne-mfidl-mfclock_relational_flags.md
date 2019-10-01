@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFCLOCK_RELATIONAL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_RELATIONAL_FLAGS
 req.redist: 

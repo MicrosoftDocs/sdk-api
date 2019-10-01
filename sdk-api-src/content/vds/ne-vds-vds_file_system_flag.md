@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_FILE_SYSTEM_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_FLAG
 req.redist: 

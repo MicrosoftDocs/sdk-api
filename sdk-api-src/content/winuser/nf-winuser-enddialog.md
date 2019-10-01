@@ -41,7 +41,6 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - EndDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SHStartNetConnectionDialog
  - SHStartNetConnectionDialogA
  - SHStartNetConnectionDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

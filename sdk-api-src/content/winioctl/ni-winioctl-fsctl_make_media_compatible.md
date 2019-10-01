@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_MAKE_MEDIA_COMPATIBLE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

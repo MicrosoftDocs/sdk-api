@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_PROVIDER_STATUS_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_PROVIDER_STATUS_ENUM
 req.redist: 

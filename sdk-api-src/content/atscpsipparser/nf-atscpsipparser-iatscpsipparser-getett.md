@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - IAtscPsipParser.GetETT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

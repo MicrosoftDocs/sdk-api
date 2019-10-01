@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.Order
  - ICategory.get_Order
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

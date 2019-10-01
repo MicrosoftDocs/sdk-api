@@ -38,7 +38,6 @@ api_location:
  - Wmidcprv.dll
 api_name:
  - IWbemDecoupledRegistrar
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

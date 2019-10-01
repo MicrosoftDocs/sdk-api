@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, *PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO
 req.redist: 

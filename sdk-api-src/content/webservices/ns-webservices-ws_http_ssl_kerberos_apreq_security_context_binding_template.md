@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_SSL_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE
 req.redist: 

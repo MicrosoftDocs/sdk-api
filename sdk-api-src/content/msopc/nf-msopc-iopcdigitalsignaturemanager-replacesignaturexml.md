@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcDigitalSignatureManager.ReplaceSignatureXml
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

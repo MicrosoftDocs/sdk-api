@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - IExtendTaskPad.GetTitle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

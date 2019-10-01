@@ -40,7 +40,6 @@ api_name:
  - IWSManResourceLocator.FragmentDialect
  - IWSManResourceLocator.get_FragmentDialect
  - IWSManResourceLocator.put_FragmentDialect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

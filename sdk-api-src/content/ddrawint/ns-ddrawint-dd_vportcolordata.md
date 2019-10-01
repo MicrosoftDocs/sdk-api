@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_VPORTCOLORDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA'
 req.redist: 

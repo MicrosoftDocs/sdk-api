@@ -38,7 +38,6 @@ api_location:
  - Wmiprvsd.dll
 api_name:
  - IWbemHiPerfProvider.GetObjects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

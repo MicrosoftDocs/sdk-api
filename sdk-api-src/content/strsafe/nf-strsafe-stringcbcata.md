@@ -40,7 +40,6 @@ api_name:
  - StringCbCat
  - StringCbCatA
  - StringCbCatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

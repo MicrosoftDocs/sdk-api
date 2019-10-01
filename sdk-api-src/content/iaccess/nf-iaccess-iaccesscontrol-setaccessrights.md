@@ -38,7 +38,6 @@ api_location:
  - IAccess.h
 api_name:
  - IAccessControl.SetAccessRights
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

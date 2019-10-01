@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.TaskUserTextArguments
  - IDataCollectorSet.get_TaskUserTextArguments
  - IDataCollectorSet.put_TaskUserTextArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

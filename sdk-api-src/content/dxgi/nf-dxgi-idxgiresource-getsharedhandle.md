@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIResource.GetSharedHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

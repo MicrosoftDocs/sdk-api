@@ -40,7 +40,6 @@ api_name:
  - OLEUIVIEWPROPS
  - OLEUIVIEWPROPSA
  - OLEUIVIEWPROPSW
-product: Windows
 targetos: Windows
 req.typenames: OLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, *LPOLEUIVIEWPROPSA
 req.redist: 

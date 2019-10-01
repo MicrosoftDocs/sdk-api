@@ -38,7 +38,6 @@ api_location:
  - Nldef.h
 api_name:
  - NL_INTERFACE_OFFLOAD_ROD
-product: Windows
 targetos: Windows
 req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
 req.redist: 

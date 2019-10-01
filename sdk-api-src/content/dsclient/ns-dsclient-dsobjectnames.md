@@ -38,7 +38,6 @@ api_location:
  - Dsclient.h
 api_name:
  - DSOBJECTNAMES
-product: Windows
 targetos: Windows
 req.typenames: DSOBJECTNAMES, *LPDSOBJECTNAMES
 req.redist: 

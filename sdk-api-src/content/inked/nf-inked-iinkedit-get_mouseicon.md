@@ -44,7 +44,6 @@ api_name:
  - InkEdit.get_MouseIcon
  - InkEdit.put_MouseIcon
  - InkEdit.putref_MouseIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

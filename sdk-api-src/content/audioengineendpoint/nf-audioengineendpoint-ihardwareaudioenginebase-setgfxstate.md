@@ -38,7 +38,6 @@ api_location:
  - audioengineendpoint.h
 api_name:
  - IHardwareAudioEngineBase.SetGfxState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

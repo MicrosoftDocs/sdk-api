@@ -38,7 +38,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_MCAST_LIMIT_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
 req.redist: 

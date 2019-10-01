@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.Languages
  - IInkRecognizer.get_Languages
  - IInkRecognizer.get_Languages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

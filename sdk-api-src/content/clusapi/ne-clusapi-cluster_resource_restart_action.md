@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_RESOURCE_RESTART_ACTION
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_RESTART_ACTION, CRRA
 req.redist: 

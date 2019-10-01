@@ -40,7 +40,6 @@ api_name:
  - MsiSetExternalUI
  - MsiSetExternalUIA
  - MsiSetExternalUIW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

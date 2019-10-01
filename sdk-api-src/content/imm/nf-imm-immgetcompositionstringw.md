@@ -42,7 +42,6 @@ api_name:
  - ImmGetCompositionString
  - ImmGetCompositionStringA
  - ImmGetCompositionStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

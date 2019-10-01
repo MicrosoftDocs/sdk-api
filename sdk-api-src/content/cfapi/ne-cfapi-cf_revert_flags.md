@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_REVERT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_REVERT_FLAGS
 req.redist: 

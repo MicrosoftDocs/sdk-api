@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendee.Invitation
  - IRDPSRAPIAttendee.get_Invitation
  - RDPSRAPIAttendee.Invitation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

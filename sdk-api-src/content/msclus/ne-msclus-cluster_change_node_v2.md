@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_CHANGE_NODE_V2
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_NODE_V2
 req.redist: 

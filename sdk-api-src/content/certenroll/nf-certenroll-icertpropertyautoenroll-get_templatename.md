@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyAutoEnroll.TemplateName
  - ICertPropertyAutoEnroll.get_TemplateName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

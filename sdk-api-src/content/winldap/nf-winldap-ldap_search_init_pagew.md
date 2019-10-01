@@ -40,7 +40,6 @@ api_name:
  - ldap_search_init_page
  - ldap_search_init_pageA
  - ldap_search_init_pageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

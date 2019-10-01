@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.MaximumBuffers
  - ITraceDataCollector.get_MaximumBuffers
  - ITraceDataCollector.put_MaximumBuffers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

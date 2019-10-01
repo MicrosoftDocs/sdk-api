@@ -38,7 +38,6 @@ api_location:
  - searchapi.h
 api_name:
  - ISearchManager2.DeleteCatalog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

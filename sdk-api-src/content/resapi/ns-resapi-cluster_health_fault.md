@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLUSTER_HEALTH_FAULT
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT, *PCLUSTER_HEALTH_FAULT
 req.redist: 

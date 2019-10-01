@@ -40,7 +40,6 @@ api_name:
  - GetFriendlyNameOfCert
  - GetFriendlyNameOfCertA
  - GetFriendlyNameOfCertW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

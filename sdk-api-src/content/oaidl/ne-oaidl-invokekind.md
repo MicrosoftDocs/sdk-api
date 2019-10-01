@@ -38,7 +38,6 @@ api_location:
  - OAIdl.h
 api_name:
  - INVOKEKIND
-product: Windows
 targetos: Windows
 req.typenames: INVOKEKIND
 req.redist: 

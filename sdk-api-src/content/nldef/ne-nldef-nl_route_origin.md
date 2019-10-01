@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_ROUTE_ORIGIN
-product: Windows
 targetos: Windows
 req.typenames: NL_ROUTE_ORIGIN, *PNL_ROUTE_ORIGIN
 req.redist: 

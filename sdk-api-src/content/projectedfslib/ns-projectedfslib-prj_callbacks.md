@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_CALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: PRJ_CALLBACKS
 req.redist: 

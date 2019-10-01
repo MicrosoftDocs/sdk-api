@@ -44,7 +44,6 @@ api_name:
  - UrlCanonicalize
  - UrlCanonicalizeA
  - UrlCanonicalizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

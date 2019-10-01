@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TUISPI_phoneConfigDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

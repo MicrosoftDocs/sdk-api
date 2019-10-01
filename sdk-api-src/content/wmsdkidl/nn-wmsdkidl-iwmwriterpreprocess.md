@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - IWMWriterPreprocess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

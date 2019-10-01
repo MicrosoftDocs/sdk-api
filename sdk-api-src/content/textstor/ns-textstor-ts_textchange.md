@@ -38,7 +38,6 @@ api_location:
  - Textstor.h
 api_name:
  - TS_TEXTCHANGE
-product: Windows
 targetos: Windows
 req.typenames: TS_TEXTCHANGE
 req.redist: TSF 1.0 on Windows 2000 Professional

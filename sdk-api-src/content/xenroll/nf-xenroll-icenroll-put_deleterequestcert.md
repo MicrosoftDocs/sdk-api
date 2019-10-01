@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_DeleteRequestCert
  - ICEnroll.put_DeleteRequestCert
  - CEnroll.DeleteRequestCert
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

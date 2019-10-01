@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - IMAGE_DEBUG_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
 req.redist: DbgHelp.dll 5.1 or later

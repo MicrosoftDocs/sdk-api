@@ -40,7 +40,6 @@ api_name:
  - SHPathPrepareForWrite
  - SHPathPrepareForWriteA
  - SHPathPrepareForWriteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

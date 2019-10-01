@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_DynamicRendering
  - InkOverlay.get_DynamicRendering
  - InkOverlay.put_DynamicRendering
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

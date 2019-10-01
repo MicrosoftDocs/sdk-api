@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CHANGER_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - NetworkSoH
-product: Windows
 targetos: Windows
 req.typenames: NetworkSoH, NetworkSoHRequest, NetworkSoHResponse
 req.redist: 

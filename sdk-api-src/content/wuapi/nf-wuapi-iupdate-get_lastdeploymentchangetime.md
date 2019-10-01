@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.LastDeploymentChangeTime
  - IUpdate.get_LastDeploymentChangeTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

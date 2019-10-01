@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TouchPredictionParameters
-product: Windows
 targetos: Windows
 req.typenames: TOUCHPREDICTIONPARAMETERS, *PTOUCHPREDICTIONPARAMETERS
 req.redist: 

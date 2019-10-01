@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - CatalogPausedReason
-product: Windows
 targetos: Windows
 req.typenames: CatalogPausedReason
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenBase.FileScreenFlags
  - IFsrmFileScreenBase.get_FileScreenFlags
  - IFsrmFileScreenBase.put_FileScreenFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

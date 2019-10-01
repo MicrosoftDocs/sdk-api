@@ -38,7 +38,6 @@ api_location:
  - Wksprt.exe
 api_name:
  - IWorkspace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

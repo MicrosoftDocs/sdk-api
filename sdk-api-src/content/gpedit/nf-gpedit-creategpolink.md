@@ -38,7 +38,6 @@ api_location:
  - GPEdit.dll
 api_name:
  - CreateGPOLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

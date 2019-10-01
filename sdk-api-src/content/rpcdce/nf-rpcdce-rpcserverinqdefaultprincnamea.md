@@ -40,7 +40,6 @@ api_name:
  - RpcServerInqDefaultPrincName
  - RpcServerInqDefaultPrincNameA
  - RpcServerInqDefaultPrincNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

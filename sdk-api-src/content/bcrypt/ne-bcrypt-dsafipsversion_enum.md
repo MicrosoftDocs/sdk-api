@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - DSAFIPSVERSION_ENUM
-product: Windows
 targetos: Windows
 req.typenames: DSAFIPSVERSION_ENUM
 req.redist: 

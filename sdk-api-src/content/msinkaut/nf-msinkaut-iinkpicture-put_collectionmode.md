@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_CollectionMode
  - InkPicture.get_CollectionMode
  - InkPicture.put_CollectionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

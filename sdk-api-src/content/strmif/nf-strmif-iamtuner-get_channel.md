@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IAMTuner.get_Channel
  - IAMTVTuner.get_Channel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

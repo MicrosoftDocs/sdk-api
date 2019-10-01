@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_WRITER_STATE
-product: Windows
 targetos: Windows
 req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
 req.redist: 

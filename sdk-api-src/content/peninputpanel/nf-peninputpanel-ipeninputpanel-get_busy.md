@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Busy
  - IPenInputPanel.get_Busy
  - PenInputPanel.get_Busy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElementArray.Length
  - IUIAutomationElementArray.get_Length
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

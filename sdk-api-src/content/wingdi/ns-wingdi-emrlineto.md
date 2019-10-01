@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRLINETO
-product: Windows
 targetos: Windows
 req.typenames: EMRLINETO, *PEMRLINETO, EMRMOVETOEX, *PEMRMOVETOEX
 req.redist: 

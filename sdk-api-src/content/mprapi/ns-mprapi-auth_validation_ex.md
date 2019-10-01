@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - AUTH_VALIDATION_EX
-product: Windows
 targetos: Windows
 req.typenames: AUTH_VALIDATION_EX
 req.redist: 

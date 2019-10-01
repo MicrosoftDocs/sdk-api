@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.Valid
  - ICspInformation.get_Valid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

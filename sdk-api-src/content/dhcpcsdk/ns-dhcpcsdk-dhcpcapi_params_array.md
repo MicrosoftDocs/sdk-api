@@ -38,7 +38,6 @@ api_location:
 - Dhcpcsdk.h
 api_name:
 - DHCPCAPI_PARAMS_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY
 req.redist: 

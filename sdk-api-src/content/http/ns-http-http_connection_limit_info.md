@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_CONNECTION_LIMIT_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO
 req.redist: 

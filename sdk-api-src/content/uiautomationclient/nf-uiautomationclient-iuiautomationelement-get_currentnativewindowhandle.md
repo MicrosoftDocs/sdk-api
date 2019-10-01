@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentNativeWindowHandle
  - IUIAutomationElement.get_CurrentNativeWindowHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

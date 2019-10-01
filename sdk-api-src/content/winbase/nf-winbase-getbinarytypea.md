@@ -45,7 +45,6 @@ api_name:
  - GetBinaryType
  - GetBinaryTypeA
  - GetBinaryTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

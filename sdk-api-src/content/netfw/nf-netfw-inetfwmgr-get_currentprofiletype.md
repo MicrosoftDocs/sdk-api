@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwMgr.CurrentProfileType
  - INetFwMgr.get_CurrentProfileType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

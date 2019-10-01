@@ -38,7 +38,6 @@ api_location:
 - ddkmapi.h
 api_name:
 - NotifyCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - roerrorapi.h
 api_name:
  - PINSPECT_MEMORY_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

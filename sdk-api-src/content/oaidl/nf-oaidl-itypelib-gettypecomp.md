@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ITypeLib.GetTypeComp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

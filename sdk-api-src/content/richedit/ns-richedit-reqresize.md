@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - REQRESIZE
-product: Windows
 targetos: Windows
 req.typenames: REQRESIZE
 req.redist: 

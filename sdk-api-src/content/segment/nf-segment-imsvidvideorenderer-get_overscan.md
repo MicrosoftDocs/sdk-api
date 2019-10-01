@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVideoRenderer.get_OverScan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

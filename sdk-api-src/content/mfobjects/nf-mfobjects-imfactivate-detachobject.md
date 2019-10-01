@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFActivate.DetachObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

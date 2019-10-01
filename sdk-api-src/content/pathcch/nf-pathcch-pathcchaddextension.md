@@ -40,7 +40,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - PathCchAddExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

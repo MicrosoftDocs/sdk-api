@@ -40,7 +40,6 @@ api_name:
  - OleUIPasteSpecial
  - OleUIPasteSpecialA
  - OleUIPasteSpecialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

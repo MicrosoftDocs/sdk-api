@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONECAPS
-product: Windows
 targetos: Windows
 req.typenames: PHONECAPS, *LPPHONECAPS
 req.redist: 

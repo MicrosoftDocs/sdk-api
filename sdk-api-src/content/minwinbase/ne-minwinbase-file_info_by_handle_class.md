@@ -39,7 +39,6 @@ api_location:
 - FileExtd.h
 api_name:
 - FILE_INFO_BY_HANDLE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_BY_HANDLE_CLASS, *PFILE_INFO_BY_HANDLE_CLASS
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_FLAG
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIPROPTIMEDIV
-product: Windows
 targetos: Windows
 req.typenames: MIDIPROPTIMEDIV, *LPMIDIPROPTIMEDIV
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.Account
  - IFsrmActionCommand.get_Account
  - IFsrmActionCommand.put_Account
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

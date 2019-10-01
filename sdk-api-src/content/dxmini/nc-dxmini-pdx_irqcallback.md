@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - IRQCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - TSGPolicyEngine.h
 api_name:
  - ITSGPolicyEngine.AuthorizeResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

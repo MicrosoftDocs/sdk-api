@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - POST_UPGRADE_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: POST_UPGRADE_VERSION_INFO, *PPOST_UPGRADE_VERSION_INFO
 req.redist: 

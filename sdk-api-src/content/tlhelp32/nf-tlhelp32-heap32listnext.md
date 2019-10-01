@@ -40,7 +40,6 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - Heap32ListNext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - WriteFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

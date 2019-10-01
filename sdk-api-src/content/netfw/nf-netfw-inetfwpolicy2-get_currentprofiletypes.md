@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwPolicy2.CurrentProfileTypes
  - INetFwPolicy2.get_CurrentProfileTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

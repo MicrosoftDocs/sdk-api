@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIOutput6.GetDesc1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

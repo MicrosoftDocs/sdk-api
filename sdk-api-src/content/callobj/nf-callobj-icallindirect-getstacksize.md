@@ -38,7 +38,6 @@ api_location:
  - Callobj.h
 api_name:
  - ICallIndirect.GetStackSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

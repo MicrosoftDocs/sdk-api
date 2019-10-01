@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVINSERTGROUPSORTED
-product: Windows
 targetos: Windows
 req.typenames: LVINSERTGROUPSORTED, *PLVINSERTGROUPSORTED
 req.redist: 

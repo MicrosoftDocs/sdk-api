@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_SPCFileName
  - ICEnroll.put_SPCFileName
  - CEnroll.SPCFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

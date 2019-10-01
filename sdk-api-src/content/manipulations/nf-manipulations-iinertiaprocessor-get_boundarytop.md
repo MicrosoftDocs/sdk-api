@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.BoundaryTop
  - IInertiaProcessor.get_BoundaryTop
  - IInertiaProcessor.put_BoundaryTop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

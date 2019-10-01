@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEMENUGROUPWIDTHS
-product: Windows
 targetos: Windows
 req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
 req.redist: 

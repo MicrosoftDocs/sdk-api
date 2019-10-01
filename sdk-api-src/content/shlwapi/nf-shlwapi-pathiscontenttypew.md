@@ -40,7 +40,6 @@ api_name:
  - PathIsContentType
  - PathIsContentTypeA
  - PathIsContentTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

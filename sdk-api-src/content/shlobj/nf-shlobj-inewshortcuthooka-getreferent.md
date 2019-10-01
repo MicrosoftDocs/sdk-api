@@ -40,7 +40,6 @@ api_name:
  - INewShortcutHook.GetReferent
  - INewShortcutHookA::GetReferent
  - INewShortcutHookW::GetReferent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

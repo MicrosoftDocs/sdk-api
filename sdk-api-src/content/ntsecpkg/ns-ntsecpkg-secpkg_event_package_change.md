@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_EVENT_PACKAGE_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_EVENT_PACKAGE_CHANGE, *PSECPKG_EVENT_PACKAGE_CHANGE
 req.redist: 

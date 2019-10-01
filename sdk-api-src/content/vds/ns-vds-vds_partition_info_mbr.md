@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_PARTITION_INFO_MBR
-product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_INFO_MBR
 req.redist: 

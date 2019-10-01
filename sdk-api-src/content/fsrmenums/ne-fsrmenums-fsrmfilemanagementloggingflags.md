@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmFileManagementLoggingFlags
-product: Windows
 targetos: Windows
 req.typenames: FsrmFileManagementLoggingFlags
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRegisteredTask.LastTaskResult
  - IRegisteredTask.get_LastTaskResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

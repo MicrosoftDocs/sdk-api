@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IRegisterServiceProvider.RegisterService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

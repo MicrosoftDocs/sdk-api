@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_ELEMENT_WISE_LOGICAL_EQUALS_OPERATOR_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

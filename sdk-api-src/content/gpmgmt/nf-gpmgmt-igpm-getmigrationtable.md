@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.GetMigrationTable
  - GPM.GetMigrationTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

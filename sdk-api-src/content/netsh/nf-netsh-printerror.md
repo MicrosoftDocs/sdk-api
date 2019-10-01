@@ -38,7 +38,6 @@ api_location:
  - Netsh.exe
 api_name:
  - PrintError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.FriendlyName
  - IX509PrivateKey.get_FriendlyName
  - IX509PrivateKey.put_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

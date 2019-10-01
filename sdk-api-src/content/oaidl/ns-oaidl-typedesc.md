@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - TYPEDESC
-product: Windows
 targetos: Windows
 req.typenames: TYPEDESC
 req.redist: 

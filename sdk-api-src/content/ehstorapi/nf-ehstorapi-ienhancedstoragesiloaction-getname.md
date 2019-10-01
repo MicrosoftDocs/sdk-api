@@ -38,7 +38,6 @@ api_location:
  - EhStorAPI.h
 api_name:
  - IEnhancedStorageSiloAction.GetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

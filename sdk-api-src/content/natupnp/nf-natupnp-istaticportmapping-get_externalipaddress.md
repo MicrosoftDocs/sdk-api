@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - IStaticPortMapping.get_ExternalIPAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

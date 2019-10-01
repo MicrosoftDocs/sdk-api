@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - LATTICE_METRICS
-product: Windows
 targetos: Windows
 req.typenames: LATTICE_METRICS
 req.redist: 

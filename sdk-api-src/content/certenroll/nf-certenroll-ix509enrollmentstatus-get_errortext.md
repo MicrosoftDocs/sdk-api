@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509EnrollmentStatus.ErrorText
  - IX509EnrollmentStatus.get_ErrorText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

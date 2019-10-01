@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IServiceActivity.UnbindFromThread
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

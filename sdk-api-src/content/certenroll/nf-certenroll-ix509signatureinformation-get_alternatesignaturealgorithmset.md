@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SignatureInformation.AlternateSignatureAlgorithmSet
  - IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - EC_ENDOFLINE
-product: Windows
 targetos: Windows
 req.typenames: EC_ENDOFLINE
 req.redist: 

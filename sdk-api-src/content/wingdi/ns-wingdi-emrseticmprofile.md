@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETICMPROFILE
-product: Windows
 targetos: Windows
 req.typenames: EMRSETICMPROFILE, *PEMRSETICMPROFILE, EMRSETICMPROFILEA, *PEMRSETICMPROFILEA, EMRSETICMPROFILEW, *PEMRSETICMPROFILEW
 req.redist: 

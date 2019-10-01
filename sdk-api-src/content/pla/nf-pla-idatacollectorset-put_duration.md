@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Duration
  - IDataCollectorSet.get_Duration
  - IDataCollectorSet.put_Duration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

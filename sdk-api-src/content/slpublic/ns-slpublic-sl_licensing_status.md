@@ -38,7 +38,6 @@ api_location:
 - slpublic.h
 api_name:
 - SL_LICENSING_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SL_LICENSING_STATUS
 req.redist: 

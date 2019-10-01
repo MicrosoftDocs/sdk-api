@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENLINK
-product: Windows
 targetos: Windows
 req.typenames: ENLINK
 req.redist: 

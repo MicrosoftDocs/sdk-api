@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - VPCOLORFLAGS
-product: Windows
 targetos: Windows
 req.typenames: VPCOLORFLAGS
 req.redist: 

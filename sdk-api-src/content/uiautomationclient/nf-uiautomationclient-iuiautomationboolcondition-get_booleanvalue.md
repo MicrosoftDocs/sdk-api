@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationBoolCondition.BooleanValue
  - IUIAutomationBoolCondition.get_BooleanValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

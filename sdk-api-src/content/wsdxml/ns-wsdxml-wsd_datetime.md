@@ -38,7 +38,6 @@ api_location:
  - WsdXml.h
 api_name:
  - WSD_DATETIME
-product: Windows
 targetos: Windows
 req.typenames: WSD_DATETIME
 req.redist: 

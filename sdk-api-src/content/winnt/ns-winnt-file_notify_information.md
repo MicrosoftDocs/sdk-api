@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - FILE_NOTIFY_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION
 req.redist: 

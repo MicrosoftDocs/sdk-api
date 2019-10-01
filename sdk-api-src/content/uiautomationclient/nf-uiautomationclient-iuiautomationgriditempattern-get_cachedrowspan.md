@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CachedRowSpan
  - IUIAutomationGridItemPattern.get_CachedRowSpan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

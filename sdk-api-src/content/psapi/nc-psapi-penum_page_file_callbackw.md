@@ -40,7 +40,6 @@ api_name:
 - EnumPageFilesProc
 - PENUM_PAGE_FILE_CALLBACKA
 - PENUM_PAGE_FILE_CALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

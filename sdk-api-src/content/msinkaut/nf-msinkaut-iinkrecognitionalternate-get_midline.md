@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.Midline
  - IInkRecognitionAlternate.get_Midline
  - IInkRecognitionAlternate.get_Midline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

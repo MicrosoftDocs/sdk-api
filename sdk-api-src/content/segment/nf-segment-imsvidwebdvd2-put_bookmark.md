@@ -40,7 +40,6 @@ api_name:
  - IMSVidWebDVD2.Bookmark
  - IMSVidWebDVD2.get_Bookmark
  - IMSVidWebDVD2.put_Bookmark
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

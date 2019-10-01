@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWCOLUMN.Skip
  - IEnumCERTVIEWCOLUMN.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

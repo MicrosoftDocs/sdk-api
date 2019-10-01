@@ -40,7 +40,6 @@ api_name:
 - IFaxIncomingJob.RoutingInformation
 - IFaxIncomingJob.get_RoutingInformation
 - IFaxIncomingJob.get_RoutingInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

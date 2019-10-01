@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCertificate.NotAfter
  - IX509CertificateRequestCertificate.get_NotAfter
  - IX509CertificateRequestCertificate.put_NotAfter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

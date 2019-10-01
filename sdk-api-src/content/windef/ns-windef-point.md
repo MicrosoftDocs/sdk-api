@@ -38,7 +38,6 @@ api_location:
 - windef.h
 api_name:
 - POINT
-product: Windows
 targetos: Windows
 req.typenames: POINT, *PPOINT, *NPPOINT, *LPPOINT
 req.redist: 

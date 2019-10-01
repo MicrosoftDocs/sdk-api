@@ -43,7 +43,6 @@ api_location:
 api_name:
  - IWMHeaderInfo2.GetCodecInfoCount
  - IWMHeaderInfo3.GetCodecInfoCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

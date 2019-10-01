@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - UpdateExceptionContext
-product: Windows
 targetos: Windows
 req.typenames: UpdateExceptionContext
 req.redist: 

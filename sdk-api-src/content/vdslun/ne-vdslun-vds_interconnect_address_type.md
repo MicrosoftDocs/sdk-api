@@ -38,7 +38,6 @@ api_location:
 - VdsLun.h
 api_name:
 - VDS_INTERCONNECT_ADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VDS_INTERCONNECT_ADDRESS_TYPE
 req.redist: 

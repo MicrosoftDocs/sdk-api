@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.FileMaxTotalSize
  - IConfigurationDataCollector.get_FileMaxTotalSize
  - IConfigurationDataCollector.put_FileMaxTotalSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxIncomingArchive.put_UseArchive
  - IFaxIncomingArchive.get_UseArchive
  - IFaxIncomingArchive.put_UseArchive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

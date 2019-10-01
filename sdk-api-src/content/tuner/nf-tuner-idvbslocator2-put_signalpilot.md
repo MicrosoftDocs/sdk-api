@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.SignalPilot
  - IDVBSLocator2.get_SignalPilot
  - IDVBSLocator2.put_SignalPilot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

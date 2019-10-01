@@ -40,7 +40,6 @@ api_name:
  - IFaxTiff.TiffTagString
  - IFaxTiff.get_TiffTagString
  - IFaxTiff.put_TiffTagString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

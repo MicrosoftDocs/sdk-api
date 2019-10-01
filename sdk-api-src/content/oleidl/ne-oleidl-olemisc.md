@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEMISC
-product: Windows
 targetos: Windows
 req.typenames: OLEMISC
 req.redist: 

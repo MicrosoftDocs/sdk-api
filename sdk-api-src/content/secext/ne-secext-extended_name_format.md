@@ -38,7 +38,6 @@ api_location:
  - Secext.h
 api_name:
  - EXTENDED_NAME_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 req.redist: 

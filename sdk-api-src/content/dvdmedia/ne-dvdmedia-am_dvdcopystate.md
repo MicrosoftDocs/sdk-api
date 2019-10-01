@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPYSTATE
-product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPYSTATE
 req.redist: 

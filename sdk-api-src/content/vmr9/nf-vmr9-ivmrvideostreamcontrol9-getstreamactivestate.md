@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRVideoStreamControl9.GetStreamActiveState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

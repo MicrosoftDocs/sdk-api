@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - FLOW_DESC
-product: Windows
 targetos: Windows
 req.typenames: FLOW_DESC
 req.redist: 

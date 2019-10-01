@@ -40,7 +40,6 @@ api_name:
  - IUpdateInstaller.IsForced
  - IUpdateInstaller.get_IsForced
  - IUpdateInstaller.put_IsForced
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

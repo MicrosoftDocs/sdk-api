@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportNamespace.TransmissionStarted
  - IWdsTransportNamespace.get_TransmissionStarted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - IOleDocument.GetDocMiscStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

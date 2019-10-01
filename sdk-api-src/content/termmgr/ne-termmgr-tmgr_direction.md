@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - TMGR_DIRECTION
-product: Windows
 targetos: Windows
 req.typenames: TMGR_DIRECTION
 req.redist: 

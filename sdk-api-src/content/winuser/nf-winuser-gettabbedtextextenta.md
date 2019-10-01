@@ -40,7 +40,6 @@ api_name:
  - GetTabbedTextExtent
  - GetTabbedTextExtentA
  - GetTabbedTextExtentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

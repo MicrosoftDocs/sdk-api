@@ -40,7 +40,6 @@ api_name:
  - capStatusCallback
  - CAPSTATUSCALLBACKA
  - CAPSTATUSCALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

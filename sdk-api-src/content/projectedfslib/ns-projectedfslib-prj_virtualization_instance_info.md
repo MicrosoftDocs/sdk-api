@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_VIRTUALIZATION_INSTANCE_INFO
-product: Windows
 targetos: Windows
 req.typenames: PRJ_VIRTUALIZATION_INSTANCE_INFO
 req.redist: 

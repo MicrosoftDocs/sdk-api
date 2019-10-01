@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationCacheRequest.AutomationElementMode
  - IUIAutomationCacheRequest.get_AutomationElementMode
  - IUIAutomationCacheRequest.put_AutomationElementMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

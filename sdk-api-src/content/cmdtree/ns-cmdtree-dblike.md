@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBLIKE
-product: Windows
 targetos: Windows
 req.typenames: DBLIKE
 req.redist: 

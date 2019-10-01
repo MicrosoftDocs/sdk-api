@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_AUTHENTICATION_HARDENING_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_AUTHENTICATION_HARDENING_LEVELS
 req.redist: 

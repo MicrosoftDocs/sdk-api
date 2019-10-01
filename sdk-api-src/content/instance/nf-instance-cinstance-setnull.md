@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CInstance.SetNull
  - ?SetNull@CInstance@@QAE_NPBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

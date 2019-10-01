@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - WSACOMPLETION
-product: Windows
 targetos: Windows
 req.typenames: WSACOMPLETION, *PWSACOMPLETION, *LPWSACOMPLETION
 req.redist: 

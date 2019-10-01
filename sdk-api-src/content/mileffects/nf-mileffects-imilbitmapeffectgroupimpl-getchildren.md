@@ -38,7 +38,6 @@ api_location:
  - Mileffects.h
 api_name:
  - IMILBitmapEffectGroupImpl.GetChildren
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

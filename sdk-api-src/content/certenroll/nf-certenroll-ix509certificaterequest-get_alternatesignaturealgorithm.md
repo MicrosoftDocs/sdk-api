@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.AlternateSignatureAlgorithm
  - IX509CertificateRequest.get_AlternateSignatureAlgorithm
  - IX509CertificateRequest.put_AlternateSignatureAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

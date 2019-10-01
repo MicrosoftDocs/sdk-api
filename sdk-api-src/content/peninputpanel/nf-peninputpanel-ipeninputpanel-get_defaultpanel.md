@@ -43,7 +43,6 @@ api_name:
  - IPenInputPanel.put_DefaultPanel
  - PenInputPanel.get_DefaultPanel
  - PenInputPanel.put_DefaultPanel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

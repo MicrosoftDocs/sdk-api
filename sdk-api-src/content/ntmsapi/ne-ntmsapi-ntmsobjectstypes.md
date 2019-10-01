@@ -38,7 +38,6 @@ api_location:
  - Ntmsapi.h
 api_name:
  - NtmsObjectsTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

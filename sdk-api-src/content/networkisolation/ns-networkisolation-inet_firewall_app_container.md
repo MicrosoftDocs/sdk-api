@@ -38,7 +38,6 @@ api_location:
 - networkisolation.h
 api_name:
 - INET_FIREWALL_APP_CONTAINER
-product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 req.redist: 

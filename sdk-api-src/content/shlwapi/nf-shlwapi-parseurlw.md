@@ -44,7 +44,6 @@ api_name:
  - ParseURL
  - ParseURLA
  - ParseURLW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

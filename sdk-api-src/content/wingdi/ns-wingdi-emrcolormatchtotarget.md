@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCOLORMATCHTOTARGET
-product: Windows
 targetos: Windows
 req.typenames: EMRCOLORMATCHTOTARGET, *PEMRCOLORMATCHTOTARGET
 req.redist: 

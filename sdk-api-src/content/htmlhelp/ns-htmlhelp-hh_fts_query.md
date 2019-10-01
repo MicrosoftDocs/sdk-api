@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HH_FTS_QUERY
-product: Windows
 targetos: Windows
 req.typenames: HH_FTS_QUERY
 req.redist: 

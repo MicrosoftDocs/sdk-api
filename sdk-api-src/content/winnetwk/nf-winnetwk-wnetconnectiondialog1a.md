@@ -41,7 +41,6 @@ api_name:
 - WNetConnectionDialog1
 - WNetConnectionDialog1A
 - WNetConnectionDialog1W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

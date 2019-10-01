@@ -37,7 +37,6 @@ api_location:
  - D3D11.dll
 api_name:
  - CreateDirect3D11SurfaceFromDXGISurface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

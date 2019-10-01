@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMDomain.GetSOM
  - GPMDomain.GetSOM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

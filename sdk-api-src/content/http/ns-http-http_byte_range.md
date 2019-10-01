@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_BYTE_RANGE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
 req.redist: 

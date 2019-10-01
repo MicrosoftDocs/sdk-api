@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CERT_CREATE_CONTEXT_SORT_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

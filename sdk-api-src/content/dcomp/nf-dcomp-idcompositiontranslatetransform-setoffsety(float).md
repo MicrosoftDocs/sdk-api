@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionTranslateTransform.SetOffsetY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

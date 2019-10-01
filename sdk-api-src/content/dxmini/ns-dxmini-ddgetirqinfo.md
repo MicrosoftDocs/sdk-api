@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDGETIRQINFO
-product: Windows
 targetos: Windows
 req.typenames: DDGETIRQINFO, *PDDGETIRQINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wsdapi.dll
 api_name:
  - IWSDTransportAddress.GetTransportAddressEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

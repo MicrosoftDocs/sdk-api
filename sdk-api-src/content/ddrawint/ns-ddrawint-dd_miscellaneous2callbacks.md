@@ -38,7 +38,6 @@ api_location:
  - ddrawint.h
 api_name:
  - DD_MISCELLANEOUS2CALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
 req.redist: 

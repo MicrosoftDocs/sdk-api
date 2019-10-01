@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_UPN_ENDPOINT_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: WS_UPN_ENDPOINT_IDENTITY
 req.redist: 

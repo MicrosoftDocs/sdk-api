@@ -38,7 +38,6 @@ api_location:
  - Wsnwlink.h
 api_name:
  - IPX_SPXCONNSTATUS_DATA
-product: Windows
 targetos: Windows
 req.typenames: IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA
 req.redist: 

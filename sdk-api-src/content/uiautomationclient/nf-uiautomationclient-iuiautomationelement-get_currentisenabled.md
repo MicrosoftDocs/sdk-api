@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsEnabled
  - IUIAutomationElement.get_CurrentIsEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

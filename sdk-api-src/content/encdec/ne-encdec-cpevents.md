@@ -38,7 +38,6 @@ api_location:
  - EncDec.h
 api_name:
  - CPEvents
-product: Windows
 targetos: Windows
 req.typenames: CPEvents
 req.redist: 

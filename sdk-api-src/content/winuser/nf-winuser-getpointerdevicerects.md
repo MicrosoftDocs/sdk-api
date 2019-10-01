@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - GetPointerDeviceRects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

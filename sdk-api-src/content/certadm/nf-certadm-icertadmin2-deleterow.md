@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.DeleteRow
  - ICertAdmin.DeleteRow
  - CCertAdmin.DeleteRow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

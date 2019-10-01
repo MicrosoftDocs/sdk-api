@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitation.Password
  - IRDPSRAPIInvitation.get_Password
  - RDPSRAPIInvitation.Password
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

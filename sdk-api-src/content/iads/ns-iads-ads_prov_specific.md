@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_PROV_SPECIFIC
-product: Windows
 targetos: Windows
 req.typenames: ADS_PROV_SPECIFIC, *PADS_PROV_SPECIFIC
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sensevts.h
 api_name:
  - SENS_QOCINFO
-product: Windows
 targetos: Windows
 req.typenames: SENS_QOCINFO
 req.redist: 

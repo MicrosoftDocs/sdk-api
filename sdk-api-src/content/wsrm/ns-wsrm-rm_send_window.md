@@ -38,7 +38,6 @@ api_location:
  - Wsrm.h
 api_name:
  - RM_SEND_WINDOW
-product: Windows
 targetos: Windows
 req.typenames: RM_SEND_WINDOW
 req.redist: 

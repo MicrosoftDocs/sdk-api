@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMDomain.SearchGPOs
  - GPMDomain.SearchGPOs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

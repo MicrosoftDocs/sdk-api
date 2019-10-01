@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.ExtendedStatusCode
  - IFaxJobStatus.get_ExtendedStatusCode
  - IFaxJobStatus.get_ExtendedStatusCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

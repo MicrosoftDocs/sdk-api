@@ -38,7 +38,6 @@ api_location:
  - Comcat.h
 api_name:
  - CATEGORYINFO
-product: Windows
 targetos: Windows
 req.typenames: CATEGORYINFO, *LPCATEGORYINFO
 req.redist: 

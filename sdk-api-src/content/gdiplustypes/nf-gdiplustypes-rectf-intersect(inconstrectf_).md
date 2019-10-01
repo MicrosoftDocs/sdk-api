@@ -38,7 +38,6 @@ api_location:
  - gdiplustypes.h
 api_name:
  - RectF.Intersect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_SYSTEM_RECOGNITION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: FILE_SYSTEM_RECOGNITION_INFORMATION, *PFILE_SYSTEM_RECOGNITION_INFORMATION
 req.redist: 

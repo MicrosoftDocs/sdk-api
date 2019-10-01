@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.ConnectClientDrivesAtLogon
  - IADsTSUserEx.get_ConnectClientDrivesAtLogon
  - IADsTSUserEx.put_ConnectClientDrivesAtLogon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMGradientStop.GetColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

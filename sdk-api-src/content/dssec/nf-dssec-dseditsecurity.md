@@ -38,7 +38,6 @@ api_location:
  - DSSec.dll
 api_name:
  - DSEditSecurity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

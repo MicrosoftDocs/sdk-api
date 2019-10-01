@@ -41,7 +41,6 @@ api_location:
 api_name:
  - RoUninitialize
  - WinRTUninitialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

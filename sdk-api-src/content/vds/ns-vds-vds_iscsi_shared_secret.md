@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_ISCSI_SHARED_SECRET
-product: Windows
 targetos: Windows
 req.typenames: VDS_ISCSI_SHARED_SECRET
 req.redist: VDS 1.1

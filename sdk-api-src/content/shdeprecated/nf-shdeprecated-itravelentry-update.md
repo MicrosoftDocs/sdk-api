@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - ITravelEntry.Update
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

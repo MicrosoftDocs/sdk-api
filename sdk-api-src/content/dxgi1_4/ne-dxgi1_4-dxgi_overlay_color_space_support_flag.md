@@ -38,7 +38,6 @@ api_location:
  - DXGI1_4.h
 api_name:
  - DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
-product: Windows
 targetos: Windows
 req.typenames: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 req.redist: 

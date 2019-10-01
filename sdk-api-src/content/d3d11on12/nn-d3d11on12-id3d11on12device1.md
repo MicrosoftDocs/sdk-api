@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d11on12/ID3D11On12Device1"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

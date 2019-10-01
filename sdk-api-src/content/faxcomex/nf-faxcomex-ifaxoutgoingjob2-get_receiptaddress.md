@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob2.ReceiptAddress
  - IFaxOutgoingJob2.get_ReceiptAddress
  - IFaxOutgoingJob2.get_ReceiptAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

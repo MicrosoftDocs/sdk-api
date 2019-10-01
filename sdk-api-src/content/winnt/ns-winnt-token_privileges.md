@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_PRIVILEGES
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
 req.redist: 

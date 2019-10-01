@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_ADDRESS_STRUCT
 req.redist: 

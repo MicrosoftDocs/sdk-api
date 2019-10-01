@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzRoleAssignment.Scope
  - IAzRoleAssignment.get_Scope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

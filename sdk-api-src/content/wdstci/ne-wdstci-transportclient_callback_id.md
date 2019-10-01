@@ -38,7 +38,6 @@ api_location:
  - Wdstci.h
 api_name:
  - TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID
-product: Windows
 targetos: Windows
 req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
 req.redist: 

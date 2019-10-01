@@ -40,7 +40,6 @@ api_name:
  - GOPHER_FIND_DATA
  - GOPHER_FIND_DATAA
  - GOPHER_FIND_DATAW
-product: Windows
 targetos: Windows
 req.typenames: GOPHER_FIND_DATAW, *LPGOPHER_FIND_DATAW
 req.redist: 

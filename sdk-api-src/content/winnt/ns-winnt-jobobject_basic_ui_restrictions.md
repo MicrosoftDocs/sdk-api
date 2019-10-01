@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - JOBOBJECT_BASIC_UI_RESTRICTIONS
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_UI_RESTRICTIONS, *PJOBOBJECT_BASIC_UI_RESTRICTIONS
 req.redist: 

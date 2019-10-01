@@ -42,7 +42,6 @@ api_name:
  - OpenDesktop
  - OpenDesktopA
  - OpenDesktopW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

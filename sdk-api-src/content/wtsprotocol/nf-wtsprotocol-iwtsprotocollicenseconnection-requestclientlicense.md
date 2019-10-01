@@ -38,7 +38,6 @@ api_location:
  - Wtsprotocol.h
 api_name:
  - IWTSProtocolLicenseConnection.RequestClientLicense
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

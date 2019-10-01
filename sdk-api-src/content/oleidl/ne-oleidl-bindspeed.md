@@ -38,7 +38,6 @@ api_location:
  - Oleidl.h
 api_name:
  - BINDSPEED
-product: Windows
 targetos: Windows
 req.typenames: BINDSPEED
 req.redist: 

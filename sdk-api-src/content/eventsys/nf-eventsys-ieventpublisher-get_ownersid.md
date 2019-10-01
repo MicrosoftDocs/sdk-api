@@ -40,7 +40,6 @@ api_name:
  - IEventPublisher.OwnerSID
  - IEventPublisher.get_OwnerSID
  - IEventPublisher.put_OwnerSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

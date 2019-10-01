@@ -40,7 +40,6 @@ api_name:
  - WNetGetUser
  - WNetGetUserA
  - WNetGetUserW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

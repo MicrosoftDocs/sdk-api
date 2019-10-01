@@ -38,7 +38,6 @@ api_location:
  - Bits2_0.h
 api_name:
  - BG_FILE_RANGE
-product: Windows
 targetos: Windows
 req.typenames: BG_FILE_RANGE
 req.redist: 

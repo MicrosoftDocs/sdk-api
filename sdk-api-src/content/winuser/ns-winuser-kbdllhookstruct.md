@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - KBDLLHOOKSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: KBDLLHOOKSTRUCT, *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT
 req.redist: 

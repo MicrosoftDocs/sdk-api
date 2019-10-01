@@ -47,7 +47,6 @@ api_name:
  - LoadIcon
  - LoadIconA
  - LoadIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

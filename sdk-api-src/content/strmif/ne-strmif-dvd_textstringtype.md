@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TextStringType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

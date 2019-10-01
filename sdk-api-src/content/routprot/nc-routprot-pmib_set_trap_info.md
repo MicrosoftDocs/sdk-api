@@ -38,7 +38,6 @@ api_location:
 - Routprot.h
 api_name:
 - MibSetTrapInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_INITIATE_REPAIR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

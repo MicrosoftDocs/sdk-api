@@ -38,7 +38,6 @@ api_location:
  - msutb.dll
 api_name:
  - ITfLangBarEventSink.OnThreadTerminate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

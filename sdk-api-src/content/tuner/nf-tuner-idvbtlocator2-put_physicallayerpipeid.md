@@ -40,7 +40,6 @@ api_name:
  - IDVBTLocator2.PhysicalLayerPipeId
  - IDVBTLocator2.get_PhysicalLayerPipeId
  - IDVBTLocator2.put_PhysicalLayerPipeId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

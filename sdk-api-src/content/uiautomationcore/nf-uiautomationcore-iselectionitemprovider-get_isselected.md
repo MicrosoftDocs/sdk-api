@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionItemProvider.IsSelected
  - ISelectionItemProvider.get_IsSelected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

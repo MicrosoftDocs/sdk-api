@@ -38,7 +38,6 @@ api_location:
  - D3D11_3.h
 api_name:
  - D3D11_TEX2D_SRV1
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TEX2D_SRV1
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - MONCONVSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MONCONVSTRUCT, *PMONCONVSTRUCT
 req.redist: 

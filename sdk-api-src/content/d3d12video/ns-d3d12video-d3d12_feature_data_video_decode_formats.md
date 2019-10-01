@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
-product: Windows
 targetos: Windows
 ---
 

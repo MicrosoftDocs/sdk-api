@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - UNLOAD_DLL_DEBUG_INFO
-product: Windows
 targetos: Windows
 req.typenames: UNLOAD_DLL_DEBUG_INFO, *LPUNLOAD_DLL_DEBUG_INFO
 req.redist: 

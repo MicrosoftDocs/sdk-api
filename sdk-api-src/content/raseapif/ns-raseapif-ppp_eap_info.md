@@ -38,7 +38,6 @@ api_location:
 - Raseapif.h
 api_name:
 - PPP_EAP_INFO
-product: Windows
 targetos: Windows
 req.typenames: PPP_EAP_INFO, *PPPP_EAP_INFO
 req.redist: 

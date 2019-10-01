@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_REPAIR_COPIES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

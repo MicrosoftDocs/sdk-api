@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFontSetBuilder2::AddFont
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

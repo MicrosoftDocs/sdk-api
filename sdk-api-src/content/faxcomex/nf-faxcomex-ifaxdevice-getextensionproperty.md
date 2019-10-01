@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxDevice.GetExtensionProperty
  - IFaxDevice.GetExtensionProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ItsPubPlugin.pluginVersion
  - ItsPubPlugin.get_pluginVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

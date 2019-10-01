@@ -38,7 +38,6 @@ api_location:
  - GdiplusEffects.h
 api_name:
  - CurveChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

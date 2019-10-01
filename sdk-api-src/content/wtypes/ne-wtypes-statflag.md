@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - STATFLAG
-product: Windows
 targetos: Windows
 req.typenames: STATFLAG
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - PowrProf.dll
 api_name:
  - PowerWriteACDefaultIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

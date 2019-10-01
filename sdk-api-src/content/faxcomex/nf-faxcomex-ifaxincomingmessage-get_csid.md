@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessage.CSID
  - IFaxIncomingMessage.get_CSID
  - IFaxIncomingMessage.get_CSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

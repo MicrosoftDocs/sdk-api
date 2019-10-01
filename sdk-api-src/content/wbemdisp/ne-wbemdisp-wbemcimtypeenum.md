@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemCimTypeEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemCimtypeEnum
 req.redist: 

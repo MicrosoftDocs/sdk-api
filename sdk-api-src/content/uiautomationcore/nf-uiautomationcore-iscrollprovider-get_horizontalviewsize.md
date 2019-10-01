@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IScrollProvider.HorizontalViewSize
  - IScrollProvider.get_HorizontalViewSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

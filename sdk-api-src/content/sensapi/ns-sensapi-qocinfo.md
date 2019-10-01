@@ -38,7 +38,6 @@ api_location:
  - Sensapi.h
 api_name:
  - QOCINFO
-product: Windows
 targetos: Windows
 req.typenames: QOCINFO, *LPQOCINFO
 req.redist: 

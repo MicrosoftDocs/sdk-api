@@ -48,7 +48,6 @@ api_name:
  - GetClassName
  - GetClassNameA
  - GetClassNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

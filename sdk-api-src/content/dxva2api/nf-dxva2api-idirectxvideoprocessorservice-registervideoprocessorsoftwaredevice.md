@@ -38,7 +38,6 @@ api_location:
  - dxva2api.h
 api_name:
  - IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

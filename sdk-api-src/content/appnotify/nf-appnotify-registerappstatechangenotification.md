@@ -40,7 +40,6 @@ api_location:
  - twinapi.AppCore.dll
 api_name:
  - RegisterAppStateChangeNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

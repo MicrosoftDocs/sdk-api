@@ -38,7 +38,6 @@ api_location:
  - DbgHelp.h
 api_name:
  - IMAGEHLP_CBA_READ_MEMORY
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
 req.redist: DbgHelp.dll 5.1 or later

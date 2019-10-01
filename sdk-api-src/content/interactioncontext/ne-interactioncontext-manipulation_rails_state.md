@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - MANIPULATION_RAILS_STATE
-product: Windows
 targetos: Windows
 req.typenames: MANIPULATION_RAILS_STATE
 req.redist: 

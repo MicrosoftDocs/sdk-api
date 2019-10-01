@@ -38,7 +38,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - _DMO_INPUT_DATA_BUFFER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wrdsgraphicschannels.h
 api_name:
  - IWRdsGraphicsChannelEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

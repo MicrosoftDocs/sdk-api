@@ -38,7 +38,6 @@ api_location:
  - vptype.h
 api_name:
  - AMVPSIZE
-product: Windows
 targetos: Windows
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 req.redist: 

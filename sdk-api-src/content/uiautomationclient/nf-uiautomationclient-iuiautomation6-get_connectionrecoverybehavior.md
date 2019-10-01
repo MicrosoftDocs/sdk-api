@@ -40,7 +40,6 @@ api_name:
  - IUIAutomation6.ConnectionRecoveryBehavior
  - IUIAutomation6.get_ConnectionRecoveryBehavior
  - IUIAutomation6.put_ConnectionRecoveryBehavior
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - PPP_IPXCP_INFO
-product: Windows
 targetos: Windows
 req.typenames: PPP_IPXCP_INFO
 req.redist: 

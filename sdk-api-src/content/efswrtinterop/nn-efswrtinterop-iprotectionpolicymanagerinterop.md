@@ -38,7 +38,6 @@ api_location:
  - efswrtinterop.h
 api_name:
  - IProtectionPolicyManagerInterop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

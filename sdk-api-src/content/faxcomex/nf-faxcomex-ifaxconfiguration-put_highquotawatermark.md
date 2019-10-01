@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.HighQuotaWaterMark
  - IFaxConfiguration.get_HighQuotaWaterMark
  - IFaxConfiguration.put_HighQuotaWaterMark
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

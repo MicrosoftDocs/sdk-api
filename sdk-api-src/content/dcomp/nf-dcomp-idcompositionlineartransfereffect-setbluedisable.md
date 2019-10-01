@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionLinearTransferEffect.SetBlueDisable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

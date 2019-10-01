@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IMediaEvent.GetEvent
  - IMediaEventEx.GetEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

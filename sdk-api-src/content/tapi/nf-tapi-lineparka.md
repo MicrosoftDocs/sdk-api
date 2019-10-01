@@ -40,7 +40,6 @@ api_name:
  - linePark
  - lineParkA
  - lineParkW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

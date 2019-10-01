@@ -38,7 +38,6 @@ api_location:
  - wmdxva.h
 api_name:
  - IWMCodecAMVideoAccelerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

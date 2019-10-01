@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_VOICE_CALL_STATE
-product: Windows
 targetos: Windows
 req.typenames: MBN_VOICE_CALL_STATE
 req.redist: 

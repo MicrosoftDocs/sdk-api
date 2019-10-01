@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETWORLDTRANSFORM
-product: Windows
 targetos: Windows
 req.typenames: EMRSETWORLDTRANSFORM, *PEMRSETWORLDTRANSFORM
 req.redist: 

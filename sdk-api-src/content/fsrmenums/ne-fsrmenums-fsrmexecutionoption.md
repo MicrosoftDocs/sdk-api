@@ -38,7 +38,6 @@ api_location:
 - FsrmEnums.h
 api_name:
 - FsrmExecutionOption
-product: Windows
 targetos: Windows
 req.typenames: FsrmExecutionOption
 req.redist: 

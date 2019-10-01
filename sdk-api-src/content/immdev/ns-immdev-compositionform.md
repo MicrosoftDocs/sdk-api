@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - COMPOSITIONFORM
-product: Windows
 targetos: Windows
 req.typenames: COMPOSITIONFORM, *PCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *LPCOMPOSITIONFORM
 req.redist: 

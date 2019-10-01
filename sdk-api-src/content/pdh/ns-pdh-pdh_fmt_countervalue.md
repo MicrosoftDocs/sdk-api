@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - PDH_FMT_COUNTERVALUE
-product: Windows
 targetos: Windows
 req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
 req.redist: 

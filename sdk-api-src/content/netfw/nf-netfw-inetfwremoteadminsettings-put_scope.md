@@ -41,7 +41,6 @@ api_name:
  - INetFwRemoteAdminSettings.Scope
  - INetFwRemoteAdminSettings.get_Scope
  - INetFwRemoteAdminSettings.put_Scope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

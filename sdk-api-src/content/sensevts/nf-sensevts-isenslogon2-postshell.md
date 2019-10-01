@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISensLogon2.PostShell
  - ISensLogon2.PostShell
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

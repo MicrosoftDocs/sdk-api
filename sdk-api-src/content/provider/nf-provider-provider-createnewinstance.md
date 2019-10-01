@@ -41,7 +41,6 @@ api_name:
  - Provider.CreateNewInstance
  - ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
  - ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

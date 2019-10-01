@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.RetryDelay
  - IFaxConfiguration.get_RetryDelay
  - IFaxConfiguration.put_RetryDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

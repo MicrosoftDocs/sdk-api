@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.TaskArguments
  - IDataCollectorSet.get_TaskArguments
  - IDataCollectorSet.put_TaskArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

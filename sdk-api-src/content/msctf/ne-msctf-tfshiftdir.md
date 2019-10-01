@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TfShiftDir
-product: Windows
 targetos: Windows
 req.typenames: TfShiftDir
 req.redist: TSF 1.0 on Windows 2000 Professional

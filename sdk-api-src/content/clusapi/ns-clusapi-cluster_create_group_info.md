@@ -39,7 +39,6 @@ api_location:
  - MSClus.h
 api_name:
  - CLUSTER_CREATE_GROUP_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
 req.redist: 

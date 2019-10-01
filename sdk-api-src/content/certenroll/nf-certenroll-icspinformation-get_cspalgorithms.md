@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.CspAlgorithms
  - ICspInformation.get_CspAlgorithms
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

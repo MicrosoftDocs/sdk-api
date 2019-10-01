@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - PKU2U_CREDUI_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: PKU2U_CREDUI_CONTEXT, *PPKU2U_CREDUI_CONTEXT
 req.redist: 

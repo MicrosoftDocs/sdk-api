@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_DLL_FUNCTIONS
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_DLL_FUNCTIONS, *PSECPKG_DLL_FUNCTIONS
 req.redist: 

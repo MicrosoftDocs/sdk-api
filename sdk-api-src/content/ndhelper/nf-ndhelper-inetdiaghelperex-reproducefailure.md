@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - INetDiagHelperEx.ReproduceFailure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

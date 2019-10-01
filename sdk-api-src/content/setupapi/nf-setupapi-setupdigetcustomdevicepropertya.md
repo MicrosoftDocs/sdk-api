@@ -40,7 +40,6 @@ api_name:
 - SetupDiGetCustomDeviceProperty
 - SetupDiGetCustomDevicePropertyA
 - SetupDiGetCustomDevicePropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

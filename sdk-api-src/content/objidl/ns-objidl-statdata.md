@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - STATDATA
-product: Windows
 targetos: Windows
 req.typenames: STATDATA
 req.redist: 

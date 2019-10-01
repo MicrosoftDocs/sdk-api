@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.CustomAction
  - IFsrmFileManagementJob.get_CustomAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

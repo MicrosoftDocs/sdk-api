@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaSample2Config.GetSurface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

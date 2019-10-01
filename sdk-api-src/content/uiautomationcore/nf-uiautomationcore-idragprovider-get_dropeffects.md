@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDragProvider.DropEffects
  - IDragProvider.get_DropEffects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

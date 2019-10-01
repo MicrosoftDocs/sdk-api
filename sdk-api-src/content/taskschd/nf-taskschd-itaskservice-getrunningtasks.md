@@ -38,7 +38,6 @@ api_location:
 - taskschd.dll
 api_name:
 - ITaskService.GetRunningTasks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

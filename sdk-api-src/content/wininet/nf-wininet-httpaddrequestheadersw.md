@@ -40,7 +40,6 @@ api_name:
  - HttpAddRequestHeaders
  - HttpAddRequestHeadersA
  - HttpAddRequestHeadersW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

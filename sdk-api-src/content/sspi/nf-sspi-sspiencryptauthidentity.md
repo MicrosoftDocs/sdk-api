@@ -38,7 +38,6 @@ api_location:
  - SspiCli.dll
 api_name:
  - SspiEncryptAuthIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

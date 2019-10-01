@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - PROXY_ACCESS
-product: Windows
 targetos: Windows
 req.typenames: PROXY_ACCESS
 req.redist: 

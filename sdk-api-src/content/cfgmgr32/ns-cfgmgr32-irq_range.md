@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - IRQ_RANGE
-product: Windows
 targetos: Windows
 req.typenames: IRQ_RANGE, *PIRQ_RANGE
 req.redist: 

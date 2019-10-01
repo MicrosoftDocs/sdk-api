@@ -38,7 +38,6 @@ api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
  - MC_POSITION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MC_POSITION_TYPE
 req.redist: 

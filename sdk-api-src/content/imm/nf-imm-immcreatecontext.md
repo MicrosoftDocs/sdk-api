@@ -38,7 +38,6 @@ api_location:
  - imm32.dll
 api_name:
  - ImmCreateContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

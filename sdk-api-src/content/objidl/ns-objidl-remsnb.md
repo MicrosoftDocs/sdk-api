@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - RemSNB
-product: Windows
 targetos: Windows
 req.typenames: RemSNB
 req.redist: 

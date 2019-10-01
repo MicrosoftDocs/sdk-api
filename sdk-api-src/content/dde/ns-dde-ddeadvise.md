@@ -38,7 +38,6 @@ api_location:
  - Dde.h
 api_name:
  - DDEADVISE
-product: Windows
 targetos: Windows
 req.typenames: DDEADVISE
 req.redist: 

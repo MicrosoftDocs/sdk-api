@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ObjectControl.Activate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

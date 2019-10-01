@@ -38,7 +38,6 @@ api_location:
  - Ktmw32.dll
 api_name:
  - GetEnlistmentRecoveryInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

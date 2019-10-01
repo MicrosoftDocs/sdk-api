@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWM_TIMING_INFO
-product: Windows
 targetos: Windows
 req.typenames: DWM_TIMING_INFO
 req.redist: 

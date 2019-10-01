@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_RUNTIME_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINML_RUNTIME_TYPE
 req.redist: 

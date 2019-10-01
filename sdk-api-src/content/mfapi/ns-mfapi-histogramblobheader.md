@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - HistogramBlobHeader
-product: Windows
 targetos: Windows
 req.typenames: HistogramBlobHeader
 req.redist: 

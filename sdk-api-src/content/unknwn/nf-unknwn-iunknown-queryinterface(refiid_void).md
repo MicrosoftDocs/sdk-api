@@ -38,7 +38,6 @@ api_location:
  - Unknwn.h
 api_name:
  - IUnknown.QueryInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

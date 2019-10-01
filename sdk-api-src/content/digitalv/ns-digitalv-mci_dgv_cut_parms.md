@@ -38,7 +38,6 @@ api_location:
  - Digitalv.h
 api_name:
  - MCI_DGV_CUT_PARMS
-product: Windows
 targetos: Windows
 req.typenames: MCI_DGV_CUT_PARMS
 req.redist: 

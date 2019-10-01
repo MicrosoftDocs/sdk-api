@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDOPENDIRECTDRAWIN
-product: Windows
 targetos: Windows
 req.typenames: DDOPENDIRECTDRAWIN, *LPDDOPENDIRECTDRAWIN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 req.redist: 

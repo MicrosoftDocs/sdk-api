@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - ALERT_VAR_DATA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

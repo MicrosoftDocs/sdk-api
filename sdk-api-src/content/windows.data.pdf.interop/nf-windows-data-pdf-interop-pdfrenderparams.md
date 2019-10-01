@@ -38,7 +38,6 @@ api_location:
  - Windows.Data.Pdf.dll
 api_name:
  - PdfRenderParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

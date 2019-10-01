@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIOutput1.GetDisplaySurfaceData1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

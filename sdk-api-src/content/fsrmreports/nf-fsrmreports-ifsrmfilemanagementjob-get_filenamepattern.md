@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.FileNamePattern
  - IFsrmFileManagementJob.get_FileNamePattern
  - IFsrmFileManagementJob.put_FileNamePattern
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

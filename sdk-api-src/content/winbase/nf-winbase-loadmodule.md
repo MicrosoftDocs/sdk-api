@@ -38,7 +38,6 @@ api_location:
 - Kernel32.dll
 api_name:
 - LoadModule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

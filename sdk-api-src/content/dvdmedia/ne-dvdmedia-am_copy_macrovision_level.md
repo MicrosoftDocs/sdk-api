@@ -38,7 +38,6 @@ api_location:
 - Dvdmedia.h
 api_name:
 - AM_COPY_MACROVISION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: AM_COPY_MACROVISION_LEVEL, *PAM_COPY_MACROVISION_LEVEL
 req.redist: 

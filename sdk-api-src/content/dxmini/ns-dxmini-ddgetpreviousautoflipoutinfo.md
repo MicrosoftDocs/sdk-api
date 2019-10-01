@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDGETPREVIOUSAUTOFLIPOUTINFO
-product: Windows
 targetos: Windows
 req.typenames: DDGETPREVIOUSAUTOFLIPOUTINFO, *PDDGETPREVIOUSAUTOFLIPOUTINFO
 req.redist: 

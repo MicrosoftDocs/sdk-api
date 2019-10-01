@@ -38,7 +38,6 @@ api_location:
  - Qmgr.h
 api_name:
  - IBackgroundCopyCallback1.OnStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IFolderView2.SetViewModeAndIconSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

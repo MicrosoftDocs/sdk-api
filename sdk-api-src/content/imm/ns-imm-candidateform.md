@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - CANDIDATEFORM
-product: Windows
 targetos: Windows
 req.typenames: CANDIDATEFORM, *PCANDIDATEFORM, *NPCANDIDATEFORM, *LPCANDIDATEFORM
 req.redist: 

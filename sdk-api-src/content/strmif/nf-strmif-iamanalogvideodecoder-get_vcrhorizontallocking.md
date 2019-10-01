@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMAnalogVideoDecoder.get_VCRHorizontalLocking
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

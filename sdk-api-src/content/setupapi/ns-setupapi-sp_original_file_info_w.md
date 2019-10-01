@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SP_ORIGINAL_FILE_INFO
  - sp_original_file_info_w
-product: Windows
 targetos: Windows
 req.typenames: SP_ORIGINAL_FILE_INFO_W, *PSP_ORIGINAL_FILE_INFO_W
 req.redist: 

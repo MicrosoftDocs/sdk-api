@@ -38,7 +38,6 @@ api_location:
 - drt.h
 api_name:
 - DRT_ADDRESS_LIST
-product: Windows
 targetos: Windows
 req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
 req.redist: 

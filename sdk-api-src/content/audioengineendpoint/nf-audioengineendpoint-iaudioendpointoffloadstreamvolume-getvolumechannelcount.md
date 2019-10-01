@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - IAudioEndpointOffloadStreamVolume.GetVolumeChannelCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

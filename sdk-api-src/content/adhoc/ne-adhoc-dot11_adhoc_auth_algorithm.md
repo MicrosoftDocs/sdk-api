@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - DOT11_ADHOC_AUTH_ALGORITHM
-product: Windows
 targetos: Windows
 req.typenames: DOT11_ADHOC_AUTH_ALGORITHM
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - QueryCredentialsAttributes
 - QueryCredentialsAttributesA
 - QueryCredentialsAttributesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

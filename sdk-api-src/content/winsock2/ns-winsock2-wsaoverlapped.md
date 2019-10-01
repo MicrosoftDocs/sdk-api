@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - WSAOVERLAPPED
-product: Windows
 targetos: Windows
 req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
 req.redist: 

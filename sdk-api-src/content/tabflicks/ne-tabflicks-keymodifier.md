@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - KEYMODIFIER
-product: Windows
 targetos: Windows
 req.typenames: KEYMODIFIER
 req.redist: 

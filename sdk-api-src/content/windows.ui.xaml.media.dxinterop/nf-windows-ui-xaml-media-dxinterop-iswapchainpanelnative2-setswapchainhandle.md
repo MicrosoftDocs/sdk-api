@@ -38,7 +38,6 @@ api_location:
  - Windows.UI.Xaml.dll
 api_name:
  - ISwapChainPanelNative2.SetSwapChainHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CThreadBase.EndWrite
  - ?Empty@CHString@@QEAAXXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - lmjoin.h
 api_name:
  - DSREG_JOIN_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
 req.redist: 

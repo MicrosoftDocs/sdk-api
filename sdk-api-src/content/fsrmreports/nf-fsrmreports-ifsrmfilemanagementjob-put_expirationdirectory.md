@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.ExpirationDirectory
  - IFsrmFileManagementJob.get_ExpirationDirectory
  - IFsrmFileManagementJob.put_ExpirationDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

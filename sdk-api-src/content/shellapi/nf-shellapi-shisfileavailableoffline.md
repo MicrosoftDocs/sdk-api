@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - SHIsFileAvailableOffline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

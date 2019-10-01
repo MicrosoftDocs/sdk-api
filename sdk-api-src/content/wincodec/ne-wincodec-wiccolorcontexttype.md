@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICColorContextType
-product: Windows
 targetos: Windows
 req.typenames: WICColorContextType
 req.redist: 

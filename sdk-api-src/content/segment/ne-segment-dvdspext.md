@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - DVDSPExt
-product: Windows
 targetos: Windows
 req.typenames: DVDSPExt
 req.redist: 

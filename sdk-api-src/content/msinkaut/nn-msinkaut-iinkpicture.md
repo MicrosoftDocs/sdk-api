@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - IInkPicture
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

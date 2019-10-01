@@ -42,7 +42,6 @@ api_name:
 - SHBrowseForFolder
 - SHBrowseForFolderA
 - SHBrowseForFolderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

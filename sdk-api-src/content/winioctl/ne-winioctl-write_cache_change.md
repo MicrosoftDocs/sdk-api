@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - WRITE_CACHE_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: WRITE_CACHE_CHANGE
 req.redist: 

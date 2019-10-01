@@ -38,7 +38,6 @@ api_location:
 - mfidl.h
 api_name:
 - MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
-product: Windows
 targetos: Windows
 req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 req.redist: 

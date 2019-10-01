@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIVirtualChannelManager.Item
  - IRDPSRAPIVirtualChannelManager.get_Item
  - RDPSRAPIVirtualChannelManager.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

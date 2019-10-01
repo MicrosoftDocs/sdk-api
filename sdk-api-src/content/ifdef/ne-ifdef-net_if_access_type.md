@@ -38,7 +38,6 @@ api_location:
  - ifdef.h
 api_name:
  - NET_IF_ACCESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NET_IF_ACCESS_TYPE, *PNET_IF_ACCESS_TYPE
 req.redist: 

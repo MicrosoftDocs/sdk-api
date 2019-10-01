@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - DRM_OPL_OUTPUT_IDS
-product: Windows
 targetos: Windows
 req.typenames: DRM_OPL_OUTPUT_IDS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wsdbase.h
 api_name:
  - WSDUdpRetransmitParams
-product: Windows
 targetos: Windows
 req.typenames: WSDUdpRetransmitParams
 req.redist: 

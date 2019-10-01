@@ -40,7 +40,6 @@ api_name:
  - IX509SCEPEnrollment.TransactionId
  - IX509SCEPEnrollment.get_TransactionId
  - IX509SCEPEnrollment.put_TransactionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

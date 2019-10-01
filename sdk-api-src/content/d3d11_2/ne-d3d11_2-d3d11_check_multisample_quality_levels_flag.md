@@ -38,7 +38,6 @@ api_location:
  - D3D11_2.h
 api_name:
  - D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
-product: Windows
 targetos: Windows
 req.typenames: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 req.redist: 

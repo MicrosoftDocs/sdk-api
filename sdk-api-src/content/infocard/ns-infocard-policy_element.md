@@ -38,7 +38,6 @@ api_location:
  - infocard.h
 api_name:
  - POLICY_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
 req.redist: 

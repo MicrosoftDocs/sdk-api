@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingMessage.Delete
  - IFaxOutgoingMessage.Delete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

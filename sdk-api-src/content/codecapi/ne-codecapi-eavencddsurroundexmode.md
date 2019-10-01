@@ -38,7 +38,6 @@ api_location:
  - codecapi.h
 api_name:
  - eAVEncDDSurroundExMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

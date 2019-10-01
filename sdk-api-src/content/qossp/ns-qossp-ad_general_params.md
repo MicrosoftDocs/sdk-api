@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - AD_GENERAL_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
 req.redist: 

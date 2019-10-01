@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINETERMCAPS
-product: Windows
 targetos: Windows
 req.typenames: LINETERMCAPS, *LPLINETERMCAPS
 req.redist: 

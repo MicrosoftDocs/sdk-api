@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TRANSFER_MODE
-product: Windows
 targetos: Windows
 req.typenames: WS_TRANSFER_MODE
 req.redist: 

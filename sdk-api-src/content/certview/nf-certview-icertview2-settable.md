@@ -40,7 +40,6 @@ api_name:
  - ICertView2.SetTable
  - ICertView.SetTable
  - CCertView.SetTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

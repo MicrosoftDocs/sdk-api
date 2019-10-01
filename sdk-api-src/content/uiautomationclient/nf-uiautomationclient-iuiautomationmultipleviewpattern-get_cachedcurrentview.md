@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationMultipleViewPattern.CachedCurrentView
  - IUIAutomationMultipleViewPattern.get_CachedCurrentView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Authz.h
 api_name:
 - AUTHZ_SECURITY_ATTRIBUTE_V1
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
 req.redist: 

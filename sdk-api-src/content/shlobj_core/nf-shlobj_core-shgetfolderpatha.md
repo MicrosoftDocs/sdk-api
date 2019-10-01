@@ -46,7 +46,6 @@ api_name:
  - SHGetFolderPath
  - SHGetFolderPathA
  - SHGetFolderPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

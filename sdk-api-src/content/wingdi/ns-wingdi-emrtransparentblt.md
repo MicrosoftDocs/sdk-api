@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREMRTRANSPARENTBLT
-product: Windows
 targetos: Windows
 req.typenames: EMRTRANSPARENTBLT, *PEMRTRANSPARENTBLT
 req.redist: 

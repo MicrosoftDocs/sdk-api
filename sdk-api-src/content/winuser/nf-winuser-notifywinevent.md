@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-NTUser-server-l1-1-0.dll
 api_name:
  - NotifyWinEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

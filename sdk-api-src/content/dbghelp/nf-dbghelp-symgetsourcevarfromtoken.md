@@ -40,7 +40,6 @@ api_name:
  - SymGetSourceVarFromToken
  - SymGetSourceVarFromToken
  - SymGetSourceVarFromTokenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

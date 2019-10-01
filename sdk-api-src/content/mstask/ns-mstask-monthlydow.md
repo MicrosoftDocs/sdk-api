@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - MONTHLYDOW
-product: Windows
 targetos: Windows
 req.typenames: MONTHLYDOW
 req.redist: 

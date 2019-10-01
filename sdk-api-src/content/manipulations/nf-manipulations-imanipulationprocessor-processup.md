@@ -38,7 +38,6 @@ api_location:
  - manipulations.h
 api_name:
  - IManipulationProcessor.ProcessUp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

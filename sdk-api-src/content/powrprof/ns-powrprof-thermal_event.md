@@ -38,7 +38,6 @@ api_location:
  - PowrProf.h
 api_name:
  - THERMAL_EVENT
-product: Windows
 targetos: Windows
 req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CachedAuthor
  - IUIAutomationAnnotationPattern.get_CachedAuthor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

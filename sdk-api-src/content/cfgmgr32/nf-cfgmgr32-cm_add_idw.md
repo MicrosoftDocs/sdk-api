@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Add_ID
  - CM_Add_IDW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

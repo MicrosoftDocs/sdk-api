@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_NAMESPACE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_NAMESPACE_TYPE, *PWDSTRANSPORT_NAMESPACE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - ISurrogateService.Init
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

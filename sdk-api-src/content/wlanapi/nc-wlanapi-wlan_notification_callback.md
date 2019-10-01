@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_NOTIFICATION_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

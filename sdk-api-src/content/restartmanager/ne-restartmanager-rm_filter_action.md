@@ -38,7 +38,6 @@ api_location:
 - RestartManager.h
 api_name:
 - RM_FILTER_ACTION
-product: Windows
 targetos: Windows
 req.typenames: RM_FILTER_ACTION
 req.redist: 

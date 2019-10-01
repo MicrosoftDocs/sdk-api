@@ -40,7 +40,6 @@ api_name:
  - OleUIBusy
  - OleUIBusyA
  - OleUIBusyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgi1_4.h
 api_name:
  - DXGI_MEMORY_SEGMENT_GROUP
-product: Windows
 targetos: Windows
 req.typenames: DXGI_MEMORY_SEGMENT_GROUP
 req.redist: 

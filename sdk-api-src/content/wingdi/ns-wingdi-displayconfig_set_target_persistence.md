@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_SET_TARGET_PERSISTENCE
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 req.redist: 

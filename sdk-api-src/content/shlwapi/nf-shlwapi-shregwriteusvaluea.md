@@ -42,7 +42,6 @@ api_name:
  - SHRegWriteUSValue
  - SHRegWriteUSValueA
  - SHRegWriteUSValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

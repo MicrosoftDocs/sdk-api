@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POL_COMPARATOR
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COMPARATOR
 req.redist: 

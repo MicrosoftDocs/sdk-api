@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingMessageIterator.MoveFirst
  - IFaxOutgoingMessageIterator.MoveFirst
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

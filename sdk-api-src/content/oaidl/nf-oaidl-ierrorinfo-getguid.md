@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - IErrorInfo.GetGUID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

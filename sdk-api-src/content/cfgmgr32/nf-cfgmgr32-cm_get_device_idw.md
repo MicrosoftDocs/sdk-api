@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CM_Get_Device_ID
  - CM_Get_Device_IDW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

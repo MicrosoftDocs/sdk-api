@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_ClipRectangle
  - IDynamicRenderer.get_ClipRectangle
  - IDynamicRenderer.put_ClipRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

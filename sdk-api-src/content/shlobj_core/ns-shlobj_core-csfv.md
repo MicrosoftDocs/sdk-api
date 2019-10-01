@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - CSFV
-product: Windows
 targetos: Windows
 req.typenames: CSFV, *LPCSFV
 req.redist: 

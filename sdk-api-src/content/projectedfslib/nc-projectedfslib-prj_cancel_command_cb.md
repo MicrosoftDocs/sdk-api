@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_CANCEL_COMMAND_CB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

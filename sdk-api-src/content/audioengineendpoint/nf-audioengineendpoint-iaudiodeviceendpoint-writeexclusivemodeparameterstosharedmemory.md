@@ -38,7 +38,6 @@ api_location:
  - AudioEngineEndpoint.h
 api_name:
  - IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_FILE_RANGE
-product: Windows
 targetos: Windows
 req.typenames: CF_FILE_RANGE
 req.redist: 

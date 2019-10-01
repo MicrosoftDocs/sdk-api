@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - UiInfo, *PUiInfo
-product: Windows
 targetos: Windows
 req.typenames: UiInfo, *PUiInfo
 req.redist: 

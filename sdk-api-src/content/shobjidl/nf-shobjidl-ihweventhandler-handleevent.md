@@ -38,7 +38,6 @@ api_location:
  - Shimgvw.dll
 api_name:
  - IHWEventHandler.HandleEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

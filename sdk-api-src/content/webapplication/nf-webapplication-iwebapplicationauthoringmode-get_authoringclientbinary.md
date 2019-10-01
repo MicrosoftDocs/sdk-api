@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWebApplicationAuthoringMode.AuthoringClientBinary
  - IWebApplicationAuthoringMode.get_AuthoringClientBinary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

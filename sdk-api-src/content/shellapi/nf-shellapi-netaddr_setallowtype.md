@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - NetAddr_SetAllowType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

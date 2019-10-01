@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_MX_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_MX_DATAW, *PDNS_MX_DATAW
 req.redist: 

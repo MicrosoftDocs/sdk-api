@@ -40,7 +40,6 @@ api_name:
  - SearchTreeForFile
  - SearchTreeForFile
  - SearchTreeForFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

@@ -44,7 +44,6 @@ api_name:
  - GetTextExtentPoint
  - GetTextExtentPointA
  - GetTextExtentPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ualapi.dll
 api_name:
  - UalRegisterProduct
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

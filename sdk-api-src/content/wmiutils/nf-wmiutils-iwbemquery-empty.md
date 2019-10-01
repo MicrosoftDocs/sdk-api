@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemQuery.Empty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

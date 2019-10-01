@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassifierModuleDefinition.PropertiesUsed
  - IFsrmClassifierModuleDefinition.get_PropertiesUsed
  - IFsrmClassifierModuleDefinition.put_PropertiesUsed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_TRUST_REG_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_TRUST_REG_ENTRY, *PCRYPT_TRUST_REG_ENTRY
 req.redist: 

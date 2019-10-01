@@ -38,7 +38,6 @@ api_location:
  - D3DCompiler_47.dll
 api_name:
  - ID3DInclude.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

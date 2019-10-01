@@ -38,7 +38,6 @@ api_location:
  - xaudio2fx.h
 api_name:
  - XAUDIO2FX_REVERB_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2FX_REVERB_PARAMETERS
 req.redist: 

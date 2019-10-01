@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTimecodeGenerator.SetTimecode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

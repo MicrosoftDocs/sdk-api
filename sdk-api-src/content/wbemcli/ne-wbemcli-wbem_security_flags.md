@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_SECURITY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WBEM_SECURITY_FLAGS
 req.redist: 

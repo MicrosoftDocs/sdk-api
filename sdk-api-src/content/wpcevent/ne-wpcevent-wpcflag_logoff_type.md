@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPCFLAG_LOGOFF_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WPCFLAG_LOGOFF_TYPE
 req.redist: 

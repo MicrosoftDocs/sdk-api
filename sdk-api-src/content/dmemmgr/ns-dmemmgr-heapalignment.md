@@ -38,7 +38,6 @@ api_location:
 - dmemmgr.h
 api_name:
 - HEAPALIGNMENT
-product: Windows
 targetos: Windows
 req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
 req.redist: 

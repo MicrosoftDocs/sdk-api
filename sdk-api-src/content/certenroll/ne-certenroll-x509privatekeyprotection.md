@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - X509PrivateKeyProtection
-product: Windows
 targetos: Windows
 req.typenames: X509PrivateKeyProtection
 req.redist: 

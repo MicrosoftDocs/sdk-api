@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_PauseServerQueue
  - IFaxServer.get_PauseServerQueue
  - IFaxServer.put_PauseServerQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

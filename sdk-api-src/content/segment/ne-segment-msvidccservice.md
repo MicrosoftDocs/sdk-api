@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - MSVidCCService
-product: Windows
 targetos: Windows
 req.typenames: MSVidCCService
 req.redist: 

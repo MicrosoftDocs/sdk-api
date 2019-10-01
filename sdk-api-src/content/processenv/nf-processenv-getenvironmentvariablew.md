@@ -45,7 +45,6 @@ api_name:
  - GetEnvironmentVariable
  - GetEnvironmentVariableA
  - GetEnvironmentVariableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

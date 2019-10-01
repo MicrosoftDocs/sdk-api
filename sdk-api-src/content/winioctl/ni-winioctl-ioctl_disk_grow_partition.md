@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_DISK_GROW_PARTITION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

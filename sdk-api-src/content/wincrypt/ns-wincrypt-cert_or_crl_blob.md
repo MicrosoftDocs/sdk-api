@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_OR_CRL_BLOB
-product: Windows
 targetos: Windows
 req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
 req.redist: 

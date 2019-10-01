@@ -38,7 +38,6 @@ api_location:
  - ws2def.h
 api_name:
  - CSADDR_INFO
-product: Windows
 targetos: Windows
 req.typenames: CSADDR_INFO, *PCSADDR_INFO, *LPCSADDR_INFO
 req.redist: 

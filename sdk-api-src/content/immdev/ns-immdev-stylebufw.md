@@ -40,7 +40,6 @@ api_name:
  - STYLEBUF
  - STYLEBUFA
  - STYLEBUFW
-product: Windows
 targetos: Windows
 req.typenames: STYLEBUFW, *PSTYLEBUFW, *NPSTYLEBUFW, *LPSTYLEBUFW
 req.redist: 

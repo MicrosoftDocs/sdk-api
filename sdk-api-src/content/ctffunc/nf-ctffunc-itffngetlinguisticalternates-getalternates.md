@@ -38,7 +38,6 @@ api_location:
  - Ctffunc.h
 api_name:
  - ITfFnGetLinguisticAlternates.GetAlternates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

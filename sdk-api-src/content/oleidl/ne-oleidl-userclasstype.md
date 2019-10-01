@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - USERCLASSTYPE
-product: Windows
 targetos: Windows
 req.typenames: USERCLASSTYPE
 req.redist: 

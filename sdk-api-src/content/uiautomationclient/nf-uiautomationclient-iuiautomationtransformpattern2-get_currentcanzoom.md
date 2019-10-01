@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CurrentCanZoom
  - IUIAutomationTransformPattern2.get_CurrentCanZoom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

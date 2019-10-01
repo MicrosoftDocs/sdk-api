@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_CONNECTED_HDCP_DEVICE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 req.redist: 

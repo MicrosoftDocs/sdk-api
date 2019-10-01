@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.TSID
  - IFaxOutgoingMessage.get_TSID
  - IFaxOutgoingMessage.get_TSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingExtension.InitErrorCode
  - IFaxInboundRoutingExtension.get_InitErrorCode
  - IFaxInboundRoutingExtension.get_InitErrorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

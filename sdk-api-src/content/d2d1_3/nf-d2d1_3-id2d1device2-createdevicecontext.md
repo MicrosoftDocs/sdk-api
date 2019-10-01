@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.dll
 api_name:
  - ID2D1Device2.CreateDeviceContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

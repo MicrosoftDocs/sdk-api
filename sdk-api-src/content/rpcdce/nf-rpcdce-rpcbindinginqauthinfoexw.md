@@ -40,7 +40,6 @@ api_name:
 - RpcBindingInqAuthInfoEx
 - RpcBindingInqAuthInfoExA
 - RpcBindingInqAuthInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

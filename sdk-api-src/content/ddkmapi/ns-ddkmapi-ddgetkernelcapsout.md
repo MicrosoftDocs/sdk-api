@@ -38,7 +38,6 @@ api_location:
 - ddkmapi.h
 api_name:
 - DDGETKERNELCAPSOUT
-product: Windows
 targetos: Windows
 req.typenames: DDGETKERNELCAPSOUT, *LPDDGETKERNELCAPSOUT
 req.redist: 

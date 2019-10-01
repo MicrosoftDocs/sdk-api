@@ -42,7 +42,6 @@ api_name:
  - SHSendMessageBroadcast
  - SHSendMessageBroadcastA
  - SHSendMessageBroadcastW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

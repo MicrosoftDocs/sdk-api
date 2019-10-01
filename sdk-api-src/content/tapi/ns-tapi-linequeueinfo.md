@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEQUEUEINFO
-product: Windows
 targetos: Windows
 req.typenames: LINEQUEUEINFO, *LPLINEQUEUEINFO
 req.redist: 

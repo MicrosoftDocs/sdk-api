@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_SessionKey
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SessionKey, *PSecPkgContext_SessionKey
 req.redist: 

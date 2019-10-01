@@ -38,7 +38,6 @@ api_location:
  - gdiplusmetaheader.h
 api_name:
  - MetafileHeader
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

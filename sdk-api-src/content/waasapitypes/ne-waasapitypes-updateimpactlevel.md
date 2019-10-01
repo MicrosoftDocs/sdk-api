@@ -38,7 +38,6 @@ api_location:
  - waasapitypes.h
 api_name:
  - UpdateImpactLevel
-product: Windows
 targetos: Windows
 req.typenames: UpdateImpactLevel
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - LSA_LAST_INTER_LOGON_INFO
-product: Windows
 targetos: Windows
 req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
 req.redist: 

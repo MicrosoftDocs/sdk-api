@@ -10,7 +10,6 @@ ms.topic: enum
 f1_keywords:
 - wincodec/WICHeifHdrProperties
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wincodec.h

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.UninstallationBehavior
  - IUpdate.get_UninstallationBehavior
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

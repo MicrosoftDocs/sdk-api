@@ -38,7 +38,6 @@ api_location:
 - Setupapi.h
 api_name:
 - SP_ALTPLATFORM_INFO_V2
-product: Windows
 targetos: Windows
 req.typenames: SP_ALTPLATFORM_INFO_V2, *PSP_ALTPLATFORM_INFO_V2
 req.redist: 

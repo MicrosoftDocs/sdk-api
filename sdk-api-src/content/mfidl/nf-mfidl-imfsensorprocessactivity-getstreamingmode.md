@@ -41,7 +41,6 @@ api_location:
  - mfplat.dll.dll
 api_name:
  - IMFSensorProcessActivity.GetStreamingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

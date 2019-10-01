@@ -40,7 +40,6 @@ api_name:
  - ldap_first_attribute
  - ldap_first_attributeA
  - ldap_first_attributeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

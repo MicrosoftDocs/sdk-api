@@ -38,7 +38,6 @@ api_location:
  - windef.h
 api_name:
  - POINTL
-product: Windows
 targetos: Windows
 req.typenames: POINTL, *PPOINTL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - VerRsrc.h
 api_name:
  - VS_FIXEDFILEINFO
-product: Windows
 targetos: Windows
 req.typenames: VS_FIXEDFILEINFO
 req.redist: 

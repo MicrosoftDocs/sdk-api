@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
  - CopyRect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

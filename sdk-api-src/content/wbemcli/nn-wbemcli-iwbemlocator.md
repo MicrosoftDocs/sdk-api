@@ -38,7 +38,6 @@ api_location:
  - Wbemcore.dll
 api_name:
  - IWbemLocator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

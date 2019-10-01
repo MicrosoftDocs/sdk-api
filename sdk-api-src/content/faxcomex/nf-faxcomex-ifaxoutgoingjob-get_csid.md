@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.CSID
  - IFaxOutgoingJob.get_CSID
  - IFaxOutgoingJob.get_CSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

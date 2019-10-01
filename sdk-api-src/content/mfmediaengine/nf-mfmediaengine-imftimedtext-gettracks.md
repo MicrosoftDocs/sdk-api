@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.dll
 api_name:
  - IMFTimedText.GetTracks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

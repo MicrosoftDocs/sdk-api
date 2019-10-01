@@ -47,7 +47,6 @@ api_name:
  - FormatMessage
  - FormatMessageA
  - FormatMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

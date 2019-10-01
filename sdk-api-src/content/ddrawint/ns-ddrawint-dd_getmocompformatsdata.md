@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETMOCOMPFORMATSDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA'
 req.redist: 

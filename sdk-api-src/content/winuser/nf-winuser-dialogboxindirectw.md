@@ -40,7 +40,6 @@ api_name:
  - DialogBoxIndirect
  - DialogBoxIndirectA
  - DialogBoxIndirectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wiaservc.dll
 api_name:
  - IWiaLog.Log
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

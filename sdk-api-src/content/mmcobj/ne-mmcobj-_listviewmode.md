@@ -38,7 +38,6 @@ api_location:
  - MmcObj.h
 api_name:
  - _ListViewMode
-product: Windows
 targetos: Windows
 req.typenames: "_ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE"
 req.redist: 

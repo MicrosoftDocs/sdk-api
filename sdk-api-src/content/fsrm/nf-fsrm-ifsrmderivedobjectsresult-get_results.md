@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmDerivedObjectsResult.Results
  - IFsrmDerivedObjectsResult.get_Results
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dmusics.h
 api_name:
  - DMUS_VOICE_STATE
-product: Windows
 targetos: Windows
 req.typenames: DMUS_VOICE_STATE
 req.redist: 

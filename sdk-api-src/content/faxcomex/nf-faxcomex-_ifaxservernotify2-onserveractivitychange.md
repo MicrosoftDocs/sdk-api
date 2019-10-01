@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnServerActivityChange
  - IFaxServerNotify2.OnServerActivityChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

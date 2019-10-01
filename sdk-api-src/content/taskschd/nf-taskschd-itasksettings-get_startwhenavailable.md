@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.StartWhenAvailable
  - ITaskSettings.get_StartWhenAvailable
  - ITaskSettings.put_StartWhenAvailable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

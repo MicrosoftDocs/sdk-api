@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.IsValidCertificate
  - ICertAdmin.IsValidCertificate
  - CCertAdmin.IsValidCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

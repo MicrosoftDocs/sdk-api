@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUS_GROUP_START_SETTING
-product: Windows
 targetos: Windows
 req.typenames: CLUS_GROUP_START_SETTING
 req.redist: 

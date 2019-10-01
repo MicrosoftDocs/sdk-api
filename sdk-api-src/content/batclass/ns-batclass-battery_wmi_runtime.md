@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_WMI_RUNTIME
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_RUNTIME, *PBATTERY_WMI_RUNTIME
 req.redist: 

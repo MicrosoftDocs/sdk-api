@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher.ServiceID
  - IUpdateSearcher.get_ServiceID
  - IUpdateSearcher.put_ServiceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

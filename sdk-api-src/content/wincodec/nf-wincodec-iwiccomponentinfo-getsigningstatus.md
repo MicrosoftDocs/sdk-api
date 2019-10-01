@@ -39,7 +39,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICComponentInfo.GetSigningStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

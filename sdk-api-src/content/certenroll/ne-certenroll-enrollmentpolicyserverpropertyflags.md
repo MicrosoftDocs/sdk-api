@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - EnrollmentPolicyServerPropertyFlags
-product: Windows
 targetos: Windows
 req.typenames: EnrollmentPolicyServerPropertyFlags
 req.redist: 

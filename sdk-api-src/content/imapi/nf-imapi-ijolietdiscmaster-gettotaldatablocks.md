@@ -38,7 +38,6 @@ api_location:
  - Actxprxy.dll
 api_name:
  - IJolietDiscMaster.GetTotalDataBlocks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

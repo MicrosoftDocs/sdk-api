@@ -38,7 +38,6 @@ api_location:
  - windows.foundation.h
 api_name:
  - IStringable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

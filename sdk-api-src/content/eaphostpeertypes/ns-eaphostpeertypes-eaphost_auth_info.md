@@ -38,7 +38,6 @@ api_location:
  - eaphostpeertypes.h
 api_name:
  - EAPHOST_AUTH_INFO
-product: Windows
 targetos: Windows
 req.typenames: EAPHOST_AUTH_INFO
 req.redist: 

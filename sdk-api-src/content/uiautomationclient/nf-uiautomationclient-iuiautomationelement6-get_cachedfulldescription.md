@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement6.CachedFullDescription
  - IUIAutomationElement6.get_CachedFullDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

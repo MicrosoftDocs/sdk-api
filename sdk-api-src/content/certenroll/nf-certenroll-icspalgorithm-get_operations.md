@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithm.Operations
  - ICspAlgorithm.get_Operations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

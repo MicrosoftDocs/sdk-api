@@ -40,7 +40,6 @@ api_name:
  - WriteProfileSection
  - WriteProfileSectionA
  - WriteProfileSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

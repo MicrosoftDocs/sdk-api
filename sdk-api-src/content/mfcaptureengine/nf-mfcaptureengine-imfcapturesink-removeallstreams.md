@@ -38,7 +38,6 @@ api_location:
  - mfcaptureengine.h
 api_name:
  - IMFCaptureSink.RemoveAllStreams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

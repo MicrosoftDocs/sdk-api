@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPCore.get_playState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

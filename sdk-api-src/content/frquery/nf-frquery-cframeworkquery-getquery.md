@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CFrameworkQuery.GetQuery
  - ?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

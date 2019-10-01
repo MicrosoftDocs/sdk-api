@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_PROPID_TO_NAME
-product: Windows
 targetos: Windows
 req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 req.redist: 

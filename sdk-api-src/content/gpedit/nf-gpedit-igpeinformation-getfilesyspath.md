@@ -38,7 +38,6 @@ api_location:
  - Gpedit.dll
 api_name:
  - IGPEInformation.GetFileSysPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

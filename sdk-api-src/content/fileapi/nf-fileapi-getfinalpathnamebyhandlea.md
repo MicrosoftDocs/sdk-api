@@ -47,7 +47,6 @@ api_name:
  - GetFinalPathNameByHandle
  - GetFinalPathNameByHandleA
  - GetFinalPathNameByHandleW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

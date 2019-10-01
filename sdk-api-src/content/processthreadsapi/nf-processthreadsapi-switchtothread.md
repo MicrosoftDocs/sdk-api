@@ -45,7 +45,6 @@ api_location:
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
  - SwitchToThread
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

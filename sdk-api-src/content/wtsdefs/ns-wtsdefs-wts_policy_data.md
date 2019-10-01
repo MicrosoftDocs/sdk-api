@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_POLICY_DATA
-product: Windows
 targetos: Windows
 req.typenames: WTS_POLICY_DATA, *PWTS_POLICY_DATA
 req.redist: 

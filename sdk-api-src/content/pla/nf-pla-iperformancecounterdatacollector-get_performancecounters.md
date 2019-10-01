@@ -40,7 +40,6 @@ api_name:
  - IPerformanceCounterDataCollector.PerformanceCounters
  - IPerformanceCounterDataCollector.get_PerformanceCounters
  - IPerformanceCounterDataCollector.put_PerformanceCounters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

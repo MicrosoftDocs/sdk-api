@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTBSAVE
-product: Windows
 targetos: Windows
 req.typenames: NMTBSAVE, *LPNMTBSAVE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - kernel32.dll
 api_name:
  - GetSystemDEPPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

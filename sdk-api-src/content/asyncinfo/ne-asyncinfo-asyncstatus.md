@@ -38,7 +38,6 @@ api_location:
  - AsyncInfo.h
 api_name:
  - AsyncStatus
-product: Windows
 targetos: Windows
 req.typenames: AsyncStatus
 req.redist: 

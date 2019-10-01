@@ -38,7 +38,6 @@ api_location:
 - usbuser.h
 api_name:
 - USBUSER_GET_DRIVER_VERSION
-product: Windows
 targetos: Windows
 req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
 req.redist: 

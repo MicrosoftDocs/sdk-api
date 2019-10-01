@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - SOLE_AUTHENTICATION_LIST
-product: Windows
 targetos: Windows
 req.typenames: SOLE_AUTHENTICATION_LIST, *PSOLE_AUTHENTICATION_LIST
 req.redist: 

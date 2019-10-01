@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - SCHANNEL_ALG
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
 req.redist: 

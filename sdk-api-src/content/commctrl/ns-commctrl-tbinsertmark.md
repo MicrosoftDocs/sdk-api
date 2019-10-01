@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TBINSERTMARK
-product: Windows
 targetos: Windows
 req.typenames: TBINSERTMARK, *LPTBINSERTMARK
 req.redist: 

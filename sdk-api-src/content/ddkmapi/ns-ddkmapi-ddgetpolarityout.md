@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETPOLARITYOUT
-product: Windows
 targetos: Windows
 req.typenames: DDGETPOLARITYOUT, *LPDDGETPOLARITYOUT
 req.redist: 

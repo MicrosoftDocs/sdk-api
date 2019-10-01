@@ -40,7 +40,6 @@ api_name:
  - MsiInstallMissingComponent
  - MsiInstallMissingComponentA
  - MsiInstallMissingComponentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

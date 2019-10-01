@@ -42,7 +42,6 @@ api_name:
  - GetCharacterPlacement
  - GetCharacterPlacementA
  - GetCharacterPlacementW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

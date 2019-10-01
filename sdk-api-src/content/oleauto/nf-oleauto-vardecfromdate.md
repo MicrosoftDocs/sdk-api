@@ -38,7 +38,6 @@ api_location:
  - OleAut32.dll
 api_name:
  - VarDecFromDate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

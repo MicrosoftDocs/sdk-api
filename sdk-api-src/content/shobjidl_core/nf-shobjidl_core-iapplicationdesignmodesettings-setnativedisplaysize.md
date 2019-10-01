@@ -38,7 +38,6 @@ api_location:
  - Twinapi.dll
 api_name:
  - IApplicationDesignModeSettings.SetNativeDisplaySize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

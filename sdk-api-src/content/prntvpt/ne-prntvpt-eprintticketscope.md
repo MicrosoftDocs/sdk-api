@@ -38,7 +38,6 @@ api_location:
  - prntvpt.h
 api_name:
  - EPrintTicketScope
-product: Windows
 targetos: Windows
 req.typenames: EPrintTicketScope
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wintrust.h
 api_name:
  - CRYPT_PROVIDER_SIGSTATE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_SIGSTATE, *PCRYPT_PROVIDER_SIGSTATE
 req.redist: 

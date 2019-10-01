@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMREBARAUTOBREAK
-product: Windows
 targetos: Windows
 req.typenames: NMREBARAUTOBREAK, *LPNMREBARAUTOBREAK
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - tiptsf.dll
 api_name:
  - ITextInputPanelEventSink.InPlaceVisibilityChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

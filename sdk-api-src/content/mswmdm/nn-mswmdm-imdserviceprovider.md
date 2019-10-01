@@ -38,7 +38,6 @@ api_location:
  - mswmdm.h
 api_name:
  - IMDServiceProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

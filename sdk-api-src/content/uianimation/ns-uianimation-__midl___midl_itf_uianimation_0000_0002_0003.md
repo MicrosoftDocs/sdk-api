@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_KEYFRAME
-product: Windows
 targetos: Windows
 req.typenames: "*UI_ANIMATION_KEYFRAME"
 req.redist: 

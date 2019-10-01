@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IMTSActivity.AsyncCall
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

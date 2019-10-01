@@ -38,7 +38,6 @@ api_location:
 - Schannel.h
 api_name:
 - SCH_CRED_PUBLIC_CERTCHAIN
-product: Windows
 targetos: Windows
 req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
 req.redist: 

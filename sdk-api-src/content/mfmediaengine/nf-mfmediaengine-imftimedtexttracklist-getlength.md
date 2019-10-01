@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFTimedTextTrackList.GetLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

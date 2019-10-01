@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_KEY_TRANS_ENCRYPT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_KEY_TRANS_ENCRYPT_INFO, *PCMSG_KEY_TRANS_ENCRYPT_INFO
 req.redist: 

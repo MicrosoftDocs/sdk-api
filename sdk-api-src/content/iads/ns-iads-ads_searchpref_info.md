@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_SEARCHPREF_INFO
-product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, *LPADS_SEARCHPREF_INFO
 req.redist: 

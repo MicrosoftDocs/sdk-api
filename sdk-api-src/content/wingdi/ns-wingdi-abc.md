@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - ABC
-product: Windows
 targetos: Windows
 req.typenames: ABC, *PABC, *NPABC, *LPABC
 req.redist: 

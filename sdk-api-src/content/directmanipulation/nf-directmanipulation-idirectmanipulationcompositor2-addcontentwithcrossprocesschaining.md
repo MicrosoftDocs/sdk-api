@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

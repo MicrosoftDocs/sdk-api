@@ -55,7 +55,6 @@ api_name:
 - GetStartupInfo
 - GetStartupInfoA
 - GetStartupInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

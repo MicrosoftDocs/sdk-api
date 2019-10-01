@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_SHORT_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_SHORT_VECTOR, *PSECPKG_SHORT_VECTOR
 req.redist: 

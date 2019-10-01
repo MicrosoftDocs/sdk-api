@@ -40,7 +40,6 @@ api_name:
  - UuidToString
  - UuidToStringA
  - UuidToStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

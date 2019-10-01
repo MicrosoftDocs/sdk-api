@@ -41,7 +41,6 @@ api_name:
  - IInkOverlay.Tablet
  - IInkOverlay.get_Tablet
  - InkOverlay.get_Tablet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

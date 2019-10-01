@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.InitialTimestamp
  - IInertiaProcessor.get_InitialTimestamp
  - IInertiaProcessor.put_InitialTimestamp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

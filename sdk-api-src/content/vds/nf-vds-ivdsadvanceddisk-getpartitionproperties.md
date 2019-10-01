@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - IVdsAdvancedDisk.GetPartitionProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

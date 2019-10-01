@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - JOBOBJECT_END_OF_JOB_TIME_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_END_OF_JOB_TIME_INFORMATION, *PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - d3d9.dll
 api_name:
  - IDirect3DVertexShader9
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

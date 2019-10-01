@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings3.Volatile
  - ITaskSettings3.get_Volatile
  - ITaskSettings3.put_Volatile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

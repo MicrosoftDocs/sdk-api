@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateDownloadContent2.IsDeltaCompressedContent
  - IUpdateDownloadContent2.get_IsDeltaCompressedContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

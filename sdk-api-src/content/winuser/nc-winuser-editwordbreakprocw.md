@@ -40,7 +40,6 @@ api_name:
  - EditWordBreakProc
  - EDITWORDBREAKPROCA
  - EDITWORDBREAKPROCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

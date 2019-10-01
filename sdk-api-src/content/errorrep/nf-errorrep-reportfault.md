@@ -38,7 +38,6 @@ api_location:
 - Faultrep.dll
 api_name:
 - ReportFault
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

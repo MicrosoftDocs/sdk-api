@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateException.Context
  - IUpdateException.get_Context
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

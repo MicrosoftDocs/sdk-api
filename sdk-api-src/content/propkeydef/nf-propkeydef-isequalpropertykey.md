@@ -38,7 +38,6 @@ api_location:
 - Propkeydef.h
 api_name:
 - IsEqualPropertyKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

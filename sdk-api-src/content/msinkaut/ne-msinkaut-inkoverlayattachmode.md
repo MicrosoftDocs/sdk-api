@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkOverlayAttachMode
-product: Windows
 targetos: Windows
 req.typenames: InkOverlayAttachMode
 req.redist: 

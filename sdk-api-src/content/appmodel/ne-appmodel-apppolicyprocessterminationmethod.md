@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyProcessTerminationMethod
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyProcessTerminationMethod
 req.redist: 

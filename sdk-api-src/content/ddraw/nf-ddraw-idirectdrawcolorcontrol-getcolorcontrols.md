@@ -38,7 +38,6 @@ api_location:
  - Ddraw.dll
 api_name:
  - IDirectDrawColorControl.GetColorControls
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

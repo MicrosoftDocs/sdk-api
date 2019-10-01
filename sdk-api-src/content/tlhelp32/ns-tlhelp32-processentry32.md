@@ -40,7 +40,6 @@ api_name:
  - PROCESSENTRY32
  - PROCESSENTRY32
  - PROCESSENTRY32W
-product: Windows
 targetos: Windows
 req.typenames: PROCESSENTRY32
 req.redist: 

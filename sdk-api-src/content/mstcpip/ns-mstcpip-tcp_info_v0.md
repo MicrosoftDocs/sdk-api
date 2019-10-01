@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - TCP_INFO_v0
-product: Windows
 targetos: Windows
 req.typenames: TCP_INFO_v0, *PTCP_INFO_v0
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ktmw32.dll
 api_name:
  - RecoverTransactionManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmQuotaObject.SourceTemplateName
  - IFsrmQuotaObject.get_SourceTemplateName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

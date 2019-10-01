@@ -38,7 +38,6 @@ api_location:
 - Iphlpapi.dll
 api_name:
 - GetPerTcp6ConnectionEStats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

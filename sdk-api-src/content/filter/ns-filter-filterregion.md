@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - FILTERREGION
-product: Windows
 targetos: Windows
 req.typenames: FILTERREGION
 req.redist: 

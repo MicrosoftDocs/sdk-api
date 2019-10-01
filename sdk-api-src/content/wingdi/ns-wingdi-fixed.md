@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - FIXED
-product: Windows
 targetos: Windows
 req.typenames: FIXED
 req.redist: 

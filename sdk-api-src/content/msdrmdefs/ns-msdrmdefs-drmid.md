@@ -38,7 +38,6 @@ api_location:
 - Msdrmdefs.h
 api_name:
 - DRMID
-product: Windows
 targetos: Windows
 req.typenames: DRMID
 req.redist: 

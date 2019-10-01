@@ -38,7 +38,6 @@ api_location:
  - Evcode.h
 api_name:
  - AM_WMT_EVENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: AM_WMT_EVENT_DATA
 req.redist: 

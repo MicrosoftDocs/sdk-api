@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Recognizer
  - InkEdit.get_Recognizer
  - InkEdit.putref_Recognizer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

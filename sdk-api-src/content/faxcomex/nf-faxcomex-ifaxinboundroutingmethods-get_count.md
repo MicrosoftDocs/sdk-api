@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxInboundRoutingMethods.Count
  - IFaxInboundRoutingMethods.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

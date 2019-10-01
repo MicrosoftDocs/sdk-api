@@ -40,7 +40,6 @@ api_name:
  - EndUpdateResource
  - EndUpdateResourceA
  - EndUpdateResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

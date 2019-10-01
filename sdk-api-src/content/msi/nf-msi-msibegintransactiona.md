@@ -40,7 +40,6 @@ api_name:
  - MsiBeginTransaction
  - MsiBeginTransactionA
  - MsiBeginTransactionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

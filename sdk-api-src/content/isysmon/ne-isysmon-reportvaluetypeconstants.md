@@ -38,7 +38,6 @@ api_location:
  - ISysmon.h
 api_name:
  - ReportValueTypeConstants
-product: Windows
 targetos: Windows
 req.typenames: ReportValueTypeConstants
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MF_OBJECT_TYPE
 req.redist: 

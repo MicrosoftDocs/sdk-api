@@ -41,7 +41,6 @@ api_name:
  - IInkCursor.Tablet
  - IInkCursor.get_Tablet
  - IInkCursor.get_Tablet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

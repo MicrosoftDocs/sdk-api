@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - MONMSGSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MONMSGSTRUCT, *PMONMSGSTRUCT
 req.redist: 

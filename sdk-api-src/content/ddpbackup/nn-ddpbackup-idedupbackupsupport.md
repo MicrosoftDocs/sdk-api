@@ -38,7 +38,6 @@ api_location:
  - DdpBackup.dll
 api_name:
  - IDedupBackupSupport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

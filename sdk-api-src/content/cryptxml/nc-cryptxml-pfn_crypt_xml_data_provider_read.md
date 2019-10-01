@@ -38,7 +38,6 @@ api_location:
  - Cryptxml.h
 api_name:
  - PFN_CRYPT_XML_DATA_PROVIDER_READ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

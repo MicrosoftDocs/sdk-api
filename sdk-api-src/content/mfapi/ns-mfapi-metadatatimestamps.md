@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MetadataTimeStamps
-product: Windows
 targetos: Windows
 req.typenames: MetadataTimeStamps
 req.redist: 

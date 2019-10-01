@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Description
  - INetFwRule.get_Description
  - INetFwRule.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

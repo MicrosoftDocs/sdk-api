@@ -38,7 +38,6 @@ api_location:
 - wingdi.h
 api_name:
 - GLYPHMETRICSFLOAT
-product: Windows
 targetos: Windows
 req.typenames: GLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, *LPGLYPHMETRICSFLOAT
 req.redist: 

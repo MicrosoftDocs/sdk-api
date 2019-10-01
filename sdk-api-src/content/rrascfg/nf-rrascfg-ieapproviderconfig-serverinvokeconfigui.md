@@ -38,7 +38,6 @@ api_location:
  - Rrascfg.h
 api_name:
  - IEAPProviderConfig.ServerInvokeConfigUI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

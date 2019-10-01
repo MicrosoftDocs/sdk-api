@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.inl
 api_name:
  - XMLoadU555
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

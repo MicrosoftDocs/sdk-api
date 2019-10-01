@@ -38,7 +38,6 @@ api_location:
 - LmDfs.h
 api_name:
 - DFS_NAMESPACE_VERSION_ORIGIN
-product: Windows
 targetos: Windows
 req.typenames: DFS_NAMESPACE_VERSION_ORIGIN, *PDFS_NAMESPACE_VERSION_ORIGIN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResUtils.dll
 api_name:
  - ClusWorkerTerminateEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

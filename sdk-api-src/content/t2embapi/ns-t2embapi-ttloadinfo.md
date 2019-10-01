@@ -38,7 +38,6 @@ api_location:
  - T2embapi.h
 api_name:
  - TTLOADINFO
-product: Windows
 targetos: Windows
 req.typenames: TTLOADINFO
 req.redist: 

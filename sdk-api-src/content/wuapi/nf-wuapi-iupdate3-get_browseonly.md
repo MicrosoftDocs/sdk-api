@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate3.BrowseOnly
  - IUpdate3.get_BrowseOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

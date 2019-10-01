@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorManager.GetSensorsByType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

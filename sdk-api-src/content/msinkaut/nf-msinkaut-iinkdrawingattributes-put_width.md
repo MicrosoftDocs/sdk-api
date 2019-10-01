@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_Width
  - InkDrawingAttributes.get_Width
  - InkDrawingAttributes.put_Width
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

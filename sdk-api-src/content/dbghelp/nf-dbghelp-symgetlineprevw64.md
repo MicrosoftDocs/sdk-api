@@ -41,7 +41,6 @@ api_name:
 - SymGetLinePrev64
 - SymGetLinePrevW64
 - SymGetLinePrev
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

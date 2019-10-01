@@ -38,7 +38,6 @@ api_location:
  - vds.h
 api_name:
  - VDS_PARTITION_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_INFORMATION_EX
 req.redist: 

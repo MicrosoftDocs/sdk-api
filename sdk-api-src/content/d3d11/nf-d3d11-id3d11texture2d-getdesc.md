@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - ID3D11Texture2D.GetDesc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

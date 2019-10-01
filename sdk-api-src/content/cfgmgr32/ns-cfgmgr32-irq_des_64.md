@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - IRQ_DES
-product: Windows
 targetos: Windows
 req.typenames: IRQ_DES_64, *PIRQ_DES_64
 req.redist: 

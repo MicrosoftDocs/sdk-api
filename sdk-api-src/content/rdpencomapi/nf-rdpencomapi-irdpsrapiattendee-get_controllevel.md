@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIAttendee.get_ControlLevel
  - IRDPSRAPIAttendee.put_ControlLevel
  - RDPSRAPIAttendee.ControlLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - CM_Get_Device_Interface_List
  - CM_Get_Device_Interface_ListA
  - CM_Get_Device_Interface_ListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

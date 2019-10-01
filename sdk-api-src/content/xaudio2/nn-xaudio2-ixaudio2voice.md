@@ -39,7 +39,6 @@ api_location:
  - xaudio2.dll
 api_name:
  - IXAudio2Voice Interface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mpeg2data.h
 api_name:
  - ISectionList.GetTableIdentifier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

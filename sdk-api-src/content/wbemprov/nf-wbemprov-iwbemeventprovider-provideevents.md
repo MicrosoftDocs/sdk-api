@@ -38,7 +38,6 @@ api_location:
  - Wbemsvc.dll
 api_name:
  - IWbemEventProvider.ProvideEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

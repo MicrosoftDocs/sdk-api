@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - ATTRIBUTEFILTER
-product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEFILTER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Psapi.h
 api_name:
 - PSAPI_WORKING_SET_BLOCK
-product: Windows
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_BLOCK, *PPSAPI_WORKING_SET_BLOCK
 req.redist: 

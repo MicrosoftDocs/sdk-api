@@ -38,7 +38,6 @@ api_location:
  - Filehc.h
 api_name:
  - NAME_CACHE_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: "*PNAME_CACHE_CONTEXT"
 req.redist: 

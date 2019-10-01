@@ -38,7 +38,6 @@ api_location:
  - Audioengineendpoint.h
 api_name:
  - AE_POSITION_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: AE_POSITION_FLAGS
 req.redist: 

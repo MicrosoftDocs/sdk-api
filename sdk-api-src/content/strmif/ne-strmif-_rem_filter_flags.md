@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - _REM_FILTER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

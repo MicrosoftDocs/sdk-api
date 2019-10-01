@@ -40,7 +40,6 @@ api_name:
  - DsInheritSecurityIdentity
  - DsInheritSecurityIdentityA
  - DsInheritSecurityIdentityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

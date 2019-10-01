@@ -38,7 +38,6 @@ api_location:
  - WinEvt.h
 api_name:
  - EVT_SUBSCRIBE_NOTIFY_ACTION
-product: Windows
 targetos: Windows
 req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
 req.redist: 

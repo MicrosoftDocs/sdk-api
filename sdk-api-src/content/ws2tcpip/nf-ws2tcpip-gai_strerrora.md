@@ -41,7 +41,6 @@ api_name:
  - gai_strerror
  - gai_strerrorA
  - gai_strerrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

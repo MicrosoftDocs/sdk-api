@@ -38,7 +38,6 @@ api_location:
  - SessDirPublicTypes.h
 api_name:
  - TSSESSION_STATE
-product: Windows
 targetos: Windows
 req.typenames: TSSESSION_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRFILLPATH
-product: Windows
 targetos: Windows
 req.typenames: EMRFILLPATH, *PEMRFILLPATH, EMRSTROKEANDFILLPATH, *PEMRSTROKEANDFILLPATH, EMRSTROKEPATH, *PEMRSTROKEPATH
 req.redist: 

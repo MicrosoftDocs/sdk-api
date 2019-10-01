@@ -41,7 +41,6 @@ api_name:
  - INetFwService.Scope
  - INetFwService.get_Scope
  - INetFwService.put_Scope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

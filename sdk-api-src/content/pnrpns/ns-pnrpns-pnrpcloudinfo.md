@@ -38,7 +38,6 @@ api_location:
 - Pnrpns.h
 api_name:
 - PNRPCLOUDINFO
-product: Windows
 targetos: Windows
 req.typenames: PNRPCLOUDINFO, *PPNRPCLOUDINFO
 req.redist: 

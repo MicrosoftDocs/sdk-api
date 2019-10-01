@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_SERVICE_CONFIG_CACHE_KEY
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_CACHE_KEY, *PHTTP_SERVICE_CONFIG_CACHE_KEY
 req.redist: 

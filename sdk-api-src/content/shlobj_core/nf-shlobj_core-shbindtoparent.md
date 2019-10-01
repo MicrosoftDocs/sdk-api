@@ -42,7 +42,6 @@ api_location:
  - Windows.Storage.Dll
 api_name:
  - SHBindToParent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3Dcompiler.h
 api_name:
  - D3D_BLOB_PART
-product: Windows
 targetos: Windows
 req.typenames: D3D_BLOB_PART
 req.redist: 

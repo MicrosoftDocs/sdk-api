@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITriggerCollection.Item
  - ITriggerCollection.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

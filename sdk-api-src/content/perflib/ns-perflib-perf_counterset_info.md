@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
-product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 req.redist: 

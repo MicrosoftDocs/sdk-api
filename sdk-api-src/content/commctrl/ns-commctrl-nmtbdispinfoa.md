@@ -40,7 +40,6 @@ api_name:
 - NMTBDISPINFO
 - NMTBDISPINFOA
 - NMTBDISPINFOW
-product: Windows
 targetos: Windows
 req.typenames: NMTBDISPINFOA, *LPNMTBDISPINFOA
 req.redist: 

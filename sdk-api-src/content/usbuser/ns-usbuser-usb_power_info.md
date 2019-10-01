@@ -38,7 +38,6 @@ api_location:
 - usbuser.h
 api_name:
 - USB_POWER_INFO
-product: Windows
 targetos: Windows
 req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
 req.redist: 

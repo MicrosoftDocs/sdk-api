@@ -42,7 +42,6 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - ReleaseStgMedium
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

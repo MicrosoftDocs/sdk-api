@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - IExeServerRegistration.get_ServerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

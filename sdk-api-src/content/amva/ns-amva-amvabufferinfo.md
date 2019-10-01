@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVABUFFERINFO
-product: Windows
 targetos: Windows
 req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
 req.redist: 

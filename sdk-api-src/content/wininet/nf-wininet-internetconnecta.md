@@ -40,7 +40,6 @@ api_name:
  - InternetConnect
  - InternetConnectA
  - InternetConnectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

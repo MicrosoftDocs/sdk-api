@@ -39,7 +39,6 @@ api_location:
  - FhSvcCtl.dll
 api_name:
  - FhServiceClosePipe
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

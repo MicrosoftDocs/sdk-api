@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - DisplaySizeList
-product: Windows
 targetos: Windows
 req.typenames: DisplaySizeList
 req.redist: 

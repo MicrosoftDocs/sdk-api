@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.ClientDisplay
  - ITsSbSession.get_ClientDisplay
  - ITsSbSession.put_ClientDisplay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

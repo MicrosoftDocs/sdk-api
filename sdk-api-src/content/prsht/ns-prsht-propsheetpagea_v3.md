@@ -40,7 +40,6 @@ api_name:
 - PROPSHEETPAGE
 - PROPSHEETPAGEA
 - PROPSHEETPAGEW
-product: Windows
 targetos: Windows
 req.typenames: PROPSHEETPAGEA_V3, *LPPROPSHEETPAGEA_V3
 req.redist: 

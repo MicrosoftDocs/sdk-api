@@ -38,7 +38,6 @@ api_location:
  - Tcpioctl.h
 api_name:
  - IOCTL_TCP_QUERY_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

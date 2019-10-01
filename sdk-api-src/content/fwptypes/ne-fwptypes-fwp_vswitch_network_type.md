@@ -38,7 +38,6 @@ api_location:
  - fwptypes.h
 api_name:
  - FWP_VSWITCH_NETWORK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWP_VSWITCH_NETWORK_TYPE
 req.redist: 

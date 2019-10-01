@@ -35,7 +35,6 @@ api_location:
  - d3d12.dll
 api_name:
  - ID3D12VideoProcessCommandList1::ProcessFrames1
-product: Windows
 targetos: Windows
 
 ---

@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_FILE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MF_FILE_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wintrust.dll
 api_name:
  - CryptCATAdminResolveCatalogPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

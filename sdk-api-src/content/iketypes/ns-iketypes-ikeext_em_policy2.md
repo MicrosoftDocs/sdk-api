@@ -38,7 +38,6 @@ api_location:
  - iketypes.h
 api_name:
  - IKEEXT_EM_POLICY2
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_EM_POLICY2
 req.redist: 

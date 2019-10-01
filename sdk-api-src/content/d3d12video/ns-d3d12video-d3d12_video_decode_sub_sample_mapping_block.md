@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK
-product: Windows
 targetos: Windows
 ---
 

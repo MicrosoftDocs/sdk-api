@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferSourceEvent3.COPPUnblocked
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

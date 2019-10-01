@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_ENUM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: TASK_ENUM_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MULTIKEYHELP
-product: Windows
 targetos: Windows
 req.typenames: MULTIKEYHELPA, *PMULTIKEYHELPA, *LPMULTIKEYHELPA
 req.redist: 

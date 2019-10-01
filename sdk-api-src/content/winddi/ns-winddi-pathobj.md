@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - PATHOBJ
-product: Windows
 targetos: Windows
 req.typenames: PATHOBJ
 req.redist: 

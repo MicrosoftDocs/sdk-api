@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_READY_STATE
-product: Windows
 targetos: Windows
 req.typenames: MBN_READY_STATE
 req.redist: 

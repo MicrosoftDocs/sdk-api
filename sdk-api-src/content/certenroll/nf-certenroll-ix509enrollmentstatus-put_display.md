@@ -40,7 +40,6 @@ api_name:
  - IX509EnrollmentStatus.Display
  - IX509EnrollmentStatus.get_Display
  - IX509EnrollmentStatus.put_Display
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

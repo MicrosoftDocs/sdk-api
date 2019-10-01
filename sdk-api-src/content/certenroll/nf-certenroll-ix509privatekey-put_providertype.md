@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.ProviderType
  - IX509PrivateKey.get_ProviderType
  - IX509PrivateKey.put_ProviderType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - TransformPattern_Resize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

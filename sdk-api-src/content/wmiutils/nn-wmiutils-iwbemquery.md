@@ -42,7 +42,6 @@ api_name:
  - IWbemQuery.SetLanguageFeatures
  - IWbemQuery.TestLanguageFeatures
  - WbemQuery
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

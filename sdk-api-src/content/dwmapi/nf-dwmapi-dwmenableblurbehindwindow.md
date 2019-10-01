@@ -39,7 +39,6 @@ api_location:
 - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
 - DwmEnableBlurBehindWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wlanapi.h
 api_name:
  - WLAN_HOSTED_NETWORK_REASON
-product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_REASON, *PWLAN_HOSTED_NETWORK_REASON
 req.redist: 

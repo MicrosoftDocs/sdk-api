@@ -49,7 +49,6 @@ api_name:
  - DispatchMessage
  - DispatchMessageA
  - DispatchMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

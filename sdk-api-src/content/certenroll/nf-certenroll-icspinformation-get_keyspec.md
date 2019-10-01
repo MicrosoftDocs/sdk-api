@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.KeySpec
  - ICspInformation.get_KeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

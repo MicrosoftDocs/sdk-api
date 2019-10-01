@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Security-audit-l1-1-1.dll
 api_name:
  - AuditFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

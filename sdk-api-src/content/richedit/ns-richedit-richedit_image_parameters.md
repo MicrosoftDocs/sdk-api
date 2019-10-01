@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - RICHEDIT_IMAGE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: RICHEDIT_IMAGE_PARAMETERS
 req.redist: 

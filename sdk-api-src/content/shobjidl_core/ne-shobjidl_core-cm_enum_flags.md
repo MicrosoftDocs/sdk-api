@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - CM_ENUM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CM_ENUM_FLAGS
 req.redist: 

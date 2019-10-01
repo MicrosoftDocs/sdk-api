@@ -38,7 +38,6 @@ api_location:
 - Werapi.h
 api_name:
 - WER_RUNTIME_EXCEPTION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: WER_RUNTIME_EXCEPTION_INFORMATION, *PWER_RUNTIME_EXCEPTION_INFORMATION
 req.redist: 

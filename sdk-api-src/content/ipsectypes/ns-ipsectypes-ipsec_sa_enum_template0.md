@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_SA_ENUM_TEMPLATE0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_SA_ENUM_TEMPLATE0
 req.redist: 

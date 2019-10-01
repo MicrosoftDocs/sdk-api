@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_QUERY_DATA_SO_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: D3D12_QUERY_DATA_SO_STATISTICS
 req.redist: 

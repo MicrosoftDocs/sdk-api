@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_GRAPH_EVENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: PEER_GRAPH_EVENT_DATA, *PPEER_GRAPH_EVENT_DATA
 req.redist: 

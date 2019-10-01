@@ -38,7 +38,6 @@ api_location:
  - Pdh.dll
 api_name:
  - PdhGetLogFileSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

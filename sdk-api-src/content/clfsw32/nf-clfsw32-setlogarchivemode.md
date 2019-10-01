@@ -38,7 +38,6 @@ api_location:
  - ClfsW32.dll
 api_name:
  - SetLogArchiveMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

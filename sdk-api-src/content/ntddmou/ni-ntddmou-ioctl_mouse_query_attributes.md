@@ -38,7 +38,6 @@ api_location:
 - ntddmou.h
 api_name:
 - IOCTL_MOUSE_QUERY_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

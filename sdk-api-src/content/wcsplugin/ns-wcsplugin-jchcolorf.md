@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - JChColorF
-product: Windows
 targetos: Windows
 req.typenames: JChColorF
 req.redist: 

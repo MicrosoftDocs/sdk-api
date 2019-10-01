@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - FsiFileSystems
-product: Windows
 targetos: Windows
 req.typenames: FsiFileSystems
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - efswrt.dll
 api_name:
  - IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

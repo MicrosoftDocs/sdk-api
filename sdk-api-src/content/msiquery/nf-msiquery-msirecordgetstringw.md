@@ -41,7 +41,6 @@ api_name:
  - MsiRecordGetString
  - MsiRecordGetStringA
  - MsiRecordGetStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

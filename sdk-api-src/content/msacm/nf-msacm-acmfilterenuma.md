@@ -41,7 +41,6 @@ api_name:
  - acmFilterEnum
  - acmFilterEnumA
  - acmFilterEnumW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

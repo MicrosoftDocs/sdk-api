@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapEncoderCacheOption
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapEncoderCacheOption
 req.redist: 

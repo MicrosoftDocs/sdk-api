@@ -38,7 +38,6 @@ api_location:
  - Shlobj.h
 api_name:
  - BANDINFOSFB
-product: Windows
 targetos: Windows
 req.typenames: BANDINFOSFB, *PBANDINFOSFB
 req.redist: 

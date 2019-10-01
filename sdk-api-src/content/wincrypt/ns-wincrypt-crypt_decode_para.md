@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_DECODE_PARA
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_DECODE_PARA, *PCRYPT_DECODE_PARA
 req.redist: 

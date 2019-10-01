@@ -38,7 +38,6 @@ api_location:
  - Azroles.dll
 api_name:
  - IAzApplication3.DeleteRoleDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

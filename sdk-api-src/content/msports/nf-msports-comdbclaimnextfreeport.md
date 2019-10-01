@@ -38,7 +38,6 @@ api_location:
  - Msports.dll
 api_name:
  - ComDBClaimNextFreePort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

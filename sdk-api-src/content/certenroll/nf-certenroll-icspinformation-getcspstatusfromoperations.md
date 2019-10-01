@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - ICspInformation.GetCspStatusFromOperations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

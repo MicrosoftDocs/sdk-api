@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - ISCSI_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_VERSION_INFO, *PISCSI_VERSION_INFO
 req.redist: 

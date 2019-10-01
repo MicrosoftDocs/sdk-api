@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - SPTEXT
-product: Windows
 targetos: Windows
 req.typenames: SPTEXT
 req.redist: 

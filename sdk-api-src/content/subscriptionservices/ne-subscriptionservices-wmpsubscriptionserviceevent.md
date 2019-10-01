@@ -38,7 +38,6 @@ api_location:
  - subscriptionservices.h
 api_name:
  - WMPSubscriptionServiceEvent
-product: Windows
 targetos: Windows
 req.typenames: WMPSubscriptionServiceEvent
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - SecPkgContext_KeyInfo
 - SecPkgContext_KeyInfoA
 - SecPkgContext_KeyInfoW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_KeyInfoW, *PSecPkgContext_KeyInfoW
 req.redist: 

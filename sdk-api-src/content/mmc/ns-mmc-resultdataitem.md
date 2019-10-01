@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - RESULTDATAITEM
-product: Windows
 targetos: Windows
 req.typenames: RESULTDATAITEM
 req.redist: 

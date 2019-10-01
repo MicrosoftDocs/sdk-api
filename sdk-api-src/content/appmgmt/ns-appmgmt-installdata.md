@@ -38,7 +38,6 @@ api_location:
 - Appmgmt.h
 api_name:
 - INSTALLDATA
-product: Windows
 targetos: Windows
 req.typenames: INSTALLDATA, *PINSTALLDATA
 req.redist: 

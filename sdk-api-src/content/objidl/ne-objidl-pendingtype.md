@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - PENDINGTYPE
-product: Windows
 targetos: Windows
 req.typenames: PENDINGTYPE
 req.redist: 

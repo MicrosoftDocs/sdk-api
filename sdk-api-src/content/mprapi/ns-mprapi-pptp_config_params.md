@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - PPTP_CONFIG_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: PPTP_CONFIG_PARAMS, *PPPTP_CONFIG_PARAMS
 req.redist: 

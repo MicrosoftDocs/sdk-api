@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, *PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 req.redist: 

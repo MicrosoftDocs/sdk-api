@@ -38,7 +38,6 @@ api_location:
  - Wiavideo.h
 api_name:
  - WIAVIDEO_STATE
-product: Windows
 targetos: Windows
 req.typenames: WIAVIDEO_STATE
 req.redist: 

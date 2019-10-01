@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "windns/DNS_SERVICE_RESOLVE_COMPLETE"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -38,7 +38,6 @@ api_location:
  - inputpaneinterop.h
 api_name:
  - IInputPaneInterop.GetForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

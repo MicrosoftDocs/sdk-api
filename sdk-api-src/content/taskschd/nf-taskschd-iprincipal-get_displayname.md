@@ -40,7 +40,6 @@ api_name:
  - IPrincipal.DisplayName
  - IPrincipal.get_DisplayName
  - IPrincipal.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

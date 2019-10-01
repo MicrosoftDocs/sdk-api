@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - BLENDFUNCTION
-product: Windows
 targetos: Windows
 req.typenames: BLENDFUNCTION, *PBLENDFUNCTION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Spellcheckprovider.h
 api_name:
  - ISpellCheckProvider.GetOptionDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

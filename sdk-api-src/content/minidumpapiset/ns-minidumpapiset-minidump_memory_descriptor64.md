@@ -38,7 +38,6 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_MEMORY_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY_DESCRIPTOR64, *PMINIDUMP_MEMORY_DESCRIPTOR64
 req.redist: DbgHelp.dll 5.1 or later

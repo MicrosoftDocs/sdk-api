@@ -38,7 +38,6 @@ api_location:
  - Rasshost.h
 api_name:
  - RasSecurityDialogEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_STREAM_STATE_LUMA_KEY_DATA
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 req.redist: 

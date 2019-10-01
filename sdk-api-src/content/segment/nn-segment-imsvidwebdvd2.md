@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidWebDVD2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

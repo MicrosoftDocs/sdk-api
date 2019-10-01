@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_RingsBeforeAnswer
  - IFaxDevice.get_RingsBeforeAnswer
  - IFaxDevice.put_RingsBeforeAnswer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

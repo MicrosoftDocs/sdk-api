@@ -40,7 +40,6 @@ api_name:
  - SOURCEFILE
  - SOURCEFILE
  - SOURCEFILEW
-product: Windows
 targetos: Windows
 req.typenames: SOURCEFILEW, *PSOURCEFILEW
 req.redist: DbgHelp.dll 6.3 or later

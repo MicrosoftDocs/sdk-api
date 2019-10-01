@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_DNS_ENDPOINT_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: WS_DNS_ENDPOINT_IDENTITY
 req.redist: 

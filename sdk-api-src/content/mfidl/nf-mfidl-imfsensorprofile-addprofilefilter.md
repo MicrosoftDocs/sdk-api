@@ -38,7 +38,6 @@ api_location:
  - Mfsensorgroup.dll
 api_name:
  - IMFSensorProfile.AddProfileFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBCONTENTVECTOR
-product: Windows
 targetos: Windows
 req.typenames: DBCONTENTVECTOR
 req.redist: 

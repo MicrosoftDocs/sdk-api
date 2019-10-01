@@ -38,7 +38,6 @@ api_location:
  - Fwpuclnt.dll
 api_name:
  - IPsecSaContextCreate1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

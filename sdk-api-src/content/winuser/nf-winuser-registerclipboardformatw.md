@@ -51,7 +51,6 @@ api_name:
  - RegisterClipboardFormat
  - RegisterClipboardFormatA
  - RegisterClipboardFormatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

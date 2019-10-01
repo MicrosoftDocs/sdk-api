@@ -42,7 +42,6 @@ api_name:
  - IFaxActivityLogging.put_LogOutgoing
  - IFaxActivityLogging.get_LogOutgoing
  - IFaxActivityLogging.put_LogOutgoing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

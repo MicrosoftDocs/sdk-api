@@ -38,7 +38,6 @@ api_location:
 - Msime.h
 api_name:
 - IFEDictionary.RegisterWord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

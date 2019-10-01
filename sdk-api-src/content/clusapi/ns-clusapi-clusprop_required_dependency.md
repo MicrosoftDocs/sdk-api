@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_REQUIRED_DEPENDENCY
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_REQUIRED_DEPENDENCY, *PCLUSPROP_REQUIRED_DEPENDENCY
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - emi.h
 api_name:
  - EMI_MEASUREMENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: EMI_CHANNEL_MEASUREMENT_DATA
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - XAudio2.dll
 api_name:
  - X3DAudioInitialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

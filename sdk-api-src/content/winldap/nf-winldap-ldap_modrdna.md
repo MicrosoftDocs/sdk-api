@@ -40,7 +40,6 @@ api_name:
  - ldap_modrdn
  - ldap_modrdnA
  - ldap_modrdnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

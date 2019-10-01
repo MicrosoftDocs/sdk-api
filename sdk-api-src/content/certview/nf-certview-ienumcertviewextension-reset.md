@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWEXTENSION.Reset
  - IEnumCERTVIEWEXTENSION.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

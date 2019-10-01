@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFARGB
-product: Windows
 targetos: Windows
 req.typenames: MFARGB
 req.redist: 

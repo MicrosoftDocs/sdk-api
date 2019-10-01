@@ -39,7 +39,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkRenderer.GetObjectTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

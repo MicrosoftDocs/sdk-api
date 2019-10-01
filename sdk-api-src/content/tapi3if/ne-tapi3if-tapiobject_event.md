@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPIOBJECT_EVENT
-product: Windows
 targetos: Windows
 req.typenames: TAPIOBJECT_EVENT
 req.redist: 

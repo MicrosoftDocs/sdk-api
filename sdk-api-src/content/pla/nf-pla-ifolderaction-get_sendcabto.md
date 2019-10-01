@@ -40,7 +40,6 @@ api_name:
  - IFolderAction.SendCabTo
  - IFolderAction.get_SendCabTo
  - IFolderAction.put_SendCabTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - wtypesbase.h
 api_name:
 - BLOB
-product: Windows
 targetos: Windows
 req.typenames: BLOB, *LPBLOB
 req.redist: 

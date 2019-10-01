@@ -40,7 +40,6 @@ api_name:
  - IFaxOutboundRoutingGroup.Status
  - IFaxOutboundRoutingGroup.get_Status
  - IFaxOutboundRoutingGroup.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

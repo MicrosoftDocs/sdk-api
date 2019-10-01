@@ -42,7 +42,6 @@ api_name:
  - RasConnectionNotification
  - RasConnectionNotificationA
  - RasConnectionNotificationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

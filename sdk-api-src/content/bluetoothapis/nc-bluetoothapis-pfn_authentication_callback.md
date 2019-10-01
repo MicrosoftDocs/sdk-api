@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - PFN_AUTHENTICATION_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

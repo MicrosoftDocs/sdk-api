@@ -42,7 +42,6 @@ api_name:
  - UrlIsNoHistory
  - UrlIsNoHistoryA
  - UrlIsNoHistoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

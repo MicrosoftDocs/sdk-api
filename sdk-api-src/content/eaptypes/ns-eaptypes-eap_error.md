@@ -38,7 +38,6 @@ api_location:
 - eaptypes.h
 api_name:
 - EAP_ERROR
-product: Windows
 targetos: Windows
 req.typenames: EAP_ERROR
 req.redist: 

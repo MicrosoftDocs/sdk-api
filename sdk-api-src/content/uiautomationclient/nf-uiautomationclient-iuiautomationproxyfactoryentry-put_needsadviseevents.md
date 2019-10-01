@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationProxyFactoryEntry.NeedsAdviseEvents
  - IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
  - IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

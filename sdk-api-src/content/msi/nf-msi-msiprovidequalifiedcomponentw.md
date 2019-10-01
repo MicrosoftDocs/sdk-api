@@ -40,7 +40,6 @@ api_name:
  - MsiProvideQualifiedComponent
  - MsiProvideQualifiedComponentA
  - MsiProvideQualifiedComponentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_COLORCONTROLCALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_COLORCONTROLCALLBACKS
 req.redist: 

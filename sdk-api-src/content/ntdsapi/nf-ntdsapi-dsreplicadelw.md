@@ -40,7 +40,6 @@ api_name:
  - DsReplicaDel
  - DsReplicaDelA
  - DsReplicaDelW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

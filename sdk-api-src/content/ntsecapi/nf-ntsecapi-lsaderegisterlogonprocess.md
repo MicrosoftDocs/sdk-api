@@ -38,7 +38,6 @@ api_location:
  - Secur32.dll
 api_name:
  - LsaDeregisterLogonProcess
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

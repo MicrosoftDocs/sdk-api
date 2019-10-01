@@ -38,7 +38,6 @@ api_location:
  - Wecapi.dll
 api_name:
  - EcGetSubscriptionRunTimeStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

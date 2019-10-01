@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - HYPOTHESIS, *PHYPOTHESIS
-product: Windows
 targetos: Windows
 req.typenames: HYPOTHESIS, *PHYPOTHESIS
 req.redist: 

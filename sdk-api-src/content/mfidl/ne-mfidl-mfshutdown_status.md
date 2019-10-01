@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSHUTDOWN_STATUS
-product: Windows
 targetos: Windows
 req.typenames: MFSHUTDOWN_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Aclui.h
 api_name:
 - ISecurityInformation.GetAccessRights
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

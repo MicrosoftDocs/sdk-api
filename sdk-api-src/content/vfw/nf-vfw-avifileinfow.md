@@ -41,7 +41,6 @@ api_name:
 - AVIFileInfo
 - AVIFileInfoA
 - AVIFileInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

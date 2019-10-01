@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - TYPEATTR
-product: Windows
 targetos: Windows
 req.typenames: TYPEATTR, *LPTYPEATTR
 req.redist: 

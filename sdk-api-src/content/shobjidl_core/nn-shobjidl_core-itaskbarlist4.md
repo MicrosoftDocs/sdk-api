@@ -38,7 +38,6 @@ api_location:
  - Explorerframe.dll
 api_name:
  - ITaskbarList4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

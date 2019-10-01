@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_RECALL_FILE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

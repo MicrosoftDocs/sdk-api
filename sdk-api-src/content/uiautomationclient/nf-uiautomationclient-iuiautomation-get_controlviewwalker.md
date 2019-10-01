@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomation.ControlViewWalker
  - IUIAutomation.get_ControlViewWalker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

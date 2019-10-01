@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IInkWordList.AddWord
  - InkWordList.AddWord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

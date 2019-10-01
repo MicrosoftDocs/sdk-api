@@ -38,7 +38,6 @@ api_location:
  - D3D12.dll
 api_name:
  - ID3D12Device.CreateShaderResourceView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

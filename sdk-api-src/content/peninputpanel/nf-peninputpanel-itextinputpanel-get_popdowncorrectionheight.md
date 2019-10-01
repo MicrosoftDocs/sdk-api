@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.PopDownCorrectionHeight
  - ITextInputPanel.get_PopDownCorrectionHeight
  - ITextInputPanel.get_PopDownCorrectionHeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

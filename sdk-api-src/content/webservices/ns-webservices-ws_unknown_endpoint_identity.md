@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_UNKNOWN_ENDPOINT_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: WS_UNKNOWN_ENDPOINT_IDENTITY
 req.redist: 

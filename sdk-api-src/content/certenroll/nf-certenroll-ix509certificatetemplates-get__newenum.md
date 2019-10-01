@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateTemplates._NewEnum
  - IX509CertificateTemplates.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

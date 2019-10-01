@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.Retries
  - IFaxConfiguration.get_Retries
  - IFaxConfiguration.put_Retries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

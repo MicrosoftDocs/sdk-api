@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPMedia3.getAttributeCountByType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

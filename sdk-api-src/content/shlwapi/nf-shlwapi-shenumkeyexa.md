@@ -45,7 +45,6 @@ api_name:
  - SHEnumKeyEx
  - SHEnumKeyExA
  - SHEnumKeyExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

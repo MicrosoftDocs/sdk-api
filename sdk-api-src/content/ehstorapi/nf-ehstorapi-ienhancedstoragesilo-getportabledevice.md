@@ -38,7 +38,6 @@ api_location:
  - EhStorAPI.h
 api_name:
  - IEnhancedStorageSilo.GetPortableDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

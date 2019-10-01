@@ -38,7 +38,6 @@ api_location:
  - mf.dll
 api_name:
  - MFCreatePMPMediaSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

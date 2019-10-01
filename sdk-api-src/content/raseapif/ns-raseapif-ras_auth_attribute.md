@@ -38,7 +38,6 @@ api_location:
  - Raseapif.h
 api_name:
  - RAS_AUTH_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
 req.redist: 

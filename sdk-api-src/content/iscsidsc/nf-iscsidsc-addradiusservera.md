@@ -40,7 +40,6 @@ api_name:
  - AddRadiusServer
  - AddRadiusServerA
  - AddRadiusServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.SubmissionTime
  - IFaxOutgoingJob.get_SubmissionTime
  - IFaxOutgoingJob.get_SubmissionTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - DownloadPriority
-product: Windows
 targetos: Windows
 req.typenames: DownloadPriority
 req.redist: 

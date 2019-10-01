@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

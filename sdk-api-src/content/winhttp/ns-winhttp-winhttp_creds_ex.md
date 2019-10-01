@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - WINHTTP_CREDS_EX
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CREDS_EX, *PWINHTTP_CREDS_EX
 req.redist: 

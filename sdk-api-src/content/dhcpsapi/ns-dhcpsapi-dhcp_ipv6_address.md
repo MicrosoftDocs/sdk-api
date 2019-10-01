@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_IPV6_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: DHCP_IPV6_ADDRESS, *LPDHCP_IPV6_ADDRESS, *PDHCP_IPV6_ADDRESS
 req.redist: 

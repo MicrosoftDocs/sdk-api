@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFDXGIDeviceManager.ResetDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

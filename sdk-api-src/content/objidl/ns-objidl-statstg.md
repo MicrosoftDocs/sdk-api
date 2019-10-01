@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - STATSTG
-product: Windows
 targetos: Windows
 req.typenames: STATSTG
 req.redist: 

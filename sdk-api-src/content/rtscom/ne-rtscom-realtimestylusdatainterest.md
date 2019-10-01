@@ -38,7 +38,6 @@ api_location:
  - RTSCom.h
 api_name:
  - RealTimeStylusDataInterest
-product: Windows
 targetos: Windows
 req.typenames: RealTimeStylusDataInterest
 req.redist: 

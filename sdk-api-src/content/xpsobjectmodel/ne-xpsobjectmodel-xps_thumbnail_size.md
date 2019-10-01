@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_THUMBNAIL_SIZE
-product: Windows
 targetos: Windows
 req.typenames: XPS_THUMBNAIL_SIZE
 req.redist: 

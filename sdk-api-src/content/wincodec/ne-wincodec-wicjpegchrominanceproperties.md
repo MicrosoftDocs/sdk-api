@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICJpegChrominanceProperties
-product: Windows
 targetos: Windows
 req.typenames: WICJpegChrominanceProperties
 req.redist: 

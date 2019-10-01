@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_UseMouseForInput
  - InkEdit.get_UseMouseForInput
  - InkEdit.put_UseMouseForInput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IEnumGuideDataProperties.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

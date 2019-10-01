@@ -38,7 +38,6 @@ api_location:
 - Bthdef.h
 api_name:
 - BTH_DEVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO, *PBTH_DEVICE_INFO
 req.redist: 

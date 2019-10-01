@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDragPattern.CachedDropEffect
  - IUIAutomationDragPattern.get_CachedDropEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

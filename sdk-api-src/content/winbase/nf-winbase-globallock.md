@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
  - GlobalLock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

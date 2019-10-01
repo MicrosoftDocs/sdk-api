@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.RenewalCertificate
  - IX509CertificateRequest.get_RenewalCertificate
  - IX509CertificateRequest.put_RenewalCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

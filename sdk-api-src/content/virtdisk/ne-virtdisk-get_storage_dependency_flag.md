@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - GET_STORAGE_DEPENDENCY_FLAG
-product: Windows
 targetos: Windows
 req.typenames: GET_STORAGE_DEPENDENCY_FLAG
 req.redist: 

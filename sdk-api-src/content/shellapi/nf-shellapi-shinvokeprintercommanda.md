@@ -40,7 +40,6 @@ api_name:
  - SHInvokePrinterCommand
  - SHInvokePrinterCommandA
  - SHInvokePrinterCommandW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

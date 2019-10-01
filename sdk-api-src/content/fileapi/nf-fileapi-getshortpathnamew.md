@@ -55,7 +55,6 @@ api_name:
  - GetShortPathName
  - GetShortPathNameA
  - GetShortPathNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_ADD_EXTENSIONS_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_ADD_EXTENSIONS_INFO, *PCMC_ADD_EXTENSIONS_INFO
 req.redist: 

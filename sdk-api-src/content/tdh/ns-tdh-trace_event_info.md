@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - TRACE_EVENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_EVENT_INFO
 req.redist: 

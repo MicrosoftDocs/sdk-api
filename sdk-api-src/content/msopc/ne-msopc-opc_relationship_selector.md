@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_RELATIONSHIP_SELECTOR
-product: Windows
 targetos: Windows
 req.typenames: OPC_RELATIONSHIP_SELECTOR
 req.redist: 

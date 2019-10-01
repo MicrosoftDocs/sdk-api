@@ -45,7 +45,6 @@ api_name:
  - StrToIntEx
  - StrToIntExA
  - StrToIntExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

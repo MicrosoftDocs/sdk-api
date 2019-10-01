@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_SELECT_CRITERIA
-product: Windows
 targetos: Windows
 req.typenames: CERT_SELECT_CRITERIA, *PCERT_SELECT_CRITERIA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnRegistration.GetAvailableDataClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CachedVerticalViewSize
  - IUIAutomationScrollPattern.get_CachedVerticalViewSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

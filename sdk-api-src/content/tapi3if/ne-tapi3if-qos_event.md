@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - QOS_EVENT
-product: Windows
 targetos: Windows
 req.typenames: QOS_EVENT
 req.redist: 

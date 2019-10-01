@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdCreateSurfaceObject
  - GdiEntry4
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

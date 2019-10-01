@@ -40,7 +40,6 @@ api_name:
  - DSBROWSEINFOW
  - DSBROWSEINFOA
  - DSBROWSEINFOW
-product: Windows
 targetos: Windows
 req.typenames: DSBROWSEINFOA, *PDSBROWSEINFOA
 req.redist: 

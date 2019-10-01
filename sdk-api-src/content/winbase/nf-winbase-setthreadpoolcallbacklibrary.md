@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - SetThreadpoolCallbackLibrary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

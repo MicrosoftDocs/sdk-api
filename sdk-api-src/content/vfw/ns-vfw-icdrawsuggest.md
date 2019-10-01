@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICDRAWSUGGEST
-product: Windows
 targetos: Windows
 req.typenames: ICDRAWSUGGEST
 req.redist: 

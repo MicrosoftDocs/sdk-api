@@ -38,7 +38,6 @@ api_location:
  - Netplwiz.dll
 api_name:
  - IPublishingWizard.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

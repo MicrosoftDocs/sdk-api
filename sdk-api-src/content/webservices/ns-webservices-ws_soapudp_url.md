@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_SOAPUDP_URL
-product: Windows
 targetos: Windows
 req.typenames: WS_SOAPUDP_URL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wscapi.dll
 api_name:
  - WscUnRegisterChanges
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CWbemProviderGlue.GetNameSpaceConnection
  - ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
  - ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

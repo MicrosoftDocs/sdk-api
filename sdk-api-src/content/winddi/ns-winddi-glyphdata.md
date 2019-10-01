@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - GLYPHDATA
-product: Windows
 targetos: Windows
 req.typenames: GLYPHDATA
 req.redist: 

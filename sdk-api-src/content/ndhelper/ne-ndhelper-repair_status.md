@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - REPAIR_STATUS
-product: Windows
 targetos: Windows
 req.typenames: REPAIR_STATUS
 req.redist: 

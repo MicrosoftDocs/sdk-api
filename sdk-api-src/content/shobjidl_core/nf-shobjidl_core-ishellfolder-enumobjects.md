@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IShellFolder.EnumObjects
  - IShellFolder2.EnumObjects
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

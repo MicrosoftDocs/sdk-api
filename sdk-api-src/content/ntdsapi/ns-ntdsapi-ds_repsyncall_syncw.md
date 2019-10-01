@@ -40,7 +40,6 @@ api_name:
  - DS_REPSYNCALL_SYNC
  - DS_REPSYNCALL_SYNCA
  - DS_REPSYNCALL_SYNCW
-product: Windows
 targetos: Windows
 req.typenames: DS_REPSYNCALL_SYNCW, *PDS_REPSYNCALL_SYNCW
 req.redist: 

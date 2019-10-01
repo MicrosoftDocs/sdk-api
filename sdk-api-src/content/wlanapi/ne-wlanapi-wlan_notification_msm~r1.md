@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_NOTIFICATION_MSM
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: wlanapi.h

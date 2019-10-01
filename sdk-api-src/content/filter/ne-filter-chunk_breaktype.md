@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - CHUNK_BREAKTYPE
-product: Windows
 targetos: Windows
 req.typenames: CHUNK_BREAKTYPE
 req.redist: 

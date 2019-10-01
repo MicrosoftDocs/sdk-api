@@ -38,7 +38,6 @@ api_location:
  - d2d1effects_2.h
 api_name:
  - D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
-product: Windows
 targetos: Windows
 req.typenames: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 req.redist: 

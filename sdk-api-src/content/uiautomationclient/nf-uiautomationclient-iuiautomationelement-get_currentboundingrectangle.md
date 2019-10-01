@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentBoundingRectangle
  - IUIAutomationElement.get_CurrentBoundingRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

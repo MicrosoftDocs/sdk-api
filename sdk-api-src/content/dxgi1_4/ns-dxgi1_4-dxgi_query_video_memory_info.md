@@ -38,7 +38,6 @@ api_location:
  - dxgi1_4.h
 api_name:
  - DXGI_QUERY_VIDEO_MEMORY_INFO
-product: Windows
 targetos: Windows
 req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
 req.redist: 

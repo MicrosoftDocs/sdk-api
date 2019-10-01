@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_DHCID_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_DHCID_DATA, *PDNS_DHCID_DATA
 req.redist: 

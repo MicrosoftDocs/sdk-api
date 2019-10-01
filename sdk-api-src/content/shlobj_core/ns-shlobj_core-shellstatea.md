@@ -38,7 +38,6 @@ api_location:
  - Shlobj_core.h
 api_name:
  - SHELLSTATE
-product: Windows
 targetos: Windows
 req.typenames: SHELLSTATEA, *LPSHELLSTATEA
 req.redist: 

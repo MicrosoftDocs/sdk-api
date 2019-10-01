@@ -42,7 +42,6 @@ api_name:
  - RasGetEntryDialParams
  - RasGetEntryDialParamsA
  - RasGetEntryDialParamsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIWindowList._NewEnum
  - IRDPSRAPIWindowList.get__NewEnum
  - RDPSRAPIWindowList._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

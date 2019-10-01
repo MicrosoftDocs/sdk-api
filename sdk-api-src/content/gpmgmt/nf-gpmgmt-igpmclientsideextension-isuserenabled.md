@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMClientSideExtension.IsUserEnabled
  - GPMClientSideExtension.IsUserEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

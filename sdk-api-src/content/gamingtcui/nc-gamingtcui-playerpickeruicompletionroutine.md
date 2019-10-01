@@ -38,7 +38,6 @@ api_location:
  - gamingtcui.h
 api_name:
  - PlayerPickerUICompletionRoutine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

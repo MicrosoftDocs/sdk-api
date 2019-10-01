@@ -40,7 +40,6 @@ api_name:
 - SymFromToken
 - SymFromToken
 - SymFromTokenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

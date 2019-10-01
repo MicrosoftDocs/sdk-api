@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_FitToCurve
  - InkDrawingAttributes.get_FitToCurve
  - InkDrawingAttributes.put_FitToCurve
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

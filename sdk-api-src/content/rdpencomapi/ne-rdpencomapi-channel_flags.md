@@ -38,7 +38,6 @@ api_location:
  - Rdpencomapi.h
 api_name:
  - CHANNEL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CHANNEL_FLAGS
 req.redist: 

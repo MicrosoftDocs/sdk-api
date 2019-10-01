@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_UPDATE_FAILURE_CAUSES
-product: Windows
 targetos: Windows
 req.typenames: PRJ_UPDATE_FAILURE_CAUSES
 req.redist: 

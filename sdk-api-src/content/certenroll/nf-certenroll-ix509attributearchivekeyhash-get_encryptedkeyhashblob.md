@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob
  - IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - KF_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: KF_CATEGORY
 req.redist: 

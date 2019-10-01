@@ -38,7 +38,6 @@ api_location:
  - atlthunk.dll
 api_name:
  - AtlThunk_FreeData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mmreg.h
 api_name:
  - HEAACWAVEFORMAT
-product: Windows
 targetos: Windows
 req.typenames: HEAACWAVEFORMAT
 req.redist: 

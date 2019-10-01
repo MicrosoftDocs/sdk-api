@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_KEY_INFO
-product: Windows
 targetos: Windows
 req.typenames: APPX_KEY_INFO
 req.redist: 

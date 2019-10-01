@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - GOPHER_ATTRIBUTE_ENUMERATOR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

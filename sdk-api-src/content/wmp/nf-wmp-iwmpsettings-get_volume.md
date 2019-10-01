@@ -40,7 +40,6 @@ api_name:
  - IWMPSettings.get_volume
  - IWMPSetting2::get_volume
  - IWMPSetting2.get_volume
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

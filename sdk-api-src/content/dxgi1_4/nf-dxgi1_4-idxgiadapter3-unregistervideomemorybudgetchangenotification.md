@@ -38,7 +38,6 @@ api_location:
  - dxgi.dll
 api_name:
  - IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TPMPARAMS
-product: Windows
 targetos: Windows
 req.typenames: TPMPARAMS
 req.redist: 

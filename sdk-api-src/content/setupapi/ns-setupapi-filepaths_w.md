@@ -39,7 +39,6 @@ api_location:
 api_name:
  - FILEPATHS
  - filepaths_w
-product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_W, *PFILEPATHS_W
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Rect.Offset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

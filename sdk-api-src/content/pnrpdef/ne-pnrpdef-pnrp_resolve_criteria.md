@@ -38,7 +38,6 @@ api_location:
 - Pnrpdef.h
 api_name:
 - PNRP_RESOLVE_CRITERIA
-product: Windows
 targetos: Windows
 req.typenames: PNRP_RESOLVE_CRITERIA
 req.redist: 

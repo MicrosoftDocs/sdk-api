@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPISharingSession2.GetDesktopSharedRect
  - IRDPSRAPISharingSession.GetDesktopSharedRect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

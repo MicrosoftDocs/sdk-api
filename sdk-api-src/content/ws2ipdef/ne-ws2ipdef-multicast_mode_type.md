@@ -38,7 +38,6 @@ api_location:
  - Ws2ipdef.h
 api_name:
  - MULTICAST_MODE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MULTICAST_MODE_TYPE
 req.redist: 

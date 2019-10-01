@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVACompBufferInfo
-product: Windows
 targetos: Windows
 req.typenames: AMVACompBufferInfo, *LPAMVACompBufferInfo
 req.redist: 

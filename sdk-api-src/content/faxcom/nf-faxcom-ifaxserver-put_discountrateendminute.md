@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_DiscountRateEndMinute
  - IFaxServer.get_DiscountRateEndMinute
  - IFaxServer.put_DiscountRateEndMinute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

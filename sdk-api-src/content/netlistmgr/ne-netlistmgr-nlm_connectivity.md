@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_CONNECTIVITY
-product: Windows
 targetos: Windows
 req.typenames: NLM_CONNECTIVITY
 req.redist: 

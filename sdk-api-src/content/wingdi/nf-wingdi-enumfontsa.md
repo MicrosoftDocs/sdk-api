@@ -44,7 +44,6 @@ api_name:
  - EnumFonts
  - EnumFontsA
  - EnumFontsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - IOleAdviseHolder.SendOnClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

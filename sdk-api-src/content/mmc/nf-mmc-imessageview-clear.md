@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IMessageView.Clear
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

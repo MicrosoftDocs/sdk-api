@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CHANGER_SEND_VOLUME_TAG_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
 req.redist: 

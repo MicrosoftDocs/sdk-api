@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - IWMResizerProps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

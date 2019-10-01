@@ -38,7 +38,6 @@ api_location:
 - Usbuser.h
 api_name:
 - IOCTL_USB_USER_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

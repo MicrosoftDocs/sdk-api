@@ -40,7 +40,6 @@ api_name:
  - MsiSetFeatureAttributes
  - MsiSetFeatureAttributesA
  - MsiSetFeatureAttributesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

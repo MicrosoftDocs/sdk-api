@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_INTERACTIVE_PROFILE
-product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_PROFILE, *PKERB_INTERACTIVE_PROFILE
 req.redist: 

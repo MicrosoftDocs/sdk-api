@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComCRMEvents.OnCRMCheckpoint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

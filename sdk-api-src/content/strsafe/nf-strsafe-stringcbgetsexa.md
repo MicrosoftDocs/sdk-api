@@ -40,7 +40,6 @@ api_name:
  - StringCbGetsEx
  - StringCbGetsExA
  - StringCbGetsExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

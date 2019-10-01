@@ -38,7 +38,6 @@ api_location:
 - Wcmapi.h
 api_name:
 - WCM_DATAPLAN_STATUS
-product: Windows
 targetos: Windows
 req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_OBJECT_CHANGE_PARAM
-product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_LISTPAD_INFO
-product: Windows
 targetos: Windows
 req.typenames: MMC_LISTPAD_INFO
 req.redist: 

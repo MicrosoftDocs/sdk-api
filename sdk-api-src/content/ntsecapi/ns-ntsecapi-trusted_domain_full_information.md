@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - TRUSTED_DOMAIN_FULL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TRUSTED_DOMAIN_FULL_INFORMATION, *PTRUSTED_DOMAIN_FULL_INFORMATION
 req.redist: 

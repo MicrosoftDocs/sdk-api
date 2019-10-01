@@ -38,7 +38,6 @@ api_location:
 - BthLEDef.h
 api_name:
 - BLUETOOTH_GATT_VALUE_CHANGED_EVENT
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_GATT_VALUE_CHANGED_EVENT, *PBLUETOOTH_GATT_VALUE_CHANGED_EVENT
 req.redist: 

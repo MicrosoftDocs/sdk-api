@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_VERSION_INFO, *PTRACE_VERSION_INFO
 req.redist: 

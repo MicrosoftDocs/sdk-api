@@ -38,7 +38,6 @@ api_location:
  - Magnification.h
 api_name:
  - MAGTRANSFORM
-product: Windows
 targetos: Windows
 req.typenames: MAGTRANSFORM, *PMAGTRANSFORM
 req.redist: 

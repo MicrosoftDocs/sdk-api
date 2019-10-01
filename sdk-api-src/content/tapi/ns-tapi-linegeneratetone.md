@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEGENERATETONE
-product: Windows
 targetos: Windows
 req.typenames: LINEGENERATETONE, *LPLINEGENERATETONE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_RAYTRACING_PIPELINE_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_PIPELINE_CONFIG
 req.redist: 

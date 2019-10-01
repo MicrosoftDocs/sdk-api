@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - CM_SET_WIDTH_VALUE
-product: Windows
 targetos: Windows
 req.typenames: CM_SET_WIDTH_VALUE
 req.redist: 

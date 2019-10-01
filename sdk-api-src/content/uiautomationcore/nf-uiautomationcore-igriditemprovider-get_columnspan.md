@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridItemProvider.ColumnSpan
  - IGridItemProvider.get_ColumnSpan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

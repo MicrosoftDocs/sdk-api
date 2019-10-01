@@ -38,7 +38,6 @@ api_location:
  - Tcpioctl.h
 api_name:
  - IFEntry
-product: Windows
 targetos: Windows
 req.typenames: IFEntry
 req.redist: 

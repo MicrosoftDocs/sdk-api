@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxLoggingOptions.ActivityLogging
  - IFaxLoggingOptions.get_ActivityLogging
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

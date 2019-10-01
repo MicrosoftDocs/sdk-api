@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFTimedTextTrack.IsActive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.ConnectClientPrintersAtLogon
  - IADsTSUserEx.get_ConnectClientPrintersAtLogon
  - IADsTSUserEx.put_ConnectClientPrintersAtLogon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

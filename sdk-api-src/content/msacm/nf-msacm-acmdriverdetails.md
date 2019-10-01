@@ -41,7 +41,6 @@ api_name:
  - acmDriverDetails
  - acmDriverDetailsA
  - acmDriverDetailsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

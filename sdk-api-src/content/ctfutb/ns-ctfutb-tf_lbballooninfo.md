@@ -38,7 +38,6 @@ api_location:
  - Ctfutb.h
 api_name:
  - TF_LBBALLOONINFO
-product: Windows
 targetos: Windows
 req.typenames: TF_LBBALLOONINFO
 req.redist: TSF 1.0 on Windows 2000 Professional

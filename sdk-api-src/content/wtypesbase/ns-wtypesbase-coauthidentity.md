@@ -38,7 +38,6 @@ api_location:
 - wtypesbase.h
 api_name:
 - COAUTHIDENTITY
-product: Windows
 targetos: Windows
 req.typenames: COAUTHIDENTITY
 req.redist: 

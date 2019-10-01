@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - IUrlAccessor3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

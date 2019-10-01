@@ -38,7 +38,6 @@ api_location:
  - Bdatif.h
 api_name:
  - IMPEG2_TIF_CONTROL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

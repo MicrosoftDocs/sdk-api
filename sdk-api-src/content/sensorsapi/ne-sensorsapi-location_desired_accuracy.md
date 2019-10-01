@@ -38,7 +38,6 @@ api_location:
  - SensorsApi.h
 api_name:
  - LOCATION_DESIRED_ACCURACY
-product: Windows
 targetos: Windows
 req.typenames: LOCATION_DESIRED_ACCURACY
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
 - WTSFreeMemoryEx
 - WTSFreeMemoryExA
 - WTSFreeMemoryExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

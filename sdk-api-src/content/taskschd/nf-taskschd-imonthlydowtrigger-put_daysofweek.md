@@ -40,7 +40,6 @@ api_name:
  - IMonthlyDOWTrigger.DaysOfWeek
  - IMonthlyDOWTrigger.get_DaysOfWeek
  - IMonthlyDOWTrigger.put_DaysOfWeek
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

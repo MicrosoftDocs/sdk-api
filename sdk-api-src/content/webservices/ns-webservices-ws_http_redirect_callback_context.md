@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_HTTP_REDIRECT_CALLBACK_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_REDIRECT_CALLBACK_CONTEXT
 req.redist: 

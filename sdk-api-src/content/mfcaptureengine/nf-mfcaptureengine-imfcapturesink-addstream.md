@@ -38,7 +38,6 @@ api_location:
  - mfcaptureengine.h
 api_name:
  - IMFCaptureSink.AddStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - NET_DISPLAY_MACHINE
-product: Windows
 targetos: Windows
 req.typenames: NET_DISPLAY_MACHINE, *PNET_DISPLAY_MACHINE
 req.redist: 

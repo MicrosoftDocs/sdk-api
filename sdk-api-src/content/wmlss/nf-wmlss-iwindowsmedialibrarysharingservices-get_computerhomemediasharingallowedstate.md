@@ -38,7 +38,6 @@ api_location:
  - WMPMediaSharing.dll
 api_name:
  - IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

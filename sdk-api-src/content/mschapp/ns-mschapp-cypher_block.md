@@ -38,7 +38,6 @@ api_location:
  - MsChapp.h
 api_name:
  - CYPHER_BLOCK
-product: Windows
 targetos: Windows
 req.typenames: CYPHER_BLOCK
 req.redist: 

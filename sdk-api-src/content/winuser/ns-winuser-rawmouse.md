@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RAWMOUSE
-product: Windows
 targetos: Windows
 req.typenames: RAWMOUSE, *PRAWMOUSE, *LPRAWMOUSE
 req.redist: 

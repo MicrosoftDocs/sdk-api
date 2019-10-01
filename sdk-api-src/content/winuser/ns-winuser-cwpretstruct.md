@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CWPRETSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CWPRETSTRUCT, *PCWPRETSTRUCT, *NPCWPRETSTRUCT, *LPCWPRETSTRUCT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFhReassociation.SelectConfiguration
  - FhReassociation.SelectConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

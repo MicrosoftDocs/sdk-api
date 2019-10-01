@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - SMINFO
-product: Windows
 targetos: Windows
 req.typenames: SMINFO, *PSMINFO
 req.redist: 

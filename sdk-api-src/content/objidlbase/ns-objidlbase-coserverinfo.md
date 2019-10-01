@@ -38,7 +38,6 @@ api_location:
 - objidlbase.h
 api_name:
 - COSERVERINFO
-product: Windows
 targetos: Windows
 req.typenames: COSERVERINFO
 req.redist: 

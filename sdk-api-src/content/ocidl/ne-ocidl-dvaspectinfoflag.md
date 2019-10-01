@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - DVASPECTINFOFLAG
-product: Windows
 targetos: Windows
 req.typenames: DVASPECTINFOFLAG
 req.redist: 

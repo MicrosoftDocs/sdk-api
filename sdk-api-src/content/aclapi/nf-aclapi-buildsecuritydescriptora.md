@@ -43,7 +43,6 @@ api_name:
 - BuildSecurityDescriptor
 - BuildSecurityDescriptorA
 - BuildSecurityDescriptorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

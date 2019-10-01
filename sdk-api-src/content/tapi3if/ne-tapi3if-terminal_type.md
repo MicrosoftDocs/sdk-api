@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TERMINAL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TERMINAL_TYPE
 req.redist: 

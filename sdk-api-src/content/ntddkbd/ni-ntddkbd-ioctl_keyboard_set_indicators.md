@@ -38,7 +38,6 @@ api_location:
 - ntddkbd.h
 api_name:
 - IOCTL_KEYBOARD_SET_INDICATORS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

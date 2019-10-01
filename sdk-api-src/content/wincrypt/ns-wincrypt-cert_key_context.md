@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_KEY_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CERT_KEY_CONTEXT, *PCERT_KEY_CONTEXT
 req.redist: 

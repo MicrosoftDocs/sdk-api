@@ -41,7 +41,6 @@ api_location:
  - ext-ms-win-dwmapi-ext-l1-1-1.dll
 api_name:
  - DwmSetIconicThumbnail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

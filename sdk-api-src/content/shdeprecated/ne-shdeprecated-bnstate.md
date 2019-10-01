@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - BNSTATE
-product: Windows
 targetos: Windows
 req.typenames: BNSTATE
 req.redist: 

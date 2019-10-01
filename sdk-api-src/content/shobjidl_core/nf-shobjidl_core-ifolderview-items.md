@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IFolderView.Items
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

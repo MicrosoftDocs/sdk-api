@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_IssuerListInfoEx
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx
 req.redist: 

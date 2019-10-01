@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_HomePhone
  - IFaxSender.get_HomePhone
  - IFaxSender.put_HomePhone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

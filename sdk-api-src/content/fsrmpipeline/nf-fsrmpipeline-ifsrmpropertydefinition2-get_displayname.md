@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyDefinition2.DisplayName
  - IFsrmPropertyDefinition2.get_DisplayName
  - IFsrmPropertyDefinition2.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - TcOpenInterface
  - TcOpenInterfaceA
  - TcOpenInterfaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

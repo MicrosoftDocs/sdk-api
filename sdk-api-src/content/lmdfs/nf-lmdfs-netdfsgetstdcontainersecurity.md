@@ -38,7 +38,6 @@ api_location:
 - Netapi32.dll
 api_name:
 - NetDfsGetStdContainerSecurity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

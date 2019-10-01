@@ -38,7 +38,6 @@ api_location:
  - Storprop.dll
 api_name:
  - CdromKnownGoodDigitalPlayback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

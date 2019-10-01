@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CREATE_CLUSTER_NAME_ACCOUNT
-product: Windows
 targetos: Windows
 req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
 req.redist: 

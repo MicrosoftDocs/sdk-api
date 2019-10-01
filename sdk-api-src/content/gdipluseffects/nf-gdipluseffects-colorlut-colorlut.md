@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - ColorLUT.ColorLUT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

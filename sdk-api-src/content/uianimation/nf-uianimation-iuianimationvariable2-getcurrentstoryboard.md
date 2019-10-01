@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationVariable2.GetCurrentStoryboard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

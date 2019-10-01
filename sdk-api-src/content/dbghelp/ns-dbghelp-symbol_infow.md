@@ -40,7 +40,6 @@ api_name:
  - SYMBOL_INFO
  - SYMBOL_INFO
  - SYMBOL_INFOW
-product: Windows
 targetos: Windows
 req.typenames: SYMBOL_INFOW, *PSYMBOL_INFOW
 req.redist: DbgHelp.dll 5.1 or later

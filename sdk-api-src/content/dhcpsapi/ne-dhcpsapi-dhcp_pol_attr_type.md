@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_POL_ATTR_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_ATTR_TYPE
 req.redist: 

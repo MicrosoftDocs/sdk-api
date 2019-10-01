@@ -38,7 +38,6 @@ api_location:
  - Winwlx.h
 api_name:
  - WLX_MPR_NOTIFY_INFO
-product: Windows
 targetos: Windows
 req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
 req.redist: 

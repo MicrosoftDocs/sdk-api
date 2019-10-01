@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIApplicationFilter.get_Enabled
  - IRDPSRAPIApplicationFilter.put_Enabled
  - RDPSRAPIApplicationFilter.Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

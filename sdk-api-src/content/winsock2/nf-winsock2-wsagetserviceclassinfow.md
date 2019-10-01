@@ -40,7 +40,6 @@ api_name:
 - WSAGetServiceClassInfo
 - WSAGetServiceClassInfoA
 - WSAGetServiceClassInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

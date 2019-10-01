@@ -40,7 +40,6 @@ api_name:
  - GetNtmsMediaPoolName
  - GetNtmsMediaPoolNameA
  - GetNtmsMediaPoolNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

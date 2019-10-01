@@ -40,7 +40,6 @@ api_name:
  - ldap_add_ext
  - ldap_add_extA
  - ldap_add_extW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Bits.dll
 api_name:
  - IEnumBitsPeerCacheRecords.GetCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

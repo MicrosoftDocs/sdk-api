@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyEnrollment.RequestId
  - ICertPropertyEnrollment.get_RequestId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

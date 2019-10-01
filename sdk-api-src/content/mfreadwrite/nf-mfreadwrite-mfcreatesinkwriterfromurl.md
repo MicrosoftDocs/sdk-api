@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.dll
 api_name:
  - MFCreateSinkWriterFromURL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

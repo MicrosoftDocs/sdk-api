@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_EIT.GetRecordDuration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

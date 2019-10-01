@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_CERT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WTS_CERT_TYPE
 req.redist: 

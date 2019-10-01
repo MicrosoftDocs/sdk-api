@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - EXTCONN
-product: Windows
 targetos: Windows
 req.typenames: EXTCONN
 req.redist: 

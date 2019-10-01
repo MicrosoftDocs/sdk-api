@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_942_DH_VALIDATION_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: CERT_X942_DH_VALIDATION_PARAMS, *PCERT_X942_DH_VALIDATION_PARAMS
 req.redist: 

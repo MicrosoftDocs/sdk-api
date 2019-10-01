@@ -38,7 +38,6 @@ api_location:
  - tspubplugin2com.h
 api_name:
  - pluginResource2FileAssociation
-product: Windows
 targetos: Windows
 req.typenames: pluginResource2FileAssociation
 req.redist: 

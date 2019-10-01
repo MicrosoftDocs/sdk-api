@@ -38,7 +38,6 @@ api_location:
  - Dsparse.h
 api_name:
  - DS_MANGLE_FOR
-product: Windows
 targetos: Windows
 req.typenames: DS_MANGLE_FOR
 req.redist: 

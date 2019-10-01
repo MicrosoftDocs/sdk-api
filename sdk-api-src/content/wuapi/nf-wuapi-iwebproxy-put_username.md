@@ -40,7 +40,6 @@ api_name:
  - IWebProxy.UserName
  - IWebProxy.get_UserName
  - IWebProxy.put_UserName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

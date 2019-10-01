@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAutomaticUpdates.ServiceEnabled
  - IAutomaticUpdates.get_ServiceEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

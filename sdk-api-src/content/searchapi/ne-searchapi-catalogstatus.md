@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - CatalogStatus
-product: Windows
 targetos: Windows
 req.typenames: CatalogStatus
 req.redist: 

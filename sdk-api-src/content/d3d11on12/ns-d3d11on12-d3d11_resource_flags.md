@@ -38,7 +38,6 @@ api_location:
  - d3d11on12.h
 api_name:
  - D3D11_RESOURCE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D11_RESOURCE_FLAGS
 req.redist: 

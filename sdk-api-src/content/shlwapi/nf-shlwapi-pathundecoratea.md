@@ -41,7 +41,6 @@ api_name:
  - PathUndecorate
  - PathUndecorateA
  - PathUndecorateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

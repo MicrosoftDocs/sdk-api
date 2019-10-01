@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_ATTR_INFO
-product: Windows
 targetos: Windows
 req.typenames: ADS_ATTR_INFO, *PADS_ATTR_INFO
 req.redist: 

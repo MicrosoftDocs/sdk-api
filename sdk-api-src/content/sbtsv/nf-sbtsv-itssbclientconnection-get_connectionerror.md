@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.ConnectionError
  - ITsSbClientConnection.get_ConnectionError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

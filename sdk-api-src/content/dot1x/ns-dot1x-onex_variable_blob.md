@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_VARIABLE_BLOB
-product: Windows
 targetos: Windows
 req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
 req.redist: 

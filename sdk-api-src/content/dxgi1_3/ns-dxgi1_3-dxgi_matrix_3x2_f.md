@@ -38,7 +38,6 @@ api_location:
  - dxgi1_3.h
 api_name:
  - DXGI_MATRIX_3X2_F
-product: Windows
 targetos: Windows
 req.typenames: DXGI_MATRIX_3X2_F
 req.redist: 

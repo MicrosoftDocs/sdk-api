@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, *PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 req.redist: 

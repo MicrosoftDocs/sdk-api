@@ -39,7 +39,6 @@ api_location:
  - Wbemuuid.dll
 api_name:
  - IWbemConfigureRefresher.AddObjectByPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

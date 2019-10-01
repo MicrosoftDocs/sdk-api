@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_BLT_STATE_CONSTRICTION_DATA
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_CONSTRICTION_DATA
 req.redist: 

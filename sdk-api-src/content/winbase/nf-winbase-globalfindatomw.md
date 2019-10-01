@@ -43,7 +43,6 @@ api_name:
  - GlobalFindAtom
  - GlobalFindAtomA
  - GlobalFindAtomW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

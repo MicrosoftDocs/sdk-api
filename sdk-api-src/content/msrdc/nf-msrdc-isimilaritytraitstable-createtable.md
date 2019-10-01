@@ -38,7 +38,6 @@ api_location:
  - MsRdc.dll
 api_name:
  - ISimilarityTraitsTable.CreateTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

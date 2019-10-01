@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMF2DBuffer.GetScanline0AndPitch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

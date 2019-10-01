@@ -38,7 +38,6 @@ api_location:
 - Elscore.h
 api_name:
 - MAPPING_PROPERTY_BAG
-product: Windows
 targetos: Windows
 req.typenames: MAPPING_PROPERTY_BAG, *PMAPPING_PROPERTY_BAG
 req.redist: 

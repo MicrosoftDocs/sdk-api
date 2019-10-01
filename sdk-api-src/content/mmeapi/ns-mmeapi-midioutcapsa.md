@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIDIOUTCAPS
  - MIDIOUTCAPSA
-product: Windows
 targetos: Windows
 req.typenames: MIDIOUTCAPSA, *PMIDIOUTCAPSA, *NPMIDIOUTCAPSA, *LPMIDIOUTCAPSA
 req.redist: 

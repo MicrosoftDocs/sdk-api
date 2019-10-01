@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SEC_WINNT_AUTH_IDENTITY_EX2
-product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_IDENTITY_EX2, *PSEC_WINNT_AUTH_IDENTITY_EX2
 req.redist: 

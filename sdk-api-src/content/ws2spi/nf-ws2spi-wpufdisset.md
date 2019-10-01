@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WPUFDIsSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

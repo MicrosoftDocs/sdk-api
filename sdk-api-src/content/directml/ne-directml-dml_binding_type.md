@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_BINDING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

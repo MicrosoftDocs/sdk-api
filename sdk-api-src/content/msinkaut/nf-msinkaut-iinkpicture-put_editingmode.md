@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_EditingMode
  - InkPicture.get_EditingMode
  - InkPicture.put_EditingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

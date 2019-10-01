@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmFileGroupManager.EnumFileGroups
 - FsrmFileGroupManager.EnumFileGroups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

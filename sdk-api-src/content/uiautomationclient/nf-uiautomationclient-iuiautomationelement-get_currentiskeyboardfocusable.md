@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsKeyboardFocusable
  - IUIAutomationElement.get_CurrentIsKeyboardFocusable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

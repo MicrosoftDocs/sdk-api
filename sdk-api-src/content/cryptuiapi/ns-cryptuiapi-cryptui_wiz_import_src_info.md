@@ -38,7 +38,6 @@ api_location:
 - Cryptuiapi.h
 api_name:
 - CRYPTUI_WIZ_IMPORT_SRC_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
 req.redist: 

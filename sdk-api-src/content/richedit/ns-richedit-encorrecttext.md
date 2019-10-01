@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - ENCORRECTTEXT
-product: Windows
 targetos: Windows
 req.typenames: ENCORRECTTEXT
 req.redist: 

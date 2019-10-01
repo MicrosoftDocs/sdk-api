@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.dll
 api_name:
  - MFCreateSourceReaderFromMediaSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IEmptyVolumeCache2.InitializeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

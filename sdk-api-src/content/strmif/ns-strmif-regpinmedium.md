@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - REGPINMEDIUM
-product: Windows
 targetos: Windows
 req.typenames: REGPINMEDIUM
 req.redist: 

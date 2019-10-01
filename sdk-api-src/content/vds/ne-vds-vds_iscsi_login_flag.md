@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_ISCSI_LOGIN_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_ISCSI_LOGIN_FLAG
 req.redist: VDS 1.1

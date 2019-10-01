@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICDevelopRaw.GetSaturation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

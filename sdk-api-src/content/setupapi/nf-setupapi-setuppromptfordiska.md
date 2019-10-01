@@ -40,7 +40,6 @@ api_name:
  - SetupPromptForDisk
  - SetupPromptForDiskA
  - SetupPromptForDiskW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeArchiveKey.EncryptionAlgorithm
  - IX509AttributeArchiveKey.get_EncryptionAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

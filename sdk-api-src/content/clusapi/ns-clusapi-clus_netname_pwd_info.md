@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_NETNAME_PWD_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_PWD_INFO, *PCLUS_NETNAME_PWD_INFO, CLUS_RLUA_PWD_INFO, *PCLUS_RLUA_PWD_INFO
 req.redist: 

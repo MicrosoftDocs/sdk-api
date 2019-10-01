@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - CM_COLUMNINFO
-product: Windows
 targetos: Windows
 req.typenames: CM_COLUMNINFO
 req.redist: 

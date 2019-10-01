@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IResultData.InsertItem
 - IResultData2.InsertItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

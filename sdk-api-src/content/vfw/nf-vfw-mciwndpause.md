@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - MCIWndPause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

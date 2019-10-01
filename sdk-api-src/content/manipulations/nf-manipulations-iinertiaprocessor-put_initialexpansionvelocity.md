@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.InitialExpansionVelocity
  - IInertiaProcessor.get_InitialExpansionVelocity
  - IInertiaProcessor.put_InitialExpansionVelocity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

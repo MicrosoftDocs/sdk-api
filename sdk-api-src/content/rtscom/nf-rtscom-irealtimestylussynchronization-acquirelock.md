@@ -38,7 +38,6 @@ api_location:
  - RTSCom.dll
 api_name:
  - IRealTimeStylusSynchronization.AcquireLock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

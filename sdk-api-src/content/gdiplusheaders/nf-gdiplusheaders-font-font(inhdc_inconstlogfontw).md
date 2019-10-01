@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Font.Font
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - eapmethodpeerapis.h
 api_name:
 - EapPeerEndSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

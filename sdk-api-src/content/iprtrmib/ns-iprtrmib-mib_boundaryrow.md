@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - MIB_BOUNDARYROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_BOUNDARYROW, *PMIB_BOUNDARYROW
 req.redist: 

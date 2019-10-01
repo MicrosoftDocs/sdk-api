@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-NTUser-Draw-L1-1-2.dll
 api_name:
  - LockWindowUpdate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

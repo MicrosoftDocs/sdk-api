@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement5.CurrentLandmarkType
  - IUIAutomationElement5.get_CurrentLandmarkType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

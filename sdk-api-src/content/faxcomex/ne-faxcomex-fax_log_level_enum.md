@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_LOG_LEVEL_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_LOG_LEVEL_ENUM
 req.redist: 

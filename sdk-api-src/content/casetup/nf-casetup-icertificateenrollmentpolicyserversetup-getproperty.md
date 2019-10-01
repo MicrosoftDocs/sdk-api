@@ -38,7 +38,6 @@ api_location:
  - Certocm.dll
 api_name:
  - ICertificateEnrollmentPolicyServerSetup.GetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFASYNC_WORKQUEUE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MFASYNC_WORKQUEUE_TYPE
 req.redist: 

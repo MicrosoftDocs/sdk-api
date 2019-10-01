@@ -38,7 +38,6 @@ api_location:
 - Wabdefs.h
 api_name:
 - SRowSet
-product: Windows
 targetos: Windows
 req.typenames: SRowSet, *LPSRowSet
 req.redist: 

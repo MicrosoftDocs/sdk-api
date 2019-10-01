@@ -40,7 +40,6 @@ api_name:
  - IWSManConnectionOptionsEx.CertificateThumbprint
  - IWSManConnectionOptionsEx.get_CertificateThumbprint
  - IWSManConnectionOptionsEx.put_CertificateThumbprint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - fci.h
 api_name:
  - FNFCIGETNEXTCABINET
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

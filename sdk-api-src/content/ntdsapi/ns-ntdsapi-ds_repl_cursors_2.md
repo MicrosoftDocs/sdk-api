@@ -38,7 +38,6 @@ api_location:
 - Ntdsapi.h
 api_name:
 - DS_REPL_CURSORS_2
-product: Windows
 targetos: Windows
 req.typenames: DS_REPL_CURSORS_2
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IEnroll.HashAlgorithmWStr
  - IEnroll.get_HashAlgorithmWStr
  - IEnroll.put_HashAlgorithmWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

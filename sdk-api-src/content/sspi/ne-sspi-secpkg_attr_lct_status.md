@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SECPKG_ATTR_LCT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_ATTR_LCT_STATUS, *PSECPKG_ATTR_LCT_STATUS
 req.redist: 

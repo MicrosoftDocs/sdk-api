@@ -40,7 +40,6 @@ api_name:
  - lineGetTranslateCaps
  - lineGetTranslateCapsA
  - lineGetTranslateCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

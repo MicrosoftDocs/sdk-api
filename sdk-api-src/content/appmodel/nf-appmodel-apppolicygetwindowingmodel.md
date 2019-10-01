@@ -41,7 +41,6 @@ api_location:
  - kernelbase.dll
 api_name:
  - AppPolicyGetWindowingModel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
 - DnsValidateName_A
 - DnsValidateName_W
 - DnsValidateName_UTF8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

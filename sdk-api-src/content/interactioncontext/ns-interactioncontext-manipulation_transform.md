@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - MANIPULATION_TRANSFORM
-product: Windows
 targetos: Windows
 req.typenames: MANIPULATION_TRANSFORM
 req.redist: 

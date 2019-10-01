@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - PROCESSOR_POWER_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_POWER_POLICY, *PPROCESSOR_POWER_POLICY
 req.redist: 

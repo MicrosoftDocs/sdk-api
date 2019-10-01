@@ -38,7 +38,6 @@ api_location:
  - WMPMediaSharing.dll
 api_name:
  - IWindowsMediaLibrarySharingDeviceProperty.get_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

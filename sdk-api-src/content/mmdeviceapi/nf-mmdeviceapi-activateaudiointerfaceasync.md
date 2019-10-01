@@ -38,7 +38,6 @@ api_location:
  - Mmdevapi.dll
 api_name:
  - ActivateAudioInterfaceAsync
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

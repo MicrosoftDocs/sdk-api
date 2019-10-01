@@ -44,7 +44,6 @@ api_name:
  - PathFileExists
  - PathFileExistsA
  - PathFileExistsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

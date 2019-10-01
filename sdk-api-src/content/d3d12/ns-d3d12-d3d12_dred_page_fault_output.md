@@ -36,7 +36,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_DRED_PAGE_FAULT_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: D3D12_DRED_PAGE_FAULT_OUTPUT
 req.redist: 

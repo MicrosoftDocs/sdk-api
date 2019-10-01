@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TSPI_lineSetStatusMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

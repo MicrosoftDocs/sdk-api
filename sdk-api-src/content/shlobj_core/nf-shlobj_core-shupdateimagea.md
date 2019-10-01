@@ -40,7 +40,6 @@ api_name:
  - SHUpdateImage
  - SHUpdateImageA
  - SHUpdateImageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

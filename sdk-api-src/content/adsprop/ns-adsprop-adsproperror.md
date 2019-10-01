@@ -38,7 +38,6 @@ api_location:
  - Adsprop.h
 api_name:
  - ADSPROPERROR
-product: Windows
 targetos: Windows
 req.typenames: ADSPROPERROR, *PADSPROPERROR
 req.redist: 

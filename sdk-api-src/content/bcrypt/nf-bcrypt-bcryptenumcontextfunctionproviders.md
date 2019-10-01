@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.dll
 api_name:
 - BCryptEnumContextFunctionProviders
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

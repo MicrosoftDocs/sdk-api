@@ -41,7 +41,6 @@ api_location:
 - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
 api_name:
 - XInputGetState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

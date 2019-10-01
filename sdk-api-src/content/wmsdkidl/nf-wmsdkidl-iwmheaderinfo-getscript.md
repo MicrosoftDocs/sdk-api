@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.GetScript
  - IWMHeaderInfo2.GetScript
  - IWMHeaderInfo3.GetScript
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

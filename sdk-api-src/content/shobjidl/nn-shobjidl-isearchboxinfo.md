@@ -38,7 +38,6 @@ api_location:
  - Explorerframe.dll
 api_name:
  - ISearchBoxInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

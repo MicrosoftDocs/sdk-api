@@ -38,7 +38,6 @@ api_location:
 - windef.h
 api_name:
 - RECT
-product: Windows
 targetos: Windows
 req.typenames: RECT, *PRECT, *NPRECT, *LPRECT
 req.redist: 

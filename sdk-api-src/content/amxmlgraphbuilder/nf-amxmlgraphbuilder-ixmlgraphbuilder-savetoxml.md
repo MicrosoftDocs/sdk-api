@@ -38,7 +38,6 @@ api_location:
  - amxmlgraphbuilder.h
 api_name:
  - IXMLGraphBuilder.SaveToXML
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

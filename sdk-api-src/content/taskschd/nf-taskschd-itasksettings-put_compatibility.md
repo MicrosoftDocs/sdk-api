@@ -40,7 +40,6 @@ api_name:
 - ITaskSettings.Compatibility
 - ITaskSettings.get_Compatibility
 - ITaskSettings.put_Compatibility
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

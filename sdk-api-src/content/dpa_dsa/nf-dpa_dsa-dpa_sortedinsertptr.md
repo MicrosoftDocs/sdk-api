@@ -38,7 +38,6 @@ api_location:
  - dpa_dsa.h
 api_name:
  - DPA_SortedInsertPtr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

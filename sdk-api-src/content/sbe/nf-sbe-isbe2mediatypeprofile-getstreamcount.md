@@ -38,7 +38,6 @@ api_location:
  - sbe.dll
 api_name:
  - ISBE2MediaTypeProfile.GetStreamCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

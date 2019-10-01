@@ -38,7 +38,6 @@ api_location:
  - prnasnot.dll
 api_name:
  - IPrintAsyncNotifyChannel.SendNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

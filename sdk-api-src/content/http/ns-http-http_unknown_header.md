@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_UNKNOWN_HEADER
-product: Windows
 targetos: Windows
 req.typenames: HTTP_UNKNOWN_HEADER, *PHTTP_UNKNOWN_HEADER
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMDomain.GetGPO
  - GPMDomain.GetGPO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

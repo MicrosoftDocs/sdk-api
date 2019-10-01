@@ -38,7 +38,6 @@ api_location:
  - PeerDist.dll
 api_name:
  - PeerDistClientCloseContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

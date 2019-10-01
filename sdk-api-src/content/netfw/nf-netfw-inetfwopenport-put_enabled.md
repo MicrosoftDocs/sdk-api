@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.Enabled
  - INetFwOpenPort.get_Enabled
  - INetFwOpenPort.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

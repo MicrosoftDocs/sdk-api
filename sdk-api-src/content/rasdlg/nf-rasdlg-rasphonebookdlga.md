@@ -40,7 +40,6 @@ api_name:
  - RasPhonebookDlg
  - RasPhonebookDlgA
  - RasPhonebookDlgW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

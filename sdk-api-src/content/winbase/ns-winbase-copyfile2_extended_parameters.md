@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - COPYFILE2_EXTENDED_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_EXTENDED_PARAMETERS
 req.redist: 

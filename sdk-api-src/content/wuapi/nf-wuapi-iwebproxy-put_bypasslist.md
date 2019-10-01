@@ -40,7 +40,6 @@ api_name:
  - IWebProxy.BypassList
  - IWebProxy.get_BypassList
  - IWebProxy.put_BypassList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnConnectionProfileManager.GetConnectionProfiles
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

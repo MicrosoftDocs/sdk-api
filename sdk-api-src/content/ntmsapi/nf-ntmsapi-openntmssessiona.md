@@ -40,7 +40,6 @@ api_name:
  - OpenNtmsSession
  - OpenNtmsSessionA
  - OpenNtmsSessionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

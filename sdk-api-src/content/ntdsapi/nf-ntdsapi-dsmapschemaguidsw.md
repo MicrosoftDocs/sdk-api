@@ -40,7 +40,6 @@ api_name:
  - DsMapSchemaGuids
  - DsMapSchemaGuidsA
  - DsMapSchemaGuidsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

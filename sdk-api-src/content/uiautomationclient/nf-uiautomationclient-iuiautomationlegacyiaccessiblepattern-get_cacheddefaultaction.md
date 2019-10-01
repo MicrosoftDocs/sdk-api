@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction
  - IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

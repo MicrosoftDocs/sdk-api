@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzClientContext3.BizRuleInterfaces
  - IAzClientContext3.get_BizRuleInterfaces
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

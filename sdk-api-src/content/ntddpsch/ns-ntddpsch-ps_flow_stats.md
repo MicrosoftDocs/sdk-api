@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_FLOW_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_FLOW_STATS, *PPS_FLOW_STATS
 req.redist: 

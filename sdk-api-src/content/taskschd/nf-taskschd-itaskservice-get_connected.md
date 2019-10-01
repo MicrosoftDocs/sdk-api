@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskService.Connected
  - ITaskService.get_Connected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

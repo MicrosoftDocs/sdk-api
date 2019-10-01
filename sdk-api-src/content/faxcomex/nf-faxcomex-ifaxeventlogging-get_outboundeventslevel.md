@@ -42,7 +42,6 @@ api_name:
  - IFaxEventLogging.put_OutboundEventsLevel
  - IFaxEventLogging.get_OutboundEventsLevel
  - IFaxEventLogging.put_OutboundEventsLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

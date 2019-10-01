@@ -40,7 +40,6 @@ api_name:
  - MsiQueryProductState
  - MsiQueryProductStateA
  - MsiQueryProductStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

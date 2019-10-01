@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_CERTIFICATE_AUTHENTICATION1
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION1
 req.redist: 

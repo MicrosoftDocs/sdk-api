@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_SupportedSignatures
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
 req.redist: 

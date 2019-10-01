@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRegisteredTask.LastRunTime
  - IRegisteredTask.get_LastRunTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

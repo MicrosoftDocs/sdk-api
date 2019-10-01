@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITACDGroupEvent.get_Group
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

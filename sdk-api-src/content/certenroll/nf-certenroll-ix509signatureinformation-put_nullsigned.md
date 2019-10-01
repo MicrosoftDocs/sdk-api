@@ -40,7 +40,6 @@ api_name:
  - IX509SignatureInformation.NullSigned
  - IX509SignatureInformation.get_NullSigned
  - IX509SignatureInformation.put_NullSigned
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

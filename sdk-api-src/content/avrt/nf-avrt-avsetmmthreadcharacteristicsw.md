@@ -40,7 +40,6 @@ api_name:
  - AvSetMmThreadCharacteristics
  - AvSetMmThreadCharacteristicsA
  - AvSetMmThreadCharacteristicsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

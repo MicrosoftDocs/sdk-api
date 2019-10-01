@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - SEARCH_ITEM_INDEXING_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_ITEM_INDEXING_STATUS
 req.redist: Windows Desktop Search (WDS) 3.0

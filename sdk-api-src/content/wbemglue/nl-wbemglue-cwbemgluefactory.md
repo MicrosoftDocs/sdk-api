@@ -43,7 +43,6 @@ api_name:
  - LockServer
  - ??1CWbemGlueFactory@@QAE@XZ
  - ??1CWbemGlueFactory@@QEAA@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

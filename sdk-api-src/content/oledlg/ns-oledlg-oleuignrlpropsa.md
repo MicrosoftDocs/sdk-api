@@ -40,7 +40,6 @@ api_name:
  - OLEUIGNRLPROPS
  - OLEUIGNRLPROPSA
  - OLEUIGNRLPROPSW
-product: Windows
 targetos: Windows
 req.typenames: OLEUIGNRLPROPSA, *POLEUIGNRLPROPSA, *LPOLEUIGNRLPROPSA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_CTRL_CAPS
-product: Windows
 targetos: Windows
 req.typenames: MBN_CTRL_CAPS
 req.redist: 

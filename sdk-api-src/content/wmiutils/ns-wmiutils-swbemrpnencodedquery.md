@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.h
 api_name:
  - SWbemRpnEncodedQuery
-product: Windows
 targetos: Windows
 req.typenames: SWbemRpnEncodedQuery
 req.redist: 

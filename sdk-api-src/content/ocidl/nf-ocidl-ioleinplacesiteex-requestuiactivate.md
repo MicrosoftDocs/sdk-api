@@ -39,7 +39,6 @@ api_location:
  - browsewm.dll
 api_name:
  - IOleInPlaceSiteEx.RequestUIActivate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

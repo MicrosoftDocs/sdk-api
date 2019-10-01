@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPITcpConnectionInfo.LocalPort
  - IRDPSRAPITcpConnectionInfo.get_LocalPort
  - RDPSRAPITcpConnectionInfo.LocalPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mgm.h
 api_name:
  - MGM_ENUM_TYPES
-product: Windows
 targetos: Windows
 req.typenames: MGM_ENUM_TYPES
 req.redist: 

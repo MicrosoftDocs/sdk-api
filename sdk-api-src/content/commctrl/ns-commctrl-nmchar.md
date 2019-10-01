@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMCHAR
-product: Windows
 targetos: Windows
 req.typenames: NMCHAR, *LPNMCHAR
 req.redist: 

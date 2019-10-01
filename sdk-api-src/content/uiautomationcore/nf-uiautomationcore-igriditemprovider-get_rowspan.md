@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridItemProvider.RowSpan
  - IGridItemProvider.get_RowSpan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

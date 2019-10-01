@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMTIMETYPE
-product: Windows
 targetos: Windows
 req.typenames: DRMTIMETYPE
 req.redist: 

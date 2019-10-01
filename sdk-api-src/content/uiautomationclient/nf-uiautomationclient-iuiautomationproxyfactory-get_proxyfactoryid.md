@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationProxyFactory.ProxyFactoryId
  - IUIAutomationProxyFactory.get_ProxyFactoryId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

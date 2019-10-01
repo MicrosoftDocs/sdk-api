@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_EAP_ERROR
-product: Windows
 targetos: Windows
 req.typenames: ONEX_EAP_ERROR, *PONEX_EAP_ERROR
 req.redist: 

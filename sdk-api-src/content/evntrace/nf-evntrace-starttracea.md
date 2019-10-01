@@ -46,7 +46,6 @@ api_name:
  - StartTrace
  - StartTraceA
  - StartTraceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

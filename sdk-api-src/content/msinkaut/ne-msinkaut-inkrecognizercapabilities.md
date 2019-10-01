@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRecognizerCapabilities
-product: Windows
 targetos: Windows
 req.typenames: InkRecognizerCapabilities
 req.redist: 

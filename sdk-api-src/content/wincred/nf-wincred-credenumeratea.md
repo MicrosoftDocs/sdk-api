@@ -44,7 +44,6 @@ api_name:
  - CredEnumerate
  - CredEnumerateA
  - CredEnumerateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

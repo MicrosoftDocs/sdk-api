@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_SERIALIZED_DATA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_SERIALIZED_DATA_TYPE
 req.redist: 

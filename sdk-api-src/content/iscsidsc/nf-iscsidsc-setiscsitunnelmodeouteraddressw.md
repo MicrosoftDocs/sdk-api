@@ -40,7 +40,6 @@ api_name:
  - SetIscsiTunnelModeOuterAddress
  - SetIscsiTunnelModeOuterAddressA
  - SetIscsiTunnelModeOuterAddressW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

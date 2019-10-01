@@ -44,7 +44,6 @@ api_name:
  - PathIsFileSpec
  - PathIsFileSpecA
  - PathIsFileSpecW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

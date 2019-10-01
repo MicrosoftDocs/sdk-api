@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.Activity
  - IFaxServer.get_Activity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

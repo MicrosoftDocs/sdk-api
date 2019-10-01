@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - STYLESTRUCT
-product: Windows
 targetos: Windows
 req.typenames: STYLESTRUCT, *LPSTYLESTRUCT
 req.redist: 

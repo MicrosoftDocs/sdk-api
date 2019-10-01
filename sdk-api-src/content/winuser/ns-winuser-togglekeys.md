@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - TOGGLEKEYS
-product: Windows
 targetos: Windows
 req.typenames: TOGGLEKEYS, *LPTOGGLEKEYS
 req.redist: 

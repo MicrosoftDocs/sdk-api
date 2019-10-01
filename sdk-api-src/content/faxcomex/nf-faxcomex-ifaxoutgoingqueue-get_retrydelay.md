@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingQueue.put_RetryDelay
  - IFaxOutgoingQueue.get_RetryDelay
  - IFaxOutgoingQueue.put_RetryDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

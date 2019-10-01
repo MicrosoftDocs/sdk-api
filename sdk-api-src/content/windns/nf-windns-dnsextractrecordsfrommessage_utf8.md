@@ -39,7 +39,6 @@ api_location:
 api_name:
 - DnsExtractRecordsFromMessage_W
 - DnsExtractRecordsFromMessage_UTF8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

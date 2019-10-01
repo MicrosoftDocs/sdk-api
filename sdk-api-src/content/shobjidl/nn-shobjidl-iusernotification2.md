@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IUserNotification2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

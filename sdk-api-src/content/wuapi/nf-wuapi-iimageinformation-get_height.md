@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IImageInformation.Height
  - IImageInformation.get_Height
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winusb.dll
 api_name:
  - WinUsb_SetPipePolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

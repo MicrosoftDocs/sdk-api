@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteBitmapRenderTarget1.GetTextAntialiasMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

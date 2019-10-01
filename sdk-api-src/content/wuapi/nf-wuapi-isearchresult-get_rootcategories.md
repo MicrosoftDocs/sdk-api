@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISearchResult.RootCategories
  - ISearchResult.get_RootCategories
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

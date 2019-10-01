@@ -38,7 +38,6 @@ api_location:
  - Kernel32.dll
 api_name:
  - IsBadCodePtr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - MOVE_FILE_DATA
-product: Windows
 targetos: Windows
 req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
 req.redist: 

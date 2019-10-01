@@ -38,7 +38,6 @@ api_location:
 - VdsLun.h
 api_name:
 - VDS_LUN_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_INFORMATION
 req.redist: 

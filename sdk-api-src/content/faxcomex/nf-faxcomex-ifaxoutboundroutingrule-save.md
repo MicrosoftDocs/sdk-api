@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutboundRoutingRule.Save
  - IFaxOutboundRoutingRule.Save
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

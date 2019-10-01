@@ -38,7 +38,6 @@ api_location:
  - contentpartner.h
 api_name:
  - WMPPartnerNotification
-product: Windows
 targetos: Windows
 req.typenames: WMPPartnerNotification
 req.redist: 

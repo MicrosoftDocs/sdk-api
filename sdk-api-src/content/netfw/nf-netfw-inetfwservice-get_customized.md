@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwService.Customized
  - INetFwService.get_Customized
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

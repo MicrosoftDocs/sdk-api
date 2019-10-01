@@ -38,7 +38,6 @@ api_location:
 - Schannel.h
 api_name:
 - SCHANNEL_CRED
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
 req.redist: 

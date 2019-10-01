@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.FriendlyName
  - IFaxDeviceProvider.get_FriendlyName
  - IFaxDeviceProvider.get_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

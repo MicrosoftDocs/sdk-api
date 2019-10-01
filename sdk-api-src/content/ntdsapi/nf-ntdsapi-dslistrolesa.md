@@ -40,7 +40,6 @@ api_name:
  - DsListRoles
  - DsListRolesA
  - DsListRolesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

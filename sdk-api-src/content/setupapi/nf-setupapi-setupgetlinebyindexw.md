@@ -42,7 +42,6 @@ api_name:
  - SetupGetLineByIndex
  - SetupGetLineByIndexA
  - SetupGetLineByIndexW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - MEM_EXTENDED_PARAMETER
-product: Windows
 targetos: Windows
 req.typenames: MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER
 req.redist: 

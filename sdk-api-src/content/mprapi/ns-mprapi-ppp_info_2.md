@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - PPP_INFO_2
-product: Windows
 targetos: Windows
 req.typenames: PPP_INFO_2
 req.redist: 

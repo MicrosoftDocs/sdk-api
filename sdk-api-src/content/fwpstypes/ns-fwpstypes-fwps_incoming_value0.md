@@ -38,7 +38,6 @@ api_location:
  - fwpstypes.h
 api_name:
  - FWPS_INCOMING_VALUE0
-product: Windows
 targetos: Windows
 req.typenames: FWPS_INCOMING_VALUE0
 req.redist: 

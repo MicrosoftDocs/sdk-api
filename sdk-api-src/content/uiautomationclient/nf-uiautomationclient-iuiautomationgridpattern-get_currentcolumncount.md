@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridPattern.CurrentColumnCount
  - IUIAutomationGridPattern.get_CurrentColumnCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

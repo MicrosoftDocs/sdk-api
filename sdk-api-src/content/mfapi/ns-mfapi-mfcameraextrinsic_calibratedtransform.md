@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFCameraExtrinsic_CalibratedTransform
-product: Windows
 targetos: Windows
 req.typenames: MFCameraExtrinsic_CalibratedTransform
 req.redist: 

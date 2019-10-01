@@ -41,7 +41,6 @@ api_name:
 - SetupVerifyInfFile
 - SetupVerifyInfFileA
 - SetupVerifyInfFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

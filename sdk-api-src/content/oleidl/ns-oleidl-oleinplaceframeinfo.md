@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEINPLACEFRAMEINFO
-product: Windows
 targetos: Windows
 req.typenames: OLEINPLACEFRAMEINFO, *LPOLEINPLACEFRAMEINFO
 req.redist: 

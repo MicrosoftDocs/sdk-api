@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CSC_InheritanceConfig
-product: Windows
 targetos: Windows
 req.typenames: CSC_InheritanceConfig
 req.redist: 

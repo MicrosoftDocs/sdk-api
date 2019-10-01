@@ -40,7 +40,6 @@ api_name:
  - DISCDLGSTRUCT
  - DISCDLGSTRUCTA
  - DISCDLGSTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: DISCDLGSTRUCTW, *LPDISCDLGSTRUCTW
 req.redist: 

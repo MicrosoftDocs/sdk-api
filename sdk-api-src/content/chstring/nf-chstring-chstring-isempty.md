@@ -41,7 +41,6 @@ api_name:
  - CHString.IsEmpty
  - ?IsEmpty@CHString@@QBEHXZ
  - ?IsEmpty@CHString@@QEBAHXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAPMessage
-product: Windows
 targetos: Windows
 req.typenames: LDAPMessage, *PLDAPMessage
 req.redist: 

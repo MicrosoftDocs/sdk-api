@@ -40,7 +40,6 @@ api_name:
  - MsiAdvertiseProductEx
  - MsiAdvertiseProductExA
  - MsiAdvertiseProductExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSManEx.SessionFlagSkipCACheck
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

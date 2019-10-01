@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgPdu.PduData
  - IMbnSmsReadMsgPdu.get_PduData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

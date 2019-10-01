@@ -38,7 +38,6 @@ api_location:
 - wtsprotocol.h
 api_name:
 - IWRdsProtocolManager.NotifySessionStateChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

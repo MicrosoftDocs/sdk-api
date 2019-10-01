@@ -38,7 +38,6 @@ api_location:
  - SessDirPublicTypes.h
 api_name:
  - TARGET_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TARGET_CHANGE_TYPE
 req.redist: 

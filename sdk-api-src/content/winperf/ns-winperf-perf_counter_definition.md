@@ -38,7 +38,6 @@ api_location:
 - Winperf.h
 api_name:
 - PERF_COUNTER_DEFINITION
-product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_DEFINITION, *PPERF_COUNTER_DEFINITION
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICryptAttribute.ObjectId
  - ICryptAttribute.get_ObjectId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

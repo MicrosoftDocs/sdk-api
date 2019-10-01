@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_CHAIN_POLICY_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_POLICY_PARA, *PCERT_CHAIN_POLICY_PARA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dinputd.h
 api_name:
  - IDirectInputEffectDriver.DestroyEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

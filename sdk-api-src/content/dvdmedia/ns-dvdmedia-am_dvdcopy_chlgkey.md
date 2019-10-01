@@ -38,7 +38,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPY_CHLGKEY
-product: Windows
 targetos: Windows
 req.typenames: AM_DVDCOPY_CHLGKEY, *PAM_DVDCOPY_CHLGKEY
 req.redist: 

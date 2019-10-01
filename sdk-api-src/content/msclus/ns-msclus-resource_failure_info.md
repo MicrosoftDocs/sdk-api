@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - RESOURCE_FAILURE_INFO
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO, *PRESOURCE_FAILURE_INFO
 req.redist: 

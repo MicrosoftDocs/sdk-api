@@ -38,7 +38,6 @@ api_location:
  - WcnDevice.h
 api_name:
  - IWCNDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

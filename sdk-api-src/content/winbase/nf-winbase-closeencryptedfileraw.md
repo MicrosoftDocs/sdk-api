@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
  - CloseEncryptedFileRaw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

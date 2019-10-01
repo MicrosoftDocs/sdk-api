@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.SaveTarget
  - ITsSbResourcePluginStoreEx.SaveTarget
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

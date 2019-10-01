@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - DMA_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: DMA_RESOURCE, *PDMA_RESOURCE
 req.redist: 

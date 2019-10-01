@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationJob.AsyncState
  - IInstallationJob.get_AsyncState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

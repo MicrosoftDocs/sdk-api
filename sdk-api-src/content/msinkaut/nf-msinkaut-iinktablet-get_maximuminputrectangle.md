@@ -41,7 +41,6 @@ api_name:
  - IInkTablet.MaximumInputRectangle
  - IInkTablet.get_MaximumInputRectangle
  - IInkTablet.get_MaximumInputRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

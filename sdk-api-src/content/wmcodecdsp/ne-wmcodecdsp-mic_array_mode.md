@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - MIC_ARRAY_MODE
-product: Windows
 targetos: Windows
 req.typenames: MIC_ARRAY_MODE
 req.redist: 

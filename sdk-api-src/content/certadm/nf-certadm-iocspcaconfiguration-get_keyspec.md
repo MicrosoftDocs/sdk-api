@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPCAConfiguration.KeySpec
  - IOCSPCAConfiguration.get_KeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

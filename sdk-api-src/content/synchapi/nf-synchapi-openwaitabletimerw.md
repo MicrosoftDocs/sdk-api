@@ -48,7 +48,6 @@ api_name:
  - OpenWaitableTimer
  - OpenWaitableTimerA
  - OpenWaitableTimerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

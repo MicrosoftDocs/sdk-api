@@ -40,7 +40,6 @@ api_location:
  - ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
  - CommDlgExtendedError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

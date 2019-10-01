@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - ADDRESS_EVENT
-product: Windows
 targetos: Windows
 req.typenames: ADDRESS_EVENT
 req.redist: 

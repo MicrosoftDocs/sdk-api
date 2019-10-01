@@ -38,7 +38,6 @@ api_location:
  - Mgmtapi.dll
 api_name:
  - SnmpMgrGetTrap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

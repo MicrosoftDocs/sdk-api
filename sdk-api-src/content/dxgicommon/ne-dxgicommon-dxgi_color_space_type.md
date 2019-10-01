@@ -38,7 +38,6 @@ api_location:
 - dxgicommon.h
 api_name:
 - DXGI_COLOR_SPACE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_COLOR_SPACE_TYPE
 req.redist: 

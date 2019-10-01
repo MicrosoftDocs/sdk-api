@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - PDH_RAW_COUNTER
-product: Windows
 targetos: Windows
 req.typenames: PDH_RAW_COUNTER, *PPDH_RAW_COUNTER
 req.redist: 

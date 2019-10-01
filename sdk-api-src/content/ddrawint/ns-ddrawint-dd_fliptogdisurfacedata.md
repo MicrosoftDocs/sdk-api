@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_FLIPTOGDISURFACEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA'
 req.redist: 

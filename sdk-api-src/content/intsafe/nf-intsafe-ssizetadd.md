@@ -38,7 +38,6 @@ api_location:
  - intsafe.h
 api_name:
  - SSIZETAdd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

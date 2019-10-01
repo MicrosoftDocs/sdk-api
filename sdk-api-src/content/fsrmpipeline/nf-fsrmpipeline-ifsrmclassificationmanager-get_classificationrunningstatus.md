@@ -42,7 +42,6 @@ api_name:
  - IFsrmClassificationManager2.ClassificationRunningStatus
  - IFsrmClassificationManager2.get_ClassificationRunningStatus
  - FsrmClassificationManager.ClassificationRunningStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

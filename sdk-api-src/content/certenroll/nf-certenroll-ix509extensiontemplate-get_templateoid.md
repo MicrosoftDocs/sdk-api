@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionTemplate.TemplateOid
  - IX509ExtensionTemplate.get_TemplateOid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

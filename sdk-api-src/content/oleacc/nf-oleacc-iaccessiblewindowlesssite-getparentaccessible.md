@@ -38,7 +38,6 @@ api_location:
  - Oleacc.dll
 api_name:
  - IAccessibleWindowlessSite.GetParentAccessible
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

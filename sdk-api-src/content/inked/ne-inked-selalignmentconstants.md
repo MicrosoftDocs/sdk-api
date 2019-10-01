@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - SelAlignmentConstants
-product: Windows
 targetos: Windows
 req.typenames: SelAlignmentConstants
 req.redist: 

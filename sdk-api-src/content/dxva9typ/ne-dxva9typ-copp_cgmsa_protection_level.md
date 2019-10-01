@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - COPP_CGMSA_Protection_Level
-product: Windows
 targetos: Windows
 req.typenames: COPP_CGMSA_Protection_Level
 req.redist: 

@@ -48,7 +48,6 @@ api_name:
  - UnregisterClass
  - UnregisterClassA
  - UnregisterClassW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

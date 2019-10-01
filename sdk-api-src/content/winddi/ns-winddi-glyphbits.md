@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - GLYPHBITS
-product: Windows
 targetos: Windows
 req.typenames: GLYPHBITS
 req.redist: 

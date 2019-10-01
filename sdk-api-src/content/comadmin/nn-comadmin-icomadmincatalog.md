@@ -40,7 +40,6 @@ api_name:
  - ICOMAdminCatalog
  - ICOMAdminCatalog.Reserved1
  - ICOMAdminCatalog.Reserved2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

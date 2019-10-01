@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IITResultSet.Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

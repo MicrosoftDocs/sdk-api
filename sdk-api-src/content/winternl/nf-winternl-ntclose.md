@@ -39,7 +39,6 @@ api_location:
  - ntoskrnl.exe
 api_name:
  - NtClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

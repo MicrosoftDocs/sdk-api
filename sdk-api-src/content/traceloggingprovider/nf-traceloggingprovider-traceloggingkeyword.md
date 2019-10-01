@@ -38,7 +38,6 @@ api_location:
  - traceloggingprovider.h
 api_name:
  - TraceLoggingKeyword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

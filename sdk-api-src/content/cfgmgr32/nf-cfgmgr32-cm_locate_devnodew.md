@@ -42,7 +42,6 @@ api_name:
  - CM_Locate_DevNode
  - CM_Locate_DevNodeA
  - CM_Locate_DevNodeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

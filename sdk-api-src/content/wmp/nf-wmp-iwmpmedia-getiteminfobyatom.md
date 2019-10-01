@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.getItemInfoByAtom
  - IWMPMedia2.getItemInfoByAtom
  - IWMPMedia3.getItemInfoByAtom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

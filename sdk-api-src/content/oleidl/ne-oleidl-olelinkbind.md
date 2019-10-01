@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLELINKBIND
-product: Windows
 targetos: Windows
 req.typenames: OLELINKBIND
 req.redist: 

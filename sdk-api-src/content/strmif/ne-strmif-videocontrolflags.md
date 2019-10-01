@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VideoControlFlags
-product: Windows
 targetos: Windows
 req.typenames: VideoControlFlags
 req.redist: 

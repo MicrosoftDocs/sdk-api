@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_JOB_OPERATIONS_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_OPERATIONS_ENUM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionArithmeticCompositeEffect.SetCoefficient3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

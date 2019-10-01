@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.getCAStore
  - IEnroll4.getCAStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

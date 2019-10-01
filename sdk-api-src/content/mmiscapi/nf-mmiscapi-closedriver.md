@@ -42,7 +42,6 @@ api_location:
  - ext-ms-win-mf-winmm-l1-1-0.dll
 api_name:
  - CloseDriver
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

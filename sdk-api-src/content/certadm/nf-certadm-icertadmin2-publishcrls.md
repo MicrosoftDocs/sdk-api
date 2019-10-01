@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertAdmin2.PublishCRLs
  - CCertAdmin2.PublishCRLs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

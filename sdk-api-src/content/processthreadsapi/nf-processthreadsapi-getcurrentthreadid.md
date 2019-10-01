@@ -46,7 +46,6 @@ api_location:
  - vertdll.dll
 api_name:
  - GetCurrentThreadId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

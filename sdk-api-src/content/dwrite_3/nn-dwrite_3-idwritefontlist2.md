@@ -9,7 +9,6 @@ ms.date: 09/13/2019
 ms.keywords: IDWriteFontList2, IDWriteFontList2 interface [Direct Write], IDWriteFontList2 interface [Direct Write],described, directwrite.idwritefontlist2, dwrite_3/IDWriteFontList2
 ms.topic: interface
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

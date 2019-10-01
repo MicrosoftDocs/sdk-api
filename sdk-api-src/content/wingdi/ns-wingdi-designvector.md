@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - DESIGNVECTOR
-product: Windows
 targetos: Windows
 req.typenames: DESIGNVECTOR, *PDESIGNVECTOR, *LPDESIGNVECTOR
 req.redist: 

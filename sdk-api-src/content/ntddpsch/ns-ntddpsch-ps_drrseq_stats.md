@@ -38,7 +38,6 @@ api_location:
 - Ntddpsch.h
 api_name:
 - PS_DRRSEQ_STATS
-product: Windows
 targetos: Windows
 req.typenames: PS_DRRSEQ_STATS, *PPS_DRRSEQ_STATS
 req.redist: 

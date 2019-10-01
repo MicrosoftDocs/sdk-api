@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.GetViewMode
  - IResultData2.GetViewMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

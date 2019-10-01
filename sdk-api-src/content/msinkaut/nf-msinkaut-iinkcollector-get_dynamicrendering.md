@@ -45,7 +45,6 @@ api_name:
  - IInkCollector.put_DynamicRendering
  - InkCollector.get_DynamicRendering
  - InkCollector.put_DynamicRendering
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

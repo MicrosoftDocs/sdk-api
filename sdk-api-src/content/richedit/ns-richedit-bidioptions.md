@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - BIDIOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: BIDIOPTIONS
 req.redist: Rich Edit 3.0

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeClientId.UserSamName
  - IX509AttributeClientId.get_UserSamName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

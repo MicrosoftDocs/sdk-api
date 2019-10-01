@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - FOLLOW_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: FOLLOW_FLAGS
 req.redist: 

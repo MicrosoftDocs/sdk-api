@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - WNDOBJ
-product: Windows
 targetos: Windows
 req.typenames: WNDOBJ, *PWNDOBJ
 req.redist: 

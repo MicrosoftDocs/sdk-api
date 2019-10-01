@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_ArchiveOutboundFaxes
  - IFaxServer.get_ArchiveOutboundFaxes
  - IFaxServer.put_ArchiveOutboundFaxes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

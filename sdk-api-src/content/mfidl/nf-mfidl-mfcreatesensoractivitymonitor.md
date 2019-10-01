@@ -38,7 +38,6 @@ api_location:
  - mfsensorgroup.lib
 api_name:
  - MFCreateSensorActivityMonitor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

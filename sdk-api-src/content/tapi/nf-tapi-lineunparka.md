@@ -40,7 +40,6 @@ api_name:
  - lineUnpark
  - lineUnparkA
  - lineUnparkW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

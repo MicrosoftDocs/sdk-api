@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - NAME_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: NAME_BUFFER, *PNAME_BUFFER
 req.redist: 

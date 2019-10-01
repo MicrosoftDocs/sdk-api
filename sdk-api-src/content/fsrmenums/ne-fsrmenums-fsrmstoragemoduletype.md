@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmStorageModuleType
-product: Windows
 targetos: Windows
 req.typenames: FsrmStorageModuleType
 req.redist: 

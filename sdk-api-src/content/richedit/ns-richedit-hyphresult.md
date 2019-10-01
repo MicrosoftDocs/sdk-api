@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - HYPHRESULT
-product: Windows
 targetos: Windows
 req.typenames: HYPHRESULT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TTGETTITLE
-product: Windows
 targetos: Windows
 req.typenames: TTGETTITLE, *PTTGETTITLE
 req.redist: 

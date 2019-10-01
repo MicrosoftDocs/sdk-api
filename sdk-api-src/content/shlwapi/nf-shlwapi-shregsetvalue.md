@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.dll
 api_name:
  - SHRegSetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

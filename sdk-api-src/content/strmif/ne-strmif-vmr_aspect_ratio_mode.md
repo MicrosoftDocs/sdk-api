@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMR_ASPECT_RATIO_MODE
-product: Windows
 targetos: Windows
 req.typenames: VMR_ASPECT_RATIO_MODE
 req.redist: 

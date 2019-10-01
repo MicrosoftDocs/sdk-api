@@ -30,7 +30,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - ID3D12VideoDecoder
-product: Windows
 targetos: Windows
 ---
 

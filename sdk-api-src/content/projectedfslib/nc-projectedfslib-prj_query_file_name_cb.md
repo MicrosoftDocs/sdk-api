@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_QUERY_FILE_NAME_CB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_AutoRedraw
  - InkPicture.get_AutoRedraw
  - InkPicture.put_AutoRedraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

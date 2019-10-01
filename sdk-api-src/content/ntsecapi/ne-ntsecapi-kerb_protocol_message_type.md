@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_PROTOCOL_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: KERB_PROTOCOL_MESSAGE_TYPE, *PKERB_PROTOCOL_MESSAGE_TYPE
 req.redist: 

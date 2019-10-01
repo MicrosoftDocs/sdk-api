@@ -40,7 +40,6 @@ api_name:
  - RtlEthernetStringToAddress
  - RtlEthernetStringToAddressA
  - RtlEthernetStringToAddressW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

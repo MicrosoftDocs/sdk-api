@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_STORAGE_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: WMT_STORAGE_FORMAT
 req.redist: 

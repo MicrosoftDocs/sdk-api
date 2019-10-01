@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PSS_OBJECT_TYPE
 req.redist: 

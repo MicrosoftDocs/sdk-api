@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_XML_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_ATTRIBUTE
 req.redist: 

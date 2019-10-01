@@ -40,7 +40,6 @@ api_name:
  - ImmUnregisterWord
  - ImmUnregisterWordA
  - ImmUnregisterWordW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

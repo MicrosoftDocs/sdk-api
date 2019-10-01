@@ -38,7 +38,6 @@ api_location:
  - appnotify.h
 api_name:
  - PAPPSTATE_CHANGE_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

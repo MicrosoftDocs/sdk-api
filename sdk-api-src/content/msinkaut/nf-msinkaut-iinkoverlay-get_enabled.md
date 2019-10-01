@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_Enabled
  - InkOverlay.get_Enabled
  - InkOverlay.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winusb.dll
 api_name:
 - WinUsb_ControlTransfer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - lineGetIcon
  - lineGetIconA
  - lineGetIconW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

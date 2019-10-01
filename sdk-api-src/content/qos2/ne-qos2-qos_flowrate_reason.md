@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_FLOWRATE_REASON
-product: Windows
 targetos: Windows
 req.typenames: QOS_FLOWRATE_REASON, *PQOS_FLOWRATE_REASON
 req.redist: 

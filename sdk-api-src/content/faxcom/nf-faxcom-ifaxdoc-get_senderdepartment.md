@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.SenderDepartment
  - IFaxDoc.get_SenderDepartment
  - IFaxDoc.put_SenderDepartment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

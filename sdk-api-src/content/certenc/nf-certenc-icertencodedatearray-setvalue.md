@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeDateArray.SetValue
  - CCertEncodeDateArray.SetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

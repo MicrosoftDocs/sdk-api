@@ -40,7 +40,6 @@ api_name:
  - MsiEnumClients
  - MsiEnumClientsA
  - MsiEnumClientsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

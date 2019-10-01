@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.Capabilities
  - IInkRecognizer.get_Capabilities
  - IInkRecognizer.get_Capabilities
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

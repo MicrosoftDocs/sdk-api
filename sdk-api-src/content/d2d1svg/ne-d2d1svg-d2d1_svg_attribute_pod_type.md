@@ -38,7 +38,6 @@ api_location:
  - d2d1svg.h
 api_name:
  - D2D1_SVG_ATTRIBUTE_POD_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D2D1_SVG_ATTRIBUTE_POD_TYPE
 req.redist: 

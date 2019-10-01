@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextRange2.GetDropCap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

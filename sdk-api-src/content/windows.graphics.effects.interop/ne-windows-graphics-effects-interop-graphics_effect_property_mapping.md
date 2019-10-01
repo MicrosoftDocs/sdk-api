@@ -38,7 +38,6 @@ api_location:
  - windows.graphics.effects.interop.h
 api_name:
  - GRAPHICS_EFFECT_PROPERTY_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: GRAPHICS_EFFECT_PROPERTY_MAPPING
 req.redist: 

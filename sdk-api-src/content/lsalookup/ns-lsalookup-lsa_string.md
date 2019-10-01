@@ -38,7 +38,6 @@ api_location:
  - LsaLookup.h
 api_name:
  - LSA_STRING
-product: Windows
 targetos: Windows
 req.typenames: LSA_STRING, *PLSA_STRING
 req.redist: 

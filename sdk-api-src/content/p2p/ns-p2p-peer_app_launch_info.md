@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_APP_LAUNCH_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEER_APP_LAUNCH_INFO, *PPEER_APP_LAUNCH_INFO
 req.redist: 

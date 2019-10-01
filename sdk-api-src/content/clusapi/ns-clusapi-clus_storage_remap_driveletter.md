@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_STORAGE_REMAP_DRIVELETTER
-product: Windows
 targetos: Windows
 req.typenames: CLUS_STORAGE_REMAP_DRIVELETTER, *PCLUS_STORAGE_REMAP_DRIVELETTER
 req.redist: 

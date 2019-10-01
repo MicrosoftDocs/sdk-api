@@ -42,7 +42,6 @@ api_location:
  - ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
  - DwmIsCompositionEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

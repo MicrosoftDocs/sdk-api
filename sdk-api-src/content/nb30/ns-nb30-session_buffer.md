@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - SESSION_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: SESSION_BUFFER, *PSESSION_BUFFER
 req.redist: 

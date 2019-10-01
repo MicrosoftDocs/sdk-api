@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - BASEBROWSERDATA
-product: Windows
 targetos: Windows
 req.typenames: BASEBROWSERDATAXP, *LPBASEBROWSERDATAXP
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlFreeOemString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

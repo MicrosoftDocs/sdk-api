@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.DiseqLNBSource
  - IDVBSLocator2.get_DiseqLNBSource
  - IDVBSLocator2.put_DiseqLNBSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

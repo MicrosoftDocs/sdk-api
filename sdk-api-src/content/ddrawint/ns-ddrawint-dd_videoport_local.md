@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_VIDEOPORT_LOCAL
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL'
 req.redist: 

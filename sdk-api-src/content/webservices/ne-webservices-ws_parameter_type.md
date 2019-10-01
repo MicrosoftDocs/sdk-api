@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_PARAMETER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_PARAMETER_TYPE
 req.redist: 

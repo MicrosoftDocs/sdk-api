@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidDataServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

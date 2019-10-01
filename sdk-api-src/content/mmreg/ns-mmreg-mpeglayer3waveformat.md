@@ -38,7 +38,6 @@ api_location:
  - mmreg.h
 api_name:
  - MPEGLAYER3WAVEFORMAT
-product: Windows
 targetos: Windows
 req.typenames: MPEGLAYER3WAVEFORMAT
 req.redist: 

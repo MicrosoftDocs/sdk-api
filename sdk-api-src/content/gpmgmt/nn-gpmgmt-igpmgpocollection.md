@@ -43,7 +43,6 @@ api_name:
  - IGPMGPOCollection.Item
  - IGPMGPOCollection.get_Item
  - GPMGPOCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

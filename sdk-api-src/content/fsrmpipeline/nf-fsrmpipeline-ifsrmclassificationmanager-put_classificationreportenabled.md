@@ -43,7 +43,6 @@ api_name:
  - IFsrmClassificationManager2.ClassificationReportEnabled
  - IFsrmClassificationManager2.get_ClassificationReportEnabled
  - IFsrmClassificationManager2.put_ClassificationReportEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPIFrameBuffer.Bpp
  - IRDPSRAPIFrameBuffer.get_Bpp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

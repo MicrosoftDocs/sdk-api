@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorTanEst
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_location:
 api_name:
 - SetupDiGetClassDevs
 - SetupDiGetClassDevsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

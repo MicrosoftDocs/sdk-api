@@ -40,7 +40,6 @@ api_name:
  - MsiDatabaseGetPrimaryKeys
  - MsiDatabaseGetPrimaryKeysA
  - MsiDatabaseGetPrimaryKeysW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

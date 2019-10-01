@@ -38,7 +38,6 @@ api_location:
 - lsalookup.h
 api_name:
 - LSA_REFERENCED_DOMAIN_LIST
-product: Windows
 targetos: Windows
 req.typenames: LSA_REFERENCED_DOMAIN_LIST, *PLSA_REFERENCED_DOMAIN_LIST
 req.redist: 

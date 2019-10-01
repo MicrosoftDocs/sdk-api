@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - ASSOCDATA
-product: Windows
 targetos: Windows
 req.typenames: ASSOCDATA
 req.redist: 

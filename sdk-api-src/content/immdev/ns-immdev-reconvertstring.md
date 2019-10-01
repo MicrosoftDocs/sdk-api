@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - RECONVERTSTRING
-product: Windows
 targetos: Windows
 req.typenames: RECONVERTSTRING, *PRECONVERTSTRING, *NPRECONVERTSTRING, *LPRECONVERTSTRING
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - WTSSetUserConfig
 - WTSSetUserConfigA
 - WTSSetUserConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

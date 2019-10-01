@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridItemProvider.ContainingGrid
  - IGridItemProvider.get_ContainingGrid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

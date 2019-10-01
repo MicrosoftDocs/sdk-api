@@ -42,7 +42,6 @@ api_name:
  - GetSaveFileName
  - GetSaveFileNameA
  - GetSaveFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

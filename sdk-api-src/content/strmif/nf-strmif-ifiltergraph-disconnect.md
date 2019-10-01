@@ -42,7 +42,6 @@ api_name:
  - IFilterGraph.Disconnect
  - IGraphBuilder.Disconnect
  - IGraphBuilder.Disconnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.Size
  - IFaxOutgoingMessage.get_Size
  - IFaxOutgoingMessage.get_Size
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

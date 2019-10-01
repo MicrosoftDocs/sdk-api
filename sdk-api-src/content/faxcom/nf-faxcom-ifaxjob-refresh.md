@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.Refresh
  - IFaxJob.Refresh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

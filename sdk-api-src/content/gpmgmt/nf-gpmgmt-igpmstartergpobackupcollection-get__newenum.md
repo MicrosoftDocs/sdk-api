@@ -38,7 +38,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMstarterGPOBackupCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: GPMC on Windows Server 2008 or Windows Vista

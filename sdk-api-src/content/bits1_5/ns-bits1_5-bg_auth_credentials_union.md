@@ -38,7 +38,6 @@ api_location:
  - Bits1_5.h
 api_name:
  - BG_AUTH_CREDENTIALS_UNION
-product: Windows
 targetos: Windows
 req.typenames: BG_AUTH_CREDENTIALS_UNION
 req.redist: BITS 1.5 on  Windows XP

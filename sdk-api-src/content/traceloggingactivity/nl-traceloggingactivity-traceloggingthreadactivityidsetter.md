@@ -38,7 +38,6 @@ api_location:
  - traceloggingactivity.h
 api_name:
  - TraceLoggingThreadActivityIdSetter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - austream.h
 api_name:
  - IMemoryData.SetActual
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

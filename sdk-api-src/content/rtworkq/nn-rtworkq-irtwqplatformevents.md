@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - IRtwqPlatformEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

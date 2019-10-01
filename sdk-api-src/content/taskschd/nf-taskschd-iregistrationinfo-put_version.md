@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.Version
  - IRegistrationInfo.get_Version
  - IRegistrationInfo.put_Version
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

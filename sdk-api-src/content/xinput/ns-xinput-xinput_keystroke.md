@@ -38,7 +38,6 @@ api_location:
  - XInput.h
 api_name:
  - XINPUT_KEYSTROKE
-product: Windows
 targetos: Windows
 req.typenames: XINPUT_KEYSTROKE, *PXINPUT_KEYSTROKE
 req.redist: 

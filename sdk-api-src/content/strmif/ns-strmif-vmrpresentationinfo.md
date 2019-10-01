@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRPRESENTATIONINFO
-product: Windows
 targetos: Windows
 req.typenames: VMRPRESENTATIONINFO
 req.redist: 

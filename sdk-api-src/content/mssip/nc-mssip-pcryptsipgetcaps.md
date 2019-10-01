@@ -38,7 +38,6 @@ api_location:
 - Mssip.h
 api_name:
 - pCryptSIPGetCaps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

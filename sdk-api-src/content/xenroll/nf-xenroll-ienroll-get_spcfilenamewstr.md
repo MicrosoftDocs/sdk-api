@@ -40,7 +40,6 @@ api_name:
  - IEnroll.SPCFileNameWStr
  - IEnroll.get_SPCFileNameWStr
  - IEnroll.put_SPCFileNameWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

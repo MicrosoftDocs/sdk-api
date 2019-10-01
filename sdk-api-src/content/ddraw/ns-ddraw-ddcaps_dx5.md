@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - DDCAPS
-product: Windows
 targetos: Windows
 req.typenames: DDCAPS_DX5
 req.redist: 

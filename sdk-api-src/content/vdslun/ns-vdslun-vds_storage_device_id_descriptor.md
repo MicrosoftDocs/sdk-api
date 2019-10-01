@@ -38,7 +38,6 @@ api_location:
 - VdsLun.h
 api_name:
 - VDS_STORAGE_DEVICE_ID_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 req.redist: 

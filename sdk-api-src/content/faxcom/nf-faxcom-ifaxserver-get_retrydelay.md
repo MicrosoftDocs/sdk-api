@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_RetryDelay
  - IFaxServer.get_RetryDelay
  - IFaxServer.put_RetryDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

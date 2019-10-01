@@ -40,7 +40,6 @@ api_name:
  - FreeAddrInfoEx
  - FreeAddrInfoEx
  - FreeAddrInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

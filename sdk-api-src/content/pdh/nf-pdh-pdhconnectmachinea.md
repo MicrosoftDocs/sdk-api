@@ -40,7 +40,6 @@ api_name:
  - PdhConnectMachine
  - PdhConnectMachineA
  - PdhConnectMachineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

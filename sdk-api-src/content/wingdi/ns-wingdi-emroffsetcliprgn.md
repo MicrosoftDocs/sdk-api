@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMROFFSETCLIPRGN
-product: Windows
 targetos: Windows
 req.typenames: EMROFFSETCLIPRGN, *PEMROFFSETCLIPRGN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - searchapi.h
 api_name:
  - ISearchRoot.put_Schedule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

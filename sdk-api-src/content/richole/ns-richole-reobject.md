@@ -38,7 +38,6 @@ api_location:
  - Richole.h
 api_name:
  - REOBJECT
-product: Windows
 targetos: Windows
 req.typenames: REOBJECT
 req.redist: 

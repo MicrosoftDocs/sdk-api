@@ -38,7 +38,6 @@ api_location:
 - cryptxml.h
 api_name:
 - CryptXmlDllCreateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

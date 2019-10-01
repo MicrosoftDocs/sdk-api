@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUPnPNAT
  - IUPnPNAT.get_DynamicPortMappingCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

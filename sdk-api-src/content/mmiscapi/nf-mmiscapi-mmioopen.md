@@ -43,7 +43,6 @@ api_name:
  - mmioOpen
  - mmioOpenA
  - mmioOpenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

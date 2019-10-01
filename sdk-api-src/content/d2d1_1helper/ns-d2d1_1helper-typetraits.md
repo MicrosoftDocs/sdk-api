@@ -38,7 +38,6 @@ api_location:
  - d2d1helper.h
 api_name:
  - TypeTraits
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

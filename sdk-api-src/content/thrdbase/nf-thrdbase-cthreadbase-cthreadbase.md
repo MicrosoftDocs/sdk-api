@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CThreadBase.CThreadBase
  - ??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - RASNAPSTATE
-product: Windows
 targetos: Windows
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 req.redist: 

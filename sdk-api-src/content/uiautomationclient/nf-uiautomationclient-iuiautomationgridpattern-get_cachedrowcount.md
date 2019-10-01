@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridPattern.CachedRowCount
  - IUIAutomationGridPattern.get_CachedRowCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

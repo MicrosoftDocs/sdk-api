@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IMAGEHLP_DUPLICATE_SYMBOL64
 - IMAGEHLP_DUPLICATE_SYMBOL
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_DUPLICATE_SYMBOL, *PIMAGEHLP_DUPLICATE_SYMBOL
 req.redist: DbgHelp.dll 5.1 or later

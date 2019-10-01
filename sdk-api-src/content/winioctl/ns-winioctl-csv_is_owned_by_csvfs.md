@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - CSV_IS_OWNED_BY_CSVFS
-product: Windows
 targetos: Windows
 req.typenames: CSV_IS_OWNED_BY_CSVFS, *PCSV_IS_OWNED_BY_CSVFS
 req.redist: 

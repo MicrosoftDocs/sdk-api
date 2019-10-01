@@ -44,7 +44,6 @@ api_name:
  - PathRemoveBackslash
  - PathRemoveBackslashA
  - PathRemoveBackslashW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SymDeleteSymbol
  - SymDeleteSymbol
  - SymDeleteSymbolW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

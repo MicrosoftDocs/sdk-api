@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.InPlaceBoundingRectangle
  - ITextInputPanel.get_InPlaceBoundingRectangle
  - ITextInputPanel.get_InPlaceBoundingRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

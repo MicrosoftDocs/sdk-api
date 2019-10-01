@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_NOTIFICATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
 req.redist: 

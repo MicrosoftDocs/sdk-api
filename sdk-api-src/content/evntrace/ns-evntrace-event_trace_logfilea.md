@@ -40,7 +40,6 @@ api_name:
 - EVENT_TRACE_LOGFILE
 - EVENT_TRACE_LOGFILEA
 - EVENT_TRACE_LOGFILEW
-product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_LOGFILEA, *PEVENT_TRACE_LOGFILEA
 req.redist: 

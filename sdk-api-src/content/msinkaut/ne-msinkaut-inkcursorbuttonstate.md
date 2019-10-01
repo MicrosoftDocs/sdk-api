@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkCursorButtonState
-product: Windows
 targetos: Windows
 req.typenames: InkCursorButtonState
 req.redist: 

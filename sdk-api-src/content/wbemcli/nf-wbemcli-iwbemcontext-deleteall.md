@@ -45,7 +45,6 @@ api_location:
  - Wmipjobj.dll
 api_name:
  - IWbemContext.DeleteAll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

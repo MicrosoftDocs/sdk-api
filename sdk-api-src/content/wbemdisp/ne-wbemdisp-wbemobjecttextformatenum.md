@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemObjectTextFormatEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemObjectTextFormatEnum
 req.redist: 

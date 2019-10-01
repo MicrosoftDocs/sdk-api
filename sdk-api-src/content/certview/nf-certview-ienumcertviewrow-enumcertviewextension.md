@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWROW.EnumCertViewExtension
  - IEnumCERTVIEWROW.EnumCertViewExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

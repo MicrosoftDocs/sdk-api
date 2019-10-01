@@ -39,7 +39,6 @@ api_location:
  - windows.graphics.directx.direct3d11.interop.h
 api_name:
  - IDirect3DDxgiInterfaceAccess
-product: Windows
 targetos: Windows
 ---
 

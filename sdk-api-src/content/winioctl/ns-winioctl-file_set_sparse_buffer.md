@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_SET_SPARSE_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_SET_SPARSE_BUFFER, *PFILE_SET_SPARSE_BUFFER
 req.redist: 

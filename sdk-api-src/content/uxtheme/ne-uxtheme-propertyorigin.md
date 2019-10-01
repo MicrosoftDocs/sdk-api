@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - PROPERTYORIGIN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

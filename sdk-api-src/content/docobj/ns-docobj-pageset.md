@@ -38,7 +38,6 @@ api_location:
  - Docobj.h
 api_name:
  - PAGESET
-product: Windows
 targetos: Windows
 req.typenames: PAGESET
 req.redist: 

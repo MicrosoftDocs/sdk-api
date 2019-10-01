@@ -46,7 +46,6 @@ api_name:
  - GetDateFormat
  - GetDateFormatA
  - GetDateFormatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

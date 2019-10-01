@@ -39,7 +39,6 @@ api_location:
 api_name:
  - StrFormatByteSize64
  - StrFormatByteSize64A
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

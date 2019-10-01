@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy2.TftpMaximumBlockSize
  - IWdsTransportServicePolicy2.get_TftpMaximumBlockSize
  - IWdsTransportServicePolicy2.put_TftpMaximumBlockSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

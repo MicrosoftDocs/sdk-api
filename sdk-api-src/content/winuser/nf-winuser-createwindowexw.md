@@ -50,7 +50,6 @@ api_name:
  - CreateWindowEx
  - CreateWindowExA
  - CreateWindowExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

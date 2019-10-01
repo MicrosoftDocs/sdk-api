@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETVIEWPORTEXTEX
-product: Windows
 targetos: Windows
 req.typenames: EMRSETVIEWPORTEXTEX, *PEMRSETVIEWPORTEXTEX, EMRSETWINDOWEXTEX, *PEMRSETWINDOWEXTEX
 req.redist: 

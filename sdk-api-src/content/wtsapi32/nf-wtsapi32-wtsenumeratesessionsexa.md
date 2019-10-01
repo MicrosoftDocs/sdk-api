@@ -41,7 +41,6 @@ api_name:
 - WTSEnumerateSessionsEx
 - WTSEnumerateSessionsExA
 - WTSEnumerateSessionsExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

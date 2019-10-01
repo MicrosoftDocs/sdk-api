@@ -53,7 +53,6 @@ api_name:
  - FindResource
  - FindResourceA
  - FindResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

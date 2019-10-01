@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.Title
  - IUpdateHistoryEntry.get_Title
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

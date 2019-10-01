@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - QCMINFO
-product: Windows
 targetos: Windows
 req.typenames: QCMINFO
 req.redist: 

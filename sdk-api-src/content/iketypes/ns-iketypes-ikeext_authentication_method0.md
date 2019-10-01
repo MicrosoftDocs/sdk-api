@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_AUTHENTICATION_METHOD0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_AUTHENTICATION_METHOD0
 req.redist: 

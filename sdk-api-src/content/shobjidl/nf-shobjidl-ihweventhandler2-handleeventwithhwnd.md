@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - IHWEventHandler2.HandleEventWithHWND
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

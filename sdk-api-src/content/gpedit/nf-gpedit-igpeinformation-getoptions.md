@@ -38,7 +38,6 @@ api_location:
  - Gpedit.dll
 api_name:
  - IGPEInformation.GetOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

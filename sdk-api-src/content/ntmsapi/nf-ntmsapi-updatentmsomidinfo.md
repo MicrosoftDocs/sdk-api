@@ -38,7 +38,6 @@ api_location:
  - Ntmsapi.dll
 api_name:
  - UpdateNtmsOmidInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMDRIVERDETAILS
-product: Windows
 targetos: Windows
 req.typenames: ACMDRIVERDETAILS, *PACMDRIVERDETAILS, *LPACMDRIVERDETAILS
 req.redist: 

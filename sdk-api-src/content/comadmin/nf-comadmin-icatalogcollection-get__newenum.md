@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICatalogCollection._NewEnum
  - ICatalogCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

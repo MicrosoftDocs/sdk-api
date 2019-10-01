@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - REASSIGN_BLOCKS_EX
-product: Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 req.redist: 

@@ -9,7 +9,6 @@ ms.date: 09/12/2019
 ms.keywords: IDWriteFontFaceReference1, IDWriteFontFaceReference1 interface [Direct Write], IDWriteFontFaceReference1 interface [Direct Write],described, directwrite.idwritefontfacereference1, dwrite_3/IDWriteFontFaceReference1
 ms.topic: interface
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

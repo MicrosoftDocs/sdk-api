@@ -47,7 +47,6 @@ api_location:
 api_name:
 - UnhandledExceptionFilter
 - RtlUnhandledExceptionFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

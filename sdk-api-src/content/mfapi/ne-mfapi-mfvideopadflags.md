@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFVideoPadFlags
-product: Windows
 targetos: Windows
 req.typenames: MFVideoPadFlags
 req.redist: 

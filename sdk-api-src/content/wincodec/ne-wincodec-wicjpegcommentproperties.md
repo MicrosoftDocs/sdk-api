@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICJpegCommentProperties
-product: Windows
 targetos: Windows
 req.typenames: WICJpegCommentProperties
 req.redist: 

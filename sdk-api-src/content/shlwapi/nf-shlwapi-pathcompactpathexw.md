@@ -42,7 +42,6 @@ api_name:
  - PathCompactPathEx
  - PathCompactPathExA
  - PathCompactPathExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

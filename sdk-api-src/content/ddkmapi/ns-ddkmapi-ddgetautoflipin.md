@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETAUTOFLIPIN
-product: Windows
 targetos: Windows
 req.typenames: DDGETAUTOFLIPIN, *LPDDGETAUTOFLIPIN
 req.redist: 

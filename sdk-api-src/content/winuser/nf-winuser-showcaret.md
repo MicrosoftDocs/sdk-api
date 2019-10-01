@@ -41,7 +41,6 @@ api_location:
  - ie_stubs.dll
 api_name:
  - ShowCaret
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

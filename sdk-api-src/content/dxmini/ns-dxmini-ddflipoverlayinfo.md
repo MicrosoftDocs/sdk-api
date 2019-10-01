@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DDFLIPOVERLAYINFO
-product: Windows
 targetos: Windows
 req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
 req.redist: 

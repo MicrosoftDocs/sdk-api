@@ -39,7 +39,6 @@ api_location:
 - CscObj.dll
 api_name:
 - IOfflineFilesCache.IsPathCacheable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

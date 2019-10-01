@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.ReconnectionAction
  - IADsTSUserEx.get_ReconnectionAction
  - IADsTSUserEx.put_ReconnectionAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SCardUIDlgSelectCard
  - SCardUIDlgSelectCardA
  - SCardUIDlgSelectCardW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

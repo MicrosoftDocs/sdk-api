@@ -38,7 +38,6 @@ api_location:
  - Docobj.h
 api_name:
  - PAGERANGE
-product: Windows
 targetos: Windows
 req.typenames: PAGERANGE
 req.redist: 

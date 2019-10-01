@@ -40,7 +40,6 @@ api_name:
 - L2TP_CONFIG_PARAMS
 - L2TP_CONFIG_PARAMS0
 - L2TP_CONFIG_PARAMS1
-product: Windows
 targetos: Windows
 req.typenames: L2TP_CONFIG_PARAMS1, *PL2TP_CONFIG_PARAMS1
 req.redist: 

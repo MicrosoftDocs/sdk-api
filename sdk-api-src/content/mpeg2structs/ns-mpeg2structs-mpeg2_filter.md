@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG2_FILTER
-product: Windows
 targetos: Windows
 req.typenames: MPEG2_FILTER, *PMPEG2_FILTER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IGPMSOMCollection.Count
  - IGPMSOMCollection.get_Count
  - GPMSOMCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

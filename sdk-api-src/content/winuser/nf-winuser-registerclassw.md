@@ -48,7 +48,6 @@ api_name:
  - RegisterClass
  - RegisterClassA
  - RegisterClassW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

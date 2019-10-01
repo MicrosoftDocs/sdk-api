@@ -43,7 +43,6 @@ api_name:
  - PathIsNetworkPath
  - PathIsNetworkPathA
  - PathIsNetworkPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

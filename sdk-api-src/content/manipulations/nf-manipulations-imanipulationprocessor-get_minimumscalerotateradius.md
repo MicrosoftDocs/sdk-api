@@ -40,7 +40,6 @@ api_name:
  - IManipulationProcessor.MinimumScaleRotateRadius
  - IManipulationProcessor.get_MinimumScaleRotateRadius
  - IManipulationProcessor.put_MinimumScaleRotateRadius
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

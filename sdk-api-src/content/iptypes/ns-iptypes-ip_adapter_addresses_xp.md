@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_ADAPTER_ADDRESSES
-product: Windows
 targetos: Windows
 req.typenames: IP_ADAPTER_ADDRESSES_XP, *PIP_ADAPTER_ADDRESSES_XP
 req.redist: 

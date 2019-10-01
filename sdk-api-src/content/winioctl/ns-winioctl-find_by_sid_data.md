@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FIND_BY_SID_DATA
-product: Windows
 targetos: Windows
 req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
 req.redist: 

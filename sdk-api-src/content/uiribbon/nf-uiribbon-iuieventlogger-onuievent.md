@@ -38,7 +38,6 @@ api_location:
 - Uiribbon.h
 api_name:
 - IUIEventLogger.OnUIEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - OPERATION_START_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPERATION_START_PARAMETERS, *POPERATION_START_PARAMETERS
 req.redist: 

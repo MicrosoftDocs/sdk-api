@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionItemPattern.CurrentSelectionContainer
  - IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

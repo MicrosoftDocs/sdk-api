@@ -38,7 +38,6 @@ api_location:
 - Wabapi.h
 api_name:
 - WABEXTDISPLAY
-product: Windows
 targetos: Windows
 req.typenames: WABEXTDISPLAY, *LPWABEXTDISPLAY
 req.redist: 

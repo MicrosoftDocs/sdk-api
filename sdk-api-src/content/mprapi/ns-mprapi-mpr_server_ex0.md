@@ -40,7 +40,6 @@ api_name:
 - MPR_SERVER_EX
 - MPR_SERVER_EX0
 - MPR_SERVER_EX1
-product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_EX0, *PMPR_SERVER_EX0
 req.redist: 

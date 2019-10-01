@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - StorageLayout
-product: Windows
 targetos: Windows
 req.typenames: StorageLayout
 req.redist: 

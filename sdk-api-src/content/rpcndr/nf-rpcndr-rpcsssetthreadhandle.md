@@ -38,7 +38,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcSsSetThreadHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

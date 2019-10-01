@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportTftpClient.WindowSize
  - IWdsTransportTftpClient.get_WindowSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

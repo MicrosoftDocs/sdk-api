@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.GetRule
 - IFsrmClassificationManager2.GetRule
 - FsrmClassificationManager.GetRule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

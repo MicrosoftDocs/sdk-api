@@ -40,7 +40,6 @@ api_name:
  - IX509PolicyServerUrl.AuthFlags
  - IX509PolicyServerUrl.get_AuthFlags
  - IX509PolicyServerUrl.put_AuthFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

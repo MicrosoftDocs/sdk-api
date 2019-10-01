@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - FILE_USAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FILE_USAGE_TYPE
 req.redist: 

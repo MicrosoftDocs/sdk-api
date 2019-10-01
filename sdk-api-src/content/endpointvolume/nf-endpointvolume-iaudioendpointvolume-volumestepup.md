@@ -38,7 +38,6 @@ api_location:
  - Endpointvolume.h
 api_name:
  - IAudioEndpointVolume.VolumeStepUp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

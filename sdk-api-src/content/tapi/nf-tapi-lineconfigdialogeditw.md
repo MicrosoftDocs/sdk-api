@@ -40,7 +40,6 @@ api_name:
  - lineConfigDialogEdit
  - lineConfigDialogEditA
  - lineConfigDialogEditW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

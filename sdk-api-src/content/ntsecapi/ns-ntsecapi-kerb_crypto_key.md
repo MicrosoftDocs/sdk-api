@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_CRYPTO_KEY
-product: Windows
 targetos: Windows
 req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Get_Device_Interface_Alias
  - CM_Get_Device_Interface_AliasW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

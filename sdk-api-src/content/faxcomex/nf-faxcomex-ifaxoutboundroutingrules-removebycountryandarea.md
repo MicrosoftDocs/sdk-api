@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutboundRoutingRules.RemoveByCountryAndArea
  - IFaxOutboundRoutingRules.RemoveByCountryAndArea
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

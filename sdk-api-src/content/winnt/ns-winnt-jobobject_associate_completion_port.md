@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_ASSOCIATE_COMPLETION_PORT, *PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
 req.redist: 

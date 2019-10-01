@@ -40,7 +40,6 @@ api_name:
  - RefreshIsnsServer
  - RefreshIsnsServerA
  - RefreshIsnsServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

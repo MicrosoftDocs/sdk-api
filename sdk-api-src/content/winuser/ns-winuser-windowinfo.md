@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - WINDOWINFO
-product: Windows
 targetos: Windows
 req.typenames: WINDOWINFO, *PWINDOWINFO, *LPWINDOWINFO
 req.redist: 

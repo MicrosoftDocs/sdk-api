@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - MPR_INTERFACE_3
-product: Windows
 targetos: Windows
 req.typenames: MPR_INTERFACE_3, *PMPR_INTERFACE_3
 req.redist: 

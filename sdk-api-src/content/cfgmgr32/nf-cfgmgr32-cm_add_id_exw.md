@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CM_Add_ID_Ex
  - CM_Add_ID_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

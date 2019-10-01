@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_SUPER_SCOPE_TABLE_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SUPER_SCOPE_TABLE_ENTRY, *LPDHCP_SUPER_SCOPE_TABLE_ENTRY
 req.redist: 

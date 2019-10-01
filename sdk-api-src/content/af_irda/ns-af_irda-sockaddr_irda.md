@@ -38,7 +38,6 @@ api_location:
  - Af_irda.h
 api_name:
  - SOCKADDR_IRDA
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
 req.redist: 

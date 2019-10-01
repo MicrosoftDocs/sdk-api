@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_OBJECT_TYPE, *PVSS_OBJECT_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_LOCKDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_LOCKDATA, DD_LOCKDATA'
 req.redist: 

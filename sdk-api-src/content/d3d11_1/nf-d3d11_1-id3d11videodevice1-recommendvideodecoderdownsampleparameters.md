@@ -38,7 +38,6 @@ api_location:
  - d3d11_1.h
 api_name:
  - ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

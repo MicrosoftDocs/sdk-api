@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUS_CSV_VOLUME_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_CSV_VOLUME_INFO, *PCLUS_CSV_VOLUME_INFO
 req.redist: 

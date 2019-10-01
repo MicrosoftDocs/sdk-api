@@ -40,7 +40,6 @@ api_name:
  - OleUIObjectProperties
  - OleUIObjectPropertiesA
  - OleUIObjectPropertiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.dll
 api_name:
  - SafeRef
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

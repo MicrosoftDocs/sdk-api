@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_BACKUP_RESTORE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WBEM_BACKUP_RESTORE_FLAGS
 req.redist: 

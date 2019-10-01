@@ -38,7 +38,6 @@ api_location:
  - CldApi.dll
 api_name:
  - CfConnectSyncRoot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

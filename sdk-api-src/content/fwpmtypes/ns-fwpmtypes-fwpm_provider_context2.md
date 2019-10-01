@@ -38,7 +38,6 @@ api_location:
  - fwpmtypes.h
 api_name:
  - FWPM_PROVIDER_CONTEXT2
-product: Windows
 targetos: Windows
 req.typenames: FWPM_PROVIDER_CONTEXT2
 req.redist: 

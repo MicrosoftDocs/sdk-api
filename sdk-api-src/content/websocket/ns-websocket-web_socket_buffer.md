@@ -38,7 +38,6 @@ api_location:
 - Websocket.h
 api_name:
 - WEB_SOCKET_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_BUFFER, *PWEB_SOCKET_BUFFER
 req.redist: 

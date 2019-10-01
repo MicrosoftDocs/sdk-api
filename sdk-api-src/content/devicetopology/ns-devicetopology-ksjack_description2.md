@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - KSJACK_DESCRIPTION2
-product: Windows
 targetos: Windows
 req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
 req.redist: 

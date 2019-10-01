@@ -38,7 +38,6 @@ api_location:
  - Cchannel.h
 api_name:
  - CHANNEL_ENTRY_POINTS
-product: Windows
 targetos: Windows
 req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
 req.redist: 

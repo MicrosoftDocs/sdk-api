@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMExtendedSeeking.get_PlaybackSpeed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

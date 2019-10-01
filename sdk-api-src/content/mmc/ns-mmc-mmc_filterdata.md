@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_FILTERDATA
-product: Windows
 targetos: Windows
 req.typenames: MMC_FILTERDATA
 req.redist: 

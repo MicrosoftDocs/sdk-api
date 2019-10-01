@@ -38,7 +38,6 @@ api_location:
  - Audiopolicy.h
 api_name:
  - IAudioSessionEvents.OnSimpleVolumeChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

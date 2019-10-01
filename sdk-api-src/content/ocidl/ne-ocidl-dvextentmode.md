@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - DVEXTENTMODE
-product: Windows
 targetos: Windows
 req.typenames: DVEXTENTMODE
 req.redist: 

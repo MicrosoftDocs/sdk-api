@@ -42,7 +42,6 @@ api_name:
  - SetupOpenInfFile
  - SetupOpenInfFileA
  - SetupOpenInfFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

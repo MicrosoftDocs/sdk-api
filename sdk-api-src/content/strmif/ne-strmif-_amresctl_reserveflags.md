@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - _AMRESCTL_RESERVEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

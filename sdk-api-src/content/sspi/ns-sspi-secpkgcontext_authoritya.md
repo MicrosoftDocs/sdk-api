@@ -40,7 +40,6 @@ api_name:
  - SecPkgContext_Authority
  - SecPkgContext_AuthorityA
  - SecPkgContext_AuthorityW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_AuthorityA, *PSecPkgContext_AuthorityA
 req.redist: 

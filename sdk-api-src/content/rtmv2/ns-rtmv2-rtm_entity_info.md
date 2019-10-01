@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_ENTITY_INFO
-product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_INFO, *PRTM_ENTITY_INFO
 req.redist: 

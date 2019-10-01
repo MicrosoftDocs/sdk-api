@@ -38,7 +38,6 @@ api_location:
  - micaut.h
 api_name:
  - _IMathInputControlEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

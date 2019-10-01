@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - D3D11_BUFFER_SRV
-product: Windows
 targetos: Windows
 req.typenames: D3D11_BUFFER_SRV
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Perflib.h
 api_name:
  - PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 req.redist: 

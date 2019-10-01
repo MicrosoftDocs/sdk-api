@@ -39,7 +39,6 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkDisp.DeleteStroke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

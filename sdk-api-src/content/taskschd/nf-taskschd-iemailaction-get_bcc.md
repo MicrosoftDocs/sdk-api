@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.Bcc
  - IEmailAction.get_Bcc
  - IEmailAction.put_Bcc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

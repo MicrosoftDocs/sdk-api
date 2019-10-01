@@ -41,7 +41,6 @@ api_name:
  - IWorkspace2.GetProcessId
  - IWorkspace3.GetProcessId
  - Workspace.GetProcessId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

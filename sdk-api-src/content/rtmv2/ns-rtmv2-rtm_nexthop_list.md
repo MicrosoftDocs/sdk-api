@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_NEXTHOP_LIST
-product: Windows
 targetos: Windows
 req.typenames: RTM_NEXTHOP_LIST, *PRTM_NEXTHOP_LIST
 req.redist: 

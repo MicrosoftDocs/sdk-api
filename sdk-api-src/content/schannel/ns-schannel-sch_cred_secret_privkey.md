@@ -38,7 +38,6 @@ api_location:
 - Schannel.h
 api_name:
 - SCH_CRED_SECRET_PRIVKEY
-product: Windows
 targetos: Windows
 req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
 req.redist: 

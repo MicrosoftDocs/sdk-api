@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_FRAME_STEP_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_FRAME_STEP_EVENT
 req.redist: 

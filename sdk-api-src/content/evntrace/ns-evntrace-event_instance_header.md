@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - EVENT_INSTANCE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: EVENT_INSTANCE_HEADER, *PEVENT_INSTANCE_HEADER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wtypes.h
 api_name:
 - PROPERTYKEY
-product: Windows
 targetos: Windows
 req.typenames: PROPERTYKEY
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - CMD_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CMD_ENTRY, *PCMD_ENTRY
 req.redist: 

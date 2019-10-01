@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_SERVICE_STATE
-product: Windows
 targetos: Windows
 req.typenames: WTS_SERVICE_STATE, *PWTS_SERVICE_STATE
 req.redist: 

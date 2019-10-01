@@ -38,7 +38,6 @@ api_location:
  - PlayToDevice.dll
 api_name:
  - IActiveBasicDevice.GetCachedExtraSinkProtocolInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.h
 api_name:
  - D2D1_INK_POINT
-product: Windows
 targetos: Windows
 req.typenames: D2D1_INK_POINT
 req.redist: 

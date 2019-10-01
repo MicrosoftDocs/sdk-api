@@ -38,7 +38,6 @@ api_location:
 - Authz.h
 api_name:
 - AUTHZ_CONTEXT_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

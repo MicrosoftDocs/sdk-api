@@ -43,7 +43,6 @@ api_location:
 api_name:
  - IWMProfile2.GetProfileID
  - IWMProfile3.GetProfileID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SP_SELECTDEVICE_PARAMS
  - sp_selectdevice_params_w
-product: Windows
 targetos: Windows
 req.typenames: SP_SELECTDEVICE_PARAMS_W, *PSP_SELECTDEVICE_PARAMS_W
 req.redist: 

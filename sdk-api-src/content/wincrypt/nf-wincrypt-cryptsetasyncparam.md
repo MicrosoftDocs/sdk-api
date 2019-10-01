@@ -5,7 +5,6 @@ ms.date: 4/26/2019
 ms.keywords: CryptSetAsyncParam
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

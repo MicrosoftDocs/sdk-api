@@ -38,7 +38,6 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxEventLogging
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

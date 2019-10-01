@@ -38,7 +38,6 @@ api_location:
  - D3D11SDKLayers.h
 api_name:
  - D3D11_MESSAGE_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: D3D11_MESSAGE_CATEGORY
 req.redist: 

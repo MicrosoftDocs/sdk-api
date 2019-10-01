@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentAriaRole
  - IUIAutomationElement.get_CurrentAriaRole
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IMbnSmsConfiguration.ServiceCenterAddress
  - IMbnSmsConfiguration.get_ServiceCenterAddress
  - IMbnSmsConfiguration.put_ServiceCenterAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

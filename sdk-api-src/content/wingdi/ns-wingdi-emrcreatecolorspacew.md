@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATECOLORSPACEW
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATECOLORSPACEW, *PEMRCREATECOLORSPACEW
 req.redist: 

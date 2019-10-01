@@ -38,7 +38,6 @@ api_location:
  - Intsafe.h
 api_name:
  - UIntAdd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

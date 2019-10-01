@@ -45,7 +45,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - SetFileInformationByHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

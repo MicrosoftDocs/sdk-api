@@ -38,7 +38,6 @@ api_location:
  - Psapi.h
 api_name:
  - PERFORMANCE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PERFORMANCE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, *PPERFORMACE_INFORMATION
 req.redist: 

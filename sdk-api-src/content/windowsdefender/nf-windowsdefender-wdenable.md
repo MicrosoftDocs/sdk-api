@@ -38,7 +38,6 @@ api_location:
  - MpClient.dll
 api_name:
  - WDEnable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

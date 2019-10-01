@@ -42,7 +42,6 @@ api_name:
  - SHStripMneumonic
  - SHStripMneumonicA
  - SHStripMneumonicW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

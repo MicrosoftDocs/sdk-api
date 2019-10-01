@@ -38,7 +38,6 @@ api_location:
  - windowsstoragecom.h
 api_name:
  - HANDLE_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: HANDLE_OPTIONS
 req.redist: 

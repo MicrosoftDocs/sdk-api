@@ -38,7 +38,6 @@ api_location:
  - D2d1.dll
 api_name:
  - ColorF.ColorF(UINT32, FLOAT)
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

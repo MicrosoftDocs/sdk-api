@@ -38,7 +38,6 @@ api_location:
  - msaatext.h
 api_name:
  - ICoCreatedLocally
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

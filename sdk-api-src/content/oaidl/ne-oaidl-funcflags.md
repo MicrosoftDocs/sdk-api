@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - FUNCFLAGS
-product: Windows
 targetos: Windows
 req.typenames: FUNCFLAGS
 req.redist: 

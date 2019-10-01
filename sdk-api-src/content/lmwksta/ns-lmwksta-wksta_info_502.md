@@ -38,7 +38,6 @@ api_location:
  - Lmwksta.h
 api_name:
  - WKSTA_INFO_502
-product: Windows
 targetos: Windows
 req.typenames: WKSTA_INFO_502, *PWKSTA_INFO_502, *LPWKSTA_INFO_502
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Receive
  - IFaxPort.get_Receive
  - IFaxPort.put_Receive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

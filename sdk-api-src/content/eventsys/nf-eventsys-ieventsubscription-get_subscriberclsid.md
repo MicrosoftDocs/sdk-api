@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.SubscriberCLSID
  - IEventSubscription.get_SubscriberCLSID
  - IEventSubscription.put_SubscriberCLSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

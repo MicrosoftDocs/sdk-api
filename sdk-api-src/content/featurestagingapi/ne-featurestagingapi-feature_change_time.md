@@ -38,7 +38,6 @@ api_location:
  - featurestagingapi.h
 api_name:
  - FEATURE_CHANGE_TIME
-product: Windows
 targetos: Windows
 req.typenames: FEATURE_CHANGE_TIME
 req.redist: 

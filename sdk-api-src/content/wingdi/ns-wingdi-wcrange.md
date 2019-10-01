@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - WCRANGE
-product: Windows
 targetos: Windows
 req.typenames: WCRANGE, *PWCRANGE, *LPWCRANGE
 req.redist: 

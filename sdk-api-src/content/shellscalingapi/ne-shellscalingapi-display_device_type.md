@@ -38,7 +38,6 @@ api_location:
  - ShellScalingAPI.h
 api_name:
  - DISPLAY_DEVICE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DISPLAY_DEVICE_TYPE
 req.redist: 

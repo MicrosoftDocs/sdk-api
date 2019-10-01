@@ -40,7 +40,6 @@ api_name:
  - RasSetEapUserData
  - RasSetEapUserDataA
  - RasSetEapUserDataW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

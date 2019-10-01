@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_STREAM_TYPE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WM_STREAM_TYPE_INFO
 req.redist: 

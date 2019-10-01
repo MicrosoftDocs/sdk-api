@@ -38,7 +38,6 @@ api_location:
  - mfplat.dll
 api_name:
  - IMFContentProtectionDevice.GetPrivateDataByteCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

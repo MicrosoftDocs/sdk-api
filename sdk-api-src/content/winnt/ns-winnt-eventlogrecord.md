@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - EVENTLOGRECORD
-product: Windows
 targetos: Windows
 req.typenames: EVENTLOGRECORD, *PEVENTLOGRECORD
 req.redist: 

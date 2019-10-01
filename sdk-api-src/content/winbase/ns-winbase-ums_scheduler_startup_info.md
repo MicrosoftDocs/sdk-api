@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - UMS_SCHEDULER_STARTUP_INFO
-product: Windows
 targetos: Windows
 req.typenames: UMS_SCHEDULER_STARTUP_INFO, *PUMS_SCHEDULER_STARTUP_INFO
 req.redist: 

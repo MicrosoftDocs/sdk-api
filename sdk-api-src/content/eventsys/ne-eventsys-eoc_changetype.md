@@ -38,7 +38,6 @@ api_location:
  - EventSys.h
 api_name:
  - EOC_ChangeType
-product: Windows
 targetos: Windows
 req.typenames: EOC_ChangeType
 req.redist: 

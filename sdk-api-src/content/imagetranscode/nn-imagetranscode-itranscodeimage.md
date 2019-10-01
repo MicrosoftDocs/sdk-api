@@ -38,7 +38,6 @@ api_location:
  - Photometadatahandler.dll
 api_name:
  - ITranscodeImage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

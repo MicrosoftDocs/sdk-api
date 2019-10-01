@@ -38,7 +38,6 @@ api_location:
  - wofutil.dll
 api_name:
  - WofShouldCompressBinaries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

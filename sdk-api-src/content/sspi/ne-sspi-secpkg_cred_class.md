@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SECPKG_CRED_CLASS
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
 req.redist: 

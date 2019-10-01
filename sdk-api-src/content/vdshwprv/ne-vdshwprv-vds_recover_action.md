@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_RECOVER_ACTION
-product: Windows
 targetos: Windows
 req.typenames: VDS_RECOVER_ACTION
 req.redist: 

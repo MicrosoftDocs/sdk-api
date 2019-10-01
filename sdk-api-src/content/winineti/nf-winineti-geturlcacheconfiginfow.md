@@ -40,7 +40,6 @@ api_name:
 - GetUrlCacheConfigInfo
 - GetUrlCacheConfigInfoA
 - GetUrlCacheConfigInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

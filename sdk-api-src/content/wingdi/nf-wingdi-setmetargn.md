@@ -44,7 +44,6 @@ api_location:
  - GDI32Min.dll
 api_name:
  - SetMetaRgn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

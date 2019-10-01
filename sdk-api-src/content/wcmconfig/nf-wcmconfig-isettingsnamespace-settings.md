@@ -38,7 +38,6 @@ api_location:
  - SMIEngine.dll
 api_name:
  - ISettingsNamespace.Settings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

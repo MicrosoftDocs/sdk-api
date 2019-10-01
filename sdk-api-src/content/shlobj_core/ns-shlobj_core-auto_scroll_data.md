@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - AUTO_SCROLL_DATA
-product: Windows
 targetos: Windows
 req.typenames: AUTO_SCROLL_DATA
 req.redist: 

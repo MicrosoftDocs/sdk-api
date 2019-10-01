@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListEnumSources
  - MsiSourceListEnumSourcesA
  - MsiSourceListEnumSourcesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

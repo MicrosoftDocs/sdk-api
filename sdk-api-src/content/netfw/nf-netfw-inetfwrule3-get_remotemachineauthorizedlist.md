@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.RemoteMachineAuthorizedList
  - INetFwRule3.get_RemoteMachineAuthorizedList
  - INetFwRule3.put_RemoteMachineAuthorizedList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

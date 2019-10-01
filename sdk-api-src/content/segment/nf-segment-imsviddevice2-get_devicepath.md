@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidDevice2.get_DevicePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

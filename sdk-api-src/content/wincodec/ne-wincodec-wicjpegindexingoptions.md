@@ -38,7 +38,6 @@ api_location:
  - wincodec.h
 api_name:
  - WICJpegIndexingOptions
-product: Windows
 targetos: Windows
 req.typenames: WICJpegIndexingOptions
 req.redist: 

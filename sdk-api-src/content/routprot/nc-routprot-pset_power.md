@@ -38,7 +38,6 @@ api_location:
 - Routprot.h
 api_name:
 - SetPower
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

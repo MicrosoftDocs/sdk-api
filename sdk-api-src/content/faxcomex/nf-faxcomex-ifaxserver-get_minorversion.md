@@ -40,7 +40,6 @@ api_name:
  - IFaxServer.MinorVersion
  - IFaxServer.get_MinorVersion
  - IFaxServer.get_MinorVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

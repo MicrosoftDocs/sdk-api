@@ -40,7 +40,6 @@ api_name:
  - AddIscsiStaticTarget
  - AddIscsiStaticTargetA
  - AddIscsiStaticTargetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

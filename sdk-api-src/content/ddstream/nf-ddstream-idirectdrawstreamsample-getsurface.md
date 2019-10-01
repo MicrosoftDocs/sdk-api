@@ -38,7 +38,6 @@ api_location:
  - ddstream.h
 api_name:
  - IDirectDrawStreamSample.GetSurface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

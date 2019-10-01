@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_PROVIDER_DEFUSAGE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_DEFUSAGE, *PCRYPT_PROVIDER_DEFUSAGE
 req.redist: 

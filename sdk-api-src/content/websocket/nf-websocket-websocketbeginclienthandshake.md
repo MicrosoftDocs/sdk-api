@@ -38,7 +38,6 @@ api_location:
 - websocket.dll
 api_name:
 - WebSocketBeginClientHandshake
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskNamedValuePair.Name
  - ITaskNamedValuePair.get_Name
  - ITaskNamedValuePair.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IGetClusterNodeInfo.GetNodeHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

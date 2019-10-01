@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - USAGE_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: USAGE_PROPERTIES, *PUSAGE_PROPERTIES
 req.redist: 

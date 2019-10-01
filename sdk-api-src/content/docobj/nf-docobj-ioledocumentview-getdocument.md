@@ -38,7 +38,6 @@ api_location:
  - DocObj.h
 api_name:
  - IOleDocumentView.GetDocument
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

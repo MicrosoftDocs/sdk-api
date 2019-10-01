@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.h
 api_name:
  - IUIAutomationDragPattern.GetCurrentGrabbedItems
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

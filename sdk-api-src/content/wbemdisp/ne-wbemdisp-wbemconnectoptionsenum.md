@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemConnectOptionsEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemConnectOptionsEnum
 req.redist: 

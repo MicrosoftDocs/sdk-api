@@ -40,7 +40,6 @@ api_name:
  - WNetUseConnection
  - WNetUseConnectionA
  - WNetUseConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

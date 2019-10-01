@@ -41,7 +41,6 @@ api_name:
  - INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled
  - INetFwProfile.get_UnicastResponsesToMulticastBroadcastDisabled
  - INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

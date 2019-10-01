@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_OID_FUNC_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_OID_FUNC_ENTRY, *PCRYPT_OID_FUNC_ENTRY
 req.redist: 

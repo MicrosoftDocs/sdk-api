@@ -38,7 +38,6 @@ api_location:
  - Lmaccess.h
 api_name:
  - NETLOGON_INFO_2
-product: Windows
 targetos: Windows
 req.typenames: NETLOGON_INFO_2, *PNETLOGON_INFO_2
 req.redist: 

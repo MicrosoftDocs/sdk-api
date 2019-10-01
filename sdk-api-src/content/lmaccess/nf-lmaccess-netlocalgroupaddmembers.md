@@ -39,7 +39,6 @@ api_location:
 - Samcli.dll
 api_name:
 - NetLocalGroupAddMembers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

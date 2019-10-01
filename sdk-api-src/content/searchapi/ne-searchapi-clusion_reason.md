@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - CLUSION_REASON
-product: Windows
 targetos: Windows
 req.typenames: CLUSION_REASON
 req.redist: 

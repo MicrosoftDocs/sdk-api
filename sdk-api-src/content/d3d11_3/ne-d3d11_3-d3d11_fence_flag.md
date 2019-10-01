@@ -38,7 +38,6 @@ api_location:
  - d3d11_3.h
 api_name:
  - D3D11_FENCE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: D3D11_FENCE_FLAG
 req.redist: 

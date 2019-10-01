@@ -38,7 +38,6 @@ api_location:
 - UxTheme.dll
 api_name:
 - BeginBufferedAnimation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

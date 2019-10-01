@@ -38,7 +38,6 @@ api_location:
 - Minwinbase.h
 api_name:
 - READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, *PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS
 req.redist: 

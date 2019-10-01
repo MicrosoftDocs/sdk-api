@@ -38,7 +38,6 @@ api_location:
 - VsMgmt.h
 api_name:
 - VSS_MGMT_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_MGMT_OBJECT_TYPE, *PVSS_MGMT_OBJECT_TYPE
 req.redist: 

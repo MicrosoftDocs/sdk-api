@@ -41,7 +41,6 @@ api_name:
  - IAzTask.get_IsRoleDefinition
  - IAzTask.put_IsRoleDefinition
  - AzTask.IsRoleDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

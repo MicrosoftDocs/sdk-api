@@ -38,7 +38,6 @@ api_location:
  - Dwrite_3.h
 api_name:
  - DWRITE_LINE_SPACING
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

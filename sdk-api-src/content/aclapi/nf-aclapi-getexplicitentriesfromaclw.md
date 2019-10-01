@@ -45,7 +45,6 @@ api_name:
 - GetExplicitEntriesFromAcl
 - GetExplicitEntriesFromAclA
 - GetExplicitEntriesFromAclW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

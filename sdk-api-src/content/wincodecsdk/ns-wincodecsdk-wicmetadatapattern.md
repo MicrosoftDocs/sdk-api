@@ -38,7 +38,6 @@ api_location:
  - Wincodecsdk.h
 api_name:
  - WICMetadataPattern
-product: Windows
 targetos: Windows
 req.typenames: WICMetadataPattern
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mspaddr.h
 api_name:
  - CMSPAddress.GetDynamicTerminalClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

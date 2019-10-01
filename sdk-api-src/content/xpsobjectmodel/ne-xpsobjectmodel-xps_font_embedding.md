@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_FONT_EMBEDDING
-product: Windows
 targetos: Windows
 req.typenames: XPS_FONT_EMBEDDING
 req.redist: 

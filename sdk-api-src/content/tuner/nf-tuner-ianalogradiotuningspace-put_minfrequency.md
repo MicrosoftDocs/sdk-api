@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IAnalogRadioTuningSpace.put_MinFrequency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

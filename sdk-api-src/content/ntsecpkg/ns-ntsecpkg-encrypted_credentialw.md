@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - ENCRYPTED_CREDENTIALW
-product: Windows
 targetos: Windows
 req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
 req.redist: 

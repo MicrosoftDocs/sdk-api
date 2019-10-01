@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_MESSAGE_STATE
-product: Windows
 targetos: Windows
 req.typenames: WS_MESSAGE_STATE
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IInkRecognitionAlternates
  - IInkRecognitionAlternates._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

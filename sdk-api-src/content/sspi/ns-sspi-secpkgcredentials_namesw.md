@@ -40,7 +40,6 @@ api_name:
  - SecPkgCredentials_Names
  - SecPkgCredentials_NamesA
  - SecPkgCredentials_NamesW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgCredentials_NamesW, *PSecPkgCredentials_NamesW
 req.redist: 

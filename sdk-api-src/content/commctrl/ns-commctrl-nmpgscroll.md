@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMPGSCROLL
-product: Windows
 targetos: Windows
 req.typenames: NMPGSCROLL, *LPNMPGSCROLL
 req.redist: 

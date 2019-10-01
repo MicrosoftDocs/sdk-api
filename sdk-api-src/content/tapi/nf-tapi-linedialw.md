@@ -40,7 +40,6 @@ api_name:
  - lineDial
  - lineDialA
  - lineDialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

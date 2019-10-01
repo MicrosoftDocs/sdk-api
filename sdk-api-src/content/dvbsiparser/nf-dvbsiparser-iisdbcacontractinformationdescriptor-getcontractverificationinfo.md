@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRunningTask.InstanceGuid
  - IRunningTask.get_InstanceGuid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

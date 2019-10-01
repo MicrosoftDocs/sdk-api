@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.h
 api_name:
  - NET_ADDRESS_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: NET_ADDRESS_FORMAT
 req.redist: 

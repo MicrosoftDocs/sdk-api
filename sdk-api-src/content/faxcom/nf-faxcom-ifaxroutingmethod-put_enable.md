@@ -40,7 +40,6 @@ api_name:
  - IFaxRoutingMethod.Enable
  - IFaxRoutingMethod.get_Enable
  - IFaxRoutingMethod.put_Enable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSManEx.EnumerationFlagHierarchyDeep
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

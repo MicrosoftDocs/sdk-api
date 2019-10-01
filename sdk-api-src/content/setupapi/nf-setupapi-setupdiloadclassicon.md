@@ -38,7 +38,6 @@ api_location:
  - Setupapi.dll
 api_name:
  - SetupDiLoadClassIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

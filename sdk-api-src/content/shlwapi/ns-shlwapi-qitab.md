@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - QITAB
-product: Windows
 targetos: Windows
 req.typenames: QITAB, *LPQITAB
 req.redist: 

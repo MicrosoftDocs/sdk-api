@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPPlaylistChangeEventType
-product: Windows
 targetos: Windows
 req.typenames: WMPPlaylistChangeEventType
 req.redist: 

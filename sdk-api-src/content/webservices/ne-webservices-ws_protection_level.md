@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_PROTECTION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: WS_PROTECTION_LEVEL
 req.redist: 

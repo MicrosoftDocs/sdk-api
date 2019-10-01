@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSTRETCHDIBITS
-product: Windows
 targetos: Windows
 req.typenames: EMRSTRETCHDIBITS, *PEMRSTRETCHDIBITS
 req.redist: 

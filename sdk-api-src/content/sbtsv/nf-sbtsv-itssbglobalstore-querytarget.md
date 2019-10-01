@@ -38,7 +38,6 @@ api_location:
  - sbtsv.h
 api_name:
  - ITsSbGlobalStore.QueryTarget
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

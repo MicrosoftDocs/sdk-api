@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTogglePattern.CachedToggleState
  - IUIAutomationTogglePattern.get_CachedToggleState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

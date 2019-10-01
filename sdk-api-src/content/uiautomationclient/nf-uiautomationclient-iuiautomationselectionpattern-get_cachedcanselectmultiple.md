@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionPattern.CachedCanSelectMultiple
  - IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

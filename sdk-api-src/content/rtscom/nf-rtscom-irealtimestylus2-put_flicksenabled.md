@@ -38,7 +38,6 @@ api_location:
  - RTSCom.dll
 api_name:
  - IRealTimeStylus2.put_FlicksEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

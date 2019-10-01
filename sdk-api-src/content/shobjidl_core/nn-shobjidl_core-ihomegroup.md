@@ -38,7 +38,6 @@ api_location:
  - Provsvc.dll
 api_name:
  - IHomeGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

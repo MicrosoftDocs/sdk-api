@@ -38,7 +38,6 @@ api_location:
  - amva.h
 api_name:
  - AMVAEndFrameInfo
-product: Windows
 targetos: Windows
 req.typenames: AMVAEndFrameInfo, *LPAMVAEndFrameInfo
 req.redist: 

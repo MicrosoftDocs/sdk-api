@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationProxyFactoryEntry.ClassName
  - IUIAutomationProxyFactoryEntry.get_ClassName
  - IUIAutomationProxyFactoryEntry.put_ClassName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

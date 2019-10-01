@@ -41,7 +41,6 @@ api_name:
  - IInkCollector.Renderer
  - IInkCollector.get_Renderer
  - InkCollector.get_Renderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

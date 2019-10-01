@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_MAPMEMORYDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA'
 req.redist: 

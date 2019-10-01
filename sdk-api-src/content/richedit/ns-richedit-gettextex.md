@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - GETTEXTEX
-product: Windows
 targetos: Windows
 req.typenames: GETTEXTEX
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerGuide.put_Columns
  - InkRecognizerGuide.get_Columns
  - InkRecognizerGuide.put_Columns
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

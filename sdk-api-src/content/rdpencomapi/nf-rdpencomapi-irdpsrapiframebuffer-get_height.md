@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPIFrameBuffer.Height
  - IRDPSRAPIFrameBuffer.get_Height
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winsnmp.h
 api_name:
  - SNMPAPI_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

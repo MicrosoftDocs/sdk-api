@@ -38,7 +38,6 @@ api_location:
  - Slpublic.h
 api_name:
  - SLDATATYPE
-product: Windows
 targetos: Windows
 req.typenames: SLDATATYPE
 req.redist: 

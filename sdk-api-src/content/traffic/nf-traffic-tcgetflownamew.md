@@ -40,7 +40,6 @@ api_name:
  - TcGetFlowName
  - TcGetFlowNameA
  - TcGetFlowNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

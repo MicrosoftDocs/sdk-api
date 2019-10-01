@@ -40,7 +40,6 @@ api_location:
  - API-MS-Win-Core-COM-l1-1-1.dll
 api_name:
  - CoCreateInstanceFromApp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msimeapi.h
 api_name:
  - IImePlugInDictDictionaryList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

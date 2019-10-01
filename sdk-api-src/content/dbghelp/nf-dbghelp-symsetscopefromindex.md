@@ -38,7 +38,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymSetScopeFromIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

@@ -38,7 +38,6 @@ api_location:
 - QosObjs.h
 api_name:
 - QOS_DIFFSERV
-product: Windows
 targetos: Windows
 req.typenames: QOS_DIFFSERV, *LPQOS_DIFFSERV
 req.redist: 

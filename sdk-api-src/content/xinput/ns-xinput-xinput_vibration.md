@@ -38,7 +38,6 @@ api_location:
 - XInput.h
 api_name:
 - XINPUT_VIBRATION
-product: Windows
 targetos: Windows
 req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
 req.redist: 

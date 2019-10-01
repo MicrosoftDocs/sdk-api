@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
  - SHCreateStreamOnFileEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

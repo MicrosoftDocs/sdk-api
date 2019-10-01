@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MAPIDeleteMail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FtpOpenFile
  - FtpOpenFileA
  - FtpOpenFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

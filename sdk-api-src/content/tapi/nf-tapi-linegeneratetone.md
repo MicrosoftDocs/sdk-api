@@ -38,7 +38,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGenerateTone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

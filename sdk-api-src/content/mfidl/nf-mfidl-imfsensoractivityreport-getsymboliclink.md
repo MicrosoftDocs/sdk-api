@@ -41,7 +41,6 @@ api_location:
  - mfplat.dll.dll
 api_name:
  - IMFSensorActivityReport.GetSymbolicLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

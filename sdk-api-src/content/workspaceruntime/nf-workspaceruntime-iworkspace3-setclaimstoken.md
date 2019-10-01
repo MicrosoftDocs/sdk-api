@@ -38,7 +38,6 @@ api_location:
  - workspaceruntime.h
 api_name:
  - IWorkspace3.SetClaimsToken
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

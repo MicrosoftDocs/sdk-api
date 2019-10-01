@@ -38,7 +38,6 @@ api_location:
  - Dhcpcsdk.h
 api_name:
  - DHCPCAPI_CLASSID
-product: Windows
 targetos: Windows
 req.typenames: DHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID
 req.redist: 

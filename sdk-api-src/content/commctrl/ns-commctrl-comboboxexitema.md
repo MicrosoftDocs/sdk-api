@@ -40,7 +40,6 @@ api_name:
  - COMBOBOXEXITEM
  - COMBOBOXEXITEMA
  - COMBOBOXEXITEMW
-product: Windows
 targetos: Windows
 req.typenames: COMBOBOXEXITEMA, *PCOMBOBOXEXITEMA
 req.redist: 

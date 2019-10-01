@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - LBItemFromPt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

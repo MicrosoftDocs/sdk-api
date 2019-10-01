@@ -38,7 +38,6 @@ api_location:
  - Msvfw32.dll
 api_name:
  - ICDecompress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

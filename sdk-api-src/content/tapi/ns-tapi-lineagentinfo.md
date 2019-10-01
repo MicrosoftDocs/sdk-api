@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEAGENTINFO
-product: Windows
 targetos: Windows
 req.typenames: LINEAGENTINFO, *LPLINEAGENTINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - TOOLBARITEM
-product: Windows
 targetos: Windows
 req.typenames: TOOLBARITEM, *LPTOOLBARITEM
 req.redist: 

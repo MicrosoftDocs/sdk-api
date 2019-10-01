@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX500DistinguishedName.Name
  - IX500DistinguishedName.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

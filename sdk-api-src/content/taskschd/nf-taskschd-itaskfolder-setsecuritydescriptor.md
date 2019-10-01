@@ -38,7 +38,6 @@ api_location:
  - taskschd.dll
 api_name:
  - ITaskFolder.SetSecurityDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

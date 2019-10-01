@@ -38,7 +38,6 @@ api_location:
  - objectarray.h
 api_name:
  - IObjectCollection.AddFromArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

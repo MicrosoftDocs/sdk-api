@@ -38,7 +38,6 @@ api_location:
 - tpcshrd.h
 api_name:
 - PROPERTY_UNITS
-product: Windows
 targetos: Windows
 req.typenames: PROPERTY_UNITS, *PPROPERTY_UNITS
 req.redist: 

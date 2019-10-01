@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_QOS_SETTING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE
 req.redist: 

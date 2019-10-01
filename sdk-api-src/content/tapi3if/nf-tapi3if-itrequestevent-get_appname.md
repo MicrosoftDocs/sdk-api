@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITRequestEvent.get_AppName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

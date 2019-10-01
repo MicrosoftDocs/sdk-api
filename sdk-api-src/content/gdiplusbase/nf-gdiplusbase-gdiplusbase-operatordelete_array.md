@@ -37,7 +37,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - GdiplusBase.operator delete[]
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

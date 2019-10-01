@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFMediaEngineClassFactory2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

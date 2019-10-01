@@ -38,7 +38,6 @@ api_location:
  - Mssip.h
 api_name:
  - MS_ADDINFO_FLAT
-product: Windows
 targetos: Windows
 req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
 req.redist: 

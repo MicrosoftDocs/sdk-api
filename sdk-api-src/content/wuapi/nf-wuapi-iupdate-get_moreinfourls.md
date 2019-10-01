@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.MoreInfoUrls
  - IUpdate.get_MoreInfoUrls
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

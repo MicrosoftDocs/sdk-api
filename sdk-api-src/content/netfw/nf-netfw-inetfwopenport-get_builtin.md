@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwOpenPort.BuiltIn
  - INetFwOpenPort.get_BuiltIn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - LSA_TRANSLATED_SID
-product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID, *PLSA_TRANSLATED_SID
 req.redist: 

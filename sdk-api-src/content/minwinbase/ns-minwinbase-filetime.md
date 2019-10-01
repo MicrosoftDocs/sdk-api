@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - FILETIME
-product: Windows
 targetos: Windows
 req.typenames: FILETIME, *PFILETIME, *LPFILETIME
 req.redist: 

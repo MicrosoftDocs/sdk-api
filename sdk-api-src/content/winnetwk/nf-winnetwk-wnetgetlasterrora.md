@@ -40,7 +40,6 @@ api_name:
  - WNetGetLastError
  - WNetGetLastErrorA
  - WNetGetLastErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

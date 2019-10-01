@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxAccountOutgoingArchive.GetMessage
  - IFaxAccountOutgoingArchive.GetMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

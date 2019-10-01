@@ -38,7 +38,6 @@ api_location:
  - qwave.dll
 api_name:
  - QOSCancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

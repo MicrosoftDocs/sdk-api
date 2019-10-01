@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: WLAN_STATISTICS, *PWLAN_STATISTICS
 req.redist: 

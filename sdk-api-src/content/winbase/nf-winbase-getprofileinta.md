@@ -44,7 +44,6 @@ api_name:
  - GetProfileInt
  - GetProfileIntA
  - GetProfileIntW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

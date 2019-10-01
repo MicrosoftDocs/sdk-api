@@ -41,7 +41,6 @@ api_name:
  - INetFwService.IpVersion
  - INetFwService.get_IpVersion
  - INetFwService.put_IpVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

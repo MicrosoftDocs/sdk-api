@@ -40,7 +40,6 @@ api_name:
  - IX509EnrollmentStatus.Error
  - IX509EnrollmentStatus.get_Error
  - IX509EnrollmentStatus.put_Error
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

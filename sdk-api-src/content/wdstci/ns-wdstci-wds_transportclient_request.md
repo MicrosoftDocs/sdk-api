@@ -38,7 +38,6 @@ api_location:
  - Wdstci.h
 api_name:
  - WDS_TRANSPORTCLIENT_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: WDS_TRANSPORTCLIENT_REQUEST, *PWDS_TRANSPORTCLIENT_REQUEST
 req.redist: 

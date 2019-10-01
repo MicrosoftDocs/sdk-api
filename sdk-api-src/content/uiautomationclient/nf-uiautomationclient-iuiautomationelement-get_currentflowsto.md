@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentFlowsTo
  - IUIAutomationElement.get_CurrentFlowsTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

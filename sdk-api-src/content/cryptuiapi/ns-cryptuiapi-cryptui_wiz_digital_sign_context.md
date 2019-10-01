@@ -38,7 +38,6 @@ api_location:
  - Cryptuiapi.h
 api_name:
  - CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, *PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 req.redist: 

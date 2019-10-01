@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_RPC_LOGIN
-product: Windows
 targetos: Windows
 req.typenames: EVT_RPC_LOGIN
 req.redist: 

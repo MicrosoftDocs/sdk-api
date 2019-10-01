@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CSV_CONTROL_OP
-product: Windows
 targetos: Windows
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
 req.redist: 

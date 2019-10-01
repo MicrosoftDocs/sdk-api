@@ -38,7 +38,6 @@ api_location:
  - Raseapif.h
 api_name:
  - RasEapFreeMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

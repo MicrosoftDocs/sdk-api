@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentProviderDescription
  - IUIAutomationElement.get_CurrentProviderDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

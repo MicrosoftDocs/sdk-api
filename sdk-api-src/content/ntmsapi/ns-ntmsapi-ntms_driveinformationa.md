@@ -40,7 +40,6 @@ api_name:
 - NTMS_DRIVEINFORMATION
 - NTMS_DRIVEINFORMATIONA
 - NTMS_DRIVEINFORMATIONW
-product: Windows
 targetos: Windows
 req.typenames: NTMS_DRIVEINFORMATIONA
 req.redist: 

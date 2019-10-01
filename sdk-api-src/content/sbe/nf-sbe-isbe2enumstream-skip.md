@@ -38,7 +38,6 @@ api_location:
  - sbe.dll
 api_name:
  - ISBE2EnumStream.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

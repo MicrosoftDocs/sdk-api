@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkPictureSizeMode
-product: Windows
 targetos: Windows
 req.typenames: InkPictureSizeMode
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - QOS
-product: Windows
 targetos: Windows
 req.typenames: QOS, *LPQOS
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - werapiexthost.dll
 api_name:
  - RegisterApplicationRestart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - EnumSystemCodePages
  - EnumSystemCodePagesA
  - EnumSystemCodePagesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

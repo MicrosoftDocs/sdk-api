@@ -38,7 +38,6 @@ api_location:
  - MsRdc.dll
 api_name:
  - ISimilarity.FindSimilarFileId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

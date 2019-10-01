@@ -40,7 +40,6 @@ api_name:
 - ICONINFOEX
 - ICONINFOEXA
 - ICONINFOEXW
-product: Windows
 targetos: Windows
 req.typenames: ICONINFOEXA, *PICONINFOEXA
 req.redist: 

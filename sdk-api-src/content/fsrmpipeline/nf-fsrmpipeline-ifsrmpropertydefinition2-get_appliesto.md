@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyDefinition2.AppliesTo
  - IFsrmPropertyDefinition2.get_AppliesTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

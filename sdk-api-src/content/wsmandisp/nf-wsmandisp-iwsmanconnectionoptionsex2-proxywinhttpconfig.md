@@ -38,7 +38,6 @@ api_location:
  - WSManDisp.h
 api_name:
  - IWSManConnectionOptionsEx2.ProxyWinHttpConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

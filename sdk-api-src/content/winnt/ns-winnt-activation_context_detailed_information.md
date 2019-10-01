@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - ACTIVATION_CONTEXT_DETAILED_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_DETAILED_INFORMATION, *PACTIVATION_CONTEXT_DETAILED_INFORMATION
 req.redist: 

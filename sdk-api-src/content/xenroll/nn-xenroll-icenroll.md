@@ -38,7 +38,6 @@ api_location:
  - Xenroll.dll
 api_name:
  - ICEnroll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - FAX_SMTP_AUTHENTICATION_TYPE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - ITextInputPanel.put_InPlaceVisibleOnFocus
  - ITextInputPanel.get_InPlaceVisibleOnFocus
  - ITextInputPanel.put_InPlaceVisibleOnFocus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

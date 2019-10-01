@@ -38,7 +38,6 @@ api_location:
  - Filehc.h
 api_name:
  - CACHE_DESTROY_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

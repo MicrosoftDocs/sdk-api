@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.OutgoingQueuePaused
  - IFaxConfiguration.get_OutgoingQueuePaused
  - IFaxConfiguration.put_OutgoingQueuePaused
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

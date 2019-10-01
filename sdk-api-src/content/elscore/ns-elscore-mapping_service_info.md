@@ -38,7 +38,6 @@ api_location:
  - Elscore.h
 api_name:
  - MAPPING_SERVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: MAPPING_SERVICE_INFO, *PMAPPING_SERVICE_INFO
 req.redist: 

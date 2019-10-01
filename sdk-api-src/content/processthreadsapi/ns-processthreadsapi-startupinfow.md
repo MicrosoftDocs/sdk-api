@@ -41,7 +41,6 @@ api_name:
  - STARTUPINFO
  - STARTUPINFOA
  - STARTUPINFOW
-product: Windows
 targetos: Windows
 req.typenames: STARTUPINFOW, *LPSTARTUPINFOW
 req.redist: 

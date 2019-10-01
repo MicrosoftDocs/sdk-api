@@ -40,7 +40,6 @@ api_name:
  - GetUserNameEx
  - GetUserNameExA
  - GetUserNameExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

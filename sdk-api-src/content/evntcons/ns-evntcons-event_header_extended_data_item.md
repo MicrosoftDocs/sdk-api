@@ -38,7 +38,6 @@ api_location:
 - relogger.h
 api_name:
 - EVENT_HEADER_EXTENDED_DATA_ITEM
-product: Windows
 targetos: Windows
 req.typenames: EVENT_HEADER_EXTENDED_DATA_ITEM, *PEVENT_HEADER_EXTENDED_DATA_ITEM
 req.redist: 

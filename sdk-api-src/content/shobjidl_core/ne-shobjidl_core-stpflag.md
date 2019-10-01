@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - STPFLAG
-product: Windows
 targetos: Windows
 req.typenames: STPFLAG
 req.redist: 

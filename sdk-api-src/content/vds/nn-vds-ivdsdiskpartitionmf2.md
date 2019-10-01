@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - IVdsDiskPartitionMF2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

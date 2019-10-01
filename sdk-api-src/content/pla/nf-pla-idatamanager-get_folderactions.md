@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataManager.FolderActions
  - IDataManager.get_FolderActions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

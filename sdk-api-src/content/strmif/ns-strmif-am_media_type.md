@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_MEDIA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: AM_MEDIA_TYPE
 req.redist: 

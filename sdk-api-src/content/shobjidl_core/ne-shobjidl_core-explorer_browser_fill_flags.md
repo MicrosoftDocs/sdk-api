@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - EXPLORER_BROWSER_FILL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EXPLORER_BROWSER_FILL_FLAGS
 req.redist: 

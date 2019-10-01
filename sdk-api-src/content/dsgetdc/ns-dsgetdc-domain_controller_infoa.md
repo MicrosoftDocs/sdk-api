@@ -40,7 +40,6 @@ api_name:
  - DOMAIN_CONTROLLER_INFO
  - DOMAIN_CONTROLLER_INFOA
  - DOMAIN_CONTROLLER_INFOW
-product: Windows
 targetos: Windows
 req.typenames: DOMAIN_CONTROLLER_INFOA, *PDOMAIN_CONTROLLER_INFOA
 req.redist: 

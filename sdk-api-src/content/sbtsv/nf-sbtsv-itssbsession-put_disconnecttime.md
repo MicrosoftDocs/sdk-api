@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.DisconnectTime
  - ITsSbSession.get_DisconnectTime
  - ITsSbSession.put_DisconnectTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

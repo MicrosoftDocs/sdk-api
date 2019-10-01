@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_CERTIFICATE_EMBEDDING_OPTION
-product: Windows
 targetos: Windows
 req.typenames: OPC_CERTIFICATE_EMBEDDING_OPTION
 req.redist: 

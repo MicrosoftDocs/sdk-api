@@ -38,7 +38,6 @@ api_location:
  - ComCat.h
 api_name:
  - IEnumGUID.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

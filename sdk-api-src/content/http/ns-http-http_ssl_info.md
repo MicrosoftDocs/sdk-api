@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_SSL_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SSL_INFO, *PHTTP_SSL_INFO
 req.redist: 

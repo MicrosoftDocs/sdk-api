@@ -39,7 +39,6 @@ api_location:
 - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
 - SetupDiDestroyDriverInfoList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

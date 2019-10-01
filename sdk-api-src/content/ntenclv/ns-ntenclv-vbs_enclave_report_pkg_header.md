@@ -38,7 +38,6 @@ api_location:
  - ntenclv.h
 api_name:
  - VBS_ENCLAVE_REPORT_PKG_HEADER
-product: Windows
 targetos: Windows
 req.typenames: VBS_ENCLAVE_REPORT_PKG_HEADER
 req.redist: 

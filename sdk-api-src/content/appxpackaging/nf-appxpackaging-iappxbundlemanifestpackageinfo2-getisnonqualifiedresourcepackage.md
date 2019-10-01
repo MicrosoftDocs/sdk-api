@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxBundleManifestPackageInfo2.GetIsNonQualifiedResourcePackage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

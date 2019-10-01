@@ -44,7 +44,6 @@ api_name:
  - ReportEvent
  - ReportEventA
  - ReportEventW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

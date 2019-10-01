@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataProvider.KeywordsAny
  - ITraceDataProvider.get_KeywordsAny
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

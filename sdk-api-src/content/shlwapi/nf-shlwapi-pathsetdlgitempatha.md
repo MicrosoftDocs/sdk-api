@@ -42,7 +42,6 @@ api_name:
  - PathSetDlgItemPath
  - PathSetDlgItemPathA
  - PathSetDlgItemPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IOCSPProperty.Value
  - IOCSPProperty.get_Value
  - IOCSPProperty.put_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - PROGRESS_DIALOG_CHECKBOX_ID
-product: Windows
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
 req.redist: 

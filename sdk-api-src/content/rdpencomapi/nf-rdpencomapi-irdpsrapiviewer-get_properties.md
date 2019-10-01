@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIViewer.Properties
  - IRDPSRAPIViewer.get_Properties
  - RDPViewer.Properties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

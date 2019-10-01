@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MAKEWPARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

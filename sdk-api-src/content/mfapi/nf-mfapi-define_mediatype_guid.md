@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - DEFINE_MEDIATYPE_GUID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

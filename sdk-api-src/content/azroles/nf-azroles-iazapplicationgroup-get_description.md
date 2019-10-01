@@ -41,7 +41,6 @@ api_name:
  - IAzApplicationGroup.get_Description
  - IAzApplicationGroup.put_Description
  - AzApplicationGroup.Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

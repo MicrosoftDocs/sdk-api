@@ -46,7 +46,6 @@ api_name:
  - SHGetFolderPathAndSubDir
  - SHGetFolderPathAndSubDirA
  - SHGetFolderPathAndSubDirW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

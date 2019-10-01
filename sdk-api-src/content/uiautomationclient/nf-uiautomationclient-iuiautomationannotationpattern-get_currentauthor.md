@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CurrentAuthor
  - IUIAutomationAnnotationPattern.get_CurrentAuthor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

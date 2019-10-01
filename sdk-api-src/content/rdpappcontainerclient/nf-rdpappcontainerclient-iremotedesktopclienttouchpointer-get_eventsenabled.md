@@ -40,7 +40,6 @@ api_name:
  - IRemoteDesktopClientTouchPointer.EventsEnabled
  - IRemoteDesktopClientTouchPointer.get_EventsEnabled
  - IRemoteDesktopClientTouchPointer.put_EventsEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

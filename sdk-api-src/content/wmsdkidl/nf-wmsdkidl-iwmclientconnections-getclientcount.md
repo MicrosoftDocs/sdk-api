@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMClientConnections.GetClientCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Scesvc.h
 api_name:
  - SCESVC_CALLBACK_INFO
-product: Windows
 targetos: Windows
 req.typenames: SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO
 req.redist: 

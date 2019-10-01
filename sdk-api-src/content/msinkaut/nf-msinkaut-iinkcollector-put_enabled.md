@@ -45,7 +45,6 @@ api_name:
  - IInkCollector.put_Enabled
  - InkCollector.get_Enabled
  - InkCollector.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

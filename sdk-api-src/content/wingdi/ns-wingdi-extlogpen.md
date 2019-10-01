@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EXTLOGPEN
-product: Windows
 targetos: Windows
 req.typenames: EXTLOGPEN, *PEXTLOGPEN, *NPEXTLOGPEN, *LPEXTLOGPEN
 req.redist: 

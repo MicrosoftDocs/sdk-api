@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.Submit
  - ICertRequest.Submit
  - CCertRequest.Submit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

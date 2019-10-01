@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - FONTSIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: FONTSIGNATURE, *PFONTSIGNATURE, *LPFONTSIGNATURE
 req.redist: 

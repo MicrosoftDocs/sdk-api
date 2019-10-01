@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_BYTE_STREAM_CACHE_RANGE
-product: Windows
 targetos: Windows
 req.typenames: MF_BYTE_STREAM_CACHE_RANGE
 req.redist: 

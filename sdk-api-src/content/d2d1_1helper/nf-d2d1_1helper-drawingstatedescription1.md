@@ -38,7 +38,6 @@ api_location:
  - d2d1.dll
 api_name:
  - DrawingStateDescription1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

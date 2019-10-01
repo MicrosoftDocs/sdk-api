@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - IDXVAHD_Device.GetVideoProcessorOutputFormats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

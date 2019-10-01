@@ -42,7 +42,6 @@ api_name:
  - IInkEdit.put_SelColor
  - InkEdit.get_SelColor
  - InkEdit.put_SelColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

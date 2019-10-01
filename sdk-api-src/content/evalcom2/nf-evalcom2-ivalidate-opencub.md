@@ -38,7 +38,6 @@ api_location:
  - Evalcom2.dll
 api_name:
  - IValidate.OpenCUB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - XAudio2RadiansToCutoffFrequency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

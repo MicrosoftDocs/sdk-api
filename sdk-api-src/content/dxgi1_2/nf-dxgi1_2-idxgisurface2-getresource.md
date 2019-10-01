@@ -39,7 +39,6 @@ api_location:
  - Dxgi.dll
 api_name:
  - IDXGISurface2.GetResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

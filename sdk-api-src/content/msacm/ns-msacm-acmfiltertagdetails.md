@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMFILTERTAGDETAILS
-product: Windows
 targetos: Windows
 req.typenames: ACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, *LPACMFILTERTAGDETAILS
 req.redist: 

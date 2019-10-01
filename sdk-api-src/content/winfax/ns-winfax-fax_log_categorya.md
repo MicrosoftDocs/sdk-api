@@ -40,7 +40,6 @@ api_name:
  - FAX_LOG_CATEGORY
  - FAX_LOG_CATEGORYA
  - FAX_LOG_CATEGORYW
-product: Windows
 targetos: Windows
 req.typenames: FAX_LOG_CATEGORYA, *PFAX_LOG_CATEGORYA
 req.redist: 

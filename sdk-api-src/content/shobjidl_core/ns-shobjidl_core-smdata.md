@@ -38,7 +38,6 @@ api_location:
 - Shobjidl_core.h
 api_name:
 - SMDATA
-product: Windows
 targetos: Windows
 req.typenames: SMDATA, *LPSMDATA
 req.redist: 

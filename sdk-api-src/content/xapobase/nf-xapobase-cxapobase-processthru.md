@@ -39,7 +39,6 @@ api_location:
  - XAPOBase.dll
 api_name:
  - CXAPOBase.ProcessThru
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

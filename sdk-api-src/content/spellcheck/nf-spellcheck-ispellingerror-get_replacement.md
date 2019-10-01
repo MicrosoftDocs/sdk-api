@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISpellingError.Replacement
  - ISpellingError.get_Replacement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

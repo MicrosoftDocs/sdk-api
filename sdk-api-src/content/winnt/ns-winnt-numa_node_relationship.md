@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - NUMA_NODE_RELATIONSHIP
-product: Windows
 targetos: Windows
 req.typenames: NUMA_NODE_RELATIONSHIP, *PNUMA_NODE_RELATIONSHIP
 req.redist: 

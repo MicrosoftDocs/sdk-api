@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.PerUser
  - IEventSubscription.get_PerUser
  - IEventSubscription.put_PerUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

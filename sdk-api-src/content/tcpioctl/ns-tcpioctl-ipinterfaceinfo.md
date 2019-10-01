@@ -38,7 +38,6 @@ api_location:
  - Tcpioctl.h
 api_name:
  - IPInterfaceInfo
-product: Windows
 targetos: Windows
 req.typenames: IPInterfaceInfo
 req.redist: 

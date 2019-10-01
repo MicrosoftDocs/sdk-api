@@ -40,7 +40,6 @@ api_name:
  - RpcEpRegisterNoReplace
  - RpcEpRegisterNoReplaceA
  - RpcEpRegisterNoReplaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

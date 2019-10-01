@@ -38,7 +38,6 @@ api_location:
  - il21dec.h
 api_name:
  - AM_LINE21_CCLEVEL
-product: Windows
 targetos: Windows
 req.typenames: AM_LINE21_CCLEVEL, *PAM_LINE21_CCLEVEL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - XpsPrint.h
 api_name:
  - XPS_JOB_STATUS
-product: Windows
 targetos: Windows
 req.typenames: XPS_JOB_STATUS
 req.redist: 

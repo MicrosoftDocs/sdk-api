@@ -40,7 +40,6 @@ api_name:
  - TranslateURL
  - TranslateURLA
  - TranslateURLW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

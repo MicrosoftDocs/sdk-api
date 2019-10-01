@@ -38,7 +38,6 @@ api_location:
  - memorybuffer.h
 api_name:
  - IMemoryBufferByteAccess.GetBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

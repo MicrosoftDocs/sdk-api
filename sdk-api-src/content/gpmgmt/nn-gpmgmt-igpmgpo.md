@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMGPO
  - GPMGPO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

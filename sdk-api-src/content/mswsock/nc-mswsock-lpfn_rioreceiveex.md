@@ -13,7 +13,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "mswsock/LPFN_RIORECEIVEEX"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

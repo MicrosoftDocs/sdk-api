@@ -41,7 +41,6 @@ api_name:
  - ITsSbTarget.get_NumPendingConnections
  - ITsSbTargetEx.NumPendingConnections
  - ITsSbTargetEx.get_NumPendingConnections
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

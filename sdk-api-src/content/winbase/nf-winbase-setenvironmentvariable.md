@@ -45,7 +45,6 @@ api_name:
  - SetEnvironmentVariable
  - SetEnvironmentVariableA
  - SetEnvironmentVariableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Pwm.h
 api_name:
 - PWM_POLARITY
-product: Windows
 targetos: Windows
 req.typenames: PWM_POLARITY
 req.redist: 

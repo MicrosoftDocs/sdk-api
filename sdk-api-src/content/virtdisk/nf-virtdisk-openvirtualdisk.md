@@ -38,7 +38,6 @@ api_location:
  - VirtDisk.dll
 api_name:
  - OpenVirtualDisk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

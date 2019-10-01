@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - AppearanceConstants
-product: Windows
 targetos: Windows
 req.typenames: AppearanceConstants
 req.redist: 

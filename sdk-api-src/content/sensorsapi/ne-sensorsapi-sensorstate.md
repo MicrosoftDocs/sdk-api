@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.h
 api_name:
  - SensorState
-product: Windows
 targetos: Windows
 req.typenames: SensorState
 req.redist: 

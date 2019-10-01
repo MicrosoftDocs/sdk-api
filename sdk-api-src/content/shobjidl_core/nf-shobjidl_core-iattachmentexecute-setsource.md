@@ -38,7 +38,6 @@ api_location:
  - Shdocvw.dll
 api_name:
  - IAttachmentExecute.SetSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

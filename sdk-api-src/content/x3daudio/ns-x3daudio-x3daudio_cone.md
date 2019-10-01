@@ -38,7 +38,6 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_CONE
-product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_CONE, *LPX3DAUDIO_CONE
 req.redist: 

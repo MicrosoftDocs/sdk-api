@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_EventingService.CompleteEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

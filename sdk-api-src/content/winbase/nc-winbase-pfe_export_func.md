@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ExportCallback
  - PFE_EXPORT_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

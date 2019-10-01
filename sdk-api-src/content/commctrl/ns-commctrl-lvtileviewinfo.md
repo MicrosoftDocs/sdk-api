@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVTILEVIEWINFO
-product: Windows
 targetos: Windows
 req.typenames: LVTILEVIEWINFO, *PLVTILEVIEWINFO
 req.redist: 

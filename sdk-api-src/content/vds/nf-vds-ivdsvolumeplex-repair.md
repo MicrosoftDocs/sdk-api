@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsVolumePlex.Repair
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

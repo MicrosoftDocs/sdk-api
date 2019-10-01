@@ -44,7 +44,6 @@ api_name:
  - PathUnquoteSpaces
  - PathUnquoteSpacesA
  - PathUnquoteSpacesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

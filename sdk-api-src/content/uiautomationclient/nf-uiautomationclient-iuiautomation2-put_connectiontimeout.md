@@ -40,7 +40,6 @@ api_name:
  - IUIAutomation2.ConnectionTimeout
  - IUIAutomation2.get_ConnectionTimeout
  - IUIAutomation2.put_ConnectionTimeout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

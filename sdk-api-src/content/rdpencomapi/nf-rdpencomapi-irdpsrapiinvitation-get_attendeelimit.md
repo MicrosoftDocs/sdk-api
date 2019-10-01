@@ -41,7 +41,6 @@ api_name:
  - IRDPSRAPIInvitation.get_AttendeeLimit
  - IRDPSRAPIInvitation.put_AttendeeLimit
  - RDPSRAPIInvitation.AttendeeLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10V2.Template
  - IX509CertificateRequestPkcs10V2.get_Template
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

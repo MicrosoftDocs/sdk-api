@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngBkgdProperties
-product: Windows
 targetos: Windows
 req.typenames: WICPngBkgdProperties
 req.redist: 

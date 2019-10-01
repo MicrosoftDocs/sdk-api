@@ -38,7 +38,6 @@ api_location:
  - Avifil32.dll
 api_name:
  - AVIStreamFindSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

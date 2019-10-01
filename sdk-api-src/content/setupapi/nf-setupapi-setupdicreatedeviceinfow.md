@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiCreateDeviceInfo
  - SetupDiCreateDeviceInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

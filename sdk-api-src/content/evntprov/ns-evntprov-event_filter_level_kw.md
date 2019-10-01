@@ -38,7 +38,6 @@ api_location:
 - Evntprov.h
 api_name:
 - EVENT_FILTER_LEVEL_KW
-product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
 req.redist: 

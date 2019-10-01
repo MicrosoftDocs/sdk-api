@@ -40,7 +40,6 @@ api_location:
 api_name:
  - SetupDiInstallClass
  - SetupDiInstallClassA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

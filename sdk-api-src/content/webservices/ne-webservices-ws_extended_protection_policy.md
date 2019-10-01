@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_EXTENDED_PROTECTION_POLICY
-product: Windows
 targetos: Windows
 req.typenames: WS_EXTENDED_PROTECTION_POLICY
 req.redist: 

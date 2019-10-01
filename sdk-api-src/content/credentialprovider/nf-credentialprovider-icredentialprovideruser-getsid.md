@@ -38,7 +38,6 @@ api_location:
  - Authui.dll
 api_name:
  - ICredentialProviderUser.GetSid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

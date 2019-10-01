@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - DATA_OBJECT_TYPES
-product: Windows
 targetos: Windows
 req.typenames: DATA_OBJECT_TYPES
 req.redist: 

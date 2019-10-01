@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLVKEYDOWN
-product: Windows
 targetos: Windows
 req.typenames: NMLVKEYDOWN, *LPNMLVKEYDOWN
 req.redist: 

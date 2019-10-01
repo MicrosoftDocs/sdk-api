@@ -38,7 +38,6 @@ api_location:
  - Wmvcore.dll
 api_name:
  - WMCreateProfileManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

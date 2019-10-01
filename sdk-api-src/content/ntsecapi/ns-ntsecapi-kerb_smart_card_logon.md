@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_SMART_CARD_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_SMART_CARD_LOGON, *PKERB_SMART_CARD_LOGON
 req.redist: 

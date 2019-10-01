@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - SourceInfo
-product: Windows
 targetos: Windows
 req.typenames: SourceInfo
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFolderAction.Age
  - IFolderAction.get_Age
  - IFolderAction.put_Age
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

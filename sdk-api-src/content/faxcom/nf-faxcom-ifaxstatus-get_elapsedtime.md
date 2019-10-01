@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.ElapsedTime
  - IFaxStatus.get_ElapsedTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

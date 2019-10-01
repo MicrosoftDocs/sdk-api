@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPMediaCollection2.getStringCollectionByQuery
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkEdit.DrawingAttributes
  - IInkEdit.get_DrawingAttributes
  - InkEdit.get_DrawingAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

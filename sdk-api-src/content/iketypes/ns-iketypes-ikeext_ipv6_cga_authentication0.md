@@ -38,7 +38,6 @@ api_location:
 - Iketypes.h
 api_name:
 - IKEEXT_IPV6_CGA_AUTHENTICATION0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_IPV6_CGA_AUTHENTICATION0
 req.redist: 

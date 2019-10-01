@@ -40,7 +40,6 @@ api_name:
  - OLEUIBUSY
  - OLEUIBUSYA
  - OLEUIBUSYW
-product: Windows
 targetos: Windows
 req.typenames: OLEUIBUSYW, *POLEUIBUSYW, *LPOLEUIBUSYW
 req.redist: 

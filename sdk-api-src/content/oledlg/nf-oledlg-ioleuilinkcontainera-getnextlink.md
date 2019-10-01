@@ -40,7 +40,6 @@ api_name:
  - IOleUILinkContainer.GetNextLink
  - IOleUILinkContainerA.GetNextLink
  - IOleUILinkContainerW.GetNextLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

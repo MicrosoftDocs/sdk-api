@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IPMCAST_OIF
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_OIF_W2K, *PMIB_IPMCAST_OIF_W2K
 req.redist: 

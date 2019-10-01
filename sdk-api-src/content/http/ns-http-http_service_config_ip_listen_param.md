@@ -38,7 +38,6 @@ api_location:
  - Http.h
 api_name:
  - HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, *PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
 req.redist: 

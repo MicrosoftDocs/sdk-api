@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - MF_TIMED_TEXT_CUE_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_CUE_EVENT
 req.redist: 

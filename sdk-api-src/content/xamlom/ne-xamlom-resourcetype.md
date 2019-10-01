@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - ResourceType
-product: Windows
 targetos: Windows
 req.typenames: ResourceType
 req.redist: 

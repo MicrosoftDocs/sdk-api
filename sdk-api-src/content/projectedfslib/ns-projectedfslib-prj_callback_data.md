@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_CALLBACK_DATA
-product: Windows
 targetos: Windows
 req.typenames: PRJ_CALLBACK_DATA
 req.redist: 

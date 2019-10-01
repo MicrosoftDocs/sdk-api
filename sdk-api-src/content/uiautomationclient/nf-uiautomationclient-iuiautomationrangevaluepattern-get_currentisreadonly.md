@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CurrentIsReadOnly
  - IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

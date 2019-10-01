@@ -38,7 +38,6 @@ api_location:
  - MSAJApi.dll
 api_name:
  - AllJoynSendToBus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

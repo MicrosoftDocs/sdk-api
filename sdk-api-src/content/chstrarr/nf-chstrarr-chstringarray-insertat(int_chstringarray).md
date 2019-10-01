@@ -39,7 +39,6 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CHStringArray.InsertAt(int, CHStringArray*)
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

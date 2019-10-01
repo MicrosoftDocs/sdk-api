@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - MAKEINTATOM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

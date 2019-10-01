@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizerContext.Strokes
  - IInkRecognizerContext.get_Strokes
  - InkRecognizerContext.get_Strokes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

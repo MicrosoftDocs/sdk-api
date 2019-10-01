@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - COLORMAP
-product: Windows
 targetos: Windows
 req.typenames: COLORMAP, *LPCOLORMAP
 req.redist: 

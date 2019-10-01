@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - DDEML_MSG_HOOK_DATA
-product: Windows
 targetos: Windows
 req.typenames: DDEML_MSG_HOOK_DATA, *PDDEML_MSG_HOOK_DATA
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkStrokes.RecognitionResult
  - IInkStrokes.get_RecognitionResult
  - InkStrokes.get_RecognitionResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

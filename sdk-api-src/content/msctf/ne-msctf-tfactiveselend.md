@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - TfActiveSelEnd
-product: Windows
 targetos: Windows
 req.typenames: TfActiveSelEnd
 req.redist: TSF 1.0 on Windows 2000 Professional

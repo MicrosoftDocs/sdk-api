@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy.EndIpAddress
  - IWdsTransportServicePolicy.get_EndIpAddress
  - IWdsTransportServicePolicy.put_EndIpAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

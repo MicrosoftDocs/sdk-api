@@ -38,7 +38,6 @@ api_location:
  - Netshell.dll
 api_name:
  - NcIsValidConnectionName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

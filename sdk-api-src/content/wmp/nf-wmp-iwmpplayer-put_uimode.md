@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPPlayer.put_uiMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

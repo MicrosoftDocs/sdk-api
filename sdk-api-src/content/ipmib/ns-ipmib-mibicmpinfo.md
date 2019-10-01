@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIBICMPINFO
-product: Windows
 targetos: Windows
 req.typenames: MIBICMPINFO
 req.redist: 

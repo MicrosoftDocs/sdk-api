@@ -39,7 +39,6 @@ api_location:
  - d3dcsx.dll
 api_name:
  - ID3DX11FFT.AttachBuffersAndPrecompute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

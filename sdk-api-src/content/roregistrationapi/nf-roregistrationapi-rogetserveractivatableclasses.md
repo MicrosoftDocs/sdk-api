@@ -41,7 +41,6 @@ api_location:
  - ComBase.dll
 api_name:
  - RoGetServerActivatableClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

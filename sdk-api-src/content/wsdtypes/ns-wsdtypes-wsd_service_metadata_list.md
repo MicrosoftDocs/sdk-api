@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_SERVICE_METADATA_LIST
-product: Windows
 targetos: Windows
 req.typenames: WSD_SERVICE_METADATA_LIST
 req.redist: 

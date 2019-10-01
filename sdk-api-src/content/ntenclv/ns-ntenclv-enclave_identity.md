@@ -38,7 +38,6 @@ api_location:
  - ntenclv.h
 api_name:
  - ENCLAVE_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_IDENTITY
 req.redist: 

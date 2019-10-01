@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - SPropProblem
-product: Windows
 targetos: Windows
 req.typenames: SPropProblem, *LPSPropProblem
 req.redist: 

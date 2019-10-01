@@ -38,7 +38,6 @@ api_location:
  - adhocreportingexcelclient.dll
 api_name:
  - IViewObject2.GetExtent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

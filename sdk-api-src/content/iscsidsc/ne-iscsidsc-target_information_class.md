@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - TARGET_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
 req.redist: 

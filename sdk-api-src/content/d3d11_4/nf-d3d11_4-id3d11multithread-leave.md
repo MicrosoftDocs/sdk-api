@@ -38,7 +38,6 @@ api_location:
  - d3d11_4.dll
 api_name:
  - ID3D11Multithread.Leave
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

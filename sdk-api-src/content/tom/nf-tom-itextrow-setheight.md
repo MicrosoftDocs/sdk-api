@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextRow.SetHeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

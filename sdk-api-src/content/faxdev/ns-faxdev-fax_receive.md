@@ -38,7 +38,6 @@ api_location:
 - FaxDev.h
 api_name:
 - FAX_RECEIVE
-product: Windows
 targetos: Windows
 req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
 req.redist: 

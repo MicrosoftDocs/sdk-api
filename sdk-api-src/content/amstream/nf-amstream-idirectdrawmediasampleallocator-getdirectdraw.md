@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IDirectDrawMediaSampleAllocator.GetDirectDraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

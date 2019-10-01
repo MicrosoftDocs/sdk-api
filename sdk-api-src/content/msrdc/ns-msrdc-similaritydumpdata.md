@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - SimilarityDumpData
-product: Windows
 targetos: Windows
 req.typenames: SimilarityDumpData
 req.redist: 

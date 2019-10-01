@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DdMapMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

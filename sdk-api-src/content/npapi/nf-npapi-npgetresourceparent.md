@@ -38,7 +38,6 @@ api_location:
 - Npapi.h
 api_name:
 - NPGetResourceParent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bitsprx7.dll
 api_name:
  - IBackgroundCopyJob5
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

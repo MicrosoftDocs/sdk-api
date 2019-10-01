@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATResultsInfo.AssessmentDateTime
  - IProvideWinSATResultsInfo.get_AssessmentDateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

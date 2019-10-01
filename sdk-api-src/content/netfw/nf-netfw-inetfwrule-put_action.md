@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Action
  - INetFwRule.get_Action
  - INetFwRule.put_Action
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

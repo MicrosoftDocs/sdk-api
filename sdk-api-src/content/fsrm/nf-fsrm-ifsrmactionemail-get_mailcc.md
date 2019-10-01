@@ -43,7 +43,6 @@ api_name:
  - IFsrmActionEmail.MailCc
  - IFsrmActionEmail.get_MailCc
  - IFsrmActionEmail.put_MailCc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

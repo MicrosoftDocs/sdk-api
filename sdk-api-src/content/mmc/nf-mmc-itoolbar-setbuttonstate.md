@@ -38,7 +38,6 @@ api_location:
 - Mmcndmgr.dll
 api_name:
 - IToolbar.SetButtonState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

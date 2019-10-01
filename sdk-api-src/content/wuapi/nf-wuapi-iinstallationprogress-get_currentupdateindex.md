@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationProgress.CurrentUpdateIndex
  - IInstallationProgress.get_CurrentUpdateIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

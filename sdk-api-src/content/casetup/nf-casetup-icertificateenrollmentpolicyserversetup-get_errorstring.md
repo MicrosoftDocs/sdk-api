@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertificateEnrollmentPolicyServerSetup.ErrorString
  - ICertificateEnrollmentPolicyServerSetup.get_ErrorString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

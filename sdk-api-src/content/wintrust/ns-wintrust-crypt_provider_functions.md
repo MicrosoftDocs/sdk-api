@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_PROVIDER_FUNCTIONS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_FUNCTIONS, *PCRYPT_PROVIDER_FUNCTIONS
 req.redist: 

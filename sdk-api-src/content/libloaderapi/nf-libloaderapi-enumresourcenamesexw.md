@@ -48,7 +48,6 @@ api_name:
  - EnumResourceNamesEx
  - EnumResourceNamesExA
  - EnumResourceNamesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

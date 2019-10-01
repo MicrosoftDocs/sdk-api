@@ -38,7 +38,6 @@ api_location:
  - MicrosoftAccountTokenProvider.dll
 api_name:
  - IProofOfPossessionCookieInfoManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

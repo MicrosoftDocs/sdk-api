@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
  - _lwrite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - GetServiceDisplayName
  - GetServiceDisplayNameA
  - GetServiceDisplayNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWROW.GetMaxIndex
  - IEnumCERTVIEWROW.GetMaxIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.DocumentName
  - IFaxStatus.get_DocumentName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

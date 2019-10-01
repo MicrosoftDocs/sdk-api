@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_INTERCONNECT_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_INTERCONNECT_FLAG, *PVDS_INTERCONNECT_FLAG
 req.redist: 

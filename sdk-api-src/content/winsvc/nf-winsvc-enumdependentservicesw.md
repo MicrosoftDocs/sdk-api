@@ -46,7 +46,6 @@ api_name:
 - EnumDependentServices
 - EnumDependentServicesA
 - EnumDependentServicesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

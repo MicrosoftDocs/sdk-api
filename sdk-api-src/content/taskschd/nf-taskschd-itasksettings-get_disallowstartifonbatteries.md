@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.DisallowStartIfOnBatteries
  - ITaskSettings.get_DisallowStartIfOnBatteries
  - ITaskSettings.put_DisallowStartIfOnBatteries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

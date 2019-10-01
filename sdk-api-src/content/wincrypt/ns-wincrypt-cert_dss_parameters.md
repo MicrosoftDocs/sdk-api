@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_DSS_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CERT_DSS_PARAMETERS, *PCERT_DSS_PARAMETERS
 req.redist: 

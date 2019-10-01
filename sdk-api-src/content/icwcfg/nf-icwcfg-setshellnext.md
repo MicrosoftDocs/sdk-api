@@ -38,7 +38,6 @@ api_location:
  - Inetcfg.dll
 api_name:
  - SetShellNext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

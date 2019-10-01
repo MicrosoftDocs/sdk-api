@@ -38,7 +38,6 @@ api_location:
  - Winscard.dll
 api_name:
  - SCardIsValidContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

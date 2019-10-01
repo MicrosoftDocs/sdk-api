@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_HEADER_RELATESTO
-product: Windows
 targetos: Windows
 req.typenames: WSD_HEADER_RELATESTO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dvdevcod.h
 api_name:
  - DVD_PB_STOPPED
-product: Windows
 targetos: Windows
 req.typenames: DVD_PB_STOPPED
 req.redist: 

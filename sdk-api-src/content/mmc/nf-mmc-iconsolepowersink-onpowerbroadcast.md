@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - IConsolePowerSink.OnPowerBroadcast
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

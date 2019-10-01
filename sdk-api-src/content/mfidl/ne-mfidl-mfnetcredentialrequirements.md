@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNetCredentialRequirements
-product: Windows
 targetos: Windows
 req.typenames: MFNetCredentialRequirements
 req.redist: 

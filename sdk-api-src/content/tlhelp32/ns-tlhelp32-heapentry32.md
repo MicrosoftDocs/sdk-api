@@ -38,7 +38,6 @@ api_location:
  - TlHelp32.h
 api_name:
  - HEAPENTRY32
-product: Windows
 targetos: Windows
 req.typenames: HEAPENTRY32
 req.redist: 

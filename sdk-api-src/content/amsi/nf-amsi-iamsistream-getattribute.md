@@ -38,7 +38,6 @@ api_location:
  - amsi.h
 api_name:
  - IAmsiStream.GetAttribute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

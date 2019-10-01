@@ -40,7 +40,6 @@ api_name:
  - IFsrmStorageModuleDefinition.StorageType
  - IFsrmStorageModuleDefinition.get_StorageType
  - IFsrmStorageModuleDefinition.put_StorageType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

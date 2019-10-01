@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_EXPANDSYNC_STRUCT
-product: Windows
 targetos: Windows
 req.typenames: MMC_EXPANDSYNC_STRUCT
 req.redist: 

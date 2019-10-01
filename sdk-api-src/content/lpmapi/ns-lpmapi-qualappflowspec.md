@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - QualAppFlowSpec
-product: Windows
 targetos: Windows
 req.typenames: QualAppFlowSpec
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - StrSpn
  - StrSpnA
  - StrSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

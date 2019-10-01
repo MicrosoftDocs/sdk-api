@@ -40,7 +40,6 @@ api_name:
  - ReplaceText
  - ReplaceTextA
  - ReplaceTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

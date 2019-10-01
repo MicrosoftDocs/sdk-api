@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - ALIGN_CLUSPROP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

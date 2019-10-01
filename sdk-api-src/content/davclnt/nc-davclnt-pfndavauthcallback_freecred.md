@@ -38,7 +38,6 @@ api_location:
 - Davclnt.h
 api_name:
 - DavFreeCredCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

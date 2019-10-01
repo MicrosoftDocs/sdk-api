@@ -44,7 +44,6 @@ api_location:
 api_name:
  - EnumProcessModulesEx
  - K32EnumProcessModulesEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

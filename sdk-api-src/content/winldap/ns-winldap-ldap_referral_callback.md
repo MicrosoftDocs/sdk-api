@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAP_REFERRAL_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: LDAP_REFERRAL_CALLBACK, *PLDAP_REFERRAL_CALLBACK
 req.redist: 

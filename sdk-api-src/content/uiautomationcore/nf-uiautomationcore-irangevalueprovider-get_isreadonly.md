@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRangeValueProvider.IsReadOnly
  - IRangeValueProvider.get_IsReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

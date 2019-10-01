@@ -40,7 +40,6 @@ api_name:
 - DsBind
 - DsBindA
 - DsBindW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

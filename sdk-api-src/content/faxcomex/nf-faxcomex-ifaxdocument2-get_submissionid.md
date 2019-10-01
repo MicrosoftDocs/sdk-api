@@ -40,7 +40,6 @@ api_name:
  - IFaxDocument2.SubmissionId
  - IFaxDocument2.get_SubmissionId
  - IFaxDocument2.get_SubmissionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

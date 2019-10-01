@@ -40,7 +40,6 @@ api_location:
  - Clipc.dll
 api_name:
  - SLQueryLicenseValueFromApp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

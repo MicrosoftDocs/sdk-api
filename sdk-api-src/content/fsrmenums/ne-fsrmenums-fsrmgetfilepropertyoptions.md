@@ -38,7 +38,6 @@ api_location:
  - Fsrm.h
 api_name:
  - FsrmGetFilePropertyOptions
-product: Windows
 targetos: Windows
 req.typenames: FsrmGetFilePropertyOptions
 req.redist: 

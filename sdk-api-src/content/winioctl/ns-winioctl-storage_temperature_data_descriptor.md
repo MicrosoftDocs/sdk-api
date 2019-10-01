@@ -38,7 +38,6 @@ api_location:
 - WinIoctl.h
 api_name:
 - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_DATA_DESCRIPTOR, *PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
 req.redist: 

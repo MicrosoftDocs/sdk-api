@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.Stop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - IO_DES
-product: Windows
 targetos: Windows
 req.typenames: IO_DES, *PIO_DES
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CachedChildId
  - IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

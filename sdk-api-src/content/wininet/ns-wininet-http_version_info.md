@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - HTTP_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
 req.redist: 

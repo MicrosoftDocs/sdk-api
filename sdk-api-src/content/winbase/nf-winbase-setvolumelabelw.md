@@ -49,7 +49,6 @@ api_name:
  - SetVolumeLabel
  - SetVolumeLabelA
  - SetVolumeLabelW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

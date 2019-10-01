@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnRadio.SoftwareRadioState
  - IMbnRadio.get_SoftwareRadioState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

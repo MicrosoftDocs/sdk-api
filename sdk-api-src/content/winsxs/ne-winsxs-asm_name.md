@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - ASM_NAME
-product: Windows
 targetos: Windows
 req.typenames: ASM_NAME
 req.redist: 

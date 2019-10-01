@@ -41,7 +41,6 @@ api_name:
  - StrFromTimeInterval
  - StrFromTimeIntervalA
  - StrFromTimeIntervalW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

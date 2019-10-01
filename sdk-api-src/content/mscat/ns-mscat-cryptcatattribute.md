@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - CRYPTCATATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: CRYPTCATATTRIBUTE
 req.redist: 

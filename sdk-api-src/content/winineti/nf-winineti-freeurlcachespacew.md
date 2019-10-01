@@ -40,7 +40,6 @@ api_name:
  - FreeUrlCacheSpace
  - FreeUrlCacheSpaceA
  - FreeUrlCacheSpaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

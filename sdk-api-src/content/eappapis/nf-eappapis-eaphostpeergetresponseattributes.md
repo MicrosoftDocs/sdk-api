@@ -38,7 +38,6 @@ api_location:
 - eappprxy.dll
 api_name:
 - EapHostPeerGetResponseAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

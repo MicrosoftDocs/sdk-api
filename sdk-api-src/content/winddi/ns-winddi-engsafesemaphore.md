@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - ENGSAFESEMAPHORE
-product: Windows
 targetos: Windows
 req.typenames: ENGSAFESEMAPHORE
 req.redist: 

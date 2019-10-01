@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - SpatialAudioHrtfActivationParams
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfActivationParams
 req.redist: 

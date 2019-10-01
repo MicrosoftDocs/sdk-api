@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - LOGICAL_PROCESSOR_RELATIONSHIP
-product: Windows
 targetos: Windows
 req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
 req.redist: 

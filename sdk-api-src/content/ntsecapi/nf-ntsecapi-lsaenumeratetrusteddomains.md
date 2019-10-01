@@ -43,7 +43,6 @@ api_location:
 - API-MS-Win-Security-LSALookup-L2-1-2.dll
 api_name:
 - LsaEnumerateTrustedDomains
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

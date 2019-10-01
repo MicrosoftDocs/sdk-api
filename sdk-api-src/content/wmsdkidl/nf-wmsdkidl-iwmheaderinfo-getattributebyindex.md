@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.GetAttributeByIndex
  - IWMHeaderInfo2.GetAttributeByIndex
  - IWMHeaderInfo3.GetAttributeByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

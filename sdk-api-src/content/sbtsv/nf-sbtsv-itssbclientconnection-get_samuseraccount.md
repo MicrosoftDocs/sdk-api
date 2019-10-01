@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbClientConnection.SamUserAccount
  - ITsSbClientConnection.get_SamUserAccount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

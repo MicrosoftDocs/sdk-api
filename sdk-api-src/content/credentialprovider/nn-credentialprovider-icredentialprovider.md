@@ -38,7 +38,6 @@ api_location:
  - Credentialprovider.h
 api_name:
  - ICredentialProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - EnumICMProfiles
  - EnumICMProfilesA
  - EnumICMProfilesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

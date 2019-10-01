@@ -38,7 +38,6 @@ api_location:
  - Audiopolicy.h
 api_name:
  - IAudioSessionManager.GetSimpleAudioVolume
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

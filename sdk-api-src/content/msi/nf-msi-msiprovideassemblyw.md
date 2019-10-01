@@ -40,7 +40,6 @@ api_name:
  - MsiProvideAssembly
  - MsiProvideAssemblyA
  - MsiProvideAssemblyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

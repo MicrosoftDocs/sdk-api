@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - DWRITE_GLYPH_IMAGE_FORMATS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

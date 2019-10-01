@@ -40,7 +40,6 @@ api_name:
  - SecPkgContext_Names
  - SecPkgContext_NamesA
  - SecPkgContext_NamesW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NamesA, *PSecPkgContext_NamesA
 req.redist: 

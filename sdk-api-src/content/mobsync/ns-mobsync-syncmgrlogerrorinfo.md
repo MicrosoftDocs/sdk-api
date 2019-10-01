@@ -38,7 +38,6 @@ api_location:
  - Mobsync.h
 api_name:
  - SYNCMGRLOGERRORINFO
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRLOGERRORINFO, *LPSYNCMGRLOGERRORINFO
 req.redist: 

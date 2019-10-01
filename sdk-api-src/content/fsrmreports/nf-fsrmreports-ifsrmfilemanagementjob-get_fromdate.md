@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.FromDate
  - IFsrmFileManagementJob.get_FromDate
  - IFsrmFileManagementJob.put_FromDate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

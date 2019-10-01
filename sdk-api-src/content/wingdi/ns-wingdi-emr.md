@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMR
-product: Windows
 targetos: Windows
 req.typenames: EMR, *PEMR
 req.redist: 

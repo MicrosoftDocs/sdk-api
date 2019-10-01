@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - CATEGORYINFO_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CATEGORYINFO_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVGROUP
-product: Windows
 targetos: Windows
 req.typenames: LVGROUP, *PLVGROUP
 req.redist: 

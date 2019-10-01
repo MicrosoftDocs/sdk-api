@@ -42,7 +42,6 @@ api_name:
  - IDynamicRenderer.put_DataCacheEnabled
  - IDynamicRenderer.get_DataCacheEnabled
  - IDynamicRenderer.put_DataCacheEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

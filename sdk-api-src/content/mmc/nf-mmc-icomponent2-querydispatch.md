@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - IComponent2.QueryDispatch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

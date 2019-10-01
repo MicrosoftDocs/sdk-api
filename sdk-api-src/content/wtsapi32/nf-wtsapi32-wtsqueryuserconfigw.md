@@ -40,7 +40,6 @@ api_name:
 - WTSQueryUserConfig
 - WTSQueryUserConfigA
 - WTSQueryUserConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

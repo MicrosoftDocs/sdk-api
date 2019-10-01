@@ -40,7 +40,6 @@ api_name:
  - FtpDeleteFile
  - FtpDeleteFileA
  - FtpDeleteFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

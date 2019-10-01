@@ -40,7 +40,6 @@ api_name:
  - ImmGetIMEFileName
  - ImmGetIMEFileNameA
  - ImmGetIMEFileNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

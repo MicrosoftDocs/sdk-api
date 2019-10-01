@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.StreamMode
  - ITraceDataCollector.get_StreamMode
  - ITraceDataCollector.put_StreamMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

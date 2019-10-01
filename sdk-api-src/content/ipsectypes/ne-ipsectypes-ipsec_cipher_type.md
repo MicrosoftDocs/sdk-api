@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_CIPHER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TYPE
 req.redist: 

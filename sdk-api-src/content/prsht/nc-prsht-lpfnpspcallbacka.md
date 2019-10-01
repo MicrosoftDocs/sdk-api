@@ -40,7 +40,6 @@ api_name:
 - LPFNPSPCALLBACK
 - LPFNPSPCALLBACK
  - LPFNPSPCALLBACKA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

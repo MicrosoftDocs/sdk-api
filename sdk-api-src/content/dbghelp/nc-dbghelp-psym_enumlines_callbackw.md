@@ -38,7 +38,6 @@ api_location:
 - DbgHelp.h
 api_name:
 - SymEnumLinesProc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_NETADDRESS
-product: Windows
 targetos: Windows
 req.typenames: ADS_NETADDRESS, *PADS_NETADDRESS
 req.redist: 

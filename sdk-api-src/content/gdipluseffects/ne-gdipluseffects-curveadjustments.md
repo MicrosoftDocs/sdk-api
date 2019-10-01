@@ -38,7 +38,6 @@ api_location:
  - GdiplusEffects.h
 api_name:
  - CurveAdjustments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

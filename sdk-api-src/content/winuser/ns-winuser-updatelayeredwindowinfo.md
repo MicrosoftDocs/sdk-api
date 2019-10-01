@@ -38,7 +38,6 @@ api_location:
 - Winuser.h
 api_name:
 - UPDATELAYEREDWINDOWINFO
-product: Windows
 targetos: Windows
 req.typenames: UPDATELAYEREDWINDOWINFO, *PUPDATELAYEREDWINDOWINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - ITTerminalControl.DisconnectTerminal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

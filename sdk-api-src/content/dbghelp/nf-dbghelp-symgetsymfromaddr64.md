@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SymGetSymFromAddr64
 - SymGetSymFromAddr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

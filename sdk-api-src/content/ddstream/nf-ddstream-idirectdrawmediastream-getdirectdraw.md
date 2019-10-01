@@ -38,7 +38,6 @@ api_location:
  - ddstream.h
 api_name:
  - IDirectDrawMediaStream.GetDirectDraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

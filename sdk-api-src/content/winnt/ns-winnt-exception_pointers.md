@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - EXCEPTION_POINTERS
-product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_POINTERS, *PEXCEPTION_POINTERS
 req.redist: 

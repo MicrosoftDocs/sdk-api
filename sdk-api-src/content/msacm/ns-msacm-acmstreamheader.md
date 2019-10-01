@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMSTREAMHEADER
-product: Windows
 targetos: Windows
 req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
 req.redist: 

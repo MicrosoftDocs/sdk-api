@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_TOPOLOGY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MF_TOPOLOGY_TYPE
 req.redist: 

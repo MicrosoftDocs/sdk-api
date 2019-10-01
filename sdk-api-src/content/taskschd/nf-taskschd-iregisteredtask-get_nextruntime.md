@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRegisteredTask.NextRunTime
  - IRegisteredTask.get_NextRunTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

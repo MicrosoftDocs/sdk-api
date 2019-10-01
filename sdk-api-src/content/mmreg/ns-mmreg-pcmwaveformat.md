@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - PCMWAVEFORMAT
-product: Windows
 targetos: Windows
 req.typenames: PCMWAVEFORMAT
 req.redist: 

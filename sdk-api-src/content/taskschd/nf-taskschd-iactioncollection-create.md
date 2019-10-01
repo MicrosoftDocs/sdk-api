@@ -38,7 +38,6 @@ api_location:
 - taskschd.dll
 api_name:
 - IActionCollection.Create
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

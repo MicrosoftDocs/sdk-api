@@ -40,7 +40,6 @@ api_name:
 - PdhMakeCounterPath
 - PdhMakeCounterPathA
 - PdhMakeCounterPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - MsClus.h
 api_name:
 - SR_DISK_REPLICATION_ELIGIBLE
-product: Windows
 targetos: Windows
 req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
 req.redist: 

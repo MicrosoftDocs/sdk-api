@@ -38,7 +38,6 @@ api_location:
  - eapAuthenticatorTypes.h
 api_name:
  - EAP_AUTHENTICATOR_SEND_TIMEOUT
-product: Windows
 targetos: Windows
 req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
 req.redist: 

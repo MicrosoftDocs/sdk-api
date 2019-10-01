@@ -38,7 +38,6 @@ api_location:
  - tspubplugin2com.h
 api_name:
  - TSPUB_PLUGIN_PD_RESOLUTION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 req.redist: 

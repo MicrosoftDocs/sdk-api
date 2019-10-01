@@ -40,7 +40,6 @@ api_name:
  - IEnroll.KeySpec
  - IEnroll.get_KeySpec
  - IEnroll.put_KeySpec
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

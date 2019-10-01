@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_VIDEO_PROCESSOR_MIRROR
-product: Windows
 targetos: Windows
 req.typenames: MF_VIDEO_PROCESSOR_MIRROR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fwpstypes.h
 api_name:
  - FWPS_CLASSIFY_OUT0
-product: Windows
 targetos: Windows
 req.typenames: FWPS_CLASSIFY_OUT0
 req.redist: 

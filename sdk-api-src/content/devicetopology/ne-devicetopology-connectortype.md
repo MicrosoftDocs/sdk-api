@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - ConnectorType
-product: Windows
 targetos: Windows
 req.typenames: ConnectorType
 req.redist: 

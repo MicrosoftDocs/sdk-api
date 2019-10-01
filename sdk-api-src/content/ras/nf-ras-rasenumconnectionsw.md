@@ -42,7 +42,6 @@ api_name:
  - RasEnumConnections
  - RasEnumConnectionsA
  - RasEnumConnectionsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

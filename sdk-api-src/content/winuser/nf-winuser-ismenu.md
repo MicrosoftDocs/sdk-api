@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - IsMenu
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

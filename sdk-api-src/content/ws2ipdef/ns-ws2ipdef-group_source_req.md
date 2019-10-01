@@ -38,7 +38,6 @@ api_location:
  - Ws2ipdef.h
 api_name:
  - GROUP_SOURCE_REQ
-product: Windows
 targetos: Windows
 req.typenames: GROUP_SOURCE_REQ, *PGROUP_SOURCE_REQ
 req.redist: 

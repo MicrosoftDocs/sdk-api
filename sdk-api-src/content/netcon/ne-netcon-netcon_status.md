@@ -38,7 +38,6 @@ api_location:
  - NetCon.h
 api_name:
  - NETCON_STATUS
-product: Windows
 targetos: Windows
 req.typenames: NETCON_STATUS
 req.redist: 

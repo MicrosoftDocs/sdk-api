@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_NETINTERFACE_STATE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NETINTERFACE_STATE
 req.redist: 

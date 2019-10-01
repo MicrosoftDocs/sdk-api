@@ -38,7 +38,6 @@ api_location:
  - sensorsapi.dll
 api_name:
  - ISensorManagerEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - certpol.h
 api_name:
  - X509SCEPFailInfo
-product: Windows
 targetos: Windows
 req.typenames: X509SCEPFailInfo
 req.redist: 

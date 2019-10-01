@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - SmartCardAssociationType
-product: Windows
 targetos: Windows
 req.typenames: SmartCardAssociationType
 req.redist: 

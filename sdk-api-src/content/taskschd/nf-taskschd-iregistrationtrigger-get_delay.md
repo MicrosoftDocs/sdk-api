@@ -40,7 +40,6 @@ api_name:
  - IRegistrationTrigger.Delay
  - IRegistrationTrigger.get_Delay
  - IRegistrationTrigger.put_Delay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

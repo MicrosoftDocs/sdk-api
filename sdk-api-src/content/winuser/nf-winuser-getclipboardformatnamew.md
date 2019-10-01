@@ -51,7 +51,6 @@ api_name:
  - GetClipboardFormatName
  - GetClipboardFormatNameA
  - GetClipboardFormatNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

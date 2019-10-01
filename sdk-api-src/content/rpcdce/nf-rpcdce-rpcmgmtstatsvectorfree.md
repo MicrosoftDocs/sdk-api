@@ -38,7 +38,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcMgmtStatsVectorFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

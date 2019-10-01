@@ -40,7 +40,6 @@ api_name:
  - ICertExit2.GetDescription
  - ICertExit.GetDescription
  - CCertExit.GetDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

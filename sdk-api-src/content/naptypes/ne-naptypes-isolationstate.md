@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - IsolationState
-product: Windows
 targetos: Windows
 req.typenames: IsolationState
 req.redist: 

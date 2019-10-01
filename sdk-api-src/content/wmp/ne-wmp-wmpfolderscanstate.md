@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - WMPFolderScanState
-product: Windows
 targetos: Windows
 req.typenames: WMPFolderScanState
 req.redist: 

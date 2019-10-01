@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - FILETYPEATTRIBUTEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: FILETYPEATTRIBUTEFLAGS
 req.redist: 

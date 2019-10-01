@@ -42,7 +42,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - WakeByAddressAll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

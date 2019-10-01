@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeRenewalCertificate.RenewalCertificate
  - IX509AttributeRenewalCertificate.get_RenewalCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

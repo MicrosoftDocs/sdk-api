@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMProfile3.CreateNewBandwidthSharing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

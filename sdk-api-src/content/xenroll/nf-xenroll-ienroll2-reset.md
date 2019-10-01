@@ -40,7 +40,6 @@ api_name:
  - IEnroll2.Reset
  - IEnroll3.Reset
  - IEnroll4.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

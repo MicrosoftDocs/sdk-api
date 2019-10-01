@@ -40,7 +40,6 @@ api_location:
  - imagehlp.dll
 api_name:
  - ImageNtHeader
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

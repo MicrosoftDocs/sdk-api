@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitationManager.Count
  - IRDPSRAPIInvitationManager.get_Count
  - RDPSRAPIInvitationManager.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

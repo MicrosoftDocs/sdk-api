@@ -40,7 +40,6 @@ api_name:
  - HttpOpenRequest
  - HttpOpenRequestA
  - HttpOpenRequestW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

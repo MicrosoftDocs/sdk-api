@@ -38,7 +38,6 @@ api_location:
 - winioctl.h
 api_name:
 - STORAGE_HW_FIRMWARE_DOWNLOAD
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 req.redist: 

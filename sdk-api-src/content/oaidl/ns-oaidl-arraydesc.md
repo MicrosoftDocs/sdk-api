@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - ARRAYDESC
-product: Windows
 targetos: Windows
 req.typenames: ARRAYDESC
 req.redist: 

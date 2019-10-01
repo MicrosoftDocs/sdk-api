@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPCdromCollection.get_count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

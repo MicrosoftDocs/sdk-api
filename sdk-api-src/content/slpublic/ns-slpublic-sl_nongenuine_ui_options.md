@@ -38,7 +38,6 @@ api_location:
  - Slpublic.h
 api_name:
  - SL_NONGENUINE_UI_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: SL_NONGENUINE_UI_OPTIONS
 req.redist: 

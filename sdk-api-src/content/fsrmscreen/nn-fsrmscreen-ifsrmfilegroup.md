@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmFileGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

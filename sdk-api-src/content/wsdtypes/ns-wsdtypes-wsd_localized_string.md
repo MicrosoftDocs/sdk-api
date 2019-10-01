@@ -38,7 +38,6 @@ api_location:
  - WsdTypes.h
 api_name:
  - WSD_LOCALIZED_STRING
-product: Windows
 targetos: Windows
 req.typenames: WSD_LOCALIZED_STRING
 req.redist: 

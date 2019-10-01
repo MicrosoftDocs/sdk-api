@@ -38,7 +38,6 @@ api_location:
  - il21dec.h
 api_name:
  - AM_LINE21_DRAWBGMODE
-product: Windows
 targetos: Windows
 req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
 req.redist: 

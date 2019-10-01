@@ -40,7 +40,6 @@ api_location:
  - IE_Shims.dll
 api_name:
  - BufferPointerPacketsInteractionContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

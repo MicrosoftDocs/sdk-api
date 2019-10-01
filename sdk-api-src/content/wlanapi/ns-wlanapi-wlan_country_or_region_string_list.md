@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_COUNTRY_OR_REGION_STRING_LIST
-product: Windows
 targetos: Windows
 req.typenames: WLAN_COUNTRY_OR_REGION_STRING_LIST, *PWLAN_COUNTRY_OR_REGION_STRING_LIST
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Sechost.dll
 api_name:
  - QueryTraceProcessingHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

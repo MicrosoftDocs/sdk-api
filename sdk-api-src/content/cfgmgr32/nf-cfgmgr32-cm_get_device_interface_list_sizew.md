@@ -42,7 +42,6 @@ api_name:
  - CM_Get_Device_Interface_List_Size
  - CM_Get_Device_Interface_List_SizeA
  - CM_Get_Device_Interface_List_SizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

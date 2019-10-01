@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - RASTERIZER_STATUS
-product: Windows
 targetos: Windows
 req.typenames: RASTERIZER_STATUS, *LPRASTERIZER_STATUS
 req.redist: 

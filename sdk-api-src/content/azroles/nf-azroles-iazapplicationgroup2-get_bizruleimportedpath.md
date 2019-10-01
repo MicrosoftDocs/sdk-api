@@ -40,7 +40,6 @@ api_name:
  - IAzApplicationGroup2.BizRuleImportedPath
  - IAzApplicationGroup2.get_BizRuleImportedPath
  - IAzApplicationGroup2.put_BizRuleImportedPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_cleanup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

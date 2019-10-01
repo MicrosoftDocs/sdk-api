@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold
  - IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
  - IWdsTransportMulticastSessionPolicy.put_AutoDisconnectThreshold
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

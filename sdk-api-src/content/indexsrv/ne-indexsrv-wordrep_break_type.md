@@ -38,7 +38,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - WORDREP_BREAK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WORDREP_BREAK_TYPE
 req.redist: 

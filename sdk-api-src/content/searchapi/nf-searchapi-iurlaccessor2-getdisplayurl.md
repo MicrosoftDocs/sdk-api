@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUrlAccessor2.GetDisplayUrl
  - IUrlAccessor4.GetDisplayUrl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

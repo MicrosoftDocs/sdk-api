@@ -47,7 +47,6 @@ api_name:
  - RegRestoreKey
  - RegRestoreKeyA
  - RegRestoreKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

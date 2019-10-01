@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowProvider.WindowInteractionState
  - IWindowProvider.get_WindowInteractionState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

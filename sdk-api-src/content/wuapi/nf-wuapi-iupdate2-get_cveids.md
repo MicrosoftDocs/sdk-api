@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate2.CveIDs
  - IUpdate2.get_CveIDs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

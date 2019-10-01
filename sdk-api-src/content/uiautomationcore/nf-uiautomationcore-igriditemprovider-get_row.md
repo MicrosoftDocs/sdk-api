@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridItemProvider.Row
  - IGridItemProvider.get_Row
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

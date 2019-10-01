@@ -38,7 +38,6 @@ api_location:
 - Pwm.h
 api_name:
 - PWM_PIN_SET_POLARITY_INPUT
-product: Windows
 targetos: Windows
 req.typenames: PWM_PIN_SET_POLARITY_INPUT
 req.redist: 

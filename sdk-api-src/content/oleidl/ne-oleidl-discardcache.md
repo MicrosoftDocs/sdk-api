@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - DISCARDCACHE
-product: Windows
 targetos: Windows
 req.typenames: DISCARDCACHE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dhcpssdk.h
 api_name:
  - DHCP_SERVER_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_OPTIONS, *LPDHCP_SERVER_OPTIONS
 req.redist: 

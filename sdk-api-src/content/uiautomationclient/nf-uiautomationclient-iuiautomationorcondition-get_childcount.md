@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationOrCondition.ChildCount
  - IUIAutomationOrCondition.get_ChildCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

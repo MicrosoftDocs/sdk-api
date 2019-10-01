@@ -40,7 +40,6 @@ api_name:
  - DsMakeSpn
  - DsMakeSpnA
  - DsMakeSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

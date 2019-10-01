@@ -40,7 +40,6 @@ api_name:
  - NEWTEXTMETRIC
  - NEWTEXTMETRICA
  - NEWTEXTMETRICW
-product: Windows
 targetos: Windows
 req.typenames: NEWTEXTMETRICW, *PNEWTEXTMETRICW, *NPNEWTEXTMETRICW, *LPNEWTEXTMETRICW
 req.redist: 

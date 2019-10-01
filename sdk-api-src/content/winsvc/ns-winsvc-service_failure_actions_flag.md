@@ -38,7 +38,6 @@ api_location:
 - Winsvc.h
 api_name:
 - SERVICE_FAILURE_ACTIONS_FLAG
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONS_FLAG, *LPSERVICE_FAILURE_ACTIONS_FLAG
 req.redist: 

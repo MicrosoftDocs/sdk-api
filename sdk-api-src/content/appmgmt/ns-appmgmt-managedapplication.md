@@ -38,7 +38,6 @@ api_location:
  - Appmgmt.h
 api_name:
  - MANAGEDAPPLICATION
-product: Windows
 targetos: Windows
 req.typenames: MANAGEDAPPLICATION, *PMANAGEDAPPLICATION
 req.redist: 

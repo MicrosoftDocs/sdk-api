@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidRect.get_Left
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

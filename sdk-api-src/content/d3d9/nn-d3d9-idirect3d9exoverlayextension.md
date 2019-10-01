@@ -38,7 +38,6 @@ api_location:
  - d3d9.h
 api_name:
  - IDirect3D9ExOverlayExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

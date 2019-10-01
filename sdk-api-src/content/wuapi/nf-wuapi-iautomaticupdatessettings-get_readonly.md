@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAutomaticUpdatesSettings.ReadOnly
  - IAutomaticUpdatesSettings.get_ReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

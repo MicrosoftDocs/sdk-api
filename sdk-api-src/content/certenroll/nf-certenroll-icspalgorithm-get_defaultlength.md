@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithm.DefaultLength
  - ICspAlgorithm.get_DefaultLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

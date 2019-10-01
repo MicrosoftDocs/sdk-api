@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - GetDefaultCompartmentId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

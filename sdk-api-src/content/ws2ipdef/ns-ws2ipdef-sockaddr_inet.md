@@ -38,7 +38,6 @@ api_location:
  - Ws2ipdef.h
 api_name:
  - SOCKADDR_INET
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
 req.redist: 

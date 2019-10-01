@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - EMRALPHABLEND
-product: Windows
 targetos: Windows
 req.typenames: EMRALPHABLEND, *PEMRALPHABLEND
 req.redist: 

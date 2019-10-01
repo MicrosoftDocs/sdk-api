@@ -40,7 +40,6 @@ api_name:
  - WNetEnumResource
  - WNetEnumResourceA
  - WNetEnumResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

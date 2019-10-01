@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxBundleReader.GetPayloadPackage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

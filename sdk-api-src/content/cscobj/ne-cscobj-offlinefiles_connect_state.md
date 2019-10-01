@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_CONNECT_STATE
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_CONNECT_STATE
 req.redist: 

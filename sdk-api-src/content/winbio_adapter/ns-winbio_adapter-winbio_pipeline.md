@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WINBIO_PIPELINE
-product: Windows
 targetos: Windows
 req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
 req.redist: 

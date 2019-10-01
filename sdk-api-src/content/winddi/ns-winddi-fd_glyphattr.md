@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - FD_GLYPHATTR
-product: Windows
 targetos: Windows
 req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
 req.redist: 

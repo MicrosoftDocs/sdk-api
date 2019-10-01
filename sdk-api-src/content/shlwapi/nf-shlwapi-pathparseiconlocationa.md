@@ -44,7 +44,6 @@ api_name:
  - PathParseIconLocation
  - PathParseIconLocationA
  - PathParseIconLocationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

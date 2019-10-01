@@ -45,7 +45,6 @@ api_name:
  - SHSetValue
  - SHSetValueA
  - SHSetValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

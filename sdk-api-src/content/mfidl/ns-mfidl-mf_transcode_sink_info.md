@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_TRANSCODE_SINK_INFO
-product: Windows
 targetos: Windows
 req.typenames: MF_TRANSCODE_SINK_INFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IExecAction.Path
  - IExecAction.get_Path
  - IExecAction.put_Path
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

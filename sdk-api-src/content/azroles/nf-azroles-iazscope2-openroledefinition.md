@@ -38,7 +38,6 @@ api_location:
  - Azroles.dll
 api_name:
  - IAzScope2.OpenRoleDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

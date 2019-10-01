@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_SIMULATED_PROFILE_INFO
-product: Windows
 targetos: Windows
 req.typenames: NLM_SIMULATED_PROFILE_INFO
 req.redist: 

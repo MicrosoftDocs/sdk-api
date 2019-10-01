@@ -38,7 +38,6 @@ api_location:
  - PropVarUtil.h
 api_name:
  - PROPVAR_COMPARE_UNIT
-product: Windows
 targetos: Windows
 req.typenames: PROPVAR_COMPARE_UNIT
 req.redist: 

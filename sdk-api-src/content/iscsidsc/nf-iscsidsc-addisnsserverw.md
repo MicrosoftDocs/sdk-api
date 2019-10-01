@@ -40,7 +40,6 @@ api_name:
  - AddIsnsServer
  - AddIsnsServerA
  - AddIsnsServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - MEM_RANGE
-product: Windows
 targetos: Windows
 req.typenames: MEM_RANGE, *PMEM_RANGE
 req.redist: 

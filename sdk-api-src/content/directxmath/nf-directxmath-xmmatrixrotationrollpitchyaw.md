@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMMatrixRotationRollPitchYaw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

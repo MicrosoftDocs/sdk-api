@@ -40,7 +40,6 @@ api_name:
  - IPerformanceCounterDataCollector.SegmentMaxRecords
  - IPerformanceCounterDataCollector.get_SegmentMaxRecords
  - IPerformanceCounterDataCollector.put_SegmentMaxRecords
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

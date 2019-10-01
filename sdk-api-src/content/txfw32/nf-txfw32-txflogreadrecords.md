@@ -38,7 +38,6 @@ api_location:
 - TxfW32.dll
 api_name:
 - TxfLogReadRecords
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS
 req.redist: 

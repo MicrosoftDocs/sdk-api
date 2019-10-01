@@ -40,7 +40,6 @@ api_name:
  - OleUIPromptUser
  - OleUIPromptUserA
  - OleUIPromptUserW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

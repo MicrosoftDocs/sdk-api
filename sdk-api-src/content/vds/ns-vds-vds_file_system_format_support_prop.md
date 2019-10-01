@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, *PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - BeginDeferWindowPos
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFDXGIDeviceManager.OpenDeviceHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

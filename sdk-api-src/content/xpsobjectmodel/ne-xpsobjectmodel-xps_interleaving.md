@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_INTERLEAVING
-product: Windows
 targetos: Windows
 req.typenames: XPS_INTERLEAVING
 req.redist: 

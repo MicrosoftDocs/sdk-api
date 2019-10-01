@@ -28,7 +28,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_BITSTREAM_ENCRYPTION_TYPE
-product: Windows
 targetos: Windows
 ---
 

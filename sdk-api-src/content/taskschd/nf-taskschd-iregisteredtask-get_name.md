@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRegisteredTask.Name
  - IRegisteredTask.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

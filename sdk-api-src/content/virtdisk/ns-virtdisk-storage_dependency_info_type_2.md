@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - STORAGE_DEPENDENCY_INFO_TYPE_2
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEPENDENCY_INFO_TYPE_2, *PSTORAGE_DEPENDENCY_INFO_TYPE_2
 req.redist: 

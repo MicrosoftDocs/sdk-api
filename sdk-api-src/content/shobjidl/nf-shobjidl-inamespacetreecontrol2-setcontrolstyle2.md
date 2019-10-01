@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - INameSpaceTreeControl2.SetControlStyle2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

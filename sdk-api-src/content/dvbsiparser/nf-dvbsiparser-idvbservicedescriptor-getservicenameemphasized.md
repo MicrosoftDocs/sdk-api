@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbServiceDescriptor.GetServiceNameEmphasized
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

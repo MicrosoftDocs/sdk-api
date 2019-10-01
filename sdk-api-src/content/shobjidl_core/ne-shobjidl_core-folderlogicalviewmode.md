@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - FOLDERLOGICALVIEWMODE
-product: Windows
 targetos: Windows
 req.typenames: FOLDERLOGICALVIEWMODE
 req.redist: 

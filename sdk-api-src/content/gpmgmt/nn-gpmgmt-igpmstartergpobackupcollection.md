@@ -43,7 +43,6 @@ api_name:
  - IGPMStarterGPOBackupCollection.Item
  - IGPMStarterGPOBackupCollection.get_Item
  - GPMStarterGPOBackupCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

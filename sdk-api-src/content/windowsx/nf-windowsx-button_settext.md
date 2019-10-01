@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - Button_SetText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

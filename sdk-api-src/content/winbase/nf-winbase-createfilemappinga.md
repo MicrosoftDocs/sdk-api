@@ -56,7 +56,6 @@ api_name:
  - CreateFileMapping
  - CreateFileMappingA
  - CreateFileMappingW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

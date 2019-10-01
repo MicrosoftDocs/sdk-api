@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IFileSyncMergeHandler.Merge
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

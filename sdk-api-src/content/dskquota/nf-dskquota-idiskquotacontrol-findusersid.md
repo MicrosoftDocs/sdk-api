@@ -38,7 +38,6 @@ api_location:
  - Dskquota.dll
 api_name:
  - IDiskQuotaControl.FindUserSid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fdi.h
 api_name:
  - FDINOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
 req.redist: 

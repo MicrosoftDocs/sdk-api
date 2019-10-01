@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - D3D10_COLOR_WRITE_ENABLE
-product: Windows
 targetos: Windows
 req.typenames: D3D10_COLOR_WRITE_ENABLE
 req.redist: 

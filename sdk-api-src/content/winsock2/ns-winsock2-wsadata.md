@@ -38,7 +38,6 @@ api_location:
  - winsock.h
 api_name:
  - WSADATA
-product: Windows
 targetos: Windows
 req.typenames: WSADATA, *LPWSADATA
 req.redist: 

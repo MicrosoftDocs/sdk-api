@@ -40,7 +40,6 @@ api_location:
  - ComBase.dll
 api_name:
  - RoGetAgileReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

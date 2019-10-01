@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IMallocSpy.PostFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

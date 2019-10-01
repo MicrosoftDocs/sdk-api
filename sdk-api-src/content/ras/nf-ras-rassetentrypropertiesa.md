@@ -40,7 +40,6 @@ api_name:
  - RasSetEntryProperties
  - RasSetEntryPropertiesA
  - RasSetEntryPropertiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

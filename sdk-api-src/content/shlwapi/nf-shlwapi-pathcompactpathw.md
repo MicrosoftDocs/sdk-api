@@ -42,7 +42,6 @@ api_name:
  - PathCompactPath
  - PathCompactPathA
  - PathCompactPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

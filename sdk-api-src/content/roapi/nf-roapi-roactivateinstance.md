@@ -41,7 +41,6 @@ api_location:
 api_name:
  - RoActivateInstance
  - WinRTActivateInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

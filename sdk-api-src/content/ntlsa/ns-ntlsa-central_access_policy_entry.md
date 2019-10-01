@@ -38,7 +38,6 @@ api_location:
  - Ntlsa.h
 api_name:
  - CENTRAL_ACCESS_POLICY_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CENTRAL_ACCESS_POLICY_ENTRY, *PCENTRAL_ACCESS_POLICY_ENTRY
 req.redist: 

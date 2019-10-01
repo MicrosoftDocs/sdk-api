@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - EnumSurfacesCallback7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

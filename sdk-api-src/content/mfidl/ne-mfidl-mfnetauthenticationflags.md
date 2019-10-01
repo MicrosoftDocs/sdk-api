@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFNetAuthenticationFlags
-product: Windows
 targetos: Windows
 req.typenames: MFNetAuthenticationFlags
 req.redist: 

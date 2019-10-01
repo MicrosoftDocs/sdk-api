@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - RADIUSSERVERPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: RADIUSSERVERPROPERTIES
 req.redist: 

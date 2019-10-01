@@ -39,7 +39,6 @@ api_location:
  - Dxgi.dll
 api_name:
  - IDXGIOutput2.SupportsOverlays
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

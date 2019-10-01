@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_DEVICE_USAGE
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_DEVICE_USAGE
 req.redist: 

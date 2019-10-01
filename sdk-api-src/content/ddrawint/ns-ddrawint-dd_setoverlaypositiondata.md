@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_SETOVERLAYPOSITIONDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA'
 req.redist: 

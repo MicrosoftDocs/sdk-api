@@ -40,7 +40,6 @@ api_name:
 - WTSEnumerateServers
 - WTSEnumerateServersA
 - WTSEnumerateServersW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

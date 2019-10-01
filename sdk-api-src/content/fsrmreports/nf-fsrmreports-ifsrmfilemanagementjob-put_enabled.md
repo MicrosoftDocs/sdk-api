@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.Enabled
  - IFsrmFileManagementJob.get_Enabled
  - IFsrmFileManagementJob.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

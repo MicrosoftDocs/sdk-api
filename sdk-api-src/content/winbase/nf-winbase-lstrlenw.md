@@ -47,7 +47,6 @@ api_name:
  - lstrlen
  - lstrlenA
  - lstrlenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

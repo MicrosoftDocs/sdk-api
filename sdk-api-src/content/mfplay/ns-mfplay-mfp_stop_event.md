@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_STOP_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_STOP_EVENT
 req.redist: 

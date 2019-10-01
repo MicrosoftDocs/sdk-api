@@ -38,7 +38,6 @@ api_location:
  - Imm.h
 api_name:
  - EnumInputContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

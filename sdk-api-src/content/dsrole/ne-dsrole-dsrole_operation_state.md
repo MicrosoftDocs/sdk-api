@@ -38,7 +38,6 @@ api_location:
 - Dsrole.h
 api_name:
 - DSROLE_OPERATION_STATE
-product: Windows
 targetos: Windows
 req.typenames: DSROLE_OPERATION_STATE
 req.redist: 

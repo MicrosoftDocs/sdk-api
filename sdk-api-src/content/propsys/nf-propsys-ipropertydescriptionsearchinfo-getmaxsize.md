@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyDescriptionSearchInfo.GetMaxSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

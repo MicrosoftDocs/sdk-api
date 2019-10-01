@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendee.Id
  - IRDPSRAPIAttendee.get_Id
  - RDPSRAPIAttendee.Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - IP4_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: IP4_ARRAY, *PIP4_ARRAY
 req.redist: 

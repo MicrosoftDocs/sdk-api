@@ -38,7 +38,6 @@ api_location:
 - Dhcpcsvc6.dll
 api_name:
 - Dhcpv6RequestParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

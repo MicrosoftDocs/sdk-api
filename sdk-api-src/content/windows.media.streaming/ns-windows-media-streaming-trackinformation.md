@@ -38,7 +38,6 @@ api_location:
  - windows.media.streaming.h
 api_name:
  - TrackInformation
-product: Windows
 targetos: Windows
 req.typenames: TrackInformation
 req.redist: 

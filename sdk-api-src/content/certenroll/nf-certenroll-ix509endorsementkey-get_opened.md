@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509EndorsementKey.Opened
  - IX509EndorsementKey.get_Opened
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

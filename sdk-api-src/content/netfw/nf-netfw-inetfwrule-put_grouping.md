@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Grouping
  - INetFwRule.get_Grouping
  - INetFwRule.put_Grouping
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

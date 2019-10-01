@@ -41,7 +41,6 @@ api_name:
  - CHStringArray.GetUpperBound
  - ?GetUpperBound@CHStringArray@@QBEHXZ
  - ?GetUpperBound@CHStringArray@@QEBAHXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

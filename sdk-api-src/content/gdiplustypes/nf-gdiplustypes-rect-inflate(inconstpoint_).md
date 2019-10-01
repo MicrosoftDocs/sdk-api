@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Rect.Inflate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

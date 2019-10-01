@@ -45,7 +45,6 @@ api_name:
  - StrPBrk
  - StrPBrkA
  - StrPBrkW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkDisp.Strokes
  - IInkDisp.get_Strokes
  - InkDisp.get_Strokes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

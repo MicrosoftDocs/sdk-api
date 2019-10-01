@@ -40,7 +40,6 @@ api_name:
  - MsiGetComponentPathEx
  - MsiGetComponentPathExA
  - MsiGetComponentPathExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

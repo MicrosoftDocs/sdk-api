@@ -47,7 +47,6 @@ api_location:
 - api-ms-win-core-kernel32-legacy-l1-1-6.dll
 api_name:
 - SetFileCompletionNotificationModes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

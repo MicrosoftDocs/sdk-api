@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - CloseClusterNetInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

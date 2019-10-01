@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.DownloadPriority
  - IUpdate.get_DownloadPriority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CERT_ENUM_SYSTEM_STORE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

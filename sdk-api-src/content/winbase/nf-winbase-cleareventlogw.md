@@ -41,7 +41,6 @@ api_name:
  - ClearEventLog
  - ClearEventLogA
  - ClearEventLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

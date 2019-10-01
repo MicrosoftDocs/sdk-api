@@ -49,7 +49,6 @@ api_name:
  - DefineDosDevice
  - DefineDosDeviceA
  - DefineDosDeviceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

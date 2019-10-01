@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMExtendedErrorInfo.get_ErrorDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

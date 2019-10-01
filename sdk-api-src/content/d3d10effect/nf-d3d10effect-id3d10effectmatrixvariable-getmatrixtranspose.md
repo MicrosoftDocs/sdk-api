@@ -38,7 +38,6 @@ api_location:
  - D3D10Effect.h
 api_name:
  - ID3D10EffectMatrixVariable.GetMatrixTranspose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

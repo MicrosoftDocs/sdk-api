@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - AdrClientDisplayFlags
-product: Windows
 targetos: Windows
 req.typenames: AdrClientDisplayFlags
 req.redist: 

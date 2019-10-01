@@ -38,7 +38,6 @@ api_location:
  - iketypes.h
 api_name:
  - IKEEXT_CREDENTIAL_PAIR2
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_CREDENTIAL_PAIR2
 req.redist: 

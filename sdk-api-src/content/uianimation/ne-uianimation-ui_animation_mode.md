@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_MODE
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_MODE
 req.redist: 

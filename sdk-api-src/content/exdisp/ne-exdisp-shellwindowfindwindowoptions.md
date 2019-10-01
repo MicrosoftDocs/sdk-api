@@ -38,7 +38,6 @@ api_location:
  - ExDisp.h
 api_name:
  - ShellWindowFindWindowOptions
-product: Windows
 targetos: Windows
 req.typenames: ShellWindowFindWindowOptions
 req.redist: 

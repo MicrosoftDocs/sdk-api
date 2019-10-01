@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUSTER_CSV_VOLUME_FAULT_STATE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CSV_VOLUME_FAULT_STATE, *PCLUSTER_CSV_VOLUME_FAULT_STATE
 req.redist: 

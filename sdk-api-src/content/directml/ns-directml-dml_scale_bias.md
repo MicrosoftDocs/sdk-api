@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_SCALE_BIAS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

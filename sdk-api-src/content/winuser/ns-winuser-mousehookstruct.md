@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MOUSEHOOKSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MOUSEHOOKSTRUCT, *LPMOUSEHOOKSTRUCT, *PMOUSEHOOKSTRUCT
 req.redist: 

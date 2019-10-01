@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPlanarOptions
-product: Windows
 targetos: Windows
 req.typenames: WICPlanarOptions
 req.redist: 

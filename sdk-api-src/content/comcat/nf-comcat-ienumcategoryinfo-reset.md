@@ -38,7 +38,6 @@ api_location:
  - ComCat.h
 api_name:
  - IEnumCATEGORYINFO.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_Subject
  - IFaxDocument.get_Subject
  - IFaxDocument.put_Subject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_PEND_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_PEND_INFO, *PCMC_PEND_INFO
 req.redist: 

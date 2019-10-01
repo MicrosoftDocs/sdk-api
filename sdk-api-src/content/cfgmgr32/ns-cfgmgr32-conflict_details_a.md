@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CONFLICT_DETAILS
  - conflict_details_a
-product: Windows
 targetos: Windows
 req.typenames: CONFLICT_DETAILS_A, *PCONFLICT_DETAILS_A
 req.redist: 

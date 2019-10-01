@@ -38,7 +38,6 @@ api_location:
  - callobj.h
 api_name:
  - CALLFRAME_MARSHALCONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CALLFRAME_MARSHALCONTEXT
 req.redist: 

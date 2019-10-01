@@ -41,7 +41,6 @@ api_location:
 - DbgCore.dll
 api_name:
 - MiniDumpReadDumpStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll and Dbgcore.dll

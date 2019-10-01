@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - HAS_POINTER_CONFIDENCE_WPARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

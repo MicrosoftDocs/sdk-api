@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - HTTP_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIViewer.ApplicationFilter
  - IRDPSRAPIViewer.get_ApplicationFilter
  - RDPViewer.ApplicationFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

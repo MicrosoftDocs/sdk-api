@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_AccessToken
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_AccessToken, *PSecPkgContext_AccessToken
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PROPDESC_FORMAT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PROPDESC_FORMAT_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - LPM_INIT_INFO
-product: Windows
 targetos: Windows
 req.typenames: LPM_INIT_INFO
 req.redist: 

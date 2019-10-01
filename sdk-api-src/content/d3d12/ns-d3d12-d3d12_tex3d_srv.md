@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_TEX3D_SRV
-product: Windows
 targetos: Windows
 req.typenames: D3D12_TEX3D_SRV
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - CALLHUB_EVENT
-product: Windows
 targetos: Windows
 req.typenames: CALLHUB_EVENT
 req.redist: 

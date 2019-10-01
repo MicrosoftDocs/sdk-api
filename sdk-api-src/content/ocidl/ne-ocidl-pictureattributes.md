@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - PICTUREATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: PICTUREATTRIBUTES
 req.redist: 

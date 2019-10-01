@@ -38,7 +38,6 @@ api_location:
  - Textserv.h
 api_name:
  - CHANGENOTIFY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

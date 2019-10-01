@@ -38,7 +38,6 @@ api_location:
 - Iassdo.dll
 api_name:
 - ISdoCollection.Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

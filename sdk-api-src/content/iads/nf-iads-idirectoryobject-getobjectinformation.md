@@ -38,7 +38,6 @@ api_location:
 - Activeds.dll
 api_name:
 - IDirectoryObject.GetObjectInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

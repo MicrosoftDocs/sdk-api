@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskSettings.Enabled
  - ITaskSettings.get_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

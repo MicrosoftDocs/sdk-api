@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeClientId.MachineDnsName
  - IX509AttributeClientId.get_MachineDnsName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

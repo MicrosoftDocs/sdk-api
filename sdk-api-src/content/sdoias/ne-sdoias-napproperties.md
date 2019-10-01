@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - NAPPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: NAPPROPERTIES
 req.redist: 

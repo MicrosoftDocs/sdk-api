@@ -38,7 +38,6 @@ api_location:
  - MDMRegistration.h
 api_name:
  - REGISTRATION_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
 req.redist: 

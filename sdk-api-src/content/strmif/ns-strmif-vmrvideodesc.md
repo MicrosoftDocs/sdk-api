@@ -38,7 +38,6 @@ api_location:
 - strmif.h
 api_name:
 - VMRVideoDesc
-product: Windows
 targetos: Windows
 req.typenames: VMRVideoDesc
 req.redist: 

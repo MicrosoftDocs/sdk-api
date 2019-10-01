@@ -38,7 +38,6 @@ api_location:
  - msctf.dll
 api_name:
  - TF_GetThreadMgr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows XPWindows 2000 Professional

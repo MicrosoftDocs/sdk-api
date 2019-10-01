@@ -41,7 +41,6 @@ api_name:
  - CObjectPathParser.CObjectPathParser
  - ??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z
  - ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequest.SuppressDefaults
  - IX509CertificateRequest.get_SuppressDefaults
  - IX509CertificateRequest.put_SuppressDefaults
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fastprox.dll
 api_name:
  - IWbemObjectTextSrc.GetText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

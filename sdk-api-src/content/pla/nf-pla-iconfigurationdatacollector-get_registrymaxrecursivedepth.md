@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.RegistryMaxRecursiveDepth
  - IConfigurationDataCollector.get_RegistryMaxRecursiveDepth
  - IConfigurationDataCollector.put_RegistryMaxRecursiveDepth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - AUDIT_POLICY_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
 req.redist: 

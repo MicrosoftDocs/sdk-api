@@ -38,7 +38,6 @@ api_location:
  - Wcndevice.h
 api_name:
  - WCN_VENDOR_EXTENSION_SPEC
-product: Windows
 targetos: Windows
 req.typenames: WCN_VENDOR_EXTENSION_SPEC
 req.redist: 

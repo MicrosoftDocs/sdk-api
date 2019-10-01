@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - IX509ExtensionAuthorityKeyIdentifier.InitializeEncode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

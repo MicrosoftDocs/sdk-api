@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

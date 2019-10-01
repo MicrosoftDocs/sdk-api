@@ -38,7 +38,6 @@ api_location:
  - WebServices.dll
 api_name:
  - WsReadMessageEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

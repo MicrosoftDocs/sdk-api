@@ -38,7 +38,6 @@ api_location:
  - WdsPxe.h
 api_name:
  - PXE_DHCP_OPTION
-product: Windows
 targetos: Windows
 req.typenames: PXE_DHCP_OPTION, *PPXE_DHCP_OPTION
 req.redist: 

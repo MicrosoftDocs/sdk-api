@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_UNLOCKDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_UNLOCKDATA, DD_UNLOCKDATA'
 req.redist: 

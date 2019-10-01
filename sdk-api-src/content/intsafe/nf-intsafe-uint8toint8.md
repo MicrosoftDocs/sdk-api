@@ -38,7 +38,6 @@ api_location:
  - intsafe.h
 api_name:
  - UInt8ToInt8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

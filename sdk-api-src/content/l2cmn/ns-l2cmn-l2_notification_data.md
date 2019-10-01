@@ -38,7 +38,6 @@ api_location:
 - l2cmn.h
 api_name:
 - L2_NOTIFICATION_DATA
-product: Windows
 targetos: Windows
 req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
 req.redist: 

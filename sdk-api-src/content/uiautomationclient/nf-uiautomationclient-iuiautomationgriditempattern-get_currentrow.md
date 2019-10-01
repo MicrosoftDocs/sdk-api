@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationGridItemPattern.CurrentRow
  - IUIAutomationGridItemPattern.get_CurrentRow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

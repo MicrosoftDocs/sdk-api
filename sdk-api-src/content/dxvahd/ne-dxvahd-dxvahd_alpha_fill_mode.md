@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_ALPHA_FILL_MODE
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_ALPHA_FILL_MODE
 req.redist: 

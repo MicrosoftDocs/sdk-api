@@ -38,7 +38,6 @@ api_location:
 - VsMgmt.h
 api_name:
 - VSS_PROTECTION_FAULT
-product: Windows
 targetos: Windows
 req.typenames: VSS_PROTECTION_FAULT, *PVSS_PROTECTION_FAULT
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - CloseThreadpoolCleanupGroupMembers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

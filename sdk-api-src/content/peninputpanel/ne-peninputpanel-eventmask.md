@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - EventMask
-product: Windows
 targetos: Windows
 req.typenames: EventMask
 req.redist: 

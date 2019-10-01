@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFVP_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MFVP_MESSAGE_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - IPrincipal.LogonType
 - IPrincipal.get_LogonType
 - IPrincipal.put_LogonType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

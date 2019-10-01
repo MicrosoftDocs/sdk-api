@@ -38,7 +38,6 @@ api_location:
  - PlayToDevice.dll
 api_name:
  - IDevicePair.get_Server
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

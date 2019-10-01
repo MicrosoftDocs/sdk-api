@@ -38,7 +38,6 @@ api_location:
  - Dcomp.dll
 api_name:
  - IDCompositionSurface.ResumeDraw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

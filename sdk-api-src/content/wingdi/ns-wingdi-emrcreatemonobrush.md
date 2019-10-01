@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATEMONOBRUSH
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATEMONOBRUSH, *PEMRCREATEMONOBRUSH
 req.redist: 

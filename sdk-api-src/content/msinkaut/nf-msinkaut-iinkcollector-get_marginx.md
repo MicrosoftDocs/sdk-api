@@ -43,7 +43,6 @@ api_name:
  - IInkCollector.put_MarginX
  - InkCollector.get_MarginX
  - InkCollector.put_MarginX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WsbOnline.h
 api_name:
  - WSB_OB_STATUS_ENTRY_PAIR_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
 req.redist: 

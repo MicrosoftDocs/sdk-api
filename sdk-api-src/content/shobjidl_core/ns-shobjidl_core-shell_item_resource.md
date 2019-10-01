@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - SHELL_ITEM_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: SHELL_ITEM_RESOURCE
 req.redist: 

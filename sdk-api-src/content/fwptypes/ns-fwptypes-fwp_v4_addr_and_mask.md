@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_V4_ADDR_AND_MASK
-product: Windows
 targetos: Windows
 req.typenames: FWP_V4_ADDR_AND_MASK
 req.redist: 

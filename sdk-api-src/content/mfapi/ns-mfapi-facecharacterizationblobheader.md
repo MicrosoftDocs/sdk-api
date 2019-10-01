@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - FaceCharacterizationBlobHeader
-product: Windows
 targetos: Windows
 req.typenames: FaceCharacterizationBlobHeader
 req.redist: 

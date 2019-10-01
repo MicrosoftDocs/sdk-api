@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwProfile.Services
  - INetFwProfile.get_Services
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

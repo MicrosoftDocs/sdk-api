@@ -40,7 +40,6 @@ api_name:
  - AXISINFO
  - AXISINFOA
  - AXISINFOW
-product: Windows
 targetos: Windows
 req.typenames: AXISINFOW, *PAXISINFOW, *LPAXISINFOW
 req.redist: 

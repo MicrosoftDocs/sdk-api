@@ -40,7 +40,6 @@ api_name:
  - IShellLink
  - IShellLinkW
  - IShellLinkA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

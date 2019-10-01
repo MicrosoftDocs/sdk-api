@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HH_AKLINK
-product: Windows
 targetos: Windows
 req.typenames: HH_AKLINK
 req.redist: 

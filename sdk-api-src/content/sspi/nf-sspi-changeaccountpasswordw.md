@@ -40,7 +40,6 @@ api_name:
 - ChangeAccountPassword
 - ChangeAccountPasswordA
 - ChangeAccountPasswordW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SetUserObjectInformation
  - SetUserObjectInformationA
  - SetUserObjectInformationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

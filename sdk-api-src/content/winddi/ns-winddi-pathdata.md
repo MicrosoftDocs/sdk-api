@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - PATHDATA
-product: Windows
 targetos: Windows
 req.typenames: PATHDATA, *PPATHDATA
 req.redist: 

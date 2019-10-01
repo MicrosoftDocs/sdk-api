@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_RESPONSE_V2
-product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2
 req.redist: 

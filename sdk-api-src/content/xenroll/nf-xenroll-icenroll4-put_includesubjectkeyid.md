@@ -41,7 +41,6 @@ api_name:
  - ICEnroll4.get_IncludeSubjectKeyID
  - ICEnroll4.put_IncludeSubjectKeyID
  - CEnroll.IncludeSubjectKeyID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

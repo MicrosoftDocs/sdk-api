@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.GetVersion
  - IWMProfile2.GetVersion
  - IWMProfile3.GetVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tcpestats.h
 api_name:
  - TCP_BOOLEAN_OPTIONAL
-product: Windows
 targetos: Windows
 req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
 req.redist: 

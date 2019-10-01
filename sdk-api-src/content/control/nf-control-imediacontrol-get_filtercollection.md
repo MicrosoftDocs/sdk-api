@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IMediaControl.get_FilterCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

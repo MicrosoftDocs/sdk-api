@@ -38,7 +38,6 @@ api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
  - MC_SIZE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MC_SIZE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Evcoll.h
 api_name:
 - EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
-product: Windows
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 req.redist: 

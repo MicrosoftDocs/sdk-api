@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - GROUP_INFO_3
-product: Windows
 targetos: Windows
 req.typenames: GROUP_INFO_3, *PGROUP_INFO_3
 req.redist: 

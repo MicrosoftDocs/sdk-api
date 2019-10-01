@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - FD_KERNINGPAIR
-product: Windows
 targetos: Windows
 req.typenames: FD_KERNINGPAIR
 req.redist: 

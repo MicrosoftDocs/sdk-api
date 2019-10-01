@@ -40,7 +40,6 @@ api_name:
  - ldap_rename_ext_s
  - ldap_rename_ext_sA
  - ldap_rename_ext_sW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

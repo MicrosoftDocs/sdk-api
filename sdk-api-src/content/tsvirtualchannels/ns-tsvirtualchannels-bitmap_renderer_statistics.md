@@ -38,7 +38,6 @@ api_location:
  - tsvirtualchannels.h
 api_name:
  - BITMAP_RENDERER_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - ASSOCIATIONELEMENT
-product: Windows
 targetos: Windows
 req.typenames: ASSOCIATIONELEMENT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Bits.h
 api_name:
 - BG_FILE_PROGRESS
-product: Windows
 targetos: Windows
 req.typenames: BG_FILE_PROGRESS
 req.redist: 

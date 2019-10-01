@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.Schedules
  - IDataCollectorSet.get_Schedules
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commoncontrols.h
 api_name:
  - IImageList2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

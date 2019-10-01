@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_REQUEST_SECURITY_TOKEN_ACTION
-product: Windows
 targetos: Windows
 req.typenames: WS_REQUEST_SECURITY_TOKEN_ACTION
 req.redist: 

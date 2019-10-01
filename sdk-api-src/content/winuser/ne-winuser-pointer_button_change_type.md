@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - POINTER_BUTTON_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: POINTER_BUTTON_CHANGE_TYPE
 req.redist: 

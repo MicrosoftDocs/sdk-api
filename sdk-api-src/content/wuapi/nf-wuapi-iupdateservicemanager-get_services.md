@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateServiceManager.Services
  - IUpdateServiceManager.get_Services
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

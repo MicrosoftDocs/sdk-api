@@ -38,7 +38,6 @@ api_location:
  - SessDirPublicTypes.h
 api_name:
  - TSSD_AddrV46Type
-product: Windows
 targetos: Windows
 req.typenames: TSSD_AddrV46Type
 req.redist: 

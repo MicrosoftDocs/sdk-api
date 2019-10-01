@@ -45,7 +45,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - ChangeWindowMessageFilterEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

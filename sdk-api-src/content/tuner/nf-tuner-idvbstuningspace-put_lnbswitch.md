@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IDVBSTuningSpace.put_LNBSwitch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

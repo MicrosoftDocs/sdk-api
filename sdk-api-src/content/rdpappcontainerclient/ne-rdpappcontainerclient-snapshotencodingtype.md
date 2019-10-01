@@ -38,7 +38,6 @@ api_location:
  - MsTscAx.dll
 api_name:
  - SnapshotEncodingType
-product: Windows
 targetos: Windows
 req.typenames: SnapshotEncodingType
 req.redist: 

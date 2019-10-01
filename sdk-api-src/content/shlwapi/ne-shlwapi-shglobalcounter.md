@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - SHGLOBALCOUNTER
-product: Windows
 targetos: Windows
 req.typenames: SHGLOBALCOUNTER
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidatePutInstanceFlags
  - ?ValidatePutInstanceFlags@Provider@@MAEJJ@Z
  - ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

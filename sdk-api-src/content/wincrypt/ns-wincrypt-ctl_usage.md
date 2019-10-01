@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_USAGE
-product: Windows
 targetos: Windows
 req.typenames: CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE
 req.redist: 

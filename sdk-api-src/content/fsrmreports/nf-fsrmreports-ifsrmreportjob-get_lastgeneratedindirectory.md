@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportJob.LastGeneratedInDirectory
  - IFsrmReportJob.get_LastGeneratedInDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

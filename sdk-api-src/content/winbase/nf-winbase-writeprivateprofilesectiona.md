@@ -44,7 +44,6 @@ api_name:
  - WritePrivateProfileSection
  - WritePrivateProfileSectionA
  - WritePrivateProfileSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

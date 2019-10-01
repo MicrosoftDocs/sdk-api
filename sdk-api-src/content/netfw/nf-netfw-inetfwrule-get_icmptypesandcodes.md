@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.IcmpTypesAndCodes
  - INetFwRule.get_IcmpTypesAndCodes
  - INetFwRule.put_IcmpTypesAndCodes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

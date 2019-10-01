@@ -38,7 +38,6 @@ api_location:
  - WdsClientApi.dll
 api_name:
  - WdsCliGetImageName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

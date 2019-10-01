@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - COMPVARS
-product: Windows
 targetos: Windows
 req.typenames: COMPVARS, *PCOMPVARS
 req.redist: 

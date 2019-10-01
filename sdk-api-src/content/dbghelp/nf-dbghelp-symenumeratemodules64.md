@@ -41,7 +41,6 @@ api_name:
  - SymEnumerateModules64
  - SymEnumerateModulesW64
  - SymEnumerateModules
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

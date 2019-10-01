@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_EXT_VIEW_DATA
-product: Windows
 targetos: Windows
 req.typenames: MMC_EXT_VIEW_DATA, *PMMC_EXT_VIEW_DATA
 req.redist: 

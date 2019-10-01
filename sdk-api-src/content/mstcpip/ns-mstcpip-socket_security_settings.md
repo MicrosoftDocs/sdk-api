@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - SOCKET_SECURITY_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: SOCKET_SECURITY_SETTINGS
 req.redist: 

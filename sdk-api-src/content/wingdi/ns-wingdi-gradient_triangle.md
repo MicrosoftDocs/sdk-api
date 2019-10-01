@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - GRADIENT_TRIANGLE
-product: Windows
 targetos: Windows
 req.typenames: GRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, *LPGRADIENT_TRIANGLE
 req.redist: 

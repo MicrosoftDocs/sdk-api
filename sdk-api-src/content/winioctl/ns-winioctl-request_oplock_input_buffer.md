@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - REQUEST_OPLOCK_INPUT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_INPUT_BUFFER, *PREQUEST_OPLOCK_INPUT_BUFFER
 req.redist: 

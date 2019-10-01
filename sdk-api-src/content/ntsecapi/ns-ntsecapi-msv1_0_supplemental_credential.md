@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - MSV1_0_SUPPLEMENTAL_CREDENTIAL
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_SUPPLEMENTAL_CREDENTIAL, *PMSV1_0_SUPPLEMENTAL_CREDENTIAL
 req.redist: 

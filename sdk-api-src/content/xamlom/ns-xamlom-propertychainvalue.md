@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - PropertyChainValue
-product: Windows
 targetos: Windows
 req.typenames: PropertyChainValue
 req.redist: 

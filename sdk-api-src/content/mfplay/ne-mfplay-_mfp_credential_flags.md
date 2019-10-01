@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - _MFP_CREDENTIAL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: "_MFP_CREDENTIAL_FLAGS"
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - API-MS-Win-devices-config-l1-1-1.dll
 api_name:
  - CM_Get_DevNode_Property_Keys
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

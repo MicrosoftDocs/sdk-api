@@ -40,7 +40,6 @@ api_name:
  - InternetCombineUrl
  - InternetCombineUrlA
  - InternetCombineUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

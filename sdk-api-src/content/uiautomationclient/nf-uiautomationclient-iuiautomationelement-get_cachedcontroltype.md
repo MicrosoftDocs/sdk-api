@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedControlType
  - IUIAutomationElement.get_CachedControlType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -50,7 +50,6 @@ api_name:
  - WaitNamedPipe
  - WaitNamedPipeA
  - WaitNamedPipeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

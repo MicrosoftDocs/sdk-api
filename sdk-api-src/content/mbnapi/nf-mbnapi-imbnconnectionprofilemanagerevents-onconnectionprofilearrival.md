@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

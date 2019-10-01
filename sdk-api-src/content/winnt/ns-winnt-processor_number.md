@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESSOR_NUMBER
-product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 req.redist: 

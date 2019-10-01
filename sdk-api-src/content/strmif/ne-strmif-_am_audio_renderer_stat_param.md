@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - _AM_AUDIO_RENDERER_STAT_PARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

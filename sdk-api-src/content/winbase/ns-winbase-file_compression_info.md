@@ -39,7 +39,6 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_COMPRESSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_COMPRESSION_INFO, *PFILE_COMPRESSION_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

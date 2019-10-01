@@ -40,7 +40,6 @@ api_name:
  - INetFwProduct.RuleCategories
  - INetFwProduct.get_RuleCategories
  - INetFwProduct.put_RuleCategories
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

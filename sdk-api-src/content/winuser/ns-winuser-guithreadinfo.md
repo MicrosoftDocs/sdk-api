@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - GUITHREADINFO
-product: Windows
 targetos: Windows
 req.typenames: GUITHREADINFO, *PGUITHREADINFO, *LPGUITHREADINFO
 req.redist: Service Pack 3

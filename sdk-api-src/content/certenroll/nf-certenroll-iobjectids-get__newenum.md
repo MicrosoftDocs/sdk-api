@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IObjectIds._NewEnum
  - IObjectIds.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

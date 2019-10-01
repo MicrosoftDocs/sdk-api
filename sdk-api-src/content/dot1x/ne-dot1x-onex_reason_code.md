@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_REASON_CODE
-product: Windows
 targetos: Windows
 req.typenames: ONEX_REASON_CODE, PONEX_REASON_CODE
 req.redist: 

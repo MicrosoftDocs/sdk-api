@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
-product: Windows
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
 req.redist: 

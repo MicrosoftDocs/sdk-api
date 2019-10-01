@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAP_BERVAL
-product: Windows
 targetos: Windows
 req.typenames: LDAP_BERVAL, *PLDAP_BERVAL, BERVAL, *PBERVAL, BerValue
 req.redist: 

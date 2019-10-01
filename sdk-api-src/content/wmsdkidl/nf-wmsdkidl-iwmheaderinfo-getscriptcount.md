@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.GetScriptCount
  - IWMHeaderInfo2.GetScriptCount
  - IWMHeaderInfo3.GetScriptCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

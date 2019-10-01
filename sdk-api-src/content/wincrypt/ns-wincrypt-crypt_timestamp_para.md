@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_TIMESTAMP_PARA
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_PARA, *PCRYPT_TIMESTAMP_PARA
 req.redist: 

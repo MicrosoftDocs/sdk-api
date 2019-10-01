@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AMTunerModeType
-product: Windows
 targetos: Windows
 req.typenames: AMTunerModeType
 req.redist: 

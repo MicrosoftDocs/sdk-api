@@ -40,7 +40,6 @@ api_name:
  - capCreateCaptureWindow
  - capCreateCaptureWindowA
  - capCreateCaptureWindowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

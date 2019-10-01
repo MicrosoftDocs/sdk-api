@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTER_GET_UPGRADE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

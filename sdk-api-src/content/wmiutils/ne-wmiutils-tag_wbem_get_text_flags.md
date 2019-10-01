@@ -38,7 +38,6 @@ api_location:
  - WMIUtils.h
 api_name:
  - tag_WBEM_GET_TEXT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: tag_WBEM_GET_TEXT_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRasterOperation
-product: Windows
 targetos: Windows
 req.typenames: InkRasterOperation
 req.redist: 

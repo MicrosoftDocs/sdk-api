@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITTerminalSupport2.get_PluggableTerminalClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

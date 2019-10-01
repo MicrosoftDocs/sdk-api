@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - IASOSTYPE
-product: Windows
 targetos: Windows
 req.typenames: IASOSTYPE, *PIASOSTYPE
 req.redist: 

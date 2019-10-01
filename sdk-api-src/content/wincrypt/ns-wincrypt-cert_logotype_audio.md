@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_LOGOTYPE_AUDIO
-product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_AUDIO, *PCERT_LOGOTYPE_AUDIO
 req.redist: 

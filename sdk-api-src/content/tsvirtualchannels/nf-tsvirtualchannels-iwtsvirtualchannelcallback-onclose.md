@@ -38,7 +38,6 @@ api_location:
  - TsVirtualChannels.h
 api_name:
  - IWTSVirtualChannelCallback.OnClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

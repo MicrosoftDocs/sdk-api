@@ -38,7 +38,6 @@ api_location:
  - amvideo.h
 api_name:
  - TRUECOLORINFO
-product: Windows
 targetos: Windows
 req.typenames: TRUECOLORINFO
 req.redist: 

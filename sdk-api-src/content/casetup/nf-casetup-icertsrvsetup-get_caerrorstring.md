@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertSrvSetup.CAErrorString
  - ICertSrvSetup.get_CAErrorString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

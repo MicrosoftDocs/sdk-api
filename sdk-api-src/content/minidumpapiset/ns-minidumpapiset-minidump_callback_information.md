@@ -38,7 +38,6 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_CALLBACK_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_CALLBACK_INFORMATION, *PMINIDUMP_CALLBACK_INFORMATION
 req.redist: DbgHelp.dll 5.1 or later

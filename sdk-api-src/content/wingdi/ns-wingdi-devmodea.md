@@ -40,7 +40,6 @@ api_name:
  - DEVMODE
  - _DEVMODEA
  - _DEVMODEW
-product: Windows
 targetos: Windows
 req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
 req.redist: 

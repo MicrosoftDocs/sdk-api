@@ -42,7 +42,6 @@ api_name:
  - IRealTimeStylus.put_Enabled
  - IRealTimeStylus.get_Enabled
  - IRealTimeStylus.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

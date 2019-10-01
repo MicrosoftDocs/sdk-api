@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy.NetworkProfile
  - IWdsTransportServicePolicy.get_NetworkProfile
  - IWdsTransportServicePolicy.put_NetworkProfile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

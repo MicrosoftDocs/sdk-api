@@ -38,7 +38,6 @@ api_location:
  - Olectl.h
 api_name:
  - PICTDESC
-product: Windows
 targetos: Windows
 req.typenames: PICTDESC, *LPPICTDESC
 req.redist: 

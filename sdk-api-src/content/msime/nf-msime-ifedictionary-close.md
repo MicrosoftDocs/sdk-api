@@ -38,7 +38,6 @@ api_location:
  - Msime.h
 api_name:
  - IFEDictionary.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

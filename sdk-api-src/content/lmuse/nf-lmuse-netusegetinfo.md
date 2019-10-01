@@ -38,7 +38,6 @@ api_location:
 - Netapi32.dll
 api_name:
 - NetUseGetInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

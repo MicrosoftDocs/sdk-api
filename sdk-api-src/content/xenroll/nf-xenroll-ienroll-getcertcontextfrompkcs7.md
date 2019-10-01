@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IEnroll.getCertContextFromPKCS7
 - IEnroll2.getCertContextFromPKCS7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

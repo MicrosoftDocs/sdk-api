@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.FindItemByLParam
  - IResultData2.FindItemByLParam
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS, *PWDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS
 req.redist: 

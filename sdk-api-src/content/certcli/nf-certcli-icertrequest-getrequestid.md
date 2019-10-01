@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetRequestId
  - ICertRequest.GetRequestId
  - CCertRequest.GetRequestId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

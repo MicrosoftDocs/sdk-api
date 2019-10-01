@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - ELEMENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 req.redist: 

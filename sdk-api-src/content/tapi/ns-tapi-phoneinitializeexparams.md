@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONEINITIALIZEEXPARAMS
-product: Windows
 targetos: Windows
 req.typenames: PHONEINITIALIZEEXPARAMS, *LPPHONEINITIALIZEEXPARAMS
 req.redist: 

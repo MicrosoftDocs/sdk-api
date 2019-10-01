@@ -39,7 +39,6 @@ api_location:
  - InkEd.dll.dll
 api_name:
  - IInkEdit.Recognize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

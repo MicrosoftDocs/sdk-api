@@ -40,7 +40,6 @@ api_location:
  - Kernel32Legacy.dll
 api_name:
  - SetThreadExecutionState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

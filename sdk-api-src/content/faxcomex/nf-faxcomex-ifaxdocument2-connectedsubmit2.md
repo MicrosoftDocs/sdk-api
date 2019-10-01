@@ -38,7 +38,6 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxDocument2.ConnectedSubmit2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

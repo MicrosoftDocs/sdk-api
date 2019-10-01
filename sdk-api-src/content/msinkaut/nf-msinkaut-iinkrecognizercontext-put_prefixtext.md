@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerContext.put_PrefixText
  - InkRecognizerContext.get_PrefixText
  - InkRecognizerContext.put_PrefixText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

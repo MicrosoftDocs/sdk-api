@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkClipboardModes
-product: Windows
 targetos: Windows
 req.typenames: InkClipboardModes
 req.redist: 

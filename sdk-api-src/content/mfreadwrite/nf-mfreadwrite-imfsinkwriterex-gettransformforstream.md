@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.h
 api_name:
  - IMFSinkWriterEx.GetTransformForStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

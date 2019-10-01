@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - FIND_NAME_HEADER
-product: Windows
 targetos: Windows
 req.typenames: FIND_NAME_HEADER, *PFIND_NAME_HEADER
 req.redist: 

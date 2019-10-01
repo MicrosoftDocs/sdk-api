@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_SEARCH_COLUMN
-product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCH_COLUMN, *PADS_SEARCH_COLUMN
 req.redist: 

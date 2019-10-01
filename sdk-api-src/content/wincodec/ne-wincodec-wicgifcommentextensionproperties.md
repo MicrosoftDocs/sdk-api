@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICGifCommentExtensionProperties
-product: Windows
 targetos: Windows
 req.typenames: WICGifCommentExtensionProperties
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Pla.dll
 api_name:
  - IValueMap.AddRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

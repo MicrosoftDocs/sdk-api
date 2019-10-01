@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_MouseIcon
  - InkPicture.get_MouseIcon
  - InkPicture.put_MouseIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICConfigure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

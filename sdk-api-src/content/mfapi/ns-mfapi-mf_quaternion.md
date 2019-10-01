@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MF_QUATERNION
-product: Windows
 targetos: Windows
 req.typenames: MF_QUATERNION
 req.redist: 

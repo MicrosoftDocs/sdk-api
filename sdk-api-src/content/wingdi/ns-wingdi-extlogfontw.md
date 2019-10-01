@@ -40,7 +40,6 @@ api_name:
  - EXTLOGFONT
  - EXTLOGFONTA
  - EXTLOGFONTW
-product: Windows
 targetos: Windows
 req.typenames: EXTLOGFONTW, *PEXTLOGFONTW, *NPEXTLOGFONTW, *LPEXTLOGFONTW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Upnphost.dll
 api_name:
  - IUPnPRemoteEndpointInfo.GetGuidValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

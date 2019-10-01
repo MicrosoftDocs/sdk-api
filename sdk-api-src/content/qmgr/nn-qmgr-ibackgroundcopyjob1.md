@@ -41,7 +41,6 @@ api_name:
  - IBackgroundCopyJob1.CancelJob
  - IBackgroundCopyJob1.SwitchToForeground
  - IBackgroundCopyJob1.GetTimes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - EngAcquireSemaphore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

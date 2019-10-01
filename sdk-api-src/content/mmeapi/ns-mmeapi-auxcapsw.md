@@ -39,7 +39,6 @@ api_location:
 api_name:
  - AUXCAPS
  - AUXCAPSW
-product: Windows
 targetos: Windows
 req.typenames: AUXCAPSW, *PAUXCAPSW, *NPAUXCAPSW, *LPAUXCAPSW
 req.redist: 

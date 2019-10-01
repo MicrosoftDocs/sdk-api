@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_DiscountRateStartHour
  - IFaxServer.get_DiscountRateStartHour
  - IFaxServer.put_DiscountRateStartHour
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

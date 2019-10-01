@@ -38,7 +38,6 @@ api_location:
  - NCrypt.dll
 api_name:
  - NCryptStreamOpenToProtect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

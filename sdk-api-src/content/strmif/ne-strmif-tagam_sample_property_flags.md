@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - tagAM_SAMPLE_PROPERTY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

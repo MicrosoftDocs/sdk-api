@@ -38,7 +38,6 @@ api_location:
  - xapo.h
 api_name:
  - XAPO_BUFFER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: XAPO_BUFFER_FLAGS
 req.redist: 

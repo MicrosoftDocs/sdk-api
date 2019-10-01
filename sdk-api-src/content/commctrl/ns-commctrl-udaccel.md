@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - UDACCEL
-product: Windows
 targetos: Windows
 req.typenames: UDACCEL, *LPUDACCEL
 req.redist: 

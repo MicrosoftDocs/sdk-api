@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADSVALUE
-product: Windows
 targetos: Windows
 req.typenames: ADSVALUE, *PADSVALUE, *LPADSVALUE
 req.redist: 

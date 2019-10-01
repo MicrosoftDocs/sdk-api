@@ -38,7 +38,6 @@ api_location:
 - msopc.h
 api_name:
 - IOpcDigitalSignature.GetCertificateEnumerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkTablet.PlugAndPlayID
  - IInkTablet.get_PlugAndPlayID
  - IInkTablet.get_PlugAndPlayID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

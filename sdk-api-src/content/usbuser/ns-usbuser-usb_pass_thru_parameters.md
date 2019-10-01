@@ -38,7 +38,6 @@ api_location:
 - usbuser.h
 api_name:
 - USB_PASS_THRU_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: USB_PASS_THRU_PARAMETERS, *PUSB_PASS_THRU_PARAMETERS
 req.redist: 

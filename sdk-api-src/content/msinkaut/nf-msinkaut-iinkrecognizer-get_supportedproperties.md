@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizer.SupportedProperties
  - IInkRecognizer.get_SupportedProperties
  - IInkRecognizer.get_SupportedProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

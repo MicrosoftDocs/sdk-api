@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetSharingConfiguration.AddPortMapping
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

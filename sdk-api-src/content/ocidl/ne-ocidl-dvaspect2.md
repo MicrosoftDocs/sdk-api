@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - DVASPECT2
-product: Windows
 targetos: Windows
 req.typenames: DVASPECT2
 req.redist: 

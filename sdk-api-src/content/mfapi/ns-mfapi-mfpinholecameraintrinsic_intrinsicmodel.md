@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFPinholeCameraIntrinsic_IntrinsicModel
-product: Windows
 targetos: Windows
 req.typenames: MFPinholeCameraIntrinsic_IntrinsicModel
 req.redist: 

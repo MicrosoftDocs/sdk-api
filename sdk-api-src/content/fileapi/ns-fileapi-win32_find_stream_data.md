@@ -38,7 +38,6 @@ api_location:
  - fileapi.h
 api_name:
  - WIN32_FIND_STREAM_DATA
-product: Windows
 targetos: Windows
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 req.redist: 

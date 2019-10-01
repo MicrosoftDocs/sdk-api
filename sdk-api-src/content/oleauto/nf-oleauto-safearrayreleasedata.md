@@ -38,7 +38,6 @@ api_location:
  - Oleaut32.dll
 api_name:
  - SafeArrayReleaseData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - AddIscsiConnection
 - AddIscsiConnectionA
 - AddIscsiConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

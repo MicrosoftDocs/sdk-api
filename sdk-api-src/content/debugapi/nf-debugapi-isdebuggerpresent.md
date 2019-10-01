@@ -44,7 +44,6 @@ api_location:
  - API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
  - IsDebuggerPresent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 req.redist: 

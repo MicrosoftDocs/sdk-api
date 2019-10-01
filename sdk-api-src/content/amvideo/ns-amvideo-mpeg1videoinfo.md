@@ -38,7 +38,6 @@ api_location:
  - amvideo.h
 api_name:
  - MPEG1VIDEOINFO
-product: Windows
 targetos: Windows
 req.typenames: MPEG1VIDEOINFO
 req.redist: 

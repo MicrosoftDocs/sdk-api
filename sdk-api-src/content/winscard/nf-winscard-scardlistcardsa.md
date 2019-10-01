@@ -42,7 +42,6 @@ api_name:
  - SCardListCards
  - SCardListCardsA
  - SCardListCardsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_FILTER_LIST_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_LIST_TYPE, *LPDHCP_FILTER_LIST_TYPE
 req.redist: 

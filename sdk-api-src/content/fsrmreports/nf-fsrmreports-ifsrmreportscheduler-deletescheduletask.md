@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportScheduler.DeleteScheduleTask
  - FsrmReportScheduler.DeleteScheduleTask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

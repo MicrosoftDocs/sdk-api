@@ -38,7 +38,6 @@ api_location:
  - Mmdeviceapi.h
 api_name:
  - EndpointFormFactor
-product: Windows
 targetos: Windows
 req.typenames: EndpointFormFactor
 req.redist: 

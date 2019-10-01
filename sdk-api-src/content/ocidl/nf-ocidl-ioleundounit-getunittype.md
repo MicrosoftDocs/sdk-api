@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IOleUndoUnit.GetUnitType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

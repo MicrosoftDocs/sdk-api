@@ -38,7 +38,6 @@ api_location:
  - Ual.h
 api_name:
  - UAL_DATA_BLOB
-product: Windows
 targetos: Windows
 req.typenames: UAL_DATA_BLOB, *PUAL_DATA_BLOB
 req.redist: 

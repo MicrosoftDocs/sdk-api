@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionAlternativeNames.AlternativeNames
  - IX509ExtensionAlternativeNames.get_AlternativeNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

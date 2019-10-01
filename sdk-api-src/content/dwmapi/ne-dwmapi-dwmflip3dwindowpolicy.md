@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWMFLIP3DWINDOWPOLICY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

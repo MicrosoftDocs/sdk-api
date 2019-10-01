@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.SenderNonce
  - IX509CertificateRequestCmc.get_SenderNonce
  - IX509CertificateRequestCmc.put_SenderNonce
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

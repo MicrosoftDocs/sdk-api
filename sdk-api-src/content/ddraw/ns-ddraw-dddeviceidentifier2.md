@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - DDDEVICEIDENTIFIER2
-product: Windows
 targetos: Windows
 req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
 req.redist: 

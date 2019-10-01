@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 req.redist: 

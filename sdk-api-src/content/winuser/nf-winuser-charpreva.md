@@ -46,7 +46,6 @@ api_name:
  - CharPrev
  - CharPrevA
  - CharPrevW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

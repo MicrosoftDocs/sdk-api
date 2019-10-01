@@ -38,7 +38,6 @@ api_location:
 - Richedit.h
 api_name:
 - TABLEROWPARMS
-product: Windows
 targetos: Windows
 req.typenames: TABLEROWPARMS
 req.redist: 

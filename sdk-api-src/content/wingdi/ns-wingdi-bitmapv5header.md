@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - BITMAPV5HEADER
-product: Windows
 targetos: Windows
 req.typenames: BITMAPV5HEADER, *LPBITMAPV5HEADER, *PBITMAPV5HEADER
 req.redist: 

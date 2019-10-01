@@ -40,7 +40,6 @@ api_name:
  - GetIscsiSessionList
  - GetIscsiSessionListA
  - GetIscsiSessionListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

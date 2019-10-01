@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WRDS_CONNECTION_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
 req.redist: 

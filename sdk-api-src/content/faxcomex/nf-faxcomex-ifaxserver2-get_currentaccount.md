@@ -40,7 +40,6 @@ api_name:
  - IFaxServer2.CurrentAccount
  - IFaxServer2.get_CurrentAccount
  - IFaxServer2.get_CurrentAccount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

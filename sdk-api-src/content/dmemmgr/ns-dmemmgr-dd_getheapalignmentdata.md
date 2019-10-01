@@ -38,7 +38,6 @@ api_location:
 - dmemmgr.h
 api_name:
 - DD_GETHEAPALIGNMENTDATA
-product: Windows
 targetos: Windows
 req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
 req.redist: 

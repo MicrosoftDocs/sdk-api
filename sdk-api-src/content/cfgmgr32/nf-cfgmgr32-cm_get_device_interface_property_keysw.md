@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CM_Get_Device_Interface_Property_Keys
  - CM_Get_Device_Interface_Property_KeysW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

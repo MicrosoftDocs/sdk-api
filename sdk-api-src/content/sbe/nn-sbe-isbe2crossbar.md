@@ -38,7 +38,6 @@ api_location:
  - sbe.h
 api_name:
  - ISBE2Crossbar
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

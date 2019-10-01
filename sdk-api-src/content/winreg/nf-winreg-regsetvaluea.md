@@ -43,7 +43,6 @@ api_name:
  - RegSetValue
  - RegSetValueA
  - RegSetValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

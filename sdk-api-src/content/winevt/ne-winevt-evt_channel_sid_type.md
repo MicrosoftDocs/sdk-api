@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_CHANNEL_SID_TYPE
-product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_SID_TYPE
 req.redist: 

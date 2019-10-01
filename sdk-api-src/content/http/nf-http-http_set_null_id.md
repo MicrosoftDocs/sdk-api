@@ -38,7 +38,6 @@ api_location:
  - http.h
 api_name:
  - HTTP_SET_NULL_ID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

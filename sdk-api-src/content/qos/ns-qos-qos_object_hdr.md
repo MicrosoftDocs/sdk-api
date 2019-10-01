@@ -38,7 +38,6 @@ api_location:
  - Qos.h
 api_name:
  - QOS_OBJECT_HDR
-product: Windows
 targetos: Windows
 req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wincodec.h
 api_name:
  - WICJpegScanType
-product: Windows
 targetos: Windows
 req.typenames: WICJpegScanType
 req.redist: 

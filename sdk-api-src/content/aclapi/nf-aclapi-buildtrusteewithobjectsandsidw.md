@@ -43,7 +43,6 @@ api_name:
 - BuildTrusteeWithObjectsAndSid
 - BuildTrusteeWithObjectsAndSidA
 - BuildTrusteeWithObjectsAndSidW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

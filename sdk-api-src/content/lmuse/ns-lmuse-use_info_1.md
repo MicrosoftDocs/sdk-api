@@ -38,7 +38,6 @@ api_location:
  - Lmuse.h
 api_name:
  - USE_INFO_1
-product: Windows
 targetos: Windows
 req.typenames: USE_INFO_1, *PUSE_INFO_1, *LPUSE_INFO_1
 req.redist: 

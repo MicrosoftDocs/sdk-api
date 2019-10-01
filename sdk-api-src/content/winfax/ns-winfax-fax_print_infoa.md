@@ -40,7 +40,6 @@ api_name:
 - FAX_PRINT_INFO
 - FAX_PRINT_INFOA
 - FAX_PRINT_INFOW
-product: Windows
 targetos: Windows
 req.typenames: FAX_PRINT_INFOA, *PFAX_PRINT_INFOA
 req.redist: 

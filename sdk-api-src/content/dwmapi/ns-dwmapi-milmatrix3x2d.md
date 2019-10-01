@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - MilMatrix3x2D
-product: Windows
 targetos: Windows
 req.typenames: MilMatrix3x2D
 req.redist: 

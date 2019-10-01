@@ -40,7 +40,6 @@ api_name:
  - FindExecutable
  - FindExecutableA
  - FindExecutableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

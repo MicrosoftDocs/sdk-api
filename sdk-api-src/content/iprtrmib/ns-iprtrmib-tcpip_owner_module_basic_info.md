@@ -39,7 +39,6 @@ api_location:
  - Iphlpapi.h
 api_name:
  - TCPIP_OWNER_MODULE_BASIC_INFO
-product: Windows
 targetos: Windows
 req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
 req.redist: 

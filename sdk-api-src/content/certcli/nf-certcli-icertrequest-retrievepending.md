@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.RetrievePending
  - ICertRequest.RetrievePending
  - CCertRequest.RetrievePending
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

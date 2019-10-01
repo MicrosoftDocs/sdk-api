@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyJob1.GetFileCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

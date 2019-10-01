@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - IFIEXTRA
-product: Windows
 targetos: Windows
 req.typenames: IFIEXTRA, *PIFIEXTRA
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
 - API-Ms-Win-Service-Core-L1-1-2.dll
 api_name:
 - SetServiceStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

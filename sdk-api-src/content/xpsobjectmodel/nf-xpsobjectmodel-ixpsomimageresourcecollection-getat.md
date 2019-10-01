@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMImageResourceCollection.GetAt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

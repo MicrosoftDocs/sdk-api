@@ -44,7 +44,6 @@ api_name:
  - SHOpenRegStream2
  - SHOpenRegStream2A
  - SHOpenRegStream2W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

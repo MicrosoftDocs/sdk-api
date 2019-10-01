@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IPersistStream.Load
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

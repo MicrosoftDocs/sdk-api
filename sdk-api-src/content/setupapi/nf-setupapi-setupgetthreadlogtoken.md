@@ -41,7 +41,6 @@ api_location:
  - setupapi.dll
 api_name:
  - SetupGetThreadLogToken
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

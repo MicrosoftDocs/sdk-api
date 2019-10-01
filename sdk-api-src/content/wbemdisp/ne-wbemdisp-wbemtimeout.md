@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemTimeout
-product: Windows
 targetos: Windows
 req.typenames: WbemTimeout
 req.redist: 

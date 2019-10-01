@@ -40,7 +40,6 @@ api_name:
  - ICertView2.GetColumnIndex
  - ICertView.GetColumnIndex
  - CCertView.GetColumnIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

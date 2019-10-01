@@ -38,7 +38,6 @@ api_location:
  - Ntdll.dll
 api_name:
  - RtlInitializeSListHead
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

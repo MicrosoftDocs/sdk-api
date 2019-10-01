@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxAccountSet.GetAccounts
  - IFaxAccountSet.GetAccounts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

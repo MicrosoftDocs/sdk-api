@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleConnector.HostingUserAccount
  - IFsrmPipelineModuleConnector.get_HostingUserAccount
  - FsrmPipelineModuleConnector.HostingUserAccount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

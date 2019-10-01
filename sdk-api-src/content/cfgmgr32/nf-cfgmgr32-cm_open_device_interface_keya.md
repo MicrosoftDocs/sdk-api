@@ -44,7 +44,6 @@ api_name:
  - CM_Open_Device_Interface_Key
  - CM_Open_Device_Interface_KeyA
  - CM_Open_Device_Interface_KeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

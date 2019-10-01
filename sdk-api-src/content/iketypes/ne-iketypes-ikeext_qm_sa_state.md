@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_QM_SA_STATE
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_QM_SA_STATE
 req.redist: 

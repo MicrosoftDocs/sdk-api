@@ -40,7 +40,6 @@ api_name:
  - IDataManager.MaxSize
  - IDataManager.get_MaxSize
  - IDataManager.put_MaxSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

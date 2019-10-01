@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIXERCAPS
  - MIXERCAPSW
-product: Windows
 targetos: Windows
 req.typenames: MIXERCAPSW, *PMIXERCAPSW, *LPMIXERCAPSW
 req.redist: 

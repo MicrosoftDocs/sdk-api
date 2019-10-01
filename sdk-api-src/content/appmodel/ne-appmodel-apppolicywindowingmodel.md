@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyWindowingModel
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyWindowingModel
 req.redist: 

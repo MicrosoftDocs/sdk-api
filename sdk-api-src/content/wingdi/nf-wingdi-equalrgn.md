@@ -42,7 +42,6 @@ api_location:
  - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
  - EqualRgn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

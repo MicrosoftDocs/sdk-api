@@ -47,7 +47,6 @@ api_name:
 - PrivilegedServiceAuditAlarm
 - PrivilegedServiceAuditAlarmA
 - PrivilegedServiceAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

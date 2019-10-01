@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - MoveClusterGroup
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

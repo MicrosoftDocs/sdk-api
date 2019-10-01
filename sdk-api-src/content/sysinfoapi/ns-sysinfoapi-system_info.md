@@ -38,7 +38,6 @@ api_location:
  - sysinfoapi.h
 api_name:
  - SYSTEM_INFO
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
 req.redist: 

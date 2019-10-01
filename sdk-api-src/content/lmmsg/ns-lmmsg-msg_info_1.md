@@ -38,7 +38,6 @@ api_location:
  - Lmmsg.h
 api_name:
  - MSG_INFO_1
-product: Windows
 targetos: Windows
 req.typenames: MSG_INFO_1, *PMSG_INFO_1, *LPMSG_INFO_1
 req.redist: 

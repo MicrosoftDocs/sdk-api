@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CurrentStyleId
  - IUIAutomationStylesPattern.get_CurrentStyleId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

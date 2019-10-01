@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETVPORTLINEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA'
 req.redist: 

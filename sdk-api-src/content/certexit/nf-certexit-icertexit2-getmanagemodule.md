@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertExit2.GetManageModule
  - CCertExit.GetManageModule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

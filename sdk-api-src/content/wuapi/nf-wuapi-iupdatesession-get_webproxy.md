@@ -40,7 +40,6 @@ api_name:
  - IUpdateSession.WebProxy
  - IUpdateSession.get_WebProxy
  - IUpdateSession.put_WebProxy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

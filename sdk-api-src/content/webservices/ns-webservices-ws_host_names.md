@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_HOST_NAMES
-product: Windows
 targetos: Windows
 req.typenames: WS_HOST_NAMES
 req.redist: 

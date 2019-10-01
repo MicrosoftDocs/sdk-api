@@ -41,7 +41,6 @@ api_name:
  - SetupGetMultiSzField
  - SetupGetMultiSzFieldA
  - SetupGetMultiSzFieldW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

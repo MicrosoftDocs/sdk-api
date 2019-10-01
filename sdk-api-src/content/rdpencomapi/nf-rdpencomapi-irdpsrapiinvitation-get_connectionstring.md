@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitation.ConnectionString
  - IRDPSRAPIInvitation.get_ConnectionString
  - RDPSRAPIInvitation.ConnectionString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

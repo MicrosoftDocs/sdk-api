@@ -38,7 +38,6 @@ api_location:
 - Ntmsapi.h
 api_name:
 - NTMS_MEDIATYPEINFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NTMS_MEDIATYPEINFORMATION
 req.redist: 

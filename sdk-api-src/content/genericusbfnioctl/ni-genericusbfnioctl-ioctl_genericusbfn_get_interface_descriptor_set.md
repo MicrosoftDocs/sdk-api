@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DcompTypes.h
 api_name:
  - DCOMPOSITION_BACKFACE_VISIBILITY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

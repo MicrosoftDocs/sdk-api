@@ -38,7 +38,6 @@ api_location:
  - ws2def.h
 api_name:
  - WSABUF
-product: Windows
 targetos: Windows
 req.typenames: WSABUF, *LPWSABUF
 req.redist: 

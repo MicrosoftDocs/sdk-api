@@ -40,7 +40,6 @@ api_name:
  - IPrincipal2.ProcessTokenSidType
  - IPrincipal2.get_ProcessTokenSidType
  - IPrincipal2.put_ProcessTokenSidType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

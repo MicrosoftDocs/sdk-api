@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MAPISendMail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

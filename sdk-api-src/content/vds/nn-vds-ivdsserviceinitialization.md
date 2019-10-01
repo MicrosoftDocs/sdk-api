@@ -38,7 +38,6 @@ api_location:
  - vds.h
 api_name:
  - IVdsServiceInitialization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

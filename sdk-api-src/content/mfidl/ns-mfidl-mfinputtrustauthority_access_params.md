@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 req.redist: 

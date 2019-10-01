@@ -48,7 +48,6 @@ api_name:
  - GetGeoInfo
  - GetGeoInfoA
  - GetGeoInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

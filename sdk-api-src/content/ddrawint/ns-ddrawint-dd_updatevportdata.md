@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_UPDATEVPORTDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA'
 req.redist: 

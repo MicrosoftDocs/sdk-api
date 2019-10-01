@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - WTSSBX_IP_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: WTSSBX_IP_ADDRESS
 req.redist: 

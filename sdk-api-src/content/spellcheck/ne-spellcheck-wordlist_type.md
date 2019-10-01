@@ -38,7 +38,6 @@ api_location:
  - SpellCheck.h
 api_name:
  - WORDLIST_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WORDLIST_TYPE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_POOL_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: VDS_POOL_ATTRIBUTES, *PVDS_POOL_ATTRIBUTES
 req.redist: 

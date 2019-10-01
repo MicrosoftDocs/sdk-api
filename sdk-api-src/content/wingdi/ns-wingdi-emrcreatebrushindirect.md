@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATEBRUSHINDIRECT
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATEBRUSHINDIRECT, *PEMRCREATEBRUSHINDIRECT
 req.redist: 

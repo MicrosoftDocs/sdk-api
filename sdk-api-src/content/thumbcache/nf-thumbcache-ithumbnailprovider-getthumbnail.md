@@ -38,7 +38,6 @@ api_location:
  - Thumbcache.h
 api_name:
  - IThumbnailProvider.GetThumbnail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

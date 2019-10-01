@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 req.redist: 

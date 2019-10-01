@@ -38,7 +38,6 @@ api_location:
 - XInput.h
 api_name:
 - XINPUT_GAMEPAD
-product: Windows
 targetos: Windows
 req.typenames: XINPUT_GAMEPAD, *PXINPUT_GAMEPAD
 req.redist: 

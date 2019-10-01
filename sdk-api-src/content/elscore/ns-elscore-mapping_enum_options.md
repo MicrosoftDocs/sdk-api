@@ -38,7 +38,6 @@ api_location:
  - Elscore.h
 api_name:
  - MAPPING_ENUM_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: MAPPING_ENUM_OPTIONS, *PMAPPING_ENUM_OPTIONS
 req.redist: 

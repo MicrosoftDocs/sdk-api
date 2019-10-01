@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CreateVssExpressWriter
  - CreateVssExpressWriterInternal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

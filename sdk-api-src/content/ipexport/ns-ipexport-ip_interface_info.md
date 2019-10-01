@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IP_INTERFACE_INFO
-product: Windows
 targetos: Windows
 req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
 req.redist: 

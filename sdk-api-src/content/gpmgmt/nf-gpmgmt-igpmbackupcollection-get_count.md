@@ -40,7 +40,6 @@ api_name:
  - IGPMBackupCollection.Count
  - IGPMBackupCollection.get_Count
  - GPMBackupCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

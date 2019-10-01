@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CTL_VERIFY_USAGE_PARA
-product: Windows
 targetos: Windows
 req.typenames: CTL_VERIFY_USAGE_PARA, *PCTL_VERIFY_USAGE_PARA
 req.redist: 

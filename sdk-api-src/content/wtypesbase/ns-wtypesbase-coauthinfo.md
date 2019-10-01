@@ -38,7 +38,6 @@ api_location:
 - wtypesbase.h
 api_name:
 - COAUTHINFO
-product: Windows
 targetos: Windows
 req.typenames: COAUTHINFO
 req.redist: 

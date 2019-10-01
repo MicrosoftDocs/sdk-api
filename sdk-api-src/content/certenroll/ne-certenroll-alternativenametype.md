@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - AlternativeNameType
-product: Windows
 targetos: Windows
 req.typenames: AlternativeNameType
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ApplicationProcessStatistics
-product: Windows
 targetos: Windows
 req.typenames: ApplicationProcessStatistics
 req.redist: 

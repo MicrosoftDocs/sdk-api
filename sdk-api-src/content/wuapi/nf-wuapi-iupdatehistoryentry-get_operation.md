@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.Operation
  - IUpdateHistoryEntry.get_Operation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

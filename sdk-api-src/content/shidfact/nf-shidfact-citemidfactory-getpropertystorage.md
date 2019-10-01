@@ -38,7 +38,6 @@ api_location:
  - shidfact.h
 api_name:
  - CItemIDFactory.GetPropertyStorage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

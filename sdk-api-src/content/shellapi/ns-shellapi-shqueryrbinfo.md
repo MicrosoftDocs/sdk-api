@@ -38,7 +38,6 @@ api_location:
  - Shellapi.h
 api_name:
  - SHQUERYRBINFO
-product: Windows
 targetos: Windows
 req.typenames: SHQUERYRBINFO, *LPSHQUERYRBINFO
 req.redist: 

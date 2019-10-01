@@ -38,7 +38,6 @@ api_location:
  - Wsrm.h
 api_name:
  - RM_FEC_INFO
-product: Windows
 targetos: Windows
 req.typenames: RM_FEC_INFO
 req.redist: 

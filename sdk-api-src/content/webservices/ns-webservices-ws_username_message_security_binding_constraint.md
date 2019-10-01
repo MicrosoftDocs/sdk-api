@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
-product: Windows
 targetos: Windows
 req.typenames: WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
 req.redist: 

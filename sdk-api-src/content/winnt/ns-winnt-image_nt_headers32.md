@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - IMAGE_NT_HEADERS
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_NT_HEADERS32, *PIMAGE_NT_HEADERS32
 req.redist: 

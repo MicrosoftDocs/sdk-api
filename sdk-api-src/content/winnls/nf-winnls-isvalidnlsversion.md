@@ -43,7 +43,6 @@ api_location:
 - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
 - IsValidNLSVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

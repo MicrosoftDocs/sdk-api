@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTreeWalker.Condition
  - IUIAutomationTreeWalker.get_Condition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - CreateMDIWindow
  - CreateMDIWindowA
  - CreateMDIWindowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - AM_DVD_STREAM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: AM_DVD_STREAM_FLAGS
 req.redist: 

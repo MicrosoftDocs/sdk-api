@@ -40,7 +40,6 @@ api_name:
  - IMonthlyDOWTrigger.WeeksOfMonth
  - IMonthlyDOWTrigger.get_WeeksOfMonth
  - IMonthlyDOWTrigger.put_WeeksOfMonth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

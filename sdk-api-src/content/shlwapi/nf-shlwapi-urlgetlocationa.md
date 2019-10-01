@@ -44,7 +44,6 @@ api_name:
  - UrlGetLocation
  - UrlGetLocationA
  - UrlGetLocationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

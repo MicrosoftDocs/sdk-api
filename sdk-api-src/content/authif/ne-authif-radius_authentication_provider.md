@@ -38,7 +38,6 @@ api_location:
 - AuthIf.h
 api_name:
 - RADIUS_AUTHENTICATION_PROVIDER
-product: Windows
 targetos: Windows
 req.typenames: RADIUS_AUTHENTICATION_PROVIDER
 req.redist: 

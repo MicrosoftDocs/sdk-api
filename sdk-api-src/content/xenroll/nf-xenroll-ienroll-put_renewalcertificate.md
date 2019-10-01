@@ -40,7 +40,6 @@ api_name:
  - IEnroll.RenewalCertificate
  - IEnroll.get_RenewalCertificate
  - IEnroll.put_RenewalCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

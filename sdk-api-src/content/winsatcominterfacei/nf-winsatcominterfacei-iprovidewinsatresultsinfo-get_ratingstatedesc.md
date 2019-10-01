@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATResultsInfo.RatingStateDesc
  - IProvideWinSATResultsInfo.get_RatingStateDesc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

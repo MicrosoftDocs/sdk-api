@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidVMR9.SetAllocator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

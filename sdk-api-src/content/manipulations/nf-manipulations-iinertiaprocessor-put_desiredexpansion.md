@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.DesiredExpansion
  - IInertiaProcessor.get_DesiredExpansion
  - IInertiaProcessor.put_DesiredExpansion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

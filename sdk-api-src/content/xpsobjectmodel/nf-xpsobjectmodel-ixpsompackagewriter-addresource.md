@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IXpsOMPackageWriter.AddResource
  - IXpsOMPackageWriter3D.AddResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

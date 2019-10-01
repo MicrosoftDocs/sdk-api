@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - RETRIEVAL_POINTERS_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: RETRIEVAL_POINTERS_BUFFER, *PRETRIEVAL_POINTERS_BUFFER
 req.redist: 

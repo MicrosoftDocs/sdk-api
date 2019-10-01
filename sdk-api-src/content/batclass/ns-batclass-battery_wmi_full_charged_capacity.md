@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_WMI_FULL_CHARGED_CAPACITY
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
 req.redist: 

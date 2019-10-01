@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - SOCKET_SECURITY_QUERY_TEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: SOCKET_SECURITY_QUERY_TEMPLATE
 req.redist: 

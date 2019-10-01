@@ -43,7 +43,6 @@ api_name:
  - DsGetDomainControllerInfo
  - DsGetDomainControllerInfoA
  - DsGetDomainControllerInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

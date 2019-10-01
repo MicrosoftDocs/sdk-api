@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTextChildPattern.TextContainer
  - IUIAutomationTextChildPattern.get_TextContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

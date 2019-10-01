@@ -38,7 +38,6 @@ api_location:
 - setupapi.h
 api_name:
 - SP_PROPCHANGE_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: SP_PROPCHANGE_PARAMS, *PSP_PROPCHANGE_PARAMS
 req.redist: 

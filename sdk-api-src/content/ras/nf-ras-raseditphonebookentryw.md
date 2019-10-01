@@ -40,7 +40,6 @@ api_name:
  - RasEditPhonebookEntry
  - RasEditPhonebookEntryA
  - RasEditPhonebookEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

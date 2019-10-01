@@ -38,7 +38,6 @@ api_location:
  - dxva2api.h
 api_name:
  - DXVA2_Fixed32
-product: Windows
 targetos: Windows
 req.typenames: DXVA2_Fixed32
 req.redist: 

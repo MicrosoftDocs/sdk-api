@@ -38,7 +38,6 @@ api_location:
  - wnvapi.dll
 api_name:
  - WnvOpen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

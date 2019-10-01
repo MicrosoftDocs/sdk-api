@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwRules._NewEnum
  - INetFwRules.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - STREAM_ID_MAP
-product: Windows
 targetos: Windows
 req.typenames: STREAM_ID_MAP
 req.redist: 

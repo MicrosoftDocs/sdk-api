@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxTiff.RawReceiveTime
  - IFaxTiff.get_RawReceiveTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

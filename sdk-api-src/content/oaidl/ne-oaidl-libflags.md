@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - LIBFLAGS
-product: Windows
 targetos: Windows
 req.typenames: LIBFLAGS
 req.redist: 

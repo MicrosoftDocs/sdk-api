@@ -48,7 +48,6 @@ api_name:
  - GetVolumePathNamesForVolumeName
  - GetVolumePathNamesForVolumeNameA
  - GetVolumePathNamesForVolumeNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

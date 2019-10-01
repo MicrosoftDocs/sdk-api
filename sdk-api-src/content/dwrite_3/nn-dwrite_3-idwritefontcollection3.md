@@ -9,7 +9,6 @@ ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection3, IDWriteFontCollection3 interface [Direct Write], IDWriteFontCollection3 interface [Direct Write],described, directwrite.idwritefontcollection3, dwrite_3/IDWriteFontCollection3
 ms.topic: interface
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

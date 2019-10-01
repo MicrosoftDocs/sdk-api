@@ -38,7 +38,6 @@ api_location:
  - WSMAuto.dll
 api_name:
  - IWSManEx.SessionFlagCredUsernamePassword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

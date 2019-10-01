@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

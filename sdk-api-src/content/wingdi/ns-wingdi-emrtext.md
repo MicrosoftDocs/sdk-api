@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRTEXT
-product: Windows
 targetos: Windows
 req.typenames: EMRTEXT, *PEMRTEXT
 req.redist: 

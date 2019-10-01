@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.Status
  - IFaxJobStatus.get_Status
  - IFaxJobStatus.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

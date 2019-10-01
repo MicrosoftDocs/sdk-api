@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_KEY_SIGN_MESSAGE_PARA
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_SIGN_MESSAGE_PARA, *PCRYPT_KEY_SIGN_MESSAGE_PARA
 req.redist: 

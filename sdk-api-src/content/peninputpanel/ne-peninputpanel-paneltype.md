@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - PanelType
-product: Windows
 targetos: Windows
 req.typenames: PanelType
 req.redist: 

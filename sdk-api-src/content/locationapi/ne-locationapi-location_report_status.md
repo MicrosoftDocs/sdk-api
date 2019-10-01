@@ -38,7 +38,6 @@ api_location:
  - LocationApi.h
 api_name:
  - LOCATION_REPORT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: LOCATION_REPORT_STATUS
 req.redist: 

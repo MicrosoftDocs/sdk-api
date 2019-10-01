@@ -38,7 +38,6 @@ api_location:
  - RestrictedErrorInfo.h
 api_name:
  - IRestrictedErrorInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

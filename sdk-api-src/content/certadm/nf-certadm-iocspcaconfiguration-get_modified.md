@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPCAConfiguration.Modified
  - IOCSPCAConfiguration.get_Modified
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - STGTY
-product: Windows
 targetos: Windows
 req.typenames: STGTY
 req.redist: 

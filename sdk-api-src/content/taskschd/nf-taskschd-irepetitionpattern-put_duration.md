@@ -40,7 +40,6 @@ api_name:
  - IRepetitionPattern.Duration
  - IRepetitionPattern.get_Duration
  - IRepetitionPattern.put_Duration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

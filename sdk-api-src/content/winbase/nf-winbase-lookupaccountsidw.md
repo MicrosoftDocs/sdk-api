@@ -46,7 +46,6 @@ api_name:
 - LookupAccountSid
 - LookupAccountSidA
 - LookupAccountSidW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

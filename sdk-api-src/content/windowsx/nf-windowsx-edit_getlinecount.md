@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - Edit_GetLineCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

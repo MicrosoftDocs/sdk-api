@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - DRM_VIDEO_OUTPUT_PROTECTION_IDS
-product: Windows
 targetos: Windows
 req.typenames: DRM_VIDEO_OUTPUT_PROTECTION_IDS
 req.redist: 

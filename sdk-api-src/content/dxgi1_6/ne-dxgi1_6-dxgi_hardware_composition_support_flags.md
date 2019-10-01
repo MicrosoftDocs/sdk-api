@@ -38,7 +38,6 @@ api_location:
  - dxgi1_6.h
 api_name:
  - DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 req.redist: 

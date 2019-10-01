@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_BACKLINK
-product: Windows
 targetos: Windows
 req.typenames: ADS_BACKLINK, *PADS_BACKLINK
 req.redist: 

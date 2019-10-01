@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Bits.h
 api_name:
  - MPEG_HEADER_BITS
-product: Windows
 targetos: Windows
 req.typenames: MPEG_HEADER_BITS, *PMPEG_HEADER_BITS
 req.redist: 

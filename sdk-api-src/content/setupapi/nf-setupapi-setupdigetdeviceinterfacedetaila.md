@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetDeviceInterfaceDetail
  - SetupDiGetDeviceInterfaceDetailA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

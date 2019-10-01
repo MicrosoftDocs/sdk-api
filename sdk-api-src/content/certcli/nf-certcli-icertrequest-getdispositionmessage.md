@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetDispositionMessage
  - ICertRequest.GetDispositionMessage
  - CCertRequest.GetDispositionMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaManager.GetRestrictiveQuota
  - IFsrmQuotaManagerEx.GetRestrictiveQuota
  - FsrmQuotaManager.GetRestrictiveQuota
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

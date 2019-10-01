@@ -40,7 +40,6 @@ api_name:
  - ReportIscsiPersistentLogins
  - ReportIscsiPersistentLoginsA
  - ReportIscsiPersistentLoginsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

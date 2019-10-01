@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - RAS_CONNECTION_EX
-product: Windows
 targetos: Windows
 req.typenames: RAS_CONNECTION_EX, *PRAS_CONNECTION_EX
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SCHANNEL_ALERT_TOKEN
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_ALERT_TOKEN
 req.redist: 

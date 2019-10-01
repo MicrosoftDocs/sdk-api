@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.DesiredAngularDeceleration
  - IInertiaProcessor.get_DesiredAngularDeceleration
  - IInertiaProcessor.put_DesiredAngularDeceleration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

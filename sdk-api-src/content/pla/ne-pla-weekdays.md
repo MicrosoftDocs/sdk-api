@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - WeekDays
-product: Windows
 targetos: Windows
 req.typenames: WeekDays
 req.redist: 

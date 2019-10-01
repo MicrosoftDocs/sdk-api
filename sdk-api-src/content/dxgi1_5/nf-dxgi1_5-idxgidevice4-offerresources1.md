@@ -38,7 +38,6 @@ api_location:
 - dxgi.dll
 api_name:
 - IDXGIDevice4.OfferResources1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

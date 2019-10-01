@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_COMPRESSION
-product: Windows
 targetos: Windows
 req.typenames: MBN_COMPRESSION
 req.redist: 

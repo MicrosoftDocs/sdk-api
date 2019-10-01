@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - GROUP_RELATIONSHIP
-product: Windows
 targetos: Windows
 req.typenames: GROUP_RELATIONSHIP, *PGROUP_RELATIONSHIP
 req.redist: 

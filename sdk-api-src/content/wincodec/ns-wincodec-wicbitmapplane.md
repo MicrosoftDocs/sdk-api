@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapPlane
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapPlane
 req.redist: 

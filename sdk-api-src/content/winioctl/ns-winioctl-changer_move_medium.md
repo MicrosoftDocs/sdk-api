@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CHANGER_MOVE_MEDIUM
-product: Windows
 targetos: Windows
 req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
 req.redist: 

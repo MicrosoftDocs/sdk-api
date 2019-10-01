@@ -42,7 +42,6 @@ api_name:
  - IFaxActivityLogging.put_DatabasePath
  - IFaxActivityLogging.get_DatabasePath
  - IFaxActivityLogging.put_DatabasePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

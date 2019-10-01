@@ -40,7 +40,6 @@ api_name:
  - WritePrivateProfileStruct
  - WritePrivateProfileStructA
  - WritePrivateProfileStructW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPClosedCaption.get_captioningId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

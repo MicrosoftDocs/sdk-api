@@ -40,7 +40,6 @@ api_name:
  - SymGetSourceFileFromToken
  - SymGetSourceFileFromToken
  - SymGetSourceFileFromTokenW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

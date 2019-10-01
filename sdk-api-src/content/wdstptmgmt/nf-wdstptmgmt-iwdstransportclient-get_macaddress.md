@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.MacAddress
  - IWdsTransportClient.get_MacAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

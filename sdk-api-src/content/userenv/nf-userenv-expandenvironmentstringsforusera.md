@@ -40,7 +40,6 @@ api_name:
  - ExpandEnvironmentStringsForUser
  - ExpandEnvironmentStringsForUserA
  - ExpandEnvironmentStringsForUserW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

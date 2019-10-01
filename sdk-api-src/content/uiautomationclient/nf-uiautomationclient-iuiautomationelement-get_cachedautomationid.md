@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedAutomationId
  - IUIAutomationElement.get_CachedAutomationId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

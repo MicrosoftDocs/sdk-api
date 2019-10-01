@@ -38,7 +38,6 @@ api_location:
  - dxmini.h
 api_name:
  - DDGETPREVIOUSAUTOFLIPININFO
-product: Windows
 targetos: Windows
 req.typenames: DDGETPREVIOUSAUTOFLIPININFO, *PDDGETPREVIOUSAUTOFLIPININFO
 req.redist: 

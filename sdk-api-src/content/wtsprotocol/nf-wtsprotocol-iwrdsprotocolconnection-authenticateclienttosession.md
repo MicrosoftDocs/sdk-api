@@ -38,7 +38,6 @@ api_location:
 - wtsprotocol.h
 api_name:
 - IWRdsProtocolConnection.AuthenticateClientToSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

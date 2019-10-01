@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessage.TransmissionEnd
  - IFaxIncomingMessage.get_TransmissionEnd
  - IFaxIncomingMessage.get_TransmissionEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

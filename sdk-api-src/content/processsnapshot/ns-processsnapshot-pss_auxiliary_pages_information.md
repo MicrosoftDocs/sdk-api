@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_AUXILIARY_PAGES_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: PSS_AUXILIARY_PAGES_INFORMATION
 req.redist: 

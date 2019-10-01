@@ -38,7 +38,6 @@ api_location:
 - eaptypes.h
 api_name:
 - EAP_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: EAP_ATTRIBUTES, EapAttributes
 req.redist: 

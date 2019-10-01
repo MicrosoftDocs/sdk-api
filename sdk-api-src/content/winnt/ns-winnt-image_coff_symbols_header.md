@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - IMAGE_COFF_SYMBOLS_HEADER
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_COFF_SYMBOLS_HEADER, *PIMAGE_COFF_SYMBOLS_HEADER
 req.redist: 

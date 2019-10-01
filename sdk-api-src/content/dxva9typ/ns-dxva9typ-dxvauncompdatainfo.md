@@ -38,7 +38,6 @@ api_location:
  - dxva9typ.h
 api_name:
  - DXVAUncompDataInfo
-product: Windows
 targetos: Windows
 req.typenames: DXVAUncompDataInfo
 req.redist: 

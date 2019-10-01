@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEAGENTGROUPENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINEAGENTGROUPENTRY, *LPLINEAGENTGROUPENTRY
 req.redist: 

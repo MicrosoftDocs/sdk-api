@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSGROUP_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMStreamConfig3.SetLanguage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

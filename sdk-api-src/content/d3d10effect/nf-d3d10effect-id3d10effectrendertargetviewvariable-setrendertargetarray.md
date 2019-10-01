@@ -38,7 +38,6 @@ api_location:
  - d3d10effect.h
 api_name:
  - ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

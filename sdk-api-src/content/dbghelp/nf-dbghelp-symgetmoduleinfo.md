@@ -42,7 +42,6 @@ api_name:
 - SymGetModuleInfoW64
 - SymGetModuleInfo
 - SymGetModuleInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

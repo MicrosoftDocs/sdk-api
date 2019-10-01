@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - CREATE_THREAD_DEBUG_INFO
-product: Windows
 targetos: Windows
 req.typenames: CREATE_THREAD_DEBUG_INFO, *LPCREATE_THREAD_DEBUG_INFO
 req.redist: 

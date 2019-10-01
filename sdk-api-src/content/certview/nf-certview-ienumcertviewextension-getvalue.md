@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnumCERTVIEWEXTENSION.GetValue
  - IEnumCERTVIEWEXTENSION.GetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

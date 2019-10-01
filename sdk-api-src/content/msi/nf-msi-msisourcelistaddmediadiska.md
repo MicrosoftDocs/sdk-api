@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListAddMediaDisk
  - MsiSourceListAddMediaDiskA
  - MsiSourceListAddMediaDiskW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

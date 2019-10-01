@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - RestartClusterResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

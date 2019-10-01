@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - IX509PublicKey.InitializeFromEncodedPublicKeyInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

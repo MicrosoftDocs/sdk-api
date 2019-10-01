@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.IsRemovable
  - ICspInformation.get_IsRemovable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

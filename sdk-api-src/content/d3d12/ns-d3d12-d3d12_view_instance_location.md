@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_VIEW_INSTANCE_LOCATION
-product: Windows
 targetos: Windows
 req.typenames: D3D12_VIEW_INSTANCE_LOCATION
 req.redist: 

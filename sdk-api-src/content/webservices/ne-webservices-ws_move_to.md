@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_MOVE_TO
-product: Windows
 targetos: Windows
 req.typenames: WS_MOVE_TO
 req.redist: 

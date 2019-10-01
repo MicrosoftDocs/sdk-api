@@ -38,7 +38,6 @@ api_location:
  - vptype.h
 api_name:
  - AMVPDIMINFO
-product: Windows
 targetos: Windows
 req.typenames: AMVPDIMINFO, *LPAMVPDIMINFO
 req.redist: 

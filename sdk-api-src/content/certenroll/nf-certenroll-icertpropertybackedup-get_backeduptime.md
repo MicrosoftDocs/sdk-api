@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyBackedUp.BackedUpTime
  - ICertPropertyBackedUp.get_BackedUpTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

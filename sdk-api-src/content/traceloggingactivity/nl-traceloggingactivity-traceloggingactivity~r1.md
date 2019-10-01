@@ -32,7 +32,6 @@ api_location:
  - traceloggingactivity.h
 api_name: 
  - TraceLoggingActivity
-product: Windows
 targetos: Windows
 ---
 

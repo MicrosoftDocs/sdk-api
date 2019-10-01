@@ -40,7 +40,6 @@ api_location:
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
  - IStream_ReadPidl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - CameraControlFlags
-product: Windows
 targetos: Windows
 req.typenames: CameraControlFlags
 req.redist: 

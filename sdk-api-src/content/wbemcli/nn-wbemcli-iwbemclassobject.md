@@ -48,7 +48,6 @@ api_location:
 api_name:
  - IWbemClassObject
  - WbemClassObject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

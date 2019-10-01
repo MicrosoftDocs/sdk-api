@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDLOCKOUT
-product: Windows
 targetos: Windows
 req.typenames: DDLOCKOUT, *LPDDLOCKOUT
 req.redist: 

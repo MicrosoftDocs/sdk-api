@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - SOCKET_PEER_TARGET_NAME
-product: Windows
 targetos: Windows
 req.typenames: SOCKET_PEER_TARGET_NAME
 req.redist: 

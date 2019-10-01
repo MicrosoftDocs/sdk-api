@@ -38,7 +38,6 @@ api_location:
  - D3Dcompiler.h
 api_name:
  - D3D_SHADER_DATA
-product: Windows
 targetos: Windows
 req.typenames: D3D_SHADER_DATA
 req.redist: 

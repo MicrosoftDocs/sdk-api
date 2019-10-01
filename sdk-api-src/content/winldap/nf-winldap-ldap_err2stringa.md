@@ -40,7 +40,6 @@ api_name:
  - ldap_err2string
  - ldap_err2stringA
  - ldap_err2stringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ldap_count_values
  - ldap_count_valuesA
  - ldap_count_valuesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

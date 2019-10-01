@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_RECORD
-product: Windows
 targetos: Windows
 req.typenames: DNS_RECORDA, *PDNS_RECORDA
 req.redist: 

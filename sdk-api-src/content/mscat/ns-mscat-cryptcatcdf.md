@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - CRYPTCATCDF
-product: Windows
 targetos: Windows
 req.typenames: CRYPTCATCDF
 req.redist: 

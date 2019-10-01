@@ -42,7 +42,6 @@ api_name:
 - SymGetLineFromAddr64
 - SymGetLineFromAddrW64
 - SymGetLineFromAddr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

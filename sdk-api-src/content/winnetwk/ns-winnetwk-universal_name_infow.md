@@ -40,7 +40,6 @@ api_name:
  - UNIVERSAL_NAME_INFO
  - UNIVERSAL_NAME_INFOA
  - UNIVERSAL_NAME_INFOW
-product: Windows
 targetos: Windows
 req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
 req.redist: 

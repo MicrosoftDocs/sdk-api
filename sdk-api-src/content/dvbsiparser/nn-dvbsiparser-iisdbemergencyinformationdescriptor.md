@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbEmergencyInformationDescriptor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

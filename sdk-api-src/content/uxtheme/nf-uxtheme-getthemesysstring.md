@@ -38,7 +38,6 @@ api_location:
  - UxTheme.dll
 api_name:
  - GetThemeSysString
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

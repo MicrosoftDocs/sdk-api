@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedFlowsTo
  - IUIAutomationElement.get_CachedFlowsTo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

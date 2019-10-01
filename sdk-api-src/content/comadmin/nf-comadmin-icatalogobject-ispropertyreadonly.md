@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICatalogObject.IsPropertyReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

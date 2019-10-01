@@ -38,7 +38,6 @@ api_location:
  - Psapi.h
 api_name:
  - PROCESS_MEMORY_COUNTERS_EX
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MEMORY_COUNTERS_EX
 req.redist: 

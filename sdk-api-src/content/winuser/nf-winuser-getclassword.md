@@ -39,7 +39,6 @@ api_location:
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
  - GetClassWord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

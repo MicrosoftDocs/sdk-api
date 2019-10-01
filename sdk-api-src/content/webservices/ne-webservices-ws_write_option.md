@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_WRITE_OPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_WRITE_OPTION
 req.redist: 

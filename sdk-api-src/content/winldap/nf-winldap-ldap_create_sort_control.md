@@ -40,7 +40,6 @@ api_name:
  - ldap_create_sort_control
  - ldap_create_sort_controlA
  - ldap_create_sort_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

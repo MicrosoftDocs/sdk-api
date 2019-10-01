@@ -39,7 +39,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMDRMWriter3.SetProtectStreamSamples
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

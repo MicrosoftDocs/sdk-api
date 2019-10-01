@@ -38,7 +38,6 @@ api_location:
 - Schedule.h
 api_name:
 - SCHEDULE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 req.redist: 

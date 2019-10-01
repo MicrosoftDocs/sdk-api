@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - IConditionFactory2.CreateCompoundFromArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

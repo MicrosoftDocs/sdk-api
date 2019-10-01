@@ -38,7 +38,6 @@ api_location:
  - Audioapotypes.h
 api_name:
  - APO_BUFFER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: APO_BUFFER_FLAGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winml.dll
 api_name:
  - IWinMLEvaluationContext.Clear
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

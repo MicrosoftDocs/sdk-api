@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICGifApplicationExtensionProperties
-product: Windows
 targetos: Windows
 req.typenames: WICGifApplicationExtensionProperties
 req.redist: 

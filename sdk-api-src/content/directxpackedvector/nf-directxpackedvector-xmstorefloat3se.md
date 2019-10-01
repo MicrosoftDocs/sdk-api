@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.inl
 api_name:
  - XMStoreFloat3SE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

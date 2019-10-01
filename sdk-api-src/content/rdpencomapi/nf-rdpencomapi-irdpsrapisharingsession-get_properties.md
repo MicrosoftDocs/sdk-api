@@ -42,7 +42,6 @@ api_name:
  - IRDPSRAPISharingSession.Properties
  - IRDPSRAPISharingSession.get_Properties
  - RDPSession.Properties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

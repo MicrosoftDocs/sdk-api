@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D_ROOT_SIGNATURE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: D3D_ROOT_SIGNATURE_VERSION
 req.redist: 

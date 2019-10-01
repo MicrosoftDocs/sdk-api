@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "virtdisk/_VIRTUAL_DISK_ACCESS_MASK"
 targetos: Windows
-product: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: virtdisk.h

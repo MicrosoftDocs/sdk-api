@@ -37,7 +37,6 @@ api_location:
 - 
 api_name:
 - DS_REPL_VALUE_META_DATA_EXT
-product: Windows
 targetos: Windows
 req.typenames: DS_REPL_VALUE_META_DATA_EXT
 req.redist: 

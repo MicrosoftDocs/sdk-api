@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - WIN32_MEMORY_RANGE_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: WIN32_MEMORY_RANGE_ENTRY, *PWIN32_MEMORY_RANGE_ENTRY
 req.redist: 

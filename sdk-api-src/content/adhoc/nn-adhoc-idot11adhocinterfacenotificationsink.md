@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - IDot11AdHocInterfaceNotificationSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

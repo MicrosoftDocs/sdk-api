@@ -38,7 +38,6 @@ api_location:
  - msctf.dll
 api_name:
  - SetInputScopes2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

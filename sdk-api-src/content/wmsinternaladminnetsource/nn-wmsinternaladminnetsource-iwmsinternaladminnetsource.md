@@ -41,7 +41,6 @@ api_name:
  - IWMSInternalAdminNetSource.GetNetSourceCreator
  - IWMSInternalAdminNetSource.Initialize
  - IWMSInternalAdminNetSource.IsUsingIE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

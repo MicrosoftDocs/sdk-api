@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WL_DISPLAY_PAGES
-product: Windows
 targetos: Windows
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 req.redist: 

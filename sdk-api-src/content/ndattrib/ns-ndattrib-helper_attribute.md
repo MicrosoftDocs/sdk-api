@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - HELPER_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: HELPER_ATTRIBUTE, *PHELPER_ATTRIBUTE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxDeviceProvider.TapiProviderName
  - IFaxDeviceProvider.get_TapiProviderName
  - IFaxDeviceProvider.get_TapiProviderName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

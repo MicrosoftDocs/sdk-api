@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

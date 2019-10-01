@@ -40,7 +40,6 @@ api_name:
  - IFaxJobStatus.Retries
  - IFaxJobStatus.get_Retries
  - IFaxJobStatus.get_Retries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

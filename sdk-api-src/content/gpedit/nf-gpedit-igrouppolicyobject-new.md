@@ -38,7 +38,6 @@ api_location:
  - Gpedit.dll
 api_name:
  - IGroupPolicyObject.New
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

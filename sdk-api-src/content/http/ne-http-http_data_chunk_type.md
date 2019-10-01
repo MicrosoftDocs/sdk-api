@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_DATA_CHUNK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
 req.redist: 

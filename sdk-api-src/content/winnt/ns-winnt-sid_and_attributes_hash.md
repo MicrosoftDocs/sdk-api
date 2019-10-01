@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SID_AND_ATTRIBUTES_HASH
-product: Windows
 targetos: Windows
 req.typenames: SID_AND_ATTRIBUTES_HASH, *PSID_AND_ATTRIBUTES_HASH
 req.redist: 

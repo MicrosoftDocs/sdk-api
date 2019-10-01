@@ -44,7 +44,6 @@ api_name:
  - IWMHeaderInfo.GetMarkerCount
  - IWMHeaderInfo2.GetMarkerCount
  - IWMHeaderInfo3.GetMarkerCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

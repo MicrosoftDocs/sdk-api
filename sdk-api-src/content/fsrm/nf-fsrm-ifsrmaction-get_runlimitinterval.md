@@ -40,7 +40,6 @@ api_name:
  - IFsrmAction.RunLimitInterval
  - IFsrmAction.get_RunLimitInterval
  - IFsrmAction.put_RunLimitInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

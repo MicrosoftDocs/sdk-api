@@ -38,7 +38,6 @@ api_location:
 - Dbghelp.dll
 api_name:
 - MapDebugInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

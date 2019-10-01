@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDownloadJob.IsCompleted
  - IDownloadJob.get_IsCompleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeLongArray.Reset
  - CCertEncodeLongArray.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMRBAUTOSIZE
-product: Windows
 targetos: Windows
 req.typenames: NMRBAUTOSIZE, *LPNMRBAUTOSIZE
 req.redist: 

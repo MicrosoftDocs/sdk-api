@@ -41,7 +41,6 @@ api_name:
  - IInkDrawingAttributes.ExtendedProperties
  - IInkDrawingAttributes.get_ExtendedProperties
  - InkDrawingAttributes.get_ExtendedProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

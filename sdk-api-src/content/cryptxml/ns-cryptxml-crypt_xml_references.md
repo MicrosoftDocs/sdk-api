@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CRYPT_XML_REFERENCES
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_REFERENCES, *PCRYPT_XML_REFERENCES
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ldap_parse_vlv_control
  - ldap_parse_vlv_controlA
  - ldap_parse_vlv_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

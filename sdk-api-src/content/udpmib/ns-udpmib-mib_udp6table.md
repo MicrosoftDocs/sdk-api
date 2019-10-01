@@ -38,7 +38,6 @@ api_location:
 - Udpmib.h
 api_name:
 - MIB_UDP6TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_UDP6TABLE, *PMIB_UDP6TABLE
 req.redist: 

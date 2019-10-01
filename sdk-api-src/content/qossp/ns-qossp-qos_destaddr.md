@@ -38,7 +38,6 @@ api_location:
  - Qossp.h
 api_name:
  - QOS_DESTADDR
-product: Windows
 targetos: Windows
 req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
 req.redist: 

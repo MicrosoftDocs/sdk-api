@@ -40,7 +40,6 @@ api_name:
  - MsiEnumComponentCosts
  - MsiEnumComponentCostsA
  - MsiEnumComponentCostsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

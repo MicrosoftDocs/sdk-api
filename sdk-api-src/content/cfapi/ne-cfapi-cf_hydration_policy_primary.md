@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_HYDRATION_POLICY_PRIMARY
-product: Windows
 targetos: Windows
 req.typenames: CF_HYDRATION_POLICY_PRIMARY
 req.redist: 

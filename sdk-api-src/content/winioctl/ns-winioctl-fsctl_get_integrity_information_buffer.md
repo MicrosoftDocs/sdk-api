@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 

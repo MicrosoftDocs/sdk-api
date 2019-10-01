@@ -38,7 +38,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - DMO_MEDIA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DMO_MEDIA_TYPE
 req.redist: 

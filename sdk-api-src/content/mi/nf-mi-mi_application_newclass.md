@@ -38,7 +38,6 @@ api_location:
 - Mi.dll
 api_name:
 - MI_Application_NewClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

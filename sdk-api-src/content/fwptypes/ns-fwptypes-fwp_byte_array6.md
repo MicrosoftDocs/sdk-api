@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_BYTE_ARRAY6
-product: Windows
 targetos: Windows
 req.typenames: FWP_BYTE_ARRAY6
 req.redist: 

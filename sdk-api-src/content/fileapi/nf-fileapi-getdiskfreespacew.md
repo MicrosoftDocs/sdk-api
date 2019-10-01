@@ -47,7 +47,6 @@ api_name:
  - GetDiskFreeSpace
  - GetDiskFreeSpaceA
  - GetDiskFreeSpaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - StringCbPrintfEx
  - StringCbPrintfExA
  - StringCbPrintfExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

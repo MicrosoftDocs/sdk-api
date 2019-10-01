@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9SurfaceAllocationFlags
-product: Windows
 targetos: Windows
 req.typenames: VMR9SurfaceAllocationFlags
 req.redist: 

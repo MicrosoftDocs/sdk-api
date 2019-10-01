@@ -38,7 +38,6 @@ api_location:
  - mmstream.h
 api_name:
  - IMultiMediaStream.GetEndOfStreamEventHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

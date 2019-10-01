@@ -38,7 +38,6 @@ api_location:
  - DirectXCollision.h
 api_name:
  - BoundingFrustum.GetPlanes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

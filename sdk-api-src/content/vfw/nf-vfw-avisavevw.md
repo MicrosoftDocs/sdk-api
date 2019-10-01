@@ -40,7 +40,6 @@ api_name:
  - AVISaveV
  - AVISaveVA
  - AVISaveVW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

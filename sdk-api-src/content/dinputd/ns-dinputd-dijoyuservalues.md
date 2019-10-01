@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIJOYUSERVALUES
-product: Windows
 targetos: Windows
 req.typenames: DIJOYUSERVALUES, *LPDIJOYUSERVALUES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - KERNINGPAIR
-product: Windows
 targetos: Windows
 req.typenames: KERNINGPAIR, *LPKERNINGPAIR
 req.redist: 

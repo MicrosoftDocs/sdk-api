@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - IKEV2_CONFIG_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: IKEV2_CONFIG_PARAMS, *PIKEV2_CONFIG_PARAMS
 req.redist: 

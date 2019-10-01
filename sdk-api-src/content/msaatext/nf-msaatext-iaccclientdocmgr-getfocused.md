@@ -38,7 +38,6 @@ api_location:
  - msaatext.dll
 api_name:
  - IAccClientDocMgr.GetFocused
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0Windows 98

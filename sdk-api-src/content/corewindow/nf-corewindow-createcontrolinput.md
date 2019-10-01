@@ -38,7 +38,6 @@ api_location:
  - Windows.UI.Core.dll
 api_name:
  - CreateControlInput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

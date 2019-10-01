@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WRDS_LISTENER_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WRDS_LISTENER_SETTINGS, *PWRDS_LISTENER_SETTINGS
 req.redist: 

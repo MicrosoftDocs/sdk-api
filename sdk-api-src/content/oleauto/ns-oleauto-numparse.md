@@ -38,7 +38,6 @@ api_location:
  - OleAuto.h
 api_name:
  - NUMPARSE
-product: Windows
 targetos: Windows
 req.typenames: NUMPARSE
 req.redist: 

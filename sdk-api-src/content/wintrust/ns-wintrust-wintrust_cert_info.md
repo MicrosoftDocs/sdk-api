@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - WINTRUST_CERT_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CERT_INFO, *PWINTRUST_CERT_INFO
 req.redist: 

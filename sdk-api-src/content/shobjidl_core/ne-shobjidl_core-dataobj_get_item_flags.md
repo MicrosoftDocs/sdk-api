@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - DATAOBJ_GET_ITEM_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DATAOBJ_GET_ITEM_FLAGS
 req.redist: 

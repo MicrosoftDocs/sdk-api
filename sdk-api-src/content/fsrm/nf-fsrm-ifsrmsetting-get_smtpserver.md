@@ -41,7 +41,6 @@ api_name:
  - IFsrmSetting.get_SmtpServer
  - IFsrmSetting.put_SmtpServer
  - FsrmSetting.SmtpServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

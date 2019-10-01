@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFMediaKeySession.get_SessionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

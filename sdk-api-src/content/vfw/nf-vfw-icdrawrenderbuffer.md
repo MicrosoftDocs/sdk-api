@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICDrawRenderBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

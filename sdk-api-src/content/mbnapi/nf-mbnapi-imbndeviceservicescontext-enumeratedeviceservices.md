@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnDeviceServicesContext.EnumerateDeviceServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

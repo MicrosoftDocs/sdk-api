@@ -38,7 +38,6 @@ api_location:
 - Evntprov.h
 api_name:
 - EventDescGetKeyword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_SEARCHPREF_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCHPREF_ENUM
 req.redist: 

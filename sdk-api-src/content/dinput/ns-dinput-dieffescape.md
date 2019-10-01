@@ -38,7 +38,6 @@ api_location:
  - Dinput.h
 api_name:
  - DIEFFESCAPE, *LPDIEFFESCAPE
-product: Windows
 targetos: Windows
 req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
 req.redist: 

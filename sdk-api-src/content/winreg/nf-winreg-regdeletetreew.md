@@ -47,7 +47,6 @@ api_name:
  - RegDeleteTree
  - RegDeleteTreeA
  - RegDeleteTreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

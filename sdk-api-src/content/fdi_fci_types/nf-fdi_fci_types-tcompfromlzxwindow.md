@@ -38,7 +38,6 @@ api_location:
  - fdi_fci_types.h
 api_name:
  - TCOMPfromLZXWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

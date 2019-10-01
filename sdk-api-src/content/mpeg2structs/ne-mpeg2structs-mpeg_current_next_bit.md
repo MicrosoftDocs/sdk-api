@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_CURRENT_NEXT_BIT
-product: Windows
 targetos: Windows
 req.typenames: MPEG_CURRENT_NEXT_BIT
 req.redist: 

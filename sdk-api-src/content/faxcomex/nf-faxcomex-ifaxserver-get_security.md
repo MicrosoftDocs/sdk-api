@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.Security
  - IFaxServer.get_Security
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

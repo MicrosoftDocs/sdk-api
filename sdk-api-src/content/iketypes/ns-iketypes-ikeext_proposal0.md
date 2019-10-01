@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_PROPOSAL0
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_PROPOSAL0
 req.redist: 

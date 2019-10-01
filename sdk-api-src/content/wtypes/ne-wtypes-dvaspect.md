@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - DVASPECT
-product: Windows
 targetos: Windows
 req.typenames: DVASPECT
 req.redist: 

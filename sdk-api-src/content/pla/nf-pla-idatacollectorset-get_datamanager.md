@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.DataManager
  - IDataCollectorSet.get_DataManager
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

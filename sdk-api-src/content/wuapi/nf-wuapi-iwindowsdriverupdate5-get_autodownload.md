@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate5.AutoDownload
  - IWindowsDriverUpdate5.get_AutoDownload
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

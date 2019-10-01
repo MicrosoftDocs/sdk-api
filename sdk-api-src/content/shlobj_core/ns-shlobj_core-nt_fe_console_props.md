@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - NT_FE_CONSOLE_PROPS
-product: Windows
 targetos: Windows
 req.typenames: NT_FE_CONSOLE_PROPS, *LPNT_FE_CONSOLE_PROPS
 req.redist: 

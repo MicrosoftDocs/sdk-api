@@ -38,7 +38,6 @@ api_location:
  - tom.h
 api_name:
  - ITextStory.SetType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

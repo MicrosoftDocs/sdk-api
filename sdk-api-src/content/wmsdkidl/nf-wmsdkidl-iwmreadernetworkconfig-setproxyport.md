@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMReaderNetworkConfig.SetProxyPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

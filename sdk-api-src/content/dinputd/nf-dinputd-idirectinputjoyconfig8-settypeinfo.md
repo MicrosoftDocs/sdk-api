@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - IDirectInputJoyConfig8.SetTypeInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

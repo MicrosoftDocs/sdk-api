@@ -41,7 +41,6 @@ api_name:
  - CFrameworkQuery.GetValuesForProp
  - ?GetValuesForProp@CFrameworkQuery@@QAEJPBGAAVCHStringArray@@@Z
  - ?GetValuesForProp@CFrameworkQuery@@QEAAJPEBGAEAVCHStringArray@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

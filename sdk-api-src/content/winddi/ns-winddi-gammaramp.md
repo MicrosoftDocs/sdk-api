@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - GAMMARAMP
-product: Windows
 targetos: Windows
 req.typenames: GAMMARAMP, *PGAMMARAMP
 req.redist: 

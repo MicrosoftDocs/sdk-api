@@ -38,7 +38,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSendUserUserInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

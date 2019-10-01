@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_FILE_SPEC_BACKUP_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
 req.redist: 

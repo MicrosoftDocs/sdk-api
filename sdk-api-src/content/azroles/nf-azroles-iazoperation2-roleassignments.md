@@ -38,7 +38,6 @@ api_location:
  - Azroles.h
 api_name:
  - IAzOperation2.RoleAssignments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

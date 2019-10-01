@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbServiceListDescriptor.GetRecordServiceId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

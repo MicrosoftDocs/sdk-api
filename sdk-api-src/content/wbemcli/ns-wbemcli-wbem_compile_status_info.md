@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - WBEM_COMPILE_STATUS_INFO
-product: Windows
 targetos: Windows
 req.typenames: WBEM_COMPILE_STATUS_INFO
 req.redist: 

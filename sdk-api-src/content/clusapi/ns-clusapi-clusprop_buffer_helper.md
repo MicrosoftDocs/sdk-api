@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_BUFFER_HELPER
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_BUFFER_HELPER, *PCLUSPROP_BUFFER_HELPER
 req.redist: 

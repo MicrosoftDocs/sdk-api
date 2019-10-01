@@ -40,7 +40,6 @@ api_name:
  - lineAddProvider
  - lineAddProviderA
  - lineAddProviderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

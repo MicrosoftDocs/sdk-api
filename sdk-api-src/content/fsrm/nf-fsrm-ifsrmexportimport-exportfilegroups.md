@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmExportImport.ExportFileGroups
  - FsrmExportImport.ExportFileGroups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CWbemProviderGlue.FrameworkLogoffDLL
  - ?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z
  - ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

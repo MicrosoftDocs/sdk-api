@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.SizeQuotaWarning
  - IFaxConfiguration.get_SizeQuotaWarning
  - IFaxConfiguration.put_SizeQuotaWarning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

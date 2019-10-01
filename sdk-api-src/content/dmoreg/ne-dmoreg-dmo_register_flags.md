@@ -38,7 +38,6 @@ api_location:
  - Dmoreg.h
 api_name:
  - DMO_REGISTER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

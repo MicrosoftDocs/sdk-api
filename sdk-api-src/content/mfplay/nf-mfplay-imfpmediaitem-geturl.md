@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - IMFPMediaItem.GetURL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

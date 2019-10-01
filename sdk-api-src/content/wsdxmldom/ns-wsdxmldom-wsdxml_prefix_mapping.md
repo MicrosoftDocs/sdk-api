@@ -38,7 +38,6 @@ api_location:
 - WsdXmldom.h
 api_name:
 - WSDXML_PREFIX_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: WSDXML_PREFIX_MAPPING
 req.redist: 

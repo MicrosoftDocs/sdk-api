@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_CHAIN_ENGINE_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
 req.redist: 

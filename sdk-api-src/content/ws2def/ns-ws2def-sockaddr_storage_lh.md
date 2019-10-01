@@ -38,7 +38,6 @@ api_location:
  - ws2def.h
 api_name:
  - SOCKADDR_STORAGE_LH
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE_LH, *LPSOCKADDR_STORAGE_LH
 req.redist: 

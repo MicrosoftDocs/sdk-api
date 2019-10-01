@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.dll
 api_name:
  - GetObjectContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

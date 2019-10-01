@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - GenTspec
-product: Windows
 targetos: Windows
 req.typenames: GenTspec
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Strmif.h
 api_name:
  - IDvdInfo.GetCurrentSubpictureAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

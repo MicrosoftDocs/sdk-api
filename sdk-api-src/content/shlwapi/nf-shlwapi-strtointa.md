@@ -45,7 +45,6 @@ api_name:
  - StrToInt
  - StrToIntA
  - StrToIntW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - DsReplicaUpdateRefs
  - DsReplicaUpdateRefsA
  - DsReplicaUpdateRefsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

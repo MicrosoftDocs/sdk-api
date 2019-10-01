@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IScrollProvider.VerticalViewSize
  - IScrollProvider.get_VerticalViewSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msinkaut15.h
 api_name:
  - IInkDivider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

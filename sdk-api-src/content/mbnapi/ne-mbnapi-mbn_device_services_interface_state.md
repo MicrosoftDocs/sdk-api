@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_DEVICE_SERVICES_INTERFACE_STATE
-product: Windows
 targetos: Windows
 req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
 req.redist: 

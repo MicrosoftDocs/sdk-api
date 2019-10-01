@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - InkEditStatus
-product: Windows
 targetos: Windows
 req.typenames: InkEditStatus
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ResUtils.dll
 api_name:
  - ResUtilGetResourceDependentIPAddressProps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

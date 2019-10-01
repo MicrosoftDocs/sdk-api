@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_CONTROLDOCK
-product: Windows
 targetos: Windows
 req.typenames: UI_CONTROLDOCK
 req.redist: 

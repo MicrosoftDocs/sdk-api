@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_PERIODIC_CAPTURE_STATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_PERIODIC_CAPTURE_STATE_INFO, *PTRACE_PERIODIC_CAPTURE_STATE_INFO
 req.redist: 

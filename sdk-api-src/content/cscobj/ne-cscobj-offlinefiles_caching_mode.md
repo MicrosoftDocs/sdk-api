@@ -38,7 +38,6 @@ api_location:
 - CscObj.h
 api_name:
 - OFFLINEFILES_CACHING_MODE
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_CACHING_MODE
 req.redist: 

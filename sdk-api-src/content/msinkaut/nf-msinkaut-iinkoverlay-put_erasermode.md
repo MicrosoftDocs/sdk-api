@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_EraserMode
  - InkOverlay.get_EraserMode
  - InkOverlay.put_EraserMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

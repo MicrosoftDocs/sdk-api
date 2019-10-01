@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.UpdateItem
  - IResultData2.UpdateItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

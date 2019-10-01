@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxIncomingJob.CallerId
  - IFaxIncomingJob.get_CallerId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

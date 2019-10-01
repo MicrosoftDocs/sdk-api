@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.NumberOfBuffers
  - ITraceDataCollector.get_NumberOfBuffers
  - ITraceDataCollector.put_NumberOfBuffers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

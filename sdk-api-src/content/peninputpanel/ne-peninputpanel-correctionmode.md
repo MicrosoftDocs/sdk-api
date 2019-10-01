@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - CorrectionMode
-product: Windows
 targetos: Windows
 req.typenames: CorrectionMode
 req.redist: 

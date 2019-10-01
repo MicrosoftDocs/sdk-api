@@ -38,7 +38,6 @@ api_location:
 - Evntprov.h
 api_name:
 - EVENT_DATA_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: EVENT_DATA_DESCRIPTOR, *PEVENT_DATA_DESCRIPTOR
 req.redist: 

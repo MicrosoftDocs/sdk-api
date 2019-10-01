@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingQueue.Refresh
  - IFaxOutgoingQueue.Refresh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

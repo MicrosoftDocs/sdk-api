@@ -42,7 +42,6 @@ api_name:
  - midiInGetDevCaps
  - midiInGetDevCapsA
  - midiInGetDevCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

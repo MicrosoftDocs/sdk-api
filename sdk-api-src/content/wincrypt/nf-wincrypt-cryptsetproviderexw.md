@@ -42,7 +42,6 @@ api_name:
  - CryptSetProviderEx
  - CryptSetProviderExA
  - CryptSetProviderExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

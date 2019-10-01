@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Rsvp_Hop_IPv4
-product: Windows
 targetos: Windows
 req.typenames: Rsvp_Hop_IPv4
 req.redist: 

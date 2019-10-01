@@ -41,7 +41,6 @@ api_name:
  - CM_Get_HW_Prof_Flags_Ex
  - CM_Get_HW_Prof_Flags_ExA
  - CM_Get_HW_Prof_Flags_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITCallInfo2.put_EventFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

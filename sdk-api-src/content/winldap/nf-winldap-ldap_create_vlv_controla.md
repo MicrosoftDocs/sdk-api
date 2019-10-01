@@ -40,7 +40,6 @@ api_name:
  - ldap_create_vlv_control
  - ldap_create_vlv_controlA
  - ldap_create_vlv_controlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

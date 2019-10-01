@@ -39,7 +39,6 @@ api_location:
  - ntdll.dll
 api_name:
  - IsWindows8Point1OrGreater
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

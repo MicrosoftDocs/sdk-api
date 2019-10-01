@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CurrentHorizontallyScrollable
  - IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

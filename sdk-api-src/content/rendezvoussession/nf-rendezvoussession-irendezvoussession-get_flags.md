@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRendezvousSession.Flags
  - IRendezvousSession.get_Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

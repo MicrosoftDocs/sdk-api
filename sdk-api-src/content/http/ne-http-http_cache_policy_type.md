@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_CACHE_POLICY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: HTTP_CACHE_POLICY_TYPE, *PHTTP_CACHE_POLICY_TYPE
 req.redist: 

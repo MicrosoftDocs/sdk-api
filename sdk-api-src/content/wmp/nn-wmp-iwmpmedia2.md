@@ -38,7 +38,6 @@ api_location:
  - wmp.h
 api_name:
  - IWMPMedia2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

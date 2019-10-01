@@ -38,7 +38,6 @@ api_location:
  - Mprapi.h
 api_name:
  - RAS_PORT_CONDITION
-product: Windows
 targetos: Windows
 req.typenames: RAS_PORT_CONDITION
 req.redist: 

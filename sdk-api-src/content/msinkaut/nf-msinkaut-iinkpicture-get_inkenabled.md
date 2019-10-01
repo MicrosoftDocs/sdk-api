@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_InkEnabled
  - InkPicture.get_InkEnabled
  - InkPicture.put_InkEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

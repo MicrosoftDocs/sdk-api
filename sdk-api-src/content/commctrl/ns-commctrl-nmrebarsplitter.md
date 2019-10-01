@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMREBARSPLITTER
-product: Windows
 targetos: Windows
 req.typenames: NMREBARSPLITTER, *LPNMREBARSPLITTER
 req.redist: 

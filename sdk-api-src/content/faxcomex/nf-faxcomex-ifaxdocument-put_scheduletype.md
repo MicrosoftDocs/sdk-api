@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_ScheduleType
  - IFaxDocument.get_ScheduleType
  - IFaxDocument.put_ScheduleType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

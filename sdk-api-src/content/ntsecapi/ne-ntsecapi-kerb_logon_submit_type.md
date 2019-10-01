@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_LOGON_SUBMIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: KERB_LOGON_SUBMIT_TYPE, *PKERB_LOGON_SUBMIT_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
-product: Windows
 targetos: Windows
 req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.SupportUrl
  - IUpdateHistoryEntry.get_SupportUrl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

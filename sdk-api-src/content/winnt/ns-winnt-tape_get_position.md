@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_GET_POSITION
-product: Windows
 targetos: Windows
 req.typenames: TAPE_GET_POSITION, *PTAPE_GET_POSITION
 req.redist: 

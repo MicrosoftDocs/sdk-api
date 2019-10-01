@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.CurrentCorrectionMode
  - ITextInputPanel.get_CurrentCorrectionMode
  - ITextInputPanel.get_CurrentCorrectionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - PARTITION_STYLE
-product: Windows
 targetos: Windows
 req.typenames: PARTITION_STYLE
 req.redist: 

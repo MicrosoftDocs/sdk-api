@@ -38,7 +38,6 @@ api_location:
  - Gdiplusinit.h
 api_name:
  - GdiplusStartupInput
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

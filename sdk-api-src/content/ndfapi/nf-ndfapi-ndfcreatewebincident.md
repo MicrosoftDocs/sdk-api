@@ -38,7 +38,6 @@ api_location:
  - Ndfapi.dll
 api_name:
  - NdfCreateWebIncident
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinSafer.h
 api_name:
 - SAFER_URLZONE_IDENTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - RegisterServiceCtrlHandler
  - RegisterServiceCtrlHandlerA
  - RegisterServiceCtrlHandlerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

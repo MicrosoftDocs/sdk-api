@@ -40,7 +40,6 @@ api_name:
  - ldap_control_free
  - ldap_control_freeA
  - ldap_control_freeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

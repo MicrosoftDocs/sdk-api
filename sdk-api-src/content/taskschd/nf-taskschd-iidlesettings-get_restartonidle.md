@@ -40,7 +40,6 @@ api_name:
  - IIdleSettings.RestartOnIdle
  - IIdleSettings.get_RestartOnIdle
  - IIdleSettings.put_RestartOnIdle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

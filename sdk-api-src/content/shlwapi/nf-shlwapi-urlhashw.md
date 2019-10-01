@@ -42,7 +42,6 @@ api_name:
  - UrlHash
  - UrlHashA
  - UrlHashW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

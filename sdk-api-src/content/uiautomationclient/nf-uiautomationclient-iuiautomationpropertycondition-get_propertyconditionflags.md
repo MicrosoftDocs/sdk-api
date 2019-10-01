@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationPropertyCondition.PropertyConditionFlags
  - IUIAutomationPropertyCondition.get_PropertyConditionFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

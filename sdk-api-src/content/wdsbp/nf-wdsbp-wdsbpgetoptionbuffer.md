@@ -38,7 +38,6 @@ api_location:
  - Wdsbp.dll
 api_name:
  - WdsBpGetOptionBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

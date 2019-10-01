@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
  - WTSQueryUserToken
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

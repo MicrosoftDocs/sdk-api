@@ -38,7 +38,6 @@ api_location:
  - DSAdmin.dll
 api_name:
  - IDsAdminNewObjPrimarySite.CreateNew
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - WNetGetConnection
  - WNetGetConnectionA
  - WNetGetConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

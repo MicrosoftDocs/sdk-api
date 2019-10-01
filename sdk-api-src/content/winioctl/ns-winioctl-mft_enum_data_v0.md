@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - MFT_ENUM_DATA_V0
-product: Windows
 targetos: Windows
 req.typenames: MFT_ENUM_DATA_V0, *PMFT_ENUM_DATA_V0
 req.redist: 

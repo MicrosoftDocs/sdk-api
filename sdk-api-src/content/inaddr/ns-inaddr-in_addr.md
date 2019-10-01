@@ -39,7 +39,6 @@ api_location:
  - Ipexport.h
 api_name:
  - IPAddr
-product: Windows
 targetos: Windows
 req.typenames: IN_ADDR, *PIN_ADDR, *LPIN_ADDR
 req.redist: 

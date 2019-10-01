@@ -38,7 +38,6 @@ api_location:
  - lmaudit.h
 api_name:
  - NetAuditRead
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

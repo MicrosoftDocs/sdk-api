@@ -38,7 +38,6 @@ api_location:
 - AuthIf.h
 api_name:
 - RADIUS_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnSecurityConfigChange
  - IFaxServerNotify2.OnSecurityConfigChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

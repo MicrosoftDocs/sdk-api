@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - ColorBalance.ColorBalance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

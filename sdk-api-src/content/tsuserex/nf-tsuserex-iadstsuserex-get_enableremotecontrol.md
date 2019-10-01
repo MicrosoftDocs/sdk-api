@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.EnableRemoteControl
  - IADsTSUserEx.get_EnableRemoteControl
  - IADsTSUserEx.put_EnableRemoteControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

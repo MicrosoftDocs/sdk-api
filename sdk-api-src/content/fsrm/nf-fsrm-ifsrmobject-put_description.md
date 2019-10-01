@@ -40,7 +40,6 @@ api_name:
  - IFsrmObject.Description
  - IFsrmObject.get_Description
  - IFsrmObject.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

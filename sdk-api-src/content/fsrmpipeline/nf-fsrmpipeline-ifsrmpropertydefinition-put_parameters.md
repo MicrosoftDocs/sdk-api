@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyDefinition.Parameters
  - IFsrmPropertyDefinition.get_Parameters
  - IFsrmPropertyDefinition.put_Parameters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

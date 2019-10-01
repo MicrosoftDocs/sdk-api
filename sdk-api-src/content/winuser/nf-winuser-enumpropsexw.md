@@ -43,7 +43,6 @@ api_name:
  - EnumPropsEx
  - EnumPropsExA
  - EnumPropsExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

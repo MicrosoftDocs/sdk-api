@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_SCHEME
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
 req.redist: 

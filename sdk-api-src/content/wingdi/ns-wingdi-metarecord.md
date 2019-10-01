@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - METARECORD
-product: Windows
 targetos: Windows
 req.typenames: METARECORD, *PMETARECORD, *LPMETARECORD
 req.redist: 

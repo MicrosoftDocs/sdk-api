@@ -38,7 +38,6 @@ api_location:
  - Perflib.h
 api_name:
  - PERF_STRING_BUFFER_HEADER
-product: Windows
 targetos: Windows
 req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
 req.redist: 

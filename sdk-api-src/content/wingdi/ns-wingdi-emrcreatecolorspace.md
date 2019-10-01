@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRCREATECOLORSPACE
-product: Windows
 targetos: Windows
 req.typenames: EMRCREATECOLORSPACE, *PEMRCREATECOLORSPACE
 req.redist: 

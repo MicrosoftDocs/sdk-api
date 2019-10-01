@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_CONFIGURE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPM_CONFIGURE_PARAMETERS
 req.redist: 

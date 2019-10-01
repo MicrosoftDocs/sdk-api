@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - RESTRICTIONS
-product: Windows
 targetos: Windows
 req.typenames: RESTRICTIONS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - CredRename
  - CredRenameA
  - CredRenameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

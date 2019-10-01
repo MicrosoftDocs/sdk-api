@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.ExtendedModes
  - ITraceDataCollector.get_ExtendedModes
  - ITraceDataCollector.put_ExtendedModes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Textstor.h
 api_name:
  - TsGravity
-product: Windows
 targetos: Windows
 req.typenames: TsGravity
 req.redist: TSF 1.0 on Windows 2000 Professional

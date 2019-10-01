@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_DISK_NUMBER_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIViewer.Attendees
  - IRDPSRAPIViewer.get_Attendees
  - RDPViewer.Attendees
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

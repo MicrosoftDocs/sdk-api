@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - HMAC_INFO
-product: Windows
 targetos: Windows
 req.typenames: HMAC_INFO, *PHMAC_INFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IAzClientContext2.LDAPQueryDN
  - IAzClientContext2.get_LDAPQueryDN
  - IAzClientContext2.put_LDAPQueryDN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

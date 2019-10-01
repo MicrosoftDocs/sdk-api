@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - AsnOctetString
-product: Windows
 targetos: Windows
 req.typenames: AsnOctetString
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dxgicommon.h
 api_name:
  - DXGI_RATIONAL
-product: Windows
 targetos: Windows
 req.typenames: DXGI_RATIONAL
 req.redist: 

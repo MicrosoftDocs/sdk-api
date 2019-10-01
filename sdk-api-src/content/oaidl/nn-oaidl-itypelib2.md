@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ITypeLib2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

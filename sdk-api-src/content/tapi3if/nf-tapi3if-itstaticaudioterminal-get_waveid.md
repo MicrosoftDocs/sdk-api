@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITStaticAudioTerminal.get_WaveId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

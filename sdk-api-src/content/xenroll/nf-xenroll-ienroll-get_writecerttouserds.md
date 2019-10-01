@@ -40,7 +40,6 @@ api_name:
  - IEnroll.WriteCertToUserDS
  - IEnroll.get_WriteCertToUserDS
  - IEnroll.put_WriteCertToUserDS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

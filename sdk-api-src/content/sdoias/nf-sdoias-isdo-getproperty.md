@@ -38,7 +38,6 @@ api_location:
 - Iassdo.dll
 api_name:
 - ISdo.GetProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

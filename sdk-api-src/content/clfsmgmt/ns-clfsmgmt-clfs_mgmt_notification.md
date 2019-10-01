@@ -38,7 +38,6 @@ api_location:
  - ClfsMgmt.h
 api_name:
  - CLFS_MGMT_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_NOTIFICATION, *PCLFS_MGMT_NOTIFICATION
 req.redist: 

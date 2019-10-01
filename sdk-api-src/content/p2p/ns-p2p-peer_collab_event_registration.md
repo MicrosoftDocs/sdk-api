@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_COLLAB_EVENT_REGISTRATION
-product: Windows
 targetos: Windows
 req.typenames: PEER_COLLAB_EVENT_REGISTRATION, *PPEER_COLLAB_EVENT_REGISTRATION
 req.redist: 

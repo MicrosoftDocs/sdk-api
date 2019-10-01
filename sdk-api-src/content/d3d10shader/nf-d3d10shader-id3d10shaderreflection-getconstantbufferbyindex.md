@@ -38,7 +38,6 @@ api_location:
  - D3D10Shader.h
 api_name:
  - ID3D10ShaderReflection.GetConstantBufferByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

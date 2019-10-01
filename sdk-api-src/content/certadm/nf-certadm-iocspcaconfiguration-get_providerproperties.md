@@ -40,7 +40,6 @@ api_name:
  - IOCSPCAConfiguration.ProviderProperties
  - IOCSPCAConfiguration.get_ProviderProperties
  - IOCSPCAConfiguration.put_ProviderProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPITcpConnectionInfo.PeerIP
  - IRDPSRAPITcpConnectionInfo.get_PeerIP
  - RDPSRAPITcpConnectionInfo.PeerIP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_RENDER_PASS_RENDER_TARGET_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_RENDER_TARGET_DESC
 req.redist: 

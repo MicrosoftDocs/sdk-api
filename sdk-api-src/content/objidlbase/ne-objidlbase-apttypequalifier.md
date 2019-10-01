@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - APTTYPEQUALIFIER
-product: Windows
 targetos: Windows
 req.typenames: APTTYPEQUALIFIER
 req.redist: 

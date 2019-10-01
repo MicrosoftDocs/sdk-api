@@ -40,7 +40,6 @@ api_name:
 - NMTOOLBAR
 - NMTOOLBARA
 - NMTOOLBARW
-product: Windows
 targetos: Windows
 req.typenames: NMTOOLBARW, *LPNMTOOLBARW
 req.redist: 

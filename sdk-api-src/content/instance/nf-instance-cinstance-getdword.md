@@ -41,7 +41,6 @@ api_name:
  - CInstance.GetDWORD
  - ?GetDWORD@CInstance@@QBE_NPBGAAK@Z
  - ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

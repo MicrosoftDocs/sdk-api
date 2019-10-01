@@ -40,7 +40,6 @@ api_name:
  - INetFwPolicy2.ExcludedInterfaces
  - INetFwPolicy2.get_ExcludedInterfaces
  - INetFwPolicy2.put_ExcludedInterfaces
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

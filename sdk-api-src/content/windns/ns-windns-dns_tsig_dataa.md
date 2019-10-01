@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_TSIG_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_TSIG_DATAA, *PDNS_TSIG_DATAA
 req.redist: 

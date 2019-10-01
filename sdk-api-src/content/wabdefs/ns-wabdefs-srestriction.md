@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - SRestriction
-product: Windows
 targetos: Windows
 req.typenames: "*LPSRestriction, SRestriction"
 req.redist: 

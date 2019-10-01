@@ -39,7 +39,6 @@ api_location:
  - VdsHwPrv.h
 api_name:
  - VDS_VERSION_SUPPORT_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_VERSION_SUPPORT_FLAG
 req.redist: 

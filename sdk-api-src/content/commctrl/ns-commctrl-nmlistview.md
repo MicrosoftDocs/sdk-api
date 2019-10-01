@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLISTVIEW
-product: Windows
 targetos: Windows
 req.typenames: NMLISTVIEW, *LPNMLISTVIEW
 req.redist: 

@@ -46,7 +46,6 @@ api_name:
  - OpenService
  - OpenServiceA
  - OpenServiceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

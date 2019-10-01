@@ -38,7 +38,6 @@ api_location:
  - Wbemdisp.h
 api_name:
  - WbemFlagEnum
-product: Windows
 targetos: Windows
 req.typenames: WbemFlagEnum
 req.redist: 

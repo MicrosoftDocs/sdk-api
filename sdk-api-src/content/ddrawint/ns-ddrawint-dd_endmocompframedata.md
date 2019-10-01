@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_ENDMOCOMPFRAMEDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA'
 req.redist: 

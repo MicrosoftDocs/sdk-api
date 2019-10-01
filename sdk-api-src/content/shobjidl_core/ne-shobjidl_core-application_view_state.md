@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - APPLICATION_VIEW_STATE
-product: Windows
 targetos: Windows
 req.typenames: APPLICATION_VIEW_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - IVdsDisk3.QueryFreeExtents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

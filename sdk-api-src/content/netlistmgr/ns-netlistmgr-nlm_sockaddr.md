@@ -38,7 +38,6 @@ api_location:
  - Netlistmgr.h
 api_name:
  - NLM_SOCKADDR
-product: Windows
 targetos: Windows
 req.typenames: NLM_SOCKADDR
 req.redist: 

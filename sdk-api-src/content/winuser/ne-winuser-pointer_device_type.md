@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - POINTER_DEVICE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: POINTER_DEVICE_TYPE
 req.redist: 

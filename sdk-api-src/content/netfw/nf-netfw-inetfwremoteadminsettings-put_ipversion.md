@@ -41,7 +41,6 @@ api_name:
  - INetFwRemoteAdminSettings.IpVersion
  - INetFwRemoteAdminSettings.get_IpVersion
  - INetFwRemoteAdminSettings.put_IpVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

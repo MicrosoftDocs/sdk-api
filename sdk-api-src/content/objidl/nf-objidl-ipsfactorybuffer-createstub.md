@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IPSFactoryBuffer.CreateStub
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

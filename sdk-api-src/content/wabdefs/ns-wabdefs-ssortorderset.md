@@ -38,7 +38,6 @@ api_location:
 - Wabdefs.h
 api_name:
 - SSortOrderSet
-product: Windows
 targetos: Windows
 req.typenames: SSortOrderSet, *LPSSortOrderSet
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.RecipientName
  - IFaxJob.get_RecipientName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

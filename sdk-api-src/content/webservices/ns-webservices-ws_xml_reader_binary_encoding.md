@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_XML_READER_BINARY_ENCODING
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_READER_BINARY_ENCODING
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_STRING
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_STRING, *PMINIDUMP_STRING
 req.redist: DbgHelp.dll 5.1 or later

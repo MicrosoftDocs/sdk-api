@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.IsUninstallable
  - IUpdate.get_IsUninstallable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

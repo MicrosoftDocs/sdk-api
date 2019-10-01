@@ -40,7 +40,6 @@ api_name:
  - SecPkgInfo
  - SecPkgInfoA
  - SecPkgInfoW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgInfoW, *PSecPkgInfoW
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - VARFLAGS
-product: Windows
 targetos: Windows
 req.typenames: VARFLAGS
 req.redist: 

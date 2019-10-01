@@ -38,7 +38,6 @@ api_location:
  - audioclient.h
 api_name:
  - AUDCLNT_STREAMOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: AUDCLNT_STREAMOPTIONS
 req.redist: 

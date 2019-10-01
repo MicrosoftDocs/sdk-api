@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - APPX_ENCRYPTED_PACKAGE_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_PACKAGE_SETTINGS
 req.redist: 

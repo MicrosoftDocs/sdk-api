@@ -49,7 +49,6 @@ api_name:
 - SetFileSecurity
 - SetFileSecurityA
 - SetFileSecurityW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

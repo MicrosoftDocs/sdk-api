@@ -48,7 +48,6 @@ api_name:
  - LoadAccelerators
  - LoadAcceleratorsA
  - LoadAcceleratorsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

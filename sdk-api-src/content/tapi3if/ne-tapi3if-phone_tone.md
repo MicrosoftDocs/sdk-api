@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - PHONE_TONE
-product: Windows
 targetos: Windows
 req.typenames: PHONE_TONE
 req.redist: 

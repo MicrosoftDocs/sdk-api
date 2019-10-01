@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - EnrollmentTemplateProperty
-product: Windows
 targetos: Windows
 req.typenames: EnrollmentTemplateProperty
 req.redist: 

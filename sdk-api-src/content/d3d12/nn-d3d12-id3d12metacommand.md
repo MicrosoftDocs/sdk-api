@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - ID3D12MetaCommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_QUERYMOCOMPSTATUSDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_QUERYMOCOMPSTATUSDATA, DD_QUERYMOCOMPSTATUSDATA'
 req.redist: 

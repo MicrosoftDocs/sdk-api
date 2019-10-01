@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - EXPLORER_BROWSER_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: EXPLORER_BROWSER_OPTIONS
 req.redist: 

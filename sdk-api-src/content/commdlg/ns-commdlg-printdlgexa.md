@@ -40,7 +40,6 @@ api_name:
 - PRINTDLGEX
 - PRINTDLGEXA
 - PRINTDLGEXW
-product: Windows
 targetos: Windows
 req.typenames: PRINTDLGEXA, *LPPRINTDLGEXA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - RasCustomDeleteEntryNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

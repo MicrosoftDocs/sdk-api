@@ -41,7 +41,6 @@ api_name:
  - acmFormatTagDetails
  - acmFormatTagDetailsA
  - acmFormatTagDetailsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

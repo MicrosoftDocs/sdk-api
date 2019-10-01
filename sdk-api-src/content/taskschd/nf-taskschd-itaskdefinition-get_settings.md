@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.Settings
  - ITaskDefinition.get_Settings
  - ITaskDefinition.put_Settings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - IRowsetPrioritization.GetScopeStatistics
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

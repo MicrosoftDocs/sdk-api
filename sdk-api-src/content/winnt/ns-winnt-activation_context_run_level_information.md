@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, *PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
 req.redist: 

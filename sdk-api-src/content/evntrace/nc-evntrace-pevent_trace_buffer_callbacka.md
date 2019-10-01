@@ -39,7 +39,6 @@ api_location:
 api_name:
  - BufferCallback
  - pevent_trace_buffer_callbacka
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

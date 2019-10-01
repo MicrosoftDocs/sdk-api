@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ICreateTypeLib2.SetCustData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

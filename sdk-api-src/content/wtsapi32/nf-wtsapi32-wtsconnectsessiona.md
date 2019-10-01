@@ -40,7 +40,6 @@ api_name:
  - WTSConnectSession
  - WTSConnectSessionA
  - WTSConnectSessionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

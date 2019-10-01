@@ -39,7 +39,6 @@ api_location:
  - Dmoguids.dll
 api_name:
  - IMediaObject.SetOutputType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

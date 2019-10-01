@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEAGENTSESSIONINFO
-product: Windows
 targetos: Windows
 req.typenames: LINEAGENTSESSIONINFO, *LPLINEAGENTSESSIONINFO
 req.redist: 

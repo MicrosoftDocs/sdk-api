@@ -40,7 +40,6 @@ api_name:
 - WTS_SESSION_INFO_1
 - WTS_SESSION_INFO_1A
 - WTS_SESSION_INFO_1W
-product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_INFO_1W, *PWTS_SESSION_INFO_1W
 req.redist: 

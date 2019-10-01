@@ -38,7 +38,6 @@ api_location:
  - ipsectypes.h
 api_name:
  - IPSEC_TUNNEL_ENDPOINTS2
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_ENDPOINTS2
 req.redist: 

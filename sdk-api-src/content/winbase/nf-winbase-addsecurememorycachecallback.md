@@ -38,7 +38,6 @@ api_location:
  - kernel32.dll
 api_name:
  - AddSecureMemoryCacheCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

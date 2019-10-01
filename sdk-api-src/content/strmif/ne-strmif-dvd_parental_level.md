@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_PARENTAL_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: DVD_PARENTAL_LEVEL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - FILTERING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FILTERING_TYPE
 req.redist: 

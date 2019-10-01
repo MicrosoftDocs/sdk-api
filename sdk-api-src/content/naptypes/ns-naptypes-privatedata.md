@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - PrivateData
-product: Windows
 targetos: Windows
 req.typenames: PrivateData
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - AddSecurityPackage
 - AddSecurityPackageA
 - AddSecurityPackageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

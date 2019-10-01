@@ -38,7 +38,6 @@ api_location:
 - VsMgmt.h
 api_name:
 - VSS_PROTECTION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
 req.redist: 

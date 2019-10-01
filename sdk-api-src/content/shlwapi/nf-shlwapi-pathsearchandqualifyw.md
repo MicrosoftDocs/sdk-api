@@ -43,7 +43,6 @@ api_name:
  - PathSearchAndQualify
  - PathSearchAndQualifyA
  - PathSearchAndQualifyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

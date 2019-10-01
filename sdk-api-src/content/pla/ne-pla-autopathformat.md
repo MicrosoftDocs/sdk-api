@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - AutoPathFormat
-product: Windows
 targetos: Windows
 req.typenames: AutoPathFormat
 req.redist: 

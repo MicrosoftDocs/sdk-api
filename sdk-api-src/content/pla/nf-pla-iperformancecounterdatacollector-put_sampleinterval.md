@@ -40,7 +40,6 @@ api_name:
  - IPerformanceCounterDataCollector.SampleInterval
  - IPerformanceCounterDataCollector.get_SampleInterval
  - IPerformanceCounterDataCollector.put_SampleInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

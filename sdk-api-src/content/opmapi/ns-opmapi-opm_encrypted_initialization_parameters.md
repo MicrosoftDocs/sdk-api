@@ -38,7 +38,6 @@ api_location:
  - ksopmapi.h
 api_name:
  - OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 req.redist: 

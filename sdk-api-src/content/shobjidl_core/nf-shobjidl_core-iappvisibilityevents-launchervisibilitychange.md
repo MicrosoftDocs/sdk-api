@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IAppVisibilityEvents.LauncherVisibilityChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

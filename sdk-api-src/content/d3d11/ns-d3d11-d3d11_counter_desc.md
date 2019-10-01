@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - D3D11_COUNTER_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D11_COUNTER_DESC
 req.redist: 

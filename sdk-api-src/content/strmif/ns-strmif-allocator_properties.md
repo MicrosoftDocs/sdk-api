@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - ALLOCATOR_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: ALLOCATOR_PROPERTIES
 req.redist: 

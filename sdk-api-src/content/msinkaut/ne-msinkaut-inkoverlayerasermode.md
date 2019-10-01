@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkOverlayEraserMode
-product: Windows
 targetos: Windows
 req.typenames: InkOverlayEraserMode
 req.redist: 

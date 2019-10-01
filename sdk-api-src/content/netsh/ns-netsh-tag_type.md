@@ -38,7 +38,6 @@ api_location:
  - Netsh.h
 api_name:
  - TAG_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TAG_TYPE, *PTAG_TYPE
 req.redist: 

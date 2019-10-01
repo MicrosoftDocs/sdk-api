@@ -38,7 +38,6 @@ api_location:
  - Snmp.h
 api_name:
  - SnmpExtensionInit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

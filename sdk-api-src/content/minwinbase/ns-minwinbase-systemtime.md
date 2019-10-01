@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - SYSTEMTIME
-product: Windows
 targetos: Windows
 req.typenames: SYSTEMTIME, *PSYSTEMTIME, *LPSYSTEMTIME
 req.redist: 

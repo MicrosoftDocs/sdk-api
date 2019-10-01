@@ -38,7 +38,6 @@ api_location:
  - usbuser.h
 api_name:
  - USB_CONTROLLER_INFO_0
-product: Windows
 targetos: Windows
 req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate.DeviceProblemNumber
  - IWindowsDriverUpdate.get_DeviceProblemNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

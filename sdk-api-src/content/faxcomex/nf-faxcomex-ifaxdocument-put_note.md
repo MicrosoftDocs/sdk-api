@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_Note
  - IFaxDocument.get_Note
  - IFaxDocument.put_Note
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.EventLog
  - IAlertDataCollector.get_EventLog
  - IAlertDataCollector.put_EventLog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

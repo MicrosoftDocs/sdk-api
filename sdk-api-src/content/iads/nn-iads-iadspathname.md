@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsPathname
  - Pathname
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - in6addr.h
 api_name:
  - IN6_ADDR
-product: Windows
 targetos: Windows
 req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
 req.redist: 

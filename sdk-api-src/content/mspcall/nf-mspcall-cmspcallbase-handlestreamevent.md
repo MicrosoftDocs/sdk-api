@@ -38,7 +38,6 @@ api_location:
  - Mspcall.h
 api_name:
  - CMSPCallBase.HandleStreamEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

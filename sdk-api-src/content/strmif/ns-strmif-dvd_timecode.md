@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_TIMECODE
-product: Windows
 targetos: Windows
 req.typenames: DVD_TIMECODE
 req.redist: 

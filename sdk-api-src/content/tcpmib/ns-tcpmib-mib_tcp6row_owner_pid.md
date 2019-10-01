@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_TCP6ROW_OWNER_PID
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6ROW_OWNER_PID, *PMIB_TCP6ROW_OWNER_PID
 req.redist: 

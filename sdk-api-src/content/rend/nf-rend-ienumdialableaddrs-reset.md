@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - IEnumDialableAddrs.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

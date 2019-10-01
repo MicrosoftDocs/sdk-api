@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MT_CUSTOM_VIDEO_PRIMARIES
-product: Windows
 targetos: Windows
 req.typenames: MT_CUSTOM_VIDEO_PRIMARIES
 req.redist: 

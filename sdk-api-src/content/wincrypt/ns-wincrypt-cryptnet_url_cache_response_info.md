@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPTNET_URL_CACHE_RESPONSE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_RESPONSE_INFO, *PCRYPTNET_URL_CACHE_RESPONSE_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Netsh.h
 api_name:
 - NS_CONTEXT_COMMIT_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

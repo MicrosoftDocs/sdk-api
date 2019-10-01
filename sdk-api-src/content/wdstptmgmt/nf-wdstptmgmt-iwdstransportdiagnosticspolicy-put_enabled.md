@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportDiagnosticsPolicy.Enabled
  - IWdsTransportDiagnosticsPolicy.get_Enabled
  - IWdsTransportDiagnosticsPolicy.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winperf.h
 api_name:
 - PERF_INSTANCE_DEFINITION
-product: Windows
 targetos: Windows
 req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
 req.redist: 

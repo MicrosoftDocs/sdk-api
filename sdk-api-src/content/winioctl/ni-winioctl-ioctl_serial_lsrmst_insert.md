@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - IOCTL_SERIAL_LSRMST_INSERT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

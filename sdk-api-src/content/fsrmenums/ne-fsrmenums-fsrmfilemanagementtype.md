@@ -38,7 +38,6 @@ api_location:
  - Fsrm.h
 api_name:
  - FsrmFileManagementType
-product: Windows
 targetos: Windows
 req.typenames: FsrmFileManagementType
 req.redist: 

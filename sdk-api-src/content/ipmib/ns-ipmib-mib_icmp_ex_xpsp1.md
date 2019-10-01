@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_ICMP_EX
-product: Windows
 targetos: Windows
 req.typenames: MIB_ICMP_EX_XPSP1, *PMIB_ICMP_EX_XPSP1
 req.redist: 

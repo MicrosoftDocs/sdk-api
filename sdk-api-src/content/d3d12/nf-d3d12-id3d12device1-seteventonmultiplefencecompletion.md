@@ -38,7 +38,6 @@ api_location:
  - d3d12.dll
 api_name:
  - ID3D12Device1.SetEventOnMultipleFenceCompletion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

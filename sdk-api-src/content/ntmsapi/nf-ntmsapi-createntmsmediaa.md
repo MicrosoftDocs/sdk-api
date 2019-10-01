@@ -40,7 +40,6 @@ api_name:
 - CreateNtmsMedia
 - CreateNtmsMediaA
 - CreateNtmsMediaW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

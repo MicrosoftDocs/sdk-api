@@ -48,7 +48,6 @@ api_name:
  - GetVolumeNameForVolumeMountPoint
  - GetVolumeNameForVolumeMountPointA
  - GetVolumeNameForVolumeMountPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

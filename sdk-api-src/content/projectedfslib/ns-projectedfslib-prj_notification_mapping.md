@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_NOTIFICATION_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION_MAPPING
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - capPaletteAuto
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

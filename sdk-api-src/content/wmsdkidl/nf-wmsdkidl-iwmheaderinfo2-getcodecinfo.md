@@ -43,7 +43,6 @@ api_location:
 api_name:
  - IWMHeaderInfo2.GetCodecInfo
  - IWMHeaderInfo3.GetCodecInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

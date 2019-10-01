@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmPropertyBag.Attributes
 - IFsrmPropertyBag.get_Attributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

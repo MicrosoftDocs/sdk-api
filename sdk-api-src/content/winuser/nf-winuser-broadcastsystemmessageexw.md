@@ -40,7 +40,6 @@ api_name:
  - BroadcastSystemMessageEx
  - BroadcastSystemMessageExA
  - BroadcastSystemMessageExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

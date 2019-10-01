@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_AUTH_STATUS
-product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_STATUS, PONEX_AUTH_STATUS
 req.redist: 

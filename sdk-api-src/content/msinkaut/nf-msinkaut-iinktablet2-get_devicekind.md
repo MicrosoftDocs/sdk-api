@@ -42,7 +42,6 @@ api_name:
  - IInkTablet2.get_DeviceKind
  - TBD.DeviceKind
  - IInkTablet2.get_DeviceKind
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

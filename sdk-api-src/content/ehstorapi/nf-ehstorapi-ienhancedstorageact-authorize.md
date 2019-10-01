@@ -38,7 +38,6 @@ api_location:
 - EhStorAPI.h
 api_name:
 - IEnhancedStorageACT.Authorize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

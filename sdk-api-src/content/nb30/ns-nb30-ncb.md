@@ -38,7 +38,6 @@ api_location:
 - Nb30.h
 api_name:
 - NCB
-product: Windows
 targetos: Windows
 req.typenames: NCB, *PNCB
 req.redist: 

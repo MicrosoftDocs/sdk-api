@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFhReassociation.PerformReassociation
  - FhReassociation.PerformReassociation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

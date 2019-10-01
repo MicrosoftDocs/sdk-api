@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CHAR_ARRAY_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_CHAR_ARRAY_DESCRIPTION
 req.redist: 

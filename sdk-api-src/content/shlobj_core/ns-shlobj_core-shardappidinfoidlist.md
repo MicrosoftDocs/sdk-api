@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SHARDAPPIDINFOIDLIST
-product: Windows
 targetos: Windows
 req.typenames: SHARDAPPIDINFOIDLIST
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CThreadBase
  - ??1CThreadBase@@UAE@XZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

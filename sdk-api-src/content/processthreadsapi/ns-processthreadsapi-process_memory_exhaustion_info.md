@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - PROCESS_MEMORY_EXHAUSTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MEMORY_EXHAUSTION_INFO, *PPROCESS_MEMORY_EXHAUSTION_INFO
 req.redist: 

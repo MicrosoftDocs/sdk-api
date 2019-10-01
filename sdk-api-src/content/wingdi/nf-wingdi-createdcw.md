@@ -44,7 +44,6 @@ api_name:
 - CreateDC
 - CreateDCA
 - CreateDCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

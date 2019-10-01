@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_RESOURCE_STATE_CHANGE_REASON
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
 req.redist: 

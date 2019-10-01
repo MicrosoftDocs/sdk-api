@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIXERLINECONTROLS
-product: Windows
 targetos: Windows
 req.typenames: MIXERLINECONTROLS, *PMIXERLINECONTROLS, *LPMIXERLINECONTROLS
 req.redist: 

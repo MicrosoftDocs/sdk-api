@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICryptAttribute.Values
  - ICryptAttribute.get_Values
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

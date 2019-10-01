@@ -38,7 +38,6 @@ api_location:
 - Wingdi.h
 api_name:
 - RGNDATAHEADER
-product: Windows
 targetos: Windows
 req.typenames: RGNDATAHEADER, *PRGNDATAHEADER
 req.redist: 

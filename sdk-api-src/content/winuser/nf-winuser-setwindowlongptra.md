@@ -48,7 +48,6 @@ api_name:
  - SetWindowLongPtr
  - SetWindowLongPtrA
  - SetWindowLongPtrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

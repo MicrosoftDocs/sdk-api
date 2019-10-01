@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
  - OleSetClipboard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

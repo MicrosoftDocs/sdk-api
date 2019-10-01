@@ -38,7 +38,6 @@ api_location:
  - WSClient.dll
 api_name:
  - RemoveDeveloperLicense
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - WTSSESSION_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: WTSSESSION_NOTIFICATION, *PWTSSESSION_NOTIFICATION
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_GENERAL_SUBTREE
-product: Windows
 targetos: Windows
 req.typenames: CERT_GENERAL_SUBTREE, *PCERT_GENERAL_SUBTREE
 req.redist: 

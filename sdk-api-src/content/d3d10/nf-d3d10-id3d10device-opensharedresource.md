@@ -38,7 +38,6 @@ api_location:
  - D3d10.h
 api_name:
  - ID3D10Device.OpenSharedResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - winsync.h
 api_name:
 - ISyncChange.GetCreationVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

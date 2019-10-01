@@ -38,7 +38,6 @@ api_location:
 - Objsel.h
 api_name:
 - DS_SELECTION_LIST
-product: Windows
 targetos: Windows
 req.typenames: DS_SELECTION_LIST, *PDS_SELECTION_LIST
 req.redist: 

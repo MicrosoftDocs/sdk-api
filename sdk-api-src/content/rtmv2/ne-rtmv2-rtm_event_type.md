@@ -38,7 +38,6 @@ api_location:
  - Rtmv2.h
 api_name:
  - RTM_EVENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
 req.redist: 

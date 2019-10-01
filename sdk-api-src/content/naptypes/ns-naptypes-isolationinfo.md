@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - IsolationInfo
-product: Windows
 targetos: Windows
 req.typenames: IsolationInfo
 req.redist: 

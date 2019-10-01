@@ -39,7 +39,6 @@ api_location:
 - Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
 - AuthzInitializeContextFromAuthzContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

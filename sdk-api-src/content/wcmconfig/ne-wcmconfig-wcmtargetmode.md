@@ -38,7 +38,6 @@ api_location:
  - WcmConfig.h
 api_name:
  - WcmTargetMode
-product: Windows
 targetos: Windows
 req.typenames: WcmTargetMode
 req.redist: 

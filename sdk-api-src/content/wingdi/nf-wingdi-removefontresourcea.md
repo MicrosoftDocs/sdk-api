@@ -42,7 +42,6 @@ api_name:
  - RemoveFontResource
  - RemoveFontResourceA
  - RemoveFontResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - INPUT_TRANSFORM
-product: Windows
 targetos: Windows
 req.typenames: INPUT_TRANSFORM
 req.redist: 

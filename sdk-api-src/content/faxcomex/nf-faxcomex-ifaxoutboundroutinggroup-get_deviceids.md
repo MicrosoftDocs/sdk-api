@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutboundRoutingGroup.DeviceIds
  - IFaxOutboundRoutingGroup.get_DeviceIds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

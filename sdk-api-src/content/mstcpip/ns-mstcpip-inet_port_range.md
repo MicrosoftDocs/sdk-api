@@ -38,7 +38,6 @@ api_location:
  - Mstcpip.h
 api_name:
  - INET_PORT_RANGE
-product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RANGE, *PINET_PORT_RANGE, INET_PORT_RESERVATION, *PINET_PORT_RESERVATION
 req.redist: 

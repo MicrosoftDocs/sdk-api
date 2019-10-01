@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - DHCP_BIND_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: DHCP_BIND_ELEMENT, *LPDHCP_BIND_ELEMENT
 req.redist: 

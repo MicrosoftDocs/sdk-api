@@ -38,7 +38,6 @@ api_location:
  - tsvirtualchannels.h
 api_name:
  - IWTSBitmapRendererCallback.OnTargetSizeChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

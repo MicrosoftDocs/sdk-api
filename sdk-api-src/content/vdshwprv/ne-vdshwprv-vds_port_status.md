@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_PORT_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VDS_PORT_STATUS, *PVDS_PORT_STATUS
 req.redist: 

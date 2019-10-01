@@ -38,7 +38,6 @@ api_location:
  - Documenttarget.h
 api_name:
  - PrintDocumentPackageCompletion
-product: Windows
 targetos: Windows
 req.typenames: PrintDocumentPackageCompletion
 req.redist: 

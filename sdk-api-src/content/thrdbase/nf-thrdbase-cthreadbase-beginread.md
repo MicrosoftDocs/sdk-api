@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CThreadBase.BeginRead
  - ?BeginRead@CThreadBase@@QAEHK@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

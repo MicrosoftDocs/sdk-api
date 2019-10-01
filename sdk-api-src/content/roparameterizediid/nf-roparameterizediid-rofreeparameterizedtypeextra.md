@@ -41,7 +41,6 @@ api_location:
  - ComBase.dll
 api_name:
  - RoFreeParameterizedTypeExtra
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

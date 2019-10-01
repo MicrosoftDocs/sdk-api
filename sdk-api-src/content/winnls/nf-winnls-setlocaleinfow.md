@@ -49,7 +49,6 @@ api_name:
  - SetLocaleInfo
  - SetLocaleInfoA
  - SetLocaleInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

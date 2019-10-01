@@ -40,7 +40,6 @@ api_name:
  - ReportPersistentIscsiDevices
  - ReportPersistentIscsiDevicesA
  - ReportPersistentIscsiDevicesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

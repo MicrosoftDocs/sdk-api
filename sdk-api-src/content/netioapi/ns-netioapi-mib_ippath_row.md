@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IPPATH_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPPATH_ROW, *PMIB_IPPATH_ROW
 req.redist: 

@@ -42,7 +42,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMWriterAdvanced.AddSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

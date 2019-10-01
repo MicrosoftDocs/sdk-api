@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - DATABLOCK_HEADER
-product: Windows
 targetos: Windows
 req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
 req.redist: 

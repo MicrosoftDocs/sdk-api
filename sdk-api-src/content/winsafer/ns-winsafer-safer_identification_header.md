@@ -38,7 +38,6 @@ api_location:
 - WinSafer.h
 api_name:
 - SAFER_IDENTIFICATION_HEADER
-product: Windows
 targetos: Windows
 req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
 req.redist: 

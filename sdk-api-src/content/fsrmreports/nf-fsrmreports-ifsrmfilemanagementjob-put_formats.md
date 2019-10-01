@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.Formats
  - IFsrmFileManagementJob.get_Formats
  - IFsrmFileManagementJob.put_Formats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

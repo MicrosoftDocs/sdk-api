@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETMITERLIMIT
-product: Windows
 targetos: Windows
 req.typenames: EMRSETMITERLIMIT, *PEMRSETMITERLIMIT
 req.redist: 

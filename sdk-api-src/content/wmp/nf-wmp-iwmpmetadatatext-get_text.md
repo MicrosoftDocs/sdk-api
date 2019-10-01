@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPMetadataText.get_text
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

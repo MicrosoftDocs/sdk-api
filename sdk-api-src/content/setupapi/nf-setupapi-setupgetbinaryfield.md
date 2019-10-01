@@ -38,7 +38,6 @@ api_location:
  - Setupapi.dll
 api_name:
  - SetupGetBinaryField
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

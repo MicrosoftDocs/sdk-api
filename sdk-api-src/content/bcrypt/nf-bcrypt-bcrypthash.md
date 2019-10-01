@@ -38,7 +38,6 @@ api_location:
  - bcrypt.dll
 api_name:
  - BCryptHash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

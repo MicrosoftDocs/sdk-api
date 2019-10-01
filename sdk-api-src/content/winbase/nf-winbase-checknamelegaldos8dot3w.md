@@ -40,7 +40,6 @@ api_name:
  - CheckNameLegalDOS8Dot3
  - CheckNameLegalDOS8Dot3A
  - CheckNameLegalDOS8Dot3W
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msinkaut15.h
 api_name:
  - InkDivisionType
-product: Windows
 targetos: Windows
 req.typenames: InkDivisionType
 req.redist: 

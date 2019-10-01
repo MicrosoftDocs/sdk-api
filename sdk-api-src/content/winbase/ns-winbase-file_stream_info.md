@@ -39,7 +39,6 @@ api_location:
  - FileExtd.h
 api_name:
  - FILE_STREAM_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_STREAM_INFO, *PFILE_STREAM_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

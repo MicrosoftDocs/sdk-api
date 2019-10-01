@@ -40,7 +40,6 @@ api_name:
  - InetPton
  - InetPtonA or inet_pton
  - InetPtonW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

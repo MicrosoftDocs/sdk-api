@@ -39,7 +39,6 @@ api_location:
 - MsClus.h
 api_name:
 - CLUSTER_MGMT_POINT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_MGMT_POINT_TYPE
 req.redist: 

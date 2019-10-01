@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - OBJECTPOSITIONS
-product: Windows
 targetos: Windows
 req.typenames: OBJECTPOSITIONS
 req.redist: 

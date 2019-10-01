@@ -44,7 +44,6 @@ api_name:
  - QueryFullProcessImageName
  - QueryFullProcessImageNameA
  - QueryFullProcessImageNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

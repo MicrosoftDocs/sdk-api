@@ -45,7 +45,6 @@ api_location:
  - api-ms-win-core-localization-l1-2-3.dll
 api_name:
  - EnumSystemLocalesEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

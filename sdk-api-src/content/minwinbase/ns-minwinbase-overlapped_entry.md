@@ -39,7 +39,6 @@ api_location:
 - WinBase.h
 api_name:
 - OVERLAPPED_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
 req.redist: 

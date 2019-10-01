@@ -39,7 +39,6 @@ api_location:
  - Mmsystem.h
 api_name:
  - TIMECAPS
-product: Windows
 targetos: Windows
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 req.redist: 

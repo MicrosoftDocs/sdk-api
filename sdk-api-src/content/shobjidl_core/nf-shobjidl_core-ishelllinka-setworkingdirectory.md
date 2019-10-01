@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetWorkingDirectory
  - IShellLinkA.SetWorkingDirectory
  - IShellLinkW.SetWorkingDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

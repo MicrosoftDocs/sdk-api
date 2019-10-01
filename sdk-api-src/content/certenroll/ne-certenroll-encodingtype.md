@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - EncodingType
-product: Windows
 targetos: Windows
 req.typenames: EncodingType
 req.redist: 

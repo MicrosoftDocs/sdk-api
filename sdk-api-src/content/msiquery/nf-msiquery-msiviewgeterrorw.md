@@ -40,7 +40,6 @@ api_name:
  - MsiViewGetError
  - MsiViewGetErrorA
  - MsiViewGetErrorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

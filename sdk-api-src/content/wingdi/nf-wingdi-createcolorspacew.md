@@ -42,7 +42,6 @@ api_name:
  - CreateColorSpace
  - CreateColorSpaceA
  - CreateColorSpaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

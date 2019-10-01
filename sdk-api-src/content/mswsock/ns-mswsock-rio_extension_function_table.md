@@ -38,7 +38,6 @@ api_location:
  - Mswsockdef.h
 api_name:
  - RIO_EXTENSION_FUNCTION_TABLE
-product: Windows
 targetos: Windows
 req.typenames: RIO_EXTENSION_FUNCTION_TABLE, *PRIO_EXTENSION_FUNCTION_TABLE
 req.redist: 

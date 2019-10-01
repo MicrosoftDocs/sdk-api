@@ -38,7 +38,6 @@ api_location:
 - Iads.h
 api_name:
 - ADS_DN_WITH_BINARY
-product: Windows
 targetos: Windows
 req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
 req.redist: 

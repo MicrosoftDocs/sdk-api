@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_WRITE_USN_CLOSE_RECORD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

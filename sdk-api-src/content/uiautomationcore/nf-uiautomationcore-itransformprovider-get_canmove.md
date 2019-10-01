@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider.CanMove
  - ITransformProvider.get_CanMove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

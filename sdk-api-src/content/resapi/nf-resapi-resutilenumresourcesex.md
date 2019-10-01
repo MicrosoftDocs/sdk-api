@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
 api_name:
  - ResUtilEnumResourcesEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Imagetranscode.h
 api_name:
  - ITranscodeImage.TranscodeImage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

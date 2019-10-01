@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PSC_STATE
-product: Windows
 targetos: Windows
 req.typenames: PSC_STATE
 req.redist: 

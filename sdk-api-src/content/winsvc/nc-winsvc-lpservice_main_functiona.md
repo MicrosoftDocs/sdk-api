@@ -40,7 +40,6 @@ api_name:
 - LPSERVICE_MAIN_FUNCTION
 - LPSERVICE_MAIN_FUNCTIONA
 - LPSERVICE_MAIN_FUNCTIONW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - GetPrivateProfileSection
  - GetPrivateProfileSectionA
  - GetPrivateProfileSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

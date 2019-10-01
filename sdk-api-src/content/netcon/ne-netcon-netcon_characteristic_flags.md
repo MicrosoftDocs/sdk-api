@@ -38,7 +38,6 @@ api_location:
  - NetCon.h
 api_name:
  - NETCON_CHARACTERISTIC_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: NETCON_CHARACTERISTIC_FLAGS
 req.redist: 

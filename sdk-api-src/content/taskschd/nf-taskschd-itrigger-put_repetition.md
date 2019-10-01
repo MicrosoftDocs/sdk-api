@@ -40,7 +40,6 @@ api_name:
  - ITrigger.Repetition
  - ITrigger.get_Repetition
  - ITrigger.put_Repetition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

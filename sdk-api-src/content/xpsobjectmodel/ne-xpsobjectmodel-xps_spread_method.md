@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_SPREAD_METHOD
-product: Windows
 targetos: Windows
 req.typenames: XPS_SPREAD_METHOD
 req.redist: 

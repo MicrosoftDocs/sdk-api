@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - AVIFILEINFO
-product: Windows
 targetos: Windows
 req.typenames: AVIFILEINFOA, *LPAVIFILEINFOA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyThreadInitializationType
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyThreadInitializationType
 req.redist: 

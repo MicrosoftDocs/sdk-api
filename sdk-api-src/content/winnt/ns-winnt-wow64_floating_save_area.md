@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - WOW64_FLOATING_SAVE_AREA
-product: Windows
 targetos: Windows
 req.typenames: WOW64_FLOATING_SAVE_AREA
 req.redist: 

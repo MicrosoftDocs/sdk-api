@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CMSG_STREAM_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
 req.redist: 

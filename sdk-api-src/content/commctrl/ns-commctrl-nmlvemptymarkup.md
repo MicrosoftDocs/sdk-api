@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLVEMPTYMARKUP
-product: Windows
 targetos: Windows
 req.typenames: NMLVEMPTYMARKUP
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.dll
 api_name:
  - NCryptImportKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

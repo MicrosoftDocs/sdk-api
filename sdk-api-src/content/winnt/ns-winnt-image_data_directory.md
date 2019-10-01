@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - IMAGE_DATA_DIRECTORY
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY
 req.redist: 

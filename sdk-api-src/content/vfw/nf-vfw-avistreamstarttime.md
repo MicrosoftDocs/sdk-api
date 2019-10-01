@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - AVIStreamStartTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

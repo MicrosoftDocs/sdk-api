@@ -38,7 +38,6 @@ api_location:
 - CryptDlg.h
 api_name:
 - CTL_MODIFY_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 req.redist: 

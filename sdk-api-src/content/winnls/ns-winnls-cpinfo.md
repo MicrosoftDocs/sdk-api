@@ -38,7 +38,6 @@ api_location:
 - Winnls.h
 api_name:
 - CPINFO
-product: Windows
 targetos: Windows
 req.typenames: CPINFO, *LPCPINFO
 req.redist: 

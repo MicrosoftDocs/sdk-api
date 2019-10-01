@@ -38,7 +38,6 @@ api_location:
  - Mergemod.dll
 api_name:
  - IMsmMerge2.MergeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

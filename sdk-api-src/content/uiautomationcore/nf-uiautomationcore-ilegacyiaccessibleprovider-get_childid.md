@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ILegacyIAccessibleProvider.ChildId
  - ILegacyIAccessibleProvider.get_ChildId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

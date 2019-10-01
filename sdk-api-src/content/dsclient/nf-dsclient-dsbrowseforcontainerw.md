@@ -40,7 +40,6 @@ api_name:
  - DsBrowseForContainer
  - DsBrowseForContainerA
  - DsBrowseForContainerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

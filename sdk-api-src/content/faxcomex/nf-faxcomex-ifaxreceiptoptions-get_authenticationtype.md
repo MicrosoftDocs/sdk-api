@@ -40,7 +40,6 @@ api_name:
  - IFaxReceiptOptions.AuthenticationType
  - IFaxReceiptOptions.get_AuthenticationType
  - IFaxReceiptOptions.put_AuthenticationType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

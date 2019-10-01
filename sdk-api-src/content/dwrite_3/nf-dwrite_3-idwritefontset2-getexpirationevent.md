@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFontSet2::GetExpirationEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

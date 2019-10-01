@@ -38,7 +38,6 @@ api_location:
  - Wmiprvsd.dll
 api_name:
  - IWbemHiPerfProvider.StopRefreshing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

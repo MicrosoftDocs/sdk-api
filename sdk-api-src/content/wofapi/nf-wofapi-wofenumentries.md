@@ -38,7 +38,6 @@ api_location:
  - wofutil.dll
 api_name:
  - WofEnumEntries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

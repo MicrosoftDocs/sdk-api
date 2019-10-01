@@ -40,7 +40,6 @@ api_name:
 - NMHEADER
 - NMHEADERA
 - NMHEADERW
-product: Windows
 targetos: Windows
 req.typenames: NMHEADERW, *LPNMHEADERW
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
 - SetupGetLineText
 - SetupGetLineTextA
 - SetupGetLineTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

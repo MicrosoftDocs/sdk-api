@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.GetCRL
  - ICertAdmin.GetCRL
  - CCertAdmin.GetCRL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

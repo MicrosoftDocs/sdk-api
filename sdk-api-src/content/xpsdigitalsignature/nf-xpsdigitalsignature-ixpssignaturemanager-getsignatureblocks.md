@@ -38,7 +38,6 @@ api_location:
  - xpsdigitalsignature.h
 api_name:
  - IXpsSignatureManager.GetSignatureBlocks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

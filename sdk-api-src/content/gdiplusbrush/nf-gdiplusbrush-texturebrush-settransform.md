@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - TextureBrush.SetTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

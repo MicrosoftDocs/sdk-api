@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRSurfaceAllocatorNotify9.SetD3DDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

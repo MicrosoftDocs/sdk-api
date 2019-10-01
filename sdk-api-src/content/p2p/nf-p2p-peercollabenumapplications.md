@@ -38,7 +38,6 @@ api_location:
  - P2P.dll
 api_name:
  - PeerCollabEnumApplications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

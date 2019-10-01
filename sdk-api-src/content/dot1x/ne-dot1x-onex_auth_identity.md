@@ -38,7 +38,6 @@ api_location:
 - dot1x.h
 api_name:
 - ONEX_AUTH_IDENTITY
-product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY
 req.redist: 

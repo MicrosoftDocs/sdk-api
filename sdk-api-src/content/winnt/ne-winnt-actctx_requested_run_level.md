@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - ACTCTX_REQUESTED_RUN_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
 req.redist: 

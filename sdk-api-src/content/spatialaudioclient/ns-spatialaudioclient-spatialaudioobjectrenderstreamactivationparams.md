@@ -38,7 +38,6 @@ api_location:
  - spatialaudioclient.h
 api_name:
  - SpatialAudioObjectRenderStreamActivationParams
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioObjectRenderStreamActivationParams
 req.redist: 

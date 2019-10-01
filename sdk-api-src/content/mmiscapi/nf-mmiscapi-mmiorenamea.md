@@ -43,7 +43,6 @@ api_name:
  - mmioRename
  - mmioRenameA
  - mmioRenameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

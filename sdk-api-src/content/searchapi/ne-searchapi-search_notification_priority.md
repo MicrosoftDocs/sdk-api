@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - SEARCH_NOTIFICATION_PRIORITY
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_NOTIFICATION_PRIORITY
 req.redist: Windows Desktop Search (WDS) 3.0

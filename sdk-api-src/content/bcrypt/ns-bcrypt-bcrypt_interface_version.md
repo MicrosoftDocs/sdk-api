@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_INTERFACE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
 req.redist: 

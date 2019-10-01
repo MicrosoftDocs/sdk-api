@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_SECONDARY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_SECONDARY_FLAGS
 req.redist: DbgHelp.dll 6.6 or later

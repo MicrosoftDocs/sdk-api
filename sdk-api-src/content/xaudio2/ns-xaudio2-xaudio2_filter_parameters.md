@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - XAUDIO2_FILTER_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_FILTER_PARAMETERS
 req.redist: 

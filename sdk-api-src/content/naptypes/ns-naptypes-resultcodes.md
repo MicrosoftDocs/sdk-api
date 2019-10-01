@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - ResultCodes
-product: Windows
 targetos: Windows
 req.typenames: ResultCodes
 req.redist: 

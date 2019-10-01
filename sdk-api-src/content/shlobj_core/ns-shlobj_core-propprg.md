@@ -38,7 +38,6 @@ api_location:
  - Shlobj_core.h
 api_name:
  - PROPPRG
-product: Windows
 targetos: Windows
 req.typenames: PROPPRG
 req.redist: 

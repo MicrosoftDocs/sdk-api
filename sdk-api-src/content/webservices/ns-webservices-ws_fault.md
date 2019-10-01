@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_FAULT
-product: Windows
 targetos: Windows
 req.typenames: WS_FAULT
 req.redist: 

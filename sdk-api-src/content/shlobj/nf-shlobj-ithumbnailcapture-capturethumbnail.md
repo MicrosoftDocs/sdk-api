@@ -38,7 +38,6 @@ api_location:
  - Shimgvw.dll
 api_name:
  - IThumbnailCapture.CaptureThumbnail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPCdromBurn.get_burnPlaylist
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

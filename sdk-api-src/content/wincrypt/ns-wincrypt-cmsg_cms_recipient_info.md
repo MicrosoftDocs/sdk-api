@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_CMS_RECIPIENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_CMS_RECIPIENT_INFO, *PCMSG_CMS_RECIPIENT_INFO
 req.redist: 

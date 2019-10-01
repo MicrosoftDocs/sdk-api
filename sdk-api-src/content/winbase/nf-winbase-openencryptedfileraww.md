@@ -42,7 +42,6 @@ api_name:
  - OpenEncryptedFileRaw
  - OpenEncryptedFileRawA
  - OpenEncryptedFileRawW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - DISPID_InkRecognizerGuide
-product: Windows
 targetos: Windows
 req.typenames: InkRecoGuide
 req.redist: 

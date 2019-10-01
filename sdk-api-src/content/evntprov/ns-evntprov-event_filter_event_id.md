@@ -38,7 +38,6 @@ api_location:
 - Evntprov.h
 api_name:
 - EVENT_FILTER_EVENT_ID
-product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_EVENT_ID, *PEVENT_FILTER_EVENT_ID
 req.redist: 

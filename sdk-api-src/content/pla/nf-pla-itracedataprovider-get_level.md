@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITraceDataProvider.Level
  - ITraceDataProvider.get_Level
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Intsafe.h
 api_name:
  - UIntSub
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

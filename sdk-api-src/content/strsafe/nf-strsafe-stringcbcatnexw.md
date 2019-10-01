@@ -40,7 +40,6 @@ api_name:
  - StringCbCatNEx
  - StringCbCatNExA
  - StringCbCatNExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

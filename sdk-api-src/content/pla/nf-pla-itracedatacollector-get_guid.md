@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.Guid
  - ITraceDataCollector.get_Guid
  - ITraceDataCollector.put_Guid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rstrtmgr.dll
 api_name:
  - RmCancelCurrentTask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

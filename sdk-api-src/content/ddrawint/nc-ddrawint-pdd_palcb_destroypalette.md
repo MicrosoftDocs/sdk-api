@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DdDestroyPalette
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

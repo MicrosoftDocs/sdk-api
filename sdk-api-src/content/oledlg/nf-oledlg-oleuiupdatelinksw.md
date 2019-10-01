@@ -40,7 +40,6 @@ api_name:
  - OleUIUpdateLinks
  - OleUIUpdateLinksA
  - OleUIUpdateLinksW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

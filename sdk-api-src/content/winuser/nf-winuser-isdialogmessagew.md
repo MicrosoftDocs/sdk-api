@@ -41,7 +41,6 @@ api_name:
  - IsDialogMessage
  - IsDialogMessageA
  - IsDialogMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

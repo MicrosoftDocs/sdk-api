@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CRMREGFLAGS
-product: Windows
 targetos: Windows
 req.typenames: CRMREGFLAGS
 req.redist: 

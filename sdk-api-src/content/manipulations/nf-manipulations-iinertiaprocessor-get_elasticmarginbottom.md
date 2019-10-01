@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.ElasticMarginBottom
  - IInertiaProcessor.get_ElasticMarginBottom
  - IInertiaProcessor.put_ElasticMarginBottom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

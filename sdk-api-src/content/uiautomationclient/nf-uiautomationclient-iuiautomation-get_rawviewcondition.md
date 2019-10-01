@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomation.RawViewCondition
  - IUIAutomation.get_RawViewCondition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

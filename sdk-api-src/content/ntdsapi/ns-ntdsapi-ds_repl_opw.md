@@ -38,7 +38,6 @@ api_location:
 - Ntdsapi.h
 api_name:
 - DS_REPL_OP
-product: Windows
 targetos: Windows
 req.typenames: DS_REPL_OPW
 req.redist: 

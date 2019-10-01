@@ -38,7 +38,6 @@ api_location:
  - Wtsapi32.h
 api_name:
  - WTS_CLIENT_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
 req.redist: 

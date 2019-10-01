@@ -38,7 +38,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - WSCGetProviderPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

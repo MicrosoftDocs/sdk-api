@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement4.CurrentAnnotationTypes
  - IUIAutomationElement4.get_CurrentAnnotationTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

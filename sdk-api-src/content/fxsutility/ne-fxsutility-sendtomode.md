@@ -38,7 +38,6 @@ api_location:
  - Fxsutility.h
 api_name:
  - SendToMode
-product: Windows
 targetos: Windows
 req.typenames: SendToMode
 req.redist: 

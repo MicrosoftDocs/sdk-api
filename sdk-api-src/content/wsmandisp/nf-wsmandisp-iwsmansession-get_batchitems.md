@@ -40,7 +40,6 @@ api_name:
  - IWSManSession.BatchItems
  - IWSManSession.get_BatchItems
  - IWSManSession.put_BatchItems
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

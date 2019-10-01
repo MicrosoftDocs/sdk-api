@@ -40,7 +40,6 @@ api_name:
  - IWorkspaceScriptable2.ResourceDismissed
  - IWorkspaceScriptable3.ResourceDismissed
  - Workspace.ResourceDismissed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

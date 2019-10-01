@@ -40,7 +40,6 @@ api_name:
  - ImmRequestMessage
  - ImmRequestMessageA
  - ImmRequestMessageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLVCACHEHINT
-product: Windows
 targetos: Windows
 req.typenames: NMLVCACHEHINT, *LPNMLVCACHEHINT
 req.redist: 

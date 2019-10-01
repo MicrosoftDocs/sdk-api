@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_MORESURFACECAPS
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS'
 req.redist: 

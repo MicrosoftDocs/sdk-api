@@ -39,7 +39,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPTPROTECT_PROMPTSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 req.redist: 

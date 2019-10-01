@@ -38,7 +38,6 @@ api_location:
  - DSAdmin.h
 api_name:
  - DSA_NEWOBJ_DISPINFO
-product: Windows
 targetos: Windows
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 req.redist: 

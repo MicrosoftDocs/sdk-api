@@ -40,7 +40,6 @@ api_name:
 - WTSINFOEX
 - WTSINFOEXA
 - WTSINFOEXW
-product: Windows
 targetos: Windows
 req.typenames: WTSINFOEXW, *PWTSINFOEXW
 req.redist: 

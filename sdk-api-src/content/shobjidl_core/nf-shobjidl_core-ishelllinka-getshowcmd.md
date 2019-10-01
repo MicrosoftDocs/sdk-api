@@ -40,7 +40,6 @@ api_name:
  - IShellLink.GetShowCmd
  - IShellLinkA.GetShowCmd
  - IShellLinkW.GetShowCmd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

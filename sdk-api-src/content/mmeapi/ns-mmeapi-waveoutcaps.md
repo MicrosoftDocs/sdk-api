@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - WAVEOUTCAPS
-product: Windows
 targetos: Windows
 req.typenames: WAVEOUTCAPS, *PWAVEOUTCAPS, *NPWAVEOUTCAPS, *LPWAVEOUTCAPS
 req.redist: 

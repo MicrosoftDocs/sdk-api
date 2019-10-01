@@ -39,7 +39,6 @@ api_location:
  - keycredmgr.dll
 api_name:
  - KeyCredentialManagerShowUIOperation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

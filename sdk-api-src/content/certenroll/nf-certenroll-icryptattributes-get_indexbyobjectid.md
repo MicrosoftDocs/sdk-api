@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICryptAttributes.IndexByObjectId
  - ICryptAttributes.get_IndexByObjectId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

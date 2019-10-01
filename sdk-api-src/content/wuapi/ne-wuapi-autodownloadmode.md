@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AutoDownloadMode
-product: Windows
 targetos: Windows
 req.typenames: AutoDownloadMode
 req.redist: 

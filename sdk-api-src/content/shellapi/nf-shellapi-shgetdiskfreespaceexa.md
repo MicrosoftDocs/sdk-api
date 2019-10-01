@@ -40,7 +40,6 @@ api_name:
  - SHGetDiskFreeSpaceEx
  - SHGetDiskFreeSpaceExA
  - SHGetDiskFreeSpaceExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

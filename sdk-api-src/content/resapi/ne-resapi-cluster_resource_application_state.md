@@ -38,7 +38,6 @@ api_location:
  - Resapi.h
 api_name:
  - CLUSTER_RESOURCE_APPLICATION_STATE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_APPLICATION_STATE
 req.redist: 

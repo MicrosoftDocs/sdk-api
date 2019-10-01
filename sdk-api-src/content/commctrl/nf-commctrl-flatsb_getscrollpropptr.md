@@ -38,7 +38,6 @@ api_location:
  - Comctl32.dll
 api_name:
  - FlatSB_GetScrollPropPtr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - SCROLLBARINFO
-product: Windows
 targetos: Windows
 req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
 req.redist: Service Pack 6

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.Updates
  - ICategory.get_Updates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

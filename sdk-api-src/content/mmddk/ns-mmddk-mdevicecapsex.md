@@ -38,7 +38,6 @@ api_location:
  - mmddk.h
 api_name:
  - MDEVICECAPSEX
-product: Windows
 targetos: Windows
 req.typenames: MDEVICECAPSEX
 req.redist: 

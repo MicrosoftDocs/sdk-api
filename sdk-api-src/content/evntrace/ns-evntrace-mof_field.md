@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - MOF_FIELD
-product: Windows
 targetos: Windows
 req.typenames: MOF_FIELD, *PMOF_FIELD
 req.redist: 

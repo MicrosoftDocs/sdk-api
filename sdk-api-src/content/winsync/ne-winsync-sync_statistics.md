@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: SYNC_STATISTICS
 req.redist: 

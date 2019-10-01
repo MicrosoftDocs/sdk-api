@@ -38,7 +38,6 @@ api_location:
  - VsWriter.h
 api_name:
  - VSS_FILE_RESTORE_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VSS_FILE_RESTORE_STATUS
 req.redist: 

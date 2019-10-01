@@ -38,7 +38,6 @@ api_location:
  - windows.graphics.imaging.interop.dll
 api_name:
  - ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

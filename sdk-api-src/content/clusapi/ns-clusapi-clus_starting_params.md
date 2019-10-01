@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_STARTING_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
 req.redist: 

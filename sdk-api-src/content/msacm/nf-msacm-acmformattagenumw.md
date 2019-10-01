@@ -41,7 +41,6 @@ api_name:
  - acmFormatTagEnum
  - acmFormatTagEnumA
  - acmFormatTagEnumW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

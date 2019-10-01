@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - COWAIT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: COWAIT_FLAGS
 req.redist: 

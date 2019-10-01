@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - IATSC_STT.GetDaylightSavings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

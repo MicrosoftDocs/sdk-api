@@ -39,7 +39,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - ICMP4_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ICMP4_TYPE, *PICMP4_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUpdateDownloader.Updates
  - IUpdateDownloader.get_Updates
  - IUpdateDownloader.put_Updates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_hWnd
  - InkOverlay.get_hWnd
  - InkOverlay.put_hWnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

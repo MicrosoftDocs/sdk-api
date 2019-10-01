@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_EraserWidth
  - InkPicture.get_EraserWidth
  - InkPicture.put_EraserWidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

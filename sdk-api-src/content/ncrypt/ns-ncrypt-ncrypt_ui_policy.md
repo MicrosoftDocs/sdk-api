@@ -38,7 +38,6 @@ api_location:
  - Ncrypt.h
 api_name:
  - NCRYPT_UI_POLICY
-product: Windows
 targetos: Windows
 req.typenames: NCRYPT_UI_POLICY
 req.redist: 

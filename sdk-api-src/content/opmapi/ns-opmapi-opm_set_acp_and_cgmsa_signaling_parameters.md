@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - OCSP_RESPONSE_INFO
-product: Windows
 targetos: Windows
 req.typenames: OCSP_RESPONSE_INFO, *POCSP_RESPONSE_INFO
 req.redist: 

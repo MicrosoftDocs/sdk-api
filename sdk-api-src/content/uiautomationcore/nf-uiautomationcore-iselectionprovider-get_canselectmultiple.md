@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionProvider.CanSelectMultiple
  - ISelectionProvider.get_CanSelectMultiple
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

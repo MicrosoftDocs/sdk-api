@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - CALLINFO_STRING
-product: Windows
 targetos: Windows
 req.typenames: CALLINFO_STRING
 req.redist: 

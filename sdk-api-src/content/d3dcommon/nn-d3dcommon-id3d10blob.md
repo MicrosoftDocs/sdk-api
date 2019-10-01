@@ -38,7 +38,6 @@ api_location:
  - d3dcommon.h
 api_name:
  - ID3D10Blob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

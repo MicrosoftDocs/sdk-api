@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CurrentMaximum
  - IUIAutomationRangeValuePattern.get_CurrentMaximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

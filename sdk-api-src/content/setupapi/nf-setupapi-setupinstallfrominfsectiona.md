@@ -42,7 +42,6 @@ api_name:
  - SetupInstallFromInfSection
  - SetupInstallFromInfSectionA
  - SetupInstallFromInfSectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

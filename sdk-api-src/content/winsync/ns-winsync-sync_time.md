@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_TIME
-product: Windows
 targetos: Windows
 req.typenames: SYNC_TIME
 req.redist: 

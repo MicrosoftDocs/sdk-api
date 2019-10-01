@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - IcmpSendEcho2Ex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

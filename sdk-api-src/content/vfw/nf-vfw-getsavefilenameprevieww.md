@@ -40,7 +40,6 @@ api_name:
  - GetSaveFileNamePreview
  - GetSaveFileNamePreviewA
  - GetSaveFileNamePreviewW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -49,7 +49,6 @@ api_name:
  - K32GetModuleBaseName
  - K32GetModuleBaseNameW
  - K32GetModuleBaseNameA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

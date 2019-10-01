@@ -38,7 +38,6 @@ api_location:
  - ddrawi.h
 api_name:
  - DDHAL_DESTROYDDLOCALDATA
-product: Windows
 targetos: Windows
 req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
 req.redist: 

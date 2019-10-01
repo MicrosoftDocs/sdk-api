@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - IOPMVideoOutput.Configure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

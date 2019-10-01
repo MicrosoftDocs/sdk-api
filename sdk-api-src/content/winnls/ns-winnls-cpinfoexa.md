@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - CPINFOEX
-product: Windows
 targetos: Windows
 req.typenames: CPINFOEXA, *LPCPINFOEXA
 req.redist: 

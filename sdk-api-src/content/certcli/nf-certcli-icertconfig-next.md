@@ -40,7 +40,6 @@ api_name:
  - ICertConfig2.Next
  - ICertConfig.Next
  - CCertConfig.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

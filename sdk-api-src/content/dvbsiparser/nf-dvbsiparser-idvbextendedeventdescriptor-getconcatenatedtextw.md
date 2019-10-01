@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDvbExtendedEventDescriptor.GetConcatenatedTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

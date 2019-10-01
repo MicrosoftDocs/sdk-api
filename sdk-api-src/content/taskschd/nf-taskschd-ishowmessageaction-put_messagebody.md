@@ -40,7 +40,6 @@ api_name:
  - IShowMessageAction.MessageBody
  - IShowMessageAction.get_MessageBody
  - IShowMessageAction.put_MessageBody
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

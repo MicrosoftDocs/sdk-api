@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_INTERACTION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_INTERACTION_TYPE
 req.redist: 

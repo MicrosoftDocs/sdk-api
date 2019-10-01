@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.h
 api_name:
  - GPMReportingOptions
-product: Windows
 targetos: Windows
 req.typenames: GPMReportingOptions
 req.redist: 

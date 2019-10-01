@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - CAPSTATUS
-product: Windows
 targetos: Windows
 req.typenames: CAPSTATUS, *PCAPSTATUS, *LPCAPSTATUS
 req.redist: 

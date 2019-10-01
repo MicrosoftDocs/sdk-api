@@ -38,7 +38,6 @@ api_location:
  - Tspi.h
 api_name:
  - TUISPICREATEDIALOGINSTANCEPARAMS
-product: Windows
 targetos: Windows
 req.typenames: TUISPICREATEDIALOGINSTANCEPARAMS, *LPTUISPICREATEDIALOGINSTANCEPARAMS
 req.redist: 

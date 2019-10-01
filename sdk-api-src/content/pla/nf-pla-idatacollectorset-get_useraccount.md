@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.UserAccount
  - IDataCollectorSet.get_UserAccount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

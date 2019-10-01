@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_Locked
  - InkEdit.get_Locked
  - InkEdit.put_Locked
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

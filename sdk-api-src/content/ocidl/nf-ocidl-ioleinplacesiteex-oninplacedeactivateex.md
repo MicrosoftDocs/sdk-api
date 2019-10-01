@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IOleInPlaceSiteEx.OnInPlaceDeactivateEx
  - IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

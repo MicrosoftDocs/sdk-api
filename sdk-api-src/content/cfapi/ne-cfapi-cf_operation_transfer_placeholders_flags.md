@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
 req.redist: 

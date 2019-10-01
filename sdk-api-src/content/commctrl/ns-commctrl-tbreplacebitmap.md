@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TBREPLACEBITMAP
-product: Windows
 targetos: Windows
 req.typenames: TBREPLACEBITMAP, *LPTBREPLACEBITMAP
 req.redist: 

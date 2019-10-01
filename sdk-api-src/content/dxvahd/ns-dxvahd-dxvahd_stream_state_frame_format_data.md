@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
 req.redist: 

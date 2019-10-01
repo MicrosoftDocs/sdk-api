@@ -40,7 +40,6 @@ api_name:
  - IEnroll4.ClientId
  - IEnroll4.get_ClientId
  - IEnroll4.put_ClientId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

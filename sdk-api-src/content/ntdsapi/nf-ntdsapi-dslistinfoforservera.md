@@ -40,7 +40,6 @@ api_name:
  - DsListInfoForServer
  - DsListInfoForServerA
  - DsListInfoForServerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

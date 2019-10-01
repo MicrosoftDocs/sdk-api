@@ -38,7 +38,6 @@ api_location:
  - Magnification.h
 api_name:
  - MagImageScalingCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

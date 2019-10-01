@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - DEVICE_SEEK_PENALTY_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR
 req.redist: 

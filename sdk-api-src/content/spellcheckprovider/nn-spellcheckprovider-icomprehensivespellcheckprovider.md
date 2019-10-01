@@ -38,7 +38,6 @@ api_location:
  - spellcheckprovider.h
 api_name:
  - IComprehensiveSpellCheckProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.AddMutualExclusion
  - IWMProfile2.AddMutualExclusion
  - IWMProfile3.AddMutualExclusion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

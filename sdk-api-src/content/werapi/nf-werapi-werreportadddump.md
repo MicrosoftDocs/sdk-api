@@ -41,7 +41,6 @@ api_location:
 - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
 - WerReportAddDump
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

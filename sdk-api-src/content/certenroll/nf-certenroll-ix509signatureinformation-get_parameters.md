@@ -40,7 +40,6 @@ api_name:
  - IX509SignatureInformation.Parameters
  - IX509SignatureInformation.get_Parameters
  - IX509SignatureInformation.put_Parameters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

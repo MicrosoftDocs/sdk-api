@@ -38,7 +38,6 @@ api_location:
 - Bits.h
 api_name:
 - IBackgroundCopyCallback.JobError
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vscmgr.lib
 api_name:
  - TPMVSCMGR_STATUS
-product: Windows
 targetos: Windows
 req.typenames: TPMVSCMGR_STATUS
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.MsrcSeverity
  - IUpdate.get_MsrcSeverity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

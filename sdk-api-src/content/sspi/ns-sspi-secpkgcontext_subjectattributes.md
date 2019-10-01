@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SecPkgContext_SubjectAttributes
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SubjectAttributes, *PSecPkgContext_SubjectAttributes
 req.redist: 

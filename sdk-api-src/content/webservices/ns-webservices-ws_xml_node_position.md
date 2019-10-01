@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_XML_NODE_POSITION
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_NODE_POSITION
 req.redist: 

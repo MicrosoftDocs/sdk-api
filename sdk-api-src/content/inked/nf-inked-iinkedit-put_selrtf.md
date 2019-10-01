@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelRTF
  - InkEdit.get_SelRTF
  - InkEdit.put_SelRTF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMPGHOTITEM
-product: Windows
 targetos: Windows
 req.typenames: NMPGHOTITEM, *LPNMPGHOTITEM
 req.redist: 

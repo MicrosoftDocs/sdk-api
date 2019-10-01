@@ -38,7 +38,6 @@ api_location:
  - hstring.h
 api_name:
  - HSTRING_HEADER
-product: Windows
 targetos: Windows
 req.typenames: HSTRING_HEADER
 req.redist: 

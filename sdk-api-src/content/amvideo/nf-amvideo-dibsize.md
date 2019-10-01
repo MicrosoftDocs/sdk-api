@@ -38,7 +38,6 @@ api_location:
  - Amvideo.h
 api_name:
  - DIBSIZE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

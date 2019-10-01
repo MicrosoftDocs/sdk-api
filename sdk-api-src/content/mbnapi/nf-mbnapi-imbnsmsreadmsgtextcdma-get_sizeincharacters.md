@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgTextCdma.SizeInCharacters
  - IMbnSmsReadMsgTextCdma.get_SizeInCharacters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

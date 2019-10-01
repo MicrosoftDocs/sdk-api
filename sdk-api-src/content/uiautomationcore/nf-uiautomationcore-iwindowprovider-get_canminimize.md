@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowProvider.CanMinimize
  - IWindowProvider.get_CanMinimize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

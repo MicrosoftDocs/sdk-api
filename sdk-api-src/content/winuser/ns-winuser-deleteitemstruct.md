@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DELETEITEMSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: DELETEITEMSTRUCT, *PDELETEITEMSTRUCT, *LPDELETEITEMSTRUCT
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SEC_WINNT_CREDUI_CONTEXT_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
 req.redist: 

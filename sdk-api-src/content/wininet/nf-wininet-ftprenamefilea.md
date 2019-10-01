@@ -40,7 +40,6 @@ api_name:
  - FtpRenameFile
  - FtpRenameFileA
  - FtpRenameFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkRecognizerContext.Guide
  - IInkRecognizerContext.get_Guide
  - InkRecognizerContext.get_Guide
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

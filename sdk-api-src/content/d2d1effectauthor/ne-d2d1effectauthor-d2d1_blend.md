@@ -38,7 +38,6 @@ api_location:
  - d2d1effectauthor.lib
 api_name:
  - D2D1_BLEND
-product: Windows
 targetos: Windows
 req.typenames: D2D1_BLEND
 req.redist: 

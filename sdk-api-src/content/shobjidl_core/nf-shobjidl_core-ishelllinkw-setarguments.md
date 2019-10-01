@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetArguments
  - IShellLinkA.SetArguments
  - IShellLinkW.SetArguments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

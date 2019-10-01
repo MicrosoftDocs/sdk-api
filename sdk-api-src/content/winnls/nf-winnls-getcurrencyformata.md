@@ -44,7 +44,6 @@ api_name:
 - GetCurrencyFormat
 - GetCurrencyFormatA
 - GetCurrencyFormatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

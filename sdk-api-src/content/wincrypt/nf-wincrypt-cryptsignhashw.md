@@ -42,7 +42,6 @@ api_name:
  - CryptSignHash
  - CryptSignHashA
  - CryptSignHashW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

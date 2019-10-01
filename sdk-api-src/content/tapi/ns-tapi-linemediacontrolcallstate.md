@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEMEDIACONTROLCALLSTATE
-product: Windows
 targetos: Windows
 req.typenames: LINEMEDIACONTROLCALLSTATE, *LPLINEMEDIACONTROLCALLSTATE
 req.redist: 

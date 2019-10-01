@@ -38,7 +38,6 @@ api_location:
 - Mgm.h
 api_name:
 - SOURCE_GROUP_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
 req.redist: 

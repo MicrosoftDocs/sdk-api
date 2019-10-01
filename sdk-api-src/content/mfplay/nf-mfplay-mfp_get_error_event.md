@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_GET_ERROR_EVENT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

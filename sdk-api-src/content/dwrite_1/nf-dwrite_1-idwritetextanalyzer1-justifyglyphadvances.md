@@ -38,7 +38,6 @@ api_location:
  - dwrite_1.dll
 api_name:
  - IDWriteTextAnalyzer1.JustifyGlyphAdvances
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

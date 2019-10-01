@@ -38,7 +38,6 @@ api_location:
  - Wtsapi32.h
 api_name:
  - WTS_CLIENT_DISPLAY
-product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_DISPLAY, *PWTS_CLIENT_DISPLAY
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.PublishCRL
  - ICertAdmin.PublishCRL
  - CCertAdmin.PublishCRL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

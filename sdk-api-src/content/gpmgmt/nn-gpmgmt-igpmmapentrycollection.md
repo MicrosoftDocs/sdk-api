@@ -43,7 +43,6 @@ api_name:
  - IGPMMapEntryCollection.Item
  - IGPMMapEntryCollection.get_Item
  - GPMMapEntryCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

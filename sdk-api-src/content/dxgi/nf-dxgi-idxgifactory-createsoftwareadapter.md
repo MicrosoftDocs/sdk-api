@@ -39,7 +39,6 @@ api_location:
  - DXGI.dll
 api_name:
  - IDXGIFactory.CreateSoftwareAdapter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

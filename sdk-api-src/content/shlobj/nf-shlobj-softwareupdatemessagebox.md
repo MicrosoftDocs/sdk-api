@@ -38,7 +38,6 @@ api_location:
 - Shdocvw.dll
 api_name:
 - SoftwareUpdateMessageBox
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

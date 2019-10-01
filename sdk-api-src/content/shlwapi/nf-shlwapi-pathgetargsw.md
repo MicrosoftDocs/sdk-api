@@ -44,7 +44,6 @@ api_name:
  - PathGetArgs
  - PathGetArgsA
  - PathGetArgsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

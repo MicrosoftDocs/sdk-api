@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - EVRFilterConfigPrefs
-product: Windows
 targetos: Windows
 req.typenames: EVRFilterConfigPrefs
 req.redist: 

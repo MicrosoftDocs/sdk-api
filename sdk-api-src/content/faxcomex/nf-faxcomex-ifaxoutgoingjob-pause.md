@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutgoingJob.Pause
  - IFaxOutgoingJob.Pause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

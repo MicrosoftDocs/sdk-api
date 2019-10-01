@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CurrentSmallChange
  - IUIAutomationRangeValuePattern.get_CurrentSmallChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

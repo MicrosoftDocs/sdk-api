@@ -47,7 +47,6 @@ api_name:
  - CopyFileEx
  - CopyFileExA
  - CopyFileExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

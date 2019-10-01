@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - ID3D12DebugCommandQueue.AssertResourceState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

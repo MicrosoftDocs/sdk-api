@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_TAGGED_CONTENT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_CONTENT_INFO, *PCMC_TAGGED_CONTENT_INFO
 req.redist: 

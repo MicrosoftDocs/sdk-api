@@ -38,7 +38,6 @@ api_location:
  - prnasnot.h
 api_name:
  - IPrintAsyncNotifyCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

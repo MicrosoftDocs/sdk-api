@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - HelperAttributeInfo, *PHelperAttributeInfo
-product: Windows
 targetos: Windows
 req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
 req.redist: 

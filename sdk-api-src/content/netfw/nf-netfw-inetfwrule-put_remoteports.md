@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.RemotePorts
  - INetFwRule.get_RemotePorts
  - INetFwRule.put_RemotePorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

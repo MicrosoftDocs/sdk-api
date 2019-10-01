@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMOperation.GetObjectName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

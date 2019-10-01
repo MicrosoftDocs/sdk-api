@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFsiNamedStreams.get_EnumNamedStreams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

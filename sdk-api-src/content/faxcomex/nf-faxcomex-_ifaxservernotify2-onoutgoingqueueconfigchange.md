@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnOutgoingQueueConfigChange
  - IFaxServerNotify2.OnOutgoingQueueConfigChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

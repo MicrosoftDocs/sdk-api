@@ -38,7 +38,6 @@ api_location:
 - Certpoleng.dll
 api_name:
 - PstGetCertificates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

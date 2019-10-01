@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_GREATER_EQUAL_VERSION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

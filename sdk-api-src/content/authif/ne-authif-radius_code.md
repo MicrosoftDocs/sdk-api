@@ -38,7 +38,6 @@ api_location:
 - AuthIf.h
 api_name:
 - RADIUS_CODE
-product: Windows
 targetos: Windows
 req.typenames: RADIUS_CODE
 req.redist: 

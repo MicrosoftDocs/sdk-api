@@ -38,7 +38,6 @@ api_location:
  - OleAut32.dll
 api_name:
  - VarBoolFromCy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

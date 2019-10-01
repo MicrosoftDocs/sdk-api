@@ -38,7 +38,6 @@ api_location:
  - AudioPolicy.h
 api_name:
  - IAudioVolumeDuckNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

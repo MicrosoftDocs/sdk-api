@@ -38,7 +38,6 @@ api_location:
  - SessDirPublicTypes.h
 api_name:
  - TSSD_ConnectionPoint
-product: Windows
 targetos: Windows
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 req.redist: 

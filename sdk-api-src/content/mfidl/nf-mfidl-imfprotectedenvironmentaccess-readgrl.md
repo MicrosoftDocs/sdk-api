@@ -38,7 +38,6 @@ api_location:
  - Mfidl.h
 api_name:
  - IMFProtectedEnvironmentAccess.ReadGRL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

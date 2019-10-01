@@ -50,7 +50,6 @@ api_name:
  - RemoveProp
  - RemovePropA
  - RemovePropW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

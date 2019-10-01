@@ -38,7 +38,6 @@ api_location:
 - Winhttp.dll
 api_name:
 - WinHttpWebSocketClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

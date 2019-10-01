@@ -38,7 +38,6 @@ api_location:
  - Certenroll.h
 api_name:
  - IX509CertificateTemplateWritable.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

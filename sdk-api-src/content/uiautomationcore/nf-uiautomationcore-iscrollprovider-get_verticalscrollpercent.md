@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IScrollProvider.VerticalScrollPercent
  - IScrollProvider.get_VerticalScrollPercent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

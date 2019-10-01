@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_NETWORK_ROLE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_NETWORK_ROLE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedAccessKey
  - IUIAutomationElement.get_CachedAccessKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

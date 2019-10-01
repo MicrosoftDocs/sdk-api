@@ -40,7 +40,6 @@ api_location:
  - Adsldpc.dll
 api_name:
  - IDirectorySearch.FreeColumn
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dsrole.h
 api_name:
 - DSROLE_UPGRADE_STATUS_INFO
-product: Windows
 targetos: Windows
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 req.redist: 

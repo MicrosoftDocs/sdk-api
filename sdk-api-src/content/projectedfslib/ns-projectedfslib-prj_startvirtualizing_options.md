@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_STARTVIRTUALIZING_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: PRJ_STARTVIRTUALIZING_OPTIONS
 req.redist: 

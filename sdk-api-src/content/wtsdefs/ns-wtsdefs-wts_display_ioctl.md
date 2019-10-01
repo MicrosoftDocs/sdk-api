@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_DISPLAY_IOCTL
-product: Windows
 targetos: Windows
 req.typenames: WTS_DISPLAY_IOCTL, *PWTS_DISPLAY_IOCTL
 req.redist: 

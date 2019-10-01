@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFSourceBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

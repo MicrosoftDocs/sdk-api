@@ -38,7 +38,6 @@ api_location:
 - Winternl.h
 api_name:
 - PEB_LDR_DATA
-product: Windows
 targetos: Windows
 req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
 req.redist: 

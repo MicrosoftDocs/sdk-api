@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITScriptableAudioFormat.get_BlockAlign
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_PROXY_INFO
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO
 req.redist: 

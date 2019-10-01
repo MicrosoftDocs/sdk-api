@@ -38,7 +38,6 @@ api_location:
  - IContentPrefetcherTaskTrigger.h
 api_name:
  - IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

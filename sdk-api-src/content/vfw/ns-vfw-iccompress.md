@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICCOMPRESS
-product: Windows
 targetos: Windows
 req.typenames: ICCOMPRESS
 req.redist: 

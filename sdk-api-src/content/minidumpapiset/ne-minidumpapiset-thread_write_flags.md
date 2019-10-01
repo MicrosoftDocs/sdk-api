@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - THREAD_WRITE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: THREAD_WRITE_FLAGS
 req.redist: DbgHelp.dll 5.1 or later

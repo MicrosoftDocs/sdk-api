@@ -38,7 +38,6 @@ api_location:
  - processthreadsapi.h
 api_name:
  - THREAD_POWER_THROTTLING_STATE
-product: Windows
 targetos: Windows
 req.typenames: THREAD_POWER_THROTTLING_STATE
 req.redist: 

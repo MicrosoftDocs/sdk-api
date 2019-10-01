@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.h
 api_name:
  - IMFMediaEngine.HasAudio
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

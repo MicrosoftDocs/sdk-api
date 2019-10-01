@@ -50,7 +50,6 @@ api_name:
  - FindWindow
  - FindWindowA
  - FindWindowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

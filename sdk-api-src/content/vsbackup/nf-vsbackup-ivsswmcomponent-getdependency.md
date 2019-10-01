@@ -39,7 +39,6 @@ api_location:
 - VssApi.dll
 api_name:
 - IVssWMComponent.GetDependency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

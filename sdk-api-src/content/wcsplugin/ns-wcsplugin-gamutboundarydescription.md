@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - GamutBoundaryDescription
-product: Windows
 targetos: Windows
 req.typenames: GamutBoundaryDescription
 req.redist: 

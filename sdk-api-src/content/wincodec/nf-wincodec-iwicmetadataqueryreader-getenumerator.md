@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICMetadataQueryReader.GetEnumerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

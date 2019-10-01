@@ -38,7 +38,6 @@ api_location:
  - Msvfw32.dll
 api_name:
  - ICSeqCompressFrameStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

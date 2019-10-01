@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_FILE_BASIC_INFO
-product: Windows
 targetos: Windows
 req.typenames: PRJ_FILE_BASIC_INFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - MsiDetermineApplicablePatches
  - MsiDetermineApplicablePatchesA
  - MsiDetermineApplicablePatchesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

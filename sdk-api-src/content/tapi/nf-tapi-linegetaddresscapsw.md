@@ -40,7 +40,6 @@ api_name:
  - lineGetAddressCaps
  - lineGetAddressCapsA
  - lineGetAddressCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

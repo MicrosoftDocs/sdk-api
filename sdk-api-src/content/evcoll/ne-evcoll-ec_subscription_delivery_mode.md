@@ -38,7 +38,6 @@ api_location:
  - Evcoll.h
 api_name:
  - EC_SUBSCRIPTION_DELIVERY_MODE
-product: Windows
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_DELIVERY_MODE
 req.redist: 

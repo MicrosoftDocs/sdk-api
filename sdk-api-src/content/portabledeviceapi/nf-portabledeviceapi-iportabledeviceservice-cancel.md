@@ -38,7 +38,6 @@ api_location:
  - PortableDeviceAPI.h
 api_name:
  - IPortableDeviceService.Cancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

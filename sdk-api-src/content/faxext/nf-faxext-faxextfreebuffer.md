@@ -38,7 +38,6 @@ api_location:
  - FaxExt.h
 api_name:
  - FaxExtFreeBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - srpapi.h
 api_name:
  - ENTERPRISE_DATA_POLICIES
-product: Windows
 targetos: Windows
 req.typenames: ENTERPRISE_DATA_POLICIES
 req.redist: 

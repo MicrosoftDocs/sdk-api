@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_DesiredPacketDescription
  - InkPicture.get_DesiredPacketDescription
  - InkPicture.put_DesiredPacketDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

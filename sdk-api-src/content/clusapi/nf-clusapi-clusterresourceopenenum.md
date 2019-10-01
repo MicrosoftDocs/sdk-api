@@ -40,7 +40,6 @@ api_location:
  - ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
  - ClusterResourceOpenEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

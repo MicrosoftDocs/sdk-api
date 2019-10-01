@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, *PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
 req.redist: 

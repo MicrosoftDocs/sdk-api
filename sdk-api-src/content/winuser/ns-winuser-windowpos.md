@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - WINDOWPOS
-product: Windows
 targetos: Windows
 req.typenames: WINDOWPOS, *LPWINDOWPOS, *PWINDOWPOS
 req.redist: 

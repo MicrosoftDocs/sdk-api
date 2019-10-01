@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextStoryRanges._NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

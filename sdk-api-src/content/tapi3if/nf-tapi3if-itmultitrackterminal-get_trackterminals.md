@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITMultiTrackTerminal.get_TrackTerminals
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

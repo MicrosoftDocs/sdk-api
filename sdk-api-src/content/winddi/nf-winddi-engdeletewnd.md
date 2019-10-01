@@ -38,7 +38,6 @@ api_location:
 - Win32k.sys
 api_name:
 - EngDeleteWnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

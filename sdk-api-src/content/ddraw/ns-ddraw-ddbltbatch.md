@@ -38,7 +38,6 @@ api_location:
 - Ddraw.h
 api_name:
 - DDBLTBATCH
-product: Windows
 targetos: Windows
 req.typenames: DDBLTBATCH
 req.redist: 

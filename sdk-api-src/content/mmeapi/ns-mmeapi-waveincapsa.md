@@ -39,7 +39,6 @@ api_location:
 api_name:
  - WAVEINCAPS
  - WAVEINCAPSA
-product: Windows
 targetos: Windows
 req.typenames: WAVEINCAPSA, *PWAVEINCAPSA, *NPWAVEINCAPSA, *LPWAVEINCAPSA
 req.redist: 

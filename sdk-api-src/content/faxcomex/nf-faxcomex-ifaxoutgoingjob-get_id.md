@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.Id
  - IFaxOutgoingJob.get_Id
  - IFaxOutgoingJob.get_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - IFsrmClassificationManager2.get_Logging
  - IFsrmClassificationManager2.put_Logging
  - FsrmClassificationManager.Logging
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

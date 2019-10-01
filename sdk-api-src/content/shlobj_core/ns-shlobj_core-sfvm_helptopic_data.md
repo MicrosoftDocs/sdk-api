@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SFVM_HELPTOPIC_DATA
-product: Windows
 targetos: Windows
 req.typenames: SFVM_HELPTOPIC_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - RGBQUAD
-product: Windows
 targetos: Windows
 req.typenames: RGBQUAD
 req.redist: 

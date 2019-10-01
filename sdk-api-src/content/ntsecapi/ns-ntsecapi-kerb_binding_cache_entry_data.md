@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_BINDING_CACHE_ENTRY_DATA
-product: Windows
 targetos: Windows
 req.typenames: KERB_BINDING_CACHE_ENTRY_DATA, *PKERB_BINDING_CACHE_ENTRY_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IGetClusterUIInfo.GetFont
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - XFORM
-product: Windows
 targetos: Windows
 req.typenames: XFORM, *PXFORM, *LPXFORM
 req.redist: 

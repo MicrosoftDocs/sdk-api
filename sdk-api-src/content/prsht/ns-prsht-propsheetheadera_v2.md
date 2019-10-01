@@ -40,7 +40,6 @@ api_name:
 - PROPSHEETHEADER
 - PROPSHEETHEADERA
 - PROPSHEETHEADERW
-product: Windows
 targetos: Windows
 req.typenames: PROPSHEETHEADERA_V2, *LPPROPSHEETHEADERA_V2
 req.redist: 

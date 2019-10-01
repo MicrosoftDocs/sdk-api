@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - IBrowserFrameOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

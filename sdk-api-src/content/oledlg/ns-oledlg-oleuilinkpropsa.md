@@ -40,7 +40,6 @@ api_name:
  - OLEUILINKPROPS
  - OLEUILINKPROPSA
  - OLEUILINKPROPSW
-product: Windows
 targetos: Windows
 req.typenames: OLEUILINKPROPSA, *POLEUILINKPROPSA, *LPOLEUILINKPROPSA
 req.redist: 

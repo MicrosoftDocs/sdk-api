@@ -38,7 +38,6 @@ api_location:
  - Vpconfig.h
 api_name:
  - IVPBaseConfig.GetConnectInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

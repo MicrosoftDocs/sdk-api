@@ -40,7 +40,6 @@ api_name:
  - MsiOpenPackageEx
  - MsiOpenPackageExA
  - MsiOpenPackageExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

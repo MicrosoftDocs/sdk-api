@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.WorkingDirectory
  - IFsrmActionCommand.get_WorkingDirectory
  - IFsrmActionCommand.put_WorkingDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

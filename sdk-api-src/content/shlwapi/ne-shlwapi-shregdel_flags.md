@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - SHREGDEL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SHREGDEL_FLAGS
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - Wbemess.dll
 api_name:
  - IWbemObjectAccess.Unlock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Endpointvolume.h
 api_name:
  - IAudioEndpointVolumeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

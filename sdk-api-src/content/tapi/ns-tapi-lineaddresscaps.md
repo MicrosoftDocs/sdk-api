@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEADDRESSCAPS
-product: Windows
 targetos: Windows
 req.typenames: LINEADDRESSCAPS, *LPLINEADDRESSCAPS
 req.redist: 

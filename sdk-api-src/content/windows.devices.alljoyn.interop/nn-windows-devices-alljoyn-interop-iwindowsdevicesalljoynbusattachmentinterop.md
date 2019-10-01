@@ -38,7 +38,6 @@ api_location:
  - windows.devices.alljoyn.interop.h
 api_name:
  - IWindowsDevicesAllJoynBusAttachmentInterop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxReceiptOptions.AllowedReceipts
  - IFaxReceiptOptions.get_AllowedReceipts
  - IFaxReceiptOptions.put_AllowedReceipts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 req.redist: 

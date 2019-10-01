@@ -39,7 +39,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_SUFFIX_ORIGIN
-product: Windows
 targetos: Windows
 req.typenames: NL_SUFFIX_ORIGIN
 req.redist: 

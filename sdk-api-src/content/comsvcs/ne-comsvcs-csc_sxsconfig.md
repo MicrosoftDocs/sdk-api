@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - CSC_SxsConfig
-product: Windows
 targetos: Windows
 req.typenames: CSC_SxsConfig
 req.redist: 

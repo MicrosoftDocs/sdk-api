@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - IGlobalInterfaceTable.RegisterInterfaceInGlobal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

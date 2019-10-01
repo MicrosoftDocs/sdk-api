@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzApplication3.RoleAssignments
  - IAzApplication3.get_RoleAssignments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D11.h
 api_name:
  - CD3D11_VIEWPORT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

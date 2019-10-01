@@ -47,7 +47,6 @@ api_name:
  - ITsSbTarget.TargetExternalIpAddresses
  - ITsSbTarget::get_TargetExternalIpAddresses
  - ITsSbTarget::put_TargetExternalIpAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

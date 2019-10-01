@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITTAPIObjectEvent2.get_Phone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

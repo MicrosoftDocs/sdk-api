@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.GetDomain
  - GPM.GetDomain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

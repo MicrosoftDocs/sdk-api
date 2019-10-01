@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMFILTERCHOOSE
-product: Windows
 targetos: Windows
 req.typenames: ACMFILTERCHOOSE, *PACMFILTERCHOOSE, *LPACMFILTERCHOOSE
 req.redist: 

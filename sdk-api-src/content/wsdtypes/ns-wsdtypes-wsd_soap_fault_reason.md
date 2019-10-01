@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_SOAP_FAULT_REASON
-product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_FAULT_REASON
 req.redist: 

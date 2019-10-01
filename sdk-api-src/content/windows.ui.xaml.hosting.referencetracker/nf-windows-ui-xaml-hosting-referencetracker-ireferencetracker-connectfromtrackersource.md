@@ -38,7 +38,6 @@ api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
  - IReferenceTracker.ConnectFromTrackerSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

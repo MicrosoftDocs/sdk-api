@@ -40,7 +40,6 @@ api_name:
  - IAlertDataCollector.Task
  - IAlertDataCollector.get_Task
  - IAlertDataCollector.put_Task
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

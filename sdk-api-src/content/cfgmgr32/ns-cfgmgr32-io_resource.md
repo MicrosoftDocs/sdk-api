@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - IO_RESOURCE
-product: Windows
 targetos: Windows
 req.typenames: IO_RESOURCE, *PIO_RESOURCE
 req.redist: 

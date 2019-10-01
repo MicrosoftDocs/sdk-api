@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.RegistryKeys
  - IConfigurationDataCollector.get_RegistryKeys
  - IConfigurationDataCollector.put_RegistryKeys
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

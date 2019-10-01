@@ -44,7 +44,6 @@ api_name:
  - lstrcat
  - lstrcatA
  - lstrcatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

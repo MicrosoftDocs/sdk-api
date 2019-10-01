@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMWriterPushSink.Disconnect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

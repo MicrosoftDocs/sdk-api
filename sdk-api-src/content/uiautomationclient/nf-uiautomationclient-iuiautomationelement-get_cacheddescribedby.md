@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedDescribedBy
  - IUIAutomationElement.get_CachedDescribedBy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

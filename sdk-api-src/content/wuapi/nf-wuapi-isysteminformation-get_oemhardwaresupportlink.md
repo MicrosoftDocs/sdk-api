@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISystemInformation.OemHardwareSupportLink
  - ISystemInformation.get_OemHardwareSupportLink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

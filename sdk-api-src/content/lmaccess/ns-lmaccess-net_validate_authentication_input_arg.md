@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - NET_VALIDATE_AUTHENTICATION_INPUT_ARG
-product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_AUTHENTICATION_INPUT_ARG, *PNET_VALIDATE_AUTHENTICATION_INPUT_ARG
 req.redist: 

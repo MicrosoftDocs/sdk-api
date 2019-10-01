@@ -39,7 +39,6 @@ api_location:
 - d3dcommon.h
 api_name:
 - D3D11_TESSELLATOR_PARTITIONING
-product: Windows
 targetos: Windows
 req.typenames: D3D_TESSELLATOR_PARTITIONING
 req.redist: 

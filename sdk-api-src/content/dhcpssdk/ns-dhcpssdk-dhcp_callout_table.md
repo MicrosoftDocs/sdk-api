@@ -38,7 +38,6 @@ api_location:
  - Dhcpssdk.h
 api_name:
  - DHCP_CALLOUT_TABLE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_CALLOUT_TABLE, *LPDHCP_CALLOUT_TABLE
 req.redist: 

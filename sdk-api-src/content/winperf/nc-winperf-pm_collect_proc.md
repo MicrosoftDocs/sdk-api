@@ -38,7 +38,6 @@ api_location:
 - Winperf.h
 api_name:
 - CollectPerformanceData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

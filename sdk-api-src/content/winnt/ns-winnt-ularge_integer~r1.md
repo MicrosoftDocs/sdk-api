@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "winnt/_ULARGE_INTEGER"
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

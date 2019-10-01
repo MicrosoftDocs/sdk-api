@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVINFO
-product: Windows
 targetos: Windows
 req.typenames: DVINFO, *PDVINFO
 req.redist: 

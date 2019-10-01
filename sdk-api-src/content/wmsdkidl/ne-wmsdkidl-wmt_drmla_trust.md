@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_DRMLA_TRUST
-product: Windows
 targetos: Windows
 req.typenames: WMT_DRMLA_TRUST
 req.redist: 

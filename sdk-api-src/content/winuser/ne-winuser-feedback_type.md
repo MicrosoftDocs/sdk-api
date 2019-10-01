@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - FEEDBACK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FEEDBACK_TYPE
 req.redist: 

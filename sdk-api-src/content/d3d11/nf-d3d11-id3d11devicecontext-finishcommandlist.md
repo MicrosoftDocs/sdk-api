@@ -39,7 +39,6 @@ api_location:
  - d3d11.dll
 api_name:
  - ID3D11DeviceContext.FinishCommandList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RasGetSubEntryProperties
  - RasGetSubEntryPropertiesA
  - RasGetSubEntryPropertiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

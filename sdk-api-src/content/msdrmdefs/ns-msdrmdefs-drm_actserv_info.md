@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRM_ACTSERV_INFO
-product: Windows
 targetos: Windows
 req.typenames: DRM_ACTSERV_INFO
 req.redist: 

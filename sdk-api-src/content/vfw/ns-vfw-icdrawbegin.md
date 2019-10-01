@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICDRAWBEGIN
-product: Windows
 targetos: Windows
 req.typenames: ICDRAWBEGIN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - MsTscAx.dll
 api_name:
  - RemoteActionType
-product: Windows
 targetos: Windows
 req.typenames: RemoteActionType
 req.redist: 

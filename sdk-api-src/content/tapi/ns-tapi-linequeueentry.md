@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEQUEUEENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
 req.redist: 

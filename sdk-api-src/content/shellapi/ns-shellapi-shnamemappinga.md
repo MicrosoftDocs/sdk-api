@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SHNAMEMAPPING
  - SHNAMEMAPPINGA
-product: Windows
 targetos: Windows
 req.typenames: SHNAMEMAPPINGA, *LPSHNAMEMAPPINGA
 req.redist: 

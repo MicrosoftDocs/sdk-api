@@ -38,7 +38,6 @@ api_location:
  - xapofx.h
 api_name:
  - FXECHO_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: FXECHO_PARAMETERS
 req.redist: 

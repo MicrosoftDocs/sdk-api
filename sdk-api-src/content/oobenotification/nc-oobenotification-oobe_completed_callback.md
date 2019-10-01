@@ -38,7 +38,6 @@ api_location:
  - Oobenotification.h
 api_name:
  - OOBE_COMPLETED_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -9,7 +9,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "directxcollision/BoundingOrientedBox::Contains"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

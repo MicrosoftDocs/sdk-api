@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationScrollPattern.CurrentVerticalScrollPercent
  - IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

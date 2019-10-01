@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnDeviceService.DeviceServiceID
  - IMbnDeviceService.get_DeviceServiceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mswmdm.h
 api_name:
  - IWMDMEnumStorage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

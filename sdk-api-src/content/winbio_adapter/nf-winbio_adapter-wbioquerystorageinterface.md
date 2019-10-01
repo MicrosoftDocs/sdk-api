@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WbioQueryStorageInterface
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

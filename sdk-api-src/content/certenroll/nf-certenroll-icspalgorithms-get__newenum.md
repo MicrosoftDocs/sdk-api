@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithms._NewEnum
  - ICspAlgorithms.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

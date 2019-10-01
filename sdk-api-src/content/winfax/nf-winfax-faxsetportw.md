@@ -41,7 +41,6 @@ api_name:
 - FaxSetPort
 - FaxSetPortA
 - FaxSetPortW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

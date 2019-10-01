@@ -38,7 +38,6 @@ api_location:
  - mfmediaengine.dll
 api_name:
  - IMFTimedTextCue.GetOriginalId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.acceptPKCS7
  - ICEnroll.acceptPKCS7
  - CEnroll.acceptPKCS7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

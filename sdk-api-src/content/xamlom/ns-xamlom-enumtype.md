@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - EnumType
-product: Windows
 targetos: Windows
 req.typenames: EnumType
 req.redist: 

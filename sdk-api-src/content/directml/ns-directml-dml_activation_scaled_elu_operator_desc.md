@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_ACTIVATION_SCALED_ELU_OPERATOR_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

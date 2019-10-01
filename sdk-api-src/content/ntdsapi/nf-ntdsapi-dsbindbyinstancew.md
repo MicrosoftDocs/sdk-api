@@ -40,7 +40,6 @@ api_name:
  - DsBindByInstance
  - DsBindByInstanceA
  - DsBindByInstanceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

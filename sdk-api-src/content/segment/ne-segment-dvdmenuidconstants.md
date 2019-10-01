@@ -38,7 +38,6 @@ api_location:
  - Segment.h
 api_name:
  - DVDMenuIDConstants
-product: Windows
 targetos: Windows
 req.typenames: DVDMenuIDConstants
 req.redist: 

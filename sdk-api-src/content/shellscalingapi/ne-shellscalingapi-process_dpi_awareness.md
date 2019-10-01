@@ -38,7 +38,6 @@ api_location:
  - ShellScalingApi.h
 api_name:
  - PROCESS_DPI_AWARENESS
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_DPI_AWARENESS
 req.redist: 

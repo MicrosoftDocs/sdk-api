@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - BLUETOOTH_RADIO_INFO
-product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_RADIO_INFO, *PBLUETOOTH_RADIO_INFO
 req.redist: 

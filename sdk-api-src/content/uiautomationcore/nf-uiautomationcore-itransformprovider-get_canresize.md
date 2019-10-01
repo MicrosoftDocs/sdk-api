@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider.CanResize
  - ITransformProvider.get_CanResize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

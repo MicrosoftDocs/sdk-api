@@ -42,7 +42,6 @@ api_name:
 - StartDoc
 - StartDocA
 - StartDocW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

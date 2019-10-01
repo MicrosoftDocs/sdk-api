@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxOutboundRoutingRule.CountryCode
  - IFaxOutboundRoutingRule.get_CountryCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

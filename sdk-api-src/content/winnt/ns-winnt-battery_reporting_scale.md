@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - BATTERY_REPORTING_SCALE
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 req.redist: 

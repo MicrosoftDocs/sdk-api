@@ -38,7 +38,6 @@ api_location:
  - Unknwn.h
 api_name:
  - IUnknown.Release
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

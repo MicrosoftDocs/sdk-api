@@ -41,7 +41,6 @@ api_name:
 - FaxSetLoggingCategories
 - FaxSetLoggingCategoriesA
 - FaxSetLoggingCategoriesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D2d1.dll
 api_name:
  - Matrix3x2F.IsIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - IMFByteStreamCacheControl2.SetCacheLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dsuiext.dll
 api_name:
  - DsGetFriendlyClassName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

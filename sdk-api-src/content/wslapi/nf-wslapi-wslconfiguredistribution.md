@@ -38,7 +38,6 @@ api_location:
  - api-ms-win-wsl-api-l1-1-0.dll
 api_name:
  - WslConfigureDistribution
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

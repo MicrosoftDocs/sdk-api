@@ -38,7 +38,6 @@ api_location:
  - editionupgradehelper.h
 api_name:
  - IEditionUpgradeHelper.GetGenuineLocalStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

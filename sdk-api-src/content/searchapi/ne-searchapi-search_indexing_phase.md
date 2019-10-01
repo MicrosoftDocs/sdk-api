@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - SEARCH_INDEXING_PHASE
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_INDEXING_PHASE
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -38,7 +38,6 @@ api_location:
  - Windowsx.h
 api_name:
  - ComboBox_SelectItemData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - HASHALGORITHM_ENUM
-product: Windows
 targetos: Windows
 req.typenames: HASHALGORITHM_ENUM
 req.redist: 

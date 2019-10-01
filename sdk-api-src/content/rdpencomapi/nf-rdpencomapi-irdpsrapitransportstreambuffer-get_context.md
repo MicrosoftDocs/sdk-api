@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPITransportStreamBuffer.Context
  - IRDPSRAPITransportStreamBuffer.get_Context
  - IRDPSRAPITransportStreamBuffer.put_Context
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

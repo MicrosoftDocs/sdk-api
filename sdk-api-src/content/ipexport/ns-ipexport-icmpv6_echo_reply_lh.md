@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - ICMPV6_ECHO_REPLY
-product: Windows
 targetos: Windows
 req.typenames: ICMPV6_ECHO_REPLY_LH, *PICMPV6_ECHO_REPLY_LH
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - networkisolation.h
 api_name:
  - NETISO_FLAG
-product: Windows
 targetos: Windows
 req.typenames: NETISO_FLAG
 req.redist: 

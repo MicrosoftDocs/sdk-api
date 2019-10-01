@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.TemplateObjectId
  - IX509CertificateRequestCmc.get_TemplateObjectId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IAutomaticUpdatesSettings.NotificationLevel
  - IAutomaticUpdatesSettings.get_NotificationLevel
  - IAutomaticUpdatesSettings.put_NotificationLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

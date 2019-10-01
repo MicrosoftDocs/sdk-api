@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - FONTSIM
-product: Windows
 targetos: Windows
 req.typenames: FONTSIM
 req.redist: 

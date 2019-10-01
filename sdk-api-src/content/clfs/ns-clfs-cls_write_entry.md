@@ -38,7 +38,6 @@ api_location:
  - Clfs.h
 api_name:
  - CLFS_WRITE_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
 req.redist: 

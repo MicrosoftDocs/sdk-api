@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - DMA_RANGE
-product: Windows
 targetos: Windows
 req.typenames: DMA_RANGE, *PDMA_RANGE
 req.redist: 

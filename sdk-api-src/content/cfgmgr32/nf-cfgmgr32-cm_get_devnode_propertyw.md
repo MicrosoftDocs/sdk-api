@@ -42,7 +42,6 @@ api_name:
  - CM_Get_DevNode_Property
  - CM_Get_DevNode_Property
  - CM_Get_DevNode_PropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

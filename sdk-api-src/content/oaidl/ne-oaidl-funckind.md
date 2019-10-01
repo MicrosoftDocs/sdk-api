@@ -38,7 +38,6 @@ api_location:
  - OAIdl.h
 api_name:
  - FUNCKIND
-product: Windows
 targetos: Windows
 req.typenames: FUNCKIND
 req.redist: 

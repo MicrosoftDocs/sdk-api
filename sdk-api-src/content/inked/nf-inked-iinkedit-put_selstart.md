@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelStart
  - InkEdit.get_SelStart
  - InkEdit.put_SelStart
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_Renderer
  - InkOverlay.get_Renderer
  - InkOverlay.put_Renderer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

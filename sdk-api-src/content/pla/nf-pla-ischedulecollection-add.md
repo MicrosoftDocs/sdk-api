@@ -38,7 +38,6 @@ api_location:
  - Pla.dll
 api_name:
  - IScheduleCollection.Add
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

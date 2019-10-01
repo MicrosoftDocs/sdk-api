@@ -39,7 +39,6 @@ api_location:
  - Inkdiv.dll.dll
 api_name:
  - IInkDivisionResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

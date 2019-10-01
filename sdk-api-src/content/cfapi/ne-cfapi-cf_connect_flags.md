@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_CONNECT_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CF_CONNECT_FLAGS
 req.redist: 

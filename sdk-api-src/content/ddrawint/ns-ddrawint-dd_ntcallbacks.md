@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_NTCALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_NTCALLBACKS, *PDD_NTCALLBACKS
 req.redist: 

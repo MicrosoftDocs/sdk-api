@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - _MFP_MEDIAITEM_CHARACTERISTICS
-product: Windows
 targetos: Windows
 req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
 req.redist: 

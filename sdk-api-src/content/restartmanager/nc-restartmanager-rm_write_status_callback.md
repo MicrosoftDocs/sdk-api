@@ -38,7 +38,6 @@ api_location:
  - RestartManager.h
 api_name:
  - RM_WRITE_STATUS_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

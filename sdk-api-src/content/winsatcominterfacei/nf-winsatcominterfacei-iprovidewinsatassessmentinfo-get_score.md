@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATAssessmentInfo.Score
  - IProvideWinSATAssessmentInfo.get_Score
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

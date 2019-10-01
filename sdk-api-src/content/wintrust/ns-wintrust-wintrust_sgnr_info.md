@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - WINTRUST_SGNR_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINTRUST_SGNR_INFO, *PWINTRUST_SGNR_INFO
 req.redist: 

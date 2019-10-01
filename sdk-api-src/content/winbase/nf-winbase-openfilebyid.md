@@ -41,7 +41,6 @@ api_location:
 - API-MS-Win-Core-File-l2-1-2.dll
 api_name:
 - OpenFileById
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

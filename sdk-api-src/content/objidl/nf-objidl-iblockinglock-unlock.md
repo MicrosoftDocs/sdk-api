@@ -38,7 +38,6 @@ api_location:
  - ObjIdl.h
 api_name:
  - IBlockingLock.Unlock
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

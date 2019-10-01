@@ -40,7 +40,6 @@ api_name:
 - GetUrlCacheGroupAttribute
 - GetUrlCacheGroupAttributeA
 - GetUrlCacheGroupAttributeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

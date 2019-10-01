@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidStreamBufferSink3.get__DataAnalysisFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

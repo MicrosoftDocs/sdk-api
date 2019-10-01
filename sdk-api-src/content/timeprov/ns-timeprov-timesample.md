@@ -38,7 +38,6 @@ api_location:
  - Timeprov.h
 api_name:
  - TimeSample
-product: Windows
 targetos: Windows
 req.typenames: TimeSample
 req.redist: 

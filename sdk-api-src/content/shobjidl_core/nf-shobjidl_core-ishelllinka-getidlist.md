@@ -40,7 +40,6 @@ api_name:
  - IShellLink.GetIDList
  - IShellLinkA.GetIDList
  - IShellLinkW.GetIDList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

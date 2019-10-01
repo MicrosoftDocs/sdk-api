@@ -40,7 +40,6 @@ api_name:
  - IADsSecurityUtility.SecurityMask
  - IADsSecurityUtility.get_SecurityMask
  - IADsSecurityUtility.put_SecurityMask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

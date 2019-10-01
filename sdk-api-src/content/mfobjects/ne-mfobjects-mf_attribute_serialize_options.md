@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MF_ATTRIBUTE_SERIALIZE_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

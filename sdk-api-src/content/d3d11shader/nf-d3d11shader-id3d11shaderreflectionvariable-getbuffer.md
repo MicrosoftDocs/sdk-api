@@ -38,7 +38,6 @@ api_location:
  - d3d11shader.h
 api_name:
  - ID3D11ShaderReflectionVariable.GetBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

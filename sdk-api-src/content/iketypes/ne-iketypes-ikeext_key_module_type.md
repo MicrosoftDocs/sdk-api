@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_KEY_MODULE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_KEY_MODULE_TYPE
 req.redist: 

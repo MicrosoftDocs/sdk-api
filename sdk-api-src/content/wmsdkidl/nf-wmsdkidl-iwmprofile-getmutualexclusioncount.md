@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.GetMutualExclusionCount
  - IWMProfile2.GetMutualExclusionCount
  - IWMProfile3.GetMutualExclusionCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dcomp.dll
 api_name:
  - IDCompositionDevice3.CreateTurbulenceEffect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

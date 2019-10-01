@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMStorage3.GetMetadata
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

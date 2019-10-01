@@ -38,7 +38,6 @@ api_location:
 - winnt.h
 api_name:
 - ENCLAVE_CREATE_INFO_SGX
-product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
 req.redist: 

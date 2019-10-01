@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - UMS_SYSTEM_THREAD_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: UMS_SYSTEM_THREAD_INFORMATION, *PUMS_SYSTEM_THREAD_INFORMATION
 req.redist: 

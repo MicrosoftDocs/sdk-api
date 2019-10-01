@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.ModuleClsid
  - IFsrmPipelineModuleDefinition.get_ModuleClsid
  - IFsrmPipelineModuleDefinition.put_ModuleClsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

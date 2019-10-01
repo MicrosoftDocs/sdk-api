@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - BCRYPT_ECCKEY_BLOB
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
 req.redist: 

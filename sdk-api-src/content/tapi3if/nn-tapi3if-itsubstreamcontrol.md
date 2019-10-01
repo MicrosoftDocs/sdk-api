@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - ITSubStreamControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

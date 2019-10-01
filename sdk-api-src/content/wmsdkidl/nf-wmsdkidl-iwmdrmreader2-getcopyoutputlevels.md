@@ -39,7 +39,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMDRMReader2.GetCopyOutputLevels
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

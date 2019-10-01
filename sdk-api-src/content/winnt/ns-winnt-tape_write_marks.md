@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_WRITE_MARKS
-product: Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 req.redist: 

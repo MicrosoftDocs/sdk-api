@@ -40,7 +40,6 @@ api_name:
  - EnumWindowStations
  - EnumWindowStationsA
  - EnumWindowStationsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

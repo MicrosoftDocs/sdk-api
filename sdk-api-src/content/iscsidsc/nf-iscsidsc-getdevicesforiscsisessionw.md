@@ -40,7 +40,6 @@ api_name:
 - GetDevicesForIscsiSession
 - GetDevicesForIscsiSessionA
 - GetDevicesForIscsiSessionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

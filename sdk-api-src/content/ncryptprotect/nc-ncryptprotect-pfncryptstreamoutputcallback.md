@@ -38,7 +38,6 @@ api_location:
  - NCryptprotect.h
 api_name:
  - PFNCryptStreamOutputCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

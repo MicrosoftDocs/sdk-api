@@ -38,7 +38,6 @@ api_location:
  - FontSub.dll
 api_name:
  - CreateFontPackage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

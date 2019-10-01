@@ -38,7 +38,6 @@ api_location:
  - winusbio.h
 api_name:
  - WINUSB_PIPE_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
 req.redist: 

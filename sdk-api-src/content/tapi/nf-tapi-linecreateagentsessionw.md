@@ -40,7 +40,6 @@ api_name:
  - lineCreateAgentSession
  - lineCreateAgentSessionA
  - lineCreateAgentSessionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

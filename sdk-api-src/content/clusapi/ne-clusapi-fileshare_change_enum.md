@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - FILESHARE_CHANGE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: FILESHARE_CHANGE_ENUM, *PFILESHARE_CHANGE_ENUM
 req.redist: 

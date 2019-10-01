@@ -38,7 +38,6 @@ api_location:
  - callobj.h
 api_name:
  - CALLFRAMEPARAMINFO
-product: Windows
 targetos: Windows
 req.typenames: CALLFRAMEPARAMINFO
 req.redist: 

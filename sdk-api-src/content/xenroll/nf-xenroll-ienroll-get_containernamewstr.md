@@ -40,7 +40,6 @@ api_name:
  - IEnroll.ContainerNameWStr
  - IEnroll.get_ContainerNameWStr
  - IEnroll.put_ContainerNameWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

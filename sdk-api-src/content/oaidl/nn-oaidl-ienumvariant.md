@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - IEnumVARIANT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

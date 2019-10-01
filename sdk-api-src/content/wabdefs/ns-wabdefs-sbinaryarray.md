@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - ENTRYLIST
-product: Windows
 targetos: Windows
 req.typenames: SBinaryArray
 req.redist: 

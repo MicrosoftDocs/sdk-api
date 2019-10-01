@@ -38,7 +38,6 @@ api_location:
  - iwstdec.h
 api_name:
  - AM_WST_DRAWBGMODE
-product: Windows
 targetos: Windows
 req.typenames: AM_WST_DRAWBGMODE, *PAM_WST_DRAWBGMODE
 req.redist: 

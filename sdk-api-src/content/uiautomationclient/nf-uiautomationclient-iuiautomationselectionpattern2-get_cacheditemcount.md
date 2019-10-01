@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationSelectionPattern2.CachedItemCount
  - IUIAutomationSelectionPattern2.get_CachedItemCount
  - IUIAutomationSelectionPattern2.put_CachedItemCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

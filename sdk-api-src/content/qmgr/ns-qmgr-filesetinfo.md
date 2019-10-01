@@ -38,7 +38,6 @@ api_location:
  - Qmgr.h
 api_name:
  - FILESETINFO
-product: Windows
 targetos: Windows
 req.typenames: FILESETINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Authui.dll
 api_name:
  - ICredentialProviderCredentialEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

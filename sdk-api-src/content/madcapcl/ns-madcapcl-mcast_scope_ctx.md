@@ -38,7 +38,6 @@ api_location:
 - Madcapcl.h
 api_name:
 - MCAST_SCOPE_CTX
-product: Windows
 targetos: Windows
 req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
 req.redist: 

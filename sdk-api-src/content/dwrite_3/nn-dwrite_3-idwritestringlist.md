@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteStringList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - FH_BACKUP_STATUS
-product: Windows
 targetos: Windows
 req.typenames: FH_BACKUP_STATUS
 req.redist: 

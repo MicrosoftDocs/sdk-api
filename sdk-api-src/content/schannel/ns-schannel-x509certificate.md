@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - X509Certificate
-product: Windows
 targetos: Windows
 req.typenames: X509Certificate, *PX509Certificate
 req.redist: 

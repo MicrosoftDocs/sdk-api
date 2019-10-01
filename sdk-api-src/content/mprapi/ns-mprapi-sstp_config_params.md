@@ -38,7 +38,6 @@ api_location:
 - Mprapi.h
 api_name:
 - SSTP_CONFIG_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 req.redist: 

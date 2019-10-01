@@ -38,7 +38,6 @@ api_location:
  - Certcli.h
 api_name:
  - X509EnrollmentAuthFlags
-product: Windows
 targetos: Windows
 req.typenames: X509EnrollmentAuthFlags
 req.redist: 

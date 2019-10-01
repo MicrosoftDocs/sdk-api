@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_VIDEO_SCALE_SUPPORT
-product: Windows
 targetos: Windows
 ---
 

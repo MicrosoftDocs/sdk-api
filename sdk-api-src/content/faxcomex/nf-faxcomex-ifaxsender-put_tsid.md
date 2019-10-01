@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_TSID
  - IFaxSender.get_TSID
  - IFaxSender.put_TSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

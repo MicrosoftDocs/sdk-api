@@ -46,7 +46,6 @@ api_name:
  - QueryAllTraces
  - QueryAllTracesA
  - QueryAllTracesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

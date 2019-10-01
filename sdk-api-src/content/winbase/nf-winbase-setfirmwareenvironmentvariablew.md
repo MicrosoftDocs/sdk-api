@@ -43,7 +43,6 @@ api_name:
  - SetFirmwareEnvironmentVariable
  - SetFirmwareEnvironmentVariableA
  - SetFirmwareEnvironmentVariableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

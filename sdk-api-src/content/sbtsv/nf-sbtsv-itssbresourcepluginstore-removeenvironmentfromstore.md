@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.RemoveEnvironmentFromStore
  - ITsSbResourcePluginStoreEx.RemoveEnvironmentFromStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

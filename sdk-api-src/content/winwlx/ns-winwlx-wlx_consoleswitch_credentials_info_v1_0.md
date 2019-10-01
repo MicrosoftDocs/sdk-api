@@ -38,7 +38,6 @@ api_location:
 - Winwlx.h
 api_name:
 - WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
-product: Windows
 targetos: Windows
 req.typenames: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, *PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
 req.redist: 

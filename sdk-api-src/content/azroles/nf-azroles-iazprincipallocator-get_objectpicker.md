@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzPrincipalLocator.ObjectPicker
  - IAzPrincipalLocator.get_ObjectPicker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

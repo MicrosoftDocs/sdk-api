@@ -38,7 +38,6 @@ api_location:
  - Credentialprovider.h
 api_name:
  - CREDENTIAL_PROVIDER_USAGE_SCENARIO
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
 req.redist: 

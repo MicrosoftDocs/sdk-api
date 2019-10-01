@@ -39,7 +39,6 @@ api_location:
  - Icmp.dll
 api_name:
  - IcmpCloseHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

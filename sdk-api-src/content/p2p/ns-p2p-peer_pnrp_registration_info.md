@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_PNRP_REGISTRATION_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEER_PNRP_REGISTRATION_INFO, *PPEER_PNRP_REGISTRATION_INFO
 req.redist: 

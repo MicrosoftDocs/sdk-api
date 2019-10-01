@@ -40,7 +40,6 @@ api_name:
  - DdeQueryString
  - DdeQueryStringA
  - DdeQueryStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

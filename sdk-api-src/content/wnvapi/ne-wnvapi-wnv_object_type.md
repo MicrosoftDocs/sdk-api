@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
 req.redist: 

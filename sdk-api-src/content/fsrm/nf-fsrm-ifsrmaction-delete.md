@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmAction.Delete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

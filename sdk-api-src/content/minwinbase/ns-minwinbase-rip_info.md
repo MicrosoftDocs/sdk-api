@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - RIP_INFO
-product: Windows
 targetos: Windows
 req.typenames: RIP_INFO, *LPRIP_INFO
 req.redist: 

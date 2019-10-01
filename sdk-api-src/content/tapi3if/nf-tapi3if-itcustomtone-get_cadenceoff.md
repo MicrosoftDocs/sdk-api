@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITCustomTone.get_CadenceOff
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

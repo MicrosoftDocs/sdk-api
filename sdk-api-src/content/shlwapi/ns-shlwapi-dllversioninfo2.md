@@ -38,7 +38,6 @@ api_location:
 - Shlwapi.h
 api_name:
 - DLLVERSIONINFO2
-product: Windows
 targetos: Windows
 req.typenames: DLLVERSIONINFO2
 req.redist: 

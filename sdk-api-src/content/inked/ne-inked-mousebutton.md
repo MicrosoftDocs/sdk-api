@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - MouseButton
-product: Windows
 targetos: Windows
 req.typenames: MouseButton
 req.redist: 

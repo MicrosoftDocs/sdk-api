@@ -38,7 +38,6 @@ api_location:
  - bdatif.h
 api_name:
  - IGuideData.GetScheduleEntryProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

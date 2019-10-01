@@ -49,7 +49,6 @@ api_name:
  - QueryDosDevice
  - QueryDosDeviceA
  - QueryDosDeviceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

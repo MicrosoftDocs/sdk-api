@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - IPV6_ADAPTER_BINDING_INFO
-product: Windows
 targetos: Windows
 req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
 req.redist: 

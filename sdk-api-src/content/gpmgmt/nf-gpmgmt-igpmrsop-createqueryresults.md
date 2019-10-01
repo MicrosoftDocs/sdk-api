@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMRSOP.CreateQueryResults
  - GPMRSOP.CreateQueryResults
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

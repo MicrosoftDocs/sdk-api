@@ -38,7 +38,6 @@ api_location:
  - Mobsync.h
 api_name:
  - SYNCMGRINVOKEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRINVOKEFLAGS
 req.redist: 

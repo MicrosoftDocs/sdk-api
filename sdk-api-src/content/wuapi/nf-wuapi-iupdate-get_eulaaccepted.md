@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.EulaAccepted
  - IUpdate.get_EulaAccepted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

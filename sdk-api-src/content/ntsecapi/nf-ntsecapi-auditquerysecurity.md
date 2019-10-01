@@ -40,7 +40,6 @@ api_location:
 - sechost.dll
 api_name:
 - AuditQuerySecurity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

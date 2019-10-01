@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMDRIVERENUMCB
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - XAPOBase.dll
 api_name:
  - CXAPOParametersBase.ParametersChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

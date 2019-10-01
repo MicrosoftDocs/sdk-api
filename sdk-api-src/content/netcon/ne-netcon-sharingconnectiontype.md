@@ -38,7 +38,6 @@ api_location:
  - NetCon.h
 api_name:
  - SHARINGCONNECTIONTYPE
-product: Windows
 targetos: Windows
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 req.redist: 

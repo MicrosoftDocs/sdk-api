@@ -47,7 +47,6 @@ api_name:
  - SetFileAttributes
  - SetFileAttributesA
  - SetFileAttributesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FindExecutableImageEx
  - FindExecutableImageEx
  - FindExecutableImageExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

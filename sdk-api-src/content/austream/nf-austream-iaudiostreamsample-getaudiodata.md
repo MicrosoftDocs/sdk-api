@@ -38,7 +38,6 @@ api_location:
  - austream.h
 api_name:
  - IAudioStreamSample.GetAudioData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dhcpsapi.h
 api_name:
 - SCOPE_MIB_INFO
-product: Windows
 targetos: Windows
 req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
 req.redist: 

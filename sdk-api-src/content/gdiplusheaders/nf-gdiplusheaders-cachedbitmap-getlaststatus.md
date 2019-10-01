@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - CachedBitmap.GetLastStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PTP_CLEANUP_GROUP_CANCEL_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

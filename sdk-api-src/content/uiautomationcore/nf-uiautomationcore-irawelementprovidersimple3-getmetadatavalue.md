@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCore.dll
 api_name:
  - IRawElementProviderSimple3.GetMetadataValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

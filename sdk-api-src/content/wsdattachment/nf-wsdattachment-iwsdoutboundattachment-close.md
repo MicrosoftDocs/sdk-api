@@ -38,7 +38,6 @@ api_location:
  - Wsdapi.dll
 api_name:
  - IWSDOutboundAttachment.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

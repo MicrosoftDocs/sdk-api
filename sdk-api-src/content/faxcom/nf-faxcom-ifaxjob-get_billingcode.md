@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.BillingCode
  - IFaxJob.get_BillingCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

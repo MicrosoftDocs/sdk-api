@@ -38,7 +38,6 @@ api_location:
  - Audiopolicy.h
 api_name:
  - IAudioSessionControl.SetDisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

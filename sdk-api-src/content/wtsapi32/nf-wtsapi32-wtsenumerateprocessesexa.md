@@ -41,7 +41,6 @@ api_name:
 - WTSEnumerateProcessesEx
 - WTSEnumerateProcessesExA
 - WTSEnumerateProcessesExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - SBE_PIN_DATA
-product: Windows
 targetos: Windows
 req.typenames: SBE_PIN_DATA
 req.redist: 

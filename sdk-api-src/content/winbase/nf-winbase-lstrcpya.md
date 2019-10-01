@@ -44,7 +44,6 @@ api_name:
  - lstrcpy
  - lstrcpyA
  - lstrcpyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

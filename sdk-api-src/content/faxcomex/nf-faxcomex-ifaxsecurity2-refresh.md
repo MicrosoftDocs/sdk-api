@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxSecurity2.Refresh
  - IFaxSecurity2.Refresh
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - setupapi.dll
 api_name:
  - CM_Get_DevNode_Status_Ex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

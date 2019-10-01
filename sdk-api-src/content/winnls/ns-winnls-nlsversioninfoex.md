@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - NLSVERSIONINFOEX
-product: Windows
 targetos: Windows
 req.typenames: NLSVERSIONINFOEX, *LPNLSVERSIONINFOEX
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinSafer.h
 api_name:
 - SAFER_HASH_IDENTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: SAFER_HASH_IDENTIFICATION, *PSAFER_HASH_IDENTIFICATION
 req.redist: 

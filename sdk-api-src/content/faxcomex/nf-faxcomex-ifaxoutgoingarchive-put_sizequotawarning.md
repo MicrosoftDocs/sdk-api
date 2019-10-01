@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingArchive.put_SizeQuotaWarning
  - IFaxOutgoingArchive.get_SizeQuotaWarning
  - IFaxOutgoingArchive.put_SizeQuotaWarning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_SERIALIZATION_VERSION
-product: Windows
 targetos: Windows
 req.typenames: SYNC_SERIALIZATION_VERSION
 req.redist: 

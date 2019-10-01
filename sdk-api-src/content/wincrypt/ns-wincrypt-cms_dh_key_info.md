@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CMS_DH_KEY_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
 req.redist: 

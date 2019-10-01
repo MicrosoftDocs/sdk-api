@@ -39,7 +39,6 @@ api_location:
 - strmiids.dll
 api_name:
 - IMFVideoProcessor.GetVideoProcessorCaps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

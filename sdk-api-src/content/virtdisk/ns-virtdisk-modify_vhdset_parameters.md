@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - MODIFY_VHDSET_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: MODIFY_VHDSET_PARAMETERS, *PMODIFY_VHDSET_PARAMETERS
 req.redist: 

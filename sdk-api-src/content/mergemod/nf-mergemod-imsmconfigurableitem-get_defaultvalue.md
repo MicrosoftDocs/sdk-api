@@ -38,7 +38,6 @@ api_location:
  - Mergemod.dll
 api_name:
  - IMsmConfigurableItem.get_DefaultValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - CIECHROMA
-product: Windows
 targetos: Windows
 req.typenames: CIECHROMA
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - ITsSbProvisioning.Initialize
  - ITsSbResourcePlugin.Initialize
  - ITsSbTaskPlugin.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

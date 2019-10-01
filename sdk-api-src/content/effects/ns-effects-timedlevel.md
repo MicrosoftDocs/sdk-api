@@ -38,7 +38,6 @@ api_location:
  - effects.h
 api_name:
  - TimedLevel
-product: Windows
 targetos: Windows
 req.typenames: TimedLevel
 req.redist: 

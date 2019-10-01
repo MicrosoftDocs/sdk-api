@@ -40,7 +40,6 @@ api_name:
  - IWeeklyTrigger.WeeksInterval
  - IWeeklyTrigger.get_WeeksInterval
  - IWeeklyTrigger.put_WeeksInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

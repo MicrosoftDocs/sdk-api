@@ -38,7 +38,6 @@ api_location:
  - mfplay.h
 api_name:
  - MFP_PLAY_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MFP_PLAY_EVENT
 req.redist: 

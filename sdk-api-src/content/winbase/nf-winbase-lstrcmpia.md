@@ -48,7 +48,6 @@ api_name:
  - lstrcmpi
  - lstrcmpiA
  - lstrcmpiW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

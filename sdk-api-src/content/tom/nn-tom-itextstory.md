@@ -38,7 +38,6 @@ api_location:
  - tom.h
 api_name:
  - ITextStory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509ExtensionBasicConstraints.PathLenConstraint
  - IX509ExtensionBasicConstraints.get_PathLenConstraint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

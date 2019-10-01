@@ -41,7 +41,6 @@ api_name:
  - ICEnroll3.addNameValuePairToSignature
  - ICEnroll2.addNameValuePairToSignature
  - CEnroll.addNameValuePairToSignature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

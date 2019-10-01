@@ -38,7 +38,6 @@ api_location:
  - Fsrm.h
 api_name:
  - FsrmPropertyConditionType
-product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyConditionType
 req.redist: 

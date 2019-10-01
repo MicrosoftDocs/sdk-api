@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - PRIORITY_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: PRIORITY_LEVEL
 req.redist: 

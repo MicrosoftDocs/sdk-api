@@ -42,7 +42,6 @@ api_name:
  - SHFormatDateTime
  - SHFormatDateTimeA
  - SHFormatDateTimeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

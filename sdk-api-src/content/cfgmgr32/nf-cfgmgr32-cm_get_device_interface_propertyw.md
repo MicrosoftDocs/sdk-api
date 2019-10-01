@@ -44,7 +44,6 @@ api_name:
  - CM_Get_Device_Interface_Property
  - CM_Get_Device_Interface_PropertyA
  - CM_Get_Device_Interface_PropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

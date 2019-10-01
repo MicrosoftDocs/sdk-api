@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - CLAIM_SECURITY_ATTRIBUTES_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTES_INFORMATION, *PCLAIM_SECURITY_ATTRIBUTES_INFORMATION
 req.redist: 

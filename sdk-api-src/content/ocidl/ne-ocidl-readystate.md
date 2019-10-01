@@ -38,7 +38,6 @@ api_location:
  - ocidl.h
 api_name:
  - READYSTATE
-product: Windows
 targetos: Windows
 req.typenames: READYSTATE
 req.redist: 

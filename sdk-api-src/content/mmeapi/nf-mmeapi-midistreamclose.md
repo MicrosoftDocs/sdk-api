@@ -40,7 +40,6 @@ api_location:
  - winmmbase.dll
 api_name:
  - midiStreamClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

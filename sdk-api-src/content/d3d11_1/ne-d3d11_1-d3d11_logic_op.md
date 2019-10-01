@@ -38,7 +38,6 @@ api_location:
  - D3D11_1.h
 api_name:
  - D3D11_LOGIC_OP
-product: Windows
 targetos: Windows
 req.typenames: D3D11_LOGIC_OP
 req.redist: 

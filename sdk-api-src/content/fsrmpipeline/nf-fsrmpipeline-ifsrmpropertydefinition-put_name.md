@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyDefinition.Name
  - IFsrmPropertyDefinition.get_Name
  - IFsrmPropertyDefinition.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

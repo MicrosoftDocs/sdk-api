@@ -38,7 +38,6 @@ api_location:
  - Lmshare.h
 api_name:
  - SHARE_INFO_0
-product: Windows
 targetos: Windows
 req.typenames: SHARE_INFO_0, *PSHARE_INFO_0, *LPSHARE_INFO_0
 req.redist: 

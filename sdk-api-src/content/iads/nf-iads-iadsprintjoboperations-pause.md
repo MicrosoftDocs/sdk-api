@@ -38,7 +38,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsPrintJobOperations.Pause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

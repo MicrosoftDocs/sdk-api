@@ -38,7 +38,6 @@ api_location:
  - Structuredquerycondition.h
 api_name:
  - ICondition2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

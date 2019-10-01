@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.IpAddress
  - IWdsTransportClient.get_IpAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

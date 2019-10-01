@@ -40,7 +40,6 @@ api_name:
 - wglUseFontBitmaps
 - wglUseFontBitmapsA
 - wglUseFontBitmapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

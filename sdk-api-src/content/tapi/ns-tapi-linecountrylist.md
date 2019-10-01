@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINECOUNTRYLIST
-product: Windows
 targetos: Windows
 req.typenames: LINECOUNTRYLIST, *LPLINECOUNTRYLIST
 req.redist: 

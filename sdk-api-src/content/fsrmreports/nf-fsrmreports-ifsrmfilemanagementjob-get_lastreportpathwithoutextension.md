@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJob.LastReportPathWithoutExtension
  - IFsrmFileManagementJob.get_LastReportPathWithoutExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

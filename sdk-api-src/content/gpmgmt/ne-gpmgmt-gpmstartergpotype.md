@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.h
 api_name:
  - GPMStarterGPOType
-product: Windows
 targetos: Windows
 req.typenames: GPMStarterGPOType
 req.redist: 

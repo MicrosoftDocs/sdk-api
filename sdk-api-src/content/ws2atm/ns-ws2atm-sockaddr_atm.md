@@ -38,7 +38,6 @@ api_location:
  - Ws2atm.h
 api_name:
  - sockaddr_atm
-product: Windows
 targetos: Windows
 req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
 req.redist: 

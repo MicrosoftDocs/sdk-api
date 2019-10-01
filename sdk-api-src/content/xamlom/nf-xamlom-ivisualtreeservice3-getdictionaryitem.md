@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - IVisualTreeService3.GetDictionaryItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

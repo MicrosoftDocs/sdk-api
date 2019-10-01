@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - InkRecognitionConfidence
-product: Windows
 targetos: Windows
 req.typenames: InkRecognitionConfidence
 req.redist: 

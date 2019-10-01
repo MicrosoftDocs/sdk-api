@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_ESCAPE_MODE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_ESCAPE_MODE_ENUM
 req.redist: 

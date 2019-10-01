@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_GuideDataDeliveryService.GetGuideData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

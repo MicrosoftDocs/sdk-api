@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - PREVENT_MEDIA_REMOVAL
-product: Windows
 targetos: Windows
 req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
 req.redist: 

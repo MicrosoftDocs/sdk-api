@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider.CanRotate
  - ITransformProvider.get_CanRotate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - LmDfs.h
 api_name:
  - DFS_INFO_2
-product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_2, *PDFS_INFO_2, *LPDFS_INFO_2
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - DeleteFile
  - DeleteFileA
  - DeleteFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ntdll.dll
 api_name:
  - RtlCharToInteger
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

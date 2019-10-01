@@ -38,7 +38,6 @@ api_location:
  - windows.media.streaming.h
 api_name:
  - IDeviceController
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

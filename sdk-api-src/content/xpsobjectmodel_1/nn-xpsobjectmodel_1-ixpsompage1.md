@@ -39,7 +39,6 @@ api_location:
  - none.dll
 api_name:
  - IXpsOMPage1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

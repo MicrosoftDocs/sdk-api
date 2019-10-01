@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_FLOAT_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_FLOAT_DESCRIPTION
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - MessageBoxIndirect
  - MessageBoxIndirectA
  - MessageBoxIndirectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

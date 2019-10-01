@@ -38,7 +38,6 @@ api_location:
 - cfgmgr32.h
 api_name:
 - CS_DES
-product: Windows
 targetos: Windows
 req.typenames: CS_DES, *PCS_DES
 req.redist: 

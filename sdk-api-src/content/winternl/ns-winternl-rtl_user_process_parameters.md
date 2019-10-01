@@ -38,7 +38,6 @@ api_location:
 - Winternl.h
 api_name:
 - RTL_USER_PROCESS_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
 req.redist: 

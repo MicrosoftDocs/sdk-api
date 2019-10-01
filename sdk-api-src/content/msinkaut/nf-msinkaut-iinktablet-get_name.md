@@ -41,7 +41,6 @@ api_name:
  - IInkTablet.Name
  - IInkTablet.get_Name
  - IInkTablet.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AMCOPPSignature
-product: Windows
 targetos: Windows
 req.typenames: AMCOPPSignature
 req.redist: 

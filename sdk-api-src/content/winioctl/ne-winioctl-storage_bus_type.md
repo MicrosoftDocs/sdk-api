@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - STORAGE_BUS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE
 req.redist: 

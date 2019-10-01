@@ -38,7 +38,6 @@ api_location:
  - Mshtml.dll
 api_name:
  - IUICommandHandler.Execute
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vss.h
 api_name:
  - VSS_RECOVERY_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: VSS_RECOVERY_OPTIONS, *PVSS_RECOVERY_OPTIONS
 req.redist: 

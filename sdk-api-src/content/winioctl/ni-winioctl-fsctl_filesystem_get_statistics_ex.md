@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_FILESYSTEM_GET_STATISTICS_EX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

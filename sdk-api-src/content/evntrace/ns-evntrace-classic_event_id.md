@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - CLASSIC_EVENT_ID
-product: Windows
 targetos: Windows
 req.typenames: CLASSIC_EVENT_ID, *PCLASSIC_EVENT_ID
 req.redist: 

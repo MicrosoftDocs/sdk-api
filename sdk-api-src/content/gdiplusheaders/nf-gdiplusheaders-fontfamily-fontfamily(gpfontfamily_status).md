@@ -38,7 +38,6 @@ api_location:
  - gdiplusheaders.h
 api_name:
  - FontFamily.FontFamily
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

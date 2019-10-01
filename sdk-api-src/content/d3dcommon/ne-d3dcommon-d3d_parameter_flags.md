@@ -38,7 +38,6 @@ api_location:
 - d3dcommon.h
 api_name:
 - D3D_PARAMETER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D_PARAMETER_FLAGS
 req.redist: 

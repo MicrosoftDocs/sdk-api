@@ -40,7 +40,6 @@ api_name:
  - DsCrackSpn
  - DsCrackSpnA
  - DsCrackSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

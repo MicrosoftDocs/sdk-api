@@ -40,7 +40,6 @@ api_name:
  - IDataManager.ReportFileName
  - IDataManager.get_ReportFileName
  - IDataManager.put_ReportFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

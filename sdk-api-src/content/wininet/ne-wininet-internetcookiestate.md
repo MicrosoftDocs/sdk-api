@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - InternetCookieState
-product: Windows
 targetos: Windows
 req.typenames: InternetCookieState
 req.redist: 

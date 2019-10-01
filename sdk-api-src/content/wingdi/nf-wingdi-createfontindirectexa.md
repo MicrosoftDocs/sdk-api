@@ -42,7 +42,6 @@ api_name:
  - CreateFontIndirectEx
  - CreateFontIndirectExA
  - CreateFontIndirectExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

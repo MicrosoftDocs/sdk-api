@@ -40,7 +40,6 @@ api_name:
  - OleUIConvert
  - OleUIConvertA
  - OleUIConvertW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICCOMPRESSFRAMES
-product: Windows
 targetos: Windows
 req.typenames: ICCOMPRESSFRAMES
 req.redist: 

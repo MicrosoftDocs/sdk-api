@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedCulture
  - IUIAutomationElement.get_CachedCulture
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

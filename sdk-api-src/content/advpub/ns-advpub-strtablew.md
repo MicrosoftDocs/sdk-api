@@ -38,7 +38,6 @@ api_location:
  - advpack.lib
 api_name:
  - STRTABLEW
-product: Windows
 targetos: Windows
 req.typenames: STRTABLEW, *LPSTRTABLEW
 req.redist: 

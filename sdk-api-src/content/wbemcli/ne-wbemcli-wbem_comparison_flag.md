@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEM_COMPARISON_FLAG
-product: Windows
 targetos: Windows
 req.typenames: WBEM_COMPARISON_FLAG
 req.redist: 

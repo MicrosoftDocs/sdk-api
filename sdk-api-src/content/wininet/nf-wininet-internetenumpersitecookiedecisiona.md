@@ -40,7 +40,6 @@ api_name:
  - InternetEnumPerSiteCookieDecision
  - InternetEnumPerSiteCookieDecisionA
  - InternetEnumPerSiteCookieDecisionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdiplusenums.h
 api_name:
  - SmoothingMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3dcsx.h
 api_name:
  - D3DX11_FFT_DIM_MASK
-product: Windows
 targetos: Windows
 req.typenames: D3DX11_FFT_DIM_MASK
 req.redist: 

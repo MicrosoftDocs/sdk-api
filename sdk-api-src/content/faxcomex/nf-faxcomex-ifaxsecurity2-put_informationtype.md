@@ -42,7 +42,6 @@ api_name:
  - IFaxSecurity2.put_InformationType
  - IFaxSecurity2.get_InformationType
  - IFaxSecurity2.put_InformationType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern.CachedCanMove
  - IUIAutomationTransformPattern.get_CachedCanMove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D10_1Shader.h
 api_name:
  - ID3D10ShaderReflection1.GetMovInstructionCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

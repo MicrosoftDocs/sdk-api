@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVGROUPMETRICS
-product: Windows
 targetos: Windows
 req.typenames: LVGROUPMETRICS, *PLVGROUPMETRICS
 req.redist: 

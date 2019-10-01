@@ -48,7 +48,6 @@ api_name:
  - LCMapString
  - LCMapStringA
  - LCMapStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - InternetQueryOption
  - InternetQueryOptionA
  - InternetQueryOptionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

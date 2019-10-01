@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

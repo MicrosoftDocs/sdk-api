@@ -38,7 +38,6 @@ api_location:
  - dcomp.h
 api_name:
  - IDCompositionDesktopDevice.CreateTargetForHwnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

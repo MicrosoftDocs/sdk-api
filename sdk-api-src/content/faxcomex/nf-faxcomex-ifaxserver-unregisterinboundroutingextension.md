@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.UnregisterInboundRoutingExtension
  - IFaxServer.UnregisterInboundRoutingExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

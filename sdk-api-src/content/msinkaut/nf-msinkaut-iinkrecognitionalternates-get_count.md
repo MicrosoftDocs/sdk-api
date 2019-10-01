@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternates.Count
  - IInkRecognitionAlternates.get_Count
  - IInkRecognitionAlternates.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

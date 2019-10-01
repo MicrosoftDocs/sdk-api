@@ -38,7 +38,6 @@ api_location:
  - Intshcut.h
 api_name:
  - TRANSLATEURL_IN_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: TRANSLATEURL_IN_FLAGS
 req.redist: 

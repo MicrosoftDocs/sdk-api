@@ -38,7 +38,6 @@ api_location:
  - twinapi.dll
 api_name:
  - IApplicationDesignModeSettings2.SetNativeDisplayOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

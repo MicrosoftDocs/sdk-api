@@ -38,7 +38,6 @@ api_location:
  - FontSub.h
 api_name:
  - CFP_ALLOCPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - TxfW32.h
 api_name:
 - TXF_LOG_RECORD_BASE
-product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
 req.redist: 

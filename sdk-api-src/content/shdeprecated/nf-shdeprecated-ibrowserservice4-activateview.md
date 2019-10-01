@@ -38,7 +38,6 @@ api_location:
  - Shdeprecated.h
 api_name:
  - IBrowserService4.ActivateView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

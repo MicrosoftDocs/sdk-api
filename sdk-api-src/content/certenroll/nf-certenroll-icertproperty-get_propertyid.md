@@ -40,7 +40,6 @@ api_name:
  - ICertProperty.PropertyId
  - ICertProperty.get_PropertyId
  - ICertProperty.put_PropertyId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

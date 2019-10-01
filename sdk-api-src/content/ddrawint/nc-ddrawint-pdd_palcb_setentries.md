@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DdSetEntries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

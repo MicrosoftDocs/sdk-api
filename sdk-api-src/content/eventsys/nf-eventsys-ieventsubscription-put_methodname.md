@@ -40,7 +40,6 @@ api_name:
  - IEventSubscription.MethodName
  - IEventSubscription.get_MethodName
  - IEventSubscription.put_MethodName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBPROBABILISTIC
-product: Windows
 targetos: Windows
 req.typenames: DBPROBABILISTIC
 req.redist: 

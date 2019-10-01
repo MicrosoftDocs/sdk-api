@@ -40,7 +40,6 @@ api_name:
  - IDataManager.MaxFolderCount
  - IDataManager.get_MaxFolderCount
  - IDataManager.put_MaxFolderCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

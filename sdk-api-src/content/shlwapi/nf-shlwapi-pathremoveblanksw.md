@@ -44,7 +44,6 @@ api_name:
  - PathRemoveBlanks
  - PathRemoveBlanksA
  - PathRemoveBlanksW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CachedZoomMaximum
  - IUIAutomationTransformPattern2.get_CachedZoomMaximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

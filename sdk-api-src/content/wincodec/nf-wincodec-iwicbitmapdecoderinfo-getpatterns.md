@@ -38,7 +38,6 @@ api_location:
  - Windowscodecs.dll
 api_name:
  - IWICBitmapDecoderInfo.GetPatterns
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

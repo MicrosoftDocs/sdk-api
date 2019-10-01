@@ -40,7 +40,6 @@ api_location:
 api_name:
  - CWbemProviderGlue.GetEmptyInstance
  - ?GetEmptyInstance@CWbemProviderGlue@@SGJPAVMethodContext@@PBGPAPAVCInstance@@1@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

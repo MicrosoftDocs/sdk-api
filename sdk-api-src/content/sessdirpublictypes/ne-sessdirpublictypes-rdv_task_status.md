@@ -38,7 +38,6 @@ api_location:
  - SessDirPublicTypes.h
 api_name:
  - RDV_TASK_STATUS
-product: Windows
 targetos: Windows
 req.typenames: RDV_TASK_STATUS
 req.redist: 

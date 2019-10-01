@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - NAMESPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: NAMESPROPERTIES
 req.redist: 

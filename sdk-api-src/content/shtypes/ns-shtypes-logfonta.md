@@ -40,7 +40,6 @@ api_name:
  - LOGFONT
  - LOGFONTA
  - LOGFONTW
-product: Windows
 targetos: Windows
 req.typenames: LOGFONTA
 req.redist: 

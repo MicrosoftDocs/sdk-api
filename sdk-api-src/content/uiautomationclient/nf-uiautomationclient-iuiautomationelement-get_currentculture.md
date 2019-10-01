@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentCulture
  - IUIAutomationElement.get_CurrentCulture
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

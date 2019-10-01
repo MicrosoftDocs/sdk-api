@@ -38,7 +38,6 @@ api_location:
  - Clfs.h
 api_name:
  - CLFS_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
 req.redist: 

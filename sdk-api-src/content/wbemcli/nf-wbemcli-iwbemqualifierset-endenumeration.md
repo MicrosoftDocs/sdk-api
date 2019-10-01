@@ -41,7 +41,6 @@ api_location:
  - Wbemcore.dll
 api_name:
  - IWbemQualifierSet.EndEnumeration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

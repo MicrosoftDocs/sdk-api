@@ -38,7 +38,6 @@ api_location:
  - Tssbx.h
 api_name:
  - WTSSBX_NOTIFICATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WTSSBX_NOTIFICATION_TYPE
 req.redist: 

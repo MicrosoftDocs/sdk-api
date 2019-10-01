@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_EXTEND_VOLUME
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

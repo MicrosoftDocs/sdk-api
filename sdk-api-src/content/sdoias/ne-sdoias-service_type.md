@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - SERVICE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE
 req.redist: 

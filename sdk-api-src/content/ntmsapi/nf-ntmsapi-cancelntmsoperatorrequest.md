@@ -38,7 +38,6 @@ api_location:
  - Ntmsapi.dll
 api_name:
  - CancelNtmsOperatorRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

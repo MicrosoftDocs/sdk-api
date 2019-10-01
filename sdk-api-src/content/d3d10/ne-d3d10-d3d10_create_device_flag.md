@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - D3D10_CREATE_DEVICE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: D3D10_CREATE_DEVICE_FLAG
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - COMPACT_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: COMPACT_VIRTUAL_DISK_FLAG
 req.redist: 

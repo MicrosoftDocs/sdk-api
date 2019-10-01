@@ -38,7 +38,6 @@ api_location:
  - wtypesbase.h
 api_name:
  - OLESTR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEPROVIDERENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINEPROVIDERENTRY, *LPLINEPROVIDERENTRY
 req.redist: 

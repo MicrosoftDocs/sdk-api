@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - ASF_MUX_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: ASF_MUX_STATISTICS
 req.redist: 

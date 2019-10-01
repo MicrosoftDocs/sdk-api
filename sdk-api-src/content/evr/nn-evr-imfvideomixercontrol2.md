@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - IMFVideoMixerControl2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

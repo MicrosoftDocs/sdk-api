@@ -38,7 +38,6 @@ api_location:
  - Authz.h
 api_name:
  - AUTHZ_SID_OPERATION
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SID_OPERATION, *PAUTHZ_SID_OPERATION
 req.redist: 

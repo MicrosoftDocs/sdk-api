@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_PATH_INFO
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PATH_INFO
 req.redist: 

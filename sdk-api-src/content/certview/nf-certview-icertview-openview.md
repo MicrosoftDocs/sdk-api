@@ -40,7 +40,6 @@ api_name:
  - ICertView2.OpenView
  - ICertView.OpenView
  - CCertView.OpenView
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

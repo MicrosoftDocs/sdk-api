@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - USER_INPUT_STRING_TYPE
-product: Windows
 targetos: Windows
 req.typenames: USER_INPUT_STRING_TYPE
 req.redist: 

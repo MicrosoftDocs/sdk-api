@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - STORAGE_PORT_CODE_SET
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
 req.redist: 

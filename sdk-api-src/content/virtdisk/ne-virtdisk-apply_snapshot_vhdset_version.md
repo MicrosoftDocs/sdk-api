@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - APPLY_SNAPSHOT_VHDSET_VERSION
-product: Windows
 targetos: Windows
 req.typenames: APPLY_SNAPSHOT_VHDSET_VERSION
 req.redist: 

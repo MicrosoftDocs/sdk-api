@@ -38,7 +38,6 @@ api_location:
  - Usp10.h
 api_name:
  - TEXTRANGE_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: TEXTRANGE_PROPERTIES
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

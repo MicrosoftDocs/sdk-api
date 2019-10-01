@@ -40,7 +40,6 @@ api_name:
 - IShellLink.GetPath
 - IShellLinkA.GetPath
 - IShellLinkW.GetPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

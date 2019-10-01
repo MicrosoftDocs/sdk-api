@@ -38,7 +38,6 @@ api_location:
  - dxgi1_5.h
 api_name:
  - DXGI_HDR_METADATA_HDR10
-product: Windows
 targetos: Windows
 req.typenames: DXGI_HDR_METADATA_HDR10
 req.redist: 

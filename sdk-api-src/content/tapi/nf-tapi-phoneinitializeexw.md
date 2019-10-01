@@ -40,7 +40,6 @@ api_name:
  - phoneInitializeEx
  - phoneInitializeExA
  - phoneInitializeExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

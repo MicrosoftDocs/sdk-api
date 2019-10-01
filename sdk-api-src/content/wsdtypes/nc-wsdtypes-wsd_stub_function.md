@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_STUB_FUNCTION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Subauth.h
 api_name:
 - NETLOGON_LOGON_IDENTITY_INFO
-product: Windows
 targetos: Windows
 req.typenames: NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO
 req.redist: 

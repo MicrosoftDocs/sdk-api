@@ -38,7 +38,6 @@ api_location:
  - icftypes.h
 api_name:
  - NET_FW_AUTHENTICATE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NET_FW_AUTHENTICATE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - IPropertyValue.GetChar16Array
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

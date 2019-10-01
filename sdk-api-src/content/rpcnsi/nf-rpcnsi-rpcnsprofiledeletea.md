@@ -40,7 +40,6 @@ api_name:
  - RpcNsProfileDelete
  - RpcNsProfileDeleteA
  - RpcNsProfileDeleteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

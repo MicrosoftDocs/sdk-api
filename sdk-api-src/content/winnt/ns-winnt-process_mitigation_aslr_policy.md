@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - PROCESS_MITIGATION_ASLR_POLICY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_ASLR_POLICY, *PPROCESS_MITIGATION_ASLR_POLICY
 req.redist: 

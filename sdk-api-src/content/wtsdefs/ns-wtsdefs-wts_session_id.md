@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_SESSION_ID
-product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_ID, *PWTS_SESSION_ID
 req.redist: 

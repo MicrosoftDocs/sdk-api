@@ -38,7 +38,6 @@ api_location:
  - amsi.h
 api_name:
  - AMSI_RESULT
-product: Windows
 targetos: Windows
 req.typenames: AMSI_RESULT
 req.redist: 

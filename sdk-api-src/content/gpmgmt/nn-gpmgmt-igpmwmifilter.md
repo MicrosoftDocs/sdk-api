@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMWMIFilter
  - GPMWMIFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

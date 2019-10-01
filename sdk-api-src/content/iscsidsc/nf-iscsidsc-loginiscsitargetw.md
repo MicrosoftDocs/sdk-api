@@ -40,7 +40,6 @@ api_name:
 - LoginIscsiTarget
 - LoginIscsiTargetA
 - LoginIscsiTargetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

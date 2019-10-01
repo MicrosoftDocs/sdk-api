@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION
 req.redist: 

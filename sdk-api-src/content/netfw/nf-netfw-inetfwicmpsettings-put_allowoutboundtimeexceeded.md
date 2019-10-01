@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowOutboundTimeExceeded
  - INetFwIcmpSettings.get_AllowOutboundTimeExceeded
  - INetFwIcmpSettings.put_AllowOutboundTimeExceeded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - PROPPAGEINFO
-product: Windows
 targetos: Windows
 req.typenames: PROPPAGEINFO, *LPPROPPAGEINFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - NMTVDISPINFO
 - NMTVDISPINFOA
 - NMTVDISPINFOW
-product: Windows
 targetos: Windows
 req.typenames: NMTVDISPINFOA, *LPNMTVDISPINFOA
 req.redist: 

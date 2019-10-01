@@ -38,7 +38,6 @@ api_location:
  - Vidcap.h
 api_name:
  - IVideoProcAmp.put_BacklightCompensation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Gdipluseffects.h
 api_name:
  - RedEyeCorrectionParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

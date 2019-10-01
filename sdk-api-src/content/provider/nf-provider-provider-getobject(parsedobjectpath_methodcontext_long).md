@@ -41,7 +41,6 @@ api_name:
  - Provider.GetObject
  - ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z
  - ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

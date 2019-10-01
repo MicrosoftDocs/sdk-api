@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_FrequencyFilter.put_FrequencyMultiplier
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

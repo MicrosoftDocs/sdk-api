@@ -40,7 +40,6 @@ api_location:
 - wer.dll
 api_name:
 - GetThreadWaitChain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

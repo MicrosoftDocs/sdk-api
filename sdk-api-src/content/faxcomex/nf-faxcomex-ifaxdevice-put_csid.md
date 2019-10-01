@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_CSID
  - IFaxDevice.get_CSID
  - IFaxDevice.put_CSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

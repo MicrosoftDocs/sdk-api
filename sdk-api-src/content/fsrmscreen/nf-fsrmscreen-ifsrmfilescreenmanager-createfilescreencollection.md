@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileScreenManager.CreateFileScreenCollection
  - FsrmFileScreenManager.CreateFileScreenCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DIRECTDRAW_GLOBAL
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL'
 req.redist: 

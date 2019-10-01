@@ -38,7 +38,6 @@ api_location:
  - certpol.h
 api_name:
  - X509SCEPDisposition
-product: Windows
 targetos: Windows
 req.typenames: X509SCEPDisposition
 req.redist: 

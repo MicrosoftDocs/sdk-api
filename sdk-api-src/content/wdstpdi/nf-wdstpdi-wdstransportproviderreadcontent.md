@@ -38,7 +38,6 @@ api_location:
  - wdstpdi.h
 api_name:
  - WdsTransportProviderReadContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

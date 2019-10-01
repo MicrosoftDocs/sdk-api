@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WINBIO_STORAGE_RECORD
-product: Windows
 targetos: Windows
 req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
 req.redist: 

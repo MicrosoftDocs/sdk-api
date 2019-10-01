@@ -38,7 +38,6 @@ api_location:
 - Bthsdpdef.h
 api_name:
 - SdpAttributeRange
-product: Windows
 targetos: Windows
 req.typenames: SdpAttributeRange
 req.redist: 

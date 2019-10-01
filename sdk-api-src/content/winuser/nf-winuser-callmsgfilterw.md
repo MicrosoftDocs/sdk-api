@@ -44,7 +44,6 @@ api_name:
  - CallMsgFilter
  - CallMsgFilterA
  - CallMsgFilterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

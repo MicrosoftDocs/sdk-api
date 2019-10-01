@@ -48,7 +48,6 @@ api_name:
  - CreateWaitableTimerEx
  - CreateWaitableTimerExA
  - CreateWaitableTimerExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

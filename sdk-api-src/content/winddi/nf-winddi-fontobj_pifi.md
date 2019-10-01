@@ -38,7 +38,6 @@ api_location:
 - Win32k.sys
 api_name:
 - FONTOBJ_pifi
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

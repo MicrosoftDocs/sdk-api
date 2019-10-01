@@ -38,7 +38,6 @@ api_location:
  - NCryptprotect.h
 api_name:
  - NCRYPT_PROTECT_STREAM_INFO
-product: Windows
 targetos: Windows
 req.typenames: NCRYPT_PROTECT_STREAM_INFO
 req.redist: 

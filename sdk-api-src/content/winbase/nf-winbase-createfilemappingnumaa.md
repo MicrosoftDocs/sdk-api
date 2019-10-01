@@ -49,7 +49,6 @@ api_name:
  - CreateFileMappingNuma
  - CreateFileMappingNumaA
  - CreateFileMappingNumaW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

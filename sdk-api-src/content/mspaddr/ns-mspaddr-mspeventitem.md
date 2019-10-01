@@ -38,7 +38,6 @@ api_location:
  - Mspaddr.h
 api_name:
  - MSPEVENTITEM
-product: Windows
 targetos: Windows
 req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowRedirect
  - INetFwIcmpSettings.get_AllowRedirect
  - INetFwIcmpSettings.put_AllowRedirect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

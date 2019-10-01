@@ -38,7 +38,6 @@ api_location:
  - Lmat.h
 api_name:
  - AT_ENUM
-product: Windows
 targetos: Windows
 req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACL
-product: Windows
 targetos: Windows
 req.typenames: ACL
 req.redist: 

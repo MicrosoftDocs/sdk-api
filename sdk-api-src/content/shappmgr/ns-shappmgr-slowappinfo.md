@@ -38,7 +38,6 @@ api_location:
  - Shappmgr.h
 api_name:
  - SLOWAPPINFO
-product: Windows
 targetos: Windows
 req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
 req.redist: 

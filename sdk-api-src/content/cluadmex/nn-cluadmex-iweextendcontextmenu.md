@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IWEExtendContextMenu
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

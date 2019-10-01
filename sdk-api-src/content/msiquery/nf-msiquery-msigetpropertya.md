@@ -40,7 +40,6 @@ api_name:
  - MsiGetProperty
  - MsiGetPropertyA
  - MsiGetPropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

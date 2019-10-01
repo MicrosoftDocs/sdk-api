@@ -38,7 +38,6 @@ api_location:
  - Textstor.h
 api_name:
  - TS_ATTRVAL
-product: Windows
 targetos: Windows
 req.typenames: TS_ATTRVAL
 req.redist: TSF 1.0 on Windows 2000 Professional

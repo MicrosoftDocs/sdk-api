@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - SpatialAudioHrtfEnvironmentType
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfEnvironmentType
 req.redist: 

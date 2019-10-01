@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LOGPALETTE
-product: Windows
 targetos: Windows
 req.typenames: LOGPALETTE, *PLOGPALETTE, *NPLOGPALETTE, *LPLOGPALETTE
 req.redist: 

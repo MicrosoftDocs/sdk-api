@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - DLGPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

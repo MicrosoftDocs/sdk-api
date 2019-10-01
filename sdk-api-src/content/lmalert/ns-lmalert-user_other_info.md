@@ -38,7 +38,6 @@ api_location:
 - Lmalert.h
 api_name:
 - USER_OTHER_INFO
-product: Windows
 targetos: Windows
 req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
 req.redist: 

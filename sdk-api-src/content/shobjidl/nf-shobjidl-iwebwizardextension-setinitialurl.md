@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IWebWizardExtension.SetInitialURL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

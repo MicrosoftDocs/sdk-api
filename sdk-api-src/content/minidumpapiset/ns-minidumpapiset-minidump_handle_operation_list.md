@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_HANDLE_OPERATION_LIST
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_HANDLE_OPERATION_LIST, *PMINIDUMP_HANDLE_OPERATION_LIST
 req.redist: DbgHelp.dll 6.5 or later

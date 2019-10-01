@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - MCIWndRecord
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

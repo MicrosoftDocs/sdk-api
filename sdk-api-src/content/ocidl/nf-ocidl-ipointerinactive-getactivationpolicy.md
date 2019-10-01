@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IPointerInactive.GetActivationPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

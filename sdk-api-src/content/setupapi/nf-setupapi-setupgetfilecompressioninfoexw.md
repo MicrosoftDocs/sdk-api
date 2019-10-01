@@ -40,7 +40,6 @@ api_name:
  - SetupGetFileCompressionInfoEx
  - SetupGetFileCompressionInfoExA
  - SetupGetFileCompressionInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - CHANGE_PARTITION_TYPE_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
 req.redist: 

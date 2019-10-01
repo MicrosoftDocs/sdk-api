@@ -38,7 +38,6 @@ api_location:
  - Ras.h
 api_name:
  - RASDEVSPECIFICINFO
-product: Windows
 targetos: Windows
 req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
 req.redist: 

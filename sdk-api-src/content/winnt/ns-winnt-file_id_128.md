@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - EXT_FILE_ID_128
-product: Windows
 targetos: Windows
 req.typenames: FILE_ID_128, *PFILE_ID_128
 req.redist: 

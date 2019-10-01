@@ -40,7 +40,6 @@ api_name:
  - IFsrmClassificationManager.CancelClassification
  - IFsrmClassificationManager2.CancelClassification
  - FsrmClassificationManager.CancelClassification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

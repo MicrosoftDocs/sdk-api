@@ -38,7 +38,6 @@ api_location:
  - Faxcom.dll
 api_name:
  - IFaxPorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

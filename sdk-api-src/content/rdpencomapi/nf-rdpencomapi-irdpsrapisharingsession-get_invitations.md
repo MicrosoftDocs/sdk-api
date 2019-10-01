@@ -42,7 +42,6 @@ api_name:
  - IRDPSRAPISharingSession.Invitations
  - IRDPSRAPISharingSession.get_Invitations
  - RDPSession.Invitations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

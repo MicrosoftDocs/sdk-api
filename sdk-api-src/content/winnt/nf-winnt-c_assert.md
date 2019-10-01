@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - C_ASSERT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RpcNsProfileEltInqBegin
  - RpcNsProfileEltInqBeginA
  - RpcNsProfileEltInqBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

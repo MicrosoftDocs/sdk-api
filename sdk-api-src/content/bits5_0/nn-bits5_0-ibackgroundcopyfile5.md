@@ -38,7 +38,6 @@ api_location:
  - Bits5_0.h
 api_name:
  - IBackgroundCopyFile5
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

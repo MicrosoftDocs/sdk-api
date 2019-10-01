@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - RenderTargetBitmapOptions
-product: Windows
 targetos: Windows
 req.typenames: RenderTargetBitmapOptions
 req.redist: 

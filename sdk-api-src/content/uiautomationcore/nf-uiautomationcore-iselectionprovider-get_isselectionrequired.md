@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionProvider.IsSelectionRequired
  - ISelectionProvider.get_IsSelectionRequired
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

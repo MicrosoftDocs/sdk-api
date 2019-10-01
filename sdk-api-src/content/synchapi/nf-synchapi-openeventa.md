@@ -46,7 +46,6 @@ api_name:
  - OpenEvent
  - OpenEventA
  - OpenEventW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

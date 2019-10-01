@@ -38,7 +38,6 @@ api_location:
  - VsMgmt.h
 api_name:
  - VSS_VOLUME_PROP
-product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_PROP, *PVSS_VOLUME_PROP
 req.redist: 

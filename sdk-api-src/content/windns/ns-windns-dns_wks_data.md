@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_WKS_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_WKS_DATA, *PDNS_WKS_DATA
 req.redist: 

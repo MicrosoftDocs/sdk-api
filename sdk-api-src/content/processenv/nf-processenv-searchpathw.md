@@ -45,7 +45,6 @@ api_name:
  - SearchPath
  - SearchPathA
  - SearchPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

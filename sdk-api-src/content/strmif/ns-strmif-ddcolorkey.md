@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DDCOLORKEY
-product: Windows
 targetos: Windows
 req.typenames: DDCOLORKEY
 req.redist: 

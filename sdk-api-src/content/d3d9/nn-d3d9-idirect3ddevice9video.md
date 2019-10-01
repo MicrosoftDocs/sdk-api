@@ -38,7 +38,6 @@ api_location:
  - d3d9.h
 api_name:
  - IDirect3DDevice9Video
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

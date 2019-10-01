@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_Color
  - InkDrawingAttributes.get_Color
  - InkDrawingAttributes.put_Color
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

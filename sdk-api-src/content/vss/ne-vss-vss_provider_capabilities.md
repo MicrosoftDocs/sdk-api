@@ -38,7 +38,6 @@ api_location:
  - vss.h
 api_name:
  - _VSS_PROVIDER_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: VSS_PROVIDER_CAPABILITIES, *PVSS_PROVIDER_CAPABILITIES
 req.redist: 

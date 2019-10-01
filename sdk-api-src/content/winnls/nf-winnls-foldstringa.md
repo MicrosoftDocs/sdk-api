@@ -46,7 +46,6 @@ api_name:
  - FoldString
  - FoldStringA
  - FoldStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

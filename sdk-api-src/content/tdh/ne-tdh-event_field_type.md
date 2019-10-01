@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - EVENT_FIELD_TYPE
-product: Windows
 targetos: Windows
 req.typenames: EVENT_FIELD_TYPE
 req.redist: 

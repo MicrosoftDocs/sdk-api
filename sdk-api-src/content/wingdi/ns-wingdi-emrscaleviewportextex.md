@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSCALEVIEWPORTEXTEX
-product: Windows
 targetos: Windows
 req.typenames: EMRSCALEVIEWPORTEXTEX, *PEMRSCALEVIEWPORTEXTEX, EMRSCALEWINDOWEXTEX, *PEMRSCALEWINDOWEXTEX
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - IVdsControllerPort.GetProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

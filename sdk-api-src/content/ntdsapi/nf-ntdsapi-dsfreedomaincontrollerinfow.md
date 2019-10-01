@@ -43,7 +43,6 @@ api_name:
  - DsFreeDomainControllerInfo
  - DsFreeDomainControllerInfoA
  - DsFreeDomainControllerInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

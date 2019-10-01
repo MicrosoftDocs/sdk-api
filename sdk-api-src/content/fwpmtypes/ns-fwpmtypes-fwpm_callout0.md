@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_CALLOUT0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_CALLOUT0
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEDEVSTATUS
-product: Windows
 targetos: Windows
 req.typenames: LINEDEVSTATUS, *LPLINEDEVSTATUS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWorkspace2.StartRemoteApplicationEx
  - IWorkspace3.StartRemoteApplicationEx
  - Workspace.StartRemoteApplicationEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

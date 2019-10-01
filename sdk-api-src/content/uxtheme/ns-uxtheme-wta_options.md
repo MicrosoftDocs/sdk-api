@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - WTA_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 req.redist: 

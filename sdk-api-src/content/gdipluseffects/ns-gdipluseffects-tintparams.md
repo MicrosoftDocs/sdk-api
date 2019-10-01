@@ -38,7 +38,6 @@ api_location:
  - Gdipluseffects.h
 api_name:
  - TintParams
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

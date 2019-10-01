@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteTextLayout3.GetLineMetrics
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

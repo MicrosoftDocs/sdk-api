@@ -38,7 +38,6 @@ api_location:
  - ShellScalingApi.h
 api_name:
  - SHELL_UI_COMPONENT
-product: Windows
 targetos: Windows
 req.typenames: SHELL_UI_COMPONENT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - TreeSetNamedSecurityInfo
 - TreeSetNamedSecurityInfoA
 - TreeSetNamedSecurityInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

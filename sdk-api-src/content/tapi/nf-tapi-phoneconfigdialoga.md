@@ -40,7 +40,6 @@ api_name:
  - phoneConfigDialog
  - phoneConfigDialogA
  - phoneConfigDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

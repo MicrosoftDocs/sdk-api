@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - ShellCommandInfo, *PShellCommandInfo
-product: Windows
 targetos: Windows
 req.typenames: ShellCommandInfo, *PShellCommandInfo
 req.redist: 

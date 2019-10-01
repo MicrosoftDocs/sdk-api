@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - SEARCH_ITEM_PERSISTENT_CHANGE
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_ITEM_PERSISTENT_CHANGE
 req.redist: Windows Desktop Search (WDS) 3.0

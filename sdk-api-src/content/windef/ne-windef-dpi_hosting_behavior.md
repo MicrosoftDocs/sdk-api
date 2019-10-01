@@ -38,7 +38,6 @@ api_location:
  - windef.h
 api_name:
  - _DPI_HOSTING_BEHAVIOR
-product: Windows
 targetos: Windows
 req.typenames: DPI_HOSTING_BEHAVIOR
 req.redist: 

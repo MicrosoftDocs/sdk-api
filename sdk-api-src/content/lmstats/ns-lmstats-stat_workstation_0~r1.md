@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "lmstats/_STAT_WORKSTATION_0"
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

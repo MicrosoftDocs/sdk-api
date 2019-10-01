@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUSTER_BATCH_COMMAND
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_BATCH_COMMAND
 req.redist: 

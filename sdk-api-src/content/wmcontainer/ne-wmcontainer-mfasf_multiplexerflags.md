@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - MFASF_MULTIPLEXERFLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFASF_MULTIPLEXERFLAGS
 req.redist: 

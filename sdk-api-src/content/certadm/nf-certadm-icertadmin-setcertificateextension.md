@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.SetCertificateExtension
  - ICertAdmin.SetCertificateExtension
  - CCertAdmin.SetCertificateExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

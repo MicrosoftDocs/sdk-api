@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - CapturedMetadataWhiteBalanceGains
-product: Windows
 targetos: Windows
 req.typenames: CapturedMetadataWhiteBalanceGains
 req.redist: 

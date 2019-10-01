@@ -42,7 +42,6 @@ api_name:
  - IGestureRecognizer.put_Enabled
  - IGestureRecognizer.get_Enabled
  - IGestureRecognizer.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

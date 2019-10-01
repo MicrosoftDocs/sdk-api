@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IComponent.get_DescLangID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

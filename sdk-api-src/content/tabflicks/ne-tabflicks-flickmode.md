@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - FLICKMODE
-product: Windows
 targetos: Windows
 req.typenames: FLICKMODE
 req.redist: 

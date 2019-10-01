@@ -38,7 +38,6 @@ api_location:
  - Objidl.h
 api_name:
  - PENDINGMSG
-product: Windows
 targetos: Windows
 req.typenames: PENDINGMSG
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SecPkgContext_Flags
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Flags, *PSecPkgContext_Flags
 req.redist: 

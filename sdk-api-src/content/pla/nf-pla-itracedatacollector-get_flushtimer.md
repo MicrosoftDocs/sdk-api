@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.FlushTimer
  - ITraceDataCollector.get_FlushTimer
  - ITraceDataCollector.put_FlushTimer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

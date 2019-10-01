@@ -38,7 +38,6 @@ api_location:
  - Mydocs.dll
 api_name:
  - PerUserInit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

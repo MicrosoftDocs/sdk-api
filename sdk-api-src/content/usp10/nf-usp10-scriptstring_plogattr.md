@@ -41,7 +41,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - ScriptString_pLogAttr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

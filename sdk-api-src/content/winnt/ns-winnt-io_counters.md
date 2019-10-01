@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - IO_COUNTERS
-product: Windows
 targetos: Windows
 req.typenames: IO_COUNTERS
 req.redist: 

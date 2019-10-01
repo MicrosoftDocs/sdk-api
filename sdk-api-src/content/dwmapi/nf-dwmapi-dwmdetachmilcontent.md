@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.dll
 api_name:
  - DwmDetachMilContent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

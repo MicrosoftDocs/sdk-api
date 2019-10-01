@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - PHONEEXTENSIONID
-product: Windows
 targetos: Windows
 req.typenames: PHONEEXTENSIONID, *LPPHONEEXTENSIONID
 req.redist: 

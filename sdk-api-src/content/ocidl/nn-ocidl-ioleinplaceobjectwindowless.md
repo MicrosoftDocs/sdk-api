@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IOleInPlaceObjectWindowless
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

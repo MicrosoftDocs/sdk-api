@@ -38,7 +38,6 @@ api_location:
  - wcndevice.h
 api_name:
  - WCN_SESSION_STATUS
-product: Windows
 targetos: Windows
 req.typenames: WCN_SESSION_STATUS
 req.redist: 

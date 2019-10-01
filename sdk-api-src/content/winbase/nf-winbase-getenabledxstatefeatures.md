@@ -41,7 +41,6 @@ api_location:
  - api-ms-win-core-xstate-l2-1-1.dll
 api_name:
  - GetEnabledXStateFeatures
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

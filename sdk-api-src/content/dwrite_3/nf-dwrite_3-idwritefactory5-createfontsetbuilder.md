@@ -39,7 +39,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFactory5.CreateFontSetBuilder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

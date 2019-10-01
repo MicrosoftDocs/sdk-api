@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IComponentType.put__MediaSubType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

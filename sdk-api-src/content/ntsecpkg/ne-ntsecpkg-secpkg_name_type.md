@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_NAME_TYPE
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_NAME_TYPE
 req.redist: 

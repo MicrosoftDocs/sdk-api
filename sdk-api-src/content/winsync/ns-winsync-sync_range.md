@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_RANGE
-product: Windows
 targetos: Windows
 req.typenames: SYNC_RANGE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Vss.h
 api_name:
 - VSS_PROVIDER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: VSS_PROVIDER_TYPE, *PVSS_PROVIDER_TYPE
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SCEPEnrollment.Request
  - IX509SCEPEnrollment.get_Request
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

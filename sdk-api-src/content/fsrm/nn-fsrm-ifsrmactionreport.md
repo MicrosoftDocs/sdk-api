@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmActionReport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

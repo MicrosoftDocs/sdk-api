@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_StreetAddress
  - IFaxSender.get_StreetAddress
  - IFaxSender.put_StreetAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

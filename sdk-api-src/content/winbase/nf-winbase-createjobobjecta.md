@@ -44,7 +44,6 @@ api_name:
  - CreateJobObject
  - CreateJobObjectA
  - CreateJobObjectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

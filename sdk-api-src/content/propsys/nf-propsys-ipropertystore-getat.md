@@ -39,7 +39,6 @@ api_location:
  - Propsys.idl.dll
 api_name:
  - IPropertyStore.GetAt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

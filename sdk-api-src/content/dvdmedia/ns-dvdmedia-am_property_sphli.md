@@ -38,7 +38,6 @@ api_location:
 - Dvdmedia.h
 api_name:
 - AM_PROPERTY_SPHLI
-product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_SPHLI, *PAM_PROPERTY_SPHLI
 req.redist: 

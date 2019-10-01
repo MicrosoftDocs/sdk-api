@@ -38,7 +38,6 @@ api_location:
  - Mscat.h
 api_name:
  - CATALOG_INFO
-product: Windows
 targetos: Windows
 req.typenames: CATALOG_INFO
 req.redist: 

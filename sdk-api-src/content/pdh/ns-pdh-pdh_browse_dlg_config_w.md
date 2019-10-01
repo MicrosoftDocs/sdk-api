@@ -40,7 +40,6 @@ api_name:
  - PDH_BROWSE_DLG_CONFIG
  - PDH_BROWSE_DLG_CONFIG_A
  - PDH_BROWSE_DLG_CONFIG_W
-product: Windows
 targetos: Windows
 req.typenames: PDH_BROWSE_DLG_CONFIG_W, *PPDH_BROWSE_DLG_CONFIG_W
 req.redist: 

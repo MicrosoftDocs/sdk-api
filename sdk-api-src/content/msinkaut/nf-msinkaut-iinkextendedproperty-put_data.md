@@ -43,7 +43,6 @@ api_name:
  - IInkExtendedProperty.put_Data
  - IInkExtendedProperty.get_Data
  - IInkExtendedProperty.put_Data
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

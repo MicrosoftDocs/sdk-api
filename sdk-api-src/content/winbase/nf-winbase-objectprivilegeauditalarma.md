@@ -46,7 +46,6 @@ api_name:
 - ObjectPrivilegeAuditAlarm
 - ObjectPrivilegeAuditAlarmA
 - ObjectPrivilegeAuditAlarmW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - IInkCollector.put_CollectionMode
  - InkCollector.get_CollectionMode
  - InkCollector.put_CollectionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

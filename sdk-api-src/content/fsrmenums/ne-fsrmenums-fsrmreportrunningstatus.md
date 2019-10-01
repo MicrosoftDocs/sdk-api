@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - FsrmReportRunningStatus
-product: Windows
 targetos: Windows
 req.typenames: FsrmReportRunningStatus
 req.redist: 

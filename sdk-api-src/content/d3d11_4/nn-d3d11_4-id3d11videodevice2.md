@@ -6,7 +6,6 @@ ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2
 ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

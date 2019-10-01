@@ -38,7 +38,6 @@ api_location:
 - Certpoleng.dll
 api_name:
 - PstMapCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

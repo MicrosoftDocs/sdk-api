@@ -40,7 +40,6 @@ api_name:
  - OleUIAddVerbMenu
  - OleUIAddVerbMenuA
  - OleUIAddVerbMenuW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

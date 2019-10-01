@@ -42,7 +42,6 @@ api_location:
  - CfgMgr32.dll
 api_name:
  - CM_Open_Device_Interface_Key_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mswsock.h
 api_name:
 - RIO_NOTIFICATION_COMPLETION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
 req.redist: 

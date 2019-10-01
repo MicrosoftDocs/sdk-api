@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IBootOptions.get_Emulation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

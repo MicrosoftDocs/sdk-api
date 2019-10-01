@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesDirtyInfo.LocalDirtyByteCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

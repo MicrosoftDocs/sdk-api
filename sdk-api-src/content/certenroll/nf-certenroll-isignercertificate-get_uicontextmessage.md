@@ -40,7 +40,6 @@ api_name:
  - ISignerCertificate.UIContextMessage
  - ISignerCertificate.get_UIContextMessage
  - ISignerCertificate.put_UIContextMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

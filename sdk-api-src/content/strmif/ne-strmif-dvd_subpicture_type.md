@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_SUBPICTURE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DVD_SUBPICTURE_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - eappcfg.dll
 api_name:
 - EapHostPeerFreeErrorMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

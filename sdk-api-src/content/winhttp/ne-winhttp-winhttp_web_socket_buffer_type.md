@@ -38,7 +38,6 @@ api_location:
  - winhttp.h
 api_name:
  - WINHTTP_WEB_SOCKET_BUFFER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_BUFFER_TYPE
 req.redist: 

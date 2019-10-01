@@ -40,7 +40,6 @@ api_name:
 - GetService
 - GetServiceA
 - GetServiceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

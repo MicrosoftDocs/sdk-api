@@ -42,7 +42,6 @@ api_name:
  - UrlCompare
  - UrlCompareA
  - UrlCompareW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

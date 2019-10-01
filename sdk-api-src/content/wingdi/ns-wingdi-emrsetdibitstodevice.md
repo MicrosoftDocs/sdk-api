@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETDIBITSTODEVICE
-product: Windows
 targetos: Windows
 req.typenames: EMRSETDIBITSTODEVICE, *PEMRSETDIBITSTODEVICE
 req.redist: 

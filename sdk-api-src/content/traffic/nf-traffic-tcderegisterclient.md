@@ -38,7 +38,6 @@ api_location:
  - Traffic.dll
 api_name:
  - TcDeregisterClient
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

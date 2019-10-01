@@ -47,7 +47,6 @@ api_name:
  - FindFirstChangeNotification
  - FindFirstChangeNotificationA
  - FindFirstChangeNotificationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

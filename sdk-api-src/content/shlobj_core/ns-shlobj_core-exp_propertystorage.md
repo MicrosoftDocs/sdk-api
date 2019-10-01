@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - EXP_PROPERTYSTORAGE
-product: Windows
 targetos: Windows
 req.typenames: EXP_PROPERTYSTORAGE
 req.redist: 

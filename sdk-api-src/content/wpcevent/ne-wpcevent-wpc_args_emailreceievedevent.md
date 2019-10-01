@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPC_ARGS_EMAILRECEIEVEDEVENT
-product: Windows
 targetos: Windows
 req.typenames: WPC_ARGS_EMAILRECEIEVEDEVENT
 req.redist: 

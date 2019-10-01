@@ -38,7 +38,6 @@ api_location:
  - D2D1_1.h
 api_name:
  - PD2D1_EFFECT_FACTORY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

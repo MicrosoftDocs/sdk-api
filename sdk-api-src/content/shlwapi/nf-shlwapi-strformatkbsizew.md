@@ -40,7 +40,6 @@ api_name:
  - StrFormatKBSize
  - StrFormatKBSizeA
  - StrFormatKBSizeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

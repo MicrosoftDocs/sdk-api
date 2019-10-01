@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_WINSOCK
-product: Windows
 targetos: Windows
 req.typenames: MPEG_WINSOCK
 req.redist: 

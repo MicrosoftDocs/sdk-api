@@ -38,7 +38,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - Graphics.SetTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

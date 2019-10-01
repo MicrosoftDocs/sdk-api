@@ -38,7 +38,6 @@ api_location:
  - amstream.h
 api_name:
  - IAMMultiMediaStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - HtmlHelp.h
 api_name:
  - HHN_NOTIFY
-product: Windows
 targetos: Windows
 req.typenames: HHN_NOTIFY
 req.redist: 

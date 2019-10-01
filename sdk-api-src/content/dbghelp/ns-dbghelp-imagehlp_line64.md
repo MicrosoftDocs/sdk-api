@@ -41,7 +41,6 @@ api_name:
  - IMAGEHLP_LINE64
  - IMAGEHLP_LINEW64
  - IMAGEHLP_LINE
-product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_LINE64, *PIMAGEHLP_LINE64
 req.redist: DbgHelp.dll 5.1 or later

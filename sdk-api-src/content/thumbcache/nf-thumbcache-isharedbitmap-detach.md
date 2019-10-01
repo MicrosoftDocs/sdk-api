@@ -38,7 +38,6 @@ api_location:
  - Thumbcache.h
 api_name:
  - ISharedBitmap.Detach
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

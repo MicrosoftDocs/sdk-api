@@ -40,7 +40,6 @@ api_name:
  - TEXTRANGE
  - TEXTRANGEA
  - TEXTRANGEW
-product: Windows
 targetos: Windows
 req.typenames: TEXTRANGEW
 req.redist: 

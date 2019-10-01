@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspAlgorithms.IndexByObjectId
  - ICspAlgorithms.get_IndexByObjectId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

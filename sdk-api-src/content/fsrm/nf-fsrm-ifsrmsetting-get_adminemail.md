@@ -41,7 +41,6 @@ api_name:
  - IFsrmSetting.get_AdminEmail
  - IFsrmSetting.put_AdminEmail
  - FsrmSetting.AdminEmail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

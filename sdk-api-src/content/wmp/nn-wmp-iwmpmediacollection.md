@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWMPMediaCollection
  - IWMPMediaCollection.isDeleted
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

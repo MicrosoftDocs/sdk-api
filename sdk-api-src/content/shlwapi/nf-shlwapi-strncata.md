@@ -40,7 +40,6 @@ api_name:
  - StrNCat
  - StrNCatA
  - StrNCatW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

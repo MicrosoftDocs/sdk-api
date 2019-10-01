@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertificatePolicy.PolicyQualifiers
  - ICertificatePolicy.get_PolicyQualifiers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

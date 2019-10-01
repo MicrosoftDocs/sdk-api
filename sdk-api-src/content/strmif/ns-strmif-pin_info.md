@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - PIN_INFO
-product: Windows
 targetos: Windows
 req.typenames: PIN_INFO
 req.redist: 

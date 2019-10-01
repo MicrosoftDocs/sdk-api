@@ -47,7 +47,6 @@ api_name:
  - Process32Next
  - Process32Next
  - Process32NextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

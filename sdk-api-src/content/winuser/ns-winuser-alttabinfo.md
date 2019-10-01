@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - ALTTABINFO
-product: Windows
 targetos: Windows
 req.typenames: ALTTABINFO, *PALTTABINFO, *LPALTTABINFO
 req.redist: 

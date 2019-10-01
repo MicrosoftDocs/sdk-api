@@ -38,7 +38,6 @@ api_location:
  - prnasnot.h
 api_name:
  - PrintAsyncNotifyUserFilter
-product: Windows
 targetos: Windows
 req.typenames: PrintAsyncNotifyUserFilter
 req.redist: 

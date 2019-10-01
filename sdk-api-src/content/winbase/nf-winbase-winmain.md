@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - WinMain
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

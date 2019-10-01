@@ -42,7 +42,6 @@ api_name:
  - RasGetCredentials
  - RasGetCredentialsA
  - RasGetCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

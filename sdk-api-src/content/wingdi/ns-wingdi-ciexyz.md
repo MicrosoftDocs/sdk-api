@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - CIEXYZ
-product: Windows
 targetos: Windows
 req.typenames: CIEXYZ
 req.redist: 

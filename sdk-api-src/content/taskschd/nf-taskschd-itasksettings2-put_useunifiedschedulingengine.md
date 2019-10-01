@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings2.UseUnifiedSchedulingEngine
  - ITaskSettings2.get_UseUnifiedSchedulingEngine
  - ITaskSettings2.put_UseUnifiedSchedulingEngine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Devicetopology.h
 api_name:
  - IKsJackDescription2.GetJackDescription2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

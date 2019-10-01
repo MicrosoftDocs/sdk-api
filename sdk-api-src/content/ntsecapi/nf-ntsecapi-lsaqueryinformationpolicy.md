@@ -41,7 +41,6 @@ api_location:
 - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
 - LsaQueryInformationPolicy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

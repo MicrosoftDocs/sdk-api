@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_CMD_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: DVD_CMD_FLAGS
 req.redist: 

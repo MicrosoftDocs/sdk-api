@@ -42,7 +42,6 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
  - HashData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

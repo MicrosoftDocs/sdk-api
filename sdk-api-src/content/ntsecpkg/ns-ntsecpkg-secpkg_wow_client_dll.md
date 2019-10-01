@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - SECPKG_WOW_CLIENT_DLL
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_WOW_CLIENT_DLL, *PSECPKG_WOW_CLIENT_DLL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mmcobj.h
 api_name:
 - MMC_SNAPIN_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: MMC_SNAPIN_PROPERTY
 req.redist: 

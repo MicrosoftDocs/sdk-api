@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IFSTACK_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_IFSTACK_ROW, *PMIB_IFSTACK_ROW
 req.redist: 

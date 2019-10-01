@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - DRAWPATRECT
-product: Windows
 targetos: Windows
 req.typenames: DRAWPATRECT, *PDRAWPATRECT
 req.redist: 

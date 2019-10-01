@@ -38,7 +38,6 @@ api_location:
  - WinIoctl.h
 api_name:
  - FSCTL_QUERY_REGION_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

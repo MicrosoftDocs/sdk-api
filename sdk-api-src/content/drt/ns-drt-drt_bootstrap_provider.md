@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_BOOTSTRAP_PROVIDER
-product: Windows
 targetos: Windows
 req.typenames: DRT_BOOTSTRAP_PROVIDER, *PDRT_BOOTSTRAP_PROVIDER
 req.redist: 

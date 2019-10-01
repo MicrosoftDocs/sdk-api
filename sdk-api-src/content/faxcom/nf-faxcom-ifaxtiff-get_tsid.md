@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxTiff.Tsid
  - IFaxTiff.get_Tsid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

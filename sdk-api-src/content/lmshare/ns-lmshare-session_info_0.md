@@ -38,7 +38,6 @@ api_location:
  - Lmshare.h
 api_name:
  - SESSION_INFO_0
-product: Windows
 targetos: Windows
 req.typenames: SESSION_INFO_0, *PSESSION_INFO_0, *LPSESSION_INFO_0
 req.redist: 

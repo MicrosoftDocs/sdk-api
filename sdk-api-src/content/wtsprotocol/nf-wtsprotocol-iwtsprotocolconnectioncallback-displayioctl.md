@@ -38,7 +38,6 @@ api_location:
 - Wtsprotocol.h
 api_name:
 - IWTSProtocolConnectionCallback.DisplayIOCtl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

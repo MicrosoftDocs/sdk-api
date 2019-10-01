@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_Branding
  - IFaxServer.get_Branding
  - IFaxServer.put_Branding
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

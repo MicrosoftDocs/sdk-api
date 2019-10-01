@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_CREATE_VDISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: VDS_CREATE_VDISK_PARAMETERS, *PVDS_CREATE_VDISK_PARAMETERS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_PRESENCE_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEER_PRESENCE_INFO, *PPEER_PRESENCE_INFO
 req.redist: 

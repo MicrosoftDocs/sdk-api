@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - INetDiagHelperInfo.GetAttributeInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

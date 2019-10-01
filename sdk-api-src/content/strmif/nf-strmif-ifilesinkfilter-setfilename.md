@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IFileSinkFilter.SetFileName
  - IFileSinkFilter2.SetFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

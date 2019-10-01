@@ -39,7 +39,6 @@ api_location:
 api_name:
  - Font.GetLogFontA
  - getlogfonta
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

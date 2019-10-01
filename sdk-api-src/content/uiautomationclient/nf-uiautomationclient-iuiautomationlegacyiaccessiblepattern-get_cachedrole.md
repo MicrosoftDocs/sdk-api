@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CachedRole
  - IUIAutomationLegacyIAccessiblePattern.get_CachedRole
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

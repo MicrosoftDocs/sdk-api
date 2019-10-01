@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISignerCertificate.PrivateKey
  - ISignerCertificate.get_PrivateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

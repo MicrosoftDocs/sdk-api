@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - IMAGE_DEBUG_DIRECTORY
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_DEBUG_DIRECTORY, *PIMAGE_DEBUG_DIRECTORY
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - LoadMenu
  - LoadMenuA
  - LoadMenuW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

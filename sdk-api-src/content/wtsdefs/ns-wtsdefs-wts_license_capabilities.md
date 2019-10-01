@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_LICENSE_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
 req.redist: 

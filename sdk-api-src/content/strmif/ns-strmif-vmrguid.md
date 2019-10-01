@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRGUID
-product: Windows
 targetos: Windows
 req.typenames: VMRGUID
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - cabinet.dll
 api_name:
  - CreateDecompressor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

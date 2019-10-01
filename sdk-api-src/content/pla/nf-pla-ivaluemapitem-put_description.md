@@ -40,7 +40,6 @@ api_name:
  - IValueMapItem.Description
  - IValueMapItem.get_Description
  - IValueMapItem.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

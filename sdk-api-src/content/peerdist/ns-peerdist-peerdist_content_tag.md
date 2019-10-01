@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PEERDIST_CONTENT_TAG
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CONTENT_TAG, *PPEERDIST_CONTENT_TAG
 req.redist: 

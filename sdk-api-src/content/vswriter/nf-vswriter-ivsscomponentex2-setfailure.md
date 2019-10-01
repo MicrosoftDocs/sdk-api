@@ -38,7 +38,6 @@ api_location:
  - vswriter.h
 api_name:
  - IVssComponentEx2.SetFailure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

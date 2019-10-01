@@ -38,7 +38,6 @@ api_location:
 - FsrmEnums.h
 api_name:
 - FsrmEventType
-product: Windows
 targetos: Windows
 req.typenames: FsrmEventType
 req.redist: 

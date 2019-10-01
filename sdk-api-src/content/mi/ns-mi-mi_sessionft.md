@@ -38,7 +38,6 @@ api_location:
  - mi.h
 api_name:
  - MI_SessionFT
-product: Windows
 targetos: Windows
 req.typenames: MI_SessionFT
 req.redist: 

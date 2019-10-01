@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETFIELDNUMOUT
-product: Windows
 targetos: Windows
 req.typenames: DDGETFIELDNUMOUT, *LPDDGETFIELDNUMOUT
 req.redist: 

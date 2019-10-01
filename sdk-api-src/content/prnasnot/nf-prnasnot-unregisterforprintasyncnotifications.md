@@ -38,7 +38,6 @@ api_location:
  - Spoolss.dll
 api_name:
  - UnRegisterForPrintAsyncNotifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

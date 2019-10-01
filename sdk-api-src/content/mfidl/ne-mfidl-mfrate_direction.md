@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFRATE_DIRECTION
-product: Windows
 targetos: Windows
 req.typenames: MFRATE_DIRECTION
 req.redist: 

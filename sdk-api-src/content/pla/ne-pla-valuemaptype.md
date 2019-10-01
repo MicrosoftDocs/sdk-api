@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - ValueMapType
-product: Windows
 targetos: Windows
 req.typenames: ValueMapType
 req.redist: 

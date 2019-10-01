@@ -38,7 +38,6 @@ api_location:
  - spatialaudioclient.h
 api_name:
  - ISpatialAudioClient.IsAudioObjectFormatSupported
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Perflib.h
 api_name:
 - PerfCounterDataType
-product: Windows
 targetos: Windows
 req.typenames: PerfCounterDataType
 req.redist: 

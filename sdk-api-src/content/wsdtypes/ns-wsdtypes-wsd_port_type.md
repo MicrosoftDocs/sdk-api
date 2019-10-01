@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_PORT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WSD_PORT_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - WindowFromDC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

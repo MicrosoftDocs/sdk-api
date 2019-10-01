@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyDescription.GetSortDescriptionLabel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

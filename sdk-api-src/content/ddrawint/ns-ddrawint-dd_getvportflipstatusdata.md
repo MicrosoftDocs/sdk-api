@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETVPORTFLIPSTATUSDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA'
 req.redist: 

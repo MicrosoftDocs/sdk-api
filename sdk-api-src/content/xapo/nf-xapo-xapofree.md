@@ -38,7 +38,6 @@ api_location:
  - XAPO.h
 api_name:
  - XAPOFree
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

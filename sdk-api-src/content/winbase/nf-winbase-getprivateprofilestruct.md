@@ -40,7 +40,6 @@ api_name:
  - GetPrivateProfileStruct
  - GetPrivateProfileStructA
  - GetPrivateProfileStructW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

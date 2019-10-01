@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 req.redist: 

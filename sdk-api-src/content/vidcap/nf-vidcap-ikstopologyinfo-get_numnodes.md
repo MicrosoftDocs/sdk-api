@@ -38,7 +38,6 @@ api_location:
  - Vidcap.h
 api_name:
  - IKsTopologyInfo.get_NumNodes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.StartTime
  - IFaxStatus.get_StartTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

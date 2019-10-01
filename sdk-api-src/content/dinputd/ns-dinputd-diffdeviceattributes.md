@@ -38,7 +38,6 @@ api_location:
  - dinputd.h
 api_name:
  - DIFFDEVICEATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
 req.redist: 

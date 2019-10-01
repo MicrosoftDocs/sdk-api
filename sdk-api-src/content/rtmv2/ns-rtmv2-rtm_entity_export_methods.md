@@ -38,7 +38,6 @@ api_location:
  - Rtmv2.h
 api_name:
  - RTM_ENTITY_EXPORT_METHODS
-product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS
 req.redist: 

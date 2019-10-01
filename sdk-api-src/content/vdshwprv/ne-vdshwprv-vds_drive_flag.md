@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_DRIVE_FLAG
-product: Windows
 targetos: Windows
 req.typenames: VDS_DRIVE_FLAG, *PVDS_DRIVE_FLAG
 req.redist: 

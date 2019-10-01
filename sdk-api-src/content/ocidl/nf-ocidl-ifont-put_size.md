@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IFont.put_Size
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

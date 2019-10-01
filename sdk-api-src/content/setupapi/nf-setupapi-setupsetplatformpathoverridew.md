@@ -40,7 +40,6 @@ api_name:
  - SetupSetPlatformPathOverride
  - SetupSetPlatformPathOverrideA
  - SetupSetPlatformPathOverrideW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMMediaProps.GetMediaType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

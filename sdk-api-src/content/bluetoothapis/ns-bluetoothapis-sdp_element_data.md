@@ -38,7 +38,6 @@ api_location:
  - BluetoothAPIs.h
 api_name:
  - SDP_ELEMENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: SDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA
 req.redist: 

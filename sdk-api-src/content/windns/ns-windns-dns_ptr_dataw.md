@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_PTR_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
 req.redist: 

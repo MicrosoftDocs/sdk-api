@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_HTTP_URL
-product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_URL
 req.redist: 

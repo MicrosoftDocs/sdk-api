@@ -38,7 +38,6 @@ api_location:
  - dxgi1_2.h
 api_name:
  - DXGI_OFFER_RESOURCE_PRIORITY
-product: Windows
 targetos: Windows
 req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - MinUser.dll
 api_name:
  - GetDCEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.Subject
  - IEmailAction.get_Subject
  - IEmailAction.put_Subject
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

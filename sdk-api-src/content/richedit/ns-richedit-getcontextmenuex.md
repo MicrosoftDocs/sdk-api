@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - GETCONTEXTMENUEX
-product: Windows
 targetos: Windows
 req.typenames: GETCONTEXTMENUEX
 req.redist: 

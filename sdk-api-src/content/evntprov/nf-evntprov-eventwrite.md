@@ -44,7 +44,6 @@ api_location:
 - bcrypt.dll
 api_name:
 - EventWrite
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

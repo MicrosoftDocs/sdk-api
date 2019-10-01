@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_DATETIME_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: WS_DATETIME_FORMAT
 req.redist: 

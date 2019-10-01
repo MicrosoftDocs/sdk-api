@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_EraserMode
  - InkPicture.get_EraserMode
  - InkPicture.put_EraserMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

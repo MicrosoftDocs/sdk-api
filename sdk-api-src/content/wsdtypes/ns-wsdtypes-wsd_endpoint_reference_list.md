@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_ENDPOINT_REFERENCE_LIST
-product: Windows
 targetos: Windows
 req.typenames: WSD_ENDPOINT_REFERENCE_LIST
 req.redist: 

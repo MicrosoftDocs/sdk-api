@@ -38,7 +38,6 @@ api_location:
 - Mgm.h
 api_name:
 - MgmSetMfe
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

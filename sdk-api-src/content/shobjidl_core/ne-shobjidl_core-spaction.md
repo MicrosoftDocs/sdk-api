@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - SPACTION
-product: Windows
 targetos: Windows
 req.typenames: SPACTION
 req.redist: 

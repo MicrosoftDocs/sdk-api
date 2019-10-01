@@ -40,7 +40,6 @@ api_name:
  - EjectDiskFromSADrive
  - EjectDiskFromSADriveA
  - EjectDiskFromSADriveW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

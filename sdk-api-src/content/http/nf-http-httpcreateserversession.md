@@ -38,7 +38,6 @@ api_location:
  - Httpapi.dll
 api_name:
  - HttpCreateServerSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

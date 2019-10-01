@@ -41,7 +41,6 @@ api_name:
  - Provider.ValidateMethodFlags
  - ?ValidateMethodFlags@Provider@@MAEJJ@Z
  - ?ValidateMethodFlags@Provider@@MEAAJJ@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

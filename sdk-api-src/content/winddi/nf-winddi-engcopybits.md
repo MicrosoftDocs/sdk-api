@@ -41,7 +41,6 @@ api_location:
 - win32kmin.sys
 api_name:
 - EngCopyBits
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

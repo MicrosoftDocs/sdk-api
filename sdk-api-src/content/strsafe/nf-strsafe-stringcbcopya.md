@@ -40,7 +40,6 @@ api_name:
  - StringCbCopy
  - StringCbCopyA
  - StringCbCopyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

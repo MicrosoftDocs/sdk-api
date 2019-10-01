@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Csid
  - IFaxPort.get_Csid
  - IFaxPort.put_Csid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

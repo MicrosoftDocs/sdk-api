@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IEnumBackgroundCopyFiles.GetCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

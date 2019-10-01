@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationManager.CreateAnimationVariable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

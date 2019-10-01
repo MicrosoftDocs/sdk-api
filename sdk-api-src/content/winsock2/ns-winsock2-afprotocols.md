@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - AFPROTOCOLS
-product: Windows
 targetos: Windows
 req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - INTERACTION_ID
-product: Windows
 targetos: Windows
 req.typenames: INTERACTION_ID
 req.redist: 

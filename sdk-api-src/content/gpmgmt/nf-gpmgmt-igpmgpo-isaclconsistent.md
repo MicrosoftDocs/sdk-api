@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMGPO.IsACLConsistent
  - GPMGPO.IsACLConsistent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

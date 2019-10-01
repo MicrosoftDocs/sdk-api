@@ -38,7 +38,6 @@ api_location:
  - D3D10Effect.h
 api_name:
  - D3D10_DEVICE_STATE_TYPES
-product: Windows
 targetos: Windows
 req.typenames: D3D10_DEVICE_STATE_TYPES
 req.redist: 

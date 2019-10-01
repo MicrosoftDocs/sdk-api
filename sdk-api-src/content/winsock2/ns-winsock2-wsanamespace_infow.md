@@ -40,7 +40,6 @@ api_name:
 - WSANAMESPACE_INFO
 - WSANAMESPACE_INFOA
 - WSANAMESPACE_INFOW
-product: Windows
 targetos: Windows
 req.typenames: WSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, *LPWSANAMESPACE_INFOW
 req.redist: 

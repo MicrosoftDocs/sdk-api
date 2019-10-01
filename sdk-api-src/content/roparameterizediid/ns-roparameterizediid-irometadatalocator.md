@@ -38,7 +38,6 @@ api_location:
  - roparameterizediid.h
 api_name:
  - IRoMetaDataLocator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

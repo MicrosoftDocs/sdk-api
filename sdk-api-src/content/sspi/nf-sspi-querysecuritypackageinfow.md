@@ -40,7 +40,6 @@ api_name:
 - QuerySecurityPackageInfo
 - QuerySecurityPackageInfoA
 - QuerySecurityPackageInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

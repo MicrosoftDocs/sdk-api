@@ -40,7 +40,6 @@ api_name:
  - GopherCreateLocator
  - GopherCreateLocatorA
  - GopherCreateLocatorW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

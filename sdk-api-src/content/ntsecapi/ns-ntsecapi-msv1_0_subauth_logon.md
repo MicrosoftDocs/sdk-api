@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - MSV1_0_SUBAUTH_LOGON
-product: Windows
 targetos: Windows
 req.typenames: MSV1_0_SUBAUTH_LOGON, *PMSV1_0_SUBAUTH_LOGON
 req.redist: 

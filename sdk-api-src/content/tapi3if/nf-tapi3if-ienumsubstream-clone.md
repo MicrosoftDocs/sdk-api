@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - IEnumSubStream.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

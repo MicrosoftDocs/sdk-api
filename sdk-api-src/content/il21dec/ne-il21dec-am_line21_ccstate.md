@@ -38,7 +38,6 @@ api_location:
  - il21dec.h
 api_name:
  - AM_LINE21_CCSTATE
-product: Windows
 targetos: Windows
 req.typenames: AM_LINE21_CCSTATE, *PAM_LINE21_CCSTATE
 req.redist: 

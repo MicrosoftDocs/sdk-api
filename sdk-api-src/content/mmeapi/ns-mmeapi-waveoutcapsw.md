@@ -39,7 +39,6 @@ api_location:
 api_name:
  - WAVEOUTCAPS
  - WAVEOUTCAPSW
-product: Windows
 targetos: Windows
 req.typenames: WAVEOUTCAPSW, *PWAVEOUTCAPSW, *NPWAVEOUTCAPSW, *LPWAVEOUTCAPSW
 req.redist: 

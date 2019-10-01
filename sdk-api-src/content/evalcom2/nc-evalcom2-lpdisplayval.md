@@ -38,7 +38,6 @@ api_location:
  - evalcom2.h
 api_name:
  - LPDISPLAYVAL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

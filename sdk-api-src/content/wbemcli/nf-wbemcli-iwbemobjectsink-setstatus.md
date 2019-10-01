@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWbemObjectSink.SetStatus
  - IWbemObjectSinkEx.SetStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

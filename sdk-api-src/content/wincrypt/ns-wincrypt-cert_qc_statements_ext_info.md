@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_QC_STATEMENTS_EXT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_QC_STATEMENTS_EXT_INFO, *PCERT_QC_STATEMENTS_EXT_INFO
 req.redist: 

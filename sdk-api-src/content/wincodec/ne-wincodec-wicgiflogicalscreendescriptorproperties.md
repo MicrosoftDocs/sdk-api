@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICGifLogicalScreenDescriptorProperties
-product: Windows
 targetos: Windows
 req.typenames: WICGifLogicalScreenDescriptorProperties
 req.redist: 

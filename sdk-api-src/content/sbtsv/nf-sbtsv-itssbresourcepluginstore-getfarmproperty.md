@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbResourcePluginStore.GetFarmProperty
  - ITsSbResourcePluginStoreEx.GetFarmProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

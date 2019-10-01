@@ -38,7 +38,6 @@ api_location:
  - waasapitypes.h
 api_name:
  - UpdateAssessmentStatus
-product: Windows
 targetos: Windows
 req.typenames: UpdateAssessmentStatus
 req.redist: 

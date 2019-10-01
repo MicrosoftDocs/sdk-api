@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.KillTimeOut
  - IFsrmActionCommand.get_KillTimeOut
  - IFsrmActionCommand.put_KillTimeOut
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d11.h
 api_name:
  - D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT
 req.redist: 

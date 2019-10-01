@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.GetRSOP
  - GPM.GetRSOP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

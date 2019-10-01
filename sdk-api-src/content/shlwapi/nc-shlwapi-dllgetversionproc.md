@@ -38,7 +38,6 @@ api_location:
 - Shlwapi.h
 api_name:
 - DllGetVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

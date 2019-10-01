@@ -38,7 +38,6 @@ api_location:
 - Wtsprotocol.h
 api_name:
 - IWTSProtocolManager.NotifyServiceStateChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

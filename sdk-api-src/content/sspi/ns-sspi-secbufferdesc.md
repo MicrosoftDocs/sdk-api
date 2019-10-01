@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SecBufferDesc
-product: Windows
 targetos: Windows
 req.typenames: SecBufferDesc, *PSecBufferDesc
 req.redist: 

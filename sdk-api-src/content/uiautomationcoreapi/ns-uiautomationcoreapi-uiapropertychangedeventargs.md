@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCoreApi.h
 api_name:
  - UiaPropertyChangedEventArgs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mcx.h
 api_name:
 - MODEMSETTINGS
-product: Windows
 targetos: Windows
 req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MapiFileDesc
-product: Windows
 targetos: Windows
 req.typenames: MapiFileDesc, *lpMapiFileDesc
 req.redist: 

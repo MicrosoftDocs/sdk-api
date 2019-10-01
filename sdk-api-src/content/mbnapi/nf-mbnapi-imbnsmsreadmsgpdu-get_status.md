@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgPdu.Status
  - IMbnSmsReadMsgPdu.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

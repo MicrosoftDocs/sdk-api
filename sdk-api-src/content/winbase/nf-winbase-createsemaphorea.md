@@ -52,7 +52,6 @@ api_name:
  - CreateSemaphoreA
  - CreateSemaphoreA
  - CreateSemaphoreW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

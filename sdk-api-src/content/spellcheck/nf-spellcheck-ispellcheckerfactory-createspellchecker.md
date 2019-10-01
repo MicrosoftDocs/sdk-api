@@ -38,7 +38,6 @@ api_location:
  - Spellcheck.h
 api_name:
  - ISpellCheckerFactory.CreateSpellChecker
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

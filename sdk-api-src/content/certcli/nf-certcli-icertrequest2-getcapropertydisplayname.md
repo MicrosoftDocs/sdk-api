@@ -41,7 +41,6 @@ api_name:
  - ICertRequest2.GetCAPropertyDisplayName
  - ICertRequest.GetCAPropertyDisplayName
  - CCertRequest.GetCAPropertyDisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

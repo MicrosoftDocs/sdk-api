@@ -38,7 +38,6 @@ api_location:
  - Msi.h
 api_name:
  - MSIFILEHASHINFO
-product: Windows
 targetos: Windows
 req.typenames: MSIFILEHASHINFO, *PMSIFILEHASHINFO
 req.redist: 

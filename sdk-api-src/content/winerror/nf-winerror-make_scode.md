@@ -38,7 +38,6 @@ api_location:
  - Winerror.h
 api_name:
  - MAKE_SCODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

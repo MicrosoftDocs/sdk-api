@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - TTPOLYGONHEADER
-product: Windows
 targetos: Windows
 req.typenames: TTPOLYGONHEADER, *LPTTPOLYGONHEADER
 req.redist: 

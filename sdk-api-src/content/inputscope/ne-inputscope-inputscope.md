@@ -38,7 +38,6 @@ api_location:
  - InputScope.h
 api_name:
  - InputScope
-product: Windows
 targetos: Windows
 req.typenames: InputScope
 req.redist: 

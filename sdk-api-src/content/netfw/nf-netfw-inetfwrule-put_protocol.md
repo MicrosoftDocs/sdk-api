@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Protocol
  - INetFwRule.get_Protocol
  - INetFwRule.put_Protocol
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

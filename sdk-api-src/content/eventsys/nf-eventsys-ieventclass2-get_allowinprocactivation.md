@@ -40,7 +40,6 @@ api_name:
  - IEventClass2.AllowInprocActivation
  - IEventClass2.get_AllowInprocActivation
  - IEventClass2.put_AllowInprocActivation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

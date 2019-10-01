@@ -40,7 +40,6 @@ api_name:
  - IStringCollection.Item
  - IStringCollection.get_Item
  - IStringCollection.put_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

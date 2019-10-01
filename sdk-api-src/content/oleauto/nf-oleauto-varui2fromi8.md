@@ -38,7 +38,6 @@ api_location:
  - OleAut32.dll
 api_name:
  - VarUI2FromI8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

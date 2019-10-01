@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TVGETITEMPARTRECTINFO
-product: Windows
 targetos: Windows
 req.typenames: TVGETITEMPARTRECTINFO
 req.redist: 

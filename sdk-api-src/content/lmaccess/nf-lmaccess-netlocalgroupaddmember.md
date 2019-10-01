@@ -38,7 +38,6 @@ api_location:
  - lmaccess.h
 api_name:
  - NetLocalGroupAddMember
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

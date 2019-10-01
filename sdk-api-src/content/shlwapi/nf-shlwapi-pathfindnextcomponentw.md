@@ -44,7 +44,6 @@ api_name:
  - PathFindNextComponent
  - PathFindNextComponentA
  - PathFindNextComponentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

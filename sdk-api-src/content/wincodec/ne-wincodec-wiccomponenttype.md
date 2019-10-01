@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICComponentType
-product: Windows
 targetos: Windows
 req.typenames: WICComponentType
 req.redist: 

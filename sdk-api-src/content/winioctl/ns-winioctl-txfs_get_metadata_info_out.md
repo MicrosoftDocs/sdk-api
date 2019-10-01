@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - TXFS_GET_METADATA_INFO_OUT
-product: Windows
 targetos: Windows
 req.typenames: TXFS_GET_METADATA_INFO_OUT, *PTXFS_GET_METADATA_INFO_OUT
 req.redist: 

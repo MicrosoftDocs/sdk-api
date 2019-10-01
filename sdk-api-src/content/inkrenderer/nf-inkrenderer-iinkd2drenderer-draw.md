@@ -38,7 +38,6 @@ api_location:
  - inkrenderer.h
 api_name:
  - IInkD2DRenderer.Draw
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

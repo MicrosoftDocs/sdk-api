@@ -38,7 +38,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
-product: Windows
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, *PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 req.redist: 

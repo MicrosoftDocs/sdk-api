@@ -42,7 +42,6 @@ api_name:
  - IFaxReceiptOptions.put_SMTPPassword
  - IFaxReceiptOptions.get_SMTPPassword
  - IFaxReceiptOptions.put_SMTPPassword
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

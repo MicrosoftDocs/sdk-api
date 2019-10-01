@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - DEVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_INFO
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
  - SwDeviceGetLifetime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

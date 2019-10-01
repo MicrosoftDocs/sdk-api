@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextFont2.GetEffects2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

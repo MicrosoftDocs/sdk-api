@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - SpatialAudioHrtfDistanceDecay
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfDistanceDecay
 req.redist: 

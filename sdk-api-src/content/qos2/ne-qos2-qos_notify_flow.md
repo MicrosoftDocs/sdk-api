@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_NOTIFY_FLOW
-product: Windows
 targetos: Windows
 req.typenames: QOS_NOTIFY_FLOW, *PQOS_NOTIFY_FLOW
 req.redist: 

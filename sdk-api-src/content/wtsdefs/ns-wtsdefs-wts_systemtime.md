@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_SYSTEMTIME
-product: Windows
 targetos: Windows
 req.typenames: WTS_SYSTEMTIME, *PWTS_SYSTEMTIME
 req.redist: 

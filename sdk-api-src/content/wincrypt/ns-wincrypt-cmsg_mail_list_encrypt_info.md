@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMSG_MAIL_LIST_ENCRYPT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMSG_MAIL_LIST_ENCRYPT_INFO, *PCMSG_MAIL_LIST_ENCRYPT_INFO
 req.redist: 

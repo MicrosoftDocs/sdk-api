@@ -40,7 +40,6 @@ api_name:
 - DS_DOMAIN_TRUSTS
 - DS_DOMAIN_TRUSTSA
 - DS_DOMAIN_TRUSTSW
-product: Windows
 targetos: Windows
 req.typenames: DS_DOMAIN_TRUSTSW, *PDS_DOMAIN_TRUSTSW
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - CreateWindow
  - CreateWindowA
  - CreateWindowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

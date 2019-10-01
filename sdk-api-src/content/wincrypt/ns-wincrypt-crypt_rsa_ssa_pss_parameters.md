@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_RSA_SSA_PSS_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_RSA_SSA_PSS_PARAMETERS, *PCRYPT_RSA_SSA_PSS_PARAMETERS
 req.redist: 

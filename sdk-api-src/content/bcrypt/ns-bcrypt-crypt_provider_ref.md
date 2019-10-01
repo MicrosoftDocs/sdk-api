@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - CRYPT_PROVIDER_REF
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_REF, *PCRYPT_PROVIDER_REF
 req.redist: 

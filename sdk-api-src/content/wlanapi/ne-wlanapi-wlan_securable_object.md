@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_SECURABLE_OBJECT
-product: Windows
 targetos: Windows
 req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
 req.redist: 

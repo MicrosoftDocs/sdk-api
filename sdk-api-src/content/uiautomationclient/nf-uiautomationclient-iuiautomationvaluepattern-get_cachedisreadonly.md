@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationValuePattern.CachedIsReadOnly
  - IUIAutomationValuePattern.get_CachedIsReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

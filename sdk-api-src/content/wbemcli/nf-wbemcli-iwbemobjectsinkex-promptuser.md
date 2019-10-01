@@ -38,7 +38,6 @@ api_location:
  - Fastprox.dll
 api_name:
  - IWbemObjectSinkEx.PromptUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

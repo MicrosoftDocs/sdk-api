@@ -38,7 +38,6 @@ api_location:
  - ifdef.h
 api_name:
  - TUNNEL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TUNNEL_TYPE, *PTUNNEL_TYPE
 req.redist: 

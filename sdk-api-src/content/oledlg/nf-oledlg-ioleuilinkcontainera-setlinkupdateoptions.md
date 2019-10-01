@@ -40,7 +40,6 @@ api_name:
  - IOleUILinkContainer.SetLinkUpdateOptions
  - IOleUILinkContainerA.SetLinkUpdateOptions
  - IOleUILinkContainerW.SetLinkUpdateOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

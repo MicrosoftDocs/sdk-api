@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRALPHABITMAP
-product: Windows
 targetos: Windows
 req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISelectionProvider2.LastSelectedItem
  - ISelectionProvider2.get_LastSelectedItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

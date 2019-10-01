@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.Priority
  - IFaxOutgoingJob.get_Priority
  - IFaxOutgoingJob.get_Priority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

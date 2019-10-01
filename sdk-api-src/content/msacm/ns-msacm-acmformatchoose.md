@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMFORMATCHOOSE
-product: Windows
 targetos: Windows
 req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
 req.redist: 

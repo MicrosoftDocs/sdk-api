@@ -39,7 +39,6 @@ api_location:
  - ShCore.dll
 api_name:
  - SetProcessReference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

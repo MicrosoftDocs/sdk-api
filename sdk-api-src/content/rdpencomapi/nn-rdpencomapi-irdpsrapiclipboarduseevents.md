@@ -38,7 +38,6 @@ api_location:
  - RdpEncomAPI.h
 api_name:
  - IRDPSRAPIClipboardUseEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

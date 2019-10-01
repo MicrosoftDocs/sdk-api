@@ -38,7 +38,6 @@ api_location:
  - recapis.h
 api_name:
  - SetWordList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

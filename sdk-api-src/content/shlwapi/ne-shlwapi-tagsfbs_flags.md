@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - SFBS_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

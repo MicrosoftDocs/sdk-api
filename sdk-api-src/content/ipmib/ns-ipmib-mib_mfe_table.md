@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_MFE_TABLE
-product: Windows
 targetos: Windows
 req.typenames: MIB_MFE_TABLE, *PMIB_MFE_TABLE
 req.redist: 

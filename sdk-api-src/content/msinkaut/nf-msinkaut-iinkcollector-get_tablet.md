@@ -41,7 +41,6 @@ api_name:
  - IInkCollector.Tablet
  - IInkCollector.get_Tablet
  - InkCollector.get_Tablet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

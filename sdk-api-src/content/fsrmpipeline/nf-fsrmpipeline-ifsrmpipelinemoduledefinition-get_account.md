@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.Account
  - IFsrmPipelineModuleDefinition.get_Account
  - IFsrmPipelineModuleDefinition.put_Account
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

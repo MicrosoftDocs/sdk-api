@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CurrentFillPatternColor
  - IUIAutomationStylesPattern.get_CurrentFillPatternColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

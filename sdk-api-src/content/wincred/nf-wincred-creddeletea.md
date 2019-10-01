@@ -44,7 +44,6 @@ api_name:
 - CredDelete
 - CredDeleteA
 - CredDeleteW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

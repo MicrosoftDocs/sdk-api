@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_BINDING_INFO
-product: Windows
 targetos: Windows
 req.typenames: HTTP_BINDING_INFO, *PHTTP_BINDING_INFO
 req.redist: 

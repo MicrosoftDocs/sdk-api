@@ -38,7 +38,6 @@ api_location:
  - eapphost.dll
 api_name:
  - EapHostPeerFreeRuntimeMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

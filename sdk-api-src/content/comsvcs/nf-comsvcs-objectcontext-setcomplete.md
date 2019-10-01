@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - ObjectContext.SetComplete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

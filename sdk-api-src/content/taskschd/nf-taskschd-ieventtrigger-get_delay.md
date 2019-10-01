@@ -40,7 +40,6 @@ api_name:
  - IEventTrigger.Delay
  - IEventTrigger.get_Delay
  - IEventTrigger.put_Delay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

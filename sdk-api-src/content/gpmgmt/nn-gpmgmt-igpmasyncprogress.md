@@ -38,7 +38,6 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMAsyncProgress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

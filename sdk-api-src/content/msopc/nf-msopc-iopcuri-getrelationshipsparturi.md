@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcUri.GetRelationshipsPartUri
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

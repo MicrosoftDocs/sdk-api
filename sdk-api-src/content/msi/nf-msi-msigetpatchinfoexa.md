@@ -41,7 +41,6 @@ api_name:
  - MsiGetPatchInfoEx
  - MsiGetPatchInfoExA
  - MsiGetPatchInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

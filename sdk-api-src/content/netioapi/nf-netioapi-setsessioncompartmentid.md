@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - SetSessionCompartmentId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

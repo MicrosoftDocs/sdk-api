@@ -38,7 +38,6 @@ api_location:
  - D3D12.h
 api_name:
  - D3D12_RAYTRACING_INSTANCE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_INSTANCE_FLAGS
 req.redist: 

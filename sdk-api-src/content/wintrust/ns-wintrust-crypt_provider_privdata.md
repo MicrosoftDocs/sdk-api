@@ -38,7 +38,6 @@ api_location:
 - Wintrust.h
 api_name:
 - CRYPT_PROVIDER_PRIVDATA
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_PRIVDATA, *PCRYPT_PROVIDER_PRIVDATA
 req.redist: 

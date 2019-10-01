@@ -41,7 +41,6 @@ api_name:
  - SetupUninstallOEMInf
  - SetupUninstallOEMInfA
  - SetupUninstallOEMInfW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

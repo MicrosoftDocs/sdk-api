@@ -38,7 +38,6 @@ api_location:
  - Wscapi.h
 api_name:
  - WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
-product: Windows
 targetos: Windows
 req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 req.redist: 

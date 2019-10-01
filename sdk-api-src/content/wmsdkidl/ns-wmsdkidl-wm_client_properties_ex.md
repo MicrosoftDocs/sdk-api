@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WM_CLIENT_PROPERTIES_EX
-product: Windows
 targetos: Windows
 req.typenames: WM_CLIENT_PROPERTIES_EX
 req.redist: 

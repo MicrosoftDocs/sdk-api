@@ -38,7 +38,6 @@ api_location:
  - Clfsmgmtw32.h
 api_name:
  - LOG_FULL_HANDLER_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

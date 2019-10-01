@@ -38,7 +38,6 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DPA_CreateEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

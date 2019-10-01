@@ -38,7 +38,6 @@ api_location:
  - Cryptxml.h
 api_name:
  - CRYPT_XML_ALGORITHM
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_ALGORITHM, *PCRYPT_XML_ALGORITHM
 req.redist: 

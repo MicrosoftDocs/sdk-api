@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICategory.CategoryID
  - ICategory.get_CategoryID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

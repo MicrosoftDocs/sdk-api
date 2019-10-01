@@ -38,7 +38,6 @@ api_location:
  - Shell32.dll
 api_name:
  - IRunnableTask.IsRunning
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

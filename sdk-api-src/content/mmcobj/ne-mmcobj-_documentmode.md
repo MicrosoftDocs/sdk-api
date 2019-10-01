@@ -38,7 +38,6 @@ api_location:
  - MmcObj.h
 api_name:
  - _DocumentMode
-product: Windows
 targetos: Windows
 req.typenames: "_DocumentMode, DOCUMENTMODE, *PDOCUMENTMODE"
 req.redist: 

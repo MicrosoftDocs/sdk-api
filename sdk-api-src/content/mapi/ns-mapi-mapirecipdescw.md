@@ -38,7 +38,6 @@ api_location:
  - Mapi.h
 api_name:
  - MapiRecipDescW
-product: Windows
 targetos: Windows
 req.typenames: MapiRecipDescW, *lpMapiRecipDescW
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_MOUNT_POINT_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: VDS_MOUNT_POINT_NOTIFICATION
 req.redist: 

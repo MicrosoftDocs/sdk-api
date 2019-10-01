@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_WMI_CYCLE_COUNT
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_CYCLE_COUNT, *PBATTERY_WMI_CYCLE_COUNT
 req.redist: 

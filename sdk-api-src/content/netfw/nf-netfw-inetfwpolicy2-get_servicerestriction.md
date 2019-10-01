@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwPolicy2.ServiceRestriction
  - INetFwPolicy2.get_ServiceRestriction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

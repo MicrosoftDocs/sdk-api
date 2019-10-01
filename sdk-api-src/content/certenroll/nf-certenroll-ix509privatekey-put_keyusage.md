@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.KeyUsage
  - IX509PrivateKey.get_KeyUsage
  - IX509PrivateKey.put_KeyUsage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

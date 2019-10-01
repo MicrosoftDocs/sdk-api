@@ -38,7 +38,6 @@ api_location:
  - Mmddk.h
 api_name:
  - JOYREGHWVALUES
-product: Windows
 targetos: Windows
 req.typenames: JOYREGHWVALUES, *LPJOYREGHWVALUES
 req.redist: 

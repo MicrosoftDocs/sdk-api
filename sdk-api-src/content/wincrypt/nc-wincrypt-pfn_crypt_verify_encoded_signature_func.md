@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

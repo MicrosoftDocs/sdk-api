@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
  - TraceMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

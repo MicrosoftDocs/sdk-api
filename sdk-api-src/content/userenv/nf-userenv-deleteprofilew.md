@@ -40,7 +40,6 @@ api_name:
  - DeleteProfile
  - DeleteProfileA
  - DeleteProfileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

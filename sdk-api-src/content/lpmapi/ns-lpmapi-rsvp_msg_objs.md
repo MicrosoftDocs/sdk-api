@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - RSVP_MSG_OBJS
-product: Windows
 targetos: Windows
 req.typenames: RSVP_MSG_OBJS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextDocument2.Range2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

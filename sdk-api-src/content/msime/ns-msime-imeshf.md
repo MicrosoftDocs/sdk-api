@@ -38,7 +38,6 @@ api_location:
  - Msime.h
 api_name:
  - IMESHF
-product: Windows
 targetos: Windows
 req.typenames: IMESHF
 req.redist: 

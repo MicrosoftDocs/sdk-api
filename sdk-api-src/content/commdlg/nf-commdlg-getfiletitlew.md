@@ -41,7 +41,6 @@ api_name:
  - GetFileTitle
  - GetFileTitleA
  - GetFileTitleW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

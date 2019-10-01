@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCertificate.Issuer
  - IX509CertificateRequestCertificate.get_Issuer
  - IX509CertificateRequestCertificate.put_Issuer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

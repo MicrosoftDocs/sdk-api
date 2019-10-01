@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PROPDESC_AGGREGATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PROPDESC_AGGREGATION_TYPE
 req.redist: 

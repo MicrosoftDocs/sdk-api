@@ -41,7 +41,6 @@ api_name:
  - WBEMTime.GetDMTFNonNtfs
  - ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ
  - ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

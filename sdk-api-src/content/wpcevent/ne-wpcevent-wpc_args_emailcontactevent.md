@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPC_ARGS_EMAILCONTACTEVENT
-product: Windows
 targetos: Windows
 req.typenames: WPC_ARGS_EMAILCONTACTEVENT
 req.redist: 

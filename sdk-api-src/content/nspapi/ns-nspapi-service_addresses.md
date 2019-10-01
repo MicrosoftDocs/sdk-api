@@ -38,7 +38,6 @@ api_location:
 - Nspapi.h
 api_name:
 - SERVICE_ADDRESSES
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
 req.redist: 

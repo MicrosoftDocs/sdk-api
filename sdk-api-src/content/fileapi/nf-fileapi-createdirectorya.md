@@ -47,7 +47,6 @@ api_name:
  - CreateDirectory
  - CreateDirectoryA
  - CreateDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

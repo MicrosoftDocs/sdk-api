@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyGroup.SwitchToForeground
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

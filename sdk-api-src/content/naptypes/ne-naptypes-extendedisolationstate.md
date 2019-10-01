@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - ExtendedIsolationState
-product: Windows
 targetos: Windows
 req.typenames: ExtendedIsolationState
 req.redist: 

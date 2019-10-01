@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - FINISH_MODE
-product: Windows
 targetos: Windows
 req.typenames: FINISH_MODE
 req.redist: 

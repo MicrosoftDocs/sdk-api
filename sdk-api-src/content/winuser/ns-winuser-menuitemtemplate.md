@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MENUITEMTEMPLATE
-product: Windows
 targetos: Windows
 req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
 req.redist: 

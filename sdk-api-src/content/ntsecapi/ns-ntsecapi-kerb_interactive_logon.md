@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_INTERACTIVE_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_LOGON, *PKERB_INTERACTIVE_LOGON
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - api-ms-win-core-memory-l1-1-4.dll
 api_name:
 - QueryVirtualMemoryInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

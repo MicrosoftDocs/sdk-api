@@ -38,7 +38,6 @@ api_location:
  - OleDlg.h
 api_name:
  - OLEUIPASTEFLAG
-product: Windows
 targetos: Windows
 req.typenames: OLEUIPASTEFLAG
 req.redist: 

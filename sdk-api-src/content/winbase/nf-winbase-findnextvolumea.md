@@ -49,7 +49,6 @@ api_name:
  - FindNextVolume
  - FindNextVolumeA
  - FindNextVolumeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

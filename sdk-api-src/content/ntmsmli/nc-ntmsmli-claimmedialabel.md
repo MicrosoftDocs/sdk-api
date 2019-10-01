@@ -38,7 +38,6 @@ api_location:
  - NtmsMli.h
 api_name:
  - ClaimMediaLabel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

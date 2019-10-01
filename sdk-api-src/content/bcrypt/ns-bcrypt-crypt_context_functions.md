@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - CRYPT_CONTEXT_FUNCTIONS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_FUNCTIONS, *PCRYPT_CONTEXT_FUNCTIONS
 req.redist: 

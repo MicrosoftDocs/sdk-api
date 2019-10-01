@@ -38,7 +38,6 @@ api_location:
  - ncrypt.dll
 api_name:
  - NCryptVerifyClaim
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

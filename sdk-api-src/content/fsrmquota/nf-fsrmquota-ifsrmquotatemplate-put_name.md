@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaTemplate.Name
  - IFsrmQuotaTemplate.get_Name
  - IFsrmQuotaTemplate.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

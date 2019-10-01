@@ -38,7 +38,6 @@ api_location:
 api_name:
  - IUIAutomationElement9.CurrentIsDialog
  - IUIAutomationElement9.get_CurrentIsDialog
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

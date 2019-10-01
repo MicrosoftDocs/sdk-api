@@ -38,7 +38,6 @@ api_location:
  - Wecapi.dll
 api_name:
  - EcDeleteSubscription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

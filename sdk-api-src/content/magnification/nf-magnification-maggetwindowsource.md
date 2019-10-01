@@ -38,7 +38,6 @@ api_location:
  - Magnification.dll
 api_name:
  - MagGetWindowSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

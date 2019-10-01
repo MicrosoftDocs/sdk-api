@@ -40,7 +40,6 @@ api_name:
  - AXESLIST
  - AXESLISTA
  - AXESLISTW
-product: Windows
 targetos: Windows
 req.typenames: AXESLISTW, *PAXESLISTW, *LPAXESLISTW
 req.redist: 

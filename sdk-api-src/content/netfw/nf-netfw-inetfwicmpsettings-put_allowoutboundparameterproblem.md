@@ -41,7 +41,6 @@ api_name:
  - INetFwIcmpSettings.AllowOutboundParameterProblem
  - INetFwIcmpSettings.get_AllowOutboundParameterProblem
  - INetFwIcmpSettings.put_AllowOutboundParameterProblem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

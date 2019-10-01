@@ -38,7 +38,6 @@ api_location:
 - Vds.h
 api_name:
 - VDS_PACK_STATUS
-product: Windows
 targetos: Windows
 req.typenames: VDS_PACK_STATUS
 req.redist: 

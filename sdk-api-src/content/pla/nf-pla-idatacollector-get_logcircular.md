@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.LogCircular
  - IDataCollector.get_LogCircular
  - IDataCollector.put_LogCircular
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

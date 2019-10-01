@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

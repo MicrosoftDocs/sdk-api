@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICDdsDimension
-product: Windows
 targetos: Windows
 req.typenames: WICDdsDimension
 req.redist: 

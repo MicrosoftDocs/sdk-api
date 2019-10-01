@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ROWSETEVENT_ITEMSTATE
-product: Windows
 targetos: Windows
 req.typenames: ROWSETEVENT_ITEMSTATE
 req.redist: 

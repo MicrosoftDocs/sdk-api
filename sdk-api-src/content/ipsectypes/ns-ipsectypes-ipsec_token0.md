@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_TOKEN0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_TOKEN0
 req.redist: 

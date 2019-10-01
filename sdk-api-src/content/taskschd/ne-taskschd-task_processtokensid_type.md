@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_PROCESSTOKENSID_TYPE
-product: Windows
 targetos: Windows
 req.typenames: TASK_PROCESSTOKENSID_TYPE
 req.redist: 

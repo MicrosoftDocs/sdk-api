@@ -40,7 +40,6 @@ api_name:
  - IUpdateServiceManager2.ClientApplicationID
  - IUpdateServiceManager2.get_ClientApplicationID
  - IUpdateServiceManager2.put_ClientApplicationID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

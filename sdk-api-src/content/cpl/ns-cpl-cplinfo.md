@@ -38,7 +38,6 @@ api_location:
  - Cpl.h
 api_name:
  - CPLINFO
-product: Windows
 targetos: Windows
 req.typenames: CPLINFO, *LPCPLINFO
 req.redist: 

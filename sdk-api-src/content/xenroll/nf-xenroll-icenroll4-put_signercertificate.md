@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.SignerCertificate
  - ICEnroll4.put_SignerCertificate
  - CEnroll.SignerCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

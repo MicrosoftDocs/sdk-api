@@ -40,7 +40,6 @@ api_name:
  - SetupQueryDrivesInDiskSpaceList
  - SetupQueryDrivesInDiskSpaceListA
  - SetupQueryDrivesInDiskSpaceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

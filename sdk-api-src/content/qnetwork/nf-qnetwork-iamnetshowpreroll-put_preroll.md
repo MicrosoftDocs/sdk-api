@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetShowPreroll.put_Preroll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

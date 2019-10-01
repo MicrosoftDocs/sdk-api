@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbSeriesDescriptor.GetProgramPattern
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

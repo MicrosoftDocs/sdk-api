@@ -40,7 +40,6 @@ api_name:
  - IManipulationProcessor.PivotPointY
  - IManipulationProcessor.get_PivotPointY
  - IManipulationProcessor.put_PivotPointY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

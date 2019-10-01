@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.dll
 api_name:
  - ID2D1Ink.GetBounds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

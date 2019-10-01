@@ -40,7 +40,6 @@ api_name:
 - OSVERSIONINFOEX
 - OSVERSIONINFOEXA
 - OSVERSIONINFOEXW
-product: Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOEXA, *POSVERSIONINFOEXA, *LPOSVERSIONINFOEXA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - LDAPControl
  - LDAPControlA
  - LDAPControlW
-product: Windows
 targetos: Windows
 req.typenames: LDAPControlW, *PLDAPControlW
 req.redist: 

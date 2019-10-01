@@ -38,7 +38,6 @@ api_location:
  - PhotoAcquire.h
 api_name:
  - ERROR_ADVISE_RESULT
-product: Windows
 targetos: Windows
 req.typenames: ERROR_ADVISE_RESULT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10V3.NameValuePairs
  - IX509CertificateRequestPkcs10V3.get_NameValuePairs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

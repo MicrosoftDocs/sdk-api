@@ -38,7 +38,6 @@ api_location:
  - mprapi.h
 api_name:
  - ROUTER_IKEv2_IF_CUSTOM_CONFIG0
-product: Windows
 targetos: Windows
 req.typenames: ROUTER_IKEv2_IF_CUSTOM_CONFIG0, *PROUTER_IKEv2_IF_CUSTOM_CONFIG0
 req.redist: 

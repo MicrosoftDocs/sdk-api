@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - XAUDIO2_PERFORMANCE_DATA
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_PERFORMANCE_DATA
 req.redist: 

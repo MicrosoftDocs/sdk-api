@@ -40,7 +40,6 @@ api_name:
  - IFsrmPipelineModuleDefinition.SupportedExtensions
  - IFsrmPipelineModuleDefinition.get_SupportedExtensions
  - IFsrmPipelineModuleDefinition.put_SupportedExtensions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

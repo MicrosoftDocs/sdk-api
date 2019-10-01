@@ -40,7 +40,6 @@ api_name:
  - ICatalogObject.Value
  - ICatalogObject.get_Value
  - ICatalogObject.put_Value
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

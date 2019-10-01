@@ -38,7 +38,6 @@ api_location:
  - fwpstypes.h
 api_name:
  - FWPS_ACTION0
-product: Windows
 targetos: Windows
 req.typenames: FWPS_ACTION0
 req.redist: 

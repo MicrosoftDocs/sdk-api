@@ -46,7 +46,6 @@ api_location:
  - MinUser.dll
 api_name:
  - DestroyCursor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

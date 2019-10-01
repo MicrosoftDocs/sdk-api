@@ -46,7 +46,6 @@ api_location:
  - kernel32.dll
 api_name:
  - RegCloseKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

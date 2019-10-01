@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - IMFSharingEngineClassFactory.CreateInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

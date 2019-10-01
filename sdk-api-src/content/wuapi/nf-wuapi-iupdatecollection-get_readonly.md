@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateCollection.ReadOnly
  - IUpdateCollection.get_ReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

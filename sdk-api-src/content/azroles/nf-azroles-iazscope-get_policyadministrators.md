@@ -40,7 +40,6 @@ api_name:
  - IAzScope.PolicyAdministrators
  - IAzScope.get_PolicyAdministrators
  - AzScope.PolicyAdministrators
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

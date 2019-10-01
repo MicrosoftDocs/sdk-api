@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.Author
  - IRegistrationInfo.get_Author
  - IRegistrationInfo.put_Author
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

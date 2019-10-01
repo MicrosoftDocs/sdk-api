@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Left
  - IPenInputPanel.get_Left
  - PenInputPanel.get_Left
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

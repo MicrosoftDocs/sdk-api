@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDOPENVIDEOPORTIN
-product: Windows
 targetos: Windows
 req.typenames: DDOPENVIDEOPORTIN, *LPDDOPENVIDEOPORTIN
 req.redist: 

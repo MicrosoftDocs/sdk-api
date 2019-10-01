@@ -38,7 +38,6 @@ api_location:
 - Clfs.h
 api_name:
 - CLFS_IO_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
 req.redist: 

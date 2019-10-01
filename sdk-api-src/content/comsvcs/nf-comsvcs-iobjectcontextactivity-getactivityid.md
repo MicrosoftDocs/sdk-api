@@ -38,7 +38,6 @@ api_location:
  - comsvcs.h
 api_name:
  - IObjectContextActivity.GetActivityId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

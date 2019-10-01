@@ -38,7 +38,6 @@ api_location:
  - tokenbinding.h
 api_name:
  - TOKENBINDING_KEY_TYPES
-product: Windows
 targetos: Windows
 req.typenames: TOKENBINDING_KEY_TYPES
 req.redist: 

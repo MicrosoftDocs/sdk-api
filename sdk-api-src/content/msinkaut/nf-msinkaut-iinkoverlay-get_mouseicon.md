@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_MouseIcon
  - InkOverlay.get_MouseIcon
  - InkOverlay.put_MouseIcon
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

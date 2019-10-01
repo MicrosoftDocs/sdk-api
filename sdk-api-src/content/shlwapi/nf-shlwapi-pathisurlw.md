@@ -44,7 +44,6 @@ api_name:
  - PathIsURL
  - PathIsURLA
  - PathIsURLW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

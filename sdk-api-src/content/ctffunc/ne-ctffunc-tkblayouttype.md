@@ -38,7 +38,6 @@ api_location:
  - Ctffunc.h
 api_name:
  - TKBLayoutType
-product: Windows
 targetos: Windows
 req.typenames: TKBLayoutType
 req.redist: 

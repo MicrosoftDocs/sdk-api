@@ -38,7 +38,6 @@ api_location:
  - cluadmex.h
 api_name:
  - IWEExtendWizard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

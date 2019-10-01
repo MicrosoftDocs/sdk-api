@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - IN_ADDR_IPV6
-product: Windows
 targetos: Windows
 req.typenames: IN_ADDR_IPV6, *LPIN_ADDR_IPV6
 req.redist: 

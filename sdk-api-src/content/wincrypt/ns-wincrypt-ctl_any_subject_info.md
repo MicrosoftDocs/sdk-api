@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CTL_ANY_SUBJECT_INFO
-product: Windows
 targetos: Windows
 req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
 req.redist: 

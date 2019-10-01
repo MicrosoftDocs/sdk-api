@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmReportScheduler.ModifyScheduleTask
  - FsrmReportScheduler.ModifyScheduleTask
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - PurgeComm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

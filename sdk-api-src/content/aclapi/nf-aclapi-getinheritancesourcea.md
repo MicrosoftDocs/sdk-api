@@ -40,7 +40,6 @@ api_name:
  - GetInheritanceSource
  - GetInheritanceSourceA
  - GetInheritanceSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

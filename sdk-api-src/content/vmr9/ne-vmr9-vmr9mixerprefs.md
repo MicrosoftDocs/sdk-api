@@ -38,7 +38,6 @@ api_location:
  - Vmr9.h
 api_name:
  - VMR9MixerPrefs
-product: Windows
 targetos: Windows
 req.typenames: VMR9MixerPrefs
 req.redist: 

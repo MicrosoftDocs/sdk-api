@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - MFASF_STREAMSELECTOR_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFASF_STREAMSELECTOR_FLAGS
 req.redist: 

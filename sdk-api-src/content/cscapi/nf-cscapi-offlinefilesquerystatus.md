@@ -38,7 +38,6 @@ api_location:
  - CscApi.dll
 api_name:
  - OfflineFilesQueryStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

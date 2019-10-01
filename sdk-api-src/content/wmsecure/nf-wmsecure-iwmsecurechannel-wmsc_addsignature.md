@@ -38,7 +38,6 @@ api_location:
  - Wmsecure.h
 api_name:
  - IWMSecureChannel.WMSC_AddSignature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

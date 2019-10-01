@@ -40,7 +40,6 @@ api_name:
  - POLYTEXT
  - POLYTEXTA
  - POLYTEXTW
-product: Windows
 targetos: Windows
 req.typenames: POLYTEXTW, *PPOLYTEXTW, *NPPOLYTEXTW, *LPPOLYTEXTW
 req.redist: 

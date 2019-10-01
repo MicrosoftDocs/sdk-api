@@ -38,7 +38,6 @@ api_location:
  - thumbnailstreamcache.h
 api_name:
  - IThumbnailStreamCache
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

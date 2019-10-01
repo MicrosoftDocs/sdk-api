@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationDockPattern.CachedDockPosition
  - IUIAutomationDockPattern.get_CachedDockPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

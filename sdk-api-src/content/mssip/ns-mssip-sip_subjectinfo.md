@@ -38,7 +38,6 @@ api_location:
 - Mssip.h
 api_name:
 - SIP_SUBJECTINFO
-product: Windows
 targetos: Windows
 req.typenames: SIP_SUBJECTINFO, *LPSIP_SUBJECTINFO
 req.redist: 

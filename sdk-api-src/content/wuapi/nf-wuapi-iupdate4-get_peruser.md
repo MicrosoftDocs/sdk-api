@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate4.PerUser
  - IUpdate4.get_PerUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

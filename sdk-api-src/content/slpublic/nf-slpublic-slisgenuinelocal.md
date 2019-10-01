@@ -38,7 +38,6 @@ api_location:
 - Slwga.dll
 api_name:
 - SLIsGenuineLocal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

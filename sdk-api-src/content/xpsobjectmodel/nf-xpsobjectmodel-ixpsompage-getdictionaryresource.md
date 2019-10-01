@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMPage.GetDictionaryResource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

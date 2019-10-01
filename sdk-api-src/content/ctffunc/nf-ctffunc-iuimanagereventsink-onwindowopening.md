@@ -38,7 +38,6 @@ api_location:
  - Ctffunc.h
 api_name:
  - IUIManagerEventSink.OnWindowOpening
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

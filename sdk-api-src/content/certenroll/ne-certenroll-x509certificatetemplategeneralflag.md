@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - X509CertificateTemplateGeneralFlag
-product: Windows
 targetos: Windows
 req.typenames: X509CertificateTemplateGeneralFlag
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Dhcpcsvc.dll
 api_name:
 - McastRequestAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

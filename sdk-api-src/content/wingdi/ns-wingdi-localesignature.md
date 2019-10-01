@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LOCALESIGNATURE
-product: Windows
 targetos: Windows
 req.typenames: LOCALESIGNATURE, *PLOCALESIGNATURE, *LPLOCALESIGNATURE
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IWebBrowser2.HWND
  - IWebBrowser2.get_HWND
  - IWebBrowser2.get_HWND
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

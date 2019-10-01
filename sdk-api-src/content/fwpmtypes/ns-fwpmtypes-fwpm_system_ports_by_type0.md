@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_SYSTEM_PORTS_BY_TYPE0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_SYSTEM_PORTS_BY_TYPE0
 req.redist: 

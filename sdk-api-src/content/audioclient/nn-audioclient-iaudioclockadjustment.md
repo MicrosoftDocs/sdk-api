@@ -38,7 +38,6 @@ api_location:
  - audioclient.h
 api_name:
  - IAudioClockAdjustment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

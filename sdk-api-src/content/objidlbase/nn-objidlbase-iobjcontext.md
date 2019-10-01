@@ -45,7 +45,6 @@ api_name:
  - IObjContext.Reserved5
  - IObjContext.Reserved6
  - IObjContext.Reserved7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACCESS_DENIED_OBJECT_ACE
-product: Windows
 targetos: Windows
 req.typenames: ACCESS_DENIED_OBJECT_ACE, *PACCESS_DENIED_OBJECT_ACE
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - RegSetKeyValue
  - RegSetKeyValueA
  - RegSetKeyValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

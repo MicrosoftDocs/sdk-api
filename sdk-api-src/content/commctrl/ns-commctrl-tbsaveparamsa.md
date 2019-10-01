@@ -40,7 +40,6 @@ api_name:
  - TBSAVEPARAMS
  - TBSAVEPARAMSA
  - TBSAVEPARAMSW
-product: Windows
 targetos: Windows
 req.typenames: TBSAVEPARAMSA, *LPTBSAVEPARAMSA
 req.redist: 

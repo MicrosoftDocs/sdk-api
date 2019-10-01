@@ -38,7 +38,6 @@ api_location:
  - Wabdefs.h
 api_name:
  - ENTRYID
-product: Windows
 targetos: Windows
 req.typenames: ENTRYID, *LPENTRYID
 req.redist: 

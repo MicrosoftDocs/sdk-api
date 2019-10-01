@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.GetRevocationReason
  - ICertAdmin.GetRevocationReason
  - CCertAdmin.GetRevocationReason
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

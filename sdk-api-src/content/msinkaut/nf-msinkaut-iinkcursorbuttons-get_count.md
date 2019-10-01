@@ -41,7 +41,6 @@ api_name:
  - IInkCursorButtons.Count
  - IInkCursorButtons.get_Count
  - IInkCursorButtons.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

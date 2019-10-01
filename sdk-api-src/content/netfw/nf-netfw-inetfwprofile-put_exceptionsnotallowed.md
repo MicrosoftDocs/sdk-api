@@ -41,7 +41,6 @@ api_name:
  - INetFwProfile.ExceptionsNotAllowed
  - INetFwProfile.get_ExceptionsNotAllowed
  - INetFwProfile.put_ExceptionsNotAllowed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

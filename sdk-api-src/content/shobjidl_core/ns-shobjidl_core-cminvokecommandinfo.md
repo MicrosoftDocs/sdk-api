@@ -38,7 +38,6 @@ api_location:
 - Shobjidl_core.h
 api_name:
 - CMINVOKECOMMANDINFO
-product: Windows
 targetos: Windows
 req.typenames: CMINVOKECOMMANDINFO
 req.redist: 

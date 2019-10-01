@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IMDSPStorage.GetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

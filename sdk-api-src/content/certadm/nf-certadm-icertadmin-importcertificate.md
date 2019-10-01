@@ -40,7 +40,6 @@ api_name:
  - ICertAdmin2.ImportCertificate
  - ICertAdmin.ImportCertificate
  - CCertAdmin.ImportCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

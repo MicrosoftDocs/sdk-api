@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgTextCdma.Status
  - IMbnSmsReadMsgTextCdma.get_Status
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - IDirectDraw7.Compact
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

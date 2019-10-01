@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_SelLength
  - InkEdit.get_SelLength
  - InkEdit.put_SelLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

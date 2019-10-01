@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmSetting.SetActionRunLimitInterval
 - FsrmSetting.SetActionRunLimitInterval
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

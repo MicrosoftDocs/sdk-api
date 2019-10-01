@@ -40,7 +40,6 @@ api_name:
  - IX509EnrollmentStatus.Selected
  - IX509EnrollmentStatus.get_Selected
  - IX509EnrollmentStatus.put_Selected
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

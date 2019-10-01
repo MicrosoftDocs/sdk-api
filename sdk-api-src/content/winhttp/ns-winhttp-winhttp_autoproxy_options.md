@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - WINHTTP_AUTOPROXY_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_AUTOPROXY_OPTIONS
 req.redist: 

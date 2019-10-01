@@ -40,7 +40,6 @@ api_name:
 - SetupScanFileQueue
 - SetupScanFileQueueA
 - SetupScanFileQueueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

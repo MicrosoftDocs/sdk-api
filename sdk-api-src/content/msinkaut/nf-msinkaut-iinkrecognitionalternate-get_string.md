@@ -41,7 +41,6 @@ api_name:
  - IInkRecognitionAlternate.String
  - IInkRecognitionAlternate.get_String
  - IInkRecognitionAlternate.get_String
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

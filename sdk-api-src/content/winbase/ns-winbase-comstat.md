@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - COMSTAT
-product: Windows
 targetos: Windows
 req.typenames: COMSTAT, *LPCOMSTAT
 req.redist: 

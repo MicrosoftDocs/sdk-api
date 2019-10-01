@@ -38,7 +38,6 @@ api_location:
  - Fwpuclnt.dll
 api_name:
  - IkeextSaEnum2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

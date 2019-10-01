@@ -40,7 +40,6 @@ api_name:
 - ITaskSettings.MultipleInstances
 - ITaskSettings.get_MultipleInstances
 - ITaskSettings.put_MultipleInstances
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Davclnt.h
 api_name:
 - DAV_CALLBACK_CRED
-product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
 req.redist: 

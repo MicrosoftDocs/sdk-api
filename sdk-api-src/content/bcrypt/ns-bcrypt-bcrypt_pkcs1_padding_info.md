@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_PKCS1_PADDING_INFO
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_PKCS1_PADDING_INFO
 req.redist: 

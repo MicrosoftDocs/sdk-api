@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - TYPE1_FONT
-product: Windows
 targetos: Windows
 req.typenames: TYPE1_FONT
 req.redist: 

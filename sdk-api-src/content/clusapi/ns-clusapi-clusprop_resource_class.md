@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_RESOURCE_CLASS
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_RESOURCE_CLASS, *PCLUSPROP_RESOURCE_CLASS
 req.redist: 

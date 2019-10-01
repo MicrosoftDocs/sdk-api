@@ -40,7 +40,6 @@ api_name:
  - VALENT
  - VALENTA
  - VALENTW
-product: Windows
 targetos: Windows
 req.typenames: VALENTA, *PVALENTA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_OBJECT_INFO
-product: Windows
 targetos: Windows
 req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - tom.h
 api_name:
  - ITextStory.GetIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

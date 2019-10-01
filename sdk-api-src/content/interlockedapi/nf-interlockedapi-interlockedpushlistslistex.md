@@ -41,7 +41,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - InterlockedPushListSListEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

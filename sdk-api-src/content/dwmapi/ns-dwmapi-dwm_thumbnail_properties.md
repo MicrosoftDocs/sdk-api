@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWM_THUMBNAIL_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: DWM_THUMBNAIL_PROPERTIES, *PDWM_THUMBNAIL_PROPERTIES
 req.redist: 

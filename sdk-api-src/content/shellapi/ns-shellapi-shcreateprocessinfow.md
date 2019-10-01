@@ -38,7 +38,6 @@ api_location:
 - Shellapi.h
 api_name:
 - SHCREATEPROCESSINFOW
-product: Windows
 targetos: Windows
 req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_GROUP_AUTOFAILBACK_TYPE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_GROUP_AUTOFAILBACK_TYPE, CGAFT
 req.redist: 

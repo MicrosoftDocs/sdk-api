@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - RID_DEVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: RID_DEVICE_INFO, *PRID_DEVICE_INFO, *LPRID_DEVICE_INFO
 req.redist: 

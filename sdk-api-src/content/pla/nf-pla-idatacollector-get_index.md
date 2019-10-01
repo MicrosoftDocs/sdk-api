@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollector.Index
  - IDataCollector.get_Index
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

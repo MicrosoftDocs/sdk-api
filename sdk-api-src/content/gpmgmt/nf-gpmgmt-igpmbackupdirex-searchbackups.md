@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMBackupDirEx.SearchBackups
  - GPMBackupDirEx.SearchBackups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

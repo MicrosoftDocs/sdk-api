@@ -38,7 +38,6 @@ api_location:
  - WTypes.h
 api_name:
  - VARENUM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

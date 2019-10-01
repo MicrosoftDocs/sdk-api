@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_TOPOLOGY_ID
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TOPOLOGY_ID
 req.redist: 

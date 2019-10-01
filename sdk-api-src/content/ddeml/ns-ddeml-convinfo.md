@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - CONVINFO
-product: Windows
 targetos: Windows
 req.typenames: CONVINFO, *PCONVINFO
 req.redist: 

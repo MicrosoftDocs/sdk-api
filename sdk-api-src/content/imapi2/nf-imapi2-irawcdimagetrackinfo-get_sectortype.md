@@ -38,7 +38,6 @@ api_location:
 - imapi2.h
 api_name:
 - IRawCDImageTrackInfo.get_SectorType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

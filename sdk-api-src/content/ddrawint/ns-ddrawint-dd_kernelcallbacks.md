@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_KERNELCALLBACKS
-product: Windows
 targetos: Windows
 req.typenames: DD_KERNELCALLBACKS, *PDD_KERNELCALLBACKS
 req.redist: 

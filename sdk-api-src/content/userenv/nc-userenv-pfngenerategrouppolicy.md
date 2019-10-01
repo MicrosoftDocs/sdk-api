@@ -38,7 +38,6 @@ api_location:
 - Userenv.h
 api_name:
 - PFNGENERATEGROUPPOLICY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

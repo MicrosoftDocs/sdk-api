@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdQueryDisplaySettingsUniqueness
  - GdiEntry13
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

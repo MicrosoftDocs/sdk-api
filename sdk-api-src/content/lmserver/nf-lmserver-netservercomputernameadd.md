@@ -38,7 +38,6 @@ api_location:
  - Netapi32.dll
 api_name:
  - NetServerComputerNameAdd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

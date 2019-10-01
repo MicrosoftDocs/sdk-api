@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICoreWindowInterop.WindowHandle
  - ICoreWindowInterop.get_WindowHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

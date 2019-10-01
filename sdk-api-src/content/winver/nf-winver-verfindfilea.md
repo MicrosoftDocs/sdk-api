@@ -46,7 +46,6 @@ api_name:
  - VerFindFile
  - VerFindFileA
  - VerFindFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

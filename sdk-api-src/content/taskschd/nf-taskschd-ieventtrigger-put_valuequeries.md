@@ -40,7 +40,6 @@ api_name:
  - IEventTrigger.ValueQueries
  - IEventTrigger.get_ValueQueries
  - IEventTrigger.put_ValueQueries
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

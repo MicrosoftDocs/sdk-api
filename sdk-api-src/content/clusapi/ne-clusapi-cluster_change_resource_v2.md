@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLUSTER_CHANGE_RESOURCE_V2
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_RESOURCE_V2
 req.redist: 

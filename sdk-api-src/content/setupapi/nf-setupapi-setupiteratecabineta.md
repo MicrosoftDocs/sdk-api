@@ -42,7 +42,6 @@ api_name:
  - SetupIterateCabinet
  - SetupIterateCabinetA
  - SetupIterateCabinetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

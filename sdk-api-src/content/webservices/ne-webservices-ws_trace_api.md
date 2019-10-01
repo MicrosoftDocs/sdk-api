@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_TRACE_API
-product: Windows
 targetos: Windows
 req.typenames: WS_TRACE_API
 req.redist: 

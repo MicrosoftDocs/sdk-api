@@ -38,7 +38,6 @@ api_location:
  - Azroles.dll
 api_name:
  - IAzScopes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

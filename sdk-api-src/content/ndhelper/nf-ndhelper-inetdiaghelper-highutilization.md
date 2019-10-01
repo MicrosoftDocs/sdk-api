@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - INetDiagHelper.HighUtilization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

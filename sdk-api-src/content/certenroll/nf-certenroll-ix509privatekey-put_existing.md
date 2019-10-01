@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.Existing
  - IX509PrivateKey.get_Existing
  - IX509PrivateKey.put_Existing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

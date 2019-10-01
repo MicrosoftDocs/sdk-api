@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - ListView_GetNumberOfWorkAreas
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

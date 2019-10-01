@@ -38,7 +38,6 @@ api_location:
  - VsBackup.h
 api_name:
  - IVssExamineWriterMetadataEx2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

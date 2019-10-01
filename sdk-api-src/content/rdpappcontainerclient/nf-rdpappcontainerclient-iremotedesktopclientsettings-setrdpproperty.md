@@ -38,7 +38,6 @@ api_location:
  - MsTscAx.dll
 api_name:
  - IRemoteDesktopClientSettings.SetRdpProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

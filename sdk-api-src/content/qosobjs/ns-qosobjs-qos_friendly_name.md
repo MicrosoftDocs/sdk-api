@@ -38,7 +38,6 @@ api_location:
 - QosObjs.h
 api_name:
 - QOS_FRIENDLY_NAME
-product: Windows
 targetos: Windows
 req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ws2def.h
 api_name:
  - SOCKADDR_IN
-product: Windows
 targetos: Windows
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
 req.redist: 

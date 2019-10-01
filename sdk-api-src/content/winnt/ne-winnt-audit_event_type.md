@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - AUDIT_EVENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: AUDIT_EVENT_TYPE, *PAUDIT_EVENT_TYPE
 req.redist: 

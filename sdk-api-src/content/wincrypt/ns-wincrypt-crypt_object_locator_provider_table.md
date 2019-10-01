@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, *PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 req.redist: 

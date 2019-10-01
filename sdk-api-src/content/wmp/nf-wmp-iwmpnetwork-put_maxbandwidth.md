@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPNetwork.put_maxBandwidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

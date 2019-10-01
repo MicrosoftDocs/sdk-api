@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IFileSystemImageResult2.get_ModifiedBlocks
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

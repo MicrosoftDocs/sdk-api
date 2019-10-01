@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_BOOTP_IP_RANGE
-product: Windows
 targetos: Windows
 req.typenames: DHCP_BOOTP_IP_RANGE, *LPDHCP_BOOT_IP_RANGE
 req.redist: 

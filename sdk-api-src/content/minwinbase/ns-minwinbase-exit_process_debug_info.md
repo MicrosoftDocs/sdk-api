@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - EXIT_PROCESS_DEBUG_INFO
-product: Windows
 targetos: Windows
 req.typenames: EXIT_PROCESS_DEBUG_INFO, *LPEXIT_PROCESS_DEBUG_INFO
 req.redist: 

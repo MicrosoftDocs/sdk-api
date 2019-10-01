@@ -38,7 +38,6 @@ api_location:
  - fci.h
 api_name:
  - FNFCIDELETE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

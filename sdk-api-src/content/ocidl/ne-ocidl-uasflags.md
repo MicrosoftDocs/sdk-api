@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - UASFLAGS
-product: Windows
 targetos: Windows
 req.typenames: UASFLAGS
 req.redist: 

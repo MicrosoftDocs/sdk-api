@@ -38,7 +38,6 @@ api_location:
  - Dmusics.h
 api_name:
  - IDirectMusicSynth8.PlayVoice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

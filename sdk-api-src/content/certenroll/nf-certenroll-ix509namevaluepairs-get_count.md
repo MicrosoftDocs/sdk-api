@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509NameValuePairs.Count
  - IX509NameValuePairs.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

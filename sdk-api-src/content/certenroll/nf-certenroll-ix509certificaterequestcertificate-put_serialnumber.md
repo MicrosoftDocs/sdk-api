@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCertificate.SerialNumber
  - IX509CertificateRequestCertificate.get_SerialNumber
  - IX509CertificateRequestCertificate.put_SerialNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

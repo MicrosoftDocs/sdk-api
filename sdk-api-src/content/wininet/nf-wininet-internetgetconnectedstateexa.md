@@ -40,7 +40,6 @@ api_name:
  - InternetGetConnectedStateEx
  - InternetGetConnectedStateExA
  - InternetGetConnectedStateExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

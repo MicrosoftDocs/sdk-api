@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.ClearWorkspaceCredential
  - IWorkspaceScriptable3.ClearWorkspaceCredential
  - Workspace.ClearWorkspaceCredential
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

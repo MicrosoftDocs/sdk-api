@@ -40,7 +40,6 @@ api_name:
  - DsServerRegisterSpn
  - DsServerRegisterSpnA
  - DsServerRegisterSpnW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

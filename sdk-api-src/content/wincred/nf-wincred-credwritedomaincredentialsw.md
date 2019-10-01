@@ -44,7 +44,6 @@ api_name:
 - CredWriteDomainCredentials
 - CredWriteDomainCredentialsA
 - CredWriteDomainCredentialsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

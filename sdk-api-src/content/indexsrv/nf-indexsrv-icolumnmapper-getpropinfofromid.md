@@ -38,7 +38,6 @@ api_location:
  - indexsrv.h
 api_name:
  - IColumnMapper.GetPropInfoFromId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

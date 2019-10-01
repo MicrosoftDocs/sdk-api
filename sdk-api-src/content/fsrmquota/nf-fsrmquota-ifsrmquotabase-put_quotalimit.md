@@ -40,7 +40,6 @@ api_name:
  - IFsrmQuotaBase.QuotaLimit
  - IFsrmQuotaBase.get_QuotaLimit
  - IFsrmQuotaBase.put_QuotaLimit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

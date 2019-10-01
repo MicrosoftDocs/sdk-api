@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_TOPONODE_DRAIN_MODE
-product: Windows
 targetos: Windows
 req.typenames: MF_TOPONODE_DRAIN_MODE
 req.redist: 

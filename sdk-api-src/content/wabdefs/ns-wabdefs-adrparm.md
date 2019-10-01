@@ -38,7 +38,6 @@ api_location:
 - Wabdefs.h
 api_name:
 - ADRPARM
-product: Windows
 targetos: Windows
 req.typenames: ADRPARM, *LPADRPARM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Tcpmib.h
 api_name:
 - MIB_TCPROW2
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCPROW2, *PMIB_TCPROW2
 req.redist: 

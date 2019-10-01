@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.h
 api_name:
  - IUIAutomationTextPattern2.GetCaretRange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

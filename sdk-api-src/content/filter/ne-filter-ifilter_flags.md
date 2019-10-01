@@ -38,7 +38,6 @@ api_location:
  - Filter.h
 api_name:
  - IFILTER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: IFILTER_FLAGS
 req.redist: 

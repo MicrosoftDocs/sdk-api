@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.ReconfigStream
  - IWMProfile2.ReconfigStream
  - IWMProfile3.ReconfigStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

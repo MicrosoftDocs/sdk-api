@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSetCollection._NewEnum
  - IDataCollectorSetCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

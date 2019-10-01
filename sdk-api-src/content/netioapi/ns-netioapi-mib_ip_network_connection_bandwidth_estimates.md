@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
-product: Windows
 targetos: Windows
 req.typenames: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, *PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 req.redist: 

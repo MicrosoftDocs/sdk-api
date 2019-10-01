@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_MESSAGE_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
 req.redist: 

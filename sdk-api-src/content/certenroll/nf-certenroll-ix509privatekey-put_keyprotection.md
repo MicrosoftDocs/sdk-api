@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.KeyProtection
  - IX509PrivateKey.get_KeyProtection
  - IX509PrivateKey.put_KeyProtection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

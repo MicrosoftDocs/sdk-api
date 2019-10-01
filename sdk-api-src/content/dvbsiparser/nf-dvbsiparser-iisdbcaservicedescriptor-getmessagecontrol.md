@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbCAServiceDescriptor.GetMessageControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

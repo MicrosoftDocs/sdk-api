@@ -38,7 +38,6 @@ api_location:
  - d2d1effects_2.h
 api_name:
  - D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
-product: Windows
 targetos: Windows
 req.typenames: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 req.redist: 

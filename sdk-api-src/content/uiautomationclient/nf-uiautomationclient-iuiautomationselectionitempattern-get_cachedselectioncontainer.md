@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationSelectionItemPattern.CachedSelectionContainer
  - IUIAutomationSelectionItemPattern.get_CachedSelectionContainer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

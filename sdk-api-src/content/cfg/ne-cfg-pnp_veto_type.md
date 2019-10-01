@@ -38,7 +38,6 @@ api_location:
  - cfg.h
 api_name:
  - PNP_VETO_TYPE
-product: Windows
 targetos: Windows
 req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
 req.redist: 

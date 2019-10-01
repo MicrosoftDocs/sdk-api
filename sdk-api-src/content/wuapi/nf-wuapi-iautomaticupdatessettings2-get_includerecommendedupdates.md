@@ -40,7 +40,6 @@ api_name:
  - IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
  - IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
  - IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

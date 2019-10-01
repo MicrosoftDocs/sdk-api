@@ -40,7 +40,6 @@ api_name:
  - SetupQueryFileLog
  - SetupQueryFileLogA
  - SetupQueryFileLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

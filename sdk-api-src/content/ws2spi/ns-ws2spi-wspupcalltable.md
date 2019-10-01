@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WSPUPCALLTABLE
-product: Windows
 targetos: Windows
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 req.redist: 

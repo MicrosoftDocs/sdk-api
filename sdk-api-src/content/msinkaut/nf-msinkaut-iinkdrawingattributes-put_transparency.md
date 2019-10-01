@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_Transparency
  - InkDrawingAttributes.get_Transparency
  - InkDrawingAttributes.put_Transparency
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

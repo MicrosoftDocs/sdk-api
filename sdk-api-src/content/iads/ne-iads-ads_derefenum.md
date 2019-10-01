@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_DEREFENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_DEREFENUM
 req.redist: 

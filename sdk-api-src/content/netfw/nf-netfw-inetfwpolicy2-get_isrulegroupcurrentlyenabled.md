@@ -38,7 +38,6 @@ api_location:
  - FirewallAPI.dll
 api_name:
  - INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

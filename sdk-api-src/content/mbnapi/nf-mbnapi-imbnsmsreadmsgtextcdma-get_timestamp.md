@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgTextCdma.Timestamp
  - IMbnSmsReadMsgTextCdma.get_Timestamp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

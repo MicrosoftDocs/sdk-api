@@ -38,7 +38,6 @@ api_location:
  - DXGI.h
 api_name:
  - DXGI_RESIDENCY
-product: Windows
 targetos: Windows
 req.typenames: DXGI_RESIDENCY
 req.redist: 

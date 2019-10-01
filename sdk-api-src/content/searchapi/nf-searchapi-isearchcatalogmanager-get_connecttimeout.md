@@ -38,7 +38,6 @@ api_location:
 - Searchapi.h
 api_name:
 - ISearchCatalogManager.get_ConnectTimeout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

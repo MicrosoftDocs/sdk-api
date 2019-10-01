@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_CONTROL
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_CONTROL, *PTOKEN_CONTROL
 req.redist: 

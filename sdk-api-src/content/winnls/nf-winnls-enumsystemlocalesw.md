@@ -47,7 +47,6 @@ api_name:
  - EnumSystemLocales
  - EnumSystemLocalesA
  - EnumSystemLocalesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

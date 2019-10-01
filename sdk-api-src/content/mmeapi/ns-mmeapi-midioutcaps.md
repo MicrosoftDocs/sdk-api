@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDIOUTCAPS
-product: Windows
 targetos: Windows
 req.typenames: MIDIOUTCAPS, *PMIDIOUTCAPS, *NPMIDIOUTCAPS, *LPMIDIOUTCAPS
 req.redist: 

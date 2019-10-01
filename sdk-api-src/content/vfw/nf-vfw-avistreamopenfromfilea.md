@@ -40,7 +40,6 @@ api_name:
  - AVIStreamOpenFromFile
  - AVIStreamOpenFromFileA
  - AVIStreamOpenFromFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_LISTENER
-product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_LISTENER, *LPX3DAUDIO_LISTENER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWMWINDOWATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

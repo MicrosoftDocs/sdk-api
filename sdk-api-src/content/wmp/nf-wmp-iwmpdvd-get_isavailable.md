@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPDVD.get_isAvailable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

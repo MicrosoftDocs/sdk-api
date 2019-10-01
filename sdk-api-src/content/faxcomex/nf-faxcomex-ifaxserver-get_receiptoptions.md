@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.ReceiptOptions
  - IFaxServer.get_ReceiptOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcSsEnableAllocate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

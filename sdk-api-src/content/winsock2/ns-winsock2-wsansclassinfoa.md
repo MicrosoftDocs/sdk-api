@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - WSANSCLASSINFO
-product: Windows
 targetos: Windows
 req.typenames: WSANSCLASSINFOA, *PWSANSCLASSINFOA, *LPWSANSCLASSINFOA
 req.redist: 

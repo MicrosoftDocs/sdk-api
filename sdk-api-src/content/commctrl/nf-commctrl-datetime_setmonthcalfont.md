@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - DateTime_SetMonthCalFont
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

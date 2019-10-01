@@ -38,7 +38,6 @@ api_location:
  - FsrmEnums.h
 api_name:
  - AdrClientErrorType
-product: Windows
 targetos: Windows
 req.typenames: AdrClientErrorType
 req.redist: 

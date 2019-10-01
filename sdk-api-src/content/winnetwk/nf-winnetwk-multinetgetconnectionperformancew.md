@@ -40,7 +40,6 @@ api_name:
  - MultinetGetConnectionPerformance
  - MultinetGetConnectionPerformanceA
  - MultinetGetConnectionPerformanceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

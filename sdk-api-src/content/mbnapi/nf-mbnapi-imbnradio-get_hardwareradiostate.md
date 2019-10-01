@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnRadio.HardwareRadioState
  - IMbnRadio.get_HardwareRadioState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

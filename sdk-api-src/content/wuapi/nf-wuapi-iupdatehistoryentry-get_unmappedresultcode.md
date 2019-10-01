@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateHistoryEntry.UnmappedResultCode
  - IUpdateHistoryEntry.get_UnmappedResultCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winstring.h
 api_name:
  - PINSPECT_HSTRING_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

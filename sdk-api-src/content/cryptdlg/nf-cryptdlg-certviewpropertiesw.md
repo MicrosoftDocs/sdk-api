@@ -40,7 +40,6 @@ api_name:
  - CertViewProperties
  - CertViewPropertiesA
  - CertViewPropertiesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

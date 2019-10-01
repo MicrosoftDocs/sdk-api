@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - LIFE_TIME, *PLIFE_TIME
-product: Windows
 targetos: Windows
 req.typenames: LIFE_TIME, *PLIFE_TIME
 req.redist: 

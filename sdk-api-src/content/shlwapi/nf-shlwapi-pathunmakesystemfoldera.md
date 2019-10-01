@@ -40,7 +40,6 @@ api_name:
  - PathUnmakeSystemFolder
  - PathUnmakeSystemFolderA
  - PathUnmakeSystemFolderW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

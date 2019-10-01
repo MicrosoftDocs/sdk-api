@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IResultData.Sort
  - IResultData2.Sort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - USN_JOURNAL_DATA_V2
-product: Windows
 targetos: Windows
 req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
 req.redist: 

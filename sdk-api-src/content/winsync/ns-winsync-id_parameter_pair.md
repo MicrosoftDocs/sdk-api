@@ -38,7 +38,6 @@ api_location:
 - winsync.h
 api_name:
 - ID_PARAMETER_PAIR
-product: Windows
 targetos: Windows
 req.typenames: ID_PARAMETER_PAIR
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings.NetworkSettings
  - ITaskSettings.get_NetworkSettings
  - ITaskSettings.put_NetworkSettings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

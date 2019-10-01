@@ -42,7 +42,6 @@ api_location:
 api_name:
  - DdGetDC
  - GdiEntry7
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

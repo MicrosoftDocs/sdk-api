@@ -40,7 +40,6 @@ api_name:
  - IGPMWMIFilterCollection.Count
  - IGPMWMIFilterCollection.get_Count
  - GPMWMIFilterCollection.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

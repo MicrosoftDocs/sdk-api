@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIJOYTYPEINFO, *LPDIJOYTYPEINFO
-product: Windows
 targetos: Windows
 req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_ROI_POOLING_OPERATOR_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

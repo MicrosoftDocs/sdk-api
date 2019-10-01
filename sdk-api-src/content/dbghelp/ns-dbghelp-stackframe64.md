@@ -39,7 +39,6 @@ api_location:
 api_name:
 - STACKFRAME64
 - STACKFRAME
-product: Windows
 targetos: Windows
 req.typenames: STACKFRAME64, *LPSTACKFRAME64
 req.redist: DbgHelp.dll 5.1 or later

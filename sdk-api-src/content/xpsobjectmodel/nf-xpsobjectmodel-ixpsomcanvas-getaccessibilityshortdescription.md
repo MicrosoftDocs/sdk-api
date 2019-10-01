@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMCanvas.GetAccessibilityShortDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

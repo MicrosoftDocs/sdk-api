@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - IOCTL_STORAGE_EJECT_MEDIA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

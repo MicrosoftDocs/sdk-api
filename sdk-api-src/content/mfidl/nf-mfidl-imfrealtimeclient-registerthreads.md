@@ -39,7 +39,6 @@ api_location:
  - mfuuid.dll
 api_name:
  - IMFRealTimeClient.RegisterThreads
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

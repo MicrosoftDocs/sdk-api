@@ -42,7 +42,6 @@ api_name:
  - IStrokeBuilder.put_Ink
  - IStrokeBuilder.get_Ink
  - IStrokeBuilder.put_Ink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

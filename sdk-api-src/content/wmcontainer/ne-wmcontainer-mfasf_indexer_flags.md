@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - MFASF_INDEXER_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFASF_INDEXER_FLAGS
 req.redist: 

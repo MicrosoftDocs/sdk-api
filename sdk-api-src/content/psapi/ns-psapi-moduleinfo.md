@@ -38,7 +38,6 @@ api_location:
  - Psapi.h
 api_name:
  - MODULEINFO
-product: Windows
 targetos: Windows
 req.typenames: MODULEINFO, *LPMODULEINFO
 req.redist: 

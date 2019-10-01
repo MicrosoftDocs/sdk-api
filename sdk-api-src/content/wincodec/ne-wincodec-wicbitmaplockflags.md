@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapLockFlags
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapLockFlags
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Rpcdce.h
 api_name:
  - UUID_VECTOR
-product: Windows
 targetos: Windows
 req.typenames: UUID_VECTOR
 req.redist: 

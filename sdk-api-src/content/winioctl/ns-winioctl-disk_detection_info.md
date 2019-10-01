@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DISK_DETECTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
 req.redist: 

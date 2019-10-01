@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_IPNET_TABLE2
-product: Windows
 targetos: Windows
 req.typenames: MIB_IPNET_TABLE2, *PMIB_IPNET_TABLE2
 req.redist: 

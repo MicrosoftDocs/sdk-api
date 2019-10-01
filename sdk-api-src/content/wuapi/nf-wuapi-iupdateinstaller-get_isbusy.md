@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateInstaller.IsBusy
  - IUpdateInstaller.get_IsBusy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

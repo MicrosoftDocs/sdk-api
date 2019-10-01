@@ -46,7 +46,6 @@ api_location:
  - MinUser.dll
 api_name:
  - GetCursor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

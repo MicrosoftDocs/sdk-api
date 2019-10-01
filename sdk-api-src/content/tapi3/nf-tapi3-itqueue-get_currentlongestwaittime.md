@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - ITQueue.get_CurrentLongestWaitTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

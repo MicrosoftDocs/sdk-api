@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.MaxKeyContainerNameLength
  - ICspInformation.get_MaxKeyContainerNameLength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

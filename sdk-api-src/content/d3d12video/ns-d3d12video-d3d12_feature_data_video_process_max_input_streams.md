@@ -31,7 +31,6 @@ api_location:
  - d3d12video.h
 api_name: 
  - D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
-product: Windows
 targetos: Windows
 ---
 

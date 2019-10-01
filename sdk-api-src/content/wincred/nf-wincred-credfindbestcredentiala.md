@@ -43,7 +43,6 @@ api_name:
 - CredFindBestCredential
 - CredFindBestCredentialA
 - CredFindBestCredentialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - FaceRectInfoBlobHeader
-product: Windows
 targetos: Windows
 req.typenames: FaceRectInfoBlobHeader
 req.redist: 

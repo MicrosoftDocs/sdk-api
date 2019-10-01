@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement3.CachedIsPeripheral
  - IUIAutomationElement3.get_CachedIsPeripheral
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

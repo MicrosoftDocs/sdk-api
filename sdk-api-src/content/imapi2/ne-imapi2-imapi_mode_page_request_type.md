@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_MODE_PAGE_REQUEST_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_MODE_PAGE_REQUEST_TYPE, *PIMAPI_MODE_PAGE_REQUEST_TYPE
 req.redist: 

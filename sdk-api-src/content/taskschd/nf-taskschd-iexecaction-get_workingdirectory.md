@@ -40,7 +40,6 @@ api_name:
  - IExecAction.WorkingDirectory
  - IExecAction.get_WorkingDirectory
  - IExecAction.put_WorkingDirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

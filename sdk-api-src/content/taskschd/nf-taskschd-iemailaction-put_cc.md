@@ -40,7 +40,6 @@ api_name:
  - IEmailAction.Cc
  - IEmailAction.get_Cc
  - IEmailAction.put_Cc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

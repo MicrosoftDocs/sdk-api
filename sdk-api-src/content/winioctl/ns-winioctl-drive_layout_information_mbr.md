@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DRIVE_LAYOUT_INFORMATION_MBR
-product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
 req.redist: 

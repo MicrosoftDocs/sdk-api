@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - MF_SHARING_ENGINE_EVENT
-product: Windows
 targetos: Windows
 req.typenames: MF_SHARING_ENGINE_EVENT
 req.redist: 

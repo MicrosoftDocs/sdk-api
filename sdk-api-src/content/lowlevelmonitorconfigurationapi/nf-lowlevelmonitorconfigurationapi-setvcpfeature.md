@@ -38,7 +38,6 @@ api_location:
  - dxva2.dll
 api_name:
  - SetVCPFeature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

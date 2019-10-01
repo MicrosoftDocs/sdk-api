@@ -41,7 +41,6 @@ api_name:
  - IWMSInternalAdminNetSource3.GetNetSourceCreator2
  - IWMSInternalAdminNetSource3.IsUsingIE2
  - IWMSInternalAdminNetSource3.RegisterProxyFailure2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

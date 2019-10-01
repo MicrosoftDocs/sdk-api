@@ -38,7 +38,6 @@ api_location:
  - Wtsprotocol.h
 api_name:
  - IWTSProtocolConnection.CreateVirtualChannel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

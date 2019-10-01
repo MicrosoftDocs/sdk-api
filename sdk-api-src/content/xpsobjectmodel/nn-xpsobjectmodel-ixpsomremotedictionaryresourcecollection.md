@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - IXpsOMRemoteDictionaryResourceCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

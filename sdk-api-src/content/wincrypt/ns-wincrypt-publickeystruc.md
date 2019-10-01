@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - BLOBHEADER
-product: Windows
 targetos: Windows
 req.typenames: BLOBHEADER, PUBLICKEYSTRUC
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IsBadStringPtr
  - IsBadStringPtrA
  - IsBadStringPtrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_ADDRESS_TYPE
-product: Windows
 targetos: Windows
 req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
 req.redist: 

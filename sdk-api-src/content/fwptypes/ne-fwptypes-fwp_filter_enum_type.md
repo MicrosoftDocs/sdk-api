@@ -38,7 +38,6 @@ api_location:
  - Fwptypes.h
 api_name:
  - FWP_FILTER_ENUM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: FWP_FILTER_ENUM_TYPE
 req.redist: 

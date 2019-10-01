@@ -40,7 +40,6 @@ api_location:
  - Dmoguids.dll
 api_name:
  - IMediaObjectInPlace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

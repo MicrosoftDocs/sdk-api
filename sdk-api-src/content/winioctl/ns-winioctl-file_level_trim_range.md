@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FILE_LEVEL_TRIM_RANGE
-product: Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE
 req.redist: 

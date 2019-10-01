@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SecPkgContext_CredInfo
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_CredInfo, *PSecPkgContext_CredInfo
 req.redist: 

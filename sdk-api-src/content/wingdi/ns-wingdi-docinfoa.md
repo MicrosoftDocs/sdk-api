@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - DOCINFO
-product: Windows
 targetos: Windows
 req.typenames: DOCINFOA, *LPDOCINFOA
 req.redist: 

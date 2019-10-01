@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BatteryMiniSetInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

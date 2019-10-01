@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteTextFormat3::SetAutomaticFontAxes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

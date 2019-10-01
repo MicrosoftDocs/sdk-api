@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - IFhConfigMgr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

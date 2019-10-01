@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.TSID
  - IFaxOutgoingJob.get_TSID
  - IFaxOutgoingJob.get_TSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

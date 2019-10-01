@@ -38,7 +38,6 @@ api_location:
 - Wtsdefs.h
 api_name:
 - WTS_PROTOCOL_STATUS
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_STATUS, *PWTS_PROTOCOL_STATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyShowDeveloperDiagnostic
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyShowDeveloperDiagnostic
 req.redist: 

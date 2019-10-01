@@ -38,7 +38,6 @@ api_location:
  - Iptypes.h
 api_name:
  - IP_PER_ADAPTER_INFO
-product: Windows
 targetos: Windows
 req.typenames: IP_PER_ADAPTER_INFO_W2KSP1, *PIP_PER_ADAPTER_INFO_W2KSP1
 req.redist: 

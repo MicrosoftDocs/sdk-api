@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CachedFillColor
  - IUIAutomationStylesPattern.get_CachedFillColor
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CMC_RESPONSE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CMC_RESPONSE_INFO, *PCMC_RESPONSE_INFO
 req.redist: 

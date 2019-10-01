@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_REPARSE_POINT_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_REPARSE_POINT_PROP, *PVDS_REPARSE_POINT_PROP
 req.redist: 

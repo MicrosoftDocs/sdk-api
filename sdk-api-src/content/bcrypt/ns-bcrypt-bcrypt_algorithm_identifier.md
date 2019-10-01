@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_ALGORITHM_IDENTIFIER
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 

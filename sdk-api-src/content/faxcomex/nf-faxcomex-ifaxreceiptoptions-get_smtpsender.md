@@ -42,7 +42,6 @@ api_name:
  - IFaxReceiptOptions.put_SMTPSender
  - IFaxReceiptOptions.get_SMTPSender
  - IFaxReceiptOptions.put_SMTPSender
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
  - SCardCancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

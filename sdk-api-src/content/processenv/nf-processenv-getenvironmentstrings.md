@@ -45,7 +45,6 @@ api_name:
  - GetEnvironmentStrings
  - GetEnvironmentStringsA
  - GetEnvironmentStringsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

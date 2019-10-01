@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - X500NameFlags
-product: Windows
 targetos: Windows
 req.typenames: X500NameFlags
 req.redist: 

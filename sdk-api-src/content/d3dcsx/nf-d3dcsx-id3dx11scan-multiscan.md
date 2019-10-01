@@ -39,7 +39,6 @@ api_location:
  - d3dcsx.dll
 api_name:
  - ID3DX11Scan.Multiscan
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

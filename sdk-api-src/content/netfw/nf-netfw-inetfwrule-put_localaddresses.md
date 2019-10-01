@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.LocalAddresses
  - INetFwRule.get_LocalAddresses
  - INetFwRule.put_LocalAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

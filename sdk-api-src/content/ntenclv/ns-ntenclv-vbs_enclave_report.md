@@ -38,7 +38,6 @@ api_location:
  - ntenclv.h
 api_name:
  - VBS_ENCLAVE_REPORT
-product: Windows
 targetos: Windows
 req.typenames: VBS_ENCLAVE_REPORT
 req.redist: 

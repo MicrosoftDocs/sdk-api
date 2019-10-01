@@ -44,7 +44,6 @@ api_name:
  - CreateFont
  - CreateFontA
  - CreateFontW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

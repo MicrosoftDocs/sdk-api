@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_LARGEINT_DATA
-product: Windows
 targetos: Windows
 req.typenames: RESUTIL_LARGEINT_DATA, *PRESUTIL_LARGEINT_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_AUDIO_APPMODE
-product: Windows
 targetos: Windows
 req.typenames: DVD_AUDIO_APPMODE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - FINDEX_SEARCH_OPS
-product: Windows
 targetos: Windows
 req.typenames: FINDEX_SEARCH_OPS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_UTF8_ARRAY_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_UTF8_ARRAY_DESCRIPTION
 req.redist: 

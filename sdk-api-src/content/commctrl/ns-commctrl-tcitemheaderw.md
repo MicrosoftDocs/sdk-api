@@ -40,7 +40,6 @@ api_name:
  - TCITEMHEADER
  - TCITEMHEADERA
  - TCITEMHEADERW
-product: Windows
 targetos: Windows
 req.typenames: TCITEMHEADERW, *LPTCITEMHEADERW
 req.redist: 

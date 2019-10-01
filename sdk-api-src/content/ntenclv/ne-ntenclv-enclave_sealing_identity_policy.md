@@ -38,7 +38,6 @@ api_location:
  - ntenclv.h
 api_name:
  - ENCLAVE_SEALING_IDENTITY_POLICY
-product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
 req.redist: 

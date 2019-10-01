@@ -40,7 +40,6 @@ api_name:
  - IX509Enrollment.Silent
  - IX509Enrollment.get_Silent
  - IX509Enrollment.put_Silent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

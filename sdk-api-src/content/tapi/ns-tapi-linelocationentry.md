@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINELOCATIONENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINELOCATIONENTRY, *LPLINELOCATIONENTRY
 req.redist: 

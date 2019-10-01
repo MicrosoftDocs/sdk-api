@@ -38,7 +38,6 @@ api_location:
 - LsaLookup.h
 api_name:
 - LSA_OBJECT_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMWMIFilter.SetSecurityInfo
  - GPMWMIFilter.SetSecurityInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

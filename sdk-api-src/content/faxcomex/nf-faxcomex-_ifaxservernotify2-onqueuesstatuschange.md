@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnQueuesStatusChange
  - IFaxServerNotify2.OnQueuesStatusChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

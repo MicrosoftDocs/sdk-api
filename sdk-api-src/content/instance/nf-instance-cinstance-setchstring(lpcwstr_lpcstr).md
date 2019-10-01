@@ -43,7 +43,6 @@ api_name:
  - ?SetCHString@CInstance@@QAE_NPBGPBD@Z
  - ?SetCHString@CInstance@@QEAA_NPEBG0@Z
  - ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - TOKEN_AUDIT_POLICY
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
 req.redist: 

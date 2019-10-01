@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsip_Context_Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

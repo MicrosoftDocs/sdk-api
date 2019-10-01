@@ -43,7 +43,6 @@ api_name:
  - PathQuoteSpaces
  - PathQuoteSpacesA
  - PathQuoteSpacesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

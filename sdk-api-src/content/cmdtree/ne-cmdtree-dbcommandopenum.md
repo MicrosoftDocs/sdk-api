@@ -38,7 +38,6 @@ api_location:
  - cmdtree.h
 api_name:
  - DBCOMMANDOPENUM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

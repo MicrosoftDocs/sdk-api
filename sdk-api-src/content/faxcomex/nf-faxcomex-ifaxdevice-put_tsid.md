@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_TSID
  - IFaxDevice.get_TSID
  - IFaxDevice.put_TSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

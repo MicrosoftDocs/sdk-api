@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETPIXELV
-product: Windows
 targetos: Windows
 req.typenames: EMRSETPIXELV, *PEMRSETPIXELV
 req.redist: 

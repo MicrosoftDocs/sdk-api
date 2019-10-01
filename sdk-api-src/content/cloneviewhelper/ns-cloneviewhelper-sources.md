@@ -38,7 +38,6 @@ api_location:
  - cloneviewhelper.h
 api_name:
  - Sources
-product: Windows
 targetos: Windows
 req.typenames: Sources
 req.redist: 

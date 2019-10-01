@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - NORM_FORM
-product: Windows
 targetos: Windows
 req.typenames: NORM_FORM
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP

@@ -38,7 +38,6 @@ api_location:
  - Wsman.h
 api_name:
  - WSMAN_RESPONSE_DATA
-product: Windows
 targetos: Windows
 req.typenames: WSMAN_RESPONSE_DATA
 req.redist: 

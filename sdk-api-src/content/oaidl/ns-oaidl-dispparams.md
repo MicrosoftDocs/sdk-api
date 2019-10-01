@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - DISPPARAMS
-product: Windows
 targetos: Windows
 req.typenames: DISPPARAMS
 req.redist: 

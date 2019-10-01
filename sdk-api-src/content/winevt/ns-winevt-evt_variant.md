@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_VARIANT
-product: Windows
 targetos: Windows
 req.typenames: EVT_VARIANT, *PEVT_VARIANT
 req.redist: 

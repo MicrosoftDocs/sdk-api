@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMLoadFloat2A
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

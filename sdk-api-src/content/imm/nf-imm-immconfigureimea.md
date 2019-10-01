@@ -40,7 +40,6 @@ api_name:
  - ImmConfigureIME
  - ImmConfigureIMEA
  - ImmConfigureIMEW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

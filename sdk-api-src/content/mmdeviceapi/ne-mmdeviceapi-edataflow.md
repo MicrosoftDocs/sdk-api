@@ -38,7 +38,6 @@ api_location:
  - Mmdeviceapi.h
 api_name:
  - EDataFlow
-product: Windows
 targetos: Windows
 req.typenames: EDataFlow
 req.redist: 

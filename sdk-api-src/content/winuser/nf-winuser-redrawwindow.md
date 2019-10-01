@@ -44,7 +44,6 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
 api_name:
  - RedrawWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerExit.GetCertificateProperty
  - CCertServerExit.GetCertificateProperty
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

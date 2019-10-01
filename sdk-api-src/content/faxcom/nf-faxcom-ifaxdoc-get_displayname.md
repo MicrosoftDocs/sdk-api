@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.DisplayName
  - IFaxDoc.get_DisplayName
  - IFaxDoc.put_DisplayName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Traffic.h
 api_name:
 - TC_GEN_FILTER)
-product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
 req.redist: 

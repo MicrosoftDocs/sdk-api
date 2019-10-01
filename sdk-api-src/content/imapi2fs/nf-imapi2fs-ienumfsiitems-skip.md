@@ -38,7 +38,6 @@ api_location:
  - imapi2fs.h
 api_name:
  - IEnumFsiItems.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

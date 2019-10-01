@@ -38,7 +38,6 @@ api_location:
  - CryptDlg.h
 api_name:
  - PFNCMHOOKPROC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

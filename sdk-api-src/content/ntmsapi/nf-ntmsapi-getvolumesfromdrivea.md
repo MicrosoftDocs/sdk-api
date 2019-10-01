@@ -40,7 +40,6 @@ api_name:
  - GetVolumesFromDrive
  - GetVolumesFromDriveA
  - GetVolumesFromDriveW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

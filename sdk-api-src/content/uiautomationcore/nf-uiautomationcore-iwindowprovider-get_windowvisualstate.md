@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowProvider.WindowVisualState
  - IWindowProvider.get_WindowVisualState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.RelativePath
  - IFsrmPropertyBag.get_RelativePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

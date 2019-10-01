@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIViewer.Invitations
  - IRDPSRAPIViewer.get_Invitations
  - RDPViewer.Invitations
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

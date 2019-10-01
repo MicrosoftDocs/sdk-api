@@ -38,7 +38,6 @@ api_location:
  - MDMRegistration.h
 api_name:
  - MANAGEMENT_SERVICE_INFO
-product: Windows
 targetos: Windows
 req.typenames: MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO
 req.redist: 

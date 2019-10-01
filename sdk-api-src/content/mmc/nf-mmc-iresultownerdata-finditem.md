@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - IResultOwnerData.FindItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

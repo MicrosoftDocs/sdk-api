@@ -38,7 +38,6 @@ api_location:
 - Ddeml.h
 api_name:
 - CONVCONTEXT
-product: Windows
 targetos: Windows
 req.typenames: CONVCONTEXT, *PCONVCONTEXT
 req.redist: 

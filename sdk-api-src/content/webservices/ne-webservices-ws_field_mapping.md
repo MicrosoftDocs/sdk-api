@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_FIELD_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: WS_FIELD_MAPPING
 req.redist: 

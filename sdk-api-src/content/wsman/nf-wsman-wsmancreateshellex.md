@@ -38,7 +38,6 @@ api_location:
 - WsmSvc.dll
 api_name:
 - WSManCreateShellEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

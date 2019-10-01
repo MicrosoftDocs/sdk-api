@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - FILE_STORAGE_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_STORAGE_INFO, *PFILE_STORAGE_INFO
 req.redist: 

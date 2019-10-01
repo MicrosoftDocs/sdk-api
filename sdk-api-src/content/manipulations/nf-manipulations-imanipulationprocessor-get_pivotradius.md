@@ -40,7 +40,6 @@ api_name:
  - IManipulationProcessor.PivotRadius
  - IManipulationProcessor.get_PivotRadius
  - IManipulationProcessor.put_PivotRadius
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - EXFAT_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
 req.redist: 

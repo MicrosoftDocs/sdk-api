@@ -38,7 +38,6 @@ api_location:
  - jobapi2.h
 api_name:
  - JOBOBJECT_IO_RATE_CONTROL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 req.redist: 

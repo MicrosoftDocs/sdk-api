@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_CAStoreType
  - ICEnroll.put_CAStoreType
  - CEnroll.CAStoreType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

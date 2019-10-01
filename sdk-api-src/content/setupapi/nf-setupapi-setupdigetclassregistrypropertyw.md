@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetClassRegistryProperty
  - SetupDiGetClassRegistryPropertyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

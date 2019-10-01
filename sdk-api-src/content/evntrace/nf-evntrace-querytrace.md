@@ -42,7 +42,6 @@ api_name:
  - QueryTrace
  - QueryTraceA
  - QueryTraceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

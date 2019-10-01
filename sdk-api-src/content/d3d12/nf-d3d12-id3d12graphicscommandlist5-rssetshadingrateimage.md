@@ -7,7 +7,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList5::RSSetShadingRateImage"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

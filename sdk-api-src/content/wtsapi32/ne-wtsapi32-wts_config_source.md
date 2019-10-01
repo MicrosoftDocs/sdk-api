@@ -38,7 +38,6 @@ api_location:
 - Wtsapi32.h
 api_name:
 - WTS_CONFIG_SOURCE
-product: Windows
 targetos: Windows
 req.typenames: WTS_CONFIG_SOURCE
 req.redist: 

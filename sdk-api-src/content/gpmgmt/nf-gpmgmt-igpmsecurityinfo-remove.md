@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSecurityInfo.Remove
  - GPMSecurityInfo.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

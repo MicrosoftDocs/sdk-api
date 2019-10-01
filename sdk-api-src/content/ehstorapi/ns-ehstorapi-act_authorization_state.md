@@ -38,7 +38,6 @@ api_location:
  - EhStorAPI.h
 api_name:
  - ACT_AUTHORIZATION_STATE
-product: Windows
 targetos: Windows
 req.typenames: ACT_AUTHORIZATION_STATE
 req.redist: 

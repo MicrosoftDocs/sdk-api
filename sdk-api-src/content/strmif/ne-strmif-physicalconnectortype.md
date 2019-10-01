@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - PhysicalConnectorType
-product: Windows
 targetos: Windows
 req.typenames: PhysicalConnectorType
 req.redist: 

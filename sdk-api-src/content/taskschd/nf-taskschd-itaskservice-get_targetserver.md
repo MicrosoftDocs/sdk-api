@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITaskService.TargetServer
  - ITaskService.get_TargetServer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

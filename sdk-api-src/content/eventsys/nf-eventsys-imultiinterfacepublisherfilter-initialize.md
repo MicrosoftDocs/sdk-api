@@ -38,7 +38,6 @@ api_location:
  - EventSys.h
 api_name:
  - IMultiInterfacePublisherFilter.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

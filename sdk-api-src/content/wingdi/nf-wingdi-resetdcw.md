@@ -42,7 +42,6 @@ api_name:
  - ResetDC
  - ResetDCA
  - ResetDCW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

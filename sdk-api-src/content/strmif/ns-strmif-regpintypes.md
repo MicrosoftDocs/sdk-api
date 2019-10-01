@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - REGPINTYPES
-product: Windows
 targetos: Windows
 req.typenames: REGPINTYPES
 req.redist: 

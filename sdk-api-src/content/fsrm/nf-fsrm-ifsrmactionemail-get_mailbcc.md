@@ -43,7 +43,6 @@ api_name:
  - IFsrmActionEmail.MailBcc
  - IFsrmActionEmail.get_MailBcc
  - IFsrmActionEmail.put_MailBcc
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

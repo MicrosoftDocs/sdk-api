@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_Description
  - IFaxDevice.get_Description
  - IFaxDevice.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

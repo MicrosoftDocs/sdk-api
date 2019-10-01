@@ -41,7 +41,6 @@ api_location:
  - Kernel32legacy.dll
 api_name:
  - timeBeginPeriod
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

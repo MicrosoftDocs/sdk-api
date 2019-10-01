@@ -38,7 +38,6 @@ api_location:
  - OnDemandConnRouteHelper.h
 api_name:
  - NET_INTERFACE_CONTEXT_TABLE
-product: Windows
 targetos: Windows
 req.typenames: NET_INTERFACE_CONTEXT_TABLE
 req.redist: 

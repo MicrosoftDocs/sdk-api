@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_RADIO_STATE
-product: Windows
 targetos: Windows
 req.typenames: WLAN_RADIO_STATE, *PWLAN_RADIO_STATE
 req.redist: 

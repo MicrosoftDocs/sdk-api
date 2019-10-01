@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingMessage2.WasReAssigned
  - IFaxIncomingMessage2.get_WasReAssigned
  - IFaxIncomingMessage2.get_WasReAssigned
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

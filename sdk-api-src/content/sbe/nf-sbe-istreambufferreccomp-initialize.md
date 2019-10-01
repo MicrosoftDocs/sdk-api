@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferRecComp.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

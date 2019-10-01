@@ -39,7 +39,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_RENDERING_MODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

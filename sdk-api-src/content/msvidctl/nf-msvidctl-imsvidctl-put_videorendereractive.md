@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.put_VideoRendererActive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

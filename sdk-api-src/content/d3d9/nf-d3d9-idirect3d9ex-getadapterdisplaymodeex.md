@@ -39,7 +39,6 @@ api_location:
  - D3D9.dll
 api_name:
  - IDirect3D9Ex.GetAdapterDisplayModeEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

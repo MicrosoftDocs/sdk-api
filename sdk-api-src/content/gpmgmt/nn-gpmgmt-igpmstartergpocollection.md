@@ -43,7 +43,6 @@ api_name:
  - IGPMStarterGPOCollection.Item
  - IGPMStarterGPOCollection.get_Item
  - GPMStarterGPOCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

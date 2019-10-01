@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - RtwqAllocateSerialWorkQueue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

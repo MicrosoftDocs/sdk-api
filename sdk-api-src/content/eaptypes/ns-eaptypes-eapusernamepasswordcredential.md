@@ -39,7 +39,6 @@ api_location:
 api_name:
  - _EapUsernamePasswordCredential
  - EapUsernamePasswordCredential
-product: Windows
 targetos: Windows
 req.typenames: EapUsernamePasswordCredential
 req.redist: 

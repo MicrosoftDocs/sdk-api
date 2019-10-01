@@ -38,7 +38,6 @@ api_location:
  - Prsht.h
 api_name:
  - PropSheet_SetTitle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

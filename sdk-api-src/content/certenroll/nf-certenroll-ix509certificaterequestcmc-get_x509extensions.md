@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestCmc.X509Extensions
  - IX509CertificateRequestCmc.get_X509Extensions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mi.h
 api_name:
 - MI_ConstUint8Field
-product: Windows
 targetos: Windows
 req.typenames: MI_ConstUint8Field
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

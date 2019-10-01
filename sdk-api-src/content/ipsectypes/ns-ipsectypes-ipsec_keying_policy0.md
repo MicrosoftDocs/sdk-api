@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_KEYING_POLICY0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEYING_POLICY0
 req.redist: 

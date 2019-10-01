@@ -38,7 +38,6 @@ api_location:
 - Mobsync.h
 api_name:
 - SYNCMGRLOGLEVEL
-product: Windows
 targetos: Windows
 req.typenames: SYNCMGRLOGLEVEL
 req.redist: 

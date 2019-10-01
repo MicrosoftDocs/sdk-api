@@ -42,7 +42,6 @@ api_name:
  - IFaxOutboundRoutingRule.put_UseDevice
  - IFaxOutboundRoutingRule.get_UseDevice
  - IFaxOutboundRoutingRule.put_UseDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

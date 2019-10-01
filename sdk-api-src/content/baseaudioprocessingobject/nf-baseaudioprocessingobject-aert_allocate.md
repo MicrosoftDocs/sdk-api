@@ -38,7 +38,6 @@ api_location:
  - Audioeng.dll
 api_name:
  - AERT_Allocate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - POINTER_FEEDBACK_MODE
-product: Windows
 targetos: Windows
 req.typenames: POINTER_FEEDBACK_MODE
 req.redist: 

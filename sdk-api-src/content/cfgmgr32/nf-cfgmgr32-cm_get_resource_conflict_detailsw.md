@@ -40,7 +40,6 @@ api_location:
 api_name:
 - CM_Get_Resource_Conflict_Details
 - CM_Get_Resource_Conflict_DetailsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

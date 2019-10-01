@@ -41,7 +41,6 @@ api_name:
  - IInkCursor.Name
  - IInkCursor.get_Name
  - IInkCursor.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

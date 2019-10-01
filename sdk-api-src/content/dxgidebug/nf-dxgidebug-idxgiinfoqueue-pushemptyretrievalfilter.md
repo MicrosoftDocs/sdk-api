@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIInfoQueue.PushEmptyRetrievalFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - IID_PPV_ARGS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

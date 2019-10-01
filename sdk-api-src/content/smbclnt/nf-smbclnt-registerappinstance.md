@@ -38,7 +38,6 @@ api_location:
  - NTLanMan.dll
 api_name:
  - RegisterAppInstance
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

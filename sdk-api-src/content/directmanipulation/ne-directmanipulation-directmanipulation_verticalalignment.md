@@ -38,7 +38,6 @@ api_location:
  - directmanipulation.h
 api_name:
  - DIRECTMANIPULATION_VERTICALALIGNMENT
-product: Windows
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_VERTICALALIGNMENT
 req.redist: 

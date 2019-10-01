@@ -38,7 +38,6 @@ api_location:
  - Mswsockdef.h
 api_name:
  - RIO_BUF
-product: Windows
 targetos: Windows
 req.typenames: RIO_BUF, *PRIO_BUF
 req.redist: 

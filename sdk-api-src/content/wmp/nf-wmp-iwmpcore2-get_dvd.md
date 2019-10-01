@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPCore2.get_dvd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - BuildCommDCBAndTimeouts
 - BuildCommDCBAndTimeoutsA
 - BuildCommDCBAndTimeoutsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

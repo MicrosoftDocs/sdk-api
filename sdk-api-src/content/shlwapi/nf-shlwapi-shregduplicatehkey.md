@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
  - SHRegDuplicateHKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

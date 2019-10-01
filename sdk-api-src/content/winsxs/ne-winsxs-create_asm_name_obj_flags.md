@@ -38,7 +38,6 @@ api_location:
  - Winsxs.h
 api_name:
  - CREATE_ASM_NAME_OBJ_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
 req.redist: 

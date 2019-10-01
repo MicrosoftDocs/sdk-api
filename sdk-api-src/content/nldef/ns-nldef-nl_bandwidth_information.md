@@ -38,7 +38,6 @@ api_location:
  - Nldef.h
 api_name:
  - NL_BANDWIDTH_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NL_BANDWIDTH_INFORMATION, *PNL_BANDWIDTH_INFORMATION
 req.redist: 

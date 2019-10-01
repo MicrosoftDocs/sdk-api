@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETVPORTBANDWIDTHDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA'
 req.redist: 

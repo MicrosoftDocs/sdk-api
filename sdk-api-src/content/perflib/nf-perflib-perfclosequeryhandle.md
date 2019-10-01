@@ -38,7 +38,6 @@ api_location:
  - AdvAPI32.dll
 api_name:
  - PerfCloseQueryHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

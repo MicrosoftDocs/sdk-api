@@ -40,7 +40,6 @@ api_name:
  - SYMSRV_INDEX_INFO
  - SYMSRV_INDEX_INFO
  - SYMSRV_INDEX_INFOW
-product: Windows
 targetos: Windows
 req.typenames: SYMSRV_INDEX_INFOW, *PSYMSRV_INDEX_INFOW
 req.redist: DbgHelp.dll 6.6 or later

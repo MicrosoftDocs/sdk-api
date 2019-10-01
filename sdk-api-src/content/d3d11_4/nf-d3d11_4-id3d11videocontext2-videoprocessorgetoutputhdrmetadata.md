@@ -38,7 +38,6 @@ api_location:
  - d3d11_4.h
 api_name:
  - ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

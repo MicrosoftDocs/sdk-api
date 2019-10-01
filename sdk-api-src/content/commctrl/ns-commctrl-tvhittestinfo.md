@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TVHITTESTINFO
-product: Windows
 targetos: Windows
 req.typenames: TVHITTESTINFO, *LPTVHITTESTINFO
 req.redist: 

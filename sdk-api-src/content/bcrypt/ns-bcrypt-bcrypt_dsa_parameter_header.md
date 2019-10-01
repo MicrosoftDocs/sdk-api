@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_DSA_PARAMETER_HEADER
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_DSA_PARAMETER_HEADER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Rtmv2.h
 api_name:
 - RTM_IPV4_GET_ADDR_AND_LEN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

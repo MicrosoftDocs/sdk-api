@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.SignalRollOff
  - IDVBSLocator2.get_SignalRollOff
  - IDVBSLocator2.put_SignalRollOff
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

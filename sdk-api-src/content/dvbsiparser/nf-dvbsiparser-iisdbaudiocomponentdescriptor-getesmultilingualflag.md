@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IIsdbAudioComponentDescriptor.GetESMultiLingualFlag
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

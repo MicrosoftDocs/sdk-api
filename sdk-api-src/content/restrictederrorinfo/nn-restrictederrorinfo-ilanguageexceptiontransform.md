@@ -38,7 +38,6 @@ api_location:
  - restrictederrorinfo.h
 api_name:
  - ILanguageExceptionTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

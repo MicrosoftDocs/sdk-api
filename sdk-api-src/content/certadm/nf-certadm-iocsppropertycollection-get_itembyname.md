@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPPropertyCollection.ItemByName
  - IOCSPPropertyCollection.get_ItemByName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

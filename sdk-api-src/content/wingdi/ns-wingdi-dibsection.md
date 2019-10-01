@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - DIBSECTION
-product: Windows
 targetos: Windows
 req.typenames: DIBSECTION, *LPDIBSECTION, *PDIBSECTION
 req.redist: 

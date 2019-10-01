@@ -41,7 +41,6 @@ api_name:
  - ITaskSettings.get_AllowHardTerminate
  - ITaskSettings.put_AllowHardTerminate
  - TaskSettings.AllowHardTerminate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

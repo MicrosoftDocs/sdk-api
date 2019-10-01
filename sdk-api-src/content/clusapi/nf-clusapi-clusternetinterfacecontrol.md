@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - ClusterNetInterfaceControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

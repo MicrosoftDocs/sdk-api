@@ -40,7 +40,6 @@ api_name:
 - FindFirstUrlCacheEntry
 - FindFirstUrlCacheEntryA
 - FindFirstUrlCacheEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_CREATE_CONTEXT_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_CREATE_CONTEXT_PARA, *PCERT_CREATE_CONTEXT_PARA
 req.redist: 

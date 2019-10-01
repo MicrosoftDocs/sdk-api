@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - IMFMediaSharingEngine.GetDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

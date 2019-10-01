@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICPngFilterOption
-product: Windows
 targetos: Windows
 req.typenames: WICPngFilterOption
 req.redist: 

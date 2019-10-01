@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - ICONINFO
-product: Windows
 targetos: Windows
 req.typenames: ICONINFO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxDoc.BillingCode
  - IFaxDoc.get_BillingCode
  - IFaxDoc.put_BillingCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

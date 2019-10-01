@@ -38,7 +38,6 @@ api_location:
  - directxpackedvector.inl
 api_name:
  - XMStoreUDecN4_XR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

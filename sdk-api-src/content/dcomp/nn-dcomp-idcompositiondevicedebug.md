@@ -38,7 +38,6 @@ api_location:
  - dcomp.h
 api_name:
  - IDCompositionDeviceDebug
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

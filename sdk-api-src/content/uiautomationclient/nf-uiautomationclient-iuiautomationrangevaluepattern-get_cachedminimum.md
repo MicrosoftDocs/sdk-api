@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CachedMinimum
  - IUIAutomationRangeValuePattern.get_CachedMinimum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsControlElement
  - IUIAutomationElement.get_CurrentIsControlElement
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

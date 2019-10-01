@@ -41,7 +41,6 @@ api_name:
  - CharToOemBuff
  - CharToOemBuffA
  - CharToOemBuffW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

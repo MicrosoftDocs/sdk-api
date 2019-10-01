@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SECURITY_QUALITY_OF_SERVICE
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_QUALITY_OF_SERVICE, *PSECURITY_QUALITY_OF_SERVICE
 req.redist: 

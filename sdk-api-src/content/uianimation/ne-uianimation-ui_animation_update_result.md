@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - UI_ANIMATION_UPDATE_RESULT
-product: Windows
 targetos: Windows
 req.typenames: UI_ANIMATION_UPDATE_RESULT
 req.redist: 

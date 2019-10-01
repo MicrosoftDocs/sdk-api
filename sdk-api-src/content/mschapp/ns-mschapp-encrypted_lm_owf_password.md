@@ -38,7 +38,6 @@ api_location:
 - MsChapp.h
 api_name:
 - ENCRYPTED_LM_OWF_PASSWORD
-product: Windows
 targetos: Windows
 req.typenames: ENCRYPTED_LM_OWF_PASSWORD, *PENCRYPTED_LM_OWF_PASSWORD
 req.redist: 

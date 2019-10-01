@@ -38,7 +38,6 @@ api_location:
  - emi.h
 api_name:
  - IOCTL_EMI_GET_VERSION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

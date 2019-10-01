@@ -41,7 +41,6 @@ api_name:
 - SymGetLineFromName64
 - SymGetLineFromNameW64
 - SymGetLineFromName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

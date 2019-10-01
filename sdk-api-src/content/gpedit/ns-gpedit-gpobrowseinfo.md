@@ -38,7 +38,6 @@ api_location:
  - Gpedit.h
 api_name:
  - GPOBROWSEINFO
-product: Windows
 targetos: Windows
 req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
 req.redist: 

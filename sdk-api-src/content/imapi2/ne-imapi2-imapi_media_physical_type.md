@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IMAPI_MEDIA_PHYSICAL_TYPE
-product: Windows
 targetos: Windows
 req.typenames: IMAPI_MEDIA_PHYSICAL_TYPE, *PIMAPI_MEDIA_PHYSICAL_TYPE
 req.redist: 

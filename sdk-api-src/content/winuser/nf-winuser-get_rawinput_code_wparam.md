@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - GET_RAWINPUT_CODE_WPARAM
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

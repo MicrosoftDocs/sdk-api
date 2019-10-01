@@ -45,7 +45,6 @@ api_name:
  - DeleteFileTransacted
  - DeleteFileTransactedA
  - DeleteFileTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

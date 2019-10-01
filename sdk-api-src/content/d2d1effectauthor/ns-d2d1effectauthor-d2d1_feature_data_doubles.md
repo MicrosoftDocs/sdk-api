@@ -39,7 +39,6 @@ api_location:
  - D2d1.dll
 api_name:
  - D2D1_FEATURE_DATA_DOUBLES
-product: Windows
 targetos: Windows
 req.typenames: D2D1_FEATURE_DATA_DOUBLES
 req.redist: 

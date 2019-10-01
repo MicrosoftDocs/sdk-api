@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - POLICY_LSA_SERVER_ROLE
-product: Windows
 targetos: Windows
 req.typenames: POLICY_LSA_SERVER_ROLE, *PPOLICY_LSA_SERVER_ROLE
 req.redist: 

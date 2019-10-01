@@ -38,7 +38,6 @@ api_location:
  - AuthIf.h
 api_name:
  - PRADIUS_EXTENSION_INIT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

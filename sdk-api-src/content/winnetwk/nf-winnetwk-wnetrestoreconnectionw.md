@@ -38,7 +38,6 @@ api_location:
  - Mpr.dll
 api_name:
  - WNetRestoreConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

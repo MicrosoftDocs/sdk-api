@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationProgress.CurrentUpdatePercentComplete
  - IInstallationProgress.get_CurrentUpdatePercentComplete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

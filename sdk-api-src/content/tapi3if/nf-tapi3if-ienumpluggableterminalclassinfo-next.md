@@ -38,7 +38,6 @@ api_location:
  - Tapi3.dll
 api_name:
  - IEnumPluggableTerminalClassInfo.Next
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

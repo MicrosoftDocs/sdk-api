@@ -38,7 +38,6 @@ api_location:
 - Winefs.h
 api_name:
 - ENCRYPTION_CERTIFICATE
-product: Windows
 targetos: Windows
 req.typenames: ENCRYPTION_CERTIFICATE, *PENCRYPTION_CERTIFICATE
 req.redist: 

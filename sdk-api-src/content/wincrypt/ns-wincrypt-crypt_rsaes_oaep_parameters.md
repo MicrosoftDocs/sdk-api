@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_RSAES_OAEP_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_RSAES_OAEP_PARAMETERS, *PCRYPT_RSAES_OAEP_PARAMETERS
 req.redist: 

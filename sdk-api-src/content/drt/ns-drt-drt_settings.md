@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: DRT_SETTINGS, *PDRT_SETTINGS
 req.redist: 

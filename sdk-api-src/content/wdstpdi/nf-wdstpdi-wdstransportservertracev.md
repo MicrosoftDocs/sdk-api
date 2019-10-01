@@ -38,7 +38,6 @@ api_location:
  - Wdsmc.dll
 api_name:
  - WdsTransportServerTraceV
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

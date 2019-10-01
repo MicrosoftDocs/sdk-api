@@ -40,7 +40,6 @@ api_name:
  - IRegistrationInfo.XmlText
  - IRegistrationInfo.get_XmlText
  - IRegistrationInfo.put_XmlText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

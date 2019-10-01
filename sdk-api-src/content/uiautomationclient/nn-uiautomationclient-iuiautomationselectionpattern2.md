@@ -38,7 +38,6 @@ api_location:
  - UIAutomationClient.dll
 api_name:
  - IUIAutomationSelectionPattern2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement2.CachedLiveSetting
  - IUIAutomationElement2.get_CachedLiveSetting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

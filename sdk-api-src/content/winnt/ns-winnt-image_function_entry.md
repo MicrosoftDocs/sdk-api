@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - IMAGE_FUNCTION_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_FUNCTION_ENTRY, *PIMAGE_FUNCTION_ENTRY
 req.redist: 

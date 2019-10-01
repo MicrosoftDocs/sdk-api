@@ -40,7 +40,6 @@ api_name:
  - ITaskDefinition.Triggers
  - ITaskDefinition.get_Triggers
  - ITaskDefinition.put_Triggers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

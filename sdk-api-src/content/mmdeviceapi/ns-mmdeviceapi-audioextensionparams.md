@@ -38,7 +38,6 @@ api_location:
  - mmdeviceapi.h
 api_name:
  - AudioExtensionParams
-product: Windows
 targetos: Windows
 req.typenames: AudioExtensionParams
 req.redist: 

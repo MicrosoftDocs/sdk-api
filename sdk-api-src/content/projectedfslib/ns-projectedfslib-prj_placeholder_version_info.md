@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_PLACEHOLDER_VERSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: PRJ_PLACEHOLDER_VERSION_INFO
 req.redist: 

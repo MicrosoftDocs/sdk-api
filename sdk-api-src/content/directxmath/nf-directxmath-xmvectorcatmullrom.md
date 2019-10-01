@@ -38,7 +38,6 @@ api_location:
  - directxmathvector.inl
 api_name:
  - XMVectorCatmullRom
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

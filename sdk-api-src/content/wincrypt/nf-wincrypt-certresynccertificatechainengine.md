@@ -38,7 +38,6 @@ api_location:
  - crypt32.dll
 api_name:
  - CertResyncCertificateChainEngine
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

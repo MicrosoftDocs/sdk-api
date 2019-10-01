@@ -40,7 +40,6 @@ api_name:
  - SslEmptyCache
  - SslEmptyCacheA
  - SslEmptyCacheW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

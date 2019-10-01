@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
  - CoRevokeInitializeSpy
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - SP_REGISTER_CONTROL_STATUS
  - SP_REGISTER_CONTROL_STATUSA
-product: Windows
 targetos: Windows
 req.typenames: SP_REGISTER_CONTROL_STATUSA, *PSP_REGISTER_CONTROL_STATUSA
 req.redist: 

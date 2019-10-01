@@ -40,7 +40,6 @@ api_name:
  - IUpdateSearcher.CanAutomaticallyUpgradeService
  - IUpdateSearcher.get_CanAutomaticallyUpgradeService
  - IUpdateSearcher.put_CanAutomaticallyUpgradeService
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

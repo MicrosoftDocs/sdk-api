@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsLun2.QueryHints2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

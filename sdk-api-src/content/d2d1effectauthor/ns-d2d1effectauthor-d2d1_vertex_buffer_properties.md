@@ -39,7 +39,6 @@ api_location:
  - D2d1.dll
 api_name:
  - D2D1_VERTEX_BUFFER_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: D2D1_VERTEX_BUFFER_PROPERTIES
 req.redist: 

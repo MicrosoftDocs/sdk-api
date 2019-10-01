@@ -40,7 +40,6 @@ api_name:
  - PdhBindInputDataSource
  - PdhBindInputDataSourceA
  - PdhBindInputDataSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

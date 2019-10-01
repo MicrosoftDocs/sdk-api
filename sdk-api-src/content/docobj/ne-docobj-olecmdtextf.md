@@ -38,7 +38,6 @@ api_location:
 - DocObj.h
 api_name:
 - OLECMDTEXTF
-product: Windows
 targetos: Windows
 req.typenames: OLECMDTEXTF
 req.redist: 

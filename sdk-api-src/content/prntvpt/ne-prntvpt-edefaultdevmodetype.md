@@ -38,7 +38,6 @@ api_location:
  - prntvpt.h
 api_name:
  - EDefaultDevmodeType
-product: Windows
 targetos: Windows
 req.typenames: EDefaultDevmodeType
 req.redist: 

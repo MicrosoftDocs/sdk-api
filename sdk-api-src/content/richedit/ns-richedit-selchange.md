@@ -38,7 +38,6 @@ api_location:
  - Richedit.h
 api_name:
  - SELCHANGE
-product: Windows
 targetos: Windows
 req.typenames: SELCHANGE
 req.redist: 

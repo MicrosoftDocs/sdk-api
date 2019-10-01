@@ -38,7 +38,6 @@ api_location:
 - Authz.h
 api_name:
 - AUTHZ_ACCESS_REQUEST
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_ACCESS_REQUEST, *PAUTHZ_ACCESS_REQUEST
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyEnrollment.CADnsName
  - ICertPropertyEnrollment.get_CADnsName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

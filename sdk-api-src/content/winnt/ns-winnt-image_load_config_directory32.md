@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMAGE_LOAD_CONFIG_DIRECTORY64
  - IMAGE_LOAD_CONFIG_DIRECTORY
-product: Windows
 targetos: Windows
 req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY32, *PIMAGE_LOAD_CONFIG_DIRECTORY32
 req.redist: 

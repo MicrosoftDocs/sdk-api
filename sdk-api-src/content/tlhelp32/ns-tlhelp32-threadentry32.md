@@ -38,7 +38,6 @@ api_location:
  - TlHelp32.h
 api_name:
  - THREADENTRY32
-product: Windows
 targetos: Windows
 req.typenames: THREADENTRY32
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFSESSION_GETFULLTOPOLOGY_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFSESSION_GETFULLTOPOLOGY_FLAGS
 req.redist: 

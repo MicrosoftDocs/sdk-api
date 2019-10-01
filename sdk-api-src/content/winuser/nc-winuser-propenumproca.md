@@ -40,7 +40,6 @@ api_name:
  - PropEnumProc
  - PropEnumProcA
  - PropEnumProcW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

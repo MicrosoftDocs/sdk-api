@@ -38,7 +38,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIJOYCONFIG
-product: Windows
 targetos: Windows
 req.typenames: DIJOYCONFIG, *LPDIJOYCONFIG
 req.redist: 

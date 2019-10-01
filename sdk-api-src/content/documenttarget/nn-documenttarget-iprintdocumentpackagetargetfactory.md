@@ -38,7 +38,6 @@ api_location:
  - documenttarget.h
 api_name:
  - IPrintDocumentPackageTargetFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

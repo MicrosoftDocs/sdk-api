@@ -38,7 +38,6 @@ api_location:
  - mpegtype.h
 api_name:
  - AM_MPEGSTREAMTYPE
-product: Windows
 targetos: Windows
 req.typenames: AM_MPEGSTREAMTYPE
 req.redist: 

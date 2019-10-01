@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - POLICY_SERVER_ENABLE_STATE
-product: Windows
 targetos: Windows
 req.typenames: POLICY_SERVER_ENABLE_STATE, *PPOLICY_SERVER_ENABLE_STATE
 req.redist: 

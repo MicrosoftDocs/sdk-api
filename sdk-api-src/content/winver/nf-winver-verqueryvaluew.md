@@ -47,7 +47,6 @@ api_name:
  - VerQueryValue
  - VerQueryValueA
  - VerQueryValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

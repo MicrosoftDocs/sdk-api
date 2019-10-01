@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - REGFILTERPINS
-product: Windows
 targetos: Windows
 req.typenames: REGFILTERPINS
 req.redist: 

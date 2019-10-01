@@ -42,7 +42,6 @@ api_name:
  - SHSetFolderPath
  - SHSetFolderPathA
  - SHSetFolderPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

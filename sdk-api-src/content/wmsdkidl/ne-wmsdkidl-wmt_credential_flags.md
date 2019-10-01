@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_CREDENTIAL_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: WMT_CREDENTIAL_FLAGS
 req.redist: 

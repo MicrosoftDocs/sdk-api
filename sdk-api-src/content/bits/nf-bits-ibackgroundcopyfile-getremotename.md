@@ -38,7 +38,6 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyFile.GetRemoteName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

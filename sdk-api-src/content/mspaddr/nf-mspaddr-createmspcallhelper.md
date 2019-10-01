@@ -38,7 +38,6 @@ api_location:
  - Mspaddr.h
 api_name:
  - CMSPAddress.CreateMSPCallHelper
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

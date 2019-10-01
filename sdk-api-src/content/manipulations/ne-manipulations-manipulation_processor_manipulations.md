@@ -38,7 +38,6 @@ api_location:
  - manipulations.h
 api_name:
  - MANIPULATION_PROCESSOR_MANIPULATIONS
-product: Windows
 targetos: Windows
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 req.redist: 

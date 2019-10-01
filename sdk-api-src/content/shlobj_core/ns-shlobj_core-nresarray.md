@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - NRESARRAY
-product: Windows
 targetos: Windows
 req.typenames: NRESARRAY, *LPNRESARRAY
 req.redist: 

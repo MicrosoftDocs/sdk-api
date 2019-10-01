@@ -38,7 +38,6 @@ api_location:
  - dhcpsapi.h
 api_name:
  - DHCPV6_STATELESS_PARAM_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_PARAM_TYPE
 req.redist: 

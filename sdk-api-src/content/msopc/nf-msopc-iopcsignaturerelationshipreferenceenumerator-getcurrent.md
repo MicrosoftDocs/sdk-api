@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - IOpcSignatureRelationshipReferenceEnumerator.GetCurrent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

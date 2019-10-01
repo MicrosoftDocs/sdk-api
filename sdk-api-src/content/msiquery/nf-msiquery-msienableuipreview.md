@@ -38,7 +38,6 @@ api_location:
  - Msi.dll
 api_name:
  - MsiEnableUIPreview
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

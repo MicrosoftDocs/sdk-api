@@ -38,7 +38,6 @@ api_location:
  - D3D11.dll
 api_name:
  - D3D11CreateDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - opmapi.h
 api_name:
 - OPM_OUTPUT_ID_DATA
-product: Windows
 targetos: Windows
 req.typenames: OPM_OUTPUT_ID_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_EXTENSIONS
-product: Windows
 targetos: Windows
 req.typenames: CERT_EXTENSIONS, *PCERT_EXTENSIONS
 req.redist: 

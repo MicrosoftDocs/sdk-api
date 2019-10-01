@@ -40,7 +40,6 @@ api_name:
  - IFaxDevice.RingingNow
  - IFaxDevice.get_RingingNow
  - IFaxDevice.get_RingingNow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

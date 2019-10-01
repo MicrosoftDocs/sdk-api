@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - FORWARD_WM_NOTIFY
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

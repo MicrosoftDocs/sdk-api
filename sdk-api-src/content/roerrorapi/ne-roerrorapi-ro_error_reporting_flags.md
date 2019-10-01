@@ -40,7 +40,6 @@ api_location:
  - roerrorapi.h
 api_name:
  - RO_ERROR_REPORTING_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: RO_ERROR_REPORTING_FLAGS
 req.redist: 

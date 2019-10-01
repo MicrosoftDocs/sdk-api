@@ -38,7 +38,6 @@ api_location:
 - udpmib.h
 api_name:
 - MIB_UDPSTATS2
-product: Windows
 targetos: Windows
 req.typenames: MIB_UDPSTATS2, *PMIB_UDPSTATS2
 req.redist: 

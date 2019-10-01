@@ -40,7 +40,6 @@ api_name:
  - CreateDialog
  - CreateDialogA
  - CreateDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

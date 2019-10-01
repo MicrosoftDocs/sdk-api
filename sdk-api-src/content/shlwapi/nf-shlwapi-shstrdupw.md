@@ -45,7 +45,6 @@ api_name:
  - SHStrDup
  - SHStrDupA
  - SHStrDupW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - NEW_LOG_FILE_FREQUENCY
-product: Windows
 targetos: Windows
 req.typenames: NEW_LOG_FILE_FREQUENCY
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SetupAddToSourceList
  - SetupAddToSourceListA
  - SetupAddToSourceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

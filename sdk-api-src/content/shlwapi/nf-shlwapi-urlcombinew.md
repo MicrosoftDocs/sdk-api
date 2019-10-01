@@ -44,7 +44,6 @@ api_name:
  - UrlCombine
  - UrlCombineA
  - UrlCombineW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

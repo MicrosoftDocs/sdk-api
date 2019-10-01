@@ -39,7 +39,6 @@ api_location:
  - D3D11.dll
 api_name:
  - CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

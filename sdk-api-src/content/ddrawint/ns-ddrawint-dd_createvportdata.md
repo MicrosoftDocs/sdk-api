@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_CREATEVPORTDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_CREATEVPORTDATA, DD_CREATEVPORTDATA'
 req.redist: 

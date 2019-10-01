@@ -40,7 +40,6 @@ api_name:
  - MDICREATESTRUCT
  - MDICREATESTRUCTA
  - MDICREATESTRUCTW
-product: Windows
 targetos: Windows
 req.typenames: MDICREATESTRUCTA, *LPMDICREATESTRUCTA
 req.redist: 

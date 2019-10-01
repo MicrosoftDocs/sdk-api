@@ -41,7 +41,6 @@ api_name:
  - MsiRemovePatches
  - MsiRemovePatchesA
  - MsiRemovePatchesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Bdaiface.h
 api_name:
  - IBDA_SignalProperties.PutTuningSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

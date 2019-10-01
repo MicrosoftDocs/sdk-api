@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LVSETINFOTIP
-product: Windows
 targetos: Windows
 req.typenames: LVSETINFOTIP, *PLVSETINFOTIP
 req.redist: 

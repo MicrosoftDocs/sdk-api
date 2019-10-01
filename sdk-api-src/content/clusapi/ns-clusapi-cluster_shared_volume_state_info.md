@@ -38,7 +38,6 @@ api_location:
 - ClusAPI.h
 api_name:
 - CLUSTER_SHARED_VOLUME_STATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO, *PCLUSTER_SHARED_VOLUME_STATE_INFO
 req.redist: 

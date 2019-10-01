@@ -38,7 +38,6 @@ api_location:
  - evr.h
 api_name:
  - MFVideoMixPrefs
-product: Windows
 targetos: Windows
 req.typenames: MFVideoMixPrefs
 req.redist: 

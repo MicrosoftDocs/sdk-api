@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - IShellItemArray.GetAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

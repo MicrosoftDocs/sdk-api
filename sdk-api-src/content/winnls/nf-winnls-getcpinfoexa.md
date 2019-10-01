@@ -49,7 +49,6 @@ api_name:
 - GetCPInfoEx
 - GetCPInfoExA
 - GetCPInfoExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

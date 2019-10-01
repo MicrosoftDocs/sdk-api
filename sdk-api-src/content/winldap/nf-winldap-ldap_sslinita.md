@@ -40,7 +40,6 @@ api_name:
  - ldap_sslinit
  - ldap_sslinitA
  - ldap_sslinitW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

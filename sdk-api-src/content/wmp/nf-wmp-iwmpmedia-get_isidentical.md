@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.get_isIdentical
  - IWMPMedia2.get_isIdentical
  - IWMPMedia3.get_isIdentical
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

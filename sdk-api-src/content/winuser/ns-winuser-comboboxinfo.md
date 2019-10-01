@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - COMBOBOXINFO
-product: Windows
 targetos: Windows
 req.typenames: COMBOBOXINFO, *PCOMBOBOXINFO, *LPCOMBOBOXINFO
 req.redist: Service Pack 6

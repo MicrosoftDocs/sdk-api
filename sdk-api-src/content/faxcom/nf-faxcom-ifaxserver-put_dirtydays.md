@@ -42,7 +42,6 @@ api_name:
  - IFaxServer.put_DirtyDays
  - IFaxServer.get_DirtyDays
  - IFaxServer.put_DirtyDays
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

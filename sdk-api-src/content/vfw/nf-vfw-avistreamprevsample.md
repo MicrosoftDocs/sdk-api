@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - AVIStreamPrevSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

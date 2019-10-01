@@ -38,7 +38,6 @@ api_location:
  - Wbemsvc.dll
 api_name:
  - IWbemEventSink.GetRestrictedSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

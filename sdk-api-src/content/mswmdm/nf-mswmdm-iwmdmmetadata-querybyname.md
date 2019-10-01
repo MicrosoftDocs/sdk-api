@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMMetaData.QueryByName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetActualSectionToInstall
  - SetupDiGetActualSectionToInstallW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

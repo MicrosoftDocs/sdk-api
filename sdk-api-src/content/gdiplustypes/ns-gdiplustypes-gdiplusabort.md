@@ -38,7 +38,6 @@ api_location:
  - GdiplusTypes.h
 api_name:
  - GdiplusAbort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

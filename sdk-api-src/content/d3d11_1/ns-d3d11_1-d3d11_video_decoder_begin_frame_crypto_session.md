@@ -38,7 +38,6 @@ api_location:
  - d3d11_1.h
 api_name:
  - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
-product: Windows
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 req.redist: 

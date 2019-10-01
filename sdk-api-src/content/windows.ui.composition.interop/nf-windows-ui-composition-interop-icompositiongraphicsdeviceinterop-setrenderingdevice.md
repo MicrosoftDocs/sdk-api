@@ -38,7 +38,6 @@ api_location:
  - windows.ui.composition.interop.h
 api_name:
  - ICompositionGraphicsDeviceInterop.SetRenderingDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

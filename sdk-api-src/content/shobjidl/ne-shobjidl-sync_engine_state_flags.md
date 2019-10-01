@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.h
 api_name:
  - SYNC_ENGINE_STATE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: SYNC_ENGINE_STATE_FLAGS
 req.redist: 

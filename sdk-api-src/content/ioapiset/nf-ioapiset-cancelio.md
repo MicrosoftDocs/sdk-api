@@ -42,7 +42,6 @@ api_location:
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
  - CancelIo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
 - WinBioEnumEnrollments
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

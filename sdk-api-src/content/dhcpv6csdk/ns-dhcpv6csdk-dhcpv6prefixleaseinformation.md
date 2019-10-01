@@ -38,7 +38,6 @@ api_location:
 - Dhcpv6csdk.h
 api_name:
 - DHCPV6PrefixLeaseInformation
-product: Windows
 targetos: Windows
 req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
 req.redist: 

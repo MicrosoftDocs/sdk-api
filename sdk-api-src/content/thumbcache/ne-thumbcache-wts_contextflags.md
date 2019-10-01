@@ -38,7 +38,6 @@ api_location:
  - Thumbcache.h
 api_name:
  - WTS_CONTEXTFLAGS
-product: Windows
 targetos: Windows
 req.typenames: WTS_CONTEXTFLAGS
 req.redist: 

@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_PenTip
  - InkDrawingAttributes.get_PenTip
  - InkDrawingAttributes.put_PenTip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

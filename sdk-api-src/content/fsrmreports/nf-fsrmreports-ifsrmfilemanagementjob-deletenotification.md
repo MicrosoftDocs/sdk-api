@@ -38,7 +38,6 @@ api_location:
  - SrmSvc.dll
 api_name:
  - IFsrmFileManagementJob.DeleteNotification
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 req.redist: 

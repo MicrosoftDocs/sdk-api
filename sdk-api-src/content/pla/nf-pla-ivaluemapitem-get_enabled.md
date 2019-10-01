@@ -40,7 +40,6 @@ api_name:
  - IValueMapItem.Enabled
  - IValueMapItem.get_Enabled
  - IValueMapItem.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

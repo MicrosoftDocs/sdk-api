@@ -38,7 +38,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IPicture.get_Width
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

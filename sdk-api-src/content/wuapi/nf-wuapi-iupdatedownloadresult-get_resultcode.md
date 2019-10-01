@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateDownloadResult.ResultCode
  - IUpdateDownloadResult.get_ResultCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

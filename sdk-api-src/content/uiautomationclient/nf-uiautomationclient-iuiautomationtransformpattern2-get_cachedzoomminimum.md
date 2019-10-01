@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CachedZoomMinimum
  - IUIAutomationTransformPattern2.get_CachedZoomMinimum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

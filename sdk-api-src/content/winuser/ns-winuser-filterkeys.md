@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - FILTERKEYS
-product: Windows
 targetos: Windows
 req.typenames: FILTERKEYS, *LPFILTERKEYS
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - CHString.Compare
  - ?Compare@CHString@@QBEHPBG@Z
  - ?Compare@CHString@@QEBAHPEBG@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

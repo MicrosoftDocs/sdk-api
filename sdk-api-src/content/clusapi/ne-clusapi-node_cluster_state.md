@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - NODE_CLUSTER_STATE
-product: Windows
 targetos: Windows
 req.typenames: NODE_CLUSTER_STATE
 req.redist: 

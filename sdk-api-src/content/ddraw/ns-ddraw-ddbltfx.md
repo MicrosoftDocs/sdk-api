@@ -38,7 +38,6 @@ api_location:
 - Ddraw.h
 api_name:
 - DDBLTFX
-product: Windows
 targetos: Windows
 req.typenames: DDBLTFX
 req.redist: 

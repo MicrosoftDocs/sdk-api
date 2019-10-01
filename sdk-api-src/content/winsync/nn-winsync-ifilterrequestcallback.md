@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - IFilterRequestCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - COMSVCSEVENTINFO
-product: Windows
 targetos: Windows
 req.typenames: COMSVCSEVENTINFO
 req.redist: 

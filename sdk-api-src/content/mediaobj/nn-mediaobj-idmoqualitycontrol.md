@@ -38,7 +38,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - IDMOQualityControl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

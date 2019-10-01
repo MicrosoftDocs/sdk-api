@@ -41,7 +41,6 @@ api_name:
 - FaxEnumJobs
 - FaxEnumJobsA
 - FaxEnumJobsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

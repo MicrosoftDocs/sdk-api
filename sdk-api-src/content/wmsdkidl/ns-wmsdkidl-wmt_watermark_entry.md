@@ -38,7 +38,6 @@ api_location:
  - Wmsdkidl.h
 api_name:
  - WMT_WATERMARK_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: WMT_WATERMARK_ENTRY
 req.redist: 

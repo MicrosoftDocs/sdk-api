@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRunningTask.CurrentAction
  - IRunningTask.get_CurrentAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

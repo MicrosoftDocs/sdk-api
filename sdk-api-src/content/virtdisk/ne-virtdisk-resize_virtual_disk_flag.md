@@ -38,7 +38,6 @@ api_location:
 - VirtDisk.h
 api_name:
 - RESIZE_VIRTUAL_DISK_FLAG
-product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_FLAG
 req.redist: 

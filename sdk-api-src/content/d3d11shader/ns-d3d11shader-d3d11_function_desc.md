@@ -38,7 +38,6 @@ api_location:
  - D3D11Shader.h
 api_name:
  - D3D11_FUNCTION_DESC
-product: Windows
 targetos: Windows
 req.typenames: D3D11_FUNCTION_DESC
 req.redist: 

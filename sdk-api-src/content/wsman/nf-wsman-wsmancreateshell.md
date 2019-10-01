@@ -38,7 +38,6 @@ api_location:
 - WsmSvc.dll
 api_name:
 - WSManCreateShell
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

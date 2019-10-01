@@ -39,7 +39,6 @@ api_location:
  - wkscli.dll
 api_name:
  - NetGetJoinInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

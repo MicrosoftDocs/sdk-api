@@ -38,7 +38,6 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsContainer.MoveHere
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

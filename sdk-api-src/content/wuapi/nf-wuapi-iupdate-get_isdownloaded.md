@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.IsDownloaded
  - IUpdate.get_IsDownloaded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

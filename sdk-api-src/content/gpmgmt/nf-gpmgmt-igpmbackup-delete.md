@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMBackup.Delete
  - GPMBackup.Delete
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

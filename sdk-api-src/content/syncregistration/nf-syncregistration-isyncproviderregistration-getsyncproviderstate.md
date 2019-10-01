@@ -38,7 +38,6 @@ api_location:
  - Syncregistration.h
 api_name:
  - ISyncProviderRegistration.GetSyncProviderState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - acmFilterTagEnumCallback
  - ACMFILTERTAGENUMCBA
  - ACMFILTERTAGENUMCBW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

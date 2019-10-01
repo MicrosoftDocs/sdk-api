@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_REDIRECT_PARAM
-product: Windows
 targetos: Windows
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
 req.redist: 

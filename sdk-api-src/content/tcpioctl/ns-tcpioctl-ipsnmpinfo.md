@@ -38,7 +38,6 @@ api_location:
  - Tcpioctl.h
 api_name:
  - IPSNMPInfo
-product: Windows
 targetos: Windows
 req.typenames: IPSNMPInfo
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dcommon.h
 api_name:
  - D2D_RECT_U
-product: Windows
 targetos: Windows
 req.typenames: D2D_RECT_U
 req.redist: 

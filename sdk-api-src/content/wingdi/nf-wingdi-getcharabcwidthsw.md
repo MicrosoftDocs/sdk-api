@@ -45,7 +45,6 @@ api_name:
 - GetCharABCWidths
 - GetCharABCWidthsA
 - GetCharABCWidthsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

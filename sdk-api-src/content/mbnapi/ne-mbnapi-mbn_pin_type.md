@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_PIN_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MBN_PIN_TYPE
 req.redist: 

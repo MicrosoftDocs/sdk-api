@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_SupportHighContrastSelectionUI
  - InkOverlay.get_SupportHighContrastSelectionUI
  - InkOverlay.put_SupportHighContrastSelectionUI
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

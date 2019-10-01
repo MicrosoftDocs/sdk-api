@@ -38,7 +38,6 @@ api_location:
  - ntddkbd.h
 api_name:
  - KEYBOARD_INPUT_DATA
-product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
 req.redist: 

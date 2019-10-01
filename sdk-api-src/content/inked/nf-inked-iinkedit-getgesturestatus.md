@@ -39,7 +39,6 @@ api_location:
  - InkEd.dll.dll
 api_name:
  - IInkEdit.GetGestureStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - vdssys.h
 api_name:
  - EXPAND_VIRTUAL_DISK_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS
 req.redist: 

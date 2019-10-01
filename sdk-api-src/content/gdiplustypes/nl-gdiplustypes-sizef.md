@@ -38,7 +38,6 @@ api_location:
  - gdiplustypes.h
 api_name:
  - SizeF
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

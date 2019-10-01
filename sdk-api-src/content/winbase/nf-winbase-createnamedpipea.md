@@ -55,7 +55,6 @@ api_name:
  - CreateNamedPipe
  - CreateNamedPipeA
  - CreateNamedPipeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

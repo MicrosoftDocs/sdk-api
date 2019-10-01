@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - ILocator.put_Modulation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

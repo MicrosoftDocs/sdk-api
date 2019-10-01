@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidPlayback.put_PositionMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

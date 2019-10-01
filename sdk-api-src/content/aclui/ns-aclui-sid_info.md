@@ -38,7 +38,6 @@ api_location:
 - Aclui.h
 api_name:
 - SID_INFO
-product: Windows
 targetos: Windows
 req.typenames: SID_INFO, *PSID_INFO
 req.redist: 

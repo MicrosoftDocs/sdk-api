@@ -50,7 +50,6 @@ api_name:
  - IWdsTransportMulticastSessionPolicy.SlowClientFallback
  - IWdsTransportMulticastSessionPolicy.get_SlowClientFallback
  - IWdsTransportMulticastSessionPolicy.put_SlowClientFallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

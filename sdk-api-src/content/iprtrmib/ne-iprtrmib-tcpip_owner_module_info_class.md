@@ -38,7 +38,6 @@ api_location:
  - Iprtrmib.h
 api_name:
  - TCPIP_OWNER_MODULE_INFO_CLASS
-product: Windows
 targetos: Windows
 req.typenames: TCPIP_OWNER_MODULE_INFO_CLASS, *PTCPIP_OWNER_MODULE_INFO_CLASS
 req.redist: 

@@ -43,7 +43,6 @@ api_location:
 api_name:
  - CharNextExA
  - CharNextExA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

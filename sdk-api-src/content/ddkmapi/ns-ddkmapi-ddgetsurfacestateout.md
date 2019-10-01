@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDGETSURFACESTATEOUT
-product: Windows
 targetos: Windows
 req.typenames: DDGETSURFACESTATEOUT, *LPDDGETSURFACESTATEOUT
 req.redist: 

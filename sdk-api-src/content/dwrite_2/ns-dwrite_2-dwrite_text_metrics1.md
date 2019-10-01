@@ -38,7 +38,6 @@ api_location:
  - dwrite_2.h
 api_name:
  - DWRITE_TEXT_METRICS1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

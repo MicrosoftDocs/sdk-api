@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTER_VALIDATE_NETNAME
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_VALIDATE_NETNAME, *PCLUSTER_VALIDATE_NETNAME
 req.redist: 

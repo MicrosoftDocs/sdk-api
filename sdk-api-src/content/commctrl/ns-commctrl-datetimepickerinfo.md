@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - DATETIMEPICKERINFO
-product: Windows
 targetos: Windows
 req.typenames: DATETIMEPICKERINFO, *LPDATETIMEPICKERINFO
 req.redist: 

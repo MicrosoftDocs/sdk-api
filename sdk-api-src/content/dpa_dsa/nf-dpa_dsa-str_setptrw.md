@@ -40,7 +40,6 @@ api_name:
  - Str_SetPtr
  - Str_SetPtrA
  - Str_SetPtrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

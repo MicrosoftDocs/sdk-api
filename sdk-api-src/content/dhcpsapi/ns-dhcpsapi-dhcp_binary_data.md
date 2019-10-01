@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_BINARY_DATA
-product: Windows
 targetos: Windows
 req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wab32.dll
 api_name:
  - IContactProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

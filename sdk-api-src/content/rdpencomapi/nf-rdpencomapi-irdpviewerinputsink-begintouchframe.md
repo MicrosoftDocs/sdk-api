@@ -38,7 +38,6 @@ api_location:
  - RdpEncom.dll
 api_name:
  - IRDPViewerInputSink.BeginTouchFrame
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

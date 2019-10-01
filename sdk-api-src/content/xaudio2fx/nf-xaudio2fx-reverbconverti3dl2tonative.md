@@ -38,7 +38,6 @@ api_location:
  - xaudio2fx.h
 api_name:
  - ReverbConvertI3DL2ToNative
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

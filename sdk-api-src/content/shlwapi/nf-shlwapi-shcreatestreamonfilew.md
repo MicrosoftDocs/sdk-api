@@ -44,7 +44,6 @@ api_name:
  - SHCreateStreamOnFile
  - SHCreateStreamOnFileA
  - SHCreateStreamOnFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

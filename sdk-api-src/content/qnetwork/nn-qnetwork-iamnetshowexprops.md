@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetShowExProps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

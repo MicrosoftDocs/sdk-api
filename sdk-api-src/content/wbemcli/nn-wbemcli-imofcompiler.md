@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMofCompiler
  - MofCompiler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

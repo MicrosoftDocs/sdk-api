@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_WRITEBUFFERIMMEDIATE_MODE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_WRITEBUFFERIMMEDIATE_MODE
 req.redist: 

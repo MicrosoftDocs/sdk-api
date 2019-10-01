@@ -38,7 +38,6 @@ api_location:
  - Ddraw.h
 api_name:
  - DDOVERLAYFX
-product: Windows
 targetos: Windows
 req.typenames: DDOVERLAYFX
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEMONITORTONE
-product: Windows
 targetos: Windows
 req.typenames: LINEMONITORTONE, *LPLINEMONITORTONE
 req.redist: 

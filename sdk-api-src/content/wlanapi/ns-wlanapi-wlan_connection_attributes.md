@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_CONNECTION_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: WLAN_CONNECTION_ATTRIBUTES, *PWLAN_CONNECTION_ATTRIBUTES
 req.redist: Wireless LAN API for Windows XP with SP2

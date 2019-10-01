@@ -40,7 +40,6 @@ api_name:
  - IGPMSecurityInfo.Count
  - IGPMSecurityInfo.get_Count
  - GPMSecurityInfo.Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - CALL_STATE
-product: Windows
 targetos: Windows
 req.typenames: CALL_STATE
 req.redist: 

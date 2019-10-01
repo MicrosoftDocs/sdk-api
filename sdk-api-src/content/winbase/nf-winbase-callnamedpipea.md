@@ -44,7 +44,6 @@ api_name:
  - CallNamedPipe
  - CallNamedPipeA
  - CallNamedPipeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

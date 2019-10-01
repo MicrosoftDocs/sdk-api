@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEINITIALIZEEXPARAMS
-product: Windows
 targetos: Windows
 req.typenames: LINEINITIALIZEEXPARAMS, *LPLINEINITIALIZEEXPARAMS
 req.redist: 

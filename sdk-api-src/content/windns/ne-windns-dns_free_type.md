@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_FREE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DNS_FREE_TYPE
 req.redist: 

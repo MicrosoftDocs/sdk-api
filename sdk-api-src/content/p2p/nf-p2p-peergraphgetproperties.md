@@ -38,7 +38,6 @@ api_location:
  - P2PGraph.dll
 api_name:
  - PeerGraphGetProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

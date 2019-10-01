@@ -41,7 +41,6 @@ api_name:
  - MsiDatabaseIsTablePersistent
  - MsiDatabaseIsTablePersistentA
  - MsiDatabaseIsTablePersistentW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

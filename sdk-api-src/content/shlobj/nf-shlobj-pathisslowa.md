@@ -40,7 +40,6 @@ api_name:
  - PathIsSlow
  - PathIsSlowA
  - PathIsSlowW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

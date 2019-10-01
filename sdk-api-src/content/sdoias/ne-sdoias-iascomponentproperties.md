@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - IASCOMPONENTPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: IASCOMPONENTPROPERTIES
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_REPLICAPOINTER
-product: Windows
 targetos: Windows
 req.typenames: ADS_REPLICAPOINTER, *PADS_REPLICAPOINTER
 req.redist: 

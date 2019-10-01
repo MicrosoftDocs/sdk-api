@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSession.MasterClientId
  - IWdsTransportSession.get_MasterClientId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

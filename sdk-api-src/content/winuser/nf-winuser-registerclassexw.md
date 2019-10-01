@@ -48,7 +48,6 @@ api_name:
  - RegisterClassEx
  - RegisterClassExA
  - RegisterClassExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyEnrollment.CAName
  - ICertPropertyEnrollment.get_CAName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

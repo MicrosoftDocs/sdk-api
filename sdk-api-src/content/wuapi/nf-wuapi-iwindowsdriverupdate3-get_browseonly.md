@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate3.BrowseOnly
  - IWindowsDriverUpdate3.get_BrowseOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

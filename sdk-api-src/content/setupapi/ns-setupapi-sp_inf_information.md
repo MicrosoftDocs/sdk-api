@@ -38,7 +38,6 @@ api_location:
  - Setupapi.h
 api_name:
  - SP_INF_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
 req.redist: 

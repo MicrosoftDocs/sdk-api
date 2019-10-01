@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - PERBANDINFO
-product: Windows
 targetos: Windows
 req.typenames: PERBANDINFO, *PPERBANDINFO
 req.redist: 

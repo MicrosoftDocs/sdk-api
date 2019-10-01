@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_LEAFSET_KEY_CHANGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DRT_LEAFSET_KEY_CHANGE_TYPE
 req.redist: 

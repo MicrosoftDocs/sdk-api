@@ -38,7 +38,6 @@ api_location:
  - mmstream.h
 api_name:
  - IStreamSample.GetSampleTimes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Shlwapi.h
 api_name:
  - ASSOCSTR
-product: Windows
 targetos: Windows
 req.typenames: ASSOCSTR
 req.redist: 

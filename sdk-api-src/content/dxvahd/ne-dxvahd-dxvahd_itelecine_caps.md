@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_ITELECINE_CAPS
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_ITELECINE_CAPS
 req.redist: 

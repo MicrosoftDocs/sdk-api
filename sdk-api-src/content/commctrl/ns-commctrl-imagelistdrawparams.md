@@ -38,7 +38,6 @@ api_location:
  - commoncontrols.h
 api_name:
  - IMAGELISTDRAWPARAMS
-product: Windows
 targetos: Windows
 req.typenames: IMAGELISTDRAWPARAMS, *LPIMAGELISTDRAWPARAMS
 req.redist: 

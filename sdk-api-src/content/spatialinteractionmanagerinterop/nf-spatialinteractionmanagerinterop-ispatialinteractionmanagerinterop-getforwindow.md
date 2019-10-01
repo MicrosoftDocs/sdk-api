@@ -38,7 +38,6 @@ api_location:
  - SpatialInteractionManagerInterop.h
 api_name:
  - ISpatialInteractionManagerInterop.GetForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

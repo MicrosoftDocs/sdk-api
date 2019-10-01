@@ -38,7 +38,6 @@ api_location:
 - Wsman.h
 api_name:
 - WSMAN_SHELL_DISCONNECT_INFO
-product: Windows
 targetos: Windows
 req.typenames: WSMAN_SHELL_DISCONNECT_INFO
 req.redist: 

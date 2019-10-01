@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyRequestOriginator.RequestOriginator
  - ICertPropertyRequestOriginator.get_RequestOriginator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

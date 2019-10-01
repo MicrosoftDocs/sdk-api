@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CALLBACK_MODEL
-product: Windows
 targetos: Windows
 req.typenames: WS_CALLBACK_MODEL
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxPort.Rings
  - IFaxPort.get_Rings
  - IFaxPort.put_Rings
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

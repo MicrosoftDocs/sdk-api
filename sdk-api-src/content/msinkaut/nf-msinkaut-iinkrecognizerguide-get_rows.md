@@ -43,7 +43,6 @@ api_name:
  - IInkRecognizerGuide.put_Rows
  - InkRecognizerGuide.get_Rows
  - InkRecognizerGuide.put_Rows
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

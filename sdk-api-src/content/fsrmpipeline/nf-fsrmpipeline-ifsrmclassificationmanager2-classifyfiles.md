@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IFsrmClassificationManager2.ClassifyFiles
 - FsrmClassificationManager.ClassifyFiles
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

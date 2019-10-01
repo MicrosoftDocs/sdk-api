@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_PROXY_PROPERTY
-product: Windows
 targetos: Windows
 req.typenames: WS_PROXY_PROPERTY
 req.redist: 

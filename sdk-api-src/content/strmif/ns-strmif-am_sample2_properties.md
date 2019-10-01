@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - AM_SAMPLE2_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: AM_SAMPLE2_PROPERTIES
 req.redist: 

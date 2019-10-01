@@ -38,7 +38,6 @@ api_location:
  - Wlanapi.h
 api_name:
  - WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
-product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS, *PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 req.redist: 

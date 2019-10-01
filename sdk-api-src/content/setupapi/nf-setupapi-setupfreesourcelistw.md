@@ -40,7 +40,6 @@ api_name:
  - SetupFreeSourceList
  - SetupFreeSourceListA
  - SetupFreeSourceListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationCacheRequest.TreeScope
  - IUIAutomationCacheRequest.get_TreeScope
  - IUIAutomationCacheRequest.put_TreeScope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

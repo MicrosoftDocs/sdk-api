@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUS_RESSUBCLASS_STORAGE
-product: Windows
 targetos: Windows
 req.typenames: CLUS_RESSUBCLASS_STORAGE
 req.redist: 

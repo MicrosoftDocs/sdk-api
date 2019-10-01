@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.dll
 api_name:
  - CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ole32.dll
 api_name:
  - CoHandlePriorityEventsFromMessagePump
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

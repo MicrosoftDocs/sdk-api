@@ -39,7 +39,6 @@ api_location:
  - MsClus.h
 api_name:
  - CLUSTER_RESOURCE_TYPE_ENUM
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_TYPE_ENUM
 req.redist: 

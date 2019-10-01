@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - FILE_IO_PRIORITY_HINT_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_IO_PRIORITY_HINT_INFO, *PFILE_IO_PRIORITY_HINT_INFO
 req.redist: 

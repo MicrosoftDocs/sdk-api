@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.DaysSinceFileLastAccessed
  - IFsrmFileManagementJob.get_DaysSinceFileLastAccessed
  - IFsrmFileManagementJob.put_DaysSinceFileLastAccessed
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

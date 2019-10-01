@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateInstallationResult.RebootRequired
  - IUpdateInstallationResult.get_RebootRequired
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

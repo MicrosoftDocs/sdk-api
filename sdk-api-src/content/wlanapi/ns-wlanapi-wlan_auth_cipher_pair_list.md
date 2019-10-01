@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_AUTH_CIPHER_PAIR_LIST
-product: Windows
 targetos: Windows
 req.typenames: WLAN_AUTH_CIPHER_PAIR_LIST, *PWLAN_AUTH_CIPHER_PAIR_LIST
 req.redist: Wireless LAN API for Windows XP with SP2

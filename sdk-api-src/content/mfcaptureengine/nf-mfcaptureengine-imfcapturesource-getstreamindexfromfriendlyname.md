@@ -38,7 +38,6 @@ api_location:
  - Mfcaptureengine.h
 api_name:
  - IMFCaptureSource.GetStreamIndexFromFriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

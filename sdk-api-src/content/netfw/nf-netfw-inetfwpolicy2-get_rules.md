@@ -39,7 +39,6 @@ api_location:
 api_name:
  - INetFwPolicy2.Rules
  - INetFwPolicy2.get_Rules
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

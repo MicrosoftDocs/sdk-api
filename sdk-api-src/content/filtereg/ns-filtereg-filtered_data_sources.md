@@ -38,7 +38,6 @@ api_location:
  - filtereg.h
 api_name:
  - FILTERED_DATA_SOURCES
-product: Windows
 targetos: Windows
 req.typenames: FILTERED_DATA_SOURCES
 req.redist: 

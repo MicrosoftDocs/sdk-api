@@ -40,7 +40,6 @@ api_name:
  - MethodContext.SetStatusObject
  - ?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z
  - ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

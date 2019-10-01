@@ -39,7 +39,6 @@ api_location:
 api_name:
  - MIXERLINECONTROLS
  - MIXERLINECONTROLSW
-product: Windows
 targetos: Windows
 req.typenames: MIXERLINECONTROLSW, *PMIXERLINECONTROLSW, *LPMIXERLINECONTROLSW
 req.redist: 

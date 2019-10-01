@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_RADIO
-product: Windows
 targetos: Windows
 req.typenames: MBN_RADIO
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITaskSettings2.DisallowStartOnRemoteAppSession
  - ITaskSettings2.get_DisallowStartOnRemoteAppSession
  - ITaskSettings2.put_DisallowStartOnRemoteAppSession
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - RestartManager.h
 api_name:
  - RM_REBOOT_REASON
-product: Windows
 targetos: Windows
 req.typenames: RM_REBOOT_REASON
 req.redist: 

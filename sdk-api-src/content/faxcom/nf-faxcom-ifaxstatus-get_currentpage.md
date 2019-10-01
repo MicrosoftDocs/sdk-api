@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxStatus.CurrentPage
  - IFaxStatus.get_CurrentPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

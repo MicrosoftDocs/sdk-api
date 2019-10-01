@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileGroupImported.OverwriteOnCommit
  - IFsrmFileGroupImported.get_OverwriteOnCommit
  - IFsrmFileGroupImported.put_OverwriteOnCommit
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

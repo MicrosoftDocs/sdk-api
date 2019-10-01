@@ -38,7 +38,6 @@ api_location:
  - d3d12sdklayers.h
 api_name:
  - D3D12_MESSAGE_SEVERITY
-product: Windows
 targetos: Windows
 req.typenames: D3D12_MESSAGE_SEVERITY
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.LocalLNBSwitchOverride
  - IDVBSLocator2.get_LocalLNBSwitchOverride
  - IDVBSLocator2.put_LocalLNBSwitchOverride
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

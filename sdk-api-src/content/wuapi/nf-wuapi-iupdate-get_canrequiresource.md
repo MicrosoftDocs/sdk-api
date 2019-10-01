@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.CanRequireSource
  - IUpdate.get_CanRequireSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

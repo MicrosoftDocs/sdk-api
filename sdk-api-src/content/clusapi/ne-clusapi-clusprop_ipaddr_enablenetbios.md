@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_IPADDR_ENABLENETBIOS
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_IPADDR_ENABLENETBIOS
 req.redist: 

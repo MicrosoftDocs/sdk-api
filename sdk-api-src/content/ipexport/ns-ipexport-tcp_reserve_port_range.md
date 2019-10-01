@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - TCP_RESERVE_PORT_RANGE
-product: Windows
 targetos: Windows
 req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
 req.redist: 

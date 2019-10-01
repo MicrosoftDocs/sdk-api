@@ -38,7 +38,6 @@ api_location:
  - Wdstci.h
 api_name:
  - TRANSPORTCLIENT_SESSION_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRANSPORTCLIENT_SESSION_INFO, *PTRANSPORTCLIENT_SESSION_INFO
 req.redist: 

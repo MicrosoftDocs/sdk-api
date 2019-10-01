@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.InstallationBehavior
  - IUpdate.get_InstallationBehavior
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - aviriff.h
 api_name:
 - AVISTDINDEX
-product: Windows
 targetos: Windows
 req.typenames: AVISTDINDEX
 req.redist: 

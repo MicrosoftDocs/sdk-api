@@ -38,7 +38,6 @@ api_location:
  - d2d1svg.h
 api_name:
  - D2D1_SVG_LENGTH
-product: Windows
 targetos: Windows
 req.typenames: D2D1_SVG_LENGTH
 req.redist: 

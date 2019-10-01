@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - IWMMutualExclusion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

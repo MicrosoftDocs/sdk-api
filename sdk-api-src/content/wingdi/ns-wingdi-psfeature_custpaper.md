@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - PSFEATURE_CUSTPAPER
-product: Windows
 targetos: Windows
 req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
 req.redist: 

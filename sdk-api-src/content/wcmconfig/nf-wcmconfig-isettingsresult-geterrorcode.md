@@ -38,7 +38,6 @@ api_location:
  - SMIEngine.dll
 api_name:
  - ISettingsResult.GetErrorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

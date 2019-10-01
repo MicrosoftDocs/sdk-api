@@ -40,7 +40,6 @@ api_name:
  - DsAddSidHistory
  - DsAddSidHistoryA
  - DsAddSidHistoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

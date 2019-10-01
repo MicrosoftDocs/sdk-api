@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDMStorage2.SetAttributes2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

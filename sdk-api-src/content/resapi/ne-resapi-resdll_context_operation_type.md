@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESDLL_CONTEXT_OPERATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RESDLL_CONTEXT_OPERATION_TYPE, *PRESDLL_CONTEXT_OPERATION_TYPE
 req.redist: 

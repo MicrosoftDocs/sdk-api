@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - PACKAGE_EXECUTION_STATE
-product: Windows
 targetos: Windows
 req.typenames: PACKAGE_EXECUTION_STATE
 req.redist: 

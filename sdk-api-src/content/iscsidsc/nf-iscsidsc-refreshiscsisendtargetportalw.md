@@ -40,7 +40,6 @@ api_name:
  - RefreshIscsiSendTargetPortal
  - RefreshIscsiSendTargetPortalA
  - RefreshIscsiSendTargetPortalW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_NEIGHBOR_STATE
-product: Windows
 targetos: Windows
 req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
 req.redist: 

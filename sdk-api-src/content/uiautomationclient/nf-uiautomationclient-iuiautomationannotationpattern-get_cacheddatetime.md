@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CachedDateTime
  - IUIAutomationAnnotationPattern.get_CachedDateTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

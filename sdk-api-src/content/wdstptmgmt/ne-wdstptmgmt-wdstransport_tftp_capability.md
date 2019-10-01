@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 req.redist: 

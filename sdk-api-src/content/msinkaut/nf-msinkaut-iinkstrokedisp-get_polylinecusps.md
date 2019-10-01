@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.PolylineCusps
  - IInkStrokeDisp.get_PolylineCusps
  - IInkStrokeDisp.get_PolylineCusps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

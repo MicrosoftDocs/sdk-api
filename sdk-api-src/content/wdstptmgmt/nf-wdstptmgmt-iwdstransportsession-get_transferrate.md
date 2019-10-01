@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportSession.TransferRate
  - IWdsTransportSession.get_TransferRate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

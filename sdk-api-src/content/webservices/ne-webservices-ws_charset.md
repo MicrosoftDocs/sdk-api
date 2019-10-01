@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CHARSET
-product: Windows
 targetos: Windows
 req.typenames: WS_CHARSET
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - taskschd.h
 api_name:
  - TASK_STATE
-product: Windows
 targetos: Windows
 req.typenames: TASK_STATE
 req.redist: 

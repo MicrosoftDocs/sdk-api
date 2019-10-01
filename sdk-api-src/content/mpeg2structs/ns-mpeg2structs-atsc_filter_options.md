@@ -38,7 +38,6 @@ api_location:
  - mpeg2structs.h
 api_name:
  - ATSC_FILTER_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: ATSC_FILTER_OPTIONS
 req.redist: 

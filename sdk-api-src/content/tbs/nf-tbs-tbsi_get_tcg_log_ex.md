@@ -38,7 +38,6 @@ api_location:
  - Tbs.dll
 api_name:
  - Tbsi_Get_TCG_Log_Ex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

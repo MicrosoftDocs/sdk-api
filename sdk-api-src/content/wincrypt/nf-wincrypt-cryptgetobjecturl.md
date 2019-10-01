@@ -38,7 +38,6 @@ api_location:
 - Cryptnet.dll
 api_name:
 - CryptGetObjectUrl
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

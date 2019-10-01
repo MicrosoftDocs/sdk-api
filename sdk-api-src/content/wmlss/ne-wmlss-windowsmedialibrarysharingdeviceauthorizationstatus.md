@@ -38,7 +38,6 @@ api_location:
  - wmlss.h
 api_name:
  - WindowsMediaLibrarySharingDeviceAuthorizationStatus
-product: Windows
 targetos: Windows
 req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
 req.redist: 

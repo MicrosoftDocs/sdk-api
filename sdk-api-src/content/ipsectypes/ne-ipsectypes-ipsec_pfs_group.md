@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_PFS_GROUP
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_PFS_GROUP
 req.redist: 

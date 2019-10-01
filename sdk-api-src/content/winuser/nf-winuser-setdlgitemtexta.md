@@ -43,7 +43,6 @@ api_name:
  - SetDlgItemText
  - SetDlgItemTextA
  - SetDlgItemTextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

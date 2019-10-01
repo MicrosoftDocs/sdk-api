@@ -38,7 +38,6 @@ api_location:
  - D3D11ShaderTracing.h
 api_name:
  - D3D11_SHADER_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D11_SHADER_TYPE
 req.redist: 

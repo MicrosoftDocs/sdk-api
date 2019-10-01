@@ -50,7 +50,6 @@ api_name:
  - GetProp
  - GetPropA
  - GetPropW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

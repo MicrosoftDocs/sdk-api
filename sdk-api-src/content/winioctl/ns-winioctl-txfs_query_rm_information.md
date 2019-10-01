@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - TXFS_QUERY_RM_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TXFS_QUERY_RM_INFORMATION, *PTXFS_QUERY_RM_INFORMATION
 req.redist: 

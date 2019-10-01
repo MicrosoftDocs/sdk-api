@@ -40,7 +40,6 @@ api_name:
  - ITimeTrigger.RandomDelay
  - ITimeTrigger.get_RandomDelay
  - ITimeTrigger.put_RandomDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

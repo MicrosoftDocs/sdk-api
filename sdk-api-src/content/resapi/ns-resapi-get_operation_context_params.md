@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - GET_OPERATION_CONTEXT_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: GET_OPERATION_CONTEXT_PARAMS, *PGET_OPERATION_CONTEXT_PARAMS
 req.redist: 

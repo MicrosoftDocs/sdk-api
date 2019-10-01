@@ -38,7 +38,6 @@ api_location:
 - websocket.dll
 api_name:
 - WebSocketSend
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

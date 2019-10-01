@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapTransformOptions
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapTransformOptions
 req.redist: 

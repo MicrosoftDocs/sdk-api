@@ -38,7 +38,6 @@ api_location:
  - Wsnwlink.h
 api_name:
  - IPX_NETNUM_DATA
-product: Windows
 targetos: Windows
 req.typenames: IPX_NETNUM_DATA, *PIPX_NETNUM_DATA
 req.redist: 

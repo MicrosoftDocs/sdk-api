@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - ASF_STATUSFLAGS
-product: Windows
 targetos: Windows
 req.typenames: ASF_STATUSFLAGS
 req.redist: 

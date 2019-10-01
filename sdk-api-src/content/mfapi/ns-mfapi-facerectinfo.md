@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - FaceRectInfo
-product: Windows
 targetos: Windows
 req.typenames: FaceRectInfo
 req.redist: 

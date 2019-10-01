@@ -40,7 +40,6 @@ api_name:
  - IFaxIncomingJob.CurrentPage
  - IFaxIncomingJob.get_CurrentPage
  - IFaxIncomingJob.get_CurrentPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

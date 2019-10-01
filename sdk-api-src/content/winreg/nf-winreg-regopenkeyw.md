@@ -43,7 +43,6 @@ api_name:
  - RegOpenKey
  - RegOpenKeyA
  - RegOpenKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

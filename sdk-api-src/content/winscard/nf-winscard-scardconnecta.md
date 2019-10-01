@@ -42,7 +42,6 @@ api_name:
  - SCardConnect
  - SCardConnectA
  - SCardConnectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

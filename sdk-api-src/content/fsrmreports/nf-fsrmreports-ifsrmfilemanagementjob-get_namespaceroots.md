@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.NamespaceRoots
  - IFsrmFileManagementJob.get_NamespaceRoots
  - IFsrmFileManagementJob.put_NamespaceRoots
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

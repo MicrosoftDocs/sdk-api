@@ -38,7 +38,6 @@ api_location:
  - Cmnquery.h
 api_name:
  - OPENQUERYWINDOW
-product: Windows
 targetos: Windows
 req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
 req.redist: 

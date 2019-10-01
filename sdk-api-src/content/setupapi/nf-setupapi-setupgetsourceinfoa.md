@@ -40,7 +40,6 @@ api_name:
  - SetupGetSourceInfo
  - SetupGetSourceInfoA
  - SetupGetSourceInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

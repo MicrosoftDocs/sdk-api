@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_MarginX
  - InkPicture.get_MarginX
  - InkPicture.put_MarginX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

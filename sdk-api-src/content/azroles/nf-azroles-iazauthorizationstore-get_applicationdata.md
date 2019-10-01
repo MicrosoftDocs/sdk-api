@@ -41,7 +41,6 @@ api_name:
  - IAzAuthorizationStore.get_ApplicationData
  - IAzAuthorizationStore.put_ApplicationData
  - AzAuthorizationStore.ApplicationData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

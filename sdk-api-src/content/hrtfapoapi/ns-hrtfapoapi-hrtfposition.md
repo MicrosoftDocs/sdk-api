@@ -38,7 +38,6 @@ api_location:
  - HrtfApoApi.h
 api_name:
  - HrtfPosition
-product: Windows
 targetos: Windows
 req.typenames: HrtfPosition
 req.redist: 

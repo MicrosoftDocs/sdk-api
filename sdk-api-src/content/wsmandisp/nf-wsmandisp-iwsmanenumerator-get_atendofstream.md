@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWSManEnumerator.AtEndOfStream
  - IWSManEnumerator.get_AtEndOfStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

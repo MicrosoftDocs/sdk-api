@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxRoutingMethod.FriendlyName
  - IFaxRoutingMethod.get_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

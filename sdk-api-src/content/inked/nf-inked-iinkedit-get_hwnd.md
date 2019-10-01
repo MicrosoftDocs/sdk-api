@@ -41,7 +41,6 @@ api_name:
  - IInkEdit.Hwnd
  - IInkEdit.get_Hwnd
  - InkEdit.get_Hwnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

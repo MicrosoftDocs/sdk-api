@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetworkStatus.get_RecoveredPackets
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

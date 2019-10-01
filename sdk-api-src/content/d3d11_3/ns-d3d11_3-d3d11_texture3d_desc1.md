@@ -38,7 +38,6 @@ api_location:
  - D3D11_3.h
 api_name:
  - D3D11_TEXTURE3D_DESC1
-product: Windows
 targetos: Windows
 req.typenames: D3D11_TEXTURE3D_DESC1
 req.redist: 

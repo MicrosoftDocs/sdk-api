@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CachedOrientation
  - IUIAutomationElement.get_CachedOrientation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

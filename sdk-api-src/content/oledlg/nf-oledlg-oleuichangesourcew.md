@@ -40,7 +40,6 @@ api_name:
  - OleUIChangeSource
  - OleUIChangeSourceA
  - OleUIChangeSourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

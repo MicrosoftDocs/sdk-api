@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFVideoInterlaceMode
-product: Windows
 targetos: Windows
 req.typenames: MFVideoInterlaceMode
 req.redist: 

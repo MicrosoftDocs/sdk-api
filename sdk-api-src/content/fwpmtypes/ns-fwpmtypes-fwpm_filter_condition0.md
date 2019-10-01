@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_FILTER_CONDITION0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_FILTER_CONDITION0
 req.redist: 

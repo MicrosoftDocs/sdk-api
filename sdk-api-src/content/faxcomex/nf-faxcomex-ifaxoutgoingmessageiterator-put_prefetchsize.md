@@ -42,7 +42,6 @@ api_name:
  - IFaxOutgoingMessageIterator.put_PrefetchSize
  - IFaxOutgoingMessageIterator.get_PrefetchSize
  - IFaxOutgoingMessageIterator.put_PrefetchSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

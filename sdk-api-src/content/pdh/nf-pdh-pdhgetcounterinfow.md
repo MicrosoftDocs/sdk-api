@@ -40,7 +40,6 @@ api_name:
 - PdhGetCounterInfo
 - PdhGetCounterInfoA
 - PdhGetCounterInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

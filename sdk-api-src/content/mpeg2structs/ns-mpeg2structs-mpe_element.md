@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPE_ELEMENT
-product: Windows
 targetos: Windows
 req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
  - AssocGetPerceivedType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

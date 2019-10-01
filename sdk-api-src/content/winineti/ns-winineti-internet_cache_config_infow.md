@@ -38,7 +38,6 @@ api_location:
  - Winineti.h
 api_name:
  - INTERNET_CACHE_CONFIG_INFO
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_CACHE_CONFIG_INFOW, *LPINTERNET_CACHE_CONFIG_INFOW
 req.redist: 

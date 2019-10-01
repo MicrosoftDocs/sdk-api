@@ -38,7 +38,6 @@ api_location:
  - RpcRT4.dll
 api_name:
  - Ndr64AsyncClientCall
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

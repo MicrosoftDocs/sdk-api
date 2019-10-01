@@ -38,7 +38,6 @@ api_location:
  - Uiribbon.h
 api_name:
  - UI_EVENTPARAMS
-product: Windows
 targetos: Windows
 req.typenames: UI_EVENTPARAMS
 req.redist: 

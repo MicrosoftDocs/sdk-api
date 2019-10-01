@@ -38,7 +38,6 @@ api_location:
  - WcsPlugIn.h
 api_name:
  - GamutShellTriangle
-product: Windows
 targetos: Windows
 req.typenames: GamutShellTriangle
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.dll
 api_name:
 - CryptXmlOpenToEncode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

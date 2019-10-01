@@ -38,7 +38,6 @@ api_location:
  - Magnification.h
 api_name:
  - MAGCOLOREFFECT
-product: Windows
 targetos: Windows
 req.typenames: MAGCOLOREFFECT, *PMAGCOLOREFFECT
 req.redist: 

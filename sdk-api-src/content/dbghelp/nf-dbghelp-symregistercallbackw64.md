@@ -41,7 +41,6 @@ api_name:
  - SymRegisterCallback64
  - SymRegisterCallbackW64
  - SymRegisterCallback
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

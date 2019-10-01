@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - GID_ROTATE_ANGLE_TO_ARGUMENT
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

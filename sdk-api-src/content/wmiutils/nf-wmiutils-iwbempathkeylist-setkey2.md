@@ -38,7 +38,6 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemPathKeyList.SetKey2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_REVOCATION_PARA
-product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_PARA, *PCERT_REVOCATION_PARA
 req.redist: 

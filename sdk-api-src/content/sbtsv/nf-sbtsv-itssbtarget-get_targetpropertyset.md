@@ -43,7 +43,6 @@ api_name:
  - ITsSbTargetEx.TargetPropertySet
  - ITsSbTargetEx.get_TargetPropertySet
  - ITsSbTargetEx.put_TargetPropertySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

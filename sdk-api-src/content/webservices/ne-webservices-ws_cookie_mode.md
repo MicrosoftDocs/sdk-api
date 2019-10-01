@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_COOKIE_MODE
-product: Windows
 targetos: Windows
 req.typenames: WS_COOKIE_MODE
 req.redist: 

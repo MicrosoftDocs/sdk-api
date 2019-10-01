@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - DeploymentAction
-product: Windows
 targetos: Windows
 req.typenames: DeploymentAction
 req.redist: 

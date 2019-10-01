@@ -38,7 +38,6 @@ api_location:
  - WSManDisp.h
 api_name:
  - WSManProxyAuthenticationFlags
-product: Windows
 targetos: Windows
 req.typenames: WSManProxyAuthenticationFlags
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

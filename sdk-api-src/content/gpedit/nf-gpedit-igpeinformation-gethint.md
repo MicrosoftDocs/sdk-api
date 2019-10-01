@@ -38,7 +38,6 @@ api_location:
  - Gpedit.dll
 api_name:
  - IGPEInformation.GetHint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

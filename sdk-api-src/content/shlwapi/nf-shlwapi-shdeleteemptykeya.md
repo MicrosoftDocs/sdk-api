@@ -45,7 +45,6 @@ api_name:
  - SHDeleteEmptyKey
  - SHDeleteEmptyKeyA
  - SHDeleteEmptyKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

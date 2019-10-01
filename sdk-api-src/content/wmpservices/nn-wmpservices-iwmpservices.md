@@ -38,7 +38,6 @@ api_location:
  - wmpservices.h
 api_name:
  - IWMPServices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - D3D10_TEX2DMS_ARRAY_DSV
-product: Windows
 targetos: Windows
 req.typenames: D3D10_TEX2DMS_ARRAY_DSV
 req.redist: 

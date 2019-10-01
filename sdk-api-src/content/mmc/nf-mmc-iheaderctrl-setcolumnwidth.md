@@ -38,7 +38,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IHeaderCtrl.SetColumnWidth
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Audiosessiontypes.h
 api_name:
  - AUDCLNT_SHAREMODE
-product: Windows
 targetos: Windows
 req.typenames: AUDCLNT_SHAREMODE
 req.redist: 

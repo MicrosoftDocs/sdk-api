@@ -38,7 +38,6 @@ api_location:
 - Qos2.h
 api_name:
 - QOS_PACKET_PRIORITY
-product: Windows
 targetos: Windows
 req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
 req.redist: 

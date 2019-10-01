@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - IOCTL_VOLUME_GET_GPT_ATTRIBUTES
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

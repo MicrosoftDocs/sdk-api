@@ -38,7 +38,6 @@ api_location:
 - imapi2.h
 api_name:
 - IDiscFormat2RawCD.get_CurrentPhysicalMediaType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - PALOBJ
-product: Windows
 targetos: Windows
 req.typenames: PALOBJ
 req.redist: 

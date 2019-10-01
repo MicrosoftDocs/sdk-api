@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

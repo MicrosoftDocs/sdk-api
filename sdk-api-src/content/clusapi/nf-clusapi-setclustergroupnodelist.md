@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.dll
 api_name:
  - SetClusterGroupNodeList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

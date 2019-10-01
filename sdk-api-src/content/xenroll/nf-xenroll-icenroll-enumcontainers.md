@@ -42,7 +42,6 @@ api_name:
  - ICEnroll2.enumContainers
  - ICEnroll.enumContainers
  - CEnroll.enumContainers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - IInkCollector.put_MousePointer
  - InkCollector.get_MousePointer
  - InkCollector.put_MousePointer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

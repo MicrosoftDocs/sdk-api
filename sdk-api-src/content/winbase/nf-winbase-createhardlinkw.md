@@ -45,7 +45,6 @@ api_name:
  - CreateHardLink
  - CreateHardLinkA
  - CreateHardLinkW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

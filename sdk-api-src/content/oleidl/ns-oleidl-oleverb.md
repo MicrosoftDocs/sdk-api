@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEVERB
-product: Windows
 targetos: Windows
 req.typenames: OLEVERB, *LPOLEVERB
 req.redist: 

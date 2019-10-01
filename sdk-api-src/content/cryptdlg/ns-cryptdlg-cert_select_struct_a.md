@@ -40,7 +40,6 @@ api_name:
 - CERT_SELECT_STRUCT
 - CERT_SELECT_STRUCT_A
 - CERT_SELECT_STRUCT_W
-product: Windows
 targetos: Windows
 req.typenames: CERT_SELECT_STRUCT_A, *PCERT_SELECT_STRUCT_A
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyChangeArray.InsertAt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

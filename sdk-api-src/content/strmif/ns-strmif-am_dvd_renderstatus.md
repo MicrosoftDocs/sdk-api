@@ -38,7 +38,6 @@ api_location:
 - strmif.h
 api_name:
 - AM_DVD_RENDERSTATUS
-product: Windows
 targetos: Windows
 req.typenames: AM_DVD_RENDERSTATUS
 req.redist: 

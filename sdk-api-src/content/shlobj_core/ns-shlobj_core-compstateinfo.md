@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - COMPSTATEINFO
-product: Windows
 targetos: Windows
 req.typenames: COMPSTATEINFO
 req.redist: 

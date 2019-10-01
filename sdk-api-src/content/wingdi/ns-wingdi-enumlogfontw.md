@@ -40,7 +40,6 @@ api_name:
  - ENUMLOGFONT
  - ENUMLOGFONTA
  - ENUMLOGFONTW
-product: Windows
 targetos: Windows
 req.typenames: ENUMLOGFONTW, *LPENUMLOGFONTW
 req.redist: 

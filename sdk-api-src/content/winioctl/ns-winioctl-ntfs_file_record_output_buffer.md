@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - NTFS_FILE_RECORD_OUTPUT_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: NTFS_FILE_RECORD_OUTPUT_BUFFER, *PNTFS_FILE_RECORD_OUTPUT_BUFFER
 req.redist: 

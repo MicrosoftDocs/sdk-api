@@ -38,7 +38,6 @@ api_location:
  - Winldap.h
 api_name:
  - LDAPVLVInfo
-product: Windows
 targetos: Windows
 req.typenames: LDAPVLVInfo, *PLDAPVLVInfo
 req.redist: 

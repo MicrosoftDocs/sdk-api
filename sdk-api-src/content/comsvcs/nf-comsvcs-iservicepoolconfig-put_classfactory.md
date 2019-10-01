@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IServicePoolConfig.put_ClassFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

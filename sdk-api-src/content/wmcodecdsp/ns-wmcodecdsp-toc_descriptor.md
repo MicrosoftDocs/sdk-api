@@ -38,7 +38,6 @@ api_location:
  - wmcodecdsp.h
 api_name:
  - TOC_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: TOC_DESCRIPTOR
 req.redist: 

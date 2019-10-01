@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SecPkgContext_LastClientTokenStatus
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus
 req.redist: 

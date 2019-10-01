@@ -38,7 +38,6 @@ api_location:
  - Imagehlp.dll
 api_name:
  - SplitSymbols
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

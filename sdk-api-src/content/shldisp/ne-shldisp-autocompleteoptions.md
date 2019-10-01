@@ -38,7 +38,6 @@ api_location:
 - Shldisp.h
 api_name:
 - AUTOCOMPLETEOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: AUTOCOMPLETEOPTIONS
 req.redist: 

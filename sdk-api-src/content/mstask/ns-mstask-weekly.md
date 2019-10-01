@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - WEEKLY
-product: Windows
 targetos: Windows
 req.typenames: WEEKLY
 req.redist: 

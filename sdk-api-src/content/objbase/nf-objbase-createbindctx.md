@@ -41,7 +41,6 @@ api_location:
  - Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
 api_name:
  - CreateBindCtx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

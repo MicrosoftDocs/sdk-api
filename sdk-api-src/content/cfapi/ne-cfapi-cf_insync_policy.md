@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_INSYNC_POLICY
-product: Windows
 targetos: Windows
 req.typenames: CF_INSYNC_POLICY
 req.redist: 

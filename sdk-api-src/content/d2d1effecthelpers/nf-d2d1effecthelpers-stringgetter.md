@@ -38,7 +38,6 @@ api_location:
  - d2d1.dll
 api_name:
  - StringGetter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

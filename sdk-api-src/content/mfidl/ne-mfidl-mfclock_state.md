@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_CLOCK_STATE
-product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_STATE
 req.redist: 

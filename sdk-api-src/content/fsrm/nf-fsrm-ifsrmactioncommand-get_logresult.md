@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.LogResult
  - IFsrmActionCommand.get_LogResult
  - IFsrmActionCommand.put_LogResult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

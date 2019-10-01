@@ -38,7 +38,6 @@ api_location:
  - VsMgmt.h
 api_name:
  - VSS_DIFF_VOLUME_PROP
-product: Windows
 targetos: Windows
 req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
 req.redist: 

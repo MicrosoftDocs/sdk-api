@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISignerCertificate.Pin
  - ISignerCertificate.put_Pin
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

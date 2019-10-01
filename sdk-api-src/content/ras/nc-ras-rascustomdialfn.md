@@ -40,7 +40,6 @@ api_name:
  - RasCustomDial
  - RasCustomDialA
  - RasCustomDialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

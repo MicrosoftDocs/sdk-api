@@ -39,7 +39,6 @@ api_location:
  - Winsock2.h
 api_name:
  - SOCKET_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS
 req.redist: 

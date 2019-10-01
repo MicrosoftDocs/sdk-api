@@ -40,7 +40,6 @@ api_name:
  - IWSManConnectionOptions.UserName
  - IWSManConnectionOptions.get_UserName
  - IWSManConnectionOptions.put_UserName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

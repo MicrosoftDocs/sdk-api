@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMREBARCHEVRON
-product: Windows
 targetos: Windows
 req.typenames: NMREBARCHEVRON, *LPNMREBARCHEVRON
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinSvc.h
 api_name:
  - SERVICE_LAUNCH_PROTECTED_INFO
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_LAUNCH_PROTECTED_INFO, *PSERVICE_LAUNCH_PROTECTED_INFO
 req.redist: 

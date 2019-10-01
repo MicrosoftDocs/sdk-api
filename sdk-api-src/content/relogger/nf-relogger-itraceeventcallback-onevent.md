@@ -38,7 +38,6 @@ api_location:
  - Relogger.h
 api_name:
  - ITraceEventCallback.OnEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

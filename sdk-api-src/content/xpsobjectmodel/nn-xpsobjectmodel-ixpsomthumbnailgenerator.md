@@ -38,7 +38,6 @@ api_location:
  - XpsRasterService.dll
 api_name:
  - IXpsOMThumbnailGenerator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

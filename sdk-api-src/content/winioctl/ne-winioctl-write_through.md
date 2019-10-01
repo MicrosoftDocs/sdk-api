@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - WRITE_THROUGH
-product: Windows
 targetos: Windows
 req.typenames: WRITE_THROUGH
 req.redist: 

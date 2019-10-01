@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_SETTING_VALUE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_SETTING_VALUE_TYPE
 req.redist: 

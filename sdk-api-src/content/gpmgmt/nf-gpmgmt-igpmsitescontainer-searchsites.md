@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMSitesContainer.SearchSites
  - GPMSitesContainer.SearchSites
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

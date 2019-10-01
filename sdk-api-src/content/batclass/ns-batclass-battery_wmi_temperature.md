@@ -38,7 +38,6 @@ api_location:
  - Batclass.h
 api_name:
  - BATTERY_WMI_TEMPERATURE
-product: Windows
 targetos: Windows
 req.typenames: BATTERY_WMI_TEMPERATURE, *PBATTERY_WMI_TEMPERATURE
 req.redist: 

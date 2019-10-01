@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IITDatabase.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectXMath.h
 api_name:
  - XMMatrixTransformation2D
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

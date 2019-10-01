@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IPrincipal2.RequiredPrivilege
  - IPrincipal2.get_RequiredPrivilege
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

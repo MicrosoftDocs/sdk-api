@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.ExcludeApis
  - IApiTracingDataCollector.get_ExcludeApis
  - IApiTracingDataCollector.put_ExcludeApis
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

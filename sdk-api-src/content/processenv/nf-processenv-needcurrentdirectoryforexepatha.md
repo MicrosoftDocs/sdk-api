@@ -45,7 +45,6 @@ api_name:
  - NeedCurrentDirectoryForExePath
  - NeedCurrentDirectoryForExePathA
  - NeedCurrentDirectoryForExePathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

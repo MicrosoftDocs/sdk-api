@@ -38,7 +38,6 @@ api_location:
  - imapi2.h
 api_name:
  - IDiscMaster2.get_IsSupportedEnvironment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

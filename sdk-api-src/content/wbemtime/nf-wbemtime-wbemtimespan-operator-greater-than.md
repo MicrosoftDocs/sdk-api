@@ -40,7 +40,6 @@ api_location:
 api_name:
  - WBEMTimeSpan.operator>
  - ??OWBEMTimeSpan@@QBEHABV0@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

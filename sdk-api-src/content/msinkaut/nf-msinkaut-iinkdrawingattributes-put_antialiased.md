@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_AntiAliased
  - InkDrawingAttributes.get_AntiAliased
  - InkDrawingAttributes.put_AntiAliased
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

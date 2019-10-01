@@ -38,7 +38,6 @@ api_location:
  - api-ms-win-appmodel-runtime-l1-1-2.dll
 api_name:
  - AppPolicyGetClrCompat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

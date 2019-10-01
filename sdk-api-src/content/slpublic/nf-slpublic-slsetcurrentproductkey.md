@@ -38,7 +38,6 @@ api_location:
  - Slc.dll
 api_name:
  - SLSetCurrentProductKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

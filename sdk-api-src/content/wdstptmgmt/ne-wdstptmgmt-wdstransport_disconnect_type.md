@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_DISCONNECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_DISCONNECT_TYPE, *PWDSTRANSPORT_DISCONNECT_TYPE
 req.redist: 

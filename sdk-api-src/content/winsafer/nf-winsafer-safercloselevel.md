@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
  - SaferCloseLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

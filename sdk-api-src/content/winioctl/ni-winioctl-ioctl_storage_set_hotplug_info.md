@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_STORAGE_SET_HOTPLUG_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

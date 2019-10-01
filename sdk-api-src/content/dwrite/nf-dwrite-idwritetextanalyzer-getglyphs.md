@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteTextAnalyzer.GetGlyphs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

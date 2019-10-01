@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMCUSTOMSPLITRECTINFO
-product: Windows
 targetos: Windows
 req.typenames: NMCUSTOMSPLITRECTINFO, *LPNMCUSTOMSPLITRECTINFO
 req.redist: 

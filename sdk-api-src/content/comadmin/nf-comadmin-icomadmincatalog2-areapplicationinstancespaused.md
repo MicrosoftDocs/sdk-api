@@ -38,7 +38,6 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICOMAdminCatalog2.AreApplicationInstancesPaused
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

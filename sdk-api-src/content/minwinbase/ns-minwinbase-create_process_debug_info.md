@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - CREATE_PROCESS_DEBUG_INFO
-product: Windows
 targetos: Windows
 req.typenames: CREATE_PROCESS_DEBUG_INFO, *LPCREATE_PROCESS_DEBUG_INFO
 req.redist: 

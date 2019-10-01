@@ -38,7 +38,6 @@ api_location:
  - T2embapi.h
 api_name:
  - TTEMBEDINFO
-product: Windows
 targetos: Windows
 req.typenames: TTEMBEDINFO
 req.redist: 

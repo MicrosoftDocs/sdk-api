@@ -38,7 +38,6 @@ api_location:
  - SdoIas.h
 api_name:
  - NTSAMPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: NTSAMPROPERTIES
 req.redist: 

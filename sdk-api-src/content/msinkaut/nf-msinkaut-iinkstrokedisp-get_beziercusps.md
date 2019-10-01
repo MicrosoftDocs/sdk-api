@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.BezierCusps
  - IInkStrokeDisp.get_BezierCusps
  - IInkStrokeDisp.get_BezierCusps
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

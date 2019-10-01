@@ -38,7 +38,6 @@ api_location:
  - Qos2.h
 api_name:
  - QOS_VERSION
-product: Windows
 targetos: Windows
 req.typenames: QOS_VERSION, *PQOS_VERSION
 req.redist: 

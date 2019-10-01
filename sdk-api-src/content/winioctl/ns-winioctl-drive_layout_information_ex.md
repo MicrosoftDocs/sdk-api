@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DRIVE_LAYOUT_INFORMATION_EX
-product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX
 req.redist: 

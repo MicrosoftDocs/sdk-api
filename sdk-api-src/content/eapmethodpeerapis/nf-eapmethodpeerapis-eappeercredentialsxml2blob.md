@@ -38,7 +38,6 @@ api_location:
 - eapmethodpeerapis.h
 api_name:
 - EapPeerCredentialsXml2Blob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

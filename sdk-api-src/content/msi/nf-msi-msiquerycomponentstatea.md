@@ -41,7 +41,6 @@ api_name:
  - MsiQueryComponentState
  - MsiQueryComponentStateA
  - MsiQueryComponentStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

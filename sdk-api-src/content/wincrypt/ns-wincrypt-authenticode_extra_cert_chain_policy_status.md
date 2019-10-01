@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
-product: Windows
 targetos: Windows
 req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
 req.redist: 

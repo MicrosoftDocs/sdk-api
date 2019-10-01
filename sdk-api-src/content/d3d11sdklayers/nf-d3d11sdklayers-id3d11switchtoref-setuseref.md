@@ -38,7 +38,6 @@ api_location:
  - D3D11SDKLayers.h
 api_name:
  - ID3D11SwitchToRef.SetUseRef
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

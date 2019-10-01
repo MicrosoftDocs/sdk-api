@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - RESPONSEBODY_GetStatus
-product: Windows
 targetos: Windows
 req.typenames: RESPONSEBODY_GetStatus
 req.redist: 

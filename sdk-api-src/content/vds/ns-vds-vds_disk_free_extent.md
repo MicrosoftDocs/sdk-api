@@ -38,7 +38,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_DISK_FREE_EXTENT
-product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_FREE_EXTENT, *PVDS_DISK_FREE_EXTENT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SecPkgContext_KeyingMaterialInfo
  - SecPkgContext_KeyingMaterialInfoA
  - SecPkgContext_KeyingMaterialInfoW
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
 req.redist: 

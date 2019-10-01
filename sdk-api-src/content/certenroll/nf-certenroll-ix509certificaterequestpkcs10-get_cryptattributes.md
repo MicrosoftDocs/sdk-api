@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10.CryptAttributes
  - IX509CertificateRequestPkcs10.get_CryptAttributes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

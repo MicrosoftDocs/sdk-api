@@ -39,7 +39,6 @@ api_location:
  - d2d1.dll
 api_name:
  - ID2D1DrawInfo.SetVertexProcessing
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

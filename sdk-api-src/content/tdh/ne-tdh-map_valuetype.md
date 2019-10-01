@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - MAP_VALUETYPE
-product: Windows
 targetos: Windows
 req.typenames: MAP_VALUETYPE
 req.redist: 

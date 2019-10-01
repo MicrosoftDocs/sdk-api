@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ISearchJob.AsyncState
  - ISearchJob.get_AsyncState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wininet.h
 api_name:
  - INTERNET_ASYNC_RESULT
-product: Windows
 targetos: Windows
 req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
 req.redist: 

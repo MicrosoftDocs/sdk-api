@@ -49,7 +49,6 @@ api_name:
  - GetCalendarInfo
  - GetCalendarInfoA
  - GetCalendarInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

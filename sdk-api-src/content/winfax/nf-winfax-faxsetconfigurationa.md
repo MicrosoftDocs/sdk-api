@@ -41,7 +41,6 @@ api_name:
 - FaxSetConfiguration
 - FaxSetConfigurationA
 - FaxSetConfigurationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

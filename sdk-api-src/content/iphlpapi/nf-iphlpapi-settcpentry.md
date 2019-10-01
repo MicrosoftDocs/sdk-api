@@ -38,7 +38,6 @@ api_location:
 - Iphlpapi.dll
 api_name:
 - SetTcpEntry
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

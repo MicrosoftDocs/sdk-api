@@ -40,7 +40,6 @@ api_name:
  - IShellLink.Resolve
  - IShellLinkA.Resolve
  - IShellLinkW.Resolve
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

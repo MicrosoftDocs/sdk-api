@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_RATIONAL
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_RATIONAL
 req.redist: 

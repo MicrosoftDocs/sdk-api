@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPCore3.newPlaylist
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_TDT.GetUTCTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

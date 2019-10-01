@@ -38,7 +38,6 @@ api_location:
  - Tbs.h
 api_name:
  - TBS_CONTEXT_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: TBS_CONTEXT_PARAMS, *PTBS_CONTEXT_PARAMS
 req.redist: 

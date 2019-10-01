@@ -38,7 +38,6 @@ api_location:
  - gdipluspixelformats.h
 api_name:
  - DitherType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

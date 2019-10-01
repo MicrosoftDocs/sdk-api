@@ -38,7 +38,6 @@ api_location:
 - Ntsecpkg.h
 api_name:
 - LSA_TOKEN_INFORMATION_V2
-product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V1
 req.redist: 

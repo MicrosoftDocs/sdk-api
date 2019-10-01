@@ -38,7 +38,6 @@ api_location:
  - ComCat.h
 api_name:
  - IEnumCATEGORYINFO.Clone
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

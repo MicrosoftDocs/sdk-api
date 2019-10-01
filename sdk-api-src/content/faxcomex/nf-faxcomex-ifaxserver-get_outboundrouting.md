@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.OutboundRouting
  - IFaxServer.get_OutboundRouting
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

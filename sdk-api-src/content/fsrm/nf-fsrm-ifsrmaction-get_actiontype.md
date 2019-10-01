@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmAction.ActionType
  - IFsrmAction.get_ActionType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

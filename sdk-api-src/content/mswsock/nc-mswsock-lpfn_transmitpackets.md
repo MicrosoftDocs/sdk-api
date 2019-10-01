@@ -38,7 +38,6 @@ api_location:
 - Mswsock.h
 api_name:
 - LPFN_TRANSMITPACKETS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

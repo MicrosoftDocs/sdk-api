@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.PageCount
  - IFaxJob.get_PageCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

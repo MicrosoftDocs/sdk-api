@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IProvideWinSATResultsInfo.AssessmentState
  - IProvideWinSATResultsInfo.get_AssessmentState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

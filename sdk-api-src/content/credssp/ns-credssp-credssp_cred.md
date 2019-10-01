@@ -38,7 +38,6 @@ api_location:
  - Credssp.h
 api_name:
  - CREDSSP_CRED
-product: Windows
 targetos: Windows
 req.typenames: CREDSSP_CRED, *PCREDSSP_CRED
 req.redist: 

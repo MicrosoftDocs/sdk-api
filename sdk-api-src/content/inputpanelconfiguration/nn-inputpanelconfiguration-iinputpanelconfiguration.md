@@ -38,7 +38,6 @@ api_location:
  - inputpanelconfiguration.h
 api_name:
  - IInputPanelConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

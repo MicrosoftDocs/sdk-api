@@ -40,7 +40,6 @@ api_name:
  - IFsrmPropertyDefinition.PossibleValues
  - IFsrmPropertyDefinition.get_PossibleValues
  - IFsrmPropertyDefinition.put_PossibleValues
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

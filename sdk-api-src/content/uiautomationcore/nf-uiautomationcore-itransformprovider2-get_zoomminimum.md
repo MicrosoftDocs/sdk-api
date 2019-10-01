@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITransformProvider2.ZoomMinimum
  - ITransformProvider2.get_ZoomMinimum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

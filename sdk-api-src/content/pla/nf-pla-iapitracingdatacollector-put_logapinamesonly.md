@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.LogApiNamesOnly
  - IApiTracingDataCollector.get_LogApiNamesOnly
  - IApiTracingDataCollector.put_LogApiNamesOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

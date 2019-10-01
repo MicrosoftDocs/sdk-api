@@ -41,7 +41,6 @@ api_name:
 - PropertySheet
 - PropertySheetA
 - PropertySheetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Msdrmdefs.h
 api_name:
  - DRMSECURITYPROVIDERTYPE
-product: Windows
 targetos: Windows
 req.typenames: DRMSECURITYPROVIDERTYPE
 req.redist: 

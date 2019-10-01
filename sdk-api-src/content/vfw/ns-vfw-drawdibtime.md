@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - DRAWDIBTIME
-product: Windows
 targetos: Windows
 req.typenames: DRAWDIBTIME, *LPDRAWDIBTIME
 req.redist: 

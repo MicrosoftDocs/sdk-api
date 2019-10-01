@@ -39,7 +39,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFont3.GetLocality
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

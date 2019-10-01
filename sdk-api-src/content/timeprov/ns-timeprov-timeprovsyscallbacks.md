@@ -38,7 +38,6 @@ api_location:
  - Timeprov.h
 api_name:
  - TimeProvSysCallbacks
-product: Windows
 targetos: Windows
 req.typenames: TimeProvSysCallbacks
 req.redist: 

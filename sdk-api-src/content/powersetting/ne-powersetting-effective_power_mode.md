@@ -38,7 +38,6 @@ api_location:
  - Powersetting.h
 api_name:
  - EFFECTIVE_POWER_MODE
-product: Windows
 targetos: Windows
 req.typenames: EFFECTIVE_POWER_MODE
 req.redist: 

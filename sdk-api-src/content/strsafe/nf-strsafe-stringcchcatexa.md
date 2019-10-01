@@ -40,7 +40,6 @@ api_name:
  - StringCchCatEx
  - StringCchCatExA
  - StringCchCatExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

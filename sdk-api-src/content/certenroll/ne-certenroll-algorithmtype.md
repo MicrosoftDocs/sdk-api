@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.h
 api_name:
  - AlgorithmType
-product: Windows
 targetos: Windows
 req.typenames: AlgorithmType
 req.redist: 

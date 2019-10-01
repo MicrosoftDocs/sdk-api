@@ -40,7 +40,6 @@ api_name:
  - IEnroll.WriteCertToCSP
  - IEnroll.get_WriteCertToCSP
  - IEnroll.put_WriteCertToCSP
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

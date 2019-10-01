@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - FILTER_SPEC
-product: Windows
 targetos: Windows
 req.typenames: FILTER_SPEC
 req.redist: 

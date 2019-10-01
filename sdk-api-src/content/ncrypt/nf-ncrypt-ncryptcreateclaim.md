@@ -38,7 +38,6 @@ api_location:
  - ncrypt.dll
 api_name:
  - NCryptCreateClaim
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

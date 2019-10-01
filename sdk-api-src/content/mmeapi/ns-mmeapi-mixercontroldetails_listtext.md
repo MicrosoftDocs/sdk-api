@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIXERCONTROLDETAILS
-product: Windows
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_LISTTEXT, *PMIXERCONTROLDETAILS_LISTTEXT, *LPMIXERCONTROLDETAILS_LISTTEXT
 req.redist: 

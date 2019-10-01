@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInstallationBehavior.RequiresNetworkConnectivity
  - IInstallationBehavior.get_RequiresNetworkConnectivity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

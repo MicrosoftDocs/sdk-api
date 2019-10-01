@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - MFOffset
-product: Windows
 targetos: Windows
 req.typenames: MFOffset
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - WNDCLASSEX
  - WNDCLASSEXA
  - WNDCLASSEXW
-product: Windows
 targetos: Windows
 req.typenames: WNDCLASSEXW, *PWNDCLASSEXW, *NPWNDCLASSEXW, *LPWNDCLASSEXW
 req.redist: 

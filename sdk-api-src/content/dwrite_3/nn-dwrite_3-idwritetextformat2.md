@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteTextFormat2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

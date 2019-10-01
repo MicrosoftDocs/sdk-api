@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_ADDRESS_INFO0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_ADDRESS_INFO0
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionEmail2.AttachmentFileListSize
  - IFsrmActionEmail2.get_AttachmentFileListSize
  - IFsrmActionEmail2.put_AttachmentFileListSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

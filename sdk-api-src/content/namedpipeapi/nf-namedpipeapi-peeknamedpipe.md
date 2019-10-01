@@ -45,7 +45,6 @@ api_location:
  - API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
  - PeekNamedPipe
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ImmGetImeMenuItems
  - ImmGetImeMenuItemsA
  - ImmGetImeMenuItemsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

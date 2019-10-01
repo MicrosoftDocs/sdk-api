@@ -42,7 +42,6 @@ api_name:
  - GetICMProfile
  - GetICMProfileA
  - GetICMProfileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - LITEM
-product: Windows
 targetos: Windows
 req.typenames: LITEM, *PLITEM
 req.redist: 

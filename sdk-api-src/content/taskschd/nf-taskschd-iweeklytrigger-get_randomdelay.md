@@ -40,7 +40,6 @@ api_name:
  - IWeeklyTrigger.RandomDelay
  - IWeeklyTrigger.get_RandomDelay
  - IWeeklyTrigger.put_RandomDelay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

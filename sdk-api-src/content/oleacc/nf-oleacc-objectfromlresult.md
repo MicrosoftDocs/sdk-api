@@ -39,7 +39,6 @@ api_location:
  - ext-ms-win-oleacc-l1-1-1.dll
 api_name:
  - ObjectFromLresult
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

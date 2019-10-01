@@ -40,7 +40,6 @@ api_name:
 - NTMS_CHANGERINFORMATION
 - NTMS_CHANGERINFORMATIONA
 - NTMS_CHANGERINFORMATIONW
-product: Windows
 targetos: Windows
 req.typenames: NTMS_CHANGERINFORMATIONA
 req.redist: 

@@ -45,7 +45,6 @@ api_location:
  - Wmipjobj.dll
 api_name:
  - IWbemContext.GetNames
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

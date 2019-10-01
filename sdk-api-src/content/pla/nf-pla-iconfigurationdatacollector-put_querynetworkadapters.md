@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.QueryNetworkAdapters
  - IConfigurationDataCollector.get_QueryNetworkAdapters
  - IConfigurationDataCollector.put_QueryNetworkAdapters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - PortableDeviceGUIDs.dll
 api_name:
  - IPortableDevice.Content
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RtlIpv4AddressToStringEx
  - RtlIpv4AddressToStringEx
  - RtlIpv4AddressToStringExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

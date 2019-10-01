@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - DOMAIN_PASSWORD_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
 req.redist: 

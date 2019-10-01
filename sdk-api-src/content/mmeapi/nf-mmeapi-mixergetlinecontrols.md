@@ -42,7 +42,6 @@ api_name:
  - mixerGetLineControls
  - mixerGetLineControlsA
  - mixerGetLineControlsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

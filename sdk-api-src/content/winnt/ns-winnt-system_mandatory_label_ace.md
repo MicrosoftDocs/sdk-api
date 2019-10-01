@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SYSTEM_MANDATORY_LABEL_ACE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
 req.redist: 

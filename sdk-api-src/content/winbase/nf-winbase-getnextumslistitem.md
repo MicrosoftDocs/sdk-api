@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - GetNextUmsListItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

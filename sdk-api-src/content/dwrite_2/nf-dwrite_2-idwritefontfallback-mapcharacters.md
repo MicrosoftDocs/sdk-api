@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteFontFallback.MapCharacters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MF_FLOAT2
-product: Windows
 targetos: Windows
 req.typenames: MF_FLOAT2
 req.redist: 

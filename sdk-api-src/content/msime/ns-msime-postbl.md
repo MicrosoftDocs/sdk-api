@@ -38,7 +38,6 @@ api_location:
  - Msime.h
 api_name:
  - POSTBL
-product: Windows
 targetos: Windows
 req.typenames: POSTBL
 req.redist: 

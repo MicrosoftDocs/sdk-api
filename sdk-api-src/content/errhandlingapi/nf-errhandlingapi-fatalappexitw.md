@@ -52,7 +52,6 @@ api_name:
  - FatalAppExit
  - FatalAppExitA
  - FatalAppExitW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

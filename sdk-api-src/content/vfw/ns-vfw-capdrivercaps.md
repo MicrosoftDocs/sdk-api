@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - CAPDRIVERCAPS
-product: Windows
 targetos: Windows
 req.typenames: CAPDRIVERCAPS, *PCAPDRIVERCAPS, *LPCAPDRIVERCAPS
 req.redist: 

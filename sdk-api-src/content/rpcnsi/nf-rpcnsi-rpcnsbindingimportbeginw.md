@@ -40,7 +40,6 @@ api_name:
  - RpcNsBindingImportBegin
  - RpcNsBindingImportBeginA
  - RpcNsBindingImportBeginW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

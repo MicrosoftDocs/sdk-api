@@ -40,7 +40,6 @@ api_location:
 api_name:
  - SetupDiClassGuidsFromNameEx
  - SetupDiClassGuidsFromNameExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

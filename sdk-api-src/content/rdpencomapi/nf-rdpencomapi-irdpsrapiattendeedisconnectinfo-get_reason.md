@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIAttendeeDisconnectInfo.Reason
  - IRDPSRAPIAttendeeDisconnectInfo.get_Reason
  - RDPSRAPIAttendeeDisconnectInfo.Reason
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

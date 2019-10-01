@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPropertyBag.ParentDirectoryId
  - IFsrmPropertyBag.get_ParentDirectoryId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

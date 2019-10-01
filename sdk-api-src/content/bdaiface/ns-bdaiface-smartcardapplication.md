@@ -38,7 +38,6 @@ api_location:
  - bdaiface_enums.h
 api_name:
  - SmartCardApplication
-product: Windows
 targetos: Windows
 req.typenames: SmartCardApplication
 req.redist: 

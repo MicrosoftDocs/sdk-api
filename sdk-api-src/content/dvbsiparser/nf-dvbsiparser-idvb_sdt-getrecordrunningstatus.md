@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_SDT.GetRecordRunningStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

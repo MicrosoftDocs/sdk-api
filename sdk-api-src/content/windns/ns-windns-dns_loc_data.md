@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_LOC_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_LOC_DATA, *PDNS_LOC_DATA
 req.redist: 

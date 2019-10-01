@@ -39,7 +39,6 @@ api_location:
  - Gdiplus.dll
 api_name:
  - LinearGradientBrush.GetRectangle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

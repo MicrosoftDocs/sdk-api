@@ -38,7 +38,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - __WSAFDIsSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

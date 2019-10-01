@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_NULL_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_NULL_DATA, *PDNS_NULL_DATA
 req.redist: 

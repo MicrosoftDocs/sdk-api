@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.IsSmartCard
  - ICspInformation.get_IsSmartCard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

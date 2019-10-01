@@ -38,7 +38,6 @@ api_location:
 - Qossp.h
 api_name:
 - FilterType
-product: Windows
 targetos: Windows
 req.typenames: FilterType
 req.redist: 

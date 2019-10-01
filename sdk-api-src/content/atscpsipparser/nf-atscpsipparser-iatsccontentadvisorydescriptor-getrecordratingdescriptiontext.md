@@ -38,7 +38,6 @@ api_location:
  - atscpsipparser.h
 api_name:
  - IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

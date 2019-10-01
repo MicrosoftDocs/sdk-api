@@ -38,7 +38,6 @@ api_location:
  - Certsrv.h
 api_name:
  - ENUM_CATYPES
-product: Windows
 targetos: Windows
 req.typenames: ENUM_CATYPES
 req.redist: 

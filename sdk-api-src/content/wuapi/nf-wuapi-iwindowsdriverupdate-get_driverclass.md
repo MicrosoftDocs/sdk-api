@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate.DriverClass
  - IWindowsDriverUpdate.get_DriverClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

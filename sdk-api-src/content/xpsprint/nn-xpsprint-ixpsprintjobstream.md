@@ -38,7 +38,6 @@ api_location:
  - XpsPrint.h
 api_name:
  - IXpsPrintJobStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

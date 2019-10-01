@@ -40,7 +40,6 @@ api_name:
  - IPerformanceCounterDataCollector.LogFileFormat
  - IPerformanceCounterDataCollector.get_LogFileFormat
  - IPerformanceCounterDataCollector.put_LogFileFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - SHOpenPropSheet
  - SHOpenPropSheetA
  - SHOpenPropSheetW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

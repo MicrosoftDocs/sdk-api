@@ -41,7 +41,6 @@ api_name:
  - GetCurrentHwProfile
  - GetCurrentHwProfileA
  - GetCurrentHwProfileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

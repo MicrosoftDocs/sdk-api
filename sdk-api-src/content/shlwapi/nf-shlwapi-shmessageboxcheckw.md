@@ -40,7 +40,6 @@ api_name:
  - SHMessageBoxCheck
  - SHMessageBoxCheckA
  - SHMessageBoxCheckW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

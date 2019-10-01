@@ -38,7 +38,6 @@ api_location:
 - MemoryApi.h
 api_name:
 - WIN32_MEMORY_REGION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
 req.redist: 

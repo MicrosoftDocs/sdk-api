@@ -38,7 +38,6 @@ api_location:
  - Magnification.h
 api_name:
  - MAGIMAGEHEADER
-product: Windows
 targetos: Windows
 req.typenames: MAGIMAGEHEADER, *PMAGIMAGEHEADER
 req.redist: 

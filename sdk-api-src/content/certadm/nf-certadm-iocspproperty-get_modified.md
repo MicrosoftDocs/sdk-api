@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPProperty.Modified
  - IOCSPProperty.get_Modified
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

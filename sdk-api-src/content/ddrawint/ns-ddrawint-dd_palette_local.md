@@ -38,7 +38,6 @@ api_location:
  - ddrawint.h
 api_name:
  - DD_PALETTE_LOCAL
-product: Windows
 targetos: Windows
 req.typenames: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL"
 req.redist: 

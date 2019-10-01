@@ -38,7 +38,6 @@ api_location:
 - C_g18030.dll
 api_name:
 - NlsDllCodePageTranslation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -53,7 +53,6 @@ api_name:
  - OpenFileMapping
  - OpenFileMappingA
  - OpenFileMappingW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

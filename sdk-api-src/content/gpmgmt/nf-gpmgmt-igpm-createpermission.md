@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPM.CreatePermission
  - GPM.CreatePermission
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

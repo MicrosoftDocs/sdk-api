@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IISDB_LDT.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

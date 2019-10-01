@@ -38,7 +38,6 @@ api_location:
 - winnt.h
 api_name:
 - ENCLAVE_INIT_INFO_SGX
-product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_INIT_INFO_SGX, *PENCLAVE_INIT_INFO_SGX
 req.redist: 

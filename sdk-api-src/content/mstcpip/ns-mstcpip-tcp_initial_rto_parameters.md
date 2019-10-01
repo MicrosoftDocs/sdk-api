@@ -38,7 +38,6 @@ api_location:
 - Mstcpip.h
 api_name:
 - TCP_INITIAL_RTO_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: TCP_INITIAL_RTO_PARAMETERS, *PTCP_INITIAL_RTO_PARAMETERS
 req.redist: 

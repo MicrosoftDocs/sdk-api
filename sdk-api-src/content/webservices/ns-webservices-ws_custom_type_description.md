@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CUSTOM_TYPE_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_CUSTOM_TYPE_DESCRIPTION
 req.redist: 

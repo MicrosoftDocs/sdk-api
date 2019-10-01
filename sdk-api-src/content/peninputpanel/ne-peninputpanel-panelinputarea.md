@@ -38,7 +38,6 @@ api_location:
  - peninputpanel.h
 api_name:
  - InputArea2
-product: Windows
 targetos: Windows
 req.typenames: PanelInputArea
 req.redist: 

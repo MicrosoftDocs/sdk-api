@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - DEF_SHARE_ID
-product: Windows
 targetos: Windows
 req.typenames: DEF_SHARE_ID
 req.redist: 

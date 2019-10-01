@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEAGENTGROUPLIST
-product: Windows
 targetos: Windows
 req.typenames: LINEAGENTGROUPLIST, *LPLINEAGENTGROUPLIST
 req.redist: 

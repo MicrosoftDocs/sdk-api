@@ -38,7 +38,6 @@ api_location:
  - Timeprov.h
 api_name:
  - TpcGetSamplesArgs
-product: Windows
 targetos: Windows
 req.typenames: TpcGetSamplesArgs
 req.redist: 

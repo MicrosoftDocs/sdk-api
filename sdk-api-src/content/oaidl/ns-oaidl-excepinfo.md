@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - EXCEPINFO
-product: Windows
 targetos: Windows
 req.typenames: EXCEPINFO, *LPEXCEPINFO
 req.redist: 

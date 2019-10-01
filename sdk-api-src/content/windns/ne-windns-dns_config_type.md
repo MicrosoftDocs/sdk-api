@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_CONFIG_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DNS_CONFIG_TYPE
 req.redist: 

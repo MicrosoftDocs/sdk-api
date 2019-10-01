@@ -40,7 +40,6 @@ api_name:
  - InternetCheckConnection
  - InternetCheckConnectionA
  - InternetCheckConnectionW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

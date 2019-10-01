@@ -40,7 +40,6 @@ api_name:
  - IX509Enrollment.ParentWindow
  - IX509Enrollment.get_ParentWindow
  - IX509Enrollment.put_ParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

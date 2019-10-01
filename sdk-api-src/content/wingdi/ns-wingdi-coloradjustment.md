@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - COLORADJUSTMENT
-product: Windows
 targetos: Windows
 req.typenames: COLORADJUSTMENT, *PCOLORADJUSTMENT, *LPCOLORADJUSTMENT
 req.redist: 

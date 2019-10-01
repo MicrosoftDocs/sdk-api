@@ -38,7 +38,6 @@ api_location:
  - certenroll.h
 api_name:
  - ImportPFXFlags
-product: Windows
 targetos: Windows
 req.typenames: ImportPFXFlags
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - COLORINFO
-product: Windows
 targetos: Windows
 req.typenames: COLORINFO, *PCOLORINFO
 req.redist: 

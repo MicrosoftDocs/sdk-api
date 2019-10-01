@@ -38,7 +38,6 @@ api_location:
  - Winperf.h
 api_name:
  - ClosePerformanceData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

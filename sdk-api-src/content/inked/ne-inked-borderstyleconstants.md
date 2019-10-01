@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - BorderStyleConstants
-product: Windows
 targetos: Windows
 req.typenames: BorderStyleConstants
 req.redist: 

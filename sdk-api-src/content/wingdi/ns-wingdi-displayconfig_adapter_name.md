@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_ADAPTER_NAME
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_ADAPTER_NAME
 req.redist: 

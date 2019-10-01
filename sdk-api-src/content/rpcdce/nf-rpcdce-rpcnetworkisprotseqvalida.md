@@ -40,7 +40,6 @@ api_name:
  - RpcNetworkIsProtseqValid
  - RpcNetworkIsProtseqValidA
  - RpcNetworkIsProtseqValidW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

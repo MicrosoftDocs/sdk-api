@@ -38,7 +38,6 @@ api_location:
  - interactioncontext.h
 api_name:
  - INERTIA_PARAMETER
-product: Windows
 targetos: Windows
 req.typenames: INERTIA_PARAMETER
 req.redist: 

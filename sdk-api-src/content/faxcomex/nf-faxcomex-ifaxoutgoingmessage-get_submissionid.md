@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage.SubmissionId
  - IFaxOutgoingMessage.get_SubmissionId
  - IFaxOutgoingMessage.get_SubmissionId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

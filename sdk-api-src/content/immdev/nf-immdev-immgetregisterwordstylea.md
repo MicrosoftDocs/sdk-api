@@ -40,7 +40,6 @@ api_name:
  - ImmGetRegisterWordStyle
  - ImmGetRegisterWordStyleA
  - ImmGetRegisterWordStyleW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

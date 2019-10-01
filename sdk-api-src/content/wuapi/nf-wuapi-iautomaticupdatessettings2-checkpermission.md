@@ -38,7 +38,6 @@ api_location:
  - Wuapi.dll
 api_name:
  - IAutomaticUpdatesSettings2.CheckPermission
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

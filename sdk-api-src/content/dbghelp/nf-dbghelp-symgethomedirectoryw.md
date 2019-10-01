@@ -40,7 +40,6 @@ api_name:
  - SymGetHomeDirectory
  - SymGetHomeDirectory
  - SymGetHomeDirectoryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

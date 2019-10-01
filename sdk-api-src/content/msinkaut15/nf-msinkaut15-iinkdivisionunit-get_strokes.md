@@ -41,7 +41,6 @@ api_name:
  - IInkDivisionUnit.Strokes
  - IInkDivisionUnit.get_Strokes
  - IInkDivisionUnit.get_Strokes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

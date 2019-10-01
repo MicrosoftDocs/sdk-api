@@ -38,7 +38,6 @@ api_location:
 - Wabapi.h
 api_name:
 - WABOpen
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

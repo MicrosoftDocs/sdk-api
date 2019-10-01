@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_MULTI_SZ
-product: Windows
 targetos: Windows
 req.typenames: CLUSPROP_SZ, *PCLUSPROP_SZ
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 req.redist: 

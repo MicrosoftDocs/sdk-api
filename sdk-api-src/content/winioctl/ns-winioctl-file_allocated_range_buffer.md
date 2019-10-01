@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FILE_ALLOCATED_RANGE_BUFFER
-product: Windows
 targetos: Windows
 req.typenames: FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER
 req.redist: 

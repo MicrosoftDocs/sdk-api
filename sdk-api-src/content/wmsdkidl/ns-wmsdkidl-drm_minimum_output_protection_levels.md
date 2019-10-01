@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
-product: Windows
 targetos: Windows
 req.typenames: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 req.redist: 

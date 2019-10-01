@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_VOID_DESCRIPTION
-product: Windows
 targetos: Windows
 req.typenames: WS_VOID_DESCRIPTION
 req.redist: 

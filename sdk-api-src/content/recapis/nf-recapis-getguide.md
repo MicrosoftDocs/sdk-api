@@ -38,7 +38,6 @@ api_location:
  - recapis.h
 api_name:
  - GetGuide
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

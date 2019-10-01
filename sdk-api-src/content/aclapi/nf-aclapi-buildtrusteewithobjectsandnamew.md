@@ -40,7 +40,6 @@ api_name:
 - BuildTrusteeWithObjectsAndName
 - BuildTrusteeWithObjectsAndNameA
 - BuildTrusteeWithObjectsAndNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

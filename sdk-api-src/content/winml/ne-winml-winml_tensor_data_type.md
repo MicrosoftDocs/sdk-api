@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_TENSOR_DATA_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINML_TENSOR_DATA_TYPE
 req.redist: 

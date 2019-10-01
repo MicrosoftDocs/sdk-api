@@ -38,7 +38,6 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_EMITTER
-product: Windows
 targetos: Windows
 req.typenames: X3DAUDIO_EMITTER, *LPX3DAUDIO_EMITTER
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - RpcNetworkInqProtseqs
  - RpcNetworkInqProtseqsA
  - RpcNetworkInqProtseqsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

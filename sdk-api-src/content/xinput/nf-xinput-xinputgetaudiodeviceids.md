@@ -40,7 +40,6 @@ api_location:
  - xinputuap.dll
 api_name:
  - XInputGetAudioDeviceIds
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

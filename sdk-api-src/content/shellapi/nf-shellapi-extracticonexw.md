@@ -42,7 +42,6 @@ api_name:
  - ExtractIconEx
  - ExtractIconExA
  - ExtractIconExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

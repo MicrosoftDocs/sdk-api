@@ -40,7 +40,6 @@ api_name:
  - IDataManager.EventsFileName
  - IDataManager.get_EventsFileName
  - IDataManager.put_EventsFileName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

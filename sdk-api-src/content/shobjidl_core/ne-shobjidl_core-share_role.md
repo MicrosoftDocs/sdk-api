@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - SHARE_ROLE
-product: Windows
 targetos: Windows
 req.typenames: SHARE_ROLE
 req.redist: 

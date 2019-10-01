@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICBitmapInterpolationMode
-product: Windows
 targetos: Windows
 req.typenames: WICBitmapInterpolationMode
 req.redist: 

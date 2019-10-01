@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - PRIORITY_HINT
-product: Windows
 targetos: Windows
 req.typenames: PRIORITY_HINT
 req.redist: 

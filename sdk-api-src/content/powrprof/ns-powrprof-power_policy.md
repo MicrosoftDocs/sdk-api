@@ -38,7 +38,6 @@ api_location:
 - PowrProf.h
 api_name:
 - POWER_POLICY
-product: Windows
 targetos: Windows
 req.typenames: POWER_POLICY, *PPOWER_POLICY
 req.redist: 

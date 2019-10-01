@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_REQUEST_OPLOCK_LEVEL_1
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

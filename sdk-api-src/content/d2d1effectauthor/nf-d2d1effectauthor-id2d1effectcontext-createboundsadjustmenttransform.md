@@ -39,7 +39,6 @@ api_location:
  - D2D1.dll
 api_name:
  - ID2D1EffectContext.CreateBoundsAdjustmentTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

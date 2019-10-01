@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.CpuUtilization
  - IWdsTransportClient.get_CpuUtilization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - DirectDrawEnumerateEx
  - DirectDrawEnumerateExA
  - DirectDrawEnumerateExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

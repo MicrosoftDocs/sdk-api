@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0
 req.redist: 

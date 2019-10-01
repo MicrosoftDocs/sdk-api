@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformations.ItemByIndex
  - ICspInformations.get_ItemByIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

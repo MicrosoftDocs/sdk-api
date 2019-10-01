@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnIncomingMessageAdded
  - IFaxServerNotify2.OnIncomingMessageAdded
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dsquery.h
 api_name:
  - DSCOLUMN
-product: Windows
 targetos: Windows
 req.typenames: DSCOLUMN, *LPDSCOLUMN
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Endpointvolume.h
 api_name:
  - AUDIO_VOLUME_NOTIFICATION_DATA
-product: Windows
 targetos: Windows
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 req.redist: 

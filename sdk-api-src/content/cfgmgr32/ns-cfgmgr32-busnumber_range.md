@@ -38,7 +38,6 @@ api_location:
  - cfgmgr32.h
 api_name:
  - BUSNUMBER_RANGE
-product: Windows
 targetos: Windows
 req.typenames: BUSNUMBER_RANGE, *PBUSNUMBER_RANGE
 req.redist: 

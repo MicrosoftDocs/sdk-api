@@ -38,7 +38,6 @@ api_location:
 - eapphost.dll
 api_name:
 - EapHostPeerGetIdentity
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

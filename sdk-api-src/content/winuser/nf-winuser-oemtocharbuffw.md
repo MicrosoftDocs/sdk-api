@@ -40,7 +40,6 @@ api_name:
  - OemToCharBuff
  - OemToCharBuffA
  - OemToCharBuffW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

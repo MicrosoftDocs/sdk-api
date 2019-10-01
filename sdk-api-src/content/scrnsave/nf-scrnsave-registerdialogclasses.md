@@ -38,7 +38,6 @@ api_location:
  - None
 api_name:
  - RegisterDialogClasses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Wcmapi.dll
 api_name:
 - WcmGetProfileList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

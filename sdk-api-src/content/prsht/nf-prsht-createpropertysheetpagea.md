@@ -41,7 +41,6 @@ api_name:
 - CreatePropertySheetPage
 - CreatePropertySheetPageA
 - CreatePropertySheetPageW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

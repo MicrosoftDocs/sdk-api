@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 req.redist: 

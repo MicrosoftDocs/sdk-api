@@ -38,7 +38,6 @@ api_location:
  - winddi.h
 api_name:
  - FONTINFO
-product: Windows
 targetos: Windows
 req.typenames: FONTINFO, *PFONTINFO
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Urlmon.h
 api_name:
  - SOFTDISTINFO
-product: Windows
 targetos: Windows
 req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
 req.redist: 

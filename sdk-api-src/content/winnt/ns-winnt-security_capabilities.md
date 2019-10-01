@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - SECURITY_CAPABILITIES
-product: Windows
 targetos: Windows
 req.typenames: SECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, *LPSECURITY_CAPABILITIES
 req.redist: 

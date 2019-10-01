@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - MAP_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MAP_FLAGS
 req.redist: 

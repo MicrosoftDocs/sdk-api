@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - READ_USN_JOURNAL_DATA_V0
-product: Windows
 targetos: Windows
 req.typenames: READ_USN_JOURNAL_DATA_V1, *PREAD_USN_JOURNAL_DATA_V1
 req.redist: 

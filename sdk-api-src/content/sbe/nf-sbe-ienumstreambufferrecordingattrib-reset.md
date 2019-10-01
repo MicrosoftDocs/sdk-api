@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IEnumStreamBufferRecordingAttrib.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

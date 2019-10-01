@@ -38,7 +38,6 @@ api_location:
  - Spellcheck.h
 api_name:
  - IOptionDescription
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - MsiSourceListAddSourceEx
  - MsiSourceListAddSourceExA
  - MsiSourceListAddSourceExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

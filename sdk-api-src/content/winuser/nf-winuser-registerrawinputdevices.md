@@ -43,7 +43,6 @@ api_location:
  - MinUser.dll
 api_name:
  - RegisterRawInputDevices
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

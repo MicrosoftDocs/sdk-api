@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FSCTL_OPBATCH_ACK_CLOSE_PENDING
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - IWMProfile.GetStreamCount
  - IWMProfile2.GetStreamCount
  - IWMProfile3.GetStreamCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

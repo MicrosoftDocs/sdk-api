@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeCspProvider.Signature
  - IX509AttributeCspProvider.get_Signature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

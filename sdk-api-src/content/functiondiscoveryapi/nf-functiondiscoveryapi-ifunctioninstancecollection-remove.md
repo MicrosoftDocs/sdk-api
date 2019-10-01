@@ -38,7 +38,6 @@ api_location:
  - FunDisc.dll
 api_name:
  - IFunctionInstanceCollection.Remove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWSManResourceLocator.MustUnderstandOptions
  - IWSManResourceLocator.get_MustUnderstandOptions
  - IWSManResourceLocator.put_MustUnderstandOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

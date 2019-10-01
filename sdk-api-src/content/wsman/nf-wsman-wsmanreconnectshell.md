@@ -38,7 +38,6 @@ api_location:
 - WsmSvc.dll
 api_name:
 - WSManReconnectShell
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

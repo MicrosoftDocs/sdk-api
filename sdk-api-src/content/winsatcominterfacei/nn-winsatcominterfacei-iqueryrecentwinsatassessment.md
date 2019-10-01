@@ -38,7 +38,6 @@ api_location:
  - Winsatapi.dll
 api_name:
  - IQueryRecentWinSATAssessment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

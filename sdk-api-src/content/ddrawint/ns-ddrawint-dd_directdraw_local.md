@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DIRECTDRAW_LOCAL
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL'
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Advapi32.dll
 api_name:
  - LockServiceDatabase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

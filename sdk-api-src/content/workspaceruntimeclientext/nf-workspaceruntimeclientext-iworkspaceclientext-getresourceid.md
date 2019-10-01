@@ -38,7 +38,6 @@ api_location:
  - Workspaceruntimeclientext.h
 api_name:
  - IWorkspaceClientExt.GetResourceId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - ClusterOpenEnumEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

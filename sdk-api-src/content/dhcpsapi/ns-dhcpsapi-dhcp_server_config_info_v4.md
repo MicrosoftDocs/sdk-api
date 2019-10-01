@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_SERVER_CONFIG_INFO_V4
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO_V4, *LPDHCP_SERVER_CONFIG_INFO_V4
 req.redist: 

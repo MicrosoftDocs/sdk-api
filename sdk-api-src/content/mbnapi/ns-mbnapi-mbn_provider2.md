@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_PROVIDER2
-product: Windows
 targetos: Windows
 req.typenames: MBN_PROVIDER2
 req.redist: 

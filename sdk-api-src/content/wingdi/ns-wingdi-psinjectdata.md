@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - PSINJECTDATA
-product: Windows
 targetos: Windows
 req.typenames: PSINJECTDATA, *PPSINJECTDATA
 req.redist: 

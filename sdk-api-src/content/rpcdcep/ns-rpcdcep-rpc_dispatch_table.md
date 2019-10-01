@@ -38,7 +38,6 @@ api_location:
  - RpcdceP.h
 api_name:
  - RPC_DISPATCH_TABLE
-product: Windows
 targetos: Windows
 req.typenames: RPC_DISPATCH_TABLE, *PRPC_DISPATCH_TABLE
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - ICertPolicy2.VerifyRequest
  - ICertPolicy.VerifyRequest
  - CCertPolicy.VerifyRequest
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

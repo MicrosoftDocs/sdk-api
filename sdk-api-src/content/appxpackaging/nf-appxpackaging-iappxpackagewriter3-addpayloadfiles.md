@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxPackageWriter3.AddPayloadFiles
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

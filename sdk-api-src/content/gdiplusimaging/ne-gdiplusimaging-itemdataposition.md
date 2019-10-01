@@ -38,7 +38,6 @@ api_location:
  - GdiplusImaging.h
 api_name:
  - ItemDataPosition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

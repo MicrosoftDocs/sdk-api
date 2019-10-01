@@ -38,7 +38,6 @@ api_location:
  - UIAutomationCore.h
 api_name:
  - ITableItemProvider.GetColumnHeaderItems
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

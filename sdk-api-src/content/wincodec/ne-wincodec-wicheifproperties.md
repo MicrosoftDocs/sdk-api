@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICHeifProperties
-product: Windows
 targetos: Windows
 req.typenames: WICHeifProperties
 req.redist: 

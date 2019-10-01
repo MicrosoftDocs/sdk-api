@@ -38,7 +38,6 @@ api_location:
  - shobjidl.h
 api_name:
  - IUseToBrowseItem
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

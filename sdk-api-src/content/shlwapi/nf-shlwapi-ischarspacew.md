@@ -43,7 +43,6 @@ api_name:
  - IsCharSpace
  - IsCharSpaceA
  - IsCharSpaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

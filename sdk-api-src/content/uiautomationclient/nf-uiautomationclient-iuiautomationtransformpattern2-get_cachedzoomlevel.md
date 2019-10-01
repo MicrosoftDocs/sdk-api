@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationTransformPattern2.CachedZoomLevel
  - IUIAutomationTransformPattern2.get_CachedZoomLevel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CurrentWindowVisualState
  - IUIAutomationWindowPattern.get_CurrentWindowVisualState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

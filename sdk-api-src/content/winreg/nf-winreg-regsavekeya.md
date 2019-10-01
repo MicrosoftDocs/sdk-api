@@ -43,7 +43,6 @@ api_name:
  - RegSaveKey
  - RegSaveKeyA
  - RegSaveKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

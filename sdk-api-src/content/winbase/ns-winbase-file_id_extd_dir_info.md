@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - FILE_ID_EXTD_DIR_INFO
-product: Windows
 targetos: Windows
 req.typenames: FILE_ID_EXTD_DIR_INFO, *PFILE_ID_EXTD_DIR_INFO
 req.redist: 

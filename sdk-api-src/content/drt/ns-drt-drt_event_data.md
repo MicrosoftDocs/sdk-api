@@ -38,7 +38,6 @@ api_location:
  - drt.h
 api_name:
  - DRT_EVENT_DATA
-product: Windows
 targetos: Windows
 req.typenames: DRT_EVENT_DATA, *PDRT_EVENT_DATA
 req.redist: 

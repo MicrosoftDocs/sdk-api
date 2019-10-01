@@ -36,7 +36,6 @@ api_location:
  - OCIdl.h
 api_name:
  - IProvideMultipleClassInfo.GetInfoOfIndex
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

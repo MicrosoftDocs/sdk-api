@@ -38,7 +38,6 @@ api_location:
  - d3dcompiler_47.dll
 api_name:
  - D3DDisassemble10Effect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

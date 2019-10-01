@@ -38,7 +38,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - PLACEHOLDER_STATES
-product: Windows
 targetos: Windows
 req.typenames: PLACEHOLDER_STATES
 req.redist: 

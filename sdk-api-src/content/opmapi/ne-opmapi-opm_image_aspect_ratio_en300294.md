@@ -38,7 +38,6 @@ api_location:
  - opmapi.h
 api_name:
  - OPM_IMAGE_ASPECT_RATIO_EN300294
-product: Windows
 targetos: Windows
 req.typenames: OPM_IMAGE_ASPECT_RATIO_EN300294
 req.redist: 

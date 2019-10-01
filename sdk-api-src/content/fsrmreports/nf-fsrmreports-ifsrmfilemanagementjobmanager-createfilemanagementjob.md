@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileManagementJobManager.CreateFileManagementJob
  - FsrmFileManagementJobManager.CreateFileManagementJob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

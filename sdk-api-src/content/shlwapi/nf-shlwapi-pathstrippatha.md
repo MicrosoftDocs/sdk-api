@@ -44,7 +44,6 @@ api_name:
  - PathStripPath
  - PathStripPathA
  - PathStripPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - TCITEM
  - TCITEMA
  - TCITEMW
-product: Windows
 targetos: Windows
 req.typenames: TCITEMW, *LPTCITEMW
 req.redist: 

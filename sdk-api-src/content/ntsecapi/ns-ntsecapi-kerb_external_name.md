@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_EXTERNAL_NAME
-product: Windows
 targetos: Windows
 req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
 req.redist: 

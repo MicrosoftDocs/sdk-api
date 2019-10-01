@@ -38,7 +38,6 @@ api_location:
  - AppModel.h
 api_name:
  - AppPolicyMediaFoundationCodecLoading
-product: Windows
 targetos: Windows
 req.typenames: AppPolicyMediaFoundationCodecLoading
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FaxExt.h
 api_name:
  - FaxExtRegisterForEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

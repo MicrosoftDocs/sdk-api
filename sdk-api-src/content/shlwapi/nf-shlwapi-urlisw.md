@@ -44,7 +44,6 @@ api_name:
  - UrlIs
  - UrlIsA
  - UrlIsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

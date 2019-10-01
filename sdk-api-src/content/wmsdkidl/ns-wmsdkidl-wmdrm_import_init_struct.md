@@ -38,7 +38,6 @@ api_location:
  - wmsdkidl.h
 api_name:
  - WMDRM_IMPORT_INIT_STRUCT
-product: Windows
 targetos: Windows
 req.typenames: WMDRM_IMPORT_INIT_STRUCT
 req.redist: 

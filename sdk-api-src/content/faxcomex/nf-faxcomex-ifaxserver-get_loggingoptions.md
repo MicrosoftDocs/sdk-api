@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServer.LoggingOptions
  - IFaxServer.get_LoggingOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

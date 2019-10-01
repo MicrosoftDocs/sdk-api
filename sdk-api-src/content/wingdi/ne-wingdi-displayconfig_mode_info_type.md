@@ -38,7 +38,6 @@ api_location:
  - wingdi.h
 api_name:
  - DISPLAYCONFIG_MODE_INFO_TYPE
-product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
 req.redist: 

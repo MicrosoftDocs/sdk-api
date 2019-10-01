@@ -41,7 +41,6 @@ api_name:
 - FaxGetConfiguration
 - FaxGetConfigurationA
 - FaxGetConfigurationW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

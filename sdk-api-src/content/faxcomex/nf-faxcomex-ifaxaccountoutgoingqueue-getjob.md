@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxAccountOutgoingQueue.GetJob
  - IFaxAccountOutgoingQueue.GetJob
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

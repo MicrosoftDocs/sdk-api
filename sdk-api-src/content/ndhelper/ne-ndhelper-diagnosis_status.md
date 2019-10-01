@@ -38,7 +38,6 @@ api_location:
  - ndhelper.h
 api_name:
  - DIAGNOSIS_STATUS
-product: Windows
 targetos: Windows
 req.typenames: DIAGNOSIS_STATUS
 req.redist: 

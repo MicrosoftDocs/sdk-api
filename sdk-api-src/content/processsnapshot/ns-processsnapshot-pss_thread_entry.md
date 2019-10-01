@@ -38,7 +38,6 @@ api_location:
  - processsnapshot.h
 api_name:
  - PSS_THREAD_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: PSS_THREAD_ENTRY
 req.redist: 

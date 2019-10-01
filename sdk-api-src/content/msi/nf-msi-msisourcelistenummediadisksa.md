@@ -40,7 +40,6 @@ api_name:
  - MsiSourceListEnumMediaDisks
  - MsiSourceListEnumMediaDisksA
  - MsiSourceListEnumMediaDisksW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

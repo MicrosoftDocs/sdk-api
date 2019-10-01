@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_REGISTRATION_CONSTANTS
-product: Windows
 targetos: Windows
 req.typenames: MBN_REGISTRATION_CONSTANTS
 req.redist: 

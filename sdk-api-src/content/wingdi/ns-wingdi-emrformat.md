@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRFORMAT
-product: Windows
 targetos: Windows
 req.typenames: EMRFORMAT, *PEMRFORMAT
 req.redist: 

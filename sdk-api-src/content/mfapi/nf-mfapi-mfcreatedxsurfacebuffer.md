@@ -38,7 +38,6 @@ api_location:
  - evr.dll
 api_name:
  - MFCreateDXSurfaceBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

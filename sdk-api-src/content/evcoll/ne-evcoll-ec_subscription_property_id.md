@@ -38,7 +38,6 @@ api_location:
 - Evcoll.h
 api_name:
 - EC_SUBSCRIPTION_PROPERTY_ID
-product: Windows
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_PROPERTY_ID
 req.redist: 

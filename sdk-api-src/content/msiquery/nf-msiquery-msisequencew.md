@@ -40,7 +40,6 @@ api_name:
  - MsiSequence
  - MsiSequenceA
  - MsiSequenceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

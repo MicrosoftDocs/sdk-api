@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - DRAGLISTINFO
-product: Windows
 targetos: Windows
 req.typenames: DRAGLISTINFO, *LPDRAGLISTINFO
 req.redist: 

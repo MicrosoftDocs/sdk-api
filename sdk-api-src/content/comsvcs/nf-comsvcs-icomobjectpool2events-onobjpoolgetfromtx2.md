@@ -38,7 +38,6 @@ api_location:
  - ComSvcs.h
 api_name:
  - IComObjectPool2Events.OnObjPoolGetFromTx2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

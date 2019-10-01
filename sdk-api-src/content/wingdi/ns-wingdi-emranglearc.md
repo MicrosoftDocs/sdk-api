@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRANGLEARC
-product: Windows
 targetos: Windows
 req.typenames: EMRANGLEARC, *PEMRANGLEARC
 req.redist: 

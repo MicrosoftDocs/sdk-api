@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - CSV_CONTROL_PARAM
-product: Windows
 targetos: Windows
 req.typenames: CSV_CONTROL_PARAM, *PCSV_CONTROL_PARAM
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - ndkinfo.h
 api_name:
 - NDK_VERSION
-product: Windows
 targetos: Windows
 req.typenames: NDK_VERSION
 req.redist: 

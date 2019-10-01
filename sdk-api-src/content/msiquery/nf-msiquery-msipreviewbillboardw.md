@@ -40,7 +40,6 @@ api_name:
  - MsiPreviewBillboard
  - MsiPreviewBillboardA
  - MsiPreviewBillboardW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

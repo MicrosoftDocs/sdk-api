@@ -38,7 +38,6 @@ api_location:
  - Capi.h
 api_name:
  - JAVA_TRUST
-product: Windows
 targetos: Windows
 req.typenames: JAVA_TRUST, *PJAVA_TRUST
 req.redist: 

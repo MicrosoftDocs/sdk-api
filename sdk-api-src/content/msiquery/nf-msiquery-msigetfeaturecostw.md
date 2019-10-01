@@ -40,7 +40,6 @@ api_name:
  - MsiGetFeatureCost
  - MsiGetFeatureCostA
  - MsiGetFeatureCostW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

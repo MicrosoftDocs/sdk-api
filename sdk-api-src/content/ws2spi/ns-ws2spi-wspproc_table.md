@@ -38,7 +38,6 @@ api_location:
  - Ws2spi.h
 api_name:
  - WSPPROC_TABLE
-product: Windows
 targetos: Windows
 req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
 req.redist: 

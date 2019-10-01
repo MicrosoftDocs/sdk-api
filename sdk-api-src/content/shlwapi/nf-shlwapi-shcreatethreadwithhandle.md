@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
  - SHCreateThreadWithHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

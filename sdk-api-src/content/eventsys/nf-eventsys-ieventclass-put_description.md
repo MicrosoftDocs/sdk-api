@@ -40,7 +40,6 @@ api_name:
  - IEventClass.Description
  - IEventClass.get_Description
  - IEventClass.put_Description
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

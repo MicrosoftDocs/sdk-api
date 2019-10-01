@@ -38,7 +38,6 @@ api_location:
  - Win32k.sys
 api_name:
  - EngGetFilePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wsdbase.h
 api_name:
  - WSD_CONFIG_PARAM
-product: Windows
 targetos: Windows
 req.typenames: WSD_CONFIG_PARAM, *PWSD_CONFIG_PARAM
 req.redist: 

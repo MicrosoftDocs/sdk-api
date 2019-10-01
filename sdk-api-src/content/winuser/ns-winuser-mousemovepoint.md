@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MOUSEMOVEPOINT
-product: Windows
 targetos: Windows
 req.typenames: MOUSEMOVEPOINT, *PMOUSEMOVEPOINT, *LPMOUSEMOVEPOINT
 req.redist: 

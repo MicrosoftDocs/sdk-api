@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - IAnalogLocator.put_VideoStandard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - msclus.h
 api_name:
  - CLUSTER_QUORUM_VALUE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_VALUE
 req.redist: 

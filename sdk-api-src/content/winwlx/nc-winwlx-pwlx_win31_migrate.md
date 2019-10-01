@@ -38,7 +38,6 @@ api_location:
 - winwlx.h
 api_name:
 - WlxWin31Migrate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

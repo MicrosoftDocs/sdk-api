@@ -44,7 +44,6 @@ api_name:
  - UrlEscape
  - UrlEscapeA
  - UrlEscapeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

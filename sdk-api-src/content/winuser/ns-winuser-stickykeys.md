@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - STICKYKEYS
-product: Windows
 targetos: Windows
 req.typenames: STICKYKEYS, *LPSTICKYKEYS
 req.redist: 

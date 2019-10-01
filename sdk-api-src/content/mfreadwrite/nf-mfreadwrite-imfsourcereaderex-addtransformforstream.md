@@ -38,7 +38,6 @@ api_location:
  - mfreadwrite.h
 api_name:
  - IMFSourceReaderEx.AddTransformForStream
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

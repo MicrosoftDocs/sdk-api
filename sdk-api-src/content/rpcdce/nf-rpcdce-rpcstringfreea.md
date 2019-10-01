@@ -40,7 +40,6 @@ api_name:
  - RpcStringFree
  - RpcStringFreeA
  - RpcStringFreeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

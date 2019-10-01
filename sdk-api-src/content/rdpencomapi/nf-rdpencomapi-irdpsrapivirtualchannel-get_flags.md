@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIVirtualChannel.Flags
  - IRDPSRAPIVirtualChannel.get_Flags
  - RDPSRAPIVirtualChannel.Flags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

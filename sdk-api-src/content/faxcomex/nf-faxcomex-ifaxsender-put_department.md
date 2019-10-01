@@ -42,7 +42,6 @@ api_name:
  - IFaxSender.put_Department
  - IFaxSender.get_Department
  - IFaxSender.put_Department
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

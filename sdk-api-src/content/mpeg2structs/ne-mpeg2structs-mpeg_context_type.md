@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - MPEG_CONTEXT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MPEG_CONTEXT_TYPE
 req.redist: 

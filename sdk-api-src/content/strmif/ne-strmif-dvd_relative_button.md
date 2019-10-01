@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_RELATIVE_BUTTON
-product: Windows
 targetos: Windows
 req.typenames: DVD_RELATIVE_BUTTON
 req.redist: 

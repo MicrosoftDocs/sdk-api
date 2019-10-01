@@ -38,7 +38,6 @@ api_location:
  - dinputd.h
 api_name:
  - IDirectInputEffectDriver.SendForceFeedbackCommand
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - XAUDIO2_DEBUG_CONFIGURATION
-product: Windows
 targetos: Windows
 req.typenames: XAUDIO2_DEBUG_CONFIGURATION
 req.redist: 

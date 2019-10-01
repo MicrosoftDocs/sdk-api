@@ -40,7 +40,6 @@ api_name:
  - IUIAutomationProxyFactoryEntry.ImageName
  - IUIAutomationProxyFactoryEntry.get_ImageName
  - IUIAutomationProxyFactoryEntry.put_ImageName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

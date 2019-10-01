@@ -38,7 +38,6 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineAnswer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

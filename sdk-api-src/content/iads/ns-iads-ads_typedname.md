@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_TYPEDNAME
-product: Windows
 targetos: Windows
 req.typenames: ADS_TYPEDNAME, *PADS_TYPEDNAME
 req.redist: 

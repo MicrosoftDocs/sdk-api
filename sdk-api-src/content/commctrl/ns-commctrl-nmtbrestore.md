@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMTBRESTORE
-product: Windows
 targetos: Windows
 req.typenames: NMTBRESTORE, *LPNMTBRESTORE
 req.redist: 

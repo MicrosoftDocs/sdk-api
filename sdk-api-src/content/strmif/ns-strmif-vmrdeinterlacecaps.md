@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VMRDeinterlaceCaps
-product: Windows
 targetos: Windows
 req.typenames: VMRDeinterlaceCaps
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITextInputPanel.CurrentInPlaceState
  - ITextInputPanel.get_CurrentInPlaceState
  - ITextInputPanel.get_CurrentInPlaceState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

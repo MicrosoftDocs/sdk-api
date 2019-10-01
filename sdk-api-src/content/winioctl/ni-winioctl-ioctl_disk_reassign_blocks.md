@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_DISK_REASSIGN_BLOCKS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

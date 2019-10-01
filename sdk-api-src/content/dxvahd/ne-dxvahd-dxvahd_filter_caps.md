@@ -38,7 +38,6 @@ api_location:
  - dxvahd.h
 api_name:
  - DXVAHD_FILTER_CAPS
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FILTER_CAPS
 req.redist: 

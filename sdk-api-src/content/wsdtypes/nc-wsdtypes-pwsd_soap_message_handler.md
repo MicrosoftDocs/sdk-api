@@ -38,7 +38,6 @@ api_location:
 - Wsdtypes.h
 api_name:
 - PWSD_SOAP_MESSAGE_HANDLER
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -8,7 +8,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "windns/_DNS_SERVICE_BROWSE_REQUEST"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

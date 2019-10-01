@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbTaskInfo.Label
  - ITsSbTaskInfo.get_Label
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

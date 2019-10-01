@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_FORMAT_INFO
-product: Windows
 targetos: Windows
 req.typenames: WIA_FORMAT_INFO, *PWIA_FORMAT_INFO
 req.redist: 

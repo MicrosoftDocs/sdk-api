@@ -38,7 +38,6 @@ api_location:
  - audiomediatype.h
 api_name:
  - CreateAudioMediaType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

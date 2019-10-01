@@ -38,7 +38,6 @@ api_location:
  - minidumpapiset.h
 api_name:
  - MINIDUMP_EXCEPTION
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_EXCEPTION, *PMINIDUMP_EXCEPTION
 req.redist: DbgHelp.dll 5.1 or later

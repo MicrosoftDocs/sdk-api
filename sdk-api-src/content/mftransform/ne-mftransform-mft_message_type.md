@@ -38,7 +38,6 @@ api_location:
  - mftransform.h
 api_name:
  - MFT_MESSAGE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MFT_MESSAGE_TYPE
 req.redist: 

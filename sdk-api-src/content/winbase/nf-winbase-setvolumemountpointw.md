@@ -47,7 +47,6 @@ api_name:
  - SetVolumeMountPoint
  - SetVolumeMountPointA
  - SetVolumeMountPointW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

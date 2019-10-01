@@ -38,7 +38,6 @@ api_location:
  - Commoncontrols.h
 api_name:
  - IMAGELISTSTATS
-product: Windows
 targetos: Windows
 req.typenames: IMAGELISTSTATS
 req.redist: 

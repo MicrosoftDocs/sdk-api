@@ -42,7 +42,6 @@ api_name:
  - LogonUser
  - LogonUserA
  - LogonUserW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

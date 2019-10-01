@@ -41,7 +41,6 @@ api_name:
  - CHString.ReleaseBuffer
  - ?ReleaseBuffer@CHString@@QAEXH@Z
  - ?ReleaseBuffer@CHString@@QEAAXH@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

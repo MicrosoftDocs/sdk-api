@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - KERB_CERTIFICATE_HASHINFO
-product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_HASHINFO, *PKERB_CERTIFICATE_HASHINFO
 req.redist: 

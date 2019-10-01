@@ -38,7 +38,6 @@ api_location:
  - fdi.h
 api_name:
  - FNREAD
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

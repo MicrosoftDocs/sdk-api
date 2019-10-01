@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSCTL_GET_CONTROL_FUNCTION
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

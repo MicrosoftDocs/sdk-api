@@ -40,7 +40,6 @@ api_name:
  - REGISTERWORD
  - REGISTERWORDA
  - REGISTERWORDW
-product: Windows
 targetos: Windows
 req.typenames: REGISTERWORDA, *PREGISTERWORDA, *NPREGISTERWORDA, *LPREGISTERWORDA
 req.redist: 

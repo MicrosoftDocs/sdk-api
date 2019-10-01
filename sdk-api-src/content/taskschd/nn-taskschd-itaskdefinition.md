@@ -38,7 +38,6 @@ api_location:
  - taskschd.dll
 api_name:
  - ITaskDefinition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wdsclientapi.h
 api_name:
  - WDS_LOG_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

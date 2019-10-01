@@ -38,7 +38,6 @@ api_location:
  - Wpcevent.h
 api_name:
  - WPCFLAG_IM_FEATURE
-product: Windows
 targetos: Windows
 req.typenames: WPCFLAG_IM_FEATURE
 req.redist: 

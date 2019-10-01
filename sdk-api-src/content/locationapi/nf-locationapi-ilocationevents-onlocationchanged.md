@@ -38,7 +38,6 @@ api_location:
  - LocationAPI.dll
 api_name:
  - ILocationEvents.OnLocationChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

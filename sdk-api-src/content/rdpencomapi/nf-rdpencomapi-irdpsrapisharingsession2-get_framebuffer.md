@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRDPSRAPISharingSession2.FrameBuffer
  - IRDPSRAPISharingSession2.get_FrameBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

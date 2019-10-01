@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - ENHMETAHEADER
-product: Windows
 targetos: Windows
 req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
 req.redist: 

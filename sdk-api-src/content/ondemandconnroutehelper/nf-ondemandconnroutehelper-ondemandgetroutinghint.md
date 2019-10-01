@@ -38,7 +38,6 @@ api_location:
  - OnDemandConnRouteHelper.dll
 api_name:
  - OnDemandGetRoutingHint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

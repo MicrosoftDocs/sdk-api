@@ -38,7 +38,6 @@ api_location:
 - Propsys.h
 api_name:
 - IPropertyStoreCache.GetState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

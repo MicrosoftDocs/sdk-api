@@ -38,7 +38,6 @@ api_location:
  - wmsbuffer.h
 api_name:
  - INSSBuffer3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

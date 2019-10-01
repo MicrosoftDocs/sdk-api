@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_MarginX
  - InkOverlay.get_MarginX
  - InkOverlay.put_MarginX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - DnsQuery_A
  - DnsQuery_W
  - DnsQuery_UTF8
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

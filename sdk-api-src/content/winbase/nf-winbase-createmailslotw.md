@@ -48,7 +48,6 @@ api_name:
  - CreateMailslot
  - CreateMailslotA
  - CreateMailslotW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

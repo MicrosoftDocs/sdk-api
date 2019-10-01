@@ -40,7 +40,6 @@ api_name:
  - REMOTE_NAME_INFO
  - REMOTE_NAME_INFOA
  - REMOTE_NAME_INFOW
-product: Windows
 targetos: Windows
 req.typenames: REMOTE_NAME_INFOA, *LPREMOTE_NAME_INFOA
 req.redist: 

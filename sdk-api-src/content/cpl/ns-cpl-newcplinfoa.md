@@ -39,7 +39,6 @@ api_location:
 api_name:
  - NEWCPLINFO
  - NEWCPLINFOA
-product: Windows
 targetos: Windows
 req.typenames: NEWCPLINFOA, *LPNEWCPLINFOA
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - SHRegGetPath
  - SHRegGetPathA
  - SHRegGetPathW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

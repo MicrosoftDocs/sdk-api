@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPQuery.addCondition
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

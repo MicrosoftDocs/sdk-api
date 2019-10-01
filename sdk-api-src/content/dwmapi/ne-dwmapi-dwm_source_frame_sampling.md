@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWM_SOURCE_FRAME_SAMPLING
-product: Windows
 targetos: Windows
 req.typenames: DWM_SOURCE_FRAME_SAMPLING
 req.redist: 

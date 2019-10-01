@@ -38,7 +38,6 @@ api_location:
  - Dwmapi.h
 api_name:
  - DWM_BLURBEHIND
-product: Windows
 targetos: Windows
 req.typenames: DWM_BLURBEHIND, *PDWM_BLURBEHIND
 req.redist: 

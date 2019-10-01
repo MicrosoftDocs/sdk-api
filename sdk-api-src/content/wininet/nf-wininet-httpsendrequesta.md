@@ -40,7 +40,6 @@ api_name:
  - HttpSendRequest
  - HttpSendRequestA
  - HttpSendRequestW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

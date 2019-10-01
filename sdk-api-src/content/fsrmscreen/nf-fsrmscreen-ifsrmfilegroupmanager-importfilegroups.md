@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmFileGroupManager.ImportFileGroups
  - FsrmFileGroupManager.ImportFileGroups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

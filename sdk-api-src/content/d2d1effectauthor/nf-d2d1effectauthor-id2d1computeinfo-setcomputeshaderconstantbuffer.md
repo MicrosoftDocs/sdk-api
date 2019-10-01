@@ -38,7 +38,6 @@ api_location:
  - d2d1effectauthor.h
 api_name:
  - ID2D1ComputeInfo.SetComputeShaderConstantBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

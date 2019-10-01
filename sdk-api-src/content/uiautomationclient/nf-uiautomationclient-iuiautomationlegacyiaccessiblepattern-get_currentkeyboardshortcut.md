@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut
  - IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

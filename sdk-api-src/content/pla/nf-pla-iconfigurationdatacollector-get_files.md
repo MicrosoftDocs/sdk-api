@@ -40,7 +40,6 @@ api_name:
  - IConfigurationDataCollector.Files
  - IConfigurationDataCollector.get_Files
  - IConfigurationDataCollector.put_Files
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mi.h
 api_name:
  - MI_Sint16A
-product: Windows
 targetos: Windows
 req.typenames: MI_Sint16A
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

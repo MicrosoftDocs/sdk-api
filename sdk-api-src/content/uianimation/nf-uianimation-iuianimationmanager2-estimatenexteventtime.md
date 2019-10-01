@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.h
 api_name:
  - IUIAnimationManager2.EstimateNextEventTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

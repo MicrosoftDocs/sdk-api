@@ -40,7 +40,6 @@ api_name:
  - INetworkSettings.Id
  - INetworkSettings.get_Id
  - INetworkSettings.put_Id
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

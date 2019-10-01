@@ -38,7 +38,6 @@ api_location:
  - winnt.h
 api_name:
  - FIELD_OFFSET
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

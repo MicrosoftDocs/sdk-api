@@ -38,7 +38,6 @@ api_location:
 - Authz.h
 api_name:
 - AUTHZ_INIT_INFO
-product: Windows
 targetos: Windows
 req.typenames: AUTHZ_INIT_INFO, *PAUTHZ_INIT_INFO
 req.redist: 

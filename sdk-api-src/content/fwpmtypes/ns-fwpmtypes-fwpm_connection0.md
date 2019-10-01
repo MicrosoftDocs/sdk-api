@@ -38,7 +38,6 @@ api_location:
  - Fwpmtypes.h
 api_name:
  - FWPM_CONNECTION0
-product: Windows
 targetos: Windows
 req.typenames: FWPM_CONNECTION0
 req.redist: 

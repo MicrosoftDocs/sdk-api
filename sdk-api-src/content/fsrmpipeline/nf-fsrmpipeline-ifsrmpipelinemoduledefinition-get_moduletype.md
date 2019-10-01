@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmPipelineModuleDefinition.ModuleType
  - IFsrmPipelineModuleDefinition.get_ModuleType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

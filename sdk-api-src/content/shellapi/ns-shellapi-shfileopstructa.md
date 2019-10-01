@@ -39,7 +39,6 @@ api_location:
 api_name:
 - SHFILEOPSTRUCT
  - SHFILEOPSTRUCTA
-product: Windows
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTA, *LPSHFILEOPSTRUCTA
 req.redist: 

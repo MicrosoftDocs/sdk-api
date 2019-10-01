@@ -43,7 +43,6 @@ api_name:
  - DsCrackNames
  - DsCrackNamesA
  - DsCrackNamesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

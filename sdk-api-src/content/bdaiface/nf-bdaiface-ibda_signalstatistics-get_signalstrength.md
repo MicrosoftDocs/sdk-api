@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_SignalStatistics.get_SignalStrength
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

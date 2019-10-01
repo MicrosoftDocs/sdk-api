@@ -44,7 +44,6 @@ api_name:
  - CreateHardLinkTransacted
  - CreateHardLinkTransactedA
  - CreateHardLinkTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_TILE_MODE
-product: Windows
 targetos: Windows
 req.typenames: XPS_TILE_MODE
 req.redist: 

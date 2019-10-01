@@ -38,7 +38,6 @@ api_location:
  - lmsvc.h
 api_name:
  - NetServiceGetInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

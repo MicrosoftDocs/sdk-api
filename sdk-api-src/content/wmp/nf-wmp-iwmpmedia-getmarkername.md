@@ -40,7 +40,6 @@ api_name:
  - IWMPMedia.getMarkerName
  - IWMPMedia2.getMarkerName
  - IWMPMedia3.getMarkerName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

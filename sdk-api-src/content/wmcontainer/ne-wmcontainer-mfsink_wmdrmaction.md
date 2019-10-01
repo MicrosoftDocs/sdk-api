@@ -38,7 +38,6 @@ api_location:
  - wmcontainer.h
 api_name:
  - MFSINK_WMDRMACTION
-product: Windows
 targetos: Windows
 req.typenames: MFSINK_WMDRMACTION
 req.redist: 

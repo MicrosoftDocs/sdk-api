@@ -38,7 +38,6 @@ api_location:
  - Bcrypt.h
 api_name:
  - BCRYPT_INIT_AUTH_MODE_INFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

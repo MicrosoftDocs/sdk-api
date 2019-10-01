@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICEnroll4.addBlobPropertyToCertificate
  - CEnroll.addBlobPropertyToCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

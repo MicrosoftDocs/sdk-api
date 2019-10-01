@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnConnection.ConnectionID
  - IMbnConnection.get_ConnectionID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 req.redist: 

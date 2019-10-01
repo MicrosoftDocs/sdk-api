@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - PROCESS_HEAP_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: PROCESS_HEAP_ENTRY, *LPPROCESS_HEAP_ENTRY, *PPROCESS_HEAP_ENTRY
 req.redist: 

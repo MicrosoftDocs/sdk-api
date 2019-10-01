@@ -40,7 +40,6 @@ api_name:
 - PdhGetRawCounterArray
 - PdhGetRawCounterArrayA
 - PdhGetRawCounterArrayW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

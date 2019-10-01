@@ -40,7 +40,6 @@ api_location:
 api_name:
  - IMediaFilter.Pause
  - IBaseFilter.Pause
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

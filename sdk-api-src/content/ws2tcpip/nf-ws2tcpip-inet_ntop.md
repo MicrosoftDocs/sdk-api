@@ -40,7 +40,6 @@ api_name:
  - InetNtop
  - InetNtopA or inet_ntop
  - InetNtopW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

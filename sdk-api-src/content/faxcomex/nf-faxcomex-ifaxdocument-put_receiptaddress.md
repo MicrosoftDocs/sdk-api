@@ -42,7 +42,6 @@ api_name:
  - IFaxDocument.put_ReceiptAddress
  - IFaxDocument.get_ReceiptAddress
  - IFaxDocument.put_ReceiptAddress
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

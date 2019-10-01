@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - SHRINK_VOLUME_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
 req.redist: 

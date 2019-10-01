@@ -40,7 +40,6 @@ api_name:
 - GetGPOList
 - GetGPOListA
 - GetGPOListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

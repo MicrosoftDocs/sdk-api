@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - UiaEventAddWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

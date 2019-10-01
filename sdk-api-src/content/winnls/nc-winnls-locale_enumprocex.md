@@ -38,7 +38,6 @@ api_location:
  - WinNls.h
 api_name:
  - LOCALE_ENUMPROCEX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -47,7 +47,6 @@ api_name:
  - WinHelp
  - WinHelpA
  - WinHelpW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - mprapi.h
 api_name:
 - MPR_IF_CUSTOMINFOEX0
-product: Windows
 targetos: Windows
 req.typenames: MPR_IF_CUSTOMINFOEX0, *PMPR_IF_CUSTOMINFOEX0
 req.redist: 

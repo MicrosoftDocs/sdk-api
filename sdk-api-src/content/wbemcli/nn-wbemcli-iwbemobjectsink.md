@@ -38,7 +38,6 @@ api_location:
  - Fastprox.dll
 api_name:
  - IWbemObjectSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - GetCurrentFiber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

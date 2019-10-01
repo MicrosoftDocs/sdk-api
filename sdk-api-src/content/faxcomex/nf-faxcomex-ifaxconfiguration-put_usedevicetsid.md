@@ -40,7 +40,6 @@ api_name:
  - IFaxConfiguration.UseDeviceTSID
  - IFaxConfiguration.get_UseDeviceTSID
  - IFaxConfiguration.put_UseDeviceTSID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

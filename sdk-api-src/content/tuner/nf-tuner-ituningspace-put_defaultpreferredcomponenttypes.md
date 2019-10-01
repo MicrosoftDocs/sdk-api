@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - ITuningSpace.put_DefaultPreferredComponentTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

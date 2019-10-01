@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEFORWARD
-product: Windows
 targetos: Windows
 req.typenames: LINEFORWARD, *LPLINEFORWARD
 req.redist: 

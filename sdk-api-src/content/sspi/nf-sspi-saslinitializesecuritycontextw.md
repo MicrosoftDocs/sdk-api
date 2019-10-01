@@ -40,7 +40,6 @@ api_name:
 - SaslInitializeSecurityContext
 - SaslInitializeSecurityContextA
 - SaslInitializeSecurityContextW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

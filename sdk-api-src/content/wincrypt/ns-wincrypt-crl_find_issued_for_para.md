@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CRL_FIND_ISSUED_FOR_PARA
-product: Windows
 targetos: Windows
 req.typenames: CRL_FIND_ISSUED_FOR_PARA, *PCRL_FIND_ISSUED_FOR_PARA
 req.redist: 

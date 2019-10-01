@@ -38,7 +38,6 @@ api_location:
 - WinBase.h
 api_name:
 - DYNAMIC_TIME_ZONE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: DYNAMIC_TIME_ZONE_INFORMATION, *PDYNAMIC_TIME_ZONE_INFORMATION
 req.redist: 

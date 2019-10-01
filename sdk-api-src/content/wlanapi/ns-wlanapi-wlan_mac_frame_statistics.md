@@ -38,7 +38,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_MAC_FRAME_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: WLAN_MAC_FRAME_STATISTICS, *PWLAN_MAC_FRAME_STATISTICS
 req.redist: 

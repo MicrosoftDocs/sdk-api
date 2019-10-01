@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_ROUTE_PROTOCOL
-product: Windows
 targetos: Windows
 req.typenames: NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - RdcCreatedTables
-product: Windows
 targetos: Windows
 req.typenames: RdcCreatedTables
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - LSA_AUTH_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: LSA_AUTH_INFORMATION, *PLSA_AUTH_INFORMATION
 req.redist: 

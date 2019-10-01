@@ -40,7 +40,6 @@ api_name:
  - MsiEnableLog
  - MsiEnableLogA
  - MsiEnableLogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

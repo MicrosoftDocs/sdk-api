@@ -38,7 +38,6 @@ api_location:
 - Uxtheme.h
 api_name:
 - BP_PAINTPARAMS
-product: Windows
 targetos: Windows
 req.typenames: BP_PAINTPARAMS, *PBP_PAINTPARAMS
 req.redist: 

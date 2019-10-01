@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - BCRYPT_RSAKEY_BLOB
-product: Windows
 targetos: Windows
 req.typenames: BCRYPT_RSAKEY_BLOB
 req.redist: 

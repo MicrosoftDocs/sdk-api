@@ -40,7 +40,6 @@ api_name:
  - IShellLink.SetRelativePath
  - IShellLinkA.SetRelativePath
  - IShellLinkW.SetRelativePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

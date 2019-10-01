@@ -40,7 +40,6 @@ api_name:
  - IRDPSRAPIInvitation.GroupName
  - IRDPSRAPIInvitation.get_GroupName
  - RDPSRAPIInvitation.GroupName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

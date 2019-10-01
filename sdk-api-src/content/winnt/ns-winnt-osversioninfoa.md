@@ -40,7 +40,6 @@ api_name:
 - OSVERSIONINFO
 - OSVERSIONINFOA
 - OSVERSIONINFOW
-product: Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOA, *POSVERSIONINFOA, *LPOSVERSIONINFOA
 req.redist: 

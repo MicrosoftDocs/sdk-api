@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ITEM_INFO
-product: Windows
 targetos: Windows
 req.typenames: ITEM_INFO
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_DESTROYVPORTDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA'
 req.redist: 

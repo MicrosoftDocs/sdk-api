@@ -39,7 +39,6 @@ api_location:
 - WMStubDRM.dll
 api_name:
 - IWMDeviceRegistration.UnregisterDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

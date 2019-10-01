@@ -40,7 +40,6 @@ api_name:
  - SetupSetDirectoryId
  - SetupSetDirectoryIdA
  - SetupSetDirectoryIdW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.DeltaCompressedContentPreferred
  - IUpdate.get_DeltaCompressedContentPreferred
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

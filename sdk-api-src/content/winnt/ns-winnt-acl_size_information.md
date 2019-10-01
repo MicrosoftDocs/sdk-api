@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACL_SIZE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ACL_SIZE_INFORMATION
 req.redist: 

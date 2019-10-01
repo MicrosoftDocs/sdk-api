@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MF_URL_TRUST_STATUS
-product: Windows
 targetos: Windows
 req.typenames: MF_URL_TRUST_STATUS
 req.redist: 

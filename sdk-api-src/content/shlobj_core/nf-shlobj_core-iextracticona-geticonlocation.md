@@ -40,7 +40,6 @@ api_name:
  - IExtractIcon.GetIconLocation
  - IExtractIconA::GetIconLocation
  - IExtractIconW::GetIconLocation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

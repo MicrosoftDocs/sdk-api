@@ -38,7 +38,6 @@ api_location:
  - xaudio2.h
 api_name:
  - IXAudio2VoiceCallback.OnVoiceProcessingPassEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

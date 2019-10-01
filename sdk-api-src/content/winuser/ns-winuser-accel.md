@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - ACCEL
-product: Windows
 targetos: Windows
 req.typenames: ACCEL, *LPACCEL
 req.redist: 

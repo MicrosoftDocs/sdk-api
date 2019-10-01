@@ -38,7 +38,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_IFSTATUS
-product: Windows
 targetos: Windows
 req.typenames: MIB_IFSTATUS, *PMIB_IFSTATUS
 req.redist: 

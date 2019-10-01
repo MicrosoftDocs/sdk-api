@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - ITILSConfig.put_Port
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

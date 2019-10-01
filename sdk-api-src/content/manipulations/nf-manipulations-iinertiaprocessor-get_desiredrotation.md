@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.DesiredRotation
  - IInertiaProcessor.get_DesiredRotation
  - IInertiaProcessor.put_DesiredRotation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

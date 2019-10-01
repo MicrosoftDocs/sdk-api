@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.SerialNumber
  - IDataCollectorSet.get_SerialNumber
  - IDataCollectorSet.put_SerialNumber
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

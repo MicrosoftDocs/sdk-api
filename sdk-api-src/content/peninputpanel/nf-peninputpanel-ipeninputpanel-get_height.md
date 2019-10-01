@@ -41,7 +41,6 @@ api_name:
  - IPenInputPanel.Height
  - IPenInputPanel.get_Height
  - PenInputPanel.get_Height
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

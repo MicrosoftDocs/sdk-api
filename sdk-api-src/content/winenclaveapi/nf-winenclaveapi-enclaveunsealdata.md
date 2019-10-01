@@ -38,7 +38,6 @@ api_location:
  - vertdll.dll
 api_name:
  - EnclaveUnsealData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

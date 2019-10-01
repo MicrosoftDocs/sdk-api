@@ -40,7 +40,6 @@ api_name:
  - RasRenameEntry
  - RasRenameEntryA
  - RasRenameEntryW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

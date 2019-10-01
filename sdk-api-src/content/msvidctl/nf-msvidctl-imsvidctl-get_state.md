@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.get_State
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Vfw32.dll
 api_name:
  - IAVIFile.ReadData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -45,7 +45,6 @@ api_name:
  - RemoveDirectoryTransacted
  - RemoveDirectoryTransactedA
  - RemoveDirectoryTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

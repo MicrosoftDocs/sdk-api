@@ -40,7 +40,6 @@ api_name:
  - ADDRINFOEX2
  - addrinfoex2A
  - addrinfoex2W
-product: Windows
 targetos: Windows
 req.typenames: ADDRINFOEX2W, *PADDRINFOEX2W, *LPADDRINFOEX2W
 req.redist: 

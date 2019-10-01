@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ISearchRoot.put_ProvidesNotifications
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

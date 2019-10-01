@@ -40,7 +40,6 @@ api_name:
  - IX509PrivateKey.UIContextMessage
  - IX509PrivateKey.get_UIContextMessage
  - IX509PrivateKey.put_UIContextMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

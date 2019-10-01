@@ -38,7 +38,6 @@ api_location:
 - PowrProf.h
 api_name:
 - GLOBAL_MACHINE_POWER_POLICY
-product: Windows
 targetos: Windows
 req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
 req.redist: 

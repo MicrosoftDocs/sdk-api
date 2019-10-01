@@ -40,7 +40,6 @@ api_name:
 - SEC_WINNT_AUTH_IDENTITY
 - SEC_WINNT_AUTH_IDENTITY_A
 - SEC_WINNT_AUTH_IDENTITY_W
-product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
 req.redist: 

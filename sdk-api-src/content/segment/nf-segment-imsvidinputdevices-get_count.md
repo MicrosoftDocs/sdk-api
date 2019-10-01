@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidInputDevices.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

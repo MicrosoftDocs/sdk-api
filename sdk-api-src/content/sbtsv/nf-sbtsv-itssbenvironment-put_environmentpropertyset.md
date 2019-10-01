@@ -40,7 +40,6 @@ api_name:
  - ITsSbEnvironment.EnvironmentPropertySet
  - ITsSbEnvironment.get_EnvironmentPropertySet
  - ITsSbEnvironment.put_EnvironmentPropertySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

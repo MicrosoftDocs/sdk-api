@@ -38,7 +38,6 @@ api_location:
  - Msime.h
 api_name:
  - IMEDLG
-product: Windows
 targetos: Windows
 req.typenames: IMEDLG
 req.redist: 

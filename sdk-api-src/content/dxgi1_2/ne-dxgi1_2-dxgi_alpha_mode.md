@@ -38,7 +38,6 @@ api_location:
  - DXGI1_2.h
 api_name:
  - DXGI_ALPHA_MODE
-product: Windows
 targetos: Windows
 req.typenames: DXGI_ALPHA_MODE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - d3d11shader.h
 api_name:
  - D3D11_SHADER_VERSION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: D3D11_SHADER_VERSION_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - segment.h
 api_name:
  - IMSVidRect.put_Rect
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

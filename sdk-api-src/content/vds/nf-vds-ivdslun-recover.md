@@ -39,7 +39,6 @@ api_location:
  - Uuid.dll
 api_name:
  - IVdsLun.Recover
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

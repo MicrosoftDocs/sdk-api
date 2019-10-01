@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - FAT_STATISTICS
-product: Windows
 targetos: Windows
 req.typenames: FAT_STATISTICS, *PFAT_STATISTICS
 req.redist: 

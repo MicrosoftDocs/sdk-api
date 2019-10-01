@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SEC_CHANNEL_BINDINGS
-product: Windows
 targetos: Windows
 req.typenames: SEC_CHANNEL_BINDINGS, *PSEC_CHANNEL_BINDINGS
 req.redist: 

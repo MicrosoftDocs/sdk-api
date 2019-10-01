@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_MSG_STATUS
-product: Windows
 targetos: Windows
 req.typenames: MBN_MSG_STATUS
 req.redist: 

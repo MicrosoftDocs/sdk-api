@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationAnnotationPattern.CurrentTarget
  - IUIAutomationAnnotationPattern.get_CurrentTarget
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

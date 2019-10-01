@@ -39,7 +39,6 @@ api_location:
 - WinBase.h
 api_name:
 - BY_HANDLE_FILE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
 req.redist: 

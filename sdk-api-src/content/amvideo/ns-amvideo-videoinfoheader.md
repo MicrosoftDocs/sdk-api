@@ -38,7 +38,6 @@ api_location:
  - amvideo.h
 api_name:
  - VIDEOINFOHEADER
-product: Windows
 targetos: Windows
 req.typenames: VIDEOINFOHEADER
 req.redist: 

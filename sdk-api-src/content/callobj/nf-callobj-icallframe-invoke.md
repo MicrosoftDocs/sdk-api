@@ -38,7 +38,6 @@ api_location:
  - Callobj.h
 api_name:
  - ICallFrame.Invoke
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

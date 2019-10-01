@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - PIN_DIRECTION
-product: Windows
 targetos: Windows
 req.typenames: PIN_DIRECTION
 req.redist: 

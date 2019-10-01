@@ -38,7 +38,6 @@ api_location:
 - Medparam.h
 api_name:
 - MP_CURVE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MP_CURVE_TYPE
 req.redist: 

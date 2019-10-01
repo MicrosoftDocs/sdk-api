@@ -42,7 +42,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - PatBlt
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

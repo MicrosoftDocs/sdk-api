@@ -38,7 +38,6 @@ api_location:
  - keycredmgr.h
 api_name:
  - KeyCredentialManagerOperationType
-product: Windows
 targetos: Windows
 req.typenames: KeyCredentialManagerOperationType
 req.redist: 

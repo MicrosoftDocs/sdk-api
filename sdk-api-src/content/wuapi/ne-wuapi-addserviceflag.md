@@ -38,7 +38,6 @@ api_location:
  - Wuapi.h
 api_name:
  - AddServiceFlag
-product: Windows
 targetos: Windows
 req.typenames: AddServiceFlag
 req.redist: 

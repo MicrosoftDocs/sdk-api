@@ -38,7 +38,6 @@ api_location:
  - playtomanagerinterop.h
 api_name:
  - IPlayToManagerInterop.GetForWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

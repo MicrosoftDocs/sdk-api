@@ -38,7 +38,6 @@ api_location:
  - Traffic.h
 api_name:
  - TCI_CLIENT_FUNC_LIST
-product: Windows
 targetos: Windows
 req.typenames: TCI_CLIENT_FUNC_LIST, *PTCI_CLIENT_FUNC_LIST
 req.redist: 

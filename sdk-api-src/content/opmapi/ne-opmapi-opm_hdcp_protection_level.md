@@ -38,7 +38,6 @@ api_location:
  - opmapi.h
 api_name:
  - OPM_HDCP_PROTECTION_LEVEL
-product: Windows
 targetos: Windows
 req.typenames: OPM_HDCP_PROTECTION_LEVEL
 req.redist: 

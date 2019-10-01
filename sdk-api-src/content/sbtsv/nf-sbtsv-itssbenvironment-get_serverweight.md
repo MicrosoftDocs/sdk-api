@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ITsSbEnvironment.ServerWeight
  - ITsSbEnvironment.get_ServerWeight
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

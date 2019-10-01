@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextDocument2.UpdateWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

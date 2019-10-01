@@ -43,7 +43,6 @@ api_name:
  - RegQueryValue
  - RegQueryValueA
  - RegQueryValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

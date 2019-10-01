@@ -38,7 +38,6 @@ api_location:
  - Psapi.h
 api_name:
  - ENUM_PAGE_FILE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: ENUM_PAGE_FILE_INFORMATION, *PENUM_PAGE_FILE_INFORMATION
 req.redist: 

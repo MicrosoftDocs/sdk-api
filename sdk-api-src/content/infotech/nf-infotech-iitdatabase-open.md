@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IITDatabase.Open
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

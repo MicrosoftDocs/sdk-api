@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IAzRoleAssignments.Count
  - IAzRoleAssignments.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

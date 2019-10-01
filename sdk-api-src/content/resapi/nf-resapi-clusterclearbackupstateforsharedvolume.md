@@ -38,7 +38,6 @@ api_location:
  - ResUtils.Dll
 api_name:
  - ClusterClearBackupStateForSharedVolume
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

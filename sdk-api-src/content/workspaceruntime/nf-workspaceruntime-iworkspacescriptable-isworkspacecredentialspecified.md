@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.IsWorkspaceCredentialSpecified
  - IWorkspaceScriptable3.IsWorkspaceCredentialSpecified
  - Workspace.IsWorkspaceCredentialSpecified
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

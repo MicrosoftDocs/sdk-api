@@ -45,7 +45,6 @@ api_name:
  - SHEnumValue
  - SHEnumValueA
  - SHEnumValueW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

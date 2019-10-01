@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMReaderAdvanced4.AddLogParam
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

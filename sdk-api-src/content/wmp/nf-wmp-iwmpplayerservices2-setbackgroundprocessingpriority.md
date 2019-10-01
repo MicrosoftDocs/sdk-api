@@ -38,7 +38,6 @@ api_location:
  - wmp.dll
 api_name:
  - IWMPPlayerServices2.setBackgroundProcessingPriority
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

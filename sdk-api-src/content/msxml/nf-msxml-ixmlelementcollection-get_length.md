@@ -38,7 +38,6 @@ api_location:
  - Msxml.dll
 api_name:
  - IXMLElementCollection.get_length
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

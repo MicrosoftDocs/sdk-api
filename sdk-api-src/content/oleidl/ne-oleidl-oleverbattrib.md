@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEVERBATTRIB
-product: Windows
 targetos: Windows
 req.typenames: OLEVERBATTRIB
 req.redist: 

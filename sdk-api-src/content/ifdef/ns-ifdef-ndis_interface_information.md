@@ -38,7 +38,6 @@ api_location:
 - ifdef.h
 api_name:
 - NDIS_INTERFACE_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
 req.redist: 

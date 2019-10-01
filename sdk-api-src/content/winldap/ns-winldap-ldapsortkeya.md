@@ -40,7 +40,6 @@ api_name:
  - LDAPSortKey
  - LDAPSortKeyA
  - LDAPSortKeyW
-product: Windows
 targetos: Windows
 req.typenames: LDAPSortKeyA, *PLDAPSortKeyA
 req.redist: 

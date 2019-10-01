@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - PasswordChangeNotify
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

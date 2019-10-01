@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerPolicy.GetCertificateExtension
  - CCertServerPolicy.GetCertificateExtension
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Mstask.h
 api_name:
 - TASKPAGE
-product: Windows
 targetos: Windows
 req.typenames: TASKPAGE
 req.redist: 

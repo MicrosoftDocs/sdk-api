@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IAMTuner.get_TuningSpace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

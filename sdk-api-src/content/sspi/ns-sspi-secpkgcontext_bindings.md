@@ -38,7 +38,6 @@ api_location:
 - Sspi.h
 api_name:
 - SecPkgContext_Bindings
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_Bindings, *PSecPkgContext_Bindings
 req.redist: 

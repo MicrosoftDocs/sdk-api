@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - FSM_STATE
-product: Windows
 targetos: Windows
 req.typenames: FSM_STATE
 req.redist: 

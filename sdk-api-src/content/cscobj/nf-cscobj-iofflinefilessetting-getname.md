@@ -39,7 +39,6 @@ api_location:
  - CscObj.dll
 api_name:
  - IOfflineFilesSetting.GetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

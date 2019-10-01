@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - MFPMPSESSION_CREATION_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: MFPMPSESSION_CREATION_FLAGS
 req.redist: 

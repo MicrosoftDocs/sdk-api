@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SCHANNEL_CERT_HASH
-product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CERT_HASH, *PSCHANNEL_CERT_HASH
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_NameValueService.SetValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

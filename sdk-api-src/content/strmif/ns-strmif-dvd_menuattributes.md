@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - DVD_MenuAttributes
-product: Windows
 targetos: Windows
 req.typenames: DVD_MenuAttributes
 req.redist: 

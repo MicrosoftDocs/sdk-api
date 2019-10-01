@@ -38,7 +38,6 @@ api_location:
  - Hnetcfg.dll
 api_name:
  - INetSharingPortMappingCollection.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

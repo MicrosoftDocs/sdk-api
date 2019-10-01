@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - CERT_OR_CRL_BUNDLE
-product: Windows
 targetos: Windows
 req.typenames: CERT_OR_CRL_BUNDLE, *PCERT_OR_CRL_BUNDLE
 req.redist: 

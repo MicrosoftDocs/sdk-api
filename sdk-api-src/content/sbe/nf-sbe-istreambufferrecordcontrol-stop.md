@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IStreamBufferRecordControl.Stop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

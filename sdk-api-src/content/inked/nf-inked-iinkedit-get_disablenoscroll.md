@@ -43,7 +43,6 @@ api_name:
  - IInkEdit.put_DisableNoScroll
  - InkEdit.get_DisableNoScroll
  - InkEdit.put_DisableNoScroll
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

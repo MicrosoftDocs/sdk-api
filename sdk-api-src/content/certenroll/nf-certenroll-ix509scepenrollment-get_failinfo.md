@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SCEPEnrollment.FailInfo
  - IX509SCEPEnrollment.get_FailInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

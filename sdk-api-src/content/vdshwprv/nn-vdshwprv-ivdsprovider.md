@@ -39,7 +39,6 @@ api_location:
 - Uuid.dll
 api_name:
 - IVdsProvider
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

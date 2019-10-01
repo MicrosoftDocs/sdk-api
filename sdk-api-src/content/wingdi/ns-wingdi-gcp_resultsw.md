@@ -40,7 +40,6 @@ api_name:
  - GCP_RESULTS
  - GCP_RESULTSA
  - GCP_RESULTSW
-product: Windows
 targetos: Windows
 req.typenames: GCP_RESULTSW, *LPGCP_RESULTSW
 req.redist: 

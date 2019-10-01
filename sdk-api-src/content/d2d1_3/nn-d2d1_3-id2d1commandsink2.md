@@ -38,7 +38,6 @@ api_location:
  - d2d1_3.h
 api_name:
  - ID2D1CommandSink2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

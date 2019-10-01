@@ -38,7 +38,6 @@ api_location:
 - FaxDev.h
 api_name:
 - FAX_SEND
-product: Windows
 targetos: Windows
 req.typenames: FAX_SEND, *PFAX_SEND
 req.redist: 

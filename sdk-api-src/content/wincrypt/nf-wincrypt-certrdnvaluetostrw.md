@@ -40,7 +40,6 @@ api_name:
  - CertRDNValueToStr
  - CertRDNValueToStrA
  - CertRDNValueToStrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

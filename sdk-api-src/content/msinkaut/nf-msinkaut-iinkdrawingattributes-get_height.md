@@ -43,7 +43,6 @@ api_name:
  - IInkDrawingAttributes.put_Height
  - InkDrawingAttributes.get_Height
  - InkDrawingAttributes.put_Height
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

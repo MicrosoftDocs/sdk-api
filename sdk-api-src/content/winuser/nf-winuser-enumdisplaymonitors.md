@@ -42,7 +42,6 @@ api_location:
  - Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
 api_name:
  - EnumDisplayMonitors
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

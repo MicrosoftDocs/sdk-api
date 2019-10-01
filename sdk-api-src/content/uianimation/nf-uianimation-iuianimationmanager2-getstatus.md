@@ -38,7 +38,6 @@ api_location:
  - UIAnimation.dll
 api_name:
  - IUIAnimationManager2.GetStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

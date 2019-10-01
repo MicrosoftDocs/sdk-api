@@ -38,7 +38,6 @@ api_location:
  - Wsnmp32.dll
 api_name:
  - SnmpStrToOid
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

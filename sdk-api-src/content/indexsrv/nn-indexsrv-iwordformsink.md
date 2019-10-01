@@ -38,7 +38,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - IWordFormSink
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

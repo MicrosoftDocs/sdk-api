@@ -40,7 +40,6 @@ api_name:
  - IX509PolicyServerUrl.Cost
  - IX509PolicyServerUrl.get_Cost
  - IX509PolicyServerUrl.put_Cost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

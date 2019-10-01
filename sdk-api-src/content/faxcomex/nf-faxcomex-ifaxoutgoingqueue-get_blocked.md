@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingQueue.Blocked
  - IFaxOutgoingQueue.get_Blocked
  - IFaxOutgoingQueue.put_Blocked
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

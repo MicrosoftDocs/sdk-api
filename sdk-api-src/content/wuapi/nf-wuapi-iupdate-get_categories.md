@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.Categories
  - IUpdate.get_Categories
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

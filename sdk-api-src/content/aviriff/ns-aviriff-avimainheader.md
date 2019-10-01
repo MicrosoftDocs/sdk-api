@@ -38,7 +38,6 @@ api_location:
  - Aviriff.h
 api_name:
  - AVIMAINHEADER
-product: Windows
 targetos: Windows
 req.typenames: AVIMAINHEADER
 req.redist: 

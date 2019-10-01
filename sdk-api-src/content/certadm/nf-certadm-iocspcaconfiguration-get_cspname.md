@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPCAConfiguration.CSPName
  - IOCSPCAConfiguration.get_CSPName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

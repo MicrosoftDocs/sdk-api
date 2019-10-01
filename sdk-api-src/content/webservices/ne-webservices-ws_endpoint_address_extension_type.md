@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 req.redist: 

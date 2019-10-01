@@ -40,7 +40,6 @@ api_name:
  - lineSetDevConfig
  - lineSetDevConfigA
  - lineSetDevConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

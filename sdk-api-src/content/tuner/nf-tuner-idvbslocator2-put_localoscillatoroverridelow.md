@@ -40,7 +40,6 @@ api_name:
  - IDVBSLocator2.LocalOscillatorOverrideLow
  - IDVBSLocator2.get_LocalOscillatorOverrideLow
  - IDVBSLocator2.put_LocalOscillatorOverrideLow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

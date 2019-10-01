@@ -38,7 +38,6 @@ api_location:
  - Structuredquerycondition.h
 api_name:
  - CONDITION_OPERATION
-product: Windows
 targetos: Windows
 req.typenames: CONDITION_OPERATION
 req.redist: Windows Desktop Search (WDS) 3.0

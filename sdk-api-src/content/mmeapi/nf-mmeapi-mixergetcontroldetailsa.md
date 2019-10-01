@@ -42,7 +42,6 @@ api_name:
  - mixerGetControlDetails
  - mixerGetControlDetailsA
  - mixerGetControlDetailsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

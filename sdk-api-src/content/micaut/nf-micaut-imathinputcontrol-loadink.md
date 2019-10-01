@@ -38,7 +38,6 @@ api_location:
  - micaut.h
 api_name:
  - IMathInputControl.LoadInk
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

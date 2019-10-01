@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - HITRANGE
-product: Windows
 targetos: Windows
 req.typenames: HITRANGE
 req.redist: 

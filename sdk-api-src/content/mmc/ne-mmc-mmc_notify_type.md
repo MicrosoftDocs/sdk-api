@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - MMC_NOTIFY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MMC_NOTIFY_TYPE
 req.redist: 

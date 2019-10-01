@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - PARTITION_INFORMATION_MBR
-product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR
 req.redist: 

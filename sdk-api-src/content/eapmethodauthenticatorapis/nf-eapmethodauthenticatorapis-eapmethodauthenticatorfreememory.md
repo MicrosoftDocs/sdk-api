@@ -38,7 +38,6 @@ api_location:
  - eapmethodauthenticatorapis.h
 api_name:
  - EapMethodAuthenticatorFreeMemory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

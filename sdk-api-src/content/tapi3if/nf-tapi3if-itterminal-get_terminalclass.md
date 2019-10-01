@@ -38,7 +38,6 @@ api_location:
  - tapi3if.h
 api_name:
  - ITTerminal.get_TerminalClass
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

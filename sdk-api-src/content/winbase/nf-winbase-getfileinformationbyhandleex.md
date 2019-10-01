@@ -43,7 +43,6 @@ api_location:
 - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
 - GetFileInformationByHandleEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

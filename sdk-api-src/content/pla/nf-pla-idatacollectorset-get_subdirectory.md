@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Subdirectory
  - IDataCollectorSet.get_Subdirectory
  - IDataCollectorSet.put_Subdirectory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

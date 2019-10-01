@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_SYNC_STATE
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_SYNC_STATE
 req.redist: 

@@ -44,7 +44,6 @@ api_name:
  - GetCompressedFileSizeTransacted
  - GetCompressedFileSizeTransactedA
  - GetCompressedFileSizeTransactedW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

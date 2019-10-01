@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridProvider.ColumnCount
  - IGridProvider.get_ColumnCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

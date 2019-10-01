@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwProfile.GloballyOpenPorts
  - INetFwProfile.get_GloballyOpenPorts
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

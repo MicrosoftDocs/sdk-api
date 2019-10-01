@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_MFE_STATS_TABLE_EX
-product: Windows
 targetos: Windows
 req.typenames: MIB_MFE_STATS_TABLE_EX_XP, *PMIB_MFE_STATS_TABLE_EX_XP
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Routprot.h
 api_name:
  - MibGet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

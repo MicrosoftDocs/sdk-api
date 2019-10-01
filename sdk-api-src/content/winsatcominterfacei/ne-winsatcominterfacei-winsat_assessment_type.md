@@ -38,7 +38,6 @@ api_location:
  - Winsatcominterfacei.h
 api_name:
  - WINSAT_ASSESSMENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: WINSAT_ASSESSMENT_TYPE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - DeleteIpForwardEntry2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

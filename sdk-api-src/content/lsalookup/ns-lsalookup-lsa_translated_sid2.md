@@ -38,7 +38,6 @@ api_location:
 - LsaLookup.h
 api_name:
 - LSA_TRANSLATED_SID2
-product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - IInkStrokeDisp.ExtendedProperties
  - IInkStrokeDisp.get_ExtendedProperties
  - InkStrokeDisp.get_ExtendedProperties Property
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

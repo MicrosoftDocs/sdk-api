@@ -38,7 +38,6 @@ api_location:
  - Powrprof.h
 api_name:
  - DEVICE_NOTIFY_CALLBACK_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

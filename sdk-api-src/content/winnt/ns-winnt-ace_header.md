@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - ACE_HEADER
-product: Windows
 targetos: Windows
 req.typenames: ACE_HEADER
 req.redist: 

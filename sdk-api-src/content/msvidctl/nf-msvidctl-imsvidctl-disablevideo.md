@@ -38,7 +38,6 @@ api_location:
  - msvidctl.h
 api_name:
  - IMSVidCtl.DisableVideo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

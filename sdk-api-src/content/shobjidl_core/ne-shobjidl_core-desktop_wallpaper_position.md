@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - DESKTOP_WALLPAPER_POSITION
-product: Windows
 targetos: Windows
 req.typenames: DESKTOP_WALLPAPER_POSITION
 req.redist: 

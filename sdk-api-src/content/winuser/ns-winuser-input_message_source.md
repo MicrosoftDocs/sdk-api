@@ -38,7 +38,6 @@ api_location:
  - winuser.h
 api_name:
  - INPUT_MESSAGE_SOURCE
-product: Windows
 targetos: Windows
 req.typenames: INPUT_MESSAGE_SOURCE
 req.redist: 

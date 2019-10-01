@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOCSPAdmin.OCSPCAConfigurationCollection
  - IOCSPAdmin.get_OCSPCAConfigurationCollection
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

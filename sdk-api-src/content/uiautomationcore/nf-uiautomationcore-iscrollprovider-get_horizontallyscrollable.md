@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IScrollProvider.HorizontallyScrollable
  - IScrollProvider.get_HorizontallyScrollable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

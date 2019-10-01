@@ -40,7 +40,6 @@ api_name:
  - IDataCollector.LogAppend
  - IDataCollector.get_LogAppend
  - IDataCollector.put_LogAppend
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

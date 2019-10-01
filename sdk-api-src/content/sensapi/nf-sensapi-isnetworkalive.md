@@ -38,7 +38,6 @@ api_location:
  - Sensapi.dll
 api_name:
  - IsNetworkAlive
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

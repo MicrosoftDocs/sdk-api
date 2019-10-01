@@ -40,7 +40,6 @@ api_name:
  - MsiGetFeatureInfo
  - MsiGetFeatureInfoA
  - MsiGetFeatureInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

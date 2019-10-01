@@ -40,7 +40,6 @@ api_name:
  - MsiGetProductInfoFromScript
  - MsiGetProductInfoFromScriptA
  - MsiGetProductInfoFromScriptW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

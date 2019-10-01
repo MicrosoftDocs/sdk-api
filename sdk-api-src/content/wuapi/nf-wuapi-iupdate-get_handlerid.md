@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.HandlerID
  - IUpdate.get_HandlerID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

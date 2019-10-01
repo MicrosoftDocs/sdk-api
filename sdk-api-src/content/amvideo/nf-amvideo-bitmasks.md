@@ -38,7 +38,6 @@ api_location:
  - Amvideo.h
 api_name:
  - BITMASKS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

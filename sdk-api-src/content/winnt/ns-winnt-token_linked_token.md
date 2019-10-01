@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TOKEN_LINKED_TOKEN
-product: Windows
 targetos: Windows
 req.typenames: TOKEN_LINKED_TOKEN, *PTOKEN_LINKED_TOKEN
 req.redist: 

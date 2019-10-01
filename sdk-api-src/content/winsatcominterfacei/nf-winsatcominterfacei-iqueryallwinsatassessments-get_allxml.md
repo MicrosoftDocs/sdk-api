@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IQueryAllWinSATAssessments.AllXML
  - IQueryAllWinSATAssessments.get_AllXML
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

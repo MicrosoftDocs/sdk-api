@@ -40,7 +40,6 @@ api_name:
  - IObjectId.FriendlyName
  - IObjectId.get_FriendlyName
  - IObjectId.put_FriendlyName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

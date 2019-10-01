@@ -38,7 +38,6 @@ api_location:
  - Termmgr.h
 api_name:
  - ITTerminalManager.CreateDynamicTerminal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

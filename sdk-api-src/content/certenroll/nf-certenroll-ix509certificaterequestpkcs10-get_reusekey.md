@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509CertificateRequestPkcs10.ReuseKey
  - IX509CertificateRequestPkcs10.get_ReuseKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

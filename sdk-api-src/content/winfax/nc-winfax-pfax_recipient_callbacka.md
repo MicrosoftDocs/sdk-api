@@ -40,7 +40,6 @@ api_name:
 - FAX_RECIPIENT_CALLBACK
 - PFAX_RECIPIENT_CALLBACKA
 - PFAX_RECIPIENT_CALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

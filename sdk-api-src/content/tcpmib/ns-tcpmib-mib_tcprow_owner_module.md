@@ -39,7 +39,6 @@ api_location:
 - Iprtrmib.h
 api_name:
 - MIB_TCPROW_OWNER_MODULE
-product: Windows
 targetos: Windows
 req.typenames: MIB_TCPROW_OWNER_MODULE, *PMIB_TCPROW_OWNER_MODULE
 req.redist: 

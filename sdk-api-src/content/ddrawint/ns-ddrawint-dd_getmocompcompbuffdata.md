@@ -38,7 +38,6 @@ api_location:
 - ddrawint.h
 api_name:
 - DD_GETMOCOMPCOMPBUFFDATA
-product: Windows
 targetos: Windows
 req.typenames: '*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA'
 req.redist: 

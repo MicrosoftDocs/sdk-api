@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - SVUIA_STATUS
-product: Windows
 targetos: Windows
 req.typenames: SVUIA_STATUS
 req.redist: 

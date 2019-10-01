@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - POWER_PLATFORM_ROLE
-product: Windows
 targetos: Windows
 req.typenames: POWER_PLATFORM_ROLE, *PPOWER_PLATFORM_ROLE
 req.redist: 

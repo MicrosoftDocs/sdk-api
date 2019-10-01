@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINETRANSLATEOUTPUT
-product: Windows
 targetos: Windows
 req.typenames: LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT
 req.redist: 

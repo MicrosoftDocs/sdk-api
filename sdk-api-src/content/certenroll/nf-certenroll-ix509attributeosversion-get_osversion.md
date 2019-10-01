@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeOSVersion.OSVersion
  - IX509AttributeOSVersion.get_OSVersion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

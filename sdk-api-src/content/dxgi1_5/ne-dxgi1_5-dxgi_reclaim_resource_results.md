@@ -38,7 +38,6 @@ api_location:
  - dxgi1_5.h
 api_name:
  - DXGI_RECLAIM_RESOURCE_RESULTS
-product: Windows
 targetos: Windows
 req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
 req.redist: 

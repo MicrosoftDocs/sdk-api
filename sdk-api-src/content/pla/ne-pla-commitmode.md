@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - CommitMode
-product: Windows
 targetos: Windows
 req.typenames: CommitMode
 req.redist: 

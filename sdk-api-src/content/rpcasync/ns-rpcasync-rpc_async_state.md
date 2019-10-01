@@ -38,7 +38,6 @@ api_location:
 - Rpcasync.h
 api_name:
 - RPC_ASYNC_STATE
-product: Windows
 targetos: Windows
 req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - messagedispatcherapi.h
 api_name:
  - CoSetMessageDispatcher
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

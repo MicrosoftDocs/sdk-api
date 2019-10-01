@@ -38,7 +38,6 @@ api_location:
  - bdaiface.h
 api_name:
  - ICCSubStreamFiltering.put_SubstreamTypes
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

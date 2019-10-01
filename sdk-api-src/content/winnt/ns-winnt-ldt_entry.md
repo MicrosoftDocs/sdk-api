@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - LDT_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: LDT_ENTRY, *PLDT_ENTRY
 req.redist: 

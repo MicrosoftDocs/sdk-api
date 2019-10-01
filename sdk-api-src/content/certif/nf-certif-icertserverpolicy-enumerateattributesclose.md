@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertServerPolicy.EnumerateAttributesClose
  - CCertServerPolicy.EnumerateAttributesClose
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

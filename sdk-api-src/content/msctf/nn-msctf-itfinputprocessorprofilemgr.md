@@ -38,7 +38,6 @@ api_location:
  - Msctf.h
 api_name:
  - ITfInputProcessorProfileMgr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

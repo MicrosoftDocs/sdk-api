@@ -40,7 +40,6 @@ api_name:
  - ITsSbSession.ProtocolType
  - ITsSbSession.get_ProtocolType
  - ITsSbSession.put_ProtocolType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

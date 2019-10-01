@@ -38,7 +38,6 @@ api_location:
  - minwinbase.h
 api_name:
  - LocalDiscard
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

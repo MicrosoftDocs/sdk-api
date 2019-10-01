@@ -38,7 +38,6 @@ api_location:
  - msopc.h
 api_name:
  - OPC_URI_TARGET_MODE
-product: Windows
 targetos: Windows
 req.typenames: OPC_URI_TARGET_MODE
 req.redist: 

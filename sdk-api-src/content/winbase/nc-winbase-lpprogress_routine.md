@@ -39,7 +39,6 @@ api_location:
 api_name:
  - CopyProgressRoutine
  - LPPROGRESS_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

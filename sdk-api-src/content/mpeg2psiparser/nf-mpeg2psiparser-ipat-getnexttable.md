@@ -38,7 +38,6 @@ api_location:
  - Mpeg2PsiParser.h
 api_name:
  - IPAT.GetNextTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

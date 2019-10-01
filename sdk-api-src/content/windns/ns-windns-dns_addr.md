@@ -38,7 +38,6 @@ api_location:
 - Windns.h
 api_name:
 - DNS_ADDR
-product: Windows
 targetos: Windows
 req.typenames: DNS_ADDR, *PDNS_ADDR
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Fhcfg.h
 api_name:
  - FH_PROTECTED_ITEM_CATEGORY
-product: Windows
 targetos: Windows
 req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - FaxRoute.h
 api_name:
  - FAX_ROUTE
-product: Windows
 targetos: Windows
 req.typenames: FAX_ROUTE, *PFAX_ROUTE
 req.redist: 

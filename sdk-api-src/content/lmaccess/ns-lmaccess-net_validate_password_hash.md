@@ -38,7 +38,6 @@ api_location:
 - Lmaccess.h
 api_name:
 - NET_VALIDATE_PASSWORD_HASH
-product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PASSWORD_HASH, *PNET_VALIDATE_PASSWORD_HASH
 req.redist: 

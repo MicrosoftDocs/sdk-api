@@ -38,7 +38,6 @@ api_location:
  - DirectML.h
 api_name:
  - DML_VALUE_SCALE_2D_OPERATOR_DESC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ITraceDataCollector.ProcessMode
  - ITraceDataCollector.get_ProcessMode
  - ITraceDataCollector.put_ProcessMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

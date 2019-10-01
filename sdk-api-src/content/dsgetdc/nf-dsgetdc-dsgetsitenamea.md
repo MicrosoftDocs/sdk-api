@@ -40,7 +40,6 @@ api_name:
  - DsGetSiteName
  - DsGetSiteNameA
  - DsGetSiteNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

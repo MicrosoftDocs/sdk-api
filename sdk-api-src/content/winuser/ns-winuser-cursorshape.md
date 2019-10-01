@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - CURSORSHAPE
-product: Windows
 targetos: Windows
 req.typenames: CURSORSHAPE, *LPCURSORSHAPE
 req.redist: 

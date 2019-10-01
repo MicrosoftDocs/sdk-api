@@ -38,7 +38,6 @@ api_location:
  - Shobjidl.idl
 api_name:
  - IActionProgress.QueryCancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Sbe.h
 api_name:
  - IEnumStreamBufferRecordingAttrib.Skip
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

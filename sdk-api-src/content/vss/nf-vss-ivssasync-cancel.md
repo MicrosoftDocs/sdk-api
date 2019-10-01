@@ -39,7 +39,6 @@ api_location:
  - VssApi.dll
 api_name:
  - IVssAsync.Cancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

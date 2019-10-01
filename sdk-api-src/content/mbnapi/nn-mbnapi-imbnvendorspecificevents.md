@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - IMbnVendorSpecificEvents
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Cloneviewhelper.h
 api_name:
  - IViewHelper.GetProceedOnNewConfiguration
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

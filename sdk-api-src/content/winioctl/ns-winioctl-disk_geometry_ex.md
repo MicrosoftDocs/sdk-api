@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - DISK_GEOMETRY_EX
-product: Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 req.redist: 

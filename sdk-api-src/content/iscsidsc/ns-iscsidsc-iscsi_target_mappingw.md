@@ -40,7 +40,6 @@ api_name:
 - ISCSI_TARGET_MAPPING
 - ISCSI_TARGET_MAPPINGA
 - ISCSI_TARGET_MAPPINGW
-product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_MAPPINGW, *PISCSI_TARGET_MAPPINGW
 req.redist: 

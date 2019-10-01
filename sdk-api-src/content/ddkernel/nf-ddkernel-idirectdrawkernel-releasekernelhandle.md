@@ -38,7 +38,6 @@ api_location:
  - ddkernel.h
 api_name:
  - IDirectDrawKernel.ReleaseKernelHandle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

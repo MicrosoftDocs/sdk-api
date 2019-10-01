@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - ICOPEN
-product: Windows
 targetos: Windows
 req.typenames: ICOPEN
 req.redist: 

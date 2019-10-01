@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_INTERACTIVE_UNLOCK_LOGON
-product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_UNLOCK_LOGON, *PKERB_INTERACTIVE_UNLOCK_LOGON
 req.redist: 

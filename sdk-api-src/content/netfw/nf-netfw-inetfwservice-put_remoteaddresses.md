@@ -41,7 +41,6 @@ api_name:
  - INetFwService.RemoteAddresses
  - INetFwService.get_RemoteAddresses
  - INetFwService.put_RemoteAddresses
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

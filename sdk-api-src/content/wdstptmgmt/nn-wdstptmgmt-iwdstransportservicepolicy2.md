@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.dll
 api_name:
  - IWdsTransportServicePolicy2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

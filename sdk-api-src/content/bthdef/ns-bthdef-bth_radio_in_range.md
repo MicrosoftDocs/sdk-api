@@ -38,7 +38,6 @@ api_location:
 - Bthdef.h
 api_name:
 - BTH_RADIO_IN_RANGE
-product: Windows
 targetos: Windows
 req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
 req.redist: 

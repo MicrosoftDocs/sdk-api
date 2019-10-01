@@ -41,7 +41,6 @@ api_name:
  - MsiApplyMultiplePatches
  - MsiApplyMultiplePatchesA
  - MsiApplyMultiplePatchesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

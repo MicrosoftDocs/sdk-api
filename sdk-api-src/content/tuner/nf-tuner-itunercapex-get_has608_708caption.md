@@ -40,7 +40,6 @@ api_location:
 api_name:
  - ITunerCapEx.Has608_708Caption
  - ITunerCapEx.get_Has608_708Caption
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

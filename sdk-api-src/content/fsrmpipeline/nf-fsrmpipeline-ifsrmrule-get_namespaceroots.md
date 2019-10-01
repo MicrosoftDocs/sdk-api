@@ -40,7 +40,6 @@ api_name:
  - IFsrmRule.NamespaceRoots
  - IFsrmRule.get_NamespaceRoots
  - IFsrmRule.put_NamespaceRoots
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

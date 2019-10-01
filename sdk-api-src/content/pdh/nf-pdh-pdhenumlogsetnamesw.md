@@ -40,7 +40,6 @@ api_name:
  - PdhEnumLogSetNames
  - PdhEnumLogSetNamesA
  - PdhEnumLogSetNamesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

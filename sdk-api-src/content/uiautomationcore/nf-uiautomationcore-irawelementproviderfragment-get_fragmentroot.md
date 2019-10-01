@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IRawElementProviderFragment.FragmentRoot
  - IRawElementProviderFragment.get_FragmentRoot
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

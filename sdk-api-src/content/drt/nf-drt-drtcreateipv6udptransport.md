@@ -38,7 +38,6 @@ api_location:
  - drt.dll
 api_name:
  - DrtCreateIpv6UdpTransport
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

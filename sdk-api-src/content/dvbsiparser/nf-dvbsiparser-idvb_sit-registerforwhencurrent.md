@@ -38,7 +38,6 @@ api_location:
  - dvbsiparser.h
 api_name:
  - IDVB_SIT.RegisterForWhenCurrent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

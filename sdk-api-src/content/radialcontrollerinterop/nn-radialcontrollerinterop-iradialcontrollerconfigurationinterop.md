@@ -38,7 +38,6 @@ api_location:
  - RadialControllerInterop.h
 api_name:
  - IRadialControllerConfigurationInterop
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

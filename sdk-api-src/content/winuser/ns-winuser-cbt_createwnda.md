@@ -40,7 +40,6 @@ api_name:
  - CBT_CREATEWND
  - CBT_CREATEWNDA
  - CBT_CREATEWNDW
-product: Windows
 targetos: Windows
 req.typenames: CBT_CREATEWNDA, *LPCBT_CREATEWNDA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wincodec.h
 api_name:
  - WICRawRotationCapabilities
-product: Windows
 targetos: Windows
 req.typenames: WICRawRotationCapabilities
 req.redist: 

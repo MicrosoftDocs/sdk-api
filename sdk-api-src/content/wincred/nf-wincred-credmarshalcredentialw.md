@@ -43,7 +43,6 @@ api_name:
 - CredMarshalCredential
 - CredMarshalCredentialA
 - CredMarshalCredentialW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

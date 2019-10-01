@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - TRUSTED_INFORMATION_CLASS
-product: Windows
 targetos: Windows
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
 req.redist: 

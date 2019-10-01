@@ -38,7 +38,6 @@ api_location:
  - DcompTypes.h
 api_name:
  - DCOMPOSITION_BITMAP_INTERPOLATION_MODE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

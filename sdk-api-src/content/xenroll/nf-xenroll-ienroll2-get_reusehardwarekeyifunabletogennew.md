@@ -43,7 +43,6 @@ api_name:
  - IEnroll4.ReuseHardwareKeyIfUnableToGenNew
  - IEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
  - IEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

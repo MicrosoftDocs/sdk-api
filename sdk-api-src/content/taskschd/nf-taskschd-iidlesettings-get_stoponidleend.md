@@ -40,7 +40,6 @@ api_name:
  - IIdleSettings.StopOnIdleEnd
  - IIdleSettings.get_StopOnIdleEnd
  - IIdleSettings.put_StopOnIdleEnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

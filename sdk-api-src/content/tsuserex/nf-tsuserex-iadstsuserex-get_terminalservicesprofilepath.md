@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.TerminalServicesProfilePath
  - IADsTSUserEx.get_TerminalServicesProfilePath
  - IADsTSUserEx.put_TerminalServicesProfilePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - CABINETSTATE
-product: Windows
 targetos: Windows
 req.typenames: CABINETSTATE, *LPCABINETSTATE
 req.redist: 

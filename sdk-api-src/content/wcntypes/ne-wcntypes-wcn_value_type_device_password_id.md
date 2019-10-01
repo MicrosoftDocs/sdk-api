@@ -38,7 +38,6 @@ api_location:
  - wcntypes.h
 api_name:
  - WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
-product: Windows
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 req.redist: 

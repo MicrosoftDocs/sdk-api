@@ -38,7 +38,6 @@ api_location:
  - avifmt.h
 api_name:
  - AVIPALCHANGE
-product: Windows
 targetos: Windows
 req.typenames: AVIPALCHANGE
 req.redist: 

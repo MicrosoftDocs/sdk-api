@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_PNRP_CLOUD_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEER_PNRP_CLOUD_INFO, *PPEER_PNRP_CLOUD_INFO
 req.redist: 

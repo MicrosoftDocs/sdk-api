@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMNetShowConfig.put_HTTPProxyHost
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

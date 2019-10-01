@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMReader.GetOutputCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

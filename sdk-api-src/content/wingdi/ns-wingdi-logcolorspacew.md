@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - LOGCOLORSPACE
-product: Windows
 targetos: Windows
 req.typenames: LOGCOLORSPACEW, *LPLOGCOLORSPACEW
 req.redist: 

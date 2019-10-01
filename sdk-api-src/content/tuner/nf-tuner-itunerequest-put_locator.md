@@ -38,7 +38,6 @@ api_location:
  - tuner.h
 api_name:
  - ITuneRequest.put_Locator
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

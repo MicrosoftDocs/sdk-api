@@ -38,7 +38,6 @@ api_location:
  - gdiplusheaders.h
 api_name:
  - Image
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

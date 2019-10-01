@@ -40,7 +40,6 @@ api_location:
 - xamlpalwp.dll
 api_name:
 - DrawThemeTextEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

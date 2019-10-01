@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - TBBUTTON
-product: Windows
 targetos: Windows
 req.typenames: TBBUTTON, *PTBBUTTON, *LPTBBUTTON
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Netioapi.h
 api_name:
  - MIB_MULTICASTIPADDRESS_ROW
-product: Windows
 targetos: Windows
 req.typenames: MIB_MULTICASTIPADDRESS_ROW, *PMIB_MULTICASTIPADDRESS_ROW
 req.redist: 

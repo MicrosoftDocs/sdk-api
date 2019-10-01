@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - ShellSpecialFolderConstants
-product: Windows
 targetos: Windows
 req.typenames: ShellSpecialFolderConstants
 req.redist: 

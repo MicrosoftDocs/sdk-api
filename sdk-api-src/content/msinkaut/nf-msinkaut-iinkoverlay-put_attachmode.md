@@ -43,7 +43,6 @@ api_name:
  - IInkOverlay.put_AttachMode
  - InkOverlay.get_AttachMode
  - InkOverlay.put_AttachMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

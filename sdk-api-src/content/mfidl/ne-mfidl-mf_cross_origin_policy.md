@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - _MF_CROSS_ORIGIN_POLICY
-product: Windows
 targetos: Windows
 req.typenames: MF_CROSS_ORIGIN_POLICY
 req.redist: 

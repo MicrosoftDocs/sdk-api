@@ -43,7 +43,6 @@ api_location:
  - Windows.Storage.dll
 api_name:
  - PathIsExe
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

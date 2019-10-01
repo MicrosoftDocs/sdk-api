@@ -44,7 +44,6 @@ api_name:
  - PathIsUNCServerShare
  - PathIsUNCServerShareA
  - PathIsUNCServerShareW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

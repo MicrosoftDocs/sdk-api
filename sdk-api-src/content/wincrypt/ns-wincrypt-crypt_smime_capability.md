@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_SMIME_CAPABILITY
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMIME_CAPABILITY, *PCRYPT_SMIME_CAPABILITY
 req.redist: 

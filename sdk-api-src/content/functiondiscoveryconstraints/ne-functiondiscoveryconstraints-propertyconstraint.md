@@ -38,7 +38,6 @@ api_location:
  - FunctionDiscoveryConstraints.h
 api_name:
  - PropertyConstraint
-product: Windows
 targetos: Windows
 req.typenames: PropertyConstraint
 req.redist: 

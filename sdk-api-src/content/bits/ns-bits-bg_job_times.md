@@ -38,7 +38,6 @@ api_location:
  - Bits.h
 api_name:
  - BG_JOB_TIMES
-product: Windows
 targetos: Windows
 req.typenames: BG_JOB_TIMES
 req.redist: 

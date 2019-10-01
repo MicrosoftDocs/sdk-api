@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREXTFLOODFILL
-product: Windows
 targetos: Windows
 req.typenames: EMREXTFLOODFILL, *PEMREXTFLOODFILL
 req.redist: 

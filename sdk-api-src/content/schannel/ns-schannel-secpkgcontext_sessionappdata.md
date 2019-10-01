@@ -38,7 +38,6 @@ api_location:
  - Schannel.h
 api_name:
  - SecPkgContext_SessionAppData
-product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_SessionAppData, *PSecPkgContext_SessionAppData
 req.redist: 

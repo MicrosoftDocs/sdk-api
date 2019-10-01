@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - GetMValue
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

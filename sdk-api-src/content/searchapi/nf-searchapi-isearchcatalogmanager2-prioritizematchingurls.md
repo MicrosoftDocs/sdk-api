@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ISearchCatalogManager2.PrioritizeMatchingURLs
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

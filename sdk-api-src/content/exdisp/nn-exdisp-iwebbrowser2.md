@@ -39,7 +39,6 @@ api_location:
  - Shdocvw.dll.dll
 api_name:
  - IWebBrowser2
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Mmc.h
 api_name:
  - IS_SPECIAL_COOKIE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

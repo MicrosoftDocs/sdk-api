@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowsDriverUpdate2.IsPresent
  - IWindowsDriverUpdate2.get_IsPresent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

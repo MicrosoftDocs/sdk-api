@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509AttributeClientId.ClientId
  - IX509AttributeClientId.get_ClientId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

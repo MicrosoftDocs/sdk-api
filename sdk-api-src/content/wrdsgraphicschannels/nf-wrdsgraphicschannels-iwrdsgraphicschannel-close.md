@@ -38,7 +38,6 @@ api_location:
  - wrdsgraphicschannels.h
 api_name:
  - IWRdsGraphicsChannel.Close
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

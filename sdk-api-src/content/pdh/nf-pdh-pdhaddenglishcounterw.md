@@ -40,7 +40,6 @@ api_name:
 - PdhAddEnglishCounter
 - PdhAddEnglishCounterA
 - PdhAddEnglishCounterW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

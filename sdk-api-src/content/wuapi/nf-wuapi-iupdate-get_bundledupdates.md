@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdate.BundledUpdates
  - IUpdate.get_BundledUpdates
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

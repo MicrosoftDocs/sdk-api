@@ -42,7 +42,6 @@ api_name:
  - IFaxReceiptOptions.put_SMTPUser
  - IFaxReceiptOptions.get_SMTPUser
  - IFaxReceiptOptions.put_SMTPUser
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

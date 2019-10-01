@@ -38,7 +38,6 @@ api_location:
  - gdiplusbrush.h
 api_name:
  - LinearGradientBrush
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

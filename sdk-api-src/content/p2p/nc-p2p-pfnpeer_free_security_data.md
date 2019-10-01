@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PFNPEER_FREE_SECURITY_DATA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

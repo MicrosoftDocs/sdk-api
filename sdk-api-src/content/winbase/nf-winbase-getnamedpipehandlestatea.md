@@ -46,7 +46,6 @@ api_name:
  - GetNamedPipeHandleState
  - GetNamedPipeHandleStateA
  - GetNamedPipeHandleStateW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

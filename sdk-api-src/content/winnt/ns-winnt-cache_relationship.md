@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - CACHE_RELATIONSHIP
-product: Windows
 targetos: Windows
 req.typenames: CACHE_RELATIONSHIP, *PCACHE_RELATIONSHIP
 req.redist: 

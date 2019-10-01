@@ -38,7 +38,6 @@ api_location:
  - msctf.dll
 api_name:
  - ITfReverseConversion
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

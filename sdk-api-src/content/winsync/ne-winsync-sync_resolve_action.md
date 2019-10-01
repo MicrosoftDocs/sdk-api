@@ -38,7 +38,6 @@ api_location:
  - winsync.h
 api_name:
  - SYNC_RESOLVE_ACTION
-product: Windows
 targetos: Windows
 req.typenames: SYNC_RESOLVE_ACTION
 req.redist: 

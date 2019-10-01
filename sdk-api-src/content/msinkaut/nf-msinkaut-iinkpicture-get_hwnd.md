@@ -43,7 +43,6 @@ api_name:
  - IInkPicture.put_hWnd
  - InkPicture.get_hWnd
  - InkPicture.put_hWnd
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

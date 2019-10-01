@@ -40,7 +40,6 @@ api_name:
  - HttpQueryInfo
  - HttpQueryInfoA
  - HttpQueryInfoW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

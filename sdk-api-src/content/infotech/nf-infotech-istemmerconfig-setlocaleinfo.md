@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IStemmerConfig.SetLocaleInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

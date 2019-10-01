@@ -38,7 +38,6 @@ api_location:
  - Objsel.dll
 api_name:
  - IDsObjectPickerCredentials.SetCredentials
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

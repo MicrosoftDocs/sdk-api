@@ -38,7 +38,6 @@ api_location:
  - Indexsrv.h
 api_name:
  - IWordBreaker.ComposePhrase
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

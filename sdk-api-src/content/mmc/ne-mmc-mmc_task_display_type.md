@@ -38,7 +38,6 @@ api_location:
 - Mmc.h
 api_name:
 - MMC_TASK_DISPLAY_TYPE
-product: Windows
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_TYPE
 req.redist: 

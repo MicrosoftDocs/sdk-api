@@ -38,7 +38,6 @@ api_location:
 - minidumpapiset.h
 api_name:
 - MINIDUMP_HANDLE_DESCRIPTOR
-product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_HANDLE_DESCRIPTOR, *PMINIDUMP_HANDLE_DESCRIPTOR
 req.redist: DbgHelp.dll 5.1 or later

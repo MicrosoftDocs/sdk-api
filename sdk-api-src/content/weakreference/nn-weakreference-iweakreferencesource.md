@@ -38,7 +38,6 @@ api_location:
  - WeakReference.h
 api_name:
  - IWeakReferenceSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

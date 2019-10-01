@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileScreenBase.BlockedFileGroups
  - IFsrmFileScreenBase.get_BlockedFileGroups
  - IFsrmFileScreenBase.put_BlockedFileGroups
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - CertAddEncodedCertificateToSystemStore
  - CertAddEncodedCertificateToSystemStoreA
  - CertAddEncodedCertificateToSystemStoreW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

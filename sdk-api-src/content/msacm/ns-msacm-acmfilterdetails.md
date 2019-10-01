@@ -38,7 +38,6 @@ api_location:
  - Msacm.h
 api_name:
  - ACMFILTERDETAILS
-product: Windows
 targetos: Windows
 req.typenames: ACMFILTERDETAILS, *PACMFILTERDETAILS, *LPACMFILTERDETAILS
 req.redist: 

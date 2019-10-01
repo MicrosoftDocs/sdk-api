@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CERT_KEY_USAGE_RESTRICTION_INFO
-product: Windows
 targetos: Windows
 req.typenames: CERT_KEY_USAGE_RESTRICTION_INFO, *PCERT_KEY_USAGE_RESTRICTION_INFO
 req.redist: 

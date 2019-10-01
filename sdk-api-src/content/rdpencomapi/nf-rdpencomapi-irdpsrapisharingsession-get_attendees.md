@@ -42,7 +42,6 @@ api_name:
  - IRDPSRAPISharingSession.Attendees
  - IRDPSRAPISharingSession.get_Attendees
  - RDPSession.Attendees
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

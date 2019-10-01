@@ -38,7 +38,6 @@ api_location:
  - Dde.h
 api_name:
  - DDEACK
-product: Windows
 targetos: Windows
 req.typenames: DDEACK
 req.redist: 

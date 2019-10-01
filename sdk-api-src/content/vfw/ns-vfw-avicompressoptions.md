@@ -38,7 +38,6 @@ api_location:
  - Vfw.h
 api_name:
  - AVICOMPRESSOPTIONS
-product: Windows
 targetos: Windows
 req.typenames: AVICOMPRESSOPTIONS, *LPAVICOMPRESSOPTIONS
 req.redist: 

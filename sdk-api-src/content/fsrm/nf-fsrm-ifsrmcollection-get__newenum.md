@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFsrmCollection._NewEnum
  - IFsrmCollection.get__NewEnum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

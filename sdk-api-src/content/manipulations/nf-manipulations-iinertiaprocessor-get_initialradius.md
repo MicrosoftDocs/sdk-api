@@ -40,7 +40,6 @@ api_name:
  - IInertiaProcessor.InitialRadius
  - IInertiaProcessor.get_InitialRadius
  - IInertiaProcessor.put_InitialRadius
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

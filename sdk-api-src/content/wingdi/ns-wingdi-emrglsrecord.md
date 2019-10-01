@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRGLSRECORD
-product: Windows
 targetos: Windows
 req.typenames: EMRGLSRECORD, *PEMRGLSRECORD
 req.redist: 

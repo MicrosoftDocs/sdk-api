@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - PLAYTO_SOURCE_CREATEFLAGS
-product: Windows
 targetos: Windows
 req.typenames: PLAYTO_SOURCE_CREATEFLAGS
 req.redist: 

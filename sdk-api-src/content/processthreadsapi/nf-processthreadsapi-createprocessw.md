@@ -47,7 +47,6 @@ api_name:
 - CreateProcess
 - CreateProcessA
 - CreateProcessW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

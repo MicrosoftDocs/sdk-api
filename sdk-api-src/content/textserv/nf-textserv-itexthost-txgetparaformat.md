@@ -38,7 +38,6 @@ api_location:
 - Msftedit.dll
 api_name:
 - ITextHost.TxGetParaFormat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wia_xp.h
 api_name:
  - WIA_DITHER_PATTERN_DATA
-product: Windows
 targetos: Windows
 req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - WriteProfileString
  - WriteProfileStringA
  - WriteProfileStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

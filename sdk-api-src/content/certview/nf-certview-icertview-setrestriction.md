@@ -40,7 +40,6 @@ api_name:
  - ICertView2.SetRestriction
  - ICertView.SetRestriction
  - CCertView.SetRestriction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

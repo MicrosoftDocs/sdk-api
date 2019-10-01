@@ -40,7 +40,6 @@ api_name:
  - SCardStatus
  - SCardStatusA
  - SCardStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

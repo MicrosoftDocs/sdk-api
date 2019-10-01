@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - CompressionCaps
-product: Windows
 targetos: Windows
 req.typenames: CompressionCaps
 req.redist: 

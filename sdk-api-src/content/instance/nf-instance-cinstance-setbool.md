@@ -41,7 +41,6 @@ api_name:
  - CInstance.Setbool
  - ?Setbool@CInstance@@QAE_NPBG_N@Z
  - ?Setbool@CInstance@@QEAA_NPEBG_N@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertAdmin2.GetCAPropertyFlags
  - CCertAdmin2.GetCAPropertyFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

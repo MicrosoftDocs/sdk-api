@@ -40,7 +40,6 @@ api_name:
 - WTSQueryListenerConfig
 - WTSQueryListenerConfigA
 - WTSQueryListenerConfigW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

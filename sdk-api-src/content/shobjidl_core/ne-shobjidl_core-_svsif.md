@@ -38,7 +38,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - _SVSIF
-product: Windows
 targetos: Windows
 req.typenames: "_SVSIF"
 req.redist: 

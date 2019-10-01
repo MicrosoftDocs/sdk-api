@@ -40,7 +40,6 @@ api_name:
  - INetFwRule.Enabled
  - INetFwRule.get_Enabled
  - INetFwRule.put_Enabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

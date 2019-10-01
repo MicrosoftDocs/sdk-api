@@ -40,7 +40,6 @@ api_name:
  - INetFwRule2.EdgeTraversalOptions
  - INetFwRule2.get_EdgeTraversalOptions
  - INetFwRule2.put_EdgeTraversalOptions
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

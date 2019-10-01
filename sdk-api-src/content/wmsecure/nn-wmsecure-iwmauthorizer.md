@@ -38,7 +38,6 @@ api_location:
  - wmsecure.h
 api_name:
  - IWMAuthorizer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

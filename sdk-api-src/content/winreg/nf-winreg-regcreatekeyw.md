@@ -43,7 +43,6 @@ api_name:
  - RegCreateKey
  - RegCreateKeyA
  - RegCreateKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

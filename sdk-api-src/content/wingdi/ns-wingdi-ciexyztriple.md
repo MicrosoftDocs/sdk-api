@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
-product: Windows
 targetos: Windows
 req.typenames: CIEXYZTRIPLE
 req.redist: 

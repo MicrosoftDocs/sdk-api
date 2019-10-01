@@ -38,7 +38,6 @@ api_location:
  - Uxtheme.h
 api_name:
  - BP_BUFFERFORMAT
-product: Windows
 targetos: Windows
 req.typenames: BP_BUFFERFORMAT
 req.redist: 

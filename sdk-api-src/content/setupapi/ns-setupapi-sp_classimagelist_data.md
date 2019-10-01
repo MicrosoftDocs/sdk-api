@@ -38,7 +38,6 @@ api_location:
  - setupapi.h
 api_name:
  - SP_CLASSIMAGELIST_DATA
-product: Windows
 targetos: Windows
 req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
 req.redist: 

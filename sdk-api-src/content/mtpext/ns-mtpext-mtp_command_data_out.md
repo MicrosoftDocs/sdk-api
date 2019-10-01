@@ -38,7 +38,6 @@ api_location:
 - MtpExt.h
 api_name:
 - MTP_COMMAND_DATA_OUT
-product: Windows
 targetos: Windows
 req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
 req.redist: 

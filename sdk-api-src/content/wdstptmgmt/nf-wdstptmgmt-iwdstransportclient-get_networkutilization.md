@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWdsTransportClient.NetworkUtilization
  - IWdsTransportClient.get_NetworkUtilization
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

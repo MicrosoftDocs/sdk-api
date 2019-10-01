@@ -38,7 +38,6 @@ api_location:
  - gpmgmt.h
 api_name:
  - GPMBackupType
-product: Windows
 targetos: Windows
 req.typenames: GPMBackupType
 req.redist: 

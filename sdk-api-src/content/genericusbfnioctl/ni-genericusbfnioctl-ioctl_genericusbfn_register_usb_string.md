@@ -38,7 +38,6 @@ api_location:
 - GenericUsbFnIoctl.h
 api_name:
 - IOCTL_GENERICUSBFN_REGISTER_USB_STRING
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

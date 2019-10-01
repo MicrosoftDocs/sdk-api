@@ -38,7 +38,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_ULARGEINT_DATA
-product: Windows
 targetos: Windows
 req.typenames: RESUTIL_ULARGEINT_DATA, *PRESUTIL_ULARGEINT_DATA
 req.redist: 

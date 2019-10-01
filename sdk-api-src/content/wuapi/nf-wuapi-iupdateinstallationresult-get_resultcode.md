@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateInstallationResult.ResultCode
  - IUpdateInstallationResult.get_ResultCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

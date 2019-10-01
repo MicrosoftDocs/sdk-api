@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - IPropertyEnumTypeList.GetCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

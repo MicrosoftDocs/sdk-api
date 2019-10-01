@@ -38,7 +38,6 @@ api_location:
  - msxml6.h
 api_name:
  - XHR_CERT_ERROR_FLAG
-product: Windows
 targetos: Windows
 req.typenames: XHR_CERT_ERROR_FLAG
 req.redist: 

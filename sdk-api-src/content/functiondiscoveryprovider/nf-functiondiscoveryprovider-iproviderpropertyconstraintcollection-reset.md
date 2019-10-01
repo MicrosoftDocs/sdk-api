@@ -38,7 +38,6 @@ api_location:
  - FunctionDiscoveryProvider.h
 api_name:
  - IProviderPropertyConstraintCollection.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

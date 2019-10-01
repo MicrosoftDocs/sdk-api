@@ -38,7 +38,6 @@ api_location:
  - Shldisp.h
 api_name:
  - ShellFolderViewOptions
-product: Windows
 targetos: Windows
 req.typenames: ShellFolderViewOptions
 req.redist: 

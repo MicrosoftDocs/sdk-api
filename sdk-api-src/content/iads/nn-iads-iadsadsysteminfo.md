@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IADsADSystemInfo
  - ADSystemInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

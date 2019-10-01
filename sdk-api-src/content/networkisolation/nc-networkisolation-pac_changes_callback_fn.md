@@ -38,7 +38,6 @@ api_location:
 - networkisolation.h
 api_name:
 - PAC_CHANGES_CALLBACK_FN
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - lineTranslateDialog
  - lineTranslateDialogA
  - lineTranslateDialogW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

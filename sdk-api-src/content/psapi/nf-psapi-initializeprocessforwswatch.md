@@ -43,7 +43,6 @@ api_location:
 api_name:
  - InitializeProcessForWsWatch
  - K32InitializeProcessForWsWatch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

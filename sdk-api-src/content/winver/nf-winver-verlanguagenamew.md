@@ -48,7 +48,6 @@ api_name:
  - VerLanguageName
  - VerLanguageNameA
  - VerLanguageNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

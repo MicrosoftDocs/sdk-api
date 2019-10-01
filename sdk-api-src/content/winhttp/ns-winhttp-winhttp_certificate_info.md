@@ -38,7 +38,6 @@ api_location:
  - Winhttp.h
 api_name:
  - WINHTTP_CERTIFICATE_INFO
-product: Windows
 targetos: Windows
 req.typenames: WINHTTP_CERTIFICATE_INFO
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

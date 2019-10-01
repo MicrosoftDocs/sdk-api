@@ -38,7 +38,6 @@ api_location:
  - Rasshost.h
 api_name:
  - RAS_SECURITY_INFO
-product: Windows
 targetos: Windows
 req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
 req.redist: 

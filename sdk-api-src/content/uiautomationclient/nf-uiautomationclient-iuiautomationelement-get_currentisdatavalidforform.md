@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationElement.CurrentIsDataValidForForm
  - IUIAutomationElement.get_CurrentIsDataValidForForm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IEnroll.getROOTHStore
  - IEnroll4.getROOTHStore
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - WebServices.h
 api_name:
  - WS_CHANNEL_DECODER
-product: Windows
 targetos: Windows
 req.typenames: WS_CHANNEL_DECODER
 req.redist: 

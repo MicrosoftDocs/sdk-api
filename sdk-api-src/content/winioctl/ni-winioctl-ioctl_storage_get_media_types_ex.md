@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

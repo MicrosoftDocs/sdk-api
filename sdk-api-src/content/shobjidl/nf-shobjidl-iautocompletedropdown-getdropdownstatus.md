@@ -38,7 +38,6 @@ api_location:
  - Browseui.dll
 api_name:
  - IAutoCompleteDropDown.GetDropDownStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

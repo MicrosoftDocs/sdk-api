@@ -38,7 +38,6 @@ api_location:
  - CertEnroll.dll
 api_name:
  - ICspStatuses.Clear
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

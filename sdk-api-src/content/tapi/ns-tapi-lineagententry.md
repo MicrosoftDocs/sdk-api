@@ -38,7 +38,6 @@ api_location:
  - Tapi.h
 api_name:
  - LINEAGENTENTRY
-product: Windows
 targetos: Windows
 req.typenames: LINEAGENTENTRY, *LPLINEAGENTENTRY
 req.redist: 

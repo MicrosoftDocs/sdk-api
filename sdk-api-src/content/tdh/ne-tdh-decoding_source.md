@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - DECODING_SOURCE
-product: Windows
 targetos: Windows
 req.typenames: DECODING_SOURCE
 req.redist: 

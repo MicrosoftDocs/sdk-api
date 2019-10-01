@@ -38,7 +38,6 @@ api_location:
  - Pchannel.h
 api_name:
  - CHANNEL_PDU_HEADER
-product: Windows
 targetos: Windows
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 req.redist: 

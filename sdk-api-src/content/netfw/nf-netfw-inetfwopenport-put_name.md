@@ -41,7 +41,6 @@ api_name:
  - INetFwOpenPort.Name
  - INetFwOpenPort.get_Name
  - INetFwOpenPort.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

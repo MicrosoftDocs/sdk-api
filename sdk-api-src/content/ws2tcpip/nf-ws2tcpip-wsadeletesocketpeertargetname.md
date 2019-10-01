@@ -38,7 +38,6 @@ api_location:
 - Fwpuclnt.dll
 api_name:
 - WSADeleteSocketPeerTargetName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

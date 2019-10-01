@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - SLIST_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY, SLIST_ENTRY, *PSLIST_ENTRY
 req.redist: 

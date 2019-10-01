@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - TXFS_SAVEPOINT_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
 req.redist: 

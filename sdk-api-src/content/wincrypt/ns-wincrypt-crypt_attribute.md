@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_ATTRIBUTE
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
 req.redist: 

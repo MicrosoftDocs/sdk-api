@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-dx-d3d9-l1-1-0.dll
 api_name:
  - Direct3DCreate9
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

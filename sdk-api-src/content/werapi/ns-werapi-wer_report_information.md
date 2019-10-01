@@ -38,7 +38,6 @@ api_location:
  - Werapi.h
 api_name:
  - WER_REPORT_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
 req.redist: 

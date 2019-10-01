@@ -40,7 +40,6 @@ api_name:
 - WSAPROTOCOL_INFOA
 - WSAPROTOCOL_INFOA
 - WSAPROTOCOL_INFOW
-product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
 req.redist: 

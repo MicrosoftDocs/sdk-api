@@ -40,7 +40,6 @@ api_name:
  - GopherFindFirstFile
  - GopherFindFirstFileA
  - GopherFindFirstFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - activationregistration.h
 api_name:
  - IDllServerActivatableClassRegistration.get_ThreadingType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

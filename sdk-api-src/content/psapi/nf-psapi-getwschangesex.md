@@ -43,7 +43,6 @@ api_location:
 api_name:
 - GetWsChangesEx
 - K32GetWsChangesEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

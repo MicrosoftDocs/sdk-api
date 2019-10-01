@@ -40,7 +40,6 @@ api_name:
  - IX509SCEPEnrollment.SignerCertificate
  - IX509SCEPEnrollment.get_SignerCertificate
  - IX509SCEPEnrollment.put_SignerCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

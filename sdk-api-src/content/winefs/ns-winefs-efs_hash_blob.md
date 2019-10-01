@@ -38,7 +38,6 @@ api_location:
 - Winefs.h
 api_name:
 - EFS_HASH_BLOB
-product: Windows
 targetos: Windows
 req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - XpsPrint.dll
 api_name:
  - IXpsOMPackageTarget.CreateXpsOMPackageWriter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

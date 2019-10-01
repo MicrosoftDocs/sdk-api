@@ -44,7 +44,6 @@ api_name:
  - OpenJobObject
  - OpenJobObjectA
  - OpenJobObjectW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

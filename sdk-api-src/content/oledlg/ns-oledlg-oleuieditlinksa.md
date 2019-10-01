@@ -40,7 +40,6 @@ api_name:
  - OLEUIEDITLINKS
  - OLEUIEDITLINKSA
  - OLEUIEDITLINKSW
-product: Windows
 targetos: Windows
 req.typenames: OLEUIEDITLINKSA, *POLEUIEDITLINKSA, *LPOLEUIEDITLINKSA
 req.redist: 

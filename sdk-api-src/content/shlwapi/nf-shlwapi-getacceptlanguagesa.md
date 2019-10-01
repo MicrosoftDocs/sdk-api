@@ -44,7 +44,6 @@ api_name:
  - GetAcceptLanguages
  - GetAcceptLanguagesA
  - GetAcceptLanguagesW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

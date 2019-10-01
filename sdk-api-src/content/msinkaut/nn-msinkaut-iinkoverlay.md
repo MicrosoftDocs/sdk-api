@@ -38,7 +38,6 @@ api_location:
  - msinkaut.h
 api_name:
  - IInkOverlay
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

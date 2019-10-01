@@ -38,7 +38,6 @@ api_location:
  - Winnls.h
 api_name:
  - IS_SURROGATE_PAIR
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

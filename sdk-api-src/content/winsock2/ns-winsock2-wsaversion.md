@@ -38,7 +38,6 @@ api_location:
 - Winsock2.h
 api_name:
 - WSAVERSION
-product: Windows
 targetos: Windows
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 req.redist: 

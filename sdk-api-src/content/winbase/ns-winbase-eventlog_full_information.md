@@ -38,7 +38,6 @@ api_location:
  - Winbase.h
 api_name:
  - EVENTLOG_FULL_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: EVENTLOG_FULL_INFORMATION, *LPEVENTLOG_FULL_INFORMATION
 req.redist: 

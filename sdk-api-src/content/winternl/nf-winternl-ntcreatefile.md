@@ -38,7 +38,6 @@ api_location:
  - NtDll.dll
 api_name:
  - NtCreateFile
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

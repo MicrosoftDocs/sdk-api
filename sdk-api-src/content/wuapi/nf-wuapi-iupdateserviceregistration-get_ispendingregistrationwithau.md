@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateServiceRegistration.IsPendingRegistrationWithAU
  - IUpdateServiceRegistration.get_IsPendingRegistrationWithAU
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

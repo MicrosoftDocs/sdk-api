@@ -38,7 +38,6 @@ api_location:
  - Wab32.dll
 api_name:
  - IContactProperties.GetBinary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

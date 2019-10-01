@@ -42,7 +42,6 @@ api_name:
  - joyGetDevCaps
  - joGetDevCapsA
  - joyGetDevCapsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

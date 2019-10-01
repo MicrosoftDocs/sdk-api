@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - SynchronizedInputPattern_Cancel
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

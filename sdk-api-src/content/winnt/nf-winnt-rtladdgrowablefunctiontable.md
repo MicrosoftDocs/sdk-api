@@ -39,7 +39,6 @@ api_location:
  - API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
  - RtlAddGrowableFunctionTable
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
 - IFsrmClassificationManager.CreateRule
 - IFsrmClassificationManager2.CreateRule
 - FsrmClassificationManager.CreateRule
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

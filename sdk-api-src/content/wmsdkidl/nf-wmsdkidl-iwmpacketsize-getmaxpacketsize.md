@@ -43,7 +43,6 @@ api_location:
 api_name:
  - IWMPacketSize.GetMaxPacketSize
  - IWMPacketSize2.GetMaxPacketSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

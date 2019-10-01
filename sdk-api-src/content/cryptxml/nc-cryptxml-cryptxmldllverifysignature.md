@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CryptXmlDllVerifySignature
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - DirectManipulation.h
 api_name:
  - IDirectManipulationViewport.SyncDisplayTransform
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

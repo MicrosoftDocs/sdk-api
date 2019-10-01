@@ -38,7 +38,6 @@ api_location:
  - inked.h
 api_name:
  - IEC_RECOGNITIONRESULTINFO
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IX509SCEPEnrollment.Silent
  - IX509SCEPEnrollment.put_Silent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

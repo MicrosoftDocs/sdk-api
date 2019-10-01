@@ -38,7 +38,6 @@ api_location:
 - mfobjects.h
 api_name:
 - MFVideoPrimaries
-product: Windows
 targetos: Windows
 req.typenames: MFVideoPrimaries
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMHDFILTERBTNCLICK
-product: Windows
 targetos: Windows
 req.typenames: NMHDFILTERBTNCLICK, *LPNMHDFILTERBTNCLICK
 req.redist: 

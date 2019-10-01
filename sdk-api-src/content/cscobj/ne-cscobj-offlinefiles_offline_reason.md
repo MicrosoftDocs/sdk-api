@@ -38,7 +38,6 @@ api_location:
  - CscObj.h
 api_name:
  - OFFLINEFILES_OFFLINE_REASON
-product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_OFFLINE_REASON
 req.redist: 

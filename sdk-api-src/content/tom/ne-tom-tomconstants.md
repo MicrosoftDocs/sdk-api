@@ -38,7 +38,6 @@ api_location:
  - Tom.h
 api_name:
  - tomConstants
-product: Windows
 targetos: Windows
 req.typenames: tomConstants
 req.redist: 

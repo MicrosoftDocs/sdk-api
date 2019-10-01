@@ -43,7 +43,6 @@ api_name:
 - IInkRecognizerGuide.put_GuideData
 - InkRecognizerGuide.get_GuideData
 - InkRecognizerGuide.put_GuideData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

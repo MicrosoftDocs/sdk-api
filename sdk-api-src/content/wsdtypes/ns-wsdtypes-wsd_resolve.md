@@ -38,7 +38,6 @@ api_location:
 - WsdTypes.h
 api_name:
 - WSD_RESOLVE
-product: Windows
 targetos: Windows
 req.typenames: WSD_RESOLVE
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - peerdist.h
 api_name:
  - PEERDIST_CLIENT_BASIC_INFO
-product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CLIENT_BASIC_INFO, *PPEERDIST_CLIENT_BASIC_INFO
 req.redist: 

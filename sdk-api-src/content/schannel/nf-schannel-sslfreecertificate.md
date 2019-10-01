@@ -38,7 +38,6 @@ api_location:
  - Schannel.dll
 api_name:
  - SslFreeCertificate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

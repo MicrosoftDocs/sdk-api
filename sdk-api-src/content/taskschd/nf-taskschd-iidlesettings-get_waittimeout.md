@@ -40,7 +40,6 @@ api_name:
  - IIdleSettings.WaitTimeout
  - IIdleSettings.get_WaitTimeout
  - IIdleSettings.put_WaitTimeout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

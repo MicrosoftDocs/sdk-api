@@ -38,7 +38,6 @@ api_location:
  - mfsharingengine.h
 api_name:
  - IMFImageSharingEngine.SetSource
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

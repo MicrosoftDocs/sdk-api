@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertPropertyArchivedKeyHash.ArchivedKeyHash
  - ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

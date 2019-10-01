@@ -38,7 +38,6 @@ api_location:
  - mfobjects.h
 api_name:
  - IMFSampleOutputStream.EndWriteSample
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingMessage2.ReceiptType
  - IFaxOutgoingMessage2.get_ReceiptType
  - IFaxOutgoingMessage2.get_ReceiptType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

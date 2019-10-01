@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - GLYPHMETRICS
-product: Windows
 targetos: Windows
 req.typenames: GLYPHMETRICS, *LPGLYPHMETRICS
 req.redist: 

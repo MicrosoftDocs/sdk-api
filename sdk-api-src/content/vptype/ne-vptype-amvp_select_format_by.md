@@ -38,7 +38,6 @@ api_location:
  - vptype.h
 api_name:
  - AMVP_SELECT_FORMAT_BY
-product: Windows
 targetos: Windows
 req.typenames: AMVP_SELECT_FORMAT_BY
 req.redist: 

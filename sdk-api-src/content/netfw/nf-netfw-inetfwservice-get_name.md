@@ -40,7 +40,6 @@ api_location:
 api_name:
  - INetFwService.Name
  - INetFwService.get_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

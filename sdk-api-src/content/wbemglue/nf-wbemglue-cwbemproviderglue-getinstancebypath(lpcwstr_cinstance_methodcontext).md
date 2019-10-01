@@ -41,7 +41,6 @@ api_name:
  - CWbemProviderGlue.GetInstanceByPath
  - ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
  - ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

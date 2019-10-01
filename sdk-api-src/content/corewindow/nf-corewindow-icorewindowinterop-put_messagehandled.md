@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICoreWindowInterop.MessageHandled
  - ICoreWindowInterop.put_MessageHandled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

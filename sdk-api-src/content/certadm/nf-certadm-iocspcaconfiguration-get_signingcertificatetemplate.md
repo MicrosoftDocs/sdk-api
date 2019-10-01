@@ -41,7 +41,6 @@ api_name:
  - IOCSPCAConfiguration.get_SigningCertificateTemplate
  - IOCSPCAConfiguration.put_SigningCertificateTemplate
  - IOCSPCAConfiguration.SigningCertificateTemplate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

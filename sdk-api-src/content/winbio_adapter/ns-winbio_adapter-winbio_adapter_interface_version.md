@@ -38,7 +38,6 @@ api_location:
  - Winbio_adapter.h
 api_name:
  - WINBIO_ADAPTER_INTERFACE_VERSION
-product: Windows
 targetos: Windows
 req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
 req.redist: 

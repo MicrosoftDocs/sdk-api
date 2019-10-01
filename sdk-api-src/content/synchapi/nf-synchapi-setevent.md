@@ -44,7 +44,6 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - SetEvent
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

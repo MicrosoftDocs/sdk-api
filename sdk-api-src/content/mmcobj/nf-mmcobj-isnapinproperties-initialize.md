@@ -38,7 +38,6 @@ api_location:
  - Mmcobj.h
 api_name:
  - ISnapinProperties.Initialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

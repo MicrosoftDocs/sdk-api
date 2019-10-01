@@ -38,7 +38,6 @@ api_location:
  - xapo.h
 api_name:
  - XAPO_PROCESS_BUFFER_PARAMETERS
-product: Windows
 targetos: Windows
 req.typenames: XAPO_PROCESS_BUFFER_PARAMETERS
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
  - Uuid.dll
 api_name:
  - IVdsIscsiPortalGroup.QueryAssociatedPortals
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

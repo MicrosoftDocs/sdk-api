@@ -39,7 +39,6 @@ api_location:
 api_name:
 - IResultData.ModifyViewStyle
 - IResultData2.ModifyViewStyle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

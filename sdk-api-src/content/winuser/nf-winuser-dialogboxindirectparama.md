@@ -43,7 +43,6 @@ api_name:
  - DialogBoxIndirectParam
  - DialogBoxIndirectParamA
  - DialogBoxIndirectParamW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

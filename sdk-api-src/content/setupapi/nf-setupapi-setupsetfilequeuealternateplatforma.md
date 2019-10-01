@@ -40,7 +40,6 @@ api_name:
 - SetupSetFileQueueAlternatePlatform
 - SetupSetFileQueueAlternatePlatformA
 - SetupSetFileQueueAlternatePlatformW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

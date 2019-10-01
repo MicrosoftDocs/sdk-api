@@ -38,7 +38,6 @@ api_location:
  - winml.h
 api_name:
  - WINML_TENSOR_BINDING_DESC
-product: Windows
 targetos: Windows
 req.typenames: WINML_TENSOR_BINDING_DESC
 req.redist: 

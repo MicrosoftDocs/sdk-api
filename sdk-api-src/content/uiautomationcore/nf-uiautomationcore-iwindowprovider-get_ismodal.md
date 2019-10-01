@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IWindowProvider.IsModal
  - IWindowProvider.get_IsModal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

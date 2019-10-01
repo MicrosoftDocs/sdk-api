@@ -38,7 +38,6 @@ api_location:
  - dwrite.dll
 api_name:
  - IDWriteFontFace.GetGlyphRunOutline
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

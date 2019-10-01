@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspStatus.CspAlgorithm
  - ICspStatus.get_CspAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

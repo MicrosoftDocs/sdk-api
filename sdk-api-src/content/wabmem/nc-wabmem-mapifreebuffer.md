@@ -38,7 +38,6 @@ api_location:
  - wabmem.h
 api_name:
  - MAPIFreeBuffer
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

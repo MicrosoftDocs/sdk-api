@@ -45,7 +45,6 @@ api_name:
  - SHCopyKey
  - SHCopyKeyA
  - SHCopyKeyW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

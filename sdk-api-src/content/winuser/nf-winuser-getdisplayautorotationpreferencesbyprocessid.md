@@ -38,7 +38,6 @@ api_location:
  - kernel.dll
 api_name:
  - GetDisplayAutoRotationPreferencesByProcessId
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

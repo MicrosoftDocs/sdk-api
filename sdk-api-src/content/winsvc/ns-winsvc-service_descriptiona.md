@@ -40,7 +40,6 @@ api_name:
  - SERVICE_DESCRIPTION
  - SERVICE_DESCRIPTIONA
  - SERVICE_DESCRIPTIONW
-product: Windows
 targetos: Windows
 req.typenames: SERVICE_DESCRIPTIONA, *LPSERVICE_DESCRIPTIONA
 req.redist: 

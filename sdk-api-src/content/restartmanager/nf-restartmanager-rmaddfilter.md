@@ -38,7 +38,6 @@ api_location:
 - Rstrtmgr.dll
 api_name:
 - RmAddFilter
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

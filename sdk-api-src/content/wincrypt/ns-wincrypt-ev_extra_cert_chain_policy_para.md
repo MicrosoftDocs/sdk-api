@@ -38,7 +38,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - EV_EXTRA_CERT_CHAIN_POLICY_PARA
-product: Windows
 targetos: Windows
 req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_PARA, *PEV_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Uiautomationcore.dll
 api_name:
  - LegacyIAccessiblePattern_DoDefaultAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

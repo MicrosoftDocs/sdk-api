@@ -38,7 +38,6 @@ api_location:
  - D3D12.dll
 api_name:
  - ID3D12StateObjectProperties.GetShaderStackSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

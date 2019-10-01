@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - CRYPT_RETRIEVE_AUX_INFO
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_RETRIEVE_AUX_INFO, *PCRYPT_RETRIEVE_AUX_INFO
 req.redist: 

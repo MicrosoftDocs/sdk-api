@@ -38,7 +38,6 @@ api_location:
  - Infotech.h
 api_name:
  - IStemmerConfig
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

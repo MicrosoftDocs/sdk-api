@@ -38,7 +38,6 @@ api_location:
  - tabflicks.h
 api_name:
  - SCROLLDIRECTION
-product: Windows
 targetos: Windows
 req.typenames: SCROLLDIRECTION
 req.redist: 

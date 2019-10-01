@@ -38,7 +38,6 @@ api_location:
  - WtsApi32.dll
 api_name:
  - WTSSetRenderHint
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

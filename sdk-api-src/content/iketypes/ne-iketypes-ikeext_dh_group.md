@@ -38,7 +38,6 @@ api_location:
  - Iketypes.h
 api_name:
  - IKEEXT_DH_GROUP
-product: Windows
 targetos: Windows
 req.typenames: IKEEXT_DH_GROUP
 req.redist: 

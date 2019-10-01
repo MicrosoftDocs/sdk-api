@@ -40,7 +40,6 @@ api_name:
  - PAGESETUPDLG
  - PAGESETUPDLGA
  - PAGESETUPDLGW
-product: Windows
 targetos: Windows
 req.typenames: PAGESETUPDLGW, *LPPAGESETUPDLGW
 req.redist: 

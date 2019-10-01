@@ -50,7 +50,6 @@ api_name:
  - ICEnroll.get_MyStoreType
  - ICEnroll.put_MyStoreType
  - CEnroll.MyStoreType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

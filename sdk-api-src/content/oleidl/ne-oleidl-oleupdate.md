@@ -38,7 +38,6 @@ api_location:
  - OleIdl.h
 api_name:
  - OLEUPDATE
-product: Windows
 targetos: Windows
 req.typenames: OLEUPDATE
 req.redist: 

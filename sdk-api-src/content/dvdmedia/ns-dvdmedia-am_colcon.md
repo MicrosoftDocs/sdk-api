@@ -38,7 +38,6 @@ api_location:
 - Dvdmedia.h
 api_name:
 - AM_COLCON
-product: Windows
 targetos: Windows
 req.typenames: AM_COLCON, *PAM_COLCON
 req.redist: 

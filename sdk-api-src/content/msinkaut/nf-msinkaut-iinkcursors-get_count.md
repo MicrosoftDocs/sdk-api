@@ -41,7 +41,6 @@ api_name:
  - IInkCursors.Count
  - IInkCursors.get_Count
  - IInkCursors.get_Count
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

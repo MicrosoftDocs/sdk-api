@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnIncomingArchiveConfigChange
  - IFaxServerNotify2.OnIncomingArchiveConfigChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

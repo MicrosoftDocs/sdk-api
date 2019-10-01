@@ -40,7 +40,6 @@ api_name:
  - IDataCollectorSet.Segment
  - IDataCollectorSet.get_Segment
  - IDataCollectorSet.put_Segment
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

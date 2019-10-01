@@ -38,7 +38,6 @@ api_location:
  - WdsPxe.h
 api_name:
  - PXE_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: PXE_ADDRESS, *PPXE_ADDRESS
 req.redist: 

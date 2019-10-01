@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CachedIsModal
  - IUIAutomationWindowPattern.get_CachedIsModal
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

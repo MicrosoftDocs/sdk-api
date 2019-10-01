@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertEncodeStringArray.Encode
  - CCertEncodeStringArray.Encode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

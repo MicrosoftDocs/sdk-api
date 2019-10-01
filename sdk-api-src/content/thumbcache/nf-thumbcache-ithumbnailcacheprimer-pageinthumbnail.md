@@ -38,7 +38,6 @@ api_location:
  - thumbcache.h
 api_name:
  - IThumbnailCachePrimer.PageInThumbnail
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

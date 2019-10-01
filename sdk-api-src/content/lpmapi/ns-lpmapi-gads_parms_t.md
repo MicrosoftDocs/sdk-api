@@ -38,7 +38,6 @@ api_location:
  - Lpmapi.h
 api_name:
  - Gads_parms_t
-product: Windows
 targetos: Windows
 req.typenames: Gads_parms_t
 req.redist: 

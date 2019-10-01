@@ -40,7 +40,6 @@ api_location:
  - Ext-MS-Win-Tsf-MSctf-L1-1-1.dll
 api_name:
  - SetInputScope
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

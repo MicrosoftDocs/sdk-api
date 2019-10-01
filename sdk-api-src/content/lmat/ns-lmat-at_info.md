@@ -38,7 +38,6 @@ api_location:
  - Lmat.h
 api_name:
  - AT_INFO
-product: Windows
 targetos: Windows
 req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
 req.redist: 

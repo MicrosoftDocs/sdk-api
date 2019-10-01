@@ -42,7 +42,6 @@ api_name:
  - CreateScalableFontResource
  - CreateScalableFontResourceA
  - CreateScalableFontResourceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

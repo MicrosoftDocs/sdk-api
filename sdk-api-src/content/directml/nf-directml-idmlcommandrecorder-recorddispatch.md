@@ -38,7 +38,6 @@ api_location:
  - DirectML.dll
 api_name:
  - IDMLCommandRecorder.RecordDispatch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

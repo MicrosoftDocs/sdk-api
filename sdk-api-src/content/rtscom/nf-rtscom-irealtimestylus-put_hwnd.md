@@ -42,7 +42,6 @@ api_name:
  - IRealTimeStylus.put_HWND
  - IRealTimeStylus.get_HWND
  - IRealTimeStylus.put_HWND
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

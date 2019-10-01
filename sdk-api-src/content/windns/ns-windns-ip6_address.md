@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - IP6_ADDRESS
-product: Windows
 targetos: Windows
 req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 req.redist: 

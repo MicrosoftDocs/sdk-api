@@ -38,7 +38,6 @@ api_location:
  - Winfax.h
 api_name:
  - PFAX_ROUTING_INSTALLATION_CALLBACKW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateSession.ReadOnly
  - IUpdateSession.get_ReadOnly
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

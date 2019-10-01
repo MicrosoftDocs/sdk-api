@@ -38,7 +38,6 @@ api_location:
  - WinCred.h
 api_name:
  - CREDENTIAL_TARGET_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: CREDENTIAL_TARGET_INFORMATIONW, *PCREDENTIAL_TARGET_INFORMATIONW
 req.redist: 

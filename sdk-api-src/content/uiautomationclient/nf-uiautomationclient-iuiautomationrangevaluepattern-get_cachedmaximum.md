@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationRangeValuePattern.CachedMaximum
  - IUIAutomationRangeValuePattern.get_CachedMaximum
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

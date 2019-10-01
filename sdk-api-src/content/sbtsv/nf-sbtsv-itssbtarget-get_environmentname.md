@@ -43,7 +43,6 @@ api_name:
  - ITsSbTargetEx.EnvironmentName
  - ITsSbTargetEx.get_EnvironmentName
  - ITsSbTargetEx.put_EnvironmentName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

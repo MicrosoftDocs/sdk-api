@@ -40,7 +40,6 @@ api_location:
 - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
 - RasGetConnectionStatistics
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

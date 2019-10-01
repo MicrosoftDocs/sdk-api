@@ -38,7 +38,6 @@ api_location:
  - strmif.h
 api_name:
  - VfwCompressDialogs
-product: Windows
 targetos: Windows
 req.typenames: VfwCompressDialogs
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Tvratings.h
 api_name:
  - IEvalRat
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Winternl.h
 api_name:
  - STRING
-product: Windows
 targetos: Windows
 req.typenames: STRING
 req.redist: 

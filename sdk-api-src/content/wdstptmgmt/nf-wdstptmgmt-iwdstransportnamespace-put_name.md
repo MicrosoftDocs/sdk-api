@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportNamespace.Name
  - IWdsTransportNamespace.get_Name
  - IWdsTransportNamespace.put_Name
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

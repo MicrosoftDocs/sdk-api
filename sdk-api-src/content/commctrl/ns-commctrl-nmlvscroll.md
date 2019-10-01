@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMLVSCROLL
-product: Windows
 targetos: Windows
 req.typenames: NMLVSCROLL, *LPNMLVSCROLL
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCPDS_SERVER
-product: Windows
 targetos: Windows
 req.typenames: DHCPDS_SERVER, *LPDHCPDS_SERVER, *PDHCPDS_SERVER
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - gamingdeviceinformation.h
 api_name:
  - GetGamingDeviceModelInformation
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FtpCommand
  - FtpCommandA
  - FtpCommandW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

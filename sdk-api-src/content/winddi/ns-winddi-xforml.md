@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - FLOATOBJ_XFORM
-product: Windows
 targetos: Windows
 req.typenames: XFORML, *PXFORML
 req.redist: 

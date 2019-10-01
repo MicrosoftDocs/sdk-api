@@ -40,7 +40,6 @@ api_name:
  - IX509CertificateRequestCmc.ArchivePrivateKey
  - IX509CertificateRequestCmc.get_ArchivePrivateKey
  - IX509CertificateRequestCmc.put_ArchivePrivateKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

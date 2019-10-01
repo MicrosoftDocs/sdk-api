@@ -38,7 +38,6 @@ api_location:
  - Mgm.h
 api_name:
  - PMGM_LOCAL_JOIN_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

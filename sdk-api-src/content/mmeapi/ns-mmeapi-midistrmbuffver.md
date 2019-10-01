@@ -38,7 +38,6 @@ api_location:
  - mmeapi.h
 api_name:
  - MIDISTRMBUFFVER
-product: Windows
 targetos: Windows
 req.typenames: MIDISTRMBUFFVER
 req.redist: 

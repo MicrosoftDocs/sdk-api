@@ -45,7 +45,6 @@ api_name:
  - StrToInt64Ex
  - StrToInt64ExA
  - StrToInt64ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

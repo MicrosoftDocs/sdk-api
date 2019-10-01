@@ -38,7 +38,6 @@ api_location:
  - Ipexport.h
 api_name:
  - ICMP_ECHO_REPLY32
-product: Windows
 targetos: Windows
 req.typenames: ICMP_ECHO_REPLY32, *PICMP_ECHO_REPLY32
 req.redist: 

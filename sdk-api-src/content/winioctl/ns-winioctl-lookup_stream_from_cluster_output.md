@@ -38,7 +38,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
-product: Windows
 targetos: Windows
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, *PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT
 req.redist: 

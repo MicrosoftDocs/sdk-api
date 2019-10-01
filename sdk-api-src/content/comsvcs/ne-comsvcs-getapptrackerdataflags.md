@@ -38,7 +38,6 @@ api_location:
 - ComSvcs.h
 api_name:
 - GetAppTrackerDataFlags
-product: Windows
 targetos: Windows
 req.typenames: GetAppTrackerDataFlags
 req.redist: 

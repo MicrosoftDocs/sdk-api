@@ -40,7 +40,6 @@ api_name:
  - IWdsTransportServicePolicy.StartPort
  - IWdsTransportServicePolicy.get_StartPort
  - IWdsTransportServicePolicy.put_StartPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

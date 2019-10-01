@@ -39,7 +39,6 @@ api_location:
 api_name:
  - WNetSetLastError
  - WNetSetLastErrorA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

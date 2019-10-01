@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - ACTCTX_COMPATIBILITY_ELEMENT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 req.redist: 

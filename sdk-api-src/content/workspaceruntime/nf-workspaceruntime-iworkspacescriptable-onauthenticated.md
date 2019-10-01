@@ -41,7 +41,6 @@ api_name:
  - IWorkspaceScriptable2.OnAuthenticated
  - IWorkspaceScriptable3.OnAuthenticated
  - Workspace.OnAuthenticated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

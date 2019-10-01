@@ -38,7 +38,6 @@ api_location:
  - WindowsCodecs.dll
 api_name:
  - WICMapGuidToShortName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

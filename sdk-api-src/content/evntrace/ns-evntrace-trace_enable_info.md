@@ -38,7 +38,6 @@ api_location:
  - Evntrace.h
 api_name:
  - TRACE_ENABLE_INFO
-product: Windows
 targetos: Windows
 req.typenames: TRACE_ENABLE_INFO, *PTRACE_ENABLE_INFO
 req.redist: 

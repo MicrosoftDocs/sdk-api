@@ -38,7 +38,6 @@ api_location:
  - FaxComex.h
 api_name:
  - IFaxDevices.get_ItemById
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.LocalUserOwner
  - INetFwRule3.get_LocalUserOwner
  - INetFwRule3.put_LocalUserOwner
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

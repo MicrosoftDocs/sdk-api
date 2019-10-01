@@ -38,7 +38,6 @@ api_location:
  - ninput.dll
 api_name:
  - SetMouseWheelParameterInteractionContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

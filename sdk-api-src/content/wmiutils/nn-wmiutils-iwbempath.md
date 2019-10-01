@@ -40,7 +40,6 @@ api_name:
  - IWbemPath
  - IWbemPath.SetScopeFromText
  - WbemDefPath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

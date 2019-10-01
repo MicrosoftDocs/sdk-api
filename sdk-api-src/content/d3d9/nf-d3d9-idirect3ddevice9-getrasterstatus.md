@@ -39,7 +39,6 @@ api_location:
 - D3D9.dll
 api_name:
 - IDirect3DDevice9.GetRasterStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

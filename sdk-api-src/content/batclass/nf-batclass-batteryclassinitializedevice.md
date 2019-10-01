@@ -39,7 +39,6 @@ api_location:
  - Battc.dll
 api_name:
  - BatteryClassInitializeDevice
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

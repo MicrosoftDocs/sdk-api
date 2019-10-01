@@ -40,7 +40,6 @@ api_name:
  - lineGenerateDigits
  - lineGenerateDigitsA
  - lineGenerateDigitsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

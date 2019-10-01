@@ -40,7 +40,6 @@ api_name:
  - IFsrmFileManagementJob.Parameters
  - IFsrmFileManagementJob.get_Parameters
  - IFsrmFileManagementJob.put_Parameters
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - SwapBuffers
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

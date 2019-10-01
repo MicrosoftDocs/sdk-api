@@ -38,7 +38,6 @@ api_location:
  - RTSCom.h
 api_name:
  - RealTimeStylusLockType
-product: Windows
 targetos: Windows
 req.typenames: RealTimeStylusLockType
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Windns.h
 api_name:
  - DNS_OPT_DATA
-product: Windows
 targetos: Windows
 req.typenames: DNS_OPT_DATA, *PDNS_OPT_DATA
 req.redist: 

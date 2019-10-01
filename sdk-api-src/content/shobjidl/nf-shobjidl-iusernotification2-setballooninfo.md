@@ -38,7 +38,6 @@ api_location:
 - Shobjidl.h
 api_name:
 - IUserNotification2.SetBalloonInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

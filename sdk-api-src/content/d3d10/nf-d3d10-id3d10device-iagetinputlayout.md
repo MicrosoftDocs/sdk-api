@@ -38,7 +38,6 @@ api_location:
  - D3D10.h
 api_name:
  - ID3D10Device.IAGetInputLayout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

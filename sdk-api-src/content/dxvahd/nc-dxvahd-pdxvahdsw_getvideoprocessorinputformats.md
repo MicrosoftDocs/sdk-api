@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - PDXVAHDSW_GetVideoProcessorInputFormats
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

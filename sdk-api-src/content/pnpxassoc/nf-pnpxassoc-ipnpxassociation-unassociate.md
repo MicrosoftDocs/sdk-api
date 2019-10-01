@@ -38,7 +38,6 @@ api_location:
  - pnpxassoc.h
 api_name:
  - IPNPXAssociation.Unassociate
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

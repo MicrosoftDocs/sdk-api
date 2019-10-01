@@ -38,7 +38,6 @@ api_location:
  - WMIUtils.h
 api_name:
  - tag_WBEM_PATH_STATUS_FLAG
-product: Windows
 targetos: Windows
 req.typenames: tag_WBEM_PATH_STATUS_FLAG
 req.redist: 

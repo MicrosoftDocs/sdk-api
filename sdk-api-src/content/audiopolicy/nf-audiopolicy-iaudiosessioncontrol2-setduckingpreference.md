@@ -38,7 +38,6 @@ api_location:
  - audiopolicy.h
 api_name:
  - IAudioSessionControl2.SetDuckingPreference
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

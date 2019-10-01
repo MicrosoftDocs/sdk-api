@@ -41,7 +41,6 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMIndexer2.Configure
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

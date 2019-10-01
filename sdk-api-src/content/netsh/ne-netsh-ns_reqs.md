@@ -38,7 +38,6 @@ api_location:
  - Netsh.h
 api_name:
  - NS_REQS
-product: Windows
 targetos: Windows
 req.typenames: NS_REQS
 req.redist: 

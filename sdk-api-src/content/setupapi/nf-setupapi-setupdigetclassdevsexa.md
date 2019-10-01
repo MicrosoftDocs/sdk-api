@@ -40,7 +40,6 @@ api_location:
 api_name:
 - SetupDiGetClassDevsEx
  - SetupDiGetClassDevsExA
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - CHARACTER_RANGE
-product: Windows
 targetos: Windows
 req.typenames: CHARACTER_RANGE, *PCHARACTER_RANGE
 req.redist: 

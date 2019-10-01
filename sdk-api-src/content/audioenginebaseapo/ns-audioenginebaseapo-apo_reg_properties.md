@@ -38,7 +38,6 @@ api_location:
  - audioenginebaseapo.h
 api_name:
  - APO_REG_PROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
 req.redist: 

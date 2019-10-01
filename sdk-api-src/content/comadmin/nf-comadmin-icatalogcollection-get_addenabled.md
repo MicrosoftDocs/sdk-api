@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICatalogCollection.AddEnabled
  - ICatalogCollection.get_AddEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

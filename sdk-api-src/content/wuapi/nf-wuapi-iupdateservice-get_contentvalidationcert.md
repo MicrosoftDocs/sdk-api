@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUpdateService.ContentValidationCert
  - IUpdateService.get_ContentValidationCert
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

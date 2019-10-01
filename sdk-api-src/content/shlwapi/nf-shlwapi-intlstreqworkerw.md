@@ -42,7 +42,6 @@ api_name:
  - IntlStrEqWorker
  - IntlStrEqWorkerA
  - IntlStrEqWorkerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

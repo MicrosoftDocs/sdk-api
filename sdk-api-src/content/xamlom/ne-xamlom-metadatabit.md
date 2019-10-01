@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - MetadataBit
-product: Windows
 targetos: Windows
 req.typenames: MetadataBit
 req.redist: 

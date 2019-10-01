@@ -38,7 +38,6 @@ api_location:
  - Ntdsapi.h
 api_name:
  - DS_SITE_COST_INFO
-product: Windows
 targetos: Windows
 req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
 req.redist: 

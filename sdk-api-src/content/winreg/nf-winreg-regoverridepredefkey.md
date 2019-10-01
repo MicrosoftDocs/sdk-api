@@ -41,7 +41,6 @@ api_location:
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
  - RegOverridePredefKey
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

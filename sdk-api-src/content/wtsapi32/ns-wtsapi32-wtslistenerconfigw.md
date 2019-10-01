@@ -40,7 +40,6 @@ api_name:
  - WTSLISTENERCONFIG
  - WTSLISTENERCONFIGA
  - WTSLISTENERCONFIGW
-product: Windows
 targetos: Windows
 req.typenames: WTSLISTENERCONFIGW, *PWTSLISTENERCONFIGW
 req.redist: 

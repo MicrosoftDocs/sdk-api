@@ -38,7 +38,6 @@ api_location:
  - Dhcpsapi.h
 api_name:
  - DHCP_SERVER_SPECIFIC_STRINGS
-product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_SPECIFIC_STRINGS, *LPDHCP_SERVER_SPECIFIC_STRINGS
 req.redist: 

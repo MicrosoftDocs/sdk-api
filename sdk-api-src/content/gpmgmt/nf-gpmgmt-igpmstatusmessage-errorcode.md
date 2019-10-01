@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGPMStatusMessage.ErrorCode
  - GPMStatusMessage.ErrorCode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

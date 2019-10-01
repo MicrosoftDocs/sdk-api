@@ -40,7 +40,6 @@ api_name:
  - IFaxServer2.FaxAccountSet
  - IFaxServer2.get_FaxAccountSet
  - IFaxServer2.get_FaxAccountSet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

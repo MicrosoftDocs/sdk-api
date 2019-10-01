@@ -38,7 +38,6 @@ api_location:
  - WinEvt.h
 api_name:
  - EVT_FORMAT_MESSAGE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: EVT_FORMAT_MESSAGE_FLAGS
 req.redist: 

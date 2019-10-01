@@ -38,7 +38,6 @@ api_location:
 - WebServices.h
 api_name:
 - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
-product: Windows
 targetos: Windows
 req.typenames: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 req.redist: 

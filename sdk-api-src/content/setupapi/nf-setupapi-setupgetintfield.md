@@ -39,7 +39,6 @@ api_location:
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
  - SetupGetIntField
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

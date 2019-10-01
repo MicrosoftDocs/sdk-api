@@ -38,7 +38,6 @@ api_location:
  - Dwrite.dll
 api_name:
  - IDWriteFontSet3::GetFontSourceType
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

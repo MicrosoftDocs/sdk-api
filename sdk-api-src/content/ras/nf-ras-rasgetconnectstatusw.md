@@ -42,7 +42,6 @@ api_name:
  - RasGetConnectStatus
  - RasGetConnectStatusA
  - RasGetConnectStatusW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

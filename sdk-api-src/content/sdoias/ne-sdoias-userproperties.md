@@ -38,7 +38,6 @@ api_location:
 - SdoIas.h
 api_name:
 - USERPROPERTIES
-product: Windows
 targetos: Windows
 req.typenames: USERPROPERTIES
 req.redist: 

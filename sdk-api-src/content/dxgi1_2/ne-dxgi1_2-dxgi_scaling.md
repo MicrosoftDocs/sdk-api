@@ -38,7 +38,6 @@ api_location:
  - DXGI1_2.h
 api_name:
  - DXGI_SCALING
-product: Windows
 targetos: Windows
 req.typenames: DXGI_SCALING
 req.redist: 

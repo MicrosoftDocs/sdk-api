@@ -40,7 +40,6 @@ api_name:
  - wvsprintf
  - wvsprintfA
  - wvsprintfW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

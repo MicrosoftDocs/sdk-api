@@ -38,7 +38,6 @@ api_location:
  - Iscsidsc.h
 api_name:
  - IKE_AUTHENTICATION_PRESHARED_KEY
-product: Windows
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_PRESHARED_KEY, *PIKE_AUTHENTICATION_PRESHARED_KEY
 req.redist: 

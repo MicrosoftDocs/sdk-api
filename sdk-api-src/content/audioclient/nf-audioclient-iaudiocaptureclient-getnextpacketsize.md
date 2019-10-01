@@ -38,7 +38,6 @@ api_location:
  - Audioclient.h
 api_name:
  - IAudioCaptureClient.GetNextPacketSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

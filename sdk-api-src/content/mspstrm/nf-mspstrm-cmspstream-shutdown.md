@@ -38,7 +38,6 @@ api_location:
  - Mspstrm.h
 api_name:
  - CMSPStream.ShutDown
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

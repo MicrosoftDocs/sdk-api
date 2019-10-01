@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IGridProvider.RowCount
  - IGridProvider.get_RowCount
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

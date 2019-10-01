@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxServerNotify2.OnOutgoingJobChanged
  - IFaxServerNotify2.OnOutgoingJobChanged
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

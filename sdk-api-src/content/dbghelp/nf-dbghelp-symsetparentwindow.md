@@ -38,7 +38,6 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymSetParentWindow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

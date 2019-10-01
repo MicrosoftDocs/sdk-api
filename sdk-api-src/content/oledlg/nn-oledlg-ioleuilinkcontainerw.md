@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IOleUILinkContainer
  - IOleUILinkContainerW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

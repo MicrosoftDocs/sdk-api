@@ -43,7 +43,6 @@ api_name:
  - IEnroll4.RequestStoreTypeWStr
  - IEnroll4.get_RequestStoreTypeWStr
  - IEnroll4.put_RequestStoreTypeWStr
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

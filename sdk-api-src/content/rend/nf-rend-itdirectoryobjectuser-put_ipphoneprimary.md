@@ -38,7 +38,6 @@ api_location:
  - Rend.dll
 api_name:
  - ITDirectoryObjectUser.put_IPPhonePrimary
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

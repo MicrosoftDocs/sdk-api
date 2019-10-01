@@ -44,7 +44,6 @@ api_name:
  - PathIsLFNFileSpec
  - PathIsLFNFileSpecA
  - PathIsLFNFileSpecW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

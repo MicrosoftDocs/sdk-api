@@ -40,7 +40,6 @@ api_name:
 - WSADuplicateSocket
 - WSADuplicateSocketA
 - WSADuplicateSocketW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

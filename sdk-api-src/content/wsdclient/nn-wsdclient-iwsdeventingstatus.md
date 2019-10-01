@@ -38,7 +38,6 @@ api_location:
  - Wsdapi.dll
 api_name:
  - IWSDEventingStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

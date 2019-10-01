@@ -38,7 +38,6 @@ api_location:
  - mswsock.h
 api_name:
  - TRANSMIT_FILE_BUFFERS
-product: Windows
 targetos: Windows
 req.typenames: TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS
 req.redist: 

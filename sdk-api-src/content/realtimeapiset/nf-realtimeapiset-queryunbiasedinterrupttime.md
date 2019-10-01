@@ -43,7 +43,6 @@ api_location:
  - API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
  - QueryUnbiasedInterruptTime
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

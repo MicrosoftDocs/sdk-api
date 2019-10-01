@@ -40,7 +40,6 @@ api_name:
  - ICEnroll4.Reset
  - ICEnroll3.Reset
  - CEnroll.Reset
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

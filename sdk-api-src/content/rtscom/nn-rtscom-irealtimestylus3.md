@@ -38,7 +38,6 @@ api_location:
  - rtscom.h
 api_name:
  - IRealTimeStylus3
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

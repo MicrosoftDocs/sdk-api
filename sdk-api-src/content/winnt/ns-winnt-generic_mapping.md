@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - GENERIC_MAPPING
-product: Windows
 targetos: Windows
 req.typenames: GENERIC_MAPPING
 req.redist: 

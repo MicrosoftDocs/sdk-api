@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxDeviceIds.SetOrder
  - IFaxDeviceIds.SetOrder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

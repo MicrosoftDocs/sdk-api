@@ -38,7 +38,6 @@ api_location:
  - taskschd.dll
 api_name:
  - IPrincipal2.AddRequiredPrivilege
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

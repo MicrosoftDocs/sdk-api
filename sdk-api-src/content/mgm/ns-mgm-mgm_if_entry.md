@@ -38,7 +38,6 @@ api_location:
  - Mgm.h
 api_name:
  - MGM_IF_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: MGM_IF_ENTRY, *PMGM_IF_ENTRY
 req.redist: 

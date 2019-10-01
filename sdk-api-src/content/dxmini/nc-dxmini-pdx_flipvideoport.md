@@ -38,7 +38,6 @@ api_location:
 - dxmini.h
 api_name:
 - DxFlipVideoPort
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

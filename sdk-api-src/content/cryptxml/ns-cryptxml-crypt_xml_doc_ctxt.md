@@ -38,7 +38,6 @@ api_location:
 - Cryptxml.h
 api_name:
 - CRYPT_XML_DOC_CTXT
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_DOC_CTXT, *PCRYPT_XML_DOC_CTXT
 req.redist: 

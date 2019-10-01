@@ -38,7 +38,6 @@ api_location:
 - Ws2spi.h
 api_name:
 - NSP_ROUTINE, FAR * LPNSP_ROUTINE
-product: Windows
 targetos: Windows
 req.typenames: NSP_ROUTINE, *LPNSP_ROUTINE
 req.redist: 

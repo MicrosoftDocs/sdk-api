@@ -38,7 +38,6 @@ api_location:
  - roapi.h
 api_name:
  - RO_INIT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: RO_INIT_TYPE
 req.redist: 

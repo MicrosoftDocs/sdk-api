@@ -38,7 +38,6 @@ api_location:
  - Wtsdefs.h
 api_name:
  - WTS_PROTOCOL_CACHE
-product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_CACHE, *PWTS_PROTOCOL_CACHE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ICertSrvSetupKeyInformation.HashAlgorithm
  - ICertSrvSetupKeyInformation.get_HashAlgorithm
  - ICertSrvSetupKeyInformation.put_HashAlgorithm
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

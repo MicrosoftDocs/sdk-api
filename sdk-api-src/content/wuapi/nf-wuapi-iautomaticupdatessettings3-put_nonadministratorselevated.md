@@ -40,7 +40,6 @@ api_name:
  - IAutomaticUpdatesSettings3.NonAdministratorsElevated
  - IAutomaticUpdatesSettings3.get_NonAdministratorsElevated
  - IAutomaticUpdatesSettings3.put_NonAdministratorsElevated
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - XAPO.h
 api_name:
  - IXAPO.GetRegistrationProperties
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

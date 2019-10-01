@@ -38,7 +38,6 @@ api_location:
  - Wdstptmgmt.h
 api_name:
  - WDSTRANSPORT_SERVICE_NOTIFICATION
-product: Windows
 targetos: Windows
 req.typenames: WDSTRANSPORT_SERVICE_NOTIFICATION, *PWDSTRANSPORT_SERVICE_NOTIFICATION
 req.redist: 

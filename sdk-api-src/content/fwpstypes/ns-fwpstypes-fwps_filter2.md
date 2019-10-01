@@ -38,7 +38,6 @@ api_location:
  - fwpstypes.h
 api_name:
  - FWPS_FILTER2
-product: Windows
 targetos: Windows
 req.typenames: FWPS_FILTER2
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinEvt.h
 api_name:
 - EVT_CHANNEL_ISOLATION_TYPE
-product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_ISOLATION_TYPE
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IApiTracingDataCollector.ExePath
  - IApiTracingDataCollector.get_ExePath
  - IApiTracingDataCollector.put_ExePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

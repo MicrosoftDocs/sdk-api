@@ -38,7 +38,6 @@ api_location:
  - ipexport.h
 api_name:
  - IP_OPTION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: IP_OPTION_INFORMATION, *PIP_OPTION_INFORMATION
 req.redist: 

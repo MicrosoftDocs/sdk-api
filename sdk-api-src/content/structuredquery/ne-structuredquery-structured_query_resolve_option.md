@@ -38,7 +38,6 @@ api_location:
  - Structuredquery.h
 api_name:
  - STRUCTURED_QUERY_RESOLVE_OPTION
-product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_RESOLVE_OPTION
 req.redist: Windows Desktop Search (WDS) 3.0

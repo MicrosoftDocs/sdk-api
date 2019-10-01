@@ -38,7 +38,6 @@ api_location:
  - dwrite.h
 api_name:
  - DWRITE_TEXTURE_TYPE
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

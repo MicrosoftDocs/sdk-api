@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - PDH_RAW_LOG_RECORD
-product: Windows
 targetos: Windows
 req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
 req.redist: 

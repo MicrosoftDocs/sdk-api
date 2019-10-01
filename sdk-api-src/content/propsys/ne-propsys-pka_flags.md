@@ -38,7 +38,6 @@ api_location:
  - Propsys.h
 api_name:
  - PKA_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: PKA_FLAGS
 req.redist: 

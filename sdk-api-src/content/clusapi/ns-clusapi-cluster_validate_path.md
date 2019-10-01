@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTER_VALIDATE_PATH
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_VALIDATE_PATH, *PCLUSTER_VALIDATE_PATH
 req.redist: 

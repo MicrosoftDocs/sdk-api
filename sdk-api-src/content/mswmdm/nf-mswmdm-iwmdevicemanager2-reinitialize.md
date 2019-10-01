@@ -39,7 +39,6 @@ api_location:
  - mssachlp.dll
 api_name:
  - IWMDeviceManager2.Reinitialize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

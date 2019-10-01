@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - MCHITTESTINFO
-product: Windows
 targetos: Windows
 req.typenames: MCHITTESTINFO, *PMCHITTESTINFO
 req.redist: 

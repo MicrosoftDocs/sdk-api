@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnInterface.InterfaceID
  - IMbnInterface.get_InterfaceID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

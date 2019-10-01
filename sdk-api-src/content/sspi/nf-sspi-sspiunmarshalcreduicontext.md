@@ -40,7 +40,6 @@ api_location:
 - AnalogCredUI.dll
 api_name:
 - SspiUnmarshalCredUIContext
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

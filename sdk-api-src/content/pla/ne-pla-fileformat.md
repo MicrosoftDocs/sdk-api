@@ -38,7 +38,6 @@ api_location:
  - Pla.h
 api_name:
  - FileFormat
-product: Windows
 targetos: Windows
 req.typenames: FileFormat
 req.redist: 

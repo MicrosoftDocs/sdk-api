@@ -39,7 +39,6 @@ api_location:
 - VdsHwPrv.h
 api_name:
 - VDS_PORT_PROP
-product: Windows
 targetos: Windows
 req.typenames: VDS_PORT_PROP, *PVDS_PORT_PROP
 req.redist: 

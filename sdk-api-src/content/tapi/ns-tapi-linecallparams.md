@@ -38,7 +38,6 @@ api_location:
 - Tapi.h
 api_name:
 - LINECALLPARAMS
-product: Windows
 targetos: Windows
 req.typenames: LINECALLPARAMS, *LPLINECALLPARAMS
 req.redist: 

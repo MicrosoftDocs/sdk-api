@@ -38,7 +38,6 @@ api_location:
  - Ntsecpkg.h
 api_name:
  - SECPKG_USER_FUNCTION_TABLE
-product: Windows
 targetos: Windows
 req.typenames: SECPKG_USER_FUNCTION_TABLE, *PSECPKG_USER_FUNCTION_TABLE
 req.redist: 

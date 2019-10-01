@@ -38,7 +38,6 @@ api_location:
  - fileapi.h
 api_name:
  - WIN32_FILE_ATTRIBUTE_DATA
-product: Windows
 targetos: Windows
 req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
 req.redist: 

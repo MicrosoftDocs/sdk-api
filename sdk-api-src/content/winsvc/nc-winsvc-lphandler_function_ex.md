@@ -38,7 +38,6 @@ api_location:
 - WinSvc.h
 api_name:
 - HandlerEx
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

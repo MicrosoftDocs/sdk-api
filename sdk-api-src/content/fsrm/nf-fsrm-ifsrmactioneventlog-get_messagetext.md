@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionEventLog.MessageText
  - IFsrmActionEventLog.get_MessageText
  - IFsrmActionEventLog.put_MessageText
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - wsdbase.h
 api_name:
  - WSD_CONFIG_ADDRESSES
-product: Windows
 targetos: Windows
 req.typenames: WSD_CONFIG_ADDRESSES, *PWSD_CONFIG_ADDRESSES
 req.redist: 

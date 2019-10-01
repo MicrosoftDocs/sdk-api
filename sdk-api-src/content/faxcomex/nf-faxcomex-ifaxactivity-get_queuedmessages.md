@@ -40,7 +40,6 @@ api_name:
  - IFaxActivity.QueuedMessages
  - IFaxActivity.get_QueuedMessages
  - IFaxActivity.get_QueuedMessages
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

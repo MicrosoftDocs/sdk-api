@@ -40,7 +40,6 @@ api_name:
  - IFsrmActionCommand.ExecutablePath
  - IFsrmActionCommand.get_ExecutablePath
  - IFsrmActionCommand.put_ExecutablePath
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

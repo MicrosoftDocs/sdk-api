@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IFaxJob.SetStatus
  - IFaxJob.SetStatus
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

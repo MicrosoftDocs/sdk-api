@@ -38,7 +38,6 @@ api_location:
 - Ntsecapi.h
 api_name:
 - KERB_ADD_CREDENTIALS_REQUEST_EX
-product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_CREDENTIALS_REQUEST_EX, *PKERB_ADD_CREDENTIALS_REQUEST_EX
 req.redist: 

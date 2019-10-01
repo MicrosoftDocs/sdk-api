@@ -40,7 +40,6 @@ api_name:
  - InternetCreateUrl
  - InternetCreateUrlA
  - InternetCreateUrlW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

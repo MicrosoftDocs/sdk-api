@@ -38,7 +38,6 @@ api_location:
  - spatialaudiohrtf.h
 api_name:
  - SpatialAudioHrtfDirectivityCardioid
-product: Windows
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityCardioid
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - xamlom.h
 api_name:
  - CollectionElementValue
-product: Windows
 targetos: Windows
 req.typenames: CollectionElementValue
 req.redist: 

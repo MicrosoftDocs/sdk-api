@@ -38,7 +38,6 @@ api_location:
  - Dskquota.dll
 api_name:
  - IDiskQuotaUserBatch
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

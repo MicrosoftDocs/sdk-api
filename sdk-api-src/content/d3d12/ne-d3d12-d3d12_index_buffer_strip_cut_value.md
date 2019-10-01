@@ -38,7 +38,6 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
-product: Windows
 targetos: Windows
 req.typenames: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 req.redist: 

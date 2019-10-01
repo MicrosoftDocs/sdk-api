@@ -38,7 +38,6 @@ api_location:
  - AppxPackaging.h
 api_name:
  - IAppxEncryptionFactory.EncryptBundle
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

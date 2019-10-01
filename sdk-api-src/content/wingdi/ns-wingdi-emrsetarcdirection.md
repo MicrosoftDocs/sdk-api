@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMRSETARCDIRECTION
-product: Windows
 targetos: Windows
 req.typenames: EMRSETARCDIRECTION, *PEMRSETARCDIRECTION
 req.redist: 

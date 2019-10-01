@@ -38,7 +38,6 @@ api_location:
  - Dsquery.h
 api_name:
  - DSQUERYCLASSLIST
-product: Windows
 targetos: Windows
 req.typenames: DSQUERYCLASSLIST, *LPDSQUERYCLASSLIST
 req.redist: 

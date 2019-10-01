@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - EMREXTTEXTOUTA
-product: Windows
 targetos: Windows
 req.typenames: EMREXTTEXTOUTA, *PEMREXTTEXTOUTA, EMREXTTEXTOUTW, *PEMREXTTEXTOUTW
 req.redist: 

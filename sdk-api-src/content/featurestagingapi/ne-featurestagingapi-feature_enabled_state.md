@@ -38,7 +38,6 @@ api_location:
  - featurestagingapi.h
 api_name:
  - FEATURE_ENABLED_STATE
-product: Windows
 targetos: Windows
 req.typenames: FEATURE_ENABLED_STATE
 req.redist: 

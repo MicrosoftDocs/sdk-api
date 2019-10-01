@@ -39,7 +39,6 @@ api_location:
  - D3D9.dll
 api_name:
  - IDirect3DStateBlock9.Capture
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - nldef.h
 api_name:
  - NL_LINK_LOCAL_ADDRESS_BEHAVIOR
-product: Windows
 targetos: Windows
 req.typenames: NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 req.redist: 

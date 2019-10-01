@@ -38,7 +38,6 @@ api_location:
 - Wincrypt.h
 api_name:
 - PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

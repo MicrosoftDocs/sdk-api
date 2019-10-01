@@ -38,7 +38,6 @@ api_location:
  - oaidl.h
 api_name:
  - ITypeChangeEvents.AfterTypeChange
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - Wbemcli.h
 api_name:
  - WBEMSTATUS
-product: Windows
 targetos: Windows
 req.typenames: WBEMSTATUS
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - Http.h
 api_name:
 - HTTP_REQUEST_V1
-product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_V1, *PHTTP_REQUEST_V1
 req.redist: 

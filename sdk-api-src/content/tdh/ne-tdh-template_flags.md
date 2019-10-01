@@ -38,7 +38,6 @@ api_location:
 - Tdh.h
 api_name:
 - TEMPLATE_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: TEMPLATE_FLAGS
 req.redist: 

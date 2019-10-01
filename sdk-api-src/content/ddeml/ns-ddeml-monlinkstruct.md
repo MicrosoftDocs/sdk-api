@@ -38,7 +38,6 @@ api_location:
  - Ddeml.h
 api_name:
  - MONLINKSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: MONLINKSTRUCT, *PMONLINKSTRUCT
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - INetFwRule3.LocalUserAuthorizedList
  - INetFwRule3.get_LocalUserAuthorizedList
  - INetFwRule3.put_LocalUserAuthorizedList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

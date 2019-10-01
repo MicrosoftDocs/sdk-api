@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - NCCALCSIZE_PARAMS
-product: Windows
 targetos: Windows
 req.typenames: NCCALCSIZE_PARAMS, *LPNCCALCSIZE_PARAMS
 req.redist: 

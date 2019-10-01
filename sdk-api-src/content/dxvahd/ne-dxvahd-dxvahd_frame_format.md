@@ -38,7 +38,6 @@ api_location:
 - dxvahd.h
 api_name:
 - DXVAHD_FRAME_FORMAT
-product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FRAME_FORMAT
 req.redist: 

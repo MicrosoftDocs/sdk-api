@@ -38,7 +38,6 @@ api_location:
  - xpsobjectmodel.h
 api_name:
  - XPS_OBJECT_TYPE
-product: Windows
 targetos: Windows
 req.typenames: XPS_OBJECT_TYPE
 req.redist: 

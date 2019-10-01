@@ -40,7 +40,6 @@ api_location:
 api_name:
 - CM_Request_Device_Eject_Ex
 - CM_Request_Device_Eject_ExW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

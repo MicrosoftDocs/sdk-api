@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - ICameraControl.get_PrivacyMode
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - ReportIscsiTargets
  - ReportIscsiTargetsA
  - ReportIscsiTargetsW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

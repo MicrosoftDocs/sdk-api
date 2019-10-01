@@ -38,7 +38,6 @@ api_location:
 - Bcrypt.h
 api_name:
 - CRYPT_IMAGE_REF
-product: Windows
 targetos: Windows
 req.typenames: CRYPT_IMAGE_REF, *PCRYPT_IMAGE_REF
 req.redist: 

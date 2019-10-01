@@ -44,7 +44,6 @@ api_name:
  - CopyAcceleratorTable
  - CopyAcceleratorTableA
  - CopyAcceleratorTableW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

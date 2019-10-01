@@ -38,7 +38,6 @@ api_location:
 - dhcpsapi.h
 api_name:
 - DHCP_FAILOVER_RELATIONSHIP_ARRAY
-product: Windows
 targetos: Windows
 req.typenames: DHCP_FAILOVER_RELATIONSHIP_ARRAY, *LPDHCP_FAILOVER_RELATIONSHIP_ARRAY
 req.redist: 

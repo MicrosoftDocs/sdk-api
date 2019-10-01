@@ -40,7 +40,6 @@ api_name:
  - IEnroll.UseExistingKeySet
  - IEnroll.get_UseExistingKeySet
  - IEnroll.put_UseExistingKeySet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

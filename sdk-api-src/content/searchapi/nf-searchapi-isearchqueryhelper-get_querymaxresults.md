@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - ISearchQueryHelper.get_QueryMaxResults
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationStylesPattern.CachedShape
  - IUIAutomationStylesPattern.get_CachedShape
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

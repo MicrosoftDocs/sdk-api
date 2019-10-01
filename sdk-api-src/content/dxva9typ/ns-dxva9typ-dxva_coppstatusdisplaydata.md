@@ -38,7 +38,6 @@ api_location:
 - dxva9typ.h
 api_name:
 - DXVA_COPPStatusDisplayData
-product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusDisplayData
 req.redist: 

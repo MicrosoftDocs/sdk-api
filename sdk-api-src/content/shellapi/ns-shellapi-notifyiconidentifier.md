@@ -38,7 +38,6 @@ api_location:
 - Shellapi.h
 api_name:
 - NOTIFYICONIDENTIFIER
-product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
 req.redist: 

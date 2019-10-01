@@ -44,7 +44,6 @@ api_name:
  - ICEnroll3.get_HashAlgID
  - ICEnroll3.put_HashAlgID
  - CEnroll.HashAlgID
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

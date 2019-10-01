@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IMbnSmsReadMsgPdu.Index
  - IMbnSmsReadMsgPdu.get_Index
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

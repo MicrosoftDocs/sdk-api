@@ -38,7 +38,6 @@ api_location:
  - RTWorkQ.dll
 api_name:
  - IRtwqAsyncResult.GetStateNoAddRef
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

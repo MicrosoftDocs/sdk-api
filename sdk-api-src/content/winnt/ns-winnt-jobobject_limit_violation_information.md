@@ -38,7 +38,6 @@ api_location:
  - WinNT.h
 api_name:
  - JOBOBJECT_LIMIT_VIOLATION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION, *PJOBOBJECT_LIMIT_VIOLATION_INFORMATION
 req.redist: 

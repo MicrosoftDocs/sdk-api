@@ -38,7 +38,6 @@ api_location:
  - Winnt.h
 api_name:
  - TAPE_ERASE
-product: Windows
 targetos: Windows
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
 req.redist: 

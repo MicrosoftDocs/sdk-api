@@ -38,7 +38,6 @@ api_location:
  - wcntypes.h
 api_name:
  - WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
-product: Windows
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 req.redist: 

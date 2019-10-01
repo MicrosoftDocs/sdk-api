@@ -38,7 +38,6 @@ api_location:
  - WinBase.h
 api_name:
  - OFSTRUCT
-product: Windows
 targetos: Windows
 req.typenames: OFSTRUCT, *LPOFSTRUCT, *POFSTRUCT
 req.redist: 

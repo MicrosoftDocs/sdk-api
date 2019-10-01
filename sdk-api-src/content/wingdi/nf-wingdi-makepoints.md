@@ -38,7 +38,6 @@ api_location:
  - Wingdi.h
 api_name:
  - MAKEPOINTS
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

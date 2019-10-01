@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IUIAutomationWindowPattern.CachedWindowVisualState
  - IUIAutomationWindowPattern.get_CachedWindowVisualState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - FAX_EVENT
  - FAX_EVENTA
  - FAX_EVENTW
-product: Windows
 targetos: Windows
 req.typenames: FAX_EVENTA, *PFAX_EVENTA
 req.redist: 

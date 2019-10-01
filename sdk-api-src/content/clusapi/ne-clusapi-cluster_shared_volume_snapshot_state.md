@@ -37,7 +37,6 @@ api_location:
  -
 api_name:
  - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 req.redist: 

@@ -40,7 +40,6 @@ api_location:
 - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
 - SetupDiBuildDriverInfoList
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

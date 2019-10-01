@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_CHASE_REFERRALS_ENUM
-product: Windows
 targetos: Windows
 req.typenames: ADS_CHASE_REFERRALS_ENUM
 req.redist: 

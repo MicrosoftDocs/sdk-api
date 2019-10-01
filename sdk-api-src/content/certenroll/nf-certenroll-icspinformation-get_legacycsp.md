@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICspInformation.LegacyCsp
  - ICspInformation.get_LegacyCsp
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

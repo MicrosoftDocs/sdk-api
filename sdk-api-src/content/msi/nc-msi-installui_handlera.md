@@ -40,7 +40,6 @@ api_name:
  - INSTALLUI_HANDLER
  - INSTALLUI_HANDLERA
  - INSTALLUI_HANDLERW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

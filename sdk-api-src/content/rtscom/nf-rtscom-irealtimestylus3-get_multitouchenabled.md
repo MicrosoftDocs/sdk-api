@@ -42,7 +42,6 @@ api_name:
  - IRealTimeStylus3.put_MultiTouchEnabled
  - IRealTimeStylus3.get_MultiTouchEnabled
  - IRealTimeStylus3.put_MultiTouchEnabled
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

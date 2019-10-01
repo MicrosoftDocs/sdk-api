@@ -38,7 +38,6 @@ api_location:
  - Gdiplusmetaheader.h
 api_name:
  - ENHMETAHEADER3
-product: Windows
 targetos: Windows
 req.typenames: ENHMETAHEADER3
 req.redist: 

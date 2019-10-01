@@ -40,7 +40,6 @@ api_name:
  - IFaxOutgoingJob.Size
  - IFaxOutgoingJob.get_Size
  - IFaxOutgoingJob.get_Size
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

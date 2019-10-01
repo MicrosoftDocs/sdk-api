@@ -38,7 +38,6 @@ api_location:
  - combaseapi.h
 api_name:
  - CWMO_FLAGS
-product: Windows
 targetos: Windows
 req.typenames: CWMO_FLAGS
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - WTSCONFIGINFO
  - WTSCONFIGINFOA
  - WTSCONFIGINFOW
-product: Windows
 targetos: Windows
 req.typenames: WTSCONFIGINFOW, *PWTSCONFIGINFOW
 req.redist: 

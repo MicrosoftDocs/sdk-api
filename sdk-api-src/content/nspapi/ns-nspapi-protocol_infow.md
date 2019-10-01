@@ -40,7 +40,6 @@ api_name:
  - PROTOCOL_INFO
  - PROTOCOL_INFOA
  - PROTOCOL_INFOW
-product: Windows
 targetos: Windows
 req.typenames: PROTOCOL_INFOW, *PPROTOCOL_INFOW, *LPPROTOCOL_INFOW
 req.redist: 

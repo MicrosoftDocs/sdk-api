@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - DRVENABLEDATA
-product: Windows
 targetos: Windows
 req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
 req.redist: 

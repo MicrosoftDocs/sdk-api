@@ -38,7 +38,6 @@ api_location:
  - Pdh.h
 api_name:
  - PDH_TIME_INFO
-product: Windows
 targetos: Windows
 req.typenames: PDH_TIME_INFO, *PPDH_TIME_INFO
 req.redist: 

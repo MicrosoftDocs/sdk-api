@@ -38,7 +38,6 @@ api_location:
  - Ipsectypes.h
 api_name:
  - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
-product: Windows
 targetos: Windows
 req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_PROCESS_INFO
-product: Windows
 targetos: Windows
 req.typenames: CF_PROCESS_INFO
 req.redist: 

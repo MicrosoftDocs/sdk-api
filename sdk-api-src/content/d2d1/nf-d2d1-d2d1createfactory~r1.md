@@ -36,7 +36,6 @@ api_location:
  - D2d1.dll
 api_name:
  - D2D1CreateFactory
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

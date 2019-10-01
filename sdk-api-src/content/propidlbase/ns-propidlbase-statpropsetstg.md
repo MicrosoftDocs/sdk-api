@@ -38,7 +38,6 @@ api_location:
  - propidlbase.h
 api_name:
  - STATPROPSETSTG
-product: Windows
 targetos: Windows
 req.typenames: STATPROPSETSTG
 req.redist: 

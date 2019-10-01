@@ -38,7 +38,6 @@ api_location:
  - NtmsMli.h
 api_name:
  - MediaLabelInfo
-product: Windows
 targetos: Windows
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 req.redist: 

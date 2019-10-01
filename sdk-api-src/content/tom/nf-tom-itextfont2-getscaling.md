@@ -38,7 +38,6 @@ api_location:
  - Msftedit.dll
 api_name:
  - ITextFont2.GetScaling
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_name:
  - GetClassLongPtr
  - GetClassLongPtrA
  - GetClassLongPtrW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

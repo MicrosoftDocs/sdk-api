@@ -38,7 +38,6 @@ api_location:
  - Mpeg2Structs.h
 api_name:
  - DVB_EIT_FILTER_OPTIONS
-product: Windows
 targetos: Windows
 req.typenames: DVB_EIT_FILTER_OPTIONS
 req.redist: 

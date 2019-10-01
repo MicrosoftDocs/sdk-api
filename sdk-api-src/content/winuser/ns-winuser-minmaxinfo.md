@@ -38,7 +38,6 @@ api_location:
  - Winuser.h
 api_name:
  - MINMAXINFO
-product: Windows
 targetos: Windows
 req.typenames: MINMAXINFO, *PMINMAXINFO, *LPMINMAXINFO
 req.redist: 

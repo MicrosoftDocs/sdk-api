@@ -42,7 +42,6 @@ api_name:
 - SHGetDataFromIDList
 - SHGetDataFromIDListA
 - SHGetDataFromIDListW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

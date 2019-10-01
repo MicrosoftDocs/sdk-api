@@ -38,7 +38,6 @@ api_location:
  - OaIdl.h
 api_name:
  - PARAMDESC
-product: Windows
 targetos: Windows
 req.typenames: PARAMDESC, *LPPARAMDESC
 req.redist: 

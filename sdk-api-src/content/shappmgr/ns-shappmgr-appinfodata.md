@@ -38,7 +38,6 @@ api_location:
  - Shappmgr.h
 api_name:
  - APPINFODATA
-product: Windows
 targetos: Windows
 req.typenames: APPINFODATA, *PAPPINFODATA
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
 - WinNT.h
 api_name:
 - VectoredHandler
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -41,7 +41,6 @@ api_location:
 - xinputuap.dll
 api_name:
 - XInputSetState
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

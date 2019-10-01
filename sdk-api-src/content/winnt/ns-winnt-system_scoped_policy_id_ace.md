@@ -38,7 +38,6 @@ api_location:
 - Winnt.h
 api_name:
 - SYSTEM_SCOPED_POLICY_ID_ACE
-product: Windows
 targetos: Windows
 req.typenames: SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE
 req.redist: 

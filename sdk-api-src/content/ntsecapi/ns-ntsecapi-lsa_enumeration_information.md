@@ -38,7 +38,6 @@ api_location:
  - Ntsecapi.h
 api_name:
  - LSA_ENUMERATION_INFORMATION
-product: Windows
 targetos: Windows
 req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
 req.redist: 

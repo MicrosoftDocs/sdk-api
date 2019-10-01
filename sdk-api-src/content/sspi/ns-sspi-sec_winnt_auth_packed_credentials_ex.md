@@ -38,7 +38,6 @@ api_location:
  - Sspi.h
 api_name:
  - SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
-product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
 req.redist: 

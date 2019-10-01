@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PrjWriteFileData
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

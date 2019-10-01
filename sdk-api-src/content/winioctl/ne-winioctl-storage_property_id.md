@@ -38,7 +38,6 @@ api_location:
 - WinIoCtl.h
 api_name:
 - STORAGE_PROPERTY_ID
-product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID
 req.redist: 

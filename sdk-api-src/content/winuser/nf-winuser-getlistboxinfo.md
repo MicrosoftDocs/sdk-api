@@ -38,7 +38,6 @@ api_location:
  - User32.dll
 api_name:
  - GetListBoxInfo
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6

@@ -38,7 +38,6 @@ api_location:
  - Windows.Foundation.h
 api_name:
  - IPropertyValueStatics.CreateDoubleArray
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

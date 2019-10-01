@@ -40,7 +40,6 @@ api_name:
  - IFaxInboundRoutingExtension.Debug
  - IFaxInboundRoutingExtension.get_Debug
  - IFaxInboundRoutingExtension.get_Debug
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

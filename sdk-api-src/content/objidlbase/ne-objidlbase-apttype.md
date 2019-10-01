@@ -38,7 +38,6 @@ api_location:
  - objidlbase.h
 api_name:
  - APTTYPE
-product: Windows
 targetos: Windows
 req.typenames: APTTYPE
 req.redist: 

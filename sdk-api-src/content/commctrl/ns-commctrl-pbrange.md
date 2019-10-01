@@ -38,7 +38,6 @@ api_location:
  - Commctrl.h
 api_name:
  - PBRANGE
-product: Windows
 targetos: Windows
 req.typenames: PBRANGE, *PPBRANGE
 req.redist: 

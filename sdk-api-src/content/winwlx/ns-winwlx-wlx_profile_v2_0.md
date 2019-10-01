@@ -38,7 +38,6 @@ api_location:
 - Winwlx.h
 api_name:
 - WLX_PROFILE_V2_0
-product: Windows
 targetos: Windows
 req.typenames: WLX_PROFILE_V2_0, *PWLX_PROFILE_V2_0
 req.redist: 

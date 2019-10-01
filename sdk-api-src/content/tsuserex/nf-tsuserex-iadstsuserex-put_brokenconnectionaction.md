@@ -40,7 +40,6 @@ api_name:
  - IADsTSUserEx.BrokenConnectionAction
  - IADsTSUserEx.get_BrokenConnectionAction
  - IADsTSUserEx.put_BrokenConnectionAction
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

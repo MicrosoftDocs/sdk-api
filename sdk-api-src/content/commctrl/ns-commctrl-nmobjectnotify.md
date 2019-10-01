@@ -38,7 +38,6 @@ api_location:
 - Commctrl.h
 api_name:
 - NMOBJECTNOTIFY
-product: Windows
 targetos: Windows
 req.typenames: NMOBJECTNOTIFY, *LPNMOBJECTNOTIFY
 req.redist: 

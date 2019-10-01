@@ -38,7 +38,6 @@ api_location:
 - wnvapi.h
 api_name:
 - WNV_NOTIFICATION_PARAM
-product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
 req.redist: 

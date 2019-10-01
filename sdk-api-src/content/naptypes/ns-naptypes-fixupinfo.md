@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - FixupInfo
-product: Windows
 targetos: Windows
 req.typenames: FixupInfo
 req.redist: 

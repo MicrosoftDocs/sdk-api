@@ -38,7 +38,6 @@ api_location:
  - Qnetwork.h
 api_name:
  - IAMMediaContent2.get_MediaParameterName
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

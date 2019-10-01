@@ -35,7 +35,6 @@ api_location:
  - d3d12.dll
 api_name:
  - ID3D12VideoProcessCommandList::SetPredication
-product: Windows
 targetos: Windows
 
 ---

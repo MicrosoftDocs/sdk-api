@@ -38,7 +38,6 @@ api_location:
  - shlobj_core.h
 api_name:
  - SHARD
-product: Windows
 targetos: Windows
 req.typenames: SHARD
 req.redist: 

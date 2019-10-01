@@ -38,7 +38,6 @@ api_location:
 - winddi.h
 api_name:
 - WCRUN
-product: Windows
 targetos: Windows
 req.typenames: WCRUN, *PWCRUN
 req.redist: 

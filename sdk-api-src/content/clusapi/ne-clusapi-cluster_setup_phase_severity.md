@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTER_SETUP_PHASE_SEVERITY
-product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SETUP_PHASE_SEVERITY
 req.redist: 

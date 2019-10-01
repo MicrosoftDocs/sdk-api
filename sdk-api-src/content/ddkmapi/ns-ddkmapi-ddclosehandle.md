@@ -38,7 +38,6 @@ api_location:
  - ddkmapi.h
 api_name:
  - DDCLOSEHANDLE
-product: Windows
 targetos: Windows
 req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
 req.redist: 

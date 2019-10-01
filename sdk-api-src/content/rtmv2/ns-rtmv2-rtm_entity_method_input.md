@@ -38,7 +38,6 @@ api_location:
  - Rtmv2.h
 api_name:
  - RTM_ENTITY_METHOD_INPUT
-product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
 req.redist: 

@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IDataCollectorSet.DescriptionUnresolved
  - IDataCollectorSet.get_DescriptionUnresolved
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

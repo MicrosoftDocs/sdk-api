@@ -40,7 +40,6 @@ api_name:
 - WSAAddressToString
 - WSAAddressToStringA
 - WSAAddressToStringW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -38,7 +38,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_CHKDSK_INFO
-product: Windows
 targetos: Windows
 req.typenames: CLUS_CHKDSK_INFO, *PCLUS_CHKDSK_INFO
 req.redist: 

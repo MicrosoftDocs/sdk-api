@@ -38,7 +38,6 @@ api_location:
  - Cpl.h
 api_name:
  - CPlApplet
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

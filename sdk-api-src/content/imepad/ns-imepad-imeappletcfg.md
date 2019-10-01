@@ -38,7 +38,6 @@ api_location:
  - Imepad.h
 api_name:
  - IMEAPPLETCFG
-product: Windows
 targetos: Windows
 req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
 req.redist: 

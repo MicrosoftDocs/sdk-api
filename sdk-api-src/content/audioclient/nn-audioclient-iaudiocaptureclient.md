@@ -38,7 +38,6 @@ api_location:
  - Audioclient.h
 api_name:
  - IAudioCaptureClient
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

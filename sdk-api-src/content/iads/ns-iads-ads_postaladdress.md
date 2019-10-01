@@ -38,7 +38,6 @@ api_location:
  - Iads.h
 api_name:
  - ADS_POSTALADDRESS
-product: Windows
 targetos: Windows
 req.typenames: ADS_POSTALADDRESS, *PADS_POSTALADDRESS
 req.redist: 

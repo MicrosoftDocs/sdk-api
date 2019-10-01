@@ -39,7 +39,6 @@ api_location:
 api_name:
  - ICertSrvSetupKeyInformationCollection.Item
  - ICertSrvSetupKeyInformationCollection.get_Item
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

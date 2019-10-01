@@ -39,7 +39,6 @@ api_location:
  - Strmiids.dll
 api_name:
  - IVMRWindowlessControl9.GetMinIdealVideoSize
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

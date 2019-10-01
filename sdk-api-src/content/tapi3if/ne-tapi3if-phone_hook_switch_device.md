@@ -38,7 +38,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - PHONE_HOOK_SWITCH_DEVICE
-product: Windows
 targetos: Windows
 req.typenames: PHONE_HOOK_SWITCH_DEVICE
 req.redist: 

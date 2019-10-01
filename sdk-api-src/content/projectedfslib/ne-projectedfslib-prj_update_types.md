@@ -38,7 +38,6 @@ api_location:
  - projectedfslib.h
 api_name:
  - PRJ_UPDATE_TYPES
-product: Windows
 targetos: Windows
 req.typenames: PRJ_UPDATE_TYPES
 req.redist: 

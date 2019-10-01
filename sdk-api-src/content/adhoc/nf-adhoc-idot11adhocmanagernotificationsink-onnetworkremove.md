@@ -38,7 +38,6 @@ api_location:
  - adhoc.h
 api_name:
  - IDot11AdHocManagerNotificationSink.OnNetworkRemove
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

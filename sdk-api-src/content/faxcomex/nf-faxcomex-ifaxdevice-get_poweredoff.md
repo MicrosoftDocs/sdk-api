@@ -40,7 +40,6 @@ api_name:
  - IFaxDevice.PoweredOff
  - IFaxDevice.get_PoweredOff
  - IFaxDevice.get_PoweredOff
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -40,7 +40,6 @@ api_name:
  - IWSManSession.Timeout
  - IWSManSession.get_Timeout
  - IWSManSession.put_Timeout
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

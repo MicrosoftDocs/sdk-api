@@ -42,7 +42,6 @@ api_name:
  - EncryptFile
  - EncryptFileA
  - EncryptFileW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

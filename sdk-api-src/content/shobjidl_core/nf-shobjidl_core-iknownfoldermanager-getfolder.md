@@ -38,7 +38,6 @@ api_location:
 - Shell32.dll
 api_name:
 - IKnownFolderManager.GetFolder
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

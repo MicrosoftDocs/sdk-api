@@ -39,7 +39,6 @@ api_location:
 api_name:
  - IInvalidProductLicenseException.Product
  - IInvalidProductLicenseException.get_Product
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

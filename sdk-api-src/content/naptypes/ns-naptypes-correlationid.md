@@ -38,7 +38,6 @@ api_location:
  - NapTypes.h
 api_name:
  - CorrelationId
-product: Windows
 targetos: Windows
 req.typenames: CorrelationId
 req.redist: 

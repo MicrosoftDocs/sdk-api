@@ -38,7 +38,6 @@ api_location:
  - RpcdceP.h
 api_name:
  - RPC_CLIENT_INTERFACE
-product: Windows
 targetos: Windows
 req.typenames: RPC_CLIENT_INTERFACE, *PRPC_CLIENT_INTERFACE
 req.redist: 

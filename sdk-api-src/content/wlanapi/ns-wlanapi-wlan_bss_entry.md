@@ -38,7 +38,6 @@ api_location:
 - wlanapi.h
 api_name:
 - WLAN_BSS_ENTRY
-product: Windows
 targetos: Windows
 req.typenames: WLAN_BSS_ENTRY, *PWLAN_BSS_ENTRY
 req.redist: 

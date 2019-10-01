@@ -38,7 +38,6 @@ api_location:
  - Mgm.h
 api_name:
  - PMGM_PRUNE_ALERT_CALLBACK
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

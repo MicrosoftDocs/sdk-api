@@ -42,7 +42,6 @@ api_name:
  - IFaxIncomingMessage2.put_HasCoverPage
  - IFaxIncomingMessage2.get_HasCoverPage
  - IFaxIncomingMessage2.put_HasCoverPage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

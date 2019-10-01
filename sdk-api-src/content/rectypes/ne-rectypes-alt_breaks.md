@@ -38,7 +38,6 @@ api_location:
  - rectypes.h
 api_name:
  - ALT_BREAKS
-product: Windows
 targetos: Windows
 req.typenames: ALT_BREAKS
 req.redist: 

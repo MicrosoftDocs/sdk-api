@@ -38,7 +38,6 @@ api_location:
 - Ipxrtdef.h
 api_name:
 - IPX_IF_INFO
-product: Windows
 targetos: Windows
 req.typenames: IPX_IF_INFO, *PIPX_IF_INFO
 req.redist: 

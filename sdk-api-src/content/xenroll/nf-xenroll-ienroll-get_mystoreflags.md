@@ -40,7 +40,6 @@ api_name:
  - IEnroll.MyStoreFlags
  - IEnroll.get_MyStoreFlags
  - IEnroll.put_MyStoreFlags
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

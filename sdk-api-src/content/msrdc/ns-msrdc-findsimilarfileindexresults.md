@@ -38,7 +38,6 @@ api_location:
  - MsRdc.h
 api_name:
  - FindSimilarFileIndexResults
-product: Windows
 targetos: Windows
 req.typenames: FindSimilarFileIndexResults
 req.redist: 

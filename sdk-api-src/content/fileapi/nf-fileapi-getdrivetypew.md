@@ -47,7 +47,6 @@ api_name:
  - GetDriveType
  - GetDriveTypeA
  - GetDriveTypeW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

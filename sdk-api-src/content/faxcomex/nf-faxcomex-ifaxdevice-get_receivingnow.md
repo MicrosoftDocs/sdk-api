@@ -42,7 +42,6 @@ api_name:
  - IFaxDevice.put_ReceivingNow
  - IFaxDevice.get_ReceivingNow
  - IFaxDevice.put_ReceivingNow
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

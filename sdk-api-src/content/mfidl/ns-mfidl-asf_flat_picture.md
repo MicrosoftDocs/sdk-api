@@ -38,7 +38,6 @@ api_location:
  - mfidl.h
 api_name:
  - ASF_FLAT_PICTURE
-product: Windows
 targetos: Windows
 req.typenames: ASF_FLAT_PICTURE
 req.redist: 

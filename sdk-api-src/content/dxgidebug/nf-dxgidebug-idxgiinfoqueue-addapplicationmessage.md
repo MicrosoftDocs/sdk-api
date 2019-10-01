@@ -38,7 +38,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIInfoQueue.AddApplicationMessage
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

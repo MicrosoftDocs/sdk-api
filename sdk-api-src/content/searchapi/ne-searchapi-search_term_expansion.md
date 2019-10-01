@@ -38,7 +38,6 @@ api_location:
  - Searchapi.h
 api_name:
  - SEARCH_TERM_EXPANSION
-product: Windows
 targetos: Windows
 req.typenames: SEARCH_TERM_EXPANSION
 req.redist: Windows Desktop Search (WDS) 3.0

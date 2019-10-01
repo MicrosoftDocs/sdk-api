@@ -40,7 +40,6 @@ api_name:
  - SCardSetCardTypeProviderName
  - SCardSetCardTypeProviderNameA
  - SCardSetCardTypeProviderNameW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

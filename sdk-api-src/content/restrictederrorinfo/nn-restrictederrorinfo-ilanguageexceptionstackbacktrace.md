@@ -38,7 +38,6 @@ api_location:
  - restrictederrorinfo.h
 api_name:
  - ILanguageExceptionStackBackTrace
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

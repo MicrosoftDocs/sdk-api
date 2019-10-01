@@ -40,7 +40,6 @@ api_name:
 - PdhGetFormattedCounterArray
 - PdhGetFormattedCounterArrayA
 - PdhGetFormattedCounterArrayW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

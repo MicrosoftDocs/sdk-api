@@ -41,7 +41,6 @@ api_name:
  - RasDialDlg
  - RasDialDlgA
  - RasDialDlgW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

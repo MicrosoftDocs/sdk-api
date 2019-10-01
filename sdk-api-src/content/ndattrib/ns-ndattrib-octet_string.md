@@ -38,7 +38,6 @@ api_location:
  - ndattrib.h
 api_name:
  - OCTET_STRING, *POCTET_STRING
-product: Windows
 targetos: Windows
 req.typenames: OCTET_STRING, *POCTET_STRING
 req.redist: 

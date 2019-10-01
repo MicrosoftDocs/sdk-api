@@ -38,7 +38,6 @@ api_location:
  - mbnapi.h
 api_name:
  - MBN_BAND_CLASS
-product: Windows
 targetos: Windows
 req.typenames: MBN_BAND_CLASS
 req.redist: 

@@ -10,7 +10,6 @@ ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPath::AddCurve"
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

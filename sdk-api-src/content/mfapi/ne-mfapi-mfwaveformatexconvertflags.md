@@ -38,7 +38,6 @@ api_location:
  - mfapi.h
 api_name:
  - MFWaveFormatExConvertFlags
-product: Windows
 targetos: Windows
 req.typenames: MFWaveFormatExConvertFlags
 req.redist: 

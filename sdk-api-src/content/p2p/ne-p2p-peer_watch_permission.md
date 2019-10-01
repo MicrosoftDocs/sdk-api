@@ -38,7 +38,6 @@ api_location:
  - P2P.h
 api_name:
  - PEER_WATCH_PERMISSION
-product: Windows
 targetos: Windows
 req.typenames: PEER_WATCH_PERMISSION
 req.redist: 

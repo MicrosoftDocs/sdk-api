@@ -45,7 +45,6 @@ api_name:
  - GetTextFace
  - GetTextFaceA
  - GetTextFaceW
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
