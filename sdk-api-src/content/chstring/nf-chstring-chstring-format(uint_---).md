@@ -54,7 +54,7 @@ The **Format** method formats and stores a series of characters and values in a 
 
 String resource identifier that contains the format control string.
 
-### -param arg1
+### -param arg2
 
 Argument list.
 

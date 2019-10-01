@@ -56,7 +56,7 @@ A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/direct
 
 ## -parameters
 
-### -param pArray
+### -param arg1
 
 A value.
 
