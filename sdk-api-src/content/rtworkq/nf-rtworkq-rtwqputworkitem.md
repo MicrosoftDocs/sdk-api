@@ -60,12 +60,12 @@ Puts an asynchronous operation on a work queue.
 
 ### -param dwQueue [in]
 
-The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To create a new work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> or <b>RtwqAllocateWorkQueueEx</b>. 
+The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To access to a work queue, call [RtwqLockSharedWorkQueue](/windows/win32/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue). 
 
 
 ### -param lPriority [in]
 
-The priority of the work item. Work items are performed in order of priority.
+The priority of the work item. Work items are performed in order of priority. This value should be -1, 0, or 1, where -1 is the lowest priority and 1 is the highest priority.
 
 
 ### -param result [in]

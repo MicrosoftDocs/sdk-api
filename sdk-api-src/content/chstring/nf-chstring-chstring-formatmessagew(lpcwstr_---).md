@@ -56,7 +56,7 @@ A pointer to the formal control string.
 The control string is scanned for inserts and formatted accordingly.
 The format string is similar to the runtime function, **printf**-style format strings, except that **printf** allows the parameters to be inserted in an arbitrary order.
 
-### -param arg1
+### -param arg2
 
 Argument list.
 

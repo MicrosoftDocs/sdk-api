@@ -54,7 +54,7 @@ The **FormatMessageW** method formats a message string.
 
 The string resource identifier that contains the unformatted message text.
 
-### -param arg1
+### -param arg2
 
 Argument list.
 
