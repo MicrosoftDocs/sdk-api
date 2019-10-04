@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is used by many of the provider-specific methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> interface and provides an extension to <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> to support multi-carrier. This extension contains the signal strength of each provider, which helps to determine which provider a user should connect to.
 

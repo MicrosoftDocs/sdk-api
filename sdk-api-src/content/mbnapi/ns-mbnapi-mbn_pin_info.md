@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 The <b>MBN_PIN_INFO</b> structure represents the current PIN state of the device.  It indicates if some PIN is expected by the device and the PIN type expected.  Optionally, it also conveys remaining allowed attempts to enter a valid PIN.  This structure can be obtained by either calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> or supplied as an input parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinevents-onentercomplete">OnEnterComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>. 
 

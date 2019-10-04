@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
