@@ -49,6 +49,8 @@ ms.custom: 19H1
 
 ## -description
 
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 The <b>MBN_PIN_STATE</b> enumerated type indicates the current PIN state of the Mobile Broadband device.
 

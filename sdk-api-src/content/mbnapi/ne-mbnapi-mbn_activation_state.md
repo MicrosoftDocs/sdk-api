@@ -46,39 +46,31 @@ ms.custom: 19H1
 
 # MBN_ACTIVATION_STATE enumeration
 
-
 ## -description
 
+> [!IMPORTANT]
+> Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 The <b>MBN_ACTIVATION_STATE</b> enumerated type indicates the current data connection state.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MBN_ACTIVATION_STATE_NONE
 
 The connection state is unknown.
 
-
 ### -field MBN_ACTIVATION_STATE_ACTIVATED
 
 The connection has been established.
-
 
 ### -field MBN_ACTIVATION_STATE_ACTIVATING
 
 The device is establishing the connection.
 
-
 ### -field MBN_ACTIVATION_STATE_DEACTIVATED
 
 There is no connection.
 
-
 ### -field MBN_ACTIVATION_STATE_DEACTIVATING
 
 The device is in the process of disconnection.
-
