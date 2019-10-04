@@ -12,6 +12,8 @@ ms.keywords: End3, End3 method [windows Media Device Manager], End3 method [wind
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMProgress3.End3"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

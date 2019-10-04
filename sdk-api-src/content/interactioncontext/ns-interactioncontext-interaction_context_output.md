@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, i
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/INTERACTION_CONTEXT_OUTPUT"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

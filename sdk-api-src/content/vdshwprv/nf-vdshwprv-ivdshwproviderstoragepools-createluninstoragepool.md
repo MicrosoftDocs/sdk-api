@@ -12,6 +12,8 @@ ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInS
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderStoragePools.CreateLunInStoragePool
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

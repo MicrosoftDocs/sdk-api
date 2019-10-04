@@ -12,6 +12,8 @@ ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IO
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IObjectContextActivity"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method 
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitive.GetOutput"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

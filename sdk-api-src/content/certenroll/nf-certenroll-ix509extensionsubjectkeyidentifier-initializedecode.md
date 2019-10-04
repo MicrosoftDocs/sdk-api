@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeD
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509ExtensionSubjectKeyIdentifier.InitializeDecode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

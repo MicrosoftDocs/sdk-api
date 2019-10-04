@@ -12,6 +12,8 @@ ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Hea
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_SetItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

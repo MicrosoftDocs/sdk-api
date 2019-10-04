@@ -12,6 +12,8 @@ ms.keywords: EndDeferWindowPos, EndDeferWindowPos function [Windows and Messages
 ms.topic: function
 f1_keywords: 
  - "winuser/EndDeferWindowPos"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

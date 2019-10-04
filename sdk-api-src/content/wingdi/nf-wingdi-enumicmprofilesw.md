@@ -12,6 +12,8 @@ ms.keywords: EnumICMProfiles, EnumICMProfiles function [Windows Color System], E
 ms.topic: function
 f1_keywords: 
  - "wingdi/EnumICMProfiles"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

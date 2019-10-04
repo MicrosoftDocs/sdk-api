@@ -12,6 +12,8 @@ ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, proje
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_CALLBACKS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

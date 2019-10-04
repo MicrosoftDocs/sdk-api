@@ -12,6 +12,8 @@ ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENT
 ms.topic: enum
 f1_keywords: 
  - "mfplay/_MFP_CREDENTIAL_FLAGS"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

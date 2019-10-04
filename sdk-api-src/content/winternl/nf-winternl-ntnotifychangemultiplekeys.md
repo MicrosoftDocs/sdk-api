@@ -12,6 +12,8 @@ ms.keywords: NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Wi
 ms.topic: function
 f1_keywords: 
  - "winternl/NtNotifyChangeMultipleKeys"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

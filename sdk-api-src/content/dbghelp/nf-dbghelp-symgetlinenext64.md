@@ -12,6 +12,8 @@ ms.keywords: SymGetLineNext, SymGetLineNext function, SymGetLineNext64, SymGetLi
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetLineNext64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

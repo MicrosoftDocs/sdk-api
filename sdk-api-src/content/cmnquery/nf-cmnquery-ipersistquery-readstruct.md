@@ -12,6 +12,8 @@ ms.keywords: IPersistQuery interface [Active Directory],ReadStruct method, IPers
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IPersistQuery.ReadStruct"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

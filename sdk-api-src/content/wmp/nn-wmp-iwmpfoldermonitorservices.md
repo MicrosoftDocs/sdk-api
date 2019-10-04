@@ -12,6 +12,8 @@ ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Win
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPFolderMonitorServices"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

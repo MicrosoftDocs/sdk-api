@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL_PROP, PVDS_STORAGE_POOL
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_STORAGE_POOL_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

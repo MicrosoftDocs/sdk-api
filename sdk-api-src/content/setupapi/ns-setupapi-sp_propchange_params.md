@@ -12,6 +12,8 @@ ms.keywords: '*PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARA
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_PROPCHANGE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

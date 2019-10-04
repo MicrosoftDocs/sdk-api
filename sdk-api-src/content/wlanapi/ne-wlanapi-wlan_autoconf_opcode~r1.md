@@ -6,6 +6,8 @@ ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
 ms.topic: language-reference
 f1_keywords: 
  - "wlanapi/_WLAN_AUTOCONF_OPCODE"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

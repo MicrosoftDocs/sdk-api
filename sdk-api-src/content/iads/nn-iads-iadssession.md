@@ -12,6 +12,8 @@ ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [A
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsSession"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

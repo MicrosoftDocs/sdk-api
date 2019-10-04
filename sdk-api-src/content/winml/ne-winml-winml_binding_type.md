@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_binding_type, WINML_BINDING_IMAGE, WINML_BIND
 ms.topic: enum
 f1_keywords: 
  - "winml/WINML_BINDING_TYPE"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

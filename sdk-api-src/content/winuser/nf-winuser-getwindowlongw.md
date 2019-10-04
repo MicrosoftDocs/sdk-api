@@ -12,6 +12,8 @@ ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, G
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowLong"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

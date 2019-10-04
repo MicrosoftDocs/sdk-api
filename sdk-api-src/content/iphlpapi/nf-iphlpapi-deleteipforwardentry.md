@@ -12,6 +12,8 @@ ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _i
 ms.topic: function
 f1_keywords:
 - iphlpapi/DeleteIpForwardEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

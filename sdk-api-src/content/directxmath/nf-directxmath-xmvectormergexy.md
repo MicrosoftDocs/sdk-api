@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorMergeXY, XMVectorMergeXY, XMVectorMergeXY meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorMergeXY"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterColle
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMWMIFilterCollection"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer me
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoRenderer.InitializeRenderer"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

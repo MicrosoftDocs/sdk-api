@@ -12,6 +12,8 @@ ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextSt
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.SetProperty"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

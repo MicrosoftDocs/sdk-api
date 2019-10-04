@@ -12,6 +12,8 @@ ms.keywords: ITTerminalManager, ITTerminalManager interface [TAPI 2.2], ITTermin
 ms.topic: interface
 f1_keywords: 
  - "termmgr/ITTerminalManager"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

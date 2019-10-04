@@ -12,6 +12,8 @@ ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.CloseDatabase"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

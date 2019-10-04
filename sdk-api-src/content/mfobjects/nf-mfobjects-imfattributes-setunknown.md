@@ -12,6 +12,8 @@ ms.keywords: IMFAttributes interface [Media Foundation],SetUnknown method, IMFAt
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.SetUnknown"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MUI_COMPLEX_SCRIPT_FILTER, MUI_CONSOLE_FILTER, MUI_LANGUAGE_ID, MUI
 ms.topic: function
 f1_keywords: 
  - "winnls/SetThreadPreferredUILanguages"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

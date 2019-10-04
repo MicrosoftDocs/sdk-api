@@ -12,6 +12,8 @@ ms.keywords: 518c7e81-6492-40f9-a8e8-222c19de6cc0, ASF_FLAT_SYNCHRONISED_LYRICS,
 ms.topic: struct
 f1_keywords: 
  - "mfidl/ASF_FLAT_SYNCHRONISED_LYRICS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

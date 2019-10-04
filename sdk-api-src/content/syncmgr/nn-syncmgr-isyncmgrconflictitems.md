@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows She
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictItems"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESC
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DEVICE_TRIM_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

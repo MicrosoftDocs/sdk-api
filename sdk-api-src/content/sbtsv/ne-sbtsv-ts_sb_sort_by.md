@@ -12,6 +12,8 @@ ms.keywords: TS_SB_SORT_BY, TS_SB_SORT_BY enumeration [Remote Desktop Services],
 ms.topic: enum
 f1_keywords: 
  - "sbtsv/TS_SB_SORT_BY"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ ms.keywords: _CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 ms.topic: language-reference
 f1_keywords:
 - clfs/_CLS_SCAN_CONTEXT
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

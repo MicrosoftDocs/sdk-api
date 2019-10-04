@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_A
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_UNSECAPP_FLAG_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

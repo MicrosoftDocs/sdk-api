@@ -12,6 +12,8 @@ ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multim
 ms.topic: function
 f1_keywords: 
  - "vfw/ICDraw"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DirectoryCreated, DirectoryCreated method [Picture Acquisition], Di
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.DirectoryCreated"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

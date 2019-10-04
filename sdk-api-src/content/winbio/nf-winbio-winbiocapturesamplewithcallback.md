@@ -12,6 +12,8 @@ ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_D
 ms.topic: function
 f1_keywords:
 - winbio/WinBioCaptureSampleWithCallback
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

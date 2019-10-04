@@ -12,6 +12,8 @@ ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shge
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHGetAssocKeys"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

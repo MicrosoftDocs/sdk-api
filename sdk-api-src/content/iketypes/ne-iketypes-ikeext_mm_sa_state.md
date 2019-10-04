@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_MM_SA_STATE, IKEEXT_MM_SA_STATE enumeration [Filtering], IKE
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_MM_SA_STATE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

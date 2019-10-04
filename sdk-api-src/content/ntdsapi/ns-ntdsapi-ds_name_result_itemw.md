@@ -12,6 +12,8 @@ ms.keywords: "*PDS_NAME_RESULT_ITEMW, DS_NAME_RESULT_ITEM, DS_NAME_RESULT_ITEM s
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_NAME_RESULT_ITEM"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGEHLP_MODULE, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMA
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/IMAGEHLP_MODULE64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

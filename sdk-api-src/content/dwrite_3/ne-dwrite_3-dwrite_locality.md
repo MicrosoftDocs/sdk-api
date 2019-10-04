@@ -12,6 +12,8 @@ ms.keywords: DWRITE_LOCALITY, DWRITE_LOCALITY enumeration [Direct Write], DWRITE
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_LOCALITY"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

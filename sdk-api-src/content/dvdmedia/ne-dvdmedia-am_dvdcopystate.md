@@ -12,6 +12,8 @@ ms.keywords: AM_DVDCOPYSTATE, AM_DVDCOPYSTATE enumeration [DirectShow], AM_DVDCO
 ms.topic: enum
 f1_keywords: 
  - "dvdmedia/AM_DVDCOPYSTATE"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

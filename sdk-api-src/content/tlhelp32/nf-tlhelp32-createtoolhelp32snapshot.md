@@ -12,6 +12,8 @@ ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHe
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/CreateToolhelp32Snapshot"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

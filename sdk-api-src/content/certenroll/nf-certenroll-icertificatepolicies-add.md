@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Security], Add method [Security],ICertificatePolic
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificatePolicies.Add"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

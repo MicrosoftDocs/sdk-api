@@ -12,6 +12,8 @@ ms.keywords: GetNumChannels, GetNumChannels method [Windows Color System], GetNu
 ms.topic: method
 f1_keywords: 
  - "wcsplugin/IDeviceModelPlugIn.GetNumChannels"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

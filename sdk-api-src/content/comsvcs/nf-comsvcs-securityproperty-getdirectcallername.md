@@ -12,6 +12,8 @@ ms.keywords: GetDirectCallerName, GetDirectCallerName method [COM+], GetDirectCa
 ms.topic: method
 f1_keywords: 
  - "comsvcs/SecurityProperty.GetDirectCallerName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVssBackupComponents interface [VSS],IsVolumeSupported method, IVss
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponents.IsVolumeSupported"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

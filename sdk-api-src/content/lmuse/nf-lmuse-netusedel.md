@@ -12,6 +12,8 @@ ms.keywords: NetUseDel, NetUseDel function [Network Management], USE_FORCE, USE_
 ms.topic: function
 f1_keywords: 
  - "lmuse/NetUseDel"
+dev_langs:
+ - c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

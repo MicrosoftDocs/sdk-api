@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAccelerator interface [windows Media Format],Notify method
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAccelerator.Notify"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

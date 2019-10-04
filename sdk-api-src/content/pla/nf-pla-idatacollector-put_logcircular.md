@@ -12,6 +12,8 @@ ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollector.LogCircular"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

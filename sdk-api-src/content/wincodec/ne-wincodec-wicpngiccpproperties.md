@@ -12,6 +12,8 @@ ms.keywords: WICPngIccpProfileData, WICPngIccpProfileName, WICPngIccpProperties,
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngIccpProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

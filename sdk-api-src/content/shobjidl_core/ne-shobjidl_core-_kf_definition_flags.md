@@ -12,6 +12,8 @@ ms.keywords: KFDF_LOCAL_REDIRECT_ONLY, KFDF_NO_REDIRECT_UI, KFDF_PRECREATE, KFDF
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/KF_DEFINITION_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

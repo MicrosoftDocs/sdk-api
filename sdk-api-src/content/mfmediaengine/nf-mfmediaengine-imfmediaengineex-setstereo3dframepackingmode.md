@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetStereo3DFramePacki
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.SetStereo3DFramePackingMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

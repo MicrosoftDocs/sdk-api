@@ -12,6 +12,8 @@ ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interfa
 ms.topic: interface
 f1_keywords: 
  - "inkrenderer/IInkD2DRenderer"
+dev_langs:
+ - c++
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows

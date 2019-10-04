@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy i
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionProxy.Abort"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

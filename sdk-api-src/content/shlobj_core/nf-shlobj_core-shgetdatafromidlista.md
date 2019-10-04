@@ -12,6 +12,8 @@ ms.keywords: SHGDFIL_DESCRIPTIONID, SHGDFIL_FINDDATA, SHGDFIL_NETRESOURCE, SHGet
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetDataFromIDList
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

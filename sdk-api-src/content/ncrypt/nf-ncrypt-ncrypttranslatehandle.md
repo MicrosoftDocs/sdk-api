@@ -12,6 +12,8 @@ ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslat
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptTranslateHandle"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

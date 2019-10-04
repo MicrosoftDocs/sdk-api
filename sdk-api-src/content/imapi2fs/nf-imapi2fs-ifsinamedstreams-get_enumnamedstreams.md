@@ -12,6 +12,8 @@ ms.keywords: IFsiNamedStreams interface [IMAPI],get_EnumNamedStreams method, IFs
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiNamedStreams.get_EnumNamedStreams"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

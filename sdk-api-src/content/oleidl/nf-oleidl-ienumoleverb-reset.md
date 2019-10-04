@@ -12,6 +12,8 @@ ms.keywords: IEnumOLEVERB interface [COM],Reset method, IEnumOLEVERB.Reset, IEnu
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnumOLEVERB.Reset"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

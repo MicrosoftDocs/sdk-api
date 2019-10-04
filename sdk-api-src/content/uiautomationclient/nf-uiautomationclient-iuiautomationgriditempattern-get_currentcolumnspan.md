@@ -12,6 +12,8 @@ ms.keywords: CurrentColumnSpan property [Windows Accessibility], CurrentColumnSp
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CurrentColumnSpan"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

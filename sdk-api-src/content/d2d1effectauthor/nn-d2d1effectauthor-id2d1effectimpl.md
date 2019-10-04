@@ -12,6 +12,8 @@ ms.keywords: ID2D1EffectImpl, ID2D1EffectImpl interface [Direct2D], ID2D1EffectI
 ms.topic: interface
 f1_keywords: 
  - "d2d1effectauthor/ID2D1EffectImpl"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMDECN4, XMDECN4 structure [DirectX Math Support APIs], directxpack
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMDECN4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

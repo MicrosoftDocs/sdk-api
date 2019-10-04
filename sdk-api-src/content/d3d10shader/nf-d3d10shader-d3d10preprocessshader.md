@@ -12,6 +12,8 @@ ms.keywords: D3D10PreprocessShader, D3D10PreprocessShader function [Direct3D 10]
 ms.topic: function
 f1_keywords:
 - d3d10shader/D3D10PreprocessShader
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

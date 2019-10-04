@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],Register method, IShellWind
 ms.topic: method
 f1_keywords: 
  - "exdisp/IShellWindows.Register"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

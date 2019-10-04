@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_RUNTIME_POLICY_ALLOW_DYNAMIC_DEBUG, ENCLAVE_RUNTIME_POLICY_
 ms.topic: function
 f1_keywords: 
  - "winenclaveapi/EnclaveSealData"
+dev_langs:
+ - c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

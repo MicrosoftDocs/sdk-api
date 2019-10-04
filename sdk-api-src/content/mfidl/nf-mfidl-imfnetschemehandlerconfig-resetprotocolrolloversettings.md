@@ -12,6 +12,8 @@ ms.keywords: IMFNetSchemeHandlerConfig interface [Media Foundation],ResetProtoco
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

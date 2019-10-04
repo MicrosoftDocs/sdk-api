@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Ani
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

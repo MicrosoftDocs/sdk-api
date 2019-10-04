@@ -12,6 +12,8 @@ ms.keywords: 2fda44d5-455a-a992-9f44-d95b5d7f369f, D3D11_COUNTER, D3D11_COUNTER 
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_COUNTER"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

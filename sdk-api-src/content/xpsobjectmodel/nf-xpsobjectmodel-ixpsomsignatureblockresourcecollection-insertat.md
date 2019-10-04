@@ -12,6 +12,8 @@ ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

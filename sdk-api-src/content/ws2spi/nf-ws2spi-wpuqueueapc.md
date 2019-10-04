@@ -12,6 +12,8 @@ ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, 
 ms.topic: function
 f1_keywords:
 - ws2spi/WPUQueueApc
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

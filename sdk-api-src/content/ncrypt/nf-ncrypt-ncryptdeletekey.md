@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_SILENT_FLAG, NCryptDeleteKey, NCryptDeleteKey function [Secu
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptDeleteKey"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

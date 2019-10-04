@@ -12,6 +12,8 @@ ms.keywords: WS_PROXY_PROPERTY, WS_PROXY_PROPERTY structure [Web Services for Wi
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_PROXY_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

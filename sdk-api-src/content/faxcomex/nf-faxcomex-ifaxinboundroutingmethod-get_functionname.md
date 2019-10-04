@@ -12,6 +12,8 @@ ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingMethod.FunctionName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

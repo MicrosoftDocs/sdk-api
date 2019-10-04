@@ -12,6 +12,8 @@ ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollec
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.GetCollectionByQuery"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, wi
 ms.topic: function
 f1_keywords: 
  - "synchapi/Sleep"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

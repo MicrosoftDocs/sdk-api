@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.Re
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.ReleaseMarshalData"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

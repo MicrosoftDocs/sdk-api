@@ -12,6 +12,8 @@ ms.keywords: EventLog property [PLA], EventLog property [PLA],IAlertDataCollecto
 ms.topic: method
 f1_keywords: 
  - "pla/IAlertDataCollector.EventLog"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

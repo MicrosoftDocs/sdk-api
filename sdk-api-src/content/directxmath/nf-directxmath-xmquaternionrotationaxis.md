@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionRotationAxis, XMQuaternionRotationAxis, XM
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionRotationAxis"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

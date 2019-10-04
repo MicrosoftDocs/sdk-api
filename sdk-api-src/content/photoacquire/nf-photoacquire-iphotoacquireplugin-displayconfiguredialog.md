@@ -12,6 +12,8 @@ ms.keywords: DisplayConfigureDialog, DisplayConfigureDialog method [Picture Acqu
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquirePlugin.DisplayConfigureDialog"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

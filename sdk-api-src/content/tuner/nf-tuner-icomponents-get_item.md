@@ -12,6 +12,8 @@ ms.keywords: IComponents interface [Microsoft TV Technologies],get_Item method, 
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponents.get_Item"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

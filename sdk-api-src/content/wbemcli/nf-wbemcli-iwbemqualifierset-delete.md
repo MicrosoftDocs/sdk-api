@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete 
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemQualifierSet.Delete"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

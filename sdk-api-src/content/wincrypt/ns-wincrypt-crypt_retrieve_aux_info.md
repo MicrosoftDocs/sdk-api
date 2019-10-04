@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_RETRIEVE_AUX_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

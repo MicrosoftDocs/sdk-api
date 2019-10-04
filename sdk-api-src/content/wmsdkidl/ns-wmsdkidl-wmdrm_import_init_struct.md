@@ -12,6 +12,8 @@ ms.keywords: WMDRM_IMPORT_INIT_STRUCT, WMDRM_IMPORT_INIT_STRUCT structure [windo
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMDRM_IMPORT_INIT_STRUCT"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

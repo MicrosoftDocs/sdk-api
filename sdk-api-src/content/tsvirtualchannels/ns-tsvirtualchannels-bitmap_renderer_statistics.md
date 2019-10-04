@@ -12,6 +12,8 @@ ms.keywords: "*PBITMAP_RENDERER_STATISTICS, BITMAP_RENDERER_STATISTICS, BITMAP_R
 ms.topic: struct
 f1_keywords: 
  - "tsvirtualchannels/BITMAP_RENDERER_STATISTICS"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

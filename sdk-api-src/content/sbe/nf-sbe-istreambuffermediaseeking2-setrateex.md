@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],Se
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferMediaSeeking2.SetRateEx"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

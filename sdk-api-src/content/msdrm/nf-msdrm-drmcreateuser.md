@@ -12,6 +12,8 @@ ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Mana
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCreateUser"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

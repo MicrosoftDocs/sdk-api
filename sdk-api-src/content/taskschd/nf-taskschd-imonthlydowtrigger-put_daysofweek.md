@@ -12,6 +12,8 @@ ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Sch
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMonthlyDOWTrigger.DaysOfWeek"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

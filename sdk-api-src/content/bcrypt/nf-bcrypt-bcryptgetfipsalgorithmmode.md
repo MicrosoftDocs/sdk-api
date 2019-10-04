@@ -12,6 +12,8 @@ ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Se
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptGetFipsAlgorithmMode"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_GET_MINOR_VERSION, CLUSTER_GET_MINOR_VERSION macro [Failove
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSTER_GET_MINOR_VERSION"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/IDispatch.GetTypeInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

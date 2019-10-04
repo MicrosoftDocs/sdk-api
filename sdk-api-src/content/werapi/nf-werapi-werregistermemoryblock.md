@@ -12,6 +12,8 @@ ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Er
 ms.topic: function
 f1_keywords: 
  - "werapi/WerRegisterMemoryBlock"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

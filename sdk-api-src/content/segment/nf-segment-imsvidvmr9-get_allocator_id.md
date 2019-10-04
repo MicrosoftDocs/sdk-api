@@ -12,6 +12,8 @@ ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID m
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVMR9.get_Allocator_ID"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

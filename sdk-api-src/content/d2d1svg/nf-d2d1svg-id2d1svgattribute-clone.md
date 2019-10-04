@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Direct2D], Clone method [Direct2D],ID2D1SvgAtt
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgAttribute.Clone"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_STATUS_PARMSA, MCI_DGV_STATUS_PARMS, MCI_DGV_STATUS_PAR
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_STATUS_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

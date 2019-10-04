@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method, Clear method,IWinMLEvaluationContext interface
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLEvaluationContext.Clear"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

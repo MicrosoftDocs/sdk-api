@@ -12,6 +12,8 @@ ms.keywords: 684b47bc-14a8-01c4-053a-ee1a44d0861c, GetVariableByName, GetVariabl
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionConstantBuffer.GetVariableByName"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

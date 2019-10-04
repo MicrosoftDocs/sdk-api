@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_co
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_compare"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

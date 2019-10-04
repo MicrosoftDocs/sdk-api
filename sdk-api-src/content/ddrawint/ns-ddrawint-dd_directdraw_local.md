@@ -12,6 +12,8 @@ ms.keywords: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL st
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DIRECTDRAW_LOCAL
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

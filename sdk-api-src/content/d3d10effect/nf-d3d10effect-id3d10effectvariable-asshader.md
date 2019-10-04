@@ -12,6 +12,8 @@ ms.keywords: AsShader, AsShader method [Direct3D 10], AsShader method [Direct3D 
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsShader"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

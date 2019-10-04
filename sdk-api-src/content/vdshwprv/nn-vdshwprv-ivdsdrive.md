@@ -12,6 +12,8 @@ ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],des
 ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsDrive
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

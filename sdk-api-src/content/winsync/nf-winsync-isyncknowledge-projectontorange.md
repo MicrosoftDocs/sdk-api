@@ -12,6 +12,8 @@ ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoRange method, IS
 ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ProjectOntoRange
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

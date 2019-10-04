@@ -12,6 +12,8 @@ ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_CreateDragImage"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

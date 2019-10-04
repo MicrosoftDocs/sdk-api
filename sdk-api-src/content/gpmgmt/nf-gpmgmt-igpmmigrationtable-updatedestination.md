@@ -12,6 +12,8 @@ ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrati
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable.UpdateDestination"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

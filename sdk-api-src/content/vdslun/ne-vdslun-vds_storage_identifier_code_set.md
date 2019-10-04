@@ -12,6 +12,8 @@ ms.keywords: VDSStorageIdCodeSetAscii, VDSStorageIdCodeSetBinary, VDSStorageIdCo
 ms.topic: enum
 f1_keywords:
 - vdslun/VDS_STORAGE_IDENTIFIER_CODE_SET
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media 
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFGetTopoNodeCurrentType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

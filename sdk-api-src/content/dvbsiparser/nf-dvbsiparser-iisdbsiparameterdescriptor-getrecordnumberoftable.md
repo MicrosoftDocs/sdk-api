@@ -12,6 +12,8 @@ ms.keywords: GetRecordNumberOfTable, GetRecordNumberOfTable method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSIParameterDescriptor.GetRecordNumberOfTable"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

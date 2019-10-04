@@ -12,6 +12,8 @@ ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, Ge
 ms.topic: function
 f1_keywords: 
  - "nspapi/GetTypeByName"
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

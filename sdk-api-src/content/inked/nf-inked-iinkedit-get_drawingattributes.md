@@ -12,6 +12,8 @@ ms.keywords: 8f5f00a2-abe1-487e-a067-2b6d929824c7, DrawingAttributes property [T
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.DrawingAttributes"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

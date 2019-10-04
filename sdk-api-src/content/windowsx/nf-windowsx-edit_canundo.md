@@ -12,6 +12,8 @@ ms.keywords: Edit_CanUndo, Edit_CanUndo macro [Windows Controls], _win32_Edit_Ca
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_CanUndo"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

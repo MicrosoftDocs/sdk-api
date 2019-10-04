@@ -12,6 +12,8 @@ ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], 
 ms.topic: interface
 f1_keywords: 
  - "dsadmin/IDsAdminCreateObj"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GdiAlphaBlend, GdiAlphaBlend function [Windows GDI], gdi.gdialphabl
 ms.topic: function
 f1_keywords:
 - wingdi/GdiAlphaBlend
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

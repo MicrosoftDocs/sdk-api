@@ -12,6 +12,8 @@ ms.keywords: "*LPGPOBROWSEINFO, GPHintDomain, GPHintMachine, GPHintOrganizationa
 ms.topic: struct
 f1_keywords: 
  - "gpedit/GPOBROWSEINFO"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

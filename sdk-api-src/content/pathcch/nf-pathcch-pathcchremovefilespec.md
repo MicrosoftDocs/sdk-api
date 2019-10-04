@@ -12,6 +12,8 @@ ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchRemoveFileSpec"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

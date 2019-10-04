@@ -12,6 +12,8 @@ ms.keywords: GetCellCount, GetCellCount method [Windows Controls], GetCellCount 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellCount"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], fs.rd
 ms.topic: struct
 f1_keywords: 
  - "msrdc/RdcNeed"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

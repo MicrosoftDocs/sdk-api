@@ -12,6 +12,8 @@ ms.keywords: ContextCallback, ContextCallback method [COM], ContextCallback meth
 ms.topic: method
 f1_keywords: 
  - "ctxtcall/IContextCallback.ContextCallback"
+dev_langs:
+ - c++
 req.header: ctxtcall.h
 req.include-header: 
 req.target-type: Windows

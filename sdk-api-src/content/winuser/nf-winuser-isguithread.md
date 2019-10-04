@@ -12,6 +12,8 @@ ms.keywords: IsGUIThread, IsGUIThread function [Windows and Messages], _win32_Is
 ms.topic: function
 f1_keywords: 
  - "winuser/IsGUIThread"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

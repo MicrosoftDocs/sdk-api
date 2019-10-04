@@ -12,6 +12,8 @@ ms.keywords: WsGetReaderProperty, WsGetReaderProperty function [Web Services for
 ms.topic: function
 f1_keywords:
 - webservices/WsGetReaderProperty
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

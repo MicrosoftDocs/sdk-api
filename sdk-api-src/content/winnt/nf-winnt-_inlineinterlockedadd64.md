@@ -12,6 +12,8 @@ ms.keywords: InterlockedAdd64, InterlockedAdd64 function, _InlineInterlockedAdd6
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedAdd64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

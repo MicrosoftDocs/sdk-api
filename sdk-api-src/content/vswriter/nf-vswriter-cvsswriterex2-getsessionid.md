@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessi
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx2.GetSessionId"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

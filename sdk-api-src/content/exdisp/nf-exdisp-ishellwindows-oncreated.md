@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWin
 ms.topic: method
 f1_keywords: 
  - "exdisp/IShellWindows.OnCreated"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMTVAudio interface [DirectShow],put_TVAudioMode method, IAMTVAudi
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTVAudio.put_TVAudioMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

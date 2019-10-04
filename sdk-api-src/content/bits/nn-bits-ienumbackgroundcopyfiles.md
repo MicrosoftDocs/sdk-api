@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyFiles, IEnumBackgroundCopyFiles interface [BITS]
 ms.topic: interface
 f1_keywords: 
  - "bits/IEnumBackgroundCopyFiles"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

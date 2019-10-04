@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaThreshold method
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.SetDefaultQuotaThreshold"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

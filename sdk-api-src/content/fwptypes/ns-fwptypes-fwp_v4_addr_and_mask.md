@@ -12,6 +12,8 @@ ms.keywords: FWP_V4_ADDR_AND_MASK, FWP_V4_ADDR_AND_MASK structure [Filtering], f
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWP_V4_ADDR_AND_MASK"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

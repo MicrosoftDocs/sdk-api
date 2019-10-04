@@ -12,6 +12,8 @@ ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], Remo
 ms.topic: function
 f1_keywords: 
  - "wingdi/RemoveFontResource"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

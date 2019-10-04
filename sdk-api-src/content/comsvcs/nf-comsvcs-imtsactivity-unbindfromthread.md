@@ -12,6 +12,8 @@ ms.keywords: IMTSActivity interface [COM+],UnbindFromThread method, IMTSActivity
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMTSActivity.UnbindFromThread"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

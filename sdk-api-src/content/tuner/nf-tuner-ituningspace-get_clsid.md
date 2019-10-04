@@ -12,6 +12,8 @@ ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_CLSID method
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.get_CLSID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

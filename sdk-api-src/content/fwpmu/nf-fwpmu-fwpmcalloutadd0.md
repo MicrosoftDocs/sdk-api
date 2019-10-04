@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcall
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutAdd0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

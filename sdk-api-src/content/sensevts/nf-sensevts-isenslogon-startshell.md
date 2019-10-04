@@ -12,6 +12,8 @@ ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShel
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon.StartShell"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

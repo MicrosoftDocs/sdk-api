@@ -12,6 +12,8 @@ ms.keywords: ITextRange interface [Windows Controls],SetPoint method, ITextRange
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.SetPoint"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

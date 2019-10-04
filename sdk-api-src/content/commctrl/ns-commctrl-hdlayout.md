@@ -12,6 +12,8 @@ ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHD
 ms.topic: struct
 f1_keywords: 
  - "commctrl/HDLAYOUT"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcNsBindingLookupDone, RpcNsBindingLookupDone function [RPC], _rpc
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsBindingLookupDone"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

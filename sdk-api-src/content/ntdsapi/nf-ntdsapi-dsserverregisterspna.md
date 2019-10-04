@@ -12,6 +12,8 @@ ms.keywords: DS_SPN_ADD_SPN_OP, DS_SPN_DELETE_SPN_OP, DS_SPN_REPLACE_SPN_OP, DsS
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsServerRegisterSpn"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

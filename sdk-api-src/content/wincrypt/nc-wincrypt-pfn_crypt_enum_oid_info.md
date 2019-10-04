@@ -12,6 +12,8 @@ ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Securit
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/CRYPT_ENUM_OID_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

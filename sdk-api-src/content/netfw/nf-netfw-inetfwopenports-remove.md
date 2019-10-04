@@ -12,6 +12,8 @@ ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwOpenPorts.Remove"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

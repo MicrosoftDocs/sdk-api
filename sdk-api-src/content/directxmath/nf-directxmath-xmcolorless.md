@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMColorLess, XMColorLess, XMColorLess method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMColorLess"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

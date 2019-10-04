@@ -12,6 +12,8 @@ ms.keywords: PathGradientBrush class [GDI+],SetTransform method, PathGradientBru
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.SetTransform"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

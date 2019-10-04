@@ -12,6 +12,8 @@ ms.keywords: IRunningTask interface [Task Scheduler],Refresh method, IRunningTas
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.Refresh"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapap
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapLock"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

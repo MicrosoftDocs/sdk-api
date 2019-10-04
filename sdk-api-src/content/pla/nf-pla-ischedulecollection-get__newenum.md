@@ -12,6 +12,8 @@ ms.keywords: IScheduleCollection interface [PLA],_NewEnum property, IScheduleCol
 ms.topic: method
 f1_keywords: 
  - "pla/IScheduleCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

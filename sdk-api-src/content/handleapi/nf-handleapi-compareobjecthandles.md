@@ -12,6 +12,8 @@ ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareob
 ms.topic: function
 f1_keywords: 
  - "handleapi/CompareObjectHandles"
+dev_langs:
+ - c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

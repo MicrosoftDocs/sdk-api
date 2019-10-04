@@ -12,6 +12,8 @@ ms.keywords: IUpdateSession3 interface [Windows Update Agent],QueryHistory metho
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSession3.QueryHistory"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

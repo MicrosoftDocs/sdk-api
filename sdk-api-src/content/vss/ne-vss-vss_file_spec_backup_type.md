@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE
 ms.topic: enum
 f1_keywords:
 - vss/VSS_FILE_SPEC_BACKUP_TYPE
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

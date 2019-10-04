@@ -12,6 +12,8 @@ ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipr
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/IpReleaseAddress"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

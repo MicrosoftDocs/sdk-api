@@ -12,6 +12,8 @@ ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server 
 ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenTemplate.CommitAndUpdateDerived
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

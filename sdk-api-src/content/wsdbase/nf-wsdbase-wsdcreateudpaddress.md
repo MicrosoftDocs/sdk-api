@@ -12,6 +12,8 @@ ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudp
 ms.topic: function
 f1_keywords: 
  - "wsdbase/WSDCreateUdpAddress"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

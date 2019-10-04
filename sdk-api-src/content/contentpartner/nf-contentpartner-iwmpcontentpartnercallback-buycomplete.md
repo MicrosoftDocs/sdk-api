@@ -12,6 +12,8 @@ ms.keywords: BuyComplete, BuyComplete method [Windows Media Player], BuyComplete
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.BuyComplete"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

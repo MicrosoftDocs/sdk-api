@@ -12,6 +12,8 @@ ms.keywords: 94925c3c-1326-79c0-a0f6-53b8d6877539, IDirect3DDevice9 interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.SetCurrentTexturePalette"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

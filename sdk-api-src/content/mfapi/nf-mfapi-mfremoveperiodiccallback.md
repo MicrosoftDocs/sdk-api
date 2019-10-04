@@ -12,6 +12,8 @@ ms.keywords: MFRemovePeriodicCallback, MFRemovePeriodicCallback function [Media 
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFRemovePeriodicCallback"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

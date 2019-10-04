@@ -12,6 +12,8 @@ ms.keywords: Draw, Draw method [COM], Draw method [COM],IViewObject interface, I
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.Draw"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

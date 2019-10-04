@@ -12,6 +12,8 @@ ms.keywords: FindProxyForURL, FindProxyForURL method [windows Media Format], Fin
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.FindProxyForURL"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

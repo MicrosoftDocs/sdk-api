@@ -12,6 +12,8 @@ ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFr
 ms.topic: method
 f1_keywords: 
  - "ocidl/ISimpleFrameSite.PreMessageFilter"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

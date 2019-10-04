@@ -12,6 +12,8 @@ ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTimer.CancelTimer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

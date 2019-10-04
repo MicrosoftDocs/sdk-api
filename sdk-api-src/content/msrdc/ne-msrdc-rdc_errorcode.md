@@ -12,6 +12,8 @@ ms.keywords: RDC_Aborted, RDC_ApplicationError, RDC_DataMissingOrCorrupt, RDC_Da
 ms.topic: enum
 f1_keywords: 
  - "msrdc/RDC_ErrorCode"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

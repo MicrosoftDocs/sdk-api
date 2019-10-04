@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyHost method, I
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowConfig.put_HTTPProxyHost"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

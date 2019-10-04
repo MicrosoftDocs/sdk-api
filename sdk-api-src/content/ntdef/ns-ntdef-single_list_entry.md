@@ -12,6 +12,8 @@ ms.keywords: "*PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY struct
 ms.topic: struct
 f1_keywords: 
  - "ntdef/SINGLE_LIST_ENTRY"
+dev_langs:
+ - c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows

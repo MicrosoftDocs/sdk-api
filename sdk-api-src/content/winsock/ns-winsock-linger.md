@@ -12,6 +12,8 @@ ms.keywords: "*LPLINGER, *PLINGER, LINGER, _win32_linger_2, linger, linger struc
 ms.topic: struct
 f1_keywords: 
  - "winsock/linger"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

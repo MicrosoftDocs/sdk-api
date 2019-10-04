@@ -12,6 +12,8 @@ ms.keywords: 41928d0a-e485-4542-860c-5ffd260d3cb8, ICM_GestureOnly, ICM_InkAndGe
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkCollectionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

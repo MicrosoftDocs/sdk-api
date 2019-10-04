@@ -12,6 +12,8 @@ ms.keywords: "*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_
 ms.topic: struct
 f1_keywords: 
  - "wdstci/WDS_TRANSPORTCLIENT_REQUEST"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

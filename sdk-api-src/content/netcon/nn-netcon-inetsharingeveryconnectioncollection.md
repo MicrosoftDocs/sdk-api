@@ -12,6 +12,8 @@ ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCol
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingEveryConnectionCollection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

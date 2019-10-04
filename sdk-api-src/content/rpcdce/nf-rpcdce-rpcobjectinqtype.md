@@ -12,6 +12,8 @@ ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectin
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcObjectInqType"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

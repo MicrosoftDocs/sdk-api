@@ -12,6 +12,8 @@ ms.keywords: "*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windo
 ms.topic: struct
 f1_keywords: 
  - "shobjidl/OVERLAPPED"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

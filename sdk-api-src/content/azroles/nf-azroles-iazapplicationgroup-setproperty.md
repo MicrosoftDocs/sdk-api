@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, 
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.SetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

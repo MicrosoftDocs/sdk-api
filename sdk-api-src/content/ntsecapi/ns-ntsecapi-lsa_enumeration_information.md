@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION, LSA_EN
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/LSA_ENUMERATION_INFORMATION"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

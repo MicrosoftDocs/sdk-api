@@ -12,6 +12,8 @@ ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [
 ms.topic: function
 f1_keywords: 
  - "tokenbinding/TokenBindingGenerateMessage"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

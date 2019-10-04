@@ -12,6 +12,8 @@ ms.keywords: StrStrNIW, StrStrNIW function [Windows Shell], _shell_StrStrNIW, sh
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrStrNIW"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

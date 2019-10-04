@@ -12,6 +12,8 @@ ms.keywords: IDCompositionTarget interface [DirectComposition],SetRoot method, I
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionTarget.SetRoot"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

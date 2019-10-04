@@ -12,6 +12,8 @@ ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services fo
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_ENDPOINT_ADDRESS"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

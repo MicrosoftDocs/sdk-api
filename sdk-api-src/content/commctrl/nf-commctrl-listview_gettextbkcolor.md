@@ -12,6 +12,8 @@ ms.keywords: ListView_GetTextBkColor, ListView_GetTextBkColor macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetTextBkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

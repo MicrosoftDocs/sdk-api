@@ -12,6 +12,8 @@ ms.keywords: '*PDEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_HANDLE
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

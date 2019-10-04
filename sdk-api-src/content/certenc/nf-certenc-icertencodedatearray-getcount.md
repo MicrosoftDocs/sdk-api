@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, G
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeDateArray.GetCount"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

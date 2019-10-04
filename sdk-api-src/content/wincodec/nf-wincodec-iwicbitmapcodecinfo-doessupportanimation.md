@@ -12,6 +12,8 @@ ms.keywords: DoesSupportAnimation, DoesSupportAnimation method [Windows Imaging 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapCodecInfo.DoesSupportAnimation"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup AP
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupQueueDeleteSection"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCO
 ms.topic: struct
 f1_keywords: 
  - "commctrl/COLORMAP"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

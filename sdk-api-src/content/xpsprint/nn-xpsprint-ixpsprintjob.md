@@ -12,6 +12,8 @@ ms.keywords: IXpsPrintJob, IXpsPrintJob interface [Windows GDI], IXpsPrintJob in
 ms.topic: interface
 f1_keywords: 
  - "xpsprint/IXpsPrintJob"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

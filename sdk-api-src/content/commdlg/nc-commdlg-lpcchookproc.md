@@ -12,6 +12,8 @@ ms.keywords: CCHookProc, LPCCHOOKPROC, LPCCHOOKPROC callback, LPCCHOOKPROC callb
 ms.topic: callback
 f1_keywords: 
  - "commdlg/LPCCHOOKPROC"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

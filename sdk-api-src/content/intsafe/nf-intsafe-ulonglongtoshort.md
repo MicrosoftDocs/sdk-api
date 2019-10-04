@@ -12,6 +12,8 @@ ms.keywords: ULongLongToShort, ULongLongToShort function [Windows Shell], intsaf
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongLongToShort"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

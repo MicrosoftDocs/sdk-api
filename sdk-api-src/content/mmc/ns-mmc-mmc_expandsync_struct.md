@@ -12,6 +12,8 @@ ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _slat
 ms.topic: struct
 f1_keywords: 
  - "mmc/MMC_EXPANDSYNC_STRUCT"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO stru
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_COVERPAGE_INFO"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

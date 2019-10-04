@@ -12,6 +12,8 @@ ms.keywords: GetBleedBox, GetBleedBox method [XPS Documents and Packaging], GetB
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPage.GetBleedBox"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

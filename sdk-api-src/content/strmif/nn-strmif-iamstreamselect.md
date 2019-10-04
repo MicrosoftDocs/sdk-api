@@ -12,6 +12,8 @@ ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamS
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMStreamSelect"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

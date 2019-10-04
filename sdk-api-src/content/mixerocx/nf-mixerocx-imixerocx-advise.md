@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMix
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.Advise"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

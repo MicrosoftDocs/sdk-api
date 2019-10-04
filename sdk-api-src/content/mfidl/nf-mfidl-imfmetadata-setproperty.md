@@ -12,6 +12,8 @@ ms.keywords: 416a7fba-506c-405d-a230-7e8a1c801209, IMFMetadata interface [Media 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.SetProperty"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

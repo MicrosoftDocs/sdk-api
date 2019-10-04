@@ -12,6 +12,8 @@ ms.keywords: NetConfigGetAll, NetConfigGetAll function [Network Management], _wi
 ms.topic: function
 f1_keywords: 
  - "lmconfig/NetConfigGetAll"
+dev_langs:
+ - c++
 req.header: lmconfig.h
 req.include-header: 
 req.target-type: Windows

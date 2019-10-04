@@ -12,6 +12,8 @@ ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMeth
 ms.topic: interface
 f1_keywords: 
  - "objidl/ICancelMethodCalls"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

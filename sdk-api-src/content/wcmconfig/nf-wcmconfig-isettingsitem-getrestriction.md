@@ -12,6 +12,8 @@ ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method 
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetRestriction"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIP
 ms.topic: struct
 f1_keywords:
 - evntprov/EVENT_DATA_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

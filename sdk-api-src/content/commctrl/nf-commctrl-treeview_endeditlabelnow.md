@@ -12,6 +12,8 @@ ms.keywords: TreeView_EndEditLabelNow, TreeView_EndEditLabelNow macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_EndEditLabelNow"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

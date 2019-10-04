@@ -12,6 +12,8 @@ ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_Sorte
 ms.topic: macro
 f1_keywords: 
  - "dpa_dsa/DPA_SortedInsertPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

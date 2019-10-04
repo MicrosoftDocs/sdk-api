@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [search], GetValue method [search],INamed
 ms.topic: method
 f1_keywords: 
  - "structuredquery/INamedEntity.GetValue"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

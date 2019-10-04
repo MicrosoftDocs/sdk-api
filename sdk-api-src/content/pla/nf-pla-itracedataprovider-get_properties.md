@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProvider interface [PLA],Properties property, ITraceDataP
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.Properties"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

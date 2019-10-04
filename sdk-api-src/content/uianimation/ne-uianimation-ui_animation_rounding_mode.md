@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_ROUNDING_CEILING, UI_ANIMATION_ROUNDING_FLOOR, UI_ANIM
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_ROUNDING_MODE"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

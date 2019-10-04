@@ -12,6 +12,8 @@ ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Azimuth meth
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSLocator.put_Azimuth"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

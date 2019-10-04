@@ -12,6 +12,8 @@ ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet]
 ms.topic: function
 f1_keywords:
 - wininet/FindNextUrlCacheEntryEx
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

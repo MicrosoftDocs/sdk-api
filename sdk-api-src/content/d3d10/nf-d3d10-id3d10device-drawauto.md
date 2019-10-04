@@ -12,6 +12,8 @@ ms.keywords: 8ce13c14-3a43-9492-8641-4e2c8d9cc273, DrawAuto, DrawAuto method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.DrawAuto"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SNMP_LOG_ERROR, SNMP_LOG_FATAL, SNMP_LOG_SILENT, SNMP_LOG_TRACE, SN
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilDbgPrint"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

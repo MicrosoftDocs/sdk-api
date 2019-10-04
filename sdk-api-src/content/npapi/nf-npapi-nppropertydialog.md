@@ -12,6 +12,8 @@ ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, W
 ms.topic: function
 f1_keywords: 
  - "npapi/NPPropertyDialog"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

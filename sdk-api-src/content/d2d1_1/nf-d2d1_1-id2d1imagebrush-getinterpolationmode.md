@@ -12,6 +12,8 @@ ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetIn
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1ImageBrush.GetInterpolationMode"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

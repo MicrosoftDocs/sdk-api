@@ -12,6 +12,8 @@ ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DI
 ms.topic: function
 f1_keywords:
 - shellapi/SHGetFileInfo
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

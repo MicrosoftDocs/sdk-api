@@ -12,6 +12,8 @@ ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInst
 ms.topic: function
 f1_keywords:
 - lmjoin/NetRequestProvisioningPackageInstall
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

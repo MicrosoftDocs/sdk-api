@@ -12,6 +12,8 @@ ms.keywords: GetAppend, GetAppend method [Audio Devices], GetAppend method [Audi
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.GetAppend"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

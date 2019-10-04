@@ -12,6 +12,8 @@ ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_SIZE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

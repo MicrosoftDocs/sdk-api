@@ -12,6 +12,8 @@ ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

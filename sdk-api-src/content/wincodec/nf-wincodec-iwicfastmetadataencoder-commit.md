@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [W
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICFastMetadataEncoder.Commit"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

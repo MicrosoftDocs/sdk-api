@@ -12,6 +12,8 @@ ms.keywords: Count property [COM+], Count property [COM+],IEventObjectCollection
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectCollection.Count"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

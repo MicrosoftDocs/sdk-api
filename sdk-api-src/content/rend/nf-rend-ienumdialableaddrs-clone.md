@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialab
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDialableAddrs.Clone"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

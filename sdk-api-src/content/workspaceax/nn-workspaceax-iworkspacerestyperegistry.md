@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "workspaceax/IWorkspaceResTypeRegistry"
+dev_langs:
+ - c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

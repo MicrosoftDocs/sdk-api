@@ -12,6 +12,8 @@ ms.keywords: GetEpisodeNumber, GetEpisodeNumber method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSeriesDescriptor.GetEpisodeNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

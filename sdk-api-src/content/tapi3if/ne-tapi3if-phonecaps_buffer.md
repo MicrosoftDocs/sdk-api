@@ -12,6 +12,8 @@ ms.keywords: PCB_DEVSPECIFICBUFFER, PHONECAPS_BUFFER, PHONECAPS_BUFFER enumerati
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONECAPS_BUFFER"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Au
 ms.topic: interface
 f1_keywords: 
  - "audiopolicy/IAudioSessionEnumerator"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

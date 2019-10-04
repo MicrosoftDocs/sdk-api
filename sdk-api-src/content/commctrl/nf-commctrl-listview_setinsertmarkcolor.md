@@ -12,6 +12,8 @@ ms.keywords: ListView_SetInsertMarkColor, ListView_SetInsertMarkColor macro [Win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetInsertMarkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

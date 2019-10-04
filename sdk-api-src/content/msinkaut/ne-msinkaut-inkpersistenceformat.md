@@ -12,6 +12,8 @@ ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSeria
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkPersistenceFormat"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

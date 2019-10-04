@@ -12,6 +12,8 @@ ms.keywords: "*PBTHNS_RESTRICTIONBLOB, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLO
 ms.topic: struct
 f1_keywords: 
  - "ws2bth/BTH_QUERY_SERVICE"
+dev_langs:
+ - c++
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

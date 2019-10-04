@@ -12,6 +12,8 @@ ms.keywords: 2b0ff320-02ce-4b23-ae47-91504c93ac24, DefaultPanel property [Tablet
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.DefaultPanel"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

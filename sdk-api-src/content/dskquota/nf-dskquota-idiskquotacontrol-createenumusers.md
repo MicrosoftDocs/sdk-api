@@ -12,6 +12,8 @@ ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers me
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.CreateEnumUsers"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

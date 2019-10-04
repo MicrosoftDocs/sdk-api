@@ -12,6 +12,8 @@ ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCom
 ms.topic: method
 f1_keywords: 
  - "cmdtree/ICommandTree.FreeCommandTree"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

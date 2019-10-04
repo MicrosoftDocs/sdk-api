@@ -12,6 +12,8 @@ ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callba
 ms.topic: callback
 f1_keywords: 
  - "winnt/SecureMemoryCacheCallback"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

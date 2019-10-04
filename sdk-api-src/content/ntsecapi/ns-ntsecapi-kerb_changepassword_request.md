@@ -12,6 +12,8 @@ ms.keywords: "*PKERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST, KERB_C
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/KERB_CHANGEPASSWORD_REQUEST"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

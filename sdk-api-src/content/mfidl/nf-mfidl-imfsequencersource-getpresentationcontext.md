@@ -12,6 +12,8 @@ ms.keywords: GetPresentationContext, GetPresentationContext method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSequencerSource.GetPresentationContext"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

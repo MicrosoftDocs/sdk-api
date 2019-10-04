@@ -12,6 +12,8 @@ ms.keywords: 57619337-37ad-ca57-755b-df101a510d79, D3D11_FORMAT_SUPPORT, D3D11_F
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_FORMAT_SUPPORT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

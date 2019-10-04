@@ -12,6 +12,8 @@ ms.keywords: GetUsedDataBlocks, GetUsedDataBlocks method [IMAPI], GetUsedDataBlo
 ms.topic: method
 f1_keywords: 
  - "imapi/IJolietDiscMaster.GetUsedDataBlocks"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

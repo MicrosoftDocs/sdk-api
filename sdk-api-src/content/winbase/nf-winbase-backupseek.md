@@ -12,6 +12,8 @@ ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup
 ms.topic: function
 f1_keywords: 
  - "winbase/BackupSeek"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

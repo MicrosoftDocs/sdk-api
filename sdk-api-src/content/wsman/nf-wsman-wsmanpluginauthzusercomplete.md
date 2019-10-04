@@ -12,6 +12,8 @@ ms.keywords: WSManPluginAuthzUserComplete, WSManPluginAuthzUserComplete function
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginAuthzUserComplete
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

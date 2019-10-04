@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows U
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateCollection.Clear"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

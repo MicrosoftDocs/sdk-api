@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_29e89f4b-f002-4493-a1dc-5dba3150a7f8.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_DEVICE_INFO_TYPE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

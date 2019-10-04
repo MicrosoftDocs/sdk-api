@@ -12,6 +12,8 @@ ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+], Inst
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/InstalledFontCollection"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

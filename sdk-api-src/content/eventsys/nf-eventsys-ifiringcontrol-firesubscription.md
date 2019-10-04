@@ -12,6 +12,8 @@ ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription 
 ms.topic: method
 f1_keywords: 
  - "eventsys/IFiringControl.FireSubscription"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

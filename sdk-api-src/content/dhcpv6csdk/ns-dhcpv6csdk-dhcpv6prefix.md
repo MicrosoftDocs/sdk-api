@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCPV6Prefix, *PDHCPV6Prefix, DHCPV6Prefix, DHCPV6Prefix struct
 ms.topic: struct
 f1_keywords: 
  - "dhcpv6csdk/DHCPV6Prefix"
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK ca
 ms.topic: callback
 f1_keywords:
 - netsh/NS_OSVERSIONCHECK
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

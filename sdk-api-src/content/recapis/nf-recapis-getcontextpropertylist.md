@@ -12,6 +12,8 @@ ms.keywords: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6, GetContextPropertyList, GetCo
 ms.topic: function
 f1_keywords: 
  - "recapis/GetContextPropertyList"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

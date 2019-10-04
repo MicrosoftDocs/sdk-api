@@ -12,6 +12,8 @@ ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinI
 ms.topic: function
 f1_keywords: 
  - "wininet/HttpOpenRequest"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

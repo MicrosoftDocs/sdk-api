@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_SELECT_CRITERIA, CERT_SELECT_BY_ENHKEY_USAGE, CERT_SELECT_B
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_SELECT_CRITERIA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

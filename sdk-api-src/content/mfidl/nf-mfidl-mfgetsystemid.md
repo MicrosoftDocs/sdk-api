@@ -12,6 +12,8 @@ ms.keywords: MFGetSystemId, MFGetSystemId function [Media Foundation], mf.mfgets
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFGetSystemId"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

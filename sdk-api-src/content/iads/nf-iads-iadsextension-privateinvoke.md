@@ -12,6 +12,8 @@ ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPAT
 ms.topic: method
 f1_keywords: 
  - "iads/IADsExtension.PrivateInvoke"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

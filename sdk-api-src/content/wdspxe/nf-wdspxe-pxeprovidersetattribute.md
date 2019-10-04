@@ -12,6 +12,8 @@ ms.keywords: PXE_PROV_ATTR_FILTER, PXE_PROV_ATTR_FILTER_IPV6, PXE_PROV_ATTR_IPV6
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeProviderSetAttribute"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

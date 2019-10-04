@@ -12,6 +12,8 @@ ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection functi
 ms.topic: function
 f1_keywords: 
  - "wow64apiset/Wow64RevertWow64FsRedirection"
+dev_langs:
+ - c++
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows

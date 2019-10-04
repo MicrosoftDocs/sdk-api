@@ -12,6 +12,8 @@ ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalI
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMarshal.MarshalInterface"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDeviceStreamCount, GetDeviceStreamCount method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.GetDeviceStreamCount"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

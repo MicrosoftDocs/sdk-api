@@ -12,6 +12,8 @@ ms.keywords: 033ea7d4-d669-497b-be37-a8c9a6584209, IMFByteStreamBuffering interf
 ms.topic: method
 f1_keywords:
 - mfidl/IMFByteStreamBuffering.SetBufferingParams
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

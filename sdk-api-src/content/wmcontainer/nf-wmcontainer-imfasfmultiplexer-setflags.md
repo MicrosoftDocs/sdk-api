@@ -12,6 +12,8 @@ ms.keywords: IMFASFMultiplexer interface [Media Foundation],SetFlags method, IMF
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMultiplexer.SetFlags"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

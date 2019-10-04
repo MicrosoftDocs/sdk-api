@@ -12,6 +12,8 @@ ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbFrequencyListDescriptor.GetCodingType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

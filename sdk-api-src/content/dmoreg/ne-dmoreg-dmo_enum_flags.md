@@ -12,6 +12,8 @@ ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration
 ms.topic: enum
 f1_keywords: 
  - "dmoreg/DMO_ENUM_FLAGS"
+dev_langs:
+ - c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows

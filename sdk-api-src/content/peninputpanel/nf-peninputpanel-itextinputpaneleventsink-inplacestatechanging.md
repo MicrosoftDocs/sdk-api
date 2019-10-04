@@ -12,6 +12,8 @@ ms.keywords: 866fcd8d-775c-4dc0-824f-6817767247d9, ITextInputPanelEventSink inte
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink.InPlaceStateChanging"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

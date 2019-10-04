@@ -12,6 +12,8 @@ ms.keywords: "*LPSCARD_READERSTATEA, *PSCARD_READERSTATEA, LPSCARD_READERSTATE, 
 ms.topic: struct
 f1_keywords: 
  - "winscard/SCARD_READERSTATE"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

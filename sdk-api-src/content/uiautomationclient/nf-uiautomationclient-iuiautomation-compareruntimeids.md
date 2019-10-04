@@ -12,6 +12,8 @@ ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility]
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.CompareRuntimeIds"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

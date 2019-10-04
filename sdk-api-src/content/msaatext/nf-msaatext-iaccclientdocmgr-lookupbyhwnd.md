@@ -12,6 +12,8 @@ ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByHWND met
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccClientDocMgr.LookupByHWND"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

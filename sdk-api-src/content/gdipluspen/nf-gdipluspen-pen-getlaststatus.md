@@ -12,6 +12,8 @@ ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [G
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetLastStatus"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

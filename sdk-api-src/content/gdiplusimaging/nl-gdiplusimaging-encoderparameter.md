@@ -12,6 +12,8 @@ ms.keywords: EncoderParameter, EncoderParameter class [GDI+], EncoderParameter c
 ms.topic: class
 f1_keywords: 
  - "gdiplusimaging/EncoderParameter"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

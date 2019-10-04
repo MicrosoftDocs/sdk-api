@@ -12,6 +12,8 @@ ms.keywords: '*PDDLOCKININFO, DDLOCKININFO, DDLOCKININFO structure [Display Devi
 ms.topic: struct
 f1_keywords:
 - dxmini/DDLOCKININFO
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

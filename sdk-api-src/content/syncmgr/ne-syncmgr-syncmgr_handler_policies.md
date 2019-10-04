@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_HANDLER_POLICIES, SYNCMGR_HANDLER_POLICIES enumeration [Win
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_HANDLER_POLICIES"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

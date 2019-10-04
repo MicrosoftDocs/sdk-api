@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method, GetType method,ID3D12ShaderReflectionVaria
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionVariable.GetType"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

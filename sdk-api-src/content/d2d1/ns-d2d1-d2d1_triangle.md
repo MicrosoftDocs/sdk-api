@@ -12,6 +12,8 @@ ms.keywords: D2D1_TRIANGLE, D2D1_TRIANGLE structure [Direct2D], d2d1/D2D1_TRIANG
 ms.topic: struct
 f1_keywords: 
  - "d2d1/D2D1_TRIANGLE"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

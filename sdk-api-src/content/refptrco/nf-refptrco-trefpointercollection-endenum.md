@@ -12,6 +12,8 @@ ms.keywords: EndEnum, EndEnum method [Windows Management Instrumentation], EndEn
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.EndEnum"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

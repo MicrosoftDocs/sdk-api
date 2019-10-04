@@ -12,6 +12,8 @@ ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEn
 ms.topic: callback
 f1_keywords: 
  - "ras/RasCustomDeleteEntryNotify"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

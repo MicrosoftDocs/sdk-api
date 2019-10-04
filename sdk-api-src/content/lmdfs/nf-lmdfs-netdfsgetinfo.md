@@ -12,6 +12,8 @@ ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetIn
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsGetInfo
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

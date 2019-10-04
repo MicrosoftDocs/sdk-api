@@ -12,6 +12,8 @@ ms.keywords: WSD_HANDLER_CONTEXT, WSD_HANDLER_CONTEXT structure, ncd.wsd_handler
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_HANDLER_CONTEXT"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

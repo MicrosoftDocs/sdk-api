@@ -12,6 +12,8 @@ ms.keywords: IFaxJobs interface [Fax Service],get_Count method, IFaxJobs.get_Cou
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJobs.get_Count"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

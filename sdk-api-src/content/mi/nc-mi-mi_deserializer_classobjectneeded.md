@@ -12,6 +12,8 @@ ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeede
 ms.topic: callback
 f1_keywords:
 - mi/MI_Deserializer_ClassObjectNeeded
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

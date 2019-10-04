@@ -12,6 +12,8 @@ ms.keywords: MapWindowPoints, MapWindowPoints function [Windows GDI], _win32_Map
 ms.topic: function
 f1_keywords: 
  - "winuser/MapWindowPoints"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManage
 ms.topic: interface
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthManager"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

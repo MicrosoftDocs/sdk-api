@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Group Policy], Delete method [Group Policy],
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.Delete"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

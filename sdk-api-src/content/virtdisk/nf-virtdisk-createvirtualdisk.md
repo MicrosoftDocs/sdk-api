@@ -12,6 +12,8 @@ ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateV
 ms.topic: function
 f1_keywords:
 - virtdisk/CreateVirtualDisk
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

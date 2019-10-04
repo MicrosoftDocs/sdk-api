@@ -12,6 +12,8 @@ ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDe
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICDecodeOptions"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

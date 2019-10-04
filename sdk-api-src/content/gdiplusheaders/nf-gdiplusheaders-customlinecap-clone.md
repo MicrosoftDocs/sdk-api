@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],CustomLineCap class
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

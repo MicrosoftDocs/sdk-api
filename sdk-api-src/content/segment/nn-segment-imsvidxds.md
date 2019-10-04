@@ -12,6 +12,8 @@ ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidX
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidXDS"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

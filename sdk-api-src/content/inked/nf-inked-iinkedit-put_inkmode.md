@@ -12,6 +12,8 @@ ms.keywords: 0e395907-108b-40cf-819b-65a34e4ffc4d, Disabled, IInkEdit interface 
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.InkMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WCM_TIME_INTERVAL, WCM_TIME_INTERVAL structure [Windows Connection 
 ms.topic: struct
 f1_keywords: 
  - "wcmapi/WCM_TIME_INTERVAL"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

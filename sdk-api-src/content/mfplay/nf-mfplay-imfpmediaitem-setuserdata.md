@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaItem interface [Media Foundation],SetUserData method, IMFP
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.SetUserData"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallbac
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSensorActivitiesReportCallback"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, 
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchProtocolThreadContext.ThreadIdle"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

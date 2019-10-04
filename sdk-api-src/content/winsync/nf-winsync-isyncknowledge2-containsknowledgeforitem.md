@@ -12,6 +12,8 @@ ms.keywords: ContainsKnowledgeForItem, ContainsKnowledgeForItem method [Windows 
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.ContainsKnowledgeForItem"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

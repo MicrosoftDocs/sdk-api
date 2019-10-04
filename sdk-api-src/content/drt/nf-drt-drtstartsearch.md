@@ -12,6 +12,8 @@ ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtS
 ms.topic: function
 f1_keywords: 
  - "drt/DrtStartSearch"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

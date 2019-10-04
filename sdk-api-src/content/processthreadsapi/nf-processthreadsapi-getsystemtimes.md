@@ -12,6 +12,8 @@ ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, proce
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/GetSystemTimes"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetFormatFlags, SetFormatFlags method [GDI+], SetFormatFlags method
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.SetFormatFlags"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

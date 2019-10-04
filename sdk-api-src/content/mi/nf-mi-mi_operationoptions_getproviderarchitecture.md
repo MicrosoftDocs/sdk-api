@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_GetProviderArchitecture, MI_OperationOptions_Ge
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetProviderArchitecture
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MBN_PROVIDERID_LEN, MBN_PROVIDERNAME_LEN, MBN_PROVIDER_CONSTANTS, M
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_PROVIDER_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

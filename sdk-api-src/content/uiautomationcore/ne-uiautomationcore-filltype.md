@@ -12,6 +12,8 @@ ms.keywords: FillType, FillType enumeration [Windows Accessibility], FillType_Co
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/FillType"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

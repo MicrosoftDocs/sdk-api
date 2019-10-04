@@ -12,6 +12,8 @@ ms.keywords: DVD_AUDIO_CAPS_AC3, DVD_AUDIO_CAPS_DTS, DVD_AUDIO_CAPS_LPCM, DVD_AU
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_DECODER_CAPS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

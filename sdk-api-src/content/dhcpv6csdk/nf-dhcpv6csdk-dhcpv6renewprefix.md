@@ -12,6 +12,8 @@ ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6re
 ms.topic: function
 f1_keywords:
 - dhcpv6csdk/Dhcpv6RenewPrefix
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

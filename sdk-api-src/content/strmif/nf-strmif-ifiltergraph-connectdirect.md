@@ -12,6 +12,8 @@ ms.keywords: ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect met
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterGraph.ConnectDirect"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

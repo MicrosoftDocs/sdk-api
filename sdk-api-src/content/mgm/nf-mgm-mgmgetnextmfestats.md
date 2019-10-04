@@ -12,6 +12,8 @@ ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetNextMfeStats, MgmGetNextMfe
 ms.topic: function
 f1_keywords:
 - mgm/MgmGetNextMfeStats
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMeterChannelCount, GetMeterChannelCount method [Core Audio], Get
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamMeter.GetMeterChannelCount"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

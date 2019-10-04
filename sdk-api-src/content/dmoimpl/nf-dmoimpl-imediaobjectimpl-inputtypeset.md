@@ -12,6 +12,8 @@ ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMedia
 ms.topic: method
 f1_keywords: 
  - "dmoimpl/IMediaObjectImpl.InputTypeSet"
+dev_langs:
+ - c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows

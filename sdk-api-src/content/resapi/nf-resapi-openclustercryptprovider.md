@@ -12,6 +12,8 @@ ms.keywords: OpenClusterCryptProvider, OpenClusterCryptProvider function [Failov
 ms.topic: function
 f1_keywords: 
  - "resapi/OpenClusterCryptProvider"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

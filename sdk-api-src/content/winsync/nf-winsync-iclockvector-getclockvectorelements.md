@@ -12,6 +12,8 @@ ms.keywords: GetClockVectorElements, GetClockVectorElements method [Windows Sync
 ms.topic: method
 f1_keywords: 
  - "winsync/IClockVector.GetClockVectorElements"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPl
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.TabletRemoved"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

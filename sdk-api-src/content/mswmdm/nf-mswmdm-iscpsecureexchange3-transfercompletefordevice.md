@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],Transf
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureExchange3.TransferCompleteForDevice"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFMediaError interface [Media Foundation],SetExtendedErrorCode met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaError.SetExtendedErrorCode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

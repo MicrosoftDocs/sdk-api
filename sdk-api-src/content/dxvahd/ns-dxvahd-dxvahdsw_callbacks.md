@@ -12,6 +12,8 @@ ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation]
 ms.topic: struct
 f1_keywords: 
  - "dxvahd/DXVAHDSW_CALLBACKS"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

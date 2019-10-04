@@ -12,6 +12,8 @@ ms.keywords: GetLanguageID, GetLanguageID method [Windows Controls], GetLanguage
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetLanguageID"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

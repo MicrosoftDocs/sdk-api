@@ -12,6 +12,8 @@ ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Netw
 ms.topic: function
 f1_keywords:
 - lmwksta/NetWkstaSetInfo
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

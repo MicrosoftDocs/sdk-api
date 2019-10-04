@@ -12,6 +12,8 @@ ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_
 ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_VA_SPACE_ENTRY
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

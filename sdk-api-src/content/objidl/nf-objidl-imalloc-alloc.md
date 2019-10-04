@@ -12,6 +12,8 @@ ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IM
 ms.topic: method
 f1_keywords: 
  - "objidl/IMalloc.Alloc"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

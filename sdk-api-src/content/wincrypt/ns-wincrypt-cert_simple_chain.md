@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN, CERT_SIMPLE_CHAIN structur
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_SIMPLE_CHAIN
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

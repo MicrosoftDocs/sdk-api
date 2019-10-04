@@ -12,6 +12,8 @@ ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interf
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRemoteDesktopPlugin.UpdateTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

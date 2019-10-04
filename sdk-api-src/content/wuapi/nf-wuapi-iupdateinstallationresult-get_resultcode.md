@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],ResultCo
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstallationResult.ResultCode"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

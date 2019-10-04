@@ -12,6 +12,8 @@ ms.keywords: RM_SHUTDOWN_TYPE, RmForceShutdown, RmShutdownOnlyRegistered, _RM_SH
 ms.topic: enum
 f1_keywords: 
  - "restartmanager/RM_SHUTDOWN_TYPE"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

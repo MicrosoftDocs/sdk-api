@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEDEVSTATUS, LINEDEVSTATUS, LINEDEVSTATUS structure [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEDEVSTATUS"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [
 ms.topic: function
 f1_keywords: 
  - "wintrust/OpenPersonalTrustDBDialogEx"
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

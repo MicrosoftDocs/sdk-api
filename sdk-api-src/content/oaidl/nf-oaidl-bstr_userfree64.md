@@ -12,6 +12,8 @@ ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bst
 ms.topic: function
 f1_keywords: 
  - "oaidl/BSTR_UserFree64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

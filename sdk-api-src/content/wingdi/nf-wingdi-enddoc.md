@@ -12,6 +12,8 @@ ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, w
 ms.topic: function
 f1_keywords: 
  - "wingdi/EndDoc"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PINSPECT_HSTRING_CALLBACK, PINSPECT_HSTRING_CALLBACK function, PINS
 ms.topic: callback
 f1_keywords: 
  - "winstring/PINSPECT_HSTRING_CALLBACK"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

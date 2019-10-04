@@ -12,6 +12,8 @@ ms.keywords: IEnumPluggableSuperclassInfo, IEnumPluggableSuperclassInfo interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/IEnumPluggableSuperclassInfo"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

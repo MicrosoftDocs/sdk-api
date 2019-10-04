@@ -12,6 +12,8 @@ ms.keywords: "*PCHANNEL_PDU_HEADER, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANN
 ms.topic: struct
 f1_keywords: 
  - "pchannel/CHANNEL_PDU_HEADER"
+dev_langs:
+ - c++
 req.header: pchannel.h
 req.include-header: 
 req.target-type: Windows

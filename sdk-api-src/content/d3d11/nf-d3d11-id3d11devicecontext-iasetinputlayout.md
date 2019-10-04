@@ -12,6 +12,8 @@ ms.keywords: IASetInputLayout, IASetInputLayout method [Direct3D 11], IASetInput
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.IASetInputLayout"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

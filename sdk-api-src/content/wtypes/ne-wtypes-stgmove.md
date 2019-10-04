@@ -12,6 +12,8 @@ ms.keywords: STGMOVE, STGMOVE enumeration [Structured Storage], STGMOVE_COPY, ST
 ms.topic: enum
 f1_keywords: 
  - "wtypes/STGMOVE"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

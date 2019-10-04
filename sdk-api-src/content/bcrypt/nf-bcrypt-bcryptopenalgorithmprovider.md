@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptOpenAlgorithmProvider"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

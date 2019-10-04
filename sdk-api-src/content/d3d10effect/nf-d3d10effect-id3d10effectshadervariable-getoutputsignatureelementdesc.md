@@ -12,6 +12,8 @@ ms.keywords: 099e180b-e0ef-fb4c-2ecb-2e42899814e8, GetOutputSignatureElementDesc
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderVariable.GetOutputSignatureElementDesc"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

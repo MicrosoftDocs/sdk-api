@@ -12,6 +12,8 @@ ms.keywords: WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCSetProviderInfo
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

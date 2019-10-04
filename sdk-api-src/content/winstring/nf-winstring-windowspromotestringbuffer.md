@@ -12,6 +12,8 @@ ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Wi
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsPromoteStringBuffer"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

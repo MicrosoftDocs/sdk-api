@@ -12,6 +12,8 @@ ms.keywords: GraphCreationPreRender, GraphCreationPreRender method [Windows Medi
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPGraphCreation.GraphCreationPreRender"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFileBasedLogInit interface [COM],InitNew method, IFileBasedLogInit
 ms.topic: method
 f1_keywords: 
  - "txlogpub/IFileBasedLogInit.InitNew"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

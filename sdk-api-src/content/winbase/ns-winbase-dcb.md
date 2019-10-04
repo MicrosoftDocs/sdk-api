@@ -12,6 +12,8 @@ ms.keywords: "*LPDCB, CBR_110, CBR_115200, CBR_1200, CBR_128000, CBR_14400, CBR_
 ms.topic: struct
 f1_keywords: 
  - "winbase/DCB"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineNumber property,
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.LineNumber"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

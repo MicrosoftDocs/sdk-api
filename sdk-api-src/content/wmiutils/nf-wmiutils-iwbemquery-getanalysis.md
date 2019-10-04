@@ -12,6 +12,8 @@ ms.keywords: GetAnalysis, GetAnalysis method [Windows Management Instrumentation
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemQuery.GetAnalysis"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PNET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS en
 ms.topic: enum
 f1_keywords: 
  - "ifdef/NET_IF_ADMIN_STATUS"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

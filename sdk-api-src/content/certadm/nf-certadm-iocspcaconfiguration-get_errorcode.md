@@ -12,6 +12,8 @@ ms.keywords: ErrorCode property [Security], ErrorCode property [Security],IOCSPC
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.ErrorCode"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

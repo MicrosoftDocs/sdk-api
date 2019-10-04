@@ -12,6 +12,8 @@ ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property 
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.CoverpageSubject"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsi
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsIscsiPortalGroup.GetTarget"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

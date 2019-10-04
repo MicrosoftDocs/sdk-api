@@ -12,6 +12,8 @@ ms.keywords: DXVACompBufferInfo, DXVACompBufferInfo structure [Media Foundation]
 ms.topic: struct
 f1_keywords: 
  - "dxva9typ/DXVACompBufferInfo"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FwpmSystemPortsSubscribe0, FwpmSystemPortsSubscribe0 function [Filt
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmSystemPortsSubscribe0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

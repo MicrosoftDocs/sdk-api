@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],FreeExtra m
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.FreeExtra"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

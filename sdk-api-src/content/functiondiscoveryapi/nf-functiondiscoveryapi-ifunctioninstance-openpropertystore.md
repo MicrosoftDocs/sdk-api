@@ -12,6 +12,8 @@ ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInst
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstance.OpenPropertyStore"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

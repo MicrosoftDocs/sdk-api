@@ -12,6 +12,8 @@ ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_Color
 ms.topic: function
 f1_keywords: 
  - "shlwapi/ColorRGBToHLS"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

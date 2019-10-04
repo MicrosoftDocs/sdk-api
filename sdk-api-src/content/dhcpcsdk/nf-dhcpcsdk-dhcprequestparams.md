@@ -12,6 +12,8 @@ ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequ
 ms.topic: function
 f1_keywords: 
  - "dhcpcsdk/DhcpRequestParams"
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

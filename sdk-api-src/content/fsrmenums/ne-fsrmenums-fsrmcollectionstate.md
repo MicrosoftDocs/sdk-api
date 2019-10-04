@@ -12,6 +12,8 @@ ms.keywords: FsrmCollectionState, FsrmCollectionState enumeration [File Server R
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmCollectionState"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

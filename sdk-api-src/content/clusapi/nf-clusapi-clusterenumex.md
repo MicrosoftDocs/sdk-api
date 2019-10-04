@@ -12,6 +12,8 @@ ms.keywords: ClusterEnumEx, ClusterEnumEx function [Failover Cluster], PCLUSAPI_
 ms.topic: function
 f1_keywords:
 - clusapi/ClusterEnumEx
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

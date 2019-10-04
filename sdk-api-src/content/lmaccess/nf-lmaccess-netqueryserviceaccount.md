@@ -12,6 +12,8 @@ ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security],
 ms.topic: function
 f1_keywords:
 - lmaccess/NetQueryServiceAccount
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

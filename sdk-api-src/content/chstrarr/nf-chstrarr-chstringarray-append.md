@@ -12,6 +12,8 @@ ms.keywords: Append, Append method [Windows Management Instrumentation], Append 
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.Append"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDISCDLGSTRUCTW, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/DISCDLGSTRUCT"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

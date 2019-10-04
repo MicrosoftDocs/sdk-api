@@ -12,6 +12,8 @@ ms.keywords: WSD_UNKNOWN_LOOKUP, WSD_UNKNOWN_LOOKUP structure, ncd.wsd_unknown_l
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_UNKNOWN_LOOKUP
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

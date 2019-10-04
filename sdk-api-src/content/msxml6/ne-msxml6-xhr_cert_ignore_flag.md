@@ -12,6 +12,8 @@ ms.keywords: XHR_CERT_IGNORE_ALL_SERVER_ERRORS, XHR_CERT_IGNORE_CERT_CN_INVALID,
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_CERT_IGNORE_FLAG"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

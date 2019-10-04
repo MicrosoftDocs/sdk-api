@@ -12,6 +12,8 @@ ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResul
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFAsyncResult"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

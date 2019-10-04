@@ -12,6 +12,8 @@ ms.keywords: AzRole object [Security],MembersName property, IAzRole interface [S
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRole.MembersName"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0301706b-6d3e-4fe4-af87-764b1c959707, IInkLineInfo interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.SetCandidate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

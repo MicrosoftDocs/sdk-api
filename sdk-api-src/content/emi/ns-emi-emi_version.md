@@ -12,6 +12,8 @@ ms.keywords: EMI_VERSION, EMI_VERSION structure [Power Metering and Budgeting De
 ms.topic: struct
 f1_keywords: 
  - "emi/EMI_VERSION"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

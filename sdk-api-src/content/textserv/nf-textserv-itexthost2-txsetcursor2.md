@@ -12,6 +12,8 @@ ms.keywords: ITextHost2 interface [Windows Controls],TxSetCursor2 method, ITextH
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost2.TxSetCursor2"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopology.GetNodeByID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

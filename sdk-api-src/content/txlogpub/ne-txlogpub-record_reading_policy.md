@@ -12,6 +12,8 @@ ms.keywords: RECORD_READING_POLICY, RECORD_READING_POLICY enumeration [COM], REC
 ms.topic: enum
 f1_keywords: 
  - "txlogpub/RECORD_READING_POLICY"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

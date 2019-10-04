@@ -12,6 +12,8 @@ ms.keywords: GetMonitorDisplayAreaSize, GetMonitorDisplayAreaSize function [Moni
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

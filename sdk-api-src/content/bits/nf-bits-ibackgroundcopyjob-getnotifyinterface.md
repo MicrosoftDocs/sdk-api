@@ -12,6 +12,8 @@ ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInte
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetNotifyInterface"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

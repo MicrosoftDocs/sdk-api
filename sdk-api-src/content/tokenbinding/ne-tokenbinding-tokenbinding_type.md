@@ -12,6 +12,8 @@ ms.keywords: TOKENBINDING_TYPE, TOKENBINDING_TYPE enumeration [Security], TOKENB
 ms.topic: enum
 f1_keywords: 
  - "tokenbinding/TOKENBINDING_TYPE"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

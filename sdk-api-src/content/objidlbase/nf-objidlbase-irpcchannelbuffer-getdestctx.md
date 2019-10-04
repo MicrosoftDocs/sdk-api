@@ -12,6 +12,8 @@ ms.keywords: GetDestCtx, GetDestCtx method [COM], GetDestCtx method [COM],IRpcCh
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IRpcChannelBuffer.GetDestCtx"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

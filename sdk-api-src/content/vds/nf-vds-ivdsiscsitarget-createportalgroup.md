@@ -12,6 +12,8 @@ ms.keywords: CreatePortalGroup, CreatePortalGroup method [VDS], CreatePortalGrou
 ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiTarget.CreatePortalGroup
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

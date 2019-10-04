@@ -12,6 +12,8 @@ ms.keywords: CDBOSC_KILLFOCUS, CDBOSC_RENAME, CDBOSC_SELCHANGE, CDBOSC_SETFOCUS,
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser.OnStateChange"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

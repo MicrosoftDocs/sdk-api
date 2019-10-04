@@ -12,6 +12,8 @@ ms.keywords: IQueryParser interface [search],Parse method, IQueryParser.Parse, I
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParser.Parse"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

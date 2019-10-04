@@ -12,6 +12,8 @@ ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoCo
 ms.topic: function
 f1_keywords: 
  - "ole2/OleDoAutoConvert"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateBitmapFromHBITMAP, CreateBitmapFromHBITMAP method [Windows Im
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateBitmapFromHBITMAP"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPWAVEHDR, *NPWAVEHDR, *PWAVEHDR, LPWAVEHDR, LPWAVEHDR structure 
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/WAVEHDR"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

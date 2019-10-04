@@ -12,6 +12,8 @@ ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], Bui
 ms.topic: function
 f1_keywords: 
  - "aclapi/BuildTrusteeWithName"
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

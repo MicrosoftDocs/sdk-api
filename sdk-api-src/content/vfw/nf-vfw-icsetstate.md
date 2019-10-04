@@ -12,6 +12,8 @@ ms.keywords: ICSetState, ICSetState macro [Windows Multimedia], _win32_ICSetStat
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICSetState"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

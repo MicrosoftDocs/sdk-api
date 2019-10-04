@@ -12,6 +12,8 @@ ms.keywords: EcOpenSubscription, EcOpenSubscription function, evcoll/EcOpenSubsc
 ms.topic: function
 f1_keywords: 
  - "evcoll/EcOpenSubscription"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

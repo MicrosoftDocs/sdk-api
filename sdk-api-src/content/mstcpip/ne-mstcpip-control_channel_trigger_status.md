@@ -12,6 +12,8 @@ ms.keywords: '*PCONTROL_CHANNEL_TRIGGER_STATUS, CONTROL_CHANNEL_TRIGGER_STATUS, 
 ms.topic: enum
 f1_keywords:
 - mstcpip/CONTROL_CHANNEL_TRIGGER_STATUS
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

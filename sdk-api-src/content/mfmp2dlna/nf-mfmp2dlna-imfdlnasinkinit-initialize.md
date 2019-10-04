@@ -12,6 +12,8 @@ ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfmp2dlna/IMFDLNASinkInit.Initialize"
+dev_langs:
+ - c++
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows

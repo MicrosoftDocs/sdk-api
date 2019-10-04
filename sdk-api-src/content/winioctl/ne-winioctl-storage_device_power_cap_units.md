@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, 
 ms.topic: enum
 f1_keywords:
 - winioctl/STORAGE_DEVICE_POWER_CAP_UNITS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

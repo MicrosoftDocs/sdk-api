@@ -12,6 +12,8 @@ ms.keywords: ITfUIElementSink interface [Text Services Framework],UpdateUIElemen
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElementSink.UpdateUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

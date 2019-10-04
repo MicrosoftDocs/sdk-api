@@ -12,6 +12,8 @@ ms.keywords: ActivateLanguageProfile, ActivateLanguageProfile method [Text Servi
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.ActivateLanguageProfile"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

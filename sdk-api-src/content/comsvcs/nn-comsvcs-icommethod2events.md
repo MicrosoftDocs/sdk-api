@@ -12,6 +12,8 @@ ms.keywords: IComMethod2Events, IComMethod2Events interface [COM+], IComMethod2E
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComMethod2Events"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: COPP_ProtectionStandard_ARIBTRB15_1125i, COPP_ProtectionStandard_AR
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_TVProtectionStandard"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

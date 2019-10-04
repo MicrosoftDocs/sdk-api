@@ -12,6 +12,8 @@ ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applic
 ms.topic: macro
 f1_keywords: 
  - "winnt/SUBLANGID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RADIUS_DATA_TYPE, RADIUS_DATA_TYPE enumeration [Network Policy Serv
 ms.topic: enum
 f1_keywords:
 - authif/RADIUS_DATA_TYPE
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

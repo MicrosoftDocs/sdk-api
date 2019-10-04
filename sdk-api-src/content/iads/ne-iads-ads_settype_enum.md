@@ -12,6 +12,8 @@ ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADS
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_SETTYPE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

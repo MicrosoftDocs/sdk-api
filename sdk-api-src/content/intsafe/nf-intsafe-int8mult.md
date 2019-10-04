@@ -12,6 +12,8 @@ ms.keywords: Int8Mult, Int8Mult function [Windows Shell], intsafe/Int8Mult, shel
 ms.topic: function
 f1_keywords: 
  - "intsafe/Int8Mult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

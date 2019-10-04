@@ -12,6 +12,8 @@ ms.keywords: CreateServiceForApplication, CreateServiceForApplication method [CO
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.CreateServiceForApplication"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [
 ms.topic: struct
 f1_keywords:
 - nb30/FIND_NAME_BUFFER
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

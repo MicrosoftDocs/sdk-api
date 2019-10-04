@@ -12,6 +12,8 @@ ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and manageme
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackageInfo"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

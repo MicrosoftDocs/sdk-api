@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_L
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptFinalizeKey"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

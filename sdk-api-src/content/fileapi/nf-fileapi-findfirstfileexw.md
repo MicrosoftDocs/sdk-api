@@ -12,6 +12,8 @@ ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FIND_FIRST_EX_LARGE_FETCH, FIND_FIRST
 ms.topic: function
 f1_keywords:
 - fileapi/FindFirstFileEx
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 951d74df-11f8-4623-a81b-63e632f80d0e, MFNetCredentialManagerGetPara
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MFNetCredentialManagerGetParam"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

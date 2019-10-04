@@ -12,6 +12,8 @@ ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], Enum
 ms.topic: function
 f1_keywords: 
  - "wingdi/EnumFontFamiliesEx"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

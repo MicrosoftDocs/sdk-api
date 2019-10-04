@@ -12,6 +12,8 @@ ms.keywords: 2e86399d-6be5-f4d4-507f-83c86d62cf4d, GetVariableByIndex, GetVariab
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetVariableByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDuplicateDiskSpaceList"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_COUNTERSET_REG_INFO, PERF_COUNTERSET_INSTANCE_AGGREGATE, PE
 ms.topic: struct
 f1_keywords:
 - perflib/PERF_COUNTERSET_REG_INFO
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

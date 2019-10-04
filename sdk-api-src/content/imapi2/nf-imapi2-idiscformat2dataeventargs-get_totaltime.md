@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_TotalTime method, I
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2DataEventArgs.get_TotalTime"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

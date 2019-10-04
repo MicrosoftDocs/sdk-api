@@ -12,6 +12,8 @@ ms.keywords: ATTACH_VIRTUAL_DISK_VERSION, ATTACH_VIRTUAL_DISK_VERSION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/ATTACH_VIRTUAL_DISK_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

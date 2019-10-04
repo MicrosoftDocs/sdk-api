@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function 
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetMessage"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

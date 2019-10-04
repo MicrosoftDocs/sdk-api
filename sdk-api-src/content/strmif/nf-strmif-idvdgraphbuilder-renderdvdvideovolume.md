@@ -12,6 +12,8 @@ ms.keywords: IDvdGraphBuilder interface [DirectShow],RenderDvdVideoVolume method
 ms.topic: method
 f1_keywords:
 - strmif/IDvdGraphBuilder.RenderDvdVideoVolume
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

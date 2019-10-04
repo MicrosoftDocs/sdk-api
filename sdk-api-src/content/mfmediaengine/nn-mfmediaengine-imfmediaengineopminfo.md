@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineOPMInfo, IMFMediaEngineOPMInfo interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineOPMInfo"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

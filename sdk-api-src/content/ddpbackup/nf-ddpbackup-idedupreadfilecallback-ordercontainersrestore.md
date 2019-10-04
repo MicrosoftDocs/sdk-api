@@ -12,6 +12,8 @@ ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],OrderCont
 ms.topic: method
 f1_keywords:
 - ddpbackup/IDedupReadFileCallback.OrderContainersRestore
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

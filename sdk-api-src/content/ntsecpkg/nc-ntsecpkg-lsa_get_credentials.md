@@ -12,6 +12,8 @@ ms.keywords: GetCredentials, GetCredentials callback function [Security], LSA_GE
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/GetCredentials
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WsWriteEndStartElement, WsWriteEndStartElement function [Web Servic
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteEndStartElement"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

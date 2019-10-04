@@ -12,6 +12,8 @@ ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_MediaType method, IWrit
 ms.topic: method
 f1_keywords:
 - imapi2/IWriteSpeedDescriptor.get_MediaType
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

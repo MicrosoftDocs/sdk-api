@@ -12,6 +12,8 @@ ms.keywords: 5fb53534-b15f-44e8-8bb3-31d6ba3a9bb4, Baseline property [Tablet PC]
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.Baseline"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPinList, GetPinList method [Microsoft Broadband Networks], GetPi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPinManager.GetPinList"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

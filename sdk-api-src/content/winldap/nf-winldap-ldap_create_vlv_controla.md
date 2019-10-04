@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ld
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_create_vlv_control"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

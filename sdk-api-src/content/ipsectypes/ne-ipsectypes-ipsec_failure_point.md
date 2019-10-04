@@ -12,6 +12,8 @@ ms.keywords: IPSEC_FAILURE_ME, IPSEC_FAILURE_NONE, IPSEC_FAILURE_PEER, IPSEC_FAI
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_FAILURE_POINT"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

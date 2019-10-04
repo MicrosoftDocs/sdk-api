@@ -12,6 +12,8 @@ ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageGetCertificateHeader"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

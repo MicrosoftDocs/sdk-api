@@ -12,6 +12,8 @@ ms.keywords: MI_ParameterSet, MI_ParameterSet structure [Windows Management Infr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_ParameterSet"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

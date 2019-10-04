@@ -12,6 +12,8 @@ ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback inte
 ms.topic: interface
 f1_keywords: 
  - "relogger/IEventCallback"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

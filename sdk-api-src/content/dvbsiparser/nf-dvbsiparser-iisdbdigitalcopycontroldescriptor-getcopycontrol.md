@@ -12,6 +12,8 @@ ms.keywords: GetCopyControl, GetCopyControl method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCopyControl"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

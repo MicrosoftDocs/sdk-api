@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeDateArray object [Security],SetValue method, ICertEncode
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeDateArray.SetValue"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

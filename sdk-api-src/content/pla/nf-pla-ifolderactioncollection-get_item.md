@@ -12,6 +12,8 @@ ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActio
 ms.topic: method
 f1_keywords: 
  - "pla/IFolderActionCollection.Item"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

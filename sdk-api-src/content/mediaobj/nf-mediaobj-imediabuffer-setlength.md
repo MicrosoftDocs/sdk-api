@@ -12,6 +12,8 @@ ms.keywords: IMediaBuffer interface [DirectShow],SetLength method, IMediaBuffer.
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaBuffer.SetLength"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],QueryInitiatorPortals met
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsIscsiInitiatorAdapter.QueryInitiatorPortals"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

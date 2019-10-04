@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo interface [Automation],SetDocString method, ICreate
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.SetDocString"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

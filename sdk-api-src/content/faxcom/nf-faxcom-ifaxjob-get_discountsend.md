@@ -12,6 +12,8 @@ ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.DiscountSend"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

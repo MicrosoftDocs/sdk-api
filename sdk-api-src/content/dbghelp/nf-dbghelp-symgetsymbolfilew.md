@@ -12,6 +12,8 @@ ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, bas
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetSymbolFile"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

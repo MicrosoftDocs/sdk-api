@@ -12,6 +12,8 @@ ms.keywords: 03c2e5d4-fcba-4b6c-9982-54b451ef129d, IKM_Alt, IKM_Control, IKM_Shi
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkShiftKeyModifierFlags"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

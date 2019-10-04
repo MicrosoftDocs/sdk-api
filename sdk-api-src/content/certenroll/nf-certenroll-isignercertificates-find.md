@@ -12,6 +12,8 @@ ms.keywords: Find, Find method [Security], Find method [Security],ISignerCertifi
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificates.Find"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win
 ms.topic: function
 f1_keywords:
 - ws2spi/WPUOpenCurrentThread
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

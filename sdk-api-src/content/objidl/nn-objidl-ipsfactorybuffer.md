@@ -12,6 +12,8 @@ ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffe
 ms.topic: interface
 f1_keywords: 
  - "objidl/IPSFactoryBuffer"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

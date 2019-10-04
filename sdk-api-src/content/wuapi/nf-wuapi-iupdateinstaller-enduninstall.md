@@ -12,6 +12,8 @@ ms.keywords: EndUninstall, EndUninstall method [Windows Update Agent], EndUninst
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.EndUninstall"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

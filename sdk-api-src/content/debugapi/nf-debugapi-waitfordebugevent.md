@@ -12,6 +12,8 @@ ms.keywords: WaitForDebugEvent, WaitForDebugEvent function, _win32_waitfordebuge
 ms.topic: function
 f1_keywords: 
  - "debugapi/WaitForDebugEvent"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

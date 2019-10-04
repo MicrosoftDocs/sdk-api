@@ -12,6 +12,8 @@ ms.keywords: 6baaded3-822f-0135-c977-9d5552c9ac99, ID3DX11FFT, ID3DX11FFT interf
 ms.topic: interface
 f1_keywords: 
  - "d3dcsx/ID3DX11FFT"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

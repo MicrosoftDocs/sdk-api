@@ -12,6 +12,8 @@ ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUF
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_BUFFEREX_SRV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

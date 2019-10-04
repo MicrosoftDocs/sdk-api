@@ -12,6 +12,8 @@ ms.keywords: 0d947d92-4669-4857-bd61-10fa8ebd2598, GetOutput, GetOutput method [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetOutput"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

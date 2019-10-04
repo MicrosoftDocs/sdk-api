@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],get_CountryCode method, IAMTuner.ge
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.get_CountryCode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

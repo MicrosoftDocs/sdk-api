@@ -12,6 +12,8 @@ ms.keywords: PWMFRect16, PWMFRect16 structure [GDI+], _gdiplus_STRUC_PWMFRect16,
 ms.topic: struct
 f1_keywords: 
  - "gdiplusmetaheader/PWMFRect16"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

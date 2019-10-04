@@ -12,6 +12,8 @@ ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-497
 ms.topic: struct
 f1_keywords: 
  - "rectypes/LINE_SEGMENT"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

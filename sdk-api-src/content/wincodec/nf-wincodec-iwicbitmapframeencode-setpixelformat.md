@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixe
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapFrameEncode.SetPixelFormat"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

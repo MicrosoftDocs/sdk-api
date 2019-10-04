@@ -12,6 +12,8 @@ ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, b
 ms.topic: function
 f1_keywords: 
  - "fileapi/SetEndOfFile"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

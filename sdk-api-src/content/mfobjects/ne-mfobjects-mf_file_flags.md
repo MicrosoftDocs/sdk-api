@@ -12,6 +12,8 @@ ms.keywords: 1e1c906e-c832-4df1-96f5-86e690c3c34e, MF_FILEFLAGS_ALLOW_WRITE_SHAR
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_FILE_FLAGS"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

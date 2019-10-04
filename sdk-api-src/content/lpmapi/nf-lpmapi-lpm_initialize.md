@@ -12,6 +12,8 @@ ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback fu
 ms.topic: function
 f1_keywords: 
  - "lpmapi/LPM_Initialize"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

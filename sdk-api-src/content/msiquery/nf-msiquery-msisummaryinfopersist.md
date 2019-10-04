@@ -12,6 +12,8 @@ ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisumm
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiSummaryInfoPersist"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

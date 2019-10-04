@@ -12,6 +12,8 @@ ms.keywords: '*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_
 ms.topic: struct
 f1_keywords:
 - mswsock/RIO_NOTIFICATION_COMPLETION
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

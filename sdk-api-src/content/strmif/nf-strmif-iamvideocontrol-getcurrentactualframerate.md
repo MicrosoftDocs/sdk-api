@@ -12,6 +12,8 @@ ms.keywords: GetCurrentActualFrameRate, GetCurrentActualFrameRate method [Direct
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVideoControl.GetCurrentActualFrameRate"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

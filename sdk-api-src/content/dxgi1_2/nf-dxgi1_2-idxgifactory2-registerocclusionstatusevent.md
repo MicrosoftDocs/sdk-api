@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusEvent method,
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIFactory2.RegisterOcclusionStatusEvent"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

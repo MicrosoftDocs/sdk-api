@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapClipper interface [Windows Imaging Component],Initialize 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapClipper.Initialize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

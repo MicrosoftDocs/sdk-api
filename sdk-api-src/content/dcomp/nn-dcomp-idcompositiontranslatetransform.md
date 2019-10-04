@@ -12,6 +12,8 @@ ms.keywords: IDCompositionTranslateTransform, IDCompositionTranslateTransform in
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionTranslateTransform"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

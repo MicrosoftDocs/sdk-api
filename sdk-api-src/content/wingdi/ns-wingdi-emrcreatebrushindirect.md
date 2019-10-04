@@ -12,6 +12,8 @@ ms.keywords: "*PEMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHINDIRECT, EMRCREATEBRUSHIN
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRCREATEBRUSHINDIRECT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

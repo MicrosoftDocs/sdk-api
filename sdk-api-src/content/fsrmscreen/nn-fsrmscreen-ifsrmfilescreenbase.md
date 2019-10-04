@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Res
 ms.topic: interface
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenBase"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

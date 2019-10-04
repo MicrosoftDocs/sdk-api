@@ -12,6 +12,8 @@ ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],II
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Appearance"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

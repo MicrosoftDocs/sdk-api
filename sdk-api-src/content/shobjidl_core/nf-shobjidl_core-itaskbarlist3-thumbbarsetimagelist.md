@@ -12,6 +12,8 @@ ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITaskbarList3.ThumbBarSetImageList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Count property [PLA], Count property [PLA],IScheduleCollection inte
 ms.topic: method
 f1_keywords: 
  - "pla/IScheduleCollection.Count"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

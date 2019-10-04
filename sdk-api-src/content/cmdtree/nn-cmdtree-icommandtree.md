@@ -12,6 +12,8 @@ ms.keywords: ICommandTree, ICommandTree interface [Indexing Service], ICommandTr
 ms.topic: interface
 f1_keywords: 
  - "cmdtree/ICommandTree"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

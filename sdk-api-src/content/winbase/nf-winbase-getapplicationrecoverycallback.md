@@ -12,6 +12,8 @@ ms.keywords: GetApplicationRecoveryCallback, GetApplicationRecoveryCallback func
 ms.topic: function
 f1_keywords: 
  - "winbase/GetApplicationRecoveryCallback"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

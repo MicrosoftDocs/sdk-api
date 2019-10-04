@@ -12,6 +12,8 @@ ms.keywords: PPP_INFO_3, PPP_INFO_3 structure [RAS], mprapi/PPP_INFO_3, rras.ppp
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_INFO_3
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

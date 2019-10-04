@@ -12,6 +12,8 @@ ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win
 ms.topic: struct
 f1_keywords: 
  - "inked/IEC_GESTUREINFO"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

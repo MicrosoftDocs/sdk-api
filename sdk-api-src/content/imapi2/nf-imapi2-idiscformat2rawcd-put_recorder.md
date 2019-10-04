@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_Recorder method, IDiscForma
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2RawCD.put_Recorder"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

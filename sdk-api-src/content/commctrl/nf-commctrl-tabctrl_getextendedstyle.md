@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_GetExtendedStyle, TabCtrl_GetExtendedStyle macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_GetExtendedStyle"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCo
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeAltName.GetNameCount"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

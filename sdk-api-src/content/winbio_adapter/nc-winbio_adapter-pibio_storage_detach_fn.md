@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_DETACH_FN, PIBIO_STORAGE_DETACH_FN callback, StorageA
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterDetach
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

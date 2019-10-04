@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [Windows Shell], GetFormat method [Wind
 ms.topic: method
 f1_keywords: 
  - "thumbcache/ISharedBitmap.GetFormat"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

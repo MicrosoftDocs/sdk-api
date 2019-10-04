@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_CHANGE_SPACEPORT_V2"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

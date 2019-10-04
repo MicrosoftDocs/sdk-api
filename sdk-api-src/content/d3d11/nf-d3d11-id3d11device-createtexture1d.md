@@ -12,6 +12,8 @@ ms.keywords: 26bbf961-5a2a-c5ce-e1d3-3723caf1e453, CreateTexture1D, CreateTextur
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateTexture1D"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

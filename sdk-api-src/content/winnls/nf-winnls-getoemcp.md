@@ -12,6 +12,8 @@ ms.keywords: GetOEMCP, GetOEMCP function [Internationalization for Windows Appli
 ms.topic: function
 f1_keywords: 
  - "winnls/GetOEMCP"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfpu
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFPutWorkItem2"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

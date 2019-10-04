@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Device Access Broker API], Close method [Devic
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/ICreateDeviceAccessAsync.Close"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

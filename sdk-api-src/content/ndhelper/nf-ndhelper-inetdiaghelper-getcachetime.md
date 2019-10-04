@@ -12,6 +12,8 @@ ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetCacheTime"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

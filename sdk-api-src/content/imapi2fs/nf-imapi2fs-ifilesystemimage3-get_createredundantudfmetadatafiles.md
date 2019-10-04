@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage3 interface [IMAPI],get_CreateRedundantUdfMetadataF
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage3.get_CreateRedundantUdfMetadataFiles"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

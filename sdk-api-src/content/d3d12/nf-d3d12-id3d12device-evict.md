@@ -12,6 +12,8 @@ ms.keywords: Evict, Evict method, Evict method,ID3D12Device interface, ID3D12Dev
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device.Evict"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

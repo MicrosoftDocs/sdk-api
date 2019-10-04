@@ -12,6 +12,8 @@ ms.keywords: ObjectContext interface [COM+],get_Security method, ObjectContext.g
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ObjectContext.get_Security"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

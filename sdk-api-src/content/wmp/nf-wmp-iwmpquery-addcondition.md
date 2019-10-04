@@ -12,6 +12,8 @@ ms.keywords: IWMPQuery interface [Windows Media Player],addCondition method, IWM
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPQuery.addCondition"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

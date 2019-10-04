@@ -12,6 +12,8 @@ ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetR
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetRequestOfflineDomainJoin"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IContr
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IControlInterface"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

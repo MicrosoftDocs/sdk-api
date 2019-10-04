@@ -12,6 +12,8 @@ ms.keywords: GPMRSOP class [GPMC],LoggingEnumerateUsers method, IGPMRSOP interfa
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMRSOP.LoggingEnumerateUsers"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CachedContainingGrid property [Windows Accessibility], CachedContai
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CachedContainingGrid"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

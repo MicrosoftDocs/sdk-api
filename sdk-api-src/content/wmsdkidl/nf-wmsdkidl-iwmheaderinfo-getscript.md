@@ -12,6 +12,8 @@ ms.keywords: GetScript, GetScript method [windows Media Format], GetScript metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo.GetScript"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

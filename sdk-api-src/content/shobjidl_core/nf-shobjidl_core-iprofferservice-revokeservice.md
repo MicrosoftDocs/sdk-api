@@ -12,6 +12,8 @@ ms.keywords: IProfferService interface [Windows Shell],RevokeService method, IPr
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IProfferService.RevokeService"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

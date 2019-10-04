@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE fu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilStartResourceService"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

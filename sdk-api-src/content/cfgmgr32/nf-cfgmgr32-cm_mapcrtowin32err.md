@@ -12,6 +12,8 @@ ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver 
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_MapCrToWin32Err"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Universal

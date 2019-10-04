@@ -12,6 +12,8 @@ ms.keywords: DVD_DOMAIN, DVD_DOMAIN , DVD_DOMAIN enumeration [DirectShow], DVD_D
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_DOMAIN"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

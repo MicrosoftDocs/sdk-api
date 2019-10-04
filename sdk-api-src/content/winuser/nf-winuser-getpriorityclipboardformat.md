@@ -12,6 +12,8 @@ ms.keywords: GetPriorityClipboardFormat, GetPriorityClipboardFormat function [Da
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPriorityClipboardFormat"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

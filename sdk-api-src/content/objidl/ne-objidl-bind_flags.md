@@ -12,6 +12,8 @@ ms.keywords: BIND_FLAGS, BIND_FLAGS enumeration [COM], BIND_JUSTTESTEXISTENCE, B
 ms.topic: enum
 f1_keywords: 
  - "objidl/BIND_FLAGS"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

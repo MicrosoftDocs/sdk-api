@@ -12,6 +12,8 @@ ms.keywords: CCD_Structures_705e98bf-b3ea-4d2b-8c93-ffb300d700c8.xml, DISPLAYCON
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

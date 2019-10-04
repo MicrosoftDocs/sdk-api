@@ -12,6 +12,8 @@ ms.keywords: AddTid, AddTid method [Microsoft TV Technologies], AddTid method [M
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_FDC.AddTid"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

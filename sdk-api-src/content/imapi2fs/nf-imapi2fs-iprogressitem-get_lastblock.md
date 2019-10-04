@@ -12,6 +12,8 @@ ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IProgressItem.get_LastBlock"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

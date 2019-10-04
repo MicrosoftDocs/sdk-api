@@ -12,6 +12,8 @@ ms.keywords: GetDigestMethod, GetDigestMethod method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetDigestMethod"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

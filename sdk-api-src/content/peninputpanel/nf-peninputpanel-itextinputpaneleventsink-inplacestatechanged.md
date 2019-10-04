@@ -12,6 +12,8 @@ ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged 
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink.InPlaceStateChanged"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

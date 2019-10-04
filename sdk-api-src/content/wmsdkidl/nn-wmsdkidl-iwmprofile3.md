@@ -12,6 +12,8 @@ ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfi
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMProfile3"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

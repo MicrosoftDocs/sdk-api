@@ -12,6 +12,8 @@ ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetObject"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

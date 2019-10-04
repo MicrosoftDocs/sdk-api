@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_M
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_PEOPLE_NEAR_ME"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

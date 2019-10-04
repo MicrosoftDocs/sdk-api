@@ -12,6 +12,8 @@ ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponen
 ms.topic: method
 f1_keywords:
 - comsvcs/IGetAppTrackerData.GetComponentDetails
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

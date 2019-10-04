@@ -12,6 +12,8 @@ ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInv
 ms.topic: enum
 f1_keywords:
 - restartmanager/RM_FILTER_ACTION
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULong
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

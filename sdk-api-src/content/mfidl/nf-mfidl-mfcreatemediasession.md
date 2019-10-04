@@ -12,6 +12,8 @@ ms.keywords: 86b2b5ec-231c-4943-9add-1a5a60e72268, MFCreateMediaSession, MFCreat
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateMediaSession"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

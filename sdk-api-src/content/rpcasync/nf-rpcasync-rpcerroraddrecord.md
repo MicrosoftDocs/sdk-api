@@ -12,6 +12,8 @@ ms.keywords: RpcErrorAddRecord, RpcErrorAddRecord function [RPC], _rpc_rpcerrora
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcErrorAddRecord"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

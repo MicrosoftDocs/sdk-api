@@ -12,6 +12,8 @@ ms.keywords: "*PASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFOR
 ms.topic: struct
 f1_keywords: 
  - "winnt/ASSEMBLY_FILE_DETAILED_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

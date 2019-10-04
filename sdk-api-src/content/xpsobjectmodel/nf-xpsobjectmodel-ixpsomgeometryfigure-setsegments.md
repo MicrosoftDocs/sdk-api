@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSeg
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.SetSegments"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAm
 ms.topic: method
 f1_keywords: 
  - "amsi/IAmsiStream.Read"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

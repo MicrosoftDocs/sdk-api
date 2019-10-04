@@ -12,6 +12,8 @@ ms.keywords: 2bf5541e-9b7e-4e7a-a868-4956c1f70882, MFCreatePMPServer, MFCreatePM
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreatePMPServer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

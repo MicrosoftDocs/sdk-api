@@ -12,6 +12,8 @@ ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.EnumCategoryGUIDs"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

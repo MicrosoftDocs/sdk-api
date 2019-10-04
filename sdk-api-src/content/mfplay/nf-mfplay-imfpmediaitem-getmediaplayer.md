@@ -12,6 +12,8 @@ ms.keywords: GetMediaPlayer, GetMediaPlayer method [Media Foundation], GetMediaP
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetMediaPlayer"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

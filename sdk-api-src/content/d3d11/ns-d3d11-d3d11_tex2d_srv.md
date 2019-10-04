@@ -12,6 +12,8 @@ ms.keywords: 54ba00bb-9aec-6653-324a-0b65dc123c63, D3D11_TEX2D_SRV, D3D11_TEX2D_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX2D_SRV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

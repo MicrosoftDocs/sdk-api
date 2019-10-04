@@ -12,6 +12,8 @@ ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents an
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.GetStrokeBrushLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

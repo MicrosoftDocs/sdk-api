@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, IC
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.SetVarHelpContext"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

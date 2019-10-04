@@ -12,6 +12,8 @@ ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProd
 ms.topic: method
 f1_keywords:
 - iwscapi/IWSCProductList.Initialize
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

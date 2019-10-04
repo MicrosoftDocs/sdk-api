@@ -12,6 +12,8 @@ ms.keywords: IComMethod2Events interface [COM+],OnMethodException2 method, IComM
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComMethod2Events.OnMethodException2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

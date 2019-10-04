@@ -12,6 +12,8 @@ ms.keywords: WdsCliGetImagePath, WdsCliGetImagePath function [Windows Deployment
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliGetImagePath"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNodeDescriptors, GetNodeDescriptors method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.GetNodeDescriptors"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

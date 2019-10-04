@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAG_REFRESH_AUTO_RECONNECT, WBEM_FLAG_REFRESH_NO_AUTO_RECONNE
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_REFRESHER_FLAGS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

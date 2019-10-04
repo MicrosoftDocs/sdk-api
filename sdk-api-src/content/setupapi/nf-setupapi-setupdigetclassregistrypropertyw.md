@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetClassRegistryProperty, SetupDiGetClassRegistryProperty fu
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassRegistryProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_Class_Registry_Property

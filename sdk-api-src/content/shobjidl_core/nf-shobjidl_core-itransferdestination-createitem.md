@@ -12,6 +12,8 @@ ms.keywords: CreateItem, CreateItem method [Windows Shell], CreateItem method [W
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferDestination.CreateItem
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

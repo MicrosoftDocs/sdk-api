@@ -12,6 +12,8 @@ ms.keywords: GetJobs, GetJobs method [Fax Service], GetJobs method [Fax Service]
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.GetJobs"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network A
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/INetworkConnectionCost"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

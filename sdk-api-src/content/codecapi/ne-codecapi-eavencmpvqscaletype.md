@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVQScaleType, codecapi/eAVEncMPVQScaleType_Auto, co
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVQScaleType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

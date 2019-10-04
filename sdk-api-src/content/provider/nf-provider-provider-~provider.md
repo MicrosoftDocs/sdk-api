@@ -5,6 +5,10 @@ ms.date: 4/26/2019
 ms.keywords: Provider::~Provider
 ms.topic: language-reference
 f1_keywords:
+ - Provider::~Provider
+dev_langs:
+ - c++
+f1_keywords:
  - "provider/Provider::~Provider"
 targetos: Windows
 product: Windows

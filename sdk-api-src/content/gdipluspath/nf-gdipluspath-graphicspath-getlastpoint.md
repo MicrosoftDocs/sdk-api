@@ -12,6 +12,8 @@ ms.keywords: GetLastPoint, GetLastPoint method [GDI+], GetLastPoint method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.GetLastPoint"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

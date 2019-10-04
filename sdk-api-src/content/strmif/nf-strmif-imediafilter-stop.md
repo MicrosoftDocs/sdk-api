@@ -12,6 +12,8 @@ ms.keywords: IMediaFilter interface [DirectShow],Stop method, IMediaFilter.Stop,
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaFilter.Stop"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

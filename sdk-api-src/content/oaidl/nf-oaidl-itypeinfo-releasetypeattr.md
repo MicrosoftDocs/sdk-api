@@ -12,6 +12,8 @@ ms.keywords: ITypeInfo interface [Automation],ReleaseTypeAttr method, ITypeInfo.
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.ReleaseTypeAttr"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

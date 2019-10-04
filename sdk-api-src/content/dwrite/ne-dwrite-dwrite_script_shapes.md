@@ -12,6 +12,8 @@ ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Writ
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_SCRIPT_SHAPES"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

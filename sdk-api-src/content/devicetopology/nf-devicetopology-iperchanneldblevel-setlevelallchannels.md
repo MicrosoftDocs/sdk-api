@@ -12,6 +12,8 @@ ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelAllChannels metho
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPerChannelDbLevel.SetLevelAllChannels"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

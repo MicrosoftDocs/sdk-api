@@ -12,6 +12,8 @@ ms.keywords: AddRefTypeInfo, AddRefTypeInfo method [Automation], AddRefTypeInfo 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.AddRefTypeInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

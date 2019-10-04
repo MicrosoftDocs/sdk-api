@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex metho
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.NumberOfItemsToIndex"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

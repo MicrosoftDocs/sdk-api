@@ -12,6 +12,8 @@ ms.keywords: DetectTonesByCollection, DetectTonesByCollection method [TAPI 2.2],
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2.DetectTonesByCollection"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

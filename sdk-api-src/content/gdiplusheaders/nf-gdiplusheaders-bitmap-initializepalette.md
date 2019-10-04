@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],InitializePalette method, Bitmap.InitializePale
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.InitializePalette"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

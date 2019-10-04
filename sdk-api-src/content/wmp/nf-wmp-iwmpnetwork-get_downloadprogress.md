@@ -12,6 +12,8 @@ ms.keywords: IWMPNetwork interface [Windows Media Player],get_downloadProgress m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPNetwork.get_downloadProgress"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

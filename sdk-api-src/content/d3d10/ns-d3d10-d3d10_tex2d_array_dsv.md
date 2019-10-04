@@ -12,6 +12,8 @@ ms.keywords: D3D10_TEX2D_ARRAY_DSV, D3D10_TEX2D_ARRAY_DSV structure [Direct3D 10
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX2D_ARRAY_DSV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiClassGuidsFromNameEx"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

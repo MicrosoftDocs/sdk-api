@@ -12,6 +12,8 @@ ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOp
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/sndOpenSound"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: 
 req.target-type: Windows

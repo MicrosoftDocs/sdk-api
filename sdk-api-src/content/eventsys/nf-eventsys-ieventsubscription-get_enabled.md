@@ -12,6 +12,8 @@ ms.keywords: Enabled property [COM+], Enabled property [COM+],IEventSubscription
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.Enabled"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

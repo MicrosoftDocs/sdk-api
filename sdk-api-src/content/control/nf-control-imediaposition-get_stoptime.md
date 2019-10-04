@@ -12,6 +12,8 @@ ms.keywords: IMediaPosition interface [DirectShow],get_StopTime method, IMediaPo
 ms.topic: method
 f1_keywords: 
  - "control/IMediaPosition.get_StopTime"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

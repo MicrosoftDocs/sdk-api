@@ -12,6 +12,8 @@ ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manag
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaTemplateManager.ExportTemplates"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

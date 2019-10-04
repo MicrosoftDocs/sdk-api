@@ -12,6 +12,8 @@ ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITf
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfMouseSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

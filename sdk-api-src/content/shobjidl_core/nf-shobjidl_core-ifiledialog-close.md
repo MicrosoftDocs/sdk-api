@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialog.Close"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

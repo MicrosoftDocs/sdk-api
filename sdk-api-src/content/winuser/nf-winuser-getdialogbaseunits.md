@@ -12,6 +12,8 @@ ms.keywords: GetDialogBaseUnits, GetDialogBaseUnits function [Dialog Boxes], _wi
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDialogBaseUnits"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGraphConnect"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unma
 ms.topic: function
 f1_keywords:
 - imagehlp/UnMapAndLoad
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

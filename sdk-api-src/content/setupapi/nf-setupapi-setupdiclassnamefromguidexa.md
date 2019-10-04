@@ -12,6 +12,8 @@ ms.keywords: SetupDiClassNameFromGuidEx, SetupDiClassNameFromGuidEx function [De
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDiClassNameFromGuidEx"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

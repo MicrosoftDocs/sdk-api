@@ -12,6 +12,8 @@ ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Se
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.PublishCRLs"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

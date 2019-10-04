@@ -12,6 +12,8 @@ ms.keywords: GetIID, GetIID method [COM], GetIID method [COM],ICallIndirect inte
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallIndirect.GetIID"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Securi
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiValidateAuthIdentity"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

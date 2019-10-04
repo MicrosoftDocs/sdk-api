@@ -12,6 +12,8 @@ ms.keywords: "*PLDAPModA, LDAPMod, LDAPMod structure [LDAP], LDAPModA, LDAP_MOD_
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPMod"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

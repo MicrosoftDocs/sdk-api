@@ -12,6 +12,8 @@ ms.keywords: CreateFileScreenCollection, CreateFileScreenCollection method [File
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenManager.CreateFileScreenCollection"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmQuota.h
 req.target-type: Windows

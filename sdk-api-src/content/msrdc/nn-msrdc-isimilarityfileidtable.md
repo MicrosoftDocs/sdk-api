@@ -12,6 +12,8 @@ ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Di
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarityFileIdTable"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

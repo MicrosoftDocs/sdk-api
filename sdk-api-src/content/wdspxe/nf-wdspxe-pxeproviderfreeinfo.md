@@ -12,6 +12,8 @@ ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeProviderFreeInfo"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

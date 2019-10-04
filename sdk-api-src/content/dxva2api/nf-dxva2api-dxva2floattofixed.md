@@ -12,6 +12,8 @@ ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2Float
 ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2FloatToFixed
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

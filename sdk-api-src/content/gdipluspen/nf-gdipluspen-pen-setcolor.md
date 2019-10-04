@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetColor method, Pen.SetColor, Pen::SetColor, SetC
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetColor"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

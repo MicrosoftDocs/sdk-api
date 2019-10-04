@@ -12,6 +12,8 @@ ms.keywords: GetCurrentQueuedRequests, GetCurrentQueuedRequests method [COM+], G
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IThreadPoolKnobs.GetCurrentQueuedRequests"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

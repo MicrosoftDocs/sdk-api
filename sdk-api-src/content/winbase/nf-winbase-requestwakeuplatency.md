@@ -12,6 +12,8 @@ ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeu
 ms.topic: function
 f1_keywords: 
  - "winbase/RequestWakeupLatency"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

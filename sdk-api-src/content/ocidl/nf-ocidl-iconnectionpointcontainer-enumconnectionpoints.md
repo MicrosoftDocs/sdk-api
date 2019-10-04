@@ -12,6 +12,8 @@ ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnec
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPointContainer.EnumConnectionPoints"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

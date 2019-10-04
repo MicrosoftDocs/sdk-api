@@ -12,6 +12,8 @@ ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interfa
 ms.topic: interface
 f1_keywords: 
  - "vbinterf/IVBGetControl"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

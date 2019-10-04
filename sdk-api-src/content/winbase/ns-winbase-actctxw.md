@@ -12,6 +12,8 @@ ms.keywords: "*PACTCTXW, ACTCTX, ACTCTX structure [Side-by-side Assemblies], ACT
 ms.topic: struct
 f1_keywords: 
  - "winbase/ACTCTX"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

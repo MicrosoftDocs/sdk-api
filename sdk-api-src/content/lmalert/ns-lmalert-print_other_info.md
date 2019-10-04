@@ -12,6 +12,8 @@ ms.keywords: '*LPPRINT_OTHER_INFO, *PPRINT_OTHER_INFO, LPPRINT_OTHER_INFO, LPPRI
 ms.topic: struct
 f1_keywords:
 - lmalert/PRINT_OTHER_INFO
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

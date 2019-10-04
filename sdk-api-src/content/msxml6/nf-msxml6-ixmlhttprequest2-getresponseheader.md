@@ -12,6 +12,8 @@ ms.keywords: GetResponseHeader, GetResponseHeader method [XMLHttpRequest2], GetR
 ms.topic: method
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest2.GetResponseHeader"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

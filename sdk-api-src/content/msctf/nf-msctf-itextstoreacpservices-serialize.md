@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize
 ms.topic: method
 f1_keywords: 
  - "msctf/ITextStoreACPServices.Serialize"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

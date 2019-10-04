@@ -12,6 +12,8 @@ ms.keywords: "*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT stru
 ms.topic: struct
 f1_keywords: 
  - "winreg/VALENT"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateBasicDeviceAsync, CreateBasicDeviceAsync method [Media Stream
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDeviceStatics.CreateBasicDeviceAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

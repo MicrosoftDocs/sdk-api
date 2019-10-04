@@ -12,6 +12,8 @@ ms.keywords: 6eec2687-343a-c307-9f79-b1bf69743835, ID3D10InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.PushEmptyRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

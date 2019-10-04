@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNet
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowPreroll.put_Preroll"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

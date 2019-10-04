@@ -12,6 +12,8 @@ ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_index
 ms.topic: function
 f1_keywords: 
  - "netioapi/if_indextoname"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

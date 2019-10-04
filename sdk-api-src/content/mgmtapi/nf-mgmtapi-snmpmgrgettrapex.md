@@ -12,6 +12,8 @@ ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENE
 ms.topic: function
 f1_keywords: 
  - "mgmtapi/SnmpMgrGetTrapEx"
+dev_langs:
+ - c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

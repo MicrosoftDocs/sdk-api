@@ -12,6 +12,8 @@ ms.keywords: IEventClass interface [COM+],TypeLib property, IEventClass.TypeLib,
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass.TypeLib"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

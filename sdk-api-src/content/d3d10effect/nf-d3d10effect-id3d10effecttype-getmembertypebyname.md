@@ -12,6 +12,8 @@ ms.keywords: 86e236b9-7c07-9a19-3421-2874e5f044cd, GetMemberTypeByName, GetMembe
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType.GetMemberTypeByName"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

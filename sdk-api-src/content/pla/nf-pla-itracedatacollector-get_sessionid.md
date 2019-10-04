@@ -12,6 +12,8 @@ ms.keywords: ITraceDataCollector interface [PLA],SessionId property, ITraceDataC
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.SessionId"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

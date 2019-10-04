@@ -12,6 +12,8 @@ ms.keywords: '*PRPC_SECURITY_QOS_V2_W, 0, PRPC_SECURITY_QOS_V2, PRPC_SECURITY_QO
 ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_SECURITY_QOS_V2
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

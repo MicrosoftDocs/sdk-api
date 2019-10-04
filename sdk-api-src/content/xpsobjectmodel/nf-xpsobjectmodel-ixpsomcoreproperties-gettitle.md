@@ -12,6 +12,8 @@ ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetTitle"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

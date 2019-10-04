@@ -12,6 +12,8 @@ ms.keywords: IEnumCATEGORYINFO interface [COM],Reset method, IEnumCATEGORYINFO.R
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumCATEGORYINFO.Reset"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

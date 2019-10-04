@@ -12,6 +12,8 @@ ms.keywords: '*PPS_COMPONENT_STATS, PPS_COMPONENT_STATS, PPS_COMPONENT_STATS str
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_COMPONENT_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

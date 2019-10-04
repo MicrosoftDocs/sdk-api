@@ -12,6 +12,8 @@ ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkExtendedProperties"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

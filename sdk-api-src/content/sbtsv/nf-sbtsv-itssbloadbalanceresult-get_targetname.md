@@ -12,6 +12,8 @@ ms.keywords: ITsSbLoadBalanceResult interface [Remote Desktop Services],TargetNa
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbLoadBalanceResult.TargetName"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

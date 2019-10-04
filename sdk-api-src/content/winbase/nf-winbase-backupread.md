@@ -12,6 +12,8 @@ ms.keywords: BackupRead, BackupRead function [Backup], _win32_backupread, backup
 ms.topic: function
 f1_keywords:
 - winbase/BackupRead
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

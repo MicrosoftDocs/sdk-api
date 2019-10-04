@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZE
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_SERIALIZED_OID"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

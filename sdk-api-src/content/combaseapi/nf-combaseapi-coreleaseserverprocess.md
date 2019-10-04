@@ -12,6 +12,8 @@ ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoReleaseServerProcess"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

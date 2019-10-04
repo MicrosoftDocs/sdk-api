@@ -12,6 +12,8 @@ ms.keywords: GetFileName, GetFileName method [App packaging and management], Get
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestPackageInfo.GetFileName"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

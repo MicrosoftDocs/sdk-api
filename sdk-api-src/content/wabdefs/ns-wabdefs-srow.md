@@ -12,6 +12,8 @@ ms.keywords: '*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], 
 ms.topic: struct
 f1_keywords:
 - wabdefs/SRow
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLayeredWindowAttributes, GetLayeredWindowAttributes function [Wi
 ms.topic: function
 f1_keywords:
 - winuser/GetLayeredWindowAttributes
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

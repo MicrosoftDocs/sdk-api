@@ -12,6 +12,8 @@ ms.keywords: IWMResizerProps interface [Media Foundation],SetFullCropRegion meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMResizerProps.SetFullCropRegion"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

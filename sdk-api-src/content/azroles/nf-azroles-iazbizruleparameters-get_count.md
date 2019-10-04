@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],IAzBizRulePara
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleParameters.Count"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorit
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamPrioritization.SetPriorityRecords"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

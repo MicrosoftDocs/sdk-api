@@ -12,6 +12,8 @@ ms.keywords: D3D_SHADER_MODEL, D3D_SHADER_MODEL enumeration, D3D_SHADER_MODEL_5_
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D_SHADER_MODEL"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

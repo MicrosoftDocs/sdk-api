@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReaderCallback2 interface [Media Foundation],OnStreamError
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderCallback2.OnStreamError"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],get_FollowDirectories method, ISearc
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.get_FollowDirectories"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

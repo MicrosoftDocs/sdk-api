@@ -12,6 +12,8 @@ ms.keywords: VariantToInt32Array, VariantToInt32Array function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToInt32Array"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

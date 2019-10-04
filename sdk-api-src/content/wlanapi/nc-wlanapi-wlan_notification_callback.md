@@ -12,6 +12,8 @@ ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WL
 ms.topic: callback
 f1_keywords:
 - wlanapi/WLAN_NOTIFICATION_CALLBACK
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

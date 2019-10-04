@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method, GetCount method,IProviderQueryConstraint
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderQueryConstraintCollection.GetCount"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources]
 ms.topic: function
 f1_keywords: 
  - "winbase/UpdateResource"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

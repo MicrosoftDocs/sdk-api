@@ -12,6 +12,8 @@ ms.keywords: "*PFH_PROTECTED_ITEM_CATEGORY, FH_FOLDER, FH_LIBRARY, FH_PROTECTED_
 ms.topic: enum
 f1_keywords: 
  - "fhcfg/FH_PROTECTED_ITEM_CATEGORY"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

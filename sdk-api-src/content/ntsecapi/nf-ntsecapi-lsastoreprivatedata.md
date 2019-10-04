@@ -12,6 +12,8 @@ ms.keywords: LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaStorePrivateData
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

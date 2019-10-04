@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetLongestAcce
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.SetLongestAcceptableDelay"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

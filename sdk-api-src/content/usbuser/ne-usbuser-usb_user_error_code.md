@@ -12,6 +12,8 @@ ms.keywords: USB_USER_ERROR_CODE, USB_USER_ERROR_CODE enumeration [Buses], UsbUs
 ms.topic: enum
 f1_keywords: 
  - "usbuser/USB_USER_ERROR_CODE"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

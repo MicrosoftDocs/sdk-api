@@ -6,6 +6,8 @@ ms.keywords: peer_group_event_data_tag, PEER_GROUP_EVENT_DATA
 ms.topic: language-reference
 f1_keywords: 
  - "p2p/peer_group_event_data_tag"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

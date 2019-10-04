@@ -12,6 +12,8 @@ ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows],
 ms.topic: function
 f1_keywords: 
  - "webservices/WsFreeListener"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_DiagnosticProperties, IBDA_DiagnosticProperties interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_DiagnosticProperties"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

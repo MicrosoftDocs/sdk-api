@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_CALLBACK_FLAG_ALL_COMPLETIONS, WINHTTP_CALLBACK_FLAG_ALL_NO
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpSetStatusCallback"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

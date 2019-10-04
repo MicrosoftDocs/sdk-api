@@ -7,6 +7,8 @@ ms.keywords: D3D12_FEATURE_DATA_CROSS_NODE
 ms.topic: language-reference
 f1_keywords: 
  - "d3d12/D3D12_FEATURE_DATA_CROSS_NODE"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

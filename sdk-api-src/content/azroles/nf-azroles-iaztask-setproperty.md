@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFI
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.SetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

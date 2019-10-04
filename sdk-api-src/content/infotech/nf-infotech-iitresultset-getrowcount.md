@@ -12,6 +12,8 @@ ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount m
 ms.topic: method
 f1_keywords: 
  - "infotech/IITResultSet.GetRowCount"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

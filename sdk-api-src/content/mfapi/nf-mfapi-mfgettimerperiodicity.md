@@ -12,6 +12,8 @@ ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetT
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetTimerPeriodicity"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

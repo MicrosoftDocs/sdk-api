@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDir
 ms.topic: interface
 f1_keywords: 
  - "ddraw/IDirectDrawPalette"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

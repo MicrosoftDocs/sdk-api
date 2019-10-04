@@ -12,6 +12,8 @@ ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr2.GetActiveFlags"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

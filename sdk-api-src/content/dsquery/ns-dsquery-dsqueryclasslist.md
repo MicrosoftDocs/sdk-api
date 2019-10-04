@@ -12,6 +12,8 @@ ms.keywords: "*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure 
 ms.topic: struct
 f1_keywords: 
  - "dsquery/DSQUERYCLASSLIST"
+dev_langs:
+ - c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

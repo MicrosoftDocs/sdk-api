@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],Shear method, Matrix.Shear, Matrix::Shear, Shea
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Shear"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

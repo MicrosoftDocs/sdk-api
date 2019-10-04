@@ -12,6 +12,8 @@ ms.keywords: IDirect3DResource9, IDirect3DResource9 interface [Direct3D 9], IDir
 ms.topic: interface
 f1_keywords: 
  - "d3d9helper/IDirect3DResource9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

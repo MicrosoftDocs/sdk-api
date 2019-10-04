@@ -12,6 +12,8 @@ ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, UR
 ms.topic: function
 f1_keywords: 
  - "shlwapi/UrlIs"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

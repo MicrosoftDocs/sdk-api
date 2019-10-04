@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],Mid method,
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Mid"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, 
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFllMulDiv"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

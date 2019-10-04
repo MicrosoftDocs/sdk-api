@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineGetCallStatus, TSPI_lineGetCallStatus function [TAPI 2.2],
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineGetCallStatus"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

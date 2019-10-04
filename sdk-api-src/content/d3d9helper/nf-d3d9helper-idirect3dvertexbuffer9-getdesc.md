@@ -12,6 +12,8 @@ ms.keywords: 757c012d-2bd8-4555-34bc-493f1a96904f, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVertexBuffer9.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

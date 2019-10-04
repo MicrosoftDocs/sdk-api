@@ -12,6 +12,8 @@ ms.keywords: CreateRefresher, CreateRefresher method [Windows Management Instrum
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemHiPerfProvider.CreateRefresher"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

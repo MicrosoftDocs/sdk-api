@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_A
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_AUDIT_CALLBACK_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

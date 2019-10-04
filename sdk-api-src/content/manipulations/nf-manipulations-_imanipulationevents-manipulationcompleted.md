@@ -12,6 +12,8 @@ ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch]
 ms.topic: method
 f1_keywords: 
  - "manipulations/_IManipulationEvents.ManipulationCompleted"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

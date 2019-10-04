@@ -12,6 +12,8 @@ ms.keywords: ITunerCap, ITunerCap interface [Microsoft TV Technologies], ITunerC
 ms.topic: interface
 f1_keywords: 
  - "tuner/ITunerCap"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

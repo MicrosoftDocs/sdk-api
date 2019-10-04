@@ -12,6 +12,8 @@ ms.keywords: IsEmfPlusDual, IsEmfPlusDual method [GDI+], IsEmfPlusDual method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsEmfPlusDual"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

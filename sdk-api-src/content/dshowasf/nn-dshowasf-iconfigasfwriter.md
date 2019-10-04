@@ -12,6 +12,8 @@ ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigA
 ms.topic: interface
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear met
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan.Clear"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

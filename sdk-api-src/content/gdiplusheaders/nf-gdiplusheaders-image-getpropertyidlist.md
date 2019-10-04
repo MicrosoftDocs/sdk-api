@@ -12,6 +12,8 @@ ms.keywords: GetPropertyIdList, GetPropertyIdList method [GDI+], GetPropertyIdLi
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetPropertyIdList"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

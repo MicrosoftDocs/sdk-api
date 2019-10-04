@@ -12,6 +12,8 @@ ms.keywords: '*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group
 ms.topic: struct
 f1_keywords:
 - userenv/RSOP_TARGET
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

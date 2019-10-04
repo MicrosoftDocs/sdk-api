@@ -12,6 +12,8 @@ ms.keywords: IAMWstDecoder interface [DirectShow],SetOutputFormat method, IAMWst
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.SetOutputFormat"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

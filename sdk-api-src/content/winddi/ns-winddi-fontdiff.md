@@ -12,6 +12,8 @@ ms.keywords: FONTDIFF, FONTDIFF structure [Display Devices], display.fontdiff, g
 ms.topic: struct
 f1_keywords:
 - winddi/FONTDIFF
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

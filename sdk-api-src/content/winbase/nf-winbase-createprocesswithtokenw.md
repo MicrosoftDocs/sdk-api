@@ -12,6 +12,8 @@ ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_G
 ms.topic: function
 f1_keywords:
 - winbase/CreateProcessWithTokenW
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

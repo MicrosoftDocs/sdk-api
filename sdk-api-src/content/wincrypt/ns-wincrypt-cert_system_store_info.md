@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STOR
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_SYSTEM_STORE_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

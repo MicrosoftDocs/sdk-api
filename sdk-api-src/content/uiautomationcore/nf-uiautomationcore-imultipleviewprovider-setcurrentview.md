@@ -12,6 +12,8 @@ ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentV
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IMultipleViewProvider.SetCurrentView"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

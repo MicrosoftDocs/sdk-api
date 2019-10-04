@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_feature_type, WINML_FEATURE_TYPE, WINML_FEATU
 ms.topic: enum
 f1_keywords: 
  - "winml/WINML_FEATURE_TYPE"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

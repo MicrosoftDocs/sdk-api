@@ -12,6 +12,8 @@ ms.keywords: AzBizRuleContext object [Security],BusinessRuleString property, Bus
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleContext.BusinessRuleString"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

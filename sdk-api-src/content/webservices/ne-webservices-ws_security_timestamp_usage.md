@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_TIMESTAMP_USAGE, WS_SECURITY_TIMESTAMP_USAGE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_TIMESTAMP_USAGE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

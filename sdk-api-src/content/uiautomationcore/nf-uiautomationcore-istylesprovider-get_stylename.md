@@ -12,6 +12,8 @@ ms.keywords: IStylesProvider interface [Windows Accessibility],StyleName propert
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IStylesProvider.StyleName"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

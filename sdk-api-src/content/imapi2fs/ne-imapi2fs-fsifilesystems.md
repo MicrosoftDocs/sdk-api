@@ -12,6 +12,8 @@ ms.keywords: FsiFileSystemISO9660, FsiFileSystemJoliet, FsiFileSystemNone, FsiFi
 ms.topic: enum
 f1_keywords: 
  - "imapi2fs/FsiFileSystems"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymG
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetSourceFileFromToken"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

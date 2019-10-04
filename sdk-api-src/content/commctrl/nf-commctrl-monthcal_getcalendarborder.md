@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetCalendarBorder, MonthCal_GetCalendarBorder macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetCalendarBorder"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

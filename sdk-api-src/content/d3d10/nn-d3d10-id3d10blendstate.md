@@ -12,6 +12,8 @@ ms.keywords: ID3D10BlendState, ID3D10BlendState interface [Direct3D 10], ID3D10B
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10BlendState"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

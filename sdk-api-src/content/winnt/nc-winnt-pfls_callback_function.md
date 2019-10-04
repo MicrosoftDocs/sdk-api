@@ -12,6 +12,8 @@ ms.keywords: FlsCallback, FlsCallback callback function, PFLS_CALLBACK_FUNCTION,
 ms.topic: callback
 f1_keywords: 
  - "winnt/FlsCallback"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

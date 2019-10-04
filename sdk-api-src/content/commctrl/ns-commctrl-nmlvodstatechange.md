@@ -12,6 +12,8 @@ ms.keywords: '*LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE str
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVODSTATECHANGE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

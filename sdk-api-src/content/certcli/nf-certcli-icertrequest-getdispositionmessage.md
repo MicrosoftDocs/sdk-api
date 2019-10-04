@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetDispositionMessage method, GetDis
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.GetDispositionMessage"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

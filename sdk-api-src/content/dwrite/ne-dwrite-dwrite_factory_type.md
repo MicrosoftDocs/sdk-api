@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FACTORY_TYPE, DWRITE_FACTORY_TYPE enumeration [Direct Write]
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_FACTORY_TYPE"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

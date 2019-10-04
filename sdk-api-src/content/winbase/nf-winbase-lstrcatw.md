@@ -12,6 +12,8 @@ ms.keywords: "_win32_lstrcat, _win32_lstrcat_cpp, lstrcat, lstrcat function [Men
 ms.topic: function
 f1_keywords: 
  - "winbase/lstrcat"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

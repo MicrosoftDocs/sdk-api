@@ -12,6 +12,8 @@ ms.keywords: MFVideoRotationFormat, MFVideoRotationFormat enumeration [Media Fou
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideoRotationFormat"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

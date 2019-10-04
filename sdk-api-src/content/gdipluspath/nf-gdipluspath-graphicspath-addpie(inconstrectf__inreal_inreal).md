@@ -9,6 +9,8 @@ ms.keywords: GraphicsPath::AddPie
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPath::AddPie"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

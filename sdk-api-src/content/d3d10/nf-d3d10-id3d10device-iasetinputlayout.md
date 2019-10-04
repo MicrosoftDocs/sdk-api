@@ -12,6 +12,8 @@ ms.keywords: 5492ac19-1f40-6d42-38a5-490e297331f0, IASetInputLayout, IASetInputL
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IASetInputLayout"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

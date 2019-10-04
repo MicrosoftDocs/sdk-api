@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_FILTER_PARAMETERS, XAUDIO2_FILTER_PARAMETERS structure [XAu
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_FILTER_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

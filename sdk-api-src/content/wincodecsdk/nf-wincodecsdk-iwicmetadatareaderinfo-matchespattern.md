@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],Matche
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReaderInfo.MatchesPattern"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

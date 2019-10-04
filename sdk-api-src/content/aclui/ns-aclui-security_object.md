@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_OBJECT, PSECURITY_OBJECT, PSECURITY_OBJECT structure po
 ms.topic: struct
 f1_keywords: 
  - "aclui/SECURITY_OBJECT"
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Equals, Equals method [Direct Write], Equals method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFont3.Equals"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

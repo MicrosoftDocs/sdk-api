@@ -12,6 +12,8 @@ ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFro
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertySystem.GetPropertyDescriptionListFromString"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

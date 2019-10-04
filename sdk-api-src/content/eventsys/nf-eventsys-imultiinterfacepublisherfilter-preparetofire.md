@@ -12,6 +12,8 @@ ms.keywords: IMultiInterfacePublisherFilter interface [COM+],PrepareToFire metho
 ms.topic: method
 f1_keywords: 
  - "eventsys/IMultiInterfacePublisherFilter.PrepareToFire"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

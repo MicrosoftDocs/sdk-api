@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorMin, XMVectorMin, XMVectorMin method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorMin"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

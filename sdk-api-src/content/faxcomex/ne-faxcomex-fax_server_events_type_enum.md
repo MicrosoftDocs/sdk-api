@@ -12,6 +12,8 @@ ms.keywords: FAX_SERVER_EVENTS_TYPE_ENUM, FAX_SERVER_EVENTS_TYPE_ENUM enumeratio
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

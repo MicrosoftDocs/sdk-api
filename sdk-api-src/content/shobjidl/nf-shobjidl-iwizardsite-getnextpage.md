@@ -12,6 +12,8 @@ ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardSite.GetNextPage
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

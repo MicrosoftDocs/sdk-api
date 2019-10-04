@@ -12,6 +12,8 @@ ms.keywords: BindToObject, BindToObject method [Windows Shell], BindToObject met
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.BindToObject
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

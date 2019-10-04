@@ -12,6 +12,8 @@ ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMRadialGradientBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

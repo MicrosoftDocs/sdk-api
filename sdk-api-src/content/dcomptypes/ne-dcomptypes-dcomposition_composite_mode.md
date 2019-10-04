@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_COMPOSITE_MODE, DCOMPOSITION_COMPOSITE_MODE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_COMPOSITE_MODE"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows

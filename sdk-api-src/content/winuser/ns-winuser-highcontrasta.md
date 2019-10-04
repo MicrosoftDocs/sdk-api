@@ -12,6 +12,8 @@ ms.keywords: "*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRA
 ms.topic: struct
 f1_keywords: 
  - "winuser/HIGHCONTRAST"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

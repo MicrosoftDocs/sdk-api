@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveC
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.RemoveConfiguration"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

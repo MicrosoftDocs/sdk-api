@@ -12,6 +12,8 @@ ms.keywords: IOleCommandTarget interface [COM],QueryStatus method, IOleCommandTa
 ms.topic: method
 f1_keywords:
 - docobj/IOleCommandTarget.QueryStatus
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

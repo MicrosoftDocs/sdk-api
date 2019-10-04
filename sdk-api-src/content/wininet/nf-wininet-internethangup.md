@@ -12,6 +12,8 @@ ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internetha
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetHangUp"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

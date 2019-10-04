@@ -12,6 +12,8 @@ ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VT
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarNumFromParseNum"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

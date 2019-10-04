@@ -12,6 +12,8 @@ ms.keywords: '*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure point
 ms.topic: struct
 f1_keywords:
 - usbuser/USB_POWER_INFO
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

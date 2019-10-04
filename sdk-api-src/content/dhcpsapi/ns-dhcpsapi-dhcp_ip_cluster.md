@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_IP_CLUSTER, DHCP_IP_CLUSTER, DHCP_IP_CLUSTER structure [DH
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_IP_CLUSTER"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

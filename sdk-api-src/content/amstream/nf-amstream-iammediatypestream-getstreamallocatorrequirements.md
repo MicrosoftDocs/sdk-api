@@ -12,6 +12,8 @@ ms.keywords: GetStreamAllocatorRequirements, GetStreamAllocatorRequirements meth
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeStream.GetStreamAllocatorRequirements"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

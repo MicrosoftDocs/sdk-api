@@ -12,6 +12,8 @@ ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_CDT.GetOriginalNetworkId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

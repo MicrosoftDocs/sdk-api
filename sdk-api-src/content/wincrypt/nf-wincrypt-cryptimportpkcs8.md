@@ -12,6 +12,8 @@ ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImpo
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptImportPKCS8
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

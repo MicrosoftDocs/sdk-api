@@ -12,6 +12,8 @@ ms.keywords: AddView, AddView method [MMC], AddView method [MMC],IViewExtensionC
 ms.topic: method
 f1_keywords:
 - mmc/IViewExtensionCallback.AddView
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

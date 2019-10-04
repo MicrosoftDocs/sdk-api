@@ -12,6 +12,8 @@ ms.keywords: '*PWSD_SECURITY_SIGNATURE_VALIDATION, WSD_SECURITY_SIGNATURE_VALIDA
 ms.topic: struct
 f1_keywords:
 - wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

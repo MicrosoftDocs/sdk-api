@@ -12,6 +12,8 @@ ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllo
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlLookupFunctionEntry"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

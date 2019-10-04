@@ -12,6 +12,8 @@ ms.keywords: '*PMACHINE_POWER_POLICY, MACHINE_POWER_POLICY, MACHINE_POWER_POLICY
 ms.topic: struct
 f1_keywords:
 - powrprof/MACHINE_POWER_POLICY
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

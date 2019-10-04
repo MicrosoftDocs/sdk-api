@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IM
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.SetStreamSink"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

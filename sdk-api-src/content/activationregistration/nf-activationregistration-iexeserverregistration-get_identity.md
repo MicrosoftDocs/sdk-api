@@ -12,6 +12,8 @@ ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Identity met
 ms.topic: method
 f1_keywords: 
  - "activationregistration/IExeServerRegistration.get_Identity"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

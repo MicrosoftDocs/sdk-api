@@ -12,6 +12,8 @@ ms.keywords: "*PPCCARD_DES, PCCARD_DES, PCCARD_DES structure [Device and Driver 
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/PCCARD_DES"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

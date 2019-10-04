@@ -12,6 +12,8 @@ ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetI
 ms.topic: function
 f1_keywords: 
  - "intshcut/InetIsOffline"
+dev_langs:
+ - c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

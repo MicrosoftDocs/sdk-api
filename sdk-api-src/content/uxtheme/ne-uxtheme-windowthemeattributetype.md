@@ -12,6 +12,8 @@ ms.keywords: WINDOWTHEMEATTRIBUTETYPE, WINDOWTHEMEATTRIBUTETYPE enumeration [Win
 ms.topic: enum
 f1_keywords: 
  - "uxtheme/WINDOWTHEMEATTRIBUTETYPE"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

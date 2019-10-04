@@ -12,6 +12,8 @@ ms.keywords: ISharingConfigurationManager interface [Windows Shell],ShareExists 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ISharingConfigurationManager.ShareExists"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

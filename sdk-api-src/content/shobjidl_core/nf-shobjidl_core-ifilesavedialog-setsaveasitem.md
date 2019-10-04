@@ -12,6 +12,8 @@ ms.keywords: IFileSaveDialog interface [Windows Shell],SetSaveAsItem method, IFi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileSaveDialog.SetSaveAsItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

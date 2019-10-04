@@ -12,6 +12,8 @@ ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTranscodeProfile.GetAudioAttributes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

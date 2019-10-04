@@ -12,6 +12,8 @@ ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity m
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

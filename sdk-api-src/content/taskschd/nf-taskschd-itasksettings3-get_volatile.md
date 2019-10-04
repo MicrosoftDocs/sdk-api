@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings3 interface [Task Scheduler],Volatile property, ITaskS
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings3.Volatile"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

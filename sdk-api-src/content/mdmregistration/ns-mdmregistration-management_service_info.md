@@ -12,6 +12,8 @@ ms.keywords: "*PMANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO, MANAGEMENT_SER
 ms.topic: struct
 f1_keywords: 
  - "mdmregistration/MANAGEMENT_SERVICE_INFO"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

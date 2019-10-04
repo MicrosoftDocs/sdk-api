@@ -12,6 +12,8 @@ ms.keywords: EnumLocalesProcEx, LOCALE_ENUMPROCEX, LOCALE_ENUMPROCEX callback, L
 ms.topic: callback
 f1_keywords: 
  - "winnls/LOCALE_ENUMPROCEX"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: 
 req.target-type: Windows

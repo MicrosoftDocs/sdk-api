@@ -12,6 +12,8 @@ ms.keywords: '*PWER_DUMP_CUSTOM_OPTIONS, PWER_DUMP_CUSTOM_OPTIONS, PWER_DUMP_CUS
 ms.topic: struct
 f1_keywords:
 - werapi/WER_DUMP_CUSTOM_OPTIONS
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

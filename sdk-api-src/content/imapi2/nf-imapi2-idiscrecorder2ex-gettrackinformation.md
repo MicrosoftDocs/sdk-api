@@ -12,6 +12,8 @@ ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackIn
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetTrackInformation
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

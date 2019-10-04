@@ -12,6 +12,8 @@ ms.keywords: 37ba820c-5253-48de-a960-c546e50e8672, GetStateNoAddRef, GetStateNoA
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncResult.GetStateNoAddRef"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

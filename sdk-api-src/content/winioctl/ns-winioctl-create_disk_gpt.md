@@ -12,6 +12,8 @@ ms.keywords: '*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Fil
 ms.topic: struct
 f1_keywords:
 - winioctl/CREATE_DISK_GPT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

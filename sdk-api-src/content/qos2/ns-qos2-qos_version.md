@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS],
 ms.topic: struct
 f1_keywords: 
  - "qos2/QOS_VERSION"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

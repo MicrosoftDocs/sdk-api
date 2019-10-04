@@ -12,6 +12,8 @@ ms.keywords: BindSamplerByName, BindSamplerByName method [Direct3D 11], BindSamp
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ModuleInstance.BindSamplerByName"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

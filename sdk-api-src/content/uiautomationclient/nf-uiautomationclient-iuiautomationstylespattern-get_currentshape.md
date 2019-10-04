@@ -12,6 +12,8 @@ ms.keywords: CurrentShape property [Windows Accessibility], CurrentShape propert
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationStylesPattern.CurrentShape"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

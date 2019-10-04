@@ -12,6 +12,8 @@ ms.keywords: ICrmCompensator interface [COM+],SetLogControl method, ICrmCompensa
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.SetLogControl"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

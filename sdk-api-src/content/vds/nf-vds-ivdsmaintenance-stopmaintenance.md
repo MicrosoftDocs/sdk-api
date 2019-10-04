@@ -12,6 +12,8 @@ ms.keywords: IVdsMaintenance interface [VDS],StopMaintenance method, IVdsMainten
 ms.topic: method
 f1_keywords:
 - vds/IVdsMaintenance.StopMaintenance
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

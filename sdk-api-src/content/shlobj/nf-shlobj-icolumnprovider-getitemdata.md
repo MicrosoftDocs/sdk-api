@@ -12,6 +12,8 @@ ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method
 ms.topic: method
 f1_keywords: 
  - "shlobj/IColumnProvider.GetItemData"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

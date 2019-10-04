@@ -12,6 +12,8 @@ ms.keywords: DML_INTERPOLATION_MODE, DML_INTERPOLATION_MODE enumeration, DML_INT
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_INTERPOLATION_MODE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

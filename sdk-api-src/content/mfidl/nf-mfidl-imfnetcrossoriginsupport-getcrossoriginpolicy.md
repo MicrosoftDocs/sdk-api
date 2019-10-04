@@ -12,6 +12,8 @@ ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

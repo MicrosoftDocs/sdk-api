@@ -12,6 +12,8 @@ ms.keywords: CreateMenu, CreateMenu function [Menus and Other Resources], _win32
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

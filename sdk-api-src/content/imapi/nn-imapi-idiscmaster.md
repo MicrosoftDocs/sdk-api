@@ -12,6 +12,8 @@ ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [
 ms.topic: interface
 f1_keywords: 
  - "imapi/IDiscMaster"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

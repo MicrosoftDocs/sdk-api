@@ -12,6 +12,8 @@ ms.keywords: TF_LB_BALLOON_MISS, TF_LB_BALLOON_RECO, TF_LB_BALLOON_SHOW, TfLBBal
 ms.topic: enum
 f1_keywords: 
  - "ctfutb/TfLBBalloonStyle"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

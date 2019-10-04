@@ -12,6 +12,8 @@ ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetPro
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFNetProxyLocator"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

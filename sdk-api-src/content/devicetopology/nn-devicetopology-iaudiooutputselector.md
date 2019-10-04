@@ -12,6 +12,8 @@ ms.keywords: IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], 
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioOutputSelector"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMMediaTypeStream interface [DirectShow],SetStreamAllocatorRequire
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeStream.SetStreamAllocatorRequirements"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

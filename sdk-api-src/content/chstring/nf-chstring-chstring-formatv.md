@@ -12,6 +12,8 @@ ms.keywords: "?FormatV@CHString@@QAEXPBGPAD@Z, ?FormatV@CHString@@QEAAXPEBGPEAD@
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.FormatV"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

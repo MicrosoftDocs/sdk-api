@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],GetSize method, Font.GetSize, Font::GetSize, GetS
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.GetSize"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

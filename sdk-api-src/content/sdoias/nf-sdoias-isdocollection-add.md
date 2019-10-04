@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Network Policy Server], Add method [Network Policy
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoCollection.Add
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

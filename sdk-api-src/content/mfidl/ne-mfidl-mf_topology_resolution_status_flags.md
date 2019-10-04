@@ -12,6 +12,8 @@ ms.keywords: MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE, MF_OPTIONAL_NODE_REJECTED_PRO
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CMSPCallBase interface [TAPI 2.2],InternalCreateStream method, CMSP
 ms.topic: method
 f1_keywords: 
  - "mspcall/CMSPCallBase.InternalCreateStream"
+dev_langs:
+ - c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

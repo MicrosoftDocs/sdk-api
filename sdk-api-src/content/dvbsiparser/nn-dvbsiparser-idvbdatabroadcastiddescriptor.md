@@ -12,6 +12,8 @@ ms.keywords: IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interf
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastIDDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

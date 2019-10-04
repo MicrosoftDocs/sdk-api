@@ -12,6 +12,8 @@ ms.keywords: GetCompletedIndex, GetCompletedIndex method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.GetCompletedIndex"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

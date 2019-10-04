@@ -12,6 +12,8 @@ ms.keywords: GetColumnState, GetColumnState method [Windows Properties], GetColu
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetColumnState"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

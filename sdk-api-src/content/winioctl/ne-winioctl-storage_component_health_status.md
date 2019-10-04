@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthSta
 ms.topic: enum
 f1_keywords: 
  - "winioctl/STORAGE_COMPONENT_HEALTH_STATUS"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

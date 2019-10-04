@@ -12,6 +12,8 @@ ms.keywords: ClassificationLastReportPathWithoutExtension property [File Server 
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

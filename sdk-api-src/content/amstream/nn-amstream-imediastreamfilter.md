@@ -12,6 +12,8 @@ ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMed
 ms.topic: interface
 f1_keywords: 
  - "amstream/IMediaStreamFilter"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

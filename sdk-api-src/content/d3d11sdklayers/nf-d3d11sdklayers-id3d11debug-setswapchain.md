@@ -12,6 +12,8 @@ ms.keywords: 93f55103-9ea2-645a-a17a-4dc52160d41b, ID3D11Debug interface [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11Debug.SetSwapChain"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

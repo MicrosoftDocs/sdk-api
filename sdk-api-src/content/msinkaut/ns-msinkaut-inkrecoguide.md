@@ -12,6 +12,8 @@ ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tab
 ms.topic: struct
 f1_keywords: 
  - "msinkaut/DISPID_InkRecognizerGuide"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

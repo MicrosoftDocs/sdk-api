@@ -12,6 +12,8 @@ ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Propert
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/SYNC_ENGINE_STATE_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

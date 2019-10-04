@@ -12,6 +12,8 @@ ms.keywords: "; typedef DWORD FILEOPENDIALOGOPTIONS, ; typedef DWORD FILEOPENDIA
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/; typedef DWORD FILEOPENDIALOGOPTIONS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

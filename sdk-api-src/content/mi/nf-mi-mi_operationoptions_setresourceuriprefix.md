@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_SetResourceUriPrefix, MI_OperationOptions_SetRe
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetResourceUriPrefix
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

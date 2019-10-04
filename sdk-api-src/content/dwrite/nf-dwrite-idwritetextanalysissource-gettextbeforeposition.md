@@ -12,6 +12,8 @@ ms.keywords: GetTextBeforePosition, GetTextBeforePosition method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalysisSource.GetTextBeforePosition"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuningSpace method
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.put_TuningSpace"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

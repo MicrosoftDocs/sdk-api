@@ -12,6 +12,8 @@ ms.keywords: VarFix, VarFix function [Automation], _oa96_VarFix, automat.varfix,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarFix"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

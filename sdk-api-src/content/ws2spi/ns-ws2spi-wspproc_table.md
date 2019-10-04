@@ -12,6 +12,8 @@ ms.keywords: "*LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE, FAR * LPWSPPROC_TABLE str
 ms.topic: struct
 f1_keywords: 
  - "ws2spi/WSPPROC_TABLE"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

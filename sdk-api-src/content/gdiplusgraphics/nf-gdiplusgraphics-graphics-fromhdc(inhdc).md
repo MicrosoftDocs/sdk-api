@@ -12,6 +12,8 @@ ms.keywords: FromHDC, FromHDC method [GDI+], FromHDC method [GDI+],Graphics clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FromHDC"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

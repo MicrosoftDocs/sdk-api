@@ -12,6 +12,8 @@ ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interfac
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbTSInformationDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

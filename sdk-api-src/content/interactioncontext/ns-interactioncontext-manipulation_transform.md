@@ -12,6 +12,8 @@ ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_int
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/MANIPULATION_TRANSFORM"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

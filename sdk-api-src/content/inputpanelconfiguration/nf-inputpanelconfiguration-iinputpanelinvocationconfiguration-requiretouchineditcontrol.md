@@ -12,6 +12,8 @@ ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],Requir
 ms.topic: method
 f1_keywords: 
  - "inputpanelconfiguration/IInputPanelInvocationConfiguration.RequireTouchInEditControl"
+dev_langs:
+ - c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

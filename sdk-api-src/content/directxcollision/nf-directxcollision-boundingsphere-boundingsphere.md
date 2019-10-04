@@ -8,6 +8,8 @@ ms.keywords: BoundingSphere::BoundingSphere
 ms.topic: language-reference
 f1_keywords: 
  - "directxcollision/BoundingSphere::BoundingSphere"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

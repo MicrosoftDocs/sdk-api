@@ -12,6 +12,8 @@ ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP 
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

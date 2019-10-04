@@ -12,6 +12,8 @@ ms.keywords: IXAPOParameters interface [XAudio2 Audio Mixing APIs],SetParameters
 ms.topic: method
 f1_keywords: 
  - "xapo/IXAPOParameters.SetParameters"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

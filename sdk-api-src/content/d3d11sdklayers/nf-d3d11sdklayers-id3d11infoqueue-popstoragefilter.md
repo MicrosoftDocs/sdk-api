@@ -12,6 +12,8 @@ ms.keywords: 7b6f8281-5c21-f18e-ee3a-dd060b36820f, ID3D11InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.PopStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

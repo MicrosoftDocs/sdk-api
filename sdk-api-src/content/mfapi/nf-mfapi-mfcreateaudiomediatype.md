@@ -12,6 +12,8 @@ ms.keywords: 8857e150-1746-4f3f-aaa8-db0f44787621, MFCreateAudioMediaType, MFCre
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateAudioMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

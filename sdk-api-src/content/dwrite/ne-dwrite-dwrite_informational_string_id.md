@@ -12,6 +12,8 @@ ms.keywords: DWRITE_INFORMATIONAL_STRING_COPYRIGHT_NOTICE, DWRITE_INFORMATIONAL_
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_INFORMATIONAL_STRING_ID"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

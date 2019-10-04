@@ -12,6 +12,8 @@ ms.keywords: GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer met
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetBackBuffer"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

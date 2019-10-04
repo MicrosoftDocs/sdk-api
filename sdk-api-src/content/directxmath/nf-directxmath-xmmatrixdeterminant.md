@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixDeterminant, XMMatrixDeterminant, XMMatrixDete
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixDeterminant"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

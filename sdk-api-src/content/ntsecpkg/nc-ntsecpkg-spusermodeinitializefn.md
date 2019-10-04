@@ -12,6 +12,8 @@ ms.keywords: SpUserModeInitialize, SpUserModeInitialize callback function [Secur
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUserModeInitialize
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

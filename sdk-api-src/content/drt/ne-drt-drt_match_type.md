@@ -12,6 +12,8 @@ ms.keywords: DRT_MATCH_EXACT, DRT_MATCH_INTERMEDIATE, DRT_MATCH_NEAR, DRT_MATCH_
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_MATCH_TYPE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

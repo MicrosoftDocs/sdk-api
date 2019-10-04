@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY st
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_ALT_NAME_ENTRY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

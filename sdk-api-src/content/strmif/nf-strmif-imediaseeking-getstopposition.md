@@ -12,6 +12,8 @@ ms.keywords: GetStopPosition, GetStopPosition method [DirectShow], GetStopPositi
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetStopPosition"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

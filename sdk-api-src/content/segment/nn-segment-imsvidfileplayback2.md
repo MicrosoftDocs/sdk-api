@@ -12,6 +12,8 @@ ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidFilePlayback2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

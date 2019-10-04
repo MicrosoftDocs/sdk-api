@@ -12,6 +12,8 @@ ms.keywords: GetGenerator, GetGenerator method [Windows Controls], GetGenerator 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetGenerator"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

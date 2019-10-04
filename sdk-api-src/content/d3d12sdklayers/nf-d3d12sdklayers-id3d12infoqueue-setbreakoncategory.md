@@ -12,6 +12,8 @@ ms.keywords: ID3D12InfoQueue interface,SetBreakOnCategory method, ID3D12InfoQueu
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12InfoQueue.SetBreakOnCategory"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

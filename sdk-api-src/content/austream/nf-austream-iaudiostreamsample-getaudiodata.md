@@ -12,6 +12,8 @@ ms.keywords: GetAudioData, GetAudioData method [DirectShow], GetAudioData method
 ms.topic: method
 f1_keywords: 
  - "austream/IAudioStreamSample.GetAudioData"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS
 ms.topic: language-reference
 f1_keywords: 
  - "d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

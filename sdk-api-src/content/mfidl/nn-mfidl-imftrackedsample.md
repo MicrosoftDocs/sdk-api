@@ -12,6 +12,8 @@ ms.keywords: 4ad4b14c-94af-4314-8a16-163579dec67f, IMFTrackedSample, IMFTrackedS
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTrackedSample"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

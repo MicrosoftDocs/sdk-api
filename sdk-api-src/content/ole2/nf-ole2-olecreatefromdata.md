@@ -12,6 +12,8 @@ ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreate
 ms.topic: function
 f1_keywords: 
  - "ole2/OleCreateFromData"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WriteCabinetState, WriteCabinetState function [Windows Shell], _win
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/WriteCabinetState"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

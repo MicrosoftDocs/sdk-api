@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_TYPE, PMETypeFailFastOnCommitFailure, 
 ms.topic: enum
 f1_keywords: 
  - "processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

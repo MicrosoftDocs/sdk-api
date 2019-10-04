@@ -12,6 +12,8 @@ ms.keywords: "*PRID_DEVICE_INFO_MOUSE, PRID_DEVICE_INFO_MOUSE, PRID_DEVICE_INFO_
 ms.topic: struct
 f1_keywords: 
  - "winuser/RID_DEVICE_INFO_MOUSE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

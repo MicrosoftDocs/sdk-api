@@ -12,6 +12,8 @@ ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProp
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetParamProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

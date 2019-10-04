@@ -12,6 +12,8 @@ ms.keywords: DMO_INPUT_DATA_BUFFERF_SYNCPOINT, DMO_INPUT_DATA_BUFFERF_TIME, DMO_
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_INPUT_DATA_BUFFER_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

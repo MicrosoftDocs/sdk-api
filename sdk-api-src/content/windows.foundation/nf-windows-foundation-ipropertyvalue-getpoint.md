@@ -12,6 +12,8 @@ ms.keywords: GetPoint, GetPoint method [Windows Runtime], GetPoint method [Windo
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetPoint"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyI
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformationCollection.Add"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

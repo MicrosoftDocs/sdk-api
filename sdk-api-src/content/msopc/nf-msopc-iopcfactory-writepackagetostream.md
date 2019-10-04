@@ -12,6 +12,8 @@ ms.keywords: IOpcFactory interface [Open Packaging Conventions],WritePackageToSt
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcFactory.WritePackageToStream"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

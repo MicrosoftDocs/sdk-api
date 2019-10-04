@@ -12,6 +12,8 @@ ms.keywords: IUserNotification2 interface [Windows Shell],SetIconInfo method, IU
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IUserNotification2.SetIconInfo"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

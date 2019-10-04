@@ -12,6 +12,8 @@ ms.keywords: "*PPOINTER_TYPE_INFO, POINTER_TYPE_INFO, POINTER_TYPE_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "winuser/POINTER_TYPE_INFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

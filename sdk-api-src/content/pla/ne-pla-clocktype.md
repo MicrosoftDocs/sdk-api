@@ -12,6 +12,8 @@ ms.keywords: ClockType, ClockType enumeration [PLA], base.clocktype, pla.clockty
 ms.topic: enum
 f1_keywords: 
  - "pla/ClockType"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

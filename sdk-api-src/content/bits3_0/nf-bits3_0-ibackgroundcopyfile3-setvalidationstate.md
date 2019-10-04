@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IB
 ms.topic: method
 f1_keywords: 
  - "bits3_0/IBackgroundCopyFile3.SetValidationState"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

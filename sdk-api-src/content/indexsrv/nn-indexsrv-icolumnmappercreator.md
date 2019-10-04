@@ -12,6 +12,8 @@ ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], ICol
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/IColumnMapperCreator"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

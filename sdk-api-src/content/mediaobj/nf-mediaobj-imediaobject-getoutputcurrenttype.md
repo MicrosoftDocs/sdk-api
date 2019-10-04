@@ -12,6 +12,8 @@ ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [DirectShow], Get
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.GetOutputCurrentType"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

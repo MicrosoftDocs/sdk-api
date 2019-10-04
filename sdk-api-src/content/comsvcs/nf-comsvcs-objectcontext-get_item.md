@@ -12,6 +12,8 @@ ms.keywords: ObjectContext interface [COM+],get_Item method, ObjectContext.get_I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ObjectContext.get_Item"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

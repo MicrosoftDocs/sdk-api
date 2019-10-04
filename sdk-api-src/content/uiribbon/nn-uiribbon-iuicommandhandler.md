@@ -12,6 +12,8 @@ ms.keywords: IUICommandHandler, IUICommandHandler interface [Windows Ribbon], IU
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUICommandHandler"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

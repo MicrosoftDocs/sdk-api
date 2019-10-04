@@ -12,6 +12,8 @@ ms.keywords: TTIsEmbeddingEnabled, TTIsEmbeddingEnabled function [Windows GDI], 
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTIsEmbeddingEnabled"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

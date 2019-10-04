@@ -12,6 +12,8 @@ ms.keywords: '*PRTM_ROUTE_INFO, PRTM_ROUTE_INFO, PRTM_ROUTE_INFO structure point
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_ROUTE_INFO
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security],
 ms.topic: function
 f1_keywords:
 - wincred/CredFindBestCredential
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

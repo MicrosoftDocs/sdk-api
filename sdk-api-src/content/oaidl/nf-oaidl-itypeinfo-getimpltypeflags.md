@@ -12,6 +12,8 @@ ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplType
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetImplTypeFlags"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

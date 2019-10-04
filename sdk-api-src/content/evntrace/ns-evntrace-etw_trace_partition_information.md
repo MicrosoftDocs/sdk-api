@@ -12,6 +12,8 @@ ms.keywords: "*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION
 ms.topic: struct
 f1_keywords: 
  - "evntrace/ETW_TRACE_PARTITION_INFORMATION"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsoc
 ms.topic: function
 f1_keywords:
 - winsock2/WSAAccept
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HistogramGrid, HistogramGrid structure [Streaming Media Devices], m
 ms.topic: struct
 f1_keywords: 
  - "mfapi/HistogramGrid"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

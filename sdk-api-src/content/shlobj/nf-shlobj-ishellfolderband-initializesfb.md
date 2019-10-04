@@ -12,6 +12,8 @@ ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IS
 ms.topic: method
 f1_keywords: 
  - "shlobj/IShellFolderBand.InitializeSFB"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

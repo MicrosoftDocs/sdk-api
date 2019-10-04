@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],put_VolumeName method, IFileSyst
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.put_VolumeName"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

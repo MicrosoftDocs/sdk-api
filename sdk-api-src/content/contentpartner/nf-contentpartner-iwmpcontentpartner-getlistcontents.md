@@ -12,6 +12,8 @@ ms.keywords: GetListContents, GetListContents method [Windows Media Player], Get
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetListContents"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

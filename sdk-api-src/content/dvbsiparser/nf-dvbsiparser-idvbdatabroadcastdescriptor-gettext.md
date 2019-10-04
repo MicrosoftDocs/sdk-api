@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Microsoft TV Technologies], GetText method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastDescriptor.GetText"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

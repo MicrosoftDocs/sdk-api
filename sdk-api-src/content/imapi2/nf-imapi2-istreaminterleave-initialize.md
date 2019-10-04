@@ -12,6 +12,8 @@ ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInter
 ms.topic: method
 f1_keywords: 
  - "imapi2/IStreamInterleave.Initialize"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

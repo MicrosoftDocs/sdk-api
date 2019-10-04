@@ -12,6 +12,8 @@ ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONN
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetAddConnection2"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

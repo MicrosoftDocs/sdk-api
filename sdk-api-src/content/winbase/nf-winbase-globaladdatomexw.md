@@ -12,6 +12,8 @@ ms.keywords: GlobalAddAtomEx, GlobalAddAtomEx function [Data Exchange], GlobalAd
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalAddAtomEx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

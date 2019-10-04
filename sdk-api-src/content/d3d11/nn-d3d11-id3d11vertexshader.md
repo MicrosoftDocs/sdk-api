@@ -12,6 +12,8 @@ ms.keywords: ID3D11VertexShader, ID3D11VertexShader interface [Direct3D 11], ID3
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11VertexShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

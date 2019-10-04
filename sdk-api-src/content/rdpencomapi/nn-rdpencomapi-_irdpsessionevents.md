@@ -12,6 +12,8 @@ ms.keywords: "_IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessi
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/_IRDPSessionEvents"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

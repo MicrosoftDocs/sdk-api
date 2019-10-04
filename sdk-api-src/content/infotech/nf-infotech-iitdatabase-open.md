@@ -12,6 +12,8 @@ ms.keywords: IITDatabase interface [HTML Help Workshop],Open method, IITDatabase
 ms.topic: method
 f1_keywords: 
  - "infotech/IITDatabase.Open"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

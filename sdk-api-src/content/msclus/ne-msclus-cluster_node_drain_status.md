@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_NODE_DRAIN_STATUS, CLUSTER_NODE_DRAIN_STATUS enumeration [F
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_NODE_DRAIN_STATUS"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

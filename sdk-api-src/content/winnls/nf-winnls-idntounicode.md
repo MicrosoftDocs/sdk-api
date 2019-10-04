@@ -12,6 +12,8 @@ ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windo
 ms.topic: function
 f1_keywords: 
  - "winnls/IdnToUnicode"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

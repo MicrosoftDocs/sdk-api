@@ -12,6 +12,8 @@ ms.keywords: CALLINFO_BUFFER, CALLINFO_BUFFER enumeration [TAPI 2.2], CIB_CALLDA
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLINFO_BUFFER"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

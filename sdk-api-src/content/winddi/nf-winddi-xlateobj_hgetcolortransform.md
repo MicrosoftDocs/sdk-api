@@ -12,6 +12,8 @@ ms.keywords: XLATEOBJ_hGetColorTransform, XLATEOBJ_hGetColorTransform function [
 ms.topic: function
 f1_keywords:
 - winddi/XLATEOBJ_hGetColorTransform
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._w
 ms.topic: function
 f1_keywords: 
  - "winuser/wvsprintf"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

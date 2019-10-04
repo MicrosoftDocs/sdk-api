@@ -12,6 +12,8 @@ ms.keywords: LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalU
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_LINK_LOCAL_ADDRESS_BEHAVIOR"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

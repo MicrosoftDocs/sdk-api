@@ -12,6 +12,8 @@ ms.keywords: "*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, 
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/FILETIME"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DELETE_SNAPSHOT_VHDSET_VERSION, DELETE_SNAPSHOT_VHDSET_VERSION enum
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/DELETE_SNAPSHOT_VHDSET_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

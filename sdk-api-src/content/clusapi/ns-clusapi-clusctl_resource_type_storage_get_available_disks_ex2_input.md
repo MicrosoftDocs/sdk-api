@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT, CLU
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

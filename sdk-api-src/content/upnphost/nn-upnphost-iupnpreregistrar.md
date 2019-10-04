@@ -12,6 +12,8 @@ ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], IUPnPRere
 ms.topic: interface
 f1_keywords: 
  - "upnphost/IUPnPReregistrar"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

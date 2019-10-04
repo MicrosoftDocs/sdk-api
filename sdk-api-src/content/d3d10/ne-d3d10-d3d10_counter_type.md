@@ -12,6 +12,8 @@ ms.keywords: D3D10_COUNTER_TYPE, D3D10_COUNTER_TYPE enumeration [Direct3D 10], D
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_COUNTER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

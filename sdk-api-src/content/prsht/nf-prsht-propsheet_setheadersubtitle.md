@@ -12,6 +12,8 @@ ms.keywords: PropSheet_SetHeaderSubTitle, PropSheet_SetHeaderSubTitle macro [Win
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_SetHeaderSubTitle
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

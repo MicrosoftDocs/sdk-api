@@ -12,6 +12,8 @@ ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deploym
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6IsValid"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

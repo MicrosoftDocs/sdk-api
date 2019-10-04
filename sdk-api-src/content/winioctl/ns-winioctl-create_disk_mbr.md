@@ -12,6 +12,8 @@ ms.keywords: '*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Fil
 ms.topic: struct
 f1_keywords:
 - winioctl/CREATE_DISK_MBR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

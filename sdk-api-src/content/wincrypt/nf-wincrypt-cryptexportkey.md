@@ -12,6 +12,8 @@ ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK,
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptExportKey"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

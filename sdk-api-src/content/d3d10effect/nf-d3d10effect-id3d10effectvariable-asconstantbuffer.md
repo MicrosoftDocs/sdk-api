@@ -12,6 +12,8 @@ ms.keywords: 477c624a-b604-228f-bba0-0e26ed2d49e1, AsConstantBuffer, AsConstantB
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsConstantBuffer"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

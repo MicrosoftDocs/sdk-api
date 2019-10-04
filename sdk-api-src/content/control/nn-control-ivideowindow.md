@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow int
 ms.topic: interface
 f1_keywords: 
  - "control/IVideoWindow"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

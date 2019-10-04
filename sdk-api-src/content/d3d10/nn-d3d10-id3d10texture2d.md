@@ -12,6 +12,8 @@ ms.keywords: 9a2f06c7-c0b0-a077-da90-1fba199f3a88, ID3D10Texture2D, ID3D10Textur
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10Texture2D"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

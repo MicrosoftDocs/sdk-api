@@ -12,6 +12,8 @@ ms.keywords: CERT_ARCHIVED_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_CTL_USAGE_PRO
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSetCTLContextProperty
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

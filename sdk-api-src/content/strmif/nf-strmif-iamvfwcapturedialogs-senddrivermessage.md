@@ -12,6 +12,8 @@ ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],SendDriverMessage metho
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVfwCaptureDialogs.SendDriverMessage"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

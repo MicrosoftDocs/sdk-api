@@ -12,6 +12,8 @@ ms.keywords: CreateAffineTransform2DEffect, CreateAffineTransform2DEffect method
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateAffineTransform2DEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

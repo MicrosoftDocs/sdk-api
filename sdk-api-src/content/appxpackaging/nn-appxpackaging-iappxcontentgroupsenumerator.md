@@ -12,6 +12,8 @@ ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interfac
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxContentGroupsEnumerator"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

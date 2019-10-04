@@ -12,6 +12,8 @@ ms.keywords: ICallFrame interface [COM],SetStackLocation method, ICallFrame.SetS
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.SetStackLocation"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

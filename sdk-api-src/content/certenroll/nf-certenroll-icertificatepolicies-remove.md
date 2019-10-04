@@ -12,6 +12,8 @@ ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertifica
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificatePolicies.Remove"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

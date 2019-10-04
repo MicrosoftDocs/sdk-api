@@ -12,6 +12,8 @@ ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EA
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerInvokeInteractiveUI
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

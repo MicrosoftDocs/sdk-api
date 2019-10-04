@@ -12,6 +12,8 @@ ms.keywords: DVDSPExt, DVDSPExt enumeration [Microsoft TV Technologies], dvdSPEx
 ms.topic: enum
 f1_keywords: 
  - "segment/DVDSPExt"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

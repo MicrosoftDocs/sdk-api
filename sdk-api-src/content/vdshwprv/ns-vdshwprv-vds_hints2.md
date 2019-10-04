@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINT
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_HINTS2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

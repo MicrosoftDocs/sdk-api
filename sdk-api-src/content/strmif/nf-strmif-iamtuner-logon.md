@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],Logon method, IAMTuner.Logon, IAMTu
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.Logon"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: pluginResource2FileAssociation, pluginResource2FileAssociation stru
 ms.topic: struct
 f1_keywords: 
  - "tspubplugin2com/pluginResource2FileAssociation"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUserActivityInterval, GetUserActivityInterval method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_UserActivityService.GetUserActivityInterval"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,10 @@ description: Targets a single window for the creation of a graphics capture item
 ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForWindow
 ms.topic: language-reference
+f1_keywords:
+ - IGraphicsCaptureItemInterop::CreateForWindow
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

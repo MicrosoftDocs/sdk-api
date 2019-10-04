@@ -12,6 +12,8 @@ ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, PMIB_CRE
 ms.topic: callback
 f1_keywords: 
  - "routprot/MibCreate"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

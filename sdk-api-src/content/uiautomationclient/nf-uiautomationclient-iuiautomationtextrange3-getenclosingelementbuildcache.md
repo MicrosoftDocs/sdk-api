@@ -12,6 +12,8 @@ ms.keywords: GetEnclosingElementBuildCache, GetEnclosingElementBuildCache method
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange3.GetEnclosingElementBuildCache"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

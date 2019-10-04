@@ -12,6 +12,8 @@ ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Rese
 ms.topic: method
 f1_keywords: 
  - "oaidl/IEnumVARIANT.Reset"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

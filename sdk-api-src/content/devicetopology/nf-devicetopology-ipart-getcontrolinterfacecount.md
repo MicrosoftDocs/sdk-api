@@ -12,6 +12,8 @@ ms.keywords: GetControlInterfaceCount, GetControlInterfaceCount method [Core Aud
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.GetControlInterfaceCount"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

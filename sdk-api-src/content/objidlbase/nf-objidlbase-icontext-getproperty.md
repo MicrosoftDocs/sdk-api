@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],ICo
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IContext.GetProperty"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

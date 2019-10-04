@@ -12,6 +12,8 @@ ms.keywords: IMixerPinConfig2 interface [DirectShow],SetOverlaySurfaceColorContr
 ms.topic: method
 f1_keywords: 
  - "mpconfig/IMixerPinConfig2.SetOverlaySurfaceColorControls"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

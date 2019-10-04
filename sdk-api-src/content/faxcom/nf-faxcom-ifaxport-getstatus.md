@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Fax Service], GetStatus method [Fax Se
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.GetStatus"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

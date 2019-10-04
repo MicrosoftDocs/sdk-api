@@ -12,6 +12,8 @@ ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfile
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetFileTime"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

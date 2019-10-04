@@ -12,6 +12,8 @@ ms.keywords: CrackSingleName, CrackSingleName callback function [Security], DS_C
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CrackSingleName
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],get_hPal method, IPicture.get_hPal, IPictu
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.get_hPal"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

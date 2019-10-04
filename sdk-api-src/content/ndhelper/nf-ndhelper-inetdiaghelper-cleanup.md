@@ -12,6 +12,8 @@ ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper 
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.Cleanup"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

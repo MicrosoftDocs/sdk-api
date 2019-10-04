@@ -12,6 +12,8 @@ ms.keywords: IMetaDataImport interface [Windows Runtime],IsGlobal method, IMetaD
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.IsGlobal"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

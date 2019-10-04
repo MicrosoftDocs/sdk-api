@@ -12,6 +12,8 @@ ms.keywords: IPrint interface [COM],Print method, IPrint.Print, IPrint::Print, P
 ms.topic: method
 f1_keywords: 
  - "docobj/IPrint.Print"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWindowAssociation, GetWindowAssociation method [DXGI], GetWindow
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory.GetWindowAssociation"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

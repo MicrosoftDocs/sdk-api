@@ -12,6 +12,8 @@ ms.keywords: FALSE, PFSCE_QUERY_INFO, PFSCE_QUERY_INFO callback, PFSCE_QUERY_INF
 ms.topic: callback
 f1_keywords: 
  - "scesvc/PFSCE_QUERY_INFO"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

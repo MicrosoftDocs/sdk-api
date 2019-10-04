@@ -12,6 +12,8 @@ ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API]
 ms.topic: function
 f1_keywords: 
  - "filehc/FindOrCreateNameCache"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

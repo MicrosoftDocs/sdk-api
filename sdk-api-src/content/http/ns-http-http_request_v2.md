@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_REQUEST, *PHTTP_REQUEST_V2, *PHTTP_REQUEST_V2 structure [HT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_REQUEST_V2
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

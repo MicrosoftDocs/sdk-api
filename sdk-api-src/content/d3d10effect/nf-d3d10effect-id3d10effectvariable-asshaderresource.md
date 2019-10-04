@@ -12,6 +12,8 @@ ms.keywords: 9ecc402e-7c27-c872-6635-599b5c000326, AsShaderResource, AsShaderRes
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsShaderResource"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

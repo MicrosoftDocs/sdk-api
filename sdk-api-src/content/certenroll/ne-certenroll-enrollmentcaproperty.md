@@ -12,6 +12,8 @@ ms.keywords: CAPropCertificate, CAPropCertificateTypes, CAPropCommonName, CAProp
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentCAProperty"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO struc
 ms.topic: struct
 f1_keywords:
 - shellapi/SHELLEXECUTEINFO
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

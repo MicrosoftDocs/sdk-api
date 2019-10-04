@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing met
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextLayout1.SetCharacterSpacing"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

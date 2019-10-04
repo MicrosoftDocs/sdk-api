@@ -12,6 +12,8 @@ ms.keywords: WMT_ATTR_DATATYPE, WMT_ATTR_DATATYPE enumeration [windows Media For
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_ATTR_DATATYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Extensions.AddRange"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

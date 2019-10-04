@@ -12,6 +12,8 @@ ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency
 ms.topic: method
 f1_keywords: 
  - "tuner/ILocator.put_CarrierFrequency"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

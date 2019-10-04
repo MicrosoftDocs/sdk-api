@@ -12,6 +12,8 @@ ms.keywords: GetSTT, GetSTT method [Microsoft TV Technologies], GetSTT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetSTT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

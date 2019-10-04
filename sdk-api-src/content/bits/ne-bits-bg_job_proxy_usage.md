@@ -12,6 +12,8 @@ ms.keywords: BG_JOB_PROXY_USAGE, BG_JOB_PROXY_USAGE enumeration [BITS], BG_JOB_P
 ms.topic: enum
 f1_keywords: 
  - "bits/BG_JOB_PROXY_USAGE"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

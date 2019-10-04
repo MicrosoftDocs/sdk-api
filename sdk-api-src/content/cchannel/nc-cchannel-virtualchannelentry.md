@@ -12,6 +12,8 @@ ms.keywords: VirtualChannelEntry, VirtualChannelEntry callback, VirtualChannelEn
 ms.topic: callback
 f1_keywords: 
  - "cchannel/VirtualChannelEntry"
+dev_langs:
+ - c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [w
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMEnumStorage.Clone"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

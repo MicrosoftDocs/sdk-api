@@ -12,6 +12,8 @@ ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgr
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyManager.CreateJob"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

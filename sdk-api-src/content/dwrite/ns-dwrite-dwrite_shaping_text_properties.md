@@ -12,6 +12,8 @@ ms.keywords: DWRITE_SHAPING_TEXT_PROPERTIES, DWRITE_SHAPING_TEXT_PROPERTIES stru
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_SHAPING_TEXT_PROPERTIES"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, P
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_TEMPERATURE_THRESHOLD
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

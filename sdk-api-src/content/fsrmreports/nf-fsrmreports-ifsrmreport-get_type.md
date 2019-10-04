@@ -12,6 +12,8 @@ ms.keywords: IFsrmReport interface [File Server Resource Manager],Type property,
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReport.Type"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

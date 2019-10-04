@@ -12,6 +12,8 @@ ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo funct
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsGetDomainControllerInfo"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

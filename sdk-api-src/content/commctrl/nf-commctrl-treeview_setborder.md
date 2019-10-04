@@ -12,6 +12,8 @@ ms.keywords: TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorde
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_SetBorder"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

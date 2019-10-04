@@ -12,6 +12,8 @@ ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows 
 ms.topic: function
 f1_keywords: 
  - "syncmgr/FreeConfirmConflictItem"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl
 req.target-type: Windows

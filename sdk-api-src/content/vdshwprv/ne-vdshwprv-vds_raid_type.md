@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_RAID_TYPE, VDS_RAID_TYPE, VDS_RAID_TYPE enumeration, VDS_RT_
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_RAID_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

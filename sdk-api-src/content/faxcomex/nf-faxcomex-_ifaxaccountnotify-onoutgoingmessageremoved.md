@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountNotify.OnOutgoingMessageRemoved, OnOutgoingMessageRemove
 ms.topic: method
 f1_keywords: 
  - "faxcomex/_IFaxAccountNotify.OnOutgoingMessageRemoved"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base
 ms.topic: function
 f1_keywords: 
  - "synchapi/SleepConditionVariableSRW"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

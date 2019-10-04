@@ -12,6 +12,8 @@ ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engl
 ms.topic: macro
 f1_keywords: 
  - "winddi/EngLoadImage"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

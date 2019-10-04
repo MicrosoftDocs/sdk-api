@@ -12,6 +12,8 @@ ms.keywords: IDataAdviseHolder interface [COM],Unadvise method, IDataAdviseHolde
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataAdviseHolder.Unadvise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

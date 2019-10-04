@@ -12,6 +12,8 @@ ms.keywords: '*PCABINET_INFO_W, CABINET_INFO, CABINET_INFO structure [Setup API]
 ms.topic: struct
 f1_keywords:
 - setupapi/CABINET_INFO
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

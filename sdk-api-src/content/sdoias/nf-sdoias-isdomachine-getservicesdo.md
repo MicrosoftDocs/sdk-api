@@ -12,6 +12,8 @@ ms.keywords: IAS, RemoteAccess, GetServiceSDO, GetServiceSDO method [Network Pol
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoMachine.GetServiceSDO
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DosDateTimeToVariantTime, DosDateTimeToVariantTime function [Automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/DosDateTimeToVariantTime"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

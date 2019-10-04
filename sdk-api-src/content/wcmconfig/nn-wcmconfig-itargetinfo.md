@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SM
 ms.topic: interface
 f1_keywords: 
  - "wcmconfig/ITargetInfo"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

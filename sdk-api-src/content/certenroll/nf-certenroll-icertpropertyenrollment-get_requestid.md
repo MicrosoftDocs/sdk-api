@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyEnrollment interface [Security],RequestId property, IC
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollment.RequestId"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

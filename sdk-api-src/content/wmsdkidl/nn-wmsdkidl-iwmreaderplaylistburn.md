@@ -12,6 +12,8 @@ ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Med
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMReaderPlaylistBurn"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

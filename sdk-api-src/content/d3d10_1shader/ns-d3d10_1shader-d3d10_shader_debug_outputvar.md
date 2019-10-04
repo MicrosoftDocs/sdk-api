@@ -12,6 +12,8 @@ ms.keywords: D3D10_SHADER_DEBUG_OUTPUTVAR, D3D10_SHADER_DEBUG_OUTPUTVAR structur
 ms.topic: struct
 f1_keywords: 
  - "d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

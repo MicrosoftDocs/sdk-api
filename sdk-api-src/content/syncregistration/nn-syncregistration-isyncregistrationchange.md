@@ -12,6 +12,8 @@ ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "syncregistration/ISyncRegistrationChange"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

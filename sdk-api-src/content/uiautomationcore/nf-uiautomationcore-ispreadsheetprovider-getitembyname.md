@@ -12,6 +12,8 @@ ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetIte
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISpreadsheetProvider.GetItemByName"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

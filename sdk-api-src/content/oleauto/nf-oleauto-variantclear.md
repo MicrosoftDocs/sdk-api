@@ -12,6 +12,8 @@ ms.keywords: VariantClear, VariantClear function [Automation], _oa96_VariantClea
 ms.topic: function
 f1_keywords: 
  - "oleauto/VariantClear"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

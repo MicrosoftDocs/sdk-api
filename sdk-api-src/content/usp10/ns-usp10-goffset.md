@@ -12,6 +12,8 @@ ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applic
 ms.topic: struct
 f1_keywords: 
  - "usp10/GOFFSET"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

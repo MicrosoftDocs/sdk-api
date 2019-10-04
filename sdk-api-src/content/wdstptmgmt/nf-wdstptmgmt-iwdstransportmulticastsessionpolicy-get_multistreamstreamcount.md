@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment S
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.MultistreamStreamCount"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

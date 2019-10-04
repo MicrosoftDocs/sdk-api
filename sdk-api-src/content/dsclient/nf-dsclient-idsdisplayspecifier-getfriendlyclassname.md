@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyClassName, GetFriendlyClassName method [Active Directory
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.GetFriendlyClassName"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

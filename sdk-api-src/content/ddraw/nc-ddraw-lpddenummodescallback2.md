@@ -12,6 +12,8 @@ ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDra
 ms.topic: callback
 f1_keywords: 
  - "ddraw/EnumModesCallback2"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

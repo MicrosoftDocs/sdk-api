@@ -12,6 +12,8 @@ ms.keywords: "*LPHEAPENTRY32, *PHEAPENTRY32, HEAPENTRY32, HEAPENTRY32 structure 
 ms.topic: struct
 f1_keywords: 
  - "tlhelp32/HEAPENTRY32"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

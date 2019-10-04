@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],MoveNext method
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessageIterator.MoveNext"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

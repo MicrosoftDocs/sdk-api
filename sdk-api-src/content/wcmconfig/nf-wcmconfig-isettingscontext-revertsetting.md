@@ -12,6 +12,8 @@ ms.keywords: ISettingsContext interface [SMI],RevertSetting method, ISettingsCon
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsContext.RevertSetting"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

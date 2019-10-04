@@ -12,6 +12,8 @@ ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsT
 ms.topic: function
 f1_keywords: 
  - "recapis/AddWordsToWordList"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

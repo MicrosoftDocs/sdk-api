@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Picture Acquisition], GetFlags method [P
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.GetFlags"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

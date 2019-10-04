@@ -12,6 +12,8 @@ ms.keywords: MSIMODIFY_ASSIGN, MSIMODIFY_DELETE, MSIMODIFY_INSERT, MSIMODIFY_INS
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiViewModify"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

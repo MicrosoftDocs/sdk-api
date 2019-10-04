@@ -12,6 +12,8 @@ ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BAC
 ms.topic: struct
 f1_keywords: 
  - "avrfsdk/AVRF_BACKTRACE_INFORMATION"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

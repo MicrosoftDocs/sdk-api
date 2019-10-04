@@ -12,6 +12,8 @@ ms.keywords: "_win32_gai_strerror_2, gai_strerror, gai_strerror function [Winsoc
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/gai_strerror"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

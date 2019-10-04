@@ -12,6 +12,8 @@ ms.keywords: GetConfiguration, GetConfiguration method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSListener.GetConfiguration"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

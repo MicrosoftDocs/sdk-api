@@ -12,6 +12,8 @@ ms.keywords: WriteClassStg, WriteClassStg function [Structured Storage], _stg_wr
 ms.topic: function
 f1_keywords: 
  - "coml2api/WriteClassStg"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPROJECTION_INFO2, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_
 ms.topic: struct
 f1_keywords:
 - mprapi/PROJECTION_INFO2
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

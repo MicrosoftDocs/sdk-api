@@ -12,6 +12,8 @@ ms.keywords: CITextToFullTree, CITextToFullTree function [Indexing Service], _id
 ms.topic: function
 f1_keywords: 
  - "ntquery/CITextToFullTree"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

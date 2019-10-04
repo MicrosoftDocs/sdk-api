@@ -12,6 +12,8 @@ ms.keywords: ITSGAuthorizeConnectionSink interface [Remote Desktop Services],OnC
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGAuthorizeConnectionSink.OnConnectionAuthorized"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

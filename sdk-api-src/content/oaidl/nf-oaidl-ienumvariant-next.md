@@ -12,6 +12,8 @@ ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next,
 ms.topic: method
 f1_keywords: 
  - "oaidl/IEnumVARIANT.Next"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

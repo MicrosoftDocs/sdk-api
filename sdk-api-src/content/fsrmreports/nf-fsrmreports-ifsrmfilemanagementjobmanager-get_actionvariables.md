@@ -12,6 +12,8 @@ ms.keywords: ActionVariables property [File Server Resource Manager], ActionVari
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJobManager.ActionVariables"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

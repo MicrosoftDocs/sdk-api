@@ -12,6 +12,8 @@ ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

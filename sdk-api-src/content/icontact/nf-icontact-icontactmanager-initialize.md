@@ -12,6 +12,8 @@ ms.keywords: IContactManager interface [Windows Contacts],Initialize method, ICo
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactManager.Initialize"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

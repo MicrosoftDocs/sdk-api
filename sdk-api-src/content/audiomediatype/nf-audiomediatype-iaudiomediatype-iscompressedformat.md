@@ -12,6 +12,8 @@ ms.keywords: IAudioMediaType interface [Audio Devices],IsCompressedFormat method
 ms.topic: method
 f1_keywords: 
  - "audiomediatype/IAudioMediaType.IsCompressedFormat"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: GetRecordMessageSectionNumber, GetRecordMessageSectionNumber method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_NBIT.GetRecordMessageSectionNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

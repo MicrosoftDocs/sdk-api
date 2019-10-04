@@ -12,6 +12,8 @@ ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAd
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetMissingMetadataDocumentAddress"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

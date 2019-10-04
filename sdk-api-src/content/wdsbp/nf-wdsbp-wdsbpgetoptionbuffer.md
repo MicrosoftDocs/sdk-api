@@ -12,6 +12,8 @@ ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deploy
 ms.topic: function
 f1_keywords: 
  - "wdsbp/WdsBpGetOptionBuffer"
+dev_langs:
+ - c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

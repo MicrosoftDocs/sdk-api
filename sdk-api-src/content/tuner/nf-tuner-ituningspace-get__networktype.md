@@ -12,6 +12,8 @@ ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get__NetworkType
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.get__NetworkType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

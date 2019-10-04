@@ -12,6 +12,8 @@ ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base
 ms.topic: function
 f1_keywords: 
  - "versionhelpers/IsWindowsVersionOrGreater"
+dev_langs:
+ - c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

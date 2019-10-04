@@ -12,6 +12,8 @@ ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITf
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfLMLattice"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

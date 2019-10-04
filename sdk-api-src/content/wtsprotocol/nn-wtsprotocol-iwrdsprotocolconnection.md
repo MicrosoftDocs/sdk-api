@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote 
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

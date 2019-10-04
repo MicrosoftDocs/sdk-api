@@ -12,6 +12,8 @@ ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY,
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Deserialize, Deserialize method [Direct2D], Deserialize method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgDocument.Deserialize"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

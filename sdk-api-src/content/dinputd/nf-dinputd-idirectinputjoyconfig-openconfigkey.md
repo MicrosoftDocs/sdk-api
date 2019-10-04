@@ -12,6 +12,8 @@ ms.keywords: IDirectInputJoyConfig interface [Human Input Devices],OpenConfigKey
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig.OpenConfigKey"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

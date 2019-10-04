@@ -12,6 +12,8 @@ ms.keywords: IAutoComplete2 interface [Windows Shell],SetOptions method, IAutoCo
 ms.topic: method
 f1_keywords:
 - shldisp/IAutoComplete2.SetOptions
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CI
 ms.topic: class
 f1_keywords: 
  - "instance/CInstance"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

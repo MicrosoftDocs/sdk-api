@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_CACHE_GROUP_INFOW, INTERNET_CACHE_GROUP_INFO, INTERNET
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_CACHE_GROUP_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

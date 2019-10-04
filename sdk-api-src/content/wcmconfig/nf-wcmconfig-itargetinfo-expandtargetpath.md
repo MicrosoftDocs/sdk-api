@@ -12,6 +12,8 @@ ms.keywords: ExpandTargetPath, ExpandTargetPath method [SMI], ExpandTargetPath m
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.ExpandTargetPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

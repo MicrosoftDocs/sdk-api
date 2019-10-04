@@ -12,6 +12,8 @@ ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName functi
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaSetTrustedDomainInfoByName
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

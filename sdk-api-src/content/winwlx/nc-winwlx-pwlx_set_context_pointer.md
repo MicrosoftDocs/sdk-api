@@ -12,6 +12,8 @@ ms.keywords: PWLX_SET_CONTEXT_POINTER, PWLX_SET_CONTEXT_POINTER callback, WlxSet
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSetContextPointer"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LHashValOfName, LHashValOfName function [Automation], _oa96_LHashVa
 ms.topic: macro
 f1_keywords: 
  - "oleauto/LHashValOfName"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

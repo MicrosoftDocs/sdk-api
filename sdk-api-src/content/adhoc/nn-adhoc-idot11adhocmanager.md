@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], IDot
 ms.topic: interface
 f1_keywords: 
  - "adhoc/IDot11AdHocManager"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

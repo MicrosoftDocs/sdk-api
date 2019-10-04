@@ -12,6 +12,8 @@ ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalm
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GlobalMemoryStatusEx
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

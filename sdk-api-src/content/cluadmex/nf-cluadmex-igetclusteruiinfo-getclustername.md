@@ -12,6 +12,8 @@ ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetCluste
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterUIInfo.GetClusterName"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MBN_PIN_INFO, MBN_PIN_INFO structure [Microsoft Broadband Networks]
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_PIN_INFO"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

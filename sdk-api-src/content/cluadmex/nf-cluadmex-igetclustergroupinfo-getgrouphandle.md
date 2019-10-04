@@ -12,6 +12,8 @@ ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupH
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterGroupInfo.GetGroupHandle"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeCredentialsUI method
 ms.topic: method
 f1_keywords: 
  - "rrascfg/IEAPProviderConfig.RouterInvokeCredentialsUI"
+dev_langs:
+ - c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows

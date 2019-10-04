@@ -12,6 +12,8 @@ ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitat
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitation.GroupName"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CCertConfig object [Security],Next method, ICertConfig interface [S
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertConfig2.Next"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

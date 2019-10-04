@@ -12,6 +12,8 @@ ms.keywords: IShellLink interface [Windows Shell],SetIconLocation method, IShell
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.SetIconLocation"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

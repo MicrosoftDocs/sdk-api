@@ -12,6 +12,8 @@ ms.keywords: WSMAN_ENVIRONMENT_VARIABLE, WSMAN_ENVIRONMENT_VARIABLE structure [W
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_ENVIRONMENT_VARIABLE"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

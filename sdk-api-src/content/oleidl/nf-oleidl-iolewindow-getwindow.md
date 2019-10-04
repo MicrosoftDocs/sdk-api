@@ -12,6 +12,8 @@ ms.keywords: GetWindow, GetWindow method [COM], GetWindow method [COM],IOleWindo
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleWindow.GetWindow"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

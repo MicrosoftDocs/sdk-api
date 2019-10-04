@@ -12,6 +12,8 @@ ms.keywords: CreateContentGroupMapWriter, CreateContentGroupMapWriter method [Ap
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFactory2.CreateContentGroupMapWriter"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMixerOCX interface [DirectShow],UnAdvise method, IMixerOCX.UnAdvis
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCX.UnAdvise"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

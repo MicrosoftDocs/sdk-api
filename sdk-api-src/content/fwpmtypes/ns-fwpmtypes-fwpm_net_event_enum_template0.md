@@ -12,6 +12,8 @@ ms.keywords: FWPM_CONDITION_ALE_APP_ID, FWPM_CONDITION_ALE_USER_ID, FWPM_CONDITI
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

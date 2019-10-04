@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingJobs interface [Fax Service],get__NewEnum method, IFaxO
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJobs.get__NewEnum"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

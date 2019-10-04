@@ -12,6 +12,8 @@ ms.keywords: SET_TAPE_DRIVE_INFORMATION, SET_TAPE_MEDIA_INFORMATION, SetTapePara
 ms.topic: function
 f1_keywords:
 - winbase/SetTapeParameters
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

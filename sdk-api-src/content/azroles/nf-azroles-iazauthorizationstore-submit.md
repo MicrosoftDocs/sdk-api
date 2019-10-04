@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],Submit method, IAzAuthorizat
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.Submit"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WofEnumFilesProc, WofEnumFilesProc callback, WofEnumFilesProc callb
 ms.topic: callback
 f1_keywords: 
  - "wofapi/WofEnumFilesProc"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

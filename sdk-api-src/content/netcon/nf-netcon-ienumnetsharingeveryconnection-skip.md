@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Skip method, IEn
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingEveryConnection.Skip"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2d73c9f9-8cdd-b499-9dc6-930ac19d6977, GetLightEnable, GetLightEnabl
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetLightEnable"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

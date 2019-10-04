@@ -12,6 +12,8 @@ ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffse
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSequencerSegmentOffset"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

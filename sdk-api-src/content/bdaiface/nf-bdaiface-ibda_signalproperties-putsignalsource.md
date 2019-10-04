@@ -12,6 +12,8 @@ ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutSign
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_SignalProperties.PutSignalSource"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

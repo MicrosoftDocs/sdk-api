@@ -12,6 +12,8 @@ ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Clus
 ms.topic: callback
 f1_keywords: 
  - "resapi/Startup"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

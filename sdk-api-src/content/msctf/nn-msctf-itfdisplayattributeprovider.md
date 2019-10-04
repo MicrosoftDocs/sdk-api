@@ -12,6 +12,8 @@ ms.keywords: ITfDisplayAttributeProvider, ITfDisplayAttributeProvider interface 
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfDisplayAttributeProvider"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

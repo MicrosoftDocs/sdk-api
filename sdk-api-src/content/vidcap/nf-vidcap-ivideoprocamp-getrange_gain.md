@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gain method, IVideoPr
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.getRange_Gain"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

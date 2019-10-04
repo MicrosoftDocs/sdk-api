@@ -12,6 +12,8 @@ ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnB
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

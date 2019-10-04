@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_get_dn, ldap.ldap__get__dn, ldap.ldap_get_dn, ldap_get_
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_get_dn"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

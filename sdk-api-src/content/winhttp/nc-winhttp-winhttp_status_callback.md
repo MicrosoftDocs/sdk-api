@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE, WINHTTP_CALLBACK_STATUS_CLO
 ms.topic: callback
 f1_keywords:
 - winhttp/WINHTTP_STATUS_CALLBACK
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

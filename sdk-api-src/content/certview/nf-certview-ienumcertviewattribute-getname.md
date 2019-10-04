@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnum
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWATTRIBUTE.GetName"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

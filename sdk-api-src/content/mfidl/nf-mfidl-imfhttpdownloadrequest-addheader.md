@@ -12,6 +12,8 @@ ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [M
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.AddHeader"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

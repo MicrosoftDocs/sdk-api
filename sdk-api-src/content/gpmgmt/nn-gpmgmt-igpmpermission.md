@@ -12,6 +12,8 @@ ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGP
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMPermission"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

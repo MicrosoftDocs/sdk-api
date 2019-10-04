@@ -12,6 +12,8 @@ ms.keywords: GetMixingPrefs, GetMixingPrefs method [Media Foundation], GetMixing
 ms.topic: method
 f1_keywords:
 - evr/IMFVideoMixerControl2.GetMixingPrefs
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

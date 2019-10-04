@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_CONTRACT, WS_SERVICE_CONTRACT structure [Web Services fo
 ms.topic: struct
 f1_keywords:
 - webservices/WS_SERVICE_CONTRACT
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

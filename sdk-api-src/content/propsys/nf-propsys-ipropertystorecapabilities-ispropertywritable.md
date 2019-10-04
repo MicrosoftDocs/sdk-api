@@ -12,6 +12,8 @@ ms.keywords: IPropertyStoreCapabilities interface [Windows Properties],IsPropert
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyStoreCapabilities.IsPropertyWritable
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

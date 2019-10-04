@@ -12,6 +12,8 @@ ms.keywords: "*PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT enumer
 ms.topic: enum
 f1_keywords: 
  - "resapi/VM_RESDLL_CONTEXT"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

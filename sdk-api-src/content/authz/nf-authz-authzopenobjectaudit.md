@@ -12,6 +12,8 @@ ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _wi
 ms.topic: function
 f1_keywords:
 - authz/AuthzOpenObjectAudit
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

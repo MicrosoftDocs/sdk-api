@@ -12,6 +12,8 @@ ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition]
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.GetAcquisitionTime"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

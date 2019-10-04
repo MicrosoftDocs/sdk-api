@@ -12,6 +12,8 @@ ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], ICom
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComObjectPool2Events"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

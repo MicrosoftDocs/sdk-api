@@ -12,6 +12,8 @@ ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interfa
 ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCredentialCache.SetUserOptions
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

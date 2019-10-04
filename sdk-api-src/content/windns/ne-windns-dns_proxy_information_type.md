@@ -12,6 +12,8 @@ ms.keywords: DNS_PROXY_INFORMATION_DEFAULT_SETTINGS, DNS_PROXY_INFORMATION_DIREC
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_PROXY_INFORMATION_TYPE"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

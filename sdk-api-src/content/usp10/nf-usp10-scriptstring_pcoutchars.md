@@ -12,6 +12,8 @@ ms.keywords: ScriptString_pcOutChars, ScriptString_pcOutChars function [Internat
 ms.topic: function
 f1_keywords: 
  - "usp10/ScriptString_pcOutChars"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

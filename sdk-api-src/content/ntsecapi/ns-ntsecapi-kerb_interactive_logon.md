@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON, KERB_INTERACTIVE
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_INTERACTIVE_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FromDate property [File Server Resource Manager], FromDate property
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.FromDate"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

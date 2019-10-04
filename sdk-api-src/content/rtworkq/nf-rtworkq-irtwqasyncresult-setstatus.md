@@ -12,6 +12,8 @@ ms.keywords: IRtwqAsyncResult interface,SetStatus method, IRtwqAsyncResult.SetSt
 ms.topic: method
 f1_keywords: 
  - "rtworkq/IRtwqAsyncResult.SetStatus"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

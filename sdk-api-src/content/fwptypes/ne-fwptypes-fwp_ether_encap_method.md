@@ -12,6 +12,8 @@ ms.keywords: FWP_ETHER_ENCAP_METHOD, FWP_ETHER_ENCAP_METHOD enumeration [Filteri
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_ETHER_ENCAP_METHOD"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

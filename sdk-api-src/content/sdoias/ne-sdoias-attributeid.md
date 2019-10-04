@@ -12,6 +12,8 @@ ms.keywords: ATTRIBUTEID, ATTRIBUTEID enumeration [Network Policy Server], ATTRI
 ms.topic: enum
 f1_keywords: 
  - "sdoias/ATTRIBUTEID"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

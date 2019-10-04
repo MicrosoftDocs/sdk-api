@@ -12,6 +12,8 @@ ms.keywords: ImageCodecInfo, ImageCodecInfo class [GDI+], ImageCodecInfo class [
 ms.topic: class
 f1_keywords: 
  - "gdiplusimaging/ImageCodecInfo"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

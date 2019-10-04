@@ -12,6 +12,8 @@ ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_symin
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymInitialize"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

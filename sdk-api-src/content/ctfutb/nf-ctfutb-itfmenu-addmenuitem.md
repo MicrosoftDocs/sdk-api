@@ -12,6 +12,8 @@ ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuI
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfMenu.AddMenuItem"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

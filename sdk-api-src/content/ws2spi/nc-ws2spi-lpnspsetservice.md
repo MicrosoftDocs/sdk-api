@@ -12,6 +12,8 @@ ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], R
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPSetService
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

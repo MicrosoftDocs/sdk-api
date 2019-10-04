@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Bro
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnSmsConfiguration"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

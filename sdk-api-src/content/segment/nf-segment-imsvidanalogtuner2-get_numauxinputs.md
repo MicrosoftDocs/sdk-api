@@ -12,6 +12,8 @@ ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAux
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAnalogTuner2.get_NumAuxInputs"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

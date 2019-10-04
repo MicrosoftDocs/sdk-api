@@ -12,6 +12,8 @@ ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, ID
 ms.topic: method
 f1_keywords: 
  - "dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

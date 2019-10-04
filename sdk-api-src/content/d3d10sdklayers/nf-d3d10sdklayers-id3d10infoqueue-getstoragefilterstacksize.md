@@ -12,6 +12,8 @@ ms.keywords: 42bd12bf-1f25-ab24-7650-a67bea7a9458, GetStorageFilterStackSize, Ge
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.GetStorageFilterStackSize"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetEnhMetaFilePaletteEntries"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

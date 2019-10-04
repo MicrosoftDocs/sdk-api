@@ -12,6 +12,8 @@ ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE call
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAXCLOSE"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

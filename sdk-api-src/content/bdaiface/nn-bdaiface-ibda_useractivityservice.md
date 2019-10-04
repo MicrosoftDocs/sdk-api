@@ -12,6 +12,8 @@ ms.keywords: IBDA_UserActivityService, IBDA_UserActivityService interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_UserActivityService"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

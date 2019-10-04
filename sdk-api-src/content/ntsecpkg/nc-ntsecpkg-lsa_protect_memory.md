@@ -12,6 +12,8 @@ ms.keywords: LSA_PROTECT_MEMORY, LSA_PROTECT_MEMORY callback, LsaProtectMemory, 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaProtectMemory
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

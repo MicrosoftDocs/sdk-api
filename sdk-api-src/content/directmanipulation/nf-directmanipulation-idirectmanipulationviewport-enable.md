@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct 
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.Enable"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

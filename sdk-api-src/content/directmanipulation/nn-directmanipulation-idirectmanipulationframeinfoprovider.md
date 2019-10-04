@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoP
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationFrameInfoProvider"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

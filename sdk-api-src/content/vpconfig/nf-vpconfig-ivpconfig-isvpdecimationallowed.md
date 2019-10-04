@@ -12,6 +12,8 @@ ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPC
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPConfig.IsVPDecimationAllowed"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

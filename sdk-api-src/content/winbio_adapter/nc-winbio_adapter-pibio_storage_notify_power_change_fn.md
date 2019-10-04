@@ -12,6 +12,8 @@ ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, P
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterNotifyPowerChange
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

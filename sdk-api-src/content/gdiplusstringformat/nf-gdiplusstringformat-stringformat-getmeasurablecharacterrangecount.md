@@ -12,6 +12,8 @@ ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount 
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetMeasurableCharacterRangeCount"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

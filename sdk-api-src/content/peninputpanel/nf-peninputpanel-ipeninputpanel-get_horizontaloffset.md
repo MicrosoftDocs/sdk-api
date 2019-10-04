@@ -12,6 +12,8 @@ ms.keywords: 835b9d08-871a-4a28-8b10-c9a0e8829674, HorizontalOffset property [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.HorizontalOffset"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

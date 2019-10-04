@@ -12,6 +12,8 @@ ms.keywords: 002d85a7-8bc3-422e-8ced-1907ac121d7b, IMFSimpleAudioVolume, IMFSimp
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSimpleAudioVolume"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

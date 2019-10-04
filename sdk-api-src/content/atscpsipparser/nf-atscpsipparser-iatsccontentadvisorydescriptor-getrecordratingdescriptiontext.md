@@ -12,6 +12,8 @@ ms.keywords: GetRecordRatingDescriptionText, GetRecordRatingDescriptionText meth
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

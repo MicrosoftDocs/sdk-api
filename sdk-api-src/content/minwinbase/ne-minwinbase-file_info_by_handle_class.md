@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS, FILE_INFO_
 ms.topic: enum
 f1_keywords:
 - minwinbase/FILE_INFO_BY_HANDLE_CLASS
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

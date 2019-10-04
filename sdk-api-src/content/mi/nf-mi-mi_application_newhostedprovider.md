@@ -12,6 +12,8 @@ ms.keywords: MI_Application_NewHostedProvider, MI_Application_NewHostedProvider 
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Application_NewHostedProvider"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

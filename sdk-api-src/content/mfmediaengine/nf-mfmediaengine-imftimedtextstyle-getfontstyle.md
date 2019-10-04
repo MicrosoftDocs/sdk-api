@@ -12,6 +12,8 @@ ms.keywords: GetFontStyle, GetFontStyle method [Media Foundation], GetFontStyle 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetFontStyle"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

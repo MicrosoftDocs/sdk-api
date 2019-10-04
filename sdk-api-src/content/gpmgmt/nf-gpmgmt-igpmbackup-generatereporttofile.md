@@ -12,6 +12,8 @@ ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateR
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackup.GenerateReportToFile"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

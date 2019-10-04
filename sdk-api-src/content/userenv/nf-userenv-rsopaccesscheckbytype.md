@@ -12,6 +12,8 @@ ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy
 ms.topic: function
 f1_keywords:
 - userenv/RSoPAccessCheckByType
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

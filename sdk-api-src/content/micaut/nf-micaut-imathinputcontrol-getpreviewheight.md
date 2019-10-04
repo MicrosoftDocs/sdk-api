@@ -12,6 +12,8 @@ ms.keywords: GetPreviewHeight, GetPreviewHeight method [Tablet PC], GetPreviewHe
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.GetPreviewHeight"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

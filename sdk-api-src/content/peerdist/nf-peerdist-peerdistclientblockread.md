@@ -12,6 +12,8 @@ ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ON
 ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientBlockRead
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

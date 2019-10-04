@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IDynamic
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.Enabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

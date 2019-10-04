@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey functi
 ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadPropertyKey
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddNameToNamespace, AddNameToNamespace method, AddNameToNamespace m
 ms.topic: method
 f1_keywords:
 - wsdxml/IWSDXMLContext.AddNameToNamespace
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

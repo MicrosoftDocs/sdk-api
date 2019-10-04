@@ -12,6 +12,8 @@ ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaType method, IAMM
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.SetMediaType"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

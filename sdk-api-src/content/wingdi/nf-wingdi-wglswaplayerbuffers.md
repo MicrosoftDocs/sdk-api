@@ -12,6 +12,8 @@ ms.keywords: WGL_SWAP_MAIN_PLANE, WGL_SWAP_OVERLAYi, WGL_SWAP_UNDERLAYi, _ogl_wg
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglSwapLayerBuffers"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interfac
 ms.topic: interface
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolumeCallback"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

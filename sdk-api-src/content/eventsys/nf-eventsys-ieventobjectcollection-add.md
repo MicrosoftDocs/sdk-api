@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [COM+], Add method [COM+],IEventObjectCollection in
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectCollection.Add"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

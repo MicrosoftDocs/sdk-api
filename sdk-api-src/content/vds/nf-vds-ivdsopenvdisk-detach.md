@@ -12,6 +12,8 @@ ms.keywords: Detach, Detach method, Detach method,IVdsOpenVDisk interface, IVdsO
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsOpenVDisk.Detach"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

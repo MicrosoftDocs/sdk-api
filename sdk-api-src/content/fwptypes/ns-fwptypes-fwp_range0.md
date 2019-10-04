@@ -12,6 +12,8 @@ ms.keywords: FWP_RANGE0, FWP_RANGE0 structure [Filtering], fwp.fwp_range0, fwpty
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWP_RANGE0"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

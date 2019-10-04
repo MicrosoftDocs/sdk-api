@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [M
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IMFImageSharingEngine.GetDevice"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

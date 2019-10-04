@@ -12,6 +12,8 @@ ms.keywords: ISmimeCapability interface [Security],Initialize method, ISmimeCapa
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISmimeCapability.Initialize"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

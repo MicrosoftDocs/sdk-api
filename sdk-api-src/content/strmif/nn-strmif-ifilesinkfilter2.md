@@ -12,6 +12,8 @@ ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSin
 ms.topic: interface
 f1_keywords: 
  - "strmif/IFileSinkFilter2"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

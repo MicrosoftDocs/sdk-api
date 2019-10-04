@@ -12,6 +12,8 @@ ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IM
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMediaSample2Config"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

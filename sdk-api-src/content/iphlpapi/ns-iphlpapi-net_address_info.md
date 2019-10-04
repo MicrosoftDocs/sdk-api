@@ -12,6 +12,8 @@ ms.keywords: "*PNET_ADDRESS_INFO, NET_ADDRESS_INFO, NET_ADDRESS_INFO structure [
 ms.topic: struct
 f1_keywords: 
  - "iphlpapi/NET_ADDRESS_INFO"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

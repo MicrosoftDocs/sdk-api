@@ -12,6 +12,8 @@ ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpSetTranslateMode"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

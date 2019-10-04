@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetLogClientID 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced2.SetLogClientID"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

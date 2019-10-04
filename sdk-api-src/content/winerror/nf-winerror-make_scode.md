@@ -12,6 +12,8 @@ ms.keywords: MAKE_SCODE, MAKE_SCODE macro [COM], _com_MAKE_SCODE, com.make_scode
 ms.topic: macro
 f1_keywords: 
  - "winerror/MAKE_SCODE"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

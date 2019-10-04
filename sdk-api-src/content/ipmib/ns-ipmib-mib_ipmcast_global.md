@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL, MIB_IPMCAST_GLOBAL struc
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_GLOBAL
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

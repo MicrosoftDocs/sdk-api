@@ -12,6 +12,8 @@ ms.keywords: GetVisibility, GetVisibility method, GetVisibility method,IWindowsP
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWindowsParentalControlsCore.GetVisibility"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

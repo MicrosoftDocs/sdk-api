@@ -12,6 +12,8 @@ ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt
 ms.topic: struct
 f1_keywords: 
  - "ncrypt/NCryptProviderName"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

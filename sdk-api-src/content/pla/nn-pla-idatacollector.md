@@ -12,6 +12,8 @@ ms.keywords: IDataCollector, IDataCollector interface [PLA], IDataCollector inte
 ms.topic: interface
 f1_keywords: 
  - "pla/IDataCollector"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvStartDoc, DrvStartDoc function [Display Devices], ddifncs_18494f
 ms.topic: function
 f1_keywords:
 - winddi/DrvStartDoc
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Subst
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfInputProcessorProfiles.SubstituteKeyboardLayout"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

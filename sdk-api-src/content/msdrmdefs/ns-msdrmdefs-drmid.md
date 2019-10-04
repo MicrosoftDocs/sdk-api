@@ -12,6 +12,8 @@ ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services
 ms.topic: struct
 f1_keywords:
 - msdrmdefs/DRMID
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetA
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.GetActiveView"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

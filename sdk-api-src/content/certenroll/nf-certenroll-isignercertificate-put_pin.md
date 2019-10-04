@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],Pin property, ISignerCertif
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.Pin"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

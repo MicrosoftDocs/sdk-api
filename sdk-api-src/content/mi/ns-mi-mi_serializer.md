@@ -12,6 +12,8 @@ ms.keywords: MI_Serializer, MI_Serializer structure [Windows Management Infrastr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Serializer"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

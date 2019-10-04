@@ -12,6 +12,8 @@ ms.keywords: RTSLT_AsyncEventLock, RTSLT_AsyncObjLock, RTSLT_ExcludeCallback, RT
 ms.topic: enum
 f1_keywords: 
  - "rtscom/RealTimeStylusLockType"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

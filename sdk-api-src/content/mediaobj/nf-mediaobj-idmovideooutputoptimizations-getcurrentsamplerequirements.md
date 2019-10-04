@@ -12,6 +12,8 @@ ms.keywords: GetCurrentSampleRequirements, GetCurrentSampleRequirements method [
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IDMOVideoOutputOptimizations.GetCurrentSampleRequirements"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

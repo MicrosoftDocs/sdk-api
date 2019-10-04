@@ -12,6 +12,8 @@ ms.keywords: IAMMediaStream interface [DirectShow],SetState method, IAMMediaStre
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaStream.SetState"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

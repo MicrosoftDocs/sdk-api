@@ -12,6 +12,8 @@ ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDEN
 ms.topic: struct
 f1_keywords:
 - wtypesbase/COAUTHIDENTITY
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

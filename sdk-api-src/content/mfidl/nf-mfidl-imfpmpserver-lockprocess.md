@@ -12,6 +12,8 @@ ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPServer.LockProcess"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

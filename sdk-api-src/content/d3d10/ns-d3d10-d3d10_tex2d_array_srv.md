@@ -12,6 +12,8 @@ ms.keywords: 2463e963-bfda-506f-51fc-2523bea8dd70, D3D10_TEX2D_ARRAY_SRV, D3D10_
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX2D_ARRAY_SRV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

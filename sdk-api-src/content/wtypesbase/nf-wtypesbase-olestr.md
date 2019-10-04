@@ -12,6 +12,8 @@ ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_mac
 ms.topic: macro
 f1_keywords: 
  - "wtypesbase/OLESTR"
+dev_langs:
+ - c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

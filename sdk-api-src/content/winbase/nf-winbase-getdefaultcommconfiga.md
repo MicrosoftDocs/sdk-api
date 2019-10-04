@@ -12,6 +12,8 @@ ms.keywords: GetDefaultCommConfig, GetDefaultCommConfig function, GetDefaultComm
 ms.topic: function
 f1_keywords:
 - winbase/GetDefaultCommConfig
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

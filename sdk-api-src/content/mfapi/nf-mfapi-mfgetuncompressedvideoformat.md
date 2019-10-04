@@ -12,6 +12,8 @@ ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat,
 ms.topic: function
 f1_keywords:
 - mfapi/MFGetUncompressedVideoFormat
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

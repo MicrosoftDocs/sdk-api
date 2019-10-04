@@ -12,6 +12,8 @@ ms.keywords: "*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, 
 ms.topic: struct
 f1_keywords: 
  - "winhttp/WINHTTP_CREDS_EX"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

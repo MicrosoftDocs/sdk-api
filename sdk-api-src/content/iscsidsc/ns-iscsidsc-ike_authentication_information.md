@@ -12,6 +12,8 @@ ms.keywords: "*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, 
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/IKE_AUTHENTICATION_INFORMATION"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

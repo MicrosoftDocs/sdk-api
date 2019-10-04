@@ -12,6 +12,8 @@ ms.keywords: CompileOperator, CompileOperator method, CompileOperator method,IDM
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.CompileOperator"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

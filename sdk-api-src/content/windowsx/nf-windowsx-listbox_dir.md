@@ -12,6 +12,8 @@ ms.keywords: ListBox_Dir, ListBox_Dir macro [Windows Controls], _win32_ListBox_D
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_Dir"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

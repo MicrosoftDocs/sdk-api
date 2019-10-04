@@ -12,6 +12,8 @@ ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice fu
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateContentProtectionDevice"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

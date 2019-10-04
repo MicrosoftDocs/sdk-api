@@ -12,6 +12,8 @@ ms.keywords: "*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure po
 ms.topic: struct
 f1_keywords: 
  - "wia_xp/WIA_FORMAT_INFO"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

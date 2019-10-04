@@ -12,6 +12,8 @@ ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, CLAIM_SECURITY_ATTRIBUTE_FQ
 ms.topic: struct
 f1_keywords: 
  - "winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

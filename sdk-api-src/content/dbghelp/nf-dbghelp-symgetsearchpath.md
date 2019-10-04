@@ -12,6 +12,8 @@ ms.keywords: SymGetSearchPath, SymGetSearchPath function, SymGetSearchPathW, _wi
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetSearchPath"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

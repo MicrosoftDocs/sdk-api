@@ -12,6 +12,8 @@ ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1
 ms.topic: enum
 f1_keywords: 
  - "d2d1_3/D2D1_INK_NIB_SHAPE"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

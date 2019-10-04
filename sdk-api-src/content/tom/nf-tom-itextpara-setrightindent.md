@@ -12,6 +12,8 @@ ms.keywords: ITextPara interface [Windows Controls],SetRightIndent method, IText
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.SetRightIndent"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

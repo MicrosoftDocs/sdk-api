@@ -12,6 +12,8 @@ ms.keywords: ISearchCrawlScopeManager interface [search],RemoveRoot method, ISea
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.RemoveRoot"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

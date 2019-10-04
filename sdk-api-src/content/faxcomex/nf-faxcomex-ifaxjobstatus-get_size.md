@@ -12,6 +12,8 @@ ms.keywords: IFaxJobStatus interface [Fax Service],Size property, IFaxJobStatus.
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxJobStatus.Size"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

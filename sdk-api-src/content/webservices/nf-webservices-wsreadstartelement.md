@@ -12,6 +12,8 @@ ms.keywords: WsReadStartElement, WsReadStartElement function [Web Services for W
 ms.topic: function
 f1_keywords: 
  - "webservices/WsReadStartElement"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

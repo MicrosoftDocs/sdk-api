@@ -12,6 +12,8 @@ ms.keywords: IFilterGraph3 interface [DirectShow],SetSyncSourceEx method, IFilte
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterGraph3.SetSyncSourceEx"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXVA2_ProcAmpValues, DXVA2_ProcAmpValues structure [Media Foundatio
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_ProcAmpValues
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

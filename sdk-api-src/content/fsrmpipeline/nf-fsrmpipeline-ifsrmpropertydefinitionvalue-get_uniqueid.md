@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyDefinitionValue interface [File Server Resource Manage
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinitionValue.UniqueID"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

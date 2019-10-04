@@ -12,6 +12,8 @@ ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationaliza
 ms.topic: method
 f1_keywords: 
  - "msimeapi/IImePlugInDictDictionaryList.GetDictionariesInUse"
+dev_langs:
+ - c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows

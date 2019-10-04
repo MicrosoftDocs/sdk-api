@@ -12,6 +12,8 @@ ms.keywords: PEER_WATCH_ALLOWED, PEER_WATCH_BLOCKED, PEER_WATCH_PERMISSION, PEER
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_WATCH_PERMISSION"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

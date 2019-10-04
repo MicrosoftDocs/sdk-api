@@ -12,6 +12,8 @@ ms.keywords: WBEMPATH_INFO_ANON_LOCAL_MACHINE, WBEMPATH_INFO_CIM_COMPLIANT, WBEM
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/tag_WBEM_PATH_STATUS_FLAG"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

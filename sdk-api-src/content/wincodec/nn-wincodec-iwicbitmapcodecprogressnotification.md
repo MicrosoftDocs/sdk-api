@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapCodecProgressNotification, IWICBitmapCodecProgressNotific
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapCodecProgressNotification"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

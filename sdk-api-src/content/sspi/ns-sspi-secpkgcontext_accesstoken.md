@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgCo
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgContext_AccessToken"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],Insert method, ITextRow.Inser
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.Insert"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

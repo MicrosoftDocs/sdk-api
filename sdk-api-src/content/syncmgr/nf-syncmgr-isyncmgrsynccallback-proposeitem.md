@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ProposeItem method, 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncCallback.ProposeItem"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

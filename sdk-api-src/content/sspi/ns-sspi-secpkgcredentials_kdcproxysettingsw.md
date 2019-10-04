@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgCredentials_KdcProxySettingsW, PSecPkgCredentials_KdcProxy
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecPkgCredentials_KdcProxySettings"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

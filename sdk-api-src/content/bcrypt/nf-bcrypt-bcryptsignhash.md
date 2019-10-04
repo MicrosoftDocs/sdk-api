@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash fu
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptSignHash
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

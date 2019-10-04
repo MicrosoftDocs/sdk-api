@@ -12,6 +12,8 @@ ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NON
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationRegisterForAppContainerChanges"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

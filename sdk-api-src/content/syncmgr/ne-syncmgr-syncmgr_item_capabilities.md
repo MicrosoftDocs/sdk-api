@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_ICM_CAN_BROWSE_CONTENT, SYNCMGR_ICM_CAN_DELETE, SYNCMGR_ICM
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_ITEM_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

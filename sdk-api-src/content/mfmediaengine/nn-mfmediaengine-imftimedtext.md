@@ -12,6 +12,8 @@ ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], IMFTimedTe
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFTimedText"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

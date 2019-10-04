@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDi
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2.get_MediaPhysicallyBlank"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

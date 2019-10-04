@@ -12,6 +12,8 @@ ms.keywords: DSOP_DOWNLEVEL_FILTER_ALL_WELLKNOWN_SIDS, DSOP_DOWNLEVEL_FILTER_ANO
 ms.topic: struct
 f1_keywords:
 - objsel/DSOP_FILTER_FLAGS
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

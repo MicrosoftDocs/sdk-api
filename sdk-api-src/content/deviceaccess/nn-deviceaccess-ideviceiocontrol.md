@@ -12,6 +12,8 @@ ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker 
 ms.topic: interface
 f1_keywords: 
  - "deviceaccess/IDeviceIoControl"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

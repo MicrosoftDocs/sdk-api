@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Windows Shell], Clear method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "objectarray/IObjectCollection.Clear"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

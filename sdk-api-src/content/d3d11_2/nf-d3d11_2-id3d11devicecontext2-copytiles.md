@@ -12,6 +12,8 @@ ms.keywords: CopyTiles, CopyTiles method [Direct3D 11], CopyTiles method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11_2/ID3D11DeviceContext2.CopyTiles"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

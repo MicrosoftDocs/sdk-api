@@ -12,6 +12,8 @@ ms.keywords: GetLinkUpdateOptions, GetLinkUpdateOptions method [COM], GetLinkUpd
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.GetLinkUpdateOptions"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

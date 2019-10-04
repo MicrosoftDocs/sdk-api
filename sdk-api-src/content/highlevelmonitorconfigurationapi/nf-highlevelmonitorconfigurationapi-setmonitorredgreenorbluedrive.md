@@ -12,6 +12,8 @@ ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive functi
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

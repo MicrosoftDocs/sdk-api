@@ -12,6 +12,8 @@ ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBa
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/ITrayDeskBand"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

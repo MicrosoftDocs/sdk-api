@@ -12,6 +12,8 @@ ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], winsync.sync_v
 ms.topic: struct
 f1_keywords: 
  - "winsync/SYNC_VERSION"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

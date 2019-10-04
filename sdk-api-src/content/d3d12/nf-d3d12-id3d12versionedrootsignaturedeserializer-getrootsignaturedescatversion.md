@@ -12,6 +12,8 @@ ms.keywords: GetRootSignatureDescAtVersion, GetRootSignatureDescAtVersion method
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,10 @@ title: IOCTL_STORAGE_RPMB_COMMAND
 ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_RPMB_COMMAND
 ms.topic: language-reference
+f1_keywords:
+ - IOCTL_STORAGE_RPMB_COMMAND
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 

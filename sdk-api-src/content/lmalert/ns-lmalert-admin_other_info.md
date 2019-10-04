@@ -12,6 +12,8 @@ ms.keywords: '*LPADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, ADMIN_OTHER_INFO, ADMIN_O
 ms.topic: struct
 f1_keywords:
 - lmalert/ADMIN_OTHER_INFO
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

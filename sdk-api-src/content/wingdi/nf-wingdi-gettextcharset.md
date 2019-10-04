@@ -12,6 +12,8 @@ ms.keywords: GetTextCharset, GetTextCharset function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetTextCharset"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

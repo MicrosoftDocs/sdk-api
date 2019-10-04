@@ -12,6 +12,8 @@ ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAtt
 ms.topic: function
 f1_keywords: 
  - "recapis/GetRecoAttributes"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

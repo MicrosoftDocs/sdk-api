@@ -12,6 +12,8 @@ ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],_NewEnum property,
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwAuthorizedApplications._NewEnum"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

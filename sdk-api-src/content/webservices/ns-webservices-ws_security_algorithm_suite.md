@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SECURITY_ALGORITHM_SUITE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

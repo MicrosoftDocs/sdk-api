@@ -12,6 +12,8 @@ ms.keywords: CreateDepthStencilSurfaceEx, CreateDepthStencilSurfaceEx method [Di
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

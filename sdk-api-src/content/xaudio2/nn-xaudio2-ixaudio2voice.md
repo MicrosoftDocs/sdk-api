@@ -12,6 +12,8 @@ ms.keywords: IXAudio2Voice, IXAudio2Voice Interface, IXAudio2Voice Interface int
 ms.topic: interface
 f1_keywords: 
  - "xaudio2/IXAudio2Voice Interface"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition met
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ISearchBoxInfo.GetCondition"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

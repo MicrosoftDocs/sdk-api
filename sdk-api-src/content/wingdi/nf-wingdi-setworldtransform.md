@@ -12,6 +12,8 @@ ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetWorldTransform"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

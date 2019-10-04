@@ -12,6 +12,8 @@ ms.keywords: UIntPtrToUChar, UIntPtrToUChar function [Windows Shell], intsafe/UI
 ms.topic: function
 f1_keywords: 
  - "intsafe/UIntPtrToUChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

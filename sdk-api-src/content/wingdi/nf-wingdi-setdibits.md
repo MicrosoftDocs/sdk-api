@@ -12,6 +12,8 @@ ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBits, SetDIBits function [Wind
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetDIBits"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

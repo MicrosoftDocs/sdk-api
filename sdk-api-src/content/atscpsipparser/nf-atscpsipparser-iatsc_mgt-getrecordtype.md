@@ -12,6 +12,8 @@ ms.keywords: GetRecordType, GetRecordType method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT.GetRecordType"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

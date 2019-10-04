@@ -12,6 +12,8 @@ ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFi
 ms.topic: method
 f1_keywords: 
  - "bits10_1/IBackgroundCopyFile6.GetFilledFileRanges"
+dev_langs:
+ - c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows

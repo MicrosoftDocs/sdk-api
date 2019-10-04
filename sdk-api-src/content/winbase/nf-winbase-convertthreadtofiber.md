@@ -12,6 +12,8 @@ ms.keywords: ConvertThreadToFiber, ConvertThreadToFiber function, _win32_convert
 ms.topic: function
 f1_keywords: 
  - "winbase/ConvertThreadToFiber"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

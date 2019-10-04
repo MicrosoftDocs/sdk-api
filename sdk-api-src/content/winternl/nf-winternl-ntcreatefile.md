@@ -12,6 +12,8 @@ ms.keywords: DELETE, FILE_APPEND_DATA, FILE_COMPLETE_IF_OPLOCKED, FILE_CREATE, F
 ms.topic: function
 f1_keywords: 
  - "winternl/NtCreateFile"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

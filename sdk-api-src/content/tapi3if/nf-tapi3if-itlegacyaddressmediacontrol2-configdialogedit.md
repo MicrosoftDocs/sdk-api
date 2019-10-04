@@ -12,6 +12,8 @@ ms.keywords: ConfigDialogEdit, ConfigDialogEdit method [TAPI 2.2], ConfigDialogE
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyAddressMediaControl2.ConfigDialogEdit"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

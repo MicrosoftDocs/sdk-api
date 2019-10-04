@@ -12,6 +12,8 @@ ms.keywords: IWSManEx2 interface [Windows Remote Management],SessionFlagUseClien
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx2.SessionFlagUseClientCertificate"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

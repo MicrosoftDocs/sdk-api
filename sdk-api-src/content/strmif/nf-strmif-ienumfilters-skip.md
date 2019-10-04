@@ -12,6 +12,8 @@ ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip,
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumFilters.Skip"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

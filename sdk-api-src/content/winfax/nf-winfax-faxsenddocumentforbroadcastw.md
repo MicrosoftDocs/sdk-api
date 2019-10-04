@@ -12,6 +12,8 @@ ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [
 ms.topic: function
 f1_keywords:
 - winfax/FaxSendDocumentForBroadcast
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM, CLUSTER_RESOURCE_TYPE_ENUM enumeration 
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_RESOURCE_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

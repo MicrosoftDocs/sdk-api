@@ -12,6 +12,8 @@ ms.keywords: "*LPMIXERLINEW, *PMIXERLINEW, MIXERLINE, MIXERLINE structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIXERLINE"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

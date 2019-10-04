@@ -12,6 +12,8 @@ ms.keywords: GetInheritTypes, GetInheritTypes method [Security], GetInheritTypes
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.GetInheritTypes
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

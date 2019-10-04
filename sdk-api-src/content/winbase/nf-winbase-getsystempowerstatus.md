@@ -12,6 +12,8 @@ ms.keywords: GetSystemPowerStatus, GetSystemPowerStatus function, _win32_getsyst
 ms.topic: function
 f1_keywords:
 - winbase/GetSystemPowerStatus
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

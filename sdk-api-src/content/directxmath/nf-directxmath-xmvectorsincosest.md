@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSinCosEst, XMVectorSinCosEst, XMVectorSinCosEs
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSinCosEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

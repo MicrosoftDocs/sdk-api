@@ -12,6 +12,8 @@ ms.keywords: SColumnSetID, SColumnSetID structure [MMC], _slate_scolumnsetid, mm
 ms.topic: struct
 f1_keywords: 
  - "mmc/SColumnSetID"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

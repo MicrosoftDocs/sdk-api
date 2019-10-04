@@ -12,6 +12,8 @@ ms.keywords: 53736d47-a636-d91b-ae36-38e32953d08c, CD3D10_TEXTURE2D_DESC, D3D10_
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEXTURE2D_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

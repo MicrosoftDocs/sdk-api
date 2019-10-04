@@ -12,6 +12,8 @@ ms.keywords: SymEnumTypes, SymEnumTypes function, SymEnumTypesW, _win32_symenumt
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymEnumTypes"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

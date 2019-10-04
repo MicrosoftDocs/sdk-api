@@ -12,6 +12,8 @@ ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateL
 ms.topic: function
 f1_keywords: 
  - "dbghelp/EnumerateLoadedModules64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

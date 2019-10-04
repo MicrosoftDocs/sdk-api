@@ -12,6 +12,8 @@ ms.keywords: WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT, WS_XML_WRITER_PROPERTY_ALLOW
 ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_WRITER_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

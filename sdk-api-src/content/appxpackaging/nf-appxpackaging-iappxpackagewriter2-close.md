@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [App packaging and management], Close method [A
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxPackageWriter2.Close"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

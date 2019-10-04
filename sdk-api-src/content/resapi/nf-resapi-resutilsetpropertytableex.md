@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX func
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetPropertyTableEx"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

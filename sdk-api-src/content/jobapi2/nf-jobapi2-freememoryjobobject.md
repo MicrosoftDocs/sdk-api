@@ -12,6 +12,8 @@ ms.keywords: FreeMemoryJobObject, FreeMemoryJobObject function, base.freememoryj
 ms.topic: function
 f1_keywords: 
  - "jobapi2/FreeMemoryJobObject"
+dev_langs:
+ - c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows

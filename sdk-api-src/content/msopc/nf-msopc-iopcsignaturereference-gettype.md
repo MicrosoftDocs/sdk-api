@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Open Packaging Conventions], GetType metho
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcSignatureReference.GetType"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

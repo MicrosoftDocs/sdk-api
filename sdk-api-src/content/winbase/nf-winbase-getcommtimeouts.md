@@ -12,6 +12,8 @@ ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, 
 ms.topic: function
 f1_keywords:
 - winbase/GetCommTimeouts
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windo
 ms.topic: function
 f1_keywords: 
  - "msacm/acmGetVersion"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

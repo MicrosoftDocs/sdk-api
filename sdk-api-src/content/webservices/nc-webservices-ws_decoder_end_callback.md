@@ -12,6 +12,8 @@ ms.keywords: WS_DECODER_END_CALLBACK, WS_DECODER_END_CALLBACK callback, WS_DECOD
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_DECODER_END_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

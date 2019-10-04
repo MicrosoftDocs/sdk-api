@@ -12,6 +12,8 @@ ms.keywords: ISdo, ISdo interface [Network Policy Server], ISdo interface [Netwo
 ms.topic: interface
 f1_keywords: 
  - "sdoias/ISdo"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

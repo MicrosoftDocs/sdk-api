@@ -12,6 +12,8 @@ ms.keywords: GetCurrentRowHeaders, GetCurrentRowHeaders method [Windows Accessib
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTablePattern.GetCurrentRowHeaders"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

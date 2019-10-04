@@ -12,6 +12,8 @@ ms.keywords: SHGetItemFromDataObject, SHGetItemFromDataObject function [Windows 
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHGetItemFromDataObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization 
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumTimeFormats"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

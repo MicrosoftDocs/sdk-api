@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Fram
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCreatePropertyStore.CreatePropertyStore"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

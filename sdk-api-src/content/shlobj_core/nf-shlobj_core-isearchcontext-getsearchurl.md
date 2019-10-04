@@ -12,6 +12,8 @@ ms.keywords: GetSearchURL method [Windows Shell], GetSearchURL method [Windows S
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/ISearchContext.GetSearchURL"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

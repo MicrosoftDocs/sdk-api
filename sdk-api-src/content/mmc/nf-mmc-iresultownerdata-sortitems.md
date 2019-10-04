@@ -12,6 +12,8 @@ ms.keywords: IResultOwnerData interface [MMC],SortItems method, IResultOwnerData
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultOwnerData.SortItems"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

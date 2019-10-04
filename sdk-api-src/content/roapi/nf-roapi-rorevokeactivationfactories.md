@@ -12,6 +12,8 @@ ms.keywords: RoRevokeActivationFactories, RoRevokeActivationFactories function [
 ms.topic: function
 f1_keywords: 
  - "roapi/RoRevokeActivationFactories"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

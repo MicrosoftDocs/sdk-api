@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_SIGNAL_PARMS, MCI_DGV_SIGNAL_PARMS, MCI_DGV_SIGNAL_PARM
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_SIGNAL_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

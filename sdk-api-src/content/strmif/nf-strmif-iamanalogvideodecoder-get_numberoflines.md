@@ -12,6 +12,8 @@ ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_NumberOfLines meth
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAnalogVideoDecoder.get_NumberOfLines"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

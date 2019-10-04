@@ -12,6 +12,8 @@ ms.keywords: GetCurrentSource, GetCurrentSource method [Media Foundation], GetCu
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetCurrentSource"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

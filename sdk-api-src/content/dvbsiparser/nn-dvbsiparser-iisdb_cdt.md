@@ -12,6 +12,8 @@ ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_C
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IISDB_CDT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

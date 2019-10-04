@@ -12,6 +12,8 @@ ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointBy
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider.MoveEndpointByUnit"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

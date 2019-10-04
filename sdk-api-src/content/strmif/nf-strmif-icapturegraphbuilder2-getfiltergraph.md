@@ -12,6 +12,8 @@ ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph 
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder2.GetFiltergraph"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

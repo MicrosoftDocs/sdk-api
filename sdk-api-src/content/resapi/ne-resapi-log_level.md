@@ -12,6 +12,8 @@ ms.keywords: "*PLOG_LEVEL, LOG_ERROR, LOG_INFORMATION, LOG_LEVEL, LOG_LEVEL enum
 ms.topic: enum
 f1_keywords: 
  - "resapi/LOG_LEVEL"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

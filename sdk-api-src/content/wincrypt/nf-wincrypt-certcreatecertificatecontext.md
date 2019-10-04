@@ -12,6 +12,8 @@ ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function
 ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateCertificateContext
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

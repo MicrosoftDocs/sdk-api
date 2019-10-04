@@ -12,6 +12,8 @@ ms.keywords: FILE_CACHE_MAX_HARD_ENABLE, FILE_CACHE_MIN_HARD_ENABLE, GetSystemFi
 ms.topic: function
 f1_keywords: 
  - "memoryapi/GetSystemFileCacheSize"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

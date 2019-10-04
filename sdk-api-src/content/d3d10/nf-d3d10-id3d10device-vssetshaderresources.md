@@ -12,6 +12,8 @@ ms.keywords: 28e716fb-c3fd-21d0-6820-b83de5a64caa, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.VSSetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRemoteName, GetRemoteName method [BITS], GetRemoteName method [B
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyFile.GetRemoteName"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

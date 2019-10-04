@@ -12,6 +12,8 @@ ms.keywords: GetFormattedText, GetFormattedText method [Windows Controls], GetFo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetFormattedText"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

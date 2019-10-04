@@ -12,6 +12,8 @@ ms.keywords: TTVALIDATIONTESTSPARAMSEX, TTVALIDATIONTESTSPARAMSEX structure [Win
 ms.topic: struct
 f1_keywords: 
  - "t2embapi/TTVALIDATIONTESTSPARAMSEX"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

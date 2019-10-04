@@ -12,6 +12,8 @@ ms.keywords: IWICStreamProvider, IWICStreamProvider interface [Windows Imaging C
 ms.topic: interface
 f1_keywords: 
  - "wincodecsdk/IWICStreamProvider"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [XPS Documents and Packaging], Close method [XP
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPackageWriter.Close"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

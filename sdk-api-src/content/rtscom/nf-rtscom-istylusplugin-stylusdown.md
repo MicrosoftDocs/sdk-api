@@ -12,6 +12,8 @@ ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.StylusDown"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

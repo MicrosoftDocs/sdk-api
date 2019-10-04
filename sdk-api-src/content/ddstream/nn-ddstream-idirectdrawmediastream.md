@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectSho
 ms.topic: interface
 f1_keywords: 
  - "ddstream/IDirectDrawMediaStream"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

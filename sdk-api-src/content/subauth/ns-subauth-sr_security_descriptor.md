@@ -12,6 +12,8 @@ ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DE
 ms.topic: struct
 f1_keywords: 
  - "subauth/SR_SECURITY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

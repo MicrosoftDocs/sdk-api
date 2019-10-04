@@ -12,6 +12,8 @@ ms.keywords: '*LPNMITEMACTIVATE, LPNMITEMACTIVATE, LPNMITEMACTIVATE structure po
 ms.topic: struct
 f1_keywords:
 - commctrl/NMITEMACTIVATE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

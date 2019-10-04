@@ -12,6 +12,8 @@ ms.keywords: GetTime, GetTime method [Windows Shell], GetTime method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetTime"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

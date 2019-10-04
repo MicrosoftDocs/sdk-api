@@ -12,6 +12,8 @@ ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput inte
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIOutput"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

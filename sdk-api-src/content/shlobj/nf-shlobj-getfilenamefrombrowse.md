@@ -12,6 +12,8 @@ ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shlobj/GetFileNameFromBrowse"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: Shlobj.h
 req.target-type: Windows

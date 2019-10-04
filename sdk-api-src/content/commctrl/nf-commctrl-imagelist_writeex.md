@@ -12,6 +12,8 @@ ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_WriteEx, ImageList_WriteEx fun
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_WriteEx"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

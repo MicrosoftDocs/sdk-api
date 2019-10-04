@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.GetCertificate"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

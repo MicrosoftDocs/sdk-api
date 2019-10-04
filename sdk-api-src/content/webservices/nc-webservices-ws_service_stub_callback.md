@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_STUB_CALLBACK, WS_SERVICE_STUB_CALLBACK callback, WS_SER
 ms.topic: callback
 f1_keywords:
 - webservices/WS_SERVICE_STUB_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

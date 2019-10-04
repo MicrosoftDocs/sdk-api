@@ -12,6 +12,8 @@ ms.keywords: QueryContextAttributesEx, QueryContextAttributesEx function [Securi
 ms.topic: function
 f1_keywords:
 - sspi/QueryContextAttributesEx
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

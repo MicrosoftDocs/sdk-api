@@ -12,6 +12,8 @@ ms.keywords: SetDlgItemInt, SetDlgItemInt function [Dialog Boxes], _win32_SetDlg
 ms.topic: function
 f1_keywords: 
  - "winuser/SetDlgItemInt"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

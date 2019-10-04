@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncVideoColorTransferMatrix, codecapi/eAVEncVideoColorT
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncVideoColorTransferMatrix"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

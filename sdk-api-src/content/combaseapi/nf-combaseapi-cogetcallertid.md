@@ -12,6 +12,8 @@ ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID,
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetCallerTID"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

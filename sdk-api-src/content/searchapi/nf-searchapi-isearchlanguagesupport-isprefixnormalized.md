@@ -12,6 +12,8 @@ ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchLanguageSupport.IsPrefixNormalized"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

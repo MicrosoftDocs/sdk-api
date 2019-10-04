@@ -12,6 +12,8 @@ ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFD
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFDRMNetHelper"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

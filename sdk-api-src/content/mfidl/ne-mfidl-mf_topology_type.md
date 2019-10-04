@@ -12,6 +12,8 @@ ms.keywords: 73ea1f48-0d86-4104-860c-83a4f9189920, MF_TOPOLOGY_MAX, MF_TOPOLOGY_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TOPOLOGY_TYPE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

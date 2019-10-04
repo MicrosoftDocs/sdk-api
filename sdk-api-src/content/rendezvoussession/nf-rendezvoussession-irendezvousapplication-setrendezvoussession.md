@@ -12,6 +12,8 @@ ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousS
 ms.topic: method
 f1_keywords: 
  - "rendezvoussession/IRendezvousApplication.SetRendezvousSession"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

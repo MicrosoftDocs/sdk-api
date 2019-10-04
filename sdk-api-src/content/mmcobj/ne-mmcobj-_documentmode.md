@@ -12,6 +12,8 @@ ms.keywords: "*PDOCUMENTMODE, DOCUMENTMODE, DocumentMode, DocumentMode enumerati
 ms.topic: enum
 f1_keywords: 
  - "mmcobj/_DocumentMode"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

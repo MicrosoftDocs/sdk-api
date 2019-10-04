@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/IEnumTfLatticeElements.Reset"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

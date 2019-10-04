@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Pr
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationRule.PropertyAffected"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

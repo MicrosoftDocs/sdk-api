@@ -12,6 +12,8 @@ ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Rect class, Rect
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Equals"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRegisteredTask interface [Task Scheduler],NextRunTime property, IR
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTask.NextRunTime"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RtmLockRoute, RtmLockRoute function [RAS], _rtmv2ref_rtmlockroute, 
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmLockRoute
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

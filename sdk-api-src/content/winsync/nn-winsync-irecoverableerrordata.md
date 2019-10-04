@@ -12,6 +12,8 @@ ms.keywords: IRecoverableErrorData, IRecoverableErrorData interface [Windows Syn
 ms.topic: interface
 f1_keywords: 
  - "winsync/IRecoverableErrorData"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

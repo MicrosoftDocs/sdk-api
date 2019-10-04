@@ -12,6 +12,8 @@ ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put met
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.Put"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

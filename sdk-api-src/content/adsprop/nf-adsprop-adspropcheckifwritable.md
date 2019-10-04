@@ -12,6 +12,8 @@ ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Dir
 ms.topic: function
 f1_keywords:
 - adsprop/ADsPropCheckIfWritable
+dev_langs:
+ - c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

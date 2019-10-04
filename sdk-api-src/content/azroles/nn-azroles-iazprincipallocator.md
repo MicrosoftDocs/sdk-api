@@ -12,6 +12,8 @@ ms.keywords: IAzPrincipalLocator, IAzPrincipalLocator interface [Security], IAzP
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzPrincipalLocator"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

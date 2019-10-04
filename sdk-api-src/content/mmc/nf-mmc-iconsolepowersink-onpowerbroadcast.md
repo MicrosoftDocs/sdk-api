@@ -12,6 +12,8 @@ ms.keywords: IConsolePowerSink interface [MMC],OnPowerBroadcast method, IConsole
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsolePowerSink.OnPowerBroadcast"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

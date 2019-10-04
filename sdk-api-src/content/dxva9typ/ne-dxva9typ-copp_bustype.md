@@ -12,6 +12,8 @@ ms.keywords: COPP_BusType, COPP_BusType , COPP_BusType enumeration [DirectShow],
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_BusType"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

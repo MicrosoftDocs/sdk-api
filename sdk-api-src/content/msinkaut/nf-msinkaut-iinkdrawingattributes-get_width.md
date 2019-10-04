@@ -12,6 +12,8 @@ ms.keywords: 6069f9d3-061a-48ba-8161-86d6152d68f0, IInkDrawingAttributes interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.Width"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

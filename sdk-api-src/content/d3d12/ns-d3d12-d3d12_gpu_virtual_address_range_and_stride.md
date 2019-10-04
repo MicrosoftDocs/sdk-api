@@ -12,6 +12,8 @@ ms.keywords: D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE, D3D12_GPU_VIRTUAL_ADDRE
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WNetDisconnectDialog1, WNetDisconnectDialog1 function [Windows Netw
 ms.topic: function
 f1_keywords:
 - winnetwk/WNetDisconnectDialog1
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

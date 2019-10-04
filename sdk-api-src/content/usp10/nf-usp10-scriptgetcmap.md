@@ -12,6 +12,8 @@ ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalizati
 ms.topic: function
 f1_keywords: 
  - "usp10/ScriptGetCMap"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

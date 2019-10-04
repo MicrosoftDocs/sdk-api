@@ -12,6 +12,8 @@ ms.keywords: "_win32_htons_2, htons, htons function [Winsock], winsock.htons_2, 
 ms.topic: function
 f1_keywords: 
  - "winsock2/htons"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

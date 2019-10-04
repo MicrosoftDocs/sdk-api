@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationNotCondition, IUIAutomationNotCondition interface [Win
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationNotCondition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

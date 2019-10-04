@@ -12,6 +12,8 @@ ms.keywords: TogglePattern_Toggle, TogglePattern_Toggle function [Windows Access
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TogglePattern_Toggle"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

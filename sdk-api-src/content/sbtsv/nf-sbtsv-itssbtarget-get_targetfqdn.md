@@ -12,6 +12,8 @@ ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetFQDN property
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTarget.TargetFQDN"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_FILETIME_PROPERTY, PRESUTIL_GET_FILETIME_PROPERTY func
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetFileTimeProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

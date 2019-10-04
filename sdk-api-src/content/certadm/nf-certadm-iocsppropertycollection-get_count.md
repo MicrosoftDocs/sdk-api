@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],IOCSPPropertyC
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPPropertyCollection.Count"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

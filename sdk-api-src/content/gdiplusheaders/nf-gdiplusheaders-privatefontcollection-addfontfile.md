@@ -12,6 +12,8 @@ ms.keywords: AddFontFile, AddFontFile method [GDI+], AddFontFile method [GDI+],P
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/PrivateFontCollection.AddFontFile"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

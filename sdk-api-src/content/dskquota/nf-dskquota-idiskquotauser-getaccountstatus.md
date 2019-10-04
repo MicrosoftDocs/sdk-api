@@ -12,6 +12,8 @@ ms.keywords: DISKQUOTA_USER_ABLE, DISKQUOTA_USER_ACCOUNT_DELETED, DISKQUOTA_USER
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetAccountStatus"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQ
 ms.topic: method
 f1_keywords: 
  - "frquery/CFrameworkQuery.GetQueryClassName"
+dev_langs:
+ - c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

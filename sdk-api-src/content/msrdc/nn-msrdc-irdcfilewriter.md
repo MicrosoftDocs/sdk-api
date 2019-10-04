@@ -12,6 +12,8 @@ ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compr
 ms.topic: interface
 f1_keywords: 
  - "msrdc/IRdcFileWriter"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

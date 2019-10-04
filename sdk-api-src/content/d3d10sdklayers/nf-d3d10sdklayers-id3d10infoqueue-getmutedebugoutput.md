@@ -12,6 +12,8 @@ ms.keywords: 9a2ef90e-dbc8-6d45-56ca-751c465da991, GetMuteDebugOutput, GetMuteDe
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.GetMuteDebugOutput"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

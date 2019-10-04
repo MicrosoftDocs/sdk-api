@@ -12,6 +12,8 @@ ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProvider.Attach"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

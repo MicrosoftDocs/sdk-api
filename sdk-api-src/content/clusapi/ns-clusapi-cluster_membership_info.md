@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBERSHIP_INFO, CLUSTER_MEMBER
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSTER_MEMBERSHIP_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

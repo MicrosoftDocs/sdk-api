@@ -12,6 +12,8 @@ ms.keywords: HashExactIncremental, HashExactIncremental method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "tuner/IBDAComparable.HashExactIncremental"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

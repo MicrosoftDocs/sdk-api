@@ -12,6 +12,8 @@ ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaSourceExtension.GetDuration"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

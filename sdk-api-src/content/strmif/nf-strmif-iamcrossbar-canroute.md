@@ -12,6 +12,8 @@ ms.keywords: CanRoute, CanRoute method [DirectShow], CanRoute method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMCrossbar.CanRoute"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

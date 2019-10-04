@@ -12,6 +12,8 @@ ms.keywords: ISBE2FileScan interface [Microsoft TV Technologies],RepairFile meth
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2FileScan.RepairFile"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

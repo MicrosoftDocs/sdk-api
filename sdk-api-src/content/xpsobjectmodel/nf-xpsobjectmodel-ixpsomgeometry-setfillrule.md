@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometry.SetFillRule"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [A
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.ExecuteSearch"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

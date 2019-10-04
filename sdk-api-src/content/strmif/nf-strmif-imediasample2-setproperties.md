@@ -12,6 +12,8 @@ ms.keywords: IMediaSample2 interface [DirectShow],SetProperties method, IMediaSa
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample2.SetProperties"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

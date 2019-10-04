@@ -12,6 +12,8 @@ ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback funct
 ms.topic: callback
 f1_keywords:
 - netsh/FN_HANDLE_CMD
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

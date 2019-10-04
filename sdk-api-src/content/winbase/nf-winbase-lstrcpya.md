@@ -12,6 +12,8 @@ ms.keywords: "_win32_lstrcpy, _win32_lstrcpy_cpp, lstrcpy, lstrcpy function [Men
 ms.topic: function
 f1_keywords: 
  - "winbase/lstrcpy"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

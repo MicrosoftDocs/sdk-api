@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceTransportAdd, MprAdminInterfaceTransportAdd functi
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminInterfaceTransportAdd"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

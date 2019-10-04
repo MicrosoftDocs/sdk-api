@@ -12,6 +12,8 @@ ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1.Write1"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

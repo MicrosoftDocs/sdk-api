@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceHba, IVdsServiceHba interface [VDS], IVdsServiceHba inte
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsServiceHba"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

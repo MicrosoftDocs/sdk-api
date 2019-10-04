@@ -12,6 +12,8 @@ ms.keywords: DialogBoxParam, DialogBoxParam function [Dialog Boxes], DialogBoxPa
 ms.topic: function
 f1_keywords: 
  - "winuser/DialogBoxParam"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

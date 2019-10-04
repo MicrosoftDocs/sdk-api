@@ -12,6 +12,8 @@ ms.keywords: SL_NONGENUINE_UI_OPTIONS, SL_NONGENUINE_UI_OPTIONS structure [Secur
 ms.topic: struct
 f1_keywords: 
  - "slpublic/SL_NONGENUINE_UI_OPTIONS"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

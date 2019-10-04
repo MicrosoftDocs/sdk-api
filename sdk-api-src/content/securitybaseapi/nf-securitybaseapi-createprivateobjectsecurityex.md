@@ -12,6 +12,8 @@ ms.keywords: CreatePrivateObjectSecurityEx, CreatePrivateObjectSecurityEx functi
 ms.topic: function
 f1_keywords:
 - securitybaseapi/CreatePrivateObjectSecurityEx
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

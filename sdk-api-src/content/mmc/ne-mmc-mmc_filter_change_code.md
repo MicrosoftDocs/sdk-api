@@ -12,6 +12,8 @@ ms.keywords: MFCC_DISABLE, MFCC_ENABLE, MFCC_VALUE_CHANGE, MMC_FILTER_CHANGE_COD
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_FILTER_CHANGE_CODE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

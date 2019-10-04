@@ -12,6 +12,8 @@ ms.keywords: BindImage, BindImage function, _win32_bindimage, base.bindimage, im
 ms.topic: function
 f1_keywords: 
  - "imagehlp/BindImage"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

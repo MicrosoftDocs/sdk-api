@@ -12,6 +12,8 @@ ms.keywords: CreateEmpty, CreateEmpty method [Windows Runtime], CreateEmpty meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateEmpty"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredPro
 ms.topic: function
 f1_keywords:
 - wincred/CredProtect
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

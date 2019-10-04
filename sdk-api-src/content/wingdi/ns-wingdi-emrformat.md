@@ -12,6 +12,8 @@ ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRFORMAT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSubunitCount, GetSubunitCount method [Core Audio], GetSubunitCou
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceTopology.GetSubunitCount"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

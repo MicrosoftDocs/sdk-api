@@ -8,6 +8,10 @@ ms.assetid: 21a497e0-2bc6-4373-b240-bdd7da41fc18
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: interface
+f1_keywords:
+ - ID3D12VideoDecoder
+dev_langs:
+ - c++
 req.header: d3d12video.h
 req.include-header:
 req.redist:

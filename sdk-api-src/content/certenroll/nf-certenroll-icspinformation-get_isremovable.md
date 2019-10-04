@@ -12,6 +12,8 @@ ms.keywords: ICspInformation interface [Security],IsRemovable property, ICspInfo
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformation.IsRemovable"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

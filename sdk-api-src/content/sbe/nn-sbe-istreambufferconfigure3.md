@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microso
 ms.topic: interface
 f1_keywords: 
  - "sbe/IStreamBufferConfigure3"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

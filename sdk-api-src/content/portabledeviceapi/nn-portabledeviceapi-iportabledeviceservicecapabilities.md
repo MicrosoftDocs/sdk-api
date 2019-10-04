@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilit
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceCapabilities"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

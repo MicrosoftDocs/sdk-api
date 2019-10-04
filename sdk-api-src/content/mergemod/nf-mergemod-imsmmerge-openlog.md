@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge interface,OpenLog method, IMsmMerge.OpenLog, IMsmMerge::O
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.OpenLog"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

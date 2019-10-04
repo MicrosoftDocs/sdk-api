@@ -12,6 +12,8 @@ ms.keywords: IsEmpty, IsEmpty method [GDI+], IsEmpty method [GDI+],Region class,
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.IsEmpty"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

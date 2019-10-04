@@ -12,6 +12,8 @@ ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElementMgr.UpdateUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

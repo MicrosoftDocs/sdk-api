@@ -12,6 +12,8 @@ ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmacc
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetIsServiceAccount"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

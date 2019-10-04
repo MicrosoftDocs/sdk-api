@@ -12,6 +12,8 @@ ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structur
 ms.topic: struct
 f1_keywords: 
  - "xapo/XAPO_REGISTRATION_PROPERTIES"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

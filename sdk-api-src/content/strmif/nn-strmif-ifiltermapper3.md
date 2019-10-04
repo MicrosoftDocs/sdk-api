@@ -12,6 +12,8 @@ ms.keywords: IFilterMapper3, IFilterMapper3 interface [DirectShow], IFilterMappe
 ms.topic: interface
 f1_keywords: 
  - "strmif/IFilterMapper3"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

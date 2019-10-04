@@ -12,6 +12,8 @@ ms.keywords: ldap.ldap_stop_tls_s, ldap_stop_tls_s, ldap_stop_tls_s function [LD
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_stop_tls_s"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_IN
 ms.topic: enum
 f1_keywords: 
  - "callobj/CALLFRAME_COPY"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback funct
 ms.topic: callback
 f1_keywords: 
  - "cryptdlg/PFNCMHOOKPROC"
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

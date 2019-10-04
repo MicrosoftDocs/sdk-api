@@ -12,6 +12,8 @@ ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone inter
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITDetectTone"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

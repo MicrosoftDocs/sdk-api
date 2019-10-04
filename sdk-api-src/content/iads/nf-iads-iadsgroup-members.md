@@ -12,6 +12,8 @@ ms.keywords: IADsGroup interface [ADSI],Members method, IADsGroup.Members, IADsG
 ms.topic: method
 f1_keywords: 
  - "iads/IADsGroup.Members"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

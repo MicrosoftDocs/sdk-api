@@ -12,6 +12,8 @@ ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirect
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.AddDirectoryObject"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITravelLog interface [Windows Shell],InsertMenuEntries method, ITra
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.InsertMenuEntries"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Email property [Fax Service], Email property [Fax Service],IFaxSend
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.Email"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

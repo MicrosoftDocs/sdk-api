@@ -12,6 +12,8 @@ ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryInteractiveUIInputFields,
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerQueryInteractiveUIInputFields
+dev_langs:
+ - c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

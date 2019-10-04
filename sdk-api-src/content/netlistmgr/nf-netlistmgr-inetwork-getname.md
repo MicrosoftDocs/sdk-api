@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Network Awareness], GetName method [Networ
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetwork.GetName"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFil
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncFilterInfo"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

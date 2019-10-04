@@ -12,6 +12,8 @@ ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, HRE
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrierEvents.OnScanNetworkComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

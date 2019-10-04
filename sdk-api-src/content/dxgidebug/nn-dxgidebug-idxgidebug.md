@@ -12,6 +12,8 @@ ms.keywords: IDXGIDebug, IDXGIDebug interface [DXGI], IDXGIDebug interface [DXGI
 ms.topic: interface
 f1_keywords: 
  - "dxgidebug/IDXGIDebug"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

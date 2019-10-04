@@ -12,6 +12,8 @@ ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Register_Notification
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

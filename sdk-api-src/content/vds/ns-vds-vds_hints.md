@@ -12,6 +12,8 @@ ms.keywords: "*PVDS_HINTS, PVDS_HINTS, PVDS_HINTS structure pointer [VDS], VDS_H
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_HINTS"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

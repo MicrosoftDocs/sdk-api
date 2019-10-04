@@ -12,6 +12,8 @@ ms.keywords: IAppxEncryptedBundleWriter3, IAppxEncryptedBundleWriter3 interface 
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxEncryptedBundleWriter3"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

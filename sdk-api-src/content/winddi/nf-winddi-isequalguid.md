@@ -12,6 +12,8 @@ ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.iseq
 ms.topic: macro
 f1_keywords: 
  - "winddi/IsEqualGUID"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: GuidDef.h, Objbase.h
 req.target-type: Windows

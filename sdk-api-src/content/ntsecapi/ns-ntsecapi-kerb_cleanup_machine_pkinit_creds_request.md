@@ -12,6 +12,8 @@ ms.keywords: "*PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, KERB_CLEANUP_MACHINE_
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemResources.GetTimes"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

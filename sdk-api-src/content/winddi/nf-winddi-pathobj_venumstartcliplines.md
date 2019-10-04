@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_vEnumStartClipLines, PATHOBJ_vEnumStartClipLines function [
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_vEnumStartClipLines
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

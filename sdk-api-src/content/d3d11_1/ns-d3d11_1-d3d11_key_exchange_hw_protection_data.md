@@ -12,6 +12,8 @@ ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA, D3D11_KEY_EXCHANGE_HW_PROTEC
 ms.topic: struct
 f1_keywords: 
  - "d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

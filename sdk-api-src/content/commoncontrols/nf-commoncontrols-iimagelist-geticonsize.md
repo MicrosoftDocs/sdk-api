@@ -12,6 +12,8 @@ ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize met
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetIconSize"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

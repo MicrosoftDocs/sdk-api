@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextSubscribeChanges0, FwpmProviderContextSubscribeC
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderContextSubscribeChanges0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

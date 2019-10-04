@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_EXTENSION, CERT_EXTENSION, CERT_EXTENSION structure [Securi
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_EXTENSION
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

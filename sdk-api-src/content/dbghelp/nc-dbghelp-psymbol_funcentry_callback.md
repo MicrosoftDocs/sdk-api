@@ -12,6 +12,8 @@ ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegist
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymRegisterFunctionEntryCallbackProc64
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

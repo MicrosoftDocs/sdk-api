@@ -12,6 +12,8 @@ ms.keywords: CCertPolicy object [Security],VerifyRequest method, ICertPolicy int
 ms.topic: method
 f1_keywords: 
  - "certpol/ICertPolicy2.VerifyRequest"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

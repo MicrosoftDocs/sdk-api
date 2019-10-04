@@ -12,6 +12,8 @@ ms.keywords: 1d26b9ee-545a-4e47-9a68-b9e567f0dec4, MFT_REGISTER_TYPE_INFO, MFT_R
 ms.topic: struct
 f1_keywords: 
  - "mfobjects/MFT_REGISTER_TYPE_INFO"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

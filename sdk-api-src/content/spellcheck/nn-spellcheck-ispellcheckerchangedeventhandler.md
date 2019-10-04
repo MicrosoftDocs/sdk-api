@@ -12,6 +12,8 @@ ms.keywords: ISpellCheckerChangedEventHandler, ISpellCheckerChangedEventHandler 
 ms.topic: interface
 f1_keywords: 
  - "spellcheck/ISpellCheckerChangedEventHandler"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextRange3, IUIAutomationTextRange3 interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange3"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

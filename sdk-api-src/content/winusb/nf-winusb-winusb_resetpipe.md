@@ -12,6 +12,8 @@ ms.keywords: WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_r
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_ResetPipe"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: 082bcb34-3d5a-3d3f-e3c1-0cf676c0b05b, ID3D11ShaderReflectionConstan
 ms.topic: interface
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionConstantBuffer"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

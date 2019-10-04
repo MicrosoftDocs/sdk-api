@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_HEADER_AUTH_TARGET, WS_HTTP_HEADER_AUTH_TARGET enumeration 
 ms.topic: enum
 f1_keywords:
 - webservices/WS_HTTP_HEADER_AUTH_TARGET
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

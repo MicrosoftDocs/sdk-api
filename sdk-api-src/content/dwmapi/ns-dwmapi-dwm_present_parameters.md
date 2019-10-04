@@ -12,6 +12,8 @@ ms.keywords: DWM_PRESENT_PARAMETERS, DWM_PRESENT_PARAMETERS structure [Desktop W
 ms.topic: struct
 f1_keywords: 
  - "dwmapi/DWM_PRESENT_PARAMETERS"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ListView_GetHoverTime, ListView_GetHoverTime macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetHoverTime"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

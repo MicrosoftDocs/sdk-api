@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTa
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiTarget.SetSharedSecret
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

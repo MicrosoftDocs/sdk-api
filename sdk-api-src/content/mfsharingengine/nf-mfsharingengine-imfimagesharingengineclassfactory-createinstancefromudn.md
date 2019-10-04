@@ -12,6 +12,8 @@ ms.keywords: CreateInstanceFromUDN, CreateInstanceFromUDN method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IMFImageSharingEngineClassFactory.CreateInstanceFromUDN"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

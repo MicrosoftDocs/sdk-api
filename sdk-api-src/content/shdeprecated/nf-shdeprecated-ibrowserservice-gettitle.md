@@ -12,6 +12,8 @@ ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetTitle"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

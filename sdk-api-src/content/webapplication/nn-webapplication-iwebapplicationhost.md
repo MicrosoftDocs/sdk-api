@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windo
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationHost"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

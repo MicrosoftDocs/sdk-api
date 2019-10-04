@@ -12,6 +12,8 @@ ms.keywords: 0,1,2,or 502, 503, NetShareDelEx, NetShareDelEx function [Files], f
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareDelEx
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

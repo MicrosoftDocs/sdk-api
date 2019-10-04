@@ -12,6 +12,8 @@ ms.keywords: CreateNotificationAction, CreateNotificationAction method [File Ser
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmFileManagementJob.CreateNotificationAction
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "__WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset,
 ms.topic: function
 f1_keywords: 
  - "winsock2/__WSAFDIsSet"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

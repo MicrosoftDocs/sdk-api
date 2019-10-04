@@ -12,6 +12,8 @@ ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_FILTER_CONDITION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

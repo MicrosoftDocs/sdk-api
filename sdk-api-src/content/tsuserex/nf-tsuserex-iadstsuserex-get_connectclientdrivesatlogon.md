@@ -12,6 +12,8 @@ ms.keywords: ConnectClientDrivesAtLogon property [Remote Desktop Services], Conn
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.ConnectClientDrivesAtLogon"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

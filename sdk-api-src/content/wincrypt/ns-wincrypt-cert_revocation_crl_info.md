@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_REVOCATION_CRL_INFO, CERT_REVOCATION_CRL_INFO, CERT_REVOCAT
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_REVOCATION_CRL_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

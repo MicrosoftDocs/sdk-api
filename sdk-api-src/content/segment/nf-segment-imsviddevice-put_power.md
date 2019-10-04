@@ -12,6 +12,8 @@ ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidDevice.put_Power"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

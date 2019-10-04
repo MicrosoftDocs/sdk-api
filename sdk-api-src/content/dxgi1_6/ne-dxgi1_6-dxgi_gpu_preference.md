@@ -12,6 +12,8 @@ ms.keywords: DXGI_GPU_PREFERENCE, DXGI_GPU_PREFERENCE enumeration [DXGI], DXGI_G
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_6/DXGI_GPU_PREFERENCE"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

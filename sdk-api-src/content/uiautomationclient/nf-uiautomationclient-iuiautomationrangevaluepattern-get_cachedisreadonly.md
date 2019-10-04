@@ -12,6 +12,8 @@ ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationRangeValuePattern.CachedIsReadOnly"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TY
 ms.topic: struct
 f1_keywords: 
  - "mediaobj/DMO_MEDIA_TYPE"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

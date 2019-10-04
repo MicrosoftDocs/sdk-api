@@ -12,6 +12,8 @@ ms.keywords: ADSI_DIALECT_ENUM, ADSI_DIALECT_ENUM enumeration [ADSI], ADSI_DIALE
 ms.topic: enum
 f1_keywords: 
  - "iads/ADSI_DIALECT_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

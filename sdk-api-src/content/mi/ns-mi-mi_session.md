@@ -12,6 +12,8 @@ ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Session"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

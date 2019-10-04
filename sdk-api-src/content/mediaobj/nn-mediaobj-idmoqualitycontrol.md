@@ -12,6 +12,8 @@ ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMO
 ms.topic: interface
 f1_keywords: 
  - "mediaobj/IDMOQualityControl"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
 req.target-type: Windows

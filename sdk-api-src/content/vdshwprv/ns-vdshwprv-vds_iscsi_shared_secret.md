@@ -12,6 +12,8 @@ ms.keywords: VDS_ISCSI_SHARED_SECRET, VDS_ISCSI_SHARED_SECRET structure [VDS], _
 ms.topic: struct
 f1_keywords: 
  - "vdshwprv/VDS_ISCSI_SHARED_SECRET"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator i
 ms.topic: interface
 f1_keywords: 
  - "objidl/IClassActivator"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

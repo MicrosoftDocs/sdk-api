@@ -12,6 +12,8 @@ ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor.GetElementPID"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

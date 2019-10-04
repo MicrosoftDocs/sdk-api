@@ -12,6 +12,8 @@ ms.keywords: IsWow64Process2, IsWow64Process2 function, base.iswow64process2, wo
 ms.topic: function
 f1_keywords: 
  - "wow64apiset/IsWow64Process2"
+dev_langs:
+ - c++
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows

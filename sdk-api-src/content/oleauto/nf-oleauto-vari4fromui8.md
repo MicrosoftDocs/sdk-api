@@ -12,6 +12,8 @@ ms.keywords: VarI4FromUI8, VarI4FromUI8 function [Automation], _oa96_VarI4FromUI
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarI4FromUI8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

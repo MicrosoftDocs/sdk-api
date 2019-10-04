@@ -12,6 +12,8 @@ ms.keywords: BuildFromXMLFile, BuildFromXMLFile method [DirectShow], BuildFromXM
 ms.topic: method
 f1_keywords: 
  - "amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile"
+dev_langs:
+ - c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows

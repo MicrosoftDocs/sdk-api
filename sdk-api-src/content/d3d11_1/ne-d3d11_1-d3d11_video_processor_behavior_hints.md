@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS, D3D11_VIDEO_PROCESSOR_BEHAVIO
 ms.topic: enum
 f1_keywords: 
  - "d3d11_1/D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

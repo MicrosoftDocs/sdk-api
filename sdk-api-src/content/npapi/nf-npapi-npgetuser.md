@@ -12,6 +12,8 @@ ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPG
 ms.topic: function
 f1_keywords: 
  - "npapi/NPGetUser"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

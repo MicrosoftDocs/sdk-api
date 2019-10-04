@@ -12,6 +12,8 @@ ms.keywords: GetChildren, GetChildren method [WPF Bitmap Effects], GetChildren m
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectGroupImpl.GetChildren"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

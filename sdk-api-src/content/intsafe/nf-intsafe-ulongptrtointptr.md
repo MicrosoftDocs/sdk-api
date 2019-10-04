@@ -12,6 +12,8 @@ ms.keywords: DWordPtrToIntPtr, DWordPtrToPtrdiffT, SIZETToIntPtr, SIZETToPtrdiff
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongPtrToIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

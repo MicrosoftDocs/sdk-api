@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureBlockCollection interface [XPS Documents and Packaging
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlockCollection.RemoveAt"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

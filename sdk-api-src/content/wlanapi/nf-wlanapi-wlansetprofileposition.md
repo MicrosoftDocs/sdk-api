@@ -12,6 +12,8 @@ ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WlanSetProfilePosition"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

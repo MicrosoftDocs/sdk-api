@@ -12,6 +12,8 @@ ms.keywords: IVdsProviderPrivate interface [VDS],OnUnload method, IVdsProviderPr
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsProviderPrivate.OnUnload"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetObjectPointer, GetObjectPointer method [Media Foundation], GetOb
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncCallbackLogging.GetObjectPointer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

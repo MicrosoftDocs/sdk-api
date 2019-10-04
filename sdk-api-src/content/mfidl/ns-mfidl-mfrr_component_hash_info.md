@@ -12,6 +12,8 @@ ms.keywords: "*PMFRR_COMPONENT_HASH_INFO, MFRR_COMPONENT_HASH_INFO, MFRR_COMPONE
 ms.topic: struct
 f1_keywords: 
  - "mfidl/MFRR_COMPONENT_HASH_INFO"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBufferCount, GetBufferCount method [Media Foundation], GetBuffer
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.GetBufferCount"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

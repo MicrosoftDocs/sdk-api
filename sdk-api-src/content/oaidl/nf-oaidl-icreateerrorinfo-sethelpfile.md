@@ -12,6 +12,8 @@ ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreate
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateErrorInfo.SetHelpFile"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

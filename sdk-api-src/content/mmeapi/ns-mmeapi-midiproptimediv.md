@@ -12,6 +12,8 @@ ms.keywords: "*LPMIDIPROPTIMEDIV, MIDIPROPTIMEDIV, MIDIPROPTIMEDIV structure [Wi
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIDIPROPTIMEDIV"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

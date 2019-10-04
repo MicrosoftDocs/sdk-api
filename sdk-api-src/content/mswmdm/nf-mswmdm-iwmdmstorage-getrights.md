@@ -12,6 +12,8 @@ ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRigh
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage.GetRights"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

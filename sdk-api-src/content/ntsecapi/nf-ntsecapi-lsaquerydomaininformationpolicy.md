@@ -12,6 +12,8 @@ ms.keywords: LsaQueryDomainInformationPolicy, LsaQueryDomainInformationPolicy fu
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaQueryDomainInformationPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

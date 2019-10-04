@@ -12,6 +12,8 @@ ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IMalloc"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

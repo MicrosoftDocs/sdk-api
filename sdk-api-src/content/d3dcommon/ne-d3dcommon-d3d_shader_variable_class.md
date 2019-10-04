@@ -12,6 +12,8 @@ ms.keywords: D3D10_SVC_MATRIX_COLUMNS, D3D10_SVC_MATRIX_ROWS, D3D10_SVC_OBJECT, 
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SHADER_VARIABLE_CLASS
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

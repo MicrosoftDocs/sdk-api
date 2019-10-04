@@ -12,6 +12,8 @@ ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackag
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.UnregisterForPackageStateChanges"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

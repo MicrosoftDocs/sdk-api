@@ -12,6 +12,8 @@ ms.keywords: GetCurrentFiber, GetCurrentFiber function, _win32_getcurrentfiber, 
 ms.topic: function
 f1_keywords: 
  - "winnt/GetCurrentFiber"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

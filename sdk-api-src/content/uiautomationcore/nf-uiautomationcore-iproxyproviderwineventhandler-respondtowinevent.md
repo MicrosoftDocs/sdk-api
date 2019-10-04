@@ -12,6 +12,8 @@ ms.keywords: IProxyProviderWinEventHandler interface [Windows Accessibility],Res
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IProxyProviderWinEventHandler.RespondToWinEvent"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

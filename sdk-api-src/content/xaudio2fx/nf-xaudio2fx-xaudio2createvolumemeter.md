@@ -12,6 +12,8 @@ ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio
 ms.topic: function
 f1_keywords: 
  - "xaudio2fx/XAudio2CreateVolumeMeter"
+dev_langs:
+ - c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

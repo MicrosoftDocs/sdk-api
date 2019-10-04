@@ -12,6 +12,8 @@ ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleCo
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControlSite.TranslateAccelerator"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

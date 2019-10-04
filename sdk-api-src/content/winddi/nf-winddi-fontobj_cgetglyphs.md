@@ -12,6 +12,8 @@ ms.keywords: FONTOBJ_cGetGlyphs, FONTOBJ_cGetGlyphs function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_cGetGlyphs
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

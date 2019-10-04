@@ -12,6 +12,8 @@ ms.keywords: NetAuditRead, NetAuditRead function [Network Management], _win32_ne
 ms.topic: function
 f1_keywords: 
  - "lmaudit/NetAuditRead"
+dev_langs:
+ - c++
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

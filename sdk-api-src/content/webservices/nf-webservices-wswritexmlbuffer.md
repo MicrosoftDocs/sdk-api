@@ -12,6 +12,8 @@ ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windo
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteXmlBuffer"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

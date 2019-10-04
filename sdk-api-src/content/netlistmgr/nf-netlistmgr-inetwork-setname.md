@@ -12,6 +12,8 @@ ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.Set
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetwork.SetName"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

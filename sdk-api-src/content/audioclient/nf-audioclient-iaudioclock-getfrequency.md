@@ -12,6 +12,8 @@ ms.keywords: GetFrequency, GetFrequency method [Core Audio], GetFrequency method
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClock.GetFrequency"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

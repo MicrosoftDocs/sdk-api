@@ -12,6 +12,8 @@ ms.keywords: EngGetType1FontList, EngGetType1FontList function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/EngGetType1FontList
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

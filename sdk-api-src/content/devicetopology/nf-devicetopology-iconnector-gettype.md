@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.GetType"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

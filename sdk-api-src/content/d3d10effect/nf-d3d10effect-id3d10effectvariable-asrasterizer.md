@@ -12,6 +12,8 @@ ms.keywords: 0306e054-b8c5-9b23-2bcb-82e72a683879, AsRasterizer, AsRasterizer me
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsRasterizer"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

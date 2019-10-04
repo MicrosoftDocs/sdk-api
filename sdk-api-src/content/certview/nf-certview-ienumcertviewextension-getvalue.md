@@ -12,6 +12,8 @@ ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWEXTENSION.GetValue"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

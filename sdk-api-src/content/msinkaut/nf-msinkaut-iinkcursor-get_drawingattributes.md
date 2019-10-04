@@ -12,6 +12,8 @@ ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursor.DrawingAttributes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

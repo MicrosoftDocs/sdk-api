@@ -12,6 +12,8 @@ ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network M
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserGetLocalGroups
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

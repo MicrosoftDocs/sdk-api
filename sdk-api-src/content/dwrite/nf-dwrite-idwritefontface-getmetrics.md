@@ -12,6 +12,8 @@ ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.GetMetrics"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

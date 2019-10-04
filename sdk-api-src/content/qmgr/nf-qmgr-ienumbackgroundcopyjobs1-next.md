@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Next method, IEnumBackgro
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyJobs1.Next"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

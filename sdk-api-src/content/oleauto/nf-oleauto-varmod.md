@@ -12,6 +12,8 @@ ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarMod"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

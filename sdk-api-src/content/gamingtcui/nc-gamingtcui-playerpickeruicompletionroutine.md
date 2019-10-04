@@ -12,6 +12,8 @@ ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine ca
 ms.topic: callback
 f1_keywords: 
  - "gamingtcui/PlayerPickerUICompletionRoutine"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

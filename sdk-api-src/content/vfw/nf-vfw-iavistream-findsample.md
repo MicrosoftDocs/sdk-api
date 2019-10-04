@@ -12,6 +12,8 @@ ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample meth
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStream.FindSample"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

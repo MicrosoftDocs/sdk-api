@@ -12,6 +12,8 @@ ms.keywords: GetLineJoin, GetLineJoin method [Direct2D], GetLineJoin method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1StrokeStyle.GetLineJoin"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

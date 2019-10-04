@@ -12,6 +12,8 @@ ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, T
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.TextureBrush"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

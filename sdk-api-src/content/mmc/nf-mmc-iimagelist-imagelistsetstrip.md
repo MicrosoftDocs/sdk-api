@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.Ima
 ms.topic: method
 f1_keywords: 
  - "mmc/IImageList.ImageListSetStrip"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

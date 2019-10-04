@@ -12,6 +12,8 @@ ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FI
 ms.topic: method
 f1_keywords: 
  - "bits2_0/IBackgroundCopyJob3.SetFileACLFlags"
+dev_langs:
+ - c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

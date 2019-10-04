@@ -12,6 +12,8 @@ ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, 
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.GetBuffer"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

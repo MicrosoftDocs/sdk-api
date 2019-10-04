@@ -12,6 +12,8 @@ ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf],
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhGetDefaultPerfObjectH"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

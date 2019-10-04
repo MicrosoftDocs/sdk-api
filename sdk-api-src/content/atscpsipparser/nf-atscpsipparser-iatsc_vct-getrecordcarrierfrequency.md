@@ -12,6 +12,8 @@ ms.keywords: GetRecordCarrierFrequency, GetRecordCarrierFrequency method [Micros
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordCarrierFrequency"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

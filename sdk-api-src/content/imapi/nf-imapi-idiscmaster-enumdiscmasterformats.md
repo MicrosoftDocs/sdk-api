@@ -12,6 +12,8 @@ ms.keywords: EnumDiscMasterFormats, EnumDiscMasterFormats method [IMAPI], EnumDi
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.EnumDiscMasterFormats"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

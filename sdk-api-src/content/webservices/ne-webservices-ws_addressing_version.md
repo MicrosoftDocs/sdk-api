@@ -12,6 +12,8 @@ ms.keywords: WS_ADDRESSING_VERSION, WS_ADDRESSING_VERSION enumeration [Web Servi
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_ADDRESSING_VERSION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

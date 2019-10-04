@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposi
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionVisual3"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

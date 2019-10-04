@@ -12,6 +12,8 @@ ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method,
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IProcessInitControl.ResetInitializerTimeout"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

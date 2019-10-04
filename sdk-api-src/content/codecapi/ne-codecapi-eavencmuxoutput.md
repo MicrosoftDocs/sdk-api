@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eA
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMuxOutput"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

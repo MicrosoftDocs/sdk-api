@@ -12,6 +12,8 @@ ms.keywords: WSMAN_SHELL_COMPLETION_FUNCTION, WSMAN_SHELL_COMPLETION_FUNCTION ca
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_SHELL_COMPLETION_FUNCTION
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

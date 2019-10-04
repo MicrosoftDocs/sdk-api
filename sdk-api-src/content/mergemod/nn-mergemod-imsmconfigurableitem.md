@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigura
 ms.topic: interface
 f1_keywords: 
  - "mergemod/IMsmConfigurableItem"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

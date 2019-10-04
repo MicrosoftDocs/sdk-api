@@ -12,6 +12,8 @@ ms.keywords: 107efca2-bbb6-d2d4-0cd9-b65d35420837, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Counter.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetExceptionService, GetExceptionService method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetExceptionService"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1ImageBrush interface [Direct2D],SetImage method, ID2D1ImageBru
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1ImageBrush.SetImage"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

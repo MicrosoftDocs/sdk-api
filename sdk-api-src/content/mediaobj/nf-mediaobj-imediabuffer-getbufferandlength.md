@@ -12,6 +12,8 @@ ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBuff
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaBuffer.GetBufferAndLength"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

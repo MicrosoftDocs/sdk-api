@@ -12,6 +12,8 @@ ms.keywords: IWCNDevice interface [Windows Connect Now],SetVendorExtension metho
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.SetVendorExtension"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

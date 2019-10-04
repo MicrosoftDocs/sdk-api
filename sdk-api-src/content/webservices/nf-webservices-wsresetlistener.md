@@ -12,6 +12,8 @@ ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows
 ms.topic: function
 f1_keywords: 
  - "webservices/WsResetListener"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

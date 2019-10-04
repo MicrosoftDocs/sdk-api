@@ -12,6 +12,8 @@ ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUI
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCategoryMgr.GetGUIDDWORD"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

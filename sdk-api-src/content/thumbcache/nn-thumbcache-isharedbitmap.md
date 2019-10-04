@@ -12,6 +12,8 @@ ms.keywords: ISharedBitmap, ISharedBitmap interface [Windows Shell], ISharedBitm
 ms.topic: interface
 f1_keywords: 
  - "thumbcache/ISharedBitmap"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

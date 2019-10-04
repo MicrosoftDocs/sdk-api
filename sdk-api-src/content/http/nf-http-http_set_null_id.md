@@ -12,6 +12,8 @@ ms.keywords: HTTP_SET_NULL_ID, HTTP_SET_NULL_ID macro [HTTP], http.http_set_null
 ms.topic: macro
 f1_keywords: 
  - "http/HTTP_SET_NULL_ID"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

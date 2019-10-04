@@ -12,6 +12,8 @@ ms.keywords: "*PBCRYPT_AUTHENTICATED_CIPHER_MODE_INFO, BCRYPT_AUTHENTICATED_CIPH
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

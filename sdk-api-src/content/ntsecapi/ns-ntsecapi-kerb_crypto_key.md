@@ -12,6 +12,8 @@ ms.keywords: "*PKERB_CRYPTO_KEY, KERB_CRYPTO_KEY, KERB_CRYPTO_KEY structure [Sec
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/KERB_CRYPTO_KEY"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

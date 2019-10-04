@@ -12,6 +12,8 @@ ms.keywords: GetOverlapping, GetOverlapping method [Windows Controls], GetOverla
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetOverlapping"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

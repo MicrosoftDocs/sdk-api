@@ -12,6 +12,8 @@ ms.keywords: FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS, FSCTL_CSV_Q
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

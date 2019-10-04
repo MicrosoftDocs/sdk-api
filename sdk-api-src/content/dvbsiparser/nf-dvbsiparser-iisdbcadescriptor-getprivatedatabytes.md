@@ -12,6 +12,8 @@ ms.keywords: GetPrivateDataBytes, GetPrivateDataBytes method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbCADescriptor.GetPrivateDataBytes"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

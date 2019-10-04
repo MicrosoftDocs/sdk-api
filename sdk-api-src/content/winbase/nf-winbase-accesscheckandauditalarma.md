@@ -12,6 +12,8 @@ ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Securi
 ms.topic: function
 f1_keywords:
 - winbase/AccessCheckAndAuditAlarm
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

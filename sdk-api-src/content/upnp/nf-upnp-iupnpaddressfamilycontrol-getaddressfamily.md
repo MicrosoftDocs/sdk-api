@@ -12,6 +12,8 @@ ms.keywords: GetAddressFamily, GetAddressFamily method [UPnP APIs], GetAddressFa
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPAddressFamilyControl.GetAddressFamily"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

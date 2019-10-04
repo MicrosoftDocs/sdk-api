@@ -12,6 +12,8 @@ ms.keywords: WS_FAULT_DETAIL_DESCRIPTION, WS_FAULT_DETAIL_DESCRIPTION structure 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_FAULT_DETAIL_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

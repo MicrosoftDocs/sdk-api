@@ -12,6 +12,8 @@ ms.keywords: AvailableOperations property [Fax Service], AvailableOperations pro
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxJobStatus.AvailableOperations"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

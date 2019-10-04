@@ -12,6 +12,8 @@ ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _w
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_Sort"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DVASPECT2, DVASPECT2 enumeration [COM], DVASPECT_OPAQUE, DVASPECT_T
 ms.topic: enum
 f1_keywords: 
  - "ocidl/DVASPECT2"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

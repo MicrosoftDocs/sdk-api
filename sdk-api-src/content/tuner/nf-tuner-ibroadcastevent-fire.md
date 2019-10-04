@@ -12,6 +12,8 @@ ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microso
 ms.topic: method
 f1_keywords: 
  - "tuner/IBroadcastEvent.Fire"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

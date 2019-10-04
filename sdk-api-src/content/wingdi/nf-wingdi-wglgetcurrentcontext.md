@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurr
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglGetCurrentContext"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

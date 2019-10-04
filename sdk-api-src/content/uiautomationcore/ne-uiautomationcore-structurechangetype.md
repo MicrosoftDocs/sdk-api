@@ -12,6 +12,8 @@ ms.keywords: StructureChangeType, StructureChangeType enumeration [Windows Acces
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/StructureChangeType"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

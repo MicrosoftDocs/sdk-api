@@ -12,6 +12,8 @@ ms.keywords: 0b798351-1afe-ecf7-b14a-ae10203d18e1, GetParent, GetParent method [
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIObject.GetParent"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],Unregis
 ms.topic: method
 f1_keywords: 
  - "bdatif/IBDA_TIF_REGISTRATION.UnregisterTIF"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

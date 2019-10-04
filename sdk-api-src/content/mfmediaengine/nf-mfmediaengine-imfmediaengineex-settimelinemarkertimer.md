@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTime
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

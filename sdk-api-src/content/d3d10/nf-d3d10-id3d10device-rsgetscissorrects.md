@@ -12,6 +12,8 @@ ms.keywords: 6718274a-41d0-5a45-3471-07f2693cff9f, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.RSGetScissorRects"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

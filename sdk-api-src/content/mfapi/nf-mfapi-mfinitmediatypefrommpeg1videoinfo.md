@@ -12,6 +12,8 @@ ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1Video
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFInitMediaTypeFromMPEG1VideoInfo"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

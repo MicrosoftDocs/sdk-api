@@ -12,6 +12,8 @@ ms.keywords: PWLX_GET_SOURCE_DESKTOP, PWLX_GET_SOURCE_DESKTOP callback, WlxGetSo
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxGetSourceDesktop
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FXEQ_PARAMETERS, FXEQ_PARAMETERS structure [XAudio2 Audio Mixing AP
 ms.topic: struct
 f1_keywords: 
  - "xapofx/FXEQ_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

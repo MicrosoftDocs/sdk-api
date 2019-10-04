@@ -12,6 +12,8 @@ ms.keywords: D2D1_FEATURE_LEVEL, D2D1_FEATURE_LEVEL enumeration [Direct2D], D2D1
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_FEATURE_LEVEL"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

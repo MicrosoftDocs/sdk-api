@@ -12,6 +12,8 @@ ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], As
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsLunControllerPorts.AssociateControllerPorts"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

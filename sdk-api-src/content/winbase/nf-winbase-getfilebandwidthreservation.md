@@ -12,6 +12,8 @@ ms.keywords: GetFileBandwidthReservation, GetFileBandwidthReservation function [
 ms.topic: function
 f1_keywords: 
  - "winbase/GetFileBandwidthReservation"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

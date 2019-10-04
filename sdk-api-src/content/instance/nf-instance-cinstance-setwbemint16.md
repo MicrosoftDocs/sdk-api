@@ -12,6 +12,8 @@ ms.keywords: "?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@Q
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetWBEMINT16"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

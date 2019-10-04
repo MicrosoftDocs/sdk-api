@@ -12,6 +12,8 @@ ms.keywords: AddMetafileComment, AddMetafileComment method [GDI+], AddMetafileCo
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.AddMetafileComment"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

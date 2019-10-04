@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_MIB_INFO, DHCP_MIB_INFO, DHCP_MIB_INFO structure [DHCP], L
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_MIB_INFO
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

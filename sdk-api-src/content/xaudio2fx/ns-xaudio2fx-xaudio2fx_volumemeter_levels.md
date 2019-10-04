@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2FX_VOLUMEMETER_LEVELS, XAUDIO2FX_VOLUMEMETER_LEVELS structur
 ms.topic: struct
 f1_keywords: 
  - "xaudio2fx/XAUDIO2FX_VOLUMEMETER_LEVELS"
+dev_langs:
+ - c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

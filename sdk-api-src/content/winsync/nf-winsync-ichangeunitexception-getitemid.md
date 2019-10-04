@@ -12,6 +12,8 @@ ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windo
 ms.topic: method
 f1_keywords: 
  - "winsync/IChangeUnitException.GetItemId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

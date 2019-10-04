@@ -12,6 +12,8 @@ ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IEnumerableView.SetEnumReadyCallback"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

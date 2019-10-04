@@ -12,6 +12,8 @@ ms.keywords: NLM_CONNECTION_COST, NLM_CONNECTION_COST enumeration [Network Aware
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_CONNECTION_COST"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

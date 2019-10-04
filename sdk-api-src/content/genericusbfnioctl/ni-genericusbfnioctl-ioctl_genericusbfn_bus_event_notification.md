@@ -12,6 +12,8 @@ ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_E
 ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
+dev_langs:
+ - c++
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

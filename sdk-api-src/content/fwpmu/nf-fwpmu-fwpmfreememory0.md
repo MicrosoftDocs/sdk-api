@@ -12,6 +12,8 @@ ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfree
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmFreeMemory0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

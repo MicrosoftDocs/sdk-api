@@ -12,6 +12,8 @@ ms.keywords: MBN_CDMA_SHORT_MSG_SIZE_MAX, MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN, MBN_M
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/WWAEXT_SMS_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

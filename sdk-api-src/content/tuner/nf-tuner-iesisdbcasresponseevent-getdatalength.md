@@ -12,6 +12,8 @@ ms.keywords: GetDataLength, GetDataLength method [DirectShow], GetDataLength met
 ms.topic: method
 f1_keywords: 
  - "tuner/IESIsdbCasResponseEvent.GetDataLength"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

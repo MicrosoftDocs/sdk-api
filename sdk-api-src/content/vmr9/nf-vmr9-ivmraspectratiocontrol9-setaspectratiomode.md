@@ -12,6 +12,8 @@ ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode m
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRAspectRatioControl9.SetAspectRatioMode"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

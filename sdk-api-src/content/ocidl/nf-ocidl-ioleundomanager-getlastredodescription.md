@@ -12,6 +12,8 @@ ms.keywords: GetLastRedoDescription, GetLastRedoDescription method [COM], GetLas
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.GetLastRedoDescription"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

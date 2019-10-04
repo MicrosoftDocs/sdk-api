@@ -12,6 +12,8 @@ ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDi
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsDisk2.SetSANMode"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

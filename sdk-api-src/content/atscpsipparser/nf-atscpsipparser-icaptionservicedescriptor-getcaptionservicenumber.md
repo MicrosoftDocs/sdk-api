@@ -12,6 +12,8 @@ ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

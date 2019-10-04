@@ -12,6 +12,8 @@ ms.keywords: EstimateNextEventTime, EstimateNextEventTime method [Windows Animat
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager2.EstimateNextEventTime"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

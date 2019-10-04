@@ -12,6 +12,8 @@ ms.keywords: GetThreadMarshalInterface, GetThreadMarshalInterface method [Text S
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarMgr.GetThreadMarshalInterface"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

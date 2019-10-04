@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetPosition method, IM
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.SetPosition"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

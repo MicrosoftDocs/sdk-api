@@ -12,6 +12,8 @@ ms.keywords: DrvSetPalette, DrvSetPalette function [Display Devices], ddifncs_b7
 ms.topic: function
 f1_keywords:
 - winddi/DrvSetPalette
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorde
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.QueryMediaInfo"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

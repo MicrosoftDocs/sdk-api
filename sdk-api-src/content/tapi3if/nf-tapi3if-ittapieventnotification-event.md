@@ -12,6 +12,8 @@ ms.keywords: Event, Event method [TAPI 2.2], Event method [TAPI 2.2],ITTAPIEvent
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTAPIEventNotification.Event"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

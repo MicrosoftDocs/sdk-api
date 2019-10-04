@@ -12,6 +12,8 @@ ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaDevMgr"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

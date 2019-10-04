@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media F
 ms.topic: interface
 f1_keywords: 
  - "mfplay/IMFPMediaPlayerCallback"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

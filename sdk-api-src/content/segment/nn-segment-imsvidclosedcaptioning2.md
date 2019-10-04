@@ -12,6 +12,8 @@ ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microso
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidClosedCaptioning2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

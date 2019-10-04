@@ -12,6 +12,8 @@ ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.Initialize"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

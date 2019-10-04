@@ -12,6 +12,8 @@ ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSigna
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTunerEx.SetScanSignalTypeFilter"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

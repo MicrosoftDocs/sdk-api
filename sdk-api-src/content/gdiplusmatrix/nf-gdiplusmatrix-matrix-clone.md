@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Matrix class, Matri
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

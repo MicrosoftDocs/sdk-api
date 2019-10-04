@@ -12,6 +12,8 @@ ms.keywords: ID2D1CommandSink interface [Direct2D],SetAntialiasMode method, ID2D
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1CommandSink.SetAntialiasMode"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

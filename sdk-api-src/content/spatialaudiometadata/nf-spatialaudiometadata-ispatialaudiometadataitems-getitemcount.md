@@ -12,6 +12,8 @@ ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItems.GetItemCount"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

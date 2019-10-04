@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetAlignment method, Pen.SetAlignment, Pen::SetAli
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetAlignment"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

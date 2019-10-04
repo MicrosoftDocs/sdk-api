@@ -12,6 +12,8 @@ ms.keywords: IMFImageSharingEngine, IMFImageSharingEngine interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfsharingengine/IMFImageSharingEngine"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

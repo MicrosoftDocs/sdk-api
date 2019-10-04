@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChang
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable.SetVariableChangeHandler"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security],
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxDisplayLockedNotice"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

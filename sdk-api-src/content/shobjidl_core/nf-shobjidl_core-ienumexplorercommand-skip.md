@@ -12,6 +12,8 @@ ms.keywords: IEnumExplorerCommand interface [Windows Shell],Skip method, IEnumEx
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IEnumExplorerCommand.Skip"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

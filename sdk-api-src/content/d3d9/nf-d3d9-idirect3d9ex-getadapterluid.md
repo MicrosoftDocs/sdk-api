@@ -12,6 +12,8 @@ ms.keywords: GetAdapterLUID, GetAdapterLUID method [Direct3D 9], GetAdapterLUID 
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9Ex.GetAdapterLUID"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

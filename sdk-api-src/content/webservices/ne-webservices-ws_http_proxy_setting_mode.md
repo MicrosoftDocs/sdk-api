@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_PROXY_SETTING_MODE, WS_HTTP_PROXY_SETTING_MODE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_HTTP_PROXY_SETTING_MODE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

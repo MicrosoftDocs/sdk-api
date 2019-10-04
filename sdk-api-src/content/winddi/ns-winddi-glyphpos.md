@@ -12,6 +12,8 @@ ms.keywords: '*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPH
 ms.topic: struct
 f1_keywords:
 - winddi/GLYPHPOS
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

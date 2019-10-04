@@ -12,6 +12,8 @@ ms.keywords: '*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PAT
 ms.topic: struct
 f1_keywords:
 - traffic/IPX_PATTERN
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,des
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsLunNumber"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

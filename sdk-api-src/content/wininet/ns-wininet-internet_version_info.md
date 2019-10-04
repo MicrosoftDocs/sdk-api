@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_VERSION_INFO, INTERNET_VERSION_INFO, INTERNET_VERSION_
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

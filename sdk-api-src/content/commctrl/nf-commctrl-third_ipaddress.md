@@ -12,6 +12,8 @@ ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_T
 ms.topic: macro
 f1_keywords: 
  - "commctrl/THIRD_IPADDRESS"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

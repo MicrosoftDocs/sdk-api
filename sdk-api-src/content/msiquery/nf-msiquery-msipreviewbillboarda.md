@@ -12,6 +12,8 @@ ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillbo
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiPreviewBillboard"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

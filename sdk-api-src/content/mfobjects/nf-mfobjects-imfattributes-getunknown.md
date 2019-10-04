@@ -12,6 +12,8 @@ ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetUnknown
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

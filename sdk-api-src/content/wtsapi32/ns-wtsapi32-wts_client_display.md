@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_CLIENT_DISPLAY, 1, 16, 2, 24, 32, 4, 8, PWTS_CLIENT_DISPLAY,
 ms.topic: struct
 f1_keywords: 
  - "wtsapi32/WTS_CLIENT_DISPLAY"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

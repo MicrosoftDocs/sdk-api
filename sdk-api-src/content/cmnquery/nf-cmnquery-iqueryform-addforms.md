@@ -12,6 +12,8 @@ ms.keywords: AddForms, AddForms method [Active Directory], AddForms method [Acti
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IQueryForm.AddForms"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

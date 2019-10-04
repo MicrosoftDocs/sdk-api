@@ -12,6 +12,8 @@ ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationa
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmGetCandidateWindow"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

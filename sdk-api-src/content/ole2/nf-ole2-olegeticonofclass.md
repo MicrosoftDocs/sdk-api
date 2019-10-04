@@ -12,6 +12,8 @@ ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIco
 ms.topic: function
 f1_keywords: 
  - "ole2/OleGetIconOfClass"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

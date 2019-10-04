@@ -12,6 +12,8 @@ ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Shell], GetCanon
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerCommand.GetCanonicalName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

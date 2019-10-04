@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Picture Acquisition], Delete method [Picture
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.Delete"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordGroupId, GetRecordGroupId method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordGroupId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

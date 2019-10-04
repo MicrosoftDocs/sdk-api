@@ -12,6 +12,8 @@ ms.keywords: "*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED st
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVINSERTGROUPSORTED"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

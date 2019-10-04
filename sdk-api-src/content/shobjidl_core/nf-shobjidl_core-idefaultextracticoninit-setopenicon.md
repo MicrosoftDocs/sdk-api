@@ -12,6 +12,8 @@ ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetOpenIcon metho
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDefaultExtractIconInit.SetOpenIcon"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

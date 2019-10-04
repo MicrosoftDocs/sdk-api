@@ -12,6 +12,8 @@ ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Win
 ms.topic: function
 f1_keywords: 
  - "imm/ImmInstallIME"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

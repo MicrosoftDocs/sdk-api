@@ -12,6 +12,8 @@ ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, 
 ms.topic: function
 f1_keywords: 
  - "rasdlg/RasPhonebookDlg"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

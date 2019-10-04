@@ -12,6 +12,8 @@ ms.keywords: 81173c64-5d8b-48ae-866c-5292814a97c0, IPenInputPanel interface [Tab
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Width"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

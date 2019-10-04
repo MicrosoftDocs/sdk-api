@@ -12,6 +12,8 @@ ms.keywords: TASK_FRIDAY, TASK_MONDAY, TASK_SATURDAY, TASK_SUNDAY, TASK_THURSDAY
 ms.topic: struct
 f1_keywords:
 - mstask/WEEKLY
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

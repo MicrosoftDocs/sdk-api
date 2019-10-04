@@ -12,6 +12,8 @@ ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], ds
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/AM_SimpleRateChange"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

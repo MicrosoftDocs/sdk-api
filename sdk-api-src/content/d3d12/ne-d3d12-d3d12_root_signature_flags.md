@@ -12,6 +12,8 @@ ms.keywords: D3D12_ROOT_SIGNATURE_FLAGS, D3D12_ROOT_SIGNATURE_FLAGS enumeration,
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_ROOT_SIGNATURE_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCompoundArrayCount, GetCompoundArrayCount method [GDI+], GetComp
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetCompoundArrayCount"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HrtfDirectivityCone, HrtfDirectivityCone structure [XAudio2 Audio M
 ms.topic: struct
 f1_keywords: 
  - "hrtfapoapi/HrtfDirectivityCone"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

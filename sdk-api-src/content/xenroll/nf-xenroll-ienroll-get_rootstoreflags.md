@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],RootStoreFlags property, IEnroll.RootS
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.RootStoreFlags"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

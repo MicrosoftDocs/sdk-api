@@ -12,6 +12,8 @@ ms.keywords: 5e5c02ea-d3fc-4d8d-aa8b-87aa033a3644, IMFByteStream interface [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.IsEndOfStream"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBo
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/ISearchBoxInfo"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

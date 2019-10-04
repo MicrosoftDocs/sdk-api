@@ -12,6 +12,8 @@ ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetC
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProvider.GetCredentialCount"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

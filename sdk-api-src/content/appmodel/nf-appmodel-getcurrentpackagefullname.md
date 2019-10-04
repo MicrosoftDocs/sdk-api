@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App 
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetCurrentPackageFullName"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

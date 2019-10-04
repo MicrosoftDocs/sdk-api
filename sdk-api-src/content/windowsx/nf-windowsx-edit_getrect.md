@@ -12,6 +12,8 @@ ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_Ge
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetRect"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

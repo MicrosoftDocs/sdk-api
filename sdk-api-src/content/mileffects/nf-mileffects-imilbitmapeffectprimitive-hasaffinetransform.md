@@ -12,6 +12,8 @@ ms.keywords: HasAffineTransform, HasAffineTransform method [WPF Bitmap Effects],
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitive.HasAffineTransform"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

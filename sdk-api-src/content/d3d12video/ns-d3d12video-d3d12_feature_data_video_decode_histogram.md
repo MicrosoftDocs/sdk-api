@@ -8,6 +8,10 @@ ms.assetid: 052bfdcb-a6f6-4027-811f-9af11b1975b4
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
+dev_langs:
+ - c++
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM, D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM, 
 req.header: d3d12video.h
 req.include-header:

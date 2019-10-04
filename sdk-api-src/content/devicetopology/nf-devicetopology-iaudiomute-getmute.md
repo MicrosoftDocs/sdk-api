@@ -12,6 +12,8 @@ ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioMute.GetMute"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

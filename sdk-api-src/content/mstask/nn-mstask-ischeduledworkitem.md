@@ -12,6 +12,8 @@ ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], 
 ms.topic: interface
 f1_keywords: 
  - "mstask/IScheduledWorkItem"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

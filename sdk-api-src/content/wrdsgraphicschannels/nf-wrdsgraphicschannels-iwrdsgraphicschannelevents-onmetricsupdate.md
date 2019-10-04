@@ -12,6 +12,8 @@ ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnMe
 ms.topic: method
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnMetricsUpdate"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

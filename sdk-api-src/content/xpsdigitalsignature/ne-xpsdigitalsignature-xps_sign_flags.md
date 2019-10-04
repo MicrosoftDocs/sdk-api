@@ -12,6 +12,8 @@ ms.keywords: XPS_SIGN_FLAGS, XPS_SIGN_FLAGS enumeration [XPS Documents and Packa
 ms.topic: enum
 f1_keywords: 
  - "xpsdigitalsignature/XPS_SIGN_FLAGS"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

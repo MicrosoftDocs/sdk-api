@@ -12,6 +12,8 @@ ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9Monito
 ms.topic: struct
 f1_keywords: 
  - "vmr9/VMR9MonitorInfo"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

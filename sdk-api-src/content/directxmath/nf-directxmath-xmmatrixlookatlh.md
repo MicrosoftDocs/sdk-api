@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixLookAtLH, XMMatrixLookAtLH, XMMatrixLookAtLH m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixLookAtLH"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

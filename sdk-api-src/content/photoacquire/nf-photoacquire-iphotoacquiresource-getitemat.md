@@ -12,6 +12,8 @@ ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.GetItemAt"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

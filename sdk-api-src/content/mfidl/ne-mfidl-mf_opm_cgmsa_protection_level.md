@@ -12,6 +12,8 @@ ms.keywords: MF_OPM_CGMSA_COPY_FREELY, MF_OPM_CGMSA_COPY_NEVER, MF_OPM_CGMSA_COP
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

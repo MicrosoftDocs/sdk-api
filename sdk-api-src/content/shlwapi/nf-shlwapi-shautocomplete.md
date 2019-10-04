@@ -12,6 +12,8 @@ ms.keywords: SHACF_AUTOAPPEND_FORCE_OFF, SHACF_AUTOAPPEND_FORCE_ON, SHACF_AUTOSU
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHAutoComplete"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

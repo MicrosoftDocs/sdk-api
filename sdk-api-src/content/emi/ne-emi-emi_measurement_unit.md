@@ -12,6 +12,8 @@ ms.keywords: EMI_MEASUREMENT_UNIT, EMI_MEASUREMENT_UNIT enumeration [Power Meter
 ms.topic: enum
 f1_keywords: 
  - "emi/EMI_MEASUREMENT_UNIT"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

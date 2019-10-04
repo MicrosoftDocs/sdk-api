@@ -12,6 +12,8 @@ ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management 
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemQualifierSet"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

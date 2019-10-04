@@ -12,6 +12,8 @@ ms.keywords: VDS_VOLUME_TYPE, VDS_VOLUME_TYPE enumeration [VDS], VDS_VT_MIRROR, 
 ms.topic: enum
 f1_keywords:
 - vds/VDS_VOLUME_TYPE
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

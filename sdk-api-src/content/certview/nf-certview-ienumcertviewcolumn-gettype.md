@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnum
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWCOLUMN.GetType"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

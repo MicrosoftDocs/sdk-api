@@ -12,6 +12,8 @@ ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITimeTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

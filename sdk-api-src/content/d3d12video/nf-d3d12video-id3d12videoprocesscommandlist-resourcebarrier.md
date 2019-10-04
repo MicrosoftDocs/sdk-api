@@ -8,6 +8,10 @@ ms.assetid: 9c37e5aa-b9f7-4e72-ae08-cf0403d0bc5a
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::ResourceBarrier
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::ResourceBarrier, ResourceBarrier, ID3D12VideoProcessCommandList.ResourceBarrier, ID3D12VideoProcessCommandList::ResourceBarrier, ID3D12VideoProcessCommandList.ResourceBarrier
 req.header: d3d12video.h
 req.include-header:

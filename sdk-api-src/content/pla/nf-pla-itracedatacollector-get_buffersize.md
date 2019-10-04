@@ -12,6 +12,8 @@ ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataColl
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.BufferSize"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

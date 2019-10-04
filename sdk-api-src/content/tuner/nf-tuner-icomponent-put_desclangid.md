@@ -12,6 +12,8 @@ ms.keywords: IComponent interface [Microsoft TV Technologies],put_DescLangID met
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponent.put_DescLangID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

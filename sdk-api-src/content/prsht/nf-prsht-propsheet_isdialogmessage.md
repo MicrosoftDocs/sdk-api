@@ -12,6 +12,8 @@ ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_IsDialogMessage
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

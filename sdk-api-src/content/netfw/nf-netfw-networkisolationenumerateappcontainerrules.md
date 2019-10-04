@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumera
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationEnumerateAppContainerRules"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

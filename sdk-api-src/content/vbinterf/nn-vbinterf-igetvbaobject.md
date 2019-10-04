@@ -12,6 +12,8 @@ ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interfa
 ms.topic: interface
 f1_keywords: 
  - "vbinterf/IGetVBAObject"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

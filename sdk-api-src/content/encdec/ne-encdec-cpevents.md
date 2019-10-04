@@ -12,6 +12,8 @@ ms.keywords: CPEVENT_COPP, CPEVENT_DOWNRES, CPEVENT_LICENSE, CPEVENT_NONE, CPEVE
 ms.topic: enum
 f1_keywords: 
  - "encdec/CPEvents"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

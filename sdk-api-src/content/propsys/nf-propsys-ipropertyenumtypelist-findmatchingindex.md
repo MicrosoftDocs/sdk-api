@@ -12,6 +12,8 @@ ms.keywords: FindMatchingIndex, FindMatchingIndex method [Windows Properties], F
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumTypeList.FindMatchingIndex"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

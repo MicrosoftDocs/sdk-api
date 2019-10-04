@@ -12,6 +12,8 @@ ms.keywords: EndQuery, EndQuery method, EndQuery method,IFunctionDiscoveryProvid
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProvider.EndQuery"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

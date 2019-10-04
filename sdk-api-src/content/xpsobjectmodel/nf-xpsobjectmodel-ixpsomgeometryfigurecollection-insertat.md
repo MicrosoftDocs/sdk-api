@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packagi
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigureCollection.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],Wr
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemObjectSinkEx.WriteError"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

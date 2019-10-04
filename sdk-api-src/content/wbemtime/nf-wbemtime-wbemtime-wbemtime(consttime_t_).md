@@ -12,6 +12,8 @@ ms.keywords: WBEMTime, WBEMTime constructor [Windows Management Instrumentation]
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.WBEMTime"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

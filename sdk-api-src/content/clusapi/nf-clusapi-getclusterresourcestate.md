@@ -12,6 +12,8 @@ ms.keywords: GetClusterResourceState, GetClusterResourceState function [Failover
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterResourceState"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OLEGETMONIKER, OLEGETMONIKER enumeration [COM], OLEGETMONIKER_FORCE
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLEGETMONIKER"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 71b02f99-4076-4c56-b88a-4201b7033411, IInkRecognizerContext interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.RecognitionFlags"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

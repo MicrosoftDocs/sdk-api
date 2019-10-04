@@ -12,6 +12,8 @@ ms.keywords: "*PNL_ROUTE_PROTOCOL, MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_ROUTE_PROTOCOL"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configurat
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/GetMonitorContrast"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

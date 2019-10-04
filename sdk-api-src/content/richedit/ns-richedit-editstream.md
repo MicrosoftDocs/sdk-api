@@ -12,6 +12,8 @@ ms.keywords: EDITSTREAM, EDITSTREAM structure [Windows Controls], _win32_EDITSTR
 ms.topic: struct
 f1_keywords: 
  - "richedit/EDITSTREAM"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

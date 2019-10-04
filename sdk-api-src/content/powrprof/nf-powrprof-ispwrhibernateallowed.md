@@ -12,6 +12,8 @@ ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwr
 ms.topic: function
 f1_keywords: 
  - "powrprof/IsPwrHibernateAllowed"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

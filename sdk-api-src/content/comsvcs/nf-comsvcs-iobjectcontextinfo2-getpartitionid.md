@@ -12,6 +12,8 @@ ms.keywords: GetPartitionId, GetPartitionId method [COM+], GetPartitionId method
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContextInfo2.GetPartitionId"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

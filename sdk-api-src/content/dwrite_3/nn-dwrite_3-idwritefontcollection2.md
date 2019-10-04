@@ -8,6 +8,10 @@ ms.author: windowssdkdev
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2, IDWriteFontCollection2 interface [Direct Write], IDWriteFontCollection2 interface [Direct Write],described, directwrite.idwritefontcollection2, dwrite_3/IDWriteFontCollection2
 ms.topic: interface
+f1_keywords:
+ - IDWriteFontCollection2
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

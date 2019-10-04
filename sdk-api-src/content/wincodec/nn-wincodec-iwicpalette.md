@@ -12,6 +12,8 @@ ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], IWI
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICPalette"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

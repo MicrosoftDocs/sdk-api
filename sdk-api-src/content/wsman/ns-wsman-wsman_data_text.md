@@ -12,6 +12,8 @@ ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Manageme
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_DATA_TEXT
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

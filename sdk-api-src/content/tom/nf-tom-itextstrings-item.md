@@ -12,6 +12,8 @@ ms.keywords: ITextStrings interface [Windows Controls],Item method, ITextStrings
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.Item"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

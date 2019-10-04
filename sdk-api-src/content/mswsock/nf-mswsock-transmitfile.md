@@ -12,6 +12,8 @@ ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONN
 ms.topic: function
 f1_keywords:
 - mswsock/TransmitFile
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

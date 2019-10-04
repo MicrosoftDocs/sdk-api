@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeLongArray object [Security],Encode method, Encode, Encod
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeLongArray.Encode"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

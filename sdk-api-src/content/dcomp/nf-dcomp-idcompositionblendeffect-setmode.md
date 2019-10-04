@@ -12,6 +12,8 @@ ms.keywords: IDCompositionBlendEffect interface [DirectComposition],SetMode meth
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionBlendEffect.SetMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

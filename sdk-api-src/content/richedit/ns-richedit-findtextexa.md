@@ -12,6 +12,8 @@ ms.keywords: FINDTEXTEX, FINDTEXTEX structure [Windows Controls], FINDTEXTEXA, F
 ms.topic: struct
 f1_keywords: 
  - "richedit/FINDTEXTEX"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPTIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, PTIME_ZONE_INFO
 ms.topic: struct
 f1_keywords: 
  - "timezoneapi/TIME_ZONE_INFORMATION"
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

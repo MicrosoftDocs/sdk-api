@@ -12,6 +12,8 @@ ms.keywords: MI_OperationCallback_ResponseType, MI_OperationCallback_ResponseTyp
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_OperationCallback_ResponseType"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

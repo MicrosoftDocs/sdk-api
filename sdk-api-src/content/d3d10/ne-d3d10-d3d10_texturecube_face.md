@@ -12,6 +12,8 @@ ms.keywords: 97941211-ae5d-805c-0347-b9d370b42967, D3D10_TEXTURECUBE_FACE, D3D10
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_TEXTURECUBE_FACE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

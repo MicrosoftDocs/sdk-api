@@ -12,6 +12,8 @@ ms.keywords: WsFlushWriter, WsFlushWriter function [Web Services for Windows], w
 ms.topic: function
 f1_keywords:
 - webservices/WsFlushWriter
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

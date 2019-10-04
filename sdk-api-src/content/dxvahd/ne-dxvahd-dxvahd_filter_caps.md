@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_FILTER_CAPS, DXVAHD_FILTER_CAPS enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "dxvahd/DXVAHD_FILTER_CAPS"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

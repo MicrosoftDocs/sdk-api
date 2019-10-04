@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [Direct3D 11], GetBuffer method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionVariable.GetBuffer"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

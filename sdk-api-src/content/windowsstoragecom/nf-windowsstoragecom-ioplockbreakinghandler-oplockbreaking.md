@@ -12,6 +12,8 @@ ms.keywords: IOplockBreakingHandler interface [Windows Runtime],OplockBreaking m
 ms.topic: method
 f1_keywords: 
  - "windowsstoragecom/IOplockBreakingHandler.OplockBreaking"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

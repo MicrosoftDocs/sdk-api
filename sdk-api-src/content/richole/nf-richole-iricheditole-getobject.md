@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [Windows Controls], GetObject method [W
 ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.GetObject
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

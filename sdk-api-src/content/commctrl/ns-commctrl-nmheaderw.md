@@ -12,6 +12,8 @@ ms.keywords: '*LPNMHEADERW, 0, 1, 2, LPNMHEADER, LPNMHEADER structure pointer [W
 ms.topic: struct
 f1_keywords:
 - commctrl/NMHEADER
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

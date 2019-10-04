@@ -12,6 +12,8 @@ ms.keywords: D3DX11_FFT_DIM_MASK, D3DX11_FFT_DIM_MASK enumeration [Direct3D 11],
 ms.topic: enum
 f1_keywords: 
  - "d3dcsx/D3DX11_FFT_DIM_MASK"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

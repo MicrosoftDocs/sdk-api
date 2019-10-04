@@ -12,6 +12,8 @@ ms.keywords: 7e56cb00-6357-582e-88ab-2d9d2918ebce, D3D10_TEXCUBE_ARRAY_SRV1, D3D
 ms.topic: struct
 f1_keywords: 
  - "d3d10_1/D3D10_TEXCUBE_ARRAY_SRV1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: D3D10_1Shader.h
 req.target-type: Windows

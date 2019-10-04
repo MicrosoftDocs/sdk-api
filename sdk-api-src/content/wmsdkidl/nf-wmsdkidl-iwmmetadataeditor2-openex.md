@@ -12,6 +12,8 @@ ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMMetadataEditor2.OpenEx"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

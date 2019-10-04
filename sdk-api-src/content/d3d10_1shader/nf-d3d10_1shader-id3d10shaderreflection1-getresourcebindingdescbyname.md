@@ -12,6 +12,8 @@ ms.keywords: 60aed60b-4d08-95c5-668d-2320735171ec, GetResourceBindingDescByName,
 ms.topic: method
 f1_keywords: 
  - "d3d10_1shader/ID3D10ShaderReflection1.GetResourceBindingDescByName"
+dev_langs:
+ - c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows

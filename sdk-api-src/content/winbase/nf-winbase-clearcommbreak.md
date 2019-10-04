@@ -12,6 +12,8 @@ ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, bas
 ms.topic: function
 f1_keywords: 
  - "winbase/ClearCommBreak"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

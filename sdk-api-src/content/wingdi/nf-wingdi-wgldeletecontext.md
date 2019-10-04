@@ -12,6 +12,8 @@ ms.keywords: "_ogl_wglDeleteContext, opengl.wgldeletecontext, wglDeleteContext, 
 ms.topic: function
 f1_keywords: 
  - "wingdi/wglDeleteContext"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

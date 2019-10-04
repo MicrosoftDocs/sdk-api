@@ -12,6 +12,8 @@ ms.keywords: IPropertyStorage interface [Structured Storage],Stat method, IPrope
 ms.topic: method
 f1_keywords: 
  - "propidl/IPropertyStorage.Stat"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

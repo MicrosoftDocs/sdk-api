@@ -12,6 +12,8 @@ ms.keywords: GetTraceStats, GetTraceStats method [Direct3D 11], GetTraceStats me
 ms.topic: method
 f1_keywords: 
  - "d3d11shadertracing/ID3D11ShaderTrace.GetTraceStats"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

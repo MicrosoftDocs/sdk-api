@@ -12,6 +12,8 @@ ms.keywords: IFolderFilterSite, IFolderFilterSite interface [Windows Shell], IFo
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IFolderFilterSite"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl 
 ms.topic: interface
 f1_keywords: 
  - "control/IMediaControl"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

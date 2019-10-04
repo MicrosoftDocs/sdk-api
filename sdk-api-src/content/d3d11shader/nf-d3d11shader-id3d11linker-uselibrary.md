@@ -12,6 +12,8 @@ ms.keywords: ID3D11Linker interface [Direct3D 11],UseLibrary method, ID3D11Linke
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11Linker.UseLibrary"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

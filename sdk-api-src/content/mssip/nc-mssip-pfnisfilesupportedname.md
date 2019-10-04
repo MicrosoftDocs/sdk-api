@@ -12,6 +12,8 @@ ms.keywords: mssip/pfnIsFileSupportedName, pfnIsFileSupportedName, pfnIsFileSupp
 ms.topic: callback
 f1_keywords: 
  - "mssip/pfnIsFileSupportedName"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

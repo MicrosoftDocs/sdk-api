@@ -12,6 +12,8 @@ ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMe
 ms.topic: function
 f1_keywords: 
  - "winuser/SetMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

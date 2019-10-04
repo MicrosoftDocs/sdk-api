@@ -12,6 +12,8 @@ ms.keywords: IErrorInfo, IErrorInfo interface [Automation], IErrorInfo interface
 ms.topic: interface
 f1_keywords: 
  - "oaidl/IErrorInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

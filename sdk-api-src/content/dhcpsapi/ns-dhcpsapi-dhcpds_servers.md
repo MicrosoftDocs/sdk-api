@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPDS_SERVERS, *PDHCPDS_SERVERS, DHCPDS_SERVERS, DHCPDS_SERVER
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCPDS_SERVERS
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

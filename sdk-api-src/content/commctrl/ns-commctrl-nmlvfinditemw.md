@@ -12,6 +12,8 @@ ms.keywords: '*LPNMLVFINDITEMW, NMLVFINDITEM, NMLVFINDITEM structure [Windows Co
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVFINDITEM
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

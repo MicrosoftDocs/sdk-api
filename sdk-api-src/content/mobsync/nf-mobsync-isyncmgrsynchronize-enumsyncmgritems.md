@@ -12,6 +12,8 @@ ms.keywords: EnumSyncMgrItems, EnumSyncMgrItems method [Windows Shell], EnumSync
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronize.EnumSyncMgrItems"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

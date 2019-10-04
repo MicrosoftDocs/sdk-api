@@ -12,6 +12,8 @@ ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCR
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComQCEvents.OnQCRecord"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

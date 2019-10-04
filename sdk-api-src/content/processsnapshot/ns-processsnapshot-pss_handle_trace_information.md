@@ -12,6 +12,8 @@ ms.keywords: PSS_HANDLE_TRACE_INFORMATION, PSS_HANDLE_TRACE_INFORMATION structur
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_HANDLE_TRACE_INFORMATION"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

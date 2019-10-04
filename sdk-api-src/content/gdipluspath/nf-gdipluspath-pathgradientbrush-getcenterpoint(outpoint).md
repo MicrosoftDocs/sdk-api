@@ -12,6 +12,8 @@ ms.keywords: GetCenterPoint, GetCenterPoint method [GDI+], GetCenterPoint method
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetCenterPoint"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

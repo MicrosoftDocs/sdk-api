@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEPTH_STENCIL_VALUE, D3D12_DEPTH_STENCIL_VALUE structure, d3d
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_DEPTH_STENCIL_VALUE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

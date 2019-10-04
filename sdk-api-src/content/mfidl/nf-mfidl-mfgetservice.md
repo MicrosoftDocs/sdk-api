@@ -12,6 +12,8 @@ ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService fu
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFGetService"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

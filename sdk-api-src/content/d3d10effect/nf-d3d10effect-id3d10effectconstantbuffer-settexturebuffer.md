@@ -12,6 +12,8 @@ ms.keywords: 57b8698c-c62f-21ac-a3a9-23505d336b9a, ID3D10EffectConstantBuffer in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectConstantBuffer.SetTextureBuffer"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumModuleRefs, EnumModuleRefs method [Windows Runtime], EnumModule
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumModuleRefs"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

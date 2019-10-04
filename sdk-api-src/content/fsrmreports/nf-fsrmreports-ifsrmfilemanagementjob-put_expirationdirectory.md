@@ -12,6 +12,8 @@ ms.keywords: ExpirationDirectory property [File Server Resource Manager], Expira
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.ExpirationDirectory"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

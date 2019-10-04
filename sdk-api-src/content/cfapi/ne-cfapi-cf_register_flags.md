@@ -12,6 +12,8 @@ ms.keywords: CF_REGISTER_FLAGS, CF_REGISTER_FLAGS enumeration, CF_REGISTER_FLAG_
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_REGISTER_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

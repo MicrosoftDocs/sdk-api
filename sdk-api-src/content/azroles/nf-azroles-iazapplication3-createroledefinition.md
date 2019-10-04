@@ -12,6 +12,8 @@ ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], Creat
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication3.CreateRoleDefinition"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Has608_708Caption property [Microsoft TV Technologies], Has608_708C
 ms.topic: method
 f1_keywords: 
  - "tuner/ITunerCapEx.Has608_708Caption"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

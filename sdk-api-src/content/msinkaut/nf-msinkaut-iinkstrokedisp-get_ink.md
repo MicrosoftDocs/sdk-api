@@ -12,6 +12,8 @@ ms.keywords: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.Ink"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

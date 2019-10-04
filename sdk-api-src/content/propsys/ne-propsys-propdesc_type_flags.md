@@ -12,6 +12,8 @@ ms.keywords: PDTF_CANBEPURGED, PDTF_CANGROUPBY, PDTF_CANSTACKBY, PDTF_DEFAULT, P
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_TYPE_FLAGS"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

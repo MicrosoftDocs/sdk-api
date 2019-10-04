@@ -12,6 +12,8 @@ ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectS
 ms.topic: interface
 f1_keywords:
 - vmr9/IVMRDeinterlaceControl9
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

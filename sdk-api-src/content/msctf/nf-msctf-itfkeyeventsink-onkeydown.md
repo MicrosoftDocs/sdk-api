@@ -12,6 +12,8 @@ ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyDown metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeyEventSink.OnKeyDown"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig 
 ms.topic: interface
 f1_keywords: 
  - "vpconfig/IVPBaseConfig"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

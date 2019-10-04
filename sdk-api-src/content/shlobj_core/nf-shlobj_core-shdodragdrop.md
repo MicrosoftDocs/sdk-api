@@ -12,6 +12,8 @@ ms.keywords: SHDoDragDrop, SHDoDragDrop function [Windows Shell], _win32_SHDoDra
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHDoDragDrop"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

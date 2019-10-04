@@ -12,6 +12,8 @@ ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_IsItemVisible"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

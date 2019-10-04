@@ -12,6 +12,8 @@ ms.keywords: CombineTransform, CombineTransform function [Windows GDI], _win32_C
 ms.topic: function
 f1_keywords: 
  - "wingdi/CombineTransform"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

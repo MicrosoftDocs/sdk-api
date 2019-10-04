@@ -12,6 +12,8 @@ ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGe
 ms.topic: function
 f1_keywords: 
  - "wininet/GopherGetAttribute"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

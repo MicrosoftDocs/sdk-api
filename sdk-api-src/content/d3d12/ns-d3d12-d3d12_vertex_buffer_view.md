@@ -12,6 +12,8 @@ ms.keywords: D3D12_VERTEX_BUFFER_VIEW, D3D12_VERTEX_BUFFER_VIEW structure, d3d12
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_VERTEX_BUFFER_VIEW"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

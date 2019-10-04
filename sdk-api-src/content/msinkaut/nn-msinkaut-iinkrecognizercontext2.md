@@ -12,6 +12,8 @@ ms.keywords: IInkRecognizerContext2, IInkRecognizerContext2 interface [Tablet PC
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext2"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

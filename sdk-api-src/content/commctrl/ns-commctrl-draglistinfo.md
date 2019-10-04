@@ -12,6 +12,8 @@ ms.keywords: "*LPDRAGLISTINFO, DL_BEGINDRAG, DL_CANCELDRAG, DL_DRAGGING, DL_DROP
 ms.topic: struct
 f1_keywords: 
  - "commctrl/DRAGLISTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

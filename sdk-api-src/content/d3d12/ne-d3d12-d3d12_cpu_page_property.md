@@ -12,6 +12,8 @@ ms.keywords: D3D12_CPU_PAGE_PROPERTY, D3D12_CPU_PAGE_PROPERTY enumeration, D3D12
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_CPU_PAGE_PROPERTY"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvi
 ms.topic: function
 f1_keywords: 
  - "memoryapi/DiscardVirtualMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

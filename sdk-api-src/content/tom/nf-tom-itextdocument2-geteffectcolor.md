@@ -12,6 +12,8 @@ ms.keywords: GetEffectColor, GetEffectColor method [Windows Controls], GetEffect
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetEffectColor"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

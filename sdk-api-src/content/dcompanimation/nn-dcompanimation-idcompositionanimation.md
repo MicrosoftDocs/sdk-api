@@ -12,6 +12,8 @@ ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectCom
 ms.topic: interface
 f1_keywords: 
  - "dcompanimation/IDCompositionAnimation"
+dev_langs:
+ - c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

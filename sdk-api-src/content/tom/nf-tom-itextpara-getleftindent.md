@@ -12,6 +12,8 @@ ms.keywords: GetLeftIndent, GetLeftIndent method [Windows Controls], GetLeftInde
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetLeftIndent"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

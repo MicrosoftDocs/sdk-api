@@ -12,6 +12,8 @@ ms.keywords: MultiplyExtract128, MultiplyExtract128 function [Windows API], winn
 ms.topic: function
 f1_keywords: 
  - "winnt/MultiplyExtract128"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

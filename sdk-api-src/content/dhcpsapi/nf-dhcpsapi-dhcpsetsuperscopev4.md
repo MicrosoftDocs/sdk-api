@@ -12,6 +12,8 @@ ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpSetSuperScopeV4"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

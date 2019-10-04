@@ -12,6 +12,8 @@ ms.keywords: IColumnManager interface [Windows Shell],SetColumnInfo method, ICol
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IColumnManager.SetColumnInfo
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedF
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenBase.BlockedFileGroups"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidInputDevice"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

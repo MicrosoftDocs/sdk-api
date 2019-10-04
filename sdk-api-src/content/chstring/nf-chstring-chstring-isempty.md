@@ -12,6 +12,8 @@ ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString in
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.IsEmpty"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

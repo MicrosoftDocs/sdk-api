@@ -12,6 +12,8 @@ ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAsync method, IM
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer.PlayAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

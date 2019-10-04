@@ -12,6 +12,8 @@ ms.keywords: MF_PLUGIN_CONTROL_POLICY, MF_PLUGIN_CONTROL_POLICY enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_PLUGIN_CONTROL_POLICY"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

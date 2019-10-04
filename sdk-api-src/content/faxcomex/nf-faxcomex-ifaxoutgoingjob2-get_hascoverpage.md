@@ -12,6 +12,8 @@ ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob2.HasCoverPage"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProxySettings, GetProxySettings method [BITS], GetProxySettings 
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetProxySettings"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

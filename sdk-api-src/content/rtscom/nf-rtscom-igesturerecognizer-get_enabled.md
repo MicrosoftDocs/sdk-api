@@ -12,6 +12,8 @@ ms.keywords: 4e977348-30d8-474c-80af-56371be5aee4, Enabled property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "rtscom/IGestureRecognizer.Enabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

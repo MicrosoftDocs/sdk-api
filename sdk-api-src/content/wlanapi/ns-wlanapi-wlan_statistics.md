@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure po
 ms.topic: struct
 f1_keywords: 
  - "wlanapi/WLAN_STATISTICS"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

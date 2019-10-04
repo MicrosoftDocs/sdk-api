@@ -12,6 +12,8 @@ ms.keywords: ITextRangeProvider2 interface [Windows Accessibility],ShowContextMe
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider2.ShowContextMenu"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

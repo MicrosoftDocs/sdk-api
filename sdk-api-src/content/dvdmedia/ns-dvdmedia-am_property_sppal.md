@@ -12,6 +12,8 @@ ms.keywords: '*PAM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL structur
 ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_PROPERTY_SPPAL
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

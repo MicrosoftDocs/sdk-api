@@ -12,6 +12,8 @@ ms.keywords: '*PENCRYPTED_LM_OWF_PASSWORD, *PENCRYPTED_NT_OWF_PASSWORD, ENCRYPTE
 ms.topic: struct
 f1_keywords:
 - mschapp/ENCRYPTED_LM_OWF_PASSWORD
+dev_langs:
+ - c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

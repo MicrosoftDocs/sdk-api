@@ -12,6 +12,8 @@ ms.keywords: GiveUserNameResolutionPriority, GiveUserNameResolutionPriority meth
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.GiveUserNameResolutionPriority"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

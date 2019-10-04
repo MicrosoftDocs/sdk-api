@@ -12,6 +12,8 @@ ms.keywords: AppPolicyClrCompat, AppPolicyClrCompat enumeration [App packaging a
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyClrCompat"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

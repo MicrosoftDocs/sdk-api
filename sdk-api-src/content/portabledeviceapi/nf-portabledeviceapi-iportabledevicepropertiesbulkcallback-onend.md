@@ -12,6 +12,8 @@ ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable D
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDevicePropertiesBulkCallback.OnEnd"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_INSTANCES_POLICY"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

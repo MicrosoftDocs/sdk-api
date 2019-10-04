@@ -12,6 +12,8 @@ ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA,
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathSkipRoot"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

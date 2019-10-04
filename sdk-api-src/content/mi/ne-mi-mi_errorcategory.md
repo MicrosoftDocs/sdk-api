@@ -12,6 +12,8 @@ ms.keywords: MI_ERRORCATEGORY_ACCESS_DENIED, MI_ERRORCATEGORY_CLOS_EERROR, MI_ER
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_ErrorCategory"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

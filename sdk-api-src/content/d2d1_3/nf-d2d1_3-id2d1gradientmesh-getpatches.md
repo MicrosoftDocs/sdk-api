@@ -12,6 +12,8 @@ ms.keywords: GetPatches, GetPatches method [Direct2D], GetPatches method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1GradientMesh.GetPatches"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

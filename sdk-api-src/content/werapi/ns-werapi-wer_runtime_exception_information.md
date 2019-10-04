@@ -12,6 +12,8 @@ ms.keywords: '*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORM
 ms.topic: struct
 f1_keywords:
 - werapi/WER_RUNTIME_EXCEPTION_INFORMATION
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

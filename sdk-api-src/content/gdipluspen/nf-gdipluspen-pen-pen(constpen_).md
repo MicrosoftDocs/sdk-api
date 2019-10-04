@@ -12,6 +12,8 @@ ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(const Pen &), Pen::P
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.Pen"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: 
 req.target-type: Windows

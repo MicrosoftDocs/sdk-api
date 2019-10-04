@@ -12,6 +12,8 @@ ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component]
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataHandlerInfo.GetDeviceModels"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

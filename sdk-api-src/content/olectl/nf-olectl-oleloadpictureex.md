@@ -12,6 +12,8 @@ ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPict
 ms.topic: function
 f1_keywords: 
  - "olectl/OleLoadPictureEx"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

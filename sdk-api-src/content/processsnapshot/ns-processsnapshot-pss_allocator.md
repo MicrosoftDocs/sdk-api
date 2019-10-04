@@ -12,6 +12,8 @@ ms.keywords: PSS_ALLOCATOR, PSS_ALLOCATOR structure, proc_snap.pss_allocator, pr
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_ALLOCATOR"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

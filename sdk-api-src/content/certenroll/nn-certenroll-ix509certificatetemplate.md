@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Secur
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509CertificateTemplate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCAR
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardAddReaderToGroup"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

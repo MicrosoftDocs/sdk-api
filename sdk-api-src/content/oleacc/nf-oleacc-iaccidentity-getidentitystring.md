@@ -12,6 +12,8 @@ ms.keywords: GetIdentityString, GetIdentityString method [Windows Accessibility]
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccIdentity.GetIdentityString"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

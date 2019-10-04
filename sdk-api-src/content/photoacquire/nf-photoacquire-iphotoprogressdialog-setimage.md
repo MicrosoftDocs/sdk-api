@@ -12,6 +12,8 @@ ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetImage metho
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoProgressDialog.SetImage"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

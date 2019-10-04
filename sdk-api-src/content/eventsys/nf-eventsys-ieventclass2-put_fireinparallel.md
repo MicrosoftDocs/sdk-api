@@ -12,6 +12,8 @@ ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IEve
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass2.FireInParallel"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

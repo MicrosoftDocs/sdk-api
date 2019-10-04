@@ -12,6 +12,8 @@ ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTri
 ms.topic: method
 f1_keywords:
 - mstask/ITaskTrigger.SetTrigger
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

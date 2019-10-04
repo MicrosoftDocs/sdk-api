@@ -12,6 +12,8 @@ ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw met
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.GetDirectDraw"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

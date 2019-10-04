@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo interface [Automation],PutFieldNoCopy method, IRecordIn
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.PutFieldNoCopy"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

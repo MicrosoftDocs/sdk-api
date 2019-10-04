@@ -12,6 +12,8 @@ ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FOLDER_ENUM_MODE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientInitialize"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

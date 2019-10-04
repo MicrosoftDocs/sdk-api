@@ -12,6 +12,8 @@ ms.keywords: EngFreeUserMem, EngFreeUserMem function [Display Devices], display.
 ms.topic: macro
 f1_keywords: 
  - "winddi/EngFreeUserMem"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

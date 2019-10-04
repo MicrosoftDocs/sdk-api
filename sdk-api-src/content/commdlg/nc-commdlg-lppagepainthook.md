@@ -12,6 +12,8 @@ ms.keywords: LPPAGEPAINTHOOK, LPPAGEPAINTHOOK callback, LPPAGEPAINTHOOK callback
 ms.topic: callback
 f1_keywords: 
  - "commdlg/LPPAGEPAINTHOOK"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

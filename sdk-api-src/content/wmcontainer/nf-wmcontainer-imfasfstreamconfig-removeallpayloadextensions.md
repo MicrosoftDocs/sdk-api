@@ -12,6 +12,8 @@ ms.keywords: 7b2c592b-28f6-49a9-9bf5-1080202f606a, IMFASFStreamConfig interface 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.RemoveAllPayloadExtensions"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

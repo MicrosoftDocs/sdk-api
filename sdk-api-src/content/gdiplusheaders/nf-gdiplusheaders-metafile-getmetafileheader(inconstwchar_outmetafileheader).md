@@ -12,6 +12,8 @@ ms.keywords: GetMetafileHeader, GetMetafileHeader method [GDI+], GetMetafileHead
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Metafile.GetMetafileHeader"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

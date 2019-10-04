@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],put_IsHierarchical method, ISearchRo
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.put_IsHierarchical"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

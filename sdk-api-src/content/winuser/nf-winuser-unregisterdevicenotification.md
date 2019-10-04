@@ -12,6 +12,8 @@ ms.keywords: UnregisterDeviceNotification, UnregisterDeviceNotification function
 ms.topic: function
 f1_keywords: 
  - "winuser/UnregisterDeviceNotification"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

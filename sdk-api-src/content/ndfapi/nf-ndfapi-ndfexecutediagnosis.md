@@ -12,6 +12,8 @@ ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexe
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfExecuteDiagnosis"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToR
 ms.topic: interface
 f1_keywords: 
  - "tvratings/IXDSToRat"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

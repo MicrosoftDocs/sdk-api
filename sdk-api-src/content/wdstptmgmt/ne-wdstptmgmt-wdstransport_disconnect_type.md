@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_DISCONNECT_TYPE, WDSTRANSPORT_DISCONNECT_TYPE, WDST
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_DISCONNECT_TYPE"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

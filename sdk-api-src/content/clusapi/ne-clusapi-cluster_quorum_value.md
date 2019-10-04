@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_QUORUM_LOST, CLUSTER_QUORUM_MAINTAINED, CLUSTER_QUORUM_VALU
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_QUORUM_VALUE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: ClusAPI.h
 req.target-type: Windows

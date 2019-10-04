@@ -12,6 +12,8 @@ ms.keywords: MprAdminAcceptNewConnectionEx, MprAdminAcceptNewConnectionEx callba
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminAcceptNewConnectionEx
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

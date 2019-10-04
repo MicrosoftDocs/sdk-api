@@ -12,6 +12,8 @@ ms.keywords: WS_HEAP_PROPERTIES, WS_HEAP_PROPERTIES structure [Web Services for 
 ms.topic: struct
 f1_keywords:
 - webservices/WS_HEAP_PROPERTIES
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

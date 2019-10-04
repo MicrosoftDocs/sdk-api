@@ -12,6 +12,8 @@ ms.keywords: Company property [File Server Resource Manager], Company property [
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleDefinition.Company"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

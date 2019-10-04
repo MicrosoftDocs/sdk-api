@@ -12,6 +12,8 @@ ms.keywords: 1777027a-85bb-47d2-baf8-6f420282b01a, MFCreateVideoMixerAndPresente
 ms.topic: callback
 f1_keywords: 
  - "evr/MFCreateVideoMixerAndPresenter"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

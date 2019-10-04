@@ -12,6 +12,8 @@ ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/ShellCommandInfo, *PShellCommandInfo"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

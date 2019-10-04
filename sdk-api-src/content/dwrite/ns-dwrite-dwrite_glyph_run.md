@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GLYPH_RUN, DWRITE_GLYPH_RUN structure [Direct Write], direct
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_GLYPH_RUN"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

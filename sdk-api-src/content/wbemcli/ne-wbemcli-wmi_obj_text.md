@@ -12,6 +12,8 @@ ms.keywords: WMI_OBJ_TEXT, WMI_OBJ_TEXT enumeration [Windows Management Instrume
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WMI_OBJ_TEXT"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

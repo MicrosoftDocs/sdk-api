@@ -12,6 +12,8 @@ ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], Enu
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenBase.EnumActions"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

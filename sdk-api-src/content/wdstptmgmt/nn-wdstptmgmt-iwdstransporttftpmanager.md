@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpManager"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

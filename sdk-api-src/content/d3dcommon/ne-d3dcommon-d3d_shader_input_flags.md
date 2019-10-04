@@ -12,6 +12,8 @@ ms.keywords: D3D10_SIF_COMPARISON_SAMPLER, D3D10_SIF_TEXTURE_COMPONENTS, D3D10_S
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_SHADER_INPUT_FLAGS"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UnmapDebugInformation, UnmapDebugInformation function, _win32_unmap
 ms.topic: function
 f1_keywords:
 - dbghelp/UnmapDebugInformation
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

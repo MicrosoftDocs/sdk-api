@@ -12,6 +12,8 @@ ms.keywords: IBDA_PinControl interface [Microsoft TV Technologies],RegistrationC
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_PinControl.RegistrationContext"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

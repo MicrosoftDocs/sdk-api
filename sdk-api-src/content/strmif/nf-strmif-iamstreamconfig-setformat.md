@@ -12,6 +12,8 @@ ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamC
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMStreamConfig.SetFormat"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO,
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

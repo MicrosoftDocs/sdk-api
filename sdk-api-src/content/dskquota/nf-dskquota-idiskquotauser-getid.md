@@ -12,6 +12,8 @@ ms.keywords: GetID, GetID method [Files], GetID method [Files],IDiskQuotaUser in
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetID"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5f032879-d10b-8a54-5b40-9fa1e178b0d5, D3D10CreateBlob, D3D10CreateB
 ms.topic: function
 f1_keywords: 
  - "d3d10misc/D3D10CreateBlob"
+dev_langs:
+ - c++
 req.header: d3d10misc.h
 req.include-header: 
 req.target-type: Windows

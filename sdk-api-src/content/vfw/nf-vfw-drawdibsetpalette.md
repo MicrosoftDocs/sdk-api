@@ -12,6 +12,8 @@ ms.keywords: DrawDibSetPalette, DrawDibSetPalette function [Windows Multimedia],
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibSetPalette"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

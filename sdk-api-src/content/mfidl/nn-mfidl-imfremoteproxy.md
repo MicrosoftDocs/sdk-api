@@ -12,6 +12,8 @@ ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProx
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFRemoteProxy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuota interface [File Server Resource Manager],ResetPeakUsage 
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuota.ResetPeakUsage"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

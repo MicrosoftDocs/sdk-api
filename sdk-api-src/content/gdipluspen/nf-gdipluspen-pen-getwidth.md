@@ -12,6 +12,8 @@ ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Pen class,
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetWidth"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

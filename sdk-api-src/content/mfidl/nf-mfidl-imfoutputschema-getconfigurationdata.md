@@ -12,6 +12,8 @@ ms.keywords: 26730d2d-8ebc-441b-a262-db0c8fe7e75a, GetConfigurationData, GetConf
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputSchema.GetConfigurationData"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProfileID, GetProfileID method [windows Media Format], GetProfil
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile2.GetProfileID"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

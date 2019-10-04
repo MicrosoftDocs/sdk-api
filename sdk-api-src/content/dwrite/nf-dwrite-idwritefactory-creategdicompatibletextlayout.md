@@ -12,6 +12,8 @@ ms.keywords: CreateGdiCompatibleTextLayout, CreateGdiCompatibleTextLayout method
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.CreateGdiCompatibleTextLayout"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

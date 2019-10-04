@@ -12,6 +12,8 @@ ms.keywords: CommitChanges, CommitChanges method [Windows Contacts], CommitChang
 ms.topic: method
 f1_keywords: 
  - "icontact/IContact.CommitChanges"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

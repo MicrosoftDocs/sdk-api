@@ -12,6 +12,8 @@ ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], 
 ms.topic: function
 f1_keywords: 
  - "olectl/OleCreatePictureIndirect"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

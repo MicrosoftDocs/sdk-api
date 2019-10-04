@@ -12,6 +12,8 @@ ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], C
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateMDIWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

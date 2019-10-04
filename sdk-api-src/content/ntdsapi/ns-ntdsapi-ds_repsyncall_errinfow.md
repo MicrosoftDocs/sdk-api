@@ -12,6 +12,8 @@ ms.keywords: "*PDS_REPSYNCALL_ERRINFOW, DS_REPSYNCALL_ERRINFO, DS_REPSYNCALL_ERR
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_REPSYNCALL_ERRINFO"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

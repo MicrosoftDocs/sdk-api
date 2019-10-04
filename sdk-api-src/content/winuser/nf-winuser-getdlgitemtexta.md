@@ -12,6 +12,8 @@ ms.keywords: GetDlgItemText, GetDlgItemText function [Dialog Boxes], GetDlgItemT
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDlgItemText"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

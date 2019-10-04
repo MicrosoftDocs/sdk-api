@@ -12,6 +12,8 @@ ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class,
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.GetHRGN"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

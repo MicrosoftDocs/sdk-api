@@ -12,6 +12,8 @@ ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORB
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/SetThreadErrorMode"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

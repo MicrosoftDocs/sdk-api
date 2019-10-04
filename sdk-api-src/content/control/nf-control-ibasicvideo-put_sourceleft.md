@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],put_SourceLeft method, IBasicVid
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.put_SourceLeft"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

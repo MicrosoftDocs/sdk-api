@@ -12,6 +12,8 @@ ms.keywords: WS_DYNAMIC_STRING_CALLBACK, WS_DYNAMIC_STRING_CALLBACK callback, WS
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_DYNAMIC_STRING_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetstatusmessages, lineGetStatusMessages, lineGetStatus
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetStatusMessages"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,10 @@ ms.assetid: a0310ab9-bf11-4a40-a463-6ad6cf7fd3eb
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList1::ProcessFrames1
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList1::ProcessFrames1, ProcessFrames1, ID3D12VideoProcessCommandList1.ProcessFrames1, ID3D12VideoProcessCommandList1::ProcessFrames1, ID3D12VideoProcessCommandList1.ProcessFrames1
 req.header: d3d12video.h
 req.include-header:

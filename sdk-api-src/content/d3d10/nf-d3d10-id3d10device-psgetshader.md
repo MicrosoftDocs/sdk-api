@@ -12,6 +12,8 @@ ms.keywords: 22e11c1b-a242-803e-3d24-a515820d6e7a, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.PSGetShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

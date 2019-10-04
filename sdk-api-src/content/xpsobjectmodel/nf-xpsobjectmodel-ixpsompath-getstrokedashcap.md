@@ -12,6 +12,8 @@ ms.keywords: GetStrokeDashCap, GetStrokeDashCap method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.GetStrokeDashCap"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

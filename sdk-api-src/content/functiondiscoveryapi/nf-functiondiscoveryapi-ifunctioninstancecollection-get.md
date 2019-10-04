@@ -12,6 +12,8 @@ ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, 
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollection.Get"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

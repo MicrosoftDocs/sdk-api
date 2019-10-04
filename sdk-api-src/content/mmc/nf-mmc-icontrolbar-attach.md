@@ -12,6 +12,8 @@ ms.keywords: Attach, Attach method [MMC], Attach method [MMC],IControlbar interf
 ms.topic: method
 f1_keywords:
 - mmc/IControlbar.Attach
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

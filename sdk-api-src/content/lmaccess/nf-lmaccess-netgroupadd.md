@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, NetGroupAdd, NetGroupAdd function [Network Management],
 ms.topic: function
 f1_keywords:
 - lmaccess/NetGroupAdd
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

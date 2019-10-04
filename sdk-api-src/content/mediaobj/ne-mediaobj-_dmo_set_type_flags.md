@@ -12,6 +12,8 @@ ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , 
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_SET_TYPE_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

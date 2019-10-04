@@ -12,6 +12,8 @@ ms.keywords: WABOpenEx, WABOpenEx callback, WABOpenEx callback function [Windows
 ms.topic: callback
 f1_keywords:
 - wabapi/WABOpenEx
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

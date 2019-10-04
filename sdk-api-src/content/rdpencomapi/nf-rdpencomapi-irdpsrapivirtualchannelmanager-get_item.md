@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPS
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIVirtualChannelManager.Item"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

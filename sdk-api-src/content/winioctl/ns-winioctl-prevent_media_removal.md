@@ -12,6 +12,8 @@ ms.keywords: "*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMO
 ms.topic: struct
 f1_keywords: 
  - "winioctl/PREVENT_MEDIA_REMOVAL"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

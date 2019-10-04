@@ -12,6 +12,8 @@ ms.keywords: ClearProperty, ClearProperty method, ClearProperty method,IVisualTr
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.ClearProperty"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

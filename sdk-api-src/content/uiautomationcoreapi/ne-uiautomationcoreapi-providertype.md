@@ -12,6 +12,8 @@ ms.keywords: ProviderType, ProviderType enumeration [Windows Accessibility], Pro
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/ProviderType"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

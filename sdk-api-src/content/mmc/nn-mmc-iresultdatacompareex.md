@@ -12,6 +12,8 @@ ms.keywords: IResultDataCompareEx, IResultDataCompareEx interface [MMC], IResult
 ms.topic: interface
 f1_keywords: 
  - "mmc/IResultDataCompareEx"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

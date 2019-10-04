@@ -12,6 +12,8 @@ ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], Do
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.DoDefaultAction"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

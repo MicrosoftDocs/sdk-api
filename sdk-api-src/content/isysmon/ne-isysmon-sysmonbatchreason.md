@@ -12,6 +12,8 @@ ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, Sysmo
 ms.topic: enum
 f1_keywords: 
  - "isysmon/SysmonBatchReason"
+dev_langs:
+ - c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

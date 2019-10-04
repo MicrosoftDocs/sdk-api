@@ -12,6 +12,8 @@ ms.keywords: PathParseIconLocation, PathParseIconLocation function [Windows Shel
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathParseIconLocation"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

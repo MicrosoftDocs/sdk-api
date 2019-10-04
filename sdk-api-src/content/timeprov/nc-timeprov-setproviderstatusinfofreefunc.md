@@ -12,6 +12,8 @@ ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callba
 ms.topic: callback
 f1_keywords: 
  - "timeprov/SetProviderStatusInfoFreeFunc"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

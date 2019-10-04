@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],SaveData
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireOptionsDialog.SaveData"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

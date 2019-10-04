@@ -12,6 +12,8 @@ ms.keywords: D2D1_CHANGE_TYPE, D2D1_CHANGE_TYPE enumeration [Direct2D], D2D1_CHA
 ms.topic: enum
 f1_keywords: 
  - "d2d1effectauthor/D2D1_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

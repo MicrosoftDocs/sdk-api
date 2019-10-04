@@ -12,6 +12,8 @@ ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall me
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertificateEnrollmentServerSetup.UnInstall"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

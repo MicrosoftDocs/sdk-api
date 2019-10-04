@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],get_Size method, IFont.get_Size, IFont::get_S
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.get_Size"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

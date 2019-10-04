@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopy
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyJobs1.Clone"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

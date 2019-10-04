@@ -12,6 +12,8 @@ ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS,
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindCertificateInStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

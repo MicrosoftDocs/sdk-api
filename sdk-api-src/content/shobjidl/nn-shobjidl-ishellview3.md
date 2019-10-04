@@ -12,6 +12,8 @@ ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 int
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IShellView3"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

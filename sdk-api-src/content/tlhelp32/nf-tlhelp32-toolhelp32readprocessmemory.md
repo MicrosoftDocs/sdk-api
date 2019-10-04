@@ -12,6 +12,8 @@ ms.keywords: Toolhelp32ReadProcessMemory, Toolhelp32ReadProcessMemory function [
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Toolhelp32ReadProcessMemory"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

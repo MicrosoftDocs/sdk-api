@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK struc
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_COUNTER_BLOCK
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

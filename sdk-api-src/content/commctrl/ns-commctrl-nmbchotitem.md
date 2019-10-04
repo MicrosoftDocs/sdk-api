@@ -12,6 +12,8 @@ ms.keywords: '*LPNMBCHOTITEM, HICF_ENTERING, HICF_LEAVING, LPNMBCHOTITEM, LPNMBC
 ms.topic: struct
 f1_keywords:
 - commctrl/NMBCHOTITEM
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

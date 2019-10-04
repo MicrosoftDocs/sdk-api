@@ -12,6 +12,8 @@ ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Playe
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPStreamingType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

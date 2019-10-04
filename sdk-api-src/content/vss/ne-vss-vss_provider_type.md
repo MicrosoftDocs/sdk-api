@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE, PVSS_PROVIDER_TYPE enumer
 ms.topic: enum
 f1_keywords:
 - vss/VSS_PROVIDER_TYPE
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

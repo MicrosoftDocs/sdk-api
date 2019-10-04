@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_PAIR, CERT_CRL_CONTEXT_P
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_CRL_CONTEXT_PAIR"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

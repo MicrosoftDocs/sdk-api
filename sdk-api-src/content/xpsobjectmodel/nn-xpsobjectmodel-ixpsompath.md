@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXp
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 52389497-00e9-1a7b-1543-a60e2a6b6479, GSSetShader, GSSetShader meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.GSSetShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

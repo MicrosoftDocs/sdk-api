@@ -12,6 +12,8 @@ ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [W
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetGroupInfoByIndex"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

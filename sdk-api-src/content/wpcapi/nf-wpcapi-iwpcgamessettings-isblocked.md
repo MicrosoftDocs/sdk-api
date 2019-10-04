@@ -12,6 +12,8 @@ ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsB
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCGamesSettings.IsBlocked"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

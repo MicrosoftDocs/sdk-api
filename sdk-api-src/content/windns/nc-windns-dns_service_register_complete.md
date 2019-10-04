@@ -7,6 +7,8 @@ ms.keywords: DNS_SERVICE_REGISTER_COMPLETE
 ms.topic: language-reference
 f1_keywords: 
  - "windns/DNS_SERVICE_REGISTER_COMPLETE"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failove
 ms.topic: callback
 f1_keywords: 
  - "resapi/StartupEx callback"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

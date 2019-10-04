@@ -12,6 +12,8 @@ ms.keywords: GetNextLocator, GetNextLocator method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.GetNextLocator"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

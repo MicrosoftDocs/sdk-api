@@ -12,6 +12,8 @@ ms.keywords: DIFsrmClassificationEvents, DIFsrmClassificationEvents interface [F
 ms.topic: interface
 f1_keywords: 
  - "fsrmtlb/DIFsrmClassificationEvents"
+dev_langs:
+ - c++
 req.header: fsrmtlb.h
 req.include-header: 
 req.target-type: Windows

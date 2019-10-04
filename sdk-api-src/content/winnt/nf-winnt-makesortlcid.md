@@ -12,6 +12,8 @@ ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows 
 ms.topic: macro
 f1_keywords: 
  - "winnt/MAKESORTLCID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRangeSetValue, GetRangeSetValue method [Windows Properties], Get
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType.GetRangeSetValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

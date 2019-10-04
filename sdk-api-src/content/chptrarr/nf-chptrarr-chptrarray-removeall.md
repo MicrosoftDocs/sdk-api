@@ -12,6 +12,8 @@ ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Manag
 ms.topic: method
 f1_keywords: 
  - "chptrarr/CHPtrArray.RemoveAll"
+dev_langs:
+ - c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

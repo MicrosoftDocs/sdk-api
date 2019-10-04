@@ -12,6 +12,8 @@ ms.keywords: ADSTYPE, ADSTYPE enumeration [ADSI], ADSTYPEENUM, ADSTYPEENUM enume
 ms.topic: enum
 f1_keywords: 
  - "iads/ADSTYPEENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

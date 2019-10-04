@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextAnalyzer1, IDWriteTextAnalyzer1 interface [Direct Write]
 ms.topic: interface
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

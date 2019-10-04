@@ -12,6 +12,8 @@ ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqSt
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqStartup"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

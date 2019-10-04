@@ -12,6 +12,8 @@ ms.keywords: 0 (Zero), BeginEnumeration, BeginEnumeration method [Windows Manage
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemQualifierSet.BeginEnumeration"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

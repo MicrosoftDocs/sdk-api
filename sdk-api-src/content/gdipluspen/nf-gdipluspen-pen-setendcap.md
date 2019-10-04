@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetEndCap method, Pen.SetEndCap, Pen::SetEndCap, S
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetEndCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

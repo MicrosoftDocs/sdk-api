@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON, KERB_SMART_CARD_LO
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_SMART_CARD_LOGON
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

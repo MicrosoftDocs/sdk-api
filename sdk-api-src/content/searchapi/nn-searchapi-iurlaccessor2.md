@@ -12,6 +12,8 @@ ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 inte
 ms.topic: interface
 f1_keywords: 
  - "searchapi/IUrlAccessor2"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

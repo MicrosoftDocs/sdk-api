@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],IsDownloaded property, IUp
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.IsDownloaded"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

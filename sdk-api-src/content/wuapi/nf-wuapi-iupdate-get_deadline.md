@@ -12,6 +12,8 @@ ms.keywords: Deadline property [Windows Update Agent], Deadline property [Window
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.Deadline"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

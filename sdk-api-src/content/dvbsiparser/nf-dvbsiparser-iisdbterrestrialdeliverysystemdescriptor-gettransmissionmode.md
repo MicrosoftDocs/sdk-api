@@ -12,6 +12,8 @@ ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

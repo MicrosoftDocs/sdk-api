@@ -12,6 +12,8 @@ ms.keywords: MFGetAttributeUINT32, MFGetAttributeUINT32 function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributeUINT32"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

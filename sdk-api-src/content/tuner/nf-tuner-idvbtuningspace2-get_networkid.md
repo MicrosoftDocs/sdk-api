@@ -12,6 +12,8 @@ ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],get_NetworkI
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTuningSpace2.get_NetworkID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

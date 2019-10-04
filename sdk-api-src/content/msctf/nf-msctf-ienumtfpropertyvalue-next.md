@@ -12,6 +12,8 @@ ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Next metho
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfPropertyValue.Next"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumerat
 ms.topic: enum
 f1_keywords:
 - wincred/CRED_MARSHAL_TYPE
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

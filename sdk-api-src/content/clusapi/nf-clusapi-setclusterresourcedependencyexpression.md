@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_C
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetClusterResourceDependencyExpression"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

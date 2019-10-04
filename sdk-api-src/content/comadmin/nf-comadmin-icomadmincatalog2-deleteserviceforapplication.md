@@ -12,6 +12,8 @@ ms.keywords: DeleteServiceForApplication, DeleteServiceForApplication method [CO
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.DeleteServiceForApplication"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

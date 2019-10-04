@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structur
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVUI_DATA
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

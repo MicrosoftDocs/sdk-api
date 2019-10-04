@@ -12,6 +12,8 @@ ms.keywords: IOverlay interface [DirectShow],SetColorKey method, IOverlay.SetCol
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlay.SetColorKey"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

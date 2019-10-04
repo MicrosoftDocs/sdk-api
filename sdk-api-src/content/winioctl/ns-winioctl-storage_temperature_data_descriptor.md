@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_D
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

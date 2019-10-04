@@ -12,6 +12,8 @@ ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], Ge
 ms.topic: method
 f1_keywords:
 - shappmgr/IPublishedApp.GetPublishedAppInfo
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

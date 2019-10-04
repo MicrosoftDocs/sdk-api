@@ -12,6 +12,8 @@ ms.keywords: GetTileMode, GetTileMode method [XPS Documents and Packaging], GetT
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMTileBrush.GetTileMode"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

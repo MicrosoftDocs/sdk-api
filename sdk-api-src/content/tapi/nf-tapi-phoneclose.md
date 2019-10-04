@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phoneclose, phoneClose, phoneClose function [TAPI 2.2], tap
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneClose"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

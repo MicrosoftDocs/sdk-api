@@ -12,6 +12,8 @@ ms.keywords: ITransferDestination interface [Windows Shell],Unadvise method, ITr
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferDestination.Unadvise"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter meth
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace3.HasCharacter"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

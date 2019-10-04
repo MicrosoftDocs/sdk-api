@@ -12,6 +12,8 @@ ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMReaderStreamClock"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

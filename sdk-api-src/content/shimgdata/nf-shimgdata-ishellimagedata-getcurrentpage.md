@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPa
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetCurrentPage"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

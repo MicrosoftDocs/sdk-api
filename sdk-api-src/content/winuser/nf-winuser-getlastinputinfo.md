@@ -12,6 +12,8 @@ ms.keywords: GetLastInputInfo, GetLastInputInfo function [Keyboard and Mouse Inp
 ms.topic: function
 f1_keywords: 
  - "winuser/GetLastInputInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

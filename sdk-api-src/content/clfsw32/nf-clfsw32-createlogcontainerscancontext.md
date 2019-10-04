@@ -12,6 +12,8 @@ ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogCon
 ms.topic: function
 f1_keywords:
 - clfsw32/CreateLogContainerScanContext
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodec.GetCurrLicenseExpDate"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

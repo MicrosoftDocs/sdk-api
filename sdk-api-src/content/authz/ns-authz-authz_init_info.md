@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHZ_INIT_INFO, AUTHZ_INIT_INFO, AUTHZ_INIT_INFO structure [Sec
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_INIT_INFO
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

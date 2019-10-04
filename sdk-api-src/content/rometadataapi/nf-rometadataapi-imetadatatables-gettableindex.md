@@ -12,6 +12,8 @@ ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableInde
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetTableIndex"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

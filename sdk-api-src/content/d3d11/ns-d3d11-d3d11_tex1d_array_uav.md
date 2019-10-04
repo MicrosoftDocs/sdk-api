@@ -12,6 +12,8 @@ ms.keywords: 996cd2a4-b335-16f3-2420-8b9fadb414b0, D3D11_TEX1D_ARRAY_UAV, D3D11_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX1D_ARRAY_UAV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

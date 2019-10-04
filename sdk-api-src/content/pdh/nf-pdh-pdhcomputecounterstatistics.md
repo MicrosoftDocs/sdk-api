@@ -12,6 +12,8 @@ ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_
 ms.topic: function
 f1_keywords:
 - pdh/PdhComputeCounterStatistics
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

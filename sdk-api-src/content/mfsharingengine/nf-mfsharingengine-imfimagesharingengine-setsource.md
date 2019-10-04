@@ -12,6 +12,8 @@ ms.keywords: IMFImageSharingEngine interface [Media Foundation],SetSource method
 ms.topic: method
 f1_keywords: 
  - "mfsharingengine/IMFImageSharingEngine.SetSource"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

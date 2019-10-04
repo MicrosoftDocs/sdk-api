@@ -12,6 +12,8 @@ ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_
 ms.topic: function
 f1_keywords: 
  - "traffic/TcSetFlow"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

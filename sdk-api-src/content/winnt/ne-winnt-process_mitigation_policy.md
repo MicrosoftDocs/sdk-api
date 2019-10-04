@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_POLICY, MaxProcessMitigationPolicy, PPROCESS_
 ms.topic: enum
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

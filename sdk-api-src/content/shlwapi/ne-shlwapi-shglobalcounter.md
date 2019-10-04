@@ -12,6 +12,8 @@ ms.keywords: GLOBALCOUNTER_APPLICATION_DESTINATIONS, GLOBALCOUNTER_APPROVEDSITES
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/SHGLOBALCOUNTER"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

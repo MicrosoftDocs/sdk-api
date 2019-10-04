@@ -12,6 +12,8 @@ ms.keywords: IWMPLibraryServices interface [Windows Media Player],getCountByType
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPLibraryServices.getCountByType"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

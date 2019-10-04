@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows M
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriter.Flush"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

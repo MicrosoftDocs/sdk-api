@@ -12,6 +12,8 @@ ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IDownloadResult.ResultCode"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

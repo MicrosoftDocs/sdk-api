@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGatherDigits"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

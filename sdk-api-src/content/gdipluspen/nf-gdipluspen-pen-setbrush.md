@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetBrush method, Pen.SetBrush, Pen::SetBrush, SetB
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetBrush"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

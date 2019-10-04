@@ -12,6 +12,8 @@ ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IOb
 ms.topic: interface
 f1_keywords: 
  - "objectarray/IObjectCollection"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

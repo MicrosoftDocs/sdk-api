@@ -12,6 +12,8 @@ ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescripto
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreatePresentationDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

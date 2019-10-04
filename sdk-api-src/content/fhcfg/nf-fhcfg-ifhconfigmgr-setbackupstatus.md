@@ -12,6 +12,8 @@ ms.keywords: FhConfigMgr class [Windows API],SetBackupStatus method, IFhConfigMg
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.SetBackupStatus
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

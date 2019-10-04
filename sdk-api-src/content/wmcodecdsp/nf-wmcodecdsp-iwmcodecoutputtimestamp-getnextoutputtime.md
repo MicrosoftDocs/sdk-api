@@ -12,6 +12,8 @@ ms.keywords: GetNextOutputTime, GetNextOutputTime method [Media Foundation], Get
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecOutputTimestamp.GetNextOutputTime"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

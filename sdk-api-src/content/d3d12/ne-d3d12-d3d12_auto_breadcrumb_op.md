@@ -9,6 +9,8 @@ ms.keywords: D3D12_AUTO_BREADCRUMB_OP, D3D12_AUTO_BREADCRUMB_OP enumeration, d3d
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_AUTO_BREADCRUMB_OP"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Deskto
 ms.topic: interface
 f1_keywords: 
  - "wtsprotocol/IWTSProtocolListener"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

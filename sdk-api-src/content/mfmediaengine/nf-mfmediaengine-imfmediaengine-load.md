@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEn
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.Load"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

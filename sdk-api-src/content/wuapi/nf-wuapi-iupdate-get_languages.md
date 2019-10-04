@@ -12,6 +12,8 @@ ms.keywords: IUpdate interface [Windows Update Agent],Languages property, IUpdat
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate.Languages"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterControlUnit, EngineAdapterControlUnit callback functio
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterControlUnit
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

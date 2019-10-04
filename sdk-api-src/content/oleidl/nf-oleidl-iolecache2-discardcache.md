@@ -12,6 +12,8 @@ ms.keywords: DiscardCache, DiscardCache method [COM], DiscardCache method [COM],
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCache2.DiscardCache"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

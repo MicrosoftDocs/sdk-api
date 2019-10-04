@@ -12,6 +12,8 @@ ms.keywords: WBEM_ENABLE, WBEM_FULL_WRITE_REP, WBEM_METHOD_EXECUTE, WBEM_PARTIAL
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_SECURITY_FLAGS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

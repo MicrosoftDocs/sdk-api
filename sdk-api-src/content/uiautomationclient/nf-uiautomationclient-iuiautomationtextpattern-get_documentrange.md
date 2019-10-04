@@ -12,6 +12,8 @@ ms.keywords: DocumentRange property [Windows Accessibility], DocumentRange prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextPattern.DocumentRange"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

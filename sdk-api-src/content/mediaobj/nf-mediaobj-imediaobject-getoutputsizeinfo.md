@@ -12,6 +12,8 @@ ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutput
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.GetOutputSizeInfo"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

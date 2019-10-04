@@ -12,6 +12,8 @@ ms.keywords: ERROR_INVALID_PARAMETER, ERROR_INVALID_STATE, ERROR_SERVICE_NOT_ACT
 ms.topic: callback
 f1_keywords: 
  - "wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

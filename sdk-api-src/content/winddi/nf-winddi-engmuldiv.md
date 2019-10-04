@@ -12,6 +12,8 @@ ms.keywords: EngMulDiv, EngMulDiv function [Display Devices], display.engmuldiv,
 ms.topic: function
 f1_keywords: 
  - "winddi/EngMulDiv"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

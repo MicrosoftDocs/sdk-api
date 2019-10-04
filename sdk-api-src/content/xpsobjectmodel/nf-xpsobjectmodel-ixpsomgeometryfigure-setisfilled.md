@@ -12,6 +12,8 @@ ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging]
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

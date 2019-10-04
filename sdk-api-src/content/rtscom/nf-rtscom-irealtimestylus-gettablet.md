@@ -12,6 +12,8 @@ ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetTablet"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

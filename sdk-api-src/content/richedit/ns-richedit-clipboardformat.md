@@ -12,6 +12,8 @@ ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], cont
 ms.topic: struct
 f1_keywords: 
  - "richedit/CLIPBOARDFORMAT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

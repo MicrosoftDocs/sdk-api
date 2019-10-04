@@ -12,6 +12,8 @@ ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IR
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IRegistrationInfo"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetVa
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetValueNormalization"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

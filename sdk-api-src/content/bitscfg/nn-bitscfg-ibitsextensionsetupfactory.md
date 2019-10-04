@@ -12,6 +12,8 @@ ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [B
 ms.topic: interface
 f1_keywords: 
  - "bitscfg/IBITSExtensionSetupFactory"
+dev_langs:
+ - c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

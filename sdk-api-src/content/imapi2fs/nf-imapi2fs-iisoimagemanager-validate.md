@@ -12,6 +12,8 @@ ms.keywords: IIsoImageManager interface [IMAPI],Validate method, IIsoImageManage
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IIsoImageManager.Validate"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

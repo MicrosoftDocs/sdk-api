@@ -9,6 +9,8 @@ ms.keywords: Graphics::IntersectClip
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusgraphics/Graphics::IntersectClip"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

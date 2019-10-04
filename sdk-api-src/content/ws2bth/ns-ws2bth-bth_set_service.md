@@ -12,6 +12,8 @@ ms.keywords: '*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE
 ms.topic: struct
 f1_keywords:
 - ws2bth/BTH_SET_SERVICE
+dev_langs:
+ - c++
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

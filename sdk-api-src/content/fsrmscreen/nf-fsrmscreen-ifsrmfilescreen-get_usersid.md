@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid pr
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreen.UserSid"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

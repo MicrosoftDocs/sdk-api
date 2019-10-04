@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_VIDEO_PROCESSOR_STE
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

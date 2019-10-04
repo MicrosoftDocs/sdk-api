@@ -12,6 +12,8 @@ ms.keywords: SERVERCALL, SERVERCALL enumeration [COM], SERVERCALL_ISHANDLED, SER
 ms.topic: enum
 f1_keywords: 
  - "objidl/SERVERCALL"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

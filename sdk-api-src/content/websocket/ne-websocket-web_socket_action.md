@@ -12,6 +12,8 @@ ms.keywords: '*PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION enumer
 ms.topic: enum
 f1_keywords:
 - websocket/WEB_SOCKET_ACTION
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

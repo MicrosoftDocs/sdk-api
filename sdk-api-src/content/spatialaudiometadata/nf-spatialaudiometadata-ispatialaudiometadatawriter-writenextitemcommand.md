@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCom
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataWriter.WriteNextItemCommand"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

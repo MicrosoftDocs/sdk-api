@@ -12,6 +12,8 @@ ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbCADescriptor.GetReservedBits"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

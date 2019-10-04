@@ -12,6 +12,8 @@ ms.keywords: GetClipboardViewer, GetClipboardViewer function [Data Exchange], _w
 ms.topic: function
 f1_keywords: 
  - "winuser/GetClipboardViewer"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

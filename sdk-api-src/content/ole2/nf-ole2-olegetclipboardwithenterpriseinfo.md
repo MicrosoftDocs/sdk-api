@@ -12,6 +12,8 @@ ms.keywords: OleGetClipboardWithEnterpriseInfo, OleGetClipboardWithEnterpriseInf
 ms.topic: function
 f1_keywords: 
  - "ole2/OleGetClipboardWithEnterpriseInfo"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

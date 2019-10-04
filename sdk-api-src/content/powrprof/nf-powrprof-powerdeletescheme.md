@@ -12,6 +12,8 @@ ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletesche
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerDeleteScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

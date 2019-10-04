@@ -12,6 +12,8 @@ ms.keywords: ID2D1EffectContext interface [Direct2D],IsShaderLoaded method, ID2D
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1EffectContext.IsShaderLoaded"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

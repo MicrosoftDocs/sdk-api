@@ -12,6 +12,8 @@ ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrackList"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

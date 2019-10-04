@@ -12,6 +12,8 @@ ms.keywords: CreateSubresourceSurface, CreateSubresourceSurface method [DXGI], C
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIResource1.CreateSubresourceSurface"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

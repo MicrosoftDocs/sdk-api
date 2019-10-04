@@ -12,6 +12,8 @@ ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], bas
 ms.topic: struct
 f1_keywords:
 - vdslun/VDS_STORAGE_IDENTIFIER
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

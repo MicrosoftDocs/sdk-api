@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModals
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserModalsSet
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

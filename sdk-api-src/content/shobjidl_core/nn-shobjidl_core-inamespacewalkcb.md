@@ -12,6 +12,8 @@ ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], IName
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/INamespaceWalkCB"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

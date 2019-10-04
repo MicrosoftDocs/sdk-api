@@ -12,6 +12,8 @@ ms.keywords: "*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER 
 ms.topic: struct
 f1_keywords: 
  - "mssip/SIP_ADD_NEWPROVIDER"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

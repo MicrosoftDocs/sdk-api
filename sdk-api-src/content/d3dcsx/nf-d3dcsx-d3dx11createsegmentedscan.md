@@ -12,6 +12,8 @@ ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateSegmentedScan"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

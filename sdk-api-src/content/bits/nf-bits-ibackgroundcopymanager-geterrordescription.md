@@ -12,6 +12,8 @@ ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDes
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyManager.GetErrorDescription"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Eject, Eject method [IMAPI], Eject method [IMAPI],IDiscRecorder int
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.Eject"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

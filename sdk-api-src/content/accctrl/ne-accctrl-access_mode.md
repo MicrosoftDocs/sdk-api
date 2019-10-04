@@ -12,6 +12,8 @@ ms.keywords: ACCESS_MODE, ACCESS_MODE enumeration [Security], DENY_ACCESS, GRANT
 ms.topic: enum
 f1_keywords:
 - accctrl/ACCESS_MODE
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

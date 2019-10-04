@@ -12,6 +12,8 @@ ms.keywords: NETSOURCE_URLCREDPOLICY_SETTINGS, NETSOURCE_URLCREDPOLICY_SETTINGS 
 ms.topic: enum
 f1_keywords: 
  - "wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTINGS"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: Wminternaladminnetsource.h
 req.target-type: Windows

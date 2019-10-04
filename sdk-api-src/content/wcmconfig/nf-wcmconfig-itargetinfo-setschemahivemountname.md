@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetI
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.SetSchemaHiveMountName"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

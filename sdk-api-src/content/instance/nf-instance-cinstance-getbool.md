@@ -12,6 +12,8 @@ ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBG
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.Getbool"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

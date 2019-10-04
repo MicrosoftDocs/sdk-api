@@ -12,6 +12,8 @@ ms.keywords: VDS_NF_TARGET_ARRIVE, VDS_NF_TARGET_DEPART, VDS_NF_TARGET_MODIFY, V
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_TARGET_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

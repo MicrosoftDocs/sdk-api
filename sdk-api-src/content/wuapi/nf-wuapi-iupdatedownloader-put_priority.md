@@ -12,6 +12,8 @@ ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloader.Priority"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

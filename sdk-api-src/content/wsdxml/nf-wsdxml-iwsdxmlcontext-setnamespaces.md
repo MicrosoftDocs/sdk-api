@@ -12,6 +12,8 @@ ms.keywords: IWSDXMLContext interface,SetNamespaces method, IWSDXMLContext.SetNa
 ms.topic: method
 f1_keywords:
 - wsdxml/IWSDXMLContext.SetNamespaces
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

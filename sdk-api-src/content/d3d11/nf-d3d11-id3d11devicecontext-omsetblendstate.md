@@ -12,6 +12,8 @@ ms.keywords: 1f1e71f6-6b9d-3137-ba6e-8c5e5e8079ac, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.OMSetBlendState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

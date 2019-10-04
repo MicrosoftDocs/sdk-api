@@ -12,6 +12,8 @@ ms.keywords: IRangeValueProvider interface [Windows Accessibility],IsReadOnly pr
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRangeValueProvider.IsReadOnly"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATION, PUSER_ALL_INFORMATI
 ms.topic: struct
 f1_keywords:
 - subauth/USER_ALL_INFORMATION
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

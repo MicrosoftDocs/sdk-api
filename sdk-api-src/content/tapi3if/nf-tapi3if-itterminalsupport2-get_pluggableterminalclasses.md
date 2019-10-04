@@ -12,6 +12,8 @@ ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableTerminalClasse
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTerminalSupport2.get_PluggableTerminalClasses"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

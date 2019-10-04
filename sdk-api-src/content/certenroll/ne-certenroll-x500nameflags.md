@@ -12,6 +12,8 @@ ms.keywords: X500NameFlags, X500NameFlags enumeration [Security], XCN_CERT_NAME_
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X500NameFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

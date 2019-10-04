@@ -12,6 +12,8 @@ ms.keywords: D3D12CreateRootSignatureDeserializer, D3D12CreateRootSignatureDeser
 ms.topic: function
 f1_keywords: 
  - "d3d12/D3D12CreateRootSignatureDeserializer"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

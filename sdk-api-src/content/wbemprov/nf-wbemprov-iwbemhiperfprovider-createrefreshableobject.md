@@ -12,6 +12,8 @@ ms.keywords: CreateRefreshableObject, CreateRefreshableObject method [Windows Ma
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemHiPerfProvider.CreateRefreshableObject"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

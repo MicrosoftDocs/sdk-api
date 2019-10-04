@@ -12,6 +12,8 @@ ms.keywords: LongLongToChar, LongLongToChar function [Windows Shell], intsafe/Lo
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongLongToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

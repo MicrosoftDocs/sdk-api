@@ -12,6 +12,8 @@ ms.keywords: WMPNotifyPluginAddRemove, WMPNotifyPluginAddRemove function [Window
 ms.topic: function
 f1_keywords: 
  - "wmpplug/WMPNotifyPluginAddRemove"
+dev_langs:
+ - c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

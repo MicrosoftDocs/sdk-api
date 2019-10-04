@@ -12,6 +12,8 @@ ms.keywords: GetDefaultQuotaLimit, GetDefaultQuotaLimit method [Files], GetDefau
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaControl.GetDefaultQuotaLimit"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

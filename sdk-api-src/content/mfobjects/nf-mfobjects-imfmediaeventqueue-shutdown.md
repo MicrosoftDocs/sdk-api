@@ -12,6 +12,8 @@ ms.keywords: 6ec52973-0d90-463b-b2be-08d5d6fdcc05, IMFMediaEventQueue interface 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventQueue.Shutdown"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

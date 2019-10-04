@@ -12,6 +12,8 @@ ms.keywords: 1ac22c4e-5bd3-bec5-0c6b-508a2b311005, AddMessage, AddMessage method
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.AddMessage"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

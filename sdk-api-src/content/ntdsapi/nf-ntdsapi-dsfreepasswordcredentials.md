@@ -12,6 +12,8 @@ ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Acti
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsFreePasswordCredentials"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

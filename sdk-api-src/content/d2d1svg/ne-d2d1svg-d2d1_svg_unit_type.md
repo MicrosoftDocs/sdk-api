@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_UNIT_TYPE, D2D1_SVG_UNIT_TYPE enumeration [Direct2D], D2D1
 ms.topic: enum
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_UNIT_TYPE"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

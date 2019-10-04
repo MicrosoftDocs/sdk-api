@@ -12,6 +12,8 @@ ms.keywords: ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "d3d11shader/ID3D11FunctionReflection"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

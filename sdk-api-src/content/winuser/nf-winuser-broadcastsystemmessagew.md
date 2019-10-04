@@ -12,6 +12,8 @@ ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK
 ms.topic: function
 f1_keywords: 
  - "winuser/BroadcastSystemMessage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win3
 ms.topic: function
 f1_keywords: 
  - "commctrl/ShowHideMenuCtl"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

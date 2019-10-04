@@ -12,6 +12,8 @@ ms.keywords: GPMBackupCollection object [GPMC],Item property, IGPMBackupCollecti
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackupCollection.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DxEnableIRQ, DxEnableIRQ callback function [Display Devices], PDX_E
 ms.topic: callback
 f1_keywords:
 - dxmini/DxEnableIRQ
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

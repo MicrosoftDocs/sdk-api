@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls met
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawColorControl.SetColorControls"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

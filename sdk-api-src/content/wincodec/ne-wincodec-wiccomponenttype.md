@@ -12,6 +12,8 @@ ms.keywords: WICAllComponents, WICComponentType, WICComponentType enumeration [W
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICComponentType"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

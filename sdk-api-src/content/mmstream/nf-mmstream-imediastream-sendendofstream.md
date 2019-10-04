@@ -12,6 +12,8 @@ ms.keywords: IMediaStream interface [DirectShow],SendEndOfStream method, IMediaS
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMediaStream.SendEndOfStream"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

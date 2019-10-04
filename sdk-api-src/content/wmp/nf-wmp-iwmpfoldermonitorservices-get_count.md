@@ -12,6 +12,8 @@ ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_coun
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPFolderMonitorServices.get_count"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

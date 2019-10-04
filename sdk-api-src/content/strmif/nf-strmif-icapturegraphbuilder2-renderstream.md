@@ -12,6 +12,8 @@ ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, I
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder2.RenderStream"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

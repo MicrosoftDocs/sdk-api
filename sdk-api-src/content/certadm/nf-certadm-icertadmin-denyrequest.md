@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, De
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.DenyRequest"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

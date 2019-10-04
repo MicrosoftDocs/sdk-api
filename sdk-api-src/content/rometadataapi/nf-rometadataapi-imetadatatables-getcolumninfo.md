@@ -12,6 +12,8 @@ ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Runtime], GetColumnInf
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetColumnInfo"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

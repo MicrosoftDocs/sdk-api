@@ -12,6 +12,8 @@ ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control,
 ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*
 ms.topic: struct
 f1_keywords: 
  - "ndhelper/HYPOTHESIS, *PHYPOTHESIS"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

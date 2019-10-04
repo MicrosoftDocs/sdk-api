@@ -12,6 +12,8 @@ ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDuplicateKey"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSharedData, GetSharedData method [windows Media Format], GetShar
 ms.topic: method
 f1_keywords: 
  - "wmsecure/IWMAuthorizer.GetSharedData"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

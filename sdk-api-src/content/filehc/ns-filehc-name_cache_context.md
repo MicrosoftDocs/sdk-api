@@ -12,6 +12,8 @@ ms.keywords: "*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT struc
 ms.topic: struct
 f1_keywords: 
  - "filehc/NAME_CACHE_CONTEXT"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

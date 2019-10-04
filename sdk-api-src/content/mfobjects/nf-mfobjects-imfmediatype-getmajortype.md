@@ -12,6 +12,8 @@ ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaType.GetMajorType"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

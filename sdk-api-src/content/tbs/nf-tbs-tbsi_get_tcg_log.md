@@ -12,6 +12,8 @@ ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsi_Get_TCG_Log"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

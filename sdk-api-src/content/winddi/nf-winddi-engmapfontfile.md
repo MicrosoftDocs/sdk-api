@@ -12,6 +12,8 @@ ms.keywords: EngMapFontFile, EngMapFontFile function [Display Devices], display.
 ms.topic: function
 f1_keywords: 
  - "winddi/EngMapFontFile"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

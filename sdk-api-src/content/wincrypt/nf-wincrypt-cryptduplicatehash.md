@@ -12,6 +12,8 @@ ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptDuplicateHash"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateSessionObject, CreateSessionObject method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.CreateSessionObject"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

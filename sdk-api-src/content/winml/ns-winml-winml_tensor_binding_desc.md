@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_tensor_binding_desc, PWINML_TENSOR_BINDING_DE
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_TENSOR_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

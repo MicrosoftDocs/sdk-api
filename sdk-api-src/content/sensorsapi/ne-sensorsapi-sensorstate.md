@@ -12,6 +12,8 @@ ms.keywords: SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_ERROR, SENSOR_STATE_INITIA
 ms.topic: enum
 f1_keywords: 
  - "sensorsapi/SensorState"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

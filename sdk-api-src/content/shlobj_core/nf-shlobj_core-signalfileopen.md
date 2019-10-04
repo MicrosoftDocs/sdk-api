@@ -12,6 +12,8 @@ ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_Sig
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SignalFileOpen"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

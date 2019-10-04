@@ -12,6 +12,8 @@ ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequ
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeWithPrerequisite.GetLearnedKnowledgeWithPrerequisite"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

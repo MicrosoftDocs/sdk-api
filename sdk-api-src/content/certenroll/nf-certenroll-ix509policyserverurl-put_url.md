@@ -12,6 +12,8 @@ ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509Policy
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PolicyServerUrl.Url"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

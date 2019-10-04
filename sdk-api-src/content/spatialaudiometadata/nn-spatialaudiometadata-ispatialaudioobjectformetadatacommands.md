@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectForMetadataCommands, ISpatialAudioObjectForMetad
 ms.topic: interface
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioObjectForMetadataCommands"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows

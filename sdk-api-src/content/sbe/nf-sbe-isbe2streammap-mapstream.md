@@ -12,6 +12,8 @@ ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream meth
 ms.topic: method
 f1_keywords: 
  - "sbe/ISBE2StreamMap.MapStream"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Wind
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioLogonIdentifiedUser"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

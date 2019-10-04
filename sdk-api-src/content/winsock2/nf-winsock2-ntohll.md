@@ -12,6 +12,8 @@ ms.keywords: ntohll, ntohll function [Winsock], winsock.ntohll, winsock2/ntohll
 ms.topic: function
 f1_keywords: 
  - "winsock2/ntohll"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

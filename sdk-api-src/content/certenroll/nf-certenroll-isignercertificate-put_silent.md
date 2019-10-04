@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],Silent property, ISignerCer
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.Silent"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

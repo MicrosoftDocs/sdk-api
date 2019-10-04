@@ -12,6 +12,8 @@ ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGet
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetEntryProperties"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

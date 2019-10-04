@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetVersion
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Appli
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmIsIME"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

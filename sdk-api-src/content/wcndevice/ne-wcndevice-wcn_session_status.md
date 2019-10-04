@@ -12,6 +12,8 @@ ms.keywords: WCN_SESSION_FAILURE_GENERIC, WCN_SESSION_FAILURE_TIMEOUT, WCN_SESSI
 ms.topic: enum
 f1_keywords: 
  - "wcndevice/WCN_SESSION_STATUS"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_GetVideoProcessorCustomRates, PDXVAHDSW_GetVideoProcessor
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback fu
 ms.topic: callback
 f1_keywords: 
  - "wabmem/MAPIFreeBuffer"
+dev_langs:
+ - c++
 req.header: wabmem.h
 req.include-header: Mapi.h
 req.target-type: Windows

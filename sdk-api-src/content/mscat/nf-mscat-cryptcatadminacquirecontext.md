@@ -12,6 +12,8 @@ ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATAdminAcquireContext"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

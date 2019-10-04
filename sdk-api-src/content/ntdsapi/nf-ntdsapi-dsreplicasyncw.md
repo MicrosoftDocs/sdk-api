@@ -12,6 +12,8 @@ ms.keywords: DS_REPSYNC_ADD_REFERENCE, DS_REPSYNC_ALL_SOURCES, DS_REPSYNC_ASYNCH
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsReplicaSync"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

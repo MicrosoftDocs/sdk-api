@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontCollectionLoader, IDWriteFontCollectionLoader interface 
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteFontCollectionLoader"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

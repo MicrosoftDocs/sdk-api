@@ -12,6 +12,8 @@ ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapsho
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssFreeSnapshot"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

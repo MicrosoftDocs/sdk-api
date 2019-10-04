@@ -12,6 +12,8 @@ ms.keywords: MI_HostedProviderFT, MI_HostedProviderFT structure [Windows Managem
 ms.topic: struct
 f1_keywords:
 - mi/MI_HostedProviderFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCountOfRecords, GetCountOfRecords method [DirectShow], GetCountO
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannelDescriptor.GetCountOfRecords"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

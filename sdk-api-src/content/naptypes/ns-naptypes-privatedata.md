@@ -12,6 +12,8 @@ ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, n
 ms.topic: struct
 f1_keywords: 
  - "naptypes/PrivateData"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

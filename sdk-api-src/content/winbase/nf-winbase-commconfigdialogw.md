@@ -12,6 +12,8 @@ ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, Com
 ms.topic: function
 f1_keywords:
 - winbase/CommConfigDialog
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_CUSTOMEVENT, WPC_ARGS_CUSTOMEVENT enumeration, WPC_ARGS_CU
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_CUSTOMEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

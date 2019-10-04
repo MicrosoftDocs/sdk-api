@@ -12,6 +12,8 @@ ms.keywords: ComboBox_InsertString, ComboBox_InsertString macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_InsertString"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

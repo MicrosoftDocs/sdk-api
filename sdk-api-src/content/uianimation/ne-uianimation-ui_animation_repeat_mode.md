@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_REPEAT_MODE, UI_ANIMATION_REPEAT_MODE enumeration [Win
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_REPEAT_MODE"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK, PFN_BLUETOOTH_ENUM_ATTRIBUT
 ms.topic: callback
 f1_keywords: 
  - "bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

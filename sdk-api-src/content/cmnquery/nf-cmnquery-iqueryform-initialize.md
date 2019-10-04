@@ -12,6 +12,8 @@ ms.keywords: IQueryForm interface [Active Directory],Initialize method, IQueryFo
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IQueryForm.Initialize"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

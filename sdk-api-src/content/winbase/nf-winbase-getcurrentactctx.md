@@ -12,6 +12,8 @@ ms.keywords: GetCurrentActCtx, GetCurrentActCtx function [Side-by-side Assemblie
 ms.topic: function
 f1_keywords: 
  - "winbase/GetCurrentActCtx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

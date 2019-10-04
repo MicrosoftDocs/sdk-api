@@ -12,6 +12,8 @@ ms.keywords: SHR_E, SHR_N, SHR_NE, SHR_NW, SHR_None, SHR_S, SHR_SE, SHR_SW, SHR_
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/SelectionHitResult"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

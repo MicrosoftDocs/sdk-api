@@ -12,6 +12,8 @@ ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, merg
 ms.topic: interface
 f1_keywords: 
  - "mergemod/IMsmError"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawInlineObject, DrawInlineObject method [Direct Write], DrawInlin
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteTextRenderer1.DrawInlineObject"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

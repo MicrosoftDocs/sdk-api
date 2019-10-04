@@ -12,6 +12,8 @@ ms.keywords: GetCustomStartCap, GetCustomStartCap method [GDI+], GetCustomStartC
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetCustomStartCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

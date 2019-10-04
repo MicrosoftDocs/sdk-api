@@ -12,6 +12,8 @@ ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SH
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SHARDAPPIDINFO"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

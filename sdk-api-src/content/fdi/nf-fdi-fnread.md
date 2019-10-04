@@ -12,6 +12,8 @@ ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNREAD"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

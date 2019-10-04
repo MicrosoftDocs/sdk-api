@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_get_next_page_s, ldap.ldap__get__next__page__s, ldap.ld
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_get_next_page_s"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

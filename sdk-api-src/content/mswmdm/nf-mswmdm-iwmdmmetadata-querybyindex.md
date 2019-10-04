@@ -12,6 +12,8 @@ ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMMetaData.QueryByIndex"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

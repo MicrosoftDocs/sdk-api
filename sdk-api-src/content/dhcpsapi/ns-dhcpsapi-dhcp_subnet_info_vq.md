@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ s
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_INFO_VQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPMCAST_IF_ENTRY, MIB_IPMCAST_IF_ENTRY, MIB_IPMCAST_IF_ENTRY
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_IF_ENTRY
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

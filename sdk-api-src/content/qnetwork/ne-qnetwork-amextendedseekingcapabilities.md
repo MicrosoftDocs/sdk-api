@@ -12,6 +12,8 @@ ms.keywords: AMExtendedSeekingCapabilities, AMExtendedSeekingCapabilities enumer
 ms.topic: enum
 f1_keywords: 
  - "qnetwork/AMExtendedSeekingCapabilities"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

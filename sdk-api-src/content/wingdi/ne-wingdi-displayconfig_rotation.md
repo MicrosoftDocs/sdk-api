@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_6667e997-4697-419d-914d-0fe25a16228b.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_ROTATION"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateStroke, CreateStroke method [Tablet PC], CreateStroke method 
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStrokeBuilder.CreateStroke"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

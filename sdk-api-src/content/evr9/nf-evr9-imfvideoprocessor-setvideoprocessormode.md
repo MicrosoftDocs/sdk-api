@@ -12,6 +12,8 @@ ms.keywords: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc, IMFVideoProcessor interface [
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoProcessor.SetVideoProcessorMode"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

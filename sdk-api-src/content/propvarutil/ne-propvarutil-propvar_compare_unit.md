@@ -12,6 +12,8 @@ ms.keywords: PROPVAR_COMPARE_UNIT, PROPVAR_COMPARE_UNIT enumeration [Windows Pro
 ms.topic: enum
 f1_keywords: 
  - "propvarutil/PROPVAR_COMPARE_UNIT"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

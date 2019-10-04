@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileEnd meth
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents3.PrefetchFileEnd"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

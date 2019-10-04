@@ -12,6 +12,8 @@ ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
 ms.topic: function
 f1_keywords:
 - winnt/RtlUnwind
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

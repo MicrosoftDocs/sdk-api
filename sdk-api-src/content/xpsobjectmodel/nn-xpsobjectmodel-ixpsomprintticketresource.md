@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPrintTicketResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

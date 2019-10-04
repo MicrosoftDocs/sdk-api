@@ -12,6 +12,8 @@ ms.keywords: IComQCEvents interface [COM+],OnQCMoveToReTryQueue method, IComQCEv
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComQCEvents.OnQCMoveToReTryQueue"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

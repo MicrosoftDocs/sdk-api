@@ -12,6 +12,8 @@ ms.keywords: DEVICE_SELECTION_DEVICE_TYPE, DEVICE_SELECTION_DEVICE_TYPE enumerat
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/DEVICE_SELECTION_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

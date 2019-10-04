@@ -12,6 +12,8 @@ ms.keywords: DBCOMMANDTREE, DBCOMMANDTREE structure [Indexing Service], _idxs_DB
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBCOMMANDTREE"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

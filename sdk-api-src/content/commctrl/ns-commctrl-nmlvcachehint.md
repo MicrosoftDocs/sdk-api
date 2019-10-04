@@ -12,6 +12,8 @@ ms.keywords: '*LPNMLVCACHEHINT, NMLVCACHEHINT, NMLVCACHEHINT structure [Windows 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVCACHEHINT
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

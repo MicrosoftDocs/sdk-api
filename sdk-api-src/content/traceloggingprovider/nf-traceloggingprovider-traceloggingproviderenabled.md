@@ -4,6 +4,10 @@ title: TraceLoggingProviderEnabled
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderEnabled
 ms.topic: language-reference
+f1_keywords:
+ - TraceLoggingProviderEnabled
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

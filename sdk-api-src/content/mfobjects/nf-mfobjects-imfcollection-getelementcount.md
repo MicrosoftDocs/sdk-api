@@ -12,6 +12,8 @@ ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCo
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFCollection.GetElementCount"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC, DML_ACTIVATION_LOG_SOFTMA
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_ACTIVATION_LOG_SOFTMAX_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

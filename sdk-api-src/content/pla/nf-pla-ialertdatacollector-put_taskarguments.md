@@ -12,6 +12,8 @@ ms.keywords: IAlertDataCollector interface [PLA],TaskArguments property, IAlertD
 ms.topic: method
 f1_keywords: 
  - "pla/IAlertDataCollector.TaskArguments"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize metho
 ms.topic: method
 f1_keywords: 
  - "objidl/IApartmentShutdown.OnUninitialize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

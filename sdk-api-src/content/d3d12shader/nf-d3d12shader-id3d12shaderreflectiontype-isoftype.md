@@ -12,6 +12,8 @@ ms.keywords: ID3D12ShaderReflectionType interface,IsOfType method, ID3D12ShaderR
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionType.IsOfType"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

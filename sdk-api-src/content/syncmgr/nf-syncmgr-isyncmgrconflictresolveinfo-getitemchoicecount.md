@@ -12,6 +12,8 @@ ms.keywords: GetItemChoiceCount, GetItemChoiceCount method [Windows Shell], GetI
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo.GetItemChoiceCount"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

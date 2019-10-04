@@ -12,6 +12,8 @@ ms.keywords: GetAsyncMode, GetAsyncMode method [Windows Shell], GetAsyncMode met
 ms.topic: method
 f1_keywords: 
  - "shldisp/IDataObjectAsyncCapability.GetAsyncMode"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

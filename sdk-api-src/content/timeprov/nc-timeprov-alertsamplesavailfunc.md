@@ -12,6 +12,8 @@ ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamples
 ms.topic: callback
 f1_keywords: 
  - "timeprov/AlertSamplesAvailFunc"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

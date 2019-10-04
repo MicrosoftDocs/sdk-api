@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsConfigu
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsEvents.OnSmsConfigurationChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

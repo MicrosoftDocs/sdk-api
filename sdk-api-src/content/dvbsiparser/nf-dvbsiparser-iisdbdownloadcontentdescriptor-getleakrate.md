@@ -12,6 +12,8 @@ ms.keywords: GetLeakRate, GetLeakRate method [Microsoft TV Technologies], GetLea
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetLeakRate"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarsh
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoMarshalInterface"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

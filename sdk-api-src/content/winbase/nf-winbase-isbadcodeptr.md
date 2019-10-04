@@ -12,6 +12,8 @@ ms.keywords: IsBadCodePtr, IsBadCodePtr function, _win32_isbadcodeptr, base.isba
 ms.topic: function
 f1_keywords: 
  - "winbase/IsBadCodePtr"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

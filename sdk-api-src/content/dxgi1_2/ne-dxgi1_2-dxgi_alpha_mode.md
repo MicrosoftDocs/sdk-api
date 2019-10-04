@@ -12,6 +12,8 @@ ms.keywords: DXGI_ALPHA_MODE, DXGI_ALPHA_MODE enumeration [DXGI], DXGI_ALPHA_MOD
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_ALPHA_MODE"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

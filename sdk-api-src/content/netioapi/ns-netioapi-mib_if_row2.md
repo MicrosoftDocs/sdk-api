@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IF_ROW2, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI,
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_IF_ROW2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

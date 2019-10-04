@@ -12,6 +12,8 @@ ms.keywords: ListView_SetGroupHeaderImageList, ListView_SetGroupHeaderImageList 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetGroupHeaderImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

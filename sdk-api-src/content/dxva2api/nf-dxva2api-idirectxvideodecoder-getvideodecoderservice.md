@@ -12,6 +12,8 @@ ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVi
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoder.GetVideoDecoderService"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

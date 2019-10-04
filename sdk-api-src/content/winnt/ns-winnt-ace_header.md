@@ -12,6 +12,8 @@ ms.keywords: '*PACE_HEADER, ACCESS_ALLOWED_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_ACE
 ms.topic: struct
 f1_keywords:
 - winnt/ACE_HEADER
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

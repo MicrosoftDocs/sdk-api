@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorATan, XMVectorATan, XMVectorATan method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorATan"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

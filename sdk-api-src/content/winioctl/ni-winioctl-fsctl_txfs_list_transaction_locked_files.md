@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, FSCTL_TXFS_LIST_TRANSACTI
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

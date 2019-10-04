@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text S
 ms.topic: method
 f1_keywords: 
  - "ctffunc/IEnumTfLatticeElements.Clone"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

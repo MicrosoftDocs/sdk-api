@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceScriptable2, IWorkspaceScriptable2 interface [Remote Desk
 ms.topic: interface
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable2"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

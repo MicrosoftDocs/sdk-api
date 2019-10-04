@@ -12,6 +12,8 @@ ms.keywords: 2dc9eb94-649f-42f6-8180-abf570bdc757, Height property [Tablet PC], 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.Height"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, Cer
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvRestoreGetDatabaseLocations"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

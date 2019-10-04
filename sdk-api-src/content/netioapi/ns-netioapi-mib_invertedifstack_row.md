@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_INVERTEDIFSTACK_ROW, MIB_INVERTEDIFSTACK_ROW, MIB_INVERTEDIF
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_INVERTEDIFSTACK_ROW"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

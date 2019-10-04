@@ -12,6 +12,8 @@ ms.keywords: '*PSERVICE_TRIGGER, DOMAIN_JOIN_GUID, DOMAIN_LEAVE_GUID, FIREWALL_P
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_TRIGGER
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

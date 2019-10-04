@@ -12,6 +12,8 @@ ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnum
 ms.topic: interface
 f1_keywords: 
  - "docobj/IEnumOleDocumentViews"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttribut
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamAttributesManager.GetAttributes"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

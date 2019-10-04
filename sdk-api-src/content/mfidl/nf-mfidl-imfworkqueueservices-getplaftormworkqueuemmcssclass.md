@@ -12,6 +12,8 @@ ms.keywords: GetPlaftormWorkQueueMMCSSClass, GetPlaftormWorkQueueMMCSSClass meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

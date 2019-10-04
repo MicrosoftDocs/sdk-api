@@ -12,6 +12,8 @@ ms.keywords: '*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structur
 ms.topic: struct
 f1_keywords:
 - objsel/DS_SELECTION_LIST
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_COLOR_SPACE, D2D1_COLOR_SPACE enumeration [Direct2D], D2D1_COL
 ms.topic: enum
 f1_keywords: 
  - "d2d1_1/D2D1_COLOR_SPACE"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],TransformPoints method, Graphics.TransformPoi
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.TransformPoints"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

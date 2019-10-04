@@ -12,6 +12,8 @@ ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote 
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRenderService"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

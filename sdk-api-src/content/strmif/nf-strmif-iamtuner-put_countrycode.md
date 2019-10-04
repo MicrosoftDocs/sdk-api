@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],put_CountryCode method, IAMTuner.pu
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.put_CountryCode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

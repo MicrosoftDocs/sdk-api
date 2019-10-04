@@ -12,6 +12,8 @@ ms.keywords: IWMCodecProps, IWMCodecProps interface [Media Foundation], IWMCodec
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMCodecProps"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

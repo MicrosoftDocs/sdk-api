@@ -12,6 +12,8 @@ ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],SetAsyncMode m
 ms.topic: method
 f1_keywords: 
  - "shldisp/IDataObjectAsyncCapability.SetAsyncMode"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

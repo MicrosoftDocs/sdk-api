@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_bPolyLineTo, PATHOBJ_bPolyLineTo function [Display Devices]
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bPolyLineTo
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

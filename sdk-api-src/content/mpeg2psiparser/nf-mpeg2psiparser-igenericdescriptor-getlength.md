@@ -12,6 +12,8 @@ ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength 
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IGenericDescriptor.GetLength"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

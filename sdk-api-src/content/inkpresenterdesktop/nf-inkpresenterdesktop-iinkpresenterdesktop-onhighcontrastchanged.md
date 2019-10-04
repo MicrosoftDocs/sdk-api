@@ -12,6 +12,8 @@ ms.keywords: IInkPresenterDesktop interface,OnHighContrastChanged method, IInkPr
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkPresenterDesktop.OnHighContrastChanged"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

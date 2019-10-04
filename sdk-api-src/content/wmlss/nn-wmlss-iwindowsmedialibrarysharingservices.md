@@ -12,6 +12,8 @@ ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingSer
 ms.topic: interface
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingServices"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

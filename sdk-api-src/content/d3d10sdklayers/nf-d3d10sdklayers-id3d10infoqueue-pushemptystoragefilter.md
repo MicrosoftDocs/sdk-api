@@ -12,6 +12,8 @@ ms.keywords: 0cfc6f25-169a-17b2-a049-aacf4f194e68, ID3D10InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.PushEmptyStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

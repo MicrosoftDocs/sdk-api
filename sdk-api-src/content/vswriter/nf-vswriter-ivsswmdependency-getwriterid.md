@@ -12,6 +12,8 @@ ms.keywords: GetWriterId, GetWriterId method [VSS], GetWriterId method [VSS],IVs
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMDependency.GetWriterId"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

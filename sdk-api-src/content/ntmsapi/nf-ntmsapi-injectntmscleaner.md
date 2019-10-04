@@ -12,6 +12,8 @@ ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/InjectNtmsCleaner"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

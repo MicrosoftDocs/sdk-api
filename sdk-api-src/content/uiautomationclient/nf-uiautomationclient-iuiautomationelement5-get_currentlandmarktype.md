@@ -12,6 +12,8 @@ ms.keywords: CurrentLandmarkType property [Windows Accessibility], CurrentLandma
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement5.CurrentLandmarkType"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

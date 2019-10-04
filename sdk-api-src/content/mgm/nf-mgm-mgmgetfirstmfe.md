@@ -12,6 +12,8 @@ ms.keywords: MgmGetFirstMfe, MgmGetFirstMfe function [RAS], _mpr_mgmgetfirstmfe,
 ms.topic: function
 f1_keywords:
 - mgm/MgmGetFirstMfe
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

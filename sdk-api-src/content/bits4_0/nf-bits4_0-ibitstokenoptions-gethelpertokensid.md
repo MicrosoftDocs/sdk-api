@@ -12,6 +12,8 @@ ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenS
 ms.topic: method
 f1_keywords: 
  - "bits4_0/IBitsTokenOptions.GetHelperTokenSid"
+dev_langs:
+ - c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

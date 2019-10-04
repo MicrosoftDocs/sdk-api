@@ -12,6 +12,8 @@ ms.keywords: WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_DONT_PROPAGATE, WBEM_FLAVOR_FLAG_P
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_FLAVOR_TYPE"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

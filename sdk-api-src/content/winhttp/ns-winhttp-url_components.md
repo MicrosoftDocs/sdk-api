@@ -12,6 +12,8 @@ ms.keywords: "*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, UR
 ms.topic: struct
 f1_keywords: 
  - "winhttp/URL_COMPONENTS"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime],
 ms.topic: interface
 f1_keywords: 
  - "windows.data.pdf.interop/IPdfRendererNative"
+dev_langs:
+ - c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

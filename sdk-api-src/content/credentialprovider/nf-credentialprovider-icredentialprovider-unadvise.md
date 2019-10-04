@@ -12,6 +12,8 @@ ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICre
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProvider.UnAdvise"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

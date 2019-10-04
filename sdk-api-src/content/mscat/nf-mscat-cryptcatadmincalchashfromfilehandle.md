@@ -12,6 +12,8 @@ ms.keywords: CryptCATAdminCalcHashFromFileHandle, CryptCATAdminCalcHashFromFileH
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATAdminCalcHashFromFileHandle"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

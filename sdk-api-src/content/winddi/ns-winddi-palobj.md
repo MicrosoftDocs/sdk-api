@@ -12,6 +12,8 @@ ms.keywords: PALOBJ, PALOBJ structure [Display Devices], display.palobj, grstrct
 ms.topic: struct
 f1_keywords: 
  - "winddi/PALOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

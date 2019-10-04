@@ -12,6 +12,8 @@ ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Help
 ms.topic: macro
 f1_keywords: 
  - "combaseapi/IID_PPV_ARGS"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

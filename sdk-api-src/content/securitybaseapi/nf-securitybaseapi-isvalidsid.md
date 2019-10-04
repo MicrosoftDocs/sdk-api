@@ -12,6 +12,8 @@ ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, secu
 ms.topic: function
 f1_keywords:
 - securitybaseapi/IsValidSid
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

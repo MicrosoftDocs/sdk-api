@@ -12,6 +12,8 @@ ms.keywords: PropertyType, PropertyType enumeration [Windows Runtime], PropertyT
 ms.topic: enum
 f1_keywords: 
  - "windows.foundation/PropertyType"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

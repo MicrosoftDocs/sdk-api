@@ -12,6 +12,8 @@ ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [D
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.GetSwitches"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

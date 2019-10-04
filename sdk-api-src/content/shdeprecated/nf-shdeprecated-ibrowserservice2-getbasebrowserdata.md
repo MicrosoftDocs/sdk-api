@@ -12,6 +12,8 @@ ms.keywords: GetBaseBrowserData, GetBaseBrowserData method [Windows Shell], GetB
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.GetBaseBrowserData"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interf
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkPresenterDesktop.GetSize"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

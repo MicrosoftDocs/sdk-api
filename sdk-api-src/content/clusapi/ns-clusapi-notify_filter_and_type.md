@@ -12,6 +12,8 @@ ms.keywords: "*PNOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AN
 ms.topic: struct
 f1_keywords: 
  - "clusapi/NOTIFY_FILTER_AND_TYPE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

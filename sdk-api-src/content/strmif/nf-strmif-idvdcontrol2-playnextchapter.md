@@ -12,6 +12,8 @@ ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdCon
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl2.PlayNextChapter"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

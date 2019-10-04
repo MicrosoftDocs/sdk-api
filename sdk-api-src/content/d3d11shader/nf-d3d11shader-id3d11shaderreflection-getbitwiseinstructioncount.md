@@ -12,6 +12,8 @@ ms.keywords: 211dac0a-7e08-9fdc-fa7e-a5ccaf4c20ac, GetBitwiseInstructionCount, G
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetBitwiseInstructionCount"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

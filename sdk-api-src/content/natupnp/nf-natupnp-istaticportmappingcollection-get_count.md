@@ -12,6 +12,8 @@ ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, 
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMappingCollection.get_Count"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPDOMAINTREE, *PDOMAIN_TREE, DOMAINTREE, DOMAINTREE structure [Ac
 ms.topic: struct
 f1_keywords:
 - dsclient/DOMAINTREE
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

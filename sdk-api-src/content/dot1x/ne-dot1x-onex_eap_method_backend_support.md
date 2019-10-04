@@ -12,6 +12,8 @@ ms.keywords: ONEX_EAP_METHOD_BACKEND_SUPPORT, ONEX_EAP_METHOD_BACKEND_SUPPORT en
 ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

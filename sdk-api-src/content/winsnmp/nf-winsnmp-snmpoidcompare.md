@@ -12,6 +12,8 @@ ms.keywords: Equal to 0, Greater than 0, Less than 0, SnmpOidCompare, SnmpOidCom
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpOidCompare"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

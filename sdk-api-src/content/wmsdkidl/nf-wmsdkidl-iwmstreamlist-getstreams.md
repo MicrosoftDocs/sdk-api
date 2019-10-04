@@ -12,6 +12,8 @@ ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams me
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamList.GetStreams"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

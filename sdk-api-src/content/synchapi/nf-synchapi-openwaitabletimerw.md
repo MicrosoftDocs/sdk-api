@@ -12,6 +12,8 @@ ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, 
 ms.topic: function
 f1_keywords: 
  - "synchapi/OpenWaitableTimer"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

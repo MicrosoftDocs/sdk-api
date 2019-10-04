@@ -12,6 +12,8 @@ ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode metho
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetExitCode"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

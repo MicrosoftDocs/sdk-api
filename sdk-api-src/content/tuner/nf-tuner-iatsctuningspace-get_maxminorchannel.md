@@ -12,6 +12,8 @@ ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinor
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCTuningSpace.get_MaxMinorChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

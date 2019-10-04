@@ -12,6 +12,8 @@ ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWM
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterFileSink.Open"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

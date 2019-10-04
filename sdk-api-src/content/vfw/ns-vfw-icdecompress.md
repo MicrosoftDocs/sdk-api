@@ -12,6 +12,8 @@ ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMP
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICDECOMPRESS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

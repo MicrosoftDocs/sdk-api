@@ -12,6 +12,8 @@ ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite int
 ms.topic: interface
 f1_keywords:
 - shobjidl/IWizardSite
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

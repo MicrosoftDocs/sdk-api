@@ -12,6 +12,8 @@ ms.keywords: DisableEffect, DisableEffect method [XAudio2 Audio Mixing APIs], Di
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2Voice.DisableEffect"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

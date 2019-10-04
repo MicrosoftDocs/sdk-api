@@ -12,6 +12,8 @@ ms.keywords: MFSINK_WMDRMACTION, MFSINK_WMDRMACTION enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/MFSINK_WMDRMACTION"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

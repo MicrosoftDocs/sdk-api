@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAssocHandler.GetName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

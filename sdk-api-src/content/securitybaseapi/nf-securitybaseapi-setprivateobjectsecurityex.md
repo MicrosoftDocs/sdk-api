@@ -12,6 +12,8 @@ ms.keywords: SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVI
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetPrivateObjectSecurityEx
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

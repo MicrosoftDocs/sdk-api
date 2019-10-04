@@ -12,6 +12,8 @@ ms.keywords: NCS_AUTHENTICATING, NCS_AUTHENTICATION_FAILED, NCS_AUTHENTICATION_S
 ms.topic: enum
 f1_keywords: 
  - "netcon/NETCON_STATUS"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],I
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IActionProgress.Begin
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

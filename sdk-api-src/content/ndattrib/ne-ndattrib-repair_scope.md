@@ -12,6 +12,8 @@ ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_A
 ms.topic: enum
 f1_keywords: 
  - "ndattrib/REPAIR_SCOPE"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

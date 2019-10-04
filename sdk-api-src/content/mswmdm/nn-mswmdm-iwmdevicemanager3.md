@@ -12,6 +12,8 @@ ms.keywords: IWMDeviceManager3, IWMDeviceManager3 interface [windows Media Devic
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDeviceManager3"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

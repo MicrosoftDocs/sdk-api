@@ -12,6 +12,8 @@ ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],T
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.GetWrapMode"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

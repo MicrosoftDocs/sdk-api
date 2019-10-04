@@ -12,6 +12,8 @@ ms.keywords: "*PSOURCE_MEDIA_A, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SOURCE_MEDIA"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

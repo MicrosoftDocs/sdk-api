@@ -12,6 +12,8 @@ ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, 
 ms.topic: enum
 f1_keywords: 
  - "oleidl/DISCARDCACHE"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

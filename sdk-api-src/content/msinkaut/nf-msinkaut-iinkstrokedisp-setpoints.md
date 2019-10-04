@@ -12,6 +12,8 @@ ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.SetPoints"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

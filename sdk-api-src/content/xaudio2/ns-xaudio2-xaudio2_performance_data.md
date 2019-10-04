@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudi
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_PERFORMANCE_DATA"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

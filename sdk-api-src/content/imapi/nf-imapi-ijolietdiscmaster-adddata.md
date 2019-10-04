@@ -12,6 +12,8 @@ ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDisc
 ms.topic: method
 f1_keywords: 
  - "imapi/IJolietDiscMaster.AddData"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

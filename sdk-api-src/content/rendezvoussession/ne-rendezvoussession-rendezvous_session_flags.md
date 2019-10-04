@@ -12,6 +12,8 @@ ms.keywords: RENDEZVOUS_SESSION_FLAGS, RENDEZVOUS_SESSION_FLAGS enumeration [Rem
 ms.topic: enum
 f1_keywords: 
  - "rendezvoussession/RENDEZVOUS_SESSION_FLAGS"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_D
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_COUNTER_DEFINITION
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

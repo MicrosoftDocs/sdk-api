@@ -12,6 +12,8 @@ ms.keywords: GetUInt32Array, GetUInt32Array method [Windows Runtime], GetUInt32A
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetUInt32Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

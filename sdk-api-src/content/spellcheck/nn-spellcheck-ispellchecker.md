@@ -12,6 +12,8 @@ ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Wi
 ms.topic: interface
 f1_keywords: 
  - "spellcheck/ISpellChecker"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],Release method, IXAu
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2.Release"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

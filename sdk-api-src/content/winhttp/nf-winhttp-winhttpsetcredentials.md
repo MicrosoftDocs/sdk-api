@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpSetCredentials"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

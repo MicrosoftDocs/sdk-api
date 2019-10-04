@@ -12,6 +12,8 @@ ms.keywords: AddMarker, AddMarker method [windows Media Format], AddMarker metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo.AddMarker"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

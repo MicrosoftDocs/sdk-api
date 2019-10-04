@@ -12,6 +12,8 @@ ms.keywords: ANSI_FIXED_FONT, ANSI_VAR_FONT, BLACK_BRUSH, BLACK_PEN, DC_BRUSH, D
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetStockObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

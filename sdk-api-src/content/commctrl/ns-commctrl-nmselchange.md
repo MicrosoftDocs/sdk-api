@@ -12,6 +12,8 @@ ms.keywords: '*LPNMSELCHANGE, *LPNMSELECT, LPNMSELCHANGE, LPNMSELCHANGE structur
 ms.topic: struct
 f1_keywords:
 - commctrl/NMSELCHANGE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

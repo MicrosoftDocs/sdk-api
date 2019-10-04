@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetSize"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

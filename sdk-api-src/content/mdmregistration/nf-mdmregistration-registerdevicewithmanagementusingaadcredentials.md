@@ -12,6 +12,8 @@ ms.keywords: RegisterDeviceWithManagementUsingAADCredentials, RegisterDeviceWith
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/RegisterDeviceWithManagementUsingAADCredentials"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageACT interface [Enhanced Storage],Unauthorize method
 ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageACT.Unauthorize
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

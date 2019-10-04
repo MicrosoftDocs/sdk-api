@@ -12,6 +12,8 @@ ms.keywords: NLM_NETWORK_CATEGORY, NLM_NETWORK_CATEGORY enumeration [Network Awa
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_NETWORK_CATEGORY"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

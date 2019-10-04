@@ -12,6 +12,8 @@ ms.keywords: IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Managem
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemStatusCodeText"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

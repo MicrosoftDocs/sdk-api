@@ -12,6 +12,8 @@ ms.keywords: BluetoothSdpEnumAttributes, BluetoothSdpEnumAttributes function [Bl
 ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSdpEnumAttributes
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

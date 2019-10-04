@@ -12,6 +12,8 @@ ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EndNtmsDeviceChangeDetection"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

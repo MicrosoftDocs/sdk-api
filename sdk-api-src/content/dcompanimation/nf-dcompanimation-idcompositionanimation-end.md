@@ -12,6 +12,8 @@ ms.keywords: End, End method [DirectComposition], End method [DirectComposition]
 ms.topic: method
 f1_keywords: 
  - "dcompanimation/IDCompositionAnimation.End"
+dev_langs:
+ - c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

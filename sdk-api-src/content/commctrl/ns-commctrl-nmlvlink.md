@@ -12,6 +12,8 @@ ms.keywords: '*PNMLVLINK, LPNMLVLINK, LPNMLVLINK structure pointer [Windows Cont
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVLINK
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

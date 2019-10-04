@@ -12,6 +12,8 @@ ms.keywords: AccessibleObjectFromID, AccessibleObjectFromID method [Windows Acce
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessibleHandler.AccessibleObjectFromID"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

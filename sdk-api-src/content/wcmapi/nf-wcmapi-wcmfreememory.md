@@ -12,6 +12,8 @@ ms.keywords: WcmFreeMemory, WcmFreeMemory function [Windows Connection Manager],
 ms.topic: function
 f1_keywords: 
  - "wcmapi/WcmFreeMemory"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

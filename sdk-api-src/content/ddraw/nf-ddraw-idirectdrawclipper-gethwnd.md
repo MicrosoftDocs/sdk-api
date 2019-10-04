@@ -12,6 +12,8 @@ ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],I
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawClipper.GetHWnd"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

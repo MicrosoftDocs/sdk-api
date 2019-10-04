@@ -12,6 +12,8 @@ ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPrope
 ms.topic: function
 f1_keywords: 
  - "mmc/MMCPropertyChangeNotify"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CStdAsyncStubBuffer_Disconnect, CStdAsyncStubBuffer_Disconnect func
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdAsyncStubBuffer_Disconnect"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Struc
 ms.topic: struct
 f1_keywords: 
  - "propidl/STATPROPSTG"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

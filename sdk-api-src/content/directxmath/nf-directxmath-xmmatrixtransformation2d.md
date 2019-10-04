@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixTransformation2D, XMMatrixTransformation2D, XM
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixTransformation2D"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

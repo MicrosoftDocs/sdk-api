@@ -12,6 +12,8 @@ ms.keywords: TF_CreateDisplayAttributeMgr, TF_CreateDisplayAttributeMgr function
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_CreateDisplayAttributeMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

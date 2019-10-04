@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_RESOURCE_RESTART_ACTION, CLUSTER_RESOURCE_RESTART_ACTION en
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_RESOURCE_RESTART_ACTION"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

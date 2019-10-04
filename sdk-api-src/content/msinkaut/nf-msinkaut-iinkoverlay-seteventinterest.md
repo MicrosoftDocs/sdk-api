@@ -12,6 +12,8 @@ ms.keywords: IInkOverlay interface [Tablet PC],SetEventInterest method, IInkOver
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.SetEventInterest"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

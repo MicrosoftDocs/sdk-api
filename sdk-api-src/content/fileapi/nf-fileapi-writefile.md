@@ -12,6 +12,8 @@ ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.write
 ms.topic: function
 f1_keywords:
 - fileapi/WriteFile
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

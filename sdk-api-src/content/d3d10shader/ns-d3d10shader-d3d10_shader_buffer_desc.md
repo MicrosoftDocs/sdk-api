@@ -12,6 +12,8 @@ ms.keywords: 149ee7ef-e8fe-d33d-b3e6-f8e1b0c4a83a, D3D10_SHADER_BUFFER_DESC, D3D
 ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_BUFFER_DESC
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

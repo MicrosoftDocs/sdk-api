@@ -12,6 +12,8 @@ ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Manage
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetLocalOffsetForDate"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

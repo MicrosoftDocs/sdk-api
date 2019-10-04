@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_TIME_ZONE_INFORMATION, PWRDS_TIME_ZONE_INFORMATION, PWRDS_TI
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_TIME_ZONE_INFORMATION
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

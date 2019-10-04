@@ -12,6 +12,8 @@ ms.keywords: CountryCode property [Fax Service], CountryCode property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule.CountryCode"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

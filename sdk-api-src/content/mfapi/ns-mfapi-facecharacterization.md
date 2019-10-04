@@ -12,6 +12,8 @@ ms.keywords: FaceCharacterization, FaceCharacterization structure [Streaming Med
 ms.topic: struct
 f1_keywords: 
  - "mfapi/FaceCharacterization"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage2.CreateStorage2"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

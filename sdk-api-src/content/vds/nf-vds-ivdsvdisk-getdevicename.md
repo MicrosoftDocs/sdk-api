@@ -12,6 +12,8 @@ ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVDisk.GetDeviceName"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

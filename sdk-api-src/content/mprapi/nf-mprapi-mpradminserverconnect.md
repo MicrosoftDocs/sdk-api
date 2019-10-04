@@ -12,6 +12,8 @@ ms.keywords: MprAdminServerConnect, MprAdminServerConnect function [RAS], _mpr_m
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminServerConnect"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

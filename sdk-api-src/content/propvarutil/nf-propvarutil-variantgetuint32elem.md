@@ -12,6 +12,8 @@ ms.keywords: VariantGetUInt32Elem, VariantGetUInt32Elem function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantGetUInt32Elem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

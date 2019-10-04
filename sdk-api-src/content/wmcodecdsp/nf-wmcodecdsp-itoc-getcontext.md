@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [Media Foundation], GetContext method
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IToc.GetContext"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

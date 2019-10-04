@@ -12,6 +12,8 @@ ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate functi
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcServerInterfaceGroupCreate"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

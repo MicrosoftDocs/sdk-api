@@ -12,6 +12,8 @@ ms.keywords: "*LPFINDINFOW, LPFINDINFO, LPFINDINFO structure pointer [Windows Co
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVFINDINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

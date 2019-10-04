@@ -12,6 +12,8 @@ ms.keywords: ID3D12Pageable, ID3D12Pageable interface, ID3D12Pageable interface,
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12Pageable"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

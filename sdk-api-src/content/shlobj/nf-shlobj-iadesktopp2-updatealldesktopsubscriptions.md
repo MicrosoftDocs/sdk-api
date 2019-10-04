@@ -12,6 +12,8 @@ ms.keywords: IADesktopP2 interface [Legacy Windows Environment Features],UpdateA
 ms.topic: method
 f1_keywords: 
  - "shlobj/IADesktopP2.UpdateAllDesktopSubscriptions"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

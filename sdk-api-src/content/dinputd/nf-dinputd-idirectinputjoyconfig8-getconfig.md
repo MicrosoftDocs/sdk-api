@@ -12,6 +12,8 @@ ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.GetConfig"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

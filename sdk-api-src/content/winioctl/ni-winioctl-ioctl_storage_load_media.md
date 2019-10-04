@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_S
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_STORAGE_LOAD_MEDIA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS 
 ms.topic: struct
 f1_keywords:
 - winioctl/VOLUME_DISK_EXTENTS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

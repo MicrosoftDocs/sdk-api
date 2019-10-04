@@ -12,6 +12,8 @@ ms.keywords: "*LPEXP_SZ_LINK, EXP_SZ_ICON_SIG, EXP_SZ_LINK, EXP_SZ_LINK structur
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/EXP_SZ_LINK"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

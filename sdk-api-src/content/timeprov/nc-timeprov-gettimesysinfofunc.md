@@ -12,6 +12,8 @@ ms.keywords: GetTimeSysInfoFunc, GetTimeSysInfoFunc callback, GetTimeSysInfoFunc
 ms.topic: callback
 f1_keywords: 
  - "timeprov/GetTimeSysInfoFunc"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

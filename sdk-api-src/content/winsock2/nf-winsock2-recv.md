@@ -12,6 +12,8 @@ ms.keywords: "_win32_recv_2, recv, recv function [Winsock], winsock.recv_2, wins
 ms.topic: function
 f1_keywords: 
  - "winsock2/recv"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

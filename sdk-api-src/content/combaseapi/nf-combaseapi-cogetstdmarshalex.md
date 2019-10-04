@@ -12,6 +12,8 @@ ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER,
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetStdMarshalEx"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

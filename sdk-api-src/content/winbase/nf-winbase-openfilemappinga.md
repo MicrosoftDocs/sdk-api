@@ -12,6 +12,8 @@ ms.keywords: OpenFileMapping, OpenFileMapping function, OpenFileMappingA, OpenFi
 ms.topic: function
 f1_keywords: 
  - "winbase/OpenFileMapping"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

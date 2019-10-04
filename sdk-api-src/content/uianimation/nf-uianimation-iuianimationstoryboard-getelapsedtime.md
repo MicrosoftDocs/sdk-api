@@ -12,6 +12,8 @@ ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElaps
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.GetElapsedTime"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

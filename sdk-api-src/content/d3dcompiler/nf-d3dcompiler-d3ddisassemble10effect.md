@@ -12,6 +12,8 @@ ms.keywords: 712a7486-754f-69f6-11b7-5bf288ee98af, D3DDisassemble10Effect, D3DDi
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DDisassemble10Effect"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

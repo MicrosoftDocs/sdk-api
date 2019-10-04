@@ -12,6 +12,8 @@ ms.keywords: '*LPDFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, DFS_STORAGE_INFO_1, D
 ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_STORAGE_INFO_1
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

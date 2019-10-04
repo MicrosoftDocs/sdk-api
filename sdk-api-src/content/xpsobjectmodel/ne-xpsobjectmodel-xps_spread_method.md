@@ -12,6 +12,8 @@ ms.keywords: XPS_SPREAD_METHOD, XPS_SPREAD_METHOD enumeration [XPS Documents and
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_SPREAD_METHOD"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

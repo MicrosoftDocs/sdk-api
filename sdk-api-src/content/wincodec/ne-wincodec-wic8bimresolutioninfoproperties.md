@@ -12,6 +12,8 @@ ms.keywords: WIC8BIMResolutionInfoHResolution, WIC8BIMResolutionInfoHResolutionU
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WIC8BIMResolutionInfoProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

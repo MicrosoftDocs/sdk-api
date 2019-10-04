@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRA
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

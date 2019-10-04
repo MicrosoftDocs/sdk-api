@@ -12,6 +12,8 @@ ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_D
 ms.topic: function
 f1_keywords:
 - processthreadsapi/UpdateProcThreadAttribute
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

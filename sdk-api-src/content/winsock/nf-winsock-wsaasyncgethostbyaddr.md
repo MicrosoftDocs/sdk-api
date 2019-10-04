@@ -12,6 +12,8 @@ ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _w
 ms.topic: function
 f1_keywords: 
  - "winsock/WSAAsyncGetHostByAddr"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

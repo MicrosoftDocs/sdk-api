@@ -12,6 +12,8 @@ ms.keywords: ICoreFragmentInspector interface [Windows Sync],Reset method, ICore
 ms.topic: method
 f1_keywords: 
  - "winsync/ICoreFragmentInspector.Reset"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

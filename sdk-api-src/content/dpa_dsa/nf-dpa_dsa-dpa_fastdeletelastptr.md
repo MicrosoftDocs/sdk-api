@@ -12,6 +12,8 @@ ms.keywords: DPA_FastDeleteLastPtr, DPA_FastDeleteLastPtr macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "dpa_dsa/DPA_FastDeleteLastPtr"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

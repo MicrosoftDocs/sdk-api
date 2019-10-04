@@ -12,6 +12,8 @@ ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetMonitor method, IVMRMo
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRMonitorConfig9.SetMonitor"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

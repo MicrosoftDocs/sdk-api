@@ -12,6 +12,8 @@ ms.keywords: RdcBufferPointer, RdcBufferPointer structure [Remote Differential C
 ms.topic: struct
 f1_keywords: 
  - "msrdc/RdcBufferPointer"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UnregisterWaitEx, UnregisterWaitEx function, _win32_unregisterwaite
 ms.topic: function
 f1_keywords: 
  - "threadpoollegacyapiset/UnregisterWaitEx"
+dev_langs:
+ - c++
 req.header: threadpoollegacyapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

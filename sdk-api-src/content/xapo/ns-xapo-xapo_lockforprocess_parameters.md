@@ -12,6 +12,8 @@ ms.keywords: XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS, XAPO_LOCKFORPROCESS_BUFFER_P
 ms.topic: struct
 f1_keywords: 
  - "xapo/XAPO_LOCKFORPROCESS_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

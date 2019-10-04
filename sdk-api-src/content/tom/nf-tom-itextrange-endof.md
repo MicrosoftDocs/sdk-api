@@ -12,6 +12,8 @@ ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Contr
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.EndOf"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

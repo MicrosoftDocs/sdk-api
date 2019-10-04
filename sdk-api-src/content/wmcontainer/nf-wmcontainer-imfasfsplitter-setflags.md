@@ -12,6 +12,8 @@ ms.keywords: 5c70e5a0-7dd5-49c5-af35-4d9568871b41, IMFASFSplitter interface [Med
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.SetFlags"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [F
 ms.topic: enum
 f1_keywords: 
  - "netiodef/DL_ADDRESS_TYPE"
+dev_langs:
+ - c++
 req.header: netiodef.h
 req.include-header: Fwpmtypes.h
 req.target-type: Windows

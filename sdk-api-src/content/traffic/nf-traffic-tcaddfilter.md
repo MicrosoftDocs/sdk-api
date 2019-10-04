@@ -12,6 +12,8 @@ ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tca
 ms.topic: function
 f1_keywords: 
  - "traffic/TcAddFilter"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

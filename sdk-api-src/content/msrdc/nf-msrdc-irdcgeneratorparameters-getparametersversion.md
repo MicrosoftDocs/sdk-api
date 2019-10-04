@@ -12,6 +12,8 @@ ms.keywords: GetParametersVersion, GetParametersVersion method [Remote Different
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGeneratorParameters.GetParametersVersion"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

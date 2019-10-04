@@ -12,6 +12,8 @@ ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate i
 ms.topic: method
 f1_keywords: 
  - "iads/IADsNameTranslate.GetEx"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

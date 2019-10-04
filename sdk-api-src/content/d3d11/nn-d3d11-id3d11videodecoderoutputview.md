@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoDecoderOutputView, ID3D11VideoDecoderOutputView interfac
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11VideoDecoderOutputView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

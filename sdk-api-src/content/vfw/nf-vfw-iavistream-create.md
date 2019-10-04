@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Windows Multimedia], Create method [Windows 
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIStream.Create"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

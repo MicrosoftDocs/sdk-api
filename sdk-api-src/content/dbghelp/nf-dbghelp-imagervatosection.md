@@ -12,6 +12,8 @@ ms.keywords: ImageRvaToSection, ImageRvaToSection function, _win32_imagervatosec
 ms.topic: function
 f1_keywords:
 - dbghelp/ImageRvaToSection
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

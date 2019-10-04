@@ -12,6 +12,8 @@ ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameType
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetEnumerateComputerNames"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

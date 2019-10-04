@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo interface [Automation],SetVersion method, ICreateTy
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo.SetVersion"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

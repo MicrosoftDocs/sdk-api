@@ -12,6 +12,8 @@ ms.keywords: IResultData2 interface [MMC],RenameResultItem method, IResultData2.
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData2.RenameResultItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

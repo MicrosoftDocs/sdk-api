@@ -12,6 +12,8 @@ ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushC
 ms.topic: function
 f1_keywords: 
  - "ole2/OleFlushClipboard"
+dev_langs:
+ - c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

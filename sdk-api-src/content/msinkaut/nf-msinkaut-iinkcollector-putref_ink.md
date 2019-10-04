@@ -12,6 +12,8 @@ ms.keywords: 62881a0e-3932-49a1-8e7d-3e74474f2214, IInkCollector interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.Ink"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

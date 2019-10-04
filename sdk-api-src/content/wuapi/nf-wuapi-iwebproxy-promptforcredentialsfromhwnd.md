@@ -12,6 +12,8 @@ ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentialsFrom
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.PromptForCredentialsFromHwnd"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

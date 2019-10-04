@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_GROUP_CODES, CLUSCTL_GROUP_CODES enumeration [Failover Clus
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_GROUP_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

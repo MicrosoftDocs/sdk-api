@@ -12,6 +12,8 @@ ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateDecision meth
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComObjectPoolEvents2.OnObjPoolCreateDecision"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

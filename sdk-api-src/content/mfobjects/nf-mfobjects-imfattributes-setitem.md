@@ -12,6 +12,8 @@ ms.keywords: 1ac6e1c3-cf78-4cff-a992-4f92f243c443, IMFAttributes interface [Medi
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.SetItem
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

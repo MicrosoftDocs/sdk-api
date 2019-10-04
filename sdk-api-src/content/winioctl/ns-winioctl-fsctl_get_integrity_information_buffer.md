@@ -12,6 +12,8 @@ ms.keywords: "*PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

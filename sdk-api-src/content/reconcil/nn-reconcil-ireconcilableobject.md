@@ -12,6 +12,8 @@ ms.keywords: IReconcilableObject, IReconcilableObject interface [Legacy Windows 
 ms.topic: interface
 f1_keywords: 
  - "reconcil/IReconcilableObject"
+dev_langs:
+ - c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

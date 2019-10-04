@@ -12,6 +12,8 @@ ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupG
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetSourceInfo"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

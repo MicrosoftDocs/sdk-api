@@ -12,6 +12,8 @@ ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],I
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesProgress.Begin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

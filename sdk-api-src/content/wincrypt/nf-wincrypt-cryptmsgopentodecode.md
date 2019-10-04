@@ -12,6 +12,8 @@ ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMS
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgOpenToDecode
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

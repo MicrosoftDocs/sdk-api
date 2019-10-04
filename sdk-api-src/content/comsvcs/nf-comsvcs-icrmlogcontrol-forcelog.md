@@ -12,6 +12,8 @@ ms.keywords: ForceLog, ForceLog method [COM+], ForceLog method [COM+],ICrmLogCon
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmLogControl.ForceLog"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

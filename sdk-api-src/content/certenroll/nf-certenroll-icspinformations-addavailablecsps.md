@@ -12,6 +12,8 @@ ms.keywords: AddAvailableCsps, AddAvailableCsps method [Security], AddAvailableC
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformations.AddAvailableCsps"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

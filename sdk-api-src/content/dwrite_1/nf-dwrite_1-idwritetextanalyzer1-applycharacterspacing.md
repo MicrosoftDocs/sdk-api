@@ -12,6 +12,8 @@ ms.keywords: ApplyCharacterSpacing, ApplyCharacterSpacing method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.ApplyCharacterSpacing"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

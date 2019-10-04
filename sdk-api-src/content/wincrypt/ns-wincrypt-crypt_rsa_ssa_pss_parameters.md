@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS, CRYP
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

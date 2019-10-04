@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_APPCONTAINER_INFORMATION, PTOKEN_APPCONTAINER_INFORMATION,
 ms.topic: struct
 f1_keywords: 
  - "winnt/TOKEN_APPCONTAINER_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

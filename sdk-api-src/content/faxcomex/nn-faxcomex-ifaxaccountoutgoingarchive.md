@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountOutgoingArchive, IFaxAccountOutgoingArchive interface [F
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxAccountOutgoingArchive"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

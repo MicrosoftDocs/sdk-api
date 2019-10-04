@@ -12,6 +12,8 @@ ms.keywords: IShellService, IShellService interface [Windows Shell], IShellServi
 ms.topic: interface
 f1_keywords: 
  - "shdeprecated/IShellService"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

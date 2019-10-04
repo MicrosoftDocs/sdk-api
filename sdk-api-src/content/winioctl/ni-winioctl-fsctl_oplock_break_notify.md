@@ -12,6 +12,8 @@ ms.keywords: FSCTL_OPLOCK_BREAK_NOTIFY, FSCTL_OPLOCK_BREAK_NOTIFY control, FSCTL
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_OPLOCK_BREAK_NOTIFY
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

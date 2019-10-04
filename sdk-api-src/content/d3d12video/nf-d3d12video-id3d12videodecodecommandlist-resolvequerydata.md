@@ -8,6 +8,10 @@ ms.assetid: 6c0f7e3b-9399-4ce7-b5a6-02c441496f2e
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::ResolveQueryData
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList::ResolveQueryData, ResolveQueryData, ID3D12VideoDecodeCommandList.ResolveQueryData, ID3D12VideoDecodeCommandList::ResolveQueryData, ID3D12VideoDecodeCommandList.ResolveQueryData
 req.header: d3d12video.h
 req.include-header:

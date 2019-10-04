@@ -12,6 +12,8 @@ ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokes interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.Rotate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

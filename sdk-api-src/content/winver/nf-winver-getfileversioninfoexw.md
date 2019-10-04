@@ -12,6 +12,8 @@ ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, FILE_VER_GET_PREFETCH
 ms.topic: function
 f1_keywords: 
  - "winver/GetFileVersionInfoEx"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

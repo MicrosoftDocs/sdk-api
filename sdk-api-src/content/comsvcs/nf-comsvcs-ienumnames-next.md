@@ -12,6 +12,8 @@ ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumName
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IEnumNames.Next"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

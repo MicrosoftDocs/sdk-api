@@ -12,6 +12,8 @@ ms.keywords: "*PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET
 ms.topic: struct
 f1_keywords: 
  - "winnt/TAPE_SET_MEDIA_PARAMETERS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

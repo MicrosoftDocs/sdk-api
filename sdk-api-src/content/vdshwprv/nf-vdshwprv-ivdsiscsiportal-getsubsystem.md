@@ -12,6 +12,8 @@ ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsIscsiPortal.GetSubSystem"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

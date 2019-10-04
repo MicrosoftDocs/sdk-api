@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSource.put_UnratedDelay"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

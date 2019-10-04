@@ -12,6 +12,8 @@ ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode 
 ms.topic: method
 f1_keywords: 
  - "amvideo/IFullScreenVideoEx.GetCurrentMode"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

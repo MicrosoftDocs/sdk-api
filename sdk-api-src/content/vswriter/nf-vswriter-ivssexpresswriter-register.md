@@ -12,6 +12,8 @@ ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Regi
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssExpressWriter.Register"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

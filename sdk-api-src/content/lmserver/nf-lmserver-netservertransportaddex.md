@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, 3, NetServerTransportAddEx, NetServerTransportAddEx functi
 ms.topic: function
 f1_keywords:
 - lmserver/NetServerTransportAddEx
+dev_langs:
+ - c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

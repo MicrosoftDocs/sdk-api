@@ -12,6 +12,8 @@ ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],_NewEnum
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformationCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EDP.enterprise_data_policies, ENTERPRISE_DATA_POLICIES, ENTERPRISE_
 ms.topic: enum
 f1_keywords: 
  - "srpapi/ENTERPRISE_DATA_POLICIES"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

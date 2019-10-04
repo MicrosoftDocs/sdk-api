@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType met
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSink2.SetOutputMediaType"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

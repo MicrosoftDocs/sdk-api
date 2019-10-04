@@ -12,6 +12,8 @@ ms.keywords: GetRecordCAUnitComponentTag, GetRecordCAUnitComponentTag method [Mi
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

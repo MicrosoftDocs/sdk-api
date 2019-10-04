@@ -12,6 +12,8 @@ ms.keywords: GetFullPathNameTransacted, GetFullPathNameTransacted function [File
 ms.topic: function
 f1_keywords: 
  - "winbase/GetFullPathNameTransacted"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

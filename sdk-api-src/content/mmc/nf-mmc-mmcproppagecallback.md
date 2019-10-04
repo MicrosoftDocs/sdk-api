@@ -12,6 +12,8 @@ ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallb
 ms.topic: function
 f1_keywords:
 - mmc/MMCPropPageCallback
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

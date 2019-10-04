@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VD
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_LUN_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

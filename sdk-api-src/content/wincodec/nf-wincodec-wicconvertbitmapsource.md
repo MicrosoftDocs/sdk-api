@@ -12,6 +12,8 @@ ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Im
 ms.topic: function
 f1_keywords: 
  - "wincodec/WICConvertBitmapSource"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

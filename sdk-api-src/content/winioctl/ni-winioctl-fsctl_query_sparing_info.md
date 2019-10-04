@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_SPARING_INFO, FSCTL_QUERY_SPARING_INFO control, FSCTL_Q
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_QUERY_SPARING_INFO
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

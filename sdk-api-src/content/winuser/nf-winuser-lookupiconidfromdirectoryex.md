@@ -12,6 +12,8 @@ ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, Lookup
 ms.topic: function
 f1_keywords: 
  - "winuser/LookupIconIdFromDirectoryEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

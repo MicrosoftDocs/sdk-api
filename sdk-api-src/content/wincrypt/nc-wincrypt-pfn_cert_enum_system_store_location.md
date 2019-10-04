@@ -12,6 +12,8 @@ ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCal
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/CertEnumSystemStoreLocationCallback"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

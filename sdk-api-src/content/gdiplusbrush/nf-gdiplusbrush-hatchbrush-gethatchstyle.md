@@ -12,6 +12,8 @@ ms.keywords: GetHatchStyle, GetHatchStyle method [GDI+], GetHatchStyle method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/HatchBrush.GetHatchStyle"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

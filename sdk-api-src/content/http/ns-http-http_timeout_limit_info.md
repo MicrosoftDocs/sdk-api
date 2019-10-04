@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_TIMEOUT_LIMIT_INFO, *PHTTP_TIMEOUT_LIMIT_INFO structure [HT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_TIMEOUT_LIMIT_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

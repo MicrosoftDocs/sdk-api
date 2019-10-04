@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHos
 ms.topic: interface
 f1_keywords: 
  - "wsdhost/IWSDDeviceHostNotify"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4077ae40-75b2-4c45-b62e-740e216ebf89, MFInitMediaTypeFromVideoInfoH
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFInitMediaTypeFromVideoInfoHeader2"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

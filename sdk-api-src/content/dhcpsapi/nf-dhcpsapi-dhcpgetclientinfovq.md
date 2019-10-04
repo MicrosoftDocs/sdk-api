@@ -12,6 +12,8 @@ ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientInfoVQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

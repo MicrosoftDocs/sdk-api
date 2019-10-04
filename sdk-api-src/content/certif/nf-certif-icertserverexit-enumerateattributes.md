@@ -12,6 +12,8 @@ ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, Enume
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerExit.EnumerateAttributes"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

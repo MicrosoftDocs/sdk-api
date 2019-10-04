@@ -12,6 +12,8 @@ ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RP
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcServerInqCallAttributes"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

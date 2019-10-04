@@ -12,6 +12,8 @@ ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runti
 ms.topic: interface
 f1_keywords: 
  - "restrictederrorinfo/IRestrictedErrorInfo"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

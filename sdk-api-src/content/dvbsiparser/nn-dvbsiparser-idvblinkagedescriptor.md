@@ -12,6 +12,8 @@ ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft T
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbLinkageDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

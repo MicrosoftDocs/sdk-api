@@ -8,6 +8,10 @@ ms.assetid: 73442724-7999-4044-8afa-9992bf5313b9
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: interface
+f1_keywords:
+ - ID3D12VideoProcessor
+dev_langs:
+ - c++
 req.header: d3d12video.h
 req.include-header:
 req.redist:

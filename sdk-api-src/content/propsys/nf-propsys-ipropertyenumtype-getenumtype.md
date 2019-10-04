@@ -12,6 +12,8 @@ ms.keywords: GetEnumType, GetEnumType method [Windows Properties], GetEnumType m
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumType.GetEnumType"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

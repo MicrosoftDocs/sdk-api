@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Text Services Framework], GetText method [
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmapButton.GetText"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

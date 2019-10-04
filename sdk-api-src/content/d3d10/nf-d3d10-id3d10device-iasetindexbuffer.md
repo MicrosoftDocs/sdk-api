@@ -12,6 +12,8 @@ ms.keywords: 608d16ec-f6d6-ea93-bc37-fe7d34d07215, IASetIndexBuffer, IASetIndexB
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IASetIndexBuffer"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

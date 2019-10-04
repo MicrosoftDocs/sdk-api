@@ -12,6 +12,8 @@ ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12L
 ms.topic: interface
 f1_keywords: 
  - "d3d12shader/ID3D12LibraryReflection"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

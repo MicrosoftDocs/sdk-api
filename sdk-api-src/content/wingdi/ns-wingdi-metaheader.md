@@ -12,6 +12,8 @@ ms.keywords: "*LPMETAHEADER, *PMETAHEADER, METAHEADER, METAHEADER structure [Win
 ms.topic: struct
 f1_keywords: 
  - "wingdi/METAHEADER"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

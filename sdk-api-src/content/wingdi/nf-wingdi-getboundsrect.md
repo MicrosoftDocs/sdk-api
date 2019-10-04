@@ -12,6 +12,8 @@ ms.keywords: DCB_RESET, GetBoundsRect, GetBoundsRect function [Windows GDI], _wi
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetBoundsRect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

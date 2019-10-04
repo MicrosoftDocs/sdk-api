@@ -12,6 +12,8 @@ ms.keywords: TextRange_Clone, TextRange_Clone function [Windows Accessibility], 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_Clone"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

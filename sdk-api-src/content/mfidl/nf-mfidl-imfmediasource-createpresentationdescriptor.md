@@ -12,6 +12,8 @@ ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSource.CreatePresentationDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

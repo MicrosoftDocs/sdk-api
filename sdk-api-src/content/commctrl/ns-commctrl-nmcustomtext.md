@@ -12,6 +12,8 @@ ms.keywords: '*LPNMCUSTOMTEXT, LPNMCUSTOMTEXT, LPNMCUSTOMTEXT structure pointer 
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCUSTOMTEXT
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

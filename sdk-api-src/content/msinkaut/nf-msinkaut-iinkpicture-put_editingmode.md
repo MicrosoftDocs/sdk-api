@@ -12,6 +12,8 @@ ms.keywords: 5767f768-d59c-404e-9098-ab5e0c427c7d, EditingMode property [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.EditingMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

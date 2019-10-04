@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMStoreUShort4, XMStoreUShort4, XMStoreUShort
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMStoreUShort4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

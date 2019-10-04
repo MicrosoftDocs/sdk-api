@@ -12,6 +12,8 @@ ms.keywords: IEnumConnections interface [COM],Skip method, IEnumConnections.Skip
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumConnections.Skip"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

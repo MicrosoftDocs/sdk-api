@@ -12,6 +12,8 @@ ms.keywords: EnumerationFlagReturnObject, EnumerationFlagReturnObject method [Wi
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx.EnumerationFlagReturnObject"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

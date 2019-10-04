@@ -12,6 +12,8 @@ ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [We
 ms.topic: function
 f1_keywords:
 - webservices/WsSendFaultMessageForError
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

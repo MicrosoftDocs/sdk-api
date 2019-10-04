@@ -12,6 +12,8 @@ ms.keywords: EnumResourceLanguagesEx, EnumResourceLanguagesEx function [Menus an
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/EnumResourceLanguagesEx"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

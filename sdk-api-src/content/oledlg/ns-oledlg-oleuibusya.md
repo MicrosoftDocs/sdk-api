@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIBUSYA, *POLEUIBUSYA, BZ_DISABLECANCELBUTTON, BZ_DISABLERET
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIBUSY"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

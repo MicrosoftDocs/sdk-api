@@ -12,6 +12,8 @@ ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILay
 ms.topic: interface
 f1_keywords: 
  - "objidl/ILayoutStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

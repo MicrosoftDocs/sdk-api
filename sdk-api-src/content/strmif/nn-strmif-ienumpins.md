@@ -12,6 +12,8 @@ ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [D
 ms.topic: interface
 f1_keywords: 
  - "strmif/IEnumPins"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

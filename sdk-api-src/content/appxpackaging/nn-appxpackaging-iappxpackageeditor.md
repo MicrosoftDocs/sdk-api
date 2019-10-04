@@ -12,6 +12,8 @@ ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxPackageEditor"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

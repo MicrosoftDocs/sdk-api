@@ -12,6 +12,8 @@ ms.keywords: SetDigitSubstitution, SetDigitSubstitution method [GDI+], SetDigitS
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.SetDigitSubstitution"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

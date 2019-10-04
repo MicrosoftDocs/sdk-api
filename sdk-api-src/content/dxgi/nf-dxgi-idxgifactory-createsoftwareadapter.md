@@ -12,6 +12,8 @@ ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateS
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory.CreateSoftwareAdapter"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

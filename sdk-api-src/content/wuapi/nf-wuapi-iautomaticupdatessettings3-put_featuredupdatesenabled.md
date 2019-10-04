@@ -12,6 +12,8 @@ ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpd
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

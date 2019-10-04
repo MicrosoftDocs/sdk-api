@@ -12,6 +12,8 @@ ms.keywords: EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting 
 ms.topic: struct
 f1_keywords: 
  - "emi/EMI_METADATA"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

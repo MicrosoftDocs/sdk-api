@@ -12,6 +12,8 @@ ms.keywords: CM_Open_Device_Interface_Key, CM_Open_Device_Interface_Key function
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Open_Device_Interface_Key"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

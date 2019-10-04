@@ -12,6 +12,8 @@ ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource 
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMPushSource"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

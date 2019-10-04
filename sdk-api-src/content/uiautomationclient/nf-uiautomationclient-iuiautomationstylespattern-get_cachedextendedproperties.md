@@ -12,6 +12,8 @@ ms.keywords: CachedExtendedProperties property [Windows Accessibility], CachedEx
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationStylesPattern.CachedExtendedProperties"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

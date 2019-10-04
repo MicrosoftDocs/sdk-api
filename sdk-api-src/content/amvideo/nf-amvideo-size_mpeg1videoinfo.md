@@ -12,6 +12,8 @@ ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvide
 ms.topic: macro
 f1_keywords: 
  - "amvideo/SIZE_MPEG1VIDEOINFO"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

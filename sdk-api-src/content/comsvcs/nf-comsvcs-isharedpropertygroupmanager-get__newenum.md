@@ -12,6 +12,8 @@ ms.keywords: ISharedPropertyGroupManager interface [COM+],get__NewEnum method, I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISharedPropertyGroupManager.get__NewEnum"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

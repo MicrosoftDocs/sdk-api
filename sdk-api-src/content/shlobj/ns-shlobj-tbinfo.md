@@ -12,6 +12,8 @@ ms.keywords: "*LPTBINFO, TBIF_APPEND, TBIF_PREPEND, TBIF_REPLACE, TBINFO, TBINFO
 ms.topic: struct
 f1_keywords: 
  - "shlobj/TBINFO"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

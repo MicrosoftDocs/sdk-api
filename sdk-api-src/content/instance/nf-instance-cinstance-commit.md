@@ -12,6 +12,8 @@ ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance i
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.Commit"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

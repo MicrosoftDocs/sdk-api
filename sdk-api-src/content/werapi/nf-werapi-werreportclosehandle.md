@@ -12,6 +12,8 @@ ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error 
 ms.topic: function
 f1_keywords: 
  - "werapi/WerReportCloseHandle"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

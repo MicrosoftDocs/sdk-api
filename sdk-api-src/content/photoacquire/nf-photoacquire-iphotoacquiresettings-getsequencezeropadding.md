@@ -12,6 +12,8 @@ ms.keywords: GetSequenceZeroPadding, GetSequenceZeroPadding method [Picture Acqu
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.GetSequenceZeroPadding"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

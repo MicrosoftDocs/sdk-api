@@ -12,6 +12,8 @@ ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS, D3D12_RENDER_PASS_ENDING_ACCESS st
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_RENDER_PASS_ENDING_ACCESS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

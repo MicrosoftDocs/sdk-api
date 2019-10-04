@@ -12,6 +12,8 @@ ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Ta
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.DataCacheEnabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

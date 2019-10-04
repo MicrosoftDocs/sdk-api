@@ -12,6 +12,8 @@ ms.keywords: GetReason, GetReason method [Microsoft TV Technologies], GetReason 
 ms.topic: method
 f1_keywords: 
  - "tuner/IESRequestTunerEvent.GetReason"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

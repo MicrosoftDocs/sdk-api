@@ -12,6 +12,8 @@ ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect in
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionGaussianBlurEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

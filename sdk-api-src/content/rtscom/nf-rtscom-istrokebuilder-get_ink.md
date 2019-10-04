@@ -12,6 +12,8 @@ ms.keywords: IStrokeBuilder interface [Tablet PC],Ink property, IStrokeBuilder.I
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStrokeBuilder.Ink"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

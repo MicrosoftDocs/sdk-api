@@ -12,6 +12,8 @@ ms.keywords: 1928c81a-c618-4afd-b0eb-06e7b8b80431, IInkRenderer interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.Rotate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

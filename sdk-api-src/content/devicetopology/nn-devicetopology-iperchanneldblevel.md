@@ -12,6 +12,8 @@ ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPer
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IPerChannelDbLevel"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

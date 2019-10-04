@@ -12,6 +12,8 @@ ms.keywords: WinUsb_ReadIsochPipe, WinUsb_ReadIsochPipe function [Buses], buses.
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ReadIsochPipe
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

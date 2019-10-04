@@ -12,6 +12,8 @@ ms.keywords: MI_ConstReal32Field, MI_ConstReal32Field structure [Windows Managem
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReal32Field
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

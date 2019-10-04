@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPVFrameFieldMode, codecapi/eAVEncMPVFrameFieldMode_
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPVFrameFieldMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

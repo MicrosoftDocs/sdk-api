@@ -12,6 +12,8 @@ ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEF
 ms.topic: function
 f1_keywords: 
  - "winuser/LoadImage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

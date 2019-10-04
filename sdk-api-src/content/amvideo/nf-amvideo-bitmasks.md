@@ -12,6 +12,8 @@ ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitm
 ms.topic: macro
 f1_keywords: 
  - "amvideo/BITMASKS"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

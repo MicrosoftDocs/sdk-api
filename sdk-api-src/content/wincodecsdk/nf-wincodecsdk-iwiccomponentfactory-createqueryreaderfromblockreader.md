@@ -12,6 +12,8 @@ ms.keywords: CreateQueryReaderFromBlockReader, CreateQueryReaderFromBlockReader 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICComponentFactory.CreateQueryReaderFromBlockReader"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

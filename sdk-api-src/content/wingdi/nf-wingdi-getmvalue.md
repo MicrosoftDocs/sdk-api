@@ -12,6 +12,8 @@ ms.keywords: GetMValue, GetMValue macro [Windows Color System], _color_GetMValue
 ms.topic: macro
 f1_keywords: 
  - "wingdi/GetMValue"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

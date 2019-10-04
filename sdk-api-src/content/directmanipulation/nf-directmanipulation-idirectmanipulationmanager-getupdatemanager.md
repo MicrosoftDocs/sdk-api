@@ -12,6 +12,8 @@ ms.keywords: GetUpdateManager, GetUpdateManager method [Direct Manipulation], Ge
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.GetUpdateManager"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

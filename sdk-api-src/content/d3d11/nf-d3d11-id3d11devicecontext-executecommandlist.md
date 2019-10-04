@@ -12,6 +12,8 @@ ms.keywords: 451c8cc4-04fc-6682-9b16-549845617e3e, ExecuteCommandList, ExecuteCo
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.ExecuteCommandList"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

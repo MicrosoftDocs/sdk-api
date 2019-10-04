@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LP
 ms.topic: struct
 f1_keywords: 
  - "objidl/INTERFACEINFO"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

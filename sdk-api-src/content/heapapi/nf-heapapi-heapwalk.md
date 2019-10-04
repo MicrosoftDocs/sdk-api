@@ -12,6 +12,8 @@ ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapap
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapWalk"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

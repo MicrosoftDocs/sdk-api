@@ -12,6 +12,8 @@ ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Medi
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMObjectInfo.GetLongestPlayPosition"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

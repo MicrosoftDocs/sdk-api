@@ -12,6 +12,8 @@ ms.keywords: EnumPIDMap, EnumPIDMap method [DirectShow], EnumPIDMap method [Dire
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IMPEG2PIDMap.EnumPIDMap"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

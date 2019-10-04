@@ -12,6 +12,8 @@ ms.keywords: Provider, Provider method, Provider method,TraceLoggingActivity int
 ms.topic: method
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingActivity.Provider"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LoadTypeLibEx, LoadTypeLibEx function [Automation], _oa96_LoadTypeL
 ms.topic: function
 f1_keywords: 
  - "oleauto/LoadTypeLibEx"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

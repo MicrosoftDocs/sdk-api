@@ -12,6 +12,8 @@ ms.keywords: 0f2dfe96-267a-14d2-b7ec-deb2ed3c3450, IDXGIDevice interface [DXGI],
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice.QueryResourceResidency"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

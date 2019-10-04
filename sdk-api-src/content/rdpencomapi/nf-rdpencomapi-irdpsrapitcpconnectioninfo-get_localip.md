@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalIP property, IRDPSR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITcpConnectionInfo.LocalIP"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

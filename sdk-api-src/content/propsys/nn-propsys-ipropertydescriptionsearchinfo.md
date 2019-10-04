@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo inte
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyDescriptionSearchInfo"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

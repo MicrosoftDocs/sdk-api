@@ -12,6 +12,8 @@ ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [
 ms.topic: function
 f1_keywords: 
  - "winuser/SetThreadDpiHostingBehavior"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

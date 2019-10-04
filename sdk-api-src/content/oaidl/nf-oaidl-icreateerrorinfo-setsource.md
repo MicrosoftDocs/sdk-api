@@ -12,6 +12,8 @@ ms.keywords: ICreateErrorInfo interface [Automation],SetSource method, ICreateEr
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateErrorInfo.SetSource"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

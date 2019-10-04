@@ -12,6 +12,8 @@ ms.keywords: "*PCSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CSVFS, CSV_IS_OWNED_BY_CS
 ms.topic: struct
 f1_keywords: 
  - "winioctl/CSV_IS_OWNED_BY_CSVFS"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

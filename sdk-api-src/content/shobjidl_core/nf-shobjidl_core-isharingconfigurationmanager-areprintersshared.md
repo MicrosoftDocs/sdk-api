@@ -12,6 +12,8 @@ ms.keywords: ArePrintersShared, ArePrintersShared method [Windows Shell], ArePri
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ISharingConfigurationManager.ArePrintersShared"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

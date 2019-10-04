@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK functi
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilFreeParameterBlock"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

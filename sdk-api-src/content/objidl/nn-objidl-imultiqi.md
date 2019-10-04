@@ -12,6 +12,8 @@ ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "objidl/IMultiQI"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

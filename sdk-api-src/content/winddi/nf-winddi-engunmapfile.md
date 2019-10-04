@@ -12,6 +12,8 @@ ms.keywords: EngUnmapFile, EngUnmapFile function [Display Devices], display.engu
 ms.topic: function
 f1_keywords: 
  - "winddi/EngUnmapFile"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

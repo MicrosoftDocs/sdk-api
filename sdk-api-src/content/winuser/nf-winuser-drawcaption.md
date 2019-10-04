@@ -12,6 +12,8 @@ ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLC
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawCaption"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

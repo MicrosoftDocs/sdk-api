@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_PEND_INFO, CMC_PEND_INFO, CMC_PEND_INFO structure [Security]
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_PEND_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

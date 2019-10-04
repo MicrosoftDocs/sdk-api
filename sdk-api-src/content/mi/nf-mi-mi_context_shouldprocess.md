@@ -12,6 +12,8 @@ ms.keywords: MI_Context_ShouldProcess, MI_Context_ShouldProcess function [Window
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_ShouldProcess
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

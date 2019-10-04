@@ -12,6 +12,8 @@ ms.keywords: '*LPDFS_INFO_8, *PDFS_INFO_8, DFS_INFO_8, DFS_INFO_8 structure [Dis
 ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_INFO_8
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

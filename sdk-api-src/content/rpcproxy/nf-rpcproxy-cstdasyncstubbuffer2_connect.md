@@ -12,6 +12,8 @@ ms.keywords: CStdAsyncStubBuffer2_Connect, CStdAsyncStubBuffer2_Connect function
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdAsyncStubBuffer2_Connect"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateTimerQueueTimer, CreateTimerQueueTimer function, WT_EXECUTEDE
 ms.topic: function
 f1_keywords: 
  - "threadpoollegacyapiset/CreateTimerQueueTimer"
+dev_langs:
+ - c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

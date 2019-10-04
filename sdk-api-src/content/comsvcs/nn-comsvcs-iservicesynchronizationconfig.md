@@ -12,6 +12,8 @@ ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interf
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IServiceSynchronizationConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIEDITLINKSW, *POLEUIEDITLINKSW, ELF_DISABLECANCELLINK, ELF_
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIEDITLINKS"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

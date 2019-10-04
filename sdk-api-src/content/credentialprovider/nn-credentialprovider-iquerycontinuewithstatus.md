@@ -12,6 +12,8 @@ ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "credentialprovider/IQueryContinueWithStatus"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Code property [RDP], Code property [RDP],IRDPSRAPIAttendeeDisconnec
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo.Code"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

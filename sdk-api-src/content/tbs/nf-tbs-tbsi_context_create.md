@@ -12,6 +12,8 @@ ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsi_Context_Create"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

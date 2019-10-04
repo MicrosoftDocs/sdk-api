@@ -12,6 +12,8 @@ ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeY method, ID2D1B
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1BitmapBrush.SetExtendModeY"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

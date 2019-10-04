@@ -12,6 +12,8 @@ ms.keywords: IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Updat
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry2"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

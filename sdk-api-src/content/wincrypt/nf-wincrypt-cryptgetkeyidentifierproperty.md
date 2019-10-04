@@ -12,6 +12,8 @@ ms.keywords: CRYPT_KEYID_ALLOC_FLAG, CRYPT_KEYID_MACHINE_FLAG, CryptGetKeyIdenti
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetKeyIdentifierProperty
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

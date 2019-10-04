@@ -12,6 +12,8 @@ ms.keywords: GetTouchInputInfo, GetTouchInputInfo function [Windows Touch], wint
 ms.topic: function
 f1_keywords: 
  - "winuser/GetTouchInputInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

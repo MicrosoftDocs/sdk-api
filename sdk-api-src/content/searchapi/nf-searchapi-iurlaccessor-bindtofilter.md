@@ -12,6 +12,8 @@ ms.keywords: BindToFilter, BindToFilter method [search], BindToFilter method [se
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.BindToFilter"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

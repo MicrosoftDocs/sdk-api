@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIO
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_DLL_FUNCTIONS"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Window
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToStringAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

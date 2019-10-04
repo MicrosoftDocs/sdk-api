@@ -12,6 +12,8 @@ ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath func
 ms.topic: function
 f1_keywords: 
  - "securityappcontainer/GetAppContainerNamedObjectPath"
+dev_langs:
+ - c++
 req.header: securityappcontainer.h
 req.include-header: 
 req.target-type: Windows

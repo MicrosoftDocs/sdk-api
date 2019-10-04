@@ -12,6 +12,8 @@ ms.keywords: MF_QUATERNION, MF_QUATERNION structure [Media Foundation], PMF_QUAT
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MF_QUATERNION"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

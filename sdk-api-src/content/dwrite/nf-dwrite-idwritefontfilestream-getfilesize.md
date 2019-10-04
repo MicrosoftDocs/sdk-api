@@ -12,6 +12,8 @@ ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method 
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFileStream.GetFileSize"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

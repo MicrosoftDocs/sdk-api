@@ -12,6 +12,8 @@ ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactPhone method, IAMC
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMChannelInfo.get_ContactPhone"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

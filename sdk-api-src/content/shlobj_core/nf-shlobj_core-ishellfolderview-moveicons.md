@@ -12,6 +12,8 @@ ms.keywords: IShellFolderView interface [Windows Shell],MoveIcons method, IShell
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.MoveIcons"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj_core.h
 req.target-type: Windows

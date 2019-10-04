@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontFaceReference metho
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontSet1.GetFontFaceReference"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

@@ -12,6 +12,8 @@ ms.keywords: '*PXINPUT_STATE, PXINPUT_STATE, PXINPUT_STATE structure pointer [XI
 ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_STATE
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

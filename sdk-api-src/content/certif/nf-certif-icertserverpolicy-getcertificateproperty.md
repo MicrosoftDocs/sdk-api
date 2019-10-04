@@ -12,6 +12,8 @@ ms.keywords: CAType, CCertServerPolicy object [Security],GetCertificateProperty 
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerPolicy.GetCertificateProperty"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

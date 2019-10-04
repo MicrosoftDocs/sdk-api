@@ -12,6 +12,8 @@ ms.keywords: IUIAutomation2 interface [Windows Accessibility],TransactionTimeout
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation2.TransactionTimeout"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

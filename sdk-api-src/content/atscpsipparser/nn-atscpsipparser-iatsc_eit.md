@@ -12,6 +12,8 @@ ms.keywords: IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], IATSC_E
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/IATSC_EIT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

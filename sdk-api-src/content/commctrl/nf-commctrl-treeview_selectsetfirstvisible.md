@@ -12,6 +12,8 @@ ms.keywords: TreeView_SelectSetFirstVisible, TreeView_SelectSetFirstVisible macr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_SelectSetFirstVisible"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

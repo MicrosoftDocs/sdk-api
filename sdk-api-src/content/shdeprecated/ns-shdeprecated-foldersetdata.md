@@ -12,6 +12,8 @@ ms.keywords: "*LPFOLDERSETDATA, FOLDERSETDATA, FOLDERSETDATA structure [Windows 
 ms.topic: struct
 f1_keywords: 
  - "shdeprecated/FOLDERSETDATA"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

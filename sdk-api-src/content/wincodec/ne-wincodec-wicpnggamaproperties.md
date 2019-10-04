@@ -12,6 +12,8 @@ ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumera
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngGamaProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteAttribute, DeleteAttribute method [windows Media Format], Del
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo3.DeleteAttribute"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

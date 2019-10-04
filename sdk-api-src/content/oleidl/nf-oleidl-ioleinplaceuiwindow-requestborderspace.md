@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOle
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceUIWindow.RequestBorderSpace"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

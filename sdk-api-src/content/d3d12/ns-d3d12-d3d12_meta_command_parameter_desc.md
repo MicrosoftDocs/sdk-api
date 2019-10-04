@@ -12,6 +12,8 @@ ms.keywords: D3D12_META_COMMAND_PARAMETER_DESC, D3D12_META_COMMAND_PARAMETER_DES
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_META_COMMAND_PARAMETER_DESC"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

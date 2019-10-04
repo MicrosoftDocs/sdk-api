@@ -12,6 +12,8 @@ ms.keywords: "*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO stru
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSPROPERTYPAGEINFO"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

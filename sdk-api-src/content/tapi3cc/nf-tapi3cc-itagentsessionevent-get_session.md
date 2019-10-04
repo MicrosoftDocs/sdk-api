@@ -12,6 +12,8 @@ ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Session method, ITAgen
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgentSessionEvent.get_Session"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

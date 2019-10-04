@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerInfo, KeyCredentialManagerInfo structure [Secur
 ms.topic: struct
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerInfo"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhc
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpDeleteSuperScopeV4"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

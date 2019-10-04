@@ -12,6 +12,8 @@ ms.keywords: DCIDestroy, DCIDestroy function [Windows API], _dciman_dcidestroy, 
 ms.topic: function
 f1_keywords: 
  - "dciman/DCIDestroy"
+dev_langs:
+ - c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

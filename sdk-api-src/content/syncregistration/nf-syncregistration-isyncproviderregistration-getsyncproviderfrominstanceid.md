@@ -12,6 +12,8 @@ ms.keywords: GetSyncProviderFromInstanceId, GetSyncProviderFromInstanceId method
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderRegistration.GetSyncProviderFromInstanceId"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

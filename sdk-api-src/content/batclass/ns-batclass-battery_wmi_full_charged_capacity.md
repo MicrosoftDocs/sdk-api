@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPA
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

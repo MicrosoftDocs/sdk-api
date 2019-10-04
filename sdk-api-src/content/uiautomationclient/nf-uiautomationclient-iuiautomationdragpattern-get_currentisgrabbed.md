@@ -12,6 +12,8 @@ ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDragPattern.CurrentIsGrabbed"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

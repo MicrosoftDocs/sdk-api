@@ -12,6 +12,8 @@ ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorder
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetBorderColor"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

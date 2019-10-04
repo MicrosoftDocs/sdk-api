@@ -12,6 +12,8 @@ ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetEngineDeviceForm
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase.SetEngineDeviceFormat"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

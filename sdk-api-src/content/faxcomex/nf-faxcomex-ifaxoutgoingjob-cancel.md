@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.Cancel"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

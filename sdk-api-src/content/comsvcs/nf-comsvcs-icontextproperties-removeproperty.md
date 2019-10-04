@@ -12,6 +12,8 @@ ms.keywords: IContextProperties interface [COM+],RemoveProperty method, IContext
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextProperties.RemoveProperty"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

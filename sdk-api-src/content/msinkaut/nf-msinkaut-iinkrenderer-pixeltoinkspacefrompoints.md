@@ -12,6 +12,8 @@ ms.keywords: 1427ab50-1b04-43a8-a987-838f2d6893cc, IInkRenderer, IInkRenderer in
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.PixelToInkSpaceFromPoints"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,10 @@ title: IOCTL_STORAGE_REINITIALIZE_MEDIA
 ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA
 ms.topic: language-reference
+f1_keywords:
+ - IOCTL_STORAGE_REINITIALIZE_MEDIA
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: USER_INPUT_DEFAULT, USER_INPUT_PATH_ELEMENT, USER_INPUT_STRING_TYPE
 ms.topic: enum
 f1_keywords: 
  - "photoacquire/USER_INPUT_STRING_TYPE"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

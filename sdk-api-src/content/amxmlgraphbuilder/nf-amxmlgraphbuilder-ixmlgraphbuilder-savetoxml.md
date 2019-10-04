@@ -12,6 +12,8 @@ ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraph
 ms.topic: method
 f1_keywords: 
  - "amxmlgraphbuilder/IXMLGraphBuilder.SaveToXML"
+dev_langs:
+ - c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows

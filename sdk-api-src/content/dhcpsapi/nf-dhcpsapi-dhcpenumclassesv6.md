@@ -12,6 +12,8 @@ ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenum
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumClassesV6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

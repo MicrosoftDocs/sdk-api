@@ -12,6 +12,8 @@ ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTem
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateTempFile"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

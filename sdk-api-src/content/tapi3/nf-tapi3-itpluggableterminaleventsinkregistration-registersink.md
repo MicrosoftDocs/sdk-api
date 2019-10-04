@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],Regis
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITPluggableTerminalEventSinkRegistration.RegisterSink"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

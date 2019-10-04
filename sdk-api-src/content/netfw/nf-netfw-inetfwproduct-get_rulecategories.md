@@ -12,6 +12,8 @@ ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwPr
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwProduct.RuleCategories"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

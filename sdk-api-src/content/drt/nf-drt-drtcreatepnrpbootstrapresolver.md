@@ -12,6 +12,8 @@ ms.keywords: DrtCreatePnrpBootstrapResolver, DrtCreatePnrpBootstrapResolver func
 ms.topic: function
 f1_keywords: 
  - "drt/DrtCreatePnrpBootstrapResolver"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

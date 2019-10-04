@@ -12,6 +12,8 @@ ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChan
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoa
 ms.topic: function
 f1_keywords: 
  - "olectl/OleLoadPicturePath"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

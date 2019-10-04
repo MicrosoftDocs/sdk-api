@@ -12,6 +12,8 @@ ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallb
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymRegisterCallback64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

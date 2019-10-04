@@ -12,6 +12,8 @@ ms.keywords: IMultisession interface [IMAPI],put_InUse method, IMultisession.put
 ms.topic: method
 f1_keywords: 
  - "imapi2/IMultisession.put_InUse"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

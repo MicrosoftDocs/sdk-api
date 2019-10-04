@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [W
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.Add"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

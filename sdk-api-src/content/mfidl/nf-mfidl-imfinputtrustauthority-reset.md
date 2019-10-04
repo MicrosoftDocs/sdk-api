@@ -12,6 +12,8 @@ ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, I
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFInputTrustAuthority.Reset"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

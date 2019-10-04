@@ -12,6 +12,8 @@ ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.addBlobPropertyToCertificate"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetConversion, GetConversion method [Internationalization for Windo
 ms.topic: method
 f1_keywords: 
  - "msime/IFELanguage.GetConversion"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

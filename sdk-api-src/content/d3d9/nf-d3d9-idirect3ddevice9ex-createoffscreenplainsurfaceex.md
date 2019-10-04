@@ -12,6 +12,8 @@ ms.keywords: 63d121fa-1b4f-16db-b792-c30558006ddb, CreateOffscreenPlainSurfaceEx
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.CreateOffscreenPlainSurfaceEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

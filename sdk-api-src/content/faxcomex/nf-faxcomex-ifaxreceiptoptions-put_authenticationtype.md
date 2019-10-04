@@ -12,6 +12,8 @@ ms.keywords: AuthenticationType property [Fax Service], AuthenticationType prope
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxReceiptOptions.AuthenticationType"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

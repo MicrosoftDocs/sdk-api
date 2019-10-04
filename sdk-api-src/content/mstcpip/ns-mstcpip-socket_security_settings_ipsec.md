@@ -12,6 +12,8 @@ ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC stru
 ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

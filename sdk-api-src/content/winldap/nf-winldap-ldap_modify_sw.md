@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_modify_s, ldap.ldap__modify__s, ldap.ldap_modify_s, lda
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_modify_s"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

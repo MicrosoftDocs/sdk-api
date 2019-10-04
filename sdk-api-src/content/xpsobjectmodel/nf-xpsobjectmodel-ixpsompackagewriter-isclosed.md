@@ -12,6 +12,8 @@ ms.keywords: FALSE, IXpsOMPackageWriter interface [XPS Documents and Packaging],
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPackageWriter.IsClosed"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

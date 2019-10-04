@@ -12,6 +12,8 @@ ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnor
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatch.EndUnorderedGroup"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

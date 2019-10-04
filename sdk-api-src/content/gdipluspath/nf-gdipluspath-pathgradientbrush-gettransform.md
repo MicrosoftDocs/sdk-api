@@ -12,6 +12,8 @@ ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetTransform"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

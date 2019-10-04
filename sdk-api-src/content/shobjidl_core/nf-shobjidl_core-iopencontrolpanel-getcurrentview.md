@@ -12,6 +12,8 @@ ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetC
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IOpenControlPanel.GetCurrentView"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

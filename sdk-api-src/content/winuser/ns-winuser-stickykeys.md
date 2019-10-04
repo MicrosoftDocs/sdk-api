@@ -12,6 +12,8 @@ ms.keywords: "*LPSTICKYKEYS, LPSTICKYKEYS, LPSTICKYKEYS structure pointer [Windo
 ms.topic: struct
 f1_keywords: 
  - "winuser/STICKYKEYS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

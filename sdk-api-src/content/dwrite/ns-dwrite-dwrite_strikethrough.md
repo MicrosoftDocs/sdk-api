@@ -12,6 +12,8 @@ ms.keywords: DWRITE_STRIKETHROUGH, DWRITE_STRIKETHROUGH structure [Direct Write]
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_STRIKETHROUGH"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

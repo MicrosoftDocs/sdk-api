@@ -12,6 +12,8 @@ ms.keywords: GetPluggableTerminalClasses, GetPluggableTerminalClasses method [TA
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalManager2.GetPluggableTerminalClasses"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

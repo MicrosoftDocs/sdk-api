@@ -12,6 +12,8 @@ ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.s
 ms.topic: function
 f1_keywords:
 - winbase/SetCommConfig
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

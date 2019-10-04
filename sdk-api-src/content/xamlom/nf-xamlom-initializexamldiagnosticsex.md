@@ -12,6 +12,8 @@ ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, 
 ms.topic: function
 f1_keywords: 
  - "xamlom/InitializeXamlDiagnosticsEx"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: Windows.UI.Xaml.h
 req.target-type: Windows

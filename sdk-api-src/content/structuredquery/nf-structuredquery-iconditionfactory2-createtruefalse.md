@@ -12,6 +12,8 @@ ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse m
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.CreateTrueFalse"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

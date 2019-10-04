@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRendererDevices.Add"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

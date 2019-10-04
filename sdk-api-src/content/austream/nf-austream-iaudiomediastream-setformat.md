@@ -12,6 +12,8 @@ ms.keywords: IAudioMediaStream interface [DirectShow],SetFormat method, IAudioMe
 ms.topic: method
 f1_keywords: 
  - "austream/IAudioMediaStream.SetFormat"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

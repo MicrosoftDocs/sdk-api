@@ -12,6 +12,8 @@ ms.keywords: GetFilter, GetFilter method [File Server Resource Manager], GetFilt
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReport.GetFilter
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

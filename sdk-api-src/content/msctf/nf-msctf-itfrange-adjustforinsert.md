@@ -12,6 +12,8 @@ ms.keywords: AdjustForInsert, AdjustForInsert method [Text Services Framework], 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.AdjustForInsert"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

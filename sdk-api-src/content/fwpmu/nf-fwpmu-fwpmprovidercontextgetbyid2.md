@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextGetById2, FwpmProviderContextGetById2 function [
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderContextGetById2"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnID, GetBreakOnID method [Direct3D 11], GetBreakOnID metho
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetBreakOnID"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

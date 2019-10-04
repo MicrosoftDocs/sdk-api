@@ -12,6 +12,8 @@ ms.keywords: IShellFolderView interface [Windows Shell],SetPoints method, IShell
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.SetPoints"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

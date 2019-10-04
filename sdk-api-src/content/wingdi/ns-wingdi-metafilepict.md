@@ -12,6 +12,8 @@ ms.keywords: "*LPMETAFILEPICT, LPMETAFILEPICT, LPMETAFILEPICT structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "wingdi/METAFILEPICT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

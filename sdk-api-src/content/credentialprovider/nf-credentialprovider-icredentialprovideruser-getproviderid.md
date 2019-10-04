@@ -12,6 +12,8 @@ ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID 
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUser.GetProviderID"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMainStory, GetMainStory method [Windows Controls], GetMainStory 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetMainStory"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direc
 ms.topic: struct
 f1_keywords: 
  - "dwrite_1/DWRITE_SCRIPT_PROPERTIES"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

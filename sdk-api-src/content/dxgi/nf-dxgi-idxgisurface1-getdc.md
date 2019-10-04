@@ -12,6 +12,8 @@ ms.keywords: GetDC, GetDC method [DXGI], GetDC method [DXGI],IDXGISurface1 inter
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISurface1.GetDC"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

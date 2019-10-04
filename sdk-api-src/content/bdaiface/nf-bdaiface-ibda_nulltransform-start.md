@@ -12,6 +12,8 @@ ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Start meth
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_NullTransform.Start"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

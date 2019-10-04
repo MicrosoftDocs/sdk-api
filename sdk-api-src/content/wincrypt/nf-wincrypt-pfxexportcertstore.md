@@ -12,6 +12,8 @@ ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStore, PFXExportCertStore functio
 ms.topic: function
 f1_keywords: 
  - "wincrypt/PFXExportCertStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME
 ms.topic: struct
 f1_keywords:
 - dbghelp/IMAGEHLP_STACK_FRAME
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

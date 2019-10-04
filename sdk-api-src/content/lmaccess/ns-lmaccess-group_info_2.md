@@ -12,6 +12,8 @@ ms.keywords: '*PGROUP_INFO_2, GROUP_INFO_2, GROUP_INFO_2 structure [Network Mana
 ms.topic: struct
 f1_keywords:
 - lmaccess/GROUP_INFO_2
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

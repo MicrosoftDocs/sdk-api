@@ -12,6 +12,8 @@ ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0
 ms.topic: function
 f1_keywords:
 - winddi/DrvBitBlt
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

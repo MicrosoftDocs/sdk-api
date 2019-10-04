@@ -12,6 +12,8 @@ ms.keywords: "*PREAD_USN_JOURNAL_DATA, *PREAD_USN_JOURNAL_DATA_V1, PREAD_USN_JOU
 ms.topic: struct
 f1_keywords: 
  - "winioctl/READ_USN_JOURNAL_DATA_V0"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

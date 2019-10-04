@@ -12,6 +12,8 @@ ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_Creat
 ms.topic: function
 f1_keywords: 
  - "userenv/CreateProfile"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

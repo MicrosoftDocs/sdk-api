@@ -12,6 +12,8 @@ ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3
 ms.topic: interface
 f1_keywords: 
  - "d3d11shader/ID3D11LibraryReflection"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

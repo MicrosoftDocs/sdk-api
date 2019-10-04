@@ -12,6 +12,8 @@ ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler functi
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoCreateFreeThreadedMarshaler"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

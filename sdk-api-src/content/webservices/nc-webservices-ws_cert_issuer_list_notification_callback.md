@@ -12,6 +12,8 @@ ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTI
 ms.topic: callback
 f1_keywords:
 - webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PNOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AN
 ms.topic: struct
 f1_keywords: 
  - "msclus/NOTIFY_FILTER_AND_TYPE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResour
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComResourceEvents"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

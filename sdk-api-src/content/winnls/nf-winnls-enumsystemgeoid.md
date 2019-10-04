@@ -12,6 +12,8 @@ ms.keywords: EnumSystemGeoID, EnumSystemGeoID function [Internationalization for
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumSystemGeoID"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

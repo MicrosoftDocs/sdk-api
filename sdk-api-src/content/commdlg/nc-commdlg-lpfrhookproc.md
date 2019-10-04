@@ -12,6 +12,8 @@ ms.keywords: FRHookProc, LPFRHOOKPROC, LPFRHOOKPROC callback, LPFRHOOKPROC callb
 ms.topic: callback
 f1_keywords: 
  - "commdlg/LPFRHOOKPROC"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

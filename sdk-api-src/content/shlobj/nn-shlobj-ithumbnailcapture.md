@@ -12,6 +12,8 @@ ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], ITh
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IThumbnailCapture"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, co
 ms.topic: macro
 f1_keywords: 
  - "winerror/SCODE_SEVERITY"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

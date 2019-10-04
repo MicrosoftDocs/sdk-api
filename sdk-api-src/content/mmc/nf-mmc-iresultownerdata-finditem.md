@@ -12,6 +12,8 @@ ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwner
 ms.topic: method
 f1_keywords:
 - mmc/IResultOwnerData.FindItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

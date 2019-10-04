@@ -12,6 +12,8 @@ ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2r
 ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_SIZE_OF_ROUTE_INFO
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

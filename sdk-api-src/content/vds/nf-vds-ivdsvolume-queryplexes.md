@@ -12,6 +12,8 @@ ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlex
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolume.QueryPlexes"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

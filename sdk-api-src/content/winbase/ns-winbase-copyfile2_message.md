@@ -12,6 +12,8 @@ ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED
 ms.topic: struct
 f1_keywords:
 - winbase/COPYFILE2_MESSAGE
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

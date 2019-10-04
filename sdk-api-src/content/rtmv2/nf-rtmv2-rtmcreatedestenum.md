@@ -12,6 +12,8 @@ ms.keywords: RTM_ENUM_ALL_DESTS, RTM_ENUM_NEXT, RTM_ENUM_OWN_DESTS, RTM_ENUM_RAN
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmCreateDestEnum
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

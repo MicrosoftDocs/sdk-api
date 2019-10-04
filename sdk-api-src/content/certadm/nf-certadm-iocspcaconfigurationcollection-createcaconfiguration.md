@@ -12,6 +12,8 @@ ms.keywords: CreateCAConfiguration, CreateCAConfiguration method [Security], Cre
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfigurationCollection.CreateCAConfiguration"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

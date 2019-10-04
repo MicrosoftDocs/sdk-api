@@ -12,6 +12,8 @@ ms.keywords: '*PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRI
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_LOG_RECORD_WRITE
+dev_langs:
+ - c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

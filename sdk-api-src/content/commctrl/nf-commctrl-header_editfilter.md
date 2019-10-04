@@ -12,6 +12,8 @@ ms.keywords: FALSE, Header_EditFilter, Header_EditFilter macro [Windows Controls
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_EditFilter"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

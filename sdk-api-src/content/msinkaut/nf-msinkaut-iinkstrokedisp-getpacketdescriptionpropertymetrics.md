@@ -12,6 +12,8 @@ ms.keywords: 21b13777-d924-45d6-bdcc-284c9b7d9627, GetPacketDescriptionPropertyM
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.GetPacketDescriptionPropertyMetrics"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

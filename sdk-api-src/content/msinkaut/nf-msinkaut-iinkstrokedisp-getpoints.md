@@ -12,6 +12,8 @@ ms.keywords: 76378521-15d1-48a0-ae9f-8362faf60c9f, GetPoints, GetPoints method [
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.GetPoints"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: POINTER_INFO, POINTER_INFO structure [Input Messages and Notificati
 ms.topic: struct
 f1_keywords: 
  - "winuser/POINTER_INFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

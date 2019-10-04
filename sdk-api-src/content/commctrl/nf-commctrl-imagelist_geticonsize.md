@@ -12,6 +12,8 @@ ms.keywords: ImageList_GetIconSize, ImageList_GetIconSize function [Windows Cont
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_GetIconSize"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

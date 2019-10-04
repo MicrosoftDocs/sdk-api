@@ -12,6 +12,8 @@ ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmar
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoUnmarshalHresult"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

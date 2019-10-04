@@ -12,6 +12,8 @@ ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsTimestamp"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

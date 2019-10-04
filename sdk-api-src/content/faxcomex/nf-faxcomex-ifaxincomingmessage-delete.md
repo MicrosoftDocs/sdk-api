@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [Fax Service], Delete method [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage.Delete"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

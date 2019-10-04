@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS, VDS_CONTROLLER_STA
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_CONTROLLER_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

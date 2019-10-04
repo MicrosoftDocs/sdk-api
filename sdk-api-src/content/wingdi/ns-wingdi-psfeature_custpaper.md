@@ -12,6 +12,8 @@ ms.keywords: "*PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER 
 ms.topic: struct
 f1_keywords: 
  - "wingdi/PSFEATURE_CUSTPAPER"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

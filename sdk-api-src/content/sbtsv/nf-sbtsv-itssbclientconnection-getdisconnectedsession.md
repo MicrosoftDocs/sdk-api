@@ -12,6 +12,8 @@ ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Deskt
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbClientConnection.GetDisconnectedSession"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumMediaTypes interface [DirectShow],Skip method, IEnumMediaTypes
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumMediaTypes.Skip"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

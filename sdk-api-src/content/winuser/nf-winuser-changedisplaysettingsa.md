@@ -12,6 +12,8 @@ ms.keywords: 0, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIM
 ms.topic: function
 f1_keywords: 
  - "winuser/ChangeDisplaySettings"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

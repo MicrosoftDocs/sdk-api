@@ -12,6 +12,8 @@ ms.keywords: CryptMsgCountersign, CryptMsgCountersign function [Security], _cryp
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgCountersign
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

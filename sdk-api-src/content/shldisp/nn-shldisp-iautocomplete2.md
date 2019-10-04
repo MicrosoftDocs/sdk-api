@@ -12,6 +12,8 @@ ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], IAutoComp
 ms.topic: interface
 f1_keywords: 
  - "shldisp/IAutoComplete2"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _m
 ms.topic: function
 f1_keywords: 
  - "winuser/UnhookWinEvent"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

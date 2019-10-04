@@ -12,6 +12,8 @@ ms.keywords: MesDecodeBufferHandleCreate, MesDecodeBufferHandleCreate function [
 ms.topic: function
 f1_keywords: 
  - "midles/MesDecodeBufferHandleCreate"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

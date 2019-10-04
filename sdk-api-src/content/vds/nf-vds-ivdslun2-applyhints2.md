@@ -12,6 +12,8 @@ ms.keywords: ApplyHints2, ApplyHints2 method, ApplyHints2 method,IVdsLun2 interf
 ms.topic: method
 f1_keywords:
 - vds/IVdsLun2.ApplyHints2
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

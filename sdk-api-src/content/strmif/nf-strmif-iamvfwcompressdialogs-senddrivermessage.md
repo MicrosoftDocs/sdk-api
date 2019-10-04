@@ -12,6 +12,8 @@ ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage meth
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVfwCompressDialogs.SendDriverMessage"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

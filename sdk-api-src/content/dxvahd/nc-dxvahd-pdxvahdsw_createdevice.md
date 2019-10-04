@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_CreateDevice
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

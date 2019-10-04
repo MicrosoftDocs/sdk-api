@@ -12,6 +12,8 @@ ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateE
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ICreateErrorInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasSetAutodialEnable, RasSetAutodialEnable function [RAS], RasSetAu
 ms.topic: function
 f1_keywords: 
  - "ras/RasSetAutodialEnable"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Display property [Security], Display property [Security],IX509Enrol
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentStatus.Display"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetTextAlign"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

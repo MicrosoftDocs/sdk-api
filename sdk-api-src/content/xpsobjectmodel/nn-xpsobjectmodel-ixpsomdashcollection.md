@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDashCollection, IXpsOMDashCollection interface [XPS Documents
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDashCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

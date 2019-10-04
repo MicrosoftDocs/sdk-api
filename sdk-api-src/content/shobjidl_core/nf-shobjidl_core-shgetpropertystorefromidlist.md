@@ -12,6 +12,8 @@ ms.keywords: SHGetPropertyStoreFromIDList, SHGetPropertyStoreFromIDList function
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHGetPropertyStoreFromIDList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

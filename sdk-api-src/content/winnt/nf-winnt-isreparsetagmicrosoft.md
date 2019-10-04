@@ -12,6 +12,8 @@ ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_
 ms.topic: macro
 f1_keywords: 
  - "winnt/IsReparseTagMicrosoft"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

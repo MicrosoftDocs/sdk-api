@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],SelInksDisplayMode property, IInkEdi
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelInksDisplayMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

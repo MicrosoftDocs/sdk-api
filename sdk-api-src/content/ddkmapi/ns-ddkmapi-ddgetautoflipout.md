@@ -12,6 +12,8 @@ ms.keywords: "*LPDDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT, DDGETAUTOFLIPOUT structure 
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDGETAUTOFLIPOUT"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

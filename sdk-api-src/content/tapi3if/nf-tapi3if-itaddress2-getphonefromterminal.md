@@ -12,6 +12,8 @@ ms.keywords: GetPhoneFromTerminal, GetPhoneFromTerminal method [TAPI 2.2], GetPh
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddress2.GetPhoneFromTerminal"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

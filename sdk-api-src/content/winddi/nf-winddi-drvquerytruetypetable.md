@@ -12,6 +12,8 @@ ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devi
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvQueryTrueTypeTable"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

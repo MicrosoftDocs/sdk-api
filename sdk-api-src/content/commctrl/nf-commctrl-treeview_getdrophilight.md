@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetDropHilight, TreeView_GetDropHilight macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetDropHilight"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

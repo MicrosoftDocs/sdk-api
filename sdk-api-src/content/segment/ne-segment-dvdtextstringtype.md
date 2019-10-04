@@ -12,6 +12,8 @@ ms.keywords: DVDTextStringType, DVDTextStringType enumeration [Microsoft TV Tech
 ms.topic: enum
 f1_keywords: 
  - "segment/DVDTextStringType"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: DShow.h
 req.target-type: Windows

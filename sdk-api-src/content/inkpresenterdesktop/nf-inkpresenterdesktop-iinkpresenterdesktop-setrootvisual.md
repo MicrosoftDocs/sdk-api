@@ -12,6 +12,8 @@ ms.keywords: IInkPresenterDesktop interface,SetRootVisual method, IInkPresenterD
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkPresenterDesktop.SetRootVisual"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

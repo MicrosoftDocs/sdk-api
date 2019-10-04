@@ -12,6 +12,8 @@ ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, li
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/AddDllDirectory"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDvbHDSimulcastLogicalChannelDescriptor, IDvbHDSimulcastLogicalChan
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

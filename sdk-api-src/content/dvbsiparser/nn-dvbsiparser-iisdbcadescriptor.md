@@ -12,6 +12,8 @@ ms.keywords: IIsdbCADescriptor, IIsdbCADescriptor interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbCADescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

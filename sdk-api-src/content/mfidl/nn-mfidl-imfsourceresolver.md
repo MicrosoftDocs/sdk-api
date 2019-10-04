@@ -12,6 +12,8 @@ ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceR
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSourceResolver"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

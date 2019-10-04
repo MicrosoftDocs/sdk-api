@@ -12,6 +12,8 @@ ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat method [Media 
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

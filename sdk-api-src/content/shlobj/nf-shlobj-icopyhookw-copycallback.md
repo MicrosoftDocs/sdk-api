@@ -11,6 +11,8 @@ ms.keywords: ICopyHookW::CopyCallback
 ms.topic: language-reference
 f1_keywords:
 - shlobj/ICopyHookW::CopyCallback
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

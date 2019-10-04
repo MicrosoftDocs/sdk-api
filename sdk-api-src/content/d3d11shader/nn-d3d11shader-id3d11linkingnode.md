@@ -12,6 +12,8 @@ ms.keywords: ID3D11LinkingNode, ID3D11LinkingNode interface [Direct3D 11], ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d11shader/ID3D11LinkingNode"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPCOLORSCHEME, COLORSCHEME, COLORSCHEME structure [Windows Contro
 ms.topic: struct
 f1_keywords: 
  - "commctrl/COLORSCHEME"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

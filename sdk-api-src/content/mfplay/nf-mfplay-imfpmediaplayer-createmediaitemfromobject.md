@@ -12,6 +12,8 @@ ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media 
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.CreateMediaItemFromObject"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

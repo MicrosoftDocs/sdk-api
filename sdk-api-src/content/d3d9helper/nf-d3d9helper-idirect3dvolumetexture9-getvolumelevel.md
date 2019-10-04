@@ -12,6 +12,8 @@ ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel, GetVolumeLeve
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVolumeTexture9.GetVolumeLevel"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

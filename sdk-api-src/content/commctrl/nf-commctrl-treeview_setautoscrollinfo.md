@@ -12,6 +12,8 @@ ms.keywords: TreeView_SetAutoScrollInfo, TreeView_SetAutoScrollInfo macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_SetAutoScrollInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

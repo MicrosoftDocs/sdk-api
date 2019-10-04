@@ -12,6 +12,8 @@ ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPILogoff"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingQueue.GetJob"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [
 ms.topic: function
 f1_keywords: 
  - "werapi/WerUnRegisterCustomMetadata"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

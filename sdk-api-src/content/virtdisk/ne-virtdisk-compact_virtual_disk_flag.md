@@ -12,6 +12,8 @@ ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [V
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/COMPACT_VIRTUAL_DISK_FLAG"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

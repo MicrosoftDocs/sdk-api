@@ -12,6 +12,8 @@ ms.keywords: ColorBalanceParams, ColorBalanceParams structure [GDI+], _gdiplus_S
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/ColorBalanceParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

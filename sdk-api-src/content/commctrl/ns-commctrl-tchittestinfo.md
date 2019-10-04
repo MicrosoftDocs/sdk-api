@@ -12,6 +12,8 @@ ms.keywords: "*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure point
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TCHITTESTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ROUTER_CONNECTION_STATE, ROUTER_CONNECTION_STATE enumeration [RAS],
 ms.topic: enum
 f1_keywords:
 - mprapi/ROUTER_CONNECTION_STATE
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

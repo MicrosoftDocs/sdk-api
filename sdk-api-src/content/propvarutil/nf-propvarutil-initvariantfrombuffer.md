@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromBuffer, InitVariantFromBuffer function [Windows Prop
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromBuffer"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

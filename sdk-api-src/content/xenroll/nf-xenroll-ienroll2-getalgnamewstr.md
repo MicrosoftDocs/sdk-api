@@ -12,6 +12,8 @@ ms.keywords: GetAlgNameWStr, GetAlgNameWStr method [Security], GetAlgNameWStr me
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.GetAlgNameWStr"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

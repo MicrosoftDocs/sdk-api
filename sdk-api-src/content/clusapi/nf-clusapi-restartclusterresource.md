@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURC
 ms.topic: function
 f1_keywords: 
  - "clusapi/RestartClusterResource"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

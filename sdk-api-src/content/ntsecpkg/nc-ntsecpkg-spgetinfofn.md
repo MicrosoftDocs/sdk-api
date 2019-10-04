@@ -12,6 +12,8 @@ ms.keywords: SpGetInfo, SpGetInfo callback function [Security], SpGetInfoFn, SpG
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetInfo
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

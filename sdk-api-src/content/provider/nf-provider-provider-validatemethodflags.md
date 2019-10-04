@@ -12,6 +12,8 @@ ms.keywords: "?ValidateMethodFlags@Provider@@MAEJJ@Z, ?ValidateMethodFlags@Provi
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.ValidateMethodFlags"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

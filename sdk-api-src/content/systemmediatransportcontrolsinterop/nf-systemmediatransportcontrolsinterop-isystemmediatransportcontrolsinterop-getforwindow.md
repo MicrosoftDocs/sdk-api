@@ -12,6 +12,8 @@ ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMedia
 ms.topic: method
 f1_keywords: 
  - "systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop.GetForWindow"
+dev_langs:
+ - c++
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows

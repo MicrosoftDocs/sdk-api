@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingArchive, IFaxIncomingArchive interface [Fax Service], I
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxIncomingArchive"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

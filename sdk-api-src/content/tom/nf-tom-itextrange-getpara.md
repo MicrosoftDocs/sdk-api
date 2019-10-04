@@ -12,6 +12,8 @@ ms.keywords: GetPara, GetPara method [Windows Controls], GetPara method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetPara"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

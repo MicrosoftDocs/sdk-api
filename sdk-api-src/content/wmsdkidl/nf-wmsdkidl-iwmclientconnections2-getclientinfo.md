@@ -12,6 +12,8 @@ ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClie
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMClientConnections2.GetClientInfo"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

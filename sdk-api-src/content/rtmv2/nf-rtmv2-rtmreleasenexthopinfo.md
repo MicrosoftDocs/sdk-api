@@ -12,6 +12,8 @@ ms.keywords: RtmReleaseNextHopInfo, RtmReleaseNextHopInfo function [RAS], _rtmv2
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseNextHopInfo
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

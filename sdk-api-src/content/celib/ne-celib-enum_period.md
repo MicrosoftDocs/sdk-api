@@ -12,6 +12,8 @@ ms.keywords: ENUM_PERIOD, ENUM_PERIOD enumeration [Security], ENUM_PERIOD_DAYS, 
 ms.topic: enum
 f1_keywords: 
  - "celib/ENUM_PERIOD"
+dev_langs:
+ - c++
 req.header: celib.h
 req.include-header: Certca.h
 req.target-type: Windows

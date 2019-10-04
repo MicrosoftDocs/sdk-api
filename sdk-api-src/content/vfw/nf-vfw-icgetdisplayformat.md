@@ -12,6 +12,8 @@ ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia
 ms.topic: function
 f1_keywords: 
  - "vfw/ICGetDisplayFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

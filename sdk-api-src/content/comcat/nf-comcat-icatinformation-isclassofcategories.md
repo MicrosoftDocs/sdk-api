@@ -12,6 +12,8 @@ ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInf
 ms.topic: method
 f1_keywords: 
  - "comcat/ICatInformation.IsClassOfCategories"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

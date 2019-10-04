@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW enumeration 
 ms.topic: enum
 f1_keywords: 
  - "qos2/QOS_NOTIFY_FLOW"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

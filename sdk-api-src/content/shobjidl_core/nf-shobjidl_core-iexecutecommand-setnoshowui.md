@@ -12,6 +12,8 @@ ms.keywords: IExecuteCommand interface [Windows Shell],SetNoShowUI method, IExec
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExecuteCommand.SetNoShowUI"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

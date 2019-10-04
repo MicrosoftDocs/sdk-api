@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaUserBatch interface [Files],Remove method, IDiskQuotaUser
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUserBatch.Remove"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

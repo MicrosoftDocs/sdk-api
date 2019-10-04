@@ -12,6 +12,8 @@ ms.keywords: CHString interface [Windows Management Instrumentation],Collate met
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Collate"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

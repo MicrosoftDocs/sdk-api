@@ -12,6 +12,8 @@ ms.keywords: TakeSnapshotVhdSet, TakeSnapshotVhdSet function [VHD], vdssys/TakeS
 ms.topic: function
 f1_keywords: 
  - "virtdisk/TakeSnapshotVhdSet"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

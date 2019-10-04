@@ -12,6 +12,8 @@ ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpc
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingVectorFree"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

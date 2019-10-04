@@ -12,6 +12,8 @@ ms.keywords: AllowSetForegroundWindow, AllowSetForegroundWindow function [Window
 ms.topic: function
 f1_keywords: 
  - "winuser/AllowSetForegroundWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

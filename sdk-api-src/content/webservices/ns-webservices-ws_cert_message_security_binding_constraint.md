@@ -12,6 +12,8 @@ ms.keywords: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_CERT_MESSAGE_SECURI
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

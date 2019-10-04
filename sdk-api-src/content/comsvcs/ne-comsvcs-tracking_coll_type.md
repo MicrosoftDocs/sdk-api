@@ -12,6 +12,8 @@ ms.keywords: TRACKING_COLL_TYPE, TRACKING_COLL_TYPE enumeration [COM+], TRKCOLL_
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/TRACKING_COLL_TYPE"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_SFUIObject, BindToHand
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellItemArray.BindToHandler"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

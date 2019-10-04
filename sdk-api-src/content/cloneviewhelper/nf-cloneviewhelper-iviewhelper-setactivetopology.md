@@ -12,6 +12,8 @@ ms.keywords: IViewHelper interface [Display Devices],SetActiveTopology method, I
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.SetActiveTopology"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

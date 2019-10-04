@@ -12,6 +12,8 @@ ms.keywords: GetHorizontalResolution, GetHorizontalResolution method [GDI+], Get
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetHorizontalResolution"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

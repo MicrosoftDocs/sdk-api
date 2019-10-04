@@ -12,6 +12,8 @@ ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutCh
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchorSink.OnLayoutChange"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

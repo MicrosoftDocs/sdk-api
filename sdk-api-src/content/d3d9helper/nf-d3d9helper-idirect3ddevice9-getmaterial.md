@@ -12,6 +12,8 @@ ms.keywords: 47d4ab4d-62cb-0012-9d9d-20e1cadba8c4, GetMaterial, GetMaterial meth
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetMaterial"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

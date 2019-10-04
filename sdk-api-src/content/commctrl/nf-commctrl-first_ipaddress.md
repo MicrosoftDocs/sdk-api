@@ -12,6 +12,8 @@ ms.keywords: FIRST_IPADDRESS, FIRST_IPADDRESS macro [Windows Controls], _win32_F
 ms.topic: macro
 f1_keywords: 
  - "commctrl/FIRST_IPADDRESS"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLoc
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocation.GetReport"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

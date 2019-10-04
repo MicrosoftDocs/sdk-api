@@ -12,6 +12,8 @@ ms.keywords: FWPS_DISCARD_METADATA0, FWPS_DISCARD_METADATA0 structure [Network D
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_DISCARD_METADATA0"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

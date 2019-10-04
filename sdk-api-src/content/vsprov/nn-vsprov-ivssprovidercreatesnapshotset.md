@@ -12,6 +12,8 @@ ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interf
 ms.topic: interface
 f1_keywords: 
  - "vsprov/IVssProviderCreateSnapshotSet"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetExcludeFromSnapshotFile, GetExcludeFromSnapshotFile method, GetE
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

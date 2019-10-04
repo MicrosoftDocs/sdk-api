@@ -12,6 +12,8 @@ ms.keywords: DXGI_COLOR_SPACE_CUSTOM, DXGI_COLOR_SPACE_RESERVED, DXGI_COLOR_SPAC
 ms.topic: enum
 f1_keywords:
 - dxgicommon/DXGI_COLOR_SPACE_TYPE
+dev_langs:
+ - c++
 req.header: dxgicommon.h
 req.include-header: DXGIType.h
 req.target-type: Windows

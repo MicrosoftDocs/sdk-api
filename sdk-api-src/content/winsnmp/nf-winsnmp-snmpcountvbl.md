@@ -12,6 +12,8 @@ ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snm
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpCountVbl"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

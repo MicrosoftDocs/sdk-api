@@ -12,6 +12,8 @@ ms.keywords: ITTAPIObjectEvent2, ITTAPIObjectEvent2 interface [TAPI 2.2], ITTAPI
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITTAPIObjectEvent2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchCrawlScopeManager2, ISearchCrawlScopeManager2 interface [sea
 ms.topic: interface
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager2"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

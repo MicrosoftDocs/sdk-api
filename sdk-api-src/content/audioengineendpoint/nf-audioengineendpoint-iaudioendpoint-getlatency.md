@@ -12,6 +12,8 @@ ms.keywords: GetLatency, GetLatency method [Remote Desktop Services], GetLatency
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpoint.GetLatency"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

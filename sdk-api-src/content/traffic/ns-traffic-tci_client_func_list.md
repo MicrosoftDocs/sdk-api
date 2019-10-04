@@ -12,6 +12,8 @@ ms.keywords: "*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LI
 ms.topic: struct
 f1_keywords: 
  - "traffic/TCI_CLIENT_FUNC_LIST"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

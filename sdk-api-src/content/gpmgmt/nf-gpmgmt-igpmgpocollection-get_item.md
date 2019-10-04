@@ -12,6 +12,8 @@ ms.keywords: GPMGPOCollection class [GPMC],Item property, IGPMGPOCollection inte
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPOCollection.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

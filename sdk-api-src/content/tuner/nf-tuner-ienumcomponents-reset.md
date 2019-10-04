@@ -12,6 +12,8 @@ ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Reset method,
 ms.topic: method
 f1_keywords: 
  - "tuner/IEnumComponents.Reset"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

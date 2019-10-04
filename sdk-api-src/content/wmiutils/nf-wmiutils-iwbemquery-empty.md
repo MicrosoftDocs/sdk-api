@@ -12,6 +12,8 @@ ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty met
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemQuery.Empty"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

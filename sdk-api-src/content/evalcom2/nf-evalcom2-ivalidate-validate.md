@@ -12,6 +12,8 @@ ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate:
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.Validate"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

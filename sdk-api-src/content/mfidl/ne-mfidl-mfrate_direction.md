@@ -12,6 +12,8 @@ ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRE
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFRATE_DIRECTION"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

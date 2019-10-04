@@ -12,6 +12,8 @@ ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Wind
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccPropServices.ComposeHmenuIdentityString"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows

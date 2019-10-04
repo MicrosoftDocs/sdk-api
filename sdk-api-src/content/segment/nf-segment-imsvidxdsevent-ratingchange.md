@@ -12,6 +12,8 @@ ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange m
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidXDSEvent.RatingChange"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

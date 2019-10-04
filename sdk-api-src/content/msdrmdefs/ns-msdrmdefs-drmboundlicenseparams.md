@@ -12,6 +12,8 @@ ms.keywords: DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS, DRMBOUNDLICENSEPARAMS, D
 ms.topic: struct
 f1_keywords:
 - msdrmdefs/DRMBOUNDLICENSEPARAMS
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

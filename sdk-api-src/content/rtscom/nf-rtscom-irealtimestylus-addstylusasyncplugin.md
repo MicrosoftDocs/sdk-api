@@ -12,6 +12,8 @@ ms.keywords: AddStylusAsyncPlugin, AddStylusAsyncPlugin method [Tablet PC], AddS
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.AddStylusAsyncPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

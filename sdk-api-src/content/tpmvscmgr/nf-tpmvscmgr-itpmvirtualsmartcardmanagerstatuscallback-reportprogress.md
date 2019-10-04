@@ -12,6 +12,8 @@ ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],Repo
 ms.topic: method
 f1_keywords: 
  - "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportProgress"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

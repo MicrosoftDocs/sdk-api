@@ -12,6 +12,8 @@ ms.keywords: "*PAM_WST_STATE, AM_WST_STATE, AM_WST_STATE , AM_WST_STATE enumerat
 ms.topic: enum
 f1_keywords: 
  - "iwstdec/AM_WST_STATE"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

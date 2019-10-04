@@ -12,6 +12,8 @@ ms.keywords: 4bc3b89a-9f5a-0632-2b67-102fd92c5053, EnumAdapterModesEx, EnumAdapt
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9Ex.EnumAdapterModesEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

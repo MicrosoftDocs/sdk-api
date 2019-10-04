@@ -12,6 +12,8 @@ ms.keywords: DWRITE_TEXTURE_ALIASED_1x1, DWRITE_TEXTURE_CLEARTYPE_3x1, DWRITE_TE
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_TEXTURE_TYPE"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

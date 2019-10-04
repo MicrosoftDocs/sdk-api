@@ -12,6 +12,8 @@ ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLA
 ms.topic: enum
 f1_keywords: 
  - "strmif/AM_STREAM_INFO_FLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

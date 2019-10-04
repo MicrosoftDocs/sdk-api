@@ -12,6 +12,8 @@ ms.keywords: INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCO
 ms.topic: callback
 f1_keywords: 
  - "wininet/INTERNET_STATUS_CALLBACK"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumType, EnumType structure, PEnumType, PEnumType structure pointe
 ms.topic: struct
 f1_keywords: 
  - "xamlom/EnumType"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

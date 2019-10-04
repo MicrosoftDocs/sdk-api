@@ -12,6 +12,8 @@ ms.keywords: GetCurrentPortName, GetCurrentPortName function, GetCurrentPortName
 ms.topic: method
 f1_keywords: 
  - "commdlg/IPrintDialogServices.GetCurrentPortName"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

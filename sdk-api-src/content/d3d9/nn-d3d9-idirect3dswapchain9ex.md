@@ -12,6 +12,8 @@ ms.keywords: 5cc4ce3b-e2da-a3fd-de25-b60e0d8d1030, IDirect3DSwapChain9Ex, IDirec
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DSwapChain9Ex"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

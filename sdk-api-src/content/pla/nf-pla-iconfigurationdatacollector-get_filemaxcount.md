@@ -12,6 +12,8 @@ ms.keywords: FileMaxCount property [PLA], FileMaxCount property [PLA],IConfigura
 ms.topic: method
 f1_keywords: 
  - "pla/IConfigurationDataCollector.FileMaxCount"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

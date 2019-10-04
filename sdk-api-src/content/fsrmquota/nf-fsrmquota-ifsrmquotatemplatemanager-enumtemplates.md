@@ -12,6 +12,8 @@ ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager],
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaTemplateManager.EnumTemplates
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows

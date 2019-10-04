@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop 
 ms.topic: struct
 f1_keywords: 
  - "tssbx/WTSSBX_SESSION_INFO"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

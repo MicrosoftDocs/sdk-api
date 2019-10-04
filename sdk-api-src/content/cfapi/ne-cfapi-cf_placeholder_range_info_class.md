@@ -12,6 +12,8 @@ ms.keywords: CF_PLACEHOLDER_RANGE_INFO_CLASS, CF_PLACEHOLDER_RANGE_INFO_CLASS en
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_PLACEHOLDER_RANGE_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

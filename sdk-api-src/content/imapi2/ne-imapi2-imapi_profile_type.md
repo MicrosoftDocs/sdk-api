@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE enume
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_PROFILE_TYPE"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

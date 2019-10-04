@@ -12,6 +12,8 @@ ms.keywords: GetMonitorFrequency, GetMonitorFrequency method [DirectDraw], GetMo
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetMonitorFrequency"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

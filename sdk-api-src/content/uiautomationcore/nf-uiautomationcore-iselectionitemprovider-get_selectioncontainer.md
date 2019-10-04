@@ -12,6 +12,8 @@ ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionC
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISelectionItemProvider.SelectionContainer"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

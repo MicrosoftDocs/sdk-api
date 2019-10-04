@@ -12,6 +12,8 @@ ms.keywords: IOEM_Delete, IOEM_Ink, IOEM_Select, InkOverlayEditingMode, InkOverl
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkOverlayEditingMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

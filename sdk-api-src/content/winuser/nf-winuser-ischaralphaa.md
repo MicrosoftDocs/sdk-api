@@ -12,6 +12,8 @@ ms.keywords: IsCharAlpha, IsCharAlpha function [Menus and Other Resources], IsCh
 ms.topic: function
 f1_keywords: 
  - "winuser/IsCharAlpha"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertDuplicateStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORNEGANIMATION, TPM_HORPOSAN
 ms.topic: function
 f1_keywords: 
  - "winuser/TrackPopupMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

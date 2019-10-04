@@ -12,6 +12,8 @@ ms.keywords: CacheEvictBegin, CacheEvictBegin method [Offline Files], CacheEvict
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents2.CacheEvictBegin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

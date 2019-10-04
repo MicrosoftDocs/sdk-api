@@ -12,6 +12,8 @@ ms.keywords: DRendezvousSessionEvents, DRendezvousSessionEvents interface [Remot
 ms.topic: interface
 f1_keywords: 
  - "rendezvoussession/DRendezvousSessionEvents"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

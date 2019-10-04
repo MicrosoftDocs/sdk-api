@@ -12,6 +12,8 @@ ms.keywords: IValueMap interface [PLA],_NewEnum property, IValueMap._NewEnum, IV
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMap._NewEnum"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

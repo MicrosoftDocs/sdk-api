@@ -12,6 +12,8 @@ ms.keywords: 95642cbf-4520-44cc-95ba-80de1fe3b447, InPlaceState, InPlaceState en
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/InPlaceState"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

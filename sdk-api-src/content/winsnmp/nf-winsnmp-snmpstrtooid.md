@@ -12,6 +12,8 @@ ms.keywords: SnmpStrToOid, SnmpStrToOid function [SNMP], _snmp_snmpstrtooid, snm
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpStrToOid"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFontSignature, GetFontSignature method [Direct Write], GetFontSi
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteGdiInterop1.GetFontSignature"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

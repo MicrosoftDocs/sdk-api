@@ -12,6 +12,8 @@ ms.keywords: Attach, Attach method [Network Policy Server], Attach method [Netwo
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoMachine.Attach"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

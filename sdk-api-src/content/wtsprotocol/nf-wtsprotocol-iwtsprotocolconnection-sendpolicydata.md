@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendPoli
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.SendPolicyData
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

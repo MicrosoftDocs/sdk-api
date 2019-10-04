@@ -12,6 +12,8 @@ ms.keywords: IDWriteAsyncResult, IDWriteAsyncResult interface [Direct Write], ID
 ms.topic: interface
 f1_keywords: 
  - "dwrite_3/IDWriteAsyncResult"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

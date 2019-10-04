@@ -12,6 +12,8 @@ ms.keywords: GetVoiceCallState, GetVoiceCallState method [Microsoft Broadband Ne
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnection.GetVoiceCallState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],O
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnVendorSpecificEvents.OnSetVendorSpecificComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

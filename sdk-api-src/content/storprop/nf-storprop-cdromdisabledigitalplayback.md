@@ -12,6 +12,8 @@ ms.keywords: CdromDisableDigitalPlayback, CdromDisableDigitalPlayback function, 
 ms.topic: function
 f1_keywords:
 - storprop/CdromDisableDigitalPlayback
+dev_langs:
+ - c++
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows

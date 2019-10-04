@@ -12,6 +12,8 @@ ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup int
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMovieSetup"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

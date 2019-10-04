@@ -12,6 +12,8 @@ ms.keywords: 94ac5a07-8cf2-ac5f-171b-1912d521416d, GetRenderTarget, GetRenderTar
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectRenderTargetViewVariable.GetRenderTarget"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

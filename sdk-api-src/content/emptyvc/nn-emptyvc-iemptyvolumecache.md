@@ -12,6 +12,8 @@ ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Envi
 ms.topic: interface
 f1_keywords: 
  - "emptyvc/IEmptyVolumeCache"
+dev_langs:
+ - c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CMSPCallBase interface [TAPI 2.2],Init method, CMSPCallBase.Init, C
 ms.topic: method
 f1_keywords: 
  - "mspcall/CMSPCallBase.Init"
+dev_langs:
+ - c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

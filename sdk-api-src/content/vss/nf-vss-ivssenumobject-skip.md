@@ -12,6 +12,8 @@ ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IV
 ms.topic: method
 f1_keywords: 
  - "vss/IVssEnumObject.Skip"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

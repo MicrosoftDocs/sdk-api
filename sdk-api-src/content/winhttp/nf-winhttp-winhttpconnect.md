@@ -12,6 +12,8 @@ ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_D
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpConnect"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

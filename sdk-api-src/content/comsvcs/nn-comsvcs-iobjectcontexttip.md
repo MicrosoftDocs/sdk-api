@@ -12,6 +12,8 @@ ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectConte
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IObjectContextTip"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetExceptionCount, GetExceptionCount method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetExceptionCount"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

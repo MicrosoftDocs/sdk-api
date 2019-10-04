@@ -12,6 +12,8 @@ ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnSubscriberInformation"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

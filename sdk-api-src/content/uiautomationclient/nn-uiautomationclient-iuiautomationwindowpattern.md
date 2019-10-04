@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [W
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

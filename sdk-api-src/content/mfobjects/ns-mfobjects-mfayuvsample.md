@@ -12,6 +12,8 @@ ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample st
 ms.topic: struct
 f1_keywords: 
  - "mfobjects/MFAYUVSample"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

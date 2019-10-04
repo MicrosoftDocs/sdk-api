@@ -12,6 +12,8 @@ ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmConnectionEnum0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

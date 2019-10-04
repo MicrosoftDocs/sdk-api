@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_VERSION_INFO, ISCSI_VERSION_INFO, ISCSI_VERSION_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

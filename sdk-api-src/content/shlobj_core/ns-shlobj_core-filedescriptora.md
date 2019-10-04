@@ -12,6 +12,8 @@ ms.keywords: "*LPFILEDESCRIPTORA, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CRE
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/FILEDESCRIPTOR"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

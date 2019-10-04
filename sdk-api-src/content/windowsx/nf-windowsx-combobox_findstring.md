@@ -12,6 +12,8 @@ ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_FindString"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ActivatePendingView, ActivatePendingView method [Windows Shell], Ac
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.ActivatePendingView"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

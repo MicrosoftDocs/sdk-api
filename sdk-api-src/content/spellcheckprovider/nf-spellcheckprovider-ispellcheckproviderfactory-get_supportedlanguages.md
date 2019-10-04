@@ -12,6 +12,8 @@ ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Wind
 ms.topic: method
 f1_keywords: 
  - "spellcheckprovider/ISpellCheckProviderFactory.SupportedLanguages"
+dev_langs:
+ - c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

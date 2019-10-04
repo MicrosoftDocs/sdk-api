@@ -12,6 +12,8 @@ ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/SENDER_TSPEC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

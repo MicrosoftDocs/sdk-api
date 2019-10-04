@@ -12,6 +12,8 @@ ms.keywords: "*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS struc
 ms.topic: struct
 f1_keywords: 
  - "timeapi/TIMECAPS"
+dev_langs:
+ - c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

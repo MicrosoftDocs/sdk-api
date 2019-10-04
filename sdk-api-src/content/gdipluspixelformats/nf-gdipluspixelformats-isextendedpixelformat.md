@@ -12,6 +12,8 @@ ms.keywords: IsExtendedPixelFormat, IsExtendedPixelFormat function [GDI+], _gdip
 ms.topic: function
 f1_keywords: 
  - "gdipluspixelformats/IsExtendedPixelFormat"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationEnumAppContainers, NetworkIsolationEnumAppContainer
 ms.topic: function
 f1_keywords:
 - networkisolation/NetworkIsolationEnumAppContainers
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

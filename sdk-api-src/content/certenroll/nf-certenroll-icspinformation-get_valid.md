@@ -12,6 +12,8 @@ ms.keywords: ICspInformation interface [Security],Valid property, ICspInformatio
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformation.Valid"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

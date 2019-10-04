@@ -12,6 +12,8 @@ ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS]
 ms.topic: function
 f1_keywords:
 - rasshost/RasSecurityDialogComplete
+dev_langs:
+ - c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

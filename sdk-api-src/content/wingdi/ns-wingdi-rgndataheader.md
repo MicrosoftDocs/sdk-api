@@ -12,6 +12,8 @@ ms.keywords: '*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer 
 ms.topic: struct
 f1_keywords:
 - wingdi/RGNDATAHEADER
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

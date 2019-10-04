@@ -12,6 +12,8 @@ ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+], BrightnessCont
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/BrightnessContrast"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

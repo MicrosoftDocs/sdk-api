@@ -12,6 +12,8 @@ ms.keywords: GetBufferPointer, GetBufferPointer method [Direct3D 11], GetBufferP
 ms.topic: method
 f1_keywords: 
  - "d3dcommon/ID3D10Blob.GetBufferPointer"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

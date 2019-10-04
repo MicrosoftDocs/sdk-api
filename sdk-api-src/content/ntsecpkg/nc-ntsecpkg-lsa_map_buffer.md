@@ -12,6 +12,8 @@ ms.keywords: LSA_MAP_BUFFER, LSA_MAP_BUFFER callback, MapBuffer, MapBuffer callb
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/MapBuffer
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

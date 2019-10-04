@@ -12,6 +12,8 @@ ms.keywords: ExcludeItem, ExcludeItem method [Windows Sync], ExcludeItem method 
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.ExcludeItem"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

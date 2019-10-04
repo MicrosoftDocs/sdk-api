@@ -12,6 +12,8 @@ ms.keywords: 99dbbe48-8199-b3f5-ac04-db4aedb35978, GetParentConstantBuffer, GetP
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.GetParentConstantBuffer"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

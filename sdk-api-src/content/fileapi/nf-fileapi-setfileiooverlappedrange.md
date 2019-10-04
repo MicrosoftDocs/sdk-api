@@ -12,6 +12,8 @@ ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files]
 ms.topic: function
 f1_keywords: 
  - "fileapi/SetFileIoOverlappedRange"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

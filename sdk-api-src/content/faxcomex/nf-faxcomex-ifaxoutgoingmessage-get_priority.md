@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage interface [Fax Service],Priority property, IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.Priority"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

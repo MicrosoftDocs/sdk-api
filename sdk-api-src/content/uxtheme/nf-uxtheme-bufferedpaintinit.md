@@ -12,6 +12,8 @@ ms.keywords: BufferedPaintInit, BufferedPaintInit function [Windows Controls], _
 ms.topic: function
 f1_keywords: 
  - "uxtheme/BufferedPaintInit"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

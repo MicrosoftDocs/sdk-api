@@ -12,6 +12,8 @@ ms.keywords: 7dd8fa24-191f-465d-abd2-9a489df0324a, GetStrokesFromTextRange, GetS
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.GetStrokesFromTextRange"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

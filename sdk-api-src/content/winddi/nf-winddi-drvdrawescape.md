@@ -12,6 +12,8 @@ ms.keywords: DrvDrawEscape, DrvDrawEscape function [Display Devices], ddifncs_d3
 ms.topic: function
 f1_keywords:
 - winddi/DrvDrawEscape
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_INPUT_FORMAT_CAPS, DXVAHD_INPUT_FORMAT_CAPS enumeration [Med
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_INPUT_FORMAT_CAPS
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

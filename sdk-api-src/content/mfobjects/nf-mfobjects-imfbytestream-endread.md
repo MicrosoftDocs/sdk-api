@@ -12,6 +12,8 @@ ms.keywords: EndRead, EndRead method [Media Foundation], EndRead method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.EndRead"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

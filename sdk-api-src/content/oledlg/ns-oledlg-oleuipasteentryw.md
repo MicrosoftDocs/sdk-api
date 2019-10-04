@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIPASTEENTRYW, *POLEUIPASTEENTRYW, LPOLEUIPASTEENTRY, LPOLEU
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIPASTEENTRY"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

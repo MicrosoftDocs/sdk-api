@@ -12,6 +12,8 @@ ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldea
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqCancelDeadline"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

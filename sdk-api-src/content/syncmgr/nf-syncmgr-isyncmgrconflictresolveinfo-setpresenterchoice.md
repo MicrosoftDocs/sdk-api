@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterC
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

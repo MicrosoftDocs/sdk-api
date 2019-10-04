@@ -12,6 +12,8 @@ ms.keywords: WTSLogoffSession, WTSLogoffSession function [Remote Desktop Service
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSLogoffSession"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

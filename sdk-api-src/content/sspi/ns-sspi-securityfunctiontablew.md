@@ -12,6 +12,8 @@ ms.keywords: "*PSecurityFunctionTableW, PSecurityFunctionTable, PSecurityFunctio
 ms.topic: struct
 f1_keywords: 
  - "sspi/SecurityFunctionTable"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

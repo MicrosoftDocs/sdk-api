@@ -12,6 +12,8 @@ ms.keywords: AccessCheckByTypeResultList, AccessCheckByTypeResultList function [
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AccessCheckByTypeResultList
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

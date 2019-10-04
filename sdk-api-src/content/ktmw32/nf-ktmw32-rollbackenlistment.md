@@ -12,6 +12,8 @@ ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbac
 ms.topic: function
 f1_keywords: 
  - "ktmw32/RollbackEnlistment"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

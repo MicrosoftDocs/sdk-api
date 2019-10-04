@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_EVENTS, OFFLINEFILES_EVENTS enumeration [Offline Files
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_EVENTS"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

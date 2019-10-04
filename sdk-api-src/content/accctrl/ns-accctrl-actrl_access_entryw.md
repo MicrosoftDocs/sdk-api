@@ -12,6 +12,8 @@ ms.keywords: "*PACTRL_ACCESS_ENTRYW, ACTRL_ACCESS_ALLOWED, ACTRL_ACCESS_DENIED, 
 ms.topic: struct
 f1_keywords: 
  - "accctrl/ACTRL_ACCESS_ENTRY"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

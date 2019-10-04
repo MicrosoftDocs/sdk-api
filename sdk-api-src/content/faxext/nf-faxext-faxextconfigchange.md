@@ -12,6 +12,8 @@ ms.keywords: FaxExtConfigChange, FaxExtConfigChange function [Fax Service], _mfa
 ms.topic: function
 f1_keywords: 
  - "faxext/FaxExtConfigChange"
+dev_langs:
+ - c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.keywords: _DNS_SERVICE_RESOLVE_REQUEST, DNS_SERVICE_RESOLVE_REQUEST
 ms.topic: language-reference
 f1_keywords: 
  - "windns/_DNS_SERVICE_RESOLVE_REQUEST"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure

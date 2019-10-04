@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineNegotiateExtVersion, TSPI_lineNegotiateExtVersion function
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineNegotiateExtVersion"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

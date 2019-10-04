@@ -12,6 +12,8 @@ ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Win
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmDisableIME"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

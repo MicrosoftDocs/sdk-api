@@ -12,6 +12,8 @@ ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation 
 ms.topic: function
 f1_keywords: 
  - "atacct/GetNetScheduleAccountInformation"
+dev_langs:
+ - c++
 req.header: atacct.h
 req.include-header: 
 req.target-type: Windows

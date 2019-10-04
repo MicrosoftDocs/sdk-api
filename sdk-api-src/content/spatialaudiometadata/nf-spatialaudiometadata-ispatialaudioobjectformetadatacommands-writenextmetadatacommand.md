@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectForMetadataCommands interface [Core Audio],Write
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows

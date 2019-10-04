@@ -12,6 +12,8 @@ ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32
 ms.topic: macro
 f1_keywords: 
  - "winuser/CopyCursor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

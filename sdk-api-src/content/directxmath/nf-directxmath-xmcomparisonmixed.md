@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMComparisonMixed, XMComparisonMixed, XMComparisonMixe
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMComparisonMixed"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 25079651-4fcd-4f13-b73f-7d5ffefa871e, GetStrokesFromStrokeRanges, G
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.GetStrokesFromStrokeRanges"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

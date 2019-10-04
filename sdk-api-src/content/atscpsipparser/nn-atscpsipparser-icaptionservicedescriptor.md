@@ -12,6 +12,8 @@ ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Mic
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATO
 ms.topic: function
 f1_keywords: 
  - "userenv/GetProfileType"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

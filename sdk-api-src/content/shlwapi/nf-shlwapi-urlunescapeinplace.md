@@ -12,6 +12,8 @@ ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlac
 ms.topic: macro
 f1_keywords: 
  - "shlwapi/UrlUnescapeInPlace"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

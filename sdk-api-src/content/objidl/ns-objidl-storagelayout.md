@@ -12,6 +12,8 @@ ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_s
 ms.topic: struct
 f1_keywords: 
  - "objidl/StorageLayout"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

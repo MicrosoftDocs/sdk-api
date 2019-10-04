@@ -12,6 +12,8 @@ ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDir
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.GetOutputDirectory
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

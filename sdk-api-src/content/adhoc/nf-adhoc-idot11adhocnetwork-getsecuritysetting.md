@@ -12,6 +12,8 @@ ms.keywords: GetSecuritySetting, GetSecuritySetting method [NativeWIFI], GetSecu
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.GetSecuritySetting"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

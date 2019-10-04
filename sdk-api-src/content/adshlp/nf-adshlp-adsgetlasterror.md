@@ -12,6 +12,8 @@ ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterr
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsGetLastError"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSlowAppInfo, GetSlowAppInfo method [Windows Shell], GetSlowAppIn
 ms.topic: method
 f1_keywords:
 - shappmgr/IShellApp.GetSlowAppInfo
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

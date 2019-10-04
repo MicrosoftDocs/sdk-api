@@ -12,6 +12,8 @@ ms.keywords: ExportFileScreenTemplates, ExportFileScreenTemplates method [File S
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmExportImport.ExportFileScreenTemplates"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

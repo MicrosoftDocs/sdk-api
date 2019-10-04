@@ -12,6 +12,8 @@ ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTE
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTP
 ms.topic: struct
 f1_keywords: 
  - "winioctl/REPAIR_COPIES_OUTPUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

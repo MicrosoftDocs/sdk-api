@@ -12,6 +12,8 @@ ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindow
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleInPlaceSiteWindowless.GetDC"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

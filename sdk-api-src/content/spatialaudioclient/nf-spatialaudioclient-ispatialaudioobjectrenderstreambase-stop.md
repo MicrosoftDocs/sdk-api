@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop met
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Stop"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

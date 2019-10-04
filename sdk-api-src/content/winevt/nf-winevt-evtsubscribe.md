@@ -12,6 +12,8 @@ ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, w
 ms.topic: function
 f1_keywords:
 - winevt/EvtSubscribe
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

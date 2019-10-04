@@ -12,6 +12,8 @@ ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], IWMPNetw
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPNetwork"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

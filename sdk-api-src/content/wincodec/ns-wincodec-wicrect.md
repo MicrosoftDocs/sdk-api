@@ -12,6 +12,8 @@ ms.keywords: WICRect, WICRect structure [Windows Imaging Component], _wic_codec_
 ms.topic: struct
 f1_keywords: 
  - "wincodec/WICRect"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

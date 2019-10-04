@@ -12,6 +12,8 @@ ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindo
 ms.topic: interface
 f1_keywords: 
  - "exdisp/IShellWindows"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_CloseMonthCal"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

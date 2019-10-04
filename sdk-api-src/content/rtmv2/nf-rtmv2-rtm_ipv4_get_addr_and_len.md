@@ -12,6 +12,8 @@ ms.keywords: RTM_IPV4_GET_ADDR_AND_LEN, RTM_IPV4_GET_ADDR_AND_LEN macro [RAS], _
 ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_IPV4_GET_ADDR_AND_LEN
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

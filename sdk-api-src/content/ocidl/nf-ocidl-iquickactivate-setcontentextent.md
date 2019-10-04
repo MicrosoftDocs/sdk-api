@@ -12,6 +12,8 @@ ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActiv
 ms.topic: method
 f1_keywords: 
  - "ocidl/IQuickActivate.SetContentExtent"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

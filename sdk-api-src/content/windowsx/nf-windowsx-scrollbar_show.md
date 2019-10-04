@@ -12,6 +12,8 @@ ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_Scr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ScrollBar_Show"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

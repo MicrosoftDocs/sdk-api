@@ -12,6 +12,8 @@ ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback interface [M
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncCallback.Invoke"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

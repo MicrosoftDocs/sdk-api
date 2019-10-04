@@ -12,6 +12,8 @@ ms.keywords: '*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DAT
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

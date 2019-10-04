@@ -12,6 +12,8 @@ ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStre
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IStream_Write"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRawPointerDeviceData, GetRawPointerDeviceData function, input_po
 ms.topic: function
 f1_keywords: 
  - "winuser/GetRawPointerDeviceData"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

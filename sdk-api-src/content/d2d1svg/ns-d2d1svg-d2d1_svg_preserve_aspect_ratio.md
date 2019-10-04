@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_PRESERVE_ASPECT_RATIO, D2D1_SVG_PRESERVE_ASPECT_RATIO stru
 ms.topic: struct
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

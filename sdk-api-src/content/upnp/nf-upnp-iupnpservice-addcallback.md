@@ -12,6 +12,8 @@ ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UP
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPService.AddCallback"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.Branding"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Skip method, IEn
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumChangeUnitExceptions.Skip"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

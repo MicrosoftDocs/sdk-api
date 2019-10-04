@@ -12,6 +12,8 @@ ms.keywords: PropertyItem, PropertyItem class [GDI+], PropertyItem class [GDI+],
 ms.topic: class
 f1_keywords: 
  - "gdiplusimaging/PropertyItem"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

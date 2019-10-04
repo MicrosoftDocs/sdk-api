@@ -12,6 +12,8 @@ ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, ncd.w
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_REFERENCE_PROPERTIES
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

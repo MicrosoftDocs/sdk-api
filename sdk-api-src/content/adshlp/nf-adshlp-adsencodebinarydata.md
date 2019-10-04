@@ -12,6 +12,8 @@ ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsen
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsEncodeBinaryData"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

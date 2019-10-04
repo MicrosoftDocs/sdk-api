@@ -12,6 +12,8 @@ ms.keywords: RtlIpv6StringToAddress, RtlIpv6StringToAddress function [IP Helper]
 ms.topic: function
 f1_keywords: 
  - "ip2string/RtlIpv6StringToAddress"
+dev_langs:
+ - c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows

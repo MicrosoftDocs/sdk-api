@@ -12,6 +12,8 @@ ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method 
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.GetHoverIcon"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

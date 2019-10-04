@@ -12,6 +12,8 @@ ms.keywords: '*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIE
 ms.topic: struct
 f1_keywords:
 - tdh/PROVIDER_FIELD_INFOARRAY
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

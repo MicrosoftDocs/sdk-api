@@ -12,6 +12,8 @@ ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], Begin
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation.BeginWrite"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

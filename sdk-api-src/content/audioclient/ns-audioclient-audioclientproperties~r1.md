@@ -6,6 +6,8 @@ ms.keywords: AudioClientProperties
 ms.topic: language-reference
 f1_keywords: 
  - "audioclient/AudioClientProperties"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

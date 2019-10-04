@@ -12,6 +12,8 @@ ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog]
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_QUERY_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

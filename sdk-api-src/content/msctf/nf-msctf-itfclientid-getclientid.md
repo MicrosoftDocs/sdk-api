@@ -12,6 +12,8 @@ ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClien
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfClientId.GetClientId"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

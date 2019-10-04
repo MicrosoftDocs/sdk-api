@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2 structure po
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_DRIVE_PROP2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

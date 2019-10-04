@@ -12,6 +12,8 @@ ms.keywords: EncoderParameterValueType, EncoderParameterValueType enumeration [G
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/EncoderParameterValueType"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

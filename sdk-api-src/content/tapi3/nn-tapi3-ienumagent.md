@@ -12,6 +12,8 @@ ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3/IEnumAgent"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

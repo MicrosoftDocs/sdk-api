@@ -12,6 +12,8 @@ ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTION
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetPacketEncoding
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

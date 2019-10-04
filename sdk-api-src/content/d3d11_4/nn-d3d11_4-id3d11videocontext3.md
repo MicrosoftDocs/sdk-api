@@ -5,6 +5,10 @@ description: Provides the video functionality of a Microsoft Direct3D 11 device
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3
 ms.topic: language-reference
+f1_keywords:
+ - ID3D11VideoContext3
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

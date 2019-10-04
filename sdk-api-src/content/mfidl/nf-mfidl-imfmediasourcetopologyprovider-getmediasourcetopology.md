@@ -12,6 +12,8 @@ ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMe
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSourceTopologyProvider.GetMediaSourceTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

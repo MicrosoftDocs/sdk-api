@@ -12,6 +12,8 @@ ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, 
 ms.topic: method
 f1_keywords:
 - d3dcommon/ID3DInclude.Open
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSegmentLastSectionNumber, GetSegmentLastSectionNumber method [Mi
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT.GetSegmentLastSectionNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

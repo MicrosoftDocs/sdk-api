@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Start me
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Start"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

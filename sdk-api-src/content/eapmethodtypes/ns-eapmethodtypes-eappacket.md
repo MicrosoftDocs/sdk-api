@@ -12,6 +12,8 @@ ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmet
 ms.topic: struct
 f1_keywords: 
  - "eapmethodtypes/EapPacket"
+dev_langs:
+ - c++
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows

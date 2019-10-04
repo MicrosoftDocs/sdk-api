@@ -12,6 +12,8 @@ ms.keywords: WS_CUSTOM_TYPE_DESCRIPTION, WS_CUSTOM_TYPE_DESCRIPTION structure [W
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_CUSTOM_TYPE_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

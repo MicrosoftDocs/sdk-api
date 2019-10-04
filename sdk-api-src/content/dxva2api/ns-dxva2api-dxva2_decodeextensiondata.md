@@ -12,6 +12,8 @@ ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DX
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_DecodeExtensionData
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

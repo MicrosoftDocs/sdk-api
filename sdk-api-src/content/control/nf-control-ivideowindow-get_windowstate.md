@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],get_WindowState method, IVideoW
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.get_WindowState"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

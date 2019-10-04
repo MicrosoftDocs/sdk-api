@@ -12,6 +12,8 @@ ms.keywords: PSS_DUPLICATE_CLOSE_SOURCE, PSS_DUPLICATE_FLAGS, PSS_DUPLICATE_FLAG
 ms.topic: enum
 f1_keywords: 
  - "processsnapshot/PSS_DUPLICATE_FLAGS"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

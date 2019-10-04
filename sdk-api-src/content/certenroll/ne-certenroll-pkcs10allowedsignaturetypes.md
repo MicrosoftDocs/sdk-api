@@ -12,6 +12,8 @@ ms.keywords: AllowedKeySignature, AllowedNullSignature, Pkcs10AllowedSignatureTy
 ms.topic: enum
 f1_keywords: 
  - "certenroll/Pkcs10AllowedSignatureTypes"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

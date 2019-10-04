@@ -12,6 +12,8 @@ ms.keywords: ICDrawFlush, ICDrawFlush macro [Windows Multimedia], _win32_ICDrawF
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDrawFlush"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

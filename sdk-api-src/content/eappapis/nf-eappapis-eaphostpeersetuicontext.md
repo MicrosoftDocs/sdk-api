@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerSetUIContext, EapHostPeerSetUIContext function [EAPHost]
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerSetUIContext
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

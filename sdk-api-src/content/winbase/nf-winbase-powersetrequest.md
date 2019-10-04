@@ -12,6 +12,8 @@ ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerReq
 ms.topic: function
 f1_keywords:
 - winbase/PowerSetRequest
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

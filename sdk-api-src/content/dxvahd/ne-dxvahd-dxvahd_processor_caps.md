@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_PROCESSOR_CAPS, DXVAHD_PROCESSOR_CAPS enumeration [Media Fou
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_PROCESSOR_CAPS
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

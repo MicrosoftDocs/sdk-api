@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscover
 ms.topic: interface
 f1_keywords: 
  - "wsddisco/IWSDiscoveryPublisher"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

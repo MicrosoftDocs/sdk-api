@@ -12,6 +12,8 @@ ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Medi
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetResourceCharacteristics
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

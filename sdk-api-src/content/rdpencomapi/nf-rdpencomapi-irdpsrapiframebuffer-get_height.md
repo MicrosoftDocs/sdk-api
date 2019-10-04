@@ -12,6 +12,8 @@ ms.keywords: Height property [RDP], Height property [RDP],IRDPSRAPIFrameBuffer i
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIFrameBuffer.Height"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

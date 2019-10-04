@@ -12,6 +12,8 @@ ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [Dir
 ms.topic: interface
 f1_keywords: 
  - "videoacc/IAMVideoAcceleratorNotify"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

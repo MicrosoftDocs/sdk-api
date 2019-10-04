@@ -12,6 +12,8 @@ ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [
 ms.topic: function
 f1_keywords: 
  - "lmdfs/NetDfsAdd"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

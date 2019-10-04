@@ -12,6 +12,8 @@ ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [W
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemEventProviderSecurity"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

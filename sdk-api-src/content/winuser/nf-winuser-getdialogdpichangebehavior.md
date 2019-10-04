@@ -12,6 +12,8 @@ ms.keywords: GetDialogDpiChangeBehavior, GetDialogDpiChangeBehavior function [Hi
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDialogDpiChangeBehavior"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

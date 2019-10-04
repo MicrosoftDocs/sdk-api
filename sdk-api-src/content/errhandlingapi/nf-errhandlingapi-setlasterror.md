@@ -12,6 +12,8 @@ ms.keywords: SetLastError, SetLastError function, _win32_setlasterror, base.setl
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/SetLastError"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

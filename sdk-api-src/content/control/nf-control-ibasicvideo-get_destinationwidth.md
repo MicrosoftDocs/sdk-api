@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],get_DestinationWidth method, IBa
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.get_DestinationWidth"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

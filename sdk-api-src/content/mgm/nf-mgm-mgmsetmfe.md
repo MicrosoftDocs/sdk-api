@@ -12,6 +12,8 @@ ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe,
 ms.topic: function
 f1_keywords:
 - mgm/MgmSetMfe
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

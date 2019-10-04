@@ -12,6 +12,8 @@ ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString functio
 ms.topic: function
 f1_keywords: 
  - "winreg/RegLoadMUIString"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

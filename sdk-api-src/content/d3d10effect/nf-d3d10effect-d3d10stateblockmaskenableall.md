@@ -12,6 +12,8 @@ ms.keywords: 616dd4e2-841d-9b31-8251-b729947c2c0f, D3D10StateBlockMaskEnableAll,
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10StateBlockMaskEnableAll
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

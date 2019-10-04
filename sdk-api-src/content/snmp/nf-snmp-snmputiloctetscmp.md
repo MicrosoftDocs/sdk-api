@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilOctetsCmp, SnmpUtilOctetsCmp function [SNMP], _snmp_snmputi
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilOctetsCmp"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

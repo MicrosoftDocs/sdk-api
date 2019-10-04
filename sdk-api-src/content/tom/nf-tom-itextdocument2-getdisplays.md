@@ -12,6 +12,8 @@ ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetDisplays"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

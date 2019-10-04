@@ -12,6 +12,8 @@ ms.keywords: RegisterPointerInputTarget, RegisterPointerInputTarget function [Wi
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterPointerInputTarget"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

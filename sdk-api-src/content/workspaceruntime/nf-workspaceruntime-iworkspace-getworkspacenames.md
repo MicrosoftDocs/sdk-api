@@ -12,6 +12,8 @@ ms.keywords: GetWorkspaceNames, GetWorkspaceNames method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspace.GetWorkspaceNames"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

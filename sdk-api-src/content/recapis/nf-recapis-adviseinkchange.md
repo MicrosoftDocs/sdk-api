@@ -12,6 +12,8 @@ ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkCha
 ms.topic: function
 f1_keywords: 
  - "recapis/AdviseInkChange"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

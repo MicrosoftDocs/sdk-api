@@ -12,6 +12,8 @@ ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator 
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMemAllocator"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

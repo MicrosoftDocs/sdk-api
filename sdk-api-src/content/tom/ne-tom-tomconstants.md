@@ -12,6 +12,8 @@ ms.keywords: controls.tomconstants, tom/tomAboriginal, tom/tomAdjustCRLF, tom/to
 ms.topic: enum
 f1_keywords: 
  - "tom/tomConstants"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

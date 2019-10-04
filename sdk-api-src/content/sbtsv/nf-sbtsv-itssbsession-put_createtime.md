@@ -12,6 +12,8 @@ ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property 
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbSession.CreateTime"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

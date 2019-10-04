@@ -12,6 +12,8 @@ ms.keywords: GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory func
 ms.topic: function
 f1_keywords: 
  - "userenv/GetDefaultUserProfileDirectory"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1Mesh interface [Direct2D],Open method, ID2D1Mesh.Open, ID2D1Me
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1Mesh.Open"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

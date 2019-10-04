@@ -12,6 +12,8 @@ ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_PO
 ms.topic: function
 f1_keywords: 
  - "winuser/ExitWindowsEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direc
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFont.GetWeight"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

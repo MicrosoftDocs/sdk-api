@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_ENHKEY_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, CERT_ENHKEY_U
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_USAGE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

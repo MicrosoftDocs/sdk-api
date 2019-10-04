@@ -12,6 +12,8 @@ ms.keywords: WCN_PASSWORD_TYPE, WCN_PASSWORD_TYPE enumeration [Windows Connect N
 ms.topic: enum
 f1_keywords: 
  - "wcndevice/WCN_PASSWORD_TYPE"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

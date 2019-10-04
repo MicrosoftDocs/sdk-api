@@ -12,6 +12,8 @@ ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsme
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/AddNtmsMediaType"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color Sys
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/GamutShellTriangle"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

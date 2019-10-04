@@ -12,6 +12,8 @@ ms.keywords: IHeaderCtrl2, IHeaderCtrl2 interface [MMC], IHeaderCtrl2 interface 
 ms.topic: interface
 f1_keywords: 
  - "mmc/IHeaderCtrl2"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

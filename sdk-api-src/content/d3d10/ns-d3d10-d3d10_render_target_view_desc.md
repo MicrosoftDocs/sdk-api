@@ -12,6 +12,8 @@ ms.keywords: 5e255a6a-0061-9fe8-11d9-e7f4391dd52d, D3D10_RENDER_TARGET_VIEW_DESC
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_RENDER_TARGET_VIEW_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function,
 ms.topic: function
 f1_keywords: 
  - "msi/MsiUseFeatureEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

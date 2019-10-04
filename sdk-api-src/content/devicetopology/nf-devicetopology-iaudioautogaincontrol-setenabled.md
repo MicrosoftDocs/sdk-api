@@ -12,6 +12,8 @@ ms.keywords: IAudioAutoGainControl interface [Core Audio],SetEnabled method, IAu
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioAutoGainControl.SetEnabled"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

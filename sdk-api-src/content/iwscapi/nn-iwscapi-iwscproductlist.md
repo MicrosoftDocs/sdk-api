@@ -12,6 +12,8 @@ ms.keywords: IWSCProductList, IWSCProductList interface [Windows API], IWSCProdu
 ms.topic: interface
 f1_keywords: 
  - "iwscapi/IWSCProductList"
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

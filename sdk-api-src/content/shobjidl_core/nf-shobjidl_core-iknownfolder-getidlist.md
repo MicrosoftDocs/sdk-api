@@ -12,6 +12,8 @@ ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Wind
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.GetIDList
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

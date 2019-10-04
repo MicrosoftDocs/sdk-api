@@ -12,6 +12,8 @@ ms.keywords: SetupWriteTextLogError, SetupWriteTextLogError function [Device and
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupWriteTextLogError"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

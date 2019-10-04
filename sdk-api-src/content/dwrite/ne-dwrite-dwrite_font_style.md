@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_STYLE, DWRITE_FONT_STYLE enumeration [Direct Write], DW
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_FONT_STYLE"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

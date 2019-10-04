@@ -12,6 +12,8 @@ ms.keywords: FWPS_FILTER_CONDITION0, FWPS_FILTER_CONDITION0 structure [Network D
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_FILTER_CONDITION0"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

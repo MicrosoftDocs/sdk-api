@@ -12,6 +12,8 @@ ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri in
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

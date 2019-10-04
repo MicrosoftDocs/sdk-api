@@ -12,6 +12,8 @@ ms.keywords: WS_ANY_ATTRIBUTES_FIELD_MAPPING, WS_ANY_CONTENT_FIELD_MAPPING, WS_A
 ms.topic: enum
 f1_keywords:
 - webservices/WS_FIELD_MAPPING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

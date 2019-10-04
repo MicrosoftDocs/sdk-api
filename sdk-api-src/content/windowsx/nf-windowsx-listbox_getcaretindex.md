@@ -12,6 +12,8 @@ ms.keywords: ListBox_GetCaretIndex, ListBox_GetCaretIndex macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_GetCaretIndex"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

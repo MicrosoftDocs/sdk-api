@@ -12,6 +12,8 @@ ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_Choose
 ms.topic: function
 f1_keywords: 
  - "wingdi/ChoosePixelFormat"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

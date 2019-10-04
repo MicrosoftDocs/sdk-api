@@ -12,6 +12,8 @@ ms.keywords: WBEMPATH_COMPRESSED, WBEMPATH_GET_NAMESPACE_ONLY, WBEMPATH_GET_ORIG
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/tag_WBEM_GET_TEXT_FLAGS"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

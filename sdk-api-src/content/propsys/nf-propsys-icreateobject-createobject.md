@@ -12,6 +12,8 @@ ms.keywords: CreateObject, CreateObject method [Windows Shell], CreateObject met
 ms.topic: method
 f1_keywords: 
  - "propsys/ICreateObject.CreateObject"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

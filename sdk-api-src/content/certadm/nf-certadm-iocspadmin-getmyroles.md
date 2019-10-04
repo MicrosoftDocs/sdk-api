@@ -12,6 +12,8 @@ ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Securi
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPAdmin.GetMyRoles"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

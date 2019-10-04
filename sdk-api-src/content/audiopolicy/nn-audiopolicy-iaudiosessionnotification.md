@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Cor
 ms.topic: interface
 f1_keywords: 
  - "audiopolicy/IAudioSessionNotification"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

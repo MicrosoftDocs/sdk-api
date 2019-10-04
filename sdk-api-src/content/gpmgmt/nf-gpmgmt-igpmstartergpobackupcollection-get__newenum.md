@@ -12,6 +12,8 @@ ms.keywords: IGPMStarterGPOBackupCollection.get__NewEnum, IGPMStarterGPOBackupCo
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMstarterGPOBackupCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

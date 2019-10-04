@@ -12,6 +12,8 @@ ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDi
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.SetFlags
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

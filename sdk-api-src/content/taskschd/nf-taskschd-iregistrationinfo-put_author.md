@@ -12,6 +12,8 @@ ms.keywords: Author property [Task Scheduler], Author property [Task Scheduler],
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegistrationInfo.Author"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

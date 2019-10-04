@@ -12,6 +12,8 @@ ms.keywords: IVdsAdvancedDisk2, IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 i
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsAdvancedDisk2"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MatrixOrder, MatrixOrder enumeration [GDI+], MatrixOrderAppend, Mat
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/MatrixOrder"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

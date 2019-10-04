@@ -12,6 +12,8 @@ ms.keywords: GetClusterResourceDependencyExpression, GetClusterResourceDependenc
 ms.topic: function
 f1_keywords: 
  - "clusapi/GetClusterResourceDependencyExpression"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

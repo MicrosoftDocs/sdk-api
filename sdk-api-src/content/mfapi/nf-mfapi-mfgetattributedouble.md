@@ -12,6 +12,8 @@ ms.keywords: 61a9e327-da29-45fd-8a99-e341561826af, MFGetAttributeDouble, MFGetAt
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributeDouble"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDS_DOMAIN_TRUSTSA, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OU
 ms.topic: struct
 f1_keywords:
 - dsgetdc/DS_DOMAIN_TRUSTS
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

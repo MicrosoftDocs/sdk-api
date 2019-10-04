@@ -12,6 +12,8 @@ ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _ras_ras_stats,
 ms.topic: struct
 f1_keywords: 
  - "ras/RAS_STATS"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

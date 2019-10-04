@@ -12,6 +12,8 @@ ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interf
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.SetVideoPosition"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDR
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICDRAW"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

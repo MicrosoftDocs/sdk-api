@@ -12,6 +12,8 @@ ms.keywords: FH_DRIVE_FIXED, FH_DRIVE_REMOTE, FH_DRIVE_REMOVABLE, FH_DRIVE_UNKNO
 ms.topic: enum
 f1_keywords: 
  - "fhcfg/FH_TARGET_DRIVE_TYPES"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

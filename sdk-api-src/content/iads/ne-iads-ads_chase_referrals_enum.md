@@ -12,6 +12,8 @@ ms.keywords: ADS_CHASE_REFERRALS_ALWAYS, ADS_CHASE_REFERRALS_ENUM, ADS_CHASE_REF
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_CHASE_REFERRALS_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interfa
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

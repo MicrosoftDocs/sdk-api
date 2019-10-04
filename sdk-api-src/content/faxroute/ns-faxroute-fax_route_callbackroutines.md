@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUT
 ms.topic: struct
 f1_keywords: 
  - "faxroute/FAX_ROUTE_CALLBACKROUTINES"
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PrivateKeyExportable, PrivateKeyRequireAlternateSignatureAlgorithm,
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509CertificateTemplatePrivateKeyFlag"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

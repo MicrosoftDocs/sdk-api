@@ -12,6 +12,8 @@ ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateAVIMediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

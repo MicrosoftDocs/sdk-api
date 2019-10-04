@@ -12,6 +12,8 @@ ms.keywords: GetStringId, GetStringId method [Picture Acquisition], GetStringId 
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetStringId"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

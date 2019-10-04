@@ -12,6 +12,8 @@ ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LSA_AP_INITIALIZE_PACKAGE callback, LsaA
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaApInitializePackage
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRange interface [Windows Controls],Select method, ITextRange.S
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.Select"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

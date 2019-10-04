@@ -12,6 +12,8 @@ ms.keywords: DVD_ERROR, DVD_ERROR , DVD_ERROR enumeration [DirectShow], DVD_ERRO
 ms.topic: enum
 f1_keywords: 
  - "dvdevcod/DVD_ERROR"
+dev_langs:
+ - c++
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

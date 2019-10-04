@@ -12,6 +12,8 @@ ms.keywords: D3D11_FENCE_FLAG, D3D11_FENCE_FLAG enumeration [Direct3D 11], D3D11
 ms.topic: enum
 f1_keywords: 
  - "d3d11_3/D3D11_FENCE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

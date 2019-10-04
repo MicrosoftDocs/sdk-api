@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyPages, CreatePropertyPages method [MMC], CreateProper
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendPropertySheet.CreatePropertyPages"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

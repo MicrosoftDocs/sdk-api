@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method,
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObject.Initialize"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

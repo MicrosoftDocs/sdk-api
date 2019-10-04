@@ -12,6 +12,8 @@ ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interfac
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTranscodeSinkInfoProvider"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

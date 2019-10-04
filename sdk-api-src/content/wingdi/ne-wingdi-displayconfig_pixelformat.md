@@ -12,6 +12,8 @@ ms.keywords: CCD_Enumerations_d2979717-6f47-4872-9be2-8b19b06ce2f2.xml, DISPLAYC
 ms.topic: enum
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_PIXELFORMAT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

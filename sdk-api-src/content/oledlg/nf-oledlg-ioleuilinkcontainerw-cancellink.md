@@ -12,6 +12,8 @@ ms.keywords: CancelLink, CancelLink method [COM], CancelLink method [COM],IOleUI
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.CancelLink"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

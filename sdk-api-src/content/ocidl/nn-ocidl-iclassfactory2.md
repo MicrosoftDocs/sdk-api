@@ -12,6 +12,8 @@ ms.keywords: IClassFactory2, IClassFactory2 interface [COM], IClassFactory2 inte
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IClassFactory2"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ListView_SetSelectedColumn, ListView_SetSelectedColumn macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetSelectedColumn"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

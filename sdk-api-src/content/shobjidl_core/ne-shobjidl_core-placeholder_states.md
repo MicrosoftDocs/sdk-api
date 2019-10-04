@@ -12,6 +12,8 @@ ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Propert
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/PLACEHOLDER_STATES"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

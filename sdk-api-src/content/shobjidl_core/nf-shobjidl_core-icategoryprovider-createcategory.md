@@ -12,6 +12,8 @@ ms.keywords: CreateCategory, CreateCategory method [Windows Shell], CreateCatego
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICategoryProvider.CreateCategory"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

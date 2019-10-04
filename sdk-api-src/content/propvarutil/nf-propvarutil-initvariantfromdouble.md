@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Prop
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromDouble"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

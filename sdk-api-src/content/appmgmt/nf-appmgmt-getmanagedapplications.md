@@ -12,6 +12,8 @@ ms.keywords: GetManagedApplications, GetManagedApplications function [Group Poli
 ms.topic: function
 f1_keywords:
 - appmgmt/GetManagedApplications
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SSPI_TRAN
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

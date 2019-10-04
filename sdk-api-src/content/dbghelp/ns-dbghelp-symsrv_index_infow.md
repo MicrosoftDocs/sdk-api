@@ -12,6 +12,8 @@ ms.keywords: "*PSYMSRV_INDEX_INFOW, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/SYMSRV_INDEX_INFO"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

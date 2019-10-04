@@ -12,6 +12,8 @@ ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTrig
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskTrigger.GetTriggerString"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

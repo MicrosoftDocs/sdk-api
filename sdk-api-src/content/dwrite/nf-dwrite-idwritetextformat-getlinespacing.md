@@ -12,6 +12,8 @@ ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacin
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetLineSpacing"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

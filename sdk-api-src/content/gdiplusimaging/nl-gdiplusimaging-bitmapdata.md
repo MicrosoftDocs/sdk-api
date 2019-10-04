@@ -12,6 +12,8 @@ ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+],descri
 ms.topic: class
 f1_keywords: 
  - "gdiplusimaging/BitmapData"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

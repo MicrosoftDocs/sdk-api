@@ -12,6 +12,8 @@ ms.keywords: IObjectContext interface [COM+],IsCallerInRole method, IObjectConte
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectContext.IsCallerInRole"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

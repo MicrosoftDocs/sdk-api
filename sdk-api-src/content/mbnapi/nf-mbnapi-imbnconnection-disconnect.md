@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [Microsoft Broadband Networks], Disco
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnection.Disconnect"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

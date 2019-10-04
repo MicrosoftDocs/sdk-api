@@ -12,6 +12,8 @@ ms.keywords: EnumCandidates, EnumCandidates method [Text Services Framework], En
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfCandidateList.EnumCandidates"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FSCTL_MARK_HANDLE, FSCTL_MARK_HANDLE control, FSCTL_MARK_HANDLE con
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_MARK_HANDLE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

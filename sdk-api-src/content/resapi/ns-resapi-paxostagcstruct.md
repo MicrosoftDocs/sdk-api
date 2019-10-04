@@ -12,6 +12,8 @@ ms.keywords: '*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure po
 ms.topic: struct
 f1_keywords:
 - resapi/PaxosTagCStruct
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

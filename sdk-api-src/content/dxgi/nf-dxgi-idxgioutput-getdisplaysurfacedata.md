@@ -12,6 +12,8 @@ ms.keywords: 3af8da91-79a3-e6f5-520c-cc42b8e3e866, GetDisplaySurfaceData, GetDis
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetDisplaySurfaceData"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

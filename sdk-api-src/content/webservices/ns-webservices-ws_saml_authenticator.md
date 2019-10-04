@@ -12,6 +12,8 @@ ms.keywords: WS_SAML_AUTHENTICATOR, WS_SAML_AUTHENTICATOR structure [Web Service
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SAML_AUTHENTICATOR"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

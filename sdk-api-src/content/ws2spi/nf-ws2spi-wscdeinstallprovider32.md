@@ -12,6 +12,8 @@ ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], 
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCDeinstallProvider32
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

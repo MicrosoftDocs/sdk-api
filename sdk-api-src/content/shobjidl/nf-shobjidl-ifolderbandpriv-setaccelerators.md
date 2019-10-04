@@ -12,6 +12,8 @@ ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, I
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFolderBandPriv.SetAccelerators"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

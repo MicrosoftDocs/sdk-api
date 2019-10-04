@@ -12,6 +12,8 @@ ms.keywords: ITextHost interface [Windows Controls],TxClientToScreen method, ITe
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxClientToScreen"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

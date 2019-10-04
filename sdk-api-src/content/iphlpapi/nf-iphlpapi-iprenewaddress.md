@@ -12,6 +12,8 @@ ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenew
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/IpRenewAddress"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

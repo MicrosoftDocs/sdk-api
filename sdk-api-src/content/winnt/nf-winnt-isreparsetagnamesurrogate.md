@@ -12,6 +12,8 @@ ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files],
 ms.topic: macro
 f1_keywords: 
  - "winnt/IsReparseTagNameSurrogate"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

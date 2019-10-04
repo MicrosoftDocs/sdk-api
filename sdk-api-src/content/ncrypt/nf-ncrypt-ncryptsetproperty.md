@@ -12,6 +12,8 @@ ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURI
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSetProperty
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

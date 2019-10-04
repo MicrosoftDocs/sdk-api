@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetM
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.GetMigrationTable"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

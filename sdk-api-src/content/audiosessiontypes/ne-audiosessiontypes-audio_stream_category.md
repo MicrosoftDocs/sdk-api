@@ -12,6 +12,8 @@ ms.keywords: AUDIO_STREAM_CATEGORY, AUDIO_STREAM_CATEGORY enumeration [Core Audi
 ms.topic: enum
 f1_keywords: 
  - "audiosessiontypes/AUDIO_STREAM_CATEGORY"
+dev_langs:
+ - c++
 req.header: audiosessiontypes.h
 req.include-header: Audioclient.h
 req.target-type: Windows

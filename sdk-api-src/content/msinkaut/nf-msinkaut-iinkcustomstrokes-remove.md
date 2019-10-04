@@ -12,6 +12,8 @@ ms.keywords: 11cd07f2-0f02-42d6-8bab-b95456ed1926, IInkCustomStrokes interface [
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCustomStrokes.Remove"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

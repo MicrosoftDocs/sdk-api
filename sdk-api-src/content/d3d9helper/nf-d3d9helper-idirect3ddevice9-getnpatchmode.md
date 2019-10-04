@@ -12,6 +12,8 @@ ms.keywords: GetNPatchMode, GetNPatchMode method [Direct3D 9], GetNPatchMode met
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetNPatchMode"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

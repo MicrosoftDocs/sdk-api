@@ -12,6 +12,8 @@ ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],InternalCreateStream method
 ms.topic: method
 f1_keywords: 
  - "mspcall/CMSPCallMultiGraph.InternalCreateStream"
+dev_langs:
+ - c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL, PSE
 ms.topic: enum
 f1_keywords: 
  - "winnt/SECURITY_IMPERSONATION_LEVEL"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Found
 ms.topic: interface
 f1_keywords: 
  - "mfmediacapture/IAdvancedMediaCapture"
+dev_langs:
+ - c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

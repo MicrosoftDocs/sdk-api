@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_EVENTA, FAX_EVENT, FAX_EVENT structure [Fax Service], FAX_EV
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_EVENT"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

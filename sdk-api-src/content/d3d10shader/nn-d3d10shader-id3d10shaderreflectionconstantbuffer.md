@@ -12,6 +12,8 @@ ms.keywords: ID3D10ShaderReflectionConstantBuffer, ID3D10ShaderReflectionConstan
 ms.topic: interface
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionConstantBuffer"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

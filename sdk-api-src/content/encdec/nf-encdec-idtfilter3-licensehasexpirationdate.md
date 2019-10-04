@@ -12,6 +12,8 @@ ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],LicenseHasExpirati
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter3.LicenseHasExpirationDate"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

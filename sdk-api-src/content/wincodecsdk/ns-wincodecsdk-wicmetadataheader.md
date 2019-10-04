@@ -12,6 +12,8 @@ ms.keywords: WICMetadataHeader, WICMetadataHeader structure [Windows Imaging Com
 ms.topic: struct
 f1_keywords: 
  - "wincodecsdk/WICMetadataHeader"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

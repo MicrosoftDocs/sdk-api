@@ -12,6 +12,8 @@ ms.keywords: AutoDisconnectThreshold property [Windows Deployment Services], Aut
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

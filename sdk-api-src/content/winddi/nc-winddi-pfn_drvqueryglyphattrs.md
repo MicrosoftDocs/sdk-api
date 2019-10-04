@@ -12,6 +12,8 @@ ms.keywords: DrvQueryGlyphAttrs, DrvQueryGlyphAttrs callback, DrvQueryGlyphAttrs
 ms.topic: callback
 f1_keywords:
 - winddi/DrvQueryGlyphAttrs
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

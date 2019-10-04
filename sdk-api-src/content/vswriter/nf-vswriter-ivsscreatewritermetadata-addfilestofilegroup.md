@@ -12,6 +12,8 @@ ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFi
 ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateWriterMetadata.AddFilesToFileGroup
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

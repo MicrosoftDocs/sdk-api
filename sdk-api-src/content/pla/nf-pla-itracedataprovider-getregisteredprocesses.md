@@ -12,6 +12,8 @@ ms.keywords: GetRegisteredProcesses, GetRegisteredProcesses method [PLA], GetReg
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.GetRegisteredProcesses"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

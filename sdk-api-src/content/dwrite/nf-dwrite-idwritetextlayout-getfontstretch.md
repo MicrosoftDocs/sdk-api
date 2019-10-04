@@ -12,6 +12,8 @@ ms.keywords: GetFontStretch, GetFontStretch method [Direct Write], GetFontStretc
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetFontStretch"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

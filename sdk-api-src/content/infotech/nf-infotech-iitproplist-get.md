@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Worksho
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.Get"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

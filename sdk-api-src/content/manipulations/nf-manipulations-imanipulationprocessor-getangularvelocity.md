@@ -12,6 +12,8 @@ ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetA
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.GetAngularVelocity"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

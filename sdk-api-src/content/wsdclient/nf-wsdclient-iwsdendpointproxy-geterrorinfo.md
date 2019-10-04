@@ -12,6 +12,8 @@ ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpoint
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDEndpointProxy.GetErrorInfo"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

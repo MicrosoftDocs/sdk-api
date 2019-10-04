@@ -12,6 +12,8 @@ ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls],
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetBufferedPaintDC"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

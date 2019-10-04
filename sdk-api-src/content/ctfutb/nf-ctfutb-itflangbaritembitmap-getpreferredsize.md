@@ -12,6 +12,8 @@ ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework]
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmap.GetPreferredSize"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeStringArray object [Security],Encode method, Encode, Enc
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeStringArray.Encode"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IS_POINTER_INRANGE_WPARAM, IS_POINTER_INRANGE_WPARAM	, IS_POINTER_I
 ms.topic: macro
 f1_keywords: 
  - "winuser/IS_POINTER_INRANGE_WPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

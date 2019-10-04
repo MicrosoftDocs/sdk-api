@@ -12,6 +12,8 @@ ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.Update"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

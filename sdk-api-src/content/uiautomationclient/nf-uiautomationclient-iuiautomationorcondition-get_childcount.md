@@ -12,6 +12,8 @@ ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [W
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationOrCondition.ChildCount"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

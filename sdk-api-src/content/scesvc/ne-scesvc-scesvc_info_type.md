@@ -12,6 +12,8 @@ ms.keywords: SCESVC_INFO_TYPE, SCESVC_INFO_TYPE enumeration [Security], SceSvcAn
 ms.topic: enum
 f1_keywords: 
  - "scesvc/SCESVC_INFO_TYPE"
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

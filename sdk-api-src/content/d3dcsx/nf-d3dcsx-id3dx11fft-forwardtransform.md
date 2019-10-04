@@ -12,6 +12,8 @@ ms.keywords: ForwardTransform, ForwardTransform method [Direct3D 11], ForwardTra
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11FFT.ForwardTransform"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [Wi
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetQueryDataAvailable"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

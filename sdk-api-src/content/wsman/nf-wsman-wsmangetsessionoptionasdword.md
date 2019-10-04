@@ -12,6 +12,8 @@ ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function
 ms.topic: function
 f1_keywords: 
  - "wsman/WSManGetSessionOptionAsDword"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

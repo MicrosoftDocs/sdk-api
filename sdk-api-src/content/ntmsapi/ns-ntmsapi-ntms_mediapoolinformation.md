@@ -12,6 +12,8 @@ ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOO
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_MEDIAPOOLINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

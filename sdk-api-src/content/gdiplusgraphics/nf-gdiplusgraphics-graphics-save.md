@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],Save method, Graphics.Save, Graphics::Save, S
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.Save"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

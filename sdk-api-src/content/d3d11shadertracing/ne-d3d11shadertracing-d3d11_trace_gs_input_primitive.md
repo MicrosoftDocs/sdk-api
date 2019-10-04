@@ -12,6 +12,8 @@ ms.keywords: D3D11_TRACE_GS_INPUT_PRIMITIVE, D3D11_TRACE_GS_INPUT_PRIMITIVE enum
 ms.topic: enum
 f1_keywords: 
  - "d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

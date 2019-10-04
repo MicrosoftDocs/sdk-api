@@ -12,6 +12,8 @@ ms.keywords: IEnumDirectory interface [TAPI 2.2],Reset method, IEnumDirectory.Re
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDirectory.Reset"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorDevice.GetFlags"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

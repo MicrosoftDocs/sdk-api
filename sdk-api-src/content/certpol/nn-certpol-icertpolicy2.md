@@ -12,6 +12,8 @@ ms.keywords: ICertPolicy2, ICertPolicy2 interface [Security], ICertPolicy2 inter
 ms.topic: interface
 f1_keywords: 
  - "certpol/ICertPolicy2"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

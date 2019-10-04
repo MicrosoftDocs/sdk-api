@@ -12,6 +12,8 @@ ms.keywords: 2eeca357-b7e2-40b1-b19f-2e12a833c1ca, MFVideoLighting, MFVideoLight
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MFVideoLighting"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

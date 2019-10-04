@@ -12,6 +12,8 @@ ms.keywords: EVT_QUERY_FLAGS, EVT_QUERY_FLAGS enumeration [EventLog], EvtQueryCh
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_QUERY_FLAGS"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

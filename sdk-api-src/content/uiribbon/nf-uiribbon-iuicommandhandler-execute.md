@@ -12,6 +12,8 @@ ms.keywords: Execute, Execute method [Windows Ribbon], Execute method [Windows R
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICommandHandler.Execute"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

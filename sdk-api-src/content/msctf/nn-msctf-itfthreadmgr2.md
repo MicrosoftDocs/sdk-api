@@ -12,6 +12,8 @@ ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], I
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfThreadMgr2"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

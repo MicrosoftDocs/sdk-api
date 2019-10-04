@@ -12,6 +12,8 @@ ms.keywords: COMPARE_STRING, SYSNLS_FUNCTION, SYSNLS_FUNCTION enumeration [Inter
 ms.topic: enum
 f1_keywords: 
  - "winnls/SYSNLS_FUNCTION"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

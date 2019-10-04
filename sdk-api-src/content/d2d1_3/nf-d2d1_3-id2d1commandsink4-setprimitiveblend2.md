@@ -12,6 +12,8 @@ ms.keywords: ID2D1CommandSink4 interface [Direct2D],SetPrimitiveBlend2 method, I
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1CommandSink4.SetPrimitiveBlend2"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

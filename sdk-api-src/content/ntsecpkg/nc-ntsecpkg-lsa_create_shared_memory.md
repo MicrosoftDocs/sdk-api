@@ -12,6 +12,8 @@ ms.keywords: CreateSharedMemory, CreateSharedMemory callback function [Security]
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateSharedMemory
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwa
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_IPINTERFACE_ROW"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

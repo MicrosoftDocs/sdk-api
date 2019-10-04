@@ -12,6 +12,8 @@ ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.IsVisible"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTask
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetTaskFlags"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

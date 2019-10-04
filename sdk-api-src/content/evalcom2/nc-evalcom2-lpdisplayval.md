@@ -12,6 +12,8 @@ ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function
 ms.topic: callback
 f1_keywords: 
  - "evalcom2/LPDISPLAYVAL"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

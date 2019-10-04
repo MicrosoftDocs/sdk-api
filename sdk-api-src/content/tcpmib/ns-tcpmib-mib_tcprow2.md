@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCPROW2, MIB_TCPROW2, MIB_TCPROW2 structure [MIB], MIB_TCP_S
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPROW2
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

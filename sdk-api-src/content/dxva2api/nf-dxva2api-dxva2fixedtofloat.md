@@ -12,6 +12,8 @@ ms.keywords: DXVA2FixedToFloat, DXVA2FixedToFloat function [Media Foundation], d
 ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2FixedToFloat
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

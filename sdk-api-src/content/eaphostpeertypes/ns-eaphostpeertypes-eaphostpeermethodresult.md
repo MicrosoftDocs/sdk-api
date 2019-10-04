@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerMethodResult, EapHostPeerMethodResult structure [EAPHost
 ms.topic: struct
 f1_keywords:
 - eaphostpeertypes/EapHostPeerMethodResult
+dev_langs:
+ - c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

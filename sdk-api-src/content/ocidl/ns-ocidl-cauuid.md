@@ -12,6 +12,8 @@ ms.keywords: "*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID stru
 ms.topic: struct
 f1_keywords: 
  - "ocidl/CAUUID"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

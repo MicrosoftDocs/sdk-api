@@ -12,6 +12,8 @@ ms.keywords: IAsyncAction, IAsyncAction interface [Windows Runtime], IAsyncActio
 ms.topic: interface
 f1_keywords: 
  - "windows.foundation/IAsyncAction"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

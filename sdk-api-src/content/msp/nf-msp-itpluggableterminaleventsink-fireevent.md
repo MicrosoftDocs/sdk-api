@@ -12,6 +12,8 @@ ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2]
 ms.topic: method
 f1_keywords: 
  - "msp/ITPluggableTerminalEventSink.FireEvent"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

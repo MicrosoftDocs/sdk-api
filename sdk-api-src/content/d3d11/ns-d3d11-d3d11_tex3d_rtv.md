@@ -12,6 +12,8 @@ ms.keywords: 0e151840-ecbe-6a4e-52dd-154d488710bc, D3D11_TEX3D_RTV, D3D11_TEX3D_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX3D_RTV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

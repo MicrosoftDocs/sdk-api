@@ -12,6 +12,8 @@ ms.keywords: INetFwOpenPort interface [ICS/ICF],RemoteAddresses property, INetFw
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwOpenPort.RemoteAddresses"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalizati
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumSystemGeoNames"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

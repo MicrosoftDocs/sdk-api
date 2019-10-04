@@ -12,6 +12,8 @@ ms.keywords: '*LPFILE_INFO_3, *PFILE_INFO_3, FILE_INFO_3, FILE_INFO_3 structure 
 ms.topic: struct
 f1_keywords:
 - lmshare/FILE_INFO_3
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

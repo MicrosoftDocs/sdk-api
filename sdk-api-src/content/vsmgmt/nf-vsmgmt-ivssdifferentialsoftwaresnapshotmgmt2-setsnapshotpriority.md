@@ -12,6 +12,8 @@ ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

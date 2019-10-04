@@ -12,6 +12,8 @@ ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage.CopyTiff"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage2 interface [IMAPI],get_BootImageOptionsArray metho
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage2.get_BootImageOptionsArray"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

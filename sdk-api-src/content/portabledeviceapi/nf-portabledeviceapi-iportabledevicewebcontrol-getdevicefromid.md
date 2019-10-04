@@ -12,6 +12,8 @@ ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDevice
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromId"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

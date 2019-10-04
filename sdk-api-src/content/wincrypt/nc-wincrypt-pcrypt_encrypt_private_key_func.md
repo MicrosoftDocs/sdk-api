@@ -12,6 +12,8 @@ ms.keywords: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC, PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC ca
 ms.topic: callback
 f1_keywords:
 - wincrypt/PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], sec
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiZeroAuthIdentity"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

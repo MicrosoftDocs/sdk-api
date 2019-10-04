@@ -12,6 +12,8 @@ ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithwindowa
 ms.topic: method
 f1_keywords: 
  - "efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync"
+dev_langs:
+ - c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

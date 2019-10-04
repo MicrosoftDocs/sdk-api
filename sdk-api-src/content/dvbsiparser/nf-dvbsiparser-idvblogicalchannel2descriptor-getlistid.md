@@ -12,6 +12,8 @@ ms.keywords: GetListId, GetListId method [Microsoft TV Technologies], GetListId 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

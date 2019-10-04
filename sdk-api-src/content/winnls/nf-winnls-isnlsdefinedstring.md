@@ -12,6 +12,8 @@ ms.keywords: IsNLSDefinedString, IsNLSDefinedString function [Internationalizati
 ms.topic: function
 f1_keywords: 
  - "winnls/IsNLSDefinedString"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPalette, GetPalette method [DirectShow], GetPalette method [Dire
 ms.topic: method
 f1_keywords: 
  - "strmif/IOverlay.GetPalette"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

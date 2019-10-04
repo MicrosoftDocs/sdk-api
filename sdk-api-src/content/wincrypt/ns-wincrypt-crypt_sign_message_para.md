@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MES
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_SIGN_MESSAGE_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

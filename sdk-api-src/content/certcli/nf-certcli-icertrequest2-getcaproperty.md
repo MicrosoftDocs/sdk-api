@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetCAProperty method, CV_OUT_BASE64,
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest2.GetCAProperty"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

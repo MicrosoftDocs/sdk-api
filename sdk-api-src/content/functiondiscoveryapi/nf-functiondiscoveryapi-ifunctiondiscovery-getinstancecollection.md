@@ -12,6 +12,8 @@ ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCol
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery.GetInstanceCollection"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

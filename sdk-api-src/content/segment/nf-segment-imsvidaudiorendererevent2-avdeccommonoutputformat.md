@@ -12,6 +12,8 @@ ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererEvent2.AVDecCommonOutputFormat"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_VALIDATE_PASSWORD_CALLBACK, WS_VALIDATE_PASSWORD_CALLBACK callba
 ms.topic: callback
 f1_keywords:
 - webservices/WS_VALIDATE_PASSWORD_CALLBACK
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

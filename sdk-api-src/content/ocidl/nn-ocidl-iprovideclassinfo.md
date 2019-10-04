@@ -12,6 +12,8 @@ ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClass
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IProvideClassInfo"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

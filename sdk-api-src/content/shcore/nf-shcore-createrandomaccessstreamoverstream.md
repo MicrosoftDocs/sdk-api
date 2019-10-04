@@ -12,6 +12,8 @@ ms.keywords: CreateRandomAccessStreamOverStream, CreateRandomAccessStreamOverStr
 ms.topic: function
 f1_keywords: 
  - "shcore/CreateRandomAccessStreamOverStream"
+dev_langs:
+ - c++
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows

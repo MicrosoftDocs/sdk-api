@@ -12,6 +12,8 @@ ms.keywords: 825c16d1-ee7b-8b61-1f92-96e2717bbbee, GetStorageFilter, GetStorageF
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

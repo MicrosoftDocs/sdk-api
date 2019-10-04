@@ -12,6 +12,8 @@ ms.keywords: CreateIpForwardEntry, CreateIpForwardEntry function [IP Helper], _i
 ms.topic: function
 f1_keywords:
 - iphlpapi/CreateIpForwardEntry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

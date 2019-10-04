@@ -12,6 +12,8 @@ ms.keywords: CO_MARSHALING_CONTEXT_ATTRIBUTES, CO_MARSHALING_CONTEXT_ATTRIBUTES 
 ms.topic: enum
 f1_keywords: 
  - "objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

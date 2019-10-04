@@ -12,6 +12,8 @@ ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDl
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], 
 ms.topic: function
 f1_keywords: 
  - "resourceindexer/IndexFilePath"
+dev_langs:
+ - c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

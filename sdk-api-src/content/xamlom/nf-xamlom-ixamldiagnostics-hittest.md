@@ -12,6 +12,8 @@ ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface,
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.HitTest"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

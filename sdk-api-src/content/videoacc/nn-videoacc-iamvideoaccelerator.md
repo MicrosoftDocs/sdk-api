@@ -12,6 +12,8 @@ ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IA
 ms.topic: interface
 f1_keywords: 
  - "videoacc/IAMVideoAccelerator"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

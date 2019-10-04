@@ -12,6 +12,8 @@ ms.keywords: MsiReinstallFeature, MsiReinstallFeature function, MsiReinstallFeat
 ms.topic: function
 f1_keywords: 
  - "msi/MsiReinstallFeature"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

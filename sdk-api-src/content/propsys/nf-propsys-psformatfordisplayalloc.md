@@ -12,6 +12,8 @@ ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows 
 ms.topic: function
 f1_keywords:
 - propsys/PSFormatForDisplayAlloc
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

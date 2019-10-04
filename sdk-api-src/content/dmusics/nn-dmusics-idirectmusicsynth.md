@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDi
 ms.topic: interface
 f1_keywords: 
  - "dmusics/IDirectMusicSynth"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

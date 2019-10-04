@@ -12,6 +12,8 @@ ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS]
 ms.topic: function
 f1_keywords: 
  - "mgm/MgmTakeInterfaceOwnership"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

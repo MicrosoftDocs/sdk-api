@@ -12,6 +12,8 @@ ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_dea
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DeallocateNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

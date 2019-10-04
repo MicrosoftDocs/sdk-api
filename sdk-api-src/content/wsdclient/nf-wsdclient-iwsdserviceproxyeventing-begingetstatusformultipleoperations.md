@@ -12,6 +12,8 @@ ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOpera
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

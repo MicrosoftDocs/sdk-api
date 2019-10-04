@@ -12,6 +12,8 @@ ms.keywords: NCryptFreeObject, NCryptFreeObject function [Security], ncrypt/NCry
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptFreeObject"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

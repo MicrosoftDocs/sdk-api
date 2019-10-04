@@ -12,6 +12,8 @@ ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEn
 ms.topic: function
 f1_keywords: 
  - "srpapi/SrpSetTokenEnterpriseId"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

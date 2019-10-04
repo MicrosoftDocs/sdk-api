@@ -12,6 +12,8 @@ ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization 
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_GLYPHPROP"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

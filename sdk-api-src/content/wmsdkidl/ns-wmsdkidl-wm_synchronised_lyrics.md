@@ -12,6 +12,8 @@ ms.keywords: WM_SYNCHRONISED_LYRICS, WM_SYNCHRONISED_LYRICS structure [windows M
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_SYNCHRONISED_LYRICS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

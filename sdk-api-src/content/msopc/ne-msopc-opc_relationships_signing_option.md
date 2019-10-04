@@ -12,6 +12,8 @@ ms.keywords: OPC_RELATIONSHIPS_SIGNING_OPTION, OPC_RELATIONSHIPS_SIGNING_OPTION 
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_RELATIONSHIPS_SIGNING_OPTION"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

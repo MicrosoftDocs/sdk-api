@@ -12,6 +12,8 @@ ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITO
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/UNDOCK_REASON"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

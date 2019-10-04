@@ -12,6 +12,8 @@ ms.keywords: GW_CHILD, GW_ENABLEDPOPUP, GW_HWNDFIRST, GW_HWNDLAST, GW_HWNDNEXT, 
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

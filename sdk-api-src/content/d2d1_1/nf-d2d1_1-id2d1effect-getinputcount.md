@@ -12,6 +12,8 @@ ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount metho
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Effect.GetInputCount"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

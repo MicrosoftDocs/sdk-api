@@ -12,6 +12,8 @@ ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoL
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoLockObjectExternal"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

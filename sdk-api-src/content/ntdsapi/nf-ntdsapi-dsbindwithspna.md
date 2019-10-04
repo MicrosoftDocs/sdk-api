@@ -12,6 +12,8 @@ ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWit
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsBindWithSpn"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

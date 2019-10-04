@@ -12,6 +12,8 @@ ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRated me
 ms.topic: method
 f1_keywords: 
  - "encdec/IDTFilter.put_BlockUnRated"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

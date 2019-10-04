@@ -12,6 +12,8 @@ ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetRate"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

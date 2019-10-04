@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],get_Bold method, IFont.get_Bold, IFont::get_B
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.get_Bold"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

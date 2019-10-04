@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgro
 ms.topic: interface
 f1_keywords: 
  - "qmgr/IBackgroundCopyJob1"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateGeometryShader, CreateGeometryShader method [Direct3D 11], Cr
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateGeometryShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

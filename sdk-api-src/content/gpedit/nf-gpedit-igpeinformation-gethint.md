@@ -12,6 +12,8 @@ ms.keywords: GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, 
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGPEInformation.GetHint"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

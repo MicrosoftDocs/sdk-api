@@ -12,6 +12,8 @@ ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Win
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPPlugin.GetCaps"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

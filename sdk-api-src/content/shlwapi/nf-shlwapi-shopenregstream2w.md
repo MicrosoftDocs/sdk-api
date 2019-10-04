@@ -12,6 +12,8 @@ ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpen
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHOpenRegStream2"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

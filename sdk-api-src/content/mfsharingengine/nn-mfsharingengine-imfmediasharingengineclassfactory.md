@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSharingEngineClassFactory, IMFMediaSharingEngineClassFactor
 ms.topic: interface
 f1_keywords: 
  - "mfsharingengine/IMFMediaSharingEngineClassFactory"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

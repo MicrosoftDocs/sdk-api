@@ -12,6 +12,8 @@ ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfi
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkListManager.SetSimulatedProfileInfo"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

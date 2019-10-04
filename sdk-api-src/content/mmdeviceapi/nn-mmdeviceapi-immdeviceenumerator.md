@@ -12,6 +12,8 @@ ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IM
 ms.topic: interface
 f1_keywords: 
  - "mmdeviceapi/IMMDeviceEnumerator"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

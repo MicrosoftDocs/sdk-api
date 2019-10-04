@@ -12,6 +12,8 @@ ms.keywords: GetBufferSize, GetBufferSize method [Core Audio], GetBufferSize met
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.GetBufferSize"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

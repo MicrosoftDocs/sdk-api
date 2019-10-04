@@ -12,6 +12,8 @@ ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.SystemEvent"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

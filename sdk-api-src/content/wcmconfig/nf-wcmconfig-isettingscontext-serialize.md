@@ -12,6 +12,8 @@ ms.keywords: ISettingsContext interface [SMI],Serialize method, ISettingsContext
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsContext.Serialize"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

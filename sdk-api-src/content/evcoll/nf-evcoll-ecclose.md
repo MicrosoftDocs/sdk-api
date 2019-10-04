@@ -12,6 +12,8 @@ ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
 ms.topic: function
 f1_keywords: 
  - "evcoll/EcClose"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

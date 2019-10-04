@@ -12,6 +12,8 @@ ms.keywords: NTMS_LIBREQUESTINFORMATION, NTMS_LIBREQUESTINFORMATION structure [F
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_LIBREQUESTINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

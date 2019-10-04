@@ -12,6 +12,8 @@ ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSnapshotted met
 ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.IsPathSnapshotted
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOff
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesConnectionInfo.TransitionOffline"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

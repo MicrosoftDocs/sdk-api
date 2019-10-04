@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.SetExtensionClusion"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

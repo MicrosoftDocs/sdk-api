@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_PC_KEEP_MULTIPLE, SYNCMGR_PC_KEEP_ONE, SYNCMGR_PC_KEEP_RECE
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_PRESENTER_CHOICE"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

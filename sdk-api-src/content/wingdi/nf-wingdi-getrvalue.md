@@ -12,6 +12,8 @@ ms.keywords: GetRValue, GetRValue macro [Windows GDI], _win32_GetRValue, gdi.get
 ms.topic: macro
 f1_keywords: 
  - "wingdi/GetRValue"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

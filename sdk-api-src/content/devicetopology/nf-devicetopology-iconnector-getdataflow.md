@@ -12,6 +12,8 @@ ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [C
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IConnector.GetDataFlow"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

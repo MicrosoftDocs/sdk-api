@@ -12,6 +12,8 @@ ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTP
 ms.topic: function
 f1_keywords: 
  - "shlobj/PathProcessCommand"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.SetPrivateData"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

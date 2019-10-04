@@ -12,6 +12,8 @@ ms.keywords: '*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES st
 ms.topic: struct
 f1_keywords:
 - winnt/LUID_AND_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

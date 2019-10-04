@@ -12,6 +12,8 @@ ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task S
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskVariables.GetInput"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

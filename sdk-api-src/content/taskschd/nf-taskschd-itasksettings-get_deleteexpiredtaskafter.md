@@ -12,6 +12,8 @@ ms.keywords: DeleteExpiredTaskAfter property [Task Scheduler], DeleteExpiredTask
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings.DeleteExpiredTaskAfter"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

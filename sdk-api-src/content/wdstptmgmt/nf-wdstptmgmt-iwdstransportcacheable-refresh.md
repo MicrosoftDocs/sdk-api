@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refr
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCacheable.Refresh"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

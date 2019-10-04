@@ -8,6 +8,8 @@ ms.keywords: GetStagedPackagePathByFullName2
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetStagedPackagePathByFullName2"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

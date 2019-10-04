@@ -12,6 +12,8 @@ ms.keywords: FAX_SERVER_APIVERSION_ENUM, FAX_SERVER_APIVERSION_ENUM enumeration 
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_SERVER_APIVERSION_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

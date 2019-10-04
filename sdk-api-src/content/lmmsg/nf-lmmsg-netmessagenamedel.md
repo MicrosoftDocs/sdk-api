@@ -12,6 +12,8 @@ ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management],
 ms.topic: function
 f1_keywords: 
  - "lmmsg/NetMessageNameDel"
+dev_langs:
+ - c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

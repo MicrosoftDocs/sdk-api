@@ -12,6 +12,8 @@ ms.keywords: GetFormatCount, GetFormatCount method [Audio Devices], GetFormatCou
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatCount"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop

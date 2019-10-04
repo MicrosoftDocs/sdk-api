@@ -12,6 +12,8 @@ ms.keywords: QuadraticBezierSegment, QuadraticBezierSegment function [Direct2D],
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/QuadraticBezierSegment"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

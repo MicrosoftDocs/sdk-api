@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP],
 ms.topic: enum
 f1_keywords:
 - http/HTTP_SERVER_PROPERTY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

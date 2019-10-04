@@ -12,6 +12,8 @@ ms.keywords: DxLock, DxLock callback function [Display Devices], PDX_LOCK, PDX_L
 ms.topic: callback
 f1_keywords:
 - dxmini/DxLock
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

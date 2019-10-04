@@ -12,6 +12,8 @@ ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, im
 ms.topic: function
 f1_keywords:
 - imagehlp/ImageLoad
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

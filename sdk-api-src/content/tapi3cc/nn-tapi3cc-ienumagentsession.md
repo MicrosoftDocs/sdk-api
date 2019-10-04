@@ -12,6 +12,8 @@ ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], IEnumAge
 ms.topic: interface
 f1_keywords: 
  - "tapi3cc/IEnumAgentSession"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

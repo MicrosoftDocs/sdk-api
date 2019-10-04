@@ -12,6 +12,8 @@ ms.keywords: "?EndRead@CThreadBase@@QAEXXZ, CThreadBase interface [Windows Manag
 ms.topic: method
 f1_keywords: 
  - "thrdbase/CThreadBase.EndRead"
+dev_langs:
+ - c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

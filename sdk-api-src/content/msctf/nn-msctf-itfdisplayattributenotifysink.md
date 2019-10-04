@@ -12,6 +12,8 @@ ms.keywords: ITfDisplayAttributeNotifySink, ITfDisplayAttributeNotifySink interf
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfDisplayAttributeNotifySink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

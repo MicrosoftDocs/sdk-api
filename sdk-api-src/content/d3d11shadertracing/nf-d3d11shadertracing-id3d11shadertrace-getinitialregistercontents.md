@@ -12,6 +12,8 @@ ms.keywords: GetInitialRegisterContents, GetInitialRegisterContents method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11shadertracing/ID3D11ShaderTrace.GetInitialRegisterContents"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

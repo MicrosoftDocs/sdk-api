@@ -12,6 +12,8 @@ ms.keywords: HWND property [Tablet PC], HWND property [Tablet PC],IRealTimeStylu
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.HWND"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

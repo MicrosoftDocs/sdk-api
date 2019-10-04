@@ -12,6 +12,8 @@ ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalScrollPer
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IScrollProvider.VerticalScrollPercent"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

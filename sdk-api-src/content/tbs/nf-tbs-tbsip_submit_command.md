@@ -12,6 +12,8 @@ ms.keywords: TBS_COMMAND_LOCALITY_FOUR, TBS_COMMAND_LOCALITY_ONE, TBS_COMMAND_LO
 ms.topic: function
 f1_keywords: 
  - "tbs/Tbsip_Submit_Command"
+dev_langs:
+ - c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallIntercepto
 ms.topic: interface
 f1_keywords: 
  - "callobj/ICallInterceptor"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

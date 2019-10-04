@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [C
 ms.topic: interface
 f1_keywords: 
  - "spatialaudiohrtf/ISpatialAudioObjectForHrtf"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

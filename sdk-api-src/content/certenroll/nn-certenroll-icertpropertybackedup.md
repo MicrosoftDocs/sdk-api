@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], 
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertPropertyBackedUp"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWindow, GetWindow method [Windows Controls], GetWindow method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetWindow"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interfa
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkPicture"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

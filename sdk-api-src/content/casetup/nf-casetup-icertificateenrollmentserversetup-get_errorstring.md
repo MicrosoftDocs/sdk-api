@@ -12,6 +12,8 @@ ms.keywords: ErrorString property [Security], ErrorString property [Security],IC
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertificateEnrollmentServerSetup.ErrorString"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

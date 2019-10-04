@@ -12,6 +12,8 @@ ms.keywords: AttachToPopulatedBuffer, AttachToPopulatedBuffer method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

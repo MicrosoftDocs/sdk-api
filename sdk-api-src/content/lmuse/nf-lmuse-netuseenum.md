@@ -12,6 +12,8 @@ ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuse
 ms.topic: function
 f1_keywords:
 - lmuse/NetUseEnum
+dev_langs:
+ - c++
 req.header: lmuse.h
 req.include-header: Lm.h, Lmcons.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

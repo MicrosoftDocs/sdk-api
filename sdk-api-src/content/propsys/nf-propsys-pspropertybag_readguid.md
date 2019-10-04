@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Pr
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_ReadGUID"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows

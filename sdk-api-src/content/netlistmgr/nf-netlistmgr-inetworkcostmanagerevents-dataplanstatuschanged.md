@@ -12,6 +12,8 @@ ms.keywords: DataPlanStatusChanged, DataPlanStatusChanged method [Network Awaren
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkCostManagerEvents.DataPlanStatusChanged"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

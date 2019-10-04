@@ -12,6 +12,8 @@ ms.keywords: CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE, CRYPT_GET_URL_FROM_EXTENSION, CR
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetObjectUrl
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

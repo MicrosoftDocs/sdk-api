@@ -12,6 +12,8 @@ ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Network
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnInterface"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

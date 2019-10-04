@@ -12,6 +12,8 @@ ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToStringAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

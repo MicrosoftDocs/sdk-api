@@ -12,6 +12,8 @@ ms.keywords: HHN_NOTIFY, HHN_NOTIFY structure [HTML Help Workshop], htmlhelp.hhn
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HHN_NOTIFY"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

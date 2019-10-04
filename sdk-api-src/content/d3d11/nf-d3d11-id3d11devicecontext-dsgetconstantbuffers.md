@@ -12,6 +12,8 @@ ms.keywords: DSGetConstantBuffers, DSGetConstantBuffers method [Direct3D 11], DS
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DSGetConstantBuffers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

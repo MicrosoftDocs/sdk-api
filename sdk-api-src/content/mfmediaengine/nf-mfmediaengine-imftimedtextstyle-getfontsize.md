@@ -12,6 +12,8 @@ ms.keywords: GetFontSize, GetFontSize method [Media Foundation], GetFontSize met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextStyle.GetFontSize"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

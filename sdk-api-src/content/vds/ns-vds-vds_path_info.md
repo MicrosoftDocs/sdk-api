@@ -12,6 +12,8 @@ ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, base.vds_path_info, vds/VDS
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PATH_INFO
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

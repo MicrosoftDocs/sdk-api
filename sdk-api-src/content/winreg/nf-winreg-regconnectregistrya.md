@@ -12,6 +12,8 @@ ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistry
 ms.topic: function
 f1_keywords: 
  - "winreg/RegConnectRegistry"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, S
 ms.topic: enum
 f1_keywords: 
  - "certpol/X509SCEPFailInfo"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: CertEnroll.h
 req.target-type: Windows

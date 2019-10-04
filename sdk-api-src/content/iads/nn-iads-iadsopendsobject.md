@@ -12,6 +12,8 @@ ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObje
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsOpenDSObject"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSCUpdateProvider32, WSCUpdateProvider32 function [Winsock], winsoc
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCUpdateProvider32
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

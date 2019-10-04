@@ -12,6 +12,8 @@ ms.keywords: PHONECALLBACK, PHONECALLBACK callback function [TAPI 2.2], _tapi2_p
 ms.topic: callback
 f1_keywords: 
  - "tapi/PHONECALLBACK"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

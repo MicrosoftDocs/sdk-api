@@ -12,6 +12,8 @@ ms.keywords: GetStereo3DRenderMode, GetStereo3DRenderMode method [Media Foundati
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetStereo3DRenderMode
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

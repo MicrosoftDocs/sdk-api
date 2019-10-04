@@ -12,6 +12,8 @@ ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Off
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IEnumOfflineFilesSettings"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

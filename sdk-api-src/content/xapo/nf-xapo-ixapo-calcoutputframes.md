@@ -12,6 +12,8 @@ ms.keywords: CalcOutputFrames, CalcOutputFrames method [XAudio2 Audio Mixing API
 ms.topic: method
 f1_keywords: 
  - "xapo/IXAPO.CalcOutputFrames"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

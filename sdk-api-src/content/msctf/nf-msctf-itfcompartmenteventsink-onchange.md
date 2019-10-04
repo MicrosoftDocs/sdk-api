@@ -12,6 +12,8 @@ ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChang
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCompartmentEventSink.OnChange"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

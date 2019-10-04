@@ -12,6 +12,8 @@ ms.keywords: PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpe
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathMatchSpec"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

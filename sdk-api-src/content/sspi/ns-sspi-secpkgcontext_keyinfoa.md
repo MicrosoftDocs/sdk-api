@@ -12,6 +12,8 @@ ms.keywords: '*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_K
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_KeyInfo
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

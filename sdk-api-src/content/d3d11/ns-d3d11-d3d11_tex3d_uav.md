@@ -12,6 +12,8 @@ ms.keywords: 3576e4ac-e8c6-2390-6df1-4597956a1b86, D3D11_TEX3D_UAV, D3D11_TEX3D_
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX3D_UAV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

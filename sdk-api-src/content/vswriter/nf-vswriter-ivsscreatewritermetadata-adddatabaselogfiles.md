@@ -12,6 +12,8 @@ ms.keywords: AddDatabaseLogFiles, AddDatabaseLogFiles method [VSS], AddDatabaseL
 ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateWriterMetadata.AddDatabaseLogFiles
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

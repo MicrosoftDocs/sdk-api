@@ -12,6 +12,8 @@ ms.keywords: WS_OPERATION_FREE_STATE_CALLBACK, WS_OPERATION_FREE_STATE_CALLBACK 
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_OPERATION_FREE_STATE_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

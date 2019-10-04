@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interfa
 ms.topic: method
 f1_keywords: 
  - "pnpxassoc/IPNPXDeviceAssociation.Delete"
+dev_langs:
+ - c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

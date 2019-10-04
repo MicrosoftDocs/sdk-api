@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties 
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetProperties"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNewStorage, GetNewStorage method [Windows Controls], GetNewStora
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.GetNewStorage"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

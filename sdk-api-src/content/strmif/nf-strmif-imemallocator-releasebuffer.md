@@ -12,6 +12,8 @@ ms.keywords: IMemAllocator interface [DirectShow],ReleaseBuffer method, IMemAllo
 ms.topic: method
 f1_keywords: 
  - "strmif/IMemAllocator.ReleaseBuffer"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

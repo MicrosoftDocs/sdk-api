@@ -12,6 +12,8 @@ ms.keywords: GetAddressByName, GetAddressByName function [Winsock], GetAddressBy
 ms.topic: function
 f1_keywords:
 - nspapi/GetAddressByName
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

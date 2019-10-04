@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_POLICY, *PDHCP_POLICY, DHCP_POLICY, DHCP_POLICY structure 
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POLICY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

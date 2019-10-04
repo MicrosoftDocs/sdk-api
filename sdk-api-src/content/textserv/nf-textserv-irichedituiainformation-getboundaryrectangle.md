@@ -12,6 +12,8 @@ ms.keywords: GetBoundaryRectangle, GetBoundaryRectangle method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "textserv/IRichEditUiaInformation.GetBoundaryRectangle"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 662a4c47-95f8-4a84-ab2b-96e51d13906c, CancelObjectCreation, CancelO
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSchemeHandler.CancelObjectCreation"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetD
 ms.topic: function
 f1_keywords: 
  - "mtxdm/GetDispenserManager"
+dev_langs:
+ - c++
 req.header: mtxdm.h
 req.include-header: 
 req.target-type: Windows

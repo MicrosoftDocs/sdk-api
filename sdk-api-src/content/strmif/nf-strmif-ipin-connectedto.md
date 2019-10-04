@@ -12,6 +12,8 @@ ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IPin.ConnectedTo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_UPDATE_NO_CHANGE, UI_ANIMATION_UPDATE_RESULT, UI_ANIMA
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_UPDATE_RESULT"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDDKERNELCAPS, DDKERNELCAPS, DDKERNELCAPS structure [Display Dev
 ms.topic: struct
 f1_keywords: 
  - "ddkernel/DDKERNELCAPS"
+dev_langs:
+ - c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Windows

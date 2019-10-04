@@ -12,6 +12,8 @@ ms.keywords: 893950d4-c19c-4635-ad66-6e363860280a, IInkRecognizerContext interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.WordList"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

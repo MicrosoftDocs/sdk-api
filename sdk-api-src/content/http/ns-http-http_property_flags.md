@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTT
 ms.topic: struct
 f1_keywords:
 - http/HTTP_PROPERTY_FLAGS
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

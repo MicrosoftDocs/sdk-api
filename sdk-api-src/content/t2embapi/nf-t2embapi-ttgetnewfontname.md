@@ -12,6 +12,8 @@ ms.keywords: TTGetNewFontName, TTGetNewFontName function [Windows GDI], _win32_T
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTGetNewFontName"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

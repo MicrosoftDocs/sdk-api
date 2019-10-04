@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_T
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPTABLE
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

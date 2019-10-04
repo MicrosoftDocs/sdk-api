@@ -12,6 +12,8 @@ ms.keywords: IMixerOCXNotify interface [DirectShow],OnInvalidateRect method, IMi
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCXNotify.OnInvalidateRect"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

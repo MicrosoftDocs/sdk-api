@@ -12,6 +12,8 @@ ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject i
 ms.topic: interface
 f1_keywords: 
  - "objidl/IRunnableObject"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

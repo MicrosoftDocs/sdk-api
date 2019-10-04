@@ -12,6 +12,8 @@ ms.keywords: EnumerateGetNextService, EnumerateGetNextService callback function 
 ms.topic: callback
 f1_keywords:
 - stm/EnumerateGetNextService
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

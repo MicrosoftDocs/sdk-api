@@ -12,6 +12,8 @@ ms.keywords: IChannelAudioVolume interface [Core Audio],SetChannelVolume method,
 ms.topic: method
 f1_keywords: 
  - "audioclient/IChannelAudioVolume.SetChannelVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

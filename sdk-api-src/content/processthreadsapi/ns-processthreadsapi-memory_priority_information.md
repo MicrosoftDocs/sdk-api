@@ -12,6 +12,8 @@ ms.keywords: "*PMEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_BELOW_NORMAL, MEMOR
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/MEMORY_PRIORITY_INFORMATION"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

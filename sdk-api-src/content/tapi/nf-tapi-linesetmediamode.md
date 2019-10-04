@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetmediamode, lineSetMediaMode, lineSetMediaMode functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetMediaMode"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

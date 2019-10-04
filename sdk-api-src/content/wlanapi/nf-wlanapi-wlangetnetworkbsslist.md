@@ -12,6 +12,8 @@ ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI],
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetNetworkBssList
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

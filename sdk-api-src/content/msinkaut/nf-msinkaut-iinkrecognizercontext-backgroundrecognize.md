@@ -12,6 +12,8 @@ ms.keywords: BackgroundRecognize, BackgroundRecognize method [Tablet PC], Backgr
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.BackgroundRecognize"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

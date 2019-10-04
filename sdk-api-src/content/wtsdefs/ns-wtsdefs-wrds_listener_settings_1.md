@@ -12,6 +12,8 @@ ms.keywords: "*PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTE
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WRDS_LISTENER_SETTINGS_1"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

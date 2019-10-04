@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDia
 ms.topic: interface
 f1_keywords: 
  - "photoacquire/IPhotoAcquireDeviceSelectionDialog"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

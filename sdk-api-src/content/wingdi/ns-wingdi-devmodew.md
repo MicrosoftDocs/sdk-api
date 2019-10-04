@@ -12,6 +12,8 @@ ms.keywords: '*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW 
 ms.topic: struct
 f1_keywords:
 - wingdi/DEVMODEW
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Wingdi.h
 req.target-type: Windows

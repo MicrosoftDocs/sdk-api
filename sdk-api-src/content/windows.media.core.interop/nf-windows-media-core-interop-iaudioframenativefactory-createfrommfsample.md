@@ -12,6 +12,8 @@ ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], Cr
 ms.topic: method
 f1_keywords: 
  - "windows.media.core.interop/IAudioFrameNativeFactory.CreateFromMFSample"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

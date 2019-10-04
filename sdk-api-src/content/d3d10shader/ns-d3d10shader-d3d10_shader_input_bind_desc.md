@@ -12,6 +12,8 @@ ms.keywords: 99c7399c-8b7c-2db1-c625-397e1a74f486, D3D10_SHADER_INPUT_BIND_DESC,
 ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_INPUT_BIND_DESC
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

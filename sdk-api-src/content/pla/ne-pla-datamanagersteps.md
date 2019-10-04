@@ -12,6 +12,8 @@ ms.keywords: DataManagerSteps, DataManagerSteps enumeration [PLA], base.datamana
 ms.topic: enum
 f1_keywords: 
  - "pla/DataManagerSteps"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

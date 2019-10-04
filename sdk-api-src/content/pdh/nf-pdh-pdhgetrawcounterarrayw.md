@@ -12,6 +12,8 @@ ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGe
 ms.topic: function
 f1_keywords:
 - pdh/PdhGetRawCounterArray
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

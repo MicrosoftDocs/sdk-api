@@ -12,6 +12,8 @@ ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.en
 ms.topic: function
 f1_keywords:
 - winddi/EngAlphaBlend
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

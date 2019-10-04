@@ -12,6 +12,8 @@ ms.keywords: 1f007a76-8499-4128-8525-0498ddeb7300, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.SetInPlaceHoverTargetPosition"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

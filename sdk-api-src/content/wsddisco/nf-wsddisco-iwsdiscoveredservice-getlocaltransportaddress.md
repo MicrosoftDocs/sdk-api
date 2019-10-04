@@ -12,6 +12,8 @@ ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocal
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveredService.GetLocalTransportAddress"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

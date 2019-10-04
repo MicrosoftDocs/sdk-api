@@ -12,6 +12,8 @@ ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [W
 ms.topic: interface
 f1_keywords: 
  - "winsatcominterfacei/IQueryAllWinSATAssessments"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

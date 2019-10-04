@@ -12,6 +12,8 @@ ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorM
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorManager.RequestPermissions"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

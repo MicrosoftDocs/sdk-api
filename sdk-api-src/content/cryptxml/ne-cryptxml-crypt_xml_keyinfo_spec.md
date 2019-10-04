@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_KEYINFO_SPEC, CRYPT_XML_KEYINFO_SPEC enumeration [Securit
 ms.topic: enum
 f1_keywords:
 - cryptxml/CRYPT_XML_KEYINFO_SPEC
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

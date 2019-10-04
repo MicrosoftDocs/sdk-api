@@ -12,6 +12,8 @@ ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Micr
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetDetailsAudioOOBSourceID"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

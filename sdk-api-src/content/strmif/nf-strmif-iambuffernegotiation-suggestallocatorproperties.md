@@ -12,6 +12,8 @@ ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorPropert
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMBufferNegotiation.SuggestAllocatorProperties"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

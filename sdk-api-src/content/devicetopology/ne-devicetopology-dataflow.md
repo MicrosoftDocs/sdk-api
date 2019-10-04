@@ -12,6 +12,8 @@ ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, co
 ms.topic: enum
 f1_keywords: 
  - "devicetopology/DataFlow"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

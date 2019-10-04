@@ -12,6 +12,8 @@ ms.keywords: GetThemeBackgroundRegion, GetThemeBackgroundRegion function [Window
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeBackgroundRegion"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

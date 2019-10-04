@@ -12,6 +12,8 @@ ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IStream_Read"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

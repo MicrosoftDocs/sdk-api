@@ -12,6 +12,8 @@ ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMOR
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComApp2Events.OnAppRecycle2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

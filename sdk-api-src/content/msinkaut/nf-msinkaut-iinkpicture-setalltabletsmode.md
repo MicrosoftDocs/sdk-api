@@ -12,6 +12,8 @@ ms.keywords: IInkPicture interface [Tablet PC],SetAllTabletsMode method, IInkPic
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.SetAllTabletsMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

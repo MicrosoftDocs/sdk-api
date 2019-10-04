@@ -12,6 +12,8 @@ ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method,
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/IEnumNetworkConnections.Reset"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

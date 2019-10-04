@@ -12,6 +12,8 @@ ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManag
 ms.topic: interface
 f1_keywords: 
  - "sensorsapi/ISensorManager"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

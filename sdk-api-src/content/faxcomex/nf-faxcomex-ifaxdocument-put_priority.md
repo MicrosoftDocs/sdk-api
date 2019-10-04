@@ -12,6 +12,8 @@ ms.keywords: IFaxDocument interface [Fax Service],Priority property, IFaxDocumen
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument.Priority"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

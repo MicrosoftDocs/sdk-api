@@ -12,6 +12,8 @@ ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, I
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPObject.Read"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

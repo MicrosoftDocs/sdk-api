@@ -12,6 +12,8 @@ ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, win
 ms.topic: macro
 f1_keywords: 
  - "wingdi/CMYK"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

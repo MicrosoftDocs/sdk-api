@@ -12,6 +12,8 @@ ms.keywords: GuarRspec, GuarRspec structure [QOS], lpmapi/GuarRspec, qos.guarrsp
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/GuarRspec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

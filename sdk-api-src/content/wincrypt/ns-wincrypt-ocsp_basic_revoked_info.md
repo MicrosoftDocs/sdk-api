@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_BASIC_REVOKED_INFO, CRL_REASON_AFFILIATION_CHANGED, CRL_REA
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_BASIC_REVOKED_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMSetGlobalOptions, DRMSetGlobalOptions function [Active Directory
 ms.topic: function
 f1_keywords:
 - msdrm/DRMSetGlobalOptions
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FsrmFileManagementLoggingFlags, FsrmFileManagementLoggingFlags enum
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmFileManagementLoggingFlags"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Event method, ITAgentEvent.ge
 ms.topic: method
 f1_keywords: 
  - "tapi3/ITAgentEvent.get_Event"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

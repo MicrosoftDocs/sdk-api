@@ -12,6 +12,8 @@ ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _wi
 ms.topic: callback
 f1_keywords: 
  - "winnt/APCProc"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

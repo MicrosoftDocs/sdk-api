@@ -12,6 +12,8 @@ ms.keywords: ILocation interface [WinLocation],UnregisterForReport method, ILoca
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocation.UnregisterForReport"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

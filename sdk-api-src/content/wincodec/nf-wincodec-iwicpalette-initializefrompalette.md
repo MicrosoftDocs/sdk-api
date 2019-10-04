@@ -12,6 +12,8 @@ ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromPal
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPalette.InitializeFromPalette"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

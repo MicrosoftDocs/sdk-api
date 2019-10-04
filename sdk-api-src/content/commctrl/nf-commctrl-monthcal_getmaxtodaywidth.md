@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetMaxTodayWidth, MonthCal_GetMaxTodayWidth macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetMaxTodayWidth"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

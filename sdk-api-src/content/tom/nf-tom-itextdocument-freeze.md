@@ -12,6 +12,8 @@ ms.keywords: Freeze, Freeze method [Windows Controls], Freeze method [Windows Co
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.Freeze"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

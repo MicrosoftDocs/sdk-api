@@ -12,6 +12,8 @@ ms.keywords: DhcpV4AddPolicyRange, DhcpV4AddPolicyRange function [DHCP], dhcp.dh
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4AddPolicyRange
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

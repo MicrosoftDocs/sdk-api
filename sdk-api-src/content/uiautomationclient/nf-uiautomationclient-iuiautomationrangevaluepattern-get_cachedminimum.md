@@ -12,6 +12,8 @@ ms.keywords: CachedMinimum property [Windows Accessibility], CachedMinimum prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationRangeValuePattern.CachedMinimum"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

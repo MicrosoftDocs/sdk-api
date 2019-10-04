@@ -12,6 +12,8 @@ ms.keywords: GetGraphicsPath, GetGraphicsPath method [GDI+], GetGraphicsPath met
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetGraphicsPath"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

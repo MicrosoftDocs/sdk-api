@@ -12,6 +12,8 @@ ms.keywords: WsGetOperationContextProperty, WsGetOperationContextProperty functi
 ms.topic: function
 f1_keywords: 
  - "webservices/WsGetOperationContextProperty"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

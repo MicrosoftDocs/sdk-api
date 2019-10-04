@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylus2, IRealTimeStylus2 interface [Tablet PC], IRealTime
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IRealTimeStylus2"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

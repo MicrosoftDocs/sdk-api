@@ -12,6 +12,8 @@ ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framewo
 ms.topic: struct
 f1_keywords: 
  - "ctffunc/TF_LMLATTELEMENT"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

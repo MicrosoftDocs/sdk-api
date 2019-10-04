@@ -12,6 +12,8 @@ ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE, WS_SAML_AUTHENTICATOR_TYPE,
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SAML_AUTHENTICATOR_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSD_LOCALIZED_STRING_LIST, WSD_LOCALIZED_STRING_LIST structure, ncd
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_LOCALIZED_STRING_LIST"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

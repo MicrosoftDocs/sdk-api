@@ -12,6 +12,8 @@ ms.keywords: ClosePerformanceData, ClosePerformanceData callback function [Perf]
 ms.topic: callback
 f1_keywords: 
  - "winperf/ClosePerformanceData"
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows

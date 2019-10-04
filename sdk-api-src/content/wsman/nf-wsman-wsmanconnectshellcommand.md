@@ -12,6 +12,8 @@ ms.keywords: WSManConnectShellCommand, WSManConnectShellCommand function [Window
 ms.topic: function
 f1_keywords:
 - wsman/WSManConnectShellCommand
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

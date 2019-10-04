@@ -12,6 +12,8 @@ ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runti
 ms.topic: interface
 f1_keywords: 
  - "printmanagerinterop/IPrintManagerInterop"
+dev_langs:
+ - c++
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

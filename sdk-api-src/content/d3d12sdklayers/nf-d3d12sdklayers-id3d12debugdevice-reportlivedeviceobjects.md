@@ -12,6 +12,8 @@ ms.keywords: ID3D12DebugDevice interface,ReportLiveDeviceObjects method, ID3D12D
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12DebugDevice.ReportLiveDeviceObjects"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

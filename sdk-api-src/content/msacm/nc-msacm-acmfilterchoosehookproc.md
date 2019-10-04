@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilter
 ms.topic: callback
 f1_keywords: 
  - "msacm/acmFilterChooseHookProc"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

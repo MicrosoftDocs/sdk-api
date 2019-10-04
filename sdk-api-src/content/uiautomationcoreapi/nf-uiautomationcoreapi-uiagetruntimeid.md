@@ -12,6 +12,8 @@ ms.keywords: UiaGetRuntimeId, UiaGetRuntimeId function [Windows Accessibility], 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaGetRuntimeId"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

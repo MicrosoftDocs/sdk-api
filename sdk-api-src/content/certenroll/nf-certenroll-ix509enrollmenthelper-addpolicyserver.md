@@ -12,6 +12,8 @@ ms.keywords: AddPolicyServer, AddPolicyServer method [Security], AddPolicyServer
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentHelper.AddPolicyServer"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

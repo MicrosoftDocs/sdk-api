@@ -12,6 +12,8 @@ ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], En
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.EnumProperties"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

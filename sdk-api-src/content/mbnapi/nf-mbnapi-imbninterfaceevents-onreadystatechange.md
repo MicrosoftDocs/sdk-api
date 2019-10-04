@@ -12,6 +12,8 @@ ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnRead
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterfaceEvents.OnReadyStateChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

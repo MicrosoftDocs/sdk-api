@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescriptionRelatedPropertyInfo, IPropertyDescriptionRelate
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyDescriptionRelatedPropertyInfo"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

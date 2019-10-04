@@ -12,6 +12,8 @@ ms.keywords: DEDUP_BACKUP_SUPPORT_PARAM_TYPE, DEDUP_BACKUP_SUPPORT_PARAM_TYPE en
 ms.topic: enum
 f1_keywords: 
  - "ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

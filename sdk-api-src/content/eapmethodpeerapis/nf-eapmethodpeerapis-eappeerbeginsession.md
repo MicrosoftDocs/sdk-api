@@ -12,6 +12,8 @@ ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphos
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerBeginSession
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

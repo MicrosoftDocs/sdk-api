@@ -12,6 +12,8 @@ ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConne
 ms.topic: function
 f1_keywords: 
  - "ras/RasEnumConnections"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

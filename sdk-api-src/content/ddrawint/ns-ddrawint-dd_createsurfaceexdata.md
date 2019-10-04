@@ -12,6 +12,8 @@ ms.keywords: '*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA, DD_CREATESURFACE
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATESURFACEEXDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

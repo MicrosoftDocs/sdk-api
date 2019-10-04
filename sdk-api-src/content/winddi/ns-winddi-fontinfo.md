@@ -12,6 +12,8 @@ ms.keywords: "*PFONTINFO, FONTINFO, FONTINFO structure [Display Devices], PFONTI
 ms.topic: struct
 f1_keywords: 
  - "winddi/FONTINFO"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

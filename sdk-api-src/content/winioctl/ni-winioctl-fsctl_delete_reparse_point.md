@@ -12,6 +12,8 @@ ms.keywords: FSCTL_DELETE_REPARSE_POINT, FSCTL_DELETE_REPARSE_POINT control, FSC
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_DELETE_REPARSE_POINT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

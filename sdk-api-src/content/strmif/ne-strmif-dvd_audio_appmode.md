@@ -12,6 +12,8 @@ ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_AUDIO_APPMODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

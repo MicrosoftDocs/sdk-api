@@ -12,6 +12,8 @@ ms.keywords: "*PTHERMAL_EVENT, PTHERMAL_EVENT, PTHERMAL_EVENT structure pointer,
 ms.topic: struct
 f1_keywords: 
  - "powrprof/THERMAL_EVENT"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

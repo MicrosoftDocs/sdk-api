@@ -12,6 +12,8 @@ ms.keywords: MI_Real32A, MI_Real32A structure [Windows Management Infrastructure
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Real32A"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

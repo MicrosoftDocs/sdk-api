@@ -12,6 +12,8 @@ ms.keywords: GetResultViewType2, GetResultViewType2 method [MMC], GetResultViewT
 ms.topic: method
 f1_keywords:
 - mmc/IComponent2.GetResultViewType2
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

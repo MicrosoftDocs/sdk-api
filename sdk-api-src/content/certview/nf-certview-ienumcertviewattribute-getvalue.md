@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Security], GetValue method [Security],IE
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWATTRIBUTE.GetValue"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

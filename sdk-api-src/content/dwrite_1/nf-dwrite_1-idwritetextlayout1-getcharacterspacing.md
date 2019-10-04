@@ -12,6 +12,8 @@ ms.keywords: GetCharacterSpacing, GetCharacterSpacing method [Direct Write], Get
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextLayout1.GetCharacterSpacing"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

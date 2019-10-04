@@ -12,6 +12,8 @@ ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaP
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaPropertyStorage.SetPropertyStream"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

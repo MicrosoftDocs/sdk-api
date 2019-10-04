@@ -12,6 +12,8 @@ ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAH
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.CompareNoCase"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

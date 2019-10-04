@@ -12,6 +12,8 @@ ms.keywords: GetComponentData, GetComponentData method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.GetComponentData"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

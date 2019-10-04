@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_RESOLUTION_FEEDBACK, SYNCMGR_RESOLUTION_FEEDBACK enumeratio
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_RESOLUTION_FEEDBACK"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

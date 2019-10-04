@@ -12,6 +12,8 @@ ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport 
 ms.topic: function
 f1_keywords: 
  - "dxgi1_6/DXGIDeclareAdapterRemovalSupport"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

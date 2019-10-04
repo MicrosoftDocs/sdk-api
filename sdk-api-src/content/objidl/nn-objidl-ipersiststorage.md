@@ -12,6 +12,8 @@ ms.keywords: IPersistStorage, IPersistStorage interface [COM], IPersistStorage i
 ms.topic: interface
 f1_keywords: 
  - "objidl/IPersistStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

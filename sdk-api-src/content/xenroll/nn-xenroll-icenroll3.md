@@ -12,6 +12,8 @@ ms.keywords: ICEnroll3, ICEnroll3 interface [Security], ICEnroll3 interface [Sec
 ms.topic: interface
 f1_keywords: 
  - "xenroll/ICEnroll3"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

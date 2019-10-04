@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_USAGE_MATCH, CERT_USAGE_MATCH, CERT_USAGE_MATCH structure [
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_USAGE_MATCH
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

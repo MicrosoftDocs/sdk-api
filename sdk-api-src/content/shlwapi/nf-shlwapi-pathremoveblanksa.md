@@ -12,6 +12,8 @@ ms.keywords: PathRemoveBlanks, PathRemoveBlanks function [Windows Shell], PathRe
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathRemoveBlanks"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserD
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetEapUserData"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

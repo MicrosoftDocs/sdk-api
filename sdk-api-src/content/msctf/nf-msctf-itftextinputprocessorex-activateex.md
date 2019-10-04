@@ -12,6 +12,8 @@ ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfTextInputProcessorEx.ActivateEx"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

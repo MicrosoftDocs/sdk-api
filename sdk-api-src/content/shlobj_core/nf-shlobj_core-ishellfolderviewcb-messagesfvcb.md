@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewCB interface [Windows Shell],MessageSFVCB method, I
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderViewCB.MessageSFVCB"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

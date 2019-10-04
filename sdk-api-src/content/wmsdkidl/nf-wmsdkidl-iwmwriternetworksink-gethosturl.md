@@ -12,6 +12,8 @@ ms.keywords: GetHostURL, GetHostURL method [windows Media Format], GetHostURL me
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterNetworkSink.GetHostURL"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

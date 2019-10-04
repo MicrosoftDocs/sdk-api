@@ -12,6 +12,8 @@ ms.keywords: QueryPerformanceCounter, QueryPerformanceCounter function [Windows 
 ms.topic: function
 f1_keywords: 
  - "profileapi/QueryPerformanceCounter"
+dev_langs:
+ - c++
 req.header: profileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkEdit
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Enabled"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

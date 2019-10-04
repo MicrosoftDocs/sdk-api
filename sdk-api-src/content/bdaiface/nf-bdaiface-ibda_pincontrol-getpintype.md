@@ -12,6 +12,8 @@ ms.keywords: GetPinType, GetPinType method [Microsoft TV Technologies], GetPinTy
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_PinControl.GetPinType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

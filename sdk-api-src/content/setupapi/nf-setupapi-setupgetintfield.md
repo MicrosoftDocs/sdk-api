@@ -12,6 +12,8 @@ ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetIntField"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastGenerat
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportJob.LastGeneratedInDirectory"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

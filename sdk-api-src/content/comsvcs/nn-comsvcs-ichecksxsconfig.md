@@ -12,6 +12,8 @@ ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig 
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ICheckSxSConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

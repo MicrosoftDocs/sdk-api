@@ -12,6 +12,8 @@ ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 cons
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMU565.XMU565"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

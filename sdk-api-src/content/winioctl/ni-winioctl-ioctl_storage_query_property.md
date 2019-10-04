@@ -12,6 +12,8 @@ ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_QUERY_PROPERTY
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

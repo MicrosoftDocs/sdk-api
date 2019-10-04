@@ -12,6 +12,8 @@ ms.keywords: IAdviseSink2 interface [COM],OnLinkSrcChange method, IAdviseSink2.O
 ms.topic: method
 f1_keywords: 
  - "objidl/IAdviseSink2.OnLinkSrcChange"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

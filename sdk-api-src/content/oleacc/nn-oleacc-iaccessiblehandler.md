@@ -12,6 +12,8 @@ ms.keywords: IAccessibleHandler, IAccessibleHandler interface [Windows Accessibi
 ms.topic: interface
 f1_keywords: 
  - "oleacc/IAccessibleHandler"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MCIWndOpenDialog, MCIWndOpenDialog macro [Windows Multimedia], _win
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndOpenDialog"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

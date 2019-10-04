@@ -12,6 +12,8 @@ ms.keywords: GetUpdatedClipboardFormats, GetUpdatedClipboardFormats function [Da
 ms.topic: function
 f1_keywords: 
  - "winuser/GetUpdatedClipboardFormats"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

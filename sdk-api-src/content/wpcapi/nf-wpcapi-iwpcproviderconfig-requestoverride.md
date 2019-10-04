@@ -12,6 +12,8 @@ ms.keywords: IWPCProviderConfig interface,RequestOverride method, IWPCProviderCo
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderConfig.RequestOverride"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

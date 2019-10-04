@@ -12,6 +12,8 @@ ms.keywords: IWMDeviceManager2 interface [windows Media Device Manager],Reinitia
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDeviceManager2.Reinitialize"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

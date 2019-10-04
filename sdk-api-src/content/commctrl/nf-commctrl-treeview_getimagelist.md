@@ -12,6 +12,8 @@ ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImage
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

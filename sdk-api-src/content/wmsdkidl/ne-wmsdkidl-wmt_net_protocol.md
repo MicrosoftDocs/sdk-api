@@ -12,6 +12,8 @@ ms.keywords: WMT_NET_PROTOCOL, WMT_NET_PROTOCOL enumeration [windows Media Forma
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_NET_PROTOCOL"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

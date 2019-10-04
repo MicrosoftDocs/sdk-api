@@ -12,6 +12,8 @@ ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "textserv/IRichEditUiaInformation"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

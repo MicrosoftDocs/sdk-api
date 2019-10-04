@@ -12,6 +12,8 @@ ms.keywords: 6e59189f-e563-27f9-5003-f6af77fe5eb9, GetConstantBufferByIndex, Get
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetConstantBufferByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

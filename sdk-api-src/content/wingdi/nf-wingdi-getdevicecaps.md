@@ -12,6 +12,8 @@ ms.keywords: ASPECTX, ASPECTXY, ASPECTY, BITSPIXEL, BLTALIGNMENT, CLIPCAPS, COLO
 ms.topic: function
 f1_keywords:
 - wingdi/GetDeviceCaps
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

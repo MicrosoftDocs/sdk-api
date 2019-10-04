@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorGetIntByIndex, XMVectorGetIntByIndex, XMVector
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorGetIntByIndex"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

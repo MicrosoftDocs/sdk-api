@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_COND_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multim
 ms.topic: function
 f1_keywords: 
  - "msacm/acmMetrics"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

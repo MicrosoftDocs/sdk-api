@@ -12,6 +12,8 @@ ms.keywords: GetFrameFormat, GetFrameFormat method [Remote Desktop Services], Ge
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpoint.GetFrameFormat"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

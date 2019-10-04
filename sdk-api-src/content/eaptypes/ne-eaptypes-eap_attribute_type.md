@@ -12,6 +12,8 @@ ms.keywords: EAP_ATTRIBUTE_TYPE, EAP_ATTRIBUTE_TYPE enumeration [EAPHost], EapAt
 ms.topic: enum
 f1_keywords:
 - eaptypes/EAP_ATTRIBUTE_TYPE
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

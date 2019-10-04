@@ -12,6 +12,8 @@ ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMes
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPMessage"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

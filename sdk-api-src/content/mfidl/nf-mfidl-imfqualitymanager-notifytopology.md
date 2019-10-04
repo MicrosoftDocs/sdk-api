@@ -12,6 +12,8 @@ ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFQualityManager.NotifyTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

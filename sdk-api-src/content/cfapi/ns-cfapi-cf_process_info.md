@@ -12,6 +12,8 @@ ms.keywords: CF_PROCESS_INFO, CF_PROCESS_INFO structure, cfapi/CF_PROCESS_INFO, 
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_PROCESS_INFO"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

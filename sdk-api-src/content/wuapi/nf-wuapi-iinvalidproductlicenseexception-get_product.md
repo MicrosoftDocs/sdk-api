@@ -12,6 +12,8 @@ ms.keywords: IInvalidProductLicenseException interface [Windows Update Agent],Pr
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInvalidProductLicenseException.Product"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

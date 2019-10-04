@@ -12,6 +12,8 @@ ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCa
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardUIDlgSelectCard"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfDisplayAttributeMgr interface [Text Services Framework],OnUpdate
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDisplayAttributeMgr.OnUpdateInfo"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

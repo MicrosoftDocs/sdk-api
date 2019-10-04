@@ -12,6 +12,8 @@ ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security],
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertGetPublicKeyLength"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

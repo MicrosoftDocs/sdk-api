@@ -12,6 +12,8 @@ ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, Cryp
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGetOIDFunctionAddress"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

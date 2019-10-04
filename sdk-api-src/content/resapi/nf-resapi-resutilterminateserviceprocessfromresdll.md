@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, PRESUTIL_TERMINATE
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilTerminateServiceProcessFromResDll"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_ERR, MF_MEDIA_ENGINE_ERR enumeration [Media Foundat
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_ERR"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

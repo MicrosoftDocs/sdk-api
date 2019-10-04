@@ -12,6 +12,8 @@ ms.keywords: GetStereo3DFramePackingMode, GetStereo3DFramePackingMode method [Me
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetStereo3DFramePackingMode"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

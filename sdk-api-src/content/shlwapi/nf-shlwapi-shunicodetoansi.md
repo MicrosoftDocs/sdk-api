@@ -12,6 +12,8 @@ ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_S
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHUnicodeToAnsi"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

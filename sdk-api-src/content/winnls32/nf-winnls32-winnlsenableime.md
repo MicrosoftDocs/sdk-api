@@ -12,6 +12,8 @@ ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WIN
 ms.topic: function
 f1_keywords: 
  - "winnls32/WINNLSEnableIME"
+dev_langs:
+ - c++
 req.header: winnls32.h
 req.include-header: Windows.h
 req.target-type: Windows

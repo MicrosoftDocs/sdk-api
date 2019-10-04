@@ -12,6 +12,8 @@ ms.keywords: Bitmap, Bitmap class [GDI+], Bitmap class [GDI+],described, _gdiplu
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/Bitmap"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

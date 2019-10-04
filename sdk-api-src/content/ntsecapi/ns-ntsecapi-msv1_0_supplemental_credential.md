@@ -12,6 +12,8 @@ ms.keywords: "*PMSV1_0_SUPPLEMENTAL_CREDENTIAL, MSV1_0_CRED_LM_PRESENT, MSV1_0_C
 ms.topic: struct
 f1_keywords: 
  - "ntsecapi/MSV1_0_SUPPLEMENTAL_CREDENTIAL"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

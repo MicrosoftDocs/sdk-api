@@ -12,6 +12,8 @@ ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_D
 ms.topic: function
 f1_keywords: 
  - "fileapi/SetFileAttributes"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

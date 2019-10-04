@@ -12,6 +12,8 @@ ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextS
 ms.topic: method
 f1_keywords: 
  - "tom/ITextSelection.SetFlags"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

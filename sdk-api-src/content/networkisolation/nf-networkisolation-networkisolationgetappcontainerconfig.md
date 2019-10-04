@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContai
 ms.topic: function
 f1_keywords:
 - networkisolation/NetworkIsolationGetAppContainerConfig
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskInfo.TargetId"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCE
 ms.topic: struct
 f1_keywords: 
  - "ddrawint/DD_MISCELLANEOUS2CALLBACKS"
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

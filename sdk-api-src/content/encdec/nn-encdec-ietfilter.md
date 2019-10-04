@@ -12,6 +12,8 @@ ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilt
 ms.topic: interface
 f1_keywords: 
  - "encdec/IETFilter"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

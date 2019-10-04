@@ -12,6 +12,8 @@ ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Founda
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetAudioStreamCategory
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

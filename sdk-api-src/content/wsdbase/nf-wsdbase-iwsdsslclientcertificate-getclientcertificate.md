@@ -12,6 +12,8 @@ ms.keywords: GetClientCertificate, GetClientCertificate method, GetClientCertifi
 ms.topic: method
 f1_keywords:
 - wsdbase/IWSDSSLClientCertificate.GetClientCertificate
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

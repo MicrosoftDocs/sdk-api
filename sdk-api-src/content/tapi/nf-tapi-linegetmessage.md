@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetmessage, lineGetMessage, lineGetMessage function [TA
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetMessage"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

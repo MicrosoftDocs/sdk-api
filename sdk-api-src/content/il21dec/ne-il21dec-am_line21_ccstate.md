@@ -12,6 +12,8 @@ ms.keywords: "*PAM_LINE21_CCSTATE, AM_L21_CCSTATE_Off, AM_L21_CCSTATE_On, AM_LIN
 ms.topic: enum
 f1_keywords: 
  - "il21dec/AM_LINE21_CCSTATE"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

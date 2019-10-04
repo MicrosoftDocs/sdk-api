@@ -12,6 +12,8 @@ ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], IT
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITToneDetectionEvent"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OPM_GET_CODEC_INFO_PARAMETERS, OPM_GET_CODEC_INFO_PARAMETERS struct
 ms.topic: struct
 f1_keywords: 
  - "opmapi/OPM_GET_CODEC_INFO_PARAMETERS"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

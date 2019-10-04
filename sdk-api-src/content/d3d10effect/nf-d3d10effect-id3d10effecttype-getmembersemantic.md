@@ -12,6 +12,8 @@ ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic, GetMemberS
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType.GetMemberSemantic"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

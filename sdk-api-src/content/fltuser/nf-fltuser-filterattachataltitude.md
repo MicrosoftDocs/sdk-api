@@ -12,6 +12,8 @@ ms.keywords: FilterAttachAtAltitude, FilterAttachAtAltitude function [Installabl
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterAttachAtAltitude"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

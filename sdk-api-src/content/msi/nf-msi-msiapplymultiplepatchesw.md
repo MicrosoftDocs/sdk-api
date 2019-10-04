@@ -12,6 +12,8 @@ ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApply
 ms.topic: function
 f1_keywords: 
  - "msi/MsiApplyMultiplePatches"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

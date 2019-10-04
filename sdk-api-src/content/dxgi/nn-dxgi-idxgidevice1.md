@@ -12,6 +12,8 @@ ms.keywords: 9db12484-8e98-1317-79e4-cbaa511683b8, IDXGIDevice1, IDXGIDevice1 in
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIDevice1"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

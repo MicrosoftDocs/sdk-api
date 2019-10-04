@@ -12,6 +12,8 @@ ms.keywords: GetStreamContent, GetStreamContent method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor.GetStreamContent"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

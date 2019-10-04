@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAg
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetAgentSessionList"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

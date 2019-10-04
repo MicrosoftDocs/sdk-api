@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_DISK_IS_WRITABLE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

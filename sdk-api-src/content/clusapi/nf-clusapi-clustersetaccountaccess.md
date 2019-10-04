@@ -12,6 +12,8 @@ ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSA
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterSetAccountAccess"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

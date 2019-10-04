@@ -12,6 +12,8 @@ ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.Cancelled"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Edit_SetWordBreakProc, Edit_SetWordBreakProc macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetWordBreakProc"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

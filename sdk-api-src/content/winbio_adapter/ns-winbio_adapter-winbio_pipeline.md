@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_PIPELINE, PWINBIO_PIPELINE, PWINBIO_PIPELINE structure po
 ms.topic: struct
 f1_keywords: 
  - "winbio_adapter/WINBIO_PIPELINE"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

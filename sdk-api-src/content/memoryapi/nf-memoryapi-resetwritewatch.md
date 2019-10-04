@@ -12,6 +12,8 @@ ms.keywords: ResetWriteWatch, ResetWriteWatch function, _win32_resetwritewatch, 
 ms.topic: function
 f1_keywords: 
  - "memoryapi/ResetWriteWatch"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

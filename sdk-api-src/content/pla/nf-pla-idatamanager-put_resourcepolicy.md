@@ -12,6 +12,8 @@ ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.ResourcePolicy"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

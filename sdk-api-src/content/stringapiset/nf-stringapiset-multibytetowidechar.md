@@ -12,6 +12,8 @@ ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_U
 ms.topic: function
 f1_keywords:
 - stringapiset/MultiByteToWideChar
+dev_langs:
+ - c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

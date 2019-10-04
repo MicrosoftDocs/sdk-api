@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession fu
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientCancelSession"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IStream interface [Structured Storage],LockRegion method, IStream.L
 ms.topic: method
 f1_keywords: 
  - "objidl/IStream.LockRegion"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

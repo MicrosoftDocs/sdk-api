@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReader interface [Media Foundation],SetCurrentMediaType me
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReader.SetCurrentMediaType"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_MODE_DESC1, DXGI_MODE_DESC1 structure [DXGI], direct3ddxgi.dxg
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_2/DXGI_MODE_DESC1"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

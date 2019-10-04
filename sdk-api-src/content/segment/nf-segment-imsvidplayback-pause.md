@@ -12,6 +12,8 @@ ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Pause method, 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlayback.Pause"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IGPMDomain2 interface [GPMC],RestoreStarterGPO method, IGPMDomain2.
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain2.RestoreStarterGPO"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

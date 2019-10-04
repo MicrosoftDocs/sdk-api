@@ -12,6 +12,8 @@ ms.keywords: MFNETSOURCE_FILE, MFNETSOURCE_HTTP, MFNETSOURCE_MULTICAST, MFNETSOU
 ms.topic: enum
 f1_keywords:
 - mfidl/MFNETSOURCE_PROTOCOL_TYPE
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

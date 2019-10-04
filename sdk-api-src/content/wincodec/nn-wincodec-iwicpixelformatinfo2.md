@@ -12,6 +12,8 @@ ms.keywords: IWICPixelFormatInfo2, IWICPixelFormatInfo2 interface [Windows Imagi
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICPixelFormatInfo2"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RegisterCallbac
 ms.topic: method
 f1_keywords: 
  - "winsync/IAsynchronousDataRetriever.RegisterCallback"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

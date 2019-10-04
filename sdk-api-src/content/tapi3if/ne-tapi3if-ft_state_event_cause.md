@@ -12,6 +12,8 @@ ms.keywords: FTEC_END_OF_FILE, FTEC_MAX_DURATION_REACHED, FTEC_NORMAL, FTEC_PAUS
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/FT_STATE_EVENT_CAUSE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

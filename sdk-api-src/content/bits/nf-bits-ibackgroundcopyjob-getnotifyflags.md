@@ -12,6 +12,8 @@ ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION,
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetNotifyFlags"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastSelectionUI pr
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.SupportHighContrastSelectionUI"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PackageOrigin, PackageOrigin enumeration [App packaging and managem
 ms.topic: enum
 f1_keywords: 
  - "appmodel/PackageOrigin"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

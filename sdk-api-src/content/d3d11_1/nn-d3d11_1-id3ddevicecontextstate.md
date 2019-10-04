@@ -12,6 +12,8 @@ ms.keywords: ID3DDeviceContextState, ID3DDeviceContextState interface [Direct3D 
 ms.topic: interface
 f1_keywords: 
  - "d3d11_1/ID3DDeviceContextState"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

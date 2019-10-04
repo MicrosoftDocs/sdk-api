@@ -12,6 +12,8 @@ ms.keywords: GetCustomEndCap, GetCustomEndCap method [GDI+], GetCustomEndCap met
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetCustomEndCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

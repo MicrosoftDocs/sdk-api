@@ -12,6 +12,8 @@ ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct 
 ms.topic: interface
 f1_keywords: 
  - "dwrite/IDWriteLocalizedStrings"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNe
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.GetNext"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

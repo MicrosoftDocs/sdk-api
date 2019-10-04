@@ -12,6 +12,8 @@ ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _w
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateBrushIndirect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

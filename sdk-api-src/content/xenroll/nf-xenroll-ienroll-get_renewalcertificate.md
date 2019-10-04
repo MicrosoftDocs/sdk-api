@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.R
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.RenewalCertificate"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

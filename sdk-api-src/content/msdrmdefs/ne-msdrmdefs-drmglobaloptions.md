@@ -12,6 +12,8 @@ ms.keywords: DRMGLOBALOPTIONS, DRMGLOBALOPTIONS enumeration [Active Directory Ri
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMGLOBALOPTIONS"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

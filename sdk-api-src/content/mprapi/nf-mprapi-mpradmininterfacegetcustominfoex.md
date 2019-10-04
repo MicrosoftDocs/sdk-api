@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceGetCustomInfoEx, MprAdminInterfaceGetCustomInfoEx 
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceGetCustomInfoEx
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

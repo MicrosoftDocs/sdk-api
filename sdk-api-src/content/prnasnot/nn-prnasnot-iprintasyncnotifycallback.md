@@ -12,6 +12,8 @@ ms.keywords: IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Win
 ms.topic: interface
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyCallback"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

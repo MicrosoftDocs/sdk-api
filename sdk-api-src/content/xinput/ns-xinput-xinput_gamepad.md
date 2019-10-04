@@ -12,6 +12,8 @@ ms.keywords: '*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure point
 ms.topic: struct
 f1_keywords:
 - xinput/XINPUT_GAMEPAD
+dev_langs:
+ - c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

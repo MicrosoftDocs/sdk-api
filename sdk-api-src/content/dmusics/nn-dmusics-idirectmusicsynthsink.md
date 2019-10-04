@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devic
 ms.topic: interface
 f1_keywords: 
  - "dmusics/IDirectMusicSynthSink"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

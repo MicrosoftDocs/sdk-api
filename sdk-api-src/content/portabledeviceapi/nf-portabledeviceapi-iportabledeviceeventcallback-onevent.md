@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SD
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceEventCallback.OnEvent"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

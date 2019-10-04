@@ -12,6 +12,8 @@ ms.keywords: DWM_TIMING_INFO, DWM_TIMING_INFO structure [Desktop Window Manager]
 ms.topic: struct
 f1_keywords: 
  - "dwmapi/DWM_TIMING_INFO"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_status method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSyncDevice.get_status"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

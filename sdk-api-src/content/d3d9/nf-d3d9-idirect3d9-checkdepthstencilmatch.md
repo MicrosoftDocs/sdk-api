@@ -12,6 +12,8 @@ ms.keywords: 64b8e751-080a-bbb1-2461-2c51a5600a61, CheckDepthStencilMatch, Check
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9.CheckDepthStencilMatch"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

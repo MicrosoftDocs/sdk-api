@@ -12,6 +12,8 @@ ms.keywords: IMSVidXDS interface [Microsoft TV Technologies],get_ChannelChangeIn
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidXDS.get_ChannelChangeInterface"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

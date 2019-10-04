@@ -12,6 +12,8 @@ ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9
 ms.topic: function
 f1_keywords: 
  - "recapis/EndInkInput"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acq
 ms.topic: interface
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

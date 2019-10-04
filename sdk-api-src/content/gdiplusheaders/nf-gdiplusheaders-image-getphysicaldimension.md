@@ -12,6 +12,8 @@ ms.keywords: GetPhysicalDimension, GetPhysicalDimension method [GDI+], GetPhysic
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetPhysicalDimension"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VSS_SM_ALL_FLAGS, VSS_SM_BACKUP_EVENTS_FLAG, VSS_SM_IO_THROTTLING_F
 ms.topic: enum
 f1_keywords: 
  - "vswriter/VSS_SUBSCRIBE_MASK"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

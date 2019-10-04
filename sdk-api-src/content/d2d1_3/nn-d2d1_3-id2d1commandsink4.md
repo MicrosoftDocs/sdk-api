@@ -12,6 +12,8 @@ ms.keywords: ID2D1CommandSink4, ID2D1CommandSink4 interface [Direct2D], ID2D1Com
 ms.topic: interface
 f1_keywords: 
  - "d2d1_3/ID2D1CommandSink4"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

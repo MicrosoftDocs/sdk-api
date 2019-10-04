@@ -12,6 +12,8 @@ ms.keywords: "*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES stru
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIEFFECTATTRIBUTES"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

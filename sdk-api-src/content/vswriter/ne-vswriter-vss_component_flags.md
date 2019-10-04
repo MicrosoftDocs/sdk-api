@@ -12,6 +12,8 @@ ms.keywords: VSS_CF_APP_ROLLBACK_RECOVERY, VSS_CF_BACKUP_RECOVERY, VSS_CF_NOT_SY
 ms.topic: enum
 f1_keywords:
 - vswriter/VSS_COMPONENT_FLAGS
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Button_SetElevationRequiredState, Button_SetElevationRequiredState 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_SetElevationRequiredState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

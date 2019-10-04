@@ -12,6 +12,8 @@ ms.keywords: IEventObjectCollection interface [COM+],NewEnum property, IEventObj
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectCollection.NewEnum"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

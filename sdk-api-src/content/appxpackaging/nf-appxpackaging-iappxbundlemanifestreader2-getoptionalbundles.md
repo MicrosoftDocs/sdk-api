@@ -12,6 +12,8 @@ ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and ma
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestReader2.GetOptionalBundles"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

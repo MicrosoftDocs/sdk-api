@@ -12,6 +12,8 @@ ms.keywords: IMDServiceProvider, IMDServiceProvider interface [windows Media Dev
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IMDServiceProvider"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

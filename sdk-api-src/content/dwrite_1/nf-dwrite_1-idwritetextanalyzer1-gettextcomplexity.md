@@ -12,6 +12,8 @@ ms.keywords: GetTextComplexity, GetTextComplexity method [Direct Write], GetText
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.GetTextComplexity"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

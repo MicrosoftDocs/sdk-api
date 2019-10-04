@@ -12,6 +12,8 @@ ms.keywords: DICTIONARYPROPERTIES, DICTIONARYPROPERTIES enumeration [Network Pol
 ms.topic: enum
 f1_keywords:
 - sdoias/DICTIONARYPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

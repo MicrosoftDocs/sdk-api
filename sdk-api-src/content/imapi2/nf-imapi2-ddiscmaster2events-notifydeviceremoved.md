@@ -12,6 +12,8 @@ ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceRemoved method, DD
 ms.topic: method
 f1_keywords: 
  - "imapi2/DDiscMaster2Events.NotifyDeviceRemoved"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

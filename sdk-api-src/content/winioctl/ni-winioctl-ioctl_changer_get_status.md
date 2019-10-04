@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_C
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_CHANGER_GET_STATUS"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

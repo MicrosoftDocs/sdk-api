@@ -12,6 +12,8 @@ ms.keywords: PSS_QUERY_AUXILIARY_PAGES_INFORMATION, PSS_QUERY_HANDLE_INFORMATION
 ms.topic: enum
 f1_keywords: 
  - "processsnapshot/PSS_QUERY_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

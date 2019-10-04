@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchBase2 interface [Windows Sync],SerializeWithOptions
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase2.SerializeWithOptions"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

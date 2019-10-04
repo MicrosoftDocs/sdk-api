@@ -12,6 +12,8 @@ ms.keywords: Continue, Continue method [ADSI], Continue method [ADSI],IADsServic
 ms.topic: method
 f1_keywords: 
  - "iads/IADsServiceOperations.Continue"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

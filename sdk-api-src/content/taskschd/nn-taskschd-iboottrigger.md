@@ -12,6 +12,8 @@ ms.keywords: IBootTrigger, IBootTrigger interface [Task Scheduler], IBootTrigger
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IBootTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

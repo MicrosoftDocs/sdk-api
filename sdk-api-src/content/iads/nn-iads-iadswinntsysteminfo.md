@@ -12,6 +12,8 @@ ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinN
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsWinNTSystemInfo"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

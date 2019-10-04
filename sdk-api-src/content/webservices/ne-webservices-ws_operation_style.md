@@ -12,6 +12,8 @@ ms.keywords: WS_NON_RPC_LITERAL_OPERATION, WS_OPERATION_STYLE, WS_OPERATION_STYL
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_OPERATION_STYLE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/
 ms.topic: function
 f1_keywords: 
  - "winternl/NtClose"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

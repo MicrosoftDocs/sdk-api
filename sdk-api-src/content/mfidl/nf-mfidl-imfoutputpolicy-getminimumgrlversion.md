@@ -12,6 +12,8 @@ ms.keywords: 41da430b-9cdd-4ab0-873d-f6d94f48d401, GetMinimumGRLVersion, GetMini
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputPolicy.GetMinimumGRLVersion"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

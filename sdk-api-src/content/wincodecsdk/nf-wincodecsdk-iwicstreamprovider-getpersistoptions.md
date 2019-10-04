@@ -12,6 +12,8 @@ ms.keywords: GetPersistOptions, GetPersistOptions method [Windows Imaging Compon
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICStreamProvider.GetPersistOptions"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

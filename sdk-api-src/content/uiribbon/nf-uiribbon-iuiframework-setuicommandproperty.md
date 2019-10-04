@@ -12,6 +12,8 @@ ms.keywords: IUIFramework interface [Windows Ribbon],SetUICommandProperty method
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.SetUICommandProperty"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

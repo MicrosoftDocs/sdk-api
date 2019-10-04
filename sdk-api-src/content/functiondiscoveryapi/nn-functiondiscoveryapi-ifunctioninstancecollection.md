@@ -12,6 +12,8 @@ ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface,
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollection"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

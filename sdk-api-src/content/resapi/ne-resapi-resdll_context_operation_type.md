@@ -12,6 +12,8 @@ ms.keywords: "*PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE, P
 ms.topic: enum
 f1_keywords: 
  - "resapi/RESDLL_CONTEXT_OPERATION_TYPE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

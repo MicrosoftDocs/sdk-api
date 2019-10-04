@@ -12,6 +12,8 @@ ms.keywords: WSASend, WSASend function [Winsock], _win32_wsasend_2, winsock.wsas
 ms.topic: function
 f1_keywords:
 - winsock2/WSASend
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

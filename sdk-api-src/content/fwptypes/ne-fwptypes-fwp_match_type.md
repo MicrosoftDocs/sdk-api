@@ -12,6 +12,8 @@ ms.keywords: FWP_MATCH_EQUAL, FWP_MATCH_EQUAL_CASE_INSENSITIVE, FWP_MATCH_FLAGS_
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_MATCH_TYPE"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

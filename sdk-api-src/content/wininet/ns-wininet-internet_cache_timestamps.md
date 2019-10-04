@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS, INTERNET_
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_CACHE_TIMESTAMPS"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

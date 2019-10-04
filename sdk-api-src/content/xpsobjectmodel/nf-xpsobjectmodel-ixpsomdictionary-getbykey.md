@@ -12,6 +12,8 @@ ms.keywords: GetByKey, GetByKey method [XPS Documents and Packaging], GetByKey m
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDictionary.GetByKey"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

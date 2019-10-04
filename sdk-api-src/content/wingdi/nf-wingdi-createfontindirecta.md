@@ -12,6 +12,8 @@ ms.keywords: CreateFontIndirect, CreateFontIndirect function [Windows GDI], Crea
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateFontIndirect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

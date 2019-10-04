@@ -12,6 +12,8 @@ ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPE
 ms.topic: method
 f1_keywords: 
  - "strmif/IMPEG2StreamIdMap.UnmapStreamId"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

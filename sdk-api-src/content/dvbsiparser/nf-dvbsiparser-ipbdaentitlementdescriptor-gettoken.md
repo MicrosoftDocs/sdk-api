@@ -12,6 +12,8 @@ ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken met
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDAEntitlementDescriptor.GetToken"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

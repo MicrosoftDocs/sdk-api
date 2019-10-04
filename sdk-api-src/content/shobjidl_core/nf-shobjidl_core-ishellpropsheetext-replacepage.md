@@ -12,6 +12,8 @@ ms.keywords: IShellPropSheetExt interface [Windows Shell],ReplacePage method, IS
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellPropSheetExt.ReplacePage
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

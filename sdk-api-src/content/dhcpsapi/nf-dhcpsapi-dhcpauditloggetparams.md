@@ -12,6 +12,8 @@ ms.keywords: DhcpAuditLogGetParams, DhcpAuditLogGetParams function [DHCP], dhcp.
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpAuditLogGetParams"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

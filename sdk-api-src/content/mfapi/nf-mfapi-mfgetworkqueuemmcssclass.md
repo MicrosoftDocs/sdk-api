@@ -12,6 +12,8 @@ ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFG
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetWorkQueueMMCSSClass"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

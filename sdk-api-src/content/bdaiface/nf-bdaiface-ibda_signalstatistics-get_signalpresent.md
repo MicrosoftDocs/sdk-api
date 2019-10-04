@@ -12,6 +12,8 @@ ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_Sig
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_SignalStatistics.get_SignalPresent"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

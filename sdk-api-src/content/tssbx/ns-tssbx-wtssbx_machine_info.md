@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_MACHINE_INFO, WTSSBX_MACHINE_INFO structure [Remote Desktop 
 ms.topic: struct
 f1_keywords: 
  - "tssbx/WTSSBX_MACHINE_INFO"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

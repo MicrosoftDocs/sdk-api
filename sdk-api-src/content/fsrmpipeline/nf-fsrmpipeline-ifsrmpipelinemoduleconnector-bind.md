@@ -12,6 +12,8 @@ ms.keywords: Bind, Bind method [File Server Resource Manager], Bind method [File
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPipelineModuleConnector.Bind"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

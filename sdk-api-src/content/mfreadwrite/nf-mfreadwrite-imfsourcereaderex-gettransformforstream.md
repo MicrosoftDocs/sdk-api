@@ -12,6 +12,8 @@ ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderEx.GetTransformForStream"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

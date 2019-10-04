@@ -12,6 +12,8 @@ ms.keywords: FVST_EMPTYTEXT, IFolderView2 interface [Windows Shell],SetText meth
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView2.SetText"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

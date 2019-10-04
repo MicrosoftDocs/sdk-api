@@ -12,6 +12,8 @@ ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHGlobalCounterGetValue"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

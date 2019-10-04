@@ -12,6 +12,8 @@ ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupported
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetSupportedDataFields"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

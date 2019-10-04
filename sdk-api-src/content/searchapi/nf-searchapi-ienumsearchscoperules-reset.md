@@ -12,6 +12,8 @@ ms.keywords: IEnumSearchScopeRules interface [search],Reset method, IEnumSearchS
 ms.topic: method
 f1_keywords: 
  - "searchapi/IEnumSearchScopeRules.Reset"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

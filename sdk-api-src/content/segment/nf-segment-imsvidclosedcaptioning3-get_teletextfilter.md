@@ -12,6 +12,8 @@ ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_T
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidClosedCaptioning3.get_TeleTextFilter"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAd
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathAddBackslash"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

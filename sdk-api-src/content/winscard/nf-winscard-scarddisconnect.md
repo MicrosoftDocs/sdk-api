@@ -12,6 +12,8 @@ ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardDisconnect"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

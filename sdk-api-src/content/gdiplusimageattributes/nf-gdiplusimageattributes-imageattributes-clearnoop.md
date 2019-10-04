@@ -12,6 +12,8 @@ ms.keywords: ClearNoOp, ClearNoOp method [GDI+], ClearNoOp method [GDI+],ImageAt
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearNoOp"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

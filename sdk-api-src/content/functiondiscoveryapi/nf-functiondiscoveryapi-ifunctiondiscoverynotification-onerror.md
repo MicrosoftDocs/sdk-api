@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryNotification interface,OnError method, IFunctionD
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnError"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

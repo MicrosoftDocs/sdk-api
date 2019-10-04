@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetDashPattern method, Pen.SetDashPattern, Pen::Se
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetDashPattern"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

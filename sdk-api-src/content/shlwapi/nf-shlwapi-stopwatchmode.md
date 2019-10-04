@@ -12,6 +12,8 @@ ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopW
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StopWatchMode"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

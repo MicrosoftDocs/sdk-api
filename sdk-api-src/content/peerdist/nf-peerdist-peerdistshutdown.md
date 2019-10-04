@@ -12,6 +12,8 @@ ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistShutdown"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

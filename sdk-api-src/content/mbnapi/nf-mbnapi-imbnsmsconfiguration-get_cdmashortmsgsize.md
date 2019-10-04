@@ -12,6 +12,8 @@ ms.keywords: CdmaShortMsgSize property [Microsoft Broadband Networks], CdmaShort
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsConfiguration.CdmaShortMsgSize"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

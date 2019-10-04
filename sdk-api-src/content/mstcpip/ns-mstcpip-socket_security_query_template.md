@@ -12,6 +12,8 @@ ms.keywords: SOCKET_SECURITY_QUERY_TEMPLATE, SOCKET_SECURITY_QUERY_TEMPLATE stru
 ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

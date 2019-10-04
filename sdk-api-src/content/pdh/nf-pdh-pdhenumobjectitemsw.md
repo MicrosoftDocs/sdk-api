@@ -12,6 +12,8 @@ ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhEnumObjectItems"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

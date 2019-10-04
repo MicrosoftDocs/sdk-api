@@ -12,6 +12,8 @@ ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetM
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetModified"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

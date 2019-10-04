@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],W
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSinkEvent.WriteFailure"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

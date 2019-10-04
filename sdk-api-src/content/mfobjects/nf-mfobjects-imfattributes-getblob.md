@@ -12,6 +12,8 @@ ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob, GetBlob method [Medi
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetBlob
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

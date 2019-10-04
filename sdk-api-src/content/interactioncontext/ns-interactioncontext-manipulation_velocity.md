@@ -12,6 +12,8 @@ ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intco
 ms.topic: struct
 f1_keywords: 
  - "interactioncontext/MANIPULATION_VELOCITY"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

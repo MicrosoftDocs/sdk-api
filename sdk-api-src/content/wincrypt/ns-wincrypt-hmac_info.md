@@ -12,6 +12,8 @@ ms.keywords: "*PHMAC_INFO, HMAC_INFO, HMAC_INFO structure [Security], PHMAC_INFO
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/HMAC_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

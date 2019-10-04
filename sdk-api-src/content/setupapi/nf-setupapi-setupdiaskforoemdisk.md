@@ -12,6 +12,8 @@ ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Dri
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiAskForOEMDisk
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

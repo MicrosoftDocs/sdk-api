@@ -12,6 +12,8 @@ ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy, GetPolicy method [
 ms.topic: method
 f1_keywords:
 - mfidl/IMFInputTrustAuthority.GetPolicy
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

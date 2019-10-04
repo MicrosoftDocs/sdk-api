@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Reassign method, IFaxI
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage2.Reassign"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

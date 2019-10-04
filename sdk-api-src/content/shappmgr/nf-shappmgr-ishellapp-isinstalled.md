@@ -12,6 +12,8 @@ ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.I
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IShellApp.IsInstalled"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetEnableData, GetEnableData method [Media Foundation], GetEnableDa
 ms.topic: method
 f1_keywords:
 - mfidl/IMFContentEnabler.GetEnableData
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

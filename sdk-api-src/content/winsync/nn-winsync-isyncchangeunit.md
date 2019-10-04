@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], ISyncCha
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncChangeUnit"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

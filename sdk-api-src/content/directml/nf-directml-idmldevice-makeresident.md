@@ -12,6 +12,8 @@ ms.keywords: IDMLDevice interface,MakeResident method, IDMLDevice.MakeResident, 
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.MakeResident"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

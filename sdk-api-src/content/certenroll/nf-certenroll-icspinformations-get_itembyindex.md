@@ -12,6 +12,8 @@ ms.keywords: ICspInformations interface [Security],ItemByIndex property, ICspInf
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformations.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

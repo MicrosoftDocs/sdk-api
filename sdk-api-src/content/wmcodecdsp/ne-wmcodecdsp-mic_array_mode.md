@@ -12,6 +12,8 @@ ms.keywords: MICARRAY_EXTERN_BEAM, MICARRAY_FIXED_BEAM, MICARRAY_SIMPLE_SUM, MIC
 ms.topic: enum
 f1_keywords: 
  - "wmcodecdsp/MIC_ARRAY_MODE"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

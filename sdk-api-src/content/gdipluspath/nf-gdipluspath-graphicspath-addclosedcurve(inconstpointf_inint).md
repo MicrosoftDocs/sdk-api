@@ -9,6 +9,8 @@ ms.keywords: GraphicsPath::AddClosedCurve
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPath::AddClosedCurve"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -12,6 +12,8 @@ ms.keywords: CanMaximize property [Windows Accessibility], CanMaximize property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IWindowProvider.CanMaximize"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

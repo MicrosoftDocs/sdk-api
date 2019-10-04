@@ -12,6 +12,8 @@ ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylus
 ms.topic: enum
 f1_keywords: 
  - "rtscom/StylusQueue"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

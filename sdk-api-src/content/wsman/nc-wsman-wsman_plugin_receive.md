@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_RECEIVE, WSMAN_PLUGIN_RECEIVE callback, WSMAN_PLUGIN_R
 ms.topic: callback
 f1_keywords:
 - wsman/WSMAN_PLUGIN_RECEIVE
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

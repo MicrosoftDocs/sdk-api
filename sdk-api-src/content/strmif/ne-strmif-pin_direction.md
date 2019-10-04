@@ -12,6 +12,8 @@ ms.keywords: PINDIR_INPUT, PINDIR_OUTPUT, PIN_DIRECTION, PIN_DIRECTION , PIN_DIR
 ms.topic: enum
 f1_keywords: 
  - "strmif/PIN_DIRECTION"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHU
 ms.topic: struct
 f1_keywords: 
  - "filter/STAT_CHUNK"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

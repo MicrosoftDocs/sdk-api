@@ -12,6 +12,8 @@ ms.keywords: Count property [GPMC], Count property [GPMC],GPMBackupCollection ob
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackupCollection.Count"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

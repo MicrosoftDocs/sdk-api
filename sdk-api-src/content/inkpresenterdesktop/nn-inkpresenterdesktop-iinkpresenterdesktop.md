@@ -12,6 +12,8 @@ ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenter
 ms.topic: interface
 f1_keywords: 
  - "inkpresenterdesktop/IInkPresenterDesktop"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

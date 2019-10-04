@@ -12,6 +12,8 @@ ms.keywords: D2D1_ALPHA_MODE, D2D1_ALPHA_MODE enumeration [Direct2D], D2D1_ALPHA
 ms.topic: enum
 f1_keywords: 
  - "dcommon/D2D1_ALPHA_MODE"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

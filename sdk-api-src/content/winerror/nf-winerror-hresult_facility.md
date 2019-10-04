@@ -12,6 +12,8 @@ ms.keywords: HRESULT_FACILITY, HRESULT_FACILITY macro [COM], _com_HRESULT_FACILI
 ms.topic: macro
 f1_keywords: 
  - "winerror/HRESULT_FACILITY"
+dev_langs:
+ - c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

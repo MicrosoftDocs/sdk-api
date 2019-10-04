@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_RESET_ALL, WINHTTP_RESET_NOTIFY_NETWORK_CHANGED, WINHTTP_RE
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpResetAutoProxy"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

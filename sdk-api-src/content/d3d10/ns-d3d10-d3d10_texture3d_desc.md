@@ -12,6 +12,8 @@ ms.keywords: CD3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC s
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEXTURE3D_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

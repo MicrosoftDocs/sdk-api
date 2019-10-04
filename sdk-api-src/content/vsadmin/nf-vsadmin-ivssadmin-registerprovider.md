@@ -12,6 +12,8 @@ ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.Regist
 ms.topic: method
 f1_keywords:
 - vsadmin/IVssAdmin.RegisterProvider
+dev_langs:
+ - c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

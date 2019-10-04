@@ -12,6 +12,8 @@ ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLoc
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.GetIconLocation"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

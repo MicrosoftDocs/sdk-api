@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIASOURCE_STATUS_INFO, MF_MEDIASOURCE_STATUS_INFO enumeration 
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_MEDIASOURCE_STATUS_INFO"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

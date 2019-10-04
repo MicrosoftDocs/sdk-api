@@ -12,6 +12,8 @@ ms.keywords: WSDCreateDeviceProxyAdvanced, WSDCreateDeviceProxyAdvanced function
 ms.topic: function
 f1_keywords: 
  - "wsdclient/WSDCreateDeviceProxyAdvanced"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

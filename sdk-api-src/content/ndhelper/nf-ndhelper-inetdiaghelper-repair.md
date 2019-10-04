@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelper interface [NDF],Repair method, INetDiagHelper.Repair
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.Repair"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

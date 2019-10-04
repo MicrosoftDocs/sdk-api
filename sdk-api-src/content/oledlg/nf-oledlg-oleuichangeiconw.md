@@ -12,6 +12,8 @@ ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, 
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIChangeIcon"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

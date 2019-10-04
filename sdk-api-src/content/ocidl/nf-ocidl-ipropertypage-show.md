@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage interface [COM],Show method, IPropertyPage.Show, IPro
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Show"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

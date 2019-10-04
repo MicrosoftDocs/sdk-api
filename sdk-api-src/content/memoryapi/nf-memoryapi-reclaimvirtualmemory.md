@@ -12,6 +12,8 @@ ms.keywords: ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvi
 ms.topic: function
 f1_keywords: 
  - "memoryapi/ReclaimVirtualMemory"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

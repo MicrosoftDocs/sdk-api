@@ -12,6 +12,8 @@ ms.keywords: IMathInputControl interface [Tablet PC],RemoveFunctionName method, 
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.RemoveFunctionName"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

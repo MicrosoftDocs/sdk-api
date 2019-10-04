@@ -12,6 +12,8 @@ ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload m
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteRemoteFontFileStream.BeginDownload"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

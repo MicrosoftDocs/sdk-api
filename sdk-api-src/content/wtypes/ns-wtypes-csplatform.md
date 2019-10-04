@@ -12,6 +12,8 @@ ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplat
 ms.topic: struct
 f1_keywords:
 - wtypes/CSPLATFORM
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

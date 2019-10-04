@@ -12,6 +12,8 @@ ms.keywords: ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundatio
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11CryptoSession"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

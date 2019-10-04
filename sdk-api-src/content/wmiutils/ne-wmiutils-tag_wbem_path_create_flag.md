@@ -12,6 +12,8 @@ ms.keywords: WBEMPATH_CREATE_ACCEPT_ABSOLUTE, WBEMPATH_CREATE_ACCEPT_ALL, WBEMPA
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/tag_WBEM_PATH_CREATE_FLAG"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

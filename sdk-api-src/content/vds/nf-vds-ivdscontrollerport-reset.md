@@ -12,6 +12,8 @@ ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsControllerPort.Reset"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

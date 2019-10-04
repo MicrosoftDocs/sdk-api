@@ -12,6 +12,8 @@ ms.keywords: ITfFnConfigureRegisterWord interface [Text Services Framework],Show
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnConfigureRegisterWord.Show"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

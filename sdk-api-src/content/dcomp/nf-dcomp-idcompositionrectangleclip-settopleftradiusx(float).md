@@ -12,6 +12,8 @@ ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangl
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionRectangleClip::SetTopLeftRadiusX"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

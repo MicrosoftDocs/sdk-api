@@ -12,6 +12,8 @@ ms.keywords: IX509AttributeCspProvider interface [Security],ProviderName propert
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeCspProvider.ProviderName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

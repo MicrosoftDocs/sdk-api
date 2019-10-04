@@ -12,6 +12,8 @@ ms.keywords: IFaxStatus interface [Fax Service],SubmittedTime property, IFaxStat
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.SubmittedTime"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITravelLog interface [Windows Shell],UpdateExternal method, ITravel
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.UpdateExternal"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

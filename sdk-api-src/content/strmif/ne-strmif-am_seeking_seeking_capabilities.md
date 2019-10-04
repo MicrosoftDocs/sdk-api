@@ -12,6 +12,8 @@ ms.keywords: AM_SEEKING_CanDoSegments, AM_SEEKING_CanGetCurrentPos, AM_SEEKING_C
 ms.topic: enum
 f1_keywords: 
  - "strmif/AM_SEEKING_SEEKING_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

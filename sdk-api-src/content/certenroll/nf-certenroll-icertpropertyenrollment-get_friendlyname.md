@@ -12,6 +12,8 @@ ms.keywords: FriendlyName property [Security], FriendlyName property [Security],
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollment.FriendlyName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

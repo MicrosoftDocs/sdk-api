@@ -12,6 +12,8 @@ ms.keywords: ListBox_AddItemData, ListBox_AddItemData macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_AddItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

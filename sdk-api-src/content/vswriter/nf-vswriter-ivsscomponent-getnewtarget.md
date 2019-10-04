@@ -12,6 +12,8 @@ ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetNewTarget"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

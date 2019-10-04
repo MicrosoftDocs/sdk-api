@@ -12,6 +12,8 @@ ms.keywords: CertStoreProvCloseCallback, PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STO
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_CLOSE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

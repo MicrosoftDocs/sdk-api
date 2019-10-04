@@ -8,6 +8,10 @@ ms.assetid: 1dc0ed58-ae25-4c19-81a8-74fd0ad83580
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_SIZE_RANGE
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_SIZE_RANGE, D3D12_VIDEO_SIZE_RANGE, 
 req.header: d3d12video.h
 req.include-header:

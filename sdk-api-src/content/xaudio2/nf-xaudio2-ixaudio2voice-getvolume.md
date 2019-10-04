@@ -12,6 +12,8 @@ ms.keywords: GetVolume, GetVolume method [XAudio2 Audio Mixing APIs], GetVolume 
 ms.topic: method
 f1_keywords: 
  - "xaudio2/IXAudio2Voice.GetVolume"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumRangeExceptions interface [Windows Sync],Skip method, IEnumRan
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumRangeExceptions.Skip"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

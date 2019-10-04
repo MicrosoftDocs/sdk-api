@@ -12,6 +12,8 @@ ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [S
 ms.topic: callback
 f1_keywords: 
  - "ntsecapi/InitializeChangeNotify"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

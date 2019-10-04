@@ -12,6 +12,8 @@ ms.keywords: "*PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS, PSUPPORT_FUNCTIONS struct
 ms.topic: struct
 f1_keywords: 
  - "routprot/SUPPORT_FUNCTIONS"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

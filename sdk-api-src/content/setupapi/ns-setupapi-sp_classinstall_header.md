@@ -12,6 +12,8 @@ ms.keywords: '*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTAL
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_CLASSINSTALL_HEADER
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

@@ -8,6 +8,10 @@ ms.assetid: e9f512c9-32f5-46a4-a6a1-a0f203ec527b
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - D3D12_COMMAND_LIST_FLAGS
+dev_langs:
+ - c++
 ms.keywords: D3D12_COMMAND_LIST_FLAGS, D3D12_COMMAND_LIST_FLAGS, 
 req.header: d3d12.h
 req.include-header:

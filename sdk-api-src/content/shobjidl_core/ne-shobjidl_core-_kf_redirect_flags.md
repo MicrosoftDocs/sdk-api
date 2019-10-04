@@ -12,6 +12,8 @@ ms.keywords: KF_REDIRECT_CHECK_ONLY, KF_REDIRECT_COPY_CONTENTS, KF_REDIRECT_COPY
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/KF_REDIRECT_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

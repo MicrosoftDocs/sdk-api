@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetCount, ComboBox_GetCount macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetCount"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

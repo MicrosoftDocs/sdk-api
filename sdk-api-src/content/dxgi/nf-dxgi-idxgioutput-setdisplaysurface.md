@@ -12,6 +12,8 @@ ms.keywords: IDXGIOutput interface [DXGI],SetDisplaySurface method, IDXGIOutput.
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.SetDisplaySurface"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

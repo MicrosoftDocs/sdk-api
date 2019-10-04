@@ -12,6 +12,8 @@ ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPla
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceUIWindow.GetBorder"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

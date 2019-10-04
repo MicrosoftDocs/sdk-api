@@ -12,6 +12,8 @@ ms.keywords: Heap32First, Heap32First function [ToolHelp], _win32_heap32first, b
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Heap32First"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

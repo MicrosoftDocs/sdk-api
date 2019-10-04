@@ -12,6 +12,8 @@ ms.keywords: IDMLCommandRecorder interface,RecordDispatch method, IDMLCommandRec
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLCommandRecorder.RecordDispatch"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

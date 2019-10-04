@@ -12,6 +12,8 @@ ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCre
 ms.topic: function
 f1_keywords:
 - sspi/SspiPromptForCredentials
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

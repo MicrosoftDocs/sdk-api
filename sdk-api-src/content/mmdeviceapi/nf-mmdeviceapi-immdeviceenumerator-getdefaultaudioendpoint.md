@@ -12,6 +12,8 @@ ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDeviceEnumerator.GetDefaultAudioEndpoint"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

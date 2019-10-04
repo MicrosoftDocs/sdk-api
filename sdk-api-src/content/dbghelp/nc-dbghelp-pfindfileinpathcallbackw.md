@@ -12,6 +12,8 @@ ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPat
 ms.topic: callback
 f1_keywords: 
  - "dbghelp/SymFindFileInPathProc"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

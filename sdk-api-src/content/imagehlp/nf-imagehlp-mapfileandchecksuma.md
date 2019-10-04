@@ -12,6 +12,8 @@ ms.keywords: MapFileAndCheckSum, MapFileAndCheckSum function, MapFileAndCheckSum
 ms.topic: function
 f1_keywords: 
  - "imagehlp/MapFileAndCheckSum"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

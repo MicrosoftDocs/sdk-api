@@ -12,6 +12,8 @@ ms.keywords: IRunnableTask interface [Windows Shell],Resume method, IRunnableTas
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IRunnableTask.Resume"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

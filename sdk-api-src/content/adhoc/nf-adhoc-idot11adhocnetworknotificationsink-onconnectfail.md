@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnect
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetworkNotificationSink.OnConnectFail"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

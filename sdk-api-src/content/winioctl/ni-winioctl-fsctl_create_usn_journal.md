@@ -12,6 +12,8 @@ ms.keywords: FSCTL_CREATE_USN_JOURNAL, FSCTL_CREATE_USN_JOURNAL control, FSCTL_C
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_CREATE_USN_JOURNAL
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

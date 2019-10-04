@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Task Scheduler], Activate method [Task S
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.Activate"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

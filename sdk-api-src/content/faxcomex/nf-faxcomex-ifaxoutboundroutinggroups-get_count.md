@@ -12,6 +12,8 @@ ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutb
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingGroups.Count"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

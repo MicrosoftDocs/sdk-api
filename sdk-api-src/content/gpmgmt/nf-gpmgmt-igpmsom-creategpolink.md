@@ -12,6 +12,8 @@ ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [G
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSOM.CreateGPOLink"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

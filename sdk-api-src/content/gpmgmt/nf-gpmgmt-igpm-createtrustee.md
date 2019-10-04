@@ -12,6 +12,8 @@ ms.keywords: CreateTrustee, CreateTrustee method [GPMC], CreateTrustee method [G
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.CreateTrustee"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

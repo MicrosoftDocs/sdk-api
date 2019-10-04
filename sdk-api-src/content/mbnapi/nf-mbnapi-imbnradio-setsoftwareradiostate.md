@@ -12,6 +12,8 @@ ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SetSoftwareRadio
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRadio.SetSoftwareRadioState"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

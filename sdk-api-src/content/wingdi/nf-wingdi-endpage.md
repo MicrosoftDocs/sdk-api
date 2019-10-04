@@ -12,6 +12,8 @@ ms.keywords: EndPage, EndPage function [Windows GDI], _win32_EndPage, gdi.endpag
 ms.topic: function
 f1_keywords: 
  - "wingdi/EndPage"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

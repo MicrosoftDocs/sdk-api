@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control, IOCTL_PWM_PIN_STA
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_START
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

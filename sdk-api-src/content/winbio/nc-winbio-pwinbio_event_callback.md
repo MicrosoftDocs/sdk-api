@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_EVENT_CALLBACK, PWINBIO_EVENT_CALLBACK callback, PWINBIO_EV
 ms.topic: callback
 f1_keywords: 
  - "winbio/PWINBIO_EVENT_CALLBACK"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

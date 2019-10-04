@@ -12,6 +12,8 @@ ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX struct
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_PARTITION_INFORMATION_EX"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

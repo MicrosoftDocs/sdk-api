@@ -12,6 +12,8 @@ ms.keywords: MMCC_STANDARD_VIEW_SELECT, MMC_MENU_COMMAND_IDS, MMC_MENU_COMMAND_I
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_MENU_COMMAND_IDS"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

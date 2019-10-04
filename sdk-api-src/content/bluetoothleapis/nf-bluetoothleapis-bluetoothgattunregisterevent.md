@@ -12,6 +12,8 @@ ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function
 ms.topic: function
 f1_keywords: 
  - "bluetoothleapis/BluetoothGATTUnregisterEvent"
+dev_langs:
+ - c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

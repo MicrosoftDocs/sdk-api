@@ -12,6 +12,8 @@ ms.keywords: Date property [Windows Update Agent], Date property [Windows Update
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntry.Date"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FilterInstanceClose, FilterInstanceClose function [Installable File
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterInstanceClose"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

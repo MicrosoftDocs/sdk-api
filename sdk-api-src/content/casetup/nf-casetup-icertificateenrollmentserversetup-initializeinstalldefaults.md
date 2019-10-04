@@ -12,6 +12,8 @@ ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeIn
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertificateEnrollmentServerSetup.InitializeInstallDefaults"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NETISO_ERROR_TYPE, NETISO_ERROR_TYPE enumeration [ICS/ICF], NETISO_
 ms.topic: enum
 f1_keywords: 
  - "netfw/NETISO_ERROR_TYPE"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

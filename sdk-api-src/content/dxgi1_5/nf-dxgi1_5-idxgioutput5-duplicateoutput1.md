@@ -12,6 +12,8 @@ ms.keywords: DuplicateOutput1, DuplicateOutput1 method [DXGI], DuplicateOutput1 
 ms.topic: method
 f1_keywords: 
  - "dxgi1_5/IDXGIOutput5.DuplicateOutput1"
+dev_langs:
+ - c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

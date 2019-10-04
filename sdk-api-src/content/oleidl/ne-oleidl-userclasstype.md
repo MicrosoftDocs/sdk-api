@@ -12,6 +12,8 @@ ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNA
 ms.topic: enum
 f1_keywords: 
  - "oleidl/USERCLASSTYPE"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

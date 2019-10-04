@@ -12,6 +12,8 @@ ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTra
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

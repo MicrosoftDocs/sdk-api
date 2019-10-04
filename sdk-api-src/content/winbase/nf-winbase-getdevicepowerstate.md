@@ -12,6 +12,8 @@ ms.keywords: GetDevicePowerState, GetDevicePowerState function, _win32_getdevice
 ms.topic: function
 f1_keywords: 
  - "winbase/GetDevicePowerState"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

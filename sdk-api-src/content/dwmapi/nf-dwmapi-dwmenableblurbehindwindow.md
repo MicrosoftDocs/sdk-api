@@ -12,6 +12,8 @@ ms.keywords: DwmEnableBlurBehindWindow, DwmEnableBlurBehindWindow function [Desk
 ms.topic: function
 f1_keywords:
 - dwmapi/DwmEnableBlurBehindWindow
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

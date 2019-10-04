@@ -12,6 +12,8 @@ ms.keywords: ID2D1GeometrySink, ID2D1GeometrySink interface [Direct2D], ID2D1Geo
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1GeometrySink"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

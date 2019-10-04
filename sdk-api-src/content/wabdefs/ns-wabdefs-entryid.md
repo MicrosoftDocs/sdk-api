@@ -12,6 +12,8 @@ ms.keywords: "*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPE
 ms.topic: struct
 f1_keywords: 
  - "wabdefs/ENTRYID"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

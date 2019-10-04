@@ -12,6 +12,8 @@ ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], 
 ms.topic: function
 f1_keywords: 
  - "fhsvcctl/FhServiceStartBackup"
+dev_langs:
+ - c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

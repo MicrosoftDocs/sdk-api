@@ -12,6 +12,8 @@ ms.keywords: IWMPPlugin interface [Windows Media Player],Shutdown method, IWMPPl
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPPlugin.Shutdown"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

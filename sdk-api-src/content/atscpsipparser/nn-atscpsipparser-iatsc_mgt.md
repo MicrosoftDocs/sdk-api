@@ -12,6 +12,8 @@ ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_M
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

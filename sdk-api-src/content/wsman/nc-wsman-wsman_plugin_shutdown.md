@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PLUGIN_SHUTDOWN, WSMAN_PLUGIN_SHUTDOWN callback, WSMAN_PLUGIN
 ms.topic: callback
 f1_keywords: 
  - "wsman/WSMAN_PLUGIN_SHUTDOWN"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

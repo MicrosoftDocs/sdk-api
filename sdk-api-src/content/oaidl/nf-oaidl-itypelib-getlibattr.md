@@ -12,6 +12,8 @@ ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Auto
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeLib.GetLibAttr"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

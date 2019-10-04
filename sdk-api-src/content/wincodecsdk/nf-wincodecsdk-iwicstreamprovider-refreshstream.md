@@ -12,6 +12,8 @@ ms.keywords: IWICStreamProvider interface [Windows Imaging Component],RefreshStr
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICStreamProvider.RefreshStream"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

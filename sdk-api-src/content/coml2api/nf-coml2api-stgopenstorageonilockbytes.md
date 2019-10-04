@@ -12,6 +12,8 @@ ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [St
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgOpenStorageOnILockBytes"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

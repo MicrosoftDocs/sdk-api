@@ -12,6 +12,8 @@ ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivider.Strokes"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

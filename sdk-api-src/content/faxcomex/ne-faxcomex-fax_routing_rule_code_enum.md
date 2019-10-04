@@ -12,6 +12,8 @@ ms.keywords: FAX_ROUTING_RULE_CODE_ENUM, FAX_ROUTING_RULE_CODE_ENUM enumeration 
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_ROUTING_RULE_CODE_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

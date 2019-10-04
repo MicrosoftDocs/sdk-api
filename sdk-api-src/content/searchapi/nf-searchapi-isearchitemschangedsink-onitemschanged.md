@@ -12,6 +12,8 @@ ms.keywords: ISearchItemsChangedSink interface [search],OnItemsChanged method, I
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchItemsChangedSink.OnItemsChanged
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

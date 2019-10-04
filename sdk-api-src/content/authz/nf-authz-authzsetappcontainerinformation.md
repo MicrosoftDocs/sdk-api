@@ -12,6 +12,8 @@ ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation fu
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzSetAppContainerInformation"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPConvert.GetErrorURL"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

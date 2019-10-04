@@ -12,6 +12,8 @@ ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Mult
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamEndStreaming"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

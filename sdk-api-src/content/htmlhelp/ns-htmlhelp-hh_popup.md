@@ -12,6 +12,8 @@ ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popu
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HH_POPUP"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCachedAnnotationObjects, GetCachedAnnotationObjects method [Wind
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

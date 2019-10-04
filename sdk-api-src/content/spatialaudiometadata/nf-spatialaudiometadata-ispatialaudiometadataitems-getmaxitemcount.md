@@ -12,6 +12,8 @@ ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCou
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItems.GetMaxItemCount"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

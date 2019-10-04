@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinH
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpDetectAutoProxyConfigUrl"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

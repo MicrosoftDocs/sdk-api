@@ -12,6 +12,8 @@ ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibil
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_FindText"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForComputer 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesPinInfo.IsPinnedForComputer"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

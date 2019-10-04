@@ -12,6 +12,8 @@ ms.keywords: IFaxDevice interface [Fax Service],ReceivingNow property, IFaxDevic
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDevice.ReceivingNow"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

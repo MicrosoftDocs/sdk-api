@@ -12,6 +12,8 @@ ms.keywords: LeaveCriticalPolicySection, LeaveCriticalPolicySection function [Gr
 ms.topic: function
 f1_keywords: 
  - "userenv/LeaveCriticalPolicySection"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

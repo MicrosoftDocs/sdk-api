@@ -12,6 +12,8 @@ ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LIST
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

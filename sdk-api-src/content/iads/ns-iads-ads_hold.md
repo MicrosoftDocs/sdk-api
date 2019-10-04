@@ -12,6 +12,8 @@ ms.keywords: "*PADS_HOLD, ADS_HOLD, ADS_HOLD structure [ADSI], PADS_HOLD, PADS_H
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_HOLD"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC
 ms.topic: struct
 f1_keywords: 
  - "textserv/CHANGENOTIFY"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Next met
 ms.topic: method
 f1_keywords: 
  - "ctffunc/IEnumTfLatticeElements.Next"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

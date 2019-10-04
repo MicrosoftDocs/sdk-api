@@ -12,6 +12,8 @@ ms.keywords: VDS_ASYNCOUT_ADDLUNPLEX, VDS_ASYNCOUT_ADDPORTAL, VDS_ASYNCOUT_ADDVO
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_ASYNC_OUTPUT_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

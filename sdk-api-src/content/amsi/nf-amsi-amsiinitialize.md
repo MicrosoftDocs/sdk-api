@@ -12,6 +12,8 @@ ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface
 ms.topic: function
 f1_keywords: 
  - "amsi/AmsiInitialize"
+dev_langs:
+ - c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

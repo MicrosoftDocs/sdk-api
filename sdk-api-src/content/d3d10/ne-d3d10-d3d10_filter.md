@@ -12,6 +12,8 @@ ms.keywords: 31eff5fe-8fd7-55df-9fc7-0567ce55ecd5, D3D10_FILTER, D3D10_FILTER en
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_FILTER"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

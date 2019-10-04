@@ -12,6 +12,8 @@ ms.keywords: GetContentTransform, GetContentTransform method [Direct Manipulatio
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationContent.GetContentTransform"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

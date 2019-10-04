@@ -12,6 +12,8 @@ ms.keywords: CIPROPERTYDEF, CIPROPERTYDEF structure [Indexing Service], _idxs_CI
 ms.topic: struct
 f1_keywords: 
  - "ntquery/CIPROPERTYDEF"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

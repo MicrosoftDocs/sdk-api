@@ -12,6 +12,8 @@ ms.keywords: MFPinholeCameraIntrinsic_IntrinsicModel, MFPinholeCameraIntrinsic_I
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MFPinholeCameraIntrinsic_IntrinsicModel"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

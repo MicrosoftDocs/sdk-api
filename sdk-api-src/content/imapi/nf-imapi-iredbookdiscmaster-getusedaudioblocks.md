@@ -12,6 +12,8 @@ ms.keywords: GetUsedAudioBlocks, GetUsedAudioBlocks method [IMAPI], GetUsedAudio
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.GetUsedAudioBlocks"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

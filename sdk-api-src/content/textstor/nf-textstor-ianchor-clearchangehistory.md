@@ -12,6 +12,8 @@ ms.keywords: ClearChangeHistory, ClearChangeHistory method [Text Services Framew
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.ClearChangeHistory"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

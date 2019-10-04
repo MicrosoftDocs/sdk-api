@@ -12,6 +12,8 @@ ms.keywords: FFFP_EXACTMATCH, FFFP_MODE, FFFP_MODE enumeration [Windows Shell], 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FFFP_MODE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

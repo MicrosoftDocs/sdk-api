@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1Svg
 ms.topic: interface
 f1_keywords: 
  - "d2d1svg/ID2D1SvgAttribute"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

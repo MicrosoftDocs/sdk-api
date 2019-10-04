@@ -12,6 +12,8 @@ ms.keywords: Disable, Disable method [Microsoft Broadband Networks], Disable met
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPin.Disable"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

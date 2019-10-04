@@ -12,6 +12,8 @@ ms.keywords: '*PDDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO struc
 ms.topic: struct
 f1_keywords:
 - dxmini/DDBOBNEXTFIELDINFO
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

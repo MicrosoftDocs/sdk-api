@@ -12,6 +12,8 @@ ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], I
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPServiceCallback"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

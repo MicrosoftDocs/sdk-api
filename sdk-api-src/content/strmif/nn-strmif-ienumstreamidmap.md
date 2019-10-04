@@ -12,6 +12,8 @@ ms.keywords: IEnumStreamIdMap, IEnumStreamIdMap interface [DirectShow], IEnumStr
 ms.topic: interface
 f1_keywords: 
  - "strmif/IEnumStreamIdMap"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

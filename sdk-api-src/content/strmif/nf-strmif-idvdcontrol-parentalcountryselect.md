@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],ParentalCountrySelect method, ID
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.ParentalCountrySelect"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

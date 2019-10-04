@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION, FILE_ZER
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_ZERO_DATA_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

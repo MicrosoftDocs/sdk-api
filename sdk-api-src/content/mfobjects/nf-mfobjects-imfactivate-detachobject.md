@@ -12,6 +12,8 @@ ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject me
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFActivate.DetachObject"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

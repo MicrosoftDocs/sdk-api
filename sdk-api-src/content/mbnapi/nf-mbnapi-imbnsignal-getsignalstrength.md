@@ -12,6 +12,8 @@ ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Ne
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSignal.GetSignalStrength"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

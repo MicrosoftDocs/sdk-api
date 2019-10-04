@@ -9,6 +9,8 @@ ms.keywords: PathGradientBrush::GetRectangle
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/PathGradientBrush::GetRectangle"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

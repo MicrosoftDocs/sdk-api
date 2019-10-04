@@ -12,6 +12,8 @@ ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SIT.GetCountOfRecords"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

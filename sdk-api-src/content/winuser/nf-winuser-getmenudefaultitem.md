@@ -12,6 +12,8 @@ ms.keywords: GMDI_GOINTOPOPUPS, GMDI_USEDISABLED, GetMenuDefaultItem, GetMenuDef
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuDefaultItem"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

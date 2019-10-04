@@ -12,6 +12,8 @@ ms.keywords: CheckPublicKeySignature, CheckPublicKeySignature method [Security],
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestCertificate.CheckPublicKeySignature"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IResultData int
 ms.topic: method
 f1_keywords:
 - mmc/IResultData.GetItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

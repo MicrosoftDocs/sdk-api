@@ -12,6 +12,8 @@ ms.keywords: 8c15b401-a18e-3d6f-8b01-fd6833879d87, GetAdapterModeCount, GetAdapt
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3D9.GetAdapterModeCount"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

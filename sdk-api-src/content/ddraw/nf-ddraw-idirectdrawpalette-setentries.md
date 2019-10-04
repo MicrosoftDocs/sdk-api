@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirec
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawPalette.SetEntries"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

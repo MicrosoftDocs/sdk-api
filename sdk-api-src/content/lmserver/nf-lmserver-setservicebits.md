@@ -12,6 +12,8 @@ ms.keywords: SV_TYPE_AFP, SV_TYPE_BACKUP_BROWSER, SV_TYPE_DIALIN_SERVER, SV_TYPE
 ms.topic: function
 f1_keywords: 
  - "lmserver/SetServiceBits"
+dev_langs:
+ - c++
 req.header: lmserver.h
 req.include-header: 
 req.target-type: Windows

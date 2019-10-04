@@ -12,6 +12,8 @@ ms.keywords: IPropertyUI interface [Windows Properties],ParsePropertyName method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPropertyUI.ParsePropertyName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

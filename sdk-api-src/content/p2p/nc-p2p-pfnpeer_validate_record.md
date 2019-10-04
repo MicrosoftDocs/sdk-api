@@ -12,6 +12,8 @@ ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_
 ms.topic: callback
 f1_keywords: 
  - "p2p/PFNPEER_VALIDATE_RECORD"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

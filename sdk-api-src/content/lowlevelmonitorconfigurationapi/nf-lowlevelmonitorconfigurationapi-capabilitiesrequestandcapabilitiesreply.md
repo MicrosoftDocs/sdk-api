@@ -12,6 +12,8 @@ ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapa
 ms.topic: function
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

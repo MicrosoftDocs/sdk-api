@@ -12,6 +12,8 @@ ms.keywords: GPMGPOCollection, IGPMGPOCollection, IGPMGPOCollection interface [G
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMGPOCollection"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

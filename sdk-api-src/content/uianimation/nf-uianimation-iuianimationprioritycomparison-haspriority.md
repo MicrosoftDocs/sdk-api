@@ -12,6 +12,8 @@ ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority me
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationPriorityComparison.HasPriority"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

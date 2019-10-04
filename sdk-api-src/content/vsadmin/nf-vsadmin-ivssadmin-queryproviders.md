@@ -12,6 +12,8 @@ ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryPro
 ms.topic: method
 f1_keywords:
 - vsadmin/IVssAdmin.QueryProviders
+dev_langs:
+ - c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows

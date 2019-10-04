@@ -12,6 +12,8 @@ ms.keywords: CurrentSelectedItem property [Windows Accessibility], CurrentSelect
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISelectionProvider2.CurrentSelectedItem"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

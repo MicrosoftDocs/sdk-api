@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LE
 ms.topic: struct
 f1_keywords: 
  - "processthreadsapi/PROCESS_LEAP_SECOND_INFO"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

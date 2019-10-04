@@ -12,6 +12,8 @@ ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminPortClearStats"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

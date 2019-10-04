@@ -12,6 +12,8 @@ ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fiber
 ms.topic: function
 f1_keywords: 
  - "fibersapi/IsThreadAFiber"
+dev_langs:
+ - c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

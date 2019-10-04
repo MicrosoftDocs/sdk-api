@@ -12,6 +12,8 @@ ms.keywords: Evict, Evict method, Evict method,IDMLDevice interface, IDMLDevice 
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDevice.Evict"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

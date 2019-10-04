@@ -12,6 +12,8 @@ ms.keywords: Authorize, Authorize method [Enhanced Storage], Authorize method [E
 ms.topic: method
 f1_keywords:
 - ehstorapi/IEnhancedStorageACT.Authorize
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

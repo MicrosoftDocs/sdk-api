@@ -12,6 +12,8 @@ ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulation
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.GetSimulations"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

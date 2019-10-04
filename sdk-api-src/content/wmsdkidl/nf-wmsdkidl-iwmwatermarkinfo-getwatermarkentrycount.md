@@ -12,6 +12,8 @@ ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Medi
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWatermarkInfo.GetWatermarkEntryCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

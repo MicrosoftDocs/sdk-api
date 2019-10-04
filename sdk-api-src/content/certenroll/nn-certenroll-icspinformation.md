@@ -12,6 +12,8 @@ ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformat
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICspInformation"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoCont
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVideoControl.SetMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCrypt
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptEnumKeys"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

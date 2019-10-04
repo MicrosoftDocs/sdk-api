@@ -12,6 +12,8 @@ ms.keywords: VDS_HBAPORT_SPEED_FLAG, VDS_HBAPORT_SPEED_FLAG enumeration [VDS], V
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_HBAPORT_SPEED_FLAG
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

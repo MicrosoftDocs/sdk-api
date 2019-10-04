@@ -12,6 +12,8 @@ ms.keywords: ECS_CHECKBOX, ECS_CHECKED, ECS_DISABLED, ECS_ENABLED, ECS_HIDDEN, E
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/EXPCMDSTATE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

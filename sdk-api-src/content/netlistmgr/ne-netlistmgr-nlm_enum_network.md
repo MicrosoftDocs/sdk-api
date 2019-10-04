@@ -12,6 +12,8 @@ ms.keywords: NLM_ENUM_NETWORK, NLM_ENUM_NETWORK enumeration [Network Awareness],
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_ENUM_NETWORK"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

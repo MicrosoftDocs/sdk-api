@@ -12,6 +12,8 @@ ms.keywords: CertOIDToAlgId, CertOIDToAlgId function [Security], _crypto2_certoi
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertOIDToAlgId"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

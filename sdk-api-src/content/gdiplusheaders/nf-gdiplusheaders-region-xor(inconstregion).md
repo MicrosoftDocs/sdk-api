@@ -12,6 +12,8 @@ ms.keywords: Region class [GDI+],Xor method, Region.Xor, Region.Xor(IN const Reg
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Xor"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

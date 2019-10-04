@@ -12,6 +12,8 @@ ms.keywords: DWRITE_LINE_SPACING_METHOD, DWRITE_LINE_SPACING_METHOD enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_LINE_SPACING_METHOD"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

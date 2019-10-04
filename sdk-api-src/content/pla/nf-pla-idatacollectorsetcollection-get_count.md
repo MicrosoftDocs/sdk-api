@@ -12,6 +12,8 @@ ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollect
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSetCollection.Count"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

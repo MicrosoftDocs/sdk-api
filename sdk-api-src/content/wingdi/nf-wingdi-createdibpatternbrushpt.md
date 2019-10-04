@@ -12,6 +12,8 @@ ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateDIBPatternBrushPt"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

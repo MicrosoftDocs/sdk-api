@@ -12,6 +12,8 @@ ms.keywords: MCIWndCanWindow, MCIWndCanWindow macro [Windows Multimedia], _win32
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndCanWindow"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

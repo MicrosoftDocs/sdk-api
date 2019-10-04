@@ -12,6 +12,8 @@ ms.keywords: IETFilter interface [Microsoft TV Technologies],SetRecordingOn meth
 ms.topic: method
 f1_keywords: 
  - "encdec/IETFilter.SetRecordingOn"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

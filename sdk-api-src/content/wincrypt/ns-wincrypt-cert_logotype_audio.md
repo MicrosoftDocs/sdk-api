@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO st
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_LOGOTYPE_AUDIO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

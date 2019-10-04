@@ -12,6 +12,8 @@ ms.keywords: "*PDDGETPREVIOUSAUTOFLIPININFO, DDGETPREVIOUSAUTOFLIPININFO, DDGETP
 ms.topic: struct
 f1_keywords: 
  - "dxmini/DDGETPREVIOUSAUTOFLIPININFO"
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

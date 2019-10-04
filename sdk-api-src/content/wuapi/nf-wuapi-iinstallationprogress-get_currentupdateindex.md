@@ -12,6 +12,8 @@ ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIn
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationProgress.CurrentUpdateIndex"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

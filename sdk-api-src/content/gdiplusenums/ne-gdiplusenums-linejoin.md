@@ -12,6 +12,8 @@ ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/LineJoin"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

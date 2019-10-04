@@ -12,6 +12,8 @@ ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexProp
 ms.topic: function
 f1_keywords: 
  - "propsys/PSCreateDelayedMultiplexPropertyStore"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

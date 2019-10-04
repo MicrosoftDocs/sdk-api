@@ -12,6 +12,8 @@ ms.keywords: CF_SET_IN_SYNC_FLAGS, CF_SET_IN_SYNC_FLAGS enumeration, CF_SET_IN_S
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_SET_IN_SYNC_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

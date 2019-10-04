@@ -12,6 +12,8 @@ ms.keywords: "*LPUSER_INFO_1011, *PUSER_INFO_1011, LPUSER_INFO_1011, LPUSER_INFO
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/USER_INFO_1011"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

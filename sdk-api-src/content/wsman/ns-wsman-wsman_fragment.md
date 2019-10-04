@@ -12,6 +12,8 @@ ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_FRAGMENT"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

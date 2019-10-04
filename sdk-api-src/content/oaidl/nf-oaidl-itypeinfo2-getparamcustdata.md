@@ -12,6 +12,8 @@ ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCus
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo2.GetParamCustData"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

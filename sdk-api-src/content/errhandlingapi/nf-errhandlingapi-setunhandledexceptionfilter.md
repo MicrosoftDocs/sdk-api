@@ -12,6 +12,8 @@ ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/SetUnhandledExceptionFilter"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

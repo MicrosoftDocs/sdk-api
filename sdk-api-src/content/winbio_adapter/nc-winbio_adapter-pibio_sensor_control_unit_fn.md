@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_FN, PIBIO_SENSOR_CONTROL_UNIT_FN callback
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterControlUnit
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

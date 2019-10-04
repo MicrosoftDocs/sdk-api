@@ -12,6 +12,8 @@ ms.keywords: IBDACreateTuneRequestEx, IBDACreateTuneRequestEx interface [Microso
 ms.topic: interface
 f1_keywords: 
  - "tuner/IBDACreateTuneRequestEx"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

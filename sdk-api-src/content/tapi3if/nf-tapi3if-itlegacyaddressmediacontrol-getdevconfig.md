@@ -12,6 +12,8 @@ ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyAddressMediaControl.GetDevConfig"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

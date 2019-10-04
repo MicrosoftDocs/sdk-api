@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGE_FILE_HEADER, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIV
 ms.topic: struct
 f1_keywords: 
  - "winnt/IMAGE_FILE_HEADER"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

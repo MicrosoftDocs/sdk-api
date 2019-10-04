@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow]
 ms.topic: struct
 f1_keywords: 
  - "vptype/AMVPDATAINFO"
+dev_langs:
+ - c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

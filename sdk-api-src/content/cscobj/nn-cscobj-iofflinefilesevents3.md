@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files
 ms.topic: interface
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents3"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

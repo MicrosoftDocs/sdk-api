@@ -12,6 +12,8 @@ ms.keywords: IVdsController interface [VDS],QueryAssociatedLuns method, IVdsCont
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsController.QueryAssociatedLuns"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

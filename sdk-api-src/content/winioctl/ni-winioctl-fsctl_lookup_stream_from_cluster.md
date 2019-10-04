@@ -12,6 +12,8 @@ ms.keywords: FSCTL_LOOKUP_STREAM_FROM_CLUSTER, FSCTL_LOOKUP_STREAM_FROM_CLUSTER 
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_LOOKUP_STREAM_FROM_CLUSTER
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

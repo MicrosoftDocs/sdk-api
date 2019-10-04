@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Reset method, IEnumBackg
 ms.topic: method
 f1_keywords: 
  - "qmgr/IEnumBackgroundCopyGroups.Reset"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, 
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_search_abandon_page"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_RESET_LISTENER_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

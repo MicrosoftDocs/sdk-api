@@ -12,6 +12,8 @@ ms.keywords: IAMMediaTypeSample interface [DirectShow],IsPreroll method, IAMMedi
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.IsPreroll"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAlloca
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFAllocateWorkQueue"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

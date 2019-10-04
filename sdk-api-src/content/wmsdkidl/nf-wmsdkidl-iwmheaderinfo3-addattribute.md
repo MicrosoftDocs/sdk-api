@@ -12,6 +12,8 @@ ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttrib
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo3.AddAttribute"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

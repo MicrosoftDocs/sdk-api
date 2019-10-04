@@ -12,6 +12,8 @@ ms.keywords: IPSEC_STATISTICS1, IPSEC_STATISTICS1 structure [Filtering], fwp.ips
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_STATISTICS1"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

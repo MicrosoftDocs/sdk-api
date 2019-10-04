@@ -12,6 +12,8 @@ ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Manage
 ms.topic: function
 f1_keywords: 
  - "lmwksta/NetWkstaTransportDel"
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
 req.target-type: Windows

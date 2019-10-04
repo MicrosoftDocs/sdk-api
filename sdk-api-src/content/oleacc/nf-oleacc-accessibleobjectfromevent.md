@@ -12,6 +12,8 @@ ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Wind
 ms.topic: function
 f1_keywords: 
  - "oleacc/AccessibleObjectFromEvent"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

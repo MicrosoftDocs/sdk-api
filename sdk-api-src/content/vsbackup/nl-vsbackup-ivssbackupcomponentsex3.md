@@ -12,6 +12,8 @@ ms.keywords: IVssBackupComponentsEx3, IVssBackupComponentsEx3 interface, IVssBac
 ms.topic: class
 f1_keywords: 
  - "vsbackup/IVssBackupComponentsEx3"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

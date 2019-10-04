@@ -12,6 +12,8 @@ ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCON
 ms.topic: callback
 f1_keywords:
 - routprot/DisconnectClient
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

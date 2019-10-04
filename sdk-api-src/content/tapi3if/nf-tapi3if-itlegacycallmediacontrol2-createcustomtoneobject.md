@@ -12,6 +12,8 @@ ms.keywords: CreateCustomToneObject, CreateCustomToneObject method [TAPI 2.2], C
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2.CreateCustomToneObject"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

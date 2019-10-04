@@ -12,6 +12,8 @@ ms.keywords: IMAGEHLP_SYMBOL_TYPE_INFO, IMAGEHLP_SYMBOL_TYPE_INFO enumeration, T
 ms.topic: enum
 f1_keywords:
 - dbghelp/IMAGEHLP_SYMBOL_TYPE_INFO
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

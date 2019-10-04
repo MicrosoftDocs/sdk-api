@@ -12,6 +12,8 @@ ms.keywords: VDS_NF_PORTAL_ARRIVE, VDS_NF_PORTAL_DEPART, VDS_NF_PORTAL_MODIFY, V
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PORTAL_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

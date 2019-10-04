@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextDeleteById0, FwpmProviderContextDeleteById0 func
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderContextDeleteById0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

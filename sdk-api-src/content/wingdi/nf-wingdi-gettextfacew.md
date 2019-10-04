@@ -12,6 +12,8 @@ ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetT
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetTextFace"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

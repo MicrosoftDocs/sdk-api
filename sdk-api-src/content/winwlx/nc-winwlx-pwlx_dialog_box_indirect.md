@@ -12,6 +12,8 @@ ms.keywords: PWLX_DIALOG_BOX_INDIRECT, PWLX_DIALOG_BOX_INDIRECT callback, WlxDia
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxDialogBoxIndirect"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

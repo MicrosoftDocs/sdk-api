@@ -12,6 +12,8 @@ ms.keywords: AuditSetPerUserPolicy, AuditSetPerUserPolicy function [Security], n
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetPerUserPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

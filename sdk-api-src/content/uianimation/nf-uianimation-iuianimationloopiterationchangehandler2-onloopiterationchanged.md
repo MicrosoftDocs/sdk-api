@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationLoopIterationChangeHandler2 interface [Windows Animatio
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLISTVIEWMODE, LISTVIEWMODE, ListMode_Detail, ListMode_Filtered, 
 ms.topic: enum
 f1_keywords: 
  - "mmcobj/_ListViewMode"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

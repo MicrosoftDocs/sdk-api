@@ -12,6 +12,8 @@ ms.keywords: "*PEMRPOLYDRAW16, EMRPOLYDRAW16, EMRPOLYDRAW16 structure [Windows G
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRPOLYDRAW16"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

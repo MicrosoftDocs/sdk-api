@@ -12,6 +12,8 @@ ms.keywords: IWbemProviderInitSink interface [Windows Management Instrumentation
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemProviderInitSink.SetStatus"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, 
 ms.topic: struct
 f1_keywords:
 - winnt/ACTIVATION_CONTEXT_QUERY_INDEX
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

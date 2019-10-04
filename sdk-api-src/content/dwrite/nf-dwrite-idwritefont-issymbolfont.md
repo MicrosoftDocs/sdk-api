@@ -12,6 +12,8 @@ ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFo
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFont.IsSymbolFont"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

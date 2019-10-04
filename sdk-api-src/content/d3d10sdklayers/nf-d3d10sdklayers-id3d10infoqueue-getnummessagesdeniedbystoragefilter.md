@@ -12,6 +12,8 @@ ms.keywords: 69405d72-8819-4b6e-275b-bd5f8909527a, GetNumMessagesDeniedByStorage
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

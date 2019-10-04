@@ -12,6 +12,8 @@ ms.keywords: MI_Context_NewInstance, MI_Context_NewInstance function [Windows Ma
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_NewInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

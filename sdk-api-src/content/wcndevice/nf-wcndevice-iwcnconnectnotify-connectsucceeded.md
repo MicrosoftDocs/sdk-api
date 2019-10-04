@@ -12,6 +12,8 @@ ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], Co
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNConnectNotify.ConnectSucceeded"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

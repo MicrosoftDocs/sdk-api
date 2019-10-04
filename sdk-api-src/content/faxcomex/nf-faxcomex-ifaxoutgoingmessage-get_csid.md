@@ -12,6 +12,8 @@ ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxOutgoi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.CSID"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

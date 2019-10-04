@@ -12,6 +12,8 @@ ms.keywords: HANDLE_OPTIONS, HANDLE_OPTIONS enumeration [Windows Runtime], HO_DE
 ms.topic: enum
 f1_keywords: 
  - "windowsstoragecom/HANDLE_OPTIONS"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_DATA_NONE, WSMAN_DATA_TYPE_BINARY, WSMAN_DATA_TYPE_DWORD, WSM
 ms.topic: enum
 f1_keywords:
 - wsman/WSManDataType
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

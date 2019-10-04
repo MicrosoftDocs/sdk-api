@@ -12,6 +12,8 @@ ms.keywords: IDeviceModelPlugIn interface [Windows Color System],SetTransformDev
 ms.topic: method
 f1_keywords: 
  - "wcsplugin/IDeviceModelPlugIn.SetTransformDeviceModelInfo"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

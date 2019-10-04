@@ -12,6 +12,8 @@ ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCre
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetCreated"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::O
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.OpenCUB"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

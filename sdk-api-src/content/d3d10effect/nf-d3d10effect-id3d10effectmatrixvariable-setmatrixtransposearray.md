@@ -12,6 +12,8 @@ ms.keywords: ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrixTranspo
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectMatrixVariable.SetMatrixTransposeArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

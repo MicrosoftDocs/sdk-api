@@ -12,6 +12,8 @@ ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage
 ms.topic: function
 f1_keywords: 
  - "coml2api/PropStgNameToFmtId"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows

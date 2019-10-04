@@ -12,6 +12,8 @@ ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDecompressOpen"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

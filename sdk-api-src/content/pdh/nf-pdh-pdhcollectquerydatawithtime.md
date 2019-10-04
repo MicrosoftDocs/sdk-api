@@ -12,6 +12,8 @@ ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhCollectQueryDataWithTime"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject 
 ms.topic: method
 f1_keywords: 
  - "strmif/IDDrawExclModeVideo.GetDDrawObject"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE, EVEN
 ms.topic: struct
 f1_keywords:
 - evntcons/EVENT_EXTENDED_ITEM_INSTANCE
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

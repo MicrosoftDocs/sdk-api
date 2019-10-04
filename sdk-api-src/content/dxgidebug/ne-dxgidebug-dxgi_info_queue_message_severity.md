@@ -12,6 +12,8 @@ ms.keywords: DXGI_INFO_QUEUE_MESSAGE_SEVERITY, DXGI_INFO_QUEUE_MESSAGE_SEVERITY 
 ms.topic: enum
 f1_keywords: 
  - "dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

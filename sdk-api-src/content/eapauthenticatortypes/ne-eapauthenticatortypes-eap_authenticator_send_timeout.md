@@ -12,6 +12,8 @@ ms.keywords: EAP_AUTHENTICATOR_SEND_TIMEOUT, EAP_AUTHENTICATOR_SEND_TIMEOUT enum
 ms.topic: enum
 f1_keywords: 
  - "eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT"
+dev_langs:
+ - c++
 req.header: eapauthenticatortypes.h
 req.include-header: 
 req.target-type: Windows

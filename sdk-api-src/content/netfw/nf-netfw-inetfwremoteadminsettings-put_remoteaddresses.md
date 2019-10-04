@@ -12,6 +12,8 @@ ms.keywords: INetFwRemoteAdminSettings interface [ICS/ICF],RemoteAddresses prope
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRemoteAdminSettings.RemoteAddresses"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

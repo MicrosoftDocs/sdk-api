@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [Windows Ribbon], Destroy method [Windows R
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.Destroy"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

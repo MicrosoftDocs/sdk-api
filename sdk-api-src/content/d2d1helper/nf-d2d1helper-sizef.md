@@ -12,6 +12,8 @@ ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/SizeF"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStrea
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaStream.GetStreamDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

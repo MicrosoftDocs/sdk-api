@@ -12,6 +12,8 @@ ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult meth
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfCandidateList.SetResult"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

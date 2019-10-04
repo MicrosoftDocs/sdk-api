@@ -12,6 +12,8 @@ ms.keywords: "*PWCM_CONNECTION_COST, PWCM_CONNECTION_COST, PWCM_CONNECTION_COST 
 ms.topic: enum
 f1_keywords: 
  - "wcmapi/WCM_CONNECTION_COST"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

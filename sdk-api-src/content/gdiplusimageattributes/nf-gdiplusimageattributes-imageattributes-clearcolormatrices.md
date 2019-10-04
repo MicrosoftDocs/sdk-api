@@ -12,6 +12,8 @@ ms.keywords: ClearColorMatrices, ClearColorMatrices method [GDI+], ClearColorMat
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearColorMatrices"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

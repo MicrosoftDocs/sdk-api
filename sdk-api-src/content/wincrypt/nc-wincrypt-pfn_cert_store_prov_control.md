@@ -12,6 +12,8 @@ ms.keywords: CertStoreProvControl, CertStoreProvControl callback function [Secur
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/CertStoreProvControl"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

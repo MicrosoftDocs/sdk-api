@@ -12,6 +12,8 @@ ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellkn
 ms.topic: function
 f1_keywords:
 - securitybaseapi/IsWellKnownSid
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

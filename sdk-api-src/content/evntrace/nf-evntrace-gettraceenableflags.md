@@ -12,6 +12,8 @@ ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettr
 ms.topic: function
 f1_keywords: 
  - "evntrace/GetTraceEnableFlags"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

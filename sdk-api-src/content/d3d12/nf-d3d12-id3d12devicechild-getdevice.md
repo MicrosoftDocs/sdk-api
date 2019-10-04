@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild int
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12DeviceChild.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

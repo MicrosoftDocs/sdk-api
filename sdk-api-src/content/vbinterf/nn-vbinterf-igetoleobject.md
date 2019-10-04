@@ -12,6 +12,8 @@ ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interfa
 ms.topic: interface
 f1_keywords: 
  - "vbinterf/IGetOleObject"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

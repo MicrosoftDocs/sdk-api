@@ -12,6 +12,8 @@ ms.keywords: '*PEC_VARIANT, EC_VARIANT, EC_VARIANT structure, evcoll/EC_VARIANT,
 ms.topic: struct
 f1_keywords:
 - evcoll/EC_VARIANT
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

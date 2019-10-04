@@ -12,6 +12,8 @@ ms.keywords: AddDirectory, AddDirectory method [IMAPI], AddDirectory method [IMA
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiDirectoryItem.AddDirectory"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

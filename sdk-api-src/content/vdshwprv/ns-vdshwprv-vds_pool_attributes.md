@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_POOL_ATTRIBUTES, PVDS_POOL_ATTRIBUTES, PVDS_POOL_ATTRIBUTES 
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_POOL_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

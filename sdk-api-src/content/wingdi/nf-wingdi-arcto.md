@@ -12,6 +12,8 @@ ms.keywords: ArcTo, ArcTo function [Windows GDI], _win32_ArcTo, gdi.arcto, wingd
 ms.topic: function
 f1_keywords: 
  - "wingdi/ArcTo"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

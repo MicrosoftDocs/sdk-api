@@ -12,6 +12,8 @@ ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData 
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DResource9.GetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StrokePath, StrokePath function [Windows GDI], _win32_StrokePath, g
 ms.topic: function
 f1_keywords: 
  - "wingdi/StrokePath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

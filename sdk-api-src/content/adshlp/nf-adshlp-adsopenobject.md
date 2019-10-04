@@ -12,6 +12,8 @@ ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, ad
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsOpenObject"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

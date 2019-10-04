@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDSPLoudnessEqualization, codecapi/eAVDSPLoudnessEqualiz
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDSPLoudnessEqualization"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

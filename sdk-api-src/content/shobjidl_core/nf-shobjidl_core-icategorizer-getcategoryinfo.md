@@ -12,6 +12,8 @@ ms.keywords: GetCategoryInfo, GetCategoryInfo method [Windows Shell], GetCategor
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICategorizer.GetCategoryInfo"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

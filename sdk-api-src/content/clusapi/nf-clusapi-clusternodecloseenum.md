@@ -12,6 +12,8 @@ ms.keywords: ClusterNodeCloseEnum, ClusterNodeCloseEnum function [Failover Clust
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterNodeCloseEnum"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

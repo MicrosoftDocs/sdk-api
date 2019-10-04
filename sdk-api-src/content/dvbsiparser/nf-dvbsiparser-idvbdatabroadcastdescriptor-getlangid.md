@@ -12,6 +12,8 @@ ms.keywords: GetLangID, GetLangID method [Microsoft TV Technologies], GetLangID 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastDescriptor.GetLangID"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

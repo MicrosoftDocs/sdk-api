@@ -12,6 +12,8 @@ ms.keywords: IWMImageInfo, IWMImageInfo interface [windows Media Format], IWMIma
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMImageInfo"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

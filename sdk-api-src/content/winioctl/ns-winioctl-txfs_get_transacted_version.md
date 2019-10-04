@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION, PTXFS
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_GET_TRANSACTED_VERSION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

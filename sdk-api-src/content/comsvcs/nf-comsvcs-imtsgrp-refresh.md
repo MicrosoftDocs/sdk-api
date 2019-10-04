@@ -12,6 +12,8 @@ ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsGrp.Refresh"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

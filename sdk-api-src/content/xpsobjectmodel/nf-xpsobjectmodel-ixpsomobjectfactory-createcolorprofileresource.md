@@ -12,6 +12,8 @@ ms.keywords: CreateColorProfileResource, CreateColorProfileResource method [XPS 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreateColorProfileResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

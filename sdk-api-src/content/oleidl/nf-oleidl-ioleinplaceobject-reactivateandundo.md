@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceObject interface [COM],ReactivateAndUndo method, IOleInP
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceObject.ReactivateAndUndo"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

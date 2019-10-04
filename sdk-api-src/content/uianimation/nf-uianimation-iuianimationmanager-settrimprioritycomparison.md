@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager interface [Windows Animation],SetTrimPriorityCo
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.SetTrimPriorityComparison"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

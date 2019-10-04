@@ -12,6 +12,8 @@ ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumera
 ms.topic: enum
 f1_keywords:
 - pwm/PWM_POLARITY
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

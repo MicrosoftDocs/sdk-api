@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],ISy
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.Clone"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLabels, GetLabels method [Windows Contacts], GetLabels method [W
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.GetLabels"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

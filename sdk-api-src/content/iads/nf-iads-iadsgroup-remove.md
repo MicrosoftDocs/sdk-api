@@ -12,6 +12,8 @@ ms.keywords: IADsGroup interface [ADSI],Remove method, IADsGroup.Remove, IADsGro
 ms.topic: method
 f1_keywords: 
  - "iads/IADsGroup.Remove"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

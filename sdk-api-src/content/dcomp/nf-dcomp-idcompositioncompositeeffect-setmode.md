@@ -12,6 +12,8 @@ ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode 
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionCompositeEffect.SetMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

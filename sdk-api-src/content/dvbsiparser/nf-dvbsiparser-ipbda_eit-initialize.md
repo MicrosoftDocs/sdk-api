@@ -12,6 +12,8 @@ ms.keywords: IPBDA_EIT interface [Microsoft TV Technologies],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDA_EIT.Initialize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequest method, IWSDEndpointP
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDEndpointProxy.SendTwoWayRequest
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

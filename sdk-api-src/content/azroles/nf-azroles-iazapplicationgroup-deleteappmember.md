@@ -12,6 +12,8 @@ ms.keywords: AzApplicationGroup object [Security],DeleteAppMember method, Delete
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup.DeleteAppMember"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

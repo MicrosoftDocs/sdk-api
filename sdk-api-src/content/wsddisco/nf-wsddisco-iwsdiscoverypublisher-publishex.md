@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryPublisher interface,PublishEx method, IWSDiscoveryPubli
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.PublishEx
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

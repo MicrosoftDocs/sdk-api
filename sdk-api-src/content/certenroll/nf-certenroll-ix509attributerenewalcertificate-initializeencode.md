@@ -12,6 +12,8 @@ ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeEnc
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeRenewalCertificate.InitializeEncode"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

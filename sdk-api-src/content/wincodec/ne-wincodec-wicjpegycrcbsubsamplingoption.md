@@ -12,6 +12,8 @@ ms.keywords: WICJpegYCrCbSubsampling420, WICJpegYCrCbSubsampling422, WICJpegYCrC
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICJpegYCrCbSubsamplingOption"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

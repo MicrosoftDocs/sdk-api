@@ -12,6 +12,8 @@ ms.keywords: GetDisplayAlignment, GetDisplayAlignment method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetDisplayAlignment"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

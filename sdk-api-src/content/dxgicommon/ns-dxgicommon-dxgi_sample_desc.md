@@ -12,6 +12,8 @@ ms.keywords: 3b41465a-e6b5-e6d1-981e-8fb841dbb6f4, DXGI_SAMPLE_DESC, DXGI_SAMPLE
 ms.topic: struct
 f1_keywords: 
  - "dxgicommon/DXGI_SAMPLE_DESC"
+dev_langs:
+ - c++
 req.header: dxgicommon.h
 req.include-header: DXGI.h
 req.target-type: Windows

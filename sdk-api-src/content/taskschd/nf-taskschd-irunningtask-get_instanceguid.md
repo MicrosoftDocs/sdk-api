@@ -12,6 +12,8 @@ ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRun
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.InstanceGuid"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

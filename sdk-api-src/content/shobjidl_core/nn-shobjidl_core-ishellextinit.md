@@ -12,6 +12,8 @@ ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtIn
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IShellExtInit"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

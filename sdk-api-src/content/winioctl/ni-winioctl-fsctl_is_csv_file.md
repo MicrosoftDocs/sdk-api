@@ -12,6 +12,8 @@ ms.keywords: FSCTL_IS_CSV_FILE, FSCTL_IS_CSV_FILE control, FSCTL_IS_CSV_FILE con
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_IS_CSV_FILE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFieldState, GetFieldState method [Windows Shell], GetFieldState 
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredential.GetFieldState"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

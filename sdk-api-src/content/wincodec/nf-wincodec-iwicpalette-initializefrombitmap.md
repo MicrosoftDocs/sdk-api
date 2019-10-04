@@ -12,6 +12,8 @@ ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromBit
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICPalette.InitializeFromBitmap"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

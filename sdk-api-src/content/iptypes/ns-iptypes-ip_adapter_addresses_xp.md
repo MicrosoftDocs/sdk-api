@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_XP, IF_TYPE_ATM, IF
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADAPTER_ADDRESSES"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

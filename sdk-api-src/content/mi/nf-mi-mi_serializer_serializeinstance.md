@@ -12,6 +12,8 @@ ms.keywords: MI_Serializer_SerializeInstance, MI_Serializer_SerializeInstance fu
 ms.topic: function
 f1_keywords:
 - mi/MI_Serializer_SerializeInstance
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

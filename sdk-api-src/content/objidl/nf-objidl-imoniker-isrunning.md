@@ -12,6 +12,8 @@ ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMon
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.IsRunning"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interfac
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPDVD"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetPrivateObjectSecurity, SetPrivateObjectSecurity function [Securi
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetPrivateObjectSecurity
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

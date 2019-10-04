@@ -12,6 +12,8 @@ ms.keywords: GetSystemTimeAsFileTime, GetSystemTimeAsFileTime function, _win32_g
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetSystemTimeAsFileTime"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HTTPAPI_VERSION_GREATER_OR_EQUAL, HTTPAPI_VERSION_GREATER_OR_EQUAL 
 ms.topic: macro
 f1_keywords:
 - http/HTTP_GREATER_EQUAL_VERSION
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

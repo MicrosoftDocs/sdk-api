@@ -12,6 +12,8 @@ ms.keywords: IMediaSample interface [DirectShow],SetTime method, IMediaSample.Se
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.SetTime"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

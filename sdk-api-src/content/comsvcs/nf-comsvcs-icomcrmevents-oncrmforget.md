@@ -12,6 +12,8 @@ ms.keywords: IComCRMEvents interface [COM+],OnCRMForget method, IComCRMEvents.On
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComCRMEvents.OnCRMForget"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

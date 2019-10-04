@@ -12,6 +12,8 @@ ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regover
 ms.topic: function
 f1_keywords: 
  - "winreg/RegOverridePredefKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertyPage interface [COM],IsPageDirty method, IPropertyPage.IsP
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.IsPageDirty"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

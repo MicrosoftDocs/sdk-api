@@ -12,6 +12,8 @@ ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/DrvSetPointerShape
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: DMLCreateDevice, DMLCreateDevice function, direct3d12.dmlcreatedevi
 ms.topic: function
 f1_keywords: 
  - "directml/DMLCreateDevice"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

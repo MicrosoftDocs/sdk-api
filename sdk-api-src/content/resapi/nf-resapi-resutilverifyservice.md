@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_VERIFY_SERVICE, PRESUTIL_VERIFY_SERVICE function [Failover
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilVerifyService"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

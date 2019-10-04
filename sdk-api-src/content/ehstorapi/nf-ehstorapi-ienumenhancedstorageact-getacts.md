@@ -12,6 +12,8 @@ ms.keywords: GetACTs, GetACTs method [Enhanced Storage], GetACTs method [Enhance
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnumEnhancedStorageACT.GetACTs"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

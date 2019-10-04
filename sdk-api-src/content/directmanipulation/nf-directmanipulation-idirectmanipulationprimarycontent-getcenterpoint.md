@@ -12,6 +12,8 @@ ms.keywords: GetCenterPoint, GetCenterPoint method [Direct Manipulation], GetCen
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationPrimaryContent.GetCenterPoint"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES struct
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

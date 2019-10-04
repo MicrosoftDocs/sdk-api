@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_
 ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_POSIX_OFFSET_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

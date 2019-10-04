@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneDot, XMPlaneDot, XMPlaneDot method [DirectX Mat
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneDot"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

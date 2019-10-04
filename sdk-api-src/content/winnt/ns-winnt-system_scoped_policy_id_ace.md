@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYST
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_SCOPED_POLICY_ID_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

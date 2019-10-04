@@ -12,6 +12,8 @@ ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and m
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBundleWriter"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

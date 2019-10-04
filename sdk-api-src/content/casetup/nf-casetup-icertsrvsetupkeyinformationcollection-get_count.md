@@ -12,6 +12,8 @@ ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupK
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetupKeyInformationCollection.Count"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNe
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterNetworkInfo.GetNetworkHandle"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

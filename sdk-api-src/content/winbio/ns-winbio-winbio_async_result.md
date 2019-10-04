@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT, PWINBIO_ASYNC_RESULT 
 ms.topic: struct
 f1_keywords: 
  - "winbio/WINBIO_ASYNC_RESULT"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

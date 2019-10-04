@@ -12,6 +12,8 @@ ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror met
 ms.topic: method
 f1_keywords:
 - mfidl/IMFVideoProcessorControl.SetMirror
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

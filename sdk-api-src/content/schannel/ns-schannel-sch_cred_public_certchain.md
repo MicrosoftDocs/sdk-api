@@ -12,6 +12,8 @@ ms.keywords: '*PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED_PUBLIC_CERTCHAIN, PSCH_CRED
 ms.topic: struct
 f1_keywords:
 - schannel/SCH_CRED_PUBLIC_CERTCHAIN
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

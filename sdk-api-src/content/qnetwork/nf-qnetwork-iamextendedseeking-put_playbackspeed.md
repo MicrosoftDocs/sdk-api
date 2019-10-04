@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method,
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking.put_PlaybackSpeed"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

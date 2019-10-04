@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay met
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.UpdateOverlayDisplay"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

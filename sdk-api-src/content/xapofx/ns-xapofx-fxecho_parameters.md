@@ -12,6 +12,8 @@ ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixin
 ms.topic: struct
 f1_keywords: 
  - "xapofx/FXECHO_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

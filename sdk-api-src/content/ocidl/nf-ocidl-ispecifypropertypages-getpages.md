@@ -12,6 +12,8 @@ ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyProp
 ms.topic: method
 f1_keywords: 
  - "ocidl/ISpecifyPropertyPages.GetPages"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

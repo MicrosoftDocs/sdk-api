@@ -12,6 +12,8 @@ ms.keywords: PRJ_CALLBACK_DATA_FLAGS, PRJ_CALLBACK_DATA_FLAGS enumeration, PRJ_C
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_CALLBACK_DATA_FLAGS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

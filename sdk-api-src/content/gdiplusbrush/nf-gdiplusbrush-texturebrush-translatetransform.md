@@ -12,6 +12,8 @@ ms.keywords: TextureBrush class [GDI+],TranslateTransform method, TextureBrush.T
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.TranslateTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

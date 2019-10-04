@@ -12,6 +12,8 @@ ms.keywords: GetClipboardData, GetClipboardData function [Data Exchange], _win32
 ms.topic: function
 f1_keywords: 
  - "winuser/GetClipboardData"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

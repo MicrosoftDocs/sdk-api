@@ -12,6 +12,8 @@ ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structur
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_FILE_SYSTEM_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

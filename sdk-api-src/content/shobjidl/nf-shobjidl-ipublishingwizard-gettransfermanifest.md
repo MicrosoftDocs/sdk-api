@@ -12,6 +12,8 @@ ms.keywords: GetTransferManifest, GetTransferManifest method [Windows Shell], Ge
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IPublishingWizard.GetTransferManifest"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDSROLE_SERVER_STATE, DSROLE_SERVER_STATE, DSROLE_SERVER_STATE en
 ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_SERVER_STATE
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

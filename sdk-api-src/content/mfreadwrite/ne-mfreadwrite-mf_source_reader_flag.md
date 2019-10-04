@@ -12,6 +12,8 @@ ms.keywords: MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIA
 ms.topic: enum
 f1_keywords: 
  - "mfreadwrite/MF_SOURCE_READER_FLAG"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

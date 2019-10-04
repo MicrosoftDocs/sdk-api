@@ -12,6 +12,8 @@ ms.keywords: '*PDD_STEREOMODE, DD_STEREOMODE, DD_STEREOMODE structure [Display D
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_STEREOMODE
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

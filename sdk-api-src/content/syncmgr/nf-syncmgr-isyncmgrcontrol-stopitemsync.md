@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrControl interface [Windows Shell],StopItemSync method, ISyn
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.StopItemSync"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

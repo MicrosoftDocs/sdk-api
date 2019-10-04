@@ -12,6 +12,8 @@ ms.keywords: DhcpDeleteClientHook, DhcpDeleteClientHook callback function [DHCP]
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpDeleteClientHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUserData, GetUserData method [Remote Desktop Services], GetUserD
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.GetUserData
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On
 ms.topic: method
 f1_keywords: 
  - "d3d11on12/ID3D11On12Device.ReleaseWrappedResources"
+dev_langs:
+ - c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows

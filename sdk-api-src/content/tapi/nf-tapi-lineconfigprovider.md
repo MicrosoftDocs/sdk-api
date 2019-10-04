@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineconfigprovider, lineConfigProvider, lineConfigProvider 
 ms.topic: function
 f1_keywords: 
  - "tapi/lineConfigProvider"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_RECEIVE_DATA_RESULT, WSMAN_RECEIVE_DATA_RESULT structure [Win
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_RECEIVE_DATA_RESULT
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

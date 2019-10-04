@@ -12,6 +12,8 @@ ms.keywords: IWiaNotifyDevMgr interface [WIA],NewDeviceArrival method, IWiaNotif
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaNotifyDevMgr.NewDeviceArrival"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

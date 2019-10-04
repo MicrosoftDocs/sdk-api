@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animat
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

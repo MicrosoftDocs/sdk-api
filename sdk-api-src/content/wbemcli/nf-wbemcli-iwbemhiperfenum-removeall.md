@@ -12,6 +12,8 @@ ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],Remo
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemHiPerfEnum.RemoveAll"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

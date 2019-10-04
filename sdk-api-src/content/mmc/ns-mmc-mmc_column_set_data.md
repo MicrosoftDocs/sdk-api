@@ -12,6 +12,8 @@ ms.keywords: MMC_COLUMN_SET_DATA, MMC_COLUMN_SET_DATA structure [MMC], _slate_mm
 ms.topic: struct
 f1_keywords:
 - mmc/MMC_COLUMN_SET_DATA
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

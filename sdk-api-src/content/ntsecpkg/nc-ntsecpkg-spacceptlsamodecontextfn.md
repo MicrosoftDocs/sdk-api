@@ -12,6 +12,8 @@ ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DATAGRAM, ASC_
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpAcceptLsaModeContext
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

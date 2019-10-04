@@ -12,6 +12,8 @@ ms.keywords: IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],Seria
 ms.topic: method
 f1_keywords: 
  - "tuner/IPersistTuneXmlUtility2.Serialize"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

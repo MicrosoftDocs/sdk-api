@@ -12,6 +12,8 @@ ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcre
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpCreateSession"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

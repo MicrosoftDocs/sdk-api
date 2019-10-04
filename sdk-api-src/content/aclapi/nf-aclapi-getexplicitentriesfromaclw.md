@@ -12,6 +12,8 @@ ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Secu
 ms.topic: function
 f1_keywords:
 - aclapi/GetExplicitEntriesFromAcl
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

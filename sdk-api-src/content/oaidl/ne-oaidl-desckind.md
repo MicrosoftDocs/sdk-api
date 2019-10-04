@@ -12,6 +12,8 @@ ms.keywords: DESCKIND, DESCKIND enumeration [Automation], DESCKIND_FUNCDESC, DES
 ms.topic: enum
 f1_keywords: 
  - "oaidl/DESCKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

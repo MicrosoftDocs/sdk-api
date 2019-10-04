@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interf
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_3/IDXGIFactory3"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

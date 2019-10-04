@@ -6,6 +6,8 @@ ms.keywords: _WLAN_POWER_SETTING, WLAN_POWER_SETTING
 ms.topic: language-reference
 f1_keywords: 
  - "wlanapi/_WLAN_POWER_SETTING"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

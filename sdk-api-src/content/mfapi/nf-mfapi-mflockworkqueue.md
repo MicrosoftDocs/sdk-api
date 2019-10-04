@@ -12,6 +12,8 @@ ms.keywords: 307a1ec5-e54a-47f6-8ace-3b935081faf8, MFLockWorkQueue, MFLockWorkQu
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFLockWorkQueue"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

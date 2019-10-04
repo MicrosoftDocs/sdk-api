@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],Update method, IOleObject.Update, IOleOb
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.Update"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

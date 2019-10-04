@@ -12,6 +12,8 @@ ms.keywords: GetCachedColumnHeaders, GetCachedColumnHeaders method [Windows Acce
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTablePattern.GetCachedColumnHeaders"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ADS_DEREFENUM, ADS_DEREFENUM enumeration [ADSI], ADS_DEREF_ALWAYS, 
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_DEREFENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

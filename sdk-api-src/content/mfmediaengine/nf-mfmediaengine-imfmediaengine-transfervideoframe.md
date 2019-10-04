@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],TransferVideoFrame meth
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.TransferVideoFrame
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

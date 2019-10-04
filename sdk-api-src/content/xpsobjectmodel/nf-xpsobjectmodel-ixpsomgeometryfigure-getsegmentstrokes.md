@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetSegmentStrokes, GetSegmentStrokes method [XPS Documents a
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokes"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

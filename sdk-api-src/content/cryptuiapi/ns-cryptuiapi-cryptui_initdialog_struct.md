@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPTUI_INITDIALOG_STRUCT, CRYPTUI_INITDIALOG_STRUCT, CRYPTUI_IN
 ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_INITDIALOG_STRUCT
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

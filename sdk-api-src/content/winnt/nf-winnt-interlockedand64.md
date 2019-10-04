@@ -12,6 +12,8 @@ ms.keywords: InterlockedAnd64, InterlockedAnd64 function, base.interlockedand64,
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedAnd64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPT
 ms.topic: struct
 f1_keywords: 
  - "winnt/SECURITY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

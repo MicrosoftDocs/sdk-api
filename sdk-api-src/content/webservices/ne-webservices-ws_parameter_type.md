@@ -12,6 +12,8 @@ ms.keywords: WS_PARAMETER_TYPE, WS_PARAMETER_TYPE enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_PARAMETER_TYPE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

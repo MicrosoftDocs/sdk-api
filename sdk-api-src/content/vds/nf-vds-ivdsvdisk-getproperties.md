@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk
 ms.topic: method
 f1_keywords:
 - vds/IVdsVDisk.GetProperties
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteGdiInterop1.CreateFontFromLOGFONT"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

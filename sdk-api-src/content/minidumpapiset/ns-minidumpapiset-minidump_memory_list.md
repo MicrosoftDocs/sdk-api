@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_MEMORY_LIST, MINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY_LI
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_MEMORY_LIST
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], fi
 ms.topic: function
 f1_keywords: 
  - "filehc/CacheRichCreateFile"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

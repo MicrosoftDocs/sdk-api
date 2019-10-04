@@ -12,6 +12,8 @@ ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.MaxFolderCount"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

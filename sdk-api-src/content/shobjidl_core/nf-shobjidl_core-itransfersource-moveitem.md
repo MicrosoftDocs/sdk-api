@@ -12,6 +12,8 @@ ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransfe
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferSource.MoveItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

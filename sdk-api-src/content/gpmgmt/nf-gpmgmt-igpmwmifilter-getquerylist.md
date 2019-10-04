@@ -12,6 +12,8 @@ ms.keywords: GPMWMIFilter class [GPMC],GetQueryList method, GetQueryList, GetQue
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMWMIFilter.GetQueryList"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

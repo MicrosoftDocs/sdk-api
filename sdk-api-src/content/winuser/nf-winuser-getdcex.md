@@ -12,6 +12,8 @@ ms.keywords: DCX_CACHE, DCX_CLIPCHILDREN, DCX_CLIPSIBLINGS, DCX_EXCLUDERGN, DCX_
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDCEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

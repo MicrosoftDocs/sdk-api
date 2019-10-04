@@ -12,6 +12,8 @@ ms.keywords: WSMAN_FLAG_CALLBACK_END_OF_OPERATION, WSMAN_FLAG_CALLBACK_END_OF_ST
 ms.topic: enum
 f1_keywords: 
  - "wsman/WSManCallbackFlags"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

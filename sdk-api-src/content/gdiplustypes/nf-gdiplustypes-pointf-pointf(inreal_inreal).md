@@ -12,6 +12,8 @@ ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/PointF.PointF"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

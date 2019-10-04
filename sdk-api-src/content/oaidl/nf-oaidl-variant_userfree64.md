@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserFree64, VARIANT_UserFree64 function [Automation], autom
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserFree64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

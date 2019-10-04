@@ -12,6 +12,8 @@ ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITCallInfo2"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFCameraExtrinsic_CalibratedTransform, MFCameraExtrinsic_Calibrated
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MFCameraExtrinsic_CalibratedTransform"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

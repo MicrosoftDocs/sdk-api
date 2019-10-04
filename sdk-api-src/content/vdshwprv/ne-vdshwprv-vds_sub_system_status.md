@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SS
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_SUB_SYSTEM_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

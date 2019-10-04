@@ -12,6 +12,8 @@ ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Gro
 ms.topic: enum
 f1_keywords:
 - appmgmt/INSTALLSPECTYPE
+dev_langs:
+ - c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

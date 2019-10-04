@@ -12,6 +12,8 @@ ms.keywords: FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification 
 ms.topic: function
 f1_keywords: 
  - "faxroute/FaxRouteDeviceChangeNotification"
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GlobalDeleteAtom, GlobalDeleteAtom function [Data Exchange], _win32
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalDeleteAtom"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framewo
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnLMProcessor"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],Rem
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmMutableCollection.RemoveById"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TOKENBINDING_RESULT_DATA, TOKENBINDING_RESULT_DATA structure [Secur
 ms.topic: struct
 f1_keywords: 
  - "tokenbinding/TOKENBINDING_RESULT_DATA"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

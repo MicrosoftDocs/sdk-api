@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfServices, GetNumberOfServices method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor.GetNumberOfServices"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

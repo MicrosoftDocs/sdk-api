@@ -12,6 +12,8 @@ ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],RegisterForNextTable
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SDT.RegisterForNextTable"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

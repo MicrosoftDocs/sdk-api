@@ -12,6 +12,8 @@ ms.keywords: COPYFILE2_COPY_PHASE, COPYFILE2_COPY_PHASE enumeration [Files], COP
 ms.topic: enum
 f1_keywords: 
  - "winbase/COPYFILE2_COPY_PHASE"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

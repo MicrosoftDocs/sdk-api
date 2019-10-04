@@ -12,6 +12,8 @@ ms.keywords: GetProviderType, GetProviderType method [VDS], GetProviderType meth
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderType.GetProviderType
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

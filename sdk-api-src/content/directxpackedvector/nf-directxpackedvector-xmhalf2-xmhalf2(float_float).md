@@ -12,6 +12,8 @@ ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 c
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMHALF2.XMHALF2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

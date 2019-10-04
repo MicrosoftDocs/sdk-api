@@ -12,6 +12,8 @@ ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhget
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhGetLogFileSize"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PINPUT_INJECTION_VALUE, INPUT_INJECTION_VALUE, INPUT_INJECTION_VA
 ms.topic: struct
 f1_keywords: 
  - "winuser/INPUT_INJECTION_VALUE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

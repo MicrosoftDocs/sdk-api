@@ -12,6 +12,8 @@ ms.keywords: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816, AppearanceConstants, Appearan
 ms.topic: enum
 f1_keywords: 
  - "inked/AppearanceConstants"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Window
 ms.topic: macro
 f1_keywords: 
  - "winnt/PRIMARYLANGID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

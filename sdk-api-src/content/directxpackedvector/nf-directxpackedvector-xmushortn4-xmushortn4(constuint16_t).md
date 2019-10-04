@@ -12,6 +12,8 @@ ms.keywords: XMUSHORTN4, XMUSHORTN4 constructor [DirectX Math Support APIs], XMU
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUSHORTN4.XMUSHORTN4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

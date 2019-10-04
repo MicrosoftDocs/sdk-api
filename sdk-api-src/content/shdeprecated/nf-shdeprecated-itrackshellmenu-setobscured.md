@@ -12,6 +12,8 @@ ms.keywords: ITrackShellMenu interface [Windows Shell],SetObscured method, ITrac
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITrackShellMenu.SetObscured"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

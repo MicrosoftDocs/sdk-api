@@ -12,6 +12,8 @@ ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog
 ms.topic: enum
 f1_keywords: 
  - "strmif/VfwCaptureDialogs"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

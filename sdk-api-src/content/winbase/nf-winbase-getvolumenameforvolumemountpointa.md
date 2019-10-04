@@ -12,6 +12,8 @@ ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint 
 ms.topic: function
 f1_keywords: 
  - "winbase/GetVolumeNameForVolumeMountPoint"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

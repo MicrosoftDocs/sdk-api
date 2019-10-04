@@ -12,6 +12,8 @@ ms.keywords: PRJ_FLAG_NONE, PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, PRJ_STARTVIRTUALIZ
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

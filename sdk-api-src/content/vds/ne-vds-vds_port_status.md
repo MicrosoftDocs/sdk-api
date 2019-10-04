@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [V
 ms.topic: enum
 f1_keywords:
 - vds/VDS_PORT_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

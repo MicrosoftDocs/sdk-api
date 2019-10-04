@@ -12,6 +12,8 @@ ms.keywords: IEventClass2 interface [COM+],PublisherID property, IEventClass2.Pu
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass2.PublisherID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

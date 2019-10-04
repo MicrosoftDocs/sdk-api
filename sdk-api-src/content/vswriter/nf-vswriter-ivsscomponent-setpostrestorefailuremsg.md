@@ -12,6 +12,8 @@ ms.keywords: IVssComponent interface [VSS],SetPostRestoreFailureMsg method, IVss
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.SetPostRestoreFailureMsg"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

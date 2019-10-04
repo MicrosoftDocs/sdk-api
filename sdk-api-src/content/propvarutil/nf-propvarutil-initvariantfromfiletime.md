@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromFileTime, InitVariantFromFileTime function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromFileTime"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

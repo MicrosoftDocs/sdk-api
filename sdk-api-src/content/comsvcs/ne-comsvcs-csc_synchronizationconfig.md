@@ -12,6 +12,8 @@ ms.keywords: CSC_IfContainerIsSynchronized, CSC_NewSynchronization, CSC_NewSynch
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_SynchronizationConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

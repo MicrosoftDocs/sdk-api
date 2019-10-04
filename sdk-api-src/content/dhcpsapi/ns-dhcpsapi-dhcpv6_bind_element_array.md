@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BI
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

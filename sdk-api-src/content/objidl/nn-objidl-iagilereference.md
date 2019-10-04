@@ -12,6 +12,8 @@ ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgil
 ms.topic: interface
 f1_keywords: 
  - "objidl/IAgileReference"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

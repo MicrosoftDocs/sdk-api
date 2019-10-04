@@ -12,6 +12,8 @@ ms.keywords: 9c3d009a-7018-dfd4-2e89-34daef69b3b7, D3D11_DEPTH_WRITE_MASK, D3D11
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_DEPTH_WRITE_MASK"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

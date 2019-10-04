@@ -12,6 +12,8 @@ ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHLimitInputEdit"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

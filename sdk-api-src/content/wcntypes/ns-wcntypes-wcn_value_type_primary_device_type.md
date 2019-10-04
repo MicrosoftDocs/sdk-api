@@ -12,6 +12,8 @@ ms.keywords: PWCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE, PWCN_VALUE_TYPE_PRIMARY_DEVICE
 ms.topic: struct
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

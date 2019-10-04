@@ -12,6 +12,8 @@ ms.keywords: GetImageCount, GetImageCount method [Windows Controls], GetImageCou
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetImageCount"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

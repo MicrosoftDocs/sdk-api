@@ -12,6 +12,8 @@ ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Acc
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UIAutomationParameter"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

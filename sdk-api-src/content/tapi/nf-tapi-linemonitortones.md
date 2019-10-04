@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linemonitortones, lineMonitorTones, lineMonitorTones functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineMonitorTones"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

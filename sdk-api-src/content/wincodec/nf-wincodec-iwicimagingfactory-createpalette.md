@@ -12,6 +12,8 @@ ms.keywords: CreatePalette, CreatePalette method [Windows Imaging Component], Cr
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreatePalette"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

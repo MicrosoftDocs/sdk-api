@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_BEST_IF, MIB_BEST_IF, MIB_BEST_IF structure [MIB], PMIB_BEST
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/MIB_BEST_IF"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

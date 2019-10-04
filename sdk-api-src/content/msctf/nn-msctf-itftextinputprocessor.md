@@ -12,6 +12,8 @@ ms.keywords: ITfTextInputProcessor, ITfTextInputProcessor interface [Text Servic
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfTextInputProcessor"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

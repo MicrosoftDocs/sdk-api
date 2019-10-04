@@ -12,6 +12,8 @@ ms.keywords: GPMGPO class [GPMC],SetUserEnabled method, IGPMGPO interface [GPMC]
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.SetUserEnabled"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

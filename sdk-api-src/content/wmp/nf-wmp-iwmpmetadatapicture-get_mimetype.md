@@ -12,6 +12,8 @@ ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMetadataPicture.get_mimeType"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_ERROR_CODE, MF_TIMED_TEXT_ERROR_CODE enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_ERROR_CODE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

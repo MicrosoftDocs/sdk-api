@@ -12,6 +12,8 @@ ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],Rect class
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.GetRight"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

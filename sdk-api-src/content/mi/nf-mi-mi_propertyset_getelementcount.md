@@ -12,6 +12,8 @@ ms.keywords: MI_PropertySet_GetElementCount, MI_PropertySet_GetElementCount func
 ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_GetElementCount
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

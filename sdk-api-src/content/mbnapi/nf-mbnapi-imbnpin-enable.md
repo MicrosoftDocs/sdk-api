@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPin.Enable"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

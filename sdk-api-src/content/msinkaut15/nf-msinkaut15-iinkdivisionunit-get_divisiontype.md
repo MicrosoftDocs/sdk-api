@@ -12,6 +12,8 @@ ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivisionUnit.DivisionType"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

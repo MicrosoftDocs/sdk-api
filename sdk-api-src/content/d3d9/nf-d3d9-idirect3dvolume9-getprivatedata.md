@@ -12,6 +12,8 @@ ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateDat
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DVolume9.GetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

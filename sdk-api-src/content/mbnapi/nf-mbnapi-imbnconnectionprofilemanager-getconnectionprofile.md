@@ -12,6 +12,8 @@ ms.keywords: GetConnectionProfile, GetConnectionProfile method [Microsoft Broadb
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionProfileManager.GetConnectionProfile"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMenuButton, IMenuButton interface [MMC], IMenuButton interface [MM
 ms.topic: interface
 f1_keywords: 
  - "mmc/IMenuButton"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

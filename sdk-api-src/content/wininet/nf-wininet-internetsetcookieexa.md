@@ -12,6 +12,8 @@ ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_CO
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetSetCookieEx"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

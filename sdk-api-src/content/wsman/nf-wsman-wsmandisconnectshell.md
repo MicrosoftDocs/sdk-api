@@ -12,6 +12,8 @@ ms.keywords: WSManDisconnectShell, WSManDisconnectShell function [Windows Remote
 ms.topic: function
 f1_keywords:
 - wsman/WSManDisconnectShell
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

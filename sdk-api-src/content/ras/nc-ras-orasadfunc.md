@@ -12,6 +12,8 @@ ms.keywords: ORASADFunc, ORASADFunc callback, ORASADFunc callback function [RAS]
 ms.topic: callback
 f1_keywords: 
  - "ras/ORASADFunc"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

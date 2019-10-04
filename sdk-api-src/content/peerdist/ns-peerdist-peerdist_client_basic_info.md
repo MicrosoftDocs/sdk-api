@@ -12,6 +12,8 @@ ms.keywords: "*PPEERDIST_CLIENT_BASIC_INFO, PEERDIST_CLIENT_BASIC_INFO, PEERDIST
 ms.topic: struct
 f1_keywords: 
  - "peerdist/PEERDIST_CLIENT_BASIC_INFO"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

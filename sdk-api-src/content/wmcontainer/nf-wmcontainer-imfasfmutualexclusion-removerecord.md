@@ -12,6 +12,8 @@ ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveRecord met
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFMutualExclusion.RemoveRecord"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

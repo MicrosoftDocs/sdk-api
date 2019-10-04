@@ -12,6 +12,8 @@ ms.keywords: CreateApplication2, CreateApplication2 method [Security], CreateApp
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore2.CreateApplication2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

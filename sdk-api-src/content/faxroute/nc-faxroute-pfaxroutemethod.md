@@ -12,6 +12,8 @@ ms.keywords: FaxRouteMethod, FaxRouteMethod callback, FaxRouteMethod callback fu
 ms.topic: callback
 f1_keywords: 
  - "faxroute/FaxRouteMethod"
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

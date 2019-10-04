@@ -12,6 +12,8 @@ ms.keywords: BlockInput, BlockInput function [Keyboard and Mouse Input], _win32_
 ms.topic: function
 f1_keywords: 
  - "winuser/BlockInput"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

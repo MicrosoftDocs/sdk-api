@@ -12,6 +12,8 @@ ms.keywords: 17405ee2-6513-4308-b29f-060211301918, MFT_INPUT_DATA_BUFFER_PLACEHO
 ms.topic: enum
 f1_keywords: 
  - "mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

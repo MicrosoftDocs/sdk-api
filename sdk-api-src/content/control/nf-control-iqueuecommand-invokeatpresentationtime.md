@@ -12,6 +12,8 @@ ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime metho
 ms.topic: method
 f1_keywords: 
  - "control/IQueueCommand.InvokeAtPresentationTime"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPrerequisite, GetPrerequisite method [App packaging and manageme
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestReader.GetPrerequisite"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

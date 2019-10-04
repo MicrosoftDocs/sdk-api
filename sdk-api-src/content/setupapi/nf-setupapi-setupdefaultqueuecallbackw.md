@@ -12,6 +12,8 @@ ms.keywords: SPFILENOTIFY_COPYERROR, SPFILENOTIFY_DELETEERROR, SPFILENOTIFY_ENDC
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDefaultQueueCallback"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

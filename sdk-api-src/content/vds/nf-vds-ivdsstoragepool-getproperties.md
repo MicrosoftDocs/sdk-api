@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsStora
 ms.topic: method
 f1_keywords:
 - vds/IVdsStoragePool.GetProperties
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

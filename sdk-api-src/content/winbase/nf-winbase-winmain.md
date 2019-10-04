@@ -12,6 +12,8 @@ ms.keywords: SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXI
 ms.topic: function
 f1_keywords: 
  - "winbase/WinMain"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

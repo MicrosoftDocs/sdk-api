@@ -12,6 +12,8 @@ ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],SavePrope
 ms.topic: method
 f1_keywords: 
  - "storageprovider/IStorageProviderPropertyHandler.SaveProperties"
+dev_langs:
+ - c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

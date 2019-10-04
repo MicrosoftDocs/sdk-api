@@ -12,6 +12,8 @@ ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],put_SystemTyp
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTuningSpace.put_SystemType"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

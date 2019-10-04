@@ -12,6 +12,8 @@ ms.keywords: "*LPAPI_VERSION, API_VERSION, API_VERSION structure, LPAPI_VERSION,
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/API_VERSION"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

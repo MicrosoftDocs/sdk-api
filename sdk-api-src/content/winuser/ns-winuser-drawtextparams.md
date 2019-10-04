@@ -12,6 +12,8 @@ ms.keywords: "*LPDRAWTEXTPARAMS, DRAWTEXTPARAMS, DRAWTEXTPARAMS structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "winuser/DRAWTEXTPARAMS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

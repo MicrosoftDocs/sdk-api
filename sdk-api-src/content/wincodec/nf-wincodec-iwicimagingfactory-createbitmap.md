@@ -12,6 +12,8 @@ ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], Crea
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateBitmap"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.IsUpToDate"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

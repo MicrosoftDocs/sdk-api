@@ -12,6 +12,8 @@ ms.keywords: "*LPMONITORINFOEXW, LPMONITORINFOEX, LPMONITORINFOEX structure poin
 ms.topic: struct
 f1_keywords: 
  - "winuser/MONITORINFOEX"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

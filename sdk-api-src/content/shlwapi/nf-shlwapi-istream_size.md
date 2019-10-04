@@ -12,6 +12,8 @@ ms.keywords: IStream_Size, IStream_Size function [Windows Shell], _win32_IStream
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IStream_Size"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncChangeBatchAdvanced"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

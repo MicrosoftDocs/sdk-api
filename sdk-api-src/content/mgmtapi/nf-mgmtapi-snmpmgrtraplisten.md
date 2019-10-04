@@ -12,6 +12,8 @@ ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgr
 ms.topic: function
 f1_keywords: 
  - "mgmtapi/SnmpMgrTrapListen"
+dev_langs:
+ - c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

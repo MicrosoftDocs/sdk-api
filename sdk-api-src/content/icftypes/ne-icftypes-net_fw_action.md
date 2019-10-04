@@ -12,6 +12,8 @@ ms.keywords: NET_FW_ACTION, NET_FW_ACTION enumeration [ICS/ICF], NET_FW_ACTION_A
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_ACTION"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

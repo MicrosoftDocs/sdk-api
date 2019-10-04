@@ -12,6 +12,8 @@ ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath pro
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator.FragmentPath"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawStateProc, DrawStateProc callback, DrawStateProc callback funct
 ms.topic: callback
 f1_keywords: 
  - "winuser/DrawStateProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

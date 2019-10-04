@@ -12,6 +12,8 @@ ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray func
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHReplaceFromPropSheetExtArray"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

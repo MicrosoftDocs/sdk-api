@@ -12,6 +12,8 @@ ms.keywords: CM_Add_ID, CM_Add_ID function [Device and Driver Installation], CM_
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Add_ID"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

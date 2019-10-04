@@ -12,6 +12,8 @@ ms.keywords: 81502735-fdf2-3d9f-7157-db6ecffe07a9, GetDirect3D, GetDirect3D meth
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetDirect3D"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

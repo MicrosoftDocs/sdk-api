@@ -12,6 +12,8 @@ ms.keywords: GetTime, GetTime method [Windows Animation], GetTime method [Window
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTimer.GetTime"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

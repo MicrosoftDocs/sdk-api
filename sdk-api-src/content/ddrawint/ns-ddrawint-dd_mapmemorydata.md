@@ -12,6 +12,8 @@ ms.keywords: '*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_MAPMEMORYDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

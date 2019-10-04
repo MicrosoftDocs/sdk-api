@@ -12,6 +12,8 @@ ms.keywords: GetQuery, GetQuery method [search], GetQuery method [search],IQuery
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQuerySolution.GetQuery"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

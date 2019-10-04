@@ -12,6 +12,8 @@ ms.keywords: DeviceServiceID property [Microsoft Broadband Networks], DeviceServ
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceService.DeviceServiceID"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

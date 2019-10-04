@@ -12,6 +12,8 @@ ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, 
 ms.topic: method
 f1_keywords: 
  - "ddpbackup/IDedupBackupSupport.RestoreFiles"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

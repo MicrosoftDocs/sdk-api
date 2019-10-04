@@ -12,6 +12,8 @@ ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shr
 ms.topic: macro
 f1_keywords: 
  - "winnt/Int64ShraMod32"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindTypeRef, FindTypeRef method [Windows Runtime], FindTypeRef meth
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.FindTypeRef"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

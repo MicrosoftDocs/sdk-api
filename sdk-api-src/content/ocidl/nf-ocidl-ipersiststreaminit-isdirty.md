@@ -12,6 +12,8 @@ ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamIn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPersistStreamInit.IsDirty"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

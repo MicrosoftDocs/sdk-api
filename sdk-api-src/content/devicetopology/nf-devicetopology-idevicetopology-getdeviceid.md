@@ -12,6 +12,8 @@ ms.keywords: GetDeviceId, GetDeviceId method [Core Audio], GetDeviceId method [C
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceTopology.GetDeviceId"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

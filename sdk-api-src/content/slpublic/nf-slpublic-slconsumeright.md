@@ -12,6 +12,8 @@ ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slcons
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLConsumeRight"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

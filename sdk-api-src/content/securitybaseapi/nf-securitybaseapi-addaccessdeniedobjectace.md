@@ -12,6 +12,8 @@ ms.keywords: AddAccessDeniedObjectAce, AddAccessDeniedObjectAce function [Securi
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddAccessDeniedObjectAce
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

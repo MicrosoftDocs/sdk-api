@@ -12,6 +12,8 @@ ms.keywords: EC_SUBSCRIPTION_CONTENT_FORMAT, EC_SUBSCRIPTION_CONTENT_FORMAT enum
 ms.topic: enum
 f1_keywords: 
  - "evcoll/EC_SUBSCRIPTION_CONTENT_FORMAT"
+dev_langs:
+ - c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

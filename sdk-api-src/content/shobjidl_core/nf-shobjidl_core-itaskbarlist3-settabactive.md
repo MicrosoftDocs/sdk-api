@@ -12,6 +12,8 @@ ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabActive method, ITaskb
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITaskbarList3.SetTabActive"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

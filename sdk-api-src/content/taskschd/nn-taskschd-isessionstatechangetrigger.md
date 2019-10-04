@@ -12,6 +12,8 @@ ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [T
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ISessionStateChangeTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

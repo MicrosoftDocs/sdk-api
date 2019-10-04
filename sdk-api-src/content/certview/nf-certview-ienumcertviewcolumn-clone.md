@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVI
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWCOLUMN.Clone"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

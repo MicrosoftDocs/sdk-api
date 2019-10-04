@@ -12,6 +12,8 @@ ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "commctrl/RemoveWindowSubclass"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

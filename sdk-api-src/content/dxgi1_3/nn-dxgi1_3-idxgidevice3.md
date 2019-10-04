@@ -12,6 +12,8 @@ ms.keywords: IDXGIDevice3, IDXGIDevice3 interface [DXGI], IDXGIDevice3 interface
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_3/IDXGIDevice3"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

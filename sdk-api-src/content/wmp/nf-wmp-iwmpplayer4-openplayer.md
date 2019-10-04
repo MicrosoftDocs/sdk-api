@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWM
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayer4.openPlayer"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

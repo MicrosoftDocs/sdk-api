@@ -12,6 +12,8 @@ ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IAzClien
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzClientContext3"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

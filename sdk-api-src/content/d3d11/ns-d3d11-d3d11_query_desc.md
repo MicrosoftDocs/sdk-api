@@ -12,6 +12,8 @@ ms.keywords: 4fde9a23-6b0d-4b54-8ad1-f6003b4e0887, D3D11_QUERY_DESC, D3D11_QUERY
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_QUERY_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

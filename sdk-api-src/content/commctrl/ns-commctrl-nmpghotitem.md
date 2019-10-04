@@ -12,6 +12,8 @@ ms.keywords: '*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Wi
 ms.topic: struct
 f1_keywords:
 - commctrl/NMPGHOTITEM
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

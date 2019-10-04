@@ -12,6 +12,8 @@ ms.keywords: IQueryCodePage interface [Windows Shell],SetCodePage method, IQuery
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IQueryCodePage.SetCodePage"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

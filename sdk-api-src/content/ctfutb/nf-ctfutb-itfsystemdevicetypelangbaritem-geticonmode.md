@@ -12,6 +12,8 @@ ms.keywords: GetIconMode, GetIconMode method [Text Services Framework], GetIconM
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfSystemDeviceTypeLangBarItem.GetIconMode"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

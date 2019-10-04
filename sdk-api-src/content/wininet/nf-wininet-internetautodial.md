@@ -12,6 +12,8 @@ ms.keywords: INTERNET_AUTODIAL_FAILIFSECURITYCHECK, INTERNET_AUTODIAL_FORCE_ONLI
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetAutodial"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

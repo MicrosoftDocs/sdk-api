@@ -12,6 +12,8 @@ ms.keywords: EBF_NODROPTARGET, EBF_NONE, EBF_SELECTFROMDATAOBJECT, EXPLORER_BROW
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/EXPLORER_BROWSER_FILL_FLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes 
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetFourCCCodes"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

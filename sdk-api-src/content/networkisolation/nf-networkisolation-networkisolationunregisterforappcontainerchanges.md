@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationU
 ms.topic: function
 f1_keywords: 
  - "networkisolation/NetworkIsolationUnregisterForAppContainerChanges"
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_URL_HTTPS_SCHEME_TYPE, WS_URL_HTTP_SCHEME_TYPE, WS_URL_NETPIPE_S
 ms.topic: enum
 f1_keywords:
 - webservices/WS_URL_SCHEME_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

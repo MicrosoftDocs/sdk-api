@@ -12,6 +12,8 @@ ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [W
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual3.FilterView"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

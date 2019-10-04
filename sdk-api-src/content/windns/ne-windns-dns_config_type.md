@@ -12,6 +12,8 @@ ms.keywords: DNS_CONFIG_TYPE, DNS_CONFIG_TYPE enumeration [DNS], DnsConfigAdapte
 ms.topic: enum
 f1_keywords: 
  - "windns/DNS_CONFIG_TYPE"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

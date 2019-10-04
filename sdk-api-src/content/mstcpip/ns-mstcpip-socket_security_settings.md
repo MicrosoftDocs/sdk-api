@@ -12,6 +12,8 @@ ms.keywords: SOCKET_SECURITY_SETTINGS, SOCKET_SECURITY_SETTINGS structure [Winso
 ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_SECURITY_SETTINGS
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

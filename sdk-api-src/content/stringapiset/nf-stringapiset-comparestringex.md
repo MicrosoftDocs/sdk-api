@@ -12,6 +12,8 @@ ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for
 ms.topic: function
 f1_keywords:
 - stringapiset/CompareStringEx
+dev_langs:
+ - c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

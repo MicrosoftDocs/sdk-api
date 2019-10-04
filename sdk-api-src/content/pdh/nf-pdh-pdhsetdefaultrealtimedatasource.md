@@ -12,6 +12,8 @@ ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSo
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhSetDefaultRealTimeDataSource"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

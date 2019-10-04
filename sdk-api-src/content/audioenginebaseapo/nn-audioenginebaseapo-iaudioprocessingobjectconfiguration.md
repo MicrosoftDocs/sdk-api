@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObjectConfiguration, IAudioProcessingObjectConfigur
 ms.topic: interface
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObjectConfiguration"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

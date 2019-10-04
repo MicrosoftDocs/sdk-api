@@ -12,6 +12,8 @@ ms.keywords: IMFMediaKeySession interface [Media Foundation],get_SessionId metho
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeySession.get_SessionId"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

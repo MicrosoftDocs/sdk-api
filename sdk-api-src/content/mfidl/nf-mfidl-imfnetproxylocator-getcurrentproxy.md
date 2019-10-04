@@ -12,6 +12,8 @@ ms.keywords: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272, GetCurrentProxy, GetCurrentPr
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetProxyLocator.GetCurrentProxy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

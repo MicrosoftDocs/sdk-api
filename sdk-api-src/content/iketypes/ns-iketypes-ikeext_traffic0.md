@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], fwp.ikeext_
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_TRAFFIC0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckRemoteDebuggerPresent, CheckRemoteDebuggerPresent function, ba
 ms.topic: function
 f1_keywords: 
  - "debugapi/CheckRemoteDebuggerPresent"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

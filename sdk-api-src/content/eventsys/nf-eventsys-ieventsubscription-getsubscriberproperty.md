@@ -12,6 +12,8 @@ ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubs
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.GetSubscriberProperty"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

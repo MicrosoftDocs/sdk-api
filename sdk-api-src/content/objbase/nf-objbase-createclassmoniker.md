@@ -12,6 +12,8 @@ ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateC
 ms.topic: function
 f1_keywords: 
  - "objbase/CreateClassMoniker"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DisplayName property [File Server Resource Manager], DisplayName pr
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinition2.DisplayName"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

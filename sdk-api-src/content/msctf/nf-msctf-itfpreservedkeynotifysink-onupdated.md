@@ -12,6 +12,8 @@ ms.keywords: ITfPreservedKeyNotifySink interface [Text Services Framework],OnUpd
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPreservedKeyNotifySink.OnUpdated"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordGroup, GetRecordGroup method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_SDTT.GetRecordGroup"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

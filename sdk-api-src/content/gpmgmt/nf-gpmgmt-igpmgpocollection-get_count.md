@@ -12,6 +12,8 @@ ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOCollection class
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPOCollection.Count"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

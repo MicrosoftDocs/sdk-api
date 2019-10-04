@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_MULTI_OPERATION_TYPE, BCRYPT_MULTI_OPERATION_TYPE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "bcrypt/BCRYPT_MULTI_OPERATION_TYPE"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

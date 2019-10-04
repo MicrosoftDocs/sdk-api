@@ -12,6 +12,8 @@ ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData m
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.DumpTreeItemData"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

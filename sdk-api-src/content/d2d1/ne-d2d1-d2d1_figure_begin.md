@@ -12,6 +12,8 @@ ms.keywords: D2D1_FIGURE_BEGIN, D2D1_FIGURE_BEGIN enumeration [Direct2D], D2D1_F
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_FIGURE_BEGIN"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

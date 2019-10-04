@@ -12,6 +12,8 @@ ms.keywords: CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], C
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory5.CreateFontSetBuilder"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES, D2D1_CUSTOM_VERTEX_BUFFER_PRO
 ms.topic: struct
 f1_keywords: 
  - "d2d1effectauthor/D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

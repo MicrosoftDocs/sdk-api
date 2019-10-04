@@ -12,6 +12,8 @@ ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface 
 ms.topic: interface
 f1_keywords: 
  - "mfspatialaudio/IMFSpatialAudioObjectBuffer"
+dev_langs:
+ - c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

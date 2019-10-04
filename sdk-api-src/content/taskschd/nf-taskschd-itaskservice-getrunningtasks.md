@@ -12,6 +12,8 @@ ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunnin
 ms.topic: method
 f1_keywords:
 - taskschd/ITaskService.GetRunningTasks
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

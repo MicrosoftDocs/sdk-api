@@ -12,6 +12,8 @@ ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.Q
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMultiQI.QueryMultipleInterfaces"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

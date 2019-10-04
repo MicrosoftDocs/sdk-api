@@ -12,6 +12,8 @@ ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertEmbedded
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP.InsertEmbeddedAtSelection"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VirtualChannelOpen, VirtualChannelOpen callback, VirtualChannelOpen
 ms.topic: callback
 f1_keywords: 
  - "cchannel/VirtualChannelOpen"
+dev_langs:
+ - c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

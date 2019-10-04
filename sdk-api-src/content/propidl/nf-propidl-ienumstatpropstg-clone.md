@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured 
 ms.topic: method
 f1_keywords: 
  - "propidl/IEnumSTATPROPSTG.Clone"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

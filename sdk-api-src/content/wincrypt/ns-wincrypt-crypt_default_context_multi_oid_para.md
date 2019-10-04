@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULT
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

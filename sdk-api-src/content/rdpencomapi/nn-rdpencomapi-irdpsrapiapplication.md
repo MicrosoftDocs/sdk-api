@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRA
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIApplication"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

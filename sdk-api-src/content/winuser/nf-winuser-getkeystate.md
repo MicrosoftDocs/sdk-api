@@ -12,6 +12,8 @@ ms.keywords: GetKeyState, GetKeyState function [Keyboard and Mouse Input], _win3
 ms.topic: function
 f1_keywords: 
  - "winuser/GetKeyState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

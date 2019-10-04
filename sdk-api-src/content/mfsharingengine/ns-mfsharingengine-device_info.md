@@ -12,6 +12,8 @@ ms.keywords: DEVICE_INFO, DEVICE_INFO structure [Media Foundation], mf.device_in
 ms.topic: struct
 f1_keywords: 
  - "mfsharingengine/DEVICE_INFO"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

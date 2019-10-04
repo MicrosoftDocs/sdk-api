@@ -12,6 +12,8 @@ ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cl
 ms.topic: struct
 f1_keywords:
 - resapi/WitnessTagHelper
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

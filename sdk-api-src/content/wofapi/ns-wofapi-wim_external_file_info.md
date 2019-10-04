@@ -12,6 +12,8 @@ ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_F
 ms.topic: struct
 f1_keywords: 
  - "wofapi/WIM_EXTERNAL_FILE_INFO"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

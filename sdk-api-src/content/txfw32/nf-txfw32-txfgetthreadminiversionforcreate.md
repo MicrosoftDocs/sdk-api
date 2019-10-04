@@ -5,6 +5,10 @@ description: Returns the MiniVersion a subsequent create is set to open.
 ms.date: 4/26/2019
 ms.keywords: TxfGetThreadMiniVersionForCreate
 ms.topic: language-reference
+f1_keywords:
+ - TxfGetThreadMiniVersionForCreate
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

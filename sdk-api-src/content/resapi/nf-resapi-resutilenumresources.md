@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES function [Failover
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilEnumResources"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

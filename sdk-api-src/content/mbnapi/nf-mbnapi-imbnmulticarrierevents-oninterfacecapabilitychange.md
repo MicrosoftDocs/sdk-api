@@ -12,6 +12,8 @@ ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnI
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrierEvents.OnInterfaceCapabilityChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

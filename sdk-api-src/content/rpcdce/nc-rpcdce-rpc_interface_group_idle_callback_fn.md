@@ -12,6 +12,8 @@ ms.keywords: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN, RPC_INTERFACE_GROUP_IDLE_CALL
 ms.topic: callback
 f1_keywords: 
  - "rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

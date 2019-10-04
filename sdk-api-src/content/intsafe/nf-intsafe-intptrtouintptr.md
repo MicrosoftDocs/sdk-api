@@ -12,6 +12,8 @@ ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows S
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntPtrToUIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

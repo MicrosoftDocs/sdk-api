@@ -12,6 +12,8 @@ ms.keywords: GetVarDesc, GetVarDesc method [Automation], GetVarDesc method [Auto
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetVarDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

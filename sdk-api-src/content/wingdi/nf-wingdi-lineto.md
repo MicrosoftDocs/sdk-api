@@ -12,6 +12,8 @@ ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, w
 ms.topic: function
 f1_keywords: 
  - "wingdi/LineTo"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Status p
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgPdu.Status"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA 
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAXGETPAGEDATA"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

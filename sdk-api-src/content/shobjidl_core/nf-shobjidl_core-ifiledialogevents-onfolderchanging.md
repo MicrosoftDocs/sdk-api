@@ -12,6 +12,8 @@ ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChanging method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileDialogEvents.OnFolderChanging"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

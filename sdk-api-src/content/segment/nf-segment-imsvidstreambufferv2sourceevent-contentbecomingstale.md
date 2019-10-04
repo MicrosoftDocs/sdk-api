@@ -12,6 +12,8 @@ ms.keywords: ContentBecomingStale, ContentBecomingStale method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferV2SourceEvent.ContentBecomingStale"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

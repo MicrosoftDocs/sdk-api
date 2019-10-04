@@ -12,6 +12,8 @@ ms.keywords: GetHeaderSize, GetHeaderSize method [HTML Help Workshop], GetHeader
 ms.topic: method
 f1_keywords: 
  - "infotech/IITPropList.GetHeaderSize"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

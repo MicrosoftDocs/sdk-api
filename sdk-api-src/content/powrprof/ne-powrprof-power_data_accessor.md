@@ -12,6 +12,8 @@ ms.keywords: "*PPOWER_DATA_ACCESSOR, ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTI
 ms.topic: enum
 f1_keywords: 
  - "powrprof/POWER_DATA_ACCESSOR"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

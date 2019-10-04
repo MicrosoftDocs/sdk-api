@@ -12,6 +12,8 @@ ms.keywords: GetPossibleActions, GetPossibleActions method [Windows Shell], GetP
 ms.topic: method
 f1_keywords:
 - shappmgr/IShellApp.GetPossibleActions
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

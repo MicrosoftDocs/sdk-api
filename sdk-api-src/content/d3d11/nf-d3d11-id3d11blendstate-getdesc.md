@@ -12,6 +12,8 @@ ms.keywords: 1228cbef-e4a2-9952-d96f-5f2e44ceaee0, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11BlendState.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

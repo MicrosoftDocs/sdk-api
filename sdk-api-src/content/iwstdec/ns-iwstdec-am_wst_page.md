@@ -12,6 +12,8 @@ ms.keywords: "*PAM_WST_PAGE, AM_WST_PAGE, AM_WST_PAGE structure [DirectShow], AM
 ms.topic: struct
 f1_keywords: 
  - "iwstdec/AM_WST_PAGE"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

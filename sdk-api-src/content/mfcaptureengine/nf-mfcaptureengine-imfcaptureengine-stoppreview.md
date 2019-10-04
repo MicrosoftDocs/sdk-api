@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine interface [Media Foundation],StopPreview method, I
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.StopPreview"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDSQUERYINITPARAMS, DSQPF_ENABLEADMINFEATURES, DSQPF_ENABLEADVAN
 ms.topic: struct
 f1_keywords: 
  - "dsquery/DSQUERYINITPARAMS"
+dev_langs:
+ - c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

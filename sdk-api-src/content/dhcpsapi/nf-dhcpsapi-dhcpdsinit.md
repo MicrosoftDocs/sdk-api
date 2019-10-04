@@ -12,6 +12,8 @@ ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/D
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpDsInit"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

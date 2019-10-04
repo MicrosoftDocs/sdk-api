@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetDuration 
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationInterpolator.SetDuration"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

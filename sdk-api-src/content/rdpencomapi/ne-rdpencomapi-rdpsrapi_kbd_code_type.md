@@ -12,6 +12,8 @@ ms.keywords: RDPSRAPI_KBD_CODE_SCANCODE, RDPSRAPI_KBD_CODE_TYPE, RDPSRAPI_KBD_CO
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/RDPSRAPI_KBD_CODE_TYPE"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

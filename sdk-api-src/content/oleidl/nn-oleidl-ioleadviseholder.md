@@ -12,6 +12,8 @@ ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolde
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IOleAdviseHolder"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

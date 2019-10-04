@@ -12,6 +12,8 @@ ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], ITocEntry interf
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/ITocEntry"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

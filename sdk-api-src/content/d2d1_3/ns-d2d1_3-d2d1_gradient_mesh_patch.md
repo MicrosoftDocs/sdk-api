@@ -12,6 +12,8 @@ ms.keywords: D2D1_GRADIENT_MESH_PATCH, D2D1_GRADIENT_MESH_PATCH structure [Direc
 ms.topic: struct
 f1_keywords: 
  - "d2d1_3/D2D1_GRADIENT_MESH_PATCH"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

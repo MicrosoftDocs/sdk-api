@@ -12,6 +12,8 @@ ms.keywords: SpUnsealMessage, SpUnsealMessage callback function [Security], SpUn
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpUnsealMessage
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

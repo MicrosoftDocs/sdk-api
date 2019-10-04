@@ -12,6 +12,8 @@ ms.keywords: "*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [S
 ms.topic: enum
 f1_keywords: 
  - "winnt/MANDATORY_LEVEL"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

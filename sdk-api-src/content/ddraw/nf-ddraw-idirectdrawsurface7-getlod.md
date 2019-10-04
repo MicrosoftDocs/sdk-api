@@ -12,6 +12,8 @@ ms.keywords: GetLOD, GetLOD method [DirectDraw], GetLOD method [DirectDraw],IDir
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetLOD"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

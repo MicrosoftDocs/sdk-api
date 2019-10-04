@@ -12,6 +12,8 @@ ms.keywords: GetForceFeedbackState, GetForceFeedbackState method [Human Input De
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.GetForceFeedbackState"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

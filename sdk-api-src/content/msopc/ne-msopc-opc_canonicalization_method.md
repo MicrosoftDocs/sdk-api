@@ -12,6 +12,8 @@ ms.keywords: OPC_CANONICALIZATION_C14N, OPC_CANONICALIZATION_C14N_WITH_COMMENTS,
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_CANONICALIZATION_METHOD"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

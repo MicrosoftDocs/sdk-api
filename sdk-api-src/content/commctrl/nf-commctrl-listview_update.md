@@ -12,6 +12,8 @@ ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_L
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_Update"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSour
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.AddDataSource"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

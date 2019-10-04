@@ -12,6 +12,8 @@ ms.keywords: "*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH struc
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRCREATEMONOBRUSH"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

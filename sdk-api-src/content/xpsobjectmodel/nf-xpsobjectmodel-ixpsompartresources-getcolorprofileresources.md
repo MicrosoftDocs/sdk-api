@@ -12,6 +12,8 @@ ms.keywords: GetColorProfileResources, GetColorProfileResources method [XPS Docu
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPartResources.GetColorProfileResources"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

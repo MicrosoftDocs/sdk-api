@@ -12,6 +12,8 @@ ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount met
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessible.get_accChildCount"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

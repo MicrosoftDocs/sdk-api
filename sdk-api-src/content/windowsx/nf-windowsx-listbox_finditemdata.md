@@ -12,6 +12,8 @@ ms.keywords: ListBox_FindItemData, ListBox_FindItemData macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_FindItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDocumentTypeFromFile, GetDocumentTypeFromFile method [XPS Docume
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_1/IXpsOMObjectFactory1.GetDocumentTypeFromFile"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

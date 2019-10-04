@@ -12,6 +12,8 @@ ms.keywords: DeleteTimerQueueEx, DeleteTimerQueueEx function, _win32_deletetimer
 ms.topic: function
 f1_keywords: 
  - "threadpoollegacyapiset/DeleteTimerQueueEx"
+dev_langs:
+ - c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

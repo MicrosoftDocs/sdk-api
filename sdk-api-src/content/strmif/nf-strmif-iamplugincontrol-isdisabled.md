@@ -12,6 +12,8 @@ ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPlugi
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMPluginControl.IsDisabled"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

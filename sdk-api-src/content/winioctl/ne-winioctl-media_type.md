@@ -12,6 +12,8 @@ ms.keywords: '*PMEDIA_TYPE, F3_120M_512, F3_128Mb_512, F3_1Pt23_1024, F3_1Pt2_51
 ms.topic: enum
 f1_keywords:
 - winioctl/MEDIA_TYPE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

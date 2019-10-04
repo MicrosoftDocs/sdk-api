@@ -12,6 +12,8 @@ ms.keywords: RECO_LATTICE_PROPERTY, RECO_LATTICE_PROPERTY structure [Tablet PC],
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_LATTICE_PROPERTY"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

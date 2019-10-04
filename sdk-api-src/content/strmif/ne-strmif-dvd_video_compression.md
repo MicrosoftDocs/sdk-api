@@ -12,6 +12,8 @@ ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSIO
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_VIDEO_COMPRESSION"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

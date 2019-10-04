@@ -12,6 +12,8 @@ ms.keywords: GetMeteringChannelCount, GetMeteringChannelCount method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioMeterInformation.GetMeteringChannelCount"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

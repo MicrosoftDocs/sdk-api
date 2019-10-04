@@ -12,6 +12,8 @@ ms.keywords: IMFPMPClientApp interface [Media Foundation],SetPMPHost method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPClientApp.SetPMPHost"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

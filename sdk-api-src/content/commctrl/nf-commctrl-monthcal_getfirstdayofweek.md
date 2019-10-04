@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetFirstDayOfWeek, MonthCal_GetFirstDayOfWeek macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetFirstDayOfWeek"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

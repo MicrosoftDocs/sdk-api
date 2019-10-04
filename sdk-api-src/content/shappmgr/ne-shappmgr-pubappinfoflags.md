@@ -12,6 +12,8 @@ ms.keywords: PAI_ASSIGNEDTIME, PAI_EXPIRETIME, PAI_PUBLISHEDTIME, PAI_SCHEDULEDT
 ms.topic: enum
 f1_keywords:
 - shappmgr/PUBAPPINFOFLAGS
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _she
 ms.topic: function
 f1_keywords:
 - userenv/UnloadUserProfile
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

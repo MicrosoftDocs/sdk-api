@@ -12,6 +12,8 @@ ms.keywords: SCHANNEL_ALERT_TOKEN, SCHANNEL_ALERT_TOKEN structure [Security], TL
 ms.topic: struct
 f1_keywords: 
  - "schannel/SCHANNEL_ALERT_TOKEN"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

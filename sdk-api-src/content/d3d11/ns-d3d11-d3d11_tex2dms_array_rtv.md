@@ -12,6 +12,8 @@ ms.keywords: D3D11_TEX2DMS_ARRAY_RTV, D3D11_TEX2DMS_ARRAY_RTV structure [Direct3
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEX2DMS_ARRAY_RTV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

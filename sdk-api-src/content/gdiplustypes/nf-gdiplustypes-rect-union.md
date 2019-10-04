@@ -12,6 +12,8 @@ ms.keywords: Rect class [GDI+],Union method, Rect.Union, Rect::Union, Union, Uni
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Union"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interfa
 ms.topic: interface
 f1_keywords: 
  - "msinkaut15/IInkDivider"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

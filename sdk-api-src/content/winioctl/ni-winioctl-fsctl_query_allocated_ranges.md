@@ -12,6 +12,8 @@ ms.keywords: FSCTL_QUERY_ALLOCATED_RANGES, FSCTL_QUERY_ALLOCATED_RANGES control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_QUERY_ALLOCATED_RANGES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

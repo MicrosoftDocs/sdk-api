@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Wind
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncItem.GetObject"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Direc
 ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateBoundLicense
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

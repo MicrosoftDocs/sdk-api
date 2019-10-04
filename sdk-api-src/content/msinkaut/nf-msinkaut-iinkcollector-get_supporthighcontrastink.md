@@ -12,6 +12,8 @@ ms.keywords: 17f5002b-0191-4cb0-8b12-0383aaabe2a8, IInkCollector interface [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.SupportHighContrastInk"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

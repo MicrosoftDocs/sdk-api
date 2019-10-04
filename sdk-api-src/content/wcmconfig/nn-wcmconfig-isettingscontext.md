@@ -12,6 +12,8 @@ ms.keywords: ISettingsContext, ISettingsContext interface [SMI], ISettingsContex
 ms.topic: interface
 f1_keywords: 
  - "wcmconfig/ISettingsContext"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectS
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IDMOQualityControl.GetStatus"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDMLDispatchable, IDMLDispatchable interface, IDMLDispatchable inte
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLDispatchable"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

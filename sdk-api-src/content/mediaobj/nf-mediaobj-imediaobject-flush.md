@@ -12,6 +12,8 @@ ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaO
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.Flush"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

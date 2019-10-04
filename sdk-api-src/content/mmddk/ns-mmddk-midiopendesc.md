@@ -12,6 +12,8 @@ ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devic
 ms.topic: struct
 f1_keywords: 
  - "mmddk/MIDIOPENDESC"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
 req.target-type: Windows

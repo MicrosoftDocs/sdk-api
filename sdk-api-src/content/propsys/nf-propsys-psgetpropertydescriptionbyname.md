@@ -12,6 +12,8 @@ ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName func
 ms.topic: function
 f1_keywords: 
  - "propsys/PSGetPropertyDescriptionByName"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

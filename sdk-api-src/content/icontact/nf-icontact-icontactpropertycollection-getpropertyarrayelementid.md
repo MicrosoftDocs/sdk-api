@@ -12,6 +12,8 @@ ms.keywords: GetPropertyArrayElementID, GetPropertyArrayElementID method [Window
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactPropertyCollection.GetPropertyArrayElementID"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

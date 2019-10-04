@@ -12,6 +12,8 @@ ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification fu
 ms.topic: function
 f1_keywords: 
  - "clfsmgmtw32/RegisterForLogWriteNotification"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

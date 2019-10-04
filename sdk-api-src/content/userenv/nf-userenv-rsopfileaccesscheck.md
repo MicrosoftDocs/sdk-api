@@ -12,6 +12,8 @@ ms.keywords: RSoPFileAccessCheck, RSoPFileAccessCheck function [Group Policy], R
 ms.topic: function
 f1_keywords: 
  - "userenv/RSoPFileAccessCheck"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

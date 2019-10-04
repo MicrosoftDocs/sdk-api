@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnDis
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionEvents.OnDisconnectComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

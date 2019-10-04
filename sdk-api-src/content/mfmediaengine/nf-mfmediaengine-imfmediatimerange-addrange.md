@@ -12,6 +12,8 @@ ms.keywords: AddRange, AddRange method [Media Foundation], AddRange method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaTimeRange.AddRange"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

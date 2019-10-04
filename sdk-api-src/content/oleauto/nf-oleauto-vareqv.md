@@ -12,6 +12,8 @@ ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarEqv"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],LinearGrad
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetBlend"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

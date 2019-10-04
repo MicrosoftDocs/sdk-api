@@ -12,6 +12,8 @@ ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_
 ms.topic: function
 f1_keywords: 
  - "msi/MsiApplyPatch"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/IdentifyNtmsSlot"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

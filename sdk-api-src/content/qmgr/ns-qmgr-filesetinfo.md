@@ -12,6 +12,8 @@ ms.keywords: FILESETINFO, FILESETINFO structure [BITS], bits.filesetinfo, qmgr/F
 ms.topic: struct
 f1_keywords: 
  - "qmgr/FILESETINFO"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

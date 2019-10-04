@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_tensor_data_type, WINML_TENSOR_BOOLEAN, WINML
 ms.topic: enum
 f1_keywords: 
  - "winml/WINML_TENSOR_DATA_TYPE"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

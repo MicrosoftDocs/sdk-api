@@ -12,6 +12,8 @@ ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.Shu
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IPoolManager.ShutdownPool"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

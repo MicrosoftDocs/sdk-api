@@ -12,6 +12,8 @@ ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], Act
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPHostApp.ActivateClassById"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

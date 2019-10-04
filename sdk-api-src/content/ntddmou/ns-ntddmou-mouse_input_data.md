@@ -12,6 +12,8 @@ ms.keywords: "*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [
 ms.topic: struct
 f1_keywords: 
  - "ntddmou/MOUSE_INPUT_DATA"
+dev_langs:
+ - c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows

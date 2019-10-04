@@ -12,6 +12,8 @@ ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.GetContext"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

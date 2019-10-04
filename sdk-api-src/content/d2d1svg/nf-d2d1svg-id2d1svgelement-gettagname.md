@@ -12,6 +12,8 @@ ms.keywords: GetTagName, GetTagName method [Direct2D], GetTagName method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgElement.GetTagName"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

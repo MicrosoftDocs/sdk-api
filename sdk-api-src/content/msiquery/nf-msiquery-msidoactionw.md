@@ -12,6 +12,8 @@ ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDoAction"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

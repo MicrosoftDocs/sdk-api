@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File 
 ms.topic: interface
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenException"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

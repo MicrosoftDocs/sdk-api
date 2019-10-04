@@ -12,6 +12,8 @@ ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search]
 ms.topic: struct
 f1_keywords: 
  - "searchapi/INCREMENTAL_ACCESS_INFO"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

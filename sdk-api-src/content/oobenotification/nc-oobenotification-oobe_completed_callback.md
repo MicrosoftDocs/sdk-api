@@ -12,6 +12,8 @@ ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COM
 ms.topic: callback
 f1_keywords: 
  - "oobenotification/OOBE_COMPLETED_CALLBACK"
+dev_langs:
+ - c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows

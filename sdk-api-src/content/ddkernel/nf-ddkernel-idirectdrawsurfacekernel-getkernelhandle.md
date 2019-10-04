@@ -12,6 +12,8 @@ ms.keywords: GetKernelHandle, GetKernelHandle method [Display Devices], GetKerne
 ms.topic: method
 f1_keywords: 
  - "ddkernel/IDirectDrawSurfaceKernel.GetKernelHandle"
+dev_langs:
+ - c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop

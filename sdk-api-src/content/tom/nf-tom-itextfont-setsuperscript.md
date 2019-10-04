@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetSuperscript method, IText
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetSuperscript"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadXDec4, XMLoadXDec4, XMLoadXDec4 method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadXDec4"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

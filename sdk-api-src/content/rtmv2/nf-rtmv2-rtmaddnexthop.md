@@ -12,6 +12,8 @@ ms.keywords: RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RtmAddNextHop, Rt
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmAddNextHop
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

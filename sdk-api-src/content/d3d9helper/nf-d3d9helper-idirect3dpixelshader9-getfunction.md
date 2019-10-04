@@ -12,6 +12,8 @@ ms.keywords: 3fd5e480-51b4-f6cc-c9eb-1fa92415018a, GetFunction, GetFunction meth
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DPixelShader9.GetFunction"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

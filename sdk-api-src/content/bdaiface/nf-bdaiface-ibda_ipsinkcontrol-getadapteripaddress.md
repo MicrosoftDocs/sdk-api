@@ -12,6 +12,8 @@ ms.keywords: GetAdapterIPAddress, GetAdapterIPAddress method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_IPSinkControl.GetAdapterIPAddress"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

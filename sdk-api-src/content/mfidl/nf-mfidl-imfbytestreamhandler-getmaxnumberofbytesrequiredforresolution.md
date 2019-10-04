@@ -12,6 +12,8 @@ ms.keywords: GetMaxNumberOfBytesRequiredForResolution, GetMaxNumberOfBytesRequir
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamHandler.GetMaxNumberOfBytesRequiredForResolution"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

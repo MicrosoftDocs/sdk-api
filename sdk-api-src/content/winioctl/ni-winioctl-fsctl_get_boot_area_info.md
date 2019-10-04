@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_BOOT_AREA_INFO, FSCTL_GET_BOOT_AREA_INFO control, FSCTL_G
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_GET_BOOT_AREA_INFO"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

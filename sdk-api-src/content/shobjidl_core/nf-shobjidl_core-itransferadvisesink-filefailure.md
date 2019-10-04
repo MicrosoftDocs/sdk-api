@@ -12,6 +12,8 @@ ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferAdviseSink.FileFailure"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth interface [Audio Devices],PlayBuffer method, IDir
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.PlayBuffer"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

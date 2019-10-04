@@ -12,6 +12,8 @@ ms.keywords: CLSID, Executable name, File name extension, IQueryAssociations int
 ms.topic: method
 f1_keywords: 
  - "shlwapi/IQueryAssociations.Init"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

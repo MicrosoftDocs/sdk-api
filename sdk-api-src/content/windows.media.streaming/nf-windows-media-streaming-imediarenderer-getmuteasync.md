@@ -12,6 +12,8 @@ ms.keywords: GetMuteAsync, GetMuteAsync method [Media Streaming API], GetMuteAsy
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer.GetMuteAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

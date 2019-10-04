@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],GetErrorMessageText method, CR_GEMT_
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.GetErrorMessageText"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

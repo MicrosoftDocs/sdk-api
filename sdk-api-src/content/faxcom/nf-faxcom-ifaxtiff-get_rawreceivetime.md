@@ -12,6 +12,8 @@ ms.keywords: IFaxTiff interface [Fax Service],RawReceiveTime property, IFaxTiff.
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxTiff.RawReceiveTime"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Se
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbOrchestration"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

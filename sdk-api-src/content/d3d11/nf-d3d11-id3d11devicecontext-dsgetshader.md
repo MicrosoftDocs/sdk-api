@@ -12,6 +12,8 @@ ms.keywords: 23ad23d5-5ea9-e2f1-ce64-770b35bc0586, DSGetShader, DSGetShader meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DSGetShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

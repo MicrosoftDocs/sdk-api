@@ -12,6 +12,8 @@ ms.keywords: IADs interface [ADSI],PutEx method, IADs.PutEx, IADs::PutEx, PutEx,
 ms.topic: method
 f1_keywords: 
  - "iads/IADs.PutEx"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files]
 ms.topic: function
 f1_keywords: 
  - "clfsw32/DeleteLogMarshallingArea"
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

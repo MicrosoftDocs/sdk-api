@@ -12,6 +12,8 @@ ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetAspectRatioMode"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

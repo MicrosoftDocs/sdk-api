@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Ite
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCollection.Item"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

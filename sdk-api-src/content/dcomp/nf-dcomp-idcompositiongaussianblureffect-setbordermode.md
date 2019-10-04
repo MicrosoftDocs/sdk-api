@@ -12,6 +12,8 @@ ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetBo
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionGaussianBlurEffect.SetBorderMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

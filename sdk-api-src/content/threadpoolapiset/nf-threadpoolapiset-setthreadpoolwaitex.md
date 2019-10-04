@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpo
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/SetThreadpoolWaitEx"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: 
 req.target-type: Windows

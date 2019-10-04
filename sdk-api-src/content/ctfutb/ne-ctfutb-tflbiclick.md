@@ -12,6 +12,8 @@ ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumerati
 ms.topic: enum
 f1_keywords: 
  - "ctfutb/TfLBIClick"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

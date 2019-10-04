@@ -12,6 +12,8 @@ ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController inte
 ms.topic: interface
 f1_keywords:
 - vds/IVdsController
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost]
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerInvokeIdentityUI
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

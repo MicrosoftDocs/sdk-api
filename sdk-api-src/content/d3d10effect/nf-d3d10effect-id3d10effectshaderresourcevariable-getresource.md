@@ -12,6 +12,8 @@ ms.keywords: 32af50a5-ebdc-17c2-82b2-78786c51c269, GetResource, GetResource meth
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectShaderResourceVariable.GetResource"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

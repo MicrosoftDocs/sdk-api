@@ -12,6 +12,8 @@ ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS en
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_LOGIN_CLASS
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

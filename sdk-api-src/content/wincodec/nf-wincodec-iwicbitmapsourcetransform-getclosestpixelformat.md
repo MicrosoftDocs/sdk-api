@@ -12,6 +12,8 @@ ms.keywords: GetClosestPixelFormat, GetClosestPixelFormat method [Windows Imagin
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapSourceTransform.GetClosestPixelFormat"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],Reindex method, ISearchCat
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.Reindex"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

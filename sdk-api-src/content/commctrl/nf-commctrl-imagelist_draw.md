@@ -12,6 +12,8 @@ ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Draw"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

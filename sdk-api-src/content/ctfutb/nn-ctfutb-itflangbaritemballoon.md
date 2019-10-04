@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Servic
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBalloon"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

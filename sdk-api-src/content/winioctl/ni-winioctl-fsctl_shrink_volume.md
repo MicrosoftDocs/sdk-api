@@ -12,6 +12,8 @@ ms.keywords: FSCTL_SHRINK_VOLUME, FSCTL_SHRINK_VOLUME control, FSCTL_SHRINK_VOLU
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SHRINK_VOLUME
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

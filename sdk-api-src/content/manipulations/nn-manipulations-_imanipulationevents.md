@@ -12,6 +12,8 @@ ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touc
 ms.topic: interface
 f1_keywords: 
  - "manipulations/_IManipulationEvents"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

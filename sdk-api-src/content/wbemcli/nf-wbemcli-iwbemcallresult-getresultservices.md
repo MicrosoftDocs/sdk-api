@@ -12,6 +12,8 @@ ms.keywords: GetResultServices, GetResultServices method [Windows Management Ins
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemCallResult.GetResultServices"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

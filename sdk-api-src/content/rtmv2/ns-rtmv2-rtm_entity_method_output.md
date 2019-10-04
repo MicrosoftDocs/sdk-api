@@ -12,6 +12,8 @@ ms.keywords: "*PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY_METHOD_OUTPUT, PRTM_ENTITY
 ms.topic: struct
 f1_keywords: 
  - "rtmv2/RTM_ENTITY_METHOD_OUTPUT"
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

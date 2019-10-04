@@ -12,6 +12,8 @@ ms.keywords: ICConfigure, ICConfigure macro [Windows Multimedia], _win32_ICConfi
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICConfigure"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

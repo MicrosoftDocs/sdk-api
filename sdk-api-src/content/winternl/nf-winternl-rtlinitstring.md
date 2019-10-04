@@ -12,6 +12,8 @@ ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlini
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlInitString"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

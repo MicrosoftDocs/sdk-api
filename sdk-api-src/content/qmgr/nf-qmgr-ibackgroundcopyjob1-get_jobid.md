@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundC
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyJob1.get_JobID"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

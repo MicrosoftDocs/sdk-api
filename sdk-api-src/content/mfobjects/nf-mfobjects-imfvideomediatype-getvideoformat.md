@@ -12,6 +12,8 @@ ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoForma
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFVideoMediaType.GetVideoFormat
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

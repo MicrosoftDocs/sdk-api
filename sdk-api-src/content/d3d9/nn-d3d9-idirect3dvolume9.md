@@ -12,6 +12,8 @@ ms.keywords: 3502e743-9dc5-6b50-07d2-5a1e110c1543, IDirect3DVolume9, IDirect3DVo
 ms.topic: interface
 f1_keywords: 
  - "d3d9/IDirect3DVolume9"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

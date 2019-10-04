@@ -12,6 +12,8 @@ ms.keywords: DSA_Clone, DSA_Clone function [Windows Controls], _shell_DSA_Clone,
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_Clone"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

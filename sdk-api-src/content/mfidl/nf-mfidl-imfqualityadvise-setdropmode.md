@@ -12,6 +12,8 @@ ms.keywords: 190de66a-6c47-49d5-a8f6-c2fb57a7aee2, IMFQualityAdvise interface [M
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise.SetDropMode
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

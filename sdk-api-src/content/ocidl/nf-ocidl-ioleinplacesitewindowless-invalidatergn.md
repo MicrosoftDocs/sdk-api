@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOl
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleInPlaceSiteWindowless.InvalidateRgn"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

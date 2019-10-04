@@ -12,6 +12,8 @@ ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_GetCurrentFrameNumber"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

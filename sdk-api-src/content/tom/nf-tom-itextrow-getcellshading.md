@@ -12,6 +12,8 @@ ms.keywords: GetCellShading, GetCellShading method [Windows Controls], GetCellSh
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellShading"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

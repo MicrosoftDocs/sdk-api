@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetMonthCalFont"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

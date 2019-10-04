@@ -12,6 +12,8 @@ ms.keywords: IUrlAccessor2 interface [search],IsDocument method, IUrlAccessor2.I
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor2.IsDocument"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

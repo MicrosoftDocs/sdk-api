@@ -12,6 +12,8 @@ ms.keywords: PFNDACOMPARE, PFNDACOMPARE callback, PFNDACOMPARE callback function
 ms.topic: callback
 f1_keywords: 
  - "dpa_dsa/PFNDACOMPARE"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

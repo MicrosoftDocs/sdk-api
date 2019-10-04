@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_CONTEXT_EVENT_ADD, IPSEC_SA_CONTEXT_EVENT_DELETE, IPSEC_SA
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

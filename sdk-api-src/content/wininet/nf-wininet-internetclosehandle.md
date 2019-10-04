@@ -12,6 +12,8 @@ ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetCloseHandle"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

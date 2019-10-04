@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_CANCEL_REASON, WS_SERVICE_CANCEL_REASON enumeration [Web
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SERVICE_CANCEL_REASON"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

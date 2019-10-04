@@ -12,6 +12,8 @@ ms.keywords: DataCollectorSetStatus, DataCollectorSetStatus enumeration [PLA], b
 ms.topic: enum
 f1_keywords: 
  - "pla/DataCollectorSetStatus"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

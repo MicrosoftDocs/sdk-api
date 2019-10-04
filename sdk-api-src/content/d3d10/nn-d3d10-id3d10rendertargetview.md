@@ -12,6 +12,8 @@ ms.keywords: 76c9084d-ce0f-116d-42dd-eae6aa607d0e, ID3D10RenderTargetView, ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10RenderTargetView"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

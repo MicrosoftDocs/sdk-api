@@ -12,6 +12,8 @@ ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

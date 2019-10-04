@@ -12,6 +12,8 @@ ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcore/UiaPoint"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

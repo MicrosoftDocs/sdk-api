@@ -12,6 +12,8 @@ ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewport
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMTileBrush.SetViewport"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],RemoveMappin
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSBitmapRenderer.RemoveMapping"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

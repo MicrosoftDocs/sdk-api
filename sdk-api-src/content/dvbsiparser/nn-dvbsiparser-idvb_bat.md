@@ -12,6 +12,8 @@ ms.keywords: IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], IDVB_BAT 
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDVB_BAT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

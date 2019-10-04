@@ -12,6 +12,8 @@ ms.keywords: FlushCache, FlushCache method [VDS], FlushCache method [VDS],IVdsCo
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsController.FlushCache"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

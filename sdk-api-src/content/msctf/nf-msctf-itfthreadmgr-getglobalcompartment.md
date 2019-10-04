@@ -12,6 +12,8 @@ ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Fr
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr.GetGlobalCompartment"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

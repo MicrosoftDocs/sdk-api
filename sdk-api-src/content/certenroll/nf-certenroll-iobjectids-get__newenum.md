@@ -12,6 +12,8 @@ ms.keywords: IObjectIds interface [Security],_NewEnum property, IObjectIds._NewE
 ms.topic: method
 f1_keywords: 
  - "certenroll/IObjectIds._NewEnum"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGDNF, SHGDNF enumeration [Windows Shell], SHGDN_FORADDRESSBAR, SH
 ms.topic: enum
 f1_keywords:
 - shobjidl_core/SHGDNF
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.CanChange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

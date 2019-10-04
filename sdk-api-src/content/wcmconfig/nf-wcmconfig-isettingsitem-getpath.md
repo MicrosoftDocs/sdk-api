@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem i
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

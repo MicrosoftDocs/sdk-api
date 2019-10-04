@@ -12,6 +12,8 @@ ms.keywords: "??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.WBEMTime"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

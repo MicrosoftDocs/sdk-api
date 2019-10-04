@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macr
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSPROP_PROPERTY_NAME_DECLARE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

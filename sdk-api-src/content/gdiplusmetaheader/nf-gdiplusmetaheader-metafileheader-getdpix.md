@@ -12,6 +12,8 @@ ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeade
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetDpiX"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

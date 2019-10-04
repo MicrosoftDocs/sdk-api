@@ -12,6 +12,8 @@ ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2
 ms.topic: interface
 f1_keywords: 
  - "strmif/IMPEG2StreamIdMap"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

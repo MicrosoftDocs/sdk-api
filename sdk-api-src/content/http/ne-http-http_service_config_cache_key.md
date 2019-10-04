@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_KEY, CacheRangeChunkSize, HTTP_SERVICE
 ms.topic: enum
 f1_keywords: 
  - "http/HTTP_SERVICE_CONFIG_CACHE_KEY"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

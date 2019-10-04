@@ -12,6 +12,8 @@ ms.keywords: '*LPCREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMET
 ms.topic: struct
 f1_keywords:
 - fileapi/CREATEFILE2_EXTENDED_PARAMETERS
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.HasAudio"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

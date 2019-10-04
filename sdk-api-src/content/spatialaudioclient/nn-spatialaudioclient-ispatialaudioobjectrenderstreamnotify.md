@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStr
 ms.topic: interface
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

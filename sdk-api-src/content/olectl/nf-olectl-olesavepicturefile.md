@@ -12,6 +12,8 @@ ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96
 ms.topic: function
 f1_keywords: 
  - "olectl/OleSavePictureFile"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

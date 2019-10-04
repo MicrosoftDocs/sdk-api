@@ -12,6 +12,8 @@ ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS fu
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqUnregisterPlatformFromMMCSS"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

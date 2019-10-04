@@ -12,6 +12,8 @@ ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts functi
 ms.topic: function
 f1_keywords:
 - aclapi/LookupSecurityDescriptorParts
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

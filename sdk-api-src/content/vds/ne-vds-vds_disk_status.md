@@ -12,6 +12,8 @@ ms.keywords: VDS_DISK_STATUS, VDS_DISK_STATUS enumeration [VDS], VDS_DS_FAILED, 
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DISK_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

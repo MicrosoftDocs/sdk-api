@@ -12,6 +12,8 @@ ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDropTargetHelper.DragLeave"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

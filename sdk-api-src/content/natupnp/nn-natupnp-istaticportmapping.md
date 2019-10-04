@@ -12,6 +12,8 @@ ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStatic
 ms.topic: interface
 f1_keywords: 
  - "natupnp/IStaticPortMapping"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

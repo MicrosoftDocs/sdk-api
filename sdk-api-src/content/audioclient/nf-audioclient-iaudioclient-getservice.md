@@ -12,6 +12,8 @@ ms.keywords: GetService, GetService method [Core Audio], GetService method [Core
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient.GetService"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

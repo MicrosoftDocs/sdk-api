@@ -12,6 +12,8 @@ ms.keywords: 9269a94f-c33f-4e25-bab8-be68e6ead63f, ITextInputPanelRunInfo, IText
 ms.topic: interface
 f1_keywords: 
  - "peninputpanel/ITextInputPanelRunInfo"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathIsURL, PathIsURL function [Windows Shell], PathIsURLA, PathIsUR
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsURL"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

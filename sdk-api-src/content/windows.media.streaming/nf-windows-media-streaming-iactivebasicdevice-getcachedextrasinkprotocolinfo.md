@@ -12,6 +12,8 @@ ms.keywords: GetCachedExtraSinkProtocolInfo, GetCachedExtraSinkProtocolInfo meth
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IActiveBasicDevice.GetCachedExtraSinkProtocolInfo"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

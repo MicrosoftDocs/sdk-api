@@ -12,6 +12,8 @@ ms.keywords: TextRenderingHint, TextRenderingHint enumeration [GDI+], TextRender
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/TextRenderingHint"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

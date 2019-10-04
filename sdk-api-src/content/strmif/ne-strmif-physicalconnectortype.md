@@ -12,6 +12,8 @@ ms.keywords: PhysConn_Audio_1394, PhysConn_Audio_AESDigital, PhysConn_Audio_AUX,
 ms.topic: enum
 f1_keywords: 
  - "strmif/PhysicalConnectorType"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

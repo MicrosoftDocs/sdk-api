@@ -12,6 +12,8 @@ ms.keywords: IWTSListenerCallback, IWTSListenerCallback interface [Remote Deskto
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSListenerCallback"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

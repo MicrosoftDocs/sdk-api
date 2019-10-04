@@ -12,6 +12,8 @@ ms.keywords: INetFwMgr interface [ICS/ICF],RestoreDefaults method, INetFwMgr.Res
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwMgr.RestoreDefaults"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

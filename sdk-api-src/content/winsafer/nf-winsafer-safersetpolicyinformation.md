@@ -12,6 +12,8 @@ ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferPolicyDefaultLevel,
 ms.topic: function
 f1_keywords:
 - winsafer/SaferSetPolicyInformation
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

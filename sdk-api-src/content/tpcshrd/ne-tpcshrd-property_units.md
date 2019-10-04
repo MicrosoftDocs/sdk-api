@@ -12,6 +12,8 @@ ms.keywords: '*PPROPERTY_UNITS, PPROPERTY_UNITS, PPROPERTY_UNITS enumeration poi
 ms.topic: enum
 f1_keywords:
 - tpcshrd/PROPERTY_UNITS
+dev_langs:
+ - c++
 req.header: tpcshrd.h
 req.include-header: Rectypes.h
 req.target-type: Windows

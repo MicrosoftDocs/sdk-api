@@ -12,6 +12,8 @@ ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange inte
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncChange"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

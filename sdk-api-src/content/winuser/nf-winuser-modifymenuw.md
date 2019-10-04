@@ -12,6 +12,8 @@ ms.keywords: MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF
 ms.topic: function
 f1_keywords: 
  - "winuser/ModifyMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

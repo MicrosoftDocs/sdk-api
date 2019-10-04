@@ -12,6 +12,8 @@ ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation inte
 ms.topic: interface
 f1_keywords: 
  - "pnpxassoc/IPNPXAssociation"
+dev_langs:
+ - c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function
 ms.topic: function
 f1_keywords: 
  - "rpcssl/RpcCertGeneratePrincipalName"
+dev_langs:
+ - c++
 req.header: rpcssl.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlEvents.OnItemDeleted"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

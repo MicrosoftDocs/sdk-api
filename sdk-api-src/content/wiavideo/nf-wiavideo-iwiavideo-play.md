@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo interface [WIA],Play method, IWiaVideo.Play, IWiaVideo::P
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.Play"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

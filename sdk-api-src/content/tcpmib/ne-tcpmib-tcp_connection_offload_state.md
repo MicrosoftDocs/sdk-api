@@ -12,6 +12,8 @@ ms.keywords: '*PTCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE, TCP_
 ms.topic: enum
 f1_keywords:
 - tcpmib/TCP_CONNECTION_OFFLOAD_STATE
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

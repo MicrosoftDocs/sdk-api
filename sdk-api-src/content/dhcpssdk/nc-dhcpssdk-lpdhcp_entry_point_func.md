@@ -12,6 +12,8 @@ ms.keywords: DhcpServerCalloutEntry, LPDHCP_ENTRY_POINT_FUNC, LPDHCP_ENTRY_POINT
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

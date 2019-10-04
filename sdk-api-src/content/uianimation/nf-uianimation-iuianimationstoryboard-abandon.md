@@ -12,6 +12,8 @@ ms.keywords: Abandon, Abandon method [Windows Animation], Abandon method [Window
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.Abandon"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

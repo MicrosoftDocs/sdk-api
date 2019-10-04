@@ -12,6 +12,8 @@ ms.keywords: UnrealizeObject, UnrealizeObject function [Windows GDI], _win32_Unr
 ms.topic: function
 f1_keywords: 
  - "wingdi/UnrealizeObject"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

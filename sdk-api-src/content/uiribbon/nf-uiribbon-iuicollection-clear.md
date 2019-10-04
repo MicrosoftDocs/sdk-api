@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Windows Ribbon], Clear method [Windows Ribbon]
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollection.Clear"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

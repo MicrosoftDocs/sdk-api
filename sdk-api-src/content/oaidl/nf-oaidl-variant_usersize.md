@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VAR
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserSize"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

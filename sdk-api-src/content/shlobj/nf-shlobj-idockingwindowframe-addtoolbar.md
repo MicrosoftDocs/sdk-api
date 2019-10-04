@@ -12,6 +12,8 @@ ms.keywords: 0, AddToolbar, AddToolbar method [Windows Shell], AddToolbar method
 ms.topic: method
 f1_keywords: 
  - "shlobj/IDockingWindowFrame.AddToolbar"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetOb
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.GetObjectInformation
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

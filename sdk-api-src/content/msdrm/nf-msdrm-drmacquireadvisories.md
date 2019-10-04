@@ -12,6 +12,8 @@ ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directo
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMAcquireAdvisories"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

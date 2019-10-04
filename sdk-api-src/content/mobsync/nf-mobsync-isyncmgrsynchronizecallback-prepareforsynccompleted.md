@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],PrepareForSyn
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronizeCallback.PrepareForSyncCompleted"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

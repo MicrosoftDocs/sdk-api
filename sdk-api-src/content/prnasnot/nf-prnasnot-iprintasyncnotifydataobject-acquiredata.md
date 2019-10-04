@@ -12,6 +12,8 @@ ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyDataObject.AcquireData"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

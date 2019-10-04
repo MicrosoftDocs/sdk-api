@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin2 object [Security],GetCAPropertyFlags method, GetCAPrope
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetCAPropertyFlags"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

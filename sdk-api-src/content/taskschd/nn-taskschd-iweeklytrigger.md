@@ -12,6 +12,8 @@ ms.keywords: IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], IWeeklyT
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IWeeklyTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

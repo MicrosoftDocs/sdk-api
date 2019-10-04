@@ -12,6 +12,8 @@ ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _win
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENSAVECLIPBOARD"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

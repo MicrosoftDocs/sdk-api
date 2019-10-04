@@ -12,6 +12,8 @@ ms.keywords: GetFilePathFromKey, GetFilePathFromKey method [Direct Write], GetFi
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteLocalFontFileLoader.GetFilePathFromKey"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

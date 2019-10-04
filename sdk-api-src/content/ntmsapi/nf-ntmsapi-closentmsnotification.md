@@ -12,6 +12,8 @@ ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/CloseNtmsNotification"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

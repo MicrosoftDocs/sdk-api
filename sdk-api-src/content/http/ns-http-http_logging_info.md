@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LO
 ms.topic: struct
 f1_keywords:
 - http/HTTP_LOGGING_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Windows Controls], GetFlags method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextSelection.GetFlags"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

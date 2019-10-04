@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_AT_OPEN, WCN_VALUE_AT_SHARED, WCN_VALUE_AT_WPA, WCN_VALUE
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

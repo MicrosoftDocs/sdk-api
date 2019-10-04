@@ -12,6 +12,8 @@ ms.keywords: ActivateConfiguration, ActivateConfiguration method [Direct Manipul
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.ActivateConfiguration"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

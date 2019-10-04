@@ -12,6 +12,8 @@ ms.keywords: UI_VIEWVERB, UI_VIEWVERB enumeration [Windows Ribbon], UI_VIEWVERB_
 ms.topic: enum
 f1_keywords: 
  - "uiribbon/UI_VIEWVERB"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxRoutingMethods, IFaxRoutingMethods interface [Fax Service], IFa
 ms.topic: interface
 f1_keywords: 
  - "faxcom/IFaxRoutingMethods"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

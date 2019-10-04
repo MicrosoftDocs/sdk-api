@@ -12,6 +12,8 @@ ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObject
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunningObjectTable.Register"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

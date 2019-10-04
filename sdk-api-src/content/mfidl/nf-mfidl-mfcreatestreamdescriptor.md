@@ -12,6 +12,8 @@ ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFC
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateStreamDescriptor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

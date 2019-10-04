@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_PROTECT_STREAM_INFO, NCRYPT_PROTECT_STREAM_INFO structure [S
 ms.topic: struct
 f1_keywords: 
  - "ncryptprotect/NCRYPT_PROTECT_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

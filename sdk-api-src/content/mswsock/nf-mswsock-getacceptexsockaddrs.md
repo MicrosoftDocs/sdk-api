@@ -12,6 +12,8 @@ ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win
 ms.topic: function
 f1_keywords: 
  - "mswsock/GetAcceptExSockaddrs"
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

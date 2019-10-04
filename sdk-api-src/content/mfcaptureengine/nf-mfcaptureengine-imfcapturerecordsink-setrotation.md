@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation metho
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureRecordSink.SetRotation"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

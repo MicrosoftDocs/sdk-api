@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCER
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWCOLUMN.IsIndexed"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

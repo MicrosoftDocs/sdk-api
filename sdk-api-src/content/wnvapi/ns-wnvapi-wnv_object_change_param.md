@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_CHANGE_PARAM, PWNV_OBJECT_C
 ms.topic: struct
 f1_keywords:
 - wnvapi/WNV_OBJECT_CHANGE_PARAM
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

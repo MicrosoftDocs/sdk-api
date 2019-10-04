@@ -12,6 +12,8 @@ ms.keywords: GENERIC_READ, GENERIC_WRITE, IWICStream interface [Windows Imaging 
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICStream.InitializeFromFilename"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

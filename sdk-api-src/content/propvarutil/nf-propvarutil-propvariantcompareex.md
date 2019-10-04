@@ -12,6 +12,8 @@ ms.keywords: PVCF_DEFAULT, PVCF_TREATEMPTYASGREATERTHAN, PVCF_USESTRCMP, PVCF_US
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantCompareEx"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

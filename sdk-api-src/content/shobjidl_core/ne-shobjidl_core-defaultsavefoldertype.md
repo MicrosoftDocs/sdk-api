@@ -12,6 +12,8 @@ ms.keywords: DEFAULTSAVEFOLDERTYPE, DEFAULTSAVEFOLDERTYPE enumeration [Windows S
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/DEFAULTSAVEFOLDERTYPE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

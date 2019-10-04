@@ -8,6 +8,10 @@ ms.assetid: adb313fe-7c4b-451e-b1a8-19b390460194
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::WriteBufferImmediate
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::WriteBufferImmediate, WriteBufferImmediate, ID3D12VideoProcessCommandList.WriteBufferImmediate, ID3D12VideoProcessCommandList::WriteBufferImmediate, ID3D12VideoProcessCommandList.WriteBufferImmediate
 req.header: d3d12video.h
 req.include-header:

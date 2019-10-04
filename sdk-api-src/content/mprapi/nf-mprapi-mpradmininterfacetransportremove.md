@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove 
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminInterfaceTransportRemove"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

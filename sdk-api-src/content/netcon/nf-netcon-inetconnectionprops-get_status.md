@@ -12,6 +12,8 @@ ms.keywords: INetConnectionProps interface [ICS/ICF],get_Status method, INetConn
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnectionProps.get_Status"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

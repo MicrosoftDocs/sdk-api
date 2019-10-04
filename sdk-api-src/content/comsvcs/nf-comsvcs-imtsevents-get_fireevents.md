@@ -12,6 +12,8 @@ ms.keywords: IMtsEvents interface [COM+],get_FireEvents method, IMtsEvents.get_F
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEvents.get_FireEvents"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

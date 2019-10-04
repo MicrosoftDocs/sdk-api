@@ -12,6 +12,8 @@ ms.keywords: WICProgressNotification, WICProgressNotification enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICProgressNotification"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

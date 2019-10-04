@@ -12,6 +12,8 @@ ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntst
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlNtStatusToDosError"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

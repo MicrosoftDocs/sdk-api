@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPV4_FAILOVER_CLIENT_INFO, ADDRESS_BIT_BOTH_REC, ADDRESS_BIT_
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMDMEnumDevice, IWMDMEnumDevice interface [windows Media Device Ma
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMEnumDevice"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

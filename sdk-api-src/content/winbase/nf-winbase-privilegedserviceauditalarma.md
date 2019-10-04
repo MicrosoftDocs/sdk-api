@@ -12,6 +12,8 @@ ms.keywords: PrivilegedServiceAuditAlarm, PrivilegedServiceAuditAlarm function [
 ms.topic: function
 f1_keywords:
 - winbase/PrivilegedServiceAuditAlarm
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

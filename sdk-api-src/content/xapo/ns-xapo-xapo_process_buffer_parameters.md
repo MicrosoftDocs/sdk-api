@@ -12,6 +12,8 @@ ms.keywords: XAPO_PROCESS_BUFFER_PARAMETERS, XAPO_PROCESS_BUFFER_PARAMETERS stru
 ms.topic: struct
 f1_keywords: 
  - "xapo/XAPO_PROCESS_BUFFER_PARAMETERS"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

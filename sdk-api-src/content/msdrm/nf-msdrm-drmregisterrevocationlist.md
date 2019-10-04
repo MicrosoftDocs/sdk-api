@@ -12,6 +12,8 @@ ms.keywords: DRMRegisterRevocationList, DRMRegisterRevocationList function [Acti
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMRegisterRevocationList"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

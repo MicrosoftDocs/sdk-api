@@ -12,6 +12,8 @@ ms.keywords: EngCreateEvent, EngCreateEvent function [Display Devices], display.
 ms.topic: function
 f1_keywords: 
  - "winddi/EngCreateEvent"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: PRJ_UPDATE_FAILURE_CAUSES, PRJ_UPDATE_FAILURE_CAUSES enumeration, P
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_UPDATE_FAILURE_CAUSES"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

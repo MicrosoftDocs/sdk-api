@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP
 ms.topic: struct
 f1_keywords: 
  - "ipexport/IP_ADAPTER_ORDER_MAP"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

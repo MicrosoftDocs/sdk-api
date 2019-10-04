@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObjectConfiguration interface [Audio Devices],Unloc
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObjectConfiguration.UnlockForProcess"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

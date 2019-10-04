@@ -12,6 +12,8 @@ ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],I
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyError.GetProtocol"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

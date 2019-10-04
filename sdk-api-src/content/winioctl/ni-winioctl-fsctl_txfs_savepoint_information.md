@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_SAVEPOINT_INFORMATION, FSCTL_TXFS_SAVEPOINT_INFORMATION 
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_SAVEPOINT_INFORMATION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

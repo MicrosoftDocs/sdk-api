@@ -12,6 +12,8 @@ ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, 
 ms.topic: function
 f1_keywords:
 - clfsw32/ReserveAndAppendLog
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

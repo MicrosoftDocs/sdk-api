@@ -12,6 +12,8 @@ ms.keywords: Dirty property [Windows Deployment Services], Dirty property [Windo
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCacheable.Dirty"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

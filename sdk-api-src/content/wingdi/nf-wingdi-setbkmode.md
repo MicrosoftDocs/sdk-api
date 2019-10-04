@@ -12,6 +12,8 @@ ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetBkMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DAdvise, DAdvise method [COM], DAdvise method [COM],IDataObject int
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.DAdvise"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

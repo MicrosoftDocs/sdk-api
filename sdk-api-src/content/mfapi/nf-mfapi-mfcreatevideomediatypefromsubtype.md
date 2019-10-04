@@ -12,6 +12,8 @@ ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSub
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateVideoMediaTypeFromSubtype"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

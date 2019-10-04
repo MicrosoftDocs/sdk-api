@@ -12,6 +12,8 @@ ms.keywords: DrvResetPDEV, DrvResetPDEV function [Display Devices], ddifncs_839f
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvResetPDEV"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

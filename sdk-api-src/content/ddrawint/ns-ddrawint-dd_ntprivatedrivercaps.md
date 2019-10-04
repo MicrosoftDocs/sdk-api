@@ -12,6 +12,8 @@ ms.keywords: DD_NTPRIVATEDRIVERCAPS, DD_NTPRIVATEDRIVERCAPS structure [Display D
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_NTPRIVATEDRIVERCAPS
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

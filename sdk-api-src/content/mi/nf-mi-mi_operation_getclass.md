@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_GetClass, MI_Operation_GetClass function [Windows Mana
 ms.topic: function
 f1_keywords:
 - mi/MI_Operation_GetClass
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

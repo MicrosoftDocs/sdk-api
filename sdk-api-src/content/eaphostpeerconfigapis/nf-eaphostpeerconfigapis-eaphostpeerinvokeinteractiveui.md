@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerInvokeInteractiveUI, EapHostPeerInvokeInteractiveUI func
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
+dev_langs:
+ - c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

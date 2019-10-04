@@ -12,6 +12,8 @@ ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Medi
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFByteStream.Seek
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

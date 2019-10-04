@@ -12,6 +12,8 @@ ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, 
 ms.topic: function
 f1_keywords: 
  - "memoryapi/FlushViewOfFile"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

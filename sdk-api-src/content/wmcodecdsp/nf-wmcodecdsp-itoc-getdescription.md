@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescri
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IToc.GetDescription"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

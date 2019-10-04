@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_IPV6_ADDRESS, *PDHCP_IPV6_ADDRESS, DHCP_IPV6_ADDRESS, DHCP
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_IPV6_ADDRESS"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

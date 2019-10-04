@@ -12,6 +12,8 @@ ms.keywords: DrawAnimatedRects, DrawAnimatedRects function [Windows GDI], _win32
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawAnimatedRects"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

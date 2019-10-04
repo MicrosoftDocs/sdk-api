@@ -12,6 +12,8 @@ ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnSeverity method, IDXGIInf
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.SetBreakOnSeverity"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption me
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceManager.SetOption"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

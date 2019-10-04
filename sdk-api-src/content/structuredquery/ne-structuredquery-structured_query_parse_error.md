@@ -12,6 +12,8 @@ ms.keywords: SQPE_EXTRA_CLOSING_PARENTHESIS, SQPE_EXTRA_OPENING_PARENTHESIS, SQP
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/STRUCTURED_QUERY_PARSE_ERROR"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

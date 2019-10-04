@@ -12,6 +12,8 @@ ms.keywords: SLLICENSINGSTATUS, SLLICENSINGSTATUS enumeration [Security], SL_LIC
 ms.topic: enum
 f1_keywords: 
  - "slpublic/SLLICENSINGSTATUS"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D12Device interface,OpenSharedHandleByName method, ID3D12Device.
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device.OpenSharedHandleByName"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

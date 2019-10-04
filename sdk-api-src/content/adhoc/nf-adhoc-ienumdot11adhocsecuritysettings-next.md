@@ -12,6 +12,8 @@ ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method,
 ms.topic: method
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocSecuritySettings.Next"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetDashOffset method, Pen.SetDashOffset, Pen::SetD
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetDashOffset"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISettingsNamespace interface [SMI],Settings method, ISettingsNamesp
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsNamespace.Settings"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

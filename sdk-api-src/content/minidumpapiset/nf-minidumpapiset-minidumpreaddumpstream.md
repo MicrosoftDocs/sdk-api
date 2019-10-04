@@ -12,6 +12,8 @@ ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_min
 ms.topic: function
 f1_keywords:
 - minidumpapiset/MiniDumpReadDumpStream
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

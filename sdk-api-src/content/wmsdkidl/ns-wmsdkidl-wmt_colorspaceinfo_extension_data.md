@@ -12,6 +12,8 @@ ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DAT
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

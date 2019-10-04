@@ -12,6 +12,8 @@ ms.keywords: GetReferent, GetReferent method [Windows Shell], GetReferent method
 ms.topic: method
 f1_keywords: 
  - "shlobj/INewShortcutHook.GetReferent"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

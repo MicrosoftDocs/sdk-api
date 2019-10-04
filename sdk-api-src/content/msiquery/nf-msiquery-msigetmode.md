@@ -12,6 +12,8 @@ ms.keywords: MSIRUNMODE_ADMIN, MSIRUNMODE_ADVERTISE, MSIRUNMODE_CABINET, MSIRUNM
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetMode"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

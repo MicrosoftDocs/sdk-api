@@ -12,6 +12,8 @@ ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAs
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDAsyncResult.Abort"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

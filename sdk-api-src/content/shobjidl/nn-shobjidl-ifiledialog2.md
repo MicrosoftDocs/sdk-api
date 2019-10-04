@@ -12,6 +12,8 @@ ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], IFileDialog2 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IFileDialog2"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

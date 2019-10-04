@@ -12,6 +12,8 @@ ms.keywords: "*PMODIFY_VHDSET_VERSION, MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH, MODI
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/MODIFY_VHDSET_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

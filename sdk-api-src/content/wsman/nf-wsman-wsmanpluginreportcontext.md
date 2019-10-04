@@ -12,6 +12,8 @@ ms.keywords: WSManPluginReportContext, WSManPluginReportContext function [Window
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginReportContext
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

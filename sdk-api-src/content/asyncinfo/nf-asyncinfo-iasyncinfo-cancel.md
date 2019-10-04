@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Windows Runtime], Cancel method [Windows Run
 ms.topic: method
 f1_keywords: 
  - "asyncinfo/IAsyncInfo.Cancel"
+dev_langs:
+ - c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

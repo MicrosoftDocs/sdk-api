@@ -12,6 +12,8 @@ ms.keywords: IMMNotificationClient interface [Core Audio],OnPropertyValueChanged
 ms.topic: method
 f1_keywords:
 - mmdeviceapi/IMMNotificationClient.OnPropertyValueChanged
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc func
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFHeapAlloc"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

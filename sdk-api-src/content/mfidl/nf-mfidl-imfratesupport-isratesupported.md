@@ -12,6 +12,8 @@ ms.keywords: 3ac04683-17d3-4d87-b260-39b04eab9e59, IMFRateSupport interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRateSupport.IsRateSupported"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

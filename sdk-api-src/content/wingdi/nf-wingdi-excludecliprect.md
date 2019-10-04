@@ -12,6 +12,8 @@ ms.keywords: ExcludeClipRect, ExcludeClipRect function [Windows GDI], _win32_Exc
 ms.topic: function
 f1_keywords: 
  - "wingdi/ExcludeClipRect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: REPAIR_STATUS, REPAIR_STATUS enumeration [NDF], RS_DEFERRED, RS_NOT
 ms.topic: enum
 f1_keywords: 
  - "ndhelper/REPAIR_STATUS"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

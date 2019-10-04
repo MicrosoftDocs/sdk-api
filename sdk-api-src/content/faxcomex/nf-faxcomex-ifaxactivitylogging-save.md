@@ -12,6 +12,8 @@ ms.keywords: IFaxActivityLogging interface [Fax Service],Save method, IFaxActivi
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxActivityLogging.Save"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

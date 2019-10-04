@@ -12,6 +12,8 @@ ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.Unadvise"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

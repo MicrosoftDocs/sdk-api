@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PAR
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetPropertyParameterBlockEx"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pa
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchStripPrefix"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

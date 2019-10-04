@@ -12,6 +12,8 @@ ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup AP
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupRemoveFileLogEntry"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

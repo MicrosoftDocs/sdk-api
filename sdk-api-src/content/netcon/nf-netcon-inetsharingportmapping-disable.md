@@ -12,6 +12,8 @@ ms.keywords: Disable, Disable method [ICS/ICF], Disable method [ICS/ICF],INetSha
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingPortMapping.Disable"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

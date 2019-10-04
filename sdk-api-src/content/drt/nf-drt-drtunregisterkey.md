@@ -12,6 +12,8 @@ ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/
 ms.topic: function
 f1_keywords: 
  - "drt/DrtUnregisterKey"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

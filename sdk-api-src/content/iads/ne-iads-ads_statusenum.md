@@ -12,6 +12,8 @@ ms.keywords: "*PADS_STATUS, ADS_STATUS, ADS_STATUSENUM, ADS_STATUSENUM enumerati
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_STATUSENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

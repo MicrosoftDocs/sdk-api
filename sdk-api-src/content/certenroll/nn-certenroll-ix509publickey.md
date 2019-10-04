@@ -12,6 +12,8 @@ ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509PublicKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

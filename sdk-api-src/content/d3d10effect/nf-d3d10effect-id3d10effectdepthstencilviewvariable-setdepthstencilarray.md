@@ -12,6 +12,8 @@ ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewV
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

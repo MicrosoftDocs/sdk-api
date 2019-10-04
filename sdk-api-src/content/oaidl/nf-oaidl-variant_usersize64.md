@@ -12,6 +12,8 @@ ms.keywords: VARIANT_UserSize64, VARIANT_UserSize64 function [Automation], autom
 ms.topic: function
 f1_keywords: 
  - "oaidl/VARIANT_UserSize64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

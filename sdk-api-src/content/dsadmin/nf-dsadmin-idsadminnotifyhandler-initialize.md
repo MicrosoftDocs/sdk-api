@@ -12,6 +12,8 @@ ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DS
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNotifyHandler.Initialize"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

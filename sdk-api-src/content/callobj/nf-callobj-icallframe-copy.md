@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [COM], Copy method [COM],ICallFrame interface, IC
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.Copy"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

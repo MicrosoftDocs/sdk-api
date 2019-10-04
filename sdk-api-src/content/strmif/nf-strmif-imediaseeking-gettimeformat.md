@@ -12,6 +12,8 @@ ms.keywords: GetTimeFormat, GetTimeFormat method [DirectShow], GetTimeFormat met
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetTimeFormat"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

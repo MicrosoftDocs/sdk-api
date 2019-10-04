@@ -12,6 +12,8 @@ ms.keywords: ClearGamma, ClearGamma method [GDI+], ClearGamma method [GDI+],Imag
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearGamma"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

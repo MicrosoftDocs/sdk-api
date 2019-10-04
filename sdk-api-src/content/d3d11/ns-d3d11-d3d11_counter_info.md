@@ -12,6 +12,8 @@ ms.keywords: D3D11_COUNTER_INFO, D3D11_COUNTER_INFO structure [Direct3D 11], a2d
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_COUNTER_INFO"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRegisterServiceProvider interface [DirectShow],RegisterService met
 ms.topic: method
 f1_keywords: 
  - "strmif/IRegisterServiceProvider.RegisterService"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

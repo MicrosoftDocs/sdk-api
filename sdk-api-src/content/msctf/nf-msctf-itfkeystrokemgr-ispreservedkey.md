@@ -12,6 +12,8 @@ ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],IsPreservedKey 
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeystrokeMgr.IsPreservedKey"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

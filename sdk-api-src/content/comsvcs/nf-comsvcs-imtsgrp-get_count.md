@@ -12,6 +12,8 @@ ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsG
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsGrp.get_Count"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PWORKER_START_ROUTINE, PWORKER_START_ROUTINE callback function [Fai
 ms.topic: callback
 f1_keywords: 
  - "resapi/WorkerStartRoutine"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

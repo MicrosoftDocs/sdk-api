@@ -12,6 +12,8 @@ ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMa
 ms.topic: function
 f1_keywords: 
  - "memoryapi/CreateFileMappingNuma"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

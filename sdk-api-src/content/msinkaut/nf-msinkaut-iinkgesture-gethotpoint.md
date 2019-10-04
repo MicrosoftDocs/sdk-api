@@ -12,6 +12,8 @@ ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint meth
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkGesture.GetHotPoint"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

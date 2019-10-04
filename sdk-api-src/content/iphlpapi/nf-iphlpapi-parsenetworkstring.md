@@ -12,6 +12,8 @@ ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/ParseNetworkString"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

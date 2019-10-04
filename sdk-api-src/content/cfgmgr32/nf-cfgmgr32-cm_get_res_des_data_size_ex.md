@@ -12,6 +12,8 @@ ms.keywords: CM_Get_Res_Des_Data_Size_Ex, CM_Get_Res_Des_Data_Size_Ex function [
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Res_Des_Data_Size_Ex"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

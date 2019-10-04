@@ -12,6 +12,8 @@ ms.keywords: ClearTable, ClearTable method [Windows Accessibility], ClearTable m
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryMapping.ClearTable"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

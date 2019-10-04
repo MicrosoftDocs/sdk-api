@@ -12,6 +12,8 @@ ms.keywords: DwmAttachMilContent, DwmAttachMilContent function [Desktop Window M
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmAttachMilContent"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

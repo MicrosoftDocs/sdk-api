@@ -12,6 +12,8 @@ ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interfa
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IAdviseSinkEx"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

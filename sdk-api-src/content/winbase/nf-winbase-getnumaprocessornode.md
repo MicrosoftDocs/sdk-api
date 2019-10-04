@@ -12,6 +12,8 @@ ms.keywords: GetNumaProcessorNode, GetNumaProcessorNode function, _win32_getnuma
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNumaProcessorNode"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

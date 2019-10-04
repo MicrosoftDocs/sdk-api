@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.Cancel"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Ski
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfDisplayAttributeInfo.Skip"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

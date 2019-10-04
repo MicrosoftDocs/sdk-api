@@ -12,6 +12,8 @@ ms.keywords: GenericDefault, GenericDefault method [GDI+], GenericDefault method
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GenericDefault"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

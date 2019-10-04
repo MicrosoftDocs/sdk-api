@@ -12,6 +12,8 @@ ms.keywords: '*PBP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS struc
 ms.topic: struct
 f1_keywords:
 - uxtheme/BP_ANIMATIONPARAMS
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

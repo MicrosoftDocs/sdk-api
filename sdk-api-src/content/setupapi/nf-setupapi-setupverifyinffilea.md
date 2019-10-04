@@ -12,6 +12,8 @@ ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupV
 ms.topic: function
 f1_keywords:
 - setupapi/SetupVerifyInfFile
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

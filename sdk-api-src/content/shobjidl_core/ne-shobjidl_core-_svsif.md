@@ -12,6 +12,8 @@ ms.keywords: SVSI_CHECK, SVSI_CHECK2, SVSI_DESELECT, SVSI_DESELECTOTHERS, SVSI_E
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/_SVSIF"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

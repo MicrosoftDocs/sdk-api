@@ -12,6 +12,8 @@ ms.keywords: MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMi
 ms.topic: function
 f1_keywords: 
  - "msi/MsiInstallMissingFile"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

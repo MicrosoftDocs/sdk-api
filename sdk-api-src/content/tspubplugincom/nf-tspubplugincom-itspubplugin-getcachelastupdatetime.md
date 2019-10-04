@@ -12,6 +12,8 @@ ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Deskt
 ms.topic: method
 f1_keywords: 
  - "tspubplugincom/ItsPubPlugin.GetCacheLastUpdateTime"
+dev_langs:
+ - c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadByte2, XMLoadByte2, XMLoadByte2 method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadByte2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

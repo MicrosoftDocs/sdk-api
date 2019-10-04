@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSource interface [Media Foundation],Shutdown method, IMFMed
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSource.Shutdown"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

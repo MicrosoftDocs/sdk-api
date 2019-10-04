@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute in
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointOffloadStreamMute"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

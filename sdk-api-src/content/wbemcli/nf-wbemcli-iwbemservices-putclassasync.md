@@ -12,6 +12,8 @@ ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutCla
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemServices.PutClassAsync"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

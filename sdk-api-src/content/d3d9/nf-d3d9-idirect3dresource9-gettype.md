@@ -12,6 +12,8 @@ ms.keywords: GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],I
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DResource9.GetType"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

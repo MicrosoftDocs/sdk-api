@@ -12,6 +12,8 @@ ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.GetUpdating"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

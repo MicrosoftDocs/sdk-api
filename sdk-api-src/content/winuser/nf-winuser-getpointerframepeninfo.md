@@ -12,6 +12,8 @@ ms.keywords: GetPointerFramePenInfo, GetPointerFramePenInfo function [Input Mess
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerFramePenInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

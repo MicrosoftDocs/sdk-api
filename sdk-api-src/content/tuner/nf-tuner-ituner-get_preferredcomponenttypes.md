@@ -12,6 +12,8 @@ ms.keywords: ITuner interface [Microsoft TV Technologies],get_PreferredComponent
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.get_PreferredComponentTypes"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

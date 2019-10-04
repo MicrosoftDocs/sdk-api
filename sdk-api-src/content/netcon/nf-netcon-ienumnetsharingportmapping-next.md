@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNe
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingPortMapping.Next"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoSetCancelObject, CoSetCancelObject function [COM], _com_CoSetCanc
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoSetCancelObject"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAI
 ms.topic: struct
 f1_keywords:
 - lsalookup/POLICY_DNS_DOMAIN_INFO
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPNetwork interface [Windows Media Player],get_bandWidth method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPNetwork.get_bandWidth"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_DP_DEFAULT, WCN_VALUE_DP_MACHINE_SPECIFIED, WCN_VALUE_DP_
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_DEVICE_PASSWORD_ID"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

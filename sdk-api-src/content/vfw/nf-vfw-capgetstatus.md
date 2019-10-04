@@ -12,6 +12,8 @@ ms.keywords: "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Mul
 ms.topic: macro
 f1_keywords: 
  - "vfw/capGetStatus"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSummaryInfo, GetSummaryInfo method [Active Directory], GetSummar
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjExt.GetSummaryInfo"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilegeCount prope
 ms.topic: method
 f1_keywords: 
  - "taskschd/IPrincipal2.RequiredPrivilegeCount"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

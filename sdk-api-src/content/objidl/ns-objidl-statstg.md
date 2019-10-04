@@ -12,6 +12,8 @@ ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storag
 ms.topic: struct
 f1_keywords: 
  - "objidl/STATSTG"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

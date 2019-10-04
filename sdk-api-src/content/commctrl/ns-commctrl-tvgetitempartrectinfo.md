@@ -12,6 +12,8 @@ ms.keywords: TVGETITEMPARTRECTINFO, TVGETITEMPARTRECTINFO structure [Windows Con
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TVGETITEMPARTRECTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

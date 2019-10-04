@@ -12,6 +12,8 @@ ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Que
 ms.topic: function
 f1_keywords: 
  - "timeprov/TimeProvCommand"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

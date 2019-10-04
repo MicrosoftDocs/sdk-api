@@ -12,6 +12,8 @@ ms.keywords: CCertRequest object [Security],Submit method, CR_IN_BASE64, CR_IN_B
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertRequest3.Submit"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

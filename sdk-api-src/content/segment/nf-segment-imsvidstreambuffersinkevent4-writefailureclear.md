@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSinkEvent4.WriteFailureClear, IMSVidStreamBufferS
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidstreamBufferSinkEvent4.WriteFailureClear"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

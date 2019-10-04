@@ -12,6 +12,8 @@ ms.keywords: VARENUM, VARENUM enumeration [Automation], VT_ARRAY, VT_BLOB, VT_BL
 ms.topic: enum
 f1_keywords: 
  - "wtypes/VARENUM"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

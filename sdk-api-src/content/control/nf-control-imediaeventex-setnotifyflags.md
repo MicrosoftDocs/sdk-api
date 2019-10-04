@@ -12,6 +12,8 @@ ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyFlags method, IMediaE
 ms.topic: method
 f1_keywords: 
  - "control/IMediaEventEx.SetNotifyFlags"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

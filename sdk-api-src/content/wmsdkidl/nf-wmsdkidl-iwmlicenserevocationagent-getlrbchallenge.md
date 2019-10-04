@@ -12,6 +12,8 @@ ms.keywords: GetLRBChallenge, GetLRBChallenge method [windows Media Format], Get
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLicenseRevocationAgent.GetLRBChallenge"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

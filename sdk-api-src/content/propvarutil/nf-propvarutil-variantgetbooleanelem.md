@@ -12,6 +12,8 @@ ms.keywords: VariantGetBooleanElem, VariantGetBooleanElem function [Windows Prop
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantGetBooleanElem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

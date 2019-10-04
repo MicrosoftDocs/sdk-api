@@ -12,6 +12,8 @@ ms.keywords: TextPattern_get_DocumentRange, TextPattern_get_DocumentRange functi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextPattern_get_DocumentRange"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

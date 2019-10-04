@@ -12,6 +12,8 @@ ms.keywords: IInkRecognizer2 interface [Tablet PC],get_UnicodeRanges method, IIn
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizer2.get_UnicodeRanges"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

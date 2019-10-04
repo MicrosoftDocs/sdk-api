@@ -12,6 +12,8 @@ ms.keywords: FindNextUrlCacheGroup, FindNextUrlCacheGroup function [WinINet], _i
 ms.topic: function
 f1_keywords: 
  - "wininet/FindNextUrlCacheGroup"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

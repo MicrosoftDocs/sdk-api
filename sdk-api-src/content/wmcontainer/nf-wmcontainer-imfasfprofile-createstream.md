@@ -12,6 +12,8 @@ ms.keywords: 3da52c1a-24c0-456b-a9e8-57b5467eda2a, CreateStream, CreateStream me
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.CreateStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

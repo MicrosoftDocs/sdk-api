@@ -12,6 +12,8 @@ ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Con
 ms.topic: interface
 f1_keywords: 
  - "textserv/IRicheditUiaOverrides"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

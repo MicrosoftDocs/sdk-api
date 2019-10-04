@@ -12,6 +12,8 @@ ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.Is
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.IsDirectory"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

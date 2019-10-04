@@ -12,6 +12,8 @@ ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "tuner/IESRequestTunerEvent.GetConsequences"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

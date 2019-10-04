@@ -12,6 +12,8 @@ ms.keywords: AddRefOnProcess, AddRefOnProcess method [COM], AddRefOnProcess meth
 ms.topic: method
 f1_keywords: 
  - "objidl/IProcessLock.AddRefOnProcess"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

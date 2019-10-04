@@ -12,6 +12,8 @@ ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback
 ms.topic: callback
 f1_keywords:
 - winldap/QUERYCLIENTCERT
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DPAM_INTERSECT, DPAM_NORMAL, DPAM_SORTED, DPAM_UNION, DPA_Merge, DP
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_Merge"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

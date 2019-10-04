@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method, GetBuffer method,ID3D12ShaderReflectio
 ms.topic: method
 f1_keywords: 
  - "d3d12shader/ID3D12ShaderReflectionVariable.GetBuffer"
+dev_langs:
+ - c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

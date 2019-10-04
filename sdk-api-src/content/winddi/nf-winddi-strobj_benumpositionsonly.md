@@ -12,6 +12,8 @@ ms.keywords: STROBJ_bEnumPositionsOnly, STROBJ_bEnumPositionsOnly function [Disp
 ms.topic: function
 f1_keywords:
 - winddi/STROBJ_bEnumPositionsOnly
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: DC_BINNAMES, DC_BINS, DC_COLLATE, DC_COLORDEVICE, DC_COPIES, DC_DRI
 ms.topic: function
 f1_keywords:
 - wingdi/DeviceCapabilities
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

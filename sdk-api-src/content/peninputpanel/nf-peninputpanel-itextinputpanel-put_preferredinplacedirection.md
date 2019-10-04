@@ -12,6 +12,8 @@ ms.keywords: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.PreferredInPlaceDirection"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], IAzNameResol
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzNameResolver"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, I
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable.SetTag"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_VERSION_INFO, PTRACE_VERSION_INFO, PTRACE_VERSION_INFO str
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

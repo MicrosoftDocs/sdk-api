@@ -12,6 +12,8 @@ ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocParser.AddToc"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

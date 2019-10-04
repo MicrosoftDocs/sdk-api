@@ -12,6 +12,8 @@ ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C
 ms.topic: enum
 f1_keywords: 
  - "strmif/TVAudioMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

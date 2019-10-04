@@ -12,6 +12,8 @@ ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemIma
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.Exists"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

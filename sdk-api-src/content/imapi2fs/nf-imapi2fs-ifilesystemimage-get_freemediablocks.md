@@ -12,6 +12,8 @@ ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFil
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFileSystemImage.get_FreeMediaBlocks"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

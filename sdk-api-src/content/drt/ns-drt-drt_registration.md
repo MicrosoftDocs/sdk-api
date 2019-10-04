@@ -12,6 +12,8 @@ ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [
 ms.topic: struct
 f1_keywords: 
  - "drt/DRT_REGISTRATION"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

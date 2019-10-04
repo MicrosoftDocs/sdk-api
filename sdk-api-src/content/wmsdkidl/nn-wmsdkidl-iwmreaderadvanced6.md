@@ -12,6 +12,8 @@ ms.keywords: IWMReaderAdvanced6, IWMReaderAdvanced6 interface [windows Media For
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced6"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AdviseWMPServices, AdviseWMPServices method [Windows Media Player],
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPPlugin.AdviseWMPServices"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

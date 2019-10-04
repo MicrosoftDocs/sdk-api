@@ -12,6 +12,8 @@ ms.keywords: CMSG_SIGNER_ONLY_FLAG, CMSG_TRUSTED_SIGNER_FLAG, CMSG_USE_SIGNER_IN
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgGetAndVerifySigner
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

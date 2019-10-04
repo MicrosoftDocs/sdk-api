@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_SEARCH_INFO_TYPE
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

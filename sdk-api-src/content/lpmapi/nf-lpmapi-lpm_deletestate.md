@@ -12,6 +12,8 @@ ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState ca
 ms.topic: function
 f1_keywords: 
  - "lpmapi/LPM_DeleteState"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

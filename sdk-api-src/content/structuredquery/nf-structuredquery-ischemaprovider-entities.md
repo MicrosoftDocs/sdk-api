@@ -12,6 +12,8 @@ ms.keywords: Entities, Entities method [search], Entities method [search],ISchem
 ms.topic: method
 f1_keywords: 
  - "structuredquery/ISchemaProvider.Entities"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

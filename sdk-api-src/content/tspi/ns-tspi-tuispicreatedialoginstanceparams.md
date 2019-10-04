@@ -12,6 +12,8 @@ ms.keywords: "*LPTUISPICREATEDIALOGINSTANCEPARAMS, LPTUISPICREATEDIALOGINSTANCEP
 ms.topic: struct
 f1_keywords: 
  - "tspi/TUISPICREATEDIALOGINSTANCEPARAMS"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

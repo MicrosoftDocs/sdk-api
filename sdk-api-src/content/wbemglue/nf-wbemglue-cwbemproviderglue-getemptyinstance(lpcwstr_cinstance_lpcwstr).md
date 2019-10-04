@@ -12,6 +12,8 @@ ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue::GetEmptyInst
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue::GetEmptyInstance"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

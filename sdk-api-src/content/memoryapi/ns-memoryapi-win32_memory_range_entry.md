@@ -12,6 +12,8 @@ ms.keywords: "*PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMO
 ms.topic: struct
 f1_keywords: 
  - "memoryapi/WIN32_MEMORY_RANGE_ENTRY"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

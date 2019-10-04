@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService interface,UnadviseVisualTreeChange method, IVisu
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.UnadviseVisualTreeChange"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

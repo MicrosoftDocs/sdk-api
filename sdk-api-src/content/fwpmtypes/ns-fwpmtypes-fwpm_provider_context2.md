@@ -12,6 +12,8 @@ ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_PROVIDER_CONTEXT2"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

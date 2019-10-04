@@ -12,6 +12,8 @@ ms.keywords: PDCOT_BOOLEAN, PDCOT_DATETIME, PDCOT_NONE, PDCOT_NUMBER, PDCOT_SIZE
 ms.topic: enum
 f1_keywords: 
  - "propsys/PROPDESC_CONDITION_TYPE"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INF
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_PLATFORM_INFO"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

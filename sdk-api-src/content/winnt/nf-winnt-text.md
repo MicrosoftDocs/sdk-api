@@ -12,6 +12,8 @@ ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _
 ms.topic: macro
 f1_keywords: 
  - "winnt/TEXT"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

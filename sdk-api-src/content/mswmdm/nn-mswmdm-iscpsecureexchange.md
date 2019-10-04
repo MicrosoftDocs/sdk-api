@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureExchange, ISCPSecureExchange interface [windows Media Dev
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/ISCPSecureExchange"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

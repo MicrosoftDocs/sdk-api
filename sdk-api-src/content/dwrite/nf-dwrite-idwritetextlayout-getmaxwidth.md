@@ -12,6 +12,8 @@ ms.keywords: GetMaxWidth, GetMaxWidth method [Direct Write], GetMaxWidth method 
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetMaxWidth"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

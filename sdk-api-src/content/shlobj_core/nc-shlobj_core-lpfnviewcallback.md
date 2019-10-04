@@ -12,6 +12,8 @@ ms.keywords: LPFNVIEWCALLBACK, LPFNVIEWCALLBACK callback, LPFNVIEWCALLBACK callb
 ms.topic: callback
 f1_keywords: 
  - "shlobj_core/LPFNVIEWCALLBACK"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

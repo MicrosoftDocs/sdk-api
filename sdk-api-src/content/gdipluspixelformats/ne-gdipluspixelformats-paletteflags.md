@@ -12,6 +12,8 @@ ms.keywords: PaletteFlags, PaletteFlags enumeration [GDI+], PaletteFlagsGrayScal
 ms.topic: enum
 f1_keywords: 
  - "gdipluspixelformats/PaletteFlags"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

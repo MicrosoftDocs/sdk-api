@@ -12,6 +12,8 @@ ms.keywords: IRequiredExtensions, IRequiredExtensions interface [MMC], IRequired
 ms.topic: interface
 f1_keywords: 
  - "mmc/IRequiredExtensions"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

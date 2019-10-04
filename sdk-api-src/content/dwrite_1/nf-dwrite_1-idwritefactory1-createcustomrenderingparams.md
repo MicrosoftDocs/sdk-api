@@ -12,6 +12,8 @@ ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Di
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFactory1.CreateCustomRenderingParams"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

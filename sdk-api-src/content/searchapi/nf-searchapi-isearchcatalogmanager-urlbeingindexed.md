@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],URLBeingIndexed method, IS
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.URLBeingIndexed"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

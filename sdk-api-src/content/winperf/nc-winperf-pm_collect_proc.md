@@ -12,6 +12,8 @@ ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [P
 ms.topic: callback
 f1_keywords:
 - winperf/CollectPerformanceData
+dev_langs:
+ - c++
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows

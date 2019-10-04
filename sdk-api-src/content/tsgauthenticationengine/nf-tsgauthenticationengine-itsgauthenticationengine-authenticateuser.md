@@ -12,6 +12,8 @@ ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "tsgauthenticationengine/ITSGAuthenticationEngine.AuthenticateUser"
+dev_langs:
+ - c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

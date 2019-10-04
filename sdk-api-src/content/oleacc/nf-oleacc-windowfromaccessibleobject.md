@@ -12,6 +12,8 @@ ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Wi
 ms.topic: function
 f1_keywords: 
  - "oleacc/WindowFromAccessibleObject"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

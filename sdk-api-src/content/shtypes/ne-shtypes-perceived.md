@@ -12,6 +12,8 @@ ms.keywords: PERCEIVED, PERCEIVED enumeration [Windows Shell], PERCEIVED_TYPE_AP
 ms.topic: enum
 f1_keywords: 
  - "shtypes/PERCEIVED"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

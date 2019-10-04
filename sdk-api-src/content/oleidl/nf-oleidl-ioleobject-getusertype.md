@@ -12,6 +12,8 @@ ms.keywords: GetUserType, GetUserType method [COM], GetUserType method [COM],IOl
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.GetUserType"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

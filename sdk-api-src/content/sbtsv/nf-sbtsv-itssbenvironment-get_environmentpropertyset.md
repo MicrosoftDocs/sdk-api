@@ -12,6 +12,8 @@ ms.keywords: EnvironmentPropertySet property [Remote Desktop Services], Environm
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbEnvironment.EnvironmentPropertySet"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

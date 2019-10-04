@@ -12,6 +12,8 @@ ms.keywords: IXMLElementCollection interface [Windows API],get_length method, IX
 ms.topic: method
 f1_keywords: 
  - "msxml/IXMLElementCollection.get_length"
+dev_langs:
+ - c++
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows

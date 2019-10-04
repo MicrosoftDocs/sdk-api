@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR 
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_SHORT_VECTOR"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

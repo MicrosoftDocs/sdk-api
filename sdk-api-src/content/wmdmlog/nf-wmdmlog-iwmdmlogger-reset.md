@@ -12,6 +12,8 @@ ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, 
 ms.topic: method
 f1_keywords: 
  - "wmdmlog/IWMDMLogger.Reset"
+dev_langs:
+ - c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

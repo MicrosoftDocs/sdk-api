@@ -12,6 +12,8 @@ ms.keywords: WSB_OB_ET_DATETIME, WSB_OB_ET_MAX, WSB_OB_ET_NUMBER, WSB_OB_ET_SIZE
 ms.topic: enum
 f1_keywords: 
  - "wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE"
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 80804b33-1dac-41f8-8446-8f929bf9b931, MFT_PROCESS_OUTPUT_STATUS_NEW
 ms.topic: enum
 f1_keywords: 
  - "mftransform/_MFT_PROCESS_OUTPUT_STATUS"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

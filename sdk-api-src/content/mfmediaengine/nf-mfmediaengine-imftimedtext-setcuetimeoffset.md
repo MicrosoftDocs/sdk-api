@@ -12,6 +12,8 @@ ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedText.SetCueTimeOffset"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

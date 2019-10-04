@@ -12,6 +12,8 @@ ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows 
 ms.topic: function
 f1_keywords: 
  - "userenv/DestroyEnvironmentBlock"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

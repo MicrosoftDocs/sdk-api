@@ -12,6 +12,8 @@ ms.keywords: Count property [Windows Accessibility], Count property [Windows Acc
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryMapping.Count"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

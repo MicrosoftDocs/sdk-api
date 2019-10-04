@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method 
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsResult.GetDescription"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

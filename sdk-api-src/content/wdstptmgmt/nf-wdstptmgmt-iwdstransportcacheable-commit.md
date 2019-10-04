@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Windows Deployment Services], Commit method 
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportCacheable.Commit"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

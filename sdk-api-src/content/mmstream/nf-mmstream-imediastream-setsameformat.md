@@ -12,6 +12,8 @@ ms.keywords: IMediaStream interface [DirectShow],SetSameFormat method, IMediaStr
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMediaStream.SetSameFormat"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

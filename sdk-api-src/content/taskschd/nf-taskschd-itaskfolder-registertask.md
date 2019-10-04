@@ -12,6 +12,8 @@ ms.keywords: ITaskFolder interface [Task Scheduler],RegisterTask method, ITaskFo
 ms.topic: method
 f1_keywords:
 - taskschd/ITaskFolder.RegisterTask
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

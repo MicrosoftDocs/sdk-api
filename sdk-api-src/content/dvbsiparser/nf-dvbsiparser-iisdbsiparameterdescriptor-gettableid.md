@@ -12,6 +12,8 @@ ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTable
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSIParameterDescriptor.GetTableId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

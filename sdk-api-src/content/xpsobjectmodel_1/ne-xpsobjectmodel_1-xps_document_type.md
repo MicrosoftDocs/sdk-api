@@ -12,6 +12,8 @@ ms.keywords: XPS_DOCUMENT_TYPE, XPS_DOCUMENT_TYPE enumeration [XPS Documents and
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel_1/XPS_DOCUMENT_TYPE"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

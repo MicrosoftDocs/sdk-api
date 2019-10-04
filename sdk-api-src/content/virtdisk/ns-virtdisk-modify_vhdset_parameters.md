@@ -12,6 +12,8 @@ ms.keywords: "*PMODIFY_VHDSET_PARAMETERS, MODIFY_VHDSET_PARAMETERS, MODIFY_VHDSE
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/MODIFY_VHDSET_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

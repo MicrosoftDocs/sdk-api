@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetColorKey method, ImageAttributes.Se
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetColorKey"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

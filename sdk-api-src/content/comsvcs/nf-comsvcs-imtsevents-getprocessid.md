@@ -12,6 +12,8 @@ ms.keywords: GetProcessID, GetProcessID method [COM+], GetProcessID method [COM+
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEvents.GetProcessID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

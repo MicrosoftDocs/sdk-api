@@ -12,6 +12,8 @@ ms.keywords: URL_SCHEME, URL_SCHEME enumeration [Windows Shell], URL_SCHEME_ABOU
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/URL_SCHEME"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

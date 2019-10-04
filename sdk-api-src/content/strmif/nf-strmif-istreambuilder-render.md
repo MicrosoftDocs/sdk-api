@@ -12,6 +12,8 @@ ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder
 ms.topic: method
 f1_keywords: 
  - "strmif/IStreamBuilder.Render"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

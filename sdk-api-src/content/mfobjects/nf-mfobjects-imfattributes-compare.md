@@ -12,6 +12,8 @@ ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare, Compare method [Medi
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.Compare
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

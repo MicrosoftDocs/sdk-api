@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES function [
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetAllProperties"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

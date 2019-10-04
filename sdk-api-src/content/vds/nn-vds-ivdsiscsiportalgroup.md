@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIsc
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsIscsiPortalGroup"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

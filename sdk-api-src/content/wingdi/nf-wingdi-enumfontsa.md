@@ -12,6 +12,8 @@ ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW
 ms.topic: function
 f1_keywords: 
  - "wingdi/EnumFonts"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

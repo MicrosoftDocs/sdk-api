@@ -12,6 +12,8 @@ ms.keywords: CachedBitmap, CachedBitmap class [GDI+], CachedBitmap class [GDI+],
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/CachedBitmap"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

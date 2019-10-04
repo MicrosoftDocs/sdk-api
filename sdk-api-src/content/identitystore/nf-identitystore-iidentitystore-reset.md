@@ -12,6 +12,8 @@ ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Re
 ms.topic: method
 f1_keywords: 
  - "identitystore/IIdentityStore.Reset"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

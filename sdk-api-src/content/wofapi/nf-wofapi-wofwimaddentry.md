@@ -12,6 +12,8 @@ ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry,
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofWimAddEntry"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

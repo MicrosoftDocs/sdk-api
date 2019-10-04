@@ -12,6 +12,8 @@ ms.keywords: INSNetSourceCreator interface [windows Media Format],Shutdown metho
 ms.topic: method
 f1_keywords: 
  - "wmnetsourcecreator/INSNetSourceCreator.Shutdown"
+dev_langs:
+ - c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows

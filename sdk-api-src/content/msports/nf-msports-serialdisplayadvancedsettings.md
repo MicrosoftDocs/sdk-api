@@ -12,6 +12,8 @@ ms.keywords: SerialDisplayAdvancedSettings, SerialDisplayAdvancedSettings functi
 ms.topic: function
 f1_keywords: 
  - "msports/SerialDisplayAdvancedSettings"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

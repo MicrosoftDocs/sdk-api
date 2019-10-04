@@ -12,6 +12,8 @@ ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],RebootRequir
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate2.RebootRequired"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

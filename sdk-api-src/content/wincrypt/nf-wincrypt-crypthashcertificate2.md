@@ -12,6 +12,8 @@ ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], s
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptHashCertificate2"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

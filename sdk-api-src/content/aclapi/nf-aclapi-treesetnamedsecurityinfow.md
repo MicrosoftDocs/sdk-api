@@ -12,6 +12,8 @@ ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_IN
 ms.topic: function
 f1_keywords:
 - aclapi/TreeSetNamedSecurityInfo
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

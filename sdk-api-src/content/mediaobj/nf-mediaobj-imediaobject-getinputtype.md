@@ -12,6 +12,8 @@ ms.keywords: GetInputType, GetInputType method [DirectShow], GetInputType method
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.GetInputType"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

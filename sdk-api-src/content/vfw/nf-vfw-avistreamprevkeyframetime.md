@@ -12,6 +12,8 @@ ms.keywords: AVIStreamPrevKeyFrameTime, AVIStreamPrevKeyFrameTime macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamPrevKeyFrameTime"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

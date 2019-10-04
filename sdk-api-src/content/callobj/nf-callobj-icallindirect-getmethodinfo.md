@@ -12,6 +12,8 @@ ms.keywords: GetMethodInfo, GetMethodInfo method [COM], GetMethodInfo method [CO
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallIndirect.GetMethodInfo"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

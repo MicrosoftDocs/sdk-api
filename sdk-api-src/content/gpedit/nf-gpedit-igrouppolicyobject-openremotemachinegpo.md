@@ -12,6 +12,8 @@ ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject inte
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.OpenRemoteMachineGPO"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumSTATDATA interfa
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumSTATDATA.Clone"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

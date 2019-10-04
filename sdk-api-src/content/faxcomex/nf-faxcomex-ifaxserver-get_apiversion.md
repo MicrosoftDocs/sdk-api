@@ -12,6 +12,8 @@ ms.keywords: APIVersion property [Fax Service], APIVersion property [Fax Service
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.APIVersion"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

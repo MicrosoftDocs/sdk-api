@@ -6,6 +6,8 @@ ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
 ms.topic: language-reference
 f1_keywords:
 - wlanapi/_DOT11_RADIO_STATE
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

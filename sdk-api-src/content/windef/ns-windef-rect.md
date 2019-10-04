@@ -12,6 +12,8 @@ ms.keywords: '*LPRECT, *NPRECT, *PRECT, FAR *LPRECT, FAR *LPRECT structure [Disp
 ms.topic: struct
 f1_keywords:
 - windef/RECT
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

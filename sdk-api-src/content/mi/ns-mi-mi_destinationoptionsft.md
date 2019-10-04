@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptionsFT, MI_DestinationOptionsFT structure [Windows
 ms.topic: struct
 f1_keywords:
 - mi/MI_DestinationOptionsFT
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICo
 ms.topic: callback
 f1_keywords: 
  - "gamingtcui/GameUICompletionRoutine"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

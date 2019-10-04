@@ -12,6 +12,8 @@ ms.keywords: MPT_BOOL, MPT_ENUM, MPT_FLOAT, MPT_INT, MPT_MAX, MP_TYPE, MP_TYPE ,
 ms.topic: enum
 f1_keywords:
 - medparam/MP_TYPE
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

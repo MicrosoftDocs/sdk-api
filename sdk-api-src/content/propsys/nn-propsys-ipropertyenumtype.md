@@ -12,6 +12,8 @@ ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties]
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyEnumType"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

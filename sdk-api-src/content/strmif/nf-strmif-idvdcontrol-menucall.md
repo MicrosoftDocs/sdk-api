@@ -12,6 +12,8 @@ ms.keywords: IDvdControl interface [DirectShow],MenuCall method, IDvdControl.Men
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl.MenuCall"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

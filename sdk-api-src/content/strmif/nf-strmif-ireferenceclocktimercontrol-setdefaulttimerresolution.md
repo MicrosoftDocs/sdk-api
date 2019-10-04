@@ -12,6 +12,8 @@ ms.keywords: IReferenceClockTimerControl interface [DirectShow],SetDefaultTimerR
 ms.topic: method
 f1_keywords: 
  - "strmif/IReferenceClockTimerControl.SetDefaultTimerResolution"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evt
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtOpenChannelEnum"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

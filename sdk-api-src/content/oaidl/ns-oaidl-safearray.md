@@ -12,6 +12,8 @@ ms.keywords: "*LPSAFEARRAY, FADF_AUTO, FADF_BSTR, FADF_DISPATCH, FADF_EMBEDDED, 
 ms.topic: struct
 f1_keywords: 
  - "oaidl/SAFEARRAY"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

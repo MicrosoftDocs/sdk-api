@@ -12,6 +12,8 @@ ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem met
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyList.GetPropertyItem"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

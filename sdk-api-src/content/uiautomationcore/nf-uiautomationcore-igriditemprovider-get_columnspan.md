@@ -12,6 +12,8 @@ ms.keywords: ColumnSpan property [Windows Accessibility], ColumnSpan property [W
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IGridItemProvider.ColumnSpan"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

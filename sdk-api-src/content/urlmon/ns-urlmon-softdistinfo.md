@@ -12,6 +12,8 @@ ms.keywords: "*LPSOFTDISTINFO, LPSOFTDISTINFO, LPSOFTDISTINFO structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "urlmon/SOFTDISTINFO"
+dev_langs:
+ - c++
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_PF_DYNAMIC, VDS_PF_INTERNAL_HARDWARE_PROVIDER, VDS_PF_ONE_DISK_
 ms.topic: enum
 f1_keywords:
 - vds/VDS_PROVIDER_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

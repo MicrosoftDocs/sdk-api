@@ -12,6 +12,8 @@ ms.keywords: CreateUInt64Array, CreateUInt64Array method [Windows Runtime], Crea
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateUInt64Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

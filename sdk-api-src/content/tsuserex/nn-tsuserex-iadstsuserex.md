@@ -12,6 +12,8 @@ ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IAD
 ms.topic: interface
 f1_keywords: 
  - "tsuserex/IADsTSUserEx"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

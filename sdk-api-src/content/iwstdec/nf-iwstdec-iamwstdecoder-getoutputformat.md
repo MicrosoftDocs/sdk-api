@@ -12,6 +12,8 @@ ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputForm
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.GetOutputFormat"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

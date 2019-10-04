@@ -12,6 +12,8 @@ ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup in
 ms.topic: interface
 f1_keywords: 
  - "casetup/ICertSrvSetup"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

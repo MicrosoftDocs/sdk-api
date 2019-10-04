@@ -12,6 +12,8 @@ ms.keywords: ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft T
 ms.topic: interface
 f1_keywords: 
  - "sbe/ISBE2MediaTypeProfile"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

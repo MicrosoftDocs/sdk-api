@@ -12,6 +12,8 @@ ms.keywords: CLUS_GROUP_DO_NOT_START, CLUS_GROUP_START_ALLOWED, CLUS_GROUP_START
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUS_GROUP_START_SETTING"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

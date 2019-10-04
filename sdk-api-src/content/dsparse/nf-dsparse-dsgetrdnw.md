@@ -12,6 +12,8 @@ ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsp
 ms.topic: function
 f1_keywords: 
  - "dsparse/DsGetRdnW"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

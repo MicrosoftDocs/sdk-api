@@ -12,6 +12,8 @@ ms.keywords: ExtCreateRegion, ExtCreateRegion function [Windows GDI], _win32_Ext
 ms.topic: function
 f1_keywords:
 - wingdi/ExtCreateRegion
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

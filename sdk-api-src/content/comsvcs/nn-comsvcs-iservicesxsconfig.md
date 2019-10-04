@@ -12,6 +12,8 @@ ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSC
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IServiceSxSConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

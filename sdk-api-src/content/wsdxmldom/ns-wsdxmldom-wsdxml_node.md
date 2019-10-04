@@ -12,6 +12,8 @@ ms.keywords: WSDXML_NODE, WSDXML_NODE structure, _WSDXML_NODE, ncd.wsdxml_node_s
 ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_NODE
+dev_langs:
+ - c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

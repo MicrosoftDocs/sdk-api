@@ -12,6 +12,8 @@ ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], display
 ms.topic: struct
 f1_keywords: 
  - "winddi/FD_KERNINGPAIR"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

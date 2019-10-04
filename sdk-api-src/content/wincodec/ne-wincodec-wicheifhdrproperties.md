@@ -9,6 +9,8 @@ ms.keywords: WICHeifHdrProperties
 ms.topic: enum
 f1_keywords:
 - wincodec/WICHeifHdrProperties
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

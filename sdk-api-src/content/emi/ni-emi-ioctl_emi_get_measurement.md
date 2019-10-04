@@ -12,6 +12,8 @@ ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL
 ms.topic: ioctl
 f1_keywords: 
  - "emi/IOCTL_EMI_GET_MEASUREMENT"
+dev_langs:
+ - c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

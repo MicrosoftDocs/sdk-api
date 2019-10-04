@@ -12,6 +12,8 @@ ms.keywords: MI_Context_WriteStreamParameter, MI_Context_WriteStreamParameter fu
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_WriteStreamParameter
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

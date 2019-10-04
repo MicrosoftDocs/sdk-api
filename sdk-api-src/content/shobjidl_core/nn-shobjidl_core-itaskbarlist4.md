@@ -12,6 +12,8 @@ ms.keywords: ITaskbarList4, ITaskbarList4 interface [Windows Shell], ITaskbarLis
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/ITaskbarList4"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

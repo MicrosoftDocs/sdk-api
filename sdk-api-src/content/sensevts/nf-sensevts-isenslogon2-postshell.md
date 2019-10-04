@@ -12,6 +12,8 @@ ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShel
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon2.PostShell"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

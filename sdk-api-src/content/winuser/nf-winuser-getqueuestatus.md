@@ -12,6 +12,8 @@ ms.keywords: GetQueueStatus, GetQueueStatus function [Windows and Messages], QS_
 ms.topic: function
 f1_keywords: 
  - "winuser/GetQueueStatus"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MinC
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogTVTuningSpace.put_MinChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

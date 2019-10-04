@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS str
 ms.topic: struct
 f1_keywords:
 - qosobjs/QOS_TRAFFIC_CLASS
+dev_langs:
+ - c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetSystemPowerState, SetSystemPowerState function, _win32_setsystem
 ms.topic: function
 f1_keywords: 
  - "winbase/SetSystemPowerState"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

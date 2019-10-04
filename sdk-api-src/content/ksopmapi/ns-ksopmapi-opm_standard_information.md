@@ -12,6 +12,8 @@ ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media
 ms.topic: struct
 f1_keywords:
 - ksopmapi/OPM_STANDARD_INFORMATION
+dev_langs:
+ - c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

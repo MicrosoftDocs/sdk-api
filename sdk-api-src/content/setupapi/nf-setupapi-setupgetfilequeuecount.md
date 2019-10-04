@@ -12,6 +12,8 @@ ms.keywords: FILEOP_BACKUP, FILEOP_COPY, FILEOP_DELETE, FILEOP_RENAME, SetupGetF
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupGetFileQueueCount"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

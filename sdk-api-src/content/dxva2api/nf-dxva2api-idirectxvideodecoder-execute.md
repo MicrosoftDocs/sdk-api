@@ -12,6 +12,8 @@ ms.keywords: 3c957b2f-4bba-4c39-84de-719c08e1bf78, Execute, Execute method [Medi
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoDecoder.Execute
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

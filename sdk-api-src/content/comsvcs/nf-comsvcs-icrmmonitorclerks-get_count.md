@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitorClerks interface [COM+],get_Count method, ICrmMonitorCle
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorClerks.get_Count"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

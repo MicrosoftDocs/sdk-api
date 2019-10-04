@@ -12,6 +12,8 @@ ms.keywords: D3D10_MAP_FLAG, D3D10_MAP_FLAG enumeration [Direct3D 10], D3D10_MAP
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_MAP_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

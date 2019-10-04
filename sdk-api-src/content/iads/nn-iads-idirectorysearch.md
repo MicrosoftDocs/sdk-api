@@ -12,6 +12,8 @@ ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySear
 ms.topic: interface
 f1_keywords: 
  - "iads/IDirectorySearch"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

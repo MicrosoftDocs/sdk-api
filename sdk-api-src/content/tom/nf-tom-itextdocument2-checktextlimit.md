@@ -12,6 +12,8 @@ ms.keywords: CheckTextLimit, CheckTextLimit method [Windows Controls], CheckText
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.CheckTextLimit"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

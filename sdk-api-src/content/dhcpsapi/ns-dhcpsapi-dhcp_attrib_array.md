@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY, DHCP
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_ATTRIB_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

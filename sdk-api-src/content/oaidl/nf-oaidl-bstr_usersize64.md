@@ -12,6 +12,8 @@ ms.keywords: BSTR_UserSize64, BSTR_UserSize64 function [Automation], automat.bst
 ms.topic: function
 f1_keywords: 
  - "oaidl/BSTR_UserSize64"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

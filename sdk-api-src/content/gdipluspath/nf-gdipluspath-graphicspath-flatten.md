@@ -12,6 +12,8 @@ ms.keywords: Flatten, Flatten method [GDI+], Flatten method [GDI+],GraphicsPath 
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.Flatten"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

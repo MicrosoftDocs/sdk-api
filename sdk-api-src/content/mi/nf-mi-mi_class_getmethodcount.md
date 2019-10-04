@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetMethodCount, MI_Class_GetMethodCount function [Windows 
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetMethodCount"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

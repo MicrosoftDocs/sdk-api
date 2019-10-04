@@ -11,6 +11,8 @@ ms.keywords: 81213ad6-5736-1d54-c0a6-628697437568, CreateDirect3D11SurfaceFromDX
 ms.topic: function
 f1_keywords: 
  - "windows.graphics.directx.direct3d11.interop/CreateDirect3D11SurfaceFromDXGISurface"
+dev_langs:
+ - c++
 req.header: windows.graphics.directx.direct3d11.interop.h
 req.include-header: 
 req.target-type: Windows

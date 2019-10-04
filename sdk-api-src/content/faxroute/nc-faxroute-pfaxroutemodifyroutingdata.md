@@ -12,6 +12,8 @@ ms.keywords: FaxRouteModifyRoutingData, FaxRouteModifyRoutingData callback funct
 ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteModifyRoutingData
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

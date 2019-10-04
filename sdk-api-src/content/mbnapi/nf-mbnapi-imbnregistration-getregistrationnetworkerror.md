@@ -12,6 +12,8 @@ ms.keywords: GetRegistrationNetworkError, GetRegistrationNetworkError method [Mi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistration.GetRegistrationNetworkError"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

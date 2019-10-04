@@ -12,6 +12,8 @@ ms.keywords: GetSubscriberPropertyCollection, GetSubscriberPropertyCollection me
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.GetSubscriberPropertyCollection"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

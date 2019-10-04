@@ -12,6 +12,8 @@ ms.keywords: IEnumRegFilters interface [DirectShow],Next method, IEnumRegFilters
 ms.topic: method
 f1_keywords: 
  - "strmif/IEnumRegFilters.Next"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

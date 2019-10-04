@@ -12,6 +12,8 @@ ms.keywords: CurrentIsOffscreen property [Windows Accessibility], CurrentIsOffsc
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CurrentIsOffscreen"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

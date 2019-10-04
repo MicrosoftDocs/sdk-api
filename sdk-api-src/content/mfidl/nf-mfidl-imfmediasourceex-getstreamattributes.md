@@ -12,6 +12,8 @@ ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSourceEx.GetStreamAttributes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAGetIndexBuffer, IAGetIndexBuffer method [Direct3D 10], IAGetIndex
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.IAGetIndexBuffer"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

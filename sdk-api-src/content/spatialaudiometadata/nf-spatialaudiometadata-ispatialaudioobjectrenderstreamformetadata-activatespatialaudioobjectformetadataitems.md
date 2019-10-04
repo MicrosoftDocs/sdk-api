@@ -12,6 +12,8 @@ ms.keywords: ActivateSpatialAudioObjectForMetadataItems, ActivateSpatialAudioObj
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

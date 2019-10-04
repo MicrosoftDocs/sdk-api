@@ -12,6 +12,8 @@ ms.keywords: 84c4c039-405e-ee3a-22d0-80eb7078ffe8, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.OMGetRenderTargetsAndUnorderedAccessViews"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

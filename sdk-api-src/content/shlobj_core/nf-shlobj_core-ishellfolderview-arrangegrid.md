@@ -12,6 +12,8 @@ ms.keywords: ArrangeGrid, ArrangeGrid method [Windows Shell], ArrangeGrid method
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.ArrangeGrid"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

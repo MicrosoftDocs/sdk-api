@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_PROVIDER_CERT, CERT_CONFIDENCE_AUTHIDEXT, CERT_CONFIDENCE_
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_CERT
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

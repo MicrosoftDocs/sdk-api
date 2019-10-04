@@ -12,6 +12,8 @@ ms.keywords: GetFriendlyName, GetFriendlyName method [Media Foundation], GetFrie
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorActivityReport.GetFriendlyName"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

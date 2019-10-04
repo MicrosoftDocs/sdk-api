@@ -12,6 +12,8 @@ ms.keywords: MI_Context_RequestUnload, MI_Context_RequestUnload function [Window
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_RequestUnload
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

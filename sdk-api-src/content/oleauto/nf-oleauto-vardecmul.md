@@ -12,6 +12,8 @@ ms.keywords: VarDecMul, VarDecMul function [Automation], _oa96_VarDecMul, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDecMul"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

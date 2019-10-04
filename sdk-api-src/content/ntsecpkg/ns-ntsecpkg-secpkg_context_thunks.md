@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_CONTEXT_THUNKS, PSECPKG_CONTEXT_THUNKS, PSECPKG_CONTEXT_T
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_CONTEXT_THUNKS"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

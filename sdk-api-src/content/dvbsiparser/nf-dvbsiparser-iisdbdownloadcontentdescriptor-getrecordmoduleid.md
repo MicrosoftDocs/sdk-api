@@ -12,6 +12,8 @@ ms.keywords: GetRecordModuleId, GetRecordModuleId method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

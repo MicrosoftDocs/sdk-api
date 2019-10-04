@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPublicConnection, IEnumNetSharingPublicConnection in
 ms.topic: interface
 f1_keywords: 
  - "netcon/IEnumNetSharingPublicConnection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

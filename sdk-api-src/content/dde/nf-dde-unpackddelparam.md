@@ -12,6 +12,8 @@ ms.keywords: UnpackDDElParam, UnpackDDElParam function [Data Exchange], _win32_U
 ms.topic: function
 f1_keywords: 
  - "dde/UnpackDDElParam"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

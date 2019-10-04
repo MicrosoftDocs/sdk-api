@@ -12,6 +12,8 @@ ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurit
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IServerSecurity.RevertToSelf"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

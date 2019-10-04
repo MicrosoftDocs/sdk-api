@@ -12,6 +12,8 @@ ms.keywords: FreeAddrInfoA, _win32_freeaddrinfo_2, freeaddrinfo, freeaddrinfo fu
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/freeaddrinfo"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

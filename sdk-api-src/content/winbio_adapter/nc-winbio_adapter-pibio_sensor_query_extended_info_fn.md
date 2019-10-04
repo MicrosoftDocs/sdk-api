@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN, PIBIO_SENSOR_QUERY_EXTENDED_IN
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterQueryExtendedInfo
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

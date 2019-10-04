@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationBackupSupport, IWsbApplicationBackupSupport interfac
 ms.topic: interface
 f1_keywords: 
  - "wsbapp/IWsbApplicationBackupSupport"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

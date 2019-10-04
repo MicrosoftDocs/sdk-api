@@ -12,6 +12,8 @@ ms.keywords: PNRP_RESOLVE_CRITERIA, PNRP_RESOLVE_CRITERIA enumeration [Peer Netw
 ms.topic: enum
 f1_keywords:
 - pnrpdef/PNRP_RESOLVE_CRITERIA
+dev_langs:
+ - c++
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "userenv/GetProfilesDirectory"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DdMoCompGetBuffInfo, DdMoCompGetBuffInfo callback function [Display
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdMoCompGetBuffInfo
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

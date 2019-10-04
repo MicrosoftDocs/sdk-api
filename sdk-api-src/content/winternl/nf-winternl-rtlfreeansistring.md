@@ -12,6 +12,8 @@ ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString function [Windows API], winpro
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlFreeAnsiString"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

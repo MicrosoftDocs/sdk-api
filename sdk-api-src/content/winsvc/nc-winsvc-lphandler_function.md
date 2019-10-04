@@ -12,6 +12,8 @@ ms.keywords: Handler, Handler callback, Handler callback function, LPHANDLER_FUN
 ms.topic: callback
 f1_keywords: 
  - "winsvc/Handler"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

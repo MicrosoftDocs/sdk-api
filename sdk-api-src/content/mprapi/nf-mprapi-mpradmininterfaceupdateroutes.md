@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes functi
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminInterfaceUpdateRoutes"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

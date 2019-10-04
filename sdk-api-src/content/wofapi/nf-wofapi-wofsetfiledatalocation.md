@@ -12,6 +12,8 @@ ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs
 ms.topic: function
 f1_keywords:
 - wofapi/WofSetFileDataLocation
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_MACHINE_CONNECT_INFO, WTSSBX_MACHINE_CONNECT_INFO structure 
 ms.topic: struct
 f1_keywords: 
  - "tssbx/WTSSBX_MACHINE_CONNECT_INFO"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

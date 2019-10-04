@@ -12,6 +12,8 @@ ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect met
 ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerControl9.GetOutputRect
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

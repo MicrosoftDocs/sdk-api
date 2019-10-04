@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],Rem
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureCollection.RemoveAt"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSManReceiveShellOutput, WSManReceiveShellOutput function [Windows 
 ms.topic: function
 f1_keywords:
 - wsman/WSManReceiveShellOutput
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

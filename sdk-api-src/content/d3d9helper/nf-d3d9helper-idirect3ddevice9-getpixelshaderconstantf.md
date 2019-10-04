@@ -12,6 +12,8 @@ ms.keywords: 816b3869-d527-0369-a25d-c8da74027dff, GetPixelShaderConstantF, GetP
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetPixelShaderConstantF"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetComment"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

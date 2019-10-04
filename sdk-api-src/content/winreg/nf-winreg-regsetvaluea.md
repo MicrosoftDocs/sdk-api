@@ -12,6 +12,8 @@ ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win
 ms.topic: function
 f1_keywords: 
  - "winreg/RegSetValue"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

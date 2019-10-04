@@ -12,6 +12,8 @@ ms.keywords: BizRuleImportedPath property [Security], BizRuleImportedPath proper
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup2.BizRuleImportedPath"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

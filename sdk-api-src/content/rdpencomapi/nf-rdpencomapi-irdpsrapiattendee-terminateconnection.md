@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendee interface [RDP],TerminateConnection method, IRDPS
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendee.TerminateConnection"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingun
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcBindingUnbind"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

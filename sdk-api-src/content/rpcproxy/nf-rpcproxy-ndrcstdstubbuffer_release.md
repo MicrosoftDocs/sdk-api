@@ -12,6 +12,8 @@ ms.keywords: NdrCStdStubBuffer_Release, NdrCStdStubBuffer_Release function [RPC]
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/NdrCStdStubBuffer_Release"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

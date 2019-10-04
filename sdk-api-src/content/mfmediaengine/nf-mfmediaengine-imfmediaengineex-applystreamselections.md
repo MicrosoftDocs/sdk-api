@@ -12,6 +12,8 @@ ms.keywords: ApplyStreamSelections, ApplyStreamSelections method [Media Foundati
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.ApplyStreamSelections"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

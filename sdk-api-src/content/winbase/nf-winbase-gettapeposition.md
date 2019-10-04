@@ -12,6 +12,8 @@ ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_P
 ms.topic: function
 f1_keywords: 
  - "winbase/GetTapePosition"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

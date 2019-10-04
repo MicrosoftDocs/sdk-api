@@ -12,6 +12,8 @@ ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertAudioEff
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.InsertAudioEffect"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

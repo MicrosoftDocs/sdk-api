@@ -12,6 +12,8 @@ ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, g
 ms.topic: function
 f1_keywords: 
  - "winuser/BeginPaint"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

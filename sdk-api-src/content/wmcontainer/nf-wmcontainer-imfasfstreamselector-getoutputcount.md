@@ -12,6 +12,8 @@ ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCoun
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.GetOutputCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

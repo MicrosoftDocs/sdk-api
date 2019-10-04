@@ -12,6 +12,8 @@ ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop S
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvider.GetFilterPluginStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

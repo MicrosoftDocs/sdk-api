@@ -12,6 +12,8 @@ ms.keywords: D2D1_POINT_2F, D2D_POINT_2F, D2D_POINT_2F structure [Direct2D], dco
 ms.topic: struct
 f1_keywords: 
  - "dcommon/D2D_POINT_2F"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTRANSPORTCLIENT_SESSION_INFO, PTRANSPORTCLIENT_SESSION_INFO, PTR
 ms.topic: struct
 f1_keywords: 
  - "wdstci/TRANSPORTCLIENT_SESSION_INFO"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

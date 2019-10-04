@@ -12,6 +12,8 @@ ms.keywords: GetRoutingMethods, GetRoutingMethods method [Fax Service], GetRouti
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.GetRoutingMethods"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

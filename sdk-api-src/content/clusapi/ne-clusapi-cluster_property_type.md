@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_TYPE_CSV_PARTITION_INFO_EX, CLUSPROP_TYPE_DISKID, CLUSPROP
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_PROPERTY_TYPE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BuiltIn property [ICS/ICF], BuiltIn property [ICS/ICF],INetFwOpenPo
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwOpenPort.BuiltIn"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

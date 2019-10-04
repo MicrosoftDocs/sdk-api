@@ -12,6 +12,8 @@ ms.keywords: SetICMProfile, SetICMProfile function [Windows Color System], SetIC
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetICMProfile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

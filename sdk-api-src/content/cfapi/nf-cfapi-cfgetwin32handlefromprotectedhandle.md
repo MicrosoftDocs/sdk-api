@@ -12,6 +12,8 @@ ms.keywords: CfGetWin32HandleFromProtectedHandle, CfGetWin32HandleFromProtectedH
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetWin32HandleFromProtectedHandle"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_Dra
 ms.topic: function
 f1_keywords: 
  - "winuser/DrawIcon"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

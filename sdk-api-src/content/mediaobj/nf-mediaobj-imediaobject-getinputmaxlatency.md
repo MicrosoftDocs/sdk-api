@@ -12,6 +12,8 @@ ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInpu
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObject.GetInputMaxLatency"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

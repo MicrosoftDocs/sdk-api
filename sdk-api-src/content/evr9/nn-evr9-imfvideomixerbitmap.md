@@ -12,6 +12,8 @@ ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideo
 ms.topic: interface
 f1_keywords: 
  - "evr9/IMFVideoMixerBitmap"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

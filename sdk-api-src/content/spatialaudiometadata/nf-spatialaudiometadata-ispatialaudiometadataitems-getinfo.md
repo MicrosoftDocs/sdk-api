@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],I
 ms.topic: method
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataItems.GetInfo"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DDENUM_ATTACHEDSECONDARYDEVICES, DDENUM_DETACHEDSECONDARYDEVICES, D
 ms.topic: function
 f1_keywords: 
  - "ddraw/DirectDrawEnumerateEx"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

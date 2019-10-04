@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AU
 ms.topic: enum
 f1_keywords:
 - http/HTTP_AUTH_STATUS
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

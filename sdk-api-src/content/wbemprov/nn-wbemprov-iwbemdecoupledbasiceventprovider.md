@@ -12,6 +12,8 @@ ms.keywords: IWbemDecoupledBasicEventProvider, IWbemDecoupledBasicEventProvider 
 ms.topic: interface
 f1_keywords: 
  - "wbemprov/IWbemDecoupledBasicEventProvider"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

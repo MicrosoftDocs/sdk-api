@@ -12,6 +12,8 @@ ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionArithmeticCompositeEffect.SetCoefficient2"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

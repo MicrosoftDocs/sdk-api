@@ -12,6 +12,8 @@ ms.keywords: EventType property [File Server Resource Manager], EventType proper
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionEventLog.EventType"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

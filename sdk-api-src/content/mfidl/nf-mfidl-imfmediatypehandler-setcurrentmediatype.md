@@ -12,6 +12,8 @@ ms.keywords: 77ff397e-4fa8-4849-98b8-6bdd035c0e89, IMFMediaTypeHandler interface
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaTypeHandler.SetCurrentMediaType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

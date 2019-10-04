@@ -12,6 +12,8 @@ ms.keywords: INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK, INTERFACE_TIMESTAMP_CON
 ms.topic: callback
 f1_keywords: 
  - "iphlpapi/INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

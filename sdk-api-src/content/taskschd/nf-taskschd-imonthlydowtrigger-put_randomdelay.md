@@ -12,6 +12,8 @@ ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RandomDelay property,
 ms.topic: method
 f1_keywords: 
  - "taskschd/IMonthlyDOWTrigger.RandomDelay"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

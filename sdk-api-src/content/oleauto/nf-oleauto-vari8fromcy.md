@@ -12,6 +12,8 @@ ms.keywords: VarI8FromCy, VarI8FromCy function [Automation], _oa96_VarI8FromCy, 
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarI8FromCy"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

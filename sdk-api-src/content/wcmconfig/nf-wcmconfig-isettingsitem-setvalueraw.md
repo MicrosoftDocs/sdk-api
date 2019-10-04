@@ -12,6 +12,8 @@ ms.keywords: ISettingsItem interface [SMI],SetValueRaw method, ISettingsItem.Set
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.SetValueRaw"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

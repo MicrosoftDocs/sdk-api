@@ -12,6 +12,8 @@ ms.keywords: GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DCubeTexture9.GetLevelDesc"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

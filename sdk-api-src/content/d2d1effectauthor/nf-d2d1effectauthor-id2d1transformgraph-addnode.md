@@ -12,6 +12,8 @@ ms.keywords: AddNode, AddNode method [Direct2D], AddNode method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1TransformGraph.AddNode"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

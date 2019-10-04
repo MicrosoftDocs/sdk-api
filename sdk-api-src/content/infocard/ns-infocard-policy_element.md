@@ -12,6 +12,8 @@ ms.keywords: "*PPOLICY_ELEMENT, POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], 
 ms.topic: struct
 f1_keywords: 
  - "infocard/POLICY_ELEMENT"
+dev_langs:
+ - c++
 req.header: infocard.h
 req.include-header: Lpmapi.h
 req.target-type: Windows

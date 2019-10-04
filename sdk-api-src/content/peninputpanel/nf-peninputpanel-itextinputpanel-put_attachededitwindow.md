@@ -12,6 +12,8 @@ ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.AttachedEditWindow"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_SYNC_OPERATION, OFFLINEFILES_SYNC_OPERATION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_SYNC_OPERATION"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

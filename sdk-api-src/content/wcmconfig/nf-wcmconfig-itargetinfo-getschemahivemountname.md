@@ -12,6 +12,8 @@ ms.keywords: GetSchemaHiveMountName, GetSchemaHiveMountName method [SMI], GetSch
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.GetSchemaHiveMountName"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMDMOperation3 interface [windows Media Device Manager],TransferOb
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation3.TransferObjectDataOnClearChannel"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

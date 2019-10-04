@@ -12,6 +12,8 @@ ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage metho
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoPresenter.ProcessMessage"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

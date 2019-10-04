@@ -12,6 +12,8 @@ ms.keywords: ID3D10Debug interface [Direct3D 10],SetSwapChain method, ID3D10Debu
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.SetSwapChain"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

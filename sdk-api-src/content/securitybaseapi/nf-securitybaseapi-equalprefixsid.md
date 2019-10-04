@@ -12,6 +12,8 @@ ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalpre
 ms.topic: function
 f1_keywords:
 - securitybaseapi/EqualPrefixSid
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

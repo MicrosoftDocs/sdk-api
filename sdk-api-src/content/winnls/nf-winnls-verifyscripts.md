@@ -12,6 +12,8 @@ ms.keywords: VS_ALLOW_LATIN, VerifyScripts, VerifyScripts function [Internationa
 ms.topic: function
 f1_keywords: 
  - "winnls/VerifyScripts"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

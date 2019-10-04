@@ -12,6 +12,8 @@ ms.keywords: '*PWTSUSERCONFIGA, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSUSERCONFIG
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

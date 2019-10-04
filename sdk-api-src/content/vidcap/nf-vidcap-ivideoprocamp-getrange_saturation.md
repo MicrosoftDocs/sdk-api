@@ -12,6 +12,8 @@ ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Saturation method, IV
 ms.topic: method
 f1_keywords: 
  - "vidcap/IVideoProcAmp.getRange_Saturation"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

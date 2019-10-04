@@ -12,6 +12,8 @@ ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITran
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionResourcePool.PutResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

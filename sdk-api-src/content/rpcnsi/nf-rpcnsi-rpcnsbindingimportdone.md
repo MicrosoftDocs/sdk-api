@@ -12,6 +12,8 @@ ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsBindingImportDone"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

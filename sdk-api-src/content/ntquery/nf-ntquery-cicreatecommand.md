@@ -12,6 +12,8 @@ ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs
 ms.topic: function
 f1_keywords: 
  - "ntquery/CICreateCommand"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

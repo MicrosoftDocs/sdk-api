@@ -12,6 +12,8 @@ ms.keywords: GetDashCap, GetDashCap method [GDI+], GetDashCap method [GDI+],Pen 
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetDashCap"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

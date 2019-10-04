@@ -12,6 +12,8 @@ ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientActions.ExecuteRemoteAction"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

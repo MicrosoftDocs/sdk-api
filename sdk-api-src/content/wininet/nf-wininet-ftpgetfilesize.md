@@ -12,6 +12,8 @@ ms.keywords: FtpGetFileSize, FtpGetFileSize function [WinINet], _inet_ftpgetfile
 ms.topic: function
 f1_keywords: 
  - "wininet/FtpGetFileSize"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

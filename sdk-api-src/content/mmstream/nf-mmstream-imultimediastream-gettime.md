@@ -12,6 +12,8 @@ ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "mmstream/IMultiMediaStream.GetTime"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

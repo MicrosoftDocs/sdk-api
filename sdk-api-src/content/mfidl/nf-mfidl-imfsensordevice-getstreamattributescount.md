@@ -12,6 +12,8 @@ ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorDevice.GetStreamAttributesCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

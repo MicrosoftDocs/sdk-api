@@ -12,6 +12,8 @@ ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IBandSite"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

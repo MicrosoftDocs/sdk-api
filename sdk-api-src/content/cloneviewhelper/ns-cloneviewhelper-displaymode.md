@@ -12,6 +12,8 @@ ms.keywords: DisplayMode, DisplayMode structure [Display Devices], TMM_Ref_37fe6
 ms.topic: struct
 f1_keywords: 
  - "cloneviewhelper/DisplayMode"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

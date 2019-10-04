@@ -12,6 +12,8 @@ ms.keywords: '*PDOT11_NETWORK, DOT11_NETWORK, DOT11_NETWORK structure [NativeWIF
 ms.topic: struct
 f1_keywords:
 - wlanapi/DOT11_NETWORK
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

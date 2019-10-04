@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Doc
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPartUriCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

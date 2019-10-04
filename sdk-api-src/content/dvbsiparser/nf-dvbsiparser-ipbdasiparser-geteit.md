@@ -12,6 +12,8 @@ ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IPBDASiParser.GetEIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMPlaneDotCoord, XMPlaneDotCoord, XMPlaneDotCoord meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMPlaneDotCoord"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0571f2fa-1f94-b9a4-ea30-5f99a077c507, D3D11_RENDER_TARGET_VIEW_DESC
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_RENDER_TARGET_VIEW_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

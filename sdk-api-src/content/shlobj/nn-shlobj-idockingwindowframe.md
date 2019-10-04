@@ -12,6 +12,8 @@ ms.keywords: IDockingWindowFrame, IDockingWindowFrame interface [Windows Shell],
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IDockingWindowFrame"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

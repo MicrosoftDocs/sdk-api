@@ -12,6 +12,8 @@ ms.keywords: ITextHost interface [Windows Controls],TxSetTimer method, ITextHost
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxSetTimer"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

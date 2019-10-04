@@ -12,6 +12,8 @@ ms.keywords: PSS_CAPTURE_FLAGS, PSS_CAPTURE_FLAGS enumeration, PSS_CAPTURE_HANDL
 ms.topic: enum
 f1_keywords:
 - processsnapshot/PSS_CAPTURE_FLAGS
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

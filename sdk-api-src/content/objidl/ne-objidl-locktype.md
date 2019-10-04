@@ -12,6 +12,8 @@ ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE
 ms.topic: enum
 f1_keywords: 
  - "objidl/LOCKTYPE"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Retrie
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportContent.RetrieveSessions"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

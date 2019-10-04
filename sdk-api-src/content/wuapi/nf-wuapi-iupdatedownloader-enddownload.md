@@ -12,6 +12,8 @@ ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateDownloader.EndDownload"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

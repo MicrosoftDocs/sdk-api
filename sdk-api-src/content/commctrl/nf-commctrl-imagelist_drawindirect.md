@@ -12,6 +12,8 @@ ms.keywords: ImageList_DrawIndirect, ImageList_DrawIndirect function [Windows Co
 ms.topic: function
 f1_keywords:
 - commctrl/ImageList_DrawIndirect
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

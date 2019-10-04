@@ -12,6 +12,8 @@ ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedPr
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkExtendedProperty.Guid"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

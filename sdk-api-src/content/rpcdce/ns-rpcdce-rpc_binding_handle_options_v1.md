@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_BINDING_HANDLE_OPTIONS_V1, RPC_BHO_DONTLINGER, RPC_BHO_NONCA
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_BINDING_HANDLE_OPTIONS_V1"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d11shadertracing/ID3D11ShaderTrace"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

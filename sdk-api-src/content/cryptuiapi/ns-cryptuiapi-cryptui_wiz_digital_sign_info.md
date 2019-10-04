@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_C
 ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

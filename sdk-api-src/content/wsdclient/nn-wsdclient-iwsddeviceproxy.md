@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceProxy, IWSDDeviceProxy interface, IWSDDeviceProxy interfa
 ms.topic: interface
 f1_keywords:
 - wsdclient/IWSDDeviceProxy
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

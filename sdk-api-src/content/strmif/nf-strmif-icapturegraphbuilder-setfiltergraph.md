@@ -12,6 +12,8 @@ ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetFiltergraph method, 
 ms.topic: method
 f1_keywords: 
  - "strmif/ICaptureGraphBuilder.SetFiltergraph"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSET_RESOURCE_STATUS_ROUTINE_EX, PSET_RESOURCE_STATUS_ROUTINE_EX ca
 ms.topic: callback
 f1_keywords:
 - resapi/SetResourceStatusEx
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

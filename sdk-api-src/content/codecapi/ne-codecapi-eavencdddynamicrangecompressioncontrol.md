@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncDDDynamicRangeCompressionControl, codecapi/eAVEncDDD
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncDDDynamicRangeCompressionControl"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

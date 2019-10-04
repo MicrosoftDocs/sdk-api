@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaCo
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent.get_Title"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

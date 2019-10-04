@@ -12,6 +12,8 @@ ms.keywords: CSSetShaderResources, CSSetShaderResources method [Direct3D 11], CS
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSSetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSurfaceFromDC, GetSurfaceFromDC method [DirectDraw], GetSurfaceF
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.GetSurfaceFromDC"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

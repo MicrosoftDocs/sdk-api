@@ -12,6 +12,8 @@ ms.keywords: IInkCollector interface [Tablet PC],MarginX property, IInkCollector
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCollector.MarginX"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

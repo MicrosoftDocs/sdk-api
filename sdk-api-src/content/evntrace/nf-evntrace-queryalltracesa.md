@@ -12,6 +12,8 @@ ms.keywords: QueryAllTraces, QueryAllTraces function [ETW], QueryAllTracesA, Que
 ms.topic: function
 f1_keywords: 
  - "evntrace/QueryAllTraces"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

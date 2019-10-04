@@ -12,6 +12,8 @@ ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],I
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyFile.GetProgress
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

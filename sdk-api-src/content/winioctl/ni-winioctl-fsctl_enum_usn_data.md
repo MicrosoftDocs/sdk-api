@@ -12,6 +12,8 @@ ms.keywords: FSCTL_ENUM_USN_DATA, FSCTL_ENUM_USN_DATA control, FSCTL_ENUM_USN_DA
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_ENUM_USN_DATA
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

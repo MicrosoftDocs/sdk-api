@@ -12,6 +12,8 @@ ms.keywords: "*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLE
 ms.topic: struct
 f1_keywords: 
  - "vfw/AVICOMPRESSOPTIONS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

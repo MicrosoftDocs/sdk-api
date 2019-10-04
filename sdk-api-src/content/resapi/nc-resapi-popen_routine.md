@@ -12,6 +12,8 @@ ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POP
 ms.topic: callback
 f1_keywords: 
  - "resapi/Open"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

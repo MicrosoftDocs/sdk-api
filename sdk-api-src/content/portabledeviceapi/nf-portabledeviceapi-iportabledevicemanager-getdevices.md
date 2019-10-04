@@ -12,6 +12,8 @@ ms.keywords: GetDevices, GetDevices method [Windows Portable Devices SDK], GetDe
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager.GetDevices"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

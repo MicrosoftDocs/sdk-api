@@ -12,6 +12,8 @@ ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelV
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFAudioStreamVolume.GetChannelVolume"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

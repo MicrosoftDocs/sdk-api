@@ -12,6 +12,8 @@ ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], mscat/CRYPTCAT
 ms.topic: struct
 f1_keywords: 
  - "mscat/CRYPTCATMEMBER"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

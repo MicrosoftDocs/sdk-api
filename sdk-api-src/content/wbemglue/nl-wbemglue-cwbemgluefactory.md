@@ -12,6 +12,8 @@ ms.keywords: "??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGl
 ms.topic: class
 f1_keywords: 
  - "wbemglue/CWbemGlueFactory"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

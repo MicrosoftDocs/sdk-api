@@ -12,6 +12,8 @@ ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Tran
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Translate"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionS
 ms.topic: method
 f1_keywords: 
  - "mmstream/IStreamSample.CompletionStatus"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

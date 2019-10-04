@@ -12,6 +12,8 @@ ms.keywords: PNRP_CLOUD_FLAGS, PNRP_CLOUD_FLAGS enumeration [Peer Networking], P
 ms.topic: enum
 f1_keywords:
 - pnrpdef/PNRP_CLOUD_FLAGS
+dev_langs:
+ - c++
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows

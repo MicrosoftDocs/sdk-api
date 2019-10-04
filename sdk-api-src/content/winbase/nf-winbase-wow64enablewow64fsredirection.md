@@ -12,6 +12,8 @@ ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection functi
 ms.topic: function
 f1_keywords: 
  - "winbase/Wow64EnableWow64FsRedirection"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

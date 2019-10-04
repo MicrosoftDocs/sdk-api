@@ -12,6 +12,8 @@ ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpc
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncCompleteCall
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

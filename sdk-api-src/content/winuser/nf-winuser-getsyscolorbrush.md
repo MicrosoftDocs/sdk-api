@@ -12,6 +12,8 @@ ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_G
 ms.topic: function
 f1_keywords: 
  - "winuser/GetSysColorBrush"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

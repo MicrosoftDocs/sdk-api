@@ -12,6 +12,8 @@ ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspe
 ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig.GetAspectRatioMode
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

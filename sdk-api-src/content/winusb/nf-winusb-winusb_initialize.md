@@ -12,6 +12,8 @@ ms.keywords: WinUsb_Initialize, WinUsb_Initialize function [Buses], buses.winusb
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_Initialize"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

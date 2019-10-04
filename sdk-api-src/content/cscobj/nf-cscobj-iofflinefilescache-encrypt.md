@@ -12,6 +12,8 @@ ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Fi
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.Encrypt"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent met
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.AddContent"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

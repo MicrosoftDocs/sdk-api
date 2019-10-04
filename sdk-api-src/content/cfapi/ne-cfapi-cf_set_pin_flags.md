@@ -12,6 +12,8 @@ ms.keywords: CF_SET_PIN_FLAGS, CF_SET_PIN_FLAGS enumeration, CF_SET_PIN_FLAG_NON
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_SET_PIN_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

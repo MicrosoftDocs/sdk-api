@@ -12,6 +12,8 @@ ms.keywords: G$, L$, LsaRetrievePrivateData, LsaRetrievePrivateData function [Se
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaRetrievePrivateData
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAP_INTERACTIVE_UI_DATA, EAP_INTERACTIVE_UI_DATA structure [EAPHost
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_INTERACTIVE_UI_DATA
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

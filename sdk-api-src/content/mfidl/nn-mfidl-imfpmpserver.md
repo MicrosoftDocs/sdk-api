@@ -12,6 +12,8 @@ ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServ
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFPMPServer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

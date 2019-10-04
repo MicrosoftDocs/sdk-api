@@ -12,6 +12,8 @@ ms.keywords: Sources, Sources structure [Display Devices], TMM_Ref_e15dfa1e-b8f8
 ms.topic: struct
 f1_keywords: 
  - "cloneviewhelper/Sources"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

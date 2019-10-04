@@ -12,6 +12,8 @@ ms.keywords: SelAlignmentConstants, SelAlignmentConstants enumeration [Tablet PC
 ms.topic: enum
 f1_keywords: 
  - "inked/SelAlignmentConstants"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

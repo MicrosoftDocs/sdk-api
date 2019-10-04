@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_RA_KEEPOTHER, SYNCMGR_RA_KEEPRECENT, SYNCMGR_RA_KEEP_MULTIP
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_RESOLUTION_ABILITIES"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

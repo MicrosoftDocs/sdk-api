@@ -12,6 +12,8 @@ ms.keywords: PDXVAHDSW_GetVideoProcessBltStatePrivate, PDXVAHDSW_GetVideoProcess
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

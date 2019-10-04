@@ -12,6 +12,8 @@ ms.keywords: AddRefFromTrackerSource, AddRefFromTrackerSource method [Windows Ru
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.AddRefFromTrackerSource"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

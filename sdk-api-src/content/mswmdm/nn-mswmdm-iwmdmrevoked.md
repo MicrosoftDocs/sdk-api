@@ -12,6 +12,8 @@ ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager]
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMRevoked"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

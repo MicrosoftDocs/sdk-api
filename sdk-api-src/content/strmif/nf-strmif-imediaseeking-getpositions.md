@@ -12,6 +12,8 @@ ms.keywords: GetPositions, GetPositions method [DirectShow], GetPositions method
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetPositions"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

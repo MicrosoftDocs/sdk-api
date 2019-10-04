@@ -12,6 +12,8 @@ ms.keywords: FreezeEvents, FreezeEvents method [COM], FreezeEvents method [COM],
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleControl.FreezeEvents"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

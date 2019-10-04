@@ -12,6 +12,8 @@ ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextNotify.Error"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkExtendedProperties.Add"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6, IMFASFStreamConfig interface 
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamConfig.SetMediaType"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

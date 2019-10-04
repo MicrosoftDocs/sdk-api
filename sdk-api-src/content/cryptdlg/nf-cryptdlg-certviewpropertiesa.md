@@ -12,6 +12,8 @@ ms.keywords: CertViewProperties, CertViewProperties function [Security], CertVie
 ms.topic: function
 f1_keywords: 
  - "cryptdlg/CertViewProperties"
+dev_langs:
+ - c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

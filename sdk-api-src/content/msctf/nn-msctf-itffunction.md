@@ -12,6 +12,8 @@ ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFu
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfFunction"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CachedZoomMinimum property [Windows Accessibility], CachedZoomMinim
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMinimum"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

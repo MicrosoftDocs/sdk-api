@@ -12,6 +12,8 @@ ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsda
 ms.topic: function
 f1_keywords: 
  - "wsdutil/WSDAllocateLinkedMemory"
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

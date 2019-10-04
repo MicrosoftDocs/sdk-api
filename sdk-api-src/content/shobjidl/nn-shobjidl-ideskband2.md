@@ -12,6 +12,8 @@ ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], IDeskBand2 interf
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IDeskBand2"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

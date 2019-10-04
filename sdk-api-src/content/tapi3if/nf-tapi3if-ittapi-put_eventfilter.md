@@ -12,6 +12,8 @@ ms.keywords: ITTAPI interface [TAPI 2.2],put_EventFilter method, ITTAPI.put_Even
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITTAPI.put_EventFilter"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

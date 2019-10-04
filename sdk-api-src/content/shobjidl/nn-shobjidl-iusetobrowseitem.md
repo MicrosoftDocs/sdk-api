@@ -12,6 +12,8 @@ ms.keywords: IUseToBrowseItem, IUseToBrowseItem interface [Windows Shell], IUseT
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IUseToBrowseItem"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

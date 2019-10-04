@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetRemapTable method, ImageAttributes.
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetRemapTable"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

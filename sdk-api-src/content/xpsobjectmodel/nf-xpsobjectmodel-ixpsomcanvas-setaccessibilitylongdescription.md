@@ -12,6 +12,8 @@ ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibili
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCanvas.SetAccessibilityLongDescription"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

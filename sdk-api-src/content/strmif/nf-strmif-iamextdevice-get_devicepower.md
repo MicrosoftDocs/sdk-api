@@ -12,6 +12,8 @@ ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePower method, IAMExtD
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMExtDevice.get_DevicePower"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

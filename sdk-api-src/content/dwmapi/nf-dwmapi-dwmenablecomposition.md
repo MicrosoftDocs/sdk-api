@@ -12,6 +12,8 @@ ms.keywords: DwmEnableComposition, DwmEnableComposition function [Desktop Window
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmEnableComposition"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

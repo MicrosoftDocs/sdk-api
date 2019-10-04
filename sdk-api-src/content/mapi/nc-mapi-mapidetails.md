@@ -12,6 +12,8 @@ ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, M
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIDetails"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

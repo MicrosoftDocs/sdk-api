@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeBitString object [Security],GetBitCount method, GetBitCo
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeBitString.GetBitCount"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

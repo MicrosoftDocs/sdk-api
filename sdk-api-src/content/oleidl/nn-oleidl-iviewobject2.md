@@ -12,6 +12,8 @@ ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface 
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IViewObject2"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

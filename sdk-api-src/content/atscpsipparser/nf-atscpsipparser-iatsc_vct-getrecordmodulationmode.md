@@ -12,6 +12,8 @@ ms.keywords: GetRecordModulationMode, GetRecordModulationMode method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordModulationMode"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTextAntialiasMode, GetTextAntialiasMode method [Direct Write], G
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteBitmapRenderTarget1.GetTextAntialiasMode"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

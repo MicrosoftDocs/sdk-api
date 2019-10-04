@@ -12,6 +12,8 @@ ms.keywords: 0e750bd6-0b57-499e-9691-966fb027cdb5, ICBS_CursorUnavailable, ICBS_
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkCursorButtonState"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

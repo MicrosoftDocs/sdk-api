@@ -12,6 +12,8 @@ ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, Cre
 ms.topic: function
 f1_keywords: 
  - "mfidl/CreateNamedPropertyStore"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

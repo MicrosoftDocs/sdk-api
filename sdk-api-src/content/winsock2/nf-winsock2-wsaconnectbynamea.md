@@ -12,6 +12,8 @@ ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectBy
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSAConnectByName"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

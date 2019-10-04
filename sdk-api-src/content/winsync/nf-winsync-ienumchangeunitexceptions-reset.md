@@ -12,6 +12,8 @@ ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IE
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumChangeUnitExceptions.Reset"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

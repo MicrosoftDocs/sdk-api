@@ -12,6 +12,8 @@ ms.keywords: ID2D1ImageSourceFromWic, ID2D1ImageSourceFromWic interface [Direct2
 ms.topic: interface
 f1_keywords: 
  - "d2d1_3/ID2D1ImageSourceFromWic"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

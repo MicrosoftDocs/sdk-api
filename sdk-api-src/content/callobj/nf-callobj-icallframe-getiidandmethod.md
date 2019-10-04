@@ -12,6 +12,8 @@ ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod meth
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetIIDAndMethod"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

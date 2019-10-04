@@ -6,6 +6,10 @@ tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_VIDEO
 ms.topic: language-reference
+f1_keywords:
+ - D3D11_FEATURE_VIDEO
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

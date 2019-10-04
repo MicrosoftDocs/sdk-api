@@ -12,6 +12,8 @@ ms.keywords: AzTask object [Security],IsRoleDefinition property, IAzTask interfa
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.IsRoleDefinition"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

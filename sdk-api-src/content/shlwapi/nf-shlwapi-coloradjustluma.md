@@ -12,6 +12,8 @@ ms.keywords: ColorAdjustLuma, ColorAdjustLuma function [Windows Shell], _win32_C
 ms.topic: function
 f1_keywords: 
  - "shlwapi/ColorAdjustLuma"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

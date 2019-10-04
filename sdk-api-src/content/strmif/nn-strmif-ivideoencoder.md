@@ -12,6 +12,8 @@ ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder 
 ms.topic: interface
 f1_keywords: 
  - "strmif/IVideoEncoder"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY, PFN_CMSG_CNG_IMPORT_CONTEN
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

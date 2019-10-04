@@ -12,6 +12,8 @@ ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback
 ms.topic: callback
 f1_keywords: 
  - "routprot/PGET_INTERFACE_INFO"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Effect, Effect class [GDI+], Effect class [GDI+],described, _gdiplu
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/Effect"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PAS
 ms.topic: struct
 f1_keywords: 
  - "ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION"
+dev_langs:
+ - c++
 req.header: ehstorextensions.h
 req.include-header: 
 req.target-type: Windows

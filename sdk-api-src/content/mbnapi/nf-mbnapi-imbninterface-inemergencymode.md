@@ -12,6 +12,8 @@ ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyM
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterface.InEmergencyMode"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurati
 ms.topic: interface
 f1_keywords: 
  - "radialcontrollerinterop/IRadialControllerConfigurationInterop"
+dev_langs:
+ - c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows

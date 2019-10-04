@@ -12,6 +12,8 @@ ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComp
 ms.topic: callback
 f1_keywords:
 - routprot/StartComplete
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFace interface [Direct Write],TryGetFontTable method, ID
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFace.TryGetFontTable"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

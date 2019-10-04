@@ -12,6 +12,8 @@ ms.keywords: CheckPermission, CheckPermission method [Windows Update Agent], Che
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings2.CheckPermission"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

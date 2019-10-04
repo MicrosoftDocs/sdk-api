@@ -12,6 +12,8 @@ ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSessi
 ms.topic: method
 f1_keywords: 
  - "tapi3/IEnumAgentSession.Next"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

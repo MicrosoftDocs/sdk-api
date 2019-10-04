@@ -12,6 +12,8 @@ ms.keywords: IInkRectangle interface [Tablet PC],Right property, IInkRectangle.R
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRectangle.Right"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

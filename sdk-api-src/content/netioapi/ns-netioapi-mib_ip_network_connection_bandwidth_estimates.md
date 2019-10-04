@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CO
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ConnectNode, ConnectNode method [Direct2D], ConnectNode method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1TransformGraph.ConnectNode"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMCGRIDINFO, MCGIF_DATE, MCGIF_NAME, MCGIF_RECT, MCGIP_CALENDAR, 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/MCGRIDINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

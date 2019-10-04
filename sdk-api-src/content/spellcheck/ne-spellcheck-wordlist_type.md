@@ -12,6 +12,8 @@ ms.keywords: WORDLIST_TYPE, WORDLIST_TYPE enumeration [Internationalization for 
 ms.topic: enum
 f1_keywords: 
  - "spellcheck/WORDLIST_TYPE"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

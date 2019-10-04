@@ -12,6 +12,8 @@ ms.keywords: DeleteObject, DeleteObject method [Windows Controls], DeleteObject 
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOleCallback.DeleteObject"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

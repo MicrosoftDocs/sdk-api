@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],Up
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContextImpl.UpdateTransform"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

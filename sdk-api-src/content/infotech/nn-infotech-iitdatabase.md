@@ -12,6 +12,8 @@ ms.keywords: IITDatabase, IITDatabase interface [HTML Help Workshop], IITDatabas
 ms.topic: interface
 f1_keywords: 
  - "infotech/IITDatabase"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

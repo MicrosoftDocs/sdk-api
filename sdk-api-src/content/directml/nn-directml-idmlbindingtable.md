@@ -12,6 +12,8 @@ ms.keywords: IDMLBindingTable, IDMLBindingTable interface, IDMLBindingTable inte
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLBindingTable"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

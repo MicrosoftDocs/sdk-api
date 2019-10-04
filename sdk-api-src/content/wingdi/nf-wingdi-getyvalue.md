@@ -12,6 +12,8 @@ ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue
 ms.topic: macro
 f1_keywords: 
  - "wingdi/GetYValue"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

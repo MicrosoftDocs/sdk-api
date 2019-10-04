@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_CF_NONE, SYNCMGR_CF_NOUI, SYNCMGR_CF_NOWAIT, SYNCMGR_CF_VAL
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_CONTROL_FLAGS"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

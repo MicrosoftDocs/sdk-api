@@ -12,6 +12,8 @@ ms.keywords: CloseAndResetLogFile, CloseAndResetLogFile function [Files], clfsw3
 ms.topic: function
 f1_keywords: 
  - "clfsw32/CloseAndResetLogFile"
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_COLOR_RGBA, DXVAHD_COLOR_RGBA structure [Media Foundation], 
 ms.topic: struct
 f1_keywords: 
  - "dxvahd/DXVAHD_COLOR_RGBA"
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

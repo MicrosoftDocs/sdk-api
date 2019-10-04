@@ -12,6 +12,8 @@ ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winso
 ms.topic: function
 f1_keywords: 
  - "winsock2/inet_addr"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

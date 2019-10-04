@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_UPDATE_PROPERTIES, IOCTL_DISK_UPDATE_PROPERTIES control,
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_DISK_UPDATE_PROPERTIES"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

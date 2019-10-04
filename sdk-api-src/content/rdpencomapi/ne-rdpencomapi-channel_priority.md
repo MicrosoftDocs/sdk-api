@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_PRIORITY, CHANNEL_PRIORITY enumeration [RDP], CHANNEL_PRIOR
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/CHANNEL_PRIORITY"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

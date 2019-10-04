@@ -12,6 +12,8 @@ ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-b
 ms.topic: function
 f1_keywords: 
  - "winsxs/CreateAssemblyNameObject"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

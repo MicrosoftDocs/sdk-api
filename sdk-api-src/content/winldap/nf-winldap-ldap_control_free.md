@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_control_free, ldap.ldap__control__free, ldap.ldap_contr
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_control_free"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

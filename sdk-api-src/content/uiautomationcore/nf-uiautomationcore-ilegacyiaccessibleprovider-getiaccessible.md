@@ -12,6 +12,8 @@ ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetI
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.GetIAccessible"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

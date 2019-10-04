@@ -12,6 +12,8 @@ ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, Lo
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/LoadEnclaveImage"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

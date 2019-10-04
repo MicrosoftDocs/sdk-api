@@ -12,6 +12,8 @@ ms.keywords: IFaxTiff interface [Fax Service],Routing property, IFaxTiff.Routing
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxTiff.Routing"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

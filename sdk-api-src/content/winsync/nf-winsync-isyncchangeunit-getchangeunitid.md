@@ -12,6 +12,8 @@ ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUn
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeUnit.GetChangeUnitId"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

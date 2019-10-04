@@ -12,6 +12,8 @@ ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],des
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IEntity"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

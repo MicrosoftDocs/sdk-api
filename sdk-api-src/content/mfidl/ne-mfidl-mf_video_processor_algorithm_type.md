@@ -12,6 +12,8 @@ ms.keywords: MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, MF_VIDEO_PROCESSOR_ALGORITHM_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

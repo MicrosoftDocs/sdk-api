@@ -12,6 +12,8 @@ ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface 
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfInputProcessorProfileMgr"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

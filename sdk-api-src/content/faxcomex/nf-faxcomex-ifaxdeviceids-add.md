@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxDeviceI
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceIds.Add"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO st
 ms.topic: struct
 f1_keywords:
 - dxmini/DDFLIPVIDEOPORTINFO
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

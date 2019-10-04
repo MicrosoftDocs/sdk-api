@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetai
 ms.topic: function
 f1_keywords: 
  - "msacm/acmFormatTagDetails"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleControlSite, IOleControlSite interface [COM], IOleControlSite i
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleControlSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 24e74739-054c-46ef-8df7-b29a9a2ea94a, MFINPUTTRUSTAUTHORITY_ACCESS_
 ms.topic: struct
 f1_keywords:
 - mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

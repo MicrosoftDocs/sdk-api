@@ -12,6 +12,8 @@ ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVi
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidRect"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

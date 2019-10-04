@@ -12,6 +12,8 @@ ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 11], GetPrivateData
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.GetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

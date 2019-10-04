@@ -12,6 +12,8 @@ ms.keywords: SHRestricted, SHRestricted function [Windows Shell], _win32_SHRestr
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHRestricted"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

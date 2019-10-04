@@ -12,6 +12,8 @@ ms.keywords: '*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_
 ms.topic: struct
 f1_keywords:
 - clfs/CLFS_ARCHIVE_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

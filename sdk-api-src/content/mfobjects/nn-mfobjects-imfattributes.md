@@ -12,6 +12,8 @@ ms.keywords: IMFAttributes, IMFAttributes interface [Media Foundation], IMFAttri
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFAttributes"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

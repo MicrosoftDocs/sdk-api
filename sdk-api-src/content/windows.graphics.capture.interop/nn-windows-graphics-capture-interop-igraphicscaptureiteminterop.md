@@ -5,6 +5,10 @@ description: Desktop interop interface for the [GraphicsCaptureItem](https://doc
 ms.date: 6/24/2019
 ms.keywords: interop::IGraphicsCaptureItemInterop
 ms.topic: language-reference
+f1_keywords:
+ - interop::IGraphicsCaptureItemInterop
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

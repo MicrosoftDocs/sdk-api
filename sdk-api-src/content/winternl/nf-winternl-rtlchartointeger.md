@@ -12,6 +12,8 @@ ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlCharToInteger"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

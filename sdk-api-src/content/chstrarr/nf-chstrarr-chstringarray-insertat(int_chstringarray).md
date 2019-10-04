@@ -12,6 +12,8 @@ ms.keywords: CHStringArray.InsertAt, CHStringArray.InsertAt(int,CHStringArray), 
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.InsertAt(int, CHStringArray*)"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumServicesStatusEx, EnumServicesStatusEx function, EnumServicesSt
 ms.topic: function
 f1_keywords:
 - winsvc/EnumServicesStatusEx
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

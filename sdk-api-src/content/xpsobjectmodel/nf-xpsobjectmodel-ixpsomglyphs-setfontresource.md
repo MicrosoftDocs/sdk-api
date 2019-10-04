@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontResourc
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.SetFontResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

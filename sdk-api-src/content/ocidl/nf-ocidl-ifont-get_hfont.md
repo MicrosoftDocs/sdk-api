@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],get_hFont method, IFont.get_hFont, IFont::get
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.get_hFont"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

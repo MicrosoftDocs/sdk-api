@@ -12,6 +12,8 @@ ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet func
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Application_NewParameterSet"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Wi
 ms.topic: interface
 f1_keywords: 
  - "msime/IFEDictionary"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

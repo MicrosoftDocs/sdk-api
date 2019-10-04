@@ -12,6 +12,8 @@ ms.keywords: "*PRID_DEVICE_INFO_KEYBOARD, PRID_DEVICE_INFO_KEYBOARD, PRID_DEVICE
 ms.topic: struct
 f1_keywords: 
  - "winuser/RID_DEVICE_INFO_KEYBOARD"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

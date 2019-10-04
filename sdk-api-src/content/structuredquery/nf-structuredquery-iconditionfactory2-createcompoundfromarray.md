@@ -12,6 +12,8 @@ ms.keywords: CreateCompoundFromArray, CreateCompoundFromArray method [search], C
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory2.CreateCompoundFromArray"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

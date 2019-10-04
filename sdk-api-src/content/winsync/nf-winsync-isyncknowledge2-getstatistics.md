@@ -12,6 +12,8 @@ ms.keywords: GetStatistics, GetStatistics method [Windows Sync], GetStatistics m
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge2.GetStatistics"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Certificate property [Security], Certificate property [Security],IS
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.Certificate"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

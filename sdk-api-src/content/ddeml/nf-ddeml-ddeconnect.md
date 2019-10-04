@@ -12,6 +12,8 @@ ms.keywords: DdeConnect, DdeConnect function [Data Exchange], _win32_DdeConnect,
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeConnect"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

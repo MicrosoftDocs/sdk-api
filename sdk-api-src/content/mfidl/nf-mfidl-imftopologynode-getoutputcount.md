@@ -12,6 +12,8 @@ ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutput
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetOutputCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

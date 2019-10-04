@@ -12,6 +12,8 @@ ms.keywords: AddTable, AddTable method [Microsoft TV Technologies], AddTable met
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/IMpeg2TableFilter.AddTable"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

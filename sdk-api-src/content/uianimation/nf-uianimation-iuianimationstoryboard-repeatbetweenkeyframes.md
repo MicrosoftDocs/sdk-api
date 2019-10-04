@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationStoryboard interface [Windows Animation],RepeatBetweenK
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationStoryboard.RepeatBetweenKeyframes"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

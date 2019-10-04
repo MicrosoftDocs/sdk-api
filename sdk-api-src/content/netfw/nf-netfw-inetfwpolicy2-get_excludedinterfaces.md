@@ -12,6 +12,8 @@ ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property 
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy2.ExcludedInterfaces"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

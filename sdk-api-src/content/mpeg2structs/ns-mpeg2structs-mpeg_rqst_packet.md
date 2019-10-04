@@ -12,6 +12,8 @@ ms.keywords: "*PMPEG_RQST_PACKET, MPEG_RQST_PACKET, MPEG_RQST_PACKET structure [
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_RQST_PACKET"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

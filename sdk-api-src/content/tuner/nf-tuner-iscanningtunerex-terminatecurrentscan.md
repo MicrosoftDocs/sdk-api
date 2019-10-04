@@ -12,6 +12,8 @@ ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],TerminateCur
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTunerEx.TerminateCurrentScan"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

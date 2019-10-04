@@ -12,6 +12,8 @@ ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControls
 ms.topic: interface
 f1_keywords: 
  - "systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"
+dev_langs:
+ - c++
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows

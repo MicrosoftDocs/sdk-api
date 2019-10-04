@@ -12,6 +12,8 @@ ms.keywords: CM_Set_Class_Property_ExW, CM_Set_Class_Property_ExW function [Devi
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Set_Class_Property_ExW
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

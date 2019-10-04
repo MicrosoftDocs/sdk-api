@@ -12,6 +12,8 @@ ms.keywords: GetElement, GetElement method [ADSI], GetElement method [ADSI],IADs
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.GetElement"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

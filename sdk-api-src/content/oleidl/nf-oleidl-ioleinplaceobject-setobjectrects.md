@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceObject interface [COM],SetObjectRects method, IOleInPlac
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceObject.SetObjectRects"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

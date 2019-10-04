@@ -12,6 +12,8 @@ ms.keywords: CheckSumMappedFile, CheckSumMappedFile function, _win32_checksummap
 ms.topic: function
 f1_keywords: 
  - "imagehlp/CheckSumMappedFile"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

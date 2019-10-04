@@ -12,6 +12,8 @@ ms.keywords: "??0WBEMTime@@QAE@ABUtm@@@Z, WBEMTime, WBEMTime constructor [Window
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.WBEMTime"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

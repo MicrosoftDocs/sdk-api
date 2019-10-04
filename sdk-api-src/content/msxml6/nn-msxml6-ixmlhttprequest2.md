@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], IXM
 ms.topic: interface
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest2"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

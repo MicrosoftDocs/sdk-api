@@ -12,6 +12,8 @@ ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.GetFontFaceIndex"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

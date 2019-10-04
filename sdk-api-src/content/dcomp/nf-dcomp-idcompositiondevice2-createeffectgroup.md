@@ -12,6 +12,8 @@ ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], Cr
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateEffectGroup"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

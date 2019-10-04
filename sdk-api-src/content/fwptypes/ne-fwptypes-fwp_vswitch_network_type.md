@@ -12,6 +12,8 @@ ms.keywords: FWP_VSWITCH_NETWORK_TYPE, FWP_VSWITCH_NETWORK_TYPE enumeration [Fil
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_VSWITCH_NETWORK_TYPE"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

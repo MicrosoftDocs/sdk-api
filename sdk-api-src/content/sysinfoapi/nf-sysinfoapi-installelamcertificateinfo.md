@@ -12,6 +12,8 @@ ms.keywords: InstallELAMCertificateInfo, InstallELAMCertificateInfo function, ba
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/InstallELAMCertificateInfo"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

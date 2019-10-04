@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrm
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ICrmMonitorLogRecords"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMEST
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_TIMESTAMP_RESPONSE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

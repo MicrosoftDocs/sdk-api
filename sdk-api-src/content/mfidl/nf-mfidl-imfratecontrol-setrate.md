@@ -12,6 +12,8 @@ ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Med
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRateControl.SetRate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

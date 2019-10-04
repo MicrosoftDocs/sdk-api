@@ -12,6 +12,8 @@ ms.keywords: RangeValuePattern_SetValue, RangeValuePattern_SetValue function [Wi
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/RangeValuePattern_SetValue"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

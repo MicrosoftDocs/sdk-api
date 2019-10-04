@@ -12,6 +12,8 @@ ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing met
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingConfiguration.DisableSharing"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

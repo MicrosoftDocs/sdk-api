@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],freeRequestInfo method, ICEnroll interfac
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.freeRequestInfo"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

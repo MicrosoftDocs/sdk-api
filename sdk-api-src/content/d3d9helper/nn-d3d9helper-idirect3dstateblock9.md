@@ -12,6 +12,8 @@ ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect
 ms.topic: interface
 f1_keywords: 
  - "d3d9helper/IDirect3DStateBlock9"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

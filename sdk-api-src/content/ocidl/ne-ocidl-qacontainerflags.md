@@ -12,6 +12,8 @@ ms.keywords: QACONTAINERFLAGS, QACONTAINERFLAGS enumeration [COM], QACONTAINER_A
 ms.topic: enum
 f1_keywords: 
  - "ocidl/QACONTAINERFLAGS"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

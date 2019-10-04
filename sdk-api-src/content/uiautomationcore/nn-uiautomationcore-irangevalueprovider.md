@@ -12,6 +12,8 @@ ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessi
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IRangeValueProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

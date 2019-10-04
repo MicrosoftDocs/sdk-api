@@ -12,6 +12,8 @@ ms.keywords: Sharpen, Sharpen class [GDI+],Sharpen constructor, Sharpen construc
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Sharpen.Sharpen"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

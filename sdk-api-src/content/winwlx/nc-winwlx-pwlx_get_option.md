@@ -12,6 +12,8 @@ ms.keywords: PWLX_GET_OPTION, PWLX_GET_OPTION callback, WlxGetOption, WlxGetOpti
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxGetOption
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

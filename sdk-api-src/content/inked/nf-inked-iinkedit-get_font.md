@@ -12,6 +12,8 @@ ms.keywords: Font property [Tablet PC], Font property [Tablet PC],IInkEdit inter
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Font"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

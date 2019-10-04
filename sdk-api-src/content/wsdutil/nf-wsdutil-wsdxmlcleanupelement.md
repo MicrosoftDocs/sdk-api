@@ -12,6 +12,8 @@ ms.keywords: WSDXMLCleanupElement, WSDXMLCleanupElement function, ncd.wsdxmlclea
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDXMLCleanupElement
+dev_langs:
+ - c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

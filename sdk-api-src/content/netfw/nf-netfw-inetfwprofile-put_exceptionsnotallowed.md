@@ -12,6 +12,8 @@ ms.keywords: ExceptionsNotAllowed property [ICS/ICF], ExceptionsNotAllowed prope
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwProfile.ExceptionsNotAllowed"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

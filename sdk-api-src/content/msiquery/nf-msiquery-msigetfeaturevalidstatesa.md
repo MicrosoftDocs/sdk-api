@@ -12,6 +12,8 @@ ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetFeatureValidStates"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

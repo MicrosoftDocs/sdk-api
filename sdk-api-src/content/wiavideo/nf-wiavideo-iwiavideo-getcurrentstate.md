@@ -12,6 +12,8 @@ ms.keywords: GetCurrentState, GetCurrentState method [WIA], GetCurrentState meth
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.GetCurrentState"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Ba
 ms.topic: struct
 f1_keywords:
 - wsbonline/WSB_OB_STATUS_INFO
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

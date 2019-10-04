@@ -12,6 +12,8 @@ ms.keywords: DSROLE_MACHINE_ROLE, DSROLE_MACHINE_ROLE enumeration [Active Direct
 ms.topic: enum
 f1_keywords:
 - dsrole/DSROLE_MACHINE_ROLE
+dev_langs:
+ - c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

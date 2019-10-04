@@ -12,6 +12,8 @@ ms.keywords: SetDlgItemText, SetDlgItemText function [Dialog Boxes], SetDlgItemT
 ms.topic: function
 f1_keywords: 
  - "winuser/SetDlgItemText"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

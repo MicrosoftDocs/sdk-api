@@ -12,6 +12,8 @@ ms.keywords: 20681ce7-e07e-4e34-9238-ec23cc6bfc84, IMFQualityAdvise, IMFQualityA
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFQualityAdvise"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

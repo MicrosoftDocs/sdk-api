@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interfac
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationAuthoringMode"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

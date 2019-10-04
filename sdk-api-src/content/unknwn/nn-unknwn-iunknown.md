@@ -12,6 +12,8 @@ ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],descri
 ms.topic: interface
 f1_keywords: 
  - "unknwn/IUnknown"
+dev_langs:
+ - c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

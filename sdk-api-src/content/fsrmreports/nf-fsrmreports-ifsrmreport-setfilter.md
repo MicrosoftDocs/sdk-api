@@ -12,6 +12,8 @@ ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter meth
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReport.SetFilter
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

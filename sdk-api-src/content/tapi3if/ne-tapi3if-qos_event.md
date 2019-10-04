@@ -12,6 +12,8 @@ ms.keywords: QE_ADMISSIONFAILURE, QE_GENERICERROR, QE_NOQOS, QE_POLICYFAILURE, Q
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/QOS_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

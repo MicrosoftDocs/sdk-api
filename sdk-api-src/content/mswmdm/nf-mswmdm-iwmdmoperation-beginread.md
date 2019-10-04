@@ -12,6 +12,8 @@ ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRe
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation.BeginRead"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

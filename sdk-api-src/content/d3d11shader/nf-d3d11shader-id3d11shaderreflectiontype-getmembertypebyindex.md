@@ -12,6 +12,8 @@ ms.keywords: 70dc37c0-572d-e667-f7c1-fa365386d214, GetMemberTypeByIndex, GetMemb
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.GetMemberTypeByIndex"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

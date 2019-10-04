@@ -12,6 +12,8 @@ ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTex
 ms.topic: function
 f1_keywords: 
  - "errors/AMGetErrorText"
+dev_langs:
+ - c++
 req.header: errors.h
 req.include-header: 
 req.target-type: Windows

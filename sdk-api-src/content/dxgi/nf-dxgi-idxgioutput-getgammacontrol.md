@@ -12,6 +12,8 @@ ms.keywords: GetGammaControl, GetGammaControl method [DXGI], GetGammaControl met
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIOutput.GetGammaControl"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

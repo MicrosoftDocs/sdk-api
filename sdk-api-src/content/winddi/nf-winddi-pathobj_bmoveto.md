@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_bMoveTo, PATHOBJ_bMoveTo function [Display Devices], displa
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bMoveTo
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

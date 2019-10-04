@@ -12,6 +12,8 @@ ms.keywords: AMOVIESETUP_MEDIATYPE, AMOVIESETUP_MEDIATYPE structure [DirectShow]
 ms.topic: struct
 f1_keywords: 
  - "strmif/REGPINTYPES"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

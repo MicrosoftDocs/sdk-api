@@ -12,6 +12,8 @@ ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],ReleaseIn
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioInputEndpointRT.ReleaseInputDataPointer"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

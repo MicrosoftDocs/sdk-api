@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTA
 ms.topic: struct
 f1_keywords: 
  - "tcpestats/TCP_ESTATS_OBS_REC_ROD_v0"
+dev_langs:
+ - c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows

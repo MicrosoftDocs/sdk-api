@@ -12,6 +12,8 @@ ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Manage
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemClassObject.GetMethodQualifierSet"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport2.EnumGenericParamConstraints"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

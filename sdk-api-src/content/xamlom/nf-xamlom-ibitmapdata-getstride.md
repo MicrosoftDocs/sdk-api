@@ -12,6 +12,8 @@ ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface
 ms.topic: method
 f1_keywords: 
  - "xamlom/IBitmapData.GetStride"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

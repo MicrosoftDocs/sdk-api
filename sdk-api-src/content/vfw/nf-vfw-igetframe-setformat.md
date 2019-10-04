@@ -12,6 +12,8 @@ ms.keywords: IGetFrame interface [Windows Multimedia],SetFormat method, IGetFram
 ms.topic: method
 f1_keywords: 
  - "vfw/IGetFrame.SetFormat"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

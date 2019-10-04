@@ -12,6 +12,8 @@ ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredent
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IAssociatedIdentityProvider.ChangeCredential"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

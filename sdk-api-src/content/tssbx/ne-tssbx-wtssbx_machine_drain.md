@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_MACHINE_DRAIN, WTSSBX_MACHINE_DRAIN enumeration [Remote Desk
 ms.topic: enum
 f1_keywords: 
  - "tssbx/WTSSBX_MACHINE_DRAIN"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFile, GetFile method [VSS], GetFile method [VSS],IVssWMComponent
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssWMComponent.GetFile
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

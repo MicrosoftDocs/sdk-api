@@ -12,6 +12,8 @@ ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _w
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateIC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

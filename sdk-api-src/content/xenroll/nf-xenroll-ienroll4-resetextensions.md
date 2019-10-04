@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],resetExtensions method, IEnroll4.rese
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll4.resetExtensions"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

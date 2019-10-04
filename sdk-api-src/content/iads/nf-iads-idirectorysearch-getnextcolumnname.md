@@ -12,6 +12,8 @@ ms.keywords: GetNextColumnName, GetNextColumnName method [ADSI], GetNextColumnNa
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.GetNextColumnName"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

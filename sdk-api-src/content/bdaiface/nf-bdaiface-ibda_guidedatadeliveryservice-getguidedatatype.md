@@ -12,6 +12,8 @@ ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType metho
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

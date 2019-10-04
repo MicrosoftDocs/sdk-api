@@ -12,6 +12,8 @@ ms.keywords: 161cd457-9fab-4ebb-b8b8-f87326d67c66, GetStyleCount, GetStyleCount 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSAMIStyle.GetStyleCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AutoSelectionMode, AutoSelectionMode enumeration [Windows Update Ag
 ms.topic: enum
 f1_keywords: 
  - "wuapi/AutoSelectionMode"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

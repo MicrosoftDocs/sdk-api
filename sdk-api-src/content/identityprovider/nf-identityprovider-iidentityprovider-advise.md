@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentit
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityProvider.Advise"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, GET_MODULE_HANDLE_EX_FLAG_P
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/GetModuleHandleEx"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

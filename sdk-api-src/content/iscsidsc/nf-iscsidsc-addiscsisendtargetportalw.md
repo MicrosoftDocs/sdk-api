@@ -12,6 +12,8 @@ ms.keywords: AddIScsiSendTargetPortalW, AddIscsiSendTargetPortal, AddIscsiSendTa
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/AddIscsiSendTargetPortal"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

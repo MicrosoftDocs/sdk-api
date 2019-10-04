@@ -12,6 +12,8 @@ ms.keywords: GetExtent, GetExtent method [Media Foundation], GetExtent method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextRegion.GetExtent"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

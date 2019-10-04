@@ -12,6 +12,8 @@ ms.keywords: IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "evr9/IEVRVideoStreamControl"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PathCchSkipRoot, PathCchSkipRoot function [Windows Shell], pathcch/
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchSkipRoot"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

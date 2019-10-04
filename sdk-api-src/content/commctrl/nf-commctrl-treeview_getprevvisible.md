@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetPrevVisible, TreeView_GetPrevVisible macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetPrevVisible"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

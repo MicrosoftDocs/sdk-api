@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromRip interface [Windows Media Player],startRip method, IWMP
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromRip.startRip"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STR
 ms.topic: struct
 f1_keywords: 
  - "fileapi/WIN32_FIND_STREAM_DATA"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

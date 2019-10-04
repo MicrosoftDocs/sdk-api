@@ -12,6 +12,8 @@ ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzInitializeContextFromSid"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

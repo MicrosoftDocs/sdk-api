@@ -12,6 +12,8 @@ ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptpro
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptStreamClose"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

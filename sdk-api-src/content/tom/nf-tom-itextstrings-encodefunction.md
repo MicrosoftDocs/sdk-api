@@ -12,6 +12,8 @@ ms.keywords: EncodeFunction, EncodeFunction method [Windows Controls], EncodeFun
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.EncodeFunction"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

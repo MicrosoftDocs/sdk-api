@@ -12,6 +12,8 @@ ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],Pos
 ms.topic: method
 f1_keywords: 
  - "wsbapp/IWsbApplicationRestoreSupport.PostRestore"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

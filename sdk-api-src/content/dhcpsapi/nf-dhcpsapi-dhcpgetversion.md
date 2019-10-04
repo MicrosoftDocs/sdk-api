@@ -12,6 +12,8 @@ ms.keywords: DhcpGetVersion, DhcpGetVersion function [DHCP], dhcp.dhcpgetversion
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpGetVersion"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

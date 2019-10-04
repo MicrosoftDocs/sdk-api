@@ -12,6 +12,8 @@ ms.keywords: 6fe5abbb-c079-4d74-9c75-6fb502054546, MF_NUM_QUALITY_LEVELS, MF_QUA
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_QUALITY_LEVEL"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

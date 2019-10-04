@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue,
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeStringArray.GetValue"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

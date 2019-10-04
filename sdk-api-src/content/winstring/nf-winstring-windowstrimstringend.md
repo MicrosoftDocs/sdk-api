@@ -12,6 +12,8 @@ ms.keywords: WindowsTrimStringEnd, WindowsTrimStringEnd function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsTrimStringEnd"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

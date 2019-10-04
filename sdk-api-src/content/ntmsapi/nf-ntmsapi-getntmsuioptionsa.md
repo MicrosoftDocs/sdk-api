@@ -12,6 +12,8 @@ ms.keywords: GetNtmsUIOptions, GetNtmsUIOptions function [Files], GetNtmsUIOptio
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/GetNtmsUIOptions"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

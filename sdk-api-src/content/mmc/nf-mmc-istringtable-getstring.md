@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [MMC], GetString method [MMC],IStringTa
 ms.topic: method
 f1_keywords: 
  - "mmc/IStringTable.GetString"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

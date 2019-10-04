@@ -12,6 +12,8 @@ ms.keywords: Address property [Microsoft Broadband Networks], Address property [
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgTextCdma.Address"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, wi
 ms.topic: struct
 f1_keywords: 
  - "winnt/LUID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

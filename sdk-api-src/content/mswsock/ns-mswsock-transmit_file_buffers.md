@@ -12,6 +12,8 @@ ms.keywords: "*LPTRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, TRANSMIT_FILE_B
 ms.topic: struct
 f1_keywords: 
  - "mswsock/TRANSMIT_FILE_BUFFERS"
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: Winsock.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer interface [T
 ms.topic: method
 f1_keywords: 
  - "rtscom/IDynamicRenderer.ReleaseCachedData"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

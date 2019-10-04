@@ -12,6 +12,8 @@ ms.keywords: IWMPUserEventSink interface [Windows Media Player],NotifyUserEvent 
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPUserEventSink.NotifyUserEvent"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

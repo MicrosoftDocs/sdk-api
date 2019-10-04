@@ -12,6 +12,8 @@ ms.keywords: GetStartTime, GetStartTime method [DirectShow], GetStartTime method
 ms.topic: method
 f1_keywords: 
  - "strmif/IGraphConfig.GetStartTime"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

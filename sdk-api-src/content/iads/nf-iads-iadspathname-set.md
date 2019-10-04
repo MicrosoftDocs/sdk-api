@@ -12,6 +12,8 @@ ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPat
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.Set"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

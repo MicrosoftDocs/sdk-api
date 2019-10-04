@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure po
 ms.topic: struct
 f1_keywords:
 - vds/VDS_DISK_EXTENT
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

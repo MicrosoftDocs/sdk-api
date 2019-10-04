@@ -12,6 +12,8 @@ ms.keywords: CALLHUB_EVENT, CALLHUB_EVENT enumeration [TAPI 2.2], CHE_CALLHUBIDL
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALLHUB_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

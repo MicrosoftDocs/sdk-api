@@ -12,6 +12,8 @@ ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_Partit
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_PartitionConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

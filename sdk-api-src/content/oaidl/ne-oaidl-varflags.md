@@ -12,6 +12,8 @@ ms.keywords: VARFLAGS, VARFLAGS enumeration [Automation], VARFLAG_FBINDABLE, VAR
 ms.topic: enum
 f1_keywords: 
  - "oaidl/VARFLAGS"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

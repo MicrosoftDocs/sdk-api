@@ -12,6 +12,8 @@ ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structu
 ms.topic: struct
 f1_keywords: 
  - "winhttp/HTTP_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

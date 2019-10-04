@@ -12,6 +12,8 @@ ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winp
 ms.topic: function
 f1_keywords: 
  - "fdi/FDIDestroy"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

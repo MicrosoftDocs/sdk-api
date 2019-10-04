@@ -12,6 +12,8 @@ ms.keywords: DRMDuplicateEnvironmentHandle, DRMDuplicateEnvironmentHandle functi
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDuplicateEnvironmentHandle"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

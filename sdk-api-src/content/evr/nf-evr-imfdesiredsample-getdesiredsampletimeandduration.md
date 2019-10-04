@@ -12,6 +12,8 @@ ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDurati
 ms.topic: method
 f1_keywords: 
  - "evr/IMFDesiredSample.GetDesiredSampleTimeAndDuration"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

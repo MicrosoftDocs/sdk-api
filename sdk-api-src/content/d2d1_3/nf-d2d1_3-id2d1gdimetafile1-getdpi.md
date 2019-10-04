@@ -12,6 +12,8 @@ ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1Gdi
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1GdiMetafile1.GetDpi"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

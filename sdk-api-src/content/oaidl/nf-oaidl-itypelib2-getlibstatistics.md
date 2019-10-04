@@ -12,6 +12,8 @@ ms.keywords: GetLibStatistics, GetLibStatistics method [Automation], GetLibStati
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeLib2.GetLibStatistics"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

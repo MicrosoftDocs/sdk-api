@@ -12,6 +12,8 @@ ms.keywords: LsaQueryForestTrustInformation, LsaQueryForestTrustInformation func
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaQueryForestTrustInformation
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

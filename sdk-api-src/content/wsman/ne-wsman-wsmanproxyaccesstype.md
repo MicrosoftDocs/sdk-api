@@ -12,6 +12,8 @@ ms.keywords: WSMAN_OPTION_PROXY_AUTO_DETECT, WSMAN_OPTION_PROXY_IE_PROXY_CONFIG,
 ms.topic: enum
 f1_keywords: 
  - "wsman/WSManProxyAccessType"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

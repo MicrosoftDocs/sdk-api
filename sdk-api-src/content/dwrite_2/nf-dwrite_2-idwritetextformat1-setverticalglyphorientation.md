@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetVerticalGlyphOrienta
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteTextFormat1.SetVerticalGlyphOrientation"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

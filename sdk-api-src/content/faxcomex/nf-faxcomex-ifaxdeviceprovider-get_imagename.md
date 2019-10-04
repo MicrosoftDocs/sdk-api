@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProvider interface [Fax Service],ImageName property, IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProvider.ImageName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

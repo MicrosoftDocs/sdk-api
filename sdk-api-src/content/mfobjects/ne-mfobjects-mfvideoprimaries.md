@@ -12,6 +12,8 @@ ms.keywords: MFVideoPrimaries, MFVideoPrimaries enumeration [Media Foundation], 
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoPrimaries
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMTuner interface [DirectShow],RegisterNotificationCallBack method
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMTuner.RegisterNotificationCallBack"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

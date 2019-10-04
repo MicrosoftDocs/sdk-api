@@ -12,6 +12,8 @@ ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirS
 ms.topic: function
 f1_keywords: 
  - "winuser/DlgDirSelectEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

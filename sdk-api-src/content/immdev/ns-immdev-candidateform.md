@@ -12,6 +12,8 @@ ms.keywords: "*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM
 ms.topic: struct
 f1_keywords: 
  - "immdev/CANDIDATEFORM"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

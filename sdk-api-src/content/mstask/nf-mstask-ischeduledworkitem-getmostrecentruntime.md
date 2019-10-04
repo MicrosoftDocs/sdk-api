@@ -12,6 +12,8 @@ ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler],
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetMostRecentRunTime"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

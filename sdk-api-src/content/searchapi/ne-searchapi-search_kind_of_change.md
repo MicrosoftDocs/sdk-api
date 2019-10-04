@@ -12,6 +12,8 @@ ms.keywords: SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, SEARCH_CHANGE_MODIFY, SEAR
 ms.topic: enum
 f1_keywords:
 - searchapi/SEARCH_KIND_OF_CHANGE
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

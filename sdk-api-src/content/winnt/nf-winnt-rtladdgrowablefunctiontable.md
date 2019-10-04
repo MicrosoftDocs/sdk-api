@@ -12,6 +12,8 @@ ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, 
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlAddGrowableFunctionTable"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

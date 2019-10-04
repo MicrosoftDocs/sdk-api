@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/CRYPT_CONTEXT_CONFIG"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

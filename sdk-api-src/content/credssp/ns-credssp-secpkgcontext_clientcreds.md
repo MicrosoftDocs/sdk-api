@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgCo
 ms.topic: struct
 f1_keywords: 
  - "credssp/SecPkgContext_ClientCreds"
+dev_langs:
+ - c++
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows

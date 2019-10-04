@@ -12,6 +12,8 @@ ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function
 ms.topic: function
 f1_keywords: 
  - "gamingtcui/CheckGamingPrivilegeSilently"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

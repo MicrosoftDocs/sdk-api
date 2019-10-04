@@ -12,6 +12,8 @@ ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetLayout"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

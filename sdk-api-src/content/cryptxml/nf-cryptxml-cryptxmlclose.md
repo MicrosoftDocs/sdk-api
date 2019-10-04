@@ -12,6 +12,8 @@ ms.keywords: CryptXmlClose, CryptXmlClose function [Security], cryptxml/CryptXml
 ms.topic: function
 f1_keywords: 
  - "cryptxml/CryptXmlClose"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICPersistStream interface [Windows Imaging Component],LoadEx meth
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICPersistStream.LoadEx"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

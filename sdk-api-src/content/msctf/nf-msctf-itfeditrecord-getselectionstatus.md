@@ -12,6 +12,8 @@ ms.keywords: GetSelectionStatus, GetSelectionStatus method [Text Services Framew
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfEditRecord.GetSelectionStatus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

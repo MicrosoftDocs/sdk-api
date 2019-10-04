@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterExportEngineData, EngineAdapterExportEngineData callba
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterExportEngineData
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

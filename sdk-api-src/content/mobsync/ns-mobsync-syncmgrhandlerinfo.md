@@ -12,6 +12,8 @@ ms.keywords: '*LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO 
 ms.topic: struct
 f1_keywords:
 - mobsync/SYNCMGRHANDLERINFO
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

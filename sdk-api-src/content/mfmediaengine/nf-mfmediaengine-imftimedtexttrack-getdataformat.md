@@ -12,6 +12,8 @@ ms.keywords: GetDataFormat, GetDataFormat method [Media Foundation], GetDataForm
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetDataFormat"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

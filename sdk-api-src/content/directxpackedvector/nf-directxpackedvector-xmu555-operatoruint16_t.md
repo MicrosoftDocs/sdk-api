@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMU555.operator uint16_t, DirectX::PackedVect
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMU555.operator uint16_t"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

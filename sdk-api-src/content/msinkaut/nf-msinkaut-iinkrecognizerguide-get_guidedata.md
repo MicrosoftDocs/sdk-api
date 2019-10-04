@@ -12,6 +12,8 @@ ms.keywords: 154cd57d-0b98-4633-a36d-93207896c9f1, GuideData property [Tablet PC
 ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerGuide.GuideData
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

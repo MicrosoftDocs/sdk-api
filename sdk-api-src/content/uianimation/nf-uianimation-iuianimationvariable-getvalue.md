@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Windows Animation], GetValue method [Win
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable.GetValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

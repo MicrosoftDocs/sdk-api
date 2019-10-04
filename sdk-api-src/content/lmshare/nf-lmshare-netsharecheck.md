@@ -12,6 +12,8 @@ ms.keywords: NetShareCheck, NetShareCheck function [Files], STYPE_DEVICE, STYPE_
 ms.topic: function
 f1_keywords: 
  - "lmshare/NetShareCheck"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

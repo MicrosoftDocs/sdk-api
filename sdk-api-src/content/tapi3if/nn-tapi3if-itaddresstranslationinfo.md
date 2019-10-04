@@ -12,6 +12,8 @@ ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/ITAddressTranslationInfo"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

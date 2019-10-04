@@ -12,6 +12,8 @@ ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Fra
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfCompositionSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

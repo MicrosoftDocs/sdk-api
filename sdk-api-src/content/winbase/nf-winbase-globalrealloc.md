@@ -12,6 +12,8 @@ ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalReAlloc"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE, CryptXmlAddObject, CryptXmlA
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlAddObject
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

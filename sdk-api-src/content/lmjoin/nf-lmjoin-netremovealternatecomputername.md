@@ -12,6 +12,8 @@ ms.keywords: NetRemoveAlternateComputerName, NetRemoveAlternateComputerName func
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetRemoveAlternateComputerName"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IImageList2 interface [Windows Controls],PreloadImages method, IIma
 ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList2.PreloadImages
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

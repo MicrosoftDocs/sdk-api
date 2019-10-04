@@ -12,6 +12,8 @@ ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerTime method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMedia.getMarkerTime"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

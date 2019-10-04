@@ -12,6 +12,8 @@ ms.keywords: "*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT st
 ms.topic: struct
 f1_keywords: 
  - "winuser/GESTURENOTIFYSTRUCT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

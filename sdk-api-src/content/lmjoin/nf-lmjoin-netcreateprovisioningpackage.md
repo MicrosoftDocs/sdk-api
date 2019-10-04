@@ -12,6 +12,8 @@ ms.keywords: NetCreateProvisioningPackage, NetCreateProvisioningPackage function
 ms.topic: function
 f1_keywords:
 - lmjoin/NetCreateProvisioningPackage
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

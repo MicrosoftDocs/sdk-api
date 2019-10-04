@@ -12,6 +12,8 @@ ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], I
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IWriteEngine2EventArgs"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

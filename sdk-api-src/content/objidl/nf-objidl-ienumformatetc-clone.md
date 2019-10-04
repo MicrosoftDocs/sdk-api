@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interf
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumFORMATETC.Clone"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

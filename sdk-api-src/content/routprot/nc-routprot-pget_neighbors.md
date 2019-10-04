@@ -12,6 +12,8 @@ ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS,
 ms.topic: callback
 f1_keywords:
 - routprot/GetNeighbors
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSManProxyAccessTypeFlags, WSManProxyAccessTypeFlags enumeration [W
 ms.topic: enum
 f1_keywords: 
  - "wsmandisp/WSManProxyAccessTypeFlags"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClusterNetworkControl, ClusterNetworkControl function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterNetworkControl"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

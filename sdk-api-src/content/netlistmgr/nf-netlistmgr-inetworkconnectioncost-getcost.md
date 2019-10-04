@@ -12,6 +12,8 @@ ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Networ
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkConnectionCost.GetCost"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

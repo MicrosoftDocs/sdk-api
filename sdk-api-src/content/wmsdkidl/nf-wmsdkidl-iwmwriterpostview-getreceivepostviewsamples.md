@@ -12,6 +12,8 @@ ms.keywords: GetReceivePostViewSamples, GetReceivePostViewSamples method [window
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterPostView.GetReceivePostViewSamples"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Destroy"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 141571bf-172b-c679-109b-248388ab3cc3, GetSwapChain, GetSwapChain me
 ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.GetSwapChain
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

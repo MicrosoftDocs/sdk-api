@@ -12,6 +12,8 @@ ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], 
 ms.topic: function
 f1_keywords:
 - ntmsapi/WaitForNtmsNotification
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

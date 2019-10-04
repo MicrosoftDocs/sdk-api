@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLibrary.Commit"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

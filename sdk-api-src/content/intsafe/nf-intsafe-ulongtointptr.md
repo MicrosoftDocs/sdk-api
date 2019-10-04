@@ -12,6 +12,8 @@ ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr functi
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongToIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

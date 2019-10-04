@@ -12,6 +12,8 @@ ms.keywords: GetPreferredFont, GetPreferredFont method [Windows Controls], GetPr
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetPreferredFont"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

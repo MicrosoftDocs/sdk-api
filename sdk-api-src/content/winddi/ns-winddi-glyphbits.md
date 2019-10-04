@@ -12,6 +12,8 @@ ms.keywords: GLYPHBITS, GLYPHBITS structure [Display Devices], display.glyphbits
 ms.topic: struct
 f1_keywords:
 - winddi/GLYPHBITS
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

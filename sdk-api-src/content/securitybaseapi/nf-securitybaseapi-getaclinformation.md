@@ -12,6 +12,8 @@ ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_ge
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetAclInformation
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

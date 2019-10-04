@@ -12,6 +12,8 @@ ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem met
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesShareInfo.GetShareItem"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

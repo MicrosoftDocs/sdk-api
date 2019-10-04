@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetElementAt, MI_Class_GetElementAt function [Windows Mana
 ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetElementAt
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

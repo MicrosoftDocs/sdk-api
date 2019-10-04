@@ -12,6 +12,8 @@ ms.keywords: '*PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS, PTRUSTED_
 ms.topic: enum
 f1_keywords:
 - ntsecapi/TRUSTED_INFORMATION_CLASS
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

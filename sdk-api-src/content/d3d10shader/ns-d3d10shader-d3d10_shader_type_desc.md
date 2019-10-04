@@ -12,6 +12,8 @@ ms.keywords: D3D10_SHADER_TYPE_DESC, D3D10_SHADER_TYPE_DESC structure [Direct3D 
 ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_TYPE_DESC
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

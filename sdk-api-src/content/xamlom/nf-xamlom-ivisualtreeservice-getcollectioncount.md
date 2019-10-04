@@ -12,6 +12,8 @@ ms.keywords: GetCollectionCount, GetCollectionCount method, GetCollectionCount m
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.GetCollectionCount"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

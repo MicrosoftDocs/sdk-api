@@ -12,6 +12,8 @@ ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMainte
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsMaintenance.PulseMaintenance
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

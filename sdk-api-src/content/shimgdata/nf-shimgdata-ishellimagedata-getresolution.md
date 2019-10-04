@@ -12,6 +12,8 @@ ms.keywords: GetResolution, GetResolution method [Windows Shell], GetResolution 
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.GetResolution"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

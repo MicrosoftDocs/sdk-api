@@ -12,6 +12,8 @@ ms.keywords: GetRunningClass, GetRunningClass method [COM], GetRunningClass meth
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunnableObject.GetRunningClass"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

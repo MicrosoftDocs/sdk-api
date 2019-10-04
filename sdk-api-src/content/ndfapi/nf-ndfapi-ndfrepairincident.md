@@ -12,6 +12,8 @@ ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairi
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfRepairIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

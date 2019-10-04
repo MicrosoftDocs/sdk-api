@@ -12,6 +12,8 @@ ms.keywords: IWeeklyTrigger interface [Task Scheduler],WeeksInterval property, I
 ms.topic: method
 f1_keywords: 
  - "taskschd/IWeeklyTrigger.WeeksInterval"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

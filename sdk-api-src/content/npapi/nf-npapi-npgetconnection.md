@@ -12,6 +12,8 @@ ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetcon
 ms.topic: function
 f1_keywords: 
  - "npapi/NPGetConnection"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

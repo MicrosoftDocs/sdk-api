@@ -12,6 +12,8 @@ ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Pack
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideo3DSampleFormat"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

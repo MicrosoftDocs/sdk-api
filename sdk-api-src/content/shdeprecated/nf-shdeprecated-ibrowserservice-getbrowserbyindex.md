@@ -12,6 +12,8 @@ ms.keywords: GetBrowserByIndex, GetBrowserByIndex method [Windows Shell], GetBro
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.GetBrowserByIndex"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

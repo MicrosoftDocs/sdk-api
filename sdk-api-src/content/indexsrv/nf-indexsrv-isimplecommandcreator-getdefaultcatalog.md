@@ -12,6 +12,8 @@ ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCat
 ms.topic: method
 f1_keywords: 
  - "indexsrv/ISimpleCommandCreator.GetDefaultCatalog"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

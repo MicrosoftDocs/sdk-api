@@ -12,6 +12,8 @@ ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], 
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmTransactionAbort0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

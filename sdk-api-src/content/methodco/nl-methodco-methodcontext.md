@@ -12,6 +12,8 @@ ms.keywords: MethodContext, MethodContext class [Windows Management Instrumentat
 ms.topic: class
 f1_keywords: 
  - "methodco/MethodContext"
+dev_langs:
+ - c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows

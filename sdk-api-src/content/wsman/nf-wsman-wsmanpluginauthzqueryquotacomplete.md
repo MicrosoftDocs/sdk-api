@@ -12,6 +12,8 @@ ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaCompl
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginAuthzQueryQuotaComplete
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

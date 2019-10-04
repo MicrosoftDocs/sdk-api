@@ -12,6 +12,8 @@ ms.keywords: MI_Array, MI_Array structure [Windows Management Infrastructure (MI
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_Array"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

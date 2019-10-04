@@ -12,6 +12,8 @@ ms.keywords: GetSmoothingMode, GetSmoothingMode method [GDI+], GetSmoothingMode 
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetSmoothingMode"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

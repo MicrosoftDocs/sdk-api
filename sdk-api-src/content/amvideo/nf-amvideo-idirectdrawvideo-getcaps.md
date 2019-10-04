@@ -12,6 +12,8 @@ ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.GetCaps"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

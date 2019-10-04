@@ -12,6 +12,8 @@ ms.keywords: HwndRenderTargetProperties, HwndRenderTargetProperties function [Di
 ms.topic: function
 f1_keywords: 
  - "d2d1helper/HwndRenderTargetProperties"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

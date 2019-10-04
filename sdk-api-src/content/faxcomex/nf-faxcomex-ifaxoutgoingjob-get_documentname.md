@@ -12,6 +12,8 @@ ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Ser
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingJob.DocumentName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

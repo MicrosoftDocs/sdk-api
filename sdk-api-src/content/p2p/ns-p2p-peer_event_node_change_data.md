@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA, PEER_E
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_EVENT_NODE_CHANGE_DATA"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

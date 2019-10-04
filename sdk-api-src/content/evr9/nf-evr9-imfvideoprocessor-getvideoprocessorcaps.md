@@ -12,6 +12,8 @@ ms.keywords: 9a02aed2-8225-4416-ae54-7ed51c67a149, GetVideoProcessorCaps, GetVid
 ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.GetVideoProcessorCaps
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

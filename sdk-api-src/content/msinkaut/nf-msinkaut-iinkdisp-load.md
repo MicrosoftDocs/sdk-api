@@ -12,6 +12,8 @@ ms.keywords: 2e71e434-b055-4e45-b8fd-f9c1ac84d308, IInkDisp interface [Tablet PC
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.Load"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

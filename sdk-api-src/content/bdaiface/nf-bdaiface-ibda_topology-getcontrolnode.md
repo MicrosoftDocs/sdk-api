@@ -12,6 +12,8 @@ ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_Topology.GetControlNode"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

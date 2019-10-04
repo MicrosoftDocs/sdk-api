@@ -12,6 +12,8 @@ ms.keywords: ChannelAvailable, ChannelAvailable method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAnalogTuner.ChannelAvailable"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

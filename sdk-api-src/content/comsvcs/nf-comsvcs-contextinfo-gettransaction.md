@@ -12,6 +12,8 @@ ms.keywords: ContextInfo interface [COM+],GetTransaction method, ContextInfo.Get
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ContextInfo.GetTransaction"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

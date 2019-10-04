@@ -12,6 +12,8 @@ ms.keywords: IWorkspace interface [Remote Desktop Services],StartRemoteApplicati
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspace.StartRemoteApplication"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

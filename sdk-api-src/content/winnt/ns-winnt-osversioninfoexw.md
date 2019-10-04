@@ -12,6 +12,8 @@ ms.keywords: '*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, L
 ms.topic: struct
 f1_keywords:
 - winnt/OSVERSIONINFOEX
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

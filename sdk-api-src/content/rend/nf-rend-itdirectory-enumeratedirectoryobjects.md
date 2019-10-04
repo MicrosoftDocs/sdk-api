@@ -12,6 +12,8 @@ ms.keywords: EnumerateDirectoryObjects, EnumerateDirectoryObjects method [TAPI 2
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.EnumerateDirectoryObjects"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

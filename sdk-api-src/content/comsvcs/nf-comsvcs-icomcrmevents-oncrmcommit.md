@@ -12,6 +12,8 @@ ms.keywords: IComCRMEvents interface [COM+],OnCRMCommit method, IComCRMEvents.On
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComCRMEvents.OnCRMCommit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

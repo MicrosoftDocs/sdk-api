@@ -12,6 +12,8 @@ ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaItem.GetPresentationAttribute"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

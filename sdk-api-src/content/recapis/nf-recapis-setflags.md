@@ -12,6 +12,8 @@ ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_
 ms.topic: function
 f1_keywords: 
  - "recapis/SetFlags"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

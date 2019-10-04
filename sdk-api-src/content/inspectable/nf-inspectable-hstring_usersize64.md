@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], 
 ms.topic: function
 f1_keywords: 
  - "inspectable/HSTRING_UserSize64"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

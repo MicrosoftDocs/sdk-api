@@ -12,6 +12,8 @@ ms.keywords: HorizontallyScrollable property [Windows Accessibility], Horizontal
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IScrollProvider.HorizontallyScrollable"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

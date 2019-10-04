@@ -12,6 +12,8 @@ ms.keywords: IFaxActivityLogging interface [Fax Service],LogOutgoing property, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxActivityLogging.LogOutgoing"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

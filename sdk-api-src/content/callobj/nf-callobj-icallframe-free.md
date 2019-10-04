@@ -12,6 +12,8 @@ ms.keywords: Free, Free method [COM], Free method [COM],ICallFrame interface, IC
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.Free"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

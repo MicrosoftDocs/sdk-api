@@ -12,6 +12,8 @@ ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath m
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.GetSettingByPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

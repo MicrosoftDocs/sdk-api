@@ -12,6 +12,8 @@ ms.keywords: GetSelection2, GetSelection2 method [Windows Controls], GetSelectio
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetSelection2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

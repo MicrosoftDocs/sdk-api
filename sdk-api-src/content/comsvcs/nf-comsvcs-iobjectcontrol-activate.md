@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [COM+], Activate method [COM+],IObjectCon
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectControl.Activate"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

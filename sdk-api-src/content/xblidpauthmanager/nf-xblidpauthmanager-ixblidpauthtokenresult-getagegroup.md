@@ -12,6 +12,8 @@ ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthToke
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetAgeGroup"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

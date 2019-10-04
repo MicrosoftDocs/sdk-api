@@ -12,6 +12,8 @@ ms.keywords: GPMBackupDir object [GPMC],GetBackup method, GetBackup, GetBackup m
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackupDir.GetBackup"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

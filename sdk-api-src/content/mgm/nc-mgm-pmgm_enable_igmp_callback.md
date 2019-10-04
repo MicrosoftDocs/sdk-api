@@ -12,6 +12,8 @@ ms.keywords: PMGM_ENABLE_IGMP_CALLBACK, PMGM_ENABLE_IGMP_CALLBACK callback, PMGM
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_ENABLE_IGMP_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckConsistency, CheckConsistency method [Windows Server Backup], 
 ms.topic: method
 f1_keywords: 
  - "wsbapp/IWsbApplicationBackupSupport.CheckConsistency"
+dev_langs:
+ - c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows

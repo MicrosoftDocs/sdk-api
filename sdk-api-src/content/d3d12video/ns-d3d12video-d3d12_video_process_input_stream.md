@@ -8,6 +8,10 @@ ms.assetid: fcc82c3d-61d9-481b-951f-998ca55b6a60
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_INPUT_STREAM
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM, D3D12_VIDEO_PROCESS_INPUT_STREAM, 
 req.header: d3d12video.h
 req.include-header:

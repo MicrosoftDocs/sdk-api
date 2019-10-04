@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_INFO, CRYPT_XML_SIGNED_I
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_SIGNED_INFO
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

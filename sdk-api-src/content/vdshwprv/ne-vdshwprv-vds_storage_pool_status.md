@@ -12,6 +12,8 @@ ms.keywords: VDS_SPS_NOT_READY, VDS_SPS_OFFLINE, VDS_SPS_ONLINE, VDS_SPS_UNKNOWN
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_STORAGE_POOL_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

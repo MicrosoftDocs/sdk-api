@@ -12,6 +12,8 @@ ms.keywords: IFsrmProperty interface [File Server Resource Manager],PropertyFlag
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmProperty.PropertyFlags"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

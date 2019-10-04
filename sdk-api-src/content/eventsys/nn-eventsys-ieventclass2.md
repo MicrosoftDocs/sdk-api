@@ -12,6 +12,8 @@ ms.keywords: IEventClass2, IEventClass2 interface [COM+], IEventClass2 interface
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IEventClass2"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

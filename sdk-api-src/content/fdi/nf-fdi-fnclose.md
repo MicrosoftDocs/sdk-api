@@ -12,6 +12,8 @@ ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNCLOSE"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

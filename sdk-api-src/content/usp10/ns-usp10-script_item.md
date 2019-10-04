@@ -12,6 +12,8 @@ ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Window
 ms.topic: struct
 f1_keywords: 
  - "usp10/SCRIPT_ITEM"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

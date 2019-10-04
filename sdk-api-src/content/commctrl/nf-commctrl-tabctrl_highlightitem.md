@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_HighlightItem, TabCtrl_HighlightItem macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_HighlightItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [
 ms.topic: struct
 f1_keywords:
 - cfgmgr32/CM_NOTIFY_FILTER
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows

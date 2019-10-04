@@ -12,6 +12,8 @@ ms.keywords: CreateMetadataReaderFromContainer, CreateMetadataReaderFromContaine
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICComponentFactory.CreateMetadataReaderFromContainer"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

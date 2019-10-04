@@ -12,6 +12,8 @@ ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Re
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaBase.CreateThresholdAction
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

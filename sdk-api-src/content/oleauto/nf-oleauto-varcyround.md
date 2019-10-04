@@ -12,6 +12,8 @@ ms.keywords: VarCyRound, VarCyRound function [Automation], _oa96_VarCyRound, aut
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyRound"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

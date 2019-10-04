@@ -12,6 +12,8 @@ ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],Size class, Size cl
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Size.Empty"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

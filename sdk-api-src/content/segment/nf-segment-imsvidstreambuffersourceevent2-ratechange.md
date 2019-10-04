@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent2.RateChange"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

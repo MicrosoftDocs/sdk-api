@@ -12,6 +12,8 @@ ms.keywords: '*LPNS_SERVICE_INFOW, *PNS_SERVICE_INFOW, NS_DEFAULT, NS_DNS, NS_MS
 ms.topic: struct
 f1_keywords:
 - nspapi/NS_SERVICE_INFO
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

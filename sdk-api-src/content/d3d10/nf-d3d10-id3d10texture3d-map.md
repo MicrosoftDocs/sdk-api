@@ -12,6 +12,8 @@ ms.keywords: 0a753acc-a6b4-f192-8a52-1069da27bbff, ID3D10Texture3D interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Texture3D.Map"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

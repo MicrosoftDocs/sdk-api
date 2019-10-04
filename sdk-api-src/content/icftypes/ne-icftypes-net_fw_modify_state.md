@@ -12,6 +12,8 @@ ms.keywords: NET_FW_MODIFY_STATE, NET_FW_MODIFY_STATE enumeration [ICS/ICF], NET
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_MODIFY_STATE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

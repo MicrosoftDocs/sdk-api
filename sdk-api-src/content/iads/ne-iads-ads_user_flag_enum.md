@@ -12,6 +12,8 @@ ms.keywords: ADS_UF_ACCOUNTDISABLE, ADS_UF_DONT_EXPIRE_PASSWD, ADS_UF_DONT_REQUI
 ms.topic: enum
 f1_keywords:
 - iads/ADS_USER_FLAG_ENUM
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

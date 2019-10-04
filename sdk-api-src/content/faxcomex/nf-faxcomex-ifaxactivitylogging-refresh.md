@@ -12,6 +12,8 @@ ms.keywords: IFaxActivityLogging interface [Fax Service],Refresh method, IFaxAct
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxActivityLogging.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

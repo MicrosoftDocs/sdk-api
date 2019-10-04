@@ -12,6 +12,8 @@ ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.SetInputPrefType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

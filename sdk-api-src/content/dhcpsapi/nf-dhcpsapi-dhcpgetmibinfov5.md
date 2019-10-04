@@ -12,6 +12,8 @@ ms.keywords: DhcpGetMibInfoV5, DhcpGetMibInfoV5 function [DHCP], dhcp.dhcpgetmib
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetMibInfoV5
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

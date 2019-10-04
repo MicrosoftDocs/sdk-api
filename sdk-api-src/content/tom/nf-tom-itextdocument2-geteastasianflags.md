@@ -12,6 +12,8 @@ ms.keywords: GetEastAsianFlags, GetEastAsianFlags method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetEastAsianFlags"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

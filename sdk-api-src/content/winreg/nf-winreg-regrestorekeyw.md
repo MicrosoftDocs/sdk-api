@@ -12,6 +12,8 @@ ms.keywords: REG_FORCE_RESTORE, REG_WHOLE_HIVE_VOLATILE, RegRestoreKey, RegResto
 ms.topic: function
 f1_keywords: 
  - "winreg/RegRestoreKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

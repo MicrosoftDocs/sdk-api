@@ -12,6 +12,8 @@ ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32
 ms.topic: function
 f1_keywords: 
  - "winbase/GetProcessWorkingSetSize"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

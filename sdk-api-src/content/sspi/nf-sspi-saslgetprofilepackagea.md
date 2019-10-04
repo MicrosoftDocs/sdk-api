@@ -12,6 +12,8 @@ ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], S
 ms.topic: function
 f1_keywords:
 - sspi/SaslGetProfilePackage
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

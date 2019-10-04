@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/IAudioFormatEnumerator.GetCount"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

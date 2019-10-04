@@ -12,6 +12,8 @@ ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDelete
 ms.topic: function
 f1_keywords:
 - wincred/CredDelete
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

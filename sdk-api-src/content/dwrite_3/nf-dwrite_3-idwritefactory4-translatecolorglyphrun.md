@@ -12,6 +12,8 @@ ms.keywords: IDWriteFactory4 interface [Direct Write],TranslateColorGlyphRun met
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFactory4.TranslateColorGlyphRun"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

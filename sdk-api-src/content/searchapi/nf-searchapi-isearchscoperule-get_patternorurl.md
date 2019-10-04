@@ -12,6 +12,8 @@ ms.keywords: ISearchScopeRule interface [search],get_PatternOrURL method, ISearc
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchScopeRule.get_PatternOrURL"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

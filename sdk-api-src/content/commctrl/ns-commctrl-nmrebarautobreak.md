@@ -12,6 +12,8 @@ ms.keywords: '*LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK struct
 ms.topic: struct
 f1_keywords:
 - commctrl/NMREBARAUTOBREAK
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

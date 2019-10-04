@@ -12,6 +12,8 @@ ms.keywords: D3D10StateBlockMaskUnion, D3D10StateBlockMaskUnion function [Direct
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10StateBlockMaskUnion
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

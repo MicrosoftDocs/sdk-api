@@ -12,6 +12,8 @@ ms.keywords: '*PCM_NOTIFY_ACTION, CM_NOTIFY_ACTION, CM_NOTIFY_ACTION enumeration
 ms.topic: enum
 f1_keywords:
 - cfgmgr32/CM_NOTIFY_ACTION
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows

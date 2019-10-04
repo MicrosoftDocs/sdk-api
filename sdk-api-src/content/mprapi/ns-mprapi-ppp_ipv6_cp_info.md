@@ -12,6 +12,8 @@ ms.keywords: PPPP_IPV6_CP_INFO, PPPP_IPV6_CP_INFO structure pointer [RAS], PPP_I
 ms.topic: struct
 f1_keywords:
 - mprapi/PPP_IPV6_CP_INFO
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

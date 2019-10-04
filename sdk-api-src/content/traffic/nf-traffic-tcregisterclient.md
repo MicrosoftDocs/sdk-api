@@ -12,6 +12,8 @@ ms.keywords: TcRegisterClient, TcRegisterClient function [QOS], _gqos_tcregister
 ms.topic: function
 f1_keywords: 
  - "traffic/TcRegisterClient"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

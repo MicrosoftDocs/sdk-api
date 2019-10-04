@@ -12,6 +12,8 @@ ms.keywords: GetSubpictureLanguage, GetSubpictureLanguage method [DirectShow], G
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo.GetSubpictureLanguage"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

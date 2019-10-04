@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectPrimitiveImpl, IMILBitmapEffectPrimitiveImpl interf
 ms.topic: interface
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitiveImpl"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

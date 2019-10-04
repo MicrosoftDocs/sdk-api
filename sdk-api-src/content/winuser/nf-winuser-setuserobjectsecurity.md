@@ -12,6 +12,8 @@ ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURI
 ms.topic: function
 f1_keywords:
 - winuser/SetUserObjectSecurity
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

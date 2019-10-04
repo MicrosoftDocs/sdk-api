@@ -12,6 +12,8 @@ ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageDataFactory.GetDataFormatFromPath"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

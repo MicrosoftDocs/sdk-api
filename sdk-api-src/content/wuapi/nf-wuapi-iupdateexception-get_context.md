@@ -12,6 +12,8 @@ ms.keywords: Context property [Windows Update Agent], Context property [Windows 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateException.Context"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

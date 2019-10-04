@@ -12,6 +12,8 @@ ms.keywords: FSCTL_DUPLICATE_EXTENTS_TO_FILE, FSCTL_DUPLICATE_EXTENTS_TO_FILE co
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEve
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IHWEventHandler.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

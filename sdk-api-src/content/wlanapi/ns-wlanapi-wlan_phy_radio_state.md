@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STA
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_PHY_RADIO_STATE
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

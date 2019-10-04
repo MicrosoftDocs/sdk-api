@@ -12,6 +12,8 @@ ms.keywords: WCN_VALUE_FALSE, WCN_VALUE_TRUE, WCN_VALUE_TYPE_BOOLEAN, WCN_VALUE_
 ms.topic: enum
 f1_keywords: 
  - "wcntypes/WCN_VALUE_TYPE_BOOLEAN"
+dev_langs:
+ - c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Begin3, Begin3 method [windows Media Device Manager], Begin3 method
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMProgress3.Begin3"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resource
 ms.topic: function
 f1_keywords: 
  - "winver/VerLanguageName"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

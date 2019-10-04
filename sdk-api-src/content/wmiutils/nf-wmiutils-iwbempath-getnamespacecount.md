@@ -12,6 +12,8 @@ ms.keywords: GetNamespaceCount, GetNamespaceCount method [Windows Management Ins
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetNamespaceCount"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method, GetStatus method,IXblIdpAuthTokenResul
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetStatus"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

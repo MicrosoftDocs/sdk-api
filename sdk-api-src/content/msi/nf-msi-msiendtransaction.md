@@ -12,6 +12,8 @@ ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiE
 ms.topic: function
 f1_keywords: 
  - "msi/MsiEndTransaction"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

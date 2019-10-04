@@ -12,6 +12,8 @@ ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentms
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/CloseNtmsSession"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

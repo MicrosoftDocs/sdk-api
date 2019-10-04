@@ -12,6 +12,8 @@ ms.keywords: SetKernelObjectSecurity, SetKernelObjectSecurity function [Security
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetKernelObjectSecurity
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

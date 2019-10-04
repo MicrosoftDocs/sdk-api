@@ -12,6 +12,8 @@ ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], Cr
 ms.topic: enum
 f1_keywords:
 - credssp/CREDSPP_SUBMIT_TYPE
+dev_langs:
+ - c++
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows

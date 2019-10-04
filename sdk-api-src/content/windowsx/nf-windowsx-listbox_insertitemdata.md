@@ -12,6 +12,8 @@ ms.keywords: ListBox_InsertItemData, ListBox_InsertItemData macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_InsertItemData"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

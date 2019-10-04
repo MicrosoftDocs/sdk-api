@@ -12,6 +12,8 @@ ms.keywords: '*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD
 ms.topic: struct
 f1_keywords:
 - netsh/NS_CONTEXT_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

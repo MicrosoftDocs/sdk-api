@@ -12,6 +12,8 @@ ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.Unmars
 ms.topic: method
 f1_keywords: 
  - "objidl/IMarshal.UnmarshalInterface"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

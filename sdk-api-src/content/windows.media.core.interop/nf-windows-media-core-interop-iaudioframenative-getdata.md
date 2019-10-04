@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows 
 ms.topic: method
 f1_keywords: 
  - "windows.media.core.interop/IAudioFrameNative.GetData"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink inte
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/IWordFormSink"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

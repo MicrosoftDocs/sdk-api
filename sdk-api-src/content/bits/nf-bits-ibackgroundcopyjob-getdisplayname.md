@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [BITS], GetDisplayName method
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetDisplayName"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

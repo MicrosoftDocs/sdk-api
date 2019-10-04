@@ -12,6 +12,8 @@ ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential interface [M
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCredential.SetPassword"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

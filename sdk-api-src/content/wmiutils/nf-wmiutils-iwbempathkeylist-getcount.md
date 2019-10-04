@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Management Instrumentation], Get
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPathKeyList.GetCount"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

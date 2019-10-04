@@ -12,6 +12,8 @@ ms.keywords: AddPage, AddPage method [Direct2D], AddPage method [Direct2D],ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1PrintControl.AddPage"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

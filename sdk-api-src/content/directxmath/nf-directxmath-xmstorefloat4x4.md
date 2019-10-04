@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMStoreFloat4x4, XMStoreFloat4x4, XMStoreFloat4x4 meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMStoreFloat4x4"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

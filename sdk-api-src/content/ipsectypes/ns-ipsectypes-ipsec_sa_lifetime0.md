@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_LIFETIME0, IPSEC_SA_LIFETIME0 structure [Filtering], fwp.i
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_LIFETIME0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

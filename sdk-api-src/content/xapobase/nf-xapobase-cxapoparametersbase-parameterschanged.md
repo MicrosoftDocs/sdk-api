@@ -12,6 +12,8 @@ ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],Parameter
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOParametersBase.ParametersChanged"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

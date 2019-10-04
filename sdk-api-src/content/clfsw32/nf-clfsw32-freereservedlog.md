@@ -12,6 +12,8 @@ ms.keywords: FreeReservedLog, FreeReservedLog function [Files], clfsw32/FreeRese
 ms.topic: function
 f1_keywords: 
  - "clfsw32/FreeReservedLog"
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

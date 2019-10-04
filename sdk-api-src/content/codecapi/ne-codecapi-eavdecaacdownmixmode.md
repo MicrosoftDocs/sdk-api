@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecAACDownmixMode, codecapi/eAVDecAACUseARIBDownmix, co
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecAACDownmixMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

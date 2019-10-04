@@ -12,6 +12,8 @@ ms.keywords: DwmEnableMMCSS, DwmEnableMMCSS function [Desktop Window Manager], _
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmEnableMMCSS"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

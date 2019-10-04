@@ -12,6 +12,8 @@ ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccount.Folders"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

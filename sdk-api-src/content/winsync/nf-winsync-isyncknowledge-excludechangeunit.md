@@ -12,6 +12,8 @@ ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], Exclude
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.ExcludeChangeUnit"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

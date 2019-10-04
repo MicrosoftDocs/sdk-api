@@ -12,6 +12,8 @@ ms.keywords: IX509PrivateKey interface [Security],KeySpec property, IX509Private
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.KeySpec"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICComponentFactory, IWICComponentFactory interface [Windows Imagi
 ms.topic: interface
 f1_keywords: 
  - "wincodecsdk/IWICComponentFactory"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

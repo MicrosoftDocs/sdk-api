@@ -12,6 +12,8 @@ ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopol
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.GetFullTopology"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

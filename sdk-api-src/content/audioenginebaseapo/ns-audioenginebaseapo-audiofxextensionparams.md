@@ -12,6 +12,8 @@ ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Dev
 ms.topic: struct
 f1_keywords: 
  - "audioenginebaseapo/AudioFXExtensionParams"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

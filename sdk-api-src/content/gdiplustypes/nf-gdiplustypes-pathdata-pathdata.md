@@ -12,6 +12,8 @@ ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData cons
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/PathData.PathData"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

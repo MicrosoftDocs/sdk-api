@@ -12,6 +12,8 @@ ms.keywords: 5a963b18-3c66-7707-2028-6e38c0de7531, ID3D10EffectVectorVariable in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.SetIntVector"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

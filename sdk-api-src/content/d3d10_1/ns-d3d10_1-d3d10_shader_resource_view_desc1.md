@@ -12,6 +12,8 @@ ms.keywords: 7b42f6ed-d20a-945b-ecb4-4ba1aa8d083c, D3D10_SHADER_RESOURCE_VIEW_DE
 ms.topic: struct
 f1_keywords: 
  - "d3d10_1/D3D10_SHADER_RESOURCE_VIEW_DESC1"
+dev_langs:
+ - c++
 req.header: d3d10_1.h
 req.include-header: D3D10_1Shader.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_KEYBOARD_QUERY_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_ATTRIBUTES co
 ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

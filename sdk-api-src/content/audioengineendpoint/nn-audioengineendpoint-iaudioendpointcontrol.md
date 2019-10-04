@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desk
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointControl"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

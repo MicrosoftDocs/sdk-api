@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisual
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisualBrush.SetVisualLocal"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

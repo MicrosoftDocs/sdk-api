@@ -12,6 +12,8 @@ ms.keywords: GetMaxNetPacketSize, GetMaxNetPacketSize method [windows Media Form
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig2.GetMaxNetPacketSize"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

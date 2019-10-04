@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Ag
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IAutomaticUpdates2"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

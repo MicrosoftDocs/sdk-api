@@ -12,6 +12,8 @@ ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], I
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_Encoder"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

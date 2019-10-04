@@ -12,6 +12,8 @@ ms.keywords: "*PNET_IF_DIRECTION_TYPE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTIO
 ms.topic: enum
 f1_keywords: 
  - "ifdef/NET_IF_DIRECTION_TYPE"
+dev_langs:
+ - c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterS
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.LoadParameterSet"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

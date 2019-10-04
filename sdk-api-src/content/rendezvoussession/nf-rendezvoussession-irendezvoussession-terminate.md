@@ -12,6 +12,8 @@ ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, 
 ms.topic: method
 f1_keywords: 
  - "rendezvoussession/IRendezvousSession.Terminate"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

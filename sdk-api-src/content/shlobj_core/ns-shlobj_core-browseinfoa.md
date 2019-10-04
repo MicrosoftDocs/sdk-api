@@ -12,6 +12,8 @@ ms.keywords: "*LPBROWSEINFOA, *PBROWSEINFOA, BIF_BROWSEFILEJUNCTIONS, BIF_BROWSE
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/BROWSEINFO"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

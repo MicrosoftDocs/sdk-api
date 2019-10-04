@@ -12,6 +12,8 @@ ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method,
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhReassociation.GetConfigurationDetails"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

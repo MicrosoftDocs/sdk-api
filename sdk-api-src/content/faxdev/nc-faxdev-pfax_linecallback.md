@@ -12,6 +12,8 @@ ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], P
 ms.topic: callback
 f1_keywords: 
  - "faxdev/FaxLineCallback"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

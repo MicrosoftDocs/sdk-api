@@ -12,6 +12,8 @@ ms.keywords: ISdoCollection interface [Network Policy Server],Remove method, ISd
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoCollection.Remove"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

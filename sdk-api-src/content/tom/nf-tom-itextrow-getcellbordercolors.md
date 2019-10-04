@@ -12,6 +12,8 @@ ms.keywords: GetCellBorderColors, GetCellBorderColors method [Windows Controls],
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellBorderColors"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

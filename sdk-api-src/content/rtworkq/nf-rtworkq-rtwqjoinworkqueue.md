@@ -12,6 +12,8 @@ ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkque
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqJoinWorkQueue"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

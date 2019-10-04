@@ -12,6 +12,8 @@ ms.keywords: 0, ITfSystemDeviceTypeLangBarItem interface [Text Services Framewor
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfSystemDeviceTypeLangBarItem.SetIconMode"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

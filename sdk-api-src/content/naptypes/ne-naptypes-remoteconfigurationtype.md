@@ -12,6 +12,8 @@ ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP],
 ms.topic: enum
 f1_keywords: 
  - "naptypes/RemoteConfigurationType"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

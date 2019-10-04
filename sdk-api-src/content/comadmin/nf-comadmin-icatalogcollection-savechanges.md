@@ -12,6 +12,8 @@ ms.keywords: ICatalogCollection interface [COM+],SaveChanges method, ICatalogCol
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.SaveChanges"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

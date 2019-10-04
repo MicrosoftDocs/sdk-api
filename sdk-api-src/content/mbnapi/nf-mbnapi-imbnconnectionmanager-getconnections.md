@@ -12,6 +12,8 @@ ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionManager.GetConnections"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

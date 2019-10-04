@@ -12,6 +12,8 @@ ms.keywords: FSCTL_CREATE_OR_GET_OBJECT_ID, FSCTL_CREATE_OR_GET_OBJECT_ID contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_TYPE, DXGI_OUTDUPL_POINTER_SHAPE_TYPE en
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_TYPE"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

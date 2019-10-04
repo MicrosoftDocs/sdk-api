@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_ATTACH_FN, PIBIO_STORAGE_ATTACH_FN callback, StorageA
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterAttach
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

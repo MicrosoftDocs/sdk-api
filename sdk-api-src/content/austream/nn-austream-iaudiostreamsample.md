@@ -12,6 +12,8 @@ ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAud
 ms.topic: interface
 f1_keywords: 
  - "austream/IAudioStreamSample"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

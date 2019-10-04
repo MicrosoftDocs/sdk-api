@@ -12,6 +12,8 @@ ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],ScanNetwork 
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnInterface.ScanNetwork"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

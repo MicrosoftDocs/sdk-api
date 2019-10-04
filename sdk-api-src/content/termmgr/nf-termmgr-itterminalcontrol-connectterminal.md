@@ -12,6 +12,8 @@ ms.keywords: ConnectTerminal, ConnectTerminal method [TAPI 2.2], ConnectTerminal
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITTerminalControl.ConnectTerminal"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

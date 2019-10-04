@@ -12,6 +12,8 @@ ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files]
 ms.topic: function
 f1_keywords: 
  - "ktmw32/RollbackTransactionAsync"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

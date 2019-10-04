@@ -12,6 +12,8 @@ ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
 ms.topic: function
 f1_keywords: 
  - "qos2/QOSCancel"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

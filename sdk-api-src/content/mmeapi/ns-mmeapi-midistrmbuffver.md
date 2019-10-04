@@ -12,6 +12,8 @@ ms.keywords: MIDISTRMBUFFVER, MIDISTRMBUFFVER structure [Windows Multimedia], _w
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIDISTRMBUFFVER"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

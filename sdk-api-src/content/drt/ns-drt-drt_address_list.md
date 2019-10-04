@@ -12,6 +12,8 @@ ms.keywords: '*PDRT_ADDRESS_LIST, DRT_ADDRESS_LIST, DRT_ADDRESS_LIST structure [
 ms.topic: struct
 f1_keywords:
 - drt/DRT_ADDRESS_LIST
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

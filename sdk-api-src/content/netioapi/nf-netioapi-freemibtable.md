@@ -12,6 +12,8 @@ ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable
 ms.topic: function
 f1_keywords: 
  - "netioapi/FreeMibTable"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

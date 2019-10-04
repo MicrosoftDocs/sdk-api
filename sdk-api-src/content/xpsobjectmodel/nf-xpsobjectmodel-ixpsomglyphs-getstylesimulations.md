@@ -12,6 +12,8 @@ ms.keywords: GetStyleSimulations, GetStyleSimulations method [XPS Documents and 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.GetStyleSimulations"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

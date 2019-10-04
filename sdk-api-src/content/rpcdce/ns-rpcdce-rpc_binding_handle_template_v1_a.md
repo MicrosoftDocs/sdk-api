@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BHT_OBJECT_UUID_VALID, RPC
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

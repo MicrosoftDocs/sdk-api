@@ -12,6 +12,8 @@ ms.keywords: EnumConflicts, EnumConflicts method [Windows Shell], EnumConflicts 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictStore.EnumConflicts"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

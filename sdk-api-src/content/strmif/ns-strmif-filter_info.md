@@ -12,6 +12,8 @@ ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructu
 ms.topic: struct
 f1_keywords: 
  - "strmif/FILTER_INFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

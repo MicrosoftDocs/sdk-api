@@ -12,6 +12,8 @@ ms.keywords: GetBValue, GetBValue macro [Windows GDI], _win32_GetBValue, gdi.get
 ms.topic: macro
 f1_keywords: 
  - "wingdi/GetBValue"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

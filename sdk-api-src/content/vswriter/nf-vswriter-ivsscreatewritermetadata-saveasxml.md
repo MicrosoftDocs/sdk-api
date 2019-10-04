@@ -12,6 +12,8 @@ ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCrea
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateWriterMetadata.SaveAsXML"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

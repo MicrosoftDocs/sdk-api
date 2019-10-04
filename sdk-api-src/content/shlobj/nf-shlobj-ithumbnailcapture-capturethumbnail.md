@@ -12,6 +12,8 @@ ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureT
 ms.topic: method
 f1_keywords: 
  - "shlobj/IThumbnailCapture.CaptureThumbnail"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMMDevice, IMMDevice interface [Core Audio], IMMDevice interface [C
 ms.topic: interface
 f1_keywords: 
  - "mmdeviceapi/IMMDevice"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnInitial
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbPluginNotifySink.OnInitialized"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

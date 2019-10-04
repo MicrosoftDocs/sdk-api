@@ -12,6 +12,8 @@ ms.keywords: WINBIO_CREDENTIAL_ALL, WINBIO_CREDENTIAL_PASSWORD, WinBioRemoveCred
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioRemoveCredential"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

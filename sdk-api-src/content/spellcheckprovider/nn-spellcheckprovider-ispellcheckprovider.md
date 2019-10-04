@@ -12,6 +12,8 @@ ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationaliz
 ms.topic: interface
 f1_keywords: 
  - "spellcheckprovider/ISpellCheckProvider"
+dev_langs:
+ - c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

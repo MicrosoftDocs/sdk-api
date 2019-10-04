@@ -12,6 +12,8 @@ ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Acti
 ms.topic: method
 f1_keywords: 
  - "cmnquery/IQueryForm.AddPages"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

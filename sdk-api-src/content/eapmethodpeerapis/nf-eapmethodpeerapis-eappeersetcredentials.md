@@ -12,6 +12,8 @@ ms.keywords: EapPeerSetCredentials, EapPeerSetCredentials function [EAPHost], ea
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerSetCredentials
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

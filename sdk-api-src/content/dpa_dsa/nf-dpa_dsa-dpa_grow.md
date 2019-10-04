@@ -12,6 +12,8 @@ ms.keywords: DPA_Grow, DPA_Grow function [Windows Controls], _shell_DPA_Grow, _s
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_Grow"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

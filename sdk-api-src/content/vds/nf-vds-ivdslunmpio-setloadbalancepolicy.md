@@ -12,6 +12,8 @@ ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpi
 ms.topic: method
 f1_keywords:
 - vds/IVdsLunMpio.SetLoadBalancePolicy
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

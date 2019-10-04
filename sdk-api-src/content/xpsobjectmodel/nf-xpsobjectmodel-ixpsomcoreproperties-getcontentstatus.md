@@ -12,6 +12,8 @@ ms.keywords: GetContentStatus, GetContentStatus method [XPS Documents and Packag
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetContentStatus"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

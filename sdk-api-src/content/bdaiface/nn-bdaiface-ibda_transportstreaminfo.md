@@ -12,6 +12,8 @@ ms.keywords: IBDA_TransportStreamInfo, IBDA_TransportStreamInfo interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_TransportStreamInfo"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

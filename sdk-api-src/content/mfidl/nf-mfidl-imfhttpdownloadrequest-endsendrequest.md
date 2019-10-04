@@ -12,6 +12,8 @@ ms.keywords: EndSendRequest, EndSendRequest method [Media Foundation], EndSendRe
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFHttpDownloadRequest.EndSendRequest"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

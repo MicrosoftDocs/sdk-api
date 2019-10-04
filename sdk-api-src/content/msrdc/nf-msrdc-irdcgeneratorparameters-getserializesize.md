@@ -12,6 +12,8 @@ ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Comp
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGeneratorParameters.GetSerializeSize"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

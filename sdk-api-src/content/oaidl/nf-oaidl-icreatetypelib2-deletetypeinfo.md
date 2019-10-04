@@ -12,6 +12,8 @@ ms.keywords: DeleteTypeInfo, DeleteTypeInfo method [Automation], DeleteTypeInfo 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib2.DeleteTypeInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSi
 ms.topic: method
 f1_keywords: 
  - "refptrco/TRefPointerCollection.GetSize"
+dev_langs:
+ - c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

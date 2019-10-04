@@ -12,6 +12,8 @@ ms.keywords: GetTable, GetTable method [Windows Accessibility], GetTable method 
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationProxyFactoryMapping.GetTable"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

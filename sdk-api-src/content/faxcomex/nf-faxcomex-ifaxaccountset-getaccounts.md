@@ -12,6 +12,8 @@ ms.keywords: GetAccounts, GetAccounts method [Fax Service], GetAccounts method [
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountSet.GetAccounts"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

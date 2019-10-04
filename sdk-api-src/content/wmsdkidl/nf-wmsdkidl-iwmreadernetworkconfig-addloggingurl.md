@@ -12,6 +12,8 @@ ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLogg
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.AddLoggingUrl"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

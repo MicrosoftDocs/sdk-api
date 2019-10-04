@@ -12,6 +12,8 @@ ms.keywords: "*PPOST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO, POST_UPGRA
 ms.topic: struct
 f1_keywords: 
  - "resapi/POST_UPGRADE_VERSION_INFO"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

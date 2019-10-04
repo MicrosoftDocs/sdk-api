@@ -12,6 +12,8 @@ ms.keywords: IWTSPlugin interface [Remote Desktop Services],Terminated method, I
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSPlugin.Terminated"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

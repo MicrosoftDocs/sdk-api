@@ -12,6 +12,8 @@ ms.keywords: GetFontCount, GetFontCount method [Direct Write], GetFontCount meth
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontList.GetFontCount"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_NOTIFICATION_MSM
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

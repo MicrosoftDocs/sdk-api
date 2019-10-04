@@ -12,6 +12,8 @@ ms.keywords: LBItemFromPt, LBItemFromPt function [Windows Controls], _win32_LBIt
 ms.topic: function
 f1_keywords: 
  - "commctrl/LBItemFromPt"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetImmediateContext2, GetImmediateContext2 method [Direct3D 11], Ge
 ms.topic: method
 f1_keywords: 
  - "d3d11_2/ID3D11Device2.GetImmediateContext2"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

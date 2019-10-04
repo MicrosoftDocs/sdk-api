@@ -12,6 +12,8 @@ ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM 
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/GetDeviceRegistrationInfo"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

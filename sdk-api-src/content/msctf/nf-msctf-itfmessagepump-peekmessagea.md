@@ -12,6 +12,8 @@ ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageA met
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfMessagePump.PeekMessageA"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

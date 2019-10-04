@@ -12,6 +12,8 @@ ms.keywords: DisallowStartOnRemoteAppSession property [Task Scheduler], Disallow
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings2.DisallowStartOnRemoteAppSession"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

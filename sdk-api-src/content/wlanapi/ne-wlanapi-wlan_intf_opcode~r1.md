@@ -6,6 +6,8 @@ ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
 ms.topic: language-reference
 f1_keywords: 
  - "wlanapi/_WLAN_INTF_OPCODE"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

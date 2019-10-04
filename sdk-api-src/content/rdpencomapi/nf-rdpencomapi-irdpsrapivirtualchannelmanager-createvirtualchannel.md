@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, Cre
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIVirtualChannelManager.CreateVirtualChannel"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

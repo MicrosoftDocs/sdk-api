@@ -12,6 +12,8 @@ ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], D
 ms.topic: function
 f1_keywords: 
  - "sspi/DeleteSecurityPackage"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF interface [VDS],Mount method, IVdsVolumeMF.Mount, IVds
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF.Mount"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

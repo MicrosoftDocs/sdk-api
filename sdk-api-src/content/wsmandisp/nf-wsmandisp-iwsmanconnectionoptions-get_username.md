@@ -12,6 +12,8 @@ ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],UserN
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManConnectionOptions.UserName"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

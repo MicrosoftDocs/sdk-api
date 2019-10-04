@@ -12,6 +12,8 @@ ms.keywords: GetThreadGroupSize, GetThreadGroupSize method [Direct3D 11], GetThr
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflection.GetThreadGroupSize"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

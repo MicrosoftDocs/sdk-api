@@ -12,6 +12,8 @@ ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interf
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSecurityInfo.Remove"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

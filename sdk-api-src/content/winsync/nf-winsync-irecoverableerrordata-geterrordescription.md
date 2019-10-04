@@ -12,6 +12,8 @@ ms.keywords: GetErrorDescription, GetErrorDescription method [Windows Sync], Get
 ms.topic: method
 f1_keywords: 
  - "winsync/IRecoverableErrorData.GetErrorDescription"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

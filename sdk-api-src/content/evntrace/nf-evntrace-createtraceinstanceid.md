@@ -12,6 +12,8 @@ ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_c
 ms.topic: function
 f1_keywords: 
  - "evntrace/CreateTraceInstanceId"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

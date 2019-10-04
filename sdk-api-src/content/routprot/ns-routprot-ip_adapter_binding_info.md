@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO, IP_ADAPTER_BIN
 ms.topic: struct
 f1_keywords: 
  - "routprot/IP_ADAPTER_BINDING_INFO"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, ba
 ms.topic: function
 f1_keywords: 
  - "interlockedapi/InterlockedPushListSListEx"
+dev_langs:
+ - c++
 req.header: interlockedapi.h
 req.include-header: Windows.h
 req.target-type: Windows

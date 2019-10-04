@@ -12,6 +12,8 @@ ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertif
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSecureChannel.GetCertificate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

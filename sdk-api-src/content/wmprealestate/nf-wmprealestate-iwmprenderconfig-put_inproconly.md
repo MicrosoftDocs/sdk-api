@@ -12,6 +12,8 @@ ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly me
 ms.topic: method
 f1_keywords: 
  - "wmprealestate/IWMPRenderConfig.put_inProcOnly"
+dev_langs:
+ - c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

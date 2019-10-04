@@ -12,6 +12,8 @@ ms.keywords: CreateView, CreateView method [Remote Differential Compression], Cr
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMapping.CreateView"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

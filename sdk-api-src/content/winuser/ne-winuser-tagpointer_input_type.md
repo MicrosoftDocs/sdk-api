@@ -12,6 +12,8 @@ ms.keywords: POINTER_INPUT_TYPE, POINTER_INPUT_TYPE enumeration [Input Messages 
 ms.topic: enum
 f1_keywords: 
  - "winuser/POINTER_INPUT_TYPE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

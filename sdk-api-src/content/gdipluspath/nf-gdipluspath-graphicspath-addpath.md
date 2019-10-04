@@ -12,6 +12,8 @@ ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath 
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddPath"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPPSHNOTIFY, LPPSHNOTIFY, LPPSHNOTIFY structure pointer [Windows 
 ms.topic: struct
 f1_keywords:
 - prsht/PSHNOTIFY
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

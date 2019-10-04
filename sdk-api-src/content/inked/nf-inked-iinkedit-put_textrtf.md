@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],TextRTF property, IInkEdit.TextRTF, 
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.TextRTF"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

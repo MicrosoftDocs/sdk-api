@@ -12,6 +12,8 @@ ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALL_PRIVILEGE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

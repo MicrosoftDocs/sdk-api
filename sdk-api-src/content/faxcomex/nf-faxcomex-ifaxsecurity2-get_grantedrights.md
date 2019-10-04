@@ -12,6 +12,8 @@ ms.keywords: GrantedRights property [Fax Service], GrantedRights property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSecurity2.GrantedRights"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

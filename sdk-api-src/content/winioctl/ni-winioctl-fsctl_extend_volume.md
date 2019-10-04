@@ -12,6 +12,8 @@ ms.keywords: FSCTL_EXTEND_VOLUME, FSCTL_EXTEND_VOLUME control, FSCTL_EXTEND_VOLU
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_EXTEND_VOLUME"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

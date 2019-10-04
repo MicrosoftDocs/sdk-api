@@ -12,6 +12,8 @@ ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Wind
 ms.topic: struct
 f1_keywords: 
  - "cpl/NEWCPLINFO"
+dev_langs:
+ - c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

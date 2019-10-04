@@ -12,6 +12,8 @@ ms.keywords: IWMPError interface [Windows Media Player],get_errorCount method, I
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPError.get_errorCount"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

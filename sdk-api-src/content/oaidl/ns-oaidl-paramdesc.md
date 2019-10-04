@@ -12,6 +12,8 @@ ms.keywords: "*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automati
 ms.topic: struct
 f1_keywords: 
  - "oaidl/PARAMDESC"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

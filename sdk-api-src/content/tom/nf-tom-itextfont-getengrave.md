@@ -12,6 +12,8 @@ ms.keywords: GetEngrave, GetEngrave method [Windows Controls], GetEngrave method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetEngrave"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

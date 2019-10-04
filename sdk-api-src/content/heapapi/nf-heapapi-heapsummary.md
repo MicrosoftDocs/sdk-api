@@ -4,6 +4,10 @@ title: HeapSummary
 ms.date: 4/26/2019
 ms.keywords: HeapSummary
 ms.topic: language-reference
+f1_keywords:
+ - HeapSummary
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

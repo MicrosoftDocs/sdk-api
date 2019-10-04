@@ -12,6 +12,8 @@ ms.keywords: GetMetafileSize, GetMetafileSize method [GDI+], GetMetafileSize met
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetMetafileSize"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

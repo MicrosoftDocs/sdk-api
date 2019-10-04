@@ -12,6 +12,8 @@ ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty me
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerExit.GetCertificateProperty"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

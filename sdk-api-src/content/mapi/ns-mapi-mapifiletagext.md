@@ -12,6 +12,8 @@ ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMap
 ms.topic: struct
 f1_keywords: 
  - "mapi/MapiFileTagExt"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

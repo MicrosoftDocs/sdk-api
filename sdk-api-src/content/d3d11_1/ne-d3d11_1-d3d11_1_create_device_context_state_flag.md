@@ -12,6 +12,8 @@ ms.keywords: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG, D3D11_1_CREATE_DEVICE_CON
 ms.topic: enum
 f1_keywords: 
  - "d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

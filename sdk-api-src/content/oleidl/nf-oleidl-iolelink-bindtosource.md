@@ -12,6 +12,8 @@ ms.keywords: BindToSource, BindToSource method [COM], BindToSource method [COM],
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleLink.BindToSource"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

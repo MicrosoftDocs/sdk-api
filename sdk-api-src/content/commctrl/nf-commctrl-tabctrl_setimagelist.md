@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetImageList, TabCtrl_SetImageList macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetImageList"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

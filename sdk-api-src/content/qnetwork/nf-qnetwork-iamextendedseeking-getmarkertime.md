@@ -12,6 +12,8 @@ ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime met
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking.GetMarkerTime"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_inet_ntoa_2, inet_ntoa, inet_ntoa function [Winsock], winso
 ms.topic: macro
 f1_keywords: 
  - "wsipv6ok/inet_ntoa"
+dev_langs:
+ - c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

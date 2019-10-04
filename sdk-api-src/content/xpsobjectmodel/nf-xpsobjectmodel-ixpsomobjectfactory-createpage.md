@@ -12,6 +12,8 @@ ms.keywords: CreatePage, CreatePage method [XPS Documents and Packaging], Create
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMObjectFactory.CreatePage"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

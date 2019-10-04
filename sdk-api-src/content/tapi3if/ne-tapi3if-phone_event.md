@@ -12,6 +12,8 @@ ms.keywords: PE_ANSWER, PE_BUTTON, PE_CAPSCHANGE, PE_CLOSE, PE_DIALING, PE_DISCO
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/PHONE_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

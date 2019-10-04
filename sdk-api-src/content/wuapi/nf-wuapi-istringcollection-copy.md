@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Upda
 ms.topic: method
 f1_keywords: 
  - "wuapi/IStringCollection.Copy"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

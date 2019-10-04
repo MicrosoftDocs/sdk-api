@@ -12,6 +12,8 @@ ms.keywords: RemoveVectoredExceptionHandler, RemoveVectoredExceptionHandler func
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/RemoveVectoredExceptionHandler"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

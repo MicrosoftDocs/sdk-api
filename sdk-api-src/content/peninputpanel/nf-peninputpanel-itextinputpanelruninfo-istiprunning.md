@@ -12,6 +12,8 @@ ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo interf
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelRunInfo.IsTipRunning"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

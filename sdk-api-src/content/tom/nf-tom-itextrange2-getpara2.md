@@ -12,6 +12,8 @@ ms.keywords: GetPara2, GetPara2 method [Windows Controls], GetPara2 method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetPara2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

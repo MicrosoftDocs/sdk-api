@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayer interface [Windows Media Player],get_uiMode method, IWMP
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayer.get_uiMode"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

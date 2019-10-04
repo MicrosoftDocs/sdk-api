@@ -12,6 +12,8 @@ ms.keywords: SetDCPenColor, SetDCPenColor function [Windows GDI], _win32_SetDCPe
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetDCPenColor"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncChanges interface [Windows Sync],Next method, IEnumSyncCha
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumSyncChanges.Next"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

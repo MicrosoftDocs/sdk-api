@@ -12,6 +12,8 @@ ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Dis
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetPreviousAutoflip
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: PeerGroupOpenDirectConnection, PeerGroupOpenDirectConnection functi
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGroupOpenDirectConnection"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

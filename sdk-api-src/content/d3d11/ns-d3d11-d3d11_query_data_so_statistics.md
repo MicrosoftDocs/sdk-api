@@ -12,6 +12,8 @@ ms.keywords: 595165cc-6026-e884-f8d4-b74f4fc8e939, D3D11_QUERY_DATA_SO_STATISTIC
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_QUERY_DATA_SO_STATISTICS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

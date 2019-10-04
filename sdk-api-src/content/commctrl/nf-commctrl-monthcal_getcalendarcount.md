@@ -12,6 +12,8 @@ ms.keywords: MonthCal_GetCalendarCount, MonthCal_GetCalendarCount macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_GetCalendarCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

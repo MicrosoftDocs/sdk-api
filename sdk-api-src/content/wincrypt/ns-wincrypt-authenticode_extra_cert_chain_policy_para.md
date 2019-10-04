@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CE
 ms.topic: struct
 f1_keywords:
 - wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

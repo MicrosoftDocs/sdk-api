@@ -12,6 +12,8 @@ ms.keywords: "?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z, ?GetStructtm@WBEMTime@@QEBAH
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTime.GetStructtm"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStru
 ms.topic: struct
 f1_keywords: 
  - "avifmt/AVIPALCHANGE"
+dev_langs:
+ - c++
 req.header: avifmt.h
 req.include-header: Vfw.h
 req.target-type: Windows

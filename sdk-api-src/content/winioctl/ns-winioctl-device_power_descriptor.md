@@ -12,6 +12,8 @@ ms.keywords: '*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_D
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_POWER_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

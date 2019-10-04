@@ -12,6 +12,8 @@ ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method
 ms.topic: method
 f1_keywords: 
  - "d3d11_1/ID3D11VideoDevice1.CheckVideoDecoderDownsampling"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

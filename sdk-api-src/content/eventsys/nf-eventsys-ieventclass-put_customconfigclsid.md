@@ -12,6 +12,8 @@ ms.keywords: CustomConfigCLSID property [COM+], CustomConfigCLSID property [COM+
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventClass.CustomConfigCLSID"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

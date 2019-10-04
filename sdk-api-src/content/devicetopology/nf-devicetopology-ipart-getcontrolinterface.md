@@ -12,6 +12,8 @@ ms.keywords: GetControlInterface, GetControlInterface method [Core Audio], GetCo
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.GetControlInterface"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

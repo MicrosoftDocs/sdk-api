@@ -12,6 +12,8 @@ ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLe
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastLeaseInfo.get_RequestID"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

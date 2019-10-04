@@ -10,6 +10,8 @@ ms.keywords: D3D12_DRED_ALLOCATION_NODE, D3D12_DRED_ALLOCATION_NODE structure, d
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_DRED_ALLOCATION_NODE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

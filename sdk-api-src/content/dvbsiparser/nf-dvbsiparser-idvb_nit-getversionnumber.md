@@ -12,6 +12,8 @@ ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_NIT.GetVersionNumber"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

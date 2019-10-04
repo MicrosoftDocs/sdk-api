@@ -12,6 +12,8 @@ ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetPolic
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.SetPolicy"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

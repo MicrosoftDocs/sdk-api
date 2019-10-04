@@ -12,6 +12,8 @@ ms.keywords: BoundingOrientedBox, BoundingOrientedBox structure [DirectX Math Su
 ms.topic: struct
 f1_keywords: 
  - "directxcollision/BoundingOrientedBox"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

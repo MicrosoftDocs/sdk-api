@@ -12,6 +12,8 @@ ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectabl
 ms.topic: interface
 f1_keywords: 
  - "inspectable/IInspectable"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

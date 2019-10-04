@@ -12,6 +12,8 @@ ms.keywords: IActionProgressDialog interface [Windows Shell],Initialize method, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IActionProgressDialog.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

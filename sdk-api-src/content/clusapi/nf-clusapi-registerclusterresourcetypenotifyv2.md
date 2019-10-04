@@ -12,6 +12,8 @@ ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNot
 ms.topic: function
 f1_keywords: 
  - "clusapi/RegisterClusterResourceTypeNotifyV2"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

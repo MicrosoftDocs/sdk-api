@@ -12,6 +12,8 @@ ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,descri
 ms.topic: interface
 f1_keywords: 
  - "wpcapi/IWPCSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

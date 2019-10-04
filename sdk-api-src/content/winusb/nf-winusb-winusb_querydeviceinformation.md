@@ -12,6 +12,8 @@ ms.keywords: WinUsb_QueryDeviceInformation, WinUsb_QueryDeviceInformation functi
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_QueryDeviceInformation"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

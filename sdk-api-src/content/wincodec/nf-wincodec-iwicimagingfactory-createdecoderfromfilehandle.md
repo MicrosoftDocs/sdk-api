@@ -12,6 +12,8 @@ ms.keywords: CreateDecoderFromFileHandle, CreateDecoderFromFileHandle method [Wi
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICImagingFactory.CreateDecoderFromFileHandle"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

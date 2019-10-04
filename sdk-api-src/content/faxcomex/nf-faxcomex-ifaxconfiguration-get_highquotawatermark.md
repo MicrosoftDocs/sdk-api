@@ -12,6 +12,8 @@ ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark prope
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.HighQuotaWaterMark"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEf
 ms.topic: interface
 f1_keywords: 
  - "effects/IWMPEffects2"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

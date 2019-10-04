@@ -12,6 +12,8 @@ ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winus
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_Free"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

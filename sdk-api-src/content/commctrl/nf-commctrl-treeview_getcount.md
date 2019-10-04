@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

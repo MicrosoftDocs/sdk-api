@@ -12,6 +12,8 @@ ms.keywords: CGAFT, CGAFT enumeration [Failover Cluster], CLUSTER_GROUP_AUTOFAIL
 ms.topic: enum
 f1_keywords: 
  - "msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

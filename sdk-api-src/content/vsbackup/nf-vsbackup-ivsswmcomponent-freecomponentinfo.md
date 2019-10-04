@@ -12,6 +12,8 @@ ms.keywords: FreeComponentInfo, FreeComponentInfo method [VSS], FreeComponentInf
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssWMComponent.FreeComponentInfo
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

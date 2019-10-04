@@ -12,6 +12,8 @@ ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, N
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SubmitNtmsOperatorRequest"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

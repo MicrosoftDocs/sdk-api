@@ -12,6 +12,8 @@ ms.keywords: 6b2716ca-7676-6b26-071d-20ec80705737, ID3D11RasterizerState, ID3D11
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11RasterizerState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

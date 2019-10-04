@@ -12,6 +12,8 @@ ms.keywords: IsStringSupported, IsStringSupported function [Tablet PC], b646225a
 ms.topic: function
 f1_keywords: 
  - "recapis/IsStringSupported"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

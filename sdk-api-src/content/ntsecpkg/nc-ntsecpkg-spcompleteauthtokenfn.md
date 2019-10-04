@@ -12,6 +12,8 @@ ms.keywords: SpCompleteAuthToken, SpCompleteAuthToken callback function [Securit
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpCompleteAuthToken
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

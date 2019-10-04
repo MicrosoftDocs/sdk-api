@@ -12,6 +12,8 @@ ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetE
 ms.topic: function
 f1_keywords: 
  - "recapis/GetEnabledUnicodeRanges"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

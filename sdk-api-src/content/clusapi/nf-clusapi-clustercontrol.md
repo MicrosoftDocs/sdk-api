@@ -12,6 +12,8 @@ ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_c
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterControl"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISdoCollection interface [Network Policy Server],get_Count method, 
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoCollection.get_Count"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

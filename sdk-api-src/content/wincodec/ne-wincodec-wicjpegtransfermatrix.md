@@ -12,6 +12,8 @@ ms.keywords: WICJpegTransferMatrix, WICJpegTransferMatrix enumeration [Windows I
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICJpegTransferMatrix"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

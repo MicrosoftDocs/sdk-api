@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGI
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptNotifyChangeKey"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

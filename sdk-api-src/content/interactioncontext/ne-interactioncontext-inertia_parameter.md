@@ -12,6 +12,8 @@ ms.keywords: INERTIA_PARAMETER, INERTIA_PARAMETER enumeration, INERTIA_PARAMETER
 ms.topic: enum
 f1_keywords: 
  - "interactioncontext/INERTIA_PARAMETER"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

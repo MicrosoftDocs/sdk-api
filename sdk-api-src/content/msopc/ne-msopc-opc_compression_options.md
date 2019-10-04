@@ -12,6 +12,8 @@ ms.keywords: OPC_COMPRESSION_FAST, OPC_COMPRESSION_MAXIMUM, OPC_COMPRESSION_NONE
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_COMPRESSION_OPTIONS"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

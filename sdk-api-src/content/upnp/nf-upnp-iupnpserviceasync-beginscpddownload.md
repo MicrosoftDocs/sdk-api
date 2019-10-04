@@ -12,6 +12,8 @@ ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDD
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.BeginSCPDDownload"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

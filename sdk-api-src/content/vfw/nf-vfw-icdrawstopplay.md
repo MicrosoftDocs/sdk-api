@@ -12,6 +12,8 @@ ms.keywords: ICDrawStopPlay, ICDrawStopPlay macro [Windows Multimedia], _win32_I
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDrawStopPlay"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

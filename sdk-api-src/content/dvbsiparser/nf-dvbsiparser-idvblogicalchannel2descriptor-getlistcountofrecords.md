@@ -12,6 +12,8 @@ ms.keywords: GetListCountOfRecords, GetListCountOfRecords method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListCountOfRecords"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTransportInformationAsync, GetTransportInformationAsync method [
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IMediaRenderer.GetTransportInformationAsync"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

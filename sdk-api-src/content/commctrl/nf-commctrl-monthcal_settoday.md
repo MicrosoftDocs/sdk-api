@@ -12,6 +12,8 @@ ms.keywords: MonthCal_SetToday, MonthCal_SetToday macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetToday"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

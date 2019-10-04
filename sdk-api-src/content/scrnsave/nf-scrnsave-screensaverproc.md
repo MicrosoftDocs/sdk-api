@@ -12,6 +12,8 @@ ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_S
 ms.topic: function
 f1_keywords: 
  - "scrnsave/ScreenSaverProc"
+dev_langs:
+ - c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

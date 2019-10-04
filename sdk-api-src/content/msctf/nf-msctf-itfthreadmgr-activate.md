@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Text Services Framework], Activate metho
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr.Activate"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VD
 ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorAdapter.GetProperties
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TAPI_OBJECT_TYPE, TAPI_OBJECT_TYPE enumeration [TAPI 2.2], TOT_ADDR
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/TAPI_OBJECT_TYPE"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CancelIPChangeNotify, CancelIPChangeNotify function [IP Helper], ip
 ms.topic: function
 f1_keywords:
 - iphlpapi/CancelIPChangeNotify
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

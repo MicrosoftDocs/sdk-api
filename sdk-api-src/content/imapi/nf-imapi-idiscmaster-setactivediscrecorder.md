@@ -12,6 +12,8 @@ ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscRecorder method, IDiscMa
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.SetActiveDiscRecorder"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

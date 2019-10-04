@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Po
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinition.PossibleValues"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Depl
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeProviderQueryIndex"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

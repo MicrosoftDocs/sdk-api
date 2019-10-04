@@ -12,6 +12,8 @@ ms.keywords: "*LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPERATURE, LPMC_COLOR_TEMPER
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_COLOR_TEMPERATURE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

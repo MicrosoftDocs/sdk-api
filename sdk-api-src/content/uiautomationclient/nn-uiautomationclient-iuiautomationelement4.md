@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationElement4, IUIAutomationElement4 interface [Windows Acc
 ms.topic: interface
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement4"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

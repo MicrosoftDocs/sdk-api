@@ -12,6 +12,8 @@ ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, Cr
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromURL"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

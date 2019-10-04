@@ -12,6 +12,8 @@ ms.keywords: D3D12_DSV_FLAGS, D3D12_DSV_FLAGS enumeration, D3D12_DSV_FLAG_NONE, 
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_DSV_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Fail
 ms.topic: function
 f1_keywords: 
  - "resapi/CloseClusterCryptProvider"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

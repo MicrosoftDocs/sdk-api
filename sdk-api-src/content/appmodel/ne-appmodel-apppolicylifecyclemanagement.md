@@ -12,6 +12,8 @@ ms.keywords: AppPolicyLifecycleManagement, AppPolicyLifecycleManagement enumerat
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyLifecycleManagement"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

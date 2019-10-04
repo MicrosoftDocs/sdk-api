@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OF
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_VOLUME_OFFLINE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

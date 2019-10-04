@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingQueue interface [Fax Service],Paused property, IFaxOutg
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingQueue.Paused"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

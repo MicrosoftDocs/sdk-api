@@ -12,6 +12,8 @@ ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow]
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocator9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

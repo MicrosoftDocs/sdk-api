@@ -12,6 +12,8 @@ ms.keywords: '*POCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY, OCSP_REQUEST_ENTRY struc
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_REQUEST_ENTRY
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

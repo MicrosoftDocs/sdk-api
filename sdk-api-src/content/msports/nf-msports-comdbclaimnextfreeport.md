@@ -12,6 +12,8 @@ ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Por
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBClaimNextFreePort"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

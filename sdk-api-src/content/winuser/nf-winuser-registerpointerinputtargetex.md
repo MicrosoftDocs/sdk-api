@@ -12,6 +12,8 @@ ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function
 ms.topic: function
 f1_keywords: 
  - "winuser/RegisterPointerInputTargetEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

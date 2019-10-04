@@ -12,6 +12,8 @@ ms.keywords: GetDocuments, GetDocuments method [Windows Accessibility], GetDocum
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccClientDocMgr.GetDocuments"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

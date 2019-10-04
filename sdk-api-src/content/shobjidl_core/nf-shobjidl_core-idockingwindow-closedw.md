@@ -12,6 +12,8 @@ ms.keywords: CloseDW, CloseDW method [Windows Shell], CloseDW method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDockingWindow.CloseDW"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

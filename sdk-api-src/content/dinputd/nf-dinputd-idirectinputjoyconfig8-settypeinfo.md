@@ -12,6 +12,8 @@ ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetTypeInfo 
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.SetTypeInfo"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

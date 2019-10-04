@@ -12,6 +12,8 @@ ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC],Move method, IInkR
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.Move"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

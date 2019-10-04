@@ -12,6 +12,8 @@ ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Wind
 ms.topic: function
 f1_keywords: 
  - "winstring/WindowsGetStringRawBuffer"
+dev_langs:
+ - c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

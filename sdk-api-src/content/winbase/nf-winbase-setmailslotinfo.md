@@ -12,6 +12,8 @@ ms.keywords: MAILSLOT_WAIT_FOREVER, SetMailslotInfo, SetMailslotInfo function, _
 ms.topic: function
 f1_keywords: 
  - "winbase/SetMailslotInfo"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

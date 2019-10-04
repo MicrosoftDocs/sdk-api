@@ -12,6 +12,8 @@ ms.keywords: PathStripToRoot, PathStripToRoot function [Windows Shell], PathStri
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathStripToRoot"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

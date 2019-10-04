@@ -12,6 +12,8 @@ ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRateControl.GetRate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

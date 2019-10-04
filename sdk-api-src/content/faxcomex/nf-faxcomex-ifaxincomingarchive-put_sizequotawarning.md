@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingArchive interface [Fax Service],SizeQuotaWarning proper
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingArchive.SizeQuotaWarning"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

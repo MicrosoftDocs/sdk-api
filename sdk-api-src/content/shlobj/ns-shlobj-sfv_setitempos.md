@@ -12,6 +12,8 @@ ms.keywords: '*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windo
 ms.topic: struct
 f1_keywords:
 - shlobj/SFV_SETITEMPOS
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

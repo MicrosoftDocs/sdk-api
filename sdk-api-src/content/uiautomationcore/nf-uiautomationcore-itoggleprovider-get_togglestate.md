@@ -12,6 +12,8 @@ ms.keywords: IToggleProvider interface [Windows Accessibility],ToggleState prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IToggleProvider.ToggleState"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

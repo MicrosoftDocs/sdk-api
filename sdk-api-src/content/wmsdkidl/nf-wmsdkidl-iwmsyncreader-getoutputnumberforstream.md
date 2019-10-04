@@ -12,6 +12,8 @@ ms.keywords: GetOutputNumberForStream, GetOutputNumberForStream method [windows 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMSyncReader.GetOutputNumberForStream"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

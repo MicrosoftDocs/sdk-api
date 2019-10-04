@@ -12,6 +12,8 @@ ms.keywords: TextEditChangeType, TextEditChangeType enumeration [Windows Accessi
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/TextEditChangeType"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

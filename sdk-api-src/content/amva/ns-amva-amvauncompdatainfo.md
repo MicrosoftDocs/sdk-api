@@ -12,6 +12,8 @@ ms.keywords: "*LPAMVAUncompDataInfo, AMVAUncompDataInfo, AMVAUncompDataInfo stru
 ms.topic: struct
 f1_keywords: 
  - "amva/AMVAUncompDataInfo"
+dev_langs:
+ - c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryProviderNotify interface,Remove method, IWSDiscoveryPro
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProviderNotify.Remove"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

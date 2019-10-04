@@ -12,6 +12,8 @@ ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IP
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyChange"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

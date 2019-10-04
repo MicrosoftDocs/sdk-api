@@ -12,6 +12,8 @@ ms.keywords: ALERT_OTHER_INFO, ALERT_OTHER_INFO macro [Network Management], _win
 ms.topic: macro
 f1_keywords:
 - lmalert/ALERT_OTHER_INFO
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

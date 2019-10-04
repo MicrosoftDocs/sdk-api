@@ -12,6 +12,8 @@ ms.keywords: DdeQueryNextServer, DdeQueryNextServer function [Data Exchange], _w
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeQueryNextServer"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

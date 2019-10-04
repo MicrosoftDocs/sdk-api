@@ -12,6 +12,8 @@ ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.S
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskHandler.Stop"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

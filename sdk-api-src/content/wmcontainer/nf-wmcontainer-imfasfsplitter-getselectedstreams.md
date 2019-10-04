@@ -12,6 +12,8 @@ ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.GetSelectedStreams"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [Windows Runtime], GetBuffer method [Wi
 ms.topic: method
 f1_keywords: 
  - "memorybuffer/IMemoryBufferByteAccess.GetBuffer"
+dev_langs:
+ - c++
 req.header: memorybuffer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library 
 ms.topic: method
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingDevice.put_Authorization"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

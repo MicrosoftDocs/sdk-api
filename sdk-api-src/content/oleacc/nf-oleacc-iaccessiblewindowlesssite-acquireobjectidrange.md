@@ -12,6 +12,8 @@ ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessib
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessibleWindowlessSite.AcquireObjectIdRange"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

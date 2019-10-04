@@ -12,6 +12,8 @@ ms.keywords: GetAttributeValues, GetAttributeValues method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange3.GetAttributeValues"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

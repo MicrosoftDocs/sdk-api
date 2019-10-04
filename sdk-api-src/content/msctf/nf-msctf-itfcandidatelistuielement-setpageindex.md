@@ -12,6 +12,8 @@ ms.keywords: ITfCandidateListUIElement interface [Text Services Framework],SetPa
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement.SetPageIndex"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

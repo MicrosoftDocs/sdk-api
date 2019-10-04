@@ -12,6 +12,8 @@ ms.keywords: WMIQ_ANALYSIS_ASSOC_QUERY, WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, WMIQ
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/WMIQ_ANALYSIS_TYPE"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

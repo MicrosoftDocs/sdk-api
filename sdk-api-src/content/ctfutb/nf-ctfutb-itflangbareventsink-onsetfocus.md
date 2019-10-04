@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnSetFocus 
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarEventSink.OnSetFocus"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

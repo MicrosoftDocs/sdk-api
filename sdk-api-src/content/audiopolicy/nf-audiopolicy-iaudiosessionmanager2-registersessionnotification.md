@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterSessionNotific
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionManager2.RegisterSessionNotification"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

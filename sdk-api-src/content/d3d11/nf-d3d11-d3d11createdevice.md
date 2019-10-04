@@ -12,6 +12,8 @@ ms.keywords: 763ee631-eef7-d99f-1d0d-58e3651843f9, D3D11CreateDevice, D3D11Creat
 ms.topic: function
 f1_keywords: 
  - "d3d11/D3D11CreateDevice"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509N
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509NameValuePair"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

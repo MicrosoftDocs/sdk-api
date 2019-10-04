@@ -12,6 +12,8 @@ ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_
 ms.topic: function
 f1_keywords:
 - sspi/AcceptSecurityContext
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

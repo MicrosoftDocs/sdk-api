@@ -12,6 +12,8 @@ ms.keywords: VidMemFree, VidMemFree function [Display Devices], display.vidmemfr
 ms.topic: function
 f1_keywords:
 - dmemmgr/VidMemFree
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal

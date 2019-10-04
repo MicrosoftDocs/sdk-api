@@ -12,6 +12,8 @@ ms.keywords: LZOpenFile, LZOpenFile function [Files], LZOpenFileA, LZOpenFileW, 
 ms.topic: function
 f1_keywords:
 - lzexpand/LZOpenFile
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

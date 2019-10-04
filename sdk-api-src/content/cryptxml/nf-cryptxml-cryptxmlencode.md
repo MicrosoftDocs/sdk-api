@@ -12,6 +12,8 @@ ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptX
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlEncode
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

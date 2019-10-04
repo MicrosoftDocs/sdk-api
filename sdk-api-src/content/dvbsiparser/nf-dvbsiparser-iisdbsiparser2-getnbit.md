@@ -12,6 +12,8 @@ ms.keywords: GetNBIT, GetNBIT method [Microsoft TV Technologies], GetNBIT method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSiParser2.GetNBIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

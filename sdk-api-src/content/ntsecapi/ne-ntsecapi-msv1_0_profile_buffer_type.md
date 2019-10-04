@@ -12,6 +12,8 @@ ms.keywords: "*PMSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_PROFILE_BUFFER_TYPE, MSV1_0_P
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/MSV1_0_PROFILE_TYPE"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemButton interface [Text Services Framework],InitMenu m
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemButton.InitMenu"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

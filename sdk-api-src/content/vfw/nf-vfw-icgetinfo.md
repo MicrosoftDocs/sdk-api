@@ -12,6 +12,8 @@ ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInf
 ms.topic: function
 f1_keywords: 
  - "vfw/ICGetInfo"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Synchronize method, I
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronize.Synchronize
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

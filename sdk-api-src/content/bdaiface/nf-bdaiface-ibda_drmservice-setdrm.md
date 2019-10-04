@@ -12,6 +12,8 @@ ms.keywords: IBDA_DRMService interface [Microsoft TV Technologies],SetDRM method
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DRMService.SetDRM"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

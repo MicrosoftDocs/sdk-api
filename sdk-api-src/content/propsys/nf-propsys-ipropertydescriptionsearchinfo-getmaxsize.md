@@ -12,6 +12,8 @@ ms.keywords: GetMaxSize, GetMaxSize method [Windows Properties], GetMaxSize meth
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescriptionSearchInfo.GetMaxSize"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

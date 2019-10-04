@@ -12,6 +12,8 @@ ms.keywords: WTHelperCertCheckValidSignature, WTHelperCertCheckValidSignature fu
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperCertCheckValidSignature
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

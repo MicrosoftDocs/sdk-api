@@ -12,6 +12,8 @@ ms.keywords: IMcastScope interface [TAPI 2.2],get_InterfaceID method, IMcastScop
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastScope.get_InterfaceID"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

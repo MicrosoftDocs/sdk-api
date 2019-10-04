@@ -12,6 +12,8 @@ ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Wind
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/ICDBurn"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CHStringArray interface [Windows Management Instrumentation],Copy m
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.Copy"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Offline, Offline callback, Offline callback function [Failover Clus
 ms.topic: callback
 f1_keywords: 
  - "resapi/Offline"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

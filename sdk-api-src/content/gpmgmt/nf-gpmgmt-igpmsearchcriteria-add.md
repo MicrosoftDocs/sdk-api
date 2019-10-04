@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [GPMC], Add method [GPMC],IGPMSearchCriteria interf
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSearchCriteria.Add"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

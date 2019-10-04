@@ -12,6 +12,8 @@ ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps
 ms.topic: struct
 f1_keywords: 
  - "xpsobjectmodel/XPS_RECT"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

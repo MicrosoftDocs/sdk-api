@@ -12,6 +12,8 @@ ms.keywords: APPACTIONFLAGS, APPACTIONFLAGS enumeration [Windows Shell], APPACTI
 ms.topic: enum
 f1_keywords: 
  - "shappmgr/APPACTIONFLAGS"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

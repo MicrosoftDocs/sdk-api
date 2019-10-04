@@ -12,6 +12,8 @@ ms.keywords: IAzScope2, IAzScope2 interface [Security], IAzScope2 interface [Sec
 ms.topic: interface
 f1_keywords: 
  - "azroles/IAzScope2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPSEC_SA_CONTEXT_CHANGE0, IPSEC_SA_CONTEXT_CHANGE0 structure [Filte
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_SA_CONTEXT_CHANGE0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

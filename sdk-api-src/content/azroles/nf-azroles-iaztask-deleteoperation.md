@@ -12,6 +12,8 @@ ms.keywords: AzTask object [Security],DeleteOperation method, DeleteOperation, D
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.DeleteOperation"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

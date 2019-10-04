@@ -12,6 +12,8 @@ ms.keywords: AllowForegroundTransfer, AllowForegroundTransfer method [COM], Allo
 ms.topic: method
 f1_keywords: 
  - "objidl/IForegroundTransfer.AllowForegroundTransfer"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

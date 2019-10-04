@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgPathData interface [Direct2D],RemoveCommandsAtEnd method, I
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPathData.RemoveCommandsAtEnd"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

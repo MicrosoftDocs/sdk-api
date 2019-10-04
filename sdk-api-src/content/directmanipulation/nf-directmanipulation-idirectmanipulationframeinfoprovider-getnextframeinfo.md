@@ -12,6 +12,8 @@ ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], Ge
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationFrameInfoProvider.GetNextFrameInfo"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

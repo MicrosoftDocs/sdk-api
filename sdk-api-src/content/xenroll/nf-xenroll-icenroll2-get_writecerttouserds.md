@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 int
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.WriteCertToUserDS"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

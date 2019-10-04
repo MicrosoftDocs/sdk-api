@@ -12,6 +12,8 @@ ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, win
 ms.topic: function
 f1_keywords: 
  - "objbase/CoInstall"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

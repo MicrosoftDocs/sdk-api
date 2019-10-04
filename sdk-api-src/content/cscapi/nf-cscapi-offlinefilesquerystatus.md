@@ -12,6 +12,8 @@ ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline 
 ms.topic: function
 f1_keywords: 
  - "cscapi/OfflineFilesQueryStatus"
+dev_langs:
+ - c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

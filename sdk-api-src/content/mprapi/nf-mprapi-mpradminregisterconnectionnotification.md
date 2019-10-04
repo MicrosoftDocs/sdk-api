@@ -12,6 +12,8 @@ ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionN
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminRegisterConnectionNotification"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

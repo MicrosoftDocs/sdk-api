@@ -12,6 +12,8 @@ ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services]
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.AcceptConnection"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

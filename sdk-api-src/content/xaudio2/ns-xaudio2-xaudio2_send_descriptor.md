@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_SEND_DESCRIPTOR, XAUDIO2_SEND_DESCRIPTOR structure [XAudio2
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_SEND_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

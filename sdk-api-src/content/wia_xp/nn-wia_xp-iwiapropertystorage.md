@@ -12,6 +12,8 @@ ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPrope
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaPropertyStorage"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

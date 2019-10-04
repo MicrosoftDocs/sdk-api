@@ -12,6 +12,8 @@ ms.keywords: EndOfMedia, EndOfMedia method [Microsoft TV Technologies], EndOfMed
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidPlaybackEvent.EndOfMedia"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

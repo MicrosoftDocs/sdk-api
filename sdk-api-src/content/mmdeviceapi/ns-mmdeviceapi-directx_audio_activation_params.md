@@ -12,6 +12,8 @@ ms.keywords: "*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS
 ms.topic: struct
 f1_keywords: 
  - "mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

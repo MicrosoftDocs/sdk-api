@@ -12,6 +12,8 @@ ms.keywords: '*LPNMCBEDRAGBEGINA, *PNMCBEDRAGBEGINA, LPNMCBEDRAGBEGIN, LPNMCBEDR
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCBEDRAGBEGIN
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMEM_RESOURCE, MEM_RESOURCE, MEM_RESOURCE structure [Device and D
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/MEM_RESOURCE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

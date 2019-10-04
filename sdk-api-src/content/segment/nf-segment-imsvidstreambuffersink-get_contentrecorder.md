@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_Co
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink.get_ContentRecorder"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

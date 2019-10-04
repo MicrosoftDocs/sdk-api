@@ -12,6 +12,8 @@ ms.keywords: DEVICE_SCALE_FACTOR, DEVICE_SCALE_FACTOR enumeration [Windows Shell
 ms.topic: enum
 f1_keywords: 
  - "shtypes/DEVICE_SCALE_FACTOR"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

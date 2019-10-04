@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [Direct3D 10], GetBre
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.GetBreakOnCategory"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

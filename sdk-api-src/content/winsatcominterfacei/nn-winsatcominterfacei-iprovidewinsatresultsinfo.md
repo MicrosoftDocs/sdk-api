@@ -12,6 +12,8 @@ ms.keywords: IProvideWinSATResultsInfo, IProvideWinSATResultsInfo interface [Win
 ms.topic: interface
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumStoredMessages, GetNumStoredMessages method [DXGI], GetNumSto
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetNumStoredMessages"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

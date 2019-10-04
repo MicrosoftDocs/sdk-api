@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveout
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutSetPitch"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_F
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_INTERCONNECT_FLAG
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

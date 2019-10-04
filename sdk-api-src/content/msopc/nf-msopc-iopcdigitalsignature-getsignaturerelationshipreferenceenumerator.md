@@ -12,6 +12,8 @@ ms.keywords: GetSignatureRelationshipReferenceEnumerator, GetSignatureRelationsh
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

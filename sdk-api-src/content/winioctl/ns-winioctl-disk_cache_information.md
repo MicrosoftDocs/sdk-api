@@ -12,6 +12,8 @@ ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFOR
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DISK_CACHE_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

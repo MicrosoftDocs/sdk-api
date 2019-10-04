@@ -12,6 +12,8 @@ ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclavea
 ms.topic: function
 f1_keywords: 
  - "enclaveapi/DeleteEnclave"
+dev_langs:
+ - c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

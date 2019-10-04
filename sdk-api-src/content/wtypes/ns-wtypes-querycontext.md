@@ -12,6 +12,8 @@ ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.
 ms.topic: struct
 f1_keywords: 
  - "wtypes/QUERYCONTEXT"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

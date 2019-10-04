@@ -12,6 +12,8 @@ ms.keywords: CopyToBuffer, CopyToBuffer method [Media Foundation], CopyToBuffer 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.CopyToBuffer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

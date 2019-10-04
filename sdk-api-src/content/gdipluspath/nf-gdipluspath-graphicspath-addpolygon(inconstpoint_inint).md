@@ -12,6 +12,8 @@ ms.keywords: AddPolygon, AddPolygon method [GDI+], AddPolygon method [GDI+],Grap
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddPolygon"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

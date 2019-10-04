@@ -12,6 +12,8 @@ ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTE
 ms.topic: enum
 f1_keywords:
 - vds/VDS_TRANSITION_STATE
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

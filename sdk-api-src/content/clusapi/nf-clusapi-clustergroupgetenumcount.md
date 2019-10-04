@@ -12,6 +12,8 @@ ms.keywords: ClusterGroupGetEnumCount, ClusterGroupGetEnumCount function [Failov
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterGroupGetEnumCount"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

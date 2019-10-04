@@ -12,6 +12,8 @@ ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], 
 ms.topic: interface
 f1_keywords: 
  - "propidlbase/IPropertyStorage"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

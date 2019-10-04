@@ -12,6 +12,8 @@ ms.keywords: IPsecSaCreateEnumHandle0, IPsecSaCreateEnumHandle0 function [Filter
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IPsecSaCreateEnumHandle0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

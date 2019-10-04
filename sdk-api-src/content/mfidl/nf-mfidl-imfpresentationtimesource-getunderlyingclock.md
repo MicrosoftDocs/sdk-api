@@ -12,6 +12,8 @@ ms.keywords: 09c8fef8-7288-4356-9671-4c927c0cf502, GetUnderlyingClock, GetUnderl
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationTimeSource.GetUnderlyingClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

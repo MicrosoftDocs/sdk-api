@@ -12,6 +12,8 @@ ms.keywords: ImageList_Read, ImageList_Read function [Windows Controls], _win32_
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Read"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

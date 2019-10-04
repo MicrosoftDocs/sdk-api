@@ -12,6 +12,8 @@ ms.keywords: CItemIDFactory, CItemIDFactory class [Windows Shell], CItemIDFactor
 ms.topic: class
 f1_keywords: 
  - "shidfact/CItemIDFactory"
+dev_langs:
+ - c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

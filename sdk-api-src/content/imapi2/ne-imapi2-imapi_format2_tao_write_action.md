@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_FORMAT2_TAO_WRITE_ACTION, IMAPI_FORMAT2_TAO_WRITE_ACTION, 
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_FORMAT2_TAO_WRITE_ACTION"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

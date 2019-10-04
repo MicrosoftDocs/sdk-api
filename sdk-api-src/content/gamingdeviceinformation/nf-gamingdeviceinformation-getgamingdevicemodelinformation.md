@@ -12,6 +12,8 @@ ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation fu
 ms.topic: function
 f1_keywords: 
  - "gamingdeviceinformation/GetGamingDeviceModelInformation"
+dev_langs:
+ - c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows

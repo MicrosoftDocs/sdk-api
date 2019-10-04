@@ -12,6 +12,8 @@ ms.keywords: FAX_RECIPIENT_CALLBACK, FAX_RECIPIENT_CALLBACK callback, FAX_RECIPI
 ms.topic: callback
 f1_keywords:
 - winfax/FAX_RECIPIENT_CALLBACK
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

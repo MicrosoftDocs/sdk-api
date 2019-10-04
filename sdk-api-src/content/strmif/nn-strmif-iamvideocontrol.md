@@ -12,6 +12,8 @@ ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoCo
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMVideoControl"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

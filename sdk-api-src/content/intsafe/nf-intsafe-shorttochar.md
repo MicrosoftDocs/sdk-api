@@ -12,6 +12,8 @@ ms.keywords: ShortToChar, ShortToChar function [Windows Shell], _shell_ShortToCh
 ms.topic: function
 f1_keywords: 
  - "intsafe/ShortToChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

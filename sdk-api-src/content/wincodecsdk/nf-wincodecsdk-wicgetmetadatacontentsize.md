@@ -12,6 +12,8 @@ ms.keywords: WICGetMetadataContentSize, WICGetMetadataContentSize function [Wind
 ms.topic: function
 f1_keywords: 
  - "wincodecsdk/WICGetMetadataContentSize"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows

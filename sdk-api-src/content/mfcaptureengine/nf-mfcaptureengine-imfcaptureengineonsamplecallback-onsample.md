@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngineOnSampleCallback interface [Media Foundation],OnSam
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngineOnSampleCallback.OnSample"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

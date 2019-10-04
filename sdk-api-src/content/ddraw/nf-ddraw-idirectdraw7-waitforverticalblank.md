@@ -12,6 +12,8 @@ ms.keywords: DDWAITVB_BLOCKBEGIN, DDWAITVB_BLOCKBEGINEVENT, DDWAITVB_BLOCKEND, I
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.WaitForVerticalBlank"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

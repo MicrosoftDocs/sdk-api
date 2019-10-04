@@ -12,6 +12,8 @@ ms.keywords: PropVariantToInt32Vector, PropVariantToInt32Vector function [Window
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToInt32Vector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

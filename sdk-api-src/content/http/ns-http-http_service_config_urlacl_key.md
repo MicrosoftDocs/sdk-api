@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_URLACL_KEY, HTTP_SERVICE_CONFIG_URLACL_KEY, 
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_URLACL_KEY
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

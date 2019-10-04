@@ -12,6 +12,8 @@ ms.keywords: GetNextUserString, GetNextUserString method [Windows Runtime], GetN
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetNextUserString"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

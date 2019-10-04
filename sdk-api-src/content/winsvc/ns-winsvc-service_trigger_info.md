@@ -12,6 +12,8 @@ ms.keywords: '*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_IN
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_TRIGGER_INFO
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

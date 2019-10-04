@@ -12,6 +12,8 @@ ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [M
 ms.topic: interface
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

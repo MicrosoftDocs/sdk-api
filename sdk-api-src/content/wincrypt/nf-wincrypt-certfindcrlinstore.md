@@ -12,6 +12,8 @@ ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUE
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindCRLInStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

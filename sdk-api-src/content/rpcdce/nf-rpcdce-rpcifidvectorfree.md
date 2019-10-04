@@ -12,6 +12,8 @@ ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidve
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcIfIdVectorFree"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

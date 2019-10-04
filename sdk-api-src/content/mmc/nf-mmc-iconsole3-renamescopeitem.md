@@ -12,6 +12,8 @@ ms.keywords: IConsole3 interface [MMC],RenameScopeItem method, IConsole3.RenameS
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole3.RenameScopeItem"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

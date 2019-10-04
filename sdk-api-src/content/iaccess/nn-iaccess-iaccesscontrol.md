@@ -12,6 +12,8 @@ ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl inte
 ms.topic: interface
 f1_keywords: 
  - "iaccess/IAccessControl"
+dev_langs:
+ - c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

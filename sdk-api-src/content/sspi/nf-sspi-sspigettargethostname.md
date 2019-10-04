@@ -12,6 +12,8 @@ ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], s
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiGetTargetHostName"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

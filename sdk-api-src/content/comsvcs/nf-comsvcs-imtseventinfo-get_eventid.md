@@ -12,6 +12,8 @@ ms.keywords: IMtsEventInfo interface [COM+],get_EventID method, IMtsEventInfo.ge
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMtsEventInfo.get_EventID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeregisterContentProvider, DeregisterContentProvider method [Window
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSetupManager.DeregisterContentProvider"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

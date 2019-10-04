@@ -12,6 +12,8 @@ ms.keywords: AGENTHANDLER_EVENT, AGENTHANDLER_EVENT enumeration [TAPI 2.2], AHE_
 ms.topic: enum
 f1_keywords: 
  - "tapi3/AGENTHANDLER_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.Previe
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.PreviewVisible"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

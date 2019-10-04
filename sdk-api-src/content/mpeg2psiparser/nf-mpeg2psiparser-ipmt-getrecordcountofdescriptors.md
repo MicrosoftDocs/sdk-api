@@ -12,6 +12,8 @@ ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Mi
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.GetRecordCountOfDescriptors"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

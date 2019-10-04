@@ -12,6 +12,8 @@ ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [Dire
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRSurface.GetSurface"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

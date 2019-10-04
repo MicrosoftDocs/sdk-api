@@ -12,6 +12,8 @@ ms.keywords: ITaskDefinition interface [Task Scheduler],Principal property, ITas
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskDefinition.Principal"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

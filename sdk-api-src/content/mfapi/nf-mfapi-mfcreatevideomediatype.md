@@ -12,6 +12,8 @@ ms.keywords: 143aedec-d1ce-434a-8a1c-62a2c9d55e88, MFCreateVideoMediaType, MFCre
 ms.topic: function
 f1_keywords:
 - mfapi/MFCreateVideoMediaType
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

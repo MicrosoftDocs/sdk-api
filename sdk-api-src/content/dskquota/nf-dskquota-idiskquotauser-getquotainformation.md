@@ -12,6 +12,8 @@ ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaIn
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetQuotaInformation"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

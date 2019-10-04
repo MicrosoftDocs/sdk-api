@@ -12,6 +12,8 @@ ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback funct
 ms.topic: callback
 f1_keywords: 
  - "ntmsmli/MaxMediaLabel"
+dev_langs:
+ - c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows

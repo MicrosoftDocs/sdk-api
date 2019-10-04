@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible,
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.IsVisible"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

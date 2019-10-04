@@ -12,6 +12,8 @@ ms.keywords: PropVariantToInt32VectorAlloc, PropVariantToInt32VectorAlloc functi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToInt32VectorAlloc"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

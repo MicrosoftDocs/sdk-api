@@ -12,6 +12,8 @@ ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function
 ms.topic: function
 f1_keywords: 
  - "winddi/EngQueryPerformanceFrequency"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows
 ms.topic: method
 f1_keywords: 
  - "icontact/IContact.GetPath"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

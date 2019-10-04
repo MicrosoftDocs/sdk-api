@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetElementCount, MI_Class_GetElementCount function [Window
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetElementCount"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

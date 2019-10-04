@@ -12,6 +12,8 @@ ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoW
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.GetVideoWindow"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

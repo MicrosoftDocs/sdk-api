@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY_ID, WS_SECURITY_ALGORITHM_PROPERTY_I
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

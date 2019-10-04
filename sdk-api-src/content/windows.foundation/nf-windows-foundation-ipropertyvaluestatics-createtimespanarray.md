@@ -12,6 +12,8 @@ ms.keywords: CreateTimeSpanArray, CreateTimeSpanArray method [Windows Runtime], 
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateTimeSpanArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

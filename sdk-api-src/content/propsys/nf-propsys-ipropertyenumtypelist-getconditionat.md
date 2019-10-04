@@ -12,6 +12,8 @@ ms.keywords: GetConditionAt, GetConditionAt method [Windows Properties], GetCond
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyEnumTypeList.GetConditionAt"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows

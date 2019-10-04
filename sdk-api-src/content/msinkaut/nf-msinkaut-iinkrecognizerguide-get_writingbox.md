@@ -12,6 +12,8 @@ ms.keywords: 60e37b92-22c2-4a71-a4d1-815226d804fa, IInkRecognizerGuide interface
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerGuide.WritingBox"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

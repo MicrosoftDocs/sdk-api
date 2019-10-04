@@ -12,6 +12,8 @@ ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows She
 ms.topic: interface
 f1_keywords: 
  - "thumbnailstreamcache/IThumbnailStreamCache"
+dev_langs:
+ - c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows

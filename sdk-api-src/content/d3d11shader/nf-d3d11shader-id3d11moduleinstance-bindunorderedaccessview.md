@@ -12,6 +12,8 @@ ms.keywords: BindUnorderedAccessView, BindUnorderedAccessView method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessView"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

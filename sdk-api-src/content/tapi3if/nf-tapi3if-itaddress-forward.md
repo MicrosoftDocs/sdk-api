@@ -12,6 +12,8 @@ ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAdd
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddress.Forward"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVPBaseConfig interface [DirectShow],SetDirectDrawKernelHandle meth
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPBaseConfig.SetDirectDrawKernelHandle"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

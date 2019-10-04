@@ -12,6 +12,8 @@ ms.keywords: "*LPKEYBDINPUT, *PKEYBDINPUT, KEYBDINPUT, KEYBDINPUT structure [Key
 ms.topic: struct
 f1_keywords: 
  - "winuser/KEYBDINPUT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

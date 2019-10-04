@@ -12,6 +12,8 @@ ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPr
 ms.topic: method
 f1_keywords: 
  - "propidl/IPropertySetStorage.Open"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows

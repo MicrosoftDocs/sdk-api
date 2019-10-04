@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],SelectActiveFrame method, Image.SelectActiveFram
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.SelectActiveFrame"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

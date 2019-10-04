@@ -12,6 +12,8 @@ ms.keywords: ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LE
 ms.topic: method
 f1_keywords:
 - vds/IVdsOpenVDisk.Attach
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

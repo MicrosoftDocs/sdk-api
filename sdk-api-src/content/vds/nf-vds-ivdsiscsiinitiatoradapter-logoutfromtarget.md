@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LogoutFromTarget method, 
 ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorAdapter.LogoutFromTarget
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

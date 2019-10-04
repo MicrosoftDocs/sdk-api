@@ -12,6 +12,8 @@ ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSit
 ms.topic: interface
 f1_keywords: 
  - "ocidl/ISimpleFrameSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

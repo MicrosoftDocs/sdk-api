@@ -12,6 +12,8 @@ ms.keywords: 482906b2-131e-4baa-8ed7-c11f79f05e4b, Add, Add method [Tablet PC], 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCustomStrokes.Add"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

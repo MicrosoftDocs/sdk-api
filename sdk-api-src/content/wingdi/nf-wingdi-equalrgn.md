@@ -12,6 +12,8 @@ ms.keywords: EqualRgn, EqualRgn function [Windows GDI], _win32_EqualRgn, gdi.equ
 ms.topic: function
 f1_keywords: 
  - "wingdi/EqualRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

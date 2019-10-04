@@ -12,6 +12,8 @@ ms.keywords: DhcpServerRestoreDatabase, DhcpServerRestoreDatabase function [DHCP
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpServerRestoreDatabase"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

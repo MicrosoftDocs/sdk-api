@@ -12,6 +12,8 @@ ms.keywords: AddClipPlaneFromCBuffer, AddClipPlaneFromCBuffer method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11Linker.AddClipPlaneFromCBuffer"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

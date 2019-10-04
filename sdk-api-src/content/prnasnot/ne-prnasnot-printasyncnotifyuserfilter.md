@@ -12,6 +12,8 @@ ms.keywords: PrintAsyncNotifyUserFilter, PrintAsyncNotifyUserFilter enumeration 
 ms.topic: enum
 f1_keywords: 
  - "prnasnot/PrintAsyncNotifyUserFilter"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

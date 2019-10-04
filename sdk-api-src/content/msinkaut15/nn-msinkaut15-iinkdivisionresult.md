@@ -12,6 +12,8 @@ ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], IInkD
 ms.topic: interface
 f1_keywords: 
  - "msinkaut15/IInkDivisionResult"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differen
 ms.topic: struct
 f1_keywords: 
  - "msrdc/RdcSignaturePointer"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

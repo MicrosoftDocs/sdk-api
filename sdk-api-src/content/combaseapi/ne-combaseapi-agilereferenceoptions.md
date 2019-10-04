@@ -12,6 +12,8 @@ ms.keywords: AGILEREFERENCE_DEFAULT, AGILEREFERENCE_DELAYEDMARSHAL, AgileReferen
 ms.topic: enum
 f1_keywords: 
  - "combaseapi/AgileReferenceOptions"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

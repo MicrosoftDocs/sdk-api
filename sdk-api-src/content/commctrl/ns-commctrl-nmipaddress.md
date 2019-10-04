@@ -12,6 +12,8 @@ ms.keywords: '*LPNMIPADDRESS, LPNMIPADDRESS, LPNMIPADDRESS structure pointer [Wi
 ms.topic: struct
 f1_keywords:
 - commctrl/NMIPADDRESS
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

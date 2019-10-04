@@ -12,6 +12,8 @@ ms.keywords: '*PIP_INTERFACE_NAME_INFO, *PIP_INTERFACE_NAME_INFO_W2KSP1, IF_ACCE
 ms.topic: struct
 f1_keywords:
 - iptypes/IP_INTERFACE_NAME_INFO
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

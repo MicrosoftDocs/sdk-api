@@ -12,6 +12,8 @@ ms.keywords: 8f6e3132-03e9-4a2e-9160-e39d29cf2408, IMFVideoPresenter, IMFVideoPr
 ms.topic: interface
 f1_keywords: 
  - "evr/IMFVideoPresenter"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

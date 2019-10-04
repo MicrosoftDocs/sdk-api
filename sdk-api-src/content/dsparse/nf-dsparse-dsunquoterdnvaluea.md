@@ -12,6 +12,8 @@ ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], D
 ms.topic: function
 f1_keywords: 
  - "dsparse/DsUnquoteRdnValue"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

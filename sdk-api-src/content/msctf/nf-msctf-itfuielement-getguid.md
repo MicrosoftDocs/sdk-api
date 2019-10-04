@@ -12,6 +12,8 @@ ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElement.GetGUID"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

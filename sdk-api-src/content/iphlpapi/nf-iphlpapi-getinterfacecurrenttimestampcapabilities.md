@@ -12,6 +12,8 @@ ms.keywords: GetInterfaceCurrentTimestampCapabilities, GetInterfaceCurrentTimest
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/GetInterfaceCurrentTimestampCapabilities"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

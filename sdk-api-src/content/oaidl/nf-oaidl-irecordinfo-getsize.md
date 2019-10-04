@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Automation], GetSize method [Automation],I
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.GetSize"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

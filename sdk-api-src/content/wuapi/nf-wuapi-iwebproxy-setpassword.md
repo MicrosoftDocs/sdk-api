@@ -12,6 +12,8 @@ ms.keywords: IWebProxy interface [Windows Update Agent],SetPassword method, IWeb
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWebProxy.SetPassword"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

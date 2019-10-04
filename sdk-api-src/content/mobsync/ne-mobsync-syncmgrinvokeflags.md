@@ -12,6 +12,8 @@ ms.keywords: SYNCMGRINVOKEFLAGS, SYNCMGRINVOKEFLAGS enumeration [Windows Shell],
 ms.topic: enum
 f1_keywords: 
  - "mobsync/SYNCMGRINVOKEFLAGS"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2D
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IDiscFormat2Data"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

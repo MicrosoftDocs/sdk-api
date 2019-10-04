@@ -12,6 +12,8 @@ ms.keywords: "*PMONHSZSTRUCTW, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZ
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONHSZSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cance
 ms.topic: function
 f1_keywords: 
  - "ioapiset/CancelSynchronousIo"
+dev_langs:
+ - c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IS_HIGH_SURROGATE, IS_HIGH_SURROGATE macro [Internationalization fo
 ms.topic: macro
 f1_keywords: 
  - "winnls/IS_HIGH_SURROGATE"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

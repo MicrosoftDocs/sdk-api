@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],SetHeight method, ITextRow.Se
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.SetHeight"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

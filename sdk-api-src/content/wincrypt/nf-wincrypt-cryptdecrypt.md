@@ -12,6 +12,8 @@ ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, Crypt
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptDecrypt"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

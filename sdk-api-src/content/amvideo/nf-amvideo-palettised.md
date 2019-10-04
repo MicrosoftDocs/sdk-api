@@ -12,6 +12,8 @@ ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dsho
 ms.topic: macro
 f1_keywords: 
  - "amvideo/PALETTISED"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

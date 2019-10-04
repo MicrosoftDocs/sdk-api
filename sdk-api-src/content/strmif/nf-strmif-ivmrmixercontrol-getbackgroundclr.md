@@ -12,6 +12,8 @@ ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgrou
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRMixerControl.GetBackgroundClr"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

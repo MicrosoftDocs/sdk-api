@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio D
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.Activate"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

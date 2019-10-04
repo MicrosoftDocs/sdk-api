@@ -12,6 +12,8 @@ ms.keywords: EOAC_ACCESS_CONTROL, EOAC_ANY_AUTHORITY, EOAC_APPID, EOAC_AUTO_IMPE
 ms.topic: enum
 f1_keywords: 
  - "objidl/EOLE_AUTHENTICATION_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

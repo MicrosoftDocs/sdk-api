@@ -12,6 +12,8 @@ ms.keywords: EapPeerConfigXml2Blob, EapPeerConfigXml2Blob function [EAPHost], ea
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerConfigXml2Blob
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropVariantToUInt16WithDefault, PropVariantToUInt16WithDefault func
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToUInt16WithDefault"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreationTime property [File Server Resource Manager], CreationTime 
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.CreationTime"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

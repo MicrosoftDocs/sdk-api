@@ -12,6 +12,8 @@ ms.keywords: IAudioMidrange, IAudioMidrange interface [Core Audio], IAudioMidran
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioMidrange"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

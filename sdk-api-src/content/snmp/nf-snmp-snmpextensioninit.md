@@ -12,6 +12,8 @@ ms.keywords: SnmpExtensionInit, SnmpExtensionInit callback, SnmpExtensionInit ca
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpExtensionInit"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

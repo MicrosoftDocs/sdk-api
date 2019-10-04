@@ -12,6 +12,8 @@ ms.keywords: 472b704f-d402-4e0b-96b8-fea267e8ff63, IMFClockStateSink interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFClockStateSink.OnClockStop"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

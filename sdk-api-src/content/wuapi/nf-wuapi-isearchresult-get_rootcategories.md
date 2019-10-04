@@ -12,6 +12,8 @@ ms.keywords: ISearchResult interface [Windows Update Agent],RootCategories prope
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISearchResult.RootCategories"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

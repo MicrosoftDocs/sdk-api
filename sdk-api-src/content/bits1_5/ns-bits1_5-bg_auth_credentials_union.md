@@ -12,6 +12,8 @@ ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], 
 ms.topic: struct
 f1_keywords: 
  - "bits1_5/BG_AUTH_CREDENTIALS_UNION"
+dev_langs:
+ - c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

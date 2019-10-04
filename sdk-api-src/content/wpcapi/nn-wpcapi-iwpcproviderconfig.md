@@ -12,6 +12,8 @@ ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfi
 ms.topic: interface
 f1_keywords: 
  - "wpcapi/IWPCProviderConfig"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

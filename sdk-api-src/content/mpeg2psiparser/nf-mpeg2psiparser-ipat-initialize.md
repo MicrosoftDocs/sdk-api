@@ -12,6 +12,8 @@ ms.keywords: IPAT interface [Microsoft TV Technologies],Initialize method, IPAT.
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPAT.Initialize"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

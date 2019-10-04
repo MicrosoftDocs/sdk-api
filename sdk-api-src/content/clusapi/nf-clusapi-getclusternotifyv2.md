@@ -12,6 +12,8 @@ ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster],
 ms.topic: function
 f1_keywords:
 - clusapi/GetClusterNotifyV2
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

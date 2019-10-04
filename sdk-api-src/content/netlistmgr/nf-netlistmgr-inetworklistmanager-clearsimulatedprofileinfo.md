@@ -12,6 +12,8 @@ ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Networ
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkListManager.ClearSimulatedProfileInfo"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDriveType, GetDriveType function [Files], GetDriveTypeA, GetDriv
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetDriveType"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

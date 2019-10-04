@@ -12,6 +12,8 @@ ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregist
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcEpUnregister"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

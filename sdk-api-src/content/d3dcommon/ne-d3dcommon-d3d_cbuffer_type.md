@@ -12,6 +12,8 @@ ms.keywords: D3D10_CT_CBUFFER, D3D10_CT_TBUFFER, D3D11_CT_CBUFFER, D3D11_CT_INTE
 ms.topic: enum
 f1_keywords: 
  - "d3dcommon/D3D_CBUFFER_TYPE"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

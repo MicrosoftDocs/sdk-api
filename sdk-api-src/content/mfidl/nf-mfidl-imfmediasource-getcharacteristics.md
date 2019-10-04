@@ -12,6 +12,8 @@ ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], G
 ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSource.GetCharacteristics
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

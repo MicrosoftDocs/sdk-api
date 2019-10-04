@@ -12,6 +12,8 @@ ms.keywords: IImageList2 interface [Windows Controls],Resize method, IImageList2
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList2.Resize"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

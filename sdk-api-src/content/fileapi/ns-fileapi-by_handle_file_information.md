@@ -12,6 +12,8 @@ ms.keywords: '*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HA
 ms.topic: struct
 f1_keywords:
 - fileapi/BY_HANDLE_FILE_INFORMATION
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorGroup.GetSensorDeviceCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpV4DeletePolicy, DhcpV4DeletePolicy function [DHCP], dhcp.dhcpv4
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpV4DeletePolicy"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

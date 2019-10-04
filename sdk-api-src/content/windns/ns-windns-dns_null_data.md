@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDN
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_NULL_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

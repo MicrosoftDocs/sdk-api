@@ -12,6 +12,8 @@ ms.keywords: IMenuButton interface [MMC],SetButton method, IMenuButton.SetButton
 ms.topic: method
 f1_keywords: 
  - "mmc/IMenuButton.SetButton"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

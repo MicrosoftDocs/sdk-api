@@ -12,6 +12,8 @@ ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color Sys
 ms.topic: interface
 f1_keywords: 
  - "wcsplugin/IDeviceModelPlugIn"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

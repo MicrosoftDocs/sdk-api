@@ -12,6 +12,8 @@ ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Managemen
 ms.topic: enum
 f1_keywords: 
  - "objpath/ObjectParserFlags"
+dev_langs:
+ - c++
 req.header: objpath.h
 req.include-header: Objpath.h
 req.target-type: Windows

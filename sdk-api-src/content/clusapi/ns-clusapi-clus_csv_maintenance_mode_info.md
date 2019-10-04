@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO, 
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_CSV_MAINTENANCE_MODE_INFO"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configur
 ms.topic: function
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/SaveCurrentSettings"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

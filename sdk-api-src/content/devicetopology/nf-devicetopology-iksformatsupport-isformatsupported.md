@@ -12,6 +12,8 @@ ms.keywords: IKsFormatSupport interface [Core Audio],IsFormatSupported method, I
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IKsFormatSupport.IsFormatSupported"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

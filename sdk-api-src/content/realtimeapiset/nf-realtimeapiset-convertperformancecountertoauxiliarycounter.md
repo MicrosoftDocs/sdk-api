@@ -12,6 +12,8 @@ ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCoun
 ms.topic: function
 f1_keywords: 
  - "realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter"
+dev_langs:
+ - c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

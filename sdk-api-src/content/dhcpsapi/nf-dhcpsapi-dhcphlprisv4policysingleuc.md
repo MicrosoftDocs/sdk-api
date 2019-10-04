@@ -12,6 +12,8 @@ ms.keywords: DhcpHlprIsV4PolicySingleUC, DhcpHlprIsV4PolicySingleUC function [DH
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprIsV4PolicySingleUC
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

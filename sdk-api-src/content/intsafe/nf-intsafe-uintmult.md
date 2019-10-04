@@ -12,6 +12,8 @@ ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsa
 ms.topic: function
 f1_keywords: 
  - "intsafe/UIntMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTrimPunctuationAtStart, GetTrimPunctuationAtStart method [Window
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.GetTrimPunctuationAtStart"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

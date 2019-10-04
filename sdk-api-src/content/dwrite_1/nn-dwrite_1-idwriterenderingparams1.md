@@ -12,6 +12,8 @@ ms.keywords: IDWriteRenderingParams1, IDWriteRenderingParams1 interface [Direct 
 ms.topic: interface
 f1_keywords: 
  - "dwrite_1/IDWriteRenderingParams1"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

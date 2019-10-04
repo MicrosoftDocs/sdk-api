@@ -12,6 +12,8 @@ ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Netw
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnDeviceService.CloseDataSession"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

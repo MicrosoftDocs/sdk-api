@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [C
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ICrmMonitor"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

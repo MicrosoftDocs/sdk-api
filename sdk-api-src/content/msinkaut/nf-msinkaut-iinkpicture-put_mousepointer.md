@@ -12,6 +12,8 @@ ms.keywords: IInkPicture interface [Tablet PC],MousePointer property, IInkPictur
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.MousePointer"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

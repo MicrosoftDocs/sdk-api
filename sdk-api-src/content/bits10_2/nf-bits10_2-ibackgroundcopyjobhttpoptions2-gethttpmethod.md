@@ -12,6 +12,8 @@ ms.keywords: GetHttpMethod, GetHttpMethod method [BITS], GetHttpMethod method [B
 ms.topic: method
 f1_keywords: 
  - "bits10_2/IBackgroundCopyJobHttpOptions2.GetHttpMethod"
+dev_langs:
+ - c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows

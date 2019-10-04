@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCO
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_SCOPE_TYPE
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],MaxLength property, IInkEdit.MaxLeng
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.MaxLength"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

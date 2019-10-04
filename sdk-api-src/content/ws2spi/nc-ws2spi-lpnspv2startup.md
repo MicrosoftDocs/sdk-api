@@ -12,6 +12,8 @@ ms.keywords: LPNSPV2STARTUP, NSPv2Startup, NSPv2Startup function [Winsock], wins
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2Startup
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

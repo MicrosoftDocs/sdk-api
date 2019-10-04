@@ -12,6 +12,8 @@ ms.keywords: '*PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQU
 ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_BUS_STATISTICS_0_REQUEST
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

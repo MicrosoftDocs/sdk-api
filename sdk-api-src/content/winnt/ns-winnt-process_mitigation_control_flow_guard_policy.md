@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY, PPROCESS_MITIGATIO
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

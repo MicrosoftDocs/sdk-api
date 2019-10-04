@@ -12,6 +12,8 @@ ms.keywords: GetDisplaySurfaceData1, GetDisplaySurfaceData1 method [DXGI], GetDi
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIOutput1.GetDisplaySurfaceData1"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

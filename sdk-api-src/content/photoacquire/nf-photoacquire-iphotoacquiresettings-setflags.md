@@ -12,6 +12,8 @@ ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetFlags meth
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSettings.SetFlags"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

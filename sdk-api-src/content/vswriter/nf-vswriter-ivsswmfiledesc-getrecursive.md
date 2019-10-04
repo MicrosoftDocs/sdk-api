@@ -12,6 +12,8 @@ ms.keywords: GetRecursive, GetRecursive method [VSS], GetRecursive method [VSS],
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMFiledesc.GetRecursive"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

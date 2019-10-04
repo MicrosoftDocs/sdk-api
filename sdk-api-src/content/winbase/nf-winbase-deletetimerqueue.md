@@ -12,6 +12,8 @@ ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueu
 ms.topic: function
 f1_keywords: 
  - "winbase/DeleteTimerQueue"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

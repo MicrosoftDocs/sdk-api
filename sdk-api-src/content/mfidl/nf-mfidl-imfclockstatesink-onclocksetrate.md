@@ -12,6 +12,8 @@ ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate metho
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFClockStateSink.OnClockSetRate"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

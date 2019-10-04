@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get__NewEnum meth
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingGroups.get__NewEnum"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

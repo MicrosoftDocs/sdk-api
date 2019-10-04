@@ -12,6 +12,8 @@ ms.keywords: "*LPPAGESETUPDLGW, LPPAGESETUPDLG, LPPAGESETUPDLG structure pointer
 ms.topic: struct
 f1_keywords: 
  - "commdlg/PAGESETUPDLG"
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

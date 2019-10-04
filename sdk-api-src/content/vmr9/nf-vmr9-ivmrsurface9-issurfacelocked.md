@@ -12,6 +12,8 @@ ms.keywords: IVMRSurface9 interface [DirectShow],IsSurfaceLocked method, IVMRSur
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurface9.IsSurfaceLocked"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

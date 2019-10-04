@@ -12,6 +12,8 @@ ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, IS
 ms.topic: method
 f1_keywords: 
  - "objidl/ISynchronize.Signal"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

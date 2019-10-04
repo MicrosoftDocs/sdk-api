@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP
 ms.topic: struct
 f1_keywords:
 - dhcpcsdk/DHCPCAPI_PARAMS_ARRAY
+dev_langs:
+ - c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

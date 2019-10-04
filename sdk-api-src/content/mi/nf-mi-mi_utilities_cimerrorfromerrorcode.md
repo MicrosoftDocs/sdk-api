@@ -12,6 +12,8 @@ ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI
 ms.topic: function
 f1_keywords:
 - mi/MI_Utilities_CimErrorFromErrorCode
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IShellRunDll"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

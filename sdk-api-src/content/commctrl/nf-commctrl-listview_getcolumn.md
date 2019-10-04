@@ -12,6 +12,8 @@ ms.keywords: ListView_GetColumn, ListView_GetColumn macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetColumn"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

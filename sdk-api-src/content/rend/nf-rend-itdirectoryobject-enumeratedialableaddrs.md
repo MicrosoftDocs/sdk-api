@@ -12,6 +12,8 @@ ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], E
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObject.EnumerateDialableAddrs"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

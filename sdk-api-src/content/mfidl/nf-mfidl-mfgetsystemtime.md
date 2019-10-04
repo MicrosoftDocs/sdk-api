@@ -12,6 +12,8 @@ ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e2361
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFGetSystemTime"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CPFT_CHECKBOX, CPFT_COMBOBOX, CPFT_COMMAND_LINK, CPFT_EDIT_TEXT, CP
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_FIELD_TYPE"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

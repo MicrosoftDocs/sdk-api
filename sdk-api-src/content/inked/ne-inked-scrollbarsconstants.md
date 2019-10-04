@@ -12,6 +12,8 @@ ms.keywords: ScrollBarsConstants, ScrollBarsConstants enumeration [Tablet PC], d
 ms.topic: enum
 f1_keywords: 
  - "inked/ScrollBarsConstants"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_VERSION_SUPPORT_FLAG, VDS_VERSION_SUPPORT_FLAG enumeration, VDS
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_VERSION_SUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

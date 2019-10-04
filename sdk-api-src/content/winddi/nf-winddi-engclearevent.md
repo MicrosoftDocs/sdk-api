@@ -12,6 +12,8 @@ ms.keywords: EngClearEvent, EngClearEvent function [Display Devices], display.en
 ms.topic: function
 f1_keywords: 
  - "winddi/EngClearEvent"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

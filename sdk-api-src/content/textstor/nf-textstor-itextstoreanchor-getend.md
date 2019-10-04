@@ -12,6 +12,8 @@ ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Tex
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.GetEnd"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Children property [Windows Update Agent], Children property [Window
 ms.topic: method
 f1_keywords: 
  - "wuapi/ICategory.Children"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

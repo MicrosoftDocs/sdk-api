@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCS
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_LOGIN_OPTIONS"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

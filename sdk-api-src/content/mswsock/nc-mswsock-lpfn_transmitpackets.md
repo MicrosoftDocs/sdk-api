@@ -12,6 +12,8 @@ ms.keywords: LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITP
 ms.topic: callback
 f1_keywords:
 - mswsock/LPFN_TRANSMITPACKETS
+dev_langs:
+ - c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows

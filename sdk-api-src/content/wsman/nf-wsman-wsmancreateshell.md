@@ -12,6 +12,8 @@ ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Managem
 ms.topic: function
 f1_keywords:
 - wsman/WSManCreateShell
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

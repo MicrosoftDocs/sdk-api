@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBufferNotify.OnError"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

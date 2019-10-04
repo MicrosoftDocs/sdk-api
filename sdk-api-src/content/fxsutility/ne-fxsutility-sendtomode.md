@@ -12,6 +12,8 @@ ms.keywords: SEND_TO_FAX_RECIPIENT_ATTACHMENT, SendToMode, SendToMode enumeratio
 ms.topic: enum
 f1_keywords: 
  - "fxsutility/SendToMode"
+dev_langs:
+ - c++
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows

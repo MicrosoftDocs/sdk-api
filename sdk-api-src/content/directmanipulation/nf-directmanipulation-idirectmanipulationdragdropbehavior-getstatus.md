@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationDragDropBehavior.GetStatus"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

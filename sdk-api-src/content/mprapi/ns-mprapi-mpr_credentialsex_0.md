@@ -12,6 +12,8 @@ ms.keywords: "*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 st
 ms.topic: struct
 f1_keywords: 
  - "mprapi/MPR_CREDENTIALSEX_0"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

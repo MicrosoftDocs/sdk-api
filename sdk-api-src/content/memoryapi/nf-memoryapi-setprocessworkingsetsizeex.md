@@ -12,6 +12,8 @@ ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QU
 ms.topic: function
 f1_keywords: 
  - "memoryapi/SetProcessWorkingSetSizeEx"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

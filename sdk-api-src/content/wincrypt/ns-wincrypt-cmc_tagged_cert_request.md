@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CERT_REQUEST, CMC_TAGGED_CER
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_TAGGED_CERT_REQUEST
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

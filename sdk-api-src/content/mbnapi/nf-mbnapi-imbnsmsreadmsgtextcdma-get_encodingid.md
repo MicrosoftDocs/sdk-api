@@ -12,6 +12,8 @@ ms.keywords: EncodingID property [Microsoft Broadband Networks], EncodingID prop
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgTextCdma.EncodingID"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

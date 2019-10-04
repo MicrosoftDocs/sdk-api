@@ -12,6 +12,8 @@ ms.keywords: GetOpenFileNamePreview, GetOpenFileNamePreview function [Windows Mu
 ms.topic: function
 f1_keywords: 
  - "vfw/GetOpenFileNamePreview"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

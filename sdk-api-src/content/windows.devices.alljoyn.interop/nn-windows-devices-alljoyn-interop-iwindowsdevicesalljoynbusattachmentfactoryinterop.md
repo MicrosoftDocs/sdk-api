@@ -12,6 +12,8 @@ ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesA
 ms.topic: interface
 f1_keywords: 
  - "windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop"
+dev_langs:
+ - c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows

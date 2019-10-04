@@ -12,6 +12,8 @@ ms.keywords: GetPreload, GetPreload method [Media Foundation], GetPreload method
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetPreload"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

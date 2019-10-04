@@ -12,6 +12,8 @@ ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH
 ms.topic: enum
 f1_keywords: 
  - "termmgr/TMGR_DIRECTION"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

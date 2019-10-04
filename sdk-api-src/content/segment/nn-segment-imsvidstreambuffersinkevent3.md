@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSinkEvent3, IMSVidStreamBufferSinkEvent3 interfac
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidStreamBufferSinkEvent3"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

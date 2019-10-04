@@ -12,6 +12,8 @@ ms.keywords: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, OPM_ENCRYPTED_INITIALIZATI
 ms.topic: struct
 f1_keywords: 
  - "opmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

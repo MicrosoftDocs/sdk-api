@@ -12,6 +12,8 @@ ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData, GetPrivateDat
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10DeviceChild.GetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

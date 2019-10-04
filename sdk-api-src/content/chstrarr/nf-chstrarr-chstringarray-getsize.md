@@ -12,6 +12,8 @@ ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows 
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.GetSize"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

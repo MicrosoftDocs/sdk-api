@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTran
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACPSink.OnEndEditTransaction"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

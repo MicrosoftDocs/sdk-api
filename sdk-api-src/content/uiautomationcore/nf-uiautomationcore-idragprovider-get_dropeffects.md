@@ -12,6 +12,8 @@ ms.keywords: DropEffects property [Windows Accessibility], DropEffects property 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IDragProvider.DropEffects"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

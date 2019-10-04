@@ -12,6 +12,8 @@ ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Wi
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.CountEnum"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

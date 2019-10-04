@@ -12,6 +12,8 @@ ms.keywords: WeekDays, WeekDays enumeration [PLA], base.weekdays, pla.weekdays, 
 ms.topic: enum
 f1_keywords: 
  - "pla/WeekDays"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

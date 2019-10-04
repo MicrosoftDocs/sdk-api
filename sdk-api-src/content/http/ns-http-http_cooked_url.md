@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_COOKED_URL, HTTP_COOKED_URL, HTTP_COOKED_URL structure [HTT
 ms.topic: struct
 f1_keywords: 
  - "http/HTTP_COOKED_URL"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

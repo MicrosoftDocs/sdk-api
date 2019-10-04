@@ -12,6 +12,8 @@ ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCol
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMColorProfileResourceCollection"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

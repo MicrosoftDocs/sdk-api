@@ -12,6 +12,8 @@ ms.keywords: GetStartPara, GetStartPara method [Windows Controls], GetStartPara 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetStartPara"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FlushPartitionCache, FlushPartitionCache method [COM+], FlushPartit
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.FlushPartitionCache"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

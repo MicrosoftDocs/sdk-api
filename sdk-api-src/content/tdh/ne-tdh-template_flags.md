@@ -12,6 +12,8 @@ ms.keywords: TEMPLATE_EVENT_DATA, TEMPLATE_FLAGS, TEMPLATE_FLAGS enumeration [ET
 ms.topic: enum
 f1_keywords:
 - tdh/TEMPLATE_FLAGS
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows 
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewClass
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

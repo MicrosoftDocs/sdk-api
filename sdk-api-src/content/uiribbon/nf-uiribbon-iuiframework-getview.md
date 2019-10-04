@@ -12,6 +12,8 @@ ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows R
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIFramework.GetView"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

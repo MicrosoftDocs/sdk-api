@@ -12,6 +12,8 @@ ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.set
 ms.topic: function
 f1_keywords:
 - iphlpapi/SetIpTTL
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

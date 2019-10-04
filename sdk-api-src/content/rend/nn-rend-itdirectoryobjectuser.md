@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], 
 ms.topic: interface
 f1_keywords: 
  - "rend/ITDirectoryObjectUser"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

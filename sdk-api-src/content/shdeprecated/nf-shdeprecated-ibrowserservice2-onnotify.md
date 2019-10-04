@@ -12,6 +12,8 @@ ms.keywords: IBrowserService2 interface [Windows Shell],OnNotify method, IBrowse
 ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2.OnNotify
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

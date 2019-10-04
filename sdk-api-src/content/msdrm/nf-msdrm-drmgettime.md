@@ -12,6 +12,8 @@ ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetTime"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

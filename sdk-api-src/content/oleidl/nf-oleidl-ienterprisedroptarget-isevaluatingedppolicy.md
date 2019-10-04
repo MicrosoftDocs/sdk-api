@@ -12,6 +12,8 @@ ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method,
 ms.topic: method
 f1_keywords: 
  - "oleidl/IEnterpriseDropTarget.IsEvaluatingEdpPolicy"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

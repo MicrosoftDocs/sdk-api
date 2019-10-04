@@ -12,6 +12,8 @@ ms.keywords: GetTOT, GetTOT method [Microsoft TV Technologies], GetTOT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetTOT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

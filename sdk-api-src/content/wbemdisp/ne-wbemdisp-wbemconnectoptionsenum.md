@@ -12,6 +12,8 @@ ms.keywords: WbemConnectOptionsEnum, WbemConnectOptionsEnum enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemConnectOptionsEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastSc
 ms.topic: interface
 f1_keywords: 
  - "mdhcp/IEnumMcastScope"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

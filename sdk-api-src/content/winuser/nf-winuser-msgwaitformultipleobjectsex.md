@@ -12,6 +12,8 @@ ms.keywords: MWMO_ALERTABLE, MWMO_INPUTAVAILABLE, MWMO_WAITALL, MsgWaitForMultip
 ms.topic: function
 f1_keywords: 
  - "winuser/MsgWaitForMultipleObjectsEx"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

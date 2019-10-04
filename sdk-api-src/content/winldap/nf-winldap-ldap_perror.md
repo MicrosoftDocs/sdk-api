@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perro
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_perror"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

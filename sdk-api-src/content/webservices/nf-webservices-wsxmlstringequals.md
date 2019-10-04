@@ -12,6 +12,8 @@ ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Win
 ms.topic: function
 f1_keywords:
 - webservices/WsXmlStringEquals
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

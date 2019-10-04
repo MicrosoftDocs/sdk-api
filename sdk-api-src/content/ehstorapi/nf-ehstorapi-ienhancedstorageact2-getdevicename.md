@@ -12,6 +12,8 @@ ms.keywords: GetDeviceName, GetDeviceName method [Enhanced Storage], GetDeviceNa
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT2.GetDeviceName"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

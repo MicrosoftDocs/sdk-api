@@ -12,6 +12,8 @@ ms.keywords: GetBlendCount, GetBlendCount method [GDI+], GetBlendCount method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetBlendCount"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

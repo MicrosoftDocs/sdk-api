@@ -12,6 +12,8 @@ ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddT
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionItemPattern.AddToSelection"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

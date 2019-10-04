@@ -12,6 +12,8 @@ ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/Termi
 ms.topic: function
 f1_keywords: 
  - "filehc/TerminateCache"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

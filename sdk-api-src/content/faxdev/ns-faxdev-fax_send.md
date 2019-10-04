@@ -12,6 +12,8 @@ ms.keywords: '*PFAX_SEND, FAX_SEND, FAX_SEND structure [Fax Service], PFAX_SEND,
 ms.topic: struct
 f1_keywords:
 - faxdev/FAX_SEND
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

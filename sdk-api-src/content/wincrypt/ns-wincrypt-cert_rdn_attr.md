@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_RDN_ATTR, CERT_RDN_ANY_TYPE, CERT_RDN_ATTR, CERT_RDN_ATTR s
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_RDN_ATTR
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Secu
 ms.topic: function
 f1_keywords: 
  - "tokenbinding/TokenBindingVerifyMessage"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

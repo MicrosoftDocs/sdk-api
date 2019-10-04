@@ -12,6 +12,8 @@ ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_TASK, MMC_TA
 ms.topic: struct
 f1_keywords:
 - mmc/MMC_TASK
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

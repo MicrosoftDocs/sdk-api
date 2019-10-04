@@ -12,6 +12,8 @@ ms.keywords: IVdsLun2 interface,QueryHints2 method, IVdsLun2.QueryHints2, IVdsLu
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun2.QueryHints2
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

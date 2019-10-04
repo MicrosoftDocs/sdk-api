@@ -12,6 +12,8 @@ ms.keywords: IEnumTfLangBarItems, IEnumTfLangBarItems interface [Text Services F
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/IEnumTfLangBarItems"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

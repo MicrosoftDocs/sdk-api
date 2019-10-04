@@ -12,6 +12,8 @@ ms.keywords: ITextEditProvider, ITextEditProvider interface [Windows Accessibili
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ITextEditProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

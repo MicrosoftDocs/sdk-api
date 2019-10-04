@@ -12,6 +12,8 @@ ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Window
 ms.topic: function
 f1_keywords: 
  - "winbio_adapter/WbioQueryEngineInterface"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

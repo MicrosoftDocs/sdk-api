@@ -12,6 +12,8 @@ ms.keywords: IMEDLG, IMEDLG structure [Internationalization for Windows Applicat
 ms.topic: struct
 f1_keywords: 
  - "msime/IMEDLG"
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

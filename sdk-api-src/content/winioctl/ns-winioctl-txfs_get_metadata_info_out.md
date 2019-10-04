@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_GET_METADATA_INFO_OUT, PTXFS_GET_METADATA_INFO_OUT, PTXFS_G
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_GET_METADATA_INFO_OUT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

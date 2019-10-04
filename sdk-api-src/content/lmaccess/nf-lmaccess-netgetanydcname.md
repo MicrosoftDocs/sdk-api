@@ -12,6 +12,8 @@ ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _wi
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetGetAnyDCName"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

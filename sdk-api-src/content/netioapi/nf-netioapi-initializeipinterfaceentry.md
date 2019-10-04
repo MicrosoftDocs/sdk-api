@@ -12,6 +12,8 @@ ms.keywords: InitializeIpInterfaceEntry, InitializeIpInterfaceEntry function [IP
 ms.topic: function
 f1_keywords: 
  - "netioapi/InitializeIpInterfaceEntry"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

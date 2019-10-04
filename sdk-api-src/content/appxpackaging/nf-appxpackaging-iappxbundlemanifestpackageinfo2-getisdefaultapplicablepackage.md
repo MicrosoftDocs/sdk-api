@@ -12,6 +12,8 @@ ms.keywords: GetIsDefaultApplicablePackage, GetIsDefaultApplicablePackage method
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

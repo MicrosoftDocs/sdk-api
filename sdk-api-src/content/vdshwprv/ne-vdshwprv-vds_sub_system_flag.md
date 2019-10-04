@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_SUB_SYSTEM_FLAG, VDS_SF_CONSISTENCY_CHECK_CAPABLE, VDS_SF_DR
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_SUB_SYSTEM_FLAG
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

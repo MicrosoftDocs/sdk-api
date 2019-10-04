@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_PROPOSAL0, IKEEXT_PROPOSAL0 structure [Filtering], fwp.ikeex
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_PROPOSAL0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

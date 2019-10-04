@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect met
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnection.Connect"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

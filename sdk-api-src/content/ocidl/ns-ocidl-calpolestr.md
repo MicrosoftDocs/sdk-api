@@ -12,6 +12,8 @@ ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLEST
 ms.topic: struct
 f1_keywords: 
  - "ocidl/CALPOLESTR"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

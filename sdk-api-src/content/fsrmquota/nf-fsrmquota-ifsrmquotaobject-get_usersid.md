@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserSid p
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaObject.UserSid"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

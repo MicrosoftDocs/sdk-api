@@ -12,6 +12,8 @@ ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunning
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.GetRunningStats"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

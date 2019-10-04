@@ -12,6 +12,8 @@ ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable func
 ms.topic: function
 f1_keywords: 
  - "winbase/GetFirmwareEnvironmentVariable"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

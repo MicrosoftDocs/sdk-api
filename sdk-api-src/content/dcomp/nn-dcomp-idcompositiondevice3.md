@@ -12,6 +12,8 @@ ms.keywords: IDCompositionDevice3, IDCompositionDevice3 interface [DirectComposi
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionDevice3"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

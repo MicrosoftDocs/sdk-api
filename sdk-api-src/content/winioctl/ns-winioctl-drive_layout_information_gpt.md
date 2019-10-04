@@ -12,6 +12,8 @@ ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, DRIV
 ms.topic: struct
 f1_keywords:
 - winioctl/DRIVE_LAYOUT_INFORMATION_GPT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

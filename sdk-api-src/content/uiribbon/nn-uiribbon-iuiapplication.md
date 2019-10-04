@@ -12,6 +12,8 @@ ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIAppli
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUIApplication"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

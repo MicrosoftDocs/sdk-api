@@ -12,6 +12,8 @@ ms.keywords: 0dcf2957-f913-22f8-e1fe-0085a1e9dce8, ID3D10GeometryShader, ID3D10G
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10GeometryShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

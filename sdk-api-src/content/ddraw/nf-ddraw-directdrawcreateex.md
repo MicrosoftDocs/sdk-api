@@ -12,6 +12,8 @@ ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, 
 ms.topic: function
 f1_keywords: 
  - "ddraw/DirectDrawCreateEx"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

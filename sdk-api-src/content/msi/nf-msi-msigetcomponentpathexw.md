@@ -12,6 +12,8 @@ ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USER
 ms.topic: function
 f1_keywords: 
  - "msi/MsiGetComponentPathEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydrat
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfHydratePlaceholder"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

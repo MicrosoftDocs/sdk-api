@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetSize
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapFrameEncode.SetSize"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetA
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.GetActiveView"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

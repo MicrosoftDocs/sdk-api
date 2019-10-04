@@ -12,6 +12,8 @@ ms.keywords: IWMPVideoRenderConfig interface [Windows Media Player],put_presente
 ms.topic: method
 f1_keywords: 
  - "wmprealestate/IWMPVideoRenderConfig.put_presenterActivate"
+dev_langs:
+ - c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows

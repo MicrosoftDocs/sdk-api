@@ -12,6 +12,8 @@ ms.keywords: NTMS_COMPUTERINFO, NTMS_COMPUTERINFO structure [Files], NTMS_COMPUT
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_COMPUTERINFO
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

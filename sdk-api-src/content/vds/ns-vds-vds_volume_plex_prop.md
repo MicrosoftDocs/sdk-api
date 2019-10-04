@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PR
 ms.topic: struct
 f1_keywords:
 - vds/VDS_VOLUME_PLEX_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

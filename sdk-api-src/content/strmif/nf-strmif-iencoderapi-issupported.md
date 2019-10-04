@@ -12,6 +12,8 @@ ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported metho
 ms.topic: method
 f1_keywords: 
  - "strmif/IEncoderAPI.IsSupported"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

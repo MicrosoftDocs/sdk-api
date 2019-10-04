@@ -12,6 +12,8 @@ ms.keywords: GetGroupBy, GetGroupBy method [Windows Shell], GetGroupBy method [W
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView2.GetGroupBy
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

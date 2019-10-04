@@ -12,6 +12,8 @@ ms.keywords: WSD_SOAP_FAULT_SUBCODE, WSD_SOAP_FAULT_SUBCODE structure, ncd.wsd_s
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SOAP_FAULT_SUBCODE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOu
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputBackgroundColor"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

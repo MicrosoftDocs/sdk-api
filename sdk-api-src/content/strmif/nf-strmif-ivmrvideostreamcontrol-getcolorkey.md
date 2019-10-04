@@ -12,6 +12,8 @@ ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRVideoStreamControl.GetColorKey"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

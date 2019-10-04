@@ -12,6 +12,8 @@ ms.keywords: "*PEVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO st
 ms.topic: struct
 f1_keywords: 
  - "evntrace/EVENT_INSTANCE_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

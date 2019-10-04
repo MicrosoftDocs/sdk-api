@@ -12,6 +12,8 @@ ms.keywords: D2D1_VECTOR_2F, D2D1_VECTOR_2F structure [Direct2D], D2D_VECTOR_2F,
 ms.topic: struct
 f1_keywords: 
  - "dcommon/D2D1_VECTOR_2F"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: 
 req.target-type: Windows

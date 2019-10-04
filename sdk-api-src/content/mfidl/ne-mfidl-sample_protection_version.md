@@ -12,6 +12,8 @@ ms.keywords: 5244ac44-5738-4d77-9dc5-371efe52ced9, SAMPLE_PROTECTION_VERSION, SA
 ms.topic: enum
 f1_keywords: 
  - "mfidl/SAMPLE_PROTECTION_VERSION"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

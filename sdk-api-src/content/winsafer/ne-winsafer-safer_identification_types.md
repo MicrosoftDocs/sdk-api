@@ -12,6 +12,8 @@ ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration 
 ms.topic: enum
 f1_keywords:
 - winsafer/SAFER_IDENTIFICATION_TYPES
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

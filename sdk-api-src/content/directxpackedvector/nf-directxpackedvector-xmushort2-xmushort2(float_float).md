@@ -12,6 +12,8 @@ ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSH
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMUSHORT2.XMUSHORT2"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMon
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.Enum"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

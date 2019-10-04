@@ -12,6 +12,8 @@ ms.keywords: IFaxDoc interface [Fax Service],SendCoverpage property, IFaxDoc.Sen
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.SendCoverpage"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

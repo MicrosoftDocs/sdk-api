@@ -12,6 +12,8 @@ ms.keywords: DXGI_OUTDUPL_POINTER_SHAPE_INFO, DXGI_OUTDUPL_POINTER_SHAPE_INFO st
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_2/DXGI_OUTDUPL_POINTER_SHAPE_INFO"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

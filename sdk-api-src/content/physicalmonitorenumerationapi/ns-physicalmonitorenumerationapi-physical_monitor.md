@@ -12,6 +12,8 @@ ms.keywords: "*LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR struct
 ms.topic: struct
 f1_keywords: 
  - "physicalmonitorenumerationapi/PHYSICAL_MONITOR"
+dev_langs:
+ - c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

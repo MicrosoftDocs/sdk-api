@@ -12,6 +12,8 @@ ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY, WS_REQUEST_SECURITY_TOKEN_PROPE
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

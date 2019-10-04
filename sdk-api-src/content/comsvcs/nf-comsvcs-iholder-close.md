@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [COM+], Close method [COM+],IHolder interface, 
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IHolder.Close"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

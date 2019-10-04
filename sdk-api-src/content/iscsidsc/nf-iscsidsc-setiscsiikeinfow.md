@@ -12,6 +12,8 @@ ms.keywords: SetIScsiIKEInfoW, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI 
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/SetIscsiIKEInfo"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

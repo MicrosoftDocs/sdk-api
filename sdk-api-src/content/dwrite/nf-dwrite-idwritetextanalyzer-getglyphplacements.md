@@ -12,6 +12,8 @@ ms.keywords: GetGlyphPlacements, GetGlyphPlacements method [Direct Write], GetGl
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalyzer.GetGlyphPlacements"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

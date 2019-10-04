@@ -12,6 +12,8 @@ ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessment
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IProvideWinSATResultsInfo.GetAssessmentInfo"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStartTime method, IMc
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastLeaseInfo.put_LeaseStartTime"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

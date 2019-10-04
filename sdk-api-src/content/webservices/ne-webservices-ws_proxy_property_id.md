@@ -12,6 +12,8 @@ ms.keywords: WS_PROXY_FAULT_LANG_ID, WS_PROXY_PROPERTY_CALL_TIMEOUT, WS_PROXY_PR
 ms.topic: enum
 f1_keywords:
 - webservices/WS_PROXY_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

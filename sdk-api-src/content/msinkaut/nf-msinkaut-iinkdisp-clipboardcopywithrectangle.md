@@ -12,6 +12,8 @@ ms.keywords: ClipboardCopyWithRectangle, ClipboardCopyWithRectangle method [Tabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.ClipboardCopyWithRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

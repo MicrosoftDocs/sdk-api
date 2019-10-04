@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_Delete"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

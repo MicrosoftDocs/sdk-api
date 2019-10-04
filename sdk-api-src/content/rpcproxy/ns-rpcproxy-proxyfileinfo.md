@@ -12,6 +12,8 @@ ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC]
 ms.topic: struct
 f1_keywords: 
  - "rpcproxy/ProxyFileInfo"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

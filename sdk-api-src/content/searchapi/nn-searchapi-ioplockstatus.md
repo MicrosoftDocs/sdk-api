@@ -12,6 +12,8 @@ ms.keywords: IOpLockStatus, IOpLockStatus interface [search], IOpLockStatus inte
 ms.topic: interface
 f1_keywords: 
  - "searchapi/IOpLockStatus"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

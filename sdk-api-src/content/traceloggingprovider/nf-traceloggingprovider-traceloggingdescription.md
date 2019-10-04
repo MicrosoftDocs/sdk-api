@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingDescription, TraceLoggingDescription macro, traceloggin
 ms.topic: macro
 f1_keywords: 
  - "traceloggingprovider/TraceLoggingDescription"
+dev_langs:
+ - c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

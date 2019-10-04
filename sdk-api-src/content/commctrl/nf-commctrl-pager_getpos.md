@@ -12,6 +12,8 @@ ms.keywords: Pager_GetPos, Pager_GetPos macro [Windows Controls], _win32_Pager_G
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_GetPos"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

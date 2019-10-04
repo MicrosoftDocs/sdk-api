@@ -12,6 +12,8 @@ ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwr
 ms.topic: function
 f1_keywords:
 - evntprov/EventWriteTransfer
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipad
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpAddrTable
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

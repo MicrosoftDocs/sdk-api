@@ -12,6 +12,8 @@ ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint met
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IShellFolderView.GetDragPoint"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

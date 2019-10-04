@@ -12,6 +12,8 @@ ms.keywords: GetOption, GetOption method [search], GetOption method [search],IQu
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParser.GetOption"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

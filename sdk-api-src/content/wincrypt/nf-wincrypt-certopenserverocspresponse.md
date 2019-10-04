@@ -12,6 +12,8 @@ ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Se
 ms.topic: function
 f1_keywords:
 - wincrypt/CertOpenServerOcspResponse
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

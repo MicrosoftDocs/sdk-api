@@ -12,6 +12,8 @@ ms.keywords: GetLastWriteTime, GetLastWriteTime method [Direct Write], GetLastWr
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFileStream.GetLastWriteTime"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

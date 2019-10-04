@@ -12,6 +12,8 @@ ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModu
 ms.topic: method
 f1_keywords: 
  - "certpol/ICertPolicy2.GetManageModule"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

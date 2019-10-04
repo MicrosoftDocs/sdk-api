@@ -12,6 +12,8 @@ ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct2D], CreateVer
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1EffectContext.CreateVertexBuffer"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

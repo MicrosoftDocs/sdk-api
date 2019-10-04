@@ -12,6 +12,8 @@ ms.keywords: TARGET_CHECKED_OUT, TARGET_DOWN, TARGET_HIBERNATED, TARGET_INITIALI
 ms.topic: enum
 f1_keywords: 
  - "sessdirpublictypes/TARGET_STATE"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

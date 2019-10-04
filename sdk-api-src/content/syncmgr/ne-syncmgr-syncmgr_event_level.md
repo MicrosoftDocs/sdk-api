@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_EL_ERROR, SYNCMGR_EL_INFORMATION, SYNCMGR_EL_MAX, SYNCMGR_E
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_EVENT_LEVEL"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,10 @@ ms.assetid: e44da7c0-192f-42e2-8130-9fbe06fe4e4a
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::SetMarker
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList::SetMarker, SetMarker, ID3D12VideoDecodeCommandList.SetMarker, ID3D12VideoDecodeCommandList::SetMarker, ID3D12VideoDecodeCommandList.SetMarker
 req.header: d3d12video.h
 req.include-header:

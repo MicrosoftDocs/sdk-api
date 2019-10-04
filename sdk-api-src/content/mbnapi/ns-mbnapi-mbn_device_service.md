@@ -12,6 +12,8 @@ ms.keywords: MBN_DEVICE_SERVICE, MBN_DEVICE_SERVICE structure [Microsoft Broadba
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_DEVICE_SERVICE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

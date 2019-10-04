@@ -12,6 +12,8 @@ ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCACon
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.CSPName"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRowHeaders, GetRowHeaders method [Windows Accessibility], GetRow
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITableProvider.GetRowHeaders"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

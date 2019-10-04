@@ -12,6 +12,8 @@ ms.keywords: IEnumDirectory interface [TAPI 2.2],Skip method, IEnumDirectory.Ski
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDirectory.Skip"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

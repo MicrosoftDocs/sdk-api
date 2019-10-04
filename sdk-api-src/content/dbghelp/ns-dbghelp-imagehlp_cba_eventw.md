@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGEHLP_CBA_EVENTW, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT stru
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/IMAGEHLP_CBA_EVENT"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

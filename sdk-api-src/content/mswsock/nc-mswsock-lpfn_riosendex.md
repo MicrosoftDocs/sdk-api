@@ -12,6 +12,8 @@ ms.keywords: LPFN_RIOSENDEX
 ms.topic: language-reference
 f1_keywords: 
  - "mswsock/LPFN_RIOSENDEX"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

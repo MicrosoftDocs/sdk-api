@@ -12,6 +12,8 @@ ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceH
 ms.topic: method
 f1_keywords: 
  - "wsdhost/IWSDDeviceHost.SetServiceDiscoverable"
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

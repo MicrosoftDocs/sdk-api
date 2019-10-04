@@ -12,6 +12,8 @@ ms.keywords: DXGI_ADAPTER_FLAG3, DXGI_ADAPTER_FLAG3 enumeration [DXGI], DXGI_ADA
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_6/DXGI_ADAPTER_FLAG3"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

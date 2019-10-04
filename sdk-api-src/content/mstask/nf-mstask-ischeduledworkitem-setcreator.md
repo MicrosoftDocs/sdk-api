@@ -12,6 +12,8 @@ ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IS
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.SetCreator"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinMinor
 ms.topic: method
 f1_keywords: 
  - "tuner/IATSCTuningSpace.put_MinMinorChannel"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

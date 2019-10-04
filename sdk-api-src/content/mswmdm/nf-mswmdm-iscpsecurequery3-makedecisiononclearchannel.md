@@ -12,6 +12,8 @@ ms.keywords: ISCPSecureQuery3 interface [windows Media Device Manager],MakeDecis
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureQuery3.MakeDecisionOnClearChannel"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

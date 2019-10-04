@@ -12,6 +12,8 @@ ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRigh
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaEnumerateAccountsWithUserRight
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

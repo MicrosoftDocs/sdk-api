@@ -12,6 +12,8 @@ ms.keywords: GetFontFamily, GetFontFamily method [Direct Write], GetFontFamily m
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFont.GetFontFamily"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

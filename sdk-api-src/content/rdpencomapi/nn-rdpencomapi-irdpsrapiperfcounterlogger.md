@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP],
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIPerfCounterLogger"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ILCF_MOVE, ILCF_SWAP, ImageList_Copy, ImageList_Copy function [Wind
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Copy"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

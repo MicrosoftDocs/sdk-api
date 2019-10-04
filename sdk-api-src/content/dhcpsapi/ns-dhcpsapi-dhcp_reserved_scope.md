@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE, DHCP_RESERVED_SCOPE s
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_RESERVED_SCOPE"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

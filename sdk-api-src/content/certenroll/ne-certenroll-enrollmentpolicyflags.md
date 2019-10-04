@@ -12,6 +12,8 @@ ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlag
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentPolicyFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

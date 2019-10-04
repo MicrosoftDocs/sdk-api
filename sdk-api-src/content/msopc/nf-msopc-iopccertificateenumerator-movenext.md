@@ -12,6 +12,8 @@ ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],Mo
 ms.topic: method
 f1_keywords:
 - msopc/IOpcCertificateEnumerator.MoveNext
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

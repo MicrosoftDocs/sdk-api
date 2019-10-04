@@ -12,6 +12,8 @@ ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow m
 ms.topic: method
 f1_keywords: 
  - "inputpaneinterop/IInputPaneInterop.GetForWindow"
+dev_langs:
+ - c++
 req.header: inputpaneinterop.h
 req.include-header: 
 req.target-type: Windows

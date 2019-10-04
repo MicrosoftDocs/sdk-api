@@ -12,6 +12,8 @@ ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPathname.GetNumElements"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

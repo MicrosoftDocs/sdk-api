@@ -12,6 +12,8 @@ ms.keywords: ConvertFontFaceToLOGFONT, ConvertFontFaceToLOGFONT method [Direct W
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteGdiInterop.ConvertFontFaceToLOGFONT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

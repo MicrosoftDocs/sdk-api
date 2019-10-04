@@ -12,6 +12,8 @@ ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows A
 ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.GetPosTable
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

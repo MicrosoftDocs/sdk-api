@@ -12,6 +12,8 @@ ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects],
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectInteriorOutputConnector.GetOutputConnector"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Ser
 ms.topic: function
 f1_keywords:
 - wtsapi32/WTSWaitSystemEvent
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

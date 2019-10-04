@@ -12,6 +12,8 @@ ms.keywords: "*LPWKSTA_USER_INFO_0, *PWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0, LP
 ms.topic: struct
 f1_keywords: 
  - "lmwksta/WKSTA_USER_INFO_0"
+dev_langs:
+ - c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

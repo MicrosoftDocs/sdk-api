@@ -12,6 +12,8 @@ ms.keywords: WMPTransactionType, WMPTransactionType enumeration [Windows Media P
 ms.topic: enum
 f1_keywords: 
  - "contentpartner/WMPTransactionType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

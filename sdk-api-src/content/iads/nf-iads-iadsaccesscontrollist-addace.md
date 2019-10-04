@@ -12,6 +12,8 @@ ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessContro
 ms.topic: method
 f1_keywords: 
  - "iads/IADsAccessControlList.AddAce"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

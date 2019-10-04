@@ -12,6 +12,8 @@ ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSe
 ms.topic: function
 f1_keywords: 
  - "drt/DrtEndSearch"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

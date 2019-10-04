@@ -12,6 +12,8 @@ ms.keywords: 18f67080-ed56-43af-b0d6-8af35c2e871b, Draw, Draw method [Tablet PC]
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.Draw"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

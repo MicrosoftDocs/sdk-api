@@ -12,6 +12,8 @@ ms.keywords: PEERDIST_STATUS, PEERDIST_STATUS enumeration [Peer Networking], PEE
 ms.topic: enum
 f1_keywords: 
  - "peerdist/PEERDIST_STATUS"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

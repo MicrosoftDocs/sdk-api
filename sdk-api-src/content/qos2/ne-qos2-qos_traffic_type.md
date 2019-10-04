@@ -12,6 +12,8 @@ ms.keywords: "*PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE, PQOS_TRAFFIC_TYPE enumerati
 ms.topic: enum
 f1_keywords: 
  - "qos2/QOS_TRAFFIC_TYPE"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

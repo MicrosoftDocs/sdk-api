@@ -12,6 +12,8 @@ ms.keywords: MC_BLUE_DRIVE, MC_DRIVE_TYPE, MC_DRIVE_TYPE , MC_DRIVE_TYPE enumera
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_DRIVE_TYPE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

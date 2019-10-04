@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentS
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocument.SetDocumentStructureResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

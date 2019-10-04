@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "control/IAMStats.GetIndex"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

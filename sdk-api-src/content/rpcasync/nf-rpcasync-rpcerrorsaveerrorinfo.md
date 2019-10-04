@@ -12,6 +12,8 @@ ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_r
 ms.topic: function
 f1_keywords: 
  - "rpcasync/RpcErrorSaveErrorInfo"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

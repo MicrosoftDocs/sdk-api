@@ -12,6 +12,8 @@ ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGE
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIGETTEMPFILE"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

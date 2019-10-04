@@ -12,6 +12,8 @@ ms.keywords: CountedString, CountedString structure [NAP], StringCorrelationId, 
 ms.topic: struct
 f1_keywords: 
  - "naptypes/CountedString"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

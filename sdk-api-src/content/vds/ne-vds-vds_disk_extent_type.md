@@ -12,6 +12,8 @@ ms.keywords: VDS_DET_CLUSTER, VDS_DET_DATA, VDS_DET_ESP, VDS_DET_FREE, VDS_DET_L
 ms.topic: enum
 f1_keywords:
 - vds/VDS_DISK_EXTENT_TYPE
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

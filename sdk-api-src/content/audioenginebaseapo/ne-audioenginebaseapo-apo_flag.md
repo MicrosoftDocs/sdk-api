@@ -12,6 +12,8 @@ ms.keywords: APO_FLAG, APO_FLAG enumeration [Audio Devices], APO_FLAG_BITSPERSAM
 ms.topic: enum
 f1_keywords: 
  - "audioenginebaseapo/APO_FLAG"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

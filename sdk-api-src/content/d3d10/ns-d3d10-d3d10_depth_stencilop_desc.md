@@ -12,6 +12,8 @@ ms.keywords: D3D10_DEPTH_STENCILOP_DESC, D3D10_DEPTH_STENCILOP_DESC structure [D
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_DEPTH_STENCILOP_DESC"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

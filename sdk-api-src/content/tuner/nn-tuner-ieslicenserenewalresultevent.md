@@ -12,6 +12,8 @@ ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interfac
 ms.topic: interface
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

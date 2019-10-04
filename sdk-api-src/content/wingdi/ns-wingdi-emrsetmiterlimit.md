@@ -12,6 +12,8 @@ ms.keywords: "*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMRSETMITERLIMIT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

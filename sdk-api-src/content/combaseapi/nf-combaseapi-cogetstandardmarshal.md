@@ -12,6 +12,8 @@ ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoG
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetStandardMarshal"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

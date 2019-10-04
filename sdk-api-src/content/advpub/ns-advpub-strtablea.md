@@ -12,6 +12,8 @@ ms.keywords: "*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows 
 ms.topic: struct
 f1_keywords: 
  - "advpub/STRTABLEA"
+dev_langs:
+ - c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

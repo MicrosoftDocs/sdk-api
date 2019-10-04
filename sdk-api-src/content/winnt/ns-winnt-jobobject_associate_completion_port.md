@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLET
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

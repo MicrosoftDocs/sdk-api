@@ -12,6 +12,8 @@ ms.keywords: "*PSOCKADDR_BTH, PSOCKADDR_BTH, PSOCKADDR_BTH structure pointer [Bl
 ms.topic: struct
 f1_keywords: 
  - "ws2bth/SOCKADDR_BTH"
+dev_langs:
+ - c++
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

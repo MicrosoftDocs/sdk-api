@@ -12,6 +12,8 @@ ms.keywords: AUTO_SCROLL_DATA, AUTO_SCROLL_DATA structure [Windows Shell], _win3
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/AUTO_SCROLL_DATA"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

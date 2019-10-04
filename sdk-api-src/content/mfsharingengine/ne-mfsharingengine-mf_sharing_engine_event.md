@@ -12,6 +12,8 @@ ms.keywords: MF_SHARING_ENGINE_EVENT, MF_SHARING_ENGINE_EVENT enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfsharingengine/MF_SHARING_ENGINE_EVENT"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

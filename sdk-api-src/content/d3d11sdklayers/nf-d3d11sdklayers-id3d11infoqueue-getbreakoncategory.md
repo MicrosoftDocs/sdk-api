@@ -12,6 +12,8 @@ ms.keywords: 08043309-7517-83fc-be14-01f7cb816e88, GetBreakOnCategory, GetBreakO
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetBreakOnCategory"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

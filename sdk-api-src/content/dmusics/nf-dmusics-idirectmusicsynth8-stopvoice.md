@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth8 interface [Audio Devices],StopVoice method, IDir
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth8.StopVoice"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumDeviceInfo, EnumDeviceInfo method [WIA], EnumDeviceInfo method 
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaDevMgr.EnumDeviceInfo"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

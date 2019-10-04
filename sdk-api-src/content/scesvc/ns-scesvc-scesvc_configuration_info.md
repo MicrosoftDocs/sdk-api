@@ -12,6 +12,8 @@ ms.keywords: '*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_C
 ms.topic: struct
 f1_keywords:
 - scesvc/SCESVC_CONFIGURATION_INFO
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

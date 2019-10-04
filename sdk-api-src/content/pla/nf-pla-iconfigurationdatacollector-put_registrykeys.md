@@ -12,6 +12,8 @@ ms.keywords: IConfigurationDataCollector interface [PLA],RegistryKeys property, 
 ms.topic: method
 f1_keywords: 
  - "pla/IConfigurationDataCollector.RegistryKeys"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO, CRYPT_CONTENT_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_CONTENT_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

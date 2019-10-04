@@ -12,6 +12,8 @@ ms.keywords: ITsSbTargetPropertySet, ITsSbTargetPropertySet interface [Remote De
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbTargetPropertySet"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCACHE_DESCRIPTOR, CACHE_DESCRIPTOR, CACHE_DESCRIPTOR structure, 
 ms.topic: struct
 f1_keywords:
 - winnt/CACHE_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

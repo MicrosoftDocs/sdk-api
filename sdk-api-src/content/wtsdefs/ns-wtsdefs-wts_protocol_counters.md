@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_C
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_PROTOCOL_COUNTERS
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

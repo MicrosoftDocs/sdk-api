@@ -12,6 +12,8 @@ ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternal
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IExternalConnection"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.MachineContext"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

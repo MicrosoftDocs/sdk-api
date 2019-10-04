@@ -12,6 +12,8 @@ ms.keywords: IEntity interface [search],MetaData method, IEntity.MetaData, IEnti
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IEntity.MetaData"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

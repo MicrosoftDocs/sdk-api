@@ -12,6 +12,8 @@ ms.keywords: '*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS stru
 ms.topic: struct
 f1_keywords:
 - mprapi/L2TP_CONFIG_PARAMS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

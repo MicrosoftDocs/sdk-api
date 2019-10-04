@@ -12,6 +12,8 @@ ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetP
 ms.topic: function
 f1_keywords:
 - winfax/FaxSetPort
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

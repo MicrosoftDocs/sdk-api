@@ -12,6 +12,8 @@ ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWO
 ms.topic: function
 f1_keywords:
 - winbase/LogonUserEx
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

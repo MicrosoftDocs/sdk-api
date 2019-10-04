@@ -12,6 +12,8 @@ ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink 
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/IPhraseSink"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

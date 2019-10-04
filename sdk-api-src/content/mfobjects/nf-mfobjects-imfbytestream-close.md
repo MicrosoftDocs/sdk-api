@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.Close"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorre
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.GetGammaCorrection"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

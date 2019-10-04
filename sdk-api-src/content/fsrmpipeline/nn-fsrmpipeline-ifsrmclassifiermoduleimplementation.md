@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplement
 ms.topic: interface
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassifierModuleImplementation"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

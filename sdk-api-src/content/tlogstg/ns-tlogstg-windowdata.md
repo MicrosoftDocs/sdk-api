@@ -12,6 +12,8 @@ ms.keywords: "*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _
 ms.topic: struct
 f1_keywords: 
  - "tlogstg/WINDOWDATA"
+dev_langs:
+ - c++
 req.header: tlogstg.h
 req.include-header: 
 req.target-type: Windows

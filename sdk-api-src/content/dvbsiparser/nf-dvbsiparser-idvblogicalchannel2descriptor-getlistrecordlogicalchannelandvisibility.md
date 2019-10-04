@@ -12,6 +12,8 @@ ms.keywords: GetListRecordLogicalChannelAndVisibility, GetListRecordLogicalChann
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DCB_FUNCTION, DCB_NOSWITCH, DCB_TASK, DCB_WINDOW, DriverCallback, D
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/DriverCallback"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h
 req.target-type: Windows

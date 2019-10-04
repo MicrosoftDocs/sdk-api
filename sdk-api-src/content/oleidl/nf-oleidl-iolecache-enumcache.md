@@ -12,6 +12,8 @@ ms.keywords: EnumCache, EnumCache method [COM], EnumCache method [COM],IOleCache
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCache.EnumCache"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

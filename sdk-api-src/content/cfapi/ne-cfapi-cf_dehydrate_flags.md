@@ -12,6 +12,8 @@ ms.keywords: CF_DEHYDRATE_FLAGS, CF_DEHYDRATE_FLAGS enumeration, CF_DEHYDRATE_FL
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_DEHYDRATE_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

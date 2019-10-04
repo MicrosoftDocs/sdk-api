@@ -12,6 +12,8 @@ ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging],
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCanvas"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetShowCmd, GetShowCmd method [Windows Shell], GetShowCmd method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.GetShowCmd"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

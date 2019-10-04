@@ -12,6 +12,8 @@ ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_FreeSystemBuffer metho
 ms.topic: method
 f1_keywords: 
  - "imapi2/IWriteEngine2EventArgs.get_FreeSystemBuffer"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster],
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWEExtendWizard97.CreateWizard97Pages"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

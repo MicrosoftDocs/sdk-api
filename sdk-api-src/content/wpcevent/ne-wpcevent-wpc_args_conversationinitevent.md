@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_CONVERSATIONINITEVENT, WPC_ARGS_CONVERSATIONINITEVENT enum
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_CONVERSATIONINITEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

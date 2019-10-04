@@ -12,6 +12,8 @@ ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVi
 ms.topic: method
 f1_keywords: 
  - "wiavideo/IWiaVideo.CreateVideoByWiaDevID"
+dev_langs:
+ - c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows

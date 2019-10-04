@@ -12,6 +12,8 @@ ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], G
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolumeEx.GetVolumeRangeChannel"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

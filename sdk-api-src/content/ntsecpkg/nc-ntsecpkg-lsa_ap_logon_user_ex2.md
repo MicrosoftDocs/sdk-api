@@ -12,6 +12,8 @@ ms.keywords: LSA_AP_LOGON_USER_EX2, LSA_AP_LOGON_USER_EX2 callback, LsaApLogonUs
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/LsaApLogonUserEx2
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGravity, GetGravity method [Windows Controls], GetGravity method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetGravity"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

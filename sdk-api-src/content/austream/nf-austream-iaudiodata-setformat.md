@@ -12,6 +12,8 @@ ms.keywords: IAudioData interface [DirectShow],SetFormat method, IAudioData.SetF
 ms.topic: method
 f1_keywords: 
  - "austream/IAudioData.SetFormat"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

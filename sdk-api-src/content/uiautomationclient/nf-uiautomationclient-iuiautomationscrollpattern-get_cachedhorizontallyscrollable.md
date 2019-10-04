@@ -12,6 +12,8 @@ ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], Cach
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationScrollPattern.CachedHorizontallyScrollable"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IM
 ms.topic: interface
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

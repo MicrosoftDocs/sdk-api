@@ -12,6 +12,8 @@ ms.keywords: TYMED, TYMED enumeration [COM], TYMED_ENHMF, TYMED_FILE, TYMED_GDI,
 ms.topic: enum
 f1_keywords: 
  - "objidl/TYMED"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

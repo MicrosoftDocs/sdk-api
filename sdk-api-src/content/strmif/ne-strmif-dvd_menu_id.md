@@ -12,6 +12,8 @@ ms.keywords: DVD_MENU_Angle, DVD_MENU_Audio, DVD_MENU_Chapter, DVD_MENU_ID, DVD_
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_MENU_ID"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

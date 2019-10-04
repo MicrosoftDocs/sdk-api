@@ -12,6 +12,8 @@ ms.keywords: Ndr64AsyncClientCall, Ndr64AsyncClientCall function [RPC], rpc.ndr6
 ms.topic: function
 f1_keywords: 
  - "rpcndr/Ndr64AsyncClientCall"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IContinueCallback, IContinueCallback interface [COM], IContinueCall
 ms.topic: interface
 f1_keywords: 
  - "docobj/IContinueCallback"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

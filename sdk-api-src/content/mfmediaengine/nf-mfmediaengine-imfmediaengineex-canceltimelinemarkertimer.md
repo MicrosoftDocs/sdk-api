@@ -12,6 +12,8 @@ ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media 
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.CancelTimelineMarkerTimer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

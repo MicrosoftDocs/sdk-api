@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeAltName object [Security],Encode method, Encode, Encode 
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeAltName.Encode"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

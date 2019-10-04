@@ -12,6 +12,8 @@ ms.keywords: ID3D12CommandSignature, ID3D12CommandSignature interface, ID3D12Com
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12CommandSignature"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

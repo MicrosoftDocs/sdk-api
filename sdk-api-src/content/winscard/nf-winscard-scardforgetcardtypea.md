@@ -12,6 +12,8 @@ ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCard
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardForgetCardType"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTypeKind, GetTypeKind method [Automation], GetTypeKind method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo2.GetTypeKind"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

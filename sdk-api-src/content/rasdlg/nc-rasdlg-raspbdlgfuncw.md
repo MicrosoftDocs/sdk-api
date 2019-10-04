@@ -12,6 +12,8 @@ ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry,
 ms.topic: callback
 f1_keywords: 
  - "rasdlg/RasPBDlgFunc"
+dev_langs:
+ - c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

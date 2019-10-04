@@ -12,6 +12,8 @@ ms.keywords: CreateNewStreamPrioritization, CreateNewStreamPrioritization method
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile3.CreateNewStreamPrioritization"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

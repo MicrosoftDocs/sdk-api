@@ -12,6 +12,8 @@ ms.keywords: FindUnit, FindUnit method [COM], FindUnit method [COM],IOleParentUn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleParentUndoUnit.FindUnit"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

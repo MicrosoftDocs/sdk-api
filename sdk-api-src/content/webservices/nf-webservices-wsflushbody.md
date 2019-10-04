@@ -12,6 +12,8 @@ ms.keywords: WsFlushBody, WsFlushBody function [Web Services for Windows], webse
 ms.topic: function
 f1_keywords:
 - webservices/WsFlushBody
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

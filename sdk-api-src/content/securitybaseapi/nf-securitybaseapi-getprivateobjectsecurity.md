@@ -12,6 +12,8 @@ ms.keywords: GetPrivateObjectSecurity, GetPrivateObjectSecurity function [Securi
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetPrivateObjectSecurity
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

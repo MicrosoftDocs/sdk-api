@@ -12,6 +12,8 @@ ms.keywords: SYNC_SERIALIZATION_VERSION, SYNC_SERIALIZATION_VERSION enumeration 
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_SERIALIZATION_VERSION"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

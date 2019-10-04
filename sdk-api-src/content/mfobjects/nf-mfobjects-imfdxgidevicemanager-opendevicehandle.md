@@ -12,6 +12,8 @@ ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],OpenDeviceHandle 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFDXGIDeviceManager.OpenDeviceHandle"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

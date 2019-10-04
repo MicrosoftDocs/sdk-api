@@ -12,6 +12,8 @@ ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnose
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfDiagnoseIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

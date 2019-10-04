@@ -12,6 +12,8 @@ ms.keywords: StrRChr, StrRChr function [Windows Shell], StrRChrA, StrRChrW, _win
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrRChr"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

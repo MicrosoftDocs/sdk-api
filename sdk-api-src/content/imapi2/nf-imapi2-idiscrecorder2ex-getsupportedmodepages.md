@@ -12,6 +12,8 @@ ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSup
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetSupportedModePages
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_BINDING_TEMPLATE_TYPE, WS_BINDING_TEMPLATE_TYPE enumeration [Web
 ms.topic: enum
 f1_keywords:
 - webservices/WS_BINDING_TEMPLATE_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

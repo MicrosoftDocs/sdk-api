@@ -12,6 +12,8 @@ ms.keywords: InitVariantFromDoubleArray, InitVariantFromDoubleArray function [Wi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/InitVariantFromDoubleArray"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

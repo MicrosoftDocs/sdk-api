@@ -12,6 +12,8 @@ ms.keywords: IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkPersi
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkPersistenceCompressionMode"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

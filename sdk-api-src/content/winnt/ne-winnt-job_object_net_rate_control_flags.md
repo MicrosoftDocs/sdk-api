@@ -12,6 +12,8 @@ ms.keywords: JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, JOB_OBJECT_NET_RATE_CONTROL_E
 ms.topic: enum
 f1_keywords: 
  - "winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

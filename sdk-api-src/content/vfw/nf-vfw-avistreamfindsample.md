@@ -12,6 +12,8 @@ ms.keywords: AVIStreamFindSample, AVIStreamFindSample function [Windows Multimed
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamFindSample"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

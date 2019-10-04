@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetGamma method, ImageAttributes.SetGa
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetGamma"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

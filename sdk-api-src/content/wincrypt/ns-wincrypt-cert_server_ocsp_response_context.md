@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_SERVER_OCSP_RESPONSE_CONTEXT, CERT_SERVER_OCSP_RESPONSE_CON
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_SERVER_OCSP_RESPONSE_CONTEXT"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

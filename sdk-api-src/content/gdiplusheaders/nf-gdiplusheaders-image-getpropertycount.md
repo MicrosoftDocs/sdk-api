@@ -12,6 +12,8 @@ ms.keywords: GetPropertyCount, GetPropertyCount method [GDI+], GetPropertyCount 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetPropertyCount"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

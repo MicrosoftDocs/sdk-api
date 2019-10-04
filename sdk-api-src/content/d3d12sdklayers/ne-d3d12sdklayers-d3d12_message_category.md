@@ -12,6 +12,8 @@ ms.keywords: D3D12_MESSAGE_CATEGORY, D3D12_MESSAGE_CATEGORY enumeration, D3D12_M
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_MESSAGE_CATEGORY"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

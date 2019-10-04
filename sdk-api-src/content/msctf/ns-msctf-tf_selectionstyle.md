@@ -12,6 +12,8 @@ ms.keywords: TF_SELECTIONSTYLE, TF_SELECTIONSTYLE structure [Text Services Frame
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_SELECTIONSTYLE"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

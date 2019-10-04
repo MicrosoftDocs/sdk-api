@@ -12,6 +12,8 @@ ms.keywords: 5b89d036-c0de-c93d-6c62-1b4072dc95c7, IDirect3DVolumeTexture9 inter
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DVolumeTexture9.UnlockBox"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

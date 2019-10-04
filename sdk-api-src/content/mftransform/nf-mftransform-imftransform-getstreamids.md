@@ -12,6 +12,8 @@ ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs me
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetStreamIDs"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

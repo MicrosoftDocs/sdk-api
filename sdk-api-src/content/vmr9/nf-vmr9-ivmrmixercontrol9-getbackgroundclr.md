@@ -12,6 +12,8 @@ ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgrou
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRMixerControl9.GetBackgroundClr"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate call
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterCheckForDuplicate
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

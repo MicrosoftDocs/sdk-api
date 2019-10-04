@@ -12,6 +12,8 @@ ms.keywords: CreateAccessor, CreateAccessor method [search], CreateAccessor meth
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchProtocol.CreateAccessor
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

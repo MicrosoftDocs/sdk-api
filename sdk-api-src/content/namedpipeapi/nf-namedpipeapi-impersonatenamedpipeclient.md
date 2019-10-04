@@ -12,6 +12,8 @@ ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Se
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/ImpersonateNamedPipeClient"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

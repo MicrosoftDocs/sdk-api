@@ -12,6 +12,8 @@ ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [
 ms.topic: function
 f1_keywords: 
  - "mmdeviceapi/ActivateAudioInterfaceAsync"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl
 req.target-type: Windows

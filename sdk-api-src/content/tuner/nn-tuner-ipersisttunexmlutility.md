@@ -12,6 +12,8 @@ ms.keywords: IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "tuner/IPersistTuneXmlUtility"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

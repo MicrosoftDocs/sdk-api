@@ -12,6 +12,8 @@ ms.keywords: GdiplusStartup, GdiplusStartup function [GDI+], _gdiplus_FUNC_Gdipl
 ms.topic: function
 f1_keywords: 
  - "gdiplusinit/GdiplusStartup"
+dev_langs:
+ - c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

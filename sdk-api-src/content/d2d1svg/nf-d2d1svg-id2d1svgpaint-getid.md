@@ -12,6 +12,8 @@ ms.keywords: GetId, GetId method [Direct2D], GetId method [Direct2D],ID2D1SvgPai
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPaint.GetId"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

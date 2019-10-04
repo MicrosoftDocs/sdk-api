@@ -12,6 +12,8 @@ ms.keywords: IConsoleVerb, IConsoleVerb interface [MMC], IConsoleVerb interface 
 ms.topic: interface
 f1_keywords: 
  - "mmc/IConsoleVerb"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

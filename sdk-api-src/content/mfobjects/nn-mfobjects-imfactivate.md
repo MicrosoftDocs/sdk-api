@@ -12,6 +12,8 @@ ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate 
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFActivate"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

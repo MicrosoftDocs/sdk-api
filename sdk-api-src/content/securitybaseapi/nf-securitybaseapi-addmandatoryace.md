@@ -12,6 +12,8 @@ ms.keywords: ACL_REVISION, ACL_REVISION_DS, AddMandatoryAce, AddMandatoryAce fun
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddMandatoryAce
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

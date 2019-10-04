@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IP
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.get_Height"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

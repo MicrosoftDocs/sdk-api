@@ -12,6 +12,8 @@ ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationali
 ms.topic: function
 f1_keywords: 
  - "stringapiset/CompareStringOrdinal"
+dev_langs:
+ - c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

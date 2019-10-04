@@ -12,6 +12,8 @@ ms.keywords: CopyTextureRegion, CopyTextureRegion method, CopyTextureRegion meth
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList.CopyTextureRegion"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

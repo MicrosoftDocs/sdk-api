@@ -12,6 +12,8 @@ ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke me
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.CreateStroke"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

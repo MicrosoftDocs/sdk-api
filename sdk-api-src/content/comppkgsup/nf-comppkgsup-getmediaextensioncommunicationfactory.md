@@ -12,6 +12,8 @@ ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicati
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/GetMediaExtensionCommunicationFactory"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

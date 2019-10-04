@@ -12,6 +12,8 @@ ms.keywords: D2D1_FEATURE_DATA_DOUBLES, D2D1_FEATURE_DATA_DOUBLES structure [Dir
 ms.topic: struct
 f1_keywords: 
  - "d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

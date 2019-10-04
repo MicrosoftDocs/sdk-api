@@ -12,6 +12,8 @@ ms.keywords: "*PCOMBOBOXEXITEMW, CBEIF_DI_SETITEM, CBEIF_IMAGE, CBEIF_INDENT, CB
 ms.topic: struct
 f1_keywords: 
  - "commctrl/COMBOBOXEXITEM"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

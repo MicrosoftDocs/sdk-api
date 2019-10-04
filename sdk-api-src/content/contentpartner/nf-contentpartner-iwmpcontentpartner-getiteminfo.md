@@ -12,6 +12,8 @@ ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.GetItemInfo"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

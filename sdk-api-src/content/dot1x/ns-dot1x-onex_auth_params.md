@@ -12,6 +12,8 @@ ms.keywords: '*PONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS structure [
 ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_AUTH_PARAMS
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

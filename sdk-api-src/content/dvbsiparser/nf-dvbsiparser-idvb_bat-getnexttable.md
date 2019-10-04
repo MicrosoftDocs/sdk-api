@@ -12,6 +12,8 @@ ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetN
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_BAT.GetNextTable"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

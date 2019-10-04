@@ -12,6 +12,8 @@ ms.keywords: DxGetPolarity, DxGetPolarity callback function [Display Devices], P
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetPolarity
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

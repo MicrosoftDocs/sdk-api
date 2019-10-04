@@ -12,6 +12,8 @@ ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, win
 ms.topic: function
 f1_keywords:
 - ws2spi/NSPStartup
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

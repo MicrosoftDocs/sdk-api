@@ -12,6 +12,8 @@ ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPUL
 ms.topic: enum
 f1_keywords: 
  - "manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

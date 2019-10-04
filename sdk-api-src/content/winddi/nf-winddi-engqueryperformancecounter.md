@@ -12,6 +12,8 @@ ms.keywords: EngQueryPerformanceCounter, EngQueryPerformanceCounter function [Di
 ms.topic: function
 f1_keywords: 
  - "winddi/EngQueryPerformanceCounter"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

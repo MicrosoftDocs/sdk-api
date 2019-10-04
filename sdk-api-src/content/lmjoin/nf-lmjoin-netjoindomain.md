@@ -12,6 +12,8 @@ ms.keywords: NETSETUP_ACCT_CREATE, NETSETUP_AMBIGUOUS_DC, NETSETUP_DEFER_SPN_SET
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetJoinDomain"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

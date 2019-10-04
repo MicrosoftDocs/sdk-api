@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog interface [COM+],RefreshComponents method, ICOMAdm
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.RefreshComponents"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

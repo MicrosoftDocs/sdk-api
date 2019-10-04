@@ -12,6 +12,8 @@ ms.keywords: OLECONTF, OLECONTF enumeration [COM], OLECONTF_EMBEDDINGS, OLECONTF
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLECONTF"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

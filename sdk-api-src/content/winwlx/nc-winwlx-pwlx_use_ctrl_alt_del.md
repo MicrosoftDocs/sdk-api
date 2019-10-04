@@ -12,6 +12,8 @@ ms.keywords: PWLX_USE_CTRL_ALT_DEL, PWLX_USE_CTRL_ALT_DEL callback, WlxUseCtrlAl
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxUseCtrlAltDel"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

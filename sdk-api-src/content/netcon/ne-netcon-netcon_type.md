@@ -12,6 +12,8 @@ ms.keywords: NCT_BRIDGE, NCT_DIRECT_CONNECT, NCT_INBOUND, NCT_INTERNET, NCT_LAN,
 ms.topic: enum
 f1_keywords: 
  - "netcon/NETCON_TYPE"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

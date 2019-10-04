@@ -12,6 +12,8 @@ ms.keywords: "*LPIN6_ADDR, *PIN6_ADDR, IN6_ADDR, IN6_ADDR structure [Network Dri
 ms.topic: struct
 f1_keywords: 
  - "in6addr/IN6_ADDR"
+dev_langs:
+ - c++
 req.header: in6addr.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows

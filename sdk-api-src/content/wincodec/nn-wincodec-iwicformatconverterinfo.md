@@ -12,6 +12,8 @@ ms.keywords: IWICFormatConverterInfo, IWICFormatConverterInfo interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICFormatConverterInfo"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

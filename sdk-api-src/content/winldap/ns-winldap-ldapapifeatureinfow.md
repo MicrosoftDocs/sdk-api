@@ -12,6 +12,8 @@ ms.keywords: LDAPAPIFeatureInfo, LDAPAPIFeatureInfo structure [LDAP], LDAPAPIFea
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPAPIFeatureInfo"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

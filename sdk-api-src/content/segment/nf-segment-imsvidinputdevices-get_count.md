@@ -12,6 +12,8 @@ ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get_Count 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidInputDevices.get_Count"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

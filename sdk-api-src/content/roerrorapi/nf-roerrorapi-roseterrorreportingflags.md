@@ -14,6 +14,8 @@ ms.technology: windows-devices
 ms.topic: function
 f1_keywords: 
  - "roerrorapi/RoSetErrorReportingFlags"
+dev_langs:
+ - c++
 req.header: roerrorapi.h
 req.include-header: Roapi.h
 req.target-type: Windows

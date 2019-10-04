@@ -12,6 +12,8 @@ ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACC
 ms.topic: function
 f1_keywords: 
  - "evntcons/EventAccessControl"
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PGLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY st
 ms.topic: struct
 f1_keywords:
 - powrprof/GLOBAL_POWER_POLICY
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

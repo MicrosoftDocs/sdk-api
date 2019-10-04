@@ -12,6 +12,8 @@ ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel met
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrHandlerInfo.GetTypeLabel"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

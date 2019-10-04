@@ -12,6 +12,8 @@ ms.keywords: '*LPPOINTS, *PPOINTS, LPPOINTS, LPPOINTS structure pointer [Display
 ms.topic: struct
 f1_keywords:
 - windef/POINTS
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

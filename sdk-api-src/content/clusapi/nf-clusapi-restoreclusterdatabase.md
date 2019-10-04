@@ -12,6 +12,8 @@ ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover C
 ms.topic: function
 f1_keywords: 
  - "clusapi/RestoreClusterDatabase"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

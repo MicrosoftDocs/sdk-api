@@ -12,6 +12,8 @@ ms.keywords: BeginSearch, BeginSearch method [Windows Update Agent], BeginSearch
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSearcher.BeginSearch"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

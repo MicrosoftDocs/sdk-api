@@ -12,6 +12,8 @@ ms.keywords: AddBehavior, AddBehavior method [Direct Manipulation], AddBehavior 
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport2.AddBehavior"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetTabCount"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

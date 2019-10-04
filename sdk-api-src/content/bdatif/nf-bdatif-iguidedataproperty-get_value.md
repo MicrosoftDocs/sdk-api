@@ -12,6 +12,8 @@ ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value 
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideDataProperty.get_Value"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

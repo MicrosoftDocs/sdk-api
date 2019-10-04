@@ -12,6 +12,8 @@ ms.keywords: ISearchJob interface [Windows Update Agent],IsCompleted property, I
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISearchJob.IsCompleted"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

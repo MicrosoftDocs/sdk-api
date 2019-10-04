@@ -12,6 +12,8 @@ ms.keywords: ICSetStatusProc, ICSetStatusProc function [Windows Multimedia], _wi
 ms.topic: function
 f1_keywords: 
  - "vfw/ICSetStatusProc"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

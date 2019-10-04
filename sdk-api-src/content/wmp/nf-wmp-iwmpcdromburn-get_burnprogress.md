@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnProgress met
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromBurn.get_burnProgress"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

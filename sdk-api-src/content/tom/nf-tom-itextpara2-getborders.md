@@ -12,6 +12,8 @@ ms.keywords: GetBorders, GetBorders method [Windows Controls], GetBorders method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.GetBorders"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows

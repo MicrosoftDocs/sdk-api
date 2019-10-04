@@ -12,6 +12,8 @@ ms.keywords: GetLocalEffectsState, GetLocalEffectsState method [Core Audio], Get
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioLfxControl.GetLocalEffectsState"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

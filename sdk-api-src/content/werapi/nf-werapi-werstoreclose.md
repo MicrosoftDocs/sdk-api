@@ -12,6 +12,8 @@ ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], we
 ms.topic: function
 f1_keywords: 
  - "werapi/WerStoreClose"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.S
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntry.SetTitle"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

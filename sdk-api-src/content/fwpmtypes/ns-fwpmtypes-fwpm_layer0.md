@@ -12,6 +12,8 @@ ms.keywords: FWPM_LAYER0, FWPM_LAYER0 structure [Filtering], FWPM_LAYER_FLAG_BUF
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_LAYER0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

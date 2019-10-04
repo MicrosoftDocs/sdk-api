@@ -12,6 +12,8 @@ ms.keywords: WMPSubscriptionServiceEvent, WMPSubscriptionServiceEvent enumeratio
 ms.topic: enum
 f1_keywords: 
  - "subscriptionservices/WMPSubscriptionServiceEvent"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

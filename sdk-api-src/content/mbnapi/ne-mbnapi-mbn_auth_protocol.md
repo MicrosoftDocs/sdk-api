@@ -12,6 +12,8 @@ ms.keywords: MBN_AUTH_PROTOCOL, MBN_AUTH_PROTOCOL enumeration [Microsoft Broadba
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_AUTH_PROTOCOL"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

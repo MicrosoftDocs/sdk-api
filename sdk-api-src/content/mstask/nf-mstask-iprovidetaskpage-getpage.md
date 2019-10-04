@@ -12,6 +12,8 @@ ms.keywords: GetPage, GetPage method [Task Scheduler], GetPage method [Task Sche
 ms.topic: method
 f1_keywords:
 - mstask/IProvideTaskPage.GetPage
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMSecurityInfo class [GPMC],RemoveTrustee method, IGPMSecurityInfo
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSecurityInfo.RemoveTrustee"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

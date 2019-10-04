@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_ST
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_INITIALIZE_ELEMENT_STATUS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

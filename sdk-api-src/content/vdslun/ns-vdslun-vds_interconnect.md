@@ -12,6 +12,8 @@ ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], base.vds_interc
 ms.topic: struct
 f1_keywords:
 - vdslun/VDS_INTERCONNECT
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

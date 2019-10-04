@@ -12,6 +12,8 @@ ms.keywords: PSpatialAudioHrtfDirectivityCone, PSpatialAudioHrtfDirectivityCone 
 ms.topic: struct
 f1_keywords: 
  - "spatialaudiohrtf/SpatialAudioHrtfDirectivityCone"
+dev_langs:
+ - c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

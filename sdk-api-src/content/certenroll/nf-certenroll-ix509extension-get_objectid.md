@@ -12,6 +12,8 @@ ms.keywords: IX509Extension interface [Security],ObjectId property, IX509Extensi
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Extension.ObjectId"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

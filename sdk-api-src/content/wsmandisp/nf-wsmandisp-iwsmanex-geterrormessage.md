@@ -12,6 +12,8 @@ ms.keywords: GetErrorMessage, GetErrorMessage method [Windows Remote Management]
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx.GetErrorMessage"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

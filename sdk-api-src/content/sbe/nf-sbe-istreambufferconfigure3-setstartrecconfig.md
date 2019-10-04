@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetSt
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferConfigure3.SetStartRecConfig"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

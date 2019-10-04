@@ -12,6 +12,8 @@ ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINF
 ms.topic: struct
 f1_keywords: 
  - "t2embapi/TTEMBEDINFO"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

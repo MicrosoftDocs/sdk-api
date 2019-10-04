@@ -12,6 +12,8 @@ ms.keywords: IVdsStoragePool interface,QueryAllocatedStoragePools method, IVdsSt
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsStoragePool.QueryAllocatedStoragePools"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

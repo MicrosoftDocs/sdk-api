@@ -12,6 +12,8 @@ ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollec
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataCollector.ClockType"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

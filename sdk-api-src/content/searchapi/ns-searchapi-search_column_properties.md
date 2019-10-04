@@ -12,6 +12,8 @@ ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [searc
 ms.topic: struct
 f1_keywords: 
  - "searchapi/SEARCH_COLUMN_PROPERTIES"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

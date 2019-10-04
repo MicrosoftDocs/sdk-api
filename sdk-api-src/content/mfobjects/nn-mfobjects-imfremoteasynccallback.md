@@ -12,6 +12,8 @@ ms.keywords: 57be21cf-b381-436a-bc7e-3fdc01cc2515, IMFRemoteAsyncCallback, IMFRe
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFRemoteAsyncCallback"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

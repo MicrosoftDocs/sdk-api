@@ -12,6 +12,8 @@ ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetRangeFromPoint, GetRangeFrom
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextView.GetRangeFromPoint"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

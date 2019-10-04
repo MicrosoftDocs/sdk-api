@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer3.GetProperty"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

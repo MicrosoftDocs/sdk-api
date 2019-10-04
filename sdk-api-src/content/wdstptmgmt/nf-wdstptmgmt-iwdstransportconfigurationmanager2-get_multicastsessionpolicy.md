@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportConfigurationManager2 interface [Windows Deployment Se
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager2.MulticastSessionPolicy"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

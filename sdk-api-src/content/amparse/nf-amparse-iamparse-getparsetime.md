@@ -12,6 +12,8 @@ ms.keywords: GetParseTime, GetParseTime method [DirectShow], GetParseTime method
 ms.topic: method
 f1_keywords: 
  - "amparse/IAMParse.GetParseTime"
+dev_langs:
+ - c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

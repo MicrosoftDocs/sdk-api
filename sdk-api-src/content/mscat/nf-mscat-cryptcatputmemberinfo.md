@@ -12,6 +12,8 @@ ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], m
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATPutMemberInfo"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

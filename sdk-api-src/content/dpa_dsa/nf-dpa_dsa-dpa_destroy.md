@@ -12,6 +12,8 @@ ms.keywords: DPA_Destroy, DPA_Destroy function [Windows Controls], _win32_DPA_De
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_Destroy"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

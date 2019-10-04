@@ -12,6 +12,8 @@ ms.keywords: "*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf],
 ms.topic: struct
 f1_keywords: 
  - "pdh/PDH_STATISTICS"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

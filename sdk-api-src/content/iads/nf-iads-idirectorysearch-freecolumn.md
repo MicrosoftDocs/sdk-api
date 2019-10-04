@@ -12,6 +12,8 @@ ms.keywords: FreeColumn, FreeColumn method [ADSI], FreeColumn method [ADSI],IDir
 ms.topic: method
 f1_keywords: 
  - "iads/IDirectorySearch.FreeColumn"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

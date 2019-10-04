@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextFormat interface [Direct Write],SetLineSpacing method, I
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.SetLineSpacing"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

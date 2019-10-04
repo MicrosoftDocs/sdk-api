@@ -12,6 +12,8 @@ ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Parent method, I
 ms.topic: method
 f1_keywords: 
  - "shldisp/IShellFolderViewDual.get_Parent"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: Shldisp.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5deaf109-e4cc-0f12-82f4-0d4d0b2e387a, DXGI_RATIONAL, DXGI_RATIONAL 
 ms.topic: struct
 f1_keywords: 
  - "dxgicommon/DXGI_RATIONAL"
+dev_langs:
+ - c++
 req.header: dxgicommon.h
 req.include-header: DXGI.h
 req.target-type: Windows

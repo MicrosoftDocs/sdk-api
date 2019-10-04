@@ -12,6 +12,8 @@ ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Fra
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfCandidateString"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Hide, Hide method [Tablet PC], Hide method [Tablet PC],IMathInputCo
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.Hide"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

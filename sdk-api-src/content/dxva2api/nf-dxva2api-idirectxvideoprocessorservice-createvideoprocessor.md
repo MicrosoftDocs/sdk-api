@@ -12,6 +12,8 @@ ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateV
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessorService.CreateVideoProcessor
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

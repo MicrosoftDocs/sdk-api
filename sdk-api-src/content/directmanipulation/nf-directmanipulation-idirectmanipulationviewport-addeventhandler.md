@@ -12,6 +12,8 @@ ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddE
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.AddEventHandler"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

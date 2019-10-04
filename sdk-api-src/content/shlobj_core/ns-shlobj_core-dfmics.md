@@ -12,6 +12,8 @@ ms.keywords: '*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLA
 ms.topic: struct
 f1_keywords:
 - shlobj_core/DFMICS
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

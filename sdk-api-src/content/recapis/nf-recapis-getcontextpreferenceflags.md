@@ -12,6 +12,8 @@ ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tabl
 ms.topic: function
 f1_keywords: 
  - "recapis/GetContextPreferenceFlags"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

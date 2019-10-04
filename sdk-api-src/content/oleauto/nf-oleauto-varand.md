@@ -12,6 +12,8 @@ ms.keywords: VarAnd, VarAnd function [Automation], _oa96_VarAnd, automat.varand,
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarAnd"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Securi
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptRegisterOIDFunction"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

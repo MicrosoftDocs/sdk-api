@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [Direct3D 11], GetBre
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetBreakOnSeverity"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

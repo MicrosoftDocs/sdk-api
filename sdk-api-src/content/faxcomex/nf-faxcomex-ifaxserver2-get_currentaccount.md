@@ -12,6 +12,8 @@ ms.keywords: CurrentAccount property [Fax Service], CurrentAccount property [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer2.CurrentAccount"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

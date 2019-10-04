@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate proper
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.SigningCertificate"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

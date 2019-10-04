@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA, DD_GETINTERN
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETINTERNALMOCOMPDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

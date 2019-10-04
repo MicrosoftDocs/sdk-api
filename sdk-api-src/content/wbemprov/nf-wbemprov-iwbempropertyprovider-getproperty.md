@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemPropertyProvider.GetProperty"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

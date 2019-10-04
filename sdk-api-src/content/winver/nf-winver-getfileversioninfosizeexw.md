@@ -12,6 +12,8 @@ ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, GetFileVersionInfoSiz
 ms.topic: function
 f1_keywords: 
  - "winver/GetFileVersionInfoSizeEx"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

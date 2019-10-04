@@ -12,6 +12,8 @@ ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft T
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_SignalProperties"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

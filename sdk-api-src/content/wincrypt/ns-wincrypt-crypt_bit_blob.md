@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_BIT_BLOB, CRYPT_BIT_BLOB, CRYPT_BIT_BLOB structure [Securi
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_BIT_BLOB
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

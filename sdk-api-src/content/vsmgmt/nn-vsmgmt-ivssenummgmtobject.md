@@ -12,6 +12,8 @@ ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumM
 ms.topic: interface
 f1_keywords: 
  - "vsmgmt/IVssEnumMgmtObject"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

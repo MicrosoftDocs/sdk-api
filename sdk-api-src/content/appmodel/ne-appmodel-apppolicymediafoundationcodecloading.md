@@ -12,6 +12,8 @@ ms.keywords: AppPolicyMediaFoundationCodecLoading, AppPolicyMediaFoundationCodec
 ms.topic: enum
 f1_keywords: 
  - "appmodel/AppPolicyMediaFoundationCodecLoading"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

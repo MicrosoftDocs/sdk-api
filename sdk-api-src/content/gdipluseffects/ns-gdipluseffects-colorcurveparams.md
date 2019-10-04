@@ -12,6 +12,8 @@ ms.keywords: ColorCurveParams, ColorCurveParams structure [GDI+], _gdiplus_STRUC
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/ColorCurveParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

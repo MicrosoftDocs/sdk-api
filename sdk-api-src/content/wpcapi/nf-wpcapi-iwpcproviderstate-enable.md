@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method, Enable method,IWPCProviderState interface, I
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderState.Enable"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

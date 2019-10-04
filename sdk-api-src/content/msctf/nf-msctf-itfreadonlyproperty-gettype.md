@@ -12,6 +12,8 @@ ms.keywords: GUID_TFCAT_PROPSTYLE_CUSTOM, GUID_TFCAT_PROPSTYLE_STATIC, GUID_TFCA
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReadOnlyProperty.GetType"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

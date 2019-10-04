@@ -12,6 +12,8 @@ ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.coco
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoCopyProxy"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

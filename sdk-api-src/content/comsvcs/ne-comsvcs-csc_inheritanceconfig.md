@@ -12,6 +12,8 @@ ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConf
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_InheritanceConfig"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

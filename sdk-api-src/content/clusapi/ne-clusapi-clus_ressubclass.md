@@ -12,6 +12,8 @@ ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], 
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUS_RESSUBCLASS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

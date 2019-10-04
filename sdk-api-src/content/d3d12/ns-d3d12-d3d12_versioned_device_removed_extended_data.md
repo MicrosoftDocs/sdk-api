@@ -10,6 +10,8 @@ ms.keywords: D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA, D3D12_VERSIONED_DEVIC
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2 interface [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IDragSourceHelper2.SetFlags"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

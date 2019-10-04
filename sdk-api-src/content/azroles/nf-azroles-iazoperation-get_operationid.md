@@ -12,6 +12,8 @@ ms.keywords: AzOperation object [Security],OperationID property, IAzOperation in
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzOperation.OperationID"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

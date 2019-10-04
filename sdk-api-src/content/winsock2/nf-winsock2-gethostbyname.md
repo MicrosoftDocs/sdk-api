@@ -12,6 +12,8 @@ ms.keywords: "_win32_gethostbyname_2, gethostbyname, gethostbyname function [Win
 ms.topic: function
 f1_keywords: 
  - "winsock2/gethostbyname"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

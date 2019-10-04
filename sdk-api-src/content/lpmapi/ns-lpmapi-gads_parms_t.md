@@ -12,6 +12,8 @@ ms.keywords: Gads_parms_t, Gads_parms_t structure [QOS], lpmapi/Gads_parms_t, qo
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/Gads_parms_t"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

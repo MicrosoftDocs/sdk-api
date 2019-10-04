@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetCont
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineProtectedContent.SetContentProtectionManager"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

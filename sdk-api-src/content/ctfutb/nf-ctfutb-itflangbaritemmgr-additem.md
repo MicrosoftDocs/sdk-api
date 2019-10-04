@@ -12,6 +12,8 @@ ms.keywords: AddItem, AddItem method [Text Services Framework], AddItem method [
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.AddItem"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

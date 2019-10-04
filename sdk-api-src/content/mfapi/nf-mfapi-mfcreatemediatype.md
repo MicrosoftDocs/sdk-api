@@ -12,6 +12,8 @@ ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMe
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMediaType"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

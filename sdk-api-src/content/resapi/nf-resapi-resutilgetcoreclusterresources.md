@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESO
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetCoreClusterResources"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

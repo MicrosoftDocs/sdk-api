@@ -12,6 +12,8 @@ ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, 
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetVersionEx
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/Get
 ms.topic: function
 f1_keywords: 
  - "winbase/GetCommPorts"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

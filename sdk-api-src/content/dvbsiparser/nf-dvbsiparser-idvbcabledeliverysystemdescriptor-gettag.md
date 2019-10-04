@@ -12,6 +12,8 @@ ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetTag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

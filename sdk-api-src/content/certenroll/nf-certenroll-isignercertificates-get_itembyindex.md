@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISig
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificates.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface m
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.ReleaseDirectSoundInterface"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

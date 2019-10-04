@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLooku
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.SetGeometryLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],SelColor property, IInkEdit.SelColor
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelColor"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

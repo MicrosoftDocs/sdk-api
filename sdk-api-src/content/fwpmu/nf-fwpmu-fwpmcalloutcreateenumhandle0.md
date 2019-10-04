@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutCreateEnumHandle0, FwpmCalloutCreateEnumHandle0 function
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmCalloutCreateEnumHandle0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

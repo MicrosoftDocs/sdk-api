@@ -12,6 +12,8 @@ ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI
 ms.topic: method
 f1_keywords: 
  - "dxgi1_6/IDXGIFactory6.EnumAdapterByGpuPreference"
+dev_langs:
+ - c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

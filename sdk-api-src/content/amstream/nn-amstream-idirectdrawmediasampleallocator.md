@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator in
 ms.topic: interface
 f1_keywords: 
  - "amstream/IDirectDrawMediaSampleAllocator"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

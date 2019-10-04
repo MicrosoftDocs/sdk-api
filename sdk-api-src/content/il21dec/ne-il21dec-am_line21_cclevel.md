@@ -12,6 +12,8 @@ ms.keywords: "*PAM_LINE21_CCLEVEL, AM_L21_CCLEVEL_TC2, AM_LINE21_CCLEVEL, AM_LIN
 ms.topic: enum
 f1_keywords: 
  - "il21dec/AM_LINE21_CCLEVEL"
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

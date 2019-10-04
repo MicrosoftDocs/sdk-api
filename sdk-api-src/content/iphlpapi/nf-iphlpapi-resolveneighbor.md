@@ -12,6 +12,8 @@ ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolv
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/ResolveNeighbor"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

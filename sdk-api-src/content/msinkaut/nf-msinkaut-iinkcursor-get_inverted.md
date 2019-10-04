@@ -12,6 +12,8 @@ ms.keywords: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe, IInkCursor interface [Tablet 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCursor.Inverted"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

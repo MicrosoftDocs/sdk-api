@@ -12,6 +12,8 @@ ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+],HueSatu
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/HueSaturationLightness.HueSaturationLightness"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

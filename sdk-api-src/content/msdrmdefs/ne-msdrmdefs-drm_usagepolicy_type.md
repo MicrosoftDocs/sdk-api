@@ -12,6 +12,8 @@ ms.keywords: DRM_USAGEPOLICY_TYPE, DRM_USAGEPOLICY_TYPE enumeration [Active Dire
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRM_USAGEPOLICY_TYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

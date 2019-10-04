@@ -12,6 +12,8 @@ ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelBold property, IInkEdit.Se
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelBold"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

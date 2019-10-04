@@ -12,6 +12,8 @@ ms.keywords: IWTSVirtualChannel, IWTSVirtualChannel interface [Remote Desktop Se
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannel"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

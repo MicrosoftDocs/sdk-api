@@ -12,6 +12,8 @@ ms.keywords: Animate_Seek, Animate_Seek macro [Windows Controls], _win32_Animate
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_Seek"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

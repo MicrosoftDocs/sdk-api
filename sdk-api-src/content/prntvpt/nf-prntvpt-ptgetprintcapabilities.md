@@ -12,6 +12,8 @@ ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GD
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTGetPrintCapabilities"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifyServi
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolManager.NotifyServiceStateChange
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

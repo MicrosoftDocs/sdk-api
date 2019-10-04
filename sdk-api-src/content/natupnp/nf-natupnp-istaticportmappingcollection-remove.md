@@ -12,6 +12,8 @@ ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],Remove method, ISt
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMappingCollection.Remove"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

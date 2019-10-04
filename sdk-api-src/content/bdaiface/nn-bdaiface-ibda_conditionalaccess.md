@@ -12,6 +12,8 @@ ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_ConditionalAccess"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

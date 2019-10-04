@@ -12,6 +12,8 @@ ms.keywords: CreateAsyncBindCtx, CreateAsyncBindCtx function [COM], _com_CreateA
 ms.topic: function
 f1_keywords: 
  - "urlmon/CreateAsyncBindCtx"
+dev_langs:
+ - c++
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows

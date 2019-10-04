@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_DECODER_CAPS, D3D11_VIDEO_DECODER_CAPS enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "d3d11_1/D3D11_VIDEO_DECODER_CAPS"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrier.GetCurrentCellularClass"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

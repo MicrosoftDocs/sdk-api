@@ -12,6 +12,8 @@ ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetBlue met
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionShadowEffect.SetBlue"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

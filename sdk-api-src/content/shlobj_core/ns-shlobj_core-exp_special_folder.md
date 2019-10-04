@@ -12,6 +12,8 @@ ms.keywords: "*LPEXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER, EXP_SPECIAL_FOLDER stru
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/EXP_SPECIAL_FOLDER"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExportCAs, ExportOIDs, ExportTemplates, X509EnrollmentPolicyExportF
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509EnrollmentPolicyExportFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

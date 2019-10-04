@@ -12,6 +12,8 @@ ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupport
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaTypeHandler.IsMediaTypeSupported"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

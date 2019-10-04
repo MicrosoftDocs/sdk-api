@@ -12,6 +12,8 @@ ms.keywords: IMSVidAnalogTunerEvent, IMSVidAnalogTunerEvent interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidAnalogTunerEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], G
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer4.GetPropertyCount"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

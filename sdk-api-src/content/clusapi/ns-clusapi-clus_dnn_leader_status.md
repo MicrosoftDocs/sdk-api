@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_STATUS, CLUS_DNN_LEADER_
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_DNN_LEADER_STATUS"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAU
 ms.topic: enum
 f1_keywords: 
  - "wtypes/STATFLAG"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

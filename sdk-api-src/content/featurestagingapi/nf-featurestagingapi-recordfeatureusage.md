@@ -12,6 +12,8 @@ ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], feat
 ms.topic: function
 f1_keywords: 
  - "featurestagingapi/RecordFeatureUsage"
+dev_langs:
+ - c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

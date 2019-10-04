@@ -12,6 +12,8 @@ ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQue
 ms.topic: function
 f1_keywords: 
  - "winreg/RegQueryValueEx"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

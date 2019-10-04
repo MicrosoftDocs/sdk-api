@@ -12,6 +12,8 @@ ms.keywords: UiaAndOrCondition, UiaAndOrCondition structure [Windows Accessibili
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaAndOrCondition"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

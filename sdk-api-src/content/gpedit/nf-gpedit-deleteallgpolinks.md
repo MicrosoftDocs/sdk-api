@@ -12,6 +12,8 @@ ms.keywords: DeleteAllGPOLinks, DeleteAllGPOLinks function [Group Policy], _win3
 ms.topic: function
 f1_keywords: 
  - "gpedit/DeleteAllGPOLinks"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

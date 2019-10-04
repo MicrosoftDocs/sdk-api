@@ -12,6 +12,8 @@ ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows
 ms.topic: function
 f1_keywords: 
  - "webservices/WsResetMetadata"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

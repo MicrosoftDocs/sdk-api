@@ -12,6 +12,8 @@ ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID, GetOriginato
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputPolicy.GetOriginatorID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

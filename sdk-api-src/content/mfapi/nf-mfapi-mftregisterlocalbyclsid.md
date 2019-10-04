@@ -12,6 +12,8 @@ ms.keywords: MFTRegisterLocalByCLSID, MFTRegisterLocalByCLSID function [Media Fo
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTRegisterLocalByCLSID"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

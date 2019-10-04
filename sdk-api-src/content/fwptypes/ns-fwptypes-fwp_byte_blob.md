@@ -12,6 +12,8 @@ ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], fwp.fwp_byte_bl
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWP_BYTE_BLOB"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

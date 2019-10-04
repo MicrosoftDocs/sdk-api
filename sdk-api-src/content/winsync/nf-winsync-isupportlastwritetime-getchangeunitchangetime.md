@@ -12,6 +12,8 @@ ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sy
 ms.topic: method
 f1_keywords: 
  - "winsync/ISupportLastWriteTime.GetChangeUnitChangeTime"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

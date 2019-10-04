@@ -12,6 +12,8 @@ ms.keywords: ID3D10EffectRasterizerVariable, ID3D10EffectRasterizerVariable inte
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectRasterizerVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

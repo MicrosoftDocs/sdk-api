@@ -12,6 +12,8 @@ ms.keywords: IVdsVolume interface [VDS],RemovePlex method, IVdsVolume.RemovePlex
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolume.RemovePlex"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RPC_EXTENDED_ERROR_INFO, RPC_EXTENDED_ERROR_INFO structure [RPC], _
 ms.topic: struct
 f1_keywords: 
  - "rpcasync/RPC_EXTENDED_ERROR_INFO"
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

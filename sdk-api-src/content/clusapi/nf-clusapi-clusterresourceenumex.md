@@ -12,6 +12,8 @@ ms.keywords: ClusterResourceEnumEx, ClusterResourceEnumEx function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterResourceEnumEx"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

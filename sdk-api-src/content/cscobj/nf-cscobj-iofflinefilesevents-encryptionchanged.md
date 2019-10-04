@@ -12,6 +12,8 @@ ms.keywords: EncryptionChanged, EncryptionChanged method [Offline Files], Encryp
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents.EncryptionChanged"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

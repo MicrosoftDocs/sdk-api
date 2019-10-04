@@ -12,6 +12,8 @@ ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingJobAdded method
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServerNotify2.OnIncomingJobAdded"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

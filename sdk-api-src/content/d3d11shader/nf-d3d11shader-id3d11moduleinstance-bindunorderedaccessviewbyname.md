@@ -12,6 +12,8 @@ ms.keywords: BindUnorderedAccessViewByName, BindUnorderedAccessViewByName method
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessViewByName"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

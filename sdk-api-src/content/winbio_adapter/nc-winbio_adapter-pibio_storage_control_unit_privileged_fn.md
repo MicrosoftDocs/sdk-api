@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_STORAGE_CONTROL_UNI
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterControlUnitPrivileged
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

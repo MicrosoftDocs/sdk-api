@@ -12,6 +12,8 @@ ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], G
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetDrawBackgroundMode
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

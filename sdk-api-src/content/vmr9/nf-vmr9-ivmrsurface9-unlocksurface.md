@@ -12,6 +12,8 @@ ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurfa
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurface9.UnlockSurface"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

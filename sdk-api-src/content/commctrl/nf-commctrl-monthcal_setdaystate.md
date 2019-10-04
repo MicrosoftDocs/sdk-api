@@ -12,6 +12,8 @@ ms.keywords: MonthCal_SetDayState, MonthCal_SetDayState macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetDayState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath,
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetDSPath"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

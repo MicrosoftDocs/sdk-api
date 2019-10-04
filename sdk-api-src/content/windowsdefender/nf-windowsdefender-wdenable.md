@@ -12,6 +12,8 @@ ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], 
 ms.topic: function
 f1_keywords: 
  - "windowsdefender/WDEnable"
+dev_langs:
+ - c++
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Butto
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_Enable"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

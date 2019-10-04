@@ -12,6 +12,8 @@ ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfi
 ms.topic: method
 f1_keywords:
 - vpconfig/IVPConfig.SetScalingFactors
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

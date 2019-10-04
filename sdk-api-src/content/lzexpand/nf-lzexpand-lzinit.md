@@ -12,6 +12,8 @@ ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzi
 ms.topic: function
 f1_keywords: 
  - "lzexpand/LZInit"
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

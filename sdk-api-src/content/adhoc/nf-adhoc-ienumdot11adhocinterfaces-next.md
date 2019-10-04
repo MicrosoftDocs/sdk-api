@@ -12,6 +12,8 @@ ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnum
 ms.topic: method
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocInterfaces.Next"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

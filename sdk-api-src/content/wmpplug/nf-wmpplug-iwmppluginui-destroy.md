@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [Windows Media Player], Destroy method [Win
 ms.topic: method
 f1_keywords: 
  - "wmpplug/IWMPPluginUI.Destroy"
+dev_langs:
+ - c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

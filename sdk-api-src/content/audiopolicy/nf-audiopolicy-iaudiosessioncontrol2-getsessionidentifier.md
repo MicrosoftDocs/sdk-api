@@ -12,6 +12,8 @@ ms.keywords: GetSessionIdentifier, GetSessionIdentifier method [Core Audio], Get
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl2.GetSessionIdentifier"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

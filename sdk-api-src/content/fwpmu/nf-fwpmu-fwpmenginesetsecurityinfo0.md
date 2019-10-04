@@ -12,6 +12,8 @@ ms.keywords: FwpmEngineSetSecurityInfo0, FwpmEngineSetSecurityInfo0 function [Fi
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmEngineSetSecurityInfo0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

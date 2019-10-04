@@ -12,6 +12,8 @@ ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _w
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IUnknown_GetWindow"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

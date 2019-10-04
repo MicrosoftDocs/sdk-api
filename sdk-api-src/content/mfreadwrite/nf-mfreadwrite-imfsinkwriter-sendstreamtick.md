@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, I
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.SendStreamTick"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

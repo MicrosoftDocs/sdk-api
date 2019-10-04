@@ -12,6 +12,8 @@ ms.keywords: D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, D3D11_SHADER_CACHE
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

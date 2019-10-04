@@ -12,6 +12,8 @@ ms.keywords: IPropertyChangeArray interface [Windows Properties],RemoveAt method
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyChangeArray.RemoveAt"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

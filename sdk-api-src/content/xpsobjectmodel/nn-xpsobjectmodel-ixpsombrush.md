@@ -12,6 +12,8 @@ ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], I
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

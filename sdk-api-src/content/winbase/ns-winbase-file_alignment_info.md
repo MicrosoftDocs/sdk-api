@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO st
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_ALIGNMENT_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

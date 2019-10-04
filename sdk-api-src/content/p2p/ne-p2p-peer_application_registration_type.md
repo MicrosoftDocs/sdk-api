@@ -12,6 +12,8 @@ ms.keywords: PEER_APPLICATION_ALL_USERS, PEER_APPLICATION_CURRENT_USER, PEER_APP
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_APPLICATION_REGISTRATION_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

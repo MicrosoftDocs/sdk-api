@@ -12,6 +12,8 @@ ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirec
 ms.topic: interface
 f1_keywords: 
  - "iads/IDirectorySchemaMgmt"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PIPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO, IPV6_ADAPT
 ms.topic: struct
 f1_keywords: 
  - "routprot/IPV6_ADAPTER_BINDING_INFO"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

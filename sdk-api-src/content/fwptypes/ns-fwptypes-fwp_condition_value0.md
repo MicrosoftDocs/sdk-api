@@ -12,6 +12,8 @@ ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Filtering], f
 ms.topic: struct
 f1_keywords: 
  - "fwptypes/FWP_CONDITION_VALUE0"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

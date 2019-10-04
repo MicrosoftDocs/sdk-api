@@ -12,6 +12,8 @@ ms.keywords: ADsBuildEnumerator, ADsBuildEnumerator function [ADSI], _ds_adsbuil
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsBuildEnumerator"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

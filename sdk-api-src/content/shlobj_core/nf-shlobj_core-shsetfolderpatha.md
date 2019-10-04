@@ -12,6 +12,8 @@ ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFol
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHSetFolderPath"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

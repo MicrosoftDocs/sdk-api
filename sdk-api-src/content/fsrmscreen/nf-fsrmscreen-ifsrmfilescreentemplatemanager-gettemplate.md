@@ -12,6 +12,8 @@ ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenTemplateManager.GetTemplate"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_ERROR, WSMAN_ERROR structure [Windows Remote Management], win
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_ERROR"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

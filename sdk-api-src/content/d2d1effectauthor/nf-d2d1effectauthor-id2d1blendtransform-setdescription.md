@@ -12,6 +12,8 @@ ms.keywords: ID2D1BlendTransform interface [Direct2D],SetDescription method, ID2
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1BlendTransform.SetDescription"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

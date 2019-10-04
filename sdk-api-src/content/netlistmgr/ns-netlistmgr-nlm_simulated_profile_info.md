@@ -12,6 +12,8 @@ ms.keywords: NLM_SIMULATED_PROFILE_INFO, NLM_SIMULATED_PROFILE_INFO structure [N
 ms.topic: struct
 f1_keywords: 
  - "netlistmgr/NLM_SIMULATED_PROFILE_INFO"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

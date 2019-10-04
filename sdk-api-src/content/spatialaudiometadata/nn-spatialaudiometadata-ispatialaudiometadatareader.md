@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface 
 ms.topic: interface
 f1_keywords: 
  - "spatialaudiometadata/ISpatialAudioMetadataReader"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

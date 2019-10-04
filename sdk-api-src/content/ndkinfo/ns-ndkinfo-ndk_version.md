@@ -12,6 +12,8 @@ ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with W
 ms.topic: struct
 f1_keywords:
 - ndkinfo/NDK_VERSION
+dev_langs:
+ - c++
 req.header: ndkinfo.h
 req.include-header: 
 req.target-type: Windows

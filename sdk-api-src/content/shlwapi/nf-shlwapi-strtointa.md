@@ -12,6 +12,8 @@ ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrToInt"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

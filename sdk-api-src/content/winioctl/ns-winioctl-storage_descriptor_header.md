@@ -12,6 +12,8 @@ ms.keywords: '*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_DESCRIPTOR_HEADER
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

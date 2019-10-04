@@ -12,6 +12,8 @@ ms.keywords: AzClientContext object [Security],UserUpn property, IAzClientContex
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.UserUpn"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

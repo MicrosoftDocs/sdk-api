@@ -12,6 +12,8 @@ ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddre
 ms.topic: function
 f1_keywords: 
  - "mspaddr/CMSPAddress.CreateMSPCallHelper"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, HIDECHANGEICON, LPOLE
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIPASTESPECIAL"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

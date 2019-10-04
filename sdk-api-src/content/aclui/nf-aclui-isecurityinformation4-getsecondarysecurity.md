@@ -12,6 +12,8 @@ ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSe
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation4.GetSecondarySecurity
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

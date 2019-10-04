@@ -12,6 +12,8 @@ ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterS
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

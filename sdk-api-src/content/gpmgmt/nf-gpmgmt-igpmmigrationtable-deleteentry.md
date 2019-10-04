@@ -12,6 +12,8 @@ ms.keywords: DeleteEntry, DeleteEntry method [GPMC], DeleteEntry method [GPMC],G
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMMigrationTable.DeleteEntry"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

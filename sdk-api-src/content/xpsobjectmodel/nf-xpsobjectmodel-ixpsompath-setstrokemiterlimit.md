@@ -12,6 +12,8 @@ ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeMiterLi
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.SetStrokeMiterLimit"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

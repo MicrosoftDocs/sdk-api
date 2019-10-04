@@ -12,6 +12,8 @@ ms.keywords: WBEMTime, WBEMTime class [Windows Management Instrumentation], WBEM
 ms.topic: class
 f1_keywords: 
  - "wbemtime/WBEMTime"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsCliFindFirstImage, WdsCliFindFirstImage function [Windows Deploy
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliFindFirstImage"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

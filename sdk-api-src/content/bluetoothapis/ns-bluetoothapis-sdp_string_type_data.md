@@ -12,6 +12,8 @@ ms.keywords: '*PSDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA structure [Bluetoot
 ms.topic: struct
 f1_keywords:
 - bluetoothapis/SDP_STRING_TYPE_DATA
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

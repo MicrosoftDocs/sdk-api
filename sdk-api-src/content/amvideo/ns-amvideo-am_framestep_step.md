@@ -12,6 +12,8 @@ ms.keywords: AM_FRAMESTEP_STEP, AM_FRAMESTEP_STEP structure [DirectShow], AM_PRO
 ms.topic: struct
 f1_keywords: 
  - "amvideo/AM_FRAMESTEP_STEP"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

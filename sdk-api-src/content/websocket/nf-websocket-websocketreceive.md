@@ -12,6 +12,8 @@ ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Com
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketReceive
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

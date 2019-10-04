@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationDockPattern interface [Windows Accessibility],SetDockP
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDockPattern.SetDockPosition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

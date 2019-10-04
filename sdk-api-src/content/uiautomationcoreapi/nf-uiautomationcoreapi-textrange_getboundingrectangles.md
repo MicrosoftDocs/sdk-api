@@ -12,6 +12,8 @@ ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles fu
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextRange_GetBoundingRectangles"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

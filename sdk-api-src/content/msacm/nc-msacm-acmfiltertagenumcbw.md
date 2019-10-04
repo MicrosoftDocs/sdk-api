@@ -12,6 +12,8 @@ ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCB
 ms.topic: callback
 f1_keywords: 
  - "msacm/acmFilterTagEnumCallback"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

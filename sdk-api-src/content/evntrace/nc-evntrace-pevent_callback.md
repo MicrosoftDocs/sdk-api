@@ -12,6 +12,8 @@ ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBA
 ms.topic: callback
 f1_keywords: 
  - "evntrace/EventCallback"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ACTIVATEFLAGS, ACTIVATEFLAGS enumeration [COM], ACTIVATE_WINDOWLESS
 ms.topic: enum
 f1_keywords: 
  - "ocidl/ACTIVATEFLAGS"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

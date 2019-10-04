@@ -12,6 +12,8 @@ ms.keywords: '*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA st
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_CREATEMOCOMPDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

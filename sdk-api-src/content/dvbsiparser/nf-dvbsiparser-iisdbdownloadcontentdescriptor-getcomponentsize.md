@@ -12,6 +12,8 @@ ms.keywords: GetComponentSize, GetComponentSize method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentSize"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

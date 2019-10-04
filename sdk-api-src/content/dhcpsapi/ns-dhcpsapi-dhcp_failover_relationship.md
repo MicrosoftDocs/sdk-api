@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FA
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FAILOVER_RELATIONSHIP
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

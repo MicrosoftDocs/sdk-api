@@ -12,6 +12,8 @@ ms.keywords: WSManSetSessionOption, WSManSetSessionOption function [Windows Remo
 ms.topic: function
 f1_keywords:
 - wsman/WSManSetSessionOption
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSD_SOAP_MESSAGE, WSD_SOAP_MESSAGE structure, ncd.wsd_soap_message_
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SOAP_MESSAGE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

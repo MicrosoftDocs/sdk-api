@@ -12,6 +12,8 @@ ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.request
 ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_GetStatus
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

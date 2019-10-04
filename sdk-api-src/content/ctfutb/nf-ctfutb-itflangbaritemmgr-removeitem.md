@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],RemoveItem me
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.RemoveItem"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

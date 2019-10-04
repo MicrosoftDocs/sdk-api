@@ -12,6 +12,8 @@ ms.keywords: MC_BLUE_GAIN, MC_GAIN_TYPE, MC_GAIN_TYPE , MC_GAIN_TYPE enumeration
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_GAIN_TYPE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

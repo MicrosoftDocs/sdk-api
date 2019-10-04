@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceManager, IPortableDeviceManager interface [Windows P
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

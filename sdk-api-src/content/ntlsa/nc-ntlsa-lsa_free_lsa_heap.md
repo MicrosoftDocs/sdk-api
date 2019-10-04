@@ -12,6 +12,8 @@ ms.keywords: FreeLsaHeap, FreeLsaHeap callback function [Security], LSA_FREE_LSA
 ms.topic: callback
 f1_keywords:
 - ntlsa/FreeLsaHeap
+dev_langs:
+ - c++
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

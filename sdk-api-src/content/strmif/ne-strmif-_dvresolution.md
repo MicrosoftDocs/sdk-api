@@ -12,6 +12,8 @@ ms.keywords: DVDECODERRESOLUTIONEnumeration, DVRESOLUTION_DC, DVRESOLUTION_FULL,
 ms.topic: enum
 f1_keywords: 
  - "strmif/_DVRESOLUTION"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDockingWindowSite, IDockingWindowSite interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IDockingWindowSite"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

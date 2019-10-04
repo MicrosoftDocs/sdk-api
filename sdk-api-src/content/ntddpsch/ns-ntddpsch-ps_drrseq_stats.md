@@ -12,6 +12,8 @@ ms.keywords: '*PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS structure po
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_DRRSEQ_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

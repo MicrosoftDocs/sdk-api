@@ -12,6 +12,8 @@ ms.keywords: '*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA
 ms.topic: struct
 f1_keywords:
 - cfgmgr32/CM_NOTIFY_EVENT_DATA
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows

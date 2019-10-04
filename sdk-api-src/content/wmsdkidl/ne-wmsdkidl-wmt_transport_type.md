@@ -12,6 +12,8 @@ ms.keywords: WMT_TRANSPORT_TYPE, WMT_TRANSPORT_TYPE enumeration [windows Media F
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_TRANSPORT_TYPE"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

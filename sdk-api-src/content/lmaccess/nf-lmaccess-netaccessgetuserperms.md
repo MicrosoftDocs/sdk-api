@@ -12,6 +12,8 @@ ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Mana
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAccessGetUserPerms"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

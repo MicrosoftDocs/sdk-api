@@ -12,6 +12,8 @@ ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPe
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteBitmapRenderTarget.GetPixelsPerDip"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

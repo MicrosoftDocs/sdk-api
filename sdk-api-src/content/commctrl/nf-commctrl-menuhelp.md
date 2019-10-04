@@ -12,6 +12,8 @@ ms.keywords: MenuHelp, MenuHelp function [Windows Controls], _win32_MenuHelp, _w
 ms.topic: function
 f1_keywords: 
  - "commctrl/MenuHelp"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

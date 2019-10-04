@@ -12,6 +12,8 @@ ms.keywords: GetVerticalResolution, GetVerticalResolution method [GDI+], GetVert
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetVerticalResolution"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

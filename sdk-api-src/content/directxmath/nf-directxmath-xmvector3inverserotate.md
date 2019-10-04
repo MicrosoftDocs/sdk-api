@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector3InverseRotate, XMVector3InverseRotate, XMVect
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector3InverseRotate"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

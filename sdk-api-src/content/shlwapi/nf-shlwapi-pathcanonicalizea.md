@@ -12,6 +12,8 @@ ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCa
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathCanonicalize"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

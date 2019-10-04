@@ -12,6 +12,8 @@ ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc, GetLevelDesc me
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DTexture9.GetLevelDesc"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

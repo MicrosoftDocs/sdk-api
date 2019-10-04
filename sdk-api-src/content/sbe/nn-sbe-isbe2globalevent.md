@@ -12,6 +12,8 @@ ms.keywords: ISBE2GlobalEvent, ISBE2GlobalEvent interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "sbe/ISBE2GlobalEvent"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

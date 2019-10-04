@@ -12,6 +12,8 @@ ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, Pr
 ms.topic: function
 f1_keywords:
 - processthreadsapi/GetProcessMitigationPolicy
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

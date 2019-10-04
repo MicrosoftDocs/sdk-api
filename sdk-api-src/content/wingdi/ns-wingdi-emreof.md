@@ -12,6 +12,8 @@ ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF
 ms.topic: struct
 f1_keywords: 
  - "wingdi/EMREOF"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

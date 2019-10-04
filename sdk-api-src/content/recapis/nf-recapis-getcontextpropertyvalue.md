@@ -12,6 +12,8 @@ ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet P
 ms.topic: function
 f1_keywords: 
  - "recapis/GetContextPropertyValue"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

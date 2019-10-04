@@ -12,6 +12,8 @@ ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadReg
 ms.topic: function
 f1_keywords: 
  - "oleauto/LoadRegTypeLib"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGrap
 ms.topic: interface
 f1_keywords: 
  - "amxmlgraphbuilder/IXMLGraphBuilder"
+dev_langs:
+ - c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows

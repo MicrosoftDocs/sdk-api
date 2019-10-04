@@ -12,6 +12,8 @@ ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows
 ms.topic: function
 f1_keywords:
 - usp10/ScriptPlace
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

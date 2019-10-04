@@ -12,6 +12,8 @@ ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and P
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.InsertAt"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

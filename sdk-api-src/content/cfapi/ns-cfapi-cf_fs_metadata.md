@@ -12,6 +12,8 @@ ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, clo
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_FS_METADATA"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

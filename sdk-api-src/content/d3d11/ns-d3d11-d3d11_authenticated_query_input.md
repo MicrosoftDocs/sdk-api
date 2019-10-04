@@ -12,6 +12,8 @@ ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES, D3D11_AUTHENTIC
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_AUTHENTICATED_QUERY_INPUT"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

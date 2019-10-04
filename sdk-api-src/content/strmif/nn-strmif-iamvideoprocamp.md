@@ -12,6 +12,8 @@ ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoPr
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMVideoProcAmp"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

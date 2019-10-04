@@ -12,6 +12,8 @@ ms.keywords: ITransactionProxy interface [COM+],Promote method, ITransactionProx
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionProxy.Promote"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

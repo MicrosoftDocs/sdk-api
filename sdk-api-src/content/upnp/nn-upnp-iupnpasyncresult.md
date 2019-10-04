@@ -12,6 +12,8 @@ ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyn
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPAsyncResult"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

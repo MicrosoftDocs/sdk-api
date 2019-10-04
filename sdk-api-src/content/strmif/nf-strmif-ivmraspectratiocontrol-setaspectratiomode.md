@@ -12,6 +12,8 @@ ms.keywords: IVMRAspectRatioControl interface [DirectShow],SetAspectRatioMode me
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRAspectRatioControl.SetAspectRatioMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

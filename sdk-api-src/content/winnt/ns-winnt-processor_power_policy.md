@@ -12,6 +12,8 @@ ms.keywords: '*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWE
 ms.topic: struct
 f1_keywords:
 - winnt/PROCESSOR_POWER_POLICY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FailureCategory, FailureCategory enumeration [NAP], failureCategory
 ms.topic: enum
 f1_keywords: 
  - "naptypes/FailureCategory"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

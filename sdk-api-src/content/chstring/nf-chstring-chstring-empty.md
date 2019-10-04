@@ -12,6 +12,8 @@ ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interf
 ms.topic: method
 f1_keywords: 
  - "chstring/CHString.Empty"
+dev_langs:
+ - c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

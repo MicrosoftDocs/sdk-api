@@ -12,6 +12,8 @@ ms.keywords: Region class [GDI+],Transform method, Region.Transform, Region::Tra
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Transform"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

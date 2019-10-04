@@ -12,6 +12,8 @@ ms.keywords: FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterCo
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterConnectCommunicationPort"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

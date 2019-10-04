@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorageControl.Delete"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

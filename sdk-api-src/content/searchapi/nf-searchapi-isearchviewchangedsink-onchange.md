@@ -12,6 +12,8 @@ ms.keywords: ISearchViewChangedSink interface [search],OnChange method, ISearchV
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchViewChangedSink.OnChange"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPane
 ms.topic: interface
 f1_keywords: 
  - "peninputpanel/IPenInputPanel"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

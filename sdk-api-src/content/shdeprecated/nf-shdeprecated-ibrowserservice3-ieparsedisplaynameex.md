@@ -12,6 +12,8 @@ ms.keywords: IBrowserService3 interface [Windows Shell],IEParseDisplayNameEx met
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService3.IEParseDisplayNameEx"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

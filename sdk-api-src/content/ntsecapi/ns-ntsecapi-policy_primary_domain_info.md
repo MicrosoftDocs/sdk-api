@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO, POLICY_P
 ms.topic: struct
 f1_keywords:
 - ntsecapi/POLICY_PRIMARY_DOMAIN_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

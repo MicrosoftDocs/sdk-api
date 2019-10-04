@@ -12,6 +12,8 @@ ms.keywords: GetGeneratorParametersType, GetGeneratorParametersType method [Remo
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcGeneratorParameters.GetGeneratorParametersType"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExpandCollapseState property [Windows Accessibility], ExpandCollaps
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IExpandCollapseProvider.ExpandCollapseState"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

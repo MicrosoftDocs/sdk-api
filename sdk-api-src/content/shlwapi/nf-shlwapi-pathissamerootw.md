@@ -12,6 +12,8 @@ ms.keywords: PathIsSameRoot, PathIsSameRoot function [Windows Shell], PathIsSame
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsSameRoot"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

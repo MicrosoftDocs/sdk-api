@@ -8,6 +8,8 @@ ms.keywords: GetPackagePathByFullName2
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackagePathByFullName2"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

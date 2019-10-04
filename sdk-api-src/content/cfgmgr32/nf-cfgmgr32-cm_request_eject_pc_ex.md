@@ -12,6 +12,8 @@ ms.keywords: CM_Request_Eject_PC_Ex, CM_Request_Eject_PC_Ex function [Device and
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Request_Eject_PC_Ex"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSurface interface [DirectComposition],SuspendDraw meth
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSurface.SuspendDraw"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

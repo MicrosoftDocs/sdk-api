@@ -12,6 +12,8 @@ ms.keywords: 45129747-420c-37ba-aae0-05275af46932, DrawIndexed, DrawIndexed meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DrawIndexed"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

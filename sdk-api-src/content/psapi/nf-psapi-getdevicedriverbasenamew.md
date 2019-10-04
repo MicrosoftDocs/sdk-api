@@ -12,6 +12,8 @@ ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], 
 ms.topic: function
 f1_keywords: 
  - "psapi/GetDeviceDriverBaseName"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

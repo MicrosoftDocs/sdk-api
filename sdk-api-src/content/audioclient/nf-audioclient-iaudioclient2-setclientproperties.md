@@ -12,6 +12,8 @@ ms.keywords: IAudioClient2 interface [Core Audio],SetClientProperties method, IA
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient2.SetClientProperties"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API],
 ms.topic: method
 f1_keywords: 
  - "deviceaccess/IDeviceIoControl.CancelOperation"
+dev_langs:
+ - c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

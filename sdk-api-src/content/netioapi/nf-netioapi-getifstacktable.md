@@ -12,6 +12,8 @@ ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifs
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetIfStackTable"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

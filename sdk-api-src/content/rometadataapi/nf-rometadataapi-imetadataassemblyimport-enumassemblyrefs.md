@@ -12,6 +12,8 @@ ms.keywords: EnumAssemblyRefs, EnumAssemblyRefs method [Windows Runtime], EnumAs
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.EnumAssemblyRefs"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

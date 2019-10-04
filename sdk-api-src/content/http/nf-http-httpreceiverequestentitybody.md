@@ -12,6 +12,8 @@ ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveReque
 ms.topic: function
 f1_keywords:
 - http/HttpReceiveRequestEntityBody
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

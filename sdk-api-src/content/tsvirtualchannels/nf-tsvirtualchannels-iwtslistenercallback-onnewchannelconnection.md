@@ -12,6 +12,8 @@ ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChann
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSListenerCallback.OnNewChannelConnection"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

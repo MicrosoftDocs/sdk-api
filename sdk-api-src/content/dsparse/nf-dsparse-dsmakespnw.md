@@ -12,6 +12,8 @@ ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMak
 ms.topic: function
 f1_keywords: 
  - "dsparse/DsMakeSpn"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

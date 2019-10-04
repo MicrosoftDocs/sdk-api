@@ -12,6 +12,8 @@ ms.keywords: SetupDiSelectDevice, SetupDiSelectDevice function [Device and Drive
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSelectDevice
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

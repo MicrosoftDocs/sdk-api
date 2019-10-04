@@ -12,6 +12,8 @@ ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount,
 ms.topic: method
 f1_keywords: 
  - "certenc/ICertEncodeStringArray.GetCount"
+dev_langs:
+ - c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

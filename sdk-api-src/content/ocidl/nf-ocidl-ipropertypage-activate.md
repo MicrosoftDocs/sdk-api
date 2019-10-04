@@ -12,6 +12,8 @@ ms.keywords: Activate, Activate method [COM], Activate method [COM],IPropertyPag
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Activate"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

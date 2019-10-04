@@ -12,6 +12,8 @@ ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTEnableEmbeddingForFacename"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

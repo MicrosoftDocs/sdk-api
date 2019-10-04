@@ -12,6 +12,8 @@ ms.keywords: "*LPSHFOLDERCUSTOMSETTINGS, FCSM_CLSID, FCSM_FLAGS, FCSM_ICONFILE, 
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SHFOLDERCUSTOMSETTINGS"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

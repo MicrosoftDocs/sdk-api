@@ -12,6 +12,8 @@ ms.keywords: 1d152bbb-d6ef-f0f3-d61f-2156408503ce, AddApplicationMessage, AddApp
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.AddApplicationMessage"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

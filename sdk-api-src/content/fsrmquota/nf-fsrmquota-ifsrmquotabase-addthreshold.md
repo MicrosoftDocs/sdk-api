@@ -12,6 +12,8 @@ ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], A
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaBase.AddThreshold"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

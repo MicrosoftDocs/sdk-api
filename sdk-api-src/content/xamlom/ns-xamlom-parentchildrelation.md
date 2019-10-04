@@ -12,6 +12,8 @@ ms.keywords: PParentChildRelation, PParentChildRelation structure pointer, Paren
 ms.topic: struct
 f1_keywords: 
  - "xamlom/ParentChildRelation"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

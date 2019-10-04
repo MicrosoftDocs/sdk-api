@@ -12,6 +12,8 @@ ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation m
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetStackLocation"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

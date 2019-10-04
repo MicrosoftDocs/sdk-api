@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],LimitExchangeKeyToEncipherment proper
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.LimitExchangeKeyToEncipherment"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInstallationJob interface [Windows Update Agent],RequestAbort meth
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationJob.RequestAbort"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

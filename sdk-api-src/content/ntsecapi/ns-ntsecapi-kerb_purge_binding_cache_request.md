@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_PURGE_BINDING_CACHE_REQUEST, KERB_PURGE_BINDING_CACHE_REQUE
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_PURGE_BINDING_CACHE_REQUEST
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueue
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupQueueRename"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

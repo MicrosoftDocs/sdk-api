@@ -12,6 +12,8 @@ ms.keywords: "*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWS
 ms.topic: enum
 f1_keywords: 
  - "winsock2/WSAECOMPARATOR"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

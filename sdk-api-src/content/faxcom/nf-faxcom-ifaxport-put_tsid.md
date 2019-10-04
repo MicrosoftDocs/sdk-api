@@ -12,6 +12,8 @@ ms.keywords: IFaxPort interface [Fax Service],Tsid property, IFaxPort.Tsid, IFax
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.Tsid"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

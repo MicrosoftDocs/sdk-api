@@ -12,6 +12,8 @@ ms.keywords: FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0 function [Filterin
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmCalloutDeleteByKey0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

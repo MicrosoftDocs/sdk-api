@@ -12,6 +12,8 @@ ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow
 ms.topic: method
 f1_keywords: 
  - "dshowasf/IConfigAsfWriter2.GetParam"
+dev_langs:
+ - c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

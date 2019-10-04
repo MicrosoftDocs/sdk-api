@@ -12,6 +12,8 @@ ms.keywords: CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES, CM_GET_DEVICE_INTERFACE_L
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_Device_Interface_List_Size"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

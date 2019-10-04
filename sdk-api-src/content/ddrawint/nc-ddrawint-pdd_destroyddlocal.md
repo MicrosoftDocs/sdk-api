@@ -12,6 +12,8 @@ ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Dev
 ms.topic: callback
 f1_keywords:
 - ddrawint/D3dDestroyDDLocal
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

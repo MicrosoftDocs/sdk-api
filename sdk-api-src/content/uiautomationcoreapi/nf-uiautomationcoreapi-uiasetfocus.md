@@ -12,6 +12,8 @@ ms.keywords: UiaSetFocus, UiaSetFocus function [Windows Accessibility], uiauto.u
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaSetFocus"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

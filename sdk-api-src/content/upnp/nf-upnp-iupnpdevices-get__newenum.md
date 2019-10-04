@@ -12,6 +12,8 @@ ms.keywords: IUPnPDevices interface [UPnP APIs],get__NewEnum method, IUPnPDevice
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDevices.get__NewEnum"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

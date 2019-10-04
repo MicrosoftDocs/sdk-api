@@ -12,6 +12,8 @@ ms.keywords: GetWindowRgnBox, GetWindowRgnBox function [Windows GDI], _win32_Get
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowRgnBox"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWscProduct interface [Windows API],get_ProductName method, IWscPro
 ms.topic: method
 f1_keywords: 
  - "iwscapi/IWscProduct.get_ProductName"
+dev_langs:
+ - c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

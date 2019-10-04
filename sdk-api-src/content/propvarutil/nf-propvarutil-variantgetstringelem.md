@@ -12,6 +12,8 @@ ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Proper
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantGetStringElem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

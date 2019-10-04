@@ -12,6 +12,8 @@ ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds f
 ms.topic: function
 f1_keywords: 
  - "srpapi/SrpGetEnterpriseIds"
+dev_langs:
+ - c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility 
 ms.topic: interface
 f1_keywords: 
  - "textserv/IRicheditWindowlessAccessibility"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

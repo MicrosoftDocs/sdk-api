@@ -12,6 +12,8 @@ ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.power
 ms.topic: function
 f1_keywords: 
  - "powrprof/PowerImportPowerScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

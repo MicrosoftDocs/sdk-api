@@ -12,6 +12,8 @@ ms.keywords: ITextChildProvider, ITextChildProvider interface [Windows Accessibi
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ITextChildProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

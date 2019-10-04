@@ -12,6 +12,8 @@ ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddcon
 ms.topic: function
 f1_keywords:
 - npapi/NPAddConnection
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

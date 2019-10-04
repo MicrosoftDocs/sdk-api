@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1, BATTERY_
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_MINIPORT_INFO_V1_1"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: 
 req.target-type: Windows

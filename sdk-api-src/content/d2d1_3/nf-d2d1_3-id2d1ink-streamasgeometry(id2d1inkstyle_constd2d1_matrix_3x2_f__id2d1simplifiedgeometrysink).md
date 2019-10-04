@@ -12,6 +12,8 @@ ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.Str
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1Ink.StreamAsGeometry"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

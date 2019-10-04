@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupApp
 ms.topic: function
 f1_keywords: 
  - "netfw/NetworkIsolationSetupAppContainerBinaries"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

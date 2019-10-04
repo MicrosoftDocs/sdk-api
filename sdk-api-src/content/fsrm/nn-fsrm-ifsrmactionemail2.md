@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resourc
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmActionEmail2"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

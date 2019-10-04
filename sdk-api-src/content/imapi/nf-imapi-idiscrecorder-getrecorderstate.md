@@ -12,6 +12,8 @@ ms.keywords: GetRecorderState, GetRecorderState method [IMAPI], GetRecorderState
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.GetRecorderState"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

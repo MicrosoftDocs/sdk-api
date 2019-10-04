@@ -12,6 +12,8 @@ ms.keywords: CRYPT_STRING_ANY, CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, C
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptStringToBinary"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

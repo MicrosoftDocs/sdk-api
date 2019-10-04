@@ -12,6 +12,8 @@ ms.keywords: 1037a0d0-ff92-5834-5b3b-282125a9ccca, ID3D10VertexShader, ID3D10Ver
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10VertexShader"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

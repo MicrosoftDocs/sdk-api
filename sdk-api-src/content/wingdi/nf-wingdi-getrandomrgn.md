@@ -12,6 +12,8 @@ ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandom
 ms.topic: function
 f1_keywords: 
  - "wingdi/GetRandomRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

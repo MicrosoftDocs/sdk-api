@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],UpdateSess
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClient.UpdateSessionDisplaySettings"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComMethod2Events interface [COM+],OnMethodReturn2 method, IComMeth
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComMethod2Events.OnMethodReturn2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

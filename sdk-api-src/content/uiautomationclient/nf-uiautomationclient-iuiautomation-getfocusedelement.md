@@ -12,6 +12,8 @@ ms.keywords: GetFocusedElement, GetFocusedElement method [Windows Accessibility]
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomation.GetFocusedElement"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

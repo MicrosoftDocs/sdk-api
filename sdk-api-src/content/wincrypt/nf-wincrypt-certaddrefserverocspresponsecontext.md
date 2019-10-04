@@ -12,6 +12,8 @@ ms.keywords: CertAddRefServerOcspResponseContext, CertAddRefServerOcspResponseCo
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertAddRefServerOcspResponseContext"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

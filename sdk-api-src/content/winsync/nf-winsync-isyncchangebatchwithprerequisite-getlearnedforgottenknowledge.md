@@ -12,6 +12,8 @@ ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

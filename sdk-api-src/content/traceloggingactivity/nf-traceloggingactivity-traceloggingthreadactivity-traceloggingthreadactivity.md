@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,Tr
 ms.topic: method
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingThreadActivity.TraceLoggingThreadActivity"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

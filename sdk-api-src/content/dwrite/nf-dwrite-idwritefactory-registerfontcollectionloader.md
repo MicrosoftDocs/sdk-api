@@ -12,6 +12,8 @@ ms.keywords: IDWriteFactory interface [Direct Write],RegisterFontCollectionLoade
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFactory.RegisterFontCollectionLoader"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

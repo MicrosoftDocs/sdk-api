@@ -12,6 +12,8 @@ ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA
 ms.topic: function
 f1_keywords:
 - aclapi/GetTrusteeType
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

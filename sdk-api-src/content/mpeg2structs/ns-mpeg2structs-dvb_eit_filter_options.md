@@ -12,6 +12,8 @@ ms.keywords: DVB_EIT_FILTER_OPTIONS, DVB_EIT_FILTER_OPTIONS structure [Microsoft
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/DVB_EIT_FILTER_OPTIONS"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

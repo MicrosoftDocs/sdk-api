@@ -12,6 +12,8 @@ ms.keywords: GetAlternateLocation, GetAlternateLocation method [VSS], GetAlterna
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssWMFiledesc.GetAlternateLocation"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

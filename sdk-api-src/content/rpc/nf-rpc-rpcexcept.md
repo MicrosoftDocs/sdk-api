@@ -12,6 +12,8 @@ ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rp
 ms.topic: macro
 f1_keywords: 
  - "rpc/RpcExcept"
+dev_langs:
+ - c++
 req.header: rpc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_LDAP_STORE_OPENED_PARA, CERT_LDAP_STORE_OPENED_PARA, CERT_L
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_LDAP_STORE_OPENED_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, 
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetScope
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

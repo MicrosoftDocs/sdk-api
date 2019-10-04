@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetDroppedState, ComboBox_GetDroppedState macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetDroppedState"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

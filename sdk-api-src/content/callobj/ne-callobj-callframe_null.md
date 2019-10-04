@@ -12,6 +12,8 @@ ms.keywords: CALLFRAME_NULL, CALLFRAME_NULL enumeration [COM], CALLFRAME_NULL_AL
 ms.topic: enum
 f1_keywords: 
  - "callobj/CALLFRAME_NULL"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

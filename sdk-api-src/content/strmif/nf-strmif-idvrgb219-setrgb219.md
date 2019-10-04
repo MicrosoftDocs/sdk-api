@@ -12,6 +12,8 @@ ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB
 ms.topic: method
 f1_keywords: 
  - "strmif/IDVRGB219.SetRGB219"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

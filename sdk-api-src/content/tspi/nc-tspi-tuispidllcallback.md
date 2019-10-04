@@ -12,6 +12,8 @@ ms.keywords: DllCallbackProc, DllCallbackProc callback function [TAPI 2.2], TUIS
 ms.topic: callback
 f1_keywords: 
  - "tspi/DllCallbackProc"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

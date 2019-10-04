@@ -12,6 +12,8 @@ ms.keywords: AddItem, AddItem method [windows Media Device Manager], AddItem met
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMMetaData.AddItem"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

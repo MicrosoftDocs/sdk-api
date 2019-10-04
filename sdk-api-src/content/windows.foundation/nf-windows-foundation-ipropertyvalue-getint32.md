@@ -12,6 +12,8 @@ ms.keywords: GetInt32, GetInt32 method [Windows Runtime], GetInt32 method [Windo
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetInt32"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

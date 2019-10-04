@@ -12,6 +12,8 @@ ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Director
 ms.topic: interface
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

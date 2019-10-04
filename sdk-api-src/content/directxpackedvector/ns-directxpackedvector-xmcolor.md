@@ -12,6 +12,8 @@ ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpack
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMCOLOR"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

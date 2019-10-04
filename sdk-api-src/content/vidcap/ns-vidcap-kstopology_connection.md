@@ -12,6 +12,8 @@ ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECT
 ms.topic: struct
 f1_keywords: 
  - "vidcap/KSTOPOLOGY_CONNECTION"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

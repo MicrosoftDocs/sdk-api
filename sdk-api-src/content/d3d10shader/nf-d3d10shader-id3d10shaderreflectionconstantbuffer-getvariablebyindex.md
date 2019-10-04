@@ -12,6 +12,8 @@ ms.keywords: GetVariableByIndex, GetVariableByIndex method [Direct3D 10], GetVar
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflectionConstantBuffer.GetVariableByIndex"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

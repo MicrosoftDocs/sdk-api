@@ -12,6 +12,8 @@ ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cl
 ms.topic: macro
 f1_keywords: 
  - "clusapi/GetCurrentClusterNodeId"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

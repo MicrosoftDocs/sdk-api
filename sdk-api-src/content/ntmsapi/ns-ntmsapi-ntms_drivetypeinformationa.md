@@ -12,6 +12,8 @@ ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_DVD, FILE_DEVICE_
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_DRIVETYPEINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

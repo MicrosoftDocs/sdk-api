@@ -12,6 +12,8 @@ ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPla
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndPlay"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet functi
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Class_GetClassQualifierSet"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

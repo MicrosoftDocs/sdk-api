@@ -12,6 +12,8 @@ ms.keywords: ComputePointAndSegmentAtLength, ComputePointAndSegmentAtLength meth
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1PathGeometry1.ComputePointAndSegmentAtLength"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: D2d1_1.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllGetInterface, CryptXmlDllGetInterface callback, CryptXml
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllGetInterface
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

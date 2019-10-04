@@ -12,6 +12,8 @@ ms.keywords: ITextServices interface [Windows Controls],OnTxInPlaceDeactivate me
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextServices.OnTxInPlaceDeactivate"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateDefaultConfiguration, CreateDefaultConfiguration method [Wind
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhConfigMgr.CreateDefaultConfiguration"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

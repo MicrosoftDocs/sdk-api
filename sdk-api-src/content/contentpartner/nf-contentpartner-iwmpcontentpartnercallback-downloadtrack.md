@@ -12,6 +12,8 @@ ms.keywords: DownloadTrack, DownloadTrack method [Windows Media Player], Downloa
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.DownloadTrack"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

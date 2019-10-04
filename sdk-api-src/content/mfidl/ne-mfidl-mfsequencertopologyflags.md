@@ -12,6 +12,8 @@ ms.keywords: MFSequencerTopologyFlags, MFSequencerTopologyFlags enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSequencerTopologyFlags"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

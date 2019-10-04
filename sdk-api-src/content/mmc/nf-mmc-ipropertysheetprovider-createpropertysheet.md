@@ -12,6 +12,8 @@ ms.keywords: CreatePropertySheet, CreatePropertySheet method [MMC], CreateProper
 ms.topic: method
 f1_keywords: 
  - "mmc/IPropertySheetProvider.CreatePropertySheet"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

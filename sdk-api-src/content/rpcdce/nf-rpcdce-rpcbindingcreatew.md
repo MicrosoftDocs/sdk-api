@@ -12,6 +12,8 @@ ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreate
 ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingCreate
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

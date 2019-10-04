@@ -12,6 +12,8 @@ ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW
 ms.topic: function
 f1_keywords: 
  - "traffic/TcQueryFlow"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

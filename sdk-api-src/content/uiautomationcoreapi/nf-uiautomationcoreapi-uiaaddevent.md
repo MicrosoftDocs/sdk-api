@@ -12,6 +12,8 @@ ms.keywords: UiaAddEvent, UiaAddEvent function [Windows Accessibility], uiauto.u
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaAddEvent"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

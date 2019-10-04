@@ -12,6 +12,8 @@ ms.keywords: Erase, Erase method [IMAPI], Erase method [IMAPI],IDiscRecorder int
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.Erase"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

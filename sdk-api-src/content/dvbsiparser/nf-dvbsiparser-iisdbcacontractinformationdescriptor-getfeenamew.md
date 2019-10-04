@@ -12,6 +12,8 @@ ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFee
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetFeeNameW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

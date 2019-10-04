@@ -12,6 +12,8 @@ ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, D
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsDisplaySpecifier.GetIconLocation"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

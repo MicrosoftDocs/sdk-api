@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, I
 ms.topic: interface
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProviderNotify"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

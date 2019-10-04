@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],SetPixel method, Bitmap.SetPixel, Bitmap::SetPi
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.SetPixel"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

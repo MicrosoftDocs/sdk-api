@@ -12,6 +12,8 @@ ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuContextHelpId"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

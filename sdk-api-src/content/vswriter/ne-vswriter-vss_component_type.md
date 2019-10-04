@@ -12,6 +12,8 @@ ms.keywords: VSS_COMPONENT_TYPE, VSS_COMPONENT_TYPE enumeration [VSS], VSS_CT_DA
 ms.topic: enum
 f1_keywords:
 - vswriter/VSS_COMPONENT_TYPE
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

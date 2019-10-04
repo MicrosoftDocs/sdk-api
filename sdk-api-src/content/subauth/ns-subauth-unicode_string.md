@@ -12,6 +12,8 @@ ms.keywords: "*PUNICODE_STRING, LSA_UNICODE_STRING, LSA_UNICODE_STRING structure
 ms.topic: struct
 f1_keywords: 
  - "subauth/LSA_UNICODE_STRING"
+dev_langs:
+ - c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

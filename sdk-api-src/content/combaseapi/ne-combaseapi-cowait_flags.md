@@ -12,6 +12,8 @@ ms.keywords: COWAIT_ALERTABLE, COWAIT_DEFAULT, COWAIT_DISPATCH_CALLS, COWAIT_DIS
 ms.topic: enum
 f1_keywords: 
  - "combaseapi/COWAIT_FLAGS"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

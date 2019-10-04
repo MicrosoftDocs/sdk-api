@@ -12,6 +12,8 @@ ms.keywords: FillPath, FillPath function [Windows GDI], _win32_FillPath, gdi.fil
 ms.topic: function
 f1_keywords: 
  - "wingdi/FillPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

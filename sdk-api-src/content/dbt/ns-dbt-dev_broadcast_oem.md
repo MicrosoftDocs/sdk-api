@@ -12,6 +12,8 @@ ms.keywords: DEV_BROADCAST_OEM, DEV_BROADCAST_OEM structure, PDEV_BROADCAST_OEM,
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_OEM
+dev_langs:
+ - c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

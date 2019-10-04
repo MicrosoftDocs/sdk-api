@@ -12,6 +12,8 @@ ms.keywords: BrowseToIDList, BrowseToIDList method [Windows Shell], BrowseToIDLi
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.BrowseToIDList
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

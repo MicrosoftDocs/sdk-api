@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],ResetTransform method, Pen.ResetTransform, Pen::Re
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.ResetTransform"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

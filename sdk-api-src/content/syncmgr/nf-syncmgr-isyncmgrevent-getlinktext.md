@@ -12,6 +12,8 @@ ms.keywords: GetLinkText, GetLinkText method [Windows Shell], GetLinkText method
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrEvent.GetLinkText"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

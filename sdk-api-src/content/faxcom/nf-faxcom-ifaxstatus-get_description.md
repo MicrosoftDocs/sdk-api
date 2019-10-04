@@ -12,6 +12,8 @@ ms.keywords: Description property [Fax Service], Description property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.Description"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

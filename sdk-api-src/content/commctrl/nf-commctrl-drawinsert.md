@@ -12,6 +12,8 @@ ms.keywords: DrawInsert, DrawInsert function [Windows Controls], _win32_DrawInse
 ms.topic: function
 f1_keywords: 
  - "commctrl/DrawInsert"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], 
 ms.topic: method
 f1_keywords: 
  - "editionupgradehelper/IEditionUpgradeHelper.GetOsProductContentId"
+dev_langs:
+ - c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows

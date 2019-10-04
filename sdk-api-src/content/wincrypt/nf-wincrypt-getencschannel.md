@@ -12,6 +12,8 @@ ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getenc
 ms.topic: function
 f1_keywords: 
  - "wincrypt/GetEncSChannel"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

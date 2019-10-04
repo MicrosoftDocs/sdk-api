@@ -12,6 +12,8 @@ ms.keywords: LdapGetLastError, LdapGetLastError function [LDAP], _ldap_ldapgetla
 ms.topic: function
 f1_keywords: 
  - "winldap/LdapGetLastError"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

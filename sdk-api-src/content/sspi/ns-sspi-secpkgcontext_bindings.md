@@ -12,6 +12,8 @@ ms.keywords: '*PSecPkgContext_Bindings, PSecPkgContext_Bindings, PSecPkgContext_
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_Bindings
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

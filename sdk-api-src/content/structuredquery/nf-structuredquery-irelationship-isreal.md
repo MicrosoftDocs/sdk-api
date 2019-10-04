@@ -12,6 +12,8 @@ ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsRea
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IRelationship.IsReal"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

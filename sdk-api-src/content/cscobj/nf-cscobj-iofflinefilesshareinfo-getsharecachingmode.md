@@ -12,6 +12,8 @@ ms.keywords: GetShareCachingMode, GetShareCachingMode method [Offline Files], Ge
 ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesShareInfo.GetShareCachingMode
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ChangeUniquenessValue, ChangeUniquenessValue method [DirectDraw], C
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.ChangeUniquenessValue"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

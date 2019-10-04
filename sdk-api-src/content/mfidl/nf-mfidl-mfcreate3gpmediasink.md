@@ -12,6 +12,8 @@ ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreate3GPMediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

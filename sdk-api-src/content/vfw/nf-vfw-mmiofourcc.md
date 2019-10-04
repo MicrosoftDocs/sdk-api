@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedi
 ms.topic: macro
 f1_keywords: 
  - "vfw/mmioFOURCC"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: Windows.h
 req.target-type: Windows

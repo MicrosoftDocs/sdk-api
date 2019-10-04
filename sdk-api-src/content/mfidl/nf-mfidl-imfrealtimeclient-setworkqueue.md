@@ -12,6 +12,8 @@ ms.keywords: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf, IMFRealTimeClient interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFRealTimeClient.SetWorkQueue"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Re
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEnumEventObject.Reset"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

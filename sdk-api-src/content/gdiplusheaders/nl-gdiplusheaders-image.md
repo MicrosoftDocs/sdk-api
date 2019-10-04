@@ -12,6 +12,8 @@ ms.keywords: Image, Image class [GDI+], Image class [GDI+],described, _gdiplus_C
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/Image"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

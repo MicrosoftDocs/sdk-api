@@ -12,6 +12,8 @@ ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer i
 ms.topic: interface
 f1_keywords: 
  - "objidl/IRpcProxyBuffer"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [
 ms.topic: function
 f1_keywords: 
  - "shobjidl/SHCreateDefaultPropertiesOp"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

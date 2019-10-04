@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION, LSA_TRUST_INFORMAT
 ms.topic: struct
 f1_keywords:
 - lsalookup/LSA_TRUST_INFORMATION
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8f57946f-10b9-397f-8aa5-63df2e9ef7df, D3D10CreateStateBlock, D3D10C
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10CreateStateBlock
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

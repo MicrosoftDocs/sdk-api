@@ -12,6 +12,8 @@ ms.keywords: SQMO_DEFAULT_PROPERTY, SQMO_GENERATOR_FOR_TYPE, SQMO_MAP_PROPERTY, 
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/STRUCTURED_QUERY_MULTIOPTION"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

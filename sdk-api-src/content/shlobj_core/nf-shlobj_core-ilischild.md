@@ -12,6 +12,8 @@ ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, sh
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILIsChild
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSel
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfCandidateListUIElement.GetSelection"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

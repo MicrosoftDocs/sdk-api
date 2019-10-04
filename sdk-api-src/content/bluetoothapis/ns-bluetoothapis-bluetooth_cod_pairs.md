@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _bt
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_COD_PAIRS"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

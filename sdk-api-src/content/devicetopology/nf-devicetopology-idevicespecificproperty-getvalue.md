@@ -12,6 +12,8 @@ ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IDeviceSpecificProperty.GetValue"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

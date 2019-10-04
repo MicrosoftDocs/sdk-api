@@ -12,6 +12,8 @@ ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IR
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRegisteredTaskCollection.Count"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

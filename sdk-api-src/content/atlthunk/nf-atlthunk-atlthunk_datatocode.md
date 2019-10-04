@@ -12,6 +12,8 @@ ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThun
 ms.topic: function
 f1_keywords: 
  - "atlthunk/AtlThunk_DataToCode"
+dev_langs:
+ - c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

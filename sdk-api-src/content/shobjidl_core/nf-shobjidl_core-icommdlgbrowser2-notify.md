@@ -12,6 +12,8 @@ ms.keywords: CDB2N_CONTEXTMENU_DONE, CDB2N_CONTEXTMENU_START, ICommDlgBrowser2 i
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICommDlgBrowser2.Notify"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

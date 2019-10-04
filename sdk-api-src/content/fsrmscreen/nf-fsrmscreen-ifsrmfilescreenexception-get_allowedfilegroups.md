@@ -12,6 +12,8 @@ ms.keywords: AllowedFileGroups property [File Server Resource Manager], AllowedF
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenException.AllowedFileGroups"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

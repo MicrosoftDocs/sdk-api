@@ -12,6 +12,8 @@ ms.keywords: FindErrorNodes, FindErrorNodes method [Indexing Service], FindError
 ms.topic: method
 f1_keywords: 
  - "cmdtree/ICommandTree.FindErrorNodes"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

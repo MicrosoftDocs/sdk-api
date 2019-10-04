@@ -12,6 +12,8 @@ ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarityReportProgress"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

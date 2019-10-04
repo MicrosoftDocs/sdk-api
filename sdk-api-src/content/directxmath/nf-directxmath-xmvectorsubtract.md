@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSubtract, XMVectorSubtract, XMVectorSubtract m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSubtract"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

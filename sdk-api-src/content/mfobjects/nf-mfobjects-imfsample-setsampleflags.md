@@ -12,6 +12,8 @@ ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample interface [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.SetSampleFlags"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

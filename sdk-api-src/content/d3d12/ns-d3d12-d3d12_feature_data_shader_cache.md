@@ -12,6 +12,8 @@ ms.keywords: D3D12_FEATURE_DATA_SHADER_CACHE, D3D12_FEATURE_DATA_SHADER_CACHE st
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_FEATURE_DATA_SHADER_CACHE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

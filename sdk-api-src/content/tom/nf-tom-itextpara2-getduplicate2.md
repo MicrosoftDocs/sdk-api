@@ -12,6 +12,8 @@ ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicat
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara2.GetDuplicate2"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChang
 ms.topic: struct
 f1_keywords: 
  - "shlobj/SHChangeProductKeyAsIDList"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

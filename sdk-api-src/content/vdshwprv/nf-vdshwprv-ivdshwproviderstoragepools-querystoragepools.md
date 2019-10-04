@@ -12,6 +12,8 @@ ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVds
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsHwProviderStoragePools.QueryStoragePools
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PLDAPSortKeyW, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSor
 ms.topic: struct
 f1_keywords: 
  - "winldap/LDAPSortKey"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

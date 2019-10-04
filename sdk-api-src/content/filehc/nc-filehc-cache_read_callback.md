@@ -12,6 +12,8 @@ ms.keywords: CACHE_READ_CALLBACK, CACHE_READ_CALLBACK callback, CACHE_READ_CALLB
 ms.topic: callback
 f1_keywords: 
  - "filehc/CACHE_READ_CALLBACK"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

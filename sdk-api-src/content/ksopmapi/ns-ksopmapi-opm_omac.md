@@ -12,6 +12,8 @@ ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmap
 ms.topic: struct
 f1_keywords:
 - ksopmapi/OPM_OMAC
+dev_langs:
+ - c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

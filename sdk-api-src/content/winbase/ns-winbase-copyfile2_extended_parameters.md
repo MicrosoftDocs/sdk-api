@@ -12,6 +12,8 @@ ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS struct
 ms.topic: struct
 f1_keywords: 
  - "winbase/COPYFILE2_EXTENDED_PARAMETERS"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

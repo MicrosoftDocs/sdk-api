@@ -12,6 +12,8 @@ ms.keywords: "*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO,
 ms.topic: struct
 f1_keywords: 
  - "iptypes/FIXED_INFO"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

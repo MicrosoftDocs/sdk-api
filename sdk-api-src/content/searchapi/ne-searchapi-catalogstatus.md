@@ -12,6 +12,8 @@ ms.keywords: CATALOG_STATUS_FULL_CRAWL, CATALOG_STATUS_IDLE, CATALOG_STATUS_INCR
 ms.topic: enum
 f1_keywords: 
  - "searchapi/CatalogStatus"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

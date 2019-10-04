@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorNotEqual, XMVectorNotEqual, XMVectorNotEqual m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorNotEqual"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

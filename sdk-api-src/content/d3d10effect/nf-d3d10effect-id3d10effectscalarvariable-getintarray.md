@@ -12,6 +12,8 @@ ms.keywords: 3b56ed87-da9a-3aec-33c5-66ed69d44a04, GetIntArray, GetIntArray meth
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.GetIntArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

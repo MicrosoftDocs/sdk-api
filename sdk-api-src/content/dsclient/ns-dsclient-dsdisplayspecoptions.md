@@ -12,6 +12,8 @@ ms.keywords: "*LPDSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTI
 ms.topic: struct
 f1_keywords: 
  - "dsclient/DSDISPLAYSPECOPTIONS"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

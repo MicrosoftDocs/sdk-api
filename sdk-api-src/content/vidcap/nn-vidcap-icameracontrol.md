@@ -12,6 +12,8 @@ ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraContr
 ms.topic: interface
 f1_keywords: 
  - "vidcap/ICameraControl"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

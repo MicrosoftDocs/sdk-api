@@ -12,6 +12,8 @@ ms.keywords: AddEntryList, AddEntryList method [Media Foundation], AddEntryList 
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IToc.AddEntryList"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

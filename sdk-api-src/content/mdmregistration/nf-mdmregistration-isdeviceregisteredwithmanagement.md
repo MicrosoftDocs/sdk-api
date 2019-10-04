@@ -12,6 +12,8 @@ ms.keywords: IsDeviceRegisteredWithManagement, IsDeviceRegisteredWithManagement 
 ms.topic: function
 f1_keywords: 
  - "mdmregistration/IsDeviceRegisteredWithManagement"
+dev_langs:
+ - c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

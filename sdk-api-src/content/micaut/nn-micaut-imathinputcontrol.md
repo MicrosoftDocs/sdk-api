@@ -12,6 +12,8 @@ ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathIn
 ms.topic: interface
 f1_keywords: 
  - "micaut/IMathInputControl"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: 
 req.target-type: Windows

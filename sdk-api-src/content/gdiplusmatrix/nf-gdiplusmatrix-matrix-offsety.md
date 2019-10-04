@@ -12,6 +12,8 @@ ms.keywords: Matrix class [GDI+],OffsetY method, Matrix.OffsetY, Matrix::OffsetY
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.OffsetY"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

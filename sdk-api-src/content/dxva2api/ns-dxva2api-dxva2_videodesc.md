@@ -12,6 +12,8 @@ ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoD
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_VideoDesc
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

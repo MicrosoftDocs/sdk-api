@@ -12,6 +12,8 @@ ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch metho
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSearcher.EndSearch"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

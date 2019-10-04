@@ -12,6 +12,8 @@ ms.keywords: 5815f184-1ae4-4617-9aa6-acf727aff202, Height property [Tablet PC], 
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Height"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

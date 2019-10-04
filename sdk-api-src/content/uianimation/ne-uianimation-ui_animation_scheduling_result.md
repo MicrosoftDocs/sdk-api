@@ -12,6 +12,8 @@ ms.keywords: UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED, UI_ANIMATION_SCHEDULING_
 ms.topic: enum
 f1_keywords: 
  - "uianimation/UI_ANIMATION_SCHEDULING_RESULT"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

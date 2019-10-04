@@ -12,6 +12,8 @@ ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfacePropert
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetDeviceInterfaceProperty
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Device_Interface_Property

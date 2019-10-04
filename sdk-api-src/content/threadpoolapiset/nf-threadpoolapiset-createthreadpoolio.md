@@ -12,6 +12,8 @@ ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadp
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/CreateThreadpoolIo"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQ
 ms.topic: struct
 f1_keywords: 
  - "winsnmp/smiOCTETS"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

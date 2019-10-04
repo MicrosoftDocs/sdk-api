@@ -12,6 +12,8 @@ ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetD
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.SetDesktopItemOptions
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

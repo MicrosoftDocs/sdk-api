@@ -12,6 +12,8 @@ ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits functi
 ms.topic: function
 f1_keywords: 
  - "wingdi/StretchDIBits"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

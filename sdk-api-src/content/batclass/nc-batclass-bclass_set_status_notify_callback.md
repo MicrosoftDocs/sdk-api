@@ -12,6 +12,8 @@ ms.keywords: BCLASS_SET_STATUS_NOTIFY_CALLBACK, BCLASS_SET_STATUS_NOTIFY_CALLBAC
 ms.topic: callback
 f1_keywords: 
  - "batclass/BatteryMiniSetStatusNotify"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

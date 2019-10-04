@@ -12,6 +12,8 @@ ms.keywords: "*PCHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS
 ms.topic: struct
 f1_keywords: 
  - "cchannel/CHANNEL_ENTRY_POINTS"
+dev_langs:
+ - c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEQUEUELIST"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

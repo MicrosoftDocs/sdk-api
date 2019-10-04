@@ -12,6 +12,8 @@ ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorDevice.SetSensorDeviceMode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumerat
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_NEIGHBOR_STATE"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

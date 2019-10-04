@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IO
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesFileItem.IsSparse"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

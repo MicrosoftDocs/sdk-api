@@ -12,6 +12,8 @@ ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.BillingCode"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

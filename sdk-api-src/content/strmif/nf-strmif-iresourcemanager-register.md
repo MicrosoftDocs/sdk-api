@@ -12,6 +12,8 @@ ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceM
 ms.topic: method
 f1_keywords: 
  - "strmif/IResourceManager.Register"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

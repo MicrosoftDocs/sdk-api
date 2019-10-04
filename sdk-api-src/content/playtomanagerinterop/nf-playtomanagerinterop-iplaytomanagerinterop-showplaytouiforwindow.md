@@ -12,6 +12,8 @@ ms.keywords: IPlayToManagerInterop interface [Windows Runtime],ShowPlayToUIForWi
 ms.topic: method
 f1_keywords: 
  - "playtomanagerinterop/IPlayToManagerInterop.ShowPlayToUIForWindow"
+dev_langs:
+ - c++
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows

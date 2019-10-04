@@ -12,6 +12,8 @@ ms.keywords: IRM_AutoSpace, IRM_Coerce, IRM_DisablePersonalization, IRM_LineMode
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkRecognitionModes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

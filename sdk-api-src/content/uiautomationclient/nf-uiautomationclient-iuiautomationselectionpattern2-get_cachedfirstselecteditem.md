@@ -12,6 +12,8 @@ ms.keywords: CachedFirstSelectedItem property [Windows Accessibility], CachedFir
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern2.CachedFirstSelectedItem"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

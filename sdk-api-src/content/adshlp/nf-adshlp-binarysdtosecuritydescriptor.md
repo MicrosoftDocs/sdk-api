@@ -12,6 +12,8 @@ ms.keywords: BinarySDToSecurityDescriptor, BinarySDToSecurityDescriptor function
 ms.topic: function
 f1_keywords:
 - adshlp/BinarySDToSecurityDescriptor
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CurrentFullDescription property [Windows Accessibility], CurrentFul
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement6.CurrentFullDescription"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

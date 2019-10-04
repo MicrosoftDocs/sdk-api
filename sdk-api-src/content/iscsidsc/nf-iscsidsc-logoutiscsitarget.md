@@ -12,6 +12,8 @@ ms.keywords: LogoutIScsiTarget, LogoutIscsiTarget, LogoutIscsiTarget function [i
 ms.topic: function
 f1_keywords:
 - iscsidsc/LogoutIscsiTarget
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

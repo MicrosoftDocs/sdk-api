@@ -12,6 +12,8 @@ ms.keywords: COMGLB_APPID, COMGLB_EXCEPTION_HANDLING, COMGLB_RO_SETTINGS, COMGLB
 ms.topic: enum
 f1_keywords: 
  - "objidl/GLOBALOPT_PROPERTIES"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBasicDevice interface [Media Streaming API],add_ConnectionStatusCh
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IBasicDevice.add_ConnectionStatusChanged"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

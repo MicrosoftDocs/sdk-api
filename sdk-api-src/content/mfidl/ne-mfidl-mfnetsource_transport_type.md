@@ -12,6 +12,8 @@ ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNETSOURCE_TRANSPORT_TYPE"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

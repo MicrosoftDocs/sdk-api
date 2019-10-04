@@ -12,6 +12,8 @@ ms.keywords: ENUM_CEPSETUPPROP_CAINFORMATION, ENUM_CEPSETUPPROP_CHALLENGEURL, EN
 ms.topic: enum
 f1_keywords: 
  - "casetup/MSCEPSetupProperty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

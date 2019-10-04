@@ -12,6 +12,8 @@ ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures, EnableGesture
 ms.topic: method
 f1_keywords: 
  - "rtscom/IGestureRecognizer.EnableGestures"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

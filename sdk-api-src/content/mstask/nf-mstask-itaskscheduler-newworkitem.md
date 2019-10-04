@@ -12,6 +12,8 @@ ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITask
 ms.topic: method
 f1_keywords: 
  - "mstask/ITaskScheduler.NewWorkItem"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

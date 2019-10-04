@@ -12,6 +12,8 @@ ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateCha
 ms.topic: method
 f1_keywords: 
  - "certpol/INDESPolicy.GenerateChallenge"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

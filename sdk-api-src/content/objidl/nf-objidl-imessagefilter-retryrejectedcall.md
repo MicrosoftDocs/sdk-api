@@ -12,6 +12,8 @@ ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFi
 ms.topic: method
 f1_keywords: 
  - "objidl/IMessageFilter.RetryRejectedCall"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

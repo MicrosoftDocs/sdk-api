@@ -12,6 +12,8 @@ ms.keywords: IInitializeWithItem interface [Windows Shell],Initialize method, II
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IInitializeWithItem.Initialize"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Propsys.h
 req.target-type: Windows

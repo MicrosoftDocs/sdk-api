@@ -12,6 +12,8 @@ ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetCount"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

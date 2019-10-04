@@ -12,6 +12,8 @@ ms.keywords: GetConnectedInitiators, GetConnectedInitiators method [VDS], GetCon
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsIscsiTarget.GetConnectedInitiators"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

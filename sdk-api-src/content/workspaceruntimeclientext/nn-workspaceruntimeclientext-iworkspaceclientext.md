@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop 
 ms.topic: interface
 f1_keywords: 
  - "workspaceruntimeclientext/IWorkspaceClientExt"
+dev_langs:
+ - c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows

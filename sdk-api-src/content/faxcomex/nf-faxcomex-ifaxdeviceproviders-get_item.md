@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProviders interface [Fax Service],get_Item method, IFaxDe
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProviders.get_Item"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

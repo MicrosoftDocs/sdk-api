@@ -12,6 +12,8 @@ ms.keywords: GetContainer, GetContainer method [COM], GetContainer method [COM],
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleClientSite.GetContainer"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

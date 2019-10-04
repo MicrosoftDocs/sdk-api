@@ -12,6 +12,8 @@ ms.keywords: 6b38e984-d818-4f69-af28-8b54153faebb, EndGetEvent, EndGetEvent meth
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaEventGenerator.EndGetEvent"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

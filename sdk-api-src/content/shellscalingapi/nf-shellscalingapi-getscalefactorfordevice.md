@@ -12,6 +12,8 @@ ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows 
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/GetScaleFactorForDevice"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

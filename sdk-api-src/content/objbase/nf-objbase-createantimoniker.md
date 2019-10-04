@@ -12,6 +12,8 @@ ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAnt
 ms.topic: function
 f1_keywords: 
  - "objbase/CreateAntiMoniker"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

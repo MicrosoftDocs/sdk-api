@@ -12,6 +12,8 @@ ms.keywords: MgmCreationAlertCallback, PMGM_CREATION_ALERT_CALLBACK, PMGM_CREATI
 ms.topic: callback
 f1_keywords:
 - mgm/PMGM_CREATION_ALERT_CALLBACK
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

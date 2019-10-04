@@ -12,6 +12,8 @@ ms.keywords: GetMruEntryAt, GetMruEntryAt method [Picture Acquisition], GetMruEn
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetMruEntryAt"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

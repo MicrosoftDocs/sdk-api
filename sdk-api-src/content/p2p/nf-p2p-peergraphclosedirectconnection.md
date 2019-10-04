@@ -12,6 +12,8 @@ ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection func
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGraphCloseDirectConnection"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

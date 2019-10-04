@@ -12,6 +12,8 @@ ms.keywords: "*PISID, PSID, PSID structure pointer [Security], SID, SID structur
 ms.topic: struct
 f1_keywords: 
  - "winnt/SID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

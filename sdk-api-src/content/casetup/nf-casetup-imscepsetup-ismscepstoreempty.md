@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSe
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.IsMSCEPStoreEmpty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

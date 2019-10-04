@@ -12,6 +12,8 @@ ms.keywords: GetLineSpacingRule, GetLineSpacingRule method [Windows Controls], G
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetLineSpacingRule"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

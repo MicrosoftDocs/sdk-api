@@ -12,6 +12,8 @@ ms.keywords: IkeextSaEnum2, IkeextSaEnum2 function [Filtering], fwp.ikeextsaenum
 ms.topic: function
 f1_keywords: 
  - "fwpmu/IkeextSaEnum2"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_PROXY_RESULT, WINHTTP_PROXY_RESULT structure [HTTP], http.w
 ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_PROXY_RESULT
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

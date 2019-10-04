@@ -12,6 +12,8 @@ ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAlloc
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

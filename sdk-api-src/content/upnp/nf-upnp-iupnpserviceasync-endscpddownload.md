@@ -12,6 +12,8 @@ ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownloa
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.EndSCPDDownload"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [search], Clone method [search],ICondition inte
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.Clone"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

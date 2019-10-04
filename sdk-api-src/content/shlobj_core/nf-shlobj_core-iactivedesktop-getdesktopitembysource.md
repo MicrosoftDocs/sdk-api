@@ -12,6 +12,8 @@ ms.keywords: GetDesktopItemBySource, GetDesktopItemBySource method [Legacy Windo
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.GetDesktopItemBySource
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

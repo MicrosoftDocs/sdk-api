@@ -12,6 +12,8 @@ ms.keywords: TextUnit, TextUnit enumeration [Windows Accessibility], TextUnit_Ch
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/TextUnit"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

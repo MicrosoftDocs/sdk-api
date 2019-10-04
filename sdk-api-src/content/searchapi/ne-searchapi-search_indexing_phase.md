@@ -12,6 +12,8 @@ ms.keywords: SEARCH_INDEXING_PHASE, SEARCH_INDEXING_PHASE enumeration [search], 
 ms.topic: enum
 f1_keywords: 
  - "searchapi/SEARCH_INDEXING_PHASE"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

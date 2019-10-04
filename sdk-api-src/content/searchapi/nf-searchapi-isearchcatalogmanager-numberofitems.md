@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],NumberOfItems method, ISea
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.NumberOfItems"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

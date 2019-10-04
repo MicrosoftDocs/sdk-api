@@ -12,6 +12,8 @@ ms.keywords: '*PNMLINK, NMLINK, NMLINK structure [Windows Controls], PNMLINK, PN
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLINK
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

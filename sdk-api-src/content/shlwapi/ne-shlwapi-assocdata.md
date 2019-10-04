@@ -12,6 +12,8 @@ ms.keywords: ASSOCDATA, ASSOCDATA enumeration [Windows Shell], ASSOCDATA_EDITFLA
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/ASSOCDATA"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
 ms.topic: macro
 f1_keywords: 
  - "fdi/FNWRITE"
+dev_langs:
+ - c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

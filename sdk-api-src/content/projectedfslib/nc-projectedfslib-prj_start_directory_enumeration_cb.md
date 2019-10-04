@@ -12,6 +12,8 @@ ms.keywords: PRJ_START_DIRECTORY_ENUMERATION_CB, PRJ_START_DIRECTORY_ENUMERATION
 ms.topic: callback
 f1_keywords: 
  - "projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

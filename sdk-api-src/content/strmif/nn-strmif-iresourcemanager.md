@@ -12,6 +12,8 @@ ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourc
 ms.topic: interface
 f1_keywords: 
  - "strmif/IResourceManager"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

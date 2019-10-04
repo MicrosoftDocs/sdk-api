@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnStartupComp
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControlEventCallback.OnStartupComplete"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

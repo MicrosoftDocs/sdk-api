@@ -12,6 +12,8 @@ ms.keywords: "*PPPP_PROJECTION_INFO2, ERROR_PPP_NOT_CONVERGING, PPPP_PROJECTION_
 ms.topic: struct
 f1_keywords: 
  - "mprapi/PPP_PROJECTION_INFO2"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

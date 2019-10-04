@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_BufferUnderrunFreeDisabled 
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

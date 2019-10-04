@@ -12,6 +12,8 @@ ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface meth
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPViewerRenderingSurface.SetRenderingSurface"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

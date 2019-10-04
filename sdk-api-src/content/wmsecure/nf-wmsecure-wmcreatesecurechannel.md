@@ -12,6 +12,8 @@ ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Medi
 ms.topic: function
 f1_keywords: 
  - "wmsecure/WMCreateSecureChannel"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

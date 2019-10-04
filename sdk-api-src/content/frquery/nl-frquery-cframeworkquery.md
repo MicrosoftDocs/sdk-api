@@ -12,6 +12,8 @@ ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrume
 ms.topic: class
 f1_keywords: 
  - "frquery/CFrameworkQuery"
+dev_langs:
+ - c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

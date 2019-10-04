@@ -12,6 +12,8 @@ ms.keywords: GetCodePage, GetCodePage method [Windows Shell], GetCodePage method
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IQueryCodePage.GetCodePage"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

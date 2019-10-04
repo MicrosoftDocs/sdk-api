@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, P
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

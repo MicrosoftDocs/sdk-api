@@ -12,6 +12,8 @@ ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkStrokeDisp int
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.ID"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

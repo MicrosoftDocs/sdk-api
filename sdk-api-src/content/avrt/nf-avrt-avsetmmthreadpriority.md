@@ -12,6 +12,8 @@ ms.keywords: AVRT_PRIORITY_CRITICAL, AVRT_PRIORITY_HIGH, AVRT_PRIORITY_LOW, AVRT
 ms.topic: function
 f1_keywords: 
  - "avrt/AvSetMmThreadPriority"
+dev_langs:
+ - c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

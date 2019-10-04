@@ -12,6 +12,8 @@ ms.keywords: IS_ADDRESS_CITY, IS_ADDRESS_COUNTRYNAME, IS_ADDRESS_COUNTRYSHORTNAM
 ms.topic: enum
 f1_keywords: 
  - "inputscope/InputScope"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

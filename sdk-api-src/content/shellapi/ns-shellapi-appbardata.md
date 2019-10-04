@@ -12,6 +12,8 @@ ms.keywords: "*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA
 ms.topic: struct
 f1_keywords: 
  - "shellapi/APPBARDATA"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

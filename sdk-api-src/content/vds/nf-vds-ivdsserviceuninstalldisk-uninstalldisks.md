@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServi
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsServiceUninstallDisk.UninstallDisks"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 74b46980-220f-d8c0-f488-2656b735bb5d, IDXGIResource, IDXGIResource 
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIResource"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

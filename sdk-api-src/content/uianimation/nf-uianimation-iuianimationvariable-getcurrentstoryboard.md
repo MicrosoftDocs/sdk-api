@@ -12,6 +12,8 @@ ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animatio
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable.GetCurrentStoryboard"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

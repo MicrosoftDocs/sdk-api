@@ -12,6 +12,8 @@ ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback fu
 ms.topic: function
 f1_keywords: 
  - "mapi/MAPIFreeBuffer"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: Mapi.h
 req.target-type: Windows

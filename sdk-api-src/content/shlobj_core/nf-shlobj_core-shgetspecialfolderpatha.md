@@ -12,6 +12,8 @@ ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHGetSpecialFolderPath"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

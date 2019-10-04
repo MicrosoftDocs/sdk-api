@@ -12,6 +12,8 @@ ms.keywords: '*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Ta
 ms.topic: struct
 f1_keywords:
 - mstask/TASK_TRIGGER
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

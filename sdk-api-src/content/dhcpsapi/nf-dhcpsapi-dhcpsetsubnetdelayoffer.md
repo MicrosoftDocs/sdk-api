@@ -12,6 +12,8 @@ ms.keywords: DhcpSetSubnetDelayOffer, DhcpSetSubnetDelayOffer function [DHCP], d
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpSetSubnetDelayOffer"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

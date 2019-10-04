@@ -12,6 +12,8 @@ ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRD
 ms.topic: struct
 f1_keywords: 
  - "strmif/VMRDeinterlaceCaps"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

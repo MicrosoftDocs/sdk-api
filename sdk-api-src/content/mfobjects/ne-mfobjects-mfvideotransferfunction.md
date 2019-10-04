@@ -12,6 +12,8 @@ ms.keywords: MFVideoTransFunc_10, MFVideoTransFunc_18, MFVideoTransFunc_20, MFVi
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoTransferFunction
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

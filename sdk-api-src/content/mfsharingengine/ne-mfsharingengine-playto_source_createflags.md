@@ -12,6 +12,8 @@ ms.keywords: PLAYTO_CONTROLLER_CREATEFLAGS, PLAYTO_CONTROLLER_CREATEFLAGS enumer
 ms.topic: enum
 f1_keywords: 
  - "mfsharingengine/PLAYTO_SOURCE_CREATEFLAGS"
+dev_langs:
+ - c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

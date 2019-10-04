@@ -12,6 +12,8 @@ ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCry
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptFinishHash"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

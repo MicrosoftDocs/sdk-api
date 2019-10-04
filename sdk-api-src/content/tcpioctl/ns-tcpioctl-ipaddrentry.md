@@ -12,6 +12,8 @@ ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEn
 ms.topic: struct
 f1_keywords: 
  - "tcpioctl/IPAddrEntry"
+dev_langs:
+ - c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

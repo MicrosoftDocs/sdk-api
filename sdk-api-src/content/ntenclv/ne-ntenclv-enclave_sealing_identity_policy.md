@@ -12,6 +12,8 @@ ms.keywords: ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ENCLAVE_IDENTITY_POLICY_SE
 ms.topic: enum
 f1_keywords: 
  - "ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY"
+dev_langs:
+ - c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

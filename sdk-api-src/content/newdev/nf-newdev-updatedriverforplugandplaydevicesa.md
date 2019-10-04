@@ -12,6 +12,8 @@ ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevice
 ms.topic: function
 f1_keywords:
 - newdev/UpdateDriverForPlugAndPlayDevices
+dev_langs:
+ - c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

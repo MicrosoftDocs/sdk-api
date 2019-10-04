@@ -12,6 +12,8 @@ ms.keywords: GetStart, GetStart method [Media Foundation], GetStart method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaTimeRange.GetStart"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

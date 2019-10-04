@@ -12,6 +12,8 @@ ms.keywords: PACKAGE_EXECUTION_STATE, PACKAGE_EXECUTION_STATE enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/PACKAGE_EXECUTION_STATE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

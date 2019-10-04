@@ -12,6 +12,8 @@ ms.keywords: MF_CROSS_ORIGIN_POLICY, MF_CROSS_ORIGIN_POLICY_ANONYMOUS, MF_CROSS_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/_MF_CROSS_ORIGIN_POLICY"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

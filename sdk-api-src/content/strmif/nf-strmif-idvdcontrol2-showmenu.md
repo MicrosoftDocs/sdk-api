@@ -12,6 +12,8 @@ ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.S
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl2.ShowMenu"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

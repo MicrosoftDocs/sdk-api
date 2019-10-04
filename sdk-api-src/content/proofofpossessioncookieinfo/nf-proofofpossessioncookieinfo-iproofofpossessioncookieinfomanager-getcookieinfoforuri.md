@@ -12,6 +12,8 @@ ms.keywords: GetCookieInfoForUri, GetCookieInfoForUri method [WinINet], GetCooki
 ms.topic: method
 f1_keywords: 
  - "proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager.GetCookieInfoForUri"
+dev_langs:
+ - c++
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 
 req.target-type: Windows

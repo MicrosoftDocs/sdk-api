@@ -12,6 +12,8 @@ ms.keywords: IMSCEPSetup interface [Security],SetMSCEPSetupProperty method, IMSC
 ms.topic: method
 f1_keywords: 
  - "casetup/IMSCEPSetup.SetMSCEPSetupProperty"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

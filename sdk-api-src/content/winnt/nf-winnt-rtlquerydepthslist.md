@@ -12,6 +12,8 @@ ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepth
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlQueryDepthSList"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

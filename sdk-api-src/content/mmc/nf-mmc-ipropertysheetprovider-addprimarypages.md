@@ -12,6 +12,8 @@ ms.keywords: AddPrimaryPages, AddPrimaryPages method [MMC], AddPrimaryPages meth
 ms.topic: method
 f1_keywords: 
  - "mmc/IPropertySheetProvider.AddPrimaryPages"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

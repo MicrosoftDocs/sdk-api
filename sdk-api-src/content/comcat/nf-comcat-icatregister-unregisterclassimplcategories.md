@@ -12,6 +12,8 @@ ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, 
 ms.topic: method
 f1_keywords: 
  - "comcat/ICatRegister.UnRegisterClassImplCategories"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

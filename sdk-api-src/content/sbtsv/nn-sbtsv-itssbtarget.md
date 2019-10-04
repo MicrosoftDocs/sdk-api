@@ -12,6 +12,8 @@ ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSb
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbTarget"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

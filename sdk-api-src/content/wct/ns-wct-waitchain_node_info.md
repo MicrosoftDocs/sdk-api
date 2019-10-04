@@ -12,6 +12,8 @@ ms.keywords: "*PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO 
 ms.topic: struct
 f1_keywords: 
  - "wct/WAITCHAIN_NODE_INFO"
+dev_langs:
+ - c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

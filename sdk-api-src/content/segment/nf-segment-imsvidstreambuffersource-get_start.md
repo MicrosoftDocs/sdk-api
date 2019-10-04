@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSource.get_Start"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_SubscriptionDeliveryType, MI_SubscriptionDeliveryType enumeratio
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_SubscriptionDeliveryType"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

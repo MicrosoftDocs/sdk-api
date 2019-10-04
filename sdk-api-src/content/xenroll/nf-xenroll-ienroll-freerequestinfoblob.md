@@ -12,6 +12,8 @@ ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.fr
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll.freeRequestInfoBlob"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize callback function [Securit
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpLsaModeInitialize
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GlobalFlags, GlobalFlags function, _win32_globalflags, base.globalf
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalFlags"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

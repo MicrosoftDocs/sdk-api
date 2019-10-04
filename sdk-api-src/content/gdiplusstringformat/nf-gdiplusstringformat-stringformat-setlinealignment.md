@@ -12,6 +12,8 @@ ms.keywords: SetLineAlignment, SetLineAlignment method [GDI+], SetLineAlignment 
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.SetLineAlignment"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

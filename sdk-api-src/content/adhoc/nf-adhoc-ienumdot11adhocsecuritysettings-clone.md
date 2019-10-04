@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDo
 ms.topic: method
 f1_keywords: 
  - "adhoc/IEnumDot11AdHocSecuritySettings.Clone"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

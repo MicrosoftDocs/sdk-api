@@ -12,6 +12,8 @@ ms.keywords: GetFieldProps, GetFieldProps method [Windows Runtime], GetFieldProp
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetFieldProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

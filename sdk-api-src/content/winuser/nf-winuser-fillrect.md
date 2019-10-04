@@ -12,6 +12,8 @@ ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fil
 ms.topic: function
 f1_keywords: 
  - "winuser/FillRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 040086f5-0f64-f459-6184-d4091d98d3d4, D3D11_STENCIL_OP, D3D11_STENC
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_STENCIL_OP"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

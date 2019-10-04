@@ -12,6 +12,8 @@ ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArran
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView.GetAutoArrange"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

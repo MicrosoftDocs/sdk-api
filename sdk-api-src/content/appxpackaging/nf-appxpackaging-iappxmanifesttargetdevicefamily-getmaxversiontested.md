@@ -12,6 +12,8 @@ ms.keywords: GetMaxVersionTested, GetMaxVersionTested method [App packaging and 
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestTargetDeviceFamily.GetMaxVersionTested"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

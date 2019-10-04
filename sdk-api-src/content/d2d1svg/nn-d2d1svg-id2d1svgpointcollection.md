@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgPointCollection, ID2D1SvgPointCollection interface [Direct2
 ms.topic: interface
 f1_keywords: 
  - "d2d1svg/ID2D1SvgPointCollection"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

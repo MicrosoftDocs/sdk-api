@@ -12,6 +12,8 @@ ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSourc
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaSource"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

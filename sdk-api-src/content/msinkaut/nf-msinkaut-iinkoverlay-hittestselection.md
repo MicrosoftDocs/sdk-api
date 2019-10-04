@@ -12,6 +12,8 @@ ms.keywords: 289589fa-84da-40b3-b60e-551ef0114279, HitTestSelection, HitTestSele
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.HitTestSelection"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

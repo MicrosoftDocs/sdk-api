@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION, CLFS_IN
 ms.topic: struct
 f1_keywords: 
  - "clfs/CLFS_INFORMATION"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

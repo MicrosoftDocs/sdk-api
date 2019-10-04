@@ -12,6 +12,8 @@ ms.keywords: VarCyFromDate, VarCyFromDate function [Automation], _oa96_VarCyFrom
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyFromDate"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

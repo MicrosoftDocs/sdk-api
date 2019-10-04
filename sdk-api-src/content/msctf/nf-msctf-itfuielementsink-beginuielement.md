@@ -12,6 +12,8 @@ ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], Be
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfUIElementSink.BeginUIElement"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

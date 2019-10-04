@@ -12,6 +12,8 @@ ms.keywords: GPMCSECollection object [GPMC],Item property, IGPMCSECollection int
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMCSECollection.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

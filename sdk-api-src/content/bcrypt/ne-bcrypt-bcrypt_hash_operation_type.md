@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_HASH_OPERATION_FINISH_HASH, BCRYPT_HASH_OPERATION_HASH_DATA,
 ms.topic: enum
 f1_keywords: 
  - "bcrypt/BCRYPT_HASH_OPERATION_TYPE"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

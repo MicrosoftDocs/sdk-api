@@ -12,6 +12,8 @@ ms.keywords: CountEntries, CountEntries method [Windows Shell], CountEntries met
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/ITravelLog.CountEntries"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

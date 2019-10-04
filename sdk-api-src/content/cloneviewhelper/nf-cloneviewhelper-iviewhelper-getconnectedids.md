@@ -12,6 +12,8 @@ ms.keywords: GetConnectedIDs, GetConnectedIDs method [Display Devices], GetConne
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.GetConnectedIDs"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

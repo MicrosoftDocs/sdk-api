@@ -12,6 +12,8 @@ ms.keywords: FileName property [Windows Deployment Services], FileName property 
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient.FileName"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

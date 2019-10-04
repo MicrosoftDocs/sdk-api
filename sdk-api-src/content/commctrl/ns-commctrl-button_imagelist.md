@@ -12,6 +12,8 @@ ms.keywords: "*PBUTTON_IMAGELIST, BUTTON_IMAGELIST, BUTTON_IMAGELIST structure [
 ms.topic: struct
 f1_keywords: 
  - "commctrl/BUTTON_IMAGELIST"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

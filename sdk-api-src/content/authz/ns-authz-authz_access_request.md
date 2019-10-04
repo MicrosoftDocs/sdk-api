@@ -12,6 +12,8 @@ ms.keywords: '*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_ACCESS_REQUEST
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote
 ms.topic: function
 f1_keywords: 
  - "wsman/WSManGetErrorMessage"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

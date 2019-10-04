@@ -12,6 +12,8 @@ ms.keywords: TzSpecificLocalTimeToSystemTime, TzSpecificLocalTimeToSystemTime fu
 ms.topic: function
 f1_keywords:
 - timezoneapi/TzSpecificLocalTimeToSystemTime
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_VALUE_META_DATA_EXT, DS_REPL_VALUE_META_DATA_EXT structure 
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_VALUE_META_DATA_EXT
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

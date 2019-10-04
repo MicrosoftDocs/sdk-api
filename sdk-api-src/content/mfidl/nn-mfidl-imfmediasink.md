@@ -12,6 +12,8 @@ ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink in
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFMediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

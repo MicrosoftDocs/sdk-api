@@ -12,6 +12,8 @@ ms.keywords: AddFunctionName, AddFunctionName method [Tablet PC], AddFunctionNam
 ms.topic: method
 f1_keywords: 
  - "micaut/IMathInputControl.AddFunctionName"
+dev_langs:
+ - c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

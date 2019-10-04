@@ -12,6 +12,8 @@ ms.keywords: GetDefaultCategory, GetDefaultCategory method [Windows Shell], GetD
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICategoryProvider.GetDefaultCategory"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

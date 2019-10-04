@@ -12,6 +12,8 @@ ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Wind
 ms.topic: method
 f1_keywords: 
  - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromPath"
+dev_langs:
+ - c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

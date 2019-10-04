@@ -12,6 +12,8 @@ ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency func
 ms.topic: function
 f1_keywords: 
  - "realtimeapiset/QueryAuxiliaryCounterFrequency"
+dev_langs:
+ - c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

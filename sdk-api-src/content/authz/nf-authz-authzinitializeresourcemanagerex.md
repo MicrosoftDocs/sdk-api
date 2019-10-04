@@ -12,6 +12,8 @@ ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDI
 ms.topic: function
 f1_keywords:
 - authz/AuthzInitializeResourceManagerEx
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

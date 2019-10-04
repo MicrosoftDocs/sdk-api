@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiTarget interface [VDS],QueryPortalGroups method, IVdsIscsi
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsIscsiTarget.QueryPortalGroups"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

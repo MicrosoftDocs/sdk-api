@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetMaxRunTime method, ITask.SetMax
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetMaxRunTime"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

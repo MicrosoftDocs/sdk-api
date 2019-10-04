@@ -12,6 +12,8 @@ ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Image clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetWidth"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

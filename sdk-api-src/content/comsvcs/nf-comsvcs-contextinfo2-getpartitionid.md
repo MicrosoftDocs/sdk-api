@@ -12,6 +12,8 @@ ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.G
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ContextInfo2.GetPartitionId"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCryptoSessionHandle, GetCryptoSessionHandle method [Media Founda
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11CryptoSession.GetCryptoSessionHandle"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

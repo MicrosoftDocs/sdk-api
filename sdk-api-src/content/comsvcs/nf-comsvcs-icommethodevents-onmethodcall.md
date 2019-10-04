@@ -12,6 +12,8 @@ ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEv
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComMethodEvents.OnMethodCall"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

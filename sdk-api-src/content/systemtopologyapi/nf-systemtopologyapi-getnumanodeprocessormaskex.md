@@ -12,6 +12,8 @@ ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, ba
 ms.topic: function
 f1_keywords:
 - systemtopologyapi/GetNumaNodeProcessorMaskEx
+dev_langs:
+ - c++
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows

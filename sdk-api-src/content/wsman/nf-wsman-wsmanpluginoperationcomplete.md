@@ -12,6 +12,8 @@ ms.keywords: WSManPluginOperationComplete, WSManPluginOperationComplete function
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginOperationComplete
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

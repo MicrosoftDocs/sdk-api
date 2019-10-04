@@ -12,6 +12,8 @@ ms.keywords: 5dc3aa3a-6996-e7d4-76dc-917fe69d9260, ID3D10EffectBlendVariable, ID
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectBlendVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

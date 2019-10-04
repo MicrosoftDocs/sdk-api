@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awar
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/IEnumNetworks.Clone"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

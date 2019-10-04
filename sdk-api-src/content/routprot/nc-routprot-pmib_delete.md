@@ -12,6 +12,8 @@ ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, PMIB_DEL
 ms.topic: callback
 f1_keywords: 
  - "routprot/MibDelete"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

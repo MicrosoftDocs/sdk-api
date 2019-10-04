@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedSeeking interface [DirectShow],get_MarkerCount method, I
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedSeeking.get_MarkerCount"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

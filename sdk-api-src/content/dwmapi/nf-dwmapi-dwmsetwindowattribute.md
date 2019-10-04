@@ -12,6 +12,8 @@ ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Wind
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmSetWindowAttribute"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

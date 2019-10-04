@@ -12,6 +12,8 @@ ms.keywords: "*PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING, IMAPI_CD_TRACK_DIGITAL_COPY
 ms.topic: enum
 f1_keywords: 
  - "imapi2/IMAPI_CD_TRACK_DIGITAL_COPY_SETTING"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

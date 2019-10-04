@@ -12,6 +12,8 @@ ms.keywords: GetPersistentItemsChangedSink, GetPersistentItemsChangedSink method
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.GetPersistentItemsChangedSink"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

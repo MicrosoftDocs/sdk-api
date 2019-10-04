@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_NAMESPACE_TYPE, WDSTRANSPORT_NAMESPACE_TYPE, WDSTRA
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

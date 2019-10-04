@@ -12,6 +12,8 @@ ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media For
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/DRM_OPL_OUTPUT_IDS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

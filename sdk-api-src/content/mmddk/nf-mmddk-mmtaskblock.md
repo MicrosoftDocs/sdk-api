@@ -12,6 +12,8 @@ ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTas
 ms.topic: function
 f1_keywords: 
  - "mmddk/mmTaskBlock"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FsrmPropertyFlags, FsrmPropertyFlags enumeration [File Server Resou
 ms.topic: enum
 f1_keywords: 
  - "fsrmenums/FsrmPropertyFlags"
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

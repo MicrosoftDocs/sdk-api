@@ -12,6 +12,8 @@ ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo.ParseHeader"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

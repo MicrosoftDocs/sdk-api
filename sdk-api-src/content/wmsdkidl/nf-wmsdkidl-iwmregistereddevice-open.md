@@ -12,6 +12,8 @@ ms.keywords: IWMRegisteredDevice interface [windows Media Format],Open method, I
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMRegisteredDevice.Open"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

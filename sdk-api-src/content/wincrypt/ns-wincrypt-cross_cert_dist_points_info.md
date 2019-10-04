@@ -12,6 +12,8 @@ ms.keywords: '*PCROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO, CROSS_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CROSS_CERT_DIST_POINTS_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, P
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

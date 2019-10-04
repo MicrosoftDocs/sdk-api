@@ -12,6 +12,8 @@ ms.keywords: "*LPTYPEATTR, LPTYPEATTR, LPTYPEATTR structure pointer [Automation]
 ms.topic: struct
 f1_keywords: 
  - "oaidl/TYPEATTR"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

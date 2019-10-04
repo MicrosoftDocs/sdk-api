@@ -12,6 +12,8 @@ ms.keywords: GetCustomAttributeByName, GetCustomAttributeByName method [Windows 
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetCustomAttributeByName"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

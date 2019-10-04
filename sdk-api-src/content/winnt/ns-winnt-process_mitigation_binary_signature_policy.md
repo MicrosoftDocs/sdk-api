@@ -12,6 +12,8 @@ ms.keywords: "*PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_
 ms.topic: struct
 f1_keywords: 
  - "winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

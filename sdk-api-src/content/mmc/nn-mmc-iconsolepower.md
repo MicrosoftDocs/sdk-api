@@ -12,6 +12,8 @@ ms.keywords: ConsolePower, IConsolePower, IConsolePower interface [MMC], IConsol
 ms.topic: interface
 f1_keywords: 
  - "mmc/IConsolePower"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

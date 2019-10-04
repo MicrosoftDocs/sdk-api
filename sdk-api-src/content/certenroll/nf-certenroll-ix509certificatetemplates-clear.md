@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Certif
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateTemplates.Clear"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan::WbemTimeSpan"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

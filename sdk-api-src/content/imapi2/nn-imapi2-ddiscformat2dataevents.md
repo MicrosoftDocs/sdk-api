@@ -12,6 +12,8 @@ ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], D
 ms.topic: interface
 f1_keywords: 
  - "imapi2/DDiscFormat2DataEvents"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

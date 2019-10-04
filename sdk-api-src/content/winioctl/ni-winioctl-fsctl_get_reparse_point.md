@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_REPARSE_POINT, FSCTL_GET_REPARSE_POINT control, FSCTL_GET
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_GET_REPARSE_POINT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

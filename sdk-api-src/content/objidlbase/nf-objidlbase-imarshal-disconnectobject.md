@@ -12,6 +12,8 @@ ms.keywords: DisconnectObject, DisconnectObject method [COM], DisconnectObject m
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IMarshal.DisconnectObject"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

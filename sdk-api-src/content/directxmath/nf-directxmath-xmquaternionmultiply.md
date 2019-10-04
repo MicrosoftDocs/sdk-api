@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionMultiply, XMQuaternionMultiply, XMQuaterni
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionMultiply"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

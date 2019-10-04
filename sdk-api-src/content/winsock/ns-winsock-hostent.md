@@ -12,6 +12,8 @@ ms.keywords: "*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [W
 ms.topic: struct
 f1_keywords: 
  - "winsock/HOSTENT"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

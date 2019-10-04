@@ -12,6 +12,8 @@ ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_PROXY_INFORMATION"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

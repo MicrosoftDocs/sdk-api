@@ -12,6 +12,8 @@ ms.keywords: IVdsAsync interface [VDS],QueryStatus method, IVdsAsync.QueryStatus
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsAsync.QueryStatus"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

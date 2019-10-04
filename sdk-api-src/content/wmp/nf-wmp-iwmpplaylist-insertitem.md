@@ -12,6 +12,8 @@ ms.keywords: IWMPPlaylist interface [Windows Media Player],insertItem method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlaylist.insertItem"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

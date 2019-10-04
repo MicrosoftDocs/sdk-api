@@ -12,6 +12,8 @@ ms.keywords: IFaxTiff interface [Fax Service],Tsid property, IFaxTiff.Tsid, IFax
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxTiff.Tsid"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocat
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.put_DefaultLocator"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

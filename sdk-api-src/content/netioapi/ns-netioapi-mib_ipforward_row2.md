@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2 struc
 ms.topic: struct
 f1_keywords: 
  - "netioapi/MIB_IPFORWARD_ROW2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/GetServerForPMP"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

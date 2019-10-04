@@ -12,6 +12,8 @@ ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework],
 ms.topic: interface
 f1_keywords: 
  - "msaatext/ITfMSAAControl"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

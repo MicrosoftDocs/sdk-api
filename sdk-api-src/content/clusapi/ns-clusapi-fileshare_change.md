@@ -12,6 +12,8 @@ ms.keywords: '*PFILESHARE_CHANGE, FILESHARE_CHANGE, FILESHARE_CHANGE structure [
 ms.topic: struct
 f1_keywords:
 - clusapi/FILESHARE_CHANGE
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTrustLevel, GetTrustLevel method [Windows Runtime], GetTrustLeve
 ms.topic: method
 f1_keywords: 
  - "inspectable/IInspectable.GetTrustLevel"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

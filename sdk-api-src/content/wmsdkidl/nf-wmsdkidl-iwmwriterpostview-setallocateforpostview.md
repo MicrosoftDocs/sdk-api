@@ -12,6 +12,8 @@ ms.keywords: IWMWriterPostView interface [windows Media Format],SetAllocateForPo
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterPostView.SetAllocateForPostView"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

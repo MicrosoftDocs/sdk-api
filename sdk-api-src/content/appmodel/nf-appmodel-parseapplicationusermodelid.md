@@ -12,6 +12,8 @@ ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [
 ms.topic: function
 f1_keywords: 
  - "appmodel/ParseApplicationUserModelId"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

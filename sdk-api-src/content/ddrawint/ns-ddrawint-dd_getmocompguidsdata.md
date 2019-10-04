@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSD
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETMOCOMPGUIDSDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

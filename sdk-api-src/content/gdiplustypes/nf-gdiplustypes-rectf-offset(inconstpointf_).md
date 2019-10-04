@@ -12,6 +12,8 @@ ms.keywords: Offset, Offset methods [GDI+], RectF.Offset, RectF::Offset, _gdiplu
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.Offset"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

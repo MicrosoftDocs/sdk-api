@@ -12,6 +12,8 @@ ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetW
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap.GetWidthScale"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

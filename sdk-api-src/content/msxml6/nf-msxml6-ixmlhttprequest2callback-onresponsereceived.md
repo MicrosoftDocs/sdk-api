@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseRece
 ms.topic: method
 f1_keywords: 
  - "msxml6/IXMLHTTPRequest2Callback.OnResponseReceived"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

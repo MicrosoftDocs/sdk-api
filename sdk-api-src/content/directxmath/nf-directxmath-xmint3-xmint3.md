@@ -12,6 +12,8 @@ ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 cons
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMINT3.XMINT3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

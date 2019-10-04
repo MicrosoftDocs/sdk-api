@@ -12,6 +12,8 @@ ms.keywords: GetDescription, GetDescription method [Automation], GetDescription 
 ms.topic: method
 f1_keywords: 
  - "oaidl/IErrorInfo.GetDescription"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

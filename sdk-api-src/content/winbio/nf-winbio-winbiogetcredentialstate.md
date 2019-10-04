@@ -12,6 +12,8 @@ ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDE
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioGetCredentialState"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

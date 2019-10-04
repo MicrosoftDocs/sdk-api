@@ -12,6 +12,8 @@ ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActio
 ms.topic: method
 f1_keywords: 
  - "pla/IFolderActionCollection.Remove"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtlde
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlDeleteFunctionTable"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

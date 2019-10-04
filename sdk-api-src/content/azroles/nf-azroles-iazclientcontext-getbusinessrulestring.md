@@ -12,6 +12,8 @@ ms.keywords: AzClientContext object [Security],GetBusinessRuleString method, Get
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.GetBusinessRuleString"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetC
 ms.topic: function
 f1_keywords: 
  - "fileapi/GetCompressedFileSize"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h, Fileapi.h, Windows.h, WinBase.h, Fileapi.h
 req.target-type: Windows

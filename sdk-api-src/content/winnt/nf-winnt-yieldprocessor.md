@@ -12,6 +12,8 @@ ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt
 ms.topic: function
 f1_keywords: 
  - "winnt/YieldProcessor"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

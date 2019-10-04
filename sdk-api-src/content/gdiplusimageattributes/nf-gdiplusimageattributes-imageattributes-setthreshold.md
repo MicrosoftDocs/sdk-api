@@ -12,6 +12,8 @@ ms.keywords: ImageAttributes class [GDI+],SetThreshold method, ImageAttributes.S
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.SetThreshold"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

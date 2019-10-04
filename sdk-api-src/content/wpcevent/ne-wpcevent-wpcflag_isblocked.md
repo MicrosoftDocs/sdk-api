@@ -12,6 +12,8 @@ ms.keywords: WPCFLAG_ISBLOCKED, WPCFLAG_ISBLOCKED enumeration, WPCFLAG_ISBLOCKED
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPCFLAG_ISBLOCKED"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

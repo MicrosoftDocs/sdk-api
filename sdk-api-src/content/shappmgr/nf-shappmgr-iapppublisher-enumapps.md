@@ -12,6 +12,8 @@ ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IAppPublisher.EnumApps"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

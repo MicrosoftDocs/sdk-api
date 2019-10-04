@@ -12,6 +12,8 @@ ms.keywords: DevicePowerOpen, DevicePowerOpen function, base.devicepoweropen, po
 ms.topic: function
 f1_keywords: 
  - "powrprof/DevicePowerOpen"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

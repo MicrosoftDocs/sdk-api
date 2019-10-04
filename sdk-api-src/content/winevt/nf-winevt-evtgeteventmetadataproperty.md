@@ -12,6 +12,8 @@ ms.keywords: EvtGetEventMetadataProperty, EvtGetEventMetadataProperty function [
 ms.topic: function
 f1_keywords:
 - winevt/EvtGetEventMetadataProperty
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

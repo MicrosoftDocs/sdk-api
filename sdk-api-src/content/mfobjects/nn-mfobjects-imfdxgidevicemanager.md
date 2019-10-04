@@ -12,6 +12,8 @@ ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundat
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFDXGIDeviceManager"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

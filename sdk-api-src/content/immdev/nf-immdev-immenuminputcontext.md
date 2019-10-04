@@ -12,6 +12,8 @@ ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internatio
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmEnumInputContext"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus m
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponents.FreeWriterStatus"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

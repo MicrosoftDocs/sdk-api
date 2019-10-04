@@ -12,6 +12,8 @@ ms.keywords: CGD_ARRAY_NODE, CGD_BINARY_PROPERTY, CGD_DATE_PROPERTY, CGD_STRING_
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactPropertyCollection.GetPropertyType"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

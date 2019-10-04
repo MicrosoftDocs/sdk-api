@@ -12,6 +12,8 @@ ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_TYPE_MAPPING"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

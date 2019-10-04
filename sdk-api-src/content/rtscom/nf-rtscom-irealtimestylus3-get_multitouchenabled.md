@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, 
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus3.MultiTouchEnabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

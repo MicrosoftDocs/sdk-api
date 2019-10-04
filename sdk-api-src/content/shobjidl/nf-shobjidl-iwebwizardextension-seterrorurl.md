@@ -12,6 +12,8 @@ ms.keywords: IWebWizardExtension interface [Windows Shell],SetErrorURL method, I
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IWebWizardExtension.SetErrorURL"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

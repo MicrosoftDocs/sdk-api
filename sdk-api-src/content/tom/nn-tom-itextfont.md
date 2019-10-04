@@ -12,6 +12,8 @@ ms.keywords: ITextFont, ITextFont interface [Windows Controls], ITextFont interf
 ms.topic: interface
 f1_keywords: 
  - "tom/ITextFont"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

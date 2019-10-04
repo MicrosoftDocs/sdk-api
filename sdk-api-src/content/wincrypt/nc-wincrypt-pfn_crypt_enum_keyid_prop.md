@@ -12,6 +12,8 @@ ms.keywords: CRYPT_ENUM_KEYID_PROP, CRYPT_ENUM_KEYID_PROP callback function [Sec
 ms.topic: callback
 f1_keywords:
 - wincrypt/CRYPT_ENUM_KEYID_PROP
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

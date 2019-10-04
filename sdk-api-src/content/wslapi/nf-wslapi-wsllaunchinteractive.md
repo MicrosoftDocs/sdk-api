@@ -12,6 +12,8 @@ ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchi
 ms.topic: function
 f1_keywords: 
  - "wslapi/WslLaunchInteractive"
+dev_langs:
+ - c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

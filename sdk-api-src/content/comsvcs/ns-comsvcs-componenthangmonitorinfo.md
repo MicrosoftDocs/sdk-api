@@ -12,6 +12,8 @@ ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+]
 ms.topic: struct
 f1_keywords: 
  - "comsvcs/ComponentHangMonitorInfo"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

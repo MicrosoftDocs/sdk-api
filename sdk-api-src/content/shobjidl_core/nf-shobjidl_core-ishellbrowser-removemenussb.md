@@ -12,6 +12,8 @@ ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellBrowser.RemoveMenusSB"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

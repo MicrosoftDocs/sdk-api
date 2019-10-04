@@ -12,6 +12,8 @@ ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream
 ms.topic: method
 f1_keywords: 
  - "objidl/IStream.UnlockRegion"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

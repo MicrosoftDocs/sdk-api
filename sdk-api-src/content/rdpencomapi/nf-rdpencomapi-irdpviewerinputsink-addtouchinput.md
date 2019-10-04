@@ -12,6 +12,8 @@ ms.keywords: AddTouchInput, AddTouchInput method [RDP], AddTouchInput method [RD
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPViewerInputSink.AddTouchInput"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

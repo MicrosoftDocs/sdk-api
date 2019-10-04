@@ -12,6 +12,8 @@ ms.keywords: "*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INF
 ms.topic: struct
 f1_keywords: 
  - "werapi/WER_REPORT_INFORMATION"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

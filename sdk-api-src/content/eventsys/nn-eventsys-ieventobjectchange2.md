@@ -12,6 +12,8 @@ ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventOb
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IEventObjectChange2"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

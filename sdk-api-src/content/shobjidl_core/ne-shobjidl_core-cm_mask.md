@@ -12,6 +12,8 @@ ms.keywords: CM_MASK, CM_MASK enumeration [Windows Shell], CM_MASK_DEFAULTWIDTH,
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CM_MASK"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Reset method, IEnu
 ms.topic: method
 f1_keywords: 
  - "cscobj/IEnumOfflineFilesItems.Reset"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CY
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_WMI_CYCLE_COUNT"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

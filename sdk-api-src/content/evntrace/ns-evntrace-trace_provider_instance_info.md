@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_PROVIDER_INSTANCE_INFO, PTRACE_PROVIDER_INSTANCE_INFO, PTR
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_PROVIDER_INSTANCE_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

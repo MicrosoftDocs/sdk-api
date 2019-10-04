@@ -12,6 +12,8 @@ ms.keywords: MprAdminGetIpAddressForUser, MprAdminGetIpAddressForUser callback, 
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminGetIpAddressForUser"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

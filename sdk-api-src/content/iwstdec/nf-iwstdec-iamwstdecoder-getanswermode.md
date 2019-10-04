@@ -12,6 +12,8 @@ ms.keywords: GetAnswerMode, GetAnswerMode method [DirectShow], GetAnswerMode met
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.GetAnswerMode"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

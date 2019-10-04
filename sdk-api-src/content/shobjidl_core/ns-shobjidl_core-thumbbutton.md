@@ -12,6 +12,8 @@ ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Wi
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/THUMBBUTTON"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

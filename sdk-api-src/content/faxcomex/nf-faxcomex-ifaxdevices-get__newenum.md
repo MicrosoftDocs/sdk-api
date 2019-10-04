@@ -12,6 +12,8 @@ ms.keywords: IFaxDevices interface [Fax Service],get__NewEnum method, IFaxDevice
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDevices.get__NewEnum"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

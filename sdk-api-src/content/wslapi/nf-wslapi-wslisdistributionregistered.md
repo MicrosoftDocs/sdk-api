@@ -12,6 +12,8 @@ ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, 
 ms.topic: function
 f1_keywords: 
  - "wslapi/WslIsDistributionRegistered"
+dev_langs:
+ - c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows

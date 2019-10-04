@@ -12,6 +12,8 @@ ms.keywords: IShellLink interface [Windows Shell],SetHotkey method, IShellLink::
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellLink.SetHotkey"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

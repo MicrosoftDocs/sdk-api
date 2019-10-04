@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_KEY_PROV_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_SET_KEY_
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_KEY_PROV_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

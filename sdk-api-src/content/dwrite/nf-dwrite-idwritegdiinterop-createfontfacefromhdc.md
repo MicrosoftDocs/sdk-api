@@ -12,6 +12,8 @@ ms.keywords: CreateFontFaceFromHdc, CreateFontFaceFromHdc method [Direct Write],
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteGdiInterop.CreateFontFaceFromHdc"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

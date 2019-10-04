@@ -12,6 +12,8 @@ ms.keywords: Edit_GetSel, Edit_GetSel macro [Windows Controls], _win32_Edit_GetS
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetSel"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

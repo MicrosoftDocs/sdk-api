@@ -12,6 +12,8 @@ ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getl
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetLocalTime"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

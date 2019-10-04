@@ -12,6 +12,8 @@ ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMT
 ms.topic: struct
 f1_keywords: 
  - "dde/DDEPOKE"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

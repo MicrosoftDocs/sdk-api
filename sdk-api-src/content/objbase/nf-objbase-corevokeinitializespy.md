@@ -12,6 +12,8 @@ ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_C
 ms.topic: function
 f1_keywords: 
  - "objbase/CoRevokeInitializeSpy"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

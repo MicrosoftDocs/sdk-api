@@ -12,6 +12,8 @@ ms.keywords: "*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOT
 ms.topic: struct
 f1_keywords: 
  - "dskquota/DISKQUOTA_USER_INFORMATION"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

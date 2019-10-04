@@ -12,6 +12,8 @@ ms.keywords: '*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTING
 ms.topic: struct
 f1_keywords:
 - mcx/MODEMSETTINGS
+dev_langs:
+ - c++
 req.header: mcx.h
 req.include-header: Windows.h
 req.target-type: Windows

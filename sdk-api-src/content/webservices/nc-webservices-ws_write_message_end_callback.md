@@ -12,6 +12,8 @@ ms.keywords: WS_WRITE_MESSAGE_END_CALLBACK, WS_WRITE_MESSAGE_END_CALLBACK callba
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_WRITE_MESSAGE_END_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

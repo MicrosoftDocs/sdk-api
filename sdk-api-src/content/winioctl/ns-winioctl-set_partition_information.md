@@ -12,6 +12,8 @@ ms.keywords: '*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PART
 ms.topic: struct
 f1_keywords:
 - winioctl/SET_PARTITION_INFORMATION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_TEXCUBE_SRV, D3D11_TEXCUBE_SRV structure [Direct3D 11], a2171
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEXCUBE_SRV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

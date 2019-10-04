@@ -12,6 +12,8 @@ ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method
 ms.topic: method
 f1_keywords: 
  - "eventsys/IMultiInterfaceEventControl.SetDefaultQuery"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

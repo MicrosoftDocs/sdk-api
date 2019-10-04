@@ -12,6 +12,8 @@ ms.keywords: DsWriteAccountSpn, DsWriteAccountSpn function [Active Directory], D
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsWriteAccountSpn"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

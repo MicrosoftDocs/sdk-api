@@ -12,6 +12,8 @@ ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework]
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP2.GetFormattedText"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

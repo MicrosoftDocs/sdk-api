@@ -12,6 +12,8 @@ ms.keywords: CreateObject, CreateObject method [HTML Help Workshop], CreateObjec
 ms.topic: method
 f1_keywords: 
  - "infotech/IITDatabase.CreateObject"
+dev_langs:
+ - c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

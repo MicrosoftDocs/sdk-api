@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_CONTACT, PCPEER_CONTACT, PCPEER_CONTACT structure pointer [
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_CONTACT"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

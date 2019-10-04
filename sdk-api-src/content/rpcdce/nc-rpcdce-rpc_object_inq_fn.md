@@ -12,6 +12,8 @@ ms.keywords: RPC_OBJECT_INQ_FN, RPC_OBJECT_INQ_FN callback, RPC_OBJECT_INQ_FN ca
 ms.topic: callback
 f1_keywords: 
  - "rpcdce/RPC_OBJECT_INQ_FN"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

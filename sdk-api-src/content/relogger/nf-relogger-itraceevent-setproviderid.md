@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetPr
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceEvent.SetProviderId"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

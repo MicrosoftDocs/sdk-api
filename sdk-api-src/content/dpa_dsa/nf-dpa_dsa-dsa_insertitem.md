@@ -12,6 +12,8 @@ ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DSA_InsertItem"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

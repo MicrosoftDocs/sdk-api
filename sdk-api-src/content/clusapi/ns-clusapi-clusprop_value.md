@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failov
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_VALUE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

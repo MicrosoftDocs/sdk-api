@@ -12,6 +12,8 @@ ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitio
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitte
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

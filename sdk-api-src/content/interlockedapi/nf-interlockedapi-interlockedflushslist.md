@@ -12,6 +12,8 @@ ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_inter
 ms.topic: function
 f1_keywords: 
  - "interlockedapi/InterlockedFlushSList"
+dev_langs:
+ - c++
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

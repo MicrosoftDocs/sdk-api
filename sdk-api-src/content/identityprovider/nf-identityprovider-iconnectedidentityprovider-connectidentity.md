@@ -12,6 +12,8 @@ ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity
 ms.topic: method
 f1_keywords:
 - identityprovider/IConnectedIdentityProvider.ConnectIdentity
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

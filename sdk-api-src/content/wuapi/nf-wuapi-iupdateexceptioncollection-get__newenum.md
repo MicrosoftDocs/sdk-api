@@ -12,6 +12,8 @@ ms.keywords: IUpdateExceptionCollection interface [Windows Update Agent],_NewEnu
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateExceptionCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

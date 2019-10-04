@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save met
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings.Save"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

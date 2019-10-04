@@ -12,6 +12,8 @@ ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_r
 ms.topic: function
 f1_keywords: 
  - "winreg/RegOpenKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

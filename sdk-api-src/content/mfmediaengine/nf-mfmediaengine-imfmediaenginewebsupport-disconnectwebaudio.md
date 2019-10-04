@@ -12,6 +12,8 @@ ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], D
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineWebSupport.DisconnectWebAudio"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

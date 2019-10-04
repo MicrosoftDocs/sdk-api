@@ -12,6 +12,8 @@ ms.keywords: DHCP_POL_COMPARATOR, DHCP_POL_COMPARATOR enumeration [DHCP], DhcpCo
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_POL_COMPARATOR
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

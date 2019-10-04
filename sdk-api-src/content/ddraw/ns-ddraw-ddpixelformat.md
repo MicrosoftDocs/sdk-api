@@ -12,6 +12,8 @@ ms.keywords: "*LPDDPIXELFORMAT, DDPF_ALPHA, DDPF_ALPHAPIXELS, DDPF_ALPHAPREMULT,
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDPIXELFORMAT"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

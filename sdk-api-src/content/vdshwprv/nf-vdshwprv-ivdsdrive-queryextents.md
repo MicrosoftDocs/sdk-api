@@ -12,6 +12,8 @@ ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExten
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsDrive.QueryExtents
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

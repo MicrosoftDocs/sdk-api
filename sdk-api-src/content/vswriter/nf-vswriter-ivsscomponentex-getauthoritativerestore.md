@@ -12,6 +12,8 @@ ms.keywords: GetAuthoritativeRestore, GetAuthoritativeRestore method, GetAuthori
 ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.GetAuthoritativeRestore
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

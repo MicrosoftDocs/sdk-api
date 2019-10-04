@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItems
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.UnadviseItemsSink"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 functi
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetIpNetTable2"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

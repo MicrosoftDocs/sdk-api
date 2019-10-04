@@ -12,6 +12,8 @@ ms.keywords: ITDirectory interface [TAPI 2.2],ModifyDirectoryObject method, ITDi
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectory.ModifyDirectoryObject"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

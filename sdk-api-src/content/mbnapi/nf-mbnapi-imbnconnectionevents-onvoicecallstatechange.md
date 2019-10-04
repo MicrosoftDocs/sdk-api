@@ -12,6 +12,8 @@ ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnVoi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnectionEvents.OnVoiceCallStateChange"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

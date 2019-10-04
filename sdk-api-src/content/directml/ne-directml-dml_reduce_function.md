@@ -12,6 +12,8 @@ ms.keywords: DML_REDUCE_FUNCTION, DML_REDUCE_FUNCTION enumeration, DML_REDUCE_FU
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_REDUCE_FUNCTION"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

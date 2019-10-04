@@ -12,6 +12,8 @@ ms.keywords: ADS_OPTION_ACCUMULATIVE_MODIFICATION, ADS_OPTION_ENUM, ADS_OPTION_E
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_OPTION_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

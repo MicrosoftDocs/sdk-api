@@ -12,6 +12,8 @@ ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE call
 ms.topic: callback
 f1_keywords: 
  - "resapi/ResourceTypeControl"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

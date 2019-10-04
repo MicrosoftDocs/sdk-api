@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index pr
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgPdu.Index"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash 
 ms.topic: function
 f1_keywords: 
  - "mscat/CryptCATAdminEnumCatalogFromHash"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

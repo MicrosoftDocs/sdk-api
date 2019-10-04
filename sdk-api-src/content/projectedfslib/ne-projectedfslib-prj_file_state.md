@@ -12,6 +12,8 @@ ms.keywords: PRJ_FILE_STATE, PRJ_FILE_STATE enumeration, PRJ_FILE_STATE_DIRTY_PL
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_FILE_STATE"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

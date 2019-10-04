@@ -12,6 +12,8 @@ ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface 
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcDigitalSignatureManager"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

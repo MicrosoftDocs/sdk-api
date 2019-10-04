@@ -12,6 +12,8 @@ ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mes
 ms.topic: function
 f1_keywords: 
  - "midles/MesBufferHandleReset"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structu
 ms.topic: struct
 f1_keywords: 
  - "p2p/PEER_APPLICATION"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

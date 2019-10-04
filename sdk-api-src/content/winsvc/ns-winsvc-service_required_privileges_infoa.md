@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_REQUIRED_PRIVILEGES_INFOA, LPSERVICE_REQUIRED_PRIVILEGE
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

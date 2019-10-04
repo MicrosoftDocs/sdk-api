@@ -12,6 +12,8 @@ ms.keywords: IMediaStreamFilter interface [DirectShow],SupportSeeking method, IM
 ms.topic: method
 f1_keywords: 
  - "amstream/IMediaStreamFilter.SupportSeeking"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

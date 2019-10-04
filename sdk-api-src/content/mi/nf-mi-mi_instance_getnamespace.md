@@ -12,6 +12,8 @@ ms.keywords: MI_Instance_GetNameSpace, MI_Instance_GetNameSpace function [Window
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_GetNameSpace
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

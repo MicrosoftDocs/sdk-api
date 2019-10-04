@@ -12,6 +12,8 @@ ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direc
 ms.topic: function
 f1_keywords: 
  - "dxgidebug/DXGIGetDebugInterface"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

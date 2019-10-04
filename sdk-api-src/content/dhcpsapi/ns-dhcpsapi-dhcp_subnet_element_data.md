@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUBNET_ELEMENT_DATA
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

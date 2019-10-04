@@ -12,6 +12,8 @@ ms.keywords: ULongPtrToInt8, ULongPtrToInt8 function [Windows Shell], intsafe/UL
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongPtrToInt8"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

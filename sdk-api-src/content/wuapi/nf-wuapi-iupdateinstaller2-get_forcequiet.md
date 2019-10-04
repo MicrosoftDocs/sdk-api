@@ -12,6 +12,8 @@ ms.keywords: ForceQuiet property [Windows Update Agent], ForceQuiet property [Wi
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller2.ForceQuiet"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

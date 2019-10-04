@@ -12,6 +12,8 @@ ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor.GetLanguageCode"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

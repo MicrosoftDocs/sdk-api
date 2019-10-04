@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store 
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationNavigationEvents.NavigateError"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

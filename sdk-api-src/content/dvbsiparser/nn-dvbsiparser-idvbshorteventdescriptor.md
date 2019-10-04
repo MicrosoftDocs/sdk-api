@@ -12,6 +12,8 @@ ms.keywords: IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbShortEventDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

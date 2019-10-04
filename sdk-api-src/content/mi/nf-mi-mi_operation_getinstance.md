@@ -12,6 +12,8 @@ ms.keywords: MI_Operation_GetInstance, MI_Operation_GetInstance function [Window
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Operation_GetInstance"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPNP_VETO_TYPE, PNP_VETO_TYPE, PNP_VETO_TYPE enumeration [Device 
 ms.topic: enum
 f1_keywords: 
  - "cfg/PNP_VETO_TYPE"
+dev_langs:
+ - c++
 req.header: cfg.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

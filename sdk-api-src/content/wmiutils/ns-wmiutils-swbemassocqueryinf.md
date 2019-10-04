@@ -12,6 +12,8 @@ ms.keywords: SWbemAssocQueryInf, SWbemAssocQueryInf structure [Windows Managemen
 ms.topic: struct
 f1_keywords: 
  - "wmiutils/SWbemAssocQueryInf"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

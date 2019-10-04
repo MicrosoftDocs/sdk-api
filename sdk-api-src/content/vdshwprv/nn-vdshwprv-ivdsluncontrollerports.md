@@ -12,6 +12,8 @@ ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVd
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsLunControllerPorts"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

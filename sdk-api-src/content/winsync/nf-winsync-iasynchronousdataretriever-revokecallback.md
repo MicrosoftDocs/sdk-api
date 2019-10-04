@@ -12,6 +12,8 @@ ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback 
 ms.topic: method
 f1_keywords: 
  - "winsync/IAsynchronousDataRetriever.RevokeCallback"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

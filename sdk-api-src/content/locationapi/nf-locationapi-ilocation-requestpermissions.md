@@ -12,6 +12,8 @@ ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocat
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILocation.RequestPermissions"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

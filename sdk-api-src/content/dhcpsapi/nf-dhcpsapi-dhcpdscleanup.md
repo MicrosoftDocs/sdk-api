@@ -12,6 +12,8 @@ ms.keywords: DhcpDsCleanup, DhcpDsCleanup function [DHCP], dhcp.dhcpdscleanup, d
 ms.topic: function
 f1_keywords: 
  - "dhcpsapi/DhcpDsCleanup"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

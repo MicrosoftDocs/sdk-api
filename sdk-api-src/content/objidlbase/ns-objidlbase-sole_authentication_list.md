@@ -12,6 +12,8 @@ ms.keywords: "*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHE
 ms.topic: struct
 f1_keywords: 
  - "objidlbase/SOLE_AUTHENTICATION_LIST"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [CO
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.GetClientSite"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

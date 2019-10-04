@@ -12,6 +12,8 @@ ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interfa
 ms.topic: method
 f1_keywords: 
  - "iads/IADsUser.Groups"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

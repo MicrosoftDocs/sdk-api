@@ -12,6 +12,8 @@ ms.keywords: "*PCLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT, CLASS_ME
 ms.topic: struct
 f1_keywords: 
  - "winioctl/CLASS_MEDIA_CHANGE_CONTEXT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

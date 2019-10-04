@@ -12,6 +12,8 @@ ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management In
 ms.topic: interface
 f1_keywords: 
  - "wbemcli/IWbemClassObject"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

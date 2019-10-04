@@ -12,6 +12,8 @@ ms.keywords: '*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation
 ms.topic: struct
 f1_keywords:
 - cfgmgr32/CS_DES
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

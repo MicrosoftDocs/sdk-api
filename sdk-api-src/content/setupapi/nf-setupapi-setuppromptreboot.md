@@ -12,6 +12,8 @@ ms.keywords: SetupPromptReboot, SetupPromptReboot function [Setup API], _setupap
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupPromptReboot"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

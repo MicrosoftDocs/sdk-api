@@ -12,6 +12,8 @@ ms.keywords: GetEnums, GetEnums method, GetEnums method,IVisualTreeService inter
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.GetEnums"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

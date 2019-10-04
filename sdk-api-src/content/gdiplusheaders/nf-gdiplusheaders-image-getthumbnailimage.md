@@ -12,6 +12,8 @@ ms.keywords: GetThumbnailImage, GetThumbnailImage method [GDI+], GetThumbnailIma
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetThumbnailImage"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

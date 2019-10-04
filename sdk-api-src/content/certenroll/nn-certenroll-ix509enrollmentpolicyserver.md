@@ -12,6 +12,8 @@ ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface 
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

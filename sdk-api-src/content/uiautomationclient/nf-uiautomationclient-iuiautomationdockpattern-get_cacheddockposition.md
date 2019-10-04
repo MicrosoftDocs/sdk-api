@@ -12,6 +12,8 @@ ms.keywords: CachedDockPosition property [Windows Accessibility], CachedDockPosi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDockPattern.CachedDockPosition"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

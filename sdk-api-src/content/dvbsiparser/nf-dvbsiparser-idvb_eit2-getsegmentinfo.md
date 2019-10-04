@@ -12,6 +12,8 @@ ms.keywords: GetSegmentInfo, GetSegmentInfo method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT2.GetSegmentInfo"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

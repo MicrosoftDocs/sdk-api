@@ -12,6 +12,8 @@ ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enume
 ms.topic: enum
 f1_keywords: 
  - "textstor/TsRunType"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1EffectImpl interface [Direct2D],SetGraph method, ID2D1EffectIm
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1EffectImpl.SetGraph"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

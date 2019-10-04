@@ -12,6 +12,8 @@ ms.keywords: IUpdateCollection interface [Windows Update Agent],_NewEnum propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

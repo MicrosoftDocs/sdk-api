@@ -12,6 +12,8 @@ ms.keywords: ColorF, ColorF class [Direct2D], ColorF class [Direct2D],described,
 ms.topic: class
 f1_keywords: 
  - "d2d1helper/ColorF"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: D2d1helper.h
 req.target-type: Windows

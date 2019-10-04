@@ -12,6 +12,8 @@ ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCON
 ms.topic: method
 f1_keywords: 
  - "certcli/ICertConfig2.GetConfig"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

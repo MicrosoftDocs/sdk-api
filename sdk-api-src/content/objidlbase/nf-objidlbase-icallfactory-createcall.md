@@ -12,6 +12,8 @@ ms.keywords: CreateCall, CreateCall method [COM], CreateCall method [COM],ICallF
 ms.topic: method
 f1_keywords: 
  - "objidlbase/ICallFactory.CreateCall"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

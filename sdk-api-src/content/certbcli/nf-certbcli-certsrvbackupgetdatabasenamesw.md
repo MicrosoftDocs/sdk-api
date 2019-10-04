@@ -12,6 +12,8 @@ ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBa
 ms.topic: function
 f1_keywords: 
  - "certbcli/CertSrvBackupGetDatabaseNames"
+dev_langs:
+ - c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

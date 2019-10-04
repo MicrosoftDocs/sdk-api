@@ -12,6 +12,8 @@ ms.keywords: GetLastError, GetLastError method [Windows Address Book], GetLastEr
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.GetLastError"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

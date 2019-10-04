@@ -12,6 +12,8 @@ ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search]
 ms.topic: interface
 f1_keywords: 
  - "searchapi/ISearchNotifyInlineSite"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

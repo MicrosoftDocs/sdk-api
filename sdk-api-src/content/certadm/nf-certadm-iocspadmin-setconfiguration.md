@@ -12,6 +12,8 @@ ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPAdmin.SetConfiguration"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

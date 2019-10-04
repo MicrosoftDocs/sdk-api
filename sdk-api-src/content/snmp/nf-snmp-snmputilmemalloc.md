@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilMemAlloc, SnmpUtilMemAlloc function [SNMP], _snmp_snmputilm
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilMemAlloc"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

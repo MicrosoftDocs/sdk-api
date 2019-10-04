@@ -12,6 +12,8 @@ ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult inte
 ms.topic: interface
 f1_keywords: 
  - "gpmgmt/IGPMResult"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

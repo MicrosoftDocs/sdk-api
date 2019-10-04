@@ -12,6 +12,8 @@ ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_ST
 ms.topic: struct
 f1_keywords: 
  - "lsalookup/LSA_STRING"
+dev_langs:
+ - c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

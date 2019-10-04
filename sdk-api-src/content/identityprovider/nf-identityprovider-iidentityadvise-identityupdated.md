@@ -12,6 +12,8 @@ ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityAdvise.IdentityUpdated"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

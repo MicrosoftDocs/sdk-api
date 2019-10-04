@@ -12,6 +12,8 @@ ms.keywords: WDS_LOG_LEVEL, WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG
 ms.topic: enum
 f1_keywords: 
  - "wdsclientapi/WDS_LOG_LEVEL"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cl
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSCTL_GET_ACCESS_MODE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

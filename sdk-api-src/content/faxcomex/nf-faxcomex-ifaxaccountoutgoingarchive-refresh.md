@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],Refresh method, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountOutgoingArchive.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

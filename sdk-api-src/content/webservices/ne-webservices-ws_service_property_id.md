@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, WS_SERVICE_PROPERTY_FAULT_DISCLO
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SERVICE_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

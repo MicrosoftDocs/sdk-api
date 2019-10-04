@@ -12,6 +12,8 @@ ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager
 ms.topic: function
 f1_keywords: 
  - "dxva2api/DXVA2CreateDirect3DDeviceManager9"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

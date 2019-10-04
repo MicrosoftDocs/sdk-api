@@ -12,6 +12,8 @@ ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/QuerySecurityAccessMask"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

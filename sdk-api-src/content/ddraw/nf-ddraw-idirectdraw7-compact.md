@@ -12,6 +12,8 @@ ms.keywords: Compact, Compact method [DirectDraw], Compact method [DirectDraw],I
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.Compact"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

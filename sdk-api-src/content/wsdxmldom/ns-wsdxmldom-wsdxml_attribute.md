@@ -12,6 +12,8 @@ ms.keywords: WSDXML_ATTRIBUTE, WSDXML_ATTRIBUTE structure, _WSDXML_ATTRIBUTE, nc
 ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_ATTRIBUTE
+dev_langs:
+ - c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

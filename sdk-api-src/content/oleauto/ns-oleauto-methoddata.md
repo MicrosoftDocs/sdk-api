@@ -12,6 +12,8 @@ ms.keywords: "*LPMETHODDATA, DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PRO
 ms.topic: struct
 f1_keywords: 
  - "oleauto/METHODDATA"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

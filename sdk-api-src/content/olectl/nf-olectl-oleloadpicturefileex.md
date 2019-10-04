@@ -12,6 +12,8 @@ ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFil
 ms.topic: function
 f1_keywords: 
  - "olectl/OleLoadPictureFileEx"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

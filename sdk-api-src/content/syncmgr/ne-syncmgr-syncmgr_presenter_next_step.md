@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_PNS_CANCEL, SYNCMGR_PNS_CONTINUE, SYNCMGR_PNS_DEFAULT, SYNC
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_PRESENTER_NEXT_STEP"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

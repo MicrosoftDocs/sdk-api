@@ -12,6 +12,8 @@ ms.keywords: EAP_METHOD_PROPERTY_TYPE, EAP_METHOD_PROPERTY_TYPE enumeration [EAP
 ms.topic: enum
 f1_keywords:
 - eaptypes/EAP_METHOD_PROPERTY_TYPE
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

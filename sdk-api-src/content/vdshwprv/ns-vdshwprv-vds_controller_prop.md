@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP st
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_CONTROLLER_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

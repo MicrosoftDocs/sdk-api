@@ -12,6 +12,8 @@ ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunT
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetNextRunTime"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_MATRIX, DWRITE_MATRIX structure [Direct Write], directwrite.
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_MATRIX"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC],
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain.GetSOM"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

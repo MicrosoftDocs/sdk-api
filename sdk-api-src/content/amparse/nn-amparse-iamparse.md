@@ -12,6 +12,8 @@ ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [Dire
 ms.topic: interface
 f1_keywords: 
  - "amparse/IAMParse"
+dev_langs:
+ - c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

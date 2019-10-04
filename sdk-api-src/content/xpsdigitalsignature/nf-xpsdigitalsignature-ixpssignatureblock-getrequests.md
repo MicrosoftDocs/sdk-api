@@ -12,6 +12,8 @@ ms.keywords: GetRequests, GetRequests method [XPS Documents and Packaging], GetR
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureBlock.GetRequests"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

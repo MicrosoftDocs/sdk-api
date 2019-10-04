@@ -12,6 +12,8 @@ ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and 
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackageFullName"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

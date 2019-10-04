@@ -12,6 +12,8 @@ ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessi
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ITransformProvider2"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleCacheControl interface [COM],OnRun method, IOleCacheControl.OnR
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleCacheControl.OnRun"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

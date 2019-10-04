@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE function
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilSetExpandSzValue"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

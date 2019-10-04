@@ -12,6 +12,8 @@ ms.keywords: CRYPT_PKCS12_PBE_PARAMS, CRYPT_PKCS12_PBE_PARAMS structure [Securit
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_PKCS12_PBE_PARAMS"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

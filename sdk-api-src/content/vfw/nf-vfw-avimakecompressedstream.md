@@ -12,6 +12,8 @@ ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows 
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIMakeCompressedStream"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_STATUS, LPSERVICE_STATUS, LPSERVICE_STATUS structure po
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_STATUS"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

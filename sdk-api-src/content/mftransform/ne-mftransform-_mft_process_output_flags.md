@@ -12,6 +12,8 @@ ms.keywords: 846e91a5-7cd8-4b58-9484-b9cb9af0bebf, MFT_PROCESS_OUTPUT_DISCARD_WH
 ms.topic: enum
 f1_keywords:
 - mftransform/_MFT_PROCESS_OUTPUT_FLAGS
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

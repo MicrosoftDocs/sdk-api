@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/MIB_IPMCAST_BOUNDARY"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

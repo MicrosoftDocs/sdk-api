@@ -12,6 +12,8 @@ ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInte
 ms.topic: method
 f1_keywords: 
  - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow"
+dev_langs:
+ - c++
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows

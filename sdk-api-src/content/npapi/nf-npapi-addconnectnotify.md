@@ -12,6 +12,8 @@ ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addcon
 ms.topic: function
 f1_keywords:
 - npapi/AddConnectNotify
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

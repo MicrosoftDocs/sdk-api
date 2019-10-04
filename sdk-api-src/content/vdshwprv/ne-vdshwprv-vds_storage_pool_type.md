@@ -12,6 +12,8 @@ ms.keywords: VDS_SPT_CONCRETE, VDS_SPT_PRIMORDIAL, VDS_SPT_UNKNOWN, VDS_STORAGE_
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_STORAGE_POOL_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

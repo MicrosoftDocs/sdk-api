@@ -12,6 +12,8 @@ ms.keywords: LegacyIAccessiblePattern_GetIAccessible, LegacyIAccessiblePattern_G
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

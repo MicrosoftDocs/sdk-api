@@ -12,6 +12,8 @@ ms.keywords: CachedDefaultAction property [Windows Accessibility], CachedDefault
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

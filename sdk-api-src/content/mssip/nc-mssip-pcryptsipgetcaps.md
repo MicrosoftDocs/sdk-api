@@ -12,6 +12,8 @@ ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback
 ms.topic: callback
 f1_keywords:
 - mssip/pCryptSIPGetCaps
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

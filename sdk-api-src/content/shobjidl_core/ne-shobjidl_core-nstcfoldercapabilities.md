@@ -12,6 +12,8 @@ ms.keywords: NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERI
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/NSTCFOLDERCAPABILITIES"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

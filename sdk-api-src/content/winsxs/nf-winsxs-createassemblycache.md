@@ -12,6 +12,8 @@ ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Ass
 ms.topic: function
 f1_keywords: 
  - "winsxs/CreateAssemblyCache"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

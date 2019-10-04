@@ -12,6 +12,8 @@ ms.keywords: BerElement, BerElement structure [LDAP], _ldap_berelement, ldap.ber
 ms.topic: struct
 f1_keywords: 
  - "winldap/BerElement"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

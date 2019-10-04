@@ -12,6 +12,8 @@ ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PR
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioSetCredential"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

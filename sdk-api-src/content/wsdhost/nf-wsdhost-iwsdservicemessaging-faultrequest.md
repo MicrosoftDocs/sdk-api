@@ -12,6 +12,8 @@ ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceM
 ms.topic: method
 f1_keywords:
 - wsdhost/IWSDServiceMessaging.FaultRequest
+dev_langs:
+ - c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

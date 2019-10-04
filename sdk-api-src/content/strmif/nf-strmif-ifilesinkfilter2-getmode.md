@@ -12,6 +12,8 @@ ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IFileSinkFilter2.GetMode"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

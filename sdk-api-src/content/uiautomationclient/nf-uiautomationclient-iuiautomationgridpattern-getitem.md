@@ -12,6 +12,8 @@ ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridPattern.GetItem"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

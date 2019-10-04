@@ -12,6 +12,8 @@ ms.keywords: NetServiceEnum, NetServiceEnum function [Network Management], _win3
 ms.topic: function
 f1_keywords: 
  - "lmsvc/NetServiceEnum"
+dev_langs:
+ - c++
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

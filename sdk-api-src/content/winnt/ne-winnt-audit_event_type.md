@@ -12,6 +12,8 @@ ms.keywords: "*PAUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE enumeration
 ms.topic: enum
 f1_keywords: 
  - "winnt/AUDIT_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

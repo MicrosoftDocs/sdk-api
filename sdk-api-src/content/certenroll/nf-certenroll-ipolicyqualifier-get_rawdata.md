@@ -12,6 +12,8 @@ ms.keywords: IPolicyQualifier interface [Security],RawData property, IPolicyQual
 ms.topic: method
 f1_keywords: 
  - "certenroll/IPolicyQualifier.RawData"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

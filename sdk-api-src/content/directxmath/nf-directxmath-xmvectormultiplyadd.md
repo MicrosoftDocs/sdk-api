@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorMultiplyAdd, XMVectorMultiplyAdd, XMVectorMult
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorMultiplyAdd"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

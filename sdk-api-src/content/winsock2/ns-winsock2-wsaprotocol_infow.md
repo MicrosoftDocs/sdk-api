@@ -12,6 +12,8 @@ ms.keywords: '*LPWSAPROTOCOL_INFOW, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_
 ms.topic: struct
 f1_keywords:
 - winsock2/WSAPROTOCOL_INFOW
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

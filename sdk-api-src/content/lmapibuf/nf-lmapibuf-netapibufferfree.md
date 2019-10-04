@@ -12,6 +12,8 @@ ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _
 ms.topic: function
 f1_keywords: 
  - "lmapibuf/NetApiBufferFree"
+dev_langs:
+ - c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows

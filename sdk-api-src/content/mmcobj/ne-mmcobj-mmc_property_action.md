@@ -12,6 +12,8 @@ ms.keywords: MMC_PROPACT_CHANGING, MMC_PROPACT_DELETING, MMC_PROPACT_INITIALIZED
 ms.topic: enum
 f1_keywords:
 - mmcobj/MMC_PROPERTY_ACTION
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

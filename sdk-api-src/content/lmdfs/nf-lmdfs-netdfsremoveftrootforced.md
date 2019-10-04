@@ -12,6 +12,8 @@ ms.keywords: NetDfsRemoveFtRootForced, NetDfsRemoveFtRootForced function [Distri
 ms.topic: function
 f1_keywords: 
  - "lmdfs/NetDfsRemoveFtRootForced"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetoo
 ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpQueryUuidUnion
+dev_langs:
+ - c++
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Wr
 ms.topic: macro
 f1_keywords: 
  - "dwrite/DWRITE_MAKE_OPENTYPE_TAG"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

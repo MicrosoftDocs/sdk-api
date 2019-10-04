@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryDisconnect meth
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents3.LibraryDisconnect"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

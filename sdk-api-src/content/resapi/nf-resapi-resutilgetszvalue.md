@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetSzValue"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

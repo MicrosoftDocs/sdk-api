@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

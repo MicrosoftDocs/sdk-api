@@ -12,6 +12,8 @@ ms.keywords: 19831c51-f6c4-f65f-6ada-c90fa97f0a32, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.RSGetViewports"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

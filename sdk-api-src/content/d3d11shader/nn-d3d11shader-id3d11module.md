@@ -12,6 +12,8 @@ ms.keywords: ID3D11Module, ID3D11Module interface [Direct3D 11], ID3D11Module in
 ms.topic: interface
 f1_keywords: 
  - "d3d11shader/ID3D11Module"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

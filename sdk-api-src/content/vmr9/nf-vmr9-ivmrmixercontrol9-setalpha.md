@@ -12,6 +12,8 @@ ms.keywords: IVMRMixerControl9 interface [DirectShow],SetAlpha method, IVMRMixer
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRMixerControl9.SetAlpha"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

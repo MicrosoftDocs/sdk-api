@@ -12,6 +12,8 @@ ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DX
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIKeyedMutex.ReleaseSync"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

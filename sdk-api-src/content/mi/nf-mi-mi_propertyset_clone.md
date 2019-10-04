@@ -12,6 +12,8 @@ ms.keywords: MI_PropertySet_Clone, MI_PropertySet_Clone function [Windows Manage
 ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_Clone
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SL_GENUINE_STATE, SL_GENUINE_STATE enumeration [Security], SL_GEN_S
 ms.topic: enum
 f1_keywords: 
  - "slpublic/SL_GENUINE_STATE"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

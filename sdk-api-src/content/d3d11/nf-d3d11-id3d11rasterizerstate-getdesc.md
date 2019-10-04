@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11]
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11RasterizerState.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_DISK_NUMBER, *PCLUSPROP_DISK_SIGNATURE, *PCLUSPROP_DWOR
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_DISK_NUMBER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

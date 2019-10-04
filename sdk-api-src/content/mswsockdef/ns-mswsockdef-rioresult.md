@@ -12,6 +12,8 @@ ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], R
 ms.topic: struct
 f1_keywords: 
  - "mswsockdef/RIORESULT"
+dev_langs:
+ - c++
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows

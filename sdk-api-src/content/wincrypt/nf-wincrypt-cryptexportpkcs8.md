@@ -12,6 +12,8 @@ ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 fu
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptExportPKCS8"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

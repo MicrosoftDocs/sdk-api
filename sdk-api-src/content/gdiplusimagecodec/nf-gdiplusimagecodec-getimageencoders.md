@@ -12,6 +12,8 @@ ms.keywords: GetImageEncoders, GetImageEncoders function [GDI+], _gdiplus_FUNC_G
 ms.topic: function
 f1_keywords: 
  - "gdiplusimagecodec/GetImageEncoders"
+dev_langs:
+ - c++
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

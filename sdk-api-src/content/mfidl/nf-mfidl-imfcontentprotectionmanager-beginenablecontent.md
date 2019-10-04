@@ -12,6 +12,8 @@ ms.keywords: 2f422135-8e5f-41fb-a709-77636d1b451b, BeginEnableContent, BeginEnab
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentProtectionManager.BeginEnableContent"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

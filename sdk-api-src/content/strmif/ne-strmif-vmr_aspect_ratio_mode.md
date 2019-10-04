@@ -12,6 +12,8 @@ ms.keywords: VMR_ARMODE_LETTER_BOX, VMR_ARMODE_NONE, VMR_ASPECT_RATIO_MODE, VMR_
 ms.topic: enum
 f1_keywords: 
  - "strmif/VMR_ASPECT_RATIO_MODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPersistStorage interface [COM],InitNew method, IPersistStorage.Ini
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStorage.InitNew"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

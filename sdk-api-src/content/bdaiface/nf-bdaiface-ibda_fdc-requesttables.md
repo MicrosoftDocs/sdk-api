@@ -12,6 +12,8 @@ ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RequestTables method
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_FDC.RequestTables"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,descri
 ms.topic: interface
 f1_keywords: 
  - "mergemod/IMsmGetFiles"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

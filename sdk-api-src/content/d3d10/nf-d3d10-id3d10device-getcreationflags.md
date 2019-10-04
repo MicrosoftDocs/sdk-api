@@ -12,6 +12,8 @@ ms.keywords: 4822c55e-f89a-b10d-ccba-aa989735a00f, GetCreationFlags, GetCreation
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GetCreationFlags"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

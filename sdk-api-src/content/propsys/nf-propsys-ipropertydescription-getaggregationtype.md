@@ -12,6 +12,8 @@ ms.keywords: GetAggregationType, GetAggregationType method [Windows Properties],
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetAggregationType"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GPMSecurityInfo class [GPMC],Item property, IGPMSecurityInfo interf
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSecurityInfo.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTasks, GetTasks method [Task Scheduler], GetTasks method [Task S
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskFolder.GetTasks"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CALLCONV, CALLCONV enumeration [Automation], CC_CDECL, CC_FASTCALL,
 ms.topic: enum
 f1_keywords: 
  - "oaidl/CALLCONV"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

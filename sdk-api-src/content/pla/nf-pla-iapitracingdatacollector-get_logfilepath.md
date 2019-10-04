@@ -12,6 +12,8 @@ ms.keywords: IApiTracingDataCollector interface [PLA],LogFilePath property, IApi
 ms.topic: method
 f1_keywords: 
  - "pla/IApiTracingDataCollector.LogFilePath"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

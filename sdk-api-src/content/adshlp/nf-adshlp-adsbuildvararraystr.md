@@ -12,6 +12,8 @@ ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbu
 ms.topic: function
 f1_keywords: 
  - "adshlp/ADsBuildVarArrayStr"
+dev_langs:
+ - c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

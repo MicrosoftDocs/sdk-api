@@ -12,6 +12,8 @@ ms.keywords: "*LPREBARBANDINFOW, LPREBARBANDINFO, LPREBARBANDINFO structure poin
 ms.topic: struct
 f1_keywords: 
  - "commctrl/REBARBANDINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

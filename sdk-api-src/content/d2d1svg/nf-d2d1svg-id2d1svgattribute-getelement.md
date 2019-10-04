@@ -12,6 +12,8 @@ ms.keywords: GetElement, GetElement method [Direct2D], GetElement method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgAttribute.GetElement"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap int
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IMPEG2PIDMap"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

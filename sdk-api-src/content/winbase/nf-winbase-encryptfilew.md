@@ -12,6 +12,8 @@ ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFil
 ms.topic: function
 f1_keywords: 
  - "winbase/EncryptFile"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

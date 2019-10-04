@@ -12,6 +12,8 @@ ms.keywords: HTTP_EQUAL_VERSION, HTTP_EQUAL_VERSION macro [HTTP], _http_http_equ
 ms.topic: macro
 f1_keywords:
 - http/HTTP_EQUAL_VERSION
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFPluginControl interface [Media Foundation],SetDisabled method, I
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFPluginControl.SetDisabled
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

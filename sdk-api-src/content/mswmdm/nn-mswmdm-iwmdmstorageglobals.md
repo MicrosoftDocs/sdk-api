@@ -12,6 +12,8 @@ ms.keywords: IWMDMStorageGlobals, IWMDMStorageGlobals interface [windows Media D
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMStorageGlobals"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

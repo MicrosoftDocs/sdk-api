@@ -12,6 +12,8 @@ ms.keywords: "*LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW structure po
 ms.topic: struct
 f1_keywords: 
  - "commctrl/NMLVCUSTOMDRAW"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

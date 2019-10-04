@@ -12,6 +12,8 @@ ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], codeca
 ms.topic: struct
 f1_keywords: 
  - "wmcodecdsp/TOC_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

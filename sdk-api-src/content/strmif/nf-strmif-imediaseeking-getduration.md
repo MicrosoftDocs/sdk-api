@@ -12,6 +12,8 @@ ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [D
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSeeking.GetDuration"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

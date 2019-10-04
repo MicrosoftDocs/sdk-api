@@ -12,6 +12,8 @@ ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuse
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetUserDel"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

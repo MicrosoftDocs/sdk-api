@@ -12,6 +12,8 @@ ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],Set
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionLinearTransferEffect.SetAlphaSlope"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

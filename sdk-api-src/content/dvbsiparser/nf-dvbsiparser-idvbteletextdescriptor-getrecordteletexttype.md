@@ -12,6 +12,8 @@ ms.keywords: GetRecordTeletextType, GetRecordTeletextType method [Microsoft TV T
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbTeletextDescriptor.GetRecordTeletextType"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

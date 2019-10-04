@@ -12,6 +12,8 @@ ms.keywords: IOCSPCAConfiguration interface [Security],LocalRevocationInformatio
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.LocalRevocationInformation"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

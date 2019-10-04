@@ -12,6 +12,8 @@ ms.keywords: ListView_GetFooterItemRect, ListView_GetFooterItemRect macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetFooterItemRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Text Services Framework], GetText method [
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.GetText"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

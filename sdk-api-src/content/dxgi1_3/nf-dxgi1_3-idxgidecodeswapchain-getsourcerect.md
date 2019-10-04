@@ -12,6 +12,8 @@ ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [D
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIDecodeSwapChain.GetSourceRect"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

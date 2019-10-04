@@ -12,6 +12,8 @@ ms.keywords: "*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "ipexport/IP_INTERFACE_INFO"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_FEATURE_DATA_DOUBLES, D3D11_FEATURE_DATA_DOUBLES structure [D
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_FEATURE_DATA_DOUBLES"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

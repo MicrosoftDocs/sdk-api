@@ -12,6 +12,8 @@ ms.keywords: DrawnBox property [Tablet PC], DrawnBox property [Tablet PC],IInkRe
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerGuide.DrawnBox"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

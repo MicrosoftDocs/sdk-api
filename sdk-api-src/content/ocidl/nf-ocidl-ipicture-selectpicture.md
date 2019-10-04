@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],SelectPicture method, IPicture.SelectPictu
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.SelectPicture"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlwa
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.GetRedrawAlways"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

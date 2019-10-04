@@ -12,6 +12,8 @@ ms.keywords: GetHoldPage, GetHoldPage method [DirectShow], GetHoldPage method [D
 ms.topic: method
 f1_keywords: 
  - "iwstdec/IAMWstDecoder.GetHoldPage"
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

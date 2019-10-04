@@ -12,6 +12,8 @@ ms.keywords: LsaRegisterLogonProcess, LsaRegisterLogonProcess function [Security
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaRegisterLogonProcess
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

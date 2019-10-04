@@ -12,6 +12,8 @@ ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGrouping
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.GetGroupingParam"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

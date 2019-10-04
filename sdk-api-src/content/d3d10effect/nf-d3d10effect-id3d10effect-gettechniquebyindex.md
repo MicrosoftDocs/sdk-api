@@ -12,6 +12,8 @@ ms.keywords: GetTechniqueByIndex, GetTechniqueByIndex method [Direct3D 10], GetT
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.GetTechniqueByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCellMargin, GetCellMargin method [Windows Controls], GetCellMarg
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellMargin"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

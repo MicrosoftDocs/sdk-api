@@ -12,6 +12,8 @@ ms.keywords: "*PTCP_ESTATS_TYPE, TCP_ESTATS_TYPE, TCP_ESTATS_TYPE enumeration [I
 ms.topic: enum
 f1_keywords: 
  - "tcpestats/TCP_ESTATS_TYPE"
+dev_langs:
+ - c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows

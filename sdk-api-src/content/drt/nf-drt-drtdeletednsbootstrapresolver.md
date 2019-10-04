@@ -12,6 +12,8 @@ ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver functi
 ms.topic: function
 f1_keywords: 
  - "drt/DrtDeleteDnsBootstrapResolver"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

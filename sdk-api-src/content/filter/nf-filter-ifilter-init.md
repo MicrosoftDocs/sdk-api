@@ -12,6 +12,8 @@ ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFi
 ms.topic: method
 f1_keywords: 
  - "filter/IFilter.Init"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

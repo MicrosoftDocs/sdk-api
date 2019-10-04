@@ -12,6 +12,8 @@ ms.keywords: OPC_SIGNATURE_INVALID, OPC_SIGNATURE_VALID, OPC_SIGNATURE_VALIDATIO
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_SIGNATURE_VALIDATION_RESULT"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateContext, CreateContext method [Text Services Framework], Crea
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfDocumentMgr.CreateContext"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_expor
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/ExportNtmsDatabase"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

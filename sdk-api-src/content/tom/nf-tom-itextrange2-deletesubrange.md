@@ -12,6 +12,8 @@ ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSub
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.DeleteSubrange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

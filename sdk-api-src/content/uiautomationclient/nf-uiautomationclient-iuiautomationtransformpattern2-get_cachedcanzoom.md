@@ -12,6 +12,8 @@ ms.keywords: CachedCanZoom property [Windows Accessibility], CachedCanZoom prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern2.CachedCanZoom"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

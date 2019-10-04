@@ -12,6 +12,8 @@ ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Te
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/ATSC_FILTER_OPTIONS"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: Mpeg2data.h
 req.target-type: Windows

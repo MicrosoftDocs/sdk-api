@@ -12,6 +12,8 @@ ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtim
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetInterfaceImplProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

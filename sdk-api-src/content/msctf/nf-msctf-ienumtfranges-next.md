@@ -12,6 +12,8 @@ ms.keywords: IEnumTfRanges interface [Text Services Framework],Next method, IEnu
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfRanges.Next"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

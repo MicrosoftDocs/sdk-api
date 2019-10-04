@@ -12,6 +12,8 @@ ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, M
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMediaBufferWrapper"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

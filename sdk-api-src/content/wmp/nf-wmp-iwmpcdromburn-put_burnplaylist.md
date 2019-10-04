@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnPlaylist met
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromBurn.put_burnPlaylist"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

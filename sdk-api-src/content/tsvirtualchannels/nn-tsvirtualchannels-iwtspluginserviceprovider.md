@@ -12,6 +12,8 @@ ms.keywords: IWTSPluginServiceProvider, IWTSPluginServiceProvider interface [Rem
 ms.topic: interface
 f1_keywords: 
  - "tsvirtualchannels/IWTSPluginServiceProvider"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

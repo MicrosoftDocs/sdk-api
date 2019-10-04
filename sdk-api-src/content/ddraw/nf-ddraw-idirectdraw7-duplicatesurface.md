@@ -12,6 +12,8 @@ ms.keywords: DuplicateSurface, DuplicateSurface method [DirectDraw], DuplicateSu
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.DuplicateSurface"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

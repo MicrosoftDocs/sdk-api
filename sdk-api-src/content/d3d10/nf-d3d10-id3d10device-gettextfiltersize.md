@@ -12,6 +12,8 @@ ms.keywords: 17c84de7-9714-f15b-6e79-288beb4a3193, GetTextFilterSize, GetTextFil
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GetTextFilterSize"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

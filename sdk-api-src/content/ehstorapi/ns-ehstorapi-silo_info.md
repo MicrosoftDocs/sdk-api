@@ -12,6 +12,8 @@ ms.keywords: PSILO_INFO, PSILO_INFO structure pointer [Enhanced Storage], SILO_I
 ms.topic: struct
 f1_keywords: 
  - "ehstorapi/SILO_INFO"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_capFileAlloc, capFileAlloc, capFileAlloc macro [Windows Mul
 ms.topic: macro
 f1_keywords: 
  - "vfw/capFileAlloc"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, 
 ms.topic: function
 f1_keywords: 
  - "libloaderapi2/QueryOptionalDelayLoadedAPI"
+dev_langs:
+ - c++
 req.header: libloaderapi2.h
 req.include-header: 
 req.target-type: Windows

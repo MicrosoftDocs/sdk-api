@@ -12,6 +12,8 @@ ms.keywords: 4f0a160b-254f-303d-968b-d35d73102d48, D3D10_RAISE_FLAG, D3D10_RAISE
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_RAISE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

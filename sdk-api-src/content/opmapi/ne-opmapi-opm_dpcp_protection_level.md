@@ -12,6 +12,8 @@ ms.keywords: OPM_DPCP_FORCE_ULONG, OPM_DPCP_OFF, OPM_DPCP_ON, OPM_DPCP_PROTECTIO
 ms.topic: enum
 f1_keywords: 
  - "opmapi/OPM_DPCP_PROTECTION_LEVEL"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

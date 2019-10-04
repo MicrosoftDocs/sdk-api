@@ -12,6 +12,8 @@ ms.keywords: "_win32_capPreviewRate, capPreviewRate, capPreviewRate macro [Windo
 ms.topic: macro
 f1_keywords: 
  - "vfw/capPreviewRate"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

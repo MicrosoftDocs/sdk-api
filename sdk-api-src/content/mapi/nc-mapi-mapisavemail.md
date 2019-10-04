@@ -12,6 +12,8 @@ ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPISaveMail"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

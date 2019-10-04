@@ -12,6 +12,8 @@ ms.keywords: IValidate interface,SetDisplay method, IValidate.SetDisplay, IValid
 ms.topic: method
 f1_keywords: 
  - "evalcom2/IValidate.SetDisplay"
+dev_langs:
+ - c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

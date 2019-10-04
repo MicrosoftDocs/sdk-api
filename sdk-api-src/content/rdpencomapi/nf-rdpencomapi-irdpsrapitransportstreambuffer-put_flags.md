@@ -12,6 +12,8 @@ ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPITransportStream
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

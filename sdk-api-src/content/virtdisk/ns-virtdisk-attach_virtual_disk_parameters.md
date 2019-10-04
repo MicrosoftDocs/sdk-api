@@ -12,6 +12,8 @@ ms.keywords: "*PATTACH_VIRTUAL_DISK_PARAMETERS, ATTACH_VIRTUAL_DISK_PARAMETERS, 
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/ATTACH_VIRTUAL_DISK_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

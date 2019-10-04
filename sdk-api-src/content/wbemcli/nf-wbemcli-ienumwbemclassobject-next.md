@@ -12,6 +12,8 @@ ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation]
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IEnumWbemClassObject.Next"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

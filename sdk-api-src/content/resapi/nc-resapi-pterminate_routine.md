@@ -12,6 +12,8 @@ ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover 
 ms.topic: callback
 f1_keywords: 
  - "resapi/Terminate"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

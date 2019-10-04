@@ -12,6 +12,8 @@ ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdsclientapi/WdsCliCreateSession"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

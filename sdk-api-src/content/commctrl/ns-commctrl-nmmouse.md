@@ -12,6 +12,8 @@ ms.keywords: '*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Contro
 ms.topic: struct
 f1_keywords:
 - commctrl/NMMOUSE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

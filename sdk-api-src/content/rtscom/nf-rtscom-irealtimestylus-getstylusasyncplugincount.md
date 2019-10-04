@@ -12,6 +12,8 @@ ms.keywords: 45861b92-0a2c-42ec-96e5-c3afd45e0e85, GetStylusAsyncPluginCount, Ge
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.GetStylusAsyncPluginCount"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument2.GetProperty"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

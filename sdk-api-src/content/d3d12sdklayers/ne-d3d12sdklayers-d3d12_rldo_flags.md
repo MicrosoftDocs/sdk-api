@@ -12,6 +12,8 @@ ms.keywords: D3D12_RLDO_DETAIL, D3D12_RLDO_FLAGS, D3D12_RLDO_FLAGS enumeration, 
 ms.topic: enum
 f1_keywords: 
  - "d3d12sdklayers/D3D12_RLDO_FLAGS"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

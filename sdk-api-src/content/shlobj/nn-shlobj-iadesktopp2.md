@@ -12,6 +12,8 @@ ms.keywords: IADesktopP2, IADesktopP2 interface [Legacy Windows Environment Feat
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IADesktopP2"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

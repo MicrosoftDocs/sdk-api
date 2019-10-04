@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber
 ms.topic: function
 f1_keywords: 
  - "winber/ber_printf"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

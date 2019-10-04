@@ -12,6 +12,8 @@ ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Contains metho
 ms.topic: method
 f1_keywords: 
  - "directxcollision/BoundingSphere.Contains"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

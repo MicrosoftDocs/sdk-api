@@ -12,6 +12,8 @@ ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, I
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProviderNotify.Add"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

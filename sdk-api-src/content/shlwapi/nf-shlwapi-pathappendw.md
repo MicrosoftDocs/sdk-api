@@ -12,6 +12,8 @@ ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathA
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathAppend"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

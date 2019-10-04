@@ -12,6 +12,8 @@ ms.keywords: IBDA_IPV6Filter interface [Microsoft TV Technologies],PutMulticastM
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_IPV6Filter.PutMulticastMode"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

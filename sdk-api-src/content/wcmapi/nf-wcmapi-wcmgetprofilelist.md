@@ -12,6 +12,8 @@ ms.keywords: WcmGetProfileList, WcmGetProfileList function [Windows Connection M
 ms.topic: function
 f1_keywords:
 - wcmapi/WcmGetProfileList
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

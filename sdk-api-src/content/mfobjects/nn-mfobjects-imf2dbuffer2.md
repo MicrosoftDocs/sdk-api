@@ -12,6 +12,8 @@ ms.keywords: IMF2DBuffer2, IMF2DBuffer2 interface [Media Foundation], IMF2DBuffe
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMF2DBuffer2"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

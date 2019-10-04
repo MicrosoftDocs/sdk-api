@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListe
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolListener.StopListen"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

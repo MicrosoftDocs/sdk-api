@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault m
 ms.topic: method
 f1_keywords: 
  - "audioendpoints/IAudioEndpointFormatControl.ResetToDefault"
+dev_langs:
+ - c++
 req.header: audioendpoints.h
 req.include-header: 
 req.target-type: Windows

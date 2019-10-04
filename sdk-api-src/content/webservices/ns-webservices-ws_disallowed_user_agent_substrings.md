@@ -12,6 +12,8 @@ ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBST
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

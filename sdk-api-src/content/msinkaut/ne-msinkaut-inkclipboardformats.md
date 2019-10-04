@@ -12,6 +12,8 @@ ms.keywords: ICF_Bitmap, ICF_CopyMask, ICF_Default, ICF_EnhancedMetafile, ICF_In
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkClipboardFormatFlags"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

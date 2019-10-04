@@ -12,6 +12,8 @@ ms.keywords: GetTimingReport, GetTimingReport function [Monitor Configuration], 
 ms.topic: function
 f1_keywords: 
  - "lowlevelmonitorconfigurationapi/GetTimingReport"
+dev_langs:
+ - c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

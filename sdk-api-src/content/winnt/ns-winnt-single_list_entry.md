@@ -12,6 +12,8 @@ ms.keywords: "*PSINGLE_LIST_ENTRY, *PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY str
 ms.topic: struct
 f1_keywords: 
  - "winnt/SLIST_ENTRY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

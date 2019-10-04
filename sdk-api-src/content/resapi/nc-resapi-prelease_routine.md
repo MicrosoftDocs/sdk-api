@@ -12,6 +12,8 @@ ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callb
 ms.topic: callback
 f1_keywords: 
  - "resapi/Release"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

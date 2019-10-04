@@ -12,6 +12,8 @@ ms.keywords: MI_Class_Clone, MI_Class_Clone function [Windows Management Infrast
 ms.topic: function
 f1_keywords:
 - mi/MI_Class_Clone
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

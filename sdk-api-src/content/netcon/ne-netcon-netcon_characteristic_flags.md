@@ -12,6 +12,8 @@ ms.keywords: NCCF_ALLOW_DUPLICATION, NCCF_ALLOW_REMOVAL, NCCF_ALLOW_RENAME, NCCF
 ms.topic: enum
 f1_keywords: 
  - "netcon/NETCON_CHARACTERISTIC_FLAGS"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

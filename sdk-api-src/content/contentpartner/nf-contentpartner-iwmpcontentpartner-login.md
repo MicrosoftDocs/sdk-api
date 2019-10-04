@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartner interface [Windows Media Player],Login method, I
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.Login"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

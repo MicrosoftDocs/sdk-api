@@ -12,6 +12,8 @@ ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGe
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFGetSupportedMimeTypes"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

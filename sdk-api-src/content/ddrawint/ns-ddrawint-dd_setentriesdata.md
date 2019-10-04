@@ -12,6 +12,8 @@ ms.keywords: '*PDD_SETENTRIESDATA, DD_SETENTRIESDATA, DD_SETENTRIESDATA structur
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SETENTRIESDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

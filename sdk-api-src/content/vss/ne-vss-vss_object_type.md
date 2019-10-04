@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE, PVSS_OBJECT_TYPE enumeration 
 ms.topic: enum
 f1_keywords:
 - vss/VSS_OBJECT_TYPE
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

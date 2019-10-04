@@ -12,6 +12,8 @@ ms.keywords: IInkTablet3 interface [Tablet PC],MaximumCursors property, IInkTabl
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTablet3.MaximumCursors"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

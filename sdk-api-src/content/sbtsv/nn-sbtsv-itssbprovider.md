@@ -12,6 +12,8 @@ ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], I
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbProvider"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

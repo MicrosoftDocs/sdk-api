@@ -12,6 +12,8 @@ ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_GetDescriptor"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

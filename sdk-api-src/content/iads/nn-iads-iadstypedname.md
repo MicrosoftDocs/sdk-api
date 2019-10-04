@@ -12,6 +12,8 @@ ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interf
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsTypedName"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

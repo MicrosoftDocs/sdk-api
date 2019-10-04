@@ -12,6 +12,8 @@ ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILE
 ms.topic: function
 f1_keywords: 
  - "winbase/WriteTapemark"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

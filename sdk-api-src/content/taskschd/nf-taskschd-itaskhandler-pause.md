@@ -12,6 +12,8 @@ ms.keywords: ITaskHandler interface [Task Scheduler],Pause method, ITaskHandler.
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskHandler.Pause"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

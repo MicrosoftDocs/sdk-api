@@ -12,6 +12,8 @@ ms.keywords: WbemCimTypeEnum, WbemCimTypeEnum enumeration [Windows Management In
 ms.topic: enum
 f1_keywords: 
  - "wbemdisp/WbemCimTypeEnum"
+dev_langs:
+ - c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows

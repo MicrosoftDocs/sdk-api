@@ -12,6 +12,8 @@ ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMT
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTVASYNCDRAW
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

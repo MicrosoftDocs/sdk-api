@@ -12,6 +12,8 @@ ms.keywords: GetItemCount, GetItemCount method [windows Media Device Manager], G
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMMetaData.GetItemCount"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

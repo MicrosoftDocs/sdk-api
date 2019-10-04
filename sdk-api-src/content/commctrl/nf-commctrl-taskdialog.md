@@ -12,6 +12,8 @@ ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_
 ms.topic: function
 f1_keywords: 
  - "commctrl/TaskDialog"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows

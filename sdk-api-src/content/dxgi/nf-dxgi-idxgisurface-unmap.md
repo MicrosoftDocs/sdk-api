@@ -12,6 +12,8 @@ ms.keywords: 72e0302e-2a02-c42b-8a5c-609c0e5f562a, IDXGISurface interface [DXGI]
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISurface.Unmap"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

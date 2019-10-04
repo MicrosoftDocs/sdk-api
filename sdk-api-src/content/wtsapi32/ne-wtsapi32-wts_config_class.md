@@ -12,6 +12,8 @@ ms.keywords: WTSUserConfigBrokenTimeoutSettings, WTSUserConfigInitialProgram, WT
 ms.topic: enum
 f1_keywords:
 - wtsapi32/WTS_CONFIG_CLASS
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

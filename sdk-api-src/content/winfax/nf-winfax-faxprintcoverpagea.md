@@ -12,6 +12,8 @@ ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPri
 ms.topic: function
 f1_keywords:
 - winfax/FaxPrintCoverPage
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

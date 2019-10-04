@@ -12,6 +12,8 @@ ms.keywords: AzAuthorizationStore object [Security],TargetMachine property, IAzA
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore.TargetMachine"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

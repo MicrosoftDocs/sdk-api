@@ -12,6 +12,8 @@ ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponentData2 interface 
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponentData2.QueryDispatch"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

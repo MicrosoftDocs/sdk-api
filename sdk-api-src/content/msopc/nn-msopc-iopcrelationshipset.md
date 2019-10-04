@@ -12,6 +12,8 @@ ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging 
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcRelationshipSet"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

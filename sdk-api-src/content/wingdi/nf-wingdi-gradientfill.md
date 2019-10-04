@@ -12,6 +12,8 @@ ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE,
 ms.topic: function
 f1_keywords:
 - wingdi/GradientFill
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

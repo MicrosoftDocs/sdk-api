@@ -12,6 +12,8 @@ ms.keywords: FILEMUIINFO_GET_MAIN_TYPENAMES, FILEMUIINFO_GET_MAIN_TYPENAMES macr
 ms.topic: macro
 f1_keywords:
 - winnls/FILEMUIINFO_GET_MAIN_TYPENAMES
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

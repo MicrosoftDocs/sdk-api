@@ -12,6 +12,8 @@ ms.keywords: GetOwnerModuleFromUdp6Entry, GetOwnerModuleFromUdp6Entry function [
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetOwnerModuleFromUdp6Entry
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

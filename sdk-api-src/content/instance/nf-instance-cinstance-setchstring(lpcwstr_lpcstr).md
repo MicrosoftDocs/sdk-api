@@ -12,6 +12,8 @@ ms.keywords: "?SetCHString@CInstance@@QAE_NPBG0@Z, ?SetCHString@CInstance@@QAE_N
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetCHString"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR fu
 ms.topic: function
 f1_keywords: 
  - "physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"
+dev_langs:
+ - c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

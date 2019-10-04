@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Media Library Sharing Serv
 ms.topic: method
 f1_keywords: 
  - "wmlss/IWindowsMediaLibrarySharingDeviceProperties.GetProperty"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

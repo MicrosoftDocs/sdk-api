@@ -12,6 +12,8 @@ ms.keywords: "*PPDH_RAW_LOG_RECORD, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_L
 ms.topic: struct
 f1_keywords: 
  - "pdh/PDH_RAW_LOG_RECORD"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

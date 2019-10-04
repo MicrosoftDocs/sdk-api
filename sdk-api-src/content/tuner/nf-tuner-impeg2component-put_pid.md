@@ -12,6 +12,8 @@ ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PID metho
 ms.topic: method
 f1_keywords: 
  - "tuner/IMPEG2Component.put_PID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

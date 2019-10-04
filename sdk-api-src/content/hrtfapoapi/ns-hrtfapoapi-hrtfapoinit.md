@@ -12,6 +12,8 @@ ms.keywords: HrtfApoInit, HrtfApoInit structure [XAudio2 Audio Mixing APIs], PHr
 ms.topic: struct
 f1_keywords: 
  - "hrtfapoapi/HrtfApoInit"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

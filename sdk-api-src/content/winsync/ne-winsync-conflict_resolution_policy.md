@@ -12,6 +12,8 @@ ms.keywords: CONFLICT_RESOLUTION_POLICY, CONFLICT_RESOLUTION_POLICY enumeration 
 ms.topic: enum
 f1_keywords: 
  - "winsync/CONFLICT_RESOLUTION_POLICY"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

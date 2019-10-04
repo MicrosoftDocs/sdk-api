@@ -12,6 +12,8 @@ ms.keywords: IDesktopWallpaper interface [Windows Shell],SetPosition method, IDe
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDesktopWallpaper.SetPosition"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

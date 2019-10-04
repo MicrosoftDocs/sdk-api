@@ -12,6 +12,8 @@ ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetAlignment"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

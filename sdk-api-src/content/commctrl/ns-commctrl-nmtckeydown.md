@@ -12,6 +12,8 @@ ms.keywords: NMTCKEYDOWN, NMTCKEYDOWN structure [Windows Controls], _win32_NMTCK
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTCKEYDOWN
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

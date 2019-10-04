@@ -12,6 +12,8 @@ ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolo
 ms.topic: interface
 f1_keywords: 
  - "holographicspaceinterop/IHolographicSpaceInterop"
+dev_langs:
+ - c++
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows

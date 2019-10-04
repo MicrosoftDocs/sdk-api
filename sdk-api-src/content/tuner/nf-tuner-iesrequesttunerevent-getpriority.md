@@ -12,6 +12,8 @@ ms.keywords: GetPriority, GetPriority method [Microsoft TV Technologies], GetPri
 ms.topic: method
 f1_keywords: 
  - "tuner/IESRequestTunerEvent.GetPriority"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

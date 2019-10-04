@@ -12,6 +12,8 @@ ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "smbclnt/RegisterAppInstance"
+dev_langs:
+ - c++
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows

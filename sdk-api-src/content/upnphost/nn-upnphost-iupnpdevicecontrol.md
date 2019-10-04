@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnP
 ms.topic: interface
 f1_keywords: 
  - "upnphost/IUPnPDeviceControl"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

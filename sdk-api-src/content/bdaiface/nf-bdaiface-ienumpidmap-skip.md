@@ -12,6 +12,8 @@ ms.keywords: IEnumPIDMap interface [DirectShow],Skip method, IEnumPIDMap.Skip, I
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IEnumPIDMap.Skip"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

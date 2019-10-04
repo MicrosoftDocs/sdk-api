@@ -12,6 +12,8 @@ ms.keywords: FSCTL_FILE_LEVEL_TRIM, FSCTL_FILE_LEVEL_TRIM control, FSCTL_FILE_LE
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_FILE_LEVEL_TRIM
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DefDlgProc, DefDlgProc function [Dialog Boxes], DefDlgProcW, _win32
 ms.topic: function
 f1_keywords: 
  - "winuser/DefDlgProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

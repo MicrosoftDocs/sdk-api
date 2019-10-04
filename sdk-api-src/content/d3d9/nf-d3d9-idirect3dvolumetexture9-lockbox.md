@@ -12,6 +12,8 @@ ms.keywords: 9be8529a-2a7d-01f2-cddd-e44589e88cfe, IDirect3DVolumeTexture9 inter
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DVolumeTexture9.LockBox"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

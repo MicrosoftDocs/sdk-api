@@ -12,6 +12,8 @@ ms.keywords: IWMPErrorItem interface [Windows Media Player],get_remedy method, I
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPErrorItem.get_remedy"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

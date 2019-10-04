@@ -12,6 +12,8 @@ ms.keywords: AddDeviceDlg, AddDeviceDlg method [WIA], AddDeviceDlg method [WIA],
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaDevMgr.AddDeviceDlg"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

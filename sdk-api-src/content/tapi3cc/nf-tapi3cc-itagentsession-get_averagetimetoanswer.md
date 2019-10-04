@@ -12,6 +12,8 @@ ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTimeToAnswer method,
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgentSession.get_AverageTimeToAnswer"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

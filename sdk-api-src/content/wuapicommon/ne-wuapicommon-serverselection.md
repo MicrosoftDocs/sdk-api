@@ -12,6 +12,8 @@ ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent]
 ms.topic: enum
 f1_keywords: 
  - "wuapicommon/ServerSelection"
+dev_langs:
+ - c++
 req.header: wuapicommon.h
 req.include-header: Wuapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMMediaStream interface [DirectShow],JoinAMMultiMediaStream method
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaStream.JoinAMMultiMediaStream"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

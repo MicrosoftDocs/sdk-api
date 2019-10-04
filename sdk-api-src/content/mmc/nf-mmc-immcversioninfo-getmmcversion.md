@@ -12,6 +12,8 @@ ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MM
 ms.topic: method
 f1_keywords: 
  - "mmc/IMMCVersionInfo.GetMMCVersion"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SFVM_PROPPAGE_DATA"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -5,6 +5,10 @@ description: Contains information that the OLE User Interface Library uses to in
 ms.date: 4/26/2019
 ms.keywords: tagOLEUICHANGEICONW, OLEUICHANGEICONW
 ms.topic: language-reference
+f1_keywords:
+ - tagOLEUICHANGEICONW
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TY
 ms.topic: enum
 f1_keywords:
 - vsmgmt/VSS_MGMT_OBJECT_TYPE
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

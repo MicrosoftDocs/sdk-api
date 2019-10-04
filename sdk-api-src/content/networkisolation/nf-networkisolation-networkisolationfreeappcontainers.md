@@ -12,6 +12,8 @@ ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainer
 ms.topic: function
 f1_keywords:
 - networkisolation/NetworkIsolationFreeAppContainers
+dev_langs:
+ - c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

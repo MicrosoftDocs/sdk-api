@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_INTEGRITY_INFORMATION, FSCTL_GET_INTEGRITY_INFORMATION co
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_GET_INTEGRITY_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

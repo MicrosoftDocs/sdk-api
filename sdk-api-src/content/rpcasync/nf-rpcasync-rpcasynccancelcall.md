@@ -12,6 +12,8 @@ ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasyn
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncCancelCall
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

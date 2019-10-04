@@ -12,6 +12,8 @@ ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE,
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTEmbedFontEx"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

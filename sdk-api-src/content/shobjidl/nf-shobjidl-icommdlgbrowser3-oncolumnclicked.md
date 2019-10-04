@@ -12,6 +12,8 @@ ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ICommDlgBrowser3.OnColumnClicked"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

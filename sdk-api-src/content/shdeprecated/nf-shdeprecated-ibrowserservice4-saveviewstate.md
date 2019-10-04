@@ -12,6 +12,8 @@ ms.keywords: IBrowserService4 interface [Windows Shell],SaveViewState method, IB
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService4.SaveViewState"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

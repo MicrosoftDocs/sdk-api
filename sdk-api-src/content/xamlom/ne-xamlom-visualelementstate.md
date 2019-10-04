@@ -12,6 +12,8 @@ ms.keywords: ErrorInvalidResource, ErrorResolved, ErrorResourceNotFound, VisualE
 ms.topic: enum
 f1_keywords: 
  - "xamlom/VisualElementState"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

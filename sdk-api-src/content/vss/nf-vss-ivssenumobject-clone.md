@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interf
 ms.topic: method
 f1_keywords:
 - vss/IVssEnumObject.Clone
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

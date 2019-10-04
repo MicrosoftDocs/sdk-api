@@ -12,6 +12,8 @@ ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.PolylineCusps"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

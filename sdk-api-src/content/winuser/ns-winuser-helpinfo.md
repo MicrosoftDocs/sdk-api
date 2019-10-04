@@ -12,6 +12,8 @@ ms.keywords: "*LPHELPINFO, HELPINFO, HELPINFO structure [Windows Shell], HELPINF
 ms.topic: struct
 f1_keywords: 
  - "winuser/HELPINFO"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

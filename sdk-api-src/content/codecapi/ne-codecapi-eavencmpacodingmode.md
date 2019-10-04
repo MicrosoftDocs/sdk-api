@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPACodingMode, codecapi/eAVEncMPACodingMode_DualChan
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPACodingMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

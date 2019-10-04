@@ -12,6 +12,8 @@ ms.keywords: MprAdminServerSetInfoEx, MprAdminServerSetInfoEx function [RAS], mp
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminServerSetInfoEx
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Internationalization for Windows Application
 ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.Create
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPSERVICE_INFOW, *PSERVICE_INFOW, RESOURCEDISPLAYTYPE_DOMAIN, RES
 ms.topic: struct
 f1_keywords:
 - nspapi/SERVICE_INFO
+dev_langs:
+ - c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

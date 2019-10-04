@@ -12,6 +12,8 @@ ms.keywords: D3D10_MESSAGE_SEVERITY, D3D10_MESSAGE_SEVERITY enumeration [Direct3
 ms.topic: enum
 f1_keywords: 
  - "d3d10sdklayers/D3D10_MESSAGE_SEVERITY"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

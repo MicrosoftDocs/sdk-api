@@ -12,6 +12,8 @@ ms.keywords: ICM_DONE_OUTSIDEDC, ICM_OFF, ICM_ON, ICM_QUERY, SetICMMode, SetICMM
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetICMMode"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

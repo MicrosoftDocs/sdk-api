@@ -12,6 +12,8 @@ ms.keywords: "_win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay 
 ms.topic: macro
 f1_keywords: 
  - "vfw/capDlgVideoDisplay"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

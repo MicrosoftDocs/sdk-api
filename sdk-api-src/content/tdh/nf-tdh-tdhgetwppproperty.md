@@ -12,6 +12,8 @@ ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppp
 ms.topic: function
 f1_keywords:
 - tdh/TdhGetWppProperty
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

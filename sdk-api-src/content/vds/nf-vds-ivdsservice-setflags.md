@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],SetFlags method, IVdsService.SetFlags, 
 ms.topic: method
 f1_keywords:
 - vds/IVdsService.SetFlags
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

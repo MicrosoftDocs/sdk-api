@@ -12,6 +12,8 @@ ms.keywords: CCertView object [Security],SetResultColumn method, ICertView inter
 ms.topic: method
 f1_keywords: 
  - "certview/ICertView2.SetResultColumn"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

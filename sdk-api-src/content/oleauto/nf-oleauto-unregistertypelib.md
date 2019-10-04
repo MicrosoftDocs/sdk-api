@@ -12,6 +12,8 @@ ms.keywords: UnRegisterTypeLib, UnRegisterTypeLib function [Automation], _oa96_U
 ms.topic: function
 f1_keywords: 
  - "oleauto/UnRegisterTypeLib"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

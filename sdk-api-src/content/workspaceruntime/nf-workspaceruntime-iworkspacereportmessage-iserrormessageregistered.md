@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],IsError
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceReportMessage.IsErrorMessageRegistered"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

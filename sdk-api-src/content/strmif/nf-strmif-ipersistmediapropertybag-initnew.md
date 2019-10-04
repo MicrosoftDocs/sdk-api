@@ -12,6 +12,8 @@ ms.keywords: IPersistMediaPropertyBag interface [DirectShow],InitNew method, IPe
 ms.topic: method
 f1_keywords: 
  - "strmif/IPersistMediaPropertyBag.InitNew"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

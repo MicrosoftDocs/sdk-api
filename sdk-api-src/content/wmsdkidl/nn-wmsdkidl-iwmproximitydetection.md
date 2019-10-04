@@ -12,6 +12,8 @@ ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Med
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMProximityDetection"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

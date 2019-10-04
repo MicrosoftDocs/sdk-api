@@ -12,6 +12,8 @@ ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File Sys
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetSecurity
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

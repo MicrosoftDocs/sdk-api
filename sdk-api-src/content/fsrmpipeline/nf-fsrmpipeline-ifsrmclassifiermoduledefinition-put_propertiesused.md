@@ -12,6 +12,8 @@ ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Man
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassifierModuleDefinition.PropertiesUsed"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

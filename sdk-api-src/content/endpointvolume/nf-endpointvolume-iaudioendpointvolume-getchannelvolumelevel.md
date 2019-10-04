@@ -12,6 +12,8 @@ ms.keywords: GetChannelVolumeLevel, GetChannelVolumeLevel method [Core Audio], G
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

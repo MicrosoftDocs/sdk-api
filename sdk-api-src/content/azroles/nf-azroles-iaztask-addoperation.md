@@ -12,6 +12,8 @@ ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.AddOperation"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

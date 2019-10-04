@@ -12,6 +12,8 @@ ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVs
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function
 ms.topic: function
 f1_keywords: 
  - "fhsvcctl/FhServiceReloadConfiguration"
+dev_langs:
+ - c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

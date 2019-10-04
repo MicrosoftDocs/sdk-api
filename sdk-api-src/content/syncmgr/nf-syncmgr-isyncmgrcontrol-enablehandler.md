@@ -12,6 +12,8 @@ ms.keywords: EnableHandler, EnableHandler method [Windows Shell], EnableHandler 
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrControl.EnableHandler"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

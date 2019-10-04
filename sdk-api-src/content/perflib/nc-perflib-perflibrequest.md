@@ -12,6 +12,8 @@ ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBR
 ms.topic: callback
 f1_keywords:
 - perflib/ControlCallback
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

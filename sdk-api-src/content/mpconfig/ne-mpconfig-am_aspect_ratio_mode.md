@@ -12,6 +12,8 @@ ms.keywords: AM_ARMODE_CROP, AM_ARMODE_LETTER_BOX, AM_ARMODE_STRETCHED, AM_ARMOD
 ms.topic: enum
 f1_keywords: 
  - "mpconfig/AM_ASPECT_RATIO_MODE"
+dev_langs:
+ - c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows

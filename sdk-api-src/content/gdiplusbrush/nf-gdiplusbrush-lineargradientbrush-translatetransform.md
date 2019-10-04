@@ -12,6 +12,8 @@ ms.keywords: LinearGradientBrush class [GDI+],TranslateTransform method, LinearG
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/LinearGradientBrush.TranslateTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

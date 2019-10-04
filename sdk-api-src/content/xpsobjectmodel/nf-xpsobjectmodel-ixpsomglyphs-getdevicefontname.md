@@ -12,6 +12,8 @@ ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Pack
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.GetDeviceFontName"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

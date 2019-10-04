@@ -12,6 +12,8 @@ ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Inde
 ms.topic: method
 f1_keywords: 
  - "filter/IFilter.GetChunk"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

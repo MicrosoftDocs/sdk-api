@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationSynchronizedInputPattern interface [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSynchronizedInputPattern.StartListening"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

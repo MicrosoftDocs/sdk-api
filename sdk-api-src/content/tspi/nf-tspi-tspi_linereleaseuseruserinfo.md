@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineReleaseUserUserInfo, TSPI_lineReleaseUserUserInfo function
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineReleaseUserUserInfo"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

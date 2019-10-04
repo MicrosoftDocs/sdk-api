@@ -12,6 +12,8 @@ ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin i
 ms.topic: interface
 f1_keywords: 
  - "rtscom/IStylusPlugin"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

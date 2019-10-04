@@ -12,6 +12,8 @@ ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFont3.GetLocality"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

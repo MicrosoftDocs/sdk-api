@@ -12,6 +12,8 @@ ms.keywords: IContactProperties interface [Windows Contacts],SetString method, I
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.SetString"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

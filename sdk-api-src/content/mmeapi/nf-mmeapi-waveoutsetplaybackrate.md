@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutSetPlaybackRate, mmeapi/waveOutSetPlaybackRate, mult
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutSetPlaybackRate"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

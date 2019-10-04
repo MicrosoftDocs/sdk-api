@@ -12,6 +12,8 @@ ms.keywords: ITextRange interface [Windows Controls],SetRange method, ITextRange
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.SetRange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

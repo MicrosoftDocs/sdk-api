@@ -12,6 +12,8 @@ ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwn
 ms.topic: function
 f1_keywords: 
  - "dcomp/DCompositionAttachMouseDragToHwnd"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

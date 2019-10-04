@@ -12,6 +12,8 @@ ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.
 ms.topic: method
 f1_keywords:
 - vds/IVdsHbaPort.SetAllPathStatuses
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

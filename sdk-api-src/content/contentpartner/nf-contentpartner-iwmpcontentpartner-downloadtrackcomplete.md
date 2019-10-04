@@ -12,6 +12,8 @@ ms.keywords: DownloadTrackComplete, DownloadTrackComplete method [Windows Media 
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.DownloadTrackComplete"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

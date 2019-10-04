@@ -12,6 +12,8 @@ ms.keywords: "*LPSECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, PSECURITY_CAPAB
 ms.topic: struct
 f1_keywords: 
  - "winnt/SECURITY_CAPABILITIES"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

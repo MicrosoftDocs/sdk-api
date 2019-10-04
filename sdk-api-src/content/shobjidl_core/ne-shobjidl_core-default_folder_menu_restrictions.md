@@ -12,6 +12,8 @@ ms.keywords: DEFAULT_FOLDER_MENU_RESTRICTIONS, DEFAULT_FOLDER_MENU_RESTRICTIONS 
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/DEFAULT_FOLDER_MENU_RESTRICTIONS"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

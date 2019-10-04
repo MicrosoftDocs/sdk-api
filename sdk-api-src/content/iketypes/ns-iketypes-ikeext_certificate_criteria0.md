@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_CERTIFICATE_CRITERIA0, IKEEXT_CERTIFICATE_CRITERIA0 structur
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_CERTIFICATE_CRITERIA0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 624ec55f-8325-5294-526a-89138f1d7331, IDXGIKeyedMutex, IDXGIKeyedMu
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIKeyedMutex"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback, Geo_EnumNameProc callb
 ms.topic: callback
 f1_keywords: 
  - "winnls/Geo_EnumNameProc"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

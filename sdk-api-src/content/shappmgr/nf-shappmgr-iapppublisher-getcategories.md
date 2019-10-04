@@ -12,6 +12,8 @@ ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories 
 ms.topic: method
 f1_keywords:
 - shappmgr/IAppPublisher.GetCategories
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

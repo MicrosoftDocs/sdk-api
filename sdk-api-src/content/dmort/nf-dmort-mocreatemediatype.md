@@ -12,6 +12,8 @@ ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/M
 ms.topic: function
 f1_keywords: 
  - "dmort/MoCreateMediaType"
+dev_langs:
+ - c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

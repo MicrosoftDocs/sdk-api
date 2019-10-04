@@ -12,6 +12,8 @@ ms.keywords: NdrUserMarshalBufferSize, NdrUserMarshalBufferSize function [RPC], 
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrUserMarshalBufferSize
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

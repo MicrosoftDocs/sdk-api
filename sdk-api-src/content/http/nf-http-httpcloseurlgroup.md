@@ -12,6 +12,8 @@ ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpclos
 ms.topic: function
 f1_keywords: 
  - "http/HttpCloseUrlGroup"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

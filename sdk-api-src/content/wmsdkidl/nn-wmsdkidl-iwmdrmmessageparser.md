@@ -12,6 +12,8 @@ ms.keywords: IWMDRMMessageParser, IWMDRMMessageParser interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMDRMMessageParser"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

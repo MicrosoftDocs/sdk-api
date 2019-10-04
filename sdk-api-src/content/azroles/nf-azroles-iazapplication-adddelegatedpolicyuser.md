@@ -12,6 +12,8 @@ ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], A
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.AddDelegatedPolicyUser"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

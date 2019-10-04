@@ -12,6 +12,8 @@ ms.keywords: MFT_INPUT_STREAM_INFO, MFT_INPUT_STREAM_INFO structure [Media Found
 ms.topic: struct
 f1_keywords: 
  - "mftransform/MFT_INPUT_STREAM_INFO"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

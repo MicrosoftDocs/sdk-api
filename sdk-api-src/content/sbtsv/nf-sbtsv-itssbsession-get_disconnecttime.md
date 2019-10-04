@@ -12,6 +12,8 @@ ms.keywords: DisconnectTime property [Remote Desktop Services], DisconnectTime p
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbSession.DisconnectTime"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

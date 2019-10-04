@@ -12,6 +12,8 @@ ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 functi
 ms.topic: function
 f1_keywords:
 - werapi/WerStoreQueryReportMetadataV2
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _win32_PUNCT
 ms.topic: struct
 f1_keywords: 
  - "richedit/PUNCTUATION"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_REPEATING_HEADER, WS_REPEATING_HEADER_OPTION, WS_REPEATING_HEADE
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_REPEATING_HEADER_OPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

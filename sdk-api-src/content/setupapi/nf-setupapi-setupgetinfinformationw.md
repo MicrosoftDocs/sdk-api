@@ -12,6 +12,8 @@ ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API]
 ms.topic: function
 f1_keywords:
 - setupapi/SetupGetInfInformation
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

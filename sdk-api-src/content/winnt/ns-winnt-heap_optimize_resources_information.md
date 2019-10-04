@@ -12,6 +12,8 @@ ms.keywords: "*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INF
 ms.topic: struct
 f1_keywords: 
  - "winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

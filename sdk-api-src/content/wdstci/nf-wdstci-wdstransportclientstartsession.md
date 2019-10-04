@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientStartSession, WdsTransportClientStartSession func
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientStartSession"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

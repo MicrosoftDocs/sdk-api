@@ -12,6 +12,8 @@ ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCICLOSE"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Check, Check method [Internationalization for Windows Applications]
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.Check"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

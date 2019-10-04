@@ -12,6 +12,8 @@ ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, ba
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqRemovePeriodicCallback"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

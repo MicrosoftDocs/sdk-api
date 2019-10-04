@@ -12,6 +12,8 @@ ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_RO
 ms.topic: function
 f1_keywords: 
  - "raseapif/RasEapInvokeConfigUI"
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

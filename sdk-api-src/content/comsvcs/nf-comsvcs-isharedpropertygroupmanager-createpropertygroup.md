@@ -12,6 +12,8 @@ ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePrope
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISharedPropertyGroupManager.CreatePropertyGroup"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

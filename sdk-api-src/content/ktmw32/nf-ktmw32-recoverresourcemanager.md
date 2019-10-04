@@ -12,6 +12,8 @@ ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs
 ms.topic: function
 f1_keywords: 
  - "ktmw32/RecoverResourceManager"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

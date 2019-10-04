@@ -12,6 +12,8 @@ ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryI
 ms.topic: function
 f1_keywords: 
  - "ras/RasGetCountryInfo"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDeviceId, GetDeviceId method [Picture Acquisition], GetDeviceId 
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.GetDeviceId"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

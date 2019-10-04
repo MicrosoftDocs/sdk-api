@@ -12,6 +12,8 @@ ms.keywords: '*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_AUDIT_ACE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

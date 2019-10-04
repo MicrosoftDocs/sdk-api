@@ -12,6 +12,8 @@ ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], a
 ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaFreeInfo
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

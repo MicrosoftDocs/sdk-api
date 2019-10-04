@@ -12,6 +12,8 @@ ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskHandler"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

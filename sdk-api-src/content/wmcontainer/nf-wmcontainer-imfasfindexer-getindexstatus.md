@@ -12,6 +12,8 @@ ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexS
 ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFIndexer.GetIndexStatus
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePa
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSilo.GetDevicePath"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHPropStgWriteMultiple, SHPropStgWriteMultiple function [Windows Pr
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHPropStgWriteMultiple"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

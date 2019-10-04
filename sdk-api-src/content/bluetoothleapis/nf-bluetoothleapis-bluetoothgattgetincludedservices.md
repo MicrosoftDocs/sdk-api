@@ -12,6 +12,8 @@ ms.keywords: BluetoothGATTGetIncludedServices, BluetoothGATTGetIncludedServices 
 ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTGetIncludedServices
+dev_langs:
+ - c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

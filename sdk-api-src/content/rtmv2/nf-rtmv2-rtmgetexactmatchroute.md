@@ -12,6 +12,8 @@ ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetExactMatchRoute
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

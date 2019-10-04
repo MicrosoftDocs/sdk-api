@@ -12,6 +12,8 @@ ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS
 ms.topic: struct
 f1_keywords:
 - mfidl/MFBYTESTREAM_BUFFERING_PARAMS
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReaderEx interface [Media Foundation],RemoveAllTransformsF
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderEx.RemoveAllTransformsForStream"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindTextEnd, FindTextEnd method [Windows Controls], FindTextEnd met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.FindTextEnd"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

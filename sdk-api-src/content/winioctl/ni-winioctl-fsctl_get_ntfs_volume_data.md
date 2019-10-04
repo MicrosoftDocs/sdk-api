@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_NTFS_VOLUME_DATA, FSCTL_GET_NTFS_VOLUME_DATA control, FSC
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_GET_NTFS_VOLUME_DATA"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPT
 ms.topic: struct
 f1_keywords: 
  - "strmif/TIMECODE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

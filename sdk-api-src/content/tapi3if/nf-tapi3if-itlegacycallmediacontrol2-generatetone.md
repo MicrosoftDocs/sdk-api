@@ -12,6 +12,8 @@ ms.keywords: GenerateTone, GenerateTone method [TAPI 2.2], GenerateTone method [
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyCallMediaControl2.GenerateTone"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

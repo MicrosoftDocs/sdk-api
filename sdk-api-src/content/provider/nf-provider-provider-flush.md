@@ -12,6 +12,8 @@ ms.keywords: "?Flush@Provider@@MAEXXZ, ?Flush@Provider@@MEAAXXZ, Flush, Flush me
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.Flush"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

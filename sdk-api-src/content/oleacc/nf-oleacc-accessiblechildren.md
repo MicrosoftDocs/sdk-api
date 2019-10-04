@@ -12,6 +12,8 @@ ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibil
 ms.topic: function
 f1_keywords: 
  - "oleacc/AccessibleChildren"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzApplicationGroups object [Security],Count property, Count propert
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroups.Count"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

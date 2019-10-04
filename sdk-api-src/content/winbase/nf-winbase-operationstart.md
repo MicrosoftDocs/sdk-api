@@ -12,6 +12,8 @@ ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec
 ms.topic: function
 f1_keywords:
 - winbase/OperationStart
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

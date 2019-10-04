@@ -12,6 +12,8 @@ ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mpra
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigFilterSetInfo
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Edit_SetTabStops, Edit_SetTabStops macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetTabStops"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

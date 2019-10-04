@@ -12,6 +12,8 @@ ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure po
 ms.topic: struct
 f1_keywords: 
  - "schannel/X509Certificate"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

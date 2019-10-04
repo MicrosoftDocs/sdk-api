@@ -12,6 +12,8 @@ ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],SetOutputSignatu
 ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11FunctionLinkingGraph.SetOutputSignature
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

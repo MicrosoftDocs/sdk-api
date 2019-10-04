@@ -12,6 +12,8 @@ ms.keywords: MINIDUMP_TYPE, MINIDUMP_TYPE enumeration, MiniDumpFilterMemory, Min
 ms.topic: enum
 f1_keywords:
 - minidumpapiset/MINIDUMP_TYPE
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

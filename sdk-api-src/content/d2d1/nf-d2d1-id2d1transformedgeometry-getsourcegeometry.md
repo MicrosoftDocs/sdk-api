@@ -12,6 +12,8 @@ ms.keywords: GetSourceGeometry, GetSourceGeometry method [Direct2D], GetSourceGe
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1TransformedGeometry.GetSourceGeometry"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

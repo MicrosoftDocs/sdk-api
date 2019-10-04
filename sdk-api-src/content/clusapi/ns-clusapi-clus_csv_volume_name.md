@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME, CLUS_CSV_VOLUME_NAME
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_CSV_VOLUME_NAME"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

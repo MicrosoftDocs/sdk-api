@@ -12,6 +12,8 @@ ms.keywords: PVOID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SY
 ms.topic: function
 f1_keywords: 
  - "evntrace/TraceMessageVa"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

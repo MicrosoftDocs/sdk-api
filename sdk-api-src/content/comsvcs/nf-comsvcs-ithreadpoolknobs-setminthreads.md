@@ -12,6 +12,8 @@ ms.keywords: IThreadPoolKnobs interface [COM+],SetMinThreads method, IThreadPool
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IThreadPoolKnobs.SetMinThreads"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

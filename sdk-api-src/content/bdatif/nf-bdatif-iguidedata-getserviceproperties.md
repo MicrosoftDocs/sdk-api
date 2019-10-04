@@ -12,6 +12,8 @@ ms.keywords: GetServiceProperties, GetServiceProperties method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetServiceProperties"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

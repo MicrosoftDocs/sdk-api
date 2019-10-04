@@ -4,6 +4,10 @@ title: TraceLoggingUnregister
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingUnregister
 ms.topic: language-reference
+f1_keywords:
+ - TraceLoggingUnregister
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

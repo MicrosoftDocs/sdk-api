@@ -12,6 +12,8 @@ ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlg method, IWiaDevMgr.Selec
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaDevMgr.SelectDeviceDlg"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

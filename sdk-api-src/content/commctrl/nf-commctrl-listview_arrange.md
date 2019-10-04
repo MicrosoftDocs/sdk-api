@@ -12,6 +12,8 @@ ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_Arrange"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

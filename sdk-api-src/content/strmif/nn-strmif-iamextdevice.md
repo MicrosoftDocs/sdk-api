@@ -12,6 +12,8 @@ ms.keywords: IAMExtDevice, IAMExtDevice interface [DirectShow], IAMExtDevice int
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMExtDevice"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

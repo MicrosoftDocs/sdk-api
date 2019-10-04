@@ -12,6 +12,8 @@ ms.keywords: LsaConnectUntrusted, LsaConnectUntrusted function [Security], _lsa_
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/LsaConnectUntrusted"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

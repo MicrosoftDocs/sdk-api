@@ -12,6 +12,8 @@ ms.keywords: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a, DXVA2_VideoPrimaries, DXVA2_V
 ms.topic: enum
 f1_keywords:
 - dxva2api/DXVA2_VideoPrimaries
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

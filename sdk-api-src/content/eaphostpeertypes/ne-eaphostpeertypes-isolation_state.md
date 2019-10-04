@@ -12,6 +12,8 @@ ms.keywords: ISOLATION_STATE, ISOLATION_STATE enumeration [EAPHost], ISOLATION_S
 ms.topic: enum
 f1_keywords: 
  - "eaphostpeertypes/ISOLATION_STATE"
+dev_langs:
+ - c++
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

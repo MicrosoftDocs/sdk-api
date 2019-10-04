@@ -12,6 +12,8 @@ ms.keywords: '*PICONINFOEXA, ICONINFOEX, ICONINFOEX structure [Menus and Other R
 ms.topic: struct
 f1_keywords:
 - winuser/ICONINFOEX
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

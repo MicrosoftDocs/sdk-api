@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, PRESUTIL_EXPAND_ENVIRONMENT_ST
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilExpandEnvironmentStrings"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

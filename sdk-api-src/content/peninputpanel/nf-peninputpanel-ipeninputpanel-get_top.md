@@ -12,6 +12,8 @@ ms.keywords: 718263ae-d6ba-47ec-a18b-50488480b599, Get_Top, IPenInputPanel inter
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Top"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

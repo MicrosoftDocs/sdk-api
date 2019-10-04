@@ -12,6 +12,8 @@ ms.keywords: MFP_MEDIAPLAYER_STATE, MFP_MEDIAPLAYER_STATE enumeration [Media Fou
 ms.topic: enum
 f1_keywords: 
  - "mfplay/MFP_MEDIAPLAYER_STATE"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

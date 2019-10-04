@@ -12,6 +12,8 @@ ms.keywords: FLICK_DATA, FLICK_DATA structure [Tablet PC], f83994ca-7ebe-42bc-bb
 ms.topic: struct
 f1_keywords: 
  - "tabflicks/FLICK_DATA"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

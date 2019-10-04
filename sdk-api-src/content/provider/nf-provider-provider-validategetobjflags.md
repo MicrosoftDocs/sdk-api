@@ -12,6 +12,8 @@ ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provi
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.ValidateGetObjFlags"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

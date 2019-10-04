@@ -12,6 +12,8 @@ ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.reg
 ms.topic: function
 f1_keywords: 
  - "winreg/RegDisableReflectionKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

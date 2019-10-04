@@ -12,6 +12,8 @@ ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Wind
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.GetFolder
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

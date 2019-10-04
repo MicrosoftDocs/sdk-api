@@ -12,6 +12,8 @@ ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_S
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IISDB_SDT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

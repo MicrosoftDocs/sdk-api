@@ -12,6 +12,8 @@ ms.keywords: ImageList_Replace, ImageList_Replace function [Windows Controls], _
 ms.topic: function
 f1_keywords: 
  - "commctrl/ImageList_Replace"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

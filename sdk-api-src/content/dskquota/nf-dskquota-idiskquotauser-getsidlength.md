@@ -12,6 +12,8 @@ ms.keywords: GetSidLength, GetSidLength method [Files], GetSidLength method [Fil
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUser.GetSidLength"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

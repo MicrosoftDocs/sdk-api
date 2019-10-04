@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1Sprite
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SpriteBatch.Clear"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

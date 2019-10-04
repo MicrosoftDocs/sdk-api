@@ -12,6 +12,8 @@ ms.keywords: ImageItemData, ImageItemData class [GDI+], ImageItemData class [GDI
 ms.topic: class
 f1_keywords: 
  - "gdiplusimaging/ImageItemData"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

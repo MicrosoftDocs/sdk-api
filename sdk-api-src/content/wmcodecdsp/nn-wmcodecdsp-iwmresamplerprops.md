@@ -12,6 +12,8 @@ ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], 
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IWMResamplerProps"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

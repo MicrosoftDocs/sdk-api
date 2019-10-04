@@ -12,6 +12,8 @@ ms.keywords: WICComponentDisabled, WICComponentSafe, WICComponentSigned, WICComp
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICComponentSigning"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

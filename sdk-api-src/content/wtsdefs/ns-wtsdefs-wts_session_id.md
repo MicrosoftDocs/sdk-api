@@ -12,6 +12,8 @@ ms.keywords: "*PWTS_SESSION_ID, PWRDS_SESSION_ID, PWRDS_SESSION_ID structure poi
 ms.topic: struct
 f1_keywords: 
  - "wtsdefs/WTS_SESSION_ID"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

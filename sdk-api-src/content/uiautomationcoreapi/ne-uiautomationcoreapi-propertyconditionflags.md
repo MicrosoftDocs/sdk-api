@@ -12,6 +12,8 @@ ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/PropertyConditionFlags"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows

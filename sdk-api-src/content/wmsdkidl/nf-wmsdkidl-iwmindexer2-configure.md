@@ -12,6 +12,8 @@ ms.keywords: Configure, Configure method [windows Media Format], Configure metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMIndexer2.Configure"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

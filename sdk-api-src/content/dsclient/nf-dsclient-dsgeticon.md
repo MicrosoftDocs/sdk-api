@@ -12,6 +12,8 @@ ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, D
 ms.topic: function
 f1_keywords: 
  - "dsclient/DsGetIcon"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FaxEnumPorts, FaxEnumPorts function [Fax Service], FaxEnumPortsA, F
 ms.topic: function
 f1_keywords:
 - winfax/FaxEnumPorts
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

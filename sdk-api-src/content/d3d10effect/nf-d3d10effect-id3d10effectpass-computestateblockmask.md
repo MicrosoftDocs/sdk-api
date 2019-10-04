@@ -12,6 +12,8 @@ ms.keywords: 50c69f93-7d81-a766-082e-21f700d2f1ec, ComputeStateBlockMask, Comput
 ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectPass.ComputeStateBlockMask
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

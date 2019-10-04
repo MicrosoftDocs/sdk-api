@@ -12,6 +12,8 @@ ms.keywords: '*PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, JOBOBJECT_NOTIFICATION
 ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

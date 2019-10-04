@@ -12,6 +12,8 @@ ms.keywords: FSCTL_INITIATE_REPAIR, FSCTL_INITIATE_REPAIR control, FSCTL_INITIAT
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_INITIATE_REPAIR"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

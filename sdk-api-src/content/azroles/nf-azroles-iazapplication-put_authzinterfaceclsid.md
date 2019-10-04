@@ -12,6 +12,8 @@ ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid proper
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.AuthzInterfaceClsid"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

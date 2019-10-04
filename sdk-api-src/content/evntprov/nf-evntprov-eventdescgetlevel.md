@@ -12,6 +12,8 @@ ms.keywords: EventDescGetLevel, EventDescGetLevel function [ETW], base.eventdesc
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetLevel
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

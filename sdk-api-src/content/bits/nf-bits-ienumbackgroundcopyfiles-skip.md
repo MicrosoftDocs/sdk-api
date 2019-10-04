@@ -12,6 +12,8 @@ ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Skip method, IEnumBackgro
 ms.topic: method
 f1_keywords: 
  - "bits/IEnumBackgroundCopyFiles.Skip"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

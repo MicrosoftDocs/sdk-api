@@ -12,6 +12,8 @@ ms.keywords: IClassFactory2 interface [COM],RequestLicKey method, IClassFactory2
 ms.topic: method
 f1_keywords: 
  - "ocidl/IClassFactory2.RequestLicKey"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

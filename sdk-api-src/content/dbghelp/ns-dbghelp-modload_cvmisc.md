@@ -12,6 +12,8 @@ ms.keywords: '*PMODLOAD_CVMISC, MODLOAD_CVMISC, MODLOAD_CVMISC structure, PMODLO
 ms.topic: struct
 f1_keywords:
 - dbghelp/MODLOAD_CVMISC
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionNormalizeEst, XMQuaternionNormalizeEst, XM
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionNormalizeEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

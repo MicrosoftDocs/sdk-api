@@ -12,6 +12,8 @@ ms.keywords: DataStoreMajorVersion property [COM+], DataStoreMajorVersion proper
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.DataStoreMajorVersion"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDragImage, GetDragImage method [Windows Controls], GetDragImage 
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetDragImage"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

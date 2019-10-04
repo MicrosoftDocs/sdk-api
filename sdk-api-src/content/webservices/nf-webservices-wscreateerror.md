@@ -12,6 +12,8 @@ ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], w
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateError
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

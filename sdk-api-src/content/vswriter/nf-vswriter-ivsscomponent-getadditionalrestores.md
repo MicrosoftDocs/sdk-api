@@ -12,6 +12,8 @@ ms.keywords: GetAdditionalRestores, GetAdditionalRestores method [VSS], GetAddit
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetAdditionalRestores"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumIDList interface [Windows Shell],Next method, IEnumIDList.Next
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumIDList.Next
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

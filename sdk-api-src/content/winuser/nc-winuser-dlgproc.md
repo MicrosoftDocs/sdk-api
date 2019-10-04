@@ -12,6 +12,8 @@ ms.keywords: DLGPROC, DLGPROC callback, DLGPROC callback function [Dialog Boxes]
 ms.topic: callback
 f1_keywords: 
  - "winuser/DLGPROC"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

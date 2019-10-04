@@ -12,6 +12,8 @@ ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],descri
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaItem"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateBand, CreateBand method [Windows Shell], CreateBand method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IBandHost.CreateBand"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

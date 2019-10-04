@@ -12,6 +12,8 @@ ms.keywords: FILE_DEVICE_CHANGER, NTMS_CHANGERTYPEINFORMATION, NTMS_CHANGERTYPEI
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_CHANGERTYPEINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

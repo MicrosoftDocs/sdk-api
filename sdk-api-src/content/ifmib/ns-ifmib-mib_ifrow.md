@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IFROW, IF_OPER_STATUS_CONNECTED, IF_OPER_STATUS_CONNECTING, 
 ms.topic: struct
 f1_keywords:
 - ifmib/MIB_IFROW
+dev_langs:
+ - c++
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

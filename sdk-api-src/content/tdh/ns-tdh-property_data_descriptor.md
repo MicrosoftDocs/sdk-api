@@ -12,6 +12,8 @@ ms.keywords: '*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DAT
 ms.topic: struct
 f1_keywords:
 - tdh/PROPERTY_DATA_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

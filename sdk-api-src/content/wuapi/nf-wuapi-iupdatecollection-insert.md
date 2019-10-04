@@ -12,6 +12,8 @@ ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, I
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateCollection.Insert"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

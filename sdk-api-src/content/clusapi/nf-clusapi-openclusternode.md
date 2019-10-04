@@ -12,6 +12,8 @@ ms.keywords: OpenClusterNode, OpenClusterNode function [Failover Cluster], PCLUS
 ms.topic: function
 f1_keywords: 
  - "clusapi/OpenClusterNode"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

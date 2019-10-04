@@ -12,6 +12,8 @@ ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], G
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

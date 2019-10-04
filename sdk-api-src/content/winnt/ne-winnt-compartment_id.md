@@ -12,6 +12,8 @@ ms.keywords: "*PCOMPARTMENT_ID, COMPARTMENT_ID, COMPARTMENT_ID enumeration [Kern
 ms.topic: enum
 f1_keywords: 
  - "winnt/COMPARTMENT_ID"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

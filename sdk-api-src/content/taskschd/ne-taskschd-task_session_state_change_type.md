@@ -12,6 +12,8 @@ ms.keywords: TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT,
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_SESSION_STATE_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutpu
 ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.ProcessOutput
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

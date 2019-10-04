@@ -12,6 +12,8 @@ ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegi
 ms.topic: function
 f1_keywords:
 - wingdi/GetRegionData
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDTransportAddress.SetPort"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

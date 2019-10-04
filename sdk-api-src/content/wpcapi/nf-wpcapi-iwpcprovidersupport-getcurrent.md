@@ -12,6 +12,8 @@ ms.keywords: GetCurrent, GetCurrent method, GetCurrent method,IWPCProviderSuppor
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderSupport.GetCurrent"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

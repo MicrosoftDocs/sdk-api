@@ -12,6 +12,8 @@ ms.keywords: "*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGE
 ms.topic: struct
 f1_keywords: 
  - "sspi/SECURITY_INTEGER"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

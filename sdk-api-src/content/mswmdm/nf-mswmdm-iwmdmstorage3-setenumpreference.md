@@ -12,6 +12,8 @@ ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetEnumPrefe
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMStorage3.SetEnumPreference"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

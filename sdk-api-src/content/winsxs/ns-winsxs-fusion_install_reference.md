@@ -12,6 +12,8 @@ ms.keywords: "*LPFUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE, FUSION_INST
 ms.topic: struct
 f1_keywords: 
  - "winsxs/FUSION_INSTALL_REFERENCE"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

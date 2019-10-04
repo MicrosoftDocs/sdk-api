@@ -12,6 +12,8 @@ ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, Sy
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetModuleBase64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

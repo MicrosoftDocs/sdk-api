@@ -12,6 +12,8 @@ ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_
 ms.topic: function
 f1_keywords:
 - pdh/PdhSetQueryTimeRange
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: OPC_SIGNATURE_TIME_FORMAT, OPC_SIGNATURE_TIME_FORMAT enumeration [O
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_SIGNATURE_TIME_FORMAT"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

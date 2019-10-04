@@ -12,6 +12,8 @@ ms.keywords: APPTYPE_LIBRARY, APPTYPE_SERVER, APPTYPE_SWC, APPTYPE_UNKNOWN, COMP
 ms.topic: enum
 f1_keywords:
 - comsvcs/COMPLUS_APPTYPE
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IX509Enrollment interface [Security],Response property, IX509Enroll
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Enrollment.Response"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

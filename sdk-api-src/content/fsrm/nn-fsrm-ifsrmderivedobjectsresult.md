@@ -12,6 +12,8 @@ ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [Fil
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmDerivedObjectsResult"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

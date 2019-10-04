@@ -12,6 +12,8 @@ ms.keywords: IsIndexedPixelFormat, IsIndexedPixelFormat function [GDI+], _gdiplu
 ms.topic: function
 f1_keywords: 
  - "gdipluspixelformats/IsIndexedPixelFormat"
+dev_langs:
+ - c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

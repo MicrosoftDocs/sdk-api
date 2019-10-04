@@ -12,6 +12,8 @@ ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER
 ms.topic: struct
 f1_keywords:
 - wincrypt/DHPRIVKEY_VER3
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

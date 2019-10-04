@@ -12,6 +12,8 @@ ms.keywords: GetExtensionProperty, GetExtensionProperty method [Fax Service], Ge
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.GetExtensionProperty"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalke
 ms.topic: interface
 f1_keywords: 
  - "callobj/ICallFrameWalker"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

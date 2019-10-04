@@ -12,6 +12,8 @@ ms.keywords: IPreviewHandler, IPreviewHandler interface [Windows Shell], IPrevie
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPreviewHandler"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], securit
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptExportPKCS8Ex
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

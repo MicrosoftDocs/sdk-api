@@ -12,6 +12,8 @@ ms.keywords: SmoothingMode, SmoothingMode enumeration [GDI+], SmoothingModeAntiA
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/SmoothingMode"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

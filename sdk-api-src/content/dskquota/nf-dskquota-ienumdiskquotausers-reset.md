@@ -12,6 +12,8 @@ ms.keywords: IEnumDiskQuotaUsers interface [Files],Reset method, IEnumDiskQuotaU
 ms.topic: method
 f1_keywords: 
  - "dskquota/IEnumDiskQuotaUsers.Reset"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

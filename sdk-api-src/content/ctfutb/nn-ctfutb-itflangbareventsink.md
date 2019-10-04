@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarEventSink, ITfLangBarEventSink interface [Text Services F
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarEventSink"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

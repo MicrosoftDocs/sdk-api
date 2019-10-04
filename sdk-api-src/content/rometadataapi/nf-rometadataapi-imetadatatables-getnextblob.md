@@ -12,6 +12,8 @@ ms.keywords: GetNextBlob, GetNextBlob method [Windows Runtime], GetNextBlob meth
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetNextBlob"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

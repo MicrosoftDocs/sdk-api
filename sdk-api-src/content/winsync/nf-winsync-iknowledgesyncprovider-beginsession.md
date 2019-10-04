@@ -12,6 +12,8 @@ ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession meth
 ms.topic: method
 f1_keywords: 
  - "winsync/IKnowledgeSyncProvider.BeginSession"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

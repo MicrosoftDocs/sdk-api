@@ -12,6 +12,8 @@ ms.keywords: _EapUsernamePasswordCredential, EapUsernamePasswordCredential
 ms.topic: struct
 f1_keywords: 
  - "eaptypes/_EapUsernamePasswordCredential"
+dev_langs:
+ - c++
 req.construct-type: structure
 req.header: eaptypes.h
 req.include-header: 

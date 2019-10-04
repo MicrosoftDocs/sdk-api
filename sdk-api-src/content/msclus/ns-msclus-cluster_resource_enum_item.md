@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_RESOURCE_ENUM_ITEM, CLUSTER_
 ms.topic: struct
 f1_keywords: 
  - "msclus/CLUSTER_RESOURCE_ENUM_ITEM"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

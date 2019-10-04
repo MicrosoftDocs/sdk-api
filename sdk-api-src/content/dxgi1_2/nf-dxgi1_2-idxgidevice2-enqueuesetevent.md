@@ -12,6 +12,8 @@ ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent met
 ms.topic: method
 f1_keywords: 
  - "dxgi1_2/IDXGIDevice2.EnqueueSetEvent"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

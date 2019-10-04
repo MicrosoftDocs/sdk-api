@@ -12,6 +12,8 @@ ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "tuner/IATSCTuningSpace"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

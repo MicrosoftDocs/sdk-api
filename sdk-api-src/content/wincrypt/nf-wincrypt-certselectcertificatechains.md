@@ -12,6 +12,8 @@ ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELEC
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSelectCertificateChains
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

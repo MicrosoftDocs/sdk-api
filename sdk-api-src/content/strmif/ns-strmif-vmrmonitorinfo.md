@@ -12,6 +12,8 @@ ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORIN
 ms.topic: struct
 f1_keywords: 
  - "strmif/VMRMONITORINFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

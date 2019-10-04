@@ -12,6 +12,8 @@ ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConf
 ms.topic: function
 f1_keywords: 
  - "winuser/DisplayConfigGetDeviceInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

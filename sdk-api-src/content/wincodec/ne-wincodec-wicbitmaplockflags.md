@@ -12,6 +12,8 @@ ms.keywords: WICBitmapLockFlags, WICBitmapLockFlags enumeration [Windows Imaging
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICBitmapLockFlags"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

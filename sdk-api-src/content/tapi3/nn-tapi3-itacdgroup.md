@@ -12,6 +12,8 @@ ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [
 ms.topic: interface
 f1_keywords: 
  - "tapi3/ITACDGroup"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

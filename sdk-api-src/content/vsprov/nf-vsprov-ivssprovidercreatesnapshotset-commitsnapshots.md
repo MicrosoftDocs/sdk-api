@@ -12,6 +12,8 @@ ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots meth
 ms.topic: method
 f1_keywords: 
  - "vsprov/IVssProviderCreateSnapshotSet.CommitSnapshots"
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

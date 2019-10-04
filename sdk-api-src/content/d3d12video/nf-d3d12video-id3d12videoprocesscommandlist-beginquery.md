@@ -8,6 +8,10 @@ ms.assetid: 0cf0c814-02d2-4901-a65d-ef7836dd198a
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoProcessCommandList::BeginQuery
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoProcessCommandList::BeginQuery, BeginQuery, ID3D12VideoProcessCommandList.BeginQuery, ID3D12VideoProcessCommandList::BeginQuery, ID3D12VideoProcessCommandList.BeginQuery
 req.header: d3d12video.h
 req.include-header:

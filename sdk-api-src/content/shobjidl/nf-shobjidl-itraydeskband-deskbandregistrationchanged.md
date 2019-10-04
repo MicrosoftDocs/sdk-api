@@ -12,6 +12,8 @@ ms.keywords: DeskBandRegistrationChanged, DeskBandRegistrationChanged method [Wi
 ms.topic: method
 f1_keywords: 
  - "shobjidl/ITrayDeskBand.DeskBandRegistrationChanged"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

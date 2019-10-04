@@ -12,6 +12,8 @@ ms.keywords: VDS_NF_PARTITION_ARRIVE, VDS_NF_PARTITION_DEPART, VDS_NF_PARTITION_
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PARTITION_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

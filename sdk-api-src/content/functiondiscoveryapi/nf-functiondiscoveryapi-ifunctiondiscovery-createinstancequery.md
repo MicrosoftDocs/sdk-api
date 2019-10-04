@@ -12,6 +12,8 @@ ms.keywords: CreateInstanceQuery, CreateInstanceQuery method, CreateInstanceQuer
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery.CreateInstanceQuery"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

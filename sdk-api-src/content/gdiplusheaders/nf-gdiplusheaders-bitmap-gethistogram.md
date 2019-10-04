@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],GetHistogram method, Bitmap.GetHistogram, Bitma
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.GetHistogram"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

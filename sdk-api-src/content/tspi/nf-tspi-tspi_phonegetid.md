@@ -12,6 +12,8 @@ ms.keywords: TSPI_phoneGetID, TSPI_phoneGetID function [TAPI 2.2], _tspi_tspi_ph
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_phoneGetID"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

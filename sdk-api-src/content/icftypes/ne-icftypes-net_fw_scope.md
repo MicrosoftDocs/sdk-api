@@ -12,6 +12,8 @@ ms.keywords: NET_FW_SCOPE, NET_FW_SCOPE enumeration [ICS/ICF], NET_FW_SCOPE_ALL,
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_SCOPE"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

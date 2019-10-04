@@ -12,6 +12,8 @@ ms.keywords: RPC_CALL_ATTRIBUTES, RPC_CALL_ATTRIBUTES structure [RPC], RPC_CALL_
 ms.topic: struct
 f1_keywords:
 - rpcasync/RPC_CALL_ATTRIBUTES_V2
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestr
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDefaultFolderMenuInitialize.SetMenuRestrictions"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

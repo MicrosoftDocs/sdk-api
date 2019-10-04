@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_EFFECT_CHAIN, XAUDIO2_EFFECT_CHAIN structure [XAudio2 Audio
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_EFFECT_CHAIN"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

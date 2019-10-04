@@ -12,6 +12,8 @@ ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], 
 ms.topic: struct
 f1_keywords: 
  - "mbnapi/MBN_CONTEXT"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

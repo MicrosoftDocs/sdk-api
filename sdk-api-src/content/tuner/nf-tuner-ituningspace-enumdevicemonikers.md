@@ -12,6 +12,8 @@ ms.keywords: EnumDeviceMonikers, EnumDeviceMonikers method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpace.EnumDeviceMonikers"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

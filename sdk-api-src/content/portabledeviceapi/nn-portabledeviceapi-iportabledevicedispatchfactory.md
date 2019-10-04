@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory inte
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceDispatchFactory"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

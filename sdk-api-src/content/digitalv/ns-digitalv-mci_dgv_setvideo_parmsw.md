@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_SETVIDEO_PARMSW, MCI_DGV_SETVIDEO_PARMS, MCI_DGV_SETVID
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_SETVIDEO_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WMVIDEOINFOHEADER2, WMVIDEOINFOHEADER2 structure [windows Media For
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMVIDEOINFOHEADER2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

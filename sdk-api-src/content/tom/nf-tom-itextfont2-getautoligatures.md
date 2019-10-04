@@ -12,6 +12,8 @@ ms.keywords: GetAutoLigatures, GetAutoLigatures method [Windows Controls], GetAu
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont2.GetAutoLigatures"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

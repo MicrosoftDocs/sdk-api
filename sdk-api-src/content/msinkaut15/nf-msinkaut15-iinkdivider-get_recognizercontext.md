@@ -12,6 +12,8 @@ ms.keywords: IInkDivider interface [Tablet PC],RecognizerContext property, IInkD
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivider.RecognizerContext"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

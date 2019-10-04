@@ -12,6 +12,8 @@ ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interf
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetVariant"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

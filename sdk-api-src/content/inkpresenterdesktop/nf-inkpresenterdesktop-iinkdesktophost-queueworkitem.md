@@ -12,6 +12,8 @@ ms.keywords: IInkDesktopHost interface,QueueWorkItem method, IInkDesktopHost.Que
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkDesktopHost.QueueWorkItem"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

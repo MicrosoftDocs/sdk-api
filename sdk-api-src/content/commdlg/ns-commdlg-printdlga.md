@@ -12,6 +12,8 @@ ms.keywords: '*LPPRINTDLGA, LPPRINTDLG, LPPRINTDLG structure pointer [Dialog Box
 ms.topic: struct
 f1_keywords:
 - commdlg/PRINTDLG
+dev_langs:
+ - c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch fu
 ms.topic: function
 f1_keywords: 
  - "d2d1_3helper/GradientMeshPatchFromCoonsPatch"
+dev_langs:
+ - c++
 req.header: d2d1_3helper.h
 req.include-header: 
 req.target-type: Windows

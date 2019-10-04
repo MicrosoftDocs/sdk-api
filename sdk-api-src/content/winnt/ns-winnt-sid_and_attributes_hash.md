@@ -12,6 +12,8 @@ ms.keywords: '*PSID_AND_ATTRIBUTES_HASH, PSID_AND_ATTRIBUTES_HASH, PSID_AND_ATTR
 ms.topic: struct
 f1_keywords:
 - winnt/SID_AND_ATTRIBUTES_HASH
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTENTRY"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSet
 ms.topic: interface
 f1_keywords: 
  - "taskschd/ITaskSettings2"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

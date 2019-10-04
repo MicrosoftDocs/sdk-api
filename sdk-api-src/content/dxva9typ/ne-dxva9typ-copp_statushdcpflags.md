@@ -12,6 +12,8 @@ ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, CO
 ms.topic: enum
 f1_keywords:
 - dxva9typ/COPP_StatusHDCPFlags
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

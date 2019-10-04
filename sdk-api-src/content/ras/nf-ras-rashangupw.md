@@ -12,6 +12,8 @@ ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_r
 ms.topic: function
 f1_keywords: 
  - "ras/RasHangUp"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

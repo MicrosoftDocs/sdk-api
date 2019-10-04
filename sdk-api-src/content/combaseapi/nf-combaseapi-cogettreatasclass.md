@@ -12,6 +12,8 @@ ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTrea
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoGetTreatAsClass"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

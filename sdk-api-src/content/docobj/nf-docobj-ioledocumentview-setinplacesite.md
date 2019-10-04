@@ -12,6 +12,8 @@ ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumen
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocumentView.SetInPlaceSite"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

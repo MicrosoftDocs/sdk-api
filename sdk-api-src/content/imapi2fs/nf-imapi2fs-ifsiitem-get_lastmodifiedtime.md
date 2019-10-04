@@ -12,6 +12,8 @@ ms.keywords: IFsiItem interface [IMAPI],get_LastModifiedTime method, IFsiItem.ge
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.get_LastModifiedTime"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

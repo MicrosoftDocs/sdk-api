@@ -12,6 +12,8 @@ ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeApplied method, ISy
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncCallback2.OnChangeApplied"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

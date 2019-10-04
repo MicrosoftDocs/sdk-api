@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMI
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPSTATS2
+dev_langs:
+ - c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

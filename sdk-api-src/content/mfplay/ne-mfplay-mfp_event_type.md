@@ -12,6 +12,8 @@ ms.keywords: MFP_EVENT_TYPE, MFP_EVENT_TYPE enumeration [Media Foundation], MFP_
 ms.topic: enum
 f1_keywords: 
  - "mfplay/MFP_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

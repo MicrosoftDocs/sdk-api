@@ -12,6 +12,8 @@ ms.keywords: Module32Next, Module32Next function [ToolHelp], Module32NextW, _win
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Module32Next"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CommandLine property [Windows Remote Management], CommandLine prope
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSMan.CommandLine"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

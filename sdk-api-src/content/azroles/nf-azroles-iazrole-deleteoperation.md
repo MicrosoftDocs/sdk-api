@@ -12,6 +12,8 @@ ms.keywords: AzRole object [Security],DeleteOperation method, DeleteOperation, D
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzRole.DeleteOperation"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

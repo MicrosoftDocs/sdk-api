@@ -12,6 +12,8 @@ ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], bas
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PARTITION_INFO_MBR
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RdcSignature, RdcSignature structure [Remote Differential Compressi
 ms.topic: struct
 f1_keywords: 
  - "msrdc/RdcSignature"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

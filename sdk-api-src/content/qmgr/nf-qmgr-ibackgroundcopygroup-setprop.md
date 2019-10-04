@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyGroup interface [BITS],SetProp method, IBackgroundCo
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyGroup.SetProp"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

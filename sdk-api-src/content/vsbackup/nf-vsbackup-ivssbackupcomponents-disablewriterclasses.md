@@ -12,6 +12,8 @@ ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWri
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssBackupComponents.DisableWriterClasses"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

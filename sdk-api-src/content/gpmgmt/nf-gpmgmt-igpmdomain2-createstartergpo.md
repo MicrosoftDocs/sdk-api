@@ -12,6 +12,8 @@ ms.keywords: CreateStarterGPO, CreateStarterGPO method [GPMC], CreateStarterGPO 
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain2.CreateStarterGPO"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

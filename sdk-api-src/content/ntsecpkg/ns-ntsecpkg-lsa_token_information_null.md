@@ -12,6 +12,8 @@ ms.keywords: '*PLSA_TOKEN_INFORMATION_NULL, LSA_TOKEN_INFORMATION_NULL, LSA_TOKE
 ms.topic: struct
 f1_keywords:
 - ntsecpkg/LSA_TOKEN_INFORMATION_NULL
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICategoryCollection interface [Windows Update Agent],_NewEnum prope
 ms.topic: method
 f1_keywords: 
  - "wuapi/ICategoryCollection._NewEnum"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

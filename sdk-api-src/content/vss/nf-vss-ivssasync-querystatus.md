@@ -12,6 +12,8 @@ ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus
 ms.topic: method
 f1_keywords: 
  - "vss/IVssAsync.QueryStatus"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

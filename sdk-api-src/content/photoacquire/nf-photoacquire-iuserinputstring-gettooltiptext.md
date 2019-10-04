@@ -12,6 +12,8 @@ ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetToo
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetTooltipText"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

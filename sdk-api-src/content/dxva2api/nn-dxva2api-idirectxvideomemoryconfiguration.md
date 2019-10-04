@@ -12,6 +12,8 @@ ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration 
 ms.topic: interface
 f1_keywords: 
  - "dxva2api/IDirectXVideoMemoryConfiguration"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVMRImagePresenter interface [DirectShow],StartPresenting method, I
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRImagePresenter.StartPresenting"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FEEDBACK_GESTURE_PRESSANDTAP, FEEDBACK_MAX, FEEDBACK_PEN_BARRELVISU
 ms.topic: enum
 f1_keywords: 
  - "winuser/FEEDBACK_TYPE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 80c402d4-8246-42ee-a981-69c8d605cb0f, IMFByteStreamHandler, IMFByte
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFByteStreamHandler"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

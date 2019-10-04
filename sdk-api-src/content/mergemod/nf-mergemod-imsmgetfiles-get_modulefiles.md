@@ -12,6 +12,8 @@ ms.keywords: IMsmGetFiles interface,get_ModuleFiles method, IMsmGetFiles.get_Mod
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmGetFiles.get_ModuleFiles"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

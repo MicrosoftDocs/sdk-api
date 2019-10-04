@@ -12,6 +12,8 @@ ms.keywords: ExportRSoPData, ExportRSoPData function [Group Policy], _win32_expo
 ms.topic: function
 f1_keywords: 
  - "gpedit/ExportRSoPData"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

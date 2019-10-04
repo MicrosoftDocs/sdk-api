@@ -12,6 +12,8 @@ ms.keywords: GetUnderline, GetUnderline method [Windows Controls], GetUnderline 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetUnderline"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CERT_CHAIN_FIND_BY_ISSUER, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_FLA
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindChainInStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

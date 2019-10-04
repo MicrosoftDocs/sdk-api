@@ -12,6 +12,8 @@ ms.keywords: GetTDT, GetTDT method [Microsoft TV Technologies], GetTDT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbSiParser.GetTDT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

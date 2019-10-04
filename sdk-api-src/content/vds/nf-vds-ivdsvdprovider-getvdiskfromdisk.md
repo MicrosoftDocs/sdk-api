@@ -12,6 +12,8 @@ ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVdProvider.GetVDiskFromDisk"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

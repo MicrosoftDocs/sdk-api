@@ -12,6 +12,8 @@ ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, 
 ms.topic: function
 f1_keywords: 
  - "synchapi/EnterSynchronizationBarrier"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows

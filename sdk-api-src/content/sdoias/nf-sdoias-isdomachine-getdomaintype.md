@@ -12,6 +12,8 @@ ms.keywords: GetDomainType, GetDomainType method [Network Policy Server], GetDom
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoMachine.GetDomainType"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

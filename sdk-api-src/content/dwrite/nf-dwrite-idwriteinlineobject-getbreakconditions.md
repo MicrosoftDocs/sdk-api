@@ -12,6 +12,8 @@ ms.keywords: GetBreakConditions, GetBreakConditions method [Direct Write], GetBr
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteInlineObject.GetBreakConditions"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

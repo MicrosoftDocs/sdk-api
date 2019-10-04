@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPPlayer.get_fullScreen"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

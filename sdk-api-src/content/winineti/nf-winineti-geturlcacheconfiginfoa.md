@@ -12,6 +12,8 @@ ms.keywords: CACHE_CONFIG_CONTENT_PATHS_FC, CACHE_CONFIG_CONTENT_USAGE_FC, CACHE
 ms.topic: function
 f1_keywords:
 - winineti/GetUrlCacheConfigInfo
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetKernelObjectSecurity, GetKernelObjectSecurity function [Security
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetKernelObjectSecurity
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

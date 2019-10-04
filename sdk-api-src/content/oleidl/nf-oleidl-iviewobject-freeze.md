@@ -12,6 +12,8 @@ ms.keywords: Freeze, Freeze method [COM], Freeze method [COM],IViewObject interf
 ms.topic: method
 f1_keywords: 
  - "oleidl/IViewObject.Freeze"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

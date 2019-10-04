@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIG
 ms.topic: function
 f1_keywords:
 - wincrypt/CertGetCRLFromStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

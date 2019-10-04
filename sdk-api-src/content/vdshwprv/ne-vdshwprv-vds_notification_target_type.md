@@ -12,6 +12,8 @@ ms.keywords: VDS_NOTIFICATION_TARGET_TYPE, VDS_NOTIFICATION_TARGET_TYPE enumerat
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_NOTIFICATION_TARGET_TYPE
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INTERNET_AUTH_NOTIFY_DATA, INTERNET_AUTH_NOTIFY_DATA structure [Win
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_AUTH_NOTIFY_DATA"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

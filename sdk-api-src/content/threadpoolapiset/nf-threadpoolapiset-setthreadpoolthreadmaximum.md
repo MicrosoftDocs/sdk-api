@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, ba
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/SetThreadpoolThreadMaximum"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

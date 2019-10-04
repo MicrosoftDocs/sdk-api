@@ -12,6 +12,8 @@ ms.keywords: LongToByte, LongToUInt8, LongToUInt8 function [Windows Shell], ints
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongToUInt8"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VarCyFromUI4, VarCyFromUI4 function [Automation], _oa96_VarCyFromUI
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyFromUI4"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

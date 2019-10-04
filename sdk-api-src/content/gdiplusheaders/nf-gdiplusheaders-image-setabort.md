@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],SetAbort method, Image.SetAbort, Image::SetAbort
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.SetAbort"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

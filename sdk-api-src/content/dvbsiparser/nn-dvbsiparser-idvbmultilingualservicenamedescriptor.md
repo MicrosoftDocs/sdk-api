@@ -12,6 +12,8 @@ ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameD
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDvbMultilingualServiceNameDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

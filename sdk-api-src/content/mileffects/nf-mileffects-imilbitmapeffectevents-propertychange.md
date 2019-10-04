@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChang
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectEvents.PropertyChange"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

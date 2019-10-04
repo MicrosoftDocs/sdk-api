@@ -12,6 +12,8 @@ ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Select
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ILegacyIAccessibleProvider.Select"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetClockVectorElementCount, GetClockVectorElementCount method [Wind
 ms.topic: method
 f1_keywords: 
  - "winsync/IClockVector.GetClockVectorElementCount"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

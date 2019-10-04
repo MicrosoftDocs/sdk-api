@@ -12,6 +12,8 @@ ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_
 ms.topic: function
 f1_keywords:
 - winbase/OpenFileById
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

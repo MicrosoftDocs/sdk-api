@@ -12,6 +12,8 @@ ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Securit
 ms.topic: interface
 f1_keywords: 
  - "certenroll/ICertificationAuthority"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

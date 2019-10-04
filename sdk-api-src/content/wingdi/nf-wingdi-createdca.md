@@ -12,6 +12,8 @@ ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _w
 ms.topic: function
 f1_keywords:
 - wingdi/CreateDC
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

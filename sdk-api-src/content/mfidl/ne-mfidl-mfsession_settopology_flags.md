@@ -12,6 +12,8 @@ ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_C
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFSESSION_SETTOPOLOGY_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

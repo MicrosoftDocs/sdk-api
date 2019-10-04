@@ -12,6 +12,8 @@ ms.keywords: 2c811613-71ac-d7b8-ba99-48b0bdc4d54c, ID3D11SwitchToRef interface [
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11SwitchToRef.SetUseRef"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IDataCollectorSetColl
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSetCollection.Clear"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

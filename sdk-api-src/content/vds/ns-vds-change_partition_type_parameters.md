@@ -12,6 +12,8 @@ ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS 
 ms.topic: struct
 f1_keywords:
 - vds/CHANGE_PARTITION_TYPE_PARAMETERS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

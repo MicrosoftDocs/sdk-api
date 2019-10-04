@@ -12,6 +12,8 @@ ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IModalWindow.Show"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 1fc82eef-f409-1d78-ab65-dd0124809d16, GetUsage, GetUsage method [DX
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIResource.GetUsage"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

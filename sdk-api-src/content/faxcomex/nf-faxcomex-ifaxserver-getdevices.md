@@ -12,6 +12,8 @@ ms.keywords: GetDevices, GetDevices method [Fax Service], GetDevices method [Fax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer.GetDevices"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

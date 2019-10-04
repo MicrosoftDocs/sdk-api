@@ -12,6 +12,8 @@ ms.keywords: '*PSOLE_AUTHENTICATION_SERVICE, PSOLE_AUTHENTICATION_SERVICE, PSOLE
 ms.topic: struct
 f1_keywords:
 - objidl/SOLE_AUTHENTICATION_SERVICE
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

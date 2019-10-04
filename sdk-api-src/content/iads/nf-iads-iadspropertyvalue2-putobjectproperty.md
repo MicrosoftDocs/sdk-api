@@ -12,6 +12,8 @@ ms.keywords: IADsPropertyValue2 interface [ADSI],PutObjectProperty method, IADsP
 ms.topic: method
 f1_keywords: 
  - "iads/IADsPropertyValue2.PutObjectProperty"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

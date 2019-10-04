@@ -12,6 +12,8 @@ ms.keywords: ID3D12Resource, ID3D12Resource interface, ID3D12Resource interface,
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12Resource"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

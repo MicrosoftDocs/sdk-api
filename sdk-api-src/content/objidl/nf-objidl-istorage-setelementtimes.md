@@ -12,6 +12,8 @@ ms.keywords: IStorage interface [Structured Storage],SetElementTimes method, ISt
 ms.topic: method
 f1_keywords: 
  - "objidl/IStorage.SetElementTimes"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

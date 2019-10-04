@@ -12,6 +12,8 @@ ms.keywords: WDMUSB_POWER_STATE, WDMUSB_POWER_STATE enumeration [Buses], WdmUsbP
 ms.topic: enum
 f1_keywords: 
  - "usbuser/WDMUSB_POWER_STATE"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

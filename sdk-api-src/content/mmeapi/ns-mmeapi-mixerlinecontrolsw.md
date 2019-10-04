@@ -12,6 +12,8 @@ ms.keywords: "*LPMIXERLINECONTROLSW, *PMIXERLINECONTROLSW, MIXERLINECONTROLS, MI
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIXERLINECONTROLS"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows

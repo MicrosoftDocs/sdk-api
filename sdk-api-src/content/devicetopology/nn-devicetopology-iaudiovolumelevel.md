@@ -12,6 +12,8 @@ ms.keywords: IAudioVolumeLevel, IAudioVolumeLevel interface [Core Audio], IAudio
 ms.topic: interface
 f1_keywords: 
  - "devicetopology/IAudioVolumeLevel"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

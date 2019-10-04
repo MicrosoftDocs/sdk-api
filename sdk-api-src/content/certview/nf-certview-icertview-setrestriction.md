@@ -12,6 +12,8 @@ ms.keywords: CCertView object [Security],SetRestriction method, CVR_SEEK_EQ, CVR
 ms.topic: method
 f1_keywords: 
  - "certview/ICertView2.SetRestriction"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

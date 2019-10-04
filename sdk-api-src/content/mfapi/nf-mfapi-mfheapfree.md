@@ -12,6 +12,8 @@ ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFHeapFree"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

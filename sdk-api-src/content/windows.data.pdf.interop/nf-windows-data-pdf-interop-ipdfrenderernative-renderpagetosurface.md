@@ -12,6 +12,8 @@ ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface 
 ms.topic: method
 f1_keywords: 
  - "windows.data.pdf.interop/IPdfRendererNative.RenderPageToSurface"
+dev_langs:
+ - c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

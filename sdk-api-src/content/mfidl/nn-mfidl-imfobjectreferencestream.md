@@ -12,6 +12,8 @@ ms.keywords: 9d29befd-b0ae-4610-a0b7-17face03c45e, IMFObjectReferenceStream, IMF
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFObjectReferenceStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

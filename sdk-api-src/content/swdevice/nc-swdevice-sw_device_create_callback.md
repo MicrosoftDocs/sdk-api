@@ -12,6 +12,8 @@ ms.keywords: SW_DEVICE_CREATE_CALLBACK, SW_DEVICE_CREATE_CALLBACK function, SW_D
 ms.topic: callback
 f1_keywords: 
  - "swdevice/SW_DEVICE_CREATE_CALLBACK"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Desktop

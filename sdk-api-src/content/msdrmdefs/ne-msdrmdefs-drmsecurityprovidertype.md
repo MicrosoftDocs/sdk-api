@@ -12,6 +12,8 @@ ms.keywords: DRMSECURITYPROVIDERTYPE, DRMSECURITYPROVIDERTYPE enumeration [Activ
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRMSECURITYPROVIDERTYPE"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

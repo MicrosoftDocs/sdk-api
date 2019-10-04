@@ -12,6 +12,8 @@ ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspiloca
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiLocalFree"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

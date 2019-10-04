@@ -12,6 +12,8 @@ ms.keywords: ListView_SortItems, ListView_SortItems macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SortItems"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

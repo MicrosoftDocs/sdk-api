@@ -12,6 +12,8 @@ ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcPr
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcProxyBuffer.Disconnect"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

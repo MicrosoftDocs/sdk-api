@@ -12,6 +12,8 @@ ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES
 ms.topic: struct
 f1_keywords: 
  - "wsdbase/WSD_CONFIG_ADDRESSES"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

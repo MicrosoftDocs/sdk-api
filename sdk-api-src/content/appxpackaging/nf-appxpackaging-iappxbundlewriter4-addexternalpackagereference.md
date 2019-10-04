@@ -12,6 +12,8 @@ ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [Ap
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleWriter4.AddExternalPackageReference"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

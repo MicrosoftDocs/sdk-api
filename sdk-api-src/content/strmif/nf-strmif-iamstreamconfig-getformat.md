@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectS
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMStreamConfig.GetFormat"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

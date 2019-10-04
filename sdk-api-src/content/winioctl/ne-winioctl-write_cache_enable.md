@@ -12,6 +12,8 @@ ms.keywords: WRITE_CACHE_ENABLE, WRITE_CACHE_ENABLE enumeration [Files], WriteCa
 ms.topic: enum
 f1_keywords:
 - winioctl/WRITE_CACHE_ENABLE
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

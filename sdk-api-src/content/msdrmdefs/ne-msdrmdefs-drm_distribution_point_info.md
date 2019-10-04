@@ -12,6 +12,8 @@ ms.keywords: DRM_DISTRIBUTION_POINT_INFO, DRM_DISTRIBUTION_POINT_INFO enumeratio
 ms.topic: enum
 f1_keywords: 
  - "msdrmdefs/DRM_DISTRIBUTION_POINT_INFO"
+dev_langs:
+ - c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

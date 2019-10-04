@@ -12,6 +12,8 @@ ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tab
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Refresh"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElement
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Instance_SetElement"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

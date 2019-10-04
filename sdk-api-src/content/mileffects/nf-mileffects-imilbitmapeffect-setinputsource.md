@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffect interface [WPF Bitmap Effects],SetInputSource meth
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffect.SetInputSource"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

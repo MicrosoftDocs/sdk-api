@@ -12,6 +12,8 @@ ms.keywords: IConditionFactory interface [search],MakeLeaf method, IConditionFac
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IConditionFactory.MakeLeaf"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Au
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectBase.GetBuffer"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

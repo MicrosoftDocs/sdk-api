@@ -12,6 +12,8 @@ ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMa
 ms.topic: interface
 f1_keywords: 
  - "wsddisco/IWSDScopeMatchingRule"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

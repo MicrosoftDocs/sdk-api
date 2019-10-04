@@ -12,6 +12,8 @@ ms.keywords: "*PWTSCONFIGINFOW, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer
 ms.topic: struct
 f1_keywords: 
  - "wtsapi32/WTSCONFIGINFO"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.GetItem"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

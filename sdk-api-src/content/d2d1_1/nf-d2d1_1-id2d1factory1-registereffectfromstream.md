@@ -12,6 +12,8 @@ ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromStream method,
 ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Factory1.RegisterEffectFromStream
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

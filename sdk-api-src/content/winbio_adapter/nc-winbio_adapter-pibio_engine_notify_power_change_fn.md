@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterNotifyPowerChange, EngineAdapterNotifyPowerChange call
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterNotifyPowerChange
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

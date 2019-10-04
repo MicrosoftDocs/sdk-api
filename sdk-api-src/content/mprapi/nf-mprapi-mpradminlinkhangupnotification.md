@@ -12,6 +12,8 @@ ms.keywords: MprAdminLinkHangupNotification, MprAdminLinkHangupNotification call
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminLinkHangupNotification
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

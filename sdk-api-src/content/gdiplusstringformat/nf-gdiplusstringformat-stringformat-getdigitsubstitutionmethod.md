@@ -12,6 +12,8 @@ ms.keywords: GetDigitSubstitutionMethod, GetDigitSubstitutionMethod method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetDigitSubstitutionMethod"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

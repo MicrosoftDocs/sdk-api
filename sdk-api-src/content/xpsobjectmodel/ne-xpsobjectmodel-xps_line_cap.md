@@ -12,6 +12,8 @@ ms.keywords: XPS_LINE_CAP, XPS_LINE_CAP enumeration [XPS Documents and Packaging
 ms.topic: enum
 f1_keywords: 
  - "xpsobjectmodel/XPS_LINE_CAP"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

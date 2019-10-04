@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],put_Left method, IVideoWindow.p
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.put_Left"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

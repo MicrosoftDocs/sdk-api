@@ -12,6 +12,8 @@ ms.keywords: ILAppendID, ILAppendID function [Windows Shell], _win32_ILAppendID,
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILAppendID
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

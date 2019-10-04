@@ -12,6 +12,8 @@ ms.keywords: GetServiceNameEmphasized, GetServiceNameEmphasized method [Microsof
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbServiceDescriptor.GetServiceNameEmphasized"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

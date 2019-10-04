@@ -12,6 +12,8 @@ ms.keywords: "*PLUID, LUID, LUID structure [Kernel-Mode Driver Architecture], PL
 ms.topic: struct
 f1_keywords: 
  - "ntdef/LUID"
+dev_langs:
+ - c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

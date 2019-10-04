@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_LessThan, FLOATOBJ_LessThan function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_LessThan
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

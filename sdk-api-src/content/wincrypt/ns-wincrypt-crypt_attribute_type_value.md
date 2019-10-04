@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_ATTRIBUTE_TYPE_VALUE, CRYPT_AT
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ATTRIBUTE_TYPE_VALUE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

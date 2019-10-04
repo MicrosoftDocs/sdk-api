@@ -12,6 +12,8 @@ ms.keywords: IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Stor
 ms.topic: interface
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageACT2"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

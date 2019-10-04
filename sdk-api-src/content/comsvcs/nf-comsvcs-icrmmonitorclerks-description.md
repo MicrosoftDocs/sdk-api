@@ -12,6 +12,8 @@ ms.keywords: Description, Description method [COM+], Description method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorClerks.Description"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

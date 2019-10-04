@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Mov
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern.Move"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

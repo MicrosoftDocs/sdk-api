@@ -12,6 +12,8 @@ ms.keywords: XMU555, XMU555 structure [DirectX Math Support APIs], directxpacked
 ms.topic: struct
 f1_keywords: 
  - "directxpackedvector/XMU555"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

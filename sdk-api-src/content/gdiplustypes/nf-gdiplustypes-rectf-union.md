@@ -12,6 +12,8 @@ ms.keywords: RectF class [GDI+],Union method, RectF.Union, RectF::Union, Union, 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.Union"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BeginPrepare, BeginPrepare method [COM+], BeginPrepare method [COM+
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.BeginPrepare"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

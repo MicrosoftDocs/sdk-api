@@ -12,6 +12,8 @@ ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wla
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetInterface
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

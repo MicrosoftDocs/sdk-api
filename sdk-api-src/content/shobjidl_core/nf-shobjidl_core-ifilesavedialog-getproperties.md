@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileSaveDialog.GetProperties"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

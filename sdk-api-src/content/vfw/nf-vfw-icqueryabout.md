@@ -12,6 +12,8 @@ ms.keywords: ICQueryAbout, ICQueryAbout macro [Windows Multimedia], _win32_ICQue
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICQueryAbout"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

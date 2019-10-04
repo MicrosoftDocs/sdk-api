@@ -12,6 +12,8 @@ ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOp
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsObjectOptions"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

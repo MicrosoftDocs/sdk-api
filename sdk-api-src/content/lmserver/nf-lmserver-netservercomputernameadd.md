@@ -12,6 +12,8 @@ ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Networ
 ms.topic: function
 f1_keywords: 
  - "lmserver/NetServerComputerNameAdd"
+dev_langs:
+ - c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

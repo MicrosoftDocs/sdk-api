@@ -12,6 +12,8 @@ ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VS
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.FillInLunInfo
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

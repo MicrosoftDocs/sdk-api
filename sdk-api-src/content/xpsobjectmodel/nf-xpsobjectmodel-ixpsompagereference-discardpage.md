@@ -12,6 +12,8 @@ ms.keywords: DiscardPage, DiscardPage method [XPS Documents and Packaging], Disc
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPageReference.DiscardPage"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

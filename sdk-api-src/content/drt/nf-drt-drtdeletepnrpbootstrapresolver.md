@@ -12,6 +12,8 @@ ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver func
 ms.topic: function
 f1_keywords: 
  - "drt/DrtDeletePnrpBootstrapResolver"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

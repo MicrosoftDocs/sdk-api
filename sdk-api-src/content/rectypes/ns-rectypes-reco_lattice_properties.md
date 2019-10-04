@@ -12,6 +12,8 @@ ms.keywords: 1c3501a9-398d-4db1-82b2-82908e132a4a, RECO_LATTICE_PROPERTIES, RECO
 ms.topic: struct
 f1_keywords: 
  - "rectypes/RECO_LATTICE_PROPERTIES"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: INetConnectionProps interface [ICS/ICF],get_DeviceName method, INet
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnectionProps.get_DeviceName"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

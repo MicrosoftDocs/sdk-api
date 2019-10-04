@@ -12,6 +12,8 @@ ms.keywords: IAMovieSetup interface [DirectShow],Register method, IAMovieSetup.R
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMovieSetup.Register"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

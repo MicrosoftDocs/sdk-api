@@ -12,6 +12,8 @@ ms.keywords: DRMCheckSecurity, DRMCheckSecurity function [Active Directory Right
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCheckSecurity"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

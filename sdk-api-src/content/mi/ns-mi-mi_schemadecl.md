@@ -12,6 +12,8 @@ ms.keywords: MI_SchemaDecl, MI_SchemaDecl structure [Windows Management Infrastr
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_SchemaDecl"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

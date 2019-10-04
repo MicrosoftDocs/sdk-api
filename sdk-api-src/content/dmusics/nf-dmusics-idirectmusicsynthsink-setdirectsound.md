@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetDirectSound meth
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynthSink.SetDirectSound"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: SRA_ACCEPT_DESTINATION_PROVIDER, SRA_ACCEPT_SOURCE_PROVIDER, SRA_DE
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_RESOLVE_ACTION"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

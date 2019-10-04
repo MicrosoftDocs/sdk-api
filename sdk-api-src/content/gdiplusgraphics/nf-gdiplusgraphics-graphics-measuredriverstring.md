@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],MeasureDriverString method, Graphics.MeasureD
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.MeasureDriverString"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

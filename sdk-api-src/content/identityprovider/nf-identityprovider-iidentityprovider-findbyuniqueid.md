@@ -12,6 +12,8 @@ ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID me
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IIdentityProvider.FindByUniqueID"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

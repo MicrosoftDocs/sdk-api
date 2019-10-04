@@ -12,6 +12,8 @@ ms.keywords: '*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_
 ms.topic: struct
 f1_keywords:
 - winnt/ENCLAVE_INIT_INFO_SGX
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

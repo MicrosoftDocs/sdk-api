@@ -12,6 +12,8 @@ ms.keywords: Cut, Cut method [Windows Multimedia], Cut method [Windows Multimedi
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIEditStream.Cut"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

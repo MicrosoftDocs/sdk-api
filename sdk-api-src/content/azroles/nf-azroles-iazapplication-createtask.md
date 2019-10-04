@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, Crea
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.CreateTask"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

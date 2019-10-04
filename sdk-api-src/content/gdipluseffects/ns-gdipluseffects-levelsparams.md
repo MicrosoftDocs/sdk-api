@@ -12,6 +12,8 @@ ms.keywords: LevelsParams, LevelsParams structure [GDI+], _gdiplus_STRUC_LevelsP
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/LevelsParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

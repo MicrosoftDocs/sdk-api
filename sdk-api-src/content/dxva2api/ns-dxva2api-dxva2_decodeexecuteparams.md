@@ -12,6 +12,8 @@ ms.keywords: DXVA2_DecodeExecuteParams, DXVA2_DecodeExecuteParams structure [Med
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_DecodeExecuteParams
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

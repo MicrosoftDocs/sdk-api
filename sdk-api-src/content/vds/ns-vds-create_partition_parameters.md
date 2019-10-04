@@ -12,6 +12,8 @@ ms.keywords: CREATE_PARTITION_PARAMETERS, CREATE_PARTITION_PARAMETERS structure 
 ms.topic: struct
 f1_keywords:
 - vds/CREATE_PARTITION_PARAMETERS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

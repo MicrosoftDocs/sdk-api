@@ -12,6 +12,8 @@ ms.keywords: ConnectFromTrackerSource, ConnectFromTrackerSource method [Windows 
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.ConnectFromTrackerSource"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

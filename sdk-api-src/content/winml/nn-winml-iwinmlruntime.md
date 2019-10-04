@@ -12,6 +12,8 @@ ms.keywords: IWinMLRuntime, IWinMLRuntime interface, IWinMLRuntime interface,des
 ms.topic: interface
 f1_keywords: 
  - "winml/IWinMLRuntime"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

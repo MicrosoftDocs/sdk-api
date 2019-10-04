@@ -12,6 +12,8 @@ ms.keywords: CoCreateInstanceEx, CoCreateInstanceEx function [COM], _com_CoCreat
 ms.topic: function
 f1_keywords:
 - combaseapi/CoCreateInstanceEx
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

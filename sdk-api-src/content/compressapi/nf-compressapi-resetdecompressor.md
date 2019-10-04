@@ -12,6 +12,8 @@ ms.keywords: ResetDecompressor, ResetDecompressor function [Compression API], cm
 ms.topic: function
 f1_keywords: 
  - "compressapi/ResetDecompressor"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

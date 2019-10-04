@@ -12,6 +12,8 @@ ms.keywords: WS_XML_NODE_TYPE, WS_XML_NODE_TYPE enumeration [Web Services for Wi
 ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_NODE_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

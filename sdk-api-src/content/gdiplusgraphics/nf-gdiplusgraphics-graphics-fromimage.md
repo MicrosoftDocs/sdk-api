@@ -12,6 +12,8 @@ ms.keywords: FromImage, FromImage method [GDI+], FromImage method [GDI+],Graphic
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FromImage"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

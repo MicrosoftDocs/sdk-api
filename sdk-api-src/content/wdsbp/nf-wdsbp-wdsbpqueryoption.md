@@ -12,6 +12,8 @@ ms.keywords: WdsBpQueryOption, WdsBpQueryOption function [Windows Deployment Ser
 ms.topic: function
 f1_keywords: 
  - "wdsbp/WdsBpQueryOption"
+dev_langs:
+ - c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

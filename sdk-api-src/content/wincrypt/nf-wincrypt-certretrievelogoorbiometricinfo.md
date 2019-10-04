@@ -12,6 +12,8 @@ ms.keywords: CERT_RETRIEVE_BIOMETRIC_PICTURE_TYPE, CERT_RETRIEVE_BIOMETRIC_SIGNA
 ms.topic: function
 f1_keywords:
 - wincrypt/CertRetrieveLogoOrBiometricInfo
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

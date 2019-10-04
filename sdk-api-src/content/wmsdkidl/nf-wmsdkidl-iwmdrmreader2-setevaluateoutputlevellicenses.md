@@ -12,6 +12,8 @@ ms.keywords: IWMDRMReader2 interface [windows Media Format],SetEvaluateOutputLev
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMReader2.SetEvaluateOutputLevelLicenses"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

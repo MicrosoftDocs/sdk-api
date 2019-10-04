@@ -12,6 +12,8 @@ ms.keywords: '*PFILESYSTEM_STATISTICS, FILESYSTEM_STATISTICS, FILESYSTEM_STATIST
 ms.topic: struct
 f1_keywords:
 - winioctl/FILESYSTEM_STATISTICS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

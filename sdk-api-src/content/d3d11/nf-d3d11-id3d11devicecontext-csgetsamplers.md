@@ -12,6 +12,8 @@ ms.keywords: 727801db-5fe0-a11b-bb2e-70ee26a54119, CSGetSamplers, CSGetSamplers 
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSGetSamplers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

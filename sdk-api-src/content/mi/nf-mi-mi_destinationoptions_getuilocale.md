@@ -12,6 +12,8 @@ ms.keywords: MI_DestinationOptions_GetUILocale, MI_DestinationOptions_GetUILocal
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetUILocale
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

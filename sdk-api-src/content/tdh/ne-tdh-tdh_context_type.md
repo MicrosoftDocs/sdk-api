@@ -12,6 +12,8 @@ ms.keywords: TDH_CONTEXT_MAXIMUM, TDH_CONTEXT_PDB_PATH, TDH_CONTEXT_POINTERSIZE,
 ms.topic: enum
 f1_keywords:
 - tdh/TDH_CONTEXT_TYPE
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

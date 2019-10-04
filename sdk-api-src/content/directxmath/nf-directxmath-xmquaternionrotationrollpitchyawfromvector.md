@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionRotationRollPitchYawFromVector, XMQuaterni
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionRotationRollPitchYawFromVector"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

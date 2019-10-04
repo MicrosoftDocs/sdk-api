@@ -12,6 +12,8 @@ ms.keywords: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7, IMF2DBuffer, IMF2DBuffer inte
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMF2DBuffer"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

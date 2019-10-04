@@ -12,6 +12,8 @@ ms.keywords: IServicePoolConfig interface [COM+],put_CreationTimeout method, ISe
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IServicePoolConfig.put_CreationTimeout"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, 
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificate.UIContextMessage"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

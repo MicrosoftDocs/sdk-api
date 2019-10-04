@@ -12,6 +12,8 @@ ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], Cre
 ms.topic: method
 f1_keywords: 
  - "rend/ITRendezvous.CreateDirectoryObject"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

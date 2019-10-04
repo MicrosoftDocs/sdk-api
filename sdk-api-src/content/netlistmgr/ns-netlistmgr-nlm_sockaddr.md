@@ -12,6 +12,8 @@ ms.keywords: NLM_SOCKADDR, NLM_SOCKADDR structure [Network Awareness], PNLM_SOCK
 ms.topic: struct
 f1_keywords: 
  - "netlistmgr/NLM_SOCKADDR"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

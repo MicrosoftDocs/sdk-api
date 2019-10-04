@@ -12,6 +12,8 @@ ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win
 ms.topic: function
 f1_keywords: 
  - "winuser/WinHelp"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

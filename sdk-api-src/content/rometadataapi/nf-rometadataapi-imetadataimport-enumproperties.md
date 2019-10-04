@@ -12,6 +12,8 @@ ms.keywords: EnumProperties, EnumProperties method [Windows Runtime], EnumProper
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.EnumProperties"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

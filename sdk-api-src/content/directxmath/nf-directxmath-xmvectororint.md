@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorOrInt, XMVectorOrInt, XMVectorOrInt method [Di
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorOrInt"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy meth
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFOutputTrustAuthority.SetPolicy"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

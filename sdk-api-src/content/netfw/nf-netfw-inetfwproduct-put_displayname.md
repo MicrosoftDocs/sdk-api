@@ -12,6 +12,8 @@ ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INet
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwProduct.DisplayName"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

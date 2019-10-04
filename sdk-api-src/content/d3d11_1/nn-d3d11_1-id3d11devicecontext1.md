@@ -12,6 +12,8 @@ ms.keywords: ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11],
 ms.topic: interface
 f1_keywords: 
  - "d3d11_1/ID3D11DeviceContext1"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

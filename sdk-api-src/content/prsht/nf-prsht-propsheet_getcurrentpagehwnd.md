@@ -12,6 +12,8 @@ ms.keywords: PropSheet_GetCurrentPageHwnd, PropSheet_GetCurrentPageHwnd macro [W
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_GetCurrentPageHwnd
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

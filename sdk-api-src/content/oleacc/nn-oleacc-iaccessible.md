@@ -12,6 +12,8 @@ ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccess
 ms.topic: interface
 f1_keywords: 
  - "oleacc/IAccessible"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

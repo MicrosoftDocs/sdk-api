@@ -12,6 +12,8 @@ ms.keywords: FNFCIFILEPLACED, FNFCIFILEPLACED macro [Windows API], fci/FNFCIFILE
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCIFILEPLACED"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

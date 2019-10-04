@@ -12,6 +12,8 @@ ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_OrbitalPosit
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSLocator.get_OrbitalPosition"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

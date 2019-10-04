@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_ATTRIBUTE_TAG_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FillRegion, FillRegion method [GDI+], FillRegion method [GDI+],Grap
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FillRegion"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

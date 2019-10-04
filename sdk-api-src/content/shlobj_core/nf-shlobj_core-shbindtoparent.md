@@ -12,6 +12,8 @@ ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHB
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHBindToParent"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

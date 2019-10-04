@@ -12,6 +12,8 @@ ms.keywords: 16bada79-bbf9-2bb3-c2f1-cae31cf742be, GetMaximumFrameLatency, GetMa
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.GetMaximumFrameLatency"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

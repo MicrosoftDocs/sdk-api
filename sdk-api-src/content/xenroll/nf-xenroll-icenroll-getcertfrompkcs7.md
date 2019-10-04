@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],getCertFromPKCS7 method, ICEnroll interfa
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.getCertFromPKCS7"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

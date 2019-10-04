@@ -12,6 +12,8 @@ ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Fra
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnGetSAPIObject"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

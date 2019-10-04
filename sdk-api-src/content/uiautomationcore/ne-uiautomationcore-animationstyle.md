@@ -12,6 +12,8 @@ ms.keywords: AnimationStyle, AnimationStyle enumeration [Windows Accessibility],
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/AnimationStyle"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timepr
 ms.topic: struct
 f1_keywords: 
  - "timeprov/TimeProvSysCallbacks"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

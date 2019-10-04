@@ -12,6 +12,8 @@ ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method 
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager2.DeleteCatalog"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

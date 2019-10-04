@@ -12,6 +12,8 @@ ms.keywords: BindIFilterFromStream, BindIFilterFromStream function [Indexing Ser
 ms.topic: function
 f1_keywords: 
  - "ntquery/BindIFilterFromStream"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

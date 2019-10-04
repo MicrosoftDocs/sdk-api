@@ -12,6 +12,8 @@ ms.keywords: CommitItem, CommitItem method [Windows Shell], CommitItem method [W
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncCallback.CommitItem"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSearchInfoFlags, GetSearchInfoFlags method [Windows Properties],
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescriptionSearchInfo.GetSearchInfoFlags"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

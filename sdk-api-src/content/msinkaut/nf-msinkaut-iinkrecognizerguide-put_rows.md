@@ -12,6 +12,8 @@ ms.keywords: 5b1204ca-40b0-4752-8294-6f94412e8e7c, IInkRecognizerGuide interface
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerGuide.Rows"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

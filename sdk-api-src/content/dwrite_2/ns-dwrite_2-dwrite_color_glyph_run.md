@@ -12,6 +12,8 @@ ms.keywords: DWRITE_COLOR_GLYPH_RUN, DWRITE_COLOR_GLYPH_RUN structure [Direct Wr
 ms.topic: struct
 f1_keywords: 
  - "dwrite_2/DWRITE_COLOR_GLYPH_RUN"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

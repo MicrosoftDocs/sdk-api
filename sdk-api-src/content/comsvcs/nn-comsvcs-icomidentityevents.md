@@ -12,6 +12,8 @@ ms.keywords: IComIdentityEvents, IComIdentityEvents interface [COM+], IComIdenti
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComIdentityEvents"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

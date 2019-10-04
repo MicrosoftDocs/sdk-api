@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISen
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorCollection.Clear"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

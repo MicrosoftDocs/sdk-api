@@ -12,6 +12,8 @@ ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Dire
 ms.topic: interface
 f1_keywords: 
  - "dsadmin/IDsAdminNotifyHandler"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

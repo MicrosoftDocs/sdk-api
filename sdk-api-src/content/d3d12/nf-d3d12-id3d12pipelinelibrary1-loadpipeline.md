@@ -12,6 +12,8 @@ ms.keywords: ID3D12PipelineLibrary1 interface,LoadPipeline method, ID3D12Pipelin
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12PipelineLibrary1.LoadPipeline"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

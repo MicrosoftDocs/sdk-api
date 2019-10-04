@@ -12,6 +12,8 @@ ms.keywords: "*PPEERDIST_RETRIEVAL_OPTIONS, PEERDIST_RETRIEVAL_OPTIONS, PEERDIST
 ms.topic: struct
 f1_keywords: 
  - "peerdist/PEERDIST_RETRIEVAL_OPTIONS"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

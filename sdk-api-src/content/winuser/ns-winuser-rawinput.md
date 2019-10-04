@@ -12,6 +12,8 @@ ms.keywords: "*LPRAWINPUT, *PRAWINPUT, LPRAWINPUT, LPRAWINPUT structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "winuser/RAWINPUT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

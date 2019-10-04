@@ -12,6 +12,8 @@ ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBu
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/IRpcChannelBuffer"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

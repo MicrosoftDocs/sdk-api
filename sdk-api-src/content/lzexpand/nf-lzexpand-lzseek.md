@@ -12,6 +12,8 @@ ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzs
 ms.topic: function
 f1_keywords: 
  - "lzexpand/LZSeek"
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

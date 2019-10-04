@@ -12,6 +12,8 @@ ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlush
 ms.topic: function
 f1_keywords: 
  - "fci/FCIFlushFolder"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

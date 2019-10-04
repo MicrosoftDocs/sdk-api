@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgDocument interface [Direct2D],Serialize method, ID2D1SvgDoc
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgDocument.Serialize"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WINBIO_COMPONENT_ENGINE, WINBIO_COMPONENT_SENSOR, WINBIO_COMPONENT_
 ms.topic: function
 f1_keywords:
 - winbio/WinBioControlUnit
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

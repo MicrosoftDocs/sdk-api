@@ -12,6 +12,8 @@ ms.keywords: 049a5742-fc4f-4a9a-91d5-5eec56dc8e8b, Confidence property [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionAlternate.Confidence"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

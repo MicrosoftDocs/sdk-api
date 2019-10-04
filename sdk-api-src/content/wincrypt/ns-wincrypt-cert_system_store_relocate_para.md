@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

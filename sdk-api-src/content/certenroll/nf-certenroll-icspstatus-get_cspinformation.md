@@ -12,6 +12,8 @@ ms.keywords: CspInformation property [Security], CspInformation property [Securi
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspStatus.CspInformation"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

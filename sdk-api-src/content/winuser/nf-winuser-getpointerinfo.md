@@ -12,6 +12,8 @@ ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notific
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

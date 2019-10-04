@@ -12,6 +12,8 @@ ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "tuner/IScanningTunerEx.GetTunerStatus"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

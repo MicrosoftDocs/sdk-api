@@ -12,6 +12,8 @@ ms.keywords: CopyItem, CopyItem method [Windows Shell], CopyItem method [Windows
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileOperation.CopyItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

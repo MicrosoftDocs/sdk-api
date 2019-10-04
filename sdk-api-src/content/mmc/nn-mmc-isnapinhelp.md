@@ -12,6 +12,8 @@ ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MM
 ms.topic: interface
 f1_keywords: 
  - "mmc/ISnapinHelp"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

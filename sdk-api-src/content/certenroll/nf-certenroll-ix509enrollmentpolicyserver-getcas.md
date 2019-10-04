@@ -12,6 +12,8 @@ ms.keywords: GetCAs, GetCAs method [Security], GetCAs method [Security],IX509Enr
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EnrollmentPolicyServer.GetCAs"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IPADDRROW, *PMIB_IPADDRROW_W2K, MIB_IPADDRROW, MIB_IPADDRROW
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPADDRROW
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

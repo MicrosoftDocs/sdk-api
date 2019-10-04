@@ -12,6 +12,8 @@ ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTC
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTCloseProvider"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

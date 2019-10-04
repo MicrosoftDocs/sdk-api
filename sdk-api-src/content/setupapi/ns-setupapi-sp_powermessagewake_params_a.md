@@ -12,6 +12,8 @@ ms.keywords: '*PSP_POWERMESSAGEWAKE_PARAMS_A, PSP_POWERMESSAGEWAKE_PARAMS, PSP_P
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_POWERMESSAGEWAKE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

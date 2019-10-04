@@ -12,6 +12,8 @@ ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate pr
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings.AllowHardTerminate"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

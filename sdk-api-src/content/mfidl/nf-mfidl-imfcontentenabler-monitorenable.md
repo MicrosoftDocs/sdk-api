@@ -12,6 +12,8 @@ ms.keywords: 78fc4a17-f58c-4654-b37e-6b988848ff0d, IMFContentEnabler interface [
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentEnabler.MonitorEnable"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

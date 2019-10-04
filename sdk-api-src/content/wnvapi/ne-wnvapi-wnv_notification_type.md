@@ -12,6 +12,8 @@ ms.keywords: '*PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION
 ms.topic: enum
 f1_keywords:
 - wnvapi/WNV_NOTIFICATION_TYPE
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

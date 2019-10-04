@@ -12,6 +12,8 @@ ms.keywords: WS_EXCEPTION_CODE, WS_EXCEPTION_CODE enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_EXCEPTION_CODE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

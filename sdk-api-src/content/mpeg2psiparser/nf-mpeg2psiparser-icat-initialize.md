@@ -12,6 +12,8 @@ ms.keywords: ICAT interface [Microsoft TV Technologies],Initialize method, ICAT.
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/ICAT.Initialize"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

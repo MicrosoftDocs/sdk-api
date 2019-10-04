@@ -12,6 +12,8 @@ ms.keywords: EndTime property [Remote Desktop Services], EndTime property [Remot
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbTaskInfo.EndTime"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

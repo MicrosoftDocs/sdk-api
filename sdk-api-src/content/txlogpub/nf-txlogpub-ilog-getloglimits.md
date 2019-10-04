@@ -12,6 +12,8 @@ ms.keywords: GetLogLimits, GetLogLimits method [COM], GetLogLimits method [COM],
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.GetLogLimits"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

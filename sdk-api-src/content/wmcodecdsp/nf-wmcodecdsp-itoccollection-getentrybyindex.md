@@ -12,6 +12,8 @@ ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntr
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocCollection.GetEntryByIndex"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

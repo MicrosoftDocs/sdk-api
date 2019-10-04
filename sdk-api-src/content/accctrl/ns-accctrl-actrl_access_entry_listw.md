@@ -12,6 +12,8 @@ ms.keywords: "*PACTRL_ACCESS_ENTRY_LISTW, ACTRL_ACCESS_ENTRY_LIST, ACTRL_ACCESS_
 ms.topic: struct
 f1_keywords: 
  - "accctrl/ACTRL_ACCESS_ENTRY_LIST"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

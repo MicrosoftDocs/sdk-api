@@ -12,6 +12,8 @@ ms.keywords: D2D1_CONTRAST_PROP, D2D1_CONTRAST_PROP enumeration [Direct2D], D2D1
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects_2/D2D1_CONTRAST_PROP"
+dev_langs:
+ - c++
 req.header: d2d1effects_2.h
 req.include-header: D2d1_effects_2.h
 req.target-type: Windows

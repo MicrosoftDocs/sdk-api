@@ -12,6 +12,8 @@ ms.keywords: "?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z, ?SetString
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetStringArray"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

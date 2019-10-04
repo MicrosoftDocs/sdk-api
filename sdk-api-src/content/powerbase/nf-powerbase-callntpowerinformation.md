@@ -12,6 +12,8 @@ ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInform
 ms.topic: function
 f1_keywords:
 - powerbase/CallNtPowerInformation
+dev_langs:
+ - c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

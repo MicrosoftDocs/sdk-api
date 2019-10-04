@@ -12,6 +12,8 @@ ms.keywords: FindElementById, FindElementById method [Direct2D], FindElementById
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgDocument.FindElementById"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

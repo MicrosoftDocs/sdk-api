@@ -12,6 +12,8 @@ ms.keywords: "*POCTET_STRING, OCTET_STRING, OCTET_STRING structure [NDF], OCTET_
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/OCTET_STRING, *POCTET_STRING"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

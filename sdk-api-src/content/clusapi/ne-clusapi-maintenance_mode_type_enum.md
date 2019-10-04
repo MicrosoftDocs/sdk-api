@@ -12,6 +12,8 @@ ms.keywords: '*PMAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM, MAINTENA
 ms.topic: enum
 f1_keywords:
 - clusapi/MAINTENANCE_MODE_TYPE_ENUM
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

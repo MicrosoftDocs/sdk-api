@@ -12,6 +12,8 @@ ms.keywords: DisableThreadLibraryCalls, DisableThreadLibraryCalls function, _win
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/DisableThreadLibraryCalls"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

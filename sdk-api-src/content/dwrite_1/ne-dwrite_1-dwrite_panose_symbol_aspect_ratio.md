@@ -12,6 +12,8 @@ ms.keywords: DWRITE_PANOSE_SYMBOL_ASPECT_RATIO, DWRITE_PANOSE_SYMBOL_ASPECT_RATI
 ms.topic: enum
 f1_keywords: 
  - "dwrite_1/DWRITE_PANOSE_SYMBOL_ASPECT_RATIO"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

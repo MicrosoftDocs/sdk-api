@@ -12,6 +12,8 @@ ms.keywords: PWLX_SET_TIMEOUT, PWLX_SET_TIMEOUT callback, WlxSetTimeout, WlxSetT
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSetTimeout"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

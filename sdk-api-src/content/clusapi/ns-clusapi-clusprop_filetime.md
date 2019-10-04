@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structur
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_FILETIME"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

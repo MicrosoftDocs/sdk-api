@@ -12,6 +12,8 @@ ms.keywords: 78efcd28-7095-49f7-b660-9744b1ccf93e, GetRectangle, GetRectangle me
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRectangle.GetRectangle"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

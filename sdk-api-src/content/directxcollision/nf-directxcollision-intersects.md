@@ -8,6 +8,8 @@ ms.keywords: Intersects
 ms.topic: language-reference
 f1_keywords: 
  - "directxcollision/Intersects"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

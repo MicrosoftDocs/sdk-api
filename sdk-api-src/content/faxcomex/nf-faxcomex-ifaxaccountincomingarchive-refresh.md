@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],Refresh method, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountIncomingArchive.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

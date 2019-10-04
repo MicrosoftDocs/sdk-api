@@ -12,6 +12,8 @@ ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, 
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetProvParam
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

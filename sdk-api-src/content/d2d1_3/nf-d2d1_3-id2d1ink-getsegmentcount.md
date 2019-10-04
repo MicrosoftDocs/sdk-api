@@ -12,6 +12,8 @@ ms.keywords: GetSegmentCount, GetSegmentCount method [Direct2D], GetSegmentCount
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1Ink.GetSegmentCount"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

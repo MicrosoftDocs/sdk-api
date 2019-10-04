@@ -12,6 +12,8 @@ ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, Def
 ms.topic: enum
 f1_keywords: 
  - "davclnt/AUTHNEXTSTEP"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

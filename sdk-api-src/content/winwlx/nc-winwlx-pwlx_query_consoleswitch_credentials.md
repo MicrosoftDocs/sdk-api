@@ -12,6 +12,8 @@ ms.keywords: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS, PWLX_QUERY_CONSOLESWITCH_CRED
 ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryConsoleSwitchCredentials
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

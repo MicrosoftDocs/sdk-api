@@ -12,6 +12,8 @@ ms.keywords: IURLSearchHook, IURLSearchHook interface [Windows Shell], IURLSearc
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IURLSearchHook"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

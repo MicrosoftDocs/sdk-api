@@ -12,6 +12,8 @@ ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/
 ms.topic: interface
 f1_keywords: 
  - "netfw/INetFwMgr"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

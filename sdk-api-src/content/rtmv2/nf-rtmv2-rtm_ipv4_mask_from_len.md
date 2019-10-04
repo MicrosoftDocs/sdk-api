@@ -12,6 +12,8 @@ ms.keywords: RTM_IPV4_MASK_FROM_LEN, RTM_IPV4_MASK_FROM_LEN macro [RAS], _rtmv2r
 ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_IPV4_MASK_FROM_LEN
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

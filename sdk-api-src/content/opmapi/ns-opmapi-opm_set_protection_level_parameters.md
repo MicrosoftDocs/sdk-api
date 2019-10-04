@@ -12,6 +12,8 @@ ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAM
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

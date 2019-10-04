@@ -12,6 +12,8 @@ ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface 
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICPlanarBitmapFrameEncode"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

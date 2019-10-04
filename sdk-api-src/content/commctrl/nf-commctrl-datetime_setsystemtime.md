@@ -12,6 +12,8 @@ ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_SetSystemtime"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordEITScheduleFlag, GetRecordEITScheduleFlag method [Microsof
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_SDT.GetRecordEITScheduleFlag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

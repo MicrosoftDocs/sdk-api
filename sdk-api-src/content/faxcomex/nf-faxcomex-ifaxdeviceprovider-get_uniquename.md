@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProvider interface [Fax Service],UniqueName property, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProvider.UniqueName"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

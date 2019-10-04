@@ -12,6 +12,8 @@ ms.keywords: MBN_READY_STATE, MBN_READY_STATE enumeration [Microsoft Broadband N
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_READY_STATE"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPAT.GetRecordProgramMapPid"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreat
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateTopologyNode"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

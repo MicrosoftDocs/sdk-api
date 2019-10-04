@@ -12,6 +12,8 @@ ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, nc
 ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_NAMESPACE
+dev_langs:
+ - c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows

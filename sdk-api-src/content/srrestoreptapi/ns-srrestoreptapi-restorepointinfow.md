@@ -12,6 +12,8 @@ ms.keywords: "*PRESTOREPOINTINFOW, APPLICATION_INSTALL, APPLICATION_UNINSTALL, B
 ms.topic: struct
 f1_keywords: 
  - "srrestoreptapi/RESTOREPOINTINFO"
+dev_langs:
+ - c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows

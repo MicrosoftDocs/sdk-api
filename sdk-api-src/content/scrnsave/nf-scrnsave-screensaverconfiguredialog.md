@@ -12,6 +12,8 @@ ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Wi
 ms.topic: function
 f1_keywords: 
  - "scrnsave/ScreenSaverConfigureDialog"
+dev_langs:
+ - c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPOWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE, POWER_PLATFORM_ROLE en
 ms.topic: enum
 f1_keywords: 
  - "winnt/POWER_PLATFORM_ROLE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

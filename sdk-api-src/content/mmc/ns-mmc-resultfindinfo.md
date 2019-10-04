@@ -12,6 +12,8 @@ ms.keywords: "*LPRESULTFINDINFO, LPRESULTFINDINFO, LPRESULTFINDINFO structure po
 ms.topic: struct
 f1_keywords: 
  - "mmc/RESULTFINDINFO"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

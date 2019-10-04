@@ -12,6 +12,8 @@ ms.keywords: '*PSI_INHERIT_TYPE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT
 ms.topic: struct
 f1_keywords:
 - aclui/SI_INHERIT_TYPE
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

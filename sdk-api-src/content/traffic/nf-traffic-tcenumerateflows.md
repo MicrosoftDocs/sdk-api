@@ -12,6 +12,8 @@ ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerat
 ms.topic: function
 f1_keywords:
 - traffic/TcEnumerateFlows
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

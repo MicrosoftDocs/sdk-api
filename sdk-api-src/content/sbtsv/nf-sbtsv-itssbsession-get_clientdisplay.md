@@ -12,6 +12,8 @@ ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay pro
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbSession.ClientDisplay"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

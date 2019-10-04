@@ -12,6 +12,8 @@ ms.keywords: PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_DELETED, PRJ_NOTIFY_FILE_HANDLE_
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_NOTIFY_TYPES"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

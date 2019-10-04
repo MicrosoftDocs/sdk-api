@@ -12,6 +12,8 @@ ms.keywords: GetChar16Array, GetChar16Array method [Windows Runtime], GetChar16A
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetChar16Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

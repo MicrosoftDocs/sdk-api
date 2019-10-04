@@ -12,6 +12,8 @@ ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, 
 ms.topic: method
 f1_keywords: 
  - "dcompanimation/IDCompositionAnimation.Reset"
+dev_langs:
+ - c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows

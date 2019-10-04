@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface 
 ms.topic: interface
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportServicePolicy2"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

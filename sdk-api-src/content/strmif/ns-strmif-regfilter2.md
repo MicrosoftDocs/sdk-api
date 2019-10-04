@@ -12,6 +12,8 @@ ms.keywords: REGFILTER2, REGFILTER2 structure [DirectShow], REGFILTER2Structure,
 ms.topic: struct
 f1_keywords: 
  - "strmif/REGFILTER2"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

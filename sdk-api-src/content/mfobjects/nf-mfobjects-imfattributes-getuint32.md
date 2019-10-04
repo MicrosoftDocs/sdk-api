@@ -12,6 +12,8 @@ ms.keywords: GetUINT32, GetUINT32 method [Media Foundation], GetUINT32 method [M
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetUINT32
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

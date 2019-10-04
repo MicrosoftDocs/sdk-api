@@ -12,6 +12,8 @@ ms.keywords: WS_DEFAULT_VALUE, WS_DEFAULT_VALUE structure [Web Services for Wind
 ms.topic: struct
 f1_keywords:
 - webservices/WS_DEFAULT_VALUE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

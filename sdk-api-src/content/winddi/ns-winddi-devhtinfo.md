@@ -12,6 +12,8 @@ ms.keywords: '*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDE
 ms.topic: struct
 f1_keywords:
 - winddi/DEVHTINFO
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

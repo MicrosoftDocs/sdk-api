@@ -12,6 +12,8 @@ ms.keywords: DdReleaseDC, DdReleaseDC function [Windows API], GdiEntry8, _dxgker
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdReleaseDC"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

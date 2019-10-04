@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEGENERATETONE, LINEGENERATETONE, LINEGENERATETONE structure 
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEGENERATETONE"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

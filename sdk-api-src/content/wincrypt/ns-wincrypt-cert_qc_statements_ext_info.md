@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_QC_STATEMENTS_EXT_INFO, CERT_QC_STATEMENTS_EXT_INFO, CERT_Q
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_QC_STATEMENTS_EXT_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

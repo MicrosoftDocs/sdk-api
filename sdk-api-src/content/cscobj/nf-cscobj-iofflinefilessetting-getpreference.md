@@ -12,6 +12,8 @@ ms.keywords: GetPreference, GetPreference method [Offline Files], GetPreference 
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSetting.GetPreference"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

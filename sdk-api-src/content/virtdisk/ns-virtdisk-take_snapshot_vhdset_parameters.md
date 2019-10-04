@@ -12,6 +12,8 @@ ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_PARAMETERS, PTAKE_SNAPSHOT_VHDSET_PARAMETER
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

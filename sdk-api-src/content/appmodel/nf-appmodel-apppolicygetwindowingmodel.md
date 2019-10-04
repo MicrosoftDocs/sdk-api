@@ -12,6 +12,8 @@ ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [Ap
 ms.topic: function
 f1_keywords: 
  - "appmodel/AppPolicyGetWindowingModel"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

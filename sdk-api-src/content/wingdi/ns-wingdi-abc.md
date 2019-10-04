@@ -12,6 +12,8 @@ ms.keywords: "*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PAB
 ms.topic: struct
 f1_keywords: 
  - "wingdi/ABC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

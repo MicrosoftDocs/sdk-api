@@ -12,6 +12,8 @@ ms.keywords: IInvokeProvider interface [Windows Accessibility],Invoke method, II
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IInvokeProvider.Invoke"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

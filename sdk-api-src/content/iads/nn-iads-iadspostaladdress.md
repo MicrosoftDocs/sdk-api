@@ -12,6 +12,8 @@ ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAd
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsPostalAddress"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

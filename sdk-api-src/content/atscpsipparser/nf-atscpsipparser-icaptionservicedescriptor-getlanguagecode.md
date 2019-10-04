@@ -12,6 +12,8 @@ ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor.GetLanguageCode"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

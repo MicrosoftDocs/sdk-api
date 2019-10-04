@@ -12,6 +12,8 @@ ms.keywords: INetFwPolicy2 interface [ICS/ICF],get_IsRuleGroupCurrentlyEnabled m
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscovery interface,RemoveInstance method, IFunctionDiscov
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery.RemoveInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

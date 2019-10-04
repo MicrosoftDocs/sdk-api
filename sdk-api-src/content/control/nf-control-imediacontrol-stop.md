@@ -12,6 +12,8 @@ ms.keywords: IMediaControl interface [DirectShow],Stop method, IMediaControl.Sto
 ms.topic: method
 f1_keywords: 
  - "control/IMediaControl.Stop"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

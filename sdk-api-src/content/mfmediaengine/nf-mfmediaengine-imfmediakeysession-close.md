@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeySession.Close"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

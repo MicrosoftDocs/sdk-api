@@ -12,6 +12,8 @@ ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTas
 ms.topic: function
 f1_keywords: 
  - "mmddk/mmTaskYield"
+dev_langs:
+ - c++
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

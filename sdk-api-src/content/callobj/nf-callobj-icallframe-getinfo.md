@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [COM], GetInfo method [COM],ICallFrame inte
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallFrame.GetInfo"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

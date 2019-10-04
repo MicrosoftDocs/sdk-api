@@ -12,6 +12,8 @@ ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION, IOCTL_KEYBOARD_QUERY_IN
 ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

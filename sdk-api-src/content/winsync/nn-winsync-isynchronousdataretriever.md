@@ -12,6 +12,8 @@ ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Win
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISynchronousDataRetriever"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

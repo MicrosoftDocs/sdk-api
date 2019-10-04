@@ -12,6 +12,8 @@ ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsF
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IResultsFolder"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

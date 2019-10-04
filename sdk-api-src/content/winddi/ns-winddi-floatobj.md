@@ -12,6 +12,8 @@ ms.keywords: "*PFLOATOBJ, FLOATOBJ, FLOATOBJ structure [Display Devices], PFLOAT
 ms.topic: struct
 f1_keywords: 
  - "winddi/FLOATOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

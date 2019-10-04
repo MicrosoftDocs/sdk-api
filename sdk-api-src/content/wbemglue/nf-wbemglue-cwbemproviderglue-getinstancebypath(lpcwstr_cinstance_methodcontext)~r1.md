@@ -12,6 +12,8 @@ ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEA
 ms.topic: method
 f1_keywords: 
  - "wbemglue/CWbemProviderGlue.GetInstanceByPath"
+dev_langs:
+ - c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

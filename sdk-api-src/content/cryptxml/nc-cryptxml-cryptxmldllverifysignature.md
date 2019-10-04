@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, Cr
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllVerifySignature
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

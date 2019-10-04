@@ -12,6 +12,8 @@ ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirect
 ms.topic: interface
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoder"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

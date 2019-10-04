@@ -12,6 +12,8 @@ ms.keywords: XMFLOAT3X3 structure [DirectX Math Support APIs],operator () method
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMFLOAT3X3.operator ()"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

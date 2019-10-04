@@ -12,6 +12,8 @@ ms.keywords: '*PSSTP_CONFIG_PARAMS, CALG_SHA_256, MPR_ENABLE_RAS_ON_DEVICE, SSTP
 ms.topic: struct
 f1_keywords:
 - mprapi/SSTP_CONFIG_PARAMS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

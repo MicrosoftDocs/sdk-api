@@ -12,6 +12,8 @@ ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and m
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBundleReader"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

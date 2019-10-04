@@ -12,6 +12,8 @@ ms.keywords: "*LPENUMTEXTMETRICW, *PENUMTEXTMETRICW, ENUMTEXTMETRIC, ENUMTEXTMET
 ms.topic: struct
 f1_keywords: 
  - "wingdi/ENUMTEXTMETRIC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

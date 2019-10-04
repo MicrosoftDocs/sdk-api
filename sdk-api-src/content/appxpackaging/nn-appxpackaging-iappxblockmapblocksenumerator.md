@@ -12,6 +12,8 @@ ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interf
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxBlockMapBlocksEnumerator"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

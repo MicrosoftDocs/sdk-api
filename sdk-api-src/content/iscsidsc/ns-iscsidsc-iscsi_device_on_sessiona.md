@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_
 ms.topic: struct
 f1_keywords: 
  - "iscsidsc/ISCSI_DEVICE_ON_SESSION"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

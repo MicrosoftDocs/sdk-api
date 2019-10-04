@@ -12,6 +12,8 @@ ms.keywords: IsPropertyReadOnly, IsValueBindingExpression, IsValueCollection, Is
 ms.topic: enum
 f1_keywords: 
  - "xamlom/MetadataBit"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

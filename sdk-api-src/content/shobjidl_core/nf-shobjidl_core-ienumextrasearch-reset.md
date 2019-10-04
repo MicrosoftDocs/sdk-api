@@ -12,6 +12,8 @@ ms.keywords: IEnumExtraSearch interface [Windows Shell],Reset method, IEnumExtra
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IEnumExtraSearch.Reset"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

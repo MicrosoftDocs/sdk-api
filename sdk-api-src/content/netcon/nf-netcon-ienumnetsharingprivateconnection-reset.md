@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Reset method, 
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingPrivateConnection.Reset"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WICDdsDimension, WICDdsDimension enumeration [Windows Imaging Compo
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICDdsDimension"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

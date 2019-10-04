@@ -12,6 +12,8 @@ ms.keywords: "*PMS_ADDINFO_BLOB, MS_ADDINFO_BLOB, MS_ADDINFO_BLOB structure [Sec
 ms.topic: struct
 f1_keywords: 
  - "mssip/MS_ADDINFO_BLOB"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

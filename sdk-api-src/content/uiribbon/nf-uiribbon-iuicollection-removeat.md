@@ -12,6 +12,8 @@ ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollec
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUICollection.RemoveAt"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

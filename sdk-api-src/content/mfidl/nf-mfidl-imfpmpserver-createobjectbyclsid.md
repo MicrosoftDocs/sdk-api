@@ -12,6 +12,8 @@ ms.keywords: CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPServer.CreateObjectByCLSID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

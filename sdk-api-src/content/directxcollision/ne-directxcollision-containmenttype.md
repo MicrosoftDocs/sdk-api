@@ -12,6 +12,8 @@ ms.keywords: CONTAINS, ContainmentType, ContainmentType enumeration [DirectX Mat
 ms.topic: enum
 f1_keywords: 
  - "directxcollision/ContainmentType"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

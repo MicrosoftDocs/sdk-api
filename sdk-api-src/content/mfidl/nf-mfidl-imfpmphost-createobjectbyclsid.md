@@ -12,6 +12,8 @@ ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateOb
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPHost.CreateObjectByCLSID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES, PUSN_TRAC
 ms.topic: struct
 f1_keywords: 
  - "winioctl/USN_TRACK_MODIFIED_RANGES"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

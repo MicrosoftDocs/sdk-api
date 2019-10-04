@@ -12,6 +12,8 @@ ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateMuxStreamAttributes"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

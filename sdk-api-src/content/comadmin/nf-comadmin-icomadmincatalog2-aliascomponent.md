@@ -12,6 +12,8 @@ ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.AliasComponent"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

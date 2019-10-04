@@ -12,6 +12,8 @@ ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertif
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DCryptoSession9.GetCertificate
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

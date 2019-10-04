@@ -12,6 +12,8 @@ ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakRef
 ms.topic: method
 f1_keywords: 
  - "weakreference/IWeakReference.Resolve"
+dev_langs:
+ - c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows

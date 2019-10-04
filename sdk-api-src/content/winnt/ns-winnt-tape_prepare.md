@@ -12,6 +12,8 @@ ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Ba
 ms.topic: struct
 f1_keywords: 
  - "winnt/TAPE_PREPARE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

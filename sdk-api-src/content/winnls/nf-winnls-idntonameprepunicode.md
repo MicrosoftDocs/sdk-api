@@ -12,6 +12,8 @@ ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationali
 ms.topic: function
 f1_keywords: 
  - "winnls/IdnToNameprepUnicode"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

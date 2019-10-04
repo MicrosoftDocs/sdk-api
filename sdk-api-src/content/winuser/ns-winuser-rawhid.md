@@ -12,6 +12,8 @@ ms.keywords: "*LPRAWHID, *PRAWHID, LPRAWHID, LPRAWHID structure pointer [Keyboar
 ms.topic: struct
 f1_keywords: 
  - "winuser/RAWHID"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

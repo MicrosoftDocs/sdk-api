@@ -12,6 +12,8 @@ ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidDeviceEvent.StateChange"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

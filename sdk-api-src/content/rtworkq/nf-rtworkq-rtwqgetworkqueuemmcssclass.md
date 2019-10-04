@@ -12,6 +12,8 @@ ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, ba
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqGetWorkQueueMMCSSClass"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCO
 ms.topic: struct
 f1_keywords: 
  - "dsquery/DSCOLUMN"
+dev_langs:
+ - c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows

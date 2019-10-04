@@ -12,6 +12,8 @@ ms.keywords: DRMCreateLicenseStorageSession, DRMCreateLicenseStorageSession func
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCreateLicenseStorageSession"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

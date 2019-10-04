@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL
 ms.topic: enum
 f1_keywords: 
  - "winioctl/STORAGE_PROTOCOL_TYPE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

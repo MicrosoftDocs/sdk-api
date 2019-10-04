@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [Windows GDI], Cancel method [Windows GDI],IX
 ms.topic: method
 f1_keywords: 
  - "xpsprint/IXpsPrintJob.Cancel"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

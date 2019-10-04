@@ -12,6 +12,8 @@ ms.keywords: D3D11_CREATE_DEVICE_BGRA_SUPPORT, D3D11_CREATE_DEVICE_DEBUG, D3D11_
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_CREATE_DEVICE_FLAG"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_alig
 ms.topic: macro
 f1_keywords: 
  - "clusapi/ALIGN_CLUSPROP"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPSEC_CIPHER_TYPE, IPSEC_CIPHER_TYPE enumeration [Filtering], IPSEC
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_CIPHER_TYPE"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

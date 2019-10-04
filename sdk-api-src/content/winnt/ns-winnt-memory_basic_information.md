@@ -12,6 +12,8 @@ ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC
 ms.topic: struct
 f1_keywords: 
  - "winnt/MEMORY_BASIC_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

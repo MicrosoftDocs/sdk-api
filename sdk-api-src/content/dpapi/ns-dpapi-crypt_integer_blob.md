@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_BLOB, *PCERT_NAME_BLOB, *PCERT_RDN_VALUE_BLOB, *PCRL_BLOB, 
 ms.topic: struct
 f1_keywords:
 - dpapi/CRYPT_INTEGER_BLOB
+dev_langs:
+ - c++
 req.header: dpapi.h
 req.include-header: Wincrypt.h
 req.target-type: Windows

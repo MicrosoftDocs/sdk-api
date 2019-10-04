@@ -12,6 +12,8 @@ ms.keywords: 079df25a-69e1-b3d9-2c55-6e1eee17b40f, GetDesc, GetDesc method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ShaderResourceView.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSecureChannel.SetupSession"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

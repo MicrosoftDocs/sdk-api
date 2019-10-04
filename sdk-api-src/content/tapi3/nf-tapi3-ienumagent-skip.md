@@ -12,6 +12,8 @@ ms.keywords: IEnumAgent interface [TAPI 2.2],Skip method, IEnumAgent.Skip, IEnum
 ms.topic: method
 f1_keywords: 
  - "tapi3/IEnumAgent.Skip"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddDictionaryItem, AddDictionaryItem method, AddDictionaryItem meth
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService3.AddDictionaryItem"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

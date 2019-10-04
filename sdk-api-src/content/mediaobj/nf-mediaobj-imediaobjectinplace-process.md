@@ -12,6 +12,8 @@ ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaOb
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObjectInPlace.Process"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

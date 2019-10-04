@@ -12,6 +12,8 @@ ms.keywords: PropSheet_HwndToIndex, PropSheet_HwndToIndex macro [Windows Control
 ms.topic: macro
 f1_keywords: 
  - "prsht/PropSheet_HwndToIndex"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddRoot, AddRoot method [search], AddRoot method [search],ISearchCr
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCrawlScopeManager.AddRoot"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

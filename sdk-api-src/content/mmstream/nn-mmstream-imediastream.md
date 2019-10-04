@@ -12,6 +12,8 @@ ms.keywords: IMediaStream, IMediaStream interface [DirectShow], IMediaStream int
 ms.topic: interface
 f1_keywords: 
  - "mmstream/IMediaStream"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

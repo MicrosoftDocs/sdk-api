@@ -12,6 +12,8 @@ ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info,
 ms.topic: method
 f1_keywords:
 - vfw/IAVIFile.Info
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

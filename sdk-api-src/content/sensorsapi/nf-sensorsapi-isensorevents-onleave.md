@@ -12,6 +12,8 @@ ms.keywords: ISensorEvents interface,OnLeave method, ISensorEvents.OnLeave, ISen
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorEvents.OnLeave"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

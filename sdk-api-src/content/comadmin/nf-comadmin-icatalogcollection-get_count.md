@@ -12,6 +12,8 @@ ms.keywords: Count property [COM+], Count property [COM+],ICatalogCollection int
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.Count"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

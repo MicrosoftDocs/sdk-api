@@ -12,6 +12,8 @@ ms.keywords: '*PSID_INFO_LIST, PSID_INFO_LIST, PSID_INFO_LIST structure pointer 
 ms.topic: struct
 f1_keywords:
 - aclui/SID_INFO_LIST
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

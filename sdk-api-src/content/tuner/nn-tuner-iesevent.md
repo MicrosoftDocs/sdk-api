@@ -12,6 +12,8 @@ ms.keywords: IESEvent, IESEvent interface [Microsoft TV Technologies], IESEvent 
 ms.topic: interface
 f1_keywords: 
  - "tuner/IESEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

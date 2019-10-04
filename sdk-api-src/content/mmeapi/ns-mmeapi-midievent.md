@@ -12,6 +12,8 @@ ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVE
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/MIDIEVENT"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

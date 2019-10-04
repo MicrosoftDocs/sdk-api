@@ -12,6 +12,8 @@ ms.keywords: D3D10_CBF_USERPACKED, D3D_CBF_FORCE_DWORD, D3D_CBF_USERPACKED, D3D_
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SHADER_CBUFFER_FLAGS
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback
 ms.topic: callback
 f1_keywords: 
  - "mapi/MAPIResolveName"
+dev_langs:
+ - c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

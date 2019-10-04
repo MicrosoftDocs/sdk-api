@@ -12,6 +12,8 @@ ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAsso
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAssocHandler.IsRecommended"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

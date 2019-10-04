@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Reset method, IEnum
 ms.topic: method
 f1_keywords: 
  - "propidl/IEnumSTATPROPSTG.Reset"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.saf
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayAddRef"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

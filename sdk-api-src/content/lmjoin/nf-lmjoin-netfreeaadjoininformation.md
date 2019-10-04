@@ -12,6 +12,8 @@ ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Netw
 ms.topic: function
 f1_keywords:
 - lmjoin/NetFreeAadJoinInformation
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows

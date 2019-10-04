@@ -12,6 +12,8 @@ ms.keywords: ReportValueTypeConstants, ReportValueTypeConstants enumeration [Sys
 ms.topic: enum
 f1_keywords: 
  - "isysmon/ReportValueTypeConstants"
+dev_langs:
+ - c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows

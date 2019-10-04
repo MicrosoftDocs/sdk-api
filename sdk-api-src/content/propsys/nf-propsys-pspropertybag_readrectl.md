@@ -12,6 +12,8 @@ ms.keywords: PSPropertyBag_ReadRECTL, PSPropertyBag_ReadRECTL function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propsys/PSPropertyBag_ReadRECTL"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

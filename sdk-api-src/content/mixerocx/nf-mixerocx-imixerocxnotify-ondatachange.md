@@ -12,6 +12,8 @@ ms.keywords: IMixerOCXNotify interface [DirectShow],OnDataChange method, IMixerO
 ms.topic: method
 f1_keywords: 
  - "mixerocx/IMixerOCXNotify.OnDataChange"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

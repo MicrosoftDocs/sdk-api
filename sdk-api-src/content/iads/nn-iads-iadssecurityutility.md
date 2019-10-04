@@ -12,6 +12,8 @@ ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecu
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsSecurityUtility"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

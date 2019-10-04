@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TOKEN_TYPE, IPSEC_TOKEN_TYPE enumeration [Filtering], IPSEC_T
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_TOKEN_TYPE"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

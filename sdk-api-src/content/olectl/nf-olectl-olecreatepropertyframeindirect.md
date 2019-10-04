@@ -12,6 +12,8 @@ ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect func
 ms.topic: function
 f1_keywords: 
  - "olectl/OleCreatePropertyFrameIndirect"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

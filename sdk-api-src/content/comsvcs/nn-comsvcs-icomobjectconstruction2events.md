@@ -12,6 +12,8 @@ ms.keywords: IComObjectConstruction2Events, IComObjectConstruction2Events interf
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IComObjectConstruction2Events"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

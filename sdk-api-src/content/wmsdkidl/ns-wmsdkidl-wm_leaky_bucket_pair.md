@@ -12,6 +12,8 @@ ms.keywords: WM_LEAKY_BUCKET_PAIR, WM_LEAKY_BUCKET_PAIR structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_LEAKY_BUCKET_PAIR"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

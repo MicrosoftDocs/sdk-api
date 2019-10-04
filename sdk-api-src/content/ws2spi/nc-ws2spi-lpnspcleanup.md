@@ -12,6 +12,8 @@ ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nsp
 ms.topic: callback
 f1_keywords: 
  - "ws2spi/NSPCleanup"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

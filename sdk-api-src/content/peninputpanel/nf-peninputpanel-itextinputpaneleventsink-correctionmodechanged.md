@@ -12,6 +12,8 @@ ms.keywords: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d, CorrectionModeChanged, Correc
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink.CorrectionModeChanged"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

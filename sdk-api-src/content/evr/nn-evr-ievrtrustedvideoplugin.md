@@ -12,6 +12,8 @@ ms.keywords: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe, IEVRTrustedVideoPlugin, IEVRT
 ms.topic: interface
 f1_keywords: 
  - "evr/IEVRTrustedVideoPlugin"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

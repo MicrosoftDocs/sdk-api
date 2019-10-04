@@ -12,6 +12,8 @@ ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [F
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxLoggingOptions.ActivityLogging"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

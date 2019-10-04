@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAM
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_NAME_CONSTRAINTS_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

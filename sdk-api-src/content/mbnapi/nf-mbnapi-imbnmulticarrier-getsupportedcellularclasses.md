@@ -12,6 +12,8 @@ ms.keywords: GetSupportedCellularClasses, GetSupportedCellularClasses method [Mi
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnMultiCarrier.GetSupportedCellularClasses"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

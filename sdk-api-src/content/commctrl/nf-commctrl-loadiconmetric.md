@@ -12,6 +12,8 @@ ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Wind
 ms.topic: function
 f1_keywords: 
  - "commctrl/LoadIconMetric"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

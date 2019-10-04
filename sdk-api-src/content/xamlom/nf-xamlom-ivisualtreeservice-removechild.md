@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService.RemoveChild"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

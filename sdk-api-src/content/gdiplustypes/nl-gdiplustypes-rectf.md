@@ -12,6 +12,8 @@ ms.keywords: RectF, RectF class [GDI+], RectF class [GDI+],described, _gdiplus_C
 ms.topic: class
 f1_keywords: 
  - "gdiplustypes/RectF"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

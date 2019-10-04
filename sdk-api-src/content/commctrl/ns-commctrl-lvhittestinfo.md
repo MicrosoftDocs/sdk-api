@@ -12,6 +12,8 @@ ms.keywords: "*LPLVHITTESTINFO, LPLVHITTESTINFO, LPLVHITTESTINFO structure point
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVHITTESTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

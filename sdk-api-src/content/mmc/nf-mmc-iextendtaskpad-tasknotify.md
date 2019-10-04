@@ -12,6 +12,8 @@ ms.keywords: IExtendTaskPad interface [MMC],TaskNotify method, IExtendTaskPad.Ta
 ms.topic: method
 f1_keywords:
 - mmc/IExtendTaskPad.TaskNotify
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

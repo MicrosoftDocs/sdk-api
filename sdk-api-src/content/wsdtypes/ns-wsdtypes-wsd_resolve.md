@@ -12,6 +12,8 @@ ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, ncd.wsd_resolve_struct, wsdtype
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_RESOLVE
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

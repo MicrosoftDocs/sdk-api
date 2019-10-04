@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineunhold, lineUnhold, lineUnhold function [TAPI 2.2], tap
 ms.topic: function
 f1_keywords: 
  - "tapi/lineUnhold"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

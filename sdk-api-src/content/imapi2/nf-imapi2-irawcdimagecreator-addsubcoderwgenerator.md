@@ -12,6 +12,8 @@ ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSub
 ms.topic: method
 f1_keywords: 
  - "imapi2/IRawCDImageCreator.AddSubcodeRWGenerator"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

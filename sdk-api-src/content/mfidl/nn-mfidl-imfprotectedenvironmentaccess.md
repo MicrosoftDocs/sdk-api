@@ -12,6 +12,8 @@ ms.keywords: IMFProtectedEnvironmentAccess, IMFProtectedEnvironmentAccess interf
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFProtectedEnvironmentAccess"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

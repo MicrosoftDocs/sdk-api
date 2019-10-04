@@ -12,6 +12,8 @@ ms.keywords: '*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE struct
 ms.topic: struct
 f1_keywords:
 - commctrl/NMREBARCHILDSIZE
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

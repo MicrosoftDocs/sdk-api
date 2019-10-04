@@ -12,6 +12,8 @@ ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFil
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileGroupManager.ImportFileGroups"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

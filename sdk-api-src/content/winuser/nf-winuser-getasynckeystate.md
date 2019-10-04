@@ -12,6 +12,8 @@ ms.keywords: GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Inp
 ms.topic: function
 f1_keywords: 
  - "winuser/GetAsyncKeyState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

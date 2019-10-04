@@ -12,6 +12,8 @@ ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrack
 ms.topic: method
 f1_keywords: 
  - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager.ReferenceTrackingStarted"
+dev_langs:
+ - c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

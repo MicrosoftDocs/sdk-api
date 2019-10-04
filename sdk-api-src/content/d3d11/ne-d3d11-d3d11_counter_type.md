@@ -12,6 +12,8 @@ ms.keywords: D3D11_COUNTER_TYPE, D3D11_COUNTER_TYPE enumeration [Direct3D 11], D
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_COUNTER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

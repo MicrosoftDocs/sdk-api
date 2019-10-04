@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RA
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceGetHandle
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

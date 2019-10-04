@@ -12,6 +12,8 @@ ms.keywords: IFaxAccountFolders interface [Fax Service],IncomingQueue property, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccountFolders.IncomingQueue"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

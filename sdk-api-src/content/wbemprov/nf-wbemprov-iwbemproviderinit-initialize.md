@@ -12,6 +12,8 @@ ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],In
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemProviderInit.Initialize"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

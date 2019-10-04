@@ -12,6 +12,8 @@ ms.keywords: "*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPE
 ms.topic: struct
 f1_keywords: 
  - "minidumpapiset/MINIDUMP_MEMORY_INFO"
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

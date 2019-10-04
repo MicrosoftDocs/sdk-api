@@ -12,6 +12,8 @@ ms.keywords: 3d6907d3-259d-0e6a-db64-2a00690f975d, D3D10_MESSAGE, D3D10_MESSAGE 
 ms.topic: struct
 f1_keywords: 
  - "d3d10sdklayers/D3D10_MESSAGE"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

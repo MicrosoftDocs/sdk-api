@@ -12,6 +12,8 @@ ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], base.vds_pa
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PARTITION_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_FrequencyMa
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IFrequencyMap.put_FrequencyMapping"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

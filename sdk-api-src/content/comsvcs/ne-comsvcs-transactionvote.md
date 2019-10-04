@@ -12,6 +12,8 @@ ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCom
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/TransactionVote"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

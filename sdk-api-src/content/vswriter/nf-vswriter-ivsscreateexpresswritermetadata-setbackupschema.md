@@ -12,6 +12,8 @@ ms.keywords: IVssCreateExpressWriterMetadata interface,SetBackupSchema method, I
 ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateExpressWriterMetadata.SetBackupSchema
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

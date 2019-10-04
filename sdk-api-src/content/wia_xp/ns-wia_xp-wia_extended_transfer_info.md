@@ -12,6 +12,8 @@ ms.keywords: "*PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO, PWIA_EX
 ms.topic: struct
 f1_keywords: 
  - "wia_xp/WIA_EXTENDED_TRANSFER_INFO"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DXGI_QUERY_VIDEO_MEMORY_INFO, DXGI_QUERY_VIDEO_MEMORY_INFO structur
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO"
+dev_langs:
+ - c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

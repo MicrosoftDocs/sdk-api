@@ -12,6 +12,8 @@ ms.keywords: EventDescGetChannel, EventDescGetChannel function [ETW], base.event
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetChannel
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D11_FEATURE_DATA_THREADING, D3D11_FEATURE_DATA_THREADING structur
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_FEATURE_DATA_THREADING"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

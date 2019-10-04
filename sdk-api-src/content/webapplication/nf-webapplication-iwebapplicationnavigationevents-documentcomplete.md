@@ -12,6 +12,8 @@ ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store 
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationNavigationEvents.DocumentComplete"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

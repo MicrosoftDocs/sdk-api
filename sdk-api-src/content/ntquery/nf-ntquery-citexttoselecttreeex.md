@@ -12,6 +12,8 @@ ms.keywords: CITextToSelectTreeEx, CITextToSelectTreeEx function [Indexing Servi
 ms.topic: function
 f1_keywords: 
  - "ntquery/CITextToSelectTreeEx"
+dev_langs:
+ - c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

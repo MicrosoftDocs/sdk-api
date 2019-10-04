@@ -12,6 +12,8 @@ ms.keywords: 13457c17-ab35-47a3-8e83-00eef7686841, IMFASFSplitter interface [Med
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.ParseData"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

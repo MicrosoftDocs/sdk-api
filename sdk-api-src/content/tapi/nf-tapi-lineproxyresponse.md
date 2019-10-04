@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse fun
 ms.topic: function
 f1_keywords: 
  - "tapi/lineProxyResponse"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_IPSTATS, *PMIB_IPSTATS_W2K, MIB_IPSTATS, MIB_IPSTATS structu
 ms.topic: struct
 f1_keywords: 
  - "ipmib/MIB_IPSTATS"
+dev_langs:
+ - c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

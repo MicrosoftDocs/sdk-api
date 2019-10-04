@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY
 ms.topic: struct
 f1_keywords: 
  - "winioctl/FILE_QUERY_SPARING_BUFFER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryCont
 ms.topic: function
 f1_keywords:
 - sspi/QueryContextAttributes
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

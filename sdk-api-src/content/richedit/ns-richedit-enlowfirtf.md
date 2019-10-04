@@ -12,6 +12,8 @@ ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _win32_ENLOWFI
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENLOWFIRTF"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

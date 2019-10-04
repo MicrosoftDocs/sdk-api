@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD, PFN_CRYPT_OBJECT_L
 ms.topic: callback
 f1_keywords: 
  - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

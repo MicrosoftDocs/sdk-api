@@ -12,6 +12,8 @@ ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDesti
 ms.topic: method
 f1_keywords: 
  - "wcsplugin/IGamutMapModelPlugIn.SourceToDestinationAppearanceColors"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

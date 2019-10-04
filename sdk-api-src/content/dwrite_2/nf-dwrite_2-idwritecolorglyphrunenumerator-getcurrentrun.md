@@ -12,6 +12,8 @@ ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun m
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

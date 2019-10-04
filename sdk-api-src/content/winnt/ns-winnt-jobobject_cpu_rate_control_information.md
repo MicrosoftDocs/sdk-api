@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTR
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WBEM_BACKUP_RESTORE_FLAGS, WBEM_BACKUP_RESTORE_FLAGS enumeration [W
 ms.topic: enum
 f1_keywords: 
  - "wbemcli/WBEM_BACKUP_RESTORE_FLAGS"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

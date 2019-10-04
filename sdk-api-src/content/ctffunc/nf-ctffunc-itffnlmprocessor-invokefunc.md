@@ -12,6 +12,8 @@ ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc met
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnLMProcessor.InvokeFunc"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

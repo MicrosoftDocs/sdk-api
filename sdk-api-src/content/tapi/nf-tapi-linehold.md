@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/line
 ms.topic: function
 f1_keywords: 
  - "tapi/lineHold"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

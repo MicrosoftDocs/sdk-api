@@ -12,6 +12,8 @@ ms.keywords: 00dedc29-911b-cd5e-0b45-8f2505b70599, GetExceptionMode, GetExceptio
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.GetExceptionMode"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

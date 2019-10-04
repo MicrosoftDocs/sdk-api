@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnu
 ms.topic: interface
 f1_keywords: 
  - "certview/IEnumCERTVIEWCOLUMN"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

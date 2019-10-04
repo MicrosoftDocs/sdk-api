@@ -12,6 +12,8 @@ ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.
 ms.topic: function
 f1_keywords: 
  - "messagedispatcherapi/CoSetMessageDispatcher"
+dev_langs:
+ - c++
 req.header: messagedispatcherapi.h
 req.include-header: 
 req.target-type: Windows

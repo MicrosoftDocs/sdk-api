@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Polic
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetName"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

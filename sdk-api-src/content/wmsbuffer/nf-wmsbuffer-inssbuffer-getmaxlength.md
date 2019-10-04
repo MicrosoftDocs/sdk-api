@@ -12,6 +12,8 @@ ms.keywords: GetMaxLength, GetMaxLength method [windows Media Format], GetMaxLen
 ms.topic: method
 f1_keywords: 
  - "wmsbuffer/INSSBuffer.GetMaxLength"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.Copy"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

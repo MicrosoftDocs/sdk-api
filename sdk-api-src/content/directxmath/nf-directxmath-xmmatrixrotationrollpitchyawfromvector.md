@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixRotationRollPitchYawFromVector, XMMatrixRotati
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixRotationRollPitchYawFromVector"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

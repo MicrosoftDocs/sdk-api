@@ -12,6 +12,8 @@ ms.keywords: 69296ec5-5811-4f0f-ae9c-cabca3e66158, GetAllLanguages, GetAllLangua
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadata.GetAllLanguages"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

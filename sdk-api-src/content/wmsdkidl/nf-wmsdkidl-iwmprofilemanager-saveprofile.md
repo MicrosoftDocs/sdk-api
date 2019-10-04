@@ -12,6 +12,8 @@ ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile meth
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfileManager.SaveProfile"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

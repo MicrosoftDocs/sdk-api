@@ -12,6 +12,8 @@ ms.keywords: FrameRect, FrameRect function [Windows GDI], _win32_FrameRect, gdi.
 ms.topic: function
 f1_keywords: 
  - "winuser/FrameRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

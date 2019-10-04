@@ -12,6 +12,8 @@ ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMa
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateFileMappingNuma"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

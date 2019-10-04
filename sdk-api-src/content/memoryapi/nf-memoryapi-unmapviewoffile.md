@@ -12,6 +12,8 @@ ms.keywords: UnmapViewOfFile, UnmapViewOfFile function, _win32_unmapviewoffile, 
 ms.topic: function
 f1_keywords: 
  - "memoryapi/UnmapViewOfFile"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

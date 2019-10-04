@@ -12,6 +12,8 @@ ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFi
 ms.topic: function
 f1_keywords: 
  - "winver/VerInstallFile"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetToneCurve, GetToneCurve method [Windows Imaging Component], GetT
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetToneCurve"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

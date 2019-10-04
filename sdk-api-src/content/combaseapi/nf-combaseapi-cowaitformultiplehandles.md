@@ -12,6 +12,8 @@ ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], 
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoWaitForMultipleHandles"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

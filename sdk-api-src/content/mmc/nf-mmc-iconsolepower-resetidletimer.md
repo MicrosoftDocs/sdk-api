@@ -12,6 +12,8 @@ ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [M
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsolePower.ResetIdleTimer"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

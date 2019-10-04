@@ -12,6 +12,8 @@ ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsv
 ms.topic: function
 f1_keywords: 
  - "fhsvcctl/FhServiceClosePipe"
+dev_langs:
+ - c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

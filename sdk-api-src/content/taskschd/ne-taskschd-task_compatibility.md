@@ -12,6 +12,8 @@ ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler]
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_COMPATIBILITY"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

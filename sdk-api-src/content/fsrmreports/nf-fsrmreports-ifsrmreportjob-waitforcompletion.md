@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportJob interface [File Server Resource Manager],WaitForComp
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportJob.WaitForCompletion"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

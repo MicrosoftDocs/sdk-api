@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE func
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilVerifyPropertyTable"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

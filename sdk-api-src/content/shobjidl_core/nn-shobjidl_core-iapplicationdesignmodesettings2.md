@@ -12,6 +12,8 @@ ms.keywords: IApplicationDesignModeSettings2, IApplicationDesignModeSettings2 in
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IApplicationDesignModeSettings2"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMPEG2TuneRequest, IMPEG2TuneRequest interface [Microsoft TV Techno
 ms.topic: interface
 f1_keywords: 
  - "tuner/IMPEG2TuneRequest"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

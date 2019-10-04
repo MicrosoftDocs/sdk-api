@@ -12,6 +12,8 @@ ms.keywords: FwpmSubLayerDestroyEnumHandle0, FwpmSubLayerDestroyEnumHandle0 func
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmSubLayerDestroyEnumHandle0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

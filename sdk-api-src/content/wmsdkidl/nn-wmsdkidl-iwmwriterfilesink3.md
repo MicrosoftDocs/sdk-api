@@ -12,6 +12,8 @@ ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media For
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMWriterFileSink3"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

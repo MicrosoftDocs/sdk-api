@@ -12,6 +12,8 @@ ms.keywords: GetListStart, GetListStart method [Windows Controls], GetListStart 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetListStart"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

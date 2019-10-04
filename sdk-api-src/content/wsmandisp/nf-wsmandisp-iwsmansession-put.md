@@ -12,6 +12,8 @@ ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWS
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Put"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

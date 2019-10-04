@@ -12,6 +12,8 @@ ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggin
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

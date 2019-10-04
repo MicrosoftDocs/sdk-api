@@ -12,6 +12,8 @@ ms.keywords: "*LPCONNECTDATA, *PCONNECTDATA, CONNECTDATA, CONNECTDATA structure 
 ms.topic: struct
 f1_keywords: 
  - "ocidl/CONNECTDATA"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BizRuleLanguage property [Security], BizRuleLanguage property [Secu
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplicationGroup2.BizRuleLanguage"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

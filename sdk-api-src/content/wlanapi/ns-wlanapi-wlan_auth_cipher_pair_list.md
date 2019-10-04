@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_A
 ms.topic: struct
 f1_keywords: 
  - "wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

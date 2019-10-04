@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

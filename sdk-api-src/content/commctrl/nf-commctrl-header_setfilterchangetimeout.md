@@ -12,6 +12,8 @@ ms.keywords: Header_SetFilterChangeTimeout, Header_SetFilterChangeTimeout macro 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_SetFilterChangeTimeout"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

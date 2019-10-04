@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3D11_VIDEO_DECODER_S
 ms.topic: struct
 f1_keywords: 
  - "d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

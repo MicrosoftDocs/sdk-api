@@ -12,6 +12,8 @@ ms.keywords: GetAppProperty, GetAppProperty method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.GetAppProperty"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

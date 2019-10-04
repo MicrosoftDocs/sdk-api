@@ -12,6 +12,8 @@ ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFStreamingSinkConfig"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

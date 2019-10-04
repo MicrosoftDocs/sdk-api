@@ -12,6 +12,8 @@ ms.keywords: GetDllEntry, GetDllEntry method [Automation], GetDllEntry method [A
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.GetDllEntry"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

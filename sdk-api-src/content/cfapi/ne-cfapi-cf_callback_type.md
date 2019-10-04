@@ -12,6 +12,8 @@ ms.keywords: CF_CALLBACK_TYPE, CF_CALLBACK_TYPE enumeration, CF_CALLBACK_TYPE_CA
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_CALLBACK_TYPE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

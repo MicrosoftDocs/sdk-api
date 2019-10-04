@@ -12,6 +12,8 @@ ms.keywords: CloseAllFigures, CloseAllFigures method [GDI+], CloseAllFigures met
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.CloseAllFigures"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

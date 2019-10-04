@@ -12,6 +12,8 @@ ms.keywords: GetDisplayType, GetDisplayType method [Windows Properties], GetDisp
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription.GetDisplayType"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

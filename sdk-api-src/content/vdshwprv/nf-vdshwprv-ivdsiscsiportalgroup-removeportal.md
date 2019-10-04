@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsi
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsIscsiPortalGroup.RemovePortal
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

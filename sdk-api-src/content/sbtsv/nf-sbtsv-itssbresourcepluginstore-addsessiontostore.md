@@ -12,6 +12,8 @@ ms.keywords: AddSessionToStore, AddSessionToStore method [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.AddSessionToStore"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings interface [Task Scheduler],IdleSettings property, ITa
 ms.topic: method
 f1_keywords:
 - taskschd/ITaskSettings.IdleSettings
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

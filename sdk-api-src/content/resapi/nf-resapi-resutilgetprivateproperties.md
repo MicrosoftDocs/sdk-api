@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_PRIVATE_PROPERTIES, PRESUTIL_GET_PRIVATE_PROPERTIES fu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetPrivateProperties"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

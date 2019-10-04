@@ -12,6 +12,8 @@ ms.keywords: WFDOpenLegacySession, WFDOpenLegacySession function [NativeWIFI], n
 ms.topic: function
 f1_keywords: 
  - "wlanapi/WFDOpenLegacySession"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

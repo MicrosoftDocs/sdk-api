@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],Notif
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourceNotification.NotifyTargetChange"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

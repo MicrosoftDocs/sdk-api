@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos inte
 ms.topic: interface
 f1_keywords: 
  - "syncregistration/IEnumSyncProviderConfigUIInfos"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

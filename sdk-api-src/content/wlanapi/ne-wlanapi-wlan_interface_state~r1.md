@@ -6,6 +6,8 @@ ms.keywords: _WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE
 ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_INTERFACE_STATE
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

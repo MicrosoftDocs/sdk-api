@@ -12,6 +12,8 @@ ms.keywords: '*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DA
 ms.topic: struct
 f1_keywords:
 - winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows

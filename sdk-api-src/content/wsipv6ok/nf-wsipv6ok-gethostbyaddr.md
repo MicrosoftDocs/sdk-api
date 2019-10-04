@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyadd
 ms.topic: macro
 f1_keywords: 
  - "wsipv6ok/gethostbyaddr"
+dev_langs:
+ - c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DVR_STREAM_DESC, DVR_STREAM_DESC structure [Microsoft TV Technologi
 ms.topic: struct
 f1_keywords: 
  - "sbe/DVR_STREAM_DESC"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

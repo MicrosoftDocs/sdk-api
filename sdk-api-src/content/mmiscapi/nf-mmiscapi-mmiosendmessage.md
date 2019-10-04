@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioSendMessage, mmioSendMessage, mmioSendMessage function 
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioSendMessage"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

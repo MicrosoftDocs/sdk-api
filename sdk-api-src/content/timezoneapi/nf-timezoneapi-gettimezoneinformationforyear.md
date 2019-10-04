@@ -12,6 +12,8 @@ ms.keywords: GetTimeZoneInformationForYear, GetTimeZoneInformationForYear functi
 ms.topic: function
 f1_keywords:
 - timezoneapi/GetTimeZoneInformationForYear
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_REFERENCES
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_BIT.GetVersionHash"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

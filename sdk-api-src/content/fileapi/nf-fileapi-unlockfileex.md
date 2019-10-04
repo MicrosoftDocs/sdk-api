@@ -12,6 +12,8 @@ ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, b
 ms.topic: function
 f1_keywords:
 - fileapi/UnlockFileEx
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

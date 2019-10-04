@@ -12,6 +12,8 @@ ms.keywords: GetCodeRateLPStream, GetCodeRateLPStream method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateLPStream"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

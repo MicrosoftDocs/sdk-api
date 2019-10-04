@@ -12,6 +12,8 @@ ms.keywords: IUPnPService interface [UPnP APIs],get_LastTransportStatus method, 
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPService.get_LastTransportStatus"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

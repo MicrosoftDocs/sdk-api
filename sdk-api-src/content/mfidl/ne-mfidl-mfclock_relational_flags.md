@@ -12,6 +12,8 @@ ms.keywords: MFCLOCK_RELATIONAL_FLAGS, MFCLOCK_RELATIONAL_FLAGS enumeration [Med
 ms.topic: enum
 f1_keywords:
 - mfidl/MFCLOCK_RELATIONAL_FLAGS
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [Media Foundation], GetState method [Medi
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncResult.GetState"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

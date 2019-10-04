@@ -12,6 +12,8 @@ ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceev
 ms.topic: function
 f1_keywords: 
  - "evntrace/TraceEventInstance"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

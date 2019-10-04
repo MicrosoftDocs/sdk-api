@@ -12,6 +12,8 @@ ms.keywords: "*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data E
 ms.topic: struct
 f1_keywords: 
  - "winuser/COPYDATASTRUCT"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

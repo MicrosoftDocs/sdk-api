@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.GetProperty"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

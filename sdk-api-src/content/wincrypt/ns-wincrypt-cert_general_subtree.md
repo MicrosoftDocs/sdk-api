@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE, CERT_GENERAL_SUBTREE
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_GENERAL_SUBTREE
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

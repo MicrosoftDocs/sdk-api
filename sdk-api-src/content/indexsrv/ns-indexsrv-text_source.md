@@ -12,6 +12,8 @@ ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, i
 ms.topic: struct
 f1_keywords: 
  - "indexsrv/TEXT_SOURCE"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

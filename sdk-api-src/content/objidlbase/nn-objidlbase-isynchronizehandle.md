@@ -12,6 +12,8 @@ ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchroniz
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/ISynchronizeHandle"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

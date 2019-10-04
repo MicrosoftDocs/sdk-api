@@ -12,6 +12,8 @@ ms.keywords: IEnumCATEGORYINFO interface [COM],Next method, IEnumCATEGORYINFO.Ne
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumCATEGORYINFO.Next"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

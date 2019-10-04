@@ -12,6 +12,8 @@ ms.keywords: IColumnMapper interface [search],IsMapUpToDate method, IColumnMappe
 ms.topic: method
 f1_keywords: 
  - "indexsrv/IColumnMapper.IsMapUpToDate"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

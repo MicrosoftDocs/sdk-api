@@ -12,6 +12,8 @@ ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDll
 ms.topic: method
 f1_keywords: 
  - "objidlbase/ISurrogate.LoadDllServer"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

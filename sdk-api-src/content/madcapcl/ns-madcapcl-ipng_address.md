@@ -12,6 +12,8 @@ ms.keywords: '*PIPNG_ADDRESS, IPNG_ADDRESS, IPNG_ADDRESS union [MADCAP], PIPNG_A
 ms.topic: struct
 f1_keywords:
 - madcapcl/IPNG_ADDRESS
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

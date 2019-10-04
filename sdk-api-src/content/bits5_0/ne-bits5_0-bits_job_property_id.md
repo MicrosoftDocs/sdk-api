@@ -12,6 +12,8 @@ ms.keywords: BITS_JOB_PROPERTY_DYNAMIC_CONTENT, BITS_JOB_PROPERTY_HIGH_PERFORMAN
 ms.topic: enum
 f1_keywords: 
  - "bits5_0/BITS_JOB_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows

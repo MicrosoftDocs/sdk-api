@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Ser
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows 
 ms.topic: function
 f1_keywords: 
  - "commctrl/FlatSB_GetScrollPropPtr"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display De
 ms.topic: function
 f1_keywords:
 - dmemmgr/HeapVidMemAllocAligned
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal

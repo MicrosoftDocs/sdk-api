@@ -12,6 +12,8 @@ ms.keywords: WEB_SOCKET_ACTION_QUEUE, WEB_SOCKET_ACTION_QUEUE enumeration [Webso
 ms.topic: enum
 f1_keywords:
 - websocket/WEB_SOCKET_ACTION_QUEUE
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

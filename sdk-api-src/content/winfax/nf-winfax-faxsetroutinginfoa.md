@@ -12,6 +12,8 @@ ms.keywords: FaxSetRoutingInfo, FaxSetRoutingInfo function [Fax Service], FaxSet
 ms.topic: function
 f1_keywords:
 - winfax/FaxSetRoutingInfo
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

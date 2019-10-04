@@ -12,6 +12,8 @@ ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interf
 ms.topic: interface
 f1_keywords: 
  - "propsys/IPropertyDescriptionAliasInfo"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

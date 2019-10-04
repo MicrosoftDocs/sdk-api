@@ -12,6 +12,8 @@ ms.keywords: IAMExtTransport interface [DirectShow],get_MediaState method, IAMEx
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMExtTransport.get_MediaState"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

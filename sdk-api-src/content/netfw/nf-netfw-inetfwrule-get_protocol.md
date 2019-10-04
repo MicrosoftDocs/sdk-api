@@ -12,6 +12,8 @@ ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protoc
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwRule.Protocol"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

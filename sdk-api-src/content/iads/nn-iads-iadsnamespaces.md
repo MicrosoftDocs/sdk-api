@@ -12,6 +12,8 @@ ms.keywords: IADsNamespaces, IADsNamespaces interface [ADSI], IADsNamespaces int
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsNamespaces"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

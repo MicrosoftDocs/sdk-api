@@ -12,6 +12,8 @@ ms.keywords: 7a155e44-4ee7-ac87-0ef7-42daed0b87ba, GetAutoGenFilterType, GetAuto
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DBaseTexture9.GetAutoGenFilterType"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

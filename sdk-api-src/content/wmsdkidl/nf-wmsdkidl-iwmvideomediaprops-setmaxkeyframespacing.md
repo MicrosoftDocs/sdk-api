@@ -12,6 +12,8 @@ ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameS
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

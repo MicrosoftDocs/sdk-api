@@ -12,6 +12,8 @@ ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPn
 ms.topic: interface
 f1_keywords: 
  - "upnp/IUPnPAddressFamilyControl"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networkin
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerCollabAddContact"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

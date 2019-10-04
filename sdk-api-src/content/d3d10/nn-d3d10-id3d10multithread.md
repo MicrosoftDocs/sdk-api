@@ -12,6 +12,8 @@ ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Mult
 ms.topic: interface
 f1_keywords: 
  - "d3d10/ID3D10Multithread"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

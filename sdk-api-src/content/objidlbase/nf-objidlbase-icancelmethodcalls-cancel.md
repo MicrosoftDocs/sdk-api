@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls
 ms.topic: method
 f1_keywords: 
  - "objidlbase/ICancelMethodCalls.Cancel"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

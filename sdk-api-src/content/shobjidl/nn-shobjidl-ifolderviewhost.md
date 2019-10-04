@@ -12,6 +12,8 @@ ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolder
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IFolderViewHost"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

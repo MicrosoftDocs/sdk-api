@@ -12,6 +12,8 @@ ms.keywords: IPersistStream interface [COM],IsDirty method, IPersistStream.IsDir
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStream.IsDirty"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

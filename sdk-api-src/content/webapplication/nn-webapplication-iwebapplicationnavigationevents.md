@@ -12,6 +12,8 @@ ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents in
 ms.topic: interface
 f1_keywords: 
  - "webapplication/IWebApplicationNavigationEvents"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

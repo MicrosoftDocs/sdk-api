@@ -12,6 +12,8 @@ ms.keywords: IMFByteStreamCacheControl interface [Media Foundation],StopBackgrou
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamCacheControl.StopBackgroundTransfer"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

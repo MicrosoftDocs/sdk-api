@@ -12,6 +12,8 @@ ms.keywords: ISharedPropertyGroup interface [COM+],get_Property method, ISharedP
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISharedPropertyGroup.get_Property"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

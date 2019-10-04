@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [windows Media Format], GetName method [win
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMProfile.GetName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

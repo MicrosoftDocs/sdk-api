@@ -12,6 +12,8 @@ ms.keywords: IEnumCall, IEnumCall interface [TAPI 2.2], IEnumCall interface [TAP
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/IEnumCall"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

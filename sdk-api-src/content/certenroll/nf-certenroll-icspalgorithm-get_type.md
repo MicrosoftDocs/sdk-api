@@ -12,6 +12,8 @@ ms.keywords: ICspAlgorithm interface [Security],Type property, ICspAlgorithm.Typ
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspAlgorithm.Type"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

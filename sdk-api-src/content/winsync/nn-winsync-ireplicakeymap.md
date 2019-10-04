@@ -12,6 +12,8 @@ ms.keywords: IReplicaKeyMap, IReplicaKeyMap interface [Windows Sync], IReplicaKe
 ms.topic: interface
 f1_keywords: 
  - "winsync/IReplicaKeyMap"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure 
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_MEDIAITEM_CLEARED_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

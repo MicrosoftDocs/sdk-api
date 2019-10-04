@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_CONFIGURATION, DIRECTMANIPULATION_CONFIGURATION 
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_CONFIGURATION"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

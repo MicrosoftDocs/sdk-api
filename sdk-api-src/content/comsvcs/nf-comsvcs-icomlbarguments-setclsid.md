@@ -12,6 +12,8 @@ ms.keywords: ICOMLBArguments interface [COM+],SetCLSID method, ICOMLBArguments.S
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICOMLBArguments.SetCLSID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

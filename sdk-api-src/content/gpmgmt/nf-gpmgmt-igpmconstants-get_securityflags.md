@@ -12,6 +12,8 @@ ms.keywords: GPMConstants object [GPMC],SecurityFlags property, IGPMConstants in
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMConstants.SecurityFlags"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IActivationFactory, IActivationFactory interface [Windows Runtime],
 ms.topic: interface
 f1_keywords: 
  - "activation/IActivationFactory"
+dev_langs:
+ - c++
 req.header: activation.h
 req.include-header: 
 req.target-type: Windows

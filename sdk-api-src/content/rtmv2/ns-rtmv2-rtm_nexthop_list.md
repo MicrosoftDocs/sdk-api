@@ -12,6 +12,8 @@ ms.keywords: '*PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST structure
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_NEXTHOP_LIST
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

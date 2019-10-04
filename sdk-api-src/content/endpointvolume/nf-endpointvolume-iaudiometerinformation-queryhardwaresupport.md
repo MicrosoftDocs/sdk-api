@@ -12,6 +12,8 @@ ms.keywords: IAudioMeterInformation interface [Core Audio],QueryHardwareSupport 
 ms.topic: method
 f1_keywords: 
  - "endpointvolume/IAudioMeterInformation.QueryHardwareSupport"
+dev_langs:
+ - c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

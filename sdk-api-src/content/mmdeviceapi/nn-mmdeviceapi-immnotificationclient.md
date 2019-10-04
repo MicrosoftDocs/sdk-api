@@ -12,6 +12,8 @@ ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio]
 ms.topic: interface
 f1_keywords: 
  - "mmdeviceapi/IMMNotificationClient"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

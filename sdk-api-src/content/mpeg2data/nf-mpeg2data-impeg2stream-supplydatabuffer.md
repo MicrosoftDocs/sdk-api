@@ -12,6 +12,8 @@ ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],SupplyDataBuffer
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/IMpeg2Stream.SupplyDataBuffer"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

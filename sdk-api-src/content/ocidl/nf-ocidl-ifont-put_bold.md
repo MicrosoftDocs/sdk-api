@@ -12,6 +12,8 @@ ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_B
 ms.topic: method
 f1_keywords: 
  - "ocidl/IFont.put_Bold"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

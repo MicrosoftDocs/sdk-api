@@ -12,6 +12,8 @@ ms.keywords: GetSigningStatus, GetSigningStatus method [Windows Imaging Componen
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICComponentInfo.GetSigningStatus"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

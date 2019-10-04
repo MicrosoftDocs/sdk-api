@@ -12,6 +12,8 @@ ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, pr
 ms.topic: struct
 f1_keywords: 
  - "winsock/protoent"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

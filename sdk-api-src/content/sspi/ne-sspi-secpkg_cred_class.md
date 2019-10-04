@@ -12,6 +12,8 @@ ms.keywords: '*PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS enumer
 ms.topic: enum
 f1_keywords:
 - sspi/SECPKG_CRED_CLASS
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

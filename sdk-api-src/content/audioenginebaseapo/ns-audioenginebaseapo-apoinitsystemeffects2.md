@@ -12,6 +12,8 @@ ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devic
 ms.topic: struct
 f1_keywords: 
  - "audioenginebaseapo/APOInitSystemEffects2"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

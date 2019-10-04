@@ -12,6 +12,8 @@ ms.keywords: pluginResource2, pluginResource2 structure [Remote Desktop Services
 ms.topic: struct
 f1_keywords: 
  - "tspubplugin2com/pluginResource2"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

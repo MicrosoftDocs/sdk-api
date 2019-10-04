@@ -12,6 +12,8 @@ ms.keywords: ID2D1TransformNode, ID2D1TransformNode interface [Direct2D], ID2D1T
 ms.topic: interface
 f1_keywords: 
  - "d2d1effectauthor/ID2D1TransformNode"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface 
 ms.topic: interface
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronizeCallback"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

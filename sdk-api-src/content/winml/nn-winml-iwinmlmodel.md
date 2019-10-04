@@ -12,6 +12,8 @@ ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described
 ms.topic: interface
 f1_keywords: 
  - "winml/IWinMLModel"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

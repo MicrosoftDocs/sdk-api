@@ -12,6 +12,8 @@ ms.keywords: '*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTI
 ms.topic: struct
 f1_keywords:
 - winnt/SID_IDENTIFIER_AUTHORITY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

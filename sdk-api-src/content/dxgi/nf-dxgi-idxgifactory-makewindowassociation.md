@@ -12,6 +12,8 @@ ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFa
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIFactory.MakeWindowAssociation"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

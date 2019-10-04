@@ -12,6 +12,8 @@ ms.keywords: GetEventAttributes, GetEventAttributes method [Windows Portable Dev
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetEventAttributes"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

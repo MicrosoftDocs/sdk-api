@@ -12,6 +12,8 @@ ms.keywords: SnmpMgrStrToOid, SnmpMgrStrToOid function [SNMP], _snmp_snmpmgrstrt
 ms.topic: function
 f1_keywords: 
  - "mgmtapi/SnmpMgrStrToOid"
+dev_langs:
+ - c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

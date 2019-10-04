@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Val
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmPropertyCondition.Value"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

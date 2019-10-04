@@ -12,6 +12,8 @@ ms.keywords: COMAdminInstallForceOverwriteOfFile, COMAdminInstallNoUsers, COMAdm
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.InstallPartition"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

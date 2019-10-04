@@ -12,6 +12,8 @@ ms.keywords: GetScrollBarInfo, GetScrollBarInfo function [Windows Controls], OBJ
 ms.topic: function
 f1_keywords: 
  - "winuser/GetScrollBarInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

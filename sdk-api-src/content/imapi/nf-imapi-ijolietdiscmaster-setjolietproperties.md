@@ -12,6 +12,8 @@ ms.keywords: IJolietDiscMaster interface [IMAPI],SetJolietProperties method, IJo
 ms.topic: method
 f1_keywords: 
  - "imapi/IJolietDiscMaster.SetJolietProperties"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

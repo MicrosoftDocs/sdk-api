@@ -12,6 +12,8 @@ ms.keywords: 71a86899-19ac-ddc3-70b4-f68cdd6422d0, ID3D11GeometryShader, ID3D11G
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11GeometryShader"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

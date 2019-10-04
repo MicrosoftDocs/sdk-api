@@ -12,6 +12,8 @@ ms.keywords: GetVCT, GetVCT method [Microsoft TV Technologies], GetVCT method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetVCT"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

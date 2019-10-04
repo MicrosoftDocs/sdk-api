@@ -12,6 +12,8 @@ ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV],
 ms.topic: function
 f1_keywords: 
  - "davclnt/DavRegisterAuthCallback"
+dev_langs:
+ - c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSystemTimePreciseAsFileTime, GetSystemTimePreciseAsFileTime func
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetSystemTimePreciseAsFileTime"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

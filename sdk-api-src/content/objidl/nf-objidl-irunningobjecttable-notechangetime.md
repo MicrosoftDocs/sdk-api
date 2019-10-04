@@ -12,6 +12,8 @@ ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunning
 ms.topic: method
 f1_keywords: 
  - "objidl/IRunningObjectTable.NoteChangeTime"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

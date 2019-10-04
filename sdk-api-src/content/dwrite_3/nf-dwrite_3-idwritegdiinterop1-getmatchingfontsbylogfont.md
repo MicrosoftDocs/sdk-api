@@ -12,6 +12,8 @@ ms.keywords: GetMatchingFontsByLOGFONT, GetMatchingFontsByLOGFONT method [Direct
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteGdiInterop1.GetMatchingFontsByLOGFONT"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

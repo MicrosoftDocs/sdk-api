@@ -12,6 +12,8 @@ ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface 
 ms.topic: interface
 f1_keywords: 
  - "pla/IDataManager"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

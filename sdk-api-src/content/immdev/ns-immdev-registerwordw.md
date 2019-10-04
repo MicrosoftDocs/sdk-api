@@ -12,6 +12,8 @@ ms.keywords: "*LPREGISTERWORDW, *NPREGISTERWORDW, *PREGISTERWORDW, PREGISTERWORD
 ms.topic: struct
 f1_keywords: 
  - "immdev/REGISTERWORD"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

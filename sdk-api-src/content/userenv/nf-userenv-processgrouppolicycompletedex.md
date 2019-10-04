@@ -12,6 +12,8 @@ ms.keywords: ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx functi
 ms.topic: function
 f1_keywords: 
  - "userenv/ProcessGroupPolicyCompletedEx"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

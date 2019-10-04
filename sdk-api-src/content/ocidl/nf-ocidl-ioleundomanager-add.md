@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, 
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoManager.Add"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

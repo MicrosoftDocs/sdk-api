@@ -12,6 +12,8 @@ ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationa
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmSetCompositionFont"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtR
 ms.topic: function
 f1_keywords: 
  - "drt/DrtRegisterKey"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

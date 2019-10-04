@@ -12,6 +12,8 @@ ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams functi
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV6SetStatelessStoreParams
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

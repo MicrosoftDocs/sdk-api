@@ -12,6 +12,8 @@ ms.keywords: CreateFontFallback, CreateFontFallback method [Direct Write], Creat
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFallbackBuilder.CreateFontFallback"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

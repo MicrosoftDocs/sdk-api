@@ -12,6 +12,8 @@ ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetPasswordChar"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

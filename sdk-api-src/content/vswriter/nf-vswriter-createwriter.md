@@ -12,6 +12,8 @@ ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/Cr
 ms.topic: function
 f1_keywords: 
  - "vswriter/CreateWriter"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

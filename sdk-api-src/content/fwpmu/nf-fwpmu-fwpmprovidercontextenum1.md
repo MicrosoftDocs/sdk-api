@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextEnum1, FwpmProviderContextEnum1 function [Filter
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmProviderContextEnum1"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

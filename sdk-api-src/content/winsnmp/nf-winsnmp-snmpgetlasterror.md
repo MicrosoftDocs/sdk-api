@@ -12,6 +12,8 @@ ms.keywords: SnmpGetLastError, SnmpGetLastError function [SNMP], _snmp_snmpgetla
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpGetLastError"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

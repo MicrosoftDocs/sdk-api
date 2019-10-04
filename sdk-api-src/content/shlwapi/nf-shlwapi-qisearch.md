@@ -12,6 +12,8 @@ ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell
 ms.topic: function
 f1_keywords: 
  - "shlwapi/QISearch"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

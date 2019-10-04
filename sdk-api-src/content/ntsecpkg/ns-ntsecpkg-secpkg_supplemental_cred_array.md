@@ -12,6 +12,8 @@ ms.keywords: "*PSECPKG_SUPPLEMENTAL_CRED_ARRAY, PSECPKG_SUPPLEMENTAL_CRED_ARRAY,
 ms.topic: struct
 f1_keywords: 
  - "ntsecpkg/SECPKG_SUPPLEMENTAL_CRED_ARRAY"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

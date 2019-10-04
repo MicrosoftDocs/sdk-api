@@ -12,6 +12,8 @@ ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls],
 ms.topic: function
 f1_keywords:
 - commctrl/TaskDialogIndirect
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_I
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/GET_VIRTUAL_DISK_INFO"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

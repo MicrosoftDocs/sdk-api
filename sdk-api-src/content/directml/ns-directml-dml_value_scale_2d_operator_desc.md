@@ -12,6 +12,8 @@ ms.keywords: DML_VALUE_SCALE_2D_OPERATOR_DESC, DML_VALUE_SCALE_2D_OPERATOR_DESC 
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_VALUE_SCALE_2D_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

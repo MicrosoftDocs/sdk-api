@@ -12,6 +12,8 @@ ms.keywords: 95f070e8-3e19-b7cf-e5db-1e4a5d006c3e, ID3D10InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.PushCopyOfRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

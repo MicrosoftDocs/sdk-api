@@ -12,6 +12,8 @@ ms.keywords: CRMFLAGS, CRMFLAGS enumeration [COM+], CRMFLAG_FORGETTARGET, CRMFLA
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CRMFLAGS"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

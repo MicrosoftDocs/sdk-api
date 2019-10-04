@@ -12,6 +12,8 @@ ms.keywords: ContainsChange, ContainsChange method [Windows Sync], ContainsChang
 ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ContainsChange
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

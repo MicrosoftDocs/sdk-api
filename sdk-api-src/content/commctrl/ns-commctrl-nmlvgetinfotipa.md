@@ -12,6 +12,8 @@ ms.keywords: '*LPNMLVGETINFOTIPA, LPNMLVGETINFOTIP, LPNMLVGETINFOTIP structure p
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVGETINFOTIP
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

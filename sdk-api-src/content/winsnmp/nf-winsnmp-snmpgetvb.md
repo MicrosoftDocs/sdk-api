@@ -12,6 +12,8 @@ ms.keywords: SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, S
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpGetVb"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

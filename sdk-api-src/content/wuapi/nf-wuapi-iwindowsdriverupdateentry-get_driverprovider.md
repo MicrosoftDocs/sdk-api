@@ -12,6 +12,8 @@ ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider prop
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdateEntry.DriverProvider"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

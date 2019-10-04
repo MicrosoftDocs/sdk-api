@@ -12,6 +12,8 @@ ms.keywords: LSA_LOOKUP_ISOLATED_AS_LOCAL, LsaLookupNames2, LsaLookupNames2 func
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupNames2
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

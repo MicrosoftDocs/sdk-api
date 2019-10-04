@@ -12,6 +12,8 @@ ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows M
 ms.topic: interface
 f1_keywords: 
  - "wmdxva/IWMPlayerTimestampHook"
+dev_langs:
+ - c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

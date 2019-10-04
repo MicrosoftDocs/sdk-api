@@ -12,6 +12,8 @@ ms.keywords: FaxFreeBufferA, FaxFreeBufferW, PFAXFREEBUFFER, PFAXFREEBUFFER call
 ms.topic: callback
 f1_keywords: 
  - "winfax/PFAXFREEBUFFER"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

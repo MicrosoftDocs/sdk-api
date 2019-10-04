@@ -12,6 +12,8 @@ ms.keywords: '*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_
 ms.topic: struct
 f1_keywords:
 - winioctl/PARTITION_INFORMATION_GPT
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

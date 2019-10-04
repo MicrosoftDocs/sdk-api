@@ -12,6 +12,8 @@ ms.keywords: AutomaticUpdatesPermissionType, AutomaticUpdatesPermissionType enum
 ms.topic: enum
 f1_keywords: 
  - "wuapi/AutomaticUpdatesPermissionType"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

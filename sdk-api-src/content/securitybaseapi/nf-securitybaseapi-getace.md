@@ -12,6 +12,8 @@ ms.keywords: GetAce, GetAce function [Security], _win32_getace, security.getace,
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/GetAce"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

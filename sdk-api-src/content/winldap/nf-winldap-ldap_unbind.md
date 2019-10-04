@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbin
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_unbind"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

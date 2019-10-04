@@ -12,6 +12,8 @@ ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue me
 ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.SetFilteringValue
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

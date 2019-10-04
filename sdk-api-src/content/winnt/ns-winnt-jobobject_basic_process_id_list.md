@@ -12,6 +12,8 @@ ms.keywords: "*PJOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST
 ms.topic: struct
 f1_keywords: 
  - "winnt/JOBOBJECT_BASIC_PROCESS_ID_LIST"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSL_AD_ACTIVATION_INFO, PSL_AD_ACTIVATION_INFO structure pointer [S
 ms.topic: struct
 f1_keywords:
 - slpublic/SL_AD_ACTIVATION_INFO
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

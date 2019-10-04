@@ -12,6 +12,8 @@ ms.keywords: TreeView_HitTest, TreeView_HitTest macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_HitTest"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

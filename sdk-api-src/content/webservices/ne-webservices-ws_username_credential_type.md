@@ -12,6 +12,8 @@ ms.keywords: WS_STRING_USERNAME_CREDENTIAL_TYPE, WS_USERNAME_CREDENTIAL_TYPE, WS
 ms.topic: enum
 f1_keywords:
 - webservices/WS_USERNAME_CREDENTIAL_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/FloodFill"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

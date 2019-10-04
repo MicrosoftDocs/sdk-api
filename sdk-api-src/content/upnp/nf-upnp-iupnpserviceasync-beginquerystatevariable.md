@@ -12,6 +12,8 @@ ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs]
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPServiceAsync.BeginQueryStateVariable"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 162f8cd0-c67e-c41d-f881-5fc9f9ce501c, D3D10_DEPTH_WRITE_MASK, D3D10
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_DEPTH_WRITE_MASK"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

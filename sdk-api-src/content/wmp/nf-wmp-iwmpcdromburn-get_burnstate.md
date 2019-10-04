@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnState method
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromBurn.get_burnState"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

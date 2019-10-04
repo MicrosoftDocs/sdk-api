@@ -12,6 +12,8 @@ ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Loggin
 ms.topic: function
 f1_keywords: 
  - "ual/UalRegisterProduct"
+dev_langs:
+ - c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

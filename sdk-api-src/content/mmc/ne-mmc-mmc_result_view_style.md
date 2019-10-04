@@ -12,6 +12,8 @@ ms.keywords: MMC_NOSORTHEADER, MMC_RESULT_VIEW_STYLE, MMC_RESULT_VIEW_STYLE enum
 ms.topic: enum
 f1_keywords: 
  - "mmc/MMC_RESULT_VIEW_STYLE"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

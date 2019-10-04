@@ -12,6 +12,8 @@ ms.keywords: 81aac302-c89a-42ca-9c90-170611a8995a, IM_Disabled, IM_Ink, IM_InkAn
 ms.topic: enum
 f1_keywords: 
  - "inked/InkMode"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRan
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.Linearize"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

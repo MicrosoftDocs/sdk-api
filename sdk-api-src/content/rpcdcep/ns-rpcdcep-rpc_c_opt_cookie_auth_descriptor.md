@@ -12,6 +12,8 @@ ms.keywords: PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, PRPC_C_OPT_COOKIE_AUTH_DESCRIPTO
 ms.topic: struct
 f1_keywords: 
  - "rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows

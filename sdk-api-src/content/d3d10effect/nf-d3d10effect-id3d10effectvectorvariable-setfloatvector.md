@@ -12,6 +12,8 @@ ms.keywords: 6f0f4b92-eac0-b29f-0107-717ed288e5f2, ID3D10EffectVectorVariable in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.SetFloatVector"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

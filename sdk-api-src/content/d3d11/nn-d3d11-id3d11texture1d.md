@@ -12,6 +12,8 @@ ms.keywords: 94d3cca2-802d-74ee-453b-b41e259e8903, ID3D11Texture1D, ID3D11Textur
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11Texture1D"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

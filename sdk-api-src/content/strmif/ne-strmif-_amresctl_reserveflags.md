@@ -12,6 +12,8 @@ ms.keywords: AMRESCTL_RESERVEFLAGS, AMRESCTL_RESERVEFLAGSEnumeration, AMRESCTL_R
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AMRESCTL_RESERVEFLAGS"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: DShow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement fu
 ms.topic: function
 f1_keywords: 
  - "appmodel/AppPolicyGetLifecycleManagement"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

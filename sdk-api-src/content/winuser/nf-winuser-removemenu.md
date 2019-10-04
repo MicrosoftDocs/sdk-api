@@ -12,6 +12,8 @@ ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, RemoveMenu, RemoveMenu function [Menus
 ms.topic: function
 f1_keywords: 
  - "winuser/RemoveMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

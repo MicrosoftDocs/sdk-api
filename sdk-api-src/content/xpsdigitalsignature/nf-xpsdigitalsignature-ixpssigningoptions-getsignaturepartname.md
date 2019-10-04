@@ -12,6 +12,8 @@ ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents an
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetSignaturePartName"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorInfo.InfoEnumerated"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

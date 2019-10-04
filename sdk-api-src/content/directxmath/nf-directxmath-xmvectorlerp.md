@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorLerp, XMVectorLerp, XMVectorLerp method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorLerp"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

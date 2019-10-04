@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],get_Attributes method, IPicture.get_Attrib
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.get_Attributes"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

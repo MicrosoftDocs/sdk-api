@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATDATA interface [COM],Reset method, IEnumSTATDATA.Reset, IE
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumSTATDATA.Reset"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

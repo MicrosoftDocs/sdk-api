@@ -12,6 +12,8 @@ ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navig
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderFragment.Navigate"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

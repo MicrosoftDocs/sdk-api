@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCP6ROW_OWNER_MODULE
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

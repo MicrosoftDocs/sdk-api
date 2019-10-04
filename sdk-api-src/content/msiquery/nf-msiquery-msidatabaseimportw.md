@@ -12,6 +12,8 @@ ms.keywords: MsiDatabaseImport, MsiDatabaseImport function, MsiDatabaseImportA, 
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDatabaseImport"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

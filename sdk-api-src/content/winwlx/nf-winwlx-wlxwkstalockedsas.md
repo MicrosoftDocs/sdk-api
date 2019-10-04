@@ -12,6 +12,8 @@ ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxWkstaLockedSAS"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility],
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaCacheRequest"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

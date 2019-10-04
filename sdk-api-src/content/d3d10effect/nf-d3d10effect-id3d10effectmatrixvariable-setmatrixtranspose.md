@@ -12,6 +12,8 @@ ms.keywords: 8561664e-7026-5fcc-43aa-11163abdb56f, ID3D10EffectMatrixVariable in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectMatrixVariable.SetMatrixTranspose"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

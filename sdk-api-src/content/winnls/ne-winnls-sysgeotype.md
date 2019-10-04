@@ -12,6 +12,8 @@ ms.keywords: GEO_CURRENCYCODE, GEO_CURRENCYSYMBOL, GEO_DIALINGCODE, GEO_FRIENDLY
 ms.topic: enum
 f1_keywords: 
  - "winnls/SYSGEOTYPE"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

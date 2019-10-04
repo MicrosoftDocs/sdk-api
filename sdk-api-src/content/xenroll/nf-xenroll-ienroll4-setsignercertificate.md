@@ -12,6 +12,8 @@ ms.keywords: IEnroll4 interface [Security],SetSignerCertificate method, IEnroll4
 ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.SetSignerCertificate
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

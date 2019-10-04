@@ -12,6 +12,8 @@ ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _w
 ms.topic: function
 f1_keywords: 
  - "scrnsave/DefScreenSaverProc"
+dev_langs:
+ - c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

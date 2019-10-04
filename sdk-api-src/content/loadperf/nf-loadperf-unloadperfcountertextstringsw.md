@@ -12,6 +12,8 @@ ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function
 ms.topic: function
 f1_keywords: 
  - "loadperf/UnloadPerfCounterTextStrings"
+dev_langs:
+ - c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows

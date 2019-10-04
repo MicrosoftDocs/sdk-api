@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRA
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIFrameBuffer"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

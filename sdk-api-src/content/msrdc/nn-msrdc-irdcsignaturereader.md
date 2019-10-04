@@ -12,6 +12,8 @@ ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differen
 ms.topic: interface
 f1_keywords: 
  - "msrdc/IRdcSignatureReader"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

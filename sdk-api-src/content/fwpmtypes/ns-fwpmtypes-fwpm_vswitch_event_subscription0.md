@@ -12,6 +12,8 @@ ms.keywords: FWPM_VSWITCH_EVENT_SUBSCRIPTION0, FWPM_VSWITCH_EVENT_SUBSCRIPTION0 
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

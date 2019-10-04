@@ -12,6 +12,8 @@ ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XM
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMCOLOR.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

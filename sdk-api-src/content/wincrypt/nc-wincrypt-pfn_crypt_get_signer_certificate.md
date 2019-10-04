@@ -12,6 +12,8 @@ ms.keywords: CryptGetSignerCertificateCallback, CryptGetSignerCertificateCallbac
 ms.topic: callback
 f1_keywords:
 - wincrypt/CryptGetSignerCertificateCallback
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

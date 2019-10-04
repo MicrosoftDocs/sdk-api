@@ -12,6 +12,8 @@ ms.keywords: GraphicsPath class [GDI+],Widen method, GraphicsPath.Widen, Graphic
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.Widen"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

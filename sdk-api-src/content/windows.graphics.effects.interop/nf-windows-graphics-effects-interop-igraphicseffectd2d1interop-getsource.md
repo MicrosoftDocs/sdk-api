@@ -12,6 +12,8 @@ ms.keywords: GetSource, GetSource method, GetSource method,IGraphicsEffectD2D1In
 ms.topic: method
 f1_keywords: 
  - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetSource"
+dev_langs:
+ - c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

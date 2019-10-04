@@ -12,6 +12,8 @@ ms.keywords: DCOMPOSITION_BORDER_MODE, DCOMPOSITION_BORDER_MODE enumeration [Dir
 ms.topic: enum
 f1_keywords: 
  - "dcomptypes/DCOMPOSITION_BORDER_MODE"
+dev_langs:
+ - c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows

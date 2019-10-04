@@ -12,6 +12,8 @@ ms.keywords: GetRecordStartTimeByIndex, GetRecordStartTimeByIndex method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_SDTT.GetRecordStartTimeByIndex"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

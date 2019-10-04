@@ -12,6 +12,8 @@ ms.keywords: ActivateButton, ActivateButton method [DirectShow], ActivateButton 
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdControl2.ActivateButton"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

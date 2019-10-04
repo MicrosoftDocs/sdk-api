@@ -12,6 +12,8 @@ ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscov
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscovery.GetInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

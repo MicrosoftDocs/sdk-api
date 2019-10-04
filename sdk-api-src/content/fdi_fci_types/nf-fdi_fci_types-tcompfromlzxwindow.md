@@ -12,6 +12,8 @@ ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci
 ms.topic: macro
 f1_keywords: 
  - "fdi_fci_types/TCOMPfromLZXWindow"
+dev_langs:
+ - c++
 req.header: fdi_fci_types.h
 req.include-header: Fci.h
 req.target-type: Windows

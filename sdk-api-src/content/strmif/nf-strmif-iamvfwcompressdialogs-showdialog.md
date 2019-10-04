@@ -12,6 +12,8 @@ ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAM
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMVfwCompressDialogs.ShowDialog"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

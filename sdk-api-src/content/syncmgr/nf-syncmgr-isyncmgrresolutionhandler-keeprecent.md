@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent meth
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrResolutionHandler.KeepRecent"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

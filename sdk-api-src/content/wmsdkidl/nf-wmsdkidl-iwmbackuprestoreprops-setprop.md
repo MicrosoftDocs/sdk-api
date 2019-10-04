@@ -12,6 +12,8 @@ ms.keywords: IWMBackupRestoreProps interface [windows Media Format],SetProp meth
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMBackupRestoreProps.SetProp"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

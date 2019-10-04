@@ -12,6 +12,8 @@ ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams int
 ms.topic: interface
 f1_keywords: 
  - "medparam/IMediaParams"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

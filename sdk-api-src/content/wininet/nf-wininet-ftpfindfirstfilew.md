@@ -12,6 +12,8 @@ ms.keywords: FtpFindFirstFile, FtpFindFirstFile function [WinINet], FtpFindFirst
 ms.topic: function
 f1_keywords:
 - wininet/FtpFindFirstFile
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

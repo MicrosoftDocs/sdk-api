@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, Cryp
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlDigestReference
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

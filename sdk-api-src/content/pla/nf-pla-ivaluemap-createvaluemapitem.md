@@ -12,6 +12,8 @@ ms.keywords: CreateValueMapItem, CreateValueMapItem method [PLA], CreateValueMap
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMap.CreateValueMapItem"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PINTERFACE_HARDWARE_CROSSTIMESTAMP, INTERFACE_HARDWARE_CROSSTIMES
 ms.topic: struct
 f1_keywords: 
  - "iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

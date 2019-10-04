@@ -12,6 +12,8 @@ ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstr
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

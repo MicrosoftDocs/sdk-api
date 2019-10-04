@@ -12,6 +12,8 @@ ms.keywords: IPenInputPanel interface [Tablet PC],MoveTo method, IPenInputPanel.
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.MoveTo"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

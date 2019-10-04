@@ -12,6 +12,8 @@ ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersi
 ms.topic: method
 f1_keywords: 
  - "strmif/IPersistMediaPropertyBag.Load"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleUndoUnits int
 ms.topic: method
 f1_keywords: 
  - "ocidl/IEnumOleUndoUnits.Clone"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

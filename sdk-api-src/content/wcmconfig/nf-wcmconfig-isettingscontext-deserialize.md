@@ -12,6 +12,8 @@ ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISe
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsContext.Deserialize"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

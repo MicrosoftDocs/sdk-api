@@ -12,6 +12,8 @@ ms.keywords: GetDpiForWindow, GetDpiForWindow function [High DPI], hidpi.getdpif
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDpiForWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

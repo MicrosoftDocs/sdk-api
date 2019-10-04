@@ -12,6 +12,8 @@ ms.keywords: CA_ACCESS_ADMIN, CA_ACCESS_AUDITOR, CA_ACCESS_ENROLL, CA_ACCESS_OFF
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetMyRoles"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

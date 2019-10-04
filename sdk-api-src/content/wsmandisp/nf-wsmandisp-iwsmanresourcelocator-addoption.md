@@ -12,6 +12,8 @@ ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption 
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManResourceLocator.AddOption"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

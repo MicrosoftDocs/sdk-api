@@ -12,6 +12,8 @@ ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technol
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_TIME"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

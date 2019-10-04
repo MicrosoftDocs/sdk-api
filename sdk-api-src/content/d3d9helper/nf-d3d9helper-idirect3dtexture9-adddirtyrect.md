@@ -12,6 +12,8 @@ ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect me
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DTexture9.AddDirtyRect"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

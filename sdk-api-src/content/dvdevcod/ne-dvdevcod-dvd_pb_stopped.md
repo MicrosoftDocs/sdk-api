@@ -12,6 +12,8 @@ ms.keywords: DVD_PB_STOPPED, DVD_PB_STOPPED , DVD_PB_STOPPED enumeration [Direct
 ms.topic: enum
 f1_keywords: 
  - "dvdevcod/DVD_PB_STOPPED"
+dev_langs:
+ - c++
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

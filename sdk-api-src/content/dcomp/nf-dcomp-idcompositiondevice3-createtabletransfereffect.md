@@ -12,6 +12,8 @@ ms.keywords: CreateTableTransferEffect, CreateTableTransferEffect method [Direct
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateTableTransferEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

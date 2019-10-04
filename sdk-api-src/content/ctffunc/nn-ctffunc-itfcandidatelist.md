@@ -12,6 +12,8 @@ ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framewo
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfCandidateList"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnostics
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.GetDiagnosticsInfo"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

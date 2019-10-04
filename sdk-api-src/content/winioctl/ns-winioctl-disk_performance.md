@@ -12,6 +12,8 @@ ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DISK_PERFORMANCE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

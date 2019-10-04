@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_STATUS_PROCESS, LPSERVICE_STATUS_PROCESS, LPSERVICE_STA
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_STATUS_PROCESS"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

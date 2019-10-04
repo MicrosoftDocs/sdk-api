@@ -12,6 +12,8 @@ ms.keywords: GetSubrange, GetSubrange method [Windows Controls], GetSubrange met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetSubrange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

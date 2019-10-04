@@ -12,6 +12,8 @@ ms.keywords: Vector2F, Vector2F function [Direct2D], d2d1_1helper/Vector2F, dire
 ms.topic: function
 f1_keywords: 
  - "d2d1_1helper/Vector2F"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

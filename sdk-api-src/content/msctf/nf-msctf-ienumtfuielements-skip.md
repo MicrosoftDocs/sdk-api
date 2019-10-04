@@ -12,6 +12,8 @@ ms.keywords: IEnumTfUIElements interface [Text Services Framework],Skip method, 
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfUIElements.Skip"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

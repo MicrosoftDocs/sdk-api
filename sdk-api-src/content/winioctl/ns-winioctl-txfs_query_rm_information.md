@@ -12,6 +12,8 @@ ms.keywords: "*PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION, PTXFS_QUE
 ms.topic: struct
 f1_keywords: 
  - "winioctl/TXFS_QUERY_RM_INFORMATION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

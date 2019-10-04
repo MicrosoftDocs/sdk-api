@@ -12,6 +12,8 @@ ms.keywords: GetLocale, GetLocale method [search], GetLocale method [search],ICo
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition2.GetLocale"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

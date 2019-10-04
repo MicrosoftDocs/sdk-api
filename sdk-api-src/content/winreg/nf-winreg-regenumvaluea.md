@@ -12,6 +12,8 @@ ms.keywords: RegEnumValue, RegEnumValue function, RegEnumValueA, RegEnumValueW, 
 ms.topic: function
 f1_keywords: 
  - "winreg/RegEnumValue"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

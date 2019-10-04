@@ -12,6 +12,8 @@ ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],Res
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

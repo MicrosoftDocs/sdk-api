@@ -12,6 +12,8 @@ ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _msb
 ms.topic: struct
 f1_keywords:
 - mstask/TRIGGER_TYPE_UNION
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

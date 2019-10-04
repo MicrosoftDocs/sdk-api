@@ -12,6 +12,8 @@ ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method
 ms.topic: method
 f1_keywords: 
  - "tuner/IComponentTypes.Remove"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

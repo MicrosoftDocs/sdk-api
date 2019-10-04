@@ -12,6 +12,8 @@ ms.keywords: Description property [Windows Deployment Services], Description pro
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportContentProvider.Description"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

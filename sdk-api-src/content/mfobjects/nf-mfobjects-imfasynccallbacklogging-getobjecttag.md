@@ -12,6 +12,8 @@ ms.keywords: GetObjectTag, GetObjectTag method [Media Foundation], GetObjectTag 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncCallbackLogging.GetObjectTag"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

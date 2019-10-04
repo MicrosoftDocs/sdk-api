@@ -12,6 +12,8 @@ ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontRenderi
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphs.SetFontRenderingEmSize"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

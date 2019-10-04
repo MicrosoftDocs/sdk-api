@@ -12,6 +12,8 @@ ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerGroupStartup"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

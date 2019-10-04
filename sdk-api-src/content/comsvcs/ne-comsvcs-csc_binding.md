@@ -12,6 +12,8 @@ ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], 
 ms.topic: enum
 f1_keywords: 
  - "comsvcs/CSC_Binding"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

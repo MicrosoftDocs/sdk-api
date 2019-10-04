@@ -12,6 +12,8 @@ ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],PathGradie
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetBlend"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

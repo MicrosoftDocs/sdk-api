@@ -12,6 +12,8 @@ ms.keywords: ITSGAuthorizeResourceSink interface [Remote Desktop Services],OnCha
 ms.topic: method
 f1_keywords: 
  - "tsgpolicyengine/ITSGAuthorizeResourceSink.OnChannelAuthorized"
+dev_langs:
+ - c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

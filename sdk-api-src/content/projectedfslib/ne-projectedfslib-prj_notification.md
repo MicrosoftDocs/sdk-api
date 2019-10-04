@@ -12,6 +12,8 @@ ms.keywords: PRJ_NOTIFICATION, PRJ_NOTIFICATION enumeration, PRJ_NOTIFICATION_FI
 ms.topic: enum
 f1_keywords: 
  - "projectedfslib/PRJ_NOTIFICATION"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

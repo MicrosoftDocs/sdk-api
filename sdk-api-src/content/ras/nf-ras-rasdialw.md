@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_
 ms.topic: function
 f1_keywords: 
  - "ras/RasDial"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

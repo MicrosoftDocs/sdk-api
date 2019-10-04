@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], fwp
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_COOKIE_PAIR0"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

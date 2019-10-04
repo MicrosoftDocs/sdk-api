@@ -12,6 +12,8 @@ ms.keywords: GetInitializationData, GetInitializationData method, GetInitializat
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.GetInitializationData"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

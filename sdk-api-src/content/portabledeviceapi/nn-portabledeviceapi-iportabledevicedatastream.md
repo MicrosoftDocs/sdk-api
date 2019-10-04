@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Win
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceDataStream"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

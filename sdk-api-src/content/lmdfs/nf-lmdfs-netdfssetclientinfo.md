@@ -12,6 +12,8 @@ ms.keywords: 101, 102, NetDfsSetClientInfo, NetDfsSetClientInfo function [Distri
 ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetClientInfo
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

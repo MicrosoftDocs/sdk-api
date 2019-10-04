@@ -12,6 +12,8 @@ ms.keywords: VarBoolFromCy, VarBoolFromCy function [Automation], _oa96_VarBoolFr
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBoolFromCy"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

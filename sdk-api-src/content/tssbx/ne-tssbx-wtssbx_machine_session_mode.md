@@ -12,6 +12,8 @@ ms.keywords: WTSSBX_MACHINE_SESSION_MODE, WTSSBX_MACHINE_SESSION_MODE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "tssbx/WTSSBX_MACHINE_SESSION_MODE"
+dev_langs:
+ - c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

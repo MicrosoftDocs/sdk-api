@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.In
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.Initialize"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

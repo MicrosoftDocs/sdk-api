@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_EMAILCONTACTEVENT, WPC_ARGS_EMAILCONTACTEVENT enumeration,
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_EMAILCONTACTEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

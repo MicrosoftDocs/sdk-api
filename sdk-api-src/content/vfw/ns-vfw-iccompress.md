@@ -12,6 +12,8 @@ ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_K
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICCOMPRESS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

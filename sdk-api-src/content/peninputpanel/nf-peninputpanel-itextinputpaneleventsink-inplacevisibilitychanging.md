@@ -12,6 +12,8 @@ ms.keywords: 957e1c24-3eee-4a6f-9157-961e3d6914b7, ITextInputPanelEventSink inte
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink.InPlaceVisibilityChanging"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

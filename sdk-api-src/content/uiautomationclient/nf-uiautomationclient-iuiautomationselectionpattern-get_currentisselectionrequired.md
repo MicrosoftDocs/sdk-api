@@ -12,6 +12,8 @@ ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], Curren
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSelectionPattern.CurrentIsSelectionRequired"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

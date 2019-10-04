@@ -12,6 +12,8 @@ ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescript
 ms.topic: method
 f1_keywords:
 - wmcodecdsp/IToc.GetDescriptor
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

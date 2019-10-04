@@ -12,6 +12,8 @@ ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent]
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IInstallationJob"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

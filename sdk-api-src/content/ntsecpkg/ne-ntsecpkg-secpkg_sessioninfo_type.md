@@ -12,6 +12,8 @@ ms.keywords: SECPKG_SESSIONINFO_TYPE, SECPKG_SESSIONINFO_TYPE enumeration [Secur
 ms.topic: enum
 f1_keywords:
 - ntsecpkg/SECPKG_SESSIONINFO_TYPE
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

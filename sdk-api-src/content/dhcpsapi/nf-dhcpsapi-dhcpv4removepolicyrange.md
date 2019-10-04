@@ -12,6 +12,8 @@ ms.keywords: DhcpV4RemovePolicyRange, DhcpV4RemovePolicyRange function [DHCP], d
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4RemovePolicyRange
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

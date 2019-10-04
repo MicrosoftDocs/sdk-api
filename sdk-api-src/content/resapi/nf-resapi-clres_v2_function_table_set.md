@@ -12,6 +12,8 @@ ms.keywords: CLRES_V2_FUNCTION_TABLE_SET, CLRES_V2_FUNCTION_TABLE_SET macro [Fai
 ms.topic: macro
 f1_keywords: 
  - "resapi/CLRES_V2_FUNCTION_TABLE_SET"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

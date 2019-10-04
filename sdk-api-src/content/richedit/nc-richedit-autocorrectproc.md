@@ -12,6 +12,8 @@ ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback
 ms.topic: callback
 f1_keywords: 
  - "richedit/AutoCorrectProc"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

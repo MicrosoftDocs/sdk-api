@@ -12,6 +12,8 @@ ms.keywords: EmptyWorkingSet, EmptyWorkingSet function [PSAPI], K32EmptyWorkingS
 ms.topic: function
 f1_keywords: 
  - "psapi/EmptyWorkingSet"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

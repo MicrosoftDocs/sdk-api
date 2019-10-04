@@ -12,6 +12,8 @@ ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISync
 ms.topic: interface
 f1_keywords: 
  - "objidlbase/ISynchronizeContainer"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

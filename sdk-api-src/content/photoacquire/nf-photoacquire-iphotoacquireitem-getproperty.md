@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Picture Acquisition], GetProperty 
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.GetProperty"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

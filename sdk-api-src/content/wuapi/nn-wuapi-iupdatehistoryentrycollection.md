@@ -12,6 +12,8 @@ ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interf
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IUpdateHistoryEntryCollection"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

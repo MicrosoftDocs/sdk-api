@@ -12,6 +12,8 @@ ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray 
 ms.topic: interface
 f1_keywords: 
  - "objectarray/IObjectArray"
+dev_langs:
+ - c++
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

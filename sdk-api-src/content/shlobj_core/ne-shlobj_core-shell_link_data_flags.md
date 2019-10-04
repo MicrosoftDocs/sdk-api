@@ -12,6 +12,8 @@ ms.keywords: SHELL_LINK_DATA_FLAGS, SHELL_LINK_DATA_FLAGS enumeration [Windows S
 ms.topic: enum
 f1_keywords: 
  - "shlobj_core/SHELL_LINK_DATA_FLAGS"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

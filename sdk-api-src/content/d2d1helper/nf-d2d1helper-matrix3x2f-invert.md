@@ -12,6 +12,8 @@ ms.keywords: D2D1.Matrix3x2F.Invert, D2D1::Matrix3x2F::Invert, Invert, Invert me
 ms.topic: method
 f1_keywords: 
  - "d2d1helper/Matrix3x2F.Invert"
+dev_langs:
+ - c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

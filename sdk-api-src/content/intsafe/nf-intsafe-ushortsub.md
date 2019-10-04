@@ -12,6 +12,8 @@ ms.keywords: UShortSub, UShortSub function [Windows Shell], WordSub, _shell_USho
 ms.topic: function
 f1_keywords: 
  - "intsafe/UShortSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

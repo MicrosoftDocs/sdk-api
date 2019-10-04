@@ -12,6 +12,8 @@ ms.keywords: WsWriteQualifiedName, WsWriteQualifiedName function [Web Services f
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteQualifiedName"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

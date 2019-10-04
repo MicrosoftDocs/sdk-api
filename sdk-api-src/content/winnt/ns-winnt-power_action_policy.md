@@ -12,6 +12,8 @@ ms.keywords: '*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE
 ms.topic: struct
 f1_keywords:
 - winnt/POWER_ACTION_POLICY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

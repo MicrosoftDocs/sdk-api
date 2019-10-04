@@ -12,6 +12,8 @@ ms.keywords: '*PVSS_SNAPSHOT_PROPERTY_ID, PVSS_SNAPSHOT_PROPERTY_ID, PVSS_SNAPSH
 ms.topic: enum
 f1_keywords:
 - vss/VSS_SNAPSHOT_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

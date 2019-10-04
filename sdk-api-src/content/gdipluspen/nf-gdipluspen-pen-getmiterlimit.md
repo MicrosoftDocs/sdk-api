@@ -12,6 +12,8 @@ ms.keywords: GetMiterLimit, GetMiterLimit method [GDI+], GetMiterLimit method [G
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetMiterLimit"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

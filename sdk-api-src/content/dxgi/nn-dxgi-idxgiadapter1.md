@@ -12,6 +12,8 @@ ms.keywords: 2ac7b82f-b5a5-ec94-1506-33b758455dd2, IDXGIAdapter1, IDXGIAdapter1 
 ms.topic: interface
 f1_keywords: 
  - "dxgi/IDXGIAdapter1"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

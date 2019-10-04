@@ -12,6 +12,8 @@ ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xa
 ms.topic: enum
 f1_keywords: 
  - "xamlom/VisualMutationType"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

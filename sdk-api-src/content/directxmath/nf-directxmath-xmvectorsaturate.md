@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSaturate, XMVectorSaturate, XMVectorSaturate m
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSaturate"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

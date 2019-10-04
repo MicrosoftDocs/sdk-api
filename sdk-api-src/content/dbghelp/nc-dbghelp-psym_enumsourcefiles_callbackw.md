@@ -12,6 +12,8 @@ ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymE
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumSourceFilesProc
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

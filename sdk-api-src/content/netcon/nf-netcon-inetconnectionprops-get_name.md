@@ -12,6 +12,8 @@ ms.keywords: INetConnectionProps interface [ICS/ICF],get_Name method, INetConnec
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnectionProps.get_Name"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

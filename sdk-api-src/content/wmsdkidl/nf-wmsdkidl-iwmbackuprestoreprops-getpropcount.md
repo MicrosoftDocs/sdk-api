@@ -12,6 +12,8 @@ ms.keywords: GetPropCount, GetPropCount method [windows Media Format], GetPropCo
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMBackupRestoreProps.GetPropCount"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

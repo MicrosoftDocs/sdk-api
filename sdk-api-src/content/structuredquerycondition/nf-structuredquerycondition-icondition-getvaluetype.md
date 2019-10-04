@@ -12,6 +12,8 @@ ms.keywords: GetValueType, GetValueType method [search], GetValueType method [se
 ms.topic: method
 f1_keywords: 
  - "structuredquerycondition/ICondition.GetValueType"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows

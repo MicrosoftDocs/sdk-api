@@ -12,6 +12,8 @@ ms.keywords: GetThemeColor, GetThemeColor function [Windows Controls], controls.
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeColor"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

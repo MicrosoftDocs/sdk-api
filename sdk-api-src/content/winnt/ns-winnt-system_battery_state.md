@@ -12,6 +12,8 @@ ms.keywords: "*PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STA
 ms.topic: struct
 f1_keywords: 
  - "winnt/SYSTEM_BATTERY_STATE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

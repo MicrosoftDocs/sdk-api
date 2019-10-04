@@ -12,6 +12,8 @@ ms.keywords: GetFigureCount, GetFigureCount method [Direct2D], GetFigureCount me
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1PathGeometry.GetFigureCount"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

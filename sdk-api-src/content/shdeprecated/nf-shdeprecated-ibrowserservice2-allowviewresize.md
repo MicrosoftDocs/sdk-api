@@ -12,6 +12,8 @@ ms.keywords: AllowViewResize, AllowViewResize method [Windows Shell], AllowViewR
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.AllowViewResize"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

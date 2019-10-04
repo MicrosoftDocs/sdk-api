@@ -12,6 +12,8 @@ ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSeekInfo"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

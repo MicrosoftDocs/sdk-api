@@ -12,6 +12,8 @@ ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Syn
 ms.topic: interface
 f1_keywords: 
  - "winsync/ISyncChangeBatchBase2"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

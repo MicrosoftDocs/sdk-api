@@ -12,6 +12,8 @@ ms.keywords: IEnumMcastScope interface [TAPI 2.2],Next method, IEnumMcastScope.N
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IEnumMcastScope.Next"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

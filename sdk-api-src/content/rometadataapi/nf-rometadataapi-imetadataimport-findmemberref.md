@@ -12,6 +12,8 @@ ms.keywords: FindMemberRef, FindMemberRef method [Windows Runtime], FindMemberRe
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.FindMemberRef"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

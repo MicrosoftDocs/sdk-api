@@ -12,6 +12,8 @@ ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectS
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMultiMediaStream.GetFilter"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

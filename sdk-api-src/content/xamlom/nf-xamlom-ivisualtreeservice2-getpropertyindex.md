@@ -12,6 +12,8 @@ ms.keywords: GetPropertyIndex, GetPropertyIndex method, GetPropertyIndex method,
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService2.GetPropertyIndex"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

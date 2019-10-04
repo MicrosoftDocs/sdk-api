@@ -12,6 +12,8 @@ ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc 
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.DeleteFuncDesc"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

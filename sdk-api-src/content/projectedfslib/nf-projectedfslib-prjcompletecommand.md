@@ -12,6 +12,8 @@ ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcomplete
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjCompleteCommand"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

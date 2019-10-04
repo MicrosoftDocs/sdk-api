@@ -12,6 +12,8 @@ ms.keywords: GetTotalAudioTracks, GetTotalAudioTracks method [IMAPI], GetTotalAu
 ms.topic: method
 f1_keywords: 
  - "imapi/IRedbookDiscMaster.GetTotalAudioTracks"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

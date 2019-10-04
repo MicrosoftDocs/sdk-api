@@ -12,6 +12,8 @@ ms.keywords: CRYPT_XML_PROPERTY_DOC_DECLARATION, CRYPT_XML_PROPERTY_ID, CRYPT_XM
 ms.topic: enum
 f1_keywords: 
  - "cryptxml/CRYPT_XML_PROPERTY_ID"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

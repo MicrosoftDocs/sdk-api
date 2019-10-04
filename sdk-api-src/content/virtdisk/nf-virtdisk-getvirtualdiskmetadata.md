@@ -12,6 +12,8 @@ ms.keywords: GetVirtualDiskMetadata, GetVirtualDiskMetadata function [Virtual St
 ms.topic: function
 f1_keywords: 
  - "virtdisk/GetVirtualDiskMetadata"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

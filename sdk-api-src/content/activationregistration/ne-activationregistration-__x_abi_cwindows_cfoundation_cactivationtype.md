@@ -12,6 +12,8 @@ ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], Activ
 ms.topic: enum
 f1_keywords: 
  - "activationregistration/ActivationType"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: Objidl.h
 req.target-type: Windows

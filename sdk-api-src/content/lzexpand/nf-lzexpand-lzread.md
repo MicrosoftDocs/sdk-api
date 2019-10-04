@@ -12,6 +12,8 @@ ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzr
 ms.topic: function
 f1_keywords: 
  - "lzexpand/LZRead"
+dev_langs:
+ - c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

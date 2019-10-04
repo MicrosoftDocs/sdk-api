@@ -12,6 +12,8 @@ ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFCollection.InsertElementAt"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

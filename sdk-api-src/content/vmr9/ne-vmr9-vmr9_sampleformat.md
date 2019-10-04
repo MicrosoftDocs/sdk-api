@@ -12,6 +12,8 @@ ms.keywords: VMR9_SampleFieldInterleavedEvenFirst, VMR9_SampleFieldInterleavedOd
 ms.topic: enum
 f1_keywords:
 - vmr9/VMR9_SampleFormat
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

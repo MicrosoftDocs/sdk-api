@@ -12,6 +12,8 @@ ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupF
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupFindFirstLine"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

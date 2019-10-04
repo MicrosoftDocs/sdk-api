@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInte
 ms.topic: function
 f1_keywords:
 - netioapi/NotifyIpInterfaceChange
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

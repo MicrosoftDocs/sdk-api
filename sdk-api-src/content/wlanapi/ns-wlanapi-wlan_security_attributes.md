@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECUR
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_SECURITY_ATTRIBUTES
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

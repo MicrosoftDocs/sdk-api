@@ -12,6 +12,8 @@ ms.keywords: RPC_C_EP_ALL_ELTS, RPC_C_EP_MATCH_BY_BOTH, RPC_C_EP_MATCH_BY_IF, RP
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtEpEltInqBegin"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

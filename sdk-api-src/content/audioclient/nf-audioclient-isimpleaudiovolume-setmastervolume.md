@@ -12,6 +12,8 @@ ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, I
 ms.topic: method
 f1_keywords: 
  - "audioclient/ISimpleAudioVolume.SetMasterVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

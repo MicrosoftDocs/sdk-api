@@ -12,6 +12,8 @@ ms.keywords: GetName, GetName method [Enhanced Storage], GetName method [Enhance
 ms.topic: method
 f1_keywords: 
  - "ehstorapi/IEnhancedStorageSiloAction.GetName"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

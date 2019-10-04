@@ -12,6 +12,8 @@ ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSensorStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

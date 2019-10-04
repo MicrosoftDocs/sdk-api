@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncDDService, codecapi/eAVEncDDService_C, codecapi/eAVE
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncDDService"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

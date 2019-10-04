@@ -12,6 +12,8 @@ ms.keywords: "*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QU
 ms.topic: struct
 f1_keywords: 
  - "ws2bth/BTH_QUERY_DEVICE"
+dev_langs:
+ - c++
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

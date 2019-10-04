@@ -12,6 +12,8 @@ ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Win
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceProperties"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

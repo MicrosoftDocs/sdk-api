@@ -12,6 +12,8 @@ ms.keywords: "*PPOLICY_DOMAIN_INFORMATION_CLASS, POLICY_DOMAIN_INFORMATION_CLASS
 ms.topic: enum
 f1_keywords: 
  - "ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

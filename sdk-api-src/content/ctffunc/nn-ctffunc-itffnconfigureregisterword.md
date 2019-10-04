@@ -12,6 +12,8 @@ ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [T
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnConfigureRegisterWord"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

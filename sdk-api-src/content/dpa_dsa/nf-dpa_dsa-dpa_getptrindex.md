@@ -12,6 +12,8 @@ ms.keywords: DPA_GetPtrIndex, DPA_GetPtrIndex function [Windows Controls], _shel
 ms.topic: function
 f1_keywords: 
  - "dpa_dsa/DPA_GetPtrIndex"
+dev_langs:
+ - c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

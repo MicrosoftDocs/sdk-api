@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSqrtEst, XMVectorSqrtEst, XMVectorSqrtEst meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSqrtEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

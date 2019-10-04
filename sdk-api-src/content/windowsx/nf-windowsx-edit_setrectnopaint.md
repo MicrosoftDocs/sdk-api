@@ -12,6 +12,8 @@ ms.keywords: Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_SetRectNoPaint"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

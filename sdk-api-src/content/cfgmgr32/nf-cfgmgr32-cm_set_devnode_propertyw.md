@@ -12,6 +12,8 @@ ms.keywords: CM_Set_DevNode_Property, CM_Set_DevNode_Property function [Device a
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Set_DevNode_Property"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

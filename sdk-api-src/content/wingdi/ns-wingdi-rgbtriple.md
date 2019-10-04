@@ -12,6 +12,8 @@ ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE stru
 ms.topic: struct
 f1_keywords: 
  - "wingdi/RGBTRIPLE"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

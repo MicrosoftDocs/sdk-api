@@ -12,6 +12,8 @@ ms.keywords: SspiEncryptAuthIdentityEx, SspiEncryptAuthIdentityEx function [Secu
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiEncryptAuthIdentityEx"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

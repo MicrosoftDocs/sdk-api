@@ -12,6 +12,8 @@ ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multim
 ms.topic: method
 f1_keywords: 
  - "vfw/IAVIEditStream.Copy"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

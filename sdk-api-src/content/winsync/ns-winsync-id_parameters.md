@@ -12,6 +12,8 @@ ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], winsync.id_p
 ms.topic: struct
 f1_keywords:
 - winsync/ID_PARAMETERS
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

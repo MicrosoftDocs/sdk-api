@@ -12,6 +12,8 @@ ms.keywords: Size class [GDI+],operator+ method, Size.operator+, Size.operator+(
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Size.operator+"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

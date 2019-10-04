@@ -12,6 +12,8 @@ ms.keywords: '*LPWSAQUERYSET2A, *PWSAQUERYSET2A, LPWSAQUERYSET2, LPWSAQUERYSET2 
 ms.topic: struct
 f1_keywords:
 - winsock2/WSAQUERYSET2
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

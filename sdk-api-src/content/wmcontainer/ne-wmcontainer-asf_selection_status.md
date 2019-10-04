@@ -12,6 +12,8 @@ ms.keywords: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59, ASF_SELECTION_STATUS, ASF_SEL
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/ASF_SELECTION_STATUS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

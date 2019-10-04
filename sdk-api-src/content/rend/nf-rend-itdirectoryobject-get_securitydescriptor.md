@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor metho
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObject.get_SecurityDescriptor"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

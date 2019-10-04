@@ -12,6 +12,8 @@ ms.keywords: GetMessageCountLimit, GetMessageCountLimit method [Direct3D 11], Ge
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetMessageCountLimit"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

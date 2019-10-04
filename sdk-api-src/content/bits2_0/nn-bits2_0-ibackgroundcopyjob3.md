@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgro
 ms.topic: interface
 f1_keywords: 
  - "bits2_0/IBackgroundCopyJob3"
+dev_langs:
+ - c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

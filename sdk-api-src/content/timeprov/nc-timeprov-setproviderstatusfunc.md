@@ -12,6 +12,8 @@ ms.keywords: SetProviderStatusFunc, SetProviderStatusFunc callback, SetProviderS
 ms.topic: callback
 f1_keywords: 
  - "timeprov/SetProviderStatusFunc"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

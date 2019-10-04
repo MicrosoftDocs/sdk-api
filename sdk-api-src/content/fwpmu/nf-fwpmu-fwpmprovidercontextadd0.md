@@ -12,6 +12,8 @@ ms.keywords: FwpmProviderContextAdd0, FwpmProviderContextAdd0 function [Filterin
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextAdd0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

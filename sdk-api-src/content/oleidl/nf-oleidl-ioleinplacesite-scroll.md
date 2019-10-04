@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSite interface [COM],Scroll method, IOleInPlaceSite.Scro
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.Scroll"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

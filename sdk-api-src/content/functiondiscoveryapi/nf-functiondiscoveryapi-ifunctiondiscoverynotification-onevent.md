@@ -12,6 +12,8 @@ ms.keywords: FD_EVENTID_ASYNCTHREADEXIT, FD_EVENTID_IPADDRESSCHANGE, FD_EVENTID_
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnEvent"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

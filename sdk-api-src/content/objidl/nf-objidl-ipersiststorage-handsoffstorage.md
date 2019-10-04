@@ -12,6 +12,8 @@ ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage meth
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStorage.HandsOffStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

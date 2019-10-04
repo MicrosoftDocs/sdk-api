@@ -12,6 +12,8 @@ ms.keywords: "*PPOINTL, POINTL, POINTL structure [Display Devices], PPOINTL, PPO
 ms.topic: struct
 f1_keywords: 
  - "windef/POINTL"
+dev_langs:
+ - c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

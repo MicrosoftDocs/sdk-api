@@ -12,6 +12,8 @@ ms.keywords: 3320d273-7542-f3d8-0828-2c357608a8c8, D3DStripShader, D3DStripShade
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DStripShader"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

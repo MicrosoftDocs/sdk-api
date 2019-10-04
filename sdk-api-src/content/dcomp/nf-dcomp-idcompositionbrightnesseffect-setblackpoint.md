@@ -12,6 +12,8 @@ ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlac
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionBrightnessEffect.SetBlackPoint"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

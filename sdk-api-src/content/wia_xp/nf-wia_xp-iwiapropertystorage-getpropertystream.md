@@ -12,6 +12,8 @@ ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStrea
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaPropertyStorage.GetPropertyStream"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

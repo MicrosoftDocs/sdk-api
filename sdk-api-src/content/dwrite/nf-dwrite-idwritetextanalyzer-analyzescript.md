@@ -12,6 +12,8 @@ ms.keywords: AnalyzeScript, AnalyzeScript method [Direct Write], AnalyzeScript m
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextAnalyzer.AnalyzeScript"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 47ffdda4-bfe2-4ee0-bfda-cad73a346b1e, CurrentInputArea property [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.CurrentInputArea"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

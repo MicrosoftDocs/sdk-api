@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackIndexes method, IRa
 ms.topic: method
 f1_keywords: 
  - "imapi2/IRawCDImageTrackInfo.get_TrackIndexes"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

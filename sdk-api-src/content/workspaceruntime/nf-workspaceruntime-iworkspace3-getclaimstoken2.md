@@ -12,6 +12,8 @@ ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], 
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspace3.GetClaimsToken2"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

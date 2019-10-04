@@ -12,6 +12,8 @@ ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_B
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_GetCheck"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

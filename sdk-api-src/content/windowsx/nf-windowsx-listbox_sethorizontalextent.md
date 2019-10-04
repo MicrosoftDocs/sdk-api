@@ -12,6 +12,8 @@ ms.keywords: ListBox_SetHorizontalExtent, ListBox_SetHorizontalExtent macro [Win
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_SetHorizontalExtent"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_DH_ALGORITHM, BCRYPT_DSA_ALGORITHM, BCRYPT_ECDH_P256_ALGORIT
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptGenerateKeyPair"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_ROLE_DOMAIN_OWNER, DS_ROLE_INFRASTRUCTURE_OWNER, DS_ROLE_PDC_OWN
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsListRoles"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

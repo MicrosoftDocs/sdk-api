@@ -12,6 +12,8 @@ ms.keywords: KeyCredentialManagerOperationErrorStateCertificateFailure, KeyCrede
 ms.topic: enum
 f1_keywords: 
  - "keycredmgr/KeyCredentialManagerOperationErrorStates"
+dev_langs:
+ - c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

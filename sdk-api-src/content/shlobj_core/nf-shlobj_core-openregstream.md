@@ -12,6 +12,8 @@ ms.keywords: OpenRegStream, OpenRegStream function [Windows Shell], STGM_READ, S
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/OpenRegStream"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

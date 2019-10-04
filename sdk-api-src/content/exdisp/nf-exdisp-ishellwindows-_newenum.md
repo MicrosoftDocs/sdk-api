@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWind
 ms.topic: method
 f1_keywords: 
  - "exdisp/IShellWindows._NewEnum"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

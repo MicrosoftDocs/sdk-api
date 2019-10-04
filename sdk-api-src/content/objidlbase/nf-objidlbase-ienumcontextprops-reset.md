@@ -12,6 +12,8 @@ ms.keywords: IEnumContextProps interface [COM],Reset method, IEnumContextProps.R
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IEnumContextProps.Reset"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_MOUNT_POINT_NOTIFICATION, VDS_MOUNT_POINT_NOTIFICATION structur
 ms.topic: struct
 f1_keywords:
 - vds/VDS_MOUNT_POINT_NOTIFICATION
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

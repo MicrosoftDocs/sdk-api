@@ -12,6 +12,8 @@ ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeade
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFContentInfo.GenerateHeader"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

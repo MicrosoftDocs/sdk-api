@@ -12,6 +12,8 @@ ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttp
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpWriteData"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

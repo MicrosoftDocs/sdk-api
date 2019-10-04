@@ -12,6 +12,8 @@ ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetGuideProgramIDs"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

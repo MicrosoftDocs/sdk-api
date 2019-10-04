@@ -12,6 +12,8 @@ ms.keywords: GetTunerId, GetTunerId method [Microsoft TV Technologies], GetTuner
 ms.topic: method
 f1_keywords: 
  - "tuner/IESFileExpiryDateEvent.GetTunerId"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

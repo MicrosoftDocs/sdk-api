@@ -12,6 +12,8 @@ ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method,
 ms.topic: method
 f1_keywords: 
  - "control/IBasicVideo.SetDefaultSourcePosition"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

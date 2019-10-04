@@ -12,6 +12,8 @@ ms.keywords: ApplicationFree, ApplicationFree method [COM], ApplicationFree meth
 ms.topic: method
 f1_keywords: 
  - "objidl/ISurrogateService.ApplicationFree"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

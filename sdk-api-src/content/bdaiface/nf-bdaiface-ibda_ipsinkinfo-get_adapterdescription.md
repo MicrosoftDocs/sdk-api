@@ -12,6 +12,8 @@ ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterDe
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_IPSinkInfo.get_AdapterDescription"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

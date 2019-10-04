@@ -12,6 +12,8 @@ ms.keywords: GetWeakReference, GetWeakReference method [Windows Runtime], GetWea
 ms.topic: method
 f1_keywords: 
  - "weakreference/IWeakReferenceSource.GetWeakReference"
+dev_langs:
+ - c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows

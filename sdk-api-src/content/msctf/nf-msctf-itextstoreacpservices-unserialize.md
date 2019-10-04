@@ -12,6 +12,8 @@ ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unseriali
 ms.topic: method
 f1_keywords: 
  - "msctf/ITextStoreACPServices.Unserialize"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, 
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDatabaseExport"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

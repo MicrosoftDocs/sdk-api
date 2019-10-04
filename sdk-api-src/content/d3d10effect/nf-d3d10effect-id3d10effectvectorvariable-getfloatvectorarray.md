@@ -12,6 +12,8 @@ ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray, GetFloat
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.GetFloatVectorArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

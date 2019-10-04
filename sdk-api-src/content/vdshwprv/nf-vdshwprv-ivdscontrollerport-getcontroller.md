@@ -12,6 +12,8 @@ ms.keywords: GetController, GetController method [VDS], GetController method [VD
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsControllerPort.GetController"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_S
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHGetDriveMedia"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

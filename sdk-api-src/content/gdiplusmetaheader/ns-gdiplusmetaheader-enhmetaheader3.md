@@ -12,6 +12,8 @@ ms.keywords: ENHMETAHEADER3, ENHMETAHEADER3 structure [GDI+], _gdiplus_STRUC_ENH
 ms.topic: struct
 f1_keywords: 
  - "gdiplusmetaheader/ENHMETAHEADER3"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

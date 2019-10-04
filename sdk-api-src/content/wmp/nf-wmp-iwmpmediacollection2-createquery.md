@@ -12,6 +12,8 @@ ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],createQuery m
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMediaCollection2.createQuery"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

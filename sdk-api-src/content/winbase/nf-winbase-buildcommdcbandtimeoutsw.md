@@ -12,6 +12,8 @@ ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCom
 ms.topic: function
 f1_keywords:
 - winbase/BuildCommDCBAndTimeouts
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

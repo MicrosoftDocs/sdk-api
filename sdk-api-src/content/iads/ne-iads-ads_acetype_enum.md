@@ -12,6 +12,8 @@ ms.keywords: ADS_ACETYPE_ACCESS_ALLOWED, ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK, AD
 ms.topic: enum
 f1_keywords:
 - iads/ADS_ACETYPE_ENUM
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

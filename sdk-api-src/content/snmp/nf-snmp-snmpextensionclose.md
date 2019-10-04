@@ -12,6 +12,8 @@ ms.keywords: SnmpExtensionClose, SnmpExtensionClose callback, SnmpExtensionClose
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpExtensionClose"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

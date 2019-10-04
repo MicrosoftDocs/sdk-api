@@ -12,6 +12,8 @@ ms.keywords: DRMCreateEnablingBitsEncryptor, DRMCreateEnablingBitsEncryptor func
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMCreateEnablingBitsEncryptor"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

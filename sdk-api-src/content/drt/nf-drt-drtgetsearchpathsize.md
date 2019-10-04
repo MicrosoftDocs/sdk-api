@@ -12,6 +12,8 @@ ms.keywords: DrtGetSearchPathSize, DrtGetSearchPathSize function [Peer Networkin
 ms.topic: function
 f1_keywords:
 - drt/DrtGetSearchPathSize
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

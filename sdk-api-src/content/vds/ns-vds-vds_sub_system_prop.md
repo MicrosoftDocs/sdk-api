@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_SUB_SYSTEM_PROP, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY
 ms.topic: struct
 f1_keywords:
 - vds/VDS_SUB_SYSTEM_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

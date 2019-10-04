@@ -12,6 +12,8 @@ ms.keywords: IWordBreaker, IWordBreaker interface [search], IWordBreaker interfa
 ms.topic: interface
 f1_keywords: 
  - "indexsrv/IWordBreaker"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

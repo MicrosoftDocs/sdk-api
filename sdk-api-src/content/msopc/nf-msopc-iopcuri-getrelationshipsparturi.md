@@ -12,6 +12,8 @@ ms.keywords: GetRelationshipsPartUri, GetRelationshipsPartUri method [Open Packa
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcUri.GetRelationshipsPartUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetS
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_EIT.GetServiceId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMGetIntervalTime, DRMGetIntervalTime function [Active Directory R
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetIntervalTime"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_OPM_ESTABLISHED, MF_MEDIA_ENGINE_OPM_FAILED, MF_MED
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

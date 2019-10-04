@@ -12,6 +12,8 @@ ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],I
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderUserArray.GetAt"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

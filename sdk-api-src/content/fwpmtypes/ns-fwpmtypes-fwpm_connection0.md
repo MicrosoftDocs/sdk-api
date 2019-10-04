@@ -12,6 +12,8 @@ ms.keywords: FWPM_CONNECTION0, FWPM_CONNECTION0 structure [Filtering], fwp.fwpm_
 ms.topic: struct
 f1_keywords: 
  - "fwpmtypes/FWPM_CONNECTION0"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PeekNamedPipe, PeekNamedPipe function, _win32_peeknamedpipe, base.p
 ms.topic: function
 f1_keywords: 
  - "namedpipeapi/PeekNamedPipe"
+dev_langs:
+ - c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

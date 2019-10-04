@@ -12,6 +12,8 @@ ms.keywords: IMessageMover interface [COM+],put_CommitBatchSize method, IMessage
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMessageMover.put_CommitBatchSize"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

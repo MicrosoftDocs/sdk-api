@@ -12,6 +12,8 @@ ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ReBaseImage64"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

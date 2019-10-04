@@ -12,6 +12,8 @@ ms.keywords: GATD_INCLUDE_APPLICATION_NAME, GATD_INCLUDE_CLASS_NAME, GATD_INCLUD
 ms.topic: enum
 f1_keywords:
 - comsvcs/GetAppTrackerDataFlags
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

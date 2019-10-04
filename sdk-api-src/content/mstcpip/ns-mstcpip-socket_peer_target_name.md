@@ -12,6 +12,8 @@ ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock
 ms.topic: struct
 f1_keywords:
 - mstcpip/SOCKET_PEER_TARGET_NAME
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxma
 ms.topic: struct
 f1_keywords: 
  - "directxmath/XMMATRIX"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

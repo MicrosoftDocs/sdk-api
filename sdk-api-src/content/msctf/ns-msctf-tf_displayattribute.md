@@ -12,6 +12,8 @@ ms.keywords: TF_DISPLAYATTRIBUTE, TF_DISPLAYATTRIBUTE structure [Text Services F
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_DISPLAYATTRIBUTE"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

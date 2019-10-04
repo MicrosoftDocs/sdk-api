@@ -12,6 +12,8 @@ ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesPr
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.TerminalServicesProfilePath"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

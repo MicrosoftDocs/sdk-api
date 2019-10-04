@@ -12,6 +12,8 @@ ms.keywords: ID3D11InfoQueue interface [Direct3D 11],PushCopyOfStorageFilter met
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.PushCopyOfStorageFilter"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.pu
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPicture.put_KeepOriginalFormat"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

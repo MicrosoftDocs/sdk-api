@@ -12,6 +12,8 @@ ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMe
 ms.topic: method
 f1_keywords: 
  - "strmif/IMediaSample.SetActualDataLength"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

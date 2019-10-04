@@ -12,6 +12,8 @@ ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function
 ms.topic: function
 f1_keywords:
 - recapis/AddStroke
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITsSbEnvironmentPropertySet, ITsSbEnvironmentPropertySet interface 
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbEnvironmentPropertySet"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

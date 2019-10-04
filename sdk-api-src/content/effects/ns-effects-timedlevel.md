@@ -12,6 +12,8 @@ ms.keywords: TimedLevel, TimedLevel structure [Windows Media Player], effects/Ti
 ms.topic: struct
 f1_keywords: 
  - "effects/TimedLevel"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

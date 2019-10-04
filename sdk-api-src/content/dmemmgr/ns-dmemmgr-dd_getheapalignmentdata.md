@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIG
 ms.topic: struct
 f1_keywords:
 - dmemmgr/DD_GETHEAPALIGNMENTDATA
+dev_langs:
+ - c++
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows

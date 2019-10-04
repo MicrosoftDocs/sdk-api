@@ -12,6 +12,8 @@ ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE
 ms.topic: struct
 f1_keywords:
 - winnt/ENCLAVE_CREATE_INFO_SGX
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

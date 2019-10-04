@@ -12,6 +12,8 @@ ms.keywords: D3D11_CONSERVATIVE_RASTERIZATION_MODE, D3D11_CONSERVATIVE_RASTERIZA
 ms.topic: enum
 f1_keywords: 
  - "d3d11_3/D3D11_CONSERVATIVE_RASTERIZATION_MODE"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

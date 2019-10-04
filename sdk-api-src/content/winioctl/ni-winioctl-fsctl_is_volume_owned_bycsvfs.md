@@ -12,6 +12,8 @@ ms.keywords: FSCTL_IS_VOLUME_OWNED_BYCSVFS, FSCTL_IS_VOLUME_OWNED_BYCSVFS contro
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

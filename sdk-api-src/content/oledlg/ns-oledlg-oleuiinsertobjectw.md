@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, IOF_CHECKDISPLAYASICO
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIINSERTOBJECT"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

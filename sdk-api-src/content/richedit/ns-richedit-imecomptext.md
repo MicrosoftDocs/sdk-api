@@ -12,6 +12,8 @@ ms.keywords: ICT_RESULTREADSTR, IMECOMPTEXT, IMECOMPTEXT structure [Windows Cont
 ms.topic: struct
 f1_keywords: 
  - "richedit/IMECOMPTEXT"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

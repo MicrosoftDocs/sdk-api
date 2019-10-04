@@ -12,6 +12,8 @@ ms.keywords: GESTURE_TYPE, GESTURE_TYPE enumeration [Desktop Window Manager], GT
 ms.topic: enum
 f1_keywords: 
  - "dwmapi/GESTURE_TYPE"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

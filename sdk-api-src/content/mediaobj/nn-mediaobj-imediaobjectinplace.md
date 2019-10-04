@@ -13,6 +13,8 @@ ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IM
 ms.topic: interface
 f1_keywords: 
  - "mediaobj/IMediaObjectInPlace"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

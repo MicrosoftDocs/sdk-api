@@ -12,6 +12,8 @@ ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Micros
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnConnection.GetActivationNetworkError"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

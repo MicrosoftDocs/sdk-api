@@ -12,6 +12,8 @@ ms.keywords: GetPropertyHandlerFromFileId, GetPropertyHandlerFromFileId method [
 ms.topic: method
 f1_keywords: 
  - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromFileId"
+dev_langs:
+ - c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

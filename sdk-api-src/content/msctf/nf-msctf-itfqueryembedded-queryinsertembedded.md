@@ -12,6 +12,8 @@ ms.keywords: ITfQueryEmbedded interface [Text Services Framework],QueryInsertEmb
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfQueryEmbedded.QueryInsertEmbedded"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

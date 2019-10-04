@@ -12,6 +12,8 @@ ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSensorProfile.GetProfileId"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

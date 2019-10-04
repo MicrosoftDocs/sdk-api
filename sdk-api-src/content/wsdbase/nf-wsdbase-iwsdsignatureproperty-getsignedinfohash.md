@@ -12,6 +12,8 @@ ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash meth
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDSignatureProperty.GetSignedInfoHash"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

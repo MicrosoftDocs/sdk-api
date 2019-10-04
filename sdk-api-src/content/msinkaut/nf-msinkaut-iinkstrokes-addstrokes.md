@@ -12,6 +12,8 @@ ms.keywords: 76580828-c776-4787-843c-db0acb768321, AddStrokes, AddStrokes method
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.AddStrokes"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

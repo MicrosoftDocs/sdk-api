@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableChangeHandler interface [Windows Animation],OnV
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariableChangeHandler.OnValueChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

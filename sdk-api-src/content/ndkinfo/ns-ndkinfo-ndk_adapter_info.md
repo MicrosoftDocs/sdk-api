@@ -12,6 +12,8 @@ ms.keywords: NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED, NDK_ADAPTER_FLA
 ms.topic: struct
 f1_keywords: 
  - "ndkinfo/NDK_ADAPTER_INFO"
+dev_langs:
+ - c++
 req.header: ndkinfo.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

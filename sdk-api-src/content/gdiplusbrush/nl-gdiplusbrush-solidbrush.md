@@ -12,6 +12,8 @@ ms.keywords: SolidBrush, SolidBrush class [GDI+], SolidBrush class [GDI+],descri
 ms.topic: class
 f1_keywords: 
  - "gdiplusbrush/SolidBrush"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

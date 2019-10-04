@@ -12,6 +12,8 @@ ms.keywords: GetProcessDEPPolicy, GetProcessDEPPolicy function, PROCESS_DEP_DISA
 ms.topic: function
 f1_keywords: 
  - "winbase/GetProcessDEPPolicy"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback
 ms.topic: callback
 f1_keywords: 
  - "wdsclientapi/PFN_WdsCliCallback"
+dev_langs:
+ - c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

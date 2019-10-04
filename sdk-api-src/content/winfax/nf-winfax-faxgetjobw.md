@@ -12,6 +12,8 @@ ms.keywords: FaxGetJob, FaxGetJob function [Fax Service], FaxGetJobA, FaxGetJobW
 ms.topic: function
 f1_keywords:
 - winfax/FaxGetJob
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

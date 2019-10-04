@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Ima
 ms.topic: interface
 f1_keywords: 
  - "wincodec/IWICBitmapFrameEncode"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

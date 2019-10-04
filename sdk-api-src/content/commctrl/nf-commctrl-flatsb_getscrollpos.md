@@ -12,6 +12,8 @@ ms.keywords: FlatSB_GetScrollPos, FlatSB_GetScrollPos function [Windows Controls
 ms.topic: function
 f1_keywords: 
  - "commctrl/FlatSB_GetScrollPos"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

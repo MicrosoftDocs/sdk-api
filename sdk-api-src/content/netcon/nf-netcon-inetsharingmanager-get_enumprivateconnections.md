@@ -12,6 +12,8 @@ ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPrivateConnections m
 ms.topic: method
 f1_keywords: 
  - "netcon/INetSharingManager.get_EnumPrivateConnections"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

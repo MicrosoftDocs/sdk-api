@@ -12,6 +12,8 @@ ms.keywords: GetEncoderParameterList, GetEncoderParameterList method [GDI+], Get
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.GetEncoderParameterList"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

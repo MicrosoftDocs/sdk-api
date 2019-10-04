@@ -12,6 +12,8 @@ ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSource.Stop"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

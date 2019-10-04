@@ -12,6 +12,8 @@ ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VD
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsLunPlex"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

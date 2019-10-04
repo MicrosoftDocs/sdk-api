@@ -12,6 +12,8 @@ ms.keywords: D2D1_STRAIGHTEN_SCALE_MODE, D2D1_STRAIGHTEN_SCALE_MODE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects_2/D2D1_STRAIGHTEN_SCALE_MODE"
+dev_langs:
+ - c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

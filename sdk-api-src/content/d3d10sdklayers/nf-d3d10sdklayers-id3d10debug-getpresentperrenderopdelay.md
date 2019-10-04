@@ -12,6 +12,8 @@ ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay, G
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10Debug.GetPresentPerRenderOpDelay"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

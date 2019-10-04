@@ -12,6 +12,8 @@ ms.keywords: IDataManager interface [PLA],RuleTargetFileName property, IDataMana
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.RuleTargetFileName"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyCTLUsage
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

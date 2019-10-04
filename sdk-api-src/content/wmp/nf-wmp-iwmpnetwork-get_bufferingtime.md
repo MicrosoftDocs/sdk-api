@@ -12,6 +12,8 @@ ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingTime meth
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPNetwork.get_bufferingTime"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

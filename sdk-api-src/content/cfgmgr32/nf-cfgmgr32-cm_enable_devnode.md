@@ -12,6 +12,8 @@ ms.keywords: CM_Enable_DevNode, CM_Enable_DevNode function [Device and Driver In
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Enable_DevNode"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: "*LPSHARE_INFO_0, *PSHARE_INFO_0, LPSHARE_INFO_0, LPSHARE_INFO_0 st
 ms.topic: struct
 f1_keywords: 
  - "lmshare/SHARE_INFO_0"
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

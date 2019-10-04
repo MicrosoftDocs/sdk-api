@@ -12,6 +12,8 @@ ms.keywords: IAlertDataCollector interface [PLA],SampleInterval property, IAlert
 ms.topic: method
 f1_keywords: 
  - "pla/IAlertDataCollector.SampleInterval"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

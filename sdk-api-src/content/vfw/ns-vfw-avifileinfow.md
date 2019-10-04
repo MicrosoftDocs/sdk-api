@@ -12,6 +12,8 @@ ms.keywords: "*LPAVIFILEINFOW, AVIFILECAPS_ALLKEYFRAMES, AVIFILECAPS_CANREAD, AV
 ms.topic: struct
 f1_keywords: 
  - "vfw/AVIFILEINFO"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

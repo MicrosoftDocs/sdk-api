@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLi
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib.SetGuid"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

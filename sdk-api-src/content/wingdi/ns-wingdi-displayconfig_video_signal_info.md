@@ -12,6 +12,8 @@ ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCON
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

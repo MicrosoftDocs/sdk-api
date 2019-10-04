@@ -12,6 +12,8 @@ ms.keywords: IWMPContentContainerList, IWMPContentContainerList interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "contentpartner/IWMPContentContainerList"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

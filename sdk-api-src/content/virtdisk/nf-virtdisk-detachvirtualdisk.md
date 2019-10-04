@@ -12,6 +12,8 @@ ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vdssys/DetachV
 ms.topic: function
 f1_keywords: 
  - "virtdisk/DetachVirtualDisk"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

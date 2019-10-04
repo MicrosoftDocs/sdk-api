@@ -12,6 +12,8 @@ ms.keywords: 49b282cb-45e6-4f80-9948-fd736c091e70, FLICKDIRECTION, FLICKDIRECTIO
 ms.topic: enum
 f1_keywords: 
  - "tabflicks/FLICKDIRECTION"
+dev_langs:
+ - c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows

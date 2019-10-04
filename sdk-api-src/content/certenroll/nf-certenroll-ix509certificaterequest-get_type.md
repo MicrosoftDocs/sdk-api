@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequest interface [Security],Type property, IX509Ce
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequest.Type"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

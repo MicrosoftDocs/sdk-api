@@ -12,6 +12,8 @@ ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyC
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.GetPropertyConstraints"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/line
 ms.topic: function
 f1_keywords: 
  - "tapi/lineDrop"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management],
 ms.topic: function
 f1_keywords: 
  - "lmsvc/NetServiceGetInfo"
+dev_langs:
+ - c++
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services F
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_SELECTION_ANCHOR"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

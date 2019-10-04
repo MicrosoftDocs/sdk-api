@@ -12,6 +12,8 @@ ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer, CreateInde
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9.CreateIndexBuffer
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

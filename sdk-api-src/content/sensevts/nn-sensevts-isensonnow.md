@@ -12,6 +12,8 @@ ms.keywords: ISensOnNow, ISensOnNow interface [SENS], ISensOnNow interface [SENS
 ms.topic: interface
 f1_keywords: 
  - "sensevts/ISensOnNow"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

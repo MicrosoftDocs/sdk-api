@@ -12,6 +12,8 @@ ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 11], GetVaria
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11FunctionReflection.GetVariableByName"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStream, GetStream method [Windows Imaging Component], GetStream 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICStreamProvider.GetStream"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

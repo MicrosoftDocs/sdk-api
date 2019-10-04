@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeLib interface [Automation],SetDocString method, ICreateT
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeLib.SetDocString"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

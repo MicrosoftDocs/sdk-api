@@ -12,6 +12,8 @@ ms.keywords: VarI4FromI4, VarI4FromInt, VarI4FromInt function [Automation], _oa9
 ms.topic: macro
 f1_keywords: 
  - "oleauto/VarI4FromInt"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

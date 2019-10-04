@@ -12,6 +12,8 @@ ms.keywords: GetNetworks, GetNetworks method [Network Awareness], GetNetworks me
 ms.topic: method
 f1_keywords: 
  - "netlistmgr/INetworkListManager.GetNetworks"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

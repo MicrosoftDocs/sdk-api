@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEAGENTGROUPLIST, LINEAGENTGROUPLIST, LINEAGENTGROUPLIST stru
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEAGENTGROUPLIST"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

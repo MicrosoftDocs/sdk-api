@@ -12,6 +12,8 @@ ms.keywords: IWMPNetwork interface [Windows Media Player],put_maxBandwidth metho
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPNetwork.put_maxBandwidth"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

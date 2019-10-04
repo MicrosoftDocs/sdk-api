@@ -12,6 +12,8 @@ ms.keywords: IAudioRenderClient, IAudioRenderClient interface [Core Audio], IAud
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IAudioRenderClient"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

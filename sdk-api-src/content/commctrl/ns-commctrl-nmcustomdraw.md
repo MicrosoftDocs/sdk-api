@@ -12,6 +12,8 @@ ms.keywords: '*LPNMCUSTOMDRAW, CDDS_ITEM, CDDS_ITEMPOSTERASE, CDDS_ITEMPOSTPAINT
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCUSTOMDRAW
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

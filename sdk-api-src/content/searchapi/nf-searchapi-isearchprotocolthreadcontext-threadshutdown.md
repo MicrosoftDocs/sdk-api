@@ -12,6 +12,8 @@ ms.keywords: ISearchProtocolThreadContext interface [search],ThreadShutdown meth
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchProtocolThreadContext.ThreadShutdown"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPreviousVectorValue, GetPreviousVectorValue method [Windows Anim
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationVariable2.GetPreviousVectorValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

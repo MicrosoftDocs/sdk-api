@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_FRAME_FORMAT, DXVAHD_FRAME_FORMAT enumeration [Media Foundat
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_FRAME_FORMAT
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

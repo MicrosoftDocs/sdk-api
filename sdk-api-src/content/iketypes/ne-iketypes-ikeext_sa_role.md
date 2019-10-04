@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_R
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_SA_ROLE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

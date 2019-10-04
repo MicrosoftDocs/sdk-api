@@ -12,6 +12,8 @@ ms.keywords: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2, IInkCursorButton, IInkCursorB
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkCursorButton"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

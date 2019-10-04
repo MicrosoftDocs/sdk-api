@@ -12,6 +12,8 @@ ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent inter
 ms.topic: interface
 f1_keywords: 
  - "tapi3cc/ITQueueEvent"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

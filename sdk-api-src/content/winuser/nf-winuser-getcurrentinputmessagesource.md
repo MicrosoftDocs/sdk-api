@@ -12,6 +12,8 @@ ms.keywords: GetCurrentInputMessageSource, GetCurrentInputMessageSource function
 ms.topic: function
 f1_keywords: 
  - "winuser/GetCurrentInputMessageSource"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

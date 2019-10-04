@@ -12,6 +12,8 @@ ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], 
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.GetVariableFromTag"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

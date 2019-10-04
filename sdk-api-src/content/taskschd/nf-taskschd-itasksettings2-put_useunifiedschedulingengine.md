@@ -12,6 +12,8 @@ ms.keywords: ITaskSettings2 interface [Task Scheduler],UseUnifiedSchedulingEngin
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskSettings2.UseUnifiedSchedulingEngine"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

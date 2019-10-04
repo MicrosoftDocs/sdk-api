@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessI
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.ProcessInput"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

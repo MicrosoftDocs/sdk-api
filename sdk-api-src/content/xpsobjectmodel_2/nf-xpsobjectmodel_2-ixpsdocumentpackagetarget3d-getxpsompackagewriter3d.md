@@ -12,6 +12,8 @@ ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Docume
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

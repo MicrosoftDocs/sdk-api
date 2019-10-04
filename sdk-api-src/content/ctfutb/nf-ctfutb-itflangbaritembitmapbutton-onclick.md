@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnCl
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmapButton.OnClick"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

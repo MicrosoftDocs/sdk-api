@@ -12,6 +12,8 @@ ms.keywords: GetGeoInfo, GetGeoInfo function [Internationalization for Windows A
 ms.topic: function
 f1_keywords: 
  - "winnls/GetGeoInfo"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

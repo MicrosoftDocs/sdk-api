@@ -12,6 +12,8 @@ ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregist
 ms.topic: function
 f1_keywords: 
  - "evntprov/EventUnregister"
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

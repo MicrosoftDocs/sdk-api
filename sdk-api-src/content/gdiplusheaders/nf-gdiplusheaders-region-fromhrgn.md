@@ -12,6 +12,8 @@ ms.keywords: FromHRGN, FromHRGN method [GDI+], FromHRGN method [GDI+],Region cla
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.FromHRGN"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

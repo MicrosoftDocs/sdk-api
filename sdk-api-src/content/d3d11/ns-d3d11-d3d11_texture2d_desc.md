@@ -12,6 +12,8 @@ ms.keywords: 0e4a1b3e-1d71-7891-e22e-f3f18ab0f0b9, D3D11_TEXTURE2D_DESC, D3D11_T
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_TEXTURE2D_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

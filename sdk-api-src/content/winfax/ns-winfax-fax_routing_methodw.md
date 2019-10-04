@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_ROUTING_METHODW, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD stru
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_ROUTING_METHOD"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

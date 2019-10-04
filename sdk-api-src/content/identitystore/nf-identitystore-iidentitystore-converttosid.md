@@ -12,6 +12,8 @@ ms.keywords: ConvertToSid, ConvertToSid method [Security], ConvertToSid method [
 ms.topic: method
 f1_keywords: 
  - "identitystore/IIdentityStore.ConvertToSid"
+dev_langs:
+ - c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows

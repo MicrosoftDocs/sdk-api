@@ -8,6 +8,10 @@ ms.assetid: a6721430-bde7-473f-87de-8257bf621a8e
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
+dev_langs:
+ - c++
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES, D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES, 
 req.header: d3d12video.h
 req.include-header:

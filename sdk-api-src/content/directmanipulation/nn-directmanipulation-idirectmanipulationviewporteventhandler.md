@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewpor
 ms.topic: interface
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewportEventHandler"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

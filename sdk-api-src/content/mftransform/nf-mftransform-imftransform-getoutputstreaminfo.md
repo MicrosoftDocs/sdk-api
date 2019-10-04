@@ -12,6 +12,8 @@ ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutpu
 ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetOutputStreamInfo
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

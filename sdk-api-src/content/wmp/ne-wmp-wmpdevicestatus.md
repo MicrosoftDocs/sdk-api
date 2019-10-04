@@ -12,6 +12,8 @@ ms.keywords: WMPDeviceStatus, WMPDeviceStatus enumeration [Windows Media Player]
 ms.topic: enum
 f1_keywords: 
  - "wmp/WMPDeviceStatus"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

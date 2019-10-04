@@ -12,6 +12,8 @@ ms.keywords: GetRVA, GetRVA method [Windows Runtime], GetRVA method [Windows Run
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataImport.GetRVA"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

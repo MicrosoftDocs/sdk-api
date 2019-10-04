@@ -12,6 +12,8 @@ ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfig
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmConfigureModule.ProvideIntegerData"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

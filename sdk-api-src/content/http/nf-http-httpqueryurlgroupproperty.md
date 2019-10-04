@@ -12,6 +12,8 @@ ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP
 ms.topic: function
 f1_keywords:
 - http/HttpQueryUrlGroupProperty
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

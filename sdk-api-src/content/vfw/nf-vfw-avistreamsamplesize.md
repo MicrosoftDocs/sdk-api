@@ -12,6 +12,8 @@ ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia]
 ms.topic: macro
 f1_keywords: 
  - "vfw/AVIStreamSampleSize"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

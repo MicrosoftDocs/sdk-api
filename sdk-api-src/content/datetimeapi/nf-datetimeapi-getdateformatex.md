@@ -12,6 +12,8 @@ ms.keywords: DATE_AUTOLAYOUT, DATE_LONGDATE, DATE_LTRREADING, DATE_MONTHDAY, DAT
 ms.topic: function
 f1_keywords: 
  - "datetimeapi/GetDateFormatEx"
+dev_langs:
+ - c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows

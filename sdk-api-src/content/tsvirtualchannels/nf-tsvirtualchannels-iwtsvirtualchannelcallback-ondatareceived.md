@@ -12,6 +12,8 @@ ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnDa
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannelCallback.OnDataReceived"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

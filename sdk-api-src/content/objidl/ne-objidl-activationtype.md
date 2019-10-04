@@ -12,6 +12,8 @@ ms.keywords: ACTIVATIONTYPE, ActivationType, ActivationType enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "objidl/ActivationType"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetScopeCount, GetScopeCount method [Windows Management Instrumenta
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetScopeCount"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

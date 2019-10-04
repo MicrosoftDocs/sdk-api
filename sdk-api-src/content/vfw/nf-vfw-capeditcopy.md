@@ -12,6 +12,8 @@ ms.keywords: "_win32_capEditCopy, capEditCopy, capEditCopy macro [Windows Multim
 ms.topic: macro
 f1_keywords: 
  - "vfw/capEditCopy"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

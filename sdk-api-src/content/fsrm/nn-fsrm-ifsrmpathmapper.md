@@ -12,6 +12,8 @@ ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Ma
 ms.topic: interface
 f1_keywords: 
  - "fsrm/IFsrmPathMapper"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

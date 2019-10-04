@@ -12,6 +12,8 @@ ms.keywords: AMVP_MODE, AMVP_MODE , AMVP_MODE enumeration [DirectShow], AMVP_MOD
 ms.topic: enum
 f1_keywords: 
  - "vptype/AMVP_MODE"
+dev_langs:
+ - c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

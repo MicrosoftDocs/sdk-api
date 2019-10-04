@@ -12,6 +12,8 @@ ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetSt
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPStorage2.GetStorage"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

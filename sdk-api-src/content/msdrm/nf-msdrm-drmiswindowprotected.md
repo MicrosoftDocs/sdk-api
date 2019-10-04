@@ -12,6 +12,8 @@ ms.keywords: DRMIsWindowProtected, DRMIsWindowProtected function [Active Directo
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMIsWindowProtected"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

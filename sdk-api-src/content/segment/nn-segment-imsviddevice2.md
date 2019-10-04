@@ -12,6 +12,8 @@ ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies],
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidDevice2"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

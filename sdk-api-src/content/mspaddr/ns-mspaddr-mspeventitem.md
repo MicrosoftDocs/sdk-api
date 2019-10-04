@@ -12,6 +12,8 @@ ms.keywords: "*PMSPEVENTITEM, MSPEVENTITEM, MSPEVENTITEM structure [TAPI 2.2], P
 ms.topic: struct
 f1_keywords: 
  - "mspaddr/MSPEVENTITEM"
+dev_langs:
+ - c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

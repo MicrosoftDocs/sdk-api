@@ -12,6 +12,8 @@ ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], IEAPProvide
 ms.topic: interface
 f1_keywords: 
  - "rrascfg/IEAPProviderConfig"
+dev_langs:
+ - c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows

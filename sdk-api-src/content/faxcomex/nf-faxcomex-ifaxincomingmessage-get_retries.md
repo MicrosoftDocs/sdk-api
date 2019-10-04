@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessage interface [Fax Service],Retries property, IFaxI
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessage.Retries"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

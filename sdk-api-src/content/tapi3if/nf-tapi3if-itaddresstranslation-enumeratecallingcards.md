@@ -12,6 +12,8 @@ ms.keywords: EnumerateCallingCards, EnumerateCallingCards method [TAPI 2.2], Enu
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITAddressTranslation.EnumerateCallingCards"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

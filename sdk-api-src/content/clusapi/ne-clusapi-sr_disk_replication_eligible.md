@@ -12,6 +12,8 @@ ms.keywords: '*PSR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE, SR_D
 ms.topic: enum
 f1_keywords:
 - clusapi/SR_DISK_REPLICATION_ELIGIBLE
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,8 @@ ms.keywords: GraphicsPathIterator::NextMarker
 ms.topic: language-reference
 f1_keywords: 
  - "gdipluspath/GraphicsPathIterator::NextMarker"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

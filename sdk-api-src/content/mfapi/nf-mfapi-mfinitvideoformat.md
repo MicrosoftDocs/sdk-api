@@ -12,6 +12,8 @@ ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVide
 ms.topic: function
 f1_keywords:
 - mfapi/MFInitVideoFormat
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

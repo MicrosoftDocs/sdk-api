@@ -12,6 +12,8 @@ ms.keywords: MFOffset, MFOffset structure [Media Foundation], e93539fe-3e4a-4b34
 ms.topic: struct
 f1_keywords: 
  - "mfobjects/MFOffset"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

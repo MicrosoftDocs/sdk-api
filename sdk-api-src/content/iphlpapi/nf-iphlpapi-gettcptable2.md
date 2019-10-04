@@ -12,6 +12,8 @@ ms.keywords: GetTcpTable2, GetTcpTable2 function [IP Helper], iphlp.gettcptable2
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcpTable2
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

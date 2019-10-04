@@ -12,6 +12,8 @@ ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveLocation method, ITargetIn
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ITargetInfo.SetSchemaHiveLocation"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

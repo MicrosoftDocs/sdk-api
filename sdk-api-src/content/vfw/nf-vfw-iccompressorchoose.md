@@ -12,6 +12,8 @@ ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia
 ms.topic: function
 f1_keywords: 
  - "vfw/ICCompressorChoose"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

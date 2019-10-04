@@ -12,6 +12,8 @@ ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framewor
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.CreateRangeBackup"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

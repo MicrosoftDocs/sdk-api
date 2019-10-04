@@ -12,6 +12,8 @@ ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, 
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssCreateExpressWriterMetadata.SetRestoreMethod"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

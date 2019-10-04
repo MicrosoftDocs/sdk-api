@@ -12,6 +12,8 @@ ms.keywords: WS_READ_NILLABLE_POINTER, WS_READ_NILLABLE_VALUE, WS_READ_OPTION, W
 ms.topic: enum
 f1_keywords:
 - webservices/WS_READ_OPTION
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

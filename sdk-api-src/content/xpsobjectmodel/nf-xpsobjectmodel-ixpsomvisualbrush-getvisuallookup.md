@@ -12,6 +12,8 @@ ms.keywords: GetVisualLookup, GetVisualLookup method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisualBrush.GetVisualLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

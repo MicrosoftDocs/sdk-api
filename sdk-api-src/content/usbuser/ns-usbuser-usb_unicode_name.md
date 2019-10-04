@@ -12,6 +12,8 @@ ms.keywords: "*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure
 ms.topic: struct
 f1_keywords: 
  - "usbuser/USB_UNICODE_NAME"
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

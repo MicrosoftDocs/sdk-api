@@ -12,6 +12,8 @@ ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFi
 ms.topic: interface
 f1_keywords: 
  - "strmif/IEnumRegFilters"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

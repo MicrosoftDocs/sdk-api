@@ -12,6 +12,8 @@ ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discover
 ms.topic: function
 f1_keywords:
 - iscsidsc/SendScsiReadCapacity
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

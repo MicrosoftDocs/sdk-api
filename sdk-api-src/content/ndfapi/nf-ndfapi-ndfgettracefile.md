@@ -12,6 +12,8 @@ ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefil
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfGetTraceFile"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

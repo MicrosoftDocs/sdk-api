@@ -12,6 +12,8 @@ ms.keywords: '*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices],
 ms.topic: struct
 f1_keywords:
 - ddrawi/DDCORECAPS
+dev_langs:
+ - c++
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
 req.target-type: Windows

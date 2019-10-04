@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkW
 ms.topic: interface
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

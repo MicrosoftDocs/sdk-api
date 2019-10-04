@@ -12,6 +12,8 @@ ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCounters
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgVerifyCountersignatureEncodedEx
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

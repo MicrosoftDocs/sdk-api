@@ -12,6 +12,8 @@ ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getl
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/GetLastError"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

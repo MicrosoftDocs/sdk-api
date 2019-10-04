@@ -12,6 +12,8 @@ ms.keywords: DumpDrvItemData, DumpDrvItemData method [WIA], DumpDrvItemData meth
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaItem.DumpDrvItemData"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

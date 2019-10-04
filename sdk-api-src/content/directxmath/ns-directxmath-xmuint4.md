@@ -12,6 +12,8 @@ ms.keywords: XMUINT4, XMUINT4 structure [DirectX Math Support APIs], directxmath
 ms.topic: struct
 f1_keywords: 
  - "directxmath/XMUINT4"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

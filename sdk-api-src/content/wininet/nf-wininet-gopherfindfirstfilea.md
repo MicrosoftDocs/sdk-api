@@ -12,6 +12,8 @@ ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], Gopher
 ms.topic: function
 f1_keywords: 
  - "wininet/GopherFindFirstFile"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFIndexer.GetIndexByteStreamCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

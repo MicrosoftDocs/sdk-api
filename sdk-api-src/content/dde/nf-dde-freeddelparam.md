@@ -12,6 +12,8 @@ ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeD
 ms.topic: function
 f1_keywords: 
  - "dde/FreeDDElParam"
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

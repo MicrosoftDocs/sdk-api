@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],ResourceD
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable2.ResourceDismissed"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

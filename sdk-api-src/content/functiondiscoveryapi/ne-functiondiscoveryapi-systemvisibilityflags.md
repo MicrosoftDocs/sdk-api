@@ -12,6 +12,8 @@ ms.keywords: SVF_SYSTEM, SVF_USER, SystemVisibilityFlags, SystemVisibilityFlags 
 ms.topic: enum
 f1_keywords: 
  - "functiondiscoveryapi/SystemVisibilityFlags"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS 
 ms.topic: function
 f1_keywords: 
  - "prntvpt/PTGetPrintDeviceResources"
+dev_langs:
+ - c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

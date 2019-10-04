@@ -12,6 +12,8 @@ ms.keywords: IAudioSystemEffects, IAudioSystemEffects interface [Audio Devices],
 ms.topic: interface
 f1_keywords: 
  - "audioenginebaseapo/IAudioSystemEffects"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

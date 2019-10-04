@@ -12,6 +12,8 @@ ms.keywords: "*PRPC_MESSAGE, PRPC_MESSAGE, PRPC_MESSAGE structure pointer [RPC],
 ms.topic: struct
 f1_keywords: 
  - "rpcdcep/RPC_MESSAGE"
+dev_langs:
+ - c++
 req.header: rpcdcep.h
 req.include-header: 
 req.target-type: Windows

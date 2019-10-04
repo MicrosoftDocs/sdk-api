@@ -12,6 +12,8 @@ ms.keywords: UalStop, UalStop function [User Access Logging], ual.ualstop, ual/U
 ms.topic: function
 f1_keywords: 
  - "ual/UalStop"
+dev_langs:
+ - c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

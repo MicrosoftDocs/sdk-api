@@ -12,6 +12,8 @@ ms.keywords: 8d7ef03b-bb96-42bc-a1c3-49f8b0e499b8, DeleteAllItems, DeleteAllItem
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.DeleteAllItems"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

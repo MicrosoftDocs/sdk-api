@@ -12,6 +12,8 @@ ms.keywords: ACMFORMATTAGENUMCB, ACMFORMATTAGENUMCB callback, ACMFORMATTAGENUMCB
 ms.topic: callback
 f1_keywords: 
  - "msacm/ACMFORMATTAGENUMCB"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

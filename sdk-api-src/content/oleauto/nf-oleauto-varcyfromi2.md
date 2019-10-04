@@ -12,6 +12,8 @@ ms.keywords: VarCyFromI2, VarCyFromI2 function [Automation], _oa96_VarCyFromI2, 
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarCyFromI2"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

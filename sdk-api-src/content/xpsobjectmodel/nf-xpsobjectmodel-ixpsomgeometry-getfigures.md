@@ -12,6 +12,8 @@ ms.keywords: GetFigures, GetFigures method [XPS Documents and Packaging], GetFig
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometry.GetFigures"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

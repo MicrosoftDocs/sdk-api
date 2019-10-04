@@ -12,6 +12,8 @@ ms.keywords: ChangeDiffAreaMaximumSizeEx, ChangeDiffAreaMaximumSizeEx method, Ch
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

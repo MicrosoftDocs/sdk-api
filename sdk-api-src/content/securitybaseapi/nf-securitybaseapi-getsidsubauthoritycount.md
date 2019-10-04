@@ -12,6 +12,8 @@ ms.keywords: GetSidSubAuthorityCount, GetSidSubAuthorityCount function [Security
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSidSubAuthorityCount
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

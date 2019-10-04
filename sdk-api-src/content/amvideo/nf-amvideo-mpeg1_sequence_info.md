@@ -12,6 +12,8 @@ ms.keywords: MPEG1_SEQUENCE_INFO, MPEG1_SEQUENCE_INFO macro [DirectShow], amvide
 ms.topic: macro
 f1_keywords: 
  - "amvideo/MPEG1_SEQUENCE_INFO"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

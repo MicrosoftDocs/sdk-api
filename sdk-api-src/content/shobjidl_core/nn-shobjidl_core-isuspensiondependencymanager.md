@@ -12,6 +12,8 @@ ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interfac
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/ISuspensionDependencyManager"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IViewObjectEx i
 ms.topic: method
 f1_keywords: 
  - "ocidl/IViewObjectEx.GetRect"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

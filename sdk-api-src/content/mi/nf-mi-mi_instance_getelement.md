@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_Get
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_GetElement
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

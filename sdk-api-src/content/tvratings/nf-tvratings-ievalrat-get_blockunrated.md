@@ -12,6 +12,8 @@ ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockUnRated met
 ms.topic: method
 f1_keywords: 
  - "tvratings/IEvalRat.get_BlockUnRated"
+dev_langs:
+ - c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

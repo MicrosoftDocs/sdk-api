@@ -12,6 +12,8 @@ ms.keywords: SYNCMGRREGISTERFLAGS, SYNCMGRREGISTERFLAGS enumeration [Windows She
 ms.topic: enum
 f1_keywords: 
  - "mobsync/SYNCMGRREGISTERFLAGS"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

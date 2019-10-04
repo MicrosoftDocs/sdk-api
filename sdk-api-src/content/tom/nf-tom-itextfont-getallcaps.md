@@ -12,6 +12,8 @@ ms.keywords: GetAllCaps, GetAllCaps method [Windows Controls], GetAllCaps method
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetAllCaps"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

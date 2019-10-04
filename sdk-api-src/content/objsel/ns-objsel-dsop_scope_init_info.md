@@ -12,6 +12,8 @@ ms.keywords: '*PDSOP_SCOPE_INIT_INFO, DSOP_SCOPE_FLAG_DEFAULT_FILTER_COMPUTERS, 
 ms.topic: struct
 f1_keywords:
 - objsel/DSOP_SCOPE_INIT_INFO
+dev_langs:
+ - c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

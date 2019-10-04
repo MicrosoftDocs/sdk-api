@@ -12,6 +12,8 @@ ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_
 ms.topic: function
 f1_keywords: 
  - "mapiunicodehelp/MAPISendMailHelper"
+dev_langs:
+ - c++
 req.header: mapiunicodehelp.h
 req.include-header: 
 req.target-type: Windows

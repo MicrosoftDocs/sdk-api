@@ -12,6 +12,8 @@ ms.keywords: CStdAsyncStubBuffer_AddRef, CStdAsyncStubBuffer_AddRef function [RP
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdAsyncStubBuffer_AddRef"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

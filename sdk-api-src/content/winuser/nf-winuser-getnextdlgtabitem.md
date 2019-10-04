@@ -12,6 +12,8 @@ ms.keywords: GetNextDlgTabItem, GetNextDlgTabItem function [Dialog Boxes], _win3
 ms.topic: function
 f1_keywords: 
  - "winuser/GetNextDlgTabItem"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

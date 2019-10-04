@@ -12,6 +12,8 @@ ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],Remove method, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRules.Remove"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

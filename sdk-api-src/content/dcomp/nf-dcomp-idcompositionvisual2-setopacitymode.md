@@ -12,6 +12,8 @@ ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetOpacityMode m
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisual2.SetOpacityMode"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

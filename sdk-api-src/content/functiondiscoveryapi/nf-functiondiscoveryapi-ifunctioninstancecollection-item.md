@@ -12,6 +12,8 @@ ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanc
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionInstanceCollection.Item"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

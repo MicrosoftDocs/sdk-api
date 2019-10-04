@@ -12,6 +12,8 @@ ms.keywords: MappingGetServices, MappingGetServices function [Internationalizati
 ms.topic: function
 f1_keywords:
 - elscore/MappingGetServices
+dev_langs:
+ - c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

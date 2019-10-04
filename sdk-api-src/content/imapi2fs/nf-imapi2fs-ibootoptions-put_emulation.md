@@ -12,6 +12,8 @@ ms.keywords: IBootOptions interface [IMAPI],put_Emulation method, IBootOptions.p
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IBootOptions.put_Emulation"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

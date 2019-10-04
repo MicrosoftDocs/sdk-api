@@ -12,6 +12,8 @@ ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetP
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmClassificationManager.GetPropertyDefinition"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

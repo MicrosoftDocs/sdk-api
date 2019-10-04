@@ -12,6 +12,8 @@ ms.keywords: ImageCodecFlags, ImageCodecFlags enumeration [GDI+], ImageCodecFlag
 ms.topic: enum
 f1_keywords: 
  - "gdiplusimaging/ImageCodecFlags"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

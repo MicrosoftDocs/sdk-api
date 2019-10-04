@@ -12,6 +12,8 @@ ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssWalkMarkerSeekToBeginning"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

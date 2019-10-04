@@ -12,6 +12,8 @@ ms.keywords: DesiredAngularDeceleration property [Windows Touch], DesiredAngular
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.DesiredAngularDeceleration"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVirtualizedItemProvider interface [Windows Accessibility],Realize 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IVirtualizedItemProvider.Realize"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

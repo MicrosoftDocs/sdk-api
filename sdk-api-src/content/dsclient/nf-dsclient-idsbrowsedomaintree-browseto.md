@@ -12,6 +12,8 @@ ms.keywords: BrowseTo, BrowseTo method [Active Directory], BrowseTo method [Acti
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsBrowseDomainTree.BrowseTo"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

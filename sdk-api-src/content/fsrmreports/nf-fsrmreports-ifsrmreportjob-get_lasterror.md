@@ -12,6 +12,8 @@ ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastError p
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmReportJob.LastError"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

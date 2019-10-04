@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetISearchString, TreeView_GetISearchString macro [Windows
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetISearchString"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

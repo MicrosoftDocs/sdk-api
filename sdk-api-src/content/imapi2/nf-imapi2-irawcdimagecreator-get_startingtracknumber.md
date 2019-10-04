@@ -12,6 +12,8 @@ ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartingTrackNumber method
 ms.topic: method
 f1_keywords: 
  - "imapi2/IRawCDImageCreator.get_StartingTrackNumber"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

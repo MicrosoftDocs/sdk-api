@@ -12,6 +12,8 @@ ms.keywords: WinBioEnrollCaptureWithCallback, WinBioEnrollCaptureWithCallback fu
 ms.topic: function
 f1_keywords:
 - winbio/WinBioEnrollCaptureWithCallback
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

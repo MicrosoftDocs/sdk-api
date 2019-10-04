@@ -12,6 +12,8 @@ ms.keywords: CacheIsCorrupted, CacheIsCorrupted method [Offline Files], CacheIsC
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesEvents.CacheIsCorrupted"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

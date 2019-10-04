@@ -12,6 +12,8 @@ ms.keywords: DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC, DML_LOCAL_RESPONSE_
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

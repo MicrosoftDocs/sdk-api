@@ -12,6 +12,8 @@ ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERV
 ms.topic: callback
 f1_keywords: 
  - "stm/GetServiceCount"
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

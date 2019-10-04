@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Network Policy Server], GetPropert
 ms.topic: method
 f1_keywords:
 - sdoias/ISdo.GetProperty
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

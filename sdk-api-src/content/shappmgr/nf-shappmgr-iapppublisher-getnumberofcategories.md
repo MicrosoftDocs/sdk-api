@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IAppPublisher.GetNumberOfCategories"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

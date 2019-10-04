@@ -12,6 +12,8 @@ ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecap
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditQuerySecurity
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

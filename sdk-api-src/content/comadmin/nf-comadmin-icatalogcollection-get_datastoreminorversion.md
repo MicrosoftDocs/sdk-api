@@ -12,6 +12,8 @@ ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion proper
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.DataStoreMinorVersion"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

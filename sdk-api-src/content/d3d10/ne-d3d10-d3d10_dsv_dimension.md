@@ -12,6 +12,8 @@ ms.keywords: 88cc34ba-f05f-2845-c538-a290a7b141ee, D3D10_DSV_DIMENSION, D3D10_DS
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_DSV_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FwpmLayerEnum0, FwpmLayerEnum0 function [Filtering], fwp.fwpmlayere
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmLayerEnum0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEM
 ms.topic: function
 f1_keywords: 
  - "ime/SendIMEMessageEx"
+dev_langs:
+ - c++
 req.header: ime.h
 req.include-header: Windows.h
 req.target-type: Windows

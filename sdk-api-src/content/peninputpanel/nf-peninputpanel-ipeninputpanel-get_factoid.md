@@ -12,6 +12,8 @@ ms.keywords: 1497502f-ce0e-4965-ab6a-af3c3ecdb0fe, Factoid property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.Factoid"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

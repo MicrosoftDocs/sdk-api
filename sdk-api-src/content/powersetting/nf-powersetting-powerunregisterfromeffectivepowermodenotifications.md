@@ -12,6 +12,8 @@ ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregister
 ms.topic: function
 f1_keywords: 
  - "powersetting/PowerUnregisterFromEffectivePowerModeNotifications"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

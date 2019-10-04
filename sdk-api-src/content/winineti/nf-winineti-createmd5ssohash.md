@@ -12,6 +12,8 @@ ms.keywords: CreateMD5SSOHash, CreateMD5SSOHash function [WinINet], wininet.crea
 ms.topic: function
 f1_keywords: 
  - "winineti/CreateMD5SSOHash"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

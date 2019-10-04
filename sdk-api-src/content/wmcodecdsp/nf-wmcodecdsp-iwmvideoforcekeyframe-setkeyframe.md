@@ -12,6 +12,8 @@ ms.keywords: IWMVideoForceKeyFrame interface [Media Foundation],SetKeyFrame meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMVideoForceKeyFrame.SetKeyFrame"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

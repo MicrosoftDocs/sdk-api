@@ -12,6 +12,8 @@ ms.keywords: CM_Get_DevNode_Status, CM_Get_DevNode_Status function [Device and D
 ms.topic: function
 f1_keywords: 
  - "cfgmgr32/CM_Get_DevNode_Status"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: DeleteNtmsDrive, DeleteNtmsDrive function [Files], _zaw_deletentmsd
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DeleteNtmsDrive"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

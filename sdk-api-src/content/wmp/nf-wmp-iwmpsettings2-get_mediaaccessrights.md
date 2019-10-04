@@ -12,6 +12,8 @@ ms.keywords: IWMPSettings2 interface [Windows Media Player],get_mediaAccessRight
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSettings2.get_mediaAccessRights"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

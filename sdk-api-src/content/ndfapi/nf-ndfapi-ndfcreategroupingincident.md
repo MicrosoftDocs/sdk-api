@@ -12,6 +12,8 @@ ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF]
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCreateGroupingIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

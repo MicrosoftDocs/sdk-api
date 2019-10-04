@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_PROPERTY, PRESUTIL_GET_PROPERTY function [Failover Clu
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetProperty"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

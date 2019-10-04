@@ -12,6 +12,8 @@ ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET 
 ms.topic: struct
 f1_keywords: 
  - "winusb/WINUSB_SETUP_PACKET"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusbio.h
 req.target-type: Windows

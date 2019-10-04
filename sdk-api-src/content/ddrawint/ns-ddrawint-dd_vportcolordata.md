@@ -12,6 +12,8 @@ ms.keywords: '*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA, DD_VPORTCOLORDATA structur
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_VPORTCOLORDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

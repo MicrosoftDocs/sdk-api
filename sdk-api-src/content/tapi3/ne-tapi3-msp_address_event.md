@@ -12,6 +12,8 @@ ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRE
 ms.topic: enum
 f1_keywords: 
  - "tapi3/MSP_ADDRESS_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

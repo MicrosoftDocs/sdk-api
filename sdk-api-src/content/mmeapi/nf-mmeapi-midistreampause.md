@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiStreamPause, midiStreamPause, midiStreamPause function 
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiStreamPause"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

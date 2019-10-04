@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows 
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6ParseRelayForw"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

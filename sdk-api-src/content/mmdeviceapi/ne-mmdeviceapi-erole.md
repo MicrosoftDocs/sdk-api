@@ -12,6 +12,8 @@ ms.keywords: ERole, ERole enumeration [Core Audio], ERole_enum_count, coreaudio.
 ms.topic: enum
 f1_keywords: 
  - "mmdeviceapi/ERole"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

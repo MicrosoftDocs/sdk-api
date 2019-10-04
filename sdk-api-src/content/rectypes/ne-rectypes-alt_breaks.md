@@ -12,6 +12,8 @@ ms.keywords: ALT_BREAKS, ALT_BREAKS enumeration [Tablet PC], ALT_BREAKS_FULL, AL
 ms.topic: enum
 f1_keywords: 
  - "rectypes/ALT_BREAKS"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

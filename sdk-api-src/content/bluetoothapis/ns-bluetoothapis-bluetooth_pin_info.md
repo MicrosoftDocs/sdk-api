@@ -12,6 +12,8 @@ ms.keywords: "*PBLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO struc
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_PIN_INFO"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

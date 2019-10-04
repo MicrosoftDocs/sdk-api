@@ -8,6 +8,10 @@ ms.assetid: cdc54874-4d54-4595-8f19-17dc35ff670c
 ms.author: windowssdkdev
 ms.date: 05/28/2019
 ms.topic: method
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::WriteBufferImmediate
+dev_langs:
+ - c++
 ms.keywords: ID3D12VideoDecodeCommandList::WriteBufferImmediate, WriteBufferImmediate, ID3D12VideoDecodeCommandList.WriteBufferImmediate, ID3D12VideoDecodeCommandList::WriteBufferImmediate, ID3D12VideoDecodeCommandList.WriteBufferImmediate
 req.header: d3d12video.h
 req.include-header:

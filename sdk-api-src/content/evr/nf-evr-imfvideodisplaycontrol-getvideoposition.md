@@ -12,6 +12,8 @@ ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPos
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.GetVideoPosition"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

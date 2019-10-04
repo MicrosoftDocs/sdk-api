@@ -12,6 +12,8 @@ ms.keywords: GetDataObject, GetDataObject method [Windows Shell], GetDataObject 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDataObjectProvider.GetDataObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

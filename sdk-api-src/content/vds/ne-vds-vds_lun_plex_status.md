@@ -12,6 +12,8 @@ ms.keywords: VDS_LPS_FAILED, VDS_LPS_NOT_READY, VDS_LPS_OFFLINE, VDS_LPS_ONLINE,
 ms.topic: enum
 f1_keywords:
 - vds/VDS_LUN_PLEX_STATUS
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

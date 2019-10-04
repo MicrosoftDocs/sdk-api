@@ -12,6 +12,8 @@ ms.keywords: PDH_LOG_CREATE_ALWAYS, PDH_LOG_CREATE_NEW, PDH_LOG_OPEN_ALWAYS, PDH
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhOpenLog"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasEapGetInfo, RasEapGetInfo callback, RasEapGetInfo callback funct
 ms.topic: function
 f1_keywords:
 - raseapif/RasEapGetInfo
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

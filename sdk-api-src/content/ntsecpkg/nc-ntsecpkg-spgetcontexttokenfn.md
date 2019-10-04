@@ -12,6 +12,8 @@ ms.keywords: SpGetContextToken, SpGetContextToken callback function [Security], 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetContextToken
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

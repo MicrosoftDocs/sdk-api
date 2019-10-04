@@ -12,6 +12,8 @@ ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], Begin
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.BeginUninstall"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

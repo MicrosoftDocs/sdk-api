@@ -12,6 +12,8 @@ ms.keywords: IFsiDirectoryItem interface [IMAPI],get__NewEnum method, IFsiDirect
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiDirectoryItem.get__NewEnum"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

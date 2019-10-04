@@ -12,6 +12,8 @@ ms.keywords: Wow64SetThreadContext, Wow64SetThreadContext function, base.wow64se
 ms.topic: function
 f1_keywords:
 - winbase/Wow64SetThreadContext
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

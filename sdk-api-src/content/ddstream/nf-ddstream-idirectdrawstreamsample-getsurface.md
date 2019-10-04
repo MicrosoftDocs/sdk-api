@@ -12,6 +12,8 @@ ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [Dire
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawStreamSample.GetSurface"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

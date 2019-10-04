@@ -12,6 +12,8 @@ ms.keywords: INetFwProduct, INetFwProduct interface [ICS/ICF], INetFwProduct int
 ms.topic: interface
 f1_keywords: 
  - "netfw/INetFwProduct"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

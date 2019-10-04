@@ -8,6 +8,10 @@ ms.author: windowssdkdev
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory7, IDWriteFactory7 interface [Direct Write], IDWriteFactory7 interface [Direct Write],described, directwrite.idwritefactory7, dwrite_3/IDWriteFactory7
 ms.topic: interface
+f1_keywords:
+ - IDWriteFactory7
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

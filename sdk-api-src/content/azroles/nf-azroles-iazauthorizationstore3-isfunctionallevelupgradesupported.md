@@ -12,6 +12,8 @@ ms.keywords: IAzAuthorizationStore3 interface [Security],IsFunctionalLevelUpgrad
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

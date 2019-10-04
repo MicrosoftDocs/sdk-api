@@ -12,6 +12,8 @@ ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12GraphicsCommandList1.SetSamplePositions"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

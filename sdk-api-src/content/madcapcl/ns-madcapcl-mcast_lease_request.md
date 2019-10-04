@@ -12,6 +12,8 @@ ms.keywords: '*PMCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST st
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_LEASE_REQUEST
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

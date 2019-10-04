@@ -12,6 +12,8 @@ ms.keywords: IShellWindows interface [Windows Shell],OnNavigate method, IShellWi
 ms.topic: method
 f1_keywords:
 - exdisp/IShellWindows.OnNavigate
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

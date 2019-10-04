@@ -12,6 +12,8 @@ ms.keywords: IWMResizerProps interface [Media Foundation],SetResizerQuality meth
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMResizerProps.SetResizerQuality"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

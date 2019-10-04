@@ -12,6 +12,8 @@ ms.keywords: ID3DX11FFT interface [Direct3D 11],SetForwardScale method, ID3DX11F
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11FFT.SetForwardScale"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 9257d1d7-7ccb-4172-82f0-3694ebb9d487, MFNetCredentialRequirements, 
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNetCredentialRequirements"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

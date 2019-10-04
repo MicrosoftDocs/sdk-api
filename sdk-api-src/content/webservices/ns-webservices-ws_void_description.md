@@ -12,6 +12,8 @@ ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services fo
 ms.topic: struct
 f1_keywords:
 - webservices/WS_VOID_DESCRIPTION
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

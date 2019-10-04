@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_CERTIFICATE_INFO, INTERNET_CERTIFICATE_INFO, INTERNET_
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_CERTIFICATE_INFO"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

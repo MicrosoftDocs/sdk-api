@@ -12,6 +12,8 @@ ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Fou
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFWorkQueueServicesEx"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

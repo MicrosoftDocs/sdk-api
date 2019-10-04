@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumMgmtObject in
 ms.topic: method
 f1_keywords: 
  - "vsmgmt/IVssEnumMgmtObject.Clone"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

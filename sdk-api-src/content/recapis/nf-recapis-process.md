@@ -12,6 +12,8 @@ ms.keywords: 564a2734-1a90-4566-a39d-7e16eff870ff, Process, Process function [Ta
 ms.topic: function
 f1_keywords: 
  - "recapis/Process"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

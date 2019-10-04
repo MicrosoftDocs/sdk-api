@@ -12,6 +12,8 @@ ms.keywords: SOCKET_USAGE_TYPE, SOCKET_USAGE_TYPE enumeration [Winsock], SYSTEM_
 ms.topic: enum
 f1_keywords: 
  - "mstcpip/SOCKET_USAGE_TYPE"
+dev_langs:
+ - c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

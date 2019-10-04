@@ -12,6 +12,8 @@ ms.keywords: IRdcGenerator, IRdcGenerator interface [Remote Differential Compres
 ms.topic: interface
 f1_keywords: 
  - "msrdc/IRdcGenerator"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

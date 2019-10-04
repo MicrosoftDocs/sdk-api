@@ -12,6 +12,8 @@ ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OPERATION, AUTHZ_SECURITY_ATTRIBUTE_OPE
 ms.topic: enum
 f1_keywords: 
  - "authz/AUTHZ_SECURITY_ATTRIBUTE_OPERATION"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

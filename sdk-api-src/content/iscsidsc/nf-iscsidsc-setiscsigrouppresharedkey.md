@@ -12,6 +12,8 @@ ms.keywords: SetIScsiGroupPresharedKey, SetIscsiGroupPresharedKey, SetIscsiGroup
 ms.topic: function
 f1_keywords: 
  - "iscsidsc/SetIscsiGroupPresharedKey"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

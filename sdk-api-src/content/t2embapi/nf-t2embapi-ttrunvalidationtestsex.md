@@ -12,6 +12,8 @@ ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GD
 ms.topic: function
 f1_keywords: 
  - "t2embapi/TTRunValidationTestsEx"
+dev_langs:
+ - c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

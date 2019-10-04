@@ -12,6 +12,8 @@ ms.keywords: "*PCMS_DH_KEY_INFO, CMS_DH_KEY_INFO, CMS_DH_KEY_INFO structure [Sec
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CMS_DH_KEY_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

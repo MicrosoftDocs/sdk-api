@@ -12,6 +12,8 @@ ms.keywords: OleIconToCursor, OleIconToCursor function [COM], _com_OleIconToCurs
 ms.topic: function
 f1_keywords: 
  - "olectl/OleIconToCursor"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

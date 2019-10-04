@@ -12,6 +12,8 @@ ms.keywords: D3D11_COMPUTE_SHADER, D3D11_DOMAIN_SHADER, D3D11_GEOMETRY_SHADER, D
 ms.topic: enum
 f1_keywords: 
  - "d3d11shadertracing/D3D11_SHADER_TYPE"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

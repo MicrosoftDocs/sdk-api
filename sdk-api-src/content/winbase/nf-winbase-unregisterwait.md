@@ -12,6 +12,8 @@ ms.keywords: UnregisterWait, UnregisterWait function, _win32_unregisterwait, bas
 ms.topic: function
 f1_keywords: 
  - "winbase/UnregisterWait"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

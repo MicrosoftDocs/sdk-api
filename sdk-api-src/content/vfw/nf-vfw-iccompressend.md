@@ -12,6 +12,8 @@ ms.keywords: ICCompressEnd, ICCompressEnd macro [Windows Multimedia], _win32_ICC
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICCompressEnd"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInboundHttpHeaders, GetInboundHttpHeaders method, GetInboundHttp
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDHttpMessageParameters.GetInboundHttpHeaders"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

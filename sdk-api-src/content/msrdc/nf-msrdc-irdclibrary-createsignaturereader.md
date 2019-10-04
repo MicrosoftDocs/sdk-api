@@ -12,6 +12,8 @@ ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differe
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcLibrary.CreateSignatureReader"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

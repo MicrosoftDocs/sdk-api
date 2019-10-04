@@ -12,6 +12,8 @@ ms.keywords: ICopyHookW
 ms.topic: language-reference
 f1_keywords: 
  - "shlobj/ICopyHookW"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

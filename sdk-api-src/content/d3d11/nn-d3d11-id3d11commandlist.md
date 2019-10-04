@@ -12,6 +12,8 @@ ms.keywords: 6f498894-85b1-fe5f-e486-d12c2cb7a180, ID3D11CommandList, ID3D11Comm
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11CommandList"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

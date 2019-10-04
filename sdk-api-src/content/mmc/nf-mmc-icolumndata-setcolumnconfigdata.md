@@ -12,6 +12,8 @@ ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData
 ms.topic: method
 f1_keywords:
 - mmc/IColumnData.SetColumnConfigData
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

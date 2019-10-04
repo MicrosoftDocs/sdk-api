@@ -12,6 +12,8 @@ ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffect
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVMR9.put_SuppressEffects"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CSGetUnorderedAccessViews, CSGetUnorderedAccessViews method [Direct
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.CSGetUnorderedAccessViews"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

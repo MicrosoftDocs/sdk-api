@@ -12,6 +12,8 @@ ms.keywords: CreateICommand, CreateICommand method [search], CreateICommand meth
 ms.topic: method
 f1_keywords: 
  - "indexsrv/ISimpleCommandCreator.CreateICommand"
+dev_langs:
+ - c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependenc
 ms.topic: class
 f1_keywords: 
  - "vswriter/IVssWMDependency"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

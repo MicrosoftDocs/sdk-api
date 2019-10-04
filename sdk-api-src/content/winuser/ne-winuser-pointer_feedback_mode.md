@@ -12,6 +12,8 @@ ms.keywords: POINTER_FEEDBACK_DEFAULT, POINTER_FEEDBACK_INDIRECT, POINTER_FEEDBA
 ms.topic: enum
 f1_keywords: 
  - "winuser/POINTER_FEEDBACK_MODE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

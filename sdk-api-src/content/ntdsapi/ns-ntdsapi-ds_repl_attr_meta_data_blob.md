@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_ATTR_META_DATA_BLOB, DS_REPL_ATTR_META_DATA_BLOB structure 
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_ATTR_META_DATA_BLOB
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

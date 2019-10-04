@@ -12,6 +12,8 @@ ms.keywords: IMFAttributes interface [Media Foundation],SetDouble method, IMFAtt
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.SetDouble"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

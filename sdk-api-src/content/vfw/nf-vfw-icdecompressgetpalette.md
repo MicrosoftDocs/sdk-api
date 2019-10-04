@@ -12,6 +12,8 @@ ms.keywords: ICDecompressGetPalette, ICDecompressGetPalette macro [Windows Multi
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICDecompressGetPalette"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

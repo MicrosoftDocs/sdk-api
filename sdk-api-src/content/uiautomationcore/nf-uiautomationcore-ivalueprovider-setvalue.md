@@ -12,6 +12,8 @@ ms.keywords: IValueProvider interface [Windows Accessibility],SetValue method, I
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IValueProvider.SetValue"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IComQCEvents interface [COM+],OnQCReceiveFail method, IComQCEvents.
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComQCEvents.OnQCReceiveFail"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionLis
 ms.topic: function
 f1_keywords: 
  - "propsys/PSGetPropertyDescriptionListFromString"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

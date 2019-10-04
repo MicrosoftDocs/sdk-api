@@ -12,6 +12,8 @@ ms.keywords: 18816cca-f97e-a1fe-114c-9342ac218237, D3D10_EFFECT_TYPE_DESC, D3D10
 ms.topic: struct
 f1_keywords:
 - d3d10effect/D3D10_EFFECT_TYPE_DESC
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

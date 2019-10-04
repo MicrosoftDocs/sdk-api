@@ -12,6 +12,8 @@ ms.keywords: 03441718-a147-0c52-e3f6-b191b7f1fa7d, GetAnnotationByIndex, GetAnno
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectTechnique.GetAnnotationByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

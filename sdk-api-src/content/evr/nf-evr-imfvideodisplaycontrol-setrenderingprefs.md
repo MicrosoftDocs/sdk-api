@@ -12,6 +12,8 @@ ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl interf
 ms.topic: method
 f1_keywords: 
  - "evr/IMFVideoDisplayControl.SetRenderingPrefs"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

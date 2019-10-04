@@ -12,6 +12,8 @@ ms.keywords: 74f489f2-d568-4133-96e6-de15cbfabfe7, IMP_Arrow, IMP_ArrowHourglass
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkMousePointer"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

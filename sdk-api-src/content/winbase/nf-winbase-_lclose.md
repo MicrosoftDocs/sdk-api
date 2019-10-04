@@ -12,6 +12,8 @@ ms.keywords: "_lclose, _lclose function [Windows API], winbase/_lclose, winprog.
 ms.topic: function
 f1_keywords: 
  - "winbase/_lclose"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

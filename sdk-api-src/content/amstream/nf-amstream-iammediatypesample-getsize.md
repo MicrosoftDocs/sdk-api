@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.GetSize"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

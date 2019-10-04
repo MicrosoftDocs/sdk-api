@@ -12,6 +12,8 @@ ms.keywords: MFT_INPUT_STATUS_ACCEPT_DATA, _MFT_INPUT_STATUS_FLAGS, _MFT_INPUT_S
 ms.topic: enum
 f1_keywords: 
  - "mftransform/_MFT_INPUT_STATUS_FLAGS"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

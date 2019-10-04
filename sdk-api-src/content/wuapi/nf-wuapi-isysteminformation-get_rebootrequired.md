@@ -12,6 +12,8 @@ ms.keywords: ISystemInformation interface [Windows Update Agent],RebootRequired 
 ms.topic: method
 f1_keywords: 
  - "wuapi/ISystemInformation.RebootRequired"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

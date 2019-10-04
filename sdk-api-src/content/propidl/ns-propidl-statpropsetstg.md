@@ -12,6 +12,8 @@ ms.keywords: STATPROPSETSTG, STATPROPSETSTG structure [Structured Storage], _stg
 ms.topic: struct
 f1_keywords: 
  - "propidl/STATPROPSETSTG"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

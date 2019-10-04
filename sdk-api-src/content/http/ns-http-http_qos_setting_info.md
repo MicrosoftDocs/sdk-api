@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_I
 ms.topic: struct
 f1_keywords:
 - http/HTTP_QOS_SETTING_INFO
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

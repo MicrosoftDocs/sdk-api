@@ -8,6 +8,10 @@ ms.assetid: 9b0151d7-aaeb-4f85-bd41-b68df916b9d0
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_REFERENCE_FRAMES
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_REFERENCE_FRAMES, D3D12_VIDEO_DECODE_REFERENCE_FRAMES, 
 req.header: d3d12video.h
 req.include-header:

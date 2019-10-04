@@ -12,6 +12,8 @@ ms.keywords: PdhEnumMachinesH, PdhEnumMachinesH function [Perf], PdhEnumMachines
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhEnumMachinesH"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

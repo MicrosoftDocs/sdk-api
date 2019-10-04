@@ -12,6 +12,8 @@ ms.keywords: WS_METADATA_EXCHANGE_TYPE, WS_METADATA_EXCHANGE_TYPE enumeration [W
 ms.topic: enum
 f1_keywords:
 - webservices/WS_METADATA_EXCHANGE_TYPE
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

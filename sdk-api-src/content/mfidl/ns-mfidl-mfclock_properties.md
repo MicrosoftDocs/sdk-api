@@ -12,6 +12,8 @@ ms.keywords: 1efc6602-9851-40e5-85aa-0335d4e899a2, MFCLOCK_JITTER_DPC, MFCLOCK_J
 ms.topic: struct
 f1_keywords:
 - mfidl/MFCLOCK_PROPERTIES
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

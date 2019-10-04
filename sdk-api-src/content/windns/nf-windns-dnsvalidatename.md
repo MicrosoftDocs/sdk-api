@@ -12,6 +12,8 @@ ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A,
 ms.topic: macro
 f1_keywords:
 - windns/DnsValidateName
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

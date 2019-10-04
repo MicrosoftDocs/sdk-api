@@ -12,6 +12,8 @@ ms.keywords: 35788dc3-3901-8ccb-116d-9dbd8ac5f484, GetPassByName, GetPassByName 
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectTechnique.GetPassByName"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERI
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_VERIFY_MESSAGE_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

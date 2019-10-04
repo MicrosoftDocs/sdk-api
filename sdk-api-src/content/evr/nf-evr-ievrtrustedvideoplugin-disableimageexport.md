@@ -12,6 +12,8 @@ ms.keywords: DisableImageExport, DisableImageExport method [Media Foundation], D
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRTrustedVideoPlugin.DisableImageExport"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync],
 ms.topic: method
 f1_keywords:
 - winsync/ISyncChangeBuilder.AddChangeUnitMetadata
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

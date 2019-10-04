@@ -12,6 +12,8 @@ ms.keywords: AddAttachedSurface, AddAttachedSurface method [DirectDraw], AddAtta
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.AddAttachedSurface"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

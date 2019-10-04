@@ -12,6 +12,8 @@ ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management
 ms.topic: function
 f1_keywords:
 - lmat/NetScheduleJobEnum
+dev_langs:
+ - c++
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

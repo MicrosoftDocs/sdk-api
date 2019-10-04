@@ -12,6 +12,8 @@ ms.keywords: "*PUAL_DATA_BLOB, PUAL_DATA_BLOB, PUAL_DATA_BLOB structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "ual/UAL_DATA_BLOB"
+dev_langs:
+ - c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

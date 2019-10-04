@@ -12,6 +12,8 @@ ms.keywords: '*LPNMTBGETINFOTIPW, LPNMTBGETINFOTIP, LPNMTBGETINFOTIP structure p
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBGETINFOTIP
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

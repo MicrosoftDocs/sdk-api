@@ -12,6 +12,8 @@ ms.keywords: CancelRequest, CancelRequest method [DirectShow], CancelRequest met
 ms.topic: method
 f1_keywords: 
  - "strmif/IResourceManager.CancelRequest"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

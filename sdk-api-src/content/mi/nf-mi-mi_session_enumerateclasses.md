@@ -12,6 +12,8 @@ ms.keywords: MI_Session_EnumerateClasses, MI_Session_EnumerateClasses function [
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_EnumerateClasses
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

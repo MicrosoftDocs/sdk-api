@@ -12,6 +12,8 @@ ms.keywords: DRM_PLAY_OPL, DRM_PLAY_OPL structure [windows Media Format], struct
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/DRM_PLAY_OPL"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

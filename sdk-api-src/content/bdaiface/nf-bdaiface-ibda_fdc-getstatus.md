@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Microsoft TV Technologies], GetStatus 
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_FDC.GetStatus"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

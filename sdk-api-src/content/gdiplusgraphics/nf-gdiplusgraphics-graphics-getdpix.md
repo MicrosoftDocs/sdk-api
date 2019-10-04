@@ -12,6 +12,8 @@ ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],Graphics clas
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetDpiX"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

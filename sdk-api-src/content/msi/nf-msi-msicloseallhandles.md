@@ -12,6 +12,8 @@ ms.keywords: MsiCloseAllHandles, MsiCloseAllHandles function, _msi_msicloseallha
 ms.topic: function
 f1_keywords: 
  - "msi/MsiCloseAllHandles"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], Ge
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope.GetInputScopes"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

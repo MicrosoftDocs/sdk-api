@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_RESTORE_PARMSW, MCI_DGV_RESTORE_PARMS, MCI_DGV_RESTORE_
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_RESTORE_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

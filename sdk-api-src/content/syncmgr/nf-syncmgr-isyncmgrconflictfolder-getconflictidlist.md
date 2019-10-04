@@ -12,6 +12,8 @@ ms.keywords: GetConflictIDList, GetConflictIDList method [Windows Shell], GetCon
 ms.topic: method
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictFolder.GetConflictIDList"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

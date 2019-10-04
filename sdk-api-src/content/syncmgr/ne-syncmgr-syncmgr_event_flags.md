@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_EF_NONE, SYNCMGR_EF_VALID, SYNCMGR_EVENT_FLAGS, SYNCMGR_EVE
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_EVENT_FLAGS"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

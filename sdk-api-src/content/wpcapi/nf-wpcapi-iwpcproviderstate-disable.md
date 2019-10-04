@@ -12,6 +12,8 @@ ms.keywords: Disable, Disable method, Disable method,IWPCProviderState interface
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCProviderState.Disable"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetItem, TabCtrl_SetItem macro [Windows Controls], _win32_T
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

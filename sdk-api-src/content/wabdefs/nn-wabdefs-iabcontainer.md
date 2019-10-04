@@ -12,6 +12,8 @@ ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABCon
 ms.topic: interface
 f1_keywords: 
  - "wabdefs/IABContainer"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVER
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IContextMenuSite.DoContextMenuPopup"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

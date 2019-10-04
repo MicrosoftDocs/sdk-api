@@ -12,6 +12,8 @@ ms.keywords: D3DX11CreateFFT, D3DX11CreateFFT function [Direct3D 11], ca8c0d76-3
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateFFT"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

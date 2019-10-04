@@ -12,6 +12,8 @@ ms.keywords: "*LPAVISTREAMINFOW, AVISTREAMINFO, AVISTREAMINFO structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "vfw/AVISTREAMINFO"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastr
 ms.topic: struct
 f1_keywords:
 - mi/MI_ReferenceA
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

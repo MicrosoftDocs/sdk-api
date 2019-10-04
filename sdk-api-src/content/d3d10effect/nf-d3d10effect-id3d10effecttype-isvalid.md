@@ -12,6 +12,8 @@ ms.keywords: 92917948-9af2-cb84-d571-0492115a9dfa, ID3D10EffectType interface [D
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType.IsValid"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

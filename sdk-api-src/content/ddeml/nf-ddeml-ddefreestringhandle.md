@@ -12,6 +12,8 @@ ms.keywords: DdeFreeStringHandle, DdeFreeStringHandle function [Data Exchange], 
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeFreeStringHandle"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

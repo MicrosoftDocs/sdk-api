@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSup
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineClassFactoryEx.IsTypeSupported"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

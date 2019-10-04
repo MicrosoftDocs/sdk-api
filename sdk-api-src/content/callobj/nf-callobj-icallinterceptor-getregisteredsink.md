@@ -12,6 +12,8 @@ ms.keywords: GetRegisteredSink, GetRegisteredSink method [COM], GetRegisteredSin
 ms.topic: method
 f1_keywords: 
  - "callobj/ICallInterceptor.GetRegisteredSink"
+dev_langs:
+ - c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

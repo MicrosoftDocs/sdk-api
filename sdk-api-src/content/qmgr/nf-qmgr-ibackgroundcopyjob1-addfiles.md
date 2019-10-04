@@ -12,6 +12,8 @@ ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroun
 ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyJob1.AddFiles
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IToc, IToc interface [Media Foundation], IToc interface [Media Foun
 ms.topic: interface
 f1_keywords: 
  - "wmcodecdsp/IToc"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

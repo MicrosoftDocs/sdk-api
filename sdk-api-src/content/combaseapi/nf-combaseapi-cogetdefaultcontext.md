@@ -12,6 +12,8 @@ ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDef
 ms.topic: function
 f1_keywords:
 - combaseapi/CoGetDefaultContext
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

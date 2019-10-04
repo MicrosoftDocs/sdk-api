@@ -12,6 +12,8 @@ ms.keywords: "*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUEN
 ms.topic: struct
 f1_keywords: 
  - "strmif/TIMECODE_SAMPLE"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

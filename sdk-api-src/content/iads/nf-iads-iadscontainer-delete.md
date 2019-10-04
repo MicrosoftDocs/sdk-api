@@ -12,6 +12,8 @@ ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer in
 ms.topic: method
 f1_keywords: 
  - "iads/IADsContainer.Delete"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

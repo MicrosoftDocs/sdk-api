@@ -12,6 +12,8 @@ ms.keywords: IMPEG2TuneRequestSupport, IMPEG2TuneRequestSupport interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "tuner/IMPEG2TuneRequestSupport"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

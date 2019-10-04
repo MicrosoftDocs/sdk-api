@@ -12,6 +12,8 @@ ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],d
 ms.topic: interface
 f1_keywords: 
  - "bits3_0/IBitsPeer"
+dev_langs:
+ - c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

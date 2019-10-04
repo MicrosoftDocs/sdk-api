@@ -12,6 +12,8 @@ ms.keywords: MFCreateSensorProfileCollection, MFCreateSensorProfileCollection fu
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSensorProfileCollection"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

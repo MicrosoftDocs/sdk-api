@@ -12,6 +12,8 @@ ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _rpc_uuid_vector, rpc.uui
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/UUID_VECTOR"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

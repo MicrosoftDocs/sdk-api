@@ -12,6 +12,8 @@ ms.keywords: "*LPIMECHARPOSITION, *NPIMECHARPOSITION, *PIMECHARPOSITION, IMECHAR
 ms.topic: struct
 f1_keywords: 
  - "imm/IMECHARPOSITION"
+dev_langs:
+ - c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

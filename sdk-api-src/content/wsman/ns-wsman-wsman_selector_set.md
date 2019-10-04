@@ -12,6 +12,8 @@ ms.keywords: WSMAN_SELECTOR_SET, WSMAN_SELECTOR_SET structure [Windows Remote Ma
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_SELECTOR_SET
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

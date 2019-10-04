@@ -12,6 +12,8 @@ ms.keywords: LPSAFEARRAY_UserUnmarshal, LPSAFEARRAY_UserUnmarshal function [Auto
 ms.topic: function
 f1_keywords: 
  - "wia_xp/LPSAFEARRAY_UserUnmarshal"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceProtocol method,
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowExProps.get_SourceProtocol"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

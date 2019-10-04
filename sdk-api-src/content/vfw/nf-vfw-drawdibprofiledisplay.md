@@ -12,6 +12,8 @@ ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Mult
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibProfileDisplay"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

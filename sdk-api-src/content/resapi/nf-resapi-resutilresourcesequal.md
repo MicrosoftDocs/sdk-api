@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL function [Failov
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilResourcesEqual"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

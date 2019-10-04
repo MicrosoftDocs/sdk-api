@@ -12,6 +12,8 @@ ms.keywords: GetLanguage, GetLanguage method [Media Foundation], GetLanguage met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextTrack.GetLanguage"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

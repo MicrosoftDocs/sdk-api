@@ -12,6 +12,8 @@ ms.keywords: GetTocByType, GetTocByType method [Media Foundation], GetTocByType 
 ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocParser.GetTocByType
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

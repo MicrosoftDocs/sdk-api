@@ -12,6 +12,8 @@ ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI func
 ms.topic: function
 f1_keywords: 
  - "gamingtcui/ShowChangeFriendRelationshipUI"
+dev_langs:
+ - c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

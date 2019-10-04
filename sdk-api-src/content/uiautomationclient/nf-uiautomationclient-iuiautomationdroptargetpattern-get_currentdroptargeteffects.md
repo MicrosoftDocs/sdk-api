@@ -12,6 +12,8 @@ ms.keywords: CurrentDropTargetEffects property [Windows Accessibility], CurrentD
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationDropTargetPattern.CurrentDropTargetEffects"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

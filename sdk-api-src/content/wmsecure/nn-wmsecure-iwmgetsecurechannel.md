@@ -12,6 +12,8 @@ ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmsecure/IWMGetSecureChannel"
+dev_langs:
+ - c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

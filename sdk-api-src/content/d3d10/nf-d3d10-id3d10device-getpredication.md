@@ -12,6 +12,8 @@ ms.keywords: 7e48b41e-557d-8a50-cf4b-b3309c77e0af, GetPredication, GetPredicatio
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GetPredication"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

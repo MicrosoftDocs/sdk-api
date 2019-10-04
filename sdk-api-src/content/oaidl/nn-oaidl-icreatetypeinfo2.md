@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], ICreateT
 ms.topic: interface
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], bluetooth.sdpquer
 ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpQueryUuid
+dev_langs:
+ - c++
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows

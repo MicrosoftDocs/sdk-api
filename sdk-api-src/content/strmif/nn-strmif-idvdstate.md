@@ -12,6 +12,8 @@ ms.keywords: IDvdState, IDvdState interface [DirectShow], IDvdState interface [D
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDvdState"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

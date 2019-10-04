@@ -12,6 +12,8 @@ ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mp
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprInfoDelete"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

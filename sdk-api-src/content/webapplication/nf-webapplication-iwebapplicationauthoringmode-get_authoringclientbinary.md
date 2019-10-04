@@ -12,6 +12,8 @@ ms.keywords: AuthoringClientBinary property [Debugging Windows Store apps], Auth
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationAuthoringMode.AuthoringClientBinary"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

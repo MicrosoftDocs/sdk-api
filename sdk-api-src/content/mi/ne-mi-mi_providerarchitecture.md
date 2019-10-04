@@ -12,6 +12,8 @@ ms.keywords: MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, MI_
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_ProviderArchitecture"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

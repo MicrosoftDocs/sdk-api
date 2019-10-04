@@ -12,6 +12,8 @@ ms.keywords: 7de5d766-760e-6053-6c62-f66f824404ea, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.RSGetState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

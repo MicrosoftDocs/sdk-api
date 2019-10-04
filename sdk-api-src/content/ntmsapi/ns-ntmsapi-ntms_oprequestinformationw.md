@@ -12,6 +12,8 @@ ms.keywords: NTMS_CHANGER, NTMS_DRIVE, NTMS_IEDOOR, NTMS_IEPORT., NTMS_LIBRARY, 
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_OPREQUESTINFORMATION
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

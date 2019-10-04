@@ -12,6 +12,8 @@ ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryS
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.QuerySessionBySessionId"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

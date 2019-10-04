@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem interface [VDS],SetStatus method, IVdsSubSystem.SetSt
 ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.SetStatus
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

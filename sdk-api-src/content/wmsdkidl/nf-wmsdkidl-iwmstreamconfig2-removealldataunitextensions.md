@@ -12,6 +12,8 @@ ms.keywords: IWMStreamConfig2 interface [windows Media Format],RemoveAllDataUnit
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig2.RemoveAllDataUnitExtensions"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/GamutBoundaryDescription"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FaxEnumGlobalRoutingInfo, FaxEnumGlobalRoutingInfo function [Fax Se
 ms.topic: function
 f1_keywords:
 - winfax/FaxEnumGlobalRoutingInfo
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

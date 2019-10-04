@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents4, IWMPEvents4 interface [Windows Media Player], IWMPEven
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPEvents4"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbClientConnection.ConnectionError"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: Dbnetlib.h
 req.target-type: Windows

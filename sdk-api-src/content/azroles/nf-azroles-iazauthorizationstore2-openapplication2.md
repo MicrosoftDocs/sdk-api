@@ -12,6 +12,8 @@ ms.keywords: IAzAuthorizationStore2 interface [Security],OpenApplication2 method
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore2.OpenApplication2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

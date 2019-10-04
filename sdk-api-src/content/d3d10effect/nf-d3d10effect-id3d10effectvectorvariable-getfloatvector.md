@@ -12,6 +12,8 @@ ms.keywords: 7e29e81e-7c50-74b7-f1b6-8f9aa750deb0, GetFloatVector, GetFloatVecto
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable.GetFloatVector"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

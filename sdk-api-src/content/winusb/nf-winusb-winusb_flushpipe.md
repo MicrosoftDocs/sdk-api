@@ -12,6 +12,8 @@ ms.keywords: WinUsb_FlushPipe, WinUsb_FlushPipe function [Buses], buses.winusb_f
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_FlushPipe"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29, MFAverageTimePerFrameToFrameR
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFAverageTimePerFrameToFrameRate"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

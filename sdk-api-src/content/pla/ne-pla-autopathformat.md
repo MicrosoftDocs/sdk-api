@@ -12,6 +12,8 @@ ms.keywords: AutoPathFormat, AutoPathFormat enumeration [PLA], base.autopathform
 ms.topic: enum
 f1_keywords: 
  - "pla/AutoPathFormat"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumerat
 ms.topic: enum
 f1_keywords: 
  - "certenroll/WebSecurityLevel"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.s
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpFreePdu"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

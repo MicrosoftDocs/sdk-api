@@ -12,6 +12,8 @@ ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProvi
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPublishing.CreateInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

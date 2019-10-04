@@ -12,6 +12,8 @@ ms.keywords: IMsmError interface,get_ModuleKeys method, IMsmError.get_ModuleKeys
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmError.get_ModuleKeys"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

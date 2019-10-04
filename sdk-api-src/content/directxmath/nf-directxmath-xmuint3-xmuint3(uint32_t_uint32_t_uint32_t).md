@@ -12,6 +12,8 @@ ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 c
 ms.topic: method
 f1_keywords: 
  - "directxmath/XMUINT3.XMUINT3"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips, GenerateMips me
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.GenerateMips"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

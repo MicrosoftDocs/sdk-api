@@ -12,6 +12,8 @@ ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOC
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/IOCTL_SERIAL_LSRMST_INSERT"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

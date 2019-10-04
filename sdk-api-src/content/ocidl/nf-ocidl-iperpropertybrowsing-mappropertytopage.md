@@ -12,6 +12,8 @@ ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPer
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPerPropertyBrowsing.MapPropertyToPage"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Acti
 ms.topic: callback
 f1_keywords:
 - cmnquery/LPCQPAGEPROC
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

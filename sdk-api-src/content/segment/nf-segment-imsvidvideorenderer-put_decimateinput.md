@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_Decim
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRenderer.put_DecimateInput"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

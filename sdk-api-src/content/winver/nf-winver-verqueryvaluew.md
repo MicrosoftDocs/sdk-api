@@ -12,6 +12,8 @@ ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], 
 ms.topic: function
 f1_keywords: 
  - "winver/VerQueryValue"
+dev_langs:
+ - c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows

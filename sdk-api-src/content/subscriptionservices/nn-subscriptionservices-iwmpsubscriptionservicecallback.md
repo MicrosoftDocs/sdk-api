@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback in
 ms.topic: interface
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionServiceCallback"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

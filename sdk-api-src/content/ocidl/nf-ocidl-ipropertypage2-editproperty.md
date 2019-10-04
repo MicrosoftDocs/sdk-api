@@ -12,6 +12,8 @@ ms.keywords: EditProperty, EditProperty method [COM], EditProperty method [COM],
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage2.EditProperty"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

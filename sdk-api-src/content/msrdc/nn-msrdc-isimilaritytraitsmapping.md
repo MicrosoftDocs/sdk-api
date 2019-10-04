@@ -12,6 +12,8 @@ ms.keywords: ISimilarityTraitsMapping, ISimilarityTraitsMapping interface [Remot
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarityTraitsMapping"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

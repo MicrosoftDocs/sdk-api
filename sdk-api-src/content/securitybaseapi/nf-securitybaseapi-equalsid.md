@@ -12,6 +12,8 @@ ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.e
 ms.topic: function
 f1_keywords:
 - securitybaseapi/EqualSid
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

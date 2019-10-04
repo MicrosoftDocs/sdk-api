@@ -12,6 +12,8 @@ ms.keywords: GetClipList, GetClipList method [DirectDraw], GetClipList method [D
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawClipper.GetClipList
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

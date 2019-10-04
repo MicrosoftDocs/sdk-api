@@ -12,6 +12,8 @@ ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface
 ms.topic: interface
 f1_keywords: 
  - "austream/IAudioData"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

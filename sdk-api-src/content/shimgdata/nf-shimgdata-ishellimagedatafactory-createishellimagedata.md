@@ -12,6 +12,8 @@ ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageDataFactory.CreateIShellImageData"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

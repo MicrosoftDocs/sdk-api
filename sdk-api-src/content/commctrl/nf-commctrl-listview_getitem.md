@@ -12,6 +12,8 @@ ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetItem"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

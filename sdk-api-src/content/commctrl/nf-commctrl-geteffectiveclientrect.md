@@ -12,6 +12,8 @@ ms.keywords: GetEffectiveClientRect, GetEffectiveClientRect function [Windows Co
 ms.topic: function
 f1_keywords: 
  - "commctrl/GetEffectiveClientRect"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

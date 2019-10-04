@@ -12,6 +12,8 @@ ms.keywords: D2D1ComputeMaximumScaleFactor, D2D1ComputeMaximumScaleFactor functi
 ms.topic: function
 f1_keywords: 
  - "d2d1_2/D2D1ComputeMaximumScaleFactor"
+dev_langs:
+ - c++
 req.header: d2d1_2.h
 req.include-header: D2d1_1.h
 req.target-type: Windows

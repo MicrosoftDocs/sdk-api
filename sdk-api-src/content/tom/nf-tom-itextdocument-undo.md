@@ -12,6 +12,8 @@ ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocume
 ms.topic: method
 f1_keywords: 
  - "tom/ITextDocument.Undo"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

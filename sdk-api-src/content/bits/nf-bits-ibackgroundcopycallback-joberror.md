@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgrou
 ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyCallback.JobError
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

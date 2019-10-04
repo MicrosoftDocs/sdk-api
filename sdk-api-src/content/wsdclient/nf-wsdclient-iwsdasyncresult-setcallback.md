@@ -12,6 +12,8 @@ ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCa
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDAsyncResult.SetCallback"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

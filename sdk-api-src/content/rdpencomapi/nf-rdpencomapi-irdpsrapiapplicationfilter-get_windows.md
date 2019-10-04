@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIApplicationFilter interface [RDP],Windows property, IRDPSR
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIApplicationFilter.Windows"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

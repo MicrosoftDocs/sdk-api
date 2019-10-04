@@ -12,6 +12,8 @@ ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Win
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.GetOptionValue"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

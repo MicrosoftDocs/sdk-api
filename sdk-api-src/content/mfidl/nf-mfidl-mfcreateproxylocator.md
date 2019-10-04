@@ -12,6 +12,8 @@ ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreat
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateProxyLocator"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

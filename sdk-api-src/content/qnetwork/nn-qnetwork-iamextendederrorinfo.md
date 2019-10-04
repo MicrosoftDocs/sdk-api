@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], 
 ms.topic: interface
 f1_keywords: 
  - "qnetwork/IAMExtendedErrorInfo"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPreview, GetPreview method [Windows Imaging Component], GetPrevi
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetPreview"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

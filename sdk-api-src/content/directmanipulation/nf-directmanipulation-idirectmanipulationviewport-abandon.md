@@ -12,6 +12,8 @@ ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Dire
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.Abandon"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

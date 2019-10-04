@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_STATISTICS1, IKEEXT_STATISTICS1 structure [Filtering], fwp.i
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_STATISTICS1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

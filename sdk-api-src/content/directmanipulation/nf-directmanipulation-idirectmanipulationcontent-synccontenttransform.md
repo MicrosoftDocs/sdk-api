@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SyncCont
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationContent.SyncContentTransform"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

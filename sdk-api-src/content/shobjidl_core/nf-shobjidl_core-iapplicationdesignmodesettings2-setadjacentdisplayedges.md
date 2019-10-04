@@ -12,6 +12,8 @@ ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 inte
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

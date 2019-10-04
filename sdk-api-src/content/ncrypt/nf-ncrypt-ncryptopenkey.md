@@ -12,6 +12,8 @@ ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILEN
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptOpenKey"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

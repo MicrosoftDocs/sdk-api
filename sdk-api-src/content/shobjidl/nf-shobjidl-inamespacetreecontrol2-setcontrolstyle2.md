@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControl2 interface [Windows Shell],SetControlStyle2 m
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControl2.SetControlStyle2"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

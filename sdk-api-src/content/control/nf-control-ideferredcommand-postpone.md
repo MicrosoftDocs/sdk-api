@@ -12,6 +12,8 @@ ms.keywords: IDeferredCommand interface [DirectShow],Postpone method, IDeferredC
 ms.topic: method
 f1_keywords: 
  - "control/IDeferredCommand.Postpone"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

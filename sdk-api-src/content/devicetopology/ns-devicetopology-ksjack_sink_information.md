@@ -12,6 +12,8 @@ ms.keywords: KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Core Au
 ms.topic: struct
 f1_keywords:
 - devicetopology/KSJACK_SINK_INFORMATION
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

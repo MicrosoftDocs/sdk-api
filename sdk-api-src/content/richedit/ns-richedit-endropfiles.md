@@ -12,6 +12,8 @@ ms.keywords: ENDROPFILES, ENDROPFILES structure [Windows Controls], _win32_ENDRO
 ms.topic: struct
 f1_keywords: 
  - "richedit/ENDROPFILES"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "strmif/IPersistMediaPropertyBag"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

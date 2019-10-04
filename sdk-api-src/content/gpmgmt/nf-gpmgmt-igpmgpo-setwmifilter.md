@@ -12,6 +12,8 @@ ms.keywords: GPMGPO class [GPMC],SetWMIFilter method, IGPMGPO interface [GPMC],S
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMGPO.SetWMIFilter"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

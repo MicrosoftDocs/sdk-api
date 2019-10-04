@@ -12,6 +12,8 @@ ms.keywords: GetPrimitiveBlend, GetPrimitiveBlend method [Direct2D], GetPrimitiv
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1DeviceContext.GetPrimitiveBlend"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

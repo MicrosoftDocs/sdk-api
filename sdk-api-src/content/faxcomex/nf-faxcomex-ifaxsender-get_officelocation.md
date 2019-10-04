@@ -12,6 +12,8 @@ ms.keywords: IFaxSender interface [Fax Service],OfficeLocation property, IFaxSen
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSender.OfficeLocation"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

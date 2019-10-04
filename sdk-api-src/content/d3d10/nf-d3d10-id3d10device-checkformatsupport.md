@@ -12,6 +12,8 @@ ms.keywords: CheckFormatSupport, CheckFormatSupport method [Direct3D 10], CheckF
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.CheckFormatSupport"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

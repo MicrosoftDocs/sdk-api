@@ -12,6 +12,8 @@ ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributeString"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface 
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleInPlaceObjectWindowless"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

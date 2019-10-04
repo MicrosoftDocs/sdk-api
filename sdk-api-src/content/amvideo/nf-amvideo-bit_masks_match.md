@@ -12,6 +12,8 @@ ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MA
 ms.topic: macro
 f1_keywords: 
  - "amvideo/BIT_MASKS_MATCH"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpSvcGetUptime, SnmpSvcGetUptime function [SNMP], _snmp_snmpsvcge
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpSvcGetUptime"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPa
 ms.topic: interface
 f1_keywords: 
  - "peninputpanel/ITextInputPanel"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

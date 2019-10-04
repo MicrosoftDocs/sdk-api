@@ -12,6 +12,8 @@ ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF]
 ms.topic: function
 f1_keywords: 
  - "netcon/NcIsValidConnectionName"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrig
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IDailyTrigger"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProcessId, GetProcessId method [Remote Desktop Services], GetPro
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspace.GetProcessId"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

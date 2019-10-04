@@ -12,6 +12,8 @@ ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_Name method, ITDirectory
 ms.topic: method
 f1_keywords: 
  - "rend/ITDirectoryObject.put_Name"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

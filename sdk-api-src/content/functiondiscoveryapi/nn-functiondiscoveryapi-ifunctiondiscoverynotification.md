@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification inte
 ms.topic: interface
 f1_keywords: 
  - "functiondiscoveryapi/IFunctionDiscoveryNotification"
+dev_langs:
+ - c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

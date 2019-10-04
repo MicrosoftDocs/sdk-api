@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF, IVdsVolumeMF interface [VDS], IVdsVolumeMF interface 
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsVolumeMF"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

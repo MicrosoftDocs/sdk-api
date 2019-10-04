@@ -12,6 +12,8 @@ ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.I
 ms.topic: method
 f1_keywords: 
  - "msp/ITMSPAddress.Initialize"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

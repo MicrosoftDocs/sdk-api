@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [WPF Bitmap Effects], GetFormat method 
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectConnectorInfo.GetFormat"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

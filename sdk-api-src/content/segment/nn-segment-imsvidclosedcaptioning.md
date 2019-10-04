@@ -12,6 +12,8 @@ ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidClosedCaptioning"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

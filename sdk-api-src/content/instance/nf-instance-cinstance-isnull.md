@@ -12,6 +12,8 @@ ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CI
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.IsNull"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_CancellationReason, MI_CancellationReason enumeration [Windows M
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_CancellationReason"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

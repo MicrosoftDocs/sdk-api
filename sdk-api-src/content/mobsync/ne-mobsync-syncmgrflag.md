@@ -12,6 +12,8 @@ ms.keywords: SYNCMGRFLAG, SYNCMGRFLAG enumeration [Windows Shell], SYNCMGRFLAG_C
 ms.topic: enum
 f1_keywords: 
  - "mobsync/SYNCMGRFLAG"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

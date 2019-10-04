@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure po
 ms.topic: struct
 f1_keywords: 
  - "winnt/TOKEN_ELEVATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

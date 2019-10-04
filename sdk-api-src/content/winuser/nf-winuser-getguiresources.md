@@ -12,6 +12,8 @@ ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_P
 ms.topic: function
 f1_keywords: 
  - "winuser/GetGuiResources"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FhConfigMgr class [Windows API],GetLocalPolicy method, GetLocalPoli
 ms.topic: method
 f1_keywords:
 - fhcfg/IFhConfigMgr.GetLocalPolicy
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

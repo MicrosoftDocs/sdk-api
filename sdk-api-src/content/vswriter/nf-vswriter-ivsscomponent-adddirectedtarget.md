@@ -12,6 +12,8 @@ ms.keywords: AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarge
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.AddDirectedTarget"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

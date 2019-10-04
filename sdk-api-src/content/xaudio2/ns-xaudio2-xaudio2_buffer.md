@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_BUFFER"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

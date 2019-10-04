@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_CLIENT_INFO_VQ, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLIN
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_INFO_VQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

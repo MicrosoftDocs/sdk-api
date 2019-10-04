@@ -12,6 +12,8 @@ ms.keywords: FSCTL_FIND_FILES_BY_SID, FSCTL_FIND_FILES_BY_SID control, FSCTL_FIN
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_FIND_FILES_BY_SID"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

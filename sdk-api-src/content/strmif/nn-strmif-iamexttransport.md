@@ -12,6 +12,8 @@ ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTran
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMExtTransport"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AppliesTo property [File Server Resource Manager], AppliesTo proper
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyDefinition2.AppliesTo"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,8 @@ ms.keywords: DWRITE_FONT_AXIS_TAG, DWRITE_FONT_AXIS_TAG enumeration [Direct Writ
 ms.topic: enum
 f1_keywords: 
  - "dwrite_3/DWRITE_FONT_AXIS_TAG"
+dev_langs:
+ - c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 

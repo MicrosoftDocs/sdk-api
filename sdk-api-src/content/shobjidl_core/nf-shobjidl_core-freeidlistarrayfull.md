@@ -12,6 +12,8 @@ ms.keywords: FreeIDListArrayFull, FreeIDListArrayFull function [Windows Shell], 
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/FreeIDListArrayFull"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

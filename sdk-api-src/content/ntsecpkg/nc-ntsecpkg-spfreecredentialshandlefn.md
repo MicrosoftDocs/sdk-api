@@ -12,6 +12,8 @@ ms.keywords: SpFreeCredentialsHandle, SpFreeCredentialsHandle callback function 
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpFreeCredentialsHandle
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

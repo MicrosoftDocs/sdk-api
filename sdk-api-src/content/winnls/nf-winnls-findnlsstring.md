@@ -12,6 +12,8 @@ ms.keywords: FindNLSString, FindNLSString function [Internationalization for Win
 ms.topic: function
 f1_keywords: 
  - "winnls/FindNLSString"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPayloadFiles, GetPayloadFiles method [App packaging and manageme
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxPackageReader.GetPayloadFiles"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

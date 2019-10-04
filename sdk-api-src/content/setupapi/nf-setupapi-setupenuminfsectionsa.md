@@ -12,6 +12,8 @@ ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], Se
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupEnumInfSections"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

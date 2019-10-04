@@ -12,6 +12,8 @@ ms.keywords: GetLogContainerName, GetLogContainerName function [Files], clfsw32/
 ms.topic: function
 f1_keywords:
 - clfsw32/GetLogContainerName
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

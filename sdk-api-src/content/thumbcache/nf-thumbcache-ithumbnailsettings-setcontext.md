@@ -12,6 +12,8 @@ ms.keywords: IThumbnailSettings interface [Windows Shell],SetContext method, ITh
 ms.topic: method
 f1_keywords: 
  - "thumbcache/IThumbnailSettings.SetContext"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

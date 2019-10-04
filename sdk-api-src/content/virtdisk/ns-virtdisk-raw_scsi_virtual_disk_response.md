@@ -12,6 +12,8 @@ ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE,
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

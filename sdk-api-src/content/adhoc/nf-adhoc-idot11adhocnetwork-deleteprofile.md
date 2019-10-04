@@ -12,6 +12,8 @@ ms.keywords: DeleteProfile, DeleteProfile method [NativeWIFI], DeleteProfile met
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.DeleteProfile"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

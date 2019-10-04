@@ -12,6 +12,8 @@ ms.keywords: DEVICE_AUTHORIZATION_ALLOWED, DEVICE_AUTHORIZATION_DENIED, DEVICE_A
 ms.topic: enum
 f1_keywords: 
  - "wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus"
+dev_langs:
+ - c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

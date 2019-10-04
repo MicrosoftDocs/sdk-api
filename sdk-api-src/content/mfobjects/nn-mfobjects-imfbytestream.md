@@ -12,6 +12,8 @@ ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream 
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFByteStream"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

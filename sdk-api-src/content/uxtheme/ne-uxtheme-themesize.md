@@ -12,6 +12,8 @@ ms.keywords: THEMESIZE, THEMESIZE enumeration [Windows Controls], THEME_SIZE, TH
 ms.topic: enum
 f1_keywords: 
  - "uxtheme/THEME_SIZE"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

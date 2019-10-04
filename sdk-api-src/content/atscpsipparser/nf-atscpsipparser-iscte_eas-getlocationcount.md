@@ -12,6 +12,8 @@ ms.keywords: GetLocationCount, GetLocationCount method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetLocationCount"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

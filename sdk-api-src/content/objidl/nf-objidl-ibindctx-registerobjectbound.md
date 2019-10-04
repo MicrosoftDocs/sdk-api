@@ -12,6 +12,8 @@ ms.keywords: IBindCtx interface [COM],RegisterObjectBound method, IBindCtx.Regis
 ms.topic: method
 f1_keywords: 
  - "objidl/IBindCtx.RegisterObjectBound"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

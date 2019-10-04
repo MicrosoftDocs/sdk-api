@@ -12,6 +12,8 @@ ms.keywords: DhcpRemoveSubnetElementV5, DhcpRemoveSubnetElementV5 function [DHCP
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpRemoveSubnetElementV5
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

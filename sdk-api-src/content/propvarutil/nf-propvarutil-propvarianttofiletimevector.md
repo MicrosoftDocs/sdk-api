@@ -12,6 +12,8 @@ ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToFileTimeVector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

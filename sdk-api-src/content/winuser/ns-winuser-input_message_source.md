@@ -12,6 +12,8 @@ ms.keywords: INPUT_MESSAGE_SOURCE, INPUT_MESSAGE_SOURCE structure, input_sourcei
 ms.topic: struct
 f1_keywords: 
  - "winuser/INPUT_MESSAGE_SOURCE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

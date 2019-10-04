@@ -12,6 +12,8 @@ ms.keywords: TransformPattern_Move, TransformPattern_Move function [Windows Acce
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TransformPattern_Move"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

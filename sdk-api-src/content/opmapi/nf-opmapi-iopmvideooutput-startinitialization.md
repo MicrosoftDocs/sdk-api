@@ -12,6 +12,8 @@ ms.keywords: IOPMVideoOutput interface [Media Foundation],StartInitialization me
 ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.StartInitialization
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

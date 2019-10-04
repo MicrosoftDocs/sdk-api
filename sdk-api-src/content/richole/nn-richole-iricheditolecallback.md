@@ -12,6 +12,8 @@ ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Contr
 ms.topic: interface
 f1_keywords: 
  - "richole/IRichEditOleCallback"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callba
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminGetIpv6AddressForUser"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

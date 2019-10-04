@@ -12,6 +12,8 @@ ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Acce
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IAccessibleHostingElementProviders.GetObjectIdForProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

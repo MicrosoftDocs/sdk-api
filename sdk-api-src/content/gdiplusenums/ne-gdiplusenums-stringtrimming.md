@@ -12,6 +12,8 @@ ms.keywords: StringTrimming, StringTrimming enumeration [GDI+], StringTrimmingCh
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/StringTrimming"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

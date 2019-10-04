@@ -12,6 +12,8 @@ ms.keywords: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE, APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE 
 ms.topic: enum
 f1_keywords: 
  - "appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration po
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLEUPDATE"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

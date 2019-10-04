@@ -12,6 +12,8 @@ ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [Direct
 ms.topic: method
 f1_keywords: 
  - "amaudio/IAMDirectSound.GetPrimaryBufferInterface"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

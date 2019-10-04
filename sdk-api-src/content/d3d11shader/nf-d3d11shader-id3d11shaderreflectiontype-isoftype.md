@@ -12,6 +12,8 @@ ms.keywords: 46169c40-2e82-364b-2721-507603e99749, ID3D11ShaderReflectionType in
 ms.topic: method
 f1_keywords: 
  - "d3d11shader/ID3D11ShaderReflectionType.IsOfType"
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

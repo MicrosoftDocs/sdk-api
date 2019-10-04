@@ -12,6 +12,8 @@ ms.keywords: ICertificationAuthority interface [Security],Property property, ICe
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificationAuthority.Property"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DBCOMMANDREUSEENUM, DBCOMMANDREUSEENUM enumeration [Indexing Servic
 ms.topic: enum
 f1_keywords: 
  - "cmdtree/DBCOMMANDREUSEENUM"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

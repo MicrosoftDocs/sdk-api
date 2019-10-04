@@ -12,6 +12,8 @@ ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType interface [Media
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaType.IsEqual
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

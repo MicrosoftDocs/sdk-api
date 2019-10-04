@@ -12,6 +12,8 @@ ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Medi
 ms.topic: function
 f1_keywords: 
  - "mftransform/MFCreateTransformActivate"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

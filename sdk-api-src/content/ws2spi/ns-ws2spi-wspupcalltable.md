@@ -12,6 +12,8 @@ ms.keywords: "*LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE, FAR * LPWSPUPCALLTABLE 
 ms.topic: struct
 f1_keywords: 
  - "ws2spi/WSPUPCALLTABLE"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

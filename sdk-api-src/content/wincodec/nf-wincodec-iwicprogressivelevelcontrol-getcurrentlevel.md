@@ -12,6 +12,8 @@ ms.keywords: GetCurrentLevel, GetCurrentLevel method [Windows Imaging Component]
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICProgressiveLevelControl.GetCurrentLevel"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

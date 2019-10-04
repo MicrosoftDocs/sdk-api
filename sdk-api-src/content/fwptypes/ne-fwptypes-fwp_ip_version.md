@@ -12,6 +12,8 @@ ms.keywords: FWP_IP_VERSION, FWP_IP_VERSION enumeration [Filtering], FWP_IP_VERS
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_IP_VERSION"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

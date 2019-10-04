@@ -12,6 +12,8 @@ ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfa
 ms.topic: function
 f1_keywords: 
  - "mfapi/PackRatio"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

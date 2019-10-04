@@ -12,6 +12,8 @@ ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Servic
 ms.topic: function
 f1_keywords: 
  - "faxext/FaxExtInitializeConfig"
+dev_langs:
+ - c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

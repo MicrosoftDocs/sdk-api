@@ -12,6 +12,8 @@ ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetResourceFilter.OnSendingRequest"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

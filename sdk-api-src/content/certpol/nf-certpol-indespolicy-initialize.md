@@ -12,6 +12,8 @@ ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Ini
 ms.topic: method
 f1_keywords: 
  - "certpol/INDESPolicy.Initialize"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

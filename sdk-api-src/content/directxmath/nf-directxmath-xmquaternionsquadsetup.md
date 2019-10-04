@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionSquadSetup, XMQuaternionSquadSetup, XMQuat
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionSquadSetup"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

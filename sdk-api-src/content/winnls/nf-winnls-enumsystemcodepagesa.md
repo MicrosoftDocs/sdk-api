@@ -12,6 +12,8 @@ ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePage
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumSystemCodePages"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

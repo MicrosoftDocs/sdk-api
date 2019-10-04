@@ -12,6 +12,8 @@ ms.keywords: IWMPSettings interface [Windows Media Player],get_baseURL method, I
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSettings.get_baseURL"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_FAULT_ERROR_PROPERTY_ACTION, WS_FAULT_ERROR_PROPERTY_FAULT, WS_F
 ms.topic: enum
 f1_keywords:
 - webservices/WS_FAULT_ERROR_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

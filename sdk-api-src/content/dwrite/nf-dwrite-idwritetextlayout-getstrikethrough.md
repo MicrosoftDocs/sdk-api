@@ -12,6 +12,8 @@ ms.keywords: GetStrikethrough, GetStrikethrough method [Direct Write], GetStrike
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.GetStrikethrough"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

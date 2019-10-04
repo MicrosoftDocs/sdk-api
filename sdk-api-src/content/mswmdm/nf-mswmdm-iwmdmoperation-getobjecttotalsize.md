@@ -12,6 +12,8 @@ ms.keywords: GetObjectTotalSize, GetObjectTotalSize method [windows Media Device
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMOperation.GetObjectTotalSize"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

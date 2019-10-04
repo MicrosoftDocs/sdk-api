@@ -12,6 +12,8 @@ ms.keywords: IWMPEffects2 interface [Windows Media Player],NotifyNewMedia method
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects2.NotifyNewMedia"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, 
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyKeyProvInfo.PrivateKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

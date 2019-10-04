@@ -12,6 +12,8 @@ ms.keywords: D3D12_STATE_OBJECT_CONFIG, D3D12_STATE_OBJECT_CONFIG structure, PD3
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_STATE_OBJECT_CONFIG"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

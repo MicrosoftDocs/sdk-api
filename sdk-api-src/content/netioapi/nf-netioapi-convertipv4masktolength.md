@@ -12,6 +12,8 @@ ms.keywords: ConvertIpv4MaskToLength, ConvertIpv4MaskToLength function [IP Helpe
 ms.topic: function
 f1_keywords: 
  - "netioapi/ConvertIpv4MaskToLength"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

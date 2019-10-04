@@ -12,6 +12,8 @@ ms.keywords: Int64ToLongPtr, Int64ToSSIZET, Int64ToULongPtr, LongLongToLongPtr, 
 ms.topic: function
 f1_keywords: 
  - "intsafe/LongLongToLongPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

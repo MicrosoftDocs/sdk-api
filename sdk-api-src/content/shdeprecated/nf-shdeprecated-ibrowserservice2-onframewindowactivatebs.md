@@ -12,6 +12,8 @@ ms.keywords: FALSE, IBrowserService2 interface [Windows Shell],OnFrameWindowActi
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService2.OnFrameWindowActivateBS"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

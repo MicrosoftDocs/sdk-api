@@ -12,6 +12,8 @@ ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Medi
 ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextStyle.GetColor
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

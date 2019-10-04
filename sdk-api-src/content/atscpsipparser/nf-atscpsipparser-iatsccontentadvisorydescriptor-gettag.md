@@ -12,6 +12,8 @@ ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetTag"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

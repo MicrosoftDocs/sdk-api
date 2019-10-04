@@ -12,6 +12,8 @@ ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get__NewEnum m
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxInboundRoutingExtensions.get__NewEnum"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

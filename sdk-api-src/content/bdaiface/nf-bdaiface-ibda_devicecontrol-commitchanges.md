@@ -12,6 +12,8 @@ ms.keywords: CommitChanges, CommitChanges method [Microsoft TV Technologies], Co
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DeviceControl.CommitChanges"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

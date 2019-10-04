@@ -12,6 +12,8 @@ ms.keywords: DRMClosePubHandle, DRMClosePubHandle function [Active Directory Rig
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMClosePubHandle"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

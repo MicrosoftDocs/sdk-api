@@ -12,6 +12,8 @@ ms.keywords: "??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows M
 ms.topic: method
 f1_keywords: 
  - "chptrarr/CHPtrArray.CHPtrArray"
+dev_langs:
+ - c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

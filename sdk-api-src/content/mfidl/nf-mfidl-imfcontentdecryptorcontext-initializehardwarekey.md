@@ -12,6 +12,8 @@ ms.keywords: IMFContentDecryptorContext interface [Media Foundation],InitializeH
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFContentDecryptorContext.InitializeHardwareKey"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

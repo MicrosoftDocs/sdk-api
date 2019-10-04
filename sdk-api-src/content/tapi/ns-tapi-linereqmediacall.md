@@ -12,6 +12,8 @@ ms.keywords: "*LPLINEREQMEDIACALL, LINEREQMEDIACALL, LINEREQMEDIACALL structure 
 ms.topic: struct
 f1_keywords: 
  - "tapi/LINEREQMEDIACALL"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

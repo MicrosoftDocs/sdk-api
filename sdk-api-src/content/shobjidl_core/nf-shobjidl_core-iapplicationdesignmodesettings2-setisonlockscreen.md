@@ -12,6 +12,8 @@ ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetIsOnLo
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationDesignModeSettings2.SetIsOnLockScreen"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

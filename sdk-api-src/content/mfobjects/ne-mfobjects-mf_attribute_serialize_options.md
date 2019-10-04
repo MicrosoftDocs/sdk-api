@@ -12,6 +12,8 @@ ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enum
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

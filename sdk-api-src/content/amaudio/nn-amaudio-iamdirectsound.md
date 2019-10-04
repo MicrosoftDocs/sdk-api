@@ -12,6 +12,8 @@ ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSou
 ms.topic: interface
 f1_keywords: 
  - "amaudio/IAMDirectSound"
+dev_langs:
+ - c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows

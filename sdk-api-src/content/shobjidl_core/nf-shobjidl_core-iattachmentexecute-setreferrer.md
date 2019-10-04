@@ -12,6 +12,8 @@ ms.keywords: IAttachmentExecute interface [Windows Shell],SetReferrer method, IA
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IAttachmentExecute.SetReferrer"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

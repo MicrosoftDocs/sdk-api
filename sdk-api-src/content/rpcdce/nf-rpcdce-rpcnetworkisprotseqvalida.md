@@ -12,6 +12,8 @@ ms.keywords: RpcNetworkIsProtseqValid, RpcNetworkIsProtseqValid function [RPC], 
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcNetworkIsProtseqValid"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

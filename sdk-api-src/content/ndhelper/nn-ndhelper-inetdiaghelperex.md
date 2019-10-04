@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperE
 ms.topic: interface
 f1_keywords: 
  - "ndhelper/INetDiagHelperEx"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

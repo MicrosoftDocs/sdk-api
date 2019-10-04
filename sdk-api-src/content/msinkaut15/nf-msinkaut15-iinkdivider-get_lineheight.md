@@ -12,6 +12,8 @@ ms.keywords: 69e65ad6-bcee-46a7-a139-80b4324b9c72, IInkDivider interface [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivider.LineHeight"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

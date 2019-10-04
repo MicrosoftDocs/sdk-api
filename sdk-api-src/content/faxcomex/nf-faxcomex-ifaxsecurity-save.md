@@ -12,6 +12,8 @@ ms.keywords: IFaxSecurity interface [Fax Service],Save method, IFaxSecurity.Save
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSecurity.Save"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWbemUnboundObjectSink interface [Windows Management Instrumentatio
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemUnboundObjectSink.IndicateToConsumer"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

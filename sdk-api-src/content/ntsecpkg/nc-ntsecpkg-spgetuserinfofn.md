@@ -12,6 +12,8 @@ ms.keywords: NO_LONG_NAMES, SpGetUserInfo, SpGetUserInfo callback function [Secu
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetUserInfo
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

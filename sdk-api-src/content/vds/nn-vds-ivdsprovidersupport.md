@@ -12,6 +12,8 @@ ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSup
 ms.topic: interface
 f1_keywords:
 - vds/IVdsProviderSupport
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

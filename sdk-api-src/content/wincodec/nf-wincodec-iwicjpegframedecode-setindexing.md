@@ -12,6 +12,8 @@ ms.keywords: IWICJpegFrameDecode interface [Windows Imaging Component],SetIndexi
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICJpegFrameDecode.SetIndexing"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers S
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_CLASSIFY_OUT0"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
 req.target-type: Windows

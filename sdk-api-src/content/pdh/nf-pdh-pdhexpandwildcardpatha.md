@@ -12,6 +12,8 @@ ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPath,
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhExpandWildCardPath"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISecurityInformation3 interface [Security],OpenElevatedEditor metho
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation3.OpenElevatedEditor
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

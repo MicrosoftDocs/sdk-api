@@ -12,6 +12,8 @@ ms.keywords: AdviseWithHWND, AdviseWithHWND method [Windows Shell], AdviseWithHW
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFrameworkInputPane.AdviseWithHWND"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

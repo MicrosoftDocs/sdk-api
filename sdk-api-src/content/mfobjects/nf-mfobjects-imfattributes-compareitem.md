@@ -12,6 +12,8 @@ ms.keywords: CompareItem, CompareItem method [Media Foundation], CompareItem met
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAttributes.CompareItem"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

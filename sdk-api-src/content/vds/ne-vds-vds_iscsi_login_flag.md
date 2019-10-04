@@ -12,6 +12,8 @@ ms.keywords: VDS_ILF_MULTIPATH_ENABLED, VDS_ILF_REQUIRE_IPSEC, VDS_ISCSI_LOGIN_F
 ms.topic: enum
 f1_keywords: 
  - "vds/VDS_ISCSI_LOGIN_FLAG"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

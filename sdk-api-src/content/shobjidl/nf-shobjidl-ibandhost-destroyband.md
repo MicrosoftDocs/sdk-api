@@ -12,6 +12,8 @@ ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IBandHost.DestroyBand"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

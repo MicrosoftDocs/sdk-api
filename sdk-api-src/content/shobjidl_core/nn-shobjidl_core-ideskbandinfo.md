@@ -12,6 +12,8 @@ ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandIn
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IDeskBandInfo"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

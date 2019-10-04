@@ -12,6 +12,8 @@ ms.keywords: VIEWSTATUS, VIEWSTATUS enumeration [COM], VIEWSTATUS_3DSURFACE, VIE
 ms.topic: enum
 f1_keywords: 
  - "ocidl/VIEWSTATUS"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

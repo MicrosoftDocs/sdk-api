@@ -12,6 +12,8 @@ ms.keywords: 4dd0f334-174a-495c-b363-149960ae2253, CommitPendingInput, CommitPen
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.CommitPendingInput"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

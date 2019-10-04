@@ -12,6 +12,8 @@ ms.keywords: DiscountRateStartMinute property [Fax Service], DiscountRateStartMi
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.DiscountRateStartMinute"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

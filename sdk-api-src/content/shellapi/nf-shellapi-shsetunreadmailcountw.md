@@ -12,6 +12,8 @@ ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHSetUnreadMailCount"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

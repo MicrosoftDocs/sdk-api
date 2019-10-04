@@ -12,6 +12,8 @@ ms.keywords: EngRestoreFloatingPointState, EngRestoreFloatingPointState function
 ms.topic: function
 f1_keywords: 
  - "winddi/EngRestoreFloatingPointState"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: IWMDRMWriter3 interface [windows Media Format],SetProtectStreamSamp
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMWriter3.SetProtectStreamSamples"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

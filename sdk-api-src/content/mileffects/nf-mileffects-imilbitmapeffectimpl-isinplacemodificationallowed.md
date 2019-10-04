@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],IsInPlaceModifi
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectImpl.IsInPlaceModificationAllowed"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

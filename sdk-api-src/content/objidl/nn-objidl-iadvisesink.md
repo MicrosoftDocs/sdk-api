@@ -12,6 +12,8 @@ ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [CO
 ms.topic: interface
 f1_keywords: 
  - "objidl/IAdviseSink"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

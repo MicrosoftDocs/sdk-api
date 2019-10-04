@@ -12,6 +12,8 @@ ms.keywords: IAudioFrameNativeFactory, IAudioFrameNativeFactory interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "windows.media.core.interop/IAudioFrameNativeFactory"
+dev_langs:
+ - c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

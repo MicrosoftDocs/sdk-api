@@ -12,6 +12,8 @@ ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateFo
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationActivationManager.ActivateForFile"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

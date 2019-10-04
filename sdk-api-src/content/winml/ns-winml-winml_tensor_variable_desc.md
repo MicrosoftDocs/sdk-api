@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_tensor_variable_desc, PWINML_TENSOR_VARIABLE_
 ms.topic: struct
 f1_keywords: 
  - "winml/WINML_TENSOR_VARIABLE_DESC"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

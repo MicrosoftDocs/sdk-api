@@ -12,6 +12,8 @@ ms.keywords: IDMLDebugDevice interface,SetMuteDebugOutput method, IDMLDebugDevic
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLDebugDevice.SetMuteDebugOutput"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

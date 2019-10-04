@@ -12,6 +12,8 @@ ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], Ma
 ms.topic: method
 f1_keywords: 
  - "manipulations/_IManipulationEvents.ManipulationStarted"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

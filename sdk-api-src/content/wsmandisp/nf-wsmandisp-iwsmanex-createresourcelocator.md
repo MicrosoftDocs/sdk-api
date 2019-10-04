@@ -12,6 +12,8 @@ ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManEx.CreateResourceLocator"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

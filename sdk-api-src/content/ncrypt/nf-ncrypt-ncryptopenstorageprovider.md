@@ -12,6 +12,8 @@ ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, MS_PLA
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptOpenStorageProvider"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

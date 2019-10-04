@@ -12,6 +12,8 @@ ms.keywords: IUIContextualUI interface [Windows Ribbon],ShowAtLocation method, I
 ms.topic: method
 f1_keywords: 
  - "uiribbon/IUIContextualUI.ShowAtLocation"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

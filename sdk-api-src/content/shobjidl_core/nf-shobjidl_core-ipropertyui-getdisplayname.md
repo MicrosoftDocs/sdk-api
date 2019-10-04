@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisp
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPropertyUI.GetDisplayName"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

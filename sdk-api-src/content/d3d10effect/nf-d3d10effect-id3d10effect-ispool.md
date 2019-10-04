@@ -12,6 +12,8 @@ ms.keywords: 82637aae-8141-d7a4-6168-bdd7cd3afa44, ID3D10Effect interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10Effect.IsPool"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

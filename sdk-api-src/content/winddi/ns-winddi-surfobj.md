@@ -12,6 +12,8 @@ ms.keywords: SURFOBJ, SURFOBJ structure [Display Devices], display.surfobj, grst
 ms.topic: struct
 f1_keywords: 
  - "winddi/SURFOBJ"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "wmiutils/SWbemQueryQualifiedName"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

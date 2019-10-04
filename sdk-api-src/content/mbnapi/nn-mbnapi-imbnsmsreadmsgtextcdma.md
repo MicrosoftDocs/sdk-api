@@ -12,6 +12,8 @@ ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "mbnapi/IMbnSmsReadMsgTextCdma"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

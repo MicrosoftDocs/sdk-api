@@ -12,6 +12,8 @@ ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthN
 ms.topic: enum
 f1_keywords: 
  - "certcli/X509EnrollmentAuthFlags"
+dev_langs:
+ - c++
 req.header: certcli.h
 req.include-header: 
 req.target-type: Windows

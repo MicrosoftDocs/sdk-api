@@ -12,6 +12,8 @@ ms.keywords: AbortProc, AbortProc callback, AbortProc callback function [Windows
 ms.topic: callback
 f1_keywords: 
  - "wingdi/AbortProc"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

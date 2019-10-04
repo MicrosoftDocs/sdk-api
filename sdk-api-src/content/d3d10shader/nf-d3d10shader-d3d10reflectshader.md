@@ -12,6 +12,8 @@ ms.keywords: D3D10ReflectShader, D3D10ReflectShader function [Direct3D 10], abc2
 ms.topic: function
 f1_keywords: 
  - "d3d10shader/D3D10ReflectShader"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

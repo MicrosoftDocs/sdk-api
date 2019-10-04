@@ -12,6 +12,8 @@ ms.keywords: KSJACK_SINK_CONNECTIONTYPE, KSJACK_SINK_CONNECTIONTYPE enumeration 
 ms.topic: enum
 f1_keywords: 
  - "devicetopology/KSJACK_SINK_CONNECTIONTYPE"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

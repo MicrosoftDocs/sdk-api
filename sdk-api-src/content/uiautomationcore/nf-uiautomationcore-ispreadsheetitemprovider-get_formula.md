@@ -12,6 +12,8 @@ ms.keywords: Formula property [Windows Accessibility], Formula property [Windows
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ISpreadsheetItemProvider.Formula"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

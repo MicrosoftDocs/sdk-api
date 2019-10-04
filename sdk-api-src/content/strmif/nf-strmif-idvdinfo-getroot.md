@@ -12,6 +12,8 @@ ms.keywords: GetRoot, GetRoot method [DirectShow], GetRoot method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdInfo.GetRoot"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

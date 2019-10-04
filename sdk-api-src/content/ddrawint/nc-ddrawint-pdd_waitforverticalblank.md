@@ -12,6 +12,8 @@ ms.keywords: DdWaitForVerticalBlank, DdWaitForVerticalBlank callback function [D
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdWaitForVerticalBlank
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

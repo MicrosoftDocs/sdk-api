@@ -12,6 +12,8 @@ ms.keywords: '*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME
 ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

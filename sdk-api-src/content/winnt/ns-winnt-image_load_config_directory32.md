@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY, IMAG
 ms.topic: struct
 f1_keywords: 
  - "winnt/IMAGE_LOAD_CONFIG_DIRECTORY64"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

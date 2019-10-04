@@ -12,6 +12,8 @@ ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEX
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

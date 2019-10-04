@@ -12,6 +12,8 @@ ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery int
 ms.topic: method
 f1_keywords: 
  - "frquery/CFrameworkQuery.GetQuery"
+dev_langs:
+ - c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

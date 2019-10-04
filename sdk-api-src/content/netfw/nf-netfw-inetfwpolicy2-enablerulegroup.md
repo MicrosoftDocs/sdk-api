@@ -12,6 +12,8 @@ ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup 
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy2.EnableRuleGroup"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

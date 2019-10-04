@@ -12,6 +12,8 @@ ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishe
 ms.topic: method
 f1_keywords: 
  - "shappmgr/IPublishedApp2.Install2"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

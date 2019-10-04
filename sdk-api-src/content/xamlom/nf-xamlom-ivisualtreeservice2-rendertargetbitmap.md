@@ -12,6 +12,8 @@ ms.keywords: IVisualTreeService2 interface,RenderTargetBitmap method, IVisualTre
 ms.topic: method
 f1_keywords: 
  - "xamlom/IVisualTreeService2.RenderTargetBitmap"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

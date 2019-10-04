@@ -12,6 +12,8 @@ ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentIn
 ms.topic: function
 f1_keywords: 
  - "peerdist/PeerDistServerOpenContentInformationEx"
+dev_langs:
+ - c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

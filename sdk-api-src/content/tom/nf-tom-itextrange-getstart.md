@@ -12,6 +12,8 @@ ms.keywords: GetStart, GetStart method [Windows Controls], GetStart method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange.GetStart"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

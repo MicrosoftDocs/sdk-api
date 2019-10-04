@@ -12,6 +12,8 @@ ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],desc
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IObjPool"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,10 @@ ms.date: 4/26/2019
 ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
 ms.topic: language-reference
 f1_keywords:
+ - CWbemGlueFactory::~CWbemGlueFactory
+dev_langs:
+ - c++
+f1_keywords:
  - "wbemglue/CWbemGlueFactory::~CWbemGlueFactory"
 targetos: Windows
 product: Windows

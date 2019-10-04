@@ -12,6 +12,8 @@ ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyCRLRevocation
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

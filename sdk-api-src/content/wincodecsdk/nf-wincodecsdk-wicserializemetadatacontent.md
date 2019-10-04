@@ -12,6 +12,8 @@ ms.keywords: WICSerializeMetadataContent, WICSerializeMetadataContent function [
 ms.topic: function
 f1_keywords: 
  - "wincodecsdk/WICSerializeMetadataContent"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows

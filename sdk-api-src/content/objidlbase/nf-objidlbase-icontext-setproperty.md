@@ -12,6 +12,8 @@ ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, 
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IContext.SetProperty"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

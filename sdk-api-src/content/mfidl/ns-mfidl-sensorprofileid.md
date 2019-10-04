@@ -12,6 +12,8 @@ ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundat
 ms.topic: struct
 f1_keywords: 
  - "mfidl/SENSORPROFILEID"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TabCtrl_SetCurSel, TabCtrl_SetCurSel macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TabCtrl_SetCurSel"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialI
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_KeyingMaterialInfo"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Schannel.h, Security.h
 req.target-type: Windows

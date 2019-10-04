@@ -12,6 +12,8 @@ ms.keywords: ISettingsIdentity interface [SMI],SetFlags method, ISettingsIdentit
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsIdentity.SetFlags"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+]
 ms.topic: struct
 f1_keywords: 
  - "gdipluseffects/BrightnessContrastParams"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

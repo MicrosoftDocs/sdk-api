@@ -12,6 +12,8 @@ ms.keywords: UiaAsyncContentLoadedEventArgs, UiaAsyncContentLoadedEventArgs stru
 ms.topic: struct
 f1_keywords: 
  - "uiautomationcoreapi/UiaAsyncContentLoadedEventArgs"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

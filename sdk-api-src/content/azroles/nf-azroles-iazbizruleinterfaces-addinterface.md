@@ -12,6 +12,8 @@ ms.keywords: AddInterface, AddInterface method [Security], AddInterface method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzBizRuleInterfaces.AddInterface"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

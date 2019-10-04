@@ -12,6 +12,8 @@ ms.keywords: Digest, ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONFIDENTIALITY, ISC_REQ_C
 ms.topic: function
 f1_keywords:
 - sspi/InitializeSecurityContext
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

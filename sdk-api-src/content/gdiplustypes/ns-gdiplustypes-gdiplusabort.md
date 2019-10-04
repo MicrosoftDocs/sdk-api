@@ -12,6 +12,8 @@ ms.keywords: GdiplusAbort, GdiplusAbort structure [GDI+], _gdiplus_STRUC_Gdiplus
 ms.topic: struct
 f1_keywords: 
  - "gdiplustypes/GdiplusAbort"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

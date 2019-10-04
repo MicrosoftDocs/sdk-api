@@ -12,6 +12,8 @@ ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGra
 ms.topic: method
 f1_keywords: 
  - "strmif/IFilterGraph.RemoveFilter"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

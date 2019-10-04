@@ -12,6 +12,8 @@ ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetRemoveServiceAccount"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

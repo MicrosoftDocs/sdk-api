@@ -12,6 +12,8 @@ ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Cou
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpaceContainer.get_Count"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

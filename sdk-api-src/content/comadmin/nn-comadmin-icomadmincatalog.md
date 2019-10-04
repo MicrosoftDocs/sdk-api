@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatal
 ms.topic: interface
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1DrawInfo, ID2D1DrawInfo interface [Direct2D], ID2D1DrawInfo in
 ms.topic: interface
 f1_keywords: 
  - "d2d1effectauthor/ID2D1DrawInfo"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

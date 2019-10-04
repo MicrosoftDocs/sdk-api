@@ -12,6 +12,8 @@ ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastIDDescriptor.GetDataBroadcastID"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

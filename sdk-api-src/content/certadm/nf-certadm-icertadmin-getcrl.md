@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_B
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.GetCRL"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

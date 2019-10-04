@@ -12,6 +12,8 @@ ms.keywords: 0b605351-e264-0cd0-0fe1-6a7ecaa41acd, D3D10_FILL_MODE, D3D10_FILL_M
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_FILL_MODE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

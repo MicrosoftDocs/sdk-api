@@ -12,6 +12,8 @@ ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, msch
 ms.topic: struct
 f1_keywords: 
  - "mschapp/CYPHER_BLOCK"
+dev_langs:
+ - c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows

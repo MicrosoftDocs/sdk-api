@@ -12,6 +12,8 @@ ms.keywords: CloseThreadpool, CloseThreadpool function, base.closethreadpool, th
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/CloseThreadpool"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

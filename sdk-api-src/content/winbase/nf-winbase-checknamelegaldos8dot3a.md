@@ -12,6 +12,8 @@ ms.keywords: CheckNameLegalDOS8Dot3, CheckNameLegalDOS8Dot3 function [Files], Ch
 ms.topic: function
 f1_keywords: 
  - "winbase/CheckNameLegalDOS8Dot3"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

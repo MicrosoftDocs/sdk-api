@@ -12,6 +12,8 @@ ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal,
 ms.topic: function
 f1_keywords: 
  - "rpcdce/UuidEqual"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

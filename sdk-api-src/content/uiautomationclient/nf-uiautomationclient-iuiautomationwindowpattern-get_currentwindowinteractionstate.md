@@ -12,6 +12,8 @@ ms.keywords: CurrentWindowInteractionState property [Windows Accessibility], Cur
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern.CurrentWindowInteractionState"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

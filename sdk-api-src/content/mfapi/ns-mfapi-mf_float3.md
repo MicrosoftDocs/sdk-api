@@ -12,6 +12,8 @@ ms.keywords: MF_FLOAT3, MF_FLOAT3 structure [Media Foundation], PMF_FLOAT3, PMF_
 ms.topic: struct
 f1_keywords: 
  - "mfapi/MF_FLOAT3"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

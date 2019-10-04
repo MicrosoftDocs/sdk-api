@@ -8,6 +8,10 @@ ms.assetid: af5643ac-4095-4d26-8dfe-ef882462d207
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, 
 req.header: d3d12video.h
 req.include-header:

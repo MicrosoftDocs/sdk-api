@@ -12,6 +12,8 @@ ms.keywords: ListBox_SetColumnWidth, ListBox_SetColumnWidth macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ListBox_SetColumnWidth"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

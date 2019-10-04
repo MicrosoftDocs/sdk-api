@@ -12,6 +12,8 @@ ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.CallerId"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

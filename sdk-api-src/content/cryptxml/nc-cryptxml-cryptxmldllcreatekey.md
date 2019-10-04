@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCre
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllCreateKey
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [
 ms.topic: method
 f1_keywords: 
  - "cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration"
+dev_langs:
+ - c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

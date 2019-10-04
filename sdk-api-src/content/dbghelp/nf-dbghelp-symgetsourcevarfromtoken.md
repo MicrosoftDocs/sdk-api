@@ -12,6 +12,8 @@ ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGet
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymGetSourceVarFromToken"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

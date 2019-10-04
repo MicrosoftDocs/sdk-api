@@ -12,6 +12,8 @@ ms.keywords: WICGifCommentExtensionProperties, WICGifCommentExtensionProperties 
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICGifCommentExtensionProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

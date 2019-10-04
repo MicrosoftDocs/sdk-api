@@ -12,6 +12,8 @@ ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCente
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMRadialGradientBrush.GetCenter"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

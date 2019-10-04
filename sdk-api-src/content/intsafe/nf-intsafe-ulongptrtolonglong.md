@@ -12,6 +12,8 @@ ms.keywords: SIZETToInt64, SIZETToInt64 function [Windows Shell], ULongPtrToLong
 ms.topic: function
 f1_keywords: 
  - "intsafe/SIZETToInt64"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

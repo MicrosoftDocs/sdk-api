@@ -12,6 +12,8 @@ ms.keywords: IFaxEventLogging interface [Fax Service],InitEventsLevel property, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxEventLogging.InitEventsLevel"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

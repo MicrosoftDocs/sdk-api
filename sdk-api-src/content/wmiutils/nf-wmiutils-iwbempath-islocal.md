@@ -12,6 +12,8 @@ ms.keywords: IWbemPath interface [Windows Management Instrumentation],IsLocal me
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.IsLocal"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

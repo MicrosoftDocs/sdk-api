@@ -12,6 +12,8 @@ ms.keywords: FSCTL_REPAIR_COPIES, FSCTL_REPAIR_COPIES control, FSCTL_REPAIR_COPI
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_REPAIR_COPIES
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

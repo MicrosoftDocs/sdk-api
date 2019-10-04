@@ -12,6 +12,8 @@ ms.keywords: TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCE
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_PROCESSTOKENSID_TYPE"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

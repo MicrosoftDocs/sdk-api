@@ -12,6 +12,8 @@ ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter m
 ms.topic: method
 f1_keywords: 
  - "inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter"
+dev_langs:
+ - c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTextValueLength, GetTextValueLength method [Direct2D], GetTextVa
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgElement.GetTextValueLength"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

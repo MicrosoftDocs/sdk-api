@@ -12,6 +12,8 @@ ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_appl
 ms.topic: function
 f1_keywords:
 - sspi/ApplyControlToken
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

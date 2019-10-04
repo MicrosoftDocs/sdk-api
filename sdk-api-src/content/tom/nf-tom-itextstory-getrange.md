@@ -12,6 +12,8 @@ ms.keywords: GetRange, GetRange method [Windows Controls], GetRange method [Wind
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.GetRange"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

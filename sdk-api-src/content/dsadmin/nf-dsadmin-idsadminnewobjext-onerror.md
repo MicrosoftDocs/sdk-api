@@ -12,6 +12,8 @@ ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_COMMIT, DSA_NEWOBJ_CTX_POSTC
 ms.topic: method
 f1_keywords: 
  - "dsadmin/IDsAdminNewObjExt.OnError"
+dev_langs:
+ - c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

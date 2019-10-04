@@ -12,6 +12,8 @@ ms.keywords: '*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGN
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_SIGNER_ENCODE_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

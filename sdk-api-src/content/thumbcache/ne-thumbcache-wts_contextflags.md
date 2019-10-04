@@ -12,6 +12,8 @@ ms.keywords: WTSCF_APPSTYLE, WTSCF_DEFAULT, WTSCF_FAST, WTSCF_SQUARE, WTSCF_WIDE
 ms.topic: enum
 f1_keywords: 
  - "thumbcache/WTS_CONTEXTFLAGS"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

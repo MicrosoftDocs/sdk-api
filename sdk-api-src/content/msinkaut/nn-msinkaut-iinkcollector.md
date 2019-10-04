@@ -12,6 +12,8 @@ ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector i
 ms.topic: interface
 f1_keywords: 
  - "msinkaut/IInkCollector"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

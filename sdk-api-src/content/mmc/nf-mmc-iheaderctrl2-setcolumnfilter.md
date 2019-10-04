@@ -12,6 +12,8 @@ ms.keywords: IHeaderCtrl2 interface [MMC],SetColumnFilter method, IHeaderCtrl2.S
 ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl2.SetColumnFilter
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

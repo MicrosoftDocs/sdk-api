@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMStoreFloat3A, XMStoreFloat3A, XMStoreFloat3A method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMStoreFloat3A"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

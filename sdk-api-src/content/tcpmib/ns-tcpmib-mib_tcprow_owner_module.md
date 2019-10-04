@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWNER_MODULE, MIB_TCPROW_OWN
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCPROW_OWNER_MODULE
+dev_langs:
+ - c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

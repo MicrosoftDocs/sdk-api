@@ -12,6 +12,8 @@ ms.keywords: RAS_QUARANTINE_STATE, RAS_QUARANTINE_STATE enumeration [RAS], RAS_Q
 ms.topic: enum
 f1_keywords: 
  - "mprapi/RAS_QUARANTINE_STATE"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

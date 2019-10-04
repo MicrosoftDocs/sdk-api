@@ -12,6 +12,8 @@ ms.keywords: GetStreamSelection, GetStreamSelection method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReader.GetStreamSelection"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

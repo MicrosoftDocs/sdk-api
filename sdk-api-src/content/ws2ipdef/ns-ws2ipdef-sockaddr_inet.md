@@ -12,6 +12,8 @@ ms.keywords: "*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSO
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/SOCKADDR_INET"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

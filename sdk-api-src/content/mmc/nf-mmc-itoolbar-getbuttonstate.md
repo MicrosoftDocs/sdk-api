@@ -12,6 +12,8 @@ ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, GetButtonState, GetButtonState met
 ms.topic: method
 f1_keywords: 
  - "mmc/IToolbar.GetButtonState"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

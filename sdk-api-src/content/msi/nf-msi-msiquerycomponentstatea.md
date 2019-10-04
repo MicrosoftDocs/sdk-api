@@ -12,6 +12,8 @@ ms.keywords: INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE,
 ms.topic: function
 f1_keywords: 
  - "msi/MsiQueryComponentState"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

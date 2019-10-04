@@ -12,6 +12,8 @@ ms.keywords: ICameraControl interface [DirectShow],getRange_ZoomRelative method,
 ms.topic: method
 f1_keywords: 
  - "vidcap/ICameraControl.getRange_ZoomRelative"
+dev_langs:
+ - c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

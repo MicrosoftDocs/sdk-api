@@ -12,6 +12,8 @@ ms.keywords: WSMAN_USERNAME_PASSWORD_CREDS, WSMAN_USERNAME_PASSWORD_CREDS struct
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_USERNAME_PASSWORD_CREDS"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

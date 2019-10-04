@@ -12,6 +12,8 @@ ms.keywords: ISettingsItem interface [SMI],RemoveSettingByPath method, ISettings
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsItem.RemoveSettingByPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

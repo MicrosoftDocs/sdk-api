@@ -12,6 +12,8 @@ ms.keywords: FindID, FindID method [Microsoft TV Technologies], FindID method [M
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuningSpaceContainer.FindID"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

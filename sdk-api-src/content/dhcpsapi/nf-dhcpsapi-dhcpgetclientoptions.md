@@ -12,6 +12,8 @@ ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dh
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientOptions
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDlgCtrlID, GetDlgCtrlID function [Dialog Boxes], _win32_GetDlgCt
 ms.topic: function
 f1_keywords: 
  - "winuser/GetDlgCtrlID"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

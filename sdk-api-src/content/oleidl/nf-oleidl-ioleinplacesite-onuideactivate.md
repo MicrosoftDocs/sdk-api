@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceS
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.OnUIDeactivate"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

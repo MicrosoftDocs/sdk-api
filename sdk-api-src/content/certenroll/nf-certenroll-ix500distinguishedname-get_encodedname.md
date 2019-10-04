@@ -12,6 +12,8 @@ ms.keywords: EncodedName property [Security], EncodedName property [Security],IX
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX500DistinguishedName.EncodedName"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

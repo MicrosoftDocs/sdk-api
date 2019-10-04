@@ -12,6 +12,8 @@ ms.keywords: 2f2d9d2b-67e2-1c0d-8bc2-e3824a20ab32, GetSamplerState, GetSamplerSt
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DDevice9.GetSamplerState"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

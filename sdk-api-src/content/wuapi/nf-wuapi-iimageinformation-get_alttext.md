@@ -12,6 +12,8 @@ ms.keywords: AltText property [Windows Update Agent], AltText property [Windows 
 ms.topic: method
 f1_keywords: 
  - "wuapi/IImageInformation.AltText"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

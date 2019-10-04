@@ -12,6 +12,8 @@ ms.keywords: "?GetUpperBound@CHStringArray@@QBEHXZ, ?GetUpperBound@CHStringArray
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.GetUpperBound"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

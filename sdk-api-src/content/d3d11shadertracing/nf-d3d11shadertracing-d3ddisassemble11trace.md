@@ -12,6 +12,8 @@ ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11]
 ms.topic: function
 f1_keywords: 
  - "d3d11shadertracing/D3DDisassemble11Trace"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

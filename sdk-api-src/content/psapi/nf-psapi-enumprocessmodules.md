@@ -12,6 +12,8 @@ ms.keywords: EnumProcessModules, EnumProcessModules function [PSAPI], K32EnumPro
 ms.topic: function
 f1_keywords: 
  - "psapi/EnumProcessModules"
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

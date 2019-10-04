@@ -12,6 +12,8 @@ ms.keywords: GetImageRect, GetImageRect method [Windows Controls], GetImageRect 
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.GetImageRect"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

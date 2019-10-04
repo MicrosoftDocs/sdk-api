@@ -12,6 +12,8 @@ ms.keywords: GetWebFilterInfo, GetWebFilterInfo method, GetWebFilterInfo method,
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWindowsParentalControlsCore.GetWebFilterInfo"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

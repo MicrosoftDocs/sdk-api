@@ -12,6 +12,8 @@ ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreateP
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcPartSet.CreatePart"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

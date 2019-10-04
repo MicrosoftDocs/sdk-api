@@ -12,6 +12,8 @@ ms.keywords: GetPackageApplicationIds, GetPackageApplicationIds function [App pa
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetPackageApplicationIds"
+dev_langs:
+ - c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

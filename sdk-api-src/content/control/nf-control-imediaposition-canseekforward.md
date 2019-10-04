@@ -12,6 +12,8 @@ ms.keywords: CanSeekForward, CanSeekForward method [DirectShow], CanSeekForward 
 ms.topic: method
 f1_keywords: 
  - "control/IMediaPosition.CanSeekForward"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddListContents, AddListContents method [Windows Media Player], Add
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartnerCallback.AddListContents"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

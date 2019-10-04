@@ -12,6 +12,8 @@ ms.keywords: DXGI_DECODE_SWAP_CHAIN_DESC, DXGI_DECODE_SWAP_CHAIN_DESC structure 
 ms.topic: struct
 f1_keywords: 
  - "dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

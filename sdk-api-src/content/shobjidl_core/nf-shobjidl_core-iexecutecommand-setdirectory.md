@@ -12,6 +12,8 @@ ms.keywords: IExecuteCommand interface [Windows Shell],SetDirectory method, IExe
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExecuteCommand.SetDirectory"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

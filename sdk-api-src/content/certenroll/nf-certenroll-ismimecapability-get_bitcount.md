@@ -12,6 +12,8 @@ ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCa
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISmimeCapability.BitCount"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

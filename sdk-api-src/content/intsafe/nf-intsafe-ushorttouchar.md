@@ -12,6 +12,8 @@ ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar,
 ms.topic: function
 f1_keywords: 
  - "intsafe/UShortToUChar"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

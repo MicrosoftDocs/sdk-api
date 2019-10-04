@@ -12,6 +12,8 @@ ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _
 ms.topic: function
 f1_keywords: 
  - "coml2api/StgOpenStorageEx"
+dev_langs:
+ - c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

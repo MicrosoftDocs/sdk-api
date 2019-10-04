@@ -12,6 +12,8 @@ ms.keywords: CompileBuffer, CompileBuffer method [Windows Management Instrumenta
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IMofCompiler.CompileBuffer"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

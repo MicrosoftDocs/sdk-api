@@ -12,6 +12,8 @@ ms.keywords: FILTERING_TYPE, FILTERING_TYPE enumeration [Windows Sync], FT_CURRE
 ms.topic: enum
 f1_keywords: 
  - "winsync/FILTERING_TYPE"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

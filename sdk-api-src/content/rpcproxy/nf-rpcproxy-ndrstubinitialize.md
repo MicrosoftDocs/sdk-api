@@ -12,6 +12,8 @@ ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubini
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrStubInitialize
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMRSOP.GenerateReport"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

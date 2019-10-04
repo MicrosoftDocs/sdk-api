@@ -12,6 +12,8 @@ ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DX
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

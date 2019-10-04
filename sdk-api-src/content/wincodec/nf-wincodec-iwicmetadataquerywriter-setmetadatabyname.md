@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMe
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICMetadataQueryWriter.SetMetadataByName"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

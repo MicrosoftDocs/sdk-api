@@ -12,6 +12,8 @@ ms.keywords: '*PIASDOMAINTYPE, DOMAIN_TYPE_MIXED, DOMAIN_TYPE_NONE, DOMAIN_TYPE_
 ms.topic: enum
 f1_keywords:
 - sdoias/IASDOMAINTYPE
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

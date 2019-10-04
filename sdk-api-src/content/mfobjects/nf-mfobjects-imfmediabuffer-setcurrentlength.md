@@ -12,6 +12,8 @@ ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMediaBuffer.SetCurrentLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

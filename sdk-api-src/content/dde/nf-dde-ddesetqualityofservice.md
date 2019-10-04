@@ -12,6 +12,8 @@ ms.keywords: DdeSetQualityOfService, DdeSetQualityOfService function [Data Excha
 ms.topic: function
 f1_keywords:
 - dde/DdeSetQualityOfService
+dev_langs:
+ - c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

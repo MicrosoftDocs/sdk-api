@@ -12,6 +12,8 @@ ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [T
 ms.topic: interface
 f1_keywords: 
  - "ctfutb/ITfLangBarItemBitmapButton"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

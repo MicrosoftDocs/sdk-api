@@ -12,6 +12,8 @@ ms.keywords: AddResourceEx, AddResourceEx method [Remote Desktop Services], AddR
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceRegistration2::AddResourceEx"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

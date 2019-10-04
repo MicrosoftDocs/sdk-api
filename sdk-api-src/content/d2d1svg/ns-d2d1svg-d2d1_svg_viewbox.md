@@ -12,6 +12,8 @@ ms.keywords: D2D1_SVG_VIEWBOX, D2D1_SVG_VIEWBOX structure [Direct2D], d2d1svg/D2
 ms.topic: struct
 f1_keywords: 
  - "d2d1svg/D2D1_SVG_VIEWBOX"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

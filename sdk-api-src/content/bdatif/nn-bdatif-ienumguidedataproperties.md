@@ -12,6 +12,8 @@ ms.keywords: IEnumGuideDataProperties, IEnumGuideDataProperties interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "bdatif/IEnumGuideDataProperties"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

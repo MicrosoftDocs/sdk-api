@@ -12,6 +12,8 @@ ms.keywords: IMessageMover interface [COM+],put_DestPath method, IMessageMover.p
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IMessageMover.put_DestPath"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredop
 ms.topic: function
 f1_keywords: 
  - "netioapi/GetTeredoPort"
+dev_langs:
+ - c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCellWidth, GetCellWidth method [Windows Controls], GetCellWidth 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellWidth"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

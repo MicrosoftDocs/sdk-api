@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Windows Contacts], GetString method [W
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactProperties.GetString"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

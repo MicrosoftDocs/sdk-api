@@ -12,6 +12,8 @@ ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXG
 ms.topic: method
 f1_keywords: 
  - "dxgidebug/IDXGIInfoQueue.GetMessage"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

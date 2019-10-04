@@ -12,6 +12,8 @@ ms.keywords: "*PADS_REPLICAPOINTER, ADS_REPLICAPOINTER, ADS_REPLICAPOINTER struc
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_REPLICAPOINTER"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

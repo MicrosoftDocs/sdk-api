@@ -12,6 +12,8 @@ ms.keywords: CurrentCanMove property [Windows Accessibility], CurrentCanMove pro
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern.CurrentCanMove"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

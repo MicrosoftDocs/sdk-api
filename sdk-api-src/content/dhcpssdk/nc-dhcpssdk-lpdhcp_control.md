@@ -12,6 +12,8 @@ ms.keywords: DhcpControlHook, DhcpControlHook callback function [DHCP], LPDHCP_C
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpControlHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

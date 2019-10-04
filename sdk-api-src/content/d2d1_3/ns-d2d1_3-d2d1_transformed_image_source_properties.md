@@ -12,6 +12,8 @@ ms.keywords: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, D2D1_TRANSFORMED_IMAGE_SO
 ms.topic: struct
 f1_keywords: 
  - "d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

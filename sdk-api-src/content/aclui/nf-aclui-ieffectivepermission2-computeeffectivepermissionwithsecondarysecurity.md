@@ -12,6 +12,8 @@ ms.keywords: ComputeEffectivePermissionWithSecondarySecurity, ComputeEffectivePe
 ms.topic: method
 f1_keywords:
 - aclui/IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

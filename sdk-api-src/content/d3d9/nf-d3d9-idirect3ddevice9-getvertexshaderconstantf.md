@@ -12,6 +12,8 @@ ms.keywords: 2f91da11-b00c-9968-63d9-4dfc3cbe6369, GetVertexShaderConstantF, Get
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetVertexShaderConstantF"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

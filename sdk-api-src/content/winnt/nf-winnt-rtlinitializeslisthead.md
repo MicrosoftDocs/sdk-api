@@ -12,6 +12,8 @@ ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlin
 ms.topic: function
 f1_keywords: 
  - "winnt/RtlInitializeSListHead"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

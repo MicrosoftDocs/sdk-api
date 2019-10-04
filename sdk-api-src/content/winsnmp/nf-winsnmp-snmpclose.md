@@ -12,6 +12,8 @@ ms.keywords: SnmpClose, SnmpClose function [SNMP], _snmp_snmpclose, snmp.snmpclo
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpClose"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

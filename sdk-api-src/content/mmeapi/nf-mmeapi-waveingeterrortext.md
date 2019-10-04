@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInGetErrorText, mmeapi/waveInGetErrorText, multimedia.w
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInGetErrorText"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property 
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.DesiredRotation"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

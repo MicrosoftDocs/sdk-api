@@ -12,6 +12,8 @@ ms.keywords: '*PMINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY struc
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_DIRECTORY
+dev_langs:
+ - c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

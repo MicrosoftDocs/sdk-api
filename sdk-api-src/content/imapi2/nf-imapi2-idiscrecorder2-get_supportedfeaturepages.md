@@ -12,6 +12,8 @@ ms.keywords: IDiscRecorder2 interface [IMAPI],get_SupportedFeaturePages method, 
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.get_SupportedFeaturePages
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

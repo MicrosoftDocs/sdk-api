@@ -12,6 +12,8 @@ ms.keywords: '*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPC
 ms.topic: struct
 f1_keywords:
 - winbase/COMMCONFIG
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

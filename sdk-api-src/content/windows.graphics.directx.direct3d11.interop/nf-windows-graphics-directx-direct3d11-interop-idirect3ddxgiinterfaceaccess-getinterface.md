@@ -11,6 +11,8 @@ ms.keywords: GetInterface, GetInterface function [Direct3D 11], windows.graphics
 ms.topic: function
 f1_keywords: 
  - "windows.graphics.directx.direct3d11.interop/GetInterface"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -12,6 +12,8 @@ ms.keywords: FSCTL_TXFS_GET_TRANSACTED_VERSION, FSCTL_TXFS_GET_TRANSACTED_VERSIO
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

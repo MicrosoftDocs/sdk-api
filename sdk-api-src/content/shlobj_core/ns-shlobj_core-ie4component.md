@@ -12,6 +12,8 @@ ms.keywords: '*LPIE4COMPONENT, COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_P
 ms.topic: struct
 f1_keywords:
 - shlobj_core/IE4COMPONENT
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

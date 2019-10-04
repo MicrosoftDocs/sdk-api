@@ -12,6 +12,8 @@ ms.keywords: CredFreeCredentialsFn, CredFreeCredentialsFn callback, CrediFreeCre
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CrediFreeCredentials
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

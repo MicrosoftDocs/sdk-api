@@ -12,6 +12,8 @@ ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmSimulateHotKey"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

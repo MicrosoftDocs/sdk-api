@@ -12,6 +12,8 @@ ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider 
 ms.topic: method
 f1_keywords: 
  - "syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLongitude, GetLongitude method [WinLocation], GetLongitude metho
 ms.topic: method
 f1_keywords: 
  - "locationapi/ILatLongReport.GetLongitude"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PBLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO, BLUETOOTH_RADIO_INFO
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_RADIO_INFO"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

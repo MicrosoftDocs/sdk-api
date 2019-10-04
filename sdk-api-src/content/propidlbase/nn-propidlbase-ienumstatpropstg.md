@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], 
 ms.topic: interface
 f1_keywords: 
  - "propidlbase/IEnumSTATPROPSTG"
+dev_langs:
+ - c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows

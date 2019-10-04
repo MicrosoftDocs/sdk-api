@@ -12,6 +12,8 @@ ms.keywords: GetEnable, GetEnable method [Windows Media Player], GetEnable metho
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPPluginEnable.GetEnable"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

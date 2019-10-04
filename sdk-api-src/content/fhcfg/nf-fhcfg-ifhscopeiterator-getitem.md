@@ -12,6 +12,8 @@ ms.keywords: GetItem, GetItem method [Windows API], GetItem method [Windows API]
 ms.topic: method
 f1_keywords: 
  - "fhcfg/IFhScopeIterator.GetItem"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

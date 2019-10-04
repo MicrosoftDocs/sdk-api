@@ -12,6 +12,8 @@ ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_s
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SetNtmsMediaComplete"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteLogError, DeleteLogError method [Windows Shell], DeleteLogErr
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronizeCallback.DeleteLogError"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

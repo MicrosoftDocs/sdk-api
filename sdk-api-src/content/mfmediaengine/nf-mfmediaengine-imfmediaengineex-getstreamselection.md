@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetStreamSelection"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetBase
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionTurbulenceEffect.SetBaseFrequency"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

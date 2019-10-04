@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PR
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpOpen"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

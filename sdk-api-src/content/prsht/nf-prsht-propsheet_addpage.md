@@ -12,6 +12,8 @@ ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win
 ms.topic: macro
 f1_keywords: 
  - "prsht/PropSheet_AddPage"
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

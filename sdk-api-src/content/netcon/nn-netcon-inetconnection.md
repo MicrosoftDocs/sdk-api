@@ -12,6 +12,8 @@ ms.keywords: INetConnection, INetConnection interface [ICS/ICF], INetConnection 
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetConnection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [
 ms.topic: function
 f1_keywords: 
  - "bluetoothapis/BluetoothIsVersionAvailable"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

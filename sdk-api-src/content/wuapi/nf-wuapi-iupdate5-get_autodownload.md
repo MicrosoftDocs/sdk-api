@@ -12,6 +12,8 @@ ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdate5.AutoDownload"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

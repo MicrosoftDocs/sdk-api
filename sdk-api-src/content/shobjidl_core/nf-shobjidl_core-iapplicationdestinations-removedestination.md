@@ -12,6 +12,8 @@ ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestinatio
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationDestinations.RemoveDestination"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCopyableFootprints, GetCopyableFootprints method, GetCopyableFoo
 ms.topic: method
 f1_keywords: 
  - "d3d12/ID3D12Device.GetCopyableFootprints"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

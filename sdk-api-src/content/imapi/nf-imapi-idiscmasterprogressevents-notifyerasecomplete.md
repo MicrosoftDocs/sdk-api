@@ -12,6 +12,8 @@ ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyEraseComplete met
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMasterProgressEvents.NotifyEraseComplete"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

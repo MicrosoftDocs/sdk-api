@@ -12,6 +12,8 @@ ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVi
 ms.topic: method
 f1_keywords: 
  - "control/IVideoWindow.SetWindowForeground"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

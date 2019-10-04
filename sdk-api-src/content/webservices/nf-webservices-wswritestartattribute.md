@@ -12,6 +12,8 @@ ms.keywords: WsWriteStartAttribute, WsWriteStartAttribute function [Web Services
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteStartAttribute"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

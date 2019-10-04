@@ -12,6 +12,8 @@ ms.keywords: CompareExact, CompareExact method [Microsoft TV Technologies], Comp
 ms.topic: method
 f1_keywords: 
  - "tuner/IBDAComparable.CompareExact"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

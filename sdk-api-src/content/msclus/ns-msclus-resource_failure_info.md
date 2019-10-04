@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE
 ms.topic: struct
 f1_keywords: 
  - "msclus/RESOURCE_FAILURE_INFO"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

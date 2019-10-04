@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CONFIG_ID, HTTP_SERVICE_CON
 ms.topic: enum
 f1_keywords: 
  - "http/HTTP_SERVICE_CONFIG_ID"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

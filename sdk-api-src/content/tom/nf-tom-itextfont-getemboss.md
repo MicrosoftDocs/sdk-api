@@ -12,6 +12,8 @@ ms.keywords: GetEmboss, GetEmboss method [Windows Controls], GetEmboss method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetEmboss"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

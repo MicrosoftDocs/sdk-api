@@ -12,6 +12,8 @@ ms.keywords: IMFASFStreamPrioritization interface [Media Foundation],RemoveStrea
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamPrioritization.RemoveStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

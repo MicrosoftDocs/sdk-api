@@ -12,6 +12,8 @@ ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetF
 ms.topic: function
 f1_keywords: 
  - "traffic/TcGetFlowName"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

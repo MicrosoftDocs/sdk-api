@@ -12,6 +12,8 @@ ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [
 ms.topic: method
 f1_keywords: 
  - "msinkaut15/IInkDivisionUnits.Item"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation me
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IOperationsProgressDialog.SetOperation
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

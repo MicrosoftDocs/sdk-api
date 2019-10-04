@@ -12,6 +12,8 @@ ms.keywords: ComboBox_GetCurSel, ComboBox_GetCurSel macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/ComboBox_GetCurSel"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

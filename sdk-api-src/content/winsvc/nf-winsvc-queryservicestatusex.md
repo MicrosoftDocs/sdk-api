@@ -12,6 +12,8 @@ ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryse
 ms.topic: function
 f1_keywords:
 - winsvc/QueryServiceStatusEx
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

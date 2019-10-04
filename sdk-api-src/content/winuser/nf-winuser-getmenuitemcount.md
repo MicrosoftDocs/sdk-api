@@ -12,6 +12,8 @@ ms.keywords: GetMenuItemCount, GetMenuItemCount function [Menus and Other Resour
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenuItemCount"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

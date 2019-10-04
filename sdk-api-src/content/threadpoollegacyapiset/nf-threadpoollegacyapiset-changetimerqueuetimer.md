@@ -12,6 +12,8 @@ ms.keywords: ChangeTimerQueueTimer, ChangeTimerQueueTimer function, _win32_chang
 ms.topic: function
 f1_keywords: 
  - "threadpoollegacyapiset/ChangeTimerQueueTimer"
+dev_langs:
+ - c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

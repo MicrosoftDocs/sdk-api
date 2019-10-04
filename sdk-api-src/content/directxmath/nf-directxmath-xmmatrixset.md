@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixSet, XMMatrixSet, XMMatrixSet method [DirectX 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixSet"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

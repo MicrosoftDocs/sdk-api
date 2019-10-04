@@ -12,6 +12,8 @@ ms.keywords: GlobalPartitionID property [COM+], GlobalPartitionID property [COM+
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.GlobalPartitionID"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

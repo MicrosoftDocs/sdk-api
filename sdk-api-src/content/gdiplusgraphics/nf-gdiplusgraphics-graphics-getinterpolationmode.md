@@ -12,6 +12,8 @@ ms.keywords: GetInterpolationMode, GetInterpolationMode method [GDI+], GetInterp
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.GetInterpolationMode"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

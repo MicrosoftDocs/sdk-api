@@ -12,6 +12,8 @@ ms.keywords: PropVariantToInt32WithDefault, PropVariantToInt32WithDefault functi
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToInt32WithDefault"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

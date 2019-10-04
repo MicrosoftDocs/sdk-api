@@ -12,6 +12,8 @@ ms.keywords: 46d0ab14-fdda-10ce-1e1a-4e551e1deeb3, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.OMGetDepthStencilState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

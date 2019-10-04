@@ -12,6 +12,8 @@ ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media F
 ms.topic: struct
 f1_keywords:
 - ksopmapi/OPM_GET_INFO_PARAMETERS
+dev_langs:
+ - c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

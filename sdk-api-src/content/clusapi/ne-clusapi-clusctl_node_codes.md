@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_NODE_BLOCK_GEM_SEND_RECV, CLUSCTL_NODE_CODES, CLUSCTL_NODE_
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_NODE_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

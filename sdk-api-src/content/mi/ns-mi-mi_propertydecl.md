@@ -12,6 +12,8 @@ ms.keywords: MI_FLAG_KEY, MI_FLAG_PROPERTY, MI_PropertyDecl, MI_PropertyDecl str
 ms.topic: struct
 f1_keywords:
 - mi/MI_PropertyDecl
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WcmDataType, WcmDataType enumeration [SMI], dataTypeBoolean, dataTy
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmDataType"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

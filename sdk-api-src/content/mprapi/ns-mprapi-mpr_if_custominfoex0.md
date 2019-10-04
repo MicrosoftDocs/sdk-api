@@ -12,6 +12,8 @@ ms.keywords: '*PMPR_IF_CUSTOMINFOEX0, MPRAPI_IF_CUSTOM_CONFIG_FOR_IKEV2, MPR_IF_
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_IF_CUSTOMINFOEX0
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

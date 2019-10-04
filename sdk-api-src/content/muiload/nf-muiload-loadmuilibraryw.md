@@ -12,6 +12,8 @@ ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "muiload/LoadMUILibrary"
+dev_langs:
+ - c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, D
 ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaAdd
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

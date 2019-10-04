@@ -12,6 +12,8 @@ ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DH
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetServerBindingInfoV6
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

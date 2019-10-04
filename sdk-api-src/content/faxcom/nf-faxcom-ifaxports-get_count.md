@@ -12,6 +12,8 @@ ms.keywords: IFaxPorts interface [Fax Service],get_Count method, IFaxPorts.get_C
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPorts.get_Count"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: StrCmpNI, StrCmpNI function [Windows Shell], StrCmpNIA, StrCmpNIW, 
 ms.topic: function
 f1_keywords: 
  - "shlwapi/StrCmpNI"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

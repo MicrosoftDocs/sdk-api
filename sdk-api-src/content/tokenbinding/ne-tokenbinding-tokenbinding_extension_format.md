@@ -12,6 +12,8 @@ ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumer
 ms.topic: enum
 f1_keywords: 
  - "tokenbinding/TOKENBINDING_EXTENSION_FORMAT"
+dev_langs:
+ - c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

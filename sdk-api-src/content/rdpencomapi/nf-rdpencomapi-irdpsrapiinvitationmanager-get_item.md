@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIInvitationManager interface [RDP],Item property, IRDPSRAPI
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIInvitationManager.Item"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

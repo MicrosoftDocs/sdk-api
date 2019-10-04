@@ -12,6 +12,8 @@ ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, PIBIO_SENSOR_ACTIVATE_FN callback, Sensor
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterActivate
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

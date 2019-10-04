@@ -12,6 +12,8 @@ ms.keywords: DhcpHandleOptionsHook, DhcpHandleOptionsHook callback function [DHC
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpHandleOptionsHook
+dev_langs:
+ - c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

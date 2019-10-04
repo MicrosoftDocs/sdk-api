@@ -12,6 +12,8 @@ ms.keywords: GlobalGetAtomName, GlobalGetAtomName function [Data Exchange], Glob
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalGetAtomName"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

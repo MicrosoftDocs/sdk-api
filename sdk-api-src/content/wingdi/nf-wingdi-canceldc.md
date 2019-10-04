@@ -12,6 +12,8 @@ ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.can
 ms.topic: function
 f1_keywords: 
  - "wingdi/CancelDC"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

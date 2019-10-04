@@ -12,6 +12,8 @@ ms.keywords: 536585c6-a856-5863-9168-9c42256bfb53, GetDevice, GetDevice method [
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVertexShader9.GetDevice"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

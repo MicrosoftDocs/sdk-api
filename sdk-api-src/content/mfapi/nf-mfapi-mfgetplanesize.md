@@ -12,6 +12,8 @@ ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSiz
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetPlaneSize"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

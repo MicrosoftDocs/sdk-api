@@ -12,6 +12,8 @@ ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenRe
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

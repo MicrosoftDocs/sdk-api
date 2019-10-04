@@ -12,6 +12,8 @@ ms.keywords: IStream interface [Structured Storage],Revert method, IStream.Rever
 ms.topic: method
 f1_keywords: 
  - "objidl/IStream.Revert"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

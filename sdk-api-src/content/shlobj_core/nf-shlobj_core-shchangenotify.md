@@ -12,6 +12,8 @@ ms.keywords: SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHChangeNotify
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

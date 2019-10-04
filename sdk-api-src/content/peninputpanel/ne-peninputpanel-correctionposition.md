@@ -12,6 +12,8 @@ ms.keywords: 0750128e-f3f0-444a-abe0-2dc360a3685b, CorrectionPosition, Correctio
 ms.topic: enum
 f1_keywords: 
  - "peninputpanel/CorrectionPosition"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

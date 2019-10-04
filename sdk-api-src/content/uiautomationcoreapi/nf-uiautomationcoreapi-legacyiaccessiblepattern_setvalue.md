@@ -12,6 +12,8 @@ ms.keywords: LegacyIAccessiblePattern_SetValue, LegacyIAccessiblePattern_SetValu
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/LegacyIAccessiblePattern_SetValue"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

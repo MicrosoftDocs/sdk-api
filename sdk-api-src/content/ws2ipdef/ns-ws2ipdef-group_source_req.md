@@ -12,6 +12,8 @@ ms.keywords: "*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/GROUP_SOURCE_REQ"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

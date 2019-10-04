@@ -12,6 +12,8 @@ ms.keywords: 43b4261f-2644-4897-99db-041ae06099f3, ID3D10EffectVariable interfac
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.SetRawValue"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

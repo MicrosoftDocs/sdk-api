@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE, PCLUSAPI_RESUME_CLUSTER_NODE function
 ms.topic: function
 f1_keywords: 
  - "clusapi/ResumeClusterNode"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

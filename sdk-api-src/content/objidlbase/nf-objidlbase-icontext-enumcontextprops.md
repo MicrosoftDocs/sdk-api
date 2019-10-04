@@ -12,6 +12,8 @@ ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps m
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IContext.EnumContextProps"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAA, DNS_SRV_DATA, DNS_SRV_DATA struct
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_SRV_DATA"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

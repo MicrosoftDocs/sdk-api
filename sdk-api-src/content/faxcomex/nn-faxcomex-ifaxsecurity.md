@@ -12,6 +12,8 @@ ms.keywords: IFaxSecurity, IFaxSecurity interface [Fax Service], IFaxSecurity in
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxSecurity"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

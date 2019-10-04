@@ -12,6 +12,8 @@ ms.keywords: GetFontFamilyNameLength, GetFontFamilyNameLength method [Direct Wri
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetFontFamilyNameLength"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

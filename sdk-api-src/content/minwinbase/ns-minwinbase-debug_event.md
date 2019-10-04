@@ -12,6 +12,8 @@ ms.keywords: "*LPDEBUG_EVENT, CREATE_PROCESS_DEBUG_EVENT, CREATE_THREAD_DEBUG_EV
 ms.topic: struct
 f1_keywords: 
  - "minwinbase/DEBUG_EVENT"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

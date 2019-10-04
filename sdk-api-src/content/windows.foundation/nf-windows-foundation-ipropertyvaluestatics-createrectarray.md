@@ -12,6 +12,8 @@ ms.keywords: CreateRectArray, CreateRectArray method [Windows Runtime], CreateRe
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateRectArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HrtfDirectivity, HrtfDirectivity structure [XAudio2 Audio Mixing AP
 ms.topic: struct
 f1_keywords: 
  - "hrtfapoapi/HrtfDirectivity"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

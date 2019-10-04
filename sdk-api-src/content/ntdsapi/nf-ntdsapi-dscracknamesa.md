@@ -12,6 +12,8 @@ ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackName
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsCrackNames"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAc
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetCLSID"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

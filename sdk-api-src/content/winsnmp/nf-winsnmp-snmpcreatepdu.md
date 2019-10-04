@@ -12,6 +12,8 @@ ms.keywords: SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpCreatePdu"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

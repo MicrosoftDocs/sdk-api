@@ -12,6 +12,8 @@ ms.keywords: BindOutputs, BindOutputs method, BindOutputs method,IDMLBindingTabl
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLBindingTable.BindOutputs"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

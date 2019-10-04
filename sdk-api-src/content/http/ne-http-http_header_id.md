@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_HEADER_ID, HTTP_HEADER_ID, HTTP_HEADER_ID enumeration [HTTP
 ms.topic: enum
 f1_keywords:
 - http/HTTP_HEADER_ID
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

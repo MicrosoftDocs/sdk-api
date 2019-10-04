@@ -12,6 +12,8 @@ ms.keywords: '*PRPC_BINDING_HANDLE_SECURITY_V1_W, RPC_BINDING_HANDLE_SECURITY, R
 ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_BINDING_HANDLE_SECURITY_V1
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

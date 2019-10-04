@@ -12,6 +12,8 @@ ms.keywords: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEV
 ms.topic: struct
 f1_keywords: 
  - "d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows

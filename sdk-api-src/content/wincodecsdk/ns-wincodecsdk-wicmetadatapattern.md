@@ -12,6 +12,8 @@ ms.keywords: WICMetadataPattern, WICMetadataPattern structure [Windows Imaging C
 ms.topic: struct
 f1_keywords: 
  - "wincodecsdk/WICMetadataPattern"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

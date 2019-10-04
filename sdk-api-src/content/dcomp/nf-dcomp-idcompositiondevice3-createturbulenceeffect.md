@@ -12,6 +12,8 @@ ms.keywords: CreateTurbulenceEffect, CreateTurbulenceEffect method [DirectCompos
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateTurbulenceEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

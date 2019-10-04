@@ -12,6 +12,8 @@ ms.keywords: IInputObject, IInputObject interface [Windows Shell], IInputObject 
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IInputObject"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DSA_HASH_ALGORITHM_SHA1, DSA_HASH_ALGORITHM_SHA256, DSA_HASH_ALGORI
 ms.topic: enum
 f1_keywords:
 - bcrypt/HASHALGORITHM_ENUM
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NotificationProcessing, NotificationProcessing enumeration [Windows
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcore/NotificationProcessing"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows

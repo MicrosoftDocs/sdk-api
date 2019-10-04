@@ -12,6 +12,8 @@ ms.keywords: IDiscMaster interface [IMAPI],Open method, IDiscMaster.Open, IDiscM
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscMaster.Open"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

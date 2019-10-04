@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Required
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings.Required"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

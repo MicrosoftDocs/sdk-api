@@ -12,6 +12,8 @@ ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Pack
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

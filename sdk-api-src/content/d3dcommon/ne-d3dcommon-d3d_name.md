@@ -12,6 +12,8 @@ ms.keywords: D3D10_NAME_CLIP_DISTANCE, D3D10_NAME_COVERAGE, D3D10_NAME_CULL_DIST
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_NAME
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/Find
 ms.topic: function
 f1_keywords: 
  - "fileapi/FindNextFileNameW"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

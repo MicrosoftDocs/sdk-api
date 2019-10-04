@@ -12,6 +12,8 @@ ms.keywords: IMSVidOutputDevices, IMSVidOutputDevices interface [Microsoft TV Te
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidOutputDevices"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

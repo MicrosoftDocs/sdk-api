@@ -12,6 +12,8 @@ ms.keywords: IAccServerDocMgr, IAccServerDocMgr interface [Windows Accessibility
 ms.topic: interface
 f1_keywords: 
  - "msaatext/IAccServerDocMgr"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

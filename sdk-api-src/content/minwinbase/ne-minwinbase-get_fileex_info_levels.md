@@ -12,6 +12,8 @@ ms.keywords: GET_FILEEX_INFO_LEVELS, GET_FILEEX_INFO_LEVELS enumeration [Files],
 ms.topic: enum
 f1_keywords:
 - minwinbase/GET_FILEEX_INFO_LEVELS
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

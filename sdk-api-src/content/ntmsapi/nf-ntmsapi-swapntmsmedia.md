@@ -12,6 +12,8 @@ ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, 
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SwapNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

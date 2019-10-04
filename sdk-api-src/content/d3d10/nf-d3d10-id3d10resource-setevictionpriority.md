@@ -12,6 +12,8 @@ ms.keywords: 8ad141ef-5f50-f2f6-d2db-3f0b076d0dda, ID3D10Resource interface [Dir
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Resource.SetEvictionPriority"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

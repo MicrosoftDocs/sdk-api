@@ -12,6 +12,8 @@ ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows A
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellChecker.AutoCorrect"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

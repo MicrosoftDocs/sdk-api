@@ -12,6 +12,8 @@ ms.keywords: INetConnection interface [ICS/ICF],Rename method, INetConnection.Re
 ms.topic: method
 f1_keywords: 
  - "netcon/INetConnection.Rename"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

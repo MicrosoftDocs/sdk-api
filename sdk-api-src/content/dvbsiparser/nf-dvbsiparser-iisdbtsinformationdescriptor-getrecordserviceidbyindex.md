@@ -12,6 +12,8 @@ ms.keywords: GetRecordServiceIdByIndex, GetRecordServiceIdByIndex method [Micros
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

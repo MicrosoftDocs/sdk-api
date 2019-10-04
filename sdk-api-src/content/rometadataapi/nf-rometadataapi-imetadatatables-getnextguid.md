@@ -12,6 +12,8 @@ ms.keywords: GetNextGuid, GetNextGuid method [Windows Runtime], GetNextGuid meth
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetNextGuid"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

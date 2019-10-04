@@ -12,6 +12,8 @@ ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "strmif/IStreamBuilder.Backout"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

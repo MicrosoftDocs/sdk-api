@@ -12,6 +12,8 @@ ms.keywords: GLYPHDEF, GLYPHDEF union [Display Devices], display.glyphdef, grstr
 ms.topic: struct
 f1_keywords:
 - winddi/GLYPHDEF
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

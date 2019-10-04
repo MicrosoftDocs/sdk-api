@@ -12,6 +12,8 @@ ms.keywords: GetInlineObject, GetInlineObject method [Windows Controls], GetInli
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.GetInlineObject"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

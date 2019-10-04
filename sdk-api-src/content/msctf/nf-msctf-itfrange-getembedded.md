@@ -12,6 +12,8 @@ ms.keywords: Caller-defined, GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfRange.GetEmbedded"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

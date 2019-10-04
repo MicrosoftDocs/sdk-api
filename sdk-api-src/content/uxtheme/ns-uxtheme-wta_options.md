@@ -12,6 +12,8 @@ ms.keywords: "*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windo
 ms.topic: struct
 f1_keywords: 
  - "uxtheme/WTA_OPTIONS"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPCQFORM, CQFF_ISOPTIONAL, CQFF_NOGLOBALPAGES, CQFORM, CQFORM str
 ms.topic: struct
 f1_keywords: 
  - "cmnquery/CQFORM"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMR
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMResourceControl"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

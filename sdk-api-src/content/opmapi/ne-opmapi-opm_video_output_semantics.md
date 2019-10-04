@@ -12,6 +12,8 @@ ms.keywords: OPM_VIDEO_OUTPUT_SEMANTICS, OPM_VIDEO_OUTPUT_SEMANTICS enumeration 
 ms.topic: enum
 f1_keywords: 
  - "opmapi/OPM_VIDEO_OUTPUT_SEMANTICS"
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextSt
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStrings.SuffixTop"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

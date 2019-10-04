@@ -12,6 +12,8 @@ ms.keywords: CachedBitmap class [GDI+],GetLastStatus method, CachedBitmap.GetLas
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CachedBitmap.GetLastStatus"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

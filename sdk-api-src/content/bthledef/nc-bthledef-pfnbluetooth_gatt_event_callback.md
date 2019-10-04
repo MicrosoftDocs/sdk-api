@@ -12,6 +12,8 @@ ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback fun
 ms.topic: callback
 f1_keywords:
 - bthledef/BluetoothGattEventCallback
+dev_langs:
+ - c++
 req.header: bthledef.h
 req.include-header: 
 req.target-type: Desktop

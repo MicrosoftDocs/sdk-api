@@ -12,6 +12,8 @@ ms.keywords: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, OPM_COPP_COMPATIBLE_GET_IN
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

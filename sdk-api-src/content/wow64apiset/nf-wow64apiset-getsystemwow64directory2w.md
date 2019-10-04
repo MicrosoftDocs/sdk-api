@@ -12,6 +12,8 @@ ms.keywords: GetSystemWow64Directory2, GetSystemWow64Directory2 function, GetSys
 ms.topic: function
 f1_keywords: 
  - "wow64apiset/GetSystemWow64Directory2"
+dev_langs:
+ - c++
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AllocateSample, AllocateSample method [windows Media Format], Alloc
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriter.AllocateSample"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

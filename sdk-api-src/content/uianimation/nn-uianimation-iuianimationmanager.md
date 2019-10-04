@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animati
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationManager"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_CERT_CONTEXT, CRYPTU
 ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

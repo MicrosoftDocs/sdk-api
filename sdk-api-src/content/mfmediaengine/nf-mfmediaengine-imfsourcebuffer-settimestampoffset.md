@@ -12,6 +12,8 @@ ms.keywords: IMFSourceBuffer interface [Media Foundation],SetTimeStampOffset met
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFSourceBuffer.SetTimeStampOffset"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

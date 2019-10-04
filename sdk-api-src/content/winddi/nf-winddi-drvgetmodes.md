@@ -12,6 +12,8 @@ ms.keywords: DrvGetModes, DrvGetModes function [Display Devices], ddifncs_2dfdc7
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvGetModes"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

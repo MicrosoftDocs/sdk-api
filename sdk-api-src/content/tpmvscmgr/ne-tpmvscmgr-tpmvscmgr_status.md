@@ -12,6 +12,8 @@ ms.keywords: TPMVSCMGR_STATUS, TPMVSCMGR_STATUS enumeration [Security], TPMVSCMG
 ms.topic: enum
 f1_keywords: 
  - "tpmvscmgr/TPMVSCMGR_STATUS"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

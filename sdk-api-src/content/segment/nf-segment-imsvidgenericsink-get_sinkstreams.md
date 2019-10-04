@@ -12,6 +12,8 @@ ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStr
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidGenericSink.get_SinkStreams"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

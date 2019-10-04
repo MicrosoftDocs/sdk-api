@@ -12,6 +12,8 @@ ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IObjectControl.CanBePooled"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

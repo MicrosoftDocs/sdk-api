@@ -12,6 +12,8 @@ ms.keywords: '*PIMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE
 ms.topic: enum
 f1_keywords:
 - imapi2/IMAPI_MODE_PAGE_TYPE
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

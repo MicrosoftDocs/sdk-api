@@ -12,6 +12,8 @@ ms.keywords: WPC_ARGS_IMCONTACTEVENT, WPC_ARGS_IMCONTACTEVENT enumeration, WPC_A
 ms.topic: enum
 f1_keywords: 
  - "wpcevent/WPC_ARGS_IMCONTACTEVENT"
+dev_langs:
+ - c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

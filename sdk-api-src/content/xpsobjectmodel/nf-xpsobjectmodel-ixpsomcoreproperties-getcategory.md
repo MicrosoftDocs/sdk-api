@@ -12,6 +12,8 @@ ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetC
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMCoreProperties.GetCategory"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

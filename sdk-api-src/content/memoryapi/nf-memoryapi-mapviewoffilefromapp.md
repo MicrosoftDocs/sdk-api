@@ -12,6 +12,8 @@ ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_LARGE_PAGES, FILE_MAP_
 ms.topic: function
 f1_keywords:
 - memoryapi/MapViewOfFileFromApp
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

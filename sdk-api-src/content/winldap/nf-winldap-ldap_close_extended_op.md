@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_close_extended_op, ldap.ldap__close__extended__op, ldap
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_close_extended_op"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

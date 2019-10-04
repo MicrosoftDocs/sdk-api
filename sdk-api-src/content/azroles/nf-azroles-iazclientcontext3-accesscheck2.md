@@ -12,6 +12,8 @@ ms.keywords: AccessCheck2, AccessCheck2 method [Security], AccessCheck2 method [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext3.AccessCheck2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

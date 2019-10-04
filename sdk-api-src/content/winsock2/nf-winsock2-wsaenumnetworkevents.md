@@ -12,6 +12,8 @@ ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win
 ms.topic: function
 f1_keywords:
 - winsock2/WSAEnumNetworkEvents
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

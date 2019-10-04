@@ -12,6 +12,8 @@ ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSync
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfReportSyncStatus"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

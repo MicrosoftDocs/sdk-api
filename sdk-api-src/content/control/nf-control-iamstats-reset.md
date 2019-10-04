@@ -12,6 +12,8 @@ ms.keywords: IAMStats interface [DirectShow],Reset method, IAMStats.Reset, IAMSt
 ms.topic: method
 f1_keywords: 
  - "control/IAMStats.Reset"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

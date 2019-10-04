@@ -12,6 +12,8 @@ ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],Rect class
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Contains"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

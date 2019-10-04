@@ -12,6 +12,8 @@ ms.keywords: CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, CPCFO_NUMBERS_ONLY, CPCFPO
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

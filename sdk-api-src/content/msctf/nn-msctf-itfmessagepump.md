@@ -12,6 +12,8 @@ ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework],
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfMessagePump"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

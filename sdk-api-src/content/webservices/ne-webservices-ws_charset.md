@@ -12,6 +12,8 @@ ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_C
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_CHARSET"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

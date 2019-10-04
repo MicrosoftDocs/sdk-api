@@ -12,6 +12,8 @@ ms.keywords: IMPEG2PIDMap interface [DirectShow],MapPID method, IMPEG2PIDMap.Map
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IMPEG2PIDMap.MapPID"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

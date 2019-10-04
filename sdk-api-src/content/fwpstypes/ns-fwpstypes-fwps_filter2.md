@@ -12,6 +12,8 @@ ms.keywords: FWPS_FILTER2, FWPS_FILTER2 structure [Network Drivers Starting with
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_FILTER2"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

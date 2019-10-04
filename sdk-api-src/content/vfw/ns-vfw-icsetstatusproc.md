@@ -12,6 +12,8 @@ ms.keywords: ICSETSTATUSPROC, ICSETSTATUSPROC structure [Windows Multimedia], mu
 ms.topic: struct
 f1_keywords: 
  - "vfw/ICSETSTATUSPROC"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

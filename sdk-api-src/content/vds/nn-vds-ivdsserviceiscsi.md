@@ -12,6 +12,8 @@ ms.keywords: IVdsServiceIscsi, IVdsServiceIscsi interface [VDS], IVdsServiceIscs
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsServiceIscsi"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

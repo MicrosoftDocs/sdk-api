@@ -12,6 +12,8 @@ ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], En
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSinkEvent2.EncryptionOff"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

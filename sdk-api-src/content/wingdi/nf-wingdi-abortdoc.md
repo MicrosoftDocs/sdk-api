@@ -12,6 +12,8 @@ ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abo
 ms.topic: function
 f1_keywords: 
  - "wingdi/AbortDoc"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

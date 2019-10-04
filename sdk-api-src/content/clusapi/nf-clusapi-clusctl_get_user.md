@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusap
 ms.topic: macro
 f1_keywords: 
  - "clusapi/CLUSCTL_GET_USER"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

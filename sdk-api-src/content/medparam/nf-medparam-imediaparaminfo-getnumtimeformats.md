@@ -12,6 +12,8 @@ ms.keywords: GetNumTimeFormats, GetNumTimeFormats method [DirectShow], GetNumTim
 ms.topic: method
 f1_keywords: 
  - "medparam/IMediaParamInfo.GetNumTimeFormats"
+dev_langs:
+ - c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

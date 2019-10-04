@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],Interpolate
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationInterpolator2.InterpolateVelocity"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

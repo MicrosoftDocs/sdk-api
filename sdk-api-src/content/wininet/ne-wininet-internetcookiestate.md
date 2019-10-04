@@ -12,6 +12,8 @@ ms.keywords: COOKIE_STATE_ACCEPT, COOKIE_STATE_DOWNGRADE, COOKIE_STATE_LEASH, CO
 ms.topic: enum
 f1_keywords: 
  - "wininet/InternetCookieState"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

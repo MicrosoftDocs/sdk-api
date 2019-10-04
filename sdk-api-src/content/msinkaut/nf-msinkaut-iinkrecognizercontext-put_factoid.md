@@ -12,6 +12,8 @@ ms.keywords: 11a76706-e2e5-4ae5-bdc2-5354514ea29f, Factoid property [Tablet PC],
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.Factoid"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

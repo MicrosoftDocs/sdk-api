@@ -12,6 +12,8 @@ ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncHelpStringContext me
 ms.topic: method
 f1_keywords: 
  - "oaidl/ICreateTypeInfo2.SetFuncHelpStringContext"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

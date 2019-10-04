@@ -12,6 +12,8 @@ ms.keywords: "*PWNV_IP_ADDRESS, PWNV_IP_ADDRESS, PWNV_IP_ADDRESS structure point
 ms.topic: struct
 f1_keywords: 
  - "wnvapi/WNV_IP_ADDRESS"
+dev_langs:
+ - c++
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

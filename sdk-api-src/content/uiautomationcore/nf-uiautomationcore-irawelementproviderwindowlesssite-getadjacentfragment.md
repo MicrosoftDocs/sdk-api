@@ -12,6 +12,8 @@ ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderWindowlessSite.GetAdjacentFragment"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],MultiLine property, IInkEdit.MultiLi
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.MultiLine"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

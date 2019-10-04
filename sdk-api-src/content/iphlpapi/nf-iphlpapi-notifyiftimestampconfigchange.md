@@ -12,6 +12,8 @@ ms.keywords: NotifyIfTimestampConfigChange, NotifyIfTimestampConfigChange functi
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/NotifyIfTimestampConfigChange"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

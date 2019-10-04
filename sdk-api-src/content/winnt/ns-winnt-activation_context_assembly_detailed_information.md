@@ -12,6 +12,8 @@ ms.keywords: "*PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CON
 ms.topic: struct
 f1_keywords: 
  - "winnt/ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

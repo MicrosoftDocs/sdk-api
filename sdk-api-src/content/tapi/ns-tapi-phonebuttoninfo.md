@@ -12,6 +12,8 @@ ms.keywords: "*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure
 ms.topic: struct
 f1_keywords: 
  - "tapi/PHONEBUTTONINFO"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

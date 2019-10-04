@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE, 
 ms.topic: enum
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_QUERY_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetImageReferenceForValue, GetImageReferenceForValue method [Window
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertyDescription2.GetImageReferenceForValue"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

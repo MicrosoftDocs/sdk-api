@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA, CRYPT_TIMESTAMP_PARA
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_TIMESTAMP_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

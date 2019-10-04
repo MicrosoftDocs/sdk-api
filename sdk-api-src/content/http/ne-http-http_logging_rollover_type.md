@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumera
 ms.topic: enum
 f1_keywords:
 - http/HTTP_LOGGING_ROLLOVER_TYPE
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

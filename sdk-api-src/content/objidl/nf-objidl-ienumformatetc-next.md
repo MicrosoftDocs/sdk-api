@@ -12,6 +12,8 @@ ms.keywords: IEnumFORMATETC interface [COM],Next method, IEnumFORMATETC.Next, IE
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumFORMATETC.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

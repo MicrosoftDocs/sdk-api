@@ -12,6 +12,8 @@ ms.keywords: GetFormatRenderingProfiles, GetFormatRenderingProfiles method [Wind
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

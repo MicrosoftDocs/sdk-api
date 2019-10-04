@@ -12,6 +12,8 @@ ms.keywords: 88e24adb-ffd5-8d00-851b-316db16c8da8, AsSampler, AsSampler method [
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVariable.AsSampler"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset me
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Reset"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

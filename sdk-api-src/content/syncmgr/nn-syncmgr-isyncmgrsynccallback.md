@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncCallback"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

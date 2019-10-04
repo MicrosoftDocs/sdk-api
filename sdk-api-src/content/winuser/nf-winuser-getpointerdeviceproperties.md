@@ -12,6 +12,8 @@ ms.keywords: GetPointerDeviceProperties, GetPointerDeviceProperties function, in
 ms.topic: function
 f1_keywords: 
  - "winuser/GetPointerDeviceProperties"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportTftpManager interface [Windows Deployment Services],Re
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpManager.RetrieveTftpClients"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

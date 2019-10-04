@@ -12,6 +12,8 @@ ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketEndClientHandshake
+dev_langs:
+ - c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

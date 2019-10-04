@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_METADATA, WS_SERVICE_METADATA structure [Web Services fo
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_SERVICE_METADATA"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_ID_INFO, FILE_ID_INFO, FILE_ID_INFO structure [Files], PFIL
 ms.topic: struct
 f1_keywords:
 - winbase/FILE_ID_INFO
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

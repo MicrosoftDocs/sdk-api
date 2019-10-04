@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey me
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineNeedKeyNotify.NeedKey"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

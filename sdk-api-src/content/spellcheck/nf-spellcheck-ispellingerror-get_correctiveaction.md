@@ -12,6 +12,8 @@ ms.keywords: CorrectiveAction property [Internationalization for Windows Applica
 ms.topic: method
 f1_keywords: 
  - "spellcheck/ISpellingError.CorrectiveAction"
+dev_langs:
+ - c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

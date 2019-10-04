@@ -12,6 +12,8 @@ ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [Desktop Win
 ms.topic: struct
 f1_keywords: 
  - "dwmapi/MilMatrix3x2D"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

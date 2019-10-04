@@ -12,6 +12,8 @@ ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.
 ms.topic: function
 f1_keywords: 
  - "qos2/QOSStartTrackingClient"
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddc
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageAddCertificate"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

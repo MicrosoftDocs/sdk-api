@@ -12,6 +12,8 @@ ms.keywords: IFaxPort interface [Fax Service],Receive property, IFaxPort.Receive
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.Receive"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifyc
 ms.topic: function
 f1_keywords: 
  - "winbase/NotifyChangeEventLog"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IBDA_DigitalDemodulator2.get_TransmissionMode"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

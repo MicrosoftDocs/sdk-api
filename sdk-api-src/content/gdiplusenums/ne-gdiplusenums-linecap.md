@@ -12,6 +12,8 @@ ms.keywords: LineCap, LineCap enumeration [GDI+], LineCapArrowAnchor, LineCapCus
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/LineCap"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

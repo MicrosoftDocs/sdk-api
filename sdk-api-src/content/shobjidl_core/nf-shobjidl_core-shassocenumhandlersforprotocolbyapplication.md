@@ -12,6 +12,8 @@ ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersFor
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHAssocEnumHandlersForProtocolByApplication"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

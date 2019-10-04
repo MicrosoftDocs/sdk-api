@@ -12,6 +12,8 @@ ms.keywords: WSD_CONFIG_DEVICE_ADDRESSES, WSD_CONFIG_HOSTING_ADDRESSES, WSD_CONF
 ms.topic: enum
 f1_keywords:
 - wsdbase/WSD_CONFIG_PARAM_TYPE
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

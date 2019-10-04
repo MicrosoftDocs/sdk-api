@@ -12,6 +12,8 @@ ms.keywords: HatchBrush, HatchBrush class [GDI+], HatchBrush class [GDI+],descri
 ms.topic: class
 f1_keywords: 
  - "gdiplusbrush/HatchBrush"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

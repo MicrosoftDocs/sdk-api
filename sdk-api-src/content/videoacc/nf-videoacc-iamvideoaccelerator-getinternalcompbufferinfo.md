@@ -12,6 +12,8 @@ ms.keywords: GetInternalCompBufferInfo, GetInternalCompBufferInfo method [Direct
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetInternalCompBufferInfo
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

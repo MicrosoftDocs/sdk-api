@@ -12,6 +12,8 @@ ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBal
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunMpio.GetLoadBalancePolicy
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

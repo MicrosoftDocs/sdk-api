@@ -12,6 +12,8 @@ ms.keywords: GetIconPath, GetIconPath method [Core Audio], GetIconPath method [C
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.GetIconPath"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

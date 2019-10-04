@@ -12,6 +12,8 @@ ms.keywords: VariantGetElementCount, VariantGetElementCount function [Windows Pr
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantGetElementCount"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_SHELL_ASYNC, WSMAN_SHELL_ASYNC structure [Windows Remote Mana
 ms.topic: struct
 f1_keywords: 
  - "wsman/WSMAN_SHELL_ASYNC"
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

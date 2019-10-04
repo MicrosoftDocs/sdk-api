@@ -12,6 +12,8 @@ ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressIte
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IProgressItem.get_BlockCount"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

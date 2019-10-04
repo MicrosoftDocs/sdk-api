@@ -12,6 +12,8 @@ ms.keywords: Backup, Backup method [Windows Management Instrumentation], Backup 
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemBackupRestore.Backup"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

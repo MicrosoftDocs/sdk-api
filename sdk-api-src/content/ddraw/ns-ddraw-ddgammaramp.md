@@ -12,6 +12,8 @@ ms.keywords: "*LPDDGAMMARAMP, DDGAMMARAMP, DDGAMMARAMP structure [DirectDraw], L
 ms.topic: struct
 f1_keywords: 
  - "ddraw/DDGAMMARAMP"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

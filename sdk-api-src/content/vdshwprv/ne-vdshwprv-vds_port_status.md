@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [V
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_PORT_STATUS
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

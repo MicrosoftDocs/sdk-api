@@ -12,6 +12,8 @@ ms.keywords: "*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [
 ms.topic: struct
 f1_keywords: 
  - "vdshwprv/VDS_DRIVE_EXTENT"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Flags property [Security], Flags property [Security],IX509PolicySer
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PolicyServerUrl.Flags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

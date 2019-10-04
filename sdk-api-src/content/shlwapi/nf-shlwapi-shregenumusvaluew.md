@@ -12,6 +12,8 @@ ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegE
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegEnumUSValue"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

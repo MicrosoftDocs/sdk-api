@@ -12,6 +12,8 @@ ms.keywords: IsInternetESCEnabled, IsInternetESCEnabled function [Windows Shell]
 ms.topic: function
 f1_keywords: 
  - "shlwapi/IsInternetESCEnabled"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

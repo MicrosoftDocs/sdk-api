@@ -12,6 +12,8 @@ ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, 
 ms.topic: function
 f1_keywords: 
  - "wingdi/SetBoundsRect"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

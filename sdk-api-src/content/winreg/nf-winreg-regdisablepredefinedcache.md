@@ -12,6 +12,8 @@ ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win
 ms.topic: function
 f1_keywords: 
  - "winreg/RegDisablePredefinedCache"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

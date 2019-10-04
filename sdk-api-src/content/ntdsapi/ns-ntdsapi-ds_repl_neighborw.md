@@ -12,6 +12,8 @@ ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, D
 ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_NEIGHBOR
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

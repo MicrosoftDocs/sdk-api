@@ -12,6 +12,8 @@ ms.keywords: DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanc
 ms.topic: function
 f1_keywords: 
  - "ntdsapi/DsBindByInstance"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

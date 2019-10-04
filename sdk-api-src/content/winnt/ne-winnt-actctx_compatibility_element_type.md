@@ -12,6 +12,8 @@ ms.keywords: ACTCTX_COMPATIBILITY_ELEMENT_TYPE, ACTCTX_COMPATIBILITY_ELEMENT_TYP
 ms.topic: enum
 f1_keywords: 
  - "winnt/ACTCTX_COMPATIBILITY_ELEMENT_TYPE"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveOutClose, mmeapi/waveOutClose, multimedia.waveoutclose,
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveOutClose"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

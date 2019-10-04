@@ -12,6 +12,8 @@ ms.keywords: PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjF
 ms.topic: struct
 f1_keywords: 
  - "projectedfslib/PRJ_NOTIFICATION_MAPPING"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

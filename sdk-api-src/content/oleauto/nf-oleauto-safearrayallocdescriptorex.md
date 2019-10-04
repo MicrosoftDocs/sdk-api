@@ -12,6 +12,8 @@ ms.keywords: SafeArrayAllocDescriptorEx, SafeArrayAllocDescriptorEx function [Au
 ms.topic: function
 f1_keywords: 
  - "oleauto/SafeArrayAllocDescriptorEx"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSANtohl, WSANtohl function [Winsock], _win32_wsantohl_2, winsock.w
 ms.topic: function
 f1_keywords: 
  - "winsock2/WSANtohl"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

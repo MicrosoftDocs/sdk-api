@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [I
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpStatisticsEx
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

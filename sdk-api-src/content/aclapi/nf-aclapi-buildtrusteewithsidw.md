@@ -12,6 +12,8 @@ ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], Build
 ms.topic: function
 f1_keywords:
 - aclapi/BuildTrusteeWithSid
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

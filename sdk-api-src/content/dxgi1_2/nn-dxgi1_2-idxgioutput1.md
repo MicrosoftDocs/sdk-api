@@ -12,6 +12,8 @@ ms.keywords: IDXGIOutput1, IDXGIOutput1 interface [DXGI], IDXGIOutput1 interface
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_2/IDXGIOutput1"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

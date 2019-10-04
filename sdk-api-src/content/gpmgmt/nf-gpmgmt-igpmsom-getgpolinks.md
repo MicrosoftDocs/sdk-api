@@ -12,6 +12,8 @@ ms.keywords: GPMSOM class [GPMC],GetGPOLinks method, GetGPOLinks, GetGPOLinks me
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMSOM.GetGPOLinks"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

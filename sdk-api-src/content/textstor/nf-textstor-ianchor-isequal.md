@@ -12,6 +12,8 @@ ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.IsEqual"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

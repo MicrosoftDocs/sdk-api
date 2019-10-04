@@ -12,6 +12,8 @@ ms.keywords: GetVersion, GetVersion method [GDI+], GetVersion method [GDI+],Meta
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetVersion"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, A
 ms.topic: struct
 f1_keywords:
 - wincrypt/_CERT_CHAIN_FIND_BY_ISSUER_PARA
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

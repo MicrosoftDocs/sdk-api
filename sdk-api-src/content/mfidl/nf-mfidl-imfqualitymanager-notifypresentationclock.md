@@ -12,6 +12,8 @@ ms.keywords: IMFQualityManager interface [Media Foundation],NotifyPresentationCl
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFQualityManager.NotifyPresentationClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

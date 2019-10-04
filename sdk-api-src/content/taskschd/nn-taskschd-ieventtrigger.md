@@ -12,6 +12,8 @@ ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrig
 ms.topic: interface
 f1_keywords:
 - taskschd/IEventTrigger
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

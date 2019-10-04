@@ -12,6 +12,8 @@ ms.keywords: IUICollection, IUICollection interface [Windows Ribbon], IUICollect
 ms.topic: interface
 f1_keywords: 
  - "uiribbon/IUICollection"
+dev_langs:
+ - c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

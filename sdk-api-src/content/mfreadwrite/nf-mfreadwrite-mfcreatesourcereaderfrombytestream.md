@@ -12,6 +12,8 @@ ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStr
 ms.topic: function
 f1_keywords: 
  - "mfreadwrite/MFCreateSourceReaderFromByteStream"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_U
 ms.topic: macro
 f1_keywords: 
  - "shlwapi/UrlEscapeSpaces"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

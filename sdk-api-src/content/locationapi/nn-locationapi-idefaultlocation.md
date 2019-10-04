@@ -12,6 +12,8 @@ ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaul
 ms.topic: interface
 f1_keywords: 
  - "locationapi/IDefaultLocation"
+dev_langs:
+ - c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

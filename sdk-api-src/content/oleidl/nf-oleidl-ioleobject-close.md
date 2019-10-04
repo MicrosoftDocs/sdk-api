@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface,
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleObject.Close"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

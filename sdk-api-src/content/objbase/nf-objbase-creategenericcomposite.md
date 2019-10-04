@@ -12,6 +12,8 @@ ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com
 ms.topic: function
 f1_keywords: 
  - "objbase/CreateGenericComposite"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

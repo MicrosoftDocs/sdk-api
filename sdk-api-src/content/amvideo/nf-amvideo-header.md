@@ -12,6 +12,8 @@ ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header
 ms.topic: macro
 f1_keywords: 
  - "amvideo/HEADER"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

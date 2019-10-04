@@ -12,6 +12,8 @@ ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle m
 ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateSharedHandle
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStringData, GetStringData method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "tuner/IESEvent.GetStringData"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

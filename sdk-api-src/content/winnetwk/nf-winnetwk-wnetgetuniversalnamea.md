@@ -12,6 +12,8 @@ ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversal
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetGetUniversalName"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

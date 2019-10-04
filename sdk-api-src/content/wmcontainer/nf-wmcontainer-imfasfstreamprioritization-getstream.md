@@ -12,6 +12,8 @@ ms.keywords: 460a929b-71bf-4f41-9e7a-af04a8f1c10f, GetStream, GetStream method [
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamPrioritization.GetStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

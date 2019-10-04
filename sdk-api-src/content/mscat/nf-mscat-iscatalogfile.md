@@ -12,6 +12,8 @@ ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFi
 ms.topic: function
 f1_keywords: 
  - "mscat/IsCatalogFile"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

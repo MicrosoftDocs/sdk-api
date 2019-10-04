@@ -12,6 +12,8 @@ ms.keywords: GetLanguageException, GetLanguageException method [Windows Runtime]
 ms.topic: method
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionErrorInfo.GetLanguageException"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

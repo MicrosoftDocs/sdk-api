@@ -12,6 +12,8 @@ ms.keywords: EnumFormatEtc, EnumFormatEtc method [COM], EnumFormatEtc method [CO
 ms.topic: method
 f1_keywords: 
  - "objidl/IDataObject.EnumFormatEtc"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

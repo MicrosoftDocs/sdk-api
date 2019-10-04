@@ -12,6 +12,8 @@ ms.keywords: '*PPS_ADAPTER_STATS, PPS_ADAPTER_STATS, PPS_ADAPTER_STATS structure
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_ADAPTER_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

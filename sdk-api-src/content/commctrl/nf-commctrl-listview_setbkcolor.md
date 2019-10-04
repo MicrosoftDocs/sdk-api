@@ -12,6 +12,8 @@ ms.keywords: ListView_SetBkColor, ListView_SetBkColor macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetBkColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontSize method, IDWr
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextLayout.SetFontSize"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

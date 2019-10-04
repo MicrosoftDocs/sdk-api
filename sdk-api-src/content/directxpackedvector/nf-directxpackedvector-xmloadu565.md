@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadU565, XMLoadU565, XMLoadU565 method [Di
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadU565"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

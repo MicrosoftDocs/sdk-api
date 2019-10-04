@@ -12,6 +12,8 @@ ms.keywords: PdhOpenQuery, PdhOpenQuery function [Perf], PdhOpenQueryA, PdhOpenQ
 ms.topic: function
 f1_keywords:
 - pdh/PdhOpenQuery
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

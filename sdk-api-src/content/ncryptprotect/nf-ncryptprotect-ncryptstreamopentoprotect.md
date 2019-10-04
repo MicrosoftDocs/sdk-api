@@ -12,6 +12,8 @@ ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToProtect, NCryptStreamOpenToPr
 ms.topic: function
 f1_keywords: 
  - "ncryptprotect/NCryptStreamOpenToProtect"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

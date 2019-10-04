@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_PAIR, CERT_PAIR, CERT_PAIR structure [Security], PCERT_PAIR
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_PAIR"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

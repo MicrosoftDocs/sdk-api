@@ -12,6 +12,8 @@ ms.keywords: CoRegisterChannelHook, CoRegisterChannelHook function [COM], com.co
 ms.topic: function
 f1_keywords: 
  - "objbase/CoRegisterChannelHook"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

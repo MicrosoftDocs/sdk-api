@@ -12,6 +12,8 @@ ms.keywords: Region, Region class [GDI+], Region class [GDI+],described, _gdiplu
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/Region"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStre
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.AddInputStreams"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

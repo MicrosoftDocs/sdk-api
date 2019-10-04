@@ -12,6 +12,8 @@ ms.keywords: FwpmLayerGetSecurityInfoByKey0, FwpmLayerGetSecurityInfoByKey0 func
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmLayerGetSecurityInfoByKey0
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], I
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPISharingSession"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

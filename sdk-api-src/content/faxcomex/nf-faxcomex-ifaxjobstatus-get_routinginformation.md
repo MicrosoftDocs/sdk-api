@@ -12,6 +12,8 @@ ms.keywords: IFaxJobStatus interface [Fax Service],RoutingInformation property, 
 ms.topic: method
 f1_keywords:
 - faxcomex/IFaxJobStatus.RoutingInformation
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector2NormalizeEst, XMVector2NormalizeEst, XMVector
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector2NormalizeEst"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetScheduleEntryIDs"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

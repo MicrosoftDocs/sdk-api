@@ -12,6 +12,8 @@ ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_Spectral
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSTuningSpace.get_SpectralInversion"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

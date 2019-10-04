@@ -12,6 +12,8 @@ ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSA
 ms.topic: callback
 f1_keywords: 
  - "msi/INSTALLUI_HANDLER"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

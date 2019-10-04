@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReader interface [Media Foundation],SetStreamSelection met
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReader.SetStreamSelection"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

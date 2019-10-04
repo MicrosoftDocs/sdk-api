@@ -12,6 +12,8 @@ ms.keywords: '*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCE
 ms.topic: struct
 f1_keywords:
 - werapi/WER_EXCEPTION_INFORMATION
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

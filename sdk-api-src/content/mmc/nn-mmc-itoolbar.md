@@ -12,6 +12,8 @@ ms.keywords: IToolbar, IToolbar interface [MMC], IToolbar interface [MMC],descri
 ms.topic: interface
 f1_keywords: 
  - "mmc/IToolbar"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

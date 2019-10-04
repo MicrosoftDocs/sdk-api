@@ -12,6 +12,8 @@ ms.keywords: GetDesktopItem, GetDesktopItem method [Legacy Windows Environment F
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.GetDesktopItem
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDeskBand2 interface [Windows Shell],SetCompositionState method, ID
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IDeskBand2.SetCompositionState"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

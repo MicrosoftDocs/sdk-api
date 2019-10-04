@@ -12,6 +12,8 @@ ms.keywords: CdromEnableDigitalPlayback, CdromEnableDigitalPlayback function, ba
 ms.topic: function
 f1_keywords: 
  - "storprop/CdromEnableDigitalPlayback"
+dev_langs:
+ - c++
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows

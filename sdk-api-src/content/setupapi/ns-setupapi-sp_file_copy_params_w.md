@@ -12,6 +12,8 @@ ms.keywords: "*PSP_FILE_COPY_PARAMS_W, PSP_FILE_COPY_PARAMS, PSP_FILE_COPY_PARAM
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_FILE_COPY_PARAMS"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

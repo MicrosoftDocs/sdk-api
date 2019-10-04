@@ -12,6 +12,8 @@ ms.keywords: IAMNetworkStatus interface [DirectShow],get_LostPackets method, IAM
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetworkStatus.get_LostPackets"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

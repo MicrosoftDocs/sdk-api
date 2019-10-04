@@ -12,6 +12,8 @@ ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSour
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetCrossOriginSupport.GetSourceOrigin"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

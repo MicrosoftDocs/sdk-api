@@ -12,6 +12,8 @@ ms.keywords: GetSecurityDescriptorSacl, GetSecurityDescriptorSacl function [Secu
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSecurityDescriptorSacl
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

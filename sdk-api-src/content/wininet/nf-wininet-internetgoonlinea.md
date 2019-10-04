@@ -12,6 +12,8 @@ ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline funct
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetGoOnline"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows

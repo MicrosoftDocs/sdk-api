@@ -12,6 +12,8 @@ ms.keywords: IWebBrowser2 interface [Windows API],TheaterMode property, IWebBrow
 ms.topic: method
 f1_keywords: 
  - "exdisp/IWebBrowser2.TheaterMode"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

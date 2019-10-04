@@ -12,6 +12,8 @@ ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnCl
 ms.topic: method
 f1_keywords: 
  - "tsvirtualchannels/IWTSVirtualChannelCallback.OnClose"
+dev_langs:
+ - c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [W
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/IPV6_MREQ"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE str
 ms.topic: struct
 f1_keywords: 
  - "raseapif/RAS_AUTH_ATTRIBUTE"
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

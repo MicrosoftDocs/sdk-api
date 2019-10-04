@@ -12,6 +12,8 @@ ms.keywords: CoRegisterInitializeSpy, CoRegisterInitializeSpy function [COM], _c
 ms.topic: function
 f1_keywords: 
  - "objbase/CoRegisterInitializeSpy"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

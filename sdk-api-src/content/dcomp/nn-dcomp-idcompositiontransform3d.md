@@ -12,6 +12,8 @@ ms.keywords: IDCompositionTransform3D, IDCompositionTransform3D interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "dcomp/IDCompositionTransform3D"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

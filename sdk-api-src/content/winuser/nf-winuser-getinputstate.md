@@ -12,6 +12,8 @@ ms.keywords: GetInputState, GetInputState function [Windows and Messages], _win3
 ms.topic: function
 f1_keywords: 
  - "winuser/GetInputState"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

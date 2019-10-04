@@ -12,6 +12,8 @@ ms.keywords: 22dd44bb-2175-420f-b5fd-4648ebe489a5, IEF_CopyFromOriginal, IEF_Def
 ms.topic: enum
 f1_keywords: 
  - "msinkaut/InkExtractFlags"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

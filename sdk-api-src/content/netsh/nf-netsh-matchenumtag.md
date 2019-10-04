@@ -12,6 +12,8 @@ ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag
 ms.topic: function
 f1_keywords: 
  - "netsh/MatchEnumTag"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], sec
 ms.topic: function
 f1_keywords:
 - securitybaseapi/CheckTokenCapability
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

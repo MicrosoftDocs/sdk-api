@@ -12,6 +12,8 @@ ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntri
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntry.GetSubEntries"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

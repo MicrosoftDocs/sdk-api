@@ -12,6 +12,8 @@ ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_N
 ms.topic: function
 f1_keywords: 
  - "clusapi/SetClusterNetworkPriorityOrder"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

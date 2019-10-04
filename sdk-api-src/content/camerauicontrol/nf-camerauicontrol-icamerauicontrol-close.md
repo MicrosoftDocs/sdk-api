@@ -12,6 +12,8 @@ ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICame
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.Close"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_CONFIGURED, CLUSTER_INSTALLED, CLUSTER_RUNNING, ClusterStat
 ms.topic: enum
 f1_keywords: 
  - "clusapi/NODE_CLUSTER_STATE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.coge
 ms.topic: function
 f1_keywords: 
  - "objbase/CoGetObject"
+dev_langs:
+ - c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

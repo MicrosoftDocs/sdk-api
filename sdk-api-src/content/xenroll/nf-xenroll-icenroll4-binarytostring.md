@@ -12,6 +12,8 @@ ms.keywords: CEnroll object [Security],binaryToString method, ICEnroll4 interfac
 ms.topic: method
 f1_keywords: 
  - "xenroll/ICEnroll4.binaryToString"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

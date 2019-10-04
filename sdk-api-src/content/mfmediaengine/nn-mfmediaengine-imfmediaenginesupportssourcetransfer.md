@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceT
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineSupportsSourceTransfer"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

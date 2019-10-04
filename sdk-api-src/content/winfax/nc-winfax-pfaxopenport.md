@@ -12,6 +12,8 @@ ms.keywords: FaxOpenPortA, FaxOpenPortW, PFAXOPENPORT, PFAXOPENPORT callback, PF
 ms.topic: callback
 f1_keywords:
 - winfax/PFAXOPENPORT
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

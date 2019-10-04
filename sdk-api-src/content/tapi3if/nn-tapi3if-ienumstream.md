@@ -12,6 +12,8 @@ ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interfac
 ms.topic: interface
 f1_keywords: 
  - "tapi3if/IEnumStream"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

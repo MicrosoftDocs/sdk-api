@@ -12,6 +12,8 @@ ms.keywords: GetMenu, GetMenu function [Menus and Other Resources], _win32_GetMe
 ms.topic: function
 f1_keywords: 
  - "winuser/GetMenu"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

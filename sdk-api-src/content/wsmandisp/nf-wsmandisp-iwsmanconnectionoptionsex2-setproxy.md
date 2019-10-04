@@ -12,6 +12,8 @@ ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],Se
 ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManConnectionOptionsEx2.SetProxy
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

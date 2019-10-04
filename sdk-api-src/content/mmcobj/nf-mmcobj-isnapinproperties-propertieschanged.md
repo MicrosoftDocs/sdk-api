@@ -12,6 +12,8 @@ ms.keywords: ISnapinProperties interface [MMC],PropertiesChanged method, ISnapin
 ms.topic: method
 f1_keywords:
 - mmcobj/ISnapinProperties.PropertiesChanged
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

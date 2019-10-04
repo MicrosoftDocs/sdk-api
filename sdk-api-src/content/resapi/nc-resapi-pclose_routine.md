@@ -12,6 +12,8 @@ ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE call
 ms.topic: callback
 f1_keywords: 
  - "resapi/PCLOSE_ROUTINE"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

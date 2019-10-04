@@ -12,6 +12,8 @@ ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method,
 ms.topic: method
 f1_keywords: 
  - "objidlbase/IComThreadingInfo.SetCurrentLogicalThreadId"
+dev_langs:
+ - c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

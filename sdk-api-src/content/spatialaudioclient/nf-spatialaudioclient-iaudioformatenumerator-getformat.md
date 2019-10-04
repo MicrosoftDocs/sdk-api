@@ -12,6 +12,8 @@ ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Au
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/IAudioFormatEnumerator.GetFormat"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPFN_RIODEQUEUECOMPLETION
 ms.topic: language-reference
 f1_keywords: 
  - "mswsock/LPFN_RIODEQUEUECOMPLETION"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

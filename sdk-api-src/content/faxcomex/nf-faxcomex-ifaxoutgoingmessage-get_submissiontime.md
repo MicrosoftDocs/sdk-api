@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionTime property
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.SubmissionTime"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionId property, 
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingMessage.SubmissionId"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

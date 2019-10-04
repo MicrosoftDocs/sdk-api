@@ -12,6 +12,8 @@ ms.keywords: 1d5dd378-d11b-3553-f1bc-769225c1c1c5, ID3D10EffectVectorVariable, I
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectVectorVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

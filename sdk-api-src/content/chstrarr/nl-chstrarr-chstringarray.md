@@ -12,6 +12,8 @@ ms.keywords: "??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray
 ms.topic: class
 f1_keywords: 
  - "chstrarr/CHStringArray"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

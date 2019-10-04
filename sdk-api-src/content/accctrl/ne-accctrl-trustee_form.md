@@ -12,6 +12,8 @@ ms.keywords: TRUSTEE_BAD_FORM, TRUSTEE_FORM, TRUSTEE_FORM enumeration [Security]
 ms.topic: enum
 f1_keywords: 
  - "accctrl/TRUSTEE_FORM"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

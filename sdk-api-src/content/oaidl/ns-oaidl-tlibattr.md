@@ -12,6 +12,8 @@ ms.keywords: "*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation]
 ms.topic: struct
 f1_keywords: 
  - "oaidl/TLIBATTR"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

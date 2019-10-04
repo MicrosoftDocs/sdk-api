@@ -12,6 +12,8 @@ ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],des
 ms.topic: interface
 f1_keywords: 
  - "vss/IVssAsync"
+dev_langs:
+ - c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

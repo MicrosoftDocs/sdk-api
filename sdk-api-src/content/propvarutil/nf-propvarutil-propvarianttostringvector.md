@@ -12,6 +12,8 @@ ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToStringVector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

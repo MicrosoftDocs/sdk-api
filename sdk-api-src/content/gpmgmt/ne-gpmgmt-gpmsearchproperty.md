@@ -12,6 +12,8 @@ ms.keywords: GPMSearchProperty, GPMSearchProperty enumeration [GPMC], backupMost
 ms.topic: enum
 f1_keywords: 
  - "gpmgmt/GPMSearchProperty"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

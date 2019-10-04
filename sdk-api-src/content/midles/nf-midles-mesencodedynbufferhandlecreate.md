@@ -12,6 +12,8 @@ ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate func
 ms.topic: function
 f1_keywords: 
  - "midles/MesEncodeDynBufferHandleCreate"
+dev_langs:
+ - c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

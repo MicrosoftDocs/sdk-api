@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWROW.Next"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

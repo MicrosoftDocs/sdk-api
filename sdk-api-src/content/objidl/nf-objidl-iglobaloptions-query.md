@@ -12,6 +12,8 @@ ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, 
 ms.topic: method
 f1_keywords: 
  - "objidl/IGlobalOptions.Query"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

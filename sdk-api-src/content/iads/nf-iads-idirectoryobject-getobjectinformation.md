@@ -12,6 +12,8 @@ ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObject
 ms.topic: method
 f1_keywords:
 - iads/IDirectoryObject.GetObjectInformation
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

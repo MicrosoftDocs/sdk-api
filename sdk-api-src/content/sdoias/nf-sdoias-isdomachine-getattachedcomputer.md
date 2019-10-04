@@ -12,6 +12,8 @@ ms.keywords: GetAttachedComputer, GetAttachedComputer method [Network Policy Ser
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoMachine.GetAttachedComputer"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

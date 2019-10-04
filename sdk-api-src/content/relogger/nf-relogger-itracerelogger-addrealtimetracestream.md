@@ -12,6 +12,8 @@ ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRea
 ms.topic: method
 f1_keywords: 
  - "relogger/ITraceRelogger.AddRealtimeTraceStream"
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

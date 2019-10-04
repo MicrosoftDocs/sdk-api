@@ -12,6 +12,8 @@ ms.keywords: D3D11_BUFFER_UAV, D3D11_BUFFER_UAV structure [Direct3D 11], c807105
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_BUFFER_UAV"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CharacterRange, CharacterRange class [GDI+], CharacterRange class [
 ms.topic: class
 f1_keywords: 
  - "gdiplustypes/CharacterRange"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

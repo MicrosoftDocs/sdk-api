@@ -12,6 +12,8 @@ ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpd
 ms.topic: method
 f1_keywords: 
  - "ctffunc/IUIManagerEventSink.OnWindowUpdated"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

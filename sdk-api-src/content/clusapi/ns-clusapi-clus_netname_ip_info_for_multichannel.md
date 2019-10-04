@@ -12,6 +12,8 @@ ms.keywords: "*PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, CLUS_NETNAME_IP_INFO_FOR_
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

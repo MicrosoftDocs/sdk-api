@@ -12,6 +12,8 @@ ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Sh
 ms.topic: function
 f1_keywords: 
  - "userenv/CreateEnvironmentBlock"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

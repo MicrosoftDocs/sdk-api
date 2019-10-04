@@ -12,6 +12,8 @@ ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsTr
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreAnchor.RequestAttrsTransitioningAtPosition"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

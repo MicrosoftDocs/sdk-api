@@ -12,6 +12,8 @@ ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Registr
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceRegistration.RegistrationState"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

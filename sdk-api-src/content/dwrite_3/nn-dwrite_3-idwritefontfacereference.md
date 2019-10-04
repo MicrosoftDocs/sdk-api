@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFaceReference, IDWriteFontFaceReference interface [Direc
 ms.topic: interface
 f1_keywords: 
  - "dwrite_3/IDWriteFontFaceReference"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

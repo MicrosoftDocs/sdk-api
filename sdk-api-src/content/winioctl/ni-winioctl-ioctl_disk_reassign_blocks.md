@@ -12,6 +12,8 @@ ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control, IOC
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_REASSIGN_BLOCKS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

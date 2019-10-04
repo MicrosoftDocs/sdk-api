@@ -12,6 +12,8 @@ ms.keywords: XHR_COOKIE_APPLY_P3P, XHR_COOKIE_EVALUATE_P3P, XHR_COOKIE_FLAG, XHR
 ms.topic: enum
 f1_keywords: 
  - "msxml6/XHR_COOKIE_FLAG"
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

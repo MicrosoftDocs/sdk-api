@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSetX, XMVectorSetX, XMVectorSetX method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSetX"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

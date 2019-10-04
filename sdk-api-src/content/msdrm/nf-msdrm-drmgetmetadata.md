@@ -12,6 +12,8 @@ ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Ma
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMGetMetaData"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

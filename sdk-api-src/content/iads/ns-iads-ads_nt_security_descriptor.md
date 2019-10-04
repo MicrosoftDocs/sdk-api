@@ -12,6 +12,8 @@ ms.keywords: '*PADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR, ADS_NT_S
 ms.topic: struct
 f1_keywords:
 - iads/ADS_NT_SECURITY_DESCRIPTOR
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

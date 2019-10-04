@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHD_STREAM_STATE_FRAME_FO
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

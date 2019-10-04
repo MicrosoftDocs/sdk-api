@@ -12,6 +12,8 @@ ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winp
 ms.topic: macro
 f1_keywords: 
  - "fci/FNFCISTATUS"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

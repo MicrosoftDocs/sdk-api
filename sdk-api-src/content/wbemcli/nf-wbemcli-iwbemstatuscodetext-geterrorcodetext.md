@@ -12,6 +12,8 @@ ms.keywords: GetErrorCodeText, GetErrorCodeText method [Windows Management Instr
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemStatusCodeText.GetErrorCodeText"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

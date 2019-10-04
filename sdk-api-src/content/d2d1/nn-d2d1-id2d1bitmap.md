@@ -12,6 +12,8 @@ ms.keywords: ID2D1Bitmap, ID2D1Bitmap interface [Direct2D], ID2D1Bitmap interfac
 ms.topic: interface
 f1_keywords: 
  - "d2d1/ID2D1Bitmap"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

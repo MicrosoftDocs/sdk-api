@@ -12,6 +12,8 @@ ms.keywords: GetClearTypeLevel, GetClearTypeLevel method [Direct Write], GetClea
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteRenderingParams.GetClearTypeLevel"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

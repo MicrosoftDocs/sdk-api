@@ -12,6 +12,8 @@ ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11],
 ms.topic: struct
 f1_keywords: 
  - "d3d11shadertracing/D3D11_TRACE_REGISTER"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

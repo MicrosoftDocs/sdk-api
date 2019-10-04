@@ -12,6 +12,8 @@ ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update 
 ms.topic: enum
 f1_keywords: 
  - "wuapi/InstallationImpact"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

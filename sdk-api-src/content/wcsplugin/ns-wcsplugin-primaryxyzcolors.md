@@ -12,6 +12,8 @@ ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System]
 ms.topic: struct
 f1_keywords: 
  - "wcsplugin/PrimaryXYZColors"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

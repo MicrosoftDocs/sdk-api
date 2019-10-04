@@ -12,6 +12,8 @@ ms.keywords: ID3D10Blob, ID3D10Blob interface [Direct3D 11], ID3D10Blob interfac
 ms.topic: interface
 f1_keywords: 
  - "d3dcommon/ID3D10Blob"
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

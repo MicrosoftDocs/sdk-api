@@ -12,6 +12,8 @@ ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWi
 ms.topic: function
 f1_keywords:
 - wsbonline/RegisterOnlineBackupWithWindowsServerBackup
+dev_langs:
+ - c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

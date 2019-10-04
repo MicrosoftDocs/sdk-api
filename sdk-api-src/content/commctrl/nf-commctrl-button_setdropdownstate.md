@@ -12,6 +12,8 @@ ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Button_SetDropDownState"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

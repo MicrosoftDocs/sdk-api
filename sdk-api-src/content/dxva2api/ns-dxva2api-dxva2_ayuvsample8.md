@@ -12,6 +12,8 @@ ms.keywords: 4d296764-a00a-407d-a963-62c138976ccc, DXVA2_AYUVSample8, DXVA2_AYUV
 ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_AYUVSample8
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

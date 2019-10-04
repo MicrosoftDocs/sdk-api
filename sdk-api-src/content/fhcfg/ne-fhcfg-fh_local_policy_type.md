@@ -12,6 +12,8 @@ ms.keywords: '*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOC
 ms.topic: enum
 f1_keywords:
 - fhcfg/FH_LOCAL_POLICY_TYPE
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

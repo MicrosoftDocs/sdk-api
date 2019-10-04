@@ -12,6 +12,8 @@ ms.keywords: GetRenderMode, GetRenderMode method [Windows Imaging Component], Ge
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICDevelopRaw.GetRenderMode"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

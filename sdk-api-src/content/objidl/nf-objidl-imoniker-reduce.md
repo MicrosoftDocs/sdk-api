@@ -12,6 +12,8 @@ ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::
 ms.topic: method
 f1_keywords: 
  - "objidl/IMoniker.Reduce"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

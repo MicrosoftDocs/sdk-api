@@ -12,6 +12,8 @@ ms.keywords: D3DGetDebugInfo, D3DGetDebugInfo function [HLSL], d3dcompiler/D3DGe
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DGetDebugInfo"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

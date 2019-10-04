@@ -12,6 +12,8 @@ ms.keywords: EDataFlow, EDataFlow , EDataFlow enumeration [Core Audio], EDataFlo
 ms.topic: enum
 f1_keywords: 
  - "mmdeviceapi/EDataFlow"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

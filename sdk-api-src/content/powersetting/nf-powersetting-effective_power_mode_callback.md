@@ -12,6 +12,8 @@ ms.keywords: EFFECTIVE_POWER_MODE_CALLBACK, EFFECTIVE_POWER_MODE_CALLBACK functi
 ms.topic: function
 f1_keywords: 
  - "powersetting/EFFECTIVE_POWER_MODE_CALLBACK"
+dev_langs:
+ - c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

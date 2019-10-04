@@ -12,6 +12,8 @@ ms.keywords: GetTimeSpan, GetTimeSpan method [Windows Runtime], GetTimeSpan meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetTimeSpan"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

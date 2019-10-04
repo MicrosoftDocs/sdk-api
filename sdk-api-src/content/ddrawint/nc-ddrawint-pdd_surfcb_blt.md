@@ -12,6 +12,8 @@ ms.keywords: DdBlt, DdBlt callback function [Display Devices], PDD_SURFCB_BLT, P
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdBlt
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

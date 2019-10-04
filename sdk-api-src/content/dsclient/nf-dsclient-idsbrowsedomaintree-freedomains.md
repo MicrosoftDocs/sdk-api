@@ -12,6 +12,8 @@ ms.keywords: FreeDomains, FreeDomains method [Active Directory], FreeDomains met
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsBrowseDomainTree.FreeDomains"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

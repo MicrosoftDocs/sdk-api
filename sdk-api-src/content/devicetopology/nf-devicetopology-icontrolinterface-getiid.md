@@ -12,6 +12,8 @@ ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],ICon
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IControlInterface.GetIID"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

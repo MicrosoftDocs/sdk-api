@@ -12,6 +12,8 @@ ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate,
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxNegotiate"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 5ee4f46c-762c-4acf-86ff-da7a93b5de05, MFNET_CREDENTIAL_ALLOW_CLEAR_
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MFNetCredentialOptions"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

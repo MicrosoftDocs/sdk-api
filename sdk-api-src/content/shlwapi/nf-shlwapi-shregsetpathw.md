@@ -12,6 +12,8 @@ ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA,
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHRegSetPath"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

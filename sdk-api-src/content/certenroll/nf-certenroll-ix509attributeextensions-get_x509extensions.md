@@ -12,6 +12,8 @@ ms.keywords: IX509AttributeExtensions interface [Security],X509Extensions proper
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509AttributeExtensions.X509Extensions"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

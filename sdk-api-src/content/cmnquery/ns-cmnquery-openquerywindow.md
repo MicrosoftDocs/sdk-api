@@ -12,6 +12,8 @@ ms.keywords: "*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CL
 ms.topic: struct
 f1_keywords: 
  - "cmnquery/OPENQUERYWINDOW"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

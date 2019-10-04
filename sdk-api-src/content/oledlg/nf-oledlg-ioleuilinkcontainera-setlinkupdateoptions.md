@@ -12,6 +12,8 @@ ms.keywords: IOleUILinkContainer interface [COM],SetLinkUpdateOptions method, IO
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.SetLinkUpdateOptions"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

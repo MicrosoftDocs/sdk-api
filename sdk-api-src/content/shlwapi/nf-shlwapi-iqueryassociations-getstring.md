@@ -12,6 +12,8 @@ ms.keywords: GetString, GetString method [Windows Shell], GetString method [Wind
 ms.topic: method
 f1_keywords: 
  - "shlwapi/IQueryAssociations.GetString"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

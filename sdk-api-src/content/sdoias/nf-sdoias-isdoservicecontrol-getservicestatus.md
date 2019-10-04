@@ -12,6 +12,8 @@ ms.keywords: GetServiceStatus, GetServiceStatus method [Network Policy Server], 
 ms.topic: method
 f1_keywords: 
  - "sdoias/ISdoServiceControl.GetServiceStatus"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

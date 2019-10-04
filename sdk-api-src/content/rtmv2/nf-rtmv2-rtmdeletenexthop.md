@@ -12,6 +12,8 @@ ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdel
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmDeleteNextHop
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

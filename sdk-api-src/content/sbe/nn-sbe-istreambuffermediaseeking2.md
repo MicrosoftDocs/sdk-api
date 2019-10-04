@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferMediaSeeking2, IStreamBufferMediaSeeking2 interface [M
 ms.topic: interface
 f1_keywords: 
  - "sbe/IStreamBufferMediaSeeking2"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DRMDeconstructCertificateChain, DRMDeconstructCertificateChain func
 ms.topic: function
 f1_keywords: 
  - "msdrm/DRMDeconstructCertificateChain"
+dev_langs:
+ - c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

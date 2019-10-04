@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionControl2 interface [Core Audio],SetDuckingPreference m
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl2.SetDuckingPreference"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

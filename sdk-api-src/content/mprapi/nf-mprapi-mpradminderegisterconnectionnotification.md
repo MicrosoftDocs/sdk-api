@@ -12,6 +12,8 @@ ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnect
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminDeregisterConnectionNotification"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

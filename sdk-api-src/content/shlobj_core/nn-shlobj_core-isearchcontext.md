@@ -12,6 +12,8 @@ ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchCo
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/ISearchContext"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

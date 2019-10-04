@@ -12,6 +12,8 @@ ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydisk
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiVerifyDiskSpace"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

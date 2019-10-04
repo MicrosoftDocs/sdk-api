@@ -12,6 +12,8 @@ ms.keywords: IOleInPlaceSite interface [COM],OnPosRectChange method, IOleInPlace
 ms.topic: method
 f1_keywords: 
  - "oleidl/IOleInPlaceSite.OnPosRectChange"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

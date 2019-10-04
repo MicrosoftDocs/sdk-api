@@ -12,6 +12,8 @@ ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_2W, DS_DOMAIN_CONTROLLER_INFO_2, DS_DO
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

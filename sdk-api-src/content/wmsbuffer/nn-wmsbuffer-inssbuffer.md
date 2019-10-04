@@ -12,6 +12,8 @@ ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer
 ms.topic: interface
 f1_keywords: 
  - "wmsbuffer/INSSBuffer"
+dev_langs:
+ - c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows

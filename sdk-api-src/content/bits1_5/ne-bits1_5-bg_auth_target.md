@@ -12,6 +12,8 @@ ms.keywords: BG_AUTH_TARGET, BG_AUTH_TARGET enumeration [BITS], BG_AUTH_TARGET_P
 ms.topic: enum
 f1_keywords: 
  - "bits1_5/BG_AUTH_TARGET"
+dev_langs:
+ - c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

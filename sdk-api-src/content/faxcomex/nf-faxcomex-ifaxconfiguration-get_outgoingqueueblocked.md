@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration interface [Fax Service],OutgoingQueueBlocked prop
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.OutgoingQueueBlocked"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

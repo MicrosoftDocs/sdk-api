@@ -12,6 +12,8 @@ ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, 
 ms.topic: function
 f1_keywords: 
  - "powrprof/DeletePwrScheme"
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DeleteType, DeleteType method [Human Input Devices], DeleteType met
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputJoyConfig8.DeleteType"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

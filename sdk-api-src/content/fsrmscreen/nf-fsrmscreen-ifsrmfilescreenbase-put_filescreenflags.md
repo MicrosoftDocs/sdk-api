@@ -12,6 +12,8 @@ ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreen
 ms.topic: method
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenBase.FileScreenFlags"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

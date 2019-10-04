@@ -12,6 +12,8 @@ ms.keywords: EVT_SEEK_FLAGS, EVT_SEEK_FLAGS enumeration [EventLog], EvtSeekOrigi
 ms.topic: enum
 f1_keywords: 
  - "winevt/EVT_SEEK_FLAGS"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

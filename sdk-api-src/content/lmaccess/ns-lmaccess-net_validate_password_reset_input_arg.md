@@ -12,6 +12,8 @@ ms.keywords: '*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RES
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

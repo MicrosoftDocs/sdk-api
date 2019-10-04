@@ -12,6 +12,8 @@ ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],RectF class, Rec
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.GetTop"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

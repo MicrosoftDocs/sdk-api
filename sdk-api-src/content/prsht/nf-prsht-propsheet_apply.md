@@ -12,6 +12,8 @@ ms.keywords: PropSheet_Apply, PropSheet_Apply macro [Windows Controls], _win32_P
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_Apply
+dev_langs:
+ - c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

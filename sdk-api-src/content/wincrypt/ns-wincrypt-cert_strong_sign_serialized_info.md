@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CH
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

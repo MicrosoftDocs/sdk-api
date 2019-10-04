@@ -12,6 +12,8 @@ ms.keywords: 9bb51435-76d2-a8ec-c499-0ff0b0c09a1d, ID3D11DeviceContext interface
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.PSGetShaderResources"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

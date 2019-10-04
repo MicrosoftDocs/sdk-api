@@ -12,6 +12,8 @@ ms.keywords: 6e218b93-4855-40dd-96cc-c4ee02792c14, BeginCreateObjectFromByteStre
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSourceResolver.BeginCreateObjectFromByteStream"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

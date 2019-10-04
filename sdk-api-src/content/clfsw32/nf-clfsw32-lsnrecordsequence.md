@@ -12,6 +12,8 @@ ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnR
 ms.topic: function
 f1_keywords:
 - clfsw32/LsnRecordSequence
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

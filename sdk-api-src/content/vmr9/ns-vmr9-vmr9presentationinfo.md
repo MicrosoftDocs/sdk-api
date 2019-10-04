@@ -12,6 +12,8 @@ ms.keywords: VMR9PresentationInfo, VMR9PresentationInfo structure [DirectShow], 
 ms.topic: struct
 f1_keywords: 
  - "vmr9/VMR9PresentationInfo"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NTMS_UIDEST_ADD, NTMS_UIDEST_DELETE, NTMS_UIDEST_DELETEALL, NTMS_UI
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/SetNtmsUIOptions"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescge
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetTask
+dev_langs:
+ - c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

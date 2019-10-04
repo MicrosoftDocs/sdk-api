@@ -12,6 +12,8 @@ ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _r
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtSetCancelTimeout"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

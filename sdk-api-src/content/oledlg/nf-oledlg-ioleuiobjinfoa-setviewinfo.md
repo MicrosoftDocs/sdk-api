@@ -12,6 +12,8 @@ ms.keywords: IOleUIObjInfo interface [COM],SetViewInfo method, IOleUIObjInfo::Se
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUIObjInfo.SetViewInfo"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

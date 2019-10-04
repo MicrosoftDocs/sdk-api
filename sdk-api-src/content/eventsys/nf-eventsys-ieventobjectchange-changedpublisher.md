@@ -12,6 +12,8 @@ ms.keywords: ChangedPublisher, ChangedPublisher method [COM+], ChangedPublisher 
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventObjectChange.ChangedPublisher"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

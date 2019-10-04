@@ -12,6 +12,8 @@ ms.keywords: WinBioSetProperty, WinBioSetProperty function [Windows Biometric Fr
 ms.topic: function
 f1_keywords:
 - winbio/WinBioSetProperty
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

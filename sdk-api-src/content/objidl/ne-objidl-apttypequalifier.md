@@ -12,6 +12,8 @@ ms.keywords: APTTYPEQUALIFIER, APTTYPEQUALIFIER enumeration [COM], APTTYPEQUALIF
 ms.topic: enum
 f1_keywords: 
  - "objidl/APTTYPEQUALIFIER"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows

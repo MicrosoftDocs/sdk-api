@@ -12,6 +12,8 @@ ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server 
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag.GetFileStreamInterface
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

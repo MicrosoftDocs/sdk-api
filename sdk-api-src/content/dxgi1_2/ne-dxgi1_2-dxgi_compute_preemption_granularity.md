@@ -12,6 +12,8 @@ ms.keywords: DXGI_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, DXGI_COMPUTE_PREEMPTION_
 ms.topic: enum
 f1_keywords: 
  - "dxgi1_2/DXGI_COMPUTE_PREEMPTION_GRANULARITY"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.SetWorkingDirectory"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

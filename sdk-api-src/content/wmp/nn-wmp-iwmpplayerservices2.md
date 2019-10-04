@@ -12,6 +12,8 @@ ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media P
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPPlayerServices2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

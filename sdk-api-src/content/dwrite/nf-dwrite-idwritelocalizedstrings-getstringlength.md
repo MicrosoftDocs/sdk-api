@@ -12,6 +12,8 @@ ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLe
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteLocalizedStrings.GetStringLength"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

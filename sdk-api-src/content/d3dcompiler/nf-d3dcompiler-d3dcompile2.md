@@ -12,6 +12,8 @@ ms.keywords: D3DCompile2, D3DCompile2 function [HLSL], d3dcompiler/D3DCompile2, 
 ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DCompile2
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menu
 ms.topic: function
 f1_keywords: 
  - "winuser/CharNextExA"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

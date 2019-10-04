@@ -12,6 +12,8 @@ ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], I
 ms.topic: interface
 f1_keywords: 
  - "tuner/ITuningSpace"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatisti
 ms.topic: method
 f1_keywords:
 - mfreadwrite/IMFSinkWriter.GetStatistics
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CMSG_CTRL_DECRYPT_PARA"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

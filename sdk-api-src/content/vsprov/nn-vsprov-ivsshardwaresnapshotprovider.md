@@ -12,6 +12,8 @@ ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interfac
 ms.topic: interface
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

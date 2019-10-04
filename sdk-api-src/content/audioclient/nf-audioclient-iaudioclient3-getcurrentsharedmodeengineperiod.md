@@ -12,6 +12,8 @@ ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod 
 ms.topic: method
 f1_keywords: 
  - "audioclient/IAudioClient3.GetCurrentSharedModeEnginePeriod"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VariantGetInt16Elem, VariantGetInt16Elem function [Windows Properti
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantGetInt16Elem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

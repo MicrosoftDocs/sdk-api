@@ -12,6 +12,8 @@ ms.keywords: RENDEZVOUS_SESSION_STATE, RENDEZVOUS_SESSION_STATE enumeration [Rem
 ms.topic: enum
 f1_keywords: 
  - "rendezvoussession/RENDEZVOUS_SESSION_STATE"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

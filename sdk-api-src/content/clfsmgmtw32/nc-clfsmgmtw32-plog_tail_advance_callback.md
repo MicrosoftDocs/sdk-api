@@ -12,6 +12,8 @@ ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, LOG_TAIL_ADVANCE_CALLBACK callback funct
 ms.topic: callback
 f1_keywords: 
  - "clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

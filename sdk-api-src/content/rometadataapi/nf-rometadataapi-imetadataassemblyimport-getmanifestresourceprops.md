@@ -12,6 +12,8 @@ ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows 
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

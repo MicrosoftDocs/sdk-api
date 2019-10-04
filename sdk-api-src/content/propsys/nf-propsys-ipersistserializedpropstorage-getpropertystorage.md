@@ -12,6 +12,8 @@ ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetP
 ms.topic: method
 f1_keywords: 
  - "propsys/IPersistSerializedPropStorage.GetPropertyStorage"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

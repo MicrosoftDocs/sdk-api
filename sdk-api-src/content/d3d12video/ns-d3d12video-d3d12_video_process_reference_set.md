@@ -8,6 +8,10 @@ ms.assetid: 7dc125bb-252e-4530-b8c8-63d3b0f2dcce
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: struct
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_REFERENCE_SET
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_PROCESS_REFERENCE_SET, D3D12_VIDEO_PROCESS_REFERENCE_SET, 
 req.header: d3d12video.h
 req.include-header:

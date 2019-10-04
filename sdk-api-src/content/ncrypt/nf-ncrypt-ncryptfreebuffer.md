@@ -12,6 +12,8 @@ ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCry
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptFreeBuffer"
+dev_langs:
+ - c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

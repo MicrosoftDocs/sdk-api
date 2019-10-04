@@ -12,6 +12,8 @@ ms.keywords: GetParentalLevel, GetParentalLevel method [DirectShow], GetParental
 ms.topic: method
 f1_keywords: 
  - "strmif/IDvdState.GetParentalLevel"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

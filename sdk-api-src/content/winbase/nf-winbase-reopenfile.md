@@ -12,6 +12,8 @@ ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO
 ms.topic: function
 f1_keywords:
 - winbase/ReOpenFile
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

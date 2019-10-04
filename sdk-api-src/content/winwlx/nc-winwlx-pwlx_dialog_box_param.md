@@ -12,6 +12,8 @@ ms.keywords: PWLX_DIALOG_BOX_PARAM, PWLX_DIALOG_BOX_PARAM callback, WlxDialogBox
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxDialogBoxParam"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL
 ms.topic: enum
 f1_keywords: 
  - "rdpencomapi/CHANNEL_ACCESS_ENUM"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

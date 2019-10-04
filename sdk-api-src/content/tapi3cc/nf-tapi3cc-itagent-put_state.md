@@ -12,6 +12,8 @@ ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, I
 ms.topic: method
 f1_keywords: 
  - "tapi3cc/ITAgent.put_State"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

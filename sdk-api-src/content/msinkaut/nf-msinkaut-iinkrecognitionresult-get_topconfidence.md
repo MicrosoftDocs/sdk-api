@@ -12,6 +12,8 @@ ms.keywords: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a, IInkRecognitionResult interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionResult.TopConfidence"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

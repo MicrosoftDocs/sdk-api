@@ -12,6 +12,8 @@ ms.keywords: IDENTITIES_ALL, IDENTITIES_ME_ONLY, IDENTITY_TYPE, IDENTITY_TYPE en
 ms.topic: enum
 f1_keywords: 
  - "identitycommon/IDENTITY_TYPE"
+dev_langs:
+ - c++
 req.header: identitycommon.h
 req.include-header: 
 req.target-type: Windows

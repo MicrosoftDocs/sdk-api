@@ -12,6 +12,8 @@ ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableH
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionVisualDebug.DisableHeatMap"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

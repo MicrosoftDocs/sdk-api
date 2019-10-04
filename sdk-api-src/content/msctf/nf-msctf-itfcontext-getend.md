@@ -12,6 +12,8 @@ ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Tex
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContext.GetEnd"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RenderingParameters, RenderingParameters structure [Media Streaming
 ms.topic: struct
 f1_keywords: 
  - "windows.media.streaming/RenderingParameters"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

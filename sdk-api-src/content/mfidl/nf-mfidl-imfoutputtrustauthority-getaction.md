@@ -12,6 +12,8 @@ ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction, GetAction method [
 ms.topic: method
 f1_keywords:
 - mfidl/IMFOutputTrustAuthority.GetAction
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

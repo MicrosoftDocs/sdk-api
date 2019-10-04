@@ -12,6 +12,8 @@ ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrow
 ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.SetReferrer
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed me
 ms.topic: method
 f1_keywords: 
  - "prnasnot/IPrintAsyncNotifyCallback.ChannelClosed"
+dev_langs:
+ - c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

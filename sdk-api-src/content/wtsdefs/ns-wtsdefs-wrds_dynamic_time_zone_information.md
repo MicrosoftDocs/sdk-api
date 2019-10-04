@@ -12,6 +12,8 @@ ms.keywords: '*PWRDS_DYNAMIC_TIME_ZONE_INFORMATION, PWRDS_DYNAMIC_TIME_ZONE_INFO
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WRDS_DYNAMIC_TIME_ZONE_INFORMATION
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

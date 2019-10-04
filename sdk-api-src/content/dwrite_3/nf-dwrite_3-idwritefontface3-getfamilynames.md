@@ -12,6 +12,8 @@ ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyName
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFace3.GetFamilyNames"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

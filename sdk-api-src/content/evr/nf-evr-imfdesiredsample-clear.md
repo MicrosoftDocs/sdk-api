@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "evr/IMFDesiredSample.Clear"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

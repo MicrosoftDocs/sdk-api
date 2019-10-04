@@ -12,6 +12,8 @@ ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePa
 ms.topic: function
 f1_keywords:
 - lmaccess/NetValidatePasswordPolicy
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_DNS_DO
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_NAME_FORMAT"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

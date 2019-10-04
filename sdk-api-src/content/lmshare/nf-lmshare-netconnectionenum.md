@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32
 ms.topic: function
 f1_keywords:
 - lmshare/NetConnectionEnum
+dev_langs:
+ - c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

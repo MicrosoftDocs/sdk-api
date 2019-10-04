@@ -12,6 +12,8 @@ ms.keywords: PrjStartVirtualizing, PrjStartVirtualizing function, ProjFS.prjstar
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjStartVirtualizing"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlepha
 ms.topic: function
 f1_keywords: 
  - "ktmw32/SinglePhaseReject"
+dev_langs:
+ - c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

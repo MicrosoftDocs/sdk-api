@@ -12,6 +12,8 @@ ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplicatio
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication.OpenOperation"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D12_TILED_RESOURCES_TIER, D3D12_TILED_RESOURCES_TIER enumeration,
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_TILED_RESOURCES_TIER"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

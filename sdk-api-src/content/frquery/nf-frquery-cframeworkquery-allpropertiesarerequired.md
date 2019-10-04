@@ -12,6 +12,8 @@ ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows 
 ms.topic: method
 f1_keywords: 
  - "frquery/CFrameworkQuery.AllPropertiesAreRequired"
+dev_langs:
+ - c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

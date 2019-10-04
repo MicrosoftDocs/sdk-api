@@ -6,6 +6,8 @@ ms.keywords: tagBIND_OPTS2, BIND_OPTS2
 ms.topic: language-reference
 f1_keywords:
 - objidl/tagBIND_OPTS2
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

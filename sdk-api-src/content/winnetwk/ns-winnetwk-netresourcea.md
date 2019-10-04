@@ -12,6 +12,8 @@ ms.keywords: "*LPNETRESOURCEA, LPNETRESOURCE, LPNETRESOURCE structure pointer [S
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/NETRESOURCE"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

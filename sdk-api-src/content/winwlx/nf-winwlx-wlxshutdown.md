@@ -12,6 +12,8 @@ ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS
 ms.topic: function
 f1_keywords: 
  - "winwlx/WlxShutdown"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ID2D1VertexBuffer interface [Direct2D],Map method, ID2D1VertexBuffe
 ms.topic: method
 f1_keywords: 
  - "d2d1effectauthor/ID2D1VertexBuffer.Map"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

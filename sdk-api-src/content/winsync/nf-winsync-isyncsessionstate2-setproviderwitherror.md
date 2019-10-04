@@ -12,6 +12,8 @@ ms.keywords: ISyncSessionState2 interface [Windows Sync],SetProviderWithError me
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncSessionState2.SetProviderWithError"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

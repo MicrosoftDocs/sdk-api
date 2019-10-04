@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromBurn interface [Windows Media Player],getItemInfo method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromBurn.getItemInfo"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

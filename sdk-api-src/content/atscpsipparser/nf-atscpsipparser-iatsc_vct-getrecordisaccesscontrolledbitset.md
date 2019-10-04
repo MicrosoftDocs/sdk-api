@@ -12,6 +12,8 @@ ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSe
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

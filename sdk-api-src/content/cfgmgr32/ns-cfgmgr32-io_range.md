@@ -12,6 +12,8 @@ ms.keywords: "*PIO_RANGE, IO_RANGE, IO_RANGE structure [Device and Driver Instal
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/IO_RANGE"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

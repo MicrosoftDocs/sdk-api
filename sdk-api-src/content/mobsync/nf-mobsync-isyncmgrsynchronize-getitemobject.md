@@ -12,6 +12,8 @@ ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject 
 ms.topic: method
 f1_keywords: 
  - "mobsync/ISyncMgrSynchronize.GetItemObject"
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

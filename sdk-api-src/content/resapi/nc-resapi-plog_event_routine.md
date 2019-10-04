@@ -12,6 +12,8 @@ ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogE
 ms.topic: callback
 f1_keywords: 
  - "resapi/LogEvent"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

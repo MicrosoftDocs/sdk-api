@@ -12,6 +12,8 @@ ms.keywords: BuildUpMath, BuildUpMath method [Windows Controls], BuildUpMath met
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRange2.BuildUpMath"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

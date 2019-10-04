@@ -12,6 +12,8 @@ ms.keywords: WMT_OFFSET_FORMAT, WMT_OFFSET_FORMAT enumeration [windows Media For
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_OFFSET_FORMAT"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

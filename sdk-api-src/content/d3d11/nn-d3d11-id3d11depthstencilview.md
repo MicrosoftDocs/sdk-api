@@ -12,6 +12,8 @@ ms.keywords: 5e846266-8e0b-d52b-2f70-8936cbeb0bd1, ID3D11DepthStencilView, ID3D1
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11DepthStencilView"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

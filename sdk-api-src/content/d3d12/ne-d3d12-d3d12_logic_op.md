@@ -12,6 +12,8 @@ ms.keywords: D3D12_LOGIC_OP, D3D12_LOGIC_OP enumeration, D3D12_LOGIC_OP_AND, D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_LOGIC_OP"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

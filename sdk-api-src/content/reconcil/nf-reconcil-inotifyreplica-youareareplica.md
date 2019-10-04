@@ -12,6 +12,8 @@ ms.keywords: INotifyReplica interface [Windows Shell],YouAreAReplica method, INo
 ms.topic: method
 f1_keywords: 
  - "reconcil/INotifyReplica.YouAreAReplica"
+dev_langs:
+ - c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

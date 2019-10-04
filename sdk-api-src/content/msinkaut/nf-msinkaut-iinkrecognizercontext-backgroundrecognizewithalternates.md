@@ -12,6 +12,8 @@ ms.keywords: 1559678c-c220-4c67-aa0f-566377d95818, BackgroundRecognizeWithAltern
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerContext.BackgroundRecognizeWithAlternates"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

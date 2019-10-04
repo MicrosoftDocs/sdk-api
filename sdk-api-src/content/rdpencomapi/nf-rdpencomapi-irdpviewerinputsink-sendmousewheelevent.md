@@ -12,6 +12,8 @@ ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRD
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPViewerInputSink.SendMouseWheelEvent"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

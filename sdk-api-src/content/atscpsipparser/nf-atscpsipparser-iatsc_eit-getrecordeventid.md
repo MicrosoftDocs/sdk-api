@@ -12,6 +12,8 @@ ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_EIT.GetRecordEventId"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

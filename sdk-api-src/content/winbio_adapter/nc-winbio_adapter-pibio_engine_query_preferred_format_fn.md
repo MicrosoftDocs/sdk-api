@@ -12,6 +12,8 @@ ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredForma
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterQueryPreferredFormat
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

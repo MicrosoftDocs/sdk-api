@@ -12,6 +12,8 @@ ms.keywords: PHONEEVENT, PHONEEVENT callback, Phone_Event, Phone_Event callback 
 ms.topic: callback
 f1_keywords: 
  - "tspi/Phone_Event"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Fi
 ms.topic: function
 f1_keywords:
 - fileapi/CreateFile2
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

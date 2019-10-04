@@ -12,6 +12,8 @@ ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration
 ms.topic: enum
 f1_keywords: 
  - "iscsidsc/ISCSI_AUTH_TYPES"
+dev_langs:
+ - c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

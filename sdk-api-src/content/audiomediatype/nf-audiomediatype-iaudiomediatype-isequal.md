@@ -12,6 +12,8 @@ ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMed
 ms.topic: method
 f1_keywords: 
  - "audiomediatype/IAudioMediaType.IsEqual"
+dev_langs:
+ - c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

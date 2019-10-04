@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_INTERACTION_BEGIN, DIRECTMANIPULATION_INTERACTIO
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_INTERACTION_TYPE"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

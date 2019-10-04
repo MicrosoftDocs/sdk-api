@@ -12,6 +12,8 @@ ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, 
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComObjectPoolEvents.OnObjPoolRecycleToTx"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddPackageReference, AddPackageReference method [App packaging and 
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleWriter4.AddPackageReference"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

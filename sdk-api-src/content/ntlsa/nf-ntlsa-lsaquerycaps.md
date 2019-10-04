@@ -12,6 +12,8 @@ ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs,
 ms.topic: function
 f1_keywords:
 - ntlsa/LsaQueryCAPs
+dev_langs:
+ - c++
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RoRegisterActivationFactories, RoRegisterActivationFactories functi
 ms.topic: function
 f1_keywords: 
  - "roapi/RoRegisterActivationFactories"
+dev_langs:
+ - c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

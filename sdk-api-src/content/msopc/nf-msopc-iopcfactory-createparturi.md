@@ -12,6 +12,8 @@ ms.keywords: CreatePartUri, CreatePartUri method [Open Packaging Conventions], C
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcFactory.CreatePartUri"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

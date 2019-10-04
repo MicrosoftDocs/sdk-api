@@ -12,6 +12,8 @@ ms.keywords: "*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display 
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDCLOSEHANDLE"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

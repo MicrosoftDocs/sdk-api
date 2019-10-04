@@ -12,6 +12,8 @@ ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biom
 ms.topic: function
 f1_keywords:
 - winbio/WinBioMonitorPresence
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySche
 ms.topic: method
 f1_keywords: 
  - "propsys/IPropertySystem.RegisterPropertySchema"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b, CreateVideoDecoder, CreateVid
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoDecoderService.CreateVideoDecoder
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidTunerEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

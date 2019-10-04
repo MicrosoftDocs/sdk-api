@@ -12,6 +12,8 @@ ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Micr
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetScheduleEntryProperties"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

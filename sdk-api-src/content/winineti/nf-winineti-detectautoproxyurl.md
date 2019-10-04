@@ -12,6 +12,8 @@ ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AU
 ms.topic: function
 f1_keywords: 
  - "winineti/DetectAutoProxyUrl"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows

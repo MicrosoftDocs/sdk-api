@@ -12,6 +12,8 @@ ms.keywords: ISharedProperty, ISharedProperty interface [COM+], ISharedProperty 
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/ISharedProperty"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumNetworks, IEnumNetworks interface [Network Awareness], IEnumNe
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/IEnumNetworks"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

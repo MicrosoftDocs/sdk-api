@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IE
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingEveryConnection.Reset"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

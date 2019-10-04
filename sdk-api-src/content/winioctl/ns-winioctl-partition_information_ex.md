@@ -12,6 +12,8 @@ ms.keywords: '*PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX, PARTITION_IN
 ms.topic: struct
 f1_keywords:
 - winioctl/PARTITION_INFORMATION_EX
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrvDescribePixelFormat, DrvDescribePixelFormat function [Display De
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvDescribePixelFormat"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -12,6 +12,8 @@ ms.keywords: 71b462ef-31c2-4015-fac5-a904701671c6, GetType, GetType method [Dire
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.GetType"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

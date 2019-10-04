@@ -12,6 +12,8 @@ ms.keywords: DML_OPERATOR_ACTIVATION_ELU, DML_OPERATOR_ACTIVATION_HARDMAX, DML_O
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_OPERATOR_TYPE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636a
 ms.topic: function
 f1_keywords: 
  - "msports/ComDBClaimPort"
+dev_langs:
+ - c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

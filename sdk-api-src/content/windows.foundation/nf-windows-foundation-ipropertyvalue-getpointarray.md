@@ -12,6 +12,8 @@ ms.keywords: GetPointArray, GetPointArray method [Windows Runtime], GetPointArra
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetPointArray"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

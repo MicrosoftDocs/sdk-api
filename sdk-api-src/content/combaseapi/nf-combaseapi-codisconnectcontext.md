@@ -12,6 +12,8 @@ ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDis
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoDisconnectContext"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

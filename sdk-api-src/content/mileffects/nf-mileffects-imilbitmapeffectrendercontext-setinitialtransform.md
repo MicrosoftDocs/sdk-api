@@ -12,6 +12,8 @@ ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetIni
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectRenderContext.SetInitialTransform"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

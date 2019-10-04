@@ -12,6 +12,8 @@ ms.keywords: Deleting, Failed, IFaxJob interface [Fax Service],QueueStatus prope
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.QueueStatus"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PropVariantToUInt64Vector, PropVariantToUInt64Vector function [Wind
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantToUInt64Vector"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

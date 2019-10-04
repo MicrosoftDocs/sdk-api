@@ -12,6 +12,8 @@ ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _w
 ms.topic: function
 f1_keywords:
 - wingdi/StartDoc
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

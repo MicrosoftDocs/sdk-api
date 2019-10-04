@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_SUB_SYSTEM_FLAG, VDS_SF_CONSISTENCY_CHECK_CAPABLE, VDS_SF_DR
 ms.topic: enum
 f1_keywords:
 - vds/VDS_SUB_SYSTEM_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

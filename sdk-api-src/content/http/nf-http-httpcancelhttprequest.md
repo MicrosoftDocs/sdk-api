@@ -12,6 +12,8 @@ ms.keywords: HttpCancelHttpRequest, HttpCancelHttpRequest function [HTTP], http.
 ms.topic: function
 f1_keywords:
 - http/HttpCancelHttpRequest
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

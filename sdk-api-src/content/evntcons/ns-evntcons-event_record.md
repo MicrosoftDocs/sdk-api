@@ -12,6 +12,8 @@ ms.keywords: '*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVEN
 ms.topic: struct
 f1_keywords:
 - evntcons/EVENT_RECORD
+dev_langs:
+ - c++
 req.header: evntcons.h
 req.include-header: Evntcons.h
 req.target-type: Windows

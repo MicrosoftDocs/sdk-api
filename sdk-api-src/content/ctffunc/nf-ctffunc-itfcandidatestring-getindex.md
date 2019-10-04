@@ -12,6 +12,8 @@ ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex metho
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfCandidateString.GetIndex"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

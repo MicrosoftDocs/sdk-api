@@ -12,6 +12,8 @@ ms.keywords: '*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TY
 ms.topic: struct
 f1_keywords:
 - virtdisk/VIRTUAL_STORAGE_TYPE
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

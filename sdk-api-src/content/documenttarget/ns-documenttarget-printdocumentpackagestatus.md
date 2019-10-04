@@ -12,6 +12,8 @@ ms.keywords: PPrintDocumentPackageStatus, PPrintDocumentPackageStatus structure 
 ms.topic: struct
 f1_keywords: 
  - "documenttarget/PrintDocumentPackageStatus"
+dev_langs:
+ - c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

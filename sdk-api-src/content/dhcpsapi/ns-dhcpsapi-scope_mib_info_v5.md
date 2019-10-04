@@ -12,6 +12,8 @@ ms.keywords: '*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 str
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/SCOPE_MIB_INFO_V5
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

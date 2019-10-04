@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingC
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMappingCollection.Add"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

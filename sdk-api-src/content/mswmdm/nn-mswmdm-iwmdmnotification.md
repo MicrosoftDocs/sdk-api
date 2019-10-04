@@ -12,6 +12,8 @@ ms.keywords: IWMDMNotification, IWMDMNotification interface [windows Media Devic
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMNotification"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

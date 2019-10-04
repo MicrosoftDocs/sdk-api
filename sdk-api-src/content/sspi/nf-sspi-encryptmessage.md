@@ -12,6 +12,8 @@ ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [S
 ms.topic: function
 f1_keywords:
 - sspi/EncryptMessage
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

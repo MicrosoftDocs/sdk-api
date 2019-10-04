@@ -12,6 +12,8 @@ ms.keywords: IWiaLog interface [WIA],Log method, IWiaLog.Log, IWiaLog::Log, Log,
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IWiaLog.Log"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

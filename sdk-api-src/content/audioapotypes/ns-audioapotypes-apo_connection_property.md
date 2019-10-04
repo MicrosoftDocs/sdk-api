@@ -12,6 +12,8 @@ ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote 
 ms.topic: struct
 f1_keywords: 
  - "audioapotypes/APO_CONNECTION_PROPERTY"
+dev_langs:
+ - c++
 req.header: audioapotypes.h
 req.include-header: 
 req.target-type: Windows

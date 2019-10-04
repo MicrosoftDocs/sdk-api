@@ -12,6 +12,8 @@ ms.keywords: FALSE, IWebBrowser2 interface [Windows API],ToolBar property, IWebB
 ms.topic: method
 f1_keywords: 
  - "exdisp/IWebBrowserApp.ToolBar"
+dev_langs:
+ - c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

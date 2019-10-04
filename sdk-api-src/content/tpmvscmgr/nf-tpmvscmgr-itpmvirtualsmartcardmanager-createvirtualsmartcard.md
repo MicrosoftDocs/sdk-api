@@ -12,6 +12,8 @@ ms.keywords: CreateVirtualSmartCard, CreateVirtualSmartCard method [Security], C
 ms.topic: method
 f1_keywords: 
  - "tpmvscmgr/ITpmVirtualSmartCardManager.CreateVirtualSmartCard"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

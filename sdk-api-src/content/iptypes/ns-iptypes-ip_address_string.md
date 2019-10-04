@@ -12,6 +12,8 @@ ms.keywords: "*PIP_ADDRESS_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_
 ms.topic: struct
 f1_keywords: 
  - "iptypes/IP_ADDRESS_STRING"
+dev_langs:
+ - c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

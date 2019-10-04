@@ -12,6 +12,8 @@ ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Write meth
 ms.topic: method
 f1_keywords: 
  - "wrdsgraphicschannels/IWRdsGraphicsChannel.Write"
+dev_langs:
+ - c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: STREAMTYPE_READ, STREAMTYPE_TRANSFORM, STREAMTYPE_WRITE, STREAM_TYP
 ms.topic: enum
 f1_keywords: 
  - "mmstream/STREAM_TYPE"
+dev_langs:
+ - c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows

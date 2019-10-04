@@ -12,6 +12,8 @@ ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows 
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IObjectModelProvider.GetUnderlyingObjectModel"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

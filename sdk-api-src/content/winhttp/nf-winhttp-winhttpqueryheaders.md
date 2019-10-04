@@ -12,6 +12,8 @@ ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.w
 ms.topic: function
 f1_keywords: 
  - "winhttp/WinHttpQueryHeaders"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D2D1_BITMAP_PROPERTIES1, D2D1_BITMAP_PROPERTIES1 structure [Direct2
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1/D2D1_BITMAP_PROPERTIES1"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

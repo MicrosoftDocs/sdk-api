@@ -12,6 +12,8 @@ ms.keywords: IStreamAsync interface [Windows Shell],ReadAsync method, IStreamAsy
 ms.topic: method
 f1_keywords:
 - shobjidl/IStreamAsync.ReadAsync
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

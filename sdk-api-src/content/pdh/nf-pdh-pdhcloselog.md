@@ -12,6 +12,8 @@ ms.keywords: PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _w
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhCloseLog"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

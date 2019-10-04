@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_POL_EXPR, *PDHCP_POL_EXPR, DHCP_POL_EXPR, DHCP_POL_EXPR st
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_EXPR
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

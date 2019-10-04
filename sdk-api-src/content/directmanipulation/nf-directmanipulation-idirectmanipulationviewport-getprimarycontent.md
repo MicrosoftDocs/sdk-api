@@ -12,6 +12,8 @@ ms.keywords: GetPrimaryContent, GetPrimaryContent method [Direct Manipulation], 
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.GetPrimaryContent"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

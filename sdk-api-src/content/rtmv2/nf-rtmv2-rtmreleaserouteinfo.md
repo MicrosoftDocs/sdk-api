@@ -12,6 +12,8 @@ ms.keywords: RtmReleaseRouteInfo, RtmReleaseRouteInfo function [RAS], _rtmv2ref_
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseRouteInfo
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

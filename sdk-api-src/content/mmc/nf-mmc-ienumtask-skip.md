@@ -12,6 +12,8 @@ ms.keywords: IEnumTASK interface [MMC],Skip method, IEnumTASK.Skip, IEnumTASK::S
 ms.topic: method
 f1_keywords: 
  - "mmc/IEnumTASK.Skip"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

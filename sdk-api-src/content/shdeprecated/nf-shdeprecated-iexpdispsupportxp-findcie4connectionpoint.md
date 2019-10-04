@@ -12,6 +12,8 @@ ms.keywords: FindCIE4ConnectionPoint, FindCIE4ConnectionPoint method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IExpDispSupportXP.FindCIE4ConnectionPoint"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

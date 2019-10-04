@@ -12,6 +12,8 @@ ms.keywords: NdrPointerUnmarshall, NdrPointerUnmarshall function [RPC], rpc.ndrp
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrPointerUnmarshall
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

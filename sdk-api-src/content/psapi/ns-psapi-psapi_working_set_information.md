@@ -12,6 +12,8 @@ ms.keywords: '*PPSAPI_WORKING_SET_INFORMATION, PPSAPI_WORKING_SET_INFORMATION, P
 ms.topic: struct
 f1_keywords:
 - psapi/PSAPI_WORKING_SET_INFORMATION
+dev_langs:
+ - c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyFile6, IBackgroundCopyFile6 interface [BITS], IBackg
 ms.topic: interface
 f1_keywords: 
  - "bits10_1/IBackgroundCopyFile6"
+dev_langs:
+ - c++
 req.header: bits10_1.h
 req.include-header: Bits10_0.h
 req.target-type: Windows

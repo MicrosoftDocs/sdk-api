@@ -12,6 +12,8 @@ ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATU
 ms.topic: function
 f1_keywords: 
  - "mgmtapi/SnmpMgrRequest"
+dev_langs:
+ - c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

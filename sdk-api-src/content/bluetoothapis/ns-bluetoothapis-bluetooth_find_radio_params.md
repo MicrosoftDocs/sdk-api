@@ -12,6 +12,8 @@ ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure 
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

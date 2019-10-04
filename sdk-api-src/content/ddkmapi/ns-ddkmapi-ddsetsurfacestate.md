@@ -12,6 +12,8 @@ ms.keywords: "*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structu
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDSETSURFACESTATE"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

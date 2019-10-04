@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_REMOTE_PROTOCOL_INFO, FILE_REMOTE_PROTOCOL_INFO, FILE_REMOT
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_REMOTE_PROTOCOL_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Header_GetUnicodeFormat, Header_GetUnicodeFormat macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Header_GetUnicodeFormat"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

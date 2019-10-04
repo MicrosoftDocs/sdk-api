@@ -12,6 +12,8 @@ ms.keywords: COPP_CGMSA_CopyFreely, COPP_CGMSA_CopyNever, COPP_CGMSA_CopyNoMore,
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_CGMSA_Protection_Level"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PeerIdentityGetFriendlyName, PeerIdentityGetFriendlyName function [
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerIdentityGetFriendlyName"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

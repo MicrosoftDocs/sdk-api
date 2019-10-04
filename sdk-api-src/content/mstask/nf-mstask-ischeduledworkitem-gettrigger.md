@@ -12,6 +12,8 @@ ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.GetTrigger"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

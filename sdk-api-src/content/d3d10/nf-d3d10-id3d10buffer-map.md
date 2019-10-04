@@ -12,6 +12,8 @@ ms.keywords: 7d41a2a2-1ba6-cc42-c30b-821d5734b5c3, ID3D10Buffer interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Buffer.Map"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

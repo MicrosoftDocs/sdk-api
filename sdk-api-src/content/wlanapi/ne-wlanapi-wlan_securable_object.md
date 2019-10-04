@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_O
 ms.topic: enum
 f1_keywords: 
  - "wlanapi/WLAN_SECURABLE_OBJECT"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

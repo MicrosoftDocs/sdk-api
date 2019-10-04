@@ -12,6 +12,8 @@ ms.keywords: UIntToIntPtr, UIntToIntPtr function [Windows Shell], UIntToPtrdiffT
 ms.topic: function
 f1_keywords: 
  - "intsafe/UIntToIntPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

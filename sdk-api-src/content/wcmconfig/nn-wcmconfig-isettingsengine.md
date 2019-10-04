@@ -12,6 +12,8 @@ ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine i
 ms.topic: interface
 f1_keywords: 
  - "wcmconfig/ISettingsEngine"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

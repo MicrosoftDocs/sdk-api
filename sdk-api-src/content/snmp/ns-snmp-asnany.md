@@ -12,6 +12,8 @@ ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, A
 ms.topic: struct
 f1_keywords: 
  - "snmp/AsnAny"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

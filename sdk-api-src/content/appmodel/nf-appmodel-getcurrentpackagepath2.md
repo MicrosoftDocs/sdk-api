@@ -8,6 +8,8 @@ ms.keywords: GetCurrentPackagePath2
 ms.topic: function
 f1_keywords: 
  - "appmodel/GetCurrentPackagePath2"
+dev_langs:
+ - c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

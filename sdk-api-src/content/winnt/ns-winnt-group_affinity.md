@@ -12,6 +12,8 @@ ms.keywords: '*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP
 ms.topic: struct
 f1_keywords:
 - winnt/GROUP_AFFINITY
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

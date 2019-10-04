@@ -12,6 +12,8 @@ ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],I
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ITransactionResourcePool.GetResource"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

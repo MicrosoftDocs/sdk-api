@@ -12,6 +12,8 @@ ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interf
 ms.topic: interface
 f1_keywords: 
  - "oaidl/IRecordInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

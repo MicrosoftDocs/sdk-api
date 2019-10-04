@@ -12,6 +12,8 @@ ms.keywords: 7362d2fb-1fd6-ee03-e201-58defbf1d468, GetMemberTypeByIndex, GetMemb
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType.GetMemberTypeByIndex"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDire
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawClipper.SetClipList
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

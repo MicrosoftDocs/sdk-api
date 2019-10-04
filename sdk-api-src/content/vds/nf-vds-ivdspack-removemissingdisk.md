@@ -12,6 +12,8 @@ ms.keywords: IVdsPack interface [VDS],RemoveMissingDisk method, IVdsPack.RemoveM
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsPack.RemoveMissingDisk"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

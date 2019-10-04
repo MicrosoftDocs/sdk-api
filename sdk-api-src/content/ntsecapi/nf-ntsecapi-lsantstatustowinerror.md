@@ -12,6 +12,8 @@ ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/LsaNtStatusToWinError"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

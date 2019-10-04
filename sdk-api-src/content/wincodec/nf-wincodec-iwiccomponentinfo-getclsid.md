@@ -12,6 +12,8 @@ ms.keywords: GetCLSID, GetCLSID method [Windows Imaging Component], GetCLSID met
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICComponentInfo.GetCLSID"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

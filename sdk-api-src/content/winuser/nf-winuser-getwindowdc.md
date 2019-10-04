@@ -12,6 +12,8 @@ ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC
 ms.topic: function
 f1_keywords: 
  - "winuser/GetWindowDC"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

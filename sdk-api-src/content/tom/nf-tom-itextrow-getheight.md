@@ -12,6 +12,8 @@ ms.keywords: GetHeight, GetHeight method [Windows Controls], GetHeight method [W
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetHeight"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

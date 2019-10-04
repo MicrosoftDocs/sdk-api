@@ -12,6 +12,8 @@ ms.keywords: "*PMIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY structure [
 ms.topic: struct
 f1_keywords: 
  - "iprtrmib/MIB_OPAQUE_QUERY"
+dev_langs:
+ - c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

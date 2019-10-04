@@ -12,6 +12,8 @@ ms.keywords: IShellImageData interface [Windows Shell],NextFrame method, IShellI
 ms.topic: method
 f1_keywords: 
  - "shimgdata/IShellImageData.NextFrame"
+dev_langs:
+ - c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

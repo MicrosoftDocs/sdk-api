@@ -12,6 +12,8 @@ ms.keywords: "*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_W
 ms.topic: struct
 f1_keywords: 
  - "setupapi/SP_INF_INFORMATION"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

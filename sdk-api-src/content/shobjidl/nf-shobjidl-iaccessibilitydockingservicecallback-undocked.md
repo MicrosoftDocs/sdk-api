@@ -12,6 +12,8 @@ ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked metho
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IAccessibilityDockingServiceCallback.Undocked"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

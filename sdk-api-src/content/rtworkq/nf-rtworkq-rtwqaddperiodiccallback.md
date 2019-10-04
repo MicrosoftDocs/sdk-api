@@ -12,6 +12,8 @@ ms.keywords: RtwqAddPeriodicCallback, RtwqAddPeriodicCallback function, base.rtw
 ms.topic: function
 f1_keywords: 
  - "rtworkq/RtwqAddPeriodicCallback"
+dev_langs:
+ - c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

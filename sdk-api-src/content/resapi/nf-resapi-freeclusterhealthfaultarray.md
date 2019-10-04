@@ -12,6 +12,8 @@ ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [
 ms.topic: function
 f1_keywords: 
  - "resapi/FreeClusterHealthFaultArray"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

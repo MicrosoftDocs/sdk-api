@@ -12,6 +12,8 @@ ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.topic: function
 f1_keywords: 
  - "winevt/EvtNext"
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

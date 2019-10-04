@@ -12,6 +12,8 @@ ms.keywords: GetContentType, GetContentType method [App packaging and management
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFile.GetContentType"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

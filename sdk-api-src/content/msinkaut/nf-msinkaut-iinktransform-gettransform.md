@@ -12,6 +12,8 @@ ms.keywords: GetTransform, GetTransform method [Tablet PC], GetTransform method 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkTransform.GetTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

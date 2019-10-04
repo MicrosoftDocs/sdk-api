@@ -12,6 +12,8 @@ ms.keywords: GetViewModeAndIconSize, GetViewModeAndIconSize method [Windows Shel
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFolderView2.GetViewModeAndIconSize"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

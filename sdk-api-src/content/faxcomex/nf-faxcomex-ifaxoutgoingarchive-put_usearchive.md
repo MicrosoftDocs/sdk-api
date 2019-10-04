@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingArchive interface [Fax Service],UseArchive property, IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingArchive.UseArchive"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69, CurrentCorrectionMode propert
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.CurrentCorrectionMode"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Description property [Security], Description property [Security],IX
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Description"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

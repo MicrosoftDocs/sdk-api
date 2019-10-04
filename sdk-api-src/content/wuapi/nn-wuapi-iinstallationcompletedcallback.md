@@ -12,6 +12,8 @@ ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback inte
 ms.topic: interface
 f1_keywords: 
  - "wuapi/IInstallationCompletedCallback"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

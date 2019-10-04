@@ -12,6 +12,8 @@ ms.keywords: GetDevicePreferredFormat, GetDevicePreferredFormat method [Core Aud
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IKsFormatSupport.GetDevicePreferredFormat"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

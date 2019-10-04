@@ -12,6 +12,8 @@ ms.keywords: IWMPContentPartner interface [Windows Media Player],SendMessage met
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentPartner.SendMessage"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

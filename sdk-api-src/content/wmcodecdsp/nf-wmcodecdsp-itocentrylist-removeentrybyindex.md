@@ -12,6 +12,8 @@ ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex metho
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/ITocEntryList.RemoveEntryByIndex"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

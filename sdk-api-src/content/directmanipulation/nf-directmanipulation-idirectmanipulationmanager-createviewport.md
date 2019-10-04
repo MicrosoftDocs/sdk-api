@@ -12,6 +12,8 @@ ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], Create
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationManager.CreateViewport"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],I
 ms.topic: method
 f1_keywords: 
  - "qmgr/IBackgroundCopyQMgr.CreateGroup"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

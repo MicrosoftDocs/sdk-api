@@ -12,6 +12,8 @@ ms.keywords: GetSensorByID, GetSensorByID method, GetSensorByID method,ISensorMa
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensorManager.GetSensorByID"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

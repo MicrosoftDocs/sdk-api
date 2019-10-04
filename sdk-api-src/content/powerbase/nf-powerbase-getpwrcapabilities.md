@@ -12,6 +12,8 @@ ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapab
 ms.topic: function
 f1_keywords: 
  - "powerbase/GetPwrCapabilities"
+dev_langs:
+ - c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

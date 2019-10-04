@@ -13,6 +13,8 @@ ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVISt
 ms.topic: interface
 f1_keywords: 
  - "vfw/IAVIStreaming"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

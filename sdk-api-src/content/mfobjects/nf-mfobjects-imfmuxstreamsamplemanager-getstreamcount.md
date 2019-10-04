@@ -12,6 +12,8 @@ ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStream
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamSampleManager.GetStreamCount"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

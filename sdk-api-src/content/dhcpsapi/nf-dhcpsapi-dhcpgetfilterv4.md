@@ -12,6 +12,8 @@ ms.keywords: DhcpGetFilterV4, DhcpGetFilterV4 function [DHCP], dhcp.dhcpgetfilte
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetFilterV4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

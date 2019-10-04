@@ -12,6 +12,8 @@ ms.keywords: MBN_SMS_CDMA_ENCODING, MBN_SMS_CDMA_ENCODING enumeration [Microsoft
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_SMS_CDMA_ENCODING"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

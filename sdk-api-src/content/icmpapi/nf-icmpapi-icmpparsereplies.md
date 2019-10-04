@@ -12,6 +12,8 @@ ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icm
 ms.topic: function
 f1_keywords: 
  - "icmpapi/IcmpParseReplies"
+dev_langs:
+ - c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

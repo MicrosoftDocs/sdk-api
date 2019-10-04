@@ -12,6 +12,8 @@ ms.keywords: MprAdminInterfaceGetCredentials, MprAdminInterfaceGetCredentials fu
 ms.topic: function
 f1_keywords: 
  - "mprapi/MprAdminInterfaceGetCredentials"
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

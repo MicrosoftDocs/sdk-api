@@ -12,6 +12,8 @@ ms.keywords: GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, GenerateGroupPolicy,
 ms.topic: callback
 f1_keywords:
 - userenv/PFNGENERATEGROUPPOLICY
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

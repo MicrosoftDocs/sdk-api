@@ -12,6 +12,8 @@ ms.keywords: GetSurroundColors, GetSurroundColors method [GDI+], GetSurroundColo
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.GetSurroundColors"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

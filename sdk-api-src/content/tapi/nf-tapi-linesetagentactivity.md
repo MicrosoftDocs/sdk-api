@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linesetagentactivity, lineSetAgentActivity, lineSetAgentAct
 ms.topic: function
 f1_keywords: 
  - "tapi/lineSetAgentActivity"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

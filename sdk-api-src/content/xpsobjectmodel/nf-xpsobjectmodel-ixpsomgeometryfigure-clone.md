@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XP
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGeometryFigure.Clone"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

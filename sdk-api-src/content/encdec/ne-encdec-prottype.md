@@ -12,6 +12,8 @@ ms.keywords: PROT_COPY_BF, PROT_COPY_CN_RECORDING_STOP, PROT_COPY_FREE, PROT_COP
 ms.topic: enum
 f1_keywords: 
  - "encdec/ProtType"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: Tvratings.h
 req.target-type: Windows

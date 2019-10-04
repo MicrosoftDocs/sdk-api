@@ -12,6 +12,8 @@ ms.keywords: RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGIST
 ms.topic: callback
 f1_keywords:
 - rtmv2/RTM_EVENT_CALLBACK
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

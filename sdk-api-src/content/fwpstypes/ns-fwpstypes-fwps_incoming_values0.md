@@ -12,6 +12,8 @@ ms.keywords: FWPS_INCOMING_VALUES0, FWPS_INCOMING_VALUES0 structure [Network Dri
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_INCOMING_VALUES0"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

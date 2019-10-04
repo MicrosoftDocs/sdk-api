@@ -12,6 +12,8 @@ ms.keywords: VSS_RESTOREMETHOD_ENUM, VSS_RESTOREMETHOD_ENUM enumeration [VSS], V
 ms.topic: enum
 f1_keywords: 
  - "vswriter/VSS_RESTOREMETHOD_ENUM"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

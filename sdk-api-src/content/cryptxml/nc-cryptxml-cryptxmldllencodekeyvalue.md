@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue callback, Cryp
 ms.topic: callback
 f1_keywords: 
  - "cryptxml/CryptXmlDllEncodeKeyValue"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

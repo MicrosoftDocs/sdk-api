@@ -12,6 +12,8 @@ ms.keywords: DhcpHlprIsV4PolicyWellFormed, DhcpHlprIsV4PolicyWellFormed function
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprIsV4PolicyWellFormed
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

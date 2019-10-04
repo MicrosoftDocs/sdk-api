@@ -12,6 +12,8 @@ ms.keywords: NdrComplexStructBufferSize, NdrComplexStructBufferSize function [Wi
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrComplexStructBufferSize
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

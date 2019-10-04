@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx.SubscribeEx"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

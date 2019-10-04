@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Networ
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportSession.NetworkInterfaceName"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

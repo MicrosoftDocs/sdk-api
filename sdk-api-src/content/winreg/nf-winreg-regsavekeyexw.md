@@ -12,6 +12,8 @@ ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSave
 ms.topic: function
 f1_keywords: 
  - "winreg/RegSaveKeyEx"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

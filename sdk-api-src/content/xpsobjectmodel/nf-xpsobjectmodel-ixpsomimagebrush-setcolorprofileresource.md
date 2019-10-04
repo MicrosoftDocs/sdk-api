@@ -12,6 +12,8 @@ ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetColorPr
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMImageBrush.SetColorProfileResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

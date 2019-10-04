@@ -12,6 +12,8 @@ ms.keywords: WS_POLICY_EXTENSION, WS_POLICY_EXTENSION structure [Web Services fo
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_POLICY_EXTENSION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

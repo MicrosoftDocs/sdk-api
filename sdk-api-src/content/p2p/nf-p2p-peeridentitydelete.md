@@ -12,6 +12,8 @@ ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], 
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerIdentityDelete"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

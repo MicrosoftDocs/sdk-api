@@ -12,6 +12,8 @@ ms.keywords: CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin2 interfa
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.ImportKey"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

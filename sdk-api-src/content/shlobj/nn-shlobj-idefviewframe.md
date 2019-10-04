@@ -12,6 +12,8 @@ ms.keywords: IDefViewFrame, IDefViewFrame interface [Windows Shell], IDefViewFra
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IDefViewFrame"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

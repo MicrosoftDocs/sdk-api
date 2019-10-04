@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_DECODER, WS_CHANNEL_DECODER structure [Web Services for 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_CHANNEL_DECODER"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

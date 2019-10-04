@@ -12,6 +12,8 @@ ms.keywords: NdfCancelIncident, NdfCancelIncident function [NDF], ndf.ndfcanceli
 ms.topic: function
 f1_keywords: 
  - "ndfapi/NdfCancelIncident"
+dev_langs:
+ - c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

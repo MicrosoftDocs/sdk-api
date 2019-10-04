@@ -12,6 +12,8 @@ ms.keywords: CALL_MEDIA_EVENT, CALL_MEDIA_EVENT enumeration [TAPI 2.2], CME_NEW_
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALL_MEDIA_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

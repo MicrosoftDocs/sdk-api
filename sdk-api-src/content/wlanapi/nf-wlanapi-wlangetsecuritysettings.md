@@ -12,6 +12,8 @@ ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWI
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetSecuritySettings
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

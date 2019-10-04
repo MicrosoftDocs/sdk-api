@@ -12,6 +12,8 @@ ms.keywords: CopyBytesTo, CopyBytesTo method, CopyBytesTo method,IBitmapData int
 ms.topic: method
 f1_keywords: 
  - "xamlom/IBitmapData.CopyBytesTo"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

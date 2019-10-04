@@ -12,6 +12,8 @@ ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (
 ms.topic: function
 f1_keywords: 
  - "winnetwk/WNetAddConnection"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

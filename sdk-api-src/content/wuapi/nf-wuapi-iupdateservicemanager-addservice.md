@@ -12,6 +12,8 @@ ms.keywords: AddService, AddService method [Windows Update Agent], AddService me
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateServiceManager.AddService"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

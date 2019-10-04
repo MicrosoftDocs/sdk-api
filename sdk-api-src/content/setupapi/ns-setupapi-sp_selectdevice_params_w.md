@@ -12,6 +12,8 @@ ms.keywords: '*PSP_SELECTDEVICE_PARAMS_W, PSP_SELECTDEVICE_PARAMS, PSP_SELECTDEV
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_SELECTDEVICE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

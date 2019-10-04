@@ -12,6 +12,8 @@ ms.keywords: WS_MESSAGE_DONE_CALLBACK, WS_MESSAGE_DONE_CALLBACK callback, WS_MES
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_MESSAGE_DONE_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

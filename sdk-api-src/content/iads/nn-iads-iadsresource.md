@@ -12,6 +12,8 @@ ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsResource"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

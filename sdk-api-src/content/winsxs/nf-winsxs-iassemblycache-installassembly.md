@@ -12,6 +12,8 @@ ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_F
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyCache.InstallAssembly"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

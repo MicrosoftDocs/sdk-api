@@ -12,6 +12,8 @@ ms.keywords: ISearchManager interface [search],get_ProxyName method, ISearchMana
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchManager.get_ProxyName"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

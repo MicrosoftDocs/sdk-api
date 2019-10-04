@@ -12,6 +12,8 @@ ms.keywords: MPEG1VIDEOINFO, MPEG1VIDEOINFO structure [DirectShow], MPEG1VIDEOIN
 ms.topic: struct
 f1_keywords: 
  - "amvideo/MPEG1VIDEOINFO"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN str
 ms.topic: struct
 f1_keywords: 
  - "winnt/TOKEN_LINKED_TOKEN"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

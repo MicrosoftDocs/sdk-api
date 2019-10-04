@@ -12,6 +12,8 @@ ms.keywords: IContactManager, IContactManager interface [Windows Contacts], ICon
 ms.topic: interface
 f1_keywords: 
  - "icontact/IContactManager"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

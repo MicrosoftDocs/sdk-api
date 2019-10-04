@@ -12,6 +12,8 @@ ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatency
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynthSink.GetLatencyClock"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

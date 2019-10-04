@@ -12,6 +12,8 @@ ms.keywords: SHREGENUM_BOTH, SHREGENUM_DEFAULT, SHREGENUM_FLAGS, SHREGENUM_FLAGS
 ms.topic: enum
 f1_keywords: 
  - "shlwapi/SHREGENUM_FLAGS"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

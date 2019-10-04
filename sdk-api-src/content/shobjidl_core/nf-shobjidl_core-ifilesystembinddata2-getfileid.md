@@ -12,6 +12,8 @@ ms.keywords: GetFileID, GetFileID method [Windows Shell], GetFileID method [Wind
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSystemBindData2.GetFileID
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

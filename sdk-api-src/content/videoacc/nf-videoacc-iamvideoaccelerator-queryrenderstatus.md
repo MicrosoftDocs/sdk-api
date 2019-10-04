@@ -12,6 +12,8 @@ ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [Direct
 ms.topic: method
 f1_keywords: 
  - "videoacc/IAMVideoAccelerator.QueryRenderStatus"
+dev_langs:
+ - c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

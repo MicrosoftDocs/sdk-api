@@ -12,6 +12,8 @@ ms.keywords: GetDataDemands, GetDataDemands method [windows Media Device Manager
 ms.topic: method
 f1_keywords: 
  - "mswmdm/ISCPSecureQuery.GetDataDemands"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

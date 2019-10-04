@@ -12,6 +12,8 @@ ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure 
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_ACP_AND_CGMSA_SIGNALING
+dev_langs:
+ - c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

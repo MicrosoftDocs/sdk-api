@@ -12,6 +12,8 @@ ms.keywords: DllUnregisterServer, DllUnregisterServer function [COM], _com_DllUn
 ms.topic: function
 f1_keywords: 
  - "olectl/DllUnregisterServer"
+dev_langs:
+ - c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

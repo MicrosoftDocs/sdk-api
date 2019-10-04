@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interf
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationTimerEventHandler"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

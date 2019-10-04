@@ -12,6 +12,8 @@ ms.keywords: '*PDDSETSTATEININFO, DDSETSTATEININFO, DDSETSTATEININFO structure [
 ms.topic: struct
 f1_keywords:
 - dxmini/DDSETSTATEININFO
+dev_langs:
+ - c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

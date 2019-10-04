@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPT_TIME_STAMP_REQUEST_INFO, CRYPT_TIME_STAMP_REQUEST_INFO, CR
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_TIME_STAMP_REQUEST_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

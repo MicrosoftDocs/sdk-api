@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_ATTRIB, *PDHCP_ATTRIB, DHCP_ATTRIB, DHCP_ATTRIB structure 
 ms.topic: struct
 f1_keywords: 
  - "dhcpsapi/DHCP_ATTRIB"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

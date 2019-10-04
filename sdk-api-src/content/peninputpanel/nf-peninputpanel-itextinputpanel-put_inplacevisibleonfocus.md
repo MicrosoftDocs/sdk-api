@@ -12,6 +12,8 @@ ms.keywords: 487ffcee-9df6-48db-8c84-e7e073b8a643, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.InPlaceVisibleOnFocus"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

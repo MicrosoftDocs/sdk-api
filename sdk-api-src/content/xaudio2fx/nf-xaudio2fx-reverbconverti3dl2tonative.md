@@ -12,6 +12,8 @@ ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XA
 ms.topic: function
 f1_keywords: 
  - "xaudio2fx/ReverbConvertI3DL2ToNative"
+dev_langs:
+ - c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

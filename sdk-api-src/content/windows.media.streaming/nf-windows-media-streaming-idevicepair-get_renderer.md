@@ -12,6 +12,8 @@ ms.keywords: IDevicePair interface [Media Streaming API],get_Renderer method, ID
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IDevicePair.get_Renderer"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

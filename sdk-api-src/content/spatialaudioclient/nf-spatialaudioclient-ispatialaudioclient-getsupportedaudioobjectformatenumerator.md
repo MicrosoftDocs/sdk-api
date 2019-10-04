@@ -12,6 +12,8 @@ ms.keywords: GetSupportedAudioObjectFormatEnumerator, GetSupportedAudioObjectFor
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

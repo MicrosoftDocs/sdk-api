@@ -12,6 +12,8 @@ ms.keywords: 11195fa1-ca59-4da6-8454-6209c75ccc67, GetObjectTransform, GetObject
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.GetObjectTransform"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

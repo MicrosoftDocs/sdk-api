@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_JOB_PARAMW, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_PARAM, F
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_JOB_PARAM"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

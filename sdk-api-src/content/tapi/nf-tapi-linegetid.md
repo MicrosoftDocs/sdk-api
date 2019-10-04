@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGe
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetID"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

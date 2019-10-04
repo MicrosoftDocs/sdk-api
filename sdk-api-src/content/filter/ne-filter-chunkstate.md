@@ -12,6 +12,8 @@ ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER
 ms.topic: enum
 f1_keywords: 
  - "filter/CHUNKSTATE"
+dev_langs:
+ - c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

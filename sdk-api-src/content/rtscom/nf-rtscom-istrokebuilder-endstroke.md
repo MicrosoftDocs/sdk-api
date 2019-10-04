@@ -12,6 +12,8 @@ ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet P
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStrokeBuilder.EndStroke"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

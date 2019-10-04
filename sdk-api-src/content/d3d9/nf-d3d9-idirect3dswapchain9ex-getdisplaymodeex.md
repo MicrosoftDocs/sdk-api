@@ -12,6 +12,8 @@ ms.keywords: GetDisplayModeEx, GetDisplayModeEx method [Direct3D 9], GetDisplayM
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DSwapChain9Ex.GetDisplayModeEx"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

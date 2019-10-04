@@ -12,6 +12,8 @@ ms.keywords: ITextStory interface [Windows Controls],SetActive method, ITextStor
 ms.topic: method
 f1_keywords: 
  - "tom/ITextStory.SetActive"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

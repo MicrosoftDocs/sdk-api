@@ -12,6 +12,8 @@ ms.keywords: Heap32ListNext, Heap32ListNext function [ToolHelp], _win32_heap32li
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Heap32ListNext"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

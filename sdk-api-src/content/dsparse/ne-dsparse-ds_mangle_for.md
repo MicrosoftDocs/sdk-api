@@ -12,6 +12,8 @@ ms.keywords: DS_MANGLE_FOR, DS_MANGLE_FOR enumeration [Active Directory], DS_MAN
 ms.topic: enum
 f1_keywords: 
  - "dsparse/DS_MANGLE_FOR"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

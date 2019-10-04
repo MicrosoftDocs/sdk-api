@@ -12,6 +12,8 @@ ms.keywords: AVIStreamAddRef, AVIStreamAddRef function [Windows Multimedia], _wi
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIStreamAddRef"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

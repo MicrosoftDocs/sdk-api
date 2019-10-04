@@ -12,6 +12,8 @@ ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Window
 ms.topic: function
 f1_keywords: 
  - "winbio/WinBioGetEnrolledFactors"
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

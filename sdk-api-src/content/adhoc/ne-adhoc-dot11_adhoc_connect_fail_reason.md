@@ -12,6 +12,8 @@ ms.keywords: DOT11_ADHOC_CONNECT_FAIL_DOMAIN_MISMATCH, DOT11_ADHOC_CONNECT_FAIL_
 ms.topic: enum
 f1_keywords: 
  - "adhoc/DOT11_ADHOC_CONNECT_FAIL_REASON"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

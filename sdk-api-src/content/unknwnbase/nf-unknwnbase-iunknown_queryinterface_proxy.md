@@ -12,6 +12,8 @@ ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy functi
 ms.topic: function
 f1_keywords: 
  - "unknwnbase/IUnknown_QueryInterface_Proxy"
+dev_langs:
+ - c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClientCallback, ClientCallback callback function [Security], LSA_CL
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/ClientCallback
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

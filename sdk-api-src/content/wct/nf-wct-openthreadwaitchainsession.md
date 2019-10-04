@@ -12,6 +12,8 @@ ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WC
 ms.topic: function
 f1_keywords: 
  - "wct/OpenThreadWaitChainSession"
+dev_langs:
+ - c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

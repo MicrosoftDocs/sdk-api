@@ -12,6 +12,8 @@ ms.keywords: GetInterface, GetInterface method [NativeWIFI], GetInterface method
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocNetwork.GetInterface"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

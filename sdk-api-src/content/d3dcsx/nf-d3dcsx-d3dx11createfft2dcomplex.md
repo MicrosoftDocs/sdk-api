@@ -12,6 +12,8 @@ ms.keywords: D3DX11CreateFFT2DComplex, D3DX11CreateFFT2DComplex function [Direct
 ms.topic: function
 f1_keywords: 
  - "d3dcsx/D3DX11CreateFFT2DComplex"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

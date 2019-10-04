@@ -12,6 +12,8 @@ ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], 
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Blur.Blur"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

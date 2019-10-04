@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_CERTIFICATE_INFO, KERB_CERTIFICATE_INFO, KERB_CERTIFICATE_I
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_CERTIFICATE_INFO
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

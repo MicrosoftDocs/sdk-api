@@ -12,6 +12,8 @@ ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manag
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPDeviceControl.GetCapabilities"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FlsAlloc, FlsAlloc function, _win32_flsalloc, base.flsalloc, fibers
 ms.topic: function
 f1_keywords: 
  - "fibersapi/FlsAlloc"
+dev_langs:
+ - c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

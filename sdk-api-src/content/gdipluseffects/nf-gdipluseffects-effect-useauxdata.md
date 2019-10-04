@@ -12,6 +12,8 @@ ms.keywords: Effect class [GDI+],UseAuxData method, Effect.UseAuxData, Effect::U
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Effect.UseAuxData"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

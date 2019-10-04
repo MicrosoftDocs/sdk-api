@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_PROTOCOL_REQUEST_HANDLER, PROPERTY_PROTOCOL_START, PROTOCO
 ms.topic: enum
 f1_keywords: 
  - "sdoias/PROTOCOLPROPERTIES"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

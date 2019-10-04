@@ -12,6 +12,8 @@ ms.keywords: MI_ParameterSet_GetMethodReturnType, MI_ParameterSet_GetMethodRetur
 ms.topic: function
 f1_keywords:
 - mi/MI_ParameterSet_GetMethodReturnType
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

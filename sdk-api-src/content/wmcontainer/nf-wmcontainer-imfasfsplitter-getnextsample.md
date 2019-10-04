@@ -12,6 +12,8 @@ ms.keywords: 85133059-6710-4fb2-b42b-f54747816f9c, ASF_STATUSFLAGS_INCOMPLETE, G
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFSplitter.GetNextSample"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PSS_PERFORMANCE_COUNTERS, PSS_PERFORMANCE_COUNTERS structure, proc_
 ms.topic: struct
 f1_keywords: 
  - "processsnapshot/PSS_PERFORMANCE_COUNTERS"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

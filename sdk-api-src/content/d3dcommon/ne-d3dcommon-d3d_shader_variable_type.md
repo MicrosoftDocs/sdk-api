@@ -12,6 +12,8 @@ ms.keywords: D3D10_SVT_BLEND, D3D10_SVT_BOOL, D3D10_SVT_BUFFER, D3D10_SVT_CBUFFE
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SHADER_VARIABLE_TYPE
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

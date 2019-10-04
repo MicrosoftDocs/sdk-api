@@ -12,6 +12,8 @@ ms.keywords: MBN_DEVICEID_LEN, MBN_FIRMWARE_LEN, MBN_INTERFACE_CAPS_CONSTANTS, M
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_INTERFACE_CAPS_CONSTANTS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

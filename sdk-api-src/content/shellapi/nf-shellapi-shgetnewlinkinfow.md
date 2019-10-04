@@ -12,6 +12,8 @@ ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNL
 ms.topic: function
 f1_keywords: 
  - "shellapi/SHGetNewLinkInfo"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

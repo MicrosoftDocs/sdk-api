@@ -12,6 +12,8 @@ ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [T
 ms.topic: interface
 f1_keywords: 
  - "ctffunc/ITfFnConfigureRegisterEudc"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows

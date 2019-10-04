@@ -12,6 +12,8 @@ ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, 
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/EjectNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

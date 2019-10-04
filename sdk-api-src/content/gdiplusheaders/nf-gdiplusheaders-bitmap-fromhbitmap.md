@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],FromHBITMAP method, Bitmap.FromHBITMAP, Bitmap:
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.FromHBITMAP"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

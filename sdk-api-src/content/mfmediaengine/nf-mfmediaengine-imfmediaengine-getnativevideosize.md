@@ -12,6 +12,8 @@ ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], G
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetNativeVideoSize"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

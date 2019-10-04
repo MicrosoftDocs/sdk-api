@@ -12,6 +12,8 @@ ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareH
 ms.topic: function
 f1_keywords: 
  - "mmeapi/midiOutPrepareHeader"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

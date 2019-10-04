@@ -12,6 +12,8 @@ ms.keywords: PathGradientBrush, PathGradientBrush class [GDI+],PathGradientBrush
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/PathGradientBrush.PathGradientBrush"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

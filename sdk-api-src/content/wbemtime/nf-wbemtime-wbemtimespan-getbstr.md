@@ -12,6 +12,8 @@ ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBS
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan.GetBSTR"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

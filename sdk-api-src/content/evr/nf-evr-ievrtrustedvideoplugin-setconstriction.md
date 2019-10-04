@@ -12,6 +12,8 @@ ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRTrustedVideoPlugin.SetConstriction"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

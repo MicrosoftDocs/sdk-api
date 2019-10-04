@@ -12,6 +12,8 @@ ms.keywords: GetSupportedResources, GetSupportedResources method [Windows Portab
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceResources.GetSupportedResources"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

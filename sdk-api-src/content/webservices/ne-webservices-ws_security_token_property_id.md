@@ -12,6 +12,8 @@ ms.keywords: WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML, WS_SECURITY_TOKE
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_TOKEN_PROPERTY_ID
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

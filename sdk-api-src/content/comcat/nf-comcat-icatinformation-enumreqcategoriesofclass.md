@@ -12,6 +12,8 @@ ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], En
 ms.topic: method
 f1_keywords: 
  - "comcat/ICatInformation.EnumReqCategoriesOfClass"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

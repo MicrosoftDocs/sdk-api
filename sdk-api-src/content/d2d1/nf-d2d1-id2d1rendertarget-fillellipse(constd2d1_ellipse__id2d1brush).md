@@ -12,6 +12,8 @@ ms.keywords: FillEllipse, FillEllipse method [Direct2D], FillEllipse method [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget.FillEllipse"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

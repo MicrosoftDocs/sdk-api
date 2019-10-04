@@ -12,6 +12,8 @@ ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Access
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaEventRemoveWindow"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

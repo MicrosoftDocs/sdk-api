@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetStroke method, ID2D1SvgG
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1SvgGlyphStyle.SetStroke"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

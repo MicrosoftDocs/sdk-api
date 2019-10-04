@@ -12,6 +12,8 @@ ms.keywords: MFFrameSourceTypes, MFFrameSourceTypes enumeration [Media Foundatio
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFFrameSourceTypes"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

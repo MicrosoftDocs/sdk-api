@@ -12,6 +12,8 @@ ms.keywords: DdCreatePalette, DdCreatePalette callback function [Display Devices
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdCreatePalette
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

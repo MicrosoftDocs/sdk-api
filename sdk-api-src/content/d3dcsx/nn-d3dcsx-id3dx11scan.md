@@ -12,6 +12,8 @@ ms.keywords: ID3DX11Scan, ID3DX11Scan interface [Direct3D 11], ID3DX11Scan inter
 ms.topic: interface
 f1_keywords: 
  - "d3dcsx/ID3DX11Scan"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

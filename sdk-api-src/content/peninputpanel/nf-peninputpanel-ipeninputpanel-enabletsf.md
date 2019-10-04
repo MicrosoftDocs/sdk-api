@@ -12,6 +12,8 @@ ms.keywords: 2c28e007-f06b-4d04-91a5-10e4b087fb2f, EnableTsf, EnableTsf method [
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/IPenInputPanel.EnableTsf"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

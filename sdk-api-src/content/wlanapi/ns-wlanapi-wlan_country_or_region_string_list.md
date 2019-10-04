@@ -12,6 +12,8 @@ ms.keywords: "*PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRI
 ms.topic: struct
 f1_keywords: 
  - "wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

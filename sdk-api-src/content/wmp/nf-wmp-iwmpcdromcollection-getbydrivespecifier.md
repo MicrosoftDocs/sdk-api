@@ -12,6 +12,8 @@ ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpec
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCdromCollection.getByDriveSpecifier"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

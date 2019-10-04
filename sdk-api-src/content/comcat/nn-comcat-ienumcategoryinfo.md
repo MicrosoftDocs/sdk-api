@@ -12,6 +12,8 @@ ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORY
 ms.topic: interface
 f1_keywords: 
  - "comcat/IEnumCATEGORYINFO"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

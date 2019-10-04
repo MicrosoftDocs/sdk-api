@@ -12,6 +12,8 @@ ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Reso
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaBase.EnumThresholdActions"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

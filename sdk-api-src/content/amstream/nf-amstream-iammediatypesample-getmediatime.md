@@ -12,6 +12,8 @@ ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method
 ms.topic: method
 f1_keywords: 
  - "amstream/IAMMediaTypeSample.GetMediaTime"
+dev_langs:
+ - c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

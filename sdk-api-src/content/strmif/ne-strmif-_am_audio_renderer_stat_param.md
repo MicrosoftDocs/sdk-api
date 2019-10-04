@@ -12,6 +12,8 @@ ms.keywords: AM_AUDREND_STAT_PARAM_BREAK_COUNT, AM_AUDREND_STAT_PARAM_BUFFERFULL
 ms.topic: enum
 f1_keywords: 
  - "strmif/_AM_AUDIO_RENDERER_STAT_PARAM"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

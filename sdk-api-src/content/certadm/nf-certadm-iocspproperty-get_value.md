@@ -12,6 +12,8 @@ ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Va
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPProperty.Value"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

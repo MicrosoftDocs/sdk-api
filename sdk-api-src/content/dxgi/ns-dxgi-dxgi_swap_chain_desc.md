@@ -12,6 +12,8 @@ ms.keywords: 04b5d6e7-f014-9f92-ee14-6dd943b40ce5, DXGI_SWAP_CHAIN_DESC, DXGI_SW
 ms.topic: struct
 f1_keywords: 
  - "dxgi/DXGI_SWAP_CHAIN_DESC"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

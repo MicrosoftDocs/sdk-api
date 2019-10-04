@@ -12,6 +12,8 @@ ms.keywords: ListView_GetEditControl, ListView_GetEditControl macro [Windows Con
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetEditControl"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

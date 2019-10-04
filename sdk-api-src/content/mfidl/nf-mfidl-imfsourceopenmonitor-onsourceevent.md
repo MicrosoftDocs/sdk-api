@@ -12,6 +12,8 @@ ms.keywords: 19b9a891-5116-41b3-8750-85f2c23d3d7f, IMFSourceOpenMonitor interfac
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSourceOpenMonitor.OnSourceEvent"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

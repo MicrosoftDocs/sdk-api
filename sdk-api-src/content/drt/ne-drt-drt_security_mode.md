@@ -12,6 +12,8 @@ ms.keywords: DRT_SECURE_CONFIDENTIALPAYLOAD, DRT_SECURE_MEMBERSHIP, DRT_SECURE_R
 ms.topic: enum
 f1_keywords: 
  - "drt/DRT_SECURITY_MODE"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

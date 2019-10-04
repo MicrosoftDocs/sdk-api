@@ -12,6 +12,8 @@ ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnReadSample m
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReaderCallback.OnReadSample"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

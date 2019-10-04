@@ -12,6 +12,8 @@ ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegrou
 ms.topic: interface
 f1_keywords: 
  - "objidl/IForegroundTransfer"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

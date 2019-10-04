@@ -12,6 +12,8 @@ ms.keywords: '*PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE structur
 ms.topic: struct
 f1_keywords:
 - rpcndr/MIDL_STUB_MESSAGE
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

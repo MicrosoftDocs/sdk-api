@@ -12,6 +12,8 @@ ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback, PF
 ms.topic: callback
 f1_keywords: 
  - "p2p/PFNPEER_FREE_SECURITY_DATA"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

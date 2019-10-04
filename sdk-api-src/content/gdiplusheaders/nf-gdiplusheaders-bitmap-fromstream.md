@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],FromStream method, Bitmap.FromStream, Bitmap::F
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.FromStream"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

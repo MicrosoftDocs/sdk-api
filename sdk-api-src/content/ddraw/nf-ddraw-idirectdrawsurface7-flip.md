@@ -12,6 +12,8 @@ ms.keywords: DDFLIP_DONOTWAIT, DDFLIP_EVEN, DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, 
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.Flip
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

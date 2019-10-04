@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6, *PSOCKADD
 ms.topic: struct
 f1_keywords: 
  - "ws2ipdef/SOCKADDR_IN6"
+dev_langs:
+ - c++
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], netsh/NS_REQS, netshell.ns
 ms.topic: enum
 f1_keywords: 
  - "netsh/NS_REQS"
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

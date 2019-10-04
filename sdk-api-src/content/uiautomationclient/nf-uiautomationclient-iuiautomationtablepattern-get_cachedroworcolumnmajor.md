@@ -12,6 +12,8 @@ ms.keywords: CachedRowOrColumnMajor property [Windows Accessibility], CachedRowO
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTablePattern.CachedRowOrColumnMajor"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

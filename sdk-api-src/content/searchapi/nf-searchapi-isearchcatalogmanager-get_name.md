@@ -12,6 +12,8 @@ ms.keywords: ISearchCatalogManager interface [search],get_Name method, ISearchCa
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchCatalogManager.get_Name"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

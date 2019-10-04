@@ -12,6 +12,8 @@ ms.keywords: AdjustableArrowCap class [GDI+],IsFilled method, AdjustableArrowCap
 ms.topic: method
 f1_keywords: 
  - "gdipluslinecaps/AdjustableArrowCap.IsFilled"
+dev_langs:
+ - c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

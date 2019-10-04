@@ -12,6 +12,8 @@ ms.keywords: ITraceEvent interface [ETW],SetEventDescriptor method, ITraceEvent.
 ms.topic: method
 f1_keywords:
 - relogger/ITraceEvent.SetEventDescriptor
+dev_langs:
+ - c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

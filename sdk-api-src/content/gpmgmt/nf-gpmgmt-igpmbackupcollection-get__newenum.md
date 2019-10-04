@@ -12,6 +12,8 @@ ms.keywords: IGPMBackupCollection interface [GPMC],get__NewEnum method, IGPMBack
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMBackupCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

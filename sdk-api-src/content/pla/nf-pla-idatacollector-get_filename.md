@@ -12,6 +12,8 @@ ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector int
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollector.FileName"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

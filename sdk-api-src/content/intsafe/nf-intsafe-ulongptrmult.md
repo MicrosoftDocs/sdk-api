@@ -12,6 +12,8 @@ ms.keywords: ULongPtrMult, ULongPtrMult function [Windows Shell], _shell_ULongPt
 ms.topic: function
 f1_keywords: 
  - "intsafe/ULongPtrMult"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

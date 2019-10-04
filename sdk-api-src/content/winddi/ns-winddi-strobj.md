@@ -12,6 +12,8 @@ ms.keywords: STROBJ, STROBJ structure [Display Devices], display.strobj, grstrct
 ms.topic: struct
 f1_keywords:
 - winddi/STROBJ
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

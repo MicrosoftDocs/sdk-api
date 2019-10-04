@@ -12,6 +12,8 @@ ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetApplica
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IApplicationDesignModeSettings.SetApplicationViewState"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

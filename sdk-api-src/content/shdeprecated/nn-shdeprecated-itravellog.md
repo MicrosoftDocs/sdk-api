@@ -12,6 +12,8 @@ ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], ITravelLog interf
 ms.topic: interface
 f1_keywords: 
  - "shdeprecated/ITravelLog"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

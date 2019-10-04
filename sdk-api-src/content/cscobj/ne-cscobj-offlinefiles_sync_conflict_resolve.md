@@ -12,6 +12,8 @@ ms.keywords: OFFLINEFILES_SYNC_CONFLICT_ABORT, OFFLINEFILES_SYNC_CONFLICT_RESOLV
 ms.topic: enum
 f1_keywords: 
  - "cscobj/OFFLINEFILES_SYNC_CONFLICT_RESOLVE"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

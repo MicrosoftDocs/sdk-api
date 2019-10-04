@@ -12,6 +12,8 @@ ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFInputTrustAuthority.GetDecrypter"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

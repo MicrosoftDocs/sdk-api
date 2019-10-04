@@ -12,6 +12,8 @@ ms.keywords: 9d229d50-5ad7-e9ba-b0c4-0bf1f4d7f591, IDirect3DBaseTexture9 interfa
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DBaseTexture9.SetAutoGenFilterType
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

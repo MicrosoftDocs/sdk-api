@@ -12,6 +12,8 @@ ms.keywords: DHCP_POL_ATTR_TYPE, DHCP_POL_ATTR_TYPE enumeration [DHCP], DhcpAttr
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_POL_ATTR_TYPE
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

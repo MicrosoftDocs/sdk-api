@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GRID_FIT_MODE, DWRITE_GRID_FIT_MODE enumeration [Direct Writ
 ms.topic: enum
 f1_keywords: 
  - "dwrite_2/DWRITE_GRID_FIT_MODE"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

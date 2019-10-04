@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [Side-by-side Assemblies], Ge
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyName.GetDisplayName"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

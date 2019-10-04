@@ -12,6 +12,8 @@ ms.keywords: FindItemByLParam, FindItemByLParam method [MMC], FindItemByLParam m
 ms.topic: method
 f1_keywords: 
  - "mmc/IResultData.FindItemByLParam"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

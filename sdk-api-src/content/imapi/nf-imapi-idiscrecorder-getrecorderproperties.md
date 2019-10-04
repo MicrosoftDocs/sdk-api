@@ -12,6 +12,8 @@ ms.keywords: GetRecorderProperties, GetRecorderProperties method [IMAPI], GetRec
 ms.topic: method
 f1_keywords: 
  - "imapi/IDiscRecorder.GetRecorderProperties"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

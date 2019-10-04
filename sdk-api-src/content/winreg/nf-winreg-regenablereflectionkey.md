@@ -12,6 +12,8 @@ ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regen
 ms.topic: function
 f1_keywords: 
  - "winreg/RegEnableReflectionKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

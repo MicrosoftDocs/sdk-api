@@ -12,6 +12,8 @@ ms.keywords: "*PNOTIFYICONDATAA, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, N
 ms.topic: struct
 f1_keywords: 
  - "shellapi/NOTIFYICONDATA"
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

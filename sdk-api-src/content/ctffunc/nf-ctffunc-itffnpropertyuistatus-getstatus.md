@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus me
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnPropertyUIStatus.GetStatus"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

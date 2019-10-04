@@ -12,6 +12,8 @@ ms.keywords: GetEmfPlusFlags, GetEmfPlusFlags method [GDI+], GetEmfPlusFlags met
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.GetEmfPlusFlags"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RegisterScaleChangeEvent, RegisterScaleChangeEvent function [Window
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/RegisterScaleChangeEvent"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

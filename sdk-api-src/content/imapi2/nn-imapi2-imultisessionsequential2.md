@@ -12,6 +12,8 @@ ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IMultisessionSequential2"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

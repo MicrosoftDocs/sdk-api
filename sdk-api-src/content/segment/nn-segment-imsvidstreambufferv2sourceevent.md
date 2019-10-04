@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent in
 ms.topic: interface
 f1_keywords: 
  - "segment/IMSVidStreamBufferV2SourceEvent"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

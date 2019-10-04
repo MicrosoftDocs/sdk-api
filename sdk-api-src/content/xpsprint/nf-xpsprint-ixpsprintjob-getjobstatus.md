@@ -12,6 +12,8 @@ ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus metho
 ms.topic: method
 f1_keywords: 
  - "xpsprint/IXpsPrintJob.GetJobStatus"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

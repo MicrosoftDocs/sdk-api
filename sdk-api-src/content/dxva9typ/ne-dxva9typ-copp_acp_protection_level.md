@@ -12,6 +12,8 @@ ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Lev
 ms.topic: enum
 f1_keywords: 
  - "dxva9typ/COPP_ACP_Protection_Level"
+dev_langs:
+ - c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

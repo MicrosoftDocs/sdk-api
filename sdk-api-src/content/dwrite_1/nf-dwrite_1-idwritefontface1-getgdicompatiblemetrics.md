@@ -12,6 +12,8 @@ ms.keywords: GetGdiCompatibleMetrics, GetGdiCompatibleMetrics method [Direct Wri
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteFontFace1.GetGdiCompatibleMetrics"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

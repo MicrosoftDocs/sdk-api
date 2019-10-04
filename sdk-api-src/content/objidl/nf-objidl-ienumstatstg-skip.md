@@ -12,6 +12,8 @@ ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATS
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumSTATSTG.Skip"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

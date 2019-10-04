@@ -12,6 +12,8 @@ ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation]
 ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoSurfaceInfo
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

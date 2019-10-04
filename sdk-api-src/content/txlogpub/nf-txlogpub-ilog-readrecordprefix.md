@@ -12,6 +12,8 @@ ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix
 ms.topic: method
 f1_keywords: 
  - "txlogpub/ILog.ReadRecordPrefix"
+dev_langs:
+ - c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows

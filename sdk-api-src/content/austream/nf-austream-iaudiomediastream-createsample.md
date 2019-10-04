@@ -12,6 +12,8 @@ ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method
 ms.topic: method
 f1_keywords: 
  - "austream/IAudioMediaStream.CreateSample"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

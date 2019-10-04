@@ -12,6 +12,8 @@ ms.keywords: GetScope, GetScope method [Windows Management Instrumentation], Get
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetScope"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

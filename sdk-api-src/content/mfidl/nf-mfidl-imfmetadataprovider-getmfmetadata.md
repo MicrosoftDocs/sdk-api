@@ -12,6 +12,8 @@ ms.keywords: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca, GetMFMetadata, GetMFMetadata 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMetadataProvider.GetMFMetadata"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig metho
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITLegacyAddressMediaControl.SetDevConfig"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

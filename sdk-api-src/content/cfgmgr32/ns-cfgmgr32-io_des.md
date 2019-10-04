@@ -12,6 +12,8 @@ ms.keywords: "*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation
 ms.topic: struct
 f1_keywords: 
  - "cfgmgr32/IO_DES"
+dev_langs:
+ - c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: D3D_INTERPOLATION_CONSTANT, D3D_INTERPOLATION_LINEAR, D3D_INTERPOLA
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_INTERPOLATION_MODE
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

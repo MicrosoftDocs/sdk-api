@@ -12,6 +12,8 @@ ms.keywords: GetLastSettingsChangeTime, GetLastSettingsChangeTime method, GetLas
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWPCSettings.GetLastSettingsChangeTime"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

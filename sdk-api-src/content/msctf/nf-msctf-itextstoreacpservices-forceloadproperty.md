@@ -12,6 +12,8 @@ ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framewor
 ms.topic: method
 f1_keywords: 
  - "msctf/ITextStoreACPServices.ForceLoadProperty"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

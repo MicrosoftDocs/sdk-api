@@ -12,6 +12,8 @@ ms.keywords: CHStringArray interface [Windows Management Instrumentation],Remove
 ms.topic: method
 f1_keywords: 
  - "chstrarr/CHStringArray.RemoveAll"
+dev_langs:
+ - c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

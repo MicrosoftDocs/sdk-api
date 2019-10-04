@@ -12,6 +12,8 @@ ms.keywords: AddMenuItems, AddMenuItems method [MMC], AddMenuItems method [MMC],
 ms.topic: method
 f1_keywords:
 - mmc/IExtendContextMenu.AddMenuItems
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

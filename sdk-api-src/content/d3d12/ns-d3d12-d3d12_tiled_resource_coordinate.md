@@ -12,6 +12,8 @@ ms.keywords: D3D12_TILED_RESOURCE_COORDINATE, D3D12_TILED_RESOURCE_COORDINATE st
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_TILED_RESOURCE_COORDINATE"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

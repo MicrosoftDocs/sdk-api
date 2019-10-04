@@ -12,6 +12,8 @@ ms.keywords: PFN_WdsTransportClientReceiveContents, PFN_WdsTransportClientReceiv
 ms.topic: callback
 f1_keywords: 
  - "wdstci/PFN_WdsTransportClientReceiveContents"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

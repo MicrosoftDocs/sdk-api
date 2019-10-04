@@ -12,6 +12,8 @@ ms.keywords: BindValue, BindValue method, BindValue method,IWinMLEvaluationConte
 ms.topic: method
 f1_keywords: 
  - "winml/IWinMLEvaluationContext.BindValue"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

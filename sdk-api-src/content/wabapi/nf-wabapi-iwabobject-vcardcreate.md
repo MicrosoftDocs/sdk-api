@@ -12,6 +12,8 @@ ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWA
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.VCardCreate"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

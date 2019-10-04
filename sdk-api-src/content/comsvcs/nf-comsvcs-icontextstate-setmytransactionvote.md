@@ -12,6 +12,8 @@ ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContex
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IContextState.SetMyTransactionVote"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

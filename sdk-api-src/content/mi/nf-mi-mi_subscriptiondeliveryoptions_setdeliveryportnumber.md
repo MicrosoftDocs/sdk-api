@@ -12,6 +12,8 @@ ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber, MI_Subscripti
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

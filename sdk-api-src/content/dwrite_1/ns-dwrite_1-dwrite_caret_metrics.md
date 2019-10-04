@@ -12,6 +12,8 @@ ms.keywords: DWRITE_CARET_METRICS, DWRITE_CARET_METRICS structure [Direct Write]
 ms.topic: struct
 f1_keywords: 
  - "dwrite_1/DWRITE_CARET_METRICS"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

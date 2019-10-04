@@ -12,6 +12,8 @@ ms.keywords: IDVB_ST, IDVB_ST interface [Microsoft TV Technologies], IDVB_ST int
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IDVB_ST"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

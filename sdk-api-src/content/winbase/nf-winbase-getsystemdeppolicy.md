@@ -12,6 +12,8 @@ ms.keywords: GetSystemDEPPolicy, GetSystemDEPPolicy function, base.getsystemdepp
 ms.topic: function
 f1_keywords: 
  - "winbase/GetSystemDEPPolicy"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

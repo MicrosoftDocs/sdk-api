@@ -12,6 +12,8 @@ ms.keywords: TreeView_GetVisibleCount, TreeView_GetVisibleCount macro [Windows C
 ms.topic: macro
 f1_keywords: 
  - "commctrl/TreeView_GetVisibleCount"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

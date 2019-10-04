@@ -12,6 +12,8 @@ ms.keywords: MFTUnregisterLocal, MFTUnregisterLocal function [Media Foundation],
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFTUnregisterLocal"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

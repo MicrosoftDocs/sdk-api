@@ -12,6 +12,8 @@ ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile
 ms.topic: function
 f1_keywords: 
  - "fileapi/LockFile"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

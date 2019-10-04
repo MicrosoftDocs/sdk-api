@@ -12,6 +12,8 @@ ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],SetD3DDevice met
 ms.topic: method
 f1_keywords: 
  - "vmr9/IVMRSurfaceAllocatorNotify9.SetD3DDevice"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

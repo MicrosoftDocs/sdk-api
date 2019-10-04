@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_NO_CRL_FLAG, CERT_STORE_NO_ISSUER_FLAG, CERT_STORE_REVOC
 ms.topic: function
 f1_keywords:
 - wincrypt/CertGetIssuerCertificateFromStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

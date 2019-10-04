@@ -12,6 +12,8 @@ ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/G
 ms.topic: function
 f1_keywords: 
  - "filehc/GetDotStuffState"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

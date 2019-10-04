@@ -12,6 +12,8 @@ ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], S
 ms.topic: function
 f1_keywords: 
  - "sspi/SaslEnumerateProfiles"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetl
 ms.topic: function
 f1_keywords: 
  - "winsock/WSASetLastError"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

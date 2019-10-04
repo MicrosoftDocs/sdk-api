@@ -12,6 +12,8 @@ ms.keywords: DIAGNOSIS_STATUS, DIAGNOSIS_STATUS enumeration [NDF], DS_CONFIRMED,
 ms.topic: enum
 f1_keywords: 
  - "ndhelper/DIAGNOSIS_STATUS"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

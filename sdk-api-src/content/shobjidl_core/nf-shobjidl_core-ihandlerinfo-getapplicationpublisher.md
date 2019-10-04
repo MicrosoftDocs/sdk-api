@@ -12,6 +12,8 @@ ms.keywords: GetApplicationPublisher, GetApplicationPublisher method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IHandlerInfo.GetApplicationPublisher"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotificat
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzRegisterCapChangeNotification"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

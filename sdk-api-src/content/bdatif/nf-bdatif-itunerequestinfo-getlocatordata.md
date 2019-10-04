@@ -12,6 +12,8 @@ ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "bdatif/ITuneRequestInfo.GetLocatorData"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

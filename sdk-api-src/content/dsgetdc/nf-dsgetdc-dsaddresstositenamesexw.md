@@ -12,6 +12,8 @@ ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Dir
 ms.topic: function
 f1_keywords: 
  - "dsgetdc/DsAddressToSiteNamesEx"
+dev_langs:
+ - c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

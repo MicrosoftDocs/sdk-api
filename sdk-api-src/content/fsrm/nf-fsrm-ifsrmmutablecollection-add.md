@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [File Server Resource Manager], Add method [File Se
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmMutableCollection.Add"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

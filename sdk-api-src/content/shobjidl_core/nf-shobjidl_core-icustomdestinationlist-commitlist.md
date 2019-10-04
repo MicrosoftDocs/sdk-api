@@ -12,6 +12,8 @@ ms.keywords: CommitList, CommitList method [Windows Shell], CommitList method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICustomDestinationList.CommitList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

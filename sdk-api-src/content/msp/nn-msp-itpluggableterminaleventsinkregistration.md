@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalEventSinkRegistration, ITPluggableTerminalEventS
 ms.topic: interface
 f1_keywords: 
  - "msp/ITPluggableTerminalEventSinkRegistration"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

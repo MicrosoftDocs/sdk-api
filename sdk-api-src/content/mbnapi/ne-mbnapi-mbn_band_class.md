@@ -12,6 +12,8 @@ ms.keywords: MBN_BAND_CLASS, MBN_BAND_CLASS enumeration [Microsoft Broadband Net
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_BAND_CLASS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

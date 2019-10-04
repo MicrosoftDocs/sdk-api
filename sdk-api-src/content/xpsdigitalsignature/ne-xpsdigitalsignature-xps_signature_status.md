@@ -12,6 +12,8 @@ ms.keywords: XPS_SIGNATURE_STATUS, XPS_SIGNATURE_STATUS enumeration [XPS Documen
 ms.topic: enum
 f1_keywords: 
  - "xpsdigitalsignature/XPS_SIGNATURE_STATUS"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

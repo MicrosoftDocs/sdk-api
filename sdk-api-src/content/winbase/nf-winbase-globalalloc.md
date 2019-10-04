@@ -12,6 +12,8 @@ ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, 
 ms.topic: function
 f1_keywords: 
  - "winbase/GlobalAlloc"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

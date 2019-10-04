@@ -12,6 +12,8 @@ ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtec
 ms.topic: function
 f1_keywords: 
  - "sfc/SfcIsKeyProtected"
+dev_langs:
+ - c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows

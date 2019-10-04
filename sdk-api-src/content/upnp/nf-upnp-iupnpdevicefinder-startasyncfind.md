@@ -12,6 +12,8 @@ ms.keywords: IUPnPDeviceFinder interface [UPnP APIs],StartAsyncFind method, IUPn
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceFinder.StartAsyncFind"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

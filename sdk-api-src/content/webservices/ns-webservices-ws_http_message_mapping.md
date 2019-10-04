@@ -12,6 +12,8 @@ ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Ser
 ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_MESSAGE_MAPPING
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

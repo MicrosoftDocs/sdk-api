@@ -12,6 +12,8 @@ ms.keywords: CF_SYNC_ROOT_INFO_BASIC, CF_SYNC_ROOT_INFO_CLASS, CF_SYNC_ROOT_INFO
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_SYNC_ROOT_INFO_CLASS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

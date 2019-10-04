@@ -12,6 +12,8 @@ ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetRadiusY method, ID
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RadialGradientBrush.SetRadiusY"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

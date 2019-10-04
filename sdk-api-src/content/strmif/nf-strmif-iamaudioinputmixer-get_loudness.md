@@ -12,6 +12,8 @@ ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Loudness method, IAMA
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAudioInputMixer.get_Loudness"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Sec
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertPropertyEnrollmentPolicyServer.GetUrlFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

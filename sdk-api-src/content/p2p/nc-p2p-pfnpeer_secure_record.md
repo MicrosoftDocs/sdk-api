@@ -12,6 +12,8 @@ ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECU
 ms.topic: callback
 f1_keywords: 
  - "p2p/PFNPEER_SECURE_RECORD"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

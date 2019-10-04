@@ -12,6 +12,8 @@ ms.keywords: 596545fb-be65-5d46-6b19-d6fd77f59c4b, ID3D10EffectScalarVariable in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.SetBoolArray"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

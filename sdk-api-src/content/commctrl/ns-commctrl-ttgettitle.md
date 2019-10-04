@@ -12,6 +12,8 @@ ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows 
 ms.topic: struct
 f1_keywords: 
  - "commctrl/TTGETTITLE"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

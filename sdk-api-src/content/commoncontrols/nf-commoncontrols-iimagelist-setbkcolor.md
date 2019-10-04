@@ -12,6 +12,8 @@ ms.keywords: IImageList interface [Windows Controls],SetBkColor method, IImageLi
 ms.topic: method
 f1_keywords: 
  - "commoncontrols/IImageList.SetBkColor"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CancelPendingActivation, CancelPendingActivation method [Debugging 
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationActivation.CancelPendingActivation"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

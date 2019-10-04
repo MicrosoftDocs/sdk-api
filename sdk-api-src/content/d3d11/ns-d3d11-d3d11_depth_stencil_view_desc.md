@@ -12,6 +12,8 @@ ms.keywords: 3b37b2e7-77a6-e3c7-bed5-e8584a152e68, D3D11_DEPTH_STENCIL_VIEW_DESC
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

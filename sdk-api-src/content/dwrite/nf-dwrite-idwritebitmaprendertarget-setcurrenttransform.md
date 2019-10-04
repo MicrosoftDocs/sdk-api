@@ -12,6 +12,8 @@ ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],SetCurrentTransf
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteBitmapRenderTarget.SetCurrentTransform"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

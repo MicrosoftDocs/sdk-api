@@ -12,6 +12,8 @@ ms.keywords: GET_RAWINPUT_CODE_WPARAM, GET_RAWINPUT_CODE_WPARAM macro [Keyboard 
 ms.topic: macro
 f1_keywords: 
  - "winuser/GET_RAWINPUT_CODE_WPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

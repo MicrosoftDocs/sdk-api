@@ -12,6 +12,8 @@ ms.keywords: EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE
 ms.topic: function
 f1_keywords: 
  - "winbase/ReportEvent"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

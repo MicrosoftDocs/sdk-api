@@ -12,6 +12,8 @@ ms.keywords: FsrmEventType, FsrmEventType enumeration [File Server Resource Mana
 ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmEventType
+dev_langs:
+ - c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

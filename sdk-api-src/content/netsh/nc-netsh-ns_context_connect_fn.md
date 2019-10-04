@@ -12,6 +12,8 @@ ms.keywords: NS_CONTEXT_CONNECT_FN, NS_CONTEXT_CONNECT_FN callback, NS_CONTEXT_C
 ms.topic: callback
 f1_keywords:
 - netsh/NS_CONTEXT_CONNECT_FN
+dev_langs:
+ - c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

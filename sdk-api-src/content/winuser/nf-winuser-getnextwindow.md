@@ -12,6 +12,8 @@ ms.keywords: GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Wi
 ms.topic: macro
 f1_keywords: 
  - "winuser/GetNextWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

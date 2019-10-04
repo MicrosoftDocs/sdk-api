@@ -12,6 +12,8 @@ ms.keywords: RM_REBOOT_REASON, RM_REBOOT_REASON enumeration [Restart Mgr], RmReb
 ms.topic: enum
 f1_keywords: 
  - "restartmanager/RM_REBOOT_REASON"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

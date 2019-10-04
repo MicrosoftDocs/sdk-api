@@ -12,6 +12,8 @@ ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Se
 ms.topic: interface
 f1_keywords: 
  - "fsrmscreen/IFsrmFileScreenTemplate"
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

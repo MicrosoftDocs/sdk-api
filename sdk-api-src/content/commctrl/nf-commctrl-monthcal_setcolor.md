@@ -12,6 +12,8 @@ ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLET
 ms.topic: macro
 f1_keywords: 
  - "commctrl/MonthCal_SetColor"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

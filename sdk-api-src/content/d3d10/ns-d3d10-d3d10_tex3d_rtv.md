@@ -12,6 +12,8 @@ ms.keywords: D3D10_TEX3D_RTV, D3D10_TEX3D_RTV structure [Direct3D 10], a846ce63-
 ms.topic: struct
 f1_keywords: 
  - "d3d10/D3D10_TEX3D_RTV"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

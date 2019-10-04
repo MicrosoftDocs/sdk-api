@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],Remov
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataBlockWriter.RemoveWriterByIndex"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

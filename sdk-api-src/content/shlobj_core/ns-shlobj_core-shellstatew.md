@@ -12,6 +12,8 @@ ms.keywords: "*LPSHELLSTATEW, LPSHELLSTATE, LPSHELLSTATE structure pointer [Wind
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SHELLSTATE"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDNS_RRSET, *PDNS_RRSET structure [DNS], DNS_RRSET, DNS_RRSET str
 ms.topic: struct
 f1_keywords: 
  - "windns/DNS_RRSET"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

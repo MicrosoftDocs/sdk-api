@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMedi
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.SetLoop"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

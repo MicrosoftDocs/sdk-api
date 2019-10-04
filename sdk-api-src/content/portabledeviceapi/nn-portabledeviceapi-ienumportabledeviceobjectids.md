@@ -12,6 +12,8 @@ ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interfac
 ms.topic: interface
 f1_keywords: 
  - "portabledeviceapi/IEnumPortableDeviceObjectIDs"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

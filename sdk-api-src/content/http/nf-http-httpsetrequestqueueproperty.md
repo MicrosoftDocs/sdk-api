@@ -12,6 +12,8 @@ ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, Http
 ms.topic: function
 f1_keywords:
 - http/HttpSetRequestQueueProperty
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

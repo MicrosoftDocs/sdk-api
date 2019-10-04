@@ -12,6 +12,8 @@ ms.keywords: "*PMCHITTESTINFO, MCHITTESTINFO, MCHITTESTINFO structure [Windows C
 ms.topic: struct
 f1_keywords: 
  - "commctrl/MCHITTESTINFO"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Critical property [Security], Critical property [Security],IX509Ext
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509Extension.Critical"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPConvert.ConvertFile"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

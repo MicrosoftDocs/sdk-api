@@ -12,6 +12,8 @@ ms.keywords: IRawElementProviderSimple, IRawElementProviderSimple interface [Win
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/IRawElementProviderSimple"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

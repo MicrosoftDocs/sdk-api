@@ -12,6 +12,8 @@ ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback
 ms.topic: callback
 f1_keywords: 
  - "winuser/MonitorEnumProc"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

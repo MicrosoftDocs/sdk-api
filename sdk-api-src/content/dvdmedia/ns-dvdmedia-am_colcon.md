@@ -12,6 +12,8 @@ ms.keywords: '*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLC
 ms.topic: struct
 f1_keywords:
 - dvdmedia/AM_COLCON
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

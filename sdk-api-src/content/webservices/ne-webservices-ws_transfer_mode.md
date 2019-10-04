@@ -12,6 +12,8 @@ ms.keywords: WS_BUFFERED_TRANSFER_MODE, WS_STREAMED_INPUT_TRANSFER_MODE, WS_STRE
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_TRANSFER_MODE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

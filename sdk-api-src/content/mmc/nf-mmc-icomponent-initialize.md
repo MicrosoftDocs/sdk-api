@@ -12,6 +12,8 @@ ms.keywords: IComponent interface [MMC],Initialize method, IComponent.Initialize
 ms.topic: method
 f1_keywords: 
  - "mmc/IComponent.Initialize"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

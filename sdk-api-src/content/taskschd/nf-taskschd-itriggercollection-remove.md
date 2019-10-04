@@ -12,6 +12,8 @@ ms.keywords: ITriggerCollection interface [Task Scheduler],Remove method, ITrigg
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITriggerCollection.Remove"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EAP_PEER_METHOD_ROUTINES, EAP_PEER_METHOD_ROUTINES structure [EAPHo
 ms.topic: struct
 f1_keywords:
 - eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
+dev_langs:
+ - c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

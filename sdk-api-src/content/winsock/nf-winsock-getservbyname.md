@@ -12,6 +12,8 @@ ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Win
 ms.topic: function
 f1_keywords: 
  - "winsock/getservbyname"
+dev_langs:
+ - c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

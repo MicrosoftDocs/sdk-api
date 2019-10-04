@@ -12,6 +12,8 @@ ms.keywords: MsiEnumComponents, MsiEnumComponents function, MsiEnumComponentsA, 
 ms.topic: function
 f1_keywords: 
  - "msi/MsiEnumComponents"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInfoForChangeApplication, GetInfoForChangeApplication method [Wi
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncSessionState.GetInfoForChangeApplication"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

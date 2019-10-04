@@ -12,6 +12,8 @@ ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfig
 ms.topic: method
 f1_keywords: 
  - "evr/IEVRFilterConfigEx.GetConfigPrefs"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

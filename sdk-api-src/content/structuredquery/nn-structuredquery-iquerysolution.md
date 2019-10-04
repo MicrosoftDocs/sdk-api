@@ -12,6 +12,8 @@ ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution i
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IQuerySolution"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

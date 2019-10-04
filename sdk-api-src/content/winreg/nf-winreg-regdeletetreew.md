@@ -12,6 +12,8 @@ ms.keywords: RegDeleteTree, RegDeleteTree function, RegDeleteTreeA, RegDeleteTre
 ms.topic: function
 f1_keywords: 
  - "winreg/RegDeleteTree"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

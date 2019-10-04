@@ -12,6 +12,8 @@ ms.keywords: "*LPDHCP_FORCE_FLAG, DHCP_FORCE_FLAG, DHCP_FORCE_FLAG enumeration [
 ms.topic: enum
 f1_keywords: 
  - "dhcpsapi/DHCP_FORCE_FLAG"
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

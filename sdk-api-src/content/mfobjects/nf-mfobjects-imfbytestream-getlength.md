@@ -12,6 +12,8 @@ ms.keywords: 6fb817a6-5b43-4716-a997-bbd8a0b9305d, GetLength, GetLength method [
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFByteStream.GetLength"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

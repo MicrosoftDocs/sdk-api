@@ -12,6 +12,8 @@ ms.keywords: XAUDIO2_BUFFER_WMA, XAUDIO2_BUFFER_WMA structure [XAudio2 Audio Mix
 ms.topic: struct
 f1_keywords: 
  - "xaudio2/XAUDIO2_BUFFER_WMA"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

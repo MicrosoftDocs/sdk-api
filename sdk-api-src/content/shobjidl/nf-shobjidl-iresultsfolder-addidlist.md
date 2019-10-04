@@ -12,6 +12,8 @@ ms.keywords: AddIDList, AddIDList method [Windows Shell], AddIDList method [Wind
 ms.topic: method
 f1_keywords:
 - shobjidl/IResultsFolder.AddIDList
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

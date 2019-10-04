@@ -12,6 +12,8 @@ ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaLog"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

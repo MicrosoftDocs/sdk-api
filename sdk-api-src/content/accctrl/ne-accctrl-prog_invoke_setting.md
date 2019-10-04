@@ -12,6 +12,8 @@ ms.keywords: "*PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING, PPROG_INVOKE_SETTING 
 ms.topic: enum
 f1_keywords: 
  - "accctrl/PROG_INVOKE_SETTING"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

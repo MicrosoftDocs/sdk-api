@@ -12,6 +12,8 @@ ms.keywords: INetDiagHelperEx interface [NDF],ReconfirmLowHealth method, INetDia
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelperEx.ReconfirmLowHealth"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

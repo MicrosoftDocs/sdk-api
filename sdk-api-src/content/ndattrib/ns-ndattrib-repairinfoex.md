@@ -12,6 +12,8 @@ ms.keywords: "*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [ND
 ms.topic: struct
 f1_keywords: 
  - "ndattrib/RepairInfoEx"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

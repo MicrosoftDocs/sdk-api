@@ -12,6 +12,8 @@ ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Prop
 ms.topic: method
 f1_keywords:
 - propsys/IPropertySystem.GetPropertyDescription
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foun
 ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFIndexer.GetSeekPositionForValue
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

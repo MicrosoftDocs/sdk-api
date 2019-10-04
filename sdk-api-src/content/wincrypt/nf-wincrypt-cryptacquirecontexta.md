@@ -12,6 +12,8 @@ ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptAcquireContext"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

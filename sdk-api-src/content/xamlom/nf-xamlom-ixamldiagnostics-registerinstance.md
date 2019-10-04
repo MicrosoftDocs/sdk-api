@@ -12,6 +12,8 @@ ms.keywords: IXamlDiagnostics interface,RegisterInstance method, IXamlDiagnostic
 ms.topic: method
 f1_keywords: 
  - "xamlom/IXamlDiagnostics.RegisterInstance"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

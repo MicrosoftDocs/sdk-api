@@ -12,6 +12,8 @@ ms.keywords: GetPenType, GetPenType method [GDI+], GetPenType method [GDI+],Pen 
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetPenType"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

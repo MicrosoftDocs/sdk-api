@@ -12,6 +12,8 @@ ms.keywords: FindLocaleName, FindLocaleName method [Direct Write], FindLocaleNam
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteLocalizedStrings.FindLocaleName"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

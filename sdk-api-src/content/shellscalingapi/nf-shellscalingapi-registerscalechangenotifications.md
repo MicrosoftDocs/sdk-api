@@ -12,6 +12,8 @@ ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications 
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/RegisterScaleChangeNotifications"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

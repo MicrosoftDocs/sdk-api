@@ -12,6 +12,8 @@ ms.keywords: LPSAFEARRAY_UserFree, LPSAFEARRAY_UserFree function [Automation], _
 ms.topic: function
 f1_keywords: 
  - "wia_xp/LPSAFEARRAY_UserFree"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

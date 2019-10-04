@@ -12,6 +12,8 @@ ms.keywords: DBID, DBID structure [Indexing Service], _idxs_DBID, indexsrv.dbid,
 ms.topic: struct
 f1_keywords: 
  - "oledbguid/DBID"
+dev_langs:
+ - c++
 req.header: oledbguid.h
 req.include-header: 
 req.target-type: Windows

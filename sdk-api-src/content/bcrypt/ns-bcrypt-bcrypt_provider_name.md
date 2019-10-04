@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], bc
 ms.topic: struct
 f1_keywords: 
  - "bcrypt/BCRYPT_PROVIDER_NAME"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

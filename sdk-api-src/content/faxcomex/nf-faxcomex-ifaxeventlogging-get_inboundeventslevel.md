@@ -12,6 +12,8 @@ ms.keywords: IFaxEventLogging interface [Fax Service],InboundEventsLevel propert
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxEventLogging.InboundEventsLevel"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

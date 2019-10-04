@@ -12,6 +12,8 @@ ms.keywords: 3a60bfec-8511-4a84-a833-e0c73c593970, IMFClock, IMFClock interface 
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFClock"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

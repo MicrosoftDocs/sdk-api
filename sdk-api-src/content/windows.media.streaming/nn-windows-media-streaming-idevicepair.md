@@ -12,6 +12,8 @@ ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePa
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IDevicePair"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

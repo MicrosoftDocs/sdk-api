@@ -12,6 +12,8 @@ ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], I
 ms.topic: interface
 f1_keywords: 
  - "winsxs/IAssemblyName"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

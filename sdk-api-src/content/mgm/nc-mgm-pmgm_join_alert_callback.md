@@ -12,6 +12,8 @@ ms.keywords: PMGM_JOIN_ALERT_CALLBACK, PMGM_JOIN_ALERT_CALLBACK callback, PMGM_J
 ms.topic: callback
 f1_keywords: 
  - "mgm/PMGM_JOIN_ALERT_CALLBACK"
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

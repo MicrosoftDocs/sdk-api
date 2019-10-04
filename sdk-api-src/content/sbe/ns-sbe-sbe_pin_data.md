@@ -12,6 +12,8 @@ ms.keywords: SBE_PIN_DATA, SBE_PIN_DATA structure [Microsoft TV Technologies], S
 ms.topic: struct
 f1_keywords: 
  - "sbe/SBE_PIN_DATA"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

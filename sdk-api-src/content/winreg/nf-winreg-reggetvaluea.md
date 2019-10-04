@@ -12,6 +12,8 @@ ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BI
 ms.topic: function
 f1_keywords: 
  - "winreg/RegGetValue"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

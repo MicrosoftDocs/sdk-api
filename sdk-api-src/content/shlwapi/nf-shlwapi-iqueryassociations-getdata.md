@@ -12,6 +12,8 @@ ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shlwapi/IQueryAssociations.GetData"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

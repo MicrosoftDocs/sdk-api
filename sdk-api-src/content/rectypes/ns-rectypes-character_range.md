@@ -12,6 +12,8 @@ ms.keywords: "*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER
 ms.topic: struct
 f1_keywords: 
  - "rectypes/CHARACTER_RANGE"
+dev_langs:
+ - c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

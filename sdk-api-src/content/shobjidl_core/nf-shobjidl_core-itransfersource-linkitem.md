@@ -12,6 +12,8 @@ ms.keywords: ITransferSource interface [Windows Shell],LinkItem method, ITransfe
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ITransferSource.LinkItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

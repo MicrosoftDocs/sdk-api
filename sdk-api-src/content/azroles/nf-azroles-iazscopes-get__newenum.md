@@ -12,6 +12,8 @@ ms.keywords: AzScopes object [Security],_NewEnum property, IAzScopes interface [
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScopes._NewEnum"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

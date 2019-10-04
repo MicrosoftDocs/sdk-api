@@ -12,6 +12,8 @@ ms.keywords: CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CER
 ms.topic: function
 f1_keywords:
 - wincrypt/CertGetCertificateChain
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

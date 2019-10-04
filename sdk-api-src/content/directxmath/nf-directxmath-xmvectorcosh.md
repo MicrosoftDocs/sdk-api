@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorCosH, XMVectorCosH, XMVectorCosH method [Direc
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorCosH"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

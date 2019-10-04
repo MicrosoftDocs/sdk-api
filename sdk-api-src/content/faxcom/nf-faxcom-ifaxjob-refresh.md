@@ -12,6 +12,8 @@ ms.keywords: IFaxJob interface [Fax Service],Refresh method, IFaxJob.Refresh, IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.Refresh"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

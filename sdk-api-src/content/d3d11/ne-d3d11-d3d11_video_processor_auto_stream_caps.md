@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS, D3D11_VIDEO_PROCESSOR_AUTO_
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

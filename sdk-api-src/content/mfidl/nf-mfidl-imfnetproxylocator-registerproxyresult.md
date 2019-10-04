@@ -12,6 +12,8 @@ ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator interface 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFNetProxyLocator.RegisterProxyResult"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

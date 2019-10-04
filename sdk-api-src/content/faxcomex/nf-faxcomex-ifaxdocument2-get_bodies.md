@@ -12,6 +12,8 @@ ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],IFaxDo
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDocument2.Bodies"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

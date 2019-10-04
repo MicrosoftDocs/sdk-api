@@ -12,6 +12,8 @@ ms.keywords: IEnumContextProps interface [COM],Next method, IEnumContextProps.Ne
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumContextProps.Next"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

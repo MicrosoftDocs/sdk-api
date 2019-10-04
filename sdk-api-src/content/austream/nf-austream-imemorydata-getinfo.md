@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],I
 ms.topic: method
 f1_keywords: 
  - "austream/IMemoryData.GetInfo"
+dev_langs:
+ - c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

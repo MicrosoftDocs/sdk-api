@@ -12,6 +12,8 @@ ms.keywords: DrawShadowText, DrawShadowText function [Windows Controls], commctr
 ms.topic: function
 f1_keywords: 
  - "commctrl/DrawShadowText"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

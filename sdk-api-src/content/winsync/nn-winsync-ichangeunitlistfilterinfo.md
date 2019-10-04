@@ -12,6 +12,8 @@ ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Win
 ms.topic: interface
 f1_keywords: 
  - "winsync/IChangeUnitListFilterInfo"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

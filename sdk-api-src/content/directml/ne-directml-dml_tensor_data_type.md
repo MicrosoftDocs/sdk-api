@@ -12,6 +12,8 @@ ms.keywords: DML_TENSOR_DATA_TYPE, DML_TENSOR_DATA_TYPE enumeration, DML_TENSOR_
 ms.topic: enum
 f1_keywords: 
  - "directml/DML_TENSOR_DATA_TYPE"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

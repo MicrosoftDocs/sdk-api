@@ -12,6 +12,8 @@ ms.keywords: DnsRecordCompare, DnsRecordCompare function [DNS], _dns_dnsrecordco
 ms.topic: function
 f1_keywords: 
  - "windns/DnsRecordCompare"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

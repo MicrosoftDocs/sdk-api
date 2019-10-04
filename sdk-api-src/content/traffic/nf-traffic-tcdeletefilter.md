@@ -12,6 +12,8 @@ ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter
 ms.topic: function
 f1_keywords: 
  - "traffic/TcDeleteFilter"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

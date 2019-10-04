@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],ImageAttributes cla
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.Clone"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

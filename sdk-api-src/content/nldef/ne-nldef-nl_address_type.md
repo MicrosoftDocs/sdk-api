@@ -12,6 +12,8 @@ ms.keywords: "*PNL_ADDRESS_TYPE, NL_ADDRESS_TYPE, NL_ADDRESS_TYPE enumeration [N
 ms.topic: enum
 f1_keywords: 
  - "nldef/NL_ADDRESS_TYPE"
+dev_langs:
+ - c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

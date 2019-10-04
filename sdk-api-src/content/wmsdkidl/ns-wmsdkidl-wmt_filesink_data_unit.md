@@ -12,6 +12,8 @@ ms.keywords: WMT_FILESINK_DATA_UNIT, WMT_FILESINK_DATA_UNIT structure [windows M
 ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_FILESINK_DATA_UNIT
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

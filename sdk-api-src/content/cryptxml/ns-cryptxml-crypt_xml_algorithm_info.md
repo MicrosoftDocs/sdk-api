@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_AL
 ms.topic: struct
 f1_keywords: 
  - "cryptxml/CRYPT_XML_ALGORITHM_INFO"
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

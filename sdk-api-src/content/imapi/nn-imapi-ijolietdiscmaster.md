@@ -12,6 +12,8 @@ ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDisc
 ms.topic: interface
 f1_keywords: 
  - "imapi/IJolietDiscMaster"
+dev_langs:
+ - c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

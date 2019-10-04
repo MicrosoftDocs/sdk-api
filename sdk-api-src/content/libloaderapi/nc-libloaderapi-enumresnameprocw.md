@@ -12,6 +12,8 @@ ms.keywords: EnumResNameProc, EnumResNameProc callback, EnumResNameProc callback
 ms.topic: callback
 f1_keywords: 
  - "libloaderapi/EnumResNameProc"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

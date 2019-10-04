@@ -12,6 +12,8 @@ ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses 
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMLicenseRestore.RestoreLicenses"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

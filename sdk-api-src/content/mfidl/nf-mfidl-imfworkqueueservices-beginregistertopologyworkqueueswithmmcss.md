@@ -12,6 +12,8 @@ ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueu
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_IN
 ms.topic: struct
 f1_keywords:
 - scesvc/SCESVC_ANALYSIS_INFO
+dev_langs:
+ - c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLf
 ms.topic: interface
 f1_keywords: 
  - "audioengineendpoint/IAudioLfxControl"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

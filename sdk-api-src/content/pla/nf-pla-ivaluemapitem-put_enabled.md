@@ -12,6 +12,8 @@ ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interf
 ms.topic: method
 f1_keywords: 
  - "pla/IValueMapItem.Enabled"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

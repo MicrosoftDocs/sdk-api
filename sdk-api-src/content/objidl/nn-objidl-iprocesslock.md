@@ -12,6 +12,8 @@ ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface 
 ms.topic: interface
 f1_keywords: 
  - "objidl/IProcessLock"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

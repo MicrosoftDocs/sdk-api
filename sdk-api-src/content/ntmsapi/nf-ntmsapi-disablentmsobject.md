@@ -12,6 +12,8 @@ ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, 
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/DisableNtmsObject"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

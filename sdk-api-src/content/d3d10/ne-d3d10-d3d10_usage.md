@@ -12,6 +12,8 @@ ms.keywords: D3D10_USAGE, D3D10_USAGE enumeration [Direct3D 10], D3D10_USAGE_DEF
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_USAGE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDSBusType1394, VDSBusTypeAta, VDSBusTypeAtapi, VDSBusTypeFibre, VD
 ms.topic: enum
 f1_keywords:
 - vdslun/VDS_STORAGE_BUS_TYPE
+dev_langs:
+ - c++
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows

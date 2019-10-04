@@ -12,6 +12,8 @@ ms.keywords: ImageEnumerateCertificates, ImageEnumerateCertificates function, _w
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageEnumerateCertificates"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

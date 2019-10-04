@@ -12,6 +12,8 @@ ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMF
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.RemoveStream"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

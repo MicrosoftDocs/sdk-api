@@ -12,6 +12,8 @@ ms.keywords: GetPrivileges, GetPrivileges method, GetPrivileges method,IXblIdpAu
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetPrivileges"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

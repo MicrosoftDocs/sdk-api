@@ -12,6 +12,8 @@ ms.keywords: GetTitle, GetTitle method [MMC], GetTitle method [MMC],IExtendTaskP
 ms.topic: method
 f1_keywords: 
  - "mmc/IExtendTaskPad.GetTitle"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

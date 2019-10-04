@@ -12,6 +12,8 @@ ms.keywords: CreateEncoderPropertyBag, CreateEncoderPropertyBag method [Windows 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICComponentFactory.CreateEncoderPropertyBag"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

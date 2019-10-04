@@ -12,6 +12,8 @@ ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refres
 ms.topic: function
 f1_keywords: 
  - "userenv/RefreshPolicy"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

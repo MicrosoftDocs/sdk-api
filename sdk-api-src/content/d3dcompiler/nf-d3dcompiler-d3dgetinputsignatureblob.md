@@ -12,6 +12,8 @@ ms.keywords: 4f2b8180-4af5-06c2-bd88-b229e19ce686, D3DGetInputSignatureBlob, D3D
 ms.topic: function
 f1_keywords: 
  - "d3dcompiler/D3DGetInputSignatureBlob"
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

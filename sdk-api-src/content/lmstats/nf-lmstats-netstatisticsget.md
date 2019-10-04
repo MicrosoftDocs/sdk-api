@@ -12,6 +12,8 @@ ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_nets
 ms.topic: function
 f1_keywords:
 - lmstats/NetStatisticsGet
+dev_langs:
+ - c++
 req.header: lmstats.h
 req.include-header: Lm.h
 req.target-type: Windows

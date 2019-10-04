@@ -12,6 +12,8 @@ ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], IWMPCore2 in
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPCore2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

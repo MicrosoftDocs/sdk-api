@@ -12,6 +12,8 @@ ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComRes
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComResourceEvents.OnResourceTrack"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

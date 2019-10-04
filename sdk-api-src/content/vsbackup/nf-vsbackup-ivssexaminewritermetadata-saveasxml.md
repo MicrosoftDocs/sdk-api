@@ -12,6 +12,8 @@ ms.keywords: IVssExamineWriterMetadata interface [VSS],SaveAsXML method, IVssExa
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadata.SaveAsXML"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

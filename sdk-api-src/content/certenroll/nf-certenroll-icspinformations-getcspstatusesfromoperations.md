@@ -12,6 +12,8 @@ ms.keywords: GetCspStatusesFromOperations, GetCspStatusesFromOperations method [
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformations.GetCspStatusesFromOperations"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPEvents interface [Windows Media Player],StatusChange method, IW
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPEvents.StatusChange"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

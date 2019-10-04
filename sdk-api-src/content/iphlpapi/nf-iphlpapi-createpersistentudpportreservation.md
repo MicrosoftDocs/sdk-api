@@ -12,6 +12,8 @@ ms.keywords: CreatePersistentUdpPortReservation, CreatePersistentUdpPortReservat
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/CreatePersistentUdpPortReservation"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Fail
 ms.topic: callback
 f1_keywords: 
  - "resapi/LooksAlive"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

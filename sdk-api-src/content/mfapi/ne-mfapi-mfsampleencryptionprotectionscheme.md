@@ -12,6 +12,8 @@ ms.keywords: MFSampleEncryptionProtectionScheme, MFSampleEncryptionProtectionSch
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFSampleEncryptionProtectionScheme"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

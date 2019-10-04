@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfElements, GetNumberOfElements method [Microsoft TV Techn
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IServiceLocationDescriptor.GetNumberOfElements"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVssDifferentialSoftwareSnapshotMgmt, IVssDifferentialSoftwareSnaps
 ms.topic: interface
 f1_keywords: 
  - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt"
+dev_langs:
+ - c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

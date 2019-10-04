@@ -12,6 +12,8 @@ ms.keywords: ConditionType, ConditionType enumeration [Windows Accessibility], C
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/ConditionType"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

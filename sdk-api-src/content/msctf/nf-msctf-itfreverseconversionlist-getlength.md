@@ -12,6 +12,8 @@ ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength me
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfReverseConversionList.GetLength"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

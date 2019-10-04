@@ -12,6 +12,8 @@ ms.keywords: MaskBlt, MaskBlt function [Windows GDI], _win32_MaskBlt, gdi.maskbl
 ms.topic: function
 f1_keywords: 
  - "wingdi/MaskBlt"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

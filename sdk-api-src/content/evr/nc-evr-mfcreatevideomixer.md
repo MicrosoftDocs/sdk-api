@@ -12,6 +12,8 @@ ms.keywords: MFCreateVideoMixer, MFCreateVideoMixer callback, MFCreateVideoMixer
 ms.topic: callback
 f1_keywords: 
  - "evr/MFCreateVideoMixer"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

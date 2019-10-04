@@ -12,6 +12,8 @@ ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media 
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.GetOutputStreamAttributes"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumb
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRFilterConfig.GetNumberOfStreams"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

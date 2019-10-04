@@ -12,6 +12,8 @@ ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], securit
 ms.topic: function
 f1_keywords: 
  - "wincred/CredUIReadSSOCredW"
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

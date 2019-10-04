@@ -12,6 +12,8 @@ ms.keywords: 1163d958-fbea-48f3-9ac3-1595c0cc2d32, MFCreateASFProfileFromPresent
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFProfileFromPresentationDescriptor"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: TPMVSCMGR_ERROR, TPMVSCMGR_ERROR enumeration [Security], TPMVSCMGR_
 ms.topic: enum
 f1_keywords: 
  - "tpmvscmgr/TPMVSCMGR_ERROR"
+dev_langs:
+ - c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

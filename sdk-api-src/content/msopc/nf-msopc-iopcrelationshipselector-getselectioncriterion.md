@@ -12,6 +12,8 @@ ms.keywords: GetSelectionCriterion, GetSelectionCriterion method [Open Packaging
 ms.topic: method
 f1_keywords: 
  - "msopc/IOpcRelationshipSelector.GetSelectionCriterion"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

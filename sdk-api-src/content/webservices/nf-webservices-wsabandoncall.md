@@ -12,6 +12,8 @@ ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], w
 ms.topic: function
 f1_keywords: 
  - "webservices/WsAbandonCall"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

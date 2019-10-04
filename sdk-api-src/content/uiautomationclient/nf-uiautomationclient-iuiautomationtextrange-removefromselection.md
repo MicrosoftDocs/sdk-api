@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],RemoveFrom
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTextRange.RemoveFromSelection"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

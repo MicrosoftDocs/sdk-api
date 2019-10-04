@@ -12,6 +12,8 @@ ms.keywords: EapHostPeerGetSendPacket, EapHostPeerGetSendPacket function [EAPHos
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetSendPacket
+dev_langs:
+ - c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLVCOLUMNW, LPLVCOLUMN, LPLVCOLUMN structure pointer [Windows Co
 ms.topic: struct
 f1_keywords: 
  - "commctrl/LVCOLUMN"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

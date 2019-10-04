@@ -12,6 +12,8 @@ ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsU
 ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateProcessAsUser
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

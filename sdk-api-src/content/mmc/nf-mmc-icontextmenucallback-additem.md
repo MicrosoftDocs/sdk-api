@@ -12,6 +12,8 @@ ms.keywords: AddItem, AddItem method [MMC], AddItem method [MMC],IContextMenuCal
 ms.topic: method
 f1_keywords:
 - mmc/IContextMenuCallback.AddItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

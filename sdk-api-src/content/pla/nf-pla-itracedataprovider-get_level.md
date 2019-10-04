@@ -12,6 +12,8 @@ ms.keywords: ITraceDataProvider interface [PLA],Level property, ITraceDataProvid
 ms.topic: method
 f1_keywords: 
  - "pla/ITraceDataProvider.Level"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

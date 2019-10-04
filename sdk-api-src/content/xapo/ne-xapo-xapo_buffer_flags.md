@@ -12,6 +12,8 @@ ms.keywords: XAPO_BUFFER_FLAGS, XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mix
 ms.topic: enum
 f1_keywords: 
  - "xapo/XAPO_BUFFER_FLAGS"
+dev_langs:
+ - c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExt
 ms.topic: method
 f1_keywords:
 - vds/IVdsDisk3.QueryFreeExtents
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

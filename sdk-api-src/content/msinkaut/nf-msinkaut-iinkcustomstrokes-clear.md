@@ -12,6 +12,8 @@ ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet P
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkCustomStrokes.Clear"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

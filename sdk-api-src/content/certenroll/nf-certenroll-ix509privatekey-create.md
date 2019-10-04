@@ -12,6 +12,8 @@ ms.keywords: Create, Create method [Security], Create method [Security],IX509Pri
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Create"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData meth
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQuerySolution.GetLexicalData"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.
 ms.topic: function
 f1_keywords: 
  - "dxgi/CreateDXGIFactory"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

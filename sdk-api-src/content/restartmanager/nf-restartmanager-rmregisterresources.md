@@ -12,6 +12,8 @@ ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], re
 ms.topic: function
 f1_keywords:
 - restartmanager/RmRegisterResources
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

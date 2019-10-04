@@ -12,6 +12,8 @@ ms.keywords: DDD_EXACT_MATCH_ON_REMOVE, DDD_NO_BROADCAST_SYSTEM, DDD_RAW_TARGET_
 ms.topic: function
 f1_keywords: 
  - "fileapi/DefineDosDevice"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

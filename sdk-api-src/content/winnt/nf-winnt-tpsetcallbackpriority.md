@@ -12,6 +12,8 @@ ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PR
 ms.topic: function
 f1_keywords: 
  - "winnt/TpSetCallbackPriority"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

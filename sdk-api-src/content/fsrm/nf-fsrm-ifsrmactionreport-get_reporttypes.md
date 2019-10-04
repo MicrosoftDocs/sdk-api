@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionReport interface [File Server Resource Manager],ReportTy
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionReport.ReportTypes"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

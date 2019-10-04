@@ -12,6 +12,8 @@ ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch
 ms.topic: method
 f1_keywords: 
  - "d2d1_3/ID2D1CommandSink3.DrawSpriteBatch"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

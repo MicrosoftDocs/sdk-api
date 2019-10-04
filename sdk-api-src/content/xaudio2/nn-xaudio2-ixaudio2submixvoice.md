@@ -12,6 +12,8 @@ ms.keywords: IXAudio2SubmixVoice, IXAudio2SubmixVoice interface [XAudio2 Audio M
 ms.topic: interface
 f1_keywords: 
  - "xaudio2/IXAudio2SubmixVoice"
+dev_langs:
+ - c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

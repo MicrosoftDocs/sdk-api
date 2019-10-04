@@ -12,6 +12,8 @@ ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
 ms.topic: function
 f1_keywords:
 - nb30/Netbios
+dev_langs:
+ - c++
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPMC_DISPLAY_TECHNOLOGY_TYPE, LPMC_DISPLAY_TECHNOLOGY_TYPE, LPMC_
 ms.topic: enum
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/MC_DISPLAY_TECHNOLOGY_TYPE"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

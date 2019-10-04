@@ -12,6 +12,8 @@ ms.keywords: IVdsService interface [VDS],QueryDriveLetters method, IVdsService.Q
 ms.topic: method
 f1_keywords:
 - vds/IVdsService.QueryDriveLetters
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

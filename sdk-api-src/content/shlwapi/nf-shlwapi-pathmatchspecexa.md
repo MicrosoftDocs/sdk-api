@@ -12,6 +12,8 @@ ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathMatchSpecEx"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

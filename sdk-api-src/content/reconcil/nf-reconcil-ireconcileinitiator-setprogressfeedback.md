@@ -12,6 +12,8 @@ ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features]
 ms.topic: method
 f1_keywords: 
  - "reconcil/IReconcileInitiator.SetProgressFeedback"
+dev_langs:
+ - c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetDataComponentId, GetDataComponentId method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbDataContentDescriptor.GetDataComponentId"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

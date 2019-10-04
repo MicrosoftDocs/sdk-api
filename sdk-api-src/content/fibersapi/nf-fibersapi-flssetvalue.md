@@ -12,6 +12,8 @@ ms.keywords: FlsSetValue, FlsSetValue function, _win32_flssetvalue, base.flssetv
 ms.topic: function
 f1_keywords: 
  - "fibersapi/FlsSetValue"
+dev_langs:
+ - c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

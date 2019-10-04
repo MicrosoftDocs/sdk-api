@@ -12,6 +12,8 @@ ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IAudioClient3"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

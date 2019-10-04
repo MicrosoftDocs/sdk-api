@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Start met
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointControl.Start"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

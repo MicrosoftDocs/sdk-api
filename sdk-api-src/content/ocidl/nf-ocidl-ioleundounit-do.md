@@ -12,6 +12,8 @@ ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleUndoUnit.Do"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

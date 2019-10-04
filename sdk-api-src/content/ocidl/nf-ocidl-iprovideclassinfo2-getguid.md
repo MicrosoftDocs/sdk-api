@@ -12,6 +12,8 @@ ms.keywords: GetGUID, GetGUID method [COM], GetGUID method [COM],IProvideClassIn
 ms.topic: method
 f1_keywords: 
  - "ocidl/IProvideClassInfo2.GetGUID"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsec
 ms.topic: function
 f1_keywords:
 - aclapi/SetSecurityInfo
+dev_langs:
+ - c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

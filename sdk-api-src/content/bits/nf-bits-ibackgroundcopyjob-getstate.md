@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroun
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetState"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

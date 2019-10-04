@@ -12,6 +12,8 @@ ms.keywords: "*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Secur
 ms.topic: struct
 f1_keywords: 
  - "accctrl/INHERITED_FROM"
+dev_langs:
+ - c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

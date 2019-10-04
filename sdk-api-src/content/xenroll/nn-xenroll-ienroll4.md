@@ -12,6 +12,8 @@ ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Securi
 ms.topic: interface
 f1_keywords: 
  - "xenroll/IEnroll4"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectSho
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMTVAudioNotification"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [Windows Update Agent], Commit method [Window
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller4.Commit"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

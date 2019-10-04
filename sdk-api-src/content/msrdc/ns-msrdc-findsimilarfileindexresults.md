@@ -12,6 +12,8 @@ ms.keywords: FindSimilarFileIndexResults, FindSimilarFileIndexResults structure 
 ms.topic: struct
 f1_keywords: 
  - "msrdc/FindSimilarFileIndexResults"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

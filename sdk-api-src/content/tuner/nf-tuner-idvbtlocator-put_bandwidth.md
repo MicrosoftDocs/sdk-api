@@ -12,6 +12,8 @@ ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Bandwidth me
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBTLocator.put_Bandwidth"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PPS_SHAPER_STATS, PPS_SHAPER_STATS, PPS_SHAPER_STATS structure po
 ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_SHAPER_STATS
+dev_langs:
+ - c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows

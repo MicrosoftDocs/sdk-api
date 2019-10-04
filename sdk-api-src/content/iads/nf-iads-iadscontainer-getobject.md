@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCon
 ms.topic: method
 f1_keywords: 
  - "iads/IADsContainer.GetObject"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

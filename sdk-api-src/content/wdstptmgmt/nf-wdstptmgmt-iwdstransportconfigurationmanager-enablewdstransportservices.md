@@ -12,6 +12,8 @@ ms.keywords: EnableWdsTransportServices, EnableWdsTransportServices method [Wind
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportConfigurationManager.EnableWdsTransportServices"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

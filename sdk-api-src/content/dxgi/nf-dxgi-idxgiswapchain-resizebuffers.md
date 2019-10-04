@@ -12,6 +12,8 @@ ms.keywords: 615c7678-59c9-07b2-5960-4a5b881f779d, IDXGISwapChain interface [DXG
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGISwapChain.ResizeBuffers"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

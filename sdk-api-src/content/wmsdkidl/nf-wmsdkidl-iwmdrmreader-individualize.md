@@ -12,6 +12,8 @@ ms.keywords: IWMDRMReader interface [windows Media Format],Individualize method,
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMDRMReader.Individualize"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

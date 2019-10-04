@@ -12,6 +12,8 @@ ms.keywords: ATTRIBUTE_TYPE, ATTRIBUTE_TYPE enumeration [NDF], AT_BOOLEAN, AT_GU
 ms.topic: enum
 f1_keywords: 
  - "ndattrib/ATTRIBUTE_TYPE"
+dev_langs:
+ - c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

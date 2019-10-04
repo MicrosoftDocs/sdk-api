@@ -12,6 +12,8 @@ ms.keywords: ID3DX11Scan interface [Direct3D 11],SetScanDirection method, ID3DX1
 ms.topic: method
 f1_keywords: 
  - "d3dcsx/ID3DX11Scan.SetScanDirection"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

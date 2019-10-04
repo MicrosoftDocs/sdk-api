@@ -12,6 +12,8 @@ ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsForced property
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateInstaller.IsForced"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

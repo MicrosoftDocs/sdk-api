@@ -12,6 +12,8 @@ ms.keywords: D3DCompileFromFile, D3DCompileFromFile function [HLSL], d3dcompiler
 ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DCompileFromFile
+dev_langs:
+ - c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 34849803-2b56-457a-920b-b5f2e208ce2e, GetInputPrefType, GetInputPre
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.GetInputPrefType"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

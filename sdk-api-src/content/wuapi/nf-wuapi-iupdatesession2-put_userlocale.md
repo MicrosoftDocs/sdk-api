@@ -12,6 +12,8 @@ ms.keywords: IUpdateSession2 interface [Windows Update Agent],UserLocale propert
 ms.topic: method
 f1_keywords: 
  - "wuapi/IUpdateSession2.UserLocale"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAt
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFGetAttributeUINT64"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

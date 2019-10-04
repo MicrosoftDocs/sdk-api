@@ -12,6 +12,8 @@ ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.ist
 ms.topic: function
 f1_keywords: 
  - "winuser/IsTouchWindow"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

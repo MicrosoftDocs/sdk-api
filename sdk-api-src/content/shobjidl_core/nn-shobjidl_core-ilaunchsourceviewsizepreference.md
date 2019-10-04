@@ -12,6 +12,8 @@ ms.keywords: ILaunchSourceViewSizePreference, ILaunchSourceViewSizePreference in
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/ILaunchSourceViewSizePreference"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

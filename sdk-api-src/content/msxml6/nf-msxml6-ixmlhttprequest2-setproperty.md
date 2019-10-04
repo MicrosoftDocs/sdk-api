@@ -12,6 +12,8 @@ ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IX
 ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.SetProperty
+dev_langs:
+ - c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

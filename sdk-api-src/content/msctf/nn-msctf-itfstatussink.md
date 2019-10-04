@@ -12,6 +12,8 @@ ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], I
 ms.topic: interface
 f1_keywords: 
  - "msctf/ITfStatusSink"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

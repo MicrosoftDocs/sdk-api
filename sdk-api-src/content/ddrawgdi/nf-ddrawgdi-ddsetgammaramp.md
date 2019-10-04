@@ -12,6 +12,8 @@ ms.keywords: DdSetGammaRamp, DdSetGammaRamp function [Windows API], GdiEntry15, 
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdSetGammaRamp"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

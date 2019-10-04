@@ -12,6 +12,8 @@ ms.keywords: DisplayUnLock method [SENS], DisplayUnLock method [SENS],ISensLogon
 ms.topic: method
 f1_keywords: 
  - "sensevts/ISensLogon.DisplayUnLock"
+dev_langs:
+ - c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

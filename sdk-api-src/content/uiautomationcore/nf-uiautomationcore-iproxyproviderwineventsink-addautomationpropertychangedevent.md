@@ -12,6 +12,8 @@ ms.keywords: AddAutomationPropertyChangedEvent, AddAutomationPropertyChangedEven
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

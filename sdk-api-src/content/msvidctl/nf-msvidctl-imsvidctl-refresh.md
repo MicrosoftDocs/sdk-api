@@ -12,6 +12,8 @@ ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Refresh method, IMS
 ms.topic: method
 f1_keywords: 
  - "msvidctl/IMSVidCtl.Refresh"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

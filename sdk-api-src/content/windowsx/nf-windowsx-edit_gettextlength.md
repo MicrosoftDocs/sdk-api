@@ -12,6 +12,8 @@ ms.keywords: Edit_GetTextLength, Edit_GetTextLength macro [Windows Controls], _w
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Edit_GetTextLength"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

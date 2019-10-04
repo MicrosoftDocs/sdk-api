@@ -12,6 +12,8 @@ ms.keywords: 097e4733-c996-6415-2d0b-16df84b70922, ComposeRects, ComposeRects me
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.ComposeRects"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

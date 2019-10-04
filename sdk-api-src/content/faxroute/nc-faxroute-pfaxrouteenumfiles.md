@@ -12,6 +12,8 @@ ms.keywords: FaxRouteEnumFiles, FaxRouteEnumFiles callback function [Fax Service
 ms.topic: callback
 f1_keywords:
 - faxroute/FaxRouteEnumFiles
+dev_langs:
+ - c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Wi
 ms.topic: function
 f1_keywords: 
  - "commoncontrols/ImageList_CoCreateInstance"
+dev_langs:
+ - c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

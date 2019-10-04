@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSplatConstant, XMVectorSplatConstant, XMVector
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSplatConstant"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

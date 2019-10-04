@@ -12,6 +12,8 @@ ms.keywords: WICPngItxtCompressionFlag, WICPngItxtKeyword, WICPngItxtLanguageTag
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngItxtProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

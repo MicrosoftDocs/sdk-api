@@ -12,6 +12,8 @@ ms.keywords: DEFSHAREID_PUBLIC, DEFSHAREID_USERS, DEF_SHARE_ID, DEF_SHARE_ID enu
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/DEF_SHARE_ID"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

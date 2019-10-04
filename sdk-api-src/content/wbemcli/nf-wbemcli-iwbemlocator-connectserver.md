@@ -12,6 +12,8 @@ ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumenta
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemLocator.ConnectServer"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

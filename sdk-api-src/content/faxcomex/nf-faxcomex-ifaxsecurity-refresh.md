@@ -12,6 +12,8 @@ ms.keywords: IFaxSecurity interface [Fax Service],Refresh method, IFaxSecurity.R
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSecurity.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollPos, SetScrollPos function [Wind
 ms.topic: function
 f1_keywords: 
  - "winuser/SetScrollPos"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

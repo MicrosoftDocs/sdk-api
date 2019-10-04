@@ -12,6 +12,8 @@ ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player
 ms.topic: method
 f1_keywords: 
  - "contentpartner/IWMPContentContainerList.GetTransactionType"
+dev_langs:
+ - c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MI_OperationOptions_Clone, MI_OperationOptions_Clone function [Wind
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_Clone
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

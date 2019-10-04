@@ -12,6 +12,8 @@ ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _ts
 ms.topic: struct
 f1_keywords: 
  - "msctf/TF_SELECTION"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

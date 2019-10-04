@@ -12,6 +12,8 @@ ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
 ms.topic: function
 f1_keywords: 
  - "wingdi/Pie"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

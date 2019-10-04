@@ -12,6 +12,8 @@ ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callbac
 ms.topic: callback
 f1_keywords:
 - routprot/QueryPower
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

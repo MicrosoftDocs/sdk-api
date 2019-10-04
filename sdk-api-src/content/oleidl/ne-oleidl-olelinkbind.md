@@ -12,6 +12,8 @@ ms.keywords: OLELINKBIND, OLELINKBIND enumeration [COM], OLELINKBIND_EVENIFCLASS
 ms.topic: enum
 f1_keywords: 
  - "oleidl/OLELINKBIND"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsInvertible, IsInvertible method [GDI+], IsInvertible method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.IsInvertible"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

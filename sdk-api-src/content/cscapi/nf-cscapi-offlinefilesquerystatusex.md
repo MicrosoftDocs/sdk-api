@@ -12,6 +12,8 @@ ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offl
 ms.topic: function
 f1_keywords: 
  - "cscapi/OfflineFilesQueryStatusEx"
+dev_langs:
+ - c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

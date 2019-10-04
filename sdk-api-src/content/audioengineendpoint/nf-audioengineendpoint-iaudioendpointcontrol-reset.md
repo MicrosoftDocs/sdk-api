@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Reset met
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointControl.Reset"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

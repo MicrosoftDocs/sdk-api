@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_POLICY1, IKEEXT_POLICY1 structure [Filtering], IKEEXT_POLICY
 ms.topic: struct
 f1_keywords: 
  - "iketypes/IKEEXT_POLICY1"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

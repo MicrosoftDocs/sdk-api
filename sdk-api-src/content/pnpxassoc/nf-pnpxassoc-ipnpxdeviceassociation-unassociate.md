@@ -12,6 +12,8 @@ ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAss
 ms.topic: method
 f1_keywords: 
  - "pnpxassoc/IPNPXDeviceAssociation.Unassociate"
+dev_langs:
+ - c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

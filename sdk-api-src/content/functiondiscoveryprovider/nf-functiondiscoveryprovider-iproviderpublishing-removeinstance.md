@@ -12,6 +12,8 @@ ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPubli
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IProviderPublishing.RemoveInstance"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

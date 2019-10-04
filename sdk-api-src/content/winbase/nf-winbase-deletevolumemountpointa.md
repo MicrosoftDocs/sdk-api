@@ -12,6 +12,8 @@ ms.keywords: DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], De
 ms.topic: function
 f1_keywords: 
  - "winbase/DeleteVolumeMountPoint"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

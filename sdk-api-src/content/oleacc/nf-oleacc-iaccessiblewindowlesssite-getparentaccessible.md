@@ -12,6 +12,8 @@ ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibil
 ms.topic: method
 f1_keywords: 
  - "oleacc/IAccessibleWindowlessSite.GetParentAccessible"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

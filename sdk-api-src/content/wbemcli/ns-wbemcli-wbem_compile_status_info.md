@@ -12,6 +12,8 @@ ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windo
 ms.topic: struct
 f1_keywords: 
  - "wbemcli/WBEM_COMPILE_STATUS_INFO"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

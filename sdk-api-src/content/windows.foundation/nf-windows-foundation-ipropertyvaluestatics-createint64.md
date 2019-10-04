@@ -12,6 +12,8 @@ ms.keywords: CreateInt64, CreateInt64 method [Windows Runtime], CreateInt64 meth
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateInt64"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

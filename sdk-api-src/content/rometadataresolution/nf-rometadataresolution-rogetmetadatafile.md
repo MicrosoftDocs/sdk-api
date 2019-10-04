@@ -12,6 +12,8 @@ ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], ro
 ms.topic: function
 f1_keywords: 
  - "rometadataresolution/RoGetMetaDataFile"
+dev_langs:
+ - c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

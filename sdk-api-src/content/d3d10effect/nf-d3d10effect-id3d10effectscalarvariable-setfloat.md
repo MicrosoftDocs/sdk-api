@@ -12,6 +12,8 @@ ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable in
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectScalarVariable.SetFloat"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

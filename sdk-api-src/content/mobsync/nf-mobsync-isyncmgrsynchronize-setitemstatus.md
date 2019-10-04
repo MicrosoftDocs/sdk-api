@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method,
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronize.SetItemStatus
+dev_langs:
+ - c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

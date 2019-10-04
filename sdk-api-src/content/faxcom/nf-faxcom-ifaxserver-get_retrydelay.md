@@ -12,6 +12,8 @@ ms.keywords: IFaxServer interface [Fax Service],RetryDelay property, IFaxServer.
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxServer.RetryDelay"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

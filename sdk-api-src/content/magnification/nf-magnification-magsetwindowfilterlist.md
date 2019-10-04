@@ -12,6 +12,8 @@ ms.keywords: MagSetWindowFilterList, MagSetWindowFilterList function [Magnificat
 ms.topic: function
 f1_keywords: 
  - "magnification/MagSetWindowFilterList"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

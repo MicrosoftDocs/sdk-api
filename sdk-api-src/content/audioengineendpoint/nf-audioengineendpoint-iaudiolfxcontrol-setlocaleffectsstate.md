@@ -12,6 +12,8 @@ ms.keywords: IAudioLfxControl interface [Core Audio],SetLocalEffectsState method
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioLfxControl.SetLocalEffectsState"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

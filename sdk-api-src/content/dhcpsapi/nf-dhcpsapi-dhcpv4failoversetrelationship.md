@@ -12,6 +12,8 @@ ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelati
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverSetRelationship
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

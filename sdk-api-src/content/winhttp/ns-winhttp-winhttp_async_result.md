@@ -12,6 +12,8 @@ ms.keywords: "*LPWINHTTP_ASYNC_RESULT, API_QUERY_DATA_AVAILABLE, API_READ_DATA, 
 ms.topic: struct
 f1_keywords: 
  - "winhttp/WINHTTP_ASYNC_RESULT"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

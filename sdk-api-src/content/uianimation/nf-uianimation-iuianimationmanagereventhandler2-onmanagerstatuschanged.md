@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManagerEventHandler2 interface [Windows Animation],OnMa
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManagerEventHandler2.OnManagerStatusChanged"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

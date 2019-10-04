@@ -12,6 +12,8 @@ ms.keywords: WLAN_PROFILE_GET_PLAINTEXT_KEY, WLAN_PROFILE_GROUP_POLICY, WLAN_PRO
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetProfile
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

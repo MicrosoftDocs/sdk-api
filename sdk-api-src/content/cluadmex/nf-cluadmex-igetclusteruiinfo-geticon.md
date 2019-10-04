@@ -12,6 +12,8 @@ ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failove
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterUIInfo.GetIcon"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

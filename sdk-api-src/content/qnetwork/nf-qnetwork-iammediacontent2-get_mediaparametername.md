@@ -12,6 +12,8 @@ ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameterName meth
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMMediaContent2.get_MediaParameterName"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

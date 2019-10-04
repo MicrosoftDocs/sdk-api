@@ -12,6 +12,8 @@ ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], G
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncChange.GetMadeWithKnowledge"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

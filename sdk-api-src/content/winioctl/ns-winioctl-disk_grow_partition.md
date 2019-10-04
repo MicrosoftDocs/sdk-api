@@ -12,6 +12,8 @@ ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION st
 ms.topic: struct
 f1_keywords: 
  - "winioctl/DISK_GROW_PARTITION"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

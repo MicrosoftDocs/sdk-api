@@ -12,6 +12,8 @@ ms.keywords: "*PQUERY_CHANGES_VIRTUAL_DISK_RANGE, PQUERY_CHANGES_VIRTUAL_DISK_RA
 ms.topic: struct
 f1_keywords: 
  - "virtdisk/QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

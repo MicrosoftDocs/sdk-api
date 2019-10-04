@@ -12,6 +12,8 @@ ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Service
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportNamespaceManager.RetrieveNamespace"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPat
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoderInfo.GetPatterns"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

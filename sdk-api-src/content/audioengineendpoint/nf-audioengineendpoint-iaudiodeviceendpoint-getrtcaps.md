@@ -12,6 +12,8 @@ ms.keywords: GetRTCaps, GetRTCaps method [Remote Desktop Services], GetRTCaps me
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioDeviceEndpoint.GetRTCaps"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

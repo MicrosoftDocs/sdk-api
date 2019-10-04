@@ -12,6 +12,8 @@ ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d
 ms.topic: function
 f1_keywords: 
  - "d2d1/D2D1MakeRotateMatrix"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

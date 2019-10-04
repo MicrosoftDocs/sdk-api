@@ -12,6 +12,8 @@ ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.i
 ms.topic: function
 f1_keywords: 
  - "winbase/IsBadWritePtr"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

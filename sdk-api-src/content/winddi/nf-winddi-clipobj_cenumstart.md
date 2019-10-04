@@ -12,6 +12,8 @@ ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/CLIPOBJ_cEnumStart
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: FileSystemPath, FileSystemPath method [IMAPI], FileSystemPath metho
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IFsiItem.FileSystemPath"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

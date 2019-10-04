@@ -12,6 +12,8 @@ ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.SetPredication"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

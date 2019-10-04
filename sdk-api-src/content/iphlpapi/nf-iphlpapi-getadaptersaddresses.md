@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GAA_FLAG_INCLUDE_ALL_COMPARTMENTS, GA
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetAdaptersAddresses
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_a
 ms.topic: macro
 f1_keywords:
 - lmalert/ALERT_VAR_DATA
+dev_langs:
+ - c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

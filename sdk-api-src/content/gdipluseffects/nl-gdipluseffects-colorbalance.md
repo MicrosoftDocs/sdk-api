@@ -12,6 +12,8 @@ ms.keywords: ColorBalance, ColorBalance class [GDI+], ColorBalance class [GDI+],
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/ColorBalance"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LockWindowUpdate, LockWindowUpdate function [Windows GDI], _win32_L
 ms.topic: function
 f1_keywords: 
  - "winuser/LockWindowUpdate"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_CANCELTRYCONTINUE, MB_DEFAULT
 ms.topic: function
 f1_keywords: 
  - "winuser/MessageBox"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

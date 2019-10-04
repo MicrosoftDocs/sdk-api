@@ -12,6 +12,8 @@ ms.keywords: IActionCollection interface [Task Scheduler],XmlText property, IAct
 ms.topic: method
 f1_keywords: 
  - "taskschd/IActionCollection.XmlText"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

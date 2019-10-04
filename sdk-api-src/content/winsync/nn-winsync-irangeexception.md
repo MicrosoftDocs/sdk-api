@@ -12,6 +12,8 @@ ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeEx
 ms.topic: interface
 f1_keywords: 
  - "winsync/IRangeException"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

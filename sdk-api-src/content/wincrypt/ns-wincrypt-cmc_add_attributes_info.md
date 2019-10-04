@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIB
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_ADD_ATTRIBUTES_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

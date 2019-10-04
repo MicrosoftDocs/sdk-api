@@ -12,6 +12,8 @@ ms.keywords: "*PWINTRUST_DATA, PWINTRUST_DATA, PWINTRUST_DATA structure pointer 
 ms.topic: struct
 f1_keywords: 
  - "wintrust/WINTRUST_DATA"
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

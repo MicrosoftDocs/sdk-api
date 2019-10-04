@@ -10,6 +10,8 @@ ms.keywords: IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontCollection3.GetExpirationEvent"
+dev_langs:
+ - c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 

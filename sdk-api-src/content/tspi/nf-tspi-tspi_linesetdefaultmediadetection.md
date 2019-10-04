@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetectio
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineSetDefaultMediaDetection"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

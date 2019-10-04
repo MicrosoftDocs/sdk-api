@@ -12,6 +12,8 @@ ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_B
 ms.topic: macro
 f1_keywords: 
  - "windowsx/Button_GetState"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

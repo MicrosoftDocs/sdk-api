@@ -12,6 +12,8 @@ ms.keywords: PTIMERAPCROUTINE, PTIMERAPCROUTINE callback, PTIMERAPCROUTINE callb
 ms.topic: callback
 f1_keywords: 
  - "synchapi/PTIMERAPCROUTINE"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

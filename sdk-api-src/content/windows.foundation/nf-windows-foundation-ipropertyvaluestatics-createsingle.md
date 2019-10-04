@@ -12,6 +12,8 @@ ms.keywords: CreateSingle, CreateSingle method [Windows Runtime], CreateSingle m
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValueStatics.CreateSingle"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

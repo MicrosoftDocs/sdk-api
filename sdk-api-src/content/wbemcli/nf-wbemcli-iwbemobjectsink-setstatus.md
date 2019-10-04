@@ -12,6 +12,8 @@ ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],SetS
 ms.topic: method
 f1_keywords: 
  - "wbemcli/IWbemObjectSink.SetStatus"
+dev_langs:
+ - c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PGROUP_POLICY_OBJECTW, GPLinkDomain, GPLinkMachine, GPLinkOrganiz
 ms.topic: struct
 f1_keywords: 
  - "userenv/GROUP_POLICY_OBJECT"
+dev_langs:
+ - c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

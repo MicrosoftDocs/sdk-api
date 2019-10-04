@@ -12,6 +12,8 @@ ms.keywords: IAppxManifestMainPackageDependency, IAppxManifestMainPackageDepende
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxManifestMainPackageDependency"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

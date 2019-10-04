@@ -12,6 +12,8 @@ ms.keywords: ConnectClient, ConnectClient callback function [RAS], PCONNECT_CLIE
 ms.topic: callback
 f1_keywords:
 - routprot/ConnectClient
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shobjidl_core/SHELL_ITEM_RESOURCE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

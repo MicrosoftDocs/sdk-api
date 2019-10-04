@@ -12,6 +12,8 @@ ms.keywords: MI_ConstBooleanA, MI_ConstBooleanA structure [Windows Management In
 ms.topic: struct
 f1_keywords: 
  - "mi/MI_ConstBooleanA"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [Dire
 ms.topic: method
 f1_keywords: 
  - "mediaobj/IMediaObjectInPlace.GetLatency"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

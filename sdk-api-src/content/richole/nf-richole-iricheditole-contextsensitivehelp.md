@@ -12,6 +12,8 @@ ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.ContextSensitiveHelp"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

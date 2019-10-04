@@ -12,6 +12,8 @@ ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_m
 ms.topic: function
 f1_keywords: 
  - "winbase/MoveFile"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

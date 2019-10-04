@@ -12,6 +12,8 @@ ms.keywords: IComObjectEvents interface [COM+],OnEnableCommit method, IComObject
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComObjectEvents.OnEnableCommit"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextFont interface [Windows Controls],SetBackColor method, ITextFo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.SetBackColor"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

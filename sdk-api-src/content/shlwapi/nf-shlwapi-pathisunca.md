@@ -12,6 +12,8 @@ ms.keywords: PathIsUNC, PathIsUNC function [Windows Shell], PathIsUNCA, PathIsUN
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathIsUNC"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

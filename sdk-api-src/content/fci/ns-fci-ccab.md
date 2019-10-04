@@ -12,6 +12,8 @@ ms.keywords: "*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure
 ms.topic: struct
 f1_keywords: 
  - "fci/CCAB"
+dev_langs:
+ - c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

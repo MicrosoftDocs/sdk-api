@@ -12,6 +12,8 @@ ms.keywords: CreateStrokedGeometryRealization, CreateStrokedGeometryRealization 
 ms.topic: method
 f1_keywords: 
  - "d2d1_2/ID2D1DeviceContext1.CreateStrokedGeometryRealization"
+dev_langs:
+ - c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

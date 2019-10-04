@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandle
 ms.topic: interface
 f1_keywords: 
  - "uianimation/IUIAnimationVariableChangeHandler"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

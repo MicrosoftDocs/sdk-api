@@ -12,6 +12,8 @@ ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdat
 ms.topic: function
 f1_keywords: 
  - "pdh/PdhUpdateLog"
+dev_langs:
+ - c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

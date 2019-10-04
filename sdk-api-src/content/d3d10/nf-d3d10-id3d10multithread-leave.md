@@ -12,6 +12,8 @@ ms.keywords: ID3D10Multithread interface [Direct3D 10],Leave method, ID3D10Multi
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Multithread.Leave"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

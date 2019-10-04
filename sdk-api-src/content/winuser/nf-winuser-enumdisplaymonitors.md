@@ -12,6 +12,8 @@ ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _w
 ms.topic: function
 f1_keywords: 
  - "winuser/EnumDisplayMonitors"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

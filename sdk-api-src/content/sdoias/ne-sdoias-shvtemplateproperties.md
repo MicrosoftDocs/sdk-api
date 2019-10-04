@@ -12,6 +12,8 @@ ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPER
 ms.topic: enum
 f1_keywords:
 - sdoias/SHVTEMPLATEPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddTextEditTextChangedEventHandler, AddTextEditTextChangedEventHand
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

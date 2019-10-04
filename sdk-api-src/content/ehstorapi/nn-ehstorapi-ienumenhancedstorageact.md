@@ -12,6 +12,8 @@ ms.keywords: IEnumEnhancedStorageACT, IEnumEnhancedStorageACT interface [Enhance
 ms.topic: interface
 f1_keywords: 
  - "ehstorapi/IEnumEnhancedStorageACT"
+dev_langs:
+ - c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

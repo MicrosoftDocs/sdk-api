@@ -12,6 +12,8 @@ ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], G
 ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetInputStreamInfo
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

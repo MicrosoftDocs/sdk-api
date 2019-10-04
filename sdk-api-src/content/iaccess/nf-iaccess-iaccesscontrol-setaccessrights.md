@@ -12,6 +12,8 @@ ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessContr
 ms.topic: method
 f1_keywords: 
  - "iaccess/IAccessControl.SetAccessRights"
+dev_langs:
+ - c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PMOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES structure [
 ms.topic: struct
 f1_keywords: 
  - "ntddmou/MOUSE_ATTRIBUTES"
+dev_langs:
+ - c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows

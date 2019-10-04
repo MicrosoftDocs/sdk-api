@@ -12,6 +12,8 @@ ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_
 ms.topic: struct
 f1_keywords: 
  - "bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

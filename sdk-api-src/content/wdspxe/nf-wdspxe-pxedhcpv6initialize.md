@@ -12,6 +12,8 @@ ms.keywords: PxeDhcpv6Initialize, PxeDhcpv6Initialize function [Windows Deployme
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeDhcpv6Initialize"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

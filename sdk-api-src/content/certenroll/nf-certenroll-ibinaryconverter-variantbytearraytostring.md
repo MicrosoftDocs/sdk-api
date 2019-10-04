@@ -12,6 +12,8 @@ ms.keywords: IBinaryConverter interface [Security],VariantByteArrayToString meth
 ms.topic: method
 f1_keywords: 
  - "certenroll/IBinaryConverter.VariantByteArrayToString"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

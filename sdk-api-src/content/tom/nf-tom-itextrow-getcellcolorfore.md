@@ -12,6 +12,8 @@ ms.keywords: GetCellColorFore, GetCellColorFore method [Windows Controls], GetCe
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellColorFore"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

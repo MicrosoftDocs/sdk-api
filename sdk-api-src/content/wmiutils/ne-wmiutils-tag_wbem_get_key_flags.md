@@ -12,6 +12,8 @@ ms.keywords: WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, tag_WBEM_GET_KEY_FLAGS, tag_WBE
 ms.topic: enum
 f1_keywords: 
  - "wmiutils/tag_WBEM_GET_KEY_FLAGS"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

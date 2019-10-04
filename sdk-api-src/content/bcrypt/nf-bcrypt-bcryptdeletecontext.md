@@ -12,6 +12,8 @@ ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT
 ms.topic: function
 f1_keywords: 
  - "bcrypt/BCryptDeleteContext"
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

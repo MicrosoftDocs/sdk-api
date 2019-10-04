@@ -12,6 +12,8 @@ ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], re
 ms.topic: function
 f1_keywords: 
  - "restartmanager/RmCancelCurrentTask"
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

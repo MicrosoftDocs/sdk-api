@@ -12,6 +12,8 @@ ms.keywords: MMC_FILTERDATA, MMC_FILTERDATA structure [MMC], _slate_mmc_filterda
 ms.topic: struct
 f1_keywords: 
  - "mmc/MMC_FILTERDATA"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

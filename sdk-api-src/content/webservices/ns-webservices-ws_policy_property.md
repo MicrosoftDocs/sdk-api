@@ -12,6 +12,8 @@ ms.keywords: WS_POLICY_PROPERTY, WS_POLICY_PROPERTY structure [Web Services for 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_POLICY_PROPERTY"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

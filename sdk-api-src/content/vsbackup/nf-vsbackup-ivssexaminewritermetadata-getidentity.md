@@ -12,6 +12,8 @@ ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVs
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadata.GetIdentity"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_A
 ms.topic: struct
 f1_keywords:
 - bthdef/BTH_DEVICE_INFO
+dev_langs:
+ - c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

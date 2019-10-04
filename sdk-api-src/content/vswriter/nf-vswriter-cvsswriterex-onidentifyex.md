@@ -12,6 +12,8 @@ ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentify
 ms.topic: method
 f1_keywords: 
  - "vswriter/CVssWriterEx.OnIdentifyEx"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

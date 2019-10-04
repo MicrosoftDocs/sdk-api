@@ -12,6 +12,8 @@ ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAud
 ms.topic: interface
 f1_keywords: 
  - "audioclient/IAudioStreamVolume"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 8cfde449-9de7-6aec-645e-eaa2eafd531f, D3D11_TESSELLATOR_OUTPUT_LINE
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

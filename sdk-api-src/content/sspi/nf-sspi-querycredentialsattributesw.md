@@ -12,6 +12,8 @@ ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Se
 ms.topic: function
 f1_keywords:
 - sspi/QueryCredentialsAttributes
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPSCOPEDATAITEM, LPSCOPEDATAITEM, LPSCOPEDATAITEM structure point
 ms.topic: struct
 f1_keywords: 
  - "mmc/SCOPEDATAITEM"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

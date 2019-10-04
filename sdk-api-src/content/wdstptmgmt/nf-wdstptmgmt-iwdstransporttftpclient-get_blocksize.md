@@ -12,6 +12,8 @@ ms.keywords: BlockSize property [Windows Deployment Services], BlockSize propert
 ms.topic: method
 f1_keywords: 
  - "wdstptmgmt/IWdsTransportTftpClient.BlockSize"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

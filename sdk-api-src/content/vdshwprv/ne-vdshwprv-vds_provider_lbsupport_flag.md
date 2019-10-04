@@ -12,6 +12,8 @@ ms.keywords: VDS_LBF_DYN_LEAST_QUEUE_DEPTH, VDS_LBF_FAILOVER, VDS_LBF_LEAST_BLOC
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_PROVIDER_LBSUPPORT_FLAG"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

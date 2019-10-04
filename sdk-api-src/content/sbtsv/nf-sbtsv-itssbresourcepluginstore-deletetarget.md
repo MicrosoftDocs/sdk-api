@@ -12,6 +12,8 @@ ms.keywords: DeleteTarget, DeleteTarget method [Remote Desktop Services], Delete
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbResourcePluginStore.DeleteTarget"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

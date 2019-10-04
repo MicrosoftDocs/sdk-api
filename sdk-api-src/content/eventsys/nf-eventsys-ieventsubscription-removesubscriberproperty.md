@@ -12,6 +12,8 @@ ms.keywords: IEventSubscription interface [COM+],RemoveSubscriberProperty method
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventSubscription.RemoveSubscriberProperty"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectS
 ms.topic: interface
 f1_keywords: 
  - "tuner/IESIsdbCasResponseEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

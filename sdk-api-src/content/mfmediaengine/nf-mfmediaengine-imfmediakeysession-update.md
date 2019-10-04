@@ -12,6 +12,8 @@ ms.keywords: IMFMediaKeySession interface [Media Foundation],Update method, IMFM
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaKeySession.Update"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

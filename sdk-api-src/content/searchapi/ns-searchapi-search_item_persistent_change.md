@@ -12,6 +12,8 @@ ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE struct
 ms.topic: struct
 f1_keywords:
 - searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

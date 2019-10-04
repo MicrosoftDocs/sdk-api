@@ -12,6 +12,8 @@ ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigge
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITrigger.StartBoundary"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

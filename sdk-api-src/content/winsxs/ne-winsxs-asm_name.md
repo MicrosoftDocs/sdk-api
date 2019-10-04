@@ -12,6 +12,8 @@ ms.keywords: ASM_NAME, ASM_NAME , ASM_NAME enumeration [Side-by-side Assemblies]
 ms.topic: enum
 f1_keywords: 
  - "winsxs/ASM_NAME"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

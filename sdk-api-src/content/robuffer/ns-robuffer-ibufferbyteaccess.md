@@ -12,6 +12,8 @@ ms.keywords: IBufferByteAccess interface [Windows Runtime]
 ms.topic: method
 f1_keywords: 
  - "robuffer/IBufferByteAccess"
+dev_langs:
+ - c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

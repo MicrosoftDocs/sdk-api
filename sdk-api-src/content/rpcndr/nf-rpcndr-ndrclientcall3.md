@@ -12,6 +12,8 @@ ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, 
 ms.topic: function
 f1_keywords: 
  - "rpcndr/NdrClientCall3"
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

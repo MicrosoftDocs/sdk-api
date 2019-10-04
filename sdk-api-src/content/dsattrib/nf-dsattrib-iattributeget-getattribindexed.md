@@ -12,6 +12,8 @@ ms.keywords: GetAttribIndexed, GetAttribIndexed method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "dsattrib/IAttributeGet.GetAttribIndexed"
+dev_langs:
+ - c++
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows

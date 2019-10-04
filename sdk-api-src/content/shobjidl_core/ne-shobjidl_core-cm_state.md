@@ -12,6 +12,8 @@ ms.keywords: CM_STATE, CM_STATE enumeration [Windows Shell], CM_STATE_ALWAYSVISI
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/CM_STATE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

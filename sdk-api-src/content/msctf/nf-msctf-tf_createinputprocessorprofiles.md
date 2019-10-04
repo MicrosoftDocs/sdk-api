@@ -12,6 +12,8 @@ ms.keywords: TF_CreateInputProcessorProfiles, TF_CreateInputProcessorProfiles fu
 ms.topic: function
 f1_keywords: 
  - "msctf/TF_CreateInputProcessorProfiles"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 070d6004-b3cb-bc84-b78f-d7f9851d5fbf, DSGetSamplers, DSGetSamplers 
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DSGetSamplers"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

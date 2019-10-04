@@ -12,6 +12,8 @@ ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, Ge
 ms.topic: method
 f1_keywords: 
  - "gpedit/IGroupPolicyObject.GetOptions"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

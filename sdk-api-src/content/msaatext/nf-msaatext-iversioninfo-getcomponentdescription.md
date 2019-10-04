@@ -12,6 +12,8 @@ ms.keywords: GetComponentDescription, GetComponentDescription method [Windows Ac
 ms.topic: method
 f1_keywords: 
  - "msaatext/IVersionInfo.GetComponentDescription"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

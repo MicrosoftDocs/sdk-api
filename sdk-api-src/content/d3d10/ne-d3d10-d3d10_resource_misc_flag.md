@@ -12,6 +12,8 @@ ms.keywords: 933479cf-687a-018f-fa4e-e44396ff5c4b, D3D10_RESOURCE_MISC_FLAG, D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_RESOURCE_MISC_FLAG"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

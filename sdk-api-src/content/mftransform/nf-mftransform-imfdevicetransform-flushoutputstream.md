@@ -12,6 +12,8 @@ ms.keywords: FlushOutputStream, FlushOutputStream method [Streaming Media Device
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFDeviceTransform.FlushOutputStream"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

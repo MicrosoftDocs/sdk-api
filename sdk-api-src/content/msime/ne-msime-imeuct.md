@@ -12,6 +12,8 @@ ms.keywords: IFED_UCT_NONE, IFED_UCT_STRING_SJIS, IFED_UCT_STRING_UNICODE, IFED_
 ms.topic: enum
 f1_keywords:
 - msime/IMEUCT
+dev_langs:
+ - c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

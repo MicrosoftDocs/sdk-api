@@ -12,6 +12,8 @@ ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFold
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellMenu.GetShellFolder
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

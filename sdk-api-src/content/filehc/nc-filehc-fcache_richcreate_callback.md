@@ -12,6 +12,8 @@ ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK callback, FC
 ms.topic: callback
 f1_keywords: 
  - "filehc/FCACHE_RICHCREATE_CALLBACK"
+dev_langs:
+ - c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

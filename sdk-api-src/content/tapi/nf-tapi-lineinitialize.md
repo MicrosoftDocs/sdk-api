@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_lineinitialize, lineInitialize, lineInitialize function [TA
 ms.topic: function
 f1_keywords: 
  - "tapi/lineInitialize"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

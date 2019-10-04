@@ -12,6 +12,8 @@ ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMg
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaNotifyDevMgr"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

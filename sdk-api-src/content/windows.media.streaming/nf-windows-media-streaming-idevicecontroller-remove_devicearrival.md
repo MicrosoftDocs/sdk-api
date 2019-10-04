@@ -12,6 +12,8 @@ ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceArri
 ms.topic: method
 f1_keywords: 
  - "windows.media.streaming/IDeviceController.remove_DeviceArrival"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

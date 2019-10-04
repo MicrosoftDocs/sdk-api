@@ -12,6 +12,8 @@ ms.keywords: MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multi
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndGetInactiveTimer"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVDecAudioDualMono, codecapi/eAVDecAudioDualMono_IsDualMo
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVDecAudioDualMono"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

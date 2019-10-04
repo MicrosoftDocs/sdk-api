@@ -12,6 +12,8 @@ ms.keywords: "*PDS_SCHEMA_GUID_MAPA, DS_SCHEMA_GUID_ATTR, DS_SCHEMA_GUID_ATTR_SE
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_SCHEMA_GUID_MAP"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPADRPARM, AB_RESOLVE, AB_SELECTONLY, ADDRESS_ONE, ADRPARM, ADRPA
 ms.topic: struct
 f1_keywords:
 - wabdefs/ADRPARM
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

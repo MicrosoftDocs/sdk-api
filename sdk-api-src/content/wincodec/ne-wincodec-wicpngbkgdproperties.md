@@ -12,6 +12,8 @@ ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperti
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngBkgdProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

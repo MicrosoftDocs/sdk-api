@@ -12,6 +12,8 @@ ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interf
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DVertexBuffer9.Lock"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

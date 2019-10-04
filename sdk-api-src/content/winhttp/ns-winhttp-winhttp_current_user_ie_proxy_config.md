@@ -12,6 +12,8 @@ ms.keywords: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG, WINHTTP_CURRENT_USER_IE_PROXY
 ms.topic: struct
 f1_keywords: 
  - "winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"
+dev_langs:
+ - c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SpatialAudioMetadataWriterOverflowMode, SpatialAudioMetadataWriterO
 ms.topic: enum
 f1_keywords: 
  - "spatialaudiometadata/SpatialAudioMetadataWriterOverflowMode"
+dev_langs:
+ - c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

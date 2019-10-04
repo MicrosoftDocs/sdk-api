@@ -12,6 +12,8 @@ ms.keywords: Hwnd property [Tablet PC], Hwnd property [Tablet PC],IInkEdit inter
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Hwnd"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

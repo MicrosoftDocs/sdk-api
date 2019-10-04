@@ -12,6 +12,8 @@ ms.keywords: EnumSubCommands, EnumSubCommands method [Windows Shell], EnumSubCom
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerCommand.EnumSubCommands"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

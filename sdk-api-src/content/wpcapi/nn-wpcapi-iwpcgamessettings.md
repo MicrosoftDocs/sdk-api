@@ -12,6 +12,8 @@ ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings i
 ms.topic: interface
 f1_keywords: 
  - "wpcapi/IWPCGamesSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

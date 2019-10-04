@@ -12,6 +12,8 @@ ms.keywords: "*PWCM_PROPERTY, PWCM_PROPERTY, PWCM_PROPERTY enumeration pointer [
 ms.topic: enum
 f1_keywords: 
  - "wcmapi/WCM_PROPERTY"
+dev_langs:
+ - c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

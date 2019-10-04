@@ -12,6 +12,8 @@ ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeratio
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/EXPAND_VIRTUAL_DISK_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WS_XML_READER_PROPERTIES, WS_XML_READER_PROPERTIES structure [Web S
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_READER_PROPERTIES
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

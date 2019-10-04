@@ -12,6 +12,8 @@ ms.keywords: 9a136bd2-66f9-8800-9ce0-d8b9c402d899, GetResource, GetResource meth
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11View.GetResource"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

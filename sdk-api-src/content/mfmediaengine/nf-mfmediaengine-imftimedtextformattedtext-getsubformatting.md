@@ -12,6 +12,8 @@ ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSu
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextFormattedText.GetSubformatting"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

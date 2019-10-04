@@ -12,6 +12,8 @@ ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_ENUM_FLAGS"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

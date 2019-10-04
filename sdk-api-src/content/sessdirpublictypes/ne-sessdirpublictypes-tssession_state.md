@@ -12,6 +12,8 @@ ms.keywords: STATE_ACTIVE, STATE_CONNECTED, STATE_CONNECTQUERY, STATE_DISCONNECT
 ms.topic: enum
 f1_keywords: 
  - "sessdirpublictypes/TSSESSION_STATE"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

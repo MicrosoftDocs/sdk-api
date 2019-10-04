@@ -12,6 +12,8 @@ ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetMod
 ms.topic: function
 f1_keywords: 
  - "libloaderapi/GetModuleHandle"
+dev_langs:
+ - c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmg
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcMgmtEpEltInqDone"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

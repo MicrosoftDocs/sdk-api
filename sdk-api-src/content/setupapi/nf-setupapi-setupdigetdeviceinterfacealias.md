@@ -12,6 +12,8 @@ ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias func
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInterfaceAlias
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

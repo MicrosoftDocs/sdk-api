@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS enume
 ms.topic: enum
 f1_keywords: 
  - "clfs/CLFS_IOSTATS_CLASS"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

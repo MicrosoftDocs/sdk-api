@@ -12,6 +12,8 @@ ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], IWriteEngine2 inter
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IWriteEngine2"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

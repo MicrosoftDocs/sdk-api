@@ -12,6 +12,8 @@ ms.keywords: '*PBTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE structure [Bluetooth], 
 ms.topic: struct
 f1_keywords:
 - bthdef/BTH_RADIO_IN_RANGE
+dev_langs:
+ - c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

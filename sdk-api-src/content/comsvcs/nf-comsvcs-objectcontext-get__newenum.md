@@ -12,6 +12,8 @@ ms.keywords: ObjectContext interface [COM+],get__NewEnum method, ObjectContext.g
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ObjectContext.get__NewEnum"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

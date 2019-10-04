@@ -12,6 +12,8 @@ ms.keywords: APPX_KEY_INFO, APPX_KEY_INFO structure [App packaging and managemen
 ms.topic: struct
 f1_keywords: 
  - "appxpackaging/APPX_KEY_INFO"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

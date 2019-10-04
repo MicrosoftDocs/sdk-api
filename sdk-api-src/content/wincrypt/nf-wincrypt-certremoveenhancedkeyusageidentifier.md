@@ -12,6 +12,8 @@ ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIde
 ms.topic: function
 f1_keywords:
 - wincrypt/CertRemoveEnhancedKeyUsageIdentifier
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

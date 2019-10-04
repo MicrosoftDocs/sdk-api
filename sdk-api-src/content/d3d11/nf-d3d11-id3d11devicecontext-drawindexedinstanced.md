@@ -12,6 +12,8 @@ ms.keywords: 8742ce56-5b31-7869-ab62-cb36d33cc5ca, DrawIndexedInstanced, DrawInd
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.DrawIndexedInstanced"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

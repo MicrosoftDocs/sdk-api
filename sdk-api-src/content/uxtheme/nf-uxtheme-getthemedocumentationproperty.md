@@ -12,6 +12,8 @@ ms.keywords: GetThemeDocumentationProperty, GetThemeDocumentationProperty functi
 ms.topic: function
 f1_keywords: 
  - "uxtheme/GetThemeDocumentationProperty"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IShellFolderView, IShellFolderView interface [Windows Shell], IShel
 ms.topic: interface
 f1_keywords: 
  - "shlobj_core/IShellFolderView"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSystemPreferredUILanguages, GetSystemPreferredUILanguages functi
 ms.topic: function
 f1_keywords: 
  - "winnls/GetSystemPreferredUILanguages"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

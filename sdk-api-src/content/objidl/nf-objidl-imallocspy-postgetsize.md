@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PostGetSize method, IMallocSpy.PostGetSi
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PostGetSize"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancel
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcCancelThreadEx"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

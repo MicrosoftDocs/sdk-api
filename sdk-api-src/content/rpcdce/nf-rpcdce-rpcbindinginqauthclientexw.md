@@ -12,6 +12,8 @@ ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuth
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcBindingInqAuthClientEx"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

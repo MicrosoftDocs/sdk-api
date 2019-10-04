@@ -12,6 +12,8 @@ ms.keywords: D2D1_COMPOSITE_PROP, D2D1_COMPOSITE_PROP enumeration [Direct2D], D2
 ms.topic: enum
 f1_keywords: 
  - "d2d1effects/D2D1_COMPOSITE_PROP"
+dev_langs:
+ - c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

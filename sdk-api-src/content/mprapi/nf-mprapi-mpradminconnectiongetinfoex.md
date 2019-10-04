@@ -12,6 +12,8 @@ ms.keywords: MprAdminConnectionGetInfoEx, MprAdminConnectionGetInfoEx function [
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionGetInfoEx
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

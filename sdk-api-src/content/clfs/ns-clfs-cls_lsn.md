@@ -12,6 +12,8 @@ ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_L
 ms.topic: struct
 f1_keywords: 
  - "clfs/CLFS_LSN"
+dev_langs:
+ - c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

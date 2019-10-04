@@ -12,6 +12,8 @@ ms.keywords: 9f15e11c-b222-431b-7b07-10de10ab1438, ID3D10EffectRenderTargetViewV
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectRenderTargetViewVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

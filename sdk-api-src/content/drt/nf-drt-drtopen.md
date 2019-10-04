@@ -12,6 +12,8 @@ ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtop
 ms.topic: function
 f1_keywords: 
  - "drt/DrtOpen"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

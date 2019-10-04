@@ -12,6 +12,8 @@ ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCON
 ms.topic: struct
 f1_keywords: 
  - "wingdi/DISPLAYCONFIG_MODE_INFO"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

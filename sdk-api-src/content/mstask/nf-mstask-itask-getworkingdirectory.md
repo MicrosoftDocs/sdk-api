@@ -12,6 +12,8 @@ ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Task Scheduler], G
 ms.topic: method
 f1_keywords: 
  - "mstask/ITask.GetWorkingDirectory"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_GET_PARAMETERS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

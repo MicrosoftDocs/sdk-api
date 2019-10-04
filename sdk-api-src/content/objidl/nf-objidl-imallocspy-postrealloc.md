@@ -12,6 +12,8 @@ ms.keywords: IMallocSpy interface [COM],PostRealloc method, IMallocSpy.PostReall
 ms.topic: method
 f1_keywords: 
  - "objidl/IMallocSpy.PostRealloc"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

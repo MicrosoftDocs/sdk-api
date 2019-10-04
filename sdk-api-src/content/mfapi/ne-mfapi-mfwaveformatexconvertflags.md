@@ -12,6 +12,8 @@ ms.keywords: MFWaveFormatExConvertFlag_ForceExtensible, MFWaveFormatExConvertFla
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFWaveFormatExConvertFlags"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

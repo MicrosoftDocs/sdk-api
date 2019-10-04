@@ -12,6 +12,8 @@ ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetL
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

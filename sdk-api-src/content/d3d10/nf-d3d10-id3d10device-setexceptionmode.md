@@ -12,6 +12,8 @@ ms.keywords: 450093c6-975d-3a2a-6e09-2d2267d36bae, ID3D10Device interface [Direc
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Device.SetExceptionMode"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundat
 ms.topic: interface
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

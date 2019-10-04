@@ -12,6 +12,8 @@ ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInp
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPViewerInputSink"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

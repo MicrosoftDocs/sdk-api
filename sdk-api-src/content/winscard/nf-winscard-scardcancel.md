@@ -12,6 +12,8 @@ ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, s
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardCancel"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

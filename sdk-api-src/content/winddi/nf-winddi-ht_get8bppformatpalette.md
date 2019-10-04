@@ -12,6 +12,8 @@ ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display 
 ms.topic: function
 f1_keywords: 
  - "winddi/HT_Get8BPPFormatPalette"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

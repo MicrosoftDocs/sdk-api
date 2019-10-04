@@ -12,6 +12,8 @@ ms.keywords: IConditionGenerator, IConditionGenerator interface [search], ICondi
 ms.topic: interface
 f1_keywords: 
  - "structuredquery/IConditionGenerator"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

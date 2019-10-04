@@ -12,6 +12,8 @@ ms.keywords: IAMStreamControl interface [DirectShow],StartAt method, IAMStreamCo
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMStreamControl.StartAt"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

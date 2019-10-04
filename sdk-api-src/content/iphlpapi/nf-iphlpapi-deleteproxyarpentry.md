@@ -12,6 +12,8 @@ ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iph
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/DeleteProxyArpEntry"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

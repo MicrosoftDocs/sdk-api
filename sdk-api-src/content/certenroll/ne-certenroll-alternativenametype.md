@@ -12,6 +12,8 @@ ms.keywords: AlternativeNameType, AlternativeNameType enumeration [Security], XC
 ms.topic: enum
 f1_keywords: 
  - "certenroll/AlternativeNameType"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

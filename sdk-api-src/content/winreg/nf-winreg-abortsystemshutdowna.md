@@ -12,6 +12,8 @@ ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutd
 ms.topic: function
 f1_keywords: 
  - "winreg/AbortSystemShutdown"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

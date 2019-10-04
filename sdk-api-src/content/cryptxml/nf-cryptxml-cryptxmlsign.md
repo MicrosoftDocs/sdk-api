@@ -12,6 +12,8 @@ ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlSign
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

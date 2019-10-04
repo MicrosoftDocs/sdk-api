@@ -12,6 +12,8 @@ ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReas
 ms.topic: interface
 f1_keywords: 
  - "fhcfg/IFhReassociation"
+dev_langs:
+ - c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTV
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWATTRIBUTE.Skip"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

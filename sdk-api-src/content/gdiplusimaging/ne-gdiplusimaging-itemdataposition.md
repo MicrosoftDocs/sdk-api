@@ -12,6 +12,8 @@ ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPosi
 ms.topic: enum
 f1_keywords: 
  - "gdiplusimaging/ItemDataPosition"
+dev_langs:
+ - c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

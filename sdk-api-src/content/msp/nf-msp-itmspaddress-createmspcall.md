@@ -12,6 +12,8 @@ ms.keywords: CreateMSPCall, CreateMSPCall method [TAPI 2.2], CreateMSPCall metho
 ms.topic: method
 f1_keywords: 
  - "msp/ITMSPAddress.CreateMSPCall"
+dev_langs:
+ - c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows

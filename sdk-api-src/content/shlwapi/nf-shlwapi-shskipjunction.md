@@ -12,6 +12,8 @@ ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHS
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHSkipJunction"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

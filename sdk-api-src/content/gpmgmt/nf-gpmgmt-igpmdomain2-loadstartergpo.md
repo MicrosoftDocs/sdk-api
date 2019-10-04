@@ -12,6 +12,8 @@ ms.keywords: IGPMDomain2 interface [GPMC],LoadStarterGPO method, IGPMDomain2.Loa
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMDomain2.LoadStarterGPO"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

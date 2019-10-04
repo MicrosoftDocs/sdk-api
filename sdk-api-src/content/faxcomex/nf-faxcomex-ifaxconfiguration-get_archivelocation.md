@@ -12,6 +12,8 @@ ms.keywords: ArchiveLocation property [Fax Service], ArchiveLocation property [F
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxConfiguration.ArchiveLocation"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

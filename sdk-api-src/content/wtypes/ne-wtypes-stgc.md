@@ -12,6 +12,8 @@ ms.keywords: STGC, STGC enumeration [Structured Storage], STGC_CONSOLIDATE, STGC
 ms.topic: enum
 f1_keywords: 
  - "wtypes/STGC"
+dev_langs:
+ - c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

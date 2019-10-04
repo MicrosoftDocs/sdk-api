@@ -12,6 +12,8 @@ ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITune
 ms.topic: method
 f1_keywords: 
  - "tuner/ITuner.Validate"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

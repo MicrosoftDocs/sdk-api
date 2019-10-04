@@ -12,6 +12,8 @@ ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem me
 ms.topic: method
 f1_keywords: 
  - "mstask/IScheduledWorkItem.EditWorkItem"
+dev_langs:
+ - c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

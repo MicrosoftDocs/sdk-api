@@ -12,6 +12,8 @@ ms.keywords: IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, IWSDS
 ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDSSLClientCertificate
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

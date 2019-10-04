@@ -12,6 +12,8 @@ ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPRO
 ms.topic: struct
 f1_keywords: 
  - "wabdefs/SRestriction"
+dev_langs:
+ - c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

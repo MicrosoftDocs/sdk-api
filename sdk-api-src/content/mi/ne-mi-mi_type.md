@@ -12,6 +12,8 @@ ms.keywords: MI_ARRAY, MI_BOOLEAN, MI_BOOLEANA, MI_CHAR16, MI_CHAR16A, MI_DATETI
 ms.topic: enum
 f1_keywords:
 - mi/MI_Type
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

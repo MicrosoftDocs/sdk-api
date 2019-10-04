@@ -12,6 +12,8 @@ ms.keywords: IMFTransform interface [Media Foundation],SetOutputType method, IMF
 ms.topic: method
 f1_keywords: 
  - "mftransform/IMFTransform.SetOutputType"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

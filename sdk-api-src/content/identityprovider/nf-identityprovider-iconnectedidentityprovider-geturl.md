@@ -12,6 +12,8 @@ ms.keywords: GetUrl, GetUrl method [Security], GetUrl method [Security],IConnect
 ms.topic: method
 f1_keywords: 
  - "identityprovider/IConnectedIdentityProvider.GetUrl"
+dev_langs:
+ - c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

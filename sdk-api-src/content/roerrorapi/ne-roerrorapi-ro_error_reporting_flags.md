@@ -14,6 +14,8 @@ ms.technology: windows-devices
 ms.topic: enum
 f1_keywords: 
  - "roerrorapi/RO_ERROR_REPORTING_FLAGS"
+dev_langs:
+ - c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

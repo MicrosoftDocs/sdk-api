@@ -12,6 +12,8 @@ ms.keywords: Image class [GDI+],Save method, Image.Save, Image.Save(IN IStream,I
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Image.Save"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

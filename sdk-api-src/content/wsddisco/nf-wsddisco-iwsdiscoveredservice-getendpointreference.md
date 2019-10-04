@@ -12,6 +12,8 @@ ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointRefer
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetEndpointReference
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

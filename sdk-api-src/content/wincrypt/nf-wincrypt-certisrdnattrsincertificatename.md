@@ -12,6 +12,8 @@ ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName fu
 ms.topic: function
 f1_keywords:
 - wincrypt/CertIsRDNAttrsInCertificateName
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

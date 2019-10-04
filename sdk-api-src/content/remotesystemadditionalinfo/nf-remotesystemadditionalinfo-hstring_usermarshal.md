@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime]
 ms.topic: function
 f1_keywords: 
  - "remotesystemadditionalinfo/HSTRING_UserMarshal"
+dev_langs:
+ - c++
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

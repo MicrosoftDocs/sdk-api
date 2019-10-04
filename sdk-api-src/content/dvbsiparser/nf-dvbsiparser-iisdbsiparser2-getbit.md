@@ -12,6 +12,8 @@ ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [M
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbSiParser2.GetBIT"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

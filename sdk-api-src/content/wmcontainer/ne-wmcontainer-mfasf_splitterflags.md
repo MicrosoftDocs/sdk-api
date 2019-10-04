@@ -12,6 +12,8 @@ ms.keywords: 8eaad139-b487-4348-ae19-4251a2aeed14, MFASF_SPLITTERFLAGS, MFASF_SP
 ms.topic: enum
 f1_keywords: 
  - "wmcontainer/MFASF_SPLITTERFLAGS"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

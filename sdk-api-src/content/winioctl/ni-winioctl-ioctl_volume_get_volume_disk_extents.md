@@ -12,6 +12,8 @@ ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

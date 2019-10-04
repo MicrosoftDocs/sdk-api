@@ -12,6 +12,8 @@ ms.keywords: "*LPQUERY_SERVICE_LOCK_STATUSA, LPQUERY_SERVICE_LOCK_STATUS, LPQUER
 ms.topic: struct
 f1_keywords: 
  - "winsvc/QUERY_SERVICE_LOCK_STATUS"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

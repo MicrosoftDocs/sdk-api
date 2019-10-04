@@ -12,6 +12,8 @@ ms.keywords: GetHotkeyPrefix, GetHotkeyPrefix method [GDI+], GetHotkeyPrefix met
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.GetHotkeyPrefix"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DMO_INPUT_STREAMF_FIXED_SAMPLE_SIZE, DMO_INPUT_STREAMF_HOLDS_BUFFER
 ms.topic: enum
 f1_keywords: 
  - "mediaobj/_DMO_INPUT_STREAM_INFO_FLAGS"
+dev_langs:
+ - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows

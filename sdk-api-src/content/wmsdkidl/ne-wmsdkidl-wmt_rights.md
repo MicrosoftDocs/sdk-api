@@ -12,6 +12,8 @@ ms.keywords: WMT_RIGHTS, WMT_RIGHTS enumeration [windows Media Format], WMT_RIGH
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_RIGHTS"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

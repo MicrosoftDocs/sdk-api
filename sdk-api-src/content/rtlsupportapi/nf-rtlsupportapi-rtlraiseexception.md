@@ -12,6 +12,8 @@ ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsup
 ms.topic: function
 f1_keywords:
 - rtlsupportapi/RtlRaiseException
+dev_langs:
+ - c++
 req.header: rtlsupportapi.h
 req.include-header: 
 req.target-type: Windows

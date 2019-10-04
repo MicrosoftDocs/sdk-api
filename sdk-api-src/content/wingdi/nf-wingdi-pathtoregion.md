@@ -12,6 +12,8 @@ ms.keywords: PathToRegion, PathToRegion function [Windows GDI], _win32_PathToReg
 ms.topic: function
 f1_keywords: 
  - "wingdi/PathToRegion"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

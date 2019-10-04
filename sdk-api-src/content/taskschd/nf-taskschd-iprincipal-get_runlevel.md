@@ -12,6 +12,8 @@ ms.keywords: IPrincipal interface [Task Scheduler],RunLevel property, IPrincipal
 ms.topic: method
 f1_keywords: 
  - "taskschd/IPrincipal.RunLevel"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

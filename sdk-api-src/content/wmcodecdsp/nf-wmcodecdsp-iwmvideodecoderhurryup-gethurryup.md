@@ -12,6 +12,8 @@ ms.keywords: GetHurryup, GetHurryup method [Media Foundation], GetHurryup method
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMVideoDecoderHurryup.GetHurryup"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

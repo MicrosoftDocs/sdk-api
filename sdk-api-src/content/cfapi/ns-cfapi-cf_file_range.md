@@ -12,6 +12,8 @@ ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudA
 ms.topic: struct
 f1_keywords: 
  - "cfapi/CF_FILE_RANGE"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

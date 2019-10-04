@@ -12,6 +12,8 @@ ms.keywords: CurrentVerticalScrollPercent property [Windows Accessibility], Curr
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationScrollPattern.CurrentVerticalScrollPercent"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

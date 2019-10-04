@@ -12,6 +12,8 @@ ms.keywords: CalcOutputFrames, CalcOutputFrames method [Audio Devices], CalcOutp
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObjectRT.CalcOutputFrames"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: 11153c7f-5284-483b-b1d5-01e670d924b4, IInkRecognizer interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizer.SupportedProperties"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoi
 ms.topic: struct
 f1_keywords: 
  - "sessdirpublictypes/TSSD_ConnectionPoint"
+dev_langs:
+ - c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

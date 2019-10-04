@@ -12,6 +12,8 @@ ms.keywords: SQRO_ADD_ROBUST_ITEM_NAME, SQRO_ALWAYS_ONE_INTERVAL, SQRO_DEFAULT, 
 ms.topic: enum
 f1_keywords: 
  - "structuredquery/STRUCTURED_QUERY_RESOLVE_OPTION"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

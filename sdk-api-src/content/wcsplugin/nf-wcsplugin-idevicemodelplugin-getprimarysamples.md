@@ -12,6 +12,8 @@ ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System],
 ms.topic: method
 f1_keywords: 
  - "wcsplugin/IDeviceModelPlugIn.GetPrimarySamples"
+dev_langs:
+ - c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

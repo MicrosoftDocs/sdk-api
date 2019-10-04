@@ -12,6 +12,8 @@ ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplace
 ms.topic: function
 f1_keywords: 
  - "windns/DnsReplaceRecordSet"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

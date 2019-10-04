@@ -12,6 +12,8 @@ ms.keywords: IWMPLibrary interface [Windows Media Player],get_mediaCollection me
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPLibrary.get_mediaCollection"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

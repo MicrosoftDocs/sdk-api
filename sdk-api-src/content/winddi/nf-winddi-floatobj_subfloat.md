@@ -12,6 +12,8 @@ ms.keywords: FLOATOBJ_SubFloat, FLOATOBJ_SubFloat function [Display Devices], di
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_SubFloat
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

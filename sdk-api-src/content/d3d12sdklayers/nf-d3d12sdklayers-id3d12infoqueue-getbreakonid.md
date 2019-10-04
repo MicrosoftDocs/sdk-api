@@ -12,6 +12,8 @@ ms.keywords: GetBreakOnID, GetBreakOnID method, GetBreakOnID method,ID3D12InfoQu
 ms.topic: method
 f1_keywords: 
  - "d3d12sdklayers/ID3D12InfoQueue.GetBreakOnID"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

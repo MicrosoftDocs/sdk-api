@@ -12,6 +12,8 @@ ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows M
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

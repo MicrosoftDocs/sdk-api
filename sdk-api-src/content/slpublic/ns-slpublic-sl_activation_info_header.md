@@ -12,6 +12,8 @@ ms.keywords: SL_ACTIVATION_INFO_HEADER, SL_ACTIVATION_INFO_HEADER structure [Sec
 ms.topic: struct
 f1_keywords: 
  - "slpublic/SL_ACTIVATION_INFO_HEADER"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

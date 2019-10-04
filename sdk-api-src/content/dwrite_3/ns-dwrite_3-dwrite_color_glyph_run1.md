@@ -12,6 +12,8 @@ ms.keywords: DWRITE_COLOR_GLYPH_RUN1, DWRITE_COLOR_GLYPH_RUN1 structure [Direct 
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_COLOR_GLYPH_RUN1"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

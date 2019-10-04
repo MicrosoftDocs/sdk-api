@@ -12,6 +12,8 @@ ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getad
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/GetAdaptersInfo"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

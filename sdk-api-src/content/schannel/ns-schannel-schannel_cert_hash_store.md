@@ -12,6 +12,8 @@ ms.keywords: "*PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_C
 ms.topic: struct
 f1_keywords: 
  - "schannel/SCHANNEL_CERT_HASH_STORE"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

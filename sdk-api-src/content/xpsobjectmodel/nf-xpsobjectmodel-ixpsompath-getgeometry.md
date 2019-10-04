@@ -12,6 +12,8 @@ ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetG
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMPath.GetGeometry"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

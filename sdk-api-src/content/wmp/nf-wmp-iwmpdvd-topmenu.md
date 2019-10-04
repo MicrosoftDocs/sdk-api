@@ -12,6 +12,8 @@ ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.to
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPDVD.topMenu"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

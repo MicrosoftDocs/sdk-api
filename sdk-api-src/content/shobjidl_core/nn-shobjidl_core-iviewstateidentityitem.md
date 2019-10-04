@@ -12,6 +12,8 @@ ms.keywords: IViewStateIdentityItem, IViewStateIdentityItem interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IViewStateIdentityItem"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

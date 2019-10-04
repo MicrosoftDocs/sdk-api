@@ -12,6 +12,8 @@ ms.keywords: OpenThread, OpenThread function, _win32_openthread, base.openthread
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/OpenThread"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

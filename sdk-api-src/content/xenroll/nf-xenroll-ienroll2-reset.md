@@ -12,6 +12,8 @@ ms.keywords: IEnroll2 interface [Security],Reset method, IEnroll2.Reset, IEnroll
 ms.topic: method
 f1_keywords: 
  - "xenroll/IEnroll2.Reset"
+dev_langs:
+ - c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

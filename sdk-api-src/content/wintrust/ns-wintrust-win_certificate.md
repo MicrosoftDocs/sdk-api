@@ -12,6 +12,8 @@ ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure p
 ms.topic: struct
 f1_keywords: 
  - "wintrust/WIN_CERTIFICATE"
+dev_langs:
+ - c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

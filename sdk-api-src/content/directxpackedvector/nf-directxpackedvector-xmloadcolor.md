@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMLoadColor, XMLoadColor, XMLoadColor method 
 ms.topic: function
 f1_keywords: 
  - "directxpackedvector/XMLoadColor"
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, I
 ms.topic: method
 f1_keywords: 
  - "netcon/IEnumNetSharingPrivateConnection.Skip"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

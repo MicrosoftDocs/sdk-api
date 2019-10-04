@@ -12,6 +12,8 @@ ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundati
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFPutWaitingWorkItem"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

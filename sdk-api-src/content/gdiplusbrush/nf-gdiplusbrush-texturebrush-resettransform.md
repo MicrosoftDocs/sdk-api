@@ -12,6 +12,8 @@ ms.keywords: ResetTransform, ResetTransform method [GDI+], ResetTransform method
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/TextureBrush.ResetTransform"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBlob, GetBlob method [Windows Runtime], GetBlob method [Windows 
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetBlob"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

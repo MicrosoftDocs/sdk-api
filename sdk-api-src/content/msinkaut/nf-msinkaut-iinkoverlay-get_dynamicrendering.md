@@ -12,6 +12,8 @@ ms.keywords: 1e0e231a-82bc-4d22-9467-4c7b29f4b405, DynamicRendering property [Ta
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkOverlay.DynamicRendering"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

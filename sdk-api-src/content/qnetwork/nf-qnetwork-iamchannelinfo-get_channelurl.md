@@ -12,6 +12,8 @@ ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelURL method, IAMCha
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMChannelInfo.get_ChannelURL"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Get, Get method [Text Services Framework], Get method [Text Service
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnGetSAPIObject.Get"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

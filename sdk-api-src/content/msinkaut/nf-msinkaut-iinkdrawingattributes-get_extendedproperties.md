@@ -12,6 +12,8 @@ ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties propert
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDrawingAttributes.ExtendedProperties"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

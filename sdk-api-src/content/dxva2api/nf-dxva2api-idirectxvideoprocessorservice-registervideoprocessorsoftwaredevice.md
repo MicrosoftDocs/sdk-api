@@ -12,6 +12,8 @@ ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

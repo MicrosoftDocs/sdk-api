@@ -12,6 +12,8 @@ ms.keywords: IX509PrivateKey interface [Security],Opened property, IX509PrivateK
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509PrivateKey.Opened"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _
 ms.topic: function
 f1_keywords: 
  - "clusapi/ClusterRegEnumKey"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

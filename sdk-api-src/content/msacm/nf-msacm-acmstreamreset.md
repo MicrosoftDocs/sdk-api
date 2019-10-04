@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmStreamReset, acmStreamReset, acmStreamReset function [Wi
 ms.topic: function
 f1_keywords: 
  - "msacm/acmStreamReset"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

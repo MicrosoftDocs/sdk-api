@@ -12,6 +12,8 @@ ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleas
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfReleaseTransferKey"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

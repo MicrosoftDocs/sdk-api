@@ -12,6 +12,8 @@ ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface functi
 ms.topic: function
 f1_keywords: 
  - "winusb/WinUsb_GetAssociatedInterface"
+dev_langs:
+ - c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

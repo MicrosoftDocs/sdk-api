@@ -12,6 +12,8 @@ ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptDecrypt
+dev_langs:
+ - c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

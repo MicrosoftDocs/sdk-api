@@ -12,6 +12,8 @@ ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIO
 ms.topic: function
 f1_keywords: 
  - "winsock2/socket"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

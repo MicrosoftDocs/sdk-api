@@ -12,6 +12,8 @@ ms.keywords: IInkEdit, IInkEdit interface [Tablet PC], IInkEdit interface [Table
 ms.topic: interface
 f1_keywords: 
  - "inked/IInkEdit"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

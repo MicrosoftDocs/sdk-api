@@ -12,6 +12,8 @@ ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterDuckNotificati
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionManager2.RegisterDuckNotification"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

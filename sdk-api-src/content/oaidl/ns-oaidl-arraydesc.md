@@ -12,6 +12,8 @@ ms.keywords: ARRAYDESC, ARRAYDESC structure [Automation], _oa96_ARRAYDESC, autom
 ms.topic: struct
 f1_keywords: 
  - "oaidl/ARRAYDESC"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

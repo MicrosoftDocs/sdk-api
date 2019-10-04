@@ -12,6 +12,8 @@ ms.keywords: IFunctionDiscoveryServiceProvider interface,Initialize method, IFun
 ms.topic: method
 f1_keywords: 
  - "functiondiscoveryprovider/IFunctionDiscoveryServiceProvider.Initialize"
+dev_langs:
+ - c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

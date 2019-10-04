@@ -12,6 +12,8 @@ ms.keywords: "*PCERT_POLICY_CONSTRAINTS_INFO, CERT_POLICY_CONSTRAINTS_INFO, CERT
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CERT_POLICY_CONSTRAINTS_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

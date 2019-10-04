@@ -12,6 +12,8 @@ ms.keywords: VMR9NormalizedRect, VMR9NormalizedRect structure [DirectShow], VMR9
 ms.topic: struct
 f1_keywords: 
  - "vmr9/VMR9NormalizedRect"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

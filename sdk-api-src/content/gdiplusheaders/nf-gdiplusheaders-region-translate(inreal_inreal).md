@@ -9,6 +9,8 @@ ms.keywords: Region::Translate
 ms.topic: language-reference
 f1_keywords: 
  - "gdiplusheaders/Region::Translate"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

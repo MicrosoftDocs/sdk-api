@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetTransform method, Pen.SetTransform, Pen::SetTra
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetTransform"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

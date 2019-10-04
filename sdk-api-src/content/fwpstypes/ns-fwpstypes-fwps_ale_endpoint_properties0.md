@@ -12,6 +12,8 @@ ms.keywords: FWPS_ALE_ENDPOINT_PROPERTIES0, FWPS_ALE_ENDPOINT_PROPERTIES0 struct
 ms.topic: struct
 f1_keywords: 
  - "fwpstypes/FWPS_ALE_ENDPOINT_PROPERTIES0"
+dev_langs:
+ - c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

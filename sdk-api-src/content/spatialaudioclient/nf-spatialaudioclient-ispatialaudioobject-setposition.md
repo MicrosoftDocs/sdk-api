@@ -12,6 +12,8 @@ ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpa
 ms.topic: method
 f1_keywords: 
  - "spatialaudioclient/ISpatialAudioObject.SetPosition"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

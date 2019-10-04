@@ -12,6 +12,8 @@ ms.keywords: IMtsGrp, IMtsGrp interface [COM+], IMtsGrp interface [COM+],describ
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IMtsGrp"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

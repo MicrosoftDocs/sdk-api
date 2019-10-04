@@ -12,6 +12,8 @@ ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], window
 ms.topic: function
 f1_keywords: 
  - "windows.data.pdf.interop/PdfRenderParams"
+dev_langs:
+ - c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetTargetRect, GetTargetRect method [DXGI], GetTargetRect method [D
 ms.topic: method
 f1_keywords: 
  - "dxgi1_3/IDXGIDecodeSwapChain.GetTargetRect"
+dev_langs:
+ - c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

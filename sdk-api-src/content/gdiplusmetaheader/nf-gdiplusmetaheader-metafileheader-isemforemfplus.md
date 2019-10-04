@@ -12,6 +12,8 @@ ms.keywords: IsEmfOrEmfPlus, IsEmfOrEmfPlus method [GDI+], IsEmfOrEmfPlus method
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsEmfOrEmfPlus"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

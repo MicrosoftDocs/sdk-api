@@ -12,6 +12,8 @@ ms.keywords: "*PFAX_LOG_CATEGORYW, FAXLOG_CATEGORY_INBOUND, FAXLOG_CATEGORY_INIT
 ms.topic: struct
 f1_keywords: 
  - "winfax/FAX_LOG_CATEGORY"
+dev_langs:
+ - c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

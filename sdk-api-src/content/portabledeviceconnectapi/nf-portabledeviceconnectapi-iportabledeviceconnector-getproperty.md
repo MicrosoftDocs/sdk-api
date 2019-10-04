@@ -12,6 +12,8 @@ ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], Get
 ms.topic: method
 f1_keywords: 
  - "portabledeviceconnectapi/IPortableDeviceConnector.GetProperty"
+dev_langs:
+ - c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

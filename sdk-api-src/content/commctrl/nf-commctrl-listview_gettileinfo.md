@@ -12,6 +12,8 @@ ms.keywords: ListView_GetTileInfo, ListView_GetTileInfo macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_GetTileInfo"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

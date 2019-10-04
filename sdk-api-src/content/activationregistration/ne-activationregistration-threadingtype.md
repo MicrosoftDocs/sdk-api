@@ -12,6 +12,8 @@ ms.keywords: ThreadingType, ThreadingType enumeration [Windows Runtime], Threadi
 ms.topic: enum
 f1_keywords: 
  - "activationregistration/ThreadingType"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

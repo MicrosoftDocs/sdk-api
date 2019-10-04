@@ -12,6 +12,8 @@ ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.trac
 ms.topic: macro
 f1_keywords: 
  - "traceloggingactivity/TraceLoggingFunction"
+dev_langs:
+ - c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

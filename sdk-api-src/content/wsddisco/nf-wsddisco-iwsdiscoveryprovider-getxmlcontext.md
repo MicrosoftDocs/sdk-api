@@ -12,6 +12,8 @@ ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscov
 ms.topic: method
 f1_keywords: 
  - "wsddisco/IWSDiscoveryProvider.GetXMLContext"
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [M
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_VIDEO_PROCESSOR_MIRROR"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

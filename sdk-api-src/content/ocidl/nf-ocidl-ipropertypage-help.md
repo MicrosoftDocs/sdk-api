@@ -12,6 +12,8 @@ ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface,
 ms.topic: method
 f1_keywords: 
  - "ocidl/IPropertyPage.Help"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

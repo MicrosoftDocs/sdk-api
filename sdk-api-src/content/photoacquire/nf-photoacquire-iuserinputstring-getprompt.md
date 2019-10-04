@@ -12,6 +12,8 @@ ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetPrompt"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

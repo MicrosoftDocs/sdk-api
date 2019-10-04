@@ -12,6 +12,8 @@ ms.keywords: BRUSHOBJ_ulGetBrushColor, BRUSHOBJ_ulGetBrushColor function [Displa
 ms.topic: function
 f1_keywords:
 - winddi/BRUSHOBJ_ulGetBrushColor
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

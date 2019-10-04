@@ -12,6 +12,8 @@ ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultVal
 ms.topic: method
 f1_keywords: 
  - "strmif/ICodecAPI.GetDefaultValue"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

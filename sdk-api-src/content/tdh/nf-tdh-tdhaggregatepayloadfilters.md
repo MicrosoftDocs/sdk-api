@@ -12,6 +12,8 @@ ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ET
 ms.topic: function
 f1_keywords:
 - tdh/TdhAggregatePayloadFilters
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

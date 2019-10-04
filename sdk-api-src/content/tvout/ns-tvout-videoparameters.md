@@ -12,6 +12,8 @@ ms.keywords: "*LPVIDEOPARAMETERS, *PVIDEOPARAMETERS, LPVIDEOPARAMETERS, LPVIDEOP
 ms.topic: struct
 f1_keywords: 
  - "tvout/VIDEOPARAMETERS"
+dev_langs:
+ - c++
 req.header: tvout.h
 req.include-header: Tvout.h
 req.target-type: Windows

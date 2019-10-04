@@ -12,6 +12,8 @@ ms.keywords: AddRecord, AddRecord method [windows Media Format], AddRecord metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMMutualExclusion2.AddRecord"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

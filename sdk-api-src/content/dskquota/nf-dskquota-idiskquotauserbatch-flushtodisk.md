@@ -12,6 +12,8 @@ ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files]
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaUserBatch.FlushToDisk"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

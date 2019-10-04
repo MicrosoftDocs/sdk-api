@@ -12,6 +12,8 @@ ms.keywords: RpcRevertToSelf, RpcRevertToSelf function [RPC], _rpc_rpcreverttose
 ms.topic: function
 f1_keywords: 
  - "rpcdce/RpcRevertToSelf"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

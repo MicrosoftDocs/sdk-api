@@ -12,6 +12,8 @@ ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_S
 ms.topic: enum
 f1_keywords: 
  - "winsync/SYNC_STATISTICS"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProfile, GetProfile method [Direct2D], GetProfile method [Direct
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1ColorContext.GetProfile"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

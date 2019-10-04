@@ -12,6 +12,8 @@ ms.keywords: IFileSinkFilter interface [DirectShow],SetFileName method, IFileSin
 ms.topic: method
 f1_keywords: 
  - "strmif/IFileSinkFilter.SetFileName"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

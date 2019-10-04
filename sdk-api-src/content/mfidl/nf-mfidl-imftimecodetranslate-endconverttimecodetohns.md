@@ -12,6 +12,8 @@ ms.keywords: EndConvertTimecodeToHNS, EndConvertTimecodeToHNS method [Media Foun
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTimecodeTranslate.EndConvertTimecodeToHNS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

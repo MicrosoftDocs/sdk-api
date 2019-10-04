@@ -12,6 +12,8 @@ ms.keywords: PrjFreeAlignedBuffer, PrjFreeAlignedBuffer function, ProjFS.prjfree
 ms.topic: function
 f1_keywords: 
  - "projectedfslib/PrjFreeAlignedBuffer"
+dev_langs:
+ - c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Arra
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetInt64Array"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

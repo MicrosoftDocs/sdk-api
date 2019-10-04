@@ -12,6 +12,8 @@ ms.keywords: GetSchemaVersion, GetSchemaVersion method [Security], GetSchemaVers
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzAuthorizationStore3.GetSchemaVersion"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

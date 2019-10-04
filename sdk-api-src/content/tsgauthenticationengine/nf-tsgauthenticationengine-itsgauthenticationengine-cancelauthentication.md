@@ -12,6 +12,8 @@ ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop S
 ms.topic: method
 f1_keywords: 
  - "tsgauthenticationengine/ITSGAuthenticationEngine.CancelAuthentication"
+dev_langs:
+ - c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

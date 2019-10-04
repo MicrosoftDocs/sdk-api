@@ -12,6 +12,8 @@ ms.keywords: OnDemandGetRoutingHint, OnDemandGetRoutingHint function [Network Aw
 ms.topic: function
 f1_keywords: 
  - "ondemandconnroutehelper/OnDemandGetRoutingHint"
+dev_langs:
+ - c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows

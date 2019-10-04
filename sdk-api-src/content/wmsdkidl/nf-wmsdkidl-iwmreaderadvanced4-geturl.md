@@ -12,6 +12,8 @@ ms.keywords: GetURL, GetURL method [windows Media Format], GetURL method [window
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderAdvanced4.GetURL"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

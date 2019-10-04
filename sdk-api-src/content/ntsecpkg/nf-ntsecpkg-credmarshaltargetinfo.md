@@ -12,6 +12,8 @@ ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], n
 ms.topic: function
 f1_keywords:
 - ntsecpkg/CredMarshalTargetInfo
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

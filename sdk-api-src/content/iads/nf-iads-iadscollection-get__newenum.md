@@ -12,6 +12,8 @@ ms.keywords: IADsCollection interface [ADSI],get__NewEnum method, IADsCollection
 ms.topic: method
 f1_keywords: 
  - "iads/IADsCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

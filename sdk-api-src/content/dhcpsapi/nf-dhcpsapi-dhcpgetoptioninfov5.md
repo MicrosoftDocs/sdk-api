@@ -12,6 +12,8 @@ ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV5, DhcpGetOptionInfo
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetOptionInfoV5
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

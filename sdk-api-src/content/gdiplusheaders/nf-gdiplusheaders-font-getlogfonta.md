@@ -12,6 +12,8 @@ ms.keywords: Font class [GDI+],GetLogFontA method, Font.GetLogFontA, Font::GetLo
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Font.GetLogFontA"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ColorChannelFlags, ColorChannelFlags enumeration [GDI+], ColorChann
 ms.topic: enum
 f1_keywords: 
  - "gdipluscolor/ColorChannelFlags"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

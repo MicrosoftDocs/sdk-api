@@ -12,6 +12,8 @@ ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCa
 ms.topic: function
 f1_keywords: 
  - "vfw/capCreateCaptureWindow"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

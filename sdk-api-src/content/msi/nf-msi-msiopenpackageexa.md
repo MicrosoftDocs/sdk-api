@@ -12,6 +12,8 @@ ms.keywords: MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE, MsiOpenPackageEx, MsiOpenPa
 ms.topic: function
 f1_keywords: 
  - "msi/MsiOpenPackageEx"
+dev_langs:
+ - c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFCaptureEngine interface [Media Foundation],StartRecord method, I
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureEngine.StartRecord"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

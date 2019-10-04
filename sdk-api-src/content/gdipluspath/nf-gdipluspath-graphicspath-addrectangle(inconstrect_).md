@@ -12,6 +12,8 @@ ms.keywords: AddRectangle, AddRectangle method [GDI+], AddRectangle method [GDI+
 ms.topic: method
 f1_keywords: 
  - "gdipluspath/GraphicsPath.AddRectangle"
+dev_langs:
+ - c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

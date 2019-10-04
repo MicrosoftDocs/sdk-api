@@ -12,6 +12,8 @@ ms.keywords: 1ea8359b-fc9f-4929-9499-c5017eb3d763, IRealTimeStylus interface [Ta
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus.SetDesiredPacketDescription"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

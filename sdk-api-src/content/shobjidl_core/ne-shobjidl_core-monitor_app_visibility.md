@@ -12,6 +12,8 @@ ms.keywords: MAV_APP_VISIBLE, MAV_NO_APP_VISIBLE, MAV_UNKNOWN, MONITOR_APP_VISIB
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/MONITOR_APP_VISIBILITY"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

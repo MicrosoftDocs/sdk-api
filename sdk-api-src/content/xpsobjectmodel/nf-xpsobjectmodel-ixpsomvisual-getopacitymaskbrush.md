@@ -12,6 +12,8 @@ ms.keywords: GetOpacityMaskBrush, GetOpacityMaskBrush method [XPS Documents and 
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrush"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

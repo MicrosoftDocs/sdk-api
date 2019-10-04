@@ -12,6 +12,8 @@ ms.keywords: IFaxOutgoingArchive interface [Fax Service],SizeHigh property, IFax
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutgoingArchive.SizeHigh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

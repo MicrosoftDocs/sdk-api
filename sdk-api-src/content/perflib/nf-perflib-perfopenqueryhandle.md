@@ -12,6 +12,8 @@ ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perf
 ms.topic: function
 f1_keywords: 
  - "perflib/PerfOpenQueryHandle"
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

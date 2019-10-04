@@ -12,6 +12,8 @@ ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript 
 ms.topic: method
 f1_keywords: 
  - "tom/ITextFont.GetSubscript"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

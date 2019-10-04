@@ -12,6 +12,8 @@ ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaReco
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITMediaRecord.get_FileName"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

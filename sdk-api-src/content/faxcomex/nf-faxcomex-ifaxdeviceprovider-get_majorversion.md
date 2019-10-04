@@ -12,6 +12,8 @@ ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorVersion property, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxDeviceProvider.MajorVersion"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

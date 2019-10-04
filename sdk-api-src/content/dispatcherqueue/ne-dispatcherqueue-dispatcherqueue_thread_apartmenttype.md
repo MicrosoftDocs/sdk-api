@@ -12,6 +12,8 @@ ms.keywords: DISPATCHERQUEUE_THREAD_APARTMENTTYPE, DISPATCHERQUEUE_THREAD_APARTM
 ms.topic: enum
 f1_keywords: 
  - "dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE"
+dev_langs:
+ - c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

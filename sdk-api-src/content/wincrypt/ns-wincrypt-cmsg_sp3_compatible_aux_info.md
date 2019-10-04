@@ -12,6 +12,8 @@ ms.keywords: "*PCMSG_SP3_COMPATIBLE_AUX_INFO, CMSG_SP3_COMPATIBLE_AUX_INFO, CMSG
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CMSG_SP3_COMPATIBLE_AUX_INFO"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

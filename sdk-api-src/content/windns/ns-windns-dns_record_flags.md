@@ -12,6 +12,8 @@ ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags
 ms.topic: struct
 f1_keywords:
 - windns/DNS_RECORD_FLAGS
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

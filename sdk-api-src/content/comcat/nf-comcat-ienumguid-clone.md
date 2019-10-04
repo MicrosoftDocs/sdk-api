@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumGUID interface, 
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumGUID.Clone"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

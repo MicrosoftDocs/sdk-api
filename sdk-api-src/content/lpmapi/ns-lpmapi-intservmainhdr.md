@@ -12,6 +12,8 @@ ms.keywords: IntServMainHdr, IntServMainHdr structure [QOS], lpmapi/IntServMainH
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/IntServMainHdr"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

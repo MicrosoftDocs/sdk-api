@@ -12,6 +12,8 @@ ms.keywords: MDT_ANGULAR_DPI, MDT_DEFAULT, MDT_EFFECTIVE_DPI, MDT_RAW_DPI, MONIT
 ms.topic: enum
 f1_keywords: 
  - "shellscalingapi/MONITOR_DPI_TYPE"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

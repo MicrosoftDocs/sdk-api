@@ -12,6 +12,8 @@ ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remot
 ms.topic: interface
 f1_keywords: 
  - "sbtsv/ITsSbPlacementNotifySink"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

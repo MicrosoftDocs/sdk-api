@@ -12,6 +12,8 @@ ms.keywords: GetMessage, GetMessage method [Direct3D 11], GetMessage method [Dir
 ms.topic: method
 f1_keywords: 
  - "d3d11sdklayers/ID3D11InfoQueue.GetMessage"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

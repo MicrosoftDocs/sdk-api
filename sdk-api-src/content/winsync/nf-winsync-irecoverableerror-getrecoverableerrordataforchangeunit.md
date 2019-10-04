@@ -12,6 +12,8 @@ ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForCha
 ms.topic: method
 f1_keywords: 
  - "winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

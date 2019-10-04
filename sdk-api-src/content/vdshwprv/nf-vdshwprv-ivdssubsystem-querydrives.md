@@ -12,6 +12,8 @@ ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.Que
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsSubSystem.QueryDrives"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

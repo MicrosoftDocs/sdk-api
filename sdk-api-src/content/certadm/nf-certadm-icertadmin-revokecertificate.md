@@ -12,6 +12,8 @@ ms.keywords: CCertAdmin interface [Security],RevokeCertificate method, CRL_REASO
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.RevokeCertificate"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

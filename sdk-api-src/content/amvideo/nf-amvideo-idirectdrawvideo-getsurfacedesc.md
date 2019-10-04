@@ -12,6 +12,8 @@ ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectShow], GetSurfaceDesc 
 ms.topic: method
 f1_keywords: 
  - "amvideo/IDirectDrawVideo.GetSurfaceDesc"
+dev_langs:
+ - c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

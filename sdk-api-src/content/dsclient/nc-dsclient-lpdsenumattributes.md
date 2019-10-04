@@ -12,6 +12,8 @@ ms.keywords: DSECAF_NOTLISTED, DSEnumAttributesCallback, DSEnumAttributesCallbac
 ms.topic: callback
 f1_keywords: 
  - "dsclient/LPDSENUMATTRIBUTES"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

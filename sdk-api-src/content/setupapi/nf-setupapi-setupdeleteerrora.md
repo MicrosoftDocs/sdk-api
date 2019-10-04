@@ -12,6 +12,8 @@ ms.keywords: SetupDeleteError, SetupDeleteError function [Setup API], SetupDelet
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupDeleteError"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

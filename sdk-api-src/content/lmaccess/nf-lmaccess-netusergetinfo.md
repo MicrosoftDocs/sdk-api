@@ -12,6 +12,8 @@ ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo f
 ms.topic: function
 f1_keywords:
 - lmaccess/NetUserGetInfo
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

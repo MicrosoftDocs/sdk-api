@@ -12,6 +12,8 @@ ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetSta
 ms.topic: function
 f1_keywords: 
  - "oleacc/GetStateText"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

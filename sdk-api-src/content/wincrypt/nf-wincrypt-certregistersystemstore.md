@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT
 ms.topic: function
 f1_keywords:
 - wincrypt/CertRegisterSystemStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

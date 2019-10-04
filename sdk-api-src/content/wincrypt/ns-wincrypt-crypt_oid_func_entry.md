@@ -12,6 +12,8 @@ ms.keywords: "*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY
 ms.topic: struct
 f1_keywords: 
  - "wincrypt/CRYPT_OID_FUNC_ENTRY"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

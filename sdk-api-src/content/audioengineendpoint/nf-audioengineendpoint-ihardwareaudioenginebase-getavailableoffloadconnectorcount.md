@@ -12,6 +12,8 @@ ms.keywords: GetAvailableOffloadConnectorCount, GetAvailableOffloadConnectorCoun
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

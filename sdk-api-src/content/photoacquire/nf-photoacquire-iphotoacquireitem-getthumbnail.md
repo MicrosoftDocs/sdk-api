@@ -12,6 +12,8 @@ ms.keywords: GetThumbnail, GetThumbnail method [Picture Acquisition], GetThumbna
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireItem.GetThumbnail"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

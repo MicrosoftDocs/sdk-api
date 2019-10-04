@@ -12,6 +12,8 @@ ms.keywords: '*PHTTP_MULTIPLE_KNOWN_HEADERS, *PHTTP_MULTIPLE_KNOWN_HEADERS struc
 ms.topic: struct
 f1_keywords:
 - http/HTTP_MULTIPLE_KNOWN_HEADERS
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

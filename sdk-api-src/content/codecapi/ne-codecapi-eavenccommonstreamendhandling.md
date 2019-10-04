@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncCommonStreamEndHandling, codecapi/eAVEncCommonStream
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncCommonStreamEndHandling"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

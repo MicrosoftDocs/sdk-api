@@ -12,6 +12,8 @@ ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IIsdbSiParser2"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

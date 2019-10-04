@@ -12,6 +12,8 @@ ms.keywords: '*PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINF
 ms.topic: struct
 f1_keywords:
 - shellapi/SHCREATEPROCESSINFOW
+dev_langs:
+ - c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

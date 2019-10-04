@@ -12,6 +12,8 @@ ms.keywords: DXGI_INFO_QUEUE_MESSAGE_CATEGORY, DXGI_INFO_QUEUE_MESSAGE_CATEGORY 
 ms.topic: enum
 f1_keywords: 
  - "dxgidebug/DXGI_INFO_QUEUE_MESSAGE_CATEGORY"
+dev_langs:
+ - c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

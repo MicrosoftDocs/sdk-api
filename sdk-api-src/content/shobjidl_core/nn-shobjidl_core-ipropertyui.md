@@ -12,6 +12,8 @@ ms.keywords: IPropertyUI, IPropertyUI interface [Windows Properties], IPropertyU
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPropertyUI"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

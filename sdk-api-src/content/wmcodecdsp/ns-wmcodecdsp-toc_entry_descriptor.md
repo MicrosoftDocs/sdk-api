@@ -12,6 +12,8 @@ ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundat
 ms.topic: struct
 f1_keywords: 
  - "wmcodecdsp/TOC_ENTRY_DESCRIPTOR"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateDevice, CreateDevice method [windows Media Device Manager], C
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDServiceProvider2.CreateDevice"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap interface [Dir
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: D2d1_1.h
 req.target-type: Windows

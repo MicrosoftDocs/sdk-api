@@ -12,6 +12,8 @@ ms.keywords: WS_FREE_CHANNEL_CALLBACK, WS_FREE_CHANNEL_CALLBACK callback, WS_FRE
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_FREE_CHANNEL_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

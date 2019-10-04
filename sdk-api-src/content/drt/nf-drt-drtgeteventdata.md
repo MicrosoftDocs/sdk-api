@@ -12,6 +12,8 @@ ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/Dr
 ms.topic: function
 f1_keywords: 
  - "drt/DrtGetEventData"
+dev_langs:
+ - c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

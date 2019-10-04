@@ -12,6 +12,8 @@ ms.keywords: 6adcccd9-da86-da4f-0638-3ffb79b7a9de, GetDepthStencilState, GetDept
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectDepthStencilVariable.GetDepthStencilState"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

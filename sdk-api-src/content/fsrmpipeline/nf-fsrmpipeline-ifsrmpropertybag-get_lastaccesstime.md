@@ -12,6 +12,8 @@ ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],LastAcces
 ms.topic: method
 f1_keywords: 
  - "fsrmpipeline/IFsrmPropertyBag.LastAccessTime"
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

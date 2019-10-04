@@ -12,6 +12,8 @@ ms.keywords: SFV_CREATE, SFV_CREATE structure [Windows Shell], _SFV_CREATE, _win
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/SFV_CREATE"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

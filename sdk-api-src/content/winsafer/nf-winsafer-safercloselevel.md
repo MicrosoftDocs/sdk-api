@@ -12,6 +12,8 @@ ms.keywords: SaferCloseLevel, SaferCloseLevel function [Security], _mnp_saferclo
 ms.topic: function
 f1_keywords: 
  - "winsafer/SaferCloseLevel"
+dev_langs:
+ - c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

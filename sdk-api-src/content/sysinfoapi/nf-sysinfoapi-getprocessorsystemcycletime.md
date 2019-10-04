@@ -12,6 +12,8 @@ ms.keywords: GetProcessorSystemCycleTime, GetProcessorSystemCycleTime function, 
 ms.topic: function
 f1_keywords: 
  - "sysinfoapi/GetProcessorSystemCycleTime"
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDiskQuotaEvents interface [Files],OnUserNameChanged method, IDiskQ
 ms.topic: method
 f1_keywords: 
  - "dskquota/IDiskQuotaEvents.OnUserNameChanged"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

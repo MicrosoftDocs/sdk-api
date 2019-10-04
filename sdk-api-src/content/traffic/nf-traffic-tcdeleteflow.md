@@ -12,6 +12,8 @@ ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.
 ms.topic: function
 f1_keywords: 
  - "traffic/TcDeleteFlow"
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, 
 ms.topic: method
 f1_keywords:
 - wsdxml/IWSDXMLContext.SetTypes
+dev_langs:
+ - c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

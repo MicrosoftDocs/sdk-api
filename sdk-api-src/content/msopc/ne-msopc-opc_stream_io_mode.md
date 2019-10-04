@@ -12,6 +12,8 @@ ms.keywords: OPC_STREAM_IO_MODE, OPC_STREAM_IO_MODE enumeration [Open Packaging 
 ms.topic: enum
 f1_keywords: 
  - "msopc/OPC_STREAM_IO_MODE"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

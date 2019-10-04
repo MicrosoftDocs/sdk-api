@@ -12,6 +12,8 @@ ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b2
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFStartup"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

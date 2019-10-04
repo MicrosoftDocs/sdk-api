@@ -12,6 +12,8 @@ ms.keywords: SetMeasurableCharacterRanges, SetMeasurableCharacterRanges method [
 ms.topic: method
 f1_keywords: 
  - "gdiplusstringformat/StringFormat.SetMeasurableCharacterRanges"
+dev_langs:
+ - c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

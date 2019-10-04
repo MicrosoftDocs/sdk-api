@@ -12,6 +12,8 @@ ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],get
 ms.topic: method
 f1_keywords: 
  - "tuner/IAnalogAudioComponentType.get_AnalogAudioMode"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxS
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxServerNotify2"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], Appl
 ms.topic: method
 f1_keywords: 
  - "rdpappcontainerclient/IRemoteDesktopClientSettings.ApplySettings"
+dev_langs:
+ - c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

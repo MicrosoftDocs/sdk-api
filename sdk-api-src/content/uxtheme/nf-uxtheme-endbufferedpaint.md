@@ -12,6 +12,8 @@ ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _sh
 ms.topic: function
 f1_keywords: 
  - "uxtheme/EndBufferedPaint"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

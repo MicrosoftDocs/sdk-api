@@ -12,6 +12,8 @@ ms.keywords: WS_STRING, WS_STRING structure [Web Services for Windows], webservi
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_STRING"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

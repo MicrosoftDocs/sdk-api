@@ -12,6 +12,8 @@ ms.keywords: ICOMAdminCatalog interface [COM+],ImportComponent method, ICOMAdmin
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog.ImportComponent"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.get_TerminalClasses"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

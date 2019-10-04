@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_DH_ECP_256, IKEEXT_DH_ECP_384, IKEEXT_DH_GROUP, IKEEXT_DH_GR
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_DH_GROUP"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

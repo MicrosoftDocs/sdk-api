@@ -12,6 +12,8 @@ ms.keywords: '*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POL
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_POLICY_INFO
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICall
 ms.topic: interface
 f1_keywords: 
  - "tapi3cc/ITTAPICallCenter"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

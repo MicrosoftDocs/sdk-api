@@ -12,6 +12,8 @@ ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities, GetSe
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFMediaSession.GetSessionCapabilities"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

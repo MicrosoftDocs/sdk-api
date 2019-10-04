@@ -12,6 +12,8 @@ ms.keywords: IStreamBufferRecordingAttribute interface [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "sbe/IStreamBufferRecordingAttribute.SetAttribute"
+dev_langs:
+ - c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

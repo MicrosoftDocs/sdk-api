@@ -12,6 +12,8 @@ ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenu
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfSystemLangBarItemSink.OnMenuSelect"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

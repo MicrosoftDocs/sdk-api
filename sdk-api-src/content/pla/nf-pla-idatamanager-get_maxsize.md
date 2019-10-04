@@ -12,6 +12,8 @@ ms.keywords: IDataManager interface [PLA],MaxSize property, IDataManager.MaxSize
 ms.topic: method
 f1_keywords: 
  - "pla/IDataManager.MaxSize"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

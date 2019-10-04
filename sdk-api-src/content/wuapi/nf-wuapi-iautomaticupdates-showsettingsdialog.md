@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ShowSettingsDial
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdates.ShowSettingsDialog"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

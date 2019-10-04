@@ -12,6 +12,8 @@ ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [Ap
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

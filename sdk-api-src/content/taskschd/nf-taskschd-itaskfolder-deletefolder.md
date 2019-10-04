@@ -12,6 +12,8 @@ ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder me
 ms.topic: method
 f1_keywords: 
  - "taskschd/ITaskFolder.DeleteFolder"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

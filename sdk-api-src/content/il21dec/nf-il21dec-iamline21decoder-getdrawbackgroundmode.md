@@ -12,6 +12,8 @@ ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], G
 ms.topic: method
 f1_keywords:
 - il21dec/IAMLine21Decoder.GetDrawBackgroundMode
+dev_langs:
+ - c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

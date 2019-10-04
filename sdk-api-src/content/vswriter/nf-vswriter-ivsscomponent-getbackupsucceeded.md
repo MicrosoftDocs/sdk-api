@@ -12,6 +12,8 @@ ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucce
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssComponent.GetBackupSucceeded"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

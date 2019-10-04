@@ -12,6 +12,8 @@ ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media F
 ms.topic: interface
 f1_keywords: 
  - "wmnetsourcecreator/INSNetSourceCreator"
+dev_langs:
+ - c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows

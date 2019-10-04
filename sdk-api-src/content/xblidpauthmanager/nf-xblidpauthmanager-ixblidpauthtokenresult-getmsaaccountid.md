@@ -12,6 +12,8 @@ ms.keywords: GetMsaAccountId, GetMsaAccountId method, GetMsaAccountId method,IXb
 ms.topic: method
 f1_keywords: 
  - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaAccountId"
+dev_langs:
+ - c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

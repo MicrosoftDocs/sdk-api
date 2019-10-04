@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIApplication interface [RDP],Name property, IRDPSRAPIApplic
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIApplication.Name"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

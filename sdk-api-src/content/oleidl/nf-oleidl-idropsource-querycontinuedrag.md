@@ -12,6 +12,8 @@ ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.Q
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropSource.QueryContinueDrag"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

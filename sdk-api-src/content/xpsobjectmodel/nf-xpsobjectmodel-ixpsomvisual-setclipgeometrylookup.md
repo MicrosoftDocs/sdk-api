@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometr
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

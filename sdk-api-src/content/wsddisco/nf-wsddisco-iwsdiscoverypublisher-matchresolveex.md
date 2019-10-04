@@ -12,6 +12,8 @@ ms.keywords: IWSDiscoveryPublisher interface,MatchResolveEx method, IWSDiscovery
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.MatchResolveEx
+dev_langs:
+ - c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

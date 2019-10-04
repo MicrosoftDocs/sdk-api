@@ -12,6 +12,8 @@ ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/Path
 ms.topic: function
 f1_keywords: 
  - "pathcch/PathCchIsRoot"
+dev_langs:
+ - c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

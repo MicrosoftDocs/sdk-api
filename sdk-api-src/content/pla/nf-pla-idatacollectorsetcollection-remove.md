@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCol
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSetCollection.Remove"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

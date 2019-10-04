@@ -12,6 +12,8 @@ ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebu
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPackageDebugSettings.EnableDebugging"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

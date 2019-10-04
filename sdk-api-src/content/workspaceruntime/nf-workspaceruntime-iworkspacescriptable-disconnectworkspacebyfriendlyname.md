@@ -12,6 +12,8 @@ ms.keywords: DisconnectWorkspaceByFriendlyName, DisconnectWorkspaceByFriendlyNam
 ms.topic: method
 f1_keywords: 
  - "workspaceruntime/IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName"
+dev_langs:
+ - c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkReco
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognizerGuide.Columns"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

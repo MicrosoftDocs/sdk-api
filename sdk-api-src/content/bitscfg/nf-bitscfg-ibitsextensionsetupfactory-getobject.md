@@ -12,6 +12,8 @@ ms.keywords: GetObject, GetObject method [BITS], GetObject method [BITS],IBITSEx
 ms.topic: method
 f1_keywords: 
  - "bitscfg/IBITSExtensionSetupFactory.GetObject"
+dev_langs:
+ - c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows

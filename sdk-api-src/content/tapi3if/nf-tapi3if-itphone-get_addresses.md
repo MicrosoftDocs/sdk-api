@@ -12,6 +12,8 @@ ms.keywords: ITPhone interface [TAPI 2.2],get_Addresses method, ITPhone.get_Addr
 ms.topic: method
 f1_keywords: 
  - "tapi3if/ITPhone.get_Addresses"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

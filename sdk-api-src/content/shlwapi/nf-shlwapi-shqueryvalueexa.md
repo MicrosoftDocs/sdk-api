@@ -12,6 +12,8 @@ ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOC
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHQueryValueEx"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

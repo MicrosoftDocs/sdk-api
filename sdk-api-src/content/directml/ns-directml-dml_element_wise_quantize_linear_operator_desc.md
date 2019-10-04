@@ -12,6 +12,8 @@ ms.keywords: DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC, DML_ELEMENT_WISE_QU
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NLM_CONNECTIVITY, NLM_CONNECTIVITY enumeration [Network Awareness],
 ms.topic: enum
 f1_keywords: 
  - "netlistmgr/NLM_CONNECTIVITY"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

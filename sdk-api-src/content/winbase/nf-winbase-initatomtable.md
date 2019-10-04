@@ -12,6 +12,8 @@ ms.keywords: InitAtomTable, InitAtomTable function [Data Exchange], _win32_InitA
 ms.topic: function
 f1_keywords: 
  - "winbase/InitAtomTable"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media D
 ms.topic: interface
 f1_keywords: 
  - "mftransform/IMFDeviceTransform"
+dev_langs:
+ - c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

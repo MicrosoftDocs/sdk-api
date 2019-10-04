@@ -12,6 +12,8 @@ ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS]
 ms.topic: interface
 f1_keywords: 
  - "qmgr/IBackgroundCopyCallback1"
+dev_langs:
+ - c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

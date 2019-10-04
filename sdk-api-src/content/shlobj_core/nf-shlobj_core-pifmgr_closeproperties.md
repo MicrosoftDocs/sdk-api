@@ -12,6 +12,8 @@ ms.keywords: CLOSEPROPS_DISCARD, CLOSEPROPS_NONE, PifMgr_CloseProperties, PifMgr
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/PifMgr_CloseProperties"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

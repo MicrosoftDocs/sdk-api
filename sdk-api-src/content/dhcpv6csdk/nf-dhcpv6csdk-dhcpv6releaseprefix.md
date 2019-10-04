@@ -12,6 +12,8 @@ ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcp
 ms.topic: function
 f1_keywords:
 - dhcpv6csdk/Dhcpv6ReleasePrefix
+dev_langs:
+ - c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

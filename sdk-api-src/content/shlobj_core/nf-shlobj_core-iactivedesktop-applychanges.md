@@ -12,6 +12,8 @@ ms.keywords: AD_APPLY_ALL, AD_APPLY_BUFFERED_REFRESH, AD_APPLY_DYNAMICREFRESH, A
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IActiveDesktop.ApplyChanges"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

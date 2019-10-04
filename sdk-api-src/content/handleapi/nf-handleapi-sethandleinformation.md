@@ -12,6 +12,8 @@ ms.keywords: HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, SetHandleInfor
 ms.topic: function
 f1_keywords: 
  - "handleapi/SetHandleInformation"
+dev_langs:
+ - c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL, IMAGEHLP_SYMBOL structure, IMA
 ms.topic: struct
 f1_keywords: 
  - "dbghelp/IMAGEHLP_SYMBOL64"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

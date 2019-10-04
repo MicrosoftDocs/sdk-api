@@ -12,6 +12,8 @@ ms.keywords: DBSORTINFO, DBSORTINFO structure [Indexing Service], _idxs_DBSORTIN
 ms.topic: struct
 f1_keywords: 
  - "cmdtree/DBSORTINFO"
+dev_langs:
+ - c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

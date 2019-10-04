@@ -12,6 +12,8 @@ ms.keywords: IDMLDevice, IDMLDevice interface, IDMLDevice interface,described, d
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLDevice"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

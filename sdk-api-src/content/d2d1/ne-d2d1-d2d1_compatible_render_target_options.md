@@ -12,6 +12,8 @@ ms.keywords: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS, D2D1_COMPATIBLE_RENDER_TARGE
 ms.topic: enum
 f1_keywords: 
  - "d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

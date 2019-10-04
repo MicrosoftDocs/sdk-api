@@ -12,6 +12,8 @@ ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRa
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/ISectionList.InitializeWithRawSections"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

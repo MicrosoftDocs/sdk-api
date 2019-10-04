@@ -12,6 +12,8 @@ ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Register metho
 ms.topic: method
 f1_keywords: 
  - "tuner/IRegisterTuner.Register"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

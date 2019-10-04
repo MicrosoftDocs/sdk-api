@@ -12,6 +12,8 @@ ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGenerat
 ms.topic: method
 f1_keywords: 
  - "msrdc/IRdcLibrary.OpenGeneratorParameters"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

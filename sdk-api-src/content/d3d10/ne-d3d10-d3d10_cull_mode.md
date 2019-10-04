@@ -12,6 +12,8 @@ ms.keywords: 2117693b-8d7e-4cd9-dfee-29b015d206b8, D3D10_CULL_BACK, D3D10_CULL_F
 ms.topic: enum
 f1_keywords: 
  - "d3d10/D3D10_CULL_MODE"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

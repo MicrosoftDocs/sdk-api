@@ -12,6 +12,8 @@ ms.keywords: FLVM_CONTENT, FLVM_DETAILS, FLVM_FIRST, FLVM_ICONS, FLVM_LAST, FLVM
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/FOLDERLOGICALVIEWMODE"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

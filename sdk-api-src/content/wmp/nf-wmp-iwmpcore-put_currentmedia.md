@@ -12,6 +12,8 @@ ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPCore.put_currentMedia"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

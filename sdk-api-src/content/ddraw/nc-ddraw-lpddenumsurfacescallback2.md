@@ -12,6 +12,8 @@ ms.keywords: EnumSurfacesCallback2, EnumSurfacesCallback2 callback function [Dir
 ms.topic: callback
 f1_keywords: 
  - "ddraw/EnumSurfacesCallback2"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

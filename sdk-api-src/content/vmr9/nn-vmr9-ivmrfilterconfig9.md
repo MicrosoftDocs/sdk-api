@@ -12,6 +12,8 @@ ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], IVMRFi
 ms.topic: interface
 f1_keywords: 
  - "vmr9/IVMRFilterConfig9"
+dev_langs:
+ - c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

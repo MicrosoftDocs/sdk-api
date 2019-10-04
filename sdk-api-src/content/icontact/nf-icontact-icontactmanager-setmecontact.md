@@ -12,6 +12,8 @@ ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, I
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactManager.SetMeContact"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

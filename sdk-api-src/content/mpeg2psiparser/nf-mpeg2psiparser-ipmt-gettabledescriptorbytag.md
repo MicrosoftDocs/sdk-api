@@ -12,6 +12,8 @@ ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "mpeg2psiparser/IPMT.GetTableDescriptorByTag"
+dev_langs:
+ - c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

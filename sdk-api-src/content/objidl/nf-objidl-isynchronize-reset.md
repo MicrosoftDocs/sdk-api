@@ -12,6 +12,8 @@ ms.keywords: ISynchronize interface [COM],Reset method, ISynchronize.Reset, ISyn
 ms.topic: method
 f1_keywords: 
  - "objidl/ISynchronize.Reset"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

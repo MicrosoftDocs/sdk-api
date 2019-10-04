@@ -12,6 +12,8 @@ ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMe
 ms.topic: interface
 f1_keywords: 
  - "mfobjects/IMFAudioMediaType"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

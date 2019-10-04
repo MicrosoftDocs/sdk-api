@@ -12,6 +12,8 @@ ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget.
 ms.topic: method
 f1_keywords: 
  - "d2d1/ID2D1RenderTarget::DrawRectangle"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human I
 ms.topic: method
 f1_keywords: 
  - "dinputd/IDirectInputEffectDriver.Escape"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

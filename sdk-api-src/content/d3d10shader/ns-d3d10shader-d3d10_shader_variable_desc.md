@@ -12,6 +12,8 @@ ms.keywords: 93d99a1e-6d9e-3991-2e0b-086cd3eee8c0, D3D10_SHADER_VARIABLE_DESC, D
 ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_VARIABLE_DESC
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

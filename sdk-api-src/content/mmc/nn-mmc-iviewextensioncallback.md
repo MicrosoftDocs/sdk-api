@@ -12,6 +12,8 @@ ms.keywords: IViewExtensionCallback, IViewExtensionCallback interface [MMC], IVi
 ms.topic: interface
 f1_keywords: 
  - "mmc/IViewExtensionCallback"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

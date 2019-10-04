@@ -12,6 +12,8 @@ ms.keywords: "*PFILE_BASIC_INFO, FILE_BASIC_INFO, FILE_BASIC_INFO structure [Fil
 ms.topic: struct
 f1_keywords: 
  - "winbase/FILE_BASIC_INFO"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

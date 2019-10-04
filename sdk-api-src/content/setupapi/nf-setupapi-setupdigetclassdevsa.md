@@ -8,6 +8,8 @@ ms.topic: language-reference
 targetos: Windows
 f1_keywords:
 - setupapi/SetupDiGetClassDevs
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List

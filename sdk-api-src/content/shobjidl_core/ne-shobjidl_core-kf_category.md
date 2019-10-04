@@ -12,6 +12,8 @@ ms.keywords: KF_CATEGORY, KF_CATEGORY enumeration [Windows Shell], KF_CATEGORY_C
 ms.topic: enum
 f1_keywords: 
  - "shobjidl_core/KF_CATEGORY"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

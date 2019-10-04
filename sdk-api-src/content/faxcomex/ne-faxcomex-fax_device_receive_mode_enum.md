@@ -12,6 +12,8 @@ ms.keywords: FAX_DEVICE_RECEIVE_MODE_ENUM, FAX_DEVICE_RECEIVE_MODE_ENUM enumerat
 ms.topic: enum
 f1_keywords: 
  - "faxcomex/FAX_DEVICE_RECEIVE_MODE_ENUM"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

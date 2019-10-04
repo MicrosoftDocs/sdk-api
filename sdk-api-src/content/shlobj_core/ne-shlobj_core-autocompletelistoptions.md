@@ -12,6 +12,8 @@ ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, AC
 ms.topic: enum
 f1_keywords: 
  - "shlobj_core/AUTOCOMPLETELISTOPTIONS"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

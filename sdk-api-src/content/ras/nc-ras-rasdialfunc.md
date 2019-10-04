@@ -12,6 +12,8 @@ ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [R
 ms.topic: callback
 f1_keywords: 
  - "ras/RasDialFunc"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

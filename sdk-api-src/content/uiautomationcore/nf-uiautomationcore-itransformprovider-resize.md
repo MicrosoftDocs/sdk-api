@@ -12,6 +12,8 @@ ms.keywords: ITransformProvider interface [Windows Accessibility],Resize method,
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITransformProvider.Resize"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAnchor interface [Text Services Framework],Shift method, IAnchor.S
 ms.topic: method
 f1_keywords: 
  - "textstor/IAnchor.Shift"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

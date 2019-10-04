@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],PreDisc
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolConnection.PreDisconnect"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

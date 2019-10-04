@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_D
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

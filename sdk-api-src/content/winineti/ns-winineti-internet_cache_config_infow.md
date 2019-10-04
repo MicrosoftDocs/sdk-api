@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_CACHE_CONFIG_INFOW, INTERNET_CACHE_CONFIG_INFO, INTERN
 ms.topic: struct
 f1_keywords: 
  - "winineti/INTERNET_CACHE_CONFIG_INFO"
+dev_langs:
+ - c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows

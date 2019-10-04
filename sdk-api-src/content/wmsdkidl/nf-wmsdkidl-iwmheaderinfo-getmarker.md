@@ -12,6 +12,8 @@ ms.keywords: GetMarker, GetMarker method [windows Media Format], GetMarker metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMHeaderInfo.GetMarker"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

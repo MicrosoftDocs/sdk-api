@@ -12,6 +12,8 @@ ms.keywords: NdrProxyFreeBuffer, NdrProxyFreeBuffer function [RPC], rpc.ndrproxy
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrProxyFreeBuffer
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

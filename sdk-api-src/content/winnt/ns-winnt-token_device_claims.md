@@ -12,6 +12,8 @@ ms.keywords: "*PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS, PTOKEN_DEVICE_CLAIMS 
 ms.topic: struct
 f1_keywords: 
  - "winnt/TOKEN_DEVICE_CLAIMS"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [R
 ms.topic: interface
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIApplicationFilter"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

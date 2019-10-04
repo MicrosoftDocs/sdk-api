@@ -12,6 +12,8 @@ ms.keywords: EnumControls, EnumControls method [COM], EnumControls method [COM],
 ms.topic: method
 f1_keywords: 
  - "vbinterf/IVBGetControl.EnumControls"
+dev_langs:
+ - c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

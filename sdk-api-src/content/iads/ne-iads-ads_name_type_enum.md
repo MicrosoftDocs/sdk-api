@@ -12,6 +12,8 @@ ms.keywords: ADS_NAME_TYPE_1779, ADS_NAME_TYPE_CANONICAL, ADS_NAME_TYPE_CANONICA
 ms.topic: enum
 f1_keywords: 
  - "iads/ADS_NAME_TYPE_ENUM"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

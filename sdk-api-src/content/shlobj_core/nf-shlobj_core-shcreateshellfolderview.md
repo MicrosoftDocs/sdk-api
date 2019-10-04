@@ -12,6 +12,8 @@ ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows 
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHCreateShellFolderView
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

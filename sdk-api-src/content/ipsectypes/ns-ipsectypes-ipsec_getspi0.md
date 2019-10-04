@@ -12,6 +12,8 @@ ms.keywords: IPSEC_GETSPI0, IPSEC_GETSPI0 structure [Filtering], fwp.ipsec_getsp
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_GETSPI0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

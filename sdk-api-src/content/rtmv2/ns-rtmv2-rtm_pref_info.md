@@ -12,6 +12,8 @@ ms.keywords: '*PRTM_PREF_INFO, PRTM_PREF_INFO, PRTM_PREF_INFO structure pointer 
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_PREF_INFO
+dev_langs:
+ - c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

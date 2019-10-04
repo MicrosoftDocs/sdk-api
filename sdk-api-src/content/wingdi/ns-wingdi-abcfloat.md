@@ -12,6 +12,8 @@ ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure
 ms.topic: struct
 f1_keywords: 
  - "wingdi/ABCFLOAT"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

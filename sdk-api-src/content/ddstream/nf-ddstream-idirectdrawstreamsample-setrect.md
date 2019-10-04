@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawStreamSample interface [DirectShow],SetRect method, IDir
 ms.topic: method
 f1_keywords: 
  - "ddstream/IDirectDrawStreamSample.SetRect"
+dev_langs:
+ - c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

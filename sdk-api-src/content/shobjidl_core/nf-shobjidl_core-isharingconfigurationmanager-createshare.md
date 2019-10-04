@@ -12,6 +12,8 @@ ms.keywords: CreateShare, CreateShare method [Windows Shell], CreateShare method
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ISharingConfigurationManager.CreateShare"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST st
 ms.topic: struct
 f1_keywords:
 - aclui/EFFPERM_RESULT_LIST
+dev_langs:
+ - c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

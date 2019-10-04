@@ -12,6 +12,8 @@ ms.keywords: "_win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windo
 ms.topic: function
 f1_keywords: 
  - "msacm/acmStreamSize"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputi
 ms.topic: function
 f1_keywords: 
  - "snmp/SnmpUtilOidAppend"
+dev_langs:
+ - c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

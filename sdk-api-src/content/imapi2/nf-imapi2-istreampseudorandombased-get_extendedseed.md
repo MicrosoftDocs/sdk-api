@@ -12,6 +12,8 @@ ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_ExtendedSeed method,
 ms.topic: method
 f1_keywords: 
  - "imapi2/IStreamPseudoRandomBased.get_ExtendedSeed"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

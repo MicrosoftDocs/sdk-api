@@ -12,6 +12,8 @@ ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_n
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrGetUserMarshalInfo
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

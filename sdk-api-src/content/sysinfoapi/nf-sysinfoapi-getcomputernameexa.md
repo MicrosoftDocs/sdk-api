@@ -12,6 +12,8 @@ ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameD
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetComputerNameEx
+dev_langs:
+ - c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.message
 ms.topic: function
 f1_keywords: 
  - "winuser/MessageBeep"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_CLIENT_INFO_V4, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIEN
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_INFO_V4
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

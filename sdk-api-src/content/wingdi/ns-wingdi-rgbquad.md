@@ -12,6 +12,8 @@ ms.keywords: "*LPRGBQUAD, RGBQUAD, RGBQUAD structure [Windows GDI], _win32_RGBQU
 ms.topic: struct
 f1_keywords: 
  - "wingdi/RGBQUAD"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

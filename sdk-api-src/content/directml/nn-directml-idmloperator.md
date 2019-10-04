@@ -12,6 +12,8 @@ ms.keywords: IDMLOperator, IDMLOperator interface, IDMLOperator interface,descri
 ms.topic: interface
 f1_keywords: 
  - "directml/IDMLOperator"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

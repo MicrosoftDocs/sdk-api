@@ -12,6 +12,8 @@ ms.keywords: CachedIsContentElement property [Windows Accessibility], CachedIsCo
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement.CachedIsContentElement"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateDialog, CreateDialog function [Dialog Boxes], CreateDialogA, 
 ms.topic: macro
 f1_keywords: 
  - "winuser/CreateDialog"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

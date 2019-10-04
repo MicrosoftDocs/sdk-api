@@ -12,6 +12,8 @@ ms.keywords: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_CRYPT_EXPORT_PUBLIC_
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

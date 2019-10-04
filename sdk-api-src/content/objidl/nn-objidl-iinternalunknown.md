@@ -12,6 +12,8 @@ ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknow
 ms.topic: interface
 f1_keywords: 
  - "objidl/IInternalUnknown"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

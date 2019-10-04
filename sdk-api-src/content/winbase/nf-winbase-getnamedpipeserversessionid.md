@@ -12,6 +12,8 @@ ms.keywords: GetNamedPipeServerSessionId, GetNamedPipeServerSessionId function, 
 ms.topic: function
 f1_keywords: 
  - "winbase/GetNamedPipeServerSessionId"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

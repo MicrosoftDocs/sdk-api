@@ -12,6 +12,8 @@ ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Notifica
 ms.topic: method
 f1_keywords: 
  - "wuapi/IAutomaticUpdatesSettings.NotificationLevel"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

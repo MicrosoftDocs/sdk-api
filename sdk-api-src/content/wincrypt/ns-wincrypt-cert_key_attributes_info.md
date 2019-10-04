@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATTRIBUTES_INFO, CERT_KEY_ATT
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_KEY_ATTRIBUTES_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

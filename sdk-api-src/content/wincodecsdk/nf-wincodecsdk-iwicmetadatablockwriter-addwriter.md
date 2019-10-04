@@ -12,6 +12,8 @@ ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter 
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataBlockWriter.AddWriter"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

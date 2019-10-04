@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_PROGRESS_STATUS, SYNCMGR_PROGRESS_STATUS enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_PROGRESS_STATUS"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

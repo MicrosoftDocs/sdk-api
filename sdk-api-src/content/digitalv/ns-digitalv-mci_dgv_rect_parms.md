@@ -12,6 +12,8 @@ ms.keywords: "*LPMCI_DGV_FREEZE_PARMS, *LPMCI_DGV_PUT_PARMS, *LPMCI_DGV_RECT_PAR
 ms.topic: struct
 f1_keywords: 
  - "digitalv/MCI_DGV_RECT_PARMS"
+dev_langs:
+ - c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows

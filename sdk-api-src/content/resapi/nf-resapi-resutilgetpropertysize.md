@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Fa
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetPropertySize"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

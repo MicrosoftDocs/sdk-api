@@ -12,6 +12,8 @@ ms.keywords: 666f73ad-8c04-9774-e3ed-01d758bb509f, D3D11_FEATURE_DATA_FORMAT_SUP
 ms.topic: struct
 f1_keywords: 
  - "d3d11/D3D11_FEATURE_DATA_FORMAT_SUPPORT2"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

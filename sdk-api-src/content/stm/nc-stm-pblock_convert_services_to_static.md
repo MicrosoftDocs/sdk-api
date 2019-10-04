@@ -12,6 +12,8 @@ ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback
 ms.topic: callback
 f1_keywords: 
  - "stm/BlockConvertServicesToStatic"
+dev_langs:
+ - c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDiscFormat2Erase interface [IMAPI],get_FullErase method, IDiscForm
 ms.topic: method
 f1_keywords: 
  - "imapi2/IDiscFormat2Erase.get_FullErase"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

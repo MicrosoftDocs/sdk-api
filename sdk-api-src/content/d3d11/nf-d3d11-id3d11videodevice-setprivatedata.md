@@ -12,6 +12,8 @@ ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateData metho
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoDevice.SetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

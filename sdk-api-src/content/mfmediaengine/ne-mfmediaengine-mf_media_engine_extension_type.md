@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_EXTENSION_TYPE, MF_MEDIA_ENGINE_EXTENSION_TYPE enum
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

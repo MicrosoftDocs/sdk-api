@@ -12,6 +12,8 @@ ms.keywords: CreateSurface, CreateSurface method [DXGI], CreateSurface method [D
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice.CreateSurface"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: QueryPerformanceFrequency, QueryPerformanceFrequency function [Wind
 ms.topic: function
 f1_keywords: 
  - "profileapi/QueryPerformanceFrequency"
+dev_langs:
+ - c++
 req.header: profileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

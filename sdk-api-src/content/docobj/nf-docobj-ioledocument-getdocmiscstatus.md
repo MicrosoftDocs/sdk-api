@@ -12,6 +12,8 @@ ms.keywords: GetDocMiscStatus, GetDocMiscStatus method [COM], GetDocMiscStatus m
 ms.topic: method
 f1_keywords: 
  - "docobj/IOleDocument.GetDocMiscStatus"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

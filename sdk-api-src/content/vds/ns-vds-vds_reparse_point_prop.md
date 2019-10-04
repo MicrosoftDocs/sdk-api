@@ -12,6 +12,8 @@ ms.keywords: "*PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_POINT_PROP, PVDS_REPARSE_PO
 ms.topic: struct
 f1_keywords: 
  - "vds/VDS_REPARSE_POINT_PROP"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

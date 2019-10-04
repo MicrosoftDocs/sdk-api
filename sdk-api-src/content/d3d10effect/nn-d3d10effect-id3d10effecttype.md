@@ -12,6 +12,8 @@ ms.keywords: 807ce993-4aee-8f2f-7837-5679d8a0dab0, ID3D10EffectType, ID3D10Effec
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectType"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

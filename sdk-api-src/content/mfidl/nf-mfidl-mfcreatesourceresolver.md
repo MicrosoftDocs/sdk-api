@@ -12,6 +12,8 @@ ms.keywords: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576, MFCreateSourceResolver, MFCre
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFCreateSourceResolver"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList int
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsAccessControlList"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

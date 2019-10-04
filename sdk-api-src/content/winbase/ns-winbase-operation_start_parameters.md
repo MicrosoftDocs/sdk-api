@@ -12,6 +12,8 @@ ms.keywords: '*POPERATION_START_PARAMETERS, OPERATION_API_VERSION, OPERATION_STA
 ms.topic: struct
 f1_keywords:
 - winbase/OPERATION_START_PARAMETERS
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

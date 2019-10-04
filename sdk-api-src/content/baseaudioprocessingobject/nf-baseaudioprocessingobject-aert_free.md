@@ -12,6 +12,8 @@ ms.keywords: AERT_Free, AERT_Free function [Audio Devices], audio.aert_free, aud
 ms.topic: function
 f1_keywords: 
  - "baseaudioprocessingobject/AERT_Free"
+dev_langs:
+ - c++
 req.header: baseaudioprocessingobject.h
 req.include-header: 
 req.target-type: Universal

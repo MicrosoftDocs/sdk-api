@@ -12,6 +12,8 @@ ms.keywords: OCR_APPSTARTING, OCR_CROSS, OCR_HAND, OCR_HELP, OCR_IBEAM, OCR_NO, 
 ms.topic: function
 f1_keywords: 
  - "winuser/SetSystemCursor"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

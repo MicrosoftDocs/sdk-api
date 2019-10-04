@@ -12,6 +12,8 @@ ms.keywords: DllCanUnloadNow, DllCanUnloadNow function [COM], _com_DllCanUnloadN
 ms.topic: function
 f1_keywords: 
  - "combaseapi/DllCanUnloadNow"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

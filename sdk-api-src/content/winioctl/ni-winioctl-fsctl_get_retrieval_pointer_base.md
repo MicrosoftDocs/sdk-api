@@ -12,6 +12,8 @@ ms.keywords: FSCTL_GET_RETRIEVAL_POINTER_BASE, FSCTL_GET_RETRIEVAL_POINTER_BASE 
 ms.topic: ioctl
 f1_keywords: 
  - "winioctl/FSCTL_GET_RETRIEVAL_POINTER_BASE"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

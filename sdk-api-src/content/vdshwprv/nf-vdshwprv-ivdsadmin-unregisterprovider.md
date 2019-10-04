@@ -12,6 +12,8 @@ ms.keywords: IVdsAdmin interface [VDS],UnregisterProvider method, IVdsAdmin.Unre
 ms.topic: method
 f1_keywords: 
  - "vdshwprv/IVdsAdmin.UnregisterProvider"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CreateFontPackage, CreateFontPackage function [Windows GDI], TTFCFP
 ms.topic: function
 f1_keywords: 
  - "fontsub/CreateFontPackage"
+dev_langs:
+ - c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows

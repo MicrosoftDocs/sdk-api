@@ -12,6 +12,8 @@ ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinFormat property
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnPin.PinFormat"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

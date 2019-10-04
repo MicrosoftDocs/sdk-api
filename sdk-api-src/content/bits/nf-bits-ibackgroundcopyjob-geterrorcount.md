@@ -12,6 +12,8 @@ ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [B
 ms.topic: method
 f1_keywords: 
  - "bits/IBackgroundCopyJob.GetErrorCount"
+dev_langs:
+ - c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

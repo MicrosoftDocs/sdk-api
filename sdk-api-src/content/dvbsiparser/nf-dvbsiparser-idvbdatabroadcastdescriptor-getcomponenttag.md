@@ -12,6 +12,8 @@ ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbDataBroadcastDescriptor.GetComponentTag"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

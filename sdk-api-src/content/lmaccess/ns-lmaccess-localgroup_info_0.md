@@ -12,6 +12,8 @@ ms.keywords: "*LPLOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, LOCALGROUP_INFO_0, LOCA
 ms.topic: struct
 f1_keywords: 
  - "lmaccess/LOCALGROUP_INFO_0"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

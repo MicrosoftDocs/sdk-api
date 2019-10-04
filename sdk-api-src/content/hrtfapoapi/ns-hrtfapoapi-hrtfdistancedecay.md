@@ -12,6 +12,8 @@ ms.keywords: HrtfDistanceDecay, HrtfDistanceDecay structure [XAudio2 Audio Mixin
 ms.topic: struct
 f1_keywords: 
  - "hrtfapoapi/HrtfDistanceDecay"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

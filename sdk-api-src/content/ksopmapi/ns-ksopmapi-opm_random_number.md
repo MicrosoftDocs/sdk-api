@@ -12,6 +12,8 @@ ms.keywords: "*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structur
 ms.topic: struct
 f1_keywords: 
  - "ksopmapi/OPM_RANDOM_NUMBER"
+dev_langs:
+ - c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

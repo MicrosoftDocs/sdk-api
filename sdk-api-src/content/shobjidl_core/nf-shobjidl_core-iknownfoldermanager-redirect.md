@@ -12,6 +12,8 @@ ms.keywords: IKnownFolderManager interface [Windows Shell],Redirect method, IKno
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IKnownFolderManager.Redirect"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY struct
 ms.topic: struct
 f1_keywords:
 - minwinbase/OVERLAPPED_ENTRY
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

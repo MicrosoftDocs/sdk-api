@@ -12,6 +12,8 @@ ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Wi
 ms.topic: interface
 f1_keywords: 
  - "imepad/IImePadApplet"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

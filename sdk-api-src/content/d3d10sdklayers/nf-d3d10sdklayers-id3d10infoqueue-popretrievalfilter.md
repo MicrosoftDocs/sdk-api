@@ -12,6 +12,8 @@ ms.keywords: 2b0b3983-c948-10ba-02f6-5f94e829dae6, ID3D10InfoQueue interface [Di
 ms.topic: method
 f1_keywords: 
  - "d3d10sdklayers/ID3D10InfoQueue.PopRetrievalFilter"
+dev_langs:
+ - c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

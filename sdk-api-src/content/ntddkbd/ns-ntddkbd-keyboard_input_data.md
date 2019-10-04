@@ -12,6 +12,8 @@ ms.keywords: "*PKEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA, KEYBOARD_INPUT_DATA st
 ms.topic: struct
 f1_keywords: 
  - "ntddkbd/KEYBOARD_INPUT_DATA"
+dev_langs:
+ - c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetSpaceBefore, GetSpaceBefore method [Windows Controls], GetSpaceB
 ms.topic: method
 f1_keywords: 
  - "tom/ITextPara.GetSpaceBefore"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

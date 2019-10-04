@@ -12,6 +12,8 @@ ms.keywords: CancelPendingRequest, CancelPendingRequest method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/ISectionList.CancelPendingRequest"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

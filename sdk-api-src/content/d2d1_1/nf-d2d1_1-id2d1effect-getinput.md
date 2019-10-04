@@ -12,6 +12,8 @@ ms.keywords: GetInput, GetInput method [Direct2D], GetInput method [Direct2D],ID
 ms.topic: method
 f1_keywords: 
  - "d2d1_1/ID2D1Effect.GetInput"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

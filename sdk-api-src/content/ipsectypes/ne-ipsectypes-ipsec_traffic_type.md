@@ -12,6 +12,8 @@ ms.keywords: IPSEC_TRAFFIC_TYPE, IPSEC_TRAFFIC_TYPE enumeration [Filtering], IPS
 ms.topic: enum
 f1_keywords: 
  - "ipsectypes/IPSEC_TRAFFIC_TYPE"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

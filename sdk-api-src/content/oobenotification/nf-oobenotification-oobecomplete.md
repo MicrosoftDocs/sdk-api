@@ -12,6 +12,8 @@ ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotifica
 ms.topic: function
 f1_keywords: 
  - "oobenotification/isOOBEComplete"
+dev_langs:
+ - c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows

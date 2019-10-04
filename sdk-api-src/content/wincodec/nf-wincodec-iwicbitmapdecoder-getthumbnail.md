@@ -12,6 +12,8 @@ ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetT
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoder.GetThumbnail"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

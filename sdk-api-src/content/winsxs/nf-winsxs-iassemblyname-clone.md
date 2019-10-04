@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Side-by-side Assemblies], Clone method [Side-b
 ms.topic: method
 f1_keywords: 
  - "winsxs/IAssemblyName.Clone"
+dev_langs:
+ - c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Tint, Tint class [GDI+], Tint class [GDI+],described, _gdiplus_CLAS
 ms.topic: class
 f1_keywords: 
  - "gdipluseffects/Tint"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

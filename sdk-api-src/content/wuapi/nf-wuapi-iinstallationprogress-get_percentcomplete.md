@@ -12,6 +12,8 @@ ms.keywords: IInstallationProgress interface [Windows Update Agent],PercentCompl
 ms.topic: method
 f1_keywords: 
  - "wuapi/IInstallationProgress.PercentComplete"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

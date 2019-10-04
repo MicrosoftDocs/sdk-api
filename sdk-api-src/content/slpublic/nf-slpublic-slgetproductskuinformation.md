@@ -12,6 +12,8 @@ ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Se
 ms.topic: function
 f1_keywords:
 - slpublic/SLGetProductSkuInformation
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

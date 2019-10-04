@@ -12,6 +12,8 @@ ms.keywords: IPersistQuery, IPersistQuery interface [Active Directory], IPersist
 ms.topic: interface
 f1_keywords: 
  - "cmnquery/IPersistQuery"
+dev_langs:
+ - c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

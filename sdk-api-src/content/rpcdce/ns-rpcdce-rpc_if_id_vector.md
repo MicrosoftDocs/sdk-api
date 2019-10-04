@@ -12,6 +12,8 @@ ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_
 ms.topic: struct
 f1_keywords:
 - rpcdce/RPC_IF_ID_VECTOR
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

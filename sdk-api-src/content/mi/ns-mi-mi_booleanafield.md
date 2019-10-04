@@ -12,6 +12,8 @@ ms.keywords: MI_BooleanAField, MI_BooleanAField structure [Windows Management In
 ms.topic: struct
 f1_keywords:
 - mi/MI_BooleanAField
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

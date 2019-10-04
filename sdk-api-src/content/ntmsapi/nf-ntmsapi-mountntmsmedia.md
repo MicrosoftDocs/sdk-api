@@ -12,6 +12,8 @@ ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_N
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/MountNtmsMedia"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

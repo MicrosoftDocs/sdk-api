@@ -12,6 +12,8 @@ ms.keywords: DhcpSetClientInfo, DhcpSetClientInfo function [DHCP], dhcp.dhcpsetc
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetClientInfo
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBoolValue, GetBoolValue method [App packaging and management], G
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxManifestProperties.GetBoolValue"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framewo
 ms.topic: interface
 f1_keywords: 
  - "textstor/ITextStoreAnchor"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

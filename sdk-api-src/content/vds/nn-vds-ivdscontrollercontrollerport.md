@@ -12,6 +12,8 @@ ms.keywords: IVdsControllerControllerPort, IVdsControllerControllerPort interfac
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsControllerControllerPort"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

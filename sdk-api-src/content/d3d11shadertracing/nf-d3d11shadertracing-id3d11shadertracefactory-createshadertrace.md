@@ -12,6 +12,8 @@ ms.keywords: CreateShaderTrace, CreateShaderTrace method [Direct3D 11], CreateSh
 ms.topic: method
 f1_keywords: 
  - "d3d11shadertracing/ID3D11ShaderTraceFactory.CreateShaderTrace"
+dev_langs:
+ - c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

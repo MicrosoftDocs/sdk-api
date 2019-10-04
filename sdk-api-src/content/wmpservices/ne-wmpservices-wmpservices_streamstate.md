@@ -12,6 +12,8 @@ ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "wmpservices/WMPServices_StreamState"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

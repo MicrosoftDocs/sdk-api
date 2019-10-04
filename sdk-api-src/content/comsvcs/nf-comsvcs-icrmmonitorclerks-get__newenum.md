@@ -12,6 +12,8 @@ ms.keywords: ICrmMonitorClerks interface [COM+],get__NewEnum method, ICrmMonitor
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmMonitorClerks.get__NewEnum"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

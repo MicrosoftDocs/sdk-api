@@ -12,6 +12,8 @@ ms.keywords: IsRectEmpty, IsRectEmpty function [Windows GDI], _win32_IsRectEmpty
 ms.topic: function
 f1_keywords: 
  - "winuser/IsRectEmpty"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

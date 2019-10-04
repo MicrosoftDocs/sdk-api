@@ -12,6 +12,8 @@ ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMN
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowExProps.get_Bandwidth"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

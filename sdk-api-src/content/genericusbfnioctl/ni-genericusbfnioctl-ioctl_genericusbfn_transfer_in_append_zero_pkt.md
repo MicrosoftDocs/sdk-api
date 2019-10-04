@@ -12,6 +12,8 @@ ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT, IOCTL_GENERICUSBFN_
 ms.topic: ioctl
 f1_keywords:
 - genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN_APPEND_ZERO_PKT
+dev_langs:
+ - c++
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IRichEditOle interface [Windows Controls],SetDvaspect method, IRich
 ms.topic: method
 f1_keywords: 
  - "richole/IRichEditOle.SetDvaspect"
+dev_langs:
+ - c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

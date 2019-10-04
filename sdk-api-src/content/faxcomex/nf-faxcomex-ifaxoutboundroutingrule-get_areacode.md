@@ -12,6 +12,8 @@ ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxOutboundRoutingRule.AreaCode"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

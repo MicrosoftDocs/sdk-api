@@ -12,6 +12,8 @@ ms.keywords: GetTrees, GetTrees method [ADSI], GetTrees method [ADSI],IADsADSyst
 ms.topic: method
 f1_keywords: 
  - "iads/IADsADSystemInfo.GetTrees"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

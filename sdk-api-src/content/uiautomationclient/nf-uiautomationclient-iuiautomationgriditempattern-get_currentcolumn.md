@@ -12,6 +12,8 @@ ms.keywords: CurrentColumn property [Windows Accessibility], CurrentColumn prope
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationGridItemPattern.CurrentColumn"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

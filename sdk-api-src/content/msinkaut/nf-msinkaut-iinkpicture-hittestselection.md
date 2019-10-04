@@ -12,6 +12,8 @@ ms.keywords: 8dc745d8-7e2a-4255-86c6-226bf82d3d64, HitTestSelection, HitTestSele
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.HitTestSelection"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

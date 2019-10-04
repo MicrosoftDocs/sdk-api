@@ -12,6 +12,8 @@ ms.keywords: IVMRImageCompositor interface [DirectShow],InitCompositionTarget me
 ms.topic: method
 f1_keywords: 
  - "strmif/IVMRImageCompositor.InitCompositionTarget"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

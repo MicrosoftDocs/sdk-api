@@ -12,6 +12,8 @@ ms.keywords: VDS_HBAPORT_TYPE, VDS_HBAPORT_TYPE enumeration [VDS], VDS_HPT_EPORT
 ms.topic: enum
 f1_keywords: 
  - "vdshwprv/VDS_HBAPORT_TYPE"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

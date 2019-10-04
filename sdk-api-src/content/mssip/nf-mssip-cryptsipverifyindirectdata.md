@@ -12,6 +12,8 @@ ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Se
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPVerifyIndirectData"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

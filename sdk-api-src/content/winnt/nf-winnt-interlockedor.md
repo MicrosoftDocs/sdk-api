@@ -12,6 +12,8 @@ ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winnt/In
 ms.topic: function
 f1_keywords: 
  - "winnt/InterlockedOr"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

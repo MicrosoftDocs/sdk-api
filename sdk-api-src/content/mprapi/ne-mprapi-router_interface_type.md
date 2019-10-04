@@ -12,6 +12,8 @@ ms.keywords: ROUTER_IF_TYPE_CLIENT, ROUTER_IF_TYPE_DEDICATED, ROUTER_IF_TYPE_DIA
 ms.topic: enum
 f1_keywords:
 - mprapi/ROUTER_INTERFACE_TYPE
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

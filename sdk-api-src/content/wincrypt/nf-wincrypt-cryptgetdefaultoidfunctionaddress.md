@@ -12,6 +12,8 @@ ms.keywords: CryptGetDefaultOIDFunctionAddress, CryptGetDefaultOIDFunctionAddres
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGetDefaultOIDFunctionAddress"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Enabled property [File Server Resource Manager], Enabled property [
 ms.topic: method
 f1_keywords: 
  - "fsrmreports/IFsrmFileManagementJob.Enabled"
+dev_langs:
+ - c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Manage
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_PROXY_INFO
+dev_langs:
+ - c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRA
 ms.topic: struct
 f1_keywords: 
  - "uianimation/UI_ANIMATION_KEYFRAME"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

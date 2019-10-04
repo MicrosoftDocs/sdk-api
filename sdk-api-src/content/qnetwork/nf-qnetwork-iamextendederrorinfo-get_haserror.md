@@ -12,6 +12,8 @@ ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IA
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMExtendedErrorInfo.get_HasError"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

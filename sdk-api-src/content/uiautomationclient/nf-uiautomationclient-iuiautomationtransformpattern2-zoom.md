@@ -12,6 +12,8 @@ ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zo
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationTransformPattern2.Zoom"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

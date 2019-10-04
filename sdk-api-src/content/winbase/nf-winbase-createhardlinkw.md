@@ -12,6 +12,8 @@ ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, C
 ms.topic: function
 f1_keywords: 
  - "winbase/CreateHardLink"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

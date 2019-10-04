@@ -12,6 +12,8 @@ ms.keywords: DSO_SHUFFLEIMAGES, IDesktopWallpaper interface [Windows Shell],SetS
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IDesktopWallpaper.SetSlideshowOptions"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

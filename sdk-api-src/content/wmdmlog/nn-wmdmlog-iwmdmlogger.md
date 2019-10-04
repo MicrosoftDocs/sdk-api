@@ -12,6 +12,8 @@ ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], 
 ms.topic: interface
 f1_keywords: 
  - "wmdmlog/IWMDMLogger"
+dev_langs:
+ - c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

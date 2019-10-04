@@ -12,6 +12,8 @@ ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, D
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoDecoder.GetBuffer"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

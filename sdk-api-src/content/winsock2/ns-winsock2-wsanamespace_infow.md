@@ -12,6 +12,8 @@ ms.keywords: '*LPWSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, NS_BTH, NS_DNS, NS_EM
 ms.topic: struct
 f1_keywords:
 - winsock2/WSANAMESPACE_INFO
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

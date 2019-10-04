@@ -12,6 +12,8 @@ ms.keywords: HistogramFormat, HistogramFormat enumeration [GDI+], HistogramForma
 ms.topic: enum
 f1_keywords: 
  - "gdipluscolormatrix/HistogramFormat"
+dev_langs:
+ - c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

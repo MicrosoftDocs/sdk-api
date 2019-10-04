@@ -12,6 +12,8 @@ ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault met
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IUserInputString.GetDefault"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

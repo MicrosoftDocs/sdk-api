@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ld
 ms.topic: function
 f1_keywords: 
  - "winber/ber_peek_tag"
+dev_langs:
+ - c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

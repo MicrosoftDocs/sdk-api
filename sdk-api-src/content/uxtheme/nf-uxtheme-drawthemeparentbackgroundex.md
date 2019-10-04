@@ -12,6 +12,8 @@ ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThem
 ms.topic: function
 f1_keywords: 
  - "uxtheme/DrawThemeParentBackgroundEx"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

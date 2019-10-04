@@ -12,6 +12,8 @@ ms.keywords: IPreviewHandler interface [Windows Shell],QueryFocus method, IPrevi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IPreviewHandler.QueryFocus"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

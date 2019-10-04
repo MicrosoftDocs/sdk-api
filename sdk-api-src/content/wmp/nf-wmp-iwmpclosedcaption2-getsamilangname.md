@@ -12,6 +12,8 @@ ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangName
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPClosedCaption2.getSAMILangName"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

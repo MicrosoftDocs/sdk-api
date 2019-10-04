@@ -12,6 +12,8 @@ ms.keywords: IVdsMaintenance interface [VDS],StartMaintenance method, IVdsMainte
 ms.topic: method
 f1_keywords:
 - vds/IVdsMaintenance.StartMaintenance
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMRegisteredDevice interface [windows Media Format],SetAttributeBy
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMRegisteredDevice.SetAttributeByName"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAudioInputSelector interface [Core Audio],SetSelection method, IAu
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioInputSelector.SetSelection"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

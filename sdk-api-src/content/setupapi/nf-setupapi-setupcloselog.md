@@ -12,6 +12,8 @@ ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupc
 ms.topic: function
 f1_keywords: 
  - "setupapi/SetupCloseLog"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

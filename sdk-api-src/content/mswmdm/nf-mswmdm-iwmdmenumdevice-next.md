@@ -12,6 +12,8 @@ ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Next metho
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IWMDMEnumDevice.Next"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

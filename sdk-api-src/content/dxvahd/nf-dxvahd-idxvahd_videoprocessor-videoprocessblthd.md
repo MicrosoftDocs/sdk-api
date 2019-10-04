@@ -12,6 +12,8 @@ ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],VideoProcessBlt
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor.VideoProcessBltHD
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

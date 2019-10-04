@@ -12,6 +12,8 @@ ms.keywords: MultipleViewPattern_SetCurrentView, MultipleViewPattern_SetCurrentV
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/MultipleViewPattern_SetCurrentView"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

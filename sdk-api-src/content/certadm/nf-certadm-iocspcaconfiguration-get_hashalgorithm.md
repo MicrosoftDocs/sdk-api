@@ -12,6 +12,8 @@ ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfiguration.HashAlgorithm"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

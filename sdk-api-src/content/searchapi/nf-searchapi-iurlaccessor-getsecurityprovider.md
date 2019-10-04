@@ -12,6 +12,8 @@ ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecuri
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetSecurityProvider"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

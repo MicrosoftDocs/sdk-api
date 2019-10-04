@@ -12,6 +12,8 @@ ms.keywords: D3D12_RENDER_TARGET_BLEND_DESC, D3D12_RENDER_TARGET_BLEND_DESC stru
 ms.topic: struct
 f1_keywords: 
  - "d3d12/D3D12_RENDER_TARGET_BLEND_DESC"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

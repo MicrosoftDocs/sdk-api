@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog fun
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneConfigDialog"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

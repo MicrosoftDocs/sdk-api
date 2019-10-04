@@ -12,6 +12,8 @@ ms.keywords: IDvdInfo, IDvdInfo interface [DirectShow], IDvdInfo interface [Dire
 ms.topic: interface
 f1_keywords: 
  - "strmif/IDvdInfo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

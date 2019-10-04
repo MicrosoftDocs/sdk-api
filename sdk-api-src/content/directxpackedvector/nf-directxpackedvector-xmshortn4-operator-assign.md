@@ -12,6 +12,8 @@ ms.keywords: DirectX::PackedVector.XMSHORTN4.operator =, DirectX::PackedVector::
 ms.topic: method
 f1_keywords: 
  - "directxpackedvector/XMSHORTN4.operator ="
+dev_langs:
+ - c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

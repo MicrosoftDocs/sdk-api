@@ -12,6 +12,8 @@ ms.keywords: DoesExpireAfterFirstUse, DoesExpireAfterFirstUse method [Microsoft 
 ms.topic: method
 f1_keywords: 
  - "tuner/IESFileExpiryDateEvent.DoesExpireAfterFirstUse"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

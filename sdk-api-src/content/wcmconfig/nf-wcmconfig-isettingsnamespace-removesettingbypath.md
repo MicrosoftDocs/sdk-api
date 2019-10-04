@@ -12,6 +12,8 @@ ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISet
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsNamespace.RemoveSettingByPath"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

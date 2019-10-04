@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIViewer interface [RDP],StartReverseConnectListener method,
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIViewer.StartReverseConnectListener"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

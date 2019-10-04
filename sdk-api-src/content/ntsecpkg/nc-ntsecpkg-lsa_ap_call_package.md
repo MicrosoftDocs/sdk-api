@@ -12,6 +12,8 @@ ms.keywords: LSA_AP_CALL_PACKAGE, LSA_AP_CALL_PACKAGE callback, LsaApCallPackage
 ms.topic: callback
 f1_keywords: 
  - "ntsecpkg/LsaApCallPackage"
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

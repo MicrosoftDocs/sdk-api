@@ -12,6 +12,8 @@ ms.keywords: EVT_CHANNEL_CLOCK_TYPE, EVT_CHANNEL_CLOCK_TYPE enumeration [EventLo
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_CHANNEL_CLOCK_TYPE
+dev_langs:
+ - c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

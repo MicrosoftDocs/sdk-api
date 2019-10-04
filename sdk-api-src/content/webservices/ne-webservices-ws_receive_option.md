@@ -12,6 +12,8 @@ ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_RECEIVE_OPTION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsEmfPlusOnly, IsEmfPlusOnly method [GDI+], IsEmfPlusOnly method [G
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsEmfPlusOnly"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

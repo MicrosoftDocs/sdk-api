@@ -12,6 +12,8 @@ ms.keywords: 9b388cdb-66b1-4386-a1aa-578f0d56c190, Bottom property [Tablet PC], 
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRectangle.Bottom"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

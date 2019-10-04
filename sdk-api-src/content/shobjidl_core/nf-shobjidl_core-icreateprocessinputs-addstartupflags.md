@@ -12,6 +12,8 @@ ms.keywords: AddStartupFlags, AddStartupFlags method [Windows Shell], AddStartup
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreateProcessInputs.AddStartupFlags
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

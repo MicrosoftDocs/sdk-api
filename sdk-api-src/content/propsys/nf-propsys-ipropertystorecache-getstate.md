@@ -12,6 +12,8 @@ ms.keywords: GetState, GetState method [Windows Properties], GetState method [Wi
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyStoreCache.GetState
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

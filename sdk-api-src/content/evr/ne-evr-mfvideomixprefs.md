@@ -12,6 +12,8 @@ ms.keywords: MFVideoMixPrefs, MFVideoMixPrefs enumeration [Media Foundation], MF
 ms.topic: enum
 f1_keywords: 
  - "evr/MFVideoMixPrefs"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

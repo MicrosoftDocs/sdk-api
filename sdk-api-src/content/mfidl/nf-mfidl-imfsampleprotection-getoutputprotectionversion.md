@@ -12,6 +12,8 @@ ms.keywords: 607e6123-0cfa-4946-b390-1c44e502b2db, GetOutputProtectionVersion, G
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleProtection.GetOutputProtectionVersion"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

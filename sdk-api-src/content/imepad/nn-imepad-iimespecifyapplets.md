@@ -12,6 +12,8 @@ ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalizat
 ms.topic: interface
 f1_keywords: 
  - "imepad/IImeSpecifyApplets"
+dev_langs:
+ - c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

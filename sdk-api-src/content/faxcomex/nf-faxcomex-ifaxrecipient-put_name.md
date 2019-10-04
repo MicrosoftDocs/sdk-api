@@ -12,6 +12,8 @@ ms.keywords: IFaxRecipient interface [Fax Service],Name property, IFaxRecipient.
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxRecipient.Name"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

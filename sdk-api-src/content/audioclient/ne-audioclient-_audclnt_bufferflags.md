@@ -12,6 +12,8 @@ ms.keywords: AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, AUDCLNT_BUFFERFLAGS_SILENT,
 ms.topic: enum
 f1_keywords: 
  - "audioclient/_AUDCLNT_BUFFERFLAGS"
+dev_langs:
+ - c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

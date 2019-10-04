@@ -12,6 +12,8 @@ ms.keywords: '*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_
 ms.topic: struct
 f1_keywords:
 - rpcasync/RPC_ASYNC_NOTIFICATION_INFO
+dev_langs:
+ - c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

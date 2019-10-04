@@ -12,6 +12,8 @@ ms.keywords: IAzApplication3 interface [Security],OpenScope2 method, IAzApplicat
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication3.OpenScope2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

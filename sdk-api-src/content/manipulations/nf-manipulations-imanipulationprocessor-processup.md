@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUp method, 
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.ProcessUp"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

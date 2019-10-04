@@ -12,6 +12,8 @@ ms.keywords: '*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Des
 ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSCLIENT
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

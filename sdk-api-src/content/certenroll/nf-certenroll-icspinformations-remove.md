@@ -12,6 +12,8 @@ ms.keywords: ICspInformations interface [Security],Remove method, ICspInformatio
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspInformations.Remove"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

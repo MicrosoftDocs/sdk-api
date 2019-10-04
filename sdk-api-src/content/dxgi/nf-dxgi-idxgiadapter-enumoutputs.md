@@ -12,6 +12,8 @@ ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs meth
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIAdapter.EnumOutputs"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

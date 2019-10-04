@@ -12,6 +12,8 @@ ms.keywords: LsaSetInformationPolicy, LsaSetInformationPolicy function [Security
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaSetInformationPolicy
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

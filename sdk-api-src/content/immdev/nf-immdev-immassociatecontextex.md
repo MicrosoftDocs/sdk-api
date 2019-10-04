@@ -12,6 +12,8 @@ ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateCont
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmAssociateContextEx"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

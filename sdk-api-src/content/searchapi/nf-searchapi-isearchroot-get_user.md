@@ -12,6 +12,8 @@ ms.keywords: ISearchRoot interface [search],get_User method, ISearchRoot.get_Use
 ms.topic: method
 f1_keywords: 
  - "searchapi/ISearchRoot.get_User"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

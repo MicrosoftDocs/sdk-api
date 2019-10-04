@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Files], Clone method [Files],IEnumDiskQuotaUse
 ms.topic: method
 f1_keywords: 
  - "dskquota/IEnumDiskQuotaUsers.Clone"
+dev_langs:
+ - c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_U
 ms.topic: function
 f1_keywords:
 - wincrypt/CertFindCTLInStore
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

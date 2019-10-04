@@ -12,6 +12,8 @@ ms.keywords: '*PCRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_ACCEPT_DECLINE_STYLE, C
 ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT
+dev_langs:
+ - c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

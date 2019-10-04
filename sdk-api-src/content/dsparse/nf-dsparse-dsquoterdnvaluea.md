@@ -12,6 +12,8 @@ ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuo
 ms.topic: function
 f1_keywords: 
  - "dsparse/DsQuoteRdnValue"
+dev_langs:
+ - c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

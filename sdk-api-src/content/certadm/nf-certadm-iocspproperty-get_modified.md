@@ -12,6 +12,8 @@ ms.keywords: IOCSPProperty interface [Security],Modified property, IOCSPProperty
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPProperty.Modified"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

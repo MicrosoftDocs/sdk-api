@@ -12,6 +12,8 @@ ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswin
 ms.topic: function
 f1_keywords: 
  - "versionhelpers/IsWindows7SP1OrGreater"
+dev_langs:
+ - c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

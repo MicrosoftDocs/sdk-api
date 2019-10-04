@@ -12,6 +12,8 @@ ms.keywords: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DATA_D3D10
 ms.topic: struct
 f1_keywords: 
  - "d2d1effectauthor/D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS"
+dev_langs:
+ - c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

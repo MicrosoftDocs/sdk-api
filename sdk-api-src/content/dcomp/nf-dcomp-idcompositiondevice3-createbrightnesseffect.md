@@ -12,6 +12,8 @@ ms.keywords: CreateBrightnessEffect, CreateBrightnessEffect method [DirectCompos
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice3.CreateBrightnessEffect"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MF_TRANSCODE_ADJUST_PROFILE_DEFAULT, MF_TRANSCODE_ADJUST_PROFILE_FL
 ms.topic: enum
 f1_keywords: 
  - "mfidl/MF_TRANSCODE_ADJUST_PROFILE_FLAGS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

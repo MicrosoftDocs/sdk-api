@@ -12,6 +12,8 @@ ms.keywords: 73308fe8-c231-b1ce-ee64-f916ed993a53, GetClassLinkage, GetClassLink
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11ClassInstance.GetClassLinkage"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

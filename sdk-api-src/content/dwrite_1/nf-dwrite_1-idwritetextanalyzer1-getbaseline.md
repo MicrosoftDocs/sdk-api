@@ -12,6 +12,8 @@ ms.keywords: GetBaseline, GetBaseline method [Direct Write], GetBaseline method 
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.GetBaseline"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security
 ms.topic: function
 f1_keywords:
 - slpublic/SLGetLicenseInformation
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

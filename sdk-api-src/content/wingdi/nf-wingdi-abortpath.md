@@ -12,6 +12,8 @@ ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/AbortPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK callback, LPFNDFMCALLBACK callback
 ms.topic: callback
 f1_keywords: 
  - "shlobj_core/LPFNDFMCALLBACK"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

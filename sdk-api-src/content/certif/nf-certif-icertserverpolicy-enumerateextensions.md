@@ -12,6 +12,8 @@ ms.keywords: CCertServerPolicy object [Security],EnumerateExtensions method, Enu
 ms.topic: method
 f1_keywords: 
  - "certif/ICertServerPolicy.EnumerateExtensions"
+dev_langs:
+ - c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows 
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataTables.GetGuid"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

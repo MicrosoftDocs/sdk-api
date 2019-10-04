@@ -12,6 +12,8 @@ ms.keywords: IFaxConfiguration, IFaxConfiguration interface [Fax Service], IFaxC
 ms.topic: interface
 f1_keywords: 
  - "faxcomex/IFaxConfiguration"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FONT_WEIGHT, DWRITE_FONT_WEIGHT enumeration [Direct Write], 
 ms.topic: enum
 f1_keywords: 
  - "dwrite/DWRITE_FONT_WEIGHT"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_PACK_PROP, PVDS_PACK_PROP, PVDS_PACK_PROP structure pointer 
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PACK_PROP
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

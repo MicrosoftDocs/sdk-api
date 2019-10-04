@@ -12,6 +12,8 @@ ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for W
 ms.topic: function
 f1_keywords: 
  - "winnls/GetStringTypeA"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],I
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDrawSurface7.GetCaps"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

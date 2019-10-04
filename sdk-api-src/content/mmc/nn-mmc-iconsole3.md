@@ -12,6 +12,8 @@ ms.keywords: IConsole3, IConsole3 interface [MMC], IConsole3 interface [MMC],des
 ms.topic: interface
 f1_keywords: 
  - "mmc/IConsole3"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

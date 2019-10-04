@@ -12,6 +12,8 @@ ms.keywords: AVIFileReadData, AVIFileReadData function [Windows Multimedia], _wi
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIFileReadData"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetSystemtime"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

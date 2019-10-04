@@ -12,6 +12,8 @@ ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_Ge
 ms.topic: function
 f1_keywords: 
  - "comsvcs/GetManagedExtensions"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

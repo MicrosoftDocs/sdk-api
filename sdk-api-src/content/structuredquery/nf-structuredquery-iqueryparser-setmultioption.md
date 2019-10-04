@@ -12,6 +12,8 @@ ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser
 ms.topic: method
 f1_keywords: 
  - "structuredquery/IQueryParser.SetMultiOption"
+dev_langs:
+ - c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

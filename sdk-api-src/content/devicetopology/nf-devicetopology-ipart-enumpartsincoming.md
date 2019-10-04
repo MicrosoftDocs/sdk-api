@@ -12,6 +12,8 @@ ms.keywords: EnumPartsIncoming, EnumPartsIncoming method [Core Audio], EnumParts
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IPart.EnumPartsIncoming"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

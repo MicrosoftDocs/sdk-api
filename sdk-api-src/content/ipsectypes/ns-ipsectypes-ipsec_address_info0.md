@@ -12,6 +12,8 @@ ms.keywords: IPSEC_ADDRESS_INFO0, IPSEC_ADDRESS_INFO0 structure [Filtering], fwp
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_ADDRESS_INFO0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

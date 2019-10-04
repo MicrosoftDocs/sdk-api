@@ -12,6 +12,8 @@ ms.keywords: "*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input De
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIJOYCONFIG"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

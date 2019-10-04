@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpda
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.SetUpdateMode"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

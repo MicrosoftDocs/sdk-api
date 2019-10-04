@@ -12,6 +12,8 @@ ms.keywords: Edit_SearchWeb, Edit_SearchWeb macro [Windows Controls], commctrl/E
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_SearchWeb"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

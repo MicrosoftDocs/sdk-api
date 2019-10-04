@@ -12,6 +12,8 @@ ms.keywords: IWMPMedia interface [Windows Media Player],get_imageSourceWidth met
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPMedia.get_imageSourceWidth"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

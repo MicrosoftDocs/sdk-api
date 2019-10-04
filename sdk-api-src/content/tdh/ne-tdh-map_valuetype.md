@@ -12,6 +12,8 @@ ms.keywords: EVENTMAP_ENTRY_VALUETYPE_STRING, EVENTMAP_ENTRY_VALUETYPE_ULONG, MA
 ms.topic: enum
 f1_keywords:
 - tdh/MAP_VALUETYPE
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

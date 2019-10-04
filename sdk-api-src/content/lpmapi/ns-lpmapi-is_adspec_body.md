@@ -12,6 +12,8 @@ ms.keywords: IS_ADSPEC_BODY, IS_ADSPEC_BODY structure [QOS], lpmapi/IS_ADSPEC_BO
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/IS_ADSPEC_BODY"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

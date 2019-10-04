@@ -12,6 +12,8 @@ ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsLunNaming.SetFriendlyName"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

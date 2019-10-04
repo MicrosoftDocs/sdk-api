@@ -12,6 +12,8 @@ ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT, D3D11_VIDEO_PROCESSOR_S
 ms.topic: struct
 f1_keywords: 
  - "d3d11_1/D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT"
+dev_langs:
+ - c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

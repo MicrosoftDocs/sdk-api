@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows I
 ms.topic: interface
 f1_keywords: 
  - "wincodecsdk/IWICMetadataReaderInfo"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

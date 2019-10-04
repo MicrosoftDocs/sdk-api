@@ -12,6 +12,8 @@ ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, 
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanConnect
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

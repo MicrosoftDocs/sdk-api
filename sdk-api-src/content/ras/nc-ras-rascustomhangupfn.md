@@ -12,6 +12,8 @@ ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustom
 ms.topic: callback
 f1_keywords: 
  - "ras/RasCustomHangUp"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

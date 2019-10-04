@@ -12,6 +12,8 @@ ms.keywords: "*LPOLEUIVIEWPROPSW, *POLEUIVIEWPROPSW, LPOLEUIVIEWPROPS, LPOLEUIVI
 ms.topic: struct
 f1_keywords: 
  - "oledlg/OLEUIVIEWPROPS"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

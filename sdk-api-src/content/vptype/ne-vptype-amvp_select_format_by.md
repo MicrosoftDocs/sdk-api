@@ -12,6 +12,8 @@ ms.keywords: AMVP_BEST_BANDWIDTH, AMVP_DO_NOT_CARE, AMVP_INPUT_SAME_AS_OUTPUT, A
 ms.topic: enum
 f1_keywords: 
  - "vptype/AMVP_SELECT_FORMAT_BY"
+dev_langs:
+ - c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows

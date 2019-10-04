@@ -12,6 +12,8 @@ ms.keywords: CtrlLoadFlowspec, CtrlLoadFlowspec structure [QOS], lpmapi/CtrlLoad
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/CtrlLoadFlowspec"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

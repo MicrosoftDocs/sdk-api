@@ -12,6 +12,8 @@ ms.keywords: IManipulationProcessor interface [Windows Touch],MinimumScaleRotate
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.MinimumScaleRotateRadius"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows

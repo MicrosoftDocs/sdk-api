@@ -12,6 +12,8 @@ ms.keywords: AuthzModifyClaims, AuthzModifyClaims function [Security], authz/Aut
 ms.topic: function
 f1_keywords:
 - authz/AuthzModifyClaims
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

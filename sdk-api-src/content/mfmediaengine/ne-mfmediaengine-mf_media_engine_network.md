@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_NETWORK, MF_MEDIA_ENGINE_NETWORK enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_NETWORK"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, G
 ms.topic: method
 f1_keywords: 
  - "certview/IEnumCERTVIEWEXTENSION.GetName"
+dev_langs:
+ - c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

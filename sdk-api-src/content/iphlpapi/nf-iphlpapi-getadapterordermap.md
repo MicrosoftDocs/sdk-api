@@ -12,6 +12,8 @@ ms.keywords: GetAdapterOrderMap, GetAdapterOrderMap function [IP Helper], iphlp.
 ms.topic: function
 f1_keywords: 
  - "iphlpapi/GetAdapterOrderMap"
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

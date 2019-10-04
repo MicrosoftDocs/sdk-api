@@ -12,6 +12,8 @@ ms.keywords: CreatePalette, CreatePalette method [DirectDraw], CreatePalette met
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.CreatePalette"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

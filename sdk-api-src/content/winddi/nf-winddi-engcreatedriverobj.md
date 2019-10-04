@@ -12,6 +12,8 @@ ms.keywords: EngCreateDriverObj, EngCreateDriverObj function [Display Devices], 
 ms.topic: function
 f1_keywords:
 - winddi/EngCreateDriverObj
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

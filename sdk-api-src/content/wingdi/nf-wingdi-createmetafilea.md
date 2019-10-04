@@ -12,6 +12,8 @@ ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFi
 ms.topic: function
 f1_keywords: 
  - "wingdi/CreateMetaFile"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

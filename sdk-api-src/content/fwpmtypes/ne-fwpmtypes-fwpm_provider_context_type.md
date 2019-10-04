@@ -12,6 +12,8 @@ ms.keywords: FWPM_CLASSIFY_OPTIONS_CONTEXT, FWPM_GENERAL_CONTEXT, FWPM_IPSEC_AUT
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_PROVIDER_CONTEXT_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

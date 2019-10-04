@@ -12,6 +12,8 @@ ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], Delet
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzScope2.DeleteRoleDefinition"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

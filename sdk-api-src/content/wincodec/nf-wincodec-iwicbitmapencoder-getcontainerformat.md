@@ -12,6 +12,8 @@ ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Comp
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapEncoder.GetContainerFormat"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

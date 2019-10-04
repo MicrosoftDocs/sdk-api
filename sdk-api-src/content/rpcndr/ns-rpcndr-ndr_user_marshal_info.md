@@ -12,6 +12,8 @@ ms.keywords: NDR_USER_MARSHAL_INFO, NDR_USER_MARSHAL_INFO structure [RPC], _rpc_
 ms.topic: struct
 f1_keywords:
 - rpcndr/NDR_USER_MARSHAL_INFO
+dev_langs:
+ - c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

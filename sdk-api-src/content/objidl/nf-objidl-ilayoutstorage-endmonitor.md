@@ -12,6 +12,8 @@ ms.keywords: EndMonitor, EndMonitor method [Structured Storage], EndMonitor meth
 ms.topic: method
 f1_keywords: 
  - "objidl/ILayoutStorage.EndMonitor"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

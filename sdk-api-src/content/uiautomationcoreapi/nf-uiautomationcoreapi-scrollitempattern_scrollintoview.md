@@ -12,6 +12,8 @@ ms.keywords: ScrollItemPattern_ScrollIntoView, ScrollItemPattern_ScrollIntoView 
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/ScrollItemPattern_ScrollIntoView"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

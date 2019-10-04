@@ -12,6 +12,8 @@ ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface 
 ms.topic: interface
 f1_keywords: 
  - "restrictederrorinfo/ILanguageExceptionTransform"
+dev_langs:
+ - c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

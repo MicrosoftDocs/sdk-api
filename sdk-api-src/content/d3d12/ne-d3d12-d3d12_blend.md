@@ -12,6 +12,8 @@ ms.keywords: D3D12_BLEND, D3D12_BLEND enumeration, D3D12_BLEND_BLEND_FACTOR, D3D
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_BLEND"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

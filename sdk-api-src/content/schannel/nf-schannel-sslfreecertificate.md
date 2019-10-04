@@ -12,6 +12,8 @@ ms.keywords: SslFreeCertificate, SslFreeCertificate function [Security], schanne
 ms.topic: function
 f1_keywords: 
  - "schannel/SslFreeCertificate"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetWriterStatusEx, GetWriterStatusEx method, GetWriterStatusEx meth
 ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx3.GetWriterStatusEx
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

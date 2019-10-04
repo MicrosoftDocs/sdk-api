@@ -12,6 +12,8 @@ ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct Write], GetPale
 ms.topic: method
 f1_keywords: 
  - "dwrite_2/IDWriteFontFace2.GetPaletteEntries"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

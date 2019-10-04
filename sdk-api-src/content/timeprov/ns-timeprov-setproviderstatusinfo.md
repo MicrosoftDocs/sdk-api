@@ -12,6 +12,8 @@ ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, 
 ms.topic: struct
 f1_keywords: 
  - "timeprov/SetProviderStatusInfo"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

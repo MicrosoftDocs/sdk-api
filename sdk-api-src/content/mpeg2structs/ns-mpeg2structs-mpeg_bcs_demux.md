@@ -12,6 +12,8 @@ ms.keywords: MPEG_BCS_DEMUX, MPEG_BCS_DEMUX structure [Microsoft TV Technologies
 ms.topic: struct
 f1_keywords: 
  - "mpeg2structs/MPEG_BCS_DEMUX"
+dev_langs:
+ - c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

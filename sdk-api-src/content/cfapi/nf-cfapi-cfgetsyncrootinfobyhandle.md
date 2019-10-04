@@ -12,6 +12,8 @@ ms.keywords: CfGetSyncRootInfoByHandle, CfGetSyncRootInfoByHandle function, cfap
 ms.topic: function
 f1_keywords: 
  - "cfapi/CfGetSyncRootInfoByHandle"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

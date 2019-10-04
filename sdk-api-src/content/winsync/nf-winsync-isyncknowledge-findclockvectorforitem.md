@@ -12,6 +12,8 @@ ms.keywords: FindClockVectorForItem, FindClockVectorForItem method [Windows Sync
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.FindClockVectorForItem"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

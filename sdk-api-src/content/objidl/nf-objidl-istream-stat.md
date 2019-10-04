@@ -12,6 +12,8 @@ ms.keywords: IStream interface [Structured Storage],Stat method, IStream.Stat, I
 ms.topic: method
 f1_keywords: 
  - "objidl/IStream.Stat"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

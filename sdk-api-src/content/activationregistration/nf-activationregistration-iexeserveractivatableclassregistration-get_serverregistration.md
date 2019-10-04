@@ -12,6 +12,8 @@ ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],
 ms.topic: method
 f1_keywords: 
  - "activationregistration/IExeServerActivatableClassRegistration.get_ServerRegistration"
+dev_langs:
+ - c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

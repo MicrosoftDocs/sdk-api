@@ -12,6 +12,8 @@ ms.keywords: EnhancedKeyUsage property [Security], EnhancedKeyUsage property [Se
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509ExtensionEnhancedKeyUsage.EnhancedKeyUsage"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

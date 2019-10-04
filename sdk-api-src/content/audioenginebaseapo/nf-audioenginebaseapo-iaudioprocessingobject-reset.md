@@ -12,6 +12,8 @@ ms.keywords: IAudioProcessingObject interface [Audio Devices],Reset method, IAud
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObject.Reset"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebugi
 ms.topic: function
 f1_keywords:
 - dbghelp/MapDebugInformation
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

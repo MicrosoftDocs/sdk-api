@@ -12,6 +12,8 @@ ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _sh
 ms.topic: function
 f1_keywords: 
  - "propvarutil/VariantToUInt32"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

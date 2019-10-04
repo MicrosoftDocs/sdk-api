@@ -12,6 +12,8 @@ ms.keywords: 95e6910d-b701-2649-b38f-7c2f4fe99c47, IDirect3DSurface9 interface [
 ms.topic: method
 f1_keywords: 
  - "d3d9helper/IDirect3DSurface9.LockRect"
+dev_langs:
+ - c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, Writ
 ms.topic: function
 f1_keywords: 
  - "winbase/WritePrivateProfileString"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

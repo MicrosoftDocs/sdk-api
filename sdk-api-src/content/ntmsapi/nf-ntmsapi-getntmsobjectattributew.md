@@ -12,6 +12,8 @@ ms.keywords: GetNtmsObjectAttribute, GetNtmsObjectAttribute function [Files], Ge
 ms.topic: function
 f1_keywords: 
  - "ntmsapi/GetNtmsObjectAttribute"
+dev_langs:
+ - c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

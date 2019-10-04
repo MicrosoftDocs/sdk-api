@@ -12,6 +12,8 @@ ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAc
 ms.topic: method
 f1_keywords: 
  - "pla/IFolderActionCollection.CreateFolderAction"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecr
 ms.topic: function
 f1_keywords: 
  - "combaseapi/CoDecrementMTAUsage"
+dev_langs:
+ - c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

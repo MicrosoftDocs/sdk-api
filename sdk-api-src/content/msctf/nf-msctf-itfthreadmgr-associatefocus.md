@@ -12,6 +12,8 @@ ms.keywords: AssociateFocus, AssociateFocus method [Text Services Framework], As
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfThreadMgr.AssociateFocus"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

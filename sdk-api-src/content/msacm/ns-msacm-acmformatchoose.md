@@ -12,6 +12,8 @@ ms.keywords: "*LPACMFORMATCHOOSE, *PACMFORMATCHOOSE, ACMFORMATCHOOSE, ACMFORMATC
 ms.topic: struct
 f1_keywords: 
  - "msacm/ACMFORMATCHOOSE"
+dev_langs:
+ - c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

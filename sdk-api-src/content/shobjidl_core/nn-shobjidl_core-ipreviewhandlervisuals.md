@@ -12,6 +12,8 @@ ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IPreviewHandlerVisuals"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

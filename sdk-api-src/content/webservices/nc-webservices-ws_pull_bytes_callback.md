@@ -12,6 +12,8 @@ ms.keywords: WS_PULL_BYTES_CALLBACK, WS_PULL_BYTES_CALLBACK callback, WS_PULL_BY
 ms.topic: callback
 f1_keywords: 
  - "webservices/WS_PULL_BYTES_CALLBACK"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

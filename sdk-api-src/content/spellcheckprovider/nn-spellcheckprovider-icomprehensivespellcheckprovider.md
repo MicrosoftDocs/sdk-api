@@ -12,6 +12,8 @@ ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider 
 ms.topic: interface
 f1_keywords: 
  - "spellcheckprovider/IComprehensiveSpellCheckProvider"
+dev_langs:
+ - c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

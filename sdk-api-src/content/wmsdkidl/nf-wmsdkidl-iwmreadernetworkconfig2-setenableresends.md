@@ -12,6 +12,8 @@ ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableR
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderNetworkConfig2.SetEnableResends"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

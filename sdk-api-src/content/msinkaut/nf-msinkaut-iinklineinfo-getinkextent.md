@@ -12,6 +12,8 @@ ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent, GetInkExtent me
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkLineInfo.GetInkExtent"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

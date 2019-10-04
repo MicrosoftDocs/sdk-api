@@ -12,6 +12,8 @@ ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [M
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFAsyncResult.GetStatus"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

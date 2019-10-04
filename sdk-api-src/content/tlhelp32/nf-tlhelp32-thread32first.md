@@ -12,6 +12,8 @@ ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32fi
 ms.topic: function
 f1_keywords: 
  - "tlhelp32/Thread32First"
+dev_langs:
+ - c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

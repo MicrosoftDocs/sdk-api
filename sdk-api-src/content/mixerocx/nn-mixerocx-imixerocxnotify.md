@@ -12,6 +12,8 @@ ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXN
 ms.topic: interface
 f1_keywords: 
  - "mixerocx/IMixerOCXNotify"
+dev_langs:
+ - c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

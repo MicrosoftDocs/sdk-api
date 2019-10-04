@@ -12,6 +12,8 @@ ms.keywords: ID2D1Properties, ID2D1Properties interface [Direct2D], ID2D1Propert
 ms.topic: interface
 f1_keywords: 
  - "d2d1_1/ID2D1Properties"
+dev_langs:
+ - c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

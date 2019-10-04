@@ -12,6 +12,8 @@ ms.keywords: SetColor, SetColor method [GDI+], SetColor method [GDI+],SolidBrush
 ms.topic: method
 f1_keywords: 
  - "gdiplusbrush/SolidBrush.SetColor"
+dev_langs:
+ - c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

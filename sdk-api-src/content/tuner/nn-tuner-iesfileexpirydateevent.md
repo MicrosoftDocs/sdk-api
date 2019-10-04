@@ -12,6 +12,8 @@ ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft
 ms.topic: interface
 f1_keywords: 
  - "tuner/IESFileExpiryDateEvent"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

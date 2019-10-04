@@ -12,6 +12,8 @@ ms.keywords: '*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_
 ms.topic: struct
 f1_keywords:
 - traffic/TC_GEN_FILTER)
+dev_langs:
+ - c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PMSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON
 ms.topic: enum
 f1_keywords:
 - ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

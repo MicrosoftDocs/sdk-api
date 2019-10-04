@@ -12,6 +12,8 @@ ms.keywords: DML_BUFFER_ARRAY_BINDING, DML_BUFFER_ARRAY_BINDING structure, direc
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_BUFFER_ARRAY_BINDING"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

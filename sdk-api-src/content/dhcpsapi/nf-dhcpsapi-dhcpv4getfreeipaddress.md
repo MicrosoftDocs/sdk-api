@@ -12,6 +12,8 @@ ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhc
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4GetFreeIPAddress
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

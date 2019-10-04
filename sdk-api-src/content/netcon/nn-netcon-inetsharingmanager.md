@@ -12,6 +12,8 @@ ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSha
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingManager"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

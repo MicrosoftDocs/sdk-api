@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],Locked property, IInkEdit.Locked, II
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.Locked"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

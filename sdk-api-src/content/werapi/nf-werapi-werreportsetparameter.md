@@ -12,6 +12,8 @@ ms.keywords: WER_P0, WER_P1, WER_P2, WER_P3, WER_P4, WER_P5, WER_P6, WER_P7, WER
 ms.topic: function
 f1_keywords: 
  - "werapi/WerReportSetParameter"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

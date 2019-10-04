@@ -12,6 +12,8 @@ ms.keywords: GetPhotoAcquireSettings, GetPhotoAcquireSettings method [Picture Ac
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireSource.GetPhotoAcquireSettings"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

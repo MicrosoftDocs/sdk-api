@@ -12,6 +12,8 @@ ms.keywords: MFP_PLAYBACK_ENDED_EVENT, MFP_PLAYBACK_ENDED_EVENT structure [Media
 ms.topic: struct
 f1_keywords: 
  - "mfplay/MFP_PLAYBACK_ENDED_EVENT"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],Remov
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICMetadataQueryWriter.RemoveMetadataByName"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

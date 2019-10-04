@@ -12,6 +12,8 @@ ms.keywords: AllocateMore, AllocateMore method [Windows Address Book], AllocateM
 ms.topic: method
 f1_keywords: 
  - "wabapi/IWABObject.AllocateMore"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

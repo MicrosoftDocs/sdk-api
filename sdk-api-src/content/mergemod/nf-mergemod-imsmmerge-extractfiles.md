@@ -12,6 +12,8 @@ ms.keywords: ExtractFiles, ExtractFiles method, ExtractFiles method,IMsmMerge in
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.ExtractFiles"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

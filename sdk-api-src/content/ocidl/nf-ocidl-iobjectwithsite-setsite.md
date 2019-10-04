@@ -12,6 +12,8 @@ ms.keywords: IObjectWithSite interface [COM],SetSite method, IObjectWithSite.Set
 ms.topic: method
 f1_keywords: 
  - "ocidl/IObjectWithSite.SetSite"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

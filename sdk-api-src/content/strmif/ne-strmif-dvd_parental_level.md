@@ -12,6 +12,8 @@ ms.keywords: DVD_PARENTAL_LEVEL, DVD_PARENTAL_LEVEL , DVD_PARENTAL_LEVEL enumera
 ms.topic: enum
 f1_keywords: 
  - "strmif/DVD_PARENTAL_LEVEL"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

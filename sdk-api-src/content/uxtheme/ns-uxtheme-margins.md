@@ -12,6 +12,8 @@ ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS
 ms.topic: struct
 f1_keywords: 
  - "uxtheme/MARGINS"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

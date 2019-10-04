@@ -12,6 +12,8 @@ ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsB
 ms.topic: function
 f1_keywords: 
  - "wdsbp/WdsBpInitialize"
+dev_langs:
+ - c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

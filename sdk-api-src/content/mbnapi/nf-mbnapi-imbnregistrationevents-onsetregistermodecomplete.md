@@ -12,6 +12,8 @@ ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBL
 ms.topic: method
 f1_keywords: 
  - "mbnapi/IMbnRegistrationEvents.OnSetRegisterModeComplete"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

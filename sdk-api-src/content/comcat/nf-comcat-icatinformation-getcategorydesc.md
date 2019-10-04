@@ -12,6 +12,8 @@ ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc meth
 ms.topic: method
 f1_keywords: 
  - "comcat/ICatInformation.GetCategoryDesc"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

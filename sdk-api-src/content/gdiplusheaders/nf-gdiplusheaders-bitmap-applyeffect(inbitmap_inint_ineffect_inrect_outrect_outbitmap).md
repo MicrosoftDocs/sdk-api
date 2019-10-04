@@ -12,6 +12,8 @@ ms.keywords: ApplyEffect, ApplyEffect method [GDI+], ApplyEffect method [GDI+],B
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.ApplyEffect"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

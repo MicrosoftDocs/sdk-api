@@ -12,6 +12,8 @@ ms.keywords: 98e3ed97-cefc-40c2-acda-8b3da74d0d03, GetSampleFlags, GetSampleFlag
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFSample.GetSampleFlags"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

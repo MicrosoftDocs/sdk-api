@@ -12,6 +12,8 @@ ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ProcessThru method,
 ms.topic: method
 f1_keywords: 
  - "xapobase/CXAPOBase.ProcessThru"
+dev_langs:
+ - c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

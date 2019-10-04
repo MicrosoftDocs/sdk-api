@@ -12,6 +12,8 @@ ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [W
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/ICustomDestinationList.DeleteList"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

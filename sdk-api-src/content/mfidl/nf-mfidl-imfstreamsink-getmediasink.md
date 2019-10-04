@@ -12,6 +12,8 @@ ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink, GetMediaSink me
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamSink.GetMediaSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

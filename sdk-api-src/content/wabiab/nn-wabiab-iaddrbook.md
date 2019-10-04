@@ -12,6 +12,8 @@ ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook in
 ms.topic: interface
 f1_keywords: 
  - "wabiab/IAddrBook"
+dev_langs:
+ - c++
 req.header: wabiab.h
 req.include-header: 
 req.target-type: Windows

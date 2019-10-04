@@ -12,6 +12,8 @@ ms.keywords: DrvQueryFontCaps, DrvQueryFontCaps function [Display Devices], ddif
 ms.topic: function
 f1_keywords: 
  - "winddi/DrvQueryFontCaps"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

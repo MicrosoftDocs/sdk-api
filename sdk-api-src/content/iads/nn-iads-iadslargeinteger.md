@@ -12,6 +12,8 @@ ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteg
 ms.topic: interface
 f1_keywords: 
  - "iads/IADsLargeInteger"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

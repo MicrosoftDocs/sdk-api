@@ -12,6 +12,8 @@ ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RA
 ms.topic: function
 f1_keywords:
 - mgm/MgmGroupEnumerationGetNext
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

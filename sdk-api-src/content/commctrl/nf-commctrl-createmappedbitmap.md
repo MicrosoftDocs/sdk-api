@@ -12,6 +12,8 @@ ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Window
 ms.topic: function
 f1_keywords:
 - commctrl/CreateMappedBitmap
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

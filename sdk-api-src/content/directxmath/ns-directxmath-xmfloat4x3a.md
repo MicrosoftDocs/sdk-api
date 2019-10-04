@@ -9,6 +9,8 @@ ms.keywords: XMFLOAT4X3A
 ms.topic: language-reference
 f1_keywords: 
  - "directxmath/XMFLOAT4X3A"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

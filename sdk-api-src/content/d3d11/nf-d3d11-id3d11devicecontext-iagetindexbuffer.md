@@ -12,6 +12,8 @@ ms.keywords: 3fe40bcc-a76c-bfbf-97f0-0ee55d520b2d, IAGetIndexBuffer, IAGetIndexB
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.IAGetIndexBuffer"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

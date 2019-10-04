@@ -12,6 +12,8 @@ ms.keywords: Edit_TakeFocus, Edit_TakeFocus macro [Windows Controls], _win32_Edi
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_TakeFocus"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

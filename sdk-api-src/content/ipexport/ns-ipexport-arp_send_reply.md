@@ -12,6 +12,8 @@ ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND
 ms.topic: struct
 f1_keywords: 
  - "ipexport/ARP_SEND_REPLY"
+dev_langs:
+ - c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

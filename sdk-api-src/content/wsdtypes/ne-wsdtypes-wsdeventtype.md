@@ -12,6 +12,8 @@ ms.keywords: WSDET_INCOMING_FAULT, WSDET_INCOMING_MESSAGE, WSDET_NONE, WSDET_RES
 ms.topic: enum
 f1_keywords: 
  - "wsdtypes/WSDEventType"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

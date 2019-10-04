@@ -12,6 +12,8 @@ ms.keywords: GetSignatures, GetSignatures method [XPS Documents and Packaging], 
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureManager.GetSignatures"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

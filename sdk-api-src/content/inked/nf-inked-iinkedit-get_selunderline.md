@@ -12,6 +12,8 @@ ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelUnderline property, IInkEd
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelUnderline"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

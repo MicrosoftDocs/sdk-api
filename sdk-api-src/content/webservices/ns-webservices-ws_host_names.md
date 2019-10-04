@@ -12,6 +12,8 @@ ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], 
 ms.topic: struct
 f1_keywords: 
  - "webservices/WS_HOST_NAMES"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatisti
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngineEx.GetStatistics"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

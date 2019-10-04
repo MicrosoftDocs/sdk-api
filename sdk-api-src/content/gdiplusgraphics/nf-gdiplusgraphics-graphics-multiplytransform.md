@@ -12,6 +12,8 @@ ms.keywords: Graphics class [GDI+],MultiplyTransform method, Graphics.MultiplyTr
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.MultiplyTransform"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

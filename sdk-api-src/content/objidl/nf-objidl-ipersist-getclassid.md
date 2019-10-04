@@ -12,6 +12,8 @@ ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseF
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersist.GetClassID"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet 
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.Commit"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Int8ToULong, Int8ToULong function [Windows Shell], intsafe/Int8ToUL
 ms.topic: function
 f1_keywords: 
  - "intsafe/Int8ToULong"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

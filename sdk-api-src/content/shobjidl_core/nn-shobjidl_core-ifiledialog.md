@@ -12,6 +12,8 @@ ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog int
 ms.topic: interface
 f1_keywords: 
  - "shobjidl_core/IFileDialog"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

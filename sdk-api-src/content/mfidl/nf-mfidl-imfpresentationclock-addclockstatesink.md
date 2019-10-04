@@ -12,6 +12,8 @@ ms.keywords: AddClockStateSink, AddClockStateSink method [Media Foundation], Add
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationClock.AddClockStateSink"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

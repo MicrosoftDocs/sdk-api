@@ -12,6 +12,8 @@ ms.keywords: IsWmfPlaceable, IsWmfPlaceable method [GDI+], IsWmfPlaceable method
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsWmfPlaceable"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

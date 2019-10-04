@@ -12,6 +12,8 @@ ms.keywords: ISnapinProperties interface [MMC],QueryPropertyNames method, ISnapi
 ms.topic: method
 f1_keywords: 
  - "mmcobj/ISnapinProperties.QueryPropertyNames"
+dev_langs:
+ - c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

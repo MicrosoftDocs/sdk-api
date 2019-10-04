@@ -12,6 +12,8 @@ ms.keywords: DS_REPSYNCALL_ERROR, DS_REPSYNCALL_ERROR enumeration [Active Direct
 ms.topic: enum
 f1_keywords: 
  - "ntdsapi/DS_REPSYNCALL_ERROR"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

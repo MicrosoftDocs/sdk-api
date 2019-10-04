@@ -12,6 +12,8 @@ ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell],
 ms.topic: struct
 f1_keywords: 
  - "shappmgr/SLOWAPPINFO"
+dev_langs:
+ - c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

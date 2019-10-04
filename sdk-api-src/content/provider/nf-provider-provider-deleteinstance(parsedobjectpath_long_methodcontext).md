@@ -12,6 +12,8 @@ ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumen
 ms.topic: method
 f1_keywords: 
  - "provider/Provider.DeleteInstance"
+dev_langs:
+ - c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

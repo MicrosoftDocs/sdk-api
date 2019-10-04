@@ -12,6 +12,8 @@ ms.keywords: XPS_JOB_CANCELLED, XPS_JOB_COMPLETED, XPS_JOB_COMPLETION, XPS_JOB_C
 ms.topic: enum
 f1_keywords: 
  - "xpsprint/XPS_JOB_COMPLETION"
+dev_langs:
+ - c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows

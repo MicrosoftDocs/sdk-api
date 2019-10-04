@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_A
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink3.put_AudioAnalysisFilter"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

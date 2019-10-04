@@ -12,6 +12,8 @@ ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSucc
 ms.topic: enum
 f1_keywords: 
  - "certpol/X509SCEPDisposition"
+dev_langs:
+ - c++
 req.header: certpol.h
 req.include-header: CertEnroll.h
 req.target-type: Windows

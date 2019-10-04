@@ -12,6 +12,8 @@ ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupp
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetup.GetSupportedCATypes"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

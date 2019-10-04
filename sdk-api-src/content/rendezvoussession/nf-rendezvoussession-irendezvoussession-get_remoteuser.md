@@ -12,6 +12,8 @@ ms.keywords: IRendezvousSession interface [Remote Assistance],RemoteUser propert
 ms.topic: method
 f1_keywords: 
  - "rendezvoussession/IRendezvousSession.RemoteUser"
+dev_langs:
+ - c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

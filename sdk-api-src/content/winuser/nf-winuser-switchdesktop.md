@@ -12,6 +12,8 @@ ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktop
 ms.topic: function
 f1_keywords: 
  - "winuser/SwitchDesktop"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

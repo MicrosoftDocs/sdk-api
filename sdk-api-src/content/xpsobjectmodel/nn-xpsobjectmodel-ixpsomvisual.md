@@ -12,6 +12,8 @@ ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging],
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

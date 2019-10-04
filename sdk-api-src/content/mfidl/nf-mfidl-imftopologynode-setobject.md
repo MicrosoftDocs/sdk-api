@@ -12,6 +12,8 @@ ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFT
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTopologyNode.SetObject"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

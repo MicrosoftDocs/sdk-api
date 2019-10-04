@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function 
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetUdpStatisticsEx
+dev_langs:
+ - c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

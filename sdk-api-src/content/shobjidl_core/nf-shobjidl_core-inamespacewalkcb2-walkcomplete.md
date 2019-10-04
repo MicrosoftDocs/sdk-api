@@ -12,6 +12,8 @@ ms.keywords: INamespaceWalkCB2 interface [Windows Shell],WalkComplete method, IN
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/INamespaceWalkCB2.WalkComplete"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Detach, Detach method [Windows Shell], Detach method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "thumbcache/ISharedBitmap.Detach"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

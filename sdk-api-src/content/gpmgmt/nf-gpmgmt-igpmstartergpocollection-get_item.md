@@ -12,6 +12,8 @@ ms.keywords: IGPMStarterGPOCollection interface [GPMC],Item property, IGPMStarte
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPOCollection.Item"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

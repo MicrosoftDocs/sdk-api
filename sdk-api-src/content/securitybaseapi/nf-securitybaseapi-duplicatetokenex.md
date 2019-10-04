@@ -12,6 +12,8 @@ ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpers
 ms.topic: function
 f1_keywords:
 - securitybaseapi/DuplicateTokenEx
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

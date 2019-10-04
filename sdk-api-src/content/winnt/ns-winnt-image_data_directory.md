@@ -12,6 +12,8 @@ ms.keywords: "*PIMAGE_DATA_DIRECTORY, IMAGE_DATA_DIRECTORY, IMAGE_DATA_DIRECTORY
 ms.topic: struct
 f1_keywords: 
  - "winnt/IMAGE_DATA_DIRECTORY"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

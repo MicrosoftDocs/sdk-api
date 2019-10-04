@@ -12,6 +12,8 @@ ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Manage
 ms.topic: method
 f1_keywords: 
  - "wbemprov/IWbemHiPerfProvider.CreateRefreshableEnum"
+dev_langs:
+ - c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

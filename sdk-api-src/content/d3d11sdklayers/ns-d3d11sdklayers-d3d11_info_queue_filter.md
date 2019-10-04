@@ -12,6 +12,8 @@ ms.keywords: 9211ecf7-c9cd-c8c2-618a-e4909600a06e, D3D11_INFO_QUEUE_FILTER, D3D1
 ms.topic: struct
 f1_keywords: 
  - "d3d11sdklayers/D3D11_INFO_QUEUE_FILTER"
+dev_langs:
+ - c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

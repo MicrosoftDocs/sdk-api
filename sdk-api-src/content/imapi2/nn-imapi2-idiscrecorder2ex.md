@@ -12,6 +12,8 @@ ms.keywords: IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], IDiscRecorder
 ms.topic: interface
 f1_keywords: 
  - "imapi2/IDiscRecorder2Ex"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

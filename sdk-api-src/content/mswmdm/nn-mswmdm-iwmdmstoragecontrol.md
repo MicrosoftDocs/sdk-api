@@ -12,6 +12,8 @@ ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media D
 ms.topic: interface
 f1_keywords: 
  - "mswmdm/IWMDMStorageControl"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

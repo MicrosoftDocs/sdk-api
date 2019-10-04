@@ -12,6 +12,8 @@ ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Stop meth
 ms.topic: method
 f1_keywords: 
  - "audioengineendpoint/IAudioEndpointControl.Stop"
+dev_langs:
+ - c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

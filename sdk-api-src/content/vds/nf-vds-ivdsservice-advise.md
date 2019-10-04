@@ -12,6 +12,8 @@ ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interf
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsService.Advise"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

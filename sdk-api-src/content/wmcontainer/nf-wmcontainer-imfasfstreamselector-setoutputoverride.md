@@ -12,6 +12,8 @@ ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamSelector.SetOutputOverride"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

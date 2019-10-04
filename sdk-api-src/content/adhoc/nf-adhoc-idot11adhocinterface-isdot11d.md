@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsDot11d method, IDot11
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocInterface.IsDot11d"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

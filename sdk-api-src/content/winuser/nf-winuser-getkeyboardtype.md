@@ -12,6 +12,8 @@ ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input
 ms.topic: function
 f1_keywords: 
  - "winuser/GetKeyboardType"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

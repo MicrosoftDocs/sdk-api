@@ -12,6 +12,8 @@ ms.keywords: "*LPSERVICE_TABLE_ENTRYA, LPSERVICE_TABLE_ENTRY, LPSERVICE_TABLE_EN
 ms.topic: struct
 f1_keywords: 
  - "winsvc/SERVICE_TABLE_ENTRY"
+dev_langs:
+ - c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

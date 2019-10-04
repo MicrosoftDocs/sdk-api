@@ -12,6 +12,8 @@ ms.keywords: MI_SUBSCRIBE_BOOKMARK_NEWEST, MI_SUBSCRIBE_BOOKMARK_OLDEST, MI_Subs
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_SetBookmark
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOrig
 ms.topic: method
 f1_keywords: 
  - "comsvcs/SecurityProperty.GetOriginalCallerName"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

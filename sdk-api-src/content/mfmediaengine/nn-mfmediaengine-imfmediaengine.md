@@ -12,6 +12,8 @@ ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IMFMed
 ms.topic: interface
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

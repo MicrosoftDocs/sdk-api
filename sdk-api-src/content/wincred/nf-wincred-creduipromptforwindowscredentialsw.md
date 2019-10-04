@@ -12,6 +12,8 @@ ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE
 ms.topic: function
 f1_keywords:
 - wincred/CredUIPromptForWindowsCredentials
+dev_langs:
+ - c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

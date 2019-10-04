@@ -12,6 +12,8 @@ ms.keywords: IProgressItems interface [IMAPI],get__NewEnum method, IProgressItem
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IProgressItems.get__NewEnum"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

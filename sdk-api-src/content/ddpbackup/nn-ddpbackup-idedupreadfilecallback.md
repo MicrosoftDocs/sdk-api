@@ -12,6 +12,8 @@ ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Dedu
 ms.topic: interface
 f1_keywords: 
  - "ddpbackup/IDedupReadFileCallback"
+dev_langs:
+ - c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

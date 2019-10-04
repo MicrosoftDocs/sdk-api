@@ -12,6 +12,8 @@ ms.keywords: "_win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup 
 ms.topic: macro
 f1_keywords: 
  - "vfw/capCaptureSetSetup"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

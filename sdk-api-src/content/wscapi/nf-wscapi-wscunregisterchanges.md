@@ -12,6 +12,8 @@ ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], 
 ms.topic: function
 f1_keywords: 
  - "wscapi/WscUnRegisterChanges"
+dev_langs:
+ - c++
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows

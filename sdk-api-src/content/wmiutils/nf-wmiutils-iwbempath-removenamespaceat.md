@@ -12,6 +12,8 @@ ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveName
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.RemoveNamespaceAt"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Font, Font class [GDI+], Font class [GDI+],described, _gdiplus_CLAS
 ms.topic: class
 f1_keywords: 
  - "gdiplusheaders/Font"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

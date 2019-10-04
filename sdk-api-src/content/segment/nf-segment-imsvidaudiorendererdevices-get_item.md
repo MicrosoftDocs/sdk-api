@@ -12,6 +12,8 @@ ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],ge
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRendererDevices.get_Item"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

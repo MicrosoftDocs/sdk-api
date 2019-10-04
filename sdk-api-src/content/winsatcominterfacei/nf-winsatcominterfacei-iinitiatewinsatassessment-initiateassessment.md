@@ -12,6 +12,8 @@ ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment met
 ms.topic: method
 f1_keywords: 
  - "winsatcominterfacei/IInitiateWinSATAssessment.InitiateAssessment"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

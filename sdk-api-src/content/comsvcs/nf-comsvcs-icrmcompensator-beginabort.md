@@ -12,6 +12,8 @@ ms.keywords: BeginAbort, BeginAbort method [COM+], BeginAbort method [COM+],ICrm
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensator.BeginAbort"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

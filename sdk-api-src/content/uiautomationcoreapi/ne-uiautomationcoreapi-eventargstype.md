@@ -12,6 +12,8 @@ ms.keywords: EventArgsType, EventArgsType enumeration [Windows Accessibility], E
 ms.topic: enum
 f1_keywords: 
  - "uiautomationcoreapi/EventArgsType"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

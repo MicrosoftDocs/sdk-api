@@ -12,6 +12,8 @@ ms.keywords: IInkEdit interface [Tablet PC],SelStart property, IInkEdit.SelStart
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.SelStart"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

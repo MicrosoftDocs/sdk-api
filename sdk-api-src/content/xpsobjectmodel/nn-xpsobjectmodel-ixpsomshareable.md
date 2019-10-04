@@ -12,6 +12,8 @@ ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packa
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMShareable"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

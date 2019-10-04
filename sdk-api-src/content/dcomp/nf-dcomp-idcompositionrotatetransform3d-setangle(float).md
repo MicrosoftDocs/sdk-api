@@ -12,6 +12,8 @@ ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAng
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionRotateTransform3D.SetAngle"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

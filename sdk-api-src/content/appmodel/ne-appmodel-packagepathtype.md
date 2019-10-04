@@ -8,6 +8,8 @@ ms.keywords: PackagePathType
 ms.topic: enum
 f1_keywords: 
  - "appmodel/PackagePathType"
+dev_langs:
+ - c++
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: appmodel.h

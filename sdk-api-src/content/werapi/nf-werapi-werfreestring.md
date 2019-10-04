@@ -12,6 +12,8 @@ ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], we
 ms.topic: function
 f1_keywords: 
  - "werapi/WerFreeString"
+dev_langs:
+ - c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

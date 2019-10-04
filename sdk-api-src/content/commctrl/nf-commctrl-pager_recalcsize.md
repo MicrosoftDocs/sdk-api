@@ -12,6 +12,8 @@ ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Pager_RecalcSize"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WdsTransportClientWaitForCompletion, WdsTransportClientWaitForCompl
 ms.topic: function
 f1_keywords: 
  - "wdstci/WdsTransportClientWaitForCompletion"
+dev_langs:
+ - c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

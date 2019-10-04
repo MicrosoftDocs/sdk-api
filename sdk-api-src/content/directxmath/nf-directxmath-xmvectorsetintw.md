@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVectorSetIntW, XMVectorSetIntW, XMVectorSetIntW meth
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVectorSetIntW"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

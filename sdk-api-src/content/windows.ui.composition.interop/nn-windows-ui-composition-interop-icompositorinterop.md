@@ -12,6 +12,8 @@ ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorIntero
 ms.topic: interface
 f1_keywords: 
  - "windows.ui.composition.interop/ICompositorInterop"
+dev_langs:
+ - c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

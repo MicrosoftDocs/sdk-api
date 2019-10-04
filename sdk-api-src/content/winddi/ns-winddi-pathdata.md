@@ -12,6 +12,8 @@ ms.keywords: '*PPATHDATA, PATHDATA, PATHDATA structure [Display Devices], PPATHD
 ms.topic: struct
 f1_keywords:
 - winddi/PATHDATA
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

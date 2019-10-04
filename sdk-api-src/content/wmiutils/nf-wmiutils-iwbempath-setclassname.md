@@ -12,6 +12,8 @@ ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetClassNa
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.SetClassName"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

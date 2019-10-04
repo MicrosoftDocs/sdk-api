@@ -12,6 +12,8 @@ ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], IDesktopG
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IDesktopGadget"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

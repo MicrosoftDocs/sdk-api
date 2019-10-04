@@ -12,6 +12,8 @@ ms.keywords: LocalLock, LocalLock function, _win32_locallock, base.locallock, wi
 ms.topic: function
 f1_keywords: 
  - "winbase/LocalLock"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

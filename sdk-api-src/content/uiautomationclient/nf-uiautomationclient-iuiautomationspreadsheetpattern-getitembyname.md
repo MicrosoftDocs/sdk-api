@@ -12,6 +12,8 @@ ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetIte
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationSpreadsheetPattern.GetItemByName"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

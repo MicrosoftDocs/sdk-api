@@ -12,6 +12,8 @@ ms.keywords: GetEasyReader, GetEasyReader method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ICaptionServiceDescriptor.GetEasyReader"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

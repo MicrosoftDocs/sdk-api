@@ -12,6 +12,8 @@ ms.keywords: ImageList_RemoveAll, ImageList_RemoveAll macro [Windows Controls], 
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ImageList_RemoveAll"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

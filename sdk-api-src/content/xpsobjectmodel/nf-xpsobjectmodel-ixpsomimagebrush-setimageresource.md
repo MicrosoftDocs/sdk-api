@@ -12,6 +12,8 @@ ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetImageRe
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMImageBrush.SetImageResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

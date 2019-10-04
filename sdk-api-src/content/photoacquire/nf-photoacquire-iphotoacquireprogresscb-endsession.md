@@ -12,6 +12,8 @@ ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession met
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.EndSession"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

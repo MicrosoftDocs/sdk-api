@@ -12,6 +12,8 @@ ms.keywords: NetDfsAddStdRoot, NetDfsAddStdRoot function [Distributed File Syste
 ms.topic: function
 f1_keywords: 
  - "lmdfs/NetDfsAddStdRoot"
+dev_langs:
+ - c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

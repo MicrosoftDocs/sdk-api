@@ -12,6 +12,8 @@ ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSe
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IGetSecurityCallContext.GetSecurityCallContext"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

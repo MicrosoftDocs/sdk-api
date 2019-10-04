@@ -12,6 +12,8 @@ ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDir
 ms.topic: interface
 f1_keywords: 
  - "ddraw/IDirectDrawClipper"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

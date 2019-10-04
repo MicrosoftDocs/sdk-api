@@ -12,6 +12,8 @@ ms.keywords: GetSharedHandle, GetSharedHandle method [DXGI], GetSharedHandle met
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIResource.GetSharedHandle"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

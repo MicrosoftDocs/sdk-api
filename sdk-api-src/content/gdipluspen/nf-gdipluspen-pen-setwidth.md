@@ -12,6 +12,8 @@ ms.keywords: Pen class [GDI+],SetWidth method, Pen.SetWidth, Pen::SetWidth, SetW
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.SetWidth"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

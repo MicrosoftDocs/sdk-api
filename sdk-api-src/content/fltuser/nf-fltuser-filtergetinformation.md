@@ -12,6 +12,8 @@ ms.keywords: FilterGetInformation, FilterGetInformation function [Installable Fi
 ms.topic: function
 f1_keywords: 
  - "fltuser/FilterGetInformation"
+dev_langs:
+ - c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

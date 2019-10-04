@@ -12,6 +12,8 @@ ms.keywords: 10df1118-2f5f-fe2c-97bb-9adf4d72bc25, ID3D11SamplerState, ID3D11Sam
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11SamplerState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

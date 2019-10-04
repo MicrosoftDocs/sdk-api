@@ -12,6 +12,8 @@ ms.keywords: IConsoleNameSpace interface [MMC],InsertItem method, IConsoleNameSp
 ms.topic: method
 f1_keywords:
 - mmc/IConsoleNameSpace.InsertItem
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

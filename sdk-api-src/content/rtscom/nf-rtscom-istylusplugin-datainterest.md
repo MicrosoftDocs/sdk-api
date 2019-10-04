@@ -12,6 +12,8 @@ ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest me
 ms.topic: method
 f1_keywords: 
  - "rtscom/IStylusPlugin.DataInterest"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

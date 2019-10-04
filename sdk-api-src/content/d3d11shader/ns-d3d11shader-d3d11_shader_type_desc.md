@@ -12,6 +12,8 @@ ms.keywords: 071e4c6b-35a1-909a-b08c-bb43e4a73d5a, D3D11_SHADER_TYPE_DESC, D3D11
 ms.topic: struct
 f1_keywords:
 - d3d11shader/D3D11_SHADER_TYPE_DESC
+dev_langs:
+ - c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

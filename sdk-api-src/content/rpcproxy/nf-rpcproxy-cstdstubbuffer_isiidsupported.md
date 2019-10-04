@@ -12,6 +12,8 @@ ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported, CStdS
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdStubBuffer_IsIIDSupported"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

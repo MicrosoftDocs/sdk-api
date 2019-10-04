@@ -12,6 +12,8 @@ ms.keywords: 5e275b83-9e59-4730-b8e2-e45f78077891, GetMutualExclusionCount, GetM
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFProfile.GetMutualExclusionCount"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

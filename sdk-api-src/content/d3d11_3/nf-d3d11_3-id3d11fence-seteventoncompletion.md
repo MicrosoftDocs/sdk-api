@@ -12,6 +12,8 @@ ms.keywords: ID3D11Fence interface [Direct3D 11],SetEventOnCompletion method, ID
 ms.topic: method
 f1_keywords: 
  - "d3d11_3/ID3D11Fence.SetEventOnCompletion"
+dev_langs:
+ - c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

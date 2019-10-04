@@ -12,6 +12,8 @@ ms.keywords: PEER_CHANGE_ADDED, PEER_CHANGE_DELETED, PEER_CHANGE_TYPE, PEER_CHAN
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

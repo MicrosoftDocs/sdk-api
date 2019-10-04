@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GLYPH_RUN_DESCRIPTION, DWRITE_GLYPH_RUN_DESCRIPTION structur
 ms.topic: struct
 f1_keywords: 
  - "dwrite/DWRITE_GLYPH_RUN_DESCRIPTION"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CryptMsgDuplicate, CryptMsgDuplicate function [Security], _crypto2_
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptMsgDuplicate"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

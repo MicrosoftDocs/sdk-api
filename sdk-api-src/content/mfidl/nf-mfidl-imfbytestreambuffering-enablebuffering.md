@@ -12,6 +12,8 @@ ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering, EnableBuffer
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamBuffering.EnableBuffering"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

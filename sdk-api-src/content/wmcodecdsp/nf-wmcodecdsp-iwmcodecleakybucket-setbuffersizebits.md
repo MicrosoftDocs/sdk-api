@@ -12,6 +12,8 @@ ms.keywords: IWMCodecLeakyBucket interface [Media Foundation],SetBufferSizeBits 
 ms.topic: method
 f1_keywords: 
  - "wmcodecdsp/IWMCodecLeakyBucket.SetBufferSizeBits"
+dev_langs:
+ - c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

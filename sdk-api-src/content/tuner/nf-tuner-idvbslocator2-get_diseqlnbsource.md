@@ -12,6 +12,8 @@ ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource
 ms.topic: method
 f1_keywords: 
  - "tuner/IDVBSLocator2.DiseqLNBSource"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

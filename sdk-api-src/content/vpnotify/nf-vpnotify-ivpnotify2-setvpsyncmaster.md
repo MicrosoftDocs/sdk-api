@@ -12,6 +12,8 @@ ms.keywords: IVPNotify2 interface [DirectShow],SetVPSyncMaster method, IVPNotify
 ms.topic: method
 f1_keywords: 
  - "vpnotify/IVPNotify2.SetVPSyncMaster"
+dev_langs:
+ - c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

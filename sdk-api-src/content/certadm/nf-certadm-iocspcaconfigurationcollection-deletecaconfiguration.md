@@ -12,6 +12,8 @@ ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], Del
 ms.topic: method
 f1_keywords: 
  - "certadm/IOCSPCAConfigurationCollection.DeleteCAConfiguration"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

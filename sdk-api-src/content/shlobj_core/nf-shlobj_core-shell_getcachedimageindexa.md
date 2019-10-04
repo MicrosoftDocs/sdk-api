@@ -12,6 +12,8 @@ ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Wind
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/Shell_GetCachedImageIndex"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h
 req.target-type: Windows

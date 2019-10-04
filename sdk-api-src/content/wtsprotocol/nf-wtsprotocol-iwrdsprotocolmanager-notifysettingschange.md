@@ -12,6 +12,8 @@ ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySett
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolManager.NotifySettingsChange
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Document property [Debugging Windows Store apps], Document property
 ms.topic: method
 f1_keywords: 
  - "webapplication/IWebApplicationHost.Document"
+dev_langs:
+ - c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

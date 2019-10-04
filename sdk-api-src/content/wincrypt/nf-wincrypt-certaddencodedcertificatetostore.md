@@ -12,6 +12,8 @@ ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_E
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CertAddEncodedCertificateToStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

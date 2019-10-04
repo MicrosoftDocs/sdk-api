@@ -12,6 +12,8 @@ ms.keywords: KHYPH, KHYPH enumeration [Windows Controls], _win32_KHYPH, _win32_K
 ms.topic: enum
 f1_keywords: 
  - "richedit/KHYPH"
+dev_langs:
+ - c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

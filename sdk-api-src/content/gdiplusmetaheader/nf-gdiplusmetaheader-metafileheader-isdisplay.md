@@ -12,6 +12,8 @@ ms.keywords: IsDisplay, IsDisplay method [GDI+], IsDisplay method [GDI+],Metafil
 ms.topic: method
 f1_keywords: 
  - "gdiplusmetaheader/MetafileHeader.IsDisplay"
+dev_langs:
+ - c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

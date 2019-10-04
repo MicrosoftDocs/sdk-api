@@ -12,6 +12,8 @@ ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumW
 ms.topic: method
 f1_keywords: 
  - "wia_xp/IEnumWiaItem.Next"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

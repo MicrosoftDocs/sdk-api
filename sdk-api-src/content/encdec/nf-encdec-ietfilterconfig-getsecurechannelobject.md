@@ -12,6 +12,8 @@ ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "encdec/IETFilterConfig.GetSecureChannelObject"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

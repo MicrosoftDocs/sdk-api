@@ -12,6 +12,8 @@ ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [WPF Bitmap 
 ms.topic: struct
 f1_keywords: 
  - "mileffects/MilMatrix3x2D"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

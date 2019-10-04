@@ -12,6 +12,8 @@ ms.keywords: '*PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE, PSECU
 ms.topic: struct
 f1_keywords:
 - winnt/SECURITY_QUALITY_OF_SERVICE
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

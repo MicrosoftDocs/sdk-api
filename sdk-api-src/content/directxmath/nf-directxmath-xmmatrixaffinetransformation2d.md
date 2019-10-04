@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMMatrixAffineTransformation2D, XMMatrixAffineTransfor
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMMatrixAffineTransformation2D"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

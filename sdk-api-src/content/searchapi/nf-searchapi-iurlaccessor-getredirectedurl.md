@@ -12,6 +12,8 @@ ms.keywords: GetRedirectedURL, GetRedirectedURL method [search], GetRedirectedUR
 ms.topic: method
 f1_keywords: 
  - "searchapi/IUrlAccessor.GetRedirectedURL"
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

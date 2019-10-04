@@ -12,6 +12,8 @@ ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows
 ms.topic: interface
 f1_keywords: 
  - "wsmandisp/IWSManConnectionOptions"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

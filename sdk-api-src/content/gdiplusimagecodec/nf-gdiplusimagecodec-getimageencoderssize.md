@@ -12,6 +12,8 @@ ms.keywords: GetImageEncodersSize, GetImageEncodersSize function [GDI+], _gdiplu
 ms.topic: function
 f1_keywords: 
  - "gdiplusimagecodec/GetImageEncodersSize"
+dev_langs:
+ - c++
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

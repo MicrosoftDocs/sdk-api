@@ -12,6 +12,8 @@ ms.keywords: IFaxJob interface [Fax Service],SenderDept property, IFaxJob.Sender
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxJob.SenderDept"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

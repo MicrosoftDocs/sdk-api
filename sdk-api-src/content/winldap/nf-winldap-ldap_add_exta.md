@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_a
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_add_ext"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

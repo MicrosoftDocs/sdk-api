@@ -12,6 +12,8 @@ ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_auth
 ms.topic: function
 f1_keywords: 
  - "authz/AuthzFreeContext"
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

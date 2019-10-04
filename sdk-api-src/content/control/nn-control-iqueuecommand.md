@@ -12,6 +12,8 @@ ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand 
 ms.topic: interface
 f1_keywords: 
  - "control/IQueueCommand"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

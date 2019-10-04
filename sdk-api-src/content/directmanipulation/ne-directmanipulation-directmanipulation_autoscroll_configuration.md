@@ -12,6 +12,8 @@ ms.keywords: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, DIRECTMANIPULATION_AUT
 ms.topic: enum
 f1_keywords: 
  - "directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

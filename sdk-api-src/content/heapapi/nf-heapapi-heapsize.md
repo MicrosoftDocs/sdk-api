@@ -12,6 +12,8 @@ ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, ba
 ms.topic: function
 f1_keywords: 
  - "heapapi/HeapSize"
+dev_langs:
+ - c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

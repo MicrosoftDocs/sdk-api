@@ -12,6 +12,8 @@ ms.keywords: IComTransaction2Events interface [COM+],OnTransactionAbort2 method,
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComTransaction2Events.OnTransactionAbort2"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_U
 ms.topic: ioctl
 f1_keywords:
 - usbuser/IOCTL_USB_USER_REQUEST
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

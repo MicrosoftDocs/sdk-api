@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows 
 ms.topic: method
 f1_keywords: 
  - "windows.foundation/IPropertyValue.GetSize"
+dev_langs:
+ - c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

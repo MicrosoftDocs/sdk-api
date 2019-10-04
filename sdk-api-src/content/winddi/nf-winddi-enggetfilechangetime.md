@@ -12,6 +12,8 @@ ms.keywords: EngGetFileChangeTime, EngGetFileChangeTime function [Display Device
 ms.topic: function
 f1_keywords: 
  - "winddi/EngGetFileChangeTime"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

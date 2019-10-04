@@ -12,6 +12,8 @@ ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [
 ms.topic: function
 f1_keywords: 
  - "mssip/CryptSIPRemoveSignedDataMsg"
+dev_langs:
+ - c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

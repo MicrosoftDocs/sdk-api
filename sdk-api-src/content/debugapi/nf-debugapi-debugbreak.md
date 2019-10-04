@@ -12,6 +12,8 @@ ms.keywords: DebugBreak, DebugBreak function, _win32_debugbreak, base.debugbreak
 ms.topic: function
 f1_keywords: 
  - "debugapi/DebugBreak"
+dev_langs:
+ - c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

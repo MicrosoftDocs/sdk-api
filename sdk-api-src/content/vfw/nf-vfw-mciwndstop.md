@@ -12,6 +12,8 @@ ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndSto
 ms.topic: macro
 f1_keywords: 
  - "vfw/MCIWndStop"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

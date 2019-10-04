@@ -12,6 +12,8 @@ ms.keywords: Count property [Windows Update Agent], Count property [Windows Upda
 ms.topic: method
 f1_keywords: 
  - "wuapi/IStringCollection.Count"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

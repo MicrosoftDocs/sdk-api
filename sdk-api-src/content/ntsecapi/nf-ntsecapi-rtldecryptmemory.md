@@ -12,6 +12,8 @@ ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, Rt
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/RtlDecryptMemory"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technolog
 ms.topic: method
 f1_keywords: 
  - "strmif/IEncoderAPI.GetParameterRange"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

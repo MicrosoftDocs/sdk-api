@@ -12,6 +12,8 @@ ms.keywords: 2bd43f33-8528-4e78-97d5-2af39a2ac06b, IMFSampleProtection interface
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleProtection.InitInputProtection"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

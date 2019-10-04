@@ -12,6 +12,8 @@ ms.keywords: LdapMapErrorToWin32, LdapMapErrorToWin32 function [LDAP], _ldap_lda
 ms.topic: function
 f1_keywords: 
  - "winldap/LdapMapErrorToWin32"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

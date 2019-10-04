@@ -12,6 +12,8 @@ ms.keywords: WM_READER_CLIENTINFO, WM_READER_CLIENTINFO structure [windows Media
 ms.topic: struct
 f1_keywords: 
  - "wmsdkidl/WM_READER_CLIENTINFO"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

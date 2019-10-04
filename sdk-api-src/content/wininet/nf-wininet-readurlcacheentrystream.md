@@ -12,6 +12,8 @@ ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet]
 ms.topic: function
 f1_keywords: 
  - "wininet/ReadUrlCacheEntryStream"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

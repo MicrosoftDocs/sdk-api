@@ -12,6 +12,8 @@ ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHAN
 ms.topic: callback
 f1_keywords:
 - netfw/PAC_CHANGES_CALLBACK_FN
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows

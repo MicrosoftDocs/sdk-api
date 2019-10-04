@@ -12,6 +12,8 @@ ms.keywords: IShellFolder, IShellFolder interface [Windows Shell], IShellFolder 
 ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellFolder
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

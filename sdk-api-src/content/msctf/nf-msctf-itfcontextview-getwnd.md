@@ -12,6 +12,8 @@ ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Tex
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextView.GetWnd"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

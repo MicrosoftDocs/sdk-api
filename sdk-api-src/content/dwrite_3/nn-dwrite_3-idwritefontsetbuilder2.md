@@ -8,6 +8,10 @@ ms.author: windowssdkdev
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2, IDWriteFontSetBuilder2 interface [Direct Write], IDWriteFontSetBuilder2 interface [Direct Write],described, directwrite.idwritefontsetbuilder2, dwrite_3/IDWriteFontSetBuilder2
 ms.topic: interface
+f1_keywords:
+ - IDWriteFontSetBuilder2
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

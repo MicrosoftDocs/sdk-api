@@ -12,6 +12,8 @@ ms.keywords: D3DX11_SCAN_DIRECTION, D3DX11_SCAN_DIRECTION enumeration [Direct3D 
 ms.topic: enum
 f1_keywords: 
  - "d3dcsx/D3DX11_SCAN_DIRECTION"
+dev_langs:
+ - c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

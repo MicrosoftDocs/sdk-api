@@ -12,6 +12,8 @@ ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [File
 ms.topic: function
 f1_keywords: 
  - "wofapi/WofShouldCompressBinaries"
+dev_langs:
+ - c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

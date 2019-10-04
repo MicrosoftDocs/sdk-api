@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer 
 ms.topic: struct
 f1_keywords:
 - qosobjs/QOS_DS_CLASS
+dev_langs:
+ - c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

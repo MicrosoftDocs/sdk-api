@@ -12,6 +12,8 @@ ms.keywords: IDCompositionSaturationEffect interface [DirectComposition],SetSatu
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionSaturationEffect.SetSaturation"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

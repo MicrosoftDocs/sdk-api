@@ -12,6 +12,8 @@ ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio
 ms.topic: method
 f1_keywords: 
  - "devicetopology/IAudioPeakMeter.GetLevel"
+dev_langs:
+ - c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

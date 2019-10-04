@@ -12,6 +12,8 @@ ms.keywords: IDataCollectorSet interface [PLA],SetValue method, IDataCollectorSe
 ms.topic: method
 f1_keywords: 
  - "pla/IDataCollectorSet.SetValue"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

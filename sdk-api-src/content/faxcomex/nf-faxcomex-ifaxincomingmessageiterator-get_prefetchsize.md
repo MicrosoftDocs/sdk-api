@@ -12,6 +12,8 @@ ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize pr
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxIncomingMessageIterator.PrefetchSize"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

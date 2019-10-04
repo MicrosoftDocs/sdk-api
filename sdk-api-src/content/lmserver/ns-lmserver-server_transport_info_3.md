@@ -12,6 +12,8 @@ ms.keywords: '*LPSERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, LPSERVER_TR
 ms.topic: struct
 f1_keywords:
 - lmserver/SERVER_TRANSPORT_INFO_3
+dev_langs:
+ - c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

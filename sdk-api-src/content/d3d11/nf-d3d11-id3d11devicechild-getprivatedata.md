@@ -12,6 +12,8 @@ ms.keywords: 50e61586-bdf5-0fe2-ab52-a873243bc7ff, GetPrivateData, GetPrivateDat
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceChild.GetPrivateData"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

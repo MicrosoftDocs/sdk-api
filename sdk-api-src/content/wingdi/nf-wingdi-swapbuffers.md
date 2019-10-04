@@ -12,6 +12,8 @@ ms.keywords: SwapBuffers, SwapBuffers function [OpenGL], _ogl_SwapBuffers, openg
 ms.topic: function
 f1_keywords: 
  - "wingdi/SwapBuffers"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

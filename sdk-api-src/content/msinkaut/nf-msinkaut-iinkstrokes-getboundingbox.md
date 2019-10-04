@@ -12,6 +12,8 @@ ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBo
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokes.GetBoundingBox"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

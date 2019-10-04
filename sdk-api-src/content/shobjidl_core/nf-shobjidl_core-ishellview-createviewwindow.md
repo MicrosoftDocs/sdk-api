@@ -12,6 +12,8 @@ ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateVi
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IShellView.CreateViewWindow"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

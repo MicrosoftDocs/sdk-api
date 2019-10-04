@@ -12,6 +12,8 @@ ms.keywords: PENDINGMSG, PENDINGMSG enumeration [COM], PENDINGMSG_CANCELCALL, PE
 ms.topic: enum
 f1_keywords: 
  - "objidl/PENDINGMSG"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkS
 ms.topic: struct
 f1_keywords: 
  - "naptypes/NetworkSoH"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

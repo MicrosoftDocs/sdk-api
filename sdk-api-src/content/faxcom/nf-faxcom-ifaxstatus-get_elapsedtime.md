@@ -12,6 +12,8 @@ ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Servi
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxStatus.ElapsedTime"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

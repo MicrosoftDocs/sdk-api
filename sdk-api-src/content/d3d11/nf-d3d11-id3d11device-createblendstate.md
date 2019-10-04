@@ -12,6 +12,8 @@ ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlend
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11Device.CreateBlendState"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

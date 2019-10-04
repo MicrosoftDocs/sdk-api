@@ -12,6 +12,8 @@ ms.keywords: IDirectMusicSynth interface [Audio Devices],SetMasterClock method, 
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.SetMasterClock"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

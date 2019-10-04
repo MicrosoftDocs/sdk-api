@@ -12,6 +12,8 @@ ms.keywords: WS_ENVELOPE_VERSION, WS_ENVELOPE_VERSION enumeration [Web Services 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_ENVELOPE_VERSION"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

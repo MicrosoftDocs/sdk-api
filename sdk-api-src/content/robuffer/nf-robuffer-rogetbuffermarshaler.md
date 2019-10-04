@@ -12,6 +12,8 @@ ms.keywords: RoGetBufferMarshaler, RoGetBufferMarshaler function [Windows Runtim
 ms.topic: function
 f1_keywords: 
  - "robuffer/RoGetBufferMarshaler"
+dev_langs:
+ - c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

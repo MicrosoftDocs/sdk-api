@@ -12,6 +12,8 @@ ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Table
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRenderer.Measure"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

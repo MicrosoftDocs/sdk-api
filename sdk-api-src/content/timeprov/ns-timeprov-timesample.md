@@ -12,6 +12,8 @@ ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, 
 ms.topic: struct
 f1_keywords: 
  - "timeprov/TimeSample"
+dev_langs:
+ - c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

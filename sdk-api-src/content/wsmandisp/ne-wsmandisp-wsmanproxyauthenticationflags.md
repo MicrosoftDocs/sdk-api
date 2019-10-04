@@ -12,6 +12,8 @@ ms.keywords: WSManFlagProxyAuthenticationUseBasic, WSManFlagProxyAuthenticationU
 ms.topic: enum
 f1_keywords: 
  - "wsmandisp/WSManProxyAuthenticationFlags"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

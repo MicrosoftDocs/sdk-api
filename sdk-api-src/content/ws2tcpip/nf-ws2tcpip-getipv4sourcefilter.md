@@ -12,6 +12,8 @@ ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsoc
 ms.topic: function
 f1_keywords: 
  - "ws2tcpip/getipv4sourcefilter"
+dev_langs:
+ - c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRel
 ms.topic: method
 f1_keywords: 
  - "objidl/IRpcStubBuffer.DebugServerRelease"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

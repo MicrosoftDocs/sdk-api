@@ -12,6 +12,8 @@ ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHead
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl.InsertColumn"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_HEALTH, VDS_HEALTH enumeration [VDS], VDS_H_DEGRADED, VDS_H_FAI
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_HEALTH
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

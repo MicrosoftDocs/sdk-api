@@ -12,6 +12,8 @@ ms.keywords: ClipboardPaste, ClipboardPaste method [Tablet PC], ClipboardPaste m
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkDisp.ClipboardPaste"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

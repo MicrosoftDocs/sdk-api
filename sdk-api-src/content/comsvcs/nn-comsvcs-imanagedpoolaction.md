@@ -12,6 +12,8 @@ ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPo
 ms.topic: interface
 f1_keywords: 
  - "comsvcs/IManagedPoolAction"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

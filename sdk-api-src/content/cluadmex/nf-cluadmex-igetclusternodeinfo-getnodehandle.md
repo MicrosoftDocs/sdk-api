@@ -12,6 +12,8 @@ ms.keywords: GetNodeHandle, GetNodeHandle method [Failover Cluster], GetNodeHand
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IGetClusterNodeInfo.GetNodeHandle"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

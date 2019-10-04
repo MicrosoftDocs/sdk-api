@@ -12,6 +12,8 @@ ms.keywords: IFaxPort interface [Fax Service],Rings property, IFaxPort.Rings, IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.Rings"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

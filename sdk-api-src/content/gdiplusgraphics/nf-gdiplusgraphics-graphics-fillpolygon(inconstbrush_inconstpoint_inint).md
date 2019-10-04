@@ -12,6 +12,8 @@ ms.keywords: FillPolygon, FillPolygon method [GDI+], FillPolygon method [GDI+],G
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.FillPolygon"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shel
 ms.topic: macro
 f1_keywords:
 - propkeydef/DEFINE_PROPERTYKEY
+dev_langs:
+ - c++
 req.header: propkeydef.h
 req.include-header: 
 req.target-type: Windows

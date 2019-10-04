@@ -12,6 +12,8 @@ ms.keywords: ALLOWEDIN8021X, ALLOWEDINCONDITION, ALLOWEDINPROFILE, ALLOWEDINPROX
 ms.topic: enum
 f1_keywords:
 - sdoias/ATTRIBUTERESTRICTIONS
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

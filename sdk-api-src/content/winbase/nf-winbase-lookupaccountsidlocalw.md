@@ -12,6 +12,8 @@ ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], L
 ms.topic: function
 f1_keywords:
 - winbase/LookupAccountSidLocal
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IActionCollection interface [Task Scheduler],Item property, IAction
 ms.topic: method
 f1_keywords: 
  - "taskschd/IActionCollection.Item"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

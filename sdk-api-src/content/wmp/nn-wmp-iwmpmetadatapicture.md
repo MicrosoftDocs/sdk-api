@@ -12,6 +12,8 @@ ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media P
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPMetadataPicture"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

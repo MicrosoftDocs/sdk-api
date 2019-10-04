@@ -12,6 +12,8 @@ ms.keywords: D3D_ROOT_SIGNATURE_VERSION, D3D_ROOT_SIGNATURE_VERSION enumeration,
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D_ROOT_SIGNATURE_VERSION"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetXML, GetXML method [Text Services Framework], GetXML method [Tex
 ms.topic: method
 f1_keywords: 
  - "inputscope/ITfInputScope.GetXML"
+dev_langs:
+ - c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNa
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IEnumNames.Reset"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

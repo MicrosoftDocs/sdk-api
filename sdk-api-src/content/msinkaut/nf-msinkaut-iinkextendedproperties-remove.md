@@ -12,6 +12,8 @@ ms.keywords: 2211a462-df26-4168-b89c-9607683defdb, IInkExtendedProperties interf
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkExtendedProperties.Remove"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

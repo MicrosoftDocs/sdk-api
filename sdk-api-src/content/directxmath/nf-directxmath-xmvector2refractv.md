@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector2RefractV, XMVector2RefractV, XMVector2Refract
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector2RefractV"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

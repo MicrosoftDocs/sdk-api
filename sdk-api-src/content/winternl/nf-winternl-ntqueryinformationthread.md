@@ -12,6 +12,8 @@ ms.keywords: NtQueryInformationThread, NtQueryInformationThread function, base.n
 ms.topic: function
 f1_keywords: 
  - "winternl/NtQueryInformationThread"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

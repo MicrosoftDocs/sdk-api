@@ -12,6 +12,8 @@ ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTi
 ms.topic: method
 f1_keywords: 
  - "wbemtime/WBEMTimeSpan.GetTime"
+dev_langs:
+ - c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

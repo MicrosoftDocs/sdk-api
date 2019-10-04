@@ -12,6 +12,8 @@ ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetSignalLevel"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

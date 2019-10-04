@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_linegetagentcaps, lineGetAgentCaps, lineGetAgentCaps functi
 ms.topic: function
 f1_keywords: 
  - "tapi/lineGetAgentCaps"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

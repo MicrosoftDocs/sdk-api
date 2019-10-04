@@ -12,6 +12,8 @@ ms.keywords: IMSVidVideoRendererEvent interface [Microsoft TV Technologies],Over
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidVideoRendererEvent.OverlayUnavailable"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

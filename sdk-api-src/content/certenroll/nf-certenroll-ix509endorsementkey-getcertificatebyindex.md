@@ -12,6 +12,8 @@ ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], Get
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EndorsementKey.GetCertificateByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

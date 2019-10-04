@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrConflictFolder, ISyncMgrConflictFolder interface [Windows S
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrConflictFolder"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

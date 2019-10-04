@@ -12,6 +12,8 @@ ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNo
 ms.topic: interface
 f1_keywords: 
  - "oleidl/IDropSourceNotify"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

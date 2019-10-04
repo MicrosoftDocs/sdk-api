@@ -12,6 +12,8 @@ ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Contro
 ms.topic: function
 f1_keywords: 
  - "uxtheme/EndBufferedAnimation"
+dev_langs:
+ - c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

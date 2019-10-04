@@ -12,6 +12,8 @@ ms.keywords: IAzApplication2 interface [Security],InitializeClientContext2 metho
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzApplication2.InitializeClientContext2"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

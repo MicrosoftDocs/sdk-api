@@ -12,6 +12,8 @@ ms.keywords: PPropertyChainSource, PPropertyChainSource structure pointer, Prope
 ms.topic: struct
 f1_keywords: 
  - "xamlom/PropertyChainSource"
+dev_langs:
+ - c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

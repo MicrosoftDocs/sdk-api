@@ -12,6 +12,8 @@ ms.keywords: "*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_A
 ms.topic: struct
 f1_keywords: 
  - "http/HTTP_TRANSPORT_ADDRESS"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

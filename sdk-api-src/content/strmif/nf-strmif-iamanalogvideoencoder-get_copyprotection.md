@@ -12,6 +12,8 @@ ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_CopyProtection met
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMAnalogVideoEncoder.get_CopyProtection"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

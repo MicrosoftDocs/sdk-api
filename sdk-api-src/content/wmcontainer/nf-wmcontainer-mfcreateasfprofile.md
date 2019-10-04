@@ -12,6 +12,8 @@ ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation],
 ms.topic: function
 f1_keywords: 
  - "wmcontainer/MFCreateASFProfile"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

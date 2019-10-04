@@ -12,6 +12,8 @@ ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_Gdi
 ms.topic: function
 f1_keywords: 
  - "gdiplusinit/GdiplusShutdown"
+dev_langs:
+ - c++
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

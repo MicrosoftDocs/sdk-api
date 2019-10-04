@@ -12,6 +12,8 @@ ms.keywords: DdGetDxHandle, DdGetDxHandle function [Windows API], GdiEntry14, _d
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdGetDxHandle"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

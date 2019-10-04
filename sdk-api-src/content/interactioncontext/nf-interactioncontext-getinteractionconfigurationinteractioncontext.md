@@ -12,6 +12,8 @@ ms.keywords: GetInteractionConfigurationInteractionContext, GetInteractionConfig
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/GetInteractionConfigurationInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

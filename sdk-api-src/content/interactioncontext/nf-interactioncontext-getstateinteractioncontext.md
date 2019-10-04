@@ -12,6 +12,8 @@ ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, in
 ms.topic: function
 f1_keywords: 
  - "interactioncontext/GetStateInteractionContext"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

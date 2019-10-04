@@ -12,6 +12,8 @@ ms.keywords: STORAGE_DEPENDENCY_INFO_VERSION, STORAGE_DEPENDENCY_INFO_VERSION en
 ms.topic: enum
 f1_keywords: 
  - "virtdisk/STORAGE_DEPENDENCY_INFO_VERSION"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

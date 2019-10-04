@@ -12,6 +12,8 @@ ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager i
 ms.topic: interface
 f1_keywords: 
  - "ocidl/IOleUndoManager"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IHeaderCtrl2 interface [MMC],SetChangeTimeOut method, IHeaderCtrl2.
 ms.topic: method
 f1_keywords: 
  - "mmc/IHeaderCtrl2.SetChangeTimeOut"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: BoundingFrustum, BoundingFrustum structure [DirectX Math Support AP
 ms.topic: struct
 f1_keywords: 
  - "directxcollision/BoundingFrustum"
+dev_langs:
+ - c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

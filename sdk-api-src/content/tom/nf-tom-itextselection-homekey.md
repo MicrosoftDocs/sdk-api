@@ -12,6 +12,8 @@ ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows
 ms.topic: method
 f1_keywords: 
  - "tom/ITextSelection.HomeKey"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordDownloadLevel, GetRecordDownloadLevel method [Microsoft TV
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IISDB_SDTT.GetRecordDownloadLevel"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

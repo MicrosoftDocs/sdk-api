@@ -12,6 +12,8 @@ ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technolo
 ms.topic: interface
 f1_keywords: 
  - "tuner/IScanningTunerEx"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

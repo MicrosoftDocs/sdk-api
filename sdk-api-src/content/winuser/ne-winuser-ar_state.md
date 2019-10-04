@@ -12,6 +12,8 @@ ms.keywords: "*PAR_STATE, AR_DISABLED, AR_DOCKED, AR_ENABLED, AR_LAPTOP, AR_MULT
 ms.topic: enum
 f1_keywords: 
  - "winuser/AR_STATE"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

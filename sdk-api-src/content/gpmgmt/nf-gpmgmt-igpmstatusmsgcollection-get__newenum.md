@@ -12,6 +12,8 @@ ms.keywords: IGPMStatusMsgCollection interface [GPMC],get__NewEnum method, IGPMS
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStatusMsgCollection.get__NewEnum"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

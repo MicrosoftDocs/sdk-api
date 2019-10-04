@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],IStaticPor
 ms.topic: method
 f1_keywords: 
  - "natupnp/IStaticPortMapping.Enable"
+dev_langs:
+ - c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

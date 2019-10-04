@@ -12,6 +12,8 @@ ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo
 ms.topic: method
 f1_keywords: 
  - "oaidl/ISupportErrorInfo.InterfaceSupportsErrorInfo"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

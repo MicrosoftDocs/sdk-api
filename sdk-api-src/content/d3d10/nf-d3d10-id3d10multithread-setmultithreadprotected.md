@@ -12,6 +12,8 @@ ms.keywords: 22302703-e7e4-5872-896b-8c2360171b16, ID3D10Multithread interface [
 ms.topic: method
 f1_keywords: 
  - "d3d10/ID3D10Multithread.SetMultithreadProtected"
+dev_langs:
+ - c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

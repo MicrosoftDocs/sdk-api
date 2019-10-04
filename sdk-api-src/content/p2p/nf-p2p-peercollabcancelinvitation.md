@@ -12,6 +12,8 @@ ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Pe
 ms.topic: function
 f1_keywords: 
  - "p2p/PeerCollabCancelInvitation"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

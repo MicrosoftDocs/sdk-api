@@ -12,6 +12,8 @@ ms.keywords: TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, proces
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/TlsAlloc"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

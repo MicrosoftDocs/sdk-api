@@ -12,6 +12,8 @@ ms.keywords: APPCLASS_MONITOR, APPCLASS_STANDARD, APPCMD_CLIENTONLY, APPCMD_FILT
 ms.topic: function
 f1_keywords: 
  - "ddeml/DdeInitialize"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

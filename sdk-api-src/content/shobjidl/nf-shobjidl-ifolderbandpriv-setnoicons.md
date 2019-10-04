@@ -12,6 +12,8 @@ ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolde
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IFolderBandPriv.SetNoIcons"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

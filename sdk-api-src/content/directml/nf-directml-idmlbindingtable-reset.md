@@ -12,6 +12,8 @@ ms.keywords: IDMLBindingTable interface,Reset method, IDMLBindingTable.Reset, ID
 ms.topic: method
 f1_keywords: 
  - "directml/IDMLBindingTable.Reset"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

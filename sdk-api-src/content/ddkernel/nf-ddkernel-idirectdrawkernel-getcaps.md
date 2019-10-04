@@ -12,6 +12,8 @@ ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display 
 ms.topic: method
 f1_keywords:
 - ddkernel/IDirectDrawKernel.GetCaps
+dev_langs:
+ - c++
 req.header: ddkernel.h
 req.include-header: Ddraw.h, Ddkernel.h, Winddi.h
 req.target-type: Desktop

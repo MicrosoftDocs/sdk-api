@@ -12,6 +12,8 @@ ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailCc pr
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmActionEmail2.MailCc"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

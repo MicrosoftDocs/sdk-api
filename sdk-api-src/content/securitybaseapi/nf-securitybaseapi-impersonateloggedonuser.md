@@ -12,6 +12,8 @@ ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security
 ms.topic: function
 f1_keywords: 
  - "securitybaseapi/ImpersonateLoggedOnUser"
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

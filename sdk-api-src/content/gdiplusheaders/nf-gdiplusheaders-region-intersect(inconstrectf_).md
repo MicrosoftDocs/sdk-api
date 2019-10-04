@@ -12,6 +12,8 @@ ms.keywords: Intersect, Intersect method [GDI+], Intersect method [GDI+],Region 
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Region.Intersect"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACT
 ms.topic: enum
 f1_keywords: 
  - "winnt/POWER_ACTION"
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

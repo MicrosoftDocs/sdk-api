@@ -12,6 +12,8 @@ ms.keywords: EnumerateProperties, EnumerateProperties method [Remote Desktop Ser
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbFilterPluginStore.EnumerateProperties"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

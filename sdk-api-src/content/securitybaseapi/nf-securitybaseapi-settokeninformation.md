@@ -12,6 +12,8 @@ ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win3
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetTokenInformation
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

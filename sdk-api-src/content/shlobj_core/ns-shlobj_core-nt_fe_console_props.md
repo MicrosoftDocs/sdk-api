@@ -12,6 +12,8 @@ ms.keywords: "*LPNT_FE_CONSOLE_PROPS, LPNT_FE_CONSOLE_PROPS, LPNT_FE_CONSOLE_PRO
 ms.topic: struct
 f1_keywords: 
  - "shlobj_core/NT_FE_CONSOLE_PROPS"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

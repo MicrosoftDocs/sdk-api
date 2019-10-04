@@ -12,6 +12,8 @@ ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _d
 ms.topic: function
 f1_keywords: 
  - "windns/DnsReleaseContextHandle"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

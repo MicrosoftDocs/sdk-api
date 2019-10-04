@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Rect class, Rect cl
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Clone"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

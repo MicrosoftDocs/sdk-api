@@ -12,6 +12,8 @@ ms.keywords: '*PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL str
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_DEFAULT_DACL
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

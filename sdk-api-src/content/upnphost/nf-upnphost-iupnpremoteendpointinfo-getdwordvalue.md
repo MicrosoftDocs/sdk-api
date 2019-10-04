@@ -12,6 +12,8 @@ ms.keywords: AF_INET, AF_INET6, GetDwordValue, GetDwordValue method [UPnP APIs],
 ms.topic: method
 f1_keywords: 
  - "upnphost/IUPnPRemoteEndpointInfo.GetDwordValue"
+dev_langs:
+ - c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

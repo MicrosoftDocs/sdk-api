@@ -12,6 +12,8 @@ ms.keywords: GetRevocationURL, GetRevocationURL method [windows Media Device Man
 ms.topic: method
 f1_keywords: 
  - "mswmdm/IMDSPRevoked.GetRevocationURL"
+dev_langs:
+ - c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

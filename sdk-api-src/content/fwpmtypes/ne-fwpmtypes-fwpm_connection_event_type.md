@@ -12,6 +12,8 @@ ms.keywords: FWPM_CONNECTION_EVENT_ADD, FWPM_CONNECTION_EVENT_DELETE, FWPM_CONNE
 ms.topic: enum
 f1_keywords: 
  - "fwpmtypes/FWPM_CONNECTION_EVENT_TYPE"
+dev_langs:
+ - c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

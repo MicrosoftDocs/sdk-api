@@ -12,6 +12,8 @@ ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callb
 ms.topic: function
 f1_keywords: 
  - "raseapif/RasEapFreeMemory"
+dev_langs:
+ - c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

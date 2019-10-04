@@ -12,6 +12,8 @@ ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzMo
 ms.topic: function
 f1_keywords:
 - authz/AuthzModifySids
+dev_langs:
+ - c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

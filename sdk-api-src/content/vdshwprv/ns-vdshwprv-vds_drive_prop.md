@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_DRIVE_PROP, VDS_DRIVE_PROP, VDS_DRIVE_PROP structure [VDS], 
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_DRIVE_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

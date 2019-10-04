@@ -12,6 +12,8 @@ ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDeskto
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IVirtualDesktopManager.MoveWindowToDesktop"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

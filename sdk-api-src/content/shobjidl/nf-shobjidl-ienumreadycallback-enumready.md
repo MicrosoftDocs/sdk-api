@@ -12,6 +12,8 @@ ms.keywords: EnumReady, EnumReady method [Windows Shell], EnumReady method [Wind
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IEnumReadyCallback.EnumReady"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

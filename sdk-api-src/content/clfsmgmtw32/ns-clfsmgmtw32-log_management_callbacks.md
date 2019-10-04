@@ -12,6 +12,8 @@ ms.keywords: "*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEME
 ms.topic: struct
 f1_keywords: 
  - "clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS"
+dev_langs:
+ - c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

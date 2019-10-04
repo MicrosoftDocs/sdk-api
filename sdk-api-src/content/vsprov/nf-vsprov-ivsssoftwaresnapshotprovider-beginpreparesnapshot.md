@@ -12,6 +12,8 @@ ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method, BeginPrepareSnap
 ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
+dev_langs:
+ - c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

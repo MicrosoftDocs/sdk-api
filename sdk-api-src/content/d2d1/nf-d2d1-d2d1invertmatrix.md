@@ -12,6 +12,8 @@ ms.keywords: D2D1InvertMatrix, D2D1InvertMatrix function [Direct2D], d2d1/D2D1In
 ms.topic: function
 f1_keywords: 
  - "d2d1/D2D1InvertMatrix"
+dev_langs:
+ - c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

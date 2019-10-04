@@ -12,6 +12,8 @@ ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpec
 ms.topic: function
 f1_keywords: 
  - "oledlg/OleUIPasteSpecial"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],IGPMStarterGPO i
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPMStarterGPO.CopyTo"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

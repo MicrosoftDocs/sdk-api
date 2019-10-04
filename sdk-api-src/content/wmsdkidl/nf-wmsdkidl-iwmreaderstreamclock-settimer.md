@@ -12,6 +12,8 @@ ms.keywords: IWMReaderStreamClock interface [windows Media Format],SetTimer meth
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMReaderStreamClock.SetTimer"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 13086d85-3dbf-4e9f-b065-d95e16412832, IEVRFilterConfig, IEVRFilterC
 ms.topic: interface
 f1_keywords: 
  - "evr/IEVRFilterConfig"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT
 ms.topic: function
 f1_keywords: 
  - "npapi/NPFormatNetworkName"
+dev_langs:
+ - c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

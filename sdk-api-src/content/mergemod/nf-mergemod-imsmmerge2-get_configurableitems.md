@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge2 interface,get_ConfigurableItems method, IMsmMerge2.get_C
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge2.get_ConfigurableItems"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

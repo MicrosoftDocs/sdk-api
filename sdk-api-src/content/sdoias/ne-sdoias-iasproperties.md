@@ -12,6 +12,8 @@ ms.keywords: IASPROPERTIES, IASPROPERTIES enumeration [Network Policy Server], P
 ms.topic: enum
 f1_keywords:
 - sdoias/IASPROPERTIES
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

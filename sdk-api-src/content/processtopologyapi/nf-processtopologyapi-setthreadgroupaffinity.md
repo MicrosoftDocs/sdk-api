@@ -12,6 +12,8 @@ ms.keywords: SetThreadGroupAffinity, SetThreadGroupAffinity function, base.setth
 ms.topic: function
 f1_keywords:
 - processtopologyapi/SetThreadGroupAffinity
+dev_langs:
+ - c++
 req.header: processtopologyapi.h
 req.include-header: 
 req.target-type: Windows

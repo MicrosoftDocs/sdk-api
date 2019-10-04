@@ -12,6 +12,8 @@ ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAud
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDeviceEnumerator.EnumAudioEndpoints"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

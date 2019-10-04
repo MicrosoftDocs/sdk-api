@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF3 interface,QueryVolumeGuidPathnames method, IVdsVolume
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF3.QueryVolumeGuidPathnames"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

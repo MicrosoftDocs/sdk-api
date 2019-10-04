@@ -12,6 +12,8 @@ ms.keywords: ISignerCertificates interface [Security],Remove method, ISignerCert
 ms.topic: method
 f1_keywords: 
  - "certenroll/ISignerCertificates.Remove"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO
 ms.topic: struct
 f1_keywords: 
  - "ocidl/LICINFO"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

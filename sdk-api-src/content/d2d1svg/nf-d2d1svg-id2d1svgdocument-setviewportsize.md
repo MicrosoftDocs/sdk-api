@@ -12,6 +12,8 @@ ms.keywords: ID2D1SvgDocument interface [Direct2D],SetViewportSize method, ID2D1
 ms.topic: method
 f1_keywords: 
  - "d2d1svg/ID2D1SvgDocument.SetViewportSize"
+dev_langs:
+ - c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

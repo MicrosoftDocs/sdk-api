@@ -12,6 +12,8 @@ ms.keywords: CreateDialogParam, CreateDialogParam function [Dialog Boxes], Creat
 ms.topic: function
 f1_keywords: 
  - "winuser/CreateDialogParam"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

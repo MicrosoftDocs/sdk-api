@@ -12,6 +12,8 @@ ms.keywords: 5f4e0586-ee65-dc10-114c-2c07af8387a7, ID3D10EffectSamplerVariable, 
 ms.topic: interface
 f1_keywords: 
  - "d3d10effect/ID3D10EffectSamplerVariable"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

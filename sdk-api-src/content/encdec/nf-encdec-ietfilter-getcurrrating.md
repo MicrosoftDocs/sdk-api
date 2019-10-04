@@ -12,6 +12,8 @@ ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], Ge
 ms.topic: method
 f1_keywords: 
  - "encdec/IETFilter.GetCurrRating"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

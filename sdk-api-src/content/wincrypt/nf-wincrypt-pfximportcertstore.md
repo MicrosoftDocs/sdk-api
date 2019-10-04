@@ -12,6 +12,8 @@ ms.keywords: CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_US
 ms.topic: function
 f1_keywords: 
  - "wincrypt/PFXImportCertStore"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

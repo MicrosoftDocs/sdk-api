@@ -12,6 +12,8 @@ ms.keywords: IWMWriterAdvanced interface [windows Media Format],IsRealTime metho
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMWriterAdvanced.IsRealTime"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

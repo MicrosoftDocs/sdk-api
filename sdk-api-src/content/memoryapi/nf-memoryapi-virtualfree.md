@@ -12,6 +12,8 @@ ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, 
 ms.topic: function
 f1_keywords: 
  - "memoryapi/VirtualFree"
+dev_langs:
+ - c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

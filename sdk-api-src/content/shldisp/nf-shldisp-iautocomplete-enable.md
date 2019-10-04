@@ -12,6 +12,8 @@ ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell
 ms.topic: method
 f1_keywords: 
  - "shldisp/IAutoComplete.Enable"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

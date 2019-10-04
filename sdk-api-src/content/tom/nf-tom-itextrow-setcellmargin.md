@@ -12,6 +12,8 @@ ms.keywords: ITextRow interface [Windows Controls],SetCellMargin method, ITextRo
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.SetCellMargin"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

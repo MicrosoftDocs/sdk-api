@@ -12,6 +12,8 @@ ms.keywords: ISettingsEngine interface [SMI],RegisterNamespace method, ISettings
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/ISettingsEngine.RegisterNamespace"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

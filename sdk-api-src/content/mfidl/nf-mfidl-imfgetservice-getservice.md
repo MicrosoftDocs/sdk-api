@@ -12,6 +12,8 @@ ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService, GetService method
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFGetService.GetService"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

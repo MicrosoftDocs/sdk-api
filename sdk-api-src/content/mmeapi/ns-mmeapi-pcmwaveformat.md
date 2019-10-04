@@ -12,6 +12,8 @@ ms.keywords: "*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT
 ms.topic: struct
 f1_keywords: 
  - "mmeapi/PCMWAVEFORMAT"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Mmreg.h, Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [D
 ms.topic: interface
 f1_keywords: 
  - "vpnotify/IVPNotify"
+dev_langs:
+ - c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

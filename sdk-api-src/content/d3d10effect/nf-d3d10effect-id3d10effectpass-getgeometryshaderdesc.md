@@ -12,6 +12,8 @@ ms.keywords: 1f200fc8-f573-7b6c-75f4-5b7cf7a95eb1, GetGeometryShaderDesc, GetGeo
 ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectPass.GetGeometryShaderDesc
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

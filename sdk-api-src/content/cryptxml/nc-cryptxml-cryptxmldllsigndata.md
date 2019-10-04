@@ -12,6 +12,8 @@ ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignD
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllSignData
+dev_langs:
+ - c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

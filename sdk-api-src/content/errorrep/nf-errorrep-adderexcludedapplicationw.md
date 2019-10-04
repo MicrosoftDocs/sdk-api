@@ -12,6 +12,8 @@ ms.keywords: AddERExcludedApplication, AddERExcludedApplication function [Window
 ms.topic: function
 f1_keywords: 
  - "errorrep/AddERExcludedApplication"
+dev_langs:
+ - c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows

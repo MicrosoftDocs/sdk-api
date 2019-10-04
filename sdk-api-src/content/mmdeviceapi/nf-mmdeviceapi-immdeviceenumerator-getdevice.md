@@ -12,6 +12,8 @@ ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Au
 ms.topic: method
 f1_keywords: 
  - "mmdeviceapi/IMMDeviceEnumerator.GetDevice"
+dev_langs:
+ - c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

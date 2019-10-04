@@ -12,6 +12,8 @@ ms.keywords: SetThreadpoolTimerEx, SetThreadpoolTimerEx function, base.setthread
 ms.topic: function
 f1_keywords: 
  - "threadpoolapiset/SetThreadpoolTimerEx"
+dev_langs:
+ - c++
 req.header: threadpoolapiset.h
 req.include-header: 
 req.target-type: Windows

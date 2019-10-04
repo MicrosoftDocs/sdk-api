@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],FromHICON method, Bitmap.FromHICON, Bitmap::Fro
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.FromHICON"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

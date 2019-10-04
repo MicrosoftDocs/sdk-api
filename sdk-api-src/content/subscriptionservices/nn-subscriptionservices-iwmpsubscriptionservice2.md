@@ -12,6 +12,8 @@ ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "subscriptionservices/IWMPSubscriptionService2"
+dev_langs:
+ - c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

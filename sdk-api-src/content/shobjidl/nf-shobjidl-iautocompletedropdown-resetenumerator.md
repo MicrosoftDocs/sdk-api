@@ -12,6 +12,8 @@ ms.keywords: IAutoCompleteDropDown interface [Windows Shell],ResetEnumerator met
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IAutoCompleteDropDown.ResetEnumerator"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

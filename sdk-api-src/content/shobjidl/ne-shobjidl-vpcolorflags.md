@@ -12,6 +12,8 @@ ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEX
 ms.topic: enum
 f1_keywords: 
  - "shobjidl/VPCOLORFLAGS"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

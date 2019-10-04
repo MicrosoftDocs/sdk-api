@@ -12,6 +12,8 @@ ms.keywords: SCRIPT_JUSTIFY, SCRIPT_JUSTIFY enumeration [Internationalization fo
 ms.topic: enum
 f1_keywords: 
  - "usp10/SCRIPT_JUSTIFY"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swde
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDeviceInterfaceSetState"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

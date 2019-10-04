@@ -12,6 +12,8 @@ ms.keywords: D3D11_TILE_SHAPE, D3D11_TILE_SHAPE structure [Direct3D 11], d3d11_2
 ms.topic: struct
 f1_keywords: 
  - "d3d11_2/D3D11_TILE_SHAPE"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

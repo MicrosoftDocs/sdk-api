@@ -12,6 +12,8 @@ ms.keywords: IUserNotification2 interface [Windows Shell],Show method, IUserNoti
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IUserNotification2.Show"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

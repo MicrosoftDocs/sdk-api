@@ -12,6 +12,8 @@ ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalVa
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationInterpolator.GetFinalValue"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

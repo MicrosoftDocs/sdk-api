@@ -12,6 +12,8 @@ ms.keywords: FlushCachedDomains, FlushCachedDomains method [Active Directory], F
 ms.topic: method
 f1_keywords: 
  - "dsclient/IDsBrowseDomainTree.FlushCachedDomains"
+dev_langs:
+ - c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

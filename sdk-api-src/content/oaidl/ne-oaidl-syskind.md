@@ -12,6 +12,8 @@ ms.keywords: SYSKIND, SYSKIND enumeration [Automation], SYS_MAC, SYS_WIN16, SYS_
 ms.topic: enum
 f1_keywords: 
  - "oaidl/SYSKIND"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

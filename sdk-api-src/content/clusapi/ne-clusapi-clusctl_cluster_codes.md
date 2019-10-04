@@ -12,6 +12,8 @@ ms.keywords: CLUSCTL_CLUSTER_BATCH_BLOCK_KEY, CLUSCTL_CLUSTER_BATCH_UNBLOCK_KEY,
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSCTL_CLUSTER_CODES"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

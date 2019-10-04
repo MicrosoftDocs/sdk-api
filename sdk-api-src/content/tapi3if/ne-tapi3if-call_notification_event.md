@@ -12,6 +12,8 @@ ms.keywords: CALL_NOTIFICATION_EVENT, CALL_NOTIFICATION_EVENT enumeration [TAPI 
 ms.topic: enum
 f1_keywords: 
  - "tapi3if/CALL_NOTIFICATION_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

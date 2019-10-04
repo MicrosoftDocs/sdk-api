@@ -12,6 +12,8 @@ ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidC
 ms.topic: interface
 f1_keywords: 
  - "msvidctl/IMSVidCtl"
+dev_langs:
+ - c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PFILEPATHS_W, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS st
 ms.topic: struct
 f1_keywords: 
  - "setupapi/FILEPATHS"
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

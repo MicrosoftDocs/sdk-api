@@ -8,6 +8,10 @@ ms.assetid: b19f3999-9427-49bd-aa5c-38d7d79fae72
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS, D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS, 
 req.header: d3d12video.h
 req.include-header:

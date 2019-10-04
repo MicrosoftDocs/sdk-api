@@ -12,6 +12,8 @@ ms.keywords: DeleteCredentials, DeleteCredentials method [windows Media Format],
 ms.topic: method
 f1_keywords: 
  - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.DeleteCredentials"
+dev_langs:
+ - c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

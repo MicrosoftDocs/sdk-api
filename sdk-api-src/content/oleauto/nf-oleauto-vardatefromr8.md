@@ -12,6 +12,8 @@ ms.keywords: VarDateFromR8, VarDateFromR8 function [Automation], _oa96_VarDateFr
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarDateFromR8"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

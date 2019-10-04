@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME
 ms.topic: method
 f1_keywords: 
  - "azroles/AzAuthorizationStore.DeletePropertyItem"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

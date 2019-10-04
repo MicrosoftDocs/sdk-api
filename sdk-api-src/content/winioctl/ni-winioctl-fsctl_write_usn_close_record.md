@@ -12,6 +12,8 @@ ms.keywords: FSCTL_WRITE_USN_CLOSE_RECORD, FSCTL_WRITE_USN_CLOSE_RECORD control,
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_WRITE_USN_CLOSE_RECORD
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

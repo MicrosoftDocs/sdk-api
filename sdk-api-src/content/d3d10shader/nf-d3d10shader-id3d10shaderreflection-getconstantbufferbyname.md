@@ -12,6 +12,8 @@ ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 1
 ms.topic: method
 f1_keywords: 
  - "d3d10shader/ID3D10ShaderReflection.GetConstantBufferByName"
+dev_langs:
+ - c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Fai
 ms.topic: struct
 f1_keywords: 
  - "clusapi/CLUSPROP_BINARY"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

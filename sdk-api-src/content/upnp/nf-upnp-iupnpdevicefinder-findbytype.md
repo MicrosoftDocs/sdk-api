@@ -12,6 +12,8 @@ ms.keywords: FindByType, FindByType method [UPnP APIs], FindByType method [UPnP 
 ms.topic: method
 f1_keywords: 
  - "upnp/IUPnPDeviceFinder.FindByType"
+dev_langs:
+ - c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

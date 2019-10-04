@@ -12,6 +12,8 @@ ms.keywords: GUID_NULL, IMFSourceReader interface [Media Foundation],SetCurrentP
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSourceReader.SetCurrentPosition"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

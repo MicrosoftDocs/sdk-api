@@ -12,6 +12,8 @@ ms.keywords: IWMPStringCollection interface [Windows Media Player],item method, 
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPStringCollection.item"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

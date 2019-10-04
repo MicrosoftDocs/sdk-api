@@ -12,6 +12,8 @@ ms.keywords: GetItems, GetItems method [Text Services Framework], GetItems metho
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItemMgr.GetItems"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

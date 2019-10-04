@@ -12,6 +12,8 @@ ms.keywords: ALLOCATOR_PROPERTIES, ALLOCATOR_PROPERTIES structure [DirectShow], 
 ms.topic: struct
 f1_keywords: 
  - "strmif/ALLOCATOR_PROPERTIES"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

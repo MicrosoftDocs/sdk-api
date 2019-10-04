@@ -12,6 +12,8 @@ ms.keywords: WriteGlobalPwrPolicy, WriteGlobalPwrPolicy function, _win32_writegl
 ms.topic: function
 f1_keywords:
 - powrprof/WriteGlobalPwrPolicy
+dev_langs:
+ - c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

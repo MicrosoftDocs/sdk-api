@@ -12,6 +12,8 @@ ms.keywords: KspDeleteContextFn, KspDeleteContextFn callback, SpDeleteContext, S
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpDeleteContext
+dev_langs:
+ - c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

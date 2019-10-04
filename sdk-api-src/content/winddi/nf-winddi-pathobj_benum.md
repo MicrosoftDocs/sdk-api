@@ -12,6 +12,8 @@ ms.keywords: PATHOBJ_bEnum, PATHOBJ_bEnum function [Display Devices], display.pa
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bEnum
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

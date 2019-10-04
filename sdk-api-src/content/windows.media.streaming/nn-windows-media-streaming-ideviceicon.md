@@ -12,6 +12,8 @@ ms.keywords: IDeviceIcon, IDeviceIcon interface [Media Streaming API], IDeviceIc
 ms.topic: interface
 f1_keywords: 
  - "windows.media.streaming/IDeviceIcon"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

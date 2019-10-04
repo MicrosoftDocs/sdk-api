@@ -12,6 +12,8 @@ ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Service
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCreated"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

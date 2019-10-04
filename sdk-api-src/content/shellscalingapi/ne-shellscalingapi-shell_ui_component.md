@@ -12,6 +12,8 @@ ms.keywords: SHELL_UI_COMPONENT, SHELL_UI_COMPONENT enumeration [Windows Shell],
 ms.topic: enum
 f1_keywords: 
  - "shellscalingapi/SHELL_UI_COMPONENT"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

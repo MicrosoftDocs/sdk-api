@@ -12,6 +12,8 @@ ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom p
 ms.topic: method
 f1_keywords: 
  - "manipulations/IInertiaProcessor.ElasticMarginBottom"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

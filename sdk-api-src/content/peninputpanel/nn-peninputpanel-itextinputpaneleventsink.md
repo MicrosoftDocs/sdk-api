@@ -12,6 +12,8 @@ ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Table
 ms.topic: interface
 f1_keywords: 
  - "peninputpanel/ITextInputPanelEventSink"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

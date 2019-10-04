@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia],
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioOpen"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

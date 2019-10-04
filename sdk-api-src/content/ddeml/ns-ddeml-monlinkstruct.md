@@ -12,6 +12,8 @@ ms.keywords: "*PMONLINKSTRUCT, MONLINKSTRUCT, MONLINKSTRUCT structure [Data Exch
 ms.topic: struct
 f1_keywords: 
  - "ddeml/MONLINKSTRUCT"
+dev_langs:
+ - c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

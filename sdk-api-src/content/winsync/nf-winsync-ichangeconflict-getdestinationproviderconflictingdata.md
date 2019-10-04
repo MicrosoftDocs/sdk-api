@@ -12,6 +12,8 @@ ms.keywords: GetDestinationProviderConflictingData, GetDestinationProviderConfli
 ms.topic: method
 f1_keywords: 
  - "winsync/IChangeConflict.GetDestinationProviderConflictingData"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextCue.GetRegion"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IOleUILinkContainer interface [COM],UpdateLink method, IOleUILinkCo
 ms.topic: method
 f1_keywords: 
  - "oledlg/IOleUILinkContainer.UpdateLink"
+dev_langs:
+ - c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows

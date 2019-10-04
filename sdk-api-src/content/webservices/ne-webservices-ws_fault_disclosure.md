@@ -12,6 +12,8 @@ ms.keywords: WS_FAULT_DISCLOSURE, WS_FAULT_DISCLOSURE enumeration [Web Services 
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_FAULT_DISCLOSURE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

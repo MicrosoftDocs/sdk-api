@@ -12,6 +12,8 @@ ms.keywords: FOFX_ADDUNDORECORD, FOFX_COPYASDOWNLOAD, FOFX_DONTDISPLAYDESTPATH, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IFileOperation.SetOperationFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

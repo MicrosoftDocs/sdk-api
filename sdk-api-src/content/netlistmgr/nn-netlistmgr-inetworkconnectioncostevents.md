@@ -12,6 +12,8 @@ ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interfac
 ms.topic: interface
 f1_keywords: 
  - "netlistmgr/INetworkConnectionCostEvents"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_
 ms.topic: method
 f1_keywords: 
  - "termmgr/ITPluggableTerminalSuperclassRegistration.put_Name"
+dev_langs:
+ - c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WICPngHistFrequencies, WICPngHistProperties, WICPngHistProperties e
 ms.topic: enum
 f1_keywords: 
  - "wincodec/WICPngHistProperties"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

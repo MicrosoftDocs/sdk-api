@@ -12,6 +12,8 @@ ms.keywords: 00e1188e-58c0-4681-ad04-e53079d478fd, IDT_Drawing, IDT_Line, IDT_Pa
 ms.topic: enum
 f1_keywords: 
  - "msinkaut15/InkDivisionType"
+dev_langs:
+ - c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

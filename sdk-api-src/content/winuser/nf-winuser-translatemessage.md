@@ -12,6 +12,8 @@ ms.keywords: TranslateMessage, TranslateMessage function [Windows and Messages],
 ms.topic: function
 f1_keywords: 
  - "winuser/TranslateMessage"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

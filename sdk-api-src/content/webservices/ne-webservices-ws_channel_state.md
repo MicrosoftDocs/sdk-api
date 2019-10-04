@@ -12,6 +12,8 @@ ms.keywords: WS_CHANNEL_STATE, WS_CHANNEL_STATE enumeration [Web Services for Wi
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_CHANNEL_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

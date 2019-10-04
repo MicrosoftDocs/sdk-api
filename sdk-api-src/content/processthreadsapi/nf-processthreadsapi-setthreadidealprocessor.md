@@ -12,6 +12,8 @@ ms.keywords: SetThreadIdealProcessor, SetThreadIdealProcessor function, _win32_s
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/SetThreadIdealProcessor"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

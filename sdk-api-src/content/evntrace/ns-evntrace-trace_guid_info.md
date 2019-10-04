@@ -12,6 +12,8 @@ ms.keywords: "*PTRACE_GUID_INFO, PTRACE_GUID_INFO, PTRACE_GUID_INFO structure po
 ms.topic: struct
 f1_keywords: 
  - "evntrace/TRACE_GUID_INFO"
+dev_langs:
+ - c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

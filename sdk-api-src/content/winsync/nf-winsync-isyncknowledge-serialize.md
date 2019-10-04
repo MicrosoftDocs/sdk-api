@@ -12,6 +12,8 @@ ms.keywords: ISyncKnowledge interface [Windows Sync],Serialize method, ISyncKnow
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.Serialize"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

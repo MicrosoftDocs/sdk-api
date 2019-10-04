@@ -12,6 +12,8 @@ ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation
 ms.topic: function
 f1_keywords: 
  - "mfidl/MFEnumDeviceSources"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

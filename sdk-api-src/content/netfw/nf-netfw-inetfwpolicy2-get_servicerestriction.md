@@ -12,6 +12,8 @@ ms.keywords: INetFwPolicy2 interface [ICS/ICF],ServiceRestriction property, INet
 ms.topic: method
 f1_keywords: 
  - "netfw/INetFwPolicy2.ServiceRestriction"
+dev_langs:
+ - c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

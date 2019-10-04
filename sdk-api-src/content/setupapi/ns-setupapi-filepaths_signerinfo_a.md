@@ -12,6 +12,8 @@ ms.keywords: '*PFILEPATHS_SIGNERINFO_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SI
 ms.topic: struct
 f1_keywords:
 - setupapi/FILEPATHS_SIGNERINFO
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

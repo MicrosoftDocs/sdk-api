@@ -12,6 +12,8 @@ ms.keywords: "_win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multim
 ms.topic: function
 f1_keywords: 
  - "mmeapi/mixerGetID"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

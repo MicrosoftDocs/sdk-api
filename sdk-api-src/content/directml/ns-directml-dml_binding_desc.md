@@ -12,6 +12,8 @@ ms.keywords: DML_BINDING_DESC, DML_BINDING_DESC structure, direct3d12.dml_bindin
 ms.topic: struct
 f1_keywords: 
  - "directml/DML_BINDING_DESC"
+dev_langs:
+ - c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

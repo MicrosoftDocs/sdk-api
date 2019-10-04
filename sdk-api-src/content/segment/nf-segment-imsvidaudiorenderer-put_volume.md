@@ -12,6 +12,8 @@ ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Volum
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidAudioRenderer.put_Volume"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

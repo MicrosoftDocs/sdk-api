@@ -12,6 +12,8 @@ ms.keywords: IInkStrokeDisp interface [Tablet PC],SelfIntersections property, II
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.SelfIntersections"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

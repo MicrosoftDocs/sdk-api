@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMQuaternionIsInfinite, XMQuaternionIsInfinite, XMQuat
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMQuaternionIsInfinite"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

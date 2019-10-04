@@ -12,6 +12,8 @@ ms.keywords: "*LPCONNECTDLGSTRUCTW, CONNDLG_CONN_POINT, CONNDLG_HIDE_BOX, CONNDL
 ms.topic: struct
 f1_keywords: 
  - "winnetwk/CONNECTDLGSTRUCT"
+dev_langs:
+ - c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

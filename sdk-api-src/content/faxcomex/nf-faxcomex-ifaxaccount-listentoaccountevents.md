@@ -12,6 +12,8 @@ ms.keywords: IFaxAccount interface [Fax Service],ListenToAccountEvents method, I
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxAccount.ListenToAccountEvents"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTE
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIFFDEVICEATTRIBUTES"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows

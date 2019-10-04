@@ -12,6 +12,8 @@ ms.keywords: ISyncMgrSyncResult, ISyncMgrSyncResult interface [Windows Shell], I
 ms.topic: interface
 f1_keywords: 
  - "syncmgr/ISyncMgrSyncResult"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

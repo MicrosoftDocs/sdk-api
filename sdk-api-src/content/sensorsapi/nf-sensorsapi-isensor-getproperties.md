@@ -12,6 +12,8 @@ ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor i
 ms.topic: method
 f1_keywords: 
  - "sensorsapi/ISensor.GetProperties"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

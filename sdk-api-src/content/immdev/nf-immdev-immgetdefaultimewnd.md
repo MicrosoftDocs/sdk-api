@@ -12,6 +12,8 @@ ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationaliza
 ms.topic: function
 f1_keywords: 
  - "immdev/ImmGetDefaultIMEWnd"
+dev_langs:
+ - c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

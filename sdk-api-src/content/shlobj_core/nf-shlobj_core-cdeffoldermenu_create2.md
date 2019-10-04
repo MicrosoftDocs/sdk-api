@@ -12,6 +12,8 @@ ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Sh
 ms.topic: function
 f1_keywords:
 - shlobj_core/CDefFolderMenu_Create2
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

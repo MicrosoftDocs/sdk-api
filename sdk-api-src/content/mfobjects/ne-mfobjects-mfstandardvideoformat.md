@@ -12,6 +12,8 @@ ms.keywords: 559ea2e9-308b-428a-ae24-bf3fdc27e24e, MFStandardVideoFormat, MFStan
 ms.topic: enum
 f1_keywords: 
  - "mfobjects/MFStandardVideoFormat"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

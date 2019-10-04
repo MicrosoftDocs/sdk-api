@@ -12,6 +12,8 @@ ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d
 ms.topic: function
 f1_keywords: 
  - "recapis/GetGuide"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

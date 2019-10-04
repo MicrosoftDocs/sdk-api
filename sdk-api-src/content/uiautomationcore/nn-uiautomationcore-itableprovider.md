@@ -12,6 +12,8 @@ ms.keywords: ITableProvider, ITableProvider interface [Windows Accessibility], I
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ITableProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

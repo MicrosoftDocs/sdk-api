@@ -12,6 +12,8 @@ ms.keywords: GetLogoVersion, GetLogoVersion method [Microsoft TV Technologies], 
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoVersion"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse
 ms.topic: method
 f1_keywords: 
  - "objpath/CObjectPathParser.Parse"
+dev_langs:
+ - c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows

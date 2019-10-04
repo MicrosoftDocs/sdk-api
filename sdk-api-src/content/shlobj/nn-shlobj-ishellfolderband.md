@@ -12,6 +12,8 @@ ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShel
 ms.topic: interface
 f1_keywords: 
  - "shlobj/IShellFolderBand"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

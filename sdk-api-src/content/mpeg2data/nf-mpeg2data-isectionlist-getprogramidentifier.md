@@ -12,6 +12,8 @@ ms.keywords: GetProgramIdentifier, GetProgramIdentifier method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/ISectionList.GetProgramIdentifier"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

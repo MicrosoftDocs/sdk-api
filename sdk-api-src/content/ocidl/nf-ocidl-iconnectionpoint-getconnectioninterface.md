@@ -12,6 +12,8 @@ ms.keywords: GetConnectionInterface, GetConnectionInterface method [COM], GetCon
 ms.topic: method
 f1_keywords: 
  - "ocidl/IConnectionPoint.GetConnectionInterface"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

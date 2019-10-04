@@ -12,6 +12,8 @@ ms.keywords: IsProcessInJob, IsProcessInJob function, _win32_isprocessinjob, bas
 ms.topic: function
 f1_keywords: 
  - "jobapi/IsProcessInJob"
+dev_langs:
+ - c++
 req.header: jobapi.h
 req.include-header: 
 req.target-type: Windows

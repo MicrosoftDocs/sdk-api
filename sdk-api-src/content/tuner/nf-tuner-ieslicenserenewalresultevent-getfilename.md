@@ -12,6 +12,8 @@ ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [D
 ms.topic: method
 f1_keywords: 
  - "tuner/IESLicenseRenewalResultEvent.GetFileName"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

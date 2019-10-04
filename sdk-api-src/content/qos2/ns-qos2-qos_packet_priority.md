@@ -12,6 +12,8 @@ ms.keywords: '*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY 
 ms.topic: struct
 f1_keywords:
 - qos2/QOS_PACKET_PRIORITY
+dev_langs:
+ - c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows

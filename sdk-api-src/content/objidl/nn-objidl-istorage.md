@@ -12,6 +12,8 @@ ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interfa
 ms.topic: interface
 f1_keywords: 
  - "objidl/IStorage"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

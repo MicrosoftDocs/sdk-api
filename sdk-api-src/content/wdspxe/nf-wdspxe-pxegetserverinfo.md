@@ -12,6 +12,8 @@ ms.keywords: PXE_GSI_TRACE_ENABLED, PxeGetServerInfo, PxeGetServerInfo function 
 ms.topic: function
 f1_keywords: 
  - "wdspxe/PxeGetServerInfo"
+dev_langs:
+ - c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

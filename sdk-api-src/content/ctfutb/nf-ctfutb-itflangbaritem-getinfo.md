@@ -12,6 +12,8 @@ ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [
 ms.topic: method
 f1_keywords: 
  - "ctfutb/ITfLangBarItem.GetInfo"
+dev_langs:
+ - c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

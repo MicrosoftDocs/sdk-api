@@ -12,6 +12,8 @@ ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSC
 ms.topic: method
 f1_keywords: 
  - "ddraw/IDirectDraw7.SetCooperativeLevel"
+dev_langs:
+ - c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remo
 ms.topic: function
 f1_keywords: 
  - "inspectable/HSTRING_UserSize"
+dev_langs:
+ - c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

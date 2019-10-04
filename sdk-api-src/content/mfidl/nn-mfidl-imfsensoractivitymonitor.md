@@ -12,6 +12,8 @@ ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFSensorActivityMonitor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

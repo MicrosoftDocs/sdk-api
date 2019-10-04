@@ -12,6 +12,8 @@ ms.keywords: CachedStyleName property [Windows Accessibility], CachedStyleName p
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationStylesPattern.CachedStyleName"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multim
 ms.topic: function
 f1_keywords: 
  - "vfw/DrawDibChangePalette"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI],
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/GetProcessDpiAwareness"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

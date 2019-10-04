@@ -12,6 +12,8 @@ ms.keywords: ISearchQueryHelper interface [search],WriteProperties method, ISear
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.WriteProperties
+dev_langs:
+ - c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

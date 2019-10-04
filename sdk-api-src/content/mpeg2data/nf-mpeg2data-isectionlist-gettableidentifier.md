@@ -12,6 +12,8 @@ ms.keywords: GetTableIdentifier, GetTableIdentifier method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "mpeg2data/ISectionList.GetTableIdentifier"
+dev_langs:
+ - c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

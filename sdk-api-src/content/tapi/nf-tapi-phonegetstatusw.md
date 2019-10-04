@@ -12,6 +12,8 @@ ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TA
 ms.topic: function
 f1_keywords: 
  - "tapi/phoneGetStatus"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

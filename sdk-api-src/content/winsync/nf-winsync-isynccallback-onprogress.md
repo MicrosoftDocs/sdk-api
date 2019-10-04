@@ -12,6 +12,8 @@ ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCall
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncCallback.OnProgress"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

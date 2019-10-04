@@ -12,6 +12,8 @@ ms.keywords: GetBuildVersion, GetBuildVersion method [Windows Accessibility], Ge
 ms.topic: method
 f1_keywords: 
  - "msaatext/IVersionInfo.GetBuildVersion"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IFaxEventLogging interface [Fax Service],Refresh method, IFaxEventL
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxEventLogging.Refresh"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

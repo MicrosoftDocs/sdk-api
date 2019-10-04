@@ -12,6 +12,8 @@ ms.keywords: INetSharingPublicConnectionCollection, INetSharingPublicConnectionC
 ms.topic: interface
 f1_keywords: 
  - "netcon/INetSharingPublicConnectionCollection"
+dev_langs:
+ - c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

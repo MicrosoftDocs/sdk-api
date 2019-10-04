@@ -12,6 +12,8 @@ ms.keywords: EnumFileScreens, EnumFileScreens method [File Server Resource Manag
 ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenManager.EnumFileScreens
+dev_langs:
+ - c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PPLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST, PLEX_READ_DATA_R
 ms.topic: struct
 f1_keywords: 
  - "winioctl/PLEX_READ_DATA_REQUEST"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

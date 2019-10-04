@@ -12,6 +12,8 @@ ms.keywords: DISPATCHERQUEUE_THREAD_TYPE, DISPATCHERQUEUE_THREAD_TYPE enumeratio
 ms.topic: enum
 f1_keywords: 
  - "dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE"
+dev_langs:
+ - c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

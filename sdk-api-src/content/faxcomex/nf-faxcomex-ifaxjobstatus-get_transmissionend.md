@@ -12,6 +12,8 @@ ms.keywords: IFaxJobStatus interface [Fax Service],TransmissionEnd property, IFa
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxJobStatus.TransmissionEnd"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

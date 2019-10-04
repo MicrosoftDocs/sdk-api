@@ -12,6 +12,8 @@ ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service],
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxPort.CanModify"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisr
 ms.topic: struct
 f1_keywords: 
  - "ndhelper/HypothesisResult"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

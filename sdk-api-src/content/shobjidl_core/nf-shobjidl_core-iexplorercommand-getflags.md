@@ -12,6 +12,8 @@ ms.keywords: ECF_AUTOMENUICONS, ECF_DEFAULT, ECF_HASLUASHIELD, ECF_HASSPLITBUTTO
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExplorerCommand.GetFlags"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

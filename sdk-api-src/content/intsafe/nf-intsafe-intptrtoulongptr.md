@@ -12,6 +12,8 @@ ms.keywords: IntPtrToDWordPtr, IntPtrToSIZET, IntPtrToULongPtr, IntPtrToULongPtr
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntPtrToULongPtr"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

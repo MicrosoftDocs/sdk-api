@@ -12,6 +12,8 @@ ms.keywords: '*LPNMREBAR, LPNMREBAR, LPNMREBAR structure pointer [Windows Contro
 ms.topic: struct
 f1_keywords:
 - commctrl/NMREBAR
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

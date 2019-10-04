@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_SCAN_ITEM, DHCP_SCAN_ITEM, DHCP_SCAN_ITEM structure [DHCP]
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SCAN_ITEM
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

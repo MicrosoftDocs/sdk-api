@@ -12,6 +12,8 @@ ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRand
 ms.topic: function
 f1_keywords: 
  - "ntsecapi/RtlGenRandom"
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

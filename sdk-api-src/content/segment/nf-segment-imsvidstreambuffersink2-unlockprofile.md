@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],Unloc
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSink2.UnlockProfile"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

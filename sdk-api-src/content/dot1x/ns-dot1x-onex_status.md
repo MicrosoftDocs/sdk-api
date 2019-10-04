@@ -12,6 +12,8 @@ ms.keywords: '*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PO
 ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_STATUS
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

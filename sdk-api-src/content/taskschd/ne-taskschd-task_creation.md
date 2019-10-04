@@ -12,6 +12,8 @@ ms.keywords: TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_CREATION, TASK_CREATION en
 ms.topic: enum
 f1_keywords: 
  - "taskschd/TASK_CREATION"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

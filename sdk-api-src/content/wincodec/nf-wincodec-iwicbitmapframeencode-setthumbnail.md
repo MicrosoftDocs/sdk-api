@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetThum
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapFrameEncode.SetThumbnail"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packa
 ms.topic: interface
 f1_keywords: 
  - "appxpackaging/IAppxEncryptionFactory"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

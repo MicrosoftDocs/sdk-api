@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Wi
 ms.topic: method
 f1_keywords: 
  - "uiautomationcore/ITextRangeProvider.GetText"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

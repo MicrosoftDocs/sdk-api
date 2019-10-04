@@ -12,6 +12,8 @@ ms.keywords: CreateMetadata, CreateMetadata method, CreateMetadata method,IVssEx
 ms.topic: method
 f1_keywords: 
  - "vswriter/IVssExpressWriter.CreateMetadata"
+dev_langs:
+ - c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

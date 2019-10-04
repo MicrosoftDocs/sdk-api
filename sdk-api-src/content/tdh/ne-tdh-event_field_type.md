@@ -12,6 +12,8 @@ ms.keywords: EVENT_FIELD_TYPE, EVENT_FIELD_TYPE enumeration [ETW], EventChannelI
 ms.topic: enum
 f1_keywords:
 - tdh/EVENT_FIELD_TYPE
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

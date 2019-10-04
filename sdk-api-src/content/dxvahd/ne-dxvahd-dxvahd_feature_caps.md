@@ -12,6 +12,8 @@ ms.keywords: DXVAHD_FEATURE_CAPS, DXVAHD_FEATURE_CAPS enumeration [Media Foundat
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_FEATURE_CAPS
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

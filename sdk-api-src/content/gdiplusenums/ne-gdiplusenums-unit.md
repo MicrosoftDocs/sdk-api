@@ -12,6 +12,8 @@ ms.keywords: Unit, Unit enumeration [GDI+], UnitDisplay, UnitDocument, UnitInch,
 ms.topic: enum
 f1_keywords: 
  - "gdiplusenums/Unit"
+dev_langs:
+ - c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

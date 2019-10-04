@@ -12,6 +12,8 @@ ms.keywords: IItemEnumerator interface [SMI],Reset method, IItemEnumerator.Reset
 ms.topic: method
 f1_keywords: 
  - "wcmconfig/IItemEnumerator.Reset"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

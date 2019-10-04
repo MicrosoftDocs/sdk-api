@@ -12,6 +12,8 @@ ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor 
 ms.topic: method
 f1_keywords: 
  - "gdiplusmatrix/Matrix.Matrix"
+dev_langs:
+ - c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

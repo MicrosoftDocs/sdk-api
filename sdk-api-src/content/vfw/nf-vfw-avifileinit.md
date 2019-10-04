@@ -12,6 +12,8 @@ ms.keywords: AVIFileInit, AVIFileInit function [Windows Multimedia], _win32_AVIF
 ms.topic: function
 f1_keywords: 
  - "vfw/AVIFileInit"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

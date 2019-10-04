@@ -12,6 +12,8 @@ ms.keywords: MFVideoPadFlag_PAD_TO_16x9, MFVideoPadFlag_PAD_TO_4x3, MFVideoPadFl
 ms.topic: enum
 f1_keywords: 
  - "mfapi/MFVideoPadFlags"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

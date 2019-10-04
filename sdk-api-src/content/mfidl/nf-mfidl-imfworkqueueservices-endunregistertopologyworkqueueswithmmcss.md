@@ -12,6 +12,8 @@ ms.keywords: 6b767e34-172c-4845-91f9-0af92a3347ab, EndUnregisterTopologyWorkQueu
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFWorkQueueServices.EndUnregisterTopologyWorkQueuesWithMMCSS"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

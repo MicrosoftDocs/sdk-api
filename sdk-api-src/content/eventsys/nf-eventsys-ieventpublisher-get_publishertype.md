@@ -12,6 +12,8 @@ ms.keywords: IEventPublisher interface [COM],PublisherType property, IEventPubli
 ms.topic: method
 f1_keywords: 
  - "eventsys/IEventPublisher.PublisherType"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

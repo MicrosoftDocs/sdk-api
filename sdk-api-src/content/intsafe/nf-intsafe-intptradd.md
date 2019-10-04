@@ -12,6 +12,8 @@ ms.keywords: IntPtrAdd, IntPtrAdd function [Windows Shell], intsafe/IntPtrAdd, s
 ms.topic: function
 f1_keywords: 
  - "intsafe/IntPtrAdd"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

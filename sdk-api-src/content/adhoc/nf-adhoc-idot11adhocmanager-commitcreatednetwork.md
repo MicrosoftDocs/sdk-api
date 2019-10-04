@@ -12,6 +12,8 @@ ms.keywords: CommitCreatedNetwork, CommitCreatedNetwork method [NativeWIFI], Com
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocManager.CommitCreatedNetwork"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

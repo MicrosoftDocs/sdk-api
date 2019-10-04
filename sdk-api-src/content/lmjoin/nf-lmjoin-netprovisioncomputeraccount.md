@@ -12,6 +12,8 @@ ms.keywords: NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT, NETSETUP_PROVISION_REUSE
 ms.topic: function
 f1_keywords:
 - lmjoin/NetProvisionComputerAccount
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

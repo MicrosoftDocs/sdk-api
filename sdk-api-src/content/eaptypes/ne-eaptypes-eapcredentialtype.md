@@ -12,6 +12,8 @@ ms.keywords: EAP_CERTIFICATE_CREDENTIAL, EAP_EMPTY_CREDENTIAL, EAP_SIM_CREDENTIA
 ms.topic: enum
 f1_keywords:
 - eaptypes/EapCredentialType
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

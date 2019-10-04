@@ -12,6 +12,8 @@ ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windo
 ms.topic: function
 f1_keywords: 
  - "winnls/GetGeoInfoEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: 
 req.target-type: Windows

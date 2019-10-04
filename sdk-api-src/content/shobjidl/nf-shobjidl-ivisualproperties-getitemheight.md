@@ -12,6 +12,8 @@ ms.keywords: GetItemHeight, GetItemHeight method [Windows Shell], GetItemHeight 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IVisualProperties.GetItemHeight"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

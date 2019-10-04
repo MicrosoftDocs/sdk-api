@@ -12,6 +12,8 @@ ms.keywords: 2d20be3d-5ba4-bf91-6270-0a3b1c346d9d, GetRenderState, GetRenderStat
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetRenderState"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

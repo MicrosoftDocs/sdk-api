@@ -12,6 +12,8 @@ ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestR
 ms.topic: function
 f1_keywords: 
  - "recapis/GetBestResultString"
+dev_langs:
+ - c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

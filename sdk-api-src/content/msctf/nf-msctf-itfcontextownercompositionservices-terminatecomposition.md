@@ -12,6 +12,8 @@ ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framewo
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfContextOwnerCompositionServices.TerminateComposition"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnap
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssQuerySnapshot"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: EnumItemsEx, EnumItemsEx method [Offline Files], EnumItemsEx method
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesItemContainer.EnumItemsEx"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

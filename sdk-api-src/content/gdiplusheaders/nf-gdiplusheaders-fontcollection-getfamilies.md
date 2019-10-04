@@ -12,6 +12,8 @@ ms.keywords: FontCollection class [GDI+],GetFamilies method, FontCollection.GetF
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/FontCollection.GetFamilies"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

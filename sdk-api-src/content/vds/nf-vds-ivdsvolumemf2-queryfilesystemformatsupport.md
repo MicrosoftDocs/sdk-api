@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF2 interface,QueryFileSystemFormatSupport method, IVdsVo
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF2.QueryFileSystemFormatSupport
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

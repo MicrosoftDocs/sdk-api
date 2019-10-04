@@ -12,6 +12,8 @@ ms.keywords: GetCellCountCache, GetCellCountCache method [Windows Controls], Get
 ms.topic: method
 f1_keywords: 
  - "tom/ITextRow.GetCellCountCache"
+dev_langs:
+ - c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

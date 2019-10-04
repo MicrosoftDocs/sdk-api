@@ -12,6 +12,8 @@ ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IBrowse
 ms.topic: interface
 f1_keywords: 
  - "shdeprecated/IBrowserService"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 45c533ca-d8ca-43f9-91d2-011a0b0d63a6, IMFPMPHost interface [Media F
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPMPHost.LockProcess"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

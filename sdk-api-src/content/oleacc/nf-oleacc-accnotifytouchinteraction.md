@@ -12,6 +12,8 @@ ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Wind
 ms.topic: function
 f1_keywords: 
  - "oleacc/AccNotifyTouchInteraction"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

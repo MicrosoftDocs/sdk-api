@@ -12,6 +12,8 @@ ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], comm
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Edit_GetEndOfLine"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

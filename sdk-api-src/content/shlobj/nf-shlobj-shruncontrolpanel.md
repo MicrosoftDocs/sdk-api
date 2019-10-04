@@ -12,6 +12,8 @@ ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _she
 ms.topic: function
 f1_keywords: 
  - "shlobj/SHRunControlPanel"
+dev_langs:
+ - c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failo
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IWCPropertySheetCallback"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

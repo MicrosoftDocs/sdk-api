@@ -8,6 +8,10 @@ ms.assetid: 4a097241-184b-4c7f-bf43-bdb0c375f4f4
 ms.author: windowssdkdev
 ms.date: 05/28/2019 
 ms.topic: enum
+f1_keywords:
+ - D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE
+dev_langs:
+ - c++
 ms.keywords: D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE, D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE, 
 req.header: d3d12video.h
 req.include-header:

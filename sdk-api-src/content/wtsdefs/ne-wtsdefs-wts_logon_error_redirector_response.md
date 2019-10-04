@@ -12,6 +12,8 @@ ms.keywords: WRDS_LOGON_ERROR_REDIRECTOR_RESPONSE, WRDS_LOGON_ERROR_REDIRECTOR_R
 ms.topic: enum
 f1_keywords: 
  - "wtsdefs/WTS_LOGON_ERROR_REDIRECTOR_RESPONSE"
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

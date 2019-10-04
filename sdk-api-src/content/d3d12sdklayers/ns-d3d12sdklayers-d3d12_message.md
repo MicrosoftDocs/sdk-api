@@ -12,6 +12,8 @@ ms.keywords: D3D12_MESSAGE, D3D12_MESSAGE structure, d3d12sdklayers/D3D12_MESSAG
 ms.topic: struct
 f1_keywords: 
  - "d3d12sdklayers/D3D12_MESSAGE"
+dev_langs:
+ - c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

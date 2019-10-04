@@ -12,6 +12,8 @@ ms.keywords: D3D12_COMPARISON_FUNC, D3D12_COMPARISON_FUNC enumeration, D3D12_COM
 ms.topic: enum
 f1_keywords: 
  - "d3d12/D3D12_COMPARISON_FUNC"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRol
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzClientContext.GetRoles"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

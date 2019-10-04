@@ -12,6 +12,8 @@ ms.keywords: GetRectangleIntersections, GetRectangleIntersections method [Tablet
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.GetRectangleIntersections"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

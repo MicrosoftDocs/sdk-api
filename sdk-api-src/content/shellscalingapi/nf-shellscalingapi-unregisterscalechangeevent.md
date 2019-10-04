@@ -12,6 +12,8 @@ ms.keywords: UnregisterScaleChangeEvent, UnregisterScaleChangeEvent function [Wi
 ms.topic: function
 f1_keywords: 
  - "shellscalingapi/UnregisterScaleChangeEvent"
+dev_langs:
+ - c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

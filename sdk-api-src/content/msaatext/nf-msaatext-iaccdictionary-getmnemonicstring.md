@@ -12,6 +12,8 @@ ms.keywords: GetMnemonicString, GetMnemonicString method [Windows Accessibility]
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccDictionary.GetMnemonicString"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

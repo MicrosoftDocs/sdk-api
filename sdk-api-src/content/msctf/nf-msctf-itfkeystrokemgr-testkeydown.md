@@ -12,6 +12,8 @@ ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyDown met
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfKeystrokeMgr.TestKeyDown"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

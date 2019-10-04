@@ -12,6 +12,8 @@ ms.keywords: "*LPDDLOCKIN, DDLOCKIN, DDLOCKIN structure [Display Devices], LPDDL
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDLOCKIN"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DhcpCreateSubnetVQ, DhcpCreateSubnetVQ function [DHCP], dhcp.dhcpcr
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateSubnetVQ
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

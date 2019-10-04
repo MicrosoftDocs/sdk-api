@@ -12,6 +12,8 @@ ms.keywords: Intersect, Intersect methods [GDI+], Rect.Intersect, Rect::Intersec
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/Rect.Intersect"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

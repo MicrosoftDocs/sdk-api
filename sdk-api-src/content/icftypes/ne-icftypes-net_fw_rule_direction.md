@@ -12,6 +12,8 @@ ms.keywords: NET_FW_RULE_DIRECTION, NET_FW_RULE_DIRECTION enumeration [ICS/ICF],
 ms.topic: enum
 f1_keywords: 
  - "icftypes/NET_FW_RULE_DIRECTION"
+dev_langs:
+ - c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

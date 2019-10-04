@@ -12,6 +12,8 @@ ms.keywords: 9ab384b9-0ce9-428c-a683-b09dbd4e07d9, IMFTopologyNodeAttributeEdito
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFTopologyNodeAttributeEditor"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

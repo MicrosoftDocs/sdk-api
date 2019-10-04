@@ -12,6 +12,8 @@ ms.keywords: '*PCMC_DATA_INFO, CMC_DATA_INFO, CMC_DATA_INFO structure [Security]
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_DATA_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetTransform
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionEffectGroup.SetTransform3D"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

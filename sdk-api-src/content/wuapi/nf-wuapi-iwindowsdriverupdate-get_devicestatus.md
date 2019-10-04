@@ -12,6 +12,8 @@ ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property
 ms.topic: method
 f1_keywords: 
  - "wuapi/IWindowsDriverUpdate.DeviceStatus"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

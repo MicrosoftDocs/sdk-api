@@ -12,6 +12,8 @@ ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject
 ms.topic: interface
 f1_keywords: 
  - "wabapi/IWABObject"
+dev_langs:
+ - c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumD
 ms.topic: function
 f1_keywords: 
  - "winnls/EnumDateFormatsExEx"
+dev_langs:
+ - c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

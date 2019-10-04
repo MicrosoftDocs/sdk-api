@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_memfree, ldap.ldap__memfree, ldap.ldap_memfree, ldap_me
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_memfree"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 6309c42d-db39-eb28-25e5-ba740c57a969, D3D10StateBlockMaskGetSetting
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10StateBlockMaskGetSetting
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

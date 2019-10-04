@@ -6,6 +6,8 @@ ms.keywords: tagCHOOSECOLORA, CHOOSECOLORA
 ms.topic: language-reference
 f1_keywords: 
  - "commdlg/tagCHOOSECOLORA"
+dev_langs:
+ - c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 

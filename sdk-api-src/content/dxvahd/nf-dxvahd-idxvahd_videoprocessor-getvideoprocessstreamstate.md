@@ -12,6 +12,8 @@ ms.keywords: GetVideoProcessStreamState, GetVideoProcessStreamState method [Medi
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor.GetVideoProcessStreamState
+dev_langs:
+ - c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

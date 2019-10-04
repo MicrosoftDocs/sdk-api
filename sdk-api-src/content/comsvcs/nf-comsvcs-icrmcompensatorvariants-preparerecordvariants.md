@@ -12,6 +12,8 @@ ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants meth
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ICrmCompensatorVariants.PrepareRecordVariants"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

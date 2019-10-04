@@ -12,6 +12,8 @@ ms.keywords: IMFTrackedSample interface [Media Foundation],SetAllocator method, 
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFTrackedSample.SetAllocator"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

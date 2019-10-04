@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4AngleBetweenNormals, XMVector4AngleBetweenNor
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4AngleBetweenNormals"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

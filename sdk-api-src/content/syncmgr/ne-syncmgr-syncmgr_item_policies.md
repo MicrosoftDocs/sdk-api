@@ -12,6 +12,8 @@ ms.keywords: SYNCMGR_IPM_DISABLE_BROWSE, SYNCMGR_IPM_DISABLE_DELETE, SYNCMGR_IPM
 ms.topic: enum
 f1_keywords: 
  - "syncmgr/SYNCMGR_ITEM_POLICIES"
+dev_langs:
+ - c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

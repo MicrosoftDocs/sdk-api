@@ -12,6 +12,8 @@ ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Skip method, IEnumDialableA
 ms.topic: method
 f1_keywords: 
  - "rend/IEnumDialableAddrs.Skip"
+dev_langs:
+ - c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

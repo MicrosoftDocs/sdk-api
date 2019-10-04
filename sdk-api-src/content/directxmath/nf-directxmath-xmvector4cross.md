@@ -12,6 +12,8 @@ ms.keywords: Use DirectX..XMVector4Cross, XMVector4Cross, XMVector4Cross method 
 ms.topic: function
 f1_keywords: 
  - "directxmath/XMVector4Cross"
+dev_langs:
+ - c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

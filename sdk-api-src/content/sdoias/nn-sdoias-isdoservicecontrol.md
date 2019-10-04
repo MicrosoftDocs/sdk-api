@@ -12,6 +12,8 @@ ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Se
 ms.topic: interface
 f1_keywords: 
  - "sdoias/ISdoServiceControl"
+dev_langs:
+ - c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DefaultToMainPrinter property [Remote Desktop Services], DefaultToM
 ms.topic: method
 f1_keywords: 
  - "tsuserex/IADsTSUserEx.DefaultToMainPrinter"
+dev_langs:
+ - c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTi
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDVB_TDT.GetUTCTime"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

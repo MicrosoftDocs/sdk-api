@@ -12,6 +12,8 @@ ms.keywords: PFN_CDF_PARSE_ERROR_CALLBACK, PFN_CDF_PARSE_ERROR_CALLBACK callback
 ms.topic: callback
 f1_keywords: 
  - "mscat/PFN_CDF_PARSE_ERROR_CALLBACK"
+dev_langs:
+ - c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

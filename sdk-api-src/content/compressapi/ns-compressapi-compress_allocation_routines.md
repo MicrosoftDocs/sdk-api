@@ -12,6 +12,8 @@ ms.keywords: "*PCOMPRESS_ALLOCATION_ROUTINES, COMPRESS_ALLOCATION_ROUTINES, COMP
 ms.topic: struct
 f1_keywords: 
  - "compressapi/COMPRESS_ALLOCATION_ROUTINES"
+dev_langs:
+ - c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

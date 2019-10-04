@@ -12,6 +12,8 @@ ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsof
 ms.topic: method
 f1_keywords: 
  - "encdec/IXDSCodec.GetContentAdvisoryRating"
+dev_langs:
+ - c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

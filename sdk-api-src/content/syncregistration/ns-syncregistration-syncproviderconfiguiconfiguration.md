@@ -12,6 +12,8 @@ ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync]
 ms.topic: struct
 f1_keywords: 
  - "syncregistration/SyncProviderConfigUI"
+dev_langs:
+ - c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

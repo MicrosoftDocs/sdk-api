@@ -12,6 +12,8 @@ ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], Cr
 ms.topic: method
 f1_keywords: 
  - "wtsprotocol/IWRdsProtocolManager.CreateListener"
+dev_langs:
+ - c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

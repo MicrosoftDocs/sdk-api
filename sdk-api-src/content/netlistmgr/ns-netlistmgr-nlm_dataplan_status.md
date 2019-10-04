@@ -12,6 +12,8 @@ ms.keywords: NLM_DATAPLAN_STATUS, NLM_DATAPLAN_STATUS structure [Network Awarene
 ms.topic: struct
 f1_keywords: 
  - "netlistmgr/NLM_DATAPLAN_STATUS"
+dev_langs:
+ - c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

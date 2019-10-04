@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager interface [Windows Animation],SetManagerEventHa
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager.SetManagerEventHandler"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

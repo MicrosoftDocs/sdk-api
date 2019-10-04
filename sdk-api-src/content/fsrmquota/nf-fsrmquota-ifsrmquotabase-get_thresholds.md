@@ -12,6 +12,8 @@ ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],Thresholds 
 ms.topic: method
 f1_keywords: 
  - "fsrmquota/IFsrmQuotaBase.Thresholds"
+dev_langs:
+ - c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

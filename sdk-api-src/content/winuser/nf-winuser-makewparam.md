@@ -12,6 +12,8 @@ ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPA
 ms.topic: macro
 f1_keywords: 
  - "winuser/MAKEWPARAM"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

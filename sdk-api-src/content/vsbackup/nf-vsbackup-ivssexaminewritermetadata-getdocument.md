@@ -12,6 +12,8 @@ ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVs
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadata.GetDocument"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

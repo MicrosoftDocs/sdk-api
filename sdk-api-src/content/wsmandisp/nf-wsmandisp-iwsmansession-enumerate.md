@@ -12,6 +12,8 @@ ms.keywords: Enumerate, Enumerate method [Windows Remote Management], Enumerate 
 ms.topic: method
 f1_keywords: 
  - "wsmandisp/IWSManSession.Enumerate"
+dev_langs:
+ - c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

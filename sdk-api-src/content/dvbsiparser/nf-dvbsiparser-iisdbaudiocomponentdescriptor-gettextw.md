@@ -12,6 +12,8 @@ ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW met
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbAudioComponentDescriptor.GetTextW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

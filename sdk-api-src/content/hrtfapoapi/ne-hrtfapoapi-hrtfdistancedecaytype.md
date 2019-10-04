@@ -12,6 +12,8 @@ ms.keywords: CustomDecay, HrtfDistanceDecayType, HrtfDistanceDecayType enumerati
 ms.topic: enum
 f1_keywords: 
  - "hrtfapoapi/HrtfDistanceDecayType"
+dev_langs:
+ - c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

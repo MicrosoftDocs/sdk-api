@@ -12,6 +12,8 @@ ms.keywords: IWorkspaceResTypeRegistry interface [Remote Desktop Services],Modif
 ms.topic: method
 f1_keywords: 
  - "workspaceax/IWorkspaceResTypeRegistry.ModifyResourceType"
+dev_langs:
+ - c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows

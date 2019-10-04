@@ -12,6 +12,8 @@ ms.keywords: IOfflineFilesCache interface [Offline Files],Pin method, IOfflineFi
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesCache.Pin"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

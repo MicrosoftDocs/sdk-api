@@ -12,6 +12,8 @@ ms.keywords: CStdStubBuffer2_QueryInterface, CStdStubBuffer2_QueryInterface func
 ms.topic: function
 f1_keywords: 
  - "rpcproxy/CStdStubBuffer2_QueryInterface"
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

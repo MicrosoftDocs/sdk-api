@@ -12,6 +12,8 @@ ms.keywords: '*LPCMINVOKECOMMANDINFOEX, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOW
 ms.topic: struct
 f1_keywords:
 - shobjidl_core/CMINVOKECOMMANDINFOEX
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

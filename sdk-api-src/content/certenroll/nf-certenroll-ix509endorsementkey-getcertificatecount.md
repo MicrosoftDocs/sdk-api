@@ -12,6 +12,8 @@ ms.keywords: GetCertificateCount, GetCertificateCount method [Security], GetCert
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509EndorsementKey.GetCertificateCount"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

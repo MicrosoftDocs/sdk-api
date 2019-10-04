@@ -12,6 +12,8 @@ ms.keywords: '*PIKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS st
 ms.topic: struct
 f1_keywords:
 - mprapi/IKEV2_CONFIG_PARAMS
+dev_langs:
+ - c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

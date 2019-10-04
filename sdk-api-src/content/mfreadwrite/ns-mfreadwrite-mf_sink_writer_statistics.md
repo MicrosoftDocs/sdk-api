@@ -12,6 +12,8 @@ ms.keywords: MF_SINK_WRITER_STATISTICS, MF_SINK_WRITER_STATISTICS structure [Med
 ms.topic: struct
 f1_keywords: 
  - "mfreadwrite/MF_SINK_WRITER_STATISTICS"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

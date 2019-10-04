@@ -12,6 +12,8 @@ ms.keywords: ClearOutputChannel, ClearOutputChannel method [GDI+], ClearOutputCh
 ms.topic: method
 f1_keywords: 
  - "gdiplusimageattributes/ImageAttributes.ClearOutputChannel"
+dev_langs:
+ - c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

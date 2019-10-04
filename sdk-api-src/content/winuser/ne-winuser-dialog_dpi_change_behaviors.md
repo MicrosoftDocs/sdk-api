@@ -12,6 +12,8 @@ ms.keywords: DDC_DEFAULT, DDC_DISABLE_ALL, DDC_DISABLE_CONTROL_RELAYOUT, DDC_DIS
 ms.topic: enum
 f1_keywords: 
  - "winuser/DIALOG_DPI_CHANGE_BEHAVIORS"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

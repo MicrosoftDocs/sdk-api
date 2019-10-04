@@ -12,6 +12,8 @@ ms.keywords: ICertificatePolicies interface [Security],ItemByIndex property, ICe
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICertificatePolicies.ItemByIndex"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

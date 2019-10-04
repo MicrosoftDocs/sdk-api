@@ -12,6 +12,8 @@ ms.keywords: Add, Add method [COM], Add method [COM],IOleParentUndoUnit interfac
 ms.topic: method
 f1_keywords: 
  - "ocidl/IOleParentUndoUnit.Add"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

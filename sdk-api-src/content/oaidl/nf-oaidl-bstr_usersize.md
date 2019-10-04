@@ -12,6 +12,8 @@ ms.keywords: BSTR_UserSize, BSTR_UserSize function [Automation], _oa96_BSTR_User
 ms.topic: function
 f1_keywords: 
  - "oaidl/BSTR_UserSize"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

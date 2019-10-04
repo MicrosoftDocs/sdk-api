@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETFLIPSTATUSDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

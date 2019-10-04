@@ -12,6 +12,8 @@ ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMa
 ms.topic: method
 f1_keywords: 
  - "dxgi/IDXGIDevice1.GetMaximumFrameLatency"
+dev_langs:
+ - c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CacheOLEServer, CacheOLEServer method [Windows Shell], CacheOLEServ
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IBrowserService.CacheOLEServer"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

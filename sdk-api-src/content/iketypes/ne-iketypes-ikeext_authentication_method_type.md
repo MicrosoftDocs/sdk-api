@@ -12,6 +12,8 @@ ms.keywords: IKEEXT_ANONYMOUS, IKEEXT_AUTHENTICATION_METHOD_TYPE, IKEEXT_AUTHENT
 ms.topic: enum
 f1_keywords: 
  - "iketypes/IKEEXT_AUTHENTICATION_METHOD_TYPE"
+dev_langs:
+ - c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

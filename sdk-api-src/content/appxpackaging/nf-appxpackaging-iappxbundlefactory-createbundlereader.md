@@ -12,6 +12,8 @@ ms.keywords: CreateBundleReader, CreateBundleReader method [App packaging and ma
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxBundleFactory.CreateBundleReader"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

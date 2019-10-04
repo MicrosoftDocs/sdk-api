@@ -12,6 +12,8 @@ ms.keywords: FsrmSetting class [File Server Resource Manager],MailFrom property,
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmSetting.MailFrom"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

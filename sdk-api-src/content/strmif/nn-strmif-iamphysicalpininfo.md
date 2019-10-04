@@ -12,6 +12,8 @@ ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMP
 ms.topic: interface
 f1_keywords: 
  - "strmif/IAMPhysicalPinInfo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

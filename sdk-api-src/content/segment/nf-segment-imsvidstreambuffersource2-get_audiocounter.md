@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSource2.get_AudioCounter"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

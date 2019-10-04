@@ -12,6 +12,8 @@ ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_
 ms.topic: struct
 f1_keywords: 
  - "shtypes/SHITEMID"
+dev_langs:
+ - c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

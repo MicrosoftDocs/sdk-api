@@ -12,6 +12,8 @@ ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComId
 ms.topic: method
 f1_keywords: 
  - "comsvcs/IComIdentityEvents.OnIISRequestInfo"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

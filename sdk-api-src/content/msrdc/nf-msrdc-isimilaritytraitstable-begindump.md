@@ -12,6 +12,8 @@ ms.keywords: BeginDump, BeginDump method [Remote Differential Compression], Begi
 ms.topic: method
 f1_keywords: 
  - "msrdc/ISimilarityTraitsTable.BeginDump"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

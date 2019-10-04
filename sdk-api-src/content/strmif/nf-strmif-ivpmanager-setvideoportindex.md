@@ -12,6 +12,8 @@ ms.keywords: IVPManager interface [DirectShow],SetVideoPortIndex method, IVPMana
 ms.topic: method
 f1_keywords: 
  - "strmif/IVPManager.SetVideoPortIndex"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

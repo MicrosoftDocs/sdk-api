@@ -12,6 +12,8 @@ ms.keywords: '*PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, VDS_SF_SUPPORTS_RAID01_
 ms.topic: enum
 f1_keywords:
 - vds/VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper int
 ms.topic: method
 f1_keywords: 
  - "ndhelper/INetDiagHelper.Cancel"
+dev_langs:
+ - c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

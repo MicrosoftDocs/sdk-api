@@ -12,6 +12,8 @@ ms.keywords: MBN_MSG_STATUS, MBN_MSG_STATUS enumeration [Microsoft Broadband Net
 ms.topic: enum
 f1_keywords: 
  - "mbnapi/MBN_MSG_STATUS"
+dev_langs:
+ - c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

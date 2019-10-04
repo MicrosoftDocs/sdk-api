@@ -12,6 +12,8 @@ ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Secur
 ms.topic: struct
 f1_keywords: 
  - "winwlx/WLX_DESKTOP"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multim
 ms.topic: struct
 f1_keywords: 
  - "vfw/DRAWDIBTIME"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

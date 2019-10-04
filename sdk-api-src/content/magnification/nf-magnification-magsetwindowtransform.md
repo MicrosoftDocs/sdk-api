@@ -12,6 +12,8 @@ ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnificatio
 ms.topic: function
 f1_keywords: 
  - "magnification/MagSetWindowTransform"
+dev_langs:
+ - c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

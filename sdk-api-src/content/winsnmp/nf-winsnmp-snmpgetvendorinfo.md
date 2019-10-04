@@ -12,6 +12,8 @@ ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpget
 ms.topic: function
 f1_keywords: 
  - "winsnmp/SnmpGetVendorInfo"
+dev_langs:
+ - c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

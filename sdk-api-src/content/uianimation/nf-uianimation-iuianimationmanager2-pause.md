@@ -12,6 +12,8 @@ ms.keywords: IUIAnimationManager2 interface [Windows Animation],Pause method, IU
 ms.topic: method
 f1_keywords: 
  - "uianimation/IUIAnimationManager2.Pause"
+dev_langs:
+ - c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WINSAT_BITMAP_SIZE, WINSAT_BITMAP_SIZE enumeration [WinSAT], WINSAT
 ms.topic: enum
 f1_keywords: 
  - "winsatcominterfacei/WINSAT_BITMAP_SIZE"
+dev_langs:
+ - c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

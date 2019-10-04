@@ -12,6 +12,8 @@ ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Tex
 ms.topic: method
 f1_keywords: 
  - "textstor/ITextStoreACP.GetWnd"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

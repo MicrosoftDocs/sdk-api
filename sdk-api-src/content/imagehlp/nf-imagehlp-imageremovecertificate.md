@@ -12,6 +12,8 @@ ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_ima
 ms.topic: function
 f1_keywords: 
  - "imagehlp/ImageRemoveCertificate"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

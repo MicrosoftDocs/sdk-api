@@ -12,6 +12,8 @@ ms.keywords: IIdleSettings interface [Task Scheduler],IdleDuration property, IId
 ms.topic: method
 f1_keywords: 
  - "taskschd/IIdleSettings.IdleDuration"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

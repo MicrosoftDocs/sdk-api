@@ -12,6 +12,8 @@ ms.keywords: ACDGE_GROUP_REMOVED, ACDGE_NEW_GROUP, ACDGROUP_EVENT, ACDGROUP_EVEN
 ms.topic: enum
 f1_keywords: 
  - "tapi3cc/ACDGROUP_EVENT"
+dev_langs:
+ - c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

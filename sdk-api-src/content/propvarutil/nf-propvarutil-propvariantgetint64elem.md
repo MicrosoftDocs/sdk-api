@@ -12,6 +12,8 @@ ms.keywords: PropVariantGetInt64Elem, PropVariantGetInt64Elem function [Windows 
 ms.topic: function
 f1_keywords: 
  - "propvarutil/PropVariantGetInt64Elem"
+dev_langs:
+ - c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

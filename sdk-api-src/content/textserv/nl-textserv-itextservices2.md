@@ -12,6 +12,8 @@ ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextS
 ms.topic: class
 f1_keywords: 
  - "textserv/ITextServices2"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

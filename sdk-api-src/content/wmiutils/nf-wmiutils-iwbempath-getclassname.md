@@ -12,6 +12,8 @@ ms.keywords: GetClassName, GetClassName method [Windows Management Instrumentati
 ms.topic: method
 f1_keywords: 
  - "wmiutils/IWbemPath.GetClassName"
+dev_langs:
+ - c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

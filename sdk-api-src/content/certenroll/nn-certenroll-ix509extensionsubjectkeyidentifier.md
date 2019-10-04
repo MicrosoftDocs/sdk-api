@@ -12,6 +12,8 @@ ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentif
 ms.topic: interface
 f1_keywords: 
  - "certenroll/IX509ExtensionSubjectKeyIdentifier"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

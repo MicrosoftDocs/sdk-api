@@ -12,6 +12,8 @@ ms.keywords: DeleteFieldComboBoxItem, DeleteFieldComboBoxItem method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "credentialprovider/ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

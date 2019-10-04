@@ -12,6 +12,8 @@ ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Netw
 ms.topic: function
 f1_keywords: 
  - "lmjoin/NetSetPrimaryComputerName"
+dev_langs:
+ - c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

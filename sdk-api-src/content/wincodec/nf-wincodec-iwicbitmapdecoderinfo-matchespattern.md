@@ -12,6 +12,8 @@ ms.keywords: IWICBitmapDecoderInfo interface [Windows Imaging Component],Matches
 ms.topic: method
 f1_keywords: 
  - "wincodec/IWICBitmapDecoderInfo.MatchesPattern"
+dev_langs:
+ - c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

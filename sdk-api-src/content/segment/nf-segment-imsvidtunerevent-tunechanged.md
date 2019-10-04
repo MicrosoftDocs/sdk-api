@@ -12,6 +12,8 @@ ms.keywords: IMSVidTunerEvent interface [Microsoft TV Technologies],TuneChanged 
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidTunerEvent.TuneChanged"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

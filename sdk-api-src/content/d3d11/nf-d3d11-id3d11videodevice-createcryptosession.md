@@ -12,6 +12,8 @@ ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation],
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoDevice.CreateCryptoSession"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

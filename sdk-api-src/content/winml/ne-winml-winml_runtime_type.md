@@ -12,6 +12,8 @@ ms.keywords: MachineLearning.winml_runtime_type, WINML_RUNTIME_CNTK, WINML_RUNTI
 ms.topic: enum
 f1_keywords: 
  - "winml/WINML_RUNTIME_TYPE"
+dev_langs:
+ - c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

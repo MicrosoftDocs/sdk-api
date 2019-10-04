@@ -12,6 +12,8 @@ ms.keywords: TS_TEXTCHANGE, TS_TEXTCHANGE structure [Text Services Framework], _
 ms.topic: struct
 f1_keywords: 
  - "textstor/TS_TEXTCHANGE"
+dev_langs:
+ - c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

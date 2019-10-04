@@ -12,6 +12,8 @@ ms.keywords: IEnumFsiItems interface [IMAPI],Skip method, IEnumFsiItems.Skip, IE
 ms.topic: method
 f1_keywords: 
  - "imapi2fs/IEnumFsiItems.Skip"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

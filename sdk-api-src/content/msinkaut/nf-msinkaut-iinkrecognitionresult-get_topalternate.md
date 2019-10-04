@@ -12,6 +12,8 @@ ms.keywords: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d, IInkRecognitionResult interfa
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkRecognitionResult.TopAlternate"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PEAP_CONFIG_INPUT_FIELD_DATA, EAP_CONFIG_INPUT_FIELD_DATA, EAP_CO
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_CONFIG_INPUT_FIELD_DATA
+dev_langs:
+ - c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

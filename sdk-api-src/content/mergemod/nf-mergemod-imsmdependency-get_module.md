@@ -12,6 +12,8 @@ ms.keywords: IMsmDependency interface,get_Module method, IMsmDependency.get_Modu
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmDependency.get_Module"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

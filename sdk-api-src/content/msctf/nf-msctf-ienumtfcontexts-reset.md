@@ -12,6 +12,8 @@ ms.keywords: IEnumTfContexts interface [Text Services Framework],Reset method, I
 ms.topic: method
 f1_keywords: 
  - "msctf/IEnumTfContexts.Reset"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

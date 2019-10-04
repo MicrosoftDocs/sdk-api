@@ -12,6 +12,8 @@ ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface 
 ms.topic: method
 f1_keywords: 
  - "dxva2api/IDirectXVideoAccelerationService.CreateSurface"
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

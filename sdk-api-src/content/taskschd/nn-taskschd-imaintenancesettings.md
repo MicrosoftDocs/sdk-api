@@ -12,6 +12,8 @@ ms.keywords: IMaintenanceSettings, IMaintenanceSettings interface [Task Schedule
 ms.topic: interface
 f1_keywords: 
  - "taskschd/IMaintenanceSettings"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

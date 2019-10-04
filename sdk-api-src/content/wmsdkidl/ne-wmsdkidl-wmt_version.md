@@ -12,6 +12,8 @@ ms.keywords: WMT_VERSION, WMT_VERSION enumeration [windows Media Format], WMT_VE
 ms.topic: enum
 f1_keywords: 
  - "wmsdkidl/WMT_VERSION"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

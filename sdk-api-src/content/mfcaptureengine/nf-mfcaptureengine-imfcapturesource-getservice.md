@@ -12,6 +12,8 @@ ms.keywords: GetService, GetService method [Media Foundation], GetService method
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.GetService"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write]
 ms.topic: struct
 f1_keywords: 
  - "dwrite_3/DWRITE_FILE_FRAGMENT"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

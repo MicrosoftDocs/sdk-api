@@ -12,6 +12,8 @@ ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, 
 ms.topic: function
 f1_keywords: 
  - "winternl/RtlUniform"
+dev_langs:
+ - c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

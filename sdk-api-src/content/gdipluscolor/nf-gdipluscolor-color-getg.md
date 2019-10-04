@@ -12,6 +12,8 @@ ms.keywords: Color class [GDI+],GetG method, Color.GetG, Color::GetG, GetG, GetG
 ms.topic: method
 f1_keywords: 
  - "gdipluscolor/Color.GetG"
+dev_langs:
+ - c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

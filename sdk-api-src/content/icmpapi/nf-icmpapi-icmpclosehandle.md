@@ -12,6 +12,8 @@ ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpc
 ms.topic: function
 f1_keywords: 
  - "icmpapi/IcmpCloseHandle"
+dev_langs:
+ - c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

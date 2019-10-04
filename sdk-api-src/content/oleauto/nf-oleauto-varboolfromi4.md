@@ -12,6 +12,8 @@ ms.keywords: VarBoolFromI4, VarBoolFromI4 function [Automation], _oa96_VarBoolFr
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBoolFromI4"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

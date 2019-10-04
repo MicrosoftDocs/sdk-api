@@ -12,6 +12,8 @@ ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_R
 ms.topic: struct
 f1_keywords: 
  - "dvdmedia/DVD_REGION"
+dev_langs:
+ - c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

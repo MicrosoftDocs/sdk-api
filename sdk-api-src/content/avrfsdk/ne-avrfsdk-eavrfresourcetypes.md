@@ -12,6 +12,8 @@ ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMa
 ms.topic: enum
 f1_keywords: 
  - "avrfsdk/eAvrfResourceTypes"
+dev_langs:
+ - c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

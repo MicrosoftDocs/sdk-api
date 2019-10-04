@@ -12,6 +12,8 @@ ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler, GetMedia
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFStreamDescriptor.GetMediaTypeHandler"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

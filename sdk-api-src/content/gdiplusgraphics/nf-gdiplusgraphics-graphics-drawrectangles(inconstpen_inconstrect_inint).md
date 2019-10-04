@@ -12,6 +12,8 @@ ms.keywords: DrawRectangles, DrawRectangles method [GDI+], DrawRectangles method
 ms.topic: method
 f1_keywords: 
  - "gdiplusgraphics/Graphics.DrawRectangles"
+dev_langs:
+ - c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

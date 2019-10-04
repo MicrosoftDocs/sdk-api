@@ -12,6 +12,8 @@ ms.keywords: 986b7527-c634-45d9-a2eb-86fa999e57ba, ITextInputPanel interface [Ta
 ms.topic: method
 f1_keywords: 
  - "peninputpanel/ITextInputPanel.PopUpCorrectionHeight"
+dev_langs:
+ - c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

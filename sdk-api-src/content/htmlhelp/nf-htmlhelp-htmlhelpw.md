@@ -12,6 +12,8 @@ ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHe
 ms.topic: function
 f1_keywords: 
  - "htmlhelp/HtmlHelp"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

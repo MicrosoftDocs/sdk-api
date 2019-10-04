@@ -12,6 +12,8 @@ ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_TYPE, WDSTRANSPORT_IP_ADDRESS_TYPE, WDST
 ms.topic: enum
 f1_keywords: 
  - "wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_TYPE"
+dev_langs:
+ - c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

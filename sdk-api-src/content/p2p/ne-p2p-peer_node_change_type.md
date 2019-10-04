@@ -12,6 +12,8 @@ ms.keywords: PEER_NODE_CHANGE_CONNECTED, PEER_NODE_CHANGE_DISCONNECTED, PEER_NOD
 ms.topic: enum
 f1_keywords: 
  - "p2p/PEER_NODE_CHANGE_TYPE"
+dev_langs:
+ - c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

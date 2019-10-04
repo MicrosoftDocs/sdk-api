@@ -12,6 +12,8 @@ ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface 
 ms.topic: interface
 f1_keywords: 
  - "docobj/IOleDocument"
+dev_langs:
+ - c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

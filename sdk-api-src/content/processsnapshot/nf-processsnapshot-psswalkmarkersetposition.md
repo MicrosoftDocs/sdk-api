@@ -12,6 +12,8 @@ ms.keywords: PssWalkMarkerSetPosition, PssWalkMarkerSetPosition function, proc_s
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssWalkMarkerSetPosition"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

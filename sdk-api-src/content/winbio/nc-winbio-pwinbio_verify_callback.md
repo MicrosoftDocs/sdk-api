@@ -12,6 +12,8 @@ ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback, PWINBIO_
 ms.topic: callback
 f1_keywords:
 - winbio/PWINBIO_VERIFY_CALLBACK
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

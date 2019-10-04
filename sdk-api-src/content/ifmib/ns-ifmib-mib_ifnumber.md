@@ -12,6 +12,8 @@ ms.keywords: '*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_I
 ms.topic: struct
 f1_keywords:
 - ifmib/MIB_IFNUMBER
+dev_langs:
+ - c++
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

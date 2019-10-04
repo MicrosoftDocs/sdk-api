@@ -12,6 +12,8 @@ ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsreco
 ms.topic: function
 f1_keywords: 
  - "windns/DnsRecordSetDetach"
+dev_langs:
+ - c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

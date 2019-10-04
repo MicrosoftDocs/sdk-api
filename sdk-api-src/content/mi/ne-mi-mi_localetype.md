@@ -12,6 +12,8 @@ ms.keywords: MI_LOCALE_TYPE_CLOSEST_DATA, MI_LOCALE_TYPE_CLOSEST_UI, MI_LOCALE_T
 ms.topic: enum
 f1_keywords: 
  - "mi/MI_LocaleType"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VarFormat, VarFormat function [Automation], _oa96_VarFormat, automa
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarFormat"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

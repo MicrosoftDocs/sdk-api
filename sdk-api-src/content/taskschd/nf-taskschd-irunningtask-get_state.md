@@ -12,6 +12,8 @@ ms.keywords: IRunningTask interface [Task Scheduler],State property, IRunningTas
 ms.topic: method
 f1_keywords: 
  - "taskschd/IRunningTask.State"
+dev_langs:
+ - c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

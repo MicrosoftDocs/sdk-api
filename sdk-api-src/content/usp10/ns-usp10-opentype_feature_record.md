@@ -12,6 +12,8 @@ ms.keywords: OPENTYPE_FEATURE_RECORD, OPENTYPE_FEATURE_RECORD structure [Interna
 ms.topic: struct
 f1_keywords: 
  - "usp10/OPENTYPE_FEATURE_RECORD"
+dev_langs:
+ - c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

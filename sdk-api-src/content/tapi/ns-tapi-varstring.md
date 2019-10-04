@@ -12,6 +12,8 @@ ms.keywords: "*LPVARSTRING, LPVARSTRING, LPVARSTRING structure pointer [TAPI 2.2
 ms.topic: struct
 f1_keywords: 
  - "tapi/VARSTRING"
+dev_langs:
+ - c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

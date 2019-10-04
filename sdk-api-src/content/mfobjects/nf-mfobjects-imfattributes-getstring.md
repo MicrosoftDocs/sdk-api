@@ -12,6 +12,8 @@ ms.keywords: 756d8fba-d372-46f9-8035-f657d7ff133f, GetString, GetString method [
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.GetString
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

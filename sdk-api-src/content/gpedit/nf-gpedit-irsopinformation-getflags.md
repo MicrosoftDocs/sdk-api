@@ -12,6 +12,8 @@ ms.keywords: GetFlags, GetFlags method [Group Policy], GetFlags method [Group Po
 ms.topic: method
 f1_keywords: 
  - "gpedit/IRSOPInformation.GetFlags"
+dev_langs:
+ - c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

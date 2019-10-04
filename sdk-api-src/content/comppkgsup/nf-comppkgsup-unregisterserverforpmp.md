@@ -12,6 +12,8 @@ ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows AP
 ms.topic: function
 f1_keywords: 
  - "comppkgsup/UnregisterServerForPMP"
+dev_langs:
+ - c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

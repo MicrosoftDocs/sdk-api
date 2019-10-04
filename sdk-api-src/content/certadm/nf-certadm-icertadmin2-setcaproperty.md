@@ -12,6 +12,8 @@ ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR
 ms.topic: method
 f1_keywords: 
  - "certadm/ICertAdmin2.SetCAProperty"
+dev_langs:
+ - c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

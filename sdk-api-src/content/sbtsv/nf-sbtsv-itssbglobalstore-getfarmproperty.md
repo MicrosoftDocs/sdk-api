@@ -12,6 +12,8 @@ ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], 
 ms.topic: method
 f1_keywords: 
  - "sbtsv/ITsSbGlobalStore.GetFarmProperty"
+dev_langs:
+ - c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

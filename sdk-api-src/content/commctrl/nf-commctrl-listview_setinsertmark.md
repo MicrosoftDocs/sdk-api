@@ -12,6 +12,8 @@ ms.keywords: ListView_SetInsertMark, ListView_SetInsertMark macro [Windows Contr
 ms.topic: macro
 f1_keywords: 
  - "commctrl/ListView_SetInsertMark"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

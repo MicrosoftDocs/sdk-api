@@ -12,6 +12,8 @@ ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutin
 ms.topic: callback
 f1_keywords: 
  - "winbase/CopyProgressRoutine"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

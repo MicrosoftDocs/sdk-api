@@ -12,6 +12,8 @@ ms.keywords: DeletePropertyNames, DeletePropertyNames method [Structured Storage
 ms.topic: method
 f1_keywords: 
  - "propidl/IPropertyStorage.DeletePropertyNames"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows

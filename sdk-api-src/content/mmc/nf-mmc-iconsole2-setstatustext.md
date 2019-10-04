@@ -12,6 +12,8 @@ ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatus
 ms.topic: method
 f1_keywords: 
  - "mmc/IConsole2.SetStatusText"
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

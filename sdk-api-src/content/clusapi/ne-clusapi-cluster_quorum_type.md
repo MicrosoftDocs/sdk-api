@@ -12,6 +12,8 @@ ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Clus
 ms.topic: enum
 f1_keywords: 
  - "clusapi/CLUSTER_QUORUM_TYPE"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

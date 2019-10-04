@@ -12,6 +12,8 @@ ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswal
 ms.topic: function
 f1_keywords: 
  - "processsnapshot/PssWalkMarkerCreate"
+dev_langs:
+ - c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

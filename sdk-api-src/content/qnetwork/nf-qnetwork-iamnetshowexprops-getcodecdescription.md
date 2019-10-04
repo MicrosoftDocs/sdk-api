@@ -12,6 +12,8 @@ ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCo
 ms.topic: method
 f1_keywords: 
  - "qnetwork/IAMNetShowExProps.GetCodecDescription"
+dev_langs:
+ - c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgCo
 ms.topic: struct
 f1_keywords: 
  - "schannel/SecPkgContext_EapKeyBlock"
+dev_langs:
+ - c++
 req.header: schannel.h
 req.include-header: Security.h
 req.target-type: Windows

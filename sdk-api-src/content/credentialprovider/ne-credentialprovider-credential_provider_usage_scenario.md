@@ -12,6 +12,8 @@ ms.keywords: CPUS_CHANGE_PASSWORD, CPUS_CREDUI, CPUS_INVALID, CPUS_LOGON, CPUS_P
 ms.topic: enum
 f1_keywords: 
  - "credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO"
+dev_langs:
+ - c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

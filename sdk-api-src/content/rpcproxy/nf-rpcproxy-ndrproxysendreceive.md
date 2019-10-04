@@ -12,6 +12,8 @@ ms.keywords: NdrProxySendReceive, NdrProxySendReceive function [RPC], rpc.ndrpro
 ms.topic: function
 f1_keywords:
 - rpcproxy/NdrProxySendReceive
+dev_langs:
+ - c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

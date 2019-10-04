@@ -12,6 +12,8 @@ ms.keywords: IX509CertificateRequestPkcs10 interface [Security],PublicKey proper
 ms.topic: method
 f1_keywords: 
  - "certenroll/IX509CertificateRequestPkcs10.PublicKey"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

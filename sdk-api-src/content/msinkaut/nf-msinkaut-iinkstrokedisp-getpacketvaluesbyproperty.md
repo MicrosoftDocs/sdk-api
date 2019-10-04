@@ -12,6 +12,8 @@ ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty, Ge
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.GetPacketValuesByProperty"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetReplicaKeyMap, GetReplicaKeyMap method [Windows Sync], GetReplic
 ms.topic: method
 f1_keywords: 
  - "winsync/ISyncKnowledge.GetReplicaKeyMap"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

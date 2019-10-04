@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_UNIT_TYPE, MF_TIMED_TEXT_UNIT_TYPE enumeration [Media
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage met
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardExtension.GetFirstPage
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

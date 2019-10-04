@@ -12,6 +12,8 @@ ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilt
 ms.topic: interface
 f1_keywords: 
  - "eventsys/IPublisherFilter"
+dev_langs:
+ - c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

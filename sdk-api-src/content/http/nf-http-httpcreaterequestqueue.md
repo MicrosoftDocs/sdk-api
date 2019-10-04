@@ -12,6 +12,8 @@ ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEU
 ms.topic: function
 f1_keywords: 
  - "http/HttpCreateRequestQueue"
+dev_langs:
+ - c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

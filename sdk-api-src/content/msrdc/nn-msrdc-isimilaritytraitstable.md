@@ -12,6 +12,8 @@ ms.keywords: ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Di
 ms.topic: interface
 f1_keywords: 
  - "msrdc/ISimilarityTraitsTable"
+dev_langs:
+ - c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType 
 ms.topic: method
 f1_keywords: 
  - "mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType"
+dev_langs:
+ - c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN, PIBIO_STORAGE_QUERY_EXTENDED_
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterQueryExtendedInfo
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

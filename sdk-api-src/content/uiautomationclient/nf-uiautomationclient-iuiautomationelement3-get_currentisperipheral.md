@@ -12,6 +12,8 @@ ms.keywords: CurrentIsPeripheral property [Windows Accessibility], CurrentIsPeri
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationElement3.CurrentIsPeripheral"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

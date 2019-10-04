@@ -12,6 +12,8 @@ ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStre
 ms.topic: function
 f1_keywords: 
  - "ole/OleSaveToStream"
+dev_langs:
+ - c++
 req.header: ole.h
 req.include-header: Ole2.h
 req.target-type: Windows

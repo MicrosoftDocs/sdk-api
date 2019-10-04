@@ -12,6 +12,8 @@ ms.keywords: GET_Y_LPARAM, GET_Y_LPARAM macro [Windows and Messages], _win32_GET
 ms.topic: macro
 f1_keywords: 
  - "windowsx/GET_Y_LPARAM"
+dev_langs:
+ - c++
 req.header: windowsx.h
 req.include-header: Windowsx.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, PSR_RESOURCE_TYPE_REPL
 ms.topic: struct
 f1_keywords: 
  - "clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "*PDS_REPSYNCALL_SYNCW, DS_REPSYNCALL_SYNC, DS_REPSYNCALL_SYNC stru
 ms.topic: struct
 f1_keywords: 
  - "ntdsapi/DS_REPSYNCALL_SYNC"
+dev_langs:
+ - c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

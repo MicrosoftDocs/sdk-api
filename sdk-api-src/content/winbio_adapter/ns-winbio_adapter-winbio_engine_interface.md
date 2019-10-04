@@ -12,6 +12,8 @@ ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGIN
 ms.topic: struct
 f1_keywords: 
  - "winbio_adapter/WINBIO_ENGINE_INTERFACE"
+dev_langs:
+ - c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows

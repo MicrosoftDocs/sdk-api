@@ -12,6 +12,8 @@ ms.keywords: RPC_PROTSEQ_VECTOR, RPC_PROTSEQ_VECTOR structure [RPC], _rpc_rpc_pr
 ms.topic: struct
 f1_keywords: 
  - "rpcdce/RPC_PROTSEQ_VECTOR"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

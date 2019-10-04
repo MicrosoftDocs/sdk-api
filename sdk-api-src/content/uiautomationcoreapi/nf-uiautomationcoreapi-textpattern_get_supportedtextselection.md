@@ -12,6 +12,8 @@ ms.keywords: TextPattern_get_SupportedTextSelection, TextPattern_get_SupportedTe
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/TextPattern_get_SupportedTextSelection"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

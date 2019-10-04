@@ -12,6 +12,8 @@ ms.keywords: RsvpObjHdr, RsvpObjHdr structure [QOS], lpmapi/RsvpObjHdr, qos.rsvp
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/RsvpObjHdr"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

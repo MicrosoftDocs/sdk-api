@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUICont
 ms.topic: method
 f1_keywords: 
  - "camerauicontrol/ICameraUIControl.Show"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

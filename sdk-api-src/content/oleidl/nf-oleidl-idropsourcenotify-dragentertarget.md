@@ -12,6 +12,8 @@ ms.keywords: DragEnterTarget, DragEnterTarget method [COM], DragEnterTarget meth
 ms.topic: method
 f1_keywords: 
  - "oleidl/IDropSourceNotify.DragEnterTarget"
+dev_langs:
+ - c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

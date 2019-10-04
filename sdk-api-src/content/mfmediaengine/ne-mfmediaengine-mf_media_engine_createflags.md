@@ -12,6 +12,8 @@ ms.keywords: MF_MEDIA_ENGINE_AUDIOONLY, MF_MEDIA_ENGINE_CREATEFLAGS, MF_MEDIA_EN
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

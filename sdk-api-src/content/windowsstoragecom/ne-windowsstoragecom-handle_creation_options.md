@@ -12,6 +12,8 @@ ms.keywords: HANDLE_CREATION_OPTIONS, HANDLE_CREATION_OPTIONS enumeration [Windo
 ms.topic: enum
 f1_keywords: 
  - "windowsstoragecom/HANDLE_CREATION_OPTIONS"
+dev_langs:
+ - c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

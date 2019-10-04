@@ -12,6 +12,8 @@ ms.keywords: FALSE, GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Docum
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

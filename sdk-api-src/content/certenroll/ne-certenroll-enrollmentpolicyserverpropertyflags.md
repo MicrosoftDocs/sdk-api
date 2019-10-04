@@ -12,6 +12,8 @@ ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFla
 ms.topic: enum
 f1_keywords: 
  - "certenroll/EnrollmentPolicyServerPropertyFlags"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

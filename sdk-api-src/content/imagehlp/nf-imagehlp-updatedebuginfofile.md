@@ -12,6 +12,8 @@ ms.keywords: UpdateDebugInfoFile, UpdateDebugInfoFile function, _win32_updatedeb
 ms.topic: function
 f1_keywords: 
  - "imagehlp/UpdateDebugInfoFile"
+dev_langs:
+ - c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "winsync/SYNC_SESSION_STATISTICS"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

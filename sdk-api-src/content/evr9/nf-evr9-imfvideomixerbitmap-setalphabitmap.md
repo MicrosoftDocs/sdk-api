@@ -12,6 +12,8 @@ ms.keywords: IMFVideoMixerBitmap interface [Media Foundation],SetAlphaBitmap met
 ms.topic: method
 f1_keywords: 
  - "evr9/IMFVideoMixerBitmap.SetAlphaBitmap"
+dev_langs:
+ - c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows

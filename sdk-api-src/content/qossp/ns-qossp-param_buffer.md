@@ -12,6 +12,8 @@ ms.keywords: '*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PA
 ms.topic: struct
 f1_keywords:
 - qossp/PARAM_BUFFER
+dev_langs:
+ - c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

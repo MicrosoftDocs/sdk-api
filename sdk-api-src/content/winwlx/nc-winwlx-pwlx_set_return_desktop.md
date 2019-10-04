@@ -12,6 +12,8 @@ ms.keywords: PWLX_SET_RETURN_DESKTOP, PWLX_SET_RETURN_DESKTOP callback, WlxSetRe
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSetReturnDesktop"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

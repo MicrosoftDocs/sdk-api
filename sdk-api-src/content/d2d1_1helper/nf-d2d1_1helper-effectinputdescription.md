@@ -12,6 +12,8 @@ ms.keywords: EffectInputDescription, EffectInputDescription function [Direct2D],
 ms.topic: function
 f1_keywords: 
  - "d2d1_1helper/EffectInputDescription"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProp
 ms.topic: method
 f1_keywords: 
  - "comsvcs/ISecurityProperty.ReleaseSID"
+dev_langs:
+ - c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

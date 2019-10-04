@@ -12,6 +12,8 @@ ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoy
 ms.topic: function
 f1_keywords: 
  - "msajtransport/AllJoynEnumEvents"
+dev_langs:
+ - c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

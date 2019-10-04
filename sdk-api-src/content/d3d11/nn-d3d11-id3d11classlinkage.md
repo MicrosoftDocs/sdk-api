@@ -12,6 +12,8 @@ ms.keywords: 6153eaad-32d7-c087-4631-725183e63035, ID3D11ClassLinkage, ID3D11Cla
 ms.topic: interface
 f1_keywords: 
  - "d3d11/ID3D11ClassLinkage"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

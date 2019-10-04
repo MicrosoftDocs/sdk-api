@@ -12,6 +12,8 @@ ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Comp
 ms.topic: method
 f1_keywords: 
  - "wincodecsdk/IWICMetadataBlockReader.GetContainerFormat"
+dev_langs:
+ - c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

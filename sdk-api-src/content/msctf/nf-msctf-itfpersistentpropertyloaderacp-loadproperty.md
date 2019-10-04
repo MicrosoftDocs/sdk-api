@@ -12,6 +12,8 @@ ms.keywords: ITfPersistentPropertyLoaderACP interface [Text Services Framework],
 ms.topic: method
 f1_keywords: 
  - "msctf/ITfPersistentPropertyLoaderACP.LoadProperty"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

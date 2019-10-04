@@ -12,6 +12,8 @@ ms.keywords: GetText, GetText method [Media Foundation], GetText method [Media F
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFTimedTextFormattedText.GetText"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

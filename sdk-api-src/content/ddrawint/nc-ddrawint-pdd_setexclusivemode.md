@@ -12,6 +12,8 @@ ms.keywords: DdSetExclusiveMode, DdSetExclusiveMode callback function [Display D
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdSetExclusiveMode
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

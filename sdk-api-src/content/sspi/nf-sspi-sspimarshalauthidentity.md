@@ -12,6 +12,8 @@ ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security
 ms.topic: function
 f1_keywords: 
  - "sspi/SspiMarshalAuthIdentity"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

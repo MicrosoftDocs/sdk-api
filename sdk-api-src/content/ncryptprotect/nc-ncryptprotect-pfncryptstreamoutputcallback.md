@@ -12,6 +12,8 @@ ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback callback
 ms.topic: callback
 f1_keywords: 
  - "ncryptprotect/PFNCryptStreamOutputCallback"
+dev_langs:
+ - c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

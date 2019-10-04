@@ -12,6 +12,8 @@ ms.keywords: "_win32_getservbyport_2, getservbyport, getservbyport function [Win
 ms.topic: function
 f1_keywords: 
  - "winsock2/getservbyport"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

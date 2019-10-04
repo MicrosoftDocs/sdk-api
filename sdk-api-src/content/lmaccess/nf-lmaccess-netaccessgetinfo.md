@@ -12,6 +12,8 @@ ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Manageme
 ms.topic: function
 f1_keywords: 
  - "lmaccess/NetAccessGetInfo"
+dev_langs:
+ - c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows

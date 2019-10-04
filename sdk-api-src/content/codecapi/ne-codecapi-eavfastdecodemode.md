@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecap
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVFastDecodeMode"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, ba
 ms.topic: function
 f1_keywords: 
  - "versionhelpers/IsWindowsVistaSP2OrGreater"
+dev_langs:
+ - c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

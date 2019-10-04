@@ -12,6 +12,8 @@ ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, Selec
 ms.topic: function
 f1_keywords: 
  - "wingdi/SelectClipPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

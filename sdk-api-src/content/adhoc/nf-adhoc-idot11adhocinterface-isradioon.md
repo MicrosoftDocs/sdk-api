@@ -12,6 +12,8 @@ ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsRadioOn method, IDot1
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocInterface.IsRadioOn"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

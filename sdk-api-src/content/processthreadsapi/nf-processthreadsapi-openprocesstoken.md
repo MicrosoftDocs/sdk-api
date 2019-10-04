@@ -12,6 +12,8 @@ ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_open
 ms.topic: function
 f1_keywords: 
  - "processthreadsapi/OpenProcessToken"
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

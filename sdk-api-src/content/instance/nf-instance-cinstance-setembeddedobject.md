@@ -12,6 +12,8 @@ ms.keywords: "?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z, CInstance interface
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetEmbeddedObject"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

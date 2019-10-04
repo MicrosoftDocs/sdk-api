@@ -12,6 +12,8 @@ ms.keywords: 3b00074b-be34-94d5-7702-c5e8f870e68f, CheckResourceResidency, Check
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9Ex.CheckResourceResidency"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WcmRestrictionFacets, WcmRestrictionFacets enumeration [SMI], restr
 ms.topic: enum
 f1_keywords: 
  - "wcmconfig/WcmRestrictionFacets"
+dev_langs:
+ - c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

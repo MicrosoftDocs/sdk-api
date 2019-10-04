@@ -12,6 +12,8 @@ ms.keywords: CreateValidatedBlockMapReader, CreateValidatedBlockMapReader method
 ms.topic: method
 f1_keywords: 
  - "appxpackaging/IAppxFactory.CreateValidatedBlockMapReader"
+dev_langs:
+ - c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

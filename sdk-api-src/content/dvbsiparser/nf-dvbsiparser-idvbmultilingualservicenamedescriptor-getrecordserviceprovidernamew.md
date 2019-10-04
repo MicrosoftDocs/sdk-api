@@ -12,6 +12,8 @@ ms.keywords: GetRecordServiceProviderNameW, GetRecordServiceProviderNameW method
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

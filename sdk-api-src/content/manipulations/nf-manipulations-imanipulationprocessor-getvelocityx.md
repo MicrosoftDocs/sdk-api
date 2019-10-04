@@ -12,6 +12,8 @@ ms.keywords: GetVelocityX, GetVelocityX method [Windows Touch], GetVelocityX met
 ms.topic: method
 f1_keywords: 
  - "manipulations/IManipulationProcessor.GetVelocityX"
+dev_langs:
+ - c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

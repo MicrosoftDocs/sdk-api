@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETDRIVERINFODATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

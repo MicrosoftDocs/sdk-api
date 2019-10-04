@@ -12,6 +12,8 @@ ms.keywords: Destroy, Destroy method [Windows Media Player], Destroy method [Win
 ms.topic: method
 f1_keywords: 
  - "effects/IWMPEffects2.Destroy"
+dev_langs:
+ - c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

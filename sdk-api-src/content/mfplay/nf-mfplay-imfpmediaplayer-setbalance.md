@@ -12,6 +12,8 @@ ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMF
 ms.topic: method
 f1_keywords: 
  - "mfplay/IMFPMediaPlayer.SetBalance"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

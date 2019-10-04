@@ -12,6 +12,8 @@ ms.keywords: KF_FLAG_ALIAS_ONLY, KF_FLAG_CREATE, KF_FLAG_DEFAULT, KF_FLAG_DEFAUL
 ms.topic: enum
 f1_keywords: 
  - "shlobj_core/KNOWN_FOLDER_FLAG"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

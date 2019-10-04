@@ -12,6 +12,8 @@ ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSourceEvent.CertificateSuccess"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

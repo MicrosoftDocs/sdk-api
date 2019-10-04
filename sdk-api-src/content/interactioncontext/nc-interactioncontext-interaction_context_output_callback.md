@@ -12,6 +12,8 @@ ms.keywords: INTERACTION_CONTEXT_OUTPUT_CALLBACK, INTERACTION_CONTEXT_OUTPUT_CAL
 ms.topic: callback
 f1_keywords: 
  - "interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"
+dev_langs:
+ - c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

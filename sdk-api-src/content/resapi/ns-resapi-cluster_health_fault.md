@@ -12,6 +12,8 @@ ms.keywords: "*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT
 ms.topic: struct
 f1_keywords: 
  - "resapi/CLUSTER_HEALTH_FAULT"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

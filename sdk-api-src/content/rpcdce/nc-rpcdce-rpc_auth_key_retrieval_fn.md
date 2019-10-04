@@ -12,6 +12,8 @@ ms.keywords: RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_
 ms.topic: callback
 f1_keywords: 
  - "rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"
+dev_langs:
+ - c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

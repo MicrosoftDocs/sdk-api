@@ -12,6 +12,8 @@ ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Skip method, IEnumSyn
 ms.topic: method
 f1_keywords: 
  - "winsync/IEnumSyncChangeUnits.Skip"
+dev_langs:
+ - c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

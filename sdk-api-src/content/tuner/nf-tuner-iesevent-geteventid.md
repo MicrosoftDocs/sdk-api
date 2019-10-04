@@ -12,6 +12,8 @@ ms.keywords: GetEventId, GetEventId method [Microsoft TV Technologies], GetEvent
 ms.topic: method
 f1_keywords: 
  - "tuner/IESEvent.GetEventId"
+dev_langs:
+ - c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

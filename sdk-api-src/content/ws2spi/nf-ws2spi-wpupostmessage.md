@@ -12,6 +12,8 @@ ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostme
 ms.topic: function
 f1_keywords: 
  - "ws2spi/WPUPostMessage"
+dev_langs:
+ - c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

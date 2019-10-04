@@ -12,6 +12,8 @@ ms.keywords: SoHAttribute, SoHAttribute structure [NAP], nap.sohattribute_struct
 ms.topic: struct
 f1_keywords: 
  - "naptypes/SoHAttribute"
+dev_langs:
+ - c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

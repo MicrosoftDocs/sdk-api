@@ -12,6 +12,8 @@ ms.keywords: '*PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVIC
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_REMOVEDEVICE_PARAMS
+dev_langs:
+ - c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

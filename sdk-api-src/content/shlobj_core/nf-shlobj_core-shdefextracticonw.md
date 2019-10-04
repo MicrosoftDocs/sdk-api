@@ -12,6 +12,8 @@ ms.keywords: GIL_SIMULATEDOC, SHDefExtractIcon, SHDefExtractIcon function [Windo
 ms.topic: function
 f1_keywords: 
  - "shlobj_core/SHDefExtractIcon"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

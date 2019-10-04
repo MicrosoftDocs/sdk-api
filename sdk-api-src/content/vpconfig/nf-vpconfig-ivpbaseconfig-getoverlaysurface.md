@@ -12,6 +12,8 @@ ms.keywords: GetOverlaySurface, GetOverlaySurface method [DirectShow], GetOverla
 ms.topic: method
 f1_keywords: 
  - "vpconfig/IVPBaseConfig.GetOverlaySurface"
+dev_langs:
+ - c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

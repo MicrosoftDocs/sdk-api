@@ -12,6 +12,8 @@ ms.keywords: '*PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE_NETWORK, PWLAN_AVAILABLE
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_AVAILABLE_NETWORK
+dev_langs:
+ - c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

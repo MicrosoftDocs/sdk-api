@@ -12,6 +12,8 @@ ms.keywords: "*LPSOCKADDR_ATM, *PSOCKADDR_ATM, LPSOCKADDR_ATM, LPSOCKADDR_ATM st
 ms.topic: struct
 f1_keywords: 
  - "ws2atm/sockaddr_atm"
+dev_langs:
+ - c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows

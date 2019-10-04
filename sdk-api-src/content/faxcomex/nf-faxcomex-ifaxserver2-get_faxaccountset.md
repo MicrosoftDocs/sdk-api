@@ -12,6 +12,8 @@ ms.keywords: FaxAccountSet property [Fax Service], FaxAccountSet property [Fax S
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxServer2.FaxAccountSet"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

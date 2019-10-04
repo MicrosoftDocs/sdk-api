@@ -12,6 +12,8 @@ ms.keywords: CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPA
 ms.topic: enum
 f1_keywords:
 - msclus/CLUSTER_PROPERTY_FORMAT
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

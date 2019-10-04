@@ -12,6 +12,8 @@ ms.keywords: GetPairKerning, GetPairKerning method [Direct Write], GetPairKernin
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextLayout1.GetPairKerning"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

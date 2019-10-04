@@ -12,6 +12,8 @@ ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindo
 ms.topic: method
 f1_keywords: 
  - "wpcapi/IWindowsParentalControlsCore.GetWebSettings"
+dev_langs:
+ - c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

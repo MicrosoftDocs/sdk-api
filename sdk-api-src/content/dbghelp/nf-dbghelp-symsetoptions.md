@@ -12,6 +12,8 @@ ms.keywords: SYMOPT_ALLOW_ABSOLUTE_SYMBOLS, SYMOPT_ALLOW_ZERO_ADDRESS, SYMOPT_AU
 ms.topic: function
 f1_keywords: 
  - "dbghelp/SymSetOptions"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

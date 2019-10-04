@@ -12,6 +12,8 @@ ms.keywords: Clear, Clear method [windows Media Format], Clear method [windows M
 ms.topic: method
 f1_keywords: 
  - "wmsdkidl/IWMPropertyVault.Clear"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WsWriteBytes, WsWriteBytes function [Web Services for Windows], web
 ms.topic: function
 f1_keywords: 
  - "webservices/WsWriteBytes"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

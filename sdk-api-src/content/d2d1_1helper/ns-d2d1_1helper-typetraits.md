@@ -12,6 +12,8 @@ ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1
 ms.topic: struct
 f1_keywords: 
  - "d2d1_1helper/TypeTraits"
+dev_langs:
+ - c++
 req.header: d2d1_1helper.h
 req.include-header: D2d1_1helper.h
 req.target-type: Windows

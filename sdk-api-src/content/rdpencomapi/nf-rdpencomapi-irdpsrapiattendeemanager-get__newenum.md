@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRA
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPIAttendeeManager._NewEnum"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontFaceReference.GetFileTime"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

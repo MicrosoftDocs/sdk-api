@@ -12,6 +12,8 @@ ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateE
 ms.topic: function
 f1_keywords: 
  - "mfapi/MFCreateEventQueue"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

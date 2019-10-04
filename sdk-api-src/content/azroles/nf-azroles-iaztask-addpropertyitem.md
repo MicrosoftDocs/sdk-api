@@ -12,6 +12,8 @@ ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPr
 ms.topic: method
 f1_keywords: 
  - "azroles/IAzTask.AddPropertyItem"
+dev_langs:
+ - c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

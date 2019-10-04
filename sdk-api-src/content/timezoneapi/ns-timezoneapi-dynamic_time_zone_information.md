@@ -12,6 +12,8 @@ ms.keywords: '*PDYNAMIC_TIME_ZONE_INFORMATION, DYNAMIC_TIME_ZONE_INFORMATION, DY
 ms.topic: struct
 f1_keywords:
 - timezoneapi/DYNAMIC_TIME_ZONE_INFORMATION
+dev_langs:
+ - c++
 req.header: timezoneapi.h
 req.include-header: Timezoneapi.h, Windows.h
 req.target-type: Windows

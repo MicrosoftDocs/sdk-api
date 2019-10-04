@@ -12,6 +12,8 @@ ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfile
 ms.topic: function
 f1_keywords: 
  - "fileapi/SetFileApisToOEM"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

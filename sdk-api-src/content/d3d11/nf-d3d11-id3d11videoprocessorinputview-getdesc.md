@@ -12,6 +12,8 @@ ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media F
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11VideoProcessorInputView.GetDesc"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: codecapi/eAVEncMPAEmphasisType, codecapi/eAVEncMPAEmphasisType_50_1
 ms.topic: enum
 f1_keywords: 
  - "codecapi/eAVEncMPAEmphasisType"
+dev_langs:
+ - c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

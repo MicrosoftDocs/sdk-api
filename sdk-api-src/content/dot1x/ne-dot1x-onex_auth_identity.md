@@ -12,6 +12,8 @@ ms.keywords: ONEX_AUTH_IDENTITY, ONEX_AUTH_IDENTITY enumeration [NativeWIFI], On
 ms.topic: enum
 f1_keywords:
 - dot1x/ONEX_AUTH_IDENTITY
+dev_langs:
+ - c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

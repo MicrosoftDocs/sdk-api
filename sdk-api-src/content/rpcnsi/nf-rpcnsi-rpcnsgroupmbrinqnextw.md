@@ -12,6 +12,8 @@ ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGro
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsGroupMbrInqNext"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

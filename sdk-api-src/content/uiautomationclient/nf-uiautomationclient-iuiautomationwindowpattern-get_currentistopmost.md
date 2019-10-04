@@ -12,6 +12,8 @@ ms.keywords: CurrentIsTopmost property [Windows Accessibility], CurrentIsTopmost
 ms.topic: method
 f1_keywords: 
  - "uiautomationclient/IUIAutomationWindowPattern.CurrentIsTopmost"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

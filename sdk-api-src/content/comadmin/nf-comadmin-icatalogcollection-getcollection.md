@@ -12,6 +12,8 @@ ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [C
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogCollection.GetCollection"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

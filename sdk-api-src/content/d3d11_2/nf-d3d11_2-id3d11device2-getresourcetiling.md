@@ -12,6 +12,8 @@ ms.keywords: GetResourceTiling, GetResourceTiling method [Direct3D 11], GetResou
 ms.topic: method
 f1_keywords: 
  - "d3d11_2/ID3D11Device2.GetResourceTiling"
+dev_langs:
+ - c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RPC_C_PROFILE_ALL_ELTS, RPC_C_PROFILE_DEFAULT_ELT, RPC_C_PROFILE_MA
 ms.topic: function
 f1_keywords: 
  - "rpcnsi/RpcNsProfileEltInqBegin"
+dev_langs:
+ - c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

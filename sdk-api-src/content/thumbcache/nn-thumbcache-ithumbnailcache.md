@@ -12,6 +12,8 @@ ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbn
 ms.topic: interface
 f1_keywords: 
  - "thumbcache/IThumbnailCache"
+dev_langs:
+ - c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

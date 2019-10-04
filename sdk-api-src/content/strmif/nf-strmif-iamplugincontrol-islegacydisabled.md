@@ -12,6 +12,8 @@ ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IA
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMPluginControl.IsLegacyDisabled"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 2a51f18d-5ea4-ef19-5a3f-a879736bdf6a, ClearUnorderedAccessViewFloat
 ms.topic: method
 f1_keywords: 
  - "d3d11/ID3D11DeviceContext.ClearUnorderedAccessViewFloat"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

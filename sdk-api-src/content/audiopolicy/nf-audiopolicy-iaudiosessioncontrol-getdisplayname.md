@@ -12,6 +12,8 @@ ms.keywords: GetDisplayName, GetDisplayName method [Core Audio], GetDisplayName 
 ms.topic: method
 f1_keywords: 
  - "audiopolicy/IAudioSessionControl.GetDisplayName"
+dev_langs:
+ - c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

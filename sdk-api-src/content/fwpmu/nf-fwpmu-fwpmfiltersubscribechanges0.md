@@ -12,6 +12,8 @@ ms.keywords: FwpmFilterSubscribeChanges0, FwpmFilterSubscribeChanges0 function [
 ms.topic: function
 f1_keywords: 
  - "fwpmu/FwpmFilterSubscribeChanges0"
+dev_langs:
+ - c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

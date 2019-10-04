@@ -12,6 +12,8 @@ ms.keywords: ID3D12PipelineLibrary1, ID3D12PipelineLibrary1 interface, ID3D12Pip
 ms.topic: interface
 f1_keywords: 
  - "d3d12/ID3D12PipelineLibrary1"
+dev_langs:
+ - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], Ge
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMGlyphsEditor.GetBidiLevel"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

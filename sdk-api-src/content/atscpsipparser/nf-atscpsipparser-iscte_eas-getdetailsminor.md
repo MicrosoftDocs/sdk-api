@@ -12,6 +12,8 @@ ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies]
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/ISCTE_EAS.GetDetailsMinor"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

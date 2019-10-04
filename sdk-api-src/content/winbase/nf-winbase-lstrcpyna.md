@@ -12,6 +12,8 @@ ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function 
 ms.topic: function
 f1_keywords: 
  - "winbase/lstrcpyn"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

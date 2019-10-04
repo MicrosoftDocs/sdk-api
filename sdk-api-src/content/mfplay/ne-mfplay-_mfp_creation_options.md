@@ -12,6 +12,8 @@ ms.keywords: MFP_OPTION_FREE_THREADED_CALLBACK, MFP_OPTION_NONE, MFP_OPTION_NO_M
 ms.topic: enum
 f1_keywords: 
  - "mfplay/_MFP_CREATION_OPTIONS"
+dev_langs:
+ - c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

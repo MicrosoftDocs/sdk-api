@@ -12,6 +12,8 @@ ms.keywords: '*PCHANGER_SEND_VOLUME_TAG_INFORMATION, ASSERT_ALTERNATE, ASSERT_PR
 ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

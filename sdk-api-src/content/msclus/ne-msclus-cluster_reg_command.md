@@ -12,6 +12,8 @@ ms.keywords: CLUSREG_COMMAND_NONE, CLUSREG_CONDITION_EXISTS, CLUSREG_CONDITION_I
 ms.topic: enum
 f1_keywords:
 - msclus/CLUSTER_REG_COMMAND
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

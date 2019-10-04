@@ -12,6 +12,8 @@ ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],P
 ms.topic: method
 f1_keywords: 
  - "gdipluspen/Pen.GetLineJoin"
+dev_langs:
+ - c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

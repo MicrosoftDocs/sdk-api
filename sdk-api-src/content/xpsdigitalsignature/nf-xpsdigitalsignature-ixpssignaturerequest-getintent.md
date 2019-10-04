@@ -12,6 +12,8 @@ ms.keywords: GetIntent, GetIntent method [XPS Documents and Packaging], GetInten
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.GetIntent"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

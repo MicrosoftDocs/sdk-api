@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_D
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilFindDependentDiskResourceDriveLetter"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

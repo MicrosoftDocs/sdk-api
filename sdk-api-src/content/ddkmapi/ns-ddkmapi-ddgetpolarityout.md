@@ -12,6 +12,8 @@ ms.keywords: "*LPDDGETPOLARITYOUT, DDGETPOLARITYOUT, DDGETPOLARITYOUT structure 
 ms.topic: struct
 f1_keywords: 
  - "ddkmapi/DDGETPOLARITYOUT"
+dev_langs:
+ - c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

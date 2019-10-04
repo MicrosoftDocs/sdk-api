@@ -12,6 +12,8 @@ ms.keywords: '*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure point
 ms.topic: struct
 f1_keywords:
 - winsock2/WSAOVERLAPPED
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

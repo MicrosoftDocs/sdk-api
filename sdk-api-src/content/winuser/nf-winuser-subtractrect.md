@@ -12,6 +12,8 @@ ms.keywords: SubtractRect, SubtractRect function [Windows GDI], _win32_SubtractR
 ms.topic: function
 f1_keywords: 
  - "winuser/SubtractRect"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

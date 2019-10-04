@@ -12,6 +12,8 @@ ms.keywords: GetProgramProperties, GetProgramProperties method [Microsoft TV Tec
 ms.topic: method
 f1_keywords: 
  - "bdatif/IGuideData.GetProgramProperties"
+dev_langs:
+ - c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

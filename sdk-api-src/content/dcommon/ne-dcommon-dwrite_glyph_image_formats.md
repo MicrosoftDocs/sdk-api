@@ -12,6 +12,8 @@ ms.keywords: DWRITE_GLYPH_IMAGE_FORMATS, DWRITE_GLYPH_IMAGE_FORMATS enumeration 
 ms.topic: enum
 f1_keywords: 
  - "dcommon/DWRITE_GLYPH_IMAGE_FORMATS"
+dev_langs:
+ - c++
 req.header: dcommon.h
 req.include-header: Dwrite_3.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: McastRenewAddress, McastRenewAddress function [MADCAP], _mdhcp_mcas
 ms.topic: function
 f1_keywords:
 - madcapcl/McastRenewAddress
+dev_langs:
+ - c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

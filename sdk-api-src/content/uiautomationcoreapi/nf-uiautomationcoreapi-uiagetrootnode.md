@@ -12,6 +12,8 @@ ms.keywords: UiaGetRootNode, UiaGetRootNode function [Windows Accessibility], ui
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaGetRootNode"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

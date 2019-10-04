@@ -12,6 +12,8 @@ ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflus
 ms.topic: function
 f1_keywords: 
  - "winreg/RegFlushKey"
+dev_langs:
+ - c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

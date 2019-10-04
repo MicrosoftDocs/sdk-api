@@ -12,6 +12,8 @@ ms.keywords: GetLocalizedString, GetLocalizedString method [Windows Accessibilit
 ms.topic: method
 f1_keywords: 
  - "msaatext/IAccDictionary.GetLocalizedString"
+dev_langs:
+ - c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

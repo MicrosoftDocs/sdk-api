@@ -12,6 +12,8 @@ ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_
 ms.topic: struct
 f1_keywords: 
  - "strmif/DVD_MUA_MixingInfo"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen
 ms.topic: function
 f1_keywords: 
  - "winsock2/listen"
+dev_langs:
+ - c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

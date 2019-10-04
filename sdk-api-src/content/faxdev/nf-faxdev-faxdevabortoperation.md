@@ -12,6 +12,8 @@ ms.keywords: FaxDevAbortOperation, FaxDevAbortOperation function [Fax Service], 
 ms.topic: function
 f1_keywords: 
  - "faxdev/FaxDevAbortOperation"
+dev_langs:
+ - c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

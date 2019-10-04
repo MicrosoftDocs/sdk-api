@@ -12,6 +12,8 @@ ms.keywords: GetFileTimes, GetFileTimes method [Offline Files], GetFileTimes met
 ms.topic: method
 f1_keywords: 
  - "cscobj/IOfflineFilesSyncErrorItemInfo.GetFileTimes"
+dev_langs:
+ - c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

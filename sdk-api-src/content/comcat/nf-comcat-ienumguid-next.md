@@ -12,6 +12,8 @@ ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::N
 ms.topic: method
 f1_keywords: 
  - "comcat/IEnumGUID.Next"
+dev_langs:
+ - c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

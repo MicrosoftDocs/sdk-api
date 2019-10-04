@@ -12,6 +12,8 @@ ms.keywords: "*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR s
 ms.topic: struct
 f1_keywords: 
  - "qospol/IDPE_ATTR"
+dev_langs:
+ - c++
 req.header: qospol.h
 req.include-header: 
 req.target-type: Windows

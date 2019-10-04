@@ -12,6 +12,8 @@ ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY
 ms.topic: function
 f1_keywords: 
  - "winbase/CopyFileEx"
+dev_langs:
+ - c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

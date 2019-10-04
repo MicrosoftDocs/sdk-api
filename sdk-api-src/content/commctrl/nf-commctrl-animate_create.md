@@ -12,6 +12,8 @@ ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Ani
 ms.topic: macro
 f1_keywords: 
  - "commctrl/Animate_Create"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

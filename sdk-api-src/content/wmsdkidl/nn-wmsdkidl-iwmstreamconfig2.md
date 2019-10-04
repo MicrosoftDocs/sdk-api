@@ -12,6 +12,8 @@ ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format]
 ms.topic: interface
 f1_keywords: 
  - "wmsdkidl/IWMStreamConfig2"
+dev_langs:
+ - c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

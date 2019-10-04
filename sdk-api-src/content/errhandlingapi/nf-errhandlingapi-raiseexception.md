@@ -12,6 +12,8 @@ ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, bas
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/RaiseException"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

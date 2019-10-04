@@ -12,6 +12,8 @@ ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPa
 ms.topic: method
 f1_keywords: 
  - "cluadmex/IWCWizardCallback.AddWizardPage"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

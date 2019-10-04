@@ -12,6 +12,8 @@ ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProg
 ms.topic: interface
 f1_keywords: 
  - "imapi2fs/IEnumProgressItems"
+dev_langs:
+ - c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_HBAPORT_PROP, VDS_HBAPORT_PROP structure [VDS], base.vds_hbapor
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_HBAPORT_PROP
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

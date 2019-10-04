@@ -12,6 +12,8 @@ ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToR
 ms.topic: method
 f1_keywords: 
  - "directmanipulation/IDirectManipulationViewport.ZoomToRect"
+dev_langs:
+ - c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

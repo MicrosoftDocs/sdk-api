@@ -12,6 +12,8 @@ ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Man
 ms.topic: method
 f1_keywords: 
  - "fsrm/IFsrmExportImport.ExportFileGroups"
+dev_langs:
+ - c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

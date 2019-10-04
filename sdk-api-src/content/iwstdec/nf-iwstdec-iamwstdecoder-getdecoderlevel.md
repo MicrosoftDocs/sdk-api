@@ -12,6 +12,8 @@ ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLev
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetDecoderLevel
+dev_langs:
+ - c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

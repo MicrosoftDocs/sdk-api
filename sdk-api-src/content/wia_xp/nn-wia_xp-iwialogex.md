@@ -12,6 +12,8 @@ ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],des
 ms.topic: interface
 f1_keywords: 
  - "wia_xp/IWiaLogEx"
+dev_langs:
+ - c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

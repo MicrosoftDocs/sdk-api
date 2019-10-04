@@ -12,6 +12,8 @@ ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_ak
 ms.topic: struct
 f1_keywords: 
  - "htmlhelp/HH_AKLINK"
+dev_langs:
+ - c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

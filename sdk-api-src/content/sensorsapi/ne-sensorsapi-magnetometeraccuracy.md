@@ -12,6 +12,8 @@ ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enume
 ms.topic: enum
 f1_keywords: 
  - "sensorsapi/MagnetometerAccuracy"
+dev_langs:
+ - c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

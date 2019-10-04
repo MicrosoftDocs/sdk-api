@@ -12,6 +12,8 @@ ms.keywords: IContactCollection interface [Windows Contacts],Reset method, ICont
 ms.topic: method
 f1_keywords: 
  - "icontact/IContactCollection.Reset"
+dev_langs:
+ - c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

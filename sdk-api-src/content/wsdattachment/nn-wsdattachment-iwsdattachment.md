@@ -12,6 +12,8 @@ ms.keywords: IWSDAttachment, IWSDAttachment interface, IWSDAttachment interface,
 ms.topic: interface
 f1_keywords: 
  - "wsdattachment/IWSDAttachment"
+dev_langs:
+ - c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: COMMUNICATION_INT, CONFLICT_DONE, FSM_STATE, FSM_STATE enumeration 
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/FSM_STATE
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

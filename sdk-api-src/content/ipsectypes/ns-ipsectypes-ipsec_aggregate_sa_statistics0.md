@@ -12,6 +12,8 @@ ms.keywords: IPSEC_AGGREGATE_SA_STATISTICS0, IPSEC_AGGREGATE_SA_STATISTICS0 stru
 ms.topic: struct
 f1_keywords: 
  - "ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0"
+dev_langs:
+ - c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

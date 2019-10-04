@@ -12,6 +12,8 @@ ms.keywords: GetStreamDescriptorCount, GetStreamDescriptorCount method [Media Fo
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFPresentationDescriptor.GetStreamDescriptorCount"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

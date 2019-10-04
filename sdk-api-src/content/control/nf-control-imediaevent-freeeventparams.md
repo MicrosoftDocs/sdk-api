@@ -12,6 +12,8 @@ ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventPara
 ms.topic: method
 f1_keywords: 
  - "control/IMediaEvent.FreeEventParams"
+dev_langs:
+ - c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

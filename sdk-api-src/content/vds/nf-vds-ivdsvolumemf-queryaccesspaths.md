@@ -12,6 +12,8 @@ ms.keywords: IVdsVolumeMF interface [VDS],QueryAccessPaths method, IVdsVolumeMF.
 ms.topic: method
 f1_keywords: 
  - "vds/IVdsVolumeMF.QueryAccessPaths"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

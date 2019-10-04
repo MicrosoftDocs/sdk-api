@@ -12,6 +12,8 @@ ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interf
 ms.topic: interface
 f1_keywords: 
  - "camerauicontrol/ICameraUIControlEventCallback"
+dev_langs:
+ - c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

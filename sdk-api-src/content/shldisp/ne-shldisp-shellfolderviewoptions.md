@@ -12,6 +12,8 @@ ms.keywords: SFVVO_DESKTOPHTML, SFVVO_DOUBLECLICKINWEBVIEW, SFVVO_SHOWALLOBJECTS
 ms.topic: enum
 f1_keywords: 
  - "shldisp/ShellFolderViewOptions"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

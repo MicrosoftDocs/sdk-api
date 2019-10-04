@@ -12,6 +12,8 @@ ms.keywords: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, WMP_WMDM_METADATA_ROUND_TRI
 ms.topic: struct
 f1_keywords: 
  - "wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE"
+dev_langs:
+ - c++
 req.header: wmpdevices.h
 req.include-header: 
 req.target-type: Windows

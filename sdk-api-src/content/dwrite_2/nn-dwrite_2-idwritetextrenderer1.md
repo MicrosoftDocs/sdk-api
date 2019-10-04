@@ -12,6 +12,8 @@ ms.keywords: IDWriteTextRenderer1, IDWriteTextRenderer1 interface [Direct Write]
 ms.topic: interface
 f1_keywords: 
  - "dwrite_2/IDWriteTextRenderer1"
+dev_langs:
+ - c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

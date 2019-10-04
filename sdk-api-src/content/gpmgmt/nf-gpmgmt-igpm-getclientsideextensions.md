@@ -12,6 +12,8 @@ ms.keywords: GPM object [GPMC],GetClientSideExtensions method, GetClientSideExte
 ms.topic: method
 f1_keywords: 
  - "gpmgmt/IGPM.GetClientSideExtensions"
+dev_langs:
+ - c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

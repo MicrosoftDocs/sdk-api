@@ -12,6 +12,8 @@ ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], Dum
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICOMAdminCatalog2.DumpApplicationInstance"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: WinBioDeleteTemplate, WinBioDeleteTemplate function [Windows Biomet
 ms.topic: function
 f1_keywords:
 - winbio/WinBioDeleteTemplate
+dev_langs:
+ - c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

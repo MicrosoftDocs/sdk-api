@@ -12,6 +12,8 @@ ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrS
 ms.topic: function
 f1_keywords: 
  - "intsafe/DWordPtrSub"
+dev_langs:
+ - c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

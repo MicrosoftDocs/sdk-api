@@ -12,6 +12,8 @@ ms.keywords: IDWriteFontFileStream interface [Direct Write],ReadFileFragment met
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteFontFileStream.ReadFileFragment"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

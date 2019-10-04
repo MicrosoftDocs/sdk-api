@@ -12,6 +12,8 @@ ms.keywords: GetInputChannelCount, GetInputChannelCount method [Audio Devices], 
 ms.topic: method
 f1_keywords: 
  - "audioenginebaseapo/IAudioProcessingObject.GetInputChannelCount"
+dev_langs:
+ - c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

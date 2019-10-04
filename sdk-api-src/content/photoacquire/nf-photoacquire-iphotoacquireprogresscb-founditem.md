@@ -12,6 +12,8 @@ ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method
 ms.topic: method
 f1_keywords: 
  - "photoacquire/IPhotoAcquireProgressCB.FoundItem"
+dev_langs:
+ - c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

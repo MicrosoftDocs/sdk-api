@@ -12,6 +12,8 @@ ms.keywords: "*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRE
 ms.topic: struct
 f1_keywords: 
  - "msclus/RESOURCE_FAILURE_INFO_BUFFER"
+dev_langs:
+ - c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

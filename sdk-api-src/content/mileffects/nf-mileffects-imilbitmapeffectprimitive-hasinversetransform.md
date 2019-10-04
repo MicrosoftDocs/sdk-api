@@ -12,6 +12,8 @@ ms.keywords: HasInverseTransform, HasInverseTransform method [WPF Bitmap Effects
 ms.topic: method
 f1_keywords: 
  - "mileffects/IMILBitmapEffectPrimitive.HasInverseTransform"
+dev_langs:
+ - c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

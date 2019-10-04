@@ -12,6 +12,8 @@ ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobj
 ms.topic: function
 f1_keywords: 
  - "synchapi/SignalObjectAndWait"
+dev_langs:
+ - c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

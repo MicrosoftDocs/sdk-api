@@ -12,6 +12,8 @@ ms.keywords: GetDeviceDescription, GetDeviceDescription method [Windows Portable
 ms.topic: method
 f1_keywords: 
  - "portabledeviceapi/IPortableDeviceManager.GetDeviceDescription"
+dev_langs:
+ - c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

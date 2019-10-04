@@ -12,6 +12,8 @@ ms.keywords: SwDeviceInterfaceRegister, SwDeviceInterfaceRegister function, swde
 ms.topic: function
 f1_keywords: 
  - "swdevice/SwDeviceInterfaceRegister"
+dev_langs:
+ - c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

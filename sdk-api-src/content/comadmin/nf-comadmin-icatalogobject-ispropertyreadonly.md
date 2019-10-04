@@ -12,6 +12,8 @@ ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalog
 ms.topic: method
 f1_keywords: 
  - "comadmin/ICatalogObject.IsPropertyReadOnly"
+dev_langs:
+ - c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

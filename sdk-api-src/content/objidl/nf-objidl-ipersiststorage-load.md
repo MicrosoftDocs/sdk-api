@@ -12,6 +12,8 @@ ms.keywords: IPersistStorage interface [COM],Load method, IPersistStorage.Load, 
 ms.topic: method
 f1_keywords: 
  - "objidl/IPersistStorage.Load"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

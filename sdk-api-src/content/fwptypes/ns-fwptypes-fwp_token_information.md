@@ -12,6 +12,8 @@ ms.keywords: FWP_TOKEN_INFORMATION, FWP_TOKEN_INFORMATION structure [Filtering],
 ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_TOKEN_INFORMATION
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

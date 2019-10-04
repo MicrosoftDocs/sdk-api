@@ -12,6 +12,8 @@ ms.keywords: IRealTimeStylus2 interface [Tablet PC],get_FlicksEnabled method, IR
 ms.topic: method
 f1_keywords: 
  - "rtscom/IRealTimeStylus2.get_FlicksEnabled"
+dev_langs:
+ - c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

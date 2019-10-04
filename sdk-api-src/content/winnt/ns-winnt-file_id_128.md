@@ -12,6 +12,8 @@ ms.keywords: '*PFILE_ID_128, EXT_FILE_ID_128, EXT_FILE_ID_128 structure [Files],
 ms.topic: struct
 f1_keywords:
 - winnt/EXT_FILE_ID_128
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

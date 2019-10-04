@@ -12,6 +12,8 @@ ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Window
 ms.topic: function
 f1_keywords: 
  - "shlwapi/SHGlobalCounterDecrement"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

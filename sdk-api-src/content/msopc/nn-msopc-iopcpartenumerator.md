@@ -12,6 +12,8 @@ ms.keywords: IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Co
 ms.topic: interface
 f1_keywords: 
  - "msopc/IOpcPartEnumerator"
+dev_langs:
+ - c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontex
 ms.topic: function
 f1_keywords:
 - processthreadsapi/SetThreadContext
+dev_langs:
+ - c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion, Ge
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFSampleProtection.GetInputProtectionVersion"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

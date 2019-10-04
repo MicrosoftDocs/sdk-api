@@ -12,6 +12,8 @@ ms.keywords: '*LPQOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC structure [QOS], QOS_TCP_TR
 ms.topic: struct
 f1_keywords:
 - qosobjs/QOS_TCP_TRAFFIC
+dev_langs:
+ - c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows

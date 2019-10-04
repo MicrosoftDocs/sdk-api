@@ -12,6 +12,8 @@ ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAss
 ms.topic: method
 f1_keywords: 
  - "rometadataapi/IMetaDataAssemblyImport.GetAssemblyProps"
+dev_langs:
+ - c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

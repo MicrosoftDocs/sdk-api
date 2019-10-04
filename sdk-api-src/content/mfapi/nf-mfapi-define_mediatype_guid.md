@@ -12,6 +12,8 @@ ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundatio
 ms.topic: macro
 f1_keywords: 
  - "mfapi/DEFINE_MEDIATYPE_GUID"
+dev_langs:
+ - c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

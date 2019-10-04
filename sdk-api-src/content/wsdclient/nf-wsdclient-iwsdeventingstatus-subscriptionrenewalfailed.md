@@ -12,6 +12,8 @@ ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSD
 ms.topic: method
 f1_keywords: 
  - "wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed"
+dev_langs:
+ - c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VDS_FILE_SYSTEM_FLAG, VDS_FILE_SYSTEM_FLAG enumeration [VDS], VDS_F
 ms.topic: enum
 f1_keywords:
 - vds/VDS_FILE_SYSTEM_FLAG
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

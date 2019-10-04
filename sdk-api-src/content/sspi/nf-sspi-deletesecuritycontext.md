@@ -12,6 +12,8 @@ ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _
 ms.topic: function
 f1_keywords: 
  - "sspi/DeleteSecurityContext"
+dev_langs:
+ - c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

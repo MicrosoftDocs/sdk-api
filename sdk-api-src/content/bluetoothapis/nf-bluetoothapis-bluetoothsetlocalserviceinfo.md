@@ -12,6 +12,8 @@ ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function
 ms.topic: function
 f1_keywords: 
  - "bluetoothapis/BluetoothSetLocalServiceInfo"
+dev_langs:
+ - c++
 req.header: bluetoothapis.h
 req.include-header: 
 req.target-type: Universal

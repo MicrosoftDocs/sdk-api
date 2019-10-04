@@ -12,6 +12,8 @@ ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operat
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/CharacterRange.operator="
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

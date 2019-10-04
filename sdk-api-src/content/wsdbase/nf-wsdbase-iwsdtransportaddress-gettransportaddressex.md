@@ -12,6 +12,8 @@ ms.keywords: GetTransportAddressEx, GetTransportAddressEx method, GetTransportAd
 ms.topic: method
 f1_keywords: 
  - "wsdbase/IWSDTransportAddress.GetTransportAddressEx"
+dev_langs:
+ - c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

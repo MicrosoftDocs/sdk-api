@@ -12,6 +12,8 @@ ms.keywords: D3D_PARAMETER_FLAGS, D3D_PARAMETER_FLAGS enumeration [Direct3D 11],
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_PARAMETER_FLAGS
+dev_langs:
+ - c++
 req.header: d3dcommon.h
 req.include-header: D3D11Shader.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetRecordFrequency, GetRecordFrequency method [Microsoft TV Technol
 ms.topic: method
 f1_keywords: 
  - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetRecordFrequency"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

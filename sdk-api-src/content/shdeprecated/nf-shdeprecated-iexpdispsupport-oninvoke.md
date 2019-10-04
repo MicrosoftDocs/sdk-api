@@ -12,6 +12,8 @@ ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPAT
 ms.topic: method
 f1_keywords: 
  - "shdeprecated/IExpDispSupport.OnInvoke"
+dev_langs:
+ - c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

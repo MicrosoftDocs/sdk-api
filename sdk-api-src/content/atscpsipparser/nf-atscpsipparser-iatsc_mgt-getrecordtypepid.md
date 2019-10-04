@@ -12,6 +12,8 @@ ms.keywords: GetRecordTypePid, GetRecordTypePid method [Microsoft TV Technologie
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IATSC_MGT.GetRecordTypePid"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

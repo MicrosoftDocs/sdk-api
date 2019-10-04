@@ -12,6 +12,8 @@ ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [M
 ms.topic: method
 f1_keywords: 
  - "mfmediaengine/IMFMediaEngine.GetVolume"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

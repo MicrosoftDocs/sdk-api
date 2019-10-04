@@ -12,6 +12,8 @@ ms.keywords: Bitmap class [GDI+],GetHICON method, Bitmap.GetHICON, Bitmap::GetHI
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/Bitmap.GetHICON"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetAltTabInfo, GetAltTabInfo function [Windows and Messages], GetAl
 ms.topic: function
 f1_keywords: 
  - "winuser/GetAltTabInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

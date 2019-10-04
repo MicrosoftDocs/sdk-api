@@ -12,6 +12,8 @@ ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [Nati
 ms.topic: method
 f1_keywords: 
  - "adhoc/IDot11AdHocManager.GetIEnumDot11AdHocNetworks"
+dev_langs:
+ - c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

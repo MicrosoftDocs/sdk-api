@@ -12,6 +12,8 @@ ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation 
 ms.topic: function
 f1_keywords:
 - tdh/TdhQueryProviderFieldInformation
+dev_langs:
+ - c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

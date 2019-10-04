@@ -12,6 +12,8 @@ ms.keywords: '*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBU
 ms.topic: struct
 f1_keywords:
 - authif/RADIUS_ATTRIBUTE_ARRAY
+dev_langs:
+ - c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility
 ms.topic: struct
 f1_keywords: 
  - "uiautomationclient/ExtendedProperty"
+dev_langs:
+ - c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

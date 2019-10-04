@@ -12,6 +12,8 @@ ms.keywords: '*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_ENUM_INFO
+dev_langs:
+ - c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

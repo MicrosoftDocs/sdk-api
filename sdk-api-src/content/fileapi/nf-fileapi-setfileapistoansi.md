@@ -12,6 +12,8 @@ ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfi
 ms.topic: function
 f1_keywords: 
  - "fileapi/SetFileApisToANSI"
+dev_langs:
+ - c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

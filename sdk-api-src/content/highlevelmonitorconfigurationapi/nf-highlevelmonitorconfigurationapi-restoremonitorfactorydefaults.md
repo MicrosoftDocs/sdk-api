@@ -12,6 +12,8 @@ ms.keywords: RestoreMonitorFactoryDefaults, RestoreMonitorFactoryDefaults functi
 ms.topic: function
 f1_keywords: 
  - "highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults"
+dev_langs:
+ - c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

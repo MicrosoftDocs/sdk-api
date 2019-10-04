@@ -12,6 +12,8 @@ ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorT
 ms.topic: method
 f1_keywords: 
  - "strmif/IAMClockSlave.GetErrorTolerance"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

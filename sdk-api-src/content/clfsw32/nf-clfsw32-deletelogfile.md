@@ -12,6 +12,8 @@ ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFil
 ms.topic: function
 f1_keywords: 
  - "clfsw32/DeleteLogFile"
+dev_langs:
+ - c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

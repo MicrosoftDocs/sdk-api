@@ -12,6 +12,8 @@ ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function
 ms.topic: function
 f1_keywords: 
  - "shobjidl_core/SHLoadLibraryFromKnownFolder"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

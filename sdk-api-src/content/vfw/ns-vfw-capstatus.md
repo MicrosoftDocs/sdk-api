@@ -12,6 +12,8 @@ ms.keywords: "*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "vfw/CAPSTATUS"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

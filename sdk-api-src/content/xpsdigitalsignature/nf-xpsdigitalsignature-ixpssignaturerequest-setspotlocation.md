@@ -12,6 +12,8 @@ ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSpo
 ms.topic: method
 f1_keywords: 
  - "xpsdigitalsignature/IXpsSignatureRequest.SetSpotLocation"
+dev_langs:
+ - c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

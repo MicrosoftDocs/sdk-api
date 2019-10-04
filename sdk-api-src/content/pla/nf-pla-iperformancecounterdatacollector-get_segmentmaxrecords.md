@@ -12,6 +12,8 @@ ms.keywords: IPerformanceCounterDataCollector interface [PLA],SegmentMaxRecords 
 ms.topic: method
 f1_keywords: 
  - "pla/IPerformanceCounterDataCollector.SegmentMaxRecords"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

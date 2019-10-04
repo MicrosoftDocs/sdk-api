@@ -12,6 +12,8 @@ ms.keywords: CF_OPEN_FILE_FLAGS, CF_OPEN_FILE_FLAGS enumeration, CF_OPEN_FILE_FL
 ms.topic: enum
 f1_keywords: 
  - "cfapi/CF_OPEN_FILE_FLAGS"
+dev_langs:
+ - c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

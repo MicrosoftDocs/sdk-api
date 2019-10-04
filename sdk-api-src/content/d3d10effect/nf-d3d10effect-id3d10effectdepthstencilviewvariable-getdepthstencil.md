@@ -12,6 +12,8 @@ ms.keywords: 852af7c1-873e-c51e-adfe-23b78be73a12, GetDepthStencil, GetDepthSten
 ms.topic: method
 f1_keywords: 
  - "d3d10effect/ID3D10EffectDepthStencilViewVariable.GetDepthStencil"
+dev_langs:
+ - c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

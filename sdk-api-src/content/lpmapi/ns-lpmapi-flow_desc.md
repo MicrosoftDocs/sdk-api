@@ -12,6 +12,8 @@ ms.keywords: FLOW_DESC, FLOW_DESC structure [QOS], lpmapi/FLOW_DESC, qos.flow_de
 ms.topic: struct
 f1_keywords: 
  - "lpmapi/FLOW_DESC"
+dev_langs:
+ - c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

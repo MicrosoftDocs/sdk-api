@@ -12,6 +12,8 @@ ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionComma
 ms.topic: method
 f1_keywords:
 - strmif/IAMCertifiedOutputProtection.ProtectionCommand
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

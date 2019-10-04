@@ -12,6 +12,8 @@ ms.keywords: "*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE
 ms.topic: struct
 f1_keywords: 
  - "routprot/MPR50_ROUTING_CHARACTERISTICS"
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

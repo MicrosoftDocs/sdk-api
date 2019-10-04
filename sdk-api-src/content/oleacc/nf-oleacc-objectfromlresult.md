@@ -12,6 +12,8 @@ ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibilit
 ms.topic: function
 f1_keywords: 
  - "oleacc/ObjectFromLresult"
+dev_langs:
+ - c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

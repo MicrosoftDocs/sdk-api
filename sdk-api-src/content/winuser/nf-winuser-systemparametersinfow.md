@@ -12,6 +12,8 @@ ms.keywords: SPIF_SENDCHANGE, SPIF_SENDWININICHANGE, SPIF_UPDATEINIFILE, SPI_GET
 ms.topic: function
 f1_keywords: 
  - "winuser/SystemParametersInfo"
+dev_langs:
+ - c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

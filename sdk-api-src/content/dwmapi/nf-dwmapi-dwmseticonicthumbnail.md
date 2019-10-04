@@ -12,6 +12,8 @@ ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbna
 ms.topic: function
 f1_keywords: 
  - "dwmapi/DwmSetIconicThumbnail"
+dev_langs:
+ - c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

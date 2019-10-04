@@ -12,6 +12,8 @@ ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPS
 ms.topic: method
 f1_keywords: 
  - "rdpencomapi/IRDPSRAPITcpConnectionInfo.Protocol"
+dev_langs:
+ - c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

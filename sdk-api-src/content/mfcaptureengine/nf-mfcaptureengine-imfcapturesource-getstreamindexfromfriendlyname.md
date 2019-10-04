@@ -12,6 +12,8 @@ ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName meth
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCaptureSource.GetStreamIndexFromFriendlyName"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, Ras
 ms.topic: function
 f1_keywords: 
  - "ras/RasRenameEntry"
+dev_langs:
+ - c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

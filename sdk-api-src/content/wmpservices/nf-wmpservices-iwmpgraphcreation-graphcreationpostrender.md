@@ -12,6 +12,8 @@ ms.keywords: GraphCreationPostRender, GraphCreationPostRender method [Windows Me
 ms.topic: method
 f1_keywords: 
  - "wmpservices/IWMPGraphCreation.GraphCreationPostRender"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

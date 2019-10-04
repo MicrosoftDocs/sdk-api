@@ -12,6 +12,8 @@ ms.keywords: IBandHost interface [Windows Shell],SetBandAvailability method, IBa
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IBandHost.SetBandAvailability"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

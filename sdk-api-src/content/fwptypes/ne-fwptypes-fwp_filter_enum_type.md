@@ -12,6 +12,8 @@ ms.keywords: FWP_FILTER_ENUM_FULLY_CONTAINED, FWP_FILTER_ENUM_OVERLAPPING, FWP_F
 ms.topic: enum
 f1_keywords: 
  - "fwptypes/FWP_FILTER_ENUM_TYPE"
+dev_langs:
+ - c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

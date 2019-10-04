@@ -12,6 +12,8 @@ ms.keywords: VarBstrFromDisp, VarBstrFromDisp function [Automation], _oa96_VarBs
 ms.topic: function
 f1_keywords: 
  - "oleauto/VarBstrFromDisp"
+dev_langs:
+ - c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

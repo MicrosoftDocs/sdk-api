@@ -12,6 +12,8 @@ ms.keywords: ISearchCompletedCallback, ISearchCompletedCallback interface [Windo
 ms.topic: interface
 f1_keywords: 
  - "wuapi/ISearchCompletedCallback"
+dev_langs:
+ - c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

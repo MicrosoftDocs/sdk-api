@@ -12,6 +12,8 @@ ms.keywords: DCICloseProvider, DCICloseProvider function [Windows API], _dciman_
 ms.topic: function
 f1_keywords: 
  - "dciman/DCICloseProvider"
+dev_langs:
+ - c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

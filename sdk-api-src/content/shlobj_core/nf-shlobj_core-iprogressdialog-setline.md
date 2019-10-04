@@ -12,6 +12,8 @@ ms.keywords: IProgressDialog interface [Windows Shell],SetLine method, IProgress
 ms.topic: method
 f1_keywords: 
  - "shlobj_core/IProgressDialog.SetLine"
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

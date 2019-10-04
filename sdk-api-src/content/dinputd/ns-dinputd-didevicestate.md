@@ -12,6 +12,8 @@ ms.keywords: "*LPDIDEVICESTATE, DIDEVICESTATE, DIDEVICESTATE structure [Human In
 ms.topic: struct
 f1_keywords: 
  - "dinputd/DIDEVICESTATE"
+dev_langs:
+ - c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

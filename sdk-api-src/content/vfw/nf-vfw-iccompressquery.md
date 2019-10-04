@@ -12,6 +12,8 @@ ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32
 ms.topic: macro
 f1_keywords: 
  - "vfw/ICCompressQuery"
+dev_langs:
+ - c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

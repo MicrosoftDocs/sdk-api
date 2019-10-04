@@ -12,6 +12,8 @@ ms.keywords: OFASI_EDIT, OFASI_OPENDESKTOP, SHOpenFolderAndSelectItems, SHOpenFo
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHOpenFolderAndSelectItems
+dev_langs:
+ - c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

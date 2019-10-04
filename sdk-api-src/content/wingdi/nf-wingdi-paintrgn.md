@@ -12,6 +12,8 @@ ms.keywords: PaintRgn, PaintRgn function [Windows GDI], _win32_PaintRgn, gdi.pai
 ms.topic: function
 f1_keywords: 
  - "wingdi/PaintRgn"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

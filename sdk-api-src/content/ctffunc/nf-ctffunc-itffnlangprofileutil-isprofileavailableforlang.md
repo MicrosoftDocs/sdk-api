@@ -12,6 +12,8 @@ ms.keywords: ITfFnLangProfileUtil interface [Text Services Framework],IsProfileA
 ms.topic: method
 f1_keywords: 
  - "ctffunc/ITfFnLangProfileUtil.IsProfileAvailableForLang"
+dev_langs:
+ - c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

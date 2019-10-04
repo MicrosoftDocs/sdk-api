@@ -12,6 +12,8 @@ ms.keywords: CONDITION_OPERATION, CONDITION_OPERATION enumeration [search], COP_
 ms.topic: enum
 f1_keywords: 
  - "structuredquerycondition/CONDITION_OPERATION"
+dev_langs:
+ - c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

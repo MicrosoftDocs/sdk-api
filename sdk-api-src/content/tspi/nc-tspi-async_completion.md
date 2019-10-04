@@ -12,6 +12,8 @@ ms.keywords: ASYNC_COMPLETION, ASYNC_COMPLETION callback, CompletionProc, Comple
 ms.topic: callback
 f1_keywords: 
  - "tspi/CompletionProc"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProc
 ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessor.GetProcAmpRange
+dev_langs:
+ - c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

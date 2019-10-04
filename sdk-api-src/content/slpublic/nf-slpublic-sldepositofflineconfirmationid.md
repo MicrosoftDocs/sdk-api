@@ -12,6 +12,8 @@ ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId func
 ms.topic: function
 f1_keywords: 
  - "slpublic/SLDepositOfflineConfirmationId"
+dev_langs:
+ - c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

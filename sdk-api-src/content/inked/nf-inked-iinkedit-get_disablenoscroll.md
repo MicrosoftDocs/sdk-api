@@ -12,6 +12,8 @@ ms.keywords: DisableNoScroll property [Tablet PC], DisableNoScroll property [Tab
 ms.topic: method
 f1_keywords: 
  - "inked/IInkEdit.DisableNoScroll"
+dev_langs:
+ - c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

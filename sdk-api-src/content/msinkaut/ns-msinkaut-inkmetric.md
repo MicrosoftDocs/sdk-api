@@ -12,6 +12,8 @@ ms.keywords: "*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_F
 ms.topic: struct
 f1_keywords: 
  - "msinkaut/INKMETRIC"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

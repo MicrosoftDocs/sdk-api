@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundat
 ms.topic: method
 f1_keywords: 
  - "wmcontainer/IMFASFStreamPrioritization.Clone"
+dev_langs:
+ - c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

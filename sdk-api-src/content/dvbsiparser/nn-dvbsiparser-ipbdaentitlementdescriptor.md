@@ -12,6 +12,8 @@ ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [M
 ms.topic: interface
 f1_keywords: 
  - "dvbsiparser/IPBDAEntitlementDescriptor"
+dev_langs:
+ - c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

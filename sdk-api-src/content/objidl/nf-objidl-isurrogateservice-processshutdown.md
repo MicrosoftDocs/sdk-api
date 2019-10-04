@@ -12,6 +12,8 @@ ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogat
 ms.topic: method
 f1_keywords: 
  - "objidl/ISurrogateService.ProcessShutdown"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

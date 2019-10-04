@@ -12,6 +12,8 @@ ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDis
 ms.topic: interface
 f1_keywords: 
  - "dxgi1_2/IDXGIDisplayControl"
+dev_langs:
+ - c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

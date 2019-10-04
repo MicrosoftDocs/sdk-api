@@ -12,6 +12,8 @@ ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, 
 ms.topic: function
 f1_keywords: 
  - "winldap/ldap_encode_sort_control"
+dev_langs:
+ - c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

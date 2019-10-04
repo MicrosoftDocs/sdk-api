@@ -12,6 +12,8 @@ ms.keywords: IntlStrEqN, IntlStrEqN function [Windows Shell], IntlStrEqNA, IntlS
 ms.topic: macro
 f1_keywords: 
  - "shlwapi/IntlStrEqN"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

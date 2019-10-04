@@ -12,6 +12,8 @@ ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively propert
 ms.topic: method
 f1_keywords: 
  - "pla/IApiTracingDataCollector.LogApisRecursively"
+dev_langs:
+ - c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

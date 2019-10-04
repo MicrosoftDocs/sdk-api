@@ -12,6 +12,8 @@ ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokeDisp interface [Tab
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkStrokeDisp.Shear"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

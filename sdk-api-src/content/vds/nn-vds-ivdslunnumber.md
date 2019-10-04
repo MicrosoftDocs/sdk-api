@@ -12,6 +12,8 @@ ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,des
 ms.topic: interface
 f1_keywords: 
  - "vds/IVdsLunNumber"
+dev_langs:
+ - c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

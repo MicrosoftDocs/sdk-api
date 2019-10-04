@@ -12,6 +12,8 @@ ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_se
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetAclInformation
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

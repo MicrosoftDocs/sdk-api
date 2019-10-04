@@ -12,6 +12,8 @@ ms.keywords: "*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SOR
 ms.topic: struct
 f1_keywords: 
  - "iads/ADS_SORTKEY"
+dev_langs:
+ - c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

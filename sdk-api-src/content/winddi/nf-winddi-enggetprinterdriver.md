@@ -12,6 +12,8 @@ ms.keywords: EngGetPrinterDriver, EngGetPrinterDriver function [Display Devices]
 ms.topic: function
 f1_keywords: 
  - "winddi/EngGetPrinterDriver"
+dev_langs:
+ - c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -12,6 +12,8 @@ ms.keywords: D3D11_DSV_DIMENSION, D3D11_DSV_DIMENSION enumeration [Direct3D 11],
 ms.topic: enum
 f1_keywords: 
  - "d3d11/D3D11_DSV_DIMENSION"
+dev_langs:
+ - c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

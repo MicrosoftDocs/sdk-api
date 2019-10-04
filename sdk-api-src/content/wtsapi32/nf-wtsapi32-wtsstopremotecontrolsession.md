@@ -12,6 +12,8 @@ ms.keywords: WTSStopRemoteControlSession, WTSStopRemoteControlSession function [
 ms.topic: function
 f1_keywords: 
  - "wtsapi32/WTSStopRemoteControlSession"
+dev_langs:
+ - c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

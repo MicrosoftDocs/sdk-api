@@ -12,6 +12,8 @@ ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initi
 ms.topic: method
 f1_keywords: 
  - "certenroll/ICspStatus.Initialize"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

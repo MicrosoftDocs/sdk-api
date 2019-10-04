@@ -12,6 +12,8 @@ ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Micro
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_DigitalDemodulator2"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

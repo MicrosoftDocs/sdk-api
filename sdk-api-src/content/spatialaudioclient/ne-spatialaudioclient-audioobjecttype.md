@@ -12,6 +12,8 @@ ms.keywords: AudioObjectType, AudioObjectType enumeration [Core Audio], AudioObj
 ms.topic: enum
 f1_keywords: 
  - "spatialaudioclient/AudioObjectType"
+dev_langs:
+ - c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

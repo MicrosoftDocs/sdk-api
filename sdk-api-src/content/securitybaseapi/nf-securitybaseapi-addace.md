@@ -12,6 +12,8 @@ ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace,
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AddAce
+dev_langs:
+ - c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

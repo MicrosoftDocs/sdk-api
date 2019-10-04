@@ -12,6 +12,8 @@ ms.keywords: "_win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multim
 ms.topic: function
 f1_keywords: 
  - "mmiscapi/mmioAscend"
+dev_langs:
+ - c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

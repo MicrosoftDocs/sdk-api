@@ -12,6 +12,8 @@ ms.keywords: FINDEX_SEARCH_OPS, FINDEX_SEARCH_OPS enumeration [Files], FindExSea
 ms.topic: enum
 f1_keywords: 
  - "minwinbase/FINDEX_SEARCH_OPS"
+dev_langs:
+ - c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

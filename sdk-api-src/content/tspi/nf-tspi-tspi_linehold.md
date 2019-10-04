@@ -12,6 +12,8 @@ ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_lineho
 ms.topic: function
 f1_keywords: 
  - "tspi/TSPI_lineHold"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IConfigAviMux interface [DirectShow],SetMasterStream method, IConfi
 ms.topic: method
 f1_keywords: 
  - "strmif/IConfigAviMux.SetMasterStream"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

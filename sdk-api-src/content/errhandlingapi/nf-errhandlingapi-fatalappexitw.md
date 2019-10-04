@@ -12,6 +12,8 @@ ms.keywords: FatalAppExit, FatalAppExit function, FatalAppExitA, FatalAppExitW, 
 ms.topic: function
 f1_keywords: 
  - "errhandlingapi/FatalAppExit"
+dev_langs:
+ - c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

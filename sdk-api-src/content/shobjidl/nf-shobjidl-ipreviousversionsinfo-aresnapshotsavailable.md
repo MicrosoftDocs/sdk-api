@@ -12,6 +12,8 @@ ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell]
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IPreviousVersionsInfo.AreSnapshotsAvailable"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: MsiGetSourcePath, MsiGetSourcePath function, MsiGetSourcePathA, Msi
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiGetSourcePath"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

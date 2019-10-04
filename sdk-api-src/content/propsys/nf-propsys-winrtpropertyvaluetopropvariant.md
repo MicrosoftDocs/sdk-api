@@ -12,6 +12,8 @@ ms.keywords: WinRTPropertyValueToPropVariant, WinRTPropertyValueToPropVariant fu
 ms.topic: function
 f1_keywords: 
  - "propsys/WinRTPropertyValueToPropVariant"
+dev_langs:
+ - c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

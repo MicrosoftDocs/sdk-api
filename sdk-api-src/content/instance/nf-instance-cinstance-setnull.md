@@ -12,6 +12,8 @@ ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Manag
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.SetNull"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

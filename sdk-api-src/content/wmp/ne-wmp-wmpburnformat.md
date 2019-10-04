@@ -12,6 +12,8 @@ ms.keywords: WMPBurnFormat, WMPBurnFormat enumeration [Windows Media Player], wm
 ms.topic: enum
 f1_keywords: 
  - "wmp/WMPBurnFormat"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

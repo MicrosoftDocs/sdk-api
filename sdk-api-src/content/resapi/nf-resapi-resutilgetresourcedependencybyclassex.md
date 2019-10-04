@@ -12,6 +12,8 @@ ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE
 ms.topic: function
 f1_keywords: 
  - "resapi/ResUtilGetResourceDependencyByClassEx"
+dev_langs:
+ - c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

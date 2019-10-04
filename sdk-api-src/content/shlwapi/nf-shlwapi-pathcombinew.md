@@ -12,6 +12,8 @@ ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, Pa
 ms.topic: function
 f1_keywords: 
  - "shlwapi/PathCombine"
+dev_langs:
+ - c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

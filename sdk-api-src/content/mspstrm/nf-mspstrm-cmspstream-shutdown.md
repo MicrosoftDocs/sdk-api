@@ -12,6 +12,8 @@ ms.keywords: CMSPStream interface [TAPI 2.2],ShutDown method, CMSPStream.ShutDow
 ms.topic: method
 f1_keywords: 
  - "mspstrm/CMSPStream.ShutDown"
+dev_langs:
+ - c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

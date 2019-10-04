@@ -12,6 +12,8 @@ ms.keywords: GetByteRanges, GetByteRanges method [Media Foundation], GetByteRang
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFByteStreamCacheControl2.GetByteRanges"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IEnumAgent interface [TAPI 2.2],Next method, IEnumAgent.Next, IEnum
 ms.topic: method
 f1_keywords: 
  - "tapi3/IEnumAgent.Next"
+dev_langs:
+ - c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

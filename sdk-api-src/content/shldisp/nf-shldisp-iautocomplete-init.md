@@ -12,6 +12,8 @@ ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.
 ms.topic: method
 f1_keywords: 
  - "shldisp/IAutoComplete.Init"
+dev_langs:
+ - c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

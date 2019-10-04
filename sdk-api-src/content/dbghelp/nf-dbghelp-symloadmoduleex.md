@@ -12,6 +12,8 @@ ms.keywords: SLMFLAG_NO_SYMBOLS, SLMFLAG_VIRTUAL, SymLoadModuleEx, SymLoadModule
 ms.topic: function
 f1_keywords:
 - dbghelp/SymLoadModuleEx
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

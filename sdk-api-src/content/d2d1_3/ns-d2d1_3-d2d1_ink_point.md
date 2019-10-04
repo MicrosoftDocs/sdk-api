@@ -12,6 +12,8 @@ ms.keywords: D2D1_INK_POINT, D2D1_INK_POINT structure [Direct2D], d2d1_3/D2D1_IN
 ms.topic: struct
 f1_keywords: 
  - "d2d1_3/D2D1_INK_POINT"
+dev_langs:
+ - c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

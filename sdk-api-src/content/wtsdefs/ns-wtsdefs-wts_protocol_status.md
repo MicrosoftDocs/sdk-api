@@ -12,6 +12,8 @@ ms.keywords: '*PWTS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATU
 ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_PROTOCOL_STATUS
+dev_langs:
+ - c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IMFCapturePreviewSink interface [Media Foundation],UpdateVideo meth
 ms.topic: method
 f1_keywords: 
  - "mfcaptureengine/IMFCapturePreviewSink.UpdateVideo"
+dev_langs:
+ - c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

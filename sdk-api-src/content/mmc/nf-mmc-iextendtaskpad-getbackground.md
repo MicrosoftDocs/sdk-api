@@ -12,6 +12,8 @@ ms.keywords: GetBackground, GetBackground method [MMC], GetBackground method [MM
 ms.topic: method
 f1_keywords:
 - mmc/IExtendTaskPad.GetBackground
+dev_langs:
+ - c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

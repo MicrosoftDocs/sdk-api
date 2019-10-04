@@ -12,6 +12,8 @@ ms.keywords: '*PCERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

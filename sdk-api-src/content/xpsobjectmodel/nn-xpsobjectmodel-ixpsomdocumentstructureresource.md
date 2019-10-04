@@ -12,6 +12,8 @@ ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource in
 ms.topic: interface
 f1_keywords: 
  - "xpsobjectmodel/IXpsOMDocumentStructureResource"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

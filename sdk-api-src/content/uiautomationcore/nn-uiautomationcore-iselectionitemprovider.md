@@ -12,6 +12,8 @@ ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows A
 ms.topic: interface
 f1_keywords: 
  - "uiautomationcore/ISelectionItemProvider"
+dev_langs:
+ - c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

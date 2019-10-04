@@ -12,6 +12,8 @@ ms.keywords: IWMPClosedCaption2, IWMPClosedCaption2 interface [Windows Media Pla
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPClosedCaption2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: FileName property [Fax Service], FileName property [Fax Service],IF
 ms.topic: method
 f1_keywords: 
  - "faxcom/IFaxDoc.FileName"
+dev_langs:
+ - c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

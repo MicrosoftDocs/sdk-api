@@ -12,6 +12,8 @@ ms.keywords: "*LPINTERNET_ASYNC_RESULT, INTERNET_ASYNC_RESULT, INTERNET_ASYNC_RE
 ms.topic: struct
 f1_keywords: 
  - "wininet/INTERNET_ASYNC_RESULT"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

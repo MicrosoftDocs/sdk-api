@@ -12,6 +12,8 @@ ms.keywords: IOCTL_PWM_PIN_SET_POLARITY, IOCTL_PWM_PIN_SET_POLARITY control, IOC
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_SET_POLARITY
+dev_langs:
+ - c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

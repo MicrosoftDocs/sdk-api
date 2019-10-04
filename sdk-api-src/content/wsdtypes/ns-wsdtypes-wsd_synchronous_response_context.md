@@ -12,6 +12,8 @@ ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT 
 ms.topic: struct
 f1_keywords: 
  - "wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT"
+dev_langs:
+ - c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

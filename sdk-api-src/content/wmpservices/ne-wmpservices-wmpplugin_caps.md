@@ -12,6 +12,8 @@ ms.keywords: WMPPlugin_Caps, WMPPlugin_Caps enumeration [Windows Media Player], 
 ms.topic: enum
 f1_keywords: 
  - "wmpservices/WMPPlugin_Caps"
+dev_langs:
+ - c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

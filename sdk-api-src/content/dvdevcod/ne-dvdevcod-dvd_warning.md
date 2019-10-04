@@ -12,6 +12,8 @@ ms.keywords: DVD_WARNING, DVD_WARNING , DVD_WARNING enumeration [DirectShow], DV
 ms.topic: enum
 f1_keywords:
 - dvdevcod/DVD_WARNING
+dev_langs:
+ - c++
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows

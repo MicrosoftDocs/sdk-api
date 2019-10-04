@@ -12,6 +12,8 @@ ms.keywords: IEnumTfProperties, IEnumTfProperties interface [Text Services Frame
 ms.topic: interface
 f1_keywords: 
  - "msctf/IEnumTfProperties"
+dev_langs:
+ - c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

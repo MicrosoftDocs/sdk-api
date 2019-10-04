@@ -12,6 +12,8 @@ ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.
 ms.topic: function
 f1_keywords: 
  - "wingdi/WidenPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

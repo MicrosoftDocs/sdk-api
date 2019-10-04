@@ -12,6 +12,8 @@ ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateContro
 ms.topic: interface
 f1_keywords: 
  - "mfidl/IMFRateControl"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

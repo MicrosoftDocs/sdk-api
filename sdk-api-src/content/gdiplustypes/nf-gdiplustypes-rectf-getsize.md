@@ -12,6 +12,8 @@ ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],RectF class, 
 ms.topic: method
 f1_keywords: 
  - "gdiplustypes/RectF.GetSize"
+dev_langs:
+ - c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

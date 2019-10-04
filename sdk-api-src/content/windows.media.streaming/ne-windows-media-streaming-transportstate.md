@@ -12,6 +12,8 @@ ms.keywords: Last, NoMediaPresent, Paused, Playing, Recording, Stopped, Transiti
 ms.topic: enum
 f1_keywords: 
  - "windows.media.streaming/TransportState"
+dev_langs:
+ - c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: AddClusterGroupSetDependency, AddClusterGroupSetDependency function
 ms.topic: function
 f1_keywords: 
  - "clusapi/AddClusterGroupSetDependency"
+dev_langs:
+ - c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

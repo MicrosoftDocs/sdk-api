@@ -12,6 +12,8 @@ ms.keywords: IMsmMerge interface,get_Errors method, IMsmMerge.get_Errors, IMsmMe
 ms.topic: method
 f1_keywords: 
  - "mergemod/IMsmMerge.get_Errors"
+dev_langs:
+ - c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

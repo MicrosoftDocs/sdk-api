@@ -12,6 +12,8 @@ ms.keywords: "*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATD
 ms.topic: struct
 f1_keywords: 
  - "objidl/STATDATA"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

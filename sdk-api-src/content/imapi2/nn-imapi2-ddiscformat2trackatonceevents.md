@@ -12,6 +12,8 @@ ms.keywords: DDiscFormat2TrackAtOnceEvents, DDiscFormat2TrackAtOnceEvents interf
 ms.topic: interface
 f1_keywords: 
  - "imapi2/DDiscFormat2TrackAtOnceEvents"
+dev_langs:
+ - c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

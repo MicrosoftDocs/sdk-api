@@ -12,6 +12,8 @@ ms.keywords: DateTime_GetMonthCal, DateTime_GetMonthCal macro [Windows Controls]
 ms.topic: macro
 f1_keywords: 
  - "commctrl/DateTime_GetMonthCal"
+dev_langs:
+ - c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

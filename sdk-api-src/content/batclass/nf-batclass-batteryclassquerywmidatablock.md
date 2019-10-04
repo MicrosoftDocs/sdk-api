@@ -12,6 +12,8 @@ ms.keywords: BatteryClassQueryWmiDataBlock, BatteryClassQueryWmiDataBlock routin
 ms.topic: function
 f1_keywords: 
  - "batclass/BatteryClassQueryWmiDataBlock"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

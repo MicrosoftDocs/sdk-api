@@ -12,6 +12,8 @@ ms.keywords: CheckDeviceOverlayType, CheckDeviceOverlayType method [Media Founda
 ms.topic: method
 f1_keywords:
 - d3d9/IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

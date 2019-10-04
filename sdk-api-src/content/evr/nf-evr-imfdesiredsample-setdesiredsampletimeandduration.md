@@ -12,6 +12,8 @@ ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [M
 ms.topic: method
 f1_keywords: 
  - "evr/IMFDesiredSample.SetDesiredSampleTimeAndDuration"
+dev_langs:
+ - c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: Extract, Extract method [Windows Shell], Extract method [Windows Sh
 ms.topic: method
 f1_keywords: 
  - "shobjidl_core/IExtractImage.Extract"
+dev_langs:
+ - c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

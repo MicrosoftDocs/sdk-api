@@ -12,6 +12,8 @@ ms.keywords: GetTextAlignment, GetTextAlignment method [Direct Write], GetTextAl
 ms.topic: method
 f1_keywords: 
  - "dwrite/IDWriteTextFormat.GetTextAlignment"
+dev_langs:
+ - c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

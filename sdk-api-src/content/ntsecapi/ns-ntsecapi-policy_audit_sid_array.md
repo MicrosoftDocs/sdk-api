@@ -12,6 +12,8 @@ ms.keywords: '*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID
 ms.topic: struct
 f1_keywords:
 - ntsecapi/POLICY_AUDIT_SID_ARRAY
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

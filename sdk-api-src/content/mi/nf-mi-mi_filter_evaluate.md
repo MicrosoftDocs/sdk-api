@@ -12,6 +12,8 @@ ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management
 ms.topic: function
 f1_keywords: 
  - "mi/MI_Filter_Evaluate"
+dev_langs:
+ - c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

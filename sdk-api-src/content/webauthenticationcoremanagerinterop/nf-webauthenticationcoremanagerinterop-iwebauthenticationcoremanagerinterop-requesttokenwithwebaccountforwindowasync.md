@@ -7,6 +7,8 @@ ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountFor
 ms.topic: language-reference
 f1_keywords: 
  - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync"
+dev_langs:
+ - c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

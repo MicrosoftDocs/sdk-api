@@ -12,6 +12,8 @@ ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Wind
 ms.topic: method
 f1_keywords: 
  - "wcndevice/IWCNDevice.Connect"
+dev_langs:
+ - c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows

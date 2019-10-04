@@ -12,6 +12,8 @@ ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolder
 ms.topic: interface
 f1_keywords: 
  - "shobjidl/IFolderBandPriv"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

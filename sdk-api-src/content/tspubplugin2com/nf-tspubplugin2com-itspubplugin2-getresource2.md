@@ -12,6 +12,8 @@ ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetRes
 ms.topic: method
 f1_keywords: 
  - "tspubplugin2com/ItsPubPlugin2.GetResource2"
+dev_langs:
+ - c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

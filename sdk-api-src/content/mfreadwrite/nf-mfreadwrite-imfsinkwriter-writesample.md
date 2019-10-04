@@ -12,6 +12,8 @@ ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFS
 ms.topic: method
 f1_keywords: 
  - "mfreadwrite/IMFSinkWriter.WriteSample"
+dev_langs:
+ - c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

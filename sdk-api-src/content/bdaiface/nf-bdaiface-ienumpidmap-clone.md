@@ -12,6 +12,8 @@ ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPI
 ms.topic: method
 f1_keywords: 
  - "bdaiface/IEnumPIDMap.Clone"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: '*PKERB_QUERY_BINDING_CACHE_RESPONSE, KERB_QUERY_BINDING_CACHE_RESP
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_QUERY_BINDING_CACHE_RESPONSE
+dev_langs:
+ - c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

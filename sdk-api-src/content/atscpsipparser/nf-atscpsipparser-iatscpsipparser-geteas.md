@@ -12,6 +12,8 @@ ms.keywords: GetEAS, GetEAS method [Microsoft TV Technologies], GetEAS method [M
 ms.topic: method
 f1_keywords: 
  - "atscpsipparser/IAtscPsipParser.GetEAS"
+dev_langs:
+ - c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

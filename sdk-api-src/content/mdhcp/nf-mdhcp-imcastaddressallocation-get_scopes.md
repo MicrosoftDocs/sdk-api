@@ -12,6 +12,8 @@ ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],get_Scopes method, IMc
 ms.topic: method
 f1_keywords: 
  - "mdhcp/IMcastAddressAllocation.get_Scopes"
+dev_langs:
+ - c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFAC
 ms.topic: callback
 f1_keywords:
 - routprot/InterfaceStatus
+dev_langs:
+ - c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: 7de78b9b-0918-15ce-f2b5-f1b433033d52, GetScissorRect, GetScissorRec
 ms.topic: method
 f1_keywords: 
  - "d3d9/IDirect3DDevice9.GetScissorRect"
+dev_langs:
+ - c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

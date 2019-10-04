@@ -12,6 +12,8 @@ ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service
 ms.topic: method
 f1_keywords: 
  - "faxcomex/IFaxSecurity2.Descriptor"
+dev_langs:
+ - c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

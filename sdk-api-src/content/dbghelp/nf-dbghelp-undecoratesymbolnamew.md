@@ -12,6 +12,8 @@ ms.keywords: UNDNAME_32_BIT_DECODE, UNDNAME_COMPLETE, UNDNAME_NAME_ONLY, UNDNAME
 ms.topic: function
 f1_keywords: 
  - "dbghelp/UnDecorateSymbolName"
+dev_langs:
+ - c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

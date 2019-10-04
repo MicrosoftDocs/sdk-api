@@ -12,6 +12,8 @@ ms.keywords: SCARD_ATTR_ATR_STRING, SCARD_ATTR_CHANNEL_ID, SCARD_ATTR_CHARACTERI
 ms.topic: function
 f1_keywords: 
  - "winscard/SCardGetAttrib"
+dev_langs:
+ - c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncDevice interface [Windows Media Player],showSettings method
 ms.topic: method
 f1_keywords: 
  - "wmp/IWMPSyncDevice.showSettings"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

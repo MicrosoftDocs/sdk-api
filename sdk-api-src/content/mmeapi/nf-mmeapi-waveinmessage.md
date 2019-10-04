@@ -12,6 +12,8 @@ ms.keywords: "_win32_waveInMessage, mmeapi/waveInMessage, multimedia.waveinmessa
 ms.topic: function
 f1_keywords: 
  - "mmeapi/waveInMessage"
+dev_langs:
+ - c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

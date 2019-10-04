@@ -12,6 +12,8 @@ ms.keywords: WRITE_THROUGH, WRITE_THROUGH enumeration [Files], WriteThroughNotSu
 ms.topic: enum
 f1_keywords:
 - winioctl/WRITE_THROUGH
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

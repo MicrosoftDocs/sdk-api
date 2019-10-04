@@ -12,6 +12,8 @@ ms.keywords: GetIncludeFile, GetIncludeFile method [VSS], GetIncludeFile method 
 ms.topic: method
 f1_keywords: 
  - "vsbackup/IVssExamineWriterMetadata.GetIncludeFile"
+dev_langs:
+ - c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

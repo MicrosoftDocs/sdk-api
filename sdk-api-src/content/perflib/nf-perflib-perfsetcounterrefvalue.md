@@ -12,6 +12,8 @@ ms.keywords: PerfSetCounterRefValue, PerfSetCounterRefValue function [Perf], bas
 ms.topic: function
 f1_keywords:
 - perflib/PerfSetCounterRefValue
+dev_langs:
+ - c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

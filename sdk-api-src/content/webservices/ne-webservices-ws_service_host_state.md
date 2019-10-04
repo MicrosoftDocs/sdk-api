@@ -12,6 +12,8 @@ ms.keywords: WS_SERVICE_HOST_STATE, WS_SERVICE_HOST_STATE enumeration [Web Servi
 ms.topic: enum
 f1_keywords: 
  - "webservices/WS_SERVICE_HOST_STATE"
+dev_langs:
+ - c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

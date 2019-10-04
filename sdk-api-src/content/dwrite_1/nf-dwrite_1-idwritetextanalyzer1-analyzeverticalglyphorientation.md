@@ -12,6 +12,8 @@ ms.keywords: AnalyzeVerticalGlyphOrientation, AnalyzeVerticalGlyphOrientation me
 ms.topic: method
 f1_keywords: 
  - "dwrite_1/IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation"
+dev_langs:
+ - c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

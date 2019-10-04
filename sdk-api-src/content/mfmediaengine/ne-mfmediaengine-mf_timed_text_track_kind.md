@@ -12,6 +12,8 @@ ms.keywords: MF_TIMED_TEXT_TRACK_KIND, MF_TIMED_TEXT_TRACK_KIND enumeration [Med
 ms.topic: enum
 f1_keywords: 
  - "mfmediaengine/MF_TIMED_TEXT_TRACK_KIND"
+dev_langs:
+ - c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

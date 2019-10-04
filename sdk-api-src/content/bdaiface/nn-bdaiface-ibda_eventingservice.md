@@ -12,6 +12,8 @@ ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV 
 ms.topic: interface
 f1_keywords: 
  - "bdaiface/IBDA_EventingService"
+dev_langs:
+ - c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

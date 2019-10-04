@@ -12,6 +12,8 @@ ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerat
 ms.topic: function
 f1_keywords:
 - mgm/MgmGroupEnumerationStart
+dev_langs:
+ - c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

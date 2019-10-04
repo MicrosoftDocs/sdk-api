@@ -12,6 +12,8 @@ ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptg
 ms.topic: function
 f1_keywords: 
  - "wincrypt/CryptGenRandom"
+dev_langs:
+ - c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

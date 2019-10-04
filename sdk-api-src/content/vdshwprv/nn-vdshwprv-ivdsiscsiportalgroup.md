@@ -12,6 +12,8 @@ ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIsc
 ms.topic: interface
 f1_keywords: 
  - "vdshwprv/IVdsIscsiPortalGroup"
+dev_langs:
+ - c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

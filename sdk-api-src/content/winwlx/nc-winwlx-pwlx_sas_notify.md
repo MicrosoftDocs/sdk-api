@@ -12,6 +12,8 @@ ms.keywords: PWLX_SAS_NOTIFY, PWLX_SAS_NOTIFY callback, WLX_SAS_TYPE_CTRL_ALT_DE
 ms.topic: callback
 f1_keywords: 
  - "winwlx/WlxSasNotify"
+dev_langs:
+ - c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

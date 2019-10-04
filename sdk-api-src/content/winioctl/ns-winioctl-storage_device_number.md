@@ -12,6 +12,8 @@ ms.keywords: "*PSTORAGE_DEVICE_NUMBER, FILE_DEVICE_8042_PORT, FILE_DEVICE_ACPI, 
 ms.topic: struct
 f1_keywords: 
  - "winioctl/STORAGE_DEVICE_NUMBER"
+dev_langs:
+ - c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

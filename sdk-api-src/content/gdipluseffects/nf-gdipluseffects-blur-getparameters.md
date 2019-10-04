@@ -12,6 +12,8 @@ ms.keywords: Blur class [GDI+],GetParameters method, Blur.GetParameters, Blur::G
 ms.topic: method
 f1_keywords: 
  - "gdipluseffects/Blur.GetParameters"
+dev_langs:
+ - c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

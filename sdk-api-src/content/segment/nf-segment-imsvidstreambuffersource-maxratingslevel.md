@@ -12,6 +12,8 @@ ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxR
 ms.topic: method
 f1_keywords: 
  - "segment/IMSVidStreamBufferSource.MaxRatingsLevel"
+dev_langs:
+ - c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

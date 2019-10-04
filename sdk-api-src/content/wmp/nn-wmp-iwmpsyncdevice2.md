@@ -12,6 +12,8 @@ ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], 
 ms.topic: interface
 f1_keywords: 
  - "wmp/IWMPSyncDevice2"
+dev_langs:
+ - c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

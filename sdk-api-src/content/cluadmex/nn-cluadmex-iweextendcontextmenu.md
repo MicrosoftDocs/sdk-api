@@ -12,6 +12,8 @@ ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Clus
 ms.topic: interface
 f1_keywords: 
  - "cluadmex/IWEExtendContextMenu"
+dev_langs:
+ - c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

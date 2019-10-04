@@ -12,6 +12,8 @@ ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packagin
 ms.topic: method
 f1_keywords: 
  - "xpsobjectmodel_2/IXpsOMPackageWriter3D.AddModelTexture"
+dev_langs:
+ - c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

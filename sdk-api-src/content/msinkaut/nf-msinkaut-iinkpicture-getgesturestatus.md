@@ -12,6 +12,8 @@ ms.keywords: GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureSt
 ms.topic: method
 f1_keywords: 
  - "msinkaut/IInkPicture.GetGestureStatus"
+dev_langs:
+ - c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

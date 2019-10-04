@@ -12,6 +12,8 @@ ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecomm
 ms.topic: function
 f1_keywords: 
  - "msiquery/MsiDatabaseCommit"
+dev_langs:
+ - c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

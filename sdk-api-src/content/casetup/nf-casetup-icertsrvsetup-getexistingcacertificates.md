@@ -12,6 +12,8 @@ ms.keywords: GetExistingCACertificates, GetExistingCACertificates method [Securi
 ms.topic: method
 f1_keywords: 
  - "casetup/ICertSrvSetup.GetExistingCACertificates"
+dev_langs:
+ - c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

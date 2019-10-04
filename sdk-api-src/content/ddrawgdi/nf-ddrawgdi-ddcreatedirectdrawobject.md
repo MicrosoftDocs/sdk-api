@@ -12,6 +12,8 @@ ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Window
 ms.topic: function
 f1_keywords: 
  - "ddrawgdi/DdCreateDirectDrawObject"
+dev_langs:
+ - c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows

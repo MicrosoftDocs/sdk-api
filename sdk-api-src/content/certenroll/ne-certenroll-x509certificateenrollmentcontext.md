@@ -12,6 +12,8 @@ ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509
 ms.topic: enum
 f1_keywords: 
  - "certenroll/X509CertificateEnrollmentContext"
+dev_langs:
+ - c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

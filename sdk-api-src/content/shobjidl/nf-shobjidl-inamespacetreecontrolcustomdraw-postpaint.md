@@ -12,6 +12,8 @@ ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PostPaint
 ms.topic: method
 f1_keywords: 
  - "shobjidl/INameSpaceTreeControlCustomDraw.PostPaint"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

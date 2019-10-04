@@ -12,6 +12,8 @@ ms.keywords: FlattenPath, FlattenPath function [Windows GDI], _win32_FlattenPath
 ms.topic: function
 f1_keywords: 
  - "wingdi/FlattenPath"
+dev_langs:
+ - c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CInstance interface [Windows Management Instrumentation],GetStatus 
 ms.topic: method
 f1_keywords: 
  - "instance/CInstance.GetStatus"
+dev_langs:
+ - c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

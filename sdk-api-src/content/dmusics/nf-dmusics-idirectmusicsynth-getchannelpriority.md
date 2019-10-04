@@ -12,6 +12,8 @@ ms.keywords: GetChannelPriority, GetChannelPriority method [Audio Devices], GetC
 ms.topic: method
 f1_keywords: 
  - "dmusics/IDirectMusicSynth.GetChannelPriority"
+dev_langs:
+ - c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

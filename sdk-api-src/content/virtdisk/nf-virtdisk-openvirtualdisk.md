@@ -12,6 +12,8 @@ ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtual
 ms.topic: function
 f1_keywords: 
  - "virtdisk/OpenVirtualDisk"
+dev_langs:
+ - c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

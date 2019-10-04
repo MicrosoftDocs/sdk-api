@@ -12,6 +12,8 @@ ms.keywords: CMSPStream interface [TAPI 2.2],FinalRelease method, CMSPStream.Fin
 ms.topic: method
 f1_keywords: 
  - "mspstrm/CMSPStream.FinalRelease"
+dev_langs:
+ - c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALL
 ms.topic: struct
 f1_keywords: 
  - "strmif/VMRALLOCATIONINFO"
+dev_langs:
+ - c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

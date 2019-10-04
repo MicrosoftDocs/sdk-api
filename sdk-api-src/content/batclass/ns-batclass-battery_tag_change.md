@@ -12,6 +12,8 @@ ms.keywords: "*PBATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE struc
 ms.topic: struct
 f1_keywords: 
  - "batclass/BATTERY_TAG_CHANGE"
+dev_langs:
+ - c++
 req.header: batclass.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: ITextHost interface [Windows Controls],TxReleaseDC method, ITextHos
 ms.topic: method
 f1_keywords: 
  - "textserv/ITextHost.TxReleaseDC"
+dev_langs:
+ - c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

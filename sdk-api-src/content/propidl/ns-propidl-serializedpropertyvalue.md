@@ -12,6 +12,8 @@ ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows
 ms.topic: struct
 f1_keywords: 
  - "propidl/SERIALIZEDPROPERTYVALUE"
+dev_langs:
+ - c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: CustomLineCap class [GDI+],SetStrokeJoin method, CustomLineCap.SetS
 ms.topic: method
 f1_keywords: 
  - "gdiplusheaders/CustomLineCap.SetStrokeJoin"
+dev_langs:
+ - c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

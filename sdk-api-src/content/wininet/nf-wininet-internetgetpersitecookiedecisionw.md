@@ -12,6 +12,8 @@ ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision 
 ms.topic: function
 f1_keywords: 
  - "wininet/InternetGetPerSiteCookieDecision"
+dev_langs:
+ - c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

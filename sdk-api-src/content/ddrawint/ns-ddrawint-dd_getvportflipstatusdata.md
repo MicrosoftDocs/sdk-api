@@ -12,6 +12,8 @@ ms.keywords: '*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA, DD_GETVPOR
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTFLIPSTATUSDATA
+dev_langs:
+ - c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

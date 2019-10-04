@@ -12,6 +12,8 @@ ms.keywords: TUISPI_providerGenericDialog, TUISPI_providerGenericDialog function
 ms.topic: function
 f1_keywords: 
  - "tspi/TUISPI_providerGenericDialog"
+dev_langs:
+ - c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

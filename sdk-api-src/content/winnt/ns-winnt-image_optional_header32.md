@@ -12,6 +12,8 @@ ms.keywords: '*PIMAGE_OPTIONAL_HEADER32, IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE, 
 ms.topic: struct
 f1_keywords:
 - winnt/IMAGE_OPTIONAL_HEADER
+dev_langs:
+ - c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

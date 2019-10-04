@@ -12,6 +12,8 @@ ms.keywords: AddListener, AddListener method [Direct Write], AddListener method 
 ms.topic: method
 f1_keywords: 
  - "dwrite_3/IDWriteFontDownloadQueue.AddListener"
+dev_langs:
+ - c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

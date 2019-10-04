@@ -12,6 +12,8 @@ ms.keywords: "_win32_timeEndPeriod, mmsystem/timeEndPeriod, multimedia.timeendpe
 ms.topic: function
 f1_keywords: 
  - "timeapi/timeEndPeriod"
+dev_langs:
+ - c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

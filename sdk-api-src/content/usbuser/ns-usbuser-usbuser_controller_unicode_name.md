@@ -12,6 +12,8 @@ ms.keywords: '*PUSBUSER_CONTROLLER_UNICODE_NAME, PUSBUSER_CONTROLLER_UNICODE_NAM
 ms.topic: struct
 f1_keywords:
 - usbuser/USBUSER_CONTROLLER_UNICODE_NAME
+dev_langs:
+ - c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

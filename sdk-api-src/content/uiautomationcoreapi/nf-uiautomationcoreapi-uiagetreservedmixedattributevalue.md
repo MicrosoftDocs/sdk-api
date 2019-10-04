@@ -12,6 +12,8 @@ ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValu
 ms.topic: function
 f1_keywords: 
  - "uiautomationcoreapi/UiaGetReservedMixedAttributeValue"
+dev_langs:
+ - c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

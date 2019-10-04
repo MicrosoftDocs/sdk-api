@@ -12,6 +12,8 @@ ms.keywords: GetFieldValue, GetFieldValue method [File Server Resource Manager],
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPropertyBag2.GetFieldValue
+dev_langs:
+ - c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

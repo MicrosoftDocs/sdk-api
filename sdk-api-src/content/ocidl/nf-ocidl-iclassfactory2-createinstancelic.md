@@ -12,6 +12,8 @@ ms.keywords: CreateInstanceLic, CreateInstanceLic method [COM], CreateInstanceLi
 ms.topic: method
 f1_keywords: 
  - "ocidl/IClassFactory2.CreateInstanceLic"
+dev_langs:
+ - c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

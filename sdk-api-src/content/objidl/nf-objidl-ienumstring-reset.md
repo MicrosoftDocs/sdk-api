@@ -12,6 +12,8 @@ ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumS
 ms.topic: method
 f1_keywords: 
  - "objidl/IEnumString.Reset"
+dev_langs:
+ - c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

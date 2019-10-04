@@ -12,6 +12,8 @@ ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],SetDirectXMana
 ms.topic: method
 f1_keywords: 
  - "mfidl/IMFVideoSampleAllocator.SetDirectXManager"
+dev_langs:
+ - c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,8 @@ ms.keywords: RM_APP_TYPE, RmConsole, RmCritical, RmExplorer, RmMainWindow, RmOth
 ms.topic: enum
 f1_keywords:
 - restartmanager/RM_APP_TYPE
+dev_langs:
+ - c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

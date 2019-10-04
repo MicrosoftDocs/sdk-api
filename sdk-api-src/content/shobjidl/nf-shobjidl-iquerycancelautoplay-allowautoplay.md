@@ -12,6 +12,8 @@ ms.keywords: ARCONTENT_AUDIOCD, ARCONTENT_AUTOPLAYMUSIC, ARCONTENT_AUTOPLAYPIX, 
 ms.topic: method
 f1_keywords: 
  - "shobjidl/IQueryCancelAutoPlay.AllowAutoPlay"
+dev_langs:
+ - c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

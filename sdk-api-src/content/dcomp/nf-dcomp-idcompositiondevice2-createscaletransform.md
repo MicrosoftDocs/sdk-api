@@ -12,6 +12,8 @@ ms.keywords: CreateScaleTransform, CreateScaleTransform method [DirectCompositio
 ms.topic: method
 f1_keywords: 
  - "dcomp/IDCompositionDevice2.CreateScaleTransform"
+dev_langs:
+ - c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

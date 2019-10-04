@@ -12,6 +12,8 @@ ms.keywords: GetField, GetField method [Automation], GetField method [Automation
 ms.topic: method
 f1_keywords: 
  - "oaidl/IRecordInfo.GetField"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

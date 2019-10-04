@@ -12,6 +12,8 @@ ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMemb
 ms.topic: method
 f1_keywords: 
  - "oaidl/ITypeInfo.AddressOfMember"
+dev_langs:
+ - c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
